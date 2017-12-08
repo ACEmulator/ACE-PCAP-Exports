@@ -51,3 +51,53 @@ VALUES (30302, 0, 83897079, 83897079);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30302, 0, 16791983);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30302, 16, 'At first glance this would be a fairly unremarkable shortbow, except that it is made of ebonwood. This wood hails from the perilous Forest of Shades in Ispar and is prized by bowyers for its exceptional qualities.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30302, 320, 1) /* ITEM_XP_STYLE_INT */
+     , (30302, 384, 1) /*  */
+     , (30302, 353, 8) /* WEAPON_TYPE_INT */
+     , (30302, 17, 192) /* RARE_ID_INT */
+     , (30302, 19, 50000) /* VALUE_INT */
+     , (30302, 179, 16) /* IMBUED_EFFECT_INT */
+     , (30302, 5, 550) /* ENCUMB_VAL_INT */
+     , (30302, 265, 41) /* EQUIPMENT_SET_ID_INT */
+     , (30302, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (30302, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (30302, 204, 16) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (30302, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30302, 319, 50) /* ITEM_MAX_LEVEL_INT */
+     , (30302, 383, 1) /*  */
+     , (30302, 45, 2) /* DAMAGE_TYPE_INT */
+     , (30302, 49, 35) /* WEAPON_TIME_INT */
+     , (30302, 48, 47) /* WEAPON_SKILL_INT */
+     , (30302, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (30302, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
+     , (30302, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30302, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (30302, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (30302, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (30302, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (30302, 63, 2.7) /* DAMAGE_MOD_FLOAT */
+     , (30302, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30302, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30302, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30302, 91, 1) /* RETAINED_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30302, 4687) /* CANTRIPBOWAPTITUDE3_SpellID */
+     , (30302, 4560) /* InvulnerabilitySelf8_SpellID */
+     , (30302, 4522) /* BowMasterySelf8_SpellID */
+     , (30302, 4395) /* Blooddrinker8_SpellID */
+     , (30302, 4400) /* Defender8_SpellID */
+     , (30302, 4661) /* CANTRIPBLOODTHIRST3_SpellID */;
+

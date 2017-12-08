@@ -42,7 +42,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (515, 14, 'Use this item on a locked door or chest to pick the lock.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (515, 19, 744) /* VALUE_INT */
+VALUES (515, 19, 1200) /* VALUE_INT */
      , (515, 5, 50) /* ENCUMB_VAL_INT */
      , (515, 91, 50) /* MAX_STRUCTURE_INT */
      , (515, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;

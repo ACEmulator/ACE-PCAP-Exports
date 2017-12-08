@@ -49,6 +49,20 @@ VALUES (29572, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29572, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29572, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Pierce Rending. Pierce Rending gives the weapon the ability to make its opponent vulnerable to piercing attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Piercing Vulnerability spells.') /* USE_STRING */
+     , (29572, 15, 'Chips of black garnet material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29572, 33, 1) /* BONDED_INT */
+     , (29572, 19, 10) /* VALUE_INT */
+     , (29572, 131, 15) /* MATERIAL_TYPE_INT */
+     , (29572, 5, 100) /* ENCUMB_VAL_INT */
+     , (29572, 105, 100) /* ITEM_WORKMANSHIP_INT */
+     , (29572, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

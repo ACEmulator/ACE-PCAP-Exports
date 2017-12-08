@@ -36,3 +36,21 @@ VALUES (52783, 13, True) /* ETHEREAL_BOOL */
      , (52783, 19, True) /* ATTACKABLE_BOOL */
      , (52783, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52783, 16, 'A dark silver key.') /* LONG_DESC_STRING */
+     , (52783, 14, 'Use this key to open a Gauntlet Armor, Magic, or Weapon Chest.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52783, 369, 150) /* USE_REQUIRES_LEVEL_INT */
+     , (52783, 33, 1) /* BONDED_INT */
+     , (52783, 114, 1) /* ATTUNED_INT */
+     , (52783, 19, 7) /* VALUE_INT */
+     , (52783, 5, 30) /* ENCUMB_VAL_INT */
+     , (52783, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52783, 99, 0) /* IVORYABLE_BOOL */
+     , (52783, 69, 0) /* IS_SELLABLE_BOOL */;
+

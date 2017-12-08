@@ -42,6 +42,28 @@ VALUES (23873, 13, True) /* ETHEREAL_BOOL */
      , (23873, 17, True) /* INELASTIC_BOOL */
      , (23873, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23873, 353, 10) /* WEAPON_TYPE_INT */
+     , (23873, 19, 10) /* VALUE_INT */
+     , (23873, 5, 50) /* ENCUMB_VAL_INT */
+     , (23873, 45, 2) /* DAMAGE_TYPE_INT */
+     , (23873, 49, 10) /* WEAPON_TIME_INT */
+     , (23873, 48, 47) /* WEAPON_SKILL_INT */
+     , (23873, 44, 50) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23873, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (23873, 22, 0.2) /* DAMAGE_VARIANCE_FLOAT */
+     , (23873, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23873, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23873, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23873, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23873, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

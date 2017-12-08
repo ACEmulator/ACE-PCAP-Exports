@@ -56,7 +56,7 @@ VALUES (7407, 16, 'A staff made from the petrified wood of Aerlinthe, taken from
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7407, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
      , (7407, 33, 1) /* BONDED_INT */
-     , (7407, 114, 1) /* ATTUNED_INT */
+     , (7407, 114, 0) /* ATTUNED_INT */
      , (7407, 115, 230) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (7407, 19, 10150) /* VALUE_INT */
      , (7407, 5, 250) /* ENCUMB_VAL_INT */
@@ -71,7 +71,8 @@ VALUES (7407, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
      , (7407, 5, -0.083) /* MANA_RATE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7407, 99, 1) /* IVORYABLE_BOOL */;
+VALUES (7407, 99, 1) /* IVORYABLE_BOOL */
+     , (7407, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (7407, 1794) /* AcidStreak5_SpellID */

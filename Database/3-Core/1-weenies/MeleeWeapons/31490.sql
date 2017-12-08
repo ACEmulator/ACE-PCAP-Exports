@@ -36,3 +36,34 @@ VALUES (31490, 13, True) /* ETHEREAL_BOOL */
      , (31490, 19, True) /* ATTACKABLE_BOOL */
      , (31490, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31490, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (31490, 353, 3) /* WEAPON_TYPE_INT */
+     , (31490, 19, 1500) /* VALUE_INT */
+     , (31490, 5, 800) /* ENCUMB_VAL_INT */
+     , (31490, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (31490, 108, 1200) /* ITEM_MAX_MANA_INT */
+     , (31490, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31490, 47, 4) /* ATTACK_TYPE_INT */
+     , (31490, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (31490, 45, 1) /* DAMAGE_TYPE_INT */
+     , (31490, 49, 60) /* WEAPON_TIME_INT */
+     , (31490, 48, 44) /* WEAPON_SKILL_INT */
+     , (31490, 44, 52) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31490, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (31490, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (31490, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (31490, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (31490, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31490, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31490, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31490, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31490, 2096) /* BloodDrinker7_SpellID */
+     , (31490, 2106) /* Heartseeker7_SpellID */;
+

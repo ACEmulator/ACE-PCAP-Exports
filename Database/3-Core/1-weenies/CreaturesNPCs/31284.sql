@@ -97,11 +97,11 @@ VALUES (31284, 5, 'Royal Emissary') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31284, 16, 67110063) /* EYES_PALETTE_DID */
-     , (31284, 9, 83890458) /* EYES_TEXTURE_DID */
-     , (31284, 17, 67110056) /* SKIN_PALETTE_DID */
+     , (31284, 9, 83890454) /* EYES_TEXTURE_DID */
+     , (31284, 17, 67110049) /* SKIN_PALETTE_DID */
      , (31284, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (31284, 11, 83890571) /* MOUTH_TEXTURE_DID */
-     , (31284, 15, 67117074) /* HAIR_PALETTE_DID */;
+     , (31284, 11, 83890613) /* MOUTH_TEXTURE_DID */
+     , (31284, 15, 67117016) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31284, 113, 1) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (31284, 113, 1) /* GENDER_INT */
      , (31284, 25, 36) /* LEVEL_INT */
      , (31284, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31284, 1, 115) /* STRENGTH_ATTRIBUTE */
+     , (31284, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31284, 4, 180) /* COORDINATION_ATTRIBUTE */
+     , (31284, 8, 125) /* QUICKNESS_ATTRIBUTE */
+     , (31284, 16, 80) /* FOCUS_ATTRIBUTE */
+     , (31284, 32, 55) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31284, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31284, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31284, 128, 148) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31284, 256, 65) /* MAX_MANA_ATTRIBUTE_2ND */;
 

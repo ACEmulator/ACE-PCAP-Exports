@@ -34,24 +34,6 @@ VALUES (2462, 13, True) /* ETHEREAL_BOOL */
      , (2462, 14, True) /* GRAVITY_STATUS_BOOL */
      , (2462, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2462, 16, 'Sceptre') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2462, 177, 3) /* GEM_COUNT_INT */
-     , (2462, 178, 23) /* GEM_TYPE_INT */
-     , (2462, 19, 1663) /* VALUE_INT */
-     , (2462, 131, 31) /* MATERIAL_TYPE_INT */
-     , (2462, 5, 50) /* ENCUMB_VAL_INT */
-     , (2462, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (2462, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2462, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
-     , (2462, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

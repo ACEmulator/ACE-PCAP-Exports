@@ -41,3 +41,17 @@ VALUES (8366, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8366, 0, 16777923);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8366, 15, 'A large and heavy mace, seemingly too unstable to wield. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8366, 33, 1) /* BONDED_INT */
+     , (8366, 114, 1) /* ATTUNED_INT */
+     , (8366, 19, 10) /* VALUE_INT */
+     , (8366, 5, 1500) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8366, 69, 0) /* IS_SELLABLE_BOOL */;
+

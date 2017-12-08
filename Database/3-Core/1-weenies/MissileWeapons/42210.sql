@@ -49,3 +49,31 @@ VALUES (42210, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42210, 0, 16791758);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42210, 353, 9) /* WEAPON_TYPE_INT */
+     , (42210, 19, 375) /* VALUE_INT */
+     , (42210, 5, 1920) /* ENCUMB_VAL_INT */
+     , (42210, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (42210, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (42210, 109, 15) /* ITEM_DIFFICULTY_INT */
+     , (42210, 45, 0) /* DAMAGE_TYPE_INT */
+     , (42210, 49, 120) /* WEAPON_TIME_INT */
+     , (42210, 48, 47) /* WEAPON_SKILL_INT */
+     , (42210, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42210, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (42210, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (42210, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (42210, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (42210, 63, 2.3) /* DAMAGE_MOD_FLOAT */
+     , (42210, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (42210, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (42210, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (42210, 1613) /* BloodDrinker3_SpellID */
+     , (42210, 463) /* BowMasteryOther3_SpellID */;
+

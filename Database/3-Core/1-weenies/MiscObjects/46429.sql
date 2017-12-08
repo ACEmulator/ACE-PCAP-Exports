@@ -32,3 +32,18 @@ VALUES (46429, 13, True) /* ETHEREAL_BOOL */
      , (46429, 19, True) /* ATTACKABLE_BOOL */
      , (46429, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46429, 16, 'This ancient bone appears to be an arm bone. One end of it has been carefully shaped into a notch.') /* LONG_DESC_STRING */
+     , (46429, 14, 'The bone is extremely old and brittle. It clearly will not last for long inside of your packs. ') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46429, 33, 1) /* BONDED_INT */
+     , (46429, 98, 1485732495) /* CREATION_TIMESTAMP_INT */
+     , (46429, 114, 1) /* ATTUNED_INT */
+     , (46429, 19, 0) /* VALUE_INT */
+     , (46429, 5, 50) /* ENCUMB_VAL_INT */
+     , (46429, 267, 7200) /* LIFESPAN_INT */
+     , (46429, 268, 7195) /* REMAINING_LIFESPAN_INT */;
+

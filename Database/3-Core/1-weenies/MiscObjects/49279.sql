@@ -53,3 +53,30 @@ VALUES (49279, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49279, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49279, 14, 'Use this essence to summon or dismiss your Frost Child.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49279, 369, 140) /* USE_REQUIRES_LEVEL_INT */
+     , (49279, 33, 0) /* BONDED_INT */
+     , (49279, 370, 12) /* GEAR_DAMAGE_INT */
+     , (49279, 114, 0) /* ATTUNED_INT */
+     , (49279, 371, 15) /* GEAR_DAMAGE_RESIST_INT */
+     , (49279, 19, 8000) /* VALUE_INT */
+     , (49279, 373, 7) /* GEAR_CRIT_RESIST_INT */
+     , (49279, 5, 50) /* ENCUMB_VAL_INT */
+     , (49279, 375, 7) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (49279, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (49279, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (49279, 91, 50) /* MAX_STRUCTURE_INT */
+     , (49279, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (49279, 367, 475) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49279, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49279, 69, 1) /* IS_SELLABLE_BOOL */;
+

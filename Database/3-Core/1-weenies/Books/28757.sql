@@ -33,3 +33,30 @@ VALUES (28757, 13, True) /* ETHEREAL_BOOL */
      , (28757, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28757, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28757, 16, 'A note scrawled in a near-illegible hand.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28757, 33, 1) /* BONDED_INT */
+     , (28757, 114, 0) /* ATTUNED_INT */
+     , (28757, 19, 0) /* VALUE_INT */
+     , (28757, 5, 5) /* ENCUMB_VAL_INT */
+     , (28757, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28757, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28757, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28757, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (28757, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (28757, 0, 'Skree', 'prewritten', 4294967295, 0, '
+Bendurleengz tayk buk we steel frum man that maeks dreenks that ar taesti and dissie! Thay fight and rip buk intu peeces! Thay steel peeces and tayk to Reemoet Volt of Old Ones. Thay tayk to garrussun of big soljurs! Thay tayk to Din of big beest naym uf Lola! Wee hayt Bendurleengz! Wee must git bak buk!
+');
+

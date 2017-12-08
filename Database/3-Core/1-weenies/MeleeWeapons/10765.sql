@@ -52,3 +52,39 @@ VALUES (10765, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10765, 0, 16785974);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10765, 16, 'A strange glowing sickle that crackles with energy.  Its unusually sharp edge seems as if it could inflict devastating wounds.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10765, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (10765, 353, 3) /* WEAPON_TYPE_INT */
+     , (10765, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (10765, 19, 3500) /* VALUE_INT */
+     , (10765, 5, 500) /* ENCUMB_VAL_INT */
+     , (10765, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (10765, 108, 1100) /* ITEM_MAX_MANA_INT */
+     , (10765, 109, 140) /* ITEM_DIFFICULTY_INT */
+     , (10765, 47, 4) /* ATTACK_TYPE_INT */
+     , (10765, 45, 1) /* DAMAGE_TYPE_INT */
+     , (10765, 49, 40) /* WEAPON_TIME_INT */
+     , (10765, 48, 46) /* WEAPON_SKILL_INT */
+     , (10765, 44, 18) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10765, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (10765, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (10765, 5, -0.1) /* MANA_RATE_FLOAT */
+     , (10765, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (10765, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (10765, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (10765, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (10765, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (10765, 1614) /* BloodDrinker4_SpellID */
+     , (10765, 1625) /* SwiftKiller4_SpellID */
+     , (10765, 1590) /* HeartSeeker4_SpellID */
+     , (10765, 247) /* InvulnerabilitySelf4_SpellID */;
+

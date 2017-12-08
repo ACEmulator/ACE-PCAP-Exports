@@ -35,3 +35,17 @@ VALUES (3115, 13, True) /* ETHEREAL_BOOL */
      , (3115, 19, True) /* ATTACKABLE_BOOL */
      , (3115, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3115, 16, 'Inscribed spell: Regeneration Self IV
+Increase caster''s natural healing rate by 55%.') /* LONG_DESC_STRING */
+     , (3115, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3115, 19, 100) /* VALUE_INT */
+     , (3115, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3115, 168) /* RegenerationSelf4_SpellID */;
+

@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (9495, 5, 'Gamesmaster') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (9495, 16, 67109566) /* EYES_PALETTE_DID */
-     , (9495, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (9495, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (9495, 10, 83890292) /* NOSE_TEXTURE_DID */
-     , (9495, 11, 83890353) /* MOUTH_TEXTURE_DID */
-     , (9495, 15, 67117016) /* HAIR_PALETTE_DID */;
+VALUES (9495, 16, 67110064) /* EYES_PALETTE_DID */
+     , (9495, 9, 83890260) /* EYES_TEXTURE_DID */
+     , (9495, 17, 67109559) /* SKIN_PALETTE_DID */
+     , (9495, 10, 83890315) /* NOSE_TEXTURE_DID */
+     , (9495, 11, 83890347) /* MOUTH_TEXTURE_DID */
+     , (9495, 15, 67117027) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9495, 113, 2) /* GENDER_INT */

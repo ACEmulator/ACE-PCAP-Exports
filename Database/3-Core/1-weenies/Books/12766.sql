@@ -44,3 +44,30 @@ VALUES (12766, 33, 1) /* BONDED_INT */
      , (12766, 174, 2) /* APPRAISAL_PAGES_INT */
      , (12766, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12766, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (12766, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
+     , (12766, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (12766, 0, 'Training Master', 'prewritten', 4294967295, 0, 'When you gain in experience, you can raise your Attributes and Skills to modify your character. Look under your Inventory for a green button with an icon of a flexed arm, and click on it. This will bring up your Attributes and Skills panel.
+
+Click on the Attribute you would like to raise. If you have enough experience to raise that attribute, a green "Raise" button will appear in the lower-right corner of your Attributes and Skills Panel.
+
+(Click on the green arrow to read more!)
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (12766, 1, 'Training Master', 'prewritten', 4294967295, 0, 'Click on the "Raise" Button to raise the Attribute you selected. 
+
+You can also raise your Skills the same way. Click on the Skills tab to see your skills.
+
+When you gain in level, you can earn skill credits. You can use these skill credits to train in skills you do not have yet.
+');
+

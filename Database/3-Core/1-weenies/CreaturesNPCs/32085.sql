@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (32085, 5, 'Renovation Specialist') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32085, 16, 67110064) /* EYES_PALETTE_DID */
+VALUES (32085, 16, 67110062) /* EYES_PALETTE_DID */
      , (32085, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (32085, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (32085, 10, 83890292) /* NOSE_TEXTURE_DID */
-     , (32085, 11, 83890342) /* MOUTH_TEXTURE_DID */
-     , (32085, 15, 67116987) /* HAIR_PALETTE_DID */;
+     , (32085, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (32085, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (32085, 11, 83890348) /* MOUTH_TEXTURE_DID */
+     , (32085, 15, 67116992) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32085, 113, 2) /* GENDER_INT */
@@ -104,6 +104,16 @@ VALUES (32085, 113, 2) /* GENDER_INT */
      , (32085, 25, 65) /* LEVEL_INT */
      , (32085, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (32085, 1, 212) /* STRENGTH_ATTRIBUTE */
+     , (32085, 2, 170) /* ENDURANCE_ATTRIBUTE */
+     , (32085, 4, 195) /* COORDINATION_ATTRIBUTE */
+     , (32085, 8, 120) /* QUICKNESS_ATTRIBUTE */
+     , (32085, 16, 220) /* FOCUS_ATTRIBUTE */
+     , (32085, 32, 230) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32085, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (32085, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (32085, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (32085, 256, 230) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -122,22 +122,33 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (43847, 5, 'Royal Knight Mage') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43847, 16, 67116856) /* EYES_PALETTE_DID */
-     , (43847, 9, 83890515) /* EYES_TEXTURE_DID */
-     , (43847, 17, 67116962) /* SKIN_PALETTE_DID */
-     , (43847, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (43847, 11, 83890632) /* MOUTH_TEXTURE_DID */
-     , (43847, 15, 67117022) /* HAIR_PALETTE_DID */;
+VALUES (43847, 16, 67116858) /* EYES_PALETTE_DID */
+     , (43847, 9, 83890448) /* EYES_TEXTURE_DID */
+     , (43847, 17, 67115905) /* SKIN_PALETTE_DID */
+     , (43847, 10, 83890522) /* NOSE_TEXTURE_DID */
+     , (43847, 11, 83890642) /* MOUTH_TEXTURE_DID */
+     , (43847, 15, 67117021) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43847, 113, 1) /* GENDER_INT */
      , (43847, 2, 31) /* CREATURE_TYPE_INT */
+     , (43847, 307, 5) /* DAMAGE_RATING_INT */
      , (43847, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (43847, 25, 275) /* LEVEL_INT */
      , (43847, 188, 9) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43847, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (43847, 2, 260) /* ENDURANCE_ATTRIBUTE */
+     , (43847, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (43847, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (43847, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (43847, 32, 290) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43847, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (43847, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43847, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43847, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

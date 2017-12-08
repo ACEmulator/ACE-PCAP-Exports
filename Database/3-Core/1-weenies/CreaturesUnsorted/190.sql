@@ -94,12 +94,12 @@ VALUES (190, 12, 16777304)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (190, 16, 67110063) /* EYES_PALETTE_DID */
-     , (190, 9, 83890466) /* EYES_TEXTURE_DID */
-     , (190, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (190, 10, 83890554) /* NOSE_TEXTURE_DID */
-     , (190, 11, 83890643) /* MOUTH_TEXTURE_DID */
-     , (190, 15, 67117020) /* HAIR_PALETTE_DID */;
+VALUES (190, 16, 67110065) /* EYES_PALETTE_DID */
+     , (190, 9, 83890499) /* EYES_TEXTURE_DID */
+     , (190, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (190, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (190, 11, 83890646) /* MOUTH_TEXTURE_DID */
+     , (190, 15, 67117080) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (190, 113, 1) /* GENDER_INT */

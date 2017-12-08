@@ -42,3 +42,15 @@ VALUES (22923, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22923, 9, 16785620);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22923, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22923, 33, 1) /* BONDED_INT */
+     , (22923, 114, 1) /* ATTUNED_INT */
+     , (22923, 19, 0) /* VALUE_INT */
+     , (22923, 5, 50) /* ENCUMB_VAL_INT */
+     , (22923, 91, 1) /* MAX_STRUCTURE_INT */;
+

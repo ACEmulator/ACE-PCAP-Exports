@@ -44,3 +44,14 @@ VALUES (5175, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5175, 0, 16778729);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5175, 16, 'A perfectly aged bottle of Cove Apple Cider, made in Yaraq by the Al-Luq family.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5175, 33, 1) /* BONDED_INT */
+     , (5175, 114, 1) /* ATTUNED_INT */
+     , (5175, 19, 0) /* VALUE_INT */
+     , (5175, 5, 10) /* ENCUMB_VAL_INT */;
+

@@ -33,3 +33,16 @@ VALUES (31416, 13, True) /* ETHEREAL_BOOL */
      , (31416, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31416, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31416, 16, 'A small journal written by Kraest, a High Archon in the Order of the Raven Hand. This text was discovered within the ruins of the Nightmare Sepulcher.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31416, 33, 0) /* BONDED_INT */
+     , (31416, 114, 0) /* ATTUNED_INT */
+     , (31416, 19, 0) /* VALUE_INT */
+     , (31416, 5, 50) /* ENCUMB_VAL_INT */
+     , (31416, 174, 6) /* APPRAISAL_PAGES_INT */
+     , (31416, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
+

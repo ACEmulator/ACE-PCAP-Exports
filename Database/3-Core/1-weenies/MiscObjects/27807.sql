@@ -71,3 +71,13 @@ VALUES (27807, 0, 16784246)
      , (27807, 8, 16784204)
      , (27807, 9, 16784196);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27807, 16, 'An Ancient Diamond idol.') /* LONG_DESC_STRING */
+     , (27807, 14, 'Use this item to equip it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27807, 19, 5000) /* VALUE_INT */
+     , (27807, 5, 200) /* ENCUMB_VAL_INT */;
+

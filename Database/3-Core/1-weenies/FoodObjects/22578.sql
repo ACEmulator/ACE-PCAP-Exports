@@ -41,8 +41,8 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (22578, 15, 'A bunch of good smelling fruit.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22578, 19, 400) /* VALUE_INT */
-     , (22578, 5, 240) /* ENCUMB_VAL_INT */
+VALUES (22578, 19, 500) /* VALUE_INT */
+     , (22578, 5, 300) /* ENCUMB_VAL_INT */
      , (22578, 89, 4) /* BOOSTER_ENUM_INT */
      , (22578, 90, 6) /* BOOST_VALUE_INT */;
 

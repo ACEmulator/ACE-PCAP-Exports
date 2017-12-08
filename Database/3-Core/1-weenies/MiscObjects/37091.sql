@@ -31,3 +31,14 @@ VALUES (37091, 13, True) /* ETHEREAL_BOOL */
      , (37091, 19, True) /* ATTACKABLE_BOOL */
      , (37091, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37091, 16, 'This piece of crystal hums faintly.  Its odd structure makes it seem like it was broken from a much larger formation of crystal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37091, 33, 1) /* BONDED_INT */
+     , (37091, 114, 1) /* ATTUNED_INT */
+     , (37091, 19, 0) /* VALUE_INT */
+     , (37091, 5, 10) /* ENCUMB_VAL_INT */;
+

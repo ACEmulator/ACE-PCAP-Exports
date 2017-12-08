@@ -49,24 +49,23 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (44855, 16, 'Halved Cloak') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (44855, 55, 5753) /* PROC_SPELL_DID */;
+VALUES (44855, 55, 5756) /* PROC_SPELL_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44855, 352, 1) /* CLOAK_WEAVE_PROC_INT */
-     , (44855, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (44855, 160, 60) /* WIELD_DIFFICULTY_INT */
      , (44855, 320, 2) /* ITEM_XP_STYLE_INT */
-     , (44855, 370, 1) /* GEAR_DAMAGE_INT */
-     , (44855, 19, 6102) /* VALUE_INT */
-     , (44855, 131, 6) /* MATERIAL_TYPE_INT */
+     , (44855, 19, 639) /* VALUE_INT */
+     , (44855, 131, 4) /* MATERIAL_TYPE_INT */
      , (44855, 36, 9999) /* RESIST_MAGIC_INT */
      , (44855, 5, 75) /* ENCUMB_VAL_INT */
-     , (44855, 265, 50) /* EQUIPMENT_SET_ID_INT */
-     , (44855, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (44855, 265, 53) /* EQUIPMENT_SET_ID_INT */
+     , (44855, 105, 5) /* ITEM_WORKMANSHIP_INT */
      , (44855, 28, 0) /* ARMOR_LEVEL_INT */
      , (44855, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
      , (44855, 158, 7) /* WIELD_REQUIREMENTS_INT */
      , (44855, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (44855, 319, 3) /* ITEM_MAX_LEVEL_INT */;
+     , (44855, 319, 2) /* ITEM_MAX_LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
 VALUES (44855, 4, 0) /* ITEM_TOTAL_XP_INT64 */
@@ -86,5 +85,5 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (44855, 100, 0) /* DYABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (44855, 5753) /* CloakAllSkill_SpellID */;
+VALUES (44855, 5756) /* CloakMissileDLower_SpellID */;
 

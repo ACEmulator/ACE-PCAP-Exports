@@ -36,6 +36,21 @@ VALUES (27261, 13, True) /* ETHEREAL_BOOL */
      , (27261, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27261, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27261, 16, 'A flask refreshing, icy-cold water. It appears to have been made from the remains of a Glacial Golem Margrave.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27261, 19, 1000) /* VALUE_INT */
+     , (27261, 5, 75) /* ENCUMB_VAL_INT */
+     , (27261, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (27261, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (27261, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27261, 3209) /* GolemHunterStaminaLow_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

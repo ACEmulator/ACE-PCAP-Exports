@@ -33,3 +33,35 @@ VALUES (30477, 13, True) /* ETHEREAL_BOOL */
      , (30477, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30477, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30477, 15, 'A well-written note.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30477, 19, 0) /* VALUE_INT */
+     , (30477, 5, 5) /* ENCUMB_VAL_INT */
+     , (30477, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (30477, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30477, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (30477, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
+     , (30477, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (30477, 0, 'Central Overseer', 'prewritten', 4294967295, 0, 'Incursion of the Burun has diverted the attention of the Isparians. They become increasingly fragmented as these new threats encroach on their lands. If intelligence is to be believed, yet another threat from the north shall soon shatter their fragile kingdom even further. The time to harness the power of the Inner Eye has come to pass.
+
+You have been tasked with a most significant purpose. You shall maintain your position until such time as the
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (30477, 1, 'Central Overseer', 'prewritten', 4294967295, 0, 'collection is complete. Expect assault from the ever-predictable Isparians. Provide some trinket to occupy their minds. When the heat of the Eye has been collected, operations will cease.
+');
+

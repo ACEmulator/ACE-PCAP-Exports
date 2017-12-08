@@ -95,12 +95,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (27741, 5, 'Apprentice Alchemist') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (27741, 16, 67110063) /* EYES_PALETTE_DID */
-     , (27741, 9, 83890278) /* EYES_TEXTURE_DID */
-     , (27741, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (27741, 10, 83890300) /* NOSE_TEXTURE_DID */
-     , (27741, 11, 83890338) /* MOUTH_TEXTURE_DID */
-     , (27741, 15, 67117069) /* HAIR_PALETTE_DID */;
+VALUES (27741, 16, 67109567) /* EYES_PALETTE_DID */
+     , (27741, 9, 83890284) /* EYES_TEXTURE_DID */
+     , (27741, 17, 67109555) /* SKIN_PALETTE_DID */
+     , (27741, 10, 83890306) /* NOSE_TEXTURE_DID */
+     , (27741, 11, 83890349) /* MOUTH_TEXTURE_DID */
+     , (27741, 15, 67117022) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27741, 113, 2) /* GENDER_INT */
@@ -109,6 +109,16 @@ VALUES (27741, 113, 2) /* GENDER_INT */
      , (27741, 25, 5) /* LEVEL_INT */
      , (27741, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (27741, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (27741, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (27741, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (27741, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (27741, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (27741, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27741, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (27741, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27741, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27741, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 

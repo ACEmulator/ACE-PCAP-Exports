@@ -36,3 +36,14 @@ VALUES (31440, 13, True) /* ETHEREAL_BOOL */
      , (31440, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31440, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31440, 16, 'A translation of the Grael Rebellion.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31440, 19, 10) /* VALUE_INT */
+     , (31440, 5, 100) /* ENCUMB_VAL_INT */
+     , (31440, 174, 11) /* APPRAISAL_PAGES_INT */
+     , (31440, 175, 11) /* APPRAISAL_MAX_PAGES_INT */;
+

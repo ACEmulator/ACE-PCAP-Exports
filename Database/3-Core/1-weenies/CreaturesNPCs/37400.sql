@@ -48,11 +48,22 @@ VALUES (37400, 5, 'Explorer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37400, 2, 90) /* CREATURE_TYPE_INT */
+     , (37400, 307, 5) /* DAMAGE_RATING_INT */
      , (37400, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (37400, 25, 80) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (37400, 1, 180) /* STRENGTH_ATTRIBUTE */
+     , (37400, 2, 240) /* ENDURANCE_ATTRIBUTE */
+     , (37400, 4, 210) /* COORDINATION_ATTRIBUTE */
+     , (37400, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (37400, 16, 150) /* FOCUS_ATTRIBUTE */
+     , (37400, 32, 150) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37400, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (37400, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (37400, 128, 390) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (37400, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

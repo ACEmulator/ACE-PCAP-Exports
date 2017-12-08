@@ -32,15 +32,3 @@ VALUES (36068, 13, True) /* ETHEREAL_BOOL */
      , (36068, 19, True) /* ATTACKABLE_BOOL */
      , (36068, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36068, 16, 'Gem') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36068, 19, 325) /* VALUE_INT */
-     , (36068, 131, 23) /* MATERIAL_TYPE_INT */
-     , (36068, 5, 5) /* ENCUMB_VAL_INT */
-     , (36068, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (36068, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-

@@ -84,12 +84,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (36231, 5, 'Reef Builder') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (36231, 16, 67110065) /* EYES_PALETTE_DID */
-     , (36231, 9, 83890509) /* EYES_TEXTURE_DID */
-     , (36231, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (36231, 10, 83890548) /* NOSE_TEXTURE_DID */
-     , (36231, 11, 83890575) /* MOUTH_TEXTURE_DID */
-     , (36231, 15, 67116982) /* HAIR_PALETTE_DID */;
+VALUES (36231, 16, 67110064) /* EYES_PALETTE_DID */
+     , (36231, 9, 83890511) /* EYES_TEXTURE_DID */
+     , (36231, 17, 67115905) /* SKIN_PALETTE_DID */
+     , (36231, 10, 83890557) /* NOSE_TEXTURE_DID */
+     , (36231, 11, 83890628) /* MOUTH_TEXTURE_DID */
+     , (36231, 15, 67117075) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36231, 113, 1) /* GENDER_INT */
@@ -98,6 +98,16 @@ VALUES (36231, 113, 1) /* GENDER_INT */
      , (36231, 25, 46) /* LEVEL_INT */
      , (36231, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (36231, 1, 250) /* STRENGTH_ATTRIBUTE */
+     , (36231, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (36231, 4, 230) /* COORDINATION_ATTRIBUTE */
+     , (36231, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (36231, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (36231, 32, 40) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36231, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (36231, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (36231, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (36231, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 

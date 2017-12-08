@@ -35,6 +35,18 @@ VALUES (29209, 13, True) /* ETHEREAL_BOOL */
      , (29209, 19, True) /* ATTACKABLE_BOOL */
      , (29209, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29209, 16, 'One half of Rand''s Brewmaster''s Bible.') /* LONG_DESC_STRING */
+     , (29209, 14, 'Combine this piece with the Brewmaster''s Back Cover to create the Nearly Complete Brewmaster''s Bible.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29209, 33, 1) /* BONDED_INT */
+     , (29209, 114, 1) /* ATTUNED_INT */
+     , (29209, 19, 0) /* VALUE_INT */
+     , (29209, 5, 25) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

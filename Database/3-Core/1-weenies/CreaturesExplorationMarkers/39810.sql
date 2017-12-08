@@ -51,21 +51,32 @@ VALUES (39810, 0, 16794232);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39810, 16, 'Gem of Regeneration') /* LONG_DESC_STRING */;
+VALUES (39810, 16, 'An Exploration Marker.  Speak with Sean the Speedy of the Exploration Society, in Holtburg, for more information on these markers.') /* LONG_DESC_STRING */
+     , (39810, 14, 'Use this marker to declare this spot discovered.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39810, 19, 2090) /* VALUE_INT */
-     , (39810, 131, 22) /* MATERIAL_TYPE_INT */
-     , (39810, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (39810, 5, 5) /* ENCUMB_VAL_INT */
-     , (39810, 117, 350) /* ITEM_MANA_COST_INT */
-     , (39810, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (39810, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (39810, 108, 545) /* ITEM_MAX_MANA_INT */
-     , (39810, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (39810, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (39810, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (39810, 170) /* RegenerationSelf6_SpellID */;
+VALUES (39810, 384, 0) /*  */
+     , (39810, 370, 0) /* GEAR_DAMAGE_INT */
+     , (39810, 386, 0) /*  */
+     , (39810, 307, 0) /* DAMAGE_RATING_INT */
+     , (39810, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (39810, 387, 0) /*  */
+     , (39810, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (39810, 372, 0) /* GEAR_CRIT_INT */
+     , (39810, 388, 0) /*  */
+     , (39810, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (39810, 389, 0) /*  */
+     , (39810, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (39810, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (39810, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (39810, 313, 0) /* CRIT_RATING_INT */
+     , (39810, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (39810, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (39810, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (39810, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (39810, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (39810, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (39810, 381, 0) /*  */
+     , (39810, 382, 0) /*  */
+     , (39810, 383, 0) /*  */;
 

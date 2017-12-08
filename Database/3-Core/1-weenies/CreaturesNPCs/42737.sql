@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (42737, 5, 'Tailor''s Apprentice') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42737, 16, 67110062) /* EYES_PALETTE_DID */
-     , (42737, 9, 83890457) /* EYES_TEXTURE_DID */
-     , (42737, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (42737, 10, 83890541) /* NOSE_TEXTURE_DID */
-     , (42737, 11, 83890654) /* MOUTH_TEXTURE_DID */
-     , (42737, 15, 67116999) /* HAIR_PALETTE_DID */;
+VALUES (42737, 16, 67109567) /* EYES_PALETTE_DID */
+     , (42737, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (42737, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (42737, 10, 83890562) /* NOSE_TEXTURE_DID */
+     , (42737, 11, 83890595) /* MOUTH_TEXTURE_DID */
+     , (42737, 15, 67116992) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42737, 113, 1) /* GENDER_INT */
@@ -105,6 +105,16 @@ VALUES (42737, 113, 1) /* GENDER_INT */
      , (42737, 25, 67) /* LEVEL_INT */
      , (42737, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42737, 1, 70) /* STRENGTH_ATTRIBUTE */
+     , (42737, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (42737, 4, 65) /* COORDINATION_ATTRIBUTE */
+     , (42737, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (42737, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (42737, 32, 50) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42737, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (42737, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42737, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42737, 256, 105) /* MAX_MANA_ATTRIBUTE_2ND */;
 

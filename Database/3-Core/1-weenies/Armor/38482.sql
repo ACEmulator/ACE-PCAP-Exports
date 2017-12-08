@@ -42,3 +42,51 @@ VALUES (38482, 0, 83894333, 83897934);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38482, 0, 16778374);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38482, 16, 'Radiant Blood Gauntlets of Missile Weapon Mastery') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38482, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (38482, 160, 1) /* WIELD_DIFFICULTY_INT */
+     , (38482, 177, 2) /* GEM_COUNT_INT */
+     , (38482, 178, 23) /* GEM_TYPE_INT */
+     , (38482, 19, 42739) /* VALUE_INT */
+     , (38482, 131, 60) /* MATERIAL_TYPE_INT */
+     , (38482, 115, 273) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (38482, 5, 448) /* ENCUMB_VAL_INT */
+     , (38482, 375, 1) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (38482, 265, 30) /* EQUIPMENT_SET_ID_INT */
+     , (38482, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (38482, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (38482, 28, 306) /* ARMOR_LEVEL_INT */
+     , (38482, 108, 1867) /* ITEM_MAX_MANA_INT */
+     , (38482, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (38482, 109, 255) /* ITEM_DIFFICULTY_INT */
+     , (38482, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (38482, 158, 9) /* WIELD_REQUIREMENTS_INT */
+     , (38482, 159, 289) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38482, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (38482, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (38482, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (38482, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (38482, 16, 1.20253) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (38482, 17, 0.6510231) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (38482, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (38482, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (38482, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38482, 100, 0) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (38482, 4700) /* CANTRIPLIFEMAGICAPTITUDE3_SpellID */
+     , (38482, 2207) /* BowMasterySelf7_SpellID */
+     , (38482, 2092) /* AcidBane7_SpellID */
+     , (38482, 2098) /* BludgeonBane7_SpellID */
+     , (38482, 4407) /* Impenetrability8_SpellID */
+     , (38482, 2104) /* FrostBane7_SpellID */;
+

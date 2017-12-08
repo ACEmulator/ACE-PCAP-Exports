@@ -53,46 +53,31 @@ VALUES (45113, 0, 16777980);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45113, 16, 'Hammer of Blood Drinker') /* LONG_DESC_STRING */;
+VALUES (45113, 16, 'Hammer') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45113, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
-     , (45113, 160, 420) /* WIELD_DIFFICULTY_INT */
+VALUES (45113, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (45113, 353, 3) /* WEAPON_TYPE_INT */
-     , (45113, 177, 4) /* GEM_COUNT_INT */
-     , (45113, 178, 39) /* GEM_TYPE_INT */
-     , (45113, 19, 9132) /* VALUE_INT */
-     , (45113, 179, 32) /* IMBUED_EFFECT_INT */
+     , (45113, 177, 3) /* GEM_COUNT_INT */
+     , (45113, 178, 19) /* GEM_TYPE_INT */
+     , (45113, 19, 1209) /* VALUE_INT */
      , (45113, 131, 63) /* MATERIAL_TYPE_INT */
-     , (45113, 115, 309) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (45113, 5, 422) /* ENCUMB_VAL_INT */
+     , (45113, 5, 431) /* ENCUMB_VAL_INT */
      , (45113, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (45113, 106, 289) /* ITEM_SPELLCRAFT_INT */
-     , (45113, 171, 1) /* NUM_TIMES_TINKERED_INT */
-     , (45113, 108, 872) /* ITEM_MAX_MANA_INT */
      , (45113, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45113, 109, 166) /* ITEM_DIFFICULTY_INT */
-     , (45113, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (45113, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (45113, 159, 46) /* WIELD_SKILLTYPE_INT */
      , (45113, 47, 4) /* ATTACK_TYPE_INT */
      , (45113, 45, 4) /* DAMAGE_TYPE_INT */
-     , (45113, 49, 42) /* WEAPON_TIME_INT */
+     , (45113, 49, 47) /* WEAPON_TIME_INT */
      , (45113, 48, 46) /* WEAPON_SKILL_INT */
-     , (45113, 44, 54) /* DAMAGE_INT */;
+     , (45113, 44, 36) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45113, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (45113, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
-     , (45113, 22, 0.85) /* DAMAGE_VARIANCE_FLOAT */
+VALUES (45113, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (45113, 22, 0.95) /* DAMAGE_VARIANCE_FLOAT */
      , (45113, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (45113, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (45113, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45113, 62, 1.22) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45113, 6089) /* CantripBloodThirst4_SpellID */
-     , (45113, 2096) /* BloodDrinker7_SpellID */
-     , (45113, 2101) /* Defender7_SpellID */
-     , (45113, 1402) /* QuicknessSelf6_SpellID */;
+     , (45113, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
 

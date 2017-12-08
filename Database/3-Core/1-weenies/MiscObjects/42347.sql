@@ -41,6 +41,23 @@ VALUES (42347, 13, True) /* ETHEREAL_BOOL */
      , (42347, 19, True) /* ATTACKABLE_BOOL */
      , (42347, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42347, 16, 'A crude keyring roughly carved out of a black coral golem heart. ') /* LONG_DESC_STRING */
+     , (42347, 14, 'Use this ring on a single use mana forge key to add the key to the ring. Use an intricate carving tool on the keyring to pop a key off again. Adding a key uses up one of the ring''s remaining uses, but removing a key does not.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42347, 193, 4) /* NUM_KEYS_INT */
+     , (42347, 33, 0) /* BONDED_INT */
+     , (42347, 114, 0) /* ATTUNED_INT */
+     , (42347, 19, -49500) /* VALUE_INT */
+     , (42347, 5, 40) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42347, 99, 0) /* IVORYABLE_BOOL */
+     , (42347, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

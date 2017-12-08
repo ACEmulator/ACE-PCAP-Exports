@@ -35,3 +35,17 @@ VALUES (53340, 13, True) /* ETHEREAL_BOOL */
      , (53340, 19, True) /* ATTACKABLE_BOOL */
      , (53340, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53340, 16, 'Inscribed spell: Halo of Frost II
+Shoots eight waves of frost outward from the caster. Each wave does 49-98 points of cold damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (53340, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53340, 19, 200) /* VALUE_INT */
+     , (53340, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (53340, 6193) /* HaloOfFrostII_SpellID */;
+

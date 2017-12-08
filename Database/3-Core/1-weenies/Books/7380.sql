@@ -34,3 +34,28 @@ VALUES (7380, 13, True) /* ETHEREAL_BOOL */
      , (7380, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7380, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7380, 16, 'Several sheaves of paper, covered with the stark black runes of Dericost.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7380, 19, 3) /* VALUE_INT */
+     , (7380, 5, 25) /* ENCUMB_VAL_INT */
+     , (7380, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (7380, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7380, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (7380, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (7380, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (7380, 0, 'Untranslated Text', 'prewritten', 4294967295, 0, '
+[You cannot translate this text]
+');
+

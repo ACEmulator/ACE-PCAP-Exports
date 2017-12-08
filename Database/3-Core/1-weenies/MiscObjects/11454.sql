@@ -35,6 +35,18 @@ VALUES (11454, 13, True) /* ETHEREAL_BOOL */
      , (11454, 19, True) /* ATTACKABLE_BOOL */
      , (11454, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11454, 16, 'A beautifully carved obsidian totem of Audetaunga. ') /* LONG_DESC_STRING */
+     , (11454, 14, 'Use this on either a totem of Volkama or Tanae to create a combination double totem. Use this on another totem of Audetaunga to create a pure double totem.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11454, 33, 0) /* BONDED_INT */
+     , (11454, 114, 0) /* ATTUNED_INT */
+     , (11454, 19, 0) /* VALUE_INT */
+     , (11454, 5, 100) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

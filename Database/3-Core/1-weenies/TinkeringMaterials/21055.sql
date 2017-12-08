@@ -50,6 +50,20 @@ VALUES (21055, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21055, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21055, 14, 'Apply this material to any of a set of specific quest items in order to unattune it from your soul. Note that this action will also cause it to only be wieldable by you. Applying this material does not require a tinkering skill, does not add a tinker to the target''s count, and cannot destroy the target.') /* USE_STRING */
+     , (21055, 15, 'Shavings of ivory material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21055, 33, 1) /* BONDED_INT */
+     , (21055, 19, 70677) /* VALUE_INT */
+     , (21055, 131, 51) /* MATERIAL_TYPE_INT */
+     , (21055, 5, 100) /* ENCUMB_VAL_INT */
+     , (21055, 105, 92) /* ITEM_WORKMANSHIP_INT */
+     , (21055, 170, 12) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

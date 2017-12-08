@@ -35,3 +35,17 @@ VALUES (2868, 13, True) /* ETHEREAL_BOOL */
      , (2868, 19, True) /* ATTACKABLE_BOOL */
      , (2868, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2868, 16, 'Inscribed spell: Piercing Bane III
+Increases a shield or piece of armor''s resistance to piercing damage by 50%. Target yourself to cast this spell on all of your equipped armor.') /* LONG_DESC_STRING */
+     , (2868, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2868, 19, 20) /* VALUE_INT */
+     , (2868, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2868, 1571) /* PiercingBane3_SpellID */;
+

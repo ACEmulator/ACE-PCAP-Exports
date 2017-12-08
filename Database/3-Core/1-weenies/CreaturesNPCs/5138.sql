@@ -89,11 +89,11 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5138, 5, 'Citizen of Samsur') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5138, 16, 67109567) /* EYES_PALETTE_DID */
-     , (5138, 9, 83890484) /* EYES_TEXTURE_DID */
-     , (5138, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (5138, 10, 83890540) /* NOSE_TEXTURE_DID */
-     , (5138, 11, 83890658) /* MOUTH_TEXTURE_DID */
+VALUES (5138, 16, 67110063) /* EYES_PALETTE_DID */
+     , (5138, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (5138, 17, 67109552) /* SKIN_PALETTE_DID */
+     , (5138, 10, 83890526) /* NOSE_TEXTURE_DID */
+     , (5138, 11, 83890611) /* MOUTH_TEXTURE_DID */
      , (5138, 15, 67117021) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
@@ -103,6 +103,16 @@ VALUES (5138, 113, 1) /* GENDER_INT */
      , (5138, 25, 4) /* LEVEL_INT */
      , (5138, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5138, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (5138, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (5138, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (5138, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (5138, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (5138, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5138, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (5138, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5138, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5138, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 

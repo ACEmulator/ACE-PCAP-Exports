@@ -49,3 +49,36 @@ VALUES (30600, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30600, 0, 16792136);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30600, 16, 'Acid Poniard') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30600, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (30600, 177, 2) /* GEM_COUNT_INT */
+     , (30600, 353, 6) /* WEAPON_TYPE_INT */
+     , (30600, 178, 16) /* GEM_TYPE_INT */
+     , (30600, 131, 51) /* MATERIAL_TYPE_INT */
+     , (30600, 179, 64) /* IMBUED_EFFECT_INT */
+     , (30600, 19, 12763) /* VALUE_INT */
+     , (30600, 5, 148) /* ENCUMB_VAL_INT */
+     , (30600, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (30600, 171, 1) /* NUM_TIMES_TINKERED_INT */
+     , (30600, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30600, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30600, 47, 6) /* ATTACK_TYPE_INT */
+     , (30600, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (30600, 45, 32) /* DAMAGE_TYPE_INT */
+     , (30600, 49, 34) /* WEAPON_TIME_INT */
+     , (30600, 48, 46) /* WEAPON_SKILL_INT */
+     , (30600, 44, 58) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30600, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
+     , (30600, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
+     , (30600, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30600, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30600, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30600, 62, 1.19) /* WEAPON_OFFENSE_FLOAT */;
+

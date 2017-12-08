@@ -59,8 +59,8 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (42121, 19, 2937) /* VALUE_INT */
      , (42121, 5, 3596) /* ENCUMB_VAL_INT */
      , (42121, 106, 100) /* ITEM_SPELLCRAFT_INT */
-     , (42121, 28, 140) /* ARMOR_LEVEL_INT */
      , (42121, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (42121, 28, 140) /* ARMOR_LEVEL_INT */
      , (42121, 109, 0) /* ITEM_DIFFICULTY_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)

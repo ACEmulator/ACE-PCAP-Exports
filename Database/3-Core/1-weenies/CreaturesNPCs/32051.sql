@@ -41,3 +41,26 @@ VALUES (32051, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32051, 67113355, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32051, 5, 'Older Brother') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32051, 2, 90) /* CREATURE_TYPE_INT */
+     , (32051, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (32051, 25, 90) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (32051, 1, 300) /* STRENGTH_ATTRIBUTE */
+     , (32051, 2, 250) /* ENDURANCE_ATTRIBUTE */
+     , (32051, 4, 320) /* COORDINATION_ATTRIBUTE */
+     , (32051, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (32051, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (32051, 32, 170) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (32051, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (32051, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (32051, 256, 170) /* MAX_MANA_ATTRIBUTE_2ND */;
+

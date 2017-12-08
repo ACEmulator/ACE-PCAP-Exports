@@ -36,3 +36,15 @@ VALUES (139, 13, True) /* ETHEREAL_BOOL */
      , (139, 19, True) /* ATTACKABLE_BOOL */
      , (139, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (139, 14, 'Use this item to close it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (139, 19, 65) /* VALUE_INT */
+     , (139, 5, 120) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (139, 2, 1) /* OPEN_BOOL */;
+

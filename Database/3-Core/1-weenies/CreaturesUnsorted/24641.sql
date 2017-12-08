@@ -49,6 +49,7 @@ VALUES (24641, 384, 0) /*  */
      , (24641, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (24641, 372, 0) /* GEAR_CRIT_INT */
      , (24641, 388, 0) /*  */
+     , (24641, 5, 10) /* ENCUMB_VAL_INT */
      , (24641, 373, 0) /* GEAR_CRIT_RESIST_INT */
      , (24641, 389, 0) /*  */
      , (24641, 374, 0) /* GEAR_CRIT_DAMAGE_INT */

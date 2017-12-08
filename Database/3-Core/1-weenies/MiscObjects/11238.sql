@@ -34,3 +34,14 @@ VALUES (11238, 13, True) /* ETHEREAL_BOOL */
      , (11238, 19, True) /* ATTACKABLE_BOOL */
      , (11238, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11238, 16, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it, but choose carefully.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11238, 33, 1) /* BONDED_INT */
+     , (11238, 114, 1) /* ATTUNED_INT */
+     , (11238, 19, 0) /* VALUE_INT */
+     , (11238, 5, 200) /* ENCUMB_VAL_INT */;
+

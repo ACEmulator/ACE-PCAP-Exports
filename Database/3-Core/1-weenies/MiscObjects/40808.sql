@@ -33,3 +33,14 @@ VALUES (40808, 13, True) /* ETHEREAL_BOOL */
      , (40808, 19, True) /* ATTACKABLE_BOOL */
      , (40808, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40808, 15, 'A small piece of purified Aetherium, enchanted by Ned the Clever of the Arcanum.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40808, 33, 1) /* BONDED_INT */
+     , (40808, 114, 1) /* ATTUNED_INT */
+     , (40808, 19, 0) /* VALUE_INT */
+     , (40808, 5, 10) /* ENCUMB_VAL_INT */;
+

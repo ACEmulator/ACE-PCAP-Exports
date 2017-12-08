@@ -49,3 +49,46 @@ VALUES (44977, 0, 83898706, 83898706)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44977, 0, 16795884);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44977, 16, 'Lyceum Hood') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44977, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (44977, 177, 3) /* GEM_COUNT_INT */
+     , (44977, 178, 38) /* GEM_TYPE_INT */
+     , (44977, 19, 27441) /* VALUE_INT */
+     , (44977, 131, 54) /* MATERIAL_TYPE_INT */
+     , (44977, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (44977, 5, 15) /* ENCUMB_VAL_INT */
+     , (44977, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (44977, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (44977, 28, 303) /* ARMOR_LEVEL_INT */
+     , (44977, 108, 1369) /* ITEM_MAX_MANA_INT */
+     , (44977, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (44977, 109, 394) /* ITEM_DIFFICULTY_INT */
+     , (44977, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (44977, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (44977, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44977, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (44977, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (44977, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (44977, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (44977, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (44977, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (44977, 18, 0.7959973) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (44977, 19, 1.511206) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (44977, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44977, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (44977, 4697) /* CANTRIPITEMENCHANTMENTAPTITUDE3_SpellID */
+     , (44977, 4397) /* BludgeonBane8_SpellID */
+     , (44977, 4403) /* FrostBane8_SpellID */
+     , (44977, 4407) /* Impenetrability8_SpellID */;
+

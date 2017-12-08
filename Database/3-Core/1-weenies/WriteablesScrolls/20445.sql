@@ -35,3 +35,17 @@ VALUES (20445, 13, True) /* ETHEREAL_BOOL */
      , (20445, 19, True) /* ATTACKABLE_BOOL */
      , (20445, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20445, 16, 'Inscribed spell: The Spike
+Shoots a bolt of force at the target. The bolt does 115-189 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (20445, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20445, 19, 2000) /* VALUE_INT */
+     , (20445, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20445, 2132) /* ForceBolt7_SpellID */;
+

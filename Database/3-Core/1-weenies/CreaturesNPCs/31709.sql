@@ -45,11 +45,22 @@ VALUES (31709, 5, 'Hunter') /* TEMPLATE_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31709, 113, 1) /* GENDER_INT */
      , (31709, 2, 58) /* CREATURE_TYPE_INT */
+     , (31709, 307, 5) /* DAMAGE_RATING_INT */
      , (31709, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (31709, 25, 40) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31709, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (31709, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (31709, 4, 190) /* COORDINATION_ATTRIBUTE */
+     , (31709, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (31709, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (31709, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31709, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31709, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31709, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31709, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

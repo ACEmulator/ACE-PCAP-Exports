@@ -95,12 +95,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30509, 5, 'Natural Philosopher') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30509, 16, 67110063) /* EYES_PALETTE_DID */
-     , (30509, 9, 83890514) /* EYES_TEXTURE_DID */
-     , (30509, 17, 67110054) /* SKIN_PALETTE_DID */
-     , (30509, 10, 83890518) /* NOSE_TEXTURE_DID */
-     , (30509, 11, 83890629) /* MOUTH_TEXTURE_DID */
-     , (30509, 15, 67117076) /* HAIR_PALETTE_DID */;
+VALUES (30509, 16, 67110062) /* EYES_PALETTE_DID */
+     , (30509, 9, 83890448) /* EYES_TEXTURE_DID */
+     , (30509, 17, 67110050) /* SKIN_PALETTE_DID */
+     , (30509, 10, 83890517) /* NOSE_TEXTURE_DID */
+     , (30509, 11, 83890634) /* MOUTH_TEXTURE_DID */
+     , (30509, 15, 67117023) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30509, 113, 1) /* GENDER_INT */
@@ -109,6 +109,16 @@ VALUES (30509, 113, 1) /* GENDER_INT */
      , (30509, 25, 97) /* LEVEL_INT */
      , (30509, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (30509, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (30509, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (30509, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (30509, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (30509, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (30509, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30509, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (30509, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30509, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30509, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 

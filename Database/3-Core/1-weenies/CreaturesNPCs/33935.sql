@@ -92,12 +92,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33935, 5, 'Pet Armoredillo Vendor') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33935, 16, 67110062) /* EYES_PALETTE_DID */
+VALUES (33935, 16, 67110063) /* EYES_PALETTE_DID */
      , (33935, 9, 83890510) /* EYES_TEXTURE_DID */
-     , (33935, 17, 67109555) /* SKIN_PALETTE_DID */
-     , (33935, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (33935, 11, 83890608) /* MOUTH_TEXTURE_DID */
-     , (33935, 15, 67117023) /* HAIR_PALETTE_DID */;
+     , (33935, 17, 67109556) /* SKIN_PALETTE_DID */
+     , (33935, 10, 83890539) /* NOSE_TEXTURE_DID */
+     , (33935, 11, 83890607) /* MOUTH_TEXTURE_DID */
+     , (33935, 15, 67116996) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33935, 113, 1) /* GENDER_INT */
@@ -106,6 +106,16 @@ VALUES (33935, 113, 1) /* GENDER_INT */
      , (33935, 25, 10) /* LEVEL_INT */
      , (33935, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33935, 1, 110) /* STRENGTH_ATTRIBUTE */
+     , (33935, 2, 20) /* ENDURANCE_ATTRIBUTE */
+     , (33935, 4, 110) /* COORDINATION_ATTRIBUTE */
+     , (33935, 8, 20) /* QUICKNESS_ATTRIBUTE */
+     , (33935, 16, 110) /* FOCUS_ATTRIBUTE */
+     , (33935, 32, 20) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33935, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (33935, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33935, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33935, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 

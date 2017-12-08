@@ -58,11 +58,11 @@ VALUES (20993, 14, 'Apply this material to treasure-generated armor to increase 
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20993, 33, 1) /* BONDED_INT */
+     , (20993, 19, 17201) /* VALUE_INT */
      , (20993, 131, 64) /* MATERIAL_TYPE_INT */
-     , (20993, 19, 8406) /* VALUE_INT */
      , (20993, 5, 100) /* ENCUMB_VAL_INT */
-     , (20993, 105, 61) /* ITEM_WORKMANSHIP_INT */
-     , (20993, 170, 8) /* NUM_ITEMS_IN_MATERIAL_INT */;
+     , (20993, 105, 44) /* ITEM_WORKMANSHIP_INT */
+     , (20993, 170, 6) /* NUM_ITEMS_IN_MATERIAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

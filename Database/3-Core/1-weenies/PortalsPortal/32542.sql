@@ -33,3 +33,13 @@ VALUES (32542, 13, True) /* ETHEREAL_BOOL */
      , (32542, 19, True) /* ATTACKABLE_BOOL */
      , (32542, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32542, 16, 'This dungeon is quest restricted.') /* LONG_DESC_STRING */
+     , (32542, 38, 'Viamont Staging Area Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32542, 86, 100) /* MIN_LEVEL_INT */
+     , (32542, 111, 49) /* PORTAL_BITMASK_INT */;
+

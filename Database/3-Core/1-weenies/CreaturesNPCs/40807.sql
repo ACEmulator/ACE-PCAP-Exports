@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (40807, 5, 'Geomantic Tracker') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (40807, 16, 67110065) /* EYES_PALETTE_DID */
-     , (40807, 9, 83890465) /* EYES_TEXTURE_DID */
-     , (40807, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (40807, 10, 83890550) /* NOSE_TEXTURE_DID */
-     , (40807, 11, 83890666) /* MOUTH_TEXTURE_DID */
-     , (40807, 15, 67117077) /* HAIR_PALETTE_DID */;
+VALUES (40807, 16, 67110064) /* EYES_PALETTE_DID */
+     , (40807, 9, 83890511) /* EYES_TEXTURE_DID */
+     , (40807, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (40807, 10, 83890522) /* NOSE_TEXTURE_DID */
+     , (40807, 11, 83890667) /* MOUTH_TEXTURE_DID */
+     , (40807, 15, 67117073) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40807, 113, 1) /* GENDER_INT */
@@ -104,6 +104,16 @@ VALUES (40807, 113, 1) /* GENDER_INT */
      , (40807, 25, 150) /* LEVEL_INT */
      , (40807, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (40807, 1, 180) /* STRENGTH_ATTRIBUTE */
+     , (40807, 2, 180) /* ENDURANCE_ATTRIBUTE */
+     , (40807, 4, 180) /* COORDINATION_ATTRIBUTE */
+     , (40807, 8, 150) /* QUICKNESS_ATTRIBUTE */
+     , (40807, 16, 240) /* FOCUS_ATTRIBUTE */
+     , (40807, 32, 220) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (40807, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (40807, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (40807, 128, 290) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (40807, 256, 375) /* MAX_MANA_ATTRIBUTE_2ND */;
 

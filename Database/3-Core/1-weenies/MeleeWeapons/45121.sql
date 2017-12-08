@@ -51,3 +51,47 @@ VALUES (45121, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45121, 0, 16792139);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45121, 16, 'Flaming Hand Wraps of Defender') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45121, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (45121, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (45121, 353, 1) /* WEAPON_TYPE_INT */
+     , (45121, 177, 1) /* GEM_COUNT_INT */
+     , (45121, 178, 23) /* GEM_TYPE_INT */
+     , (45121, 19, 8029) /* VALUE_INT */
+     , (45121, 131, 61) /* MATERIAL_TYPE_INT */
+     , (45121, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (45121, 5, 61) /* ENCUMB_VAL_INT */
+     , (45121, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (45121, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (45121, 108, 1992) /* ITEM_MAX_MANA_INT */
+     , (45121, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (45121, 109, 196) /* ITEM_DIFFICULTY_INT */
+     , (45121, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (45121, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (45121, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (45121, 47, 1) /* ATTACK_TYPE_INT */
+     , (45121, 45, 16) /* DAMAGE_TYPE_INT */
+     , (45121, 49, 15) /* WEAPON_TIME_INT */
+     , (45121, 48, 46) /* WEAPON_SKILL_INT */
+     , (45121, 44, 48) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45121, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (45121, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
+     , (45121, 22, 0.43) /* DAMAGE_VARIANCE_FLOAT */
+     , (45121, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45121, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45121, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45121, 62, 1.18) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45121, 4707) /* CANTRIPPERSONATTUNEMENT3_SpellID */
+     , (45121, 2096) /* BloodDrinker7_SpellID */
+     , (45121, 4400) /* Defender8_SpellID */
+     , (45121, 5810) /* dualwieldmasteryself8_SpellID */;
+

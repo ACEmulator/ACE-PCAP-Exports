@@ -32,3 +32,12 @@ VALUES (44748, 13, True) /* ETHEREAL_BOOL */
      , (44748, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44748, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44748, 16, 'Mattekars are a strange, fur-bearing variety of reed shark found in the snowfields and mountains of Dereth Island. They are also known, among common folk, as "snow sharks." They are huge -- seven feet or taller at the shoulder -- and are found as lone rogues and small family units: the latter will defend one another to the death. They attack with claws, horns and teeth, and are particularly resistant to damage due to cold. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44748, 19, 125) /* VALUE_INT */
+     , (44748, 5, 200) /* ENCUMB_VAL_INT */;
+

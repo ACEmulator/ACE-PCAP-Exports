@@ -42,3 +42,17 @@ VALUES (53475, 67110003, 250, 6)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53475, 0, 16796809);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53475, 15, 'A shattered o-yoroi helm that once belonged to the spectral Daimyo, Nobanuga.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53475, 33, 1) /* BONDED_INT */
+     , (53475, 114, 1) /* ATTUNED_INT */
+     , (53475, 19, 1) /* VALUE_INT */
+     , (53475, 5, 150) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53475, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -47,54 +47,39 @@ VALUES (37219, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37219, 16, '') /* LONG_DESC_STRING */;
+VALUES (37219, 16, 'Electric Staff of Blades') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37219, 160, 385) /* WIELD_DIFFICULTY_INT */
-     , (37219, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (37219, 384, 1) /*  */
-     , (37219, 177, 1) /* GEM_COUNT_INT */
-     , (37219, 178, 22) /* GEM_TYPE_INT */
-     , (37219, 114, 0) /* ATTUNED_INT */
-     , (37219, 19, 14184) /* VALUE_INT */
-     , (37219, 179, 1) /* IMBUED_EFFECT_INT */
-     , (37219, 131, 60) /* MATERIAL_TYPE_INT */
+     , (37219, 177, 4) /* GEM_COUNT_INT */
+     , (37219, 178, 21) /* GEM_TYPE_INT */
+     , (37219, 19, 25391) /* VALUE_INT */
+     , (37219, 179, 256) /* IMBUED_EFFECT_INT */
+     , (37219, 131, 51) /* MATERIAL_TYPE_INT */
      , (37219, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (37219, 5, 50) /* ENCUMB_VAL_INT */
-     , (37219, 166, 14) /* SLAYER_CREATURE_TYPE_INT */
-     , (37219, 265, 139) /* EQUIPMENT_SET_ID_INT */
      , (37219, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (37219, 106, 311) /* ITEM_SPELLCRAFT_INT */
+     , (37219, 106, 293) /* ITEM_SPELLCRAFT_INT */
      , (37219, 171, 10) /* NUM_TIMES_TINKERED_INT */
-     , (37219, 108, 3792) /* ITEM_MAX_MANA_INT */
+     , (37219, 108, 2334) /* ITEM_MAX_MANA_INT */
      , (37219, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (37219, 109, 354) /* ITEM_DIFFICULTY_INT */
+     , (37219, 109, 342) /* ITEM_DIFFICULTY_INT */
      , (37219, 45, 64) /* DAMAGE_TYPE_INT */
      , (37219, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (37219, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (37219, 159, 34) /* WIELD_SKILLTYPE_INT */
-     , (37219, 319, 50) /* ITEM_MAX_LEVEL_INT */
-     , (37219, 383, 1) /*  */;
-
-REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
-VALUES (37219, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
-     , (37219, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+     , (37219, 159, 34) /* WIELD_SKILLTYPE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (37219, 144, 0.144) /* MANA_CONVERSION_MOD_FLOAT */
-     , (37219, 152, 1.44) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+VALUES (37219, 144, 0.136) /* MANA_CONVERSION_MOD_FLOAT */
+     , (37219, 152, 1.39) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
      , (37219, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (37219, 29, 1.35) /* WEAPON_DEFENSE_FLOAT */
-     , (37219, 150, 1.005) /* WEAPON_MAGIC_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37219, 99, 0) /* IVORYABLE_BOOL */
-     , (37219, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+     , (37219, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (37219, 2146) /* Whirlingblade7_SpellID */
-     , (37219, 1605) /* Defender6_SpellID */
      , (37219, 2117) /* Truevalue7_SpellID */
-     , (37219, 6098) /* CantripSpiritThirst4_SpellID */
-     , (37219, 2323) /* WarMagicMasterySelf7_SpellID */;
+     , (37219, 2520) /* CANTRIPLIFEMAGICAPTITUDE2_SpellID */
+     , (37219, 2287) /* ManaMasterySelf7_SpellID */
+     , (37219, 3259) /* SpiritDrinker7_SpellID */
+     , (37219, 4670) /* CANTRIPSPIRITTHIRST3_SpellID */;
 

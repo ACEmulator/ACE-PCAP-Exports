@@ -34,3 +34,12 @@ VALUES (11690, 13, True) /* ETHEREAL_BOOL */
      , (11690, 19, True) /* ATTACKABLE_BOOL */
      , (11690, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11690, 15, 'A few small seeds, found on a Shreth. They do not seem to have any apparent use.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11690, 19, 50) /* VALUE_INT */
+     , (11690, 5, 5) /* ENCUMB_VAL_INT */;
+

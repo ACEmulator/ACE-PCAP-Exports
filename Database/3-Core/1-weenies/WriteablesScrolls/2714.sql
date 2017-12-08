@@ -38,9 +38,14 @@ VALUES (2714, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2714, 16, 'Killed by Ripley.') /* LONG_DESC_STRING */;
+VALUES (2714, 16, 'Inscribed spell: Quickness Other IV
+Increases the target''s Quickness by 25 points.') /* LONG_DESC_STRING */
+     , (2714, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2714, 19, 0) /* VALUE_INT */
-     , (2714, 5, 6180) /* ENCUMB_VAL_INT */;
+VALUES (2714, 19, 100) /* VALUE_INT */
+     , (2714, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2714, 1406) /* QuicknessOther4_SpellID */;
 

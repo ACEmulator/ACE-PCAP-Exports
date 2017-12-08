@@ -31,3 +31,14 @@ VALUES (25339, 13, True) /* ETHEREAL_BOOL */
      , (25339, 19, True) /* ATTACKABLE_BOOL */
      , (25339, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25339, 16, 'A broken mask taken from the defeated form of a Virindi Consul. Perhaps a friendly Virindi, or a human who studies Virindi, could repair it for you?') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25339, 33, 1) /* BONDED_INT */
+     , (25339, 114, 1) /* ATTUNED_INT */
+     , (25339, 19, 0) /* VALUE_INT */
+     , (25339, 5, 300) /* ENCUMB_VAL_INT */;
+

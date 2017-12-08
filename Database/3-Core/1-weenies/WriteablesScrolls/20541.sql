@@ -35,3 +35,17 @@ VALUES (20541, 13, True) /* ETHEREAL_BOOL */
      , (20541, 19, True) /* ATTACKABLE_BOOL */
      , (20541, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20541, 16, 'Inscribed spell: Celcynd''s Blessing
+Increases the caster''s Item Enchantment skill by 40 points.') /* LONG_DESC_STRING */
+     , (20541, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20541, 19, 2000) /* VALUE_INT */
+     , (20541, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20541, 2249) /* ItemEnchantmentMasterySelf7_SpellID */;
+

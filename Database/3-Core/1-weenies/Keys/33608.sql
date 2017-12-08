@@ -34,3 +34,16 @@ VALUES (33608, 13, True) /* ETHEREAL_BOOL */
      , (33608, 19, True) /* ATTACKABLE_BOOL */
      , (33608, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33608, 16, 'This key unlocks the Pathwarden Supply chests that can be found in Holtburg, Yaraq, Shoushi, and Sanamar.') /* LONG_DESC_STRING */
+     , (33608, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33608, 33, 1) /* BONDED_INT */
+     , (33608, 114, 1) /* ATTUNED_INT */
+     , (33608, 19, 0) /* VALUE_INT */
+     , (33608, 5, 10) /* ENCUMB_VAL_INT */
+     , (33608, 91, 1) /* MAX_STRUCTURE_INT */;
+

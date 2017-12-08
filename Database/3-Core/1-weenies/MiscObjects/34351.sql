@@ -45,3 +45,14 @@ VALUES (34351, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34351, 0, 16784015);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34351, 16, 'A pyreal mote found within the Halls of Metos that are nearest to Wai Jhou. There are grooves along its side which make it unsuitable for typical applications.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34351, 33, 1) /* BONDED_INT */
+     , (34351, 114, 1) /* ATTUNED_INT */
+     , (34351, 19, 10) /* VALUE_INT */
+     , (34351, 5, 1) /* ENCUMB_VAL_INT */;
+

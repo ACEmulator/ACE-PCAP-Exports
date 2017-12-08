@@ -249,3 +249,12 @@ VALUES (23928, 0, 16778043)
      , (23928, 19, 16778044)
      , (23928, 20, 16778044);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23928, 16, 'One of a limited number of Golden Gromnies "borrowed" from Ulgrim.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23928, 19, 10) /* VALUE_INT */
+     , (23928, 5, 10) /* ENCUMB_VAL_INT */;
+

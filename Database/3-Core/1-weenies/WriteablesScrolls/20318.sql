@@ -35,3 +35,17 @@ VALUES (20318, 13, True) /* ETHEREAL_BOOL */
      , (20318, 19, True) /* ATTACKABLE_BOOL */
      , (20318, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20318, 16, 'Inscribed spell: Evaporate Creature Magic Other
+Dispels 3-6 negative Creature Magic enchantments of level 1 from the target.') /* LONG_DESC_STRING */
+     , (20318, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20318, 19, 1) /* VALUE_INT */
+     , (20318, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20318, 1885) /* DispelCreatureBadOther1_SpellID */;
+

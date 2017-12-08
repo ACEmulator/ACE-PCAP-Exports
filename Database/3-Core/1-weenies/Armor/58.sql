@@ -48,17 +48,25 @@ VALUES (58, 0, 16778374);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (58, 16, 'Well-crafted Gold Scalemail Gauntlets ') /* LONG_DESC_STRING */;
+VALUES (58, 16, 'Scalemail Gauntlets') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (58, 131, 60) /* MATERIAL_TYPE_INT */
-     , (58, 19, 2600) /* VALUE_INT */
-     , (58, 5, 591) /* ENCUMB_VAL_INT */
-     , (58, 105, 2) /* ITEM_WORKMANSHIP_INT */
-     , (58, 28, 120) /* ARMOR_LEVEL_INT */;
+VALUES (58, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (58, 19, 6891) /* VALUE_INT */
+     , (58, 131, 58) /* MATERIAL_TYPE_INT */
+     , (58, 115, 125) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (58, 5, 300) /* ENCUMB_VAL_INT */
+     , (58, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (58, 106, 159) /* ITEM_SPELLCRAFT_INT */
+     , (58, 28, 205) /* ARMOR_LEVEL_INT */
+     , (58, 108, 734) /* ITEM_MAX_MANA_INT */
+     , (58, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (58, 109, 96) /* ITEM_DIFFICULTY_INT */
+     , (58, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (58, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+VALUES (58, 5, -0.03333334) /* MANA_RATE_FLOAT */
+     , (58, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (58, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
      , (58, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (58, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
@@ -69,4 +77,7 @@ VALUES (58, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (58, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (58, 1484) /* Impenetrability4_SpellID */;
 

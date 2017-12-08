@@ -41,3 +41,19 @@ VALUES (43701, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43701, 0, 16779994);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43701, 16, 'Use this item to recover your Health.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43701, 33, 1) /* BONDED_INT */
+     , (43701, 114, 1) /* ATTUNED_INT */
+     , (43701, 19, 1) /* VALUE_INT */
+     , (43701, 5, 5) /* ENCUMB_VAL_INT */
+     , (43701, 90, 70) /* BOOST_VALUE_INT */
+     , (43701, 91, 100) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43701, 100, 2.5) /* HEALKIT_MOD_FLOAT */;
+

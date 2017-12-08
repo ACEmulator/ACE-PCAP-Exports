@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (25715, 5, 'Senior Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (25715, 16, 67110065) /* EYES_PALETTE_DID */
+VALUES (25715, 16, 67110064) /* EYES_PALETTE_DID */
      , (25715, 9, 83890275) /* EYES_TEXTURE_DID */
      , (25715, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (25715, 10, 83890286) /* NOSE_TEXTURE_DID */
-     , (25715, 11, 83890349) /* MOUTH_TEXTURE_DID */
-     , (25715, 15, 67117000) /* HAIR_PALETTE_DID */;
+     , (25715, 10, 83890304) /* NOSE_TEXTURE_DID */
+     , (25715, 11, 83890340) /* MOUTH_TEXTURE_DID */
+     , (25715, 15, 67116994) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25715, 113, 2) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (25715, 113, 2) /* GENDER_INT */
      , (25715, 25, 75) /* LEVEL_INT */
      , (25715, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (25715, 1, 240) /* STRENGTH_ATTRIBUTE */
+     , (25715, 2, 160) /* ENDURANCE_ATTRIBUTE */
+     , (25715, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (25715, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (25715, 16, 140) /* FOCUS_ATTRIBUTE */
+     , (25715, 32, 140) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25715, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (25715, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25715, 128, 260) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25715, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 

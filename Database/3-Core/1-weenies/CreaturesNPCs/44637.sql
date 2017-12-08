@@ -83,3 +83,26 @@ VALUES (44637, 0, 16777294)
      , (44637, 15, 16777307)
      , (44637, 16, 16781779);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44637, 5, 'Mu-miyah') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44637, 2, 14) /* CREATURE_TYPE_INT */
+     , (44637, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44637, 25, 250) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44637, 1, 400) /* STRENGTH_ATTRIBUTE */
+     , (44637, 2, 500) /* ENDURANCE_ATTRIBUTE */
+     , (44637, 4, 160) /* COORDINATION_ATTRIBUTE */
+     , (44637, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (44637, 16, 450) /* FOCUS_ATTRIBUTE */
+     , (44637, 32, 450) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44637, 64, 30250) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44637, 128, 4000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44637, 256, 5950) /* MAX_MANA_ATTRIBUTE_2ND */;
+

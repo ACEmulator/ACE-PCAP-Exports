@@ -44,6 +44,26 @@ VALUES (11127, 0, 83888869, 83888882)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11127, 0, 16778864);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11127, 16, 'A piece of moist, sweet carrot cake made with Olthoi Eggs.') /* LONG_DESC_STRING */
+     , (11127, 14, 'Use this item to eat it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11127, 19, 5000) /* VALUE_INT */
+     , (11127, 5, 35) /* ENCUMB_VAL_INT */
+     , (11127, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (11127, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (11127, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (11127, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11127, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (11127, 2424) /* RabbitsEye_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

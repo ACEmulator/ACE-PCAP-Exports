@@ -52,3 +52,44 @@ VALUES (7794, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7794, 0, 16784608);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7794, 16, 'Electric Trident of Defender') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7794, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (7794, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (7794, 353, 5) /* WEAPON_TYPE_INT */
+     , (7794, 19, 2706) /* VALUE_INT */
+     , (7794, 131, 61) /* MATERIAL_TYPE_INT */
+     , (7794, 115, 213) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (7794, 5, 850) /* ENCUMB_VAL_INT */
+     , (7794, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (7794, 106, 193) /* ITEM_SPELLCRAFT_INT */
+     , (7794, 108, 934) /* ITEM_MAX_MANA_INT */
+     , (7794, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (7794, 109, 38) /* ITEM_DIFFICULTY_INT */
+     , (7794, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (7794, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (7794, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (7794, 47, 2) /* ATTACK_TYPE_INT */
+     , (7794, 45, 64) /* DAMAGE_TYPE_INT */
+     , (7794, 49, 55) /* WEAPON_TIME_INT */
+     , (7794, 48, 44) /* WEAPON_SKILL_INT */
+     , (7794, 44, 30) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7794, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (7794, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (7794, 22, 0.68) /* DAMAGE_VARIANCE_FLOAT */
+     , (7794, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (7794, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (7794, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (7794, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7794, 1603) /* Defender4_SpellID */
+     , (7794, 1615) /* BloodDrinker5_SpellID */
+     , (7794, 1626) /* SwiftKiller5_SpellID */;
+

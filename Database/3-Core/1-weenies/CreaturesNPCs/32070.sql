@@ -87,12 +87,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (32070, 5, 'Lady of the Realm') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32070, 16, 67109564) /* EYES_PALETTE_DID */
-     , (32070, 9, 83890279) /* EYES_TEXTURE_DID */
-     , (32070, 17, 67115908) /* SKIN_PALETTE_DID */
-     , (32070, 10, 83890289) /* NOSE_TEXTURE_DID */
-     , (32070, 11, 83890345) /* MOUTH_TEXTURE_DID */
-     , (32070, 15, 67117071) /* HAIR_PALETTE_DID */;
+VALUES (32070, 16, 67110063) /* EYES_PALETTE_DID */
+     , (32070, 9, 83890263) /* EYES_TEXTURE_DID */
+     , (32070, 17, 67115901) /* SKIN_PALETTE_DID */
+     , (32070, 10, 83890294) /* NOSE_TEXTURE_DID */
+     , (32070, 11, 83890327) /* MOUTH_TEXTURE_DID */
+     , (32070, 15, 67117105) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32070, 113, 2) /* GENDER_INT */
@@ -101,6 +101,16 @@ VALUES (32070, 113, 2) /* GENDER_INT */
      , (32070, 25, 12) /* LEVEL_INT */
      , (32070, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (32070, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (32070, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (32070, 4, 130) /* COORDINATION_ATTRIBUTE */
+     , (32070, 8, 111) /* QUICKNESS_ATTRIBUTE */
+     , (32070, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (32070, 32, 50) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32070, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (32070, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (32070, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (32070, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -51,47 +51,42 @@ VALUES (30596, 0, 16792136);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30596, 16, 'Poniard of Swiftkiller') /* LONG_DESC_STRING */;
+VALUES (30596, 16, 'Poniard of Blood Drinker') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30596, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
-     , (30596, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (30596, 160, 350) /* WIELD_DIFFICULTY_INT */
      , (30596, 353, 6) /* WEAPON_TYPE_INT */
      , (30596, 177, 2) /* GEM_COUNT_INT */
-     , (30596, 178, 16) /* GEM_TYPE_INT */
-     , (30596, 19, 20010) /* VALUE_INT */
-     , (30596, 179, 8) /* IMBUED_EFFECT_INT */
-     , (30596, 131, 51) /* MATERIAL_TYPE_INT */
-     , (30596, 115, 313) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (30596, 5, 153) /* ENCUMB_VAL_INT */
-     , (30596, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (30596, 106, 293) /* ITEM_SPELLCRAFT_INT */
-     , (30596, 171, 5) /* NUM_TIMES_TINKERED_INT */
-     , (30596, 108, 1867) /* ITEM_MAX_MANA_INT */
+     , (30596, 178, 13) /* GEM_TYPE_INT */
+     , (30596, 19, 3456) /* VALUE_INT */
+     , (30596, 131, 63) /* MATERIAL_TYPE_INT */
+     , (30596, 115, 281) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30596, 5, 160) /* ENCUMB_VAL_INT */
+     , (30596, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (30596, 106, 261) /* ITEM_SPELLCRAFT_INT */
+     , (30596, 108, 521) /* ITEM_MAX_MANA_INT */
      , (30596, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (30596, 109, 182) /* ITEM_DIFFICULTY_INT */
+     , (30596, 109, 120) /* ITEM_DIFFICULTY_INT */
      , (30596, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (30596, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (30596, 159, 46) /* WIELD_SKILLTYPE_INT */
      , (30596, 47, 6) /* ATTACK_TYPE_INT */
      , (30596, 45, 3) /* DAMAGE_TYPE_INT */
-     , (30596, 49, 32) /* WEAPON_TIME_INT */
+     , (30596, 49, 34) /* WEAPON_TIME_INT */
      , (30596, 48, 46) /* WEAPON_SKILL_INT */
-     , (30596, 44, 53) /* DAMAGE_INT */;
+     , (30596, 44, 39) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30596, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (30596, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
-     , (30596, 22, 0.42) /* DAMAGE_VARIANCE_FLOAT */
+VALUES (30596, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (30596, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (30596, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
      , (30596, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (30596, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (30596, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (30596, 62, 1.19) /* WEAPON_OFFENSE_FLOAT */;
+     , (30596, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30596, 2116) /* Swiftkiller7_SpellID */
-     , (30596, 6107) /* CantripStrength4_SpellID */
-     , (30596, 2081) /* QuicknessSelf7_SpellID */
-     , (30596, 2096) /* BloodDrinker7_SpellID */
-     , (30596, 1592) /* HeartSeeker6_SpellID */;
+VALUES (30596, 1616) /* BloodDrinker6_SpellID */
+     , (30596, 1626) /* SwiftKiller5_SpellID */;
 

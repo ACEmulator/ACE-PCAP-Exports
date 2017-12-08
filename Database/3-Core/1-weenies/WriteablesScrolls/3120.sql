@@ -35,3 +35,17 @@ VALUES (3120, 13, True) /* ETHEREAL_BOOL */
      , (3120, 19, True) /* ATTACKABLE_BOOL */
      , (3120, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3120, 16, 'Inscribed spell: Rejuvenation Other IV
+Increases the rate at which the target regains Stamina by 55%.') /* LONG_DESC_STRING */
+     , (3120, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3120, 19, 100) /* VALUE_INT */
+     , (3120, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3120, 186) /* RejuvenationOther4_SpellID */;
+

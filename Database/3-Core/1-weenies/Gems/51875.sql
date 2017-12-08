@@ -41,26 +41,21 @@ VALUES (51875, 13, True) /* ETHEREAL_BOOL */
 
 /* Extended Appraisal Data */
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51875, 16, 'Kill 10 Rynthid Rifts.') /* LONG_DESC_STRING */
+     , (51875, 14, 'Recommended Level: 180') /* USE_STRING */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51875, 2, 62) /* CREATURE_TYPE_INT */
-     , (51875, 307, 16) /* DAMAGE_RATING_INT */
-     , (51875, 308, 12) /* DAMAGE_RESIST_RATING_INT */
-     , (51875, 25, 200) /* LEVEL_INT */
-     , (51875, 313, 11) /* CRIT_RATING_INT */
-     , (51875, 316, 11) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+VALUES (51875, 33, 1) /* BONDED_INT */
+     , (51875, 19, 100) /* VALUE_INT */
+     , (51875, 5, 0) /* ENCUMB_VAL_INT */
+     , (51875, 280, 100) /* SHARED_COOLDOWN_INT */;
 
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (51875, 1, 210) /* STRENGTH_ATTRIBUTE */
-     , (51875, 2, 240) /* ENDURANCE_ATTRIBUTE */
-     , (51875, 4, 160) /* COORDINATION_ATTRIBUTE */
-     , (51875, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (51875, 16, 170) /* FOCUS_ATTRIBUTE */
-     , (51875, 32, 170) /* SELF_ATTRIBUTE */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51875, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51875, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (51875, 128, 1740) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (51875, 256, 1070) /* MAX_MANA_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51875, 69, 0) /* IS_SELLABLE_BOOL */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

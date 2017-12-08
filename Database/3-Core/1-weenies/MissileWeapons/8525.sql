@@ -50,9 +50,9 @@ VALUES (8525, 16, 'An ancient throwing dagger of Dericostian design. This weapon
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8525, 353, 10) /* WEAPON_TYPE_INT */
-     , (8525, 19, 30) /* VALUE_INT */
+     , (8525, 19, 105) /* VALUE_INT */
      , (8525, 36, 9999) /* RESIST_MAGIC_INT */
-     , (8525, 5, 30) /* ENCUMB_VAL_INT */
+     , (8525, 5, 105) /* ENCUMB_VAL_INT */
      , (8525, 45, 2) /* DAMAGE_TYPE_INT */
      , (8525, 49, 20) /* WEAPON_TIME_INT */
      , (8525, 48, 47) /* WEAPON_SKILL_INT */

@@ -35,3 +35,17 @@ VALUES (2862, 13, True) /* ETHEREAL_BOOL */
      , (2862, 19, True) /* ATTACKABLE_BOOL */
      , (2862, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2862, 16, 'Inscribed spell: Lure Blade II
+Decreases the Melee Defense skill modifier of a weapon or magic caster by 5%.') /* LONG_DESC_STRING */
+     , (2862, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2862, 19, 5) /* VALUE_INT */
+     , (2862, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2862, 1607) /* LureBlade2_SpellID */;
+

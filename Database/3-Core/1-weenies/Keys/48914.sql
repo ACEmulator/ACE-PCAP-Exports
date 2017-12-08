@@ -51,7 +51,7 @@ VALUES (48914, 33, 0) /* BONDED_INT */
      , (48914, 5, 30) /* ENCUMB_VAL_INT */
      , (48914, 267, 86400) /* LIFESPAN_INT */
      , (48914, 91, 1) /* MAX_STRUCTURE_INT */
-     , (48914, 268, 85116) /* REMAINING_LIFESPAN_INT */;
+     , (48914, 268, 85121) /* REMAINING_LIFESPAN_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (48914, 99, 0) /* IVORYABLE_BOOL */

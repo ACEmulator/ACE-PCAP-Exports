@@ -34,3 +34,14 @@ VALUES (29649, 13, True) /* ETHEREAL_BOOL */
      , (29649, 19, True) /* ATTACKABLE_BOOL */
      , (29649, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29649, 16, 'A card with a clue!  The fine print reads: "Clue given at time of pickup.  Only one clue card may be obtained at one time.  Give this card to the arbiter if you need to get a new clue card."') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29649, 33, 1) /* BONDED_INT */
+     , (29649, 114, 1) /* ATTUNED_INT */
+     , (29649, 19, 0) /* VALUE_INT */
+     , (29649, 5, 1) /* ENCUMB_VAL_INT */;
+

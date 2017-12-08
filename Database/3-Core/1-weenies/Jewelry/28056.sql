@@ -47,3 +47,26 @@ VALUES (28056, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28056, 0, 16778344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28056, 16, 'A small ring of pale silver, taken from the finger of the Relic Watchman on Aerlinthe Island.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28056, 176, 31) /* APPRAISAL_ITEM_SKILL_INT */
+     , (28056, 33, 1) /* BONDED_INT */
+     , (28056, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (28056, 19, 4500) /* VALUE_INT */
+     , (28056, 5, 15) /* ENCUMB_VAL_INT */
+     , (28056, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (28056, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (28056, 109, 50) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28056, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28056, 591) /* ItemEnchantmentMasteryOther5_SpellID */
+     , (28056, 663) /* ManaMasteryOther5_SpellID */
+     , (28056, 567) /* CreatureEnchantmentMasteryOther5_SpellID */;
+

@@ -51,45 +51,40 @@ VALUES (30589, 0, 16791841);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30589, 16, 'Flaming Flanged Mace of Strength') /* LONG_DESC_STRING */;
+VALUES (30589, 16, 'Flaming Flanged Mace of Blood Drinker') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30589, 160, 430) /* WIELD_DIFFICULTY_INT */
-     , (30589, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
-     , (30589, 177, 4) /* GEM_COUNT_INT */
+VALUES (30589, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30589, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (30589, 353, 4) /* WEAPON_TYPE_INT */
-     , (30589, 178, 22) /* GEM_TYPE_INT */
-     , (30589, 115, 314) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (30589, 131, 60) /* MATERIAL_TYPE_INT */
-     , (30589, 179, 512) /* IMBUED_EFFECT_INT */
-     , (30589, 19, 13494) /* VALUE_INT */
-     , (30589, 5, 503) /* ENCUMB_VAL_INT */
-     , (30589, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (30589, 106, 294) /* ITEM_SPELLCRAFT_INT */
-     , (30589, 171, 4) /* NUM_TIMES_TINKERED_INT */
-     , (30589, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (30589, 108, 1634) /* ITEM_MAX_MANA_INT */
-     , (30589, 109, 152) /* ITEM_DIFFICULTY_INT */
-     , (30589, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30589, 19, 2158) /* VALUE_INT */
+     , (30589, 131, 75) /* MATERIAL_TYPE_INT */
+     , (30589, 115, 212) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30589, 5, 492) /* ENCUMB_VAL_INT */
+     , (30589, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (30589, 106, 192) /* ITEM_SPELLCRAFT_INT */
+     , (30589, 108, 584) /* ITEM_MAX_MANA_INT */
+     , (30589, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30589, 109, 95) /* ITEM_DIFFICULTY_INT */
      , (30589, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (30589, 47, 4) /* ATTACK_TYPE_INT */
+     , (30589, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (30589, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (30589, 47, 4) /* ATTACK_TYPE_INT */
      , (30589, 45, 16) /* DAMAGE_TYPE_INT */
-     , (30589, 49, 0) /* WEAPON_TIME_INT */
+     , (30589, 49, 35) /* WEAPON_TIME_INT */
      , (30589, 48, 44) /* WEAPON_SKILL_INT */
-     , (30589, 44, 100) /* DAMAGE_INT */;
+     , (30589, 44, 42) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30589, 29, 1.35) /* WEAPON_DEFENSE_FLOAT */
-     , (30589, 5, -0.05555556) /* MANA_RATE_FLOAT */
+VALUES (30589, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (30589, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (30589, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
      , (30589, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (30589, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (30589, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (30589, 62, 1.35) /* WEAPON_OFFENSE_FLOAT */;
+     , (30589, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30589, 2586) /* CANTRIPBLOODTHIRST2_SpellID */
-     , (30589, 2087) /* StrengthSelf7_SpellID */
-     , (30589, 2096) /* BloodDrinker7_SpellID */;
+VALUES (30589, 1615) /* BloodDrinker5_SpellID */
+     , (30589, 2537) /* CANTRIPARCANEPROWESS1_SpellID */;
 

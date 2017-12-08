@@ -45,7 +45,7 @@ VALUES (37411, 16, 'A treasure chest encrusted by coral, appearing as it had bee
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37411, 19, 2500) /* VALUE_INT */
-     , (37411, 5, 9405) /* ENCUMB_VAL_INT */
+     , (37411, 5, 12665) /* ENCUMB_VAL_INT */
      , (37411, 38, 9999) /* RESIST_LOCKPICK_INT */
      , (37411, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
 

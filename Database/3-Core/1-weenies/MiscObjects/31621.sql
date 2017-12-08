@@ -37,3 +37,18 @@ VALUES (31621, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31621, 67111921, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31621, 15, 'The owner of this plaque is a verified "Polar Ursuin Pounder"!') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31621, 33, 1) /* BONDED_INT */
+     , (31621, 114, 0) /* ATTUNED_INT */
+     , (31621, 19, 0) /* VALUE_INT */
+     , (31621, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31621, 99, 0) /* IVORYABLE_BOOL */
+     , (31621, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+

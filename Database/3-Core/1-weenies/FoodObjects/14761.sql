@@ -35,6 +35,21 @@ VALUES (14761, 13, True) /* ETHEREAL_BOOL */
      , (14761, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14761, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14761, 14, 'Use this item to eat it.') /* USE_STRING */
+     , (14761, 15, 'A ginger bread cookie in the shape of a Lugian.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14761, 19, 56) /* VALUE_INT */
+     , (14761, 5, 60) /* ENCUMB_VAL_INT */
+     , (14761, 89, 4) /* BOOSTER_ENUM_INT */
+     , (14761, 90, 50) /* BOOST_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14761, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

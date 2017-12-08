@@ -100,12 +100,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5839, 5, 'Bandit Captain') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5839, 16, 67110062) /* EYES_PALETTE_DID */
-     , (5839, 9, 83890485) /* EYES_TEXTURE_DID */
+VALUES (5839, 16, 67109564) /* EYES_PALETTE_DID */
+     , (5839, 9, 83890448) /* EYES_TEXTURE_DID */
      , (5839, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (5839, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (5839, 11, 83890643) /* MOUTH_TEXTURE_DID */
-     , (5839, 15, 67116993) /* HAIR_PALETTE_DID */;
+     , (5839, 10, 83890558) /* NOSE_TEXTURE_DID */
+     , (5839, 11, 83890658) /* MOUTH_TEXTURE_DID */
+     , (5839, 15, 67116999) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5839, 113, 1) /* GENDER_INT */
@@ -114,6 +114,16 @@ VALUES (5839, 113, 1) /* GENDER_INT */
      , (5839, 25, 20) /* LEVEL_INT */
      , (5839, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5839, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (5839, 2, 150) /* ENDURANCE_ATTRIBUTE */
+     , (5839, 4, 220) /* COORDINATION_ATTRIBUTE */
+     , (5839, 8, 210) /* QUICKNESS_ATTRIBUTE */
+     , (5839, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (5839, 32, 100) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5839, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (5839, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5839, 128, 350) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5839, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 

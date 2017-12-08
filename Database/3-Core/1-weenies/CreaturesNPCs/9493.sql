@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (9493, 5, 'Gambler Boss') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (9493, 16, 67110062) /* EYES_PALETTE_DID */
-     , (9493, 9, 83890514) /* EYES_TEXTURE_DID */
-     , (9493, 17, 67109555) /* SKIN_PALETTE_DID */
-     , (9493, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (9493, 11, 83890612) /* MOUTH_TEXTURE_DID */
-     , (9493, 15, 67117023) /* HAIR_PALETTE_DID */;
+VALUES (9493, 16, 67109567) /* EYES_PALETTE_DID */
+     , (9493, 9, 83890485) /* EYES_TEXTURE_DID */
+     , (9493, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (9493, 10, 83890534) /* NOSE_TEXTURE_DID */
+     , (9493, 11, 83890624) /* MOUTH_TEXTURE_DID */
+     , (9493, 15, 67117016) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9493, 113, 1) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (9493, 113, 1) /* GENDER_INT */
      , (9493, 25, 24) /* LEVEL_INT */
      , (9493, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (9493, 1, 160) /* STRENGTH_ATTRIBUTE */
+     , (9493, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (9493, 4, 190) /* COORDINATION_ATTRIBUTE */
+     , (9493, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (9493, 16, 150) /* FOCUS_ATTRIBUTE */
+     , (9493, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9493, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (9493, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9493, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9493, 256, 125) /* MAX_MANA_ATTRIBUTE_2ND */;
 

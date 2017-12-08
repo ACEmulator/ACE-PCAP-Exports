@@ -88,12 +88,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (42220, 5, 'Master Enchanter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42220, 16, 67110063) /* EYES_PALETTE_DID */
-     , (42220, 9, 83890457) /* EYES_TEXTURE_DID */
-     , (42220, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (42220, 10, 83890530) /* NOSE_TEXTURE_DID */
-     , (42220, 11, 83890575) /* MOUTH_TEXTURE_DID */
-     , (42220, 15, 67117079) /* HAIR_PALETTE_DID */;
+VALUES (42220, 16, 67109567) /* EYES_PALETTE_DID */
+     , (42220, 9, 83890505) /* EYES_TEXTURE_DID */
+     , (42220, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (42220, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (42220, 11, 83890638) /* MOUTH_TEXTURE_DID */
+     , (42220, 15, 67116991) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42220, 113, 1) /* GENDER_INT */
@@ -102,6 +102,57 @@ VALUES (42220, 113, 1) /* GENDER_INT */
      , (42220, 25, 130) /* LEVEL_INT */
      , (42220, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42220, 1, 100) /* STRENGTH_ATTRIBUTE */
+     , (42220, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (42220, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (42220, 8, 150) /* QUICKNESS_ATTRIBUTE */
+     , (42220, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (42220, 32, 200) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42220, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (42220, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42220, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42220, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42220, 74, 262272) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (42220, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (42220, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42220, 37, 0.75) /* BUY_PRICE_FLOAT */
+     , (42220, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42220, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42220, 4, 2457) /* Health Draught */
+     , (42220, 4, 377) /* Potion of Healing */
+     , (42220, 4, 2460) /* Mana Draught */
+     , (42220, 4, 379) /* Mana Potion */
+     , (42220, 4, 378) /* Stamina Potion */
+     , (42220, 4, 27326) /* Stamina Tincture */
+     , (42220, 4, 628) /* Handy Healing Kit */
+     , (42220, 4, 629) /* Adept Healing Kit */
+     , (42220, 4, 4595) /* Regeneration Other I */
+     , (42220, 4, 30669) /* Coordination Other IV */
+     , (42220, 4, 30671) /* Endurance Other IV */
+     , (42220, 4, 30673) /* Focus Other IV */
+     , (42220, 4, 30663) /* Quickness Other IV */
+     , (42220, 4, 30665) /* Strength Other IV */
+     , (42220, 4, 30667) /* Willpower Other IV */
+     , (42220, 4, 42213) /* Armor Other IV */
+     , (42220, 4, 42212) /* Acid Protection Other IV */
+     , (42220, 4, 42214) /* Blade Protection Other IV */
+     , (42220, 4, 42215) /* Bludgeoning Protection Other IV */
+     , (42220, 4, 42216) /* Cold Protection Other IV */
+     , (42220, 4, 42217) /* Fire Protection Other IV */
+     , (42220, 4, 42218) /* Lightning Protection Other IV */
+     , (42220, 4, 42219) /* Piercing Protection Other IV */;
 

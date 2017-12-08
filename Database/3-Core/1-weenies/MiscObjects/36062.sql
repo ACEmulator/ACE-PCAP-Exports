@@ -32,29 +32,3 @@ VALUES (36062, 13, True) /* ETHEREAL_BOOL */
      , (36062, 19, True) /* ATTACKABLE_BOOL */
      , (36062, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36062, 16, 'Cowl') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36062, 19, 14211) /* VALUE_INT */
-     , (36062, 131, 6) /* MATERIAL_TYPE_INT */
-     , (36062, 5, 18) /* ENCUMB_VAL_INT */
-     , (36062, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (36062, 28, 299) /* ARMOR_LEVEL_INT */
-     , (36062, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36062, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (36062, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (36062, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (36062, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (36062, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (36062, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (36062, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (36062, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36062, 100, 1) /* DYABLE_BOOL */;
-

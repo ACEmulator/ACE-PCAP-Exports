@@ -38,10 +38,14 @@ VALUES (3320, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3320, 16, 'A concentrated silver pea.') /* LONG_DESC_STRING */;
+VALUES (3320, 16, 'Inscribed spell: Item Tinkering Expertise Other IV
+Increases the target''s Item Tinkering skill by 25 points.') /* LONG_DESC_STRING */
+     , (3320, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3320, 33, 1) /* BONDED_INT */
-     , (3320, 19, 12500) /* VALUE_INT */
-     , (3320, 5, 10) /* ENCUMB_VAL_INT */;
+VALUES (3320, 19, 100) /* VALUE_INT */
+     , (3320, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3320, 735) /* ItemExpertiseOther4_SpellID */;
 

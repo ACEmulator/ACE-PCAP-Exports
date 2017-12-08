@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (23349, 5, 'Dashing Swordsman') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (23349, 16, 67109567) /* EYES_PALETTE_DID */
-     , (23349, 9, 83890502) /* EYES_TEXTURE_DID */
-     , (23349, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (23349, 10, 83890553) /* NOSE_TEXTURE_DID */
-     , (23349, 11, 83890629) /* MOUTH_TEXTURE_DID */
-     , (23349, 15, 67117071) /* HAIR_PALETTE_DID */;
+VALUES (23349, 16, 67110065) /* EYES_PALETTE_DID */
+     , (23349, 9, 83890451) /* EYES_TEXTURE_DID */
+     , (23349, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (23349, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (23349, 11, 83890634) /* MOUTH_TEXTURE_DID */
+     , (23349, 15, 67116981) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23349, 113, 1) /* GENDER_INT */
@@ -105,6 +105,16 @@ VALUES (23349, 113, 1) /* GENDER_INT */
      , (23349, 25, 15) /* LEVEL_INT */
      , (23349, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (23349, 1, 85) /* STRENGTH_ATTRIBUTE */
+     , (23349, 2, 75) /* ENDURANCE_ATTRIBUTE */
+     , (23349, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (23349, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (23349, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (23349, 32, 180) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23349, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (23349, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23349, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23349, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
 

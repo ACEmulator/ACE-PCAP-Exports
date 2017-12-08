@@ -49,3 +49,29 @@ VALUES (12752, 0, 83889233, 83889233)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12752, 0, 16787488);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12752, 15, 'An enhanced atlatl crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12752, 33, 1) /* BONDED_INT */
+     , (12752, 353, 10) /* WEAPON_TYPE_INT */
+     , (12752, 19, 200) /* VALUE_INT */
+     , (12752, 5, 100) /* ENCUMB_VAL_INT */
+     , (12752, 45, 0) /* DAMAGE_TYPE_INT */
+     , (12752, 49, 12) /* WEAPON_TIME_INT */
+     , (12752, 48, 47) /* WEAPON_SKILL_INT */
+     , (12752, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12752, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
+     , (12752, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (12752, 63, 1.1) /* DAMAGE_MOD_FLOAT */
+     , (12752, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12752, 26, 26) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12752, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12752, 69, 0) /* IS_SELLABLE_BOOL */;
+

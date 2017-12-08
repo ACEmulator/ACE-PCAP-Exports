@@ -53,8 +53,8 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (9192, 16, 'A small glowing gem, that seems to radiate light from an internal source.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9192, 19, 5500) /* VALUE_INT */
-     , (9192, 5, 110) /* ENCUMB_VAL_INT */
+VALUES (9192, 19, 500) /* VALUE_INT */
+     , (9192, 5, 10) /* ENCUMB_VAL_INT */
      , (9192, 106, 210) /* ITEM_SPELLCRAFT_INT */
      , (9192, 108, 200) /* ITEM_MAX_MANA_INT */
      , (9192, 109, 0) /* ITEM_DIFFICULTY_INT */

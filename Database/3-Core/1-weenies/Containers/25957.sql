@@ -36,3 +36,15 @@ VALUES (25957, 13, True) /* ETHEREAL_BOOL */
      , (25957, 19, True) /* ATTACKABLE_BOOL */
      , (25957, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25957, 15, 'This corpse has been gnawed upon by a pack of Malus Shreth.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25957, 19, 0) /* VALUE_INT */
+     , (25957, 5, 3510) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25957, 2, 0) /* OPEN_BOOL */;
+

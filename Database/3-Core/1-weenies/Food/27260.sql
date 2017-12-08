@@ -36,6 +36,21 @@ VALUES (27260, 13, True) /* ETHEREAL_BOOL */
      , (27260, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27260, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27260, 16, 'A hearty pudding made from carenzi meat and spices found on the Marescent Plateau.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27260, 19, 300) /* VALUE_INT */
+     , (27260, 5, 225) /* ENCUMB_VAL_INT */
+     , (27260, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (27260, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (27260, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27260, 3205) /* GolemHunterHealthLow_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -49,6 +49,20 @@ VALUES (29574, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29574, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29574, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Acid Rending. Acid Rending gives the weapon the ability to make its opponent vulnerable to acid attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Acid Vulnerability spells.') /* USE_STRING */
+     , (29574, 15, 'Chips of emerald material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29574, 33, 1) /* BONDED_INT */
+     , (29574, 19, 10) /* VALUE_INT */
+     , (29574, 131, 21) /* MATERIAL_TYPE_INT */
+     , (29574, 5, 100) /* ENCUMB_VAL_INT */
+     , (29574, 105, 100) /* ITEM_WORKMANSHIP_INT */
+     , (29574, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

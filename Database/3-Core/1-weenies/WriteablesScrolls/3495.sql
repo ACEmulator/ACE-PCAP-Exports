@@ -35,3 +35,17 @@ VALUES (3495, 13, True) /* ETHEREAL_BOOL */
      , (3495, 19, True) /* ATTACKABLE_BOOL */
      , (3495, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3495, 16, 'Inscribed spell: Sprint Self IV
+Increases the caster''s Run skill by 25 points.') /* LONG_DESC_STRING */
+     , (3495, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3495, 19, 100) /* VALUE_INT */
+     , (3495, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3495, 985) /* SprintSelf4_SpellID */;
+

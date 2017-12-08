@@ -41,6 +41,30 @@ VALUES (32122, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32122, 67113355, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32122, 5, 'Maw Crafter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32122, 2, 90) /* CREATURE_TYPE_INT */
+     , (32122, 307, 5) /* DAMAGE_RATING_INT */
+     , (32122, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (32122, 25, 130) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (32122, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (32122, 2, 240) /* ENDURANCE_ATTRIBUTE */
+     , (32122, 4, 250) /* COORDINATION_ATTRIBUTE */
+     , (32122, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (32122, 16, 150) /* FOCUS_ATTRIBUTE */
+     , (32122, 32, 150) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (32122, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (32122, 128, 390) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (32122, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

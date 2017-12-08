@@ -43,6 +43,18 @@ VALUES (43261, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43261, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43261, 16, 'A darkened shard of congealed energy, attuned to one of the Apostate Nexi.') /* LONG_DESC_STRING */
+     , (43261, 14, 'This shard seems strangely inert.  Perhaps the Emissary of Asheron in Cragstone can figure out why.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43261, 33, 1) /* BONDED_INT */
+     , (43261, 114, 1) /* ATTUNED_INT */
+     , (43261, 19, 0) /* VALUE_INT */
+     , (43261, 5, 0) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

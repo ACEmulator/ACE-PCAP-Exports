@@ -35,12 +35,12 @@ VALUES (43688, 12, True) /* REPORT_COLLISIONS_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43688, 16, 67110062) /* EYES_PALETTE_DID */
-     , (43688, 9, 83890516) /* EYES_TEXTURE_DID */
-     , (43688, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (43688, 10, 83890547) /* NOSE_TEXTURE_DID */
-     , (43688, 11, 83890667) /* MOUTH_TEXTURE_DID */
-     , (43688, 15, 67116991) /* HAIR_PALETTE_DID */;
+VALUES (43688, 16, 67110063) /* EYES_PALETTE_DID */
+     , (43688, 9, 83890443) /* EYES_TEXTURE_DID */
+     , (43688, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (43688, 10, 83890551) /* NOSE_TEXTURE_DID */
+     , (43688, 11, 83890632) /* MOUTH_TEXTURE_DID */
+     , (43688, 15, 67117019) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43688, 113, 1) /* GENDER_INT */

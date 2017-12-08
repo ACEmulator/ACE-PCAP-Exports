@@ -40,3 +40,22 @@ VALUES (2024, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2024, 67111927, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2024, 353, 8) /* WEAPON_TYPE_INT */
+     , (2024, 19, 875) /* VALUE_INT */
+     , (2024, 5, 350) /* ENCUMB_VAL_INT */
+     , (2024, 45, 0) /* DAMAGE_TYPE_INT */
+     , (2024, 49, 50) /* WEAPON_TIME_INT */
+     , (2024, 48, 47) /* WEAPON_SKILL_INT */
+     , (2024, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2024, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (2024, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (2024, 63, 2) /* DAMAGE_MOD_FLOAT */
+     , (2024, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (2024, 26, 27.5) /* MAXIMUM_VELOCITY_FLOAT */
+     , (2024, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

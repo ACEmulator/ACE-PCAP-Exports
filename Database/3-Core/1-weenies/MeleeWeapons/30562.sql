@@ -50,3 +50,32 @@ VALUES (30562, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30562, 0, 16791840);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30562, 16, 'Acid Dolabra') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30562, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (30562, 353, 3) /* WEAPON_TYPE_INT */
+     , (30562, 19, 855) /* VALUE_INT */
+     , (30562, 131, 58) /* MATERIAL_TYPE_INT */
+     , (30562, 5, 800) /* ENCUMB_VAL_INT */
+     , (30562, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (30562, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30562, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30562, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (30562, 47, 4) /* ATTACK_TYPE_INT */
+     , (30562, 45, 32) /* DAMAGE_TYPE_INT */
+     , (30562, 49, 58) /* WEAPON_TIME_INT */
+     , (30562, 48, 45) /* WEAPON_SKILL_INT */
+     , (30562, 44, 34) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30562, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (30562, 22, 0.83) /* DAMAGE_VARIANCE_FLOAT */
+     , (30562, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30562, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30562, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30562, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+

@@ -35,3 +35,17 @@ VALUES (2999, 13, True) /* ETHEREAL_BOOL */
      , (2999, 19, True) /* ATTACKABLE_BOOL */
      , (2999, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2999, 16, 'Inscribed spell: Blade Vulnerability Other III
+Increases damage the target takes from Slashing by 50%.') /* LONG_DESC_STRING */
+     , (2999, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2999, 19, 20) /* VALUE_INT */
+     , (2999, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2999, 1129) /* BladeVulnerabilityOther3_SpellID */;
+

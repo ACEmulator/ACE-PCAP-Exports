@@ -47,3 +47,27 @@ VALUES (25547, 0, 83894819, 83894819)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25547, 0, 16789632);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25547, 16, 'A shield created from the abdomen of an Olthoi Sentinel.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25547, 160, 80) /* WIELD_DIFFICULTY_INT */
+     , (25547, 19, 8000) /* VALUE_INT */
+     , (25547, 36, 9999) /* RESIST_MAGIC_INT */
+     , (25547, 5, 1880) /* ENCUMB_VAL_INT */
+     , (25547, 28, 475) /* ARMOR_LEVEL_INT */
+     , (25547, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (25547, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25547, 13, 1.7) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (25547, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (25547, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (25547, 16, 1.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (25547, 17, 1.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (25547, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (25547, 19, 1.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (25547, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

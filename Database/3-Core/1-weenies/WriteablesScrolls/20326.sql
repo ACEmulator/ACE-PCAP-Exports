@@ -35,3 +35,17 @@ VALUES (20326, 13, True) /* ETHEREAL_BOOL */
      , (20326, 19, True) /* ATTACKABLE_BOOL */
      , (20326, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20326, 16, 'Inscribed spell: Cleanse Creature Magic Self
+Dispels 3-6 negative Creature Magic enchantments of level 3 or lower from the caster.') /* LONG_DESC_STRING */
+     , (20326, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20326, 19, 20) /* VALUE_INT */
+     , (20326, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20326, 1900) /* DispelCreatureBadSelf3_SpellID */;
+

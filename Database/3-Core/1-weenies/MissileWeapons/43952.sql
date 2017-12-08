@@ -47,6 +47,37 @@ VALUES (43952, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43952, 67111920, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43952, 16, 'Crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LONG_DESC_STRING */
+     , (43952, 14, 'You must be a trained fletcher of considerable skill to use these potentially volatile arrows.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43952, 272, 250) /* WIELD_DIFFICULTY_2_INT */
+     , (43952, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (43952, 19, 85300) /* VALUE_INT */
+     , (43952, 5, 853) /* ENCUMB_VAL_INT */
+     , (43952, 270, 2) /* WIELD_REQUIREMENTS_2_INT */
+     , (43952, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (43952, 271, 47) /* WIELD_SKILLTYPE_2_INT */
+     , (43952, 159, 37) /* WIELD_SKILLTYPE_INT */
+     , (43952, 45, 268435456) /* DAMAGE_TYPE_INT */
+     , (43952, 49, -1) /* WEAPON_TIME_INT */
+     , (43952, 48, 0) /* WEAPON_SKILL_INT */
+     , (43952, 44, 26) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43952, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (43952, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
+     , (43952, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (43952, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (43952, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (43952, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43952, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

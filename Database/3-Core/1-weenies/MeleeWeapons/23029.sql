@@ -51,3 +51,36 @@ VALUES (23029, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23029, 0, 16784360);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23029, 16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. There are three notches on the haft.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23029, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (23029, 33, 1) /* BONDED_INT */
+     , (23029, 353, 3) /* WEAPON_TYPE_INT */
+     , (23029, 114, 1) /* ATTUNED_INT */
+     , (23029, 19, 2500) /* VALUE_INT */
+     , (23029, 5, 950) /* ENCUMB_VAL_INT */
+     , (23029, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (23029, 47, 4) /* ATTACK_TYPE_INT */
+     , (23029, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (23029, 45, 64) /* DAMAGE_TYPE_INT */
+     , (23029, 49, 70) /* WEAPON_TIME_INT */
+     , (23029, 48, 44) /* WEAPON_SKILL_INT */
+     , (23029, 44, 60) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23029, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (23029, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (23029, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (23029, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (23029, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23029, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23029, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23029, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23029, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -32,3 +32,14 @@ VALUES (33682, 13, True) /* ETHEREAL_BOOL */
      , (33682, 19, True) /* ATTACKABLE_BOOL */
      , (33682, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33682, 16, 'The wipsy essence that remains of a Degenerate Shadow Commander') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33682, 33, 0) /* BONDED_INT */
+     , (33682, 114, 0) /* ATTUNED_INT */
+     , (33682, 19, 0) /* VALUE_INT */
+     , (33682, 5, 50) /* ENCUMB_VAL_INT */;
+

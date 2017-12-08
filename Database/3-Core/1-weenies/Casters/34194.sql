@@ -49,3 +49,16 @@ VALUES (34194, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34194, 0, 16792610);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34194, 16, 'A bright sparkler meant to help commemorate Festival season and the anniversary of Asheron''s Call.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34194, 19, 10) /* VALUE_INT */
+     , (34194, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (34194, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (34194, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+

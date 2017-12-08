@@ -36,3 +36,45 @@ VALUES (33064, 13, True) /* ETHEREAL_BOOL */
      , (33064, 19, True) /* ATTACKABLE_BOOL */
      , (33064, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33064, 15, 'A spear crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33064, 160, 140) /* WIELD_DIFFICULTY_INT */
+     , (33064, 353, 5) /* WEAPON_TYPE_INT */
+     , (33064, 19, 20000) /* VALUE_INT */
+     , (33064, 5, 350) /* ENCUMB_VAL_INT */
+     , (33064, 263, 2) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (33064, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (33064, 108, 8000) /* ITEM_MAX_MANA_INT */
+     , (33064, 109, 180) /* ITEM_DIFFICULTY_INT */
+     , (33064, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (33064, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (33064, 47, 2) /* ATTACK_TYPE_INT */
+     , (33064, 45, 2) /* DAMAGE_TYPE_INT */
+     , (33064, 49, 0) /* WEAPON_TIME_INT */
+     , (33064, 48, 44) /* WEAPON_SKILL_INT */
+     , (33064, 44, 84) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33064, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (33064, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (33064, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (33064, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (33064, 29, 1.27) /* WEAPON_DEFENSE_FLOAT */
+     , (33064, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (33064, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (33064, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (33064, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (33064, 62, 1.35) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33064, 2116) /* Swiftkiller7_SpellID */
+     , (33064, 2694) /* ModerateSwordAptitude_SpellID */
+     , (33064, 2059) /* CoordinationSelf7_SpellID */
+     , (33064, 2096) /* BloodDrinker7_SpellID */
+     , (33064, 2101) /* Defender7_SpellID */
+     , (33064, 2106) /* Heartseeker7_SpellID */;
+

@@ -48,3 +48,40 @@ VALUES (12138, 0, 83892881, 83893325)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12138, 0, 16785361);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12138, 16, 'A helm enchanted with powerful magic, taken from the Southern Infiltrator Keep dungeon.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12138, 160, 80) /* WIELD_DIFFICULTY_INT */
+     , (12138, 33, 1) /* BONDED_INT */
+     , (12138, 114, 1) /* ATTUNED_INT */
+     , (12138, 19, 3000) /* VALUE_INT */
+     , (12138, 5, 600) /* ENCUMB_VAL_INT */
+     , (12138, 106, 220) /* ITEM_SPELLCRAFT_INT */
+     , (12138, 108, 650) /* ITEM_MAX_MANA_INT */
+     , (12138, 28, 280) /* ARMOR_LEVEL_INT */
+     , (12138, 109, 150) /* ITEM_DIFFICULTY_INT */
+     , (12138, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (12138, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12138, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (12138, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (12138, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (12138, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (12138, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (12138, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (12138, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (12138, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (12138, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12138, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12138, 261) /* ImpregnabilitySelf6_SpellID */
+     , (12138, 1486) /* Impenetrability6_SpellID */
+     , (12138, 249) /* InvulnerabilitySelf6_SpellID */;
+

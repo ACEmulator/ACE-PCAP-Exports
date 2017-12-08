@@ -31,3 +31,18 @@ VALUES (38247, 13, True) /* ETHEREAL_BOOL */
      , (38247, 19, True) /* ATTACKABLE_BOOL */
      , (38247, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38247, 16, 'A relic from the city father. He was the first of us to hear His whispers. He led us to the deep ocean where we built Nyr''leha near the deep water chasm.') /* LONG_DESC_STRING */
+     , (38247, 14, 'Return this and the other nine artifacts to your Task Master to complete the quest.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38247, 33, 1) /* BONDED_INT */
+     , (38247, 114, 1) /* ATTUNED_INT */
+     , (38247, 19, 0) /* VALUE_INT */
+     , (38247, 5, 25) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38247, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -43,44 +43,26 @@ VALUES (28611, 67115819, 160, 8);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28611, 16, 'Viamontian Laced Boots of Quickness') /* LONG_DESC_STRING */;
+VALUES (28611, 16, 'Viamontian Laced Boots') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28611, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (28611, 177, 2) /* GEM_COUNT_INT */
-     , (28611, 178, 38) /* GEM_TYPE_INT */
-     , (28611, 19, 28311) /* VALUE_INT */
-     , (28611, 131, 54) /* MATERIAL_TYPE_INT */
-     , (28611, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (28611, 5, 292) /* ENCUMB_VAL_INT */
-     , (28611, 265, 26) /* EQUIPMENT_SET_ID_INT */
-     , (28611, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (28611, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (28611, 28, 295) /* ARMOR_LEVEL_INT */
-     , (28611, 108, 1992) /* ITEM_MAX_MANA_INT */
-     , (28611, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (28611, 109, 406) /* ITEM_DIFFICULTY_INT */
-     , (28611, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (28611, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (28611, 159, 1) /* WIELD_SKILLTYPE_INT */;
+VALUES (28611, 19, 232) /* VALUE_INT */
+     , (28611, 131, 52) /* MATERIAL_TYPE_INT */
+     , (28611, 5, 420) /* ENCUMB_VAL_INT */
+     , (28611, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (28611, 28, 185) /* ARMOR_LEVEL_INT */
+     , (28611, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (28611, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (28611, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+VALUES (28611, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28611, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
      , (28611, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (28611, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (28611, 17, 1.001607) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28611, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
      , (28611, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (28611, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (28611, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (28611, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28611, 4673) /* CANTRIPACIDWARD3_SpellID */
-     , (28611, 4319) /* QuicknessSelf8_SpellID */
-     , (28611, 4403) /* FrostBane8_SpellID */
-     , (28611, 2108) /* Impenetrability7_SpellID */;
 

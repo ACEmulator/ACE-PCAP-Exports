@@ -36,3 +36,13 @@ VALUES (22852, 13, True) /* ETHEREAL_BOOL */
      , (22852, 19, True) /* ATTACKABLE_BOOL */
      , (22852, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22852, 14, 'This item can be used on floor and yard hooks.') /* USE_STRING */
+     , (22852, 15, 'The woodsman claims this wood will burn hotter for the cold winter months.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22852, 19, 1000) /* VALUE_INT */
+     , (22852, 5, 500) /* ENCUMB_VAL_INT */;
+

@@ -50,3 +50,43 @@ VALUES (30612, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30612, 0, 16792139);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30612, 16, 'Lightning Knuckles of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30612, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30612, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (30612, 353, 1) /* WEAPON_TYPE_INT */
+     , (30612, 19, 1734) /* VALUE_INT */
+     , (30612, 131, 57) /* MATERIAL_TYPE_INT */
+     , (30612, 115, 160) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30612, 5, 123) /* ENCUMB_VAL_INT */
+     , (30612, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (30612, 106, 140) /* ITEM_SPELLCRAFT_INT */
+     , (30612, 108, 752) /* ITEM_MAX_MANA_INT */
+     , (30612, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30612, 109, 25) /* ITEM_DIFFICULTY_INT */
+     , (30612, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30612, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30612, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (30612, 47, 1) /* ATTACK_TYPE_INT */
+     , (30612, 45, 64) /* DAMAGE_TYPE_INT */
+     , (30612, 49, 19) /* WEAPON_TIME_INT */
+     , (30612, 48, 45) /* WEAPON_SKILL_INT */
+     , (30612, 44, 20) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30612, 5, -0.03333334) /* MANA_RATE_FLOAT */
+     , (30612, 29, 1.01) /* WEAPON_DEFENSE_FLOAT */
+     , (30612, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
+     , (30612, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30612, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30612, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30612, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30612, 1614) /* BloodDrinker4_SpellID */
+     , (30612, 1625) /* SwiftKiller4_SpellID */;
+

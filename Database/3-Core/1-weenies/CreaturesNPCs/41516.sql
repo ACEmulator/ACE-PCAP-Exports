@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41516, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (41516, 16, 67109565) /* EYES_PALETTE_DID */
-     , (41516, 9, 83890282) /* EYES_TEXTURE_DID */
-     , (41516, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (41516, 10, 83890300) /* NOSE_TEXTURE_DID */
-     , (41516, 11, 83890352) /* MOUTH_TEXTURE_DID */
-     , (41516, 15, 67116985) /* HAIR_PALETTE_DID */;
+VALUES (41516, 16, 67110063) /* EYES_PALETTE_DID */
+     , (41516, 9, 83890259) /* EYES_TEXTURE_DID */
+     , (41516, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (41516, 10, 83890316) /* NOSE_TEXTURE_DID */
+     , (41516, 11, 83890351) /* MOUTH_TEXTURE_DID */
+     , (41516, 15, 67117071) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41516, 113, 2) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (41516, 113, 2) /* GENDER_INT */
      , (41516, 25, 231) /* LEVEL_INT */
      , (41516, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (41516, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (41516, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (41516, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (41516, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (41516, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (41516, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (41516, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (41516, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (41516, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (41516, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -43,16 +43,18 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30513, 16, 'Can the undead cry? It is said that after Leikotha, the great warrior of Haebrous, was made undead by the Sand King Nerash, she wept for thirty days and thirty nights. Each tear shed fell onto her armor, infusing Leikotha''s essence into each piece.  Courage, honor, sorrow, wrath and... everlasting death.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30513, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (30513, 384, 1) /*  */
+VALUES (30513, 384, 1) /*  */
+     , (30513, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30513, 17, 224) /* RARE_ID_INT */
      , (30513, 19, 50000) /* VALUE_INT */
      , (30513, 5, 800) /* ENCUMB_VAL_INT */
+     , (30513, 375, 1) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (30513, 265, 40) /* EQUIPMENT_SET_ID_INT */
-     , (30513, 106, 325) /* ITEM_SPELLCRAFT_INT */
      , (30513, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (30513, 28, 525) /* ARMOR_LEVEL_INT */
+     , (30513, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (30513, 379, 1) /* GEAR_MAX_HEALTH_INT */
      , (30513, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (30513, 28, 765) /* ARMOR_LEVEL_INT */
      , (30513, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (30513, 319, 50) /* ITEM_MAX_LEVEL_INT */;
 
@@ -62,13 +64,13 @@ VALUES (30513, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (30513, 5, -0.0333333) /* MANA_RATE_FLOAT */
-     , (30513, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (30513, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (30513, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (30513, 16, 1.1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (30513, 17, 0.9) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (30513, 18, 0.9) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (30513, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (30513, 13, 3.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (30513, 14, 3.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (30513, 15, 3.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (30513, 16, 3.1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (30513, 17, 2.9) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (30513, 18, 2.9) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (30513, 19, 2.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (30513, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)

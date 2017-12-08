@@ -50,6 +50,20 @@ VALUES (21080, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21080, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21080, 14, 'Apply this material to a magical, treasure-generated item with a heritage activation requirement to change that activation requirement to Aluvian.') /* USE_STRING */
+     , (21080, 15, 'A bundle of teak material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21080, 33, 1) /* BONDED_INT */
+     , (21080, 131, 77) /* MATERIAL_TYPE_INT */
+     , (21080, 19, 210) /* VALUE_INT */
+     , (21080, 5, 100) /* ENCUMB_VAL_INT */
+     , (21080, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (21080, 170, 1) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

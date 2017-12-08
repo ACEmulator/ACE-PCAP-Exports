@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (37610, 5, 'Arcanum Archivist') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (37610, 16, 67109565) /* EYES_PALETTE_DID */
-     , (37610, 9, 83890434) /* EYES_TEXTURE_DID */
-     , (37610, 17, 67109559) /* SKIN_PALETTE_DID */
+VALUES (37610, 16, 67110062) /* EYES_PALETTE_DID */
+     , (37610, 9, 83890480) /* EYES_TEXTURE_DID */
+     , (37610, 17, 67109562) /* SKIN_PALETTE_DID */
      , (37610, 10, 83890553) /* NOSE_TEXTURE_DID */
-     , (37610, 11, 83890656) /* MOUTH_TEXTURE_DID */
-     , (37610, 15, 67116987) /* HAIR_PALETTE_DID */;
+     , (37610, 11, 83890636) /* MOUTH_TEXTURE_DID */
+     , (37610, 15, 67116992) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37610, 113, 1) /* GENDER_INT */
@@ -104,6 +104,16 @@ VALUES (37610, 113, 1) /* GENDER_INT */
      , (37610, 25, 30) /* LEVEL_INT */
      , (37610, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (37610, 1, 110) /* STRENGTH_ATTRIBUTE */
+     , (37610, 2, 130) /* ENDURANCE_ATTRIBUTE */
+     , (37610, 4, 120) /* COORDINATION_ATTRIBUTE */
+     , (37610, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (37610, 16, 220) /* FOCUS_ATTRIBUTE */
+     , (37610, 32, 200) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37610, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (37610, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (37610, 128, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (37610, 256, 255) /* MAX_MANA_ATTRIBUTE_2ND */;
 

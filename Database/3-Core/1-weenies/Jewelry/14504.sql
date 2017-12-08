@@ -45,3 +45,33 @@ VALUES (14504, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14504, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14504, 16, 'A golden bracelet fitted with a pulsing green gem. The metal is pitted and scarred and carries a faint smell of brimstone. It irritates the skin.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14504, 160, 50) /* WIELD_DIFFICULTY_INT */
+     , (14504, 33, 1) /* BONDED_INT */
+     , (14504, 114, 1) /* ATTUNED_INT */
+     , (14504, 19, 8500) /* VALUE_INT */
+     , (14504, 36, 9999) /* RESIST_MAGIC_INT */
+     , (14504, 5, 80) /* ENCUMB_VAL_INT */
+     , (14504, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (14504, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (14504, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (14504, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (14504, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (14504, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14504, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (14504, 514) /* AcidProtectionOther6_SpellID */
+     , (14504, 272) /* MagicResistanceOther5_SpellID */
+     , (14504, 2642) /* Consumption_SpellID */
+     , (14504, 2580) /* CANTRIPENDURANCE1_SpellID */;
+

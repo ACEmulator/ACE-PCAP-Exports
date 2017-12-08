@@ -55,10 +55,25 @@ VALUES (49263, 0, 16777882);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49263, 2, 1) /* CREATURE_TYPE_INT */
-     , (49263, 25, 185) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49263, 14, 'Use this essence to summon or dismiss your Acid Elemental.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49263, 64, 2300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49263, 33, 0) /* BONDED_INT */
+     , (49263, 369, 90) /* USE_REQUIRES_LEVEL_INT */
+     , (49263, 114, 0) /* ATTUNED_INT */
+     , (49263, 19, 6000) /* VALUE_INT */
+     , (49263, 5, 50) /* ENCUMB_VAL_INT */
+     , (49263, 375, 14) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (49263, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (49263, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (49263, 91, 50) /* MAX_STRUCTURE_INT */
+     , (49263, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (49263, 367, 400) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49263, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49263, 69, 1) /* IS_SELLABLE_BOOL */;
 

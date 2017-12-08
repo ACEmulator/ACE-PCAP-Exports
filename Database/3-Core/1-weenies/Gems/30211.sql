@@ -55,12 +55,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30211, 16, 'Using this gem will confer a 25% attack bonus upon your equipped melee weapon for 15 minutes. This gem has no effect on ranged weapons.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30211, 33, -1) /* BONDED_INT */
-     , (30211, 17, 54) /* RARE_ID_INT */
+VALUES (30211, 17, 54) /* RARE_ID_INT */
+     , (30211, 33, -1) /* BONDED_INT */
      , (30211, 19, 0) /* VALUE_INT */
      , (30211, 5, 5) /* ENCUMB_VAL_INT */
-     , (30211, 106, 325) /* ITEM_SPELLCRAFT_INT */
      , (30211, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30211, 106, 325) /* ITEM_SPELLCRAFT_INT */
      , (30211, 108, 10000) /* ITEM_MAX_MANA_INT */
      , (30211, 109, 0) /* ITEM_DIFFICULTY_INT */;
 

@@ -52,3 +52,25 @@ VALUES (38796, 0, 83897428, 83897428);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38796, 0, 16792972);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38796, 16, 'An orb enchanted by dark forces for those who hunt their fellow Isparians.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38796, 19, 5400) /* VALUE_INT */
+     , (38796, 5, 50) /* ENCUMB_VAL_INT */
+     , (38796, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (38796, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (38796, 109, 150) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38796, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
+     , (38796, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (38796, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (38796, 4910) /* HarmRaiderTag_SpellID */
+     , (38796, 2256) /* JumpingMasteryOther7_SpellID */
+     , (38796, 2300) /* SprintOther7_SpellID */;
+

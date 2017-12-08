@@ -42,8 +42,8 @@ VALUES (5758, 14, 'Use this item to eat it.') /* USE_STRING */
      , (5758, 15, 'Sweet carrots of a fine, rich orange hue.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5758, 19, 18) /* VALUE_INT */
-     , (5758, 5, 300) /* ENCUMB_VAL_INT */
+VALUES (5758, 19, 3) /* VALUE_INT */
+     , (5758, 5, 50) /* ENCUMB_VAL_INT */
      , (5758, 89, 4) /* BOOSTER_ENUM_INT */
      , (5758, 90, 3) /* BOOST_VALUE_INT */;
 

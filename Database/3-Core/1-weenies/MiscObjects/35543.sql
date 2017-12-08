@@ -47,6 +47,22 @@ VALUES (35543, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35543, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35543, 16, 'A gem, seemingly made of congealed portal energy.  You know that using this gem will summon forth the weapon known as the "Lord''s Sword".  Once summoned, the weapon will only remain in the world for 3 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem.)') /* LONG_DESC_STRING */
+     , (35543, 14, 'Use this gem to summon the weapon it is bound to.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35543, 33, -1) /* BONDED_INT */
+     , (35543, 114, 0) /* ATTUNED_INT */
+     , (35543, 19, 1) /* VALUE_INT */
+     , (35543, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35543, 99, 0) /* IVORYABLE_BOOL */
+     , (35543, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

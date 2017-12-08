@@ -40,10 +40,21 @@ VALUES (6380, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6380, 2, 42) /* CREATURE_TYPE_INT */
+     , (6380, 307, 2) /* DAMAGE_RATING_INT */
      , (6380, 25, 60) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (6380, 1, 110) /* STRENGTH_ATTRIBUTE */
+     , (6380, 2, 130) /* ENDURANCE_ATTRIBUTE */
+     , (6380, 4, 130) /* COORDINATION_ATTRIBUTE */
+     , (6380, 8, 130) /* QUICKNESS_ATTRIBUTE */
+     , (6380, 16, 130) /* FOCUS_ATTRIBUTE */
+     , (6380, 32, 150) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6380, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (6380, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6380, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6380, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

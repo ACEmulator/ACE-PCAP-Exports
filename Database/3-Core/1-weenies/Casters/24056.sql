@@ -52,3 +52,29 @@ VALUES (24056, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24056, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24056, 16, 'The blackened, flaring heart of a powerful wisp.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24056, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (24056, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (24056, 19, 2000) /* VALUE_INT */
+     , (24056, 5, 50) /* ENCUMB_VAL_INT */
+     , (24056, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (24056, 108, 1800) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24056, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
+     , (24056, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (24056, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (24056, 193) /* RejuvenationSelf6_SpellID */
+     , (24056, 2004) /* WarriorsVitality_SpellID */
+     , (24056, 2008) /* WarriorsVigor_SpellID */
+     , (24056, 217) /* ManaRenewalSelf6_SpellID */
+     , (24056, 2012) /* WizardsIntellect_SpellID */
+     , (24056, 170) /* RegenerationSelf6_SpellID */;
+

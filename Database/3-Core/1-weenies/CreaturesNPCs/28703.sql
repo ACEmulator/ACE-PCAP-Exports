@@ -79,3 +79,27 @@ VALUES (28703, 0, 16791126)
      , (28703, 15, 16791133)
      , (28703, 16, 16791134);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28703, 5, 'Fiun Mage') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28703, 113, 1) /* GENDER_INT */
+     , (28703, 2, 78) /* CREATURE_TYPE_INT */
+     , (28703, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (28703, 25, 85) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28703, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (28703, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (28703, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (28703, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (28703, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (28703, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (28703, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28703, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28703, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -93,12 +93,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (20911, 5, 'Bow Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (20911, 16, 67110063) /* EYES_PALETTE_DID */
+VALUES (20911, 16, 67110065) /* EYES_PALETTE_DID */
      , (20911, 9, 83890259) /* EYES_TEXTURE_DID */
-     , (20911, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (20911, 10, 83890315) /* NOSE_TEXTURE_DID */
-     , (20911, 11, 83890350) /* MOUTH_TEXTURE_DID */
-     , (20911, 15, 67117070) /* HAIR_PALETTE_DID */;
+     , (20911, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (20911, 10, 83890287) /* NOSE_TEXTURE_DID */
+     , (20911, 11, 83890324) /* MOUTH_TEXTURE_DID */
+     , (20911, 15, 67117080) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20911, 113, 2) /* GENDER_INT */
@@ -107,6 +107,16 @@ VALUES (20911, 113, 2) /* GENDER_INT */
      , (20911, 25, 84) /* LEVEL_INT */
      , (20911, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (20911, 1, 135) /* STRENGTH_ATTRIBUTE */
+     , (20911, 2, 155) /* ENDURANCE_ATTRIBUTE */
+     , (20911, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (20911, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (20911, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (20911, 32, 160) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (20911, 64, 158) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (20911, 64, 158) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (20911, 128, 260) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (20911, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 

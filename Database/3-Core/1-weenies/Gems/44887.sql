@@ -40,6 +40,26 @@ VALUES (44887, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44887, 0, 16795851);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44887, 14, 'Use this applier to tailor the Celestial Hand heraldry onto a cloak.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44887, 19, 50) /* VALUE_INT */
+     , (44887, 5, 919) /* ENCUMB_VAL_INT */
+     , (44887, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44887, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (44887, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (44887, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (44887, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (44887, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (44887, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (44887, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (44887, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

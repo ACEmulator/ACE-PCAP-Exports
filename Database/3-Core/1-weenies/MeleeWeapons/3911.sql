@@ -38,3 +38,29 @@ VALUES (3911, 13, True) /* ETHEREAL_BOOL */
      , (3911, 19, True) /* ATTACKABLE_BOOL */
      , (3911, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3911, 16, 'Flaming Yaoji') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3911, 353, 2) /* WEAPON_TYPE_INT */
+     , (3911, 131, 64) /* MATERIAL_TYPE_INT */
+     , (3911, 19, 1384) /* VALUE_INT */
+     , (3911, 5, 317) /* ENCUMB_VAL_INT */
+     , (3911, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (3911, 172, 3) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3911, 47, 6) /* ATTACK_TYPE_INT */
+     , (3911, 45, 16) /* DAMAGE_TYPE_INT */
+     , (3911, 49, 28) /* WEAPON_TIME_INT */
+     , (3911, 48, 44) /* WEAPON_SKILL_INT */
+     , (3911, 44, 13) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3911, 29, 1.017138) /* WEAPON_DEFENSE_FLOAT */
+     , (3911, 22, 0.5874971) /* DAMAGE_VARIANCE_FLOAT */
+     , (3911, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3911, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3911, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3911, 62, 1.034345) /* WEAPON_OFFENSE_FLOAT */;
+

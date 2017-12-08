@@ -35,3 +35,15 @@ VALUES (11019, 13, True) /* ETHEREAL_BOOL */
      , (11019, 19, True) /* ATTACKABLE_BOOL */
      , (11019, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11019, 16, 'A reforged Yalaini bell. If rung, its noise is enough to make the very stones beneath you shake.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11019, 19, 250) /* VALUE_INT */
+     , (11019, 5, 1200) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11019, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -40,6 +40,31 @@ VALUES (317, 13, True) /* ETHEREAL_BOOL */
      , (317, 14, True) /* GRAVITY_STATUS_BOOL */
      , (317, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (317, 353, 10) /* WEAPON_TYPE_INT */
+     , (317, 386, 0) /*  */
+     , (317, 19, 4) /* VALUE_INT */
+     , (317, 307, 5) /* DAMAGE_RATING_INT */
+     , (317, 5, 15) /* ENCUMB_VAL_INT */
+     , (317, 313, 0) /* CRIT_RATING_INT */
+     , (317, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (317, 45, 2) /* DAMAGE_TYPE_INT */
+     , (317, 49, 20) /* WEAPON_TIME_INT */
+     , (317, 48, 47) /* WEAPON_SKILL_INT */
+     , (317, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (317, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (317, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (317, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (317, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (317, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (317, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (317, 26, 19.9633) /* MAXIMUM_VELOCITY_FLOAT */
+     , (317, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

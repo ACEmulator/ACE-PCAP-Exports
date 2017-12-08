@@ -91,11 +91,11 @@ VALUES (6859, 5, 'Healer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (6859, 16, 67109565) /* EYES_PALETTE_DID */
-     , (6859, 9, 83890263) /* EYES_TEXTURE_DID */
-     , (6859, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (6859, 10, 83890308) /* NOSE_TEXTURE_DID */
-     , (6859, 11, 83890352) /* MOUTH_TEXTURE_DID */
-     , (6859, 15, 67116992) /* HAIR_PALETTE_DID */;
+     , (6859, 9, 83890280) /* EYES_TEXTURE_DID */
+     , (6859, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (6859, 10, 83890286) /* NOSE_TEXTURE_DID */
+     , (6859, 11, 83890339) /* MOUTH_TEXTURE_DID */
+     , (6859, 15, 67116989) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6859, 113, 2) /* GENDER_INT */
@@ -104,6 +104,66 @@ VALUES (6859, 113, 2) /* GENDER_INT */
      , (6859, 25, 21) /* LEVEL_INT */
      , (6859, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (6859, 1, 135) /* STRENGTH_ATTRIBUTE */
+     , (6859, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (6859, 4, 90) /* COORDINATION_ATTRIBUTE */
+     , (6859, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (6859, 16, 150) /* FOCUS_ATTRIBUTE */
+     , (6859, 32, 150) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6859, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (6859, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6859, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6859, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6859, 74, 266368) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6859, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6859, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6859, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6859, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6859, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6859, 4, 2457) /* Health Draught */
+     , (6859, 4, 377) /* Potion of Healing */
+     , (6859, 4, 27319) /* Health Tincture */
+     , (6859, 4, 2460) /* Mana Draught */
+     , (6859, 4, 379) /* Mana Potion */
+     , (6859, 4, 27322) /* Mana Tincture */
+     , (6859, 4, 378) /* Stamina Potion */
+     , (6859, 4, 27326) /* Stamina Tincture */
+     , (6859, 4, 2470) /* Stamina Elixir */
+     , (6859, 4, 628) /* Handy Healing Kit */
+     , (6859, 4, 629) /* Adept Healing Kit */
+     , (6859, 4, 630) /* Gifted Healing Kit */
+     , (6859, 4, 631) /* Excellent Healing Kit */
+     , (6859, 4, 632) /* Peerless Healing Kit */
+     , (6859, 4, 9229) /* Treated Healing Kit */
+     , (6859, 4, 4587) /* Heal Other II */
+     , (6859, 4, 4596) /* Regeneration Other II */
+     , (6859, 4, 4593) /* Mana Boost Other II */
+     , (6859, 4, 753) /* Brimstone */
+     , (6859, 4, 754) /* Cadmia */
+     , (6859, 4, 755) /* Cinnabar */
+     , (6859, 4, 756) /* Cobalt */
+     , (6859, 4, 757) /* Colcothar */
+     , (6859, 4, 758) /* Gypsum */
+     , (6859, 4, 759) /* Quicksilver */
+     , (6859, 4, 760) /* Realgar */
+     , (6859, 4, 761) /* Stibnite */
+     , (6859, 4, 762) /* Turpeth */
+     , (6859, 4, 763) /* Verdigris */
+     , (6859, 4, 764) /* Vitriol */
+     , (6859, 4, 2621) /* Trade Note (100) */
+     , (6859, 4, 2622) /* Trade Note (500) */;
 

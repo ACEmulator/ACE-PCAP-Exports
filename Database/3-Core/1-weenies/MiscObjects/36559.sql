@@ -34,3 +34,12 @@ VALUES (36559, 13, True) /* ETHEREAL_BOOL */
      , (36559, 19, True) /* ATTACKABLE_BOOL */
      , (36559, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36559, 16, 'A ticket good for one admittance to the famous Night Club.  Present it to the Night Club Attendant in Cragstone, Hebian-To, Sanamar, or Zaikhal to be transported to the Night Club.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36559, 19, 0) /* VALUE_INT */
+     , (36559, 5, 5) /* ENCUMB_VAL_INT */;
+

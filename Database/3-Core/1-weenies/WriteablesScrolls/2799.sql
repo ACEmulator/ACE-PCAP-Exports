@@ -35,3 +35,17 @@ VALUES (2799, 13, True) /* ETHEREAL_BOOL */
      , (2799, 19, True) /* ATTACKABLE_BOOL */
      , (2799, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2799, 16, 'Inscribed spell: Bludgeon Lure IV
+Decreases a shield or piece of armor''s resistance to bludgeoning damage by 75%.') /* LONG_DESC_STRING */
+     , (2799, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2799, 19, 100) /* VALUE_INT */
+     , (2799, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2799, 1508) /* BludgeonLure4_SpellID */;
+

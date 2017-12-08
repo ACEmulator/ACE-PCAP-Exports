@@ -95,12 +95,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (46424, 5, 'Stipend Officer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (46424, 16, 67109565) /* EYES_PALETTE_DID */
-     , (46424, 9, 83890480) /* EYES_TEXTURE_DID */
+VALUES (46424, 16, 67109566) /* EYES_PALETTE_DID */
+     , (46424, 9, 83890467) /* EYES_TEXTURE_DID */
      , (46424, 17, 67109562) /* SKIN_PALETTE_DID */
      , (46424, 10, 83890522) /* NOSE_TEXTURE_DID */
-     , (46424, 11, 83890587) /* MOUTH_TEXTURE_DID */
-     , (46424, 15, 67117026) /* HAIR_PALETTE_DID */;
+     , (46424, 11, 83890575) /* MOUTH_TEXTURE_DID */
+     , (46424, 15, 67116998) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46424, 113, 1) /* GENDER_INT */

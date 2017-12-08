@@ -43,7 +43,10 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (52794, 14, 'Use the Gauntlet Vault Key to unlock this cache.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52794, 5, 17169) /* ENCUMB_VAL_INT */;
+VALUES (52794, 19, 2500) /* VALUE_INT */
+     , (52794, 5, 16676) /* ENCUMB_VAL_INT */
+     , (52794, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (52794, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52794, 2, 0) /* OPEN_BOOL */

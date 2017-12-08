@@ -47,3 +47,34 @@ VALUES (30583, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30583, 0, 16792135);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30583, 16, 'Flaming Mazule') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30583, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (30583, 353, 4) /* WEAPON_TYPE_INT */
+     , (30583, 177, 3) /* GEM_COUNT_INT */
+     , (30583, 178, 13) /* GEM_TYPE_INT */
+     , (30583, 19, 1794) /* VALUE_INT */
+     , (30583, 131, 63) /* MATERIAL_TYPE_INT */
+     , (30583, 5, 256) /* ENCUMB_VAL_INT */
+     , (30583, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (30583, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30583, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30583, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (30583, 47, 4) /* ATTACK_TYPE_INT */
+     , (30583, 45, 16) /* DAMAGE_TYPE_INT */
+     , (30583, 49, 33) /* WEAPON_TIME_INT */
+     , (30583, 48, 44) /* WEAPON_SKILL_INT */
+     , (30583, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30583, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (30583, 22, 0.42) /* DAMAGE_VARIANCE_FLOAT */
+     , (30583, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30583, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30583, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30583, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
+

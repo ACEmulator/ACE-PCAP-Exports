@@ -38,3 +38,24 @@ VALUES (11336, 13, True) /* ETHEREAL_BOOL */
      , (11336, 19, True) /* ATTACKABLE_BOOL */
      , (11336, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11336, 16, 'A beautifully carved pendant in the shape of a butterfly.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11336, 33, 1) /* BONDED_INT */
+     , (11336, 19, 1000) /* VALUE_INT */
+     , (11336, 5, 50) /* ENCUMB_VAL_INT */
+     , (11336, 106, 35) /* ITEM_SPELLCRAFT_INT */
+     , (11336, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (11336, 109, 35) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11336, 5, -0.0333333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (11336, 2436) /* LayingonofHands_SpellID */
+     , (11336, 160) /* RegenerationOther2_SpellID */
+     , (11336, 184) /* RejuvenationOther2_SpellID */;
+

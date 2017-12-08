@@ -38,3 +38,39 @@ VALUES (28150, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28150, 67115303, 240, 16);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28150, 16, 'A winged helmet crafted from the hide of an adolescent azure gromnie.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28150, 160, 85) /* WIELD_DIFFICULTY_INT */
+     , (28150, 19, 5000) /* VALUE_INT */
+     , (28150, 5, 375) /* ENCUMB_VAL_INT */
+     , (28150, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (28150, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (28150, 28, 290) /* ARMOR_LEVEL_INT */
+     , (28150, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (28150, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (28150, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28150, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (28150, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28150, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28150, 15, 2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28150, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28150, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28150, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28150, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28150, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28150, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28150, 2560) /* CANTRIPMANACONVERSIONPROWESS1_SpellID */
+     , (28150, 1486) /* Impenetrability6_SpellID */
+     , (28150, 2581) /* CANTRIPFOCUS1_SpellID */
+     , (28150, 2616) /* CANTRIPACIDWARD1_SpellID */;
+

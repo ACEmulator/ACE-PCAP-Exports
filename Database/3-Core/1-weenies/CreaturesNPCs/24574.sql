@@ -63,6 +63,30 @@ VALUES (24574, 0, 16785699)
      , (24574, 19, 16785704)
      , (24574, 20, 16785705);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24574, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24574, 2, 5) /* CREATURE_TYPE_INT */
+     , (24574, 307, 5) /* DAMAGE_RATING_INT */
+     , (24574, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (24574, 25, 96) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (24574, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (24574, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (24574, 4, 65) /* COORDINATION_ATTRIBUTE */
+     , (24574, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (24574, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (24574, 32, 50) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (24574, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24574, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24574, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -39,8 +39,8 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (27669, 16, 'These salted meats have been specially treated by Tumerok priests with herbs and spices that have many healing qualities. The result is a pungent and dry strip of meat with incredible healing properties.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27669, 19, 4100) /* VALUE_INT */
-     , (27669, 5, 6560) /* ENCUMB_VAL_INT */
+VALUES (27669, 19, 2500) /* VALUE_INT */
+     , (27669, 5, 4000) /* ENCUMB_VAL_INT */
      , (27669, 89, 2) /* BOOSTER_ENUM_INT */
      , (27669, 90, 120) /* BOOST_VALUE_INT */;
 

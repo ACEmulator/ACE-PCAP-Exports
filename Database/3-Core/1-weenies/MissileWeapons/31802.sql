@@ -55,3 +55,47 @@ VALUES (31802, 0, 83897331, 83897331);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31802, 0, 16792608);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31802, 16, 'Fire Compound Bow of Swiftkiller') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31802, 160, 375) /* WIELD_DIFFICULTY_INT */
+     , (31802, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31802, 353, 8) /* WEAPON_TYPE_INT */
+     , (31802, 115, 385) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31802, 131, 63) /* MATERIAL_TYPE_INT */
+     , (31802, 179, 512) /* IMBUED_EFFECT_INT */
+     , (31802, 19, 10391) /* VALUE_INT */
+     , (31802, 5, 525) /* ENCUMB_VAL_INT */
+     , (31802, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (31802, 106, 365) /* ITEM_SPELLCRAFT_INT */
+     , (31802, 171, 9) /* NUM_TIMES_TINKERED_INT */
+     , (31802, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31802, 204, 14) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (31802, 108, 2001) /* ITEM_MAX_MANA_INT */
+     , (31802, 109, 116) /* ITEM_DIFFICULTY_INT */
+     , (31802, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31802, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31802, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (31802, 45, 16) /* DAMAGE_TYPE_INT */
+     , (31802, 49, 39) /* WEAPON_TIME_INT */
+     , (31802, 48, 47) /* WEAPON_SKILL_INT */
+     , (31802, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31802, 29, 1.16) /* WEAPON_DEFENSE_FLOAT */
+     , (31802, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (31802, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (31802, 63, 2.72) /* DAMAGE_MOD_FLOAT */
+     , (31802, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31802, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31802, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31802, 2116) /* Swiftkiller7_SpellID */
+     , (31802, 5784) /* dirtyfightingmasteryself6_SpellID */
+     , (31802, 4395) /* Blooddrinker8_SpellID */
+     , (31802, 4661) /* CANTRIPBLOODTHIRST3_SpellID */;
+

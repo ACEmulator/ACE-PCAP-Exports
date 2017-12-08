@@ -117,22 +117,33 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (51987, 5, 'Royal Knight') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (51987, 16, 67116858) /* EYES_PALETTE_DID */
-     , (51987, 9, 83890514) /* EYES_TEXTURE_DID */
-     , (51987, 17, 67116966) /* SKIN_PALETTE_DID */
-     , (51987, 10, 83890522) /* NOSE_TEXTURE_DID */
-     , (51987, 11, 83890662) /* MOUTH_TEXTURE_DID */
-     , (51987, 15, 67116990) /* HAIR_PALETTE_DID */;
+VALUES (51987, 16, 67116854) /* EYES_PALETTE_DID */
+     , (51987, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (51987, 17, 67115907) /* SKIN_PALETTE_DID */
+     , (51987, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (51987, 11, 83890578) /* MOUTH_TEXTURE_DID */
+     , (51987, 15, 67116980) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51987, 113, 1) /* GENDER_INT */
      , (51987, 2, 31) /* CREATURE_TYPE_INT */
+     , (51987, 307, 5) /* DAMAGE_RATING_INT */
      , (51987, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (51987, 25, 275) /* LEVEL_INT */
      , (51987, 188, 9) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (51987, 1, 260) /* STRENGTH_ATTRIBUTE */
+     , (51987, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (51987, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (51987, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (51987, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (51987, 32, 200) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51987, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (51987, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (51987, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (51987, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

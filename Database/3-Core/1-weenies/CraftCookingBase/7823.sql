@@ -36,6 +36,16 @@ VALUES (7823, 13, True) /* ETHEREAL_BOOL */
      , (7823, 19, True) /* ATTACKABLE_BOOL */
      , (7823, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7823, 14, 'This item is used in cooking.') /* USE_STRING */
+     , (7823, 15, 'A simple, sturdy grinder for grinding certain foods.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7823, 19, 3500) /* VALUE_INT */
+     , (7823, 5, 600) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

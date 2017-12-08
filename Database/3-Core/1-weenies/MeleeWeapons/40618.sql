@@ -48,3 +48,46 @@ VALUES (40618, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40618, 0, 16791762);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40618, 16, 'Spadone of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40618, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
+     , (40618, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (40618, 353, 11) /* WEAPON_TYPE_INT */
+     , (40618, 177, 3) /* GEM_COUNT_INT */
+     , (40618, 178, 16) /* GEM_TYPE_INT */
+     , (40618, 19, 7514) /* VALUE_INT */
+     , (40618, 131, 63) /* MATERIAL_TYPE_INT */
+     , (40618, 115, 319) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40618, 292, 2) /* CLEAVING_INT */
+     , (40618, 5, 323) /* ENCUMB_VAL_INT */
+     , (40618, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (40618, 106, 299) /* ITEM_SPELLCRAFT_INT */
+     , (40618, 108, 1634) /* ITEM_MAX_MANA_INT */
+     , (40618, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40618, 109, 139) /* ITEM_DIFFICULTY_INT */
+     , (40618, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (40618, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40618, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (40618, 47, 4) /* ATTACK_TYPE_INT */
+     , (40618, 45, 1) /* DAMAGE_TYPE_INT */
+     , (40618, 49, 40) /* WEAPON_TIME_INT */
+     , (40618, 48, 41) /* WEAPON_SKILL_INT */
+     , (40618, 44, 25) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40618, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (40618, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (40618, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
+     , (40618, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (40618, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (40618, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (40618, 62, 1.13) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40618, 2096) /* BloodDrinker7_SpellID */
+     , (40618, 1592) /* HeartSeeker6_SpellID */;
+

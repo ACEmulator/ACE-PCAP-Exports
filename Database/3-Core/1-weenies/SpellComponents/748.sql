@@ -46,8 +46,8 @@ VALUES (748, 0, 16780687);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (748, 19, 100) /* VALUE_INT */
-     , (748, 5, 80) /* ENCUMB_VAL_INT */;
+VALUES (748, 19, 5) /* VALUE_INT */
+     , (748, 5, 4) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

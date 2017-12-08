@@ -33,3 +33,32 @@ VALUES (44988, 13, True) /* ETHEREAL_BOOL */
      , (44988, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44988, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44988, 16, 'A torn page of a journal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44988, 19, 0) /* VALUE_INT */
+     , (44988, 5, 5) /* ENCUMB_VAL_INT */
+     , (44988, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (44988, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44988, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (44988, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (44988, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (44988, 0, 'Wardley', 'prewritten', 4294967295, 0, '
+The wights seem to be gathering together in this area. They seem to be heading into a cave to the west of here. 
+
+This can''t be a good sign. I am going in for a closer look. If you find this note it can only mean I did not make it back out. 
+
+Warn my brother not to come after me.
+');
+

@@ -50,7 +50,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (8964, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
      , (8964, 353, 2) /* WEAPON_TYPE_INT */
      , (8964, 33, 1) /* BONDED_INT */
-     , (8964, 114, 1) /* ATTUNED_INT */
+     , (8964, 114, 0) /* ATTUNED_INT */
      , (8964, 19, 0) /* VALUE_INT */
      , (8964, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (8964, 5, 450) /* ENCUMB_VAL_INT */
@@ -74,6 +74,7 @@ VALUES (8964, 5, -0.1) /* MANA_RATE_FLOAT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8964, 99, 1) /* IVORYABLE_BOOL */
+     , (8964, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */
      , (8964, 69, 0) /* IS_SELLABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)

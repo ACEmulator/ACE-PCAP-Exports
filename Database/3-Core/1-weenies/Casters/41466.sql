@@ -54,3 +54,28 @@ VALUES (41466, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41466, 0, 16794408);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41466, 16, 'A lense used in the assessment of creatures. Use of this lense will make creatures more vulnerable to physical attacks.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41466, 160, 225) /* WIELD_DIFFICULTY_INT */
+     , (41466, 19, 500) /* VALUE_INT */
+     , (41466, 5, 200) /* ENCUMB_VAL_INT */
+     , (41466, 106, 520) /* ITEM_SPELLCRAFT_INT */
+     , (41466, 108, 6000) /* ITEM_MAX_MANA_INT */
+     , (41466, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41466, 159, 27) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41466, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (41466, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (41466, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41466, 69, 1) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41466, 5121) /* exposeweakness7_SpellID */;
+

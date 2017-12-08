@@ -52,6 +52,26 @@ VALUES (10974, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10974, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10974, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10974, 19, 10000) /* VALUE_INT */
+     , (10974, 5, 10) /* ENCUMB_VAL_INT */
+     , (10974, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (10974, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (10974, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (10974, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (10974, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10974, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (10974, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

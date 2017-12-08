@@ -88,3 +88,26 @@ VALUES (5137, 12, 16777304)
      , (5137, 14, 16783855)
      , (5137, 16, 16785776);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5137, 5, 'Society Agent') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5137, 16, 67110062) /* EYES_PALETTE_DID */
+     , (5137, 9, 83890476) /* EYES_TEXTURE_DID */
+     , (5137, 17, 67109556) /* SKIN_PALETTE_DID */
+     , (5137, 10, 83890530) /* NOSE_TEXTURE_DID */
+     , (5137, 11, 83890563) /* MOUTH_TEXTURE_DID */
+     , (5137, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5137, 113, 1) /* GENDER_INT */
+     , (5137, 2, 31) /* CREATURE_TYPE_INT */
+     , (5137, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (5137, 25, 45) /* LEVEL_INT */
+     , (5137, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5137, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

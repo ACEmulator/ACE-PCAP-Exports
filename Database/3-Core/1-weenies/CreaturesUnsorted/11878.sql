@@ -54,14 +54,13 @@ VALUES (11878, 9, 16792510);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11878, 2, 6) /* CREATURE_TYPE_INT */
-     , (11878, 307, 5) /* DAMAGE_RATING_INT */
      , (11878, 25, 30) /* LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (11878, 1, 110) /* STRENGTH_ATTRIBUTE */
      , (11878, 2, 125) /* ENDURANCE_ATTRIBUTE */
      , (11878, 4, 135) /* COORDINATION_ATTRIBUTE */
-     , (11878, 8, 140) /* QUICKNESS_ATTRIBUTE */
+     , (11878, 8, 115) /* QUICKNESS_ATTRIBUTE */
      , (11878, 16, 100) /* FOCUS_ATTRIBUTE */
      , (11878, 32, 100) /* SELF_ATTRIBUTE */;
 

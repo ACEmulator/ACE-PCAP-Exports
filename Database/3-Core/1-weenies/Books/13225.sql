@@ -46,3 +46,20 @@ VALUES (13225, 33, 1) /* BONDED_INT */
      , (13225, 174, 1) /* APPRAISAL_PAGES_INT */
      , (13225, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13225, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (13225, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (13225, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (13225, 0, '', 'prewritten', 4294967295, 0, 'I need you elsewhere, Menacet. Delegate the subversion of the last remaining Arrival Points to one of your servants and visit me immediately. The next stage of the plan will soon be in place. With these attacks we have restricted the new blood from refreshing the Isparian public body. Soon we will deliver the death blow to the body that remains.
+
+Do not increase the pressure on the Arrival Points yet. If our next venture succeeds, then it may be beneficial to keep potential new crops ripe for harvest.
+
+-M
+');
+

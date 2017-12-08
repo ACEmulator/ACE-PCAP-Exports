@@ -62,21 +62,32 @@ VALUES (23090, 0, 16778359)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (23090, 16, 67110062) /* EYES_PALETTE_DID */
-     , (23090, 9, 83890279) /* EYES_TEXTURE_DID */
-     , (23090, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (23090, 10, 83890310) /* NOSE_TEXTURE_DID */
-     , (23090, 11, 83890350) /* MOUTH_TEXTURE_DID */
-     , (23090, 15, 67117024) /* HAIR_PALETTE_DID */;
+VALUES (23090, 16, 67109564) /* EYES_PALETTE_DID */
+     , (23090, 9, 83890280) /* EYES_TEXTURE_DID */
+     , (23090, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (23090, 10, 83890289) /* NOSE_TEXTURE_DID */
+     , (23090, 11, 83890346) /* MOUTH_TEXTURE_DID */
+     , (23090, 15, 67117019) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23090, 113, 2) /* GENDER_INT */
      , (23090, 2, 22) /* CREATURE_TYPE_INT */
+     , (23090, 307, 5) /* DAMAGE_RATING_INT */
      , (23090, 25, 115) /* LEVEL_INT */
      , (23090, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (23090, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (23090, 2, 170) /* ENDURANCE_ATTRIBUTE */
+     , (23090, 4, 190) /* COORDINATION_ATTRIBUTE */
+     , (23090, 8, 210) /* QUICKNESS_ATTRIBUTE */
+     , (23090, 16, 170) /* FOCUS_ATTRIBUTE */
+     , (23090, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23090, 64, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (23090, 64, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23090, 128, 620) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23090, 256, 590) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

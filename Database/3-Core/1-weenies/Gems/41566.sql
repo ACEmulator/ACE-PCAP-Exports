@@ -31,6 +31,22 @@ VALUES (41566, 13, True) /* ETHEREAL_BOOL */
      , (41566, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41566, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41566, 16, 'A piece of Depleted Aetherium Ore taken from the Gearknight invasion area to the East of the Inner Sea.') /* LONG_DESC_STRING */
+     , (41566, 14, 'Deliver this trophy to Agents near 33.4S 6.3E') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41566, 33, 1) /* BONDED_INT */
+     , (41566, 114, 1) /* ATTUNED_INT */
+     , (41566, 19, 0) /* VALUE_INT */
+     , (41566, 5, 450) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41566, 99, 0) /* IVORYABLE_BOOL */
+     , (41566, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

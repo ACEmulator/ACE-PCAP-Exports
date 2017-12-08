@@ -35,3 +35,17 @@ VALUES (20554, 13, True) /* ETHEREAL_BOOL */
      , (20554, 19, True) /* ATTACKABLE_BOOL */
      , (20554, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20554, 16, 'Inscribed spell: Harlune''s Blessing
+Increases the caster''s Life Magic skill by 40 points.') /* LONG_DESC_STRING */
+     , (20554, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20554, 19, 2000) /* VALUE_INT */
+     , (20554, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20554, 2267) /* LifeMagicMasterySelf7_SpellID */;
+

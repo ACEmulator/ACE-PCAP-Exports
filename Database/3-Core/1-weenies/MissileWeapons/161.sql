@@ -51,3 +51,37 @@ VALUES (161, 0, 83889549, 83889549);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (161, 0, 16778845);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (161, 16, 'Mug of Cooking Mastery') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (161, 353, 10) /* WEAPON_TYPE_INT */
+     , (161, 19, 1977) /* VALUE_INT */
+     , (161, 131, 2) /* MATERIAL_TYPE_INT */
+     , (161, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (161, 5, 40) /* ENCUMB_VAL_INT */
+     , (161, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (161, 106, 220) /* ITEM_SPELLCRAFT_INT */
+     , (161, 108, 694) /* ITEM_MAX_MANA_INT */
+     , (161, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (161, 109, 165) /* ITEM_DIFFICULTY_INT */
+     , (161, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (161, 45, 4) /* DAMAGE_TYPE_INT */
+     , (161, 49, 10) /* WEAPON_TIME_INT */
+     , (161, 48, 47) /* WEAPON_SKILL_INT */
+     , (161, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (161, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (161, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (161, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (161, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (161, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (161, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (161, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (161, 1719) /* CookingMasterySelf5_SpellID */;
+

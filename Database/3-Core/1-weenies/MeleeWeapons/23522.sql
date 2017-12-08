@@ -54,21 +54,21 @@ VALUES (23522, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (23522, 47, 6) /* ATTACK_TYPE_INT */
      , (23522, 159, 44) /* WIELD_SKILLTYPE_INT */
      , (23522, 45, 64) /* DAMAGE_TYPE_INT */
-     , (23522, 49, 20) /* WEAPON_TIME_INT */
+     , (23522, 49, 50) /* WEAPON_TIME_INT */
      , (23522, 48, 44) /* WEAPON_SKILL_INT */
-     , (23522, 44, 94) /* DAMAGE_INT */;
+     , (23522, 44, 74) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23522, 29, 1.3) /* WEAPON_DEFENSE_FLOAT */
+VALUES (23522, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
      , (23522, 5, -0.05) /* MANA_RATE_FLOAT */
      , (23522, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
      , (23522, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (23522, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (23522, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (23522, 62, 1.3) /* WEAPON_OFFENSE_FLOAT */;
+     , (23522, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (23522, 99, 0) /* IVORYABLE_BOOL */
+VALUES (23522, 99, 1) /* IVORYABLE_BOOL */
      , (23522, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)

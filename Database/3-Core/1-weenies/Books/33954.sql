@@ -33,3 +33,14 @@ VALUES (33954, 13, True) /* ETHEREAL_BOOL */
      , (33954, 14, True) /* GRAVITY_STATUS_BOOL */
      , (33954, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33954, 16, 'A list of some of the places where Kilif Zefirs are found.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33954, 19, 0) /* VALUE_INT */
+     , (33954, 5, 15) /* ENCUMB_VAL_INT */
+     , (33954, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (33954, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

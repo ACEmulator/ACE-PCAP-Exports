@@ -33,3 +33,22 @@ VALUES (40523, 13, True) /* ETHEREAL_BOOL */
      , (40523, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40523, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40523, 15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40523, 33, 1) /* BONDED_INT */
+     , (40523, 114, 1) /* ATTUNED_INT */
+     , (40523, 98, 1485370426) /* CREATION_TIMESTAMP_INT */
+     , (40523, 19, 0) /* VALUE_INT */
+     , (40523, 5, 10) /* ENCUMB_VAL_INT */
+     , (40523, 267, 600) /* LIFESPAN_INT */
+     , (40523, 268, 569) /* REMAINING_LIFESPAN_INT */
+     , (40523, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (40523, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40523, 69, 1) /* IS_SELLABLE_BOOL */;
+

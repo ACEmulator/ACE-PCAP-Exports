@@ -49,3 +49,54 @@ VALUES (43274, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43274, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43274, 16, 'A loose-fitting Empyrean robe, designed to be worn over other armor pieces.  Embedded in the fabric are small threads of Thaumaturgic Crystal which radiate an almost palpable power.') /* LONG_DESC_STRING */
+     , (43274, 14, 'This robe may be tailored onto most breastplates.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43274, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (43274, 33, 0) /* BONDED_INT */
+     , (43274, 114, 0) /* ATTUNED_INT */
+     , (43274, 19, 100000) /* VALUE_INT */
+     , (43274, 5, 450) /* ENCUMB_VAL_INT */
+     , (43274, 105, 10) /* ITEM_WORKMANSHIP_INT */
+     , (43274, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (43274, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (43274, 28, 150) /* ARMOR_LEVEL_INT */
+     , (43274, 109, 320) /* ITEM_DIFFICULTY_INT */
+     , (43274, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (43274, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43274, 5, -0.5) /* MANA_RATE_FLOAT */
+     , (43274, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (43274, 14, 0.6) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (43274, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (43274, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (43274, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (43274, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (43274, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (43274, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43274, 99, 0) /* IVORYABLE_BOOL */
+     , (43274, 100, 0) /* DYABLE_BOOL */
+     , (43274, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43274, 2624) /* CANTRIPMANAGAIN2_SpellID */
+     , (43274, 2625) /* CANTRIPSTAMINAGAIN2_SpellID */
+     , (43274, 4226) /* CANTRIPENDURANCE3_SpellID */
+     , (43274, 2960) /* BludgeoningDurance_SpellID */
+     , (43274, 2961) /* PiercingDurance_SpellID */
+     , (43274, 2962) /* SlashingDurance_SpellID */
+     , (43274, 4059) /* EnduranceOtherIncantation_SpellID */
+     , (43274, 4062) /* ImpenetrabilityEmpyreanAegis_SpellID */
+     , (43274, 2350) /* DecayDurance_SpellID */
+     , (43274, 2351) /* ConsumptionDurance_SpellID */
+     , (43274, 2352) /* StasisDurance_SpellID */
+     , (43274, 2353) /* StimulationDurance_SpellID */
+     , (43274, 2623) /* CANTRIPHEALTHGAIN2_SpellID */;
+

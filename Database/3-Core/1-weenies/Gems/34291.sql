@@ -55,7 +55,7 @@ VALUES (34291, 14, 'Use this gem to cast the Moderate Coordination cantrip on yo
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34291, 19, 0) /* VALUE_INT */
-     , (34291, 5, 850) /* ENCUMB_VAL_INT */
+     , (34291, 5, 50) /* ENCUMB_VAL_INT */
      , (34291, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (34291, 108, 250) /* ITEM_MAX_MANA_INT */
      , (34291, 109, 0) /* ITEM_DIFFICULTY_INT */

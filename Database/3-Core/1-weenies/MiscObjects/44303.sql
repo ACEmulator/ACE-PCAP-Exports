@@ -31,6 +31,20 @@ VALUES (44303, 13, True) /* ETHEREAL_BOOL */
      , (44303, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44303, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44303, 15, 'A sacred crystal stolen from an ancient altar of the A''nekshay.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44303, 33, 1) /* BONDED_INT */
+     , (44303, 114, 1) /* ATTUNED_INT */
+     , (44303, 19, 0) /* VALUE_INT */
+     , (44303, 5, 2) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44303, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

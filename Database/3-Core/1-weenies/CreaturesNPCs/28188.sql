@@ -89,3 +89,36 @@ VALUES (28188, 12, 16777304)
      , (28188, 4, 16777291)
      , (28188, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28188, 5, 'Apprentice Fletcher') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (28188, 16, 67110065) /* EYES_PALETTE_DID */
+     , (28188, 9, 83890515) /* EYES_TEXTURE_DID */
+     , (28188, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (28188, 10, 83890550) /* NOSE_TEXTURE_DID */
+     , (28188, 11, 83890656) /* MOUTH_TEXTURE_DID */
+     , (28188, 15, 67117002) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28188, 113, 1) /* GENDER_INT */
+     , (28188, 2, 31) /* CREATURE_TYPE_INT */
+     , (28188, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (28188, 25, 5) /* LEVEL_INT */
+     , (28188, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28188, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (28188, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (28188, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (28188, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (28188, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (28188, 32, 60) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (28188, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28188, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28188, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+

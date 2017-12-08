@@ -57,3 +57,46 @@ VALUES (29248, 0, 83895601, 83895601)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29248, 0, 16791344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29248, 16, 'Fire Crossbow of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29248, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (29248, 160, 315) /* WIELD_DIFFICULTY_INT */
+     , (29248, 353, 9) /* WEAPON_TYPE_INT */
+     , (29248, 177, 3) /* GEM_COUNT_INT */
+     , (29248, 178, 20) /* GEM_TYPE_INT */
+     , (29248, 19, 13705) /* VALUE_INT */
+     , (29248, 131, 64) /* MATERIAL_TYPE_INT */
+     , (29248, 115, 258) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (29248, 5, 1417) /* ENCUMB_VAL_INT */
+     , (29248, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (29248, 106, 238) /* ITEM_SPELLCRAFT_INT */
+     , (29248, 108, 1174) /* ITEM_MAX_MANA_INT */
+     , (29248, 204, 2) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (29248, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (29248, 109, 121) /* ITEM_DIFFICULTY_INT */
+     , (29248, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (29248, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (29248, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (29248, 45, 16) /* DAMAGE_TYPE_INT */
+     , (29248, 49, 98) /* WEAPON_TIME_INT */
+     , (29248, 48, 47) /* WEAPON_SKILL_INT */
+     , (29248, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29248, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (29248, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
+     , (29248, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (29248, 63, 2.55) /* DAMAGE_MOD_FLOAT */
+     , (29248, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (29248, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (29248, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29248, 1616) /* BloodDrinker6_SpellID */
+     , (29248, 2579) /* CANTRIPCOORDINATION1_SpellID */
+     , (29248, 2550) /* CANTRIPINVULNERABILITY1_SpellID */;
+

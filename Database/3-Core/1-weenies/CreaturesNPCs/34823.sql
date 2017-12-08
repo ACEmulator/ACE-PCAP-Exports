@@ -43,6 +43,30 @@ VALUES (34823, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34823, 67114926, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34823, 5, 'Ranger Ruuk') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34823, 2, 75) /* CREATURE_TYPE_INT */
+     , (34823, 307, 5) /* DAMAGE_RATING_INT */
+     , (34823, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34823, 25, 40) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34823, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (34823, 2, 260) /* ENDURANCE_ATTRIBUTE */
+     , (34823, 4, 140) /* COORDINATION_ATTRIBUTE */
+     , (34823, 8, 320) /* QUICKNESS_ATTRIBUTE */
+     , (34823, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (34823, 32, 100) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34823, 64, 280) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34823, 128, 420) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34823, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

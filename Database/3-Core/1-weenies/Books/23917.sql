@@ -42,3 +42,19 @@ VALUES (23917, 19, 1) /* VALUE_INT */
      , (23917, 174, 1) /* APPRAISAL_PAGES_INT */
      , (23917, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23917, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (23917, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (23917, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (23917, 0, 'Amaltah', 'prewritten', 4294967295, 0, '
+Lurkers, I call upon you now to band together with your brother clans and seek freedom from atua ngamaru. We have been given a chance at freedom, a chance to build a new homeland free from our old masters and the outdated traditions of our old world. 
+
+Rally your commanders and your warriors, gather them beneath your banner, and convene with us in the brushlands near besieged Dryreach. There we shall unite our people, and train a vast horde to carve out our freedom.
+');
+

@@ -48,8 +48,8 @@ VALUES (30812, 14, 'Double Click on this item to summon a portal to the oasis of
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30812, 33, 0) /* BONDED_INT */
      , (30812, 114, 0) /* ATTUNED_INT */
-     , (30812, 19, 400) /* VALUE_INT */
-     , (30812, 5, 50) /* ENCUMB_VAL_INT */
+     , (30812, 19, 1600) /* VALUE_INT */
+     , (30812, 5, 200) /* ENCUMB_VAL_INT */
      , (30812, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (30812, 106, 210) /* ITEM_SPELLCRAFT_INT */
      , (30812, 108, 50) /* ITEM_MAX_MANA_INT */

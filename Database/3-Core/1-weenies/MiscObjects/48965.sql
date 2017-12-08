@@ -53,3 +53,26 @@ VALUES (48965, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48965, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48965, 14, 'Use this essence to summon or dismiss your Fire Child.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48965, 33, 0) /* BONDED_INT */
+     , (48965, 369, 115) /* USE_REQUIRES_LEVEL_INT */
+     , (48965, 114, 0) /* ATTUNED_INT */
+     , (48965, 19, 7000) /* VALUE_INT */
+     , (48965, 5, 50) /* ENCUMB_VAL_INT */
+     , (48965, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (48965, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (48965, 91, 50) /* MAX_STRUCTURE_INT */
+     , (48965, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (48965, 367, 430) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (48965, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48965, 69, 1) /* IS_SELLABLE_BOOL */;
+

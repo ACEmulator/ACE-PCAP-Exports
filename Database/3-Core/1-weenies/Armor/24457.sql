@@ -44,3 +44,38 @@ VALUES (24457, 0, 83887059, 83894595);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24457, 0, 16778374);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24457, 16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the enchanter.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24457, 160, 285) /* WIELD_DIFFICULTY_INT */
+     , (24457, 19, 5500) /* VALUE_INT */
+     , (24457, 5, 450) /* ENCUMB_VAL_INT */
+     , (24457, 106, 290) /* ITEM_SPELLCRAFT_INT */
+     , (24457, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (24457, 28, 250) /* ARMOR_LEVEL_INT */
+     , (24457, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (24457, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (24457, 159, 31) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24457, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (24457, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (24457, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (24457, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (24457, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (24457, 17, 1.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (24457, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (24457, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (24457, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24457, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (24457, 2946) /* ModerateCreatureMagicAptitude_SpellID */
+     , (24457, 1485) /* Impenetrability5_SpellID */
+     , (24457, 1456) /* WillpowerOther6_SpellID */;
+

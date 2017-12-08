@@ -41,8 +41,8 @@ VALUES (23126, 14, 'Use this item to drink it.') /* USE_STRING */
      , (23126, 15, 'A delicious, rich and spicy lager.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23126, 19, 2400) /* VALUE_INT */
-     , (23126, 5, 360) /* ENCUMB_VAL_INT */
+VALUES (23126, 19, 300) /* VALUE_INT */
+     , (23126, 5, 45) /* ENCUMB_VAL_INT */
      , (23126, 89, 4) /* BOOSTER_ENUM_INT */
      , (23126, 90, 60) /* BOOST_VALUE_INT */;
 

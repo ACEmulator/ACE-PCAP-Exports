@@ -37,3 +37,43 @@ VALUES (33116, 13, True) /* ETHEREAL_BOOL */
      , (33116, 19, True) /* ATTACKABLE_BOOL */
      , (33116, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33116, 15, 'A bow crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33116, 160, 140) /* WIELD_DIFFICULTY_INT */
+     , (33116, 353, 8) /* WEAPON_TYPE_INT */
+     , (33116, 19, 20000) /* VALUE_INT */
+     , (33116, 5, 400) /* ENCUMB_VAL_INT */
+     , (33116, 263, 2) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (33116, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (33116, 108, 8000) /* ITEM_MAX_MANA_INT */
+     , (33116, 109, 180) /* ITEM_DIFFICULTY_INT */
+     , (33116, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (33116, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (33116, 45, 0) /* DAMAGE_TYPE_INT */
+     , (33116, 49, 50) /* WEAPON_TIME_INT */
+     , (33116, 48, 47) /* WEAPON_SKILL_INT */
+     , (33116, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33116, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (33116, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (33116, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (33116, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (33116, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (33116, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (33116, 63, 2.5) /* DAMAGE_MOD_FLOAT */
+     , (33116, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (33116, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (33116, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33116, 2116) /* Swiftkiller7_SpellID */
+     , (33116, 2059) /* CoordinationSelf7_SpellID */
+     , (33116, 2096) /* BloodDrinker7_SpellID */
+     , (33116, 2101) /* Defender7_SpellID */
+     , (33116, 2687) /* ModerateBowAptitude_SpellID */;
+

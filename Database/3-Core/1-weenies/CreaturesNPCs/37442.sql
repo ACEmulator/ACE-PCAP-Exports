@@ -117,11 +117,11 @@ VALUES (37442, 5, 'Soldier') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (37442, 16, 67110063) /* EYES_PALETTE_DID */
-     , (37442, 9, 83890496) /* EYES_TEXTURE_DID */
-     , (37442, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (37442, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (37442, 11, 83890664) /* MOUTH_TEXTURE_DID */
-     , (37442, 15, 67117017) /* HAIR_PALETTE_DID */;
+     , (37442, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (37442, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (37442, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (37442, 11, 83890638) /* MOUTH_TEXTURE_DID */
+     , (37442, 15, 67117080) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37442, 113, 1) /* GENDER_INT */
@@ -130,6 +130,16 @@ VALUES (37442, 113, 1) /* GENDER_INT */
      , (37442, 25, 31) /* LEVEL_INT */
      , (37442, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (37442, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (37442, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (37442, 4, 110) /* COORDINATION_ATTRIBUTE */
+     , (37442, 8, 90) /* QUICKNESS_ATTRIBUTE */
+     , (37442, 16, 80) /* FOCUS_ATTRIBUTE */
+     , (37442, 32, 80) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37442, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (37442, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (37442, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (37442, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -49,3 +49,28 @@ VALUES (5027, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5027, 0, 16777885);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5027, 16, 'A rough-hewn forestry axe.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5027, 353, 3) /* WEAPON_TYPE_INT */
+     , (5027, 33, 1) /* BONDED_INT */
+     , (5027, 114, 1) /* ATTUNED_INT */
+     , (5027, 19, 0) /* VALUE_INT */
+     , (5027, 5, 940) /* ENCUMB_VAL_INT */
+     , (5027, 47, 4) /* ATTACK_TYPE_INT */
+     , (5027, 45, 1) /* DAMAGE_TYPE_INT */
+     , (5027, 49, 50) /* WEAPON_TIME_INT */
+     , (5027, 48, 45) /* WEAPON_SKILL_INT */
+     , (5027, 44, 15) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5027, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (5027, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (5027, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (5027, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (5027, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (5027, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

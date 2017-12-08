@@ -39,3 +39,12 @@ VALUES (8369, 13, True) /* ETHEREAL_BOOL */
      , (8369, 19, True) /* ATTACKABLE_BOOL */
      , (8369, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8369, 16, 'A geode found in the Knath''tead grottos beneath Xarabydun. There appears to be a small Knath growing inside it.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8369, 19, 5) /* VALUE_INT */
+     , (8369, 5, 5) /* ENCUMB_VAL_INT */;
+

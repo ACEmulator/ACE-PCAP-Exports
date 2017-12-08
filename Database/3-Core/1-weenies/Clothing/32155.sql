@@ -34,3 +34,23 @@ VALUES (32155, 13, True) /* ETHEREAL_BOOL */
      , (32155, 19, True) /* ATTACKABLE_BOOL */
      , (32155, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32155, 16, 'An awkward Ursuin Guise. All you need is an Ursuin Mask to complete the look.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32155, 19, 1000) /* VALUE_INT */
+     , (32155, 5, 1400) /* ENCUMB_VAL_INT */
+     , (32155, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32155, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (32155, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (32155, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (32155, 16, 0.65) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (32155, 17, 0.55) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (32155, 18, 0.55) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (32155, 19, 0.65) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (32155, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

@@ -35,3 +35,17 @@ VALUES (49462, 13, True) /* ETHEREAL_BOOL */
      , (49462, 19, True) /* ATTACKABLE_BOOL */
      , (49462, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49462, 16, 'Inscribed spell: Summoning Ineptitude Other VII
+Decreases the target''s Summoning skill by 40 points.') /* LONG_DESC_STRING */
+     , (49462, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49462, 19, 2000) /* VALUE_INT */
+     , (49462, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (49462, 6135) /* SummoningIneptitudeOther7_SpellID */;
+

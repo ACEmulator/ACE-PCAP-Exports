@@ -42,15 +42,10 @@ VALUES (51726, 67117140, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51726, 14, 'Use this item to drink it.') /* USE_STRING */;
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51726, 19, 85) /* VALUE_INT */
-     , (51726, 5, 5) /* ENCUMB_VAL_INT */
-     , (51726, 89, 2) /* BOOSTER_ENUM_INT */
-     , (51726, 90, 10) /* BOOST_VALUE_INT */;
+VALUES (51726, 2, 19) /* CREATURE_TYPE_INT */
+     , (51726, 25, 200) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (51726, 69, 0) /* IS_SELLABLE_BOOL */;
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51726, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 

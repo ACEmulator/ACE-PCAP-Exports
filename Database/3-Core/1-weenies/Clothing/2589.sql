@@ -53,17 +53,24 @@ VALUES (2589, 0, 16778356);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2589, 16, 'Satin Smock ') /* LONG_DESC_STRING */;
+VALUES (2589, 16, 'Smock of Protection') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2589, 131, 5) /* MATERIAL_TYPE_INT */
-     , (2589, 19, 129) /* VALUE_INT */
+VALUES (2589, 19, 2367) /* VALUE_INT */
+     , (2589, 131, 4) /* MATERIAL_TYPE_INT */
+     , (2589, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (2589, 5, 75) /* ENCUMB_VAL_INT */
-     , (2589, 105, 1) /* ITEM_WORKMANSHIP_INT */
-     , (2589, 28, 0) /* ARMOR_LEVEL_INT */;
+     , (2589, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (2589, 106, 160) /* ITEM_SPELLCRAFT_INT */
+     , (2589, 28, 0) /* ARMOR_LEVEL_INT */
+     , (2589, 108, 1089) /* ITEM_MAX_MANA_INT */
+     , (2589, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (2589, 109, 120) /* ITEM_DIFFICULTY_INT */
+     , (2589, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2589, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+VALUES (2589, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (2589, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (2589, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
      , (2589, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (2589, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
@@ -74,4 +81,7 @@ VALUES (2589, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (2589, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2589, 1310) /* ArmorSelf4_SpellID */;
 

@@ -35,3 +35,18 @@ VALUES (34573, 13, True) /* ETHEREAL_BOOL */
      , (34573, 19, True) /* ATTACKABLE_BOOL */
      , (34573, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34573, 16, 'A small, shadowy statue of the Hopeslayer, Bael''Zharon.') /* LONG_DESC_STRING */
+     , (34573, 14, 'The Shadow Hunters, in Wai Jhou, may be interested in this.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34573, 33, 0) /* BONDED_INT */
+     , (34573, 114, 0) /* ATTUNED_INT */
+     , (34573, 19, 165) /* VALUE_INT */
+     , (34573, 5, 75) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34573, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -32,3 +32,12 @@ VALUES (4126, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4126, 19, True) /* ATTACKABLE_BOOL */
      , (4126, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4126, 2, 30) /* CREATURE_TYPE_INT */
+     , (4126, 25, 8) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (4126, 64, 33) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

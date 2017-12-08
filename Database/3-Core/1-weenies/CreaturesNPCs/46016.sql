@@ -106,21 +106,32 @@ VALUES (46016, 5, 'Devourer Margul Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (46016, 16, 67116858) /* EYES_PALETTE_DID */
-     , (46016, 9, 83890260) /* EYES_TEXTURE_DID */
-     , (46016, 17, 67116849) /* SKIN_PALETTE_DID */
-     , (46016, 10, 83890310) /* NOSE_TEXTURE_DID */
-     , (46016, 11, 83890327) /* MOUTH_TEXTURE_DID */
-     , (46016, 15, 67117016) /* HAIR_PALETTE_DID */;
+     , (46016, 9, 83890259) /* EYES_TEXTURE_DID */
+     , (46016, 17, 67116846) /* SKIN_PALETTE_DID */
+     , (46016, 10, 83890313) /* NOSE_TEXTURE_DID */
+     , (46016, 11, 83890342) /* MOUTH_TEXTURE_DID */
+     , (46016, 15, 67117024) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46016, 113, 2) /* GENDER_INT */
      , (46016, 2, 31) /* CREATURE_TYPE_INT */
+     , (46016, 307, 5) /* DAMAGE_RATING_INT */
      , (46016, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (46016, 25, 275) /* LEVEL_INT */
      , (46016, 188, 5) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46016, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (46016, 2, 260) /* ENDURANCE_ATTRIBUTE */
+     , (46016, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (46016, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (46016, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (46016, 32, 200) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46016, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (46016, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46016, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46016, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

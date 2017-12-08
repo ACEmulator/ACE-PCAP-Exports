@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (1392, 5, 'Peddler') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (1392, 16, 67110062) /* EYES_PALETTE_DID */
-     , (1392, 9, 83890264) /* EYES_TEXTURE_DID */
-     , (1392, 17, 67110048) /* SKIN_PALETTE_DID */
-     , (1392, 10, 83890297) /* NOSE_TEXTURE_DID */
-     , (1392, 11, 83890344) /* MOUTH_TEXTURE_DID */
-     , (1392, 15, 67117022) /* HAIR_PALETTE_DID */;
+VALUES (1392, 16, 67110063) /* EYES_PALETTE_DID */
+     , (1392, 9, 83890276) /* EYES_TEXTURE_DID */
+     , (1392, 17, 67110045) /* SKIN_PALETTE_DID */
+     , (1392, 10, 83890286) /* NOSE_TEXTURE_DID */
+     , (1392, 11, 83890331) /* MOUTH_TEXTURE_DID */
+     , (1392, 15, 67117017) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1392, 113, 2) /* GENDER_INT */
@@ -104,8 +104,18 @@ VALUES (1392, 113, 2) /* GENDER_INT */
      , (1392, 25, 7) /* LEVEL_INT */
      , (1392, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (1392, 1, 75) /* STRENGTH_ATTRIBUTE */
+     , (1392, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (1392, 4, 55) /* COORDINATION_ATTRIBUTE */
+     , (1392, 8, 50) /* QUICKNESS_ATTRIBUTE */
+     , (1392, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (1392, 32, 40) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1392, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (1392, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1392, 128, 195) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1392, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 

@@ -47,6 +47,18 @@ VALUES (2417, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2417, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2417, 16, 'Gem') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2417, 19, 12) /* VALUE_INT */
+     , (2417, 131, 40) /* MATERIAL_TYPE_INT */
+     , (2417, 5, 5) /* ENCUMB_VAL_INT */
+     , (2417, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (2417, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

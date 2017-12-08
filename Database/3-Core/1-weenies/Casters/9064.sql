@@ -47,3 +47,26 @@ VALUES (9064, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9064, 0, 16785589);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9064, 16, 'An orb of the type carried by the Yalaini Order of Hieromancers, as an emblem of their station.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9064, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
+     , (9064, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (9064, 19, 1000) /* VALUE_INT */
+     , (9064, 5, 50) /* ENCUMB_VAL_INT */
+     , (9064, 106, 225) /* ITEM_SPELLCRAFT_INT */
+     , (9064, 108, 1500) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9064, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
+     , (9064, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (9064, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9064, 1426) /* FocusSelf6_SpellID */
+     , (9064, 1450) /* WillpowerSelf6_SpellID */
+     , (9064, 634) /* WarMagicMasterySelf6_SpellID */;
+

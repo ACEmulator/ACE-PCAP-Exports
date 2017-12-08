@@ -34,3 +34,14 @@ VALUES (19421, 13, True) /* ETHEREAL_BOOL */
      , (19421, 19, True) /* ATTACKABLE_BOOL */
      , (19421, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19421, 16, 'A small jar of Sunflower Oil.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19421, 33, 0) /* BONDED_INT */
+     , (19421, 114, 0) /* ATTUNED_INT */
+     , (19421, 19, 0) /* VALUE_INT */
+     , (19421, 5, 50) /* ENCUMB_VAL_INT */;
+

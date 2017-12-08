@@ -34,3 +34,30 @@ VALUES (9063, 13, True) /* ETHEREAL_BOOL */
      , (9063, 14, True) /* GRAVITY_STATUS_BOOL */
      , (9063, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9063, 16, 'A note, handwritten in stiff, crabbed Yalaini script. You cannot read it.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9063, 114, 1) /* ATTUNED_INT */
+     , (9063, 19, 5) /* VALUE_INT */
+     , (9063, 5, 10) /* ENCUMB_VAL_INT */
+     , (9063, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (9063, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9063, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (9063, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (9063, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (9063, 0, 'Unknown', 'prewritten', 4294967295, 0, '
+
+[ You cannot read this text, and must get it translated. ]
+');
+

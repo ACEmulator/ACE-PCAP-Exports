@@ -45,22 +45,23 @@ VALUES (31867, 67110323, 240, 10)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31867, 16, 'Diadem of Invulnerability') /* LONG_DESC_STRING */;
+VALUES (31867, 16, 'Diadem of Regeneration') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31867, 160, 180) /* WIELD_DIFFICULTY_INT */
+VALUES (31867, 160, 150) /* WIELD_DIFFICULTY_INT */
      , (31867, 177, 8) /* GEM_COUNT_INT */
      , (31867, 178, 21) /* GEM_TYPE_INT */
-     , (31867, 19, 87668) /* VALUE_INT */
-     , (31867, 131, 60) /* MATERIAL_TYPE_INT */
+     , (31867, 19, 72934) /* VALUE_INT */
+     , (31867, 131, 58) /* MATERIAL_TYPE_INT */
      , (31867, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31867, 5, 82) /* ENCUMB_VAL_INT */
-     , (31867, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (31867, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (31867, 28, 301) /* ARMOR_LEVEL_INT */
-     , (31867, 108, 2241) /* ITEM_MAX_MANA_INT */
+     , (31867, 5, 59) /* ENCUMB_VAL_INT */
+     , (31867, 265, 16) /* EQUIPMENT_SET_ID_INT */
+     , (31867, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (31867, 106, 327) /* ITEM_SPELLCRAFT_INT */
+     , (31867, 28, 297) /* ARMOR_LEVEL_INT */
+     , (31867, 108, 2513) /* ITEM_MAX_MANA_INT */
      , (31867, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31867, 109, 404) /* ITEM_DIFFICULTY_INT */
+     , (31867, 109, 377) /* ITEM_DIFFICULTY_INT */
      , (31867, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (31867, 158, 7) /* WIELD_REQUIREMENTS_INT */
      , (31867, 159, 1) /* WIELD_SKILLTYPE_INT */;
@@ -71,18 +72,17 @@ VALUES (31867, 5, -0.05555556) /* MANA_RATE_FLOAT */
      , (31867, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
      , (31867, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (31867, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (31867, 17, 0.6554344) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (31867, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (31867, 19, 1.136515) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (31867, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (31867, 18, 0.8981829) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (31867, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (31867, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31867, 100, 1) /* DYABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31867, 2514) /* CANTRIPIMPREGNABILITY2_SpellID */
-     , (31867, 6053) /* CantripHealingProwess4_SpellID */
-     , (31867, 6125) /* CantripSummoningProwess4_SpellID */
-     , (31867, 249) /* InvulnerabilitySelf6_SpellID */
+VALUES (31867, 2185) /* RegenerationSelf7_SpellID */
+     , (31867, 2571) /* CANTRIPARMOR2_SpellID */
+     , (31867, 4704) /* CANTRIPMAGICRESISTANCE3_SpellID */
      , (31867, 2108) /* Impenetrability7_SpellID */;
 

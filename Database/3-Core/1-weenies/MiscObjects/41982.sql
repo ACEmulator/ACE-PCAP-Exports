@@ -32,6 +32,20 @@ VALUES (41982, 13, True) /* ETHEREAL_BOOL */
      , (41982, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41982, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41982, 15, 'This sparkling ring appears encrusted with jewels, but its form wavers before your eyes.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41982, 33, 1) /* BONDED_INT */
+     , (41982, 114, 1) /* ATTUNED_INT */
+     , (41982, 19, 0) /* VALUE_INT */
+     , (41982, 5, 2) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41982, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

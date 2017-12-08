@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (6858, 5, 'Provisioner') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (6858, 16, 67110063) /* EYES_PALETTE_DID */
-     , (6858, 9, 83890483) /* EYES_TEXTURE_DID */
+VALUES (6858, 16, 67110062) /* EYES_PALETTE_DID */
+     , (6858, 9, 83890510) /* EYES_TEXTURE_DID */
      , (6858, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (6858, 10, 83890526) /* NOSE_TEXTURE_DID */
-     , (6858, 11, 83890600) /* MOUTH_TEXTURE_DID */
-     , (6858, 15, 67116998) /* HAIR_PALETTE_DID */;
+     , (6858, 10, 83890541) /* NOSE_TEXTURE_DID */
+     , (6858, 11, 83890635) /* MOUTH_TEXTURE_DID */
+     , (6858, 15, 67117080) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6858, 113, 1) /* GENDER_INT */
@@ -105,6 +105,49 @@ VALUES (6858, 113, 1) /* GENDER_INT */
      , (6858, 25, 11) /* LEVEL_INT */
      , (6858, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (6858, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (6858, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (6858, 4, 95) /* COORDINATION_ATTRIBUTE */
+     , (6858, 8, 95) /* QUICKNESS_ATTRIBUTE */
+     , (6858, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (6858, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6858, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (6858, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6858, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6858, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6858, 74, 4481568) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6858, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6858, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6858, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6858, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6858, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6858, 4, 166) /* Sack */
+     , (6858, 4, 136) /* Pack */
+     , (6858, 4, 139) /* Small Belt Pouch */
+     , (6858, 4, 138) /* Belt Pouch */
+     , (6858, 4, 137) /* Basket */
+     , (6858, 4, 262) /* Chicken */
+     , (6858, 4, 4763) /* Honey */
+     , (6858, 4, 264) /* Grapes */
+     , (6858, 4, 547) /* Brimstone-cap Mushroom */
+     , (6858, 4, 5758) /* Carrot */
+     , (6858, 4, 4761) /* Flour */
+     , (6858, 4, 4746) /* Water */
+     , (6858, 4, 4754) /* Baking Pan */
+     , (6858, 4, 7823) /* Heavy Grinder */
+     , (6858, 4, 4757) /* Carving Knife */;
 

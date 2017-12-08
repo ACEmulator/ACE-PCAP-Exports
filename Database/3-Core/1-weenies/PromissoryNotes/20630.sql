@@ -38,8 +38,8 @@ VALUES (20630, 13, True) /* ETHEREAL_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20630, 33, 1) /* BONDED_INT */
-     , (20630, 19, 30750000) /* VALUE_INT */
-     , (20630, 5, 123) /* ENCUMB_VAL_INT */;
+     , (20630, 19, 500000) /* VALUE_INT */
+     , (20630, 5, 2) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

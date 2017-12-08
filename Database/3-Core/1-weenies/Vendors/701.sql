@@ -110,6 +110,16 @@ VALUES (701, 113, 2) /* GENDER_INT */
      , (701, 25, 5) /* LEVEL_INT */
      , (701, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (701, 1, 20) /* STRENGTH_ATTRIBUTE */
+     , (701, 2, 30) /* ENDURANCE_ATTRIBUTE */
+     , (701, 4, 35) /* COORDINATION_ATTRIBUTE */
+     , (701, 8, 40) /* QUICKNESS_ATTRIBUTE */
+     , (701, 16, 80) /* FOCUS_ATTRIBUTE */
+     , (701, 32, 75) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (701, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (701, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (701, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (701, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
 

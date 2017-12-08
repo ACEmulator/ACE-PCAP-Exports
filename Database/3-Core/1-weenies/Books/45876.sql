@@ -48,3 +48,16 @@ VALUES (45876, 33, 0) /* BONDED_INT */
      , (45876, 174, 1) /* APPRAISAL_PAGES_INT */
      , (45876, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45876, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (45876, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (45876, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (45876, 0, '', 'prewritten', 4294967295, 0, 'Once this Red Letter is stamped with a Town Stamp, it can be turned into an authorized Society Agent for a reward. Look in the Book of Quests for New Explorers to start on your way. Any of the Society Agents who are catering to new arrivals  in the nine Nexus towns maybe be contacted to obtain this guide.
+');
+

@@ -41,8 +41,8 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (36509, 14, 'Turn this gem into an Agent of the Arcanum to gain 100% of a level up to level 170.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36509, 19, 400) /* VALUE_INT */
-     , (36509, 5, 500) /* ENCUMB_VAL_INT */;
+VALUES (36509, 19, 40) /* VALUE_INT */
+     , (36509, 5, 50) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

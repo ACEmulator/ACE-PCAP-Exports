@@ -55,9 +55,25 @@ VALUES (46634, 0, 16790881);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46634, 2, 44) /* CREATURE_TYPE_INT */
-     , (46634, 25, 200) /* LEVEL_INT */;
+VALUES (46634, 353, 8) /* WEAPON_TYPE_INT */
+     , (46634, 33, -2) /* BONDED_INT */
+     , (46634, 114, 1) /* ATTUNED_INT */
+     , (46634, 5, 980) /* ENCUMB_VAL_INT */
+     , (46634, 204, 16) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (46634, 45, 0) /* DAMAGE_TYPE_INT */
+     , (46634, 49, -1) /* WEAPON_TIME_INT */
+     , (46634, 48, 47) /* WEAPON_SKILL_INT */
+     , (46634, 44, -1) /* DAMAGE_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46634, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46634, 29, 1.4) /* WEAPON_DEFENSE_FLOAT */
+     , (46634, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (46634, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (46634, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (46634, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (46634, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46634, 99, 0) /* IVORYABLE_BOOL */
+     , (46634, 69, 0) /* IS_SELLABLE_BOOL */;
 

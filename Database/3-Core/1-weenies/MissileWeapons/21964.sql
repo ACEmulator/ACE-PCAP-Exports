@@ -46,3 +46,36 @@ VALUES (21964, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (21964, 67111923, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21964, 16, 'A bow with a ghostly hue crafted from pure chorizite.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21964, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (21964, 33, 1) /* BONDED_INT */
+     , (21964, 353, 8) /* WEAPON_TYPE_INT */
+     , (21964, 114, 0) /* ATTUNED_INT */
+     , (21964, 179, -2147483648) /* IMBUED_EFFECT_INT */
+     , (21964, 19, 4000) /* VALUE_INT */
+     , (21964, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21964, 5, 450) /* ENCUMB_VAL_INT */
+     , (21964, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (21964, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (21964, 45, 0) /* DAMAGE_TYPE_INT */
+     , (21964, 49, 30) /* WEAPON_TIME_INT */
+     , (21964, 48, 47) /* WEAPON_SKILL_INT */
+     , (21964, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21964, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (21964, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (21964, 63, 0.5) /* DAMAGE_MOD_FLOAT */
+     , (21964, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (21964, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (21964, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21964, 99, 0) /* IVORYABLE_BOOL */
+     , (21964, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+

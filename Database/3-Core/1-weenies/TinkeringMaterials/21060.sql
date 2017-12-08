@@ -50,6 +50,20 @@ VALUES (21060, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21060, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21060, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Warrior''s Vigor. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.') /* USE_STRING */
+     , (21060, 15, 'Chips of malachite material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21060, 33, 1) /* BONDED_INT */
+     , (21060, 131, 30) /* MATERIAL_TYPE_INT */
+     , (21060, 19, 3556) /* VALUE_INT */
+     , (21060, 5, 100) /* ENCUMB_VAL_INT */
+     , (21060, 105, 82) /* ITEM_WORKMANSHIP_INT */
+     , (21060, 170, 15) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

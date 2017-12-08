@@ -87,11 +87,11 @@ VALUES (32835, 5, 'Knight of Bellenesse') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (32835, 16, 67110063) /* EYES_PALETTE_DID */
-     , (32835, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (32835, 17, 67115908) /* SKIN_PALETTE_DID */
-     , (32835, 10, 83890560) /* NOSE_TEXTURE_DID */
-     , (32835, 11, 83890660) /* MOUTH_TEXTURE_DID */
-     , (32835, 15, 67116983) /* HAIR_PALETTE_DID */;
+     , (32835, 9, 83890502) /* EYES_TEXTURE_DID */
+     , (32835, 17, 67115907) /* SKIN_PALETTE_DID */
+     , (32835, 10, 83890547) /* NOSE_TEXTURE_DID */
+     , (32835, 11, 83890667) /* MOUTH_TEXTURE_DID */
+     , (32835, 15, 67117017) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32835, 113, 1) /* GENDER_INT */
@@ -100,8 +100,18 @@ VALUES (32835, 113, 1) /* GENDER_INT */
      , (32835, 25, 100) /* LEVEL_INT */
      , (32835, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (32835, 1, 230) /* STRENGTH_ATTRIBUTE */
+     , (32835, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (32835, 4, 230) /* COORDINATION_ATTRIBUTE */
+     , (32835, 8, 220) /* QUICKNESS_ATTRIBUTE */
+     , (32835, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (32835, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32835, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (32835, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (32835, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (32835, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

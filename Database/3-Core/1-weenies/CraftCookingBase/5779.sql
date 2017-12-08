@@ -37,6 +37,16 @@ VALUES (5779, 13, True) /* ETHEREAL_BOOL */
      , (5779, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5779, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5779, 16, 'An unusual stick with a spicy smell.') /* LONG_DESC_STRING */
+     , (5779, 14, 'This item is used in cooking.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5779, 19, 10) /* VALUE_INT */
+     , (5779, 5, 25) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

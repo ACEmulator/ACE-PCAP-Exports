@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (14923, 5, 'Marriage Facilitator') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (14923, 16, 67110062) /* EYES_PALETTE_DID */
-     , (14923, 9, 83890506) /* EYES_TEXTURE_DID */
+VALUES (14923, 16, 67110064) /* EYES_PALETTE_DID */
+     , (14923, 9, 83890501) /* EYES_TEXTURE_DID */
      , (14923, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (14923, 10, 83890553) /* NOSE_TEXTURE_DID */
-     , (14923, 11, 83890666) /* MOUTH_TEXTURE_DID */
-     , (14923, 15, 67117023) /* HAIR_PALETTE_DID */;
+     , (14923, 10, 83890558) /* NOSE_TEXTURE_DID */
+     , (14923, 11, 83890614) /* MOUTH_TEXTURE_DID */
+     , (14923, 15, 67116995) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14923, 113, 1) /* GENDER_INT */
@@ -105,6 +105,16 @@ VALUES (14923, 113, 1) /* GENDER_INT */
      , (14923, 25, 126) /* LEVEL_INT */
      , (14923, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (14923, 1, 400) /* STRENGTH_ATTRIBUTE */
+     , (14923, 2, 400) /* ENDURANCE_ATTRIBUTE */
+     , (14923, 4, 400) /* COORDINATION_ATTRIBUTE */
+     , (14923, 8, 400) /* QUICKNESS_ATTRIBUTE */
+     , (14923, 16, 400) /* FOCUS_ATTRIBUTE */
+     , (14923, 32, 400) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14923, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (14923, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (14923, 128, 510) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (14923, 256, 405) /* MAX_MANA_ATTRIBUTE_2ND */;
 

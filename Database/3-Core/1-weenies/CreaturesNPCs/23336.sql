@@ -99,12 +99,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (23336, 5, 'Pro Fisherman') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (23336, 16, 67110063) /* EYES_PALETTE_DID */
-     , (23336, 9, 83890465) /* EYES_TEXTURE_DID */
-     , (23336, 17, 67109555) /* SKIN_PALETTE_DID */
-     , (23336, 10, 83890540) /* NOSE_TEXTURE_DID */
-     , (23336, 11, 83890600) /* MOUTH_TEXTURE_DID */
-     , (23336, 15, 67117078) /* HAIR_PALETTE_DID */;
+VALUES (23336, 16, 67110062) /* EYES_PALETTE_DID */
+     , (23336, 9, 83890479) /* EYES_TEXTURE_DID */
+     , (23336, 17, 67109557) /* SKIN_PALETTE_DID */
+     , (23336, 10, 83890531) /* NOSE_TEXTURE_DID */
+     , (23336, 11, 83890595) /* MOUTH_TEXTURE_DID */
+     , (23336, 15, 67117026) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23336, 113, 1) /* GENDER_INT */
@@ -113,6 +113,16 @@ VALUES (23336, 113, 1) /* GENDER_INT */
      , (23336, 25, 24) /* LEVEL_INT */
      , (23336, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (23336, 1, 180) /* STRENGTH_ATTRIBUTE */
+     , (23336, 2, 100) /* ENDURANCE_ATTRIBUTE */
+     , (23336, 4, 260) /* COORDINATION_ATTRIBUTE */
+     , (23336, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (23336, 16, 110) /* FOCUS_ATTRIBUTE */
+     , (23336, 32, 110) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23336, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (23336, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23336, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23336, 256, 115) /* MAX_MANA_ATTRIBUTE_2ND */;
 

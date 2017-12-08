@@ -35,6 +35,16 @@ VALUES (5940, 13, True) /* ETHEREAL_BOOL */
      , (5940, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5940, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5940, 16, 'A crude pot used to heat ore to super high temperatures.') /* LONG_DESC_STRING */
+     , (5940, 14, 'This item is used in crafting.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5940, 19, 16000) /* VALUE_INT */
+     , (5940, 5, 2400) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

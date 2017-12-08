@@ -44,3 +44,38 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (29261, 67115366, 1, 55)
      , (29261, 67115362, 56, 200);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29261, 16, 'Electric Sceptre of Shockwave') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29261, 160, 355) /* WIELD_DIFFICULTY_INT */
+     , (29261, 177, 2) /* GEM_COUNT_INT */
+     , (29261, 178, 16) /* GEM_TYPE_INT */
+     , (29261, 19, 22661) /* VALUE_INT */
+     , (29261, 131, 23) /* MATERIAL_TYPE_INT */
+     , (29261, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (29261, 5, 50) /* ENCUMB_VAL_INT */
+     , (29261, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (29261, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (29261, 108, 2667) /* ITEM_MAX_MANA_INT */
+     , (29261, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (29261, 109, 293) /* ITEM_DIFFICULTY_INT */
+     , (29261, 45, 64) /* DAMAGE_TYPE_INT */
+     , (29261, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (29261, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (29261, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29261, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
+     , (29261, 152, 1.11) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (29261, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (29261, 29, 1.16) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29261, 69) /* ShockWave6_SpellID */
+     , (29261, 4418) /* TrueValue8_SpellID */
+     , (29261, 2610) /* CANTRIPBLUDGEONINGWARD2_SpellID */
+     , (29261, 634) /* WarMagicMasterySelf6_SpellID */;
+

@@ -40,3 +40,34 @@ VALUES (53276, 13, True) /* ETHEREAL_BOOL */
      , (53276, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53276, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53276, 16, 'A pile of gleaming treasure that belongs to Doriathazaar.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53276, 384, 0) /*  */
+     , (53276, 370, 0) /* GEAR_DAMAGE_INT */
+     , (53276, 386, 0) /*  */
+     , (53276, 307, 0) /* DAMAGE_RATING_INT */
+     , (53276, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (53276, 387, 0) /*  */
+     , (53276, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (53276, 372, 0) /* GEAR_CRIT_INT */
+     , (53276, 388, 0) /*  */
+     , (53276, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (53276, 389, 0) /*  */
+     , (53276, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (53276, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (53276, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (53276, 313, 0) /* CRIT_RATING_INT */
+     , (53276, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (53276, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (53276, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (53276, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (53276, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (53276, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (53276, 381, 0) /*  */
+     , (53276, 382, 0) /*  */
+     , (53276, 383, 0) /*  */;
+

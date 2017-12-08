@@ -95,20 +95,32 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (38558, 5, 'Society Armorsmith') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38558, 16, 67109564) /* EYES_PALETTE_DID */
-     , (38558, 9, 83890485) /* EYES_TEXTURE_DID */
-     , (38558, 17, 67115902) /* SKIN_PALETTE_DID */
+VALUES (38558, 16, 67110063) /* EYES_PALETTE_DID */
+     , (38558, 9, 83890451) /* EYES_TEXTURE_DID */
+     , (38558, 17, 67115907) /* SKIN_PALETTE_DID */
      , (38558, 10, 83890549) /* NOSE_TEXTURE_DID */
-     , (38558, 11, 83890645) /* MOUTH_TEXTURE_DID */
-     , (38558, 15, 67116978) /* HAIR_PALETTE_DID */;
+     , (38558, 11, 83890570) /* MOUTH_TEXTURE_DID */
+     , (38558, 15, 67117017) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38558, 113, 1) /* GENDER_INT */
+VALUES (38558, 288, 601) /* SOCIETY_RANK_ELDWEB_INT */
+     , (38558, 113, 1) /* GENDER_INT */
      , (38558, 2, 31) /* CREATURE_TYPE_INT */
      , (38558, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (38558, 25, 185) /* LEVEL_INT */
+     , (38558, 281, 2) /* FACTION1_BITS_INT */
      , (38558, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38558, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (38558, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (38558, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (38558, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (38558, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (38558, 32, 200) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38558, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (38558, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38558, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38558, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
 

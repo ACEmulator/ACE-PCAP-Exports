@@ -50,3 +50,32 @@ VALUES (40139, 0, 83897992, 83897992)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40139, 0, 16794233);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40139, 160, 355) /* WIELD_DIFFICULTY_INT */
+     , (40139, 19, 10) /* VALUE_INT */
+     , (40139, 5, 175) /* ENCUMB_VAL_INT */
+     , (40139, 263, 32) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (40139, 106, 460) /* ITEM_SPELLCRAFT_INT */
+     , (40139, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (40139, 45, 32) /* DAMAGE_TYPE_INT */
+     , (40139, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40139, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40139, 152, 1.1) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (40139, 144, 0.15) /* MANA_CONVERSION_MOD_FLOAT */
+     , (40139, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (40139, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (40139, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (40139, 150, 1.025) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (40139, 159, 1) /* ABSORB_MAGIC_DAMAGE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40139, 4315) /* ManaBoostSelf8_SpellID */
+     , (40139, 4493) /* ManaRenewalOther8_SpellID */
+     , (40139, 2014) /* WizardsUltimateIntellect_SpellID */
+     , (40139, 4705) /* CANTRIPMANACONVERSIONPROWESS3_SpellID */
+     , (40139, 4601) /* ManaMasteryOther8_SpellID */;
+

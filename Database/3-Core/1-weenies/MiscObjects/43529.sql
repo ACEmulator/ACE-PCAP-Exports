@@ -34,3 +34,14 @@ VALUES (43529, 13, True) /* ETHEREAL_BOOL */
      , (43529, 19, True) /* ATTACKABLE_BOOL */
      , (43529, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43529, 16, 'Bring this to the Ghost of Galaeral.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43529, 33, 1) /* BONDED_INT */
+     , (43529, 114, 1) /* ATTUNED_INT */
+     , (43529, 19, 0) /* VALUE_INT */
+     , (43529, 5, 20) /* ENCUMB_VAL_INT */;
+

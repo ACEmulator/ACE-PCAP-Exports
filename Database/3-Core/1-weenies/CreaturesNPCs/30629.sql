@@ -105,22 +105,33 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30629, 5, 'Warrior of the Wastes') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30629, 16, 67110063) /* EYES_PALETTE_DID */
-     , (30629, 9, 83890511) /* EYES_TEXTURE_DID */
-     , (30629, 17, 67109556) /* SKIN_PALETTE_DID */
-     , (30629, 10, 83890540) /* NOSE_TEXTURE_DID */
-     , (30629, 11, 83890607) /* MOUTH_TEXTURE_DID */
-     , (30629, 15, 67116995) /* HAIR_PALETTE_DID */;
+VALUES (30629, 16, 67110062) /* EYES_PALETTE_DID */
+     , (30629, 9, 83890484) /* EYES_TEXTURE_DID */
+     , (30629, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (30629, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (30629, 11, 83890636) /* MOUTH_TEXTURE_DID */
+     , (30629, 15, 67117019) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30629, 113, 1) /* GENDER_INT */
      , (30629, 2, 31) /* CREATURE_TYPE_INT */
+     , (30629, 307, 5) /* DAMAGE_RATING_INT */
      , (30629, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (30629, 25, 80) /* LEVEL_INT */
      , (30629, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (30629, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (30629, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (30629, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (30629, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (30629, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (30629, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30629, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (30629, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30629, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30629, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

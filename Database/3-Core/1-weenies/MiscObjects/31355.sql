@@ -33,6 +33,17 @@ VALUES (31355, 13, True) /* ETHEREAL_BOOL */
      , (31355, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31355, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31355, 16, 'The pristine carapace of an Olthoi Slasher.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31355, 33, 1) /* BONDED_INT */
+     , (31355, 114, 1) /* ATTUNED_INT */
+     , (31355, 19, 610000) /* VALUE_INT */
+     , (31355, 5, 6100) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

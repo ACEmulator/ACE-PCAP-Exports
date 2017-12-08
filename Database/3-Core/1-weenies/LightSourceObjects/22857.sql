@@ -33,3 +33,13 @@ VALUES (22857, 13, True) /* ETHEREAL_BOOL */
      , (22857, 19, True) /* ATTACKABLE_BOOL */
      , (22857, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22857, 14, 'This item can be used on floor and yard hooks.') /* USE_STRING */
+     , (22857, 15, 'An exotic torch. What''s a tiki?') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22857, 19, 500) /* VALUE_INT */
+     , (22857, 5, 100) /* ENCUMB_VAL_INT */;
+

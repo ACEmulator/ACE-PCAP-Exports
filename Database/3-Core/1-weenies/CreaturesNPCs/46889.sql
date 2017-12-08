@@ -98,3 +98,30 @@ VALUES (46889, 0, 16777294)
      , (46889, 12, 16796687)
      , (46889, 16, 16796806);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46889, 5, 'Spectral Commander') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46889, 2, 77) /* CREATURE_TYPE_INT */
+     , (46889, 307, 35) /* DAMAGE_RATING_INT */
+     , (46889, 308, 30) /* DAMAGE_RESIST_RATING_INT */
+     , (46889, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (46889, 25, 275) /* LEVEL_INT */
+     , (46889, 314, 35) /* CRIT_DAMAGE_RATING_INT */
+     , (46889, 316, 30) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46889, 1, 350) /* STRENGTH_ATTRIBUTE */
+     , (46889, 2, 300) /* ENDURANCE_ATTRIBUTE */
+     , (46889, 4, 400) /* COORDINATION_ATTRIBUTE */
+     , (46889, 8, 380) /* QUICKNESS_ATTRIBUTE */
+     , (46889, 16, 350) /* FOCUS_ATTRIBUTE */
+     , (46889, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46889, 64, 19425) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46889, 128, 16710) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46889, 256, 13565) /* MAX_MANA_ATTRIBUTE_2ND */;
+

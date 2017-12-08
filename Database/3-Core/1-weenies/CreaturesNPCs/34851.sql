@@ -41,3 +41,26 @@ VALUES (34851, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34851, 67114919, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34851, 5, 'Purveyor of Fine Fungus') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34851, 2, 75) /* CREATURE_TYPE_INT */
+     , (34851, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34851, 25, 20) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34851, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (34851, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (34851, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (34851, 8, 170) /* QUICKNESS_ATTRIBUTE */
+     , (34851, 16, 180) /* FOCUS_ATTRIBUTE */
+     , (34851, 32, 140) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34851, 64, 260) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34851, 128, 420) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34851, 256, 240) /* MAX_MANA_ATTRIBUTE_2ND */;
+

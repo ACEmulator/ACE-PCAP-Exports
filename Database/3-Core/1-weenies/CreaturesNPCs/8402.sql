@@ -97,12 +97,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (8402, 5, 'Mask Maker') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (8402, 16, 67110062) /* EYES_PALETTE_DID */
-     , (8402, 9, 83890456) /* EYES_TEXTURE_DID */
-     , (8402, 17, 67110054) /* SKIN_PALETTE_DID */
-     , (8402, 10, 83890554) /* NOSE_TEXTURE_DID */
-     , (8402, 11, 83890581) /* MOUTH_TEXTURE_DID */
-     , (8402, 15, 67116999) /* HAIR_PALETTE_DID */;
+VALUES (8402, 16, 67110063) /* EYES_PALETTE_DID */
+     , (8402, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (8402, 17, 67110055) /* SKIN_PALETTE_DID */
+     , (8402, 10, 83890547) /* NOSE_TEXTURE_DID */
+     , (8402, 11, 83890568) /* MOUTH_TEXTURE_DID */
+     , (8402, 15, 67116992) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8402, 113, 1) /* GENDER_INT */
@@ -111,6 +111,16 @@ VALUES (8402, 113, 1) /* GENDER_INT */
      , (8402, 25, 28) /* LEVEL_INT */
      , (8402, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (8402, 1, 120) /* STRENGTH_ATTRIBUTE */
+     , (8402, 2, 100) /* ENDURANCE_ATTRIBUTE */
+     , (8402, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (8402, 8, 140) /* QUICKNESS_ATTRIBUTE */
+     , (8402, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (8402, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8402, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (8402, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8402, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8402, 256, 175) /* MAX_MANA_ATTRIBUTE_2ND */;
 

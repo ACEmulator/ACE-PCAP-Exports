@@ -53,7 +53,7 @@ VALUES (14507, 16, 'A golden bracelet fitted with a scintillating blue gem. The 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14507, 160, 25) /* WIELD_DIFFICULTY_INT */
      , (14507, 33, 1) /* BONDED_INT */
-     , (14507, 114, 1) /* ATTUNED_INT */
+     , (14507, 114, 0) /* ATTUNED_INT */
      , (14507, 19, 8500) /* VALUE_INT */
      , (14507, 36, 9999) /* RESIST_MAGIC_INT */
      , (14507, 5, 80) /* ENCUMB_VAL_INT */
@@ -67,7 +67,8 @@ REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pr
 VALUES (14507, 5, -0.033333) /* MANA_RATE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14507, 99, 1) /* IVORYABLE_BOOL */;
+VALUES (14507, 99, 1) /* IVORYABLE_BOOL */
+     , (14507, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (14507, 271) /* MagicResistanceOther4_SpellID */

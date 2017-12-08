@@ -35,3 +35,24 @@ VALUES (365, 13, True) /* ETHEREAL_BOOL */
      , (365, 19, True) /* ATTACKABLE_BOOL */
      , (365, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (365, 33, 1) /* BONDED_INT */
+     , (365, 19, 10) /* VALUE_INT */
+     , (365, 5, 25) /* ENCUMB_VAL_INT */
+     , (365, 174, 0) /* APPRAISAL_PAGES_INT */
+     , (365, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (365, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (365, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (365, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (365, 0, 'Callaway', 'prewritten', 1343301116, 0, 'hi');
+

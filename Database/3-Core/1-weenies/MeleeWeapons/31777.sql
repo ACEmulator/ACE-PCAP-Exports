@@ -51,3 +51,48 @@ VALUES (31777, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31777, 0, 16792613);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31777, 16, 'Fire Board with Nail of Swiftkiller') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31777, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31777, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (31777, 353, 4) /* WEAPON_TYPE_INT */
+     , (31777, 177, 4) /* GEM_COUNT_INT */
+     , (31777, 178, 39) /* GEM_TYPE_INT */
+     , (31777, 19, 17628) /* VALUE_INT */
+     , (31777, 131, 51) /* MATERIAL_TYPE_INT */
+     , (31777, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31777, 5, 644) /* ENCUMB_VAL_INT */
+     , (31777, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (31777, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (31777, 108, 1245) /* ITEM_MAX_MANA_INT */
+     , (31777, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31777, 109, 135) /* ITEM_DIFFICULTY_INT */
+     , (31777, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31777, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31777, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (31777, 47, 4) /* ATTACK_TYPE_INT */
+     , (31777, 45, 16) /* DAMAGE_TYPE_INT */
+     , (31777, 49, 34) /* WEAPON_TIME_INT */
+     , (31777, 48, 46) /* WEAPON_SKILL_INT */
+     , (31777, 44, 54) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31777, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (31777, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (31777, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
+     , (31777, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31777, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31777, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31777, 62, 1.18) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31777, 4417) /* Swiftkiller8_SpellID */
+     , (31777, 5893) /* CantripDirtyFightingProwess3_SpellID */
+     , (31777, 4395) /* Blooddrinker8_SpellID */
+     , (31777, 4911) /* CANTRIPARMOR3_SpellID */
+     , (31777, 5809) /* dualwieldmasteryself7_SpellID */;
+

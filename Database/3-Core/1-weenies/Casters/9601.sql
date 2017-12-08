@@ -48,8 +48,8 @@ VALUES (9601, 16, 'An orb with a large purple eye in the middle.  Gazing at it m
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9601, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
-     , (9601, 19, 2000) /* VALUE_INT */
      , (9601, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (9601, 19, 2000) /* VALUE_INT */
      , (9601, 5, 50) /* ENCUMB_VAL_INT */
      , (9601, 106, 400) /* ITEM_SPELLCRAFT_INT */
      , (9601, 108, 1000) /* ITEM_MAX_MANA_INT */
@@ -58,8 +58,8 @@ VALUES (9601, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9601, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (9601, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (9601, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+     , (9601, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (9601, 5, -0.025) /* MANA_RATE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (9601, 586) /* ItemEnchantmentMasterySelf6_SpellID */

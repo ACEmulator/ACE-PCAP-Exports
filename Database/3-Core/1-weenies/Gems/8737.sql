@@ -38,6 +38,18 @@ VALUES (8737, 13, True) /* ETHEREAL_BOOL */
      , (8737, 19, True) /* ATTACKABLE_BOOL */
      , (8737, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8737, 16, 'A town stamp of Nanto to be used on any Red or Gold Letters you come across.') /* LONG_DESC_STRING */
+     , (8737, 14, 'Combine with Red or Gold Letters to create Stamped Red or Gold Letters') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8737, 33, 1) /* BONDED_INT */
+     , (8737, 114, 1) /* ATTUNED_INT */
+     , (8737, 19, 1) /* VALUE_INT */
+     , (8737, 5, 10) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

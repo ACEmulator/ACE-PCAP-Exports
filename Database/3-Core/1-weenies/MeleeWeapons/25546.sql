@@ -43,3 +43,27 @@ VALUES (25546, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25546, 67114264, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25546, 15, 'A banderling arm, treated with various resins and other hardening lacquers. This appears to be a well balanced weapon, not unlike a sword.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25546, 353, 2) /* WEAPON_TYPE_INT */
+     , (25546, 19, 2000) /* VALUE_INT */
+     , (25546, 36, 9999) /* RESIST_MAGIC_INT */
+     , (25546, 5, 560) /* ENCUMB_VAL_INT */
+     , (25546, 47, 6) /* ATTACK_TYPE_INT */
+     , (25546, 45, 4) /* DAMAGE_TYPE_INT */
+     , (25546, 49, 25) /* WEAPON_TIME_INT */
+     , (25546, 48, 46) /* WEAPON_SKILL_INT */
+     , (25546, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25546, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (25546, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
+     , (25546, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (25546, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (25546, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (25546, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+

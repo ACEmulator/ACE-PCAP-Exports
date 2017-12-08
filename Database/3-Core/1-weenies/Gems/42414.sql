@@ -47,6 +47,29 @@ VALUES (42414, 0, 83886490, 83886490);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42414, 0, 16780818);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42414, 16, '') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42414, 19, 653) /* VALUE_INT */
+     , (42414, 5, 919) /* ENCUMB_VAL_INT */
+     , (42414, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42414, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (42414, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (42414, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (42414, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (42414, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (42414, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (42414, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (42414, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42414, 100, 1) /* DYABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

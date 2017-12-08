@@ -34,3 +34,53 @@ VALUES (31733, 13, True) /* ETHEREAL_BOOL */
      , (31733, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31733, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31733, 16, 'This book describes the latest rumored sightings of Muldaveus') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31733, 33, 1) /* BONDED_INT */
+     , (31733, 114, 1) /* ATTUNED_INT */
+     , (31733, 19, 10) /* VALUE_INT */
+     , (31733, 5, 100) /* ENCUMB_VAL_INT */
+     , (31733, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (31733, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31733, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (31733, 175, 5) /* APPRAISAL_MAX_PAGES_INT */
+     , (31733, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31733, 0, 'Mancanza', 'prewritten', 4294967295, 0, 'The Renegade Muldaveus, long thought dead, has recently been sighted roaming the wilds of Dereth. Look for clues to his location in the areas described on the following pages:
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31733, 1, 'Mancanza', 'prewritten', 4294967295, 0, 'Rumor has is that Muldaveus was spotted in an old Tumerok mine, northeast of Fort Tethana, but before the land bridge that leads to Danby''s Outpost.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31733, 2, 'Mancanza', 'prewritten', 4294967295, 0, 'There is Merchant a bit north of Neydisa that may have some information about the Lugian. Rough coordinates are 75N 10E. Keep in mind that those coordinates are rather rough, though.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31733, 3, 'Mancanza', 'prewritten', 4294967295, 0, 'There is a camp in the snowy mountains just to the NE of Stonehold that may contain valuable information. The camp should be near the coordinates 72.3N 17.0W.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31733, 4, 'Mancanza', 'prewritten', 4294967295, 0, 'There is a guard tower just outside of Plateau Village. Carefully search this tower for any clues.
+');
+

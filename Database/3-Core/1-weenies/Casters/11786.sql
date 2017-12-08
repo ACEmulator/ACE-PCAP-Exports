@@ -40,3 +40,29 @@ VALUES (11786, 0, 83893729, 83893728)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11786, 0, 16787143);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11786, 16, 'A reinforced, symbol tipped banner with a reedshark on it.  It is relatively well kept, and the colors seem even and pure.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11786, 33, 1) /* BONDED_INT */
+     , (11786, 114, 1) /* ATTUNED_INT */
+     , (11786, 19, 0) /* VALUE_INT */
+     , (11786, 5, 400) /* ENCUMB_VAL_INT */
+     , (11786, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (11786, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (11786, 109, 90) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11786, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (11786, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (11786, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11786, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (11786, 657) /* ManaMasterySelf5_SpellID */
+     , (11786, 1400) /* QuicknessSelf4_SpellID */;
+

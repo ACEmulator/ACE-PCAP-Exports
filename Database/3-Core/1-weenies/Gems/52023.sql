@@ -50,6 +50,26 @@ VALUES (52023, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52023, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52023, 16, 'Using this gem will cast Rare Armor Damage Boost V, which increases your Damage Rating by 5 for 3 hours.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52023, 33, 0) /* BONDED_INT */
+     , (52023, 114, 1) /* ATTUNED_INT */
+     , (52023, 19, 50000) /* VALUE_INT */
+     , (52023, 5, 5) /* ENCUMB_VAL_INT */
+     , (52023, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (52023, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (52023, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52023, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (52023, 5978) /* RareArmorDamageBoost5_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

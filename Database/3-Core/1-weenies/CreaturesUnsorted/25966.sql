@@ -95,9 +95,20 @@ VALUES (25966, 16, 67109567) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25966, 113, 2) /* GENDER_INT */
      , (25966, 2, 31) /* CREATURE_TYPE_INT */
+     , (25966, 307, 5) /* DAMAGE_RATING_INT */
      , (25966, 25, 80) /* LEVEL_INT */
      , (25966, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (25966, 1, 210) /* STRENGTH_ATTRIBUTE */
+     , (25966, 2, 140) /* ENDURANCE_ATTRIBUTE */
+     , (25966, 4, 210) /* COORDINATION_ATTRIBUTE */
+     , (25966, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (25966, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (25966, 32, 80) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25966, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (25966, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25966, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25966, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 

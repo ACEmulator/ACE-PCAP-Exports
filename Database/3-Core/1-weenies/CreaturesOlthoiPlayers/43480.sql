@@ -79,15 +79,15 @@ VALUES (43480, 0, 83898333, 83898333)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43480, 16, 67116855) /* EYES_PALETTE_DID */
+VALUES (43480, 16, 67116845) /* EYES_PALETTE_DID */
      , (43480, 9, 83891927) /* EYES_TEXTURE_DID */
-     , (43480, 17, 67116890) /* SKIN_PALETTE_DID */
+     , (43480, 17, 67116891) /* SKIN_PALETTE_DID */
      , (43480, 10, 83891927) /* NOSE_TEXTURE_DID */
      , (43480, 11, 83891927) /* MOUTH_TEXTURE_DID */
-     , (43480, 15, 67116886) /* HAIR_PALETTE_DID */;
+     , (43480, 15, 67116893) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43480, 113, 1) /* GENDER_INT */
+VALUES (43480, 113, 2) /* GENDER_INT */
      , (43480, 2, 1) /* CREATURE_TYPE_INT */
      , (43480, 261, 711) /* CHARACTER_TITLE_ID_INT */
      , (43480, 390, 0) /*  */

@@ -48,33 +48,21 @@ VALUES (36092, 9, 16780702);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36092, 16, 'Lancet') /* LONG_DESC_STRING */;
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36092, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (36092, 353, 6) /* WEAPON_TYPE_INT */
-     , (36092, 177, 1) /* GEM_COUNT_INT */
-     , (36092, 178, 12) /* GEM_TYPE_INT */
-     , (36092, 19, 886) /* VALUE_INT */
-     , (36092, 131, 58) /* MATERIAL_TYPE_INT */
-     , (36092, 5, 185) /* ENCUMB_VAL_INT */
-     , (36092, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (36092, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (36092, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (36092, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (36092, 47, 160) /* ATTACK_TYPE_INT */
-     , (36092, 45, 3) /* DAMAGE_TYPE_INT */
-     , (36092, 49, 22) /* WEAPON_TIME_INT */
-     , (36092, 48, 46) /* WEAPON_SKILL_INT */
-     , (36092, 44, 11) /* DAMAGE_INT */;
+VALUES (36092, 2, 19) /* CREATURE_TYPE_INT */
+     , (36092, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (36092, 25, 28) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36092, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
-     , (36092, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (36092, 22, 0.35) /* DAMAGE_VARIANCE_FLOAT */
-     , (36092, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (36092, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (36092, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (36092, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (36092, 1, 140) /* STRENGTH_ATTRIBUTE */
+     , (36092, 2, 150) /* ENDURANCE_ATTRIBUTE */
+     , (36092, 4, 140) /* COORDINATION_ATTRIBUTE */
+     , (36092, 8, 120) /* QUICKNESS_ATTRIBUTE */
+     , (36092, 16, 190) /* FOCUS_ATTRIBUTE */
+     , (36092, 32, 190) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (36092, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (36092, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (36092, 256, 440) /* MAX_MANA_ATTRIBUTE_2ND */;
 

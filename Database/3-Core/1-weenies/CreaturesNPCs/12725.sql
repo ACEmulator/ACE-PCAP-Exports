@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (12725, 5, 'Soldier') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (12725, 16, 67110062) /* EYES_PALETTE_DID */
-     , (12725, 9, 83890475) /* EYES_TEXTURE_DID */
+VALUES (12725, 16, 67110063) /* EYES_PALETTE_DID */
+     , (12725, 9, 83890484) /* EYES_TEXTURE_DID */
      , (12725, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (12725, 10, 83890543) /* NOSE_TEXTURE_DID */
-     , (12725, 11, 83890654) /* MOUTH_TEXTURE_DID */
-     , (12725, 15, 67116998) /* HAIR_PALETTE_DID */;
+     , (12725, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (12725, 11, 83890575) /* MOUTH_TEXTURE_DID */
+     , (12725, 15, 67117074) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12725, 113, 1) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (12725, 113, 1) /* GENDER_INT */
      , (12725, 25, 50) /* LEVEL_INT */
      , (12725, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (12725, 1, 145) /* STRENGTH_ATTRIBUTE */
+     , (12725, 2, 140) /* ENDURANCE_ATTRIBUTE */
+     , (12725, 4, 135) /* COORDINATION_ATTRIBUTE */
+     , (12725, 8, 130) /* QUICKNESS_ATTRIBUTE */
+     , (12725, 16, 110) /* FOCUS_ATTRIBUTE */
+     , (12725, 32, 115) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12725, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (12725, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12725, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12725, 256, 165) /* MAX_MANA_ATTRIBUTE_2ND */;
 

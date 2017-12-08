@@ -98,12 +98,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5644, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5644, 16, 67109567) /* EYES_PALETTE_DID */
-     , (5644, 9, 83890276) /* EYES_TEXTURE_DID */
-     , (5644, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (5644, 10, 83890300) /* NOSE_TEXTURE_DID */
-     , (5644, 11, 83890328) /* MOUTH_TEXTURE_DID */
-     , (5644, 15, 67117026) /* HAIR_PALETTE_DID */;
+VALUES (5644, 16, 67110062) /* EYES_PALETTE_DID */
+     , (5644, 9, 83890280) /* EYES_TEXTURE_DID */
+     , (5644, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (5644, 10, 83890311) /* NOSE_TEXTURE_DID */
+     , (5644, 11, 83890351) /* MOUTH_TEXTURE_DID */
+     , (5644, 15, 67117025) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5644, 113, 2) /* GENDER_INT */
@@ -112,6 +112,16 @@ VALUES (5644, 113, 2) /* GENDER_INT */
      , (5644, 25, 50) /* LEVEL_INT */
      , (5644, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5644, 1, 230) /* STRENGTH_ATTRIBUTE */
+     , (5644, 2, 245) /* ENDURANCE_ATTRIBUTE */
+     , (5644, 4, 270) /* COORDINATION_ATTRIBUTE */
+     , (5644, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (5644, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (5644, 32, 210) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5644, 64, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (5644, 64, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5644, 128, 245) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5644, 256, 210) /* MAX_MANA_ATTRIBUTE_2ND */;
 

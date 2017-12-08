@@ -48,3 +48,32 @@ VALUES (41043, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41043, 0, 16794282);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41043, 16, 'Lightning Magari Yari') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41043, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (41043, 353, 11) /* WEAPON_TYPE_INT */
+     , (41043, 19, 792) /* VALUE_INT */
+     , (41043, 131, 58) /* MATERIAL_TYPE_INT */
+     , (41043, 5, 579) /* ENCUMB_VAL_INT */
+     , (41043, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (41043, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41043, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41043, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41043, 47, 2) /* ATTACK_TYPE_INT */
+     , (41043, 45, 64) /* DAMAGE_TYPE_INT */
+     , (41043, 49, 50) /* WEAPON_TIME_INT */
+     , (41043, 48, 41) /* WEAPON_SKILL_INT */
+     , (41043, 44, 22) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41043, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (41043, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (41043, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41043, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41043, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41043, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+

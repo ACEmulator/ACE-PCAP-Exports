@@ -48,20 +48,22 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (38473, 16, 'Eldrytch Web Gauntlets of Coordination') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38473, 160, 1) /* WIELD_DIFFICULTY_INT */
+VALUES (38473, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (38473, 160, 1) /* WIELD_DIFFICULTY_INT */
      , (38473, 177, 2) /* GEM_COUNT_INT */
-     , (38473, 178, 38) /* GEM_TYPE_INT */
-     , (38473, 19, 28487) /* VALUE_INT */
+     , (38473, 178, 21) /* GEM_TYPE_INT */
+     , (38473, 19, 39099) /* VALUE_INT */
      , (38473, 131, 63) /* MATERIAL_TYPE_INT */
-     , (38473, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (38473, 5, 629) /* ENCUMB_VAL_INT */
+     , (38473, 115, 273) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (38473, 5, 566) /* ENCUMB_VAL_INT */
+     , (38473, 374, 1) /* GEAR_CRIT_DAMAGE_INT */
      , (38473, 265, 30) /* EQUIPMENT_SET_ID_INT */
-     , (38473, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (38473, 105, 6) /* ITEM_WORKMANSHIP_INT */
      , (38473, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (38473, 28, 285) /* ARMOR_LEVEL_INT */
-     , (38473, 108, 801) /* ITEM_MAX_MANA_INT */
+     , (38473, 28, 337) /* ARMOR_LEVEL_INT */
+     , (38473, 108, 872) /* ITEM_MAX_MANA_INT */
      , (38473, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (38473, 109, 388) /* ITEM_DIFFICULTY_INT */
+     , (38473, 109, 265) /* ITEM_DIFFICULTY_INT */
      , (38473, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (38473, 158, 9) /* WIELD_REQUIREMENTS_INT */
      , (38473, 159, 288) /* WIELD_SKILLTYPE_INT */;
@@ -72,8 +74,8 @@ VALUES (38473, 5, -0.06666667) /* MANA_RATE_FLOAT */
      , (38473, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
      , (38473, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (38473, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (38473, 17, 0.8279302) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (38473, 18, 1.168771) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (38473, 17, 0.9652144) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (38473, 18, 1.477542) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (38473, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (38473, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
@@ -81,9 +83,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (38473, 100, 0) /* DYABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (38473, 2059) /* CoordinationSelf7_SpellID */
-     , (38473, 4391) /* AcidBane8_SpellID */
-     , (38473, 2535) /* CANTRIPWEAPONEXPERTISE2_SpellID */
-     , (38473, 4393) /* BladeBane8_SpellID */
-     , (38473, 2108) /* Impenetrability7_SpellID */;
+VALUES (38473, 2113) /* PiercingBane7_SpellID */
+     , (38473, 4678) /* CANTRIPSLASHINGWARD3_SpellID */
+     , (38473, 4297) /* CoordinationSelf8_SpellID */
+     , (38473, 4407) /* Impenetrability8_SpellID */;
 

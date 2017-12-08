@@ -45,9 +45,20 @@ VALUES (35154, 16, 67109565) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35154, 113, 2) /* GENDER_INT */
      , (35154, 2, 22) /* CREATURE_TYPE_INT */
+     , (35154, 307, 5) /* DAMAGE_RATING_INT */
      , (35154, 25, 185) /* LEVEL_INT */
      , (35154, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (35154, 1, 300) /* STRENGTH_ATTRIBUTE */
+     , (35154, 2, 400) /* ENDURANCE_ATTRIBUTE */
+     , (35154, 4, 300) /* COORDINATION_ATTRIBUTE */
+     , (35154, 8, 300) /* QUICKNESS_ATTRIBUTE */
+     , (35154, 16, 540) /* FOCUS_ATTRIBUTE */
+     , (35154, 32, 560) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35154, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (35154, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (35154, 128, 700) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (35154, 256, 860) /* MAX_MANA_ATTRIBUTE_2ND */;
 

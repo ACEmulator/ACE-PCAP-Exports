@@ -38,10 +38,20 @@ VALUES (943, 67115125, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (943, 16, 'Killed by Porcelina.') /* LONG_DESC_STRING */;
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (943, 19, 0) /* VALUE_INT */
-     , (943, 5, 7857) /* ENCUMB_VAL_INT */;
+VALUES (943, 2, 7) /* CREATURE_TYPE_INT */
+     , (943, 25, 8) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (943, 1, 20) /* STRENGTH_ATTRIBUTE */
+     , (943, 2, 40) /* ENDURANCE_ATTRIBUTE */
+     , (943, 4, 60) /* COORDINATION_ATTRIBUTE */
+     , (943, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (943, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (943, 32, 20) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (943, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (943, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (943, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 

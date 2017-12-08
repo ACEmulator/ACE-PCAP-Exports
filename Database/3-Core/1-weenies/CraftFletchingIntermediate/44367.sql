@@ -43,7 +43,7 @@ VALUES (44367, 14, 'This item is used in fletching.') /* USE_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44367, 33, 1) /* BONDED_INT */
      , (44367, 114, 1) /* ATTUNED_INT */
-     , (44367, 19, 1035000) /* VALUE_INT */
+     , (44367, 19, 30000) /* VALUE_INT */
      , (44367, 5, 0) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)

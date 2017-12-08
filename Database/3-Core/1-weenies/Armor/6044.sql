@@ -49,3 +49,39 @@ VALUES (6044, 0, 83887061, 83886237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6044, 0, 16778382);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6044, 16, 'Celdon Breastplate') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6044, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (6044, 19, 6488) /* VALUE_INT */
+     , (6044, 131, 63) /* MATERIAL_TYPE_INT */
+     , (6044, 115, 160) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (6044, 5, 1827) /* ENCUMB_VAL_INT */
+     , (6044, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (6044, 106, 209) /* ITEM_SPELLCRAFT_INT */
+     , (6044, 28, 250) /* ARMOR_LEVEL_INT */
+     , (6044, 108, 1167) /* ITEM_MAX_MANA_INT */
+     , (6044, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (6044, 109, 76) /* ITEM_DIFFICULTY_INT */
+     , (6044, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6044, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (6044, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (6044, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (6044, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (6044, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (6044, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (6044, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (6044, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (6044, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6044, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (6044, 1485) /* Impenetrability5_SpellID */;
+

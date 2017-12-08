@@ -38,6 +38,25 @@ VALUES (32271, 13, True) /* ETHEREAL_BOOL */
      , (32271, 19, True) /* ATTACKABLE_BOOL */
      , (32271, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32271, 16, 'A bottle of Duke Raoul''s Distillation.') /* LONG_DESC_STRING */
+     , (32271, 14, 'Use this item to drink it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32271, 19, 10) /* VALUE_INT */
+     , (32271, 5, 50) /* ENCUMB_VAL_INT */
+     , (32271, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (32271, 108, 60) /* ITEM_MAX_MANA_INT */
+     , (32271, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32271, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32271, 3862) /* DukeRaoulPride_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

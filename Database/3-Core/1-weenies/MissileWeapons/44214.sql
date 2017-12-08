@@ -57,10 +57,20 @@ VALUES (44214, 0, 16777895);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44214, 160, 270) /* WIELD_DIFFICULTY_INT */
-     , (44214, 19, 807) /* VALUE_INT */
-     , (44214, 5, 807) /* ENCUMB_VAL_INT */
+     , (44214, 304, 512) /* IMBUED_EFFECT_3_INT */
+     , (44214, 305, 512) /* IMBUED_EFFECT_4_INT */
+     , (44214, 306, 512) /* IMBUED_EFFECT_5_INT */
+     , (44214, 386, 0) /*  */
+     , (44214, 19, 1) /* VALUE_INT */
+     , (44214, 179, 512) /* IMBUED_EFFECT_INT */
+     , (44214, 307, 32) /* DAMAGE_RATING_INT */
+     , (44214, 5, 1) /* ENCUMB_VAL_INT */
+     , (44214, 166, 14) /* SLAYER_CREATURE_TYPE_INT */
+     , (44214, 313, 1) /* CRIT_RATING_INT */
+     , (44214, 314, 18) /* CRIT_DAMAGE_RATING_INT */
      , (44214, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (44214, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (44214, 303, 512) /* IMBUED_EFFECT_2_INT */
      , (44214, 45, 16) /* DAMAGE_TYPE_INT */
      , (44214, 49, -1) /* WEAPON_TIME_INT */
      , (44214, 48, 0) /* WEAPON_SKILL_INT */
@@ -68,6 +78,8 @@ VALUES (44214, 160, 270) /* WIELD_DIFFICULTY_INT */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (44214, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (44214, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (44214, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
      , (44214, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
      , (44214, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (44214, 21, 0) /* WEAPON_LENGTH_FLOAT */

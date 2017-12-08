@@ -35,3 +35,14 @@ VALUES (27903, 13, True) /* ETHEREAL_BOOL */
      , (27903, 19, True) /* ATTACKABLE_BOOL */
      , (27903, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27903, 16, 'This is a relic of the Mosswarts. This is the eye of Drageerg, a Mosswart Shaman. The eye is said to hold great power.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27903, 33, 1) /* BONDED_INT */
+     , (27903, 114, 1) /* ATTUNED_INT */
+     , (27903, 19, 10) /* VALUE_INT */
+     , (27903, 5, 10) /* ENCUMB_VAL_INT */;
+

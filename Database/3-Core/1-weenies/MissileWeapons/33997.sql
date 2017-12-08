@@ -55,3 +55,41 @@ VALUES (33997, 0, 16784558)
      , (33997, 1, 16784557)
      , (33997, 2, 16784557);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33997, 55, 1492) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33997, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (33997, 353, 8) /* WEAPON_TYPE_INT */
+     , (33997, 19, 400) /* VALUE_INT */
+     , (33997, 5, 1520) /* ENCUMB_VAL_INT */
+     , (33997, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (33997, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (33997, 109, 170) /* ITEM_DIFFICULTY_INT */
+     , (33997, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (33997, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (33997, 45, 0) /* DAMAGE_TYPE_INT */
+     , (33997, 49, 0) /* WEAPON_TIME_INT */
+     , (33997, 48, 47) /* WEAPON_SKILL_INT */
+     , (33997, 44, 22) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33997, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (33997, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (33997, 29, 1.29) /* WEAPON_DEFENSE_FLOAT */
+     , (33997, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (33997, 63, 2.35) /* DAMAGE_MOD_FLOAT */
+     , (33997, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (33997, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (33997, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33997, 1492) /* Brittlemail6_SpellID */
+     , (33997, 1605) /* Defender6_SpellID */
+     , (33997, 2058) /* CoordinationOther7_SpellID */
+     , (33997, 1627) /* SwiftKiller6_SpellID */
+     , (33997, 2206) /* BowMasteryOther7_SpellID */
+     , (33997, 2096) /* BloodDrinker7_SpellID */;
+

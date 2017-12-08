@@ -49,3 +49,42 @@ VALUES (40909, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40909, 0, 16780142);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40909, 16, 'A heavily enchanted staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40909, 272, 355) /* WIELD_DIFFICULTY_2_INT */
+     , (40909, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (40909, 33, 1) /* BONDED_INT */
+     , (40909, 114, 1) /* ATTUNED_INT */
+     , (40909, 19, 15000) /* VALUE_INT */
+     , (40909, 5, 250) /* ENCUMB_VAL_INT */
+     , (40909, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (40909, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (40909, 45, 32) /* DAMAGE_TYPE_INT */
+     , (40909, 270, 1) /* WIELD_REQUIREMENTS_2_INT */
+     , (40909, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (40909, 271, 34) /* WIELD_SKILLTYPE_2_INT */
+     , (40909, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40909, 152, 1.12) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (40909, 144, 0.15) /* MANA_CONVERSION_MOD_FLOAT */
+     , (40909, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
+     , (40909, 5, -0.083) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40909, 99, 1) /* IVORYABLE_BOOL */
+     , (40909, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40909, 4434) /* AcidVolley8_SpellID */
+     , (40909, 2262) /* LeadershipMasteryOther7_SpellID */
+     , (40909, 2519) /* CANTRIPLEADERSHIP2_SpellID */
+     , (40909, 2520) /* CANTRIPLIFEMAGICAPTITUDE2_SpellID */
+     , (40909, 2266) /* LifeMagicMasteryOther7_SpellID */
+     , (40909, 4637) /* WarMagicMasteryOther8_SpellID */
+     , (40909, 4715) /* CANTRIPWARMAGICAPTITUDE3_SpellID */;
+

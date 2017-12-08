@@ -126,8 +126,18 @@ VALUES (45708, 113, 1) /* GENDER_INT */
      , (45708, 25, 300) /* LEVEL_INT */
      , (45708, 188, 11) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (45708, 1, 600) /* STRENGTH_ATTRIBUTE */
+     , (45708, 2, 400) /* ENDURANCE_ATTRIBUTE */
+     , (45708, 4, 400) /* COORDINATION_ATTRIBUTE */
+     , (45708, 8, 400) /* QUICKNESS_ATTRIBUTE */
+     , (45708, 16, 350) /* FOCUS_ATTRIBUTE */
+     , (45708, 32, 500) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (45708, 64, 200000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (45708, 64, 200000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (45708, 128, 5000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (45708, 256, 500500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

@@ -39,3 +39,23 @@ VALUES (25525, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25525, 67114560, 240, 16);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25525, 15, 'This helm was crafted from the hollowed out head of an Olthoi Mutilator. The thick chitin of the mutilator provides good protection.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25525, 19, 6500) /* VALUE_INT */
+     , (25525, 5, 600) /* ENCUMB_VAL_INT */
+     , (25525, 28, 300) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25525, 13, 1.25) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (25525, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (25525, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (25525, 16, 1.1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (25525, 17, 1.25) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (25525, 18, 1.9) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (25525, 19, 1.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (25525, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

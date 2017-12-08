@@ -116,12 +116,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (32396, 5, 'Captain of the Royal Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32396, 16, 67110063) /* EYES_PALETTE_DID */
-     , (32396, 9, 83890281) /* EYES_TEXTURE_DID */
-     , (32396, 17, 67110054) /* SKIN_PALETTE_DID */
-     , (32396, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (32396, 11, 83890345) /* MOUTH_TEXTURE_DID */
-     , (32396, 15, 67116993) /* HAIR_PALETTE_DID */;
+VALUES (32396, 16, 67110062) /* EYES_PALETTE_DID */
+     , (32396, 9, 83890283) /* EYES_TEXTURE_DID */
+     , (32396, 17, 67110052) /* SKIN_PALETTE_DID */
+     , (32396, 10, 83890294) /* NOSE_TEXTURE_DID */
+     , (32396, 11, 83890352) /* MOUTH_TEXTURE_DID */
+     , (32396, 15, 67116998) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32396, 113, 2) /* GENDER_INT */
@@ -130,6 +130,16 @@ VALUES (32396, 113, 2) /* GENDER_INT */
      , (32396, 25, 108) /* LEVEL_INT */
      , (32396, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (32396, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (32396, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (32396, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (32396, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (32396, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (32396, 32, 90) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32396, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (32396, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (32396, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (32396, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
 

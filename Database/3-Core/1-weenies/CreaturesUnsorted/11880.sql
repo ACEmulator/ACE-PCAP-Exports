@@ -54,8 +54,19 @@ VALUES (11880, 9, 16792510);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11880, 2, 6) /* CREATURE_TYPE_INT */
+     , (11880, 307, 5) /* DAMAGE_RATING_INT */
      , (11880, 25, 30) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (11880, 1, 110) /* STRENGTH_ATTRIBUTE */
+     , (11880, 2, 125) /* ENDURANCE_ATTRIBUTE */
+     , (11880, 4, 135) /* COORDINATION_ATTRIBUTE */
+     , (11880, 8, 115) /* QUICKNESS_ATTRIBUTE */
+     , (11880, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (11880, 32, 100) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11880, 64, 113) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (11880, 64, 113) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11880, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11880, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 

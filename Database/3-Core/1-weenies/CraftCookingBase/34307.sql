@@ -34,6 +34,16 @@ VALUES (34307, 13, True) /* ETHEREAL_BOOL */
      , (34307, 19, True) /* ATTACKABLE_BOOL */
      , (34307, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34307, 16, 'This heavy bronze knife is a tool used in the dark practices of the Falatacot.') /* LONG_DESC_STRING */
+     , (34307, 14, 'Use this knife to blood yourself and collect it in the sacrificial goblet.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34307, 19, 0) /* VALUE_INT */
+     , (34307, 5, 100) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

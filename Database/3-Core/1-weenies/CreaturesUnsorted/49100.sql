@@ -41,8 +41,22 @@ VALUES (49100, 13, True) /* ETHEREAL_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49100, 2, 21) /* CREATURE_TYPE_INT */
-     , (49100, 25, 200) /* LEVEL_INT */;
+     , (49100, 307, 20) /* DAMAGE_RATING_INT */
+     , (49100, 25, 200) /* LEVEL_INT */
+     , (49100, 314, 12) /* CRIT_DAMAGE_RATING_INT */
+     , (49100, 315, 16) /* CRIT_RESIST_RATING_INT */
+     , (49100, 316, 7) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (49100, 1, 210) /* STRENGTH_ATTRIBUTE */
+     , (49100, 2, 240) /* ENDURANCE_ATTRIBUTE */
+     , (49100, 4, 160) /* COORDINATION_ATTRIBUTE */
+     , (49100, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (49100, 16, 170) /* FOCUS_ATTRIBUTE */
+     , (49100, 32, 170) /* SELF_ATTRIBUTE */;
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49100, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (49100, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (49100, 128, 1740) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (49100, 256, 1070) /* MAX_MANA_ATTRIBUTE_2ND */;
 

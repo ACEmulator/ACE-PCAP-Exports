@@ -64,7 +64,7 @@ VALUES (46105, 33, 1) /* BONDED_INT */
      , (46105, 5, 700) /* ENCUMB_VAL_INT */
      , (46105, 47, 4) /* ATTACK_TYPE_INT */
      , (46105, 45, 1) /* DAMAGE_TYPE_INT */
-     , (46105, 49, 20) /* WEAPON_TIME_INT */
+     , (46105, 49, 0) /* WEAPON_TIME_INT */
      , (46105, 48, 41) /* WEAPON_SKILL_INT */
      , (46105, 44, 44) /* DAMAGE_INT */;
 

@@ -51,3 +51,42 @@ VALUES (46948, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46948, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46948, 15, 'A black robe trimmed in red, it is lined with an unknown material but feels like the perfect insulator.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46948, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (46948, 19, 4000) /* VALUE_INT */
+     , (46948, 36, 9999) /* RESIST_MAGIC_INT */
+     , (46948, 5, 450) /* ENCUMB_VAL_INT */
+     , (46948, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (46948, 108, 4000) /* ITEM_MAX_MANA_INT */
+     , (46948, 28, 250) /* ARMOR_LEVEL_INT */
+     , (46948, 109, 250) /* ITEM_DIFFICULTY_INT */
+     , (46948, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (46948, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46948, 5, -0.5) /* MANA_RATE_FLOAT */
+     , (46948, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (46948, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (46948, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (46948, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (46948, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (46948, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (46948, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (46948, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46948, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46948, 2571) /* CANTRIPARMOR2_SpellID */
+     , (46948, 2609) /* CANTRIPACIDWARD2_SpellID */
+     , (46948, 2611) /* CANTRIPFLAMEWARD2_SpellID */
+     , (46948, 2612) /* CANTRIPFROSTWARD2_SpellID */
+     , (46948, 2615) /* CANTRIPSTORMWARD2_SpellID */
+     , (46948, 2108) /* Impenetrability7_SpellID */;
+

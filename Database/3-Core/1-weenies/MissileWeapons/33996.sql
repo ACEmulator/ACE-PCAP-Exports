@@ -61,15 +61,15 @@ VALUES (33996, 160, 360) /* WIELD_DIFFICULTY_INT */
      , (33996, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (33996, 159, 47) /* WIELD_SKILLTYPE_INT */
      , (33996, 45, 0) /* DAMAGE_TYPE_INT */
-     , (33996, 49, 0) /* WEAPON_TIME_INT */
+     , (33996, 49, 1) /* WEAPON_TIME_INT */
      , (33996, 48, 47) /* WEAPON_SKILL_INT */
-     , (33996, 44, 34) /* DAMAGE_INT */;
+     , (33996, 44, 10) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (33996, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
      , (33996, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (33996, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
      , (33996, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (33996, 29, 1.37) /* WEAPON_DEFENSE_FLOAT */
      , (33996, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
      , (33996, 63, 2.5) /* DAMAGE_MOD_FLOAT */
      , (33996, 21, 0) /* WEAPON_LENGTH_FLOAT */

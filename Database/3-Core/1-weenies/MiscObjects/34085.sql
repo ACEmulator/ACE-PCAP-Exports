@@ -76,3 +76,13 @@ VALUES (34085, 0, 16777294)
      , (34085, 15, 16779237)
      , (34085, 12, 16779238);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34085, 16, 'A rather intelligent undead butler in a tidy uniform. There is perhaps a little too much gleam in his rotting eyes.') /* LONG_DESC_STRING */
+     , (34085, 14, 'The Zombie Butler can be placed on floor or yard hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34085, 19, 1650) /* VALUE_INT */
+     , (34085, 5, 1650) /* ENCUMB_VAL_INT */;
+

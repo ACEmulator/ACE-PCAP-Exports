@@ -91,22 +91,73 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (6856, 5, 'Barkeeper') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (6856, 16, 67109566) /* EYES_PALETTE_DID */
-     , (6856, 9, 83890479) /* EYES_TEXTURE_DID */
-     , (6856, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (6856, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (6856, 11, 83890656) /* MOUTH_TEXTURE_DID */
-     , (6856, 15, 67117076) /* HAIR_PALETTE_DID */;
+VALUES (6856, 16, 67109565) /* EYES_PALETTE_DID */
+     , (6856, 9, 83890443) /* EYES_TEXTURE_DID */
+     , (6856, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (6856, 10, 83890557) /* NOSE_TEXTURE_DID */
+     , (6856, 11, 83890645) /* MOUTH_TEXTURE_DID */
+     , (6856, 15, 67117073) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6856, 113, 1) /* GENDER_INT */
      , (6856, 2, 31) /* CREATURE_TYPE_INT */
+     , (6856, 307, 5) /* DAMAGE_RATING_INT */
      , (6856, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (6856, 25, 94) /* LEVEL_INT */
      , (6856, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (6856, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (6856, 2, 125) /* ENDURANCE_ATTRIBUTE */
+     , (6856, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (6856, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (6856, 16, 60) /* FOCUS_ATTRIBUTE */
+     , (6856, 32, 65) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6856, 64, 108) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (6856, 64, 108) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6856, 128, 215) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6856, 256, 95) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6856, 74, 262178) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6856, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6856, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6856, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6856, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6856, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6856, 4, 2451) /* Ale */
+     , (6856, 4, 2471) /* Stout */
+     , (6856, 4, 2462) /* Mead */
+     , (6856, 4, 2463) /* Milk */
+     , (6856, 4, 4746) /* Water */
+     , (6856, 4, 8378) /* Beer Stein */
+     , (6856, 4, 261) /* Cheese */
+     , (6856, 4, 620) /* Cake */
+     , (6856, 4, 4732) /* Fried Steak */
+     , (6856, 4, 4734) /* Meat Pie */
+     , (6856, 4, 32273) /* The Zongo Papers */
+     , (6856, 4, 22765) /* The Empyrean Temples */
+     , (6856, 4, 26641) /* Singularity Bore */
+     , (6856, 4, 29235) /* Feud of the Natural Philosophers */
+     , (6856, 4, 30742) /* The Littlest Niffis */
+     , (6856, 4, 30761) /* The Withered Atoll */
+     , (6856, 4, 31311) /* Lost Pet */
+     , (6856, 4, 31384) /* Dark Dealings */
+     , (6856, 4, 31982) /* Branwyn's Tears */
+     , (6856, 4, 33181) /* A Shadow Spire on the Caul */
+     , (6856, 4, 34281) /* A Strange Swamp Temple */
+     , (6856, 4, 35043) /* Halls of Metos */;
 
 /* Object Wield List */
 

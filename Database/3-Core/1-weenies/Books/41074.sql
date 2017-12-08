@@ -34,3 +34,16 @@ VALUES (41074, 13, True) /* ETHEREAL_BOOL */
      , (41074, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41074, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41074, 16, 'A journal of the mysterious Ries Woron.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41074, 33, 0) /* BONDED_INT */
+     , (41074, 19, 0) /* VALUE_INT */
+     , (41074, 5, 50) /* ENCUMB_VAL_INT */
+     , (41074, 279, 1) /* UNIQUE_INT */
+     , (41074, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (41074, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+

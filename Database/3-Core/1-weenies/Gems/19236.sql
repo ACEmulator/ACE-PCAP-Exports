@@ -197,3 +197,12 @@ VALUES (19236, 0, 16782252)
      , (19236, 15, 16782258)
      , (19236, 16, 16782264);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19236, 16, 'A small oxidized statue of a Sclavus crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19236, 19, 10000) /* VALUE_INT */
+     , (19236, 5, 5000) /* ENCUMB_VAL_INT */;
+

@@ -43,11 +43,14 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (3992, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3992, 5, 9195) /* ENCUMB_VAL_INT */;
+VALUES (3992, 19, 2500) /* VALUE_INT */
+     , (3992, 5, 9644) /* ENCUMB_VAL_INT */
+     , (3992, 38, 20) /* RESIST_LOCKPICK_INT */
+     , (3992, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3992, 2, 0) /* OPEN_BOOL */
-     , (3992, 3, 1) /* LOCKED_BOOL */;
+     , (3992, 3, 0) /* LOCKED_BOOL */;
 
 /* Chest Treasure List */
 

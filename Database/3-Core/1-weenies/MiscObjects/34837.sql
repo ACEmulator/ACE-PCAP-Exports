@@ -34,6 +34,16 @@ VALUES (34837, 13, True) /* ETHEREAL_BOOL */
      , (34837, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34837, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34837, 16, 'A large mushroom that glows with a blue light so bright it almost appears to be burning.') /* LONG_DESC_STRING */
+     , (34837, 14, 'Turn this into the Furgal the Mushroom Collector in Kor-Gursha.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34837, 19, 10) /* VALUE_INT */
+     , (34837, 5, 5) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

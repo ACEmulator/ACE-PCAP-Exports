@@ -35,3 +35,17 @@ VALUES (20606, 13, True) /* ETHEREAL_BOOL */
      , (20606, 19, True) /* ATTACKABLE_BOOL */
      , (20606, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20606, 16, 'Inscribed spell: Self Sacrifice
+Drains one-half of the caster''s Health and gives 175% of that to his/her Stamina.') /* LONG_DESC_STRING */
+     , (20606, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20606, 19, 2000) /* VALUE_INT */
+     , (20606, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20606, 2334) /* HealthtoStaminaSelf7_SpellID */;
+

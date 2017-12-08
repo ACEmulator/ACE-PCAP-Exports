@@ -41,33 +41,23 @@ VALUES (28643, 67116329, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28643, 16, 'Lightning Greataxe') /* LONG_DESC_STRING */;
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28643, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (28643, 353, 11) /* WEAPON_TYPE_INT */
-     , (28643, 19, 724) /* VALUE_INT */
-     , (28643, 131, 77) /* MATERIAL_TYPE_INT */
-     , (28643, 292, 2) /* CLEAVING_INT */
-     , (28643, 5, 448) /* ENCUMB_VAL_INT */
-     , (28643, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (28643, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (28643, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (28643, 159, 41) /* WIELD_SKILLTYPE_INT */
-     , (28643, 47, 4) /* ATTACK_TYPE_INT */
-     , (28643, 45, 64) /* DAMAGE_TYPE_INT */
-     , (28643, 49, 50) /* WEAPON_TIME_INT */
-     , (28643, 48, 41) /* WEAPON_SKILL_INT */
-     , (28643, 44, 16) /* DAMAGE_INT */;
+VALUES (28643, 2, 78) /* CREATURE_TYPE_INT */
+     , (28643, 307, 2) /* DAMAGE_RATING_INT */
+     , (28643, 25, 100) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (28643, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (28643, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
-     , (28643, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (28643, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (28643, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (28643, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28643, 1, 160) /* STRENGTH_ATTRIBUTE */
+     , (28643, 2, 130) /* ENDURANCE_ATTRIBUTE */
+     , (28643, 4, 120) /* COORDINATION_ATTRIBUTE */
+     , (28643, 8, 170) /* QUICKNESS_ATTRIBUTE */
+     , (28643, 16, 150) /* FOCUS_ATTRIBUTE */
+     , (28643, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (28643, 64, 380) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28643, 128, 480) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28643, 256, 380) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

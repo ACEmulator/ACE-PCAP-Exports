@@ -31,3 +31,17 @@ VALUES (47168, 13, True) /* ETHEREAL_BOOL */
      , (47168, 19, True) /* ATTACKABLE_BOOL */
      , (47168, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47168, 14, 'Use this kennel to summon or dismiss your Pet Snow Tuskie.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47168, 33, 0) /* BONDED_INT */
+     , (47168, 114, 0) /* ATTUNED_INT */
+     , (47168, 19, 0) /* VALUE_INT */
+     , (47168, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47168, 69, 0) /* IS_SELLABLE_BOOL */;
+

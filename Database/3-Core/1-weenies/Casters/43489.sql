@@ -37,3 +37,20 @@ VALUES (43489, 13, True) /* ETHEREAL_BOOL */
      , (43489, 19, True) /* ATTACKABLE_BOOL */
      , (43489, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43489, 16, 'This goo increases the salvatory production of an olthoi allowing them to create enough acid saliva to spit at their opponents.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43489, 33, 1) /* BONDED_INT */
+     , (43489, 114, 1) /* ATTUNED_INT */
+     , (43489, 19, 0) /* VALUE_INT */
+     , (43489, 36, 9999) /* RESIST_MAGIC_INT */
+     , (43489, 324, 13) /* HERITAGE_SPECIFIC_ARMOR_INT */
+     , (43489, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43489, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (43489, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+

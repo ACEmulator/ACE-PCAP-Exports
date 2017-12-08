@@ -49,6 +49,20 @@ VALUES (29581, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29581, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29581, 14, 'Apply this material to treasure-generated armor to increase the armor''s armor level by 20. This material cannot be used on Covenant Armor.') /* USE_STRING */
+     , (29581, 15, 'A bar of steel material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29581, 33, 1) /* BONDED_INT */
+     , (29581, 131, 64) /* MATERIAL_TYPE_INT */
+     , (29581, 19, 10) /* VALUE_INT */
+     , (29581, 5, 100) /* ENCUMB_VAL_INT */
+     , (29581, 105, 100) /* ITEM_WORKMANSHIP_INT */
+     , (29581, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

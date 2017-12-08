@@ -35,3 +35,17 @@ VALUES (30401, 13, True) /* ETHEREAL_BOOL */
      , (30401, 19, True) /* ATTACKABLE_BOOL */
      , (30401, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30401, 16, 'A reward granted by the kindly Niffis Reijiri.') /* LONG_DESC_STRING */
+     , (30401, 14, 'This item can be placed on wall hooks, where it can be used to cast its spells.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30401, 33, 1) /* BONDED_INT */
+     , (30401, 19, 2500) /* VALUE_INT */
+     , (30401, 5, 150) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30401, 69, 0) /* IS_SELLABLE_BOOL */;
+

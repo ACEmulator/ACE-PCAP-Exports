@@ -36,3 +36,17 @@ VALUES (43130, 13, True) /* ETHEREAL_BOOL */
      , (43130, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43130, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43130, 33, -2) /* BONDED_INT */
+     , (43130, 114, 1) /* ATTUNED_INT */
+     , (43130, 5, 300) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43130, 159, 1) /* ABSORB_MAGIC_DAMAGE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43130, 99, 0) /* IVORYABLE_BOOL */
+     , (43130, 69, 0) /* IS_SELLABLE_BOOL */;
+

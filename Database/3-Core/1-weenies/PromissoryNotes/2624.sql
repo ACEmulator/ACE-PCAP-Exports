@@ -36,6 +36,9 @@ VALUES (2624, 13, True) /* ETHEREAL_BOOL */
 
 /* Extended Appraisal Data */
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2624, 15, 'Worth 5,000 pyreals if presented to Bronwin in Eastham.  Can be exchanged with any other vendor at a reduced rate.') /* SHORT_DESC_STRING */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2624, 33, 1) /* BONDED_INT */
      , (2624, 19, 5000) /* VALUE_INT */

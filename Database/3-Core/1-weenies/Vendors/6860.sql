@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (6860, 5, 'Jeweler') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (6860, 16, 67110062) /* EYES_PALETTE_DID */
-     , (6860, 9, 83890454) /* EYES_TEXTURE_DID */
-     , (6860, 17, 67109555) /* SKIN_PALETTE_DID */
-     , (6860, 10, 83890544) /* NOSE_TEXTURE_DID */
-     , (6860, 11, 83890613) /* MOUTH_TEXTURE_DID */
-     , (6860, 15, 67117071) /* HAIR_PALETTE_DID */;
+VALUES (6860, 16, 67110063) /* EYES_PALETTE_DID */
+     , (6860, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (6860, 17, 67109556) /* SKIN_PALETTE_DID */
+     , (6860, 10, 83890539) /* NOSE_TEXTURE_DID */
+     , (6860, 11, 83890607) /* MOUTH_TEXTURE_DID */
+     , (6860, 15, 67116996) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6860, 113, 1) /* GENDER_INT */
@@ -110,6 +110,60 @@ VALUES (6860, 113, 1) /* GENDER_INT */
      , (6860, 25, 12) /* LEVEL_INT */
      , (6860, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (6860, 1, 100) /* STRENGTH_ATTRIBUTE */
+     , (6860, 2, 95) /* ENDURANCE_ATTRIBUTE */
+     , (6860, 4, 90) /* COORDINATION_ATTRIBUTE */
+     , (6860, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (6860, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (6860, 32, 75) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6860, 64, 58) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (6860, 64, 58) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6860, 128, 105) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6860, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6860, 74, 280712) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6860, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6860, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6860, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6860, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6860, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6860, 4, 41402) /* Jeweler's Saw Blade */
+     , (6860, 4, 41403) /* Jeweler's Saw Frame */
+     , (6860, 4, 41400) /* Lapping Plate */
+     , (6860, 4, 41397) /* Abrasive Polish */
+     , (6860, 4, 41393) /* Lense Frame */
+     , (6860, 4, 41395) /* Unfinished Lense */
+     , (6860, 4, 294) /* Amulet */
+     , (6860, 4, 295) /* Bracelet */
+     , (6860, 4, 2413) /* Gem */
+     , (6860, 4, 2431) /* Gem */
+     , (6860, 4, 513) /* Plain Lockpick */
+     , (6860, 4, 545) /* Reliable Lockpick */
+     , (6860, 4, 512) /* Good Lockpick */
+     , (6860, 4, 514) /* Excellent Lockpick */
+     , (6860, 4, 515) /* Superb Lockpick */
+     , (6860, 4, 516) /* Peerless Lockpick */
+     , (6860, 4, 2621) /* Trade Note (100) */
+     , (6860, 4, 2622) /* Trade Note (500) */
+     , (6860, 4, 2623) /* Trade Note (1,000) */
+     , (6860, 4, 2624) /* Trade Note (5,000) */
+     , (6860, 4, 2625) /* Trade Note (10,000) */
+     , (6860, 4, 2626) /* Trade Note (50,000) */
+     , (6860, 4, 2627) /* Trade Note (100,000) */
+     , (6860, 4, 20628) /* Trade Note (150,000) */
+     , (6860, 4, 20629) /* Trade Note (200,000) */
+     , (6860, 4, 20630) /* Trade Note (250,000) */;
 

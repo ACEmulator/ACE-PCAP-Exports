@@ -35,3 +35,17 @@ VALUES (8811, 13, True) /* ETHEREAL_BOOL */
      , (8811, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8811, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8811, 16, 'A War Magic spell scroll taken from Nelamar the Legate, a Virindi Master.  It may be a fire-related projectile spell.  It needs to be translated before the spell can be learned.') /* LONG_DESC_STRING */
+     , (8811, 14, 'This item cannot be read.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8811, 33, 1) /* BONDED_INT */
+     , (8811, 114, 1) /* ATTUNED_INT */
+     , (8811, 19, 1000) /* VALUE_INT */
+     , (8811, 5, 50) /* ENCUMB_VAL_INT */
+     , (8811, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (8811, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

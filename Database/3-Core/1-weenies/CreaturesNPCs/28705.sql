@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28705, 5, 'Trade Merchant') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28705, 16, 67110064) /* EYES_PALETTE_DID */
-     , (28705, 9, 83890485) /* EYES_TEXTURE_DID */
-     , (28705, 17, 67115904) /* SKIN_PALETTE_DID */
-     , (28705, 10, 83890521) /* NOSE_TEXTURE_DID */
-     , (28705, 11, 83890634) /* MOUTH_TEXTURE_DID */
-     , (28705, 15, 67117068) /* HAIR_PALETTE_DID */;
+VALUES (28705, 16, 67110065) /* EYES_PALETTE_DID */
+     , (28705, 9, 83890507) /* EYES_TEXTURE_DID */
+     , (28705, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (28705, 10, 83890520) /* NOSE_TEXTURE_DID */
+     , (28705, 11, 83890578) /* MOUTH_TEXTURE_DID */
+     , (28705, 15, 67117025) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28705, 113, 1) /* GENDER_INT */
@@ -104,6 +104,16 @@ VALUES (28705, 113, 1) /* GENDER_INT */
      , (28705, 25, 10) /* LEVEL_INT */
      , (28705, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28705, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (28705, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (28705, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (28705, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (28705, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (28705, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28705, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (28705, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28705, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28705, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 

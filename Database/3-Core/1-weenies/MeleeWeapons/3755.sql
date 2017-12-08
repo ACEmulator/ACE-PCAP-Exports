@@ -40,3 +40,32 @@ VALUES (3755, 13, True) /* ETHEREAL_BOOL */
      , (3755, 19, True) /* ATTACKABLE_BOOL */
      , (3755, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3755, 16, 'Lightning Hand Axe') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3755, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (3755, 353, 3) /* WEAPON_TYPE_INT */
+     , (3755, 131, 64) /* MATERIAL_TYPE_INT */
+     , (3755, 19, 474) /* VALUE_INT */
+     , (3755, 5, 419) /* ENCUMB_VAL_INT */
+     , (3755, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (3755, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3755, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3755, 47, 4) /* ATTACK_TYPE_INT */
+     , (3755, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (3755, 45, 64) /* DAMAGE_TYPE_INT */
+     , (3755, 49, 27) /* WEAPON_TIME_INT */
+     , (3755, 48, 45) /* WEAPON_SKILL_INT */
+     , (3755, 44, 23) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3755, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
+     , (3755, 22, 0.9) /* DAMAGE_VARIANCE_FLOAT */
+     , (3755, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3755, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3755, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3755, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+

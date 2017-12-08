@@ -35,3 +35,14 @@ VALUES (1265, 13, True) /* ETHEREAL_BOOL */
      , (1265, 19, True) /* ATTACKABLE_BOOL */
      , (1265, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1265, 16, 'This worn key opens two different chests in the Green Mire Grave.') /* LONG_DESC_STRING */
+     , (1265, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1265, 19, 100) /* VALUE_INT */
+     , (1265, 5, 50) /* ENCUMB_VAL_INT */
+     , (1265, 91, 5) /* MAX_STRUCTURE_INT */;
+

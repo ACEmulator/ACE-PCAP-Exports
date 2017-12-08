@@ -44,19 +44,30 @@ VALUES (37441, 5, 'Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (37441, 16, 67109564) /* EYES_PALETTE_DID */
-     , (37441, 9, 83890508) /* EYES_TEXTURE_DID */
-     , (37441, 17, 67115908) /* SKIN_PALETTE_DID */
-     , (37441, 10, 83890557) /* NOSE_TEXTURE_DID */
-     , (37441, 11, 83890638) /* MOUTH_TEXTURE_DID */
-     , (37441, 15, 67116989) /* HAIR_PALETTE_DID */;
+     , (37441, 9, 83890457) /* EYES_TEXTURE_DID */
+     , (37441, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (37441, 10, 83890522) /* NOSE_TEXTURE_DID */
+     , (37441, 11, 83890637) /* MOUTH_TEXTURE_DID */
+     , (37441, 15, 67116979) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37441, 113, 1) /* GENDER_INT */
      , (37441, 2, 31) /* CREATURE_TYPE_INT */
+     , (37441, 307, 5) /* DAMAGE_RATING_INT */
      , (37441, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (37441, 25, 126) /* LEVEL_INT */
      , (37441, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (37441, 1, 250) /* STRENGTH_ATTRIBUTE */
+     , (37441, 2, 150) /* ENDURANCE_ATTRIBUTE */
+     , (37441, 4, 110) /* COORDINATION_ATTRIBUTE */
+     , (37441, 8, 90) /* QUICKNESS_ATTRIBUTE */
+     , (37441, 16, 30) /* FOCUS_ATTRIBUTE */
+     , (37441, 32, 30) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37441, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (37441, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (37441, 128, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (37441, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 

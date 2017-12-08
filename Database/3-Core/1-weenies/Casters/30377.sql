@@ -52,7 +52,7 @@ VALUES (30377, 0, 16780142);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30377, 16, '') /* LONG_DESC_STRING */;
+VALUES (30377, 16, 'Rakhil al-Kur was the First Malik, the founder of the nation of Gharu''n.  He was the one who led the first wave of nomadic peoples in a campaign of conquest, sweeping the antiquated Roulean Empire out of Tirethas.  A great mage of Tirethas who sought to curry favor with the Malik crafted this wand for him, which bears the mark of Rakhil''s chosen symbol, the eagle.  Rakhil found the present pleasing enough, but he showed little patience for magical study and this wand soon ended up gathering dust in the royal storehouse of the al-Nafalt.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30377, 320, 1) /* ITEM_XP_STYLE_INT */
@@ -76,10 +76,10 @@ VALUES (30377, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (30377, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (30377, 144, 0.18) /* MANA_CONVERSION_MOD_FLOAT */
-     , (30377, 152, 1.22) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (30377, 144, 0.324) /* MANA_CONVERSION_MOD_FLOAT */
+     , (30377, 152, 1.35) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
      , (30377, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (30377, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */;
+     , (30377, 29, 1.38) /* WEAPON_DEFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30377, 91, 1) /* RETAINED_BOOL */;

@@ -52,3 +52,22 @@ VALUES (22589, 1, 16785073)
      , (22589, 23, 16777708)
      , (22589, 24, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22589, 2, 8) /* CREATURE_TYPE_INT */
+     , (22589, 25, 15) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (22589, 1, 160) /* STRENGTH_ATTRIBUTE */
+     , (22589, 2, 130) /* ENDURANCE_ATTRIBUTE */
+     , (22589, 4, 40) /* COORDINATION_ATTRIBUTE */
+     , (22589, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (22589, 16, 20) /* FOCUS_ATTRIBUTE */
+     , (22589, 32, 20) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (22589, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22589, 128, 280) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22589, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
+

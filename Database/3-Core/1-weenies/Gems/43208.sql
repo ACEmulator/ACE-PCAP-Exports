@@ -60,7 +60,7 @@ VALUES (43208, 33, 1) /* BONDED_INT */
      , (43208, 19, 0) /* VALUE_INT */
      , (43208, 5, 0) /* ENCUMB_VAL_INT */
      , (43208, 267, 3600) /* LIFESPAN_INT */
-     , (43208, 268, 3554) /* REMAINING_LIFESPAN_INT */;
+     , (43208, 268, 3556) /* REMAINING_LIFESPAN_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (43208, 167, 10) /* COOLDOWN_DURATION_FLOAT */;

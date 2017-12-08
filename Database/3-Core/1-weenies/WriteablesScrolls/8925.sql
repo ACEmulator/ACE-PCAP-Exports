@@ -35,3 +35,17 @@ VALUES (8925, 13, True) /* ETHEREAL_BOOL */
      , (8925, 19, True) /* ATTACKABLE_BOOL */
      , (8925, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8925, 16, 'Inscribed spell: Flame Streak VI
+Sends a bolt of flame streaking towards the target.  The bolt does 36-71 points of fire damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (8925, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8925, 19, 1000) /* VALUE_INT */
+     , (8925, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8925, 1801) /* FlameStreak6_SpellID */;
+

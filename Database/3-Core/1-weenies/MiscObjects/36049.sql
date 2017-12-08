@@ -32,29 +32,3 @@ VALUES (36049, 13, True) /* ETHEREAL_BOOL */
      , (36049, 19, True) /* ATTACKABLE_BOOL */
      , (36049, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36049, 16, 'Mechanical Scarab of Rejuvenation') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36049, 177, 3) /* GEM_COUNT_INT */
-     , (36049, 178, 22) /* GEM_TYPE_INT */
-     , (36049, 19, 6988) /* VALUE_INT */
-     , (36049, 131, 60) /* MATERIAL_TYPE_INT */
-     , (36049, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (36049, 5, 100) /* ENCUMB_VAL_INT */
-     , (36049, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (36049, 106, 314) /* ITEM_SPELLCRAFT_INT */
-     , (36049, 108, 1307) /* ITEM_MAX_MANA_INT */
-     , (36049, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (36049, 109, 331) /* ITEM_DIFFICULTY_INT */
-     , (36049, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36049, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36049, 2187) /* RejuvenationSelf7_SpellID */
-     , (36049, 2518) /* CANTRIPJUMPINGPROWESS2_SpellID */;
-

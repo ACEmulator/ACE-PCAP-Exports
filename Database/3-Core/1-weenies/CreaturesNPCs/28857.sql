@@ -96,11 +96,11 @@ VALUES (28857, 5, 'Herbalist') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (28857, 16, 67110063) /* EYES_PALETTE_DID */
-     , (28857, 9, 83890453) /* EYES_TEXTURE_DID */
-     , (28857, 17, 67110049) /* SKIN_PALETTE_DID */
-     , (28857, 10, 83890554) /* NOSE_TEXTURE_DID */
-     , (28857, 11, 83890589) /* MOUTH_TEXTURE_DID */
-     , (28857, 15, 67117016) /* HAIR_PALETTE_DID */;
+     , (28857, 9, 83890447) /* EYES_TEXTURE_DID */
+     , (28857, 17, 67110047) /* SKIN_PALETTE_DID */
+     , (28857, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (28857, 11, 83890588) /* MOUTH_TEXTURE_DID */
+     , (28857, 15, 67116993) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28857, 113, 1) /* GENDER_INT */
@@ -109,6 +109,16 @@ VALUES (28857, 113, 1) /* GENDER_INT */
      , (28857, 25, 10) /* LEVEL_INT */
      , (28857, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28857, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (28857, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (28857, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (28857, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (28857, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (28857, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28857, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (28857, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28857, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28857, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 

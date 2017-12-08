@@ -37,3 +37,14 @@ VALUES (11790, 0, 83893717, 83893722);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11790, 0, 16787125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11790, 16, 'A banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11790, 33, 1) /* BONDED_INT */
+     , (11790, 114, 1) /* ATTUNED_INT */
+     , (11790, 19, 0) /* VALUE_INT */
+     , (11790, 5, 100) /* ENCUMB_VAL_INT */;
+

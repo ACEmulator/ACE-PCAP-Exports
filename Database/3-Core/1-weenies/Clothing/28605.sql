@@ -42,3 +42,29 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (28605, 67115626, 240, 10)
      , (28605, 67115584, 250, 6);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28605, 16, 'Beret') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28605, 19, 5159) /* VALUE_INT */
+     , (28605, 131, 7) /* MATERIAL_TYPE_INT */
+     , (28605, 5, 18) /* ENCUMB_VAL_INT */
+     , (28605, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (28605, 28, 259) /* ARMOR_LEVEL_INT */
+     , (28605, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28605, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28605, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28605, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28605, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28605, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28605, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28605, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28605, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28605, 100, 1) /* DYABLE_BOOL */;
+

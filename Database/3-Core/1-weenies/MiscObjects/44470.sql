@@ -42,7 +42,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (44470, 33, 0) /* BONDED_INT */
      , (44470, 114, 0) /* ATTUNED_INT */
      , (44470, 19, 0) /* VALUE_INT */
-     , (44470, 5, 50) /* ENCUMB_VAL_INT */;
+     , (44470, 5, 500) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

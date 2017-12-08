@@ -45,6 +45,27 @@ VALUES (2406, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2406, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2406, 16, 'Gem of Regeneration') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2406, 19, 2075) /* VALUE_INT */
+     , (2406, 131, 36) /* MATERIAL_TYPE_INT */
+     , (2406, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (2406, 5, 5) /* ENCUMB_VAL_INT */
+     , (2406, 117, 300) /* ITEM_MANA_COST_INT */
+     , (2406, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (2406, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (2406, 108, 534) /* ITEM_MAX_MANA_INT */
+     , (2406, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (2406, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (2406, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2406, 169) /* RegenerationSelf5_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

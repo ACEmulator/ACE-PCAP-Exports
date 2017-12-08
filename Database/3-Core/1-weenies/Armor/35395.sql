@@ -38,3 +38,20 @@ VALUES (35395, 13, True) /* ETHEREAL_BOOL */
      , (35395, 19, True) /* ATTACKABLE_BOOL */
      , (35395, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35395, 15, 'This shield was crafted for the Lords of House Mhoire.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35395, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (35395, 33, -2) /* BONDED_INT */
+     , (35395, 114, 1) /* ATTUNED_INT */
+     , (35395, 115, 475) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (35395, 5, 1125) /* ENCUMB_VAL_INT */
+     , (35395, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (35395, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35395, 5, -0.033) /* MANA_RATE_FLOAT */;
+

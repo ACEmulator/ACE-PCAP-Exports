@@ -34,3 +34,15 @@ VALUES (35055, 13, True) /* ETHEREAL_BOOL */
      , (35055, 19, True) /* ATTACKABLE_BOOL */
      , (35055, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35055, 16, 'A ticket stub showing the time your fellowship have left in the Colosseum.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35055, 98, 1485056766) /* CREATION_TIMESTAMP_INT */
+     , (35055, 19, 0) /* VALUE_INT */
+     , (35055, 5, 5) /* ENCUMB_VAL_INT */
+     , (35055, 267, 3600) /* LIFESPAN_INT */
+     , (35055, 268, 1823) /* REMAINING_LIFESPAN_INT */;
+

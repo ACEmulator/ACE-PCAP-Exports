@@ -33,6 +33,18 @@ VALUES (11140, 13, True) /* ETHEREAL_BOOL */
      , (11140, 14, True) /* GRAVITY_STATUS_BOOL */
      , (11140, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11140, 16, 'An Olthoi egg, ripped from the corpse of the Olthoi Queen. The larvae inside is dead, so don''t bother trying to keep it warm...') /* LONG_DESC_STRING */
+     , (11140, 14, 'Use this item to eat it, if you have a stomach of steel.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11140, 19, 10000) /* VALUE_INT */
+     , (11140, 5, 800) /* ENCUMB_VAL_INT */
+     , (11140, 89, 2) /* BOOSTER_ENUM_INT */
+     , (11140, 90, 120) /* BOOST_VALUE_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

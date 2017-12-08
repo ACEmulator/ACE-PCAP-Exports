@@ -43,3 +43,53 @@ VALUES (32086, 19, 0) /* VALUE_INT */
      , (32086, 174, 3) /* APPRAISAL_PAGES_INT */
      , (32086, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32086, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (32086, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
+     , (32086, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (32086, 0, 'Arcanum Refurbisher', 'prewritten', 4294967295, 0, '
+Greetings,
+The Zaikhal Arcanum has discovered that the climate of Dereth has had an adverse effect on several popular housing decorations. We of the Arcanum feel much effort and love can be put into the decoration of your home, and anything that potentially degrades it appearance can be disconcerting. We are happy to offer all who desire it a free refurbishment service for a select number of items that have been most negatively affected by the weather and magics of this world. Please see the list starting on page two for all  items eligible for refurbishment.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (32086, 1, 'Arcanum Refurbisher', 'prewritten', 4294967295, 0, '
+Pack Cow
+Pack Drudge
+Pack Golem
+Pack Grievver
+Pack Idol
+Pack Lugian
+Pack Mosswart
+Pack Scarecrow
+Pack Ursuin
+Pack Virindi
+Velveteen Olthoi
+Plush Tusker
+Golden Gromnie
+
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (32086, 2, 'Arcanum Refurbisher', 'prewritten', 4294967295, 0, '
+Decorative, Commemorative, and Oxidized Statues (Drudge)
+
+Decorative, Commemorative, and Oxidized Statues (Gromnie)
+
+Decorative, Commemorative, and Oxidized Statues (Skeleton)
+
+Decorative, Commemorative, and Oxidized Statues (Tumerok)
+
+Decorative, Commemorative, and Oxidized Statues (Virindi)
+');
+
