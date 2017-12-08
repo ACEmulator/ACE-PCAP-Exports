@@ -7,10 +7,9 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (2181, 2015944705, 2190344448, 80.9392, 128.015, 124.082, -4.37114E-08, 0, 0, -1) /* Door */
      , (2181, 2015944710, 2190344222, 87.0353, 127.492, 132.882, 1, 0, 0, 0) /* Door */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4980, 2015944704, 2190344456, 57.7319, 110.01, 124.05, 0.7071068, 0, 0, -0.7071068) /* Refreshing Fountain */
-     , (4179, 2015944707, 2190344222, 76.3056, 128.09, 124, -0.9035071, 0, 0, -0.4285731) /* Bonfire */;
+VALUES (4980, 2015944704, 2190344456, 57.7319, 110.01, 124.05, 0.7071068, 0, 0, -0.7071068) /* Refreshing Fountain */;
 
 /* Portals */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -24,6 +23,10 @@ VALUES (6441, 2015944714, 2190344213, 66.5424, 110.587, 124, -0.3134271, 0, 0, -
 /* MiscButtons */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (269, 2015944713, 2190344222, 80.6009, 135.865, 140.409, -0.707107, 0, 0, -0.707107) /* Button */;
+
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2015944707, 2190344222, 76.3056, 128.09, 124, -0.9035071, 0, 0, -0.4285731) /* Bonfire */;
 
 /* CreaturesNPCs */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

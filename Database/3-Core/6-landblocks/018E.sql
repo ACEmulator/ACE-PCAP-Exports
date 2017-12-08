@@ -35,7 +35,7 @@ VALUES (278, 1880678505, 26083963, 45.25, -190, -6, -0.707107, 0, 0, -0.707107) 
      , (278, 1880678560, 26084129, 100, -75.25, -6, -1, 0, 0, 0) /* Door */
      , (278, 1880678556, 26084123, 100, -64.75, -6, -4.37114E-08, 0, 0, -1) /* Door */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (31300, 1880678609, 26083602, 227.21, -7.11909, -23.95, 0.6524827, 0, 0, -0.7578036) /* Pool of Glacial Water */;
 

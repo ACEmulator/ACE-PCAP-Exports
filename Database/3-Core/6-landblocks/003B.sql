@@ -29,7 +29,7 @@ VALUES (32028, 1879289888, 3867195, 16.2923, -80.1156, -23.98214, 0.714421, 0, 0
      , (24476, 1879290011, 3867561, 290.003, -186.811, 0, -4.37114E-08, 0, 0, -1) /* Sturdy Steel Chest */
      , (32027, 1879289930, 3867256, 360, -193.622, -23.98214, -4.37114E-08, 0, 0, -1) /* Black Marrow Reliquary */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (32029, 1879289873, 3867017, 170, -180, -42, 1, 0, 0, -4.37114E-08) /* Acid */
      , (32029, 1879289868, 3867000, 160, -190, -42, 1, 0, 0, -4.37114E-08) /* Acid */

@@ -19,7 +19,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (2180, 2012225694, 2130838008, 96, -210, 6, -0.707107, 0, 0, -0.707107) /* Door */
      , (40806, 2012225664, 2130837916, 10, -94, 6, 0, 0, 0, -1) /* Aetherium Vault */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 2012225652, 2130837809, 60, -220, 7.450581E-09, 1, 0, 0, 0) /* Acid */
      , (6122, 2012225651, 2130837799, 60, -210, 7.450581E-09, 1, 0, 0, 0) /* Acid */

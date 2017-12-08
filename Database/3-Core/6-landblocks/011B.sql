@@ -13,7 +13,7 @@ VALUES (6396, 1880207372, 18547013, 80, -40, -66.063, 1, 0, 0, -4.37114E-08) /* 
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1947, 1880207377, 18547034, 53.9251, -54.1731, -60, -4.37114E-08, 0, 0, -1) /* Chest */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5489, 1880207447, 18547107, 10, -20, -36, 1, 0, 0, 0) /* "Mag-Ma!" */;
 

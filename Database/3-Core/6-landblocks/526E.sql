@@ -8,7 +8,7 @@ VALUES (14497, 1965482016, 1382941004, 27.836, -12, -0.06299996, 0.9238793, 0, 0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5625, 1965482017, 1382941020, 45.1955, -9.87768, -2.793968E-09, -0.684709, 0, 0, 0.728817) /* Door */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1965482006, 1382940982, 40, -70, -36, -4.37114E-08, 0, 0, -1) /* Acid */;
 

@@ -49,7 +49,7 @@ VALUES (269, 1965502575, 1383269044, 88.2, -50.15, 7.5, 0.707107, 0, 0, -0.70710
      , (269, 1965502588, 1383269109, 80, 4.39999, 19.5, 1, 0, 0, 0) /* Button */
      , (8420, 1965502601, 1383269152, 48.45, -33.5, 25.5, -0.707107, 0, 0, -0.707107) /* Button */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (14804, 1965502620, 1383268717, 10, -170, -36, 1, 0, 0, 0) /* Acid */;
 

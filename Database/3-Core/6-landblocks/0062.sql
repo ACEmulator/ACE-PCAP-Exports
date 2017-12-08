@@ -15,7 +15,7 @@ VALUES (35104, 3708771208, 6422886, 79.6211, -123.847, -59.99, 0.8336214, 0, 0, 
      , (35104, 3708771207, 6422887, 82.1729, -128.141, -59.99, -0.05824362, 0, 0, 0.9983024) /* Corpse of a Servitor of Asheron */
      , (35103, 3708771293, 6422883, 77.848, -89.007, -59.99, -0.7071068, 0, 0, -0.7071068) /* Corpse of a Servitor of Asheron */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (35114, 1879449602, 6422785, 40, -40, -72, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (35114, 1879449606, 6422789, 50, -50, -72, 1, 0, 0, -4.37114E-08) /* "Mag-Ma!" */

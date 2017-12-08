@@ -121,7 +121,7 @@ VALUES (25976, 1984209013, 1682571663, 128.541, -38.7677, -36.063, -0.9238797, 0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (854, 1984208948, 1682571879, 90, -70, -18.008, 0.7071068, 0, 0, -0.7071068) /* Altar of Bael'Zharon */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (14804, 1984209008, 1682571538, 60, -70, -48, 1, 0, 0, 0) /* Acid */;
 

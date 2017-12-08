@@ -17,7 +17,7 @@ VALUES (4462, 1880383592, 21365346, 100, -30, -12, 0, 0, 0, -1) /* Door */
      , (568, 1880383596, 21365360, 110, -5.25, -12, 1, 0, 0, 0) /* Door */
      , (568, 1880383595, 21365357, 110, -14.75, -12, 0, 0, 0, -1) /* Door */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5489, 1880383556, 21365153, 50, -30, -42, -0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1880383561, 21365165, 60, -20, -42, 1, 0, 0, 0) /* "Mag-Ma!" */
@@ -38,8 +38,7 @@ VALUES (5489, 1880383556, 21365153, 50, -30, -42, -0.707107, 0, 0, -0.707107) /*
      , (5489, 1880383511, 21365059, 50, -60, -66, 0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1880383509, 21365057, 40, -60, -66, 0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1880383506, 21365054, 30, -60, -66, 1, 0, 0, 0) /* "Mag-Ma!" */
-     , (5489, 1880383507, 21365055, 30, -70, -66, 1, 0, 0, 0) /* "Mag-Ma!" */
-     , (5148, 1880383594, 21365355, 106.829, -13.107, -11.8, 1, 0, 0, 0) /* Flames */;
+     , (5489, 1880383507, 21365055, 30, -70, -66, 1, 0, 0, 0) /* "Mag-Ma!" */;
 
 /* PKSwitches */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -60,4 +59,8 @@ VALUES (3991, 1880383527, 21365075, 36.6967, -68.7868, -60, -0.9190496, 0, 0, -0
 /* ContainersStatics */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5499, 1880383493, 21365023, 20, -100, -71.95, -4.37114E-08, 0, 0, -1) /* Pool of Lethe */;
+
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (5148, 1880383594, 21365355, 106.829, -13.107, -11.8, 1, 0, 0, 0) /* Flames */;
 

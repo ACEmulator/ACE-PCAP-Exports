@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7950, 1882062976, 48235626, 58.2421, -11.7553, -30.063, 0.9238793, 0, 0, -0.3826841) /* Surface Portal */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7482, 1882062943, 48235421, 30, -30, -48, 1, 0, 0, 0) /* Steam Plume */
      , (7482, 1882062948, 48235449, 80, -30, -48, 1, 0, 0, 0) /* Steam Plume */

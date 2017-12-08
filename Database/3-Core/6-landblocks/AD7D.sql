@@ -15,7 +15,7 @@ VALUES (6770, 3706628539, 2910650654, 34.0856, 89.6832, 55.205, 0.47347, 0, 0, -
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4453, 2060963848, 2910650380, 36, 73.558, 52, -4.37114E-08, 0, 0, -1) /* Door */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4980, 2060963845, 2910650380, 29.7878, 90.2518, 52.05, -0.9238797, 0, 0, -0.3826829) /* Refreshing Fountain */;
 
