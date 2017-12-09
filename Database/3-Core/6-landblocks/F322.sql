@@ -12,3 +12,8 @@ VALUES (720, 2133991426, 4079091715, 14.975, 60, 19.6, 0.7071068, 0, 0, -0.70710
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8492, 2133991428, 4079091715, 10.66, 59.6283, 19.605, -0.003679549, 0, 0, -0.9999932) /* Kaza Nijina the Archmage */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3677844777, 4079091728, 43.0746, 180.86, 0, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
+     , (4179, 3676402676, 4079091728, 36.61443, 177.2738, 0, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+

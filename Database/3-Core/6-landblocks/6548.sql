@@ -23,7 +23,11 @@ VALUES (27562, 1985249546, 1699218030, 90, -44.4096, 0, 1, 0, 0, 0) /* Door */
 /* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (14804, 1985249471, 1699217811, 100, -70, -12, 1, 0, 0, -4.37114E-08) /* Acid */
-     , (14804, 1985249470, 1699217810, 100, -60, -12, 1, 0, 0, 0) /* Acid */;
+     , (14804, 1985249470, 1699217810, 100, -60, -12, 1, 0, 0, 0) /* Acid */
+     , (8516, 1985249456, 1699217785, 80, -80, -30, 1, 0, 0, 0) /* The Black Breath */
+     , (8516, 1985249459, 1699217795, 100, -80, -30, 1, 0, 0, 0) /* The Black Breath */
+     , (8516, 1985249457, 1699217788, 90, -70, -30, 1, 0, 0, -4.37114E-08) /* The Black Breath */
+     , (8516, 1985249458, 1699217792, 90, -90, -30, 1, 0, 0, 0) /* The Black Breath */;
 
 /* MiscLevers */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -40,13 +44,6 @@ VALUES (14565, 1985249488, 1699217861, 90, 0, -6.026, 1, 0, 0, 0) /* Lever */
      , (14565, 1985249507, 1699217921, 180, -100, -6.026, 1, 0, 0, 0) /* Lever */
      , (14565, 1985249503, 1699217919, 180, -60, -6.026, 1, 0, 0, 0) /* Lever */
      , (14565, 1985249505, 1699217920, 180, -80, -6.026, 1, 0, 0, 0) /* Lever */;
-
-/* MiscStaticsObjects */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (8516, 1985249456, 1699217785, 80, -80, -30, 1, 0, 0, 0) /* The Black Breath */
-     , (8516, 1985249459, 1699217795, 100, -80, -30, 1, 0, 0, 0) /* The Black Breath */
-     , (8516, 1985249457, 1699217788, 90, -70, -30, 1, 0, 0, -4.37114E-08) /* The Black Breath */
-     , (8516, 1985249458, 1699217792, 90, -90, -30, 1, 0, 0, 0) /* The Black Breath */;
 
 /* ContainersStatics */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

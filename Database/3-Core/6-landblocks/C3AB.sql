@@ -6,6 +6,11 @@ VALUES (1595, 2084220928, 3282763809, 109.221, 12.924, 115.937, 1, 0, 0, 0) /* A
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7934, 3692328637, 3282763834, 168.024, 29.32995, 115.4888, 0.9537169, 0, 0, -0.3007058) /* Golem Sanctum Portal */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3676460780, 3282763787, 47.4387, 49.44434, 115.9532, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
+     , (4179, 3323073125, 3282763787, 36.40502, 57.694, 115.9546, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (31443, 2931672638, 3282763834, 189.0746, 26.55384, 113.5674, 1, 0, 0, 0) /* Dirty Old Crate */

@@ -15,6 +15,12 @@ VALUES (30386, 3690758722, 1121845252, 12.8004, 74.3821, 4.005, -0.957745, 0, 0,
      , (7560, 3690758734, 1121845252, 15.9289, 87.3474, 0.004999995, 0.689785, 0, 0, -0.724014) /* Feruza ibn Salaq */
      , (37444, 3690758748, 1121845251, 12.8107, 69.4846, 4.005, 0.425166, 0, 0, 0.905115) /* Guard Al'Zira */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3696010887, 1121845300, 165.7768, 94.96172, 0, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3630809155, 1121845259, 39.52757, 66.31158, 0, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
+     , (4179, 3629772651, 1121845278, 78.73363, 140.1456, 0, 1, 0, 0, 0) /* Bonfire */;
+
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22567, 3704886421, 1121845278, 88.38573, 134.1927, 0, 1, 0, 0, 0) /* Runed Chest */

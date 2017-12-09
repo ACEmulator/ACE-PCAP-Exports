@@ -2,6 +2,18 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (27587, 1923846144, 716767272, 112.55, 180.457, 19.937, 0.3846879, 0, 0, -0.9230467) /* Crumbling Empyrean Mansion */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2925678042, 716767296, 168.8006, 182.9678, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 2877813880, 716767253, 63.17989, 106.5343, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3355280737, 716767263, 74.40964, 163.9201, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3706458814, 716767248, 47.8167, 174.725, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3674905508, 716767261, 73.07258, 102.8723, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3674905469, 716767248, 42.64836, 178.3235, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3626649722, 716767275, 121.7127, 64.74293, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 2928955823, 716767285, 167.9793, 102.077, 20, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 2928727567, 716767263, 72.76037, 164.6244, 20, 1, 0, 0, 0) /* Bonfire */;
+
 /* CreaturesOtherNPCs */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11524, 2614941502, 716767264, 87.38092, 178.0179, 20.006, 1, 0, 0, 0) /* Hea Windreave */

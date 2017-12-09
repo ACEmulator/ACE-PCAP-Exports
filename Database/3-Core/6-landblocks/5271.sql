@@ -40,7 +40,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (8420, 1965494331, 1383137785, 164.897, -70.2398, -4.81131, -0.719371, 0, 0, 0.694626) /* Button */
      , (8420, 1965494368, 1383137956, 110, -94.4, 7, 0, 0, 0, -1) /* Button */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (14805, 1965494423, 1383137634, 20, -160, -36, 1, 0, 0, 0) /* Ice */;
 

@@ -1,3 +1,7 @@
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3706920674, 532742203, 178.9243, 61.49202, 102.8757, 1, 0, 0, 0) /* Bonfire */;
+
 /* PortalsPortal */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11225, 3353355410, 532742159, 43.7843, 156.5755, 92.18643, 1, 0, 0, 0) /* Shallow Hive Portal */

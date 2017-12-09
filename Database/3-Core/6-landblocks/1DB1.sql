@@ -11,3 +11,7 @@ VALUES (11524, 3708343412, 498139183, 136.419, 161.266, 0.006000042, -0.7977312,
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (39769, 3708983704, 498139184, 142.4, 190.416, 0, 0.228585, 0, 0, 0.973524) /* Exploration Marker */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2884137316, 498139180, 124.4598, 94.52137, -0.45, 1, 0, 0, 0) /* Bonfire */;
+

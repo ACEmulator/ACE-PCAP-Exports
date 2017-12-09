@@ -4,6 +4,11 @@ VALUES (373, 2033799168, 2476015646, 82.5, 137, 106.8537, 0.2923719, 0, 0, -0.95
      , (375, 2033799169, 2476015651, 102.368, 65.4781, 223.937, 0.2756369, 0, 0, -0.9612618) /* Bellig Tower */
      , (435, 2033799170, 2476015641, 76.2, 1.7, 223.937, -0.3173048, 0, 0, -0.9483236) /* North Gemm */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3353464940, 2476015631, 40.54331, 166.6011, 110, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
+     , (4179, 3674951938, 2476015638, 61.01502, 126.1679, 108.4014, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22570, 2879775894, 2476015629, 40.17608, 118.9059, 110, 1, 0, 0, 0) /* Runed Chest */;

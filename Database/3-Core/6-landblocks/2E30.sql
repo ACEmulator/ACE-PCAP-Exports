@@ -12,3 +12,7 @@ VALUES (8999, 2883683075, 774897703, 101.4896, 165.9508, 40.74353, 1, 0, 0, 0) /
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42846, 3631343453, 774897671, 11.94414, 145.7254, 57.23853, 1, 0, 0, 0) /* Portal to Hebian-To */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3701702346, 774897671, 20.46628, 163.15, 58.0751, 1, 0, 0, 0) /* Bonfire */;
+

@@ -18,6 +18,10 @@ VALUES (52281, 3707887628, 808583188, 62.2826, 73.5039, 132.029, 0.9242776, 0, 0
      , (51923, 3707887640, 808583196, 77.3841, 75.9532, 132.01, -0.9896894, 0, 0, -0.1432301) /* Raksaa */
      , (51888, 3707887641, 808583196, 75.1622, 85.4954, 132.029, -0.505124, 0, 0, -0.8630468) /* The Bringer of Light */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3704102205, 808583223, 161.2504, 167.7654, 122.6643, 1, 0, 0, 0) /* Bonfire */;
+
 /* PortalsPortal */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42814, 3695285841, 808583215, 137.129, 164.2143, 112.9086, 1, 0, 0, 0) /* Glenden Wood Portal */;

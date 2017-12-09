@@ -20,6 +20,11 @@ VALUES (22567, 3361211566, 576978962, 51.48142, 25.05302, 120, 1, 0, 0, 0) /* Ru
      , (9286, 2885288226, 576978977, 117.5147, 12.85137, 119.99, -0.4930035, 0, 0, -0.8700273) /* Directive's Cache */
      , (8999, 3617626050, 576978959, 46.20702, 150.3344, 107.3606, 1, 0, 0, 0) /* Steel Chest */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2873952505, 576978969, 78.18919, 23.93598, 120, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
+     , (4179, 2877862732, 576978977, 106.4579, 5.582854, 120, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+
 /* PortalsPortalto */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42846, 2873032852, 576978963, 53.35206, 67.90707, 119.937, 1, 0, 0, 0) /* Portal to Hebian-To */;

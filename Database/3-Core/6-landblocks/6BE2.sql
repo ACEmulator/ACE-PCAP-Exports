@@ -16,3 +16,8 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (412, 1992171521, 1809973308, 172.338, 82.1715, 84.082, 0.7071068, 0, 0, -0.7071068) /* Door */
      , (412, 1992171520, 1809973308, 176.613, 86.2965, 84.082, -4.37114E-08, 0, 0, -1) /* Door */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2629386588, 1809973297, 152.2858, 15.04379, 163.6153, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
+     , (4179, 3333746512, 1809973288, 116.2534, 178.056, 147.5773, 1, 0, 0, 0) /* Bonfire */;
+

@@ -16,5 +16,6 @@ VALUES (7504, 2072948756, 3102408963, 86.7304, 84.4466, 28, -0.9139641, 0, 0, -0
 
 /* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4980, 2072948777, 3102408969, 109.605, 133.742, 14.05, 0.9238797, 0, 0, -0.3826829) /* Refreshing Fountain */;
+VALUES (4980, 2072948777, 3102408969, 109.605, 133.742, 14.05, 0.9238797, 0, 0, -0.3826829) /* Refreshing Fountain */
+     , (4179, 3682778615, 3102408746, 125.0935, 40.87385, 16.15692, 1, 0, 0, 0) /* Bonfire */;
 

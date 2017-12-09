@@ -151,8 +151,6 @@ VALUES (35811, 4, 35535) /* "Doom Hammer" Summoning Gem */
      , (35811, 4, 35542) /* "Commoner's Sword" Summoning Gem */
      , (35811, 4, 41856) /* "Commoner's Two Handed Sword" Summoning Gem */
      , (35811, 4, 35543) /* "Lord's Sword" Summoning Gem */
-     , (35811, 4, 35544) /* "Throwing Daggers of Ice" Summoning Gem */
      , (35811, 4, 35545) /* "Vampire's Kiss" Summoning Gem */
-     , (35811, 4, 35546) /* "Ice Wand" Summoning Gem */
      , (35811, 4, 39513) /* Boxed Mana Forge Key */;
 

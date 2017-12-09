@@ -30,3 +30,7 @@ VALUES (8550, 2134999050, 4095213594, 82.398, 43.23, 159.9, 0.7071068, 0, 0, -0.
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (9002, 2880118656, 4095213581, 36, 108, 160, 1, 0, 0, 0) /* Shard Vigil Memorial */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2780414361, 4095213592, 55.58792, 178.2645, 100, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+

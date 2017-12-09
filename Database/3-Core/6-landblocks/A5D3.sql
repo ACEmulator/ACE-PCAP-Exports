@@ -15,3 +15,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (22571, 3709301708, 2782068746, 24.91787, 46.09931, 357.2026, 1, 0, 0, 0) /* Runed Chest */
      , (22567, 3361542421, 2782068738, 15.25807, 39.82676, 352.4564, 1, 0, 0, 0) /* Runed Chest */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3709584961, 2782068800, 189.8977, 169.7653, 395.7679, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+

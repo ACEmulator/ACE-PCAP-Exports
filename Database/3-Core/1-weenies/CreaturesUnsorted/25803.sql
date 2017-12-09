@@ -83,7 +83,6 @@ VALUES (25803, 8, 20243) /* Scroll of Heart Rend */
      , (25803, 8, 20495) /* Scroll of Bottle Breaker */
      , (25803, 8, 40704) /* Covenant Tassets */
      , (25803, 8, 20230) /* Scroll of Executor's Boon */
-     , (25803, 8, 49527) /* Acid Phyntos Wasp Essence (125) */
      , (25803, 8, 31864) /* Teardrop Crown */
      , (25803, 8, 130) /* Shirt */
      , (25803, 8, 30579) /* Acid Flamberge */

@@ -73,6 +73,10 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (22571, 2928408283, 3122069556, 162.2599, 73.60643, 135.0368, 1, 0, 0, 0) /* Runed Chest */
      , (22571, 2880549357, 3122069563, 186.5313, 56.95527, 145.6995, 1, 0, 0, 0) /* Runed Chest */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2928408210, 3122069562, 171.0567, 46.89605, 150.7906, 1, 0, 0, 0) /* Bonfire */;
+
 /* PortalsHummingCrystal */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (9071, 3710254732, 3122069562, 171.4489, 44.71914, 147.7602, -0.9204186, 0, 0, -0.3909344) /* Humming Crystal Portal */;

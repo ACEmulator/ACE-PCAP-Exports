@@ -7,6 +7,11 @@ VALUES (8999, 3360997125, 808517656, 63.31334, 184.3019, 58.44913, 1, 0, 0, 0) /
      , (8999, 3631541804, 808517652, 67.9494, 80.56145, 35.80281, 1, 0, 0, 0) /* Steel Chest */
      , (8999, 3701792153, 808517656, 52.13297, 182.6208, 52.59567, 1, 0, 0, 0) /* Steel Chest */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3631079080, 808517639, 12.64336, 147.7433, 25.16084, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3631079083, 808517647, 42.89862, 162.3484, 42.12811, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+
 /* PortalsPortalto */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42818, 3631344932, 808517656, 59.32364, 185.4133, 56.85434, 1, 0, 0, 0) /* Portal to Cragstone */;

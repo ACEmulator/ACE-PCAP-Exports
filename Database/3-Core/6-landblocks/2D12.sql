@@ -6,6 +6,10 @@ VALUES (9288, 2884612270, 756154379, 45.73949, 70.89017, 40.64421, -0.1738576, 0
      , (31445, 3630080505, 756154418, 155.8458, 37.54131, 41.74096, 1, 0, 0, 0) /* Dirty Old Crate */
      , (22571, 3631755955, 756154417, 144.451, 9.292279, 47.67693, 1, 0, 0, 0) /* Runed Chest */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2880357443, 756154416, 142.1449, 175.8195, 11.80028, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+
 /* Portals */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1902, 3630080325, 756154424, 157.3594, 181.1819, 12.14877, 1, 0, 0, 0) /* Hilltop */;

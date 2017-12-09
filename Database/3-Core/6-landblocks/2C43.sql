@@ -1,3 +1,7 @@
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3703967708, 742588461, 120.9791, 100.6926, 4.391052, 1, 0, 0, 0) /* Bonfire */;
+
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8999, 3629365213, 742588474, 181.6097, 30.67456, 22.90929, 1, 0, 0, 0) /* Steel Chest */

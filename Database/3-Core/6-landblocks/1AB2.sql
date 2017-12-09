@@ -1,3 +1,10 @@
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3691227935, 447873060, 108.0672, 79.83771, 21.65874, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 3708147029, 447873042, 55.14915, 34.86362, 21.15259, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 2878336459, 447873060, 118.2893, 85.98525, 22, 1, 0, 0, 0) /* Bonfire */
+     , (4179, 2630695998, 447873045, 63.62596, 113.3405, 20, 1, 0, 0, 0) /* Bonfire */;
+
 /* CreaturesOtherNPCs */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11524, 3691227919, 447873068, 133.7927, 84.07178, 22.006, 1, 0, 0, 0) /* Hea Windreave */

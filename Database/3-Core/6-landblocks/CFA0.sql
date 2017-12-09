@@ -15,6 +15,10 @@ VALUES (1351, 2096758791, 3483369736, 47.8053, 68.5322, 1.199999, 1, 0, 0, 0) /*
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1013, 2096758788, 3483369739, 48.153, 48.548, 0.9901696, 1, 0, 0, 0) /* Destroyed Portal to Arwic */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3359614722, 3483369505, 101.8983, 17.44963, 3.508471, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22576, 2876753026, 3483369494, 57.97627, 142.2317, 6.147356, 1, 0, 0, 0) /* Runed Chest */;

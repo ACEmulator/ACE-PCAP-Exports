@@ -15,6 +15,10 @@ VALUES (412, 2049589249, 2728656909, 38.1913, 111.942, 50.082, -4.37114E-08, 0, 
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (913, 2049589248, 2728656949, 145.275, 110.178, 50, 0.699288, 0, 0, 0.71484) /* Glenden Wood */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 3628481726, 2728656921, 93.48262, 5.553133, 93.44379, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
+
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (31443, 2884307244, 2728656897, 22.36682, 19.34652, 72.48072, 1, 0, 0, 0) /* Dirty Old Crate */

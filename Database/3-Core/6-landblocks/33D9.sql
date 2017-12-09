@@ -19,7 +19,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (8377, 1933414403, 869859593, 90.011, 35.425, 52.915, 1, 0, 0, 0) /* Beer Keg */
      , (8377, 1933414404, 869859593, 88.255, 35.589, 52.915, 1, 0, 0, 0) /* Beer Keg */;
 
-/* MiscStaticsObjects */
+/* MiscHotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 1933414436, 869859597, 93.1015, 28.4261, 52.1, -0.6887294, 0, 0, 0.7250185) /* Bonfire */;
 

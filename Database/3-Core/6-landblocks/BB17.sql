@@ -22,3 +22,7 @@ VALUES (12774, 2075226117, 3138846759, 109.18, 156.996, 130.1967, 0.92862, 0, 0,
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (9018, 2931727275, 3138846748, 95.31924, 78.88796, 156.2083, 1, 0, 0, 0) /* Hasina bint Rira */;
 
+/* MiscHotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 2931727226, 3138846756, 96.52545, 77.2412, 157.8075, 1, 0, 0, 0) /* Bonfire */;
+
