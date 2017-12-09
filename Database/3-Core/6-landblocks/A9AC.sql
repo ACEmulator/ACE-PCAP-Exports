@@ -13,7 +13,7 @@ VALUES (412, 2056962050, 2846621705, 40.275, 10.8, 78.082, 0.7071068, 0, 0, 0.70
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22818, 2617920840, 2846621957, 37.0194, 14.6406, 78.005, -0.130067, 0, 0, -0.991505) /* Eldrista the Adventurer */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3332329306, 2846621731, 109.5018, 54.94043, 78, 1, 0, 0, 0) /* Bonfire */
      , (4179, 3332346167, 2846621742, 141.0739, 133.1411, 78, 0.9990482, 0, 0, -0.04361939) /* Bonfire */

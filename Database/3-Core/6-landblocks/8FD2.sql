@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2387, 2029854720, 2412904455, 16.6376, 152.056, 277.487, 0.9707395, 0, 0, 0.2401351) /* Crater Caves Dungeon */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7475, 3691939792, 2412904489, 121.946, 7.226028, 278.4, -0.004127892, 0, 0, -0.9999915) /* Small Side Steam */
      , (7477, 3691705352, 2412904489, 134.8697, 23.47591, 278.05, -0.004127892, 0, 0, -0.9999915) /* Large Side Steam */

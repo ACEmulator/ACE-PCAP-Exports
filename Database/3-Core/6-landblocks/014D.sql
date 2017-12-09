@@ -1,4 +1,4 @@
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4979, 1880412208, 21823884, 68.9512, -50.9663, 0, 1, 0, 0, 0) /* Sewer */
      , (4979, 1880412186, 21823815, 70, -70, -6, 0.707107, 0, 0, -0.707107) /* Sewer */

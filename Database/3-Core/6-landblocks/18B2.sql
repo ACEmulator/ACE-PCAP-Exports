@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11954, 1904943104, 414318618, 81.775, 31.56, 45.16017, 0.5374467, 0, 0, -0.8432977) /* Destroyed Portal to Greenspire */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3691227744, 414318653, 190.8559, 104.6614, 32.65177, 1, 0, 0, 0) /* Bonfire */
      , (4179, 2780517614, 414318625, 105.9886, 12.48089, 45.04007, 1, 0, 0, 0) /* Bonfire */

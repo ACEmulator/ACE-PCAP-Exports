@@ -6,7 +6,7 @@ VALUES (7211, 2075033600, 3135766557, 84, 110, 25.937, 1, 0, 0, 0) /* Northwest 
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (28061, 2075033601, 3135766790, 7.61252, 108.175, -1.863, -0.7386582, 0, 0, -0.6740802) /* Coral Tunnels */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3690675203, 3135766551, 69.76353, 164.1098, 19.07578, 1, 0, 0, 0) /* Bonfire */
      , (4179, 3701208861, 3135766575, 125.3564, 154.6465, 19.77442, 1, 0, 0, 0) /* Bonfire */

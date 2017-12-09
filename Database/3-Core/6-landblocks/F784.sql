@@ -14,7 +14,7 @@ VALUES (22718, 2138587342, 4152623119, 31.1431, 145.591, 42, 0.983398, 0, 0, -0.
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22644, 3691245973, 4152623119, 29.4199, 145.704, 42.005, 1, 0, 0, 0) /* Hawker for Ketnan */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7471, 2138587197, 4152623545, 154.292, 421.056, -11.1, 0.3083079, 0, 0, -0.9512866) /* Large Yellow Side Steam */
      , (7472, 2138587196, 4152623544, 154.222, 428.052, -11.64, 0.9973386, 0, 0, -0.07290897) /* Geyser */

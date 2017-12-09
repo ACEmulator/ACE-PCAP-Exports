@@ -33,7 +33,7 @@ VALUES (24221, 1945309202, 1060175896, 67.2259, 182.241, 1.18675, 0.178722, 0, 0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (19203, 1945309195, 1060175888, 42.1727, 182.226, 6.82, -0.9992233, 0, 0, 0.03940501) /* Nullified Statue of a Shadow */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3707166765, 1060175878, 6.761583, 140.9123, -0.45, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
      , (4179, 2923356948, 1060175884, 41.07416, 91.29173, -0.09999999, 0.9990482, 0, 0, -0.04361939) /* Bonfire */

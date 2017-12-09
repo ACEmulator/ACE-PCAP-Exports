@@ -3,7 +3,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (9288, 3700485933, 357695502, 36.8125, 125.2154, 13.01372, 0.2556833, 0, 0, -0.9667606) /* Singularity Trove */
      , (9288, 3361116703, 357695535, 133.7978, 164.6777, 10.03239, -0.7400451, 0, 0, -0.6725572) /* Singularity Trove */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3682992987, 357695523, 102.4523, 60.35669, 0, 1, 0, 0, 0) /* Bonfire */;
 

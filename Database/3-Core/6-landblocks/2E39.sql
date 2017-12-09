@@ -9,7 +9,7 @@ VALUES (8999, 3629366692, 775487497, 42.89921, 7.808804, 110.6507, 1, 0, 0, 0) /
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12294, 1927516161, 775487517, 86.7921, 99.6572, 117.3139, -0.9801333, 0, 0, -0.1983401) /* Singular Obsidian Repository */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2885242741, 775487543, 164.8566, 145.6317, 121.409, 1, 0, 0, 0) /* Bonfire */;
 

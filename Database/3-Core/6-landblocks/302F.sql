@@ -21,7 +21,7 @@ VALUES (22566, 3360888480, 808386578, 61.72604, 28.41035, 4, 1, 0, 0, 0) /* Rune
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (37047, 3361979798, 808386611, 156, 60, 125.5125, 1, 0, 0, 0) /* Emissary's Return Portal */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2876625224, 808386577, 53.51394, 15.82684, 4, 1, 0, 0, 0) /* Bonfire */;
 

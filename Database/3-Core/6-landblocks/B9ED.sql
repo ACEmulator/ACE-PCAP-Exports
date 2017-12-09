@@ -1,4 +1,4 @@
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7800, 3690359340, 3119317034, 124.339, 41.74158, 22.72403, -0.999679, 0, 0, 0.0253348) /* Geyser */
      , (7473, 3690359206, 3119317044, 151.7327, 87.58933, 39.09378, -0.999679, 0, 0, 0.0253348) /* 11-sec Firespurt */

@@ -27,7 +27,7 @@ VALUES (720, 2107879425, 3661299985, 112.925, 80.95, 10.5, -1, 0, 0, 0) /* Slidi
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8377, 2107879453, 3661300019, 67.7712, 52.8491, 26.47, -0.3734131, 0, 0, 0.9276652) /* Beer Keg */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5148, 2107879450, 3661300023, 51.9837, 59.6754, 25.5, 0.70945, 0, 0, 0.704756) /* Flames */;
 

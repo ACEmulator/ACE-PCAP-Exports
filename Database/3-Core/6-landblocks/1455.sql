@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5526, 1900367876, 341115136, 181.082, 14.6518, 64.737, -0.7789277, 0, 0, 0.6271138) /* Mount Lethe Magma Tubes Portal */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7470, 3682992463, 341114937, 185.3087, 18.65096, 70.5, -0.773375, 0, 0, -0.633949) /* Yellow Side Steam */
      , (7473, 3682992465, 341114938, 175.6838, 42.83096, 70, -0.773375, 0, 0, -0.633949) /* 11-sec Firespurt */

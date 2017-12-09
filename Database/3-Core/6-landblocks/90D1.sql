@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5393, 2030899200, 2429616162, 112.186, 30.7524, 277.9, -0.0163486, 0, 0, -0.999866) /* Festival Stone */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7477, 3691362625, 2429616139, 45.88936, 71.28786, 277.6, 0.9413882, 0, 0, -0.3373251) /* Large Side Steam */
      , (7482, 3691939551, 2429616131, 8.765994, 59.31927, 278, 0.2130899, 0, 0, -0.9770326) /* Steam Plume */

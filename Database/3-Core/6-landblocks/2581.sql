@@ -88,7 +88,7 @@ VALUES (43065, 1918373963, 629211180, 138.929, 72.6891, 220.198, -0.7243258, 0, 
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (19198, 1918373936, 629211164, 84.0636, 83.7832, 226.797, 0.7492417, 0, 0, -0.6622967) /* Nullified Statue of a Grievver */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3710366401, 629211184, 124.3617, 171.2756, 221.0919, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
      , (4179, 2883756753, 629211182, 139.6172, 141.2581, 220, 0.9990482, 0, 0, -0.04361939) /* Bonfire */

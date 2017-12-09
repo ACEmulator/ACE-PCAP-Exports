@@ -9,7 +9,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (13227, 2048536576, 2711814196, 165.793, 75.1871, 89.55549, -0.06882413, 0, 0, -0.9976288) /* Jacque the Woodsman */
      , (44076, 2048536584, 2711814422, 120.735, 157.753, 36.805, 0.6723912, 0, 0, -0.7401959) /* Laurana */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4980, 2048536580, 2711814409, 136.537, 155.916, 36.85, 0.9654236, 0, 0, -0.2606859) /* Refreshing Fountain */
      , (4179, 3697866323, 2711814148, 10.53594, 73.00419, 115.359, 0.9990482, 0, 0, -0.04361939) /* Bonfire */

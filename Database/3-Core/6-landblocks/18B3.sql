@@ -3,7 +3,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (10853, 1904947201, 414384176, 138.595, 175.993, 19.937, -0.9785714, 0, 0, 0.2059081) /* Abandoned Tumerok Site */
      , (11323, 1904947200, 414384149, 63.7526, 101.435, 21.937, 0.9667233, 0, 0, -0.2558241) /* Tumerok Cave */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3698402083, 414384184, 151.6401, 171.1984, 20, 1, 0, 0, 0) /* Bonfire */
      , (4179, 2931657031, 414384129, 10.11455, 4.009671, 30.48884, 1, 0, 0, 0) /* Bonfire */

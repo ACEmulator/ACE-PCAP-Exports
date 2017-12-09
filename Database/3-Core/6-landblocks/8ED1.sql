@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (9287, 3691940457, 2396061739, 135.584, 52.6721, 277.09, 0.9965695, 0, 0, -0.08276005) /* Master's Holding */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7475, 3707785695, 2396061748, 154.8916, 81.67445, 277.6, -0.4049581, 0, 0, -0.9143353) /* Small Side Steam */
      , (7477, 3707785693, 2396061739, 141.7178, 60.00398, 277.6, -0.4049581, 0, 0, -0.9143353) /* Large Side Steam */

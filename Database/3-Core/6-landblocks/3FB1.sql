@@ -9,7 +9,7 @@ VALUES (41233, 1945833518, 1068564825, 234, -77, -39.663, 0.3826829, 0, 0, -0.92
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (41232, 1945833496, 1068564748, 376, -314.25, -51.6, 0, 0, 0, -1) /* Arrival Chamber */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1945833494, 1068564740, 376, -309, -69.6, 1, 0, 0, 0) /* Acid */;
 

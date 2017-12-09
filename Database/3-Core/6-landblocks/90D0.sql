@@ -30,7 +30,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (8388, 3691358097, 2429550637, 140.1233, 117.0475, 314.5391, 0.9537169, 0, 0, -0.3007058) /* Direlands Northwest Shore Portal */
      , (8386, 3335190692, 2429550638, 139.0378, 139.3256, 301.062, 0.9537169, 0, 0, -0.3007058) /* Direlands Valleys Portal */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2925256544, 2429550645, 144.8064, 119.2995, 314.5391, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
      , (4179, 3332235971, 2429550654, 170.9388, 128.8484, 318.0302, 1, 0, 0, 0) /* Bonfire */;

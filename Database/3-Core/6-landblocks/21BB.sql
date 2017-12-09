@@ -1,4 +1,4 @@
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3695112437, 565903374, 25.213, 141.6028, 96.39954, 1, 0, 0, 0) /* Bonfire */
      , (4179, 3352715962, 565903374, 46.57141, 143.7223, 96.04628, 1, 0, 0, 0) /* Bonfire */

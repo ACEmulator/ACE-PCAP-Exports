@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42818, 1880231942, 18940198, 30, -63.132, 5.937, 0, 0, 0, -1) /* Portal to Cragstone */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4980, 1880231938, 18940164, 10, -30, 0.05, -0.7071068, 0, 0, -0.7071068) /* Refreshing Fountain */
      , (4979, 1880231940, 18940182, 62.1713, -29.7508, 0, 0.707107, 0, 0, -0.707107) /* Sewer */;

@@ -42,7 +42,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (1107, 1880182822, 18153855, 70, -70, 5.937, -0.7071068, 0, 0, -0.7071068) /* South Direlands Portal */
      , (1104, 1880182819, 18153818, 50, -70, 5.937, 0.7071068, 0, 0, -0.7071068) /* North Direlands Portal */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4979, 1880182814, 18153801, 122.171, -19.7508, 0, 0.707107, 0, 0, -0.707107) /* Sewer */
      , (4979, 1880182784, 18153728, -2.1713, -20.2492, 0, 0.707107, 0, 0, 0.707107) /* Sewer */;

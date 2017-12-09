@@ -15,7 +15,7 @@ VALUES (51986, 3707386561, 1498677569, 30.0004, -101.712, -41.9652, -4.371139E-0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (52009, 1972715546, 1498677564, 30.0134, -45.1291, -42, 1, 0, 0, 0) /* Surface */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (30764, 1972715527, 1498677523, 30, -40, -48, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (30764, 1972715522, 1498677508, 20, -40, -48, 1, 0, 0, 0) /* "Mag-Ma!" */

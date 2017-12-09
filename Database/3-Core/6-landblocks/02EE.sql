@@ -21,7 +21,7 @@ VALUES (5625, 1882120286, 49152526, 50, -65.2521, -47.987, 0, 0, 0, -1) /* Door 
      , (5627, 1882120264, 49152460, 144.035, -50, -48, 0.697215, 0, 0, -0.716862) /* Door */
      , (5627, 1882120242, 49152389, 20.0065, -85.9837, -48, 1, 0, 0, 0) /* Door */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7786, 1882120198, 49152271, 160, -150, -65.9, -0.507253, 0, 0, -0.861797) /* Volcanic Vent */;
 

@@ -65,7 +65,7 @@ VALUES (24585, 1924210725, 722599985, 145.477, 16.043, 48, 0.707107, 0, 0, -0.70
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (24877, 1924210737, 722599955, 68.6345, 63.9572, 48, -0.707107, 0, 0, -0.707107) /* Town Mason and Storage */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3692078237, 722599959, 61.48714, 165.4083, 37.19234, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
      , (4179, 3695105200, 722599959, 61.76646, 144.4424, 15.29515, 0.9990482, 0, 0, -0.04361939) /* Bonfire */

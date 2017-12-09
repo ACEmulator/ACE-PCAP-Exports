@@ -11,7 +11,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (40500, 1921261568, 675414274, 112, -600, -6, 0.707107, 0, 0, -0.707107) /* Barracks Door */
      , (40501, 1921261597, 675414423, 30, -305.5, 6, -4.37114E-08, 0, 0, -1) /* Headquarters Door */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1921261627, 675414272, 30, -300, -12, 1, 0, 0, 0) /* Acid */;
 

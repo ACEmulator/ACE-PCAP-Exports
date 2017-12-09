@@ -15,7 +15,7 @@ VALUES (43844, 3695147417, 756089088, 89.2763, 177.506, 49.655, -0.942498, 0, 0,
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7402, 3695140288, 756088864, 82.6887, 171.336, 56.00825, -0.9927421, 0, 0, -0.120263) /* Garaena the Emissary */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2885344890, 756088894, 187.3356, 123.6793, 55.75374, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
 

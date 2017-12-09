@@ -28,7 +28,7 @@ VALUES (1290, 1880330416, 20513551, 60, -45.5, -18, 0, 0, 0, -1) /* Door */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6042, 1880330309, 20513302, 80, -20, -42, -4.37114E-08, 0, 0, -1) /* Lady Jaera's Tomb */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4979, 1880330255, 20513085, 80, -60, -54, 1, 0, 0, 0) /* Sewer */;
 

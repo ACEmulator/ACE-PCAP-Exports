@@ -20,7 +20,7 @@ VALUES (22257, 3676483229, 3064135727, 121.937, 144.194, 1.55, 0.766635, 0, 0, -
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (23340, 2070556701, 3064135703, 56.9312, 148.395, 2, 0.898349, 0, 0, 0.439282) /* Fishing Sign */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2879862528, 3064135722, 130.0431, 47.88062, 2, 1, 0, 0, 0) /* Bonfire */;
 

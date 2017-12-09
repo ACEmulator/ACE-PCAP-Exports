@@ -1,4 +1,4 @@
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (36183, 3701348079, 12321031, 30.51114, -15.73267, -36, -0.8010792, 0, 0, 0.5985583) /* Galvanic Pool */
      , (36180, 3701633899, 12321031, 33.86171, -15.96222, -36, -0.8010792, 0, 0, 0.5985583) /* Magma Pool */

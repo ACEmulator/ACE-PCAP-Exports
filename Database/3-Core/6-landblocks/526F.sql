@@ -49,7 +49,7 @@ VALUES (269, 1965486142, 1383006711, 140, -51.775, -4.5, 1, 0, 0, -4.37114E-08) 
      , (269, 1965486204, 1383006988, 31.7667, -80, 37.5, -0.707107, 0, 0, -0.707107) /* Button */
      , (269, 1965486229, 1383007038, 110, -95.6, 43.5, 1, 0, 0, 0) /* Button */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5489, 1965486112, 1383006562, 20, -160, -36, 1, 0, 0, 0) /* "Mag-Ma!" */;
 

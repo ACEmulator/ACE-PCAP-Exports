@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (27587, 1923846144, 716767272, 112.55, 180.457, 19.937, 0.3846879, 0, 0, -0.9230467) /* Crumbling Empyrean Mansion */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2925678042, 716767296, 168.8006, 182.9678, 20, 1, 0, 0, 0) /* Bonfire */
      , (4179, 2877813880, 716767253, 63.17989, 106.5343, 20, 1, 0, 0, 0) /* Bonfire */

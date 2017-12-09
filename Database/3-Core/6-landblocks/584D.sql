@@ -10,7 +10,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (46303, 3708402061, 1481442126, 139.996, -24.7526, 5.909727, 1, 0, 0, -4.37114E-08) /* Wall of Ice */
      , (46303, 3708402333, 1481441842, 150.001, -85.2332, -6.081753, 0.006072997, 0, 0, 0.9999816) /* Wall of Ice */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (14805, 1971638492, 1481441572, 150, -90, -24, 1, 0, 0, 0) /* Ice */
      , (14805, 1971638488, 1481441567, 140, -80, -24, 1, 0, 0, 0) /* Ice */

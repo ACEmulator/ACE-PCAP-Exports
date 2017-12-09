@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (43567, 3706877549, 414449922, 11.9822, 21.0815, 16.337, 1, 0, 0, 0) /* Olthoi Tunnel */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3701517016, 414449705, 136.8273, 5.031313, 20.59772, 1, 0, 0, 0) /* Bonfire */
      , (4179, 2928761920, 414449705, 139.7182, 0.9379159, 21.40499, 1, 0, 0, 0) /* Bonfire */

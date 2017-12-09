@@ -28,7 +28,7 @@ VALUES (15677, 2031951892, 2446458882, 12.259, 26.1203, 305.2216, -0.04368481, 0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12774, 2031951877, 2446458899, 55.9273, 64.6714, 335.4028, 0.756956, 0, 0, -0.653466) /* Settlement Portals */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3707397357, 2446458890, 32.16055, 39.20353, 320.3489, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
 

@@ -15,7 +15,7 @@ VALUES (38826, 2780544310, 616562707, 58.8883, 71.1511, 144.2091, -0.7482377, 0,
      , (38826, 2780544153, 616562723, 115.35, 68.0564, 133.98, 0.4967569, 0, 0, 0.8678898) /* Eyestalk of T'thuun */
      , (38826, 3626606267, 616562725, 100.414, 100.213, 108.1743, -0.8002121, 0, 0, 0.5997171) /* Eyestalk of T'thuun */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3626606896, 616562701, 44.53316, 99.2235, 139.483, 1, 0, 0, 0) /* Bonfire */;
 

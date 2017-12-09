@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2314, 1917325313, 612434178, 85.0908, 132.949, 219.205, 0.1492437, 0, 0, -0.9888005) /* Zisaha bint Jaidka the Mage */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3692286428, 612433979, 176.4907, 66.13108, 220, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
      , (4179, 2779929891, 612433975, 163.2213, 151.3726, 220, 0.9990482, 0, 0, -0.04361939) /* Bonfire */

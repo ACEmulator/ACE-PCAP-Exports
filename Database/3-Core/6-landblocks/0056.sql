@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (28710, 1879400457, 5636387, 139.825, -223.641, -36.063, 0, 0, 0, -1) /* Surface */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (31424, 1879400713, 5636357, 149.833, -71.9348, -42, 1, 0, 0, 0) /* 11-sec Firespurt */
      , (31424, 1879400712, 5636357, 151.503, -71.2862, -42, 1, 0, 0, 0) /* 11-sec Firespurt */

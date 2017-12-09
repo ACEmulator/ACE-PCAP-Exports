@@ -11,7 +11,7 @@ VALUES (22571, 3351646952, 1160642605, 137.7114, 118.7275, 7.369905, 1, 0, 0, 0)
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (41959, 3630805990, 1160642617, 182.249, 16.2826, 68.57669, 1, 0, 0, 0) /* Guardian Statue */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3697590140, 1160642613, 159.9149, 97.19947, 6.545, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
 

@@ -6,7 +6,7 @@ VALUES (10857, 1913352192, 548864008, 20.3366, 177.344, 89.937, 0.8858325, 0, 0,
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11223, 2929953489, 548864016, 26.7783, 170.2137, 89.937, 1, 0, 0, 0) /* Simple Hive Portal */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2925159587, 548864015, 36.82812, 166.869, 90, 1, 0, 0, 0) /* Bonfire */
      , (4179, 3353581042, 548864016, 36.2975, 174.926, 90, 1, 0, 0, 0) /* Bonfire */

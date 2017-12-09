@@ -10,7 +10,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (278, 1879875622, 13238779, 60, -195.245, -3.72529E-09, 1, 0, 0, 0) /* Door */
      , (278, 1879875606, 13238688, 20, -195.245, -3.72529E-09, 1, 0, 0, 0) /* Door */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (35114, 1879875590, 13238565, 30, -100, -60, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (35114, 1879875600, 13238575, 50, -90, -60, 1, 0, 0, 0) /* "Mag-Ma!" */

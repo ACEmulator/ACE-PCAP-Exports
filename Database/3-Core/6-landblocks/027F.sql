@@ -39,7 +39,7 @@ VALUES (1295, 1881665658, 41878066, 30, -35.271, 12, 0, 0, 0, -1) /* Door */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2609, 1881665642, 41877993, 33.3253, -36.6849, -6, 0.715997, 0, 0, -0.698103) /* Lever */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1881665570, 41877852, 130, -50, -24, -0.707107, 0, 0, -0.707107) /* Acid */
      , (6122, 1881665569, 41877851, 130, -40, -24, 1, 0, 0, 0) /* Acid */

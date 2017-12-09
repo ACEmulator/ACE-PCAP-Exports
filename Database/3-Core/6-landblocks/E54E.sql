@@ -50,7 +50,7 @@ VALUES (509, 2119491593, 3847094301, 83.9762, 108.323, 12, 0.03399939, 0, 0, -0.
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1015, 2119491592, 3847094274, 23.8, 35.2, 23.00367, 0.05233598, 0, 0, -0.9986295) /* Cragstone Portal */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3708680437, 3847094289, 53.34074, 8.848868, 22.44506, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
      , (4179, 2929570453, 3847094282, 36.86928, 27.64489, 22.62382, 0.9659258, 0, 0, -0.258819) /* Bonfire */;

@@ -10,7 +10,7 @@ VALUES (720, 2124611584, 3929014322, 156, 28.45, 110, 1, 0, 0, 0) /* Sliding Doo
      , (720, 2124611587, 3929014322, 163.55, 36, 113, 0.7071068, 0, 0, -0.7071068) /* Sliding Door */
      , (720, 2124611588, 3929014322, 148.45, 36, 113, 0.7071068, 0, 0, 0.7071068) /* Sliding Door */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3709146900, 3929014332, 174.0036, 92.97827, 128.9783, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
 

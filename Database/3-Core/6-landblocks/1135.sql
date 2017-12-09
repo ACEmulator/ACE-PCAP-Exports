@@ -10,7 +10,7 @@ VALUES (8155, 3691069288, 288686336, 9.8968, 83.6549, 71.729, 0.5477281, 0, 0, -
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6866, 1897091073, 288686084, 18.8, 80.65, 73.305, -0.9537169, 0, 0, -0.300706) /* A Human Archmage */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 3692217169, 288686119, 102.6056, 144.7495, 10.09879, 1, 0, 0, 0) /* Bonfire */
      , (4179, 2447547714, 288686111, 93.34879, 159.3536, 9.988233, 1, 0, 0, 0) /* Bonfire */

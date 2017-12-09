@@ -7,7 +7,7 @@ VALUES (22566, 2930962503, 428933153, 99.7246, 7.73783, 51.30708, 1, 0, 0, 0) /*
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42812, 2930216475, 428933145, 87.94482, 17.15236, 46.40701, 1, 0, 0, 0) /* Plateau Portal */;
 
-/* MiscHotSpots */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4179, 2931449723, 428933130, 32.19946, 30.26303, 38.57178, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
 
