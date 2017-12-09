@@ -1,4 +1,4 @@
-/* Weenie - MiscHotSpots - Pool of Glacial Water (31300) */
+/* Weenie - MiscStaticsObjects - Pool of Glacial Water (31300) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 31300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -22,7 +22,7 @@ VALUES (31300, 53, 101) /* PLACEMENT_POSITION_INT */
      , (31300, 5, 5000) /* ENCUMB_VAL_INT */
      , (31300, 16, 1) /* ITEM_USEABLE_INT */
      , (31300, 93, 66580) /* PHYSICS_STATE_INT */
-     , (31300, 9007, 13) /* HotSpot_WeenieType */;
+     , (31300, 9007, 1) /* Generic_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31300, 13, True) /* ETHEREAL_BOOL */
