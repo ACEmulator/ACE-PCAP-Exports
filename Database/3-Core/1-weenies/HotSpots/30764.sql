@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - "Mag-Ma!" (30764) */
+/* Weenie - HotSpots - "Mag-Ma!" (30764) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 30764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (30764, 1, 128) /* ITEM_TYPE_INT */
      , (30764, 16, 1) /* ITEM_USEABLE_INT */
      , (30764, 19, 1) /* VALUE_INT */
      , (30764, 93, 12) /* PHYSICS_STATE_INT */
-     , (30764, 9007, 1) /* Generic_WeenieType */;
+     , (30764, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30764, 13, True) /* ETHEREAL_BOOL */

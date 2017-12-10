@@ -1,4 +1,4 @@
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5489, 1881100460, 32834036, 50, -160, -6, 0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1881100459, 32834034, 40, -160, -6, -0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
@@ -39,10 +39,7 @@ VALUES (5489, 1881100460, 32834036, 50, -160, -6, 0.707107, 0, 0, -0.707107) /* 
      , (5489, 1881100461, 32834037, 60, -90, -6, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (5489, 1881100454, 32834029, 40, -90, -6, 0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1881100467, 32834043, 70, -90, -6, 0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
-     , (5489, 1881100449, 32834024, 30, -90, -6, 1, 0, 0, 0) /* "Mag-Ma!" */
-     , (7506, 1881100350, 32833874, 98.8925, -32.303, -29.998, 0.155825, 0, 0, 0.9877847) /* Statue */
-     , (7505, 1881100351, 32833874, 103.998, -26.5832, -30, -0.997254, 0, 0, -0.07405) /* Statue */
-     , (7504, 1881100352, 32833874, 104.02, -33.8563, -30, 0.5029738, 0, 0, -0.8643017) /* Statue */;
+     , (5489, 1881100449, 32834024, 30, -90, -6, 1, 0, 0, 0) /* "Mag-Ma!" */;
 
 /* Doors */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -112,6 +109,12 @@ VALUES (153, 1881100501, 32834092, 60, -110, -0.00749898, 1, 0, 0, 0) /* Fountai
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (40932, 3690343293, 32834188, 77.78695, -122.5468, 6.0065, 0.9238795, 0, 0, -0.3826835) /* Ghost of Dylaeral */
      , (28060, 3690343292, 32834188, 82.696, -117.687, 6.0065, -0.4373195, 0, 0, -0.8993062) /* Ghost of Galaeral */;
+
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (7506, 1881100350, 32833874, 98.8925, -32.303, -29.998, 0.155825, 0, 0, 0.9877847) /* Statue */
+     , (7505, 1881100351, 32833874, 103.998, -26.5832, -30, -0.997254, 0, 0, -0.07405) /* Statue */
+     , (7504, 1881100352, 32833874, 104.02, -33.8563, -30, 0.5029738, 0, 0, -0.8643017) /* Statue */;
 
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
