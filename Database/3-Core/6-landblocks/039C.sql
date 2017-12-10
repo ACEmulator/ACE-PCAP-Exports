@@ -15,7 +15,7 @@ VALUES (509, 1882832920, 60555673, 89.9443, -101.554, -6, -0.7826788, 0, 0, -0.6
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12686, 3357935586, 60555663, 81.1815, -71.0769, -5.995, -0.676243, 0, 0, 0.736679) /* Arcanum Envoy */;
 
-/* HotSpots */
+/* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4980, 1882832926, 60555701, 132.168, -87.7702, -5.95, 0.6429871, 0, 0, -0.7658771) /* Refreshing Fountain */;
 

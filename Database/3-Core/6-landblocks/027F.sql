@@ -39,7 +39,7 @@ VALUES (1295, 1881665658, 41878066, 30, -35.271, 12, 0, 0, 0, -1) /* Door */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2609, 1881665642, 41877993, 33.3253, -36.6849, -6, 0.715997, 0, 0, -0.698103) /* Lever */;
 
-/* HotSpots */
+/* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1881665570, 41877852, 130, -50, -24, -0.707107, 0, 0, -0.707107) /* Acid */
      , (6122, 1881665569, 41877851, 130, -40, -24, 1, 0, 0, 0) /* Acid */
@@ -50,13 +50,10 @@ VALUES (6122, 1881665570, 41877852, 130, -50, -24, -0.707107, 0, 0, -0.707107) /
      , (6122, 1881665575, 41877857, 140, -50, -24, -4.37114E-08, 0, 0, -1) /* Acid */
      , (6122, 1881665567, 41877849, 130, -20, -24, 1, 0, 0, 0) /* Acid */
      , (6122, 1881665571, 41877853, 140, -10, -24, 0.707107, 0, 0, -0.707107) /* Acid */
-     , (6122, 1881665566, 41877848, 130, -10, -24, 1, 0, 0, 0) /* Acid */;
+     , (6122, 1881665566, 41877848, 130, -10, -24, 1, 0, 0, 0) /* Acid */
+     , (11735, 1881665549, 41877784, 66.6201, -36.9668, -60, 1, 0, 0, 0) /* Ossuary */;
 
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11014, 1881665650, 41878009, 57.0164, -53.3832, -6, 0.05279681, 0, 0, 0.9986053) /* Rusty Chest */;
-
-/* MiscStaticsObjects */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (11735, 1881665549, 41877784, 66.6201, -36.9668, -60, 1, 0, 0, 0) /* Ossuary */;
 

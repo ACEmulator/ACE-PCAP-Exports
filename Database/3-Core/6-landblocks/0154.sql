@@ -16,7 +16,7 @@ VALUES (278, 1880440847, 22282608, 24.755, -10, -6, 0.707107, 0, 0, -0.707107) /
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (153, 1880440867, 22282699, 30, -50, -0.00749898, 0.7071068, 0, 0, -0.7071068) /* Fountain */;
 
-/* HotSpots */
+/* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5148, 1880440861, 22282674, 5.578, -55.59, 1.8, 1, 0, 0, 0) /* Flames */
      , (5148, 1880440866, 22282693, 24.471, -74.456, 1.8, -4.37114E-08, 0, 0, -1) /* Flames */;

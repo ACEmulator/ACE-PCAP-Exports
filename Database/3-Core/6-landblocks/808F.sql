@@ -10,10 +10,6 @@ VALUES (25483, 3692406709, 2156855328, 76.254, 178.378, 124.005, -0.984363, 0, 0
      , (34010, 3692406704, 2156855310, 38, 138, 124.005, 1, 0, 0, 0) /* Maqudh al Nishadina */
      , (38390, 3692406696, 2156855316, 59.9902, 82.7519, 124.005, 0.9847289, 0, 0, 0.174095) /* Ayesha of the Radiant Blood */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2871357314, 2156855299, 5.329498, 49.87579, 109.2009, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-
 /* CreaturesOtherNPCs */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22641, 2780883684, 2156855298, 5.175, 34.36398, 107.7142, 0.7071068, 0, 0, -0.7071068) /* Tusker Shrine Statue */;

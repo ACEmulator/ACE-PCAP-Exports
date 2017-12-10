@@ -87,7 +87,3 @@ VALUES (721, 1924206608, 722534415, 45.05, 157, 48, -0.7071068, 0, 0, 0.7071068)
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (34726, 3688978156, 722534422, 48.9044, 136.333, 48, 0.411724, 0, 0, 0.911309) /* Garbage Barrel */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2447717391, 722534435, 118.9154, 64.44553, 22.5783, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-

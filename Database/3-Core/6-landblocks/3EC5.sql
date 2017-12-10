@@ -8,10 +8,6 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (412, 1944866817, 1053097987, 16.275, 58.8, 8.082001, 0.7071068, 0, 0, 0.7071068) /* Door */
      , (412, 1944866816, 1053097987, 12, 54.675, 8.082001, 1, 0, 0, 0) /* Door */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 3361014343, 1053097988, 19.4795, 81.93948, 8.451582, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-
 /* Lifestones */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (509, 1944866818, 1053097995, 31.7472, 66.0093, 8, 0.3547169, 0, 0, -0.9349738) /* Life Stone */;

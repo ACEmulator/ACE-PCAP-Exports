@@ -2,10 +2,6 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22571, 2630550021, 2599157793, 112.4336, 17.26691, 18, 1, 0, 0, 0) /* Runed Chest */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2447810491, 2599157761, 10.66599, 16.6948, 20, 1, 0, 0, 0) /* Bonfire */;
-
 /* PortalsPortal */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8390, 3694735044, 2599157793, 114.6683, 22.05214, 17.937, 0.9537169, 0, 0, -0.3007058) /* Direlands South Landbridge Portal */;

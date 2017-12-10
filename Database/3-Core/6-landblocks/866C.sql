@@ -51,7 +51,3 @@ VALUES (1910, 2019999753, 2255224841, 27.4715, 14.4277, 9.710708, 1, 0, 0, 0) /*
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5774, 3692269899, 2255224841, 29.1151, 13.64595, 9.578741, 1, 0, 0, 0) /* Town Crier */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2874808316, 2255224873, 138.2426, 4.720417, 10.95957, 1, 0, 0, 0) /* Bonfire */;
-

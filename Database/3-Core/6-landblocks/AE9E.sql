@@ -12,12 +12,6 @@ VALUES (2199, 2062147610, 2929590318, 128.727, 126.863, 90.082, -4.37114E-08, 0,
      , (2199, 2062147611, 2929590318, 135.06, 136.367, 90.082, 1, 0, 0, 0) /* Witshire's Cottage Door */
      , (14432, 2062147606, 2929590326, 149.25, 131.993, 90, 0.707107, 0, 0, -0.707107) /* Fort Witshire Door */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2448248114, 2929590286, 46.3107, 133.0829, 73.85922, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 3361412855, 2929590333, 188.6551, 101.6696, 89.5733, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 3361705439, 2929590325, 160.1095, 99.72901, 90, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22570, 3361558138, 2929590303, 89.05547, 163.8309, 86.64388, 1, 0, 0, 0) /* Runed Chest */

@@ -10,10 +10,6 @@ VALUES (433, 2035904512, 2509701143, 51.8, 154.1, 223.937, -0.7372773, 0, 0, -0.
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (31443, 3697014798, 2509701142, 70.13697, 122.0837, 223.9978, 1, 0, 0, 0) /* Dirty Old Crate */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2874278304, 2509701150, 81.30473, 120.0095, 224, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-
 /* LandscapeStatics */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6441, 2035904515, 2509701149, 76.3578, 103.391, 224, 0.9983184, 0, 0, 0.05796952) /* Well */;

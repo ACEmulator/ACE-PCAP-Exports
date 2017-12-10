@@ -9,10 +9,6 @@ VALUES (1918, 1972477967, 1494876418, 102.526, 62.6836, -6.345, 0.7378059, 0, 0,
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (568, 1972477960, 1494876200, 108, 173.5, 9.313226E-10, 1, 0, 0, 0) /* Door */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2880311698, 1494876206, 142.0057, 123.2348, 40.19008, 1, 0, 0, 0) /* Bonfire */;
-
 /* Vendors */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (9020, 2880276286, 1494876206, 140.7658, 122.5546, 40.19008, 1, 0, 0, 0) /* Zairente Ra-Yao */;

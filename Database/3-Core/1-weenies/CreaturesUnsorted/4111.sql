@@ -152,6 +152,7 @@ VALUES (4111, 8, 68) /* Studded Leather Greaves */
      , (4111, 8, 2430) /* Gem */
      , (4111, 8, 105) /* Studded Leather Sleeves */
      , (4111, 8, 413) /* Chainmail Bracers */
+     , (4111, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
      , (4111, 8, 168) /* Tankard */
      , (4111, 8, 379) /* Mana Potion */
      , (4111, 8, 41484) /* Goggles */

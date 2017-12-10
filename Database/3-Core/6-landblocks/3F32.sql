@@ -60,8 +60,3 @@ VALUES (24263, 3707766132, 1060241705, 16.2054, 11.7931, 7.8, -0.735565, 0, 0, 0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2385, 1945313292, 1060241463, 147.354, 166.059, 34.23075, 0.6693738, 0, 0, 0.7429258) /* Disaster Maze */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2448444270, 1060241459, 144.4956, 58.30905, 200, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 3329926990, 1060241417, 45.79667, 14.91433, 1.505, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-

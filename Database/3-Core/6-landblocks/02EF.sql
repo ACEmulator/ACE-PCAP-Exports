@@ -8,7 +8,7 @@ VALUES (7342, 1882124355, 49218161, 210, -160, -6.063, 1, 0, 0, 0) /* Surface Po
      , (7342, 1882124365, 49218227, 80, -40, -0.06299996, 0.6967069, 0, 0, 0.7173559) /* Surface Portal */
      , (7342, 1882124362, 49218183, 0.161353, -79.1915, -0.06299996, -0.00420373, 0, 0, 0.9999912) /* Surface Portal */;
 
-/* HotSpots */
+/* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5489, 1882124331, 49218017, 190, -140, -12, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (5489, 1882124320, 49218000, 180, -140, -12, 1, 0, 0, 0) /* "Mag-Ma!" */

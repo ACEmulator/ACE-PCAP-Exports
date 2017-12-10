@@ -1,8 +1,3 @@
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 3629530193, 1164050482, 163.3362, 34.47665, 23.05859, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 2447988586, 1164050474, 141.3351, 25.83669, 22.03263, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-
 /* CreaturesExplorationMarkers */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (39794, 3629530199, 1164050484, 167.074, 95.2913, 39.88188, -0.701781, 0, 0, 0.712393) /* Exploration Marker */;

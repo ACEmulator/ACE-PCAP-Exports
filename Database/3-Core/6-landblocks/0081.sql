@@ -26,7 +26,7 @@ VALUES (42998, 1879576591, 8454488, 120, -120, -0.06299996, 1, 0, 0, 0) /* Porta
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (29034, 1879576595, 8454429, 44.9, -60, 0, -0.707107, 0, 0, -0.707107) /* Eye of Darkness */;
 
-/* HotSpots */
+/* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4980, 1879576583, 8454430, 40, -70, 0.05, 1, 0, 0, -4.37114E-08) /* Refreshing Fountain */;
 

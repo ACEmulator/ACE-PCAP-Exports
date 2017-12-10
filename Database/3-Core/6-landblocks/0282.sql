@@ -12,7 +12,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (10856, 1881677877, 42074625, 91.2913, -21.8468, -0.06299996, 0.8775823, 0, 0, 0.4794261) /* Surface Exit */
      , (10856, 1881677829, 42074382, 20, -110, -12.063, -0.6847088, 0, 0, 0.7288167) /* Surface Exit */;
 
-/* HotSpots */
+/* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1881677832, 42074389, 30, -100, -12, 1, 0, 0, 0) /* Acid */
      , (6122, 1881677841, 42074404, 40, -100, -12, 1, 0, 0, -4.37114E-08) /* Acid */

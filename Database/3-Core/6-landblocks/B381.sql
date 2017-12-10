@@ -14,7 +14,3 @@ VALUES (509, 2067271686, 3011575847, 113.068, 162.61, 24, -0.456331, 0, 0, 0.889
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42638, 2067271685, 3011575840, 87.8195, 174.353, 24, 0.5073249, 0, 0, -0.8617548) /* Scarecrow */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2630690690, 3011575810, 15.78018, 28.50942, 44.5554, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-

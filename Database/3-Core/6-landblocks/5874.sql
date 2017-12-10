@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (51643, 1971798358, 1483997473, -4.131, -115.898, 0, -0.7071068, 0, 0, -0.7071068) /* Chorizite Chest */;
 
-/* HotSpots */
+/* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (14804, 1971798350, 1483997449, 180, -200, -12, 1, 0, 0, 0) /* Acid */
      , (14804, 1971798347, 1483997445, 170, -200, -12, 1, 0, 0, 0) /* Acid */

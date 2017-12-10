@@ -7,10 +7,6 @@ VALUES (34297, 3685653700, 3105292331, 135.8733, 60.60379, 62.01286, 0.4465319, 
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8383, 2779440291, 3105292311, 55.8018, 154.4978, 49.937, 0.9537169, 0, 0, -0.3007058) /* Direlands Desert Northeast Portal */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2879226358, 3105292328, 118.9219, 177.5849, 63.05213, 1, 0, 0, 0) /* Bonfire */;
-
 /* Vendors */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (9018, 2879226402, 3105292328, 117.6758, 176.9163, 62.04403, 1, 0, 0, 0) /* Hasina bint Rira */;

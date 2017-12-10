@@ -36,7 +36,3 @@ VALUES (509, 2122457102, 3894542390, 154.895, 137.344, 0, -0.230506, 0, 0, 0.973
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8452, 2122457100, 3894542375, 114.041, 145.466, -3.72529E-09, 0.909006, 0, 0, 0.416783) /* Kryst */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2781014290, 3894542353, 67.30302, 2.037019, 26.39142, 0.9659258, 0, 0, -0.258819) /* Bonfire */;
-

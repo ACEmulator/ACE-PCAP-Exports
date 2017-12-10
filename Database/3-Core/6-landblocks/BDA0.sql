@@ -7,7 +7,3 @@ VALUES (53447, 2077884419, 3181379618, 112.631, 45.3831, -0.06299996, 0.90108, 0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (38389, 2923389131, 3181379611, 94.6456, 55.9596, 0.2307339, -0.260975, 0, 0, -0.965346) /* Arturus of the Eldrytch Web */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 3334194767, 3181379604, 65.34452, 79.51144, -0.09999996, 1, 0, 0, 0) /* Bonfire */;
-

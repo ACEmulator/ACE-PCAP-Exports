@@ -24,14 +24,6 @@ VALUES (14610, 2018009098, 2223374390, 146.128, 127.665, 154.5757, 0.9942199, 0,
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12774, 2018009091, 2223374389, 151.832, 111.014, 154.7488, -0.0875633, 0, 0, 0.996159) /* Settlement Portals */;
 
-/* HotSpots */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 3703549149, 2223374388, 156.9889, 73.04048, 156.5794, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 3703549164, 2223374375, 108.5696, 165.9557, 156.7068, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 2885296993, 2223374379, 133.3687, 67.74064, 165.3185, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 2885377030, 2223374384, 139.3974, 169.5777, 160.0109, 0.9990482, 0, 0, -0.04361939) /* Bonfire */
-     , (4179, 2878546767, 2223374390, 162.0357, 143.6005, 154.497, 0.9990482, 0, 0, -0.04361939) /* Bonfire */;
-
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22570, 2883488928, 2223374390, 149.7924, 135.7108, 155.3092, 1, 0, 0, 0) /* Runed Chest */
