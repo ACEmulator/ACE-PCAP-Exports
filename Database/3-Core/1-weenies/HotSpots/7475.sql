@@ -1,4 +1,4 @@
-/* Weenie - MiscObjects - Small Side Steam (7475) */
+/* Weenie - HotSpots - Small Side Steam (7475) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 7475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (7475, 1, 128) /* ITEM_TYPE_INT */
      , (7475, 16, 1) /* ITEM_USEABLE_INT */
      , (7475, 19, 1) /* VALUE_INT */
      , (7475, 93, 1036) /* PHYSICS_STATE_INT */
-     , (7475, 9007, 1) /* Generic_WeenieType */;
+     , (7475, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7475, 13, True) /* ETHEREAL_BOOL */

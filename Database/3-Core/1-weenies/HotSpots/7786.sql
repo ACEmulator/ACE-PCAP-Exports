@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - Volcanic Vent (7786) */
+/* Weenie - HotSpots - Volcanic Vent (7786) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 7786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (7786, 1, 128) /* ITEM_TYPE_INT */
      , (7786, 16, 1) /* ITEM_USEABLE_INT */
      , (7786, 19, 5) /* VALUE_INT */
      , (7786, 93, 68616) /* PHYSICS_STATE_INT */
-     , (7786, 9007, 1) /* Generic_WeenieType */;
+     , (7786, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (7786, 39, 0.9) /* DEFAULT_SCALE_FLOAT */;
