@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - Electric Floor (52128) */
+/* Weenie - HotSpots - Electric Floor (52128) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 52128;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (52128, 1, 128) /* ITEM_TYPE_INT */
      , (52128, 16, 1) /* ITEM_USEABLE_INT */
      , (52128, 19, 1) /* VALUE_INT */
      , (52128, 93, 12) /* PHYSICS_STATE_INT */
-     , (52128, 9007, 1) /* Generic_WeenieType */;
+     , (52128, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52128, 13, True) /* ETHEREAL_BOOL */
