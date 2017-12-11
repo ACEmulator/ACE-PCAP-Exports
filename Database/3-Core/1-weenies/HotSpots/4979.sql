@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - Sewer (4979) */
+/* Weenie - HotSpots - Sewer (4979) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 4979;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -20,7 +20,7 @@ VALUES (4979, 1, 128) /* ITEM_TYPE_INT */
      , (4979, 16, 1) /* ITEM_USEABLE_INT */
      , (4979, 19, 5) /* VALUE_INT */
      , (4979, 93, 1036) /* PHYSICS_STATE_INT */
-     , (4979, 9007, 1) /* Generic_WeenieType */;
+     , (4979, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4979, 13, True) /* ETHEREAL_BOOL */

@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - Refreshing Fountain (4980) */
+/* Weenie - HotSpots - Refreshing Fountain (4980) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 4980;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (4980, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4980, 16, 1) /* ITEM_USEABLE_INT */
      , (4980, 19, 5) /* VALUE_INT */
      , (4980, 93, 66572) /* PHYSICS_STATE_INT */
-     , (4980, 9007, 1) /* Generic_WeenieType */;
+     , (4980, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4980, 13, True) /* ETHEREAL_BOOL */
