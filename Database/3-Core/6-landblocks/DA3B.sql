@@ -27,10 +27,9 @@ VALUES (720, 2107879425, 3661299985, 112.925, 80.95, 10.5, -1, 0, 0, 0) /* Slidi
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8377, 2107879453, 3661300019, 67.7712, 52.8491, 26.47, -0.3734131, 0, 0, 0.9276652) /* Beer Keg */;
 
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (5148, 2107879450, 3661300023, 51.9837, 59.6754, 25.5, 0.70945, 0, 0, 0.704756) /* Flames */
-     , (4504, 2107879451, 3661299761, 162.519, 16.5849, 3.72529E-09, -0.707107, 0, 0, -0.707107) /* Lin */;
+VALUES (5148, 2107879450, 3661300023, 51.9837, 59.6754, 25.5, 0.70945, 0, 0, 0.704756) /* Flames */;
 
 /* PortalsPortal */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -73,6 +72,10 @@ VALUES (19204, 2107879465, 3661299771, 179.279, 65.947, 6.81, 0.7041355, 0, 0, 0
 /* Lifestones */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (509, 2107879473, 3661299763, 156.478, 57.1226, 0, -0.9723626, 0, 0, -0.2334759) /* Life Stone */;
+
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4504, 2107879451, 3661299761, 162.519, 16.5849, 3.72529E-09, -0.707107, 0, 0, -0.707107) /* Lin */;
 
 /* CreaturesTownCriers */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

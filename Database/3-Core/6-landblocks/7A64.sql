@@ -1,8 +1,6 @@
 /* MiscStaticsObjects */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2007384072, 2053374208, 37.6915, 156.016, 0, -0.8226267, 0, 0, -0.5685818) /* Bonfire */
-     , (5148, 2007384074, 2053373983, 80, 152, 4.669, 0.707107, 0, 0, -0.707107) /* Flames */
-     , (5148, 2007384087, 2053373983, 79.9096, 159.973, 4.669, 0.716034, 0, 0, -0.698066) /* Flames */;
+VALUES (4179, 2007384072, 2053374208, 37.6915, 156.016, 0, -0.8226267, 0, 0, -0.5685818) /* Bonfire */;
 
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
@@ -15,6 +13,11 @@ VALUES (5200, 2007384084, 2053374210, 60.7342, 88.6357, -6.408, 0.4190009, 0, 0,
 /* Doors */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4454, 2007384066, 2053374214, 60.0215, 111.856, 0.03004456, -4.37114E-08, 0, 0, -1) /* Door */;
+
+/* HotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (5148, 2007384074, 2053373983, 80, 152, 4.669, 0.707107, 0, 0, -0.707107) /* Flames */
+     , (5148, 2007384087, 2053373983, 79.9096, 159.973, 4.669, 0.716034, 0, 0, -0.698066) /* Flames */;
 
 /* MiscButtons */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

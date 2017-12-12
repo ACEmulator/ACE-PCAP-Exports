@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - Flames (5148) */
+/* Weenie - HotSpots - Flames (5148) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 5148;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (5148, 1, 128) /* ITEM_TYPE_INT */
      , (5148, 16, 1) /* ITEM_USEABLE_INT */
      , (5148, 19, 5) /* VALUE_INT */
      , (5148, 93, 1036) /* PHYSICS_STATE_INT */
-     , (5148, 9007, 1) /* Generic_WeenieType */;
+     , (5148, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5148, 13, True) /* ETHEREAL_BOOL */

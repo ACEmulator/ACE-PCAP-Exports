@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - The Black Breath (8516) */
+/* Weenie - HotSpots - The Black Breath (8516) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 8516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (8516, 1, 128) /* ITEM_TYPE_INT */
      , (8516, 16, 1) /* ITEM_USEABLE_INT */
      , (8516, 19, 1) /* VALUE_INT */
      , (8516, 93, 12) /* PHYSICS_STATE_INT */
-     , (8516, 9007, 1) /* Generic_WeenieType */;
+     , (8516, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8516, 39, 10) /* DEFAULT_SCALE_FLOAT */;
