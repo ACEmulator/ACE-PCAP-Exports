@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6885, 1880145945, 17564113, 74.3836, -60.1723, -0.06299996, 0.7071068, 0, 0, -0.7071068) /* Surface Portal */;
 
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5400, 1880145938, 17564045, 140, -100, -6, -4.37114E-08, 0, 0, -1) /* Boiling Magma */
      , (5400, 1880145935, 17564040, 144.129, -80.3458, -6, -0.707107, 0, 0, -0.707107) /* Boiling Magma */

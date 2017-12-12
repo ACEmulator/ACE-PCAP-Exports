@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - Boiling Magma (5400) */
+/* Weenie - HotSpots - Boiling Magma (5400) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 5400;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (5400, 1, 128) /* ITEM_TYPE_INT */
      , (5400, 16, 1) /* ITEM_USEABLE_INT */
      , (5400, 19, 5) /* VALUE_INT */
      , (5400, 93, 12) /* PHYSICS_STATE_INT */
-     , (5400, 9007, 1) /* Generic_WeenieType */;
+     , (5400, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (5400, 39, 4) /* DEFAULT_SCALE_FLOAT */;

@@ -1,4 +1,4 @@
-/* Weenie - MiscObjects - Geyser (7800) */
+/* Weenie - HotSpots - Geyser (7800) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 7800;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (7800, 1, 128) /* ITEM_TYPE_INT */
      , (7800, 16, 1) /* ITEM_USEABLE_INT */
      , (7800, 19, 1) /* VALUE_INT */
      , (7800, 93, 66572) /* PHYSICS_STATE_INT */
-     , (7800, 9007, 1) /* Generic_WeenieType */;
+     , (7800, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7800, 13, True) /* ETHEREAL_BOOL */

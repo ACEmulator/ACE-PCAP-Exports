@@ -1,4 +1,4 @@
-/* Weenie - MiscObjects - Magma Pool (36180) */
+/* Weenie - HotSpots - Magma Pool (36180) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 36180;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -22,7 +22,7 @@ VALUES (36180, 1, 128) /* ITEM_TYPE_INT */
      , (36180, 16, 1) /* ITEM_USEABLE_INT */
      , (36180, 19, 1) /* VALUE_INT */
      , (36180, 93, 1036) /* PHYSICS_STATE_INT */
-     , (36180, 9007, 1) /* Generic_WeenieType */;
+     , (36180, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (36180, 39, 2) /* DEFAULT_SCALE_FLOAT */;
