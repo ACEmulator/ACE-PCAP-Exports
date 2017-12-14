@@ -1,7 +1,3 @@
-/* MiscStaticsObjects */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2087239682, 3331064067, 158.53, 82.1065, 21.2, -0.3853171, 0, 0, -0.9227842) /* Bonfire */;
-
 /* CreaturesNPCs */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4213, 3692308460, 3331064066, 154.362, 84.9348, 21.205, -0.844192, 0, 0, -0.536041) /* Leather Crafter */;

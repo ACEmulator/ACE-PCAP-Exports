@@ -1,7 +1,3 @@
-/* MiscStaticsObjects */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4179, 2007384072, 2053374208, 37.6915, 156.016, 0, -0.8226267, 0, 0, -0.5685818) /* Bonfire */;
-
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4846, 2007384069, 2053374210, 59.9562, 90.311, -6.345, -4.37114E-08, 0, 0, -1) /* Sarcophagus */;
