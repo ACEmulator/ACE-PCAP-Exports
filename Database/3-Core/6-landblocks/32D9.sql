@@ -67,6 +67,10 @@ VALUES (34145, 3691225914, 853082173, 175.303, 100.337, 52.005, -0.723443, 0, 0,
      , (30266, 3691225817, 853082157, 126.004, 109.671, 52.005, 0.6957896, 0, 0, -0.7182456) /* Stuven di Bonachien */
      , (32820, 3691225918, 853082157, 142, 110, 52.005, -0.0121645, 0, 0, -0.999926) /* Giordonni */;
 
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 1932365883, 853082162, 155.867, 25.8664, 52.95, 0.08336759, 0, 0, -0.9965189) /* Bonfire */;
+
 /* Doors */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (30938, 1932365887, 853082162, 163.528, 36.0184, 52.17788, -4.37114E-08, 0, 0, -1) /* Door */;

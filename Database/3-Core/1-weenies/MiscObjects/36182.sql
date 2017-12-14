@@ -1,4 +1,4 @@
-/* Weenie - HotSpots - Acid Pool (36182) */
+/* Weenie - MiscObjects - Acid Pool (36182) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 36182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -22,7 +22,7 @@ VALUES (36182, 1, 128) /* ITEM_TYPE_INT */
      , (36182, 16, 1) /* ITEM_USEABLE_INT */
      , (36182, 19, 1) /* VALUE_INT */
      , (36182, 93, 1036) /* PHYSICS_STATE_INT */
-     , (36182, 9007, 13) /* HotSpot_WeenieType */;
+     , (36182, 9007, 1) /* Generic_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (36182, 39, 2) /* DEFAULT_SCALE_FLOAT */;

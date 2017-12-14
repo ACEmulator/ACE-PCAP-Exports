@@ -15,7 +15,8 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (4648, 2030419975, 2421948457, 121.626, 2.17606, 18.72535, 0.662319, 0, 0, 0.749222) /* Al-Arqas Outpost  */
      , (4648, 2030419976, 2421948458, 130.022, 26.9007, 26, 0.665705, 0, 0, 0.746215) /* Al-Arqas Outpost  */
      , (4648, 2030419974, 2421948458, 141.206, 37.2832, 26, -0.792869, 0, 0, -0.609392) /* Al-Arqas Outpost  */
-     , (4648, 2030419977, 2421948459, 121.693, 53.4653, 25.54456, -0.604939, 0, 0, -0.796272) /* Al-Arqas Outpost  */;
+     , (4648, 2030419977, 2421948459, 121.693, 53.4653, 25.54456, -0.604939, 0, 0, -0.796272) /* Al-Arqas Outpost  */
+     , (4179, 2030419983, 2421948451, 108.202, 59.4882, 26.02582, 0.6976469, 0, 0, 0.7164418) /* Bonfire */;
 
 /* MiscBuildingSigns */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

@@ -9,6 +9,11 @@ VALUES (30049, 1938780162, 955711744, 103.523, 9.38596, 2.21048, 0.5405036, 0, 0
      , (30048, 1938780163, 955711747, 62.2553, 9.66051, 2.21048, -0.906216, 0, 0, -0.4228149) /* Fiun Blacksmith */
      , (30047, 1938780161, 955711521, 103.463, 17.965, 2.01048, 0.9995129, 0, 0, -0.0312101) /* Fiun Healer */;
 
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 1938780176, 955711744, 101.155, 12.0213, 2.664834, 0.3430429, 0, 0, -0.9393197) /* Bonfire */
+     , (4179, 1938780175, 955711747, 59.8995, 8.4898, 2.677509, 0.0790716, 0, 0, 0.996869) /* Bonfire */;
+
 /* PortalsTownNetwork */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (42852, 1938780178, 955711513, 82.7407, 15.5784, 2.198001, 0.9996361, 0, 0, 0.0269773) /* Portal to Town Network */;

@@ -1,4 +1,4 @@
-/* Weenie - HotSpots - Bonfire (4179) */
+/* Weenie - MiscObjects - Bonfire (4179) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 4179;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (4179, 1, 128) /* ITEM_TYPE_INT */
      , (4179, 16, 1) /* ITEM_USEABLE_INT */
      , (4179, 19, 5) /* VALUE_INT */
      , (4179, 93, 3084) /* PHYSICS_STATE_INT */
-     , (4179, 9007, 13) /* HotSpot_WeenieType */;
+     , (4179, 9007, 1) /* Generic_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4179, 13, True) /* ETHEREAL_BOOL */

@@ -25,6 +25,10 @@ VALUES (568, 1880416381, 21889627, 190, -4.75, -1.862645E-09, -4.37114E-08, 0, 0
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5502, 1880416380, 21889625, 190, 0, -0.06299996, -4.37114E-08, 0, 0, -1) /* Surface */;
 
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4179, 1880416386, 21889629, 189.167, -24.326, 0.1943741, 0.7071068, 0, 0, -0.7071068) /* Bonfire */;
+
 /* MiscButtons */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (269, 1880416355, 21889574, 156.27, -124.395, 1.378, 0, 0, 0, -1) /* Button */

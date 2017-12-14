@@ -1,4 +1,4 @@
-/* Weenie - HotSpots - Freezing Pool (36181) */
+/* Weenie - MiscObjects - Freezing Pool (36181) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 36181;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -22,7 +22,7 @@ VALUES (36181, 1, 128) /* ITEM_TYPE_INT */
      , (36181, 16, 1) /* ITEM_USEABLE_INT */
      , (36181, 19, 1) /* VALUE_INT */
      , (36181, 93, 1036) /* PHYSICS_STATE_INT */
-     , (36181, 9007, 13) /* HotSpot_WeenieType */;
+     , (36181, 9007, 1) /* Generic_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (36181, 39, 2) /* DEFAULT_SCALE_FLOAT */;
