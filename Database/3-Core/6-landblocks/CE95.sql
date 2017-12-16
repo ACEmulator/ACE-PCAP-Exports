@@ -128,7 +128,3 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (5772, 3684910839, 3465871394, 114.7415, 30.91683, 20.005, 0.121869, 0, 0, -0.9925462) /* Town Crier */
      , (5772, 3684908930, 3465871398, 116.8475, 133.084, 20.005, -0.9918944, 0, 0, -0.127065) /* Town Crier */;
 
-/* LightSourceObjects */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (4128, 2769036390, 3465871413, 144.906, 101.9807, 20, -0.8988361, 0, 0, -0.438285) /* Campfire */;
-

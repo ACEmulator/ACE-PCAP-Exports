@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - Drudge Bonfire (35464) */
+/* Weenie - HotSpots - Drudge Bonfire (35464) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 35464;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (35464, 1, 128) /* ITEM_TYPE_INT */
      , (35464, 16, 1) /* ITEM_USEABLE_INT */
      , (35464, 19, 1) /* VALUE_INT */
      , (35464, 93, 12) /* PHYSICS_STATE_INT */
-     , (35464, 9007, 1) /* Generic_WeenieType */;
+     , (35464, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35464, 39, 1.2) /* DEFAULT_SCALE_FLOAT */;

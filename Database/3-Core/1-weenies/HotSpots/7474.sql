@@ -1,4 +1,4 @@
-/* Weenie - MiscStaticsObjects - 30 sec Firespurt (7474) */
+/* Weenie - HotSpots - 30 sec Firespurt (7474) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 7474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
@@ -21,7 +21,7 @@ VALUES (7474, 1, 128) /* ITEM_TYPE_INT */
      , (7474, 16, 1) /* ITEM_USEABLE_INT */
      , (7474, 19, 1) /* VALUE_INT */
      , (7474, 93, 12) /* PHYSICS_STATE_INT */
-     , (7474, 9007, 1) /* Generic_WeenieType */;
+     , (7474, 9007, 13) /* HotSpot_WeenieType */;
 
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7474, 13, True) /* ETHEREAL_BOOL */

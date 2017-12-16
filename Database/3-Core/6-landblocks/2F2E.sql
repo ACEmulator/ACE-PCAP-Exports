@@ -6,6 +6,10 @@ VALUES (22566, 3684531703, 791543840, 89.93852, 168.3853, 4.505123, 1, 0, 0, 0) 
      , (8999, 3361866574, 791543837, 92.19627, 103.0963, 8.186042, 1, 0, 0, 0) /* Steel Chest */
      , (24476, 2448624055, 791543867, 189.0851, 60.64811, 8.94599, 0.9990482, 0, 0, -0.04361939) /* Sturdy Steel Chest */;
 
+/* Generators */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (36995, 1928519680, 791543850, 132, 36, 12, 1, 0, 0, 0) /* Aerbax South Gate Event Gen */;
+
 /* Portals */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (37051, 3629368208, 791543850, 129, 34.3, 13.225, -0.5000001, 0, 0, -0.8660254) /* South Gate */
