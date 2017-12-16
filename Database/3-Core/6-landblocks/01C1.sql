@@ -2,6 +2,10 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (2332, 1880887407, 29426228, 62.5012, -130.033, 5.937, 0.7071068, 0, 0, -0.7071068) /* Surface */;
 
+/* ContainersPacks */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (31754, 1880887419, 29426189, 26.8077, -52.33, 6.672625, 0.933135, 0, 0, -0.359526) /* Pack */;
+
 /* ContainersChests */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1926, 1880887360, 29426126, 126.574, -69.7564, 0, -0.7071068, 0, 0, -0.7071068) /* Chest */

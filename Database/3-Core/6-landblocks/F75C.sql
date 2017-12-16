@@ -1,11 +1,14 @@
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (5148, 2138423325, 4150001668, 6.461, 89.726, 20.205, -0.719625, 0, 0, -0.694363) /* Flames */
-     , (4535, 2138423330, 4150001675, 46.0709, 65.7083, 20, 1, 0, 0, 0) /* Tou-Tou */;
+VALUES (5148, 2138423325, 4150001668, 6.461, 89.726, 20.205, -0.719625, 0, 0, -0.694363) /* Flames */;
 
 /* LandscapeStatics */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (174, 2138423314, 4150001675, 30.6988, 62.5421, 20, -0.727113, 0, 0, 0.686518) /* Well */;
+
+/* MiscStaticsObjects */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (4535, 2138423330, 4150001675, 46.0709, 65.7083, 20, 1, 0, 0, 0) /* Tou-Tou */;
 
 /* WriteablesStatues */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

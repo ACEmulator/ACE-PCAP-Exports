@@ -3,7 +3,7 @@ INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`,
 VALUES (30718, 1879097347, 787179, 100, 0, -0.06299996, -0.7202783, 0, 0, -0.6936852) /* Surface */
      , (30726, 1879097379, 786841, 0, -100, -18.063, 0.7071068, 0, 0, -0.7071068) /* Weakened Royal Vault */;
 
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4979, 1879097348, 787188, 130.937, 0.965726, 0, 0.930508, 0, 0, -0.366272) /* Sewer */
      , (4979, 1879097383, 787013, 129.063, -30.9657, -12, -0.366272, 0, 0, -0.930508) /* Sewer */

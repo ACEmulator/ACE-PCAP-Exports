@@ -1,4 +1,4 @@
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (52128, 1972711463, 1498612089, 290, -40, 0, 1, 0, 0, 0) /* Electric Floor */
      , (52128, 1972711460, 1498612086, 280, -40, 0, 1, 0, 0, 0) /* Electric Floor */

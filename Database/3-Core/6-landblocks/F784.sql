@@ -4,8 +4,19 @@ VALUES (22717, 2138587347, 4152623117, 36.848, 100.116, 43.79833, 0.694647, 0, 0
      , (22717, 2138587345, 4152623110, 2.05464, 135.899, 42, 0.290984, 0, 0, -0.956728) /* Not too far to the Tusker Emporium! */
      , (22717, 2138587344, 4152623118, 27.2405, 131.377, 41.21813, 0.640582, 0, 0, -0.76789) /* Not too far to the Tusker Emporium! */
      , (22717, 2138587348, 4152623118, 46.6788, 128.111, 42, 0.878193, 0, 0, -0.478307) /* Not too far to the Tusker Emporium! */
-     , (22717, 2138587346, 4152623126, 64.8739, 122.296, 51.84311, 0.883472, 0, 0, -0.468484) /* Not too far to the Tusker Emporium! */
-     , (7471, 2138587197, 4152623545, 154.292, 421.056, -11.1, 0.3083079, 0, 0, -0.9512866) /* Large Yellow Side Steam */
+     , (22717, 2138587346, 4152623126, 64.8739, 122.296, 51.84311, 0.883472, 0, 0, -0.468484) /* Not too far to the Tusker Emporium! */;
+
+/* MiscBuildingSigns */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (22718, 2138587342, 4152623119, 31.1431, 145.591, 42, 0.983398, 0, 0, -0.181459) /* Tusker Emporium Sign */;
+
+/* CreaturesNPCs */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (22644, 3691245973, 4152623119, 29.4199, 145.704, 42.005, 1, 0, 0, 0) /* Hawker for Ketnan */;
+
+/* HotSpots */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (7471, 2138587197, 4152623545, 154.292, 421.056, -11.1, 0.3083079, 0, 0, -0.9512866) /* Large Yellow Side Steam */
      , (7472, 2138587196, 4152623544, 154.222, 428.052, -11.64, 0.9973386, 0, 0, -0.07290897) /* Geyser */
      , (7473, 2138587201, 4152623552, 164.385, 440.852, -11.6, 0.947664, 0, 0, -0.319269) /* 11-sec Firespurt */
      , (7471, 2138587202, 4152623552, 162.005, 442.007, -9.288279, -0.9172903, 0, 0, 0.3982191) /* Large Yellow Side Steam */
@@ -24,14 +35,6 @@ VALUES (22717, 2138587347, 4152623117, 36.848, 100.116, 43.79833, 0.694647, 0, 0
      , (5399, 2138587383, 4152623366, 436.273, 458.515, -29.6, 1, 0, 0, 0) /* Boiling Magma */
      , (5399, 2138587385, 4152623368, 446.273, 468.515, -29.6, 1, 0, 0, -4.37114E-08) /* Boiling Magma */
      , (5399, 2138587386, 4152623369, 446.273, 458.515, -29.6, 1, 0, 0, -4.37114E-08) /* Boiling Magma */;
-
-/* MiscBuildingSigns */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (22718, 2138587342, 4152623119, 31.1431, 145.591, 42, 0.983398, 0, 0, -0.181459) /* Tusker Emporium Sign */;
-
-/* CreaturesNPCs */
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
-VALUES (22644, 3691245973, 4152623119, 29.4199, 145.704, 42.005, 1, 0, 0, 0) /* Hawker for Ketnan */;
 
 /* PortalsPortal */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)

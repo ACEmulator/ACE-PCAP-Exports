@@ -1,4 +1,4 @@
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1879433313, 6160941, 270, -110, -66, 1, 0, 0, 0) /* Acid */
      , (5489, 1879433301, 6160881, 230, -120, -66.5, 1, 0, 0, 0) /* "Mag-Ma!" */

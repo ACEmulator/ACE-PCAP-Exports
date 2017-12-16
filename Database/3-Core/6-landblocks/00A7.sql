@@ -24,7 +24,7 @@ VALUES (8418, 1879732313, 10944885, 80, -65.954, 36, 0, 0, 0, -1) /* Door */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (269, 1879732276, 10944859, 66.7073, 2.36056, 40.728, -0.873181, 0, 0, -0.487396) /* Button */;
 
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8516, 1879732233, 10944800, 140, -60, 6, 1, 0, 0, 0) /* The Black Breath */;
 

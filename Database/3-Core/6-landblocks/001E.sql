@@ -2,7 +2,7 @@
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (29486, 1879171155, 1966745, 0, 0, -0.06299996, -0.7071068, 0, 0, -0.7071068) /* Exit Viamontian Royal Prison */;
 
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6122, 1879171073, 1966344, 120, -280, -24, 1, 0, 0, 0) /* Acid */
      , (6122, 1879171072, 1966336, 480, -70, -42, 1, 0, 0, 0) /* Acid */;

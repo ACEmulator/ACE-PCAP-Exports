@@ -15,7 +15,7 @@ VALUES (24476, 1879298109, 3998658, 210, -70, -12, -0.400799, 0, 0, 0.916166) /*
      , (24476, 1879298115, 3998942, 64.4185, -171.646, -6, -0.382506, 0, 0, 0.923953) /* Sturdy Steel Chest */
      , (24476, 1879298116, 3998955, 69.97, -116.059, -6, 1, 0, 0, 0) /* Sturdy Steel Chest */;
 
-/* MiscStaticsObjects */
+/* HotSpots */
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (31424, 1879298064, 3997960, 87.764, -88.1556, -36, 0.354229, 0, 0, -0.935159) /* 11-sec Firespurt */
      , (31424, 1879298065, 3997960, 91.3179, -93.294, -36, -0.786164, 0, 0, -0.618018) /* 11-sec Firespurt */
