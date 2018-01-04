@@ -17,7 +17,7 @@ VALUES (4385, 8, 100676928) /* ICON_DID */
      , (4385, 28, 1313) /* SPELL_DID - ArmorOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4385, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (4385, 65, 101) /* PLACEMENT_INT */
      , (4385, 1, 8192) /* ITEM_TYPE_INT */
      , (4385, 5, 30) /* ENCUMB_VAL_INT */
      , (4385, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (43331, 8, 100691571) /* ICON_DID */
      , (43331, 28, 5373) /* SPELL_DID - CurseFestering3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43331, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43331, 65, 101) /* PLACEMENT_INT */
      , (43331, 1, 8192) /* ITEM_TYPE_INT */
      , (43331, 5, 30) /* ENCUMB_VAL_INT */
      , (43331, 16, 8) /* ITEM_USEABLE_INT */

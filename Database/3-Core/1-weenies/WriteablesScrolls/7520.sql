@@ -17,7 +17,7 @@ VALUES (7520, 8, 100677014) /* ICON_DID */
      , (7520, 28, 1843) /* SPELL_DID - FrostWall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7520, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7520, 65, 101) /* PLACEMENT_INT */
      , (7520, 1, 8192) /* ITEM_TYPE_INT */
      , (7520, 5, 30) /* ENCUMB_VAL_INT */
      , (7520, 16, 8) /* ITEM_USEABLE_INT */

@@ -16,7 +16,7 @@ VALUES (11149, 8, 100671782) /* ICON_DID */
      , (11149, 3, 536870932) /* SOUND_TABLE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11149, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (11149, 65, 101) /* PLACEMENT_INT */
      , (11149, 1, 128) /* ITEM_TYPE_INT */
      , (11149, 5, 2100) /* ENCUMB_VAL_INT */
      , (11149, 151, 2) /* HOOK_TYPE_INT */

@@ -17,7 +17,7 @@ VALUES (7521, 8, 100677011) /* ICON_DID */
      , (7521, 28, 1844) /* SPELL_DID - LightningWall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7521, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7521, 65, 101) /* PLACEMENT_INT */
      , (7521, 1, 8192) /* ITEM_TYPE_INT */
      , (7521, 5, 30) /* ENCUMB_VAL_INT */
      , (7521, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (41306, 8, 100690644) /* ICON_DID */
      , (41306, 28, 5101) /* SPELL_DID - twohandedmasteryself3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41306, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41306, 65, 101) /* PLACEMENT_INT */
      , (41306, 1, 8192) /* ITEM_TYPE_INT */
      , (41306, 5, 30) /* ENCUMB_VAL_INT */
      , (41306, 16, 8) /* ITEM_USEABLE_INT */

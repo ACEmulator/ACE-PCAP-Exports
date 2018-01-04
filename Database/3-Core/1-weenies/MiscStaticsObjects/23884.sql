@@ -18,7 +18,7 @@ VALUES (23884, 8, 100667431) /* ICON_DID */
      , (23884, 28, 1162) /* SPELL_DID - HealOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23884, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (23884, 65, 101) /* PLACEMENT_INT */
      , (23884, 1, 128) /* ITEM_TYPE_INT */
      , (23884, 5, 6000) /* ENCUMB_VAL_INT */
      , (23884, 16, 48) /* ITEM_USEABLE_INT */

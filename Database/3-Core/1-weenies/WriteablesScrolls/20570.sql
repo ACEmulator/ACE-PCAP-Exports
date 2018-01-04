@@ -17,7 +17,7 @@ VALUES (20570, 8, 100676448) /* ICON_DID */
      , (20570, 28, 2290) /* SPELL_DID - MonsterUnfamiliarityOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20570, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20570, 65, 101) /* PLACEMENT_INT */
      , (20570, 1, 8192) /* ITEM_TYPE_INT */
      , (20570, 5, 30) /* ENCUMB_VAL_INT */
      , (20570, 16, 8) /* ITEM_USEABLE_INT */

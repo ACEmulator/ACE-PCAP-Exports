@@ -17,7 +17,7 @@ VALUES (20432, 8, 100677026) /* ICON_DID */
      , (20432, 28, 2122) /* SPELL_DID - AcidStream7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20432, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20432, 65, 101) /* PLACEMENT_INT */
      , (20432, 1, 8192) /* ITEM_TYPE_INT */
      , (20432, 5, 30) /* ENCUMB_VAL_INT */
      , (20432, 16, 8) /* ITEM_USEABLE_INT */

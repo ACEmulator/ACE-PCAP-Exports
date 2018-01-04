@@ -18,7 +18,7 @@ VALUES (28452, 8, 100676962) /* ICON_DID */
      , (28452, 28, 3442) /* SPELL_DID - LugianStamina_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28452, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28452, 65, 101) /* PLACEMENT_INT */
      , (28452, 1, 32) /* ITEM_TYPE_INT */
      , (28452, 5, 750) /* ENCUMB_VAL_INT */
      , (28452, 18, 1) /* UI_EFFECTS_INT */

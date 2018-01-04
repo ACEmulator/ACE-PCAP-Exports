@@ -17,7 +17,7 @@ VALUES (21298, 8, 100677028) /* ICON_DID */
      , (21298, 28, 2756) /* SPELL_DID - BladeArc4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21298, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21298, 65, 101) /* PLACEMENT_INT */
      , (21298, 1, 8192) /* ITEM_TYPE_INT */
      , (21298, 5, 30) /* ENCUMB_VAL_INT */
      , (21298, 16, 8) /* ITEM_USEABLE_INT */

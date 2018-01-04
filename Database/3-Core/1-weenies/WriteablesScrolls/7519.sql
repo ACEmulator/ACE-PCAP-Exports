@@ -17,7 +17,7 @@ VALUES (7519, 8, 100677017) /* ICON_DID */
      , (7519, 28, 1842) /* SPELL_DID - ForceWall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7519, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7519, 65, 101) /* PLACEMENT_INT */
      , (7519, 1, 8192) /* ITEM_TYPE_INT */
      , (7519, 5, 30) /* ENCUMB_VAL_INT */
      , (7519, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (20526, 8, 100676446) /* ICON_DID */
      , (20526, 28, 2230) /* SPELL_DID - FaithlessnessOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20526, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20526, 65, 101) /* PLACEMENT_INT */
      , (20526, 1, 8192) /* ITEM_TYPE_INT */
      , (20526, 5, 30) /* ENCUMB_VAL_INT */
      , (20526, 16, 8) /* ITEM_USEABLE_INT */

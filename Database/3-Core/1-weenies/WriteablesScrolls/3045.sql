@@ -17,7 +17,7 @@ VALUES (3045, 8, 100676949) /* ICON_DID */
      , (3045, 28, 1106) /* SPELL_DID - FireVulnerabilityOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3045, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3045, 65, 101) /* PLACEMENT_INT */
      , (3045, 1, 8192) /* ITEM_TYPE_INT */
      , (3045, 5, 30) /* ENCUMB_VAL_INT */
      , (3045, 16, 8) /* ITEM_USEABLE_INT */

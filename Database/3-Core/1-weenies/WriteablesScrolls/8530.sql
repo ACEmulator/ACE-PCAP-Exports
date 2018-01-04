@@ -17,7 +17,7 @@ VALUES (8530, 8, 100669876) /* ICON_DID */
      , (8530, 28, 2023) /* SPELL_DID - SanctuaryRecall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8530, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8530, 65, 101) /* PLACEMENT_INT */
      , (8530, 1, 8192) /* ITEM_TYPE_INT */
      , (8530, 5, 30) /* ENCUMB_VAL_INT */
      , (8530, 16, 8) /* ITEM_USEABLE_INT */

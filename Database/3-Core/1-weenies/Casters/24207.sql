@@ -18,7 +18,7 @@ VALUES (24207, 8, 100674265) /* ICON_DID */
      , (24207, 28, 2970) /* SPELL_DID - HuntersLash_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24207, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (24207, 65, 1) /* PLACEMENT_INT */
      , (24207, 1, 32768) /* ITEM_TYPE_INT */
      , (24207, 5, 150) /* ENCUMB_VAL_INT */
      , (24207, 18, 1) /* UI_EFFECTS_INT */

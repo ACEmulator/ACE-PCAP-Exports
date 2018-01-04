@@ -19,7 +19,7 @@ VALUES (45523, 8, 100673204) /* ICON_DID */
      , (45523, 19, 88) /* ACTIVATION_ANIMATION_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45523, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (45523, 65, 1) /* PLACEMENT_INT */
      , (45523, 1, 1) /* ITEM_TYPE_INT */
      , (45523, 5, 275) /* ENCUMB_VAL_INT */
      , (45523, 51, 1) /* COMBAT_USE_INT */

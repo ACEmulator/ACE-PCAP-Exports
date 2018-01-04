@@ -18,7 +18,7 @@ VALUES (152, 8, 100668104) /* ICON_DID */
      , (152, 28, 1183) /* SPELL_DID - RevitalizeOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (152, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (152, 65, 101) /* PLACEMENT_INT */
      , (152, 1, 4194304) /* ITEM_TYPE_INT */
      , (152, 5, 6000) /* ENCUMB_VAL_INT */
      , (152, 16, 48) /* ITEM_USEABLE_INT */

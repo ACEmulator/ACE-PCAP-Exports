@@ -17,7 +17,7 @@ VALUES (20440, 8, 100677022) /* ICON_DID */
      , (20440, 28, 2128) /* SPELL_DID - FlameBolt7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20440, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20440, 65, 101) /* PLACEMENT_INT */
      , (20440, 1, 8192) /* ITEM_TYPE_INT */
      , (20440, 5, 30) /* ENCUMB_VAL_INT */
      , (20440, 16, 8) /* ITEM_USEABLE_INT */

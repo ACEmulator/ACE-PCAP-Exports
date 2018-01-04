@@ -17,7 +17,7 @@ VALUES (20619, 8, 100676673) /* ICON_DID */
      , (20619, 28, 2646) /* SPELL_DID - PortalTie2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20619, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20619, 65, 101) /* PLACEMENT_INT */
      , (20619, 1, 8192) /* ITEM_TYPE_INT */
      , (20619, 5, 30) /* ENCUMB_VAL_INT */
      , (20619, 16, 8) /* ITEM_USEABLE_INT */

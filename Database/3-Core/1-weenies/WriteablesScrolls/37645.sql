@@ -17,7 +17,7 @@ VALUES (37645, 8, 100676477) /* ICON_DID */
      , (37645, 28, 4513) /* SPELL_DID - ArmorIgnoranceOther8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37645, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37645, 65, 101) /* PLACEMENT_INT */
      , (37645, 1, 8192) /* ITEM_TYPE_INT */
      , (37645, 5, 30) /* ENCUMB_VAL_INT */
      , (37645, 16, 8) /* ITEM_USEABLE_INT */

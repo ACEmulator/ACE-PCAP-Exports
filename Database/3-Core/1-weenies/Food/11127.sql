@@ -18,7 +18,7 @@ VALUES (11127, 8, 100671760) /* ICON_DID */
      , (11127, 28, 2424) /* SPELL_DID - RabbitsEye_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11127, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (11127, 65, 101) /* PLACEMENT_INT */
      , (11127, 1, 32) /* ITEM_TYPE_INT */
      , (11127, 5, 35) /* ENCUMB_VAL_INT */
      , (11127, 18, 1) /* UI_EFFECTS_INT */

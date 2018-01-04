@@ -17,7 +17,7 @@ VALUES (3462, 8, 100676448) /* ICON_DID */
      , (3462, 28, 848) /* SPELL_DID - PersonUnfamiliarityOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3462, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3462, 65, 101) /* PLACEMENT_INT */
      , (3462, 1, 8192) /* ITEM_TYPE_INT */
      , (3462, 5, 30) /* ENCUMB_VAL_INT */
      , (3462, 16, 8) /* ITEM_USEABLE_INT */

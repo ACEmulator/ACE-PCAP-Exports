@@ -17,7 +17,7 @@ VALUES (2860, 8, 100676668) /* ICON_DID */
      , (2860, 28, 1533) /* SPELL_DID - LightningLure5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2860, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2860, 65, 101) /* PLACEMENT_INT */
      , (2860, 1, 8192) /* ITEM_TYPE_INT */
      , (2860, 5, 30) /* ENCUMB_VAL_INT */
      , (2860, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (37922, 8, 100676469) /* ICON_DID */
      , (37922, 28, 4319) /* SPELL_DID - QuicknessSelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37922, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37922, 65, 101) /* PLACEMENT_INT */
      , (37922, 1, 8192) /* ITEM_TYPE_INT */
      , (37922, 5, 30) /* ENCUMB_VAL_INT */
      , (37922, 16, 8) /* ITEM_USEABLE_INT */

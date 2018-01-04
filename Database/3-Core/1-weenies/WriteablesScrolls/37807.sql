@@ -17,7 +17,7 @@ VALUES (37807, 8, 100676459) /* ICON_DID */
      , (37807, 28, 4556) /* SPELL_DID - HealingMasterySelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37807, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37807, 65, 101) /* PLACEMENT_INT */
      , (37807, 1, 8192) /* ITEM_TYPE_INT */
      , (37807, 5, 30) /* ENCUMB_VAL_INT */
      , (37807, 16, 8) /* ITEM_USEABLE_INT */

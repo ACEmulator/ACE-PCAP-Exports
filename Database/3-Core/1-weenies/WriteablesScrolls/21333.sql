@@ -17,7 +17,7 @@ VALUES (21333, 8, 100677008) /* ICON_DID */
      , (21333, 28, 2749) /* SPELL_DID - ShockArc4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21333, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21333, 65, 101) /* PLACEMENT_INT */
      , (21333, 1, 8192) /* ITEM_TYPE_INT */
      , (21333, 5, 30) /* ENCUMB_VAL_INT */
      , (21333, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (43295, 8, 100691569) /* ICON_DID */
      , (43295, 28, 5362) /* SPELL_DID - NetherArc2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43295, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43295, 65, 101) /* PLACEMENT_INT */
      , (43295, 1, 8192) /* ITEM_TYPE_INT */
      , (43295, 5, 30) /* ENCUMB_VAL_INT */
      , (43295, 16, 8) /* ITEM_USEABLE_INT */

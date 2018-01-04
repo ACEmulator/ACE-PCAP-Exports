@@ -17,7 +17,7 @@ VALUES (1883, 8, 100676652) /* ICON_DID */
      , (1883, 28, 1523) /* SPELL_DID - FrostBane1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1883, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1883, 65, 101) /* PLACEMENT_INT */
      , (1883, 1, 8192) /* ITEM_TYPE_INT */
      , (1883, 5, 30) /* ENCUMB_VAL_INT */
      , (1883, 16, 8) /* ITEM_USEABLE_INT */

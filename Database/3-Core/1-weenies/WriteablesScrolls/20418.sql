@@ -17,7 +17,7 @@ VALUES (20418, 8, 100676661) /* ICON_DID */
      , (20418, 28, 2108) /* SPELL_DID - Impenetrability7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20418, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20418, 65, 101) /* PLACEMENT_INT */
      , (20418, 1, 8192) /* ITEM_TYPE_INT */
      , (20418, 5, 30) /* ENCUMB_VAL_INT */
      , (20418, 16, 8) /* ITEM_USEABLE_INT */

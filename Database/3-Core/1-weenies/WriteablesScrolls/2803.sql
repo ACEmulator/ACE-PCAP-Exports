@@ -17,7 +17,7 @@ VALUES (2803, 8, 100676657) /* ICON_DID */
      , (2803, 28, 1489) /* SPELL_DID - Brittlemail3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2803, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2803, 65, 101) /* PLACEMENT_INT */
      , (2803, 1, 8192) /* ITEM_TYPE_INT */
      , (2803, 5, 30) /* ENCUMB_VAL_INT */
      , (2803, 16, 8) /* ITEM_USEABLE_INT */

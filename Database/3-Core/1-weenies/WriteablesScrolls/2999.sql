@@ -17,7 +17,7 @@ VALUES (2999, 8, 100676954) /* ICON_DID */
      , (2999, 28, 1129) /* SPELL_DID - BladeVulnerabilityOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2999, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2999, 65, 101) /* PLACEMENT_INT */
      , (2999, 1, 8192) /* ITEM_TYPE_INT */
      , (2999, 5, 30) /* ENCUMB_VAL_INT */
      , (2999, 16, 8) /* ITEM_USEABLE_INT */

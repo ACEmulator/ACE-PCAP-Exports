@@ -17,7 +17,7 @@ VALUES (53342, 8, 100677010) /* ICON_DID */
      , (53342, 28, 6196) /* SPELL_DID - TectonicRiftsII_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53342, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (53342, 65, 101) /* PLACEMENT_INT */
      , (53342, 1, 8192) /* ITEM_TYPE_INT */
      , (53342, 5, 30) /* ENCUMB_VAL_INT */
      , (53342, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3391, 8, 100676463) /* ICON_DID */
      , (3391, 28, 926) /* SPELL_DID - LockpickMasterySelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3391, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3391, 65, 101) /* PLACEMENT_INT */
      , (3391, 1, 8192) /* ITEM_TYPE_INT */
      , (3391, 5, 30) /* ENCUMB_VAL_INT */
      , (3391, 16, 8) /* ITEM_USEABLE_INT */

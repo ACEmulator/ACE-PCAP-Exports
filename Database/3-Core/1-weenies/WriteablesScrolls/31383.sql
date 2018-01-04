@@ -17,7 +17,7 @@ VALUES (31383, 8, 100676718) /* ICON_DID */
      , (31383, 28, 3818) /* SPELL_DID - CurseRavenFury_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31383, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (31383, 65, 101) /* PLACEMENT_INT */
      , (31383, 1, 8192) /* ITEM_TYPE_INT */
      , (31383, 5, 30) /* ENCUMB_VAL_INT */
      , (31383, 16, 8) /* ITEM_USEABLE_INT */

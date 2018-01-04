@@ -17,7 +17,7 @@ VALUES (49469, 8, 100693008) /* ICON_DID */
      , (49469, 28, 6114) /* SPELL_DID - SummoningMasteryOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49469, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (49469, 65, 101) /* PLACEMENT_INT */
      , (49469, 1, 8192) /* ITEM_TYPE_INT */
      , (49469, 5, 30) /* ENCUMB_VAL_INT */
      , (49469, 16, 8) /* ITEM_USEABLE_INT */

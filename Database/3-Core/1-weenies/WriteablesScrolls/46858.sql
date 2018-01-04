@@ -17,7 +17,7 @@ VALUES (46858, 8, 100676672) /* ICON_DID */
      , (46858, 28, 5987) /* SPELL_DID - truevalueOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46858, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (46858, 65, 101) /* PLACEMENT_INT */
      , (46858, 1, 8192) /* ITEM_TYPE_INT */
      , (46858, 5, 30) /* ENCUMB_VAL_INT */
      , (46858, 16, 8) /* ITEM_USEABLE_INT */

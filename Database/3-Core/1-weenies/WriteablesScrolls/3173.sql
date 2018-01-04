@@ -17,7 +17,7 @@ VALUES (3173, 8, 100676450) /* ICON_DID */
      , (3173, 28, 474) /* SPELL_DID - BowIneptitudeOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3173, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3173, 65, 101) /* PLACEMENT_INT */
      , (3173, 1, 8192) /* ITEM_TYPE_INT */
      , (3173, 5, 30) /* ENCUMB_VAL_INT */
      , (3173, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3284, 8, 100676468) /* ICON_DID */
      , (3284, 28, 252) /* SPELL_DID - ImpregnabilityOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3284, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3284, 65, 101) /* PLACEMENT_INT */
      , (3284, 1, 8192) /* ITEM_TYPE_INT */
      , (3284, 5, 30) /* ENCUMB_VAL_INT */
      , (3284, 16, 8) /* ITEM_USEABLE_INT */

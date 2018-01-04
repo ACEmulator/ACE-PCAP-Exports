@@ -17,7 +17,7 @@ VALUES (2831, 8, 100676667) /* ICON_DID */
      , (2831, 28, 1522) /* SPELL_DID - FrostLure6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2831, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2831, 65, 101) /* PLACEMENT_INT */
      , (2831, 1, 8192) /* ITEM_TYPE_INT */
      , (2831, 5, 30) /* ENCUMB_VAL_INT */
      , (2831, 16, 8) /* ITEM_USEABLE_INT */

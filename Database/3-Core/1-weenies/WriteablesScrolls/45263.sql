@@ -17,7 +17,7 @@ VALUES (45263, 8, 100692251) /* ICON_DID */
      , (45263, 28, 5790) /* SPELL_DID - dualwieldineptitudeother4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45263, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45263, 65, 101) /* PLACEMENT_INT */
      , (45263, 1, 8192) /* ITEM_TYPE_INT */
      , (45263, 5, 30) /* ENCUMB_VAL_INT */
      , (45263, 16, 8) /* ITEM_USEABLE_INT */

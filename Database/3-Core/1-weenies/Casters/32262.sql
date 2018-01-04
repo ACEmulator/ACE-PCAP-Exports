@@ -18,7 +18,7 @@ VALUES (32262, 8, 100688412) /* ICON_DID */
      , (32262, 28, 3861) /* SPELL_DID - CantripTasteForBlood_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32262, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (32262, 65, 101) /* PLACEMENT_INT */
      , (32262, 1, 32768) /* ITEM_TYPE_INT */
      , (32262, 5, 100) /* ENCUMB_VAL_INT */
      , (32262, 18, 1) /* UI_EFFECTS_INT */

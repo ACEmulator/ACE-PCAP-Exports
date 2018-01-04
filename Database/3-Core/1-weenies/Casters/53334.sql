@@ -19,7 +19,7 @@ VALUES (53334, 8, 100693344) /* ICON_DID */
      , (53334, 28, 6320) /* SPELL_DID - RingOfSkullsII_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53334, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (53334, 65, 1) /* PLACEMENT_INT */
      , (53334, 1, 32768) /* ITEM_TYPE_INT */
      , (53334, 5, 50) /* ENCUMB_VAL_INT */
      , (53334, 18, 1) /* UI_EFFECTS_INT */

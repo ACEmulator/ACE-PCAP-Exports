@@ -17,7 +17,7 @@ VALUES (21104, 8, 100676937) /* ICON_DID */
      , (21104, 28, 2776) /* SPELL_DID - ManaBolt3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21104, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21104, 65, 101) /* PLACEMENT_INT */
      , (21104, 1, 8192) /* ITEM_TYPE_INT */
      , (21104, 5, 30) /* ENCUMB_VAL_INT */
      , (21104, 16, 8) /* ITEM_USEABLE_INT */

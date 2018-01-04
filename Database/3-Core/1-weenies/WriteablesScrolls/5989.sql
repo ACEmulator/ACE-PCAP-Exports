@@ -17,7 +17,7 @@ VALUES (5989, 8, 100676480) /* ICON_DID */
      , (5989, 28, 1760) /* SPELL_DID - AlchemyMasteryOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5989, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5989, 65, 101) /* PLACEMENT_INT */
      , (5989, 1, 8192) /* ITEM_TYPE_INT */
      , (5989, 5, 30) /* ENCUMB_VAL_INT */
      , (5989, 16, 8) /* ITEM_USEABLE_INT */

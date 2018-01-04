@@ -17,7 +17,7 @@ VALUES (2839, 8, 100676671) /* ICON_DID */
      , (2839, 28, 1472) /* SPELL_DID - HideValue4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2839, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2839, 65, 101) /* PLACEMENT_INT */
      , (2839, 1, 8192) /* ITEM_TYPE_INT */
      , (2839, 5, 30) /* ENCUMB_VAL_INT */
      , (2839, 16, 8) /* ITEM_USEABLE_INT */

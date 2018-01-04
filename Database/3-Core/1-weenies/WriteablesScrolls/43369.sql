@@ -17,7 +17,7 @@ VALUES (43369, 8, 100691548) /* ICON_DID */
      , (43369, 28, 5413) /* SPELL_DID - VoidMagicMasterySelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43369, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43369, 65, 101) /* PLACEMENT_INT */
      , (43369, 1, 8192) /* ITEM_TYPE_INT */
      , (43369, 5, 30) /* ENCUMB_VAL_INT */
      , (43369, 16, 8) /* ITEM_USEABLE_INT */

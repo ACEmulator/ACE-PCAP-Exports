@@ -17,7 +17,7 @@ VALUES (46864, 8, 100676672) /* ICON_DID */
      , (46864, 28, 5984) /* SPELL_DID - truevalueOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46864, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (46864, 65, 101) /* PLACEMENT_INT */
      , (46864, 1, 8192) /* ITEM_TYPE_INT */
      , (46864, 5, 30) /* ENCUMB_VAL_INT */
      , (46864, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3035, 8, 100676949) /* ICON_DID */
      , (3035, 28, 849) /* SPELL_DID - FireProtectionOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3035, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3035, 65, 101) /* PLACEMENT_INT */
      , (3035, 1, 8192) /* ITEM_TYPE_INT */
      , (3035, 5, 30) /* ENCUMB_VAL_INT */
      , (3035, 16, 8) /* ITEM_USEABLE_INT */

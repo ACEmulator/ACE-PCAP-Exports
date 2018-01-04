@@ -17,7 +17,7 @@ VALUES (20502, 8, 100676477) /* ICON_DID */
      , (20502, 28, 2197) /* SPELL_DID - ArmorExpertiseSelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20502, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20502, 65, 101) /* PLACEMENT_INT */
      , (20502, 1, 8192) /* ITEM_TYPE_INT */
      , (20502, 5, 30) /* ENCUMB_VAL_INT */
      , (20502, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (37998, 8, 100676951) /* ICON_DID */
      , (37998, 28, 4460) /* SPELL_DID - AcidProtectionSelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37998, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37998, 65, 101) /* PLACEMENT_INT */
      , (37998, 1, 8192) /* ITEM_TYPE_INT */
      , (37998, 5, 30) /* ENCUMB_VAL_INT */
      , (37998, 16, 8) /* ITEM_USEABLE_INT */

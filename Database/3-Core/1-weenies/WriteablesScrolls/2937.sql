@@ -17,7 +17,7 @@ VALUES (2937, 8, 100677019) /* ICON_DID */
      , (2937, 28, 150) /* SPELL_DID - ForceVolley6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2937, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2937, 65, 101) /* PLACEMENT_INT */
      , (2937, 1, 8192) /* ITEM_TYPE_INT */
      , (2937, 5, 30) /* ENCUMB_VAL_INT */
      , (2937, 16, 8) /* ITEM_USEABLE_INT */

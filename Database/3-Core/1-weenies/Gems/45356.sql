@@ -21,7 +21,7 @@ VALUES (45356, 8, 100686697) /* ICON_DID */
      , (45356, 28, 5912) /* SPELL_DID - DirtyFightingMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45356, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45356, 65, 101) /* PLACEMENT_INT */
      , (45356, 1, 2048) /* ITEM_TYPE_INT */
      , (45356, 5, 5) /* ENCUMB_VAL_INT */
      , (45356, 18, 1) /* UI_EFFECTS_INT */

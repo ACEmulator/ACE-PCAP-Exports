@@ -17,7 +17,7 @@ VALUES (2745, 8, 100676474) /* ICON_DID */
      , (2745, 28, 1331) /* SPELL_DID - StrengthSelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2745, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2745, 65, 101) /* PLACEMENT_INT */
      , (2745, 1, 8192) /* ITEM_TYPE_INT */
      , (2745, 5, 30) /* ENCUMB_VAL_INT */
      , (2745, 16, 8) /* ITEM_USEABLE_INT */

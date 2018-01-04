@@ -17,7 +17,7 @@ VALUES (20602, 8, 100676933) /* ICON_DID */
      , (20602, 28, 2330) /* SPELL_DID - DrainStamina7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20602, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20602, 65, 101) /* PLACEMENT_INT */
      , (20602, 1, 8192) /* ITEM_TYPE_INT */
      , (20602, 5, 30) /* ENCUMB_VAL_INT */
      , (20602, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (9627, 8, 100676461) /* ICON_DID */
      , (9627, 28, 1015) /* SPELL_DID - JumpingIneptitudeOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9627, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9627, 65, 101) /* PLACEMENT_INT */
      , (9627, 1, 8192) /* ITEM_TYPE_INT */
      , (9627, 5, 30) /* ENCUMB_VAL_INT */
      , (9627, 16, 8) /* ITEM_USEABLE_INT */

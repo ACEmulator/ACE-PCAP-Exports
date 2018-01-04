@@ -18,7 +18,7 @@ VALUES (21395, 8, 100673490) /* ICON_DID */
      , (21395, 28, 2784) /* SPELL_DID - LesserElementalFuryLightning_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21395, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (21395, 65, 1) /* PLACEMENT_INT */
      , (21395, 1, 32768) /* ITEM_TYPE_INT */
      , (21395, 5, 120) /* ENCUMB_VAL_INT */
      , (21395, 18, 64) /* UI_EFFECTS_INT */

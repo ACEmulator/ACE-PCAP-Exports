@@ -17,7 +17,7 @@ VALUES (2641, 8, 100676452) /* ICON_DID */
      , (2641, 28, 1394) /* SPELL_DID - ClumsinessOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2641, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2641, 65, 101) /* PLACEMENT_INT */
      , (2641, 1, 8192) /* ITEM_TYPE_INT */
      , (2641, 5, 30) /* ENCUMB_VAL_INT */
      , (2641, 16, 8) /* ITEM_USEABLE_INT */

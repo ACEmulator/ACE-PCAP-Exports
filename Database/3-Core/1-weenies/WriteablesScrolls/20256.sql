@@ -17,7 +17,7 @@ VALUES (20256, 8, 100676471) /* ICON_DID */
      , (20256, 28, 2090) /* SPELL_DID - WillPowerOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20256, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20256, 65, 101) /* PLACEMENT_INT */
      , (20256, 1, 8192) /* ITEM_TYPE_INT */
      , (20256, 5, 30) /* ENCUMB_VAL_INT */
      , (20256, 16, 8) /* ITEM_USEABLE_INT */

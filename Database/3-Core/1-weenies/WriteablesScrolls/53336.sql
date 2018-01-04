@@ -17,7 +17,7 @@ VALUES (53336, 8, 100677027) /* ICON_DID */
      , (53336, 28, 6189) /* SPELL_DID - SearingDiscII_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53336, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (53336, 65, 101) /* PLACEMENT_INT */
      , (53336, 1, 8192) /* ITEM_TYPE_INT */
      , (53336, 5, 30) /* ENCUMB_VAL_INT */
      , (53336, 16, 8) /* ITEM_USEABLE_INT */

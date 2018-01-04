@@ -17,7 +17,7 @@ VALUES (2754, 8, 100676471) /* ICON_DID */
      , (2754, 28, 1454) /* SPELL_DID - WillpowerOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2754, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2754, 65, 101) /* PLACEMENT_INT */
      , (2754, 1, 8192) /* ITEM_TYPE_INT */
      , (2754, 5, 30) /* ENCUMB_VAL_INT */
      , (2754, 16, 8) /* ITEM_USEABLE_INT */

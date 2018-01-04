@@ -17,7 +17,7 @@ VALUES (1846, 8, 100676952) /* ICON_DID */
      , (1846, 28, 1048) /* SPELL_DID - BludgeonVulnerabilityOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1846, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1846, 65, 101) /* PLACEMENT_INT */
      , (1846, 1, 8192) /* ITEM_TYPE_INT */
      , (1846, 5, 30) /* ENCUMB_VAL_INT */
      , (1846, 16, 8) /* ITEM_USEABLE_INT */

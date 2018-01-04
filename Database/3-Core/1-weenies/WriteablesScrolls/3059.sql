@@ -17,7 +17,7 @@ VALUES (3059, 8, 100676948) /* ICON_DID */
      , (3059, 28, 1086) /* SPELL_DID - LightningVulnerabilityOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3059, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3059, 65, 101) /* PLACEMENT_INT */
      , (3059, 1, 8192) /* ITEM_TYPE_INT */
      , (3059, 5, 30) /* ENCUMB_VAL_INT */
      , (3059, 16, 8) /* ITEM_USEABLE_INT */

@@ -18,7 +18,7 @@ VALUES (28454, 8, 100676964) /* ICON_DID */
      , (28454, 28, 3441) /* SPELL_DID - LugianInsight_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28454, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28454, 65, 101) /* PLACEMENT_INT */
      , (28454, 1, 32) /* ITEM_TYPE_INT */
      , (28454, 5, 150) /* ENCUMB_VAL_INT */
      , (28454, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (2926, 8, 100677022) /* ICON_DID */
      , (2926, 28, 117) /* SPELL_DID - FlameBlast5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2926, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2926, 65, 101) /* PLACEMENT_INT */
      , (2926, 1, 8192) /* ITEM_TYPE_INT */
      , (2926, 5, 30) /* ENCUMB_VAL_INT */
      , (2926, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (20550, 8, 100676446) /* ICON_DID */
      , (20550, 28, 2262) /* SPELL_DID - LeadershipMasteryOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20550, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20550, 65, 101) /* PLACEMENT_INT */
      , (20550, 1, 8192) /* ITEM_TYPE_INT */
      , (20550, 5, 30) /* ENCUMB_VAL_INT */
      , (20550, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (20586, 8, 100692254) /* ICON_DID */
      , (20586, 28, 2309) /* SPELL_DID - SwordMasterySelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20586, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20586, 65, 101) /* PLACEMENT_INT */
      , (20586, 1, 8192) /* ITEM_TYPE_INT */
      , (20586, 5, 30) /* ENCUMB_VAL_INT */
      , (20586, 16, 8) /* ITEM_USEABLE_INT */

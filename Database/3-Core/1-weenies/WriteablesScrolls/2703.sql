@@ -17,7 +17,7 @@ VALUES (2703, 8, 100676928) /* ICON_DID */
      , (2703, 28, 1324) /* SPELL_DID - ImperilOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2703, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2703, 65, 101) /* PLACEMENT_INT */
      , (2703, 1, 8192) /* ITEM_TYPE_INT */
      , (2703, 5, 30) /* ENCUMB_VAL_INT */
      , (2703, 16, 8) /* ITEM_USEABLE_INT */

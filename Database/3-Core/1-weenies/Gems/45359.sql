@@ -21,7 +21,7 @@ VALUES (45359, 8, 100686697) /* ICON_DID */
      , (45359, 28, 5910) /* SPELL_DID - SneakAttackMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45359, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45359, 65, 101) /* PLACEMENT_INT */
      , (45359, 1, 2048) /* ITEM_TYPE_INT */
      , (45359, 5, 5) /* ENCUMB_VAL_INT */
      , (45359, 18, 1) /* UI_EFFECTS_INT */

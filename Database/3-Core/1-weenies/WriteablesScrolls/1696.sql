@@ -17,7 +17,7 @@ VALUES (1696, 8, 100676448) /* ICON_DID */
      , (1696, 28, 850) /* SPELL_DID - DeceptionMasterySelf1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1696, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1696, 65, 101) /* PLACEMENT_INT */
      , (1696, 1, 8192) /* ITEM_TYPE_INT */
      , (1696, 5, 30) /* ENCUMB_VAL_INT */
      , (1696, 16, 8) /* ITEM_USEABLE_INT */

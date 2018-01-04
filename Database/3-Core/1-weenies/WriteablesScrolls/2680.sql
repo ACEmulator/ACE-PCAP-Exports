@@ -17,7 +17,7 @@ VALUES (2680, 8, 100676458) /* ICON_DID */
      , (2680, 28, 1425) /* SPELL_DID - FocusSelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2680, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2680, 65, 101) /* PLACEMENT_INT */
      , (2680, 1, 8192) /* ITEM_TYPE_INT */
      , (2680, 5, 30) /* ENCUMB_VAL_INT */
      , (2680, 16, 8) /* ITEM_USEABLE_INT */

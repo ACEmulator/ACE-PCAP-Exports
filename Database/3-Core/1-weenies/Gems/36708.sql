@@ -21,7 +21,7 @@ VALUES (36708, 8, 100686697) /* ICON_DID */
      , (36708, 28, 4221) /* SPELL_DID - LifeMagicMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36708, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (36708, 65, 101) /* PLACEMENT_INT */
      , (36708, 1, 2048) /* ITEM_TYPE_INT */
      , (36708, 5, 10) /* ENCUMB_VAL_INT */
      , (36708, 18, 1) /* UI_EFFECTS_INT */

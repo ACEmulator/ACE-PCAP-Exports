@@ -17,7 +17,7 @@ VALUES (20413, 8, 100676666) /* ICON_DID */
      , (20413, 28, 2103) /* SPELL_DID - FlameLure7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20413, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20413, 65, 101) /* PLACEMENT_INT */
      , (20413, 1, 8192) /* ITEM_TYPE_INT */
      , (20413, 5, 30) /* ENCUMB_VAL_INT */
      , (20413, 16, 8) /* ITEM_USEABLE_INT */

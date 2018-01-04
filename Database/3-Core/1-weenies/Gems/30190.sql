@@ -21,7 +21,7 @@ VALUES (30190, 8, 100686695) /* ICON_DID */
      , (30190, 28, 3686) /* SPELL_DID - BladeBaneRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30190, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30190, 65, 101) /* PLACEMENT_INT */
      , (30190, 1, 2048) /* ITEM_TYPE_INT */
      , (30190, 5, 5) /* ENCUMB_VAL_INT */
      , (30190, 18, 1) /* UI_EFFECTS_INT */

@@ -18,7 +18,7 @@ VALUES (44074, 8, 100667503) /* ICON_DID */
      , (44074, 28, 157) /* SPELL_DID - SummonPortal1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44074, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (44074, 65, 101) /* PLACEMENT_INT */
      , (44074, 1, 2048) /* ITEM_TYPE_INT */
      , (44074, 5, 10) /* ENCUMB_VAL_INT */
      , (44074, 280, 1000) /* SHARED_COOLDOWN_INT */

@@ -17,7 +17,7 @@ VALUES (7513, 8, 100677015) /* ICON_DID */
      , (7513, 28, 1787) /* SPELL_DID - FrostRing_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7513, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7513, 65, 101) /* PLACEMENT_INT */
      , (7513, 1, 8192) /* ITEM_TYPE_INT */
      , (7513, 5, 30) /* ENCUMB_VAL_INT */
      , (7513, 16, 8) /* ITEM_USEABLE_INT */

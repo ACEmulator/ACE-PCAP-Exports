@@ -17,7 +17,7 @@ VALUES (43343, 8, 100691574) /* ICON_DID */
      , (43343, 28, 5384) /* SPELL_DID - CurseWeakness6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43343, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43343, 65, 101) /* PLACEMENT_INT */
      , (43343, 1, 8192) /* ITEM_TYPE_INT */
      , (43343, 5, 30) /* ENCUMB_VAL_INT */
      , (43343, 16, 8) /* ITEM_USEABLE_INT */

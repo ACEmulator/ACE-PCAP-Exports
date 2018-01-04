@@ -17,7 +17,7 @@ VALUES (3343, 8, 100676470) /* ICON_DID */
      , (3343, 28, 1001) /* SPELL_DID - LeadenFeetOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3343, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3343, 65, 101) /* PLACEMENT_INT */
      , (3343, 1, 8192) /* ITEM_TYPE_INT */
      , (3343, 5, 30) /* ENCUMB_VAL_INT */
      , (3343, 16, 8) /* ITEM_USEABLE_INT */

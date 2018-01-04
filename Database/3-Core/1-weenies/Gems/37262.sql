@@ -18,7 +18,7 @@ VALUES (37262, 8, 100689859) /* ICON_DID */
      , (37262, 28, 4281) /* SPELL_DID - FocusJesterDeck_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37262, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37262, 65, 101) /* PLACEMENT_INT */
      , (37262, 1, 2048) /* ITEM_TYPE_INT */
      , (37262, 5, 50) /* ENCUMB_VAL_INT */
      , (37262, 280, 1) /* SHARED_COOLDOWN_INT */

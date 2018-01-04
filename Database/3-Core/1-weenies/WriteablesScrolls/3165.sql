@@ -17,7 +17,7 @@ VALUES (3165, 8, 100692249) /* ICON_DID */
      , (3165, 28, 295) /* SPELL_DID - AxeMasteryOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3165, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3165, 65, 101) /* PLACEMENT_INT */
      , (3165, 1, 8192) /* ITEM_TYPE_INT */
      , (3165, 5, 30) /* ENCUMB_VAL_INT */
      , (3165, 16, 8) /* ITEM_USEABLE_INT */

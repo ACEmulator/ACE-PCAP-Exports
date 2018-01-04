@@ -17,7 +17,7 @@ VALUES (53335, 8, 100691572) /* ICON_DID */
      , (53335, 28, 6195) /* SPELL_DID - CloudedSoulII_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53335, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (53335, 65, 101) /* PLACEMENT_INT */
      , (53335, 1, 8192) /* ITEM_TYPE_INT */
      , (53335, 5, 30) /* ENCUMB_VAL_INT */
      , (53335, 16, 8) /* ITEM_USEABLE_INT */

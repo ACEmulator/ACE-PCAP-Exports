@@ -17,7 +17,7 @@ VALUES (1838, 8, 100676951) /* ICON_DID */
      , (1838, 28, 509) /* SPELL_DID - AcidProtectionOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1838, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1838, 65, 101) /* PLACEMENT_INT */
      , (1838, 1, 8192) /* ITEM_TYPE_INT */
      , (1838, 5, 30) /* ENCUMB_VAL_INT */
      , (1838, 16, 8) /* ITEM_USEABLE_INT */

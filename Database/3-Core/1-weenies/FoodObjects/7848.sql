@@ -18,7 +18,7 @@ VALUES (7848, 8, 100670862) /* ICON_DID */
      , (7848, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7848, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7848, 65, 101) /* PLACEMENT_INT */
      , (7848, 1, 32) /* ITEM_TYPE_INT */
      , (7848, 5, 240) /* ENCUMB_VAL_INT */
      , (7848, 18, 16) /* UI_EFFECTS_INT */

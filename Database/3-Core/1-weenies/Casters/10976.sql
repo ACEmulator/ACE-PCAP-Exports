@@ -18,7 +18,7 @@ VALUES (10976, 8, 100671870) /* ICON_DID */
      , (10976, 28, 2421) /* SPELL_DID - ParalyzingFear_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10976, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (10976, 65, 1) /* PLACEMENT_INT */
      , (10976, 1, 32768) /* ITEM_TYPE_INT */
      , (10976, 5, 50) /* ENCUMB_VAL_INT */
      , (10976, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (3561, 8, 100676467) /* ICON_DID */
      , (3561, 28, 233) /* SPELL_DID - VulnerabilityOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3561, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3561, 65, 101) /* PLACEMENT_INT */
      , (3561, 1, 8192) /* ITEM_TYPE_INT */
      , (3561, 5, 30) /* ENCUMB_VAL_INT */
      , (3561, 16, 8) /* ITEM_USEABLE_INT */

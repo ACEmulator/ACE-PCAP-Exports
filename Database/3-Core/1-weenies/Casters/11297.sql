@@ -18,7 +18,7 @@ VALUES (11297, 8, 100671868) /* ICON_DID */
      , (11297, 28, 1836) /* SPELL_DID - FrostStrike_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11297, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (11297, 65, 1) /* PLACEMENT_INT */
      , (11297, 1, 32768) /* ITEM_TYPE_INT */
      , (11297, 5, 200) /* ENCUMB_VAL_INT */
      , (11297, 18, 1) /* UI_EFFECTS_INT */

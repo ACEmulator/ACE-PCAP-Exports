@@ -21,7 +21,7 @@ VALUES (36013, 8, 100686697) /* ICON_DID */
      , (36013, 28, 4131) /* SPELL_DID - AxeMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36013, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (36013, 65, 101) /* PLACEMENT_INT */
      , (36013, 1, 2048) /* ITEM_TYPE_INT */
      , (36013, 5, 5) /* ENCUMB_VAL_INT */
      , (36013, 18, 1) /* UI_EFFECTS_INT */

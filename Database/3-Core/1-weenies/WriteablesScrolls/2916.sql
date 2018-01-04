@@ -17,7 +17,7 @@ VALUES (2916, 8, 100677028) /* ICON_DID */
      , (2916, 28, 124) /* SPELL_DID - BladeBlast4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2916, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2916, 65, 101) /* PLACEMENT_INT */
      , (2916, 1, 8192) /* ITEM_TYPE_INT */
      , (2916, 5, 30) /* ENCUMB_VAL_INT */
      , (2916, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (45325, 8, 100692252) /* ICON_DID */
      , (45325, 28, 5852) /* SPELL_DID - shieldmasteryself2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45325, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45325, 65, 101) /* PLACEMENT_INT */
      , (45325, 1, 8192) /* ITEM_TYPE_INT */
      , (45325, 5, 30) /* ENCUMB_VAL_INT */
      , (45325, 16, 8) /* ITEM_USEABLE_INT */

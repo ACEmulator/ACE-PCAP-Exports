@@ -17,7 +17,7 @@ VALUES (32492, 8, 100676673) /* ICON_DID */
      , (32492, 28, 3865) /* SPELL_DID - GlendenWoodRecall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32492, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (32492, 65, 101) /* PLACEMENT_INT */
      , (32492, 1, 8192) /* ITEM_TYPE_INT */
      , (32492, 5, 30) /* ENCUMB_VAL_INT */
      , (32492, 16, 8) /* ITEM_USEABLE_INT */

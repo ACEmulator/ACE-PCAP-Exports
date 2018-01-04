@@ -17,7 +17,7 @@ VALUES (3513, 8, 100692254) /* ICON_DID */
      , (3513, 28, 425) /* SPELL_DID - SwordIneptitudeOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3513, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3513, 65, 101) /* PLACEMENT_INT */
      , (3513, 1, 8192) /* ITEM_TYPE_INT */
      , (3513, 5, 30) /* ENCUMB_VAL_INT */
      , (3513, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (21291, 8, 100677026) /* ICON_DID */
      , (21291, 28, 2714) /* SPELL_DID - AcidArc4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21291, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21291, 65, 101) /* PLACEMENT_INT */
      , (21291, 1, 8192) /* ITEM_TYPE_INT */
      , (21291, 5, 30) /* ENCUMB_VAL_INT */
      , (21291, 16, 8) /* ITEM_USEABLE_INT */

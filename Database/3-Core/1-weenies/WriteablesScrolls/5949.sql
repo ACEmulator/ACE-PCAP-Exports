@@ -17,7 +17,7 @@ VALUES (5949, 8, 100676451) /* ICON_DID */
      , (5949, 28, 1726) /* SPELL_DID - CookingIneptitudeOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5949, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5949, 65, 101) /* PLACEMENT_INT */
      , (5949, 1, 8192) /* ITEM_TYPE_INT */
      , (5949, 5, 30) /* ENCUMB_VAL_INT */
      , (5949, 16, 8) /* ITEM_USEABLE_INT */

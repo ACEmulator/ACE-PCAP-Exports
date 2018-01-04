@@ -17,7 +17,7 @@ VALUES (20548, 8, 100676470) /* ICON_DID */
      , (20548, 28, 2258) /* SPELL_DID - LeadenFeetOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20548, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20548, 65, 101) /* PLACEMENT_INT */
      , (20548, 1, 8192) /* ITEM_TYPE_INT */
      , (20548, 5, 30) /* ENCUMB_VAL_INT */
      , (20548, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (20444, 8, 100677019) /* ICON_DID */
      , (20444, 28, 2131) /* SPELL_DID - ForceBlast7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20444, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20444, 65, 101) /* PLACEMENT_INT */
      , (20444, 1, 8192) /* ITEM_TYPE_INT */
      , (20444, 5, 30) /* ENCUMB_VAL_INT */
      , (20444, 16, 8) /* ITEM_USEABLE_INT */

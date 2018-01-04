@@ -17,7 +17,7 @@ VALUES (3081, 8, 100676940) /* ICON_DID */
      , (3081, 28, 198) /* SPELL_DID - ExhaustionOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3081, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3081, 65, 101) /* PLACEMENT_INT */
      , (3081, 1, 8192) /* ITEM_TYPE_INT */
      , (3081, 5, 30) /* ENCUMB_VAL_INT */
      , (3081, 16, 8) /* ITEM_USEABLE_INT */

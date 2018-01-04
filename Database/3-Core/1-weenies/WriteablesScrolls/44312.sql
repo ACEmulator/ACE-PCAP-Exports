@@ -17,7 +17,7 @@ VALUES (44312, 8, 100676673) /* ICON_DID */
      , (44312, 28, 5541) /* SPELL_DID - SandAreaRecall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44312, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (44312, 65, 101) /* PLACEMENT_INT */
      , (44312, 1, 8192) /* ITEM_TYPE_INT */
      , (44312, 5, 30) /* ENCUMB_VAL_INT */
      , (44312, 16, 8) /* ITEM_USEABLE_INT */

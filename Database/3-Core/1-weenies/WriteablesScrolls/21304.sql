@@ -17,7 +17,7 @@ VALUES (21304, 8, 100677022) /* ICON_DID */
      , (21304, 28, 2741) /* SPELL_DID - FlameArc3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21304, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21304, 65, 101) /* PLACEMENT_INT */
      , (21304, 1, 8192) /* ITEM_TYPE_INT */
      , (21304, 5, 30) /* ENCUMB_VAL_INT */
      , (21304, 16, 8) /* ITEM_USEABLE_INT */

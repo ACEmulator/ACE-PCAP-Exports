@@ -17,7 +17,7 @@ VALUES (8920, 8, 100677022) /* ICON_DID */
      , (8920, 28, 1796) /* SPELL_DID - FlameStreak1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8920, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8920, 65, 101) /* PLACEMENT_INT */
      , (8920, 1, 8192) /* ITEM_TYPE_INT */
      , (8920, 5, 30) /* ENCUMB_VAL_INT */
      , (8920, 16, 8) /* ITEM_USEABLE_INT */

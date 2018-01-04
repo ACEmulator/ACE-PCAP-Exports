@@ -18,7 +18,7 @@ VALUES (4241, 8, 100670051) /* ICON_DID */
      , (4241, 6, 67111919) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4241, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (4241, 65, 101) /* PLACEMENT_INT */
      , (4241, 1, 128) /* ITEM_TYPE_INT */
      , (4241, 5, 900) /* ENCUMB_VAL_INT */
      , (4241, 151, 1) /* HOOK_TYPE_INT */

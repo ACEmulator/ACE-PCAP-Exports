@@ -17,7 +17,7 @@ VALUES (37776, 8, 100677022) /* ICON_DID */
      , (37776, 28, 4438) /* SPELL_DID - FlameBlast8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37776, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37776, 65, 101) /* PLACEMENT_INT */
      , (37776, 1, 8192) /* ITEM_TYPE_INT */
      , (37776, 5, 30) /* ENCUMB_VAL_INT */
      , (37776, 16, 8) /* ITEM_USEABLE_INT */

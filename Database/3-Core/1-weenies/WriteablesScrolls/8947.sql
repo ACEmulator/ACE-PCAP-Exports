@@ -17,7 +17,7 @@ VALUES (8947, 8, 100677008) /* ICON_DID */
      , (8947, 28, 1820) /* SPELL_DID - ShockwaveStreak1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8947, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8947, 65, 101) /* PLACEMENT_INT */
      , (8947, 1, 8192) /* ITEM_TYPE_INT */
      , (8947, 5, 30) /* ENCUMB_VAL_INT */
      , (8947, 16, 8) /* ITEM_USEABLE_INT */

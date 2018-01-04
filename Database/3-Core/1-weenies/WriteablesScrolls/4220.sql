@@ -17,7 +17,7 @@ VALUES (4220, 8, 100676934) /* ICON_DID */
      , (4220, 28, 1240) /* SPELL_DID - DrainHealth4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4220, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (4220, 65, 101) /* PLACEMENT_INT */
      , (4220, 1, 8192) /* ITEM_TYPE_INT */
      , (4220, 5, 30) /* ENCUMB_VAL_INT */
      , (4220, 16, 8) /* ITEM_USEABLE_INT */

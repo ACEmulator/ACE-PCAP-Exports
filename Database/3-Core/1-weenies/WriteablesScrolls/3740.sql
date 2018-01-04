@@ -17,7 +17,7 @@ VALUES (3740, 8, 100676929) /* ICON_DID */
      , (3740, 28, 1259) /* SPELL_DID - InfuseMana6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3740, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3740, 65, 101) /* PLACEMENT_INT */
      , (3740, 1, 8192) /* ITEM_TYPE_INT */
      , (3740, 5, 30) /* ENCUMB_VAL_INT */
      , (3740, 16, 8) /* ITEM_USEABLE_INT */

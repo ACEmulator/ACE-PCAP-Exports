@@ -18,7 +18,7 @@ VALUES (10959, 8, 100671763) /* ICON_DID */
      , (10959, 28, 1035) /* SPELL_DID - ColdProtectionSelf6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10959, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (10959, 65, 101) /* PLACEMENT_INT */
      , (10959, 1, 32) /* ITEM_TYPE_INT */
      , (10959, 5, 50) /* ENCUMB_VAL_INT */
      , (10959, 18, 1) /* UI_EFFECTS_INT */

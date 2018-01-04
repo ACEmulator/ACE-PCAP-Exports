@@ -17,7 +17,7 @@ VALUES (20623, 8, 100676673) /* ICON_DID */
      , (20623, 28, 2649) /* SPELL_DID - SummonSecondPortal2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20623, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20623, 65, 101) /* PLACEMENT_INT */
      , (20623, 1, 8192) /* ITEM_TYPE_INT */
      , (20623, 5, 30) /* ENCUMB_VAL_INT */
      , (20623, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (2843, 8, 100676661) /* ICON_DID */
      , (2843, 28, 1483) /* SPELL_DID - Impenetrability3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2843, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2843, 65, 101) /* PLACEMENT_INT */
      , (2843, 1, 8192) /* ITEM_TYPE_INT */
      , (2843, 5, 30) /* ENCUMB_VAL_INT */
      , (2843, 16, 8) /* ITEM_USEABLE_INT */

@@ -18,7 +18,7 @@ VALUES (30798, 8, 100677488) /* ICON_DID */
      , (30798, 28, 3799) /* SPELL_DID - BlackMarrowBliss_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30798, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30798, 65, 101) /* PLACEMENT_INT */
      , (30798, 1, 32) /* ITEM_TYPE_INT */
      , (30798, 5, 15) /* ENCUMB_VAL_INT */
      , (30798, 11, 1) /* MAX_STACK_SIZE_INT */

@@ -17,7 +17,7 @@ VALUES (2781, 8, 100676664) /* ICON_DID */
      , (2781, 28, 1557) /* SPELL_DID - BladeLure6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2781, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2781, 65, 101) /* PLACEMENT_INT */
      , (2781, 1, 8192) /* ITEM_TYPE_INT */
      , (2781, 5, 30) /* ENCUMB_VAL_INT */
      , (2781, 16, 8) /* ITEM_USEABLE_INT */

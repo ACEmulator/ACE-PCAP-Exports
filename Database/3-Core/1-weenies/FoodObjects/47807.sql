@@ -16,7 +16,7 @@ VALUES (47807, 8, 100667464) /* ICON_DID */
      , (47807, 1, 33554678) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47807, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (47807, 65, 101) /* PLACEMENT_INT */
      , (47807, 1, 32) /* ITEM_TYPE_INT */
      , (47807, 5, 225) /* ENCUMB_VAL_INT */
      , (47807, 11, 10) /* MAX_STACK_SIZE_INT */

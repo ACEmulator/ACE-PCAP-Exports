@@ -17,7 +17,7 @@ VALUES (1730, 8, 100676448) /* ICON_DID */
      , (1730, 28, 830) /* SPELL_DID - PersonAttunementOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1730, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1730, 65, 101) /* PLACEMENT_INT */
      , (1730, 1, 8192) /* ITEM_TYPE_INT */
      , (1730, 5, 30) /* ENCUMB_VAL_INT */
      , (1730, 16, 8) /* ITEM_USEABLE_INT */

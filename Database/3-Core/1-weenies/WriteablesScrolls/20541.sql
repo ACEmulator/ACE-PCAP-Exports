@@ -17,7 +17,7 @@ VALUES (20541, 8, 100676460) /* ICON_DID */
      , (20541, 28, 2249) /* SPELL_DID - ItemEnchantmentMasterySelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20541, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20541, 65, 101) /* PLACEMENT_INT */
      , (20541, 1, 8192) /* ITEM_TYPE_INT */
      , (20541, 5, 30) /* ENCUMB_VAL_INT */
      , (20541, 16, 8) /* ITEM_USEABLE_INT */

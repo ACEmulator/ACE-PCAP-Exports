@@ -17,7 +17,7 @@ VALUES (20464, 8, 100677028) /* ICON_DID */
      , (20464, 28, 2147) /* SPELL_DID - WhirlingBladeStreak7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20464, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20464, 65, 101) /* PLACEMENT_INT */
      , (20464, 1, 8192) /* ITEM_TYPE_INT */
      , (20464, 5, 30) /* ENCUMB_VAL_INT */
      , (20464, 16, 8) /* ITEM_USEABLE_INT */

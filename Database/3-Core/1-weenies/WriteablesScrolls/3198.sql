@@ -17,7 +17,7 @@ VALUES (3198, 8, 100676453) /* ICON_DID */
      , (3198, 28, 558) /* SPELL_DID - CreatureEnchantmentMasterySelf2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3198, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3198, 65, 101) /* PLACEMENT_INT */
      , (3198, 1, 8192) /* ITEM_TYPE_INT */
      , (3198, 5, 30) /* ENCUMB_VAL_INT */
      , (3198, 16, 8) /* ITEM_USEABLE_INT */

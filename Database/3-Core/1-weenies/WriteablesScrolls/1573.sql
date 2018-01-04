@@ -17,7 +17,7 @@ VALUES (1573, 8, 100677016) /* ICON_DID */
      , (1573, 28, 28) /* SPELL_DID - FrostBolt1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1573, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1573, 65, 101) /* PLACEMENT_INT */
      , (1573, 1, 8192) /* ITEM_TYPE_INT */
      , (1573, 5, 30) /* ENCUMB_VAL_INT */
      , (1573, 16, 8) /* ITEM_USEABLE_INT */

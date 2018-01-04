@@ -17,7 +17,7 @@ VALUES (2762, 8, 100676648) /* ICON_DID */
      , (2762, 28, 1494) /* SPELL_DID - AcidBane2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2762, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2762, 65, 101) /* PLACEMENT_INT */
      , (2762, 1, 8192) /* ITEM_TYPE_INT */
      , (2762, 5, 30) /* ENCUMB_VAL_INT */
      , (2762, 16, 8) /* ITEM_USEABLE_INT */

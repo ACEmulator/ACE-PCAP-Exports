@@ -18,7 +18,7 @@ VALUES (36489, 8, 100689642) /* ICON_DID */
      , (36489, 28, 4216) /* SPELL_DID - FrostWaveOrisis_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36489, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (36489, 65, 1) /* PLACEMENT_INT */
      , (36489, 1, 32768) /* ITEM_TYPE_INT */
      , (36489, 5, 180) /* ENCUMB_VAL_INT */
      , (36489, 18, 1) /* UI_EFFECTS_INT */

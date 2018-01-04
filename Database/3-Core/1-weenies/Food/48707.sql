@@ -19,7 +19,7 @@ VALUES (48707, 8, 100667432) /* ICON_DID */
      , (48707, 28, 6038) /* SPELL_DID - CiderStamina_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48707, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (48707, 65, 101) /* PLACEMENT_INT */
      , (48707, 1, 32) /* ITEM_TYPE_INT */
      , (48707, 5, 150) /* ENCUMB_VAL_INT */
      , (48707, 18, 1) /* UI_EFFECTS_INT */

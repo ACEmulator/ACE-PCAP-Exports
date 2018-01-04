@@ -17,7 +17,7 @@ VALUES (45282, 8, 100692251) /* ICON_DID */
      , (45282, 28, 5809) /* SPELL_DID - dualwieldmasteryself7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45282, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45282, 65, 101) /* PLACEMENT_INT */
      , (45282, 1, 8192) /* ITEM_TYPE_INT */
      , (45282, 5, 30) /* ENCUMB_VAL_INT */
      , (45282, 16, 8) /* ITEM_USEABLE_INT */

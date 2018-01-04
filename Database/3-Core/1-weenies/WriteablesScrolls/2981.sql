@@ -17,7 +17,7 @@ VALUES (2981, 8, 100676951) /* ICON_DID */
      , (2981, 28, 519) /* SPELL_DID - AcidProtectionSelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2981, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2981, 65, 101) /* PLACEMENT_INT */
      , (2981, 1, 8192) /* ITEM_TYPE_INT */
      , (2981, 5, 30) /* ENCUMB_VAL_INT */
      , (2981, 16, 8) /* ITEM_USEABLE_INT */

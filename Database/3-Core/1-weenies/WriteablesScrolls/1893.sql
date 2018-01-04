@@ -17,7 +17,7 @@ VALUES (1893, 8, 100676669) /* ICON_DID */
      , (1893, 28, 1563) /* SPELL_DID - PiercingLure1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1893, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1893, 65, 101) /* PLACEMENT_INT */
      , (1893, 1, 8192) /* ITEM_TYPE_INT */
      , (1893, 5, 30) /* ENCUMB_VAL_INT */
      , (1893, 16, 8) /* ITEM_USEABLE_INT */

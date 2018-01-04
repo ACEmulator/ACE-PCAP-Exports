@@ -17,7 +17,7 @@ VALUES (32935, 8, 100688872) /* ICON_DID */
      , (32935, 28, 3902) /* SPELL_DID - RabbitRing_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32935, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (32935, 65, 101) /* PLACEMENT_INT */
      , (32935, 1, 8192) /* ITEM_TYPE_INT */
      , (32935, 5, 30) /* ENCUMB_VAL_INT */
      , (32935, 16, 8) /* ITEM_USEABLE_INT */

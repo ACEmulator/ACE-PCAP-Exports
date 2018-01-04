@@ -21,7 +21,7 @@ VALUES (30196, 8, 100686698) /* ICON_DID */
      , (30196, 28, 3694) /* SPELL_DID - CoordinationRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30196, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30196, 65, 101) /* PLACEMENT_INT */
      , (30196, 1, 2048) /* ITEM_TYPE_INT */
      , (30196, 5, 80) /* ENCUMB_VAL_INT */
      , (30196, 18, 1) /* UI_EFFECTS_INT */

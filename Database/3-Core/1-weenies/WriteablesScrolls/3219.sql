@@ -17,7 +17,7 @@ VALUES (3219, 8, 100692250) /* ICON_DID */
      , (3219, 28, 330) /* SPELL_DID - DaggerIneptitudeOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3219, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3219, 65, 101) /* PLACEMENT_INT */
      , (3219, 1, 8192) /* ITEM_TYPE_INT */
      , (3219, 5, 30) /* ENCUMB_VAL_INT */
      , (3219, 16, 8) /* ITEM_USEABLE_INT */

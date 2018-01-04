@@ -17,7 +17,7 @@ VALUES (37833, 8, 100676460) /* ICON_DID */
      , (37833, 28, 4564) /* SPELL_DID - ItemEnchantmentMasterySelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37833, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37833, 65, 101) /* PLACEMENT_INT */
      , (37833, 1, 8192) /* ITEM_TYPE_INT */
      , (37833, 5, 30) /* ENCUMB_VAL_INT */
      , (37833, 16, 8) /* ITEM_USEABLE_INT */

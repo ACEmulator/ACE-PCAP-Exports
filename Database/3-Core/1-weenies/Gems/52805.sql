@@ -18,7 +18,7 @@ VALUES (52805, 8, 100693311) /* ICON_DID */
      , (52805, 28, 157) /* SPELL_DID - SummonPortal1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52805, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (52805, 65, 101) /* PLACEMENT_INT */
      , (52805, 1, 2048) /* ITEM_TYPE_INT */
      , (52805, 5, 10) /* ENCUMB_VAL_INT */
      , (52805, 280, 1000) /* SHARED_COOLDOWN_INT */

@@ -17,7 +17,7 @@ VALUES (22932, 8, 100669876) /* ICON_DID */
      , (22932, 28, 2943) /* SPELL_DID - SingularityIslandRecall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22932, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (22932, 65, 101) /* PLACEMENT_INT */
      , (22932, 1, 8192) /* ITEM_TYPE_INT */
      , (22932, 5, 100) /* ENCUMB_VAL_INT */
      , (22932, 16, 8) /* ITEM_USEABLE_INT */

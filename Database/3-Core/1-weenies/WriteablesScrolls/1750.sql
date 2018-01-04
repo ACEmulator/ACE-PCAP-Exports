@@ -17,7 +17,7 @@ VALUES (1750, 8, 100676479) /* ICON_DID */
      , (1750, 28, 647) /* SPELL_DID - WarMagicIneptitudeOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1750, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1750, 65, 101) /* PLACEMENT_INT */
      , (1750, 1, 8192) /* ITEM_TYPE_INT */
      , (1750, 5, 30) /* ENCUMB_VAL_INT */
      , (1750, 16, 8) /* ITEM_USEABLE_INT */

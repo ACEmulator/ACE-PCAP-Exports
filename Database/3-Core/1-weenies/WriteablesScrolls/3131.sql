@@ -17,7 +17,7 @@ VALUES (3131, 8, 100676447) /* ICON_DID */
      , (3131, 28, 700) /* SPELL_DID - ArcaneBenightednessOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3131, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3131, 65, 101) /* PLACEMENT_INT */
      , (3131, 1, 8192) /* ITEM_TYPE_INT */
      , (3131, 5, 30) /* ENCUMB_VAL_INT */
      , (3131, 16, 8) /* ITEM_USEABLE_INT */

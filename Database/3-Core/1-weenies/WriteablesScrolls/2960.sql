@@ -17,7 +17,7 @@ VALUES (2960, 8, 100677008) /* ICON_DID */
      , (2960, 28, 104) /* SPELL_DID - ShockBlast4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2960, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2960, 65, 101) /* PLACEMENT_INT */
      , (2960, 1, 8192) /* ITEM_TYPE_INT */
      , (2960, 5, 30) /* ENCUMB_VAL_INT */
      , (2960, 16, 8) /* ITEM_USEABLE_INT */

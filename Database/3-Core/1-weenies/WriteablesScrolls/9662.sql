@@ -17,7 +17,7 @@ VALUES (9662, 8, 100676932) /* ICON_DID */
      , (9662, 28, 1262) /* SPELL_DID - DrainMana3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9662, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9662, 65, 101) /* PLACEMENT_INT */
      , (9662, 1, 8192) /* ITEM_TYPE_INT */
      , (9662, 5, 30) /* ENCUMB_VAL_INT */
      , (9662, 16, 8) /* ITEM_USEABLE_INT */

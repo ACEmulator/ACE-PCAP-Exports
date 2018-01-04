@@ -18,7 +18,7 @@ VALUES (31000, 8, 100683149) /* ICON_DID */
      , (31000, 28, 3811) /* SPELL_DID - BlackmoorsFavor_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31000, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (31000, 65, 101) /* PLACEMENT_INT */
      , (31000, 1, 2048) /* ITEM_TYPE_INT */
      , (31000, 280, 3) /* SHARED_COOLDOWN_INT */
      , (31000, 18, 1) /* UI_EFFECTS_INT */

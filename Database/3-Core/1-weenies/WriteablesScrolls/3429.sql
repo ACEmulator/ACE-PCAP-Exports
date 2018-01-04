@@ -17,7 +17,7 @@ VALUES (3429, 8, 100676466) /* ICON_DID */
      , (3429, 28, 661) /* SPELL_DID - ManaMasteryOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3429, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3429, 65, 101) /* PLACEMENT_INT */
      , (3429, 1, 8192) /* ITEM_TYPE_INT */
      , (3429, 5, 30) /* ENCUMB_VAL_INT */
      , (3429, 16, 8) /* ITEM_USEABLE_INT */

@@ -15,7 +15,7 @@ VALUES (27803, 8, 100667494) /* ICON_DID */
      , (27803, 1, 33558108) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27803, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (27803, 65, 101) /* PLACEMENT_INT */
      , (27803, 1, 0) /* ITEM_TYPE_INT */
      , (27803, 93, 1040) /* PHYSICS_STATE_INT */
      , (27803, 9007, 1) /* Generic_WeenieType */;

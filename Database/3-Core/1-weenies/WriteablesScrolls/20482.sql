@@ -17,7 +17,7 @@ VALUES (20482, 8, 100676948) /* ICON_DID */
      , (20482, 28, 2172) /* SPELL_DID - LightningVulnerabilityOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20482, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20482, 65, 101) /* PLACEMENT_INT */
      , (20482, 1, 8192) /* ITEM_TYPE_INT */
      , (20482, 5, 30) /* ENCUMB_VAL_INT */
      , (20482, 16, 8) /* ITEM_USEABLE_INT */

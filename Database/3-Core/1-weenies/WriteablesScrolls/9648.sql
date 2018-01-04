@@ -17,7 +17,7 @@ VALUES (9648, 8, 100676945) /* ICON_DID */
      , (9648, 28, 1300) /* SPELL_DID - ManatoStaminaSelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9648, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9648, 65, 101) /* PLACEMENT_INT */
      , (9648, 1, 8192) /* ITEM_TYPE_INT */
      , (9648, 5, 30) /* ENCUMB_VAL_INT */
      , (9648, 16, 8) /* ITEM_USEABLE_INT */

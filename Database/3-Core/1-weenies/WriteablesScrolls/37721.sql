@@ -17,7 +17,7 @@ VALUES (37721, 8, 100676647) /* ICON_DID */
      , (37721, 28, 4337) /* SPELL_DID - DispelCreatureBadSelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37721, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37721, 65, 101) /* PLACEMENT_INT */
      , (37721, 1, 8192) /* ITEM_TYPE_INT */
      , (37721, 5, 30) /* ENCUMB_VAL_INT */
      , (37721, 16, 8) /* ITEM_USEABLE_INT */

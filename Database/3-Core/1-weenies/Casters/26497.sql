@@ -18,7 +18,7 @@ VALUES (26497, 8, 100675769) /* ICON_DID */
      , (26497, 28, 2637) /* SPELL_DID - InvokingAunTanua_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26497, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (26497, 65, 1) /* PLACEMENT_INT */
      , (26497, 1, 32768) /* ITEM_TYPE_INT */
      , (26497, 5, 20) /* ENCUMB_VAL_INT */
      , (26497, 18, 1) /* UI_EFFECTS_INT */

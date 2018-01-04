@@ -21,7 +21,7 @@ VALUES (30230, 8, 100686695) /* ICON_DID */
      , (30230, 28, 3728) /* SPELL_DID - PiercingBaneRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30230, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30230, 65, 101) /* PLACEMENT_INT */
      , (30230, 1, 2048) /* ITEM_TYPE_INT */
      , (30230, 5, 5) /* ENCUMB_VAL_INT */
      , (30230, 18, 1) /* UI_EFFECTS_INT */

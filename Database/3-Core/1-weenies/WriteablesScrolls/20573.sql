@@ -17,7 +17,7 @@ VALUES (20573, 8, 100676448) /* ICON_DID */
      , (20573, 28, 2294) /* SPELL_DID - PersonUnfamiliarityOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20573, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20573, 65, 101) /* PLACEMENT_INT */
      , (20573, 1, 8192) /* ITEM_TYPE_INT */
      , (20573, 5, 30) /* ENCUMB_VAL_INT */
      , (20573, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3365, 8, 100676462) /* ICON_DID */
      , (3365, 28, 626) /* SPELL_DID - LifeMagicIneptitudeOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3365, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3365, 65, 101) /* PLACEMENT_INT */
      , (3365, 1, 8192) /* ITEM_TYPE_INT */
      , (3365, 5, 30) /* ENCUMB_VAL_INT */
      , (3365, 16, 8) /* ITEM_USEABLE_INT */

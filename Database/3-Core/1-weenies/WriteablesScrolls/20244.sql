@@ -17,7 +17,7 @@ VALUES (20244, 8, 100676931) /* ICON_DID */
      , (20244, 28, 2072) /* SPELL_DID - healother7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20244, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20244, 65, 101) /* PLACEMENT_INT */
      , (20244, 1, 8192) /* ITEM_TYPE_INT */
      , (20244, 5, 30) /* ENCUMB_VAL_INT */
      , (20244, 16, 8) /* ITEM_USEABLE_INT */

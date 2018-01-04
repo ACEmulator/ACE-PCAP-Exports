@@ -17,7 +17,7 @@ VALUES (1853, 8, 100676953) /* ICON_DID */
      , (1853, 28, 1139) /* SPELL_DID - PiercingProtectionOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1853, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1853, 65, 101) /* PLACEMENT_INT */
      , (1853, 1, 8192) /* ITEM_TYPE_INT */
      , (1853, 5, 30) /* ENCUMB_VAL_INT */
      , (1853, 16, 8) /* ITEM_USEABLE_INT */

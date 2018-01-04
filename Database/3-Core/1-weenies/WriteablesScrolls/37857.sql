@@ -17,7 +17,7 @@ VALUES (37857, 8, 100677013) /* ICON_DID */
      , (37857, 28, 4451) /* SPELL_DID - LightningBolt8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37857, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37857, 65, 101) /* PLACEMENT_INT */
      , (37857, 1, 8192) /* ITEM_TYPE_INT */
      , (37857, 5, 30) /* ENCUMB_VAL_INT */
      , (37857, 16, 8) /* ITEM_USEABLE_INT */

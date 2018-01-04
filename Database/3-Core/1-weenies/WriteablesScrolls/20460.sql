@@ -17,7 +17,7 @@ VALUES (20460, 8, 100677008) /* ICON_DID */
      , (20460, 28, 2144) /* SPELL_DID - Shockwave7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20460, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20460, 65, 101) /* PLACEMENT_INT */
      , (20460, 1, 8192) /* ITEM_TYPE_INT */
      , (20460, 5, 30) /* ENCUMB_VAL_INT */
      , (20460, 16, 8) /* ITEM_USEABLE_INT */

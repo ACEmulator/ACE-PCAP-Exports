@@ -17,7 +17,7 @@ VALUES (3101, 8, 100676939) /* ICON_DID */
      , (3101, 28, 210) /* SPELL_DID - ManaRenewalOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3101, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3101, 65, 101) /* PLACEMENT_INT */
      , (3101, 1, 8192) /* ITEM_TYPE_INT */
      , (3101, 5, 30) /* ENCUMB_VAL_INT */
      , (3101, 16, 8) /* ITEM_USEABLE_INT */

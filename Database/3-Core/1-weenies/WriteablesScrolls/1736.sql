@@ -17,7 +17,7 @@ VALUES (1736, 8, 100676470) /* ICON_DID */
      , (1736, 28, 988) /* SPELL_DID - SprintOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1736, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1736, 65, 101) /* PLACEMENT_INT */
      , (1736, 1, 8192) /* ITEM_TYPE_INT */
      , (1736, 5, 30) /* ENCUMB_VAL_INT */
      , (1736, 16, 8) /* ITEM_USEABLE_INT */

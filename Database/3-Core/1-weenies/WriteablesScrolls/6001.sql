@@ -17,7 +17,7 @@ VALUES (6001, 8, 100677022) /* ICON_DID */
      , (6001, 28, 84) /* SPELL_DID - FlameBolt5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6001, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (6001, 65, 101) /* PLACEMENT_INT */
      , (6001, 1, 8192) /* ITEM_TYPE_INT */
      , (6001, 5, 30) /* ENCUMB_VAL_INT */
      , (6001, 16, 8) /* ITEM_USEABLE_INT */

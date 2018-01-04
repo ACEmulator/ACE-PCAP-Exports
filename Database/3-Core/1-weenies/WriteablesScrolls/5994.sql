@@ -17,7 +17,7 @@ VALUES (5994, 8, 100676480) /* ICON_DID */
      , (5994, 28, 1765) /* SPELL_DID - AlchemyMasterySelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5994, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5994, 65, 101) /* PLACEMENT_INT */
      , (5994, 1, 8192) /* ITEM_TYPE_INT */
      , (5994, 5, 30) /* ENCUMB_VAL_INT */
      , (5994, 16, 8) /* ITEM_USEABLE_INT */

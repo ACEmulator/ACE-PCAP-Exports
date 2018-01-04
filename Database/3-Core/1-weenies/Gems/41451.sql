@@ -18,7 +18,7 @@ VALUES (41451, 8, 100690734) /* ICON_DID */
      , (41451, 28, 5131) /* SPELL_DID - AnswerOfLoyaltyStam4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41451, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41451, 65, 101) /* PLACEMENT_INT */
      , (41451, 1, 2048) /* ITEM_TYPE_INT */
      , (41451, 5, 50) /* ENCUMB_VAL_INT */
      , (41451, 280, 7) /* SHARED_COOLDOWN_INT */

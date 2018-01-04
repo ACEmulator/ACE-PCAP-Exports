@@ -21,7 +21,7 @@ VALUES (30221, 8, 100686697) /* ICON_DID */
      , (30221, 28, 3720) /* SPELL_DID - LockpickMasteryRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30221, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30221, 65, 101) /* PLACEMENT_INT */
      , (30221, 1, 2048) /* ITEM_TYPE_INT */
      , (30221, 5, 5) /* ENCUMB_VAL_INT */
      , (30221, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (1881, 8, 100676651) /* ICON_DID */
      , (1881, 28, 1547) /* SPELL_DID - FlameBane1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1881, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1881, 65, 101) /* PLACEMENT_INT */
      , (1881, 1, 8192) /* ITEM_TYPE_INT */
      , (1881, 5, 30) /* ENCUMB_VAL_INT */
      , (1881, 16, 8) /* ITEM_USEABLE_INT */

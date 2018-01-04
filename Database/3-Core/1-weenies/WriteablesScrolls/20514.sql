@@ -17,7 +17,7 @@ VALUES (20514, 8, 100676453) /* ICON_DID */
      , (20514, 28, 2214) /* SPELL_DID - CreatureEnchantmentMasteryOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20514, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20514, 65, 101) /* PLACEMENT_INT */
      , (20514, 1, 8192) /* ITEM_TYPE_INT */
      , (20514, 5, 30) /* ENCUMB_VAL_INT */
      , (20514, 16, 8) /* ITEM_USEABLE_INT */

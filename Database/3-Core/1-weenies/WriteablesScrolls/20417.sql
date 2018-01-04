@@ -17,7 +17,7 @@ VALUES (20417, 8, 100676671) /* ICON_DID */
      , (20417, 28, 2107) /* SPELL_DID - Hidevalue7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20417, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20417, 65, 101) /* PLACEMENT_INT */
      , (20417, 1, 8192) /* ITEM_TYPE_INT */
      , (20417, 5, 30) /* ENCUMB_VAL_INT */
      , (20417, 16, 8) /* ITEM_USEABLE_INT */

@@ -19,7 +19,7 @@ VALUES (28843, 8, 100686397) /* ICON_DID */
      , (28843, 28, 3569) /* SPELL_DID - ManaUp10Percent_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28843, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28843, 65, 101) /* PLACEMENT_INT */
      , (28843, 1, 32) /* ITEM_TYPE_INT */
      , (28843, 5, 20) /* ENCUMB_VAL_INT */
      , (28843, 11, 100) /* MAX_STACK_SIZE_INT */

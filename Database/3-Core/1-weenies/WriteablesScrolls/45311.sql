@@ -17,7 +17,7 @@ VALUES (45311, 8, 100692252) /* ICON_DID */
      , (45311, 28, 5838) /* SPELL_DID - shieldineptitudeother4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45311, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45311, 65, 101) /* PLACEMENT_INT */
      , (45311, 1, 8192) /* ITEM_TYPE_INT */
      , (45311, 5, 30) /* ENCUMB_VAL_INT */
      , (45311, 16, 8) /* ITEM_USEABLE_INT */

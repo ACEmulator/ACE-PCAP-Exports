@@ -18,7 +18,7 @@ VALUES (36552, 8, 100689645) /* ICON_DID */
      , (36552, 28, 4214) /* SPELL_DID - CandethKeepRecall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36552, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (36552, 65, 1) /* PLACEMENT_INT */
      , (36552, 1, 32768) /* ITEM_TYPE_INT */
      , (36552, 5, 480) /* ENCUMB_VAL_INT */
      , (36552, 18, 1024) /* UI_EFFECTS_INT */

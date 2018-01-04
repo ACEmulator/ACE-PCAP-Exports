@@ -18,7 +18,7 @@ VALUES (40514, 8, 100690380) /* ICON_DID */
      , (40514, 6, 67111928) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40514, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (40514, 65, 101) /* PLACEMENT_INT */
      , (40514, 1, 128) /* ITEM_TYPE_INT */
      , (40514, 5, 15) /* ENCUMB_VAL_INT */
      , (40514, 16, 1) /* ITEM_USEABLE_INT */

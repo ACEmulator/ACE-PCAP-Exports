@@ -17,7 +17,7 @@ VALUES (2988, 8, 100676954) /* ICON_DID */
      , (2988, 28, 1116) /* SPELL_DID - BladeProtectionOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2988, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2988, 65, 101) /* PLACEMENT_INT */
      , (2988, 1, 8192) /* ITEM_TYPE_INT */
      , (2988, 5, 30) /* ENCUMB_VAL_INT */
      , (2988, 16, 8) /* ITEM_USEABLE_INT */

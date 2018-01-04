@@ -17,7 +17,7 @@ VALUES (20419, 8, 100676662) /* ICON_DID */
      , (20419, 28, 2109) /* SPELL_DID - Leadenweapon7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20419, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20419, 65, 101) /* PLACEMENT_INT */
      , (20419, 1, 8192) /* ITEM_TYPE_INT */
      , (20419, 5, 30) /* ENCUMB_VAL_INT */
      , (20419, 16, 8) /* ITEM_USEABLE_INT */

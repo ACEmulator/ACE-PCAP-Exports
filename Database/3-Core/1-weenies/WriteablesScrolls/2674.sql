@@ -17,7 +17,7 @@ VALUES (2674, 8, 100676458) /* ICON_DID */
      , (2674, 28, 1428) /* SPELL_DID - FocusOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2674, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2674, 65, 101) /* PLACEMENT_INT */
      , (2674, 1, 8192) /* ITEM_TYPE_INT */
      , (2674, 5, 30) /* ENCUMB_VAL_INT */
      , (2674, 16, 8) /* ITEM_USEABLE_INT */

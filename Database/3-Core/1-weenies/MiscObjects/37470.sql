@@ -20,7 +20,7 @@ VALUES (37470, 8, 100689897) /* ICON_DID */
      , (37470, 6, 67111919) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37470, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37470, 65, 101) /* PLACEMENT_INT */
      , (37470, 1, 128) /* ITEM_TYPE_INT */
      , (37470, 5, 10) /* ENCUMB_VAL_INT */
      , (37470, 11, 1) /* MAX_STACK_SIZE_INT */

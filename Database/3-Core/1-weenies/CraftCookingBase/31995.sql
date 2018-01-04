@@ -19,7 +19,7 @@ VALUES (31995, 8, 100688321) /* ICON_DID */
      , (31995, 6, 67111919) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31995, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (31995, 65, 101) /* PLACEMENT_INT */
      , (31995, 1, 4194304) /* ITEM_TYPE_INT */
      , (31995, 5, 350) /* ENCUMB_VAL_INT */
      , (31995, 11, 20) /* MAX_STACK_SIZE_INT */

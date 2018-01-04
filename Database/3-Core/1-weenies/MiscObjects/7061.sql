@@ -18,7 +18,7 @@ VALUES (7061, 8, 100670676) /* ICON_DID */
      , (7061, 6, 67112869) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7061, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7061, 65, 101) /* PLACEMENT_INT */
      , (7061, 1, 128) /* ITEM_TYPE_INT */
      , (7061, 5, 100) /* ENCUMB_VAL_INT */
      , (7061, 11, 1) /* MAX_STACK_SIZE_INT */

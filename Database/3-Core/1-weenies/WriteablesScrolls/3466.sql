@@ -17,7 +17,7 @@ VALUES (3466, 8, 100676465) /* ICON_DID */
      , (3466, 28, 272) /* SPELL_DID - MagicResistanceOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3466, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3466, 65, 101) /* PLACEMENT_INT */
      , (3466, 1, 8192) /* ITEM_TYPE_INT */
      , (3466, 5, 30) /* ENCUMB_VAL_INT */
      , (3466, 16, 8) /* ITEM_USEABLE_INT */

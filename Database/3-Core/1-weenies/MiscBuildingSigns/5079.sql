@@ -15,7 +15,7 @@ VALUES (5079, 8, 100668115) /* ICON_DID */
      , (5079, 1, 33555088) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5079, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5079, 65, 101) /* PLACEMENT_INT */
      , (5079, 1, 128) /* ITEM_TYPE_INT */
      , (5079, 5, 9000) /* ENCUMB_VAL_INT */
      , (5079, 16, 1) /* ITEM_USEABLE_INT */

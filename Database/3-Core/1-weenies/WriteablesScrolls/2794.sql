@@ -17,7 +17,7 @@ VALUES (2794, 8, 100676650) /* ICON_DID */
      , (2794, 28, 1514) /* SPELL_DID - BludgeonBane4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2794, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2794, 65, 101) /* PLACEMENT_INT */
      , (2794, 1, 8192) /* ITEM_TYPE_INT */
      , (2794, 5, 30) /* ENCUMB_VAL_INT */
      , (2794, 16, 8) /* ITEM_USEABLE_INT */

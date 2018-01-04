@@ -18,7 +18,7 @@ VALUES (43043, 8, 100691347) /* ICON_DID */
      , (43043, 28, 67) /* SPELL_DID - ShockWave4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43043, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (43043, 65, 1) /* PLACEMENT_INT */
      , (43043, 1, 32768) /* ITEM_TYPE_INT */
      , (43043, 5, 200) /* ENCUMB_VAL_INT */
      , (43043, 18, 1) /* UI_EFFECTS_INT */

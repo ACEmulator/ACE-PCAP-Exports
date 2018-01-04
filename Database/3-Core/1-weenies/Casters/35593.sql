@@ -19,7 +19,7 @@ VALUES (35593, 8, 100674116) /* ICON_DID */
      , (35593, 28, 2076) /* SPELL_DID - ManaBoostOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35593, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (35593, 65, 1) /* PLACEMENT_INT */
      , (35593, 1, 32768) /* ITEM_TYPE_INT */
      , (35593, 5, 100) /* ENCUMB_VAL_INT */
      , (35593, 18, 1) /* UI_EFFECTS_INT */

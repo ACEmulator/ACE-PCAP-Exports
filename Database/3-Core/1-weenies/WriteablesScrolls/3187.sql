@@ -17,7 +17,7 @@ VALUES (3187, 8, 100676450) /* ICON_DID */
      , (3187, 28, 472) /* SPELL_DID - BowMasterySelf6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3187, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3187, 65, 101) /* PLACEMENT_INT */
      , (3187, 1, 8192) /* ITEM_TYPE_INT */
      , (3187, 5, 30) /* ENCUMB_VAL_INT */
      , (3187, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (37992, 8, 100677026) /* ICON_DID */
      , (37992, 28, 4421) /* SPELL_DID - AcidArc8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37992, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37992, 65, 101) /* PLACEMENT_INT */
      , (37992, 1, 8192) /* ITEM_TYPE_INT */
      , (37992, 5, 30) /* ENCUMB_VAL_INT */
      , (37992, 16, 8) /* ITEM_USEABLE_INT */

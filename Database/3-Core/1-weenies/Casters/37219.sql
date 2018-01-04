@@ -20,7 +20,7 @@ VALUES (37219, 8, 100672184) /* ICON_DID */
      , (37219, 28, 2146) /* SPELL_DID - Whirlingblade7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37219, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (37219, 65, 1) /* PLACEMENT_INT */
      , (37219, 1, 32768) /* ITEM_TYPE_INT */
      , (37219, 5, 50) /* ENCUMB_VAL_INT */
      , (37219, 18, 65) /* UI_EFFECTS_INT */

@@ -18,7 +18,7 @@ VALUES (25895, 8, 100675627) /* ICON_DID */
      , (25895, 28, 2998) /* SPELL_DID - WrathPuppeteer_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25895, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (25895, 65, 1) /* PLACEMENT_INT */
      , (25895, 1, 32768) /* ITEM_TYPE_INT */
      , (25895, 5, 125) /* ENCUMB_VAL_INT */
      , (25895, 18, 1) /* UI_EFFECTS_INT */

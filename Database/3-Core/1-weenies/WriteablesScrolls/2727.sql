@@ -17,7 +17,7 @@ VALUES (2727, 8, 100676930) /* ICON_DID */
      , (2727, 28, 1178) /* SPELL_DID - RevitalizeSelf2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2727, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2727, 65, 101) /* PLACEMENT_INT */
      , (2727, 1, 8192) /* ITEM_TYPE_INT */
      , (2727, 5, 30) /* ENCUMB_VAL_INT */
      , (2727, 16, 8) /* ITEM_USEABLE_INT */

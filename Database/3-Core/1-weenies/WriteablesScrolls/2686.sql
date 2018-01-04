@@ -17,7 +17,7 @@ VALUES (2686, 8, 100676456) /* ICON_DID */
      , (2686, 28, 1372) /* SPELL_DID - FrailtyOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2686, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2686, 65, 101) /* PLACEMENT_INT */
      , (2686, 1, 8192) /* ITEM_TYPE_INT */
      , (2686, 5, 30) /* ENCUMB_VAL_INT */
      , (2686, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (27235, 8, 100676659) /* ICON_DID */
      , (27235, 28, 3190) /* SPELL_DID - DispelItemBadOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27235, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (27235, 65, 101) /* PLACEMENT_INT */
      , (27235, 1, 8192) /* ITEM_TYPE_INT */
      , (27235, 5, 30) /* ENCUMB_VAL_INT */
      , (27235, 16, 8) /* ITEM_USEABLE_INT */

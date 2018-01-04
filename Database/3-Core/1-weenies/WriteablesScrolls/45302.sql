@@ -17,7 +17,7 @@ VALUES (45302, 8, 100676449) /* ICON_DID */
      , (45302, 28, 5829) /* SPELL_DID - recklessnessmasteryself3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45302, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45302, 65, 101) /* PLACEMENT_INT */
      , (45302, 1, 8192) /* ITEM_TYPE_INT */
      , (45302, 5, 30) /* ENCUMB_VAL_INT */
      , (45302, 16, 8) /* ITEM_USEABLE_INT */

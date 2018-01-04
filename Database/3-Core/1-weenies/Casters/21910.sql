@@ -18,7 +18,7 @@ VALUES (21910, 8, 100673490) /* ICON_DID */
      , (21910, 28, 2781) /* SPELL_DID - LesserElementalFuryAcid_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21910, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21910, 65, 101) /* PLACEMENT_INT */
      , (21910, 1, 32768) /* ITEM_TYPE_INT */
      , (21910, 5, 120) /* ENCUMB_VAL_INT */
      , (21910, 18, 256) /* UI_EFFECTS_INT */

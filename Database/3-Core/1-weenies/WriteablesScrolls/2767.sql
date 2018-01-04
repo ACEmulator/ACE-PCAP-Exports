@@ -17,7 +17,7 @@ VALUES (2767, 8, 100676663) /* ICON_DID */
      , (2767, 28, 1500) /* SPELL_DID - AcidLure2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2767, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2767, 65, 101) /* PLACEMENT_INT */
      , (2767, 1, 8192) /* ITEM_TYPE_INT */
      , (2767, 5, 30) /* ENCUMB_VAL_INT */
      , (2767, 16, 8) /* ITEM_USEABLE_INT */

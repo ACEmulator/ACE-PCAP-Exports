@@ -17,7 +17,7 @@ VALUES (41292, 8, 100690644) /* ICON_DID */
      , (41292, 28, 5079) /* SPELL_DID - twohandedineptitude5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41292, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41292, 65, 101) /* PLACEMENT_INT */
      , (41292, 1, 8192) /* ITEM_TYPE_INT */
      , (41292, 5, 30) /* ENCUMB_VAL_INT */
      , (41292, 16, 8) /* ITEM_USEABLE_INT */

@@ -21,7 +21,7 @@ VALUES (30242, 8, 100686697) /* ICON_DID */
      , (30242, 28, 3740) /* SPELL_DID - SwordMasteryRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30242, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30242, 65, 101) /* PLACEMENT_INT */
      , (30242, 1, 2048) /* ITEM_TYPE_INT */
      , (30242, 5, 30) /* ENCUMB_VAL_INT */
      , (30242, 18, 1) /* UI_EFFECTS_INT */

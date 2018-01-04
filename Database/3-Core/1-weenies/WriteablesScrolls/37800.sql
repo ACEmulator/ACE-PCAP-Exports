@@ -17,7 +17,7 @@ VALUES (37800, 8, 100677016) /* ICON_DID */
      , (37800, 28, 4448) /* SPELL_DID - FrostStreak8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37800, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37800, 65, 101) /* PLACEMENT_INT */
      , (37800, 1, 8192) /* ITEM_TYPE_INT */
      , (37800, 5, 30) /* ENCUMB_VAL_INT */
      , (37800, 16, 8) /* ITEM_USEABLE_INT */

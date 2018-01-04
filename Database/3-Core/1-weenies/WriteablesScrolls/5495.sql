@@ -17,7 +17,7 @@ VALUES (5495, 8, 100677026) /* ICON_DID */
      , (5495, 28, 101) /* SPELL_DID - AcidBlast5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5495, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5495, 65, 101) /* PLACEMENT_INT */
      , (5495, 1, 8192) /* ITEM_TYPE_INT */
      , (5495, 5, 30) /* ENCUMB_VAL_INT */
      , (5495, 16, 8) /* ITEM_USEABLE_INT */

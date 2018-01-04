@@ -18,7 +18,7 @@ VALUES (41442, 8, 100690583) /* ICON_DID */
      , (41442, 28, 5122) /* SPELL_DID - CallOfLeadership5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41442, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41442, 65, 101) /* PLACEMENT_INT */
      , (41442, 1, 2048) /* ITEM_TYPE_INT */
      , (41442, 5, 200) /* ENCUMB_VAL_INT */
      , (41442, 280, 6) /* SHARED_COOLDOWN_INT */

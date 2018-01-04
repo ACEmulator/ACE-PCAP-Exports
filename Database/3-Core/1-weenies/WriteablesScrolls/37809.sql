@@ -17,7 +17,7 @@ VALUES (37809, 8, 100676931) /* ICON_DID */
      , (37809, 28, 4311) /* SPELL_DID - HealSelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37809, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37809, 65, 101) /* PLACEMENT_INT */
      , (37809, 1, 8192) /* ITEM_TYPE_INT */
      , (37809, 5, 30) /* ENCUMB_VAL_INT */
      , (37809, 16, 8) /* ITEM_USEABLE_INT */

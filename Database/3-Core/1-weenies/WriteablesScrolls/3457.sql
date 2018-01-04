@@ -17,7 +17,7 @@ VALUES (3457, 8, 100676448) /* ICON_DID */
      , (3457, 28, 829) /* SPELL_DID - PersonAttunementSelf6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3457, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3457, 65, 101) /* PLACEMENT_INT */
      , (3457, 1, 8192) /* ITEM_TYPE_INT */
      , (3457, 5, 30) /* ENCUMB_VAL_INT */
      , (3457, 16, 8) /* ITEM_USEABLE_INT */

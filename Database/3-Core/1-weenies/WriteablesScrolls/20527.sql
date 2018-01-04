@@ -17,7 +17,7 @@ VALUES (20527, 8, 100676446) /* ICON_DID */
      , (20527, 28, 2232) /* SPELL_DID - FealtyOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20527, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20527, 65, 101) /* PLACEMENT_INT */
      , (20527, 1, 8192) /* ITEM_TYPE_INT */
      , (20527, 5, 30) /* ENCUMB_VAL_INT */
      , (20527, 16, 8) /* ITEM_USEABLE_INT */

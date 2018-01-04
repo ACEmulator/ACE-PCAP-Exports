@@ -17,7 +17,7 @@ VALUES (20590, 8, 100692249) /* ICON_DID */
      , (20590, 28, 2200) /* SPELL_DID - AxeIneptitudeOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20590, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20590, 65, 101) /* PLACEMENT_INT */
      , (20590, 1, 8192) /* ITEM_TYPE_INT */
      , (20590, 5, 30) /* ENCUMB_VAL_INT */
      , (20590, 16, 8) /* ITEM_USEABLE_INT */

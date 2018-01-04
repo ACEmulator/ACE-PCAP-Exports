@@ -18,7 +18,7 @@ VALUES (25781, 8, 100675514) /* ICON_DID */
      , (25781, 28, 2991) /* SPELL_DID - WintersKiss_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25781, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (25781, 65, 101) /* PLACEMENT_INT */
      , (25781, 1, 32) /* ITEM_TYPE_INT */
      , (25781, 5, 75) /* ENCUMB_VAL_INT */
      , (25781, 18, 1) /* UI_EFFECTS_INT */

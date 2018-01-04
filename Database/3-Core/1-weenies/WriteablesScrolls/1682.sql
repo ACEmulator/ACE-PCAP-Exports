@@ -17,7 +17,7 @@ VALUES (1682, 8, 100676477) /* ICON_DID */
      , (1682, 28, 708) /* SPELL_DID - ArmorExpertiseOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1682, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1682, 65, 101) /* PLACEMENT_INT */
      , (1682, 1, 8192) /* ITEM_TYPE_INT */
      , (1682, 5, 30) /* ENCUMB_VAL_INT */
      , (1682, 16, 8) /* ITEM_USEABLE_INT */

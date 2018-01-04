@@ -17,7 +17,7 @@ VALUES (21290, 8, 100677026) /* ICON_DID */
      , (21290, 28, 2713) /* SPELL_DID - AcidArc3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21290, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21290, 65, 101) /* PLACEMENT_INT */
      , (21290, 1, 8192) /* ITEM_TYPE_INT */
      , (21290, 5, 30) /* ENCUMB_VAL_INT */
      , (21290, 16, 8) /* ITEM_USEABLE_INT */

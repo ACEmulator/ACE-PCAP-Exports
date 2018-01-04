@@ -17,7 +17,7 @@ VALUES (2906, 8, 100676673) /* ICON_DID */
      , (2906, 28, 1637) /* SPELL_DID - SummonPortal3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2906, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2906, 65, 101) /* PLACEMENT_INT */
      , (2906, 1, 8192) /* ITEM_TYPE_INT */
      , (2906, 5, 30) /* ENCUMB_VAL_INT */
      , (2906, 16, 8) /* ITEM_USEABLE_INT */

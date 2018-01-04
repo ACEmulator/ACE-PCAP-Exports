@@ -17,7 +17,7 @@ VALUES (9641, 8, 100676942) /* ICON_DID */
      , (9641, 28, 1292) /* SPELL_DID - ManatoHealthSelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9641, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9641, 65, 101) /* PLACEMENT_INT */
      , (9641, 1, 8192) /* ITEM_TYPE_INT */
      , (9641, 5, 30) /* ENCUMB_VAL_INT */
      , (9641, 16, 8) /* ITEM_USEABLE_INT */

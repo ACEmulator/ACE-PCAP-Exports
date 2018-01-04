@@ -17,7 +17,7 @@ VALUES (2807, 8, 100676658) /* ICON_DID */
      , (2807, 28, 1601) /* SPELL_DID - Defender2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2807, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2807, 65, 101) /* PLACEMENT_INT */
      , (2807, 1, 8192) /* ITEM_TYPE_INT */
      , (2807, 5, 30) /* ENCUMB_VAL_INT */
      , (2807, 16, 8) /* ITEM_USEABLE_INT */

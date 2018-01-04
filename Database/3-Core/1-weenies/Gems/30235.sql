@@ -21,7 +21,7 @@ VALUES (30235, 8, 100686696) /* ICON_DID */
      , (30235, 28, 3687) /* SPELL_DID - BladeProtectionRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30235, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30235, 65, 101) /* PLACEMENT_INT */
      , (30235, 1, 2048) /* ITEM_TYPE_INT */
      , (30235, 5, 25) /* ENCUMB_VAL_INT */
      , (30235, 18, 1) /* UI_EFFECTS_INT */

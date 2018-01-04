@@ -21,7 +21,7 @@ VALUES (30246, 8, 100686697) /* ICON_DID */
      , (30246, 28, 3744) /* SPELL_DID - WeaponExpertiseRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30246, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30246, 65, 101) /* PLACEMENT_INT */
      , (30246, 1, 2048) /* ITEM_TYPE_INT */
      , (30246, 5, 5) /* ENCUMB_VAL_INT */
      , (30246, 18, 1) /* UI_EFFECTS_INT */

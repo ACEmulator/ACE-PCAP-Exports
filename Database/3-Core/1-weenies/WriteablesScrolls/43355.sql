@@ -17,7 +17,7 @@ VALUES (43355, 8, 100691548) /* ICON_DID */
      , (43355, 28, 5419) /* SPELL_DID - VoidMagicIneptitudeOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43355, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43355, 65, 101) /* PLACEMENT_INT */
      , (43355, 1, 8192) /* ITEM_TYPE_INT */
      , (43355, 5, 30) /* ENCUMB_VAL_INT */
      , (43355, 16, 8) /* ITEM_USEABLE_INT */

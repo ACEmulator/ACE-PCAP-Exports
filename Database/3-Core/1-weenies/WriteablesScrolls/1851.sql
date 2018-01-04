@@ -17,7 +17,7 @@ VALUES (1851, 8, 100676948) /* ICON_DID */
      , (1851, 28, 1066) /* SPELL_DID - LightningProtectionSelf1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1851, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1851, 65, 101) /* PLACEMENT_INT */
      , (1851, 1, 8192) /* ITEM_TYPE_INT */
      , (1851, 5, 30) /* ENCUMB_VAL_INT */
      , (1851, 16, 8) /* ITEM_USEABLE_INT */

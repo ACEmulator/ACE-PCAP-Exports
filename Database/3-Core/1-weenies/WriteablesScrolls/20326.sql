@@ -17,7 +17,7 @@ VALUES (20326, 8, 100676647) /* ICON_DID */
      , (20326, 28, 1900) /* SPELL_DID - DispelCreatureBadSelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20326, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20326, 65, 101) /* PLACEMENT_INT */
      , (20326, 1, 8192) /* ITEM_TYPE_INT */
      , (20326, 5, 30) /* ENCUMB_VAL_INT */
      , (20326, 16, 8) /* ITEM_USEABLE_INT */

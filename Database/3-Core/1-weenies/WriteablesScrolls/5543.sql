@@ -17,7 +17,7 @@ VALUES (5543, 8, 100676448) /* ICON_DID */
      , (5543, 28, 799) /* SPELL_DID - MonsterAttunementSelf2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5543, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5543, 65, 101) /* PLACEMENT_INT */
      , (5543, 1, 8192) /* ITEM_TYPE_INT */
      , (5543, 5, 30) /* ENCUMB_VAL_INT */
      , (5543, 16, 8) /* ITEM_USEABLE_INT */

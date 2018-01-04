@@ -17,7 +17,7 @@ VALUES (43282, 8, 100691573) /* ICON_DID */
      , (43282, 28, 5391) /* SPELL_DID - Corrosion5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43282, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43282, 65, 101) /* PLACEMENT_INT */
      , (43282, 1, 8192) /* ITEM_TYPE_INT */
      , (43282, 5, 30) /* ENCUMB_VAL_INT */
      , (43282, 16, 8) /* ITEM_USEABLE_INT */

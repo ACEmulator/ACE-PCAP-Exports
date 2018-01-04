@@ -17,7 +17,7 @@ VALUES (20409, 8, 100676665) /* ICON_DID */
      , (20409, 28, 2099) /* SPELL_DID - BludgeonLure7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20409, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20409, 65, 101) /* PLACEMENT_INT */
      , (20409, 1, 8192) /* ITEM_TYPE_INT */
      , (20409, 5, 30) /* ENCUMB_VAL_INT */
      , (20409, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (7522, 8, 100677009) /* ICON_DID */
      , (7522, 28, 1845) /* SPELL_DID - ShockwaveWall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7522, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7522, 65, 101) /* PLACEMENT_INT */
      , (7522, 1, 8192) /* ITEM_TYPE_INT */
      , (7522, 5, 30) /* ENCUMB_VAL_INT */
      , (7522, 16, 8) /* ITEM_USEABLE_INT */

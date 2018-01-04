@@ -17,7 +17,7 @@ VALUES (21328, 8, 100677013) /* ICON_DID */
      , (21328, 28, 2737) /* SPELL_DID - LightningArc6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21328, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21328, 65, 101) /* PLACEMENT_INT */
      , (21328, 1, 8192) /* ITEM_TYPE_INT */
      , (21328, 5, 30) /* ENCUMB_VAL_INT */
      , (21328, 16, 8) /* ITEM_USEABLE_INT */

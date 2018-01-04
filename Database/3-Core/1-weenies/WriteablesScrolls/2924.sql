@@ -17,7 +17,7 @@ VALUES (2924, 8, 100677008) /* ICON_DID */
      , (2924, 28, 134) /* SPELL_DID - BludgeoningVolley6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2924, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2924, 65, 101) /* PLACEMENT_INT */
      , (2924, 1, 8192) /* ITEM_TYPE_INT */
      , (2924, 5, 30) /* ENCUMB_VAL_INT */
      , (2924, 16, 8) /* ITEM_USEABLE_INT */

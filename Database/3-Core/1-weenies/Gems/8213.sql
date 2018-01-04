@@ -18,7 +18,7 @@ VALUES (8213, 8, 100671182) /* ICON_DID */
      , (8213, 28, 2016) /* SPELL_DID - Impulse_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8213, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8213, 65, 101) /* PLACEMENT_INT */
      , (8213, 1, 2048) /* ITEM_TYPE_INT */
      , (8213, 5, 5) /* ENCUMB_VAL_INT */
      , (8213, 18, 1) /* UI_EFFECTS_INT */

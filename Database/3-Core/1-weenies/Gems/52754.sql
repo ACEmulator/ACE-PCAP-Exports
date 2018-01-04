@@ -20,7 +20,7 @@ VALUES (52754, 8, 100686697) /* ICON_DID */
      , (52754, 28, 6179) /* SPELL_DID - GauntletMagicItemMastery_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52754, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (52754, 65, 101) /* PLACEMENT_INT */
      , (52754, 1, 2048) /* ITEM_TYPE_INT */
      , (52754, 5, 5) /* ENCUMB_VAL_INT */
      , (52754, 18, 1) /* UI_EFFECTS_INT */

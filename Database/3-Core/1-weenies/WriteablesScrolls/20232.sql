@@ -17,7 +17,7 @@ VALUES (20232, 8, 100676458) /* ICON_DID */
      , (20232, 28, 2054) /* SPELL_DID - BafflementOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20232, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20232, 65, 101) /* PLACEMENT_INT */
      , (20232, 1, 8192) /* ITEM_TYPE_INT */
      , (20232, 5, 30) /* ENCUMB_VAL_INT */
      , (20232, 16, 8) /* ITEM_USEABLE_INT */

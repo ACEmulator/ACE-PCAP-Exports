@@ -17,7 +17,7 @@ VALUES (20581, 8, 100692249) /* ICON_DID */
      , (20581, 28, 2200) /* SPELL_DID - AxeIneptitudeOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20581, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20581, 65, 101) /* PLACEMENT_INT */
      , (20581, 1, 8192) /* ITEM_TYPE_INT */
      , (20581, 5, 30) /* ENCUMB_VAL_INT */
      , (20581, 16, 8) /* ITEM_USEABLE_INT */

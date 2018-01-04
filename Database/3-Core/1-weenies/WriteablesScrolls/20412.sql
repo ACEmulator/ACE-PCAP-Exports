@@ -17,7 +17,7 @@ VALUES (20412, 8, 100676651) /* ICON_DID */
      , (20412, 28, 2102) /* SPELL_DID - FlameBane7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20412, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20412, 65, 101) /* PLACEMENT_INT */
      , (20412, 1, 8192) /* ITEM_TYPE_INT */
      , (20412, 5, 30) /* ENCUMB_VAL_INT */
      , (20412, 16, 8) /* ITEM_USEABLE_INT */

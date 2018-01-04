@@ -17,7 +17,7 @@ VALUES (20618, 8, 100676673) /* ICON_DID */
      , (20618, 28, 2644) /* SPELL_DID - LifestoneTie1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20618, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20618, 65, 101) /* PLACEMENT_INT */
      , (20618, 1, 8192) /* ITEM_TYPE_INT */
      , (20618, 5, 30) /* ENCUMB_VAL_INT */
      , (20618, 16, 8) /* ITEM_USEABLE_INT */

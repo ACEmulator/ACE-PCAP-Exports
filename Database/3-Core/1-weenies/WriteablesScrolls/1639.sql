@@ -17,7 +17,7 @@ VALUES (1639, 8, 100677019) /* ICON_DID */
      , (1639, 28, 86) /* SPELL_DID - ForceBolt1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1639, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1639, 65, 101) /* PLACEMENT_INT */
      , (1639, 1, 8192) /* ITEM_TYPE_INT */
      , (1639, 5, 30) /* ENCUMB_VAL_INT */
      , (1639, 16, 8) /* ITEM_USEABLE_INT */

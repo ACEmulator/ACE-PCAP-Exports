@@ -17,7 +17,7 @@ VALUES (2959, 8, 100677013) /* ICON_DID */
      , (2959, 28, 80) /* SPELL_DID - LightningBolt6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2959, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2959, 65, 101) /* PLACEMENT_INT */
      , (2959, 1, 8192) /* ITEM_TYPE_INT */
      , (2959, 5, 30) /* ENCUMB_VAL_INT */
      , (2959, 16, 8) /* ITEM_USEABLE_INT */
