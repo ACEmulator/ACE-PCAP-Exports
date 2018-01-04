@@ -17,7 +17,7 @@ VALUES (20422, 8, 100676670) /* ICON_DID */
      , (20422, 28, 2112) /* SPELL_DID - LureBlade7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20422, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20422, 65, 101) /* PLACEMENT_INT */
      , (20422, 1, 8192) /* ITEM_TYPE_INT */
      , (20422, 5, 30) /* ENCUMB_VAL_INT */
      , (20422, 16, 8) /* ITEM_USEABLE_INT */

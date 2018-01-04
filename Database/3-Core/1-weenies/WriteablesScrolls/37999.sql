@@ -17,7 +17,7 @@ VALUES (37999, 8, 100677026) /* ICON_DID */
      , (37999, 28, 4432) /* SPELL_DID - AcidStreak8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37999, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37999, 65, 101) /* PLACEMENT_INT */
      , (37999, 1, 8192) /* ITEM_TYPE_INT */
      , (37999, 5, 30) /* ENCUMB_VAL_INT */
      , (37999, 16, 8) /* ITEM_USEABLE_INT */

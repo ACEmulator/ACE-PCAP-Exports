@@ -17,7 +17,7 @@ VALUES (43280, 8, 100691573) /* ICON_DID */
      , (43280, 28, 5389) /* SPELL_DID - Corrosion3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43280, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43280, 65, 101) /* PLACEMENT_INT */
      , (43280, 1, 8192) /* ITEM_TYPE_INT */
      , (43280, 5, 30) /* ENCUMB_VAL_INT */
      , (43280, 16, 8) /* ITEM_USEABLE_INT */

@@ -21,7 +21,7 @@ VALUES (30239, 8, 100686696) /* ICON_DID */
      , (30239, 28, 3732) /* SPELL_DID - RejuvenationRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30239, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30239, 65, 101) /* PLACEMENT_INT */
      , (30239, 1, 2048) /* ITEM_TYPE_INT */
      , (30239, 5, 5) /* ENCUMB_VAL_INT */
      , (30239, 18, 1) /* UI_EFFECTS_INT */

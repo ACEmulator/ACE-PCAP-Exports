@@ -18,7 +18,7 @@ VALUES (48939, 8, 100692975) /* ICON_DID */
      , (48939, 28, 2128) /* SPELL_DID - FlameBolt7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48939, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (48939, 65, 101) /* PLACEMENT_INT */
      , (48939, 1, 32768) /* ITEM_TYPE_INT */
      , (48939, 5, 50) /* ENCUMB_VAL_INT */
      , (48939, 18, 1) /* UI_EFFECTS_INT */

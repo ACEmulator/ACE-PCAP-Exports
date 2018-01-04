@@ -17,7 +17,7 @@ VALUES (28015, 8, 100676675) /* ICON_DID */
      , (28015, 28, 3266) /* SPELL_DID - SpiritLoather7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28015, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28015, 65, 101) /* PLACEMENT_INT */
      , (28015, 1, 8192) /* ITEM_TYPE_INT */
      , (28015, 5, 30) /* ENCUMB_VAL_INT */
      , (28015, 16, 8) /* ITEM_USEABLE_INT */

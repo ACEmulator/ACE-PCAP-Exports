@@ -17,7 +17,7 @@ VALUES (1843, 8, 100676954) /* ICON_DID */
      , (1843, 28, 1127) /* SPELL_DID - BladeVulnerabilityOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1843, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1843, 65, 101) /* PLACEMENT_INT */
      , (1843, 1, 8192) /* ITEM_TYPE_INT */
      , (1843, 5, 30) /* ENCUMB_VAL_INT */
      , (1843, 16, 8) /* ITEM_USEABLE_INT */

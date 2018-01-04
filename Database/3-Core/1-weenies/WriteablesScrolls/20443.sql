@@ -17,7 +17,7 @@ VALUES (20443, 8, 100677022) /* ICON_DID */
      , (20443, 28, 2130) /* SPELL_DID - FlameVolley7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20443, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20443, 65, 101) /* PLACEMENT_INT */
      , (20443, 1, 8192) /* ITEM_TYPE_INT */
      , (20443, 5, 30) /* ENCUMB_VAL_INT */
      , (20443, 16, 8) /* ITEM_USEABLE_INT */

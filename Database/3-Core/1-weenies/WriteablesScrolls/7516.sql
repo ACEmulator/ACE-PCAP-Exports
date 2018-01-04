@@ -17,7 +17,7 @@ VALUES (7516, 8, 100677025) /* ICON_DID */
      , (7516, 28, 1839) /* SPELL_DID - AcidWall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7516, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7516, 65, 101) /* PLACEMENT_INT */
      , (7516, 1, 8192) /* ITEM_TYPE_INT */
      , (7516, 5, 30) /* ENCUMB_VAL_INT */
      , (7516, 16, 8) /* ITEM_USEABLE_INT */

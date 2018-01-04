@@ -17,7 +17,7 @@ VALUES (3264, 8, 100676446) /* ICON_DID */
      , (3264, 28, 948) /* SPELL_DID - FealtySelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3264, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3264, 65, 101) /* PLACEMENT_INT */
      , (3264, 1, 8192) /* ITEM_TYPE_INT */
      , (3264, 5, 30) /* ENCUMB_VAL_INT */
      , (3264, 16, 8) /* ITEM_USEABLE_INT */

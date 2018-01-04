@@ -17,7 +17,7 @@ VALUES (41300, 8, 100690644) /* ICON_DID */
      , (41300, 28, 5095) /* SPELL_DID - twohandedmastery5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41300, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41300, 65, 101) /* PLACEMENT_INT */
      , (41300, 1, 8192) /* ITEM_TYPE_INT */
      , (41300, 5, 30) /* ENCUMB_VAL_INT */
      , (41300, 16, 8) /* ITEM_USEABLE_INT */

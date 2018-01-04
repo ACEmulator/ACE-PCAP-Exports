@@ -18,7 +18,7 @@ VALUES (24470, 8, 100674333) /* ICON_DID */
      , (24470, 6, 67111919) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24470, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (24470, 65, 101) /* PLACEMENT_INT */
      , (24470, 1, 128) /* ITEM_TYPE_INT */
      , (24470, 16, 1) /* ITEM_USEABLE_INT */
      , (24470, 93, 1044) /* PHYSICS_STATE_INT */

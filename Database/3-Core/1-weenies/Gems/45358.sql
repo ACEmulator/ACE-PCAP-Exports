@@ -21,7 +21,7 @@ VALUES (45358, 8, 100686697) /* ICON_DID */
      , (45358, 28, 5906) /* SPELL_DID - RecklessnessMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45358, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45358, 65, 101) /* PLACEMENT_INT */
      , (45358, 1, 2048) /* ITEM_TYPE_INT */
      , (45358, 5, 5) /* ENCUMB_VAL_INT */
      , (45358, 18, 1) /* UI_EFFECTS_INT */

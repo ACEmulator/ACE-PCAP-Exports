@@ -18,7 +18,7 @@ VALUES (34198, 8, 100667942) /* ICON_DID */
      , (34198, 28, 4022) /* SPELL_DID - ZombiesPersistence_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34198, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (34198, 65, 101) /* PLACEMENT_INT */
      , (34198, 1, 32) /* ITEM_TYPE_INT */
      , (34198, 5, 1) /* ENCUMB_VAL_INT */
      , (34198, 18, 1) /* UI_EFFECTS_INT */

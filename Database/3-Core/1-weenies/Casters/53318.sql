@@ -19,7 +19,7 @@ VALUES (53318, 8, 100693344) /* ICON_DID */
      , (53318, 28, 6198) /* SPELL_DID - IncantationOfLightningBolt_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53318, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (53318, 65, 1) /* PLACEMENT_INT */
      , (53318, 1, 32768) /* ITEM_TYPE_INT */
      , (53318, 5, 50) /* ENCUMB_VAL_INT */
      , (53318, 18, 1) /* UI_EFFECTS_INT */

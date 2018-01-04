@@ -16,7 +16,7 @@ VALUES (37492, 8, 100689897) /* ICON_DID */
      , (37492, 1, 33555677) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37492, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37492, 65, 101) /* PLACEMENT_INT */
      , (37492, 1, 2048) /* ITEM_TYPE_INT */
      , (37492, 5, 10) /* ENCUMB_VAL_INT */
      , (37492, 16, 1) /* ITEM_USEABLE_INT */

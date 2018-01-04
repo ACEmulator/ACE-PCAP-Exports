@@ -17,7 +17,7 @@ VALUES (2890, 8, 100676934) /* ICON_DID */
      , (2890, 28, 1238) /* SPELL_DID - DrainHealth2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2890, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2890, 65, 101) /* PLACEMENT_INT */
      , (2890, 1, 8192) /* ITEM_TYPE_INT */
      , (2890, 5, 30) /* ENCUMB_VAL_INT */
      , (2890, 16, 8) /* ITEM_USEABLE_INT */

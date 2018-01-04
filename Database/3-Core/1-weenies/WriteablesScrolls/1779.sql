@@ -17,7 +17,7 @@ VALUES (1779, 8, 100676932) /* ICON_DID */
      , (1779, 28, 1219) /* SPELL_DID - ManaDrainOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1779, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1779, 65, 101) /* PLACEMENT_INT */
      , (1779, 1, 8192) /* ITEM_TYPE_INT */
      , (1779, 5, 30) /* ENCUMB_VAL_INT */
      , (1779, 16, 8) /* ITEM_USEABLE_INT */

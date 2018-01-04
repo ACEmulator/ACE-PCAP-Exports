@@ -18,7 +18,7 @@ VALUES (23774, 8, 100671129) /* ICON_DID */
      , (23774, 28, 1679) /* SPELL_DID - StaminatoManaSelf4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23774, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (23774, 65, 101) /* PLACEMENT_INT */
      , (23774, 1, 32768) /* ITEM_TYPE_INT */
      , (23774, 5, 50) /* ENCUMB_VAL_INT */
      , (23774, 18, 1) /* UI_EFFECTS_INT */

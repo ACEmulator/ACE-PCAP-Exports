@@ -17,7 +17,7 @@ VALUES (20455, 8, 100677013) /* ICON_DID */
      , (20455, 28, 2140) /* SPELL_DID - Lightningbolt7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20455, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20455, 65, 101) /* PLACEMENT_INT */
      , (20455, 1, 8192) /* ITEM_TYPE_INT */
      , (20455, 5, 30) /* ENCUMB_VAL_INT */
      , (20455, 16, 8) /* ITEM_USEABLE_INT */

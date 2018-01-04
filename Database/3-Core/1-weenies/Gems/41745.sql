@@ -21,7 +21,7 @@ VALUES (41745, 8, 100686697) /* ICON_DID */
      , (41745, 28, 5023) /* SPELL_DID - TwoHandedMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41745, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41745, 65, 101) /* PLACEMENT_INT */
      , (41745, 1, 2048) /* ITEM_TYPE_INT */
      , (41745, 5, 5) /* ENCUMB_VAL_INT */
      , (41745, 18, 1) /* UI_EFFECTS_INT */

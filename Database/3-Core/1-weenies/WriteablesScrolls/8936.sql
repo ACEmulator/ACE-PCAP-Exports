@@ -17,7 +17,7 @@ VALUES (8936, 8, 100677016) /* ICON_DID */
      , (8936, 28, 1809) /* SPELL_DID - FrostStreak2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8936, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8936, 65, 101) /* PLACEMENT_INT */
      , (8936, 1, 8192) /* ITEM_TYPE_INT */
      , (8936, 5, 30) /* ENCUMB_VAL_INT */
      , (8936, 16, 8) /* ITEM_USEABLE_INT */

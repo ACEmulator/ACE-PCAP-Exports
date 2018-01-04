@@ -17,7 +17,7 @@ VALUES (20415, 8, 100676667) /* ICON_DID */
      , (20415, 28, 2105) /* SPELL_DID - FrostLure7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20415, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20415, 65, 101) /* PLACEMENT_INT */
      , (20415, 1, 8192) /* ITEM_TYPE_INT */
      , (20415, 5, 30) /* ENCUMB_VAL_INT */
      , (20415, 16, 8) /* ITEM_USEABLE_INT */

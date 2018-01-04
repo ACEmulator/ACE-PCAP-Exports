@@ -17,7 +17,7 @@ VALUES (9613, 8, 100676466) /* ICON_DID */
      , (9613, 28, 677) /* SPELL_DID - ManaIneptitudeOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9613, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9613, 65, 101) /* PLACEMENT_INT */
      , (9613, 1, 8192) /* ITEM_TYPE_INT */
      , (9613, 5, 30) /* ENCUMB_VAL_INT */
      , (9613, 16, 8) /* ITEM_USEABLE_INT */

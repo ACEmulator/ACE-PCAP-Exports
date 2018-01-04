@@ -17,7 +17,7 @@ VALUES (3330, 8, 100676477) /* ICON_DID */
      , (3330, 28, 747) /* SPELL_DID - ItemIgnoranceOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3330, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3330, 65, 101) /* PLACEMENT_INT */
      , (3330, 1, 8192) /* ITEM_TYPE_INT */
      , (3330, 5, 30) /* ENCUMB_VAL_INT */
      , (3330, 16, 8) /* ITEM_USEABLE_INT */

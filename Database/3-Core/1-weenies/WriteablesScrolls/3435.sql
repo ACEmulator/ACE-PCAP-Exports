@@ -17,7 +17,7 @@ VALUES (3435, 8, 100676466) /* ICON_DID */
      , (3435, 28, 656) /* SPELL_DID - ManaMasterySelf4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3435, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3435, 65, 101) /* PLACEMENT_INT */
      , (3435, 1, 8192) /* ITEM_TYPE_INT */
      , (3435, 5, 30) /* ENCUMB_VAL_INT */
      , (3435, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (38765, 8, 100676940) /* ICON_DID */
      , (38765, 28, 4498) /* SPELL_DID - RejuvenationSelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38765, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (38765, 65, 101) /* PLACEMENT_INT */
      , (38765, 1, 8192) /* ITEM_TYPE_INT */
      , (38765, 5, 30) /* ENCUMB_VAL_INT */
      , (38765, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (1724, 8, 100676477) /* ICON_DID */
      , (1724, 28, 768) /* SPELL_DID - MagicItemIgnoranceOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1724, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1724, 65, 101) /* PLACEMENT_INT */
      , (1724, 1, 8192) /* ITEM_TYPE_INT */
      , (1724, 5, 30) /* ENCUMB_VAL_INT */
      , (1724, 16, 8) /* ITEM_USEABLE_INT */

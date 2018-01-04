@@ -18,7 +18,7 @@ VALUES (28453, 8, 100676972) /* ICON_DID */
      , (28453, 28, 3440) /* SPELL_DID - LugianHealth_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28453, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28453, 65, 101) /* PLACEMENT_INT */
      , (28453, 1, 32) /* ITEM_TYPE_INT */
      , (28453, 5, 875) /* ENCUMB_VAL_INT */
      , (28453, 18, 1) /* UI_EFFECTS_INT */

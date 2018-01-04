@@ -17,7 +17,7 @@ VALUES (1718, 8, 100676462) /* ICON_DID */
      , (1718, 28, 605) /* SPELL_DID - LifeMagicMasterySelf1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1718, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1718, 65, 101) /* PLACEMENT_INT */
      , (1718, 1, 8192) /* ITEM_TYPE_INT */
      , (1718, 5, 30) /* ENCUMB_VAL_INT */
      , (1718, 16, 8) /* ITEM_USEABLE_INT */

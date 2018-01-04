@@ -17,7 +17,7 @@ VALUES (46879, 8, 100676655) /* ICON_DID */
      , (46879, 28, 5996) /* SPELL_DID - blooddrinkerOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46879, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (46879, 65, 101) /* PLACEMENT_INT */
      , (46879, 1, 8192) /* ITEM_TYPE_INT */
      , (46879, 5, 30) /* ENCUMB_VAL_INT */
      , (46879, 16, 8) /* ITEM_USEABLE_INT */

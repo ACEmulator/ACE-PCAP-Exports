@@ -17,7 +17,7 @@ VALUES (1727, 8, 100676448) /* ICON_DID */
      , (1727, 28, 804) /* SPELL_DID - MonsterAttunementOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1727, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1727, 65, 101) /* PLACEMENT_INT */
      , (1727, 1, 8192) /* ITEM_TYPE_INT */
      , (1727, 5, 30) /* ENCUMB_VAL_INT */
      , (1727, 16, 8) /* ITEM_USEABLE_INT */

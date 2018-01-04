@@ -17,7 +17,7 @@ VALUES (20609, 8, 100676930) /* ICON_DID */
      , (20609, 28, 2337) /* SPELL_DID - InfuseStamina7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20609, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20609, 65, 101) /* PLACEMENT_INT */
      , (20609, 1, 8192) /* ITEM_TYPE_INT */
      , (20609, 5, 30) /* ENCUMB_VAL_INT */
      , (20609, 16, 8) /* ITEM_USEABLE_INT */

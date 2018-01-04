@@ -17,7 +17,7 @@ VALUES (3142, 8, 100676447) /* ICON_DID */
      , (3142, 28, 683) /* SPELL_DID - ArcaneEnlightenmentSelf6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3142, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3142, 65, 101) /* PLACEMENT_INT */
      , (3142, 1, 8192) /* ITEM_TYPE_INT */
      , (3142, 5, 30) /* ENCUMB_VAL_INT */
      , (3142, 16, 8) /* ITEM_USEABLE_INT */

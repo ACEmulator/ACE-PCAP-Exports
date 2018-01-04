@@ -17,7 +17,7 @@ VALUES (3293, 8, 100676467) /* ICON_DID */
      , (3293, 28, 240) /* SPELL_DID - InvulnerabilityOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3293, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3293, 65, 101) /* PLACEMENT_INT */
      , (3293, 1, 8192) /* ITEM_TYPE_INT */
      , (3293, 5, 30) /* ENCUMB_VAL_INT */
      , (3293, 16, 8) /* ITEM_USEABLE_INT */

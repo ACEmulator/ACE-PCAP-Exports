@@ -17,7 +17,7 @@ VALUES (3044, 8, 100676949) /* ICON_DID */
      , (3044, 28, 1105) /* SPELL_DID - FireVulnerabilityOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3044, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3044, 65, 101) /* PLACEMENT_INT */
      , (3044, 1, 8192) /* ITEM_TYPE_INT */
      , (3044, 5, 30) /* ENCUMB_VAL_INT */
      , (3044, 16, 8) /* ITEM_USEABLE_INT */

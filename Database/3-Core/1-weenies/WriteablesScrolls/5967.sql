@@ -17,7 +17,7 @@ VALUES (5967, 8, 100676457) /* ICON_DID */
      , (5967, 28, 1750) /* SPELL_DID - FletchingIneptitudeOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5967, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5967, 65, 101) /* PLACEMENT_INT */
      , (5967, 1, 8192) /* ITEM_TYPE_INT */
      , (5967, 5, 30) /* ENCUMB_VAL_INT */
      , (5967, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (9657, 8, 100676944) /* ICON_DID */
      , (9657, 28, 1679) /* SPELL_DID - StaminatoManaSelf4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9657, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9657, 65, 101) /* PLACEMENT_INT */
      , (9657, 1, 8192) /* ITEM_TYPE_INT */
      , (9657, 5, 30) /* ENCUMB_VAL_INT */
      , (9657, 16, 8) /* ITEM_USEABLE_INT */

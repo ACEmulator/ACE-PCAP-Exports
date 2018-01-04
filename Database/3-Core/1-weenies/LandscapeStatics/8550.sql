@@ -18,7 +18,7 @@ VALUES (8550, 8, 100667466) /* ICON_DID */
      , (8550, 28, 686) /* SPELL_DID - ArcaneEnlightenmentOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8550, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8550, 65, 101) /* PLACEMENT_INT */
      , (8550, 1, 4194304) /* ITEM_TYPE_INT */
      , (8550, 5, 6000) /* ENCUMB_VAL_INT */
      , (8550, 16, 48) /* ITEM_USEABLE_INT */

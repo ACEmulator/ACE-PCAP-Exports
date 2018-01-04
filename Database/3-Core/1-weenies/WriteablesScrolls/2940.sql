@@ -17,7 +17,7 @@ VALUES (2940, 8, 100677016) /* ICON_DID */
      , (2940, 28, 110) /* SPELL_DID - FrostBlast6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2940, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2940, 65, 101) /* PLACEMENT_INT */
      , (2940, 1, 8192) /* ITEM_TYPE_INT */
      , (2940, 5, 30) /* ENCUMB_VAL_INT */
      , (2940, 16, 8) /* ITEM_USEABLE_INT */

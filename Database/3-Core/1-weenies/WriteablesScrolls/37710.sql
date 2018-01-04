@@ -17,7 +17,7 @@ VALUES (37710, 8, 100676448) /* ICON_DID */
      , (37710, 28, 4542) /* SPELL_DID - DeceptionMasterySelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37710, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37710, 65, 101) /* PLACEMENT_INT */
      , (37710, 1, 8192) /* ITEM_TYPE_INT */
      , (37710, 5, 30) /* ENCUMB_VAL_INT */
      , (37710, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3104, 8, 100676939) /* ICON_DID */
      , (3104, 28, 214) /* SPELL_DID - ManaRenewalSelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3104, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3104, 65, 101) /* PLACEMENT_INT */
      , (3104, 1, 8192) /* ITEM_TYPE_INT */
      , (3104, 5, 30) /* ENCUMB_VAL_INT */
      , (3104, 16, 8) /* ITEM_USEABLE_INT */

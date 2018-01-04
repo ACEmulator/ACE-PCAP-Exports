@@ -17,7 +17,7 @@ VALUES (20622, 8, 100676673) /* ICON_DID */
      , (20622, 28, 2648) /* SPELL_DID - SummonSecondPortal1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20622, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20622, 65, 101) /* PLACEMENT_INT */
      , (20622, 1, 8192) /* ITEM_TYPE_INT */
      , (20622, 5, 30) /* ENCUMB_VAL_INT */
      , (20622, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (9026, 8, 100671362) /* ICON_DID */
      , (9026, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9026, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9026, 65, 101) /* PLACEMENT_INT */
      , (9026, 1, 1) /* ITEM_TYPE_INT */
      , (9026, 5, 50) /* ENCUMB_VAL_INT */
      , (9026, 51, 1) /* COMBAT_USE_INT */

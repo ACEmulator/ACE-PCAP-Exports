@@ -17,7 +17,7 @@ VALUES (2983, 8, 100676951) /* ICON_DID */
      , (2983, 28, 522) /* SPELL_DID - AcidVulnerabilityOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2983, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2983, 65, 101) /* PLACEMENT_INT */
      , (2983, 1, 8192) /* ITEM_TYPE_INT */
      , (2983, 5, 30) /* ENCUMB_VAL_INT */
      , (2983, 16, 8) /* ITEM_USEABLE_INT */

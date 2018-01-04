@@ -18,7 +18,7 @@ VALUES (27773, 8, 100676624) /* ICON_DID */
      , (27773, 28, 3249) /* SPELL_DID - ManaRenewalAdja_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27773, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (27773, 65, 101) /* PLACEMENT_INT */
      , (27773, 1, 2048) /* ITEM_TYPE_INT */
      , (27773, 5, 125) /* ENCUMB_VAL_INT */
      , (27773, 18, 1) /* UI_EFFECTS_INT */

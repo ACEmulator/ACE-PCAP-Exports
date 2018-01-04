@@ -18,7 +18,7 @@ VALUES (8313, 8, 100671037) /* ICON_DID */
      , (8313, 6, 67111919) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8313, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8313, 65, 101) /* PLACEMENT_INT */
      , (8313, 1, 4096) /* ITEM_TYPE_INT */
      , (8313, 5, 20) /* ENCUMB_VAL_INT */
      , (8313, 11, 100) /* MAX_STACK_SIZE_INT */

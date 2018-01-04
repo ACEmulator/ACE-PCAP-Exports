@@ -17,7 +17,7 @@ VALUES (20234, 8, 100676452) /* ICON_DID */
      , (20234, 28, 2058) /* SPELL_DID - CoordinationOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20234, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20234, 65, 101) /* PLACEMENT_INT */
      , (20234, 1, 8192) /* ITEM_TYPE_INT */
      , (20234, 5, 30) /* ENCUMB_VAL_INT */
      , (20234, 16, 8) /* ITEM_USEABLE_INT */

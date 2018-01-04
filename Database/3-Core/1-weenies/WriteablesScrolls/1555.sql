@@ -17,7 +17,7 @@ VALUES (1555, 8, 100676931) /* ICON_DID */
      , (1555, 28, 5) /* SPELL_DID - HealOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1555, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1555, 65, 101) /* PLACEMENT_INT */
      , (1555, 1, 8192) /* ITEM_TYPE_INT */
      , (1555, 5, 30) /* ENCUMB_VAL_INT */
      , (1555, 16, 8) /* ITEM_USEABLE_INT */

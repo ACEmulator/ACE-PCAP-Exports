@@ -18,7 +18,7 @@ VALUES (21396, 8, 100673495) /* ICON_DID */
      , (21396, 28, 2785) /* SPELL_DID - LesserStasisField_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21396, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (21396, 65, 1) /* PLACEMENT_INT */
      , (21396, 1, 32768) /* ITEM_TYPE_INT */
      , (21396, 5, 100) /* ENCUMB_VAL_INT */
      , (21396, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (8953, 8, 100677028) /* ICON_DID */
      , (8953, 28, 1826) /* SPELL_DID - WhirlingBladeStreak1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8953, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8953, 65, 101) /* PLACEMENT_INT */
      , (8953, 1, 8192) /* ITEM_TYPE_INT */
      , (8953, 5, 30) /* ENCUMB_VAL_INT */
      , (8953, 16, 8) /* ITEM_USEABLE_INT */

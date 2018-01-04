@@ -17,7 +17,7 @@ VALUES (20601, 8, 100676932) /* ICON_DID */
      , (20601, 28, 2329) /* SPELL_DID - DrainMana7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20601, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20601, 65, 101) /* PLACEMENT_INT */
      , (20601, 1, 8192) /* ITEM_TYPE_INT */
      , (20601, 5, 30) /* ENCUMB_VAL_INT */
      , (20601, 16, 8) /* ITEM_USEABLE_INT */

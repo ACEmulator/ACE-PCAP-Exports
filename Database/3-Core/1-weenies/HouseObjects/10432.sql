@@ -16,7 +16,7 @@ VALUES (10432, 8, 100671873) /* ICON_DID */
      , (10432, 30, 152) /* PHYSICS_SCRIPT_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10432, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (10432, 65, 101) /* PLACEMENT_INT */
      , (10432, 1, 128) /* ITEM_TYPE_INT */
      , (10432, 5, 10) /* ENCUMB_VAL_INT */
      , (10432, 16, 1) /* ITEM_USEABLE_INT */

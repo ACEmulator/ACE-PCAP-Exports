@@ -17,7 +17,7 @@ VALUES (1721, 8, 100676463) /* ICON_DID */
      , (1721, 28, 922) /* SPELL_DID - LockpickMasterySelf1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1721, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1721, 65, 101) /* PLACEMENT_INT */
      , (1721, 1, 8192) /* ITEM_TYPE_INT */
      , (1721, 5, 30) /* ENCUMB_VAL_INT */
      , (1721, 16, 8) /* ITEM_USEABLE_INT */

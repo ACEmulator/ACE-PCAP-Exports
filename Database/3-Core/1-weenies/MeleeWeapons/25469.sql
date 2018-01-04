@@ -18,7 +18,7 @@ VALUES (25469, 8, 100670275) /* ICON_DID */
      , (25469, 19, 88) /* ACTIVATION_ANIMATION_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25469, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (25469, 65, 101) /* PLACEMENT_INT */
      , (25469, 1, 1) /* ITEM_TYPE_INT */
      , (25469, 5, 100) /* ENCUMB_VAL_INT */
      , (25469, 51, 1) /* COMBAT_USE_INT */

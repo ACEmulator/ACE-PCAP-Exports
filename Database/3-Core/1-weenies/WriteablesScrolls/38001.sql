@@ -17,7 +17,7 @@ VALUES (38001, 8, 100677026) /* ICON_DID */
      , (38001, 28, 4434) /* SPELL_DID - AcidVolley8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38001, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (38001, 65, 101) /* PLACEMENT_INT */
      , (38001, 1, 8192) /* ITEM_TYPE_INT */
      , (38001, 5, 30) /* ENCUMB_VAL_INT */
      , (38001, 16, 8) /* ITEM_USEABLE_INT */

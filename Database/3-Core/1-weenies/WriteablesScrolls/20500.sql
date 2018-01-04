@@ -17,7 +17,7 @@ VALUES (20500, 8, 100676447) /* ICON_DID */
      , (20500, 28, 2195) /* SPELL_DID - ArcaneEnlightenmentSelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20500, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20500, 65, 101) /* PLACEMENT_INT */
      , (20500, 1, 8192) /* ITEM_TYPE_INT */
      , (20500, 5, 30) /* ENCUMB_VAL_INT */
      , (20500, 16, 8) /* ITEM_USEABLE_INT */

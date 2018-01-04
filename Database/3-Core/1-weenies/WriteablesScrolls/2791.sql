@@ -17,7 +17,7 @@ VALUES (2791, 8, 100676656) /* ICON_DID */
      , (2791, 28, 1621) /* SPELL_DID - BloodLoather6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2791, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2791, 65, 101) /* PLACEMENT_INT */
      , (2791, 1, 8192) /* ITEM_TYPE_INT */
      , (2791, 5, 30) /* ENCUMB_VAL_INT */
      , (2791, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3084, 8, 100676941) /* ICON_DID */
      , (3084, 28, 173) /* SPELL_DID - FesterOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3084, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3084, 65, 101) /* PLACEMENT_INT */
      , (3084, 1, 8192) /* ITEM_TYPE_INT */
      , (3084, 5, 30) /* ENCUMB_VAL_INT */
      , (3084, 16, 8) /* ITEM_USEABLE_INT */

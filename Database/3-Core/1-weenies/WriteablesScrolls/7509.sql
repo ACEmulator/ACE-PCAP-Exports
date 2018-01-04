@@ -17,7 +17,7 @@ VALUES (7509, 8, 100677027) /* ICON_DID */
      , (7509, 28, 1783) /* SPELL_DID - AcidRing_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7509, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7509, 65, 101) /* PLACEMENT_INT */
      , (7509, 1, 8192) /* ITEM_TYPE_INT */
      , (7509, 5, 30) /* ENCUMB_VAL_INT */
      , (7509, 16, 8) /* ITEM_USEABLE_INT */

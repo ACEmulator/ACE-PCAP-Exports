@@ -17,7 +17,7 @@ VALUES (37845, 8, 100676446) /* ICON_DID */
      , (37845, 28, 4575) /* SPELL_DID - LeadershipIneptitudeOther8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37845, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37845, 65, 101) /* PLACEMENT_INT */
      , (37845, 1, 8192) /* ITEM_TYPE_INT */
      , (37845, 5, 30) /* ENCUMB_VAL_INT */
      , (37845, 16, 8) /* ITEM_USEABLE_INT */

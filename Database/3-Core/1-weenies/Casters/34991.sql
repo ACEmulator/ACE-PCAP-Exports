@@ -18,7 +18,7 @@ VALUES (34991, 8, 100677030) /* ICON_DID */
      , (34991, 28, 4067) /* SPELL_DID - MucorBolt_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34991, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (34991, 65, 101) /* PLACEMENT_INT */
      , (34991, 1, 32768) /* ITEM_TYPE_INT */
      , (34991, 5, 50) /* ENCUMB_VAL_INT */
      , (34991, 18, 1) /* UI_EFFECTS_INT */

@@ -15,7 +15,7 @@ VALUES (21188, 8, 100673212) /* ICON_DID */
      , (21188, 1, 33557879) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21188, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21188, 65, 101) /* PLACEMENT_INT */
      , (21188, 1, 0) /* ITEM_TYPE_INT */
      , (21188, 93, 1044) /* PHYSICS_STATE_INT */
      , (21188, 9007, 1) /* Generic_WeenieType */;

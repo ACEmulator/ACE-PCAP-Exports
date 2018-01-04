@@ -17,7 +17,7 @@ VALUES (28933, 8, 100676477) /* ICON_DID */
      , (28933, 28, 3499) /* SPELL_DID - ArcanumSalvaging1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28933, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28933, 65, 101) /* PLACEMENT_INT */
      , (28933, 1, 8192) /* ITEM_TYPE_INT */
      , (28933, 5, 10) /* ENCUMB_VAL_INT */
      , (28933, 16, 8) /* ITEM_USEABLE_INT */

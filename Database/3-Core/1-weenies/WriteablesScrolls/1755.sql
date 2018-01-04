@@ -17,7 +17,7 @@ VALUES (1755, 8, 100676477) /* ICON_DID */
      , (1755, 28, 792) /* SPELL_DID - WeaponIgnoranceOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1755, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1755, 65, 101) /* PLACEMENT_INT */
      , (1755, 1, 8192) /* ITEM_TYPE_INT */
      , (1755, 5, 30) /* ENCUMB_VAL_INT */
      , (1755, 16, 8) /* ITEM_USEABLE_INT */

@@ -18,7 +18,7 @@ VALUES (2401, 8, 100674726) /* ICON_DID */
      , (2401, 28, 1111) /* SPELL_DID - BladeProtectionSelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2401, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2401, 65, 101) /* PLACEMENT_INT */
      , (2401, 1, 2048) /* ITEM_TYPE_INT */
      , (2401, 5, 5) /* ENCUMB_VAL_INT */
      , (2401, 18, 1) /* UI_EFFECTS_INT */

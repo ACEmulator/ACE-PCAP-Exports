@@ -17,7 +17,7 @@ VALUES (49459, 8, 100693008) /* ICON_DID */
      , (49459, 28, 6132) /* SPELL_DID - SummoningIneptitudeOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49459, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (49459, 65, 101) /* PLACEMENT_INT */
      , (49459, 1, 8192) /* ITEM_TYPE_INT */
      , (49459, 5, 30) /* ENCUMB_VAL_INT */
      , (49459, 16, 8) /* ITEM_USEABLE_INT */

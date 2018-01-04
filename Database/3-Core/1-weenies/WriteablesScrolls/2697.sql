@@ -17,7 +17,7 @@ VALUES (2697, 8, 100676931) /* ICON_DID */
      , (2697, 28, 1157) /* SPELL_DID - HealSelf2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2697, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2697, 65, 101) /* PLACEMENT_INT */
      , (2697, 1, 8192) /* ITEM_TYPE_INT */
      , (2697, 5, 30) /* ENCUMB_VAL_INT */
      , (2697, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (2748, 8, 100676474) /* ICON_DID */
      , (2748, 28, 1340) /* SPELL_DID - WeaknessOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2748, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2748, 65, 101) /* PLACEMENT_INT */
      , (2748, 1, 8192) /* ITEM_TYPE_INT */
      , (2748, 5, 30) /* ENCUMB_VAL_INT */
      , (2748, 16, 8) /* ITEM_USEABLE_INT */

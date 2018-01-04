@@ -17,7 +17,7 @@ VALUES (7518, 8, 100677020) /* ICON_DID */
      , (7518, 28, 1841) /* SPELL_DID - FlameWall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7518, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7518, 65, 101) /* PLACEMENT_INT */
      , (7518, 1, 8192) /* ITEM_TYPE_INT */
      , (7518, 5, 30) /* ENCUMB_VAL_INT */
      , (7518, 16, 8) /* ITEM_USEABLE_INT */

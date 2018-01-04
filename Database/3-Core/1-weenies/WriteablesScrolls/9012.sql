@@ -17,7 +17,7 @@ VALUES (9012, 8, 100677013) /* ICON_DID */
      , (9012, 28, 140) /* SPELL_DID - LightningVolley4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9012, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9012, 65, 101) /* PLACEMENT_INT */
      , (9012, 1, 8192) /* ITEM_TYPE_INT */
      , (9012, 5, 30) /* ENCUMB_VAL_INT */
      , (9012, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (2669, 8, 100676471) /* ICON_DID */
      , (2669, 28, 1464) /* SPELL_DID - FeeblemindOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2669, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2669, 65, 101) /* PLACEMENT_INT */
      , (2669, 1, 8192) /* ITEM_TYPE_INT */
      , (2669, 5, 30) /* ENCUMB_VAL_INT */
      , (2669, 16, 8) /* ITEM_USEABLE_INT */

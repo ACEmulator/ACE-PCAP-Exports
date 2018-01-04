@@ -18,7 +18,7 @@ VALUES (28833, 8, 100686392) /* ICON_DID */
      , (28833, 28, 1999) /* SPELL_DID - ManaGiver_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28833, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28833, 65, 101) /* PLACEMENT_INT */
      , (28833, 1, 128) /* ITEM_TYPE_INT */
      , (28833, 5, 200) /* ENCUMB_VAL_INT */
      , (28833, 151, 11) /* HOOK_TYPE_INT */

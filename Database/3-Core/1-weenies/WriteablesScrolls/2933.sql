@@ -17,7 +17,7 @@ VALUES (2933, 8, 100677019) /* ICON_DID */
      , (2933, 28, 90) /* SPELL_DID - ForceBolt5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2933, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2933, 65, 101) /* PLACEMENT_INT */
      , (2933, 1, 8192) /* ITEM_TYPE_INT */
      , (2933, 5, 30) /* ENCUMB_VAL_INT */
      , (2933, 16, 8) /* ITEM_USEABLE_INT */

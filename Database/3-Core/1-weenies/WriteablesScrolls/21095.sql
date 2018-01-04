@@ -17,7 +17,7 @@ VALUES (21095, 8, 100676938) /* ICON_DID */
      , (21095, 28, 2760) /* SPELL_DID - HealthBolt1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21095, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21095, 65, 101) /* PLACEMENT_INT */
      , (21095, 1, 8192) /* ITEM_TYPE_INT */
      , (21095, 5, 30) /* ENCUMB_VAL_INT */
      , (21095, 16, 8) /* ITEM_USEABLE_INT */

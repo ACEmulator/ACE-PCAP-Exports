@@ -17,7 +17,7 @@ VALUES (2969, 8, 100677028) /* ICON_DID */
      , (2969, 28, 94) /* SPELL_DID - WhirlingBlade3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2969, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2969, 65, 101) /* PLACEMENT_INT */
      , (2969, 1, 8192) /* ITEM_TYPE_INT */
      , (2969, 5, 30) /* ENCUMB_VAL_INT */
      , (2969, 16, 8) /* ITEM_USEABLE_INT */

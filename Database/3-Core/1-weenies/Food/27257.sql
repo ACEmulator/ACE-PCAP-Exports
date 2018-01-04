@@ -18,7 +18,7 @@ VALUES (27257, 8, 100676393) /* ICON_DID */
      , (27257, 28, 3206) /* SPELL_DID - GolemHunterManaHigh_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27257, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (27257, 65, 101) /* PLACEMENT_INT */
      , (27257, 1, 32) /* ITEM_TYPE_INT */
      , (27257, 5, 75) /* ENCUMB_VAL_INT */
      , (27257, 18, 1) /* UI_EFFECTS_INT */

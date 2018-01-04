@@ -17,7 +17,7 @@ VALUES (53337, 8, 100677024) /* ICON_DID */
      , (53337, 28, 6190) /* SPELL_DID - HorizonsBladesII_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53337, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (53337, 65, 101) /* PLACEMENT_INT */
      , (53337, 1, 8192) /* ITEM_TYPE_INT */
      , (53337, 5, 30) /* ENCUMB_VAL_INT */
      , (53337, 16, 8) /* ITEM_USEABLE_INT */

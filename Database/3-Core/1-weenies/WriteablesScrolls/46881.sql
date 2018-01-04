@@ -17,7 +17,7 @@ VALUES (46881, 8, 100676660) /* ICON_DID */
      , (46881, 28, 6013) /* SPELL_DID - heartseekerOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46881, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (46881, 65, 101) /* PLACEMENT_INT */
      , (46881, 1, 8192) /* ITEM_TYPE_INT */
      , (46881, 5, 30) /* ENCUMB_VAL_INT */
      , (46881, 16, 8) /* ITEM_USEABLE_INT */

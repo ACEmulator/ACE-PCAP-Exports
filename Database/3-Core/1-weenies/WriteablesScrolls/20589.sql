@@ -17,7 +17,7 @@ VALUES (20589, 8, 100676450) /* ICON_DID */
      , (20589, 28, 2207) /* SPELL_DID - BowMasterySelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20589, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20589, 65, 101) /* PLACEMENT_INT */
      , (20589, 1, 8192) /* ITEM_TYPE_INT */
      , (20589, 5, 30) /* ENCUMB_VAL_INT */
      , (20589, 16, 8) /* ITEM_USEABLE_INT */

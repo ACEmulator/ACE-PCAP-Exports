@@ -21,7 +21,7 @@ VALUES (30198, 8, 100686697) /* ICON_DID */
      , (30198, 28, 3691) /* SPELL_DID - BowMasteryRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30198, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30198, 65, 101) /* PLACEMENT_INT */
      , (30198, 1, 2048) /* ITEM_TYPE_INT */
      , (30198, 5, 15) /* ENCUMB_VAL_INT */
      , (30198, 18, 1) /* UI_EFFECTS_INT */

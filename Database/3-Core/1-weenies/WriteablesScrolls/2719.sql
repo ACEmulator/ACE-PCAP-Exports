@@ -17,7 +17,7 @@ VALUES (2719, 8, 100676469) /* ICON_DID */
      , (2719, 28, 1400) /* SPELL_DID - QuicknessSelf4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2719, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2719, 65, 101) /* PLACEMENT_INT */
      , (2719, 1, 8192) /* ITEM_TYPE_INT */
      , (2719, 5, 30) /* ENCUMB_VAL_INT */
      , (2719, 16, 8) /* ITEM_USEABLE_INT */

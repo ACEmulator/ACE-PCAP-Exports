@@ -18,7 +18,7 @@ VALUES (4129, 8, 100668104) /* ICON_DID */
      , (4129, 28, 1) /* SPELL_DID - StrengthOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4129, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (4129, 65, 101) /* PLACEMENT_INT */
      , (4129, 1, 128) /* ITEM_TYPE_INT */
      , (4129, 5, 6000) /* ENCUMB_VAL_INT */
      , (4129, 16, 48) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3408, 8, 100676477) /* ICON_DID */
      , (3408, 28, 757) /* SPELL_DID - MagicItemExpertiseOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3408, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3408, 65, 101) /* PLACEMENT_INT */
      , (3408, 1, 8192) /* ITEM_TYPE_INT */
      , (3408, 5, 30) /* ENCUMB_VAL_INT */
      , (3408, 16, 8) /* ITEM_USEABLE_INT */

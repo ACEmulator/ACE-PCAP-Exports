@@ -17,7 +17,7 @@ VALUES (46844, 8, 100676658) /* ICON_DID */
      , (46844, 28, 5999) /* SPELL_DID - defenderOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46844, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (46844, 65, 101) /* PLACEMENT_INT */
      , (46844, 1, 8192) /* ITEM_TYPE_INT */
      , (46844, 5, 30) /* ENCUMB_VAL_INT */
      , (46844, 16, 8) /* ITEM_USEABLE_INT */

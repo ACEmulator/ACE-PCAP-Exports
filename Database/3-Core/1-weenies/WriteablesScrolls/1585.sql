@@ -17,7 +17,7 @@ VALUES (1585, 8, 100676467) /* ICON_DID */
      , (1585, 28, 18) /* SPELL_DID - InvulnerabilitySelf1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1585, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1585, 65, 101) /* PLACEMENT_INT */
      , (1585, 1, 8192) /* ITEM_TYPE_INT */
      , (1585, 5, 30) /* ENCUMB_VAL_INT */
      , (1585, 16, 8) /* ITEM_USEABLE_INT */

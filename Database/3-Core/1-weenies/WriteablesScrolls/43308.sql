@@ -17,7 +17,7 @@ VALUES (43308, 8, 100691569) /* ICON_DID */
      , (43308, 28, 5355) /* SPELL_DID - netherbolt7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43308, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43308, 65, 101) /* PLACEMENT_INT */
      , (43308, 1, 8192) /* ITEM_TYPE_INT */
      , (43308, 5, 30) /* ENCUMB_VAL_INT */
      , (43308, 16, 8) /* ITEM_USEABLE_INT */

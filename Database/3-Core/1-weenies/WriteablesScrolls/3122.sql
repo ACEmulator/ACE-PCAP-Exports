@@ -17,7 +17,7 @@ VALUES (3122, 8, 100676940) /* ICON_DID */
      , (3122, 28, 188) /* SPELL_DID - RejuvenationOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3122, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3122, 65, 101) /* PLACEMENT_INT */
      , (3122, 1, 8192) /* ITEM_TYPE_INT */
      , (3122, 5, 30) /* ENCUMB_VAL_INT */
      , (3122, 16, 8) /* ITEM_USEABLE_INT */

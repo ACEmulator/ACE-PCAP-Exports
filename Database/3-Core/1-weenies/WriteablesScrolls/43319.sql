@@ -17,7 +17,7 @@ VALUES (43319, 8, 100691572) /* ICON_DID */
      , (43319, 28, 5361) /* SPELL_DID - netherring_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43319, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43319, 65, 101) /* PLACEMENT_INT */
      , (43319, 1, 8192) /* ITEM_TYPE_INT */
      , (43319, 5, 30) /* ENCUMB_VAL_INT */
      , (43319, 16, 8) /* ITEM_USEABLE_INT */

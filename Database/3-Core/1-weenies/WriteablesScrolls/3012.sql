@@ -17,7 +17,7 @@ VALUES (3012, 8, 100676952) /* ICON_DID */
      , (3012, 28, 1023) /* SPELL_DID - BludgeonProtectionSelf6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3012, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3012, 65, 101) /* PLACEMENT_INT */
      , (3012, 1, 8192) /* ITEM_TYPE_INT */
      , (3012, 5, 30) /* ENCUMB_VAL_INT */
      , (3012, 16, 8) /* ITEM_USEABLE_INT */

@@ -18,7 +18,7 @@ VALUES (37088, 8, 100667503) /* ICON_DID */
      , (37088, 28, 4247) /* SPELL_DID - PortalSendingTanadaBattleBurrows_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37088, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37088, 65, 101) /* PLACEMENT_INT */
      , (37088, 1, 2048) /* ITEM_TYPE_INT */
      , (37088, 5, 50) /* ENCUMB_VAL_INT */
      , (37088, 18, 1) /* UI_EFFECTS_INT */

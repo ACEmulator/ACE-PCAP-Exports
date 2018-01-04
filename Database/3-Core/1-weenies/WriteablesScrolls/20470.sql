@@ -17,7 +17,7 @@ VALUES (20470, 8, 100676954) /* ICON_DID */
      , (20470, 28, 2164) /* SPELL_DID - BladeVulnerabilityOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20470, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20470, 65, 101) /* PLACEMENT_INT */
      , (20470, 1, 8192) /* ITEM_TYPE_INT */
      , (20470, 5, 30) /* ENCUMB_VAL_INT */
      , (20470, 16, 8) /* ITEM_USEABLE_INT */

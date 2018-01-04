@@ -18,7 +18,7 @@ VALUES (41449, 8, 100690735) /* ICON_DID */
      , (41449, 28, 5129) /* SPELL_DID - AnswerOfLoyaltyStam2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41449, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41449, 65, 101) /* PLACEMENT_INT */
      , (41449, 1, 2048) /* ITEM_TYPE_INT */
      , (41449, 5, 50) /* ENCUMB_VAL_INT */
      , (41449, 280, 7) /* SHARED_COOLDOWN_INT */

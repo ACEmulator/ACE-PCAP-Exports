@@ -17,7 +17,7 @@ VALUES (20356, 8, 100676659) /* ICON_DID */
      , (20356, 28, 1933) /* SPELL_DID - DispelItemBadOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20356, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20356, 65, 101) /* PLACEMENT_INT */
      , (20356, 1, 8192) /* ITEM_TYPE_INT */
      , (20356, 5, 30) /* ENCUMB_VAL_INT */
      , (20356, 16, 8) /* ITEM_USEABLE_INT */

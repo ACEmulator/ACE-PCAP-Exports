@@ -18,7 +18,7 @@ VALUES (32207, 8, 100688413) /* ICON_DID */
      , (32207, 28, 3860) /* SPELL_DID - SweetSpeed_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32207, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (32207, 65, 101) /* PLACEMENT_INT */
      , (32207, 1, 32) /* ITEM_TYPE_INT */
      , (32207, 5, 7) /* ENCUMB_VAL_INT */
      , (32207, 18, 1) /* UI_EFFECTS_INT */

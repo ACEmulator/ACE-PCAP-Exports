@@ -17,7 +17,7 @@ VALUES (20423, 8, 100676654) /* ICON_DID */
      , (20423, 28, 2113) /* SPELL_DID - PiercingBane7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20423, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20423, 65, 101) /* PLACEMENT_INT */
      , (20423, 1, 8192) /* ITEM_TYPE_INT */
      , (20423, 5, 30) /* ENCUMB_VAL_INT */
      , (20423, 16, 8) /* ITEM_USEABLE_INT */

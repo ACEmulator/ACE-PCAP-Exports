@@ -17,7 +17,7 @@ VALUES (2835, 8, 100676660) /* ICON_DID */
      , (2835, 28, 1591) /* SPELL_DID - HeartSeeker5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2835, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2835, 65, 101) /* PLACEMENT_INT */
      , (2835, 1, 8192) /* ITEM_TYPE_INT */
      , (2835, 5, 30) /* ENCUMB_VAL_INT */
      , (2835, 16, 8) /* ITEM_USEABLE_INT */

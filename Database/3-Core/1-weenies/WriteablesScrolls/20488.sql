@@ -17,7 +17,7 @@ VALUES (20488, 8, 100676939) /* ICON_DID */
      , (20488, 28, 2180) /* SPELL_DID - ManaDepletionOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20488, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20488, 65, 101) /* PLACEMENT_INT */
      , (20488, 1, 8192) /* ITEM_TYPE_INT */
      , (20488, 5, 30) /* ENCUMB_VAL_INT */
      , (20488, 16, 8) /* ITEM_USEABLE_INT */

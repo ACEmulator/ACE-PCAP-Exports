@@ -18,7 +18,7 @@ VALUES (33243, 8, 100688937) /* ICON_DID */
      , (33243, 28, 3926) /* SPELL_DID - HarbingersFieryTouch_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33243, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (33243, 65, 1) /* PLACEMENT_INT */
      , (33243, 1, 32768) /* ITEM_TYPE_INT */
      , (33243, 5, 100) /* ENCUMB_VAL_INT */
      , (33243, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (21427, 8, 100673486) /* ICON_DID */
      , (21427, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21427, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21427, 65, 101) /* PLACEMENT_INT */
      , (21427, 1, 256) /* ITEM_TYPE_INT */
      , (21427, 50, 1) /* AMMO_TYPE_INT */
      , (21427, 5, 600) /* ENCUMB_VAL_INT */

@@ -17,7 +17,7 @@ VALUES (1847, 8, 100676950) /* ICON_DID */
      , (1847, 28, 1036) /* SPELL_DID - ColdProtectionOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1847, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1847, 65, 101) /* PLACEMENT_INT */
      , (1847, 1, 8192) /* ITEM_TYPE_INT */
      , (1847, 5, 30) /* ENCUMB_VAL_INT */
      , (1847, 16, 8) /* ITEM_USEABLE_INT */

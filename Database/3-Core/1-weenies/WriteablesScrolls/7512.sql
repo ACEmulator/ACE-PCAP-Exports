@@ -17,7 +17,7 @@ VALUES (7512, 8, 100677018) /* ICON_DID */
      , (7512, 28, 1786) /* SPELL_DID - ForceRing_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7512, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7512, 65, 101) /* PLACEMENT_INT */
      , (7512, 1, 8192) /* ITEM_TYPE_INT */
      , (7512, 5, 30) /* ENCUMB_VAL_INT */
      , (7512, 16, 8) /* ITEM_USEABLE_INT */

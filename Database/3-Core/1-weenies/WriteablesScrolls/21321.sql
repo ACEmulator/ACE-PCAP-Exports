@@ -17,7 +17,7 @@ VALUES (21321, 8, 100677016) /* ICON_DID */
      , (21321, 28, 2730) /* SPELL_DID - FrostArc6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21321, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21321, 65, 101) /* PLACEMENT_INT */
      , (21321, 1, 8192) /* ITEM_TYPE_INT */
      , (21321, 5, 30) /* ENCUMB_VAL_INT */
      , (21321, 16, 8) /* ITEM_USEABLE_INT */

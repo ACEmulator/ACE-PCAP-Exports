@@ -17,7 +17,7 @@ VALUES (3341, 8, 100676461) /* ICON_DID */
      , (3341, 28, 974) /* SPELL_DID - JumpingMasterySelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3341, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3341, 65, 101) /* PLACEMENT_INT */
      , (3341, 1, 8192) /* ITEM_TYPE_INT */
      , (3341, 5, 30) /* ENCUMB_VAL_INT */
      , (3341, 16, 8) /* ITEM_USEABLE_INT */

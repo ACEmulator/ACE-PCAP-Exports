@@ -17,7 +17,7 @@ VALUES (20555, 8, 100676463) /* ICON_DID */
      , (20555, 28, 2268) /* SPELL_DID - LockpickIneptitudeOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20555, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20555, 65, 101) /* PLACEMENT_INT */
      , (20555, 1, 8192) /* ITEM_TYPE_INT */
      , (20555, 5, 30) /* ENCUMB_VAL_INT */
      , (20555, 16, 8) /* ITEM_USEABLE_INT */

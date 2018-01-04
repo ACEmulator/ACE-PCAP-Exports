@@ -17,7 +17,7 @@ VALUES (28004, 8, 100676674) /* ICON_DID */
      , (28004, 28, 3255) /* SPELL_DID - SpiritDrinker3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28004, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28004, 65, 101) /* PLACEMENT_INT */
      , (28004, 1, 8192) /* ITEM_TYPE_INT */
      , (28004, 5, 30) /* ENCUMB_VAL_INT */
      , (28004, 16, 8) /* ITEM_USEABLE_INT */

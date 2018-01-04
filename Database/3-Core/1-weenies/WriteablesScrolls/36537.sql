@@ -17,7 +17,7 @@ VALUES (36537, 8, 100689659) /* ICON_DID */
      , (36537, 28, 4213) /* SPELL_DID - RecallColosseum_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36537, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (36537, 65, 101) /* PLACEMENT_INT */
      , (36537, 1, 8192) /* ITEM_TYPE_INT */
      , (36537, 5, 30) /* ENCUMB_VAL_INT */
      , (36537, 16, 8) /* ITEM_USEABLE_INT */

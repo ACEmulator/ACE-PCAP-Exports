@@ -18,7 +18,7 @@ VALUES (23885, 8, 100667431) /* ICON_DID */
      , (23885, 28, 1208) /* SPELL_DID - ManaBoostOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23885, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (23885, 65, 101) /* PLACEMENT_INT */
      , (23885, 1, 128) /* ITEM_TYPE_INT */
      , (23885, 5, 6000) /* ENCUMB_VAL_INT */
      , (23885, 16, 48) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (35479, 8, 100676673) /* ICON_DID */
      , (35479, 28, 4084) /* SPELL_DID - RecallBur_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35479, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (35479, 65, 101) /* PLACEMENT_INT */
      , (35479, 1, 8192) /* ITEM_TYPE_INT */
      , (35479, 5, 30) /* ENCUMB_VAL_INT */
      , (35479, 16, 8) /* ITEM_USEABLE_INT */

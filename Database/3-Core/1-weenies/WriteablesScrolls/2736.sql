@@ -17,7 +17,7 @@ VALUES (2736, 8, 100676469) /* ICON_DID */
      , (2736, 28, 1420) /* SPELL_DID - SlownessOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2736, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2736, 65, 101) /* PLACEMENT_INT */
      , (2736, 1, 8192) /* ITEM_TYPE_INT */
      , (2736, 5, 30) /* ENCUMB_VAL_INT */
      , (2736, 16, 8) /* ITEM_USEABLE_INT */

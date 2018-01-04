@@ -18,7 +18,7 @@ VALUES (41453, 8, 100690742) /* ICON_DID */
      , (41453, 28, 5157) /* SPELL_DID - DeceptionArcane1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41453, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41453, 65, 101) /* PLACEMENT_INT */
      , (41453, 1, 2048) /* ITEM_TYPE_INT */
      , (41453, 5, 10) /* ENCUMB_VAL_INT */
      , (41453, 280, 9) /* SHARED_COOLDOWN_INT */

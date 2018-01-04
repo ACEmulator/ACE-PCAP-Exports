@@ -17,7 +17,7 @@ VALUES (3355, 8, 100676446) /* ICON_DID */
      , (3355, 28, 907) /* SPELL_DID - LeadershipMasteryOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3355, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3355, 65, 101) /* PLACEMENT_INT */
      , (3355, 1, 8192) /* ITEM_TYPE_INT */
      , (3355, 5, 30) /* ENCUMB_VAL_INT */
      , (3355, 16, 8) /* ITEM_USEABLE_INT */

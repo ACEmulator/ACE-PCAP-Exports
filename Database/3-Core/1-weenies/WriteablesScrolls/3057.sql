@@ -17,7 +17,7 @@ VALUES (3057, 8, 100676948) /* ICON_DID */
      , (3057, 28, 1071) /* SPELL_DID - LightningProtectionSelf6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3057, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3057, 65, 101) /* PLACEMENT_INT */
      , (3057, 1, 8192) /* ITEM_TYPE_INT */
      , (3057, 5, 30) /* ENCUMB_VAL_INT */
      , (3057, 16, 8) /* ITEM_USEABLE_INT */

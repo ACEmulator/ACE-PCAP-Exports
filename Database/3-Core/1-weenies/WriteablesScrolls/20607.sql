@@ -17,7 +17,7 @@ VALUES (20607, 8, 100676931) /* ICON_DID */
      , (20607, 28, 2335) /* SPELL_DID - InfuseHealth7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20607, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20607, 65, 101) /* PLACEMENT_INT */
      , (20607, 1, 8192) /* ITEM_TYPE_INT */
      , (20607, 5, 30) /* ENCUMB_VAL_INT */
      , (20607, 16, 8) /* ITEM_USEABLE_INT */

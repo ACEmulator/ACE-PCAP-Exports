@@ -17,7 +17,7 @@ VALUES (2874, 8, 100676669) /* ICON_DID */
      , (2874, 28, 1566) /* SPELL_DID - PiercingLure4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2874, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2874, 65, 101) /* PLACEMENT_INT */
      , (2874, 1, 8192) /* ITEM_TYPE_INT */
      , (2874, 5, 30) /* ENCUMB_VAL_INT */
      , (2874, 16, 8) /* ITEM_USEABLE_INT */

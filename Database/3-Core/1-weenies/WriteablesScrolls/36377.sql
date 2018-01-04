@@ -17,7 +17,7 @@ VALUES (36377, 8, 100676673) /* ICON_DID */
      , (36377, 28, 4198) /* SPELL_DID - InfestedAreaRecall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36377, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (36377, 65, 101) /* PLACEMENT_INT */
      , (36377, 1, 8192) /* ITEM_TYPE_INT */
      , (36377, 5, 30) /* ENCUMB_VAL_INT */
      , (36377, 16, 8) /* ITEM_USEABLE_INT */

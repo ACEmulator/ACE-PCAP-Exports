@@ -17,7 +17,7 @@ VALUES (21299, 8, 100677028) /* ICON_DID */
      , (21299, 28, 2757) /* SPELL_DID - BladeArc5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21299, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21299, 65, 101) /* PLACEMENT_INT */
      , (21299, 1, 8192) /* ITEM_TYPE_INT */
      , (21299, 5, 30) /* ENCUMB_VAL_INT */
      , (21299, 16, 8) /* ITEM_USEABLE_INT */

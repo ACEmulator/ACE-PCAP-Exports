@@ -18,7 +18,7 @@ VALUES (37261, 8, 100689861) /* ICON_DID */
      , (37261, 28, 4280) /* SPELL_DID - CoordinationJesterDeck_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37261, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37261, 65, 101) /* PLACEMENT_INT */
      , (37261, 1, 2048) /* ITEM_TYPE_INT */
      , (37261, 5, 50) /* ENCUMB_VAL_INT */
      , (37261, 280, 1) /* SHARED_COOLDOWN_INT */

@@ -19,7 +19,7 @@ VALUES (42707, 8, 100672705) /* ICON_DID */
      , (42707, 28, 3204) /* SPELL_DID - GolemHunterHealthHigh_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42707, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (42707, 65, 101) /* PLACEMENT_INT */
      , (42707, 1, 2048) /* ITEM_TYPE_INT */
      , (42707, 5, 35) /* ENCUMB_VAL_INT */
      , (42707, 11, 100) /* MAX_STACK_SIZE_INT */

@@ -17,7 +17,7 @@ VALUES (3735, 8, 100676931) /* ICON_DID */
      , (3735, 28, 1230) /* SPELL_DID - InfuseHealth6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3735, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3735, 65, 101) /* PLACEMENT_INT */
      , (3735, 1, 8192) /* ITEM_TYPE_INT */
      , (3735, 5, 30) /* ENCUMB_VAL_INT */
      , (3735, 16, 8) /* ITEM_USEABLE_INT */

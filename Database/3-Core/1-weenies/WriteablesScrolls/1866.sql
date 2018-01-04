@@ -17,7 +17,7 @@ VALUES (1866, 8, 100676930) /* ICON_DID */
      , (1866, 28, 1243) /* SPELL_DID - InfuseStamina1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1866, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1866, 65, 101) /* PLACEMENT_INT */
      , (1866, 1, 8192) /* ITEM_TYPE_INT */
      , (1866, 5, 30) /* ENCUMB_VAL_INT */
      , (1866, 16, 8) /* ITEM_USEABLE_INT */

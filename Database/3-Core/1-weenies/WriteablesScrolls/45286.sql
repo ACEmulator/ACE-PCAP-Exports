@@ -17,7 +17,7 @@ VALUES (45286, 8, 100676449) /* ICON_DID */
      , (45286, 28, 5813) /* SPELL_DID - recklessnessineptitudeother3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45286, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45286, 65, 101) /* PLACEMENT_INT */
      , (45286, 1, 8192) /* ITEM_TYPE_INT */
      , (45286, 5, 30) /* ENCUMB_VAL_INT */
      , (45286, 16, 8) /* ITEM_USEABLE_INT */

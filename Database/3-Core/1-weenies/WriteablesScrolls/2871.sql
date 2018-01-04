@@ -17,7 +17,7 @@ VALUES (2871, 8, 100676654) /* ICON_DID */
      , (2871, 28, 1574) /* SPELL_DID - PiercingBane6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2871, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2871, 65, 101) /* PLACEMENT_INT */
      , (2871, 1, 8192) /* ITEM_TYPE_INT */
      , (2871, 5, 30) /* ENCUMB_VAL_INT */
      , (2871, 16, 8) /* ITEM_USEABLE_INT */

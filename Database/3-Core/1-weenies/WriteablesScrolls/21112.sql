@@ -17,7 +17,7 @@ VALUES (21112, 8, 100676936) /* ICON_DID */
      , (21112, 28, 2770) /* SPELL_DID - StaminaBolt4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21112, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21112, 65, 101) /* PLACEMENT_INT */
      , (21112, 1, 8192) /* ITEM_TYPE_INT */
      , (21112, 5, 30) /* ENCUMB_VAL_INT */
      , (21112, 16, 8) /* ITEM_USEABLE_INT */

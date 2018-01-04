@@ -21,7 +21,7 @@ VALUES (36021, 8, 100686697) /* ICON_DID */
      , (36021, 28, 4139) /* SPELL_DID - SwordMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36021, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (36021, 65, 101) /* PLACEMENT_INT */
      , (36021, 1, 2048) /* ITEM_TYPE_INT */
      , (36021, 5, 15) /* ENCUMB_VAL_INT */
      , (36021, 18, 1) /* UI_EFFECTS_INT */

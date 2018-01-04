@@ -17,7 +17,7 @@ VALUES (45338, 8, 100692253) /* ICON_DID */
      , (45338, 28, 5865) /* SPELL_DID - sneakattackineptitudeother7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45338, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45338, 65, 101) /* PLACEMENT_INT */
      , (45338, 1, 8192) /* ITEM_TYPE_INT */
      , (45338, 5, 30) /* ENCUMB_VAL_INT */
      , (45338, 16, 8) /* ITEM_USEABLE_INT */

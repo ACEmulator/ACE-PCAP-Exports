@@ -17,7 +17,7 @@ VALUES (2140, 8, 100677013) /* ICON_DID */
      , (2140, 28, 111) /* SPELL_DID - LightningBlast3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2140, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2140, 65, 101) /* PLACEMENT_INT */
      , (2140, 1, 8192) /* ITEM_TYPE_INT */
      , (2140, 5, 30) /* ENCUMB_VAL_INT */
      , (2140, 16, 8) /* ITEM_USEABLE_INT */

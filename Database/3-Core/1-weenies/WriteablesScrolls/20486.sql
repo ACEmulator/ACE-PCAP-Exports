@@ -17,7 +17,7 @@ VALUES (20486, 8, 100676940) /* ICON_DID */
      , (20486, 28, 2176) /* SPELL_DID - ExhaustionOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20486, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20486, 65, 101) /* PLACEMENT_INT */
      , (20486, 1, 8192) /* ITEM_TYPE_INT */
      , (20486, 5, 30) /* ENCUMB_VAL_INT */
      , (20486, 16, 8) /* ITEM_USEABLE_INT */

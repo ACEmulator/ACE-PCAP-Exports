@@ -17,7 +17,7 @@ VALUES (20546, 8, 100676461) /* ICON_DID */
      , (20546, 28, 2256) /* SPELL_DID - JumpingMasteryOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20546, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20546, 65, 101) /* PLACEMENT_INT */
      , (20546, 1, 8192) /* ITEM_TYPE_INT */
      , (20546, 5, 30) /* ENCUMB_VAL_INT */
      , (20546, 16, 8) /* ITEM_USEABLE_INT */

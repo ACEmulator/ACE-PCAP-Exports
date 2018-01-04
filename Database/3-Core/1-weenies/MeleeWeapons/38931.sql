@@ -16,7 +16,7 @@ VALUES (38931, 8, 100670217) /* ICON_DID */
      , (38931, 3, 536870932) /* SOUND_TABLE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38931, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (38931, 65, 1) /* PLACEMENT_INT */
      , (38931, 1, 1) /* ITEM_TYPE_INT */
      , (38931, 5, 50) /* ENCUMB_VAL_INT */
      , (38931, 51, 1) /* COMBAT_USE_INT */

@@ -17,7 +17,7 @@ VALUES (3741, 8, 100676930) /* ICON_DID */
      , (3741, 28, 1244) /* SPELL_DID - InfuseStamina2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3741, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3741, 65, 101) /* PLACEMENT_INT */
      , (3741, 1, 8192) /* ITEM_TYPE_INT */
      , (3741, 5, 30) /* ENCUMB_VAL_INT */
      , (3741, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (20421, 8, 100676668) /* ICON_DID */
      , (20421, 28, 2111) /* SPELL_DID - LightningLure7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20421, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20421, 65, 101) /* PLACEMENT_INT */
      , (20421, 1, 8192) /* ITEM_TYPE_INT */
      , (20421, 5, 30) /* ENCUMB_VAL_INT */
      , (20421, 16, 8) /* ITEM_USEABLE_INT */

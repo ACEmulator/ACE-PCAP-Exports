@@ -17,7 +17,7 @@ VALUES (3440, 8, 100676448) /* ICON_DID */
      , (3440, 28, 807) /* SPELL_DID - MonsterAttunementOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3440, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3440, 65, 101) /* PLACEMENT_INT */
      , (3440, 1, 8192) /* ITEM_TYPE_INT */
      , (3440, 5, 30) /* ENCUMB_VAL_INT */
      , (3440, 16, 8) /* ITEM_USEABLE_INT */

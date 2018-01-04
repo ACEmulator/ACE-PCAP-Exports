@@ -17,7 +17,7 @@ VALUES (3313, 8, 100676460) /* ICON_DID */
      , (3313, 28, 582) /* SPELL_DID - ItemEnchantmentMasterySelf2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3313, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3313, 65, 101) /* PLACEMENT_INT */
      , (3313, 1, 8192) /* ITEM_TYPE_INT */
      , (3313, 5, 30) /* ENCUMB_VAL_INT */
      , (3313, 16, 8) /* ITEM_USEABLE_INT */

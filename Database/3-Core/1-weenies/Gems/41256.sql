@@ -21,7 +21,7 @@ VALUES (41256, 8, 100686697) /* ICON_DID */
      , (41256, 28, 3714) /* SPELL_DID - ItemExpertiseRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41256, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (41256, 65, 101) /* PLACEMENT_INT */
      , (41256, 1, 2048) /* ITEM_TYPE_INT */
      , (41256, 5, 5) /* ENCUMB_VAL_INT */
      , (41256, 18, 1) /* UI_EFFECTS_INT */

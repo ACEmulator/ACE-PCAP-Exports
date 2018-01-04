@@ -21,7 +21,7 @@ VALUES (30245, 8, 100686697) /* ICON_DID */
      , (30245, 28, 3743) /* SPELL_DID - WarMagicMasteryRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30245, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30245, 65, 101) /* PLACEMENT_INT */
      , (30245, 1, 2048) /* ITEM_TYPE_INT */
      , (30245, 5, 5) /* ENCUMB_VAL_INT */
      , (30245, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (45241, 8, 100692255) /* ICON_DID */
      , (45241, 28, 5768) /* SPELL_DID - dirtyfightingineptitudeother6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45241, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (45241, 65, 101) /* PLACEMENT_INT */
      , (45241, 1, 8192) /* ITEM_TYPE_INT */
      , (45241, 5, 30) /* ENCUMB_VAL_INT */
      , (45241, 16, 8) /* ITEM_USEABLE_INT */

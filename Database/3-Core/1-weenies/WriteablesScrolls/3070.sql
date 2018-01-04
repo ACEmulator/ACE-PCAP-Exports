@@ -17,7 +17,7 @@ VALUES (3070, 8, 100676953) /* ICON_DID */
      , (3070, 28, 1136) /* SPELL_DID - PiercingProtectionSelf4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3070, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3070, 65, 101) /* PLACEMENT_INT */
      , (3070, 1, 8192) /* ITEM_TYPE_INT */
      , (3070, 5, 30) /* ENCUMB_VAL_INT */
      , (3070, 16, 8) /* ITEM_USEABLE_INT */

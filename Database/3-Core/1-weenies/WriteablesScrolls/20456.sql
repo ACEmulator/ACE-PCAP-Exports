@@ -17,7 +17,7 @@ VALUES (20456, 8, 100677013) /* ICON_DID */
      , (20456, 28, 2141) /* SPELL_DID - LightningStreak7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20456, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20456, 65, 101) /* PLACEMENT_INT */
      , (20456, 1, 8192) /* ITEM_TYPE_INT */
      , (20456, 5, 30) /* ENCUMB_VAL_INT */
      , (20456, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (2893, 8, 100676677) /* ICON_DID */
      , (2893, 28, 1594) /* SPELL_DID - TurnBlade2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2893, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2893, 65, 101) /* PLACEMENT_INT */
      , (2893, 1, 8192) /* ITEM_TYPE_INT */
      , (2893, 5, 30) /* ENCUMB_VAL_INT */
      , (2893, 16, 8) /* ITEM_USEABLE_INT */

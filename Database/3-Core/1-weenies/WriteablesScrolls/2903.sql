@@ -17,7 +17,7 @@ VALUES (2903, 8, 100676673) /* ICON_DID */
      , (2903, 28, 1635) /* SPELL_DID - LifestoneRecall1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2903, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2903, 65, 101) /* PLACEMENT_INT */
      , (2903, 1, 8192) /* ITEM_TYPE_INT */
      , (2903, 5, 30) /* ENCUMB_VAL_INT */
      , (2903, 16, 8) /* ITEM_USEABLE_INT */

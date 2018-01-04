@@ -17,7 +17,7 @@ VALUES (43294, 8, 100691573) /* ICON_DID */
      , (43294, 28, 5395) /* SPELL_DID - Corruption1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43294, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43294, 65, 101) /* PLACEMENT_INT */
      , (43294, 1, 8192) /* ITEM_TYPE_INT */
      , (43294, 5, 30) /* ENCUMB_VAL_INT */
      , (43294, 16, 8) /* ITEM_USEABLE_INT */

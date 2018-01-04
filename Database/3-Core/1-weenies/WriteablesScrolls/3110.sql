@@ -17,7 +17,7 @@ VALUES (3110, 8, 100676941) /* ICON_DID */
      , (3110, 28, 162) /* SPELL_DID - RegenerationOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3110, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3110, 65, 101) /* PLACEMENT_INT */
      , (3110, 1, 8192) /* ITEM_TYPE_INT */
      , (3110, 5, 30) /* ENCUMB_VAL_INT */
      , (3110, 16, 8) /* ITEM_USEABLE_INT */

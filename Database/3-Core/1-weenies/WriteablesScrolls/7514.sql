@@ -17,7 +17,7 @@ VALUES (7514, 8, 100677012) /* ICON_DID */
      , (7514, 28, 1788) /* SPELL_DID - LightningRing_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7514, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7514, 65, 101) /* PLACEMENT_INT */
      , (7514, 1, 8192) /* ITEM_TYPE_INT */
      , (7514, 5, 30) /* ENCUMB_VAL_INT */
      , (7514, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (20446, 8, 100677019) /* ICON_DID */
      , (20446, 28, 2133) /* SPELL_DID - ForceStreak7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20446, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20446, 65, 101) /* PLACEMENT_INT */
      , (20446, 1, 8192) /* ITEM_TYPE_INT */
      , (20446, 5, 30) /* ENCUMB_VAL_INT */
      , (20446, 16, 8) /* ITEM_USEABLE_INT */

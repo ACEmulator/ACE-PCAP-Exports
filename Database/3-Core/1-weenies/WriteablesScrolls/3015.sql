@@ -17,7 +17,7 @@ VALUES (3015, 8, 100676952) /* ICON_DID */
      , (3015, 28, 1051) /* SPELL_DID - BludgeonVulnerabilityOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3015, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3015, 65, 101) /* PLACEMENT_INT */
      , (3015, 1, 8192) /* ITEM_TYPE_INT */
      , (3015, 5, 30) /* ENCUMB_VAL_INT */
      , (3015, 16, 8) /* ITEM_USEABLE_INT */

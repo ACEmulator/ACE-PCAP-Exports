@@ -17,7 +17,7 @@ VALUES (37749, 8, 100676471) /* ICON_DID */
      , (37749, 28, 4302) /* SPELL_DID - FeeblemindOther8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37749, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37749, 65, 101) /* PLACEMENT_INT */
      , (37749, 1, 8192) /* ITEM_TYPE_INT */
      , (37749, 5, 30) /* ENCUMB_VAL_INT */
      , (37749, 16, 8) /* ITEM_USEABLE_INT */

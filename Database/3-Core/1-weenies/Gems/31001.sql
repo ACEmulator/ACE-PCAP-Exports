@@ -18,7 +18,7 @@ VALUES (31001, 8, 100683150) /* ICON_DID */
      , (31001, 28, 3810) /* SPELL_DID - AsheronsBenediction_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31001, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (31001, 65, 101) /* PLACEMENT_INT */
      , (31001, 1, 2048) /* ITEM_TYPE_INT */
      , (31001, 280, 2) /* SHARED_COOLDOWN_INT */
      , (31001, 18, 1) /* UI_EFFECTS_INT */

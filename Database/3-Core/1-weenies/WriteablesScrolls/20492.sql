@@ -17,7 +17,7 @@ VALUES (20492, 8, 100676941) /* ICON_DID */
      , (20492, 28, 2185) /* SPELL_DID - RegenerationSelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20492, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20492, 65, 101) /* PLACEMENT_INT */
      , (20492, 1, 8192) /* ITEM_TYPE_INT */
      , (20492, 5, 30) /* ENCUMB_VAL_INT */
      , (20492, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (53340, 8, 100677015) /* ICON_DID */
      , (53340, 28, 6193) /* SPELL_DID - HaloOfFrostII_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53340, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (53340, 65, 101) /* PLACEMENT_INT */
      , (53340, 1, 8192) /* ITEM_TYPE_INT */
      , (53340, 5, 30) /* ENCUMB_VAL_INT */
      , (53340, 16, 8) /* ITEM_USEABLE_INT */

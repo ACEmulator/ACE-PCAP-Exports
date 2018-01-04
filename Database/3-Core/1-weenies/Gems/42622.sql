@@ -17,7 +17,7 @@ VALUES (42622, 8, 100692208) /* ICON_DID */
      , (42622, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42622, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (42622, 65, 101) /* PLACEMENT_INT */
      , (42622, 1, 2048) /* ITEM_TYPE_INT */
      , (42622, 5, 10) /* ENCUMB_VAL_INT */
      , (42622, 11, 1) /* MAX_STACK_SIZE_INT */

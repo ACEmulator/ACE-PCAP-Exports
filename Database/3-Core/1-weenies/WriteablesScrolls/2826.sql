@@ -17,7 +17,7 @@ VALUES (2826, 8, 100676652) /* ICON_DID */
      , (2826, 28, 1528) /* SPELL_DID - FrostBane6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2826, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2826, 65, 101) /* PLACEMENT_INT */
      , (2826, 1, 8192) /* ITEM_TYPE_INT */
      , (2826, 5, 30) /* ENCUMB_VAL_INT */
      , (2826, 16, 8) /* ITEM_USEABLE_INT */

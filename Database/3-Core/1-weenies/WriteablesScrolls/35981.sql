@@ -17,7 +17,7 @@ VALUES (35981, 8, 100676673) /* ICON_DID */
      , (35981, 28, 4128) /* SPELL_DID - GraveyardRecall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35981, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (35981, 65, 101) /* PLACEMENT_INT */
      , (35981, 1, 8192) /* ITEM_TYPE_INT */
      , (35981, 5, 30) /* ENCUMB_VAL_INT */
      , (35981, 16, 8) /* ITEM_USEABLE_INT */

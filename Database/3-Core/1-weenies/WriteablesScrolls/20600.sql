@@ -17,7 +17,7 @@ VALUES (20600, 8, 100676934) /* ICON_DID */
      , (20600, 28, 2328) /* SPELL_DID - DrainHealth7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20600, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20600, 65, 101) /* PLACEMENT_INT */
      , (20600, 1, 8192) /* ITEM_TYPE_INT */
      , (20600, 5, 30) /* ENCUMB_VAL_INT */
      , (20600, 16, 8) /* ITEM_USEABLE_INT */

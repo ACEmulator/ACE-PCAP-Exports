@@ -17,7 +17,7 @@ VALUES (20431, 8, 100677026) /* ICON_DID */
      , (20431, 28, 2121) /* SPELL_DID - AcidStreak7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20431, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20431, 65, 101) /* PLACEMENT_INT */
      , (20431, 1, 8192) /* ITEM_TYPE_INT */
      , (20431, 5, 30) /* ENCUMB_VAL_INT */
      , (20431, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (2851, 8, 100676662) /* ICON_DID */
      , (2851, 28, 1633) /* SPELL_DID - LeadenWeapon6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2851, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2851, 65, 101) /* PLACEMENT_INT */
      , (2851, 1, 8192) /* ITEM_TYPE_INT */
      , (2851, 5, 30) /* ENCUMB_VAL_INT */
      , (2851, 16, 8) /* ITEM_USEABLE_INT */

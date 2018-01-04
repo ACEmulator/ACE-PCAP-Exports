@@ -17,7 +17,7 @@ VALUES (2133, 8, 100677028) /* ICON_DID */
      , (2133, 28, 151) /* SPELL_DID - BladeVolley3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2133, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2133, 65, 101) /* PLACEMENT_INT */
      , (2133, 1, 8192) /* ITEM_TYPE_INT */
      , (2133, 5, 30) /* ENCUMB_VAL_INT */
      , (2133, 16, 8) /* ITEM_USEABLE_INT */

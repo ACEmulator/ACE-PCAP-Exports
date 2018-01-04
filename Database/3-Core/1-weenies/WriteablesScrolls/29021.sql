@@ -17,7 +17,7 @@ VALUES (29021, 8, 100676941) /* ICON_DID */
      , (29021, 28, 3474) /* SPELL_DID - RegenerationFellowship4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29021, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (29021, 65, 101) /* PLACEMENT_INT */
      , (29021, 1, 8192) /* ITEM_TYPE_INT */
      , (29021, 5, 10) /* ENCUMB_VAL_INT */
      , (29021, 16, 8) /* ITEM_USEABLE_INT */

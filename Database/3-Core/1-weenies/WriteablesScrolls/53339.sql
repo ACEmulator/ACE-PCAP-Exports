@@ -17,7 +17,7 @@ VALUES (53339, 8, 100677018) /* ICON_DID */
      , (53339, 28, 6192) /* SPELL_DID - NuhmudirasSpinesII_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53339, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (53339, 65, 101) /* PLACEMENT_INT */
      , (53339, 1, 8192) /* ITEM_TYPE_INT */
      , (53339, 5, 30) /* ENCUMB_VAL_INT */
      , (53339, 16, 8) /* ITEM_USEABLE_INT */

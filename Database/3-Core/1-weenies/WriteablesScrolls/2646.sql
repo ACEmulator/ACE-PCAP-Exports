@@ -17,7 +17,7 @@ VALUES (2646, 8, 100676452) /* ICON_DID */
      , (2646, 28, 1382) /* SPELL_DID - CoordinationOther4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2646, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2646, 65, 101) /* PLACEMENT_INT */
      , (2646, 1, 8192) /* ITEM_TYPE_INT */
      , (2646, 5, 30) /* ENCUMB_VAL_INT */
      , (2646, 16, 8) /* ITEM_USEABLE_INT */

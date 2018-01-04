@@ -18,7 +18,7 @@ VALUES (11136, 8, 100671979) /* ICON_DID */
      , (11136, 28, 2433) /* SPELL_DID - FlameWard_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11136, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (11136, 65, 101) /* PLACEMENT_INT */
      , (11136, 1, 32) /* ITEM_TYPE_INT */
      , (11136, 5, 25) /* ENCUMB_VAL_INT */
      , (11136, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (8942, 8, 100677013) /* ICON_DID */
      , (8942, 28, 1815) /* SPELL_DID - LightningStreak2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8942, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8942, 65, 101) /* PLACEMENT_INT */
      , (8942, 1, 8192) /* ITEM_TYPE_INT */
      , (8942, 5, 30) /* ENCUMB_VAL_INT */
      , (8942, 16, 8) /* ITEM_USEABLE_INT */

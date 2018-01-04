@@ -17,7 +17,7 @@ VALUES (2948, 8, 100677016) /* ICON_DID */
      , (2948, 28, 138) /* SPELL_DID - FrostVolley6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2948, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2948, 65, 101) /* PLACEMENT_INT */
      , (2948, 1, 8192) /* ITEM_TYPE_INT */
      , (2948, 5, 30) /* ENCUMB_VAL_INT */
      , (2948, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (2817, 8, 100676666) /* ICON_DID */
      , (2817, 28, 1542) /* SPELL_DID - FlameLure2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2817, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2817, 65, 101) /* PLACEMENT_INT */
      , (2817, 1, 8192) /* ITEM_TYPE_INT */
      , (2817, 5, 30) /* ENCUMB_VAL_INT */
      , (2817, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (7510, 8, 100677024) /* ICON_DID */
      , (7510, 28, 1784) /* SPELL_DID - BladeRing_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7510, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7510, 65, 101) /* PLACEMENT_INT */
      , (7510, 1, 8192) /* ITEM_TYPE_INT */
      , (7510, 5, 30) /* ENCUMB_VAL_INT */
      , (7510, 16, 8) /* ITEM_USEABLE_INT */

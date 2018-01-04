@@ -17,7 +17,7 @@ VALUES (35961, 8, 100673809) /* ICON_DID */
      , (35961, 28, 4124) /* SPELL_DID - WallDarkNanners_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35961, 53, 52) /* PLACEMENT_POSITION_INT */
+VALUES (35961, 65, 52) /* PLACEMENT_INT */
      , (35961, 1, 0) /* ITEM_TYPE_INT */
      , (35961, 93, 134728) /* PHYSICS_STATE_INT */
      , (35961, 9007, 1) /* Generic_WeenieType */;

@@ -18,7 +18,7 @@ VALUES (27116, 8, 100675935) /* ICON_DID */
      , (27116, 28, 1702) /* SPELL_DID - HealthtoManaSelf4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27116, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (27116, 65, 1) /* PLACEMENT_INT */
      , (27116, 1, 32768) /* ITEM_TYPE_INT */
      , (27116, 5, 15) /* ENCUMB_VAL_INT */
      , (27116, 18, 1) /* UI_EFFECTS_INT */

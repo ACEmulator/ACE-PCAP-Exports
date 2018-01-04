@@ -20,7 +20,7 @@ VALUES (9192, 8, 100671407) /* ICON_DID */
      , (9192, 6, 67111919) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9192, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9192, 65, 101) /* PLACEMENT_INT */
      , (9192, 1, 2048) /* ITEM_TYPE_INT */
      , (9192, 5, 240) /* ENCUMB_VAL_INT */
      , (9192, 18, 1) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (20237, 8, 100676456) /* ICON_DID */
      , (20237, 28, 2061) /* SPELL_DID - EnduranceSelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20237, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20237, 65, 101) /* PLACEMENT_INT */
      , (20237, 1, 8192) /* ITEM_TYPE_INT */
      , (20237, 5, 30) /* ENCUMB_VAL_INT */
      , (20237, 16, 8) /* ITEM_USEABLE_INT */

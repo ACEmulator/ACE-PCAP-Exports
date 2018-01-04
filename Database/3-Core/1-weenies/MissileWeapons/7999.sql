@@ -18,7 +18,7 @@ VALUES (7999, 8, 100670998) /* ICON_DID */
      , (7999, 6, 67111919) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7999, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7999, 65, 101) /* PLACEMENT_INT */
      , (7999, 1, 256) /* ITEM_TYPE_INT */
      , (7999, 50, 8) /* AMMO_TYPE_INT */
      , (7999, 5, 450) /* ENCUMB_VAL_INT */

@@ -17,7 +17,7 @@ VALUES (5984, 8, 100676480) /* ICON_DID */
      , (5984, 28, 1773) /* SPELL_DID - AlchemyIneptitudeOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5984, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (5984, 65, 101) /* PLACEMENT_INT */
      , (5984, 1, 8192) /* ITEM_TYPE_INT */
      , (5984, 5, 30) /* ENCUMB_VAL_INT */
      , (5984, 16, 8) /* ITEM_USEABLE_INT */

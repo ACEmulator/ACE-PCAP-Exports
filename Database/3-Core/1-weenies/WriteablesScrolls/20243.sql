@@ -17,7 +17,7 @@ VALUES (20243, 8, 100676934) /* ICON_DID */
      , (20243, 28, 2070) /* SPELL_DID - HarmOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20243, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20243, 65, 101) /* PLACEMENT_INT */
      , (20243, 1, 8192) /* ITEM_TYPE_INT */
      , (20243, 5, 30) /* ENCUMB_VAL_INT */
      , (20243, 16, 8) /* ITEM_USEABLE_INT */

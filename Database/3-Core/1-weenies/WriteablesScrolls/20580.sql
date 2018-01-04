@@ -17,7 +17,7 @@ VALUES (20580, 8, 100676470) /* ICON_DID */
      , (20580, 28, 2301) /* SPELL_DID - SprintSelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20580, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20580, 65, 101) /* PLACEMENT_INT */
      , (20580, 1, 8192) /* ITEM_TYPE_INT */
      , (20580, 5, 30) /* ENCUMB_VAL_INT */
      , (20580, 16, 8) /* ITEM_USEABLE_INT */

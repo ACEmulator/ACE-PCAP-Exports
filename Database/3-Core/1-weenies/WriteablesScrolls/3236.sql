@@ -17,7 +17,7 @@ VALUES (3236, 8, 100676448) /* ICON_DID */
      , (3236, 28, 872) /* SPELL_DID - DeceptionIneptitudeOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3236, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3236, 65, 101) /* PLACEMENT_INT */
      , (3236, 1, 8192) /* ITEM_TYPE_INT */
      , (3236, 5, 30) /* ENCUMB_VAL_INT */
      , (3236, 16, 8) /* ITEM_USEABLE_INT */

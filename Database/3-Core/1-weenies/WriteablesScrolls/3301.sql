@@ -17,7 +17,7 @@ VALUES (3301, 8, 100676467) /* ICON_DID */
      , (3301, 28, 248) /* SPELL_DID - InvulnerabilitySelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3301, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3301, 65, 101) /* PLACEMENT_INT */
      , (3301, 1, 8192) /* ITEM_TYPE_INT */
      , (3301, 5, 30) /* ENCUMB_VAL_INT */
      , (3301, 16, 8) /* ITEM_USEABLE_INT */

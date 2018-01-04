@@ -21,7 +21,7 @@ VALUES (30222, 8, 100686697) /* ICON_DID */
      , (30222, 28, 3701) /* SPELL_DID - FealtyRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30222, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30222, 65, 101) /* PLACEMENT_INT */
      , (30222, 1, 2048) /* ITEM_TYPE_INT */
      , (30222, 5, 5) /* ENCUMB_VAL_INT */
      , (30222, 18, 1) /* UI_EFFECTS_INT */

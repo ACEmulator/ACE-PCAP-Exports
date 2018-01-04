@@ -17,7 +17,7 @@ VALUES (2813, 8, 100676651) /* ICON_DID */
      , (2813, 28, 1549) /* SPELL_DID - FlameBane3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2813, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2813, 65, 101) /* PLACEMENT_INT */
      , (2813, 1, 8192) /* ITEM_TYPE_INT */
      , (2813, 5, 30) /* ENCUMB_VAL_INT */
      , (2813, 16, 8) /* ITEM_USEABLE_INT */

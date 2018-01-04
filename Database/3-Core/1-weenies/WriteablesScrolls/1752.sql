@@ -17,7 +17,7 @@ VALUES (1752, 8, 100676479) /* ICON_DID */
      , (1752, 28, 629) /* SPELL_DID - WarMagicMasterySelf1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1752, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1752, 65, 101) /* PLACEMENT_INT */
      , (1752, 1, 8192) /* ITEM_TYPE_INT */
      , (1752, 5, 30) /* ENCUMB_VAL_INT */
      , (1752, 16, 8) /* ITEM_USEABLE_INT */

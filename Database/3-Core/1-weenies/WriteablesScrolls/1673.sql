@@ -17,7 +17,7 @@ VALUES (1673, 8, 100692250) /* ICON_DID */
      , (1673, 28, 316) /* SPELL_DID - DaggerMasteryOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1673, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1673, 65, 101) /* PLACEMENT_INT */
      , (1673, 1, 8192) /* ITEM_TYPE_INT */
      , (1673, 5, 30) /* ENCUMB_VAL_INT */
      , (1673, 16, 8) /* ITEM_USEABLE_INT */

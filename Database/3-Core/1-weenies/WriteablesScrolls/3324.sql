@@ -17,7 +17,7 @@ VALUES (3324, 8, 100676477) /* ICON_DID */
      , (3324, 28, 728) /* SPELL_DID - ItemExpertiseSelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3324, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3324, 65, 101) /* PLACEMENT_INT */
      , (3324, 1, 8192) /* ITEM_TYPE_INT */
      , (3324, 5, 30) /* ENCUMB_VAL_INT */
      , (3324, 16, 8) /* ITEM_USEABLE_INT */

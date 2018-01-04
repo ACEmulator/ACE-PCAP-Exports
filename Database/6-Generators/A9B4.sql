@@ -1,104 +1,50 @@
-/* Sample Script of how to build a generator with an existing generator weenie */
-
-USE `ace_world`;
-
+/* Weenie - Generators - Cow Generator (385) */
 /* Generator Setup Variables */
-SET @weenieClassId          = 14;
-SET @weenieClassDescription = 'cow';
-SET @generatorClassId       = 5485;
+SET @weenieClassId = 385;
+SET @weenieClassDescription = 'cowgenerator';
+SET @name = 'Cow Generator';
+SET @setupDID = 33555051;
+SET @iconDID = 100667494;
+SET @maxGeneratedObjects = 2;
+SET @initGeneratedObjects = 1;
+SET @regenerationInterval = 60.0; 
+SET @generatorRadius = 1.0; 
+DELETE FROM ace_weenie_class WHERE weenieClassId = @weenieClassId;
 
-SET @name = 'Black Cow Generator';
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (@weenieClassId, @weenieClassDescription);
 
-SET @ActivationCreateClass  = @weenieClassId;
-SET @MaxGeneratedObjects    = 1;
-SET @GeneratorType          = 2;
-SET @GeneratorTimeType      = 0;
-SET @GeneratorProbability   = 100;
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (@weenieClassId, 0, @weenieClassId, NULL, NULL, NULL, NULL);
 
-SET @RegenerationInterval   = 120; /* RegenerationInterval in seconds */
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (@weenieClassId, 1, @name) /* NAME_STRING */;
 
-SET @landblockRaw   = 2847146023;
-SET @posX           = 111.3128;
-SET @posY           = 157.3602;
-SET @posZ           = 66.0057;
-SET @qW             = 1;
-SET @qX             = 0;
-SET @qY             = 0;
-SET @qZ             = 0;
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (@weenieClassId, 1, @setupDID) /* SETUP_DID */
+     , (@weenieClassId, 8, @iconDID) /* ICON_DID */;
 
-/* Add generator instances */
-INSERT INTO ace_object
-	(aceObjectDescriptionFlags,
-    weenieClassId)
-SELECT 
-    aceObjectDescriptionFlags,
-    weenieClassId
-FROM ace_object
-WHERE aceObjectId = @generatorClassId;
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (@weenieClassId, 1, 0) /* ITEM_TYPE_INT */
+     , (@weenieClassId, 81, @maxGeneratedObjects) /* MAX_GENERATED_OBJECTS_INT */
+     , (@weenieClassId, 82, @initGeneratedObjects) /* INIT_GENERATED_OBJECTS_INT */
+     , (@weenieClassId, 93, 1044) /* PHYSICS_STATE_INT */
+     , (@weenieClassId, 9007, 1) /* Generic_WeenieType */;
 
-SET SQL_SAFE_UPDATES = 0;
-CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_did WHERE aceObjectId = @generatorClassId;
-UPDATE tmp SET aceObjectId = last_insert_id();
-INSERT INTO ace_object_properties_did SELECT tmp.* FROM tmp;
-DROP TEMPORARY TABLE tmp;
-SET SQL_SAFE_UPDATES = 1;
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (@weenieClassId, 1, True) /* STUCK_BOOL */
+     , (@weenieClassId, 11, True) /* IGNORE_COLLISIONS_BOOL */
+     , (@weenieClassId, 18, True) /* VISIBILITY_BOOL */;
+     
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (@weenieClassId, 41, @regenerationInterval) /* REGENERATION_INTERVAL_FLOAT */
+     , (@weenieClassId, 43, @generatorRadius) /* GENERATOR_RADIUS_FLOAT */;
 
-SET SQL_SAFE_UPDATES = 0;
-CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_int WHERE aceObjectId = @generatorClassId;
-UPDATE tmp SET aceObjectId = last_insert_id();
-UPDATE tmp SET propertyValue = @MaxGeneratedObjects WHERE intPropertyId = 81;
-UPDATE tmp SET propertyValue = @GeneratorType WHERE intPropertyId = 100;
-UPDATE tmp SET propertyValue = @ActivationCreateClass WHERE intPropertyId = 104;
-UPDATE tmp SET propertyValue = @GeneratorTimeType WHERE intPropertyId = 142;
-UPDATE tmp SET propertyValue = @GeneratorProbability WHERE intPropertyId = 9006;
-INSERT INTO ace_object_properties_int SELECT tmp.* FROM tmp;
-DROP TEMPORARY TABLE tmp;
-SET SQL_SAFE_UPDATES = 1;
+INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`,
+    `landblockRaw`,
+    `posX`, `posY`, `posZ`,
+    `qW`, `qX`, `qY`, `qZ`)
+VALUES (@weenieClassId, 0.899999976158142, 14, 300.0, 1, 1, 1, 2, -1, 0, 0, 0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0);
 
-SET SQL_SAFE_UPDATES = 0;
-CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_double WHERE aceObjectId = @generatorClassId;
-UPDATE tmp SET aceObjectId = last_insert_id();
-UPDATE tmp SET propertyValue = @RegenerationInterval WHERE dblPropertyId = 41;
-INSERT INTO ace_object_properties_double SELECT tmp.* FROM tmp;
-DROP TEMPORARY TABLE tmp;
-SET SQL_SAFE_UPDATES = 1;
-
-SET SQL_SAFE_UPDATES = 0;
-CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_bool WHERE aceObjectId = @generatorClassId;
-UPDATE tmp SET aceObjectId = last_insert_id();
-INSERT INTO ace_object_properties_bool SELECT tmp.* FROM tmp;
-DROP TEMPORARY TABLE tmp;
-SET SQL_SAFE_UPDATES = 1;
-
-SET SQL_SAFE_UPDATES = 0;
-CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_string WHERE aceObjectId = @generatorClassId;
-UPDATE tmp SET aceObjectId = last_insert_id();
-UPDATE tmp SET propertyValue = @name WHERE strPropertyId = 1;
-INSERT INTO ace_object_properties_string SELECT tmp.* FROM tmp;
-DROP TEMPORARY TABLE tmp;
-SET SQL_SAFE_UPDATES = 1;
-
-/*
-SET SQL_SAFE_UPDATES = 0;
-CREATE TEMPORARY TABLE tmp SELECT * from ace_object_generator_link WHERE aceObjectId = @generatorClassId;
-UPDATE tmp SET aceObjectId = last_insert_id();
-INSERT INTO ace_object_generator_link SELECT tmp.* FROM tmp;
-DROP TEMPORARY TABLE tmp;
-SET SQL_SAFE_UPDATES = 1;
-*/
-
-INSERT INTO ace_position 
-	(aceObjectId,
-	positionType,
-	landblockRaw,
-	posX,
-	posY,
-	posZ,
-	qW,
-	qX,
-	qY,
-	qZ)
-VALUES 
-	(last_insert_id(), 1, @landblockRaw, @posX, @posY, @posZ, @qW, @qX, @qY, @qZ);
-    /* Below positon is pulled from a PCAP, I've modified it slightly to center cow in pen */
-	/* (last_insert_id(), 1, 2847146023, 111.3128, 159.7292, 66.0057, 1, 0.000000, 0.000000, 0); */
+INSERT INTO `ace_landblock` (`weenieClassId`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (385, 2847146023, 111.6, 158.04, 66, 1, 0, 0, 0);

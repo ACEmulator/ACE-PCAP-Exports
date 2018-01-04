@@ -17,7 +17,7 @@ VALUES (20604, 8, 100676943) /* ICON_DID */
      , (20604, 28, 2332) /* SPELL_DID - HealthtoManaSelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20604, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20604, 65, 101) /* PLACEMENT_INT */
      , (20604, 1, 8192) /* ITEM_TYPE_INT */
      , (20604, 5, 30) /* ENCUMB_VAL_INT */
      , (20604, 16, 8) /* ITEM_USEABLE_INT */

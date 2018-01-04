@@ -17,7 +17,7 @@ VALUES (8930, 8, 100677019) /* ICON_DID */
      , (8930, 28, 1803) /* SPELL_DID - ForceStreak2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8930, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8930, 65, 101) /* PLACEMENT_INT */
      , (8930, 1, 8192) /* ITEM_TYPE_INT */
      , (8930, 5, 30) /* ENCUMB_VAL_INT */
      , (8930, 16, 8) /* ITEM_USEABLE_INT */

@@ -15,7 +15,7 @@ VALUES (510, 8, 100670825) /* ICON_DID */
      , (510, 1, 33554790) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (510, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (510, 65, 101) /* PLACEMENT_INT */
      , (510, 1, 16384) /* ITEM_TYPE_INT */
      , (510, 5, 50) /* ENCUMB_VAL_INT */
      , (510, 91, 10) /* MAX_STRUCTURE_INT */

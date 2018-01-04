@@ -17,7 +17,7 @@ VALUES (21315, 8, 100677019) /* ICON_DID */
      , (21315, 28, 2724) /* SPELL_DID - ForceArc7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21315, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (21315, 65, 101) /* PLACEMENT_INT */
      , (21315, 1, 8192) /* ITEM_TYPE_INT */
      , (21315, 5, 30) /* ENCUMB_VAL_INT */
      , (21315, 16, 8) /* ITEM_USEABLE_INT */

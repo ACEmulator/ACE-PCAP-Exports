@@ -17,7 +17,7 @@ VALUES (44621, 8, 100691569) /* ICON_DID */
      , (44621, 28, 5546) /* SPELL_DID - NetherBlast3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44621, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (44621, 65, 101) /* PLACEMENT_INT */
      , (44621, 1, 8192) /* ITEM_TYPE_INT */
      , (44621, 5, 30) /* ENCUMB_VAL_INT */
      , (44621, 16, 8) /* ITEM_USEABLE_INT */

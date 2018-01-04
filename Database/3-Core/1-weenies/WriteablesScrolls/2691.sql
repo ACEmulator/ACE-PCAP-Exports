@@ -17,7 +17,7 @@ VALUES (2691, 8, 100676934) /* ICON_DID */
      , (2691, 28, 1176) /* SPELL_DID - HarmOther6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2691, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2691, 65, 101) /* PLACEMENT_INT */
      , (2691, 1, 8192) /* ITEM_TYPE_INT */
      , (2691, 5, 30) /* ENCUMB_VAL_INT */
      , (2691, 16, 8) /* ITEM_USEABLE_INT */

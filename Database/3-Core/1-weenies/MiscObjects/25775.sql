@@ -15,7 +15,7 @@ VALUES (25775, 8, 100675567) /* ICON_DID */
      , (25775, 1, 33558535) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25775, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (25775, 65, 101) /* PLACEMENT_INT */
      , (25775, 1, 128) /* ITEM_TYPE_INT */
      , (25775, 5, 1000) /* ENCUMB_VAL_INT */
      , (25775, 151, 2) /* HOOK_TYPE_INT */

@@ -17,7 +17,7 @@ VALUES (37930, 8, 100676930) /* ICON_DID */
      , (37930, 28, 4321) /* SPELL_DID - RevitalizeSelf8_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37930, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (37930, 65, 101) /* PLACEMENT_INT */
      , (37930, 1, 8192) /* ITEM_TYPE_INT */
      , (37930, 5, 30) /* ENCUMB_VAL_INT */
      , (37930, 16, 8) /* ITEM_USEABLE_INT */

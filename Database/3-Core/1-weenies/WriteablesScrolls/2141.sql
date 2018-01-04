@@ -17,7 +17,7 @@ VALUES (2141, 8, 100677008) /* ICON_DID */
      , (2141, 28, 103) /* SPELL_DID - ShockBlast3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2141, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2141, 65, 101) /* PLACEMENT_INT */
      , (2141, 1, 8192) /* ITEM_TYPE_INT */
      , (2141, 5, 30) /* ENCUMB_VAL_INT */
      , (2141, 16, 8) /* ITEM_USEABLE_INT */

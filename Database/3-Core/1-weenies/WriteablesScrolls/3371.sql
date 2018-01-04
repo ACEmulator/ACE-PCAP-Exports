@@ -17,7 +17,7 @@ VALUES (3371, 8, 100676462) /* ICON_DID */
      , (3371, 28, 615) /* SPELL_DID - LifeMagicMasteryOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3371, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3371, 65, 101) /* PLACEMENT_INT */
      , (3371, 1, 8192) /* ITEM_TYPE_INT */
      , (3371, 5, 30) /* ENCUMB_VAL_INT */
      , (3371, 16, 8) /* ITEM_USEABLE_INT */

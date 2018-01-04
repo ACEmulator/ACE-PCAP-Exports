@@ -17,7 +17,7 @@ VALUES (3935, 8, 100676934) /* ICON_DID */
      , (3935, 28, 1241) /* SPELL_DID - DrainHealth5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3935, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3935, 65, 101) /* PLACEMENT_INT */
      , (3935, 1, 8192) /* ITEM_TYPE_INT */
      , (3935, 5, 30) /* ENCUMB_VAL_INT */
      , (3935, 16, 8) /* ITEM_USEABLE_INT */

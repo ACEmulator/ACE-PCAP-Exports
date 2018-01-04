@@ -17,7 +17,7 @@ VALUES (2929, 8, 100677022) /* ICON_DID */
      , (2929, 28, 145) /* SPELL_DID - FlameVolley5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2929, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2929, 65, 101) /* PLACEMENT_INT */
      , (2929, 1, 8192) /* ITEM_TYPE_INT */
      , (2929, 5, 30) /* ENCUMB_VAL_INT */
      , (2929, 16, 8) /* ITEM_USEABLE_INT */

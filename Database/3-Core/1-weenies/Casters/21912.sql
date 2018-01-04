@@ -18,7 +18,7 @@ VALUES (21912, 8, 100673490) /* ICON_DID */
      , (21912, 28, 2783) /* SPELL_DID - LesserElementalFuryFrost_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21912, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (21912, 65, 1) /* PLACEMENT_INT */
      , (21912, 1, 32768) /* ITEM_TYPE_INT */
      , (21912, 5, 120) /* ENCUMB_VAL_INT */
      , (21912, 18, 128) /* UI_EFFECTS_INT */

@@ -17,7 +17,7 @@ VALUES (1552, 8, 100676649) /* ICON_DID */
      , (1552, 28, 37) /* SPELL_DID - Bladebane1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1552, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1552, 65, 101) /* PLACEMENT_INT */
      , (1552, 1, 8192) /* ITEM_TYPE_INT */
      , (1552, 5, 30) /* ENCUMB_VAL_INT */
      , (1552, 16, 8) /* ITEM_USEABLE_INT */

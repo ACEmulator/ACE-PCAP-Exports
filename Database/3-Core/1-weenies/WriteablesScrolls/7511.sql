@@ -17,7 +17,7 @@ VALUES (7511, 8, 100677021) /* ICON_DID */
      , (7511, 28, 1785) /* SPELL_DID - FlameRing_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7511, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7511, 65, 101) /* PLACEMENT_INT */
      , (7511, 1, 8192) /* ITEM_TYPE_INT */
      , (7511, 5, 30) /* ENCUMB_VAL_INT */
      , (7511, 16, 8) /* ITEM_USEABLE_INT */

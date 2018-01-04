@@ -17,7 +17,7 @@ VALUES (3290, 8, 100676468) /* ICON_DID */
      , (3290, 28, 259) /* SPELL_DID - ImpregnabilitySelf4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3290, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3290, 65, 101) /* PLACEMENT_INT */
      , (3290, 1, 8192) /* ITEM_TYPE_INT */
      , (3290, 5, 30) /* ENCUMB_VAL_INT */
      , (3290, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (2665, 8, 100676933) /* ICON_DID */
      , (2665, 28, 1197) /* SPELL_DID - EnfeebleOther3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2665, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2665, 65, 101) /* PLACEMENT_INT */
      , (2665, 1, 8192) /* ITEM_TYPE_INT */
      , (2665, 5, 30) /* ENCUMB_VAL_INT */
      , (2665, 16, 8) /* ITEM_USEABLE_INT */

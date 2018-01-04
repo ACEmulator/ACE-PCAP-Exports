@@ -17,7 +17,7 @@ VALUES (1706, 8, 100676477) /* ICON_DID */
      , (1706, 28, 732) /* SPELL_DID - ItemExpertiseOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1706, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (1706, 65, 101) /* PLACEMENT_INT */
      , (1706, 1, 8192) /* ITEM_TYPE_INT */
      , (1706, 5, 30) /* ENCUMB_VAL_INT */
      , (1706, 16, 8) /* ITEM_USEABLE_INT */

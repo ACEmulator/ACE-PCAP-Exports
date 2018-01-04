@@ -20,7 +20,7 @@ VALUES (52752, 8, 100686697) /* ICON_DID */
      , (52752, 28, 6180) /* SPELL_DID - GauntletArmorMastery_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52752, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (52752, 65, 101) /* PLACEMENT_INT */
      , (52752, 1, 2048) /* ITEM_TYPE_INT */
      , (52752, 5, 5) /* ENCUMB_VAL_INT */
      , (52752, 18, 1) /* UI_EFFECTS_INT */

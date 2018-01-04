@@ -17,7 +17,7 @@ VALUES (7517, 8, 100677023) /* ICON_DID */
      , (7517, 28, 1840) /* SPELL_DID - BladeWall_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7517, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (7517, 65, 101) /* PLACEMENT_INT */
      , (7517, 1, 8192) /* ITEM_TYPE_INT */
      , (7517, 5, 30) /* ENCUMB_VAL_INT */
      , (7517, 16, 8) /* ITEM_USEABLE_INT */

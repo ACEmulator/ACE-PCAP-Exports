@@ -18,7 +18,7 @@ VALUES (28842, 8, 100686396) /* ICON_DID */
      , (28842, 28, 3571) /* SPELL_DID - HealthUp10Percent_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28842, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (28842, 65, 101) /* PLACEMENT_INT */
      , (28842, 1, 128) /* ITEM_TYPE_INT */
      , (28842, 5, 35) /* ENCUMB_VAL_INT */
      , (28842, 151, 11) /* HOOK_TYPE_INT */

@@ -17,7 +17,7 @@ VALUES (2899, 8, 100676678) /* ICON_DID */
      , (2899, 28, 1583) /* SPELL_DID - WeakenLock3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2899, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2899, 65, 101) /* PLACEMENT_INT */
      , (2899, 1, 8192) /* ITEM_TYPE_INT */
      , (2899, 5, 30) /* ENCUMB_VAL_INT */
      , (2899, 16, 8) /* ITEM_USEABLE_INT */

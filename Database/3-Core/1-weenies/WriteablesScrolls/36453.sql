@@ -18,7 +18,7 @@ VALUES (36453, 8, 100689679) /* ICON_DID */
      , (36453, 28, 4208) /* SPELL_DID - SpectralFlame_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36453, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (36453, 65, 101) /* PLACEMENT_INT */
      , (36453, 1, 8192) /* ITEM_TYPE_INT */
      , (36453, 5, 30) /* ENCUMB_VAL_INT */
      , (36453, 16, 8) /* ITEM_USEABLE_INT */

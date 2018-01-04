@@ -17,7 +17,7 @@ VALUES (2866, 8, 100676670) /* ICON_DID */
      , (2866, 28, 1611) /* SPELL_DID - LureBlade6_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2866, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2866, 65, 101) /* PLACEMENT_INT */
      , (2866, 1, 8192) /* ITEM_TYPE_INT */
      , (2866, 5, 30) /* ENCUMB_VAL_INT */
      , (2866, 16, 8) /* ITEM_USEABLE_INT */

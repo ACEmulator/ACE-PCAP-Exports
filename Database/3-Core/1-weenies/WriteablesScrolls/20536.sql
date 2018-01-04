@@ -17,7 +17,7 @@ VALUES (20536, 8, 100676468) /* ICON_DID */
      , (20536, 28, 2243) /* SPELL_DID - ImpregnabilitySelf7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20536, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20536, 65, 101) /* PLACEMENT_INT */
      , (20536, 1, 8192) /* ITEM_TYPE_INT */
      , (20536, 5, 30) /* ENCUMB_VAL_INT */
      , (20536, 16, 8) /* ITEM_USEABLE_INT */

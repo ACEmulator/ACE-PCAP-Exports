@@ -17,7 +17,7 @@ VALUES (9636, 8, 100676947) /* ICON_DID */
      , (9636, 28, 1274) /* SPELL_DID - HealthtoStaminaSelf3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9636, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9636, 65, 101) /* PLACEMENT_INT */
      , (9636, 1, 8192) /* ITEM_TYPE_INT */
      , (9636, 5, 30) /* ENCUMB_VAL_INT */
      , (9636, 16, 8) /* ITEM_USEABLE_INT */

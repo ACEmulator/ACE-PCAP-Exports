@@ -18,7 +18,7 @@ VALUES (27769, 8, 100676635) /* ICON_DID */
      , (27769, 28, 157) /* SPELL_DID - SummonPortal1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27769, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (27769, 65, 101) /* PLACEMENT_INT */
      , (27769, 1, 2048) /* ITEM_TYPE_INT */
      , (27769, 5, 25) /* ENCUMB_VAL_INT */
      , (27769, 280, 1000) /* SHARED_COOLDOWN_INT */

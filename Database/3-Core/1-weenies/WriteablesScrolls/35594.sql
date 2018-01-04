@@ -17,7 +17,7 @@ VALUES (35594, 8, 100677022) /* ICON_DID */
      , (35594, 28, 4096) /* SPELL_DID - FlameChain_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35594, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (35594, 65, 101) /* PLACEMENT_INT */
      , (35594, 1, 8192) /* ITEM_TYPE_INT */
      , (35594, 5, 30) /* ENCUMB_VAL_INT */
      , (35594, 16, 8) /* ITEM_USEABLE_INT */

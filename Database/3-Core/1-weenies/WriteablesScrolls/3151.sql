@@ -17,7 +17,7 @@ VALUES (3151, 8, 100676477) /* ICON_DID */
      , (3151, 28, 706) /* SPELL_DID - ArmorExpertiseSelf5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3151, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3151, 65, 101) /* PLACEMENT_INT */
      , (3151, 1, 8192) /* ITEM_TYPE_INT */
      , (3151, 5, 30) /* ENCUMB_VAL_INT */
      , (3151, 16, 8) /* ITEM_USEABLE_INT */

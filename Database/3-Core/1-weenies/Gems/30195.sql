@@ -21,7 +21,7 @@ VALUES (30195, 8, 100686697) /* ICON_DID */
      , (30195, 28, 3693) /* SPELL_DID - CookingMasteryRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30195, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30195, 65, 101) /* PLACEMENT_INT */
      , (30195, 1, 2048) /* ITEM_TYPE_INT */
      , (30195, 5, 5) /* ENCUMB_VAL_INT */
      , (30195, 18, 1) /* UI_EFFECTS_INT */

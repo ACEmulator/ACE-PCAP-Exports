@@ -17,7 +17,7 @@ VALUES (3446, 8, 100676448) /* ICON_DID */
      , (3446, 28, 821) /* SPELL_DID - MonsterUnfamiliarityOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3446, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3446, 65, 101) /* PLACEMENT_INT */
      , (3446, 1, 8192) /* ITEM_TYPE_INT */
      , (3446, 5, 30) /* ENCUMB_VAL_INT */
      , (3446, 16, 8) /* ITEM_USEABLE_INT */

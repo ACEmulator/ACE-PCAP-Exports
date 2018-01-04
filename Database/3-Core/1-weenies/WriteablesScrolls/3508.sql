@@ -17,7 +17,7 @@ VALUES (3508, 8, 100692249) /* ICON_DID */
      , (3508, 28, 299) /* SPELL_DID - AxeMasterySelf2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3508, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3508, 65, 101) /* PLACEMENT_INT */
      , (3508, 1, 8192) /* ITEM_TYPE_INT */
      , (3508, 5, 30) /* ENCUMB_VAL_INT */
      , (3508, 16, 8) /* ITEM_USEABLE_INT */

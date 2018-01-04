@@ -18,7 +18,7 @@ VALUES (9083, 8, 100671346) /* ICON_DID */
      , (9083, 6, 67108990) /* PALETTE_BASE_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9083, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (9083, 65, 101) /* PLACEMENT_INT */
      , (9083, 1, 2) /* ITEM_TYPE_INT */
      , (9083, 5, 100) /* ENCUMB_VAL_INT */
      , (9083, 18, 1) /* UI_EFFECTS_INT */

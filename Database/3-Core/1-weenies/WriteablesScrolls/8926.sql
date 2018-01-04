@@ -17,7 +17,7 @@ VALUES (8926, 8, 100677019) /* ICON_DID */
      , (8926, 28, 120) /* SPELL_DID - ForceBlast4_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8926, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (8926, 65, 101) /* PLACEMENT_INT */
      , (8926, 1, 8192) /* ITEM_TYPE_INT */
      , (8926, 5, 30) /* ENCUMB_VAL_INT */
      , (8926, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (43316, 8, 100691569) /* ICON_DID */
      , (43316, 28, 5347) /* SPELL_DID - netherstreak7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43316, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43316, 65, 101) /* PLACEMENT_INT */
      , (43316, 1, 8192) /* ITEM_TYPE_INT */
      , (43316, 5, 30) /* ENCUMB_VAL_INT */
      , (43316, 16, 8) /* ITEM_USEABLE_INT */

@@ -21,7 +21,7 @@ VALUES (30231, 8, 100686696) /* ICON_DID */
      , (30231, 28, 3729) /* SPELL_DID - PiercingProtectionRare_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30231, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (30231, 65, 101) /* PLACEMENT_INT */
      , (30231, 1, 2048) /* ITEM_TYPE_INT */
      , (30231, 5, 5) /* ENCUMB_VAL_INT */
      , (30231, 18, 1) /* UI_EFFECTS_INT */

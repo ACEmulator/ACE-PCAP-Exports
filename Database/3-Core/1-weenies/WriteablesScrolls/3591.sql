@@ -17,7 +17,7 @@ VALUES (3591, 8, 100676477) /* ICON_DID */
      , (3591, 28, 796) /* SPELL_DID - WeaponIgnoranceOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3591, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3591, 65, 101) /* PLACEMENT_INT */
      , (3591, 1, 8192) /* ITEM_TYPE_INT */
      , (3591, 5, 30) /* ENCUMB_VAL_INT */
      , (3591, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (20479, 8, 100676949) /* ICON_DID */
      , (20479, 28, 2170) /* SPELL_DID - FireVulnerabilityOther7_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20479, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (20479, 65, 101) /* PLACEMENT_INT */
      , (20479, 1, 8192) /* ITEM_TYPE_INT */
      , (20479, 5, 30) /* ENCUMB_VAL_INT */
      , (20479, 16, 8) /* ITEM_USEABLE_INT */

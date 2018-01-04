@@ -17,7 +17,7 @@ VALUES (2883, 8, 100676676) /* ICON_DID */
      , (2883, 28, 1624) /* SPELL_DID - SwiftKiller3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2883, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2883, 65, 101) /* PLACEMENT_INT */
      , (2883, 1, 8192) /* ITEM_TYPE_INT */
      , (2883, 5, 30) /* ENCUMB_VAL_INT */
      , (2883, 16, 8) /* ITEM_USEABLE_INT */

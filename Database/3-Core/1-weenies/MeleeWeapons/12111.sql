@@ -18,7 +18,7 @@ VALUES (12111, 8, 100672031) /* ICON_DID */
      , (12111, 19, 88) /* ACTIVATION_ANIMATION_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12111, 53, 1) /* PLACEMENT_POSITION_INT */
+VALUES (12111, 65, 1) /* PLACEMENT_INT */
      , (12111, 1, 1) /* ITEM_TYPE_INT */
      , (12111, 5, 600) /* ENCUMB_VAL_INT */
      , (12111, 51, 1) /* COMBAT_USE_INT */

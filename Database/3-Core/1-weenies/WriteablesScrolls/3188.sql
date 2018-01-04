@@ -17,7 +17,7 @@ VALUES (3188, 8, 100676453) /* ICON_DID */
      , (3188, 28, 570) /* SPELL_DID - CreatureEnchantmentIneptitudeOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3188, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3188, 65, 101) /* PLACEMENT_INT */
      , (3188, 1, 8192) /* ITEM_TYPE_INT */
      , (3188, 5, 30) /* ENCUMB_VAL_INT */
      , (3188, 16, 8) /* ITEM_USEABLE_INT */

@@ -17,7 +17,7 @@ VALUES (3518, 8, 100692254) /* ICON_DID */
      , (3518, 28, 413) /* SPELL_DID - SwordMasteryOther2_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3518, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3518, 65, 101) /* PLACEMENT_INT */
      , (3518, 1, 8192) /* ITEM_TYPE_INT */
      , (3518, 5, 30) /* ENCUMB_VAL_INT */
      , (3518, 16, 8) /* ITEM_USEABLE_INT */

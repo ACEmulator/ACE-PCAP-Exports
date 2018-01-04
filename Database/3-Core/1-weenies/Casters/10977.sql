@@ -18,7 +18,7 @@ VALUES (10977, 8, 100671871) /* ICON_DID */
      , (10977, 28, 2419) /* SPELL_DID - PanicAttack_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10977, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (10977, 65, 101) /* PLACEMENT_INT */
      , (10977, 1, 32768) /* ITEM_TYPE_INT */
      , (10977, 5, 50) /* ENCUMB_VAL_INT */
      , (10977, 18, 1) /* UI_EFFECTS_INT */

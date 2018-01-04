@@ -17,7 +17,7 @@ VALUES (2132, 8, 100677028) /* ICON_DID */
      , (2132, 28, 123) /* SPELL_DID - BladeBlast3_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2132, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (2132, 65, 101) /* PLACEMENT_INT */
      , (2132, 1, 8192) /* ITEM_TYPE_INT */
      , (2132, 5, 30) /* ENCUMB_VAL_INT */
      , (2132, 16, 8) /* ITEM_USEABLE_INT */

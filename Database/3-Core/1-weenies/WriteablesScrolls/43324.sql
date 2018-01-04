@@ -17,7 +17,7 @@ VALUES (43324, 8, 100691570) /* ICON_DID */
      , (43324, 28, 5343) /* SPELL_DID - CurseDestructionOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43324, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (43324, 65, 101) /* PLACEMENT_INT */
      , (43324, 1, 8192) /* ITEM_TYPE_INT */
      , (43324, 5, 30) /* ENCUMB_VAL_INT */
      , (43324, 16, 8) /* ITEM_USEABLE_INT */

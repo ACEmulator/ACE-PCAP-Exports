@@ -21,7 +21,7 @@ VALUES (36024, 8, 100686697) /* ICON_DID */
      , (36024, 28, 4142) /* SPELL_DID - WarMagicMasterySpectral_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36024, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (36024, 65, 101) /* PLACEMENT_INT */
      , (36024, 1, 2048) /* ITEM_TYPE_INT */
      , (36024, 5, 245) /* ENCUMB_VAL_INT */
      , (36024, 18, 1) /* UI_EFFECTS_INT */

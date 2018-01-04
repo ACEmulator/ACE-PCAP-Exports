@@ -17,7 +17,7 @@ VALUES (3251, 8, 100676468) /* ICON_DID */
      , (3251, 28, 266) /* SPELL_DID - DefenselessnessOther5_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3251, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3251, 65, 101) /* PLACEMENT_INT */
      , (3251, 1, 8192) /* ITEM_TYPE_INT */
      , (3251, 5, 30) /* ENCUMB_VAL_INT */
      , (3251, 16, 8) /* ITEM_USEABLE_INT */

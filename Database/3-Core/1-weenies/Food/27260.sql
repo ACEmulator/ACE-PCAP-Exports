@@ -18,7 +18,7 @@ VALUES (27260, 8, 100676397) /* ICON_DID */
      , (27260, 28, 3205) /* SPELL_DID - GolemHunterHealthLow_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27260, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (27260, 65, 101) /* PLACEMENT_INT */
      , (27260, 1, 32) /* ITEM_TYPE_INT */
      , (27260, 5, 750) /* ENCUMB_VAL_INT */
      , (27260, 18, 1) /* UI_EFFECTS_INT */

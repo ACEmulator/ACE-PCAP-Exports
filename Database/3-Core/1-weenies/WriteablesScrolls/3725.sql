@@ -17,7 +17,7 @@ VALUES (3725, 8, 100676465) /* ICON_DID */
      , (3725, 28, 280) /* SPELL_DID - MagicYieldOther1_SpellID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3725, 53, 101) /* PLACEMENT_POSITION_INT */
+VALUES (3725, 65, 101) /* PLACEMENT_INT */
      , (3725, 1, 8192) /* ITEM_TYPE_INT */
      , (3725, 5, 30) /* ENCUMB_VAL_INT */
      , (3725, 16, 8) /* ITEM_USEABLE_INT */
