@@ -28,12 +28,11 @@
 ## Bug Reports
 
 * Please use the [issue tracker](https://github.com/ACEmulator/ACE/issues) provided by GitHub to send us bug reports.
-* You may also submit bug reports to the [ACEmulator Forums](http://acemulator.org/forums).
+* You may also discuss issues and bug reports on our discord listed below.
 
 ## Contact
 
-- [Discord Channel](https://discord.gg/mVtGhSv) (best option)
-- [ACEmulator Forums](http://acemulator.org/forums)
+- [Discord Channel](https://discord.gg/C2WzhP9)
 
 ## FAQ
 
