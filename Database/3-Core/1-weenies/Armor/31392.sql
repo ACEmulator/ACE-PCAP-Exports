@@ -33,3 +33,16 @@ VALUES (31392, 13, True) /* ETHEREAL_BOOL */
      , (31392, 19, True) /* ATTACKABLE_BOOL */
      , (31392, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31392, 33, -2) /* BONDED_INT */
+     , (31392, 114, 1) /* ATTUNED_INT */
+     , (31392, 5, 600) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31392, 159, 1) /* ABSORB_MAGIC_DAMAGE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31392, 69, 0) /* IS_SELLABLE_BOOL */;
+

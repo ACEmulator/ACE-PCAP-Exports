@@ -42,17 +42,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28974, 16, 'A portrait of Avoren Palacost. It is a masterpiece. Hevk Loz may know more about this.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28974, 384, 0) /*  */
+VALUES (28974, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (28974, 370, 0) /* GEAR_DAMAGE_INT */
-     , (28974, 386, 0) /*  */
+     , (28974, 386, 0) /* OVERPOWER_INT */
      , (28974, 307, 0) /* DAMAGE_RATING_INT */
      , (28974, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (28974, 387, 0) /*  */
+     , (28974, 387, 0) /* OVERPOWER_RESIST_INT */
      , (28974, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (28974, 372, 0) /* GEAR_CRIT_INT */
-     , (28974, 388, 0) /*  */
+     , (28974, 388, 0) /* GEAR_OVERPOWER_INT */
      , (28974, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (28974, 389, 0) /*  */
+     , (28974, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (28974, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (28974, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (28974, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -63,7 +63,7 @@ VALUES (28974, 384, 0) /*  */
      , (28974, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (28974, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (28974, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (28974, 381, 0) /*  */
-     , (28974, 382, 0) /*  */
-     , (28974, 383, 0) /*  */;
+     , (28974, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (28974, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (28974, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

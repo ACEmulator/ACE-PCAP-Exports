@@ -56,7 +56,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (300, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (300, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (300, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (300, 386, 0) /*  */
+     , (300, 386, 0) /* OVERPOWER_INT */
      , (300, 19, 1) /* VALUE_INT */
      , (300, 179, 0) /* IMBUED_EFFECT_INT */
      , (300, 307, 5) /* DAMAGE_RATING_INT */

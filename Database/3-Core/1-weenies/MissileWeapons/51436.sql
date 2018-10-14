@@ -58,7 +58,7 @@ VALUES (51436, 0, 16778862);
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51436, 353, 10) /* WEAPON_TYPE_INT */
      , (51436, 33, -2) /* BONDED_INT */
-     , (51436, 386, 0) /*  */
+     , (51436, 386, 0) /* OVERPOWER_INT */
      , (51436, 19, 1) /* VALUE_INT */
      , (51436, 307, 35) /* DAMAGE_RATING_INT */
      , (51436, 5, 20) /* ENCUMB_VAL_INT */

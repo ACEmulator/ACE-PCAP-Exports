@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (22753, 15, 'A very large empyrean head. It appears to be watching you.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22753, 384, 0) /*  */
+VALUES (22753, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (22753, 370, 0) /* GEAR_DAMAGE_INT */
-     , (22753, 386, 0) /*  */
+     , (22753, 386, 0) /* OVERPOWER_INT */
      , (22753, 307, 0) /* DAMAGE_RATING_INT */
      , (22753, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (22753, 387, 0) /*  */
+     , (22753, 387, 0) /* OVERPOWER_RESIST_INT */
      , (22753, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (22753, 372, 0) /* GEAR_CRIT_INT */
-     , (22753, 388, 0) /*  */
+     , (22753, 388, 0) /* GEAR_OVERPOWER_INT */
      , (22753, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (22753, 389, 0) /*  */
+     , (22753, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (22753, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (22753, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (22753, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (22753, 384, 0) /*  */
      , (22753, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (22753, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (22753, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (22753, 381, 0) /*  */
-     , (22753, 382, 0) /*  */
-     , (22753, 383, 0) /*  */;
+     , (22753, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (22753, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (22753, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

@@ -59,7 +59,7 @@ VALUES (43151, 160, 270) /* WIELD_DIFFICULTY_INT */
      , (43151, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (43151, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (43151, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (43151, 386, 0) /*  */
+     , (43151, 386, 0) /* OVERPOWER_INT */
      , (43151, 19, 1) /* VALUE_INT */
      , (43151, 179, 0) /* IMBUED_EFFECT_INT */
      , (43151, 307, 45) /* DAMAGE_RATING_INT */

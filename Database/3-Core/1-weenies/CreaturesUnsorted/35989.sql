@@ -60,3 +60,23 @@ VALUES (35989, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35989, 128, 1420) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35989, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35989, 8, 30606) /* Bastone */
+     , (35989, 8, 27215) /* Chiran Coat */
+     , (35989, 8, 49291) /* Lightning K'nath Essence (100) */
+     , (35989, 8, 25640) /* Leather Cowl */
+     , (35989, 8, 25652) /* Leather Tassets */
+     , (35989, 8, 621) /* Heavy Bracelet */
+     , (35989, 8, 31822) /* Aerbax's Defeat */
+     , (35989, 8, 22441) /* Acid Dirk */
+     , (35989, 8, 2404) /* Gem */
+     , (35989, 8, 44851) /* Chevron Cloak */
+     , (35989, 8, 40622) /* Frost Nodachi */
+     , (35989, 8, 31864) /* Teardrop Crown */
+     , (35989, 8, 31789) /* Acid Stick */
+     , (35989, 8, 25643) /* Leather Girth */
+     , (35989, 8, 2603) /* Baggy Breeches */
+     , (35989, 8, 44800) /* Dho Vest and Over-Robe */;
+

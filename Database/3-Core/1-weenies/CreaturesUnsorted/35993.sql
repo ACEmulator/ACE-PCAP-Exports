@@ -79,3 +79,10 @@ VALUES (35993, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35993, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35993, 8, 121) /* Gloves */
+     , (35993, 8, 27328) /* Major Mana Stone */
+     , (35993, 8, 27325) /* Stamina Philtre */;
+

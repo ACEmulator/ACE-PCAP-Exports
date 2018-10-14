@@ -57,6 +57,25 @@ VALUES (33165, 0, 16777708)
      , (33165, 15, 16777307)
      , (33165, 16, 16778407);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33165, 16, 67110063) /* EYES_PALETTE_DID */
+     , (33165, 9, 83890259) /* EYES_TEXTURE_DID */
+     , (33165, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (33165, 10, 83890316) /* NOSE_TEXTURE_DID */
+     , (33165, 11, 83890351) /* MOUTH_TEXTURE_DID */
+     , (33165, 15, 67116980) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33165, 113, 2) /* GENDER_INT */
+     , (33165, 2, 22) /* CREATURE_TYPE_INT */
+     , (33165, 25, 160) /* LEVEL_INT */
+     , (33165, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33165, 64, 60140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
@@ -66,5 +85,7 @@ VALUES (33165, 8, 554) /* Studded Leather Basinet */
      , (33165, 8, 3567) /* Scroll of War Magic Ineptitude VI */
      , (33165, 8, 3261) /* Scroll of Fealty Other V */
      , (33165, 8, 25640) /* Leather Cowl */
-     , (33165, 8, 45109) /* Acid Schlager */;
+     , (33165, 8, 45109) /* Acid Schlager */
+     , (33165, 8, 2411) /* Gem */
+     , (33165, 8, 33169) /* Boney Lump of Flesh */;
 

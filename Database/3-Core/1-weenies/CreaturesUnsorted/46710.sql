@@ -38,7 +38,7 @@ VALUES (46710, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46710, 2, 20) /* CREATURE_TYPE_INT */
-     , (46710, 386, 5) /*  */
+     , (46710, 386, 5) /* OVERPOWER_INT */
      , (46710, 25, 265) /* LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)

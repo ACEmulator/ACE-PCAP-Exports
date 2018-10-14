@@ -54,7 +54,7 @@ VALUES (30376, 16, '') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30376, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (30376, 384, 1) /*  */
+     , (30376, 384, 1) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (30376, 17, 187) /* RARE_ID_INT */
      , (30376, 19, 50000) /* VALUE_INT */
      , (30376, 179, 16) /* IMBUED_EFFECT_INT */
@@ -67,7 +67,7 @@ VALUES (30376, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30376, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (30376, 45, 2) /* DAMAGE_TYPE_INT */
      , (30376, 319, 50) /* ITEM_MAX_LEVEL_INT */
-     , (30376, 383, 1) /*  */;
+     , (30376, 383, 1) /* GEAR_PK_DAMAGE_RATING_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
 VALUES (30376, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */

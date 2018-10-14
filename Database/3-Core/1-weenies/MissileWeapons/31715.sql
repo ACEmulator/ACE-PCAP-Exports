@@ -56,14 +56,14 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (31715, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (31715, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (31715, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (31715, 386, 0) /*  */
+     , (31715, 386, 0) /* OVERPOWER_INT */
      , (31715, 19, 1) /* VALUE_INT */
      , (31715, 179, 0) /* IMBUED_EFFECT_INT */
      , (31715, 307, 5) /* DAMAGE_RATING_INT */
      , (31715, 5, 7) /* ENCUMB_VAL_INT */
      , (31715, 313, 0) /* CRIT_RATING_INT */
      , (31715, 314, 3) /* CRIT_DAMAGE_RATING_INT */
-     , (31715, 381, 0) /*  */
+     , (31715, 381, 0) /* PK_DAMAGE_RATING_INT */
      , (31715, 303, 0) /* IMBUED_EFFECT_2_INT */
      , (31715, 45, 2) /* DAMAGE_TYPE_INT */
      , (31715, 49, -1) /* WEAPON_TIME_INT */

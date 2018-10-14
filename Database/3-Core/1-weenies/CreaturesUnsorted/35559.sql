@@ -79,3 +79,9 @@ VALUES (35559, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35559, 64, 2200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35559, 8, 149) /* Ewer */
+     , (35559, 8, 6058) /* Dark Shard */;
+

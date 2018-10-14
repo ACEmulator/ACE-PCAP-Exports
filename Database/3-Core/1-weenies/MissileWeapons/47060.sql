@@ -57,7 +57,7 @@ VALUES (47060, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (47060, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (47060, 33, -2) /* BONDED_INT */
      , (47060, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (47060, 386, 0) /*  */
+     , (47060, 386, 0) /* OVERPOWER_INT */
      , (47060, 19, 1) /* VALUE_INT */
      , (47060, 179, 0) /* IMBUED_EFFECT_INT */
      , (47060, 307, 5) /* DAMAGE_RATING_INT */

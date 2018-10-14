@@ -55,17 +55,17 @@ VALUES (39829, 16, 'An Exploration Marker.  Speak with Sean the Speedy of the Ex
      , (39829, 14, 'Use this marker to declare this spot discovered.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39829, 384, 0) /*  */
+VALUES (39829, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (39829, 370, 0) /* GEAR_DAMAGE_INT */
-     , (39829, 386, 0) /*  */
+     , (39829, 386, 0) /* OVERPOWER_INT */
      , (39829, 307, 0) /* DAMAGE_RATING_INT */
      , (39829, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (39829, 387, 0) /*  */
+     , (39829, 387, 0) /* OVERPOWER_RESIST_INT */
      , (39829, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (39829, 372, 0) /* GEAR_CRIT_INT */
-     , (39829, 388, 0) /*  */
+     , (39829, 388, 0) /* GEAR_OVERPOWER_INT */
      , (39829, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (39829, 389, 0) /*  */
+     , (39829, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (39829, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (39829, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (39829, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -76,7 +76,7 @@ VALUES (39829, 384, 0) /*  */
      , (39829, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (39829, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (39829, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (39829, 381, 0) /*  */
-     , (39829, 382, 0) /*  */
-     , (39829, 383, 0) /*  */;
+     , (39829, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (39829, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (39829, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

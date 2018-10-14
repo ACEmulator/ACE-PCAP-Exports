@@ -58,7 +58,7 @@ VALUES (47918, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (47918, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (47918, 33, -2) /* BONDED_INT */
      , (47918, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (47918, 386, 0) /*  */
+     , (47918, 386, 0) /* OVERPOWER_INT */
      , (47918, 19, 1) /* VALUE_INT */
      , (47918, 179, 0) /* IMBUED_EFFECT_INT */
      , (47918, 307, 5) /* DAMAGE_RATING_INT */

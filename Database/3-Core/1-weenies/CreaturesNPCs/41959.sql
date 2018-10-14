@@ -108,18 +108,18 @@ VALUES (41959, 0, 16789775)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41959, 386, 0) /*  */
+VALUES (41959, 386, 0) /* OVERPOWER_INT */
      , (41959, 307, 0) /* DAMAGE_RATING_INT */
-     , (41959, 387, 0) /*  */
+     , (41959, 387, 0) /* OVERPOWER_RESIST_INT */
      , (41959, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (41959, 388, 0) /*  */
-     , (41959, 389, 0) /*  */
+     , (41959, 388, 0) /* GEAR_OVERPOWER_INT */
+     , (41959, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (41959, 313, 0) /* CRIT_RATING_INT */
      , (41959, 314, 0) /* CRIT_DAMAGE_RATING_INT */
      , (41959, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (41959, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (41959, 381, 0) /*  */
-     , (41959, 382, 0) /*  */;
+     , (41959, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (41959, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (41959, 5, 2) /* MANA_RATE_FLOAT */;

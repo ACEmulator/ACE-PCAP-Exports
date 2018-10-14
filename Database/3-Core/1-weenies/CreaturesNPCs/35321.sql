@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (35321, 16, 'Arena One is currently in use.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35321, 384, 0) /*  */
+VALUES (35321, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (35321, 370, 0) /* GEAR_DAMAGE_INT */
-     , (35321, 386, 0) /*  */
+     , (35321, 386, 0) /* OVERPOWER_INT */
      , (35321, 307, 0) /* DAMAGE_RATING_INT */
      , (35321, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (35321, 387, 0) /*  */
+     , (35321, 387, 0) /* OVERPOWER_RESIST_INT */
      , (35321, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (35321, 372, 0) /* GEAR_CRIT_INT */
-     , (35321, 388, 0) /*  */
+     , (35321, 388, 0) /* GEAR_OVERPOWER_INT */
      , (35321, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (35321, 389, 0) /*  */
+     , (35321, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (35321, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (35321, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (35321, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (35321, 384, 0) /*  */
      , (35321, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (35321, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (35321, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (35321, 381, 0) /*  */
-     , (35321, 382, 0) /*  */
-     , (35321, 383, 0) /*  */;
+     , (35321, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (35321, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (35321, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

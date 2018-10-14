@@ -54,17 +54,17 @@ VALUES (22257, 14, 'Use the fishing hole while wielding a fishing rod in order t
      , (22257, 15, 'An inviting pool of quiet water.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22257, 384, 0) /*  */
+VALUES (22257, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (22257, 370, 0) /* GEAR_DAMAGE_INT */
-     , (22257, 386, 0) /*  */
+     , (22257, 386, 0) /* OVERPOWER_INT */
      , (22257, 307, 0) /* DAMAGE_RATING_INT */
      , (22257, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (22257, 387, 0) /*  */
+     , (22257, 387, 0) /* OVERPOWER_RESIST_INT */
      , (22257, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (22257, 372, 0) /* GEAR_CRIT_INT */
-     , (22257, 388, 0) /*  */
+     , (22257, 388, 0) /* GEAR_OVERPOWER_INT */
      , (22257, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (22257, 389, 0) /*  */
+     , (22257, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (22257, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (22257, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (22257, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -75,7 +75,7 @@ VALUES (22257, 384, 0) /*  */
      , (22257, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (22257, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (22257, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (22257, 381, 0) /*  */
-     , (22257, 382, 0) /*  */
-     , (22257, 383, 0) /*  */;
+     , (22257, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (22257, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (22257, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

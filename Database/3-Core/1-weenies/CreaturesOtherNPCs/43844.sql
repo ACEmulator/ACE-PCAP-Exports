@@ -40,17 +40,17 @@ VALUES (43844, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43844, 384, 0) /*  */
+VALUES (43844, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (43844, 370, 0) /* GEAR_DAMAGE_INT */
-     , (43844, 386, 0) /*  */
+     , (43844, 386, 0) /* OVERPOWER_INT */
      , (43844, 307, 0) /* DAMAGE_RATING_INT */
      , (43844, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (43844, 387, 0) /*  */
+     , (43844, 387, 0) /* OVERPOWER_RESIST_INT */
      , (43844, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (43844, 372, 0) /* GEAR_CRIT_INT */
-     , (43844, 388, 0) /*  */
+     , (43844, 388, 0) /* GEAR_OVERPOWER_INT */
      , (43844, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (43844, 389, 0) /*  */
+     , (43844, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (43844, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (43844, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (43844, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -61,7 +61,7 @@ VALUES (43844, 384, 0) /*  */
      , (43844, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (43844, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (43844, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (43844, 381, 0) /*  */
-     , (43844, 382, 0) /*  */
-     , (43844, 383, 0) /*  */;
+     , (43844, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (43844, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (43844, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

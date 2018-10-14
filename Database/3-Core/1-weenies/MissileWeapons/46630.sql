@@ -56,7 +56,7 @@ VALUES (46630, 0, 16777887);
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46630, 33, -2) /* BONDED_INT */
      , (46630, 114, 1) /* ATTUNED_INT */
-     , (46630, 386, 5) /*  */
+     , (46630, 386, 5) /* OVERPOWER_INT */
      , (46630, 307, 10) /* DAMAGE_RATING_INT */
      , (46630, 5, 1) /* ENCUMB_VAL_INT */
      , (46630, 313, 50) /* CRIT_RATING_INT */

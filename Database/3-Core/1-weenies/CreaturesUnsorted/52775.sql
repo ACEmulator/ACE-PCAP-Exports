@@ -39,7 +39,7 @@ VALUES (52775, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52775, 2, 99) /* CREATURE_TYPE_INT */
-     , (52775, 386, 10) /*  */
+     , (52775, 386, 10) /* OVERPOWER_INT */
      , (52775, 307, 35) /* DAMAGE_RATING_INT */
      , (52775, 25, 280) /* LEVEL_INT */
      , (52775, 313, 30) /* CRIT_RATING_INT */;

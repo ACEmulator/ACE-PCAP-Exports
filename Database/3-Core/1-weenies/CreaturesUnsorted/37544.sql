@@ -44,17 +44,17 @@ VALUES (37544, 16, 'A banner, erected by the Creeping Blight, to show their cont
      , (37544, 14, 'This banner may only be used by PK-flagged members of one of the Societies.  A single person may only claim one banner every 5 minutes.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37544, 384, 0) /*  */
+VALUES (37544, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (37544, 370, 0) /* GEAR_DAMAGE_INT */
-     , (37544, 386, 0) /*  */
+     , (37544, 386, 0) /* OVERPOWER_INT */
      , (37544, 307, 0) /* DAMAGE_RATING_INT */
      , (37544, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (37544, 387, 0) /*  */
+     , (37544, 387, 0) /* OVERPOWER_RESIST_INT */
      , (37544, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (37544, 372, 0) /* GEAR_CRIT_INT */
-     , (37544, 388, 0) /*  */
+     , (37544, 388, 0) /* GEAR_OVERPOWER_INT */
      , (37544, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (37544, 389, 0) /*  */
+     , (37544, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (37544, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (37544, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (37544, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (37544, 384, 0) /*  */
      , (37544, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (37544, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (37544, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (37544, 381, 0) /*  */
-     , (37544, 382, 0) /*  */
-     , (37544, 383, 0) /*  */;
+     , (37544, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (37544, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (37544, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

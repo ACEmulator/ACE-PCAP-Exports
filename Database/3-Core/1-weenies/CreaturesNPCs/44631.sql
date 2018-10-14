@@ -116,3 +116,18 @@ VALUES (44631, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (44631, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (44631, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44631, 8, 2589) /* Smock */
+     , (44631, 8, 27328) /* Major Mana Stone */
+     , (44631, 8, 27325) /* Stamina Philtre */
+     , (44631, 8, 163) /* Ornamental Bowl */
+     , (44631, 8, 516) /* Peerless Lockpick */
+     , (44631, 8, 121) /* Gloves */
+     , (44631, 8, 2436) /* Greater Mana Stone */
+     , (44631, 8, 37357) /* Ink of Partition */
+     , (44631, 8, 30823) /* Broken Black Marrow Key */
+     , (44631, 8, 20455) /* Scroll of Alset's Coil */
+     , (44631, 8, 45371) /* Glyph of Dual Wield */;
+

@@ -43,17 +43,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (38074, 16, 'A statue that transports those who are attuned to it to the Ruins of Degar''Alesh.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38074, 384, 0) /*  */
+VALUES (38074, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (38074, 370, 0) /* GEAR_DAMAGE_INT */
-     , (38074, 386, 0) /*  */
+     , (38074, 386, 0) /* OVERPOWER_INT */
      , (38074, 307, 0) /* DAMAGE_RATING_INT */
      , (38074, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (38074, 387, 0) /*  */
+     , (38074, 387, 0) /* OVERPOWER_RESIST_INT */
      , (38074, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (38074, 372, 0) /* GEAR_CRIT_INT */
-     , (38074, 388, 0) /*  */
+     , (38074, 388, 0) /* GEAR_OVERPOWER_INT */
      , (38074, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (38074, 389, 0) /*  */
+     , (38074, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (38074, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (38074, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (38074, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -64,7 +64,7 @@ VALUES (38074, 384, 0) /*  */
      , (38074, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (38074, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (38074, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (38074, 381, 0) /*  */
-     , (38074, 382, 0) /*  */
-     , (38074, 383, 0) /*  */;
+     , (38074, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (38074, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (38074, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

@@ -47,17 +47,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (25604, 16, 'An elemental pool, nearly frozen over.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25604, 384, 0) /*  */
+VALUES (25604, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (25604, 370, 0) /* GEAR_DAMAGE_INT */
-     , (25604, 386, 0) /*  */
+     , (25604, 386, 0) /* OVERPOWER_INT */
      , (25604, 307, 0) /* DAMAGE_RATING_INT */
      , (25604, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (25604, 387, 0) /*  */
+     , (25604, 387, 0) /* OVERPOWER_RESIST_INT */
      , (25604, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (25604, 372, 0) /* GEAR_CRIT_INT */
-     , (25604, 388, 0) /*  */
+     , (25604, 388, 0) /* GEAR_OVERPOWER_INT */
      , (25604, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (25604, 389, 0) /*  */
+     , (25604, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (25604, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (25604, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (25604, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -68,7 +68,7 @@ VALUES (25604, 384, 0) /*  */
      , (25604, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (25604, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (25604, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (25604, 381, 0) /*  */
-     , (25604, 382, 0) /*  */
-     , (25604, 383, 0) /*  */;
+     , (25604, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (25604, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (25604, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

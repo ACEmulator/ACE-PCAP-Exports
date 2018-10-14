@@ -39,3 +39,20 @@ VALUES (33161, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33161, 19, True) /* ATTACKABLE_BOOL */
      , (33161, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33161, 5, 9475) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33161, 2, 0) /* OPEN_BOOL */
+     , (33161, 3, 1) /* LOCKED_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33161, 8, 28610) /* Loafers */
+     , (33161, 8, 163) /* Ornamental Bowl */
+     , (33161, 8, 33182) /* Fleshy Lump */
+     , (33161, 8, 33106) /* Shield of Isin Dule */;
+

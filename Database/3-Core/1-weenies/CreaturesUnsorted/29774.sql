@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (29774, 16, 'A bag that is tied shut and has a label on it that says: "Black"') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29774, 384, 0) /*  */
+VALUES (29774, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (29774, 370, 0) /* GEAR_DAMAGE_INT */
-     , (29774, 386, 0) /*  */
+     , (29774, 386, 0) /* OVERPOWER_INT */
      , (29774, 307, 0) /* DAMAGE_RATING_INT */
      , (29774, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (29774, 387, 0) /*  */
+     , (29774, 387, 0) /* OVERPOWER_RESIST_INT */
      , (29774, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (29774, 372, 0) /* GEAR_CRIT_INT */
-     , (29774, 388, 0) /*  */
+     , (29774, 388, 0) /* GEAR_OVERPOWER_INT */
      , (29774, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (29774, 389, 0) /*  */
+     , (29774, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (29774, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (29774, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (29774, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (29774, 384, 0) /*  */
      , (29774, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (29774, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (29774, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (29774, 381, 0) /*  */
-     , (29774, 382, 0) /*  */
-     , (29774, 383, 0) /*  */;
+     , (29774, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (29774, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (29774, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

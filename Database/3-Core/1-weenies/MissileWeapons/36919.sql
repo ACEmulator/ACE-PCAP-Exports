@@ -64,7 +64,7 @@ VALUES (36919, 55, 2168) /* PROC_SPELL_DID */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36919, 353, 10) /* WEAPON_TYPE_INT */
      , (36919, 33, -2) /* BONDED_INT */
-     , (36919, 386, 0) /*  */
+     , (36919, 386, 0) /* OVERPOWER_INT */
      , (36919, 19, 1) /* VALUE_INT */
      , (36919, 307, 5) /* DAMAGE_RATING_INT */
      , (36919, 5, 25) /* ENCUMB_VAL_INT */

@@ -49,6 +49,3 @@ VALUES (12679, 19, 0) /* VALUE_INT */
      , (12679, 9, 0) /* LOCATIONS_INT */
      , (12679, 50, 0) /* AMMO_TYPE_INT */;
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12679, 22, True) /* INSCRIBABLE_BOOL */;
-

@@ -129,7 +129,7 @@ VALUES (1, 192, 23) /* FAKE_FISHING_SKILL_INT */
      , (1, 181, 1300) /* CHESS_RANK_INT */
      , (1, 134, 2) /* PLAYER_KILLER_STATUS_INT */
      , (1, 262, 26) /* NUM_CHARACTER_TITLES_INT */
-     , (1, 390, 0) /*  */
+     , (1, 390, 0) /* ENLIGHTENMENT_INT */
      , (1, 25, 275) /* LEVEL_INT */
      , (1, 314, 1) /* CRIT_DAMAGE_RATING_INT */
      , (1, 43, 83) /* NUM_DEATHS_INT */

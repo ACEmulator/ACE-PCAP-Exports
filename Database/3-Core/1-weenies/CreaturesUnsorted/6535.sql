@@ -177,5 +177,7 @@ VALUES (6535, 8, 48972) /* Acid Zombie Essence (50) */
      , (6535, 8, 416) /* Chainmail Pauldrons */
      , (6535, 8, 2548) /* Sceptre */
      , (6535, 8, 44) /* Buckler */
-     , (6535, 8, 7797) /* Acid Naginata */;
+     , (6535, 8, 7797) /* Acid Naginata */
+     , (6535, 8, 8921) /* Scroll of Flame Streak II */
+     , (6535, 8, 377) /* Potion of Healing */;
 

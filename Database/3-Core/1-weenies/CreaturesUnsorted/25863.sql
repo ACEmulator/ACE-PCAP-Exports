@@ -114,5 +114,6 @@ VALUES (25863, 8, 2407) /* Gem */
      , (25863, 8, 41488) /* Top */
      , (25863, 8, 95) /* Tower Shield */
      , (25863, 8, 45422) /* Acid Dagger */
-     , (25863, 8, 31793) /* Frost Lancet */;
+     , (25863, 8, 31793) /* Frost Lancet */
+     , (25863, 8, 7794) /* Electric Trident */;
 

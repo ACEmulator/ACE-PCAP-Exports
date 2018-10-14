@@ -43,17 +43,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (32751, 15, 'The Black Book of Salt and Ash seems to thrum with dark energy, and its pages rattle very faintly, as if eager to spring loose from their binding...') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32751, 384, 0) /*  */
+VALUES (32751, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (32751, 370, 0) /* GEAR_DAMAGE_INT */
-     , (32751, 386, 0) /*  */
+     , (32751, 386, 0) /* OVERPOWER_INT */
      , (32751, 307, 0) /* DAMAGE_RATING_INT */
      , (32751, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (32751, 387, 0) /*  */
+     , (32751, 387, 0) /* OVERPOWER_RESIST_INT */
      , (32751, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (32751, 372, 0) /* GEAR_CRIT_INT */
-     , (32751, 388, 0) /*  */
+     , (32751, 388, 0) /* GEAR_OVERPOWER_INT */
      , (32751, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (32751, 389, 0) /*  */
+     , (32751, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (32751, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (32751, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (32751, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -64,7 +64,7 @@ VALUES (32751, 384, 0) /*  */
      , (32751, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (32751, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (32751, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (32751, 381, 0) /*  */
-     , (32751, 382, 0) /*  */
-     , (32751, 383, 0) /*  */;
+     , (32751, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (32751, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (32751, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

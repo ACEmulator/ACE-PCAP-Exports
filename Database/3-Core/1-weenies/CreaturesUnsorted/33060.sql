@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33060, 16, 'A dark obsidian stone. It hums in low and ominous way.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33060, 384, 0) /*  */
+VALUES (33060, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (33060, 370, 0) /* GEAR_DAMAGE_INT */
-     , (33060, 386, 0) /*  */
+     , (33060, 386, 0) /* OVERPOWER_INT */
      , (33060, 307, 0) /* DAMAGE_RATING_INT */
      , (33060, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (33060, 387, 0) /*  */
+     , (33060, 387, 0) /* OVERPOWER_RESIST_INT */
      , (33060, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (33060, 372, 0) /* GEAR_CRIT_INT */
-     , (33060, 388, 0) /*  */
+     , (33060, 388, 0) /* GEAR_OVERPOWER_INT */
      , (33060, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (33060, 389, 0) /*  */
+     , (33060, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (33060, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (33060, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (33060, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (33060, 384, 0) /*  */
      , (33060, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (33060, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (33060, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (33060, 381, 0) /*  */
-     , (33060, 382, 0) /*  */
-     , (33060, 383, 0) /*  */;
+     , (33060, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (33060, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (33060, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

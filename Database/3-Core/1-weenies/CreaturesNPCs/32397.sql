@@ -132,18 +132,18 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (32397, 16, 'A statue placed over the grave of Antius Blackmoor.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32397, 384, 0) /*  */
+VALUES (32397, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (32397, 370, 0) /* GEAR_DAMAGE_INT */
-     , (32397, 386, 0) /*  */
+     , (32397, 386, 0) /* OVERPOWER_INT */
      , (32397, 307, 0) /* DAMAGE_RATING_INT */
      , (32397, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (32397, 387, 0) /*  */
+     , (32397, 387, 0) /* OVERPOWER_RESIST_INT */
      , (32397, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (32397, 372, 0) /* GEAR_CRIT_INT */
-     , (32397, 388, 0) /*  */
+     , (32397, 388, 0) /* GEAR_OVERPOWER_INT */
      , (32397, 5, 13483) /* ENCUMB_VAL_INT */
      , (32397, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (32397, 389, 0) /*  */
+     , (32397, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (32397, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (32397, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (32397, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -154,10 +154,10 @@ VALUES (32397, 384, 0) /*  */
      , (32397, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (32397, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (32397, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (32397, 381, 0) /*  */
-     , (32397, 382, 0) /*  */
+     , (32397, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (32397, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
      , (32397, 47, 6) /* ATTACK_TYPE_INT */
-     , (32397, 383, 0) /*  */
+     , (32397, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */
      , (32397, 45, 3) /* DAMAGE_TYPE_INT */
      , (32397, 49, -1) /* WEAPON_TIME_INT */
      , (32397, 48, 44) /* WEAPON_SKILL_INT */

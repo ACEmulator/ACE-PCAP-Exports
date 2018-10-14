@@ -46,17 +46,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (44308, 16, 'An ancient portal created by the A''nekshay.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44308, 384, 0) /*  */
+VALUES (44308, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (44308, 370, 0) /* GEAR_DAMAGE_INT */
-     , (44308, 386, 0) /*  */
+     , (44308, 386, 0) /* OVERPOWER_INT */
      , (44308, 307, 0) /* DAMAGE_RATING_INT */
      , (44308, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (44308, 387, 0) /*  */
+     , (44308, 387, 0) /* OVERPOWER_RESIST_INT */
      , (44308, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (44308, 372, 0) /* GEAR_CRIT_INT */
-     , (44308, 388, 0) /*  */
+     , (44308, 388, 0) /* GEAR_OVERPOWER_INT */
      , (44308, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (44308, 389, 0) /*  */
+     , (44308, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (44308, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (44308, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (44308, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -67,7 +67,7 @@ VALUES (44308, 384, 0) /*  */
      , (44308, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (44308, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (44308, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (44308, 381, 0) /*  */
-     , (44308, 382, 0) /*  */
-     , (44308, 383, 0) /*  */;
+     , (44308, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (44308, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (44308, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

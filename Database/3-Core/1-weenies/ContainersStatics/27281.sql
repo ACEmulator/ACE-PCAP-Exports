@@ -40,12 +40,41 @@ VALUES (27281, 12, True) /* REPORT_COLLISIONS_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27281, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+VALUES (27281, 16, 'The treasure hoard of the Margul guardian, Yaruldi. Who knows what bounty lies behind its lock.') /* LONG_DESC_STRING */
+     , (27281, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27281, 5, 12787) /* ENCUMB_VAL_INT */;
+VALUES (27281, 19, 2500) /* VALUE_INT */
+     , (27281, 5, 11156) /* ENCUMB_VAL_INT */
+     , (27281, 38, 5000) /* RESIST_LOCKPICK_INT */
+     , (27281, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27281, 2, 0) /* OPEN_BOOL */
      , (27281, 3, 1) /* LOCKED_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27281, 8, 42108) /* Shadow Gem */
+     , (27281, 8, 20417) /* Scroll of Cabalastic Ostracism */
+     , (27281, 8, 623) /* Heavy Necklace */
+     , (27281, 8, 416) /* Chainmail Pauldrons */
+     , (27281, 8, 8331) /* Silver Pea */
+     , (27281, 8, 332) /* Morning Star */
+     , (27281, 8, 20506) /* Scroll of Light Weapon Mastery Self VII */
+     , (27281, 8, 516) /* Peerless Lockpick */
+     , (27281, 8, 30949) /* Diforsa Sleeves */
+     , (27281, 8, 21157) /* Covenant Pauldrons */
+     , (27281, 8, 29243) /* Piercing Bow */
+     , (27281, 8, 41484) /* Goggles */
+     , (27281, 8, 121) /* Gloves */
+     , (27281, 8, 49476) /* Scroll of Summoning Mastery Self VII */
+     , (27281, 8, 29256) /* Frost Atlatl */
+     , (27281, 8, 30612) /* Lightning Knuckles */
+     , (27281, 8, 22163) /* Nabut */
+     , (27281, 8, 45410) /* Frost Yaoji */
+     , (27281, 8, 2408) /* Gem */
+     , (27281, 8, 2411) /* Gem */
+     , (27281, 8, 27318) /* Health Philtre */;
 

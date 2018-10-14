@@ -90,7 +90,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (43480, 113, 2) /* GENDER_INT */
      , (43480, 2, 1) /* CREATURE_TYPE_INT */
      , (43480, 261, 711) /* CHARACTER_TITLE_ID_INT */
-     , (43480, 390, 0) /*  */
+     , (43480, 390, 0) /* ENLIGHTENMENT_INT */
      , (43480, 134, 4) /* PLAYER_KILLER_STATUS_INT */
      , (43480, 25, 180) /* LEVEL_INT */
      , (43480, 188, 12) /* HERITAGE_GROUP_INT */;

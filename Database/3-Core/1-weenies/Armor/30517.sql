@@ -43,7 +43,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30517, 16, '') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30517, 384, 1) /*  */
+VALUES (30517, 384, 1) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (30517, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30517, 17, 218) /* RARE_ID_INT */
      , (30517, 371, 1) /* GEAR_DAMAGE_RESIST_INT */

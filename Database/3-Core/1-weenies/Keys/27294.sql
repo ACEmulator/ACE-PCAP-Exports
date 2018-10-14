@@ -34,3 +34,14 @@ VALUES (27294, 13, True) /* ETHEREAL_BOOL */
      , (27294, 19, True) /* ATTACKABLE_BOOL */
      , (27294, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27294, 16, 'This key appears to be used to open a door in the Orphanage.') /* LONG_DESC_STRING */
+     , (27294, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27294, 19, 0) /* VALUE_INT */
+     , (27294, 5, 100) /* ENCUMB_VAL_INT */
+     , (27294, 91, 1) /* MAX_STRUCTURE_INT */;
+

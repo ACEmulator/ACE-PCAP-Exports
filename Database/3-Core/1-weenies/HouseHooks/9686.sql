@@ -61,6 +61,3 @@ VALUES (9686, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9686, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (9686, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9686, 22, True) /* INSCRIBABLE_BOOL */;
-

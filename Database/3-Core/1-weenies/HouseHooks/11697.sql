@@ -53,6 +53,3 @@ VALUES (11697, 33, 1) /* BONDED_INT */
      , (11697, 9, 0) /* LOCATIONS_INT */
      , (11697, 50, 0) /* AMMO_TYPE_INT */;
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11697, 22, True) /* INSCRIBABLE_BOOL */;
-

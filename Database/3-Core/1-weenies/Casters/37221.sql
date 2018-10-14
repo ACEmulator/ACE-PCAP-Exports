@@ -64,7 +64,7 @@ VALUES (37221, 16, 'Frost Staff of Frost') /* LONG_DESC_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37221, 160, 385) /* WIELD_DIFFICULTY_INT */
      , (37221, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (37221, 384, 1) /*  */
+     , (37221, 384, 1) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (37221, 177, 2) /* GEM_COUNT_INT */
      , (37221, 178, 20) /* GEM_TYPE_INT */
      , (37221, 114, 0) /* ATTUNED_INT */
@@ -86,7 +86,7 @@ VALUES (37221, 160, 385) /* WIELD_DIFFICULTY_INT */
      , (37221, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (37221, 159, 34) /* WIELD_SKILLTYPE_INT */
      , (37221, 319, 41) /* ITEM_MAX_LEVEL_INT */
-     , (37221, 383, 1) /*  */;
+     , (37221, 383, 1) /* GEAR_PK_DAMAGE_RATING_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
 VALUES (37221, 4, 395621376) /* ITEM_TOTAL_XP_INT64 */

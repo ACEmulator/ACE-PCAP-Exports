@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (22491, 15, 'Warning: My reward will fill you to the brim.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22491, 384, 0) /*  */
+VALUES (22491, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (22491, 370, 0) /* GEAR_DAMAGE_INT */
-     , (22491, 386, 0) /*  */
+     , (22491, 386, 0) /* OVERPOWER_INT */
      , (22491, 307, 0) /* DAMAGE_RATING_INT */
      , (22491, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (22491, 387, 0) /*  */
+     , (22491, 387, 0) /* OVERPOWER_RESIST_INT */
      , (22491, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (22491, 372, 0) /* GEAR_CRIT_INT */
-     , (22491, 388, 0) /*  */
+     , (22491, 388, 0) /* GEAR_OVERPOWER_INT */
      , (22491, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (22491, 389, 0) /*  */
+     , (22491, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (22491, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (22491, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (22491, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (22491, 384, 0) /*  */
      , (22491, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (22491, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (22491, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (22491, 381, 0) /*  */
-     , (22491, 382, 0) /*  */
-     , (22491, 383, 0) /*  */;
+     , (22491, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (22491, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (22491, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

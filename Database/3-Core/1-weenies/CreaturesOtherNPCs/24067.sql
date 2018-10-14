@@ -42,18 +42,18 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (24067, 16, 'A sword on a glowing dais.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24067, 384, 0) /*  */
+VALUES (24067, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (24067, 370, 0) /* GEAR_DAMAGE_INT */
-     , (24067, 386, 0) /*  */
+     , (24067, 386, 0) /* OVERPOWER_INT */
      , (24067, 307, 0) /* DAMAGE_RATING_INT */
      , (24067, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (24067, 387, 0) /*  */
+     , (24067, 387, 0) /* OVERPOWER_RESIST_INT */
      , (24067, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (24067, 372, 0) /* GEAR_CRIT_INT */
-     , (24067, 388, 0) /*  */
+     , (24067, 388, 0) /* GEAR_OVERPOWER_INT */
      , (24067, 5, 70000) /* ENCUMB_VAL_INT */
      , (24067, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (24067, 389, 0) /*  */
+     , (24067, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (24067, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (24067, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (24067, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -64,7 +64,7 @@ VALUES (24067, 384, 0) /*  */
      , (24067, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (24067, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (24067, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (24067, 381, 0) /*  */
-     , (24067, 382, 0) /*  */
-     , (24067, 383, 0) /*  */;
+     , (24067, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (24067, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (24067, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

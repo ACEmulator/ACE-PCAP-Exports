@@ -40,17 +40,17 @@ VALUES (42961, 12, True) /* REPORT_COLLISIONS_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42961, 384, 0) /*  */
+VALUES (42961, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (42961, 370, 0) /* GEAR_DAMAGE_INT */
-     , (42961, 386, 0) /*  */
+     , (42961, 386, 0) /* OVERPOWER_INT */
      , (42961, 307, 0) /* DAMAGE_RATING_INT */
      , (42961, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (42961, 387, 0) /*  */
+     , (42961, 387, 0) /* OVERPOWER_RESIST_INT */
      , (42961, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (42961, 372, 0) /* GEAR_CRIT_INT */
-     , (42961, 388, 0) /*  */
+     , (42961, 388, 0) /* GEAR_OVERPOWER_INT */
      , (42961, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (42961, 389, 0) /*  */
+     , (42961, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (42961, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (42961, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (42961, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -61,7 +61,7 @@ VALUES (42961, 384, 0) /*  */
      , (42961, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (42961, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (42961, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (42961, 381, 0) /*  */
-     , (42961, 382, 0) /*  */
-     , (42961, 383, 0) /*  */;
+     , (42961, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (42961, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (42961, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

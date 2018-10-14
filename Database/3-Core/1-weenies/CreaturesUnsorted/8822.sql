@@ -81,5 +81,15 @@ VALUES (8822, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8822, 8, 2588) /* Flared Shirt */;
+VALUES (8822, 8, 2588) /* Flared Shirt */
+     , (8822, 8, 31783) /* Frost Claw */
+     , (8822, 8, 96) /* Chainmail Shirt */
+     , (8822, 8, 68) /* Studded Leather Greaves */
+     , (8822, 8, 415) /* Chainmail Girth */
+     , (8822, 8, 27216) /* Chiran Gauntlets */
+     , (8822, 8, 29262) /* Fire Sceptre */
+     , (8822, 8, 624) /* Ring */
+     , (8822, 8, 29250) /* Piercing Crossbow */
+     , (8822, 8, 25641) /* Leather Cuirass */
+     , (8822, 8, 2412) /* Gem */;
 

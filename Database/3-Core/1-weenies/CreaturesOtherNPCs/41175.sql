@@ -43,17 +43,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41175, 16, 'A statue that transports those who are Masters of their Society to the Ruins of Degar''Alesh.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41175, 384, 0) /*  */
+VALUES (41175, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (41175, 370, 0) /* GEAR_DAMAGE_INT */
-     , (41175, 386, 0) /*  */
+     , (41175, 386, 0) /* OVERPOWER_INT */
      , (41175, 307, 0) /* DAMAGE_RATING_INT */
      , (41175, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (41175, 387, 0) /*  */
+     , (41175, 387, 0) /* OVERPOWER_RESIST_INT */
      , (41175, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (41175, 372, 0) /* GEAR_CRIT_INT */
-     , (41175, 388, 0) /*  */
+     , (41175, 388, 0) /* GEAR_OVERPOWER_INT */
      , (41175, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (41175, 389, 0) /*  */
+     , (41175, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (41175, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (41175, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (41175, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -64,7 +64,7 @@ VALUES (41175, 384, 0) /*  */
      , (41175, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (41175, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (41175, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (41175, 381, 0) /*  */
-     , (41175, 382, 0) /*  */
-     , (41175, 383, 0) /*  */;
+     , (41175, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (41175, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (41175, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 
