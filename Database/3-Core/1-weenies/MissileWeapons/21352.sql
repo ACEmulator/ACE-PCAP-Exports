@@ -59,7 +59,7 @@ VALUES (21352, 160, 230) /* WIELD_DIFFICULTY_INT */
      , (21352, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (21352, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (21352, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (21352, 386, 0) /*  */
+     , (21352, 386, 0) /* OVERPOWER_INT */
      , (21352, 19, 2) /* VALUE_INT */
      , (21352, 179, 0) /* IMBUED_EFFECT_INT */
      , (21352, 307, 5) /* DAMAGE_RATING_INT */

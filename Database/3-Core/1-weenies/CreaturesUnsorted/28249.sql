@@ -38,17 +38,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28249, 15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28249, 384, 0) /*  */
+VALUES (28249, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (28249, 370, 0) /* GEAR_DAMAGE_INT */
-     , (28249, 386, 0) /*  */
+     , (28249, 386, 0) /* OVERPOWER_INT */
      , (28249, 307, 0) /* DAMAGE_RATING_INT */
      , (28249, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (28249, 387, 0) /*  */
+     , (28249, 387, 0) /* OVERPOWER_RESIST_INT */
      , (28249, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (28249, 372, 0) /* GEAR_CRIT_INT */
-     , (28249, 388, 0) /*  */
+     , (28249, 388, 0) /* GEAR_OVERPOWER_INT */
      , (28249, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (28249, 389, 0) /*  */
+     , (28249, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (28249, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (28249, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (28249, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -59,7 +59,7 @@ VALUES (28249, 384, 0) /*  */
      , (28249, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (28249, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (28249, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (28249, 381, 0) /*  */
-     , (28249, 382, 0) /*  */
-     , (28249, 383, 0) /*  */;
+     , (28249, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (28249, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (28249, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

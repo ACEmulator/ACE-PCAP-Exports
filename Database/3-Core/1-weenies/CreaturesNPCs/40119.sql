@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (40119, 14, 'A crystal marking a special location.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40119, 384, 0) /*  */
+VALUES (40119, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (40119, 370, 0) /* GEAR_DAMAGE_INT */
-     , (40119, 386, 0) /*  */
+     , (40119, 386, 0) /* OVERPOWER_INT */
      , (40119, 307, 0) /* DAMAGE_RATING_INT */
      , (40119, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (40119, 387, 0) /*  */
+     , (40119, 387, 0) /* OVERPOWER_RESIST_INT */
      , (40119, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (40119, 372, 0) /* GEAR_CRIT_INT */
-     , (40119, 388, 0) /*  */
+     , (40119, 388, 0) /* GEAR_OVERPOWER_INT */
      , (40119, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (40119, 389, 0) /*  */
+     , (40119, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (40119, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (40119, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (40119, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (40119, 384, 0) /*  */
      , (40119, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (40119, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (40119, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (40119, 381, 0) /*  */
-     , (40119, 382, 0) /*  */
-     , (40119, 383, 0) /*  */;
+     , (40119, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (40119, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (40119, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

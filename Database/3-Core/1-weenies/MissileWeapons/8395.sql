@@ -59,7 +59,7 @@ VALUES (8395, 15, 'A finely crafted jack o'' lantern, made with a whittling knif
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8395, 353, 10) /* WEAPON_TYPE_INT */
-     , (8395, 386, 0) /*  */
+     , (8395, 386, 0) /* OVERPOWER_INT */
      , (8395, 19, 50) /* VALUE_INT */
      , (8395, 307, 5) /* DAMAGE_RATING_INT */
      , (8395, 5, 20) /* ENCUMB_VAL_INT */

@@ -44,7 +44,7 @@ VALUES (29981, 13, True) /* ETHEREAL_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29981, 353, 10) /* WEAPON_TYPE_INT */
-     , (29981, 386, 0) /*  */
+     , (29981, 386, 0) /* OVERPOWER_INT */
      , (29981, 307, 5) /* DAMAGE_RATING_INT */
      , (29981, 5, 23) /* ENCUMB_VAL_INT */
      , (29981, 313, 0) /* CRIT_RATING_INT */

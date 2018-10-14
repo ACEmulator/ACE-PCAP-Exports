@@ -58,7 +58,7 @@ VALUES (47887, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (47887, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (47887, 33, -2) /* BONDED_INT */
      , (47887, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (47887, 386, 0) /*  */
+     , (47887, 386, 0) /* OVERPOWER_INT */
      , (47887, 19, 1) /* VALUE_INT */
      , (47887, 179, 0) /* IMBUED_EFFECT_INT */
      , (47887, 307, 5) /* DAMAGE_RATING_INT */

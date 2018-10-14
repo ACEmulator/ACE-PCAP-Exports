@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (34593, 16, 'This portal, created by Prince Borelean Strathelar, will transport you to the world of Bur. However, it is warded in such a fashion that only those who have undertaken certain preparations may proceed through.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34593, 384, 0) /*  */
+VALUES (34593, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (34593, 370, 0) /* GEAR_DAMAGE_INT */
-     , (34593, 386, 0) /*  */
+     , (34593, 386, 0) /* OVERPOWER_INT */
      , (34593, 307, 0) /* DAMAGE_RATING_INT */
      , (34593, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (34593, 387, 0) /*  */
+     , (34593, 387, 0) /* OVERPOWER_RESIST_INT */
      , (34593, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (34593, 372, 0) /* GEAR_CRIT_INT */
-     , (34593, 388, 0) /*  */
+     , (34593, 388, 0) /* GEAR_OVERPOWER_INT */
      , (34593, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (34593, 389, 0) /*  */
+     , (34593, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (34593, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (34593, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (34593, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (34593, 384, 0) /*  */
      , (34593, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (34593, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (34593, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (34593, 381, 0) /*  */
-     , (34593, 382, 0) /*  */
-     , (34593, 383, 0) /*  */;
+     , (34593, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (34593, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (34593, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

@@ -44,17 +44,17 @@ VALUES (42960, 16, 'An enchanted candle, used in the race celebrating the marria
      , (42960, 14, 'Use this candle to gain the enchantment needed to continue the race.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42960, 384, 0) /*  */
+VALUES (42960, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (42960, 370, 0) /* GEAR_DAMAGE_INT */
-     , (42960, 386, 0) /*  */
+     , (42960, 386, 0) /* OVERPOWER_INT */
      , (42960, 307, 0) /* DAMAGE_RATING_INT */
      , (42960, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (42960, 387, 0) /*  */
+     , (42960, 387, 0) /* OVERPOWER_RESIST_INT */
      , (42960, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (42960, 372, 0) /* GEAR_CRIT_INT */
-     , (42960, 388, 0) /*  */
+     , (42960, 388, 0) /* GEAR_OVERPOWER_INT */
      , (42960, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (42960, 389, 0) /*  */
+     , (42960, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (42960, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (42960, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (42960, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (42960, 384, 0) /*  */
      , (42960, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (42960, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (42960, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (42960, 381, 0) /*  */
-     , (42960, 382, 0) /*  */
-     , (42960, 383, 0) /*  */;
+     , (42960, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (42960, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (42960, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

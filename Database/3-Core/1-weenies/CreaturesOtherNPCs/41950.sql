@@ -46,17 +46,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41950, 16, 'A portal for the defenders of Mhoire Castle.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41950, 384, 0) /*  */
+VALUES (41950, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (41950, 370, 0) /* GEAR_DAMAGE_INT */
-     , (41950, 386, 0) /*  */
+     , (41950, 386, 0) /* OVERPOWER_INT */
      , (41950, 307, 0) /* DAMAGE_RATING_INT */
      , (41950, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (41950, 387, 0) /*  */
+     , (41950, 387, 0) /* OVERPOWER_RESIST_INT */
      , (41950, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (41950, 372, 0) /* GEAR_CRIT_INT */
-     , (41950, 388, 0) /*  */
+     , (41950, 388, 0) /* GEAR_OVERPOWER_INT */
      , (41950, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (41950, 389, 0) /*  */
+     , (41950, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (41950, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (41950, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (41950, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -67,7 +67,7 @@ VALUES (41950, 384, 0) /*  */
      , (41950, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (41950, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (41950, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (41950, 381, 0) /*  */
-     , (41950, 382, 0) /*  */
-     , (41950, 383, 0) /*  */;
+     , (41950, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (41950, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (41950, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

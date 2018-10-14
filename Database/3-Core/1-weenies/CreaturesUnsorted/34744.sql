@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (34744, 16, 'This pedestal feels warm to the touch. You see many places where small pieces of stone have been chipped away, as if someone had actively chosen to inflict damage.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34744, 384, 0) /*  */
+VALUES (34744, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (34744, 370, 0) /* GEAR_DAMAGE_INT */
-     , (34744, 386, 0) /*  */
+     , (34744, 386, 0) /* OVERPOWER_INT */
      , (34744, 307, 0) /* DAMAGE_RATING_INT */
      , (34744, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (34744, 387, 0) /*  */
+     , (34744, 387, 0) /* OVERPOWER_RESIST_INT */
      , (34744, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (34744, 372, 0) /* GEAR_CRIT_INT */
-     , (34744, 388, 0) /*  */
+     , (34744, 388, 0) /* GEAR_OVERPOWER_INT */
      , (34744, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (34744, 389, 0) /*  */
+     , (34744, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (34744, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (34744, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (34744, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (34744, 384, 0) /*  */
      , (34744, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (34744, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (34744, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (34744, 381, 0) /*  */
-     , (34744, 382, 0) /*  */
-     , (34744, 383, 0) /*  */;
+     , (34744, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (34744, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (34744, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

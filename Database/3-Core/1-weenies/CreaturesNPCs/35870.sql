@@ -87,18 +87,18 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (35870, 14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35870, 384, 0) /*  */
+VALUES (35870, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (35870, 370, 0) /* GEAR_DAMAGE_INT */
-     , (35870, 386, 0) /*  */
+     , (35870, 386, 0) /* OVERPOWER_INT */
      , (35870, 307, 0) /* DAMAGE_RATING_INT */
      , (35870, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (35870, 387, 0) /*  */
+     , (35870, 387, 0) /* OVERPOWER_RESIST_INT */
      , (35870, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (35870, 372, 0) /* GEAR_CRIT_INT */
-     , (35870, 388, 0) /*  */
+     , (35870, 388, 0) /* GEAR_OVERPOWER_INT */
      , (35870, 5, 450) /* ENCUMB_VAL_INT */
      , (35870, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (35870, 389, 0) /*  */
+     , (35870, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (35870, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (35870, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (35870, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -109,10 +109,10 @@ VALUES (35870, 384, 0) /*  */
      , (35870, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (35870, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (35870, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (35870, 381, 0) /*  */
-     , (35870, 382, 0) /*  */
+     , (35870, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (35870, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
      , (35870, 47, 6) /* ATTACK_TYPE_INT */
-     , (35870, 383, 0) /*  */
+     , (35870, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */
      , (35870, 45, 3) /* DAMAGE_TYPE_INT */
      , (35870, 49, -1) /* WEAPON_TIME_INT */
      , (35870, 48, 44) /* WEAPON_SKILL_INT */

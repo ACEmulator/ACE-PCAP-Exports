@@ -34,3 +34,14 @@ VALUES (27297, 13, True) /* ETHEREAL_BOOL */
      , (27297, 19, True) /* ATTACKABLE_BOOL */
      , (27297, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27297, 16, 'This key was taken from the corpse of the Margul guardian, Yaruldi.') /* LONG_DESC_STRING */
+     , (27297, 14, 'Use this item on a locked door or chest to unlock it') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27297, 19, 0) /* VALUE_INT */
+     , (27297, 5, 100) /* ENCUMB_VAL_INT */
+     , (27297, 91, 3) /* MAX_STRUCTURE_INT */;
+

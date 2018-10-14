@@ -89,5 +89,7 @@ VALUES (8583, 8, 168) /* Tankard */
      , (8583, 8, 27330) /* Moderate Mana Stone */
      , (8583, 8, 31868) /* Signet Crown */
      , (8583, 8, 22440) /* Dirk */
-     , (8583, 8, 44799) /* Faran Over-robe */;
+     , (8583, 8, 44799) /* Faran Over-robe */
+     , (8583, 8, 49366) /* Acid Grievver Essence (50) */
+     , (8583, 8, 2367) /* Gorget */;
 

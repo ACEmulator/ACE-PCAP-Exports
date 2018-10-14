@@ -43,18 +43,18 @@ VALUES (19129, 16, 'A very old spinning wheel intricately carved with mythical c
      , (19129, 14, 'Give the Spinning Wheel a material to spin into thread.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19129, 384, 0) /*  */
+VALUES (19129, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (19129, 370, 0) /* GEAR_DAMAGE_INT */
-     , (19129, 386, 0) /*  */
+     , (19129, 386, 0) /* OVERPOWER_INT */
      , (19129, 307, 0) /* DAMAGE_RATING_INT */
      , (19129, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (19129, 387, 0) /*  */
+     , (19129, 387, 0) /* OVERPOWER_RESIST_INT */
      , (19129, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (19129, 372, 0) /* GEAR_CRIT_INT */
-     , (19129, 388, 0) /*  */
+     , (19129, 388, 0) /* GEAR_OVERPOWER_INT */
      , (19129, 5, 8000) /* ENCUMB_VAL_INT */
      , (19129, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (19129, 389, 0) /*  */
+     , (19129, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (19129, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (19129, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (19129, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (19129, 384, 0) /*  */
      , (19129, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (19129, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (19129, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (19129, 381, 0) /*  */
-     , (19129, 382, 0) /*  */
-     , (19129, 383, 0) /*  */;
+     , (19129, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (19129, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (19129, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

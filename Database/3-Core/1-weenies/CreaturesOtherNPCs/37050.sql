@@ -43,17 +43,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (37050, 16, 'This portal cannot be recalled, linked nor summoned.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37050, 384, 0) /*  */
+VALUES (37050, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (37050, 370, 0) /* GEAR_DAMAGE_INT */
-     , (37050, 386, 0) /*  */
+     , (37050, 386, 0) /* OVERPOWER_INT */
      , (37050, 307, 0) /* DAMAGE_RATING_INT */
      , (37050, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (37050, 387, 0) /*  */
+     , (37050, 387, 0) /* OVERPOWER_RESIST_INT */
      , (37050, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (37050, 372, 0) /* GEAR_CRIT_INT */
-     , (37050, 388, 0) /*  */
+     , (37050, 388, 0) /* GEAR_OVERPOWER_INT */
      , (37050, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (37050, 389, 0) /*  */
+     , (37050, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (37050, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (37050, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (37050, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -64,7 +64,7 @@ VALUES (37050, 384, 0) /*  */
      , (37050, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (37050, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (37050, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (37050, 381, 0) /*  */
-     , (37050, 382, 0) /*  */
-     , (37050, 383, 0) /*  */;
+     , (37050, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (37050, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (37050, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

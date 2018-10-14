@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (25989, 15, 'A small statue that looks just a little too life-like for comfort.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25989, 384, 0) /*  */
+VALUES (25989, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (25989, 370, 0) /* GEAR_DAMAGE_INT */
-     , (25989, 386, 0) /*  */
+     , (25989, 386, 0) /* OVERPOWER_INT */
      , (25989, 307, 0) /* DAMAGE_RATING_INT */
      , (25989, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (25989, 387, 0) /*  */
+     , (25989, 387, 0) /* OVERPOWER_RESIST_INT */
      , (25989, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (25989, 372, 0) /* GEAR_CRIT_INT */
-     , (25989, 388, 0) /*  */
+     , (25989, 388, 0) /* GEAR_OVERPOWER_INT */
      , (25989, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (25989, 389, 0) /*  */
+     , (25989, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (25989, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (25989, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (25989, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,7 +65,7 @@ VALUES (25989, 384, 0) /*  */
      , (25989, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (25989, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (25989, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (25989, 381, 0) /*  */
-     , (25989, 382, 0) /*  */
-     , (25989, 383, 0) /*  */;
+     , (25989, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (25989, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (25989, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

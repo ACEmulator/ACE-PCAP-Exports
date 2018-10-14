@@ -41,3 +41,19 @@ VALUES (33182, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33182, 0, 16783934);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33182, 16, 'An unidentifiable fleshy organism, it has no apparent orifices for eyes or mouth in its thin membranous skin. Dark Empyrean script is burned into its flesh. It wriggles grotesquely in your grasp.') /* LONG_DESC_STRING */
+     , (33182, 14, 'This item cannot be read.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33182, 33, 1) /* BONDED_INT */
+     , (33182, 19, 20) /* VALUE_INT */
+     , (33182, 5, 50) /* ENCUMB_VAL_INT */
+     , (33182, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (33182, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33182, 69, 0) /* IS_SELLABLE_BOOL */;
+

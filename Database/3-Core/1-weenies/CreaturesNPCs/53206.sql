@@ -45,17 +45,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (53206, 16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53206, 384, 0) /*  */
+VALUES (53206, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (53206, 370, 0) /* GEAR_DAMAGE_INT */
-     , (53206, 386, 0) /*  */
+     , (53206, 386, 0) /* OVERPOWER_INT */
      , (53206, 307, 0) /* DAMAGE_RATING_INT */
      , (53206, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (53206, 387, 0) /*  */
+     , (53206, 387, 0) /* OVERPOWER_RESIST_INT */
      , (53206, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (53206, 372, 0) /* GEAR_CRIT_INT */
-     , (53206, 388, 0) /*  */
+     , (53206, 388, 0) /* GEAR_OVERPOWER_INT */
      , (53206, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (53206, 389, 0) /*  */
+     , (53206, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (53206, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (53206, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (53206, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -66,7 +66,7 @@ VALUES (53206, 384, 0) /*  */
      , (53206, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (53206, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (53206, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (53206, 381, 0) /*  */
-     , (53206, 382, 0) /*  */
-     , (53206, 383, 0) /*  */;
+     , (53206, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (53206, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (53206, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

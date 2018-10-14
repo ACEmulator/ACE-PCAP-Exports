@@ -38,17 +38,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (51665, 15, 'A locked door, impossible to pick.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51665, 384, 0) /*  */
+VALUES (51665, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (51665, 370, 0) /* GEAR_DAMAGE_INT */
-     , (51665, 386, 0) /*  */
+     , (51665, 386, 0) /* OVERPOWER_INT */
      , (51665, 307, 0) /* DAMAGE_RATING_INT */
      , (51665, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (51665, 387, 0) /*  */
+     , (51665, 387, 0) /* OVERPOWER_RESIST_INT */
      , (51665, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (51665, 372, 0) /* GEAR_CRIT_INT */
-     , (51665, 388, 0) /*  */
+     , (51665, 388, 0) /* GEAR_OVERPOWER_INT */
      , (51665, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (51665, 389, 0) /*  */
+     , (51665, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (51665, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (51665, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (51665, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -59,7 +59,7 @@ VALUES (51665, 384, 0) /*  */
      , (51665, 315, 9999) /* CRIT_RESIST_RATING_INT */
      , (51665, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (51665, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (51665, 381, 0) /*  */
-     , (51665, 382, 0) /*  */
-     , (51665, 383, 0) /*  */;
+     , (51665, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (51665, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (51665, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

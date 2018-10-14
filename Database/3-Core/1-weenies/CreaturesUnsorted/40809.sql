@@ -48,18 +48,18 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (40809, 15, 'This is a concentrated mass of Aetherium, gathered by the Apostate Virindi and their servants.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40809, 384, 0) /*  */
+VALUES (40809, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (40809, 370, 0) /* GEAR_DAMAGE_INT */
-     , (40809, 386, 0) /*  */
+     , (40809, 386, 0) /* OVERPOWER_INT */
      , (40809, 307, 0) /* DAMAGE_RATING_INT */
      , (40809, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (40809, 387, 0) /*  */
+     , (40809, 387, 0) /* OVERPOWER_RESIST_INT */
      , (40809, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (40809, 372, 0) /* GEAR_CRIT_INT */
-     , (40809, 388, 0) /*  */
+     , (40809, 388, 0) /* GEAR_OVERPOWER_INT */
      , (40809, 5, 0) /* ENCUMB_VAL_INT */
      , (40809, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (40809, 389, 0) /*  */
+     , (40809, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (40809, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (40809, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (40809, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -70,7 +70,7 @@ VALUES (40809, 384, 0) /*  */
      , (40809, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (40809, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (40809, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (40809, 381, 0) /*  */
-     , (40809, 382, 0) /*  */
-     , (40809, 383, 0) /*  */;
+     , (40809, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (40809, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (40809, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

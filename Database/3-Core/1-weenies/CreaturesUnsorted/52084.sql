@@ -91,18 +91,18 @@ VALUES (52084, 12, 16777304)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52084, 384, 0) /*  */
+VALUES (52084, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (52084, 370, 0) /* GEAR_DAMAGE_INT */
-     , (52084, 386, 0) /*  */
+     , (52084, 386, 0) /* OVERPOWER_INT */
      , (52084, 307, 225) /* DAMAGE_RATING_INT */
      , (52084, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (52084, 387, 0) /*  */
+     , (52084, 387, 0) /* OVERPOWER_RESIST_INT */
      , (52084, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (52084, 372, 0) /* GEAR_CRIT_INT */
-     , (52084, 388, 0) /*  */
+     , (52084, 388, 0) /* GEAR_OVERPOWER_INT */
      , (52084, 5, 885) /* ENCUMB_VAL_INT */
      , (52084, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (52084, 389, 0) /*  */
+     , (52084, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (52084, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (52084, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (52084, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -113,10 +113,10 @@ VALUES (52084, 384, 0) /*  */
      , (52084, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (52084, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (52084, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (52084, 381, 0) /*  */
-     , (52084, 382, 0) /*  */
+     , (52084, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (52084, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
      , (52084, 47, 486) /* ATTACK_TYPE_INT */
-     , (52084, 383, 0) /*  */
+     , (52084, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */
      , (52084, 45, 3) /* DAMAGE_TYPE_INT */
      , (52084, 49, -1) /* WEAPON_TIME_INT */
      , (52084, 48, 44) /* WEAPON_SKILL_INT */

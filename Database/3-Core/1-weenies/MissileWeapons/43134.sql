@@ -57,7 +57,7 @@ VALUES (43134, 0, 16777895);
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43134, 33, -2) /* BONDED_INT */
      , (43134, 114, 1) /* ATTUNED_INT */
-     , (43134, 386, 0) /*  */
+     , (43134, 386, 0) /* OVERPOWER_INT */
      , (43134, 307, 5) /* DAMAGE_RATING_INT */
      , (43134, 5, 1) /* ENCUMB_VAL_INT */
      , (43134, 313, 0) /* CRIT_RATING_INT */

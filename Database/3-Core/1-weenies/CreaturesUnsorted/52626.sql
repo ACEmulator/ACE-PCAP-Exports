@@ -37,7 +37,7 @@ VALUES (52626, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52626, 2, 62) /* CREATURE_TYPE_INT */
-     , (52626, 386, 10) /*  */
+     , (52626, 386, 10) /* OVERPOWER_INT */
      , (52626, 25, 320) /* LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)

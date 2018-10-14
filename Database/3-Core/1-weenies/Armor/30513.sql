@@ -43,7 +43,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30513, 16, 'Can the undead cry? It is said that after Leikotha, the great warrior of Haebrous, was made undead by the Sand King Nerash, she wept for thirty days and thirty nights. Each tear shed fell onto her armor, infusing Leikotha''s essence into each piece.  Courage, honor, sorrow, wrath and... everlasting death.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30513, 384, 1) /*  */
+VALUES (30513, 384, 1) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (30513, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30513, 17, 224) /* RARE_ID_INT */
      , (30513, 19, 50000) /* VALUE_INT */

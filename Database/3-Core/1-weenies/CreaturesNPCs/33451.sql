@@ -48,17 +48,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33451, 15, 'Although this crystal was first created from smaller pieces, the crystal has grown swiftly to its current size. You suspect Geomancy was involved in its construction, but you cannot be sure.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33451, 384, 0) /*  */
+VALUES (33451, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (33451, 370, 0) /* GEAR_DAMAGE_INT */
-     , (33451, 386, 0) /*  */
+     , (33451, 386, 0) /* OVERPOWER_INT */
      , (33451, 307, 0) /* DAMAGE_RATING_INT */
      , (33451, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (33451, 387, 0) /*  */
+     , (33451, 387, 0) /* OVERPOWER_RESIST_INT */
      , (33451, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (33451, 372, 0) /* GEAR_CRIT_INT */
-     , (33451, 388, 0) /*  */
+     , (33451, 388, 0) /* GEAR_OVERPOWER_INT */
      , (33451, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (33451, 389, 0) /*  */
+     , (33451, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (33451, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (33451, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (33451, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -69,7 +69,7 @@ VALUES (33451, 384, 0) /*  */
      , (33451, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (33451, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (33451, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (33451, 381, 0) /*  */
-     , (33451, 382, 0) /*  */
-     , (33451, 383, 0) /*  */;
+     , (33451, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (33451, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (33451, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

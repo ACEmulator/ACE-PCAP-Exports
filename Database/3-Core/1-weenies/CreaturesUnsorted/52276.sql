@@ -45,17 +45,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (52276, 15, 'A bright red crystal that seems to attract the nearby Rynthid.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52276, 384, 0) /*  */
+VALUES (52276, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (52276, 370, 0) /* GEAR_DAMAGE_INT */
-     , (52276, 386, 0) /*  */
+     , (52276, 386, 0) /* OVERPOWER_INT */
      , (52276, 307, 0) /* DAMAGE_RATING_INT */
      , (52276, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (52276, 387, 0) /*  */
+     , (52276, 387, 0) /* OVERPOWER_RESIST_INT */
      , (52276, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (52276, 372, 0) /* GEAR_CRIT_INT */
-     , (52276, 388, 0) /*  */
+     , (52276, 388, 0) /* GEAR_OVERPOWER_INT */
      , (52276, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (52276, 389, 0) /*  */
+     , (52276, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (52276, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (52276, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (52276, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -66,7 +66,7 @@ VALUES (52276, 384, 0) /*  */
      , (52276, 315, 9999) /* CRIT_RESIST_RATING_INT */
      , (52276, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (52276, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (52276, 381, 0) /*  */
-     , (52276, 382, 0) /*  */
-     , (52276, 383, 0) /*  */;
+     , (52276, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (52276, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (52276, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

@@ -58,7 +58,7 @@ VALUES (30302, 16, 'At first glance this would be a fairly unremarkable shortbow
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30302, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (30302, 384, 1) /*  */
+     , (30302, 384, 1) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (30302, 353, 8) /* WEAPON_TYPE_INT */
      , (30302, 17, 192) /* RARE_ID_INT */
      , (30302, 19, 50000) /* VALUE_INT */
@@ -70,7 +70,7 @@ VALUES (30302, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30302, 204, 16) /* ELEMENTAL_DAMAGE_BONUS_INT */
      , (30302, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (30302, 319, 50) /* ITEM_MAX_LEVEL_INT */
-     , (30302, 383, 1) /*  */
+     , (30302, 383, 1) /* GEAR_PK_DAMAGE_RATING_INT */
      , (30302, 45, 2) /* DAMAGE_TYPE_INT */
      , (30302, 49, 35) /* WEAPON_TIME_INT */
      , (30302, 48, 47) /* WEAPON_SKILL_INT */

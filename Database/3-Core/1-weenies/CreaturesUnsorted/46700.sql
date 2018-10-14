@@ -200,7 +200,7 @@ VALUES (46700, 0, 16786766)
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46700, 2, 1) /* CREATURE_TYPE_INT */
-     , (46700, 386, 5) /*  */
+     , (46700, 386, 5) /* OVERPOWER_INT */
      , (46700, 307, 10) /* DAMAGE_RATING_INT */
      , (46700, 308, 30) /* DAMAGE_RESIST_RATING_INT */
      , (46700, 25, 265) /* LEVEL_INT */

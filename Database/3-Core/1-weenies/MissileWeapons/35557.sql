@@ -52,7 +52,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (35557, 353, 10) /* WEAPON_TYPE_INT */
      , (35557, 33, -1) /* BONDED_INT */
      , (35557, 114, 0) /* ATTUNED_INT */
-     , (35557, 386, 0) /*  */
+     , (35557, 386, 0) /* OVERPOWER_INT */
      , (35557, 19, 0) /* VALUE_INT */
      , (35557, 307, 5) /* DAMAGE_RATING_INT */
      , (35557, 36, 9999) /* RESIST_MAGIC_INT */
@@ -61,7 +61,7 @@ VALUES (35557, 353, 10) /* WEAPON_TYPE_INT */
      , (35557, 106, 500) /* ITEM_SPELLCRAFT_INT */
      , (35557, 314, 0) /* CRIT_DAMAGE_RATING_INT */
      , (35557, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (35557, 381, 0) /*  */
+     , (35557, 381, 0) /* PK_DAMAGE_RATING_INT */
      , (35557, 45, 8) /* DAMAGE_TYPE_INT */
      , (35557, 49, 1) /* WEAPON_TIME_INT */
      , (35557, 48, 47) /* WEAPON_SKILL_INT */

@@ -54,17 +54,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (36714, 16, 'This bag must contain one color and maintain it''s current weight in stones.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36714, 384, 0) /*  */
+VALUES (36714, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (36714, 370, 0) /* GEAR_DAMAGE_INT */
-     , (36714, 386, 0) /*  */
+     , (36714, 386, 0) /* OVERPOWER_INT */
      , (36714, 307, 0) /* DAMAGE_RATING_INT */
      , (36714, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (36714, 387, 0) /*  */
+     , (36714, 387, 0) /* OVERPOWER_RESIST_INT */
      , (36714, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (36714, 372, 0) /* GEAR_CRIT_INT */
-     , (36714, 388, 0) /*  */
+     , (36714, 388, 0) /* GEAR_OVERPOWER_INT */
      , (36714, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (36714, 389, 0) /*  */
+     , (36714, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (36714, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (36714, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (36714, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -75,7 +75,7 @@ VALUES (36714, 384, 0) /*  */
      , (36714, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (36714, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (36714, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (36714, 381, 0) /*  */
-     , (36714, 382, 0) /*  */
-     , (36714, 383, 0) /*  */;
+     , (36714, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (36714, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (36714, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

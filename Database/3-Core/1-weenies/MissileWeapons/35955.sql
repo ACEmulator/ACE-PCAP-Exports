@@ -59,7 +59,7 @@ VALUES (35955, 0, 16792972);
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35955, 353, 10) /* WEAPON_TYPE_INT */
      , (35955, 33, -2) /* BONDED_INT */
-     , (35955, 386, 0) /*  */
+     , (35955, 386, 0) /* OVERPOWER_INT */
      , (35955, 307, 5) /* DAMAGE_RATING_INT */
      , (35955, 5, 20) /* ENCUMB_VAL_INT */
      , (35955, 313, 0) /* CRIT_RATING_INT */

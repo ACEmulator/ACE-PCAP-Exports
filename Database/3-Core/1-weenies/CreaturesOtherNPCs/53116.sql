@@ -46,17 +46,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (53116, 16, 'A portal leading deeper into the Viridian Rise.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53116, 384, 0) /*  */
+VALUES (53116, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (53116, 370, 0) /* GEAR_DAMAGE_INT */
-     , (53116, 386, 0) /*  */
+     , (53116, 386, 0) /* OVERPOWER_INT */
      , (53116, 307, 0) /* DAMAGE_RATING_INT */
      , (53116, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (53116, 387, 0) /*  */
+     , (53116, 387, 0) /* OVERPOWER_RESIST_INT */
      , (53116, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (53116, 372, 0) /* GEAR_CRIT_INT */
-     , (53116, 388, 0) /*  */
+     , (53116, 388, 0) /* GEAR_OVERPOWER_INT */
      , (53116, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (53116, 389, 0) /*  */
+     , (53116, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (53116, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (53116, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (53116, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -67,7 +67,7 @@ VALUES (53116, 384, 0) /*  */
      , (53116, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (53116, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (53116, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (53116, 381, 0) /*  */
-     , (53116, 382, 0) /*  */
-     , (53116, 383, 0) /*  */;
+     , (53116, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (53116, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (53116, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

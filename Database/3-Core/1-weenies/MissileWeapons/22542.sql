@@ -46,7 +46,7 @@ VALUES (22542, 12, True) /* REPORT_COLLISIONS_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22542, 353, 10) /* WEAPON_TYPE_INT */
      , (22542, 33, -2) /* BONDED_INT */
-     , (22542, 386, 0) /*  */
+     , (22542, 386, 0) /* OVERPOWER_INT */
      , (22542, 19, 4) /* VALUE_INT */
      , (22542, 307, 5) /* DAMAGE_RATING_INT */
      , (22542, 5, 15) /* ENCUMB_VAL_INT */

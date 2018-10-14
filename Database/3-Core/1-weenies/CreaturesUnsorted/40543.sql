@@ -45,17 +45,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (40543, 14, 'You must be a Player Killer to be able to destroy this Crystal Array.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40543, 384, 0) /*  */
+VALUES (40543, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (40543, 370, 0) /* GEAR_DAMAGE_INT */
-     , (40543, 386, 0) /*  */
+     , (40543, 386, 0) /* OVERPOWER_INT */
      , (40543, 307, 0) /* DAMAGE_RATING_INT */
      , (40543, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (40543, 387, 0) /*  */
+     , (40543, 387, 0) /* OVERPOWER_RESIST_INT */
      , (40543, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (40543, 372, 0) /* GEAR_CRIT_INT */
-     , (40543, 388, 0) /*  */
+     , (40543, 388, 0) /* GEAR_OVERPOWER_INT */
      , (40543, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (40543, 389, 0) /*  */
+     , (40543, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (40543, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (40543, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (40543, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -66,7 +66,7 @@ VALUES (40543, 384, 0) /*  */
      , (40543, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (40543, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (40543, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (40543, 381, 0) /*  */
-     , (40543, 382, 0) /*  */
-     , (40543, 383, 0) /*  */;
+     , (40543, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (40543, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (40543, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

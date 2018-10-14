@@ -41,7 +41,7 @@ VALUES (52519, 67114711, 0, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52519, 2, 29) /* CREATURE_TYPE_INT */
-     , (52519, 386, 20) /*  */
+     , (52519, 386, 20) /* OVERPOWER_INT */
      , (52519, 307, 25) /* DAMAGE_RATING_INT */
      , (52519, 25, 265) /* LEVEL_INT */;
 

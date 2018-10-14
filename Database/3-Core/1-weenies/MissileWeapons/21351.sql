@@ -57,7 +57,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (21351, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (21351, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (21351, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (21351, 386, 0) /*  */
+     , (21351, 386, 0) /* OVERPOWER_INT */
      , (21351, 19, 2) /* VALUE_INT */
      , (21351, 179, 0) /* IMBUED_EFFECT_INT */
      , (21351, 307, 5) /* DAMAGE_RATING_INT */
@@ -65,7 +65,7 @@ VALUES (21351, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (21351, 5, 5) /* ENCUMB_VAL_INT */
      , (21351, 313, 0) /* CRIT_RATING_INT */
      , (21351, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (21351, 381, 0) /*  */
+     , (21351, 381, 0) /* PK_DAMAGE_RATING_INT */
      , (21351, 303, 0) /* IMBUED_EFFECT_2_INT */
      , (21351, 45, 2) /* DAMAGE_TYPE_INT */
      , (21351, 49, -1) /* WEAPON_TIME_INT */

@@ -49,7 +49,7 @@ VALUES (7799, 13, True) /* ETHEREAL_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7799, 353, 10) /* WEAPON_TYPE_INT */
      , (7799, 33, -2) /* BONDED_INT */
-     , (7799, 386, 0) /*  */
+     , (7799, 386, 0) /* OVERPOWER_INT */
      , (7799, 19, 15) /* VALUE_INT */
      , (7799, 307, 7) /* DAMAGE_RATING_INT */
      , (7799, 5, 12) /* ENCUMB_VAL_INT */

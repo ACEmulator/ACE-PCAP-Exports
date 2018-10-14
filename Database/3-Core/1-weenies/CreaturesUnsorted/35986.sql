@@ -100,3 +100,17 @@ VALUES (35986, 64, 50000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35986, 128, 10000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35986, 256, 10000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35986, 8, 30594) /* Acid Partizan */
+     , (35986, 8, 2411) /* Gem */
+     , (35986, 8, 6046) /* Amuli Coat */
+     , (35986, 8, 20421) /* Scroll of Astyrrian Bait */
+     , (35986, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (35986, 8, 2599) /* Trousers */
+     , (35986, 8, 31805) /* Slashing Compound Crossbow */
+     , (35986, 8, 45121) /* Flaming Hand Wraps */
+     , (35986, 8, 142) /* Chalice */
+     , (35986, 8, 6058) /* Dark Shard */;
+

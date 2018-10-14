@@ -60,7 +60,7 @@ VALUES (31822, 16, '') /* LONG_DESC_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31822, 160, 385) /* WIELD_DIFFICULTY_INT */
      , (31822, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (31822, 384, 1) /*  */
+     , (31822, 384, 1) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (31822, 177, 2) /* GEM_COUNT_INT */
      , (31822, 178, 38) /* GEM_TYPE_INT */
      , (31822, 114, 0) /* ATTUNED_INT */
@@ -82,7 +82,7 @@ VALUES (31822, 160, 385) /* WIELD_DIFFICULTY_INT */
      , (31822, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (31822, 159, 34) /* WIELD_SKILLTYPE_INT */
      , (31822, 319, 35) /* ITEM_MAX_LEVEL_INT */
-     , (31822, 383, 1) /*  */;
+     , (31822, 383, 1) /* GEAR_PK_DAMAGE_RATING_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
 VALUES (31822, 4, 1280523264) /* ITEM_TOTAL_XP_INT64 */

@@ -56,7 +56,7 @@ VALUES (30377, 16, 'Rakhil al-Kur was the First Malik, the founder of the nation
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30377, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (30377, 384, 1) /*  */
+     , (30377, 384, 1) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (30377, 17, 278) /* RARE_ID_INT */
      , (30377, 19, 50000) /* VALUE_INT */
      , (30377, 179, 512) /* IMBUED_EFFECT_INT */
@@ -68,7 +68,7 @@ VALUES (30377, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30377, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (30377, 45, 16) /* DAMAGE_TYPE_INT */
      , (30377, 319, 50) /* ITEM_MAX_LEVEL_INT */
-     , (30377, 383, 1) /*  */;
+     , (30377, 383, 1) /* GEAR_PK_DAMAGE_RATING_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
 VALUES (30377, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */

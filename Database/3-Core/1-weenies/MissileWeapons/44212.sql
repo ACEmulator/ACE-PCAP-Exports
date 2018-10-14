@@ -60,7 +60,7 @@ VALUES (44212, 160, 270) /* WIELD_DIFFICULTY_INT */
      , (44212, 304, 4) /* IMBUED_EFFECT_3_INT */
      , (44212, 305, 4) /* IMBUED_EFFECT_4_INT */
      , (44212, 306, 4) /* IMBUED_EFFECT_5_INT */
-     , (44212, 386, 0) /*  */
+     , (44212, 386, 0) /* OVERPOWER_INT */
      , (44212, 19, 1) /* VALUE_INT */
      , (44212, 179, 4) /* IMBUED_EFFECT_INT */
      , (44212, 307, 8) /* DAMAGE_RATING_INT */

@@ -60,3 +60,10 @@ VALUES (27282, 64, 7500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27282, 128, 7500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27282, 256, 7500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27282, 8, 7897) /* Steel Toed Boots */
+     , (27282, 8, 27228) /* Nariyid Gauntlets */
+     , (27282, 8, 27297) /* Key to Yaruldi's Hoard */;
+

@@ -47,18 +47,18 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (53011, 16, 'Fallen shards of amber imbedded in the ground. You will need to infuse the shards with Viridian Essence to harvest the infused amber within.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53011, 384, 0) /*  */
+VALUES (53011, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (53011, 98, 1485848528) /* CREATION_TIMESTAMP_INT */
      , (53011, 370, 0) /* GEAR_DAMAGE_INT */
-     , (53011, 386, 0) /*  */
+     , (53011, 386, 0) /* OVERPOWER_INT */
      , (53011, 307, 0) /* DAMAGE_RATING_INT */
      , (53011, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (53011, 387, 0) /*  */
+     , (53011, 387, 0) /* OVERPOWER_RESIST_INT */
      , (53011, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (53011, 372, 0) /* GEAR_CRIT_INT */
-     , (53011, 388, 0) /*  */
+     , (53011, 388, 0) /* GEAR_OVERPOWER_INT */
      , (53011, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (53011, 389, 0) /*  */
+     , (53011, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (53011, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (53011, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (53011, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -71,7 +71,7 @@ VALUES (53011, 384, 0) /*  */
      , (53011, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (53011, 268, 3496) /* REMAINING_LIFESPAN_INT */
      , (53011, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (53011, 381, 0) /*  */
-     , (53011, 382, 0) /*  */
-     , (53011, 383, 0) /*  */;
+     , (53011, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (53011, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (53011, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

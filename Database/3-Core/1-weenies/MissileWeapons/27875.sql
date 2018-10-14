@@ -46,7 +46,7 @@ VALUES (27875, 13, True) /* ETHEREAL_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27875, 353, 10) /* WEAPON_TYPE_INT */
-     , (27875, 386, 0) /*  */
+     , (27875, 386, 0) /* OVERPOWER_INT */
      , (27875, 307, 5) /* DAMAGE_RATING_INT */
      , (27875, 5, 23) /* ENCUMB_VAL_INT */
      , (27875, 313, 0) /* CRIT_RATING_INT */

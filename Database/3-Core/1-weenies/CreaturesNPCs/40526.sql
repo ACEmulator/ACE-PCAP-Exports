@@ -42,17 +42,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (40526, 15, 'A bottle.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40526, 384, 0) /*  */
+VALUES (40526, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (40526, 370, 0) /* GEAR_DAMAGE_INT */
-     , (40526, 386, 0) /*  */
+     , (40526, 386, 0) /* OVERPOWER_INT */
      , (40526, 307, 0) /* DAMAGE_RATING_INT */
      , (40526, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (40526, 387, 0) /*  */
+     , (40526, 387, 0) /* OVERPOWER_RESIST_INT */
      , (40526, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (40526, 372, 0) /* GEAR_CRIT_INT */
-     , (40526, 388, 0) /*  */
+     , (40526, 388, 0) /* GEAR_OVERPOWER_INT */
      , (40526, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (40526, 389, 0) /*  */
+     , (40526, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (40526, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (40526, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (40526, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -63,7 +63,7 @@ VALUES (40526, 384, 0) /*  */
      , (40526, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (40526, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (40526, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (40526, 381, 0) /*  */
-     , (40526, 382, 0) /*  */
-     , (40526, 383, 0) /*  */;
+     , (40526, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (40526, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (40526, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

@@ -43,16 +43,16 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (43248, 15, 'Empyrean Portal NPC') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43248, 386, 0) /*  */
+VALUES (43248, 386, 0) /* OVERPOWER_INT */
      , (43248, 307, 0) /* DAMAGE_RATING_INT */
-     , (43248, 387, 0) /*  */
+     , (43248, 387, 0) /* OVERPOWER_RESIST_INT */
      , (43248, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (43248, 388, 0) /*  */
-     , (43248, 389, 0) /*  */
+     , (43248, 388, 0) /* GEAR_OVERPOWER_INT */
+     , (43248, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (43248, 313, 0) /* CRIT_RATING_INT */
      , (43248, 314, 0) /* CRIT_DAMAGE_RATING_INT */
      , (43248, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (43248, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (43248, 381, 0) /*  */
-     , (43248, 382, 0) /*  */;
+     , (43248, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (43248, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */;
 

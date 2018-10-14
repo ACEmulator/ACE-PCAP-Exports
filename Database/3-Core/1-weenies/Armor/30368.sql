@@ -65,7 +65,7 @@ VALUES (30368, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30368, 108, 2400) /* ITEM_MAX_MANA_INT */
      , (30368, 28, 740) /* ARMOR_LEVEL_INT */
      , (30368, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (30368, 383, 1) /*  */
+     , (30368, 383, 1) /* GEAR_PK_DAMAGE_RATING_INT */
      , (30368, 319, 50) /* ITEM_MAX_LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)

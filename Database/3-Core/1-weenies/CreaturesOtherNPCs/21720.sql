@@ -43,17 +43,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (21720, 15, 'A crystal prison containing Gaerlan''s life essence.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21720, 384, 0) /*  */
+VALUES (21720, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (21720, 370, 0) /* GEAR_DAMAGE_INT */
-     , (21720, 386, 0) /*  */
+     , (21720, 386, 0) /* OVERPOWER_INT */
      , (21720, 307, 0) /* DAMAGE_RATING_INT */
      , (21720, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (21720, 387, 0) /*  */
+     , (21720, 387, 0) /* OVERPOWER_RESIST_INT */
      , (21720, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (21720, 372, 0) /* GEAR_CRIT_INT */
-     , (21720, 388, 0) /*  */
+     , (21720, 388, 0) /* GEAR_OVERPOWER_INT */
      , (21720, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (21720, 389, 0) /*  */
+     , (21720, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (21720, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (21720, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (21720, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -64,7 +64,7 @@ VALUES (21720, 384, 0) /*  */
      , (21720, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (21720, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (21720, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (21720, 381, 0) /*  */
-     , (21720, 382, 0) /*  */
-     , (21720, 383, 0) /*  */;
+     , (21720, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (21720, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (21720, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

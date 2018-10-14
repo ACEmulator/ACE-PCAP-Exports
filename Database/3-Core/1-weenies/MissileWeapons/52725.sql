@@ -61,7 +61,7 @@ VALUES (52725, 55, 4312) /* PROC_SPELL_DID */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52725, 353, 10) /* WEAPON_TYPE_INT */
      , (52725, 33, -2) /* BONDED_INT */
-     , (52725, 386, 5) /*  */
+     , (52725, 386, 5) /* OVERPOWER_INT */
      , (52725, 19, 1) /* VALUE_INT */
      , (52725, 307, 35) /* DAMAGE_RATING_INT */
      , (52725, 5, 20) /* ENCUMB_VAL_INT */

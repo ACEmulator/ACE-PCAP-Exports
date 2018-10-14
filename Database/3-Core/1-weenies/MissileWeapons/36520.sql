@@ -59,7 +59,7 @@ VALUES (36520, 160, 270) /* WIELD_DIFFICULTY_INT */
      , (36520, 304, 0) /* IMBUED_EFFECT_3_INT */
      , (36520, 305, 0) /* IMBUED_EFFECT_4_INT */
      , (36520, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (36520, 386, 0) /*  */
+     , (36520, 386, 0) /* OVERPOWER_INT */
      , (36520, 19, 1) /* VALUE_INT */
      , (36520, 179, 0) /* IMBUED_EFFECT_INT */
      , (36520, 307, 25) /* DAMAGE_RATING_INT */

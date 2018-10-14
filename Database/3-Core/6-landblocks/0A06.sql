@@ -7,5 +7,10 @@ VALUES (6401, 1889558529, 168165414, 108.146, 124.673, 68, 1, 0, 0, 0) /* Statue
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (27298, 3699150926, 168165408, 90.80316, 177.5148, 70.60005, 1, 0, 0, 0) /* The Orphanage */
      , (27298, 2929804014, 168165393, 54.37254, 19.03353, 61.17862, 1, 0, 0, 0) /* The Orphanage */
-     , (27298, 2929448063, 168165395, 57.12028, 57.95117, 18.68918, 1, 0, 0, 0) /* The Orphanage */;
+     , (27298, 2929448063, 168165395, 57.12028, 57.95117, 18.68918, 1, 0, 0, 0) /* The Orphanage */
+     , (27298, 3332440646, 168165411, 111.3281, 49.79176, 14.36103, 1, 0, 0, 0) /* The Orphanage */;
+
+/* ContainersChests */
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (30796, 3332380545, 168165439, 184.0776, 144.2699, 4.022522, 1, 0, 0, 0) /* Black Marrow Reliquary */;
 

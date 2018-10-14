@@ -43,17 +43,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (36012, 16, 'A shadowy statue of the Hopeslayer.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36012, 384, 0) /*  */
+VALUES (36012, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (36012, 370, 0) /* GEAR_DAMAGE_INT */
-     , (36012, 386, 0) /*  */
+     , (36012, 386, 0) /* OVERPOWER_INT */
      , (36012, 307, 0) /* DAMAGE_RATING_INT */
      , (36012, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (36012, 387, 0) /*  */
+     , (36012, 387, 0) /* OVERPOWER_RESIST_INT */
      , (36012, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (36012, 372, 0) /* GEAR_CRIT_INT */
-     , (36012, 388, 0) /*  */
+     , (36012, 388, 0) /* GEAR_OVERPOWER_INT */
      , (36012, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (36012, 389, 0) /*  */
+     , (36012, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (36012, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (36012, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (36012, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -64,7 +64,7 @@ VALUES (36012, 384, 0) /*  */
      , (36012, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (36012, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (36012, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (36012, 381, 0) /*  */
-     , (36012, 382, 0) /*  */
-     , (36012, 383, 0) /*  */;
+     , (36012, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (36012, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (36012, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

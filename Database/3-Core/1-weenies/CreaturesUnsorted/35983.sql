@@ -60,3 +60,9 @@ VALUES (35983, 64, 1310) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35983, 128, 1310) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35983, 256, 1190) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35983, 8, 112) /* Studded Leather Tassets */
+     , (35983, 8, 2410) /* Gem */;
+

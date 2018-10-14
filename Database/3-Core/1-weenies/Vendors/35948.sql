@@ -44,17 +44,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (35948, 16, 'A menacing Tusker Shrine. An impression in the shape of a tusker paw can be clearly seen in the stones on the base of the shrine.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35948, 384, 0) /*  */
+VALUES (35948, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (35948, 370, 0) /* GEAR_DAMAGE_INT */
-     , (35948, 386, 0) /*  */
+     , (35948, 386, 0) /* OVERPOWER_INT */
      , (35948, 307, 0) /* DAMAGE_RATING_INT */
      , (35948, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (35948, 387, 0) /*  */
+     , (35948, 387, 0) /* OVERPOWER_RESIST_INT */
      , (35948, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (35948, 372, 0) /* GEAR_CRIT_INT */
-     , (35948, 388, 0) /*  */
+     , (35948, 388, 0) /* GEAR_OVERPOWER_INT */
      , (35948, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (35948, 389, 0) /*  */
+     , (35948, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (35948, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (35948, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (35948, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -65,9 +65,9 @@ VALUES (35948, 384, 0) /*  */
      , (35948, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (35948, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (35948, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (35948, 381, 0) /*  */
-     , (35948, 382, 0) /*  */
-     , (35948, 383, 0) /*  */;
+     , (35948, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (35948, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (35948, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 
 /* Extended Vendor Data */
 

@@ -43,18 +43,18 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (34251, 15, 'This is the liver from a now-deceased carenzi.  You can use it to more closely examine it, but you can''t bring yourself to put it into your pack - you have no idea how healthy it is.  Aun Teriona, near the town of Bluespire, is said to concern himself with the carenzi population.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34251, 384, 0) /*  */
+VALUES (34251, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (34251, 98, 1485757038) /* CREATION_TIMESTAMP_INT */
      , (34251, 370, 0) /* GEAR_DAMAGE_INT */
-     , (34251, 386, 0) /*  */
+     , (34251, 386, 0) /* OVERPOWER_INT */
      , (34251, 307, 0) /* DAMAGE_RATING_INT */
      , (34251, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (34251, 387, 0) /*  */
+     , (34251, 387, 0) /* OVERPOWER_RESIST_INT */
      , (34251, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (34251, 372, 0) /* GEAR_CRIT_INT */
-     , (34251, 388, 0) /*  */
+     , (34251, 388, 0) /* GEAR_OVERPOWER_INT */
      , (34251, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (34251, 389, 0) /*  */
+     , (34251, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (34251, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (34251, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (34251, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -67,7 +67,7 @@ VALUES (34251, 384, 0) /*  */
      , (34251, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (34251, 268, 240) /* REMAINING_LIFESPAN_INT */
      , (34251, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (34251, 381, 0) /*  */
-     , (34251, 382, 0) /*  */
-     , (34251, 383, 0) /*  */;
+     , (34251, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (34251, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (34251, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

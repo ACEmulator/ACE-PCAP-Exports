@@ -41,17 +41,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (52283, 15, 'An icy crystal that nearby Frost Golems are drawn to.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52283, 384, 0) /*  */
+VALUES (52283, 384, 0) /* GEAR_PK_DAMAGE_RESIST_RATING_INT */
      , (52283, 370, 0) /* GEAR_DAMAGE_INT */
-     , (52283, 386, 0) /*  */
+     , (52283, 386, 0) /* OVERPOWER_INT */
      , (52283, 307, 0) /* DAMAGE_RATING_INT */
      , (52283, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (52283, 387, 0) /*  */
+     , (52283, 387, 0) /* OVERPOWER_RESIST_INT */
      , (52283, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (52283, 372, 0) /* GEAR_CRIT_INT */
-     , (52283, 388, 0) /*  */
+     , (52283, 388, 0) /* GEAR_OVERPOWER_INT */
      , (52283, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (52283, 389, 0) /*  */
+     , (52283, 389, 0) /* GEAR_OVERPOWER_RESIST_INT */
      , (52283, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
      , (52283, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
      , (52283, 376, 0) /* GEAR_HEALING_BOOST_INT */
@@ -62,7 +62,7 @@ VALUES (52283, 384, 0) /*  */
      , (52283, 315, 9999) /* CRIT_RESIST_RATING_INT */
      , (52283, 379, 0) /* GEAR_MAX_HEALTH_INT */
      , (52283, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (52283, 381, 0) /*  */
-     , (52283, 382, 0) /*  */
-     , (52283, 383, 0) /*  */;
+     , (52283, 381, 0) /* PK_DAMAGE_RATING_INT */
+     , (52283, 382, 0) /* PK_DAMAGE_RESIST_RATING_INT */
+     , (52283, 383, 0) /* GEAR_PK_DAMAGE_RATING_INT */;
 

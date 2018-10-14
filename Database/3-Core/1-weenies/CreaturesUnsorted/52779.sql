@@ -44,7 +44,7 @@ VALUES (52779, 67116699, 0, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52779, 2, 44) /* CREATURE_TYPE_INT */
-     , (52779, 386, 5) /*  */
+     , (52779, 386, 5) /* OVERPOWER_INT */
      , (52779, 25, 265) /* LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
