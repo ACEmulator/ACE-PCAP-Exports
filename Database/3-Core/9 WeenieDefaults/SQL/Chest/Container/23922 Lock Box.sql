@@ -1,0 +1,54 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23922;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (23922, 'cheststorageulgrimring', 20) /* Chest */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (23922,   1,        512) /* ItemType - Container */
+     , (23922,   5,       3015) /* EncumbranceVal */
+     , (23922,   6,        120) /* ItemsCapacity */
+     , (23922,   7,         10) /* ContainersCapacity */
+     , (23922,  16,         48) /* ItemUseable - ViewedRemote */
+     , (23922,  19,        600) /* Value */
+     , (23922,  38,        300) /* ResistLockpick */
+     , (23922,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (23922, 173,         93) /* AppraisalLockpickSuccessPercent */
+     , (23922, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23922,   1, True ) /* Stuck */
+     , (23922,   2, False) /* Open */
+     , (23922,   3, False) /* Locked */
+     , (23922,  11, True ) /* IgnoreCollisions */
+     , (23922,  12, True ) /* ReportCollisions */
+     , (23922,  13, False) /* Ethereal */
+     , (23922,  14, True ) /* GravityStatus */
+     , (23922,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23922,  54,       1) /* UseRadius */
+     , (23922, 8010,       0) /* PCAPRecordedVelocityX */
+     , (23922, 8011,       0) /* PCAPRecordedVelocityY */
+     , (23922, 8012, -0.0115773677825928) /* PCAPRecordedVelocityZ */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23922,   1, 'Lock Box') /* Name */
+     , (23922,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (23922, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23922,   1,   33557119) /* Setup */
+     , (23922,   2,  150994948) /* MotionTable */
+     , (23922,   3,  536870945) /* SoundTable */
+     , (23922,   8,  100671885) /* Icon */
+     , (23922,  22,  872415275) /* PhysicsEffectTable */
+     , (23922, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
+     , (23922, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
+     , (23922, 8005,     104455) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, STable, PeTable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (23922, 8040, 1631781120, 10, 0, -4.79938, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+/* @teleloc 0x61430100 [10.000000 0.000000 -4.799380] 1.000000 0.000000 0.000000 0.000000 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (23922, 8000, 1981034501) /* PCAPRecordedObjectIID */;

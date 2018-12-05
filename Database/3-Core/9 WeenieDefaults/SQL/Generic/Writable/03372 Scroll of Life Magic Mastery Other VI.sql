@@ -1,0 +1,61 @@
+DELETE FROM `weenie` WHERE `class_Id` = 3372;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (3372, 'scrolllifemagicmasteryother6', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (3372,   1,       8192) /* ItemType - Writable */
+     , (3372,   2,          9) /* CreatureType - PhyntosWasp */
+     , (3372,   5,         30) /* EncumbranceVal */
+     , (3372,  16,          8) /* ItemUseable - Contained */
+     , (3372,  19,       1000) /* Value */
+     , (3372,  25,         80) /* Level */
+     , (3372,  65,        101) /* Placement - Resting */
+     , (3372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (3372,   1, False) /* Stuck */
+     , (3372,  11, True ) /* IgnoreCollisions */
+     , (3372,  13, True ) /* Ethereal */
+     , (3372,  14, True ) /* GravityStatus */
+     , (3372,  19, True ) /* Attackable */
+     , (3372,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3372,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3372,   1, 'Scroll of Life Magic Mastery Other VI') /* Name */
+     , (3372,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (3372,  16, 'Inscribed spell: Life Magic Mastery Other VI
+Increases the target''s Life Magic skill by 35 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3372,   1,   33554826) /* Setup */
+     , (3372,   8,  100676462) /* Icon */
+     , (3372,  22,  872415275) /* PhysicsEffectTable */
+     , (3372,  28,        616) /* Spell */
+     , (3372, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
+     , (3372, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (3372, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (3372,   2, 2884873087) /* Container */
+     , (3372, 8000, 2884873086) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (3372,   1, 120, 0, 0) /* Strength */
+     , (3372,   2, 145, 0, 0) /* Endurance */
+     , (3372,   3, 175, 0, 0) /* Quickness */
+     , (3372,   4, 175, 0, 0) /* Coordination */
+     , (3372,   5, 125, 0, 0) /* Focus */
+     , (3372,   6, 105, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (3372,   1,   238, 0, 0, 238) /* MaxHealth */
+     , (3372,   3,   355, 0, 0, 355) /* MaxStamina */
+     , (3372,   5,   265, 0, 0, 265) /* MaxMana */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3372,   265,      2) 
+     , (3372,   616,      2) ;

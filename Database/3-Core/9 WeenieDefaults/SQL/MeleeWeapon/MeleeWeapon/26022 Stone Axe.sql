@@ -1,0 +1,63 @@
+DELETE FROM `weenie` WHERE `class_Id` = 26022;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (26022, 'axeburunstoneextreme', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (26022,   1,          1) /* ItemType - MeleeWeapon */
+     , (26022,   5,       6400) /* EncumbranceVal */
+     , (26022,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (26022,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
+     , (26022,  16,          1) /* ItemUseable - No */
+     , (26022,  19,        750) /* Value */
+     , (26022,  33,          0) /* Bonded - Normal */
+     , (26022,  51,          1) /* CombatUse - Melee */
+     , (26022,  65,          1) /* Placement - RightHandCombat */
+     , (26022,  91,         50) /* MaxStructure */
+     , (26022,  92,         50) /* Structure */
+     , (26022,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (26022, 105,          5) /* ItemWorkmanship */
+     , (26022, 114,          0) /* Attuned - Normal */
+     , (26022, 151,          2) /* HookType - Wall */
+     , (26022, 280,        213) /* SharedCooldown */
+     , (26022, 366,         54) /* UseRequiresSkill */
+     , (26022, 367,        530) /* UseRequiresSkillLevel */
+     , (26022, 369,        170) /* UseRequiresLevel */
+     , (26022, 370,         15) /* GearDamage */
+     , (26022, 372,          7) /* GearCrit */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (26022,   1, False) /* Stuck */
+     , (26022,  11, True ) /* IgnoreCollisions */
+     , (26022,  13, True ) /* Ethereal */
+     , (26022,  14, True ) /* GravityStatus */
+     , (26022,  19, True ) /* Attackable */
+     , (26022,  22, True ) /* Inscribable */
+     , (26022,  69, True ) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (26022, 167,      45) /* CooldownDuration */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (26022,   1, 'Stone Axe') /* Name */
+     , (26022,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */
+     , (26022,  16, 'Killed by Sunrise Adams.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (26022,   1,   33558583) /* Setup */
+     , (26022,   3,  536870932) /* SoundTable */
+     , (26022,   8,  100675763) /* Icon */
+     , (26022,  22,  872415275) /* PhysicsEffectTable */
+     , (26022, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
+     , (26022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (26022, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
+     , (26022, 8009,          1);
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (26022, 8040, 49808383, 121.2057, -280.1195, -0.03733949, 0.160579, 0.160579, -0.6886322, -0.6886322) /* PCAPRecordedLocation */
+/* @teleloc 0x02F803FF [121.205700 -280.119500 -0.037339] 0.160579 0.160579 -0.688632 -0.688632 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (26022,   3, 3701459778) /* Wielder */
+     , (26022, 8000, 3701597134) /* PCAPRecordedObjectIID */
+     , (26022, 8008, 3701459778) /* PCAPRecordedParentIID */;

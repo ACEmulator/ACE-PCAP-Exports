@@ -1,0 +1,73 @@
+DELETE FROM `weenie` WHERE `class_Id` = 21430;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (21430, 'daggergaerlan', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (21430,   1,          1) /* ItemType - MeleeWeapon */
+     , (21430,   5,        120) /* EncumbranceVal */
+     , (21430,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (21430,  16,          1) /* ItemUseable - No */
+     , (21430,  18,          1) /* UiEffects - Magical */
+     , (21430,  19,       4000) /* Value */
+     , (21430,  33,          1) /* Bonded - Bonded */
+     , (21430,  36,       9999) /* ResistMagic */
+     , (21430,  44,         57) /* Damage */
+     , (21430,  45,          3) /* DamageType - Slash, Pierce */
+     , (21430,  47,          6) /* AttackType - Thrust, Slash */
+     , (21430,  48,         45) /* WeaponSkill - LightWeapons */
+     , (21430,  49,          1) /* WeaponTime */
+     , (21430,  51,          1) /* CombatUse - Melee */
+     , (21430,  65,        101) /* Placement - Resting */
+     , (21430,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21430, 106,        250) /* ItemSpellcraft */
+     , (21430, 107,       1000) /* ItemCurMana */
+     , (21430, 108,       1000) /* ItemMaxMana */
+     , (21430, 109,        125) /* ItemDifficulty */
+     , (21430, 114,          1) /* Attuned - Attuned */
+     , (21430, 151,          2) /* HookType - Wall */
+     , (21430, 158,          2) /* WieldRequirements - RawSkill */
+     , (21430, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (21430, 160,        250) /* WieldDifficulty */
+     , (21430, 166,          1) /* SlayerCreatureType - Olthoi */
+     , (21430, 353,          6) /* WeaponType - Dagger */
+     , (21430, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (21430,   1, False) /* Stuck */
+     , (21430,  11, True ) /* IgnoreCollisions */
+     , (21430,  13, True ) /* Ethereal */
+     , (21430,  14, True ) /* GravityStatus */
+     , (21430,  19, True ) /* Attackable */
+     , (21430,  22, True ) /* Inscribable */
+     , (21430,  69, False) /* IsSellable */
+     , (21430,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (21430,   5,   -0.05) /* ManaRate */
+     , (21430,  21,       0) /* WeaponLength */
+     , (21430,  22,     0.3) /* DamageVariance */
+     , (21430,  26,       0) /* MaximumVelocity */
+     , (21430,  29,    1.25) /* WeaponDefense */
+     , (21430,  62,    1.25) /* WeaponOffense */
+     , (21430,  63,       1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21430,   1, 'Sacraloi') /* Name */
+     , (21430,  15, 'A dagger constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21430,   1,   33557961) /* Setup */
+     , (21430,   3,  536870932) /* SoundTable */
+     , (21430,   8,  100673488) /* Icon */
+     , (21430,  22,  872415275) /* PhysicsEffectTable */
+     , (21430, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
+     , (21430, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (21430, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (21430,   2, 2164419469) /* Container */
+     , (21430, 8000, 2164419487) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (21430,   296,      2) ;

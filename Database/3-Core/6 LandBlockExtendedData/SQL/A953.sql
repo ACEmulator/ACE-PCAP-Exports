@@ -1,0 +1,15 @@
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2056597533, 23516, 2840789029, 115.599, 100.575, 109.7708, -0.6052969, 0, 0, 0.7959998, False); /* Exit */
+/* @teleloc 0xA9530025 [115.599000 100.575000 109.770800] -0.605297 0.000000 0.000000 0.796000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2056597534, 23351, 2840789021, 85.0747, 106.928, 149.441, -4.37114E-08, 0, 0, -1, False); /* Stone Plaque */
+/* @teleloc 0xA953001D [85.074700 106.928000 149.441000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2056597535, 23519, 2840789005, 39.2278, 111.655, 192.2301, -0.006032588, 0, 0, -0.9999818, False); /* Chest */
+/* @teleloc 0xA953000D [39.227800 111.655000 192.230100] -0.006033 0.000000 0.000000 -0.999982 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`)
+VALUES (2056597536, 23520, 2840789037, 129.131, 106.13, 192.2741, 0.9999748, 0, 0, -0.007094598, False); /* Chest */
+/* @teleloc 0xA953002D [129.131000 106.130000 192.274100] 0.999975 0.000000 0.000000 -0.007095 */

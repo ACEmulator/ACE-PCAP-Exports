@@ -1,0 +1,160 @@
+DELETE FROM `weenie` WHERE `class_Id` = 3916;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (3916, 'yarifrost', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (3916,   1,          1) /* ItemType - MeleeWeapon */
+     , (3916,   2,         83) /* CreatureType - ViamontianKnight */
+     , (3916,   5,        697) /* EncumbranceVal */
+     , (3916,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3916,  16,          1) /* ItemUseable - No */
+     , (3916,  18,        129) /* UiEffects - Magical, Frost */
+     , (3916,  19,       2206) /* Value */
+     , (3916,  25,        135) /* Level */
+     , (3916,  44,         37) /* Damage */
+     , (3916,  45,          8) /* DamageType - Cold */
+     , (3916,  47,          2) /* AttackType - Thrust */
+     , (3916,  48,         45) /* WeaponSkill - LightWeapons */
+     , (3916,  49,         30) /* WeaponTime */
+     , (3916,  51,          1) /* CombatUse - Melee */
+     , (3916,  65,        101) /* Placement - Resting */
+     , (3916,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3916, 105,          3) /* ItemWorkmanship */
+     , (3916, 106,        206) /* ItemSpellcraft */
+     , (3916, 107,        441) /* ItemCurMana */
+     , (3916, 108,        441) /* ItemMaxMana */
+     , (3916, 109,        102) /* ItemDifficulty */
+     , (3916, 110,          0) /* ItemAllegianceRankLimit */
+     , (3916, 115,        226) /* ItemSkillLevelLimit */
+     , (3916, 131,         76) /* MaterialType - Pine */
+     , (3916, 151,          2) /* HookType - Wall */
+     , (3916, 158,          2) /* WieldRequirements - RawSkill */
+     , (3916, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (3916, 160,        325) /* WieldDifficulty */
+     , (3916, 172,          5) /* AppraisalLongDescDecoration */
+     , (3916, 176,         45) /* AppraisalItemSkill */
+     , (3916, 177,          2) /* GemCount */
+     , (3916, 178,         12) /* GemType */
+     , (3916, 307,          5) /* DamageRating */
+     , (3916, 353,          5) /* WeaponType - Spear */
+     , (3916, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (3916,   1, False) /* Stuck */
+     , (3916,  11, True ) /* IgnoreCollisions */
+     , (3916,  13, True ) /* Ethereal */
+     , (3916,  14, True ) /* GravityStatus */
+     , (3916,  19, True ) /* Attackable */
+     , (3916,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3916,   5,   -0.05) /* ManaRate */
+     , (3916,  21,       0) /* WeaponLength */
+     , (3916,  22,     0.8) /* DamageVariance */
+     , (3916,  26,       0) /* MaximumVelocity */
+     , (3916,  29,    1.04) /* WeaponDefense */
+     , (3916,  62,    1.17) /* WeaponOffense */
+     , (3916,  63,       1) /* DamageMod */
+     , (3916, 149,    1.02) /* WeaponMissileDefense */
+     , (3916, 150,   1.025) /* WeaponMagicDefense */
+     , (3916, 8004,       3) /* PCAPRecordedWorkmanship */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3916,   1, 'Frost Yari') /* Name */
+     , (3916,  16, 'Frost Yari of Defender') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3916,   1,   33555823) /* Setup */
+     , (3916,   3,  536870932) /* SoundTable */
+     , (3916,   6,   67111919) /* PaletteBase */
+     , (3916,   8,  100669094) /* Icon */
+     , (3916,  22,  872415275) /* PhysicsEffectTable */
+     , (3916, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
+     , (3916, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (3916, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (3916,   2, 1879171106) /* Container */
+     , (3916, 8000, 3687824859) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (3916,   1, 395, 0, 0) /* Strength */
+     , (3916,   2, 360, 0, 0) /* Endurance */
+     , (3916,   3, 320, 0, 0) /* Quickness */
+     , (3916,   4, 340, 0, 0) /* Coordination */
+     , (3916,   5,  80, 0, 0) /* Focus */
+     , (3916,   6,  80, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (3916,   1,   680, 0, 0, 680) /* MaxHealth */
+     , (3916,   3,   910, 0, 0, 910) /* MaxStamina */
+     , (3916,   5,    80, 0, 0, 80) /* MaxMana */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3916,    35,      2) 
+     , (3916,  1331,      2) 
+     , (3916,  1332,      2) 
+     , (3916,  1378,      2) 
+     , (3916,  1401,      2) 
+     , (3916,  1589,      2) 
+     , (3916,  1591,      2) 
+     , (3916,  1592,      2) 
+     , (3916,  1601,      2) 
+     , (3916,  1603,      2) 
+     , (3916,  1604,      2) 
+     , (3916,  1605,      2) 
+     , (3916,  1612,      2) 
+     , (3916,  1613,      2) 
+     , (3916,  1615,      2) 
+     , (3916,  1616,      2) 
+     , (3916,  1624,      2) 
+     , (3916,  1627,      2) 
+     , (3916,  2059,      2) 
+     , (3916,  2061,      2) 
+     , (3916,  2081,      2) 
+     , (3916,  2096,      2) 
+     , (3916,  2101,      2) 
+     , (3916,  2106,      2) 
+     , (3916,  2116,      2) 
+     , (3916,  2504,      2) 
+     , (3916,  2513,      2) 
+     , (3916,  2524,      2) 
+     , (3916,  2538,      2) 
+     , (3916,  2539,      2) 
+     , (3916,  2549,      2) 
+     , (3916,  2553,      2) 
+     , (3916,  2572,      2) 
+     , (3916,  2577,      2) 
+     , (3916,  2578,      2) 
+     , (3916,  2579,      2) 
+     , (3916,  2582,      2) 
+     , (3916,  2586,      2) 
+     , (3916,  2588,      2) 
+     , (3916,  2591,      2) 
+     , (3916,  2598,      2) 
+     , (3916,  2600,      2) 
+     , (3916,  2608,      2) 
+     , (3916,  2611,      2) 
+     , (3916,  2616,      2) 
+     , (3916,  2620,      2) 
+     , (3916,  4395,      2) 
+     , (3916,  4400,      2) 
+     , (3916,  4405,      2) 
+     , (3916,  4417,      2) 
+     , (3916,  5785,      2) 
+     , (3916,  5810,      2) 
+     , (3916,  5881,      2) 
+     , (3916,  5882,      2) 
+     , (3916,  5883,      2) 
+     , (3916,  6127,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (3916, 67111926, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (3916, 0, 83886737, 83886737)
+     , (3916, 0, 83886754, 83886754);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (3916, 0, 16777983);

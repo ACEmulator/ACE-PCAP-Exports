@@ -1,0 +1,45 @@
+DELETE FROM `weenie` WHERE `class_Id` = 45327;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (45327, 'ace45327-scrollofshieldmasteryselfiv', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (45327,   1,       8192) /* ItemType - Writable */
+     , (45327,   5,         30) /* EncumbranceVal */
+     , (45327,  16,          8) /* ItemUseable - Contained */
+     , (45327,  19,        100) /* Value */
+     , (45327,  65,        101) /* Placement - Resting */
+     , (45327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (45327,   1, False) /* Stuck */
+     , (45327,  11, True ) /* IgnoreCollisions */
+     , (45327,  13, True ) /* Ethereal */
+     , (45327,  14, True ) /* GravityStatus */
+     , (45327,  19, True ) /* Attackable */
+     , (45327,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (45327,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (45327,   1, 'Scroll of Shield Mastery Self IV') /* Name */
+     , (45327,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (45327,  16, 'Inscribed spell: Shield Mastery Self IV
+Increases the caster''s Shield skill by 25 points.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (45327,   1,   33554826) /* Setup */
+     , (45327,   8,  100692252) /* Icon */
+     , (45327,  22,  872415275) /* PhysicsEffectTable */
+     , (45327,  28,       5854) /* Spell */
+     , (45327, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
+     , (45327, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (45327, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (45327,   2, 3624079268) /* Container */
+     , (45327, 8000, 3623650803) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (45327,  5854,      2) ;

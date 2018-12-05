@@ -1,0 +1,44 @@
+DELETE FROM `weenie` WHERE `class_Id` = 44906;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (44906, 'ace44906-contractforthemissingnecklace', 38) /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (44906,   1,       2048) /* ItemType - Gem */
+     , (44906,  11,          1) /* MaxStackSize */
+     , (44906,  12,          1) /* StackSize */
+     , (44906,  16,          8) /* ItemUseable - Contained */
+     , (44906,  18,          2) /* UiEffects - Poisoned */
+     , (44906,  19,        100) /* Value */
+     , (44906,  65,        101) /* Placement - Resting */
+     , (44906,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (44906,  94,         16) /* TargetType - Creature */
+     , (44906, 280,        100) /* SharedCooldown */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (44906,   1, False) /* Stuck */
+     , (44906,  11, True ) /* IgnoreCollisions */
+     , (44906,  13, True ) /* Ethereal */
+     , (44906,  14, True ) /* GravityStatus */
+     , (44906,  19, True ) /* Attackable */
+     , (44906,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (44906, 167,       2) /* CooldownDuration */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (44906,   1, 'Contract for The Missing Necklace') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (44906,   1,   33554773) /* Setup */
+     , (44906,   3,  536870932) /* SoundTable */
+     , (44906,   8,  100691929) /* Icon */
+     , (44906,  22,  872415275) /* PhysicsEffectTable */
+     , (44906, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
+     , (44906, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
+     , (44906, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
+     , (44906, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (44906,   2, 1344175085) /* Container */
+     , (44906, 8000, 3622606185) /* PCAPRecordedObjectIID */;

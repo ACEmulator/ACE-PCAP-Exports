@@ -1,0 +1,144 @@
+DELETE FROM `weenie` WHERE `class_Id` = 30590;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (30590, 'maceflangedfrost', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (30590,   1,          1) /* ItemType - MeleeWeapon */
+     , (30590,   5,        492) /* EncumbranceVal */
+     , (30590,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (30590,  16,          1) /* ItemUseable - No */
+     , (30590,  18,        129) /* UiEffects - Magical, Frost */
+     , (30590,  19,       4698) /* Value */
+     , (30590,  28,        240) /* ArmorLevel */
+     , (30590,  44,         40) /* Damage */
+     , (30590,  45,          8) /* DamageType - Cold */
+     , (30590,  47,          4) /* AttackType - Slash */
+     , (30590,  48,         44) /* WeaponSkill - HeavyWeapons */
+     , (30590,  49,         34) /* WeaponTime */
+     , (30590,  51,          1) /* CombatUse - Melee */
+     , (30590,  65,        101) /* Placement - Resting */
+     , (30590,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30590, 105,          7) /* ItemWorkmanship */
+     , (30590, 106,        267) /* ItemSpellcraft */
+     , (30590, 107,        817) /* ItemCurMana */
+     , (30590, 108,        817) /* ItemMaxMana */
+     , (30590, 109,         73) /* ItemDifficulty */
+     , (30590, 110,          0) /* ItemAllegianceRankLimit */
+     , (30590, 115,        287) /* ItemSkillLevelLimit */
+     , (30590, 131,         63) /* MaterialType - Silver */
+     , (30590, 151,          2) /* HookType - Wall */
+     , (30590, 158,          2) /* WieldRequirements - RawSkill */
+     , (30590, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (30590, 160,        325) /* WieldDifficulty */
+     , (30590, 172,          5) /* AppraisalLongDescDecoration */
+     , (30590, 176,         44) /* AppraisalItemSkill */
+     , (30590, 177,          3) /* GemCount */
+     , (30590, 178,         49) /* GemType */
+     , (30590, 353,          4) /* WeaponType - Mace */
+     , (30590, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (30590,   1, False) /* Stuck */
+     , (30590,  11, True ) /* IgnoreCollisions */
+     , (30590,  13, True ) /* Ethereal */
+     , (30590,  14, True ) /* GravityStatus */
+     , (30590,  19, True ) /* Attackable */
+     , (30590,  22, True ) /* Inscribable */
+     , (30590, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30590,   5, -0.0555555555555556) /* ManaRate */
+     , (30590,  13, 1.29999995231628) /* ArmorModVsSlash */
+     , (30590,  14,       1) /* ArmorModVsPierce */
+     , (30590,  15,       1) /* ArmorModVsBludgeon */
+     , (30590,  16, 0.400000005960464) /* ArmorModVsCold */
+     , (30590,  17, 0.400000005960464) /* ArmorModVsFire */
+     , (30590,  18, 0.600000023841858) /* ArmorModVsAcid */
+     , (30590,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (30590,  21,       0) /* WeaponLength */
+     , (30590,  22,    0.37) /* DamageVariance */
+     , (30590,  26,       0) /* MaximumVelocity */
+     , (30590,  29,    1.15) /* WeaponDefense */
+     , (30590,  62,    1.09) /* WeaponOffense */
+     , (30590,  63,       1) /* DamageMod */
+     , (30590, 149,   1.015) /* WeaponMissileDefense */
+     , (30590, 150,   1.025) /* WeaponMagicDefense */
+     , (30590, 165,       1) /* ArmorModVsNether */
+     , (30590, 8004,       7) /* PCAPRecordedWorkmanship */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30590,   1, 'Frost Flanged Mace') /* Name */
+     , (30590,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (30590,  16, 'Frost Flanged Mace of Blood Drinker') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30590,   1,   33559476) /* Setup */
+     , (30590,   3,  536870932) /* SoundTable */
+     , (30590,   6,   67115559) /* PaletteBase */
+     , (30590,   8,  100686975) /* Icon */
+     , (30590,  22,  872415275) /* PhysicsEffectTable */
+     , (30590, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
+     , (30590, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (30590, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (30590,   2, 1980006465) /* Container */
+     , (30590, 8000, 3469253846) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (30590,    35,      2) 
+     , (30590,   472,      2) 
+     , (30590,  1378,      2) 
+     , (30590,  1401,      2) 
+     , (30590,  1485,      2) 
+     , (30590,  1562,      2) 
+     , (30590,  1592,      2) 
+     , (30590,  1599,      2) 
+     , (30590,  1604,      2) 
+     , (30590,  1605,      2) 
+     , (30590,  1613,      2) 
+     , (30590,  1614,      2) 
+     , (30590,  1615,      2) 
+     , (30590,  1616,      2) 
+     , (30590,  1623,      2) 
+     , (30590,  1624,      2) 
+     , (30590,  1626,      2) 
+     , (30590,  2059,      2) 
+     , (30590,  2061,      2) 
+     , (30590,  2081,      2) 
+     , (30590,  2096,      2) 
+     , (30590,  2101,      2) 
+     , (30590,  2106,      2) 
+     , (30590,  2108,      2) 
+     , (30590,  2116,      2) 
+     , (30590,  2506,      2) 
+     , (30590,  2515,      2) 
+     , (30590,  2527,      2) 
+     , (30590,  2550,      2) 
+     , (30590,  2559,      2) 
+     , (30590,  2566,      2) 
+     , (30590,  2571,      2) 
+     , (30590,  2588,      2) 
+     , (30590,  2600,      2) 
+     , (30590,  2608,      2) 
+     , (30590,  2609,      2) 
+     , (30590,  2621,      2) 
+     , (30590,  3965,      2) 
+     , (30590,  4319,      2) 
+     , (30590,  4696,      2) 
+     , (30590,  5769,      2) 
+     , (30590,  5879,      2) 
+     , (30590,  5880,      2) 
+     , (30590,  5882,      2) 
+     , (30590,  5888,      2) 
+     , (30590,  6104,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (30590, 67116398, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (30590, 0, 83896666, 83896666);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (30590, 0, 16791841);

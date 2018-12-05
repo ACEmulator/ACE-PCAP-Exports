@@ -1,0 +1,85 @@
+DELETE FROM `weenie` WHERE `class_Id` = 45360;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (45360, 'ace45360-roguescrystal', 38) /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (45360,   1,       2048) /* ItemType - Gem */
+     , (45360,   5,          5) /* EncumbranceVal */
+     , (45360,  11,        100) /* MaxStackSize */
+     , (45360,  12,          1) /* StackSize */
+     , (45360,  16,          8) /* ItemUseable - Contained */
+     , (45360,  17,          7) /* RareId */
+     , (45360,  18,          1) /* UiEffects - Magical */
+     , (45360,  19,          0) /* Value */
+     , (45360,  28,        425) /* ArmorLevel */
+     , (45360,  33,         -1) /* Bonded - Slippery */
+     , (45360,  36,       9999) /* ResistMagic */
+     , (45360,  65,        101) /* Placement - Resting */
+     , (45360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45360,  94,         16) /* TargetType - Creature */
+     , (45360, 105,          5) /* ItemWorkmanship */
+     , (45360, 106,        325) /* ItemSpellcraft */
+     , (45360, 107,      10000) /* ItemCurMana */
+     , (45360, 108,      10000) /* ItemMaxMana */
+     , (45360, 109,          0) /* ItemDifficulty */
+     , (45360, 131,         63) /* MaterialType - Silver */
+     , (45360, 151,         11) /* HookType - Floor, Wall, Yard */
+     , (45360, 158,          2) /* WieldRequirements - RawSkill */
+     , (45360, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (45360, 160,        350) /* WieldDifficulty */
+     , (45360, 172,          1) /* AppraisalLongDescDecoration */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (45360,   1, False) /* Stuck */
+     , (45360,  11, True ) /* IgnoreCollisions */
+     , (45360,  13, True ) /* Ethereal */
+     , (45360,  14, True ) /* GravityStatus */
+     , (45360,  19, True ) /* Attackable */
+     , (45360, 100, True ) /* Dyable */
+     , (45360, 108, True ) /* RareUsesTimer */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (45360,  13,     1.5) /* ArmorModVsSlash */
+     , (45360,  14, 1.29999995231628) /* ArmorModVsPierce */
+     , (45360,  15, 1.29999995231628) /* ArmorModVsBludgeon */
+     , (45360,  16, 0.800000011920929) /* ArmorModVsCold */
+     , (45360,  17, 0.800000011920929) /* ArmorModVsFire */
+     , (45360,  18,       1) /* ArmorModVsAcid */
+     , (45360,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (45360, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (45360,   1, 'Rogue''s Crystal') /* Name */
+     , (45360,  16, 'Using this gem will increase your Sneak Attack skill by 250 for 15 minutes.') /* LongDesc */
+     , (45360,  20, 'Rogue''s Crystals') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (45360,   1,   33554809) /* Setup */
+     , (45360,   3,  536870932) /* SoundTable */
+     , (45360,   6,   67111919) /* PaletteBase */
+     , (45360,   8,  100686697) /* Icon */
+     , (45360,  22,  872415275) /* PhysicsEffectTable */
+     , (45360,  28,       5909) /* Spell */
+     , (45360,  50,  100692247) /* IconOverlay */
+     , (45360,  52,  100686604) /* IconUnderlay */
+     , (45360, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
+     , (45360, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
+     , (45360, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
+     , (45360, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (45360,   2, 1342946741) /* Container */
+     , (45360, 8000, 2618466337) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (45360,  5909,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (45360, 67111919, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (45360, 0, 83890391, 83890391);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (45360, 0, 16779181);

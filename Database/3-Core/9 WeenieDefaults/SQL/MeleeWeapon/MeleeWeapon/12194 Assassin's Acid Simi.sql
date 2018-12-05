@@ -1,0 +1,60 @@
+DELETE FROM `weenie` WHERE `class_Id` = 12194;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (12194, 'simiacidbanditzharalim', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (12194,   1,          1) /* ItemType - MeleeWeapon */
+     , (12194,   5,        400) /* EncumbranceVal */
+     , (12194,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12194,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
+     , (12194,  16,          1) /* ItemUseable - No */
+     , (12194,  18,        256) /* UiEffects - Acid */
+     , (12194,  19,        160) /* Value */
+     , (12194,  51,          1) /* CombatUse - Melee */
+     , (12194,  65,          1) /* Placement - RightHandCombat */
+     , (12194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12194, 105,          8) /* ItemWorkmanship */
+     , (12194, 106,        200) /* ItemSpellcraft */
+     , (12194, 107,        534) /* ItemCurMana */
+     , (12194, 108,        534) /* ItemMaxMana */
+     , (12194, 109,          0) /* ItemDifficulty */
+     , (12194, 110,          0) /* ItemAllegianceRankLimit */
+     , (12194, 115,          0) /* ItemSkillLevelLimit */
+     , (12194, 117,        300) /* ItemManaCost */
+     , (12194, 131,         13) /* MaterialType - Aquamarine */
+     , (12194, 172,          1) /* AppraisalLongDescDecoration */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (12194,   1, False) /* Stuck */
+     , (12194,  11, True ) /* IgnoreCollisions */
+     , (12194,  13, True ) /* Ethereal */
+     , (12194,  14, True ) /* GravityStatus */
+     , (12194,  19, True ) /* Attackable */
+     , (12194,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12194,   1, 'Assassin''s Acid Simi') /* Name */
+     , (12194,  16, 'Killed by Mag-lite.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12194,   1,   33555775) /* Setup */
+     , (12194,   3,  536870932) /* SoundTable */
+     , (12194,   8,  100668996) /* Icon */
+     , (12194,  22,  872415275) /* PhysicsEffectTable */
+     , (12194, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
+     , (12194, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (12194, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
+     , (12194, 8009,          1);
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (12194, 8040, 1682571675, 139.7822, -62.26942, -36.071, 0.5933985, 0.5933985, -0.3845495, -0.3845495) /* PCAPRecordedLocation */
+/* @teleloc 0x644A019B [139.782200 -62.269420 -36.071000] 0.593399 0.593399 -0.384550 -0.384550 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (12194,   3, 2881363475) /* Wielder */
+     , (12194, 8000, 2881363472) /* PCAPRecordedObjectIID */
+     , (12194, 8008, 2881363475) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (12194,   192,      2) ;

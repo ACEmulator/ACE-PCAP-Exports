@@ -1,0 +1,40 @@
+DELETE FROM `weenie` WHERE `class_Id` = 37451;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (37451, 'ace37451-extralargetaintedegg', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (37451,   1,        128) /* ItemType - Misc */
+     , (37451,   5,         30) /* EncumbranceVal */
+     , (37451,  16,          1) /* ItemUseable - No */
+     , (37451,  18,          1) /* UiEffects - Magical */
+     , (37451,  19,          0) /* Value */
+     , (37451,  33,          1) /* Bonded - Bonded */
+     , (37451,  65,        101) /* Placement - Resting */
+     , (37451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (37451, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37451,   1, False) /* Stuck */
+     , (37451,  11, True ) /* IgnoreCollisions */
+     , (37451,  13, True ) /* Ethereal */
+     , (37451,  14, True ) /* GravityStatus */
+     , (37451,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (37451,   1, 'Extra Large Tainted Egg') /* Name */
+     , (37451,  14, 'Bring this egg to an expert in the closest settlement.') /* Use */
+     , (37451,  16, 'This egg''s shell oozes with an oily, film-like substance which causes the egg to appear gray, almost black.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (37451,   1,   33554817) /* Setup */
+     , (37451,   3,  536870932) /* SoundTable */
+     , (37451,   8,  100689466) /* Icon */
+     , (37451,  22,  872415275) /* PhysicsEffectTable */
+     , (37451, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
+     , (37451, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
+     , (37451, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (37451,   2, 2235657140) /* Container */
+     , (37451, 8000, 2215935923) /* PCAPRecordedObjectIID */;

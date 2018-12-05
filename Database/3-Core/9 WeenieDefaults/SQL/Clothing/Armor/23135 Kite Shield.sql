@@ -1,0 +1,72 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23135;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (23135, 'shieldkitevod', 2) /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (23135,   1,          2) /* ItemType - Armor */
+     , (23135,   5,        690) /* EncumbranceVal */
+     , (23135,   9,    2097152) /* ValidLocations - Shield */
+     , (23135,  10,    2097152) /* CurrentWieldedLocation - Shield */
+     , (23135,  16,          1) /* ItemUseable - No */
+     , (23135,  19,        120) /* Value */
+     , (23135,  51,          4) /* CombatUse - Shield */
+     , (23135,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23135, 105,          7) /* ItemWorkmanship */
+     , (23135, 106,        217) /* ItemSpellcraft */
+     , (23135, 107,       2001) /* ItemCurMana */
+     , (23135, 108,       2001) /* ItemMaxMana */
+     , (23135, 109,        225) /* ItemDifficulty */
+     , (23135, 110,          0) /* ItemAllegianceRankLimit */
+     , (23135, 115,          0) /* ItemSkillLevelLimit */
+     , (23135, 131,         64) /* MaterialType - Steel */
+     , (23135, 172,          1) /* AppraisalLongDescDecoration */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23135,   1, False) /* Stuck */
+     , (23135,  11, True ) /* IgnoreCollisions */
+     , (23135,  13, True ) /* Ethereal */
+     , (23135,  14, True ) /* GravityStatus */
+     , (23135,  19, True ) /* Attackable */
+     , (23135,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23135,   5,   -0.05) /* ManaRate */
+     , (23135,  39,    0.75) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23135,   1, 'Kite Shield') /* Name */
+     , (23135,  16, 'Ring of Fire Protection') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23135,   1,   33554788) /* Setup */
+     , (23135,   3,  536870932) /* SoundTable */
+     , (23135,   6,   67111919) /* PaletteBase */
+     , (23135,   8,  100668582) /* Icon */
+     , (23135,  22,  872415275) /* PhysicsEffectTable */
+     , (23135, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
+     , (23135, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (23135, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
+     , (23135, 8009,          3);
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (23135, 8040, 692650004, 52.25676, 78.94958, 0.2870095, 0.3380612, -0.5658239, -0.6243613, -0.4192026) /* PCAPRecordedLocation */
+/* @teleloc 0x29490014 [52.256760 78.949580 0.287010] 0.338061 -0.565824 -0.624361 -0.419203 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (23135,   3, 3690605074) /* Wielder */
+     , (23135, 8000, 3690605085) /* PCAPRecordedObjectIID */
+     , (23135, 8008, 3690605074) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (23135,  1093,      2) 
+     , (23135,  5427,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (23135, 67111919, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (23135, 0, 83890141, 83890141);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (23135, 0, 16777989);

@@ -1,0 +1,42 @@
+DELETE FROM `weenie` WHERE `class_Id` = 12227;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (12227, 'applecandy', 18) /* Food */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (12227,   1,         32) /* ItemType - Food */
+     , (12227,   5,        150) /* EncumbranceVal */
+     , (12227,  11,        100) /* MaxStackSize */
+     , (12227,  12,          3) /* StackSize */
+     , (12227,  16,          8) /* ItemUseable - Contained */
+     , (12227,  19,         60) /* Value */
+     , (12227,  65,        101) /* Placement - Resting */
+     , (12227,  89,          4) /* BoosterEnum - Stamina */
+     , (12227,  90,         15) /* BoostValue */
+     , (12227,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (12227,   1, False) /* Stuck */
+     , (12227,  11, True ) /* IgnoreCollisions */
+     , (12227,  13, True ) /* Ethereal */
+     , (12227,  14, True ) /* GravityStatus */
+     , (12227,  19, True ) /* Attackable */
+     , (12227,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12227,   1, 'Candied Apple') /* Name */
+     , (12227,  14, 'Use this item to eat it.') /* Use */
+     , (12227,  15, 'An apple coated with sticky, sweet monougat.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12227,   1,   33557383) /* Setup */
+     , (12227,   3,  536870932) /* SoundTable */
+     , (12227,   8,  100672207) /* Icon */
+     , (12227,  22,  872415275) /* PhysicsEffectTable */
+     , (12227, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
+     , (12227, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
+     , (12227, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (12227,   2, 1342781240) /* Container */
+     , (12227, 8000, 2192139781) /* PCAPRecordedObjectIID */;

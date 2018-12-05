@@ -1,0 +1,54 @@
+DELETE FROM `weenie` WHERE `class_Id` = 51713;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (51713, 'ace51713-spiritslayer', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (51713,   1,         16) /* ItemType - Creature */
+     , (51713,   2,         19) /* CreatureType - Virindi */
+     , (51713,   6,        255) /* ItemsCapacity */
+     , (51713,   7,        255) /* ContainersCapacity */
+     , (51713,  16,          1) /* ItemUseable - No */
+     , (51713,  25,        265) /* Level */
+     , (51713,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (51713, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (51713, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (51713,   1, True ) /* Stuck */
+     , (51713,  12, True ) /* ReportCollisions */
+     , (51713,  13, False) /* Ethereal */
+     , (51713,  14, True ) /* GravityStatus */
+     , (51713,  19, True ) /* Attackable */
+     , (51713,  42, True ) /* AllowEdgeSlide */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (51713,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (51713,   1, 'Spirit Slayer') /* Name */
+     , (51713, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (51713,   1,   33561547) /* Setup */
+     , (51713,   2,  150995487) /* MotionTable */
+     , (51713,   3,  536870930) /* SoundTable */
+     , (51713,   6,   67111346) /* PaletteBase */
+     , (51713,   8,  100667943) /* Icon */
+     , (51713,  22,  872415273) /* PhysicsEffectTable */
+     , (51713, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (51713, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (51713, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (51713, 8040, 1484260141, 340, -415.396, 0.02899998, 0, 0, 0, -1) /* PCAPRecordedLocation */
+/* @teleloc 0x5878032D [340.000000 -415.396000 0.029000] 0.000000 0.000000 0.000000 -1.000000 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (51713, 8000, 3632946542) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (51713,   1,  7350, 0, 0, 7350) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (51713, 67113828, 0, 0);

@@ -1,0 +1,39 @@
+DELETE FROM `weenie` WHERE `class_Id` = 37845;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (37845, 'ace37845-inscriptionofleadershipineptitudeother', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (37845,   1,       8192) /* ItemType - Writable */
+     , (37845,   5,         30) /* EncumbranceVal */
+     , (37845,  16,          8) /* ItemUseable - Contained */
+     , (37845,  19,      60000) /* Value */
+     , (37845,  65,        101) /* Placement - Resting */
+     , (37845,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37845,   1, False) /* Stuck */
+     , (37845,  11, True ) /* IgnoreCollisions */
+     , (37845,  13, True ) /* Ethereal */
+     , (37845,  14, True ) /* GravityStatus */
+     , (37845,  19, True ) /* Attackable */
+     , (37845,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (37845,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (37845,   1, 'Inscription of Leadership Ineptitude Other') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (37845,   1,   33554826) /* Setup */
+     , (37845,   8,  100676446) /* Icon */
+     , (37845,  22,  872415275) /* PhysicsEffectTable */
+     , (37845,  28,       4575) /* Spell */
+     , (37845, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
+     , (37845, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (37845, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (37845,   2, 1344029443) /* Container */
+     , (37845, 8000, 3422560523) /* PCAPRecordedObjectIID */;

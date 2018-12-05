@@ -1,0 +1,71 @@
+DELETE FROM `weenie` WHERE `class_Id` = 34820;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (34820, 'ace34820-shiruuk', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (34820,   1,         16) /* ItemType - Creature */
+     , (34820,   2,         75) /* CreatureType - Burun */
+     , (34820,   6,        255) /* ItemsCapacity */
+     , (34820,   7,        255) /* ContainersCapacity */
+     , (34820,  16,         32) /* ItemUseable - Remote */
+     , (34820,  25,         60) /* Level */
+     , (34820,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (34820,  95,          8) /* RadarBlipColor - Yellow */
+     , (34820, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (34820, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (34820, 307,          5) /* DamageRating */
+     , (34820, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (34820,   1, True ) /* Stuck */
+     , (34820,  11, True ) /* IgnoreCollisions */
+     , (34820,  12, True ) /* ReportCollisions */
+     , (34820,  13, False) /* Ethereal */
+     , (34820,  14, True ) /* GravityStatus */
+     , (34820,  19, False) /* Attackable */
+     , (34820,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (34820,  42, True ) /* AllowEdgeSlide */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (34820,  39, 1.12000000476837) /* DefaultScale */
+     , (34820,  54,       3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (34820,   1, 'Shiruuk') /* Name */
+     , (34820,   5, 'Basher Slasher') /* Template */
+     , (34820, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (34820,   1,   33558582) /* Setup */
+     , (34820,   2,  150995272) /* MotionTable */
+     , (34820,   3,  536871083) /* SoundTable */
+     , (34820,   6,   67114919) /* PaletteBase */
+     , (34820,   8,  100675761) /* Icon */
+     , (34820,  22,  872415402) /* PhysicsEffectTable */
+     , (34820, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
+     , (34820, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
+     , (34820, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (34820, 8040, 10224016, 330.461, -67.2257, -23.96411, -0.03988102, 0, 0, -0.9992045) /* PCAPRecordedLocation */
+/* @teleloc 0x009C0190 [330.461000 -67.225700 -23.964110] -0.039881 0.000000 0.000000 -0.999205 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (34820, 8000, 3708766533) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (34820,   1, 200, 0, 0) /* Strength */
+     , (34820,   2, 260, 0, 0) /* Endurance */
+     , (34820,   3, 320, 0, 0) /* Quickness */
+     , (34820,   4, 140, 0, 0) /* Coordination */
+     , (34820,   5, 100, 0, 0) /* Focus */
+     , (34820,   6, 100, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (34820,   1,   280, 0, 0, 280) /* MaxHealth */
+     , (34820,   3,   420, 0, 0, 420) /* MaxStamina */
+     , (34820,   5,   100, 0, 0, 100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (34820, 67114920, 0, 0);

@@ -1,0 +1,72 @@
+DELETE FROM `weenie` WHERE `class_Id` = 27451;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (27451, 'clawgibbering', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (27451,   1,          1) /* ItemType - MeleeWeapon */
+     , (27451,   5,        115) /* EncumbranceVal */
+     , (27451,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (27451,  16,          1) /* ItemUseable - No */
+     , (27451,  18,          1) /* UiEffects - Magical */
+     , (27451,  19,       4000) /* Value */
+     , (27451,  44,         48) /* Damage */
+     , (27451,  45,         32) /* DamageType - Acid */
+     , (27451,  47,          1) /* AttackType - Punch */
+     , (27451,  48,         46) /* WeaponSkill - FinesseWeapons */
+     , (27451,  49,         10) /* WeaponTime */
+     , (27451,  51,          1) /* CombatUse - Melee */
+     , (27451,  65,        101) /* Placement - Resting */
+     , (27451,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27451, 106,        300) /* ItemSpellcraft */
+     , (27451, 107,        800) /* ItemCurMana */
+     , (27451, 108,        800) /* ItemMaxMana */
+     , (27451, 109,        150) /* ItemDifficulty */
+     , (27451, 151,          2) /* HookType - Wall */
+     , (27451, 158,          2) /* WieldRequirements - RawSkill */
+     , (27451, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (27451, 160,        350) /* WieldDifficulty */
+     , (27451, 353,          1) /* WeaponType - Unarmed */
+     , (27451, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (27451,   1, False) /* Stuck */
+     , (27451,  11, True ) /* IgnoreCollisions */
+     , (27451,  13, True ) /* Ethereal */
+     , (27451,  14, True ) /* GravityStatus */
+     , (27451,  19, True ) /* Attackable */
+     , (27451,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27451,   5,   -0.05) /* ManaRate */
+     , (27451,  21,       0) /* WeaponLength */
+     , (27451,  22,     0.5) /* DamageVariance */
+     , (27451,  26,       0) /* MaximumVelocity */
+     , (27451,  29,    1.11) /* WeaponDefense */
+     , (27451,  62,    1.08) /* WeaponOffense */
+     , (27451,  63,       1) /* DamageMod */
+     , (27451, 136,       1) /* CriticalMultiplier */
+     , (27451, 147,       1) /* CriticalFrequency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27451,   1, 'Gibbering Claw') /* Name */
+     , (27451,  16, 'The malformed claw of the Gibbering. Its talons look extremely sharp.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27451,   1,   33558689) /* Setup */
+     , (27451,   3,  536870932) /* SoundTable */
+     , (27451,   8,  100676421) /* Icon */
+     , (27451,  22,  872415275) /* PhysicsEffectTable */
+     , (27451, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
+     , (27451, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (27451, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (27451,   2, 1342979993) /* Container */
+     , (27451, 8000, 2401430749) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (27451,  1591,      2) 
+     , (27451,  1604,      2) 
+     , (27451,  1616,      2) 
+     , (27451,  1624,      2) ;

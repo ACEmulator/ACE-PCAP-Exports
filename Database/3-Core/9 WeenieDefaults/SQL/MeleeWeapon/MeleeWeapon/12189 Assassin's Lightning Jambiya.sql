@@ -1,0 +1,63 @@
+DELETE FROM `weenie` WHERE `class_Id` = 12189;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (12189, 'jambiyaelectricbanditzharalim', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (12189,   1,          1) /* ItemType - MeleeWeapon */
+     , (12189,   2,         38) /* CreatureType - FireElemental */
+     , (12189,   5,         30) /* EncumbranceVal */
+     , (12189,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (12189,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
+     , (12189,  16,          1) /* ItemUseable - No */
+     , (12189,  18,         64) /* UiEffects - Lightning */
+     , (12189,  19,         75) /* Value */
+     , (12189,  25,         20) /* Level */
+     , (12189,  51,          1) /* CombatUse - Melee */
+     , (12189,  65,          1) /* Placement - RightHandCombat */
+     , (12189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (12189, 307,          2) /* DamageRating */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (12189,   1, False) /* Stuck */
+     , (12189,  11, True ) /* IgnoreCollisions */
+     , (12189,  13, True ) /* Ethereal */
+     , (12189,  14, True ) /* GravityStatus */
+     , (12189,  19, True ) /* Attackable */
+     , (12189,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (12189,   1, 'Assassin''s Lightning Jambiya') /* Name */
+     , (12189,  16, 'Killed by Mag-lite.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (12189,   1,   33555728) /* Setup */
+     , (12189,   3,  536870932) /* SoundTable */
+     , (12189,   8,  100667592) /* Icon */
+     , (12189,  22,  872415275) /* PhysicsEffectTable */
+     , (12189, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
+     , (12189, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (12189, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
+     , (12189, 8009,          1);
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (12189, 8040, 432275514, 173.8327, 44.86901, 23.44384, 0.5980631, 0.5980631, -0.3772539, -0.3772539) /* PCAPRecordedLocation */
+/* @teleloc 0x19C4003A [173.832700 44.869010 23.443840] 0.598063 0.598063 -0.377254 -0.377254 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (12189,   3, 3706906886) /* Wielder */
+     , (12189, 8000, 3706906889) /* PCAPRecordedObjectIID */
+     , (12189, 8008, 3706906886) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (12189,   1,  60, 0, 0) /* Strength */
+     , (12189,   2,  80, 0, 0) /* Endurance */
+     , (12189,   3,  80, 0, 0) /* Quickness */
+     , (12189,   4,  80, 0, 0) /* Coordination */
+     , (12189,   5,  80, 0, 0) /* Focus */
+     , (12189,   6, 100, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (12189,   1,    70, 0, 0, 70) /* MaxHealth */
+     , (12189,   3,   180, 0, 0, 180) /* MaxStamina */
+     , (12189,   5,   180, 0, 0, 180) /* MaxMana */;

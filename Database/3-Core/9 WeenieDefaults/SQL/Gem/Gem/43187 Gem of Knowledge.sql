@@ -1,0 +1,39 @@
+DELETE FROM `weenie` WHERE `class_Id` = 43187;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (43187, 'ace43187-gemofknowledge', 38) /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (43187,   1,       2048) /* ItemType - Gem */
+     , (43187,   5,         50) /* EncumbranceVal */
+     , (43187,  11,         10) /* MaxStackSize */
+     , (43187,  12,          1) /* StackSize */
+     , (43187,  16,          1) /* ItemUseable - No */
+     , (43187,  19,          2) /* Value */
+     , (43187,  65,        101) /* Placement - Resting */
+     , (43187,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43187,   1, False) /* Stuck */
+     , (43187,  11, True ) /* IgnoreCollisions */
+     , (43187,  13, True ) /* Ethereal */
+     , (43187,  14, True ) /* GravityStatus */
+     , (43187,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (43187,   1, 'Gem of Knowledge') /* Name */
+     , (43187,  14, 'Turn this gem into an Agent of the Arcanum to be granted three million experience.') /* Use */
+     , (43187,  20, 'Gems of Knowledge') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (43187,   1,   33554809) /* Setup */
+     , (43187,   3,  536870932) /* SoundTable */
+     , (43187,   8,  100689653) /* Icon */
+     , (43187,  22,  872415275) /* PhysicsEffectTable */
+     , (43187, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
+     , (43187, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
+     , (43187, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (43187,   2, 1343193128) /* Container */
+     , (43187, 8000, 2884607837) /* PCAPRecordedObjectIID */;

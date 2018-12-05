@@ -1,0 +1,61 @@
+DELETE FROM `weenie` WHERE `class_Id` = 45930;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (45930, 'ace45930-seasonedexplorertrident', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (45930,   1,          1) /* ItemType - MeleeWeapon */
+     , (45930,   5,        200) /* EncumbranceVal */
+     , (45930,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (45930,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
+     , (45930,  16,          1) /* ItemUseable - No */
+     , (45930,  19,        100) /* Value */
+     , (45930,  51,          1) /* CombatUse - Melee */
+     , (45930,  65,          1) /* Placement - RightHandCombat */
+     , (45930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45930, 151,          2) /* HookType - Wall */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (45930,   1, False) /* Stuck */
+     , (45930,  11, True ) /* IgnoreCollisions */
+     , (45930,  13, True ) /* Ethereal */
+     , (45930,  14, True ) /* GravityStatus */
+     , (45930,  19, True ) /* Attackable */
+     , (45930,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (45930,  39, 1.20000004768372) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (45930,   1, 'Seasoned Explorer Trident') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (45930,   1,   33556641) /* Setup */
+     , (45930,   3,  536870932) /* SoundTable */
+     , (45930,   6,   67111919) /* PaletteBase */
+     , (45930,   8,  100670792) /* Icon */
+     , (45930,  22,  872415275) /* PhysicsEffectTable */
+     , (45930, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
+     , (45930, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (45930, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
+     , (45930, 8009,          1);
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (45930, 8040, 2847146009, 83.23038, 11.16368, 93.92901, 0.6530247, 0.6530247, -0.2712171, -0.2712171) /* PCAPRecordedLocation */
+/* @teleloc 0xA9B40019 [83.230380 11.163680 93.929010] 0.653025 0.653025 -0.271217 -0.271217 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (45930,   3, 1343357324) /* Wielder */
+     , (45930, 8000, 3350362581) /* PCAPRecordedObjectIID */
+     , (45930, 8008, 1343357324) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (45930, 67111922, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (45930, 0, 83889235, 83889235)
+     , (45930, 0, 83886709, 83886709)
+     , (45930, 0, 83888778, 83888778);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (45930, 0, 16784608);

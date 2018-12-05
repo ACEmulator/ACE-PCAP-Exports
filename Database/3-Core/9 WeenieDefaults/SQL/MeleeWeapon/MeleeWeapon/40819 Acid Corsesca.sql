@@ -1,0 +1,235 @@
+DELETE FROM `weenie` WHERE `class_Id` = 40819;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (40819, 'ace40819-acidcorsesca', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (40819,   1,          1) /* ItemType - MeleeWeapon */
+     , (40819,   2,          4) /* CreatureType - Mosswart */
+     , (40819,   5,        515) /* EncumbranceVal */
+     , (40819,   9,   33554432) /* ValidLocations - TwoHanded */
+     , (40819,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
+     , (40819,  16,          1) /* ItemUseable - No */
+     , (40819,  18,        257) /* UiEffects - Magical, Acid */
+     , (40819,  19,      13049) /* Value */
+     , (40819,  25,        175) /* Level */
+     , (40819,  28,          0) /* ArmorLevel */
+     , (40819,  33,          0) /* Bonded - Normal */
+     , (40819,  36,       9999) /* ResistMagic */
+     , (40819,  44,         22) /* Damage */
+     , (40819,  45,         32) /* DamageType - Acid */
+     , (40819,  47,          2) /* AttackType - Thrust */
+     , (40819,  48,         41) /* WeaponSkill - TwoHandedCombat */
+     , (40819,  49,         50) /* WeaponTime */
+     , (40819,  51,          5) /* CombatUse - TwoHanded */
+     , (40819,  91,         50) /* MaxStructure */
+     , (40819,  92,         50) /* Structure */
+     , (40819,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (40819, 105,          7) /* ItemWorkmanship */
+     , (40819, 106,        186) /* ItemSpellcraft */
+     , (40819, 107,        667) /* ItemCurMana */
+     , (40819, 108,        667) /* ItemMaxMana */
+     , (40819, 109,         51) /* ItemDifficulty */
+     , (40819, 110,          0) /* ItemAllegianceRankLimit */
+     , (40819, 114,          0) /* Attuned - Normal */
+     , (40819, 115,        206) /* ItemSkillLevelLimit */
+     , (40819, 131,         59) /* MaterialType - Copper */
+     , (40819, 151,          2) /* HookType - Wall */
+     , (40819, 158,          2) /* WieldRequirements - RawSkill */
+     , (40819, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (40819, 160,        300) /* WieldDifficulty */
+     , (40819, 172,          1) /* AppraisalLongDescDecoration */
+     , (40819, 176,         41) /* AppraisalItemSkill */
+     , (40819, 177,          2) /* GemCount */
+     , (40819, 178,         41) /* GemType */
+     , (40819, 265,         84) /* EquipmentSetId - CloakDirtyFighting */
+     , (40819, 280,        213) /* SharedCooldown */
+     , (40819, 307,          0) /* DamageRating */
+     , (40819, 308,          0) /* DamageResistRating */
+     , (40819, 313,          0) /* CritRating */
+     , (40819, 314,          0) /* CritDamageRating */
+     , (40819, 315,          0) /* CritResistRating */
+     , (40819, 316,          0) /* CritDamageResistRating */
+     , (40819, 319,          3) /* ItemMaxLevel */
+     , (40819, 320,          2) /* ItemXpStyle - ScalesWithLevel */
+     , (40819, 352,          1) /* CloakWeaveProc */
+     , (40819, 353,         11) /* WeaponType - TwoHanded */
+     , (40819, 366,         54) /* UseRequiresSkill */
+     , (40819, 367,        430) /* UseRequiresSkillLevel */
+     , (40819, 369,        115) /* UseRequiresLevel */
+     , (40819, 370,          0) /* GearDamage */
+     , (40819, 371,          0) /* GearDamageResist */
+     , (40819, 372,          0) /* GearCrit */
+     , (40819, 373,          0) /* GearCritResist */
+     , (40819, 374,          0) /* GearCritDamage */
+     , (40819, 375,          0) /* GearCritDamageResist */
+     , (40819, 376,          0) /* GearHealingBoost */
+     , (40819, 377,          0) /* GearNetherResist */
+     , (40819, 378,          0) /* GearLifeResist */
+     , (40819, 379,          0) /* GearMaxHealth */
+     , (40819, 381,          0) /* PKDamageRating */
+     , (40819, 382,          0) /* PKDamageResistRating */
+     , (40819, 383,          0) /* GearPKDamageRating */
+     , (40819, 384,          0) /* GearPKDamageResistRating */
+     , (40819, 386,          0) /* Overpower */
+     , (40819, 387,          0) /* OverpowerResist */
+     , (40819, 388,          0) /* GearOverpower */
+     , (40819, 389,          0) /* GearOverpowerResist */
+     , (40819, 8030,          0);
+
+INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
+VALUES (40819,   4,          0) /* ItemTotalXp */
+     , (40819,   5, 1000000000) /* ItemBaseXp */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (40819,   1, False) /* Stuck */
+     , (40819,  11, True ) /* IgnoreCollisions */
+     , (40819,  13, True ) /* Ethereal */
+     , (40819,  14, True ) /* GravityStatus */
+     , (40819,  19, True ) /* Attackable */
+     , (40819,  22, True ) /* Inscribable */
+     , (40819,  69, True ) /* IsSellable */
+     , (40819, 100, False) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (40819,   5, -0.0416666666666667) /* ManaRate */
+     , (40819,  13, 0.800000011920929) /* ArmorModVsSlash */
+     , (40819,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (40819,  15,       1) /* ArmorModVsBludgeon */
+     , (40819,  16, 0.200000002980232) /* ArmorModVsCold */
+     , (40819,  17, 0.200000002980232) /* ArmorModVsFire */
+     , (40819,  18, 0.100000001490116) /* ArmorModVsAcid */
+     , (40819,  19, 0.200000002980232) /* ArmorModVsElectric */
+     , (40819,  21,       0) /* WeaponLength */
+     , (40819,  22,    0.45) /* DamageVariance */
+     , (40819,  26,       0) /* MaximumVelocity */
+     , (40819,  29,    1.07) /* WeaponDefense */
+     , (40819,  62,    1.07) /* WeaponOffense */
+     , (40819,  63,       1) /* DamageMod */
+     , (40819, 144,    0.09) /* ManaConversionMod */
+     , (40819, 149,   1.005) /* WeaponMissileDefense */
+     , (40819, 150,    1.01) /* WeaponMagicDefense */
+     , (40819, 152,    1.05) /* ElementalDamageMod */
+     , (40819, 165,       1) /* ArmorModVsNether */
+     , (40819, 167,      45) /* CooldownDuration */
+     , (40819, 8004,       6) /* PCAPRecordedWorkmanship */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (40819,   1, 'Acid Corsesca') /* Name */
+     , (40819,  14, 'Use this bell to begin the battle.') /* Use */
+     , (40819,  16, 'Acid Corsesca of Blood Drinker') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (40819,   1,   33560791) /* Setup */
+     , (40819,   3,  536870932) /* SoundTable */
+     , (40819,   6,   67115560) /* PaletteBase */
+     , (40819,   8,  100690796) /* Icon */
+     , (40819,  22,  872415275) /* PhysicsEffectTable */
+     , (40819,  50,  100693329) /* IconOverlay */
+     , (40819,  52,  100676440) /* IconUnderlay */
+     , (40819,  55,       5753) /* ProcSpell */
+     , (40819, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
+     , (40819, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
+     , (40819, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
+     , (40819, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
+     , (40819, 8009,          1);
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (40819, 8040, 3332964380, 83.59009, 84.7763, 41.929, -0.2714225, -0.2714225, -0.6529394, -0.6529394) /* PCAPRecordedLocation */
+/* @teleloc 0xC6A9001C [83.590090 84.776300 41.929000] -0.271423 -0.271423 -0.652939 -0.652939 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (40819,   3, 1343488261) /* Wielder */
+     , (40819, 8000, 3376547182) /* PCAPRecordedObjectIID */
+     , (40819, 8008, 1343488261) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (40819,   1, 230, 0, 0) /* Strength */
+     , (40819,   2, 220, 0, 0) /* Endurance */
+     , (40819,   3, 200, 0, 0) /* Quickness */
+     , (40819,   4, 230, 0, 0) /* Coordination */
+     , (40819,   5, 220, 0, 0) /* Focus */
+     , (40819,   6, 220, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (40819,   1,  4110, 0, 0, 4110) /* MaxHealth */
+     , (40819,   3,  5220, 0, 0, 5220) /* MaxStamina */
+     , (40819,   5,  5775, 0, 0, 5775) /* MaxMana */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (40819,    35,      2) 
+     , (40819,    49,      2) 
+     , (40819,  1312,      2) 
+     , (40819,  1331,      2) 
+     , (40819,  1354,      2) 
+     , (40819,  1378,      2) 
+     , (40819,  1402,      2) 
+     , (40819,  1480,      2) 
+     , (40819,  1588,      2) 
+     , (40819,  1589,      2) 
+     , (40819,  1590,      2) 
+     , (40819,  1591,      2) 
+     , (40819,  1592,      2) 
+     , (40819,  1605,      2) 
+     , (40819,  1612,      2) 
+     , (40819,  1613,      2) 
+     , (40819,  1614,      2) 
+     , (40819,  1615,      2) 
+     , (40819,  1616,      2) 
+     , (40819,  1624,      2) 
+     , (40819,  1626,      2) 
+     , (40819,  1627,      2) 
+     , (40819,  2059,      2) 
+     , (40819,  2061,      2) 
+     , (40819,  2081,      2) 
+     , (40819,  2087,      2) 
+     , (40819,  2096,      2) 
+     , (40819,  2101,      2) 
+     , (40819,  2106,      2) 
+     , (40819,  2108,      2) 
+     , (40819,  2116,      2) 
+     , (40819,  2140,      2) 
+     , (40819,  2195,      2) 
+     , (40819,  2215,      2) 
+     , (40819,  2512,      2) 
+     , (40819,  2526,      2) 
+     , (40819,  2541,      2) 
+     , (40819,  2558,      2) 
+     , (40819,  2559,      2) 
+     , (40819,  2572,      2) 
+     , (40819,  2577,      2) 
+     , (40819,  2578,      2) 
+     , (40819,  2579,      2) 
+     , (40819,  2580,      2) 
+     , (40819,  2583,      2) 
+     , (40819,  2586,      2) 
+     , (40819,  2598,      2) 
+     , (40819,  2603,      2) 
+     , (40819,  2608,      2) 
+     , (40819,  2612,      2) 
+     , (40819,  2621,      2) 
+     , (40819,  2622,      2) 
+     , (40819,  3199,      2) 
+     , (40819,  3963,      2) 
+     , (40819,  4297,      2) 
+     , (40819,  4395,      2) 
+     , (40819,  4400,      2) 
+     , (40819,  4405,      2) 
+     , (40819,  4684,      2) 
+     , (40819,  4911,      2) 
+     , (40819,  5034,      2) 
+     , (40819,  5072,      2) 
+     , (40819,  5753,      2) 
+     , (40819,  5832,      2) 
+     , (40819,  5881,      2) 
+     , (40819,  5882,      2) 
+     , (40819,  6126,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (40819, 67116416, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (40819, 0, 83896667, 83896667);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (40819, 0, 16794281);

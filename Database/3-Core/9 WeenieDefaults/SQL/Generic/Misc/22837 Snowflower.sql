@@ -1,0 +1,41 @@
+DELETE FROM `weenie` WHERE `class_Id` = 22837;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (22837, 'snowflower', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (22837,   1,        128) /* ItemType - Misc */
+     , (22837,   5,         10) /* EncumbranceVal */
+     , (22837,  16,          1) /* ItemUseable - No */
+     , (22837,  19,        100) /* Value */
+     , (22837,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22837, 151,          8) /* HookType - Yard */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (22837,   1, False) /* Stuck */
+     , (22837,  11, True ) /* IgnoreCollisions */
+     , (22837,  13, True ) /* Ethereal */
+     , (22837,  14, True ) /* GravityStatus */
+     , (22837,  19, True ) /* Attackable */
+     , (22837,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (22837,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (22837,   1, 'Snowflower') /* Name */
+     , (22837,   7, 'I hit 200, if you feel up to it email me when you get back. I might need help doing the Lum Flagging. ') /* Inscription */
+     , (22837,   8, 'Blazing Sun') /* ScribeName */
+     , (22837,  14, 'This flower can be added to a crystal vase to make a lovely floral arrangement for a house. This object can also be used on a yard hook.') /* Use */
+     , (22837,  15, 'A delicate snowflower. The blossom radiates cold, reminding you of a crisp winter day. DO NOT LICK!') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (22837,   1,   33558159) /* Setup */
+     , (22837,   8,  100673926) /* Icon */
+     , (22837, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
+     , (22837, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (22837, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (22837,   2, 1343225874) /* Container */
+     , (22837, 8000, 3658160306) /* PCAPRecordedObjectIID */;

@@ -1,0 +1,68 @@
+DELETE FROM `weenie` WHERE `class_Id` = 30219;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (30219, 'gemrarevolatilelightningbane', 38) /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (30219,   1,       2048) /* ItemType - Gem */
+     , (30219,   5,          5) /* EncumbranceVal */
+     , (30219,  11,        100) /* MaxStackSize */
+     , (30219,  12,          1) /* StackSize */
+     , (30219,  16,          8) /* ItemUseable - Contained */
+     , (30219,  17,         65) /* RareId */
+     , (30219,  18,          1) /* UiEffects - Magical */
+     , (30219,  19,          0) /* Value */
+     , (30219,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
+     , (30219,  33,         -1) /* Bonded - Slippery */
+     , (30219,  65,        101) /* Placement - Resting */
+     , (30219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (30219,  94,         16) /* TargetType - Creature */
+     , (30219, 106,        325) /* ItemSpellcraft */
+     , (30219, 107,      10000) /* ItemCurMana */
+     , (30219, 108,      10000) /* ItemMaxMana */
+     , (30219, 109,          0) /* ItemDifficulty */
+     , (30219, 151,         11) /* HookType - Floor, Wall, Yard */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (30219,   1, False) /* Stuck */
+     , (30219,  11, True ) /* IgnoreCollisions */
+     , (30219,  13, True ) /* Ethereal */
+     , (30219,  14, True ) /* GravityStatus */
+     , (30219,  19, True ) /* Attackable */
+     , (30219, 108, True ) /* RareUsesTimer */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30219,   1, 'Pearl of Lightning Baning') /* Name */
+     , (30219,  14, 'Spell affects all worn armor at the time of casting.') /* Use */
+     , (30219,  16, 'Using this gem will increase the resistance to Lightning damage for all equipped armor and clothing by 500% for 15 minutes.') /* LongDesc */
+     , (30219,  20, 'Pearls of Lightning Baning') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30219,   1,   33554809) /* Setup */
+     , (30219,   3,  536870932) /* SoundTable */
+     , (30219,   6,   67111919) /* PaletteBase */
+     , (30219,   8,  100686695) /* Icon */
+     , (30219,  22,  872415275) /* PhysicsEffectTable */
+     , (30219,  28,       3718) /* Spell */
+     , (30219,  50,  100686666) /* IconOverlay */
+     , (30219,  52,  100686604) /* IconUnderlay */
+     , (30219, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
+     , (30219, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
+     , (30219, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
+     , (30219, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (30219,   2, 2981039411) /* Container */
+     , (30219, 8000, 2981039424) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (30219,  3718,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (30219, 67112924, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (30219, 0, 83890391, 83890391);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (30219, 0, 16779181);

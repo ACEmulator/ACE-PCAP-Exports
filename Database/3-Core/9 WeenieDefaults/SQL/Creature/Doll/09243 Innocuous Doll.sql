@@ -1,0 +1,96 @@
+DELETE FROM `weenie` WHERE `class_Id` = 9243;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (9243, 'dollinnocuous', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (9243,   1,         16) /* ItemType - Creature */
+     , (9243,   2,         53) /* CreatureType - Doll */
+     , (9243,   5,         75) /* EncumbranceVal */
+     , (9243,   6,        255) /* ItemsCapacity */
+     , (9243,   7,        255) /* ContainersCapacity */
+     , (9243,  16,          1) /* ItemUseable - No */
+     , (9243,  19,       1061) /* Value */
+     , (9243,  25,         50) /* Level */
+     , (9243,  28,          0) /* ArmorLevel */
+     , (9243,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (9243, 105,          4) /* ItemWorkmanship */
+     , (9243, 106,        159) /* ItemSpellcraft */
+     , (9243, 107,        467) /* ItemCurMana */
+     , (9243, 108,        467) /* ItemMaxMana */
+     , (9243, 109,        159) /* ItemDifficulty */
+     , (9243, 110,          0) /* ItemAllegianceRankLimit */
+     , (9243, 115,          0) /* ItemSkillLevelLimit */
+     , (9243, 131,          4) /* MaterialType - Linen */
+     , (9243, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (9243, 172,          1) /* AppraisalLongDescDecoration */
+     , (9243, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (9243,   1, True ) /* Stuck */
+     , (9243,  12, True ) /* ReportCollisions */
+     , (9243,  13, False) /* Ethereal */
+     , (9243,  14, True ) /* GravityStatus */
+     , (9243,  19, True ) /* Attackable */
+     , (9243, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9243,   5, -0.0416666666666667) /* ManaRate */
+     , (9243,  13, 0.800000011920929) /* ArmorModVsSlash */
+     , (9243,  14, 0.800000011920929) /* ArmorModVsPierce */
+     , (9243,  15,       1) /* ArmorModVsBludgeon */
+     , (9243,  16, 0.200000002980232) /* ArmorModVsCold */
+     , (9243,  17, 0.200000002980232) /* ArmorModVsFire */
+     , (9243,  18, 0.100000001490116) /* ArmorModVsAcid */
+     , (9243,  19, 0.200000002980232) /* ArmorModVsElectric */
+     , (9243,  77,       1) /* PhysicsScriptIntensity */
+     , (9243, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9243,   1, 'Innocuous Doll') /* Name */
+     , (9243,  16, 'Shirt of Acid Protection') /* LongDesc */
+     , (9243, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9243,   1,   33556996) /* Setup */
+     , (9243,   2,  150994984) /* MotionTable */
+     , (9243,   3,  536871022) /* SoundTable */
+     , (9243,   6,   67113150) /* PaletteBase */
+     , (9243,   8,  100671421) /* Icon */
+     , (9243,  22,  872415373) /* PhysicsEffectTable */
+     , (9243, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (9243, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (9243, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
+     , (9243, 8019,         87) /* PCAPRecordedDefaultScript */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (9243, 8040, 2519793714, 151.3374, 43.81679, 119.4175, 0.8825892, 0, 0, -0.470145) /* PCAPRecordedLocation */
+/* @teleloc 0x96310032 [151.337400 43.816790 119.417500] 0.882589 0.000000 0.000000 -0.470145 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (9243, 8000, 3685861575) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (9243,   1, 150, 0, 0) /* Strength */
+     , (9243,   2, 150, 0, 0) /* Endurance */
+     , (9243,   3, 150, 0, 0) /* Quickness */
+     , (9243,   4, 150, 0, 0) /* Coordination */
+     , (9243,   5, 150, 0, 0) /* Focus */
+     , (9243,   6, 150, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (9243,   1,   115, 0, 0, 115) /* MaxHealth */
+     , (9243,   3,   150, 0, 0, 150) /* MaxStamina */
+     , (9243,   5,   350, 0, 0, 350) /* MaxMana */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (9243,   518,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (9243, 67113152, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (9243, 9, 83893207, 83893207);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (9243, 9, 16785617);

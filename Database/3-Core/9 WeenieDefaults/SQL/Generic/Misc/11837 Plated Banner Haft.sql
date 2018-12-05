@@ -1,0 +1,53 @@
+DELETE FROM `weenie` WHERE `class_Id` = 11837;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (11837, 'haftreinforcedbanner', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (11837,   1,        128) /* ItemType - Misc */
+     , (11837,   2,         82) /* CreatureType - Thrungus */
+     , (11837,   5,        100) /* EncumbranceVal */
+     , (11837,  11,          1) /* MaxStackSize */
+     , (11837,  12,          1) /* StackSize */
+     , (11837,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (11837,  19,          0) /* Value */
+     , (11837,  25,         30) /* Level */
+     , (11837,  65,        101) /* Placement - Resting */
+     , (11837,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11837,  94,        128) /* TargetType - Misc */
+     , (11837, 151,          2) /* HookType - Wall */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (11837,   1, False) /* Stuck */
+     , (11837,  11, True ) /* IgnoreCollisions */
+     , (11837,  13, True ) /* Ethereal */
+     , (11837,  14, True ) /* GravityStatus */
+     , (11837,  19, True ) /* Attackable */
+     , (11837,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11837,   1, 'Plated Banner Haft') /* Name */
+     , (11837,  14, 'Use this on a Shreth or Reedshark Banner.') /* Use */
+     , (11837,  16, 'A plated banner haft with a worn handle.  If joined with either a Shreth or Reedshark banner, it will raise its value substantially.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11837,   1,   33557246) /* Setup */
+     , (11837,   3,  536870932) /* SoundTable */
+     , (11837,   8,  100671952) /* Icon */
+     , (11837,  22,  872415275) /* PhysicsEffectTable */
+     , (11837, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
+     , (11837, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (11837, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (11837,   2, 1343593571) /* Container */
+     , (11837, 8000, 3629880174) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (11837,   1,   120, 0, 0, 120) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (11837, 0, 83893729, 83893728);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (11837, 0, 16787145);

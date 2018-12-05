@@ -1,0 +1,106 @@
+DELETE FROM `weenie` WHERE `class_Id` = 45398;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (45398, 'ace45398-lightningshortsword', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (45398,   1,          1) /* ItemType - MeleeWeapon */
+     , (45398,   5,        289) /* EncumbranceVal */
+     , (45398,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (45398,  16,          1) /* ItemUseable - No */
+     , (45398,  18,         65) /* UiEffects - Magical, Lightning */
+     , (45398,  19,      12587) /* Value */
+     , (45398,  44,         37) /* Damage */
+     , (45398,  45,         64) /* DamageType - Electric */
+     , (45398,  47,          6) /* AttackType - Thrust, Slash */
+     , (45398,  48,         46) /* WeaponSkill - FinesseWeapons */
+     , (45398,  49,         25) /* WeaponTime */
+     , (45398,  51,          1) /* CombatUse - Melee */
+     , (45398,  65,        101) /* Placement - Resting */
+     , (45398,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (45398, 105,          7) /* ItemWorkmanship */
+     , (45398, 106,        227) /* ItemSpellcraft */
+     , (45398, 107,        701) /* ItemCurMana */
+     , (45398, 108,        701) /* ItemMaxMana */
+     , (45398, 109,        108) /* ItemDifficulty */
+     , (45398, 110,          0) /* ItemAllegianceRankLimit */
+     , (45398, 115,        247) /* ItemSkillLevelLimit */
+     , (45398, 117,        400) /* ItemManaCost */
+     , (45398, 131,         63) /* MaterialType - Silver */
+     , (45398, 151,          2) /* HookType - Wall */
+     , (45398, 158,          2) /* WieldRequirements - RawSkill */
+     , (45398, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (45398, 160,        325) /* WieldDifficulty */
+     , (45398, 172,          5) /* AppraisalLongDescDecoration */
+     , (45398, 176,         46) /* AppraisalItemSkill */
+     , (45398, 177,          2) /* GemCount */
+     , (45398, 178,         16) /* GemType */
+     , (45398, 353,          2) /* WeaponType - Sword */
+     , (45398, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (45398,   1, False) /* Stuck */
+     , (45398,  11, True ) /* IgnoreCollisions */
+     , (45398,  13, True ) /* Ethereal */
+     , (45398,  14, True ) /* GravityStatus */
+     , (45398,  19, True ) /* Attackable */
+     , (45398,  22, True ) /* Inscribable */
+     , (45398,  91, True ) /* Retained */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (45398,   5,   -0.05) /* ManaRate */
+     , (45398,  21,       0) /* WeaponLength */
+     , (45398,  22,    0.56) /* DamageVariance */
+     , (45398,  26,       0) /* MaximumVelocity */
+     , (45398,  29,    1.06) /* WeaponDefense */
+     , (45398,  39, 1.10000002384186) /* DefaultScale */
+     , (45398,  62,    1.08) /* WeaponOffense */
+     , (45398,  63,       1) /* DamageMod */
+     , (45398, 150,    1.03) /* WeaponMagicDefense */
+     , (45398, 8004,       8) /* PCAPRecordedWorkmanship */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (45398,   1, 'Lightning Short Sword') /* Name */
+     , (45398,  16, 'Lightning Short Sword of Defender') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (45398,   1,   33555806) /* Setup */
+     , (45398,   3,  536870932) /* SoundTable */
+     , (45398,   8,  100669036) /* Icon */
+     , (45398,  22,  872415275) /* PhysicsEffectTable */
+     , (45398,  52,  100676436) /* IconUnderlay */
+     , (45398, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
+     , (45398, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
+     , (45398, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
+     , (45398, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (45398,   2, 3666901363) /* Container */
+     , (45398, 8000, 2174244854) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (45398,  1353,      2) 
+     , (45398,  1354,      2) 
+     , (45398,  1378,      2) 
+     , (45398,  1401,      2) 
+     , (45398,  1590,      2) 
+     , (45398,  1592,      2) 
+     , (45398,  1604,      2) 
+     , (45398,  1612,      2) 
+     , (45398,  1615,      2) 
+     , (45398,  1616,      2) 
+     , (45398,  1626,      2) 
+     , (45398,  2059,      2) 
+     , (45398,  2081,      2) 
+     , (45398,  2096,      2) 
+     , (45398,  2116,      2) 
+     , (45398,  2509,      2) 
+     , (45398,  2526,      2) 
+     , (45398,  2541,      2) 
+     , (45398,  2544,      2) 
+     , (45398,  2552,      2) 
+     , (45398,  2559,      2) 
+     , (45398,  2580,      2) 
+     , (45398,  2598,      2) 
+     , (45398,  2608,      2) 
+     , (45398,  4297,      2) ;

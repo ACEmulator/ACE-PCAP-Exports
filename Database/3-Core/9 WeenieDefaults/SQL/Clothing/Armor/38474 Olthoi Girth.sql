@@ -1,0 +1,112 @@
+DELETE FROM `weenie` WHERE `class_Id` = 38474;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (38474, 'ace38474-olthoigirth', 2) /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (38474,   1,          2) /* ItemType - Armor */
+     , (38474,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (38474,   5,        521) /* EncumbranceVal */
+     , (38474,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (38474,  16,          1) /* ItemUseable - No */
+     , (38474,  18,          1) /* UiEffects - Magical */
+     , (38474,  19,      27547) /* Value */
+     , (38474,  28,        456) /* ArmorLevel */
+     , (38474,  65,        101) /* Placement - Resting */
+     , (38474,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (38474, 105,          8) /* ItemWorkmanship */
+     , (38474, 106,        370) /* ItemSpellcraft */
+     , (38474, 107,       1532) /* ItemCurMana */
+     , (38474, 108,       1565) /* ItemMaxMana */
+     , (38474, 109,        420) /* ItemDifficulty */
+     , (38474, 110,          0) /* ItemAllegianceRankLimit */
+     , (38474, 115,          0) /* ItemSkillLevelLimit */
+     , (38474, 131,         60) /* MaterialType - Gold */
+     , (38474, 158,          9) /* WieldRequirements - IntStat */
+     , (38474, 159,        288) /* WieldSkilltype */
+     , (38474, 160,        601) /* WieldDifficulty */
+     , (38474, 171,         10) /* NumTimesTinkered */
+     , (38474, 172,          1) /* AppraisalLongDescDecoration */
+     , (38474, 176,          7) /* AppraisalItemSkill */
+     , (38474, 265,         30) /* EquipmentSetId - SocietyArmor */
+     , (38474, 374,          2) /* GearCritDamage */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38474,   1, False) /* Stuck */
+     , (38474,  11, True ) /* IgnoreCollisions */
+     , (38474,  13, True ) /* Ethereal */
+     , (38474,  14, True ) /* GravityStatus */
+     , (38474,  19, True ) /* Attackable */
+     , (38474,  22, True ) /* Inscribable */
+     , (38474, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (38474,   5, -0.0666666701436043) /* ManaRate */
+     , (38474,  13, 1.29999995231628) /* ArmorModVsSlash */
+     , (38474,  14,       1) /* ArmorModVsPierce */
+     , (38474,  15,       1) /* ArmorModVsBludgeon */
+     , (38474,  16, 0.400000005960464) /* ArmorModVsCold */
+     , (38474,  17, 1.12143409252167) /* ArmorModVsFire */
+     , (38474,  18, 1.27378439903259) /* ArmorModVsAcid */
+     , (38474,  19, 0.400000005960464) /* ArmorModVsElectric */
+     , (38474, 165,       1) /* ArmorModVsNether */
+     , (38474, 8004,       8) /* PCAPRecordedWorkmanship */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (38474,   1, 'Olthoi Girth') /* Name */
+     , (38474,  16, NULL) /* LongDesc */
+     , (38474,  39, 'Olthoi king''s mage') /* TinkerName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (38474,   1,   33554647) /* Setup */
+     , (38474,   3,  536870932) /* SoundTable */
+     , (38474,   6,   67108990) /* PaletteBase */
+     , (38474,   8,  100674592) /* Icon */
+     , (38474,  22,  872415275) /* PhysicsEffectTable */
+     , (38474, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
+     , (38474, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (38474, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (38474,   2, 1343032295) /* Container */
+     , (38474, 8000, 2763988958) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (38474,  1332,      2) 
+     , (38474,  1354,      2) 
+     , (38474,  1486,      2) 
+     , (38474,  2061,      2) 
+     , (38474,  2087,      2) 
+     , (38474,  2098,      2) 
+     , (38474,  2102,      2) 
+     , (38474,  2104,      2) 
+     , (38474,  2108,      2) 
+     , (38474,  2110,      2) 
+     , (38474,  2185,      2) 
+     , (38474,  2507,      2) 
+     , (38474,  2518,      2) 
+     , (38474,  2572,      2) 
+     , (38474,  3964,      2) 
+     , (38474,  4393,      2) 
+     , (38474,  4407,      2) 
+     , (38474,  4409,      2) 
+     , (38474,  4412,      2) 
+     , (38474,  4596,      2) 
+     , (38474,  4675,      2) 
+     , (38474,  4679,      2) 
+     , (38474,  5429,      2) 
+     , (38474,  6073,      2) 
+     , (38474,  6079,      2) 
+     , (38474,  6083,      2) 
+     , (38474,  6105,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (38474, 67114463, 84, 8)
+     , (38474, 67116592, 72, 12);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (38474, 0, 83889072, 83897816)
+     , (38474, 0, 83889342, 83897816);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (38474, 0, 16778376);

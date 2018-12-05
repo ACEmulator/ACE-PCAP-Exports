@@ -1,0 +1,56 @@
+DELETE FROM `weenie` WHERE `class_Id` = 43413;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (43413, 'ace43413-voltaicgolem', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (43413,   1,         16) /* ItemType - Creature */
+     , (43413,   2,         13) /* CreatureType - Golem */
+     , (43413,   6,        255) /* ItemsCapacity */
+     , (43413,   7,        255) /* ContainersCapacity */
+     , (43413,  16,          1) /* ItemUseable - No */
+     , (43413,  25,        160) /* Level */
+     , (43413,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (43413, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (43413, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43413,   1, True ) /* Stuck */
+     , (43413,  12, True ) /* ReportCollisions */
+     , (43413,  13, False) /* Ethereal */
+     , (43413,  14, True ) /* GravityStatus */
+     , (43413,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (43413,   1, 'Voltaic Golem') /* Name */
+     , (43413, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (43413,   1,   33556644) /* Setup */
+     , (43413,   2,  150995073) /* MotionTable */
+     , (43413,   3,  536870933) /* SoundTable */
+     , (43413,   8,  100667940) /* Icon */
+     , (43413,  22,  872415322) /* PhysicsEffectTable */
+     , (43413, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (43413, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (43413, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (43413, 8040, 1447559484, 190, -80, -11.99, 0.7316888, 0, 0, 0.6816388) /* PCAPRecordedLocation */
+/* @teleloc 0x5648013C [190.000000 -80.000000 -11.990000] 0.731689 0.000000 0.000000 0.681639 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (43413, 8000, 2622399948) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (43413,   1, 280, 0, 0) /* Strength */
+     , (43413,   2, 280, 0, 0) /* Endurance */
+     , (43413,   3, 180, 0, 0) /* Quickness */
+     , (43413,   4, 180, 0, 0) /* Coordination */
+     , (43413,   5, 180, 0, 0) /* Focus */
+     , (43413,   6, 180, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (43413,   1,  1100, 0, 0, 1100) /* MaxHealth */
+     , (43413,   3,  1280, 0, 0, 1277) /* MaxStamina */
+     , (43413,   5,   980, 0, 0, 473) /* MaxMana */;

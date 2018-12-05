@@ -1,0 +1,88 @@
+DELETE FROM `weenie` WHERE `class_Id` = 293;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (293, 'torch', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (293,   1,        128) /* ItemType - Misc */
+     , (293,   2,          1) /* CreatureType - Olthoi */
+     , (293,   5,         10) /* EncumbranceVal */
+     , (293,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (293,  16,          1) /* ItemUseable - No */
+     , (293,  19,         10) /* Value */
+     , (293,  25,         50) /* Level */
+     , (293,  44,          2) /* Damage */
+     , (293,  45,         16) /* DamageType - Fire */
+     , (293,  47,          4) /* AttackType - Slash */
+     , (293,  48,         45) /* WeaponSkill - LightWeapons */
+     , (293,  49,         40) /* WeaponTime */
+     , (293,  51,          1) /* CombatUse - Melee */
+     , (293,  65,        101) /* Placement - Resting */
+     , (293,  89,          4) /* BoosterEnum - Stamina */
+     , (293,  90,        125) /* BoostValue */
+     , (293,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (293, 105,          5) /* ItemWorkmanship */
+     , (293, 106,        252) /* ItemSpellcraft */
+     , (293, 107,       1113) /* ItemCurMana */
+     , (293, 108,       1113) /* ItemMaxMana */
+     , (293, 109,        116) /* ItemDifficulty */
+     , (293, 110,          0) /* ItemAllegianceRankLimit */
+     , (293, 115,        272) /* ItemSkillLevelLimit */
+     , (293, 131,         60) /* MaterialType - Gold */
+     , (293, 151,          2) /* HookType - Wall */
+     , (293, 158,          2) /* WieldRequirements - RawSkill */
+     , (293, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (293, 160,        350) /* WieldDifficulty */
+     , (293, 172,          5) /* AppraisalLongDescDecoration */
+     , (293, 176,         44) /* AppraisalItemSkill */
+     , (293, 177,          2) /* GemCount */
+     , (293, 178,         13) /* GemType */
+     , (293, 353,          4) /* WeaponType - Mace */
+     , (293, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (293,   1, False) /* Stuck */
+     , (293,  11, True ) /* IgnoreCollisions */
+     , (293,  13, True ) /* Ethereal */
+     , (293,  14, True ) /* GravityStatus */
+     , (293,  15, True ) /* LightsStatus */
+     , (293,  19, True ) /* Attackable */
+     , (293,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (293,   5, -0.0555555555555556) /* ManaRate */
+     , (293,  21,       0) /* WeaponLength */
+     , (293,  22,     0.5) /* DamageVariance */
+     , (293,  26,       0) /* MaximumVelocity */
+     , (293,  29,    1.12) /* WeaponDefense */
+     , (293,  39,    1.25) /* DefaultScale */
+     , (293,  62,       1) /* WeaponOffense */
+     , (293,  63,       1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (293,   1, 'Torch') /* Name */
+     , (293,   7, 'You were born on 04/18/00 12:38:46.  Take care ethan and be well.  Cause some Havokk for the pks here.  Bauvrin, you take care to.') /* Inscription */
+     , (293,   8, 'Havokk') /* ScribeName */
+     , (293,  14, 'Use this item to drink it.') /* Use */
+     , (293,  16, 'Dirk of Blood Drinker') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (293,   1,   33555887) /* Setup */
+     , (293,   3,  536870932) /* SoundTable */
+     , (293,   8,  100667506) /* Icon */
+     , (293,  22,  872415275) /* PhysicsEffectTable */
+     , (293, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
+     , (293, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (293, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (293,   2, 2186220426) /* Container */
+     , (293, 8000, 2186220442) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (293,   1,   158, 0, 0, 158) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (293,  1592,      2) 
+     , (293,  1616,      2) 
+     , (293,  5808,      2) ;

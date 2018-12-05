@@ -1,0 +1,47 @@
+DELETE FROM `weenie` WHERE `class_Id` = 1525;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (1525, 'doorcoliercell', 19) /* Door */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (1525,   1,        128) /* ItemType - Misc */
+     , (1525,  16,         32) /* ItemUseable - Remote */
+     , (1525,  19,          0) /* Value */
+     , (1525,  38,        700) /* ResistLockpick */
+     , (1525,  93,      65560) /* PhysicsState - ReportCollisions, IgnoreCollisions, HasPhysicsBSP */
+     , (1525, 173,          0) /* AppraisalLockpickSuccessPercent */
+     , (1525, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (1525,   1, True ) /* Stuck */
+     , (1525,   2, False) /* Open */
+     , (1525,   3, True ) /* Locked */
+     , (1525,  11, True ) /* IgnoreCollisions */
+     , (1525,  12, True ) /* ReportCollisions */
+     , (1525,  13, False) /* Ethereal */
+     , (1525,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1525,  54,       2) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1525,   1, 'Door') /* Name */
+     , (1525,  14, 'Use this item to open it.') /* Use */
+     , (1525, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1525,   1,   33555073) /* Setup */
+     , (1525,   2,  150994966) /* MotionTable */
+     , (1525,   3,  536870946) /* SoundTable */
+     , (1525,   8,  100668434) /* Icon */
+     , (1525,  22,  872415275) /* PhysicsEffectTable */
+     , (1525, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
+     , (1525, 8003,       4116) /* PCAPRecordedObjectDesc - Stuck, Attackable, Door */
+     , (1525, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (1525, 8040, 28181265, 70, -55.25, 0, -0.00490804, 0, 0, -0.999988) /* PCAPRecordedLocation */
+/* @teleloc 0x01AE0311 [70.000000 -55.250000 0.000000] -0.004908 0.000000 0.000000 -0.999988 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (1525, 8000, 1880809566) /* PCAPRecordedObjectIID */;

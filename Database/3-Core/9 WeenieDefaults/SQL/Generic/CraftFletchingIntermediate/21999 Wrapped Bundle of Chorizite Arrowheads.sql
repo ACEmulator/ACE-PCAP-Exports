@@ -1,0 +1,38 @@
+DELETE FROM `weenie` WHERE `class_Id` = 21999;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (21999, 'wrappedarrowheadchorizite', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (21999,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
+     , (21999,  11,        100) /* MaxStackSize */
+     , (21999,  12,         99) /* StackSize */
+     , (21999,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
+     , (21999,  19,      24750) /* Value */
+     , (21999,  65,        101) /* Placement - Resting */
+     , (21999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (21999,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (21999,   1, False) /* Stuck */
+     , (21999,  11, True ) /* IgnoreCollisions */
+     , (21999,  13, True ) /* Ethereal */
+     , (21999,  14, True ) /* GravityStatus */
+     , (21999,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (21999,   1, 'Wrapped Bundle of Chorizite Arrowheads') /* Name */
+     , (21999,  20, 'Wrapped Bundles of Chorizite Arrowheads') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (21999,   1,   33557030) /* Setup */
+     , (21999,   3,  536870932) /* SoundTable */
+     , (21999,   8,  100673592) /* Icon */
+     , (21999,  22,  872415275) /* PhysicsEffectTable */
+     , (21999, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
+     , (21999, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
+     , (21999, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (21999,   2, 2897669184) /* Container */
+     , (21999, 8000, 2908721293) /* PCAPRecordedObjectIID */;

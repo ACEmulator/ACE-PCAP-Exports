@@ -1,0 +1,48 @@
+DELETE FROM `weenie` WHERE `class_Id` = 48765;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (48765, 'ace48765-guardianwisp', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (48765,   1,         16) /* ItemType - Creature */
+     , (48765,   2,         20) /* CreatureType - Wisp */
+     , (48765,   6,        255) /* ItemsCapacity */
+     , (48765,   7,        255) /* ContainersCapacity */
+     , (48765,  16,          1) /* ItemUseable - No */
+     , (48765,  25,        240) /* Level */
+     , (48765,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (48765, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (48765, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (48765,   1, True ) /* Stuck */
+     , (48765,  12, True ) /* ReportCollisions */
+     , (48765,  13, False) /* Ethereal */
+     , (48765,  14, True ) /* GravityStatus */
+     , (48765,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (48765,  39, 1.29999995231628) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (48765,   1, 'Guardian Wisp') /* Name */
+     , (48765, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (48765,   1,   33556979) /* Setup */
+     , (48765,   2,  150995087) /* MotionTable */
+     , (48765,   3,  536870985) /* SoundTable */
+     , (48765,   8,  100671332) /* Icon */
+     , (48765, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (48765, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (48765, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (48765, 8040, 1482817853, 190.9087, -59.56168, -23.9935, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+/* @teleloc 0x5862013D [190.908700 -59.561680 -23.993500] 0.707107 0.000000 0.000000 -0.707107 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (48765, 8000, 3684699691) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (48765,   1,  4450, 0, 0, 1694) /* MaxHealth */;

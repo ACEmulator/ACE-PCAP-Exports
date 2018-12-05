@@ -1,0 +1,64 @@
+DELETE FROM `weenie` WHERE `class_Id` = 19282;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (19282, 'statuereplicahighskeletonsmall', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (19282,   1,         16) /* ItemType - Creature */
+     , (19282,   2,         63) /* CreatureType - Statue */
+     , (19282,   6,        255) /* ItemsCapacity */
+     , (19282,   7,        255) /* ContainersCapacity */
+     , (19282,  16,          1) /* ItemUseable - No */
+     , (19282,  25,        100) /* Level */
+     , (19282,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (19282, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (19282, 307,          5) /* DamageRating */
+     , (19282, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (19282,   1, True ) /* Stuck */
+     , (19282,  12, True ) /* ReportCollisions */
+     , (19282,  13, False) /* Ethereal */
+     , (19282,  14, True ) /* GravityStatus */
+     , (19282,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19282,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19282,   1, 'Bronze Statue of a Skeleton') /* Name */
+     , (19282, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19282,   1,   33554521) /* Setup */
+     , (19282,   2,  150995189) /* MotionTable */
+     , (19282,   3,  536871052) /* SoundTable */
+     , (19282,   6,   67116522) /* PaletteBase */
+     , (19282,   8,  100669124) /* Icon */
+     , (19282,  22,  872415349) /* PhysicsEffectTable */
+     , (19282, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (19282, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (19282, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (19282, 8040, 1415053814, 150.031, -54.75, 0.004999995, 0.070737, 0, 0, 0.997495) /* PCAPRecordedLocation */
+/* @teleloc 0x545801F6 [150.031000 -54.750000 0.005000] 0.070737 0.000000 0.000000 0.997495 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (19282, 8000, 2627701305) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (19282,   1, 220, 0, 0) /* Strength */
+     , (19282,   2, 200, 0, 0) /* Endurance */
+     , (19282,   3, 275, 0, 0) /* Quickness */
+     , (19282,   4, 260, 0, 0) /* Coordination */
+     , (19282,   5, 220, 0, 0) /* Focus */
+     , (19282,   6, 220, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (19282,   1,   230, 0, 0, 230) /* MaxHealth */
+     , (19282,   3,   350, 0, 0, 350) /* MaxStamina */
+     , (19282,   5,   320, 0, 0, 320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (19282, 67116534, 0, 0);

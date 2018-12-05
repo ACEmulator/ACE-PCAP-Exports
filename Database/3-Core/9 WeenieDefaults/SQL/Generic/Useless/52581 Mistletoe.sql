@@ -1,0 +1,41 @@
+DELETE FROM `weenie` WHERE `class_Id` = 52581;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (52581, 'ace52581-mistletoe', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (52581,   1,       1024) /* ItemType - Useless */
+     , (52581,   5,         10) /* EncumbranceVal */
+     , (52581,  16,          1) /* ItemUseable - No */
+     , (52581,  19,         50) /* Value */
+     , (52581,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (52581, 151,          6) /* HookType - Wall, Ceiling */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (52581,   1, False) /* Stuck */
+     , (52581,  11, True ) /* IgnoreCollisions */
+     , (52581,  13, True ) /* Ethereal */
+     , (52581,  14, True ) /* GravityStatus */
+     , (52581,  19, True ) /* Attackable */
+     , (52581,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (52581,  39,       2) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (52581,   1, 'Mistletoe') /* Name */
+     , (52581,  14, 'This item can be used on wall and ceiling hooks.') /* Use */
+     , (52581,  15, 'A beautiful assembly of shrubs, flowers and berries. ') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (52581,   1,   33561645) /* Setup */
+     , (52581,   3,  536870932) /* SoundTable */
+     , (52581,   8,  100693304) /* Icon */
+     , (52581,  22,  872415275) /* PhysicsEffectTable */
+     , (52581, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
+     , (52581, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (52581, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (52581,   2, 2461713254) /* Container */
+     , (52581, 8000, 2461713016) /* PCAPRecordedObjectIID */;

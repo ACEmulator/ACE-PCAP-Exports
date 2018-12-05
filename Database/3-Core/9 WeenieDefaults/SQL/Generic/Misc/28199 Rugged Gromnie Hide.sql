@@ -1,0 +1,55 @@
+DELETE FROM `weenie` WHERE `class_Id` = 28199;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (28199, 'gromniehidebrass', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (28199,   1,        128) /* ItemType - Misc */
+     , (28199,   2,         20) /* CreatureType - Wisp */
+     , (28199,   5,        900) /* EncumbranceVal */
+     , (28199,  16,          1) /* ItemUseable - No */
+     , (28199,  19,         75) /* Value */
+     , (28199,  25,        115) /* Level */
+     , (28199,  33,          0) /* Bonded - Normal */
+     , (28199,  65,        101) /* Placement - Resting */
+     , (28199,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28199, 114,          0) /* Attuned - Normal */
+     , (28199, 174,          1) /* AppraisalPages */
+     , (28199, 175,          1) /* AppraisalMaxPages */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (28199,   1, False) /* Stuck */
+     , (28199,  11, True ) /* IgnoreCollisions */
+     , (28199,  13, True ) /* Ethereal */
+     , (28199,  14, True ) /* GravityStatus */
+     , (28199,  19, True ) /* Attackable */
+     , (28199,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28199,  39,     0.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28199,   1, 'Rugged Gromnie Hide') /* Name */
+     , (28199,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28199,   1,   33554817) /* Setup */
+     , (28199,   3,  536870932) /* SoundTable */
+     , (28199,   8,  100676746) /* Icon */
+     , (28199,  22,  872415275) /* PhysicsEffectTable */
+     , (28199, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
+     , (28199, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (28199, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (28199,   2, 3019440548) /* Container */
+     , (28199, 8000, 2935642334) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (28199,   1,   720, 0, 0, 720) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (28199, 0, 83890064, 83890069);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (28199, 0, 16777882);

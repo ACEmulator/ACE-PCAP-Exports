@@ -1,0 +1,45 @@
+DELETE FROM `weenie` WHERE `class_Id` = 3831;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (3831, 'knifeelectric', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (3831,   1,          1) /* ItemType - MeleeWeapon */
+     , (3831,   5,         19) /* EncumbranceVal */
+     , (3831,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3831,  16,          1) /* ItemUseable - No */
+     , (3831,  18,         65) /* UiEffects - Magical, Lightning */
+     , (3831,  19,      10374) /* Value */
+     , (3831,  51,          1) /* CombatUse - Melee */
+     , (3831,  65,        101) /* Placement - Resting */
+     , (3831,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3831, 131,         33) /* MaterialType - Opal */
+     , (3831, 151,          2) /* HookType - Wall */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (3831,   1, False) /* Stuck */
+     , (3831,  11, True ) /* IgnoreCollisions */
+     , (3831,  13, True ) /* Ethereal */
+     , (3831,  14, True ) /* GravityStatus */
+     , (3831,  19, True ) /* Attackable */
+     , (3831,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3831,  39,    1.25) /* DefaultScale */
+     , (3831, 8004,       8) /* PCAPRecordedWorkmanship */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3831,   1, 'Lightning Knife') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3831,   1,   33555798) /* Setup */
+     , (3831,   3,  536870932) /* SoundTable */
+     , (3831,   8,  100667598) /* Icon */
+     , (3831,  22,  872415275) /* PhysicsEffectTable */
+     , (3831, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
+     , (3831, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (3831, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (3831,   2, 1343010489) /* Container */
+     , (3831, 8000, 2581351950) /* PCAPRecordedObjectIID */;

@@ -1,0 +1,76 @@
+DELETE FROM `weenie` WHERE `class_Id` = 46935;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (46935, 'ace46935-ancientsandstonegolem', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (46935,   1,         16) /* ItemType - Creature */
+     , (46935,   2,         13) /* CreatureType - Golem */
+     , (46935,   5,        100) /* EncumbranceVal */
+     , (46935,   6,        255) /* ItemsCapacity */
+     , (46935,   7,        255) /* ContainersCapacity */
+     , (46935,  16,          1) /* ItemUseable - No */
+     , (46935,  19,      29835) /* Value */
+     , (46935,  25,        240) /* Level */
+     , (46935,  33,          1) /* Bonded - Bonded */
+     , (46935,  89,          6) /* BoosterEnum - Mana */
+     , (46935,  90,         85) /* BoostValue */
+     , (46935,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (46935, 105,         73) /* ItemWorkmanship */
+     , (46935, 131,         57) /* MaterialType - Brass */
+     , (46935, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (46935, 170,          8) /* NumItemsInMaterial */
+     , (46935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46935,   1, True ) /* Stuck */
+     , (46935,  12, True ) /* ReportCollisions */
+     , (46935,  13, False) /* Ethereal */
+     , (46935,  14, True ) /* GravityStatus */
+     , (46935,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (46935,   1, 'Ancient Sandstone Golem') /* Name */
+     , (46935,  14, 'Apply this material to a treasure-generated weapon to increase the weapon''s melee defense bonus by 1%.') /* Use */
+     , (46935,  15, 'A bar of brass material salvaged from old items.') /* ShortDesc */
+     , (46935,  16, 'Inscribed spell: Odif''s Blessing
+Increases the caster''s Loyalty skill by 40 points.') /* LongDesc */
+     , (46935, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (46935,   1,   33556426) /* Setup */
+     , (46935,   2,  150995073) /* MotionTable */
+     , (46935,   3,  536870933) /* SoundTable */
+     , (46935,   6,   67112775) /* PaletteBase */
+     , (46935,   8,  100667940) /* Icon */
+     , (46935,  22,  872415329) /* PhysicsEffectTable */
+     , (46935, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (46935, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (46935, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (46935, 8040, 1481638175, 1.42074, -7.41002, 0.00999999, -0.6911359, 0, 0, 0.7227249) /* PCAPRecordedLocation */
+/* @teleloc 0x5850011F [1.420740 -7.410020 0.010000] -0.691136 0.000000 0.000000 0.722725 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (46935, 8000, 3699751433) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (46935,   1, 380, 0, 0) /* Strength */
+     , (46935,   2, 400, 0, 0) /* Endurance */
+     , (46935,   3, 500, 0, 0) /* Quickness */
+     , (46935,   4, 350, 0, 0) /* Coordination */
+     , (46935,   5, 490, 0, 0) /* Focus */
+     , (46935,   6, 490, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (46935,   1,  9000, 0, 0, 9000) /* MaxHealth */
+     , (46935,   3,  6400, 0, 0, 6368) /* MaxStamina */
+     , (46935,   5,  7690, 0, 0, 7541) /* MaxMana */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (46935,   713,      2) 
+     , (46935,  2233,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (46935, 67112822, 0, 0);

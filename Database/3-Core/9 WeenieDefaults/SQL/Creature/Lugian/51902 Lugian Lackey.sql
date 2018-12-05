@@ -1,0 +1,97 @@
+DELETE FROM `weenie` WHERE `class_Id` = 51902;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (51902, 'ace51902-lugianlackey', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (51902,   1,         16) /* ItemType - Creature */
+     , (51902,   2,          5) /* CreatureType - Lugian */
+     , (51902,   5,         50) /* EncumbranceVal */
+     , (51902,   6,        255) /* ItemsCapacity */
+     , (51902,   7,        255) /* ContainersCapacity */
+     , (51902,  16,          1) /* ItemUseable - No */
+     , (51902,  19,       5899) /* Value */
+     , (51902,  25,        240) /* Level */
+     , (51902,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (51902, 105,          7) /* ItemWorkmanship */
+     , (51902, 106,        238) /* ItemSpellcraft */
+     , (51902, 107,       1876) /* ItemCurMana */
+     , (51902, 108,       1876) /* ItemMaxMana */
+     , (51902, 109,        178) /* ItemDifficulty */
+     , (51902, 110,          0) /* ItemAllegianceRankLimit */
+     , (51902, 115,          0) /* ItemSkillLevelLimit */
+     , (51902, 131,         45) /* MaterialType - WhiteJade */
+     , (51902, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (51902, 172,          5) /* AppraisalLongDescDecoration */
+     , (51902, 177,          3) /* GemCount */
+     , (51902, 178,         50) /* GemType */
+     , (51902, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (51902,   1, True ) /* Stuck */
+     , (51902,  12, True ) /* ReportCollisions */
+     , (51902,  13, False) /* Ethereal */
+     , (51902,  14, True ) /* GravityStatus */
+     , (51902,  19, True ) /* Attackable */
+     , (51902,  42, True ) /* AllowEdgeSlide */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (51902,   5,   -0.05) /* ManaRate */
+     , (51902,  29,    1.07) /* WeaponDefense */
+     , (51902, 144,    0.02) /* ManaConversionMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (51902,   1, 'Lugian Lackey') /* Name */
+     , (51902,  16, 'Staff of Frost') /* LongDesc */
+     , (51902, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (51902,   1,   33557003) /* Setup */
+     , (51902,   2,  150994950) /* MotionTable */
+     , (51902,   3,  536870922) /* SoundTable */
+     , (51902,   6,   67113158) /* PaletteBase */
+     , (51902,   8,  100667447) /* Icon */
+     , (51902, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (51902, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (51902, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (51902, 8040, 741277736, 97.438, 183.055, 114.038, 0.8045419, 0, 0, -0.5938959) /* PCAPRecordedLocation */
+/* @teleloc 0x2C2F0028 [97.438000 183.055000 114.038000] 0.804542 0.000000 0.000000 -0.593896 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (51902, 8000, 2629144205) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (51902,   1,  6350, 0, 0, 6350) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (51902,    73,      2) 
+     , (51902,   585,      2) 
+     , (51902,  1479,      2) 
+     , (51902,  1605,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (51902, 67113167, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (51902, 0, 83893224, 83893223)
+     , (51902, 0, 83893231, 83893230)
+     , (51902, 2, 83893218, 83893217)
+     , (51902, 5, 83893218, 83893217)
+     , (51902, 7, 83893227, 83893213)
+     , (51902, 7, 83893214, 83893213)
+     , (51902, 9, 83893218, 83893217)
+     , (51902, 12, 83893218, 83893217)
+     , (51902, 19, 83893240, 83893239)
+     , (51902, 20, 83893240, 83893239);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (51902, 0, 16785699)
+     , (51902, 2, 16785662)
+     , (51902, 5, 16785662)
+     , (51902, 7, 16785659)
+     , (51902, 9, 16785701)
+     , (51902, 12, 16785701)
+     , (51902, 19, 16785704)
+     , (51902, 20, 16785705);

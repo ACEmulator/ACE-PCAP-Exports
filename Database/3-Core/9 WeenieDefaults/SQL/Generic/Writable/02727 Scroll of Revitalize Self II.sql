@@ -1,0 +1,45 @@
+DELETE FROM `weenie` WHERE `class_Id` = 2727;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (2727, 'scrollrevitalizeself2', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (2727,   1,       8192) /* ItemType - Writable */
+     , (2727,   5,         30) /* EncumbranceVal */
+     , (2727,  16,          8) /* ItemUseable - Contained */
+     , (2727,  19,          5) /* Value */
+     , (2727,  65,        101) /* Placement - Resting */
+     , (2727,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (2727,   1, False) /* Stuck */
+     , (2727,  11, True ) /* IgnoreCollisions */
+     , (2727,  13, True ) /* Ethereal */
+     , (2727,  14, True ) /* GravityStatus */
+     , (2727,  19, True ) /* Attackable */
+     , (2727,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (2727,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (2727,   1, 'Scroll of Revitalize Self II') /* Name */
+     , (2727,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (2727,  16, 'Inscribed spell: Revitalize Self II
+Restores 20-45 points of the caster''s Stamina.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (2727,   1,   33554826) /* Setup */
+     , (2727,   8,  100676930) /* Icon */
+     , (2727,  22,  872415275) /* PhysicsEffectTable */
+     , (2727,  28,       1178) /* Spell */
+     , (2727, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
+     , (2727, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (2727, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (2727,   2, 2615547732) /* Container */
+     , (2727, 8000, 2615547695) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (2727,  1178,      2) ;

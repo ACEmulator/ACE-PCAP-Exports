@@ -1,0 +1,91 @@
+DELETE FROM `weenie` WHERE `class_Id` = 9036;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (9036, 'girthexarchseagrey', 2) /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (9036,   1,          2) /* ItemType - Armor */
+     , (9036,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
+     , (9036,   5,         50) /* EncumbranceVal */
+     , (9036,   9,       1024) /* ValidLocations - AbdomenArmor */
+     , (9036,  16,          1) /* ItemUseable - No */
+     , (9036,  18,          1) /* UiEffects - Magical */
+     , (9036,  19,       2400) /* Value */
+     , (9036,  28,          0) /* ArmorLevel */
+     , (9036,  65,        101) /* Placement - Resting */
+     , (9036,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9036, 106,        270) /* ItemSpellcraft */
+     , (9036, 107,          0) /* ItemCurMana */
+     , (9036, 108,       2000) /* ItemMaxMana */
+     , (9036, 109,         50) /* ItemDifficulty */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (9036,   1, False) /* Stuck */
+     , (9036,  11, True ) /* IgnoreCollisions */
+     , (9036,  13, True ) /* Ethereal */
+     , (9036,  14, True ) /* GravityStatus */
+     , (9036,  19, True ) /* Attackable */
+     , (9036,  22, True ) /* Inscribable */
+     , (9036,  69, False) /* IsSellable */
+     , (9036,  94, True ) /* AppraisalHasAllowedActivator */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9036,   5,  -0.125) /* ManaRate */
+     , (9036,  13,       0) /* ArmorModVsSlash */
+     , (9036,  14,       0) /* ArmorModVsPierce */
+     , (9036,  15,       0) /* ArmorModVsBludgeon */
+     , (9036,  16,       0) /* ArmorModVsCold */
+     , (9036,  17,       0) /* ArmorModVsFire */
+     , (9036,  18,       0) /* ArmorModVsAcid */
+     , (9036,  19,       0) /* ArmorModVsElectric */
+     , (9036, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9036,   1, 'Exarch Plate Girth') /* Name */
+     , (9036,   7, 'Made with the loving hands of Lycentia for the love of her life Kurse. =) ') /* Inscription */
+     , (9036,   8, 'Lycentia') /* ScribeName */
+     , (9036,  16, 'A heavily enchanted crystalline girth, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers.') /* LongDesc */
+     , (9036,  25, 'Alto Voltaje') /* CraftsmanName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9036,   1,   33554647) /* Setup */
+     , (9036,   3,  536870932) /* SoundTable */
+     , (9036,   6,   67108990) /* PaletteBase */
+     , (9036,   8,  100671349) /* Icon */
+     , (9036,  22,  872415275) /* PhysicsEffectTable */
+     , (9036,  41,         34) /* ItemSpecializedOnly */
+     , (9036, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
+     , (9036, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (9036, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (9036, 8040, 23855548, 52.12826, -33.11433, 0, 0.08194411, 0, 0, -0.9966369) /* PCAPRecordedLocation */
+/* @teleloc 0x016C01BC [52.128260 -33.114330 0.000000] 0.081944 0.000000 0.000000 -0.996637 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (9036, 8000, 3605812363) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (9036,   211,      2) 
+     , (9036,   273,      2) 
+     , (9036,  2349,      2) 
+     , (9036,  2350,      2) 
+     , (9036,  2351,      2) 
+     , (9036,  2352,      2) 
+     , (9036,  2353,      2) 
+     , (9036,  2354,      2) 
+     , (9036,  2355,      2) 
+     , (9036,  2356,      2) 
+     , (9036,  2380,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (9036, 67113131, 72, 8)
+     , (9036, 67113131, 80, 12)
+     , (9036, 67113131, 92, 4);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (9036, 0, 83889072, 83893045)
+     , (9036, 0, 83889342, 83893045);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (9036, 0, 16778376);

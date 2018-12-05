@@ -1,0 +1,49 @@
+DELETE FROM `weenie` WHERE `class_Id` = 41945;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (41945, 'ace41945-strangejewel', 38) /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (41945,   1,       2048) /* ItemType - Gem */
+     , (41945,   5,          0) /* EncumbranceVal */
+     , (41945,  11,          1) /* MaxStackSize */
+     , (41945,  12,          1) /* StackSize */
+     , (41945,  16,          8) /* ItemUseable - Contained */
+     , (41945,  18,          2) /* UiEffects - Poisoned */
+     , (41945,  19,          0) /* Value */
+     , (41945,  33,          1) /* Bonded - Bonded */
+     , (41945,  65,        101) /* Placement - Resting */
+     , (41945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41945,  94,         16) /* TargetType - Creature */
+     , (41945, 114,          1) /* Attuned - Attuned */
+     , (41945, 280,         50) /* SharedCooldown */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (41945,   1, False) /* Stuck */
+     , (41945,  11, True ) /* IgnoreCollisions */
+     , (41945,  13, True ) /* Ethereal */
+     , (41945,  14, True ) /* GravityStatus */
+     , (41945,  19, True ) /* Attackable */
+     , (41945,  22, True ) /* Inscribable */
+     , (41945,  63, True ) /* UnlimitedUse */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (41945, 167,       3) /* CooldownDuration */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (41945,   1, 'Strange Jewel') /* Name */
+     , (41945,  16, 'This crystal sometimes shows an anguished face within its facets.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (41945,   1,   33554809) /* Setup */
+     , (41945,   3,  536870932) /* SoundTable */
+     , (41945,   8,  100674286) /* Icon */
+     , (41945,  22,  872415275) /* PhysicsEffectTable */
+     , (41945, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
+     , (41945, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
+     , (41945, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
+     , (41945, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (41945,   2, 3118472127) /* Container */
+     , (41945, 8000, 3321453285) /* PCAPRecordedObjectIID */;

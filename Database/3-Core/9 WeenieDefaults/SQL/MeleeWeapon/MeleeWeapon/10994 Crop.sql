@@ -1,0 +1,72 @@
+DELETE FROM `weenie` WHERE `class_Id` = 10994;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (10994, 'croptuperea_xp', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (10994,   1,          1) /* ItemType - MeleeWeapon */
+     , (10994,   5,        300) /* EncumbranceVal */
+     , (10994,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (10994,  16,          1) /* ItemUseable - No */
+     , (10994,  18,          1) /* UiEffects - Magical */
+     , (10994,  19,       6848) /* Value */
+     , (10994,  44,         15) /* Damage */
+     , (10994,  45,          1) /* DamageType - Slash */
+     , (10994,  47,          6) /* AttackType - Thrust, Slash */
+     , (10994,  48,         46) /* WeaponSkill - FinesseWeapons */
+     , (10994,  49,         20) /* WeaponTime */
+     , (10994,  51,          1) /* CombatUse - Melee */
+     , (10994,  65,        101) /* Placement - Resting */
+     , (10994,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (10994, 106,        270) /* ItemSpellcraft */
+     , (10994, 107,       1388) /* ItemCurMana */
+     , (10994, 108,       1424) /* ItemMaxMana */
+     , (10994, 109,        110) /* ItemDifficulty */
+     , (10994, 151,          2) /* HookType - Wall */
+     , (10994, 158,          2) /* WieldRequirements - RawSkill */
+     , (10994, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (10994, 160,        250) /* WieldDifficulty */
+     , (10994, 353,          7) /* WeaponType - Staff */
+     , (10994, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (10994,   1, False) /* Stuck */
+     , (10994,  11, True ) /* IgnoreCollisions */
+     , (10994,  13, True ) /* Ethereal */
+     , (10994,  14, True ) /* GravityStatus */
+     , (10994,  19, True ) /* Attackable */
+     , (10994,  22, True ) /* Inscribable */
+     , (10994,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (10994,   5, -0.0799999982118607) /* ManaRate */
+     , (10994,  21,       0) /* WeaponLength */
+     , (10994,  22, 0.600000023841858) /* DamageVariance */
+     , (10994,  26,       0) /* MaximumVelocity */
+     , (10994,  29,       1) /* WeaponDefense */
+     , (10994,  62,       1) /* WeaponOffense */
+     , (10994,  63,       1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (10994,   1, 'Crop') /* Name */
+     , (10994,   7, '
+Mistress Kricket ') /* Inscription */
+     , (10994,   8, 'Kricket') /* ScribeName */
+     , (10994,  16, 'A vicious-looking riding crop, made from the skin of an ebon gromnie. This was wielded by the Hea huntmaster Tuperea when disciplining his pack of hunting reedsharks, although it doesn''t look to have been used much. There is stitching on the handle which reads, "Crafted from the hide of my first gromnie prey, snared in my first hunt upon the plateau. With this, I am accepted into Aranpuh''s new order. Soon we shall return to the Hea xuta in glory." - Tupepuh') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (10994,   1,   33557226) /* Setup */
+     , (10994,   3,  536870932) /* SoundTable */
+     , (10994,   8,  100671856) /* Icon */
+     , (10994,  22,  872415275) /* PhysicsEffectTable */
+     , (10994, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
+     , (10994, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (10994, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (10994,   2, 2779768903) /* Container */
+     , (10994, 8000, 2779768912) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (10994,  2411,      2) 
+     , (10994,  2417,      2) ;

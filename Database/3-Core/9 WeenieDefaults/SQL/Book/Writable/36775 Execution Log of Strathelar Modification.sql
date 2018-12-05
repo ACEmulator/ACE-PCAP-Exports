@@ -1,0 +1,43 @@
+DELETE FROM `weenie` WHERE `class_Id` = 36775;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (36775, 'ace36775-executionlogofstrathelarmodification', 8) /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (36775,   1,       8192) /* ItemType - Writable */
+     , (36775,   5,       1000) /* EncumbranceVal */
+     , (36775,  16,          8) /* ItemUseable - Contained */
+     , (36775,  19,        300) /* Value */
+     , (36775,  65,        101) /* Placement - Resting */
+     , (36775,  93,      66580) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, HasPhysicsBSP */
+     , (36775, 174,          7) /* AppraisalPages */
+     , (36775, 175,          7) /* AppraisalMaxPages */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (36775,   1, False) /* Stuck */
+     , (36775,  11, True ) /* IgnoreCollisions */
+     , (36775,  13, True ) /* Ethereal */
+     , (36775,  14, True ) /* GravityStatus */
+     , (36775,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (36775,  39, 1.22000002861023) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (36775,   1, 'Execution Log of Strathelar Modification') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (36775,   1,   33556994) /* Setup */
+     , (36775,   3,  536870932) /* SoundTable */
+     , (36775,   8,  100671418) /* Icon */
+     , (36775,  22,  872415275) /* PhysicsEffectTable */
+     , (36775, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
+     , (36775, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
+     , (36775, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36775, 8040, 32376360, 100.908, -199.999, 42, -0.8854162, 0, 0, 0.4647991) /* PCAPRecordedLocation */
+/* @teleloc 0x01EE0628 [100.908000 -199.999000 42.000000] -0.885416 0.000000 0.000000 0.464799 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (36775, 8000, 3696893324) /* PCAPRecordedObjectIID */;

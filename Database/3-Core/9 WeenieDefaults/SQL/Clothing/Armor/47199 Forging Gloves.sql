@@ -1,0 +1,75 @@
+DELETE FROM `weenie` WHERE `class_Id` = 47199;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (47199, 'ace47199-forginggloves', 2) /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (47199,   1,          2) /* ItemType - Armor */
+     , (47199,   4,      32768) /* ClothingPriority - Hands */
+     , (47199,   5,        150) /* EncumbranceVal */
+     , (47199,   9,         32) /* ValidLocations - HandWear */
+     , (47199,  16,          1) /* ItemUseable - No */
+     , (47199,  19,       8000) /* Value */
+     , (47199,  28,        400) /* ArmorLevel */
+     , (47199,  65,        101) /* Placement - Resting */
+     , (47199,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (47199, 106,        400) /* ItemSpellcraft */
+     , (47199, 107,        500) /* ItemCurMana */
+     , (47199, 108,        500) /* ItemMaxMana */
+     , (47199, 109,        250) /* ItemDifficulty */
+     , (47199, 151,          2) /* HookType - Wall */
+     , (47199, 158,          7) /* WieldRequirements - Level */
+     , (47199, 159,          1) /* WieldSkilltype - Axe */
+     , (47199, 160,        150) /* WieldDifficulty */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (47199,   1, False) /* Stuck */
+     , (47199,  11, True ) /* IgnoreCollisions */
+     , (47199,  13, True ) /* Ethereal */
+     , (47199,  14, True ) /* GravityStatus */
+     , (47199,  19, True ) /* Attackable */
+     , (47199,  22, True ) /* Inscribable */
+     , (47199,  69, False) /* IsSellable */
+     , (47199, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (47199,   5, -0.0166) /* ManaRate */
+     , (47199,  13, 1.20000004768372) /* ArmorModVsSlash */
+     , (47199,  14, 1.20000004768372) /* ArmorModVsPierce */
+     , (47199,  15, 1.20000004768372) /* ArmorModVsBludgeon */
+     , (47199,  16, 0.800000011920929) /* ArmorModVsCold */
+     , (47199,  17, 1.79999995231628) /* ArmorModVsFire */
+     , (47199,  18,       1) /* ArmorModVsAcid */
+     , (47199,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (47199, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (47199,   1, 'Forging Gloves') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (47199,   1,   33554648) /* Setup */
+     , (47199,   3,  536870932) /* SoundTable */
+     , (47199,   6,   67108990) /* PaletteBase */
+     , (47199,   8,  100675197) /* Icon */
+     , (47199,  22,  872415275) /* PhysicsEffectTable */
+     , (47199, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
+     , (47199, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (47199, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (47199,   2, 1343493255) /* Container */
+     , (47199, 8000, 2174535644) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (47199,  3965,      2) 
+     , (47199,  4640,      2) 
+     , (47199,  4912,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (47199, 67114607, 168, 6);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (47199, 0, 83894333, 83894841);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (47199, 0, 16778374);

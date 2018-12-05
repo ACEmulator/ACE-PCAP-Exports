@@ -1,0 +1,40 @@
+DELETE FROM `weenie` WHERE `class_Id` = 37274;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (37274, 'ace37274-deckofeyes', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (37274,   1,        128) /* ItemType - Misc */
+     , (37274,   5,         13) /* EncumbranceVal */
+     , (37274,  11,         20) /* MaxStackSize */
+     , (37274,  12,          1) /* StackSize */
+     , (37274,  16,          1) /* ItemUseable - No */
+     , (37274,  19,          0) /* Value */
+     , (37274,  65,        101) /* Placement - Resting */
+     , (37274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37274,   1, False) /* Stuck */
+     , (37274,  11, True ) /* IgnoreCollisions */
+     , (37274,  13, True ) /* Ethereal */
+     , (37274,  14, True ) /* GravityStatus */
+     , (37274,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (37274,   1, 'Deck of Eyes') /* Name */
+     , (37274,  14, 'Return these to the Jester.') /* Use */
+     , (37274,  16, 'A complete Deck of Eyes. Still, the deck seems somehow incomplete.') /* LongDesc */
+     , (37274,  20, 'Decks of Eyes') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (37274,   1,   33560546) /* Setup */
+     , (37274,   3,  536870932) /* SoundTable */
+     , (37274,   8,  100689859) /* Icon */
+     , (37274,  22,  872415275) /* PhysicsEffectTable */
+     , (37274, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
+     , (37274, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
+     , (37274, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (37274,   2, 3377091093) /* Container */
+     , (37274, 8000, 3362973991) /* PCAPRecordedObjectIID */;

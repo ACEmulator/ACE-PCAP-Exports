@@ -1,0 +1,38 @@
+DELETE FROM `weenie` WHERE `class_Id` = 14765;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (14765, 'eggnog', 18) /* Food */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (14765,   1,         32) /* ItemType - Food */
+     , (14765,   5,         50) /* EncumbranceVal */
+     , (14765,  11,        100) /* MaxStackSize */
+     , (14765,  12,          1) /* StackSize */
+     , (14765,  16,          8) /* ItemUseable - Contained */
+     , (14765,  19,         40) /* Value */
+     , (14765,  65,        101) /* Placement - Resting */
+     , (14765,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (14765,   1, False) /* Stuck */
+     , (14765,  11, True ) /* IgnoreCollisions */
+     , (14765,  13, True ) /* Ethereal */
+     , (14765,  14, True ) /* GravityStatus */
+     , (14765,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14765,   1, 'Eggnog') /* Name */
+     , (14765,  20, 'Cups of Eggnog') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14765,   1,   33554662) /* Setup */
+     , (14765,   3,  536870932) /* SoundTable */
+     , (14765,   8,  100672551) /* Icon */
+     , (14765,  22,  872415275) /* PhysicsEffectTable */
+     , (14765, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
+     , (14765, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
+     , (14765, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (14765,   2, 1342545824) /* Container */
+     , (14765, 8000, 3709822144) /* PCAPRecordedObjectIID */;

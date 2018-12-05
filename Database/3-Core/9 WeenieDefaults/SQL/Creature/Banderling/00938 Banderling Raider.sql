@@ -1,0 +1,98 @@
+DELETE FROM `weenie` WHERE `class_Id` = 938;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (938, 'banderlingraider', 10) /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (938,   1,         16) /* ItemType - Creature */
+     , (938,   2,          2) /* CreatureType - Banderling */
+     , (938,   5,          0) /* EncumbranceVal */
+     , (938,   6,        255) /* ItemsCapacity */
+     , (938,   7,        255) /* ContainersCapacity */
+     , (938,  16,          1) /* ItemUseable - No */
+     , (938,  19,        384) /* Value */
+     , (938,  25,         15) /* Level */
+     , (938,  33,          1) /* Bonded - Bonded */
+     , (938,  44,         10) /* Damage */
+     , (938,  45,          4) /* DamageType - Bludgeon */
+     , (938,  48,         47) /* WeaponSkill - MissileWeapons */
+     , (938,  49,         10) /* WeaponTime */
+     , (938,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (938, 105,          7) /* ItemWorkmanship */
+     , (938, 106,        196) /* ItemSpellcraft */
+     , (938, 107,          0) /* ItemCurMana */
+     , (938, 108,       1201) /* ItemMaxMana */
+     , (938, 109,        196) /* ItemDifficulty */
+     , (938, 110,          0) /* ItemAllegianceRankLimit */
+     , (938, 115,          0) /* ItemSkillLevelLimit */
+     , (938, 131,         68) /* MaterialType - Marble */
+     , (938, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (938, 172,          5) /* AppraisalLongDescDecoration */
+     , (938, 177,          5) /* GemCount */
+     , (938, 178,         34) /* GemType */
+     , (938, 307,          5) /* DamageRating */
+     , (938, 353,         10) /* WeaponType - Thrown */
+     , (938, 8007,          0) /* PCAPRecordedAutonomousMovement */
+     , (938, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (938,   1, True ) /* Stuck */
+     , (938,  12, True ) /* ReportCollisions */
+     , (938,  13, False) /* Ethereal */
+     , (938,  14, True ) /* GravityStatus */
+     , (938,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (938,   5,   -0.05) /* ManaRate */
+     , (938,  21,       0) /* WeaponLength */
+     , (938,  22,    0.25) /* DamageVariance */
+     , (938,  26,       0) /* MaximumVelocity */
+     , (938,  29,       1) /* WeaponDefense */
+     , (938,  39, 1.29999995231628) /* DefaultScale */
+     , (938,  62,       1) /* WeaponOffense */
+     , (938,  63,       1) /* DamageMod */
+     , (938,  87,     1.2) /* ItemEfficiency */
+     , (938, 137,    0.15) /* ManaStoneDestroyChance */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (938,   1, 'Banderling Raider') /* Name */
+     , (938,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
+     , (938,  16, 'Killed by Mag-lite.') /* LongDesc */
+     , (938, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (938,   1,   33558024) /* Setup */
+     , (938,   2,  150994951) /* MotionTable */
+     , (938,   3,  536870917) /* SoundTable */
+     , (938,   6,   67114021) /* PaletteBase */
+     , (938,   8,  100667453) /* Icon */
+     , (938,  22,  872415255) /* PhysicsEffectTable */
+     , (938, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
+     , (938, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (938, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (938, 8040, 2474377253, 118.6839, 113.8725, 32.11683, 0.2588191, 0, 0, -0.9659258) /* PCAPRecordedLocation */
+/* @teleloc 0x937C0025 [118.683900 113.872500 32.116830] 0.258819 0.000000 0.000000 -0.965926 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (938, 8000, 3685895888) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (938,   1, 130, 0, 0) /* Strength */
+     , (938,   2,  90, 0, 0) /* Endurance */
+     , (938,   3,  60, 0, 0) /* Quickness */
+     , (938,   4, 115, 0, 0) /* Coordination */
+     , (938,   5,  30, 0, 0) /* Focus */
+     , (938,   6,  30, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (938,   1,    70, 0, 0, 70) /* MaxHealth */
+     , (938,   3,   160, 0, 0, 160) /* MaxStamina */
+     , (938,   5,    38, 0, 0, 38) /* MaxMana */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (938,   706,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (938, 67114033, 0, 0);

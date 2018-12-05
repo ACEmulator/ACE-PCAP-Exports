@@ -1,0 +1,110 @@
+DELETE FROM `weenie` WHERE `class_Id` = 3816;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (3816, 'kasrullahfire', 6) /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (3816,   1,          1) /* ItemType - MeleeWeapon */
+     , (3816,   5,        180) /* EncumbranceVal */
+     , (3816,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (3816,  16,          1) /* ItemUseable - No */
+     , (3816,  18,         33) /* UiEffects - Magical, Fire */
+     , (3816,  19,       4937) /* Value */
+     , (3816,  44,         28) /* Damage */
+     , (3816,  45,         16) /* DamageType - Fire */
+     , (3816,  47,          4) /* AttackType - Slash */
+     , (3816,  48,         45) /* WeaponSkill - LightWeapons */
+     , (3816,  49,         30) /* WeaponTime */
+     , (3816,  51,          1) /* CombatUse - Melee */
+     , (3816,  65,        101) /* Placement - Resting */
+     , (3816,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (3816, 105,          7) /* ItemWorkmanship */
+     , (3816, 106,        256) /* ItemSpellcraft */
+     , (3816, 107,       1401) /* ItemCurMana */
+     , (3816, 108,       1401) /* ItemMaxMana */
+     , (3816, 109,         54) /* ItemDifficulty */
+     , (3816, 110,          0) /* ItemAllegianceRankLimit */
+     , (3816, 115,        276) /* ItemSkillLevelLimit */
+     , (3816, 131,         75) /* MaterialType - Oak */
+     , (3816, 151,          2) /* HookType - Wall */
+     , (3816, 158,          2) /* WieldRequirements - RawSkill */
+     , (3816, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (3816, 160,        300) /* WieldDifficulty */
+     , (3816, 172,          5) /* AppraisalLongDescDecoration */
+     , (3816, 176,         45) /* AppraisalItemSkill */
+     , (3816, 177,          3) /* GemCount */
+     , (3816, 178,         48) /* GemType */
+     , (3816, 353,          4) /* WeaponType - Mace */
+     , (3816, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (3816,   1, False) /* Stuck */
+     , (3816,  11, True ) /* IgnoreCollisions */
+     , (3816,  13, True ) /* Ethereal */
+     , (3816,  14, True ) /* GravityStatus */
+     , (3816,  19, True ) /* Attackable */
+     , (3816,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (3816,   5,   -0.05) /* ManaRate */
+     , (3816,  21,       0) /* WeaponLength */
+     , (3816,  22,    0.32) /* DamageVariance */
+     , (3816,  26,       0) /* MaximumVelocity */
+     , (3816,  29,     1.1) /* WeaponDefense */
+     , (3816,  62,    1.07) /* WeaponOffense */
+     , (3816,  63,       1) /* DamageMod */
+     , (3816, 149,   1.015) /* WeaponMissileDefense */
+     , (3816, 150,   1.015) /* WeaponMagicDefense */
+     , (3816, 8004,       7) /* PCAPRecordedWorkmanship */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (3816,   1, 'Flaming Kasrullah') /* Name */
+     , (3816,  16, 'Flaming Kasrullah of Blood Drinker') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (3816,   1,   33555735) /* Setup */
+     , (3816,   3,  536870932) /* SoundTable */
+     , (3816,   8,  100668914) /* Icon */
+     , (3816,  22,  872415275) /* PhysicsEffectTable */
+     , (3816, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
+     , (3816, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (3816, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (3816,   2, 3701259098) /* Container */
+     , (3816, 8000, 3701259100) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3816,  1332,      2) 
+     , (3816,  1377,      2) 
+     , (3816,  1378,      2) 
+     , (3816,  1591,      2) 
+     , (3816,  1592,      2) 
+     , (3816,  1604,      2) 
+     , (3816,  1605,      2) 
+     , (3816,  1612,      2) 
+     , (3816,  1615,      2) 
+     , (3816,  1616,      2) 
+     , (3816,  1626,      2) 
+     , (3816,  1627,      2) 
+     , (3816,  2059,      2) 
+     , (3816,  2096,      2) 
+     , (3816,  2101,      2) 
+     , (3816,  2515,      2) 
+     , (3816,  2537,      2) 
+     , (3816,  2553,      2) 
+     , (3816,  2559,      2) 
+     , (3816,  2583,      2) 
+     , (3816,  2596,      2) 
+     , (3816,  2600,      2) 
+     , (3816,  3963,      2) 
+     , (3816,  4325,      2) 
+     , (3816,  4395,      2) 
+     , (3816,  4405,      2) 
+     , (3816,  4417,      2) 
+     , (3816,  4695,      2) 
+     , (3816,  5785,      2) 
+     , (3816,  5808,      2) 
+     , (3816,  5882,      2) 
+     , (3816,  5887,      2) 
+     , (3816,  6124,      2) ;

@@ -1,0 +1,44 @@
+DELETE FROM `weenie` WHERE `class_Id` = 28846;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (28846, 'noteletterrenaldrude', 8) /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (28846,   1,       8192) /* ItemType - Writable */
+     , (28846,   5,         25) /* EncumbranceVal */
+     , (28846,  16,          8) /* ItemUseable - Contained */
+     , (28846,  19,          0) /* Value */
+     , (28846,  33,          1) /* Bonded - Bonded */
+     , (28846,  65,        101) /* Placement - Resting */
+     , (28846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28846, 114,          1) /* Attuned - Attuned */
+     , (28846, 174,          1) /* AppraisalPages */
+     , (28846, 175,          1) /* AppraisalMaxPages */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (28846,   1, False) /* Stuck */
+     , (28846,  11, True ) /* IgnoreCollisions */
+     , (28846,  13, True ) /* Ethereal */
+     , (28846,  14, True ) /* GravityStatus */
+     , (28846,  19, True ) /* Attackable */
+     , (28846,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28846,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28846,   1, 'Renald the Eldest Refusal') /* Name */
+     , (28846,  16, 'Deliver this letter to Anton Sillezi of Sanamar.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28846,   1,   33554776) /* Setup */
+     , (28846,   3,  536870932) /* SoundTable */
+     , (28846,   8,  100668176) /* Icon */
+     , (28846,  22,  872415275) /* PhysicsEffectTable */
+     , (28846, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
+     , (28846, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
+     , (28846, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (28846,   2, 2149416222) /* Container */
+     , (28846, 8000, 2149416231) /* PCAPRecordedObjectIID */;

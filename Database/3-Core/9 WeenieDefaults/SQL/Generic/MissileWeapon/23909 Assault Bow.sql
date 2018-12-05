@@ -1,0 +1,81 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23909;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
+VALUES (23909, 'bowtumerokwar', 1) /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (23909,   1,        256) /* ItemType - MissileWeapon */
+     , (23909,   5,        400) /* EncumbranceVal */
+     , (23909,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (23909,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
+     , (23909,  16,          1) /* ItemUseable - No */
+     , (23909,  18,          1) /* UiEffects - Magical */
+     , (23909,  19,       5000) /* Value */
+     , (23909,  44,          0) /* Damage */
+     , (23909,  45,          0) /* DamageType - Undef */
+     , (23909,  48,         47) /* WeaponSkill - MissileWeapons */
+     , (23909,  49,         40) /* WeaponTime */
+     , (23909,  50,          1) /* AmmoType - Arrow */
+     , (23909,  51,          2) /* CombatUse - Missle */
+     , (23909,  65,          3) /* Placement - LeftHand */
+     , (23909,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (23909, 106,        400) /* ItemSpellcraft */
+     , (23909, 107,        600) /* ItemCurMana */
+     , (23909, 108,        600) /* ItemMaxMana */
+     , (23909, 109,        120) /* ItemDifficulty */
+     , (23909, 151,          2) /* HookType - Wall */
+     , (23909, 158,          2) /* WieldRequirements - RawSkill */
+     , (23909, 159,         47) /* WieldSkilltype - MissileWeapons */
+     , (23909, 160,        250) /* WieldDifficulty */
+     , (23909, 166,          6) /* SlayerCreatureType - Tumerok */
+     , (23909, 353,          8) /* WeaponType - Bow */
+     , (23909, 8030,          0);
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23909,   1, False) /* Stuck */
+     , (23909,  11, True ) /* IgnoreCollisions */
+     , (23909,  13, True ) /* Ethereal */
+     , (23909,  14, True ) /* GravityStatus */
+     , (23909,  15, True ) /* LightsStatus */
+     , (23909,  19, True ) /* Attackable */
+     , (23909,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23909,   5,  -0.025) /* ManaRate */
+     , (23909,  21,       0) /* WeaponLength */
+     , (23909,  22,       0) /* DamageVariance */
+     , (23909,  26,    26.3) /* MaximumVelocity */
+     , (23909,  29,    1.06) /* WeaponDefense */
+     , (23909,  39, 1.20000004768372) /* DefaultScale */
+     , (23909,  62,       1) /* WeaponOffense */
+     , (23909,  63,     2.1) /* DamageMod */
+     , (23909,  77,       1) /* PhysicsScriptIntensity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23909,   1, 'Assault Bow') /* Name */
+     , (23909,  16, 'A reward for defeating the leaders of the Gromnie Clan.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23909,   1,   33558206) /* Setup */
+     , (23909,   3,  536870932) /* SoundTable */
+     , (23909,   8,  100671743) /* Icon */
+     , (23909,  22,  872415275) /* PhysicsEffectTable */
+     , (23909, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
+     , (23909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (23909, 8005,     194721) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
+     , (23909, 8009,          2)
+     , (23909, 8019,         88) /* PCAPRecordedDefaultScript */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (23909, 8040, 19202342, 29.974, -59.996, 5.93, 1, 0, 0, 0) /* PCAPRecordedLocation */
+/* @teleloc 0x01250126 [29.974000 -59.996000 5.930000] 1.000000 0.000000 0.000000 0.000000 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (23909,   3, 1343215514) /* Wielder */
+     , (23909, 8000, 2384654629) /* PCAPRecordedObjectIID */
+     , (23909, 8008, 1343215514) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (23909,  1377,      2) 
+     , (23909,  1614,      2) 
+     , (23909,  2004,      2) ;
