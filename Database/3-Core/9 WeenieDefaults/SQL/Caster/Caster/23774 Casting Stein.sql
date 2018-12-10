@@ -27,19 +27,15 @@ VALUES (23774,   1, False) /* Stuck */
      , (23774,  14, True ) /* GravityStatus */
      , (23774,  15, True ) /* LightsStatus */
      , (23774,  19, True ) /* Attackable */
-     , (23774,  22, True ) /* Inscribable */
-     , (23774,  91, True ) /* Retained */;
+     , (23774,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23774,  29,       1) /* WeaponDefense */
      , (23774,  39, 1.20000004768372) /* DefaultScale */
-     , (23774, 144,    0.07) /* ManaConversionMod */
-     , (23774, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (23774, 144,    0.07) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23774,   1, 'Casting Stein') /* Name */
-     , (23774,   7, 'mmmm refreshing.') /* Inscription */
-     , (23774,   8, 'Lonsgard') /* ScribeName */
      , (23774,  16, 'A magical beer stein that can be used to focus magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -47,7 +43,7 @@ VALUES (23774,   1,   33558217) /* Setup */
      , (23774,   3,  536870932) /* SoundTable */
      , (23774,   8,  100671129) /* Icon */
      , (23774,  22,  872415275) /* PhysicsEffectTable */
-     , (23774,  28,       1679) /* Spell */
+     , (23774,  28,       1679) /* Spell - StaminaToManaSelf4 */
      , (23774, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (23774, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23774, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

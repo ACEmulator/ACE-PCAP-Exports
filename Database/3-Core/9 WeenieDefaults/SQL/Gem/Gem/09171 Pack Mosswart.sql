@@ -26,8 +26,6 @@ VALUES (9171,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9171,   1, 'Pack Mosswart') /* Name */
-     , (9171,   7, 'Ain''t he cute!') /* Inscription */
-     , (9171,   8, 'Julithmad') /* ScribeName */
      , (9171,  16, 'A lil'' tiny Mosswart! Watch him dance to his own beat.') /* LongDesc */
      , (9171, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

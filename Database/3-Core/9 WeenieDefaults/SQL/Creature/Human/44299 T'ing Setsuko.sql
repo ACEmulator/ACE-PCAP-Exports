@@ -6,30 +6,15 @@ VALUES (44299, 'ace44299-tingsetsuko', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44299,   1,         16) /* ItemType - Creature */
      , (44299,   2,         31) /* CreatureType - Human */
-     , (44299,   5,         50) /* EncumbranceVal */
      , (44299,   6,        255) /* ItemsCapacity */
      , (44299,   7,        255) /* ContainersCapacity */
      , (44299,  16,         32) /* ItemUseable - Remote */
-     , (44299,  19,       2000) /* Value */
      , (44299,  25,        200) /* Level */
-     , (44299,  90,         25) /* BoostValue */
-     , (44299,  91,         50) /* MaxStructure */
-     , (44299,  92,         50) /* Structure */
      , (44299,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44299,  95,          8) /* RadarBlipColor - Yellow */
-     , (44299, 105,          7) /* ItemWorkmanship */
-     , (44299, 106,        300) /* ItemSpellcraft */
-     , (44299, 107,        584) /* ItemCurMana */
-     , (44299, 108,        584) /* ItemMaxMana */
-     , (44299, 109,          0) /* ItemDifficulty */
-     , (44299, 110,          0) /* ItemAllegianceRankLimit */
      , (44299, 113,          2) /* Gender - Female */
-     , (44299, 115,          0) /* ItemSkillLevelLimit */
-     , (44299, 117,        350) /* ItemManaCost */
-     , (44299, 131,         20) /* MaterialType - Diamond */
      , (44299, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (44299, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44299, 172,          1) /* AppraisalLongDescDecoration */
      , (44299, 188,          3) /* HeritageGroup - Sho */
      , (44299, 307,          5) /* DamageRating */
      , (44299, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -45,13 +30,11 @@ VALUES (44299,   1, True ) /* Stuck */
      , (44299,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44299,  54,       3) /* UseRadius */
-     , (44299, 100,       2) /* HealkitMod */;
+VALUES (44299,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44299,   1, 'T''ing Setsuko') /* Name */
      , (44299,   5, 'Arcanum Collector') /* Template */
-     , (44299,  16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LongDesc */
      , (44299, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -89,9 +72,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44299,   1,   296, 0, 0, 296) /* MaxHealth */
      , (44299,   3,   396, 0, 0, 396) /* MaxStamina */
      , (44299,   5,   386, 0, 0, 386) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44299,  2183,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44299, 67109565, 32, 8)

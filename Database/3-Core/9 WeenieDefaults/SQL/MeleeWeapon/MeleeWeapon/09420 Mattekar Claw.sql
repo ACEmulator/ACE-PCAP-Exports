@@ -40,8 +40,6 @@ VALUES (9420,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9420,   1, 'Mattekar Claw') /* Name */
-     , (9420,   7, 'Feel the sweet burn') /* Inscription */
-     , (9420,   8, 'Reaper-II') /* ScribeName */
      , (9420,  16, 'A Large Dread Mattekar Claw, fitted for human use, its claws are a deep red.  When you clench your hand, the claws light with a crimson flame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

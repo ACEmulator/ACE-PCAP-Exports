@@ -6,13 +6,10 @@ VALUES (46531, 'ace46531-spectralminion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46531,   1,         16) /* ItemType - Creature */
      , (46531,   2,         77) /* CreatureType - Ghost */
-     , (46531,   5,         10) /* EncumbranceVal */
      , (46531,   6,        255) /* ItemsCapacity */
      , (46531,   7,        255) /* ContainersCapacity */
      , (46531,  16,          1) /* ItemUseable - No */
-     , (46531,  19,       5000) /* Value */
      , (46531,  25,        240) /* Level */
-     , (46531,  33,          1) /* Bonded - Bonded */
      , (46531,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46531, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46531, 307,         10) /* DamageRating */
@@ -29,7 +26,6 @@ VALUES (46531,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46531,   1, 'Spectral Minion') /* Name */
-     , (46531,  16, 'A concentrated copper pea.') /* LongDesc */
      , (46531, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

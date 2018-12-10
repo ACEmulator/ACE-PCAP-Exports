@@ -35,8 +35,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41465,   5,   -0.05) /* ManaRate */
      , (41465,  29, 1.37000000178814) /* WeaponDefense */
      , (41465,  39,     1.5) /* DefaultScale */
-     , (41465, 144, 1.80380941681351E-314) /* ManaConversionMod */
-     , (41465, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (41465, 144, 1.80380941681351E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41465,   1, 'Utterly Flawless Lense') /* Name */
@@ -48,7 +47,7 @@ VALUES (41465,   1,   33560887) /* Setup */
      , (41465,   6,   67116700) /* PaletteBase */
      , (41465,   8,  100690684) /* Icon */
      , (41465,  22,  872415275) /* PhysicsEffectTable */
-     , (41465,  28,       5120) /* Spell */
+     , (41465,  28,       5120) /* Spell - ExposeWeakness6 */
      , (41465, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (41465, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41465, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

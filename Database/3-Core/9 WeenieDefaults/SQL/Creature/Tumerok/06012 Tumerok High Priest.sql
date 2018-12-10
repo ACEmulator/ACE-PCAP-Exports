@@ -6,33 +6,14 @@ VALUES (6012, 'tumerokhighpriestarchernofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6012,   1,         16) /* ItemType - Creature */
      , (6012,   2,          6) /* CreatureType - Tumerok */
-     , (6012,   5,        100) /* EncumbranceVal */
      , (6012,   6,        255) /* ItemsCapacity */
      , (6012,   7,        255) /* ContainersCapacity */
      , (6012,  16,          1) /* ItemUseable - No */
-     , (6012,  19,       4541) /* Value */
      , (6012,  25,        100) /* Level */
-     , (6012,  44,         14) /* Damage */
-     , (6012,  45,          4) /* DamageType - Bludgeon */
-     , (6012,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (6012,  49,         10) /* WeaponTime */
      , (6012,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (6012, 105,          6) /* ItemWorkmanship */
-     , (6012, 106,        273) /* ItemSpellcraft */
-     , (6012, 107,       1743) /* ItemCurMana */
-     , (6012, 108,       1743) /* ItemMaxMana */
-     , (6012, 109,        283) /* ItemDifficulty */
-     , (6012, 110,          0) /* ItemAllegianceRankLimit */
-     , (6012, 115,          0) /* ItemSkillLevelLimit */
-     , (6012, 131,         59) /* MaterialType - Copper */
      , (6012, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (6012, 172,          5) /* AppraisalLongDescDecoration */
-     , (6012, 177,          4) /* GemCount */
-     , (6012, 178,         19) /* GemType */
      , (6012, 307,          5) /* DamageRating */
-     , (6012, 353,         10) /* WeaponType - Thrown */
-     , (6012, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (6012, 8030,          0);
+     , (6012, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6012,   1, True ) /* Stuck */
@@ -43,18 +24,10 @@ VALUES (6012,   1, True ) /* Stuck */
      , (6012,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6012,   5, -0.0555555555555556) /* ManaRate */
-     , (6012,  21,       0) /* WeaponLength */
-     , (6012,  22,    0.25) /* DamageVariance */
-     , (6012,  26,       0) /* MaximumVelocity */
-     , (6012,  29,       1) /* WeaponDefense */
-     , (6012,  39, 1.20000004768372) /* DefaultScale */
-     , (6012,  62,       1) /* WeaponOffense */
-     , (6012,  63,       1) /* DamageMod */;
+VALUES (6012,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6012,   1, 'Tumerok High Priest') /* Name */
-     , (6012,  16, 'Top of Focus') /* LongDesc */
      , (6012, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,13 +59,7 @@ VALUES (6012,   1, 240, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (6012,   1,   325, 0, 0, 325) /* MaxHealth */
      , (6012,   3,   375, 0, 0, 375) /* MaxStamina */
-     , (6012,   5,   400, 0, 0, 333) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6012,   777,      2) 
-     , (6012,  1426,      2) 
-     , (6012,  2538,      2) 
-     , (6012,  2558,      2) ;
+     , (6012,   5,   400, 0, 0, 105) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6012, 67116625, 57, 48)

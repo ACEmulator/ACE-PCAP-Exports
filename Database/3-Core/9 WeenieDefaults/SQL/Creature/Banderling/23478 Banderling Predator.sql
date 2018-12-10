@@ -6,15 +6,12 @@ VALUES (23478, 'banderlingpredator', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23478,   1,         16) /* ItemType - Creature */
      , (23478,   2,          2) /* CreatureType - Banderling */
-     , (23478,   5,       7259) /* EncumbranceVal */
      , (23478,   6,        255) /* ItemsCapacity */
      , (23478,   7,        255) /* ContainersCapacity */
      , (23478,  16,          1) /* ItemUseable - No */
-     , (23478,  19,          0) /* Value */
      , (23478,  25,        115) /* Level */
      , (23478,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23478, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23478, 307,          5) /* DamageRating */
      , (23478, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,7 +26,6 @@ VALUES (23478,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23478,   1, 'Banderling Predator') /* Name */
-     , (23478,  16, 'Killed by Taxicab.') /* LongDesc */
      , (23478, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

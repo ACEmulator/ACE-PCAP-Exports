@@ -19,18 +19,7 @@ VALUES (48616,   1,        256) /* ItemType - MissileWeapon */
      , (48616,  49,         20) /* WeaponTime */
      , (48616,  51,          2) /* CombatUse - Missle */
      , (48616,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48616, 105,          9) /* ItemWorkmanship */
-     , (48616, 106,        218) /* ItemSpellcraft */
-     , (48616, 107,       1474) /* ItemCurMana */
-     , (48616, 108,       1474) /* ItemMaxMana */
-     , (48616, 109,        218) /* ItemDifficulty */
-     , (48616, 110,          0) /* ItemAllegianceRankLimit */
-     , (48616, 115,          0) /* ItemSkillLevelLimit */
-     , (48616, 131,         60) /* MaterialType - Gold */
      , (48616, 151,          2) /* HookType - Wall */
-     , (48616, 172,          5) /* AppraisalLongDescDecoration */
-     , (48616, 177,          2) /* GemCount */
-     , (48616, 178,         49) /* GemType */
      , (48616, 307,          5) /* DamageRating */
      , (48616, 313,          0) /* CritRating */
      , (48616, 314,          0) /* CritDamageRating */
@@ -40,7 +29,6 @@ VALUES (48616,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48616,   1, False) /* Stuck */
-     , (48616,   2, True ) /* Open */
      , (48616,  11, True ) /* IgnoreCollisions */
      , (48616,  13, True ) /* Ethereal */
      , (48616,  14, True ) /* GravityStatus */
@@ -48,8 +36,7 @@ VALUES (48616,   1, False) /* Stuck */
      , (48616,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48616,   5,   -0.05) /* ManaRate */
-     , (48616,  21,       0) /* WeaponLength */
+VALUES (48616,  21,       0) /* WeaponLength */
      , (48616,  22,     0.5) /* DamageVariance */
      , (48616,  26, 23.2000007629395) /* MaximumVelocity */
      , (48616,  29,       1) /* WeaponDefense */
@@ -61,9 +48,7 @@ VALUES (48616,   5,   -0.05) /* ManaRate */
      , (48616, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48616,   1, 'Ice Shard') /* Name */
-     , (48616,  14, 'Use this item to close it.') /* Use */
-     , (48616,  16, 'Chalice of Focus') /* LongDesc */;
+VALUES (48616,   1, 'Ice Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48616,   1,   33559361) /* Setup */
@@ -83,6 +68,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48616,   3, 3692755025) /* Wielder */
      , (48616, 8000, 3692755037) /* PCAPRecordedObjectIID */
      , (48616, 8008, 3692755025) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48616,  1425,      2) ;

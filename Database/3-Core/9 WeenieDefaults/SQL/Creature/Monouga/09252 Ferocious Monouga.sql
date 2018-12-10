@@ -6,24 +6,12 @@ VALUES (9252, 'monougaferocious', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9252,   1,         16) /* ItemType - Creature */
      , (9252,   2,         28) /* CreatureType - Monouga */
-     , (9252,   5,          5) /* EncumbranceVal */
      , (9252,   6,        255) /* ItemsCapacity */
      , (9252,   7,        255) /* ContainersCapacity */
      , (9252,  16,          1) /* ItemUseable - No */
-     , (9252,  19,       4488) /* Value */
      , (9252,  25,         60) /* Level */
      , (9252,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (9252, 105,          7) /* ItemWorkmanship */
-     , (9252, 106,        300) /* ItemSpellcraft */
-     , (9252, 107,        584) /* ItemCurMana */
-     , (9252, 108,        584) /* ItemMaxMana */
-     , (9252, 109,          0) /* ItemDifficulty */
-     , (9252, 110,          0) /* ItemAllegianceRankLimit */
-     , (9252, 115,          0) /* ItemSkillLevelLimit */
-     , (9252, 117,        350) /* ItemManaCost */
-     , (9252, 131,         38) /* MaterialType - Ruby */
      , (9252, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9252, 172,          1) /* AppraisalLongDescDecoration */
      , (9252, 307,          5) /* DamageRating */
      , (9252, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -40,7 +28,6 @@ VALUES (9252,  39, 1.79999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9252,   1, 'Ferocious Monouga') /* Name */
-     , (9252,  16, 'Gem of Protection') /* LongDesc */
      , (9252, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -73,9 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9252,   1,   225, 0, 0, 225) /* MaxHealth */
      , (9252,   3,   420, 0, 0, 420) /* MaxStamina */
      , (9252,   5,   110, 0, 0, 110) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9252,  2053,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9252, 67113139, 0, 0);

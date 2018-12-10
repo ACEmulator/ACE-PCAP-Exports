@@ -5,14 +5,12 @@ VALUES (1427, 'swordlostlight', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1427,   1,          1) /* ItemType - MeleeWeapon */
-     , (1427,   2,         78) /* CreatureType - Fiun */
      , (1427,   5,        450) /* EncumbranceVal */
      , (1427,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (1427,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (1427,  16,          1) /* ItemUseable - No */
      , (1427,  18,          1) /* UiEffects - Magical */
      , (1427,  19,       9800) /* Value */
-     , (1427,  25,        115) /* Level */
      , (1427,  33,          1) /* Bonded - Bonded */
      , (1427,  44,         13) /* Damage */
      , (1427,  45,          3) /* DamageType - Slash, Pierce */
@@ -73,9 +71,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1427,   3, 1342183469) /* Wielder */
      , (1427, 8000, 3655545801) /* PCAPRecordedObjectIID */
      , (1427, 8008, 1342183469) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1427,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1427,  1406,      2) 

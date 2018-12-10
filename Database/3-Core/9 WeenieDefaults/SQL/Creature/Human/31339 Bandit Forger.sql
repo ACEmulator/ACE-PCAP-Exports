@@ -6,17 +6,14 @@ VALUES (31339, 'ace31339-banditforger', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31339,   1,         16) /* ItemType - Creature */
      , (31339,   2,         31) /* CreatureType - Human */
-     , (31339,   5,       6352) /* EncumbranceVal */
      , (31339,   6,        255) /* ItemsCapacity */
      , (31339,   7,        255) /* ContainersCapacity */
      , (31339,  16,          1) /* ItemUseable - No */
-     , (31339,  19,          0) /* Value */
      , (31339,  25,        160) /* Level */
      , (31339,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31339, 113,          1) /* Gender - Male */
      , (31339, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (31339, 188,          1) /* HeritageGroup - Aluvian */
-     , (31339, 307,          5) /* DamageRating */
      , (31339, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -28,7 +25,6 @@ VALUES (31339,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31339,   1, 'Bandit Forger') /* Name */
-     , (31339,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (31339, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

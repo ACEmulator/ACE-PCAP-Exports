@@ -23,9 +23,6 @@ VALUES (166,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (166,   1, 'Sack') /* Name */
-     , (166,   7, 'BYE AC;(
-') /* Inscription */
-     , (166,   8, 'Metahuman') /* ScribeName */
      , (166,  14, 'Use this item to close it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

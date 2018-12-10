@@ -54,8 +54,6 @@ VALUES (45408,   5,   -0.05) /* ManaRate */
      , (45408,  29,    1.09) /* WeaponDefense */
      , (45408,  62,     1.1) /* WeaponOffense */
      , (45408,  63,       1) /* DamageMod */
-     , (45408, 149,   1.015) /* WeaponMissileDefense */
-     , (45408, 150,    1.02) /* WeaponMagicDefense */
      , (45408, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -78,20 +76,7 @@ VALUES (45408,   2, 3666901584) /* Container */
      , (45408, 8000, 2174245696) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45408,  1375,      2) 
-     , (45408,  1591,      2) 
-     , (45408,  1592,      2) 
-     , (45408,  1604,      2) 
-     , (45408,  1605,      2) 
-     , (45408,  1613,      2) 
-     , (45408,  1615,      2) 
-     , (45408,  1616,      2) 
-     , (45408,  1626,      2) 
-     , (45408,  2096,      2) 
-     , (45408,  2116,      2) 
-     , (45408,  2524,      2) 
-     , (45408,  2526,      2) 
+VALUES (45408,  1616,      2) 
      , (45408,  2535,      2) 
      , (45408,  2582,      2) 
-     , (45408,  4395,      2) 
      , (45408,  5879,      2) ;

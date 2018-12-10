@@ -6,11 +6,9 @@ VALUES (28642, 'eaterengorged', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28642,   1,         16) /* ItemType - Creature */
      , (28642,   2,         79) /* CreatureType - Eater */
-     , (28642,   5,          0) /* EncumbranceVal */
      , (28642,   6,        255) /* ItemsCapacity */
      , (28642,   7,        255) /* ContainersCapacity */
      , (28642,  16,          1) /* ItemUseable - No */
-     , (28642,  19,        663) /* Value */
      , (28642,  25,         80) /* Level */
      , (28642,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28642, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -21,15 +19,13 @@ VALUES (28642,   1, True ) /* Stuck */
      , (28642,  12, True ) /* ReportCollisions */
      , (28642,  13, False) /* Ethereal */
      , (28642,  14, True ) /* GravityStatus */
-     , (28642,  19, True ) /* Attackable */
-     , (28642,  69, False) /* IsSellable */;
+     , (28642,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28642,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28642,   1, 'Engorged Eater') /* Name */
-     , (28642,  16, 'Killed by Mag-five.') /* LongDesc */
      , (28642, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

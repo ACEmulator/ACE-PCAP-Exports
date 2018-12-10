@@ -6,15 +6,11 @@ VALUES (24305, 'olthoiswarmwarrior', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24305,   1,         16) /* ItemType - Creature */
      , (24305,   2,          1) /* CreatureType - Olthoi */
-     , (24305,   5,        400) /* EncumbranceVal */
      , (24305,   6,        255) /* ItemsCapacity */
      , (24305,   7,        255) /* ContainersCapacity */
      , (24305,  16,          1) /* ItemUseable - No */
-     , (24305,  19,          0) /* Value */
      , (24305,  25,        115) /* Level */
-     , (24305,  33,          1) /* Bonded - Bonded */
      , (24305,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24305, 114,          1) /* Attuned - Attuned */
      , (24305, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (24305, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -31,7 +27,6 @@ VALUES (24305,  39, 1.29999995231628) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24305,   1, 'Olthoi Swarm Warrior') /* Name */
-     , (24305,  16, 'This eater jaw twitches occasionally as if it is trying to bite something.') /* LongDesc */
      , (24305, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

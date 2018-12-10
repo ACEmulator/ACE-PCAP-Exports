@@ -6,19 +6,12 @@ VALUES (24959, 'olthoiflyerneedler', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24959,   1,         16) /* ItemType - Creature */
      , (24959,   2,          1) /* CreatureType - Olthoi */
-     , (24959,   5,        150) /* EncumbranceVal */
      , (24959,   6,        255) /* ItemsCapacity */
      , (24959,   7,        255) /* ContainersCapacity */
      , (24959,  16,          1) /* ItemUseable - No */
-     , (24959,  19,        500) /* Value */
      , (24959,  25,         50) /* Level */
-     , (24959,  89,          4) /* BoosterEnum - Stamina */
-     , (24959,  90,        100) /* BoostValue */
      , (24959,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24959, 105,          8) /* ItemWorkmanship */
-     , (24959, 131,         49) /* MaterialType - YellowTopaz */
      , (24959, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24959, 172,          1) /* AppraisalLongDescDecoration */
      , (24959, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,8 +27,6 @@ VALUES (24959,  39, 0.600000023841858) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24959,   1, 'Olthoi Needler') /* Name */
-     , (24959,  14, 'Use this item to drink it.') /* Use */
-     , (24959,  16, 'Gem') /* LongDesc */
      , (24959, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -69,9 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24959,   1,   160, 0, 0, 160) /* MaxHealth */
      , (24959,   3,   350, 0, 0, 350) /* MaxStamina */
      , (24959,   5,    40, 0, 0, 40) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24959,  2084,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24959, 67114442, 0, 0);

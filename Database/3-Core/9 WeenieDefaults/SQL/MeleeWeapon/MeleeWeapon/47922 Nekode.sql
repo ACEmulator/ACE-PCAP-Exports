@@ -13,18 +13,7 @@ VALUES (47922,   1,          1) /* ItemType - MeleeWeapon */
      , (47922,  51,          1) /* CombatUse - Melee */
      , (47922,  65,          1) /* Placement - RightHandCombat */
      , (47922,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47922, 105,          7) /* ItemWorkmanship */
-     , (47922, 106,        253) /* ItemSpellcraft */
-     , (47922, 107,       2101) /* ItemCurMana */
-     , (47922, 108,       2101) /* ItemMaxMana */
-     , (47922, 109,        274) /* ItemDifficulty */
-     , (47922, 110,          0) /* ItemAllegianceRankLimit */
-     , (47922, 115,          0) /* ItemSkillLevelLimit */
-     , (47922, 131,         60) /* MaterialType - Gold */
-     , (47922, 151,          2) /* HookType - Wall */
-     , (47922, 172,          5) /* AppraisalLongDescDecoration */
-     , (47922, 177,          3) /* GemCount */
-     , (47922, 178,         22) /* GemType */;
+     , (47922, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47922,   1, False) /* Stuck */
@@ -34,12 +23,8 @@ VALUES (47922,   1, False) /* Stuck */
      , (47922,  19, True ) /* Attackable */
      , (47922,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47922,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47922,   1, 'Nekode') /* Name */
-     , (47922,  16, 'Heavy Bracelet of Protection') /* LongDesc */;
+VALUES (47922,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47922,   1,   33555996) /* Setup */
@@ -60,12 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47922,   3, 3690194197) /* Wielder */
      , (47922, 8000, 3690194877) /* PCAPRecordedObjectIID */
      , (47922, 8008, 3690194197) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47922,  1312,      2) 
-     , (47922,  2537,      2) 
-     , (47922,  2541,      2) 
-     , (47922,  2562,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47922, 67111920, 0, 0);

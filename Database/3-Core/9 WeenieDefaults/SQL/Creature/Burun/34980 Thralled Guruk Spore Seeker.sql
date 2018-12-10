@@ -6,11 +6,9 @@ VALUES (34980, 'ace34980-thralledguruksporeseeker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34980,   1,         16) /* ItemType - Creature */
      , (34980,   2,         75) /* CreatureType - Burun */
-     , (34980,   5,       6145) /* EncumbranceVal */
      , (34980,   6,        255) /* ItemsCapacity */
      , (34980,   7,        255) /* ContainersCapacity */
      , (34980,  16,          1) /* ItemUseable - No */
-     , (34980,  19,          0) /* Value */
      , (34980,  25,        185) /* Level */
      , (34980,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34980, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (34980,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34980,   1, 'Thralled Guruk Spore Seeker') /* Name */
-     , (34980,  16, 'Killed by Timthos.') /* LongDesc */
      , (34980, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -13,16 +13,7 @@ VALUES (56,   1,          2) /* ItemType - Armor */
      , (56,  19,       1100) /* Value */
      , (56,  28,        130) /* ArmorLevel */
      , (56,  65,        101) /* Placement - Resting */
-     , (56,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (56, 105,          3) /* ItemWorkmanship */
-     , (56, 106,        107) /* ItemSpellcraft */
-     , (56, 107,        392) /* ItemCurMana */
-     , (56, 108,        392) /* ItemMaxMana */
-     , (56, 109,         43) /* ItemDifficulty */
-     , (56, 110,          0) /* ItemAllegianceRankLimit */
-     , (56, 115,        127) /* ItemSkillLevelLimit */
-     , (56, 131,         52) /* MaterialType - Leather */
-     , (56, 176,          7) /* AppraisalItemSkill */;
+     , (56,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (56,   1, False) /* Stuck */
@@ -34,8 +25,7 @@ VALUES (56,   1, False) /* Stuck */
      , (56, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (56,   5, -0.0333333333333333) /* ManaRate */
-     , (56,  13,       1) /* ArmorModVsSlash */
+VALUES (56,  13,       1) /* ArmorModVsSlash */
      , (56,  14, 0.800000011920929) /* ArmorModVsPierce */
      , (56,  15,       1) /* ArmorModVsBludgeon */
      , (56,  16,     0.5) /* ArmorModVsCold */
@@ -45,10 +35,7 @@ VALUES (56,   5, -0.0333333333333333) /* ManaRate */
      , (56, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (56,   1, 'Leather Gauntlets') /* Name */
-     , (56,   7, 'Dark Purple Veins') /* Inscription */
-     , (56,   8, 'Dez''mron Loremaster') /* ScribeName */
-     , (56,  16, NULL) /* LongDesc */;
+VALUES (56,   1, 'Leather Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (56,   1,   33554648) /* Setup */
@@ -63,10 +50,6 @@ VALUES (56,   1,   33554648) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (56,   3, 1342217300) /* Wielder */
      , (56, 8000, 3656192171) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (56,   445,      2) 
-     , (56,  1482,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (56, 67110375, 168, 6);

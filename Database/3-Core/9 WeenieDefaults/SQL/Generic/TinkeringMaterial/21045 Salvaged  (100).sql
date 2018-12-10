@@ -11,35 +11,15 @@ VALUES (21045,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21045,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21045,  19,      36290) /* Value */
      , (21045,  33,          1) /* Bonded - Bonded */
-     , (21045,  44,         34) /* Damage */
-     , (21045,  45,          4) /* DamageType - Bludgeon */
-     , (21045,  47,          1) /* AttackType - Punch */
-     , (21045,  48,         45) /* WeaponSkill - LightWeapons */
-     , (21045,  49,         16) /* WeaponTime */
      , (21045,  65,        101) /* Placement - Resting */
      , (21045,  91,        100) /* MaxStructure */
      , (21045,  92,        100) /* Structure */
      , (21045,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21045,  94,          6) /* TargetType - Vestements */
      , (21045, 105,         46) /* ItemWorkmanship */
-     , (21045, 106,        233) /* ItemSpellcraft */
-     , (21045, 107,       1387) /* ItemCurMana */
-     , (21045, 108,       1387) /* ItemMaxMana */
-     , (21045, 109,        106) /* ItemDifficulty */
-     , (21045, 110,          0) /* ItemAllegianceRankLimit */
-     , (21045, 115,        253) /* ItemSkillLevelLimit */
      , (21045, 131,         59) /* MaterialType - Copper */
      , (21045, 151,          9) /* HookType - Floor, Yard */
-     , (21045, 158,          2) /* WieldRequirements - RawSkill */
-     , (21045, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (21045, 160,        350) /* WieldDifficulty */
-     , (21045, 170,          6) /* NumItemsInMaterial */
-     , (21045, 172,          5) /* AppraisalLongDescDecoration */
-     , (21045, 176,         45) /* AppraisalItemSkill */
-     , (21045, 177,          2) /* GemCount */
-     , (21045, 178,         21) /* GemType */
-     , (21045, 353,          1) /* WeaponType - Unarmed */
-     , (21045, 8030,          0);
+     , (21045, 170,          6) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21045,   1, False) /* Stuck */
@@ -50,20 +30,12 @@ VALUES (21045,   1, False) /* Stuck */
      , (21045,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21045,   5,   -0.05) /* ManaRate */
-     , (21045,  21,       0) /* WeaponLength */
-     , (21045,  22,    0.53) /* DamageVariance */
-     , (21045,  26,       0) /* MaximumVelocity */
-     , (21045,  29,     1.1) /* WeaponDefense */
-     , (21045,  62,    1.09) /* WeaponOffense */
-     , (21045,  63,       1) /* DamageMod */
-     , (21045, 8004, 6.83333349227905) /* PCAPRecordedWorkmanship */;
+VALUES (21045, 8004, 6.83333349227905) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21045,   1, 'Salvaged  (100)') /* Name */
      , (21045,  14, 'Apply this material to a magical, treasure-generated item with a Missile Defense activation requirement to change that requirement into an appropriate Melee Defense requirement.') /* Use */
-     , (21045,  15, 'A bar of copper material salvaged from old items.') /* ShortDesc */
-     , (21045,  16, 'Knuckles of Blood Drinker') /* LongDesc */;
+     , (21045,  15, 'A bar of copper material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21045,   1,   33554817) /* Setup */
@@ -82,9 +54,6 @@ VALUES (21045, 8040, 3332964379, 83.45251, 66.46255, 41.9975, 0.6269416, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21045, 8000, 2243216312) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21045,  1616,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21045, 67111922, 0, 0);

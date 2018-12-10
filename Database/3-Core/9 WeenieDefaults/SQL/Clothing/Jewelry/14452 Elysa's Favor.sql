@@ -17,7 +17,6 @@ VALUES (14452,   1,          8) /* ItemType - Jewelry */
      , (14452, 107,        414) /* ItemCurMana */
      , (14452, 108,        500) /* ItemMaxMana */
      , (14452, 109,        115) /* ItemDifficulty */
-     , (14452, 114,          1) /* Attuned - Attuned */
      , (14452, 158,          7) /* WieldRequirements - Level */
      , (14452, 159,          1) /* WieldSkilltype - Axe */
      , (14452, 160,         20) /* WieldDifficulty */;
@@ -28,8 +27,7 @@ VALUES (14452,   1, False) /* Stuck */
      , (14452,  13, True ) /* Ethereal */
      , (14452,  14, True ) /* GravityStatus */
      , (14452,  19, True ) /* Attackable */
-     , (14452,  22, True ) /* Inscribable */
-     , (14452,  69, False) /* IsSellable */;
+     , (14452,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14452,   5,  -0.033) /* ManaRate */

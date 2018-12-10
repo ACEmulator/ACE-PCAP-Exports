@@ -23,16 +23,7 @@ VALUES (9510,   1,        256) /* ItemType - MissileWeapon */
      , (9510, 158,          2) /* WieldRequirements - RawSkill */
      , (9510, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (9510, 160,        250) /* WieldDifficulty */
-     , (9510, 179,        512) /* ImbuedEffect - FireRending */
-     , (9510, 303,        512) /* ImbuedEffect2 - FireRending */
-     , (9510, 304,        512) /* ImbuedEffect3 - FireRending */
-     , (9510, 305,        512) /* ImbuedEffect4 - FireRending */
-     , (9510, 306,        512) /* ImbuedEffect5 - FireRending */
-     , (9510, 307,          8) /* DamageRating */
-     , (9510, 313,          1) /* CritRating */
-     , (9510, 314,          7) /* CritDamageRating */
      , (9510, 353,         10) /* WeaponType - Thrown */
-     , (9510, 386,          0) /* Overpower */
      , (9510, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,8 +32,7 @@ VALUES (9510,   1, False) /* Stuck */
      , (9510,  13, True ) /* Ethereal */
      , (9510,  14, True ) /* GravityStatus */
      , (9510,  17, True ) /* Inelastic */
-     , (9510,  19, True ) /* Attackable */
-     , (9510,  69, False) /* IsSellable */;
+     , (9510,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9510,  21,       0) /* WeaponLength */
@@ -52,9 +42,7 @@ VALUES (9510,  21,       0) /* WeaponLength */
      , (9510,  62,       1) /* WeaponOffense */
      , (9510,  63,       1) /* DamageMod */
      , (9510,  78,       1) /* Friction */
-     , (9510,  79,       0) /* Elasticity */
-     , (9510, 149,       0) /* WeaponMissileDefense */
-     , (9510, 150,       0) /* WeaponMagicDefense */;
+     , (9510,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9510,   1, 'Rock') /* Name */;

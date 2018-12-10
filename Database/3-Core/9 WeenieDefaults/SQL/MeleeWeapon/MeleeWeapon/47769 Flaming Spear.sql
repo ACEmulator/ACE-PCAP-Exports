@@ -5,14 +5,12 @@ VALUES (47769, 'ace47769-flamingspear', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47769,   1,          1) /* ItemType - MeleeWeapon */
-     , (47769,   2,         78) /* CreatureType - Fiun */
      , (47769,   5,        700) /* EncumbranceVal */
      , (47769,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47769,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47769,  16,          1) /* ItemUseable - No */
      , (47769,  18,         32) /* UiEffects - Fire */
      , (47769,  19,        170) /* Value */
-     , (47769,  25,        115) /* Level */
      , (47769,  51,          1) /* CombatUse - Melee */
      , (47769,  65,          1) /* Placement - RightHandCombat */
      , (47769,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -48,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47769,   3, 3688386578) /* Wielder */
      , (47769, 8000, 3688386583) /* PCAPRecordedObjectIID */
      , (47769, 8008, 3688386578) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47769,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47769, 67111920, 0, 0);

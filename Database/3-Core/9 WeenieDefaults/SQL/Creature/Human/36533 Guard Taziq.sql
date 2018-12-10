@@ -6,11 +6,9 @@ VALUES (36533, 'ace36533-guardtaziq', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36533,   1,         16) /* ItemType - Creature */
      , (36533,   2,         31) /* CreatureType - Human */
-     , (36533,   5,       6750) /* EncumbranceVal */
      , (36533,   6,        255) /* ItemsCapacity */
      , (36533,   7,        255) /* ContainersCapacity */
      , (36533,  16,         32) /* ItemUseable - Remote */
-     , (36533,  19,          0) /* Value */
      , (36533,  25,        105) /* Level */
      , (36533,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36533,  95,          8) /* RadarBlipColor - Yellow */
@@ -37,7 +35,6 @@ VALUES (36533,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36533,   1, 'Guard Taziq') /* Name */
      , (36533,   5, 'Soldier') /* Template */
-     , (36533,  16, 'Killed by Husband V.') /* LongDesc */
      , (36533, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

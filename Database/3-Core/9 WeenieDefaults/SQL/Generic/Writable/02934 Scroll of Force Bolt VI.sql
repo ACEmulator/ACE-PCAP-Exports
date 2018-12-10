@@ -24,8 +24,6 @@ VALUES (2934,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2934,   1, 'Scroll of Force Bolt VI') /* Name */
-     , (2934,   7, 'MINE') /* Inscription */
-     , (2934,   8, 'Cyndra') /* ScribeName */
      , (2934,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (2934,  16, 'Inscribed spell: Force Bolt VI
 Shoots a bolt of force at the target. The bolt does 84-168 points of piercing damage to the first thing it hits.') /* LongDesc */;
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2934,   1,   33554826) /* Setup */
      , (2934,   8,  100677019) /* Icon */
      , (2934,  22,  872415275) /* PhysicsEffectTable */
-     , (2934,  28,         91) /* Spell */
+     , (2934,  28,         91) /* Spell - ForceBolt6 */
      , (2934, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2934, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2934, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

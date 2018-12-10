@@ -45,8 +45,6 @@ VALUES (12030,   5,   -0.02) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12030,   1, 'Crystal Sword') /* Name */
-     , (12030,   7, 'Hi, how are you this fine day?') /* Inscription */
-     , (12030,   8, 'Warbo') /* ScribeName */
      , (12030,  16, 'A crystalline sword, made out of a what appears to be a shard of the original soul crystal.  It is cold to the touch, and seems to glow with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

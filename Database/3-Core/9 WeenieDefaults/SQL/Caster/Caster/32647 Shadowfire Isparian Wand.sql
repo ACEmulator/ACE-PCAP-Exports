@@ -32,7 +32,6 @@ VALUES (32647,   1, False) /* Stuck */
      , (32647,  19, True ) /* Attackable */
      , (32647,  22, True ) /* Inscribable */
      , (32647,  69, False) /* IsSellable */
-     , (32647,  85, True ) /* AppraisalHasAllowedWielder */
      , (32647,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,8 +43,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32647,   1, 'Shadowfire Isparian Wand') /* Name */
      , (32647,   7, '~') /* Inscription */
      , (32647,   8, 'Makosa''') /* ScribeName */
-     , (32647,  16, 'A Perfect Isparian Wand, infused with the power of the Shadowfire Stone.') /* LongDesc */
-     , (32647,  25, 'Mr Baker II') /* CraftsmanName */;
+     , (32647,  16, 'A Perfect Isparian Wand, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32647,   1,   33559826) /* Setup */

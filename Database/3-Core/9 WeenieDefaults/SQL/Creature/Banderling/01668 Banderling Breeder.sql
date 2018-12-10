@@ -6,31 +6,14 @@ VALUES (1668, 'banderlingbreeder', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1668,   1,         16) /* ItemType - Creature */
      , (1668,   2,          2) /* CreatureType - Banderling */
-     , (1668,   5,        547) /* EncumbranceVal */
      , (1668,   6,        255) /* ItemsCapacity */
      , (1668,   7,        255) /* ContainersCapacity */
      , (1668,  16,          1) /* ItemUseable - No */
-     , (1668,  19,       1649) /* Value */
      , (1668,  25,         15) /* Level */
-     , (1668,  44,         38) /* Damage */
-     , (1668,  45,          8) /* DamageType - Cold */
-     , (1668,  47,          6) /* AttackType - Thrust, Slash */
-     , (1668,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (1668,  49,         31) /* WeaponTime */
      , (1668,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1668, 105,          7) /* ItemWorkmanship */
-     , (1668, 131,         63) /* MaterialType - Silver */
      , (1668, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1668, 158,          2) /* WieldRequirements - RawSkill */
-     , (1668, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (1668, 160,        300) /* WieldDifficulty */
-     , (1668, 172,          5) /* AppraisalLongDescDecoration */
-     , (1668, 177,          2) /* GemCount */
-     , (1668, 178,         44) /* GemType */
      , (1668, 307,          5) /* DamageRating */
-     , (1668, 353,          5) /* WeaponType - Spear */
-     , (1668, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (1668, 8030,          0);
+     , (1668, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1668,   1, True ) /* Stuck */
@@ -40,17 +23,10 @@ VALUES (1668,   1, True ) /* Stuck */
      , (1668,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1668,  21,       0) /* WeaponLength */
-     , (1668,  22,    0.72) /* DamageVariance */
-     , (1668,  26,       0) /* MaximumVelocity */
-     , (1668,  29,    1.01) /* WeaponDefense */
-     , (1668,  39, 1.29999995231628) /* DefaultScale */
-     , (1668,  62,    1.13) /* WeaponOffense */
-     , (1668,  63,       1) /* DamageMod */;
+VALUES (1668,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1668,   1, 'Banderling Breeder') /* Name */
-     , (1668,  16, 'Frost Spine Glaive') /* LongDesc */
      , (1668, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

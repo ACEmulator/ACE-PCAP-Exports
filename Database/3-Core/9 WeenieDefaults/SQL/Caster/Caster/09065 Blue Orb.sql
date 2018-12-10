@@ -29,8 +29,6 @@ VALUES (9065,  29,       1) /* WeaponDefense */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9065,   1, 'Blue Orb') /* Name */
-     , (9065,   7, 'To a true flower among patroness'' may you always blossom') /* Inscription */
-     , (9065,   8, 'White Falcon') /* ScribeName */
      , (9065,  16, 'A magical orb. Its surface seems to be composed of many overlaid leaves of metal. On the edge of one leaf, the word "Auberean" is inscribed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

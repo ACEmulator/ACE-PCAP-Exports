@@ -46,18 +46,8 @@ VALUES (41797, 8040, 4180673970, 30, 145, 80.411, 1, 0, 0, 0) /* PCAPRecordedLoc
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41797, 8000, 3360280393) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (41797,   1, 380, 0, 0) /* Strength */
-     , (41797,   2, 400, 0, 0) /* Endurance */
-     , (41797,   3, 500, 0, 0) /* Quickness */
-     , (41797,   4, 350, 0, 0) /* Coordination */
-     , (41797,   5, 490, 0, 0) /* Focus */
-     , (41797,   6, 490, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41797,   1,   905, 0, 0, 905) /* MaxHealth */
-     , (41797,   3,  6400, 0, 0, 6400) /* MaxStamina */
-     , (41797,   5,  7690, 0, 0, 7690) /* MaxMana */;
+VALUES (41797,   1,   905, 0, 0, 905) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41797, 67115264, 0, 0);

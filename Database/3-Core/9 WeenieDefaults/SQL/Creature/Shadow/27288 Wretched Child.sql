@@ -6,11 +6,9 @@ VALUES (27288, 'shadowchildwretched', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27288,   1,         16) /* ItemType - Creature */
      , (27288,   2,         22) /* CreatureType - Shadow */
-     , (27288,   5,       6718) /* EncumbranceVal */
      , (27288,   6,        255) /* ItemsCapacity */
      , (27288,   7,        255) /* ContainersCapacity */
      , (27288,  16,          1) /* ItemUseable - No */
-     , (27288,  19,          0) /* Value */
      , (27288,  25,        160) /* Level */
      , (27288,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (27288, 113,          1) /* Gender - Male */
@@ -20,7 +18,6 @@ VALUES (27288,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27288,   1, True ) /* Stuck */
-     , (27288,   2, True ) /* Open */
      , (27288,  12, True ) /* ReportCollisions */
      , (27288,  13, False) /* Ethereal */
      , (27288,  14, True ) /* GravityStatus */
@@ -33,8 +30,6 @@ VALUES (27288,  39,    0.75) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27288,   1, 'Wretched Child') /* Name */
-     , (27288,  14, 'Use this item to close it.') /* Use */
-     , (27288,  16, 'Killed by Thrillhouse''s Golem.') /* LongDesc */
      , (27288, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

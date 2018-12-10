@@ -6,58 +6,23 @@ VALUES (36864, 'ace36864-virindiprofane', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36864,   1,         16) /* ItemType - Creature */
      , (36864,   2,         19) /* CreatureType - Virindi */
-     , (36864,   5,      13775) /* EncumbranceVal */
      , (36864,   6,        255) /* ItemsCapacity */
      , (36864,   7,        255) /* ContainersCapacity */
      , (36864,  16,          1) /* ItemUseable - No */
-     , (36864,  19,       2500) /* Value */
      , (36864,  25,        100) /* Level */
-     , (36864,  38,        300) /* ResistLockpick */
-     , (36864,  44,         20) /* Damage */
-     , (36864,  45,          4) /* DamageType - Bludgeon */
-     , (36864,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (36864,  49,         10) /* WeaponTime */
      , (36864,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36864, 105,          9) /* ItemWorkmanship */
-     , (36864, 106,        300) /* ItemSpellcraft */
-     , (36864, 107,        662) /* ItemCurMana */
-     , (36864, 108,        662) /* ItemMaxMana */
-     , (36864, 109,          0) /* ItemDifficulty */
-     , (36864, 110,          0) /* ItemAllegianceRankLimit */
-     , (36864, 115,          0) /* ItemSkillLevelLimit */
-     , (36864, 117,        350) /* ItemManaCost */
-     , (36864, 131,         20) /* MaterialType - Diamond */
      , (36864, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36864, 172,          1) /* AppraisalLongDescDecoration */
-     , (36864, 173,          0) /* AppraisalLockpickSuccessPercent */
-     , (36864, 177,          3) /* GemCount */
-     , (36864, 178,         39) /* GemType */
-     , (36864, 353,         10) /* WeaponType - Thrown */
-     , (36864, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36864, 8030,          0);
+     , (36864, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36864,   1, True ) /* Stuck */
-     , (36864,   2, False) /* Open */
-     , (36864,   3, True ) /* Locked */
      , (36864,  12, True ) /* ReportCollisions */
      , (36864,  13, False) /* Ethereal */
      , (36864,  14, True ) /* GravityStatus */
      , (36864,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36864,   5, -0.0666666666666667) /* ManaRate */
-     , (36864,  21,       0) /* WeaponLength */
-     , (36864,  22,    0.25) /* DamageVariance */
-     , (36864,  26,       0) /* MaximumVelocity */
-     , (36864,  29,       1) /* WeaponDefense */
-     , (36864,  62,       1) /* WeaponOffense */
-     , (36864,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36864,   1, 'Virindi Profane') /* Name */
-     , (36864,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (36864,  16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LongDesc */
      , (36864, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -90,11 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36864,   1,   500, 0, 0, 500) /* MaxHealth */
      , (36864,   3,   650, 0, 0, 650) /* MaxStamina */
      , (36864,   5,   650, 0, 0, 650) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36864,  2091,      2) 
-     , (36864,  2183,      2) 
-     , (36864,  4297,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36864, 67114253, 0, 0);

@@ -6,32 +6,14 @@ VALUES (51759, 'ace51759-rynthidsorcerer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51759,   1,         16) /* ItemType - Creature */
      , (51759,   2,         19) /* CreatureType - Virindi */
-     , (51759,   5,         75) /* EncumbranceVal */
      , (51759,   6,        255) /* ItemsCapacity */
      , (51759,   7,        255) /* ContainersCapacity */
      , (51759,  16,          1) /* ItemUseable - No */
-     , (51759,  19,       3792) /* Value */
      , (51759,  25,        300) /* Level */
-     , (51759,  28,          0) /* ArmorLevel */
-     , (51759,  36,       9999) /* ResistMagic */
      , (51759,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (51759, 105,          5) /* ItemWorkmanship */
-     , (51759, 131,          5) /* MaterialType - Satin */
      , (51759, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (51759, 158,          7) /* WieldRequirements - Level */
-     , (51759, 159,          1) /* WieldSkilltype - Axe */
-     , (51759, 160,         90) /* WieldDifficulty */
-     , (51759, 172,          1) /* AppraisalLongDescDecoration */
-     , (51759, 265,         78) /* EquipmentSetId - CloakTwoHandedCombat */
      , (51759, 307,         20) /* DamageRating */
-     , (51759, 319,          3) /* ItemMaxLevel */
-     , (51759, 320,          2) /* ItemXpStyle - ScalesWithLevel */
-     , (51759, 352,          2) /* CloakWeaveProc */
      , (51759, 8007,          0) /* PCAPRecordedAutonomousMovement */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (51759,   4,          0) /* ItemTotalXp */
-     , (51759,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51759,   1, True ) /* Stuck */
@@ -39,22 +21,10 @@ VALUES (51759,   1, True ) /* Stuck */
      , (51759,  13, False) /* Ethereal */
      , (51759,  14, True ) /* GravityStatus */
      , (51759,  19, True ) /* Attackable */
-     , (51759,  42, True ) /* AllowEdgeSlide */
-     , (51759, 100, False) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51759,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (51759,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (51759,  15,       1) /* ArmorModVsBludgeon */
-     , (51759,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (51759,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (51759,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (51759,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (51759, 165,       1) /* ArmorModVsNether */;
+     , (51759,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51759,   1, 'Rynthid Sorcerer') /* Name */
-     , (51759,  16, 'Chevron Cloak') /* LongDesc */
      , (51759, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

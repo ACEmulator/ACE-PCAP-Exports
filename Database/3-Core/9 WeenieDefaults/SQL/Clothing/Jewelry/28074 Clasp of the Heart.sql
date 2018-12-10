@@ -33,8 +33,6 @@ VALUES (28074,   5,   -0.05) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28074,   1, 'Clasp of the Heart') /* Name */
-     , (28074,   7, 'phish') /* Inscription */
-     , (28074,   8, 'The Phish') /* ScribeName */
      , (28074,  16, 'This simple silver clasp appears to be no more than an ornamental piece of jewelry to the untrained eye. Those who have studied magic will immediately notice that the silver is woven delicately and intricately with pyreal and golden bands. The result is a potent magical boon. A simple heart has been carved into the metal of the bracelet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

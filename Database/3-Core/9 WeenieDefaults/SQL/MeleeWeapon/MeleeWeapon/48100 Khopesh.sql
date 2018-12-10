@@ -5,20 +5,15 @@ VALUES (48100, 'ace48100-khopesh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48100,   1,          1) /* ItemType - MeleeWeapon */
-     , (48100,   2,         14) /* CreatureType - Undead */
      , (48100,   5,        400) /* EncumbranceVal */
      , (48100,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (48100,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48100,  16,          1) /* ItemUseable - No */
      , (48100,  19,        200) /* Value */
-     , (48100,  25,        240) /* Level */
      , (48100,  51,          1) /* CombatUse - Melee */
      , (48100,  65,          1) /* Placement - RightHandCombat */
      , (48100,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48100, 151,          2) /* HookType - Wall */
-     , (48100, 307,          9) /* DamageRating */
-     , (48100, 315,         10) /* CritResistRating */
-     , (48100, 316,         20) /* CritDamageResistRating */;
+     , (48100, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48100,   1, False) /* Stuck */
@@ -49,16 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48100,   3, 3361010045) /* Wielder */
      , (48100, 8000, 3361010046) /* PCAPRecordedObjectIID */
      , (48100, 8008, 3361010045) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48100,   1, 210, 0, 0) /* Strength */
-     , (48100,   2, 220, 0, 0) /* Endurance */
-     , (48100,   3, 230, 0, 0) /* Quickness */
-     , (48100,   4, 230, 0, 0) /* Coordination */
-     , (48100,   5, 320, 0, 0) /* Focus */
-     , (48100,   6, 330, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48100,   1,  4600, 0, 0, 4600) /* MaxHealth */
-     , (48100,   3,  5620, 0, 0, 5619) /* MaxStamina */
-     , (48100,   5,  1880, 0, 0, 1771) /* MaxMana */;

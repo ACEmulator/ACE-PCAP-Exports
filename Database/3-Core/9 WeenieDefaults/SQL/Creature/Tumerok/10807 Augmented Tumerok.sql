@@ -6,49 +6,24 @@ VALUES (10807, 'tumerokaugmented', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10807,   1,         16) /* ItemType - Creature */
      , (10807,   2,          6) /* CreatureType - Tumerok */
-     , (10807,   5,          5) /* EncumbranceVal */
      , (10807,   6,        255) /* ItemsCapacity */
      , (10807,   7,        255) /* ContainersCapacity */
      , (10807,  16,          1) /* ItemUseable - No */
-     , (10807,  19,          1) /* Value */
      , (10807,  25,        100) /* Level */
-     , (10807,  33,         -2) /* Bonded - Destroy */
-     , (10807,  44,        114) /* Damage */
-     , (10807,  45,          2) /* DamageType - Pierce */
-     , (10807,  48,          0) /* WeaponSkill - None */
-     , (10807,  49,         -1) /* WeaponTime */
      , (10807,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10807, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10807, 179,          0) /* ImbuedEffect - Undef */
-     , (10807, 303,          0) /* ImbuedEffect2 - Undef */
-     , (10807, 304,          0) /* ImbuedEffect3 - Undef */
-     , (10807, 305,          0) /* ImbuedEffect4 - Undef */
-     , (10807, 306,          0) /* ImbuedEffect5 - Undef */
      , (10807, 307,          5) /* DamageRating */
-     , (10807, 313,          0) /* CritRating */
-     , (10807, 314,          0) /* CritDamageRating */
-     , (10807, 386,          0) /* Overpower */
-     , (10807, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (10807, 8030,          0);
+     , (10807, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10807,   1, True ) /* Stuck */
      , (10807,  12, True ) /* ReportCollisions */
      , (10807,  13, False) /* Ethereal */
      , (10807,  14, True ) /* GravityStatus */
-     , (10807,  19, True ) /* Attackable */
-     , (10807,  69, False) /* IsSellable */;
+     , (10807,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10807,  21,       0) /* WeaponLength */
-     , (10807,  22,     0.3) /* DamageVariance */
-     , (10807,  26,       0) /* MaximumVelocity */
-     , (10807,  29,       1) /* WeaponDefense */
-     , (10807,  39, 1.29999995231628) /* DefaultScale */
-     , (10807,  62,       1) /* WeaponOffense */
-     , (10807,  63,       1) /* DamageMod */
-     , (10807, 149,       0) /* WeaponMissileDefense */
-     , (10807, 150,       0) /* WeaponMagicDefense */;
+VALUES (10807,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10807,   1, 'Augmented Tumerok') /* Name */

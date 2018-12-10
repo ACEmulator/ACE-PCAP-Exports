@@ -20,7 +20,6 @@ VALUES (53334,   1,      32768) /* ItemType - Caster */
      , (53334, 107,       4922) /* ItemCurMana */
      , (53334, 108,       5000) /* ItemMaxMana */
      , (53334, 109,        300) /* ItemDifficulty */
-     , (53334, 114,          0) /* Attuned - Normal */
      , (53334, 131,         75) /* MaterialType - Oak */
      , (53334, 151,          2) /* HookType - Wall */
      , (53334, 158,          2) /* WieldRequirements - RawSkill */
@@ -28,14 +27,7 @@ VALUES (53334,   1,      32768) /* ItemType - Caster */
      , (53334, 160,        385) /* WieldDifficulty */
      , (53334, 166,        101) /* SlayerCreatureType - Anekshay */
      , (53334, 171,         10) /* NumTimesTinkered */
-     , (53334, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (53334, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
-     , (53334, 319,         41) /* ItemMaxLevel */
-     , (53334, 320,          1) /* ItemXpStyle - Fixed */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (53334,   4, 82000000000) /* ItemTotalXp */
-     , (53334,   5, 2000000000) /* ItemBaseXp */;
+     , (53334, 179,          1) /* ImbuedEffect - CriticalStrike */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53334,   1, False) /* Stuck */
@@ -45,8 +37,7 @@ VALUES (53334,   1, False) /* Stuck */
      , (53334,  19, True ) /* Attackable */
      , (53334,  22, True ) /* Inscribable */
      , (53334,  85, True ) /* AppraisalHasAllowedWielder */
-     , (53334,  91, True ) /* Retained */
-     , (53334,  99, False) /* Ivoryable */;
+     , (53334,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53334,   5, -0.025000000372529) /* ManaRate */
@@ -73,7 +64,7 @@ VALUES (53334,   1,   33561674) /* Setup */
      , (53334,   3,  536870932) /* SoundTable */
      , (53334,   8,  100693344) /* Icon */
      , (53334,  22,  872415275) /* PhysicsEffectTable */
-     , (53334,  28,       6320) /* Spell */
+     , (53334,  28,       6320) /* Spell - RingOfSkullsII */
      , (53334,  52,  100676440) /* IconUnderlay */
      , (53334, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (53334, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

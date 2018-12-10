@@ -5,14 +5,12 @@ VALUES (47680, 'ace47680-flamingtachi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47680,   1,          1) /* ItemType - MeleeWeapon */
-     , (47680,   2,         78) /* CreatureType - Fiun */
      , (47680,   5,        450) /* EncumbranceVal */
      , (47680,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47680,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47680,  16,          1) /* ItemUseable - No */
      , (47680,  18,         32) /* UiEffects - Fire */
      , (47680,  19,        460) /* Value */
-     , (47680,  25,        115) /* Level */
      , (47680,  51,          1) /* CombatUse - Melee */
      , (47680,  65,          1) /* Placement - RightHandCombat */
      , (47680,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,8 +25,7 @@ VALUES (47680,   1, False) /* Stuck */
      , (47680,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47680,   1, 'Flaming Tachi') /* Name */
-     , (47680,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (47680,   1, 'Flaming Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47680,   1,   33555732) /* Setup */
@@ -49,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47680,   3, 3682987269) /* Wielder */
      , (47680, 8000, 3682987280) /* PCAPRecordedObjectIID */
      , (47680, 8008, 3682987269) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47680,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47680, 67111920, 0, 0);

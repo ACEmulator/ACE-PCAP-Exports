@@ -39,7 +39,7 @@ VALUES (36186,   1,   33554809) /* Setup */
      , (36186,   6,   67111919) /* PaletteBase */
      , (36186,   8,  100673901) /* Icon */
      , (36186,  22,  872415275) /* PhysicsEffectTable */
-     , (36186,  28,       4190) /* Spell */
+     , (36186,  28,       4190) /* Spell - HarbingerProtectionCold */
      , (36186, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (36186, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36186, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

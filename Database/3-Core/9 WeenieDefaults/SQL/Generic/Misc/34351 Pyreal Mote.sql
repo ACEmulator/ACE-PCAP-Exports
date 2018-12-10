@@ -26,7 +26,7 @@ VALUES (34351,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34351,   1, 'Pyreal Mote') /* Name */
-     , (34351,  16, 'Killed by Mag-lite.') /* LongDesc */;
+     , (34351,  16, 'A pyreal mote found within the Halls of Metos that are nearest to Wai Jhou. There are grooves along its side which make it unsuitable for typical applications.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34351,   1,   33556406) /* Setup */

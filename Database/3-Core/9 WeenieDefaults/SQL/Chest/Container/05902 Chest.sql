@@ -31,7 +31,6 @@ VALUES (5902,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5902,   1, 'Chest') /* Name */
      , (5902,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (5902,  15, 'A stout iron chest, wrought with icicle-shaped carvings.') /* ShortDesc */
      , (5902,  16, 'A stout iron chest, wrought with icicle-shaped carvings.') /* LongDesc */
      , (5902, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 

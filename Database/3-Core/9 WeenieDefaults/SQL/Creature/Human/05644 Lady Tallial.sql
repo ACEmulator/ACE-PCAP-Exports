@@ -6,20 +6,15 @@ VALUES (5644, 'neydisacastleladytallial', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5644,   1,         16) /* ItemType - Creature */
      , (5644,   2,         31) /* CreatureType - Human */
-     , (5644,   5,         50) /* EncumbranceVal */
      , (5644,   6,        255) /* ItemsCapacity */
      , (5644,   7,        255) /* ContainersCapacity */
      , (5644,  16,         32) /* ItemUseable - Remote */
-     , (5644,  19,        750) /* Value */
      , (5644,  25,         50) /* Level */
-     , (5644,  91,         35) /* MaxStructure */
-     , (5644,  92,         35) /* Structure */
      , (5644,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5644,  95,          8) /* RadarBlipColor - Yellow */
      , (5644, 113,          2) /* Gender - Female */
      , (5644, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5644, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5644, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (5644, 188,          1) /* HeritageGroup - Aluvian */
      , (5644, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -39,7 +34,6 @@ VALUES (5644,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5644,   1, 'Lady Tallial') /* Name */
      , (5644,   5, 'Trophy Collector') /* Template */
-     , (5644,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (5644, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

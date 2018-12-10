@@ -6,33 +6,17 @@ VALUES (44260, 'ace44260-dametularin', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44260,   1,         16) /* ItemType - Creature */
      , (44260,   2,         31) /* CreatureType - Human */
-     , (44260,   5,          0) /* EncumbranceVal */
      , (44260,   6,        255) /* ItemsCapacity */
      , (44260,   7,        255) /* ContainersCapacity */
      , (44260,  16,         32) /* ItemUseable - Remote */
-     , (44260,  19,          0) /* Value */
      , (44260,  25,        275) /* Level */
-     , (44260,  33,         -2) /* Bonded - Destroy */
-     , (44260,  44,        610) /* Damage */
-     , (44260,  45,          2) /* DamageType - Pierce */
-     , (44260,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (44260,  49,         10) /* WeaponTime */
-     , (44260,  90,         25) /* BoostValue */
-     , (44260,  91,         50) /* MaxStructure */
-     , (44260,  92,         50) /* Structure */
      , (44260,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44260,  95,          8) /* RadarBlipColor - Yellow */
      , (44260, 113,          2) /* Gender - Female */
      , (44260, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (44260, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (44260, 188,          2) /* HeritageGroup - Gharundim */
-     , (44260, 307,          5) /* DamageRating */
-     , (44260, 313,          0) /* CritRating */
-     , (44260, 314,          0) /* CritDamageRating */
-     , (44260, 353,         10) /* WeaponType - Thrown */
-     , (44260, 386,          0) /* Overpower */
-     , (44260, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (44260, 8030,          0);
+     , (44260, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44260,   1, True ) /* Stuck */
@@ -45,22 +29,11 @@ VALUES (44260,   1, True ) /* Stuck */
      , (44260,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44260,  21,       0) /* WeaponLength */
-     , (44260,  22,     0.5) /* DamageVariance */
-     , (44260,  26, 23.2000007629395) /* MaximumVelocity */
-     , (44260,  29,       1) /* WeaponDefense */
-     , (44260,  54,       3) /* UseRadius */
-     , (44260,  62,       1) /* WeaponOffense */
-     , (44260,  63,       1) /* DamageMod */
-     , (44260, 100,       2) /* HealkitMod */
-     , (44260, 147,       1) /* CriticalFrequency */
-     , (44260, 149,       0) /* WeaponMissileDefense */
-     , (44260, 150,       0) /* WeaponMagicDefense */;
+VALUES (44260,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44260,   1, 'Dame Tularin') /* Name */
      , (44260,   5, 'Royal Knight') /* Template */
-     , (44260,  16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LongDesc */
      , (44260, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

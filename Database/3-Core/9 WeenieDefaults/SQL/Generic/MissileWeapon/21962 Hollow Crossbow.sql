@@ -48,8 +48,6 @@ VALUES (21962,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21962,   1, 'Hollow Crossbow') /* Name */
-     , (21962,   7, 'Circa Survive''s perforated corpse falls before you!') /* Inscription */
-     , (21962,   8, 'Esprit Des Bannis') /* ScribeName */
      , (21962,  16, 'A crossbow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

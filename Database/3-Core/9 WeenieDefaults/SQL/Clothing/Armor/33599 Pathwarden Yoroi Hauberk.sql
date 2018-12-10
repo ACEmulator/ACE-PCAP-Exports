@@ -18,8 +18,7 @@ VALUES (33599,   1,          2) /* ItemType - Armor */
      , (33599, 107,       1000) /* ItemCurMana */
      , (33599, 108,       1000) /* ItemMaxMana */
      , (33599, 109,          0) /* ItemDifficulty */
-     , (33599, 114,          1) /* Attuned - Attuned */
-     , (33599, 324,          6) /* HeritageSpecificArmor */;
+     , (33599, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33599,   1, False) /* Stuck */
@@ -43,9 +42,7 @@ VALUES (33599,   5, -0.0333333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33599,   1, 'Pathwarden Yoroi Hauberk') /* Name */
-     , (33599,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (33599,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */
-     , (33599,  52, 'Core Hauberk Plating') /* GearPlatingName */;
+     , (33599,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33599,   1,   33554854) /* Setup */

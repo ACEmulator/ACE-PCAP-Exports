@@ -13,7 +13,6 @@ VALUES (7045,   1,        128) /* ItemType - Misc */
      , (7045,  65,        101) /* Placement - Resting */
      , (7045,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7045,  94,        128) /* TargetType - Misc */
-     , (7045, 107,          0) /* ItemCurMana */
      , (7045, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,10 +22,6 @@ VALUES (7045,   1, False) /* Stuck */
      , (7045,  14, True ) /* GravityStatus */
      , (7045,  19, True ) /* Attackable */
      , (7045,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7045,  87,       2) /* ItemEfficiency */
-     , (7045, 137,     0.2) /* ManaStoneDestroyChance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7045,   1, 'Dark Revenant Thighbone') /* Name */

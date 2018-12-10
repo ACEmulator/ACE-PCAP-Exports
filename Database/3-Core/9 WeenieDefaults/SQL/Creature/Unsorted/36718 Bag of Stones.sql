@@ -5,7 +5,6 @@ VALUES (36718, 'ace36718-bagofstones', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36718,   1,         16) /* ItemType - Creature */
-     , (36718,   5,          0) /* EncumbranceVal */
      , (36718,   6,        255) /* ItemsCapacity */
      , (36718,   7,        255) /* ContainersCapacity */
      , (36718,  16,         32) /* ItemUseable - Remote */

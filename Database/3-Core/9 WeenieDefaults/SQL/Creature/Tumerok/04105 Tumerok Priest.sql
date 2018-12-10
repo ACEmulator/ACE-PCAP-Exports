@@ -6,15 +6,12 @@ VALUES (4105, 'tumerokpriestarcher', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4105,   1,         16) /* ItemType - Creature */
      , (4105,   2,          6) /* CreatureType - Tumerok */
-     , (4105,   5,       8098) /* EncumbranceVal */
      , (4105,   6,        255) /* ItemsCapacity */
      , (4105,   7,        255) /* ContainersCapacity */
      , (4105,  16,          1) /* ItemUseable - No */
-     , (4105,  19,          0) /* Value */
      , (4105,  25,         60) /* Level */
      , (4105,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4105, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4105, 307,          5) /* DamageRating */
      , (4105, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,7 +26,6 @@ VALUES (4105,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4105,   1, 'Tumerok Priest') /* Name */
-     , (4105,  16, 'Killed by Mag-one.') /* LongDesc */
      , (4105, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

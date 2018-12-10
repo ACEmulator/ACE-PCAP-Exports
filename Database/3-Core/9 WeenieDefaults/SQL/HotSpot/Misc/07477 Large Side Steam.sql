@@ -8,19 +8,7 @@ VALUES (7477,   1,        128) /* ItemType - Misc */
      , (7477,   5,          1) /* EncumbranceVal */
      , (7477,  16,          1) /* ItemUseable - No */
      , (7477,  19,          1) /* Value */
-     , (7477,  28,        260) /* ArmorLevel */
-     , (7477,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (7477, 105,          4) /* ItemWorkmanship */
-     , (7477, 106,        318) /* ItemSpellcraft */
-     , (7477, 107,       1401) /* ItemCurMana */
-     , (7477, 108,       1401) /* ItemMaxMana */
-     , (7477, 109,        318) /* ItemDifficulty */
-     , (7477, 110,          0) /* ItemAllegianceRankLimit */
-     , (7477, 115,          0) /* ItemSkillLevelLimit */
-     , (7477, 131,         54) /* MaterialType - GromnieHide */
-     , (7477, 172,          5) /* AppraisalLongDescDecoration */
-     , (7477, 177,          4) /* GemCount */
-     , (7477, 178,         38) /* GemType */;
+     , (7477,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7477,   1, True ) /* Stuck */
@@ -28,23 +16,10 @@ VALUES (7477,   1, True ) /* Stuck */
      , (7477,  13, True ) /* Ethereal */
      , (7477,  14, True ) /* GravityStatus */
      , (7477,  19, True ) /* Attackable */
-     , (7477,  24, True ) /* UiHidden */
-     , (7477, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7477,   5, -0.0555555555555556) /* ManaRate */
-     , (7477,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (7477,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (7477,  15,       1) /* ArmorModVsBludgeon */
-     , (7477,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (7477,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (7477,  18, 1.08617687225342) /* ArmorModVsAcid */
-     , (7477,  19, 1.14271605014801) /* ArmorModVsElectric */
-     , (7477, 165,       1) /* ArmorModVsNether */;
+     , (7477,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7477,   1, 'Large Side Steam') /* Name */
-     , (7477,  16, 'Studded Leather Shirt of Endurance') /* LongDesc */;
+VALUES (7477,   1, 'Large Side Steam') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7477,   1,   33556691) /* Setup */
@@ -60,10 +35,3 @@ VALUES (7477, 8040, 2429616139, 45.88936, 71.28786, 277.6, 0.9413882, 0, 0, -0.3
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7477, 8000, 3691362625) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7477,  1540,      2) 
-     , (7477,  1562,      2) 
-     , (7477,  2061,      2) 
-     , (7477,  2108,      2) 
-     , (7477,  2113,      2) ;

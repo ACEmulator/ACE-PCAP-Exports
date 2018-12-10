@@ -17,9 +17,6 @@ VALUES (1439,   1,          1) /* ItemType - MeleeWeapon */
      , (1439,  49,         60) /* WeaponTime */
      , (1439,  51,          1) /* CombatUse - Melee */
      , (1439,  65,        101) /* Placement - Resting */
-     , (1439,  90,         50) /* BoostValue */
-     , (1439,  91,         20) /* MaxStructure */
-     , (1439,  92,         20) /* Structure */
      , (1439,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1439, 106,         60) /* ItemSpellcraft */
      , (1439, 107,       1000) /* ItemCurMana */
@@ -45,7 +42,6 @@ VALUES (1439,   5,  -0.033) /* ManaRate */
      , (1439,  29,    1.05) /* WeaponDefense */
      , (1439,  62,    1.05) /* WeaponOffense */
      , (1439,  63,       1) /* DamageMod */
-     , (1439, 100,       1) /* HealkitMod */
      , (1439, 136,       1) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -9,25 +9,9 @@ VALUES (23261,   1,    4194304) /* ItemType - CraftCookingBase */
      , (23261,  11,        100) /* MaxStackSize */
      , (23261,  12,          1) /* StackSize */
      , (23261,  16,          8) /* ItemUseable - Contained */
-     , (23261,  19,      26903) /* Value */
-     , (23261,  44,         46) /* Damage */
-     , (23261,  45,          4) /* DamageType - Bludgeon */
-     , (23261,  47,          4) /* AttackType - Slash */
-     , (23261,  48,         45) /* WeaponSkill - LightWeapons */
-     , (23261,  49,         43) /* WeaponTime */
      , (23261,  65,        101) /* Placement - Resting */
      , (23261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23261, 105,          9) /* ItemWorkmanship */
-     , (23261, 131,         39) /* MaterialType - Sapphire */
-     , (23261, 151,          2) /* HookType - Wall */
-     , (23261, 158,          2) /* WieldRequirements - RawSkill */
-     , (23261, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (23261, 160,        370) /* WieldDifficulty */
-     , (23261, 172,          5) /* AppraisalLongDescDecoration */
-     , (23261, 177,          4) /* GemCount */
-     , (23261, 178,         39) /* GemType */
-     , (23261, 353,          3) /* WeaponType - Axe */
-     , (23261, 8030,          0);
+     , (23261, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23261,   1, False) /* Stuck */
@@ -37,17 +21,10 @@ VALUES (23261,   1, False) /* Stuck */
      , (23261,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23261,  21,       0) /* WeaponLength */
-     , (23261,  22,    0.85) /* DamageVariance */
-     , (23261,  26,       0) /* MaximumVelocity */
-     , (23261,  29,    1.12) /* WeaponDefense */
-     , (23261,  39, 0.600000023841858) /* DefaultScale */
-     , (23261,  62,    1.14) /* WeaponOffense */
-     , (23261,  63,       1) /* DamageMod */;
+VALUES (23261,  39, 0.600000023841858) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23261,   1, 'Blue Guppy') /* Name */
-     , (23261,  16, 'War Hammer') /* LongDesc */
      , (23261,  20, 'Blue Guppies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

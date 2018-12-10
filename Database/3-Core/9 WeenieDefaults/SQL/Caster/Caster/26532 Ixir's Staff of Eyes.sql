@@ -36,14 +36,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26532,   5, -0.0500000007450581) /* ManaRate */
      , (26532,  29,       1) /* WeaponDefense */
      , (26532,  39, 0.600000023841858) /* DefaultScale */
-     , (26532, 144, 0.119999997317791) /* ManaConversionMod */
-     , (26532, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (26532, 144, 0.119999997317791) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26532,   1, 'Ixir''s Staff of Eyes') /* Name */
-     , (26532,   7, '
-      Proud member of the Renegade Guild') /* Inscription */
-     , (26532,   8, 'Deathspawner') /* ScribeName */
      , (26532,  15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -52,7 +48,7 @@ VALUES (26532,   1,   33558596) /* Setup */
      , (26532,   6,   67114956) /* PaletteBase */
      , (26532,   8,  100675776) /* Icon */
      , (26532,  22,  872415275) /* PhysicsEffectTable */
-     , (26532,  28,       3071) /* Spell */
+     , (26532,  28,       3071) /* Spell - WardRebirth */
      , (26532, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (26532, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26532, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

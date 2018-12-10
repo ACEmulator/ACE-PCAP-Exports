@@ -6,75 +6,36 @@ VALUES (38700, 'ace38700-cullumofceldon', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38700,   1,         16) /* ItemType - Creature */
      , (38700,   2,         31) /* CreatureType - Human */
-     , (38700,   5,         10) /* EncumbranceVal */
      , (38700,   6,        255) /* ItemsCapacity */
      , (38700,   7,        255) /* ContainersCapacity */
      , (38700,  16,         32) /* ItemUseable - Remote */
-     , (38700,  19,      50000) /* Value */
      , (38700,  25,        180) /* Level */
-     , (38700,  28,          0) /* ArmorLevel */
-     , (38700,  33,          1) /* Bonded - Bonded */
-     , (38700,  91,         50) /* MaxStructure */
-     , (38700,  92,         50) /* Structure */
      , (38700,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38700,  95,          8) /* RadarBlipColor - Yellow */
-     , (38700, 105,          7) /* ItemWorkmanship */
-     , (38700, 106,        205) /* ItemSpellcraft */
-     , (38700, 107,       1301) /* ItemCurMana */
-     , (38700, 108,       1301) /* ItemMaxMana */
-     , (38700, 109,        169) /* ItemDifficulty */
-     , (38700, 110,          0) /* ItemAllegianceRankLimit */
      , (38700, 113,          1) /* Gender - Male */
-     , (38700, 114,          0) /* Attuned - Normal */
-     , (38700, 115,          0) /* ItemSkillLevelLimit */
-     , (38700, 131,          5) /* MaterialType - Satin */
      , (38700, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38700, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38700, 172,          1) /* AppraisalLongDescDecoration */
-     , (38700, 177,          3) /* GemCount */
-     , (38700, 178,         38) /* GemType */
      , (38700, 188,          1) /* HeritageGroup - Aluvian */
-     , (38700, 280,        213) /* SharedCooldown */
      , (38700, 281,          4) /* Faction1Bits */
      , (38700, 289,          1) /* SocietyRankRadblo */
-     , (38700, 366,         54) /* UseRequiresSkill */
-     , (38700, 367,        430) /* UseRequiresSkillLevel */
-     , (38700, 369,        115) /* UseRequiresLevel */
-     , (38700, 371,         10) /* GearDamageResist */
-     , (38700, 373,         10) /* GearCritResist */
      , (38700, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38700,   1, True ) /* Stuck */
-     , (38700,   2, False) /* Open */
      , (38700,  11, True ) /* IgnoreCollisions */
      , (38700,  12, True ) /* ReportCollisions */
      , (38700,  13, False) /* Ethereal */
      , (38700,  14, True ) /* GravityStatus */
      , (38700,  19, False) /* Attackable */
      , (38700,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38700,  42, True ) /* AllowEdgeSlide */
-     , (38700,  69, True ) /* IsSellable */
-     , (38700, 100, True ) /* Dyable */;
+     , (38700,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38700,   5,   -0.05) /* ManaRate */
-     , (38700,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (38700,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38700,  15,       1) /* ArmorModVsBludgeon */
-     , (38700,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (38700,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (38700,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (38700,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (38700,  54,       3) /* UseRadius */
-     , (38700, 165,       1) /* ArmorModVsNether */
-     , (38700, 167,      45) /* CooldownDuration */;
+VALUES (38700,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38700,   1, 'Cullum of Celdon') /* Name */
      , (38700,   5, 'Jaw Collection Taskmaster') /* Template */
-     , (38700,  14, 'Use this essence to summon or dismiss your Acid Skeleton Bushi.') /* Use */
-     , (38700,  16, 'A concentrated pyreal pea.') /* LongDesc */
      , (38700, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -112,16 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38700,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38700,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38700,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38700,   279,      2) 
-     , (38700,  1093,      2) 
-     , (38700,  1486,      2) 
-     , (38700,  2094,      2) 
-     , (38700,  2098,      2) 
-     , (38700,  2594,      2) 
-     , (38700,  2595,      2) 
-     , (38700,  2614,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38700, 67109558, 0, 24)

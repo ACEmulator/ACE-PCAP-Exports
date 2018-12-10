@@ -10,15 +10,6 @@ VALUES (20955,   1,       8192) /* ItemType - Writable */
      , (20955,  19,         90) /* Value */
      , (20955,  65,        101) /* Placement - Resting */
      , (20955,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20955, 105,          3) /* ItemWorkmanship */
-     , (20955, 106,        103) /* ItemSpellcraft */
-     , (20955, 107,       2384) /* ItemCurMana */
-     , (20955, 108,       2384) /* ItemMaxMana */
-     , (20955, 109,         77) /* ItemDifficulty */
-     , (20955, 110,          0) /* ItemAllegianceRankLimit */
-     , (20955, 115,          0) /* ItemSkillLevelLimit */
-     , (20955, 131,         59) /* MaterialType - Copper */
-     , (20955, 172,          1) /* AppraisalLongDescDecoration */
      , (20955, 174,         60) /* AppraisalPages */
      , (20955, 175,         60) /* AppraisalMaxPages */;
 
@@ -30,15 +21,10 @@ VALUES (20955,   1, False) /* Stuck */
      , (20955,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20955,   5,  -0.025) /* ManaRate */
-     , (20955,  29,    1.02) /* WeaponDefense */
-     , (20955,  39, 1.22000002861023) /* DefaultScale */
-     , (20955, 144,    0.01) /* ManaConversionMod */
-     , (20955, 150,   1.015) /* WeaponMagicDefense */;
+VALUES (20955,  39, 1.22000002861023) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20955,   1, 'Gaerlan''s Diary') /* Name */
-     , (20955,  16, 'Orb of Regeneration') /* LongDesc */;
+VALUES (20955,   1, 'Gaerlan''s Diary') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20955,   1,   33556929) /* Setup */
@@ -55,12 +41,6 @@ VALUES (20955, 8040, 1449132298, 162.12, -72.65132, -29.93046, 0.183057, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20955, 8000, 3703367125) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20955,   161,      2) 
-     , (20955,   630,      2) 
-     , (20955,  1476,      2) 
-     , (20955,  3253,      2) ;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (20955, 60, 1000);

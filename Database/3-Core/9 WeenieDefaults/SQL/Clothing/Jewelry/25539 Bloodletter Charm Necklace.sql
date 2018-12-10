@@ -34,8 +34,6 @@ VALUES (25539,   5,  -0.049) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25539,   1, 'Bloodletter Charm Necklace') /* Name */
-     , (25539,   7, 'enjoy') /* Inscription */
-     , (25539,   8, 'VII th Samurai') /* ScribeName */
      , (25539,  16, 'A powerful charm crafted by Drudge Bloodletters. The magic within the necklace is now freed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

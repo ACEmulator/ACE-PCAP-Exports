@@ -24,14 +24,12 @@ VALUES (49386,   1,        128) /* ItemType - Misc */
      , (49386, 369,        185) /* UseRequiresLevel */
      , (49386, 370,         15) /* GearDamage */
      , (49386, 371,         13) /* GearDamageResist */
-     , (49386, 372,         11) /* GearCrit */
      , (49386, 373,         11) /* GearCritResist */
      , (49386, 374,          9) /* GearCritDamage */
      , (49386, 375,         14) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49386,   1, False) /* Stuck */
-     , (49386,   2, False) /* Open */
      , (49386,  11, True ) /* IgnoreCollisions */
      , (49386,  13, True ) /* Ethereal */
      , (49386,  14, True ) /* GravityStatus */
@@ -45,8 +43,7 @@ VALUES (49386,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49386,   1, 'Scorched Grievver Essence') /* Name */
-     , (49386,  14, 'Use this essence to summon or dismiss your Scorched Grievver.') /* Use */
-     , (49386,  16, 'Killed by Mag-two.') /* LongDesc */;
+     , (49386,  14, 'Use this essence to summon or dismiss your Scorched Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49386,   1,   33554817) /* Setup */

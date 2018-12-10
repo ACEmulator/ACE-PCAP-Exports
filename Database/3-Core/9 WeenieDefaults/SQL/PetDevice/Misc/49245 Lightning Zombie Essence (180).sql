@@ -11,7 +11,6 @@ VALUES (49245,   1,        128) /* ItemType - Misc */
      , (49245,  19,       9000) /* Value */
      , (49245,  33,          0) /* Bonded - Normal */
      , (49245,  65,        101) /* Placement - Resting */
-     , (49245,  90,         20) /* BoostValue */
      , (49245,  91,         50) /* MaxStructure */
      , (49245,  92,         50) /* Structure */
      , (49245,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -25,9 +24,7 @@ VALUES (49245,   1,        128) /* ItemType - Misc */
      , (49245, 370,         13) /* GearDamage */
      , (49245, 371,         14) /* GearDamageResist */
      , (49245, 372,          9) /* GearCrit */
-     , (49245, 373,         14) /* GearCritResist */
-     , (49245, 374,          8) /* GearCritDamage */
-     , (49245, 375,         12) /* GearCritDamageResist */;
+     , (49245, 374,          8) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49245,   1, False) /* Stuck */
@@ -40,7 +37,6 @@ VALUES (49245,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49245,  39, 0.400000005960464) /* DefaultScale */
-     , (49245, 100,    1.75) /* HealkitMod */
      , (49245, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

@@ -5,7 +5,6 @@ VALUES (15442, 'boltdeadlybroadhead', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15442,   1,        256) /* ItemType - MissileWeapon */
-     , (15442,   2,         62) /* CreatureType - Elemental */
      , (15442,   5,        100) /* EncumbranceVal */
      , (15442,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (15442,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,8 +12,6 @@ VALUES (15442,   1,        256) /* ItemType - MissileWeapon */
      , (15442,  12,         20) /* StackSize */
      , (15442,  16,          1) /* ItemUseable - No */
      , (15442,  19,        140) /* Value */
-     , (15442,  25,        160) /* Level */
-     , (15442,  26,          0) /* AccountRequirements - No_Subscription */
      , (15442,  33,         -2) /* Bonded - Destroy */
      , (15442,  44,         35) /* Damage */
      , (15442,  45,          1) /* DamageType - Slash */
@@ -23,24 +20,11 @@ VALUES (15442,   1,        256) /* ItemType - MissileWeapon */
      , (15442,  50,          2) /* AmmoType - Bolt */
      , (15442,  51,          3) /* CombatUse - Ammo */
      , (15442,  65,          1) /* Placement - RightHandCombat */
-     , (15442,  86,        180) /* MinLevel */
-     , (15442,  87,         -1) /* MaxLevel */
      , (15442,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (15442, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (15442, 151,          2) /* HookType - Wall */
      , (15442, 158,          2) /* WieldRequirements - RawSkill */
      , (15442, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (15442, 160,        230) /* WieldDifficulty */
-     , (15442, 179,          0) /* ImbuedEffect - Undef */
-     , (15442, 303,          0) /* ImbuedEffect2 - Undef */
-     , (15442, 304,          0) /* ImbuedEffect3 - Undef */
-     , (15442, 305,          0) /* ImbuedEffect4 - Undef */
-     , (15442, 306,          0) /* ImbuedEffect5 - Undef */
-     , (15442, 307,          5) /* DamageRating */
-     , (15442, 313,          0) /* CritRating */
-     , (15442, 314,          0) /* CritDamageRating */
-     , (15442, 353,         10) /* WeaponType - Thrown */
-     , (15442, 386,          0) /* Overpower */
      , (15442, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -61,15 +45,10 @@ VALUES (15442,  21,       0) /* WeaponLength */
      , (15442,  62,       1) /* WeaponOffense */
      , (15442,  63,       1) /* DamageMod */
      , (15442,  78,       1) /* Friction */
-     , (15442,  79,       0) /* Elasticity */
-     , (15442, 149,       0) /* WeaponMissileDefense */
-     , (15442, 150,       0) /* WeaponMagicDefense */;
+     , (15442,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15442,   1, 'Deadly Broadhead Quarrel') /* Name */
-     , (15442,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */
-     , (15442,  16, 'You must be a member of the Society of the Celestial Hand to enter this Portal.') /* LongDesc */
-     , (15442,  38, 'Gateway') /* AppraisalPortalDestination */;
+VALUES (15442,   1, 'Deadly Broadhead Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15442,   1,   33554730) /* Setup */
@@ -90,9 +69,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (15442,   3, 3688336586) /* Wielder */
      , (15442, 8000, 3687960709) /* PCAPRecordedObjectIID */
      , (15442, 8008, 3688336586) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (15442,   1,  2000, 0, 0, 2000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15442, 67111925, 0, 0);

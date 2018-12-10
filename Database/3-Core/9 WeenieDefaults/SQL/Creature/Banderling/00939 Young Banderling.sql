@@ -6,11 +6,9 @@ VALUES (939, 'banderlingyoung', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (939,   1,         16) /* ItemType - Creature */
      , (939,   2,          2) /* CreatureType - Banderling */
-     , (939,   5,       7531) /* EncumbranceVal */
      , (939,   6,        255) /* ItemsCapacity */
      , (939,   7,        255) /* ContainersCapacity */
      , (939,  16,          1) /* ItemUseable - No */
-     , (939,  19,          0) /* Value */
      , (939,  25,          8) /* Level */
      , (939,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (939, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (939,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (939,   1, 'Young Banderling') /* Name */
-     , (939,  16, 'Killed by Uncle P.') /* LongDesc */
      , (939, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

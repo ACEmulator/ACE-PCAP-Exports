@@ -5,14 +5,9 @@ VALUES (38347, 'ace38347-coralhollow', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38347,   1,         16) /* ItemType - Creature */
-     , (38347,   5,         50) /* EncumbranceVal */
      , (38347,   6,        255) /* ItemsCapacity */
      , (38347,   7,        255) /* ContainersCapacity */
      , (38347,  16,         32) /* ItemUseable - Remote */
-     , (38347,  19,        120) /* Value */
-     , (38347,  90,        100) /* BoostValue */
-     , (38347,  91,         30) /* MaxStructure */
-     , (38347,  92,         30) /* Structure */
      , (38347,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38347,  95,          1) /* RadarBlipColor - LifeStone */
      , (38347, 133,          1) /* ShowableOnRadar - ShowNever */
@@ -54,8 +49,7 @@ VALUES (38347,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38347,  39, 0.300000011920929) /* DefaultScale */
-     , (38347,  54,       2) /* UseRadius */
-     , (38347, 100,       1) /* HealkitMod */;
+     , (38347,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38347,   1, 'Coral Hollow') /* Name */

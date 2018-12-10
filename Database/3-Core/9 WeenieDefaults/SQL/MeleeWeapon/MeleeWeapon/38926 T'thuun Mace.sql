@@ -5,13 +5,11 @@ VALUES (38926, 'ace38926-tthuunmace', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38926,   1,          1) /* ItemType - MeleeWeapon */
-     , (38926,   2,         77) /* CreatureType - Ghost */
      , (38926,   5,        350) /* EncumbranceVal */
      , (38926,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (38926,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (38926,  16,          1) /* ItemUseable - No */
      , (38926,  19,        100) /* Value */
-     , (38926,  25,        200) /* Level */
      , (38926,  51,          1) /* CombatUse - Melee */
      , (38926,  65,          1) /* Placement - RightHandCombat */
      , (38926,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -48,6 +46,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38926,   3, 3327557641) /* Wielder */
      , (38926, 8000, 3327422557) /* PCAPRecordedObjectIID */
      , (38926, 8008, 3327557641) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38926,   1,  1370, 0, 0, 1370) /* MaxHealth */;

@@ -6,15 +6,10 @@ VALUES (40770, 'ace40770-componentexchanger', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40770,   1,         16) /* ItemType - Creature */
      , (40770,   2,         31) /* CreatureType - Human */
-     , (40770,   5,         50) /* EncumbranceVal */
      , (40770,   6,        255) /* ItemsCapacity */
      , (40770,   7,        255) /* ContainersCapacity */
      , (40770,  16,         32) /* ItemUseable - Remote */
-     , (40770,  19,       1000) /* Value */
      , (40770,  25,        180) /* Level */
-     , (40770,  90,         20) /* BoostValue */
-     , (40770,  91,         40) /* MaxStructure */
-     , (40770,  92,         40) /* Structure */
      , (40770,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (40770,  95,          8) /* RadarBlipColor - Yellow */
      , (40770, 113,          2) /* Gender - Female */
@@ -34,8 +29,7 @@ VALUES (40770,   1, True ) /* Stuck */
      , (40770,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40770,  54,       3) /* UseRadius */
-     , (40770, 100,    1.75) /* HealkitMod */;
+VALUES (40770,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40770,   1, 'Component Exchanger') /* Name */

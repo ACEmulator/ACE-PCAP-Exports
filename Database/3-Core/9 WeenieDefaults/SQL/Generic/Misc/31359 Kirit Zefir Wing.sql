@@ -10,8 +10,10 @@ VALUES (31359,   1,        128) /* ItemType - Misc */
      , (31359,  12,          1) /* StackSize */
      , (31359,  16,          1) /* ItemUseable - No */
      , (31359,  19,      10000) /* Value */
+     , (31359,  33,          1) /* Bonded - Bonded */
      , (31359,  65,        101) /* Placement - Resting */
-     , (31359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (31359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31359, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31359,   1, False) /* Stuck */
@@ -21,7 +23,8 @@ VALUES (31359,   1, False) /* Stuck */
      , (31359,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31359,   1, 'Kirit Zefir Wing') /* Name */;
+VALUES (31359,   1, 'Kirit Zefir Wing') /* Name */
+     , (31359,  16, 'A delicate wing from a Kirit Zefir.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31359,   1,   33554817) /* Setup */

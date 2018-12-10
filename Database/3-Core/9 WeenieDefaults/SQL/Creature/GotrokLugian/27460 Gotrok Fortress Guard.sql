@@ -6,14 +6,11 @@ VALUES (27460, 'lugianrenegadefortressguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27460,   1,         16) /* ItemType - Creature */
      , (27460,   2,         70) /* CreatureType - GotrokLugian */
-     , (27460,   5,       9201) /* EncumbranceVal */
      , (27460,   6,        255) /* ItemsCapacity */
      , (27460,   7,        255) /* ContainersCapacity */
      , (27460,  16,          1) /* ItemUseable - No */
-     , (27460,  19,          0) /* Value */
      , (27460,  25,        100) /* Level */
      , (27460,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (27460, 107,          0) /* ItemCurMana */
      , (27460, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27460, 307,          5) /* DamageRating */
      , (27460, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -25,14 +22,8 @@ VALUES (27460,   1, True ) /* Stuck */
      , (27460,  14, True ) /* GravityStatus */
      , (27460,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27460,  87,     0.6) /* ItemEfficiency */
-     , (27460, 137,     0.1) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27460,   1, 'Gotrok Fortress Guard') /* Name */
-     , (27460,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (27460,  16, 'Killed by Mozart''s Requiem.') /* LongDesc */
      , (27460, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

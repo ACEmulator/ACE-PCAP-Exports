@@ -5,11 +5,9 @@ VALUES (7412, 'magmasluicebar', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7412,   1,        128) /* ItemType - Misc */
-     , (7412,   2,         14) /* CreatureType - Undead */
      , (7412,   5,       1080) /* EncumbranceVal */
      , (7412,  16,          1) /* ItemUseable - No */
      , (7412,  19,        200) /* Value */
-     , (7412,  25,         60) /* Level */
      , (7412,  33,          1) /* Bonded - Bonded */
      , (7412,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7412, 114,          1) /* Attuned - Attuned */;
@@ -44,6 +42,3 @@ VALUES (7412, 8040, 18219482, 71.9424, -23.5868, -65.9, 0.9286557, 0, 0, -0.3709
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7412, 8000, 3689363013) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7412,   1,   235, 0, 0, 235) /* MaxHealth */;

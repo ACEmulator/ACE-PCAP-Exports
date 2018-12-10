@@ -36,7 +36,7 @@ VALUES (7784,   1,   33554556) /* Setup */
      , (7784,   3,  536870945) /* SoundTable */
      , (7784,   8,  100667424) /* Icon */
      , (7784,  22,  872415275) /* PhysicsEffectTable */
-     , (7784,  28,       1992) /* Spell */
+     , (7784,  28,       1992) /* Spell - CampingMastery */
      , (7784, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (7784, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (7784, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;

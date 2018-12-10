@@ -6,11 +6,9 @@ VALUES (48777, 'ace48777-grularrwaydo', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48777,   1,         16) /* ItemType - Creature */
      , (48777,   2,         31) /* CreatureType - Human */
-     , (48777,   5,       6479) /* EncumbranceVal */
      , (48777,   6,        255) /* ItemsCapacity */
      , (48777,   7,        255) /* ContainersCapacity */
      , (48777,  16,         32) /* ItemUseable - Remote */
-     , (48777,  19,          0) /* Value */
      , (48777,  25,        210) /* Level */
      , (48777,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (48777,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (48777,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48777,   1, 'Grularr Wa''ydo') /* Name */
      , (48777,   5, 'Artifact Collector') /* Template */
-     , (48777,  16, 'Killed by Ujiio.') /* LongDesc */
      , (48777, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

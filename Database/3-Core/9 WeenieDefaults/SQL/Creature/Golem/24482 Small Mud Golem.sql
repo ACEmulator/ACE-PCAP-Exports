@@ -6,26 +6,12 @@ VALUES (24482, 'golemmudmini', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24482,   1,         16) /* ItemType - Creature */
      , (24482,   2,         13) /* CreatureType - Golem */
-     , (24482,   5,       6728) /* EncumbranceVal */
      , (24482,   6,        255) /* ItemsCapacity */
      , (24482,   7,        255) /* ContainersCapacity */
      , (24482,  16,          1) /* ItemUseable - No */
-     , (24482,  19,          0) /* Value */
      , (24482,  25,        100) /* Level */
-     , (24482,  28,          0) /* ArmorLevel */
      , (24482,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24482, 105,          7) /* ItemWorkmanship */
-     , (24482, 106,        187) /* ItemSpellcraft */
-     , (24482, 107,       1001) /* ItemCurMana */
-     , (24482, 108,       1001) /* ItemMaxMana */
-     , (24482, 109,        140) /* ItemDifficulty */
-     , (24482, 110,          0) /* ItemAllegianceRankLimit */
-     , (24482, 115,          0) /* ItemSkillLevelLimit */
-     , (24482, 131,          5) /* MaterialType - Satin */
      , (24482, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24482, 172,          5) /* AppraisalLongDescDecoration */
-     , (24482, 177,          1) /* GemCount */
-     , (24482, 178,         14) /* GemType */
      , (24482, 307,          2) /* DamageRating */
      , (24482, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -34,27 +20,16 @@ VALUES (24482,   1, True ) /* Stuck */
      , (24482,  12, True ) /* ReportCollisions */
      , (24482,  13, False) /* Ethereal */
      , (24482,  14, True ) /* GravityStatus */
-     , (24482,  19, True ) /* Attackable */
-     , (24482, 100, True ) /* Dyable */;
+     , (24482,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24482,   5,   -0.05) /* ManaRate */
-     , (24482,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (24482,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (24482,  15,       1) /* ArmorModVsBludgeon */
-     , (24482,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (24482,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (24482,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (24482,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (24482,  39,    0.25) /* DefaultScale */
-     , (24482, 165,       1) /* ArmorModVsNether */
+VALUES (24482,  39,    0.25) /* DefaultScale */
      , (24482, 8010,       0) /* PCAPRecordedVelocityX */
      , (24482, 8011,       0) /* PCAPRecordedVelocityY */
      , (24482, 8012, -0.483158856630325) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24482,   1, 'Small Mud Golem') /* Name */
-     , (24482,  16, 'Killed by Fquicker.') /* LongDesc */
      , (24482, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,9 +62,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24482,   1,   540, 0, 0, 540) /* MaxHealth */
      , (24482,   3,   500, 0, 0, 500) /* MaxStamina */
      , (24482,   5,   455, 0, 0, 455) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24482,  1034,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24482, 67112774, 0, 0);

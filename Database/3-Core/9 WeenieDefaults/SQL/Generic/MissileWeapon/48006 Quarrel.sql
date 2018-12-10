@@ -5,7 +5,6 @@ VALUES (48006, 'ace48006-quarrel', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48006,   1,        256) /* ItemType - MissileWeapon */
-     , (48006,   2,         62) /* CreatureType - Elemental */
      , (48006,   5,        720) /* EncumbranceVal */
      , (48006,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48006,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,7 +12,6 @@ VALUES (48006,   1,        256) /* ItemType - MissileWeapon */
      , (48006,  12,        144) /* StackSize */
      , (48006,  16,          1) /* ItemUseable - No */
      , (48006,  19,        144) /* Value */
-     , (48006,  25,        500) /* Level */
      , (48006,  33,         -2) /* Bonded - Destroy */
      , (48006,  44,        161) /* Damage */
      , (48006,  45,          2) /* DamageType - Pierce */
@@ -22,11 +20,7 @@ VALUES (48006,   1,        256) /* ItemType - MissileWeapon */
      , (48006,  50,          2) /* AmmoType - Bolt */
      , (48006,  51,          3) /* CombatUse - Ammo */
      , (48006,  65,          1) /* Placement - RightHandCombat */
-     , (48006,  90,         50) /* BoostValue */
-     , (48006,  91,         20) /* MaxStructure */
-     , (48006,  92,         20) /* Structure */
      , (48006,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48006, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (48006, 151,          2) /* HookType - Wall */
      , (48006, 179,          0) /* ImbuedEffect - Undef */
      , (48006, 303,          0) /* ImbuedEffect2 - Undef */
@@ -57,13 +51,11 @@ VALUES (48006,  21,       0) /* WeaponLength */
      , (48006,  63,       1) /* DamageMod */
      , (48006,  78,       1) /* Friction */
      , (48006,  79,       0) /* Elasticity */
-     , (48006, 100,       1) /* HealkitMod */
      , (48006, 149,       0) /* WeaponMissileDefense */
      , (48006, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48006,   1, 'Quarrel') /* Name */
-     , (48006,   5, 'Warden of the Deep') /* Template */;
+VALUES (48006,   1, 'Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48006,   1,   33554730) /* Setup */
@@ -84,19 +76,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48006,   3, 3701375362) /* Wielder */
      , (48006, 8000, 3701373685) /* PCAPRecordedObjectIID */
      , (48006, 8008, 3701375362) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48006,   1, 500, 0, 0) /* Strength */
-     , (48006,   2, 500, 0, 0) /* Endurance */
-     , (48006,   3, 500, 0, 0) /* Quickness */
-     , (48006,   4, 500, 0, 0) /* Coordination */
-     , (48006,   5, 500, 0, 0) /* Focus */
-     , (48006,   6, 500, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48006,   1,   750, 0, 0, 750) /* MaxHealth */
-     , (48006,   3,  1000, 0, 0, 1000) /* MaxStamina */
-     , (48006,   5,  1500, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48006, 67111919, 0, 0);

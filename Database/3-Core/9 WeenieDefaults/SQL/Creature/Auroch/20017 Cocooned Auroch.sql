@@ -6,11 +6,9 @@ VALUES (20017, 'cocoonedauroch', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20017,   1,         16) /* ItemType - Creature */
      , (20017,   2,         11) /* CreatureType - Auroch */
-     , (20017,   5,       6140) /* EncumbranceVal */
      , (20017,   6,        255) /* ItemsCapacity */
      , (20017,   7,        255) /* ContainersCapacity */
      , (20017,  16,          1) /* ItemUseable - No */
-     , (20017,  19,          0) /* Value */
      , (20017,  25,         13) /* Level */
      , (20017,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (20017,  95,          2) /* RadarBlipColor - Gold */
@@ -33,7 +31,6 @@ VALUES (20017,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20017,   1, 'Cocooned Auroch') /* Name */
      , (20017,   5, 'Dying') /* Template */
-     , (20017,  16, 'Killed by Callaway.') /* LongDesc */
      , (20017, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

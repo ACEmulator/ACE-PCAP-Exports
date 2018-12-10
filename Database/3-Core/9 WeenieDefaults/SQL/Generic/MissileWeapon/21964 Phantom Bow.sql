@@ -51,8 +51,6 @@ VALUES (21964,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21964,   1, 'Phantom Bow') /* Name */
-     , (21964,   7, 'the wwwyzzerdd.com') /* Inscription */
-     , (21964,   8, 'C tan') /* ScribeName */
      , (21964,  16, 'A bow with a ghostly hue crafted from pure chorizite.') /* LongDesc */
      , (21964,  25, 'Fenn') /* CraftsmanName */;
 

@@ -43,8 +43,6 @@ VALUES (8134,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8134,   1, 'Ashbane') /* Name */
-     , (8134,   7, 'From the clutches of Lady Aerfalle by: Kurse, Robz, Organic Ballz, Kementari, Fragma, Avtar, Flichter II, Conjurer R, oh yeah and Brently =]') /* Inscription */
-     , (8134,   8, 'Kurse') /* ScribeName */
      , (8134,  16, 'A flaming sword, wrought from magically-reinforced silver. Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

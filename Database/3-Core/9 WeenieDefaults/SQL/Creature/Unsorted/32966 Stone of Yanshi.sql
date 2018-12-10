@@ -5,23 +5,12 @@ VALUES (32966, 'ace32966-stoneofyanshi', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32966,   1,         16) /* ItemType - Creature */
-     , (32966,   5,         45) /* EncumbranceVal */
      , (32966,   6,        255) /* ItemsCapacity */
      , (32966,   7,        255) /* ContainersCapacity */
      , (32966,  16,         32) /* ItemUseable - Remote */
-     , (32966,  19,       3854) /* Value */
      , (32966,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32966,  95,          3) /* RadarBlipColor - White */
-     , (32966, 105,          7) /* ItemWorkmanship */
-     , (32966, 106,        190) /* ItemSpellcraft */
-     , (32966, 107,       1401) /* ItemCurMana */
-     , (32966, 108,       1401) /* ItemMaxMana */
-     , (32966, 109,        221) /* ItemDifficulty */
-     , (32966, 110,          0) /* ItemAllegianceRankLimit */
-     , (32966, 115,          0) /* ItemSkillLevelLimit */
-     , (32966, 131,         63) /* MaterialType - Silver */
      , (32966, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (32966, 172,          1) /* AppraisalLongDescDecoration */
      , (32966, 307,          0) /* DamageRating */
      , (32966, 308,          0) /* DamageResistRating */
      , (32966, 313,          0) /* CritRating */
@@ -59,12 +48,10 @@ VALUES (32966,   1, True ) /* Stuck */
      , (32966,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32966,   5,   -0.05) /* ManaRate */
-     , (32966,  54,       3) /* UseRadius */;
+VALUES (32966,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32966,   1, 'Stone of Yanshi') /* Name */
-     , (32966,  16, 'Necklace of Protection') /* LongDesc */
      , (32966, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -82,7 +69,3 @@ VALUES (32966, 8040, 3111059485, 83.561, 108.67, 19.2777, 1, 0, 0, 0) /* PCAPRec
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32966, 8000, 3684933940) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32966,  1311,      2) 
-     , (32966,  3503,      2) ;

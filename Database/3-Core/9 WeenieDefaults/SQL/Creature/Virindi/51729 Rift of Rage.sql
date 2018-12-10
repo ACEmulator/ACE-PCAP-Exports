@@ -6,11 +6,9 @@ VALUES (51729, 'ace51729-riftofrage', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51729,   1,         16) /* ItemType - Creature */
      , (51729,   2,         19) /* CreatureType - Virindi */
-     , (51729,   5,       6129) /* EncumbranceVal */
      , (51729,   6,        255) /* ItemsCapacity */
      , (51729,   7,        255) /* ContainersCapacity */
      , (51729,  16,          1) /* ItemUseable - No */
-     , (51729,  19,          0) /* Value */
      , (51729,  25,        250) /* Level */
      , (51729,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (51729, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -29,7 +27,6 @@ VALUES (51729,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51729,   1, 'Rift of Rage') /* Name */
-     , (51729,  16, 'Killed by Jakka''s Wisp.') /* LongDesc */
      , (51729, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

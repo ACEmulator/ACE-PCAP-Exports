@@ -27,8 +27,7 @@ VALUES (52191,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52191,  29,     1.1) /* WeaponDefense */
      , (52191,  39,    0.75) /* DefaultScale */
-     , (52191, 144, 1.15773404036276E-314) /* ManaConversionMod */
-     , (52191, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (52191, 144, 1.15773404036276E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52191,   1, 'Casting Jack o'' Lantern') /* Name */

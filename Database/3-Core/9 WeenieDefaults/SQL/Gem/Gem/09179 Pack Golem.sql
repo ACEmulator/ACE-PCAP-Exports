@@ -26,9 +26,6 @@ VALUES (9179,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9179,   1, 'Pack Golem') /* Name */
-     , (9179,   7, 'Hi! I''m Woody, if I''m lost please return me to Solly! Keep me warm, but not too warm!') /* Inscription */
-     , (9179,   8, 'Soliel') /* ScribeName */
-     , (9179,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (9179,  16, 'Your very own Wood Golem! Real wood construction and realistic facial moss. Hand milled and assembled in the hills of Ispar by a lonely old man in his workshop.') /* LongDesc */
      , (9179, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
@@ -44,6 +41,3 @@ VALUES (9179,   1,   33556428) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9179,   2, 3658163641) /* Container */
      , (9179, 8000, 3658163630) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9179,  5988,      2) ;

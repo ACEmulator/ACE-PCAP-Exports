@@ -21,11 +21,7 @@ VALUES (22541,   1,        256) /* ItemType - MissileWeapon */
      , (22541,  51,          2) /* CombatUse - Missle */
      , (22541,  65,          1) /* Placement - RightHandCombat */
      , (22541,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (22541, 307,          5) /* DamageRating */
-     , (22541, 313,          0) /* CritRating */
-     , (22541, 314,          0) /* CritDamageRating */
      , (22541, 353,         10) /* WeaponType - Thrown */
-     , (22541, 386,          0) /* Overpower */
      , (22541, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,9 +41,7 @@ VALUES (22541,  21,       0) /* WeaponLength */
      , (22541,  62,       1) /* WeaponOffense */
      , (22541,  63,       1) /* DamageMod */
      , (22541,  78,       1) /* Friction */
-     , (22541,  79,       0) /* Elasticity */
-     , (22541, 149,       0) /* WeaponMissileDefense */
-     , (22541, 150,       0) /* WeaponMagicDefense */;
+     , (22541,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22541,   1, 'Acid Spines') /* Name */;

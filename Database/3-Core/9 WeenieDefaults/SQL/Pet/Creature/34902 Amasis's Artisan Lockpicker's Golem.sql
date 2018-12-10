@@ -12,10 +12,8 @@ VALUES (34902,   1,         16) /* ItemType - Creature */
      , (34902,  25,          1) /* Level */
      , (34902,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (34902,  95,          8) /* RadarBlipColor - Yellow */
-     , (34902, 113,          2) /* Gender - Female */
      , (34902, 133,          1) /* ShowableOnRadar - ShowNever */
      , (34902, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (34902, 188,          1) /* HeritageGroup - Aluvian */
      , (34902, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,12 +37,6 @@ VALUES (34902,   1,   33559702) /* Setup */
      , (34902,   3,  536870933) /* SoundTable */
      , (34902,   6,   67116739) /* PaletteBase */
      , (34902,   8,  100667940) /* Icon */
-     , (34902,   9,   83890282) /* EyesTexture */
-     , (34902,  10,   83890294) /* NoseTexture */
-     , (34902,  11,   83890350) /* MouthTexture */
-     , (34902,  15,   67117074) /* HairPalette */
-     , (34902,  16,   67109566) /* EyesPalette */
-     , (34902,  17,   67109558) /* SkinPalette */
      , (34902,  22,  872415332) /* PhysicsEffectTable */
      , (34902, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (34902, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */

@@ -6,37 +6,13 @@ VALUES (31910, 'ace31910-shallowsshredder', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31910,   1,         16) /* ItemType - Creature */
      , (31910,   2,         27) /* CreatureType - ShallowsShark */
-     , (31910,   5,        292) /* EncumbranceVal */
      , (31910,   6,        255) /* ItemsCapacity */
      , (31910,   7,        255) /* ContainersCapacity */
      , (31910,  16,          1) /* ItemUseable - No */
-     , (31910,  19,      14906) /* Value */
      , (31910,  25,        160) /* Level */
-     , (31910,  44,         64) /* Damage */
-     , (31910,  45,         16) /* DamageType - Fire */
-     , (31910,  47,          6) /* AttackType - Thrust, Slash */
-     , (31910,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (31910,  49,         23) /* WeaponTime */
      , (31910,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31910, 105,          9) /* ItemWorkmanship */
-     , (31910, 106,        309) /* ItemSpellcraft */
-     , (31910, 107,        794) /* ItemCurMana */
-     , (31910, 108,        794) /* ItemMaxMana */
-     , (31910, 109,        170) /* ItemDifficulty */
-     , (31910, 110,          0) /* ItemAllegianceRankLimit */
-     , (31910, 115,        329) /* ItemSkillLevelLimit */
-     , (31910, 131,         77) /* MaterialType - Teak */
      , (31910, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31910, 158,          2) /* WieldRequirements - RawSkill */
-     , (31910, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (31910, 160,        420) /* WieldDifficulty */
-     , (31910, 172,          5) /* AppraisalLongDescDecoration */
-     , (31910, 176,         44) /* AppraisalItemSkill */
-     , (31910, 177,          1) /* GemCount */
-     , (31910, 178,         38) /* GemType */
-     , (31910, 353,          7) /* WeaponType - Staff */
-     , (31910, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (31910, 8030,          0);
+     , (31910, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31910,   1, True ) /* Stuck */
@@ -46,18 +22,10 @@ VALUES (31910,   1, True ) /* Stuck */
      , (31910,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31910,   5, -0.0555555555555556) /* ManaRate */
-     , (31910,  21,       0) /* WeaponLength */
-     , (31910,  22,    0.45) /* DamageVariance */
-     , (31910,  26,       0) /* MaximumVelocity */
-     , (31910,  29,    1.18) /* WeaponDefense */
-     , (31910,  39, 1.20000004768372) /* DefaultScale */
-     , (31910,  62,    1.11) /* WeaponOffense */
-     , (31910,  63,       1) /* DamageMod */;
+VALUES (31910,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31910,   1, 'Shallows Shredder') /* Name */
-     , (31910,  16, 'Flaming Stick of Defender') /* LongDesc */
      , (31910, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -90,12 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (31910,   1,  1500, 0, 0, 1500) /* MaxHealth */
      , (31910,   3,  2200, 0, 0, 2200) /* MaxStamina */
      , (31910,   5,   260, 0, 0, 260) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31910,  1605,      2) 
-     , (31910,  2096,      2) 
-     , (31910,  4666,      2) 
-     , (31910,  5785,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31910, 67116713, 0, 0);

@@ -6,56 +6,16 @@ VALUES (38720, 'ace38720-societyvaultkeeper', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38720,   1,         16) /* ItemType - Creature */
      , (38720,   2,         31) /* CreatureType - Human */
-     , (38720,   5,        150) /* EncumbranceVal */
      , (38720,   6,        255) /* ItemsCapacity */
      , (38720,   7,        255) /* ContainersCapacity */
      , (38720,  16,         32) /* ItemUseable - Remote */
-     , (38720,  19,       4856) /* Value */
      , (38720,  25,        250) /* Level */
-     , (38720,  28,        259) /* ArmorLevel */
-     , (38720,  33,          1) /* Bonded - Bonded */
      , (38720,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38720,  95,          8) /* RadarBlipColor - Yellow */
-     , (38720, 105,          6) /* ItemWorkmanship */
-     , (38720, 106,        253) /* ItemSpellcraft */
-     , (38720, 107,       1307) /* ItemCurMana */
-     , (38720, 108,       1307) /* ItemMaxMana */
-     , (38720, 109,        253) /* ItemDifficulty */
-     , (38720, 110,          0) /* ItemAllegianceRankLimit */
      , (38720, 113,          1) /* Gender - Male */
-     , (38720, 115,          0) /* ItemSkillLevelLimit */
-     , (38720, 131,         64) /* MaterialType - Steel */
      , (38720, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38720, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38720, 172,          5) /* AppraisalLongDescDecoration */
-     , (38720, 176,          7) /* AppraisalItemSkill */
-     , (38720, 177,          1) /* GemCount */
-     , (38720, 178,         26) /* GemType */
      , (38720, 188,          1) /* HeritageGroup - Aluvian */
-     , (38720, 307,          0) /* DamageRating */
-     , (38720, 308,          0) /* DamageResistRating */
-     , (38720, 313,          0) /* CritRating */
-     , (38720, 314,          0) /* CritDamageRating */
-     , (38720, 315,          0) /* CritResistRating */
-     , (38720, 316,          0) /* CritDamageResistRating */
-     , (38720, 370,          0) /* GearDamage */
-     , (38720, 371,          0) /* GearDamageResist */
-     , (38720, 372,          0) /* GearCrit */
-     , (38720, 373,          0) /* GearCritResist */
-     , (38720, 374,          0) /* GearCritDamage */
-     , (38720, 375,          0) /* GearCritDamageResist */
-     , (38720, 376,          0) /* GearHealingBoost */
-     , (38720, 377,          0) /* GearNetherResist */
-     , (38720, 378,          0) /* GearLifeResist */
-     , (38720, 379,          0) /* GearMaxHealth */
-     , (38720, 381,          0) /* PKDamageRating */
-     , (38720, 382,          0) /* PKDamageResistRating */
-     , (38720, 383,          0) /* GearPKDamageRating */
-     , (38720, 384,          0) /* GearPKDamageResistRating */
-     , (38720, 386,          0) /* Overpower */
-     , (38720, 387,          0) /* OverpowerResist */
-     , (38720, 388,          0) /* GearOverpower */
-     , (38720, 389,          0) /* GearOverpowerResist */
      , (38720, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -66,26 +26,14 @@ VALUES (38720,   1, True ) /* Stuck */
      , (38720,  14, True ) /* GravityStatus */
      , (38720,  19, False) /* Attackable */
      , (38720,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38720,  42, True ) /* AllowEdgeSlide */
-     , (38720, 100, True ) /* Dyable */;
+     , (38720,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38720,   5, -0.0555555555555556) /* ManaRate */
-     , (38720,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (38720,  14,       1) /* ArmorModVsPierce */
-     , (38720,  15,       1) /* ArmorModVsBludgeon */
-     , (38720,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (38720,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (38720,  18, 0.934970140457153) /* ArmorModVsAcid */
-     , (38720,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (38720,  54,       3) /* UseRadius */
-     , (38720, 165,       1) /* ArmorModVsNether */;
+VALUES (38720,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38720,   1, 'Society Vault Keeper') /* Name */
      , (38720,   5, 'Society Officer') /* Template */
-     , (38720,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38720,  16, 'Heavy Bracelet of Fire Protection') /* LongDesc */
      , (38720, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -123,16 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38720,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38720,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38720,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38720,  1094,      2) 
-     , (38720,  1486,      2) 
-     , (38720,  1498,      2) 
-     , (38720,  1574,      2) 
-     , (38720,  1743,      2) 
-     , (38720,  2266,      2) 
-     , (38720,  2581,      2) 
-     , (38720,  2602,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38720, 67109560, 0, 24)

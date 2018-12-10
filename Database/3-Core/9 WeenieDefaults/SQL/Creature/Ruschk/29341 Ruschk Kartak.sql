@@ -6,14 +6,11 @@ VALUES (29341, 'ruschkkartak', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29341,   1,         16) /* ItemType - Creature */
      , (29341,   2,         81) /* CreatureType - Ruschk */
-     , (29341,   5,         50) /* EncumbranceVal */
      , (29341,   6,        255) /* ItemsCapacity */
      , (29341,   7,        255) /* ContainersCapacity */
      , (29341,  16,          1) /* ItemUseable - No */
-     , (29341,  19,       2500) /* Value */
      , (29341,  25,        160) /* Level */
      , (29341,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (29341, 107,          0) /* ItemCurMana */
      , (29341, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29341, 307,          5) /* DamageRating */
      , (29341, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,15 +23,10 @@ VALUES (29341,   1, True ) /* Stuck */
      , (29341,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29341,  39, 1.20000004768372) /* DefaultScale */
-     , (29341,  87,     1.2) /* ItemEfficiency */
-     , (29341, 137,    0.15) /* ManaStoneDestroyChance */;
+VALUES (29341,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29341,   1, 'Ruschk Kartak') /* Name */
-     , (29341,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (29341,  16, 'Inscribed spell: Rending Wind
-Sends a magical blade streaking towards the target. The bolt does 42-84 points of slashing damage to the first thing it hits.') /* LongDesc */
      , (29341, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -67,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (29341,   1,   855, 0, 0, 855) /* MaxHealth */
      , (29341,   3,  1030, 0, 0, 1030) /* MaxStamina */
      , (29341,   5,   670, 0, 0, 670) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29341,  2147,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29341, 67116360, 0, 0);

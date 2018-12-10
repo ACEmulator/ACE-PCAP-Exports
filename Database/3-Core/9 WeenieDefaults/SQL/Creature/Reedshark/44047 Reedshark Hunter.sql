@@ -6,64 +6,27 @@ VALUES (44047, 'ace44047-reedsharkhunter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44047,   1,         16) /* ItemType - Creature */
      , (44047,   2,         16) /* CreatureType - Reedshark */
-     , (44047,   5,        150) /* EncumbranceVal */
      , (44047,   6,        255) /* ItemsCapacity */
      , (44047,   7,        255) /* ContainersCapacity */
      , (44047,  16,          1) /* ItemUseable - No */
-     , (44047,  19,      23495) /* Value */
      , (44047,  25,        200) /* Level */
-     , (44047,  33,         -2) /* Bonded - Destroy */
-     , (44047,  44,        610) /* Damage */
-     , (44047,  45,          2) /* DamageType - Pierce */
-     , (44047,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (44047,  49,         10) /* WeaponTime */
-     , (44047,  89,          4) /* BoosterEnum - Stamina */
-     , (44047,  90,        125) /* BoostValue */
      , (44047,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44047, 105,          8) /* ItemWorkmanship */
-     , (44047, 131,         47) /* MaterialType - WhiteSapphire */
      , (44047, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44047, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44047, 158,          7) /* WieldRequirements - Level */
-     , (44047, 159,          1) /* WieldSkilltype - Axe */
-     , (44047, 160,        180) /* WieldDifficulty */
-     , (44047, 172,          5) /* AppraisalLongDescDecoration */
-     , (44047, 177,          4) /* GemCount */
-     , (44047, 178,         26) /* GemType */
-     , (44047, 307,          5) /* DamageRating */
      , (44047, 313,         15) /* CritRating */
-     , (44047, 314,          0) /* CritDamageRating */
-     , (44047, 353,         10) /* WeaponType - Thrown */
-     , (44047, 376,          2) /* GearHealingBoost */
-     , (44047, 386,          0) /* Overpower */
-     , (44047, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (44047, 8030,          0);
+     , (44047, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44047,   1, True ) /* Stuck */
-     , (44047,   2, True ) /* Open */
      , (44047,  12, True ) /* ReportCollisions */
      , (44047,  13, False) /* Ethereal */
      , (44047,  14, True ) /* GravityStatus */
      , (44047,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44047,  21,       0) /* WeaponLength */
-     , (44047,  22,     0.5) /* DamageVariance */
-     , (44047,  26, 23.2000007629395) /* MaximumVelocity */
-     , (44047,  29,       1) /* WeaponDefense */
-     , (44047,  39,     2.5) /* DefaultScale */
-     , (44047,  62,       1) /* WeaponOffense */
-     , (44047,  63,       1) /* DamageMod */
-     , (44047, 147,       1) /* CriticalFrequency */
-     , (44047, 149,       0) /* WeaponMissileDefense */
-     , (44047, 150,       0) /* WeaponMagicDefense */;
+VALUES (44047,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44047,   1, 'Reedshark Hunter') /* Name */
-     , (44047,   5, 'Grievver Shredder Hunter') /* Template */
-     , (44047,  14, 'Use this item to drink it.') /* Use */
-     , (44047,  16, 'Heavy Bracelet') /* LongDesc */
      , (44047, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

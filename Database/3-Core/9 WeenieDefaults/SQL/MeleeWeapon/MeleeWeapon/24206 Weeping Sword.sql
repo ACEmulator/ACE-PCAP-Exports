@@ -54,8 +54,6 @@ VALUES (24206,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24206,   1, 'Weeping Sword') /* Name */
-     , (24206,   7, 'Kaxak tells you, "that count , you didn''t do the vul loser"') /* Inscription */
-     , (24206,   8, 'Gryphon') /* ScribeName */
      , (24206,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

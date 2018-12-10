@@ -6,88 +6,26 @@ VALUES (42205, 'ace42205-cutthroat', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42205,   1,         16) /* ItemType - Creature */
      , (42205,   2,         31) /* CreatureType - Human */
-     , (42205,   5,         50) /* EncumbranceVal */
      , (42205,   6,        255) /* ItemsCapacity */
      , (42205,   7,        255) /* ContainersCapacity */
      , (42205,  16,          1) /* ItemUseable - No */
-     , (42205,  19,        977) /* Value */
      , (42205,  25,         40) /* Level */
-     , (42205,  28,          0) /* ArmorLevel */
-     , (42205,  33,          0) /* Bonded - Normal */
-     , (42205,  44,         21) /* Damage */
-     , (42205,  45,          1) /* DamageType - Slash */
-     , (42205,  47,          4) /* AttackType - Slash */
-     , (42205,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (42205,  49,         44) /* WeaponTime */
-     , (42205,  91,         50) /* MaxStructure */
-     , (42205,  92,         50) /* Structure */
      , (42205,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (42205, 105,          7) /* ItemWorkmanship */
-     , (42205, 106,        227) /* ItemSpellcraft */
-     , (42205, 107,        601) /* ItemCurMana */
-     , (42205, 108,        601) /* ItemMaxMana */
-     , (42205, 109,         46) /* ItemDifficulty */
-     , (42205, 110,          0) /* ItemAllegianceRankLimit */
      , (42205, 113,          1) /* Gender - Male */
-     , (42205, 114,          0) /* Attuned - Normal */
-     , (42205, 115,        247) /* ItemSkillLevelLimit */
-     , (42205, 131,         63) /* MaterialType - Silver */
      , (42205, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (42205, 158,          2) /* WieldRequirements - RawSkill */
-     , (42205, 159,         34) /* WieldSkilltype - WarMagic */
-     , (42205, 160,        290) /* WieldDifficulty */
-     , (42205, 172,          5) /* AppraisalLongDescDecoration */
-     , (42205, 176,         41) /* AppraisalItemSkill */
-     , (42205, 177,          1) /* GemCount */
-     , (42205, 178,         29) /* GemType */
      , (42205, 188,          1) /* HeritageGroup - Aluvian */
-     , (42205, 280,        213) /* SharedCooldown */
-     , (42205, 292,          2) /* Cleaving */
      , (42205, 307,          5) /* DamageRating */
-     , (42205, 353,         11) /* WeaponType - TwoHanded */
-     , (42205, 366,         54) /* UseRequiresSkill */
-     , (42205, 367,        310) /* UseRequiresSkillLevel */
-     , (42205, 369,         40) /* UseRequiresLevel */
-     , (42205, 371,         11) /* GearDamageResist */
-     , (42205, 373,         10) /* GearCritResist */
-     , (42205, 375,         11) /* GearCritDamageResist */
-     , (42205, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (42205, 8030,          0);
+     , (42205, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42205,   1, True ) /* Stuck */
      , (42205,  12, True ) /* ReportCollisions */
      , (42205,  13, False) /* Ethereal */
      , (42205,  14, True ) /* GravityStatus */
-     , (42205,  19, True ) /* Attackable */
-     , (42205,  69, True ) /* IsSellable */
-     , (42205, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42205,   5,   -0.05) /* ManaRate */
-     , (42205,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (42205,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (42205,  15,       1) /* ArmorModVsBludgeon */
-     , (42205,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (42205,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (42205,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (42205,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (42205,  21,       0) /* WeaponLength */
-     , (42205,  22,     0.3) /* DamageVariance */
-     , (42205,  26,       0) /* MaximumVelocity */
-     , (42205,  29,    1.07) /* WeaponDefense */
-     , (42205,  62,    1.08) /* WeaponOffense */
-     , (42205,  63,       1) /* DamageMod */
-     , (42205, 144,    0.05) /* ManaConversionMod */
-     , (42205, 149,    1.01) /* WeaponMissileDefense */
-     , (42205, 152,    1.03) /* ElementalDamageMod */
-     , (42205, 165,       1) /* ArmorModVsNether */
-     , (42205, 167,      45) /* CooldownDuration */;
+     , (42205,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42205,   1, 'Cutthroat') /* Name */
-     , (42205,  14, 'Use this essence to summon or dismiss your Frost Skeleton Minion.') /* Use */
-     , (42205,  16, 'Slashing Baton') /* LongDesc */
      , (42205, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -115,29 +53,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42205, 8000, 2618009116) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (42205,   1, 300, 0, 0) /* Strength */
-     , (42205,   2, 1000, 0, 0) /* Endurance */
-     , (42205,   3, 300, 0, 0) /* Quickness */
-     , (42205,   4, 150, 0, 0) /* Coordination */
-     , (42205,   5, 200, 0, 0) /* Focus */
-     , (42205,   6, 300, 0, 0) /* Self */;
+VALUES (42205,   1,  80, 0, 0) /* Strength */
+     , (42205,   2, 110, 0, 0) /* Endurance */
+     , (42205,   3, 160, 0, 0) /* Quickness */
+     , (42205,   4, 160, 0, 0) /* Coordination */
+     , (42205,   5,  40, 0, 0) /* Focus */
+     , (42205,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (42205,   1,   150, 0, 0, 34) /* MaxHealth */
-     , (42205,   3,  3000, 0, 0, 3000) /* MaxStamina */
-     , (42205,   5,   800, 0, 0, 770) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42205,   682,      2) 
-     , (42205,  1311,      2) 
-     , (42205,  1331,      2) 
-     , (42205,  1485,      2) 
-     , (42205,  1592,      2) 
-     , (42205,  1605,      2) 
-     , (42205,  1616,      2) 
-     , (42205,  1627,      2) 
-     , (42205,  2537,      2) 
-     , (42205,  2569,      2) ;
+     , (42205,   3,   200, 0, 0, 199) /* MaxStamina */
+     , (42205,   5,    20, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42205, 67109561, 0, 24)

@@ -11,34 +11,10 @@ VALUES (47694,   1,          1) /* ItemType - MeleeWeapon */
      , (47694,  16,          1) /* ItemUseable - No */
      , (47694,  18,        128) /* UiEffects - Frost */
      , (47694,  19,        460) /* Value */
-     , (47694,  28,          0) /* ArmorLevel */
-     , (47694,  44,         41) /* Damage */
-     , (47694,  45,          1) /* DamageType - Slash */
-     , (47694,  47,          4) /* AttackType - Slash */
-     , (47694,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (47694,  49,         43) /* WeaponTime */
      , (47694,  51,          1) /* CombatUse - Melee */
      , (47694,  65,          1) /* Placement - RightHandCombat */
      , (47694,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47694, 105,          6) /* ItemWorkmanship */
-     , (47694, 106,        370) /* ItemSpellcraft */
-     , (47694, 107,       1121) /* ItemCurMana */
-     , (47694, 108,       1121) /* ItemMaxMana */
-     , (47694, 109,        194) /* ItemDifficulty */
-     , (47694, 110,          0) /* ItemAllegianceRankLimit */
-     , (47694, 115,        390) /* ItemSkillLevelLimit */
-     , (47694, 131,         51) /* MaterialType - Ivory */
-     , (47694, 151,          2) /* HookType - Wall */
-     , (47694, 158,          2) /* WieldRequirements - RawSkill */
-     , (47694, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (47694, 160,        420) /* WieldDifficulty */
-     , (47694, 172,          5) /* AppraisalLongDescDecoration */
-     , (47694, 176,         41) /* AppraisalItemSkill */
-     , (47694, 177,          1) /* GemCount */
-     , (47694, 178,         38) /* GemType */
-     , (47694, 292,          2) /* Cleaving */
-     , (47694, 353,         11) /* WeaponType - TwoHanded */
-     , (47694, 8030,          0);
+     , (47694, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47694,   1, False) /* Stuck */
@@ -46,29 +22,10 @@ VALUES (47694,   1, False) /* Stuck */
      , (47694,  13, True ) /* Ethereal */
      , (47694,  14, True ) /* GravityStatus */
      , (47694,  19, True ) /* Attackable */
-     , (47694,  22, True ) /* Inscribable */
-     , (47694, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47694,   5, -0.0666666666666667) /* ManaRate */
-     , (47694,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (47694,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47694,  15,       1) /* ArmorModVsBludgeon */
-     , (47694,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (47694,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (47694,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (47694,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (47694,  21,       0) /* WeaponLength */
-     , (47694,  22,    0.45) /* DamageVariance */
-     , (47694,  26,       0) /* MaximumVelocity */
-     , (47694,  29,    1.14) /* WeaponDefense */
-     , (47694,  62,    1.15) /* WeaponOffense */
-     , (47694,  63,       1) /* DamageMod */
-     , (47694, 165,       1) /* ArmorModVsNether */;
+     , (47694,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47694,   1, 'Frost Tachi') /* Name */
-     , (47694,  16, 'Greataxe of Swiftkiller') /* LongDesc */;
+VALUES (47694,   1, 'Frost Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47694,   1,   33555754) /* Setup */
@@ -89,14 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47694,   3, 3700142207) /* Wielder */
      , (47694, 8000, 3700467345) /* PCAPRecordedObjectIID */
      , (47694, 8008, 3700142207) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47694,  1035,      2) 
-     , (47694,  2116,      2) 
-     , (47694,  2552,      2) 
-     , (47694,  2573,      2) 
-     , (47694,  4319,      2) 
-     , (47694,  4395,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47694, 67111920, 0, 0);

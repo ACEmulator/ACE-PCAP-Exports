@@ -6,15 +6,10 @@ VALUES (6, 'banderlingscout', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6,   1,         16) /* ItemType - Creature */
      , (6,   2,          2) /* CreatureType - Banderling */
-     , (6,   5,         50) /* EncumbranceVal */
      , (6,   6,        255) /* ItemsCapacity */
      , (6,   7,        255) /* ContainersCapacity */
      , (6,  16,          1) /* ItemUseable - No */
-     , (6,  19,        500) /* Value */
      , (6,  25,          8) /* Level */
-     , (6,  90,         10) /* BoostValue */
-     , (6,  91,         35) /* MaxStructure */
-     , (6,  92,         35) /* Structure */
      , (6,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (6, 307,          5) /* DamageRating */
@@ -28,8 +23,7 @@ VALUES (6,   1, True ) /* Stuck */
      , (6,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6,  39, 1.29999995231628) /* DefaultScale */
-     , (6, 100,     1.5) /* HealkitMod */;
+VALUES (6,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6,   1, 'Banderling Scout') /* Name */

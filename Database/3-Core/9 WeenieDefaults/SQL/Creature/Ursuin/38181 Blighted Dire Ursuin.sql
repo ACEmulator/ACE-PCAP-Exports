@@ -6,11 +6,9 @@ VALUES (38181, 'ace38181-blighteddireursuin', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38181,   1,         16) /* ItemType - Creature */
      , (38181,   2,         46) /* CreatureType - Ursuin */
-     , (38181,   5,         30) /* EncumbranceVal */
      , (38181,   6,        255) /* ItemsCapacity */
      , (38181,   7,        255) /* ContainersCapacity */
      , (38181,  16,          1) /* ItemUseable - No */
-     , (38181,  19,          1) /* Value */
      , (38181,  25,         60) /* Level */
      , (38181,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38181, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,9 +26,6 @@ VALUES (38181,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38181,   1, 'Blighted Dire Ursuin') /* Name */
-     , (38181,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38181,  16, 'Inscribed spell: Mana Depletion Other I
-Decreases target''s natural mana rate by 9%.') /* LongDesc */
      , (38181, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -63,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38181,   1,   215, 0, 0, 215) /* MaxHealth */
      , (38181,   3,   430, 0, 0, 430) /* MaxStamina */
      , (38181,   5,   100, 0, 0, 100) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38181,   218,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38181, 67112945, 0, 0);

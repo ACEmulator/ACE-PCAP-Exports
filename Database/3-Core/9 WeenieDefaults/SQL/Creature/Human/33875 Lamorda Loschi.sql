@@ -6,32 +6,15 @@ VALUES (33875, 'ace33875-lamordaloschi', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33875,   1,         16) /* ItemType - Creature */
      , (33875,   2,         31) /* CreatureType - Human */
-     , (33875,   5,         90) /* EncumbranceVal */
      , (33875,   6,        255) /* ItemsCapacity */
      , (33875,   7,        255) /* ContainersCapacity */
      , (33875,  16,         32) /* ItemUseable - Remote */
-     , (33875,  19,      14870) /* Value */
      , (33875,  25,         99) /* Level */
-     , (33875,  28,          0) /* ArmorLevel */
      , (33875,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33875,  95,          8) /* RadarBlipColor - Yellow */
-     , (33875, 105,          9) /* ItemWorkmanship */
-     , (33875, 106,        291) /* ItemSpellcraft */
-     , (33875, 107,       1719) /* ItemCurMana */
-     , (33875, 108,       1719) /* ItemMaxMana */
-     , (33875, 109,        329) /* ItemDifficulty */
-     , (33875, 110,          0) /* ItemAllegianceRankLimit */
      , (33875, 113,          2) /* Gender - Female */
-     , (33875, 115,          0) /* ItemSkillLevelLimit */
-     , (33875, 131,          7) /* MaterialType - Velvet */
      , (33875, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (33875, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (33875, 158,          7) /* WieldRequirements - Level */
-     , (33875, 159,          1) /* WieldSkilltype - Axe */
-     , (33875, 160,        180) /* WieldDifficulty */
-     , (33875, 172,          5) /* AppraisalLongDescDecoration */
-     , (33875, 177,          3) /* GemCount */
-     , (33875, 178,         38) /* GemType */
      , (33875, 188,          4) /* HeritageGroup - Viamontian */
      , (33875, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -43,25 +26,14 @@ VALUES (33875,   1, True ) /* Stuck */
      , (33875,  14, True ) /* GravityStatus */
      , (33875,  19, False) /* Attackable */
      , (33875,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (33875,  42, True ) /* AllowEdgeSlide */
-     , (33875, 100, True ) /* Dyable */;
+     , (33875,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33875,   5, -0.0555555555555556) /* ManaRate */
-     , (33875,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (33875,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (33875,  15,       1) /* ArmorModVsBludgeon */
-     , (33875,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (33875,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (33875,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (33875,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (33875,  54,       3) /* UseRadius */
-     , (33875, 165,       1) /* ArmorModVsNether */;
+VALUES (33875,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33875,   1, 'Lamorda Loschi') /* Name */
      , (33875,   5, 'Operative') /* Template */
-     , (33875,  16, 'Wide Breeches of Lightning Protection') /* LongDesc */
      , (33875, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -99,11 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33875,   1,    80, 0, 0, 80) /* MaxHealth */
      , (33875,   3,   160, 0, 0, 160) /* MaxStamina */
      , (33875,   5,   120, 0, 0, 120) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33875,  2159,      2) 
-     , (33875,  2587,      2) 
-     , (33875,  4019,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33875, 67110064, 32, 8)

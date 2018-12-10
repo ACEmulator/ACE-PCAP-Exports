@@ -14,8 +14,7 @@ VALUES (13240,   1,          2) /* ItemType - Armor */
      , (13240,  33,          1) /* Bonded - Bonded */
      , (13240,  65,        101) /* Placement - Resting */
      , (13240,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13240, 114,          1) /* Attuned - Attuned */
-     , (13240, 324,          6) /* HeritageSpecificArmor */;
+     , (13240, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13240,   1, False) /* Stuck */
@@ -37,9 +36,7 @@ VALUES (13240,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13240,   1, 'Leather Gauntlets') /* Name */
-     , (13240,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (13240,  16, 'This item is attuned. As such, it cannot be given away. The only way to get rid of an attuned item is to give it to a Town Crier.') /* LongDesc */
-     , (13240,  52, 'Core Gauntlet Plating') /* GearPlatingName */;
+     , (13240,  16, 'This item is attuned. As such, it cannot be given away. The only way to get rid of an attuned item is to give it to a Town Crier.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13240,   1,   33554648) /* Setup */

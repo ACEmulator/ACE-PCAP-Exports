@@ -8,7 +8,6 @@ VALUES (3320,   1,       8192) /* ItemType - Writable */
      , (3320,   5,         30) /* EncumbranceVal */
      , (3320,  16,          8) /* ItemUseable - Contained */
      , (3320,  19,        100) /* Value */
-     , (3320,  33,          1) /* Bonded - Bonded */
      , (3320,  65,        101) /* Placement - Resting */
      , (3320,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -26,13 +25,14 @@ VALUES (3320,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3320,   1, 'Scroll of Item Tinkering Expertise Other IV') /* Name */
      , (3320,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (3320,  16, 'A concentrated silver pea.') /* LongDesc */;
+     , (3320,  16, 'Inscribed spell: Item Tinkering Expertise Other IV
+Increases the target''s Item Tinkering skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3320,   1,   33554826) /* Setup */
      , (3320,   8,  100676477) /* Icon */
      , (3320,  22,  872415275) /* PhysicsEffectTable */
-     , (3320,  28,        735) /* Spell */
+     , (3320,  28,        735) /* Spell - ItemExpertiseOther4 */
      , (3320, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3320, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3320, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

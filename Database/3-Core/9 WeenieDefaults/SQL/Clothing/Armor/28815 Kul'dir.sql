@@ -5,13 +5,11 @@ VALUES (28815, 'shieldkuldirlow', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28815,   1,          2) /* ItemType - Armor */
-     , (28815,   2,         78) /* CreatureType - Fiun */
      , (28815,   5,       1100) /* EncumbranceVal */
      , (28815,   9,    2097152) /* ValidLocations - Shield */
      , (28815,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (28815,  16,          1) /* ItemUseable - No */
      , (28815,  19,       1200) /* Value */
-     , (28815,  25,        115) /* Level */
      , (28815,  28,         95) /* ArmorLevel */
      , (28815,  51,          4) /* CombatUse - Shield */
      , (28815,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -65,9 +63,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28815,   3, 3690763203) /* Wielder */
      , (28815, 8000, 3691187444) /* PCAPRecordedObjectIID */
      , (28815, 8008, 3690763203) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28815,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28815,   246,      2) 

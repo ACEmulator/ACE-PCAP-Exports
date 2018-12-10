@@ -33,7 +33,6 @@ VALUES (40907,   1, False) /* Stuck */
      , (40907,  19, True ) /* Attackable */
      , (40907,  22, True ) /* Inscribable */
      , (40907,  69, False) /* IsSellable */
-     , (40907,  85, True ) /* AppraisalHasAllowedWielder */
      , (40907,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,8 +48,7 @@ VALUES (40907,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40907,   1, 'Aerfalle''s Mana-infused Pallium') /* Name */
-     , (40907,  16, 'A heavily enchanted black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LongDesc */
-     , (40907,  25, 'Blazing Sun') /* CraftsmanName */;
+     , (40907,  16, 'A heavily enchanted black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40907,   1,   33554854) /* Setup */

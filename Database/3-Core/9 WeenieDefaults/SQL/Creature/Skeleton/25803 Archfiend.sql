@@ -6,11 +6,9 @@ VALUES (25803, 'skeletonarchfiend', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25803,   1,         16) /* ItemType - Creature */
      , (25803,   2,         30) /* CreatureType - Skeleton */
-     , (25803,   5,       6061) /* EncumbranceVal */
      , (25803,   6,        255) /* ItemsCapacity */
      , (25803,   7,        255) /* ContainersCapacity */
      , (25803,  16,          1) /* ItemUseable - No */
-     , (25803,  19,          0) /* Value */
      , (25803,  25,        160) /* Level */
      , (25803,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25803, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (25803,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25803,   1, 'Archfiend') /* Name */
-     , (25803,  16, 'Killed by Brambles.') /* LongDesc */
      , (25803, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

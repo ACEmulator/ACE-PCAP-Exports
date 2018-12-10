@@ -35,8 +35,6 @@ VALUES (14485,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14485,   1, 'Elysa''s Favor') /* Name */
-     , (14485,   7, 'To my good friend Quanthor.') /* Inscription */
-     , (14485,   8, 'Rose Tattoo') /* ScribeName */
      , (14485,  14, 'You must be over Level 20 to use this ring.') /* Use */
      , (14485,  15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* ShortDesc */;
 

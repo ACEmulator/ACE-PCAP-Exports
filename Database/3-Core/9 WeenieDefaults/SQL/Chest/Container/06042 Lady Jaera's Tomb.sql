@@ -37,7 +37,7 @@ VALUES (6042,   1,   33554638) /* Setup */
      , (6042,   3,  536870949) /* SoundTable */
      , (6042,   8,  100668103) /* Icon */
      , (6042,  22,  872415275) /* PhysicsEffectTable */
-     , (6042,  28,       2074) /* Spell */
+     , (6042,  28,       2074) /* Spell - ImperilOther7 */
      , (6042, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (6042, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (6042, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;

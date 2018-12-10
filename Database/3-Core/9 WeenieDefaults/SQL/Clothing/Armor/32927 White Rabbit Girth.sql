@@ -44,8 +44,6 @@ VALUES (32927,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32927,   1, 'White Rabbit Girth') /* Name */
-     , (32927,   7, 'Go ahead...let your inner bunny out.  ^_^') /* Inscription */
-     , (32927,   8, 'Kochiro') /* ScribeName */
      , (32927,  16, 'A rabbit hide girth with a fluffy bunny tail.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

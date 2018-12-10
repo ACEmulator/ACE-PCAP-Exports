@@ -27,8 +27,6 @@ VALUES (23854,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23854,   1, 'Chilled Shard') /* Name */
-     , (23854,   7, 'cold') /* Inscription */
-     , (23854,   8, 'Tim the Mage') /* ScribeName */
      , (23854,  14, 'Combine with existing Enhanced Shadow Armor to create a Chilled piece of Enhanced Shadow Armor.') /* Use */
      , (23854,  16, 'A chilled shard.') /* LongDesc */;
 

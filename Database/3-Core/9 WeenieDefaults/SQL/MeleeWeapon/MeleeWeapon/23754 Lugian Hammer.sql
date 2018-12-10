@@ -40,8 +40,7 @@ VALUES (23754,  21,       0) /* WeaponLength */
      , (23754,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23754,   1, 'Lugian Hammer') /* Name */
-     , (23754,  16, 'Killed by Soquelo''s Spectre.') /* LongDesc */;
+VALUES (23754,   1, 'Lugian Hammer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23754,   1,   33554766) /* Setup */

@@ -6,11 +6,9 @@ VALUES (34841, 'ace34841-drogur', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34841,   1,         16) /* ItemType - Creature */
      , (34841,   2,         75) /* CreatureType - Burun */
-     , (34841,   5,       8839) /* EncumbranceVal */
      , (34841,   6,        255) /* ItemsCapacity */
      , (34841,   7,        255) /* ContainersCapacity */
      , (34841,  16,         32) /* ItemUseable - Remote */
-     , (34841,  19,          0) /* Value */
      , (34841,  25,        100) /* Level */
      , (34841,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34841,  95,          8) /* RadarBlipColor - Yellow */
@@ -35,7 +33,6 @@ VALUES (34841,  39, 1.20000004768372) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34841,   1, 'Drogur') /* Name */
      , (34841,   5, 'Protector of Kor-Gursha') /* Template */
-     , (34841,  16, 'Killed by Hawkeye the Ranger.') /* LongDesc */
      , (34841, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

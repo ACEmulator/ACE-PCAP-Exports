@@ -31,7 +31,6 @@ VALUES (45967,   1, False) /* Stuck */
      , (45967,  14, True ) /* GravityStatus */
      , (45967,  19, True ) /* Attackable */
      , (45967,  22, True ) /* Inscribable */
-     , (45967,  85, True ) /* AppraisalHasAllowedWielder */
      , (45967,  99, True ) /* Ivoryable */
      , (45967, 100, True ) /* Dyable */;
 
@@ -49,8 +48,7 @@ VALUES (45967,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45967,   1, 'Studded Leather Greaves') /* Name */
-     , (45967,  16, NULL) /* LongDesc */
-     , (45967,  25, 'Brambles') /* CraftsmanName */;
+     , (45967,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45967,   1,   33554641) /* Setup */

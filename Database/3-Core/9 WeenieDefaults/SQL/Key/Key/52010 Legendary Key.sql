@@ -5,13 +5,10 @@ VALUES (52010, 'ace52010-legendarykey', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52010,   1,      16384) /* ItemType - Key */
-     , (52010,   2,         14) /* CreatureType - Undead */
      , (52010,   5,         30) /* EncumbranceVal */
      , (52010,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (52010,  18,         64) /* UiEffects - Lightning */
      , (52010,  19,      10000) /* Value */
-     , (52010,  25,         60) /* Level */
-     , (52010,  28,        248) /* ArmorLevel */
      , (52010,  33,          0) /* Bonded - Normal */
      , (52010,  65,        101) /* Placement - Resting */
      , (52010,  91,          5) /* MaxStructure */
@@ -19,12 +16,7 @@ VALUES (52010,   1,      16384) /* ItemType - Key */
      , (52010,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52010,  94,        640) /* TargetType - LockableMagicTarget */
      , (52010,  98, 1485719928) /* CreationTimestamp */
-     , (52010, 105,          8) /* ItemWorkmanship */
      , (52010, 114,          0) /* Attuned - Normal */
-     , (52010, 131,         60) /* MaterialType - Gold */
-     , (52010, 172,          5) /* AppraisalLongDescDecoration */
-     , (52010, 177,          1) /* GemCount */
-     , (52010, 178,         47) /* GemType */
      , (52010, 267,      86400) /* Lifespan */
      , (52010, 268,      83211) /* RemainingLifespan */
      , (52010, 369,        150) /* UseRequiresLevel */;
@@ -37,18 +29,7 @@ VALUES (52010,   1, False) /* Stuck */
      , (52010,  19, True ) /* Attackable */
      , (52010,  22, True ) /* Inscribable */
      , (52010,  69, False) /* IsSellable */
-     , (52010,  99, False) /* Ivoryable */
-     , (52010, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52010,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (52010,  14,       1) /* ArmorModVsPierce */
-     , (52010,  15,       1) /* ArmorModVsBludgeon */
-     , (52010,  16, 0.860556721687317) /* ArmorModVsCold */
-     , (52010,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (52010,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (52010,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (52010, 165,       1) /* ArmorModVsNether */;
+     , (52010,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52010,   1, 'Legendary Key') /* Name */
@@ -70,6 +51,3 @@ VALUES (52010, 8040, 1498677554, 33.1989, -6.74712, -41.976, -0.9236131, 0, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52010, 8000, 3707588526) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52010,   1,   200, 0, 0, 200) /* MaxHealth */;

@@ -6,11 +6,9 @@ VALUES (29358, 'phyntoswaspwoodland', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29358,   1,         16) /* ItemType - Creature */
      , (29358,   2,          9) /* CreatureType - PhyntosWasp */
-     , (29358,   5,       6130) /* EncumbranceVal */
      , (29358,   6,        255) /* ItemsCapacity */
      , (29358,   7,        255) /* ContainersCapacity */
      , (29358,  16,          1) /* ItemUseable - No */
-     , (29358,  19,          0) /* Value */
      , (29358,  25,         80) /* Level */
      , (29358,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29358, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (29358,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29358,   1, 'Woodland Phyntos Wasp') /* Name */
-     , (29358,  16, 'Killed by Fquicker.') /* LongDesc */
      , (29358, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

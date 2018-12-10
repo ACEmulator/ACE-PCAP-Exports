@@ -6,7 +6,6 @@ VALUES (8467, 'idoldread', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8467,   1,         16) /* ItemType - Creature */
      , (8467,   2,         50) /* CreatureType - Idol */
-     , (8467,   5,         50) /* EncumbranceVal */
      , (8467,   6,        255) /* ItemsCapacity */
      , (8467,   7,        255) /* ContainersCapacity */
      , (8467,  16,          1) /* ItemUseable - No */
@@ -28,7 +27,6 @@ VALUES (8467,  39, 1.79999995231628) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8467,   1, 'Dread Idol') /* Name */
-     , (8467,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (8467, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

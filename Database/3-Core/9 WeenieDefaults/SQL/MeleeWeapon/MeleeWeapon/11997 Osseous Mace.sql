@@ -45,10 +45,6 @@ VALUES (11997,   5, -0.017000000923872) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11997,   1, 'Osseous Mace') /* Name */
-     , (11997,   7, '8-16 (40) +4A +6D
-Mana 500 1/59    Mace 260
- 6000p') /* Inscription */
-     , (11997,   8, 'Al Mule') /* ScribeName */
      , (11997,  16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone seems to have a ruddy hue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

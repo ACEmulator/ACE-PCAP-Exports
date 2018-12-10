@@ -36,7 +36,7 @@ VALUES (29106,   1,   33559128) /* Setup */
      , (29106,   3,  536870932) /* SoundTable */
      , (29106,   8,  100686437) /* Icon */
      , (29106,  22,  872415275) /* PhysicsEffectTable */
-     , (29106,  28,       3531) /* Spell */
+     , (29106,  28,       3531) /* Spell - BobosBlessingCoord */
      , (29106,  50,  100687554) /* IconOverlay */
      , (29106,  52,  100687547) /* IconUnderlay */
      , (29106, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */

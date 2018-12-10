@@ -46,7 +46,7 @@ VALUES (36230,   1,   33560376) /* Setup */
      , (36230,   6,   67111919) /* PaletteBase */
      , (36230,   8,  100689611) /* Icon */
      , (36230,  22,  872415275) /* PhysicsEffectTable */
-     , (36230,  28,       2074) /* Spell */
+     , (36230,  28,       2074) /* Spell - ImperilOther7 */
      , (36230, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (36230, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36230, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

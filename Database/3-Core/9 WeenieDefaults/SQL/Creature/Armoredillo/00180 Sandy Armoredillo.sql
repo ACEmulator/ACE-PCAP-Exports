@@ -6,24 +6,12 @@ VALUES (180, 'armoredillosandy', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (180,   1,         16) /* ItemType - Creature */
      , (180,   2,         17) /* CreatureType - Armoredillo */
-     , (180,   5,       6055) /* EncumbranceVal */
      , (180,   6,        255) /* ItemsCapacity */
      , (180,   7,        255) /* ContainersCapacity */
      , (180,  16,          1) /* ItemUseable - No */
-     , (180,  19,          0) /* Value */
      , (180,  25,         20) /* Level */
-     , (180,  28,        222) /* ArmorLevel */
      , (180,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (180, 105,          5) /* ItemWorkmanship */
-     , (180, 106,        198) /* ItemSpellcraft */
-     , (180, 107,        939) /* ItemCurMana */
-     , (180, 108,        939) /* ItemMaxMana */
-     , (180, 109,        198) /* ItemDifficulty */
-     , (180, 110,          0) /* ItemAllegianceRankLimit */
-     , (180, 115,          0) /* ItemSkillLevelLimit */
-     , (180, 131,         63) /* MaterialType - Silver */
      , (180, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (180, 172,          1) /* AppraisalLongDescDecoration */
      , (180, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,23 +19,10 @@ VALUES (180,   1, True ) /* Stuck */
      , (180,  12, True ) /* ReportCollisions */
      , (180,  13, False) /* Ethereal */
      , (180,  14, True ) /* GravityStatus */
-     , (180,  19, True ) /* Attackable */
-     , (180, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (180,   5, -0.0416666666666667) /* ManaRate */
-     , (180,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (180,  14,       1) /* ArmorModVsPierce */
-     , (180,  15,       1) /* ArmorModVsBludgeon */
-     , (180,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (180,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (180,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (180,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (180, 165,       1) /* ArmorModVsNether */;
+     , (180,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (180,   1, 'Sandy Armoredillo') /* Name */
-     , (180,  16, 'Killed by Fquick.') /* LongDesc */
      , (180, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -80,9 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (180,   1,    70, 0, 0, 70) /* MaxHealth */
      , (180,   3,   220, 0, 0, 220) /* MaxStamina */
      , (180,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (180,  1485,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (180, 67115921, 0, 0);

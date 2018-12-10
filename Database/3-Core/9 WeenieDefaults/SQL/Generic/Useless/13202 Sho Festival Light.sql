@@ -22,9 +22,6 @@ VALUES (13202,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13202,   1, 'Sho Festival Light') /* Name */
-     , (13202,   7, 'I R BAKED
-') /* Inscription */
-     , (13202,   8, 'Secret spy') /* ScribeName */
      , (13202,  15, 'You can use this item on floor and yard hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

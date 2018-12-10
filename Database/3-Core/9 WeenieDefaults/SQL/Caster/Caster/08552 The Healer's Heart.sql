@@ -35,13 +35,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8552,   5,   -0.05) /* ManaRate */
      , (8552,  29,       1) /* WeaponDefense */
      , (8552,  76, 0.200000002980232) /* Translucency */
-     , (8552, 144,    0.05) /* ManaConversionMod */
-     , (8552, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (8552, 144,    0.05) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8552,   1, 'The Healer''s Heart') /* Name */
-     , (8552,   7, '"Can I be the one to sacrifice... grip the spear and watch the blood and water flow..."') /* Inscription */
-     , (8552,   8, 'Arisu') /* ScribeName */
      , (8552,  16, 'A magical orb found in the cathedral of Ithaenc. This artifact was crafted by Lady Adja, a member of the Yalaini Council of Five, for use by her religious order.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -50,7 +47,7 @@ VALUES (8552,   1,   33556909) /* Setup */
      , (8552,   6,   67111928) /* PaletteBase */
      , (8552,   8,  100671213) /* Icon */
      , (8552,  22,  872415275) /* PhysicsEffectTable */
-     , (8552,  28,       1166) /* Spell */
+     , (8552,  28,       1166) /* Spell - HealOther6 */
      , (8552, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (8552, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8552, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */

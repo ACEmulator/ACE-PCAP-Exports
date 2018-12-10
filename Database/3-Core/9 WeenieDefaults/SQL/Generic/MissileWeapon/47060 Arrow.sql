@@ -5,7 +5,6 @@ VALUES (47060, 'ace47060-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47060,   1,        256) /* ItemType - MissileWeapon */
-     , (47060,   2,          8) /* CreatureType - Tusker */
      , (47060,   5,        105) /* EncumbranceVal */
      , (47060,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (47060,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,7 +12,6 @@ VALUES (47060,   1,        256) /* ItemType - MissileWeapon */
      , (47060,  12,         21) /* StackSize */
      , (47060,  16,          1) /* ItemUseable - No */
      , (47060,  19,         21) /* Value */
-     , (47060,  25,         30) /* Level */
      , (47060,  33,         -2) /* Bonded - Destroy */
      , (47060,  44,         36) /* Damage */
      , (47060,  45,          2) /* DamageType - Pierce */
@@ -30,34 +28,13 @@ VALUES (47060,   1,        256) /* ItemType - MissileWeapon */
      , (47060, 305,          0) /* ImbuedEffect4 - Undef */
      , (47060, 306,          0) /* ImbuedEffect5 - Undef */
      , (47060, 307,          5) /* DamageRating */
-     , (47060, 308,          0) /* DamageResistRating */
      , (47060, 313,          0) /* CritRating */
      , (47060, 314,          0) /* CritDamageRating */
-     , (47060, 315,          0) /* CritResistRating */
-     , (47060, 316,          0) /* CritDamageResistRating */
-     , (47060, 370,          0) /* GearDamage */
-     , (47060, 371,          0) /* GearDamageResist */
-     , (47060, 372,          0) /* GearCrit */
-     , (47060, 373,          0) /* GearCritResist */
-     , (47060, 374,          0) /* GearCritDamage */
-     , (47060, 375,          0) /* GearCritDamageResist */
-     , (47060, 376,          0) /* GearHealingBoost */
-     , (47060, 377,          0) /* GearNetherResist */
-     , (47060, 378,          0) /* GearLifeResist */
-     , (47060, 379,          0) /* GearMaxHealth */
-     , (47060, 381,          0) /* PKDamageRating */
-     , (47060, 382,          0) /* PKDamageResistRating */
-     , (47060, 383,          0) /* GearPKDamageRating */
-     , (47060, 384,          0) /* GearPKDamageResistRating */
      , (47060, 386,          0) /* Overpower */
-     , (47060, 387,          0) /* OverpowerResist */
-     , (47060, 388,          0) /* GearOverpower */
-     , (47060, 389,          0) /* GearOverpowerResist */
      , (47060, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47060,   1, False) /* Stuck */
-     , (47060,   2, True ) /* Open */
      , (47060,  11, True ) /* IgnoreCollisions */
      , (47060,  13, True ) /* Ethereal */
      , (47060,  14, True ) /* GravityStatus */
@@ -78,10 +55,7 @@ VALUES (47060,  21,       0) /* WeaponLength */
      , (47060, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47060,   1, 'Arrow') /* Name */
-     , (47060,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (47060,  16, 'Inscribed spell: Cold Vulnerability Other I
-Increases damage the target takes from Cold by 10%.') /* LongDesc */;
+VALUES (47060,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47060,   1,   33554724) /* Setup */
@@ -102,23 +76,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47060,   3, 3692114241) /* Wielder */
      , (47060, 8000, 3692114243) /* PCAPRecordedObjectIID */
      , (47060, 8008, 3692114241) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47060,   1, 150, 0, 0) /* Strength */
-     , (47060,   2, 180, 0, 0) /* Endurance */
-     , (47060,   3,  70, 0, 0) /* Quickness */
-     , (47060,   4,  80, 0, 0) /* Coordination */
-     , (47060,   5, 140, 0, 0) /* Focus */
-     , (47060,   6, 140, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47060,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (47060,   3,   350, 0, 0, 350) /* MaxStamina */
-     , (47060,   5,   340, 0, 0, 340) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47060,  1060,      2) 
-     , (47060,  1484,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47060, 67111919, 0, 0);

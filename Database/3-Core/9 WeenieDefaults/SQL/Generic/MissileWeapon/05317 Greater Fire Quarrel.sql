@@ -21,19 +21,7 @@ VALUES (5317,   1,        256) /* ItemType - MissileWeapon */
      , (5317,  51,          3) /* CombatUse - Ammo */
      , (5317,  65,          1) /* Placement - RightHandCombat */
      , (5317,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (5317, 105,          5) /* ItemWorkmanship */
-     , (5317, 106,        109) /* ItemSpellcraft */
-     , (5317, 107,       1098) /* ItemCurMana */
-     , (5317, 108,       1098) /* ItemMaxMana */
-     , (5317, 109,         81) /* ItemDifficulty */
-     , (5317, 110,          0) /* ItemAllegianceRankLimit */
-     , (5317, 115,          0) /* ItemSkillLevelLimit */
-     , (5317, 131,         63) /* MaterialType - Silver */
      , (5317, 151,          2) /* HookType - Wall */
-     , (5317, 158,          2) /* WieldRequirements - RawSkill */
-     , (5317, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (5317, 160,        230) /* WieldDifficulty */
-     , (5317, 172,          1) /* AppraisalLongDescDecoration */
      , (5317, 179,          0) /* ImbuedEffect - Undef */
      , (5317, 303,          0) /* ImbuedEffect2 - Undef */
      , (5317, 304,          0) /* ImbuedEffect3 - Undef */
@@ -42,7 +30,6 @@ VALUES (5317,   1,        256) /* ItemType - MissileWeapon */
      , (5317, 307,          5) /* DamageRating */
      , (5317, 313,          0) /* CritRating */
      , (5317, 314,          0) /* CritDamageRating */
-     , (5317, 381,          0) /* PKDamageRating */
      , (5317, 386,          0) /* Overpower */
      , (5317, 8030,          0);
 
@@ -56,8 +43,7 @@ VALUES (5317,   1, False) /* Stuck */
      , (5317,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5317,   5, -0.0333333333333333) /* ManaRate */
-     , (5317,  21,       0) /* WeaponLength */
+VALUES (5317,  21,       0) /* WeaponLength */
      , (5317,  22,    0.35) /* DamageVariance */
      , (5317,  26,       0) /* MaximumVelocity */
      , (5317,  29,       1) /* WeaponDefense */
@@ -70,8 +56,7 @@ VALUES (5317,   5, -0.0333333333333333) /* ManaRate */
      , (5317, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5317,   1, 'Greater Fire Quarrel') /* Name */
-     , (5317,  16, 'Mechanical Scarab of Fire Protection') /* LongDesc */;
+VALUES (5317,   1, 'Greater Fire Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5317,   1,   33555693) /* Setup */
@@ -92,9 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5317,   3, 1344174978) /* Wielder */
      , (5317, 8000, 3622509863) /* PCAPRecordedObjectIID */
      , (5317, 8008, 1344174978) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5317,  1091,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5317, 67111921, 0, 0);

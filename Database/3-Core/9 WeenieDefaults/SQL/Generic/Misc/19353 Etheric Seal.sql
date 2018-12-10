@@ -10,7 +10,6 @@ VALUES (19353,   1,        128) /* ItemType - Misc */
      , (19353,  12,          1) /* StackSize */
      , (19353,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (19353,  19,          0) /* Value */
-     , (19353,  92,          1) /* Structure */
      , (19353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (19353,  94,        128) /* TargetType - Misc */;
 

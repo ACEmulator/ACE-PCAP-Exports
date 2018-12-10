@@ -52,7 +52,7 @@ VALUES (26497,   1,   33558590) /* Setup */
      , (26497,   3,  536870932) /* SoundTable */
      , (26497,   8,  100675769) /* Icon */
      , (26497,  22,  872415275) /* PhysicsEffectTable */
-     , (26497,  28,       2637) /* Spell */
+     , (26497,  28,       2637) /* Spell - InvokingAunTanua */
      , (26497, 8001,  275480720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (26497, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26497, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

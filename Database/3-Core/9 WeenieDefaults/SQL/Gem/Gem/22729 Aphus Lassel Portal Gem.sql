@@ -44,7 +44,7 @@ VALUES (22729,   1,   33556769) /* Setup */
      , (22729,   6,   67111919) /* PaletteBase */
      , (22729,   8,  100673478) /* Icon */
      , (22729,  22,  872415275) /* PhysicsEffectTable */
-     , (22729,  28,       2936) /* Spell */
+     , (22729,  28,       2936) /* Spell - PortalSendingTuskerIsland */
      , (22729, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (22729, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22729, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

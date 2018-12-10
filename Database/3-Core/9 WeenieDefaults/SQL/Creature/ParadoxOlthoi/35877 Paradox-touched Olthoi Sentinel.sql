@@ -6,11 +6,9 @@ VALUES (35877, 'ace35877-paradoxtouchedolthoisentinel', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35877,   1,         16) /* ItemType - Creature */
      , (35877,   2,         92) /* CreatureType - ParadoxOlthoi */
-     , (35877,   5,         30) /* EncumbranceVal */
      , (35877,   6,        255) /* ItemsCapacity */
      , (35877,   7,        255) /* ContainersCapacity */
      , (35877,  16,          1) /* ItemUseable - No */
-     , (35877,  19,       1000) /* Value */
      , (35877,  25,        265) /* Level */
      , (35877,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35877, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,9 +26,6 @@ VALUES (35877,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35877,   1, 'Paradox-touched Olthoi Sentinel') /* Name */
-     , (35877,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (35877,  16, 'Inscribed spell: Aura of Hermetic Link Self VI
-Increases a magic casting implement''s mana conversion bonus by 60%.') /* LongDesc */
      , (35877, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -54,9 +49,6 @@ VALUES (35877, 8000, 3701545803) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35877,   1, 20250, 0, 0, 20250) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35877,  1480,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35877, 67114508, 0, 0);

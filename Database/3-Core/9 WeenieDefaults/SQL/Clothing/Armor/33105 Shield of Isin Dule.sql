@@ -5,39 +5,14 @@ VALUES (33105, 'ace33105-shieldofisindule', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33105,   1,          2) /* ItemType - Armor */
-     , (33105,   2,         70) /* CreatureType - GotrokLugian */
      , (33105,   5,        600) /* EncumbranceVal */
      , (33105,   9,    2097152) /* ValidLocations - Shield */
      , (33105,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (33105,  16,          1) /* ItemUseable - No */
-     , (33105,  19,          0) /* Value */
-     , (33105,  25,        115) /* Level */
      , (33105,  33,         -2) /* Bonded - Destroy */
-     , (33105,  44,         36) /* Damage */
-     , (33105,  45,          8) /* DamageType - Cold */
-     , (33105,  47,          4) /* AttackType - Slash */
-     , (33105,  48,         45) /* WeaponSkill - LightWeapons */
-     , (33105,  49,         27) /* WeaponTime */
      , (33105,  51,          4) /* CombatUse - Shield */
      , (33105,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33105, 105,          8) /* ItemWorkmanship */
-     , (33105, 106,        210) /* ItemSpellcraft */
-     , (33105, 107,        801) /* ItemCurMana */
-     , (33105, 108,        801) /* ItemMaxMana */
-     , (33105, 109,         95) /* ItemDifficulty */
-     , (33105, 110,          0) /* ItemAllegianceRankLimit */
-     , (33105, 114,          1) /* Attuned - Attuned */
-     , (33105, 115,        230) /* ItemSkillLevelLimit */
-     , (33105, 131,         60) /* MaterialType - Gold */
-     , (33105, 158,          2) /* WieldRequirements - RawSkill */
-     , (33105, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (33105, 160,        325) /* WieldDifficulty */
-     , (33105, 172,          1) /* AppraisalLongDescDecoration */
-     , (33105, 176,         45) /* AppraisalItemSkill */
-     , (33105, 177,          1) /* GemCount */
-     , (33105, 178,         12) /* GemType */
-     , (33105, 353,          3) /* WeaponType - Axe */
-     , (33105, 8030,          0);
+     , (33105, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33105,   1, False) /* Stuck */
@@ -49,19 +24,10 @@ VALUES (33105,   1, False) /* Stuck */
      , (33105,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33105,   5, -0.0416666666666667) /* ManaRate */
-     , (33105,  21,       0) /* WeaponLength */
-     , (33105,  22,    0.85) /* DamageVariance */
-     , (33105,  26,       0) /* MaximumVelocity */
-     , (33105,  29,    1.06) /* WeaponDefense */
-     , (33105,  62,     1.1) /* WeaponOffense */
-     , (33105,  63,       1) /* DamageMod */
-     , (33105, 159,       1) /* AbsorbMagicDamage */;
+VALUES (33105, 159,       1) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33105,   1, 'Shield of Isin Dule') /* Name */
-     , (33105,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (33105,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (33105,   1, 'Shield of Isin Dule') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33105,   1,   33559923) /* Setup */
@@ -81,13 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33105,   3, 3675627390) /* Wielder */
      , (33105, 8000, 3676920877) /* PCAPRecordedObjectIID */
      , (33105, 8008, 3675627390) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33105,   1,   513, 0, 0, 513) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33105,  1034,      2) 
-     , (33105,  1591,      2) 
-     , (33105,  1615,      2) 
-     , (33105,  2260,      2) 
-     , (33105,  2566,      2) ;

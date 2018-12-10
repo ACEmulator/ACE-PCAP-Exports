@@ -6,11 +6,9 @@ VALUES (23336, 'tacklemasternewbie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23336,   1,         16) /* ItemType - Creature */
      , (23336,   2,         31) /* CreatureType - Human */
-     , (23336,   5,          0) /* EncumbranceVal */
      , (23336,   6,        255) /* ItemsCapacity */
      , (23336,   7,        255) /* ContainersCapacity */
      , (23336,  16,         32) /* ItemUseable - Remote */
-     , (23336,  19,       4947) /* Value */
      , (23336,  25,         24) /* Level */
      , (23336,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (23336,  95,          8) /* RadarBlipColor - Yellow */

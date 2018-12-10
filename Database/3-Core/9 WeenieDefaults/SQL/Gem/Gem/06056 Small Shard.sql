@@ -29,8 +29,6 @@ VALUES (6056,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6056,   1, 'Small Shard') /* Name */
-     , (6056,   7, NULL) /* Inscription */
-     , (6056,   8, NULL) /* ScribeName */
      , (6056,  14, 'Combine with another small shard to make a crystal fragment, or combine with a dark shard to make a glimmering gem.') /* Use */
      , (6056,  16, 'A small, smooth piece of crystalline shard, with a strange faint glow.') /* LongDesc */;
 

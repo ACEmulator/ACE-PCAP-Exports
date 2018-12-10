@@ -49,8 +49,6 @@ VALUES (24598,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24598,   1, 'Sword of Lost Light') /* Name */
-     , (24598,   7, 'Once upon a time, this was uber.') /* Inscription */
-     , (24598,   8, 'The Guardian of the Lost Light') /* ScribeName */
      , (24598,  16, 'A glittering blade, shining with the power of the Light, set into a slate grey hilt. This sword has a razor-sharp edge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

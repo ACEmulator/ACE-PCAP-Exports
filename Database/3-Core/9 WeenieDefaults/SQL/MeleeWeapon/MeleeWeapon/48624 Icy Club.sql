@@ -12,17 +12,7 @@ VALUES (48624,   1,          1) /* ItemType - MeleeWeapon */
      , (48624,  19,        350) /* Value */
      , (48624,  51,          1) /* CombatUse - Melee */
      , (48624,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48624, 105,          7) /* ItemWorkmanship */
-     , (48624, 106,        250) /* ItemSpellcraft */
-     , (48624, 107,        584) /* ItemCurMana */
-     , (48624, 108,        584) /* ItemMaxMana */
-     , (48624, 109,          0) /* ItemDifficulty */
-     , (48624, 110,          0) /* ItemAllegianceRankLimit */
-     , (48624, 115,          0) /* ItemSkillLevelLimit */
-     , (48624, 117,        350) /* ItemManaCost */
-     , (48624, 131,         34) /* MaterialType - Peridot */
-     , (48624, 151,          2) /* HookType - Wall */
-     , (48624, 172,          1) /* AppraisalLongDescDecoration */;
+     , (48624, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48624,   1, False) /* Stuck */
@@ -33,9 +23,7 @@ VALUES (48624,   1, False) /* Stuck */
      , (48624,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48624,   1, 'Icy Club') /* Name */
-     , (48624,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (48624,  16, 'Gem of Endurance') /* LongDesc */;
+VALUES (48624,   1, 'Icy Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48624,   1,   33559363) /* Setup */
@@ -53,7 +41,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48624,   3, 3692754935) /* Wielder */
      , (48624, 8000, 3692754954) /* PCAPRecordedObjectIID */
      , (48624, 8008, 3692754935) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48624,  1354,      2) 
-     , (48624,  1598,      2) ;

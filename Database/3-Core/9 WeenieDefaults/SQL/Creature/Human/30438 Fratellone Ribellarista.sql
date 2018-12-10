@@ -6,27 +6,15 @@ VALUES (30438, 'silyunfratellonoribellarista', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30438,   1,         16) /* ItemType - Creature */
      , (30438,   2,         31) /* CreatureType - Human */
-     , (30438,   5,        393) /* EncumbranceVal */
      , (30438,   6,        255) /* ItemsCapacity */
      , (30438,   7,        255) /* ContainersCapacity */
      , (30438,  16,         32) /* ItemUseable - Remote */
-     , (30438,  19,      14800) /* Value */
      , (30438,  25,         11) /* Level */
-     , (30438,  28,        234) /* ArmorLevel */
      , (30438,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30438,  95,          8) /* RadarBlipColor - Yellow */
-     , (30438, 105,          8) /* ItemWorkmanship */
-     , (30438, 106,        209) /* ItemSpellcraft */
-     , (30438, 107,       1156) /* ItemCurMana */
-     , (30438, 108,       1156) /* ItemMaxMana */
-     , (30438, 109,        216) /* ItemDifficulty */
-     , (30438, 110,          0) /* ItemAllegianceRankLimit */
      , (30438, 113,          1) /* Gender - Male */
-     , (30438, 115,          0) /* ItemSkillLevelLimit */
-     , (30438, 131,         60) /* MaterialType - Gold */
      , (30438, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30438, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30438, 172,          1) /* AppraisalLongDescDecoration */
      , (30438, 188,          4) /* HeritageGroup - Viamontian */
      , (30438, 307,          5) /* DamageRating */
      , (30438, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -39,25 +27,14 @@ VALUES (30438,   1, True ) /* Stuck */
      , (30438,  14, True ) /* GravityStatus */
      , (30438,  19, False) /* Attackable */
      , (30438,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (30438,  42, True ) /* AllowEdgeSlide */
-     , (30438, 100, True ) /* Dyable */;
+     , (30438,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30438,   5, -0.0416666666666667) /* ManaRate */
-     , (30438,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (30438,  14,       1) /* ArmorModVsPierce */
-     , (30438,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (30438,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (30438,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (30438,  18,     0.5) /* ArmorModVsAcid */
-     , (30438,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (30438,  54,       3) /* UseRadius */
-     , (30438, 165,       1) /* ArmorModVsNether */;
+VALUES (30438,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30438,   1, 'Fratellone Ribellarista') /* Name */
      , (30438,   5, 'Townsperson') /* Template */
-     , (30438,  16, 'Chainmail Sleeves') /* LongDesc */
      , (30438, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -95,11 +72,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (30438,   1,    45, 0, 0, 45) /* MaxHealth */
      , (30438,   3,    80, 0, 0, 80) /* MaxStamina */
      , (30438,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30438,  1485,      2) 
-     , (30438,  1573,      2) 
-     , (30438,  2580,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30438, 67110064, 32, 8)

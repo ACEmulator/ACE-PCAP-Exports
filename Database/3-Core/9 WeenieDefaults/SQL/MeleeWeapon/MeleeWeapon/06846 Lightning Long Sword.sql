@@ -5,18 +5,15 @@ VALUES (6846, 'swordlongelectriccolier', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6846,   1,          1) /* ItemType - MeleeWeapon */
-     , (6846,   2,         14) /* CreatureType - Undead */
      , (6846,   5,        450) /* EncumbranceVal */
      , (6846,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (6846,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (6846,  16,          1) /* ItemUseable - No */
      , (6846,  18,         64) /* UiEffects - Lightning */
      , (6846,  19,        600) /* Value */
-     , (6846,  25,         20) /* Level */
      , (6846,  51,          1) /* CombatUse - Melee */
      , (6846,  65,          1) /* Placement - RightHandCombat */
-     , (6846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6846, 307,          5) /* DamageRating */;
+     , (6846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6846,   1, False) /* Stuck */
@@ -50,16 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6846,   3, 2614989580) /* Wielder */
      , (6846, 8000, 2615114127) /* PCAPRecordedObjectIID */
      , (6846, 8008, 2614989580) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (6846,   1,  50, 0, 0) /* Strength */
-     , (6846,   2,  60, 0, 0) /* Endurance */
-     , (6846,   3,  30, 0, 0) /* Quickness */
-     , (6846,   4,  80, 0, 0) /* Coordination */
-     , (6846,   5, 125, 0, 0) /* Focus */
-     , (6846,   6, 115, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6846,   1,    90, 0, 0, 90) /* MaxHealth */
-     , (6846,   3,   130, 0, 0, 130) /* MaxStamina */
-     , (6846,   5,   155, 0, 0, 155) /* MaxMana */;

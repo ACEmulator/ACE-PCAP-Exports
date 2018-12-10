@@ -6,28 +6,17 @@ VALUES (49008, 'ace49008-ravenmagiszombie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49008,   1,         16) /* ItemType - Creature */
      , (49008,   2,         14) /* CreatureType - Undead */
-     , (49008,   5,        900) /* EncumbranceVal */
      , (49008,   6,        255) /* ItemsCapacity */
      , (49008,   7,        255) /* ContainersCapacity */
      , (49008,  16,          1) /* ItemUseable - No */
-     , (49008,  19,        310) /* Value */
      , (49008,  25,        200) /* Level */
-     , (49008,  44,         10) /* Damage */
-     , (49008,  45,          2) /* DamageType - Pierce */
-     , (49008,  47,          4) /* AttackType - Slash */
-     , (49008,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (49008,  49,         70) /* WeaponTime */
      , (49008,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49008, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49008, 307,         21) /* DamageRating */
-     , (49008, 308,         10) /* DamageResistRating */
      , (49008, 313,         15) /* CritRating */
      , (49008, 314,         14) /* CritDamageRating */
      , (49008, 315,         18) /* CritResistRating */
-     , (49008, 316,         12) /* CritDamageResistRating */
-     , (49008, 353,          4) /* WeaponType - Mace */
-     , (49008, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (49008, 8030,          0);
+     , (49008, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49008,   1, True ) /* Stuck */
@@ -35,14 +24,6 @@ VALUES (49008,   1, True ) /* Stuck */
      , (49008,  13, True ) /* Ethereal */
      , (49008,  14, True ) /* GravityStatus */
      , (49008,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49008,  21,       0) /* WeaponLength */
-     , (49008,  22,     0.5) /* DamageVariance */
-     , (49008,  26,       0) /* MaximumVelocity */
-     , (49008,  29,       1) /* WeaponDefense */
-     , (49008,  62,       1) /* WeaponOffense */
-     , (49008,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49008,   1, 'Raven Magi''s Zombie') /* Name */

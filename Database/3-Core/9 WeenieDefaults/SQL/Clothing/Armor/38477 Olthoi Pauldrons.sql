@@ -29,10 +29,7 @@ VALUES (38477,   1,          2) /* ItemType - Armor */
      , (38477, 172,          1) /* AppraisalLongDescDecoration */
      , (38477, 176,          6) /* AppraisalItemSkill */
      , (38477, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38477, 374,          1) /* GearCritDamage */
-     , (38477, 375,          2) /* GearCritDamageResist */
-     , (38477, 379,          1) /* GearMaxHealth */
-     , (38477, 383,          1) /* GearPKDamageRating */;
+     , (38477, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38477,   1, False) /* Stuck */
@@ -58,10 +55,6 @@ VALUES (38477,   5, -0.0666666701436043) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38477,   1, 'Olthoi Pauldrons') /* Name */
-     , (38477,   7, ' Property 
-                                
-                            Of') /* Inscription */
-     , (38477,   8, 'Esprit Des Bannis') /* ScribeName */
      , (38477,  16, NULL) /* LongDesc */
      , (38477,  39, 'Olthoi king''s mage') /* TinkerName */;
 
@@ -80,19 +73,10 @@ VALUES (38477,   2, 1343032295) /* Container */
      , (38477, 8000, 2255119564) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38477,  2098,      2) 
-     , (38477,  2108,      2) 
-     , (38477,  2113,      2) 
-     , (38477,  4325,      2) 
-     , (38477,  4401,      2) 
+VALUES (38477,  4401,      2) 
      , (38477,  4407,      2) 
-     , (38477,  4412,      2) 
      , (38477,  4496,      2) 
-     , (38477,  4679,      2) 
-     , (38477,  4911,      2) 
-     , (38477,  6084,      2) 
-     , (38477,  6101,      2) 
-     , (38477,  6122,      2) ;
+     , (38477,  6084,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38477, 67116592, 116, 12)

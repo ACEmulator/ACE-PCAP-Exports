@@ -5,7 +5,6 @@ VALUES (47992, 'ace47992-acidquarrel', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47992,   1,        256) /* ItemType - MissileWeapon */
-     , (47992,   2,          6) /* CreatureType - Tumerok */
      , (47992,   5,        695) /* EncumbranceVal */
      , (47992,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (47992,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (47992,   1,        256) /* ItemType - MissileWeapon */
      , (47992,  16,          1) /* ItemUseable - No */
      , (47992,  18,        256) /* UiEffects - Acid */
      , (47992,  19,        139) /* Value */
-     , (47992,  25,         50) /* Level */
      , (47992,  33,         -2) /* Bonded - Destroy */
      , (47992,  44,        130) /* Damage */
      , (47992,  45,         32) /* DamageType - Acid */
@@ -25,7 +23,6 @@ VALUES (47992,   1,        256) /* ItemType - MissileWeapon */
      , (47992,  65,          1) /* Placement - RightHandCombat */
      , (47992,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47992, 151,          2) /* HookType - Wall */
-     , (47992, 307,          5) /* DamageRating */
      , (47992, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -69,19 +66,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47992,   3, 3361815231) /* Wielder */
      , (47992, 8000, 3362227099) /* PCAPRecordedObjectIID */
      , (47992, 8008, 3361815231) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47992,   1, 100, 0, 0) /* Strength */
-     , (47992,   2, 100, 0, 0) /* Endurance */
-     , (47992,   3, 150, 0, 0) /* Quickness */
-     , (47992,   4, 100, 0, 0) /* Coordination */
-     , (47992,   5,  60, 0, 0) /* Focus */
-     , (47992,   6,  60, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47992,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (47992,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (47992,   5,    60, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47992, 67111922, 0, 0);

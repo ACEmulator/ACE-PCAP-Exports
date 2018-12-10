@@ -11,21 +11,10 @@ VALUES (47382,   1,          1) /* ItemType - MeleeWeapon */
      , (47382,  16,          1) /* ItemUseable - No */
      , (47382,  18,         32) /* UiEffects - Fire */
      , (47382,  19,        350) /* Value */
-     , (47382,  33,          0) /* Bonded - Normal */
      , (47382,  51,          1) /* CombatUse - Melee */
      , (47382,  65,          1) /* Placement - RightHandCombat */
-     , (47382,  91,         50) /* MaxStructure */
-     , (47382,  92,         50) /* Structure */
      , (47382,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47382, 105,          6) /* ItemWorkmanship */
-     , (47382, 114,          0) /* Attuned - Normal */
-     , (47382, 151,          2) /* HookType - Wall */
-     , (47382, 280,        213) /* SharedCooldown */
-     , (47382, 366,         54) /* UseRequiresSkill */
-     , (47382, 367,        310) /* UseRequiresSkillLevel */
-     , (47382, 369,         40) /* UseRequiresLevel */
-     , (47382, 370,         11) /* GearDamage */
-     , (47382, 373,          9) /* GearCritResist */;
+     , (47382, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47382,   1, False) /* Stuck */
@@ -33,15 +22,10 @@ VALUES (47382,   1, False) /* Stuck */
      , (47382,  13, True ) /* Ethereal */
      , (47382,  14, True ) /* GravityStatus */
      , (47382,  19, True ) /* Attackable */
-     , (47382,  22, True ) /* Inscribable */
-     , (47382,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47382, 167,      45) /* CooldownDuration */;
+     , (47382,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47382,   1, 'Flaming Club') /* Name */
-     , (47382,  14, 'Use this essence to summon or dismiss your Fire Skeleton Minion.') /* Use */;
+VALUES (47382,   1, 'Flaming Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47382,   1,   33555698) /* Setup */

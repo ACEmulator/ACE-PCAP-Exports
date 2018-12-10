@@ -37,7 +37,6 @@ VALUES (51965,   1, False) /* Stuck */
      , (51965,  14, True ) /* GravityStatus */
      , (51965,  19, True ) /* Attackable */
      , (51965,  22, True ) /* Inscribable */
-     , (51965,  85, True ) /* AppraisalHasAllowedWielder */
      , (51965,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -55,8 +54,7 @@ VALUES (51965,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51965,   1, 'Rynthid Tentacle Dagger') /* Name */
-     , (51965,  15, 'A dagger crafted from enchanted obsidian and Rynthid tentacles.') /* ShortDesc */
-     , (51965,  25, 'Olthoi King') /* CraftsmanName */;
+     , (51965,  15, 'A dagger crafted from enchanted obsidian and Rynthid tentacles.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51965,   1,   33561599) /* Setup */

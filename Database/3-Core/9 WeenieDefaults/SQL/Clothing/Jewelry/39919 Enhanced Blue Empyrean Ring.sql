@@ -31,8 +31,6 @@ VALUES (39919,   1, False) /* Stuck */
      , (39919,  14, True ) /* GravityStatus */
      , (39919,  19, True ) /* Attackable */
      , (39919,  22, True ) /* Inscribable */
-     , (39919,  85, True ) /* AppraisalHasAllowedWielder */
-     , (39919,  91, True ) /* Retained */
      , (39919,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -42,8 +40,7 @@ VALUES (39919,   5, -0.033333) /* ManaRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39919,   1, 'Enhanced Blue Empyrean Ring') /* Name */
      , (39919,  14, 'One of the five Empyrean Rings. Any two combine for an additional spell set.') /* Use */
-     , (39919,  16, 'A ring of pyreal fitted with a band of glowing blue metal.') /* LongDesc */
-     , (39919,  25, 'Mag-salvager') /* CraftsmanName */;
+     , (39919,  16, 'A ring of pyreal fitted with a band of glowing blue metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39919,   1,   33554691) /* Setup */

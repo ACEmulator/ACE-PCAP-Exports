@@ -6,24 +6,12 @@ VALUES (34868, 'ace34868-babythrungus', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34868,   1,         16) /* ItemType - Creature */
      , (34868,   2,         82) /* CreatureType - Thrungus */
-     , (34868,   5,       7614) /* EncumbranceVal */
      , (34868,   6,        255) /* ItemsCapacity */
      , (34868,   7,        255) /* ContainersCapacity */
      , (34868,  16,          1) /* ItemUseable - No */
-     , (34868,  19,          0) /* Value */
      , (34868,  25,          8) /* Level */
      , (34868,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (34868, 105,          7) /* ItemWorkmanship */
-     , (34868, 106,        250) /* ItemSpellcraft */
-     , (34868, 107,        584) /* ItemCurMana */
-     , (34868, 108,        584) /* ItemMaxMana */
-     , (34868, 109,          0) /* ItemDifficulty */
-     , (34868, 110,          0) /* ItemAllegianceRankLimit */
-     , (34868, 115,          0) /* ItemSkillLevelLimit */
-     , (34868, 117,        350) /* ItemManaCost */
-     , (34868, 131,         26) /* MaterialType - ImperialTopaz */
      , (34868, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (34868, 172,          1) /* AppraisalLongDescDecoration */
      , (34868, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,7 +26,6 @@ VALUES (34868,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34868,   1, 'Baby Thrungus') /* Name */
-     , (34868,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (34868, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -71,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34868,   1,     3, 0, 0, 3) /* MaxHealth */
      , (34868,   3,     5, 0, 0, 5) /* MaxStamina */
      , (34868,   5,     1, 0, 0, 1) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34868,   170,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34868, 67116365, 0, 0);

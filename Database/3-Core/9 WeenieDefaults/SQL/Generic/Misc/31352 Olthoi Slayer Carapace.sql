@@ -24,7 +24,7 @@ VALUES (31352,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31352,   1, 'Olthoi Slayer Carapace') /* Name */
-     , (31352,  16, 'Killed by Ferah Palacost.') /* LongDesc */;
+     , (31352,  16, 'The pristine carapace of an Olthoi Slayer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31352,   1,   33554817) /* Setup */

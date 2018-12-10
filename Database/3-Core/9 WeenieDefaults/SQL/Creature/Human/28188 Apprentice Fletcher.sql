@@ -6,30 +6,16 @@ VALUES (28188, 'collectorfletchingalulow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28188,   1,         16) /* ItemType - Creature */
      , (28188,   2,         31) /* CreatureType - Human */
-     , (28188,   5,         50) /* EncumbranceVal */
      , (28188,   6,        255) /* ItemsCapacity */
      , (28188,   7,        255) /* ContainersCapacity */
      , (28188,  16,         32) /* ItemUseable - Remote */
-     , (28188,  19,       4000) /* Value */
      , (28188,  25,          5) /* Level */
-     , (28188,  33,          0) /* Bonded - Normal */
-     , (28188,  91,         50) /* MaxStructure */
-     , (28188,  92,         50) /* Structure */
      , (28188,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28188,  95,          8) /* RadarBlipColor - Yellow */
-     , (28188, 105,          4) /* ItemWorkmanship */
      , (28188, 113,          1) /* Gender - Male */
-     , (28188, 114,          0) /* Attuned - Normal */
      , (28188, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28188, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (28188, 188,          1) /* HeritageGroup - Aluvian */
-     , (28188, 280,        213) /* SharedCooldown */
-     , (28188, 366,         54) /* UseRequiresSkill */
-     , (28188, 367,        310) /* UseRequiresSkillLevel */
-     , (28188, 369,         40) /* UseRequiresLevel */
-     , (28188, 370,         15) /* GearDamage */
-     , (28188, 372,         10) /* GearCrit */
-     , (28188, 374,         16) /* GearCritDamage */
      , (28188, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,17 +26,14 @@ VALUES (28188,   1, True ) /* Stuck */
      , (28188,  14, True ) /* GravityStatus */
      , (28188,  19, False) /* Attackable */
      , (28188,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (28188,  42, True ) /* AllowEdgeSlide */
-     , (28188,  69, True ) /* IsSellable */;
+     , (28188,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28188,  54,       3) /* UseRadius */
-     , (28188, 167,      45) /* CooldownDuration */;
+VALUES (28188,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28188,   1, 'Apprentice Fletcher') /* Name */
      , (28188,   5, 'Apprentice Fletcher') /* Template */
-     , (28188,  14, 'Use this essence to summon or dismiss your Acid Skeleton Minion.') /* Use */
      , (28188, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

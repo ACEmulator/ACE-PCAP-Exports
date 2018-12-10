@@ -6,38 +6,13 @@ VALUES (4216, 'golemdiamond', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4216,   1,         16) /* ItemType - Creature */
      , (4216,   2,         13) /* CreatureType - Golem */
-     , (4216,   5,          4) /* EncumbranceVal */
      , (4216,   6,        255) /* ItemsCapacity */
      , (4216,   7,        255) /* ContainersCapacity */
      , (4216,  16,          1) /* ItemUseable - No */
-     , (4216,  19,          5) /* Value */
      , (4216,  25,        100) /* Level */
-     , (4216,  33,          1) /* Bonded - Bonded */
-     , (4216,  91,         50) /* MaxStructure */
-     , (4216,  92,         50) /* Structure */
      , (4216,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4216, 105,          4) /* ItemWorkmanship */
-     , (4216, 106,        300) /* ItemSpellcraft */
-     , (4216, 107,        662) /* ItemCurMana */
-     , (4216, 108,        662) /* ItemMaxMana */
-     , (4216, 109,          0) /* ItemDifficulty */
-     , (4216, 110,          0) /* ItemAllegianceRankLimit */
-     , (4216, 114,          1) /* Attuned - Attuned */
-     , (4216, 115,          0) /* ItemSkillLevelLimit */
-     , (4216, 117,        350) /* ItemManaCost */
-     , (4216, 131,         33) /* MaterialType - Opal */
      , (4216, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4216, 172,          1) /* AppraisalLongDescDecoration */
-     , (4216, 280,        213) /* SharedCooldown */
      , (4216, 307,          2) /* DamageRating */
-     , (4216, 366,         54) /* UseRequiresSkill */
-     , (4216, 367,        310) /* UseRequiresSkillLevel */
-     , (4216, 369,         40) /* UseRequiresLevel */
-     , (4216, 370,         13) /* GearDamage */
-     , (4216, 372,          3) /* GearCrit */
-     , (4216, 373,         11) /* GearCritResist */
-     , (4216, 374,         11) /* GearCritDamage */
-     , (4216, 375,         12) /* GearCritDamageResist */
      , (4216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,17 +20,13 @@ VALUES (4216,   1, True ) /* Stuck */
      , (4216,  12, True ) /* ReportCollisions */
      , (4216,  13, False) /* Ethereal */
      , (4216,  14, True ) /* GravityStatus */
-     , (4216,  19, True ) /* Attackable */
-     , (4216,  69, False) /* IsSellable */;
+     , (4216,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4216,  76, 0.300000011920929) /* Translucency */
-     , (4216, 167,      45) /* CooldownDuration */;
+VALUES (4216,  76, 0.300000011920929) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4216,   1, 'Diamond Golem') /* Name */
-     , (4216,  14, 'This token may be used to purchase items from your Society Vendors.') /* Use */
-     , (4216,  16, 'Killed by Ripley.') /* LongDesc */
      , (4216, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -88,10 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4216,   1,   555, 0, 0, 555) /* MaxHealth */
      , (4216,   3,   470, 0, 0, 470) /* MaxStamina */
      , (4216,   5,   425, 0, 0, 406) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4216,  2091,      2) 
-     , (4216,  2262,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4216, 67112807, 0, 0);

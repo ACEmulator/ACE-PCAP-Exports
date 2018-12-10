@@ -27,7 +27,6 @@ VALUES (40681,   1,          2) /* ItemType - Armor */
      , (40681, 159,          7) /* WieldSkilltype - MissileDefense */
      , (40681, 160,        290) /* WieldDifficulty */
      , (40681, 172,          1) /* AppraisalLongDescDecoration */
-     , (40681, 176,          7) /* AppraisalItemSkill */
      , (40681, 265,         17) /* EquipmentSetId - Tinkers */
      , (40681, 270,          7) /* WieldRequirements2 - Level */
      , (40681, 271,          1) /* WieldSkilltype2 - Axe */
@@ -77,38 +76,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40681, 8000, 3690264865) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40681,  1486,      2) 
-     , (40681,  1516,      2) 
-     , (40681,  1528,      2) 
-     , (40681,  1574,      2) 
-     , (40681,  2094,      2) 
-     , (40681,  2098,      2) 
-     , (40681,  2102,      2) 
-     , (40681,  2104,      2) 
+VALUES (40681,  1528,      2) 
      , (40681,  2108,      2) 
-     , (40681,  2110,      2) 
-     , (40681,  2113,      2) 
-     , (40681,  2185,      2) 
-     , (40681,  2281,      2) 
-     , (40681,  2507,      2) 
-     , (40681,  2531,      2) 
-     , (40681,  2573,      2) 
-     , (40681,  2575,      2) 
-     , (40681,  2587,      2) 
-     , (40681,  2609,      2) 
-     , (40681,  2612,      2) 
-     , (40681,  2613,      2) 
-     , (40681,  4299,      2) 
-     , (40681,  4325,      2) 
-     , (40681,  4391,      2) 
-     , (40681,  4401,      2) 
-     , (40681,  4403,      2) 
-     , (40681,  4407,      2) 
-     , (40681,  4409,      2) 
-     , (40681,  4412,      2) 
-     , (40681,  4498,      2) 
-     , (40681,  4673,      2) 
-     , (40681,  4677,      2) 
      , (40681,  6126,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

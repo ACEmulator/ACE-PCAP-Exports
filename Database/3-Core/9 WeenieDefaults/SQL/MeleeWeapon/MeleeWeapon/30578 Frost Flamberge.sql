@@ -46,7 +46,6 @@ VALUES (30578,   1, False) /* Stuck */
      , (30578,  14, True ) /* GravityStatus */
      , (30578,  19, True ) /* Attackable */
      , (30578,  22, True ) /* Inscribable */
-     , (30578,  85, True ) /* AppraisalHasAllowedWielder */
      , (30578,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -58,8 +57,6 @@ VALUES (30578,   5, -0.0555555559694767) /* ManaRate */
      , (30578,  39, 1.10000002384186) /* DefaultScale */
      , (30578,  62, 1.20000004768372) /* WeaponOffense */
      , (30578,  63,       1) /* DamageMod */
-     , (30578, 149,    1.02) /* WeaponMissileDefense */
-     , (30578, 150,   1.015) /* WeaponMagicDefense */
      , (30578, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -67,7 +64,6 @@ VALUES (30578,   1, 'Frost Flamberge') /* Name */
      , (30578,   7, '"Gelid Claw"') /* Inscription */
      , (30578,   8, 'Azrakin') /* ScribeName */
      , (30578,  16, NULL) /* LongDesc */
-     , (30578,  25, 'Mag-four') /* CraftsmanName */
      , (30578,  39, 'Jadefire') /* TinkerName */
      , (30578,  40, 'Mosswart Enforcer') /* ImbuerName */;
 
@@ -94,42 +90,8 @@ VALUES (30578,   3, 1343301116) /* Wielder */
      , (30578, 8008, 1343301116) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30578,  1401,      2) 
-     , (30578,  1591,      2) 
-     , (30578,  1592,      2) 
-     , (30578,  1604,      2) 
-     , (30578,  1605,      2) 
-     , (30578,  1614,      2) 
-     , (30578,  1615,      2) 
-     , (30578,  1616,      2) 
-     , (30578,  1626,      2) 
-     , (30578,  1627,      2) 
-     , (30578,  2059,      2) 
-     , (30578,  2081,      2) 
+VALUES (30578,  2059,      2) 
      , (30578,  2096,      2) 
-     , (30578,  2101,      2) 
-     , (30578,  2106,      2) 
-     , (30578,  2116,      2) 
-     , (30578,  2501,      2) 
-     , (30578,  2502,      2) 
-     , (30578,  2531,      2) 
-     , (30578,  2549,      2) 
-     , (30578,  2582,      2) 
-     , (30578,  2584,      2) 
-     , (30578,  2586,      2) 
-     , (30578,  2598,      2) 
-     , (30578,  3963,      2) 
-     , (30578,  4319,      2) 
-     , (30578,  4325,      2) 
-     , (30578,  4395,      2) 
-     , (30578,  4405,      2) 
-     , (30578,  4417,      2) 
-     , (30578,  4661,      2) 
-     , (30578,  4694,      2) 
-     , (30578,  4696,      2) 
-     , (30578,  4698,      2) 
-     , (30578,  5781,      2) 
-     , (30578,  5808,      2) 
      , (30578,  6049,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -5,18 +5,15 @@ VALUES (33084, 'ace33084-shadowblade', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33084,   1,          1) /* ItemType - MeleeWeapon */
-     , (33084,   2,         13) /* CreatureType - Golem */
      , (33084,   5,        350) /* EncumbranceVal */
      , (33084,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (33084,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (33084,  16,          1) /* ItemUseable - No */
      , (33084,  18,        128) /* UiEffects - Frost */
      , (33084,  19,        220) /* Value */
-     , (33084,  25,        100) /* Level */
      , (33084,  51,          1) /* CombatUse - Melee */
      , (33084,  65,          1) /* Placement - RightHandCombat */
-     , (33084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33084, 307,          2) /* DamageRating */;
+     , (33084,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33084,   1, False) /* Stuck */
@@ -47,16 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33084,   3, 3675627390) /* Wielder */
      , (33084, 8000, 3677789431) /* PCAPRecordedObjectIID */
      , (33084, 8008, 3675627390) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (33084,   1, 250, 0, 0) /* Strength */
-     , (33084,   2, 250, 0, 0) /* Endurance */
-     , (33084,   3, 150, 0, 0) /* Quickness */
-     , (33084,   4, 150, 0, 0) /* Coordination */
-     , (33084,   5, 150, 0, 0) /* Focus */
-     , (33084,   6, 150, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33084,   1,   455, 0, 0, 455) /* MaxHealth */
-     , (33084,   3,   470, 0, 0, 470) /* MaxStamina */
-     , (33084,   5,   425, 0, 0, 425) /* MaxMana */;

@@ -5,15 +5,9 @@ VALUES (41959, 'ace41959-guardianstatue', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41959,   1,         16) /* ItemType - Creature */
-     , (41959,   5,          1) /* EncumbranceVal */
      , (41959,   6,        255) /* ItemsCapacity */
      , (41959,   7,        255) /* ContainersCapacity */
      , (41959,  16,          1) /* ItemUseable - No */
-     , (41959,  44,         -1) /* Damage */
-     , (41959,  45,          0) /* DamageType - Undef */
-     , (41959,  47,          1) /* AttackType - Punch */
-     , (41959,  48,         45) /* WeaponSkill - LightWeapons */
-     , (41959,  49,         -1) /* WeaponTime */
      , (41959,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41959,  95,          8) /* RadarBlipColor - Yellow */
      , (41959, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -29,8 +23,7 @@ VALUES (41959,   1,         16) /* ItemType - Creature */
      , (41959, 387,          0) /* OverpowerResist */
      , (41959, 388,          0) /* GearOverpower */
      , (41959, 389,          0) /* GearOverpowerResist */
-     , (41959, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (41959, 8030,          0);
+     , (41959, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41959,   1, True ) /* Stuck */
@@ -41,12 +34,7 @@ VALUES (41959,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41959,   5,       2) /* ManaRate */
-     , (41959,  21,       0) /* WeaponLength */
-     , (41959,  22,    0.25) /* DamageVariance */
-     , (41959,  26,       0) /* MaximumVelocity */
-     , (41959,  39, 1.20000004768372) /* DefaultScale */
-     , (41959,  62,       1) /* WeaponOffense */
-     , (41959,  63,       1) /* DamageMod */;
+     , (41959,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41959,   1, 'Guardian Statue') /* Name */

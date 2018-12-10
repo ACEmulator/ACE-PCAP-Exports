@@ -56,7 +56,7 @@ VALUES (46941,   1,   33557963) /* Setup */
      , (46941,   6,   67111919) /* PaletteBase */
      , (46941,   8,  100673490) /* Icon */
      , (46941,  22,  872415275) /* PhysicsEffectTable */
-     , (46941,  28,       2781) /* Spell */
+     , (46941,  28,       2781) /* Spell - LesserElementalFuryAcid */
      , (46941, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (46941, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46941, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

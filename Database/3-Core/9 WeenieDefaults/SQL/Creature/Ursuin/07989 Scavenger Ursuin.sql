@@ -6,16 +6,10 @@ VALUES (7989, 'ursuinscavenger', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7989,   1,         16) /* ItemType - Creature */
      , (7989,   2,         46) /* CreatureType - Ursuin */
-     , (7989,   5,        200) /* EncumbranceVal */
      , (7989,   6,        255) /* ItemsCapacity */
      , (7989,   7,        255) /* ContainersCapacity */
      , (7989,  16,          1) /* ItemUseable - No */
-     , (7989,  19,       1000) /* Value */
      , (7989,  25,          8) /* Level */
-     , (7989,  89,          4) /* BoosterEnum - Stamina */
-     , (7989,  90,        125) /* BoostValue */
-     , (7989,  91,         40) /* MaxStructure */
-     , (7989,  92,         40) /* Structure */
      , (7989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7989, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7989, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -28,12 +22,10 @@ VALUES (7989,   1, True ) /* Stuck */
      , (7989,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7989,  39, 0.899999976158142) /* DefaultScale */
-     , (7989, 100,    1.75) /* HealkitMod */;
+VALUES (7989,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7989,   1, 'Scavenger Ursuin') /* Name */
-     , (7989,  14, 'Use this item to drink it.') /* Use */
      , (7989, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

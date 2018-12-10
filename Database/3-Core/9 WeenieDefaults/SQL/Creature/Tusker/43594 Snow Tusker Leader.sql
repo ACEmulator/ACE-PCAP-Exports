@@ -6,11 +6,9 @@ VALUES (43594, 'ace43594-snowtuskerleader', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43594,   1,         16) /* ItemType - Creature */
      , (43594,   2,          8) /* CreatureType - Tusker */
-     , (43594,   5,       6833) /* EncumbranceVal */
      , (43594,   6,        255) /* ItemsCapacity */
      , (43594,   7,        255) /* ContainersCapacity */
      , (43594,  16,          1) /* ItemUseable - No */
-     , (43594,  19,          0) /* Value */
      , (43594,  25,        240) /* Level */
      , (43594,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43594, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (43594,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43594,   1, 'Snow Tusker Leader') /* Name */
-     , (43594,  16, 'Killed by Fquicker.') /* LongDesc */
      , (43594, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

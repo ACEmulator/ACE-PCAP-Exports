@@ -37,7 +37,7 @@ VALUES (25544,   1,   33554603) /* Setup */
      , (25544,   6,   67111919) /* PaletteBase */
      , (25544,   8,  100675051) /* Icon */
      , (25544,  22,  872415275) /* PhysicsEffectTable */
-     , (25544,  28,       2980) /* Spell */
+     , (25544,  28,       2980) /* Spell - EndlessVigor */
      , (25544, 8001,  274755609) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, Spell, HookType */
      , (25544, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (25544, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

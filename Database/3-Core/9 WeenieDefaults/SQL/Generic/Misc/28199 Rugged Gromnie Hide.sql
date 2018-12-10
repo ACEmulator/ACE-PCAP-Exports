@@ -5,17 +5,11 @@ VALUES (28199, 'gromniehidebrass', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28199,   1,        128) /* ItemType - Misc */
-     , (28199,   2,         20) /* CreatureType - Wisp */
      , (28199,   5,        900) /* EncumbranceVal */
      , (28199,  16,          1) /* ItemUseable - No */
      , (28199,  19,         75) /* Value */
-     , (28199,  25,        115) /* Level */
-     , (28199,  33,          0) /* Bonded - Normal */
      , (28199,  65,        101) /* Placement - Resting */
-     , (28199,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28199, 114,          0) /* Attuned - Normal */
-     , (28199, 174,          1) /* AppraisalPages */
-     , (28199, 175,          1) /* AppraisalMaxPages */;
+     , (28199,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28199,   1, False) /* Stuck */
@@ -29,8 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28199,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28199,   1, 'Rugged Gromnie Hide') /* Name */
-     , (28199,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */;
+VALUES (28199,   1, 'Rugged Gromnie Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28199,   1,   33554817) /* Setup */
@@ -44,9 +37,6 @@ VALUES (28199,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28199,   2, 3019440548) /* Container */
      , (28199, 8000, 2935642334) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28199,   1,   720, 0, 0, 720) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (28199, 0, 83890064, 83890069);

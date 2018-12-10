@@ -6,20 +6,16 @@ VALUES (11537, 'dollvirtuous_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11537,   1,         16) /* ItemType - Creature */
      , (11537,   2,         53) /* CreatureType - Doll */
-     , (11537,   5,       6370) /* EncumbranceVal */
      , (11537,   6,        255) /* ItemsCapacity */
      , (11537,   7,        255) /* ContainersCapacity */
      , (11537,  16,          1) /* ItemUseable - No */
-     , (11537,  19,          0) /* Value */
      , (11537,  25,         15) /* Level */
      , (11537,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11537, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11537, 307,          5) /* DamageRating */
      , (11537, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11537,   1, True ) /* Stuck */
-     , (11537,   2, True ) /* Open */
      , (11537,  12, True ) /* ReportCollisions */
      , (11537,  13, False) /* Ethereal */
      , (11537,  14, True ) /* GravityStatus */
@@ -30,8 +26,6 @@ VALUES (11537,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11537,   1, 'Virtuous Doll') /* Name */
-     , (11537,  14, 'Use this item to close it.') /* Use */
-     , (11537,  16, 'Killed by Billy Herrington.') /* LongDesc */
      , (11537, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

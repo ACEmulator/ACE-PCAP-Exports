@@ -14,7 +14,6 @@ VALUES (15771,   1,        128) /* ItemType - Misc */
      , (15771,  65,        101) /* Placement - Resting */
      , (15771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15771,  94,          2) /* TargetType - Armor */
-     , (15771, 107,          0) /* ItemCurMana */
      , (15771, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,9 +25,7 @@ VALUES (15771,   1, False) /* Stuck */
      , (15771,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15771,  39, 0.670000016689301) /* DefaultScale */
-     , (15771,  87,       2) /* ItemEfficiency */
-     , (15771, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (15771,  39, 0.670000016689301) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15771,   1, 'Ruined Amulet of Heavy Weapons') /* Name */

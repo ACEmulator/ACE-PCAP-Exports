@@ -6,38 +6,18 @@ VALUES (39476, 'ace39476-marekalevv', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39476,   1,         16) /* ItemType - Creature */
      , (39476,   2,         31) /* CreatureType - Human */
-     , (39476,   5,         10) /* EncumbranceVal */
      , (39476,   6,        255) /* ItemsCapacity */
      , (39476,   7,        255) /* ContainersCapacity */
      , (39476,  16,         32) /* ItemUseable - Remote */
-     , (39476,  19,          0) /* Value */
      , (39476,  25,        180) /* Level */
-     , (39476,  28,          0) /* ArmorLevel */
-     , (39476,  33,          1) /* Bonded - Bonded */
      , (39476,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (39476,  95,          8) /* RadarBlipColor - Yellow */
-     , (39476,  98, 1485358327) /* CreationTimestamp */
-     , (39476, 105,          6) /* ItemWorkmanship */
-     , (39476, 106,        272) /* ItemSpellcraft */
-     , (39476, 107,       1525) /* ItemCurMana */
-     , (39476, 108,       1525) /* ItemMaxMana */
-     , (39476, 109,        204) /* ItemDifficulty */
-     , (39476, 110,          0) /* ItemAllegianceRankLimit */
-     , (39476, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (39476, 113,          1) /* Gender - Male */
-     , (39476, 114,          1) /* Attuned - Attuned */
-     , (39476, 115,          0) /* ItemSkillLevelLimit */
-     , (39476, 117,        350) /* ItemManaCost */
-     , (39476, 131,          6) /* MaterialType - Silk */
      , (39476, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (39476, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (39476, 172,          1) /* AppraisalLongDescDecoration */
      , (39476, 188,          2) /* HeritageGroup - Gharundim */
-     , (39476, 267,        180) /* Lifespan */
-     , (39476, 268,        179) /* RemainingLifespan */
      , (39476, 281,          4) /* Faction1Bits */
      , (39476, 289,       1001) /* SocietyRankRadblo */
-     , (39476, 307,          5) /* DamageRating */
      , (39476, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,26 +28,14 @@ VALUES (39476,   1, True ) /* Stuck */
      , (39476,  14, True ) /* GravityStatus */
      , (39476,  19, False) /* Attackable */
      , (39476,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (39476,  42, True ) /* AllowEdgeSlide */
-     , (39476, 100, True ) /* Dyable */;
+     , (39476,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39476,   5, -0.0555555555555556) /* ManaRate */
-     , (39476,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (39476,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (39476,  15,       1) /* ArmorModVsBludgeon */
-     , (39476,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (39476,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (39476,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (39476,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (39476,  54,       3) /* UseRadius */
-     , (39476, 165,       1) /* ArmorModVsNether */;
+VALUES (39476,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39476,   1, 'Marek al-Evv') /* Name */
      , (39476,   5, 'Society Collector') /* Template */
-     , (39476,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */
-     , (39476,  38, 'The Colosseum') /* AppraisalPortalDestination */
      , (39476, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -105,10 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (39476,   1,   296, 0, 0, 296) /* MaxHealth */
      , (39476,   3,   396, 0, 0, 396) /* MaxStamina */
      , (39476,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39476,  1426,      2) 
-     , (39476,  2149,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39476, 67109557, 0, 24)

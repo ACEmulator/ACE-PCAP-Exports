@@ -41,16 +41,6 @@ VALUES (28070,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28070,   1, 'Silken Wrap') /* Name */
-     , (28070,   7, 'www.thehaven-we.com
-Prim 125 eaters
-secondary EO
-60.2 61.2
-66.5n 74.4e
-77.8 67.1 for gold items
-"the_phoenix18@hotmail.com"
-82.4 68.5
-') /* Inscription */
-     , (28070,   8, 'Kavon Surton') /* ScribeName */
      , (28070,  16, 'A wrap crafted by the tailor To-ping Ra for use under the armor. This wrap has been stitched with pyreal woven thread to enhance the magical qualities of the object.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

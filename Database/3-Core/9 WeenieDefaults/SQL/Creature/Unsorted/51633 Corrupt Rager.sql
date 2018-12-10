@@ -5,47 +5,19 @@ VALUES (51633, 'ace51633-corruptrager', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51633,   1,         16) /* ItemType - Creature */
-     , (51633,   5,          5) /* EncumbranceVal */
      , (51633,   6,        255) /* ItemsCapacity */
      , (51633,   7,        255) /* ContainersCapacity */
      , (51633,  16,          1) /* ItemUseable - No */
-     , (51633,  19,          1) /* Value */
-     , (51633,  33,         -2) /* Bonded - Destroy */
-     , (51633,  44,        114) /* Damage */
-     , (51633,  45,          2) /* DamageType - Pierce */
-     , (51633,  48,          0) /* WeaponSkill - None */
-     , (51633,  49,         -1) /* WeaponTime */
      , (51633,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51633, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (51633, 179,          0) /* ImbuedEffect - Undef */
-     , (51633, 303,          0) /* ImbuedEffect2 - Undef */
-     , (51633, 304,          0) /* ImbuedEffect3 - Undef */
-     , (51633, 305,          0) /* ImbuedEffect4 - Undef */
-     , (51633, 306,          0) /* ImbuedEffect5 - Undef */
-     , (51633, 307,          5) /* DamageRating */
-     , (51633, 313,          0) /* CritRating */
-     , (51633, 314,          0) /* CritDamageRating */
-     , (51633, 386,          0) /* Overpower */
-     , (51633, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (51633, 8030,          0);
+     , (51633, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51633,   1, True ) /* Stuck */
      , (51633,  12, True ) /* ReportCollisions */
      , (51633,  13, False) /* Ethereal */
      , (51633,  14, True ) /* GravityStatus */
-     , (51633,  19, True ) /* Attackable */
-     , (51633,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51633,  21,       0) /* WeaponLength */
-     , (51633,  22,     0.3) /* DamageVariance */
-     , (51633,  26,       0) /* MaximumVelocity */
-     , (51633,  29,       1) /* WeaponDefense */
-     , (51633,  62,       1) /* WeaponOffense */
-     , (51633,  63,       1) /* DamageMod */
-     , (51633, 149,       0) /* WeaponMissileDefense */
-     , (51633, 150,       0) /* WeaponMagicDefense */;
+     , (51633,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51633,   1, 'Corrupt Rager') /* Name */

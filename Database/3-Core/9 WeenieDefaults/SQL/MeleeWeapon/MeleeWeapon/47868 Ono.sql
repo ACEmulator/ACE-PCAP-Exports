@@ -10,25 +10,10 @@ VALUES (47868,   1,          1) /* ItemType - MeleeWeapon */
      , (47868,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47868,  16,          1) /* ItemUseable - No */
      , (47868,  19,        350) /* Value */
-     , (47868,  33,         -2) /* Bonded - Destroy */
-     , (47868,  44,        130) /* Damage */
-     , (47868,  45,         64) /* DamageType - Electric */
-     , (47868,  48,          0) /* WeaponSkill - None */
-     , (47868,  49,         -1) /* WeaponTime */
      , (47868,  51,          1) /* CombatUse - Melee */
      , (47868,  65,          1) /* Placement - RightHandCombat */
      , (47868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47868, 151,          2) /* HookType - Wall */
-     , (47868, 179,          0) /* ImbuedEffect - Undef */
-     , (47868, 303,          0) /* ImbuedEffect2 - Undef */
-     , (47868, 304,          0) /* ImbuedEffect3 - Undef */
-     , (47868, 305,          0) /* ImbuedEffect4 - Undef */
-     , (47868, 306,          0) /* ImbuedEffect5 - Undef */
-     , (47868, 307,          5) /* DamageRating */
-     , (47868, 313,          0) /* CritRating */
-     , (47868, 314,          0) /* CritDamageRating */
-     , (47868, 386,          0) /* Overpower */
-     , (47868, 8030,          0);
+     , (47868, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47868,   1, False) /* Stuck */
@@ -36,18 +21,7 @@ VALUES (47868,   1, False) /* Stuck */
      , (47868,  13, True ) /* Ethereal */
      , (47868,  14, True ) /* GravityStatus */
      , (47868,  19, True ) /* Attackable */
-     , (47868,  22, True ) /* Inscribable */
-     , (47868,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47868,  21,       0) /* WeaponLength */
-     , (47868,  22,     0.3) /* DamageVariance */
-     , (47868,  26,       0) /* MaximumVelocity */
-     , (47868,  29,       1) /* WeaponDefense */
-     , (47868,  62,       1) /* WeaponOffense */
-     , (47868,  63,       1) /* DamageMod */
-     , (47868, 149,       0) /* WeaponMissileDefense */
-     , (47868, 150,       0) /* WeaponMagicDefense */;
+     , (47868,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47868,   1, 'Ono') /* Name */;

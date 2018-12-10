@@ -36,7 +36,7 @@ VALUES (25895,   1,   33558558) /* Setup */
      , (25895,   3,  536870932) /* SoundTable */
      , (25895,   8,  100675627) /* Icon */
      , (25895,  22,  872415275) /* PhysicsEffectTable */
-     , (25895,  28,       2998) /* Spell */
+     , (25895,  28,       2998) /* Spell - WrathPuppeteer */
      , (25895, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (25895, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25895, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */

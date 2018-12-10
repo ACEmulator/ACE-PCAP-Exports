@@ -6,15 +6,12 @@ VALUES (25807, 'zombiechimera', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25807,   1,         16) /* ItemType - Creature */
      , (25807,   2,         14) /* CreatureType - Undead */
-     , (25807,   5,         30) /* EncumbranceVal */
      , (25807,   6,        255) /* ItemsCapacity */
      , (25807,   7,        255) /* ContainersCapacity */
      , (25807,  16,          1) /* ItemUseable - No */
-     , (25807,  19,       1000) /* Value */
      , (25807,  25,        160) /* Level */
      , (25807,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25807, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25807, 307,          5) /* DamageRating */
      , (25807, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,9 +27,6 @@ VALUES (25807,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25807,   1, 'Chimera') /* Name */
-     , (25807,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (25807,  16, 'Inscribed spell: Leadership Mastery Self VI
-Increases the caster''s Leadership skill by 35 points.') /* LongDesc */
      , (25807, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -65,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (25807,   1,  2340, 0, 0, 2340) /* MaxHealth */
      , (25807,   3,  2500, 0, 0, 2500) /* MaxStamina */
      , (25807,   5,  2250, 0, 0, 2250) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25807,   903,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25807, 67113037, 0, 0);

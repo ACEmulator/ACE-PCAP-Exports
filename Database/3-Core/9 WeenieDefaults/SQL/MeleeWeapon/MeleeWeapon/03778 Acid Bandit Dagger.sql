@@ -54,9 +54,6 @@ VALUES (3778,   5, -0.0555555555555556) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3778,   1, 'Acid Bandit Dagger') /* Name */
-     , (3778,   7, 'nice
-') /* Inscription */
-     , (3778,   8, 'Triumph') /* ScribeName */
      , (3778,  16, 'Acid Dagger of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -74,8 +71,4 @@ VALUES (3778,   2, 2541837484) /* Container */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3778,  1378,      2) 
-     , (3778,  1399,      2) 
-     , (3778,  1590,      2) 
-     , (3778,  1614,      2) 
-     , (3778,  1615,      2) 
-     , (3778,  1625,      2) ;
+     , (3778,  1615,      2) ;

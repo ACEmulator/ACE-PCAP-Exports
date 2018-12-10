@@ -6,44 +6,17 @@ VALUES (9495, 'gamblergmhighalu', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9495,   1,         16) /* ItemType - Creature */
      , (9495,   2,         31) /* CreatureType - Human */
-     , (9495,   5,        690) /* EncumbranceVal */
      , (9495,   6,        255) /* ItemsCapacity */
      , (9495,   7,        255) /* ContainersCapacity */
      , (9495,  16,         32) /* ItemUseable - Remote */
-     , (9495,  19,       1300) /* Value */
      , (9495,  25,         16) /* Level */
-     , (9495,  28,         20) /* ArmorLevel */
-     , (9495,  33,          1) /* Bonded - Bonded */
-     , (9495,  44,         56) /* Damage */
-     , (9495,  45,          3) /* DamageType - Slash, Pierce */
-     , (9495,  47,          6) /* AttackType - Thrust, Slash */
-     , (9495,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (9495,  49,         36) /* WeaponTime */
      , (9495,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9495,  95,          8) /* RadarBlipColor - Yellow */
-     , (9495, 105,          7) /* ItemWorkmanship */
-     , (9495, 106,        309) /* ItemSpellcraft */
-     , (9495, 107,        701) /* ItemCurMana */
-     , (9495, 108,        701) /* ItemMaxMana */
-     , (9495, 109,        149) /* ItemDifficulty */
-     , (9495, 110,          0) /* ItemAllegianceRankLimit */
      , (9495, 113,          2) /* Gender - Female */
-     , (9495, 114,          1) /* Attuned - Attuned */
-     , (9495, 115,        329) /* ItemSkillLevelLimit */
-     , (9495, 131,         63) /* MaterialType - Silver */
      , (9495, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9495, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9495, 158,          2) /* WieldRequirements - RawSkill */
-     , (9495, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (9495, 160,        370) /* WieldDifficulty */
-     , (9495, 172,          5) /* AppraisalLongDescDecoration */
-     , (9495, 176,         44) /* AppraisalItemSkill */
-     , (9495, 177,          2) /* GemCount */
-     , (9495, 178,         34) /* GemType */
      , (9495, 188,          1) /* HeritageGroup - Aluvian */
-     , (9495, 353,          2) /* WeaponType - Sword */
-     , (9495, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (9495, 8030,          0);
+     , (9495, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9495,   1, True ) /* Stuck */
@@ -56,27 +29,11 @@ VALUES (9495,   1, True ) /* Stuck */
      , (9495,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9495,   5, -0.0555555555555556) /* ManaRate */
-     , (9495,  13,       1) /* ArmorModVsSlash */
-     , (9495,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (9495,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (9495,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (9495,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (9495,  18,       1) /* ArmorModVsAcid */
-     , (9495,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (9495,  21,       0) /* WeaponLength */
-     , (9495,  22,    0.47) /* DamageVariance */
-     , (9495,  26,       0) /* MaximumVelocity */
-     , (9495,  29,    1.08) /* WeaponDefense */
-     , (9495,  54,       3) /* UseRadius */
-     , (9495,  62,    1.15) /* WeaponOffense */
-     , (9495,  63,       1) /* DamageMod */
-     , (9495, 165,       1) /* ArmorModVsNether */;
+VALUES (9495,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9495,   1, 'Aluvian High-Stakes Gamesmaster') /* Name */
      , (9495,   5, 'Gamesmaster') /* Template */
-     , (9495,  16, 'A fresh, steaming hot apple pie, baked by Mara al-Luq.') /* LongDesc */
      , (9495, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -114,11 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9495,   1,    70, 0, 0, 70) /* MaxHealth */
      , (9495,   3,   240, 0, 0, 240) /* MaxStamina */
      , (9495,   5,   105, 0, 0, 105) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9495,  1616,      2) 
-     , (9495,  2116,      2) 
-     , (9495,  2562,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9495, 67109560, 0, 24)

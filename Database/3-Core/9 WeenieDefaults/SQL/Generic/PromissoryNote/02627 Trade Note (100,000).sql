@@ -23,8 +23,6 @@ VALUES (2627,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2627,   1, 'Trade Note (100,000)') /* Name */
-     , (2627,  15, 'Worth 100,000 pyreals if presented to Cateril Carsmad in Arwic.  Can be exchanged with any other vendor at a reduced rate.') /* ShortDesc */
-     , (2627,  16, 'Killed by Daidarabotchi.') /* LongDesc */
      , (2627,  20, 'Trade Notes (100,000)') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

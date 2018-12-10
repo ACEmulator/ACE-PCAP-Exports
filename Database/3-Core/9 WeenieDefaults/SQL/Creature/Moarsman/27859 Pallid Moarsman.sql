@@ -6,22 +6,16 @@ VALUES (27859, 'moarsmanpallid', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27859,   1,         16) /* ItemType - Creature */
      , (27859,   2,         34) /* CreatureType - Moarsman */
-     , (27859,   5,      14406) /* EncumbranceVal */
      , (27859,   6,        255) /* ItemsCapacity */
      , (27859,   7,        255) /* ContainersCapacity */
      , (27859,  16,          1) /* ItemUseable - No */
-     , (27859,  19,       2500) /* Value */
      , (27859,  25,         20) /* Level */
-     , (27859,  38,        300) /* ResistLockpick */
      , (27859,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27859, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27859, 173,          0) /* AppraisalLockpickSuccessPercent */
      , (27859, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27859,   1, True ) /* Stuck */
-     , (27859,   2, False) /* Open */
-     , (27859,   3, True ) /* Locked */
      , (27859,  12, True ) /* ReportCollisions */
      , (27859,  13, False) /* Ethereal */
      , (27859,  14, True ) /* GravityStatus */
@@ -32,8 +26,6 @@ VALUES (27859,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27859,   1, 'Pallid Moarsman') /* Name */
-     , (27859,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (27859,  16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LongDesc */
      , (27859, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

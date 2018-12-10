@@ -6,21 +6,15 @@ VALUES (30073, 'sanamarluressi', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30073,   1,         16) /* ItemType - Creature */
      , (30073,   2,         31) /* CreatureType - Human */
-     , (30073,   5,        577) /* EncumbranceVal */
      , (30073,   6,        255) /* ItemsCapacity */
      , (30073,   7,        255) /* ContainersCapacity */
      , (30073,  16,         32) /* ItemUseable - Remote */
-     , (30073,  19,       5829) /* Value */
      , (30073,  25,        124) /* Level */
-     , (30073,  28,        264) /* ArmorLevel */
      , (30073,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30073,  95,          8) /* RadarBlipColor - Yellow */
-     , (30073, 105,          6) /* ItemWorkmanship */
      , (30073, 113,          1) /* Gender - Male */
-     , (30073, 131,         54) /* MaterialType - GromnieHide */
      , (30073, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30073, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30073, 172,          1) /* AppraisalLongDescDecoration */
      , (30073, 188,          4) /* HeritageGroup - Viamontian */
      , (30073, 307,          5) /* DamageRating */
      , (30073, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -33,24 +27,14 @@ VALUES (30073,   1, True ) /* Stuck */
      , (30073,  14, True ) /* GravityStatus */
      , (30073,  19, False) /* Attackable */
      , (30073,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (30073,  42, True ) /* AllowEdgeSlide */
-     , (30073, 100, True ) /* Dyable */;
+     , (30073,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30073,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (30073,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (30073,  15,       1) /* ArmorModVsBludgeon */
-     , (30073,  16, 1.1442779302597) /* ArmorModVsCold */
-     , (30073,  17, 0.95372486114502) /* ArmorModVsFire */
-     , (30073,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (30073,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (30073,  54,       3) /* UseRadius */
-     , (30073, 165,       1) /* ArmorModVsNether */;
+VALUES (30073,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30073,   1, 'Luressi di Maki') /* Name */
      , (30073,   5, 'Viamontian Guard') /* Template */
-     , (30073,  16, 'Studded Leather Leggings') /* LongDesc */
      , (30073, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

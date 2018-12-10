@@ -26,8 +26,6 @@ VALUES (4742,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4742,   1, 'Steak') /* Name */
      , (4742,  14, 'Use this item to eat it.') /* Use */
-     , (4742,  16, 'Inscribed spell: Ketnan''s Blessing
-Increases the caster''s Deception skill by 40 points.') /* LongDesc */
      , (4742,  20, 'Steaks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -45,6 +43,3 @@ VALUES (4742, 8040, 2507931904, 42.33885, 38.58155, 32.799, -0.996164, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4742, 8000, 3692264046) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4742,  2227,      2) ;

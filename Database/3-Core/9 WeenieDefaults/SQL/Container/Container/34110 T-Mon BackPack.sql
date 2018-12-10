@@ -26,8 +26,6 @@ VALUES (34110,  39,       3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34110,   1, 'T-Mon BackPack') /* Name */
-     , (34110,   7, '20:03:55 [General] Mooseknuckle says, "if your gay and you know clap his hands" 20:03:59 [General] Shedao Shai says, "*clap* *clap*"') /* Inscription */
-     , (34110,   8, 'Crog') /* ScribeName */
      , (34110,  14, 'Use this item to close it.') /* Use */
      , (34110,  16, 'A Tremendous Monouga skull connected to a series of straps so that it can be used to hold things as a backpack.') /* LongDesc */;
 

@@ -6,24 +6,12 @@ VALUES (11481, 'olthoilegionary_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11481,   1,         16) /* ItemType - Creature */
      , (11481,   2,          1) /* CreatureType - Olthoi */
-     , (11481,   5,         15) /* EncumbranceVal */
      , (11481,   6,        255) /* ItemsCapacity */
      , (11481,   7,        255) /* ContainersCapacity */
      , (11481,  16,          1) /* ItemUseable - No */
-     , (11481,  19,       6295) /* Value */
      , (11481,  25,         60) /* Level */
      , (11481,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11481, 105,          9) /* ItemWorkmanship */
-     , (11481, 106,        272) /* ItemSpellcraft */
-     , (11481, 107,       1587) /* ItemCurMana */
-     , (11481, 108,       1587) /* ItemMaxMana */
-     , (11481, 109,        272) /* ItemDifficulty */
-     , (11481, 110,          0) /* ItemAllegianceRankLimit */
-     , (11481, 115,          0) /* ItemSkillLevelLimit */
-     , (11481, 117,        300) /* ItemManaCost */
-     , (11481, 131,         58) /* MaterialType - Bronze */
      , (11481, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11481, 172,          1) /* AppraisalLongDescDecoration */
      , (11481, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,13 +22,10 @@ VALUES (11481,   1, True ) /* Stuck */
      , (11481,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11481,   5, -0.0555555555555556) /* ManaRate */
-     , (11481,  77,       1) /* PhysicsScriptIntensity */;
+VALUES (11481,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11481,   1, 'Olthoi Legionary') /* Name */
-     , (11481,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (11481,  16, 'Ring of Regeneration') /* LongDesc */
      , (11481, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -74,11 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (11481,   1,   190, 0, 0, 190) /* MaxHealth */
      , (11481,   3,   430, 0, 0, 430) /* MaxStamina */
      , (11481,   5,    30, 0, 0, 30) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11481,   170,      2) 
-     , (11481,  1137,      2) 
-     , (11481,  3194,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11481, 67113317, 0, 0);

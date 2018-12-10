@@ -5,11 +5,9 @@ VALUES (24144, 'silkoswald', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24144,   1,        128) /* ItemType - Misc */
-     , (24144,   2,         30) /* CreatureType - Skeleton */
      , (24144,   5,         15) /* EncumbranceVal */
      , (24144,  16,          1) /* ItemUseable - No */
      , (24144,  19,         10) /* Value */
-     , (24144,  25,        180) /* Level */
      , (24144,  33,          1) /* Bonded - Bonded */
      , (24144,  65,        101) /* Placement - Resting */
      , (24144,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -46,9 +44,6 @@ VALUES (24144, 8040, 288620588, 133.497, 79.7667, 50.79875, 0.260399, 0, 0, 0.96
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24144, 8000, 3692726576) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24144,   1,  1020, 0, 0, 1020) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24144, 67111919, 0, 0);

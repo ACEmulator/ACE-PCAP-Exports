@@ -25,18 +25,15 @@ VALUES (40639,   1,          1) /* ItemType - MeleeWeapon */
      , (40639, 109,         62) /* ItemDifficulty */
      , (40639, 110,          0) /* ItemAllegianceRankLimit */
      , (40639, 115,        275) /* ItemSkillLevelLimit */
-     , (40639, 117,        350) /* ItemManaCost */
      , (40639, 131,         76) /* MaterialType - Pine */
      , (40639, 151,          2) /* HookType - Wall */
      , (40639, 158,          2) /* WieldRequirements - RawSkill */
      , (40639, 159,         41) /* WieldSkilltype - TwoHandedCombat */
      , (40639, 160,        300) /* WieldDifficulty */
-     , (40639, 171,         10) /* NumTimesTinkered */
      , (40639, 172,          5) /* AppraisalLongDescDecoration */
      , (40639, 176,         41) /* AppraisalItemSkill */
      , (40639, 177,          2) /* GemCount */
      , (40639, 178,         43) /* GemType */
-     , (40639, 179,        128) /* ImbuedEffect - ColdRending */
      , (40639, 292,          2) /* Cleaving */
      , (40639, 353,         11) /* WeaponType - TwoHanded */
      , (40639, 8030,          0);
@@ -47,8 +44,7 @@ VALUES (40639,   1, False) /* Stuck */
      , (40639,  13, True ) /* Ethereal */
      , (40639,  14, True ) /* GravityStatus */
      , (40639,  19, True ) /* Attackable */
-     , (40639,  22, True ) /* Inscribable */
-     , (40639,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (40639,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40639,   5, -0.0555555555555556) /* ManaRate */
@@ -59,16 +55,11 @@ VALUES (40639,   5, -0.0555555555555556) /* ManaRate */
      , (40639,  39, 0.649999976158142) /* DefaultScale */
      , (40639,  62,     1.1) /* WeaponOffense */
      , (40639,  63,       1) /* DamageMod */
-     , (40639, 149,   1.015) /* WeaponMissileDefense */
-     , (40639, 150,   1.025) /* WeaponMagicDefense */
      , (40639, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40639,   1, 'Frost Tetsubo') /* Name */
-     , (40639,  16, 'Frost Tetsubo of Blood Drinker') /* LongDesc */
-     , (40639,  25, 'Shadow Tamer') /* CraftsmanName */
-     , (40639,  39, 'Falcon''s Shadow') /* TinkerName */
-     , (40639,  40, 'Methylenedioxymethamphetamine') /* ImbuerName */;
+     , (40639,  16, 'Frost Tetsubo of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40639,   1,   33560732) /* Setup */
@@ -87,78 +78,9 @@ VALUES (40639,   2, 1343298052) /* Container */
      , (40639, 8000, 3697211714) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40639,    35,      2) 
-     , (40639,    49,      2) 
-     , (40639,  1332,      2) 
-     , (40639,  1353,      2) 
-     , (40639,  1378,      2) 
-     , (40639,  1401,      2) 
-     , (40639,  1402,      2) 
-     , (40639,  1591,      2) 
-     , (40639,  1592,      2) 
-     , (40639,  1604,      2) 
-     , (40639,  1605,      2) 
-     , (40639,  1613,      2) 
+VALUES (40639,  1378,      2) 
      , (40639,  1615,      2) 
-     , (40639,  1616,      2) 
-     , (40639,  1626,      2) 
-     , (40639,  1627,      2) 
-     , (40639,  2059,      2) 
-     , (40639,  2061,      2) 
-     , (40639,  2081,      2) 
-     , (40639,  2087,      2) 
-     , (40639,  2096,      2) 
-     , (40639,  2101,      2) 
-     , (40639,  2106,      2) 
-     , (40639,  2116,      2) 
-     , (40639,  2513,      2) 
-     , (40639,  2514,      2) 
-     , (40639,  2524,      2) 
-     , (40639,  2538,      2) 
-     , (40639,  2545,      2) 
-     , (40639,  2549,      2) 
-     , (40639,  2550,      2) 
-     , (40639,  2553,      2) 
-     , (40639,  2562,      2) 
-     , (40639,  2570,      2) 
-     , (40639,  2574,      2) 
-     , (40639,  2575,      2) 
-     , (40639,  2582,      2) 
-     , (40639,  2583,      2) 
-     , (40639,  2586,      2) 
-     , (40639,  2588,      2) 
-     , (40639,  2598,      2) 
-     , (40639,  2600,      2) 
-     , (40639,  2603,      2) 
-     , (40639,  2608,      2) 
-     , (40639,  2609,      2) 
-     , (40639,  2616,      2) 
-     , (40639,  2618,      2) 
-     , (40639,  2620,      2) 
-     , (40639,  3965,      2) 
-     , (40639,  4226,      2) 
-     , (40639,  4299,      2) 
-     , (40639,  4319,      2) 
-     , (40639,  4395,      2) 
-     , (40639,  4405,      2) 
-     , (40639,  4417,      2) 
-     , (40639,  4661,      2) 
-     , (40639,  4676,      2) 
-     , (40639,  4695,      2) 
-     , (40639,  4701,      2) 
-     , (40639,  5070,      2) 
-     , (40639,  5072,      2) 
-     , (40639,  5784,      2) 
-     , (40639,  5785,      2) 
-     , (40639,  5832,      2) 
-     , (40639,  5879,      2) 
-     , (40639,  5881,      2) 
-     , (40639,  5885,      2) 
-     , (40639,  5887,      2) 
-     , (40639,  5890,      2) 
-     , (40639,  6073,      2) 
-     , (40639,  6089,      2) 
-     , (40639,  6126,      2) ;
+     , (40639,  5072,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40639, 67116700, 1, 100)

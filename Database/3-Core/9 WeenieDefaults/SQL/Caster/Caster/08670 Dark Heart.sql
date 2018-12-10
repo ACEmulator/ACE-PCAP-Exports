@@ -36,8 +36,7 @@ VALUES (8670,   5,   -0.05) /* ManaRate */
      , (8670,  29,       1) /* WeaponDefense */
      , (8670,  39, 1.39999997615814) /* DefaultScale */
      , (8670,  76,     0.5) /* Translucency */
-     , (8670, 144, 1.47378232616359E-314) /* ManaConversionMod */
-     , (8670, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (8670, 144, 1.47378232616359E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8670,   1, 'Dark Heart') /* Name */

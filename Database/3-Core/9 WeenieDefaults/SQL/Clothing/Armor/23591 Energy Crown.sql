@@ -41,8 +41,6 @@ VALUES (23591,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23591,   1, 'Energy Crown') /* Name */
-     , (23591,   7, 'Aliah, Comrade in arms, teammate, cherished friend, and the light of my life, and not a bad looker too. ') /* Inscription */
-     , (23591,   8, 'Magus Dark Majesty') /* ScribeName */
      , (23591,  16, 'A crown made of some sort of solidified energy.  When you wear it, you feel revitalized and protected.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -23,10 +23,8 @@ VALUES (49536,   1,        128) /* ItemType - Misc */
      , (49536, 369,        170) /* UseRequiresLevel */
      , (49536, 370,         12) /* GearDamage */
      , (49536, 371,         14) /* GearDamageResist */
-     , (49536, 372,         11) /* GearCrit */
      , (49536, 373,         11) /* GearCritResist */
-     , (49536, 374,         13) /* GearCritDamage */
-     , (49536, 375,         14) /* GearCritDamageResist */;
+     , (49536, 374,         13) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49536,   1, False) /* Stuck */
@@ -43,10 +41,7 @@ VALUES (49536,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49536,   1, 'Fire Phyntos Wasp Essence (180)') /* Name */
-     , (49536,   7, 'see if harlune wants it') /* Inscription */
-     , (49536,   8, 'The Guardian of Lost Light') /* ScribeName */
-     , (49536,  14, 'Use this essence to summon or dismiss your Fire Phyntos Wasp.') /* Use */
-     , (49536,  16, 'Killed by Ferah Palacost.') /* LongDesc */;
+     , (49536,  14, 'Use this essence to summon or dismiss your Fire Phyntos Wasp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49536,   1,   33554817) /* Setup */

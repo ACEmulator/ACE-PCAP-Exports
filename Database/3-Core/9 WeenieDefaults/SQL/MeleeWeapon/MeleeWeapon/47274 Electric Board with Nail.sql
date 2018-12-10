@@ -5,18 +5,15 @@ VALUES (47274, 'ace47274-electricboardwithnail', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47274,   1,          1) /* ItemType - MeleeWeapon */
-     , (47274,   2,         17) /* CreatureType - Armoredillo */
      , (47274,   5,        800) /* EncumbranceVal */
      , (47274,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47274,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47274,  16,          1) /* ItemUseable - No */
      , (47274,  18,         64) /* UiEffects - Lightning */
      , (47274,  19,        350) /* Value */
-     , (47274,  25,        265) /* Level */
      , (47274,  51,          1) /* CombatUse - Melee */
      , (47274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47274, 151,          2) /* HookType - Wall */
-     , (47274, 316,         15) /* CritDamageResistRating */;
+     , (47274, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47274,   1, False) /* Stuck */
@@ -27,8 +24,7 @@ VALUES (47274,   1, False) /* Stuck */
      , (47274,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47274,   1, 'Electric Board with Nail') /* Name */
-     , (47274,  16, 'Killed by High-Voltage II.') /* LongDesc */;
+VALUES (47274,   1, 'Electric Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47274,   1,   33559654) /* Setup */
@@ -49,19 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47274,   3, 3685948843) /* Wielder */
      , (47274, 8000, 3685948849) /* PCAPRecordedObjectIID */
      , (47274, 8008, 3685948843) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47274,   1, 360, 0, 0) /* Strength */
-     , (47274,   2, 320, 0, 0) /* Endurance */
-     , (47274,   3, 340, 0, 0) /* Quickness */
-     , (47274,   4, 340, 0, 0) /* Coordination */
-     , (47274,   5, 130, 0, 0) /* Focus */
-     , (47274,   6, 130, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47274,   1,  2060, 0, 0, 2060) /* MaxHealth */
-     , (47274,   3,  2820, 0, 0, 2819) /* MaxStamina */
-     , (47274,   5,   130, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47274, 67116700, 0, 101)

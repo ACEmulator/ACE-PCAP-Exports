@@ -31,21 +31,18 @@ VALUES (28058,   1, False) /* Stuck */
      , (28058,  15, True ) /* LightsStatus */
      , (28058,  19, True ) /* Attackable */
      , (28058,  22, True ) /* Inscribable */
-     , (28058,  85, True ) /* AppraisalHasAllowedWielder */
      , (28058,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28058,   5,  -0.083) /* ManaRate */
      , (28058,  29,    1.04) /* WeaponDefense */
-     , (28058, 144,    0.06) /* ManaConversionMod */
-     , (28058, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (28058, 144,    0.06) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28058,   1, 'Staff of Aerfalle') /* Name */
      , (28058,   7, 'Made with the help of Rytheran and, in beneficence, His Eternal Splendor.') /* Inscription */
      , (28058,   8, 'Lady Aerfalle') /* ScribeName */
-     , (28058,  16, 'A staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */
-     , (28058,  25, 'Blade of Memory') /* CraftsmanName */;
+     , (28058,  16, 'A staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28058,   1,   33556630) /* Setup */
@@ -53,7 +50,7 @@ VALUES (28058,   1,   33556630) /* Setup */
      , (28058,   6,   67111919) /* PaletteBase */
      , (28058,   8,  100670752) /* Icon */
      , (28058,  22,  872415275) /* PhysicsEffectTable */
-     , (28058,  28,        130) /* Spell */
+     , (28058,  28,        130) /* Spell - AcidVolley6 */
      , (28058, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (28058, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28058, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

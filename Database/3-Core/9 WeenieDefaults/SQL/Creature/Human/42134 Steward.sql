@@ -6,11 +6,9 @@ VALUES (42134, 'ace42134-steward', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42134,   1,         16) /* ItemType - Creature */
      , (42134,   2,         31) /* CreatureType - Human */
-     , (42134,   5,         30) /* EncumbranceVal */
      , (42134,   6,        255) /* ItemsCapacity */
      , (42134,   7,        255) /* ContainersCapacity */
      , (42134,  16,         32) /* ItemUseable - Remote */
-     , (42134,  19,       1000) /* Value */
      , (42134,  25,        150) /* Level */
      , (42134,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42134,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,9 +34,6 @@ VALUES (42134,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42134,   1, 'Steward') /* Name */
      , (42134,   5, 'Facility Steward') /* Template */
-     , (42134,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (42134,  16, 'Inscribed spell: Piercing Vulnerability Other VI
-Increases damage the target takes from Piercing by 150%.') /* LongDesc */
      , (42134, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42134,   1,   175, 0, 0, 175) /* MaxHealth */
      , (42134,   3,   300, 0, 0, 300) /* MaxStamina */
      , (42134,   5,   200, 0, 0, 200) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42134,  1156,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42134, 67109969, 92, 4)

@@ -30,7 +30,6 @@ VALUES (5864,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5864,   1, 'Standing Stone') /* Name */
-     , (5864,  15, 'A standing stone. There is a circular indentation in the center.') /* ShortDesc */
      , (5864,  16, 'A standing stone. There is a circular indentation in the center, which would seem to form the outline of an amulet or seal.') /* LongDesc */
      , (5864, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 

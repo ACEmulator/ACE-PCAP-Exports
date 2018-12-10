@@ -6,83 +6,36 @@ VALUES (38279, 'ace38279-paylabintdumandi', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38279,   1,         16) /* ItemType - Creature */
      , (38279,   2,         31) /* CreatureType - Human */
-     , (38279,   5,         30) /* EncumbranceVal */
      , (38279,   6,        255) /* ItemsCapacity */
      , (38279,   7,        255) /* ContainersCapacity */
      , (38279,  16,         32) /* ItemUseable - Remote */
-     , (38279,  19,       2000) /* Value */
      , (38279,  25,        190) /* Level */
-     , (38279,  28,        260) /* ArmorLevel */
-     , (38279,  44,         11) /* Damage */
-     , (38279,  45,          1) /* DamageType - Slash */
-     , (38279,  47,          4) /* AttackType - Slash */
-     , (38279,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (38279,  49,         60) /* WeaponTime */
      , (38279,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38279,  95,          8) /* RadarBlipColor - Yellow */
-     , (38279, 105,          5) /* ItemWorkmanship */
-     , (38279, 106,        301) /* ItemSpellcraft */
-     , (38279, 107,       2116) /* ItemCurMana */
-     , (38279, 108,       2116) /* ItemMaxMana */
-     , (38279, 109,        301) /* ItemDifficulty */
-     , (38279, 110,          0) /* ItemAllegianceRankLimit */
      , (38279, 113,          2) /* Gender - Female */
-     , (38279, 115,          0) /* ItemSkillLevelLimit */
-     , (38279, 131,          6) /* MaterialType - Silk */
      , (38279, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38279, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38279, 158,          2) /* WieldRequirements - RawSkill */
-     , (38279, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (38279, 160,        360) /* WieldDifficulty */
-     , (38279, 172,          5) /* AppraisalLongDescDecoration */
-     , (38279, 176,         47) /* AppraisalItemSkill */
-     , (38279, 177,          1) /* GemCount */
-     , (38279, 178,         33) /* GemType */
      , (38279, 188,          2) /* HeritageGroup - Gharundim */
-     , (38279, 204,          8) /* ElementalDamageBonus */
      , (38279, 281,          4) /* Faction1Bits */
      , (38279, 289,       1001) /* SocietyRankRadblo */
-     , (38279, 353,          3) /* WeaponType - Axe */
-     , (38279, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38279, 8030,          0);
+     , (38279, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38279,   1, True ) /* Stuck */
-     , (38279,   2, True ) /* Open */
      , (38279,  11, True ) /* IgnoreCollisions */
      , (38279,  12, True ) /* ReportCollisions */
      , (38279,  13, False) /* Ethereal */
      , (38279,  14, True ) /* GravityStatus */
      , (38279,  19, False) /* Attackable */
      , (38279,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38279,  42, True ) /* AllowEdgeSlide */
-     , (38279, 100, True ) /* Dyable */;
+     , (38279,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38279,   5, -0.0555555555555556) /* ManaRate */
-     , (38279,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38279,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38279,  15,       1) /* ArmorModVsBludgeon */
-     , (38279,  16,     0.5) /* ArmorModVsCold */
-     , (38279,  17,     0.5) /* ArmorModVsFire */
-     , (38279,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (38279,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38279,  21,       0) /* WeaponLength */
-     , (38279,  22,     0.5) /* DamageVariance */
-     , (38279,  26,       0) /* MaximumVelocity */
-     , (38279,  29,       1) /* WeaponDefense */
-     , (38279,  54,       3) /* UseRadius */
-     , (38279,  62,       1) /* WeaponOffense */
-     , (38279,  63,       1) /* DamageMod */
-     , (38279, 149,   1.015) /* WeaponMissileDefense */
-     , (38279, 165,       1) /* ArmorModVsNether */;
+VALUES (38279,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38279,   1, 'Payla bint Dumandi') /* Name */
      , (38279,   5, 'Spawn Pools Task Master') /* Template */
-     , (38279,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38279,  16, 'Inscribed spell: Celdiseth''s Boon
-Increases the target''s Magic Item Tinkering skill by 40 points.') /* LongDesc */
      , (38279, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -120,19 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38279,   1,   235, 0, 0, 235) /* MaxHealth */
      , (38279,   3,   330, 0, 0, 330) /* MaxStamina */
      , (38279,   5,   145, 0, 0, 145) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38279,   803,      2) 
-     , (38279,  1378,      2) 
-     , (38279,  1486,      2) 
-     , (38279,  1516,      2) 
-     , (38279,  1616,      2) 
-     , (38279,  2101,      2) 
-     , (38279,  2102,      2) 
-     , (38279,  2113,      2) 
-     , (38279,  2276,      2) 
-     , (38279,  2536,      2) 
-     , (38279,  2600,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38279, 67109552, 0, 24)

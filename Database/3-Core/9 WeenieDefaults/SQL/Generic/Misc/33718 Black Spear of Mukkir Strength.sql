@@ -22,8 +22,6 @@ VALUES (33718,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33718,   1, 'Black Spear of Mukkir Strength') /* Name */
-     , (33718,   7, 'Solo Mukkir Slayer. w00t!') /* Inscription */
-     , (33718,   8, 'Voltaic Mage') /* ScribeName */
      , (33718,  15, 'A decorative Black Spear, made from the remains of the Broken Black Spear carried by the Mukkir Aspect of Grael.  This spear may be placed on Floor or Yard Hooks, where it can then be used to gain the spells that it casts.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

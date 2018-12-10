@@ -28,9 +28,7 @@ VALUES (40801,   1, False) /* Stuck */
      , (40801,  14, True ) /* GravityStatus */
      , (40801,  19, True ) /* Attackable */
      , (40801,  22, True ) /* Inscribable */
-     , (40801,  85, True ) /* AppraisalHasAllowedWielder */
-     , (40801,  99, True ) /* Ivoryable */
-     , (40801, 100, False) /* Dyable */;
+     , (40801,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40801,   5, -0.0500000007450581) /* ManaRate */
@@ -45,9 +43,7 @@ VALUES (40801,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40801,   1, 'Nexus Crawler''s Mask') /* Name */
-     , (40801,  15, 'A mask crafted from the mask of the Apostate Nexus Master.') /* ShortDesc */
-     , (40801,  16, NULL) /* LongDesc */
-     , (40801,  25, 'Deathspawner') /* CraftsmanName */;
+     , (40801,  15, 'A mask crafted from the mask of the Apostate Nexus Master.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40801,   1,   33556827) /* Setup */

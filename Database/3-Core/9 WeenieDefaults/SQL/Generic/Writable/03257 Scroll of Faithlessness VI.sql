@@ -8,13 +8,8 @@ VALUES (3257,   1,       8192) /* ItemType - Writable */
      , (3257,   5,         30) /* EncumbranceVal */
      , (3257,  16,          8) /* ItemUseable - Contained */
      , (3257,  19,       1000) /* Value */
-     , (3257,  33,          0) /* Bonded - Normal */
      , (3257,  65,        101) /* Placement - Resting */
-     , (3257,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3257, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
-     , (3257, 114,          0) /* Attuned - Normal */
-     , (3257, 174,          1) /* AppraisalPages */
-     , (3257, 175,          1) /* AppraisalMaxPages */;
+     , (3257,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3257,   1, False) /* Stuck */
@@ -30,16 +25,14 @@ VALUES (3257,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3257,   1, 'Scroll of Faithlessness VI') /* Name */
      , (3257,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (3257,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */
      , (3257,  16, 'Inscribed spell: Faithlessness Other VI
-Decreases the target''s Loyalty skill by 35 points.') /* LongDesc */
-     , (3257,  38, 'Arena 7') /* AppraisalPortalDestination */;
+Decreases the target''s Loyalty skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3257,   1,   33554826) /* Setup */
      , (3257,   8,  100676446) /* Icon */
      , (3257,  22,  872415275) /* PhysicsEffectTable */
-     , (3257,  28,        969) /* Spell */
+     , (3257,  28,        969) /* Spell - FaithlessnessOther6 */
      , (3257, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3257, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3257, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

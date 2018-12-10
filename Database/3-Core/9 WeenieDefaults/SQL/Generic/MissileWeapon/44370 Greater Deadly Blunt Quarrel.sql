@@ -23,16 +23,6 @@ VALUES (44370,   1,        256) /* ItemType - MissileWeapon */
      , (44370, 158,          2) /* WieldRequirements - RawSkill */
      , (44370, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (44370, 160,        270) /* WieldDifficulty */
-     , (44370, 166,         30) /* SlayerCreatureType - Skeleton */
-     , (44370, 179,         32) /* ImbuedEffect - BludgeonRending */
-     , (44370, 303,         32) /* ImbuedEffect2 - BludgeonRending */
-     , (44370, 304,         32) /* ImbuedEffect3 - BludgeonRending */
-     , (44370, 305,         32) /* ImbuedEffect4 - BludgeonRending */
-     , (44370, 306,         32) /* ImbuedEffect5 - BludgeonRending */
-     , (44370, 307,         32) /* DamageRating */
-     , (44370, 313,          1) /* CritRating */
-     , (44370, 314,         18) /* CritDamageRating */
-     , (44370, 386,          0) /* Overpower */
      , (44370, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -53,9 +43,7 @@ VALUES (44370,  21,       0) /* WeaponLength */
      , (44370,  62,       1) /* WeaponOffense */
      , (44370,  63,       1) /* DamageMod */
      , (44370,  78,       1) /* Friction */
-     , (44370,  79,       0) /* Elasticity */
-     , (44370, 149,       0) /* WeaponMissileDefense */
-     , (44370, 150,       0) /* WeaponMagicDefense */;
+     , (44370,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44370,   1, 'Greater Deadly Blunt Quarrel') /* Name */;

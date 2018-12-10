@@ -22,10 +22,6 @@ VALUES (22851,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22851,   1, 'Snowman Snowglobe') /* Name */
-     , (22851,   7, 'To my awesome patron Jet Fang!
-
-Thanks for everything pal!') /* Inscription */
-     , (22851,   8, 'Deathspawner') /* ScribeName */
      , (22851,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

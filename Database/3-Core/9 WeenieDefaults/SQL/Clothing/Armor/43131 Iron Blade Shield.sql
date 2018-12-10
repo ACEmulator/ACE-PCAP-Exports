@@ -9,42 +9,22 @@ VALUES (43131,   1,          2) /* ItemType - Armor */
      , (43131,   9,    2097152) /* ValidLocations - Shield */
      , (43131,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (43131,  16,          1) /* ItemUseable - No */
-     , (43131,  19,        990) /* Value */
-     , (43131,  28,          0) /* ArmorLevel */
-     , (43131,  33,          1) /* Bonded - Bonded */
      , (43131,  51,          4) /* CombatUse - Shield */
-     , (43131,  91,         20) /* MaxStructure */
-     , (43131,  92,         19) /* Structure */
      , (43131,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43131, 105,          6) /* ItemWorkmanship */
-     , (43131, 114,          1) /* Attuned - Attuned */
-     , (43131, 131,          6) /* MaterialType - Silk */
-     , (43131, 151,          2) /* HookType - Wall */
-     , (43131, 172,          1) /* AppraisalLongDescDecoration */;
+     , (43131, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43131,   1, False) /* Stuck */
      , (43131,  11, True ) /* IgnoreCollisions */
      , (43131,  13, True ) /* Ethereal */
      , (43131,  14, True ) /* GravityStatus */
-     , (43131,  19, True ) /* Attackable */
-     , (43131, 100, True ) /* Dyable */;
+     , (43131,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43131,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (43131,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (43131,  15,       1) /* ArmorModVsBludgeon */
-     , (43131,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (43131,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (43131,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (43131,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (43131,  39, 1.29999995231628) /* DefaultScale */
-     , (43131, 165,       1) /* ArmorModVsNether */;
+VALUES (43131,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43131,   1, 'Iron Blade Shield') /* Name */
-     , (43131,  14, 'Double-click on this key, then click on the Library door to unlock it. Double-click on the door to open it.') /* Use */
-     , (43131,  16, 'Loose Pants') /* LongDesc */;
+VALUES (43131,   1, 'Iron Blade Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43131,   1,   33561095) /* Setup */

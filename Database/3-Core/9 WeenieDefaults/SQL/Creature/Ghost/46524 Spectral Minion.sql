@@ -6,11 +6,9 @@ VALUES (46524, 'ace46524-spectralminion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46524,   1,         16) /* ItemType - Creature */
      , (46524,   2,         77) /* CreatureType - Ghost */
-     , (46524,   5,       6824) /* EncumbranceVal */
      , (46524,   6,        255) /* ItemsCapacity */
      , (46524,   7,        255) /* ContainersCapacity */
      , (46524,  16,          1) /* ItemUseable - No */
-     , (46524,  19,          0) /* Value */
      , (46524,  25,        240) /* Level */
      , (46524,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46524, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (46524,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46524,   1, 'Spectral Minion') /* Name */
-     , (46524,  16, 'Killed by Zikka.') /* LongDesc */
      , (46524, 8006, 'BwA9ADIA40tCaCNDuXE0QtH4e0JP7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAmpkpQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

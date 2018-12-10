@@ -44,8 +44,6 @@ VALUES (26004,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26004,   1, 'Crown of Bone') /* Name */
-     , (26004,   7, 'From your Pal') /* Inscription */
-     , (26004,   8, 'The Green Machine') /* ScribeName */
      , (26004,  16, 'A crown crafted from the fingers of the dead.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -14,7 +14,6 @@ VALUES (21373,   1,          2) /* ItemType - Armor */
      , (21373,  28,        150) /* ArmorLevel */
      , (21373,  65,        101) /* Placement - Resting */
      , (21373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21373, 114,          0) /* Attuned - Normal */
      , (21373, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,8 +23,7 @@ VALUES (21373,   1, False) /* Stuck */
      , (21373,  14, True ) /* GravityStatus */
      , (21373,  19, True ) /* Attackable */
      , (21373,  22, True ) /* Inscribable */
-     , (21373,  69, False) /* IsSellable */
-     , (21373,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (21373,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21373,  13,     0.5) /* ArmorModVsSlash */
@@ -39,10 +37,7 @@ VALUES (21373,  13,     0.5) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21373,   1, 'Martine''s Mask') /* Name */
-     , (21373,   7, '7 more end') /* Inscription */
-     , (21373,   8, 'Beale V') /* ScribeName */
-     , (21373,  15, 'A broken virindi mask. Flesh seems to be seared to the interior of the mask.') /* ShortDesc */
-     , (21373,  25, 'Stargren Dragoon') /* CraftsmanName */;
+     , (21373,  15, 'A broken virindi mask. Flesh seems to be seared to the interior of the mask.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21373,   1,   33557948) /* Setup */

@@ -39,8 +39,7 @@ VALUES (24899,  13, 1.70000004768372) /* ArmorModVsSlash */
      , (24899, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24899,   1, 'Greater Olthoi Brood Queen Helm') /* Name */
-     , (24899,  16, NULL) /* LongDesc */;
+VALUES (24899,   1, 'Greater Olthoi Brood Queen Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24899,   1,   33558419) /* Setup */

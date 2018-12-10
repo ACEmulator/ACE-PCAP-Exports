@@ -6,14 +6,11 @@ VALUES (36967, 'ace36967-tuskerprotector', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36967,   1,         16) /* ItemType - Creature */
      , (36967,   2,          8) /* CreatureType - Tusker */
-     , (36967,   5,       6285) /* EncumbranceVal */
      , (36967,   6,        255) /* ItemsCapacity */
      , (36967,   7,        255) /* ContainersCapacity */
      , (36967,  16,          1) /* ItemUseable - No */
-     , (36967,  19,          0) /* Value */
      , (36967,  25,        185) /* Level */
      , (36967,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (36967, 111,          1) /* PortalBitmask - Unrestricted */
      , (36967, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36967, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -30,8 +27,6 @@ VALUES (36967,  39, 1.79999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36967,   1, 'Tusker Protector') /* Name */
-     , (36967,  16, 'Killed by Uncle P.') /* LongDesc */
-     , (36967,  38, 'South Gate') /* AppraisalPortalDestination */
      , (36967, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

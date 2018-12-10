@@ -38,7 +38,7 @@ VALUES (53318,   1,   33561675) /* Setup */
      , (53318,   3,  536870932) /* SoundTable */
      , (53318,   8,  100693344) /* Icon */
      , (53318,  22,  872415275) /* PhysicsEffectTable */
-     , (53318,  28,       6198) /* Spell */
+     , (53318,  28,       6198) /* Spell - IncantationOfLightningBolt */
      , (53318,  52,  100676436) /* IconUnderlay */
      , (53318, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (53318, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

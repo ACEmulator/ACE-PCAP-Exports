@@ -6,38 +6,19 @@ VALUES (38553, 'ace38553-societysolleretsarmorsmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38553,   1,         16) /* ItemType - Creature */
      , (38553,   2,         31) /* CreatureType - Human */
-     , (38553,   5,          5) /* EncumbranceVal */
      , (38553,   6,        255) /* ItemsCapacity */
      , (38553,   7,        255) /* ContainersCapacity */
      , (38553,  16,         32) /* ItemUseable - Remote */
-     , (38553,  19,          1) /* Value */
      , (38553,  25,        185) /* Level */
-     , (38553,  44,         40) /* Damage */
-     , (38553,  45,          1) /* DamageType - Slash */
-     , (38553,  48,          0) /* WeaponSkill - None */
-     , (38553,  49,         -1) /* WeaponTime */
      , (38553,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38553,  95,          8) /* RadarBlipColor - Yellow */
      , (38553, 113,          1) /* Gender - Male */
      , (38553, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38553, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38553, 158,          2) /* WieldRequirements - RawSkill */
-     , (38553, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (38553, 160,        270) /* WieldDifficulty */
-     , (38553, 179,          8) /* ImbuedEffect - SlashRending */
      , (38553, 188,          4) /* HeritageGroup - Viamontian */
      , (38553, 281,          1) /* Faction1Bits */
      , (38553, 287,          1) /* SocietyRankCelhan */
-     , (38553, 303,          8) /* ImbuedEffect2 - SlashRending */
-     , (38553, 304,          8) /* ImbuedEffect3 - SlashRending */
-     , (38553, 305,          8) /* ImbuedEffect4 - SlashRending */
-     , (38553, 306,          8) /* ImbuedEffect5 - SlashRending */
-     , (38553, 307,          5) /* DamageRating */
-     , (38553, 313,          0) /* CritRating */
-     , (38553, 314,          0) /* CritDamageRating */
-     , (38553, 386,          0) /* Overpower */
-     , (38553, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38553, 8030,          0);
+     , (38553, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38553,   1, True ) /* Stuck */
@@ -47,19 +28,10 @@ VALUES (38553,   1, True ) /* Stuck */
      , (38553,  14, True ) /* GravityStatus */
      , (38553,  19, False) /* Attackable */
      , (38553,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38553,  42, True ) /* AllowEdgeSlide */
-     , (38553,  69, False) /* IsSellable */;
+     , (38553,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38553,  21,       0) /* WeaponLength */
-     , (38553,  22,     0.2) /* DamageVariance */
-     , (38553,  26,       0) /* MaximumVelocity */
-     , (38553,  29,       1) /* WeaponDefense */
-     , (38553,  54,       3) /* UseRadius */
-     , (38553,  62,       1) /* WeaponOffense */
-     , (38553,  63,       1) /* DamageMod */
-     , (38553, 149,       0) /* WeaponMissileDefense */
-     , (38553, 150,       0) /* WeaponMagicDefense */;
+VALUES (38553,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38553,   1, 'Society Sollerets Armorsmith') /* Name */

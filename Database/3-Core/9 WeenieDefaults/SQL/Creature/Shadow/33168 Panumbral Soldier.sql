@@ -6,88 +6,29 @@ VALUES (33168, 'ace33168-panumbralsoldier', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33168,   1,         16) /* ItemType - Creature */
      , (33168,   2,         22) /* CreatureType - Shadow */
-     , (33168,   5,        418) /* EncumbranceVal */
      , (33168,   6,        255) /* ItemsCapacity */
      , (33168,   7,        255) /* ContainersCapacity */
      , (33168,  16,          1) /* ItemUseable - No */
-     , (33168,  19,       4767) /* Value */
      , (33168,  25,        160) /* Level */
-     , (33168,  28,        408) /* ArmorLevel */
-     , (33168,  33,          1) /* Bonded - Bonded */
-     , (33168,  36,       9999) /* ResistMagic */
-     , (33168,  44,         31) /* Damage */
-     , (33168,  45,          4) /* DamageType - Bludgeon */
-     , (33168,  47,          6) /* AttackType - Thrust, Slash */
-     , (33168,  48,         45) /* WeaponSkill - LightWeapons */
-     , (33168,  49,         25) /* WeaponTime */
-     , (33168,  89,          2) /* BoosterEnum - Health */
-     , (33168,  90,         85) /* BoostValue */
      , (33168,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33168,  98, 1485298515) /* CreationTimestamp */
-     , (33168, 105,          6) /* ItemWorkmanship */
-     , (33168, 106,        274) /* ItemSpellcraft */
-     , (33168, 107,       1401) /* ItemCurMana */
-     , (33168, 108,       1401) /* ItemMaxMana */
-     , (33168, 109,        136) /* ItemDifficulty */
-     , (33168, 110,          0) /* ItemAllegianceRankLimit */
-     , (33168, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (33168, 113,          1) /* Gender - Male */
-     , (33168, 115,        294) /* ItemSkillLevelLimit */
-     , (33168, 117,        350) /* ItemManaCost */
-     , (33168, 131,         73) /* MaterialType - Ebony */
      , (33168, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33168, 158,          2) /* WieldRequirements - RawSkill */
-     , (33168, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (33168, 160,        300) /* WieldDifficulty */
-     , (33168, 172,          5) /* AppraisalLongDescDecoration */
-     , (33168, 176,         46) /* AppraisalItemSkill */
-     , (33168, 177,          4) /* GemCount */
-     , (33168, 178,         47) /* GemType */
      , (33168, 188,          1) /* HeritageGroup - Aluvian */
-     , (33168, 267,        180) /* Lifespan */
-     , (33168, 268,        179) /* RemainingLifespan */
-     , (33168, 292,          2) /* Cleaving */
      , (33168, 307,          5) /* DamageRating */
-     , (33168, 313,          0) /* CritRating */
-     , (33168, 314,          0) /* CritDamageRating */
-     , (33168, 353,          7) /* WeaponType - Staff */
-     , (33168, 386,          0) /* Overpower */
-     , (33168, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (33168, 8030,          0);
+     , (33168, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33168,   1, True ) /* Stuck */
      , (33168,  12, True ) /* ReportCollisions */
      , (33168,  13, False) /* Ethereal */
      , (33168,  14, True ) /* GravityStatus */
-     , (33168,  19, True ) /* Attackable */
-     , (33168, 100, True ) /* Dyable */;
+     , (33168,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33168,   5, -0.0555555555555556) /* ManaRate */
-     , (33168,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (33168,  14,     1.5) /* ArmorModVsPierce */
-     , (33168,  15, 1.29999995231628) /* ArmorModVsBludgeon */
-     , (33168,  16, 1.60000002384186) /* ArmorModVsCold */
-     , (33168,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (33168,  18, 0.800000011920929) /* ArmorModVsAcid */
-     , (33168,  19, 1.20000004768372) /* ArmorModVsElectric */
-     , (33168,  21,       0) /* WeaponLength */
-     , (33168,  22,     0.5) /* DamageVariance */
-     , (33168,  26,       0) /* MaximumVelocity */
-     , (33168,  29,    1.13) /* WeaponDefense */
-     , (33168,  39, 1.10000002384186) /* DefaultScale */
-     , (33168,  62,    1.07) /* WeaponOffense */
-     , (33168,  63,       1) /* DamageMod */
-     , (33168, 149,       0) /* WeaponMissileDefense */
-     , (33168, 150,       0) /* WeaponMagicDefense */
-     , (33168, 165,       1) /* ArmorModVsNether */;
+VALUES (33168,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33168,   1, 'Panumbral Soldier') /* Name */
-     , (33168,  14, 'Use this item to drink it.') /* Use */
-     , (33168,  16, 'Quarter Staff') /* LongDesc */
-     , (33168,  38, 'The Colosseum') /* AppraisalPortalDestination */
      , (33168, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -115,35 +56,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33168, 8000, 3679274909) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (33168,   1, 130, 0, 0) /* Strength */
-     , (33168,   2, 155, 0, 0) /* Endurance */
-     , (33168,   3, 190, 0, 0) /* Quickness */
-     , (33168,   4, 190, 0, 0) /* Coordination */
-     , (33168,   5, 140, 0, 0) /* Focus */
-     , (33168,   6, 110, 0, 0) /* Self */;
+VALUES (33168,   1, 180, 0, 0) /* Strength */
+     , (33168,   2, 200, 0, 0) /* Endurance */
+     , (33168,   3, 240, 0, 0) /* Quickness */
+     , (33168,   4, 220, 0, 0) /* Coordination */
+     , (33168,   5, 200, 0, 0) /* Focus */
+     , (33168,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33168,   1,  2750, 0, 0, 2750) /* MaxHealth */
-     , (33168,   3,   505, 0, 0, 505) /* MaxStamina */
-     , (33168,   5,   360, 0, 0, 336) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33168,  1035,      2) 
-     , (33168,  1093,      2) 
-     , (33168,  1354,      2) 
-     , (33168,  1592,      2) 
-     , (33168,  1604,      2) 
-     , (33168,  1615,      2) 
-     , (33168,  1626,      2) 
-     , (33168,  1627,      2) 
-     , (33168,  2108,      2) 
-     , (33168,  2517,      2) 
-     , (33168,  2537,      2) 
-     , (33168,  2547,      2) 
-     , (33168,  2550,      2) 
-     , (33168,  2598,      2) 
-     , (33168,  2618,      2) 
-     , (33168,  3505,      2) ;
+     , (33168,   3,  2920, 0, 0, 2920) /* MaxStamina */
+     , (33168,   5,  2870, 0, 0, 2870) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33168, 67109558, 0, 24)

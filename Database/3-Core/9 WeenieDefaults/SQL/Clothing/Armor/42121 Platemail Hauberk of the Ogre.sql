@@ -13,16 +13,10 @@ VALUES (42121,   1,          2) /* ItemType - Armor */
      , (42121,  28,        140) /* ArmorLevel */
      , (42121,  65,        101) /* Placement - Resting */
      , (42121,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42121, 105,          7) /* ItemWorkmanship */
      , (42121, 106,        100) /* ItemSpellcraft */
      , (42121, 107,        926) /* ItemCurMana */
      , (42121, 108,       1000) /* ItemMaxMana */
-     , (42121, 109,          0) /* ItemDifficulty */
-     , (42121, 110,          0) /* ItemAllegianceRankLimit */
-     , (42121, 115,          0) /* ItemSkillLevelLimit */
-     , (42121, 117,        300) /* ItemManaCost */
-     , (42121, 131,         23) /* MaterialType - GreenGarnet */
-     , (42121, 172,          1) /* AppraisalLongDescDecoration */;
+     , (42121, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42121,   1, False) /* Stuck */
@@ -45,10 +39,7 @@ VALUES (42121,   5, -0.0333333) /* ManaRate */
      , (42121, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42121,   1, 'Platemail Hauberk of the Ogre') /* Name */
-     , (42121,   7, 'Level 10 Item') /* Inscription */
-     , (42121,   8, 'Sinful Kitten') /* ScribeName */
-     , (42121,  16, 'Gem of Mana Renewal') /* LongDesc */;
+VALUES (42121,   1, 'Platemail Hauberk of the Ogre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42121,   1,   33554644) /* Setup */
@@ -65,8 +56,7 @@ VALUES (42121,   2, 3666900768) /* Container */
      , (42121, 8000, 2174243196) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42121,   216,      2) 
-     , (42121,  1331,      2) ;
+VALUES (42121,  1331,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42121, 67110387, 92, 4)

@@ -14,18 +14,7 @@ VALUES (35922,   1,        128) /* ItemType - Misc */
      , (35922,  65,        101) /* Placement - Resting */
      , (35922,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35922,  98, 1483945768) /* CreationTimestamp */
-     , (35922, 105,          7) /* ItemWorkmanship */
-     , (35922, 106,        260) /* ItemSpellcraft */
-     , (35922, 107,       2334) /* ItemCurMana */
-     , (35922, 108,       2334) /* ItemMaxMana */
-     , (35922, 109,        195) /* ItemDifficulty */
-     , (35922, 110,          0) /* ItemAllegianceRankLimit */
      , (35922, 114,          1) /* Attuned - Attuned */
-     , (35922, 115,          0) /* ItemSkillLevelLimit */
-     , (35922, 131,         51) /* MaterialType - Ivory */
-     , (35922, 172,          5) /* AppraisalLongDescDecoration */
-     , (35922, 177,          2) /* GemCount */
-     , (35922, 178,         36) /* GemType */
      , (35922, 267,       3600) /* Lifespan */
      , (35922, 268,       3599) /* RemainingLifespan */;
 
@@ -38,13 +27,11 @@ VALUES (35922,   1, False) /* Stuck */
      , (35922,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35922,   5, -0.0555555555555556) /* ManaRate */
-     , (35922,  39,     0.5) /* DefaultScale */;
+VALUES (35922,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35922,   1, 'Amelia''s Toy Sword') /* Name */
-     , (35922,  15, 'A toy sword. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */
-     , (35922,  16, 'Top of Blade Protection') /* LongDesc */;
+     , (35922,  15, 'A toy sword. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35922,   1,   33554758) /* Setup */
@@ -59,9 +46,6 @@ VALUES (35922,   1,   33554758) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35922,   2, 1343301116) /* Container */
      , (35922, 8000, 3683357342) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35922,  1114,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35922, 67111926, 0, 0);

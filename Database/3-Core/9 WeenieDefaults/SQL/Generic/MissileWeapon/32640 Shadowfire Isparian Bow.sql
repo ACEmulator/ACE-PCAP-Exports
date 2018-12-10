@@ -28,15 +28,8 @@ VALUES (32640,   1,        256) /* ItemType - MissileWeapon */
      , (32640, 160,        360) /* WieldDifficulty */
      , (32640, 166,         22) /* SlayerCreatureType - Shadow */
      , (32640, 204,         12) /* ElementalDamageBonus */
-     , (32640, 265,        138) /* EquipmentSetId - UNKNOWN_138 */
-     , (32640, 319,          2) /* ItemMaxLevel */
-     , (32640, 320,          1) /* ItemXpStyle - Fixed */
      , (32640, 353,          8) /* WeaponType - Bow */
      , (32640, 8030,          0);
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (32640,   4,          0) /* ItemTotalXp */
-     , (32640,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32640,   1, False) /* Stuck */
@@ -46,7 +39,6 @@ VALUES (32640,   1, False) /* Stuck */
      , (32640,  19, True ) /* Attackable */
      , (32640,  22, True ) /* Inscribable */
      , (32640,  69, False) /* IsSellable */
-     , (32640,  85, True ) /* AppraisalHasAllowedWielder */
      , (32640,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -61,10 +53,7 @@ VALUES (32640,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32640,   1, 'Shadowfire Isparian Bow') /* Name */
-     , (32640,   7, 'rip AC') /* Inscription */
-     , (32640,   8, 'Dota') /* ScribeName */
-     , (32640,  16, 'A Perfect Isparian Bow, infused with the power of the Shadowfire Stone.') /* LongDesc */
-     , (32640,  25, 'Dota') /* CraftsmanName */;
+     , (32640,  16, 'A Perfect Isparian Bow, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32640,   1,   33559818) /* Setup */

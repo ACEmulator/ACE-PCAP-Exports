@@ -43,7 +43,7 @@ VALUES (39108,   1,   33560398) /* Setup */
      , (39108,   6,   67109307) /* PaletteBase */
      , (39108,   8,  100689668) /* Icon */
      , (39108,  22,  872415275) /* PhysicsEffectTable */
-     , (39108,  28,       4206) /* Spell */
+     , (39108,  28,       4206) /* Spell - ChewyCenter */
      , (39108, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (39108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39108, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;

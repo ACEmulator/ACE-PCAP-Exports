@@ -6,27 +6,12 @@ VALUES (35884, 'ace35884-paradoxtouchedolthoinoble', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35884,   1,         16) /* ItemType - Creature */
      , (35884,   2,         92) /* CreatureType - ParadoxOlthoi */
-     , (35884,   5,          5) /* EncumbranceVal */
      , (35884,   6,        255) /* ItemsCapacity */
      , (35884,   7,        255) /* ContainersCapacity */
      , (35884,  16,          1) /* ItemUseable - No */
-     , (35884,  19,       2867) /* Value */
      , (35884,  25,        160) /* Level */
-     , (35884,  91,         50) /* MaxStructure */
-     , (35884,  92,         50) /* Structure */
      , (35884,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35884, 105,          9) /* ItemWorkmanship */
-     , (35884, 106,        370) /* ItemSpellcraft */
-     , (35884, 107,        756) /* ItemCurMana */
-     , (35884, 108,        756) /* ItemMaxMana */
-     , (35884, 109,          0) /* ItemDifficulty */
-     , (35884, 110,          0) /* ItemAllegianceRankLimit */
-     , (35884, 115,          0) /* ItemSkillLevelLimit */
-     , (35884, 117,        400) /* ItemManaCost */
-     , (35884, 131,         22) /* MaterialType - FireOpal */
      , (35884, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35884, 172,          1) /* AppraisalLongDescDecoration */
-     , (35884, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (35884, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,8 +27,6 @@ VALUES (35884,  39, 0.800000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35884,   1, 'Paradox-touched Olthoi Noble') /* Name */
-     , (35884,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (35884,  16, 'Gem of Endurance') /* LongDesc */
      , (35884, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -77,10 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (35884,   1,  1570, 0, 0, 1570) /* MaxHealth */
      , (35884,   3,  1780, 0, 0, 1780) /* MaxStamina */
      , (35884,   5,    90, 0, 0, 90) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35884,   193,      2) 
-     , (35884,  4299,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35884, 67113314, 0, 0);

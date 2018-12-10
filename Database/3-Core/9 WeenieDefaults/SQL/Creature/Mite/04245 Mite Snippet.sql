@@ -6,24 +6,12 @@ VALUES (4245, 'mitesnippet', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4245,   1,         16) /* ItemType - Creature */
      , (4245,   2,          7) /* CreatureType - Mite */
-     , (4245,   5,         16) /* EncumbranceVal */
      , (4245,   6,        255) /* ItemsCapacity */
      , (4245,   7,        255) /* ContainersCapacity */
      , (4245,  16,          1) /* ItemUseable - No */
-     , (4245,  19,      25177) /* Value */
      , (4245,  25,          8) /* Level */
-     , (4245,  28,        299) /* ArmorLevel */
      , (4245,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4245, 105,          8) /* ItemWorkmanship */
-     , (4245, 106,        286) /* ItemSpellcraft */
-     , (4245, 107,       1867) /* ItemCurMana */
-     , (4245, 108,       1867) /* ItemMaxMana */
-     , (4245, 109,        286) /* ItemDifficulty */
-     , (4245, 110,          0) /* ItemAllegianceRankLimit */
-     , (4245, 115,          0) /* ItemSkillLevelLimit */
-     , (4245, 131,          6) /* MaterialType - Silk */
      , (4245, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (4245, 172,          1) /* AppraisalLongDescDecoration */
      , (4245, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,24 +19,13 @@ VALUES (4245,   1, True ) /* Stuck */
      , (4245,  12, True ) /* ReportCollisions */
      , (4245,  13, False) /* Ethereal */
      , (4245,  14, True ) /* GravityStatus */
-     , (4245,  19, True ) /* Attackable */
-     , (4245, 100, True ) /* Dyable */;
+     , (4245,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4245,   5, -0.0555555555555556) /* ManaRate */
-     , (4245,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (4245,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (4245,  15,       1) /* ArmorModVsBludgeon */
-     , (4245,  16, 1.02742075920105) /* ArmorModVsCold */
-     , (4245,  17,     0.5) /* ArmorModVsFire */
-     , (4245,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (4245,  19, 1.35902667045593) /* ArmorModVsElectric */
-     , (4245,  39, 0.899999976158142) /* DefaultScale */
-     , (4245, 165,       1) /* ArmorModVsNether */;
+VALUES (4245,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4245,   1, 'Mite Snippet') /* Name */
-     , (4245,  16, 'Hood of Magic Item Expertise') /* LongDesc */
      , (4245, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -81,11 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4245,   1,    20, 0, 0, 20) /* MaxHealth */
      , (4245,   3,   140, 0, 0, 140) /* MaxStamina */
      , (4245,   5,    20, 0, 0, 20) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4245,  2108,      2) 
-     , (4245,  2110,      2) 
-     , (4245,  2277,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4245, 67115123, 0, 0);

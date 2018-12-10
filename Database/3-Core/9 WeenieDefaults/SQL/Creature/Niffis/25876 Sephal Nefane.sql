@@ -6,32 +6,13 @@ VALUES (25876, 'nefanesephal', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25876,   1,         16) /* ItemType - Creature */
      , (25876,   2,         45) /* CreatureType - Niffis */
-     , (25876,   5,       6291) /* EncumbranceVal */
      , (25876,   6,        255) /* ItemsCapacity */
      , (25876,   7,        255) /* ContainersCapacity */
      , (25876,  16,          1) /* ItemUseable - No */
-     , (25876,  19,          0) /* Value */
      , (25876,  25,        135) /* Level */
-     , (25876,  44,         20) /* Damage */
-     , (25876,  45,          1) /* DamageType - Slash */
-     , (25876,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (25876,  49,         10) /* WeaponTime */
      , (25876,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25876, 105,          6) /* ItemWorkmanship */
-     , (25876, 106,        309) /* ItemSpellcraft */
-     , (25876, 107,       1634) /* ItemCurMana */
-     , (25876, 108,       1634) /* ItemMaxMana */
-     , (25876, 109,        309) /* ItemDifficulty */
-     , (25876, 110,          0) /* ItemAllegianceRankLimit */
-     , (25876, 115,          0) /* ItemSkillLevelLimit */
-     , (25876, 131,         71) /* MaterialType - Serpentine */
      , (25876, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25876, 172,          5) /* AppraisalLongDescDecoration */
-     , (25876, 177,          2) /* GemCount */
-     , (25876, 178,         20) /* GemType */
-     , (25876, 353,         10) /* WeaponType - Thrown */
-     , (25876, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (25876, 8030,          0);
+     , (25876, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25876,   1, True ) /* Stuck */
@@ -41,18 +22,10 @@ VALUES (25876,   1, True ) /* Stuck */
      , (25876,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25876,   5, -0.0555555555555556) /* ManaRate */
-     , (25876,  21,       0) /* WeaponLength */
-     , (25876,  22,    0.25) /* DamageVariance */
-     , (25876,  26,       0) /* MaximumVelocity */
-     , (25876,  29,       1) /* WeaponDefense */
-     , (25876,  39, 0.800000011920929) /* DefaultScale */
-     , (25876,  62,       1) /* WeaponOffense */
-     , (25876,  63,       1) /* DamageMod */;
+VALUES (25876,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25876,   1, 'Sephal Nefane') /* Name */
-     , (25876,  16, 'Killed by Mag-one.') /* LongDesc */
      , (25876, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -85,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (25876,   1,  2000, 0, 0, 2000) /* MaxHealth */
      , (25876,   3,  2000, 0, 0, 2000) /* MaxStamina */
      , (25876,   5,  2000, 0, 0, 2000) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25876,  2211,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25876, 67114702, 0, 0);

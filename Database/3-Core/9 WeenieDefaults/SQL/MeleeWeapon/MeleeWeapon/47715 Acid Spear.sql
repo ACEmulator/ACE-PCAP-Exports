@@ -11,7 +11,6 @@ VALUES (47715,   1,          1) /* ItemType - MeleeWeapon */
      , (47715,  16,          1) /* ItemUseable - No */
      , (47715,  18,        256) /* UiEffects - Acid */
      , (47715,  19,        170) /* Value */
-     , (47715,  33,          1) /* Bonded - Bonded */
      , (47715,  51,          1) /* CombatUse - Melee */
      , (47715,  65,          1) /* Placement - RightHandCombat */
      , (47715,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -26,8 +25,7 @@ VALUES (47715,   1, False) /* Stuck */
      , (47715,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47715,   1, 'Acid Spear') /* Name */
-     , (47715,  16, 'A concentrated silver pea.') /* LongDesc */;
+VALUES (47715,   1, 'Acid Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47715,   1,   33555780) /* Setup */

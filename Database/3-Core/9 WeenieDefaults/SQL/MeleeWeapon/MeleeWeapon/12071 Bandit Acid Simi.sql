@@ -5,19 +5,15 @@ VALUES (12071, 'simiacidbandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12071,   1,          1) /* ItemType - MeleeWeapon */
-     , (12071,   2,         20) /* CreatureType - Wisp */
      , (12071,   5,        400) /* EncumbranceVal */
      , (12071,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12071,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12071,  16,          1) /* ItemUseable - No */
      , (12071,  18,        256) /* UiEffects - Acid */
      , (12071,  19,        400) /* Value */
-     , (12071,  25,        115) /* Level */
-     , (12071,  33,          1) /* Bonded - Bonded */
      , (12071,  51,          1) /* CombatUse - Melee */
      , (12071,  65,          1) /* Placement - RightHandCombat */
-     , (12071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12071, 114,          1) /* Attuned - Attuned */;
+     , (12071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12071,   1, False) /* Stuck */
@@ -28,9 +24,7 @@ VALUES (12071,   1, False) /* Stuck */
      , (12071,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12071,   1, 'Bandit Acid Simi') /* Name */
-     , (12071,  14, 'This item is used in cooking.') /* Use */
-     , (12071,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */;
+VALUES (12071,   1, 'Bandit Acid Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12071,   1,   33555775) /* Setup */
@@ -50,16 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12071,   3, 3706877365) /* Wielder */
      , (12071, 8000, 3706877899) /* PCAPRecordedObjectIID */
      , (12071, 8008, 3706877365) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (12071,   1, 150, 0, 0) /* Strength */
-     , (12071,   2, 200, 0, 0) /* Endurance */
-     , (12071,   3, 220, 0, 0) /* Quickness */
-     , (12071,   4, 150, 0, 0) /* Coordination */
-     , (12071,   5, 330, 0, 0) /* Focus */
-     , (12071,   6, 330, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12071,   1,   720, 0, 0, 720) /* MaxHealth */
-     , (12071,   3,   820, 0, 0, 820) /* MaxStamina */
-     , (12071,   5,   450, 0, 0, 404) /* MaxMana */;

@@ -5,29 +5,22 @@ VALUES (1518, 'helmsuperior', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1518,   1,          2) /* ItemType - Armor */
-     , (1518,   2,         78) /* CreatureType - Fiun */
      , (1518,   4,      16384) /* ClothingPriority - Head */
      , (1518,   5,        600) /* EncumbranceVal */
      , (1518,   9,          1) /* ValidLocations - HeadWear */
      , (1518,  16,          1) /* ItemUseable - No */
      , (1518,  18,          1) /* UiEffects - Magical */
      , (1518,  19,       5500) /* Value */
-     , (1518,  25,        115) /* Level */
      , (1518,  28,        200) /* ArmorLevel */
      , (1518,  65,        101) /* Placement - Resting */
      , (1518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1518, 105,          7) /* ItemWorkmanship */
      , (1518, 106,        133) /* ItemSpellcraft */
      , (1518, 107,        336) /* ItemCurMana */
      , (1518, 108,        432) /* ItemMaxMana */
      , (1518, 109,         57) /* ItemDifficulty */
-     , (1518, 110,          0) /* ItemAllegianceRankLimit */
      , (1518, 115,        153) /* ItemSkillLevelLimit */
-     , (1518, 131,         33) /* MaterialType - Opal */
      , (1518, 151,          2) /* HookType - Wall */
-     , (1518, 172,          1) /* AppraisalLongDescDecoration */
-     , (1518, 176,          6) /* AppraisalItemSkill */
-     , (1518, 324,          6) /* HeritageSpecificArmor */;
+     , (1518, 176,          6) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1518,   1, False) /* Stuck */
@@ -50,11 +43,7 @@ VALUES (1518,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1518,   1, 'Superior Helmet') /* Name */
-     , (1518,   7, 'from HoTH') /* Inscription */
-     , (1518,   8, 'Triumph') /* ScribeName */
-     , (1518,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (1518,  16, 'A superior helm from the Halls of Helm.') /* LongDesc */
-     , (1518,  52, 'Core Helm Plating') /* GearPlatingName */;
+     , (1518,  16, 'A superior helm from the Halls of Helm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1518,   1,   33554650) /* Setup */
@@ -72,15 +61,10 @@ VALUES (1518, 8040, 2847146009, 93.71061, 15.43525, 93.9975, -0.3151959, 0, 0, -
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1518, 8000, 3622496189) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1518,   1,   460, 0, 0, 460) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1518,   242,      2) 
-     , (1518,   278,      2) 
      , (1518,  1483,      2) 
-     , (1518,  1549,      2) 
-     , (1518,  5072,      2) ;
+     , (1518,  1549,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1518, 67110015, 240, 10);

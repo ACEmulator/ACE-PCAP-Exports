@@ -8,10 +8,8 @@ VALUES (3579,   1,       8192) /* ItemType - Writable */
      , (3579,   5,         30) /* EncumbranceVal */
      , (3579,  16,          8) /* ItemUseable - Contained */
      , (3579,  19,         20) /* Value */
-     , (3579,  33,          1) /* Bonded - Bonded */
      , (3579,  65,        101) /* Placement - Resting */
-     , (3579,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3579, 114,          1) /* Attuned - Attuned */;
+     , (3579,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3579,   1, False) /* Stuck */
@@ -19,8 +17,7 @@ VALUES (3579,   1, False) /* Stuck */
      , (3579,  13, True ) /* Ethereal */
      , (3579,  14, True ) /* GravityStatus */
      , (3579,  19, True ) /* Attackable */
-     , (3579,  22, True ) /* Inscribable */
-     , (3579,  69, False) /* IsSellable */;
+     , (3579,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3579,  39,     1.5) /* DefaultScale */;
@@ -28,7 +25,6 @@ VALUES (3579,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3579,   1, 'Scroll of Weapon Tinkering Expertise Other III') /* Name */
      , (3579,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (3579,  15, 'An elegant but charred coin, used in ancient times by House Mhoire. ') /* ShortDesc */
      , (3579,  16, 'Inscribed spell: Weapon Tinkering Expertise Other III
 Increases the target''s Weapon Tinkering skill by 20 points.') /* LongDesc */;
 
@@ -36,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3579,   1,   33554826) /* Setup */
      , (3579,   8,  100676477) /* Icon */
      , (3579,  22,  872415275) /* PhysicsEffectTable */
-     , (3579,  28,        782) /* Spell */
+     , (3579,  28,        782) /* Spell - WeaponExpertiseOther3 */
      , (3579, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3579, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3579, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

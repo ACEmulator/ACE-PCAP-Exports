@@ -10,14 +10,10 @@ VALUES (5846,   1,        128) /* ItemType - Misc */
      , (5846,  12,          1) /* StackSize */
      , (5846,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5846,  19,         20) /* Value */
-     , (5846,  26,          0) /* AccountRequirements - No_Subscription */
      , (5846,  33,          1) /* Bonded - Bonded */
      , (5846,  65,        101) /* Placement - Resting */
-     , (5846,  86,         -1) /* MinLevel */
-     , (5846,  87,         -1) /* MaxLevel */
      , (5846,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5846,  94,        128) /* TargetType - Misc */
-     , (5846, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (5846, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,8 +27,7 @@ VALUES (5846,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5846,   1, 'Stonehold Rune Transcription') /* Name */
      , (5846,  14, 'To use this item, find the other pieces.') /* Use */
-     , (5846,  16, 'Written transcription of Dericostian runes discovered on a Standing Stone near Stonehold. The runes appear to be cut off, as if most of the message were missing.') /* LongDesc */
-     , (5846,  38, 'Gateway (59.9S, 88.0W).') /* AppraisalPortalDestination */;
+     , (5846,  16, 'Written transcription of Dericostian runes discovered on a Standing Stone near Stonehold. The runes appear to be cut off, as if most of the message were missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5846,   1,   33554773) /* Setup */

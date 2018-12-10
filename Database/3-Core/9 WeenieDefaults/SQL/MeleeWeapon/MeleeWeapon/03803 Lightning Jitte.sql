@@ -10,7 +10,6 @@ VALUES (3803,   1,          1) /* ItemType - MeleeWeapon */
      , (3803,  16,          1) /* ItemUseable - No */
      , (3803,  18,         64) /* UiEffects - Lightning */
      , (3803,  19,        442) /* Value */
-     , (3803,  28,        272) /* ArmorLevel */
      , (3803,  44,         33) /* Damage */
      , (3803,  45,         64) /* DamageType - Electric */
      , (3803,  47,          4) /* AttackType - Slash */
@@ -44,18 +43,10 @@ VALUES (3803,   1, False) /* Stuck */
      , (3803,  13, True ) /* Ethereal */
      , (3803,  14, True ) /* GravityStatus */
      , (3803,  19, True ) /* Attackable */
-     , (3803,  22, True ) /* Inscribable */
-     , (3803, 100, True ) /* Dyable */;
+     , (3803,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3803,   5, -0.0555555555555556) /* ManaRate */
-     , (3803,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (3803,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (3803,  15,       1) /* ArmorModVsBludgeon */
-     , (3803,  16,     0.5) /* ArmorModVsCold */
-     , (3803,  17,     0.5) /* ArmorModVsFire */
-     , (3803,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (3803,  19, 0.800000011920929) /* ArmorModVsElectric */
      , (3803,  21,       0) /* WeaponLength */
      , (3803,  22,     0.4) /* DamageVariance */
      , (3803,  26,       0) /* MaximumVelocity */
@@ -63,8 +54,6 @@ VALUES (3803,   5, -0.0555555555555556) /* ManaRate */
      , (3803,  62,    1.04) /* WeaponOffense */
      , (3803,  63,       1) /* DamageMod */
      , (3803, 149,   1.025) /* WeaponMissileDefense */
-     , (3803, 150,   1.015) /* WeaponMagicDefense */
-     , (3803, 165,       1) /* ArmorModVsNether */
      , (3803, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -85,50 +74,5 @@ VALUES (3803,   2, 3342977253) /* Container */
      , (3803, 8000, 3343085601) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3803,    49,      2) 
-     , (3803,   278,      2) 
-     , (3803,  1331,      2) 
-     , (3803,  1354,      2) 
-     , (3803,  1378,      2) 
-     , (3803,  1401,      2) 
-     , (3803,  1402,      2) 
-     , (3803,  1486,      2) 
-     , (3803,  1515,      2) 
-     , (3803,  1587,      2) 
-     , (3803,  1588,      2) 
-     , (3803,  1589,      2) 
-     , (3803,  1591,      2) 
-     , (3803,  1592,      2) 
-     , (3803,  1603,      2) 
-     , (3803,  1604,      2) 
-     , (3803,  1605,      2) 
-     , (3803,  1612,      2) 
-     , (3803,  1613,      2) 
-     , (3803,  1615,      2) 
-     , (3803,  1616,      2) 
-     , (3803,  1623,      2) 
-     , (3803,  1626,      2) 
-     , (3803,  1627,      2) 
-     , (3803,  2061,      2) 
-     , (3803,  2081,      2) 
-     , (3803,  2096,      2) 
-     , (3803,  2101,      2) 
-     , (3803,  2106,      2) 
-     , (3803,  2116,      2) 
-     , (3803,  2509,      2) 
-     , (3803,  2537,      2) 
-     , (3803,  2544,      2) 
-     , (3803,  2552,      2) 
-     , (3803,  2554,      2) 
-     , (3803,  2572,      2) 
-     , (3803,  2580,      2) 
-     , (3803,  2582,      2) 
-     , (3803,  2583,      2) 
-     , (3803,  2598,      2) 
-     , (3803,  2615,      2) 
-     , (3803,  2622,      2) 
-     , (3803,  4395,      2) 
-     , (3803,  4400,      2) 
-     , (3803,  4663,      2) 
-     , (3803,  4695,      2) 
-     , (3803,  6067,      2) ;
+VALUES (3803,  1378,      2) 
+     , (3803,  2096,      2) ;

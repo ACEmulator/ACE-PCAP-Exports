@@ -6,11 +6,9 @@ VALUES (19276, 'statuereplicahighgolemsmall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19276,   1,         16) /* ItemType - Creature */
      , (19276,   2,         63) /* CreatureType - Statue */
-     , (19276,   5,       7807) /* EncumbranceVal */
      , (19276,   6,        255) /* ItemsCapacity */
      , (19276,   7,        255) /* ContainersCapacity */
      , (19276,  16,          1) /* ItemUseable - No */
-     , (19276,  19,          0) /* Value */
      , (19276,  25,         80) /* Level */
      , (19276,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19276, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (19276,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19276,   1, 'Bronze Statue of a Golem') /* Name */
-     , (19276,  16, 'Killed by Ragarnok.') /* LongDesc */
      , (19276, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

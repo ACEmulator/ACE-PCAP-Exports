@@ -42,7 +42,7 @@ VALUES (8116,   1,   33556769) /* Setup */
      , (8116,   6,   67111919) /* PaletteBase */
      , (8116,   8,  100670994) /* Icon */
      , (8116,  22,  872415275) /* PhysicsEffectTable */
-     , (8116,  28,       2001) /* Spell */
+     , (8116,  28,       2001) /* Spell - PortalSendingFenmalain */
      , (8116, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (8116, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8116, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

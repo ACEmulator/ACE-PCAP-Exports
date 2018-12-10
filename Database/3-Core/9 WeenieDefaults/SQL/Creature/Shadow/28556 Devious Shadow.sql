@@ -6,59 +6,30 @@ VALUES (28556, 'shadowdevious', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28556,   1,         16) /* ItemType - Creature */
      , (28556,   2,         22) /* CreatureType - Shadow */
-     , (28556,   5,       6100) /* EncumbranceVal */
      , (28556,   6,        255) /* ItemsCapacity */
      , (28556,   7,        255) /* ContainersCapacity */
      , (28556,  16,          1) /* ItemUseable - No */
-     , (28556,  19,          0) /* Value */
      , (28556,  25,         30) /* Level */
-     , (28556,  28,        200) /* ArmorLevel */
-     , (28556,  91,         20) /* MaxStructure */
-     , (28556,  92,         20) /* Structure */
      , (28556,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (28556, 105,          2) /* ItemWorkmanship */
-     , (28556, 106,        220) /* ItemSpellcraft */
-     , (28556, 107,        501) /* ItemCurMana */
-     , (28556, 108,        501) /* ItemMaxMana */
-     , (28556, 109,        220) /* ItemDifficulty */
-     , (28556, 110,          0) /* ItemAllegianceRankLimit */
      , (28556, 113,          1) /* Gender - Male */
-     , (28556, 115,          0) /* ItemSkillLevelLimit */
-     , (28556, 131,         52) /* MaterialType - Leather */
      , (28556, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28556, 172,          1) /* AppraisalLongDescDecoration */
-     , (28556, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (28556, 188,          1) /* HeritageGroup - Aluvian */
-     , (28556, 307,          5) /* DamageRating */
      , (28556, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28556,   1, True ) /* Stuck */
-     , (28556,   2, False) /* Open */
      , (28556,  12, True ) /* ReportCollisions */
      , (28556,  13, False) /* Ethereal */
      , (28556,  14, True ) /* GravityStatus */
      , (28556,  19, True ) /* Attackable */
-     , (28556,  42, True ) /* AllowEdgeSlide */
-     , (28556, 100, True ) /* Dyable */;
+     , (28556,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28556,   5, -0.0416666666666667) /* ManaRate */
-     , (28556,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (28556,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (28556,  15,       1) /* ArmorModVsBludgeon */
-     , (28556,  16,     0.5) /* ArmorModVsCold */
-     , (28556,  17,     0.5) /* ArmorModVsFire */
-     , (28556,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (28556,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (28556,  39, 0.600000023841858) /* DefaultScale */
-     , (28556,  76,     0.5) /* Translucency */
-     , (28556, 165,       1) /* ArmorModVsNether */;
+VALUES (28556,  39, 0.600000023841858) /* DefaultScale */
+     , (28556,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28556,   1, 'Devious Shadow') /* Name */
-     , (28556,  14, 'Use this item to close it.') /* Use */
-     , (28556,  16, 'Killed by Taxicab.') /* LongDesc */
      , (28556, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -97,11 +68,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28556,   1,   115, 0, 0, 115) /* MaxHealth */
      , (28556,   3,   210, 0, 0, 210) /* MaxStamina */
      , (28556,   5,   190, 0, 0, 190) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28556,  1485,      2) 
-     , (28556,  1551,      2) 
-     , (28556,  1560,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28556, 67112860, 0, 0);

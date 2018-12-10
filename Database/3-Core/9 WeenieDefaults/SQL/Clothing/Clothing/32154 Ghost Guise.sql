@@ -34,9 +34,6 @@ VALUES (32154,  13,     0.5) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32154,   1, 'Ghost Guise') /* Name */
-     , (32154,   7, 'Mine!
-') /* Inscription */
-     , (32154,   8, 'Kaelynn') /* ScribeName */
      , (32154,  16, 'A gauzy robe that resembles a ghost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

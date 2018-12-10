@@ -6,11 +6,9 @@ VALUES (35985, 'ace35985-ashadowofblackferah', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35985,   1,         16) /* ItemType - Creature */
      , (35985,   2,         22) /* CreatureType - Shadow */
-     , (35985,   5,       6979) /* EncumbranceVal */
      , (35985,   6,        255) /* ItemsCapacity */
      , (35985,   7,        255) /* ContainersCapacity */
      , (35985,  16,          1) /* ItemUseable - No */
-     , (35985,  19,          0) /* Value */
      , (35985,  25,        200) /* Level */
      , (35985,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35985, 113,          2) /* Gender - Female */
@@ -31,7 +29,6 @@ VALUES (35985,  39, 1.29999995231628) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35985,   1, 'A Shadow of Black Ferah') /* Name */
-     , (35985,  16, 'Killed by Kuzuri.') /* LongDesc */
      , (35985, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

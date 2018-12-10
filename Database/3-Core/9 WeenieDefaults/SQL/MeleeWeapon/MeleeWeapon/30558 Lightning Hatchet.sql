@@ -32,8 +32,6 @@ VALUES (30558,   1,          1) /* ItemType - MeleeWeapon */
      , (30558, 160,        350) /* WieldDifficulty */
      , (30558, 172,          1) /* AppraisalLongDescDecoration */
      , (30558, 176,         46) /* AppraisalItemSkill */
-     , (30558, 177,          1) /* GemCount */
-     , (30558, 178,         20) /* GemType */
      , (30558, 353,          3) /* WeaponType - Axe */
      , (30558, 8030,          0);
 
@@ -53,8 +51,6 @@ VALUES (30558,   5,   -0.05) /* ManaRate */
      , (30558,  29,    1.05) /* WeaponDefense */
      , (30558,  62,    1.12) /* WeaponOffense */
      , (30558,  63,       1) /* DamageMod */
-     , (30558, 149,    1.02) /* WeaponMissileDefense */
-     , (30558, 150,   1.015) /* WeaponMagicDefense */
      , (30558, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -76,31 +72,8 @@ VALUES (30558,   2, 3680637697) /* Container */
      , (30558, 8000, 3682457101) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30558,  1401,      2) 
-     , (30558,  1603,      2) 
-     , (30558,  1614,      2) 
-     , (30558,  1615,      2) 
-     , (30558,  1616,      2) 
-     , (30558,  1625,      2) 
-     , (30558,  1627,      2) 
-     , (30558,  2059,      2) 
-     , (30558,  2096,      2) 
-     , (30558,  2101,      2) 
-     , (30558,  2106,      2) 
-     , (30558,  2515,      2) 
-     , (30558,  2537,      2) 
-     , (30558,  2583,      2) 
-     , (30558,  2600,      2) 
-     , (30558,  2616,      2) 
-     , (30558,  3963,      2) 
-     , (30558,  4319,      2) 
-     , (30558,  4395,      2) 
-     , (30558,  4400,      2) 
-     , (30558,  4417,      2) 
-     , (30558,  4672,      2) 
-     , (30558,  4701,      2) 
-     , (30558,  5809,      2) 
-     , (30558,  5887,      2) ;
+VALUES (30558,  1616,      2) 
+     , (30558,  2537,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30558, 67116381, 0, 0);

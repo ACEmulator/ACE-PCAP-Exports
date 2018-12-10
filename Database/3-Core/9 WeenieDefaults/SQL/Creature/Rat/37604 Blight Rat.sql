@@ -6,37 +6,13 @@ VALUES (37604, 'ace37604-blightrat', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37604,   1,         16) /* ItemType - Creature */
      , (37604,   2,         10) /* CreatureType - Rat */
-     , (37604,   5,        547) /* EncumbranceVal */
      , (37604,   6,        255) /* ItemsCapacity */
      , (37604,   7,        255) /* ContainersCapacity */
      , (37604,  16,          1) /* ItemUseable - No */
-     , (37604,  19,      13505) /* Value */
      , (37604,  25,        135) /* Level */
-     , (37604,  44,         68) /* Damage */
-     , (37604,  45,         16) /* DamageType - Fire */
-     , (37604,  47,          2) /* AttackType - Thrust */
-     , (37604,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (37604,  49,         46) /* WeaponTime */
      , (37604,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (37604, 105,          8) /* ItemWorkmanship */
-     , (37604, 106,        370) /* ItemSpellcraft */
-     , (37604, 107,       1849) /* ItemCurMana */
-     , (37604, 108,       1849) /* ItemMaxMana */
-     , (37604, 109,        197) /* ItemDifficulty */
-     , (37604, 110,          0) /* ItemAllegianceRankLimit */
-     , (37604, 115,        390) /* ItemSkillLevelLimit */
-     , (37604, 131,         51) /* MaterialType - Ivory */
      , (37604, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (37604, 158,          2) /* WieldRequirements - RawSkill */
-     , (37604, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (37604, 160,        420) /* WieldDifficulty */
-     , (37604, 172,          5) /* AppraisalLongDescDecoration */
-     , (37604, 176,         44) /* AppraisalItemSkill */
-     , (37604, 177,          2) /* GemCount */
-     , (37604, 178,         34) /* GemType */
-     , (37604, 353,          5) /* WeaponType - Spear */
-     , (37604, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (37604, 8030,          0);
+     , (37604, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37604,   1, True ) /* Stuck */
@@ -46,19 +22,11 @@ VALUES (37604,   1, True ) /* Stuck */
      , (37604,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37604,   5, -0.0666666666666667) /* ManaRate */
-     , (37604,  21,       0) /* WeaponLength */
-     , (37604,  22,    0.68) /* DamageVariance */
-     , (37604,  26,       0) /* MaximumVelocity */
-     , (37604,  29,    1.11) /* WeaponDefense */
-     , (37604,  39,       2) /* DefaultScale */
-     , (37604,  62,    1.22) /* WeaponOffense */
-     , (37604,  63,       1) /* DamageMod */
+VALUES (37604,  39,       2) /* DefaultScale */
      , (37604,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37604,   1, 'Blight Rat') /* Name */
-     , (37604,  16, 'Fire Trident of Blood Drinker') /* LongDesc */
      , (37604, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,13 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (37604,   1,  1000, 0, 0, 1000) /* MaxHealth */
      , (37604,   3,  1000, 0, 0, 997) /* MaxStamina */
      , (37604,   5,   170, 0, 0, 170) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37604,  1616,      2) 
-     , (37604,  1627,      2) 
-     , (37604,  4400,      2) 
-     , (37604,  4405,      2) 
-     , (37604,  4712,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37604, 67114717, 0, 0);

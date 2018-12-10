@@ -7,8 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22383,   1,       2048) /* ItemType - Gem */
      , (22383,   5,         10) /* EncumbranceVal */
      , (22383,  16,          8) /* ItemUseable - Contained */
+     , (22383,  19,          0) /* Value */
+     , (22383,  33,          1) /* Bonded - Bonded */
      , (22383,  65,        101) /* Placement - Resting */
-     , (22383,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22383,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22383, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22383,   1, False) /* Stuck */
@@ -19,7 +22,8 @@ VALUES (22383,   1, False) /* Stuck */
      , (22383,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22383,   1, 'War Magic Gem of Enlightenment') /* Name */;
+VALUES (22383,   1, 'War Magic Gem of Enlightenment') /* Name */
+     , (22383,  14, 'Use this gem to specialize a trained skill. It will cost you twelve skill credits to specialize the War Magic skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22383,   1,   33558088) /* Setup */

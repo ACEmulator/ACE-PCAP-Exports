@@ -30,9 +30,7 @@ VALUES (36174,   1, False) /* Stuck */
      , (36174,  14, True ) /* GravityStatus */
      , (36174,  19, True ) /* Attackable */
      , (36174,  22, True ) /* Inscribable */
-     , (36174,  69, False) /* IsSellable */
-     , (36174,  91, True ) /* Retained */
-     , (36174, 100, True ) /* Dyable */;
+     , (36174,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36174,   5,   -0.05) /* ManaRate */
@@ -48,8 +46,6 @@ VALUES (36174,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36174,   1, 'Harbinger''s Foci') /* Name */
-     , (36174,   7, '--') /* Inscription */
-     , (36174,   8, 'Azrakin') /* ScribeName */
      , (36174,  16, 'Four foci taken from the Prodigal Harbinger. When worn on the head they focus the wearer''s energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

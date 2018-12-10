@@ -6,62 +6,23 @@ VALUES (22933, 'golemmist', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22933,   1,         16) /* ItemType - Creature */
      , (22933,   2,         13) /* CreatureType - Golem */
-     , (22933,   5,       7023) /* EncumbranceVal */
      , (22933,   6,        255) /* ItemsCapacity */
      , (22933,   7,        255) /* ContainersCapacity */
      , (22933,  16,          1) /* ItemUseable - No */
-     , (22933,  19,          0) /* Value */
      , (22933,  25,         80) /* Level */
-     , (22933,  28,          0) /* ArmorLevel */
-     , (22933,  44,         10) /* Damage */
-     , (22933,  45,          4) /* DamageType - Bludgeon */
-     , (22933,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (22933,  49,         10) /* WeaponTime */
      , (22933,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22933, 105,          7) /* ItemWorkmanship */
-     , (22933, 106,        204) /* ItemSpellcraft */
-     , (22933, 107,       1901) /* ItemCurMana */
-     , (22933, 108,       1901) /* ItemMaxMana */
-     , (22933, 109,        204) /* ItemDifficulty */
-     , (22933, 110,          0) /* ItemAllegianceRankLimit */
-     , (22933, 115,          0) /* ItemSkillLevelLimit */
-     , (22933, 131,         64) /* MaterialType - Steel */
      , (22933, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22933, 172,          5) /* AppraisalLongDescDecoration */
-     , (22933, 177,          1) /* GemCount */
-     , (22933, 178,         22) /* GemType */
-     , (22933, 353,         10) /* WeaponType - Thrown */
-     , (22933, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (22933, 8030,          0);
+     , (22933, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22933,   1, True ) /* Stuck */
      , (22933,  12, True ) /* ReportCollisions */
      , (22933,  13, False) /* Ethereal */
      , (22933,  14, True ) /* GravityStatus */
-     , (22933,  19, True ) /* Attackable */
-     , (22933, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22933,   5,   -0.05) /* ManaRate */
-     , (22933,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (22933,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (22933,  15,       1) /* ArmorModVsBludgeon */
-     , (22933,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (22933,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (22933,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (22933,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (22933,  21,       0) /* WeaponLength */
-     , (22933,  22,    0.25) /* DamageVariance */
-     , (22933,  26,       0) /* MaximumVelocity */
-     , (22933,  29,       1) /* WeaponDefense */
-     , (22933,  62,       1) /* WeaponOffense */
-     , (22933,  63,       1) /* DamageMod */
-     , (22933, 165,       1) /* ArmorModVsNether */;
+     , (22933,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22933,   1, 'Mist Golem') /* Name */
-     , (22933,  16, 'Killed by Ripley.') /* LongDesc */
      , (22933, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -93,10 +54,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22933,   1,   275, 0, 0, 275) /* MaxHealth */
      , (22933,   3,   390, 0, 0, 390) /* MaxStamina */
      , (22933,   5,   350, 0, 0, 350) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22933,   169,      2) 
-     , (22933,  1114,      2) 
-     , (22933,  2325,      2) 
-     , (22933,  2562,      2) 
-     , (22933,  2619,      2) ;

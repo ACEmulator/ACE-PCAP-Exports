@@ -31,9 +31,7 @@ VALUES (30864,   5,  -0.033) /* ManaRate */
      , (30864, 144, 1.06654635989768E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30864,   1, 'Banished Orb') /* Name */
-     , (30864,   7, 'buy my shizzzz') /* Inscription */
-     , (30864,   8, 'Salvage is heavy') /* ScribeName */;
+VALUES (30864,   1, 'Banished Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30864,   1,   33559253) /* Setup */

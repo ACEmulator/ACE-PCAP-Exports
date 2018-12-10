@@ -9,10 +9,18 @@ VALUES (29047,   1,          1) /* ItemType - MeleeWeapon */
      , (29047,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (29047,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (29047,  16,          1) /* ItemUseable - No */
+     , (29047,  33,         -2) /* Bonded - Destroy */
+     , (29047,  44,         -1) /* Damage */
+     , (29047,  45,          0) /* DamageType - Undef */
+     , (29047,  47,          6) /* AttackType - Thrust, Slash */
+     , (29047,  48,         44) /* WeaponSkill - HeavyWeapons */
+     , (29047,  49,         -1) /* WeaponTime */
      , (29047,  51,          1) /* CombatUse - Melee */
      , (29047,  65,          1) /* Placement - RightHandCombat */
      , (29047,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29047, 151,          2) /* HookType - Wall */;
+     , (29047, 151,          2) /* HookType - Wall */
+     , (29047, 353,          7) /* WeaponType - Staff */
+     , (29047, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29047,   1, False) /* Stuck */
@@ -21,6 +29,16 @@ VALUES (29047,   1, False) /* Stuck */
      , (29047,  14, True ) /* GravityStatus */
      , (29047,  19, True ) /* Attackable */
      , (29047,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (29047,  21,       0) /* WeaponLength */
+     , (29047,  22,    0.25) /* DamageVariance */
+     , (29047,  26,       0) /* MaximumVelocity */
+     , (29047,  29,       1) /* WeaponDefense */
+     , (29047,  62,       1) /* WeaponOffense */
+     , (29047,  63,       1) /* DamageMod */
+     , (29047, 136,       1) /* CriticalMultiplier */
+     , (29047, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29047,   1, 'Repugnant Staff') /* Name */;

@@ -24,16 +24,6 @@ VALUES (43150,   1,        256) /* ItemType - MissileWeapon */
      , (43150, 158,          2) /* WieldRequirements - RawSkill */
      , (43150, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (43150, 160,        270) /* WieldDifficulty */
-     , (43150, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (43150, 303,          1) /* ImbuedEffect2 - CriticalStrike */
-     , (43150, 304,          1) /* ImbuedEffect3 - CriticalStrike */
-     , (43150, 305,          1) /* ImbuedEffect4 - CriticalStrike */
-     , (43150, 306,          1) /* ImbuedEffect5 - CriticalStrike */
-     , (43150, 307,         30) /* DamageRating */
-     , (43150, 313,          0) /* CritRating */
-     , (43150, 314,         10) /* CritDamageRating */
-     , (43150, 381,          0) /* PKDamageRating */
-     , (43150, 386,          0) /* Overpower */
      , (43150, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,11 +44,7 @@ VALUES (43150,  21,       0) /* WeaponLength */
      , (43150,  62,       1) /* WeaponOffense */
      , (43150,  63,       1) /* DamageMod */
      , (43150,  78,       1) /* Friction */
-     , (43150,  79,       0) /* Elasticity */
-     , (43150, 136,       1) /* CriticalMultiplier */
-     , (43150, 147,       1) /* CriticalFrequency */
-     , (43150, 149,       0) /* WeaponMissileDefense */
-     , (43150, 150,       0) /* WeaponMagicDefense */;
+     , (43150,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43150,   1, 'Gear Blade Slashing Arrow') /* Name */;

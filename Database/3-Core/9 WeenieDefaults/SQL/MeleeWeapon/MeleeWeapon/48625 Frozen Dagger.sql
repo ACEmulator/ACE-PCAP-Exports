@@ -23,9 +23,7 @@ VALUES (48625,   1, False) /* Stuck */
      , (48625,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48625,   1, 'Frozen Dagger') /* Name */
-     , (48625,  14, 'This item is used in brewing.') /* Use */
-     , (48625,  16, 'The saliva from a creature of the Tusker persuasion.') /* LongDesc */;
+VALUES (48625,   1, 'Frozen Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48625,   1,   33559364) /* Setup */

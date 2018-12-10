@@ -6,11 +6,9 @@ VALUES (42144, 'ace42144-mosswartwarden', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42144,   1,         16) /* ItemType - Creature */
      , (42144,   2,          4) /* CreatureType - Mosswart */
-     , (42144,   5,       6068) /* EncumbranceVal */
      , (42144,   6,        255) /* ItemsCapacity */
      , (42144,   7,        255) /* ContainersCapacity */
      , (42144,  16,         32) /* ItemUseable - Remote */
-     , (42144,  19,          0) /* Value */
      , (42144,  25,         92) /* Level */
      , (42144,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42144,  95,          8) /* RadarBlipColor - Yellow */
@@ -34,7 +32,6 @@ VALUES (42144,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42144,   1, 'Mosswart Warden') /* Name */
      , (42144,   5, 'Portal Warden') /* Template */
-     , (42144,  16, 'Killed by Uncle P.') /* LongDesc */
      , (42144, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

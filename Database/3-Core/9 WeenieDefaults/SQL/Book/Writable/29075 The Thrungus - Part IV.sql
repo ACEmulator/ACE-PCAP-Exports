@@ -8,8 +8,12 @@ VALUES (29075,   1,       8192) /* ItemType - Writable */
      , (29075,   5,        100) /* EncumbranceVal */
      , (29075,  16,          8) /* ItemUseable - Contained */
      , (29075,  19,          5) /* Value */
+     , (29075,  33,          0) /* Bonded - Normal */
      , (29075,  65,        101) /* Placement - Resting */
-     , (29075,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (29075,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (29075, 114,          0) /* Attuned - Normal */
+     , (29075, 174,          6) /* AppraisalPages */
+     , (29075, 175,          6) /* AppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29075,   1, False) /* Stuck */
@@ -22,7 +26,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29075,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29075,   1, 'The Thrungus - Part IV') /* Name */;
+VALUES (29075,   1, 'The Thrungus - Part IV') /* Name */
+     , (29075,  16, 'From the journal of Sir Binwas Loc - the fourth of four passages concerning the mysterious creature known as ''The Thrungus.'' This portion was found in the Moist Hovel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29075,   1,   33554771) /* Setup */

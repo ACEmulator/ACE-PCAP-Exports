@@ -6,51 +6,23 @@ VALUES (1766, 'armoredillostony', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1766,   1,         16) /* ItemType - Creature */
      , (1766,   2,         17) /* CreatureType - Armoredillo */
-     , (1766,   5,          1) /* EncumbranceVal */
      , (1766,   6,        255) /* ItemsCapacity */
      , (1766,   7,        255) /* ContainersCapacity */
      , (1766,  16,          1) /* ItemUseable - No */
-     , (1766,  19,          1) /* Value */
      , (1766,  25,          8) /* Level */
-     , (1766,  44,         40) /* Damage */
-     , (1766,  45,         32) /* DamageType - Acid */
-     , (1766,  48,          0) /* WeaponSkill - None */
-     , (1766,  49,         -1) /* WeaponTime */
      , (1766,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1766, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1766, 158,          2) /* WieldRequirements - RawSkill */
-     , (1766, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (1766, 160,        270) /* WieldDifficulty */
-     , (1766, 179,          4) /* ImbuedEffect - ArmorRending */
-     , (1766, 303,          4) /* ImbuedEffect2 - ArmorRending */
-     , (1766, 304,          4) /* ImbuedEffect3 - ArmorRending */
-     , (1766, 305,          4) /* ImbuedEffect4 - ArmorRending */
-     , (1766, 306,          4) /* ImbuedEffect5 - ArmorRending */
-     , (1766, 307,         30) /* DamageRating */
-     , (1766, 313,          1) /* CritRating */
-     , (1766, 314,         13) /* CritDamageRating */
-     , (1766, 386,          0) /* Overpower */
-     , (1766, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (1766, 8030,          0);
+     , (1766, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1766,   1, True ) /* Stuck */
      , (1766,  12, True ) /* ReportCollisions */
      , (1766,  13, False) /* Ethereal */
      , (1766,  14, True ) /* GravityStatus */
-     , (1766,  19, True ) /* Attackable */
-     , (1766,  69, False) /* IsSellable */;
+     , (1766,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1766,  21,       0) /* WeaponLength */
-     , (1766,  22,     0.3) /* DamageVariance */
-     , (1766,  26,       0) /* MaximumVelocity */
-     , (1766,  29,       1) /* WeaponDefense */
-     , (1766,  39, 0.800000011920929) /* DefaultScale */
-     , (1766,  62,       1) /* WeaponOffense */
-     , (1766,  63,       1) /* DamageMod */
-     , (1766, 149,       0) /* WeaponMissileDefense */
-     , (1766, 150,       0) /* WeaponMagicDefense */;
+VALUES (1766,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1766,   1, 'Stony Armoredillo') /* Name */

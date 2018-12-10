@@ -27,9 +27,7 @@ VALUES (20854,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20854,   1, 'Academy Stamp') /* Name */
      , (20854,  14, 'Use Item Tinkering skill to stamp this symbol onto a flag. Dye this stamp first if you wish the symbol to be a color other than white. This item can be placed on wall hooks.') /* Use */
-     , (20854,  15, 'A stamp with the symbol of the Academy Guard.') /* ShortDesc */
-     , (20854,  16, 'Inscribed spell: Yoshi''s Boon
-Increases the target''s Item Tinkering skill by 40 points.') /* LongDesc */;
+     , (20854,  15, 'A stamp with the symbol of the Academy Guard.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20854,   1,   33556922) /* Setup */
@@ -44,9 +42,6 @@ VALUES (20854,   1,   33556922) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20854,   2, 1343249061) /* Container */
      , (20854, 8000, 2986661647) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20854,  2250,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20854, 0, 83892954, 83893871)

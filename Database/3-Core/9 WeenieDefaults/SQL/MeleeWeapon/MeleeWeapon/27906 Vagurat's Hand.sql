@@ -48,8 +48,6 @@ VALUES (27906,   5, -0.0333000011742115) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27906,   1, 'Vagurat''s Hand') /* Name */
-     , (27906,   7, 'You Better USE THIS FKING ITEM!') /* Inscription */
-     , (27906,   8, 'Magix Stix') /* ScribeName */
      , (27906,  16, 'A mace crafted to look like the Mosswart relic, The Hand of Vagurat. A small stamp on the hilt reads: A Ketnan Product.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

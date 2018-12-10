@@ -5,7 +5,6 @@ VALUES (44912, 'ace44912-wardenofraisingcoordination', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44912,   1,         16) /* ItemType - Creature */
-     , (44912,   5,          0) /* EncumbranceVal */
      , (44912,   6,        255) /* ItemsCapacity */
      , (44912,   7,        255) /* ContainersCapacity */
      , (44912,  16,         32) /* ItemUseable - Remote */

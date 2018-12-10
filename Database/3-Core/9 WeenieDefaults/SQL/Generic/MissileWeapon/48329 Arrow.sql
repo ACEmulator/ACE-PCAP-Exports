@@ -16,39 +16,13 @@ VALUES (48329,   1,        256) /* ItemType - MissileWeapon */
      , (48329,  33,         -2) /* Bonded - Destroy */
      , (48329,  44,         33) /* Damage */
      , (48329,  45,         32) /* DamageType - Acid */
-     , (48329,  47,          2) /* AttackType - Thrust */
      , (48329,  48,          0) /* WeaponSkill - None */
      , (48329,  49,         -1) /* WeaponTime */
      , (48329,  50,          1) /* AmmoType - Arrow */
      , (48329,  51,          3) /* CombatUse - Ammo */
      , (48329,  65,          1) /* Placement - RightHandCombat */
      , (48329,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48329, 105,          5) /* ItemWorkmanship */
-     , (48329, 106,        258) /* ItemSpellcraft */
-     , (48329, 107,       1113) /* ItemCurMana */
-     , (48329, 108,       1113) /* ItemMaxMana */
-     , (48329, 109,         54) /* ItemDifficulty */
-     , (48329, 110,          0) /* ItemAllegianceRankLimit */
-     , (48329, 115,        278) /* ItemSkillLevelLimit */
-     , (48329, 131,         76) /* MaterialType - Pine */
      , (48329, 151,          2) /* HookType - Wall */
-     , (48329, 158,          2) /* WieldRequirements - RawSkill */
-     , (48329, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (48329, 160,        300) /* WieldDifficulty */
-     , (48329, 172,          5) /* AppraisalLongDescDecoration */
-     , (48329, 176,         46) /* AppraisalItemSkill */
-     , (48329, 177,          1) /* GemCount */
-     , (48329, 178,         15) /* GemType */
-     , (48329, 179,          0) /* ImbuedEffect - Undef */
-     , (48329, 303,          0) /* ImbuedEffect2 - Undef */
-     , (48329, 304,          0) /* ImbuedEffect3 - Undef */
-     , (48329, 305,          0) /* ImbuedEffect4 - Undef */
-     , (48329, 306,          0) /* ImbuedEffect5 - Undef */
-     , (48329, 307,          5) /* DamageRating */
-     , (48329, 313,          0) /* CritRating */
-     , (48329, 314,          0) /* CritDamageRating */
-     , (48329, 353,          5) /* WeaponType - Spear */
-     , (48329, 386,          0) /* Overpower */
      , (48329, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -61,21 +35,17 @@ VALUES (48329,   1, False) /* Stuck */
      , (48329,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48329,   5, -0.0555555555555556) /* ManaRate */
-     , (48329,  21,       0) /* WeaponLength */
+VALUES (48329,  21,       0) /* WeaponLength */
      , (48329,  22,     0.3) /* DamageVariance */
      , (48329,  26,       0) /* MaximumVelocity */
      , (48329,  29,       1) /* WeaponDefense */
      , (48329,  62,       1) /* WeaponOffense */
      , (48329,  63,       1) /* DamageMod */
      , (48329,  78,       1) /* Friction */
-     , (48329,  79,       0) /* Elasticity */
-     , (48329, 149,       0) /* WeaponMissileDefense */
-     , (48329, 150,       0) /* WeaponMagicDefense */;
+     , (48329,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48329,   1, 'Arrow') /* Name */
-     , (48329,  16, 'Budiaq of Defender') /* LongDesc */;
+VALUES (48329,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48329,   1,   33555787) /* Setup */
@@ -96,11 +66,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48329,   3, 3360776242) /* Wielder */
      , (48329, 8000, 3360097426) /* PCAPRecordedObjectIID */
      , (48329, 8008, 3360776242) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48329,  1402,      2) 
-     , (48329,  1604,      2) 
-     , (48329,  1615,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48329, 67111922, 0, 0);

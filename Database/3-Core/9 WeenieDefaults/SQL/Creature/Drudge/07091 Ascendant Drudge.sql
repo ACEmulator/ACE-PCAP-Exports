@@ -6,25 +6,12 @@ VALUES (7091, 'drudgeascendant', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7091,   1,         16) /* ItemType - Creature */
      , (7091,   2,          3) /* CreatureType - Drudge */
-     , (7091,   5,         10) /* EncumbranceVal */
      , (7091,   6,        255) /* ItemsCapacity */
      , (7091,   7,        255) /* ContainersCapacity */
      , (7091,  16,          1) /* ItemUseable - No */
-     , (7091,  19,       5000) /* Value */
      , (7091,  25,        115) /* Level */
-     , (7091,  28,        232) /* ArmorLevel */
-     , (7091,  33,          1) /* Bonded - Bonded */
      , (7091,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7091, 105,          7) /* ItemWorkmanship */
-     , (7091, 106,        321) /* ItemSpellcraft */
-     , (7091, 107,       1284) /* ItemCurMana */
-     , (7091, 108,       1284) /* ItemMaxMana */
-     , (7091, 109,        245) /* ItemDifficulty */
-     , (7091, 110,          0) /* ItemAllegianceRankLimit */
-     , (7091, 115,          0) /* ItemSkillLevelLimit */
-     , (7091, 131,         63) /* MaterialType - Silver */
      , (7091, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7091, 172,          1) /* AppraisalLongDescDecoration */
      , (7091, 307,          5) /* DamageRating */
      , (7091, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,24 +20,13 @@ VALUES (7091,   1, True ) /* Stuck */
      , (7091,  12, True ) /* ReportCollisions */
      , (7091,  13, False) /* Ethereal */
      , (7091,  14, True ) /* GravityStatus */
-     , (7091,  19, True ) /* Attackable */
-     , (7091, 100, True ) /* Dyable */;
+     , (7091,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7091,   5, -0.0555555555555556) /* ManaRate */
-     , (7091,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (7091,  14,       1) /* ArmorModVsPierce */
-     , (7091,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (7091,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (7091,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (7091,  18,     0.5) /* ArmorModVsAcid */
-     , (7091,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (7091,  39, 1.29999995231628) /* DefaultScale */
-     , (7091, 165,       1) /* ArmorModVsNether */;
+VALUES (7091,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7091,   1, 'Ascendant Drudge') /* Name */
-     , (7091,  16, 'A concentrated copper pea.') /* LongDesc */
      , (7091, 8006, 'BwA+AG4DkQKWY1dDCrcgwwAYlTsP7kEAAAAAAAAAAAD//39/AACAPwAAcEEAAAAAjuMoQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,12 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7091,   1,   503, 0, 0, 503) /* MaxHealth */
      , (7091,   3,   705, 0, 0, 705) /* MaxStamina */
      , (7091,   5,   370, 0, 0, 370) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7091,  1562,      2) 
-     , (7091,  1574,      2) 
-     , (7091,  2108,      2) 
-     , (7091,  2561,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7091, 67112818, 0, 0);

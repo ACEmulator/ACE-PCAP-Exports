@@ -36,7 +36,7 @@ VALUES (47164,   1,   33561509) /* Setup */
      , (47164,   3,  536870932) /* SoundTable */
      , (47164,   8,  100692975) /* Icon */
      , (47164,  22,  872415275) /* PhysicsEffectTable */
-     , (47164,  28,       2128) /* Spell */
+     , (47164,  28,       2128) /* Spell - FlameBolt7 */
      , (47164, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (47164, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47164, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

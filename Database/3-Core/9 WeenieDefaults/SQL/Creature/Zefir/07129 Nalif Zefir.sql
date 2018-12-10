@@ -6,15 +6,10 @@ VALUES (7129, 'zefirnalif', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7129,   1,         16) /* ItemType - Creature */
      , (7129,   2,         29) /* CreatureType - Zefir */
-     , (7129,   5,         50) /* EncumbranceVal */
      , (7129,   6,        255) /* ItemsCapacity */
      , (7129,   7,        255) /* ContainersCapacity */
      , (7129,  16,          1) /* ItemUseable - No */
-     , (7129,  19,       1000) /* Value */
      , (7129,  25,         80) /* Level */
-     , (7129,  90,         20) /* BoostValue */
-     , (7129,  91,         40) /* MaxStructure */
-     , (7129,  92,         40) /* Structure */
      , (7129,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7129, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -27,8 +22,7 @@ VALUES (7129,   1, True ) /* Stuck */
      , (7129,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7129,  39,     1.5) /* DefaultScale */
-     , (7129, 100,    1.75) /* HealkitMod */;
+VALUES (7129,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7129,   1, 'Nalif Zefir') /* Name */

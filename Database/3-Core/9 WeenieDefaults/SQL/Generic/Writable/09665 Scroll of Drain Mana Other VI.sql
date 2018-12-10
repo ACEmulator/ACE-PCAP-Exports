@@ -8,23 +8,8 @@ VALUES (9665,   1,       8192) /* ItemType - Writable */
      , (9665,   5,         30) /* EncumbranceVal */
      , (9665,  16,          8) /* ItemUseable - Contained */
      , (9665,  19,       1000) /* Value */
-     , (9665,  44,         40) /* Damage */
-     , (9665,  45,          3) /* DamageType - Slash, Pierce */
-     , (9665,  47,          6) /* AttackType - Thrust, Slash */
-     , (9665,  48,         45) /* WeaponSkill - LightWeapons */
-     , (9665,  49,         27) /* WeaponTime */
      , (9665,  65,        101) /* Placement - Resting */
-     , (9665,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9665, 105,          6) /* ItemWorkmanship */
-     , (9665, 131,         63) /* MaterialType - Silver */
-     , (9665, 158,          2) /* WieldRequirements - RawSkill */
-     , (9665, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (9665, 160,        350) /* WieldDifficulty */
-     , (9665, 172,          5) /* AppraisalLongDescDecoration */
-     , (9665, 177,          1) /* GemCount */
-     , (9665, 178,         41) /* GemType */
-     , (9665, 353,          5) /* WeaponType - Spear */
-     , (9665, 8030,          0);
+     , (9665,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9665,   1, False) /* Stuck */
@@ -35,13 +20,7 @@ VALUES (9665,   1, False) /* Stuck */
      , (9665,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9665,  21,       0) /* WeaponLength */
-     , (9665,  22,    0.71) /* DamageVariance */
-     , (9665,  26,       0) /* MaximumVelocity */
-     , (9665,  29,    1.06) /* WeaponDefense */
-     , (9665,  39,     1.5) /* DefaultScale */
-     , (9665,  62,    1.15) /* WeaponOffense */
-     , (9665,  63,       1) /* DamageMod */;
+VALUES (9665,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9665,   1, 'Scroll of Drain Mana Other VI') /* Name */
@@ -53,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9665,   1,   33554826) /* Setup */
      , (9665,   8,  100676932) /* Icon */
      , (9665,  22,  872415275) /* PhysicsEffectTable */
-     , (9665,  28,       1265) /* Spell */
+     , (9665,  28,       1265) /* Spell - DrainMana6 */
      , (9665, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9665, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9665, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

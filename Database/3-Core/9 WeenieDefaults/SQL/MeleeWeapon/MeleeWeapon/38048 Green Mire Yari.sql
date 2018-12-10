@@ -36,7 +36,6 @@ VALUES (38048,   1, False) /* Stuck */
      , (38048,  19, True ) /* Attackable */
      , (38048,  22, True ) /* Inscribable */
      , (38048,  69, False) /* IsSellable */
-     , (38048,  85, True ) /* AppraisalHasAllowedWielder */
      , (38048,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,10 +49,7 @@ VALUES (38048,   5,   -0.01) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38048,   1, 'Green Mire Yari') /* Name */
-     , (38048,   7, 'This is a pretty cool weapon.') /* Inscription */
-     , (38048,   8, 'Kuwashi') /* ScribeName */
-     , (38048,  15, 'The famous Yari of the Green Mire Warrior, recently repaired and upgraded by Hiro Ishigame.') /* ShortDesc */
-     , (38048,  25, 'Billy Herrington') /* CraftsmanName */;
+     , (38048,  15, 'The famous Yari of the Green Mire Warrior, recently repaired and upgraded by Hiro Ishigame.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38048,   1,   33554824) /* Setup */

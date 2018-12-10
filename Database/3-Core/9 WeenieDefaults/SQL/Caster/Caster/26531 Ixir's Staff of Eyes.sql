@@ -47,7 +47,7 @@ VALUES (26531,   1,   33558596) /* Setup */
      , (26531,   6,   67114956) /* PaletteBase */
      , (26531,   8,  100675776) /* Icon */
      , (26531,  22,  872415275) /* PhysicsEffectTable */
-     , (26531,  28,       3068) /* Spell */
+     , (26531,  28,       3068) /* Spell - MinorWardRebirth */
      , (26531, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (26531, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26531, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

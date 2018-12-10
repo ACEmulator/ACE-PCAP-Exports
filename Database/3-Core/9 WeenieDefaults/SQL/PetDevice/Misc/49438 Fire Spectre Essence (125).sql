@@ -21,11 +21,8 @@ VALUES (49438,   1,        128) /* ItemType - Misc */
      , (49438, 366,         54) /* UseRequiresSkill */
      , (49438, 367,        430) /* UseRequiresSkillLevel */
      , (49438, 369,        115) /* UseRequiresLevel */
-     , (49438, 370,         19) /* GearDamage */
      , (49438, 371,         13) /* GearDamageResist */
      , (49438, 372,         10) /* GearCrit */
-     , (49438, 373,         11) /* GearCritResist */
-     , (49438, 374,         13) /* GearCritDamage */
      , (49438, 375,         12) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,8 +40,7 @@ VALUES (49438,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49438,   1, 'Fire Spectre Essence (125)') /* Name */
-     , (49438,  14, 'Use this essence to summon or dismiss your Fire Spectre.') /* Use */
-     , (49438,  16, 'Killed by Callaway.') /* LongDesc */;
+     , (49438,  14, 'Use this essence to summon or dismiss your Fire Spectre.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49438,   1,   33554817) /* Setup */

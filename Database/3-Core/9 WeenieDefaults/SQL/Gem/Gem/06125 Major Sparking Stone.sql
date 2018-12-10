@@ -26,8 +26,6 @@ VALUES (6125,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6125,   1, 'Major Sparking Stone') /* Name */
-     , (6125,   7, 'You incinerate Othinn for 132 points of fire damage!') /* Inscription */
-     , (6125,   8, 'Killerwolf') /* ScribeName */
      , (6125,  14, 'Use this stone on an Empyrean or Isparian weapon or on a piece of Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

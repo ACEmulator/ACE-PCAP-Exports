@@ -30,13 +30,10 @@ VALUES (3855,   1,          1) /* ItemType - MeleeWeapon */
      , (3855, 158,          2) /* WieldRequirements - RawSkill */
      , (3855, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (3855, 160,        420) /* WieldDifficulty */
-     , (3855, 171,          8) /* NumTimesTinkered */
      , (3855, 172,          7) /* AppraisalLongDescDecoration */
      , (3855, 176,         44) /* AppraisalItemSkill */
      , (3855, 177,          5) /* GemCount */
      , (3855, 178,         41) /* GemType */
-     , (3855, 179,        512) /* ImbuedEffect - FireRending */
-     , (3855, 188,          2) /* HeritageGroup - Gharundim */
      , (3855, 353,          2) /* WeaponType - Sword */
      , (3855, 8030,          0);
 
@@ -57,17 +54,12 @@ VALUES (3855,   5, -0.0666666666666667) /* ManaRate */
      , (3855,  39, 1.10000002384186) /* DefaultScale */
      , (3855,  62,    1.19) /* WeaponOffense */
      , (3855,  63,       1) /* DamageMod */
-     , (3855, 144,     0.1) /* ManaConversionMod */
-     , (3855, 149,    1.02) /* WeaponMissileDefense */
      , (3855, 150,    1.02) /* WeaponMagicDefense */
-     , (3855, 152,    1.13) /* ElementalDamageMod */
      , (3855, 8004,       9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3855,   1, 'Flaming Shamshir') /* Name */
-     , (3855,  16, 'Flaming Shamshir of Coordination') /* LongDesc */
-     , (3855,  39, 'Mag-tinker') /* TinkerName */
-     , (3855,  40, 'Mag-tinker') /* ImbuerName */;
+     , (3855,  16, 'Flaming Shamshir of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3855,   1,   33555771) /* Setup */
@@ -86,50 +78,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3855, 8000, 2156287724) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3855,  1332,      2) 
-     , (3855,  1354,      2) 
-     , (3855,  1378,      2) 
-     , (3855,  1402,      2) 
-     , (3855,  1591,      2) 
-     , (3855,  1592,      2) 
-     , (3855,  1604,      2) 
-     , (3855,  1605,      2) 
-     , (3855,  1615,      2) 
-     , (3855,  1616,      2) 
-     , (3855,  1627,      2) 
-     , (3855,  2059,      2) 
-     , (3855,  2087,      2) 
+VALUES (3855,  1592,      2) 
      , (3855,  2096,      2) 
-     , (3855,  2101,      2) 
-     , (3855,  2106,      2) 
-     , (3855,  2116,      2) 
-     , (3855,  2146,      2) 
-     , (3855,  2504,      2) 
-     , (3855,  2506,      2) 
-     , (3855,  2512,      2) 
-     , (3855,  2514,      2) 
-     , (3855,  2515,      2) 
-     , (3855,  2517,      2) 
-     , (3855,  2539,      2) 
-     , (3855,  2549,      2) 
-     , (3855,  2556,      2) 
-     , (3855,  2574,      2) 
      , (3855,  2576,      2) 
-     , (3855,  2582,      2) 
-     , (3855,  2583,      2) 
-     , (3855,  2586,      2) 
-     , (3855,  2611,      2) 
      , (3855,  4297,      2) 
-     , (3855,  4299,      2) 
-     , (3855,  4395,      2) 
-     , (3855,  4400,      2) 
-     , (3855,  4405,      2) 
-     , (3855,  4417,      2) 
-     , (3855,  4418,      2) 
-     , (3855,  4564,      2) 
-     , (3855,  4663,      2) 
-     , (3855,  4672,      2) 
-     , (3855,  4675,      2) 
-     , (3855,  4693,      2) 
-     , (3855,  5784,      2) 
-     , (3855,  5885,      2) ;
+     , (3855,  4417,      2) ;

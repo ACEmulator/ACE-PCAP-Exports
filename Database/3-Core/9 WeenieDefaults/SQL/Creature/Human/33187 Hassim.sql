@@ -6,50 +6,17 @@ VALUES (33187, 'ace33187-hassim', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33187,   1,         16) /* ItemType - Creature */
      , (33187,   2,         31) /* CreatureType - Human */
-     , (33187,   5,         63) /* EncumbranceVal */
      , (33187,   6,        255) /* ItemsCapacity */
      , (33187,   7,        255) /* ContainersCapacity */
      , (33187,  16,         32) /* ItemUseable - Remote */
-     , (33187,  19,      36597) /* Value */
      , (33187,  25,        120) /* Level */
-     , (33187,  28,        293) /* ArmorLevel */
-     , (33187,  33,          1) /* Bonded - Bonded */
-     , (33187,  44,         12) /* Damage */
-     , (33187,  45,         16) /* DamageType - Fire */
-     , (33187,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
-     , (33187,  48,         45) /* WeaponSkill - LightWeapons */
-     , (33187,  49,         19) /* WeaponTime */
-     , (33187,  91,         50) /* MaxStructure */
-     , (33187,  92,         50) /* Structure */
      , (33187,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33187,  95,          8) /* RadarBlipColor - Yellow */
-     , (33187, 105,          7) /* ItemWorkmanship */
-     , (33187, 106,        287) /* ItemSpellcraft */
-     , (33187, 107,       1517) /* ItemCurMana */
-     , (33187, 108,       1517) /* ItemMaxMana */
-     , (33187, 109,        287) /* ItemDifficulty */
-     , (33187, 110,          0) /* ItemAllegianceRankLimit */
      , (33187, 113,          1) /* Gender - Male */
-     , (33187, 114,          0) /* Attuned - Normal */
-     , (33187, 115,          0) /* ItemSkillLevelLimit */
-     , (33187, 131,         63) /* MaterialType - Silver */
      , (33187, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (33187, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (33187, 158,          2) /* WieldRequirements - RawSkill */
-     , (33187, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (33187, 160,        300) /* WieldDifficulty */
-     , (33187, 172,          5) /* AppraisalLongDescDecoration */
-     , (33187, 176,         45) /* AppraisalItemSkill */
-     , (33187, 177,          3) /* GemCount */
-     , (33187, 178,         34) /* GemType */
      , (33187, 188,          2) /* HeritageGroup - Gharundim */
-     , (33187, 280,        213) /* SharedCooldown */
-     , (33187, 353,          6) /* WeaponType - Dagger */
-     , (33187, 366,         54) /* UseRequiresSkill */
-     , (33187, 367,        400) /* UseRequiresSkillLevel */
-     , (33187, 369,         90) /* UseRequiresLevel */
-     , (33187, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (33187, 8030,          0);
+     , (33187, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33187,   1, True ) /* Stuck */
@@ -59,36 +26,14 @@ VALUES (33187,   1, True ) /* Stuck */
      , (33187,  14, True ) /* GravityStatus */
      , (33187,  19, False) /* Attackable */
      , (33187,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (33187,  42, True ) /* AllowEdgeSlide */
-     , (33187,  69, True ) /* IsSellable */
-     , (33187, 100, True ) /* Dyable */;
+     , (33187,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33187,   5, -0.0555555555555556) /* ManaRate */
-     , (33187,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (33187,  14,       1) /* ArmorModVsPierce */
-     , (33187,  15,       1) /* ArmorModVsBludgeon */
-     , (33187,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (33187,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (33187,  18, 0.968344509601593) /* ArmorModVsAcid */
-     , (33187,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (33187,  21,       0) /* WeaponLength */
-     , (33187,  22,    0.28) /* DamageVariance */
-     , (33187,  26,       0) /* MaximumVelocity */
-     , (33187,  29,    1.08) /* WeaponDefense */
-     , (33187,  54,       3) /* UseRadius */
-     , (33187,  62,     1.1) /* WeaponOffense */
-     , (33187,  63,       1) /* DamageMod */
-     , (33187, 144,    0.09) /* ManaConversionMod */
-     , (33187, 152,    1.02) /* ElementalDamageMod */
-     , (33187, 165,       1) /* ArmorModVsNether */
-     , (33187, 167,      45) /* CooldownDuration */;
+VALUES (33187,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33187,   1, 'Hassim') /* Name */
      , (33187,   5, 'Whispering Blade Factotum') /* Template */
-     , (33187,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (33187,  16, 'Teardrop Crown of Monster Attunement') /* LongDesc */
      , (33187, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -126,29 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33187,   1,   125, 0, 0, 125) /* MaxHealth */
      , (33187,   3,   250, 0, 0, 250) /* MaxStamina */
      , (33187,   5,   220, 0, 0, 220) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33187,   803,      2) 
-     , (33187,  1023,      2) 
-     , (33187,  1425,      2) 
-     , (33187,  1486,      2) 
-     , (33187,  1615,      2) 
-     , (33187,  1616,      2) 
-     , (33187,  2053,      2) 
-     , (33187,  2059,      2) 
-     , (33187,  2091,      2) 
-     , (33187,  2094,      2) 
-     , (33187,  2117,      2) 
-     , (33187,  2146,      2) 
-     , (33187,  2234,      2) 
-     , (33187,  2300,      2) 
-     , (33187,  2318,      2) 
-     , (33187,  2520,      2) 
-     , (33187,  2542,      2) 
-     , (33187,  2601,      2) 
-     , (33187,  2605,      2) 
-     , (33187,  3190,      2) 
-     , (33187,  5892,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33187, 67109552, 0, 24)

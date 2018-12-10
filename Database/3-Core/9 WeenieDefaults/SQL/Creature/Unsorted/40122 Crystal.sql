@@ -52,7 +52,6 @@ VALUES (40122,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40122,   1, 'Crystal') /* Name */
      , (40122,  14, 'A crystal marking a special location.') /* Use */
-     , (40122,  15, 'A large desert cactus. You can hear a muffled buzzing coming from within the plant.') /* ShortDesc */
      , (40122, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

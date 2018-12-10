@@ -6,21 +6,15 @@ VALUES (29487, 'npcknightkarlunguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29487,   1,         16) /* ItemType - Creature */
      , (29487,   2,         31) /* CreatureType - Human */
-     , (29487,   5,         10) /* EncumbranceVal */
      , (29487,   6,        255) /* ItemsCapacity */
      , (29487,   7,        255) /* ContainersCapacity */
      , (29487,  16,         32) /* ItemUseable - Remote */
-     , (29487,  19,          1) /* Value */
      , (29487,  25,         29) /* Level */
-     , (29487,  33,          0) /* Bonded - Normal */
      , (29487,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29487,  95,          8) /* RadarBlipColor - Yellow */
      , (29487, 113,          1) /* Gender - Male */
-     , (29487, 114,          0) /* Attuned - Normal */
      , (29487, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29487, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (29487, 174,          1) /* AppraisalPages */
-     , (29487, 175,          1) /* AppraisalMaxPages */
      , (29487, 188,          4) /* HeritageGroup - Viamontian */
      , (29487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -40,7 +34,6 @@ VALUES (29487,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29487,   1, 'Guard') /* Name */
      , (29487,   5, 'Knight of Karlun') /* Template */
-     , (29487,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */
      , (29487, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

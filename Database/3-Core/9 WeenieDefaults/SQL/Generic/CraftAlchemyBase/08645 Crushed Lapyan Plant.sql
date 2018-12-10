@@ -5,13 +5,11 @@ VALUES (8645, 'plantwinterbluecrushed', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8645,   1,    8388608) /* ItemType - CraftAlchemyBase */
-     , (8645,   2,         70) /* CreatureType - GotrokLugian */
      , (8645,   5,          5) /* EncumbranceVal */
      , (8645,  11,        100) /* MaxStackSize */
      , (8645,  12,          1) /* StackSize */
      , (8645,  16,          1) /* ItemUseable - No */
      , (8645,  19,         10) /* Value */
-     , (8645,  25,        100) /* Level */
      , (8645,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,9 +41,6 @@ VALUES (8645,   1,   33556752) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8645,   2, 2516451324) /* Container */
      , (8645, 8000, 2516451323) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8645,   1,   390, 0, 0, 390) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8645, 67111926, 0, 0);

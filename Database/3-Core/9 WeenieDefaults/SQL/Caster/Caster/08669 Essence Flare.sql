@@ -34,13 +34,10 @@ VALUES (8669,   5,   -0.05) /* ManaRate */
      , (8669,  29,       1) /* WeaponDefense */
      , (8669,  39, 1.20000004768372) /* DefaultScale */
      , (8669,  76,     0.5) /* Translucency */
-     , (8669, 144,    0.05) /* ManaConversionMod */
-     , (8669, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (8669, 144,    0.05) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8669,   1, 'Essence Flare') /* Name */
-     , (8669,   7, 'For Aliah the radiant, the punk shizzle on the funk dizzle!') /* Inscription */
-     , (8669,   8, 'Drudge Mage') /* ScribeName */
      , (8669,  16, 'A flaring essence formerly trapped in a wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

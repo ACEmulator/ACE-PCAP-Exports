@@ -21,11 +21,7 @@ VALUES (47544,   1,        256) /* ItemType - MissileWeapon */
      , (47544,  65,          1) /* Placement - RightHandCombat */
      , (47544,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47544, 151,          2) /* HookType - Wall */
-     , (47544, 307,          5) /* DamageRating */
-     , (47544, 313,          0) /* CritRating */
-     , (47544, 314,          0) /* CritDamageRating */
      , (47544, 353,         10) /* WeaponType - Thrown */
-     , (47544, 386,          0) /* Overpower */
      , (47544, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,9 +40,7 @@ VALUES (47544,  21,       0) /* WeaponLength */
      , (47544,  62,       1) /* WeaponOffense */
      , (47544,  63,       1) /* DamageMod */
      , (47544,  78,       1) /* Friction */
-     , (47544,  79,       0) /* Elasticity */
-     , (47544, 149,       0) /* WeaponMissileDefense */
-     , (47544, 150,       0) /* WeaponMagicDefense */;
+     , (47544,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47544,   1, 'Javelin') /* Name */;

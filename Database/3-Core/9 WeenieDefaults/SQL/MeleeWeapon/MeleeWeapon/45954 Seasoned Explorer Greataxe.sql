@@ -39,7 +39,6 @@ VALUES (45954,   1, False) /* Stuck */
      , (45954,  14, True ) /* GravityStatus */
      , (45954,  19, True ) /* Attackable */
      , (45954,  22, True ) /* Inscribable */
-     , (45954,  91, True ) /* Retained */
      , (45954,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

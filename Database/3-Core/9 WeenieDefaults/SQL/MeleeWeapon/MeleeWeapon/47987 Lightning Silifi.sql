@@ -5,14 +5,12 @@ VALUES (47987, 'ace47987-lightningsilifi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47987,   1,          1) /* ItemType - MeleeWeapon */
-     , (47987,   2,          1) /* CreatureType - Olthoi */
      , (47987,   5,        800) /* EncumbranceVal */
      , (47987,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47987,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47987,  16,          1) /* ItemUseable - No */
      , (47987,  18,         64) /* UiEffects - Lightning */
      , (47987,  19,       1000) /* Value */
-     , (47987,  25,         60) /* Level */
      , (47987,  51,          1) /* CombatUse - Melee */
      , (47987,  65,          1) /* Placement - RightHandCombat */
      , (47987,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -50,16 +48,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47987,   3, 3701140415) /* Wielder */
      , (47987, 8000, 3700826799) /* PCAPRecordedObjectIID */
      , (47987, 8008, 3701140415) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47987,   1, 280, 0, 0) /* Strength */
-     , (47987,   2, 280, 0, 0) /* Endurance */
-     , (47987,   3, 110, 0, 0) /* Quickness */
-     , (47987,   4, 110, 0, 0) /* Coordination */
-     , (47987,   5,  80, 0, 0) /* Focus */
-     , (47987,   6,  30, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47987,   1,   190, 0, 0, 190) /* MaxHealth */
-     , (47987,   3,   430, 0, 0, 430) /* MaxStamina */
-     , (47987,   5,    30, 0, 0, 30) /* MaxMana */;

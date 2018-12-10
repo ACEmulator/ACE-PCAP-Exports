@@ -20,13 +20,7 @@ VALUES (49225,   1,        128) /* ItemType - Misc */
      , (49225, 280,        213) /* SharedCooldown */
      , (49225, 366,         54) /* UseRequiresSkill */
      , (49225, 367,        530) /* UseRequiresSkillLevel */
-     , (49225, 369,        170) /* UseRequiresLevel */
-     , (49225, 370,         10) /* GearDamage */
-     , (49225, 371,         12) /* GearDamageResist */
-     , (49225, 372,         12) /* GearCrit */
-     , (49225, 373,         11) /* GearCritResist */
-     , (49225, 374,         11) /* GearCritDamage */
-     , (49225, 375,         10) /* GearCritDamageResist */;
+     , (49225, 369,        170) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49225,   1, False) /* Stuck */

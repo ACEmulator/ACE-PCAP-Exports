@@ -6,11 +6,9 @@ VALUES (12725, 'academyguard1yaraqe', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12725,   1,         16) /* ItemType - Creature */
      , (12725,   2,         31) /* CreatureType - Human */
-     , (12725,   5,       6920) /* EncumbranceVal */
      , (12725,   6,        255) /* ItemsCapacity */
      , (12725,   7,        255) /* ContainersCapacity */
      , (12725,  16,         32) /* ItemUseable - Remote */
-     , (12725,  19,          0) /* Value */
      , (12725,  25,         50) /* Level */
      , (12725,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12725,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (12725,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12725,   1, 'Sentry') /* Name */
      , (12725,   5, 'Soldier') /* Template */
-     , (12725,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (12725, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

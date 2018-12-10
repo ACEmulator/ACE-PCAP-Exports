@@ -48,7 +48,7 @@ VALUES (32488,   1,   33559811) /* Setup */
      , (32488,   6,   67111919) /* PaletteBase */
      , (32488,   8,  100688575) /* Icon */
      , (32488,  22,  872415275) /* PhysicsEffectTable */
-     , (32488,  28,       3866) /* Spell */
+     , (32488,  28,       3866) /* Spell - GlacialSpeed */
      , (32488, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (32488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32488, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

@@ -49,8 +49,6 @@ VALUES (35266,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35266,   1, 'Butter Knife of Slaying') /* Name */
-     , (35266,   7, 'Di') /* Inscription */
-     , (35266,   8, 'Redy') /* ScribeName */
      , (35266,  16, 'This butter knife has mystic runes carved upon it, which probably mean something like, "Get ye hence, foul minions of dough!" Or, maybe, "Eat at Chow''s." Anyways, it''s supposed to be very good at destroying creatures that are made primarily of food. It also works on sentient ovens, for some reason you don''t understand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

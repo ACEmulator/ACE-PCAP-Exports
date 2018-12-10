@@ -6,23 +6,12 @@ VALUES (30683, 'banderlingheirophantwithered', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30683,   1,         16) /* ItemType - Creature */
      , (30683,   2,          2) /* CreatureType - Banderling */
-     , (30683,   5,       6630) /* EncumbranceVal */
      , (30683,   6,        255) /* ItemsCapacity */
      , (30683,   7,        255) /* ContainersCapacity */
      , (30683,  16,          1) /* ItemUseable - No */
-     , (30683,  19,          0) /* Value */
      , (30683,  25,        160) /* Level */
      , (30683,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (30683, 105,          6) /* ItemWorkmanship */
-     , (30683, 106,        146) /* ItemSpellcraft */
-     , (30683, 107,        934) /* ItemCurMana */
-     , (30683, 108,        934) /* ItemMaxMana */
-     , (30683, 109,        146) /* ItemDifficulty */
-     , (30683, 110,          0) /* ItemAllegianceRankLimit */
-     , (30683, 115,          0) /* ItemSkillLevelLimit */
-     , (30683, 131,         58) /* MaterialType - Bronze */
      , (30683, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (30683, 172,          1) /* AppraisalLongDescDecoration */
      , (30683, 307,         10) /* DamageRating */
      , (30683, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -34,12 +23,10 @@ VALUES (30683,   1, True ) /* Stuck */
      , (30683,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30683,   5, -0.0416666666666667) /* ManaRate */
-     , (30683,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (30683,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30683,   1, 'Withered Banderling Hierophant') /* Name */
-     , (30683,  16, 'Killed by Cat Devnull.') /* LongDesc */
      , (30683, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -72,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (30683,   1,  2000, 0, 0, 2000) /* MaxHealth */
      , (30683,   3,  3000, 0, 0, 3000) /* MaxStamina */
      , (30683,   5,   275, 0, 0, 275) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30683,   277,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30683, 67114262, 0, 0);

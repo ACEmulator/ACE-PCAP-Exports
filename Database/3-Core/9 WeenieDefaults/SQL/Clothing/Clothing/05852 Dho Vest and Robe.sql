@@ -34,9 +34,7 @@ VALUES (5852,  13, 0.800000011920929) /* ArmorModVsSlash */
      , (5852, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5852,   1, 'Dho Vest and Robe') /* Name */
-     , (5852,   7, 'Tradebot Outfit!') /* Inscription */
-     , (5852,   8, 'Samina') /* ScribeName */;
+VALUES (5852,   1, 'Dho Vest and Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5852,   1,   33554854) /* Setup */

@@ -5,13 +5,11 @@ VALUES (3762, 'budiaqacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3762,   1,          1) /* ItemType - MeleeWeapon */
-     , (3762,   2,          1) /* CreatureType - Olthoi */
      , (3762,   5,        597) /* EncumbranceVal */
      , (3762,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (3762,  16,          1) /* ItemUseable - No */
      , (3762,  18,        257) /* UiEffects - Magical, Acid */
      , (3762,  19,      19715) /* Value */
-     , (3762,  25,        200) /* Level */
      , (3762,  44,         38) /* Damage */
      , (3762,  45,         32) /* DamageType - Acid */
      , (3762,  47,          2) /* AttackType - Thrust */
@@ -32,12 +30,10 @@ VALUES (3762,   1,          1) /* ItemType - MeleeWeapon */
      , (3762, 158,          2) /* WieldRequirements - RawSkill */
      , (3762, 159,         46) /* WieldSkilltype - FinesseWeapons */
      , (3762, 160,        325) /* WieldDifficulty */
-     , (3762, 171,          1) /* NumTimesTinkered */
      , (3762, 172,          5) /* AppraisalLongDescDecoration */
      , (3762, 176,         46) /* AppraisalItemSkill */
      , (3762, 177,          2) /* GemCount */
      , (3762, 178,         17) /* GemType */
-     , (3762, 179,         64) /* ImbuedEffect - AcidRending */
      , (3762, 353,          5) /* WeaponType - Spear */
      , (3762, 8030,          0);
 
@@ -58,13 +54,11 @@ VALUES (3762,   5, -0.0416666666666667) /* ManaRate */
      , (3762,  62,    1.15) /* WeaponOffense */
      , (3762,  63,       1) /* DamageMod */
      , (3762, 149,   1.015) /* WeaponMissileDefense */
-     , (3762, 150,   1.005) /* WeaponMagicDefense */
      , (3762, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3762,   1, 'Acid Budiaq') /* Name */
-     , (3762,  16, 'Acid Budiaq of Blood Drinker') /* LongDesc */
-     , (3762,  40, 'Jadefire') /* ImbuerName */;
+     , (3762,  16, 'Acid Budiaq of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3762,   1,   33555780) /* Setup */
@@ -82,57 +76,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3762,   2, 3666901584) /* Container */
      , (3762, 8000, 2174193546) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (3762,   1,  2700, 0, 0, 2700) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3762,    35,      2) 
-     , (3762,    49,      2) 
-     , (3762,  1331,      2) 
-     , (3762,  1402,      2) 
-     , (3762,  1590,      2) 
-     , (3762,  1591,      2) 
-     , (3762,  1592,      2) 
-     , (3762,  1601,      2) 
-     , (3762,  1604,      2) 
-     , (3762,  1605,      2) 
-     , (3762,  1612,      2) 
-     , (3762,  1613,      2) 
-     , (3762,  1614,      2) 
-     , (3762,  1615,      2) 
-     , (3762,  1616,      2) 
-     , (3762,  1624,      2) 
-     , (3762,  1626,      2) 
-     , (3762,  1627,      2) 
-     , (3762,  2059,      2) 
-     , (3762,  2096,      2) 
-     , (3762,  2101,      2) 
-     , (3762,  2106,      2) 
-     , (3762,  2116,      2) 
-     , (3762,  2191,      2) 
-     , (3762,  2506,      2) 
-     , (3762,  2515,      2) 
-     , (3762,  2544,      2) 
-     , (3762,  2558,      2) 
-     , (3762,  2564,      2) 
-     , (3762,  2572,      2) 
-     , (3762,  2579,      2) 
-     , (3762,  2580,      2) 
-     , (3762,  2581,      2) 
-     , (3762,  2582,      2) 
-     , (3762,  2583,      2) 
-     , (3762,  2598,      2) 
-     , (3762,  2600,      2) 
-     , (3762,  2603,      2) 
-     , (3762,  2611,      2) 
-     , (3762,  2617,      2) 
-     , (3762,  4395,      2) 
-     , (3762,  5783,      2) 
-     , (3762,  5784,      2) 
-     , (3762,  5785,      2) 
-     , (3762,  5810,      2) 
-     , (3762,  5879,      2) 
-     , (3762,  5881,      2) ;
+VALUES (3762,  1615,      2) 
+     , (3762,  2564,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3762, 67111922, 0, 0);

@@ -6,50 +6,19 @@ VALUES (41829, 'ace41829-ghalialfariq', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41829,   1,         16) /* ItemType - Creature */
      , (41829,   2,         31) /* CreatureType - Human */
-     , (41829,   5,          0) /* EncumbranceVal */
      , (41829,   6,        255) /* ItemsCapacity */
      , (41829,   7,        255) /* ContainersCapacity */
      , (41829,  16,         32) /* ItemUseable - Remote */
-     , (41829,  19,      25000) /* Value */
      , (41829,  25,        180) /* Level */
-     , (41829,  28,          0) /* ArmorLevel */
-     , (41829,  33,          1) /* Bonded - Bonded */
-     , (41829,  44,          0) /* Damage */
-     , (41829,  45,          1) /* DamageType - Slash */
-     , (41829,  47,          4) /* AttackType - Slash */
-     , (41829,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (41829,  49,         19) /* WeaponTime */
-     , (41829,  91,          1) /* MaxStructure */
-     , (41829,  92,          1) /* Structure */
      , (41829,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41829,  95,          8) /* RadarBlipColor - Yellow */
-     , (41829, 105,          7) /* ItemWorkmanship */
-     , (41829, 106,        320) /* ItemSpellcraft */
-     , (41829, 107,       1167) /* ItemCurMana */
-     , (41829, 108,       1167) /* ItemMaxMana */
-     , (41829, 109,        150) /* ItemDifficulty */
-     , (41829, 110,          0) /* ItemAllegianceRankLimit */
      , (41829, 113,          1) /* Gender - Male */
-     , (41829, 115,        340) /* ItemSkillLevelLimit */
-     , (41829, 117,        300) /* ItemManaCost */
-     , (41829, 131,         58) /* MaterialType - Bronze */
      , (41829, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41829, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (41829, 158,          2) /* WieldRequirements - RawSkill */
-     , (41829, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (41829, 160,        315) /* WieldDifficulty */
-     , (41829, 172,          5) /* AppraisalLongDescDecoration */
-     , (41829, 176,         47) /* AppraisalItemSkill */
-     , (41829, 177,          1) /* GemCount */
-     , (41829, 178,         33) /* GemType */
      , (41829, 188,          2) /* HeritageGroup - Gharundim */
-     , (41829, 204,          2) /* ElementalDamageBonus */
      , (41829, 281,          4) /* Faction1Bits */
      , (41829, 289,       1001) /* SocietyRankRadblo */
-     , (41829, 307,          5) /* DamageRating */
-     , (41829, 353,         10) /* WeaponType - Thrown */
-     , (41829, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (41829, 8030,          0);
+     , (41829, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41829,   1, True ) /* Stuck */
@@ -59,33 +28,14 @@ VALUES (41829,   1, True ) /* Stuck */
      , (41829,  14, True ) /* GravityStatus */
      , (41829,  19, False) /* Attackable */
      , (41829,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (41829,  42, True ) /* AllowEdgeSlide */
-     , (41829,  69, False) /* IsSellable */
-     , (41829, 100, True ) /* Dyable */;
+     , (41829,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41829,   5, -0.0555555555555556) /* ManaRate */
-     , (41829,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (41829,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (41829,  15,       1) /* ArmorModVsBludgeon */
-     , (41829,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (41829,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (41829,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (41829,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (41829,  21,       0) /* WeaponLength */
-     , (41829,  22,       0) /* DamageVariance */
-     , (41829,  26,    24.9) /* MaximumVelocity */
-     , (41829,  29,     1.1) /* WeaponDefense */
-     , (41829,  54,       3) /* UseRadius */
-     , (41829,  62,       1) /* WeaponOffense */
-     , (41829,  63,    2.57) /* DamageMod */
-     , (41829, 165,       1) /* ArmorModVsNether */;
+VALUES (41829,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41829,   1, 'Ghali al-Fariq') /* Name */
      , (41829,   5, 'Society Contractor') /* Template */
-     , (41829,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (41829,  16, 'Slashing Atlatl of Swiftkiller') /* LongDesc */
      , (41829, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -123,34 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41829,   1,   296, 0, 0, 296) /* MaxHealth */
      , (41829,   3,   396, 0, 0, 396) /* MaxStamina */
      , (41829,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41829,   169,      2) 
-     , (41829,  1311,      2) 
-     , (41829,  1312,      2) 
-     , (41829,  1528,      2) 
-     , (41829,  1574,      2) 
-     , (41829,  1616,      2) 
-     , (41829,  2053,      2) 
-     , (41829,  2059,      2) 
-     , (41829,  2087,      2) 
-     , (41829,  2094,      2) 
-     , (41829,  2096,      2) 
-     , (41829,  2101,      2) 
-     , (41829,  2108,      2) 
-     , (41829,  2116,      2) 
-     , (41829,  2153,      2) 
-     , (41829,  2157,      2) 
-     , (41829,  2318,      2) 
-     , (41829,  2537,      2) 
-     , (41829,  2551,      2) 
-     , (41829,  2552,      2) 
-     , (41829,  2593,      2) 
-     , (41829,  2619,      2) 
-     , (41829,  3833,      2) 
-     , (41829,  5785,      2) 
-     , (41829,  5808,      2) 
-     , (41829,  5832,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41829, 67109556, 0, 24)

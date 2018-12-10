@@ -5,11 +5,9 @@ VALUES (25990, 'toutoubattledungeonportalnpc', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25990,   1,         16) /* ItemType - Creature */
-     , (25990,   5,       6469) /* EncumbranceVal */
      , (25990,   6,        255) /* ItemsCapacity */
      , (25990,   7,        255) /* ContainersCapacity */
      , (25990,  16,         32) /* ItemUseable - Remote */
-     , (25990,  19,          0) /* Value */
      , (25990,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25990,  95,          8) /* RadarBlipColor - Yellow */
      , (25990, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -56,7 +54,6 @@ VALUES (25990,  39,     0.5) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25990,   1, 'Small Creepy Statue') /* Name */
      , (25990,  15, 'A small statue that looks just a little too life-like for comfort.') /* ShortDesc */
-     , (25990,  16, 'Killed by Mag-three.') /* LongDesc */
      , (25990, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

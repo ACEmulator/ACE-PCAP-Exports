@@ -37,9 +37,7 @@ VALUES (14839,  13,       1) /* ArmorModVsSlash */
      , (14839, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14839,   1, 'Greater Amuli Shadow Leggings') /* Name */
-     , (14839,   7, NULL) /* Inscription */
-     , (14839,   8, NULL) /* ScribeName */;
+VALUES (14839,   1, 'Greater Amuli Shadow Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14839,   1,   33554856) /* Setup */

@@ -6,18 +6,12 @@ VALUES (49197, 'ace49197-qvswisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49197,   1,         16) /* ItemType - Creature */
      , (49197,   2,         20) /* CreatureType - Wisp */
-     , (49197,   5,       1080) /* EncumbranceVal */
      , (49197,   6,        255) /* ItemsCapacity */
      , (49197,   7,        255) /* ContainersCapacity */
      , (49197,  16,          1) /* ItemUseable - No */
-     , (49197,  19,       4979) /* Value */
      , (49197,  25,        180) /* Level */
-     , (49197,  28,        271) /* ArmorLevel */
      , (49197,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49197, 105,          5) /* ItemWorkmanship */
-     , (49197, 131,         52) /* MaterialType - Leather */
      , (49197, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49197, 172,          1) /* AppraisalLongDescDecoration */
      , (49197, 307,         12) /* DamageRating */
      , (49197, 308,         13) /* DamageResistRating */
      , (49197, 313,         11) /* CritRating */
@@ -31,22 +25,10 @@ VALUES (49197,   1, True ) /* Stuck */
      , (49197,  12, True ) /* ReportCollisions */
      , (49197,  13, True ) /* Ethereal */
      , (49197,  14, True ) /* GravityStatus */
-     , (49197,  19, True ) /* Attackable */
-     , (49197, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49197,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (49197,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (49197,  15,       1) /* ArmorModVsBludgeon */
-     , (49197,  16, 1.08639407157898) /* ArmorModVsCold */
-     , (49197,  17,     0.5) /* ArmorModVsFire */
-     , (49197,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (49197,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (49197, 165,       1) /* ArmorModVsNether */;
+     , (49197,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49197,   1, 'Qv''s Wisp') /* Name */
-     , (49197,  16, 'Koujia Sleeves') /* LongDesc */
      , (49197, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

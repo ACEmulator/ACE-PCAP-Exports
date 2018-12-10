@@ -6,23 +6,12 @@ VALUES (49189, 'ace49189-mrakocreatureitemswisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49189,   1,         16) /* ItemType - Creature */
      , (49189,   2,         20) /* CreatureType - Wisp */
-     , (49189,   5,         50) /* EncumbranceVal */
      , (49189,   6,        255) /* ItemsCapacity */
      , (49189,   7,        255) /* ContainersCapacity */
      , (49189,  16,          1) /* ItemUseable - No */
-     , (49189,  19,         15) /* Value */
      , (49189,  25,        150) /* Level */
-     , (49189,  28,          0) /* ArmorLevel */
      , (49189,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49189, 106,        400) /* ItemSpellcraft */
-     , (49189, 107,       5000) /* ItemCurMana */
-     , (49189, 108,       5000) /* ItemMaxMana */
-     , (49189, 109,        250) /* ItemDifficulty */
      , (49189, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49189, 158,          7) /* WieldRequirements - Level */
-     , (49189, 159,          1) /* WieldSkilltype - Axe */
-     , (49189, 160,        100) /* WieldDifficulty */
-     , (49189, 265,         32) /* EquipmentSetId - GraveyardClothing */
      , (49189, 307,         13) /* DamageRating */
      , (49189, 308,         11) /* DamageResistRating */
      , (49189, 313,         19) /* CritRating */
@@ -36,19 +25,7 @@ VALUES (49189,   1, True ) /* Stuck */
      , (49189,  12, True ) /* ReportCollisions */
      , (49189,  13, True ) /* Ethereal */
      , (49189,  14, True ) /* GravityStatus */
-     , (49189,  19, True ) /* Attackable */
-     , (49189, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49189,   5,   -0.05) /* ManaRate */
-     , (49189,  13, 0.899999976158142) /* ArmorModVsSlash */
-     , (49189,  14, 0.899999976158142) /* ArmorModVsPierce */
-     , (49189,  15, 0.899999976158142) /* ArmorModVsBludgeon */
-     , (49189,  16, 0.899999976158142) /* ArmorModVsCold */
-     , (49189,  17, 0.899999976158142) /* ArmorModVsFire */
-     , (49189,  18, 0.899999976158142) /* ArmorModVsAcid */
-     , (49189,  19, 0.899999976158142) /* ArmorModVsElectric */
-     , (49189, 165,       1) /* ArmorModVsNether */;
+     , (49189,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49189,   1, 'Mrako Creature-Item''s Wisp') /* Name */
@@ -85,7 +62,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49189,   1,   920, 0, 0, 920) /* MaxHealth */
      , (49189,   3,  1190, 0, 0, 1190) /* MaxStamina */
      , (49189,   5,   820, 0, 0, 820) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49189,  2611,      2) 
-     , (49189,  4682,      2) ;

@@ -24,8 +24,6 @@ VALUES (22837,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22837,   1, 'Snowflower') /* Name */
-     , (22837,   7, 'I hit 200, if you feel up to it email me when you get back. I might need help doing the Lum Flagging. ') /* Inscription */
-     , (22837,   8, 'Blazing Sun') /* ScribeName */
      , (22837,  14, 'This flower can be added to a crystal vase to make a lovely floral arrangement for a house. This object can also be used on a yard hook.') /* Use */
      , (22837,  15, 'A delicate snowflower. The blossom radiates cold, reminding you of a crisp winter day. DO NOT LICK!') /* ShortDesc */;
 

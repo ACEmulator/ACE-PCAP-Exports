@@ -5,7 +5,6 @@ VALUES (48333, 'ace48333-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48333,   1,        256) /* ItemType - MissileWeapon */
-     , (48333,   2,          6) /* CreatureType - Tumerok */
      , (48333,   5,        485) /* EncumbranceVal */
      , (48333,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48333,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (48333,   1,        256) /* ItemType - MissileWeapon */
      , (48333,  16,          1) /* ItemUseable - No */
      , (48333,  18,        256) /* UiEffects - Acid */
      , (48333,  19,         97) /* Value */
-     , (48333,  25,        100) /* Level */
      , (48333,  33,         -2) /* Bonded - Destroy */
      , (48333,  44,         64) /* Damage */
      , (48333,  45,         32) /* DamageType - Acid */
@@ -24,15 +22,7 @@ VALUES (48333,   1,        256) /* ItemType - MissileWeapon */
      , (48333,  51,          3) /* CombatUse - Ammo */
      , (48333,  65,          1) /* Placement - RightHandCombat */
      , (48333,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48333, 105,          8) /* ItemWorkmanship */
-     , (48333, 131,         33) /* MaterialType - Opal */
      , (48333, 151,          2) /* HookType - Wall */
-     , (48333, 158,          7) /* WieldRequirements - Level */
-     , (48333, 159,          1) /* WieldSkilltype - Axe */
-     , (48333, 160,        180) /* WieldDifficulty */
-     , (48333, 172,          5) /* AppraisalLongDescDecoration */
-     , (48333, 177,          1) /* GemCount */
-     , (48333, 178,         39) /* GemType */
      , (48333, 179,          0) /* ImbuedEffect - Undef */
      , (48333, 303,          0) /* ImbuedEffect2 - Undef */
      , (48333, 304,          0) /* ImbuedEffect3 - Undef */
@@ -41,7 +31,6 @@ VALUES (48333,   1,        256) /* ItemType - MissileWeapon */
      , (48333, 307,          5) /* DamageRating */
      , (48333, 313,          0) /* CritRating */
      , (48333, 314,          0) /* CritDamageRating */
-     , (48333, 379,          1) /* GearMaxHealth */
      , (48333, 386,          0) /* Overpower */
      , (48333, 8030,          0);
 
@@ -67,8 +56,7 @@ VALUES (48333,  21,       0) /* WeaponLength */
      , (48333, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48333,   1, 'Arrow') /* Name */
-     , (48333,  16, 'Killed by Equin Ealoi.') /* LongDesc */;
+VALUES (48333,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48333,   1,   33555787) /* Setup */
@@ -89,19 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48333,   3, 3687086803) /* Wielder */
      , (48333, 8000, 3687086818) /* PCAPRecordedObjectIID */
      , (48333, 8008, 3687086803) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48333,   1, 240, 0, 0) /* Strength */
-     , (48333,   2, 250, 0, 0) /* Endurance */
-     , (48333,   3, 250, 0, 0) /* Quickness */
-     , (48333,   4, 200, 0, 0) /* Coordination */
-     , (48333,   5, 260, 0, 0) /* Focus */
-     , (48333,   6, 280, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48333,   1,   325, 0, 0, 325) /* MaxHealth */
-     , (48333,   3,   375, 0, 0, 375) /* MaxStamina */
-     , (48333,   5,   400, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48333, 67111922, 0, 0);

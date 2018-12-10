@@ -15,8 +15,7 @@ VALUES (23197,   1,        128) /* ItemType - Misc */
      , (23197,  92,         50) /* Structure */
      , (23197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23197,  94,      16384) /* TargetType - Key */
-     , (23197, 151,          2) /* HookType - Wall */
-     , (23197, 193,         24) /* NumKeys */;
+     , (23197, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23197,   1, False) /* Stuck */
@@ -32,8 +31,6 @@ VALUES (23197,  39,    0.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23197,   1, 'Singularity Keyring') /* Name */
-     , (23197,   7, 'I still love you honey') /* Inscription */
-     , (23197,   8, 'Cyndane') /* ScribeName */
      , (23197,  14, 'Use this ring on a singularity key to add the key to the ring. Use an intricate carving tool on the keyring to pop a key off again. Adding a key uses up one of the ring''s remaining uses, but removing a key does not.') /* Use */
      , (23197,  16, 'A crude keyring roughly carved out of a diamond golem heart. ') /* LongDesc */;
 

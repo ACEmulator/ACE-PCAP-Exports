@@ -25,7 +25,6 @@ VALUES (45398,   1,          1) /* ItemType - MeleeWeapon */
      , (45398, 109,        108) /* ItemDifficulty */
      , (45398, 110,          0) /* ItemAllegianceRankLimit */
      , (45398, 115,        247) /* ItemSkillLevelLimit */
-     , (45398, 117,        400) /* ItemManaCost */
      , (45398, 131,         63) /* MaterialType - Silver */
      , (45398, 151,          2) /* HookType - Wall */
      , (45398, 158,          2) /* WieldRequirements - RawSkill */
@@ -56,7 +55,6 @@ VALUES (45398,   5,   -0.05) /* ManaRate */
      , (45398,  39, 1.10000002384186) /* DefaultScale */
      , (45398,  62,    1.08) /* WeaponOffense */
      , (45398,  63,       1) /* DamageMod */
-     , (45398, 150,    1.03) /* WeaponMagicDefense */
      , (45398, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -79,28 +77,7 @@ VALUES (45398,   2, 3666901363) /* Container */
      , (45398, 8000, 2174244854) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45398,  1353,      2) 
-     , (45398,  1354,      2) 
-     , (45398,  1378,      2) 
-     , (45398,  1401,      2) 
-     , (45398,  1590,      2) 
-     , (45398,  1592,      2) 
+VALUES (45398,  1401,      2) 
      , (45398,  1604,      2) 
-     , (45398,  1612,      2) 
-     , (45398,  1615,      2) 
      , (45398,  1616,      2) 
-     , (45398,  1626,      2) 
-     , (45398,  2059,      2) 
-     , (45398,  2081,      2) 
-     , (45398,  2096,      2) 
-     , (45398,  2116,      2) 
-     , (45398,  2509,      2) 
-     , (45398,  2526,      2) 
-     , (45398,  2541,      2) 
-     , (45398,  2544,      2) 
-     , (45398,  2552,      2) 
-     , (45398,  2559,      2) 
-     , (45398,  2580,      2) 
-     , (45398,  2598,      2) 
-     , (45398,  2608,      2) 
-     , (45398,  4297,      2) ;
+     , (45398,  2559,      2) ;

@@ -5,28 +5,14 @@ VALUES (47252, 'ace47252-boardwithnail', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47252,   1,          1) /* ItemType - MeleeWeapon */
-     , (47252,   2,         78) /* CreatureType - Fiun */
      , (47252,   5,        800) /* EncumbranceVal */
      , (47252,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47252,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47252,  16,          1) /* ItemUseable - No */
      , (47252,  19,        350) /* Value */
-     , (47252,  25,        115) /* Level */
-     , (47252,  28,        293) /* ArmorLevel */
      , (47252,  51,          1) /* CombatUse - Melee */
      , (47252,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47252, 105,          8) /* ItemWorkmanship */
-     , (47252, 106,        182) /* ItemSpellcraft */
-     , (47252, 107,       1156) /* ItemCurMana */
-     , (47252, 108,       1156) /* ItemMaxMana */
-     , (47252, 109,        136) /* ItemDifficulty */
-     , (47252, 110,          0) /* ItemAllegianceRankLimit */
-     , (47252, 115,          0) /* ItemSkillLevelLimit */
-     , (47252, 131,          6) /* MaterialType - Silk */
-     , (47252, 151,          2) /* HookType - Wall */
-     , (47252, 172,          5) /* AppraisalLongDescDecoration */
-     , (47252, 177,          2) /* GemCount */
-     , (47252, 178,         38) /* GemType */;
+     , (47252, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47252,   1, False) /* Stuck */
@@ -34,27 +20,10 @@ VALUES (47252,   1, False) /* Stuck */
      , (47252,  13, True ) /* Ethereal */
      , (47252,  14, True ) /* GravityStatus */
      , (47252,  19, True ) /* Attackable */
-     , (47252,  22, True ) /* Inscribable */
-     , (47252, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47252,   5, -0.0416666666666667) /* ManaRate */
-     , (47252,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (47252,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47252,  15,       1) /* ArmorModVsBludgeon */
-     , (47252,  16, 0.887720584869385) /* ArmorModVsCold */
-     , (47252,  17,     0.5) /* ArmorModVsFire */
-     , (47252,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (47252,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (47252,  87,     1.2) /* ItemEfficiency */
-     , (47252, 137,    0.15) /* ManaStoneDestroyChance */
-     , (47252, 165,       1) /* ArmorModVsNether */;
+     , (47252,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47252,   1, 'Board with Nail') /* Name */
-     , (47252,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (47252,  16, 'Inscribed spell: Celdiseth''s Blessing
-Increases the caster''s Magic Item Tinkering skill by 40 points.') /* LongDesc */;
+VALUES (47252,   1, 'Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47252,   1,   33559627) /* Setup */
@@ -75,14 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47252,   3, 3685915712) /* Wielder */
      , (47252, 8000, 3685915719) /* PCAPRecordedObjectIID */
      , (47252, 8008, 3685915712) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47252,   1,   460, 0, 0, 460) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47252,  1485,      2) 
-     , (47252,  2277,      2) 
-     , (47252,  5095,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47252, 67116700, 0, 101)

@@ -37,7 +37,7 @@ VALUES (25543,   1,   33554603) /* Setup */
      , (25543,   6,   67111919) /* PaletteBase */
      , (25543,   8,  100675052) /* Icon */
      , (25543,  22,  872415275) /* PhysicsEffectTable */
-     , (25543,  28,       2979) /* Spell */
+     , (25543,  28,       2979) /* Spell - DestinyWind */
      , (25543, 8001,  274755609) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, Spell, HookType */
      , (25543, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (25543, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

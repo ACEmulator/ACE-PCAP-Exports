@@ -34,8 +34,7 @@ VALUES (32977,   1, False) /* Stuck */
      , (32977,  13, True ) /* Ethereal */
      , (32977,  14, True ) /* GravityStatus */
      , (32977,  19, True ) /* Attackable */
-     , (32977,  22, True ) /* Inscribable */
-     , (32977,  91, True ) /* Retained */;
+     , (32977,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32977,   5,   -0.05) /* ManaRate */

@@ -6,11 +6,9 @@ VALUES (9257, 'reedsharksiltlurker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9257,   1,         16) /* ItemType - Creature */
      , (9257,   2,         16) /* CreatureType - Reedshark */
-     , (9257,   5,       7437) /* EncumbranceVal */
      , (9257,   6,        255) /* ItemsCapacity */
      , (9257,   7,        255) /* ContainersCapacity */
      , (9257,  16,          1) /* ItemUseable - No */
-     , (9257,  19,          0) /* Value */
      , (9257,  25,         30) /* Level */
      , (9257,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9257, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (9257,  39, 1.60000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9257,   1, 'Silt Lurker') /* Name */
-     , (9257,  16, 'Killed by Mozart''s Requiem.') /* LongDesc */
      , (9257, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -32,8 +32,7 @@ VALUES (48299,  78,       1) /* Friction */
      , (48299,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48299,   1, 'Arrow') /* Name */
-     , (48299,  16, 'Killed by Callaway.') /* LongDesc */;
+VALUES (48299,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48299,   1,   33555406) /* Setup */

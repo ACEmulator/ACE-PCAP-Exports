@@ -5,13 +5,11 @@ VALUES (7580, 'lugianpickaxe', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7580,   1,          1) /* ItemType - MeleeWeapon */
-     , (7580,   2,          1) /* CreatureType - Olthoi */
      , (7580,   5,        700) /* EncumbranceVal */
      , (7580,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (7580,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (7580,  16,          1) /* ItemUseable - No */
      , (7580,  19,        250) /* Value */
-     , (7580,  25,        115) /* Level */
      , (7580,  51,          1) /* CombatUse - Melee */
      , (7580,  65,          1) /* Placement - RightHandCombat */
      , (7580,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -50,6 +48,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7580,   3, 3688978253) /* Wielder */
      , (7580, 8000, 3688978252) /* PCAPRecordedObjectIID */
      , (7580, 8008, 3688978253) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7580,   1,   740, 0, 0, 740) /* MaxHealth */;

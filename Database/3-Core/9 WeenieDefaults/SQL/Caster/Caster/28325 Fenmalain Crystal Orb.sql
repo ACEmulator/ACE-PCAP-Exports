@@ -34,13 +34,10 @@ VALUES (28325,   5,   -0.05) /* ManaRate */
      , (28325,  29,       1) /* WeaponDefense */
      , (28325,  76,     0.5) /* Translucency */
      , (28325, 144, 1.08060951311603E-314) /* ManaConversionMod */
-     , (28325, 147,       1) /* CriticalFrequency */
-     , (28325, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (28325, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28325,   1, 'Fenmalain Crystal Orb') /* Name */
-     , (28325,   7, 'Aquired 3/31/2007') /* Inscription */
-     , (28325,   8, 'Road Sign') /* ScribeName */
      , (28325,  15, 'An orb imbued with the power of the Fenmalain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -39,7 +39,7 @@ VALUES (11127,   1,   33555193) /* Setup */
      , (11127,   3,  536870932) /* SoundTable */
      , (11127,   8,  100671760) /* Icon */
      , (11127,  22,  872415275) /* PhysicsEffectTable */
-     , (11127,  28,       2424) /* Spell */
+     , (11127,  28,       2424) /* Spell - RabbitsEye */
      , (11127, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (11127, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11127, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

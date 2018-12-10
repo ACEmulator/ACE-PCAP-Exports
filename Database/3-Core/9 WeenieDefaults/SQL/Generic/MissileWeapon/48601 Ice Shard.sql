@@ -5,7 +5,6 @@ VALUES (48601, 'ace48601-iceshard', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48601,   1,        256) /* ItemType - MissileWeapon */
-     , (48601,   2,         77) /* CreatureType - Ghost */
      , (48601,   5,         45) /* EncumbranceVal */
      , (48601,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (48601,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
@@ -13,7 +12,6 @@ VALUES (48601,   1,        256) /* ItemType - MissileWeapon */
      , (48601,  12,          3) /* StackSize */
      , (48601,  16,          1) /* ItemUseable - No */
      , (48601,  19,         12) /* Value */
-     , (48601,  25,        125) /* Level */
      , (48601,  51,          2) /* CombatUse - Missle */
      , (48601,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48601, 151,          2) /* HookType - Wall */;
@@ -51,6 +49,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48601,   3, 3696451291) /* Wielder */
      , (48601, 8000, 3696471507) /* PCAPRecordedObjectIID */
      , (48601, 8008, 3696451291) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48601,   1,   870, 0, 0, 870) /* MaxHealth */;

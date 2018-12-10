@@ -41,7 +41,6 @@ VALUES (24199,   1, False) /* Stuck */
      , (24199,  19, True ) /* Attackable */
      , (24199,  22, True ) /* Inscribable */
      , (24199,  69, False) /* IsSellable */
-     , (24199,  85, True ) /* AppraisalHasAllowedWielder */
      , (24199,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -56,11 +55,7 @@ VALUES (24199,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24199,   1, 'Weeping Bow') /* Name */
-     , (24199,   7, '
-      To all the no0b O.o Melees, BEWARE! ') /* Inscription */
-     , (24199,   8, 'Rai''ya') /* ScribeName */
-     , (24199,  15, 'A bow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
-     , (24199,  25, 'Rai''ya') /* CraftsmanName */;
+     , (24199,  15, 'A bow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24199,   1,   33558292) /* Setup */

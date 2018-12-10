@@ -26,7 +26,6 @@ VALUES (31223,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31223,   1, 'Door') /* Name */
-     , (31223,  14, 'Use this item to close it.') /* Use */
      , (31223,  16, 'This door is coated with the stench of the K''nath.') /* LongDesc */
      , (31223, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 

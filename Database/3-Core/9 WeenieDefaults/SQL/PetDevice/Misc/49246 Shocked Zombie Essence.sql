@@ -23,11 +23,8 @@ VALUES (49246,   1,        128) /* ItemType - Misc */
      , (49246, 368,         54) /* UseRequiresSkillSpec */
      , (49246, 369,        185) /* UseRequiresLevel */
      , (49246, 370,         10) /* GearDamage */
-     , (49246, 371,         10) /* GearDamageResist */
      , (49246, 372,         11) /* GearCrit */
-     , (49246, 373,         13) /* GearCritResist */
-     , (49246, 374,         12) /* GearCritDamage */
-     , (49246, 375,         15) /* GearCritDamageResist */;
+     , (49246, 373,         13) /* GearCritResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49246,   1, False) /* Stuck */
@@ -46,8 +43,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49246,   1, 'Shocked Zombie Essence') /* Name */
      , (49246,   7, '21dam/13res') /* Inscription */
      , (49246,   8, 'Damien Ash') /* ScribeName */
-     , (49246,  14, 'Use this essence to summon or dismiss your Shocked Zombie.') /* Use */
-     , (49246,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal sword. (Recommended Levels 180+)') /* LongDesc */;
+     , (49246,  14, 'Use this essence to summon or dismiss your Shocked Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49246,   1,   33554817) /* Setup */

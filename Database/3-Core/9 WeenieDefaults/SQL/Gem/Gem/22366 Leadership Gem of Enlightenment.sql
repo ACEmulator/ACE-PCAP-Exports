@@ -7,8 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22366,   1,       2048) /* ItemType - Gem */
      , (22366,   5,         10) /* EncumbranceVal */
      , (22366,  16,          8) /* ItemUseable - Contained */
+     , (22366,  19,          0) /* Value */
+     , (22366,  33,          1) /* Bonded - Bonded */
      , (22366,  65,        101) /* Placement - Resting */
-     , (22366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (22366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (22366, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22366,   1, False) /* Stuck */
@@ -19,7 +22,8 @@ VALUES (22366,   1, False) /* Stuck */
      , (22366,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22366,   1, 'Leadership Gem of Enlightenment') /* Name */;
+VALUES (22366,   1, 'Leadership Gem of Enlightenment') /* Name */
+     , (22366,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Leadership skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22366,   1,   33558088) /* Setup */

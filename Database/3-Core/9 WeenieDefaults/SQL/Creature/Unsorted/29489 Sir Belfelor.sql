@@ -5,26 +5,11 @@ VALUES (29489, 'knightkarlunsirbelfelor', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
-     , (29489,   5,         50) /* EncumbranceVal */
      , (29489,   6,        255) /* ItemsCapacity */
      , (29489,   7,        255) /* ContainersCapacity */
      , (29489,  16,         32) /* ItemUseable - Remote */
-     , (29489,  19,       4000) /* Value */
-     , (29489,  33,          0) /* Bonded - Normal */
-     , (29489,  91,         50) /* MaxStructure */
-     , (29489,  92,         50) /* Structure */
      , (29489,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (29489, 105,          5) /* ItemWorkmanship */
-     , (29489, 114,          0) /* Attuned - Normal */
      , (29489, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (29489, 280,        213) /* SharedCooldown */
-     , (29489, 366,         54) /* UseRequiresSkill */
-     , (29489, 367,        310) /* UseRequiresSkillLevel */
-     , (29489, 369,         40) /* UseRequiresLevel */
-     , (29489, 371,         10) /* GearDamageResist */
-     , (29489, 372,         12) /* GearCrit */
-     , (29489, 373,          8) /* GearCritResist */
-     , (29489, 374,         11) /* GearCritDamage */
      , (29489, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,15 +17,10 @@ VALUES (29489,   1, True ) /* Stuck */
      , (29489,  12, True ) /* ReportCollisions */
      , (29489,  13, False) /* Ethereal */
      , (29489,  14, True ) /* GravityStatus */
-     , (29489,  19, True ) /* Attackable */
-     , (29489,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29489, 167,      45) /* CooldownDuration */;
+     , (29489,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29489,   1, 'Sir Belfelor') /* Name */
-     , (29489,  14, 'Use this essence to summon or dismiss your Acid Phyntos Wasp.') /* Use */
      , (29489, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -5,25 +5,12 @@ VALUES (35324, 'ace35324-arenafourstatue', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35324,   1,         16) /* ItemType - Creature */
-     , (35324,   5,        100) /* EncumbranceVal */
      , (35324,   6,        255) /* ItemsCapacity */
      , (35324,   7,        255) /* ContainersCapacity */
      , (35324,  16,         32) /* ItemUseable - Remote */
-     , (35324,  19,       6356) /* Value */
      , (35324,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35324,  95,          8) /* RadarBlipColor - Yellow */
-     , (35324, 105,          8) /* ItemWorkmanship */
-     , (35324, 106,        181) /* ItemSpellcraft */
-     , (35324, 107,       1921) /* ItemCurMana */
-     , (35324, 108,       1921) /* ItemMaxMana */
-     , (35324, 109,        215) /* ItemDifficulty */
-     , (35324, 110,          0) /* ItemAllegianceRankLimit */
-     , (35324, 115,          0) /* ItemSkillLevelLimit */
-     , (35324, 131,         63) /* MaterialType - Silver */
      , (35324, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35324, 172,          5) /* AppraisalLongDescDecoration */
-     , (35324, 177,          2) /* GemCount */
-     , (35324, 178,         22) /* GemType */
      , (35324, 307,          0) /* DamageRating */
      , (35324, 308,          0) /* DamageResistRating */
      , (35324, 313,          0) /* CritRating */
@@ -60,8 +47,7 @@ VALUES (35324,   1, True ) /* Stuck */
      , (35324,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35324,   5,   -0.05) /* ManaRate */
-     , (35324,  39, 0.600000023841858) /* DefaultScale */
+VALUES (35324,  39, 0.600000023841858) /* DefaultScale */
      , (35324,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -85,7 +71,3 @@ VALUES (35324, 8040, 11469079, 41, 4.4, 0, -4.371139E-08, 0, 0, -1) /* PCAPRecor
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35324, 8000, 3704369713) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35324,  1331,      2) 
-     , (35324,  1425,      2) ;

@@ -5,14 +5,12 @@ VALUES (37204, 'ace37204-olthoipauldrons', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37204,   1,          2) /* ItemType - Armor */
-     , (37204,   2,         30) /* CreatureType - Skeleton */
      , (37204,   4,       4096) /* ClothingPriority - OuterwearUpperArms */
      , (37204,   5,        366) /* EncumbranceVal */
      , (37204,   9,       2048) /* ValidLocations - UpperArmArmor */
      , (37204,  16,          1) /* ItemUseable - No */
      , (37204,  18,          1) /* UiEffects - Magical */
      , (37204,  19,      20135) /* Value */
-     , (37204,  25,        125) /* Level */
      , (37204,  28,        462) /* ArmorLevel */
      , (37204,  36,       9999) /* ResistMagic */
      , (37204,  65,        101) /* Placement - Resting */
@@ -29,13 +27,9 @@ VALUES (37204,   1,          2) /* ItemType - Armor */
      , (37204, 159,          6) /* WieldSkilltype - MeleeDefense */
      , (37204, 160,        370) /* WieldDifficulty */
      , (37204, 172,          1) /* AppraisalLongDescDecoration */
-     , (37204, 176,          6) /* AppraisalItemSkill */
-     , (37204, 265,         14) /* EquipmentSetId - Adepts */
      , (37204, 270,          7) /* WieldRequirements2 - Level */
      , (37204, 271,          1) /* WieldSkilltype2 - Axe */
-     , (37204, 272,        150) /* WieldDifficulty2 */
-     , (37204, 374,          1) /* GearCritDamage */
-     , (37204, 375,          1) /* GearCritDamageResist */;
+     , (37204, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37204,   1, False) /* Stuck */
@@ -80,56 +74,11 @@ VALUES (37204, 8040, 23855473, 19.86197, -64.6851, -0.002750009, 0.8307009, 0, 0
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37204, 8000, 3512446851) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37204,   1,   870, 0, 0, 870) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37204,  1486,      2) 
-     , (37204,  1562,      2) 
-     , (37204,  1574,      2) 
-     , (37204,  2061,      2) 
-     , (37204,  2087,      2) 
-     , (37204,  2094,      2) 
      , (37204,  2102,      2) 
-     , (37204,  2104,      2) 
-     , (37204,  2108,      2) 
-     , (37204,  2113,      2) 
-     , (37204,  2187,      2) 
-     , (37204,  2233,      2) 
-     , (37204,  2507,      2) 
-     , (37204,  2521,      2) 
-     , (37204,  2526,      2) 
-     , (37204,  2535,      2) 
-     , (37204,  2544,      2) 
-     , (37204,  2578,      2) 
-     , (37204,  2590,      2) 
-     , (37204,  2610,      2) 
-     , (37204,  4227,      2) 
-     , (37204,  4299,      2) 
-     , (37204,  4325,      2) 
-     , (37204,  4391,      2) 
-     , (37204,  4393,      2) 
-     , (37204,  4397,      2) 
      , (37204,  4403,      2) 
-     , (37204,  4407,      2) 
-     , (37204,  4409,      2) 
-     , (37204,  4412,      2) 
-     , (37204,  4498,      2) 
-     , (37204,  4664,      2) 
-     , (37204,  4667,      2) 
-     , (37204,  4671,      2) 
-     , (37204,  4673,      2) 
-     , (37204,  4684,      2) 
-     , (37204,  4695,      2) 
-     , (37204,  4700,      2) 
-     , (37204,  4705,      2) 
-     , (37204,  4707,      2) 
-     , (37204,  5034,      2) 
-     , (37204,  5070,      2) 
-     , (37204,  5890,      2) 
-     , (37204,  5896,      2) 
-     , (37204,  6044,      2) 
-     , (37204,  6081,      2) ;
+     , (37204,  4684,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37204, 67116552, 128, 8)

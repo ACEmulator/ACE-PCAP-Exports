@@ -36,8 +36,6 @@ VALUES (25701,  13, 0.100000001490116) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25701,   1, 'Sleek Dress') /* Name */
-     , (25701,   7, 'Gaby''s') /* Inscription */
-     , (25701,   8, 'Gabrielle of The North') /* ScribeName */
      , (25701,  15, 'A dress designed by the Gharu''ndim tailor, Xuut. The fibers of the dress look as though they could withstand the dyeing process.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

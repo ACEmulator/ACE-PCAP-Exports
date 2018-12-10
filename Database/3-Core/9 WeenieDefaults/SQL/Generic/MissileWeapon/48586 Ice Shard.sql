@@ -15,28 +15,11 @@ VALUES (48586,   1,        256) /* ItemType - MissileWeapon */
      , (48586,  33,         -2) /* Bonded - Destroy */
      , (48586,  44,        210) /* Damage */
      , (48586,  45,          8) /* DamageType - Cold */
-     , (48586,  47,          4) /* AttackType - Slash */
      , (48586,  48,         47) /* WeaponSkill - MissileWeapons */
      , (48586,  49,         20) /* WeaponTime */
      , (48586,  51,          2) /* CombatUse - Missle */
      , (48586,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48586, 105,          6) /* ItemWorkmanship */
-     , (48586, 106,        370) /* ItemSpellcraft */
-     , (48586, 107,       1867) /* ItemCurMana */
-     , (48586, 108,       1867) /* ItemMaxMana */
-     , (48586, 109,         99) /* ItemDifficulty */
-     , (48586, 110,          0) /* ItemAllegianceRankLimit */
-     , (48586, 115,        390) /* ItemSkillLevelLimit */
-     , (48586, 131,         51) /* MaterialType - Ivory */
      , (48586, 151,          2) /* HookType - Wall */
-     , (48586, 158,          2) /* WieldRequirements - RawSkill */
-     , (48586, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (48586, 160,        400) /* WieldDifficulty */
-     , (48586, 172,          5) /* AppraisalLongDescDecoration */
-     , (48586, 176,         41) /* AppraisalItemSkill */
-     , (48586, 177,          4) /* GemCount */
-     , (48586, 178,         38) /* GemType */
-     , (48586, 292,          2) /* Cleaving */
      , (48586, 307,          5) /* DamageRating */
      , (48586, 313,          0) /* CritRating */
      , (48586, 314,          0) /* CritDamageRating */
@@ -53,8 +36,7 @@ VALUES (48586,   1, False) /* Stuck */
      , (48586,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48586,   5, -0.0666666666666667) /* ManaRate */
-     , (48586,  21,       0) /* WeaponLength */
+VALUES (48586,  21,       0) /* WeaponLength */
      , (48586,  22,     0.5) /* DamageVariance */
      , (48586,  26, 23.2000007629395) /* MaximumVelocity */
      , (48586,  29,       1) /* WeaponDefense */
@@ -66,8 +48,7 @@ VALUES (48586,   5, -0.0666666666666667) /* ManaRate */
      , (48586, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48586,   1, 'Ice Shard') /* Name */
-     , (48586,  16, 'Frost Greataxe of Coordination') /* LongDesc */;
+VALUES (48586,   1, 'Ice Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48586,   1,   33559361) /* Setup */
@@ -87,8 +68,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48586,   3, 2929421813) /* Wielder */
      , (48586, 8000, 2929421788) /* PCAPRecordedObjectIID */
      , (48586, 8008, 2929421813) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48586,  1616,      2) 
-     , (48586,  4297,      2) 
-     , (48586,  5070,      2) ;

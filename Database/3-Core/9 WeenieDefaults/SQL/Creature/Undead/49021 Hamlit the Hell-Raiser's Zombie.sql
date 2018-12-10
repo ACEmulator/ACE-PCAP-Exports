@@ -13,7 +13,6 @@ VALUES (49021,   1,         16) /* ItemType - Creature */
      , (49021,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49021, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49021, 307,         17) /* DamageRating */
-     , (49021, 308,         15) /* DamageResistRating */
      , (49021, 313,         12) /* CritRating */
      , (49021, 314,          8) /* CritDamageRating */
      , (49021, 315,         10) /* CritResistRating */

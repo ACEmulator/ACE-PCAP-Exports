@@ -14,7 +14,6 @@ VALUES (36846,   1,         16) /* ItemType - Creature */
      , (36846, 113,          2) /* Gender - Female */
      , (36846, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36846, 188,          1) /* HeritageGroup - Aluvian */
-     , (36846, 307,          5) /* DamageRating */
      , (36846, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

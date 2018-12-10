@@ -27,9 +27,6 @@ VALUES (29103,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29103,   1, 'K''nath Lair Portal') /* Name */
-     , (29103,   7, 'K''naths can be tougher than they look ...
-') /* Inscription */
-     , (29103,   8, 'Ysabella') /* ScribeName */
      , (29103,  14, 'This item can be used on mansion floor and yard hooks.') /* Use */
      , (29103,  16, 'A small portal lives inside the body of this hibernating K''nath. When used, the portal will send the caster to a K''nath lair.') /* LongDesc */;
 

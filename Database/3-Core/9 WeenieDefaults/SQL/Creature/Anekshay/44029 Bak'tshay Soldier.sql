@@ -6,86 +6,27 @@ VALUES (44029, 'ace44029-baktshaysoldier', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44029,   1,         16) /* ItemType - Creature */
      , (44029,   2,        101) /* CreatureType - Anekshay */
-     , (44029,   5,        347) /* EncumbranceVal */
      , (44029,   6,        255) /* ItemsCapacity */
      , (44029,   7,        255) /* ContainersCapacity */
      , (44029,  16,          1) /* ItemUseable - No */
-     , (44029,  19,      29074) /* Value */
      , (44029,  25,        240) /* Level */
-     , (44029,  28,        450) /* ArmorLevel */
-     , (44029,  33,         -2) /* Bonded - Destroy */
-     , (44029,  36,       9999) /* ResistMagic */
-     , (44029,  44,         14) /* Damage */
-     , (44029,  45,          4) /* DamageType - Bludgeon */
-     , (44029,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (44029,  49,         10) /* WeaponTime */
      , (44029,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44029, 105,          5) /* ItemWorkmanship */
-     , (44029, 106,        370) /* ItemSpellcraft */
-     , (44029, 107,       1734) /* ItemCurMana */
-     , (44029, 108,       1734) /* ItemMaxMana */
-     , (44029, 109,        439) /* ItemDifficulty */
-     , (44029, 110,          0) /* ItemAllegianceRankLimit */
-     , (44029, 113,          1) /* Gender - Male */
-     , (44029, 115,          0) /* ItemSkillLevelLimit */
-     , (44029, 117,        350) /* ItemManaCost */
-     , (44029, 131,         58) /* MaterialType - Bronze */
      , (44029, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44029, 158,          2) /* WieldRequirements - RawSkill */
-     , (44029, 159,          7) /* WieldSkilltype - MissileDefense */
-     , (44029, 160,        300) /* WieldDifficulty */
-     , (44029, 172,          1) /* AppraisalLongDescDecoration */
-     , (44029, 176,          6) /* AppraisalItemSkill */
-     , (44029, 177,          6) /* GemCount */
-     , (44029, 178,         23) /* GemType */
-     , (44029, 188,          1) /* HeritageGroup - Aluvian */
-     , (44029, 265,         18) /* EquipmentSetId - Crafters */
-     , (44029, 270,          7) /* WieldRequirements2 - Level */
-     , (44029, 271,          1) /* WieldSkilltype2 - Axe */
-     , (44029, 272,        180) /* WieldDifficulty2 */
      , (44029, 307,          4) /* DamageRating */
-     , (44029, 313,          0) /* CritRating */
-     , (44029, 314,          0) /* CritDamageRating */
-     , (44029, 353,         10) /* WeaponType - Thrown */
-     , (44029, 375,          2) /* GearCritDamageResist */
-     , (44029, 386,          0) /* Overpower */
-     , (44029, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (44029, 8030,          0);
+     , (44029, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44029,   1, True ) /* Stuck */
-     , (44029,   2, True ) /* Open */
      , (44029,  12, True ) /* ReportCollisions */
      , (44029,  13, False) /* Ethereal */
      , (44029,  14, True ) /* GravityStatus */
-     , (44029,  19, True ) /* Attackable */
-     , (44029, 100, True ) /* Dyable */;
+     , (44029,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44029,   5, -0.0666666666666667) /* ManaRate */
-     , (44029,  13, 1.39999997615814) /* ArmorModVsSlash */
-     , (44029,  14, 1.39999997615814) /* ArmorModVsPierce */
-     , (44029,  15, 1.29999995231628) /* ArmorModVsBludgeon */
-     , (44029,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (44029,  17, 0.800000011920929) /* ArmorModVsFire */
-     , (44029,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (44029,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (44029,  21,       0) /* WeaponLength */
-     , (44029,  22,    0.25) /* DamageVariance */
-     , (44029,  26,       0) /* MaximumVelocity */
-     , (44029,  29,       1) /* WeaponDefense */
-     , (44029,  39, 1.10000002384186) /* DefaultScale */
-     , (44029,  62,       1) /* WeaponOffense */
-     , (44029,  63,       1) /* DamageMod */
-     , (44029, 147,       1) /* CriticalFrequency */
-     , (44029, 149,       0) /* WeaponMissileDefense */
-     , (44029, 150,       0) /* WeaponMagicDefense */
-     , (44029, 165,       1) /* ArmorModVsNether */;
+VALUES (44029,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44029,   1, 'Bak''tshay Soldier') /* Name */
-     , (44029,  14, 'Use this item to close it.') /* Use */
-     , (44029,  16, 'Covenant Pauldrons') /* LongDesc */
      , (44029, 8006, 'BwA9AEAAZIiyUjZDOr0wQwYdqD9P7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAmNAuQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -94,12 +35,6 @@ VALUES (44029,   1,   33561251) /* Setup */
      , (44029,   3,  536870933) /* SoundTable */
      , (44029,   6,   67108990) /* PaletteBase */
      , (44029,   8,  100670274) /* Icon */
-     , (44029,   9,   83890281) /* EyesTexture */
-     , (44029,  10,   83890314) /* NoseTexture */
-     , (44029,  11,   83890355) /* MouthTexture */
-     , (44029,  15,   67116989) /* HairPalette */
-     , (44029,  16,   67109564) /* EyesPalette */
-     , (44029,  17,   67109562) /* SkinPalette */
      , (44029,  22,  872415269) /* PhysicsEffectTable */
      , (44029, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44029, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
@@ -124,25 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44029,   1,  3500, 0, 0, 3500) /* MaxHealth */
      , (44029,   3,  3740, 0, 0, 3740) /* MaxStamina */
      , (44029,   5,  2790, 0, 0, 2644) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44029,   707,      2) 
-     , (44029,  1354,      2) 
-     , (44029,  1378,      2) 
-     , (44029,  2087,      2) 
-     , (44029,  2104,      2) 
-     , (44029,  2108,      2) 
-     , (44029,  2159,      2) 
-     , (44029,  2243,      2) 
-     , (44029,  2341,      2) 
-     , (44029,  2515,      2) 
-     , (44029,  2581,      2) 
-     , (44029,  2585,      2) 
-     , (44029,  4391,      2) 
-     , (44029,  4407,      2) 
-     , (44029,  4412,      2) 
-     , (44029,  4691,      2) 
-     , (44029,  4700,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44029, 67116864, 0, 24)

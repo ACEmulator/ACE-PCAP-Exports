@@ -6,11 +6,9 @@ VALUES (28183, 'collectoralchemyghalow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28183,   1,         16) /* ItemType - Creature */
      , (28183,   2,         31) /* CreatureType - Human */
-     , (28183,   5,         30) /* EncumbranceVal */
      , (28183,   6,        255) /* ItemsCapacity */
      , (28183,   7,        255) /* ContainersCapacity */
      , (28183,  16,         32) /* ItemUseable - Remote */
-     , (28183,  19,         20) /* Value */
      , (28183,  25,          5) /* Level */
      , (28183,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28183,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,9 +34,6 @@ VALUES (28183,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28183,   1, 'Apprentice Alchemist') /* Name */
      , (28183,   5, 'Apprentice Alchemist') /* Template */
-     , (28183,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (28183,  16, 'Inscribed spell: Bludgeoning Protection Other III
-Reduces damage the target takes from Bludgeoning by 33%.') /* LongDesc */
      , (28183, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28183,   1,   125, 0, 0, 125) /* MaxHealth */
      , (28183,   3,   200, 0, 0, 200) /* MaxStamina */
      , (28183,   5,   100, 0, 0, 100) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28183,  1026,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28183, 67109553, 0, 24)

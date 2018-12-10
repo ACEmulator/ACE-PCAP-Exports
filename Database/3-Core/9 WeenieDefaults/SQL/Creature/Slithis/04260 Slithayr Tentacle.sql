@@ -6,39 +6,14 @@ VALUES (4260, 'slithayrtentacle', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4260,   1,         16) /* ItemType - Creature */
      , (4260,   2,         36) /* CreatureType - Slithis */
-     , (4260,   5,        301) /* EncumbranceVal */
      , (4260,   6,        255) /* ItemsCapacity */
      , (4260,   7,        255) /* ContainersCapacity */
      , (4260,  16,          1) /* ItemUseable - No */
-     , (4260,  19,      14597) /* Value */
      , (4260,  25,         50) /* Level */
-     , (4260,  44,         28) /* Damage */
-     , (4260,  45,         64) /* DamageType - Electric */
-     , (4260,  47,          4) /* AttackType - Slash */
-     , (4260,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (4260,  49,         45) /* WeaponTime */
      , (4260,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4260, 105,          8) /* ItemWorkmanship */
-     , (4260, 106,        273) /* ItemSpellcraft */
-     , (4260, 107,       1618) /* ItemCurMana */
-     , (4260, 108,       1618) /* ItemMaxMana */
-     , (4260, 109,        139) /* ItemDifficulty */
-     , (4260, 110,          0) /* ItemAllegianceRankLimit */
-     , (4260, 115,        293) /* ItemSkillLevelLimit */
-     , (4260, 131,         58) /* MaterialType - Bronze */
      , (4260, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4260, 158,          2) /* WieldRequirements - RawSkill */
-     , (4260, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (4260, 160,        350) /* WieldDifficulty */
-     , (4260, 172,          5) /* AppraisalLongDescDecoration */
-     , (4260, 176,         41) /* AppraisalItemSkill */
-     , (4260, 177,          4) /* GemCount */
-     , (4260, 178,         38) /* GemType */
-     , (4260, 292,          2) /* Cleaving */
      , (4260, 307,          5) /* DamageRating */
-     , (4260, 353,         11) /* WeaponType - TwoHanded */
-     , (4260, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (4260, 8030,          0);
+     , (4260, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4260,   1, True ) /* Stuck */
@@ -48,18 +23,10 @@ VALUES (4260,   1, True ) /* Stuck */
      , (4260,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4260,   5, -0.0555555555555556) /* ManaRate */
-     , (4260,  21,       0) /* WeaponLength */
-     , (4260,  22,     0.3) /* DamageVariance */
-     , (4260,  26,       0) /* MaximumVelocity */
-     , (4260,  29,    1.09) /* WeaponDefense */
-     , (4260,  39, 1.10000002384186) /* DefaultScale */
-     , (4260,  62,    1.15) /* WeaponOffense */
-     , (4260,  63,       1) /* DamageMod */;
+VALUES (4260,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4260,   1, 'Slithayr Tentacle') /* Name */
-     , (4260,  16, 'Lightning Greataxe of Coordination') /* LongDesc */
      , (4260, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,12 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4260,   1,   140, 0, 0, 140) /* MaxHealth */
      , (4260,   3,   290, 0, 0, 290) /* MaxStamina */
      , (4260,   5,   290, 0, 0, 290) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4260,  2059,      2) 
-     , (4260,  2096,      2) 
-     , (4260,  2101,      2) 
-     , (4260,  2615,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4260, 67113034, 0, 0);

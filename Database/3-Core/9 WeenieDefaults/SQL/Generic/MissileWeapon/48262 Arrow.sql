@@ -5,7 +5,6 @@ VALUES (48262, 'ace48262-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48262,   1,        256) /* ItemType - MissileWeapon */
-     , (48262,   2,         71) /* CreatureType - Margul */
      , (48262,   5,        100) /* EncumbranceVal */
      , (48262,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48262,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (48262,   1,        256) /* ItemType - MissileWeapon */
      , (48262,  16,          1) /* ItemUseable - No */
      , (48262,  18,        256) /* UiEffects - Acid */
      , (48262,  19,         20) /* Value */
-     , (48262,  25,        135) /* Level */
      , (48262,  33,         -2) /* Bonded - Destroy */
      , (48262,  44,        218) /* Damage */
      , (48262,  45,         32) /* DamageType - Acid */
@@ -58,8 +56,7 @@ VALUES (48262,  21,       0) /* WeaponLength */
      , (48262, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48262,   1, 'Arrow') /* Name */
-     , (48262,  16, 'Killed by Brambles.') /* LongDesc */;
+VALUES (48262,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48262,   1,   33555787) /* Setup */
@@ -80,9 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48262,   3, 3696772559) /* Wielder */
      , (48262, 8000, 3696772548) /* PCAPRecordedObjectIID */
      , (48262, 8008, 3696772559) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48262,   1,   595, 0, 0, 595) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48262, 67111922, 0, 0);

@@ -6,11 +6,9 @@ VALUES (7985, 'niffislistris', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7985,   1,         16) /* ItemType - Creature */
      , (7985,   2,         45) /* CreatureType - Niffis */
-     , (7985,   5,       7904) /* EncumbranceVal */
      , (7985,   6,        255) /* ItemsCapacity */
      , (7985,   7,        255) /* ContainersCapacity */
      , (7985,  16,          1) /* ItemUseable - No */
-     , (7985,  19,          0) /* Value */
      , (7985,  25,         20) /* Level */
      , (7985,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7985, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -18,7 +16,6 @@ VALUES (7985,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7985,   1, True ) /* Stuck */
-     , (7985,   2, True ) /* Open */
      , (7985,  12, True ) /* ReportCollisions */
      , (7985,  13, False) /* Ethereal */
      , (7985,  14, True ) /* GravityStatus */
@@ -29,8 +26,6 @@ VALUES (7985,  39, 0.600000023841858) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7985,   1, 'Listris Niffis') /* Name */
-     , (7985,  14, 'Use this item to close it.') /* Use */
-     , (7985,  16, 'Killed by Mag-two.') /* LongDesc */
      , (7985, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,30 +6,12 @@ VALUES (36816, 'ace36816-banderlingaggressor', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36816,   1,         16) /* ItemType - Creature */
      , (36816,   2,          2) /* CreatureType - Banderling */
-     , (36816,   5,        305) /* EncumbranceVal */
      , (36816,   6,        255) /* ItemsCapacity */
      , (36816,   7,        255) /* ContainersCapacity */
      , (36816,  16,          1) /* ItemUseable - No */
-     , (36816,  19,       4115) /* Value */
      , (36816,  25,        135) /* Level */
-     , (36816,  28,        179) /* ArmorLevel */
      , (36816,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36816, 105,          5) /* ItemWorkmanship */
-     , (36816, 106,        152) /* ItemSpellcraft */
-     , (36816, 107,        636) /* ItemCurMana */
-     , (36816, 108,        636) /* ItemMaxMana */
-     , (36816, 109,         54) /* ItemDifficulty */
-     , (36816, 110,          0) /* ItemAllegianceRankLimit */
-     , (36816, 115,        120) /* ItemSkillLevelLimit */
-     , (36816, 131,         52) /* MaterialType - Leather */
      , (36816, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36816, 158,          7) /* WieldRequirements - Level */
-     , (36816, 159,          1) /* WieldSkilltype - Axe */
-     , (36816, 160,        180) /* WieldDifficulty */
-     , (36816, 172,          1) /* AppraisalLongDescDecoration */
-     , (36816, 176,          7) /* AppraisalItemSkill */
-     , (36816, 177,          1) /* GemCount */
-     , (36816, 178,         40) /* GemType */
      , (36816, 307,          2) /* DamageRating */
      , (36816, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -38,27 +20,16 @@ VALUES (36816,   1, True ) /* Stuck */
      , (36816,  12, True ) /* ReportCollisions */
      , (36816,  13, False) /* Ethereal */
      , (36816,  14, True ) /* GravityStatus */
-     , (36816,  19, True ) /* Attackable */
-     , (36816, 100, True ) /* Dyable */;
+     , (36816,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36816,   5, -0.0333333333333333) /* ManaRate */
-     , (36816,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (36816,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (36816,  15,       1) /* ArmorModVsBludgeon */
-     , (36816,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (36816,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (36816,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (36816,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (36816,  39, 1.29999995231628) /* DefaultScale */
-     , (36816, 165,       1) /* ArmorModVsNether */
+VALUES (36816,  39, 1.29999995231628) /* DefaultScale */
      , (36816, 8010, -27.9722213745117) /* PCAPRecordedVelocityX */
      , (36816, 8011, -6.75596761703491) /* PCAPRecordedVelocityY */
      , (36816, 8012, -35.3390083312988) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36816,   1, 'Banderling Aggressor') /* Name */
-     , (36816,  16, 'Studded Leather Girth') /* LongDesc */
      , (36816, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -91,14 +62,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36816,   1,   610, 0, 0, 610) /* MaxHealth */
      , (36816,   3,   820, 0, 0, 820) /* MaxStamina */
      , (36816,   5,   500, 0, 0, 453) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36816,  1484,      2) 
-     , (36816,  1538,      2) 
-     , (36816,  2087,      2) 
-     , (36816,  2245,      2) 
-     , (36816,  2509,      2) 
-     , (36816,  4407,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36816, 67114263, 0, 0);

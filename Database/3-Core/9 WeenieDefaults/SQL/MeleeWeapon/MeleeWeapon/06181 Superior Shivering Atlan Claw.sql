@@ -48,10 +48,7 @@ VALUES (6181,   5, -0.0329999998211861) /* ManaRate */
      , (6181,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6181,   1, 'Superior Shivering Atlan Claw') /* Name */
-     , (6181,   7, ' 34.4 54.8"
-You freeze The Apocalypse for 104 points of cold damage!') /* Inscription */
-     , (6181,   8, 'Killerwolf') /* ScribeName */;
+VALUES (6181,   1, 'Superior Shivering Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6181,   1,   33556381) /* Setup */

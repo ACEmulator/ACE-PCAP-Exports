@@ -34,8 +34,6 @@ VALUES (25893,   5, -0.033333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25893,   1, 'Doll''s Eye') /* Name */
-     , (25893,   7, 'Mine') /* Inscription */
-     , (25893,   8, 'Aralcarin') /* ScribeName */
      , (25893,  15, 'The doll''s mask shattered when it was slain, but this circular piece that was once its eye remained intact.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

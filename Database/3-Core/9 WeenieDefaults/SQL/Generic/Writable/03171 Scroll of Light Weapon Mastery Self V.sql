@@ -9,8 +9,7 @@ VALUES (3171,   1,       8192) /* ItemType - Writable */
      , (3171,  16,          8) /* ItemUseable - Contained */
      , (3171,  19,        200) /* Value */
      , (3171,  65,        101) /* Placement - Resting */
-     , (3171,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3171, 107,          0) /* ItemCurMana */;
+     , (3171,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3171,   1, False) /* Stuck */
@@ -21,9 +20,7 @@ VALUES (3171,   1, False) /* Stuck */
      , (3171,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3171,  39,     1.5) /* DefaultScale */
-     , (3171,  87,    0.25) /* ItemEfficiency */
-     , (3171, 137,    0.05) /* ManaStoneDestroyChance */;
+VALUES (3171,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3171,   1, 'Scroll of Light Weapon Mastery Self V') /* Name */
@@ -35,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3171,   1,   33554826) /* Setup */
      , (3171,   8,  100692249) /* Icon */
      , (3171,  22,  872415275) /* PhysicsEffectTable */
-     , (3171,  28,        302) /* Spell */
+     , (3171,  28,        302) /* Spell - AxeMasterySelf5 */
      , (3171, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3171, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3171, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

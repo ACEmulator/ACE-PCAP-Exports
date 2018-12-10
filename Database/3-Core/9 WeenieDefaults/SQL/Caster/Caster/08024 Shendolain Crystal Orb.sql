@@ -41,8 +41,6 @@ VALUES (8024,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8024,   1, 'Shendolain Crystal Orb') /* Name */
-     , (8024,   7, '   ') /* Inscription */
-     , (8024,   8, 'Killerwolf') /* ScribeName */
      , (8024,  16, 'An orb imbued with the power of the Shendolain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

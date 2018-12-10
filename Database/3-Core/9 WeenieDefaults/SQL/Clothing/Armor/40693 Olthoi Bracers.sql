@@ -5,14 +5,12 @@ VALUES (40693, 'ace40693-olthoibracers', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40693,   1,          2) /* ItemType - Armor */
-     , (40693,   2,         13) /* CreatureType - Golem */
      , (40693,   4,       8192) /* ClothingPriority - OuterwearLowerArms */
      , (40693,   5,        238) /* EncumbranceVal */
      , (40693,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (40693,  16,          1) /* ItemUseable - No */
      , (40693,  18,          1) /* UiEffects - Magical */
      , (40693,  19,      23017) /* Value */
-     , (40693,  25,        125) /* Level */
      , (40693,  28,        438) /* ArmorLevel */
      , (40693,  36,       9999) /* ResistMagic */
      , (40693,  65,        101) /* Placement - Resting */
@@ -28,16 +26,13 @@ VALUES (40693,   1,          2) /* ItemType - Armor */
      , (40693, 158,          2) /* WieldRequirements - RawSkill */
      , (40693, 159,          6) /* WieldSkilltype - MeleeDefense */
      , (40693, 160,        350) /* WieldDifficulty */
-     , (40693, 171,          5) /* NumTimesTinkered */
      , (40693, 172,          5) /* AppraisalLongDescDecoration */
-     , (40693, 176,          6) /* AppraisalItemSkill */
      , (40693, 177,          2) /* GemCount */
      , (40693, 178,         26) /* GemType */
      , (40693, 265,         28) /* EquipmentSetId - Coldproof */
      , (40693, 270,          7) /* WieldRequirements2 - Level */
      , (40693, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40693, 272,        150) /* WieldDifficulty2 */
-     , (40693, 374,          1) /* GearCritDamage */;
+     , (40693, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40693,   1, False) /* Stuck */
@@ -62,8 +57,7 @@ VALUES (40693,   5, -0.0555555555555556) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40693,   1, 'Olthoi Bracers') /* Name */
-     , (40693,  16, 'Olthoi Bracers of Fealty') /* LongDesc */
-     , (40693,  39, 'Koverasi') /* TinkerName */;
+     , (40693,  16, 'Olthoi Bracers of Fealty') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40693,   1,   33554641) /* Setup */
@@ -79,54 +73,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40693,   2, 2165177830) /* Container */
      , (40693, 8000, 2720483346) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40693,   1,   870, 0, 0, 870) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40693,   170,      2) 
-     , (40693,   951,      2) 
+VALUES (40693,   951,      2) 
      , (40693,  1486,      2) 
-     , (40693,  1552,      2) 
-     , (40693,  1562,      2) 
-     , (40693,  2061,      2) 
-     , (40693,  2087,      2) 
-     , (40693,  2092,      2) 
      , (40693,  2094,      2) 
-     , (40693,  2098,      2) 
-     , (40693,  2102,      2) 
-     , (40693,  2104,      2) 
-     , (40693,  2108,      2) 
-     , (40693,  2110,      2) 
-     , (40693,  2113,      2) 
-     , (40693,  2161,      2) 
-     , (40693,  2505,      2) 
      , (40693,  2513,      2) 
-     , (40693,  2514,      2) 
-     , (40693,  2516,      2) 
-     , (40693,  2524,      2) 
-     , (40693,  2529,      2) 
-     , (40693,  2573,      2) 
-     , (40693,  2615,      2) 
-     , (40693,  3963,      2) 
-     , (40693,  4299,      2) 
-     , (40693,  4393,      2) 
-     , (40693,  4397,      2) 
-     , (40693,  4401,      2) 
-     , (40693,  4403,      2) 
-     , (40693,  4407,      2) 
-     , (40693,  4409,      2) 
-     , (40693,  4662,      2) 
-     , (40693,  4667,      2) 
-     , (40693,  4673,      2) 
-     , (40693,  4691,      2) 
-     , (40693,  4692,      2) 
-     , (40693,  4703,      2) 
-     , (40693,  4712,      2) 
-     , (40693,  5428,      2) 
-     , (40693,  5888,      2) 
-     , (40693,  5895,      2) 
-     , (40693,  6122,      2) 
-     , (40693,  6123,      2) ;
+     , (40693,  4712,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40693, 67116577, 108, 8)

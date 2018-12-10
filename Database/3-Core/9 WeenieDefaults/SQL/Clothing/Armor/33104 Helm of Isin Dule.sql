@@ -45,8 +45,6 @@ VALUES (33104,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33104,   1, 'Helm of Isin Dule') /* Name */
-     , (33104,   7, 'Pwn - 4+ hour quest, 1-14-07, Beezamen, Sharlet the Harlet, Raefnal (died), Erushi, John Jingle, Caff and Four') /* Inscription */
-     , (33104,   8, 'Caffeinated') /* ScribeName */
      , (33104,  16, 'A black, crystalline helm created by the Shadow, Isin Dule.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

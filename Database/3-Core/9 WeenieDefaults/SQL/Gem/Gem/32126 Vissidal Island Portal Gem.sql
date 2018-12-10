@@ -41,7 +41,7 @@ VALUES (32126,   1,   33556769) /* Setup */
      , (32126,   6,   67111919) /* PaletteBase */
      , (32126,   8,  100674857) /* Icon */
      , (32126,  22,  872415275) /* PhysicsEffectTable */
-     , (32126,  28,        157) /* Spell */
+     , (32126,  28,        157) /* Spell - SummonPortal1 */
      , (32126, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (32126, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (32126, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */

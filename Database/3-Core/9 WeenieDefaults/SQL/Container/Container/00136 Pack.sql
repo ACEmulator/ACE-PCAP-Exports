@@ -27,8 +27,6 @@ VALUES (136,  39,    1.75) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (136,   1, 'Pack') /* Name */
-     , (136,   7, 'Talismans') /* Inscription */
-     , (136,   8, 'Nostromo') /* ScribeName */
      , (136,  14, 'Use this item to close it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -31,7 +31,6 @@ VALUES (14506,   1, False) /* Stuck */
      , (14506,  14, True ) /* GravityStatus */
      , (14506,  19, True ) /* Attackable */
      , (14506,  22, True ) /* Inscribable */
-     , (14506,  85, True ) /* AppraisalHasAllowedWielder */
      , (14506,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,8 +38,7 @@ VALUES (14506,   5, -0.033333) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14506,   1, 'Galvanic Bracelet') /* Name */
-     , (14506,  16, 'A golden bracelet fitted with a sparkling lavender gem. The metal vibrates with the power of lightning. The hair on your arms stands on end.') /* LongDesc */
-     , (14506,  25, 'Mithril') /* CraftsmanName */;
+     , (14506,  16, 'A golden bracelet fitted with a sparkling lavender gem. The metal vibrates with the power of lightning. The hair on your arms stands on end.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14506,   1,   33554683) /* Setup */

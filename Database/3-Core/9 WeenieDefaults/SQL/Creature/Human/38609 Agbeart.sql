@@ -6,46 +6,19 @@ VALUES (38609, 'ace38609-agbeart', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38609,   1,         16) /* ItemType - Creature */
      , (38609,   2,         31) /* CreatureType - Human */
-     , (38609,   5,         91) /* EncumbranceVal */
      , (38609,   6,        255) /* ItemsCapacity */
      , (38609,   7,        255) /* ContainersCapacity */
      , (38609,  16,         32) /* ItemUseable - Remote */
-     , (38609,  19,       3273) /* Value */
      , (38609,  25,        187) /* Level */
-     , (38609,  28,        161) /* ArmorLevel */
-     , (38609,  36,       9999) /* ResistMagic */
-     , (38609,  44,         30) /* Damage */
-     , (38609,  45,          4) /* DamageType - Bludgeon */
-     , (38609,  47,          1) /* AttackType - Punch */
-     , (38609,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (38609,  49,         16) /* WeaponTime */
      , (38609,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38609,  95,          8) /* RadarBlipColor - Yellow */
-     , (38609, 105,          7) /* ItemWorkmanship */
-     , (38609, 106,        272) /* ItemSpellcraft */
-     , (38609, 107,        809) /* ItemCurMana */
-     , (38609, 108,        809) /* ItemMaxMana */
-     , (38609, 109,         66) /* ItemDifficulty */
-     , (38609, 110,          0) /* ItemAllegianceRankLimit */
      , (38609, 113,          1) /* Gender - Male */
-     , (38609, 115,        292) /* ItemSkillLevelLimit */
-     , (38609, 131,         60) /* MaterialType - Gold */
      , (38609, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38609, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38609, 158,          2) /* WieldRequirements - RawSkill */
-     , (38609, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (38609, 160,        325) /* WieldDifficulty */
-     , (38609, 172,          5) /* AppraisalLongDescDecoration */
-     , (38609, 176,         44) /* AppraisalItemSkill */
-     , (38609, 177,          1) /* GemCount */
-     , (38609, 178,         33) /* GemType */
      , (38609, 188,          1) /* HeritageGroup - Aluvian */
      , (38609, 281,          4) /* Faction1Bits */
      , (38609, 289,          1) /* SocietyRankRadblo */
-     , (38609, 307,          5) /* DamageRating */
-     , (38609, 353,          1) /* WeaponType - Unarmed */
-     , (38609, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38609, 8030,          0);
+     , (38609, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38609,   1, True ) /* Stuck */
@@ -55,34 +28,14 @@ VALUES (38609,   1, True ) /* Stuck */
      , (38609,  14, True ) /* GravityStatus */
      , (38609,  19, False) /* Attackable */
      , (38609,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38609,  42, True ) /* AllowEdgeSlide */
-     , (38609, 100, True ) /* Dyable */;
+     , (38609,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38609,   5, -0.0555555555555556) /* ManaRate */
-     , (38609,  13, 1.39999997615814) /* ArmorModVsSlash */
-     , (38609,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (38609,  15, 1.29999995231628) /* ArmorModVsBludgeon */
-     , (38609,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (38609,  17, 1.20000004768372) /* ArmorModVsFire */
-     , (38609,  18, 0.800000011920929) /* ArmorModVsAcid */
-     , (38609,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38609,  21,       0) /* WeaponLength */
-     , (38609,  22,    0.48) /* DamageVariance */
-     , (38609,  26,       0) /* MaximumVelocity */
-     , (38609,  29,     1.1) /* WeaponDefense */
-     , (38609,  54,       3) /* UseRadius */
-     , (38609,  62,    1.12) /* WeaponOffense */
-     , (38609,  63,       1) /* DamageMod */
-     , (38609, 149,    1.02) /* WeaponMissileDefense */
-     , (38609, 150,    1.01) /* WeaponMagicDefense */
-     , (38609, 165,       1) /* ArmorModVsNether */;
+VALUES (38609,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38609,   1, 'Agbeart') /* Name */
      , (38609,   5, 'Falatacot Report Taskmaster') /* Template */
-     , (38609,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38609,  16, 'Hand Wraps') /* LongDesc */
      , (38609, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -120,20 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38609,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38609,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38609,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38609,  1138,      2) 
-     , (38609,  1354,      2) 
-     , (38609,  1552,      2) 
-     , (38609,  2061,      2) 
-     , (38609,  2094,      2) 
-     , (38609,  2096,      2) 
-     , (38609,  2101,      2) 
-     , (38609,  2108,      2) 
-     , (38609,  2113,      2) 
-     , (38609,  2509,      2) 
-     , (38609,  2724,      2) 
-     , (38609,  6127,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38609, 67109562, 0, 24)

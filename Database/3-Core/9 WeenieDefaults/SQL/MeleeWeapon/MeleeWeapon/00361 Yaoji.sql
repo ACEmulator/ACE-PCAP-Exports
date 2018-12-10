@@ -10,7 +10,6 @@ VALUES (361,   1,          1) /* ItemType - MeleeWeapon */
      , (361,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (361,  16,          1) /* ItemUseable - No */
      , (361,  19,        220) /* Value */
-     , (361,  33,          1) /* Bonded - Bonded */
      , (361,  44,         14) /* Damage */
      , (361,  45,          3) /* DamageType - Slash, Pierce */
      , (361,  47,          6) /* AttackType - Thrust, Slash */
@@ -20,18 +19,8 @@ VALUES (361,   1,          1) /* ItemType - MeleeWeapon */
      , (361,  65,          1) /* Placement - RightHandCombat */
      , (361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (361, 105,          4) /* ItemWorkmanship */
-     , (361, 106,        143) /* ItemSpellcraft */
-     , (361, 107,        131) /* ItemCurMana */
-     , (361, 108,        434) /* ItemMaxMana */
-     , (361, 109,         61) /* ItemDifficulty */
-     , (361, 110,          0) /* ItemAllegianceRankLimit */
-     , (361, 114,          1) /* Attuned - Attuned */
-     , (361, 115,        163) /* ItemSkillLevelLimit */
      , (361, 131,         29) /* MaterialType - LavenderJade */
      , (361, 151,          2) /* HookType - Wall */
-     , (361, 172,          3) /* AppraisalLongDescDecoration */
-     , (361, 176,         44) /* AppraisalItemSkill */
-     , (361, 188,          3) /* HeritageGroup - Sho */
      , (361, 353,          2) /* WeaponType - Sword */
      , (361, 8030,          0);
 
@@ -44,8 +33,7 @@ VALUES (361,   1, False) /* Stuck */
      , (361,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (361,   5, -0.0416666679084301) /* ManaRate */
-     , (361,  21,       0) /* WeaponLength */
+VALUES (361,  21,       0) /* WeaponLength */
      , (361,  22, 0.587497115135193) /* DamageVariance */
      , (361,  26,       0) /* MaximumVelocity */
      , (361,  29, 1.05409419536591) /* WeaponDefense */
@@ -54,9 +42,6 @@ VALUES (361,   5, -0.0416666679084301) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (361,   1, 'Yaoji') /* Name */
-     , (361,   7, '4-8 Damage BD IV, SK III, Coord IV
-Diff 61 Sword Must Be 163+') /* Inscription */
-     , (361,   8, 'Vladmar the Impaler') /* ScribeName */
      , (361,  16, 'Exquisitely crafted Lavender Jade Yaoji , set with 1 Green Garnet') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -78,21 +63,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (361,   3, 3701004470) /* Wielder */
      , (361, 8000, 3701005185) /* PCAPRecordedObjectIID */
      , (361, 8008, 3701004470) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (361,    35,      2) 
-     , (361,  1351,      2) 
-     , (361,  1352,      2) 
-     , (361,  1353,      2) 
-     , (361,  1375,      2) 
-     , (361,  1376,      2) 
-     , (361,  1590,      2) 
-     , (361,  1612,      2) 
-     , (361,  1613,      2) 
-     , (361,  1614,      2) 
-     , (361,  1615,      2) 
-     , (361,  1624,      2) 
-     , (361,  1625,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (361, 67111920, 0, 0);

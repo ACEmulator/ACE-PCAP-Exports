@@ -6,15 +6,12 @@ VALUES (10810, 'tuskerrampager', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10810,   1,         16) /* ItemType - Creature */
      , (10810,   2,          8) /* CreatureType - Tusker */
-     , (10810,   5,       6613) /* EncumbranceVal */
      , (10810,   6,        255) /* ItemsCapacity */
      , (10810,   7,        255) /* ContainersCapacity */
      , (10810,  16,          1) /* ItemUseable - No */
-     , (10810,  19,          0) /* Value */
      , (10810,  25,        100) /* Level */
      , (10810,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10810, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (10810, 307,          2) /* DamageRating */
      , (10810, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,7 +26,6 @@ VALUES (10810,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10810,   1, 'Rampager') /* Name */
-     , (10810,  16, 'Killed by Rimok.') /* LongDesc */
      , (10810, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

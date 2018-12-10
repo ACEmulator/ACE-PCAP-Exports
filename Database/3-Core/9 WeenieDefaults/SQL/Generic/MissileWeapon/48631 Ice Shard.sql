@@ -5,7 +5,6 @@ VALUES (48631, 'ace48631-iceshard', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48631,   1,        256) /* ItemType - MissileWeapon */
-     , (48631,   2,         20) /* CreatureType - Wisp */
      , (48631,   5,         45) /* EncumbranceVal */
      , (48631,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (48631,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
@@ -13,7 +12,6 @@ VALUES (48631,   1,        256) /* ItemType - MissileWeapon */
      , (48631,  12,          3) /* StackSize */
      , (48631,  16,          1) /* ItemUseable - No */
      , (48631,  19,         12) /* Value */
-     , (48631,  25,        115) /* Level */
      , (48631,  33,         -2) /* Bonded - Destroy */
      , (48631,  44,        195) /* Damage */
      , (48631,  45,          8) /* DamageType - Cold */
@@ -22,16 +20,11 @@ VALUES (48631,   1,        256) /* ItemType - MissileWeapon */
      , (48631,  51,          2) /* CombatUse - Missle */
      , (48631,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48631, 151,          2) /* HookType - Wall */
-     , (48631, 307,          5) /* DamageRating */
-     , (48631, 313,          0) /* CritRating */
-     , (48631, 314,          0) /* CritDamageRating */
      , (48631, 353,         10) /* WeaponType - Thrown */
-     , (48631, 386,          0) /* Overpower */
      , (48631, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48631,   1, False) /* Stuck */
-     , (48631,   2, True ) /* Open */
      , (48631,  11, True ) /* IgnoreCollisions */
      , (48631,  13, True ) /* Ethereal */
      , (48631,  14, True ) /* GravityStatus */
@@ -46,14 +39,10 @@ VALUES (48631,  21,       0) /* WeaponLength */
      , (48631,  62,       1) /* WeaponOffense */
      , (48631,  63,       1) /* DamageMod */
      , (48631,  78,       1) /* Friction */
-     , (48631,  79,       0) /* Elasticity */
-     , (48631, 149,       0) /* WeaponMissileDefense */
-     , (48631, 150,       0) /* WeaponMagicDefense */;
+     , (48631,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48631,   1, 'Ice Shard') /* Name */
-     , (48631,  14, 'Use this item to close it.') /* Use */
-     , (48631,  16, 'Killed by White Guilt.') /* LongDesc */;
+VALUES (48631,   1, 'Ice Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48631,   1,   33559361) /* Setup */
@@ -73,16 +62,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48631,   3, 3692755035) /* Wielder */
      , (48631, 8000, 3692755066) /* PCAPRecordedObjectIID */
      , (48631, 8008, 3692755035) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48631,   1, 150, 0, 0) /* Strength */
-     , (48631,   2, 200, 0, 0) /* Endurance */
-     , (48631,   3, 220, 0, 0) /* Quickness */
-     , (48631,   4, 150, 0, 0) /* Coordination */
-     , (48631,   5, 330, 0, 0) /* Focus */
-     , (48631,   6, 330, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48631,   1,   520, 0, 0, 520) /* MaxHealth */
-     , (48631,   3,   620, 0, 0, 620) /* MaxStamina */
-     , (48631,   5,   450, 0, 0, 367) /* MaxMana */;

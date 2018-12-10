@@ -61,7 +61,7 @@ VALUES (30377,   1,   33555022) /* Setup */
      , (30377,   6,   67111919) /* PaletteBase */
      , (30377,   8,  100669103) /* Icon */
      , (30377,  22,  872415275) /* PhysicsEffectTable */
-     , (30377,  28,       2128) /* Spell */
+     , (30377,  28,       2128) /* Spell - FlameBolt7 */
      , (30377,  52,  100686604) /* IconUnderlay */
      , (30377, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (30377, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

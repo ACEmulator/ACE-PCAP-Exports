@@ -29,8 +29,6 @@ VALUES (6059,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6059,   1, 'Dark Sliver') /* Name */
-     , (6059,   7, '.') /* Inscription */
-     , (6059,   8, 'Arkai') /* ScribeName */
      , (6059,  14, 'Combine with another dark sliver to make a dark shard.') /* Use */
      , (6059,  16, 'A jet-black bit of something hard and crystalline.') /* LongDesc */;
 

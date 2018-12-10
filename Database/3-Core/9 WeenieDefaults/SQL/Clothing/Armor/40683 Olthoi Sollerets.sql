@@ -10,28 +10,27 @@ VALUES (40683,   1,          2) /* ItemType - Armor */
      , (40683,   9,        256) /* ValidLocations - FootWear */
      , (40683,  16,          1) /* ItemUseable - No */
      , (40683,  19,      21398) /* Value */
-     , (40683,  28,        443) /* ArmorLevel */
+     , (40683,  28,        265) /* ArmorLevel */
      , (40683,  36,       9999) /* ResistMagic */
      , (40683,  65,        101) /* Placement - Resting */
      , (40683,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40683, 105,          7) /* ItemWorkmanship */
+     , (40683, 105,          4) /* ItemWorkmanship */
      , (40683, 106,        370) /* ItemSpellcraft */
-     , (40683, 107,       1334) /* ItemCurMana */
-     , (40683, 108,       1334) /* ItemMaxMana */
-     , (40683, 109,        241) /* ItemDifficulty */
+     , (40683, 107,       1067) /* ItemCurMana */
+     , (40683, 108,       1067) /* ItemMaxMana */
+     , (40683, 109,        192) /* ItemDifficulty */
      , (40683, 110,          0) /* ItemAllegianceRankLimit */
-     , (40683, 115,        273) /* ItemSkillLevelLimit */
+     , (40683, 115,        390) /* ItemSkillLevelLimit */
      , (40683, 131,         63) /* MaterialType - Silver */
      , (40683, 158,          2) /* WieldRequirements - RawSkill */
      , (40683, 159,          7) /* WieldSkilltype - MissileDefense */
-     , (40683, 160,        290) /* WieldDifficulty */
+     , (40683, 160,        205) /* WieldDifficulty */
      , (40683, 172,          1) /* AppraisalLongDescDecoration */
-     , (40683, 176,          7) /* AppraisalItemSkill */
-     , (40683, 265,         22) /* EquipmentSetId - Swift */
+     , (40683, 176,          6) /* AppraisalItemSkill */
+     , (40683, 265,         29) /* EquipmentSetId - Lightningproof */
      , (40683, 270,          7) /* WieldRequirements2 - Level */
      , (40683, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40683, 272,        150) /* WieldDifficulty2 */
-     , (40683, 375,          1) /* GearCritDamageResist */;
+     , (40683, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40683,   1, False) /* Stuck */
@@ -44,12 +43,12 @@ VALUES (40683,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40683,   5, -0.0666666666666667) /* ManaRate */
-     , (40683,  13, 1.39999997615814) /* ArmorModVsSlash */
+     , (40683,  13,     1.5) /* ArmorModVsSlash */
      , (40683,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (40683,  15, 1.29999995231628) /* ArmorModVsBludgeon */
-     , (40683,  16, 1.20000004768372) /* ArmorModVsCold */
+     , (40683,  15,     1.5) /* ArmorModVsBludgeon */
+     , (40683,  16, 0.600000023841858) /* ArmorModVsCold */
      , (40683,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (40683,  18,       1) /* ArmorModVsAcid */
+     , (40683,  18, 0.600000023841858) /* ArmorModVsAcid */
      , (40683,  19, 0.600000023841858) /* ArmorModVsElectric */
      , (40683, 165,       1) /* ArmorModVsNether */
      , (40683, 8004,       8) /* PCAPRecordedWorkmanship */;
@@ -73,39 +72,9 @@ VALUES (40683,   2, 3685089427) /* Container */
      , (40683, 8000, 3685089869) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40683,  1486,      2) 
-     , (40683,  1498,      2) 
-     , (40683,  1516,      2) 
-     , (40683,  1528,      2) 
-     , (40683,  1552,      2) 
-     , (40683,  1562,      2) 
-     , (40683,  2059,      2) 
-     , (40683,  2102,      2) 
-     , (40683,  2104,      2) 
+VALUES (40683,  2102,      2) 
      , (40683,  2108,      2) 
-     , (40683,  2110,      2) 
-     , (40683,  2203,      2) 
-     , (40683,  2241,      2) 
-     , (40683,  2301,      2) 
-     , (40683,  2525,      2) 
-     , (40683,  2592,      2) 
-     , (40683,  2593,      2) 
-     , (40683,  2612,      2) 
-     , (40683,  2622,      2) 
-     , (40683,  4393,      2) 
-     , (40683,  4397,      2) 
-     , (40683,  4401,      2) 
-     , (40683,  4407,      2) 
-     , (40683,  4412,      2) 
-     , (40683,  4518,      2) 
-     , (40683,  4675,      2) 
-     , (40683,  4677,      2) 
-     , (40683,  4685,      2) 
-     , (40683,  4687,      2) 
-     , (40683,  4703,      2) 
-     , (40683,  5034,      2) 
-     , (40683,  5072,      2) 
-     , (40683,  5097,      2) 
+     , (40683,  2515,      2) 
      , (40683,  5098,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

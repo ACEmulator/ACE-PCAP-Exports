@@ -5,14 +5,12 @@ VALUES (12058, 'jambiyaelectricbandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12058,   1,          1) /* ItemType - MeleeWeapon */
-     , (12058,   2,         78) /* CreatureType - Fiun */
      , (12058,   5,         30) /* EncumbranceVal */
      , (12058,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12058,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12058,  16,          1) /* ItemUseable - No */
      , (12058,  18,         64) /* UiEffects - Lightning */
      , (12058,  19,         75) /* Value */
-     , (12058,  25,        115) /* Level */
      , (12058,  51,          1) /* CombatUse - Melee */
      , (12058,  65,          1) /* Placement - RightHandCombat */
      , (12058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -26,8 +24,7 @@ VALUES (12058,   1, False) /* Stuck */
      , (12058,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12058,   1, 'Bandit Lightning Jambiya') /* Name */
-     , (12058,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (12058,   1, 'Bandit Lightning Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12058,   1,   33555728) /* Setup */
@@ -47,6 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12058,   3, 3706877738) /* Wielder */
      , (12058, 8000, 3706494467) /* PCAPRecordedObjectIID */
      , (12058, 8008, 3706877738) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12058,   1,   460, 0, 0, 460) /* MaxHealth */;

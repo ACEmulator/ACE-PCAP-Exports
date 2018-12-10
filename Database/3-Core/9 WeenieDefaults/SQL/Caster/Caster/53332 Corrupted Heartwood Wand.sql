@@ -52,7 +52,7 @@ VALUES (53332,   1,   33561674) /* Setup */
      , (53332,   3,  536870932) /* SoundTable */
      , (53332,   8,  100693344) /* Icon */
      , (53332,  22,  872415275) /* PhysicsEffectTable */
-     , (53332,  28,       6320) /* Spell */
+     , (53332,  28,       6320) /* Spell - RingOfSkullsII */
      , (53332, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (53332, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (53332, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

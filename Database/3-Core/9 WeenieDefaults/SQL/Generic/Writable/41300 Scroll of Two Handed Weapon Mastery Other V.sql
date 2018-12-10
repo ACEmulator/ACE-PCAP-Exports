@@ -9,17 +9,7 @@ VALUES (41300,   1,       8192) /* ItemType - Writable */
      , (41300,  16,          8) /* ItemUseable - Contained */
      , (41300,  19,        200) /* Value */
      , (41300,  65,        101) /* Placement - Resting */
-     , (41300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41300, 105,          7) /* ItemWorkmanship */
-     , (41300, 106,        150) /* ItemSpellcraft */
-     , (41300, 107,        417) /* ItemCurMana */
-     , (41300, 108,        417) /* ItemMaxMana */
-     , (41300, 109,          0) /* ItemDifficulty */
-     , (41300, 110,          0) /* ItemAllegianceRankLimit */
-     , (41300, 115,          0) /* ItemSkillLevelLimit */
-     , (41300, 117,        250) /* ItemManaCost */
-     , (41300, 131,         28) /* MaterialType - LapisLazuli */
-     , (41300, 172,          1) /* AppraisalLongDescDecoration */;
+     , (41300,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41300,   1, False) /* Stuck */
@@ -42,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41300,   1,   33554826) /* Setup */
      , (41300,   8,  100690644) /* Icon */
      , (41300,  22,  872415275) /* PhysicsEffectTable */
-     , (41300,  28,       5095) /* Spell */
+     , (41300,  28,       5095) /* Spell - TwoHandedmastery5 */
      , (41300, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (41300, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41300, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
@@ -55,5 +45,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41300, 8000, 3355546529) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41300,  1136,      2) 
-     , (41300,  5095,      2) ;
+VALUES (41300,  5095,      2) ;

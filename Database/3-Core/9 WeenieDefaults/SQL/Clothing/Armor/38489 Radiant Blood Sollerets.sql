@@ -27,8 +27,7 @@ VALUES (38489,   1,          2) /* ItemType - Armor */
      , (38489, 160,          1) /* WieldDifficulty */
      , (38489, 172,          1) /* AppraisalLongDescDecoration */
      , (38489, 176,          7) /* AppraisalItemSkill */
-     , (38489, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38489, 374,          1) /* GearCritDamage */;
+     , (38489, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38489,   1, False) /* Stuck */
@@ -69,25 +68,9 @@ VALUES (38489,   2, 2868926175) /* Container */
      , (38489, 8000, 2860240256) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38489,  1516,      2) 
-     , (38489,  1574,      2) 
-     , (38489,  2102,      2) 
-     , (38489,  2108,      2) 
-     , (38489,  2241,      2) 
+VALUES (38489,  2108,      2) 
      , (38489,  2309,      2) 
-     , (38489,  2503,      2) 
-     , (38489,  2571,      2) 
-     , (38489,  2575,      2) 
-     , (38489,  2577,      2) 
-     , (38489,  4319,      2) 
-     , (38489,  4401,      2) 
-     , (38489,  4407,      2) 
-     , (38489,  4409,      2) 
-     , (38489,  4614,      2) 
-     , (38489,  4677,      2) 
-     , (38489,  4694,      2) 
-     , (38489,  4700,      2) 
-     , (38489,  6097,      2) ;
+     , (38489,  4694,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38489, 0, 83889344, 83897937)

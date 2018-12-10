@@ -41,7 +41,7 @@ VALUES (52023,   1,   33554809) /* Setup */
      , (52023,   6,   67111919) /* PaletteBase */
      , (52023,   8,  100690568) /* Icon */
      , (52023,  22,  872415275) /* PhysicsEffectTable */
-     , (52023,  28,       5978) /* Spell */
+     , (52023,  28,       5978) /* Spell - RareArmorDamageBoost5 */
      , (52023,  50,  100686635) /* IconOverlay */
      , (52023,  52,  100691593) /* IconUnderlay */
      , (52023, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

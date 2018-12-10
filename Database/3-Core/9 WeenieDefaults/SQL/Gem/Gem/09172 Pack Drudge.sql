@@ -26,8 +26,6 @@ VALUES (9172,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9172,   1, 'Pack Drudge') /* Name */
-     , (9172,   7, 'Hehe') /* Inscription */
-     , (9172,   8, 'Juliana Bravehart') /* ScribeName */
      , (9172,  16, 'The first in the Drudge-in-Your-Pack line of toys. Comes with Kung-Fu action grip!') /* LongDesc */
      , (9172, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

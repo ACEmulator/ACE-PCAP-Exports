@@ -6,7 +6,6 @@ VALUES (11714, 'slumlordmansioncheap', 55) /* SlumLord */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11714,   1,          0) /* ItemType - None */
      , (11714,  16,         32) /* ItemUseable - Remote */
-     , (11714,  86,         50) /* MinLevel */
      , (11714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11714, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 

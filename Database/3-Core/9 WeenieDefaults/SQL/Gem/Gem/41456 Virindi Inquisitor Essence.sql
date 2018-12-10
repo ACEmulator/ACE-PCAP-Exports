@@ -41,7 +41,7 @@ VALUES (41456,   1,   33554809) /* Setup */
      , (41456,   6,   67111919) /* PaletteBase */
      , (41456,   8,  100690696) /* Icon */
      , (41456,  22,  872415275) /* PhysicsEffectTable */
-     , (41456,  28,       5155) /* Spell */
+     , (41456,  28,       5155) /* Spell - DeceptionArcane4 */
      , (41456, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (41456, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (41456, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

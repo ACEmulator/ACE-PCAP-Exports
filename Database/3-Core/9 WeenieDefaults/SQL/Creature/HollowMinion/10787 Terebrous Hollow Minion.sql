@@ -6,15 +6,12 @@ VALUES (10787, 'hollowminionterebrous', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10787,   1,         16) /* ItemType - Creature */
      , (10787,   2,         48) /* CreatureType - HollowMinion */
-     , (10787,   5,         30) /* EncumbranceVal */
      , (10787,   6,        255) /* ItemsCapacity */
      , (10787,   7,        255) /* ContainersCapacity */
      , (10787,  16,          1) /* ItemUseable - No */
-     , (10787,  19,       2000) /* Value */
      , (10787,  25,         80) /* Level */
      , (10787,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10787, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10787, 313,         20) /* CritRating */
      , (10787, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,9 +23,6 @@ VALUES (10787,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10787,   1, 'Terebrous Hollow Minion') /* Name */
-     , (10787,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (10787,  16, 'Inscribed spell: Eye of the Grunt
-Decreases the target''s Weapon Tinkering skill by 40 points.') /* LongDesc */
      , (10787, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -50,20 +44,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10787, 8000, 3690604234) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (10787,   1, 240, 0, 0) /* Strength */
-     , (10787,   2, 290, 0, 0) /* Endurance */
-     , (10787,   3, 260, 0, 0) /* Quickness */
-     , (10787,   4, 240, 0, 0) /* Coordination */
-     , (10787,   5, 200, 0, 0) /* Focus */
-     , (10787,   6, 180, 0, 0) /* Self */;
+VALUES (10787,   1, 250, 0, 0) /* Strength */
+     , (10787,   2, 250, 0, 0) /* Endurance */
+     , (10787,   3, 170, 0, 0) /* Quickness */
+     , (10787,   4, 210, 0, 0) /* Coordination */
+     , (10787,   5, 230, 0, 0) /* Focus */
+     , (10787,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (10787,   1,   300, 0, 0, 300) /* MaxHealth */
-     , (10787,   3,  3290, 0, 0, 3289) /* MaxStamina */
-     , (10787,   5,   680, 0, 0, 680) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10787,  2326,      2) ;
+     , (10787,   3,   500, 0, 0, 500) /* MaxStamina */
+     , (10787,   5,    50, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10787, 67113222, 0, 0);

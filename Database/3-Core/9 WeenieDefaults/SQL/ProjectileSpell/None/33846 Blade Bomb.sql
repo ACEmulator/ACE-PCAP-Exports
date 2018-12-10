@@ -5,8 +5,6 @@ VALUES (33846, 'ace33846-bladebomb', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33846,   1,          0) /* ItemType - None */
-     , (33846,   5,       6661) /* EncumbranceVal */
-     , (33846,  19,          0) /* Value */
      , (33846,  93,    1179700) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw, Inelastic, Cloaked */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,14 +24,13 @@ VALUES (33846,  78,       1) /* Friction */
      , (33846, 8012, -1.53966248035431) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33846,   1, 'Blade Bomb') /* Name */
-     , (33846,  16, 'Killed by Asdfasdfasdfaa.') /* LongDesc */;
+VALUES (33846,   1, 'Blade Bomb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33846,   1,   33560086) /* Setup */
      , (33846,   3,  536870972) /* SoundTable */
      , (33846,   8,  100667494) /* Icon */
-     , (33846,  28,       3970) /* Spell */
+     , (33846,  28,       3970) /* Spell - BladeBomb */
      , (33846, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33846, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33846, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;

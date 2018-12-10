@@ -25,8 +25,7 @@ VALUES (47400,   1, False) /* Stuck */
      , (47400,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47400,   1, 'Frost Club') /* Name */
-     , (47400,  16, 'Killed by Thrillhouse.') /* LongDesc */;
+VALUES (47400,   1, 'Frost Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47400,   1,   33555722) /* Setup */

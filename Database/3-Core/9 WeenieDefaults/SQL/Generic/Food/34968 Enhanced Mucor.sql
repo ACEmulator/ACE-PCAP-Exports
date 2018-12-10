@@ -40,7 +40,7 @@ VALUES (34968,   1,   33558849) /* Setup */
      , (34968,   3,  536870932) /* SoundTable */
      , (34968,   8,  100689391) /* Icon */
      , (34968,  22,  872415275) /* PhysicsEffectTable */
-     , (34968,  28,       4068) /* Spell */
+     , (34968,  28,       4068) /* Spell - MucorManaWell */
      , (34968, 8001,    6320281) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell */
      , (34968, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34968, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;

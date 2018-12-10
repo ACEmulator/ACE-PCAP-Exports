@@ -6,17 +6,12 @@ VALUES (184, 'banderlingcaptain', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (184,   1,         16) /* ItemType - Creature */
      , (184,   2,          2) /* CreatureType - Banderling */
-     , (184,   5,       7035) /* EncumbranceVal */
      , (184,   6,        255) /* ItemsCapacity */
      , (184,   7,        255) /* ContainersCapacity */
      , (184,  16,          1) /* ItemUseable - No */
-     , (184,  19,          0) /* Value */
      , (184,  25,         15) /* Level */
-     , (184,  89,          6) /* BoosterEnum - Mana */
-     , (184,  90,        100) /* BoostValue */
      , (184,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (184, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (184, 307,          5) /* DamageRating */
      , (184, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,8 +26,6 @@ VALUES (184,  39, 1.70000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (184,   1, 'Banderling Captain') /* Name */
-     , (184,  14, 'Use this item to drink it.') /* Use */
-     , (184,  16, 'Killed by Mahharu.') /* LongDesc */
      , (184, 8006, 'AAA9AIAAAABRAAEAAACAPw==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

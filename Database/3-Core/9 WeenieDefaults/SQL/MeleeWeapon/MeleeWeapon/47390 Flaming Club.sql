@@ -5,14 +5,12 @@ VALUES (47390, 'ace47390-flamingclub', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47390,   1,          1) /* ItemType - MeleeWeapon */
-     , (47390,   2,         19) /* CreatureType - Virindi */
      , (47390,   5,        800) /* EncumbranceVal */
      , (47390,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47390,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47390,  16,          1) /* ItemUseable - No */
      , (47390,  18,         32) /* UiEffects - Fire */
      , (47390,  19,        350) /* Value */
-     , (47390,  25,        185) /* Level */
      , (47390,  51,          1) /* CombatUse - Melee */
      , (47390,  65,          1) /* Placement - RightHandCombat */
      , (47390,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -47,6 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47390,   3, 3687883770) /* Wielder */
      , (47390, 8000, 3687888097) /* PCAPRecordedObjectIID */
      , (47390, 8008, 3687883770) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47390,   1,   500, 0, 0, 143) /* MaxHealth */;

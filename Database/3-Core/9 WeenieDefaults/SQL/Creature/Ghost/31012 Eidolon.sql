@@ -46,8 +46,18 @@ VALUES (31012, 8040, 15009144, 57.7131, -110.134, -23.971, -0.00420373, 0, 0, 0.
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31012, 8000, 3708728872) /* PCAPRecordedObjectIID */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (31012,   1, 330, 0, 0) /* Strength */
+     , (31012,   2, 270, 0, 0) /* Endurance */
+     , (31012,   3, 360, 0, 0) /* Quickness */
+     , (31012,   4, 360, 0, 0) /* Coordination */
+     , (31012,   5, 320, 0, 0) /* Focus */
+     , (31012,   6, 320, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31012,   1,   635, 0, 0, 635) /* MaxHealth */;
+VALUES (31012,   1,   635, 0, 0, 635) /* MaxHealth */
+     , (31012,   3,   270, 0, 0, 270) /* MaxStamina */
+     , (31012,   5,   670, 0, 0, 670) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31012, 67115254, 0, 0);

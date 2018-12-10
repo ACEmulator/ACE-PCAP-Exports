@@ -5,12 +5,10 @@ VALUES (49426, 'ace49426-acidspectreessence180', 70) /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49426,   1,        128) /* ItemType - Misc */
-     , (49426,   2,         13) /* CreatureType - Golem */
      , (49426,   5,         50) /* EncumbranceVal */
      , (49426,  16,          8) /* ItemUseable - Contained */
      , (49426,  18,        256) /* UiEffects - Acid */
      , (49426,  19,       9000) /* Value */
-     , (49426,  25,        125) /* Level */
      , (49426,  33,          0) /* Bonded - Normal */
      , (49426,  65,        101) /* Placement - Resting */
      , (49426,  91,         50) /* MaxStructure */
@@ -25,7 +23,6 @@ VALUES (49426,   1,        128) /* ItemType - Misc */
      , (49426, 369,        170) /* UseRequiresLevel */
      , (49426, 370,         10) /* GearDamage */
      , (49426, 371,         10) /* GearDamageResist */
-     , (49426, 372,         19) /* GearCrit */
      , (49426, 373,          7) /* GearCritResist */
      , (49426, 374,         15) /* GearCritDamage */
      , (49426, 375,          3) /* GearCritDamageResist */;
@@ -45,8 +42,6 @@ VALUES (49426,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49426,   1, 'Acid Spectre Essence (180)') /* Name */
-     , (49426,   7, 'keep on hand for baron in case he is up against debuffing acid vuln tough things') /* Inscription */
-     , (49426,   8, 'Harlune the Misanthrope') /* ScribeName */
      , (49426,  14, 'Use this essence to summon or dismiss your Acid Spectre.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -68,9 +63,6 @@ VALUES (49426, 8040, 23855548, 50.4954, -31.76109, -0.0009999946, -0.8511181, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49426, 8000, 2685201800) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49426,   1,   870, 0, 0, 870) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49426, 67111920, 0, 0);

@@ -43,8 +43,7 @@ VALUES (27880,  21,       0) /* WeaponLength */
      , (27880, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27880,   1, 'Bone Sword') /* Name */
-     , (27880,  16, 'A concentrated copper pea.') /* LongDesc */;
+VALUES (27880,   1, 'Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27880,   1,   33558783) /* Setup */

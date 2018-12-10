@@ -5,14 +5,12 @@ VALUES (35295, 'ace35295-shieldofperfectlight', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35295,   1,          2) /* ItemType - Armor */
-     , (35295,   2,          1) /* CreatureType - Olthoi */
      , (35295,   5,        300) /* EncumbranceVal */
      , (35295,   9,    2097152) /* ValidLocations - Shield */
      , (35295,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (35295,  16,          1) /* ItemUseable - No */
      , (35295,  18,          1) /* UiEffects - Magical */
      , (35295,  19,      23000) /* Value */
-     , (35295,  25,         20) /* Level */
      , (35295,  28,        430) /* ArmorLevel */
      , (35295,  51,          4) /* CombatUse - Shield */
      , (35295,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -48,8 +46,6 @@ VALUES (35295,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35295,   1, 'Shield of Perfect Light') /* Name */
-     , (35295,   7, 'You can make this shield by turning in shardage and motes at Asheron''s castle in Eastham. Go for it!') /* Inscription */
-     , (35295,   8, 'Matchstick') /* ScribeName */
      , (35295,  16, 'A shield glowing with a brilliant light. Although the shield looks insubstantial it strongly resists your efforts to penetrate the magical barrier it contains.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -70,19 +66,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35295,   3, 1343277591) /* Wielder */
      , (35295, 8000, 2152666714) /* PCAPRecordedObjectIID */
      , (35295, 8008, 1343277591) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (35295,   1, 190, 0, 0) /* Strength */
-     , (35295,   2, 150, 0, 0) /* Endurance */
-     , (35295,   3,  60, 0, 0) /* Quickness */
-     , (35295,   4,  60, 0, 0) /* Coordination */
-     , (35295,   5,  30, 0, 0) /* Focus */
-     , (35295,   6,  20, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35295,   1,   100, 0, 0, 100) /* MaxHealth */
-     , (35295,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (35295,   5,    20, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35295,  2092,      2) 

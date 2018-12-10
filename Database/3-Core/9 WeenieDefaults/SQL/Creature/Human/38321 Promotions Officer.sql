@@ -6,54 +6,19 @@ VALUES (38321, 'ace38321-promotionsofficer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38321,   1,         16) /* ItemType - Creature */
      , (38321,   2,         31) /* CreatureType - Human */
-     , (38321,   5,          0) /* EncumbranceVal */
      , (38321,   6,        255) /* ItemsCapacity */
      , (38321,   7,        255) /* ContainersCapacity */
      , (38321,  16,         32) /* ItemUseable - Remote */
-     , (38321,  19,      25000) /* Value */
      , (38321,  25,        200) /* Level */
-     , (38321,  28,          0) /* ArmorLevel */
-     , (38321,  33,          1) /* Bonded - Bonded */
-     , (38321,  44,         21) /* Damage */
-     , (38321,  45,          8) /* DamageType - Cold */
-     , (38321,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
-     , (38321,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (38321,  49,         24) /* WeaponTime */
-     , (38321,  91,         50) /* MaxStructure */
-     , (38321,  92,         50) /* Structure */
      , (38321,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38321,  95,          8) /* RadarBlipColor - Yellow */
-     , (38321, 105,          7) /* ItemWorkmanship */
-     , (38321, 106,        248) /* ItemSpellcraft */
-     , (38321, 107,       1001) /* ItemCurMana */
-     , (38321, 108,       1001) /* ItemMaxMana */
-     , (38321, 109,        123) /* ItemDifficulty */
-     , (38321, 110,          0) /* ItemAllegianceRankLimit */
      , (38321, 113,          1) /* Gender - Male */
-     , (38321, 114,          1) /* Attuned - Attuned */
-     , (38321, 115,        268) /* ItemSkillLevelLimit */
-     , (38321, 131,         60) /* MaterialType - Gold */
      , (38321, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38321, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38321, 158,          2) /* WieldRequirements - RawSkill */
-     , (38321, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (38321, 160,        325) /* WieldDifficulty */
-     , (38321, 172,          5) /* AppraisalLongDescDecoration */
-     , (38321, 176,         44) /* AppraisalItemSkill */
-     , (38321, 177,          4) /* GemCount */
-     , (38321, 178,         34) /* GemType */
      , (38321, 188,          1) /* HeritageGroup - Aluvian */
-     , (38321, 280,        213) /* SharedCooldown */
      , (38321, 281,          4) /* Faction1Bits */
      , (38321, 289,       1001) /* SocietyRankRadblo */
-     , (38321, 353,          2) /* WeaponType - Sword */
-     , (38321, 366,         54) /* UseRequiresSkill */
-     , (38321, 367,        430) /* UseRequiresSkillLevel */
-     , (38321, 369,        115) /* UseRequiresLevel */
-     , (38321, 372,         10) /* GearCrit */
-     , (38321, 373,         11) /* GearCritResist */
-     , (38321, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38321, 8030,          0);
+     , (38321, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38321,   1, True ) /* Stuck */
@@ -63,34 +28,14 @@ VALUES (38321,   1, True ) /* Stuck */
      , (38321,  14, True ) /* GravityStatus */
      , (38321,  19, False) /* Attackable */
      , (38321,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38321,  42, True ) /* AllowEdgeSlide */
-     , (38321,  69, True ) /* IsSellable */
-     , (38321, 100, True ) /* Dyable */;
+     , (38321,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38321,   5,   -0.05) /* ManaRate */
-     , (38321,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (38321,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38321,  15,       1) /* ArmorModVsBludgeon */
-     , (38321,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (38321,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (38321,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (38321,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (38321,  21,       0) /* WeaponLength */
-     , (38321,  22,    0.53) /* DamageVariance */
-     , (38321,  26,       0) /* MaximumVelocity */
-     , (38321,  29,    1.09) /* WeaponDefense */
-     , (38321,  54,       3) /* UseRadius */
-     , (38321,  62,    1.07) /* WeaponOffense */
-     , (38321,  63,       1) /* DamageMod */
-     , (38321, 165,       1) /* ArmorModVsNether */
-     , (38321, 167,      45) /* CooldownDuration */;
+VALUES (38321,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38321,   1, 'Promotions Officer') /* Name */
      , (38321,   5, 'Society Officer') /* Template */
-     , (38321,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38321,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */
      , (38321, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -128,20 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38321,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38321,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38321,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38321,  1023,      2) 
-     , (38321,  1486,      2) 
-     , (38321,  1562,      2) 
-     , (38321,  1616,      2) 
-     , (38321,  2203,      2) 
-     , (38321,  2318,      2) 
-     , (38321,  2538,      2) 
-     , (38321,  2554,      2) 
-     , (38321,  2601,      2) 
-     , (38321,  2603,      2) 
-     , (38321,  5427,      2) 
-     , (38321,  6122,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38321, 67109562, 0, 24)

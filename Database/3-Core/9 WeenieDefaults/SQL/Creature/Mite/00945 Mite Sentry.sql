@@ -6,33 +6,12 @@ VALUES (945, 'mitesentry', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (945,   1,         16) /* ItemType - Creature */
      , (945,   2,          7) /* CreatureType - Mite */
-     , (945,   5,       6090) /* EncumbranceVal */
      , (945,   6,        255) /* ItemsCapacity */
      , (945,   7,        255) /* ContainersCapacity */
      , (945,  16,          1) /* ItemUseable - No */
-     , (945,  19,          0) /* Value */
      , (945,  25,         15) /* Level */
-     , (945,  28,        263) /* ArmorLevel */
-     , (945,  33,          1) /* Bonded - Bonded */
-     , (945,  36,       9999) /* ResistMagic */
      , (945,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (945, 105,          7) /* ItemWorkmanship */
-     , (945, 106,        300) /* ItemSpellcraft */
-     , (945, 107,          0) /* ItemCurMana */
-     , (945, 108,        584) /* ItemMaxMana */
-     , (945, 109,          0) /* ItemDifficulty */
-     , (945, 110,          0) /* ItemAllegianceRankLimit */
-     , (945, 115,          0) /* ItemSkillLevelLimit */
-     , (945, 117,        350) /* ItemManaCost */
-     , (945, 131,         23) /* MaterialType - GreenGarnet */
      , (945, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (945, 158,          2) /* WieldRequirements - RawSkill */
-     , (945, 159,          7) /* WieldSkilltype - MissileDefense */
-     , (945, 160,        205) /* WieldDifficulty */
-     , (945, 172,          1) /* AppraisalLongDescDecoration */
-     , (945, 176,          6) /* AppraisalItemSkill */
-     , (945, 177,          3) /* GemCount */
-     , (945, 178,         48) /* GemType */
      , (945, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,26 +19,10 @@ VALUES (945,   1, True ) /* Stuck */
      , (945,  12, True ) /* ReportCollisions */
      , (945,  13, False) /* Ethereal */
      , (945,  14, True ) /* GravityStatus */
-     , (945,  19, True ) /* Attackable */
-     , (945, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (945,   5,   -0.05) /* ManaRate */
-     , (945,  13, 1.39999997615814) /* ArmorModVsSlash */
-     , (945,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (945,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (945,  16,       1) /* ArmorModVsCold */
-     , (945,  17, 0.800000011920929) /* ArmorModVsFire */
-     , (945,  18,       1) /* ArmorModVsAcid */
-     , (945,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (945,  87,       2) /* ItemEfficiency */
-     , (945, 137,     0.2) /* ManaStoneDestroyChance */
-     , (945, 165,       1) /* ArmorModVsNether */;
+     , (945,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (945,   1, 'Mite Sentry') /* Name */
-     , (945,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (945,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (945, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,12 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (945,   1,    80, 0, 0, 80) /* MaxHealth */
      , (945,   3,   250, 0, 0, 250) /* MaxStamina */
      , (945,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (945,   278,      2) 
-     , (945,  1486,      2) 
-     , (945,  2183,      2) 
-     , (945,  2549,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (945, 67115128, 0, 0);

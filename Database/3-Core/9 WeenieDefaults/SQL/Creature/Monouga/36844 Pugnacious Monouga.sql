@@ -6,13 +6,10 @@ VALUES (36844, 'ace36844-pugnaciousmonouga', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36844,   1,         16) /* ItemType - Creature */
      , (36844,   2,         28) /* CreatureType - Monouga */
-     , (36844,   5,         10) /* EncumbranceVal */
      , (36844,   6,        255) /* ItemsCapacity */
      , (36844,   7,        255) /* ContainersCapacity */
      , (36844,  16,          1) /* ItemUseable - No */
-     , (36844,  19,       2500) /* Value */
      , (36844,  25,        100) /* Level */
-     , (36844,  33,          1) /* Bonded - Bonded */
      , (36844,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (36844, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (36844, 307,          5) /* DamageRating */
@@ -31,7 +28,6 @@ VALUES (36844,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36844,   1, 'Pugnacious Monouga') /* Name */
-     , (36844,  16, 'A concentrated iron pea.') /* LongDesc */
      , (36844, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

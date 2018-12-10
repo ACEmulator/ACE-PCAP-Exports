@@ -5,19 +5,16 @@ VALUES (47670, 'ace47670-flamingtachi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47670,   1,          1) /* ItemType - MeleeWeapon */
-     , (47670,   2,          2) /* CreatureType - Banderling */
      , (47670,   5,        450) /* EncumbranceVal */
      , (47670,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47670,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47670,  16,          1) /* ItemUseable - No */
      , (47670,  18,         32) /* UiEffects - Fire */
      , (47670,  19,        460) /* Value */
-     , (47670,  25,         50) /* Level */
      , (47670,  51,          1) /* CombatUse - Melee */
      , (47670,  65,          1) /* Placement - RightHandCombat */
      , (47670,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47670, 151,          2) /* HookType - Wall */
-     , (47670, 307,          5) /* DamageRating */;
+     , (47670, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47670,   1, False) /* Stuck */
@@ -49,19 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47670,   3, 3708821823) /* Wielder */
      , (47670, 8000, 3708821815) /* PCAPRecordedObjectIID */
      , (47670, 8008, 3708821823) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47670,   1, 180, 0, 0) /* Strength */
-     , (47670,   2, 150, 0, 0) /* Endurance */
-     , (47670,   3, 100, 0, 0) /* Quickness */
-     , (47670,   4, 175, 0, 0) /* Coordination */
-     , (47670,   5,  50, 0, 0) /* Focus */
-     , (47670,   6,  50, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47670,   1,   165, 0, 0, 165) /* MaxHealth */
-     , (47670,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (47670,   5,    50, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47670, 67111920, 0, 0);

@@ -26,10 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46403,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46403,   1, 'T''thuun Mace') /* Name */
-     , (46403,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (46403,  16, 'Inscribed spell: Finesse Weapon Mastery Self VII
-Increases the caster''s Finesse Weapons skill by 40 points.') /* LongDesc */;
+VALUES (46403,   1, 'T''thuun Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46403,   1,   33560673) /* Setup */
@@ -49,6 +46,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46403,   3, 3360275567) /* Wielder */
      , (46403, 8000, 3360218333) /* PCAPRecordedObjectIID */
      , (46403, 8008, 3360275567) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46403,  2223,      2) ;

@@ -6,11 +6,9 @@ VALUES (1622, 'phyntoswaspmire', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1622,   1,         16) /* ItemType - Creature */
      , (1622,   2,          9) /* CreatureType - PhyntosWasp */
-     , (1622,   5,         30) /* EncumbranceVal */
      , (1622,   6,        255) /* ItemsCapacity */
      , (1622,   7,        255) /* ContainersCapacity */
      , (1622,  16,          1) /* ItemUseable - No */
-     , (1622,  19,       2000) /* Value */
      , (1622,  25,         15) /* Level */
      , (1622,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1622, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,9 +26,6 @@ VALUES (1622,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1622,   1, 'Mire Phyntos Wasp') /* Name */
-     , (1622,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (1622,  16, 'Inscribed spell: Shock Arc VII
-Shoots a shock wave at the target. The wave does 115-189 points of bludgeoning damage to the first thing it hits.') /* LongDesc */
      , (1622, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -63,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1622,   1,    65, 0, 0, 65) /* MaxHealth */
      , (1622,   3,   120, 0, 0, 120) /* MaxStamina */
      , (1622,   5,    40, 0, 0, 40) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1622,  2752,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1622, 67115267, 0, 0);

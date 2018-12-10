@@ -35,7 +35,6 @@ VALUES (8982, 167,      15) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8982,   1, 'Shoyanen''s Portal Gem') /* Name */
-     , (8982,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (8982,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -44,7 +43,7 @@ VALUES (8982,   1,   33556769) /* Setup */
      , (8982,   6,   67111919) /* PaletteBase */
      , (8982,   8,  100674869) /* Icon */
      , (8982,  22,  872415275) /* PhysicsEffectTable */
-     , (8982,  28,        157) /* Spell */
+     , (8982,  28,        157) /* Spell - SummonPortal1 */
      , (8982, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (8982, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (8982, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
@@ -55,8 +54,7 @@ VALUES (8982,   2, 2186220515) /* Container */
      , (8982, 8000, 2186220528) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8982,   157,      2) 
-     , (8982,  2734,      2) ;
+VALUES (8982,   157,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8982, 67111922, 0, 0);

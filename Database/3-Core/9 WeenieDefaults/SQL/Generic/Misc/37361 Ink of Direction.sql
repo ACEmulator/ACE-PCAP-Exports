@@ -11,9 +11,6 @@ VALUES (37361,   1,        128) /* ItemType - Misc */
      , (37361,  16,          1) /* ItemUseable - No */
      , (37361,  19,     540000) /* Value */
      , (37361,  65,        101) /* Placement - Resting */
-     , (37361,  90,         20) /* BoostValue */
-     , (37361,  91,         40) /* MaxStructure */
-     , (37361,  92,         40) /* Structure */
      , (37361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -22,9 +19,6 @@ VALUES (37361,   1, False) /* Stuck */
      , (37361,  13, True ) /* Ethereal */
      , (37361,  14, True ) /* GravityStatus */
      , (37361,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37361, 100,    1.75) /* HealkitMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37361,   1, 'Ink of Direction') /* Name */

@@ -34,8 +34,6 @@ VALUES (22021,  13,     0.5) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22021,   1, 'Undead Guise') /* Name */
-     , (22021,   7, 'Left behind by John Ramzis ') /* Inscription */
-     , (22021,   8, 'Carokahn') /* ScribeName */
      , (22021,  14, 'This costume can be placed on Floor, Yard and Wall house hooks.') /* Use */
      , (22021,  16, 'A finely crafted undead costume that is only missing the head. Thankfully the smell of the previous owner is masked by the scent of the various glues used in its crafting.') /* LongDesc */;
 

@@ -6,11 +6,9 @@ VALUES (28551, 'crystaldualfragmentsparkling', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28551,   1,         16) /* ItemType - Creature */
      , (28551,   2,         47) /* CreatureType - Crystal */
-     , (28551,   5,          0) /* EncumbranceVal */
      , (28551,   6,        255) /* ItemsCapacity */
      , (28551,   7,        255) /* ContainersCapacity */
      , (28551,  16,          1) /* ItemUseable - No */
-     , (28551,  19,       3632) /* Value */
      , (28551,  25,        100) /* Level */
      , (28551,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (28551, 133,          4) /* ShowableOnRadar - ShowAlways */

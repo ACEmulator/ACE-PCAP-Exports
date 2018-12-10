@@ -26,8 +26,6 @@ VALUES (6624,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6624,   1, 'Shadow Fragment') /* Name */
-     , (6624,   7, 'MINE') /* Inscription */
-     , (6624,   8, 'Deadly Chiapet') /* ScribeName */
      , (6624,  14, 'Combine with a crystal fragment to make a sparkling gem. ') /* Use */
      , (6624,  16, 'A fragment of shadow.') /* LongDesc */;
 

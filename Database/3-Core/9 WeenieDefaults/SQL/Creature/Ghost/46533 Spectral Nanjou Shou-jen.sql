@@ -6,13 +6,10 @@ VALUES (46533, 'ace46533-spectralnanjoushoujen', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46533,   1,         16) /* ItemType - Creature */
      , (46533,   2,         77) /* CreatureType - Ghost */
-     , (46533,   5,         10) /* EncumbranceVal */
      , (46533,   6,        255) /* ItemsCapacity */
      , (46533,   7,        255) /* ContainersCapacity */
      , (46533,  16,          1) /* ItemUseable - No */
-     , (46533,  19,       5000) /* Value */
      , (46533,  25,        260) /* Level */
-     , (46533,  33,          1) /* Bonded - Bonded */
      , (46533,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46533, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (46533, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -29,7 +26,6 @@ VALUES (46533,  76, 0.850000023841858) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46533,   1, 'Spectral Nanjou Shou-jen') /* Name */
-     , (46533,  16, 'A concentrated copper pea.') /* LongDesc */
      , (46533, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

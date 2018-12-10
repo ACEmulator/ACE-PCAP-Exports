@@ -25,15 +25,6 @@ VALUES (15444,   1,        256) /* ItemType - MissileWeapon */
      , (15444, 158,          2) /* WieldRequirements - RawSkill */
      , (15444, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (15444, 160,        230) /* WieldDifficulty */
-     , (15444, 179,          4) /* ImbuedEffect - ArmorRending */
-     , (15444, 303,          4) /* ImbuedEffect2 - ArmorRending */
-     , (15444, 304,          4) /* ImbuedEffect3 - ArmorRending */
-     , (15444, 305,          4) /* ImbuedEffect4 - ArmorRending */
-     , (15444, 306,          4) /* ImbuedEffect5 - ArmorRending */
-     , (15444, 307,         11) /* DamageRating */
-     , (15444, 313,          0) /* CritRating */
-     , (15444, 314,          5) /* CritDamageRating */
-     , (15444, 386,          0) /* Overpower */
      , (15444, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,9 +45,7 @@ VALUES (15444,  21,       0) /* WeaponLength */
      , (15444,  62,       1) /* WeaponOffense */
      , (15444,  63,       1) /* DamageMod */
      , (15444,  78,       1) /* Friction */
-     , (15444,  79,       0) /* Elasticity */
-     , (15444, 149,       0) /* WeaponMissileDefense */
-     , (15444, 150,       0) /* WeaponMagicDefense */;
+     , (15444,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15444,   1, 'Deadly Fire Quarrel') /* Name */;

@@ -34,9 +34,7 @@ VALUES (8399,  13,       1) /* ArmorModVsSlash */
      , (8399, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8399,   1, 'Kireth Gown with Band') /* Name */
-     , (8399,   7, 'To Maria with love from Myst & D-vine') /* Inscription */
-     , (8399,   8, 'Ameyz') /* ScribeName */;
+VALUES (8399,   1, 'Kireth Gown with Band') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8399,   1,   33554854) /* Setup */

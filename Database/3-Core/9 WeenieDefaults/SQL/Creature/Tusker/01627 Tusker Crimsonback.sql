@@ -6,24 +6,12 @@ VALUES (1627, 'tuskercrimsonback', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1627,   1,         16) /* ItemType - Creature */
      , (1627,   2,          8) /* CreatureType - Tusker */
-     , (1627,   5,          5) /* EncumbranceVal */
      , (1627,   6,        255) /* ItemsCapacity */
      , (1627,   7,        255) /* ContainersCapacity */
      , (1627,  16,          1) /* ItemUseable - No */
-     , (1627,  19,       2570) /* Value */
      , (1627,  25,         30) /* Level */
      , (1627,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1627, 105,          7) /* ItemWorkmanship */
-     , (1627, 106,        300) /* ItemSpellcraft */
-     , (1627, 107,        584) /* ItemCurMana */
-     , (1627, 108,        584) /* ItemMaxMana */
-     , (1627, 109,          0) /* ItemDifficulty */
-     , (1627, 110,          0) /* ItemAllegianceRankLimit */
-     , (1627, 115,          0) /* ItemSkillLevelLimit */
-     , (1627, 117,        350) /* ItemManaCost */
-     , (1627, 131,         39) /* MaterialType - Sapphire */
      , (1627, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1627, 172,          1) /* AppraisalLongDescDecoration */
      , (1627, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,7 +26,6 @@ VALUES (1627,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1627,   1, 'Tusker Crimsonback') /* Name */
-     , (1627,  16, 'Gem of Regeneration') /* LongDesc */
      , (1627, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -71,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1627,   1,   110, 0, 0, 110) /* MaxHealth */
      , (1627,   3,   310, 0, 0, 309) /* MaxStamina */
      , (1627,   5,    20, 0, 0, 20) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1627,  2185,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1627, 67113010, 0, 0);

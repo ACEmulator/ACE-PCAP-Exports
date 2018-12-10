@@ -34,7 +34,7 @@ VALUES (29029,   1,   33555469) /* Setup */
      , (29029,   3,  536870967) /* SoundTable */
      , (29029,   8,  100667494) /* Icon */
      , (29029,  22,  872415404) /* PhysicsEffectTable */
-     , (29029,  28,         27) /* Spell */
+     , (29029,  28,         27) /* Spell - FlameBolt1 */
      , (29029, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (29029, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (29029, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */

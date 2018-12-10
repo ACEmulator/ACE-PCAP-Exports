@@ -6,11 +6,9 @@ VALUES (34080, 'ace34080-mrbakeriispetpumpkin', 69) /* Pet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34080,   1,         16) /* ItemType - Creature */
      , (34080,   2,         40) /* CreatureType - Unknown */
-     , (34080,   5,       6060) /* EncumbranceVal */
      , (34080,   6,        255) /* ItemsCapacity */
      , (34080,   7,        255) /* ContainersCapacity */
      , (34080,  16,          1) /* ItemUseable - No */
-     , (34080,  19,          0) /* Value */
      , (34080,  25,          1) /* Level */
      , (34080,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (34080,  95,          8) /* RadarBlipColor - Yellow */
@@ -28,7 +26,6 @@ VALUES (34080,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34080,   1, 'Mr Baker II''s Pet Pumpkin') /* Name */
-     , (34080,  16, 'Killed by Callaway.') /* LongDesc */
      , (34080, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

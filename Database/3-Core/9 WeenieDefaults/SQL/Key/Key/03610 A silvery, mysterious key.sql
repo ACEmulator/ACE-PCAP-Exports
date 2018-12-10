@@ -24,8 +24,6 @@ VALUES (3610,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3610,   1, 'A silvery, mysterious key') /* Name */
-     , (3610,   7, 'soll key') /* Inscription */
-     , (3610,   8, 'Callaway') /* ScribeName */
      , (3610,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
      , (3610,  16, 'A silvery, mysterious key blackened by tarnish.') /* LongDesc */;
 

@@ -20,21 +20,12 @@ VALUES (45427,   1,          1) /* ItemType - MeleeWeapon */
      , (45427,  65,          1) /* Placement - RightHandCombat */
      , (45427,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45427, 105,          5) /* ItemWorkmanship */
-     , (45427, 106,        257) /* ItemSpellcraft */
-     , (45427, 107,       1401) /* ItemCurMana */
-     , (45427, 108,       1401) /* ItemMaxMana */
-     , (45427, 109,         63) /* ItemDifficulty */
-     , (45427, 110,          0) /* ItemAllegianceRankLimit */
-     , (45427, 115,        277) /* ItemSkillLevelLimit */
      , (45427, 131,         60) /* MaterialType - Gold */
      , (45427, 151,          2) /* HookType - Wall */
      , (45427, 158,          2) /* WieldRequirements - RawSkill */
      , (45427, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (45427, 160,        300) /* WieldDifficulty */
      , (45427, 172,          1) /* AppraisalLongDescDecoration */
-     , (45427, 176,         44) /* AppraisalItemSkill */
-     , (45427, 177,          1) /* GemCount */
-     , (45427, 178,         29) /* GemType */
      , (45427, 353,          6) /* WeaponType - Dagger */
      , (45427, 8030,          0);
 
@@ -47,15 +38,12 @@ VALUES (45427,   1, False) /* Stuck */
      , (45427,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45427,   5,   -0.05) /* ManaRate */
-     , (45427,  21,       0) /* WeaponLength */
+VALUES (45427,  21,       0) /* WeaponLength */
      , (45427,  22,    0.53) /* DamageVariance */
      , (45427,  26,       0) /* MaximumVelocity */
      , (45427,  29,     1.1) /* WeaponDefense */
      , (45427,  62,    1.08) /* WeaponOffense */
      , (45427,  63,       1) /* DamageMod */
-     , (45427, 149,    1.03) /* WeaponMissileDefense */
-     , (45427, 150,   1.035) /* WeaponMagicDefense */
      , (45427, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -83,53 +71,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45427,   3, 1342789086) /* Wielder */
      , (45427, 8000, 2183167628) /* PCAPRecordedObjectIID */
      , (45427, 8008, 1342789086) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45427,    49,      2) 
-     , (45427,  1378,      2) 
-     , (45427,  1402,      2) 
-     , (45427,  1589,      2) 
-     , (45427,  1591,      2) 
-     , (45427,  1592,      2) 
-     , (45427,  1603,      2) 
-     , (45427,  1604,      2) 
-     , (45427,  1605,      2) 
-     , (45427,  1613,      2) 
-     , (45427,  1614,      2) 
-     , (45427,  1615,      2) 
-     , (45427,  1616,      2) 
-     , (45427,  1626,      2) 
-     , (45427,  1627,      2) 
-     , (45427,  2096,      2) 
-     , (45427,  2101,      2) 
-     , (45427,  2106,      2) 
-     , (45427,  2531,      2) 
-     , (45427,  2537,      2) 
-     , (45427,  2549,      2) 
-     , (45427,  2570,      2) 
-     , (45427,  2573,      2) 
-     , (45427,  2578,      2) 
-     , (45427,  2579,      2) 
-     , (45427,  2582,      2) 
-     , (45427,  2588,      2) 
-     , (45427,  2591,      2) 
-     , (45427,  2598,      2) 
-     , (45427,  2603,      2) 
-     , (45427,  2608,      2) 
-     , (45427,  2611,      2) 
-     , (45427,  2615,      2) 
-     , (45427,  3833,      2) 
-     , (45427,  4019,      2) 
-     , (45427,  4226,      2) 
-     , (45427,  4319,      2) 
-     , (45427,  4325,      2) 
-     , (45427,  4395,      2) 
-     , (45427,  4405,      2) 
-     , (45427,  4417,      2) 
-     , (45427,  4661,      2) 
-     , (45427,  4698,      2) 
-     , (45427,  5786,      2) 
-     , (45427,  5808,      2) 
-     , (45427,  5809,      2) 
-     , (45427,  5880,      2) 
-     , (45427,  6103,      2) ;

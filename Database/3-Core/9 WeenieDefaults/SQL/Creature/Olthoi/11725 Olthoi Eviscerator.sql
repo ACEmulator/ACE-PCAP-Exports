@@ -6,11 +6,9 @@ VALUES (11725, 'olthoibutcherspecial_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11725,   1,         16) /* ItemType - Creature */
      , (11725,   2,          1) /* CreatureType - Olthoi */
-     , (11725,   5,       6441) /* EncumbranceVal */
      , (11725,   6,        255) /* ItemsCapacity */
      , (11725,   7,        255) /* ContainersCapacity */
      , (11725,  16,          1) /* ItemUseable - No */
-     , (11725,  19,          0) /* Value */
      , (11725,  25,         80) /* Level */
      , (11725,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11725, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (11725,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11725,   1, 'Olthoi Eviscerator') /* Name */
-     , (11725,  16, 'Killed by Chatlin.') /* LongDesc */
      , (11725, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

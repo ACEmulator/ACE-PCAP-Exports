@@ -6,11 +6,9 @@ VALUES (11885, 'tumerokcrestfalcon', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11885,   1,         16) /* ItemType - Creature */
      , (11885,   2,          6) /* CreatureType - Tumerok */
-     , (11885,   5,        150) /* EncumbranceVal */
      , (11885,   6,        255) /* ItemsCapacity */
      , (11885,   7,        255) /* ContainersCapacity */
      , (11885,  16,          1) /* ItemUseable - No */
-     , (11885,  19,        200) /* Value */
      , (11885,  25,         50) /* Level */
      , (11885,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11885, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -35,7 +35,7 @@ VALUES (11823,   1,   33554809) /* Setup */
      , (11823,   6,   67111919) /* PaletteBase */
      , (11823,   8,  100672150) /* Icon */
      , (11823,  22,  872415275) /* PhysicsEffectTable */
-     , (11823,  28,       2477) /* Spell */
+     , (11823,  28,       2477) /* Spell - PORTALTUMEROKWARALU */
      , (11823, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (11823, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (11823, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

@@ -10,14 +10,10 @@ VALUES (48012,   1,          1) /* ItemType - MeleeWeapon */
      , (48012,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48012,  16,          1) /* ItemUseable - No */
      , (48012,  19,        155) /* Value */
-     , (48012,  28,        228) /* ArmorLevel */
      , (48012,  51,          1) /* CombatUse - Melee */
      , (48012,  65,          1) /* Placement - RightHandCombat */
      , (48012,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48012, 105,          8) /* ItemWorkmanship */
-     , (48012, 131,         61) /* MaterialType - Iron */
-     , (48012, 151,          2) /* HookType - Wall */
-     , (48012, 172,          1) /* AppraisalLongDescDecoration */;
+     , (48012, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48012,   1, False) /* Stuck */
@@ -25,22 +21,10 @@ VALUES (48012,   1, False) /* Stuck */
      , (48012,  13, True ) /* Ethereal */
      , (48012,  14, True ) /* GravityStatus */
      , (48012,  19, True ) /* Attackable */
-     , (48012,  22, True ) /* Inscribable */
-     , (48012, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48012,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (48012,  14,       1) /* ArmorModVsPierce */
-     , (48012,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (48012,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (48012,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (48012,  18,     0.5) /* ArmorModVsAcid */
-     , (48012,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (48012, 165,       1) /* ArmorModVsNether */;
+     , (48012,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48012,   1, 'Nekode') /* Name */
-     , (48012,  16, 'Chainmail Greaves') /* LongDesc */;
+VALUES (48012,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48012,   1,   33555996) /* Setup */

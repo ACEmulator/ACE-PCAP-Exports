@@ -6,43 +6,19 @@ VALUES (38276, 'ace38276-kotaroueda', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38276,   1,         16) /* ItemType - Creature */
      , (38276,   2,         31) /* CreatureType - Human */
-     , (38276,   5,         30) /* EncumbranceVal */
      , (38276,   6,        255) /* ItemsCapacity */
      , (38276,   7,        255) /* ContainersCapacity */
      , (38276,  16,         32) /* ItemUseable - Remote */
-     , (38276,  19,       2000) /* Value */
      , (38276,  25,        190) /* Level */
-     , (38276,  28,        256) /* ArmorLevel */
-     , (38276,  44,         60) /* Damage */
-     , (38276,  45,          4) /* DamageType - Bludgeon */
-     , (38276,  47,          4) /* AttackType - Slash */
-     , (38276,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (38276,  49,         43) /* WeaponTime */
      , (38276,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38276,  95,          8) /* RadarBlipColor - Yellow */
-     , (38276, 105,          7) /* ItemWorkmanship */
-     , (38276, 106,        270) /* ItemSpellcraft */
-     , (38276, 107,        781) /* ItemCurMana */
-     , (38276, 108,        781) /* ItemMaxMana */
-     , (38276, 109,        270) /* ItemDifficulty */
-     , (38276, 110,          0) /* ItemAllegianceRankLimit */
      , (38276, 113,          1) /* Gender - Male */
-     , (38276, 115,          0) /* ItemSkillLevelLimit */
-     , (38276, 131,         22) /* MaterialType - FireOpal */
      , (38276, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38276, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38276, 158,          2) /* WieldRequirements - RawSkill */
-     , (38276, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (38276, 160,        400) /* WieldDifficulty */
-     , (38276, 172,          1) /* AppraisalLongDescDecoration */
-     , (38276, 177,          4) /* GemCount */
-     , (38276, 178,         16) /* GemType */
      , (38276, 188,          3) /* HeritageGroup - Sho */
      , (38276, 281,          4) /* Faction1Bits */
      , (38276, 289,       1001) /* SocietyRankRadblo */
-     , (38276, 353,          3) /* WeaponType - Axe */
-     , (38276, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38276, 8030,          0);
+     , (38276, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38276,   1, True ) /* Stuck */
@@ -52,33 +28,14 @@ VALUES (38276,   1, True ) /* Stuck */
      , (38276,  14, True ) /* GravityStatus */
      , (38276,  19, False) /* Attackable */
      , (38276,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38276,  42, True ) /* AllowEdgeSlide */
-     , (38276, 100, True ) /* Dyable */;
+     , (38276,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38276,   5,   -0.05) /* ManaRate */
-     , (38276,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38276,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38276,  15,       1) /* ArmorModVsBludgeon */
-     , (38276,  16,     0.5) /* ArmorModVsCold */
-     , (38276,  17,     0.5) /* ArmorModVsFire */
-     , (38276,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (38276,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38276,  21,       0) /* WeaponLength */
-     , (38276,  22,    0.95) /* DamageVariance */
-     , (38276,  26,       0) /* MaximumVelocity */
-     , (38276,  29,    1.11) /* WeaponDefense */
-     , (38276,  54,       3) /* UseRadius */
-     , (38276,  62,    1.11) /* WeaponOffense */
-     , (38276,  63,       1) /* DamageMod */
-     , (38276, 165,       1) /* ArmorModVsNether */;
+VALUES (38276,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38276,   1, 'Kotaro Ueda') /* Name */
      , (38276,   5, 'Artifacts Task Master') /* Template */
-     , (38276,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38276,  16, 'Inscribed spell: Gelidite Bait
-Decreases a shield or piece of armor''s resistance to cold damage by 170%.') /* LongDesc */
      , (38276, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -116,15 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38276,   1,   235, 0, 0, 235) /* MaxHealth */
      , (38276,   3,   330, 0, 0, 330) /* MaxStamina */
      , (38276,   5,   145, 0, 0, 145) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38276,  1486,      2) 
-     , (38276,  1516,      2) 
-     , (38276,  1574,      2) 
-     , (38276,  2105,      2) 
-     , (38276,  2155,      2) 
-     , (38276,  2325,      2) 
-     , (38276,  3503,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38276, 67109945, 72, 8)

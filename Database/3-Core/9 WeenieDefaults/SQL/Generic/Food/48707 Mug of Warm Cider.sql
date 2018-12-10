@@ -37,7 +37,7 @@ VALUES (48707,   1,   33554667) /* Setup */
      , (48707,   3,  536870932) /* SoundTable */
      , (48707,   8,  100667432) /* Icon */
      , (48707,  22,  872415275) /* PhysicsEffectTable */
-     , (48707,  28,       6038) /* Spell */
+     , (48707,  28,       6038) /* Spell - CiderStamina */
      , (48707, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (48707, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (48707, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

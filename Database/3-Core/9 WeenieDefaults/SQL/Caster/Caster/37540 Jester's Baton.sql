@@ -34,7 +34,7 @@ VALUES (37540,   1,   33560537) /* Setup */
      , (37540,   6,   67111919) /* PaletteBase */
      , (37540,   8,  100689843) /* Icon */
      , (37540,  22,  872415275) /* PhysicsEffectTable */
-     , (37540,  28,       4264) /* Spell */
+     , (37540,  28,       4264) /* Spell - ArcaneDeath */
      , (37540, 8001,    7045264) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell */
      , (37540, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37540, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

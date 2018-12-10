@@ -22,17 +22,7 @@ VALUES (48300,   1,        256) /* ItemType - MissileWeapon */
      , (48300,  51,          3) /* CombatUse - Ammo */
      , (48300,  65,          1) /* Placement - RightHandCombat */
      , (48300,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48300, 105,          6) /* ItemWorkmanship */
-     , (48300, 106,        300) /* ItemSpellcraft */
-     , (48300, 107,        545) /* ItemCurMana */
-     , (48300, 108,        545) /* ItemMaxMana */
-     , (48300, 109,          0) /* ItemDifficulty */
-     , (48300, 110,          0) /* ItemAllegianceRankLimit */
-     , (48300, 115,          0) /* ItemSkillLevelLimit */
-     , (48300, 117,        350) /* ItemManaCost */
-     , (48300, 131,         13) /* MaterialType - Aquamarine */
      , (48300, 151,          2) /* HookType - Wall */
-     , (48300, 172,          1) /* AppraisalLongDescDecoration */
      , (48300, 179,          0) /* ImbuedEffect - Undef */
      , (48300, 303,          0) /* ImbuedEffect2 - Undef */
      , (48300, 304,          0) /* ImbuedEffect3 - Undef */
@@ -41,7 +31,6 @@ VALUES (48300,   1,        256) /* ItemType - MissileWeapon */
      , (48300, 307,          5) /* DamageRating */
      , (48300, 313,          0) /* CritRating */
      , (48300, 314,          0) /* CritDamageRating */
-     , (48300, 353,         10) /* WeaponType - Thrown */
      , (48300, 386,          0) /* Overpower */
      , (48300, 8030,          0);
 
@@ -67,8 +56,7 @@ VALUES (48300,  21,       0) /* WeaponLength */
      , (48300, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48300,   1, 'Arrow') /* Name */
-     , (48300,  16, 'Gem of Protection') /* LongDesc */;
+VALUES (48300,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48300,   1,   33555406) /* Setup */
@@ -89,9 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48300,   3, 2448376252) /* Wielder */
      , (48300, 8000, 2448376287) /* PCAPRecordedObjectIID */
      , (48300, 8008, 2448376252) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48300,  2053,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48300, 67111921, 0, 0);

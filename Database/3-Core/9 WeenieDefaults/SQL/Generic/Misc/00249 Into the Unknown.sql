@@ -22,8 +22,6 @@ VALUES (249,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (249,   1, 'Into the Unknown') /* Name */
-     , (249,   7, 'Welcome to my home!') /* Inscription */
-     , (249,   8, 'Ripley') /* ScribeName */
      , (249,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

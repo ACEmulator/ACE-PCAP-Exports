@@ -18,7 +18,6 @@ VALUES (48494,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48494,   1, False) /* Stuck */
-     , (48494,   2, False) /* Open */
      , (48494,  11, True ) /* IgnoreCollisions */
      , (48494,  13, True ) /* Ethereal */
      , (48494,  14, True ) /* GravityStatus */
@@ -26,8 +25,7 @@ VALUES (48494,   1, False) /* Stuck */
      , (48494,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48494,   1, 'Flaming Katar') /* Name */
-     , (48494,  16, 'Killed by Mag-three.') /* LongDesc */;
+VALUES (48494,   1, 'Flaming Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48494,   1,   33555740) /* Setup */

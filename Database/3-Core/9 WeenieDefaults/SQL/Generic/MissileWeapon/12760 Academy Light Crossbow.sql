@@ -42,8 +42,6 @@ VALUES (12760,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12760,   1, 'Academy Light Crossbow') /* Name */
-     , (12760,   7, '87.3S, 80.2W') /* Inscription */
-     , (12760,   8, 'Asoph') /* ScribeName */
      , (12760,  15, 'An enhanced crossbow crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

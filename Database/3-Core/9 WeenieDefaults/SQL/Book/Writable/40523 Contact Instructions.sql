@@ -5,11 +5,9 @@ VALUES (40523, 'ace40523-contactinstructions', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40523,   1,       8192) /* ItemType - Writable */
-     , (40523,   2,         79) /* CreatureType - Eater */
      , (40523,   5,         10) /* EncumbranceVal */
      , (40523,  16,          8) /* ItemUseable - Contained */
      , (40523,  19,          0) /* Value */
-     , (40523,  25,        135) /* Level */
      , (40523,  33,          1) /* Bonded - Bonded */
      , (40523,  65,        101) /* Placement - Resting */
      , (40523,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -33,8 +31,7 @@ VALUES (40523,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40523,   1, 'Contact Instructions') /* Name */
-     , (40523,  15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* ShortDesc */
-     , (40523,  16, 'Killed by Mag-five.') /* LongDesc */;
+     , (40523,  15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40523,   1,   33554773) /* Setup */
@@ -48,6 +45,3 @@ VALUES (40523,   1,   33554773) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40523,   2, 3709631316) /* Container */
      , (40523, 8000, 3709631005) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40523,   1,   720, 0, 0, 720) /* MaxHealth */;

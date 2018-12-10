@@ -26,9 +26,6 @@ VALUES (34406,  39, 0.400000005960464) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34406,   1, 'Pack Scold') /* Name */
-     , (34406,   7, 'pifft
-') /* Inscription */
-     , (34406,   8, 'The unspoken one') /* ScribeName */
      , (34406,  14, 'This pack doll can be placed on floor and yard hooks.') /* Use */
      , (34406,  16, 'A Scold Pack Doll with angry eyes.') /* LongDesc */
      , (34406, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;

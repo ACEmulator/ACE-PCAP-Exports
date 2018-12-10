@@ -11,18 +11,10 @@ VALUES (47428,   1,          1) /* ItemType - MeleeWeapon */
      , (47428,  16,          1) /* ItemUseable - No */
      , (47428,  18,        256) /* UiEffects - Acid */
      , (47428,  19,        350) /* Value */
-     , (47428,  28,        286) /* ArmorLevel */
      , (47428,  51,          1) /* CombatUse - Melee */
      , (47428,  65,          1) /* Placement - RightHandCombat */
      , (47428,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47428, 105,          7) /* ItemWorkmanship */
-     , (47428, 131,         59) /* MaterialType - Copper */
-     , (47428, 151,          2) /* HookType - Wall */
-     , (47428, 158,          7) /* WieldRequirements - Level */
-     , (47428, 159,          1) /* WieldSkilltype - Axe */
-     , (47428, 160,        180) /* WieldDifficulty */
-     , (47428, 172,          1) /* AppraisalLongDescDecoration */
-     , (47428, 375,          1) /* GearCritDamageResist */;
+     , (47428, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47428,   1, False) /* Stuck */
@@ -30,22 +22,10 @@ VALUES (47428,   1, False) /* Stuck */
      , (47428,  13, True ) /* Ethereal */
      , (47428,  14, True ) /* GravityStatus */
      , (47428,  19, True ) /* Attackable */
-     , (47428,  22, True ) /* Inscribable */
-     , (47428, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47428,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (47428,  14,       1) /* ArmorModVsPierce */
-     , (47428,  15,       1) /* ArmorModVsBludgeon */
-     , (47428,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (47428,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (47428,  18, 1.15109062194824) /* ArmorModVsAcid */
-     , (47428,  19, 1.02071964740753) /* ArmorModVsElectric */
-     , (47428, 165,       1) /* ArmorModVsNether */;
+     , (47428,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47428,   1, 'Acid Mace') /* Name */
-     , (47428,  16, 'Alduressa Boots') /* LongDesc */;
+VALUES (47428,   1, 'Acid Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47428,   1,   33555759) /* Setup */

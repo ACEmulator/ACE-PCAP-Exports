@@ -56,7 +56,7 @@ VALUES (33206,   1,   33559932) /* Setup */
      , (33206,   6,   67116700) /* PaletteBase */
      , (33206,   8,  100688016) /* Icon */
      , (33206,  22,  872415275) /* PhysicsEffectTable */
-     , (33206,  28,       2282) /* Spell */
+     , (33206,  28,       2282) /* Spell - MagicYieldOther7 */
      , (33206,  50,  100688914) /* IconOverlay */
      , (33206, 8001, 1349222552) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType, IconOverlay */
      , (33206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */

@@ -5,14 +5,12 @@ VALUES (47466, 'ace47466-lightningmace', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47466,   1,          1) /* ItemType - MeleeWeapon */
-     , (47466,   2,          8) /* CreatureType - Tusker */
      , (47466,   5,        800) /* EncumbranceVal */
      , (47466,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47466,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47466,  16,          1) /* ItemUseable - No */
      , (47466,  18,         64) /* UiEffects - Lightning */
      , (47466,  19,        350) /* Value */
-     , (47466,  25,         80) /* Level */
      , (47466,  51,          1) /* CombatUse - Melee */
      , (47466,  65,          1) /* Placement - RightHandCombat */
      , (47466,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,8 +25,7 @@ VALUES (47466,   1, False) /* Stuck */
      , (47466,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47466,   1, 'Lightning Mace') /* Name */
-     , (47466,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */;
+VALUES (47466,   1, 'Lightning Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47466,   1,   33555744) /* Setup */
@@ -49,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47466,   3, 3697426425) /* Wielder */
      , (47466, 8000, 3695636041) /* PCAPRecordedObjectIID */
      , (47466, 8008, 3697426425) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47466,   1,   400, 0, 0, 400) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47466, 67111920, 0, 0);

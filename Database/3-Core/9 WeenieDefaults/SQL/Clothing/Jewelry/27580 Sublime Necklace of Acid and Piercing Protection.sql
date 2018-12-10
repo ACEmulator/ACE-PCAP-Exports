@@ -30,7 +30,6 @@ VALUES (27580,   1, False) /* Stuck */
      , (27580,  14, True ) /* GravityStatus */
      , (27580,  19, True ) /* Attackable */
      , (27580,  22, True ) /* Inscribable */
-     , (27580,  85, True ) /* AppraisalHasAllowedWielder */
      , (27580,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,10 +38,7 @@ VALUES (27580,   5, -0.0333333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27580,   1, 'Sublime Necklace of Acid and Piercing Protection') /* Name */
-     , (27580,   7, 'Acid 6, Piercing 6') /* Inscription */
-     , (27580,   8, 'Kamikaze Kid') /* ScribeName */
-     , (27580,  15, 'A necklace of acid and piercing protection, given by Behdo Yii for completing the Eviscerator quest.') /* ShortDesc */
-     , (27580,  25, 'Arkaina') /* CraftsmanName */;
+     , (27580,  15, 'A necklace of acid and piercing protection, given by Behdo Yii for completing the Eviscerator quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27580,   1,   33554689) /* Setup */

@@ -44,8 +44,6 @@ VALUES (7571,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7571,   1, 'Hollow Staff') /* Name */
-     , (7571,   7, 'ph33r') /* Inscription */
-     , (7571,   8, 'Arkai') /* ScribeName */
      , (7571,  16, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

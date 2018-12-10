@@ -5,11 +5,9 @@ VALUES (30489, 'seedbagwheatalfrin', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30489,   1,        128) /* ItemType - Misc */
-     , (30489,   2,         78) /* CreatureType - Fiun */
      , (30489,   5,         10) /* EncumbranceVal */
      , (30489,  16,          1) /* ItemUseable - No */
      , (30489,  19,          0) /* Value */
-     , (30489,  25,        115) /* Level */
      , (30489,  33,          1) /* Bonded - Bonded */
      , (30489,  65,        101) /* Placement - Resting */
      , (30489,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -46,9 +44,6 @@ VALUES (30489, 8040, 27132187, 22.6587, -21.7402, -0.004999995, 0.738252, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30489, 8000, 2924580804) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30489,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30489, 67111922, 0, 0);

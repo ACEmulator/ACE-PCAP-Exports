@@ -6,37 +6,14 @@ VALUES (46931, 'ace46931-ancientaqueousknight', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46931,   1,         16) /* ItemType - Creature */
      , (46931,   2,         62) /* CreatureType - Elemental */
-     , (46931,   5,         10) /* EncumbranceVal */
      , (46931,   6,        255) /* ItemsCapacity */
      , (46931,   7,        255) /* ContainersCapacity */
      , (46931,  16,          1) /* ItemUseable - No */
-     , (46931,  19,       5000) /* Value */
      , (46931,  25,        220) /* Level */
-     , (46931,  33,          1) /* Bonded - Bonded */
-     , (46931,  44,          0) /* Damage */
-     , (46931,  45,         64) /* DamageType - Electric */
-     , (46931,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (46931,  49,         40) /* WeaponTime */
      , (46931,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46931, 105,          6) /* ItemWorkmanship */
-     , (46931, 106,        326) /* ItemSpellcraft */
-     , (46931, 107,       1089) /* ItemCurMana */
-     , (46931, 108,       1089) /* ItemMaxMana */
-     , (46931, 109,        162) /* ItemDifficulty */
-     , (46931, 110,          0) /* ItemAllegianceRankLimit */
-     , (46931, 115,        346) /* ItemSkillLevelLimit */
-     , (46931, 131,         58) /* MaterialType - Bronze */
      , (46931, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46931, 158,          2) /* WieldRequirements - RawSkill */
-     , (46931, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (46931, 160,        360) /* WieldDifficulty */
-     , (46931, 172,          1) /* AppraisalLongDescDecoration */
-     , (46931, 176,         47) /* AppraisalItemSkill */
-     , (46931, 204,         10) /* ElementalDamageBonus */
      , (46931, 307,          2) /* DamageRating */
-     , (46931, 353,          8) /* WeaponType - Bow */
-     , (46931, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (46931, 8030,          0);
+     , (46931, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46931,   1, True ) /* Stuck */
@@ -46,18 +23,10 @@ VALUES (46931,   1, True ) /* Stuck */
      , (46931,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46931,   5, -0.0555555555555556) /* ManaRate */
-     , (46931,  21,       0) /* WeaponLength */
-     , (46931,  22,       0) /* DamageVariance */
-     , (46931,  26,    27.3) /* MaximumVelocity */
-     , (46931,  29,    1.12) /* WeaponDefense */
-     , (46931,  39, 1.29999995231628) /* DefaultScale */
-     , (46931,  62,       1) /* WeaponOffense */
-     , (46931,  63,    2.27) /* DamageMod */;
+VALUES (46931,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46931,   1, 'Ancient Aqueous Knight') /* Name */
-     , (46931,  16, 'A concentrated copper pea.') /* LongDesc */
      , (46931, 8006, 'AAA9AEYAAADTAAAAAEAAAIC/AAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -90,10 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46931,   1,  3500, 0, 0, 3500) /* MaxHealth */
      , (46931,   3,  4720, 0, 0, 4695) /* MaxStamina */
      , (46931,   5,  4310, 0, 0, 4160) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46931,  2096,      2) 
-     , (46931,  2562,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46931, 67116725, 0, 0);

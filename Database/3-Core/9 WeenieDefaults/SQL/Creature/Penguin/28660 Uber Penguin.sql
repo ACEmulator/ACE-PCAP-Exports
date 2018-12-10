@@ -6,11 +6,9 @@ VALUES (28660, 'penguinuberlow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28660,   1,         16) /* ItemType - Creature */
      , (28660,   2,         80) /* CreatureType - Penguin */
-     , (28660,   5,       6114) /* EncumbranceVal */
      , (28660,   6,        255) /* ItemsCapacity */
      , (28660,   7,        255) /* ContainersCapacity */
      , (28660,  16,          1) /* ItemUseable - No */
-     , (28660,  19,          0) /* Value */
      , (28660,  25,        160) /* Level */
      , (28660,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28660, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (28660,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28660,   1, 'Uber Penguin') /* Name */
-     , (28660,  16, 'Killed by Mag-five.') /* LongDesc */
      , (28660, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

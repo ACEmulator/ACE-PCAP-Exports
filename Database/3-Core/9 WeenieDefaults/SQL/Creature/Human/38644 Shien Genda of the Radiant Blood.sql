@@ -6,44 +6,19 @@ VALUES (38644, 'ace38644-shiengendaoftheradiantblood', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38644,   1,         16) /* ItemType - Creature */
      , (38644,   2,         31) /* CreatureType - Human */
-     , (38644,   5,         50) /* EncumbranceVal */
      , (38644,   6,        255) /* ItemsCapacity */
      , (38644,   7,        255) /* ContainersCapacity */
      , (38644,  16,         32) /* ItemUseable - Remote */
-     , (38644,  19,      10000) /* Value */
      , (38644,  25,        180) /* Level */
-     , (38644,  28,        294) /* ArmorLevel */
-     , (38644,  33,          1) /* Bonded - Bonded */
      , (38644,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38644,  95,          8) /* RadarBlipColor - Yellow */
-     , (38644, 105,          9) /* ItemWorkmanship */
-     , (38644, 106,        309) /* ItemSpellcraft */
-     , (38644, 107,       1719) /* ItemCurMana */
-     , (38644, 108,       1719) /* ItemMaxMana */
-     , (38644, 109,        309) /* ItemDifficulty */
-     , (38644, 110,          0) /* ItemAllegianceRankLimit */
      , (38644, 113,          2) /* Gender - Female */
-     , (38644, 114,          1) /* Attuned - Attuned */
-     , (38644, 115,          0) /* ItemSkillLevelLimit */
-     , (38644, 131,         60) /* MaterialType - Gold */
      , (38644, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38644, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38644, 158,          7) /* WieldRequirements - Level */
-     , (38644, 159,          1) /* WieldSkilltype - Axe */
-     , (38644, 160,         75) /* WieldDifficulty */
-     , (38644, 172,          5) /* AppraisalLongDescDecoration */
-     , (38644, 177,          2) /* GemCount */
-     , (38644, 178,         22) /* GemType */
      , (38644, 188,          3) /* HeritageGroup - Sho */
      , (38644, 281,          4) /* Faction1Bits */
      , (38644, 289,        301) /* SocietyRankRadblo */
-     , (38644, 319,          1) /* ItemMaxLevel */
-     , (38644, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (38644, 8007,          0) /* PCAPRecordedAutonomousMovement */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (38644,   4,  750000000) /* ItemTotalXp */
-     , (38644,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38644,   1, True ) /* Stuck */
@@ -53,25 +28,14 @@ VALUES (38644,   1, True ) /* Stuck */
      , (38644,  14, True ) /* GravityStatus */
      , (38644,  19, False) /* Attackable */
      , (38644,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38644,  42, True ) /* AllowEdgeSlide */
-     , (38644, 100, True ) /* Dyable */;
+     , (38644,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38644,   5, -0.0555555555555556) /* ManaRate */
-     , (38644,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (38644,  14,       1) /* ArmorModVsPierce */
-     , (38644,  15,       1) /* ArmorModVsBludgeon */
-     , (38644,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (38644,  17, 0.67333459854126) /* ArmorModVsFire */
-     , (38644,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (38644,  19, 1.21930825710297) /* ArmorModVsElectric */
-     , (38644,  54,       3) /* UseRadius */
-     , (38644, 165,       1) /* ArmorModVsNether */;
+VALUES (38644,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38644,   1, 'Shien Genda of the Radiant Blood') /* Name */
      , (38644,   5, 'Inspector of Adepts') /* Template */
-     , (38644,  16, 'A glowing ball of Coalesced Aetheria.') /* LongDesc */
      , (38644, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -109,10 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38644,   1,   195, 0, 0, 195) /* MaxHealth */
      , (38644,   3,   350, 0, 0, 350) /* MaxStamina */
      , (38644,   5,   255, 0, 0, 255) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38644,  2108,      2) 
-     , (38644,  2309,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38644, 67109964, 92, 4)

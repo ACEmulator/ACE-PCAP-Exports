@@ -38,7 +38,6 @@ VALUES (51967,   1, False) /* Stuck */
      , (51967,  19, True ) /* Attackable */
      , (51967,  22, True ) /* Inscribable */
      , (51967,  85, True ) /* AppraisalHasAllowedWielder */
-     , (51967,  91, True ) /* Retained */
      , (51967,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -55,8 +54,6 @@ VALUES (51967,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51967,   1, 'Rynthid Tentacle Spear') /* Name */
-     , (51967,   7, '"Ruination"') /* Inscription */
-     , (51967,   8, 'Azrakin') /* ScribeName */
      , (51967,  15, 'A one handed spear crafted from enchanted obsidian and Rynthid tentacles.') /* ShortDesc */
      , (51967,  25, 'Tradnor Jr') /* CraftsmanName */;
 

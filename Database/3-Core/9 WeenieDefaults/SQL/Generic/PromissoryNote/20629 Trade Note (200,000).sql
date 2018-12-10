@@ -10,49 +10,19 @@ VALUES (20629,   1,     262144) /* ItemType - PromissoryNote */
      , (20629,  12,          6) /* StackSize */
      , (20629,  16,          1) /* ItemUseable - No */
      , (20629,  19,    1200000) /* Value */
-     , (20629,  28,        292) /* ArmorLevel */
      , (20629,  33,          1) /* Bonded - Bonded */
-     , (20629,  36,       9999) /* ResistMagic */
      , (20629,  65,        101) /* Placement - Resting */
-     , (20629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20629, 105,          6) /* ItemWorkmanship */
-     , (20629, 106,        277) /* ItemSpellcraft */
-     , (20629, 107,        654) /* ItemCurMana */
-     , (20629, 108,        654) /* ItemMaxMana */
-     , (20629, 109,        173) /* ItemDifficulty */
-     , (20629, 110,          0) /* ItemAllegianceRankLimit */
-     , (20629, 115,        207) /* ItemSkillLevelLimit */
-     , (20629, 131,         63) /* MaterialType - Silver */
-     , (20629, 158,          2) /* WieldRequirements - RawSkill */
-     , (20629, 159,          7) /* WieldSkilltype - MissileDefense */
-     , (20629, 160,        205) /* WieldDifficulty */
-     , (20629, 172,          5) /* AppraisalLongDescDecoration */
-     , (20629, 176,          7) /* AppraisalItemSkill */
-     , (20629, 177,          2) /* GemCount */
-     , (20629, 178,         21) /* GemType */;
+     , (20629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20629,   1, False) /* Stuck */
      , (20629,  11, True ) /* IgnoreCollisions */
      , (20629,  13, True ) /* Ethereal */
      , (20629,  14, True ) /* GravityStatus */
-     , (20629,  19, True ) /* Attackable */
-     , (20629, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20629,   5, -0.0555555555555556) /* ManaRate */
-     , (20629,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (20629,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (20629,  15, 1.29999995231628) /* ArmorModVsBludgeon */
-     , (20629,  16,       1) /* ArmorModVsCold */
-     , (20629,  17, 1.60000002384186) /* ArmorModVsFire */
-     , (20629,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (20629,  19, 1.60000002384186) /* ArmorModVsElectric */
-     , (20629, 165,       1) /* ArmorModVsNether */;
+     , (20629,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20629,   1, 'Trade Note (200,000)') /* Name */
-     , (20629,  16, 'Covenant Bracers of Endurance') /* LongDesc */
      , (20629,  20, 'Trade Notes (200,000)') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -67,9 +37,3 @@ VALUES (20629,   1,   33554773) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20629,   2, 2988350748) /* Container */
      , (20629, 8000, 2988396311) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20629,  1562,      2) 
-     , (20629,  2061,      2) 
-     , (20629,  2092,      2) 
-     , (20629,  2108,      2) ;

@@ -22,9 +22,6 @@ VALUES (31757,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31757,   1, 'Fertilized Pitcher Plant') /* Name */
-     , (31757,   7, 'mine
-') /* Inscription */
-     , (31757,   8, 'Jurist') /* ScribeName */
      , (31757,  15, 'A *MONSTER* Pitcher Plant. It twitches gently as you watch it, but it seems ... sated. Thank goodness for that -- it could eat you whole!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

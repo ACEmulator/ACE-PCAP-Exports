@@ -6,44 +6,16 @@ VALUES (4253, 'shadowpanumbris', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4253,   1,         16) /* ItemType - Creature */
      , (4253,   2,         22) /* CreatureType - Shadow */
-     , (4253,   5,       8168) /* EncumbranceVal */
      , (4253,   6,        255) /* ItemsCapacity */
      , (4253,   7,        255) /* ContainersCapacity */
      , (4253,  16,          1) /* ItemUseable - No */
-     , (4253,  19,          0) /* Value */
      , (4253,  25,         80) /* Level */
-     , (4253,  28,        283) /* ArmorLevel */
-     , (4253,  33,          1) /* Bonded - Bonded */
-     , (4253,  44,         26) /* Damage */
-     , (4253,  45,          8) /* DamageType - Cold */
-     , (4253,  47,          4) /* AttackType - Slash */
-     , (4253,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (4253,  49,         50) /* WeaponTime */
      , (4253,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (4253, 105,          7) /* ItemWorkmanship */
-     , (4253, 106,        294) /* ItemSpellcraft */
-     , (4253, 107,       1401) /* ItemCurMana */
-     , (4253, 108,       1401) /* ItemMaxMana */
-     , (4253, 109,        226) /* ItemDifficulty */
-     , (4253, 110,          0) /* ItemAllegianceRankLimit */
      , (4253, 113,          2) /* Gender - Female */
-     , (4253, 115,          0) /* ItemSkillLevelLimit */
-     , (4253, 117,        350) /* ItemManaCost */
-     , (4253, 131,         52) /* MaterialType - Leather */
      , (4253, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4253, 158,          2) /* WieldRequirements - RawSkill */
-     , (4253, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (4253, 160,        325) /* WieldDifficulty */
-     , (4253, 172,          5) /* AppraisalLongDescDecoration */
-     , (4253, 176,         41) /* AppraisalItemSkill */
-     , (4253, 177,          2) /* GemCount */
-     , (4253, 178,         13) /* GemType */
      , (4253, 188,          1) /* HeritageGroup - Aluvian */
-     , (4253, 292,          2) /* Cleaving */
      , (4253, 307,          5) /* DamageRating */
-     , (4253, 353,         11) /* WeaponType - TwoHanded */
-     , (4253, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (4253, 8030,          0);
+     , (4253, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4253,   1, True ) /* Stuck */
@@ -51,33 +23,13 @@ VALUES (4253,   1, True ) /* Stuck */
      , (4253,  13, False) /* Ethereal */
      , (4253,  14, True ) /* GravityStatus */
      , (4253,  19, True ) /* Attackable */
-     , (4253,  42, True ) /* AllowEdgeSlide */
-     , (4253, 100, True ) /* Dyable */;
+     , (4253,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4253,   5, -0.0555555555555556) /* ManaRate */
-     , (4253,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (4253,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (4253,  15,       1) /* ArmorModVsBludgeon */
-     , (4253,  16,     0.5) /* ArmorModVsCold */
-     , (4253,  17, 1.07085192203522) /* ArmorModVsFire */
-     , (4253,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (4253,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (4253,  21,       0) /* WeaponLength */
-     , (4253,  22,     0.4) /* DamageVariance */
-     , (4253,  26,       0) /* MaximumVelocity */
-     , (4253,  29,    1.08) /* WeaponDefense */
-     , (4253,  62,     1.1) /* WeaponOffense */
-     , (4253,  63,       1) /* DamageMod */
-     , (4253,  76,     0.5) /* Translucency */
-     , (4253,  87,       2) /* ItemEfficiency */
-     , (4253, 137,     0.2) /* ManaStoneDestroyChance */
-     , (4253, 165,       1) /* ArmorModVsNether */;
+VALUES (4253,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4253,   1, 'Panumbris Shadow') /* Name */
-     , (4253,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (4253,  16, 'Killed by Kilzeer.') /* LongDesc */
      , (4253, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -116,24 +68,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4253,   1,   255, 0, 0, 255) /* MaxHealth */
      , (4253,   3,   370, 0, 0, 370) /* MaxStamina */
      , (4253,   5,   330, 0, 0, 330) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4253,   562,      2) 
-     , (4253,  1107,      2) 
-     , (4253,  1312,      2) 
-     , (4253,  1450,      2) 
-     , (4253,  1486,      2) 
-     , (4253,  1539,      2) 
-     , (4253,  1552,      2) 
-     , (4253,  1616,      2) 
-     , (4253,  2098,      2) 
-     , (4253,  2108,      2) 
-     , (4253,  2157,      2) 
-     , (4253,  2554,      2) 
-     , (4253,  2579,      2) 
-     , (4253,  2607,      2) 
-     , (4253,  5885,      2) 
-     , (4253,  6013,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4253, 67112860, 0, 0);

@@ -10,30 +10,10 @@ VALUES (47354,   1,          1) /* ItemType - MeleeWeapon */
      , (47354,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47354,  16,          1) /* ItemUseable - No */
      , (47354,  19,        350) /* Value */
-     , (47354,  44,          0) /* Damage */
-     , (47354,  45,          8) /* DamageType - Cold */
-     , (47354,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (47354,  49,         38) /* WeaponTime */
      , (47354,  51,          1) /* CombatUse - Melee */
      , (47354,  65,          1) /* Placement - RightHandCombat */
      , (47354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47354, 105,          7) /* ItemWorkmanship */
-     , (47354, 106,        302) /* ItemSpellcraft */
-     , (47354, 107,       1167) /* ItemCurMana */
-     , (47354, 108,       1167) /* ItemMaxMana */
-     , (47354, 109,        210) /* ItemDifficulty */
-     , (47354, 110,          0) /* ItemAllegianceRankLimit */
-     , (47354, 115,        322) /* ItemSkillLevelLimit */
-     , (47354, 131,         75) /* MaterialType - Oak */
-     , (47354, 151,          2) /* HookType - Wall */
-     , (47354, 158,          2) /* WieldRequirements - RawSkill */
-     , (47354, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (47354, 160,        360) /* WieldDifficulty */
-     , (47354, 172,          1) /* AppraisalLongDescDecoration */
-     , (47354, 176,         47) /* AppraisalItemSkill */
-     , (47354, 204,         15) /* ElementalDamageBonus */
-     , (47354, 353,          8) /* WeaponType - Bow */
-     , (47354, 8030,          0);
+     , (47354, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47354,   1, False) /* Stuck */
@@ -43,18 +23,8 @@ VALUES (47354,   1, False) /* Stuck */
      , (47354,  19, True ) /* Attackable */
      , (47354,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47354,   5, -0.0555555555555556) /* ManaRate */
-     , (47354,  21,       0) /* WeaponLength */
-     , (47354,  22,       0) /* DamageVariance */
-     , (47354,  26,    27.3) /* MaximumVelocity */
-     , (47354,  29,    1.18) /* WeaponDefense */
-     , (47354,  62,       1) /* WeaponOffense */
-     , (47354,  63,    2.23) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47354,   1, 'Club') /* Name */
-     , (47354,  16, 'Frost Bow of Swiftkiller') /* LongDesc */;
+VALUES (47354,   1, 'Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47354,   1,   33554731) /* Setup */
@@ -75,13 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47354,   3, 3694317492) /* Wielder */
      , (47354, 8000, 3694317669) /* PCAPRecordedObjectIID */
      , (47354, 8008, 3694317492) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47354,  2096,      2) 
-     , (47354,  2116,      2) 
-     , (47354,  4687,      2) 
-     , (47354,  4692,      2) 
-     , (47354,  5881,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47354, 67111919, 0, 0);

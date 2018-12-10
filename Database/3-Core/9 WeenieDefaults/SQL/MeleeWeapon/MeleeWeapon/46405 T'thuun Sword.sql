@@ -5,13 +5,11 @@ VALUES (46405, 'ace46405-tthuunsword', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46405,   1,          1) /* ItemType - MeleeWeapon */
-     , (46405,   2,         47) /* CreatureType - Crystal */
      , (46405,   5,        450) /* EncumbranceVal */
      , (46405,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46405,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46405,  16,          1) /* ItemUseable - No */
      , (46405,  19,       1150) /* Value */
-     , (46405,  25,         80) /* Level */
      , (46405,  51,          1) /* CombatUse - Melee */
      , (46405,  65,          1) /* Placement - RightHandCombat */
      , (46405,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -48,6 +46,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46405,   3, 2923403154) /* Wielder */
      , (46405, 8000, 2923406616) /* PCAPRecordedObjectIID */
      , (46405, 8008, 2923403154) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46405,   1,   180, 0, 0, 180) /* MaxHealth */;

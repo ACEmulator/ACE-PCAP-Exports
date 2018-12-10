@@ -34,9 +34,7 @@ VALUES (5851,  13, 0.800000011920929) /* ArmorModVsSlash */
      , (5851, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5851,   1, 'Faran Robe with Hood') /* Name */
-     , (5851,   7, '"Luckbringer" -- Even the most simple of items, and often those least magical in nature, can bestow luck through firm belief.') /* Inscription */
-     , (5851,   8, 'Azrakin') /* ScribeName */;
+VALUES (5851,   1, 'Faran Robe with Hood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5851,   1,   33554854) /* Setup */

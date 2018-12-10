@@ -6,27 +6,15 @@ VALUES (9498, 'gamblergmlowalu', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9498,   1,         16) /* ItemType - Creature */
      , (9498,   2,         31) /* CreatureType - Human */
-     , (9498,   5,          5) /* EncumbranceVal */
      , (9498,   6,        255) /* ItemsCapacity */
      , (9498,   7,        255) /* ContainersCapacity */
      , (9498,  16,         32) /* ItemUseable - Remote */
-     , (9498,  19,       2668) /* Value */
      , (9498,  25,         16) /* Level */
      , (9498,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9498,  95,          8) /* RadarBlipColor - Yellow */
-     , (9498, 105,          7) /* ItemWorkmanship */
-     , (9498, 106,        300) /* ItemSpellcraft */
-     , (9498, 107,        584) /* ItemCurMana */
-     , (9498, 108,        584) /* ItemMaxMana */
-     , (9498, 109,          0) /* ItemDifficulty */
-     , (9498, 110,          0) /* ItemAllegianceRankLimit */
      , (9498, 113,          2) /* Gender - Female */
-     , (9498, 115,          0) /* ItemSkillLevelLimit */
-     , (9498, 117,        350) /* ItemManaCost */
-     , (9498, 131,         21) /* MaterialType - Emerald */
      , (9498, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9498, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9498, 172,          1) /* AppraisalLongDescDecoration */
      , (9498, 188,          1) /* HeritageGroup - Aluvian */
      , (9498, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -46,7 +34,6 @@ VALUES (9498,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9498,   1, 'Aluvian Low-Stakes Gamesmaster') /* Name */
      , (9498,   5, 'Gamesmaster') /* Template */
-     , (9498,  16, 'Gem of Strength') /* LongDesc */
      , (9498, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9498,   1,    70, 0, 0, 70) /* MaxHealth */
      , (9498,   3,   240, 0, 0, 240) /* MaxStamina */
      , (9498,   5,   105, 0, 0, 105) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9498,  2087,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9498, 67109558, 0, 24)

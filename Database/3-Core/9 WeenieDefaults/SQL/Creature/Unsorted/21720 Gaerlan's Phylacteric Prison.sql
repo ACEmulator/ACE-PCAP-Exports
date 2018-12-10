@@ -5,7 +5,6 @@ VALUES (21720, 'chestgaerlanprison', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21720,   1,         16) /* ItemType - Creature */
-     , (21720,   5,          0) /* EncumbranceVal */
      , (21720,   6,        255) /* ItemsCapacity */
      , (21720,   7,        255) /* ContainersCapacity */
      , (21720,  16,         32) /* ItemUseable - Remote */

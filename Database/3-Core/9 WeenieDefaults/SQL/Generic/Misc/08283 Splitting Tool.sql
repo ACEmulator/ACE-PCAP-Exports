@@ -29,8 +29,6 @@ VALUES (8283,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8283,   1, 'Splitting Tool') /* Name */
-     , (8283,   7, 'You mangle Umbris Shadow for 497 points with Evisceration  62.2s 59.9w Tusker Camp by OP BSD') /* Inscription */
-     , (8283,   8, 'Cyndra') /* ScribeName */
      , (8283,  14, 'Use this tool to split a pea.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

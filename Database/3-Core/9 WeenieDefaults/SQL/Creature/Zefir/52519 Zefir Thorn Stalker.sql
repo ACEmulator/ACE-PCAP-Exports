@@ -6,11 +6,9 @@ VALUES (52519, 'ace52519-zefirthornstalker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52519,   1,         16) /* ItemType - Creature */
      , (52519,   2,         29) /* CreatureType - Zefir */
-     , (52519,   5,       6095) /* EncumbranceVal */
      , (52519,   6,        255) /* ItemsCapacity */
      , (52519,   7,        255) /* ContainersCapacity */
      , (52519,  16,          1) /* ItemUseable - No */
-     , (52519,  19,          0) /* Value */
      , (52519,  25,        265) /* Level */
      , (52519,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (52519, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (52519,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52519,   1, 'Zefir Thorn Stalker') /* Name */
-     , (52519,  16, 'Killed by Hawkeye the Ranger''s K''nath.') /* LongDesc */
      , (52519, 8006, 'AAA9AEAAAADNzMy+') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

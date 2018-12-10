@@ -27,7 +27,6 @@ VALUES (377,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (377,   1, 'Potion of Healing') /* Name */
      , (377,  14, 'Use this item to drink it.') /* Use */
-     , (377,  16, 'Killed by Mag-seven.') /* LongDesc */
      , (377,  20, 'Potions of Healing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

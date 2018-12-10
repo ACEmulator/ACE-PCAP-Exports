@@ -41,7 +41,7 @@ VALUES (30195,   1,   33554809) /* Setup */
      , (30195,   3,  536870932) /* SoundTable */
      , (30195,   8,  100686697) /* Icon */
      , (30195,  22,  872415275) /* PhysicsEffectTable */
-     , (30195,  28,       3693) /* Spell */
+     , (30195,  28,       3693) /* Spell - CookingMasteryRare */
      , (30195,  50,  100686639) /* IconOverlay */
      , (30195,  52,  100686604) /* IconUnderlay */
      , (30195, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */

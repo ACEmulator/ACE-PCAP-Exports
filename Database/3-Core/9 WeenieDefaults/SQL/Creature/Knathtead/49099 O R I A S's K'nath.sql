@@ -14,8 +14,6 @@ VALUES (49099,   1,         16) /* ItemType - Creature */
      , (49099, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49099, 307,         18) /* DamageRating */
      , (49099, 308,          5) /* DamageResistRating */
-     , (49099, 313,         12) /* CritRating */
-     , (49099, 314,         10) /* CritDamageRating */
      , (49099, 315,         17) /* CritResistRating */
      , (49099, 316,          2) /* CritDamageResistRating */
      , (49099, 8007,          0) /* PCAPRecordedAutonomousMovement */;

@@ -6,40 +6,19 @@ VALUES (38430, 'ace38430-piaducinghalle', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38430,   1,         16) /* ItemType - Creature */
      , (38430,   2,         31) /* CreatureType - Human */
-     , (38430,   5,       6617) /* EncumbranceVal */
      , (38430,   6,        255) /* ItemsCapacity */
      , (38430,   7,        255) /* ContainersCapacity */
      , (38430,  16,         32) /* ItemUseable - Remote */
-     , (38430,  19,          0) /* Value */
      , (38430,  25,        185) /* Level */
-     , (38430,  28,        226) /* ArmorLevel */
-     , (38430,  44,         10) /* Damage */
-     , (38430,  45,          4) /* DamageType - Bludgeon */
-     , (38430,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (38430,  49,         10) /* WeaponTime */
      , (38430,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38430,  95,          8) /* RadarBlipColor - Yellow */
-     , (38430, 105,          9) /* ItemWorkmanship */
-     , (38430, 106,        269) /* ItemSpellcraft */
-     , (38430, 107,       1323) /* ItemCurMana */
-     , (38430, 108,       1323) /* ItemMaxMana */
-     , (38430, 109,        269) /* ItemDifficulty */
-     , (38430, 110,          0) /* ItemAllegianceRankLimit */
      , (38430, 113,          2) /* Gender - Female */
-     , (38430, 115,          0) /* ItemSkillLevelLimit */
-     , (38430, 131,         21) /* MaterialType - Emerald */
      , (38430, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38430, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38430, 172,          5) /* AppraisalLongDescDecoration */
-     , (38430, 177,          8) /* GemCount */
-     , (38430, 178,         47) /* GemType */
      , (38430, 188,          4) /* HeritageGroup - Viamontian */
      , (38430, 281,          4) /* Faction1Bits */
      , (38430, 289,        301) /* SocietyRankRadblo */
-     , (38430, 307,          5) /* DamageRating */
-     , (38430, 353,         10) /* WeaponType - Thrown */
-     , (38430, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38430, 8030,          0);
+     , (38430, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38430,   1, True ) /* Stuck */
@@ -49,32 +28,14 @@ VALUES (38430,   1, True ) /* Stuck */
      , (38430,  14, True ) /* GravityStatus */
      , (38430,  19, False) /* Attackable */
      , (38430,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38430,  42, True ) /* AllowEdgeSlide */
-     , (38430, 100, True ) /* Dyable */;
+     , (38430,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38430,   5, -0.0555555555555556) /* ManaRate */
-     , (38430,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38430,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38430,  15,       1) /* ArmorModVsBludgeon */
-     , (38430,  16, 0.988109827041626) /* ArmorModVsCold */
-     , (38430,  17, 1.14864885807037) /* ArmorModVsFire */
-     , (38430,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (38430,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38430,  21,       0) /* WeaponLength */
-     , (38430,  22,    0.25) /* DamageVariance */
-     , (38430,  26,       0) /* MaximumVelocity */
-     , (38430,  29,       1) /* WeaponDefense */
-     , (38430,  54,       3) /* UseRadius */
-     , (38430,  62,       1) /* WeaponOffense */
-     , (38430,  63,       1) /* DamageMod */
-     , (38430, 165,       1) /* ArmorModVsNether */;
+VALUES (38430,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38430,   1, 'Pia du Cinghalle') /* Name */
      , (38430,   5, 'Moar Gland Collection Taskmaster') /* Template */
-     , (38430,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38430,  16, 'Killed by Mag-six.') /* LongDesc */
      , (38430, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -112,17 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38430,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38430,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38430,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38430,  1486,      2) 
-     , (38430,  1744,      2) 
-     , (38430,  2092,      2) 
-     , (38430,  2110,      2) 
-     , (38430,  2187,      2) 
-     , (38430,  2546,      2) 
-     , (38430,  2566,      2) 
-     , (38430,  2622,      2) 
-     , (38430,  3259,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38430, 67109964, 92, 4)

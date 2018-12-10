@@ -6,33 +6,14 @@ VALUES (28050, 'golemancientcoralblue', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28050,   1,         16) /* ItemType - Creature */
      , (28050,   2,         13) /* CreatureType - Golem */
-     , (28050,   5,          5) /* EncumbranceVal */
      , (28050,   6,        255) /* ItemsCapacity */
      , (28050,   7,        255) /* ContainersCapacity */
      , (28050,  16,          1) /* ItemUseable - No */
-     , (28050,  19,        272) /* Value */
      , (28050,  25,        115) /* Level */
-     , (28050,  44,         14) /* Damage */
-     , (28050,  45,          4) /* DamageType - Bludgeon */
-     , (28050,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (28050,  49,         10) /* WeaponTime */
      , (28050,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28050, 105,          8) /* ItemWorkmanship */
-     , (28050, 106,        205) /* ItemSpellcraft */
-     , (28050, 107,       1301) /* ItemCurMana */
-     , (28050, 108,       1301) /* ItemMaxMana */
-     , (28050, 109,        153) /* ItemDifficulty */
-     , (28050, 110,          0) /* ItemAllegianceRankLimit */
-     , (28050, 115,          0) /* ItemSkillLevelLimit */
-     , (28050, 131,         24) /* MaterialType - GreenJade */
      , (28050, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28050, 172,          1) /* AppraisalLongDescDecoration */
-     , (28050, 177,          1) /* GemCount */
-     , (28050, 178,         31) /* GemType */
      , (28050, 307,          2) /* DamageRating */
-     , (28050, 353,         10) /* WeaponType - Thrown */
-     , (28050, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (28050, 8030,          0);
+     , (28050, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28050,   1, True ) /* Stuck */
@@ -42,19 +23,10 @@ VALUES (28050,   1, True ) /* Stuck */
      , (28050,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28050,   5,   -0.05) /* ManaRate */
-     , (28050,  21,       0) /* WeaponLength */
-     , (28050,  22,    0.25) /* DamageVariance */
-     , (28050,  26,       0) /* MaximumVelocity */
-     , (28050,  29,       1) /* WeaponDefense */
-     , (28050,  39, 1.20000004768372) /* DefaultScale */
-     , (28050,  62,       1) /* WeaponOffense */
-     , (28050,  63,       1) /* DamageMod */;
+VALUES (28050,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28050,   1, 'Ancient Coral Golem') /* Name */
-     , (28050,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (28050,  16, 'Gem') /* LongDesc */
      , (28050, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,10 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28050,   1,   535, 0, 0, 535) /* MaxHealth */
      , (28050,   3,   490, 0, 0, 490) /* MaxStamina */
      , (28050,   5,   435, 0, 0, 435) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28050,  1200,      2) 
-     , (28050,  1425,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28050, 67115271, 0, 0);

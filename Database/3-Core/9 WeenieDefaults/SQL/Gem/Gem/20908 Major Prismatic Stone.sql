@@ -30,8 +30,6 @@ VALUES (20908,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20908,   1, 'Major Prismatic Stone') /* Name */
-     , (20908,   7, '`') /* Inscription */
-     , (20908,   8, 'Ingmar') /* ScribeName */
      , (20908,  14, 'This stone can modify the abilities of an Isparian Weapon. ') /* Use */
      , (20908,  16, 'A shimmering stone that houses the power of all elements within. The stone shimmers at the edges. It looks as though it may be fitted into an Isparian Weapon.') /* LongDesc */;
 

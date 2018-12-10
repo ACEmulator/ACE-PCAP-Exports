@@ -28,9 +28,6 @@ VALUES (15268,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15268,   1, 'Foci of Enchantment') /* Name */
-     , (15268,   7, 'From which movie is this quote taken?
-"Buckle up back there - we''re going into... hyper-active!" - Space Balls') /* Inscription */
-     , (15268,   8, 'Minaris') /* ScribeName */
      , (15268,  15, 'A foci used to cast spells from the School of the Left Hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

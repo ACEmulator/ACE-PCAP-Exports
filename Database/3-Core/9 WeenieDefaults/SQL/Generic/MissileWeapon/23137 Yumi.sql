@@ -5,13 +5,11 @@ VALUES (23137, 'yumivod', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23137,   1,        256) /* ItemType - MissileWeapon */
-     , (23137,   2,          1) /* CreatureType - Olthoi */
      , (23137,   5,        980) /* EncumbranceVal */
      , (23137,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (23137,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (23137,  16,          1) /* ItemUseable - No */
      , (23137,  19,        400) /* Value */
-     , (23137,  25,        185) /* Level */
      , (23137,  50,          1) /* AmmoType - Arrow */
      , (23137,  51,          2) /* CombatUse - Missle */
      , (23137,  65,          3) /* Placement - LeftHand */
@@ -50,9 +48,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23137,   3, 3692201297) /* Wielder */
      , (23137, 8000, 3692201343) /* PCAPRecordedObjectIID */
      , (23137, 8008, 3692201297) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23137,   1,  2300, 0, 0, 2300) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23137, 67111920, 0, 0);

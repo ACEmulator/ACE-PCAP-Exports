@@ -5,11 +5,9 @@ VALUES (38049, 'ace38049-lilithasbrokenbow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38049,   1,        128) /* ItemType - Misc */
-     , (38049,   2,         13) /* CreatureType - Golem */
      , (38049,   5,        350) /* EncumbranceVal */
      , (38049,  16,          1) /* ItemUseable - No */
      , (38049,  19,          0) /* Value */
-     , (38049,  25,        100) /* Level */
      , (38049,  33,          1) /* Bonded - Bonded */
      , (38049,  65,        101) /* Placement - Resting */
      , (38049,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -44,9 +42,6 @@ VALUES (38049, 8040, 29753617, 21.9895, -53.2311, -5.9, 1, 0, 0, 0) /* PCAPRecor
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38049, 8000, 2618008991) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38049,   1,   455, 0, 0, 455) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38049, 67111927, 0, 0);

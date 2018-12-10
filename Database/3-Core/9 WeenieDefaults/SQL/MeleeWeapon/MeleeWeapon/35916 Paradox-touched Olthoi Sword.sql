@@ -41,8 +41,6 @@ VALUES (35916,   1, False) /* Stuck */
      , (35916,  19, True ) /* Attackable */
      , (35916,  22, True ) /* Inscribable */
      , (35916,  69, False) /* IsSellable */
-     , (35916,  85, True ) /* AppraisalHasAllowedWielder */
-     , (35916,  91, True ) /* Retained */
      , (35916,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -59,10 +57,7 @@ VALUES (35916,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35916,   1, 'Paradox-touched Olthoi Sword') /* Name */
-     , (35916,   7, '"Calamity of the Queen"') /* Inscription */
-     , (35916,   8, 'Azrakin') /* ScribeName */
-     , (35916,  16, 'A sword, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */
-     , (35916,  25, 'Makor') /* CraftsmanName */;
+     , (35916,  16, 'A sword, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35916,   1,   33560340) /* Setup */

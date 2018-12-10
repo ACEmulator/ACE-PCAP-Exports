@@ -6,18 +6,14 @@ VALUES (49404, 'ace49404-ferahpalacostsspectre', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49404,   1,         16) /* ItemType - Creature */
      , (49404,   2,         77) /* CreatureType - Ghost */
-     , (49404,   5,       6060) /* EncumbranceVal */
      , (49404,   6,        255) /* ItemsCapacity */
      , (49404,   7,        255) /* ContainersCapacity */
      , (49404,  16,          1) /* ItemUseable - No */
-     , (49404,  19,          0) /* Value */
      , (49404,  25,        125) /* Level */
      , (49404,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49404, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49404, 307,          6) /* DamageRating */
      , (49404, 308,          9) /* DamageResistRating */
-     , (49404, 313,         15) /* CritRating */
-     , (49404, 314,          9) /* CritDamageRating */
      , (49404, 315,         15) /* CritResistRating */
      , (49404, 316,          6) /* CritDamageResistRating */
      , (49404, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -35,7 +31,6 @@ VALUES (49404,  39, 0.800000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49404,   1, 'Ferah Palacost''s Spectre') /* Name */
-     , (49404,  16, 'Killed by Ferah Palacost.') /* LongDesc */
      , (49404, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

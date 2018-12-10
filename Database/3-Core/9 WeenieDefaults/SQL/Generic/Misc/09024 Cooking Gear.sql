@@ -8,17 +8,7 @@ VALUES (9024,   1,        128) /* ItemType - Misc */
      , (9024,   5,        400) /* EncumbranceVal */
      , (9024,  16,          1) /* ItemUseable - No */
      , (9024,  19,          5) /* Value */
-     , (9024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9024, 105,          6) /* ItemWorkmanship */
-     , (9024, 106,        200) /* ItemSpellcraft */
-     , (9024, 107,        467) /* ItemCurMana */
-     , (9024, 108,        467) /* ItemMaxMana */
-     , (9024, 109,          0) /* ItemDifficulty */
-     , (9024, 110,          0) /* ItemAllegianceRankLimit */
-     , (9024, 115,          0) /* ItemSkillLevelLimit */
-     , (9024, 117,        300) /* ItemManaCost */
-     , (9024, 131,         34) /* MaterialType - Peridot */
-     , (9024, 172,          1) /* AppraisalLongDescDecoration */;
+     , (9024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9024,   1, True ) /* Stuck */
@@ -29,8 +19,7 @@ VALUES (9024,   1, True ) /* Stuck */
      , (9024,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9024,   1, 'Cooking Gear') /* Name */
-     , (9024,  16, 'Gem of Lightning Protection') /* LongDesc */;
+VALUES (9024,   1, 'Cooking Gear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9024,   1,   33555269) /* Setup */
@@ -47,6 +36,3 @@ VALUES (9024, 8040, 414318653, 190.8559, 104.6614, 33.83415, 1, 0, 0, 0) /* PCAP
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9024, 8000, 3691227743) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9024,  1070,      2) ;

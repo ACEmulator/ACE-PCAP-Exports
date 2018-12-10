@@ -38,9 +38,6 @@ VALUES (2031,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2031,   1, 'Branith''s Staff') /* Name */
-     , (2031,   7, 'Level 30 Straight
-') /* Inscription */
-     , (2031,   8, 'Cooky') /* ScribeName */
      , (2031,  16, 'A simple but functional sunstone casting staff.  There are suspicious scorch marks on one end.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -48,7 +45,7 @@ VALUES (2031,   1,   33558283) /* Setup */
      , (2031,   3,  536870932) /* SoundTable */
      , (2031,   8,  100674234) /* Icon */
      , (2031,  22,  872415275) /* PhysicsEffectTable */
-     , (2031,  28,       2742) /* Spell */
+     , (2031,  28,       2742) /* Spell - FlameArc4 */
      , (2031, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (2031, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2031, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

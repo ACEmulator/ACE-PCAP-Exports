@@ -6,15 +6,12 @@ VALUES (51955, 'ace51955-renata', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51955,   1,         16) /* ItemType - Creature */
      , (51955,   2,         31) /* CreatureType - Human */
-     , (51955,   5,         50) /* EncumbranceVal */
      , (51955,   6,        255) /* ItemsCapacity */
      , (51955,   7,        255) /* ContainersCapacity */
      , (51955,  16,         32) /* ItemUseable - Remote */
-     , (51955,  19,       5000) /* Value */
      , (51955,  25,        200) /* Level */
      , (51955,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (51955,  95,          8) /* RadarBlipColor - Yellow */
-     , (51955, 107,          0) /* ItemCurMana */
      , (51955, 113,          2) /* Gender - Female */
      , (51955, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (51955, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -32,14 +29,11 @@ VALUES (51955,   1, True ) /* Stuck */
      , (51955,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51955,  54,       3) /* UseRadius */
-     , (51955,  87,       2) /* ItemEfficiency */
-     , (51955, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (51955,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51955,   1, 'Renata') /* Name */
      , (51955,   5, 'Wisp Wrangler') /* Template */
-     , (51955,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (51955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

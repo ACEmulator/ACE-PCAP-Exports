@@ -34,7 +34,7 @@ VALUES (27115,   1,   33558642) /* Setup */
      , (27115,   6,   67111919) /* PaletteBase */
      , (27115,   8,  100675934) /* Icon */
      , (27115,  22,  872415275) /* PhysicsEffectTable */
-     , (27115,  28,       1280) /* Spell */
+     , (27115,  28,       1280) /* Spell - HealthToManaSelf3 */
      , (27115, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (27115, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27115, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

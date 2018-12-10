@@ -35,8 +35,6 @@ VALUES (12019,  13, 0.600000023841858) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12019,   1, 'Robe of the Tundra') /* Name */
-     , (12019,   7, NULL) /* Inscription */
-     , (12019,   8, NULL) /* ScribeName */
      , (12019,  16, 'A robe crafted from a mattekar hide.  It has some natural padding in it that makes it more resistant to damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

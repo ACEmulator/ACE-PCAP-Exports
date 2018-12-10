@@ -6,28 +6,16 @@ VALUES (35987, 'ace35987-shadowcaptain', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35987,   1,         16) /* ItemType - Creature */
      , (35987,   2,         22) /* CreatureType - Shadow */
-     , (35987,   5,       6005) /* EncumbranceVal */
      , (35987,   6,        255) /* ItemsCapacity */
      , (35987,   7,        255) /* ContainersCapacity */
      , (35987,  16,          1) /* ItemUseable - No */
-     , (35987,  19,          0) /* Value */
      , (35987,  25,        185) /* Level */
-     , (35987,  33,         -2) /* Bonded - Destroy */
-     , (35987,  44,        180) /* Damage */
-     , (35987,  45,          2) /* DamageType - Pierce */
-     , (35987,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (35987,  49,         10) /* WeaponTime */
      , (35987,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (35987, 113,          1) /* Gender - Male */
      , (35987, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35987, 188,          1) /* HeritageGroup - Aluvian */
      , (35987, 307,          7) /* DamageRating */
-     , (35987, 313,          0) /* CritRating */
-     , (35987, 314,          0) /* CritDamageRating */
-     , (35987, 353,         10) /* WeaponType - Thrown */
-     , (35987, 386,          0) /* Overpower */
-     , (35987, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (35987, 8030,          0);
+     , (35987, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35987,   1, True ) /* Stuck */
@@ -38,21 +26,11 @@ VALUES (35987,   1, True ) /* Stuck */
      , (35987,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35987,  21,       0) /* WeaponLength */
-     , (35987,  22,     0.5) /* DamageVariance */
-     , (35987,  26, 23.2000007629395) /* MaximumVelocity */
-     , (35987,  29,       1) /* WeaponDefense */
-     , (35987,  39, 1.29999995231628) /* DefaultScale */
-     , (35987,  62,       1) /* WeaponOffense */
-     , (35987,  63,       1) /* DamageMod */
-     , (35987,  76,     0.5) /* Translucency */
-     , (35987, 147,       1) /* CriticalFrequency */
-     , (35987, 149,       0) /* WeaponMissileDefense */
-     , (35987, 150,       0) /* WeaponMagicDefense */;
+VALUES (35987,  39, 1.29999995231628) /* DefaultScale */
+     , (35987,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35987,   1, 'Shadow Captain') /* Name */
-     , (35987,  16, 'Killed by Brawl.') /* LongDesc */
      , (35987, 8006, 'BgA8AOb9DlCRA+YAORH1QuRBi8IK17/A8O9BAE+HJUDNzMw9AADIQgAAgD8AAHBBAAAAAG96I0A=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

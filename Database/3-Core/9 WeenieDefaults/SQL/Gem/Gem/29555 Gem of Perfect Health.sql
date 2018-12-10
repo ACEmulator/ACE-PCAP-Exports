@@ -26,8 +26,6 @@ VALUES (29555,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29555,   1, 'Gem of Perfect Health') /* Name */
-     , (29555,   7, 'To your perfect health - thanks for everything, friends :)') /* Inscription */
-     , (29555,   8, 'Saelan') /* ScribeName */
      , (29555,  14, 'Combine with a piece of Noble armor to infuse the armor with the Perfect Health spell.') /* Use */
      , (29555,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Endurance Spell that will affect the wearer. ') /* LongDesc */;
 

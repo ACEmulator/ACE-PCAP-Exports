@@ -41,8 +41,6 @@ VALUES (8153,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8153,   1, 'Virindi Mask') /* Name */
-     , (8153,   7, 'Say HI to the bad guy') /* Inscription */
-     , (8153,   8, 'The Goon') /* ScribeName */
      , (8153,  16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

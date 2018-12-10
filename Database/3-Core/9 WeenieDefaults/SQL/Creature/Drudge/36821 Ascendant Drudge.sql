@@ -6,17 +6,12 @@ VALUES (36821, 'ace36821-ascendantdrudge', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36821,   1,         16) /* ItemType - Creature */
      , (36821,   2,          3) /* CreatureType - Drudge */
-     , (36821,   5,       7408) /* EncumbranceVal */
      , (36821,   6,        255) /* ItemsCapacity */
      , (36821,   7,        255) /* ContainersCapacity */
      , (36821,  16,          1) /* ItemUseable - No */
-     , (36821,  19,          0) /* Value */
      , (36821,  25,        115) /* Level */
      , (36821,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36821, 105,          6) /* ItemWorkmanship */
-     , (36821, 131,         30) /* MaterialType - Malachite */
      , (36821, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36821, 172,          1) /* AppraisalLongDescDecoration */
      , (36821, 307,          5) /* DamageRating */
      , (36821, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -32,7 +27,6 @@ VALUES (36821,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36821,   1, 'Ascendant Drudge') /* Name */
-     , (36821,  16, 'Killed by Rimok.') /* LongDesc */
      , (36821, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

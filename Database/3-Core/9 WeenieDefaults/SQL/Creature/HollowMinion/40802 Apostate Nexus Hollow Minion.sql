@@ -6,13 +6,10 @@ VALUES (40802, 'ace40802-apostatenexushollowminion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40802,   1,         16) /* ItemType - Creature */
      , (40802,   2,         48) /* CreatureType - HollowMinion */
-     , (40802,   5,         10) /* EncumbranceVal */
      , (40802,   6,        255) /* ItemsCapacity */
      , (40802,   7,        255) /* ContainersCapacity */
      , (40802,  16,          1) /* ItemUseable - No */
-     , (40802,  19,      12500) /* Value */
      , (40802,  25,        220) /* Level */
-     , (40802,  33,          1) /* Bonded - Bonded */
      , (40802,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40802, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (40802, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,7 +23,6 @@ VALUES (40802,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40802,   1, 'Apostate Nexus Hollow Minion') /* Name */
-     , (40802,  16, 'A concentrated silver pea.') /* LongDesc */
      , (40802, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

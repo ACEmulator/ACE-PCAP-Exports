@@ -6,84 +6,23 @@ VALUES (211, 'mosswartmudlurk', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (211,   1,         16) /* ItemType - Creature */
      , (211,   2,          4) /* CreatureType - Mosswart */
-     , (211,   5,          5) /* EncumbranceVal */
      , (211,   6,        255) /* ItemsCapacity */
      , (211,   7,        255) /* ContainersCapacity */
      , (211,  16,          1) /* ItemUseable - No */
-     , (211,  19,          0) /* Value */
      , (211,  25,         15) /* Level */
-     , (211,  28,        412) /* ArmorLevel */
-     , (211,  33,          1) /* Bonded - Bonded */
-     , (211,  36,       9999) /* ResistMagic */
-     , (211,  44,         10) /* Damage */
-     , (211,  45,          4) /* DamageType - Bludgeon */
-     , (211,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
-     , (211,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (211,  49,         10) /* WeaponTime */
      , (211,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (211, 105,          8) /* ItemWorkmanship */
-     , (211, 106,        275) /* ItemSpellcraft */
-     , (211, 107,       1369) /* ItemCurMana */
-     , (211, 108,       1369) /* ItemMaxMana */
-     , (211, 109,        275) /* ItemDifficulty */
-     , (211, 110,          0) /* ItemAllegianceRankLimit */
-     , (211, 114,          1) /* Attuned - Attuned */
-     , (211, 115,          0) /* ItemSkillLevelLimit */
-     , (211, 117,        150) /* ItemManaCost */
-     , (211, 131,          2) /* MaterialType - Porcelain */
      , (211, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (211, 158,          2) /* WieldRequirements - RawSkill */
-     , (211, 159,          6) /* WieldSkilltype - MeleeDefense */
-     , (211, 160,        350) /* WieldDifficulty */
-     , (211, 172,          5) /* AppraisalLongDescDecoration */
-     , (211, 176,          7) /* AppraisalItemSkill */
-     , (211, 177,          3) /* GemCount */
-     , (211, 178,         50) /* GemType */
-     , (211, 179,          0) /* ImbuedEffect - Undef */
-     , (211, 303,          0) /* ImbuedEffect2 - Undef */
-     , (211, 304,          0) /* ImbuedEffect3 - Undef */
-     , (211, 305,          0) /* ImbuedEffect4 - Undef */
-     , (211, 306,          0) /* ImbuedEffect5 - Undef */
-     , (211, 307,          5) /* DamageRating */
-     , (211, 313,          0) /* CritRating */
-     , (211, 314,          0) /* CritDamageRating */
-     , (211, 353,         10) /* WeaponType - Thrown */
-     , (211, 381,          0) /* PKDamageRating */
-     , (211, 386,          0) /* Overpower */
-     , (211, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (211, 8030,          0);
+     , (211, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (211,   1, True ) /* Stuck */
      , (211,  12, True ) /* ReportCollisions */
      , (211,  13, False) /* Ethereal */
      , (211,  14, True ) /* GravityStatus */
-     , (211,  19, True ) /* Attackable */
-     , (211,  69, False) /* IsSellable */
-     , (211, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (211,   5, -0.0555555555555556) /* ManaRate */
-     , (211,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (211,  14, 1.39999997615814) /* ArmorModVsPierce */
-     , (211,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (211,  16, 1.20000004768372) /* ArmorModVsCold */
-     , (211,  17, 1.20000004768372) /* ArmorModVsFire */
-     , (211,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (211,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (211,  21,       0) /* WeaponLength */
-     , (211,  22,    0.25) /* DamageVariance */
-     , (211,  26,       0) /* MaximumVelocity */
-     , (211,  29,       1) /* WeaponDefense */
-     , (211,  62,       1) /* WeaponOffense */
-     , (211,  63,       1) /* DamageMod */
-     , (211, 149,       0) /* WeaponMissileDefense */
-     , (211, 150,   1.015) /* WeaponMagicDefense */
-     , (211, 165,       1) /* ArmorModVsNether */;
+     , (211,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (211,   1, 'Mudlurk Mosswart') /* Name */
-     , (211,  16, 'A mote of coalesced mana.') /* LongDesc */
      , (211, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -116,20 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (211,   1,    75, 0, 0, 75) /* MaxHealth */
      , (211,   3,   165, 0, 0, 165) /* MaxStamina */
      , (211,   5,    40, 0, 0, 40) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (211,   166,      2) 
-     , (211,   278,      2) 
-     , (211,   779,      2) 
-     , (211,  1353,      2) 
-     , (211,  1485,      2) 
-     , (211,  1498,      2) 
-     , (211,  1528,      2) 
-     , (211,  1552,      2) 
-     , (211,  1561,      2) 
-     , (211,  1604,      2) 
-     , (211,  1615,      2) 
-     , (211,  2108,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (211, 67113407, 0, 0);

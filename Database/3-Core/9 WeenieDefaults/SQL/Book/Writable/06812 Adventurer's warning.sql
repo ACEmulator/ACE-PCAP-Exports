@@ -5,11 +5,9 @@ VALUES (6812, 'notenexuswarning', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6812,   1,       8192) /* ItemType - Writable */
-     , (6812,   2,         13) /* CreatureType - Golem */
      , (6812,   5,         25) /* EncumbranceVal */
      , (6812,  16,          8) /* ItemUseable - Contained */
      , (6812,  19,          5) /* Value */
-     , (6812,  25,        100) /* Level */
      , (6812,  65,        101) /* Placement - Resting */
      , (6812,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6812, 174,          1) /* AppraisalPages */
@@ -41,9 +39,6 @@ VALUES (6812,   1,   33554773) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6812,   2, 2153219789) /* Container */
      , (6812, 8000, 2778872902) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6812,   1,   455, 0, 0, 455) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6812, 1, 1000);

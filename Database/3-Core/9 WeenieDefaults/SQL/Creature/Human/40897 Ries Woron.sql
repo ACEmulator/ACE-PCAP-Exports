@@ -16,7 +16,6 @@ VALUES (40897,   1,         16) /* ItemType - Creature */
      , (40897, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40897, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (40897, 188,          1) /* HeritageGroup - Aluvian */
-     , (40897, 307,          5) /* DamageRating */
      , (40897, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

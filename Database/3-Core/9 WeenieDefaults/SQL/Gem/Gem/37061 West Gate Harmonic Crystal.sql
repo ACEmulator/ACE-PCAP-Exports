@@ -23,7 +23,8 @@ VALUES (37061,   1, False) /* Stuck */
      , (37061,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37061,   1, 'West Gate Harmonic Crystal') /* Name */;
+VALUES (37061,   1, 'West Gate Harmonic Crystal') /* Name */
+     , (37061,  16, 'A crystal with intricate imperfections in it''s core. It hums quietly in your hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37061,   1,   33554809) /* Setup */

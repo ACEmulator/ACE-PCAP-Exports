@@ -28,7 +28,6 @@ VALUES (35173,   1, False) /* Stuck */
      , (35173,  19, True ) /* Attackable */
      , (35173,  22, True ) /* Inscribable */
      , (35173,  69, False) /* IsSellable */
-     , (35173,  85, True ) /* AppraisalHasAllowedWielder */
      , (35173,  99, True ) /* Ivoryable */
      , (35173, 100, False) /* Dyable */;
 
@@ -45,8 +44,7 @@ VALUES (35173,   5,    -0.5) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35173,   1, 'Empowered Empyrean Robe') /* Name */
-     , (35173,  16, 'A blue Empyrean robe, like the one worn by Asheron.  Embedded in the fabric are small threads of Thaumaturgic Crystal which radiate an almost palpable power.') /* LongDesc */
-     , (35173,  25, 'Callaway') /* CraftsmanName */;
+     , (35173,  16, 'A blue Empyrean robe, like the one worn by Asheron.  Embedded in the fabric are small threads of Thaumaturgic Crystal which radiate an almost palpable power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35173,   1,   33554854) /* Setup */

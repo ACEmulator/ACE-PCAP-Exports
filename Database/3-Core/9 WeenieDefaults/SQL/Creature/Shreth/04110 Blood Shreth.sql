@@ -6,25 +6,12 @@ VALUES (4110, 'shrethblood', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4110,   1,         16) /* ItemType - Creature */
      , (4110,   2,         32) /* CreatureType - Shreth */
-     , (4110,   5,         50) /* EncumbranceVal */
      , (4110,   6,        255) /* ItemsCapacity */
      , (4110,   7,        255) /* ContainersCapacity */
      , (4110,  16,          1) /* ItemUseable - No */
-     , (4110,  19,       6000) /* Value */
      , (4110,  25,          8) /* Level */
-     , (4110,  33,          0) /* Bonded - Normal */
-     , (4110,  91,         50) /* MaxStructure */
-     , (4110,  92,         50) /* Structure */
      , (4110,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4110, 105,          8) /* ItemWorkmanship */
-     , (4110, 114,          0) /* Attuned - Normal */
      , (4110, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4110, 280,        213) /* SharedCooldown */
-     , (4110, 366,         54) /* UseRequiresSkill */
-     , (4110, 367,        400) /* UseRequiresSkillLevel */
-     , (4110, 369,         90) /* UseRequiresLevel */
-     , (4110, 374,         17) /* GearCritDamage */
-     , (4110, 375,          8) /* GearCritDamageResist */
      , (4110, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,15 +19,10 @@ VALUES (4110,   1, True ) /* Stuck */
      , (4110,  12, True ) /* ReportCollisions */
      , (4110,  13, False) /* Ethereal */
      , (4110,  14, True ) /* GravityStatus */
-     , (4110,  19, True ) /* Attackable */
-     , (4110,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4110, 167,      45) /* CooldownDuration */;
+     , (4110,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4110,   1, 'Blood Shreth') /* Name */
-     , (4110,  14, 'Use this essence to summon or dismiss your Fire Wisp.') /* Use */
      , (4110, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

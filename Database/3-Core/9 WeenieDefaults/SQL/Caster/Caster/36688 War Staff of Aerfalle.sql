@@ -35,8 +35,7 @@ VALUES (36688,   1, False) /* Stuck */
      , (36688,  14, True ) /* GravityStatus */
      , (36688,  19, True ) /* Attackable */
      , (36688,  22, True ) /* Inscribable */
-     , (36688,  69, False) /* IsSellable */
-     , (36688,  91, True ) /* Retained */;
+     , (36688,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36688,   5,  -0.033) /* ManaRate */
@@ -48,8 +47,6 @@ VALUES (36688,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36688,   1, 'War Staff of Aerfalle') /* Name */
-     , (36688,   7, 'The device gives off an unearthly hum, and you feel your sense of reality itself shift.') /* Inscription */
-     , (36688,   8, 'N a r c o t i c') /* ScribeName */
      , (36688,  15, 'When you must strike, do not leave room for a return blow.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

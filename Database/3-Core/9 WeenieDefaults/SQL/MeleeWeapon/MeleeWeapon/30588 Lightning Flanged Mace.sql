@@ -53,15 +53,10 @@ VALUES (30588,   5,   -0.05) /* ManaRate */
      , (30588,  29,    1.11) /* WeaponDefense */
      , (30588,  62,    1.06) /* WeaponOffense */
      , (30588,  63,       1) /* DamageMod */
-     , (30588,  87,    0.25) /* ItemEfficiency */
-     , (30588, 137,    0.05) /* ManaStoneDestroyChance */
-     , (30588, 149,   1.025) /* WeaponMissileDefense */
-     , (30588, 150,    1.01) /* WeaponMagicDefense */
      , (30588, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30588,   1, 'Lightning Flanged Mace') /* Name */
-     , (30588,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (30588,  16, 'Lightning Flanged Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -79,55 +74,9 @@ VALUES (30588,   2, 3354517528) /* Container */
      , (30588, 8000, 3354338123) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30588,  1354,      2) 
-     , (30588,  1591,      2) 
-     , (30588,  1602,      2) 
-     , (30588,  1604,      2) 
-     , (30588,  1605,      2) 
-     , (30588,  1612,      2) 
-     , (30588,  1614,      2) 
-     , (30588,  1615,      2) 
+VALUES (30588,  1591,      2) 
      , (30588,  1616,      2) 
-     , (30588,  1625,      2) 
-     , (30588,  1626,      2) 
-     , (30588,  1627,      2) 
-     , (30588,  2061,      2) 
-     , (30588,  2081,      2) 
-     , (30588,  2087,      2) 
-     , (30588,  2096,      2) 
-     , (30588,  2101,      2) 
-     , (30588,  2106,      2) 
-     , (30588,  2116,      2) 
-     , (30588,  2503,      2) 
-     , (30588,  2517,      2) 
-     , (30588,  2527,      2) 
-     , (30588,  2547,      2) 
-     , (30588,  2549,      2) 
-     , (30588,  2554,      2) 
-     , (30588,  2559,      2) 
-     , (30588,  2566,      2) 
-     , (30588,  2576,      2) 
-     , (30588,  2578,      2) 
-     , (30588,  2579,      2) 
-     , (30588,  2584,      2) 
-     , (30588,  2588,      2) 
-     , (30588,  2596,      2) 
-     , (30588,  2600,      2) 
-     , (30588,  2603,      2) 
-     , (30588,  2610,      2) 
-     , (30588,  4232,      2) 
-     , (30588,  4297,      2) 
-     , (30588,  4325,      2) 
-     , (30588,  4395,      2) 
-     , (30588,  4400,      2) 
-     , (30588,  4417,      2) 
-     , (30588,  4695,      2) 
-     , (30588,  5785,      2) 
-     , (30588,  5786,      2) 
-     , (30588,  5809,      2) 
-     , (30588,  5880,      2) 
-     , (30588,  6126,      2) 
-     , (30588,  6127,      2) ;
+     , (30588,  1627,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30588, 67116398, 0, 0);

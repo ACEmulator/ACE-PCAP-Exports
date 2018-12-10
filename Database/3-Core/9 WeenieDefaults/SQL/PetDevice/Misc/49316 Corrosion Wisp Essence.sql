@@ -25,7 +25,6 @@ VALUES (49316,   1,        128) /* ItemType - Misc */
      , (49316, 370,         20) /* GearDamage */
      , (49316, 371,         16) /* GearDamageResist */
      , (49316, 372,         17) /* GearCrit */
-     , (49316, 373,          8) /* GearCritResist */
      , (49316, 374,         19) /* GearCritDamage */
      , (49316, 375,         14) /* GearCritDamageResist */;
 
@@ -44,8 +43,6 @@ VALUES (49316,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49316,   1, 'Corrosion Wisp Essence') /* Name */
-     , (49316,   7, '34 (20/11/12)') /* Inscription */
-     , (49316,   8, 'Jesse the Destroyer') /* ScribeName */
      , (49316,  14, 'Use this essence to summon or dismiss your Corrosion Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

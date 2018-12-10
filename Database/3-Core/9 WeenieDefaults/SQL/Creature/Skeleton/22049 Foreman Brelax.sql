@@ -6,21 +6,12 @@ VALUES (22049, 'skeletonbrelaxnew', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22049,   1,         16) /* ItemType - Creature */
      , (22049,   2,         30) /* CreatureType - Skeleton */
-     , (22049,   5,          5) /* EncumbranceVal */
      , (22049,   6,        255) /* ItemsCapacity */
      , (22049,   7,        255) /* ContainersCapacity */
      , (22049,  16,          1) /* ItemUseable - No */
-     , (22049,  19,          0) /* Value */
      , (22049,  25,        200) /* Level */
-     , (22049,  28,        236) /* ArmorLevel */
-     , (22049,  33,          1) /* Bonded - Bonded */
      , (22049,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22049, 105,          9) /* ItemWorkmanship */
-     , (22049, 107,          0) /* ItemCurMana */
-     , (22049, 114,          1) /* Attuned - Attuned */
-     , (22049, 131,         52) /* MaterialType - Leather */
      , (22049, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22049, 172,          1) /* AppraisalLongDescDecoration */
      , (22049, 307,          5) /* DamageRating */
      , (22049, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -29,25 +20,10 @@ VALUES (22049,   1, True ) /* Stuck */
      , (22049,  12, True ) /* ReportCollisions */
      , (22049,  13, False) /* Ethereal */
      , (22049,  14, True ) /* GravityStatus */
-     , (22049,  19, True ) /* Attackable */
-     , (22049, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22049,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (22049,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (22049,  15,       1) /* ArmorModVsBludgeon */
-     , (22049,  16, 0.827346384525299) /* ArmorModVsCold */
-     , (22049,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (22049,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (22049,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (22049,  87,     1.2) /* ItemEfficiency */
-     , (22049, 137,    0.15) /* ManaStoneDestroyChance */
-     , (22049, 165,       1) /* ArmorModVsNether */;
+     , (22049,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22049,   1, 'Foreman Brelax') /* Name */
-     , (22049,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (22049,  16, 'This is a Calling Stone that all newcomers arrive with. It is a plain, lightweight gem. Give this item to the Society Greeter.') /* LongDesc */
      , (22049, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

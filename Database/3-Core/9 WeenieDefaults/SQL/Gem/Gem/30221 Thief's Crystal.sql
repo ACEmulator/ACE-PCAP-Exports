@@ -13,23 +13,15 @@ VALUES (30221,   1,       2048) /* ItemType - Gem */
      , (30221,  18,          1) /* UiEffects - Magical */
      , (30221,  19,          0) /* Value */
      , (30221,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (30221,  28,        262) /* ArmorLevel */
      , (30221,  33,         -1) /* Bonded - Slippery */
      , (30221,  65,        101) /* Placement - Resting */
      , (30221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30221,  94,         16) /* TargetType - Creature */
-     , (30221, 105,          6) /* ItemWorkmanship */
      , (30221, 106,        325) /* ItemSpellcraft */
      , (30221, 107,      10000) /* ItemCurMana */
      , (30221, 108,      10000) /* ItemMaxMana */
      , (30221, 109,          0) /* ItemDifficulty */
-     , (30221, 110,          0) /* ItemAllegianceRankLimit */
-     , (30221, 115,          0) /* ItemSkillLevelLimit */
-     , (30221, 131,          7) /* MaterialType - Velvet */
-     , (30221, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (30221, 172,          5) /* AppraisalLongDescDecoration */
-     , (30221, 177,          1) /* GemCount */
-     , (30221, 178,         13) /* GemType */;
+     , (30221, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30221,   1, False) /* Stuck */
@@ -37,19 +29,7 @@ VALUES (30221,   1, False) /* Stuck */
      , (30221,  13, True ) /* Ethereal */
      , (30221,  14, True ) /* GravityStatus */
      , (30221,  19, True ) /* Attackable */
-     , (30221, 100, True ) /* Dyable */
      , (30221, 108, True ) /* RareUsesTimer */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30221,   5, -0.0555555555555556) /* ManaRate */
-     , (30221,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (30221,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (30221,  15,       1) /* ArmorModVsBludgeon */
-     , (30221,  16,     0.5) /* ArmorModVsCold */
-     , (30221,  17, 0.773667514324188) /* ArmorModVsFire */
-     , (30221,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (30221,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (30221, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30221,   1, 'Thief''s Crystal') /* Name */
@@ -61,7 +41,7 @@ VALUES (30221,   1,   33554809) /* Setup */
      , (30221,   3,  536870932) /* SoundTable */
      , (30221,   8,  100686697) /* Icon */
      , (30221,  22,  872415275) /* PhysicsEffectTable */
-     , (30221,  28,       3720) /* Spell */
+     , (30221,  28,       3720) /* Spell - LockpickMasteryRare */
      , (30221,  50,  100686668) /* IconOverlay */
      , (30221,  52,  100686604) /* IconUnderlay */
      , (30221, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */
@@ -77,10 +57,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30221, 8000, 2183790828) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30221,   193,      2) 
-     , (30221,  1552,      2) 
-     , (30221,  2108,      2) 
-     , (30221,  3720,      2) ;
+VALUES (30221,  3720,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30221, 0, 83890391, 83890391);

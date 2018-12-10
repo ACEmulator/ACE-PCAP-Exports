@@ -11,9 +11,6 @@ VALUES (30796,   1,        512) /* ItemType - Container */
      , (30796,  16,         48) /* ItemUseable - ViewedRemote */
      , (30796,  19,       2500) /* Value */
      , (30796,  38,       9999) /* ResistLockpick */
-     , (30796,  90,         25) /* BoostValue */
-     , (30796,  91,         50) /* MaxStructure */
-     , (30796,  92,         50) /* Structure */
      , (30796,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (30796, 173,          0) /* AppraisalLockpickSuccessPercent */
      , (30796, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -29,8 +26,7 @@ VALUES (30796,   1, True ) /* Stuck */
      , (30796,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30796,  54,       1) /* UseRadius */
-     , (30796, 100,       2) /* HealkitMod */;
+VALUES (30796,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30796,   1, 'Black Marrow Reliquary') /* Name */

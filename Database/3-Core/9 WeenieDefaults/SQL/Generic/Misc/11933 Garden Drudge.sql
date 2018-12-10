@@ -23,8 +23,6 @@ VALUES (11933,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11933,   1, 'Garden Drudge') /* Name */
-     , (11933,   7, 'The last remnants of Pop The Top, he ran across a rogue virindi and it turned him into this Garden Drudge.  RIP Pop the Top') /* Inscription */
-     , (11933,   8, 'Motherload') /* ScribeName */
      , (11933,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

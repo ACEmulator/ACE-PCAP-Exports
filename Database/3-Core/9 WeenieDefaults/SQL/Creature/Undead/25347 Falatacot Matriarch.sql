@@ -6,14 +6,11 @@ VALUES (25347, 'zombieundeadmatriarch', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25347,   1,         16) /* ItemType - Creature */
      , (25347,   2,         14) /* CreatureType - Undead */
-     , (25347,   5,         50) /* EncumbranceVal */
      , (25347,   6,        255) /* ItemsCapacity */
      , (25347,   7,        255) /* ContainersCapacity */
      , (25347,  16,          1) /* ItemUseable - No */
-     , (25347,  19,       7500) /* Value */
      , (25347,  25,        135) /* Level */
      , (25347,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25347, 107,          0) /* ItemCurMana */
      , (25347, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25347, 307,          7) /* DamageRating */
      , (25347, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,13 +23,10 @@ VALUES (25347,   1, True ) /* Stuck */
      , (25347,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25347,  39, 1.29999995231628) /* DefaultScale */
-     , (25347,  87,       3) /* ItemEfficiency */
-     , (25347, 137,    0.25) /* ManaStoneDestroyChance */;
+VALUES (25347,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25347,   1, 'Falatacot Matriarch') /* Name */
-     , (25347,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (25347, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,44 +6,19 @@ VALUES (38573, 'ace38573-societyvambracesarmorsmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38573,   1,         16) /* ItemType - Creature */
      , (38573,   2,         31) /* CreatureType - Human */
-     , (38573,   5,        100) /* EncumbranceVal */
      , (38573,   6,        255) /* ItemsCapacity */
      , (38573,   7,        255) /* ContainersCapacity */
      , (38573,  16,         32) /* ItemUseable - Remote */
-     , (38573,  19,      13274) /* Value */
      , (38573,  25,        185) /* Level */
-     , (38573,  28,        248) /* ArmorLevel */
-     , (38573,  44,         48) /* Damage */
-     , (38573,  45,          3) /* DamageType - Slash, Pierce */
-     , (38573,  47,          6) /* AttackType - Thrust, Slash */
-     , (38573,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (38573,  49,         34) /* WeaponTime */
      , (38573,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38573,  95,          8) /* RadarBlipColor - Yellow */
-     , (38573, 105,          6) /* ItemWorkmanship */
-     , (38573, 106,        256) /* ItemSpellcraft */
-     , (38573, 107,       1214) /* ItemCurMana */
-     , (38573, 108,       1214) /* ItemMaxMana */
-     , (38573, 109,        256) /* ItemDifficulty */
-     , (38573, 110,          0) /* ItemAllegianceRankLimit */
      , (38573, 113,          1) /* Gender - Male */
-     , (38573, 115,          0) /* ItemSkillLevelLimit */
-     , (38573, 131,         59) /* MaterialType - Copper */
      , (38573, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38573, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38573, 158,          2) /* WieldRequirements - RawSkill */
-     , (38573, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (38573, 160,        350) /* WieldDifficulty */
-     , (38573, 172,          5) /* AppraisalLongDescDecoration */
-     , (38573, 176,         44) /* AppraisalItemSkill */
-     , (38573, 177,          3) /* GemCount */
-     , (38573, 178,         17) /* GemType */
      , (38573, 188,          4) /* HeritageGroup - Viamontian */
      , (38573, 281,          4) /* Faction1Bits */
      , (38573, 289,        301) /* SocietyRankRadblo */
-     , (38573, 353,          2) /* WeaponType - Sword */
-     , (38573, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38573, 8030,          0);
+     , (38573, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38573,   1, True ) /* Stuck */
@@ -53,32 +28,14 @@ VALUES (38573,   1, True ) /* Stuck */
      , (38573,  14, True ) /* GravityStatus */
      , (38573,  19, False) /* Attackable */
      , (38573,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38573,  42, True ) /* AllowEdgeSlide */
-     , (38573, 100, True ) /* Dyable */;
+     , (38573,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38573,   5,   -0.05) /* ManaRate */
-     , (38573,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (38573,  14,       1) /* ArmorModVsPierce */
-     , (38573,  15,       1) /* ArmorModVsBludgeon */
-     , (38573,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (38573,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (38573,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (38573,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (38573,  21,       0) /* WeaponLength */
-     , (38573,  22,    0.53) /* DamageVariance */
-     , (38573,  26,       0) /* MaximumVelocity */
-     , (38573,  29,     1.1) /* WeaponDefense */
-     , (38573,  54,       3) /* UseRadius */
-     , (38573,  62,    1.09) /* WeaponOffense */
-     , (38573,  63,       1) /* DamageMod */
-     , (38573, 165,       1) /* ArmorModVsNether */;
+VALUES (38573,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38573,   1, 'Society Vambraces Armorsmith') /* Name */
      , (38573,   5, 'Society Armorsmith') /* Template */
-     , (38573,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38573,  16, 'Circlet of Magic Resistance') /* LongDesc */
      , (38573, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -105,31 +62,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38573, 8000, 3691027518) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (38573,   1, 500, 0, 0) /* Strength */
-     , (38573,   2, 300, 0, 0) /* Endurance */
-     , (38573,   3, 320, 0, 0) /* Quickness */
-     , (38573,   4, 320, 0, 0) /* Coordination */
-     , (38573,   5, 150, 0, 0) /* Focus */
-     , (38573,   6, 150, 0, 0) /* Self */;
+VALUES (38573,   1, 290, 0, 0) /* Strength */
+     , (38573,   2, 200, 0, 0) /* Endurance */
+     , (38573,   3, 290, 0, 0) /* Quickness */
+     , (38573,   4, 290, 0, 0) /* Coordination */
+     , (38573,   5, 200, 0, 0) /* Focus */
+     , (38573,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (38573,   1,   296, 0, 0, 296) /* MaxHealth */
-     , (38573,   3,  5000, 0, 0, 5000) /* MaxStamina */
-     , (38573,   5,   150, 0, 0, 150) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38573,   278,      2) 
-     , (38573,  1484,      2) 
-     , (38573,  1486,      2) 
-     , (38573,  1552,      2) 
-     , (38573,  1574,      2) 
-     , (38573,  1616,      2) 
-     , (38573,  2240,      2) 
-     , (38573,  2263,      2) 
-     , (38573,  2583,      2) 
-     , (38573,  2608,      2) 
-     , (38573,  2619,      2) 
-     , (38573,  5809,      2) ;
+     , (38573,   3,   396, 0, 0, 396) /* MaxStamina */
+     , (38573,   5,   396, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38573, 67109964, 92, 4)

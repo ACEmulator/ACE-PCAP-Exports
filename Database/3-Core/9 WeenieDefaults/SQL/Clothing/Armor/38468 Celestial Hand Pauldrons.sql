@@ -37,7 +37,6 @@ VALUES (38468,   1, False) /* Stuck */
      , (38468,  14, True ) /* GravityStatus */
      , (38468,  19, True ) /* Attackable */
      , (38468,  22, True ) /* Inscribable */
-     , (38468,  91, True ) /* Retained */
      , (38468, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -55,9 +54,6 @@ VALUES (38468,   5, -0.0555555559694767) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38468,   1, 'Celestial Hand Pauldrons') /* Name */
-     , (38468,   7, 'Major Quickness,  Major Strength, 
-Arcane 400') /* Inscription */
-     , (38468,   8, 'Nardwuar') /* ScribeName */
      , (38468,  16, 'Celestial Hand Pauldrons') /* LongDesc */
      , (38468,  39, 'Tiesto') /* TinkerName */;
 
@@ -75,14 +71,8 @@ VALUES (38468,   2, 2165177832) /* Container */
      , (38468, 8000, 2932881686) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38468,  2094,      2) 
-     , (38468,  2108,      2) 
-     , (38468,  2524,      2) 
-     , (38468,  2575,      2) 
-     , (38468,  2576,      2) 
-     , (38468,  4325,      2) 
-     , (38468,  4407,      2) 
-     , (38468,  4409,      2) ;
+VALUES (38468,  2108,      2) 
+     , (38468,  2524,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38468, 0, 83886788, 83897921);

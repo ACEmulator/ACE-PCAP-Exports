@@ -30,7 +30,6 @@ VALUES (52036,   1, False) /* Stuck */
      , (52036,  19, True ) /* Attackable */
      , (52036,  22, True ) /* Inscribable */
      , (52036,  69, False) /* IsSellable */
-     , (52036,  85, True ) /* AppraisalHasAllowedWielder */
      , (52036,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,8 +39,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52036,   1, 'Purified Crimson Scarab') /* Name */
      , (52036,   7, 'Legendary Focus, +15 Health') /* Inscription */
      , (52036,   8, 'Jesse the Destroyer') /* ScribeName */
-     , (52036,  15, 'A dark red scarab of Rynthid origin, cleansed by Tumerok magic.') /* ShortDesc */
-     , (52036,  25, 'Ghingus') /* CraftsmanName */;
+     , (52036,  15, 'A dark red scarab of Rynthid origin, cleansed by Tumerok magic.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52036,   1,   33555211) /* Setup */

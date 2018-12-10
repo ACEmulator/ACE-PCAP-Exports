@@ -26,8 +26,7 @@ VALUES (8046,  54,       1) /* UseRadius */
      , (8046,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8046,   1, 'Corpse') /* Name */
-     , (8046,  14, 'Use this item to close it.') /* Use */;
+VALUES (8046,   1, 'Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8046,   1,   33556721) /* Setup */

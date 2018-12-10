@@ -15,11 +15,8 @@ VALUES (48020,   1,        256) /* ItemType - MissileWeapon */
      , (48020,  50,          2) /* AmmoType - Bolt */
      , (48020,  51,          3) /* CombatUse - Ammo */
      , (48020,  65,          1) /* Placement - RightHandCombat */
-     , (48020,  91,         35) /* MaxStructure */
-     , (48020,  92,         35) /* Structure */
      , (48020,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48020, 151,          2) /* HookType - Wall */
-     , (48020, 173,        100) /* AppraisalLockpickSuccessPercent */;
+     , (48020, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48020,   1, False) /* Stuck */
@@ -34,10 +31,7 @@ VALUES (48020,  78,       1) /* Friction */
      , (48020,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48020,   1, 'Quarrel') /* Name */
-     , (48020,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (48020,  16, 'Inscribed spell: Void Magic Ineptitude Other VII
-Decreases the target''s Void Magic skill by 40 points.') /* LongDesc */;
+VALUES (48020,   1, 'Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48020,   1,   33554730) /* Setup */
@@ -58,9 +52,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48020,   3, 3706472351) /* Wielder */
      , (48020, 8000, 3706472343) /* PCAPRecordedObjectIID */
      , (48020, 8008, 3706472351) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48020,  5425,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48020, 67111919, 0, 0);

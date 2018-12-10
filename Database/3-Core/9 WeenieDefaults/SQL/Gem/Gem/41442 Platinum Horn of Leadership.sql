@@ -33,8 +33,6 @@ VALUES (41442, 167,      30) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41442,   1, 'Platinum Horn of Leadership') /* Name */
-     , (41442,   7, '"http://www.youtube.com/watch?v=pkn3HAy6mCg"') /* Inscription */
-     , (41442,   8, 'Mr Fz') /* ScribeName */
      , (41442,  16, 'This horn is eternal. Use this horn to increase the Health of your Fellowship by 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -42,7 +40,7 @@ VALUES (41442,   1,   33554809) /* Setup */
      , (41442,   3,  536870932) /* SoundTable */
      , (41442,   8,  100690583) /* Icon */
      , (41442,  22,  872415275) /* PhysicsEffectTable */
-     , (41442,  28,       5122) /* Spell */
+     , (41442,  28,       5122) /* Spell - CallOfLeadership5 */
      , (41442, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (41442, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (41442, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

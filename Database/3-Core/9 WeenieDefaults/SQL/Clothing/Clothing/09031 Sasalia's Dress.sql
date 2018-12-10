@@ -41,8 +41,6 @@ VALUES (9031,   5,   -0.04) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9031,   1, 'Sasalia''s Dress') /* Name */
-     , (9031,   7, NULL) /* Inscription */
-     , (9031,   8, NULL) /* ScribeName */
      , (9031,  16, 'A long blue dress.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -23,15 +23,6 @@ VALUES (47855,   1,        256) /* ItemType - MissileWeapon */
      , (47855,  65,          1) /* Placement - RightHandCombat */
      , (47855,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47855, 151,          2) /* HookType - Wall */
-     , (47855, 179,          0) /* ImbuedEffect - Undef */
-     , (47855, 303,          0) /* ImbuedEffect2 - Undef */
-     , (47855, 304,          0) /* ImbuedEffect3 - Undef */
-     , (47855, 305,          0) /* ImbuedEffect4 - Undef */
-     , (47855, 306,          0) /* ImbuedEffect5 - Undef */
-     , (47855, 307,          5) /* DamageRating */
-     , (47855, 313,          0) /* CritRating */
-     , (47855, 314,          0) /* CritDamageRating */
-     , (47855, 386,          0) /* Overpower */
      , (47855, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,13 +42,10 @@ VALUES (47855,  21,       0) /* WeaponLength */
      , (47855,  62,       1) /* WeaponOffense */
      , (47855,  63,       1) /* DamageMod */
      , (47855,  78,       1) /* Friction */
-     , (47855,  79,       0) /* Elasticity */
-     , (47855, 149,       0) /* WeaponMissileDefense */
-     , (47855, 150,       0) /* WeaponMagicDefense */;
+     , (47855,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47855,   1, 'Acid Quarrel') /* Name */
-     , (47855,  16, 'Killed by Callaway.') /* LongDesc */;
+VALUES (47855,   1, 'Acid Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47855,   1,   33555696) /* Setup */

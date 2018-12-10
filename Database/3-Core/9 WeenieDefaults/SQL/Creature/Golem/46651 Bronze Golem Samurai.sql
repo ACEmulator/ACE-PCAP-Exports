@@ -6,11 +6,9 @@ VALUES (46651, 'ace46651-bronzegolemsamurai', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46651,   1,         16) /* ItemType - Creature */
      , (46651,   2,         13) /* CreatureType - Golem */
-     , (46651,   5,       7570) /* EncumbranceVal */
      , (46651,   6,        255) /* ItemsCapacity */
      , (46651,   7,        255) /* ContainersCapacity */
      , (46651,  16,          1) /* ItemUseable - No */
-     , (46651,  19,          0) /* Value */
      , (46651,  25,        265) /* Level */
      , (46651,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46651, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (46651,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46651,   1, 'Bronze Golem Samurai') /* Name */
-     , (46651,  16, 'Killed by Rimok.') /* LongDesc */
      , (46651, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

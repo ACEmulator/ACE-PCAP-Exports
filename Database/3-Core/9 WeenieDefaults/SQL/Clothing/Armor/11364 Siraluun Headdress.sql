@@ -28,7 +28,6 @@ VALUES (11364,   1, False) /* Stuck */
      , (11364,  14, True ) /* GravityStatus */
      , (11364,  19, True ) /* Attackable */
      , (11364,  22, True ) /* Inscribable */
-     , (11364,  85, True ) /* AppraisalHasAllowedWielder */
      , (11364,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,10 +43,7 @@ VALUES (11364,   5, -0.0299999993294477) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11364,   1, 'Siraluun Headdress') /* Name */
-     , (11364,   7, '`') /* Inscription */
-     , (11364,   8, 'Ingmar') /* ScribeName */
-     , (11364,  16, 'A headdress plaited from the plumes of a Kithless Siraluun') /* LongDesc */
-     , (11364,  25, 'Ingmar') /* CraftsmanName */;
+     , (11364,  16, 'A headdress plaited from the plumes of a Kithless Siraluun') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11364,   1,   33557288) /* Setup */

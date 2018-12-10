@@ -5,14 +5,12 @@ VALUES (35394, 'ace35394-bloodscorch', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35394,   1,          1) /* ItemType - MeleeWeapon */
-     , (35394,   2,         61) /* CreatureType - FrostElemental */
      , (35394,   5,        550) /* EncumbranceVal */
      , (35394,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (35394,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (35394,  16,          1) /* ItemUseable - No */
      , (35394,  18,         32) /* UiEffects - Fire */
      , (35394,  19,       3200) /* Value */
-     , (35394,  25,         80) /* Level */
      , (35394,  51,          1) /* CombatUse - Melee */
      , (35394,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
 
@@ -46,6 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35394,   3, 3682370371) /* Wielder */
      , (35394, 8000, 3683421350) /* PCAPRecordedObjectIID */
      , (35394, 8008, 3682370371) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35394,   1,   220, 0, 0, 220) /* MaxHealth */;

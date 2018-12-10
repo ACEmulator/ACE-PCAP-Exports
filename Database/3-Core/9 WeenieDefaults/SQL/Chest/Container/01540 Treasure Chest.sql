@@ -31,7 +31,6 @@ VALUES (1540,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1540,   1, 'Treasure Chest') /* Name */
      , (1540,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (1540,  15, 'Well constructed treasure chest.') /* ShortDesc */
      , (1540,  16, 'This chest is well constructed and requires a key to open it.') /* LongDesc */
      , (1540, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 

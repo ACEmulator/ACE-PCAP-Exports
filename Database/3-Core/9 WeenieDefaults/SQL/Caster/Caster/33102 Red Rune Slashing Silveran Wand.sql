@@ -49,8 +49,6 @@ VALUES (33102,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33102,   1, 'Red Rune Slashing Silveran Wand') /* Name */
-     , (33102,   7, '29 jan 2017') /* Inscription */
-     , (33102,   8, 'Miss Fizzel') /* ScribeName */
      , (33102,  16, 'A spellcasting wand crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -58,7 +56,7 @@ VALUES (33102,   1,   33559921) /* Setup */
      , (33102,   3,  536870932) /* SoundTable */
      , (33102,   8,  100688910) /* Icon */
      , (33102,  22,  872415275) /* PhysicsEffectTable */
-     , (33102,  28,       2146) /* Spell */
+     , (33102,  28,       2146) /* Spell - WhirlingBlade7 */
      , (33102,  50,  100688915) /* IconOverlay */
      , (33102, 8001, 1349222552) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType, IconOverlay */
      , (33102, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */

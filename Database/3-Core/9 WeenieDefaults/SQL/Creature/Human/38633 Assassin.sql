@@ -6,28 +6,13 @@ VALUES (38633, 'ace38633-assassin', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38633,   1,         16) /* ItemType - Creature */
      , (38633,   2,         31) /* CreatureType - Human */
-     , (38633,   5,        509) /* EncumbranceVal */
      , (38633,   6,        255) /* ItemsCapacity */
      , (38633,   7,        255) /* ContainersCapacity */
      , (38633,  16,          1) /* ItemUseable - No */
-     , (38633,  19,      10940) /* Value */
      , (38633,  25,        200) /* Level */
-     , (38633,  28,        228) /* ArmorLevel */
      , (38633,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38633, 105,          7) /* ItemWorkmanship */
-     , (38633, 106,        255) /* ItemSpellcraft */
-     , (38633, 107,        801) /* ItemCurMana */
-     , (38633, 108,        801) /* ItemMaxMana */
-     , (38633, 109,        117) /* ItemDifficulty */
-     , (38633, 110,          0) /* ItemAllegianceRankLimit */
      , (38633, 113,          1) /* Gender - Male */
-     , (38633, 115,        275) /* ItemSkillLevelLimit */
-     , (38633, 131,         52) /* MaterialType - Leather */
      , (38633, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38633, 172,          1) /* AppraisalLongDescDecoration */
-     , (38633, 176,          6) /* AppraisalItemSkill */
-     , (38633, 177,          1) /* GemCount */
-     , (38633, 178,         36) /* GemType */
      , (38633, 188,          1) /* HeritageGroup - Aluvian */
      , (38633, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -36,23 +21,10 @@ VALUES (38633,   1, True ) /* Stuck */
      , (38633,  12, True ) /* ReportCollisions */
      , (38633,  13, False) /* Ethereal */
      , (38633,  14, True ) /* GravityStatus */
-     , (38633,  19, True ) /* Attackable */
-     , (38633, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38633,   5,   -0.05) /* ManaRate */
-     , (38633,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38633,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38633,  15,       1) /* ArmorModVsBludgeon */
-     , (38633,  16,     0.5) /* ArmorModVsCold */
-     , (38633,  17,     0.5) /* ArmorModVsFire */
-     , (38633,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (38633,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38633, 165,       1) /* ArmorModVsNether */;
+     , (38633,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38633,   1, 'Assassin') /* Name */
-     , (38633,  16, 'Leather Sleeves') /* LongDesc */
      , (38633, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -81,11 +53,6 @@ VALUES (38633, 8000, 3704671110) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (38633,   1,  1200, 0, 0, 1200) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38633,  1376,      2) 
-     , (38633,  1484,      2) 
-     , (38633,  1540,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38633, 67109562, 0, 24)

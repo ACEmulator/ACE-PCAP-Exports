@@ -6,36 +6,17 @@ VALUES (20915, 'retreatkirasojini', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20915,   1,         16) /* ItemType - Creature */
      , (20915,   2,         31) /* CreatureType - Human */
-     , (20915,   5,         50) /* EncumbranceVal */
      , (20915,   6,        255) /* ItemsCapacity */
      , (20915,   7,        255) /* ContainersCapacity */
      , (20915,  16,         32) /* ItemUseable - Remote */
-     , (20915,  19,      10226) /* Value */
      , (20915,  25,         14) /* Level */
-     , (20915,  44,         20) /* Damage */
-     , (20915,  45,          4) /* DamageType - Bludgeon */
-     , (20915,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (20915,  49,         10) /* WeaponTime */
      , (20915,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20915,  95,          8) /* RadarBlipColor - Yellow */
-     , (20915, 105,          8) /* ItemWorkmanship */
-     , (20915, 106,        282) /* ItemSpellcraft */
-     , (20915, 107,        747) /* ItemCurMana */
-     , (20915, 108,        747) /* ItemMaxMana */
-     , (20915, 109,        282) /* ItemDifficulty */
-     , (20915, 110,          0) /* ItemAllegianceRankLimit */
      , (20915, 113,          2) /* Gender - Female */
-     , (20915, 115,          0) /* ItemSkillLevelLimit */
-     , (20915, 131,         49) /* MaterialType - YellowTopaz */
      , (20915, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20915, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (20915, 172,          5) /* AppraisalLongDescDecoration */
-     , (20915, 177,          5) /* GemCount */
-     , (20915, 178,         41) /* GemType */
      , (20915, 188,          3) /* HeritageGroup - Sho */
-     , (20915, 353,         10) /* WeaponType - Thrown */
-     , (20915, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (20915, 8030,          0);
+     , (20915, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20915,   1, True ) /* Stuck */
@@ -48,19 +29,11 @@ VALUES (20915,   1, True ) /* Stuck */
      , (20915,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20915,   5, -0.0555555555555556) /* ManaRate */
-     , (20915,  21,       0) /* WeaponLength */
-     , (20915,  22,    0.25) /* DamageVariance */
-     , (20915,  26,       0) /* MaximumVelocity */
-     , (20915,  29,       1) /* WeaponDefense */
-     , (20915,  54,       3) /* UseRadius */
-     , (20915,  62,       1) /* WeaponOffense */
-     , (20915,  63,       1) /* DamageMod */;
+VALUES (20915,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20915,   1, 'Kira Sojini') /* Name */
      , (20915,   5, 'Blacksmith') /* Template */
-     , (20915,  16, 'Ornamental Bowl of Fletching Mastery') /* LongDesc */
      , (20915, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -98,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (20915,   1,   180, 0, 0, 180) /* MaxHealth */
      , (20915,   3,   290, 0, 0, 290) /* MaxStamina */
      , (20915,   5,   125, 0, 0, 125) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20915,  2237,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20915, 67109969, 92, 4)

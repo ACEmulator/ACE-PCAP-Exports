@@ -43,9 +43,7 @@ VALUES (22885,   5, -0.0333) /* ManaRate */
      , (22885, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22885,   1, 'Bandit Shield') /* Name */
-     , (22885,   7, 'D''OH!!!') /* Inscription */
-     , (22885,   8, 'Syrra') /* ScribeName */;
+VALUES (22885,   1, 'Bandit Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22885,   1,   33554786) /* Setup */

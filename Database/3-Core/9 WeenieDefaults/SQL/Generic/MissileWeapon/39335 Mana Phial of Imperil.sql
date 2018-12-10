@@ -25,12 +25,7 @@ VALUES (39335,   1,        256) /* ItemType - MissileWeapon */
      , (39335, 158,          2) /* WieldRequirements - RawSkill */
      , (39335, 159,         38) /* WieldSkilltype - Alchemy */
      , (39335, 160,        400) /* WieldDifficulty */
-     , (39335, 307,         28) /* DamageRating */
-     , (39335, 313,          1) /* CritRating */
-     , (39335, 314,         11) /* CritDamageRating */
      , (39335, 353,         10) /* WeaponType - Thrown */
-     , (39335, 381,          0) /* PKDamageRating */
-     , (39335, 386,          0) /* Overpower */
      , (39335, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,9 +46,7 @@ VALUES (39335,  21,       0) /* WeaponLength */
      , (39335,  62,       1) /* WeaponOffense */
      , (39335,  63,       1) /* DamageMod */
      , (39335,  78,       1) /* Friction */
-     , (39335,  79,       0) /* Elasticity */
-     , (39335, 149,       0) /* WeaponMissileDefense */
-     , (39335, 150,       0) /* WeaponMagicDefense */;
+     , (39335,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39335,   1, 'Mana Phial of Imperil') /* Name */

@@ -26,13 +26,10 @@ VALUES (4915,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4915,  29,       1) /* WeaponDefense */
-     , (4915, 144, 1.47282811149036E-314) /* ManaConversionMod */
-     , (4915, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (4915, 144, 1.47282811149036E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4915,   1, 'Sho Wand') /* Name */
-     , (4915,   7, '.') /* Inscription */
-     , (4915,   8, 'Eternal Spirit') /* ScribeName */;
+VALUES (4915,   1, 'Sho Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4915,   1,   33555999) /* Setup */

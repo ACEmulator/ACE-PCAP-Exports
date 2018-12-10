@@ -23,8 +23,7 @@ VALUES (48980,   1, False) /* Stuck */
      , (48980,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48980,   1, 'Lightning Hatchet') /* Name */
-     , (48980,  16, 'Killed by Ferah Palacost.') /* LongDesc */;
+VALUES (48980,   1, 'Lightning Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48980,   1,   33559452) /* Setup */

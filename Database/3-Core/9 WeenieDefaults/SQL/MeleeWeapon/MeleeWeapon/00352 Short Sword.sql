@@ -5,13 +5,11 @@ VALUES (352, 'swordshort', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (352,   1,          1) /* ItemType - MeleeWeapon */
-     , (352,   2,         14) /* CreatureType - Undead */
      , (352,   5,        350) /* EncumbranceVal */
      , (352,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (352,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (352,  16,          1) /* ItemUseable - No */
      , (352,  19,        160) /* Value */
-     , (352,  25,         15) /* Level */
      , (352,  44,          8) /* Damage */
      , (352,  45,          3) /* DamageType - Slash, Pierce */
      , (352,  47,          6) /* AttackType - Thrust, Slash */
@@ -63,9 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (352,   3, 2121588785) /* Wielder */
      , (352, 8000, 2155133729) /* PCAPRecordedObjectIID */
      , (352, 8008, 2121588785) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (352,   1,    63, 0, 0, 63) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (352, 67111920, 0, 0);

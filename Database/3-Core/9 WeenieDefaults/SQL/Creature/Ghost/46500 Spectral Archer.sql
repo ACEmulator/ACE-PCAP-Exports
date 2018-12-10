@@ -11,9 +11,7 @@ VALUES (46500,   1,         16) /* ItemType - Creature */
      , (46500,  16,          1) /* ItemUseable - No */
      , (46500,  25,        240) /* Level */
      , (46500,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (46500, 113,          1) /* Gender - Male */
      , (46500, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46500, 188,          1) /* HeritageGroup - Aluvian */
      , (46500, 307,         10) /* DamageRating */
      , (46500, 308,         10) /* DamageResistRating */
      , (46500, 313,          5) /* CritRating */
@@ -36,12 +34,6 @@ VALUES (46500,   1,   33561494) /* Setup */
      , (46500,   2,  150994945) /* MotionTable */
      , (46500,   3,  536870942) /* SoundTable */
      , (46500,   8,  100669124) /* Icon */
-     , (46500,   9,   83890448) /* EyesTexture */
-     , (46500,  10,   83890551) /* NoseTexture */
-     , (46500,  11,   83890643) /* MouthTexture */
-     , (46500,  15,   67116985) /* HairPalette */
-     , (46500,  16,   67109567) /* EyesPalette */
-     , (46500,  17,   67109559) /* SkinPalette */
      , (46500,  22,  872415269) /* PhysicsEffectTable */
      , (46500, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46500, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

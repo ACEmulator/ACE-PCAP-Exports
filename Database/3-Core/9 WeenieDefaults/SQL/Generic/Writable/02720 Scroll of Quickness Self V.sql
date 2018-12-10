@@ -5,11 +5,9 @@ VALUES (2720, 'scrollquicknessself5', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2720,   1,       8192) /* ItemType - Writable */
-     , (2720,   2,         98) /* CreatureType - BlightedMoarsman */
      , (2720,   5,         30) /* EncumbranceVal */
      , (2720,  16,          8) /* ItemUseable - Contained */
      , (2720,  19,        200) /* Value */
-     , (2720,  25,         80) /* Level */
      , (2720,  65,        101) /* Placement - Resting */
      , (2720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2720,   1,   33554826) /* Setup */
      , (2720,   8,  100676469) /* Icon */
      , (2720,  22,  872415275) /* PhysicsEffectTable */
-     , (2720,  28,       1401) /* Spell */
+     , (2720,  28,       1401) /* Spell - QuicknessSelf5 */
      , (2720, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2720, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2720, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,9 +40,6 @@ VALUES (2720,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2720,   2, 2629635618) /* Container */
      , (2720, 8000, 2629635620) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2720,   1,   275, 0, 0, 275) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2720,  1401,      2) ;

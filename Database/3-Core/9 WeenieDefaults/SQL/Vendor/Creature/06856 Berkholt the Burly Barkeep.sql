@@ -6,11 +6,9 @@ VALUES (6856, 'ayanbaqurbarkeeper', 12) /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6856,   1,         16) /* ItemType - Creature */
      , (6856,   2,         31) /* CreatureType - Human */
-     , (6856,   5,       6382) /* EncumbranceVal */
      , (6856,   6,        255) /* ItemsCapacity */
      , (6856,   7,        255) /* ContainersCapacity */
      , (6856,  16,         32) /* ItemUseable - Remote */
-     , (6856,  19,          0) /* Value */
      , (6856,  25,         94) /* Level */
      , (6856,  74,     262178) /* MerchandiseItemTypes - Armor, Food, PromissoryNote */
      , (6856,  75,          0) /* MerchandiseMinValue */
@@ -41,7 +39,6 @@ VALUES (6856,  37, 0.699999988079071) /* BuyPrice */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6856,   1, 'Berkholt the Burly Barkeep') /* Name */
      , (6856,   5, 'Barkeeper') /* Template */
-     , (6856,  16, 'Killed by Mag-three.') /* LongDesc */
      , (6856, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

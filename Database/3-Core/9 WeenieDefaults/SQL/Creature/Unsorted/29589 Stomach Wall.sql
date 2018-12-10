@@ -5,11 +5,9 @@ VALUES (29589, 'wallstomachreeshan', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29589,   1,         16) /* ItemType - Creature */
-     , (29589,   5,         30) /* EncumbranceVal */
      , (29589,   6,        255) /* ItemsCapacity */
      , (29589,   7,        255) /* ContainersCapacity */
      , (29589,  16,          1) /* ItemUseable - No */
-     , (29589,  19,       2000) /* Value */
      , (29589,  93,      66568) /* PhysicsState - ReportCollisions, Gravity, HasPhysicsBSP */
      , (29589, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29589, 307,          0) /* DamageRating */
@@ -47,7 +45,6 @@ VALUES (29589,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29589,   1, 'Stomach Wall') /* Name */
-     , (29589,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (29589,  16, 'A throbbing wall of living fleshy material. The gurgling of acid and the presence of half digested corpses alerts you to the fact that this is a stomach wall. You are in the belly of the beast.') /* LongDesc */
      , (29589, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
@@ -67,6 +64,3 @@ VALUES (29589, 8040, 16056576, 34.4, -30, -42, 0.707107, 0, 0, -0.707107) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29589, 8000, 3349683468) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29589,  2242,      2) ;

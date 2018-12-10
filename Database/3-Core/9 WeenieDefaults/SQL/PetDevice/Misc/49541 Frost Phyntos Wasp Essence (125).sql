@@ -10,44 +10,18 @@ VALUES (49541,   1,        128) /* ItemType - Misc */
      , (49541,  18,        128) /* UiEffects - Frost */
      , (49541,  19,       7000) /* Value */
      , (49541,  33,          0) /* Bonded - Normal */
-     , (49541,  44,         20) /* Damage */
-     , (49541,  45,          4) /* DamageType - Bludgeon */
-     , (49541,  47,          6) /* AttackType - Thrust, Slash */
-     , (49541,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (49541,  49,         10) /* WeaponTime */
      , (49541,  65,        101) /* Placement - Resting */
      , (49541,  91,         50) /* MaxStructure */
      , (49541,  92,         50) /* Structure */
      , (49541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49541,  94,         16) /* TargetType - Creature */
      , (49541, 105,          6) /* ItemWorkmanship */
-     , (49541, 106,        252) /* ItemSpellcraft */
-     , (49541, 107,        607) /* ItemCurMana */
-     , (49541, 108,        607) /* ItemMaxMana */
-     , (49541, 109,        143) /* ItemDifficulty */
-     , (49541, 110,          0) /* ItemAllegianceRankLimit */
      , (49541, 114,          0) /* Attuned - Normal */
-     , (49541, 115,        272) /* ItemSkillLevelLimit */
-     , (49541, 131,          2) /* MaterialType - Porcelain */
-     , (49541, 158,          2) /* WieldRequirements - RawSkill */
-     , (49541, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (49541, 160,        350) /* WieldDifficulty */
-     , (49541, 172,          5) /* AppraisalLongDescDecoration */
-     , (49541, 176,         46) /* AppraisalItemSkill */
-     , (49541, 177,          3) /* GemCount */
-     , (49541, 178,         38) /* GemType */
      , (49541, 280,        213) /* SharedCooldown */
-     , (49541, 353,         10) /* WeaponType - Thrown */
      , (49541, 366,         54) /* UseRequiresSkill */
      , (49541, 367,        430) /* UseRequiresSkillLevel */
      , (49541, 369,        115) /* UseRequiresLevel */
-     , (49541, 370,         12) /* GearDamage */
-     , (49541, 371,         16) /* GearDamageResist */
-     , (49541, 372,          5) /* GearCrit */
-     , (49541, 373,         16) /* GearCritResist */
-     , (49541, 374,         11) /* GearCritDamage */
-     , (49541, 375,         11) /* GearCritDamageResist */
-     , (49541, 8030,          0);
+     , (49541, 371,         16) /* GearDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49541,   1, False) /* Stuck */
@@ -59,20 +33,12 @@ VALUES (49541,   1, False) /* Stuck */
      , (49541,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49541,   5, -0.0555555555555556) /* ManaRate */
-     , (49541,  21,       0) /* WeaponLength */
-     , (49541,  22,    0.25) /* DamageVariance */
-     , (49541,  26,       0) /* MaximumVelocity */
-     , (49541,  29,       1) /* WeaponDefense */
-     , (49541,  39, 0.400000005960464) /* DefaultScale */
-     , (49541,  62,       1) /* WeaponOffense */
-     , (49541,  63,       1) /* DamageMod */
+VALUES (49541,  39, 0.400000005960464) /* DefaultScale */
      , (49541, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49541,   1, 'Frost Phyntos Wasp Essence (125)') /* Name */
-     , (49541,  14, 'Use this essence to summon or dismiss your Frost Phyntos Wasp.') /* Use */
-     , (49541,  16, 'Killed by Callaway.') /* LongDesc */;
+     , (49541,  14, 'Use this essence to summon or dismiss your Frost Phyntos Wasp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49541,   1,   33554817) /* Setup */
@@ -90,12 +56,6 @@ VALUES (49541,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49541,   2, 3698977573) /* Container */
      , (49541, 8000, 3699121124) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49541,  1402,      2) 
-     , (49541,  1616,      2) 
-     , (49541,  2596,      2) 
-     , (49541,  2609,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49541, 67111919, 0, 0);

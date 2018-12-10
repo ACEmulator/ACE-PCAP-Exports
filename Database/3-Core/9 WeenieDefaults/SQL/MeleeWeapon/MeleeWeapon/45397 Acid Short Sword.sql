@@ -57,15 +57,12 @@ VALUES (45397,   5, -0.0666666701436043) /* ManaRate */
      , (45397,  39, 1.10000002384186) /* DefaultScale */
      , (45397,  62, 1.14999997615814) /* WeaponOffense */
      , (45397,  63,       1) /* DamageMod */
-     , (45397, 149,   1.015) /* WeaponMissileDefense */
-     , (45397, 150,   1.015) /* WeaponMagicDefense */
      , (45397, 8004,       9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45397,   1, 'Acid Short Sword') /* Name */
      , (45397,   7, '3 brass 6 granite') /* Inscription */
      , (45397,   8, 'Aikido') /* ScribeName */
-     , (45397,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (45397,  16, 'Acid Short Sword of Blooddrinker') /* LongDesc */
      , (45397,  39, 'Imhotep Amun-Ra') /* TinkerName */
      , (45397,  40, 'Trader Dagger') /* ImbuerName */;
@@ -86,33 +83,6 @@ VALUES (45397,   2, 3666901363) /* Container */
      , (45397, 8000, 2173690719) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45397,  1378,      2) 
-     , (45397,  1589,      2) 
-     , (45397,  1591,      2) 
-     , (45397,  1612,      2) 
-     , (45397,  1613,      2) 
-     , (45397,  1615,      2) 
-     , (45397,  1616,      2) 
-     , (45397,  1623,      2) 
-     , (45397,  1626,      2) 
-     , (45397,  2096,      2) 
-     , (45397,  2101,      2) 
-     , (45397,  2106,      2) 
-     , (45397,  2116,      2) 
-     , (45397,  2544,      2) 
-     , (45397,  2545,      2) 
-     , (45397,  2552,      2) 
-     , (45397,  2559,      2) 
-     , (45397,  2572,      2) 
-     , (45397,  2579,      2) 
-     , (45397,  2588,      2) 
-     , (45397,  2591,      2) 
-     , (45397,  2608,      2) 
-     , (45397,  4319,      2) 
-     , (45397,  4395,      2) 
+VALUES (45397,  4395,      2) 
      , (45397,  4405,      2) 
-     , (45397,  4661,      2) 
-     , (45397,  4684,      2) 
-     , (45397,  5398,      2) 
-     , (45397,  5784,      2) 
-     , (45397,  5785,      2) ;
+     , (45397,  4661,      2) ;

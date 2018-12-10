@@ -36,8 +36,6 @@ VALUES (8152,  13,    0.75) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8152,   1, 'Tusker Mask') /* Name */
-     , (8152,   7, 'Honk honk') /* Inscription */
-     , (8152,   8, 'Killerwolf') /* ScribeName */
      , (8152,  16, 'A mask that is finely stitched, managing to keep the fur looking natural, while maneuvering the natural features to fit a human head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

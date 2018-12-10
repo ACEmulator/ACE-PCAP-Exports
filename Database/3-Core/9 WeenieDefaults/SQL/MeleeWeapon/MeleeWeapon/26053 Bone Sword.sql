@@ -5,18 +5,14 @@ VALUES (26053, 'swordburunbonehigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26053,   1,          1) /* ItemType - MeleeWeapon */
-     , (26053,   2,         22) /* CreatureType - Shadow */
      , (26053,   5,        450) /* EncumbranceVal */
      , (26053,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (26053,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (26053,  16,          1) /* ItemUseable - No */
      , (26053,  19,       1150) /* Value */
-     , (26053,  25,        160) /* Level */
-     , (26053,  33,          1) /* Bonded - Bonded */
      , (26053,  51,          1) /* CombatUse - Melee */
      , (26053,  65,          1) /* Placement - RightHandCombat */
-     , (26053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (26053, 307,          5) /* DamageRating */;
+     , (26053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26053,   1, False) /* Stuck */
@@ -27,9 +23,7 @@ VALUES (26053,   1, False) /* Stuck */
      , (26053,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26053,   1, 'Bone Sword') /* Name */
-     , (26053,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (26053,  16, 'A concentrated gold pea.') /* LongDesc */;
+VALUES (26053,   1, 'Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26053,   1,   33558586) /* Setup */
@@ -49,19 +43,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26053,   3, 3710913588) /* Wielder */
      , (26053, 8000, 3710913578) /* PCAPRecordedObjectIID */
      , (26053, 8008, 3710913588) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (26053,   1, 400, 0, 0) /* Strength */
-     , (26053,   2, 400, 0, 0) /* Endurance */
-     , (26053,   3, 400, 0, 0) /* Quickness */
-     , (26053,   4, 400, 0, 0) /* Coordination */
-     , (26053,   5, 400, 0, 0) /* Focus */
-     , (26053,   6, 400, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26053,   1,  9800, 0, 0, 9800) /* MaxHealth */
-     , (26053,   3,  9500, 0, 0, 9498) /* MaxStamina */
-     , (26053,   5,  3000, 0, 0, 3000) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26053,  2073,      2) ;

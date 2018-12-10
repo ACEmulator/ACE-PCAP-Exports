@@ -34,8 +34,6 @@ VALUES (27682,   5, -0.03333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27682,   1, 'Renegade Bone Charm') /* Name */
-     , (27682,   7, 'a gift from black night''s wolf enjoy unless you already have one lol') /* Inscription */
-     , (27682,   8, 'Black night''s wolf''') /* ScribeName */
      , (27682,  16, 'The finger bones of Renegade Tumerok enemies have been placed on a sturdy metal band and enchanted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

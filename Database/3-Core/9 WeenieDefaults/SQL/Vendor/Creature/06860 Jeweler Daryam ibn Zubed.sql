@@ -6,39 +6,19 @@ VALUES (6860, 'ayanbaqurjeweler', 12) /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6860,   1,         16) /* ItemType - Creature */
      , (6860,   2,         31) /* CreatureType - Human */
-     , (6860,   5,         50) /* EncumbranceVal */
      , (6860,   6,        255) /* ItemsCapacity */
      , (6860,   7,        255) /* ContainersCapacity */
      , (6860,  16,         32) /* ItemUseable - Remote */
-     , (6860,  19,      10731) /* Value */
      , (6860,  25,         12) /* Level */
-     , (6860,  44,         20) /* Damage */
-     , (6860,  45,          4) /* DamageType - Bludgeon */
-     , (6860,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (6860,  49,         10) /* WeaponTime */
      , (6860,  74,     280712) /* MerchandiseItemTypes - Jewelry, Misc, Gem, Key, PromissoryNote */
      , (6860,  75,          0) /* MerchandiseMinValue */
      , (6860,  76,    1000000) /* MerchandiseMaxValue */
      , (6860,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
-     , (6860, 105,          8) /* ItemWorkmanship */
-     , (6860, 106,        315) /* ItemSpellcraft */
-     , (6860, 107,        996) /* ItemCurMana */
-     , (6860, 108,        996) /* ItemMaxMana */
-     , (6860, 109,        236) /* ItemDifficulty */
-     , (6860, 110,          0) /* ItemAllegianceRankLimit */
      , (6860, 113,          1) /* Gender - Male */
-     , (6860, 115,          0) /* ItemSkillLevelLimit */
-     , (6860, 117,        300) /* ItemManaCost */
-     , (6860, 131,         71) /* MaterialType - Serpentine */
      , (6860, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6860, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (6860, 172,          5) /* AppraisalLongDescDecoration */
-     , (6860, 177,          2) /* GemCount */
-     , (6860, 178,         16) /* GemType */
      , (6860, 188,          2) /* HeritageGroup - Gharundim */
-     , (6860, 353,         10) /* WeaponType - Thrown */
-     , (6860, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (6860, 8030,          0);
+     , (6860, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6860,   1, True ) /* Stuck */
@@ -51,21 +31,13 @@ VALUES (6860,   1, True ) /* Stuck */
      , (6860,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6860,   5, -0.0555555555555556) /* ManaRate */
-     , (6860,  21,       0) /* WeaponLength */
-     , (6860,  22,    0.25) /* DamageVariance */
-     , (6860,  26,       0) /* MaximumVelocity */
-     , (6860,  29,       1) /* WeaponDefense */
-     , (6860,  37, 0.699999988079071) /* BuyPrice */
+VALUES (6860,  37, 0.699999988079071) /* BuyPrice */
      , (6860,  38, 1.89999997615814) /* SellPrice */
-     , (6860,  54,       3) /* UseRadius */
-     , (6860,  62,       1) /* WeaponOffense */
-     , (6860,  63,       1) /* DamageMod */;
+     , (6860,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6860,   1, 'Jeweler Daryam ibn Zubed') /* Name */
      , (6860,   5, 'Jeweler') /* Template */
-     , (6860,  16, 'Ornamental Bowl of Arcanum Salvaging') /* LongDesc */
      , (6860, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -103,10 +75,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (6860,   1,    58, 0, 0, 58) /* MaxHealth */
      , (6860,   3,   105, 0, 0, 105) /* MaxStamina */
      , (6860,   5,    85, 0, 0, 85) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6860,  1377,      2) 
-     , (6860,  3505,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6860, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */

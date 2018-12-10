@@ -45,8 +45,6 @@ VALUES (32756,   5, -0.0833000019192696) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32756,   1, 'Prismatic Amuli Coat') /* Name */
-     , (32756,   7, 'Mine!') /* Inscription */
-     , (32756,   8, 'Ninavie') /* ScribeName */
      , (32756,  16, 'An Amuli Coat infused with the power of the Elements. A soft glow surrounds the coat and storms can be seen waxing and waning within the crystal surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -5,26 +5,11 @@ VALUES (32438, 'ace32438-magicitemtinkeringwardenofenlightenment', 10) /* Creatu
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32438,   1,         16) /* ItemType - Creature */
-     , (32438,   5,        381) /* EncumbranceVal */
      , (32438,   6,        255) /* ItemsCapacity */
      , (32438,   7,        255) /* ContainersCapacity */
      , (32438,  16,         32) /* ItemUseable - Remote */
-     , (32438,  19,      21145) /* Value */
-     , (32438,  28,        258) /* ArmorLevel */
      , (32438,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32438,  95,          3) /* RadarBlipColor - White */
-     , (32438, 105,          7) /* ItemWorkmanship */
-     , (32438, 106,        310) /* ItemSpellcraft */
-     , (32438, 107,        817) /* ItemCurMana */
-     , (32438, 108,        817) /* ItemMaxMana */
-     , (32438, 109,        172) /* ItemDifficulty */
-     , (32438, 110,          0) /* ItemAllegianceRankLimit */
-     , (32438, 115,        330) /* ItemSkillLevelLimit */
-     , (32438, 131,         54) /* MaterialType - GromnieHide */
-     , (32438, 172,          5) /* AppraisalLongDescDecoration */
-     , (32438, 176,          6) /* AppraisalItemSkill */
-     , (32438, 177,          2) /* GemCount */
-     , (32438, 178,         21) /* GemType */
      , (32438, 307,          0) /* DamageRating */
      , (32438, 308,          0) /* DamageResistRating */
      , (32438, 313,          0) /* CritRating */
@@ -59,25 +44,14 @@ VALUES (32438,   1, True ) /* Stuck */
      , (32438,  14, True ) /* GravityStatus */
      , (32438,  19, False) /* Attackable */
      , (32438,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32438,  42, True ) /* AllowEdgeSlide */
-     , (32438, 100, True ) /* Dyable */;
+     , (32438,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32438,   5, -0.0555555555555556) /* ManaRate */
-     , (32438,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32438,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (32438,  15,       1) /* ArmorModVsBludgeon */
-     , (32438,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (32438,  17, 1.26887571811676) /* ArmorModVsFire */
-     , (32438,  18, 1.11595368385315) /* ArmorModVsAcid */
-     , (32438,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (32438,  39,     0.5) /* DefaultScale */
-     , (32438,  54,       3) /* UseRadius */
-     , (32438, 165,       1) /* ArmorModVsNether */;
+VALUES (32438,  39,     0.5) /* DefaultScale */
+     , (32438,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32438,   1, 'Magic Item Tinkering Warden of Enlightenment') /* Name */
-     , (32438,  16, 'Studded Leather Gauntlets of Blocking') /* LongDesc */
      , (32438, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -96,12 +70,3 @@ VALUES (32438, 8040, 3583574078, 170, 129, 374, -4.37114E-08, 0, 0, -1) /* PCAPR
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32438, 8000, 3692312908) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32438,  1486,      2) 
-     , (32438,  1498,      2) 
-     , (32438,  1562,      2) 
-     , (32438,  2555,      2) 
-     , (32438,  5428,      2) 
-     , (32438,  5857,      2) 
-     , (32438,  5887,      2) ;

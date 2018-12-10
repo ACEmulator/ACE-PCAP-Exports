@@ -6,26 +6,12 @@ VALUES (40777, 'ace40777-intensevoltaiccrystallinewisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40777,   1,         16) /* ItemType - Creature */
      , (40777,   2,         20) /* CreatureType - Wisp */
-     , (40777,   5,         50) /* EncumbranceVal */
      , (40777,   6,        255) /* ItemsCapacity */
      , (40777,   7,        255) /* ContainersCapacity */
      , (40777,  16,          1) /* ItemUseable - No */
-     , (40777,  19,      10000) /* Value */
      , (40777,  25,        135) /* Level */
-     , (40777,  33,          0) /* Bonded - Normal */
-     , (40777,  91,         50) /* MaxStructure */
-     , (40777,  92,         50) /* Structure */
      , (40777,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (40777, 105,          6) /* ItemWorkmanship */
-     , (40777, 114,          0) /* Attuned - Normal */
      , (40777, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (40777, 280,        213) /* SharedCooldown */
-     , (40777, 366,         54) /* UseRequiresSkill */
-     , (40777, 367,        570) /* UseRequiresSkillLevel */
-     , (40777, 368,         54) /* UseRequiresSkillSpec */
-     , (40777, 369,        185) /* UseRequiresLevel */
-     , (40777, 371,         11) /* GearDamageResist */
-     , (40777, 375,         10) /* GearCritDamageResist */
      , (40777, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,15 +20,10 @@ VALUES (40777,   1, True ) /* Stuck */
      , (40777,  13, False) /* Ethereal */
      , (40777,  14, True ) /* GravityStatus */
      , (40777,  19, True ) /* Attackable */
-     , (40777,  42, True ) /* AllowEdgeSlide */
-     , (40777,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40777, 167,      45) /* CooldownDuration */;
+     , (40777,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40777,   1, 'Intense Voltaic Crystalline Wisp') /* Name */
-     , (40777,  14, 'Use this essence to summon or dismiss your Fire Maiden.') /* Use */
      , (40777, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

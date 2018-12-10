@@ -5,11 +5,9 @@ VALUES (51593, 'ace51593-lightningcloud', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51593,   1,        128) /* ItemType - Misc */
-     , (51593,   2,         82) /* CreatureType - Thrungus */
      , (51593,   5,       2500) /* EncumbranceVal */
      , (51593,  16,          1) /* ItemUseable - No */
      , (51593,  19,          1) /* Value */
-     , (51593,  25,         50) /* Level */
      , (51593,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51593, 151,         16) /* HookType - Roof */;
 
@@ -24,8 +22,7 @@ VALUES (51593,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51593,   1, 'Lightning Cloud') /* Name */
      , (51593,  14, 'You can use this item on roof hooks. ') /* Use */
-     , (51593,  15, 'A cloud swirling with electric energy.') /* ShortDesc */
-     , (51593,  16, 'Killed by High-Voltage II.') /* LongDesc */;
+     , (51593,  15, 'A cloud swirling with electric energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51593,   1,   33561570) /* Setup */
@@ -42,6 +39,3 @@ VALUES (51593, 8040, 3583574079, 185.907, 156.8778, 373.6675, 0.7876397, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51593, 8000, 2148714595) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51593,   1,   161, 0, 0, 161) /* MaxHealth */;

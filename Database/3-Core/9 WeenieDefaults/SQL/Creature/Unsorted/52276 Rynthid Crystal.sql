@@ -5,13 +5,10 @@ VALUES (52276, 'ace52276-rynthidcrystal', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52276,   1,         16) /* ItemType - Creature */
-     , (52276,   5,       6040) /* EncumbranceVal */
      , (52276,   6,        255) /* ItemsCapacity */
      , (52276,   7,        255) /* ContainersCapacity */
      , (52276,  16,          1) /* ItemUseable - No */
-     , (52276,  19,          0) /* Value */
      , (52276,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52276, 107,          0) /* ItemCurMana */
      , (52276, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52276, 307,          0) /* DamageRating */
      , (52276, 308,          0) /* DamageResistRating */
@@ -47,15 +44,11 @@ VALUES (52276,   1, True ) /* Stuck */
      , (52276,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52276,  39,     1.5) /* DefaultScale */
-     , (52276,  87,       3) /* ItemEfficiency */
-     , (52276, 137,    0.25) /* ManaStoneDestroyChance */;
+VALUES (52276,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52276,   1, 'Rynthid Crystal') /* Name */
-     , (52276,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (52276,  15, 'A bright red crystal that seems to attract the nearby Rynthid.') /* ShortDesc */
-     , (52276,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (52276, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

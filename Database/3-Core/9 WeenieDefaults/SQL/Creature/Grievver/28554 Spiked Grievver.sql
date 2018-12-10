@@ -6,26 +6,12 @@ VALUES (28554, 'grievverspiked', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28554,   1,         16) /* ItemType - Creature */
      , (28554,   2,         44) /* CreatureType - Grievver */
-     , (28554,   5,         15) /* EncumbranceVal */
      , (28554,   6,        255) /* ItemsCapacity */
      , (28554,   7,        255) /* ContainersCapacity */
      , (28554,  16,          1) /* ItemUseable - No */
-     , (28554,  19,      16777) /* Value */
      , (28554,  25,         60) /* Level */
      , (28554,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28554, 105,          9) /* ItemWorkmanship */
-     , (28554, 106,        314) /* ItemSpellcraft */
-     , (28554, 107,       2116) /* ItemCurMana */
-     , (28554, 108,       2116) /* ItemMaxMana */
-     , (28554, 109,        343) /* ItemDifficulty */
-     , (28554, 110,          0) /* ItemAllegianceRankLimit */
-     , (28554, 115,          0) /* ItemSkillLevelLimit */
-     , (28554, 131,         13) /* MaterialType - Aquamarine */
      , (28554, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28554, 158,          7) /* WieldRequirements - Level */
-     , (28554, 159,          1) /* WieldSkilltype - Axe */
-     , (28554, 160,        150) /* WieldDifficulty */
-     , (28554, 172,          1) /* AppraisalLongDescDecoration */
      , (28554, 307,          2) /* DamageRating */
      , (28554, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -37,13 +23,11 @@ VALUES (28554,   1, True ) /* Stuck */
      , (28554,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28554,   5, -0.0555555555555556) /* ManaRate */
-     , (28554,  39, 1.10000002384186) /* DefaultScale */
+VALUES (28554,  39, 1.10000002384186) /* DefaultScale */
      , (28554,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28554,   1, 'Spiked Grievver') /* Name */
-     , (28554,  16, 'Ring of Endurance') /* LongDesc */
      , (28554, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,8 +60,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28554,   1,   185, 0, 0, 185) /* MaxHealth */
      , (28554,   3,   210, 0, 0, 210) /* MaxStamina */
      , (28554,   5,   230, 0, 0, 230) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28554,  2061,      2) 
-     , (28554,  2516,      2) 
-     , (28554,  2531,      2) ;

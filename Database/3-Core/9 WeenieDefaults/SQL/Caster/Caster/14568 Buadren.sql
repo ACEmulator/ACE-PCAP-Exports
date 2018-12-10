@@ -36,15 +36,13 @@ VALUES (14568,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14568,   5, -0.0500000007450581) /* ManaRate */
      , (14568,  29,       1) /* WeaponDefense */
-     , (14568, 144,       0) /* ManaConversionMod */
-     , (14568, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (14568, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14568,   1, 'Buadren') /* Name */
      , (14568,   7, 'You split Hero Forgiven apart!') /* Inscription */
      , (14568,   8, 'Havokk') /* ScribeName */
-     , (14568,  15, 'A Tumerok drum enhanced with the Heart of Oak spell by Aun Tikakhe.') /* ShortDesc */
-     , (14568,  16, NULL) /* LongDesc */;
+     , (14568,  15, 'A Tumerok drum enhanced with the Heart of Oak spell by Aun Tikakhe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14568,   1,   33557297) /* Setup */

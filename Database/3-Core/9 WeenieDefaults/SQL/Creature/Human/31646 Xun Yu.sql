@@ -6,35 +6,17 @@ VALUES (31646, 'ace31646-xunyu', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31646,   1,         16) /* ItemType - Creature */
      , (31646,   2,         31) /* CreatureType - Human */
-     , (31646,   5,         50) /* EncumbranceVal */
      , (31646,   6,        255) /* ItemsCapacity */
      , (31646,   7,        255) /* ContainersCapacity */
      , (31646,  16,         32) /* ItemUseable - Remote */
-     , (31646,  19,       1161) /* Value */
      , (31646,  25,         94) /* Level */
-     , (31646,  28,          0) /* ArmorLevel */
-     , (31646,  44,         29) /* Damage */
-     , (31646,  45,         32) /* DamageType - Acid */
-     , (31646,  47,          6) /* AttackType - Thrust, Slash */
-     , (31646,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (31646,  49,         26) /* WeaponTime */
      , (31646,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31646,  95,          8) /* RadarBlipColor - Yellow */
-     , (31646, 105,          7) /* ItemWorkmanship */
      , (31646, 113,          1) /* Gender - Male */
-     , (31646, 131,         75) /* MaterialType - Oak */
      , (31646, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (31646, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (31646, 158,          2) /* WieldRequirements - RawSkill */
-     , (31646, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (31646, 160,        300) /* WieldDifficulty */
-     , (31646, 172,          5) /* AppraisalLongDescDecoration */
-     , (31646, 177,          1) /* GemCount */
-     , (31646, 178,         13) /* GemType */
      , (31646, 188,          3) /* HeritageGroup - Sho */
-     , (31646, 353,          7) /* WeaponType - Staff */
-     , (31646, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (31646, 8030,          0);
+     , (31646, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31646,   1, True ) /* Stuck */
@@ -44,31 +26,14 @@ VALUES (31646,   1, True ) /* Stuck */
      , (31646,  14, True ) /* GravityStatus */
      , (31646,  19, False) /* Attackable */
      , (31646,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (31646,  42, True ) /* AllowEdgeSlide */
-     , (31646, 100, True ) /* Dyable */;
+     , (31646,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31646,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (31646,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (31646,  15,       1) /* ArmorModVsBludgeon */
-     , (31646,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (31646,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (31646,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (31646,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (31646,  21,       0) /* WeaponLength */
-     , (31646,  22,     0.4) /* DamageVariance */
-     , (31646,  26,       0) /* MaximumVelocity */
-     , (31646,  29,    1.11) /* WeaponDefense */
-     , (31646,  54,       3) /* UseRadius */
-     , (31646,  62,    1.04) /* WeaponOffense */
-     , (31646,  63,       1) /* DamageMod */
-     , (31646, 165,       1) /* ArmorModVsNether */;
+VALUES (31646,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31646,   1, 'Xun Yu') /* Name */
      , (31646,   5, 'Repugnant Eater Ripper') /* Template */
-     , (31646,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (31646,  16, 'Acid Bastone') /* LongDesc */
      , (31646, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

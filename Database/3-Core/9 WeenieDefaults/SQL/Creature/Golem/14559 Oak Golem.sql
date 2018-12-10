@@ -6,15 +6,11 @@ VALUES (14559, 'golemoak', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14559,   1,         16) /* ItemType - Creature */
      , (14559,   2,         13) /* CreatureType - Golem */
-     , (14559,   5,         10) /* EncumbranceVal */
      , (14559,   6,        255) /* ItemsCapacity */
      , (14559,   7,        255) /* ContainersCapacity */
      , (14559,  16,          1) /* ItemUseable - No */
-     , (14559,  19,      12500) /* Value */
      , (14559,  25,         80) /* Level */
-     , (14559,  33,          1) /* Bonded - Bonded */
      , (14559,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (14559, 114,          1) /* Attuned - Attuned */
      , (14559, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14559, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -27,7 +23,6 @@ VALUES (14559,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14559,   1, 'Oak Golem') /* Name */
-     , (14559,  16, 'A concentrated silver pea.') /* LongDesc */
      , (14559, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

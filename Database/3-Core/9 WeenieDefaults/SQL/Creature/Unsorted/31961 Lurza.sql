@@ -5,7 +5,6 @@ VALUES (31961, 'ace31961-lurza', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31961,   1,         16) /* ItemType - Creature */
-     , (31961,   5,          0) /* EncumbranceVal */
      , (31961,   6,        255) /* ItemsCapacity */
      , (31961,   7,        255) /* ContainersCapacity */
      , (31961,  16,         32) /* ItemUseable - Remote */

@@ -24,14 +24,7 @@ VALUES (51989,   1,      32768) /* ItemType - Caster */
      , (51989, 158,          2) /* WieldRequirements - RawSkill */
      , (51989, 159,         34) /* WieldSkilltype - WarMagic */
      , (51989, 160,        375) /* WieldDifficulty */
-     , (51989, 166,         19) /* SlayerCreatureType - Virindi */
-     , (51989, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
-     , (51989, 319,         35) /* ItemMaxLevel */
-     , (51989, 320,          1) /* ItemXpStyle - Fixed */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (51989,   4, 3544223291) /* ItemTotalXp */
-     , (51989,   5, 2000000000) /* ItemBaseXp */;
+     , (51989, 166,         19) /* SlayerCreatureType - Virindi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51989,   1, False) /* Stuck */
@@ -41,8 +34,6 @@ VALUES (51989,   1, False) /* Stuck */
      , (51989,  19, True ) /* Attackable */
      , (51989,  22, True ) /* Inscribable */
      , (51989,  69, False) /* IsSellable */
-     , (51989,  85, True ) /* AppraisalHasAllowedWielder */
-     , (51989,  91, True ) /* Retained */
      , (51989,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,10 +45,7 @@ VALUES (51989,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51989,   1, 'Rynthid Tentacle Wand') /* Name */
-     , (51989,   7, '=D') /* Inscription */
-     , (51989,   8, 'Kallak') /* ScribeName */
-     , (51989,  16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */
-     , (51989,  25, 'Kallak') /* CraftsmanName */;
+     , (51989,  16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51989,   1,   33561603) /* Setup */

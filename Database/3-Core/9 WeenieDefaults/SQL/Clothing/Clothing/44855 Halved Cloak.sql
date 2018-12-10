@@ -22,14 +22,9 @@ VALUES (44855,   1,          4) /* ItemType - Clothing */
      , (44855, 160,         60) /* WieldDifficulty */
      , (44855, 172,          1) /* AppraisalLongDescDecoration */
      , (44855, 265,         53) /* EquipmentSetId - CloakAxe */
-     , (44855, 276,          9) /* WieldRequirements4 - IntStat */
-     , (44855, 277,        288) /* WieldSkilltype4 */
-     , (44855, 278,          1) /* WieldDifficulty4 */
      , (44855, 319,          2) /* ItemMaxLevel */
      , (44855, 320,          2) /* ItemXpStyle - ScalesWithLevel */
-     , (44855, 352,          1) /* CloakWeaveProc */
-     , (44855, 370,          1) /* GearDamage */
-     , (44855, 371,          2) /* GearDamageResist */;
+     , (44855, 352,          1) /* CloakWeaveProc */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (44855,   4,          0) /* ItemTotalXp */
@@ -42,7 +37,6 @@ VALUES (44855,   1, False) /* Stuck */
      , (44855,  14, True ) /* GravityStatus */
      , (44855,  19, True ) /* Attackable */
      , (44855,  22, True ) /* Inscribable */
-     , (44855,  91, True ) /* Retained */
      , (44855, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -58,8 +52,6 @@ VALUES (44855,  13, 0.800000011920929) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44855,   1, 'Halved Cloak') /* Name */
-     , (44855,   7, 'no shit, a D2 magic D cloak') /* Inscription */
-     , (44855,   8, 'The Guardian of Lost Light') /* ScribeName */
      , (44855,  16, 'Halved Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -78,18 +70,7 @@ VALUES (44855,   2, 3666811751) /* Container */
      , (44855, 8000, 2174493237) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44855,  1783,      2) 
-     , (44855,  1784,      2) 
-     , (44855,  1785,      2) 
-     , (44855,  1786,      2) 
-     , (44855,  1787,      2) 
-     , (44855,  1788,      2) 
-     , (44855,  1789,      2) 
-     , (44855,  5361,      2) 
-     , (44855,  5753,      2) 
-     , (44855,  5754,      2) 
-     , (44855,  5755,      2) 
-     , (44855,  5756,      2) ;
+VALUES (44855,  5756,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44855, 0, 83898657, 83898664);

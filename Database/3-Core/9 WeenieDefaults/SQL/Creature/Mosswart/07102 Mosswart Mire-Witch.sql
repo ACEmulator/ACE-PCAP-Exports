@@ -12,7 +12,7 @@ VALUES (7102,   1,         16) /* ItemType - Creature */
      , (7102,  25,         80) /* Level */
      , (7102,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7102, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7102, 307,          2) /* DamageRating */
+     , (7102, 307,          5) /* DamageRating */
      , (7102, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,17 +48,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7102, 8000, 3690389531) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (7102,   1, 120, 0, 0) /* Strength */
-     , (7102,   2, 160, 0, 0) /* Endurance */
-     , (7102,   3,  40, 0, 0) /* Quickness */
-     , (7102,   4,  60, 0, 0) /* Coordination */
-     , (7102,   5, 110, 0, 0) /* Focus */
-     , (7102,   6, 110, 0, 0) /* Self */;
+VALUES (7102,   1, 180, 0, 0) /* Strength */
+     , (7102,   2, 170, 0, 0) /* Endurance */
+     , (7102,   3, 145, 0, 0) /* Quickness */
+     , (7102,   4, 135, 0, 0) /* Coordination */
+     , (7102,   5, 130, 0, 0) /* Focus */
+     , (7102,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (7102,   1,   275, 0, 0, 275) /* MaxHealth */
-     , (7102,   3,   310, 0, 0, 310) /* MaxStamina */
-     , (7102,   5,   310, 0, 0, 310) /* MaxMana */;
+     , (7102,   3,   440, 0, 0, 440) /* MaxStamina */
+     , (7102,   5,   290, 0, 0, 290) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7102, 67113405, 0, 0);

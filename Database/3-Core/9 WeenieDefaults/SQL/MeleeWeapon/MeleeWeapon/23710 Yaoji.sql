@@ -10,32 +10,9 @@ VALUES (23710,   1,          1) /* ItemType - MeleeWeapon */
      , (23710,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23710,  16,          1) /* ItemUseable - No */
      , (23710,  19,        220) /* Value */
-     , (23710,  28,        219) /* ArmorLevel */
-     , (23710,  44,         10) /* Damage */
-     , (23710,  45,          4) /* DamageType - Bludgeon */
-     , (23710,  47,          6) /* AttackType - Thrust, Slash */
-     , (23710,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (23710,  49,         10) /* WeaponTime */
      , (23710,  51,          1) /* CombatUse - Melee */
      , (23710,  65,          1) /* Placement - RightHandCombat */
-     , (23710,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23710, 105,          7) /* ItemWorkmanship */
-     , (23710, 106,        182) /* ItemSpellcraft */
-     , (23710, 107,        584) /* ItemCurMana */
-     , (23710, 108,        584) /* ItemMaxMana */
-     , (23710, 109,         66) /* ItemDifficulty */
-     , (23710, 110,          0) /* ItemAllegianceRankLimit */
-     , (23710, 115,        141) /* ItemSkillLevelLimit */
-     , (23710, 131,         59) /* MaterialType - Copper */
-     , (23710, 158,          2) /* WieldRequirements - RawSkill */
-     , (23710, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (23710, 160,        370) /* WieldDifficulty */
-     , (23710, 172,          5) /* AppraisalLongDescDecoration */
-     , (23710, 176,          7) /* AppraisalItemSkill */
-     , (23710, 177,          2) /* GemCount */
-     , (23710, 178,         29) /* GemType */
-     , (23710, 353,         10) /* WeaponType - Thrown */
-     , (23710, 8030,          0);
+     , (23710,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23710,   1, False) /* Stuck */
@@ -43,29 +20,10 @@ VALUES (23710,   1, False) /* Stuck */
      , (23710,  13, True ) /* Ethereal */
      , (23710,  14, True ) /* GravityStatus */
      , (23710,  19, True ) /* Attackable */
-     , (23710,  22, True ) /* Inscribable */
-     , (23710, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23710,   5, -0.0416666666666667) /* ManaRate */
-     , (23710,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (23710,  14,       1) /* ArmorModVsPierce */
-     , (23710,  15,       1) /* ArmorModVsBludgeon */
-     , (23710,  16, 0.781760811805725) /* ArmorModVsCold */
-     , (23710,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (23710,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (23710,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (23710,  21,       0) /* WeaponLength */
-     , (23710,  22,    0.25) /* DamageVariance */
-     , (23710,  26,       0) /* MaximumVelocity */
-     , (23710,  29,       1) /* WeaponDefense */
-     , (23710,  62,       1) /* WeaponOffense */
-     , (23710,  63,       1) /* DamageMod */
-     , (23710, 165,       1) /* ArmorModVsNether */;
+     , (23710,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23710,   1, 'Yaoji') /* Name */
-     , (23710,  16, 'Tenassa Breastplate') /* LongDesc */;
+VALUES (23710,   1, 'Yaoji') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23710,   1,   33554765) /* Setup */
@@ -86,17 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23710,   3, 3688448893) /* Wielder */
      , (23710, 8000, 3688448904) /* PCAPRecordedObjectIID */
      , (23710, 8008, 3688448893) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23710,   706,      2) 
-     , (23710,  1402,      2) 
-     , (23710,  1485,      2) 
-     , (23710,  1486,      2) 
-     , (23710,  1551,      2) 
-     , (23710,  1627,      2) 
-     , (23710,  2096,      2) 
-     , (23710,  2550,      2) 
-     , (23710,  2555,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23710, 67111920, 0, 0);

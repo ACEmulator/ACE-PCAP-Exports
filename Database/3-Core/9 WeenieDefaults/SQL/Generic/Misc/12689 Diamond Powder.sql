@@ -26,9 +26,6 @@ VALUES (12689,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12689,   1, 'Diamond Powder') /* Name */
-     , (12689,   7, 'last hunt
-') /* Inscription */
-     , (12689,   8, 'Triumph') /* ScribeName */
      , (12689,  15, 'A fine sparkling powder lies here, the residue of the mighty Diamond Golem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

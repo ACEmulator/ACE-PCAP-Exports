@@ -32,13 +32,10 @@ VALUES (9064,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9064,   5,   -0.05) /* ManaRate */
      , (9064,  29,       1) /* WeaponDefense */
-     , (9064, 144,    0.05) /* ManaConversionMod */
-     , (9064, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (9064, 144,    0.05) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9064,   1, 'Hieromancer''s Orb') /* Name */
-     , (9064,   7, NULL) /* Inscription */
-     , (9064,   8, NULL) /* ScribeName */
      , (9064,  16, 'An orb of the type carried by the Yalaini Order of Hieromancers, as an emblem of their station.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

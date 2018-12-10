@@ -14,7 +14,6 @@ VALUES (31754,   1,        512) /* ItemType - Container */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31754,   1, True ) /* Stuck */
-     , (31754,   2, False) /* Open */
      , (31754,  11, True ) /* IgnoreCollisions */
      , (31754,  13, True ) /* Ethereal */
      , (31754,  14, True ) /* GravityStatus */

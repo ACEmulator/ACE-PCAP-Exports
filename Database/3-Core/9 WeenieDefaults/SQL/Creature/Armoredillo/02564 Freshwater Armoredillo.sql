@@ -6,11 +6,9 @@ VALUES (2564, 'armoredillofreshwater', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2564,   1,         16) /* ItemType - Creature */
      , (2564,   2,         17) /* CreatureType - Armoredillo */
-     , (2564,   5,       6250) /* EncumbranceVal */
      , (2564,   6,        255) /* ItemsCapacity */
      , (2564,   7,        255) /* ContainersCapacity */
      , (2564,  16,          1) /* ItemUseable - No */
-     , (2564,  19,          0) /* Value */
      , (2564,  25,         30) /* Level */
      , (2564,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (2564, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -18,7 +16,6 @@ VALUES (2564,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2564,   1, True ) /* Stuck */
-     , (2564,   2, False) /* Open */
      , (2564,  12, True ) /* ReportCollisions */
      , (2564,  13, False) /* Ethereal */
      , (2564,  14, True ) /* GravityStatus */
@@ -26,7 +23,6 @@ VALUES (2564,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2564,   1, 'Freshwater Armoredillo') /* Name */
-     , (2564,  16, 'Killed by Mag-four.') /* LongDesc */
      , (2564, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

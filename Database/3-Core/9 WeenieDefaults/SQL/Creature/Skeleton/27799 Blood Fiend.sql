@@ -6,11 +6,9 @@ VALUES (27799, 'skeletonbloodfiend', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27799,   1,         16) /* ItemType - Creature */
      , (27799,   2,         30) /* CreatureType - Skeleton */
-     , (27799,   5,       9302) /* EncumbranceVal */
      , (27799,   6,        255) /* ItemsCapacity */
      , (27799,   7,        255) /* ContainersCapacity */
      , (27799,  16,          1) /* ItemUseable - No */
-     , (27799,  19,          0) /* Value */
      , (27799,  25,        115) /* Level */
      , (27799,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27799, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (27799,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27799,   1, 'Blood Fiend') /* Name */
-     , (27799,  16, 'Killed by Nightz''.') /* LongDesc */
      , (27799, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

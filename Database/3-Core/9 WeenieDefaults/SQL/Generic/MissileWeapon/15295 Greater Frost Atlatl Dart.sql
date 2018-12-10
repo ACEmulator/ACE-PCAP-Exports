@@ -22,17 +22,7 @@ VALUES (15295,   1,        256) /* ItemType - MissileWeapon */
      , (15295,  51,          3) /* CombatUse - Ammo */
      , (15295,  65,          1) /* Placement - RightHandCombat */
      , (15295,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (15295, 105,          7) /* ItemWorkmanship */
-     , (15295, 106,        200) /* ItemSpellcraft */
-     , (15295, 107,        501) /* ItemCurMana */
-     , (15295, 108,        501) /* ItemMaxMana */
-     , (15295, 109,          0) /* ItemDifficulty */
-     , (15295, 110,          0) /* ItemAllegianceRankLimit */
-     , (15295, 115,          0) /* ItemSkillLevelLimit */
-     , (15295, 117,        300) /* ItemManaCost */
-     , (15295, 131,         43) /* MaterialType - Tourmaline */
      , (15295, 151,          2) /* HookType - Wall */
-     , (15295, 172,          1) /* AppraisalLongDescDecoration */
      , (15295, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,9 +46,7 @@ VALUES (15295,  21,       0) /* WeaponLength */
      , (15295,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15295,   1, 'Greater Frost Atlatl Dart') /* Name */
-     , (15295,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (15295,  16, 'Gem of Focus') /* LongDesc */;
+VALUES (15295,   1, 'Greater Frost Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15295,   1,   33557599) /* Setup */
@@ -79,10 +67,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (15295,   3, 3360318645) /* Wielder */
      , (15295, 8000, 3360318658) /* PCAPRecordedObjectIID */
      , (15295, 8008, 3360318645) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (15295,  1156,      2) 
-     , (15295,  1425,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15295, 67111927, 0, 0);

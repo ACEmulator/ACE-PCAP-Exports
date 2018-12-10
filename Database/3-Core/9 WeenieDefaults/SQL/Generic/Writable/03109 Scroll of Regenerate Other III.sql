@@ -9,10 +9,7 @@ VALUES (3109,   1,       8192) /* ItemType - Writable */
      , (3109,  16,          8) /* ItemUseable - Contained */
      , (3109,  19,         20) /* Value */
      , (3109,  65,        101) /* Placement - Resting */
-     , (3109,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3109, 105,          5) /* ItemWorkmanship */
-     , (3109, 131,         39) /* MaterialType - Sapphire */
-     , (3109, 172,          1) /* AppraisalLongDescDecoration */;
+     , (3109,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3109,   1, False) /* Stuck */
@@ -35,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3109,   1,   33554826) /* Setup */
      , (3109,   8,  100676941) /* Icon */
      , (3109,  22,  872415275) /* PhysicsEffectTable */
-     , (3109,  28,        161) /* Spell */
+     , (3109,  28,        161) /* Spell - RegenerationOther3 */
      , (3109, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3109, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3109, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

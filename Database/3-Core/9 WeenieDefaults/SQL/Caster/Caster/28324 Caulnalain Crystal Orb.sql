@@ -33,8 +33,7 @@ VALUES (28324,   5,   -0.05) /* ManaRate */
      , (28324,  29,       1) /* WeaponDefense */
      , (28324,  76,     0.5) /* Translucency */
      , (28324, 144, 1.08060948347209E-314) /* ManaConversionMod */
-     , (28324, 147,       1) /* CriticalFrequency */
-     , (28324, 152, 1.0599999986589) /* ElementalDamageMod */;
+     , (28324, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28324,   1, 'Caulnalain Crystal Orb') /* Name */

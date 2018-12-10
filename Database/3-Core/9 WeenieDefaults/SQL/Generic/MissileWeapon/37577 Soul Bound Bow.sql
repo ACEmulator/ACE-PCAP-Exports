@@ -29,15 +29,8 @@ VALUES (37577,   1,        256) /* ItemType - MissileWeapon */
      , (37577, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (37577, 160,        360) /* WieldDifficulty */
      , (37577, 166,         77) /* SlayerCreatureType - Ghost */
-     , (37577, 265,        138) /* EquipmentSetId - UNKNOWN_138 */
-     , (37577, 319,         32) /* ItemMaxLevel */
-     , (37577, 320,          1) /* ItemXpStyle - Fixed */
      , (37577, 353,          8) /* WeaponType - Bow */
      , (37577, 8030,          0);
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (37577,   4, 64000000000) /* ItemTotalXp */
-     , (37577,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37577,   1, False) /* Stuck */
@@ -49,7 +42,6 @@ VALUES (37577,   1, False) /* Stuck */
      , (37577,  22, True ) /* Inscribable */
      , (37577,  69, False) /* IsSellable */
      , (37577,  85, True ) /* AppraisalHasAllowedWielder */
-     , (37577,  91, True ) /* Retained */
      , (37577,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

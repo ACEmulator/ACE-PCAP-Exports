@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5984,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5984,   1, 'Scroll of Alchemy Ineptitude Other V') /* Name */;
+VALUES (5984,   1, 'Scroll of Alchemy Ineptitude Other V') /* Name */
+     , (5984,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (5984,  16, 'Inscribed spell: Alchemy Ineptitude Other V
+Decreases the target''s Alchemy skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5984,   1,   33554826) /* Setup */
      , (5984,   8,  100676480) /* Icon */
      , (5984,  22,  872415275) /* PhysicsEffectTable */
-     , (5984,  28,       1773) /* Spell */
+     , (5984,  28,       1773) /* Spell - AlchemyIneptitudeOther5 */
      , (5984, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5984, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5984, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (5984,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5984,   2, 3704043732) /* Container */
      , (5984, 8000, 3705064116) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (5984,  1773,      2) ;

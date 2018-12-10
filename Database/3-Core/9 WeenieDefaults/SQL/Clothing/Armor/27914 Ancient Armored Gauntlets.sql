@@ -43,8 +43,6 @@ VALUES (27914,   5, -0.0333000011742115) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27914,   1, 'Ancient Armored Gauntlets') /* Name */
-     , (27914,   7, 'Belongs to me!') /* Inscription */
-     , (27914,   8, 'Ninavie') /* ScribeName */
      , (27914,  16, 'These armored gauntlets appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

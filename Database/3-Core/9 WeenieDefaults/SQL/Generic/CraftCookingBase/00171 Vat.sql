@@ -31,7 +31,7 @@ VALUES (171,   1,   33554796) /* Setup */
      , (171,   3,  536870932) /* SoundTable */
      , (171,   8,  100668110) /* Icon */
      , (171,  22,  872415275) /* PhysicsEffectTable */
-     , (171,  28,       1183) /* Spell */
+     , (171,  28,       1183) /* Spell - RevitalizeOther1 */
      , (171, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
      , (171, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (171, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

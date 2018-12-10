@@ -24,8 +24,7 @@ VALUES (52699,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52699,  29,       1) /* WeaponDefense */
-     , (52699, 144,       0) /* ManaConversionMod */
-     , (52699, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (52699, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52699,   1, 'Wooden Top') /* Name */

@@ -6,19 +6,12 @@ VALUES (24316, 'skeletonmate', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24316,   1,         16) /* ItemType - Creature */
      , (24316,   2,         30) /* CreatureType - Skeleton */
-     , (24316,   5,          5) /* EncumbranceVal */
      , (24316,   6,        255) /* ItemsCapacity */
      , (24316,   7,        255) /* ContainersCapacity */
      , (24316,  16,          1) /* ItemUseable - No */
-     , (24316,  19,          0) /* Value */
      , (24316,  25,        115) /* Level */
-     , (24316,  33,          1) /* Bonded - Bonded */
      , (24316,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24316, 105,          4) /* ItemWorkmanship */
-     , (24316, 114,          1) /* Attuned - Attuned */
-     , (24316, 131,         25) /* MaterialType - Hematite */
      , (24316, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24316, 172,          1) /* AppraisalLongDescDecoration */
      , (24316, 307,          5) /* DamageRating */
      , (24316, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -27,13 +20,10 @@ VALUES (24316,   1, True ) /* Stuck */
      , (24316,  12, True ) /* ReportCollisions */
      , (24316,  13, False) /* Ethereal */
      , (24316,  14, True ) /* GravityStatus */
-     , (24316,  19, True ) /* Attackable */
-     , (24316,  69, False) /* IsSellable */;
+     , (24316,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24316,   1, 'Skeletal Mate') /* Name */
-     , (24316,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (24316,  16, 'A mote of coalesced mana.') /* LongDesc */
      , (24316, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -66,9 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24316,   1,   551, 0, 0, 551) /* MaxHealth */
      , (24316,   3,   645, 0, 0, 645) /* MaxStamina */
      , (24316,   5,   225, 0, 0, 225) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24316,  2072,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24316, 67116524, 0, 0);

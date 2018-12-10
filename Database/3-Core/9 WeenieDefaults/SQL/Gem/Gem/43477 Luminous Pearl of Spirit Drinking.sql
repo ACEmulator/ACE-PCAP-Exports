@@ -32,7 +32,7 @@ VALUES (43477,   1,   33554809) /* Setup */
      , (43477,   6,   67111919) /* PaletteBase */
      , (43477,   8,  100686695) /* Icon */
      , (43477,  22,  872415275) /* PhysicsEffectTable */
-     , (43477,  28,       4414) /* Spell */
+     , (43477,  28,       4414) /* Spell - SpiritDrinkerSelf8 */
      , (43477,  50,  100686685) /* IconOverlay */
      , (43477,  52,  100691593) /* IconUnderlay */
      , (43477, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

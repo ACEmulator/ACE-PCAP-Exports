@@ -5,11 +5,9 @@ VALUES (30460, 'craftingforgelockpick', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30460,   1,         16) /* ItemType - Creature */
-     , (30460,   5,          0) /* EncumbranceVal */
      , (30460,   6,        255) /* ItemsCapacity */
      , (30460,   7,        255) /* ContainersCapacity */
      , (30460,  16,         32) /* ItemUseable - Remote */
-     , (30460,  19,          0) /* Value */
      , (30460,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30460,  95,          3) /* RadarBlipColor - White */
      , (30460, 307,          0) /* DamageRating */
@@ -54,7 +52,6 @@ VALUES (30460,  39, 1.39999997615814) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30460,   1, 'Lockpick Forge') /* Name */
-     , (30460,  16, 'Killed by Tree Marmot.') /* LongDesc */
      , (30460, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

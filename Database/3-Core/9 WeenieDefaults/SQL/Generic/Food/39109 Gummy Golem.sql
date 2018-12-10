@@ -46,7 +46,7 @@ VALUES (39109,   1,   33556426) /* Setup */
      , (39109,   3,  536870932) /* SoundTable */
      , (39109,   8,  100689669) /* Icon */
      , (39109,  22,  872415275) /* PhysicsEffectTable */
-     , (39109,  28,       4209) /* Spell */
+     , (39109,  28,       4209) /* Spell - GummyShield */
      , (39109, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (39109, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39109, 8005,     333955) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Movement, Translucency */;

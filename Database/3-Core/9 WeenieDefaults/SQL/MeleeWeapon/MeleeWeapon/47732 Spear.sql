@@ -40,8 +40,7 @@ VALUES (47732,  21,       0) /* WeaponLength */
      , (47732,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47732,   1, 'Spear') /* Name */
-     , (47732,  16, 'Killed by Llllllllllllllllllll.') /* LongDesc */;
+VALUES (47732,   1, 'Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47732,   1,   33554756) /* Setup */

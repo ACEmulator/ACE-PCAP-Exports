@@ -6,28 +6,15 @@ VALUES (3925, 'crafterivoryaluvian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3925,   1,         16) /* ItemType - Creature */
      , (3925,   2,         31) /* CreatureType - Human */
-     , (3925,   5,         30) /* EncumbranceVal */
      , (3925,   6,        255) /* ItemsCapacity */
      , (3925,   7,        255) /* ContainersCapacity */
      , (3925,  16,         32) /* ItemUseable - Remote */
-     , (3925,  19,      19481) /* Value */
      , (3925,  25,          7) /* Level */
      , (3925,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (3925,  95,          8) /* RadarBlipColor - Yellow */
-     , (3925, 105,          7) /* ItemWorkmanship */
-     , (3925, 106,        280) /* ItemSpellcraft */
-     , (3925, 107,       1401) /* ItemCurMana */
-     , (3925, 108,       1401) /* ItemMaxMana */
-     , (3925, 109,        280) /* ItemDifficulty */
-     , (3925, 110,          0) /* ItemAllegianceRankLimit */
      , (3925, 113,          2) /* Gender - Female */
-     , (3925, 115,          0) /* ItemSkillLevelLimit */
-     , (3925, 131,         20) /* MaterialType - Diamond */
      , (3925, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (3925, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (3925, 172,          5) /* AppraisalLongDescDecoration */
-     , (3925, 177,          1) /* GemCount */
-     , (3925, 178,         26) /* GemType */
      , (3925, 188,          1) /* HeritageGroup - Aluvian */
      , (3925, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -42,13 +29,11 @@ VALUES (3925,   1, True ) /* Stuck */
      , (3925,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3925,   5, -0.0555555555555556) /* ManaRate */
-     , (3925,  54,       3) /* UseRadius */;
+VALUES (3925,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3925,   1, 'Ivory Crafter') /* Name */
      , (3925,   5, 'Trophy Crafter') /* Template */
-     , (3925,  16, 'Ring of Mana Renewal') /* LongDesc */
      , (3925, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (3925,   1,   115, 0, 0, 115) /* MaxHealth */
      , (3925,   3,   180, 0, 0, 180) /* MaxStamina */
      , (3925,   5,   130, 0, 0, 130) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3925,  2183,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3925, 67109561, 0, 24)

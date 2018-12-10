@@ -26,8 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46372,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46372,   1, 'Spectral Tachi') /* Name */
-     , (46372,  16, 'Killed by Sanguis Sparta.') /* LongDesc */;
+VALUES (46372,   1, 'Spectral Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46372,   1,   33554742) /* Setup */

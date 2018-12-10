@@ -20,11 +20,7 @@ VALUES (48611,   1,        256) /* ItemType - MissileWeapon */
      , (48611,  51,          2) /* CombatUse - Missle */
      , (48611,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48611, 151,          2) /* HookType - Wall */
-     , (48611, 307,          5) /* DamageRating */
-     , (48611, 313,          0) /* CritRating */
-     , (48611, 314,          0) /* CritDamageRating */
      , (48611, 353,         10) /* WeaponType - Thrown */
-     , (48611, 386,          0) /* Overpower */
      , (48611, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,9 +39,7 @@ VALUES (48611,  21,       0) /* WeaponLength */
      , (48611,  62,       1) /* WeaponOffense */
      , (48611,  63,       1) /* DamageMod */
      , (48611,  78,       1) /* Friction */
-     , (48611,  79,       0) /* Elasticity */
-     , (48611, 149,       0) /* WeaponMissileDefense */
-     , (48611, 150,       0) /* WeaponMagicDefense */;
+     , (48611,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48611,   1, 'Ice Shard') /* Name */;

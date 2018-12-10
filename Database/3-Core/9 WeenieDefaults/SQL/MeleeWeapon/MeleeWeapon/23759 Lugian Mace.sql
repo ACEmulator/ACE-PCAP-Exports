@@ -5,18 +5,14 @@ VALUES (23759, 'lugianmacelow', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23759,   1,          1) /* ItemType - MeleeWeapon */
-     , (23759,   2,         44) /* CreatureType - Grievver */
      , (23759,   5,       5200) /* EncumbranceVal */
      , (23759,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (23759,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23759,  16,          1) /* ItemUseable - No */
      , (23759,  19,        500) /* Value */
-     , (23759,  25,        200) /* Level */
-     , (23759,  33,          1) /* Bonded - Bonded */
      , (23759,  51,          1) /* CombatUse - Melee */
      , (23759,  65,          1) /* Placement - RightHandCombat */
      , (23759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23759, 114,          0) /* Attuned - Normal */
      , (23759, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,8 +27,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23759,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23759,   1, 'Lugian Mace') /* Name */
-     , (23759,  16, 'A human torso. All appendages have been savagely removed.') /* LongDesc */;
+VALUES (23759,   1, 'Lugian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23759,   1,   33554747) /* Setup */
@@ -52,16 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23759,   3, 3692405197) /* Wielder */
      , (23759, 8000, 3692020635) /* PCAPRecordedObjectIID */
      , (23759, 8008, 3692405197) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (23759,   1,   1, 0, 0) /* Strength */
-     , (23759,   2,   1, 0, 0) /* Endurance */
-     , (23759,   3,   1, 0, 0) /* Quickness */
-     , (23759,   4,   1, 0, 0) /* Coordination */
-     , (23759,   5,   1, 0, 0) /* Focus */
-     , (23759,   6,   1, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23759,   1,  1370, 0, 0, 1370) /* MaxHealth */
-     , (23759,   3,     1, 0, 0, 1) /* MaxStamina */
-     , (23759,   5,     1, 0, 0, 1) /* MaxMana */;

@@ -16,7 +16,7 @@ VALUES (21072,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21072,  92,        100) /* Structure */
      , (21072,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21072,  94, 1140850688) /* TargetType - CraftAlchemyIntermediate, TinkeringMaterial */
-     , (21072, 105,         72) /* ItemWorkmanship */
+     , (21072, 105,         73) /* ItemWorkmanship */
      , (21072, 131,         38) /* MaterialType - Ruby */
      , (21072, 151,          9) /* HookType - Floor, Yard */
      , (21072, 170,         10) /* NumItemsInMaterial */;
@@ -35,8 +35,7 @@ VALUES (21072, 8004, 7.40000009536743) /* PCAPRecordedWorkmanship */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21072,   1, 'Salvage (100)') /* Name */
      , (21072,  14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armature can then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Health. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* Use */
-     , (21072,  15, 'Chips of ruby material salvaged from old items.') /* ShortDesc */
-     , (21072,  16, 'Killed by Jesse the Destroyer''s K''nath.') /* LongDesc */;
+     , (21072,  15, 'Chips of ruby material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21072,   1,   33554817) /* Setup */

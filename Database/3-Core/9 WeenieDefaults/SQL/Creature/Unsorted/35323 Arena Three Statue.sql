@@ -5,11 +5,9 @@ VALUES (35323, 'ace35323-arenathreestatue', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35323,   1,         16) /* ItemType - Creature */
-     , (35323,   5,         30) /* EncumbranceVal */
      , (35323,   6,        255) /* ItemsCapacity */
      , (35323,   7,        255) /* ContainersCapacity */
      , (35323,  16,         32) /* ItemUseable - Remote */
-     , (35323,  19,        100) /* Value */
      , (35323,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35323,  95,          8) /* RadarBlipColor - Yellow */
      , (35323, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -54,7 +52,6 @@ VALUES (35323,  39, 0.600000023841858) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35323,   1, 'Arena Three Statue') /* Name */
-     , (35323,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (35323,  16, 'Arena Three is currently in use.') /* LongDesc */
      , (35323, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
@@ -74,6 +71,3 @@ VALUES (35323, 8040, 11469079, 40, 4.39999, 0, -4.371139E-08, 0, 0, -1) /* PCAPR
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35323, 8000, 3704369042) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35323,   518,      2) ;

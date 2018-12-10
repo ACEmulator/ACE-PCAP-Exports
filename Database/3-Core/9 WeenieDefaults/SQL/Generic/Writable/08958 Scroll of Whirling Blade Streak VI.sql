@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8958,   1,   33554826) /* Setup */
      , (8958,   8,  100677028) /* Icon */
      , (8958,  22,  872415275) /* PhysicsEffectTable */
-     , (8958,  28,       1831) /* Spell */
+     , (8958,  28,       1831) /* Spell - WhirlingBladeStreak6 */
      , (8958, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8958, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8958, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,5 +42,4 @@ VALUES (8958,   2, 3709066739) /* Container */
      , (8958, 8000, 3709066714) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8958,  1831,      2) 
-     , (8958,  5337,      2) ;
+VALUES (8958,  1831,      2) ;

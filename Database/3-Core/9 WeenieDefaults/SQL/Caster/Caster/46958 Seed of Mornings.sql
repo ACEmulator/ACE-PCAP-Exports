@@ -50,7 +50,7 @@ VALUES (46958,   1,   33561509) /* Setup */
      , (46958,   3,  536870932) /* SoundTable */
      , (46958,   8,  100692970) /* Icon */
      , (46958,  22,  872415275) /* PhysicsEffectTable */
-     , (46958,  28,       2072) /* Spell */
+     , (46958,  28,       2072) /* Spell - HealOther7 */
      , (46958, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (46958, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46958, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

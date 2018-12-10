@@ -24,9 +24,7 @@ VALUES (43466,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43466,   1, 'Token of the Luminous Pearl of Defending') /* Name */
      , (43466,  14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend 25,000 Luminance for five Luminous Pearls of Defending. A Luminous Pearl of Defending, when used, will cast Incantation of Defender on your equipped weapon.') /* Use */
-     , (43466,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */
-     , (43466,  16, 'Inscribed spell: Unsteady Hands
-Decreases the target''s Healing skill by 40 points.') /* LongDesc */;
+     , (43466,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43466,   1,   33557280) /* Setup */
@@ -43,9 +41,6 @@ VALUES (43466, 8040, 3600351238, 8.03006, 140.177, 375.653, -0.711158, 0, 0, 0.7
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43466, 8000, 3692312926) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43466,  2238,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43466, 0, 83893723, 83898330)

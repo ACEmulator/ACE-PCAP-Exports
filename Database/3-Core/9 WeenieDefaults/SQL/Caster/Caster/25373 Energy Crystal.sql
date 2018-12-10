@@ -33,8 +33,6 @@ VALUES (25373,   1, False) /* Stuck */
      , (25373,  15, True ) /* LightsStatus */
      , (25373,  19, True ) /* Attackable */
      , (25373,  22, True ) /* Inscribable */
-     , (25373,  85, True ) /* AppraisalHasAllowedWielder */
-     , (25373,  91, True ) /* Retained */
      , (25373,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,10 +43,7 @@ VALUES (25373,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25373,   1, 'Energy Crystal') /* Name */
-     , (25373,   7, 'Pretty') /* Inscription */
-     , (25373,   8, 'Jaquel Audar') /* ScribeName */
-     , (25373,  16, 'Teeming with power, this triangle seems to be carved perfectly, if it was carved at all. Instead it seems to be a perfect pyramid of power.') /* LongDesc */
-     , (25373,  25, 'Triumph') /* CraftsmanName */;
+     , (25373,  16, 'Teeming with power, this triangle seems to be carved perfectly, if it was carved at all. Instead it seems to be a perfect pyramid of power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25373,   1,   33558442) /* Setup */

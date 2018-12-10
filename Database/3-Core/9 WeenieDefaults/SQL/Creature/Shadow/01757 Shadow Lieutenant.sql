@@ -6,28 +6,14 @@ VALUES (1757, 'shadowlieutenant', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1757,   1,         16) /* ItemType - Creature */
      , (1757,   2,         22) /* CreatureType - Shadow */
-     , (1757,   5,          5) /* EncumbranceVal */
      , (1757,   6,        255) /* ItemsCapacity */
      , (1757,   7,        255) /* ContainersCapacity */
      , (1757,  16,          1) /* ItemUseable - No */
-     , (1757,  19,        288) /* Value */
      , (1757,  25,         60) /* Level */
-     , (1757,  28,        208) /* ArmorLevel */
      , (1757,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (1757, 105,          6) /* ItemWorkmanship */
-     , (1757, 106,        161) /* ItemSpellcraft */
-     , (1757, 107,        623) /* ItemCurMana */
-     , (1757, 108,        623) /* ItemMaxMana */
-     , (1757, 109,         30) /* ItemDifficulty */
-     , (1757, 110,          0) /* ItemAllegianceRankLimit */
      , (1757, 113,          1) /* Gender - Male */
-     , (1757, 115,        181) /* ItemSkillLevelLimit */
-     , (1757, 131,         33) /* MaterialType - Opal */
      , (1757, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1757, 172,          1) /* AppraisalLongDescDecoration */
-     , (1757, 176,          6) /* AppraisalItemSkill */
      , (1757, 188,          1) /* HeritageGroup - Aluvian */
-     , (1757, 307,          5) /* DamageRating */
      , (1757, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,24 +22,13 @@ VALUES (1757,   1, True ) /* Stuck */
      , (1757,  13, False) /* Ethereal */
      , (1757,  14, True ) /* GravityStatus */
      , (1757,  19, True ) /* Attackable */
-     , (1757,  42, True ) /* AllowEdgeSlide */
-     , (1757, 100, True ) /* Dyable */;
+     , (1757,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1757,   5, -0.0333333333333333) /* ManaRate */
-     , (1757,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (1757,  14,       1) /* ArmorModVsPierce */
-     , (1757,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (1757,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (1757,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (1757,  18,     0.5) /* ArmorModVsAcid */
-     , (1757,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (1757,  76,     0.5) /* Translucency */
-     , (1757, 165,       1) /* ArmorModVsNether */;
+VALUES (1757,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1757,   1, 'Shadow Lieutenant') /* Name */
-     , (1757,  16, 'Gem') /* LongDesc */
      , (1757, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,10 +67,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1757,   1,   185, 0, 0, 185) /* MaxHealth */
      , (1757,   3,   310, 0, 0, 310) /* MaxStamina */
      , (1757,   5,   270, 0, 0, 270) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1757,  1484,      2) 
-     , (1757,  1526,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1757, 67112860, 0, 0);

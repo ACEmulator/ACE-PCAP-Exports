@@ -6,28 +6,13 @@ VALUES (24277, 'banderlingslayer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24277,   1,         16) /* ItemType - Creature */
      , (24277,   2,          2) /* CreatureType - Banderling */
-     , (24277,   5,         50) /* EncumbranceVal */
      , (24277,   6,        255) /* ItemsCapacity */
      , (24277,   7,        255) /* ContainersCapacity */
      , (24277,  16,          1) /* ItemUseable - No */
-     , (24277,  19,       5000) /* Value */
      , (24277,  25,        100) /* Level */
-     , (24277,  33,          0) /* Bonded - Normal */
-     , (24277,  91,         50) /* MaxStructure */
-     , (24277,  92,         50) /* Structure */
      , (24277,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24277, 105,          6) /* ItemWorkmanship */
-     , (24277, 114,          0) /* Attuned - Normal */
      , (24277, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24277, 280,        213) /* SharedCooldown */
      , (24277, 307,          7) /* DamageRating */
-     , (24277, 315,         10) /* CritResistRating */
-     , (24277, 316,         20) /* CritDamageResistRating */
-     , (24277, 366,         54) /* UseRequiresSkill */
-     , (24277, 367,        370) /* UseRequiresSkillLevel */
-     , (24277, 369,         70) /* UseRequiresLevel */
-     , (24277, 372,          3) /* GearCrit */
-     , (24277, 375,          8) /* GearCritDamageResist */
      , (24277, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,17 +20,13 @@ VALUES (24277,   1, True ) /* Stuck */
      , (24277,  12, True ) /* ReportCollisions */
      , (24277,  13, False) /* Ethereal */
      , (24277,  14, True ) /* GravityStatus */
-     , (24277,  19, True ) /* Attackable */
-     , (24277,  69, True ) /* IsSellable */;
+     , (24277,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24277,  39, 1.29999995231628) /* DefaultScale */
-     , (24277, 167,      45) /* CooldownDuration */;
+VALUES (24277,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24277,   1, 'Banderling Slayer') /* Name */
-     , (24277,  14, 'Use this essence to summon or dismiss your Lightning Spectre.') /* Use */
-     , (24277,  16, 'Killed by Solstice of Shade.') /* LongDesc */
      , (24277, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

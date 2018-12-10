@@ -38,7 +38,7 @@ VALUES (22878,   1,   33554809) /* Setup */
      , (22878,   6,   67111919) /* PaletteBase */
      , (22878,   8,  100673900) /* Icon */
      , (22878,  22,  872415275) /* PhysicsEffectTable */
-     , (22878,  28,       1029) /* Spell */
+     , (22878,  28,       1029) /* Spell - BludgeonProtectionOther6 */
      , (22878, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (22878, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22878, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

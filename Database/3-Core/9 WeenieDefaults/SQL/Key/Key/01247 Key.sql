@@ -12,12 +12,7 @@ VALUES (1247,   1,      16384) /* ItemType - Key */
      , (1247,  91,          5) /* MaxStructure */
      , (1247,  92,          5) /* Structure */
      , (1247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1247,  94,        640) /* TargetType - LockableMagicTarget */
-     , (1247, 105,          8) /* ItemWorkmanship */
-     , (1247, 131,         51) /* MaterialType - Ivory */
-     , (1247, 172,          5) /* AppraisalLongDescDecoration */
-     , (1247, 177,          3) /* GemCount */
-     , (1247, 178,         29) /* GemType */;
+     , (1247,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1247,   1, False) /* Stuck */

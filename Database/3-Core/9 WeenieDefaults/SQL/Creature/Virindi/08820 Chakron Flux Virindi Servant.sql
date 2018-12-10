@@ -6,11 +6,9 @@ VALUES (8820, 'virindiservantchakron', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8820,   1,         16) /* ItemType - Creature */
      , (8820,   2,         19) /* CreatureType - Virindi */
-     , (8820,   5,       6015) /* EncumbranceVal */
      , (8820,   6,        255) /* ItemsCapacity */
      , (8820,   7,        255) /* ContainersCapacity */
      , (8820,  16,          1) /* ItemUseable - No */
-     , (8820,  19,          0) /* Value */
      , (8820,  25,        115) /* Level */
      , (8820,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8820, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (8820,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8820,   1, 'Chakron Flux Virindi Servant') /* Name */
-     , (8820,  16, 'Killed by Callaway.') /* LongDesc */
      , (8820, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -32,7 +32,7 @@ VALUES (43472,   1,   33554809) /* Setup */
      , (43472,   6,   67111919) /* PaletteBase */
      , (43472,   8,  100686695) /* Icon */
      , (43472,  22,  872415275) /* PhysicsEffectTable */
-     , (43472,  28,       4395) /* Spell */
+     , (43472,  28,       4395) /* Spell - BloodDrinkerSelf8 */
      , (43472,  50,  100686635) /* IconOverlay */
      , (43472,  52,  100691593) /* IconUnderlay */
      , (43472, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

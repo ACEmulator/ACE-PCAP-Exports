@@ -19,7 +19,6 @@ VALUES (21374,   1,          4) /* ItemType - Clothing */
      , (21374, 107,       2000) /* ItemCurMana */
      , (21374, 108,       2000) /* ItemMaxMana */
      , (21374, 109,        225) /* ItemDifficulty */
-     , (21374, 114,          0) /* Attuned - Normal */
      , (21374, 151,          2) /* HookType - Wall */
      , (21374, 158,          7) /* WieldRequirements - Level */
      , (21374, 159,          1) /* WieldSkilltype - Axe */
@@ -32,8 +31,7 @@ VALUES (21374,   1, False) /* Stuck */
      , (21374,  14, True ) /* GravityStatus */
      , (21374,  19, True ) /* Attackable */
      , (21374,  22, True ) /* Inscribable */
-     , (21374,  69, False) /* IsSellable */
-     , (21374,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (21374,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21374,   5,    -0.5) /* ManaRate */
@@ -48,8 +46,7 @@ VALUES (21374,   5,    -0.5) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21374,   1, 'Elemental Master Robe') /* Name */
-     , (21374,  15, 'A black robe trimmed in red, it is lined with an unknown material but feels like the perfect insulator.') /* ShortDesc */
-     , (21374,  25, 'Triumph') /* CraftsmanName */;
+     , (21374,  15, 'A black robe trimmed in red, it is lined with an unknown material but feels like the perfect insulator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21374,   1,   33554854) /* Setup */

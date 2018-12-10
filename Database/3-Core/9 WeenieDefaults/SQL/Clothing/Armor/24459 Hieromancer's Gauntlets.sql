@@ -43,8 +43,6 @@ VALUES (24459,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24459,   1, 'Hieromancer''s Gauntlets') /* Name */
-     , (24459,   7, 'Thanks Draddor................ Clan Wartorn') /* Inscription */
-     , (24459,   8, 'Kricket') /* ScribeName */
      , (24459,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the hieromancer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

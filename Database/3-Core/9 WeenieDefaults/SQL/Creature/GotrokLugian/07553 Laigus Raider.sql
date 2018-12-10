@@ -6,32 +6,13 @@ VALUES (7553, 'lugianlaigusminer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7553,   1,         16) /* ItemType - Creature */
      , (7553,   2,         70) /* CreatureType - GotrokLugian */
-     , (7553,   5,        384) /* EncumbranceVal */
      , (7553,   6,        255) /* ItemsCapacity */
      , (7553,   7,        255) /* ContainersCapacity */
      , (7553,  16,          1) /* ItemUseable - No */
-     , (7553,  19,       3248) /* Value */
      , (7553,  25,         40) /* Level */
-     , (7553,  44,         21) /* Damage */
-     , (7553,  45,         32) /* DamageType - Acid */
-     , (7553,  47,          4) /* AttackType - Slash */
-     , (7553,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (7553,  49,         50) /* WeaponTime */
      , (7553,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7553, 105,          8) /* ItemWorkmanship */
-     , (7553, 131,         51) /* MaterialType - Ivory */
      , (7553, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (7553, 158,          2) /* WieldRequirements - RawSkill */
-     , (7553, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (7553, 160,        300) /* WieldDifficulty */
-     , (7553, 172,          5) /* AppraisalLongDescDecoration */
-     , (7553, 177,          3) /* GemCount */
-     , (7553, 178,         15) /* GemType */
-     , (7553, 292,          2) /* Cleaving */
-     , (7553, 307,          5) /* DamageRating */
-     , (7553, 353,         11) /* WeaponType - TwoHanded */
-     , (7553, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7553, 8030,          0);
+     , (7553, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7553,   1, True ) /* Stuck */
@@ -40,17 +21,8 @@ VALUES (7553,   1, True ) /* Stuck */
      , (7553,  14, True ) /* GravityStatus */
      , (7553,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7553,  21,       0) /* WeaponLength */
-     , (7553,  22,     0.4) /* DamageVariance */
-     , (7553,  26,       0) /* MaximumVelocity */
-     , (7553,  29,    1.04) /* WeaponDefense */
-     , (7553,  62,     1.1) /* WeaponOffense */
-     , (7553,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7553,   1, 'Laigus Raider') /* Name */
-     , (7553,  16, 'Acid Nodachi') /* LongDesc */
      , (7553, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

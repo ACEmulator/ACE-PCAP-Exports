@@ -6,36 +6,17 @@ VALUES (5772, 'towncrieraluvianfemale', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5772,   1,         16) /* ItemType - Creature */
      , (5772,   2,         31) /* CreatureType - Human */
-     , (5772,   5,         50) /* EncumbranceVal */
      , (5772,   6,        255) /* ItemsCapacity */
      , (5772,   7,        255) /* ContainersCapacity */
      , (5772,  16,         32) /* ItemUseable - Remote */
-     , (5772,  19,       5158) /* Value */
      , (5772,  25,         30) /* Level */
-     , (5772,  44,         14) /* Damage */
-     , (5772,  45,          4) /* DamageType - Bludgeon */
-     , (5772,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (5772,  49,         10) /* WeaponTime */
      , (5772,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5772,  95,          8) /* RadarBlipColor - Yellow */
-     , (5772, 105,          4) /* ItemWorkmanship */
-     , (5772, 106,        273) /* ItemSpellcraft */
-     , (5772, 107,        747) /* ItemCurMana */
-     , (5772, 108,        747) /* ItemMaxMana */
-     , (5772, 109,        232) /* ItemDifficulty */
-     , (5772, 110,          0) /* ItemAllegianceRankLimit */
      , (5772, 113,          2) /* Gender - Female */
-     , (5772, 115,          0) /* ItemSkillLevelLimit */
-     , (5772, 131,          2) /* MaterialType - Porcelain */
      , (5772, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5772, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5772, 172,          5) /* AppraisalLongDescDecoration */
-     , (5772, 177,          3) /* GemCount */
-     , (5772, 178,         13) /* GemType */
      , (5772, 188,          1) /* HeritageGroup - Aluvian */
-     , (5772, 353,         10) /* WeaponType - Thrown */
-     , (5772, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (5772, 8030,          0);
+     , (5772, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5772,   1, True ) /* Stuck */
@@ -48,19 +29,11 @@ VALUES (5772,   1, True ) /* Stuck */
      , (5772,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5772,   5, -0.0555555555555556) /* ManaRate */
-     , (5772,  21,       0) /* WeaponLength */
-     , (5772,  22,    0.25) /* DamageVariance */
-     , (5772,  26,       0) /* MaximumVelocity */
-     , (5772,  29,       1) /* WeaponDefense */
-     , (5772,  54,       3) /* UseRadius */
-     , (5772,  62,       1) /* WeaponOffense */
-     , (5772,  63,       1) /* DamageMod */;
+VALUES (5772,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5772,   1, 'Town Crier') /* Name */
      , (5772,   5, 'Herald') /* Template */
-     , (5772,  16, 'Goblet of Weapon Expertise') /* LongDesc */
      , (5772, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -98,10 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (5772,   1,    70, 0, 0, 70) /* MaxHealth */
      , (5772,   3,   240, 0, 0, 240) /* MaxStamina */
      , (5772,   5,   105, 0, 0, 105) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5772,   779,      2) 
-     , (5772,  1720,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5772, 67109558, 0, 24)

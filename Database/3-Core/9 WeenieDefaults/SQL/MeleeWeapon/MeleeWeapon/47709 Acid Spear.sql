@@ -11,10 +11,18 @@ VALUES (47709,   1,          1) /* ItemType - MeleeWeapon */
      , (47709,  16,          1) /* ItemUseable - No */
      , (47709,  18,        256) /* UiEffects - Acid */
      , (47709,  19,        170) /* Value */
+     , (47709,  33,         -2) /* Bonded - Destroy */
+     , (47709,  44,         33) /* Damage */
+     , (47709,  45,         32) /* DamageType - Acid */
+     , (47709,  47,          6) /* AttackType - Thrust, Slash */
+     , (47709,  48,         45) /* WeaponSkill - LightWeapons */
+     , (47709,  49,         30) /* WeaponTime */
      , (47709,  51,          1) /* CombatUse - Melee */
      , (47709,  65,          1) /* Placement - RightHandCombat */
      , (47709,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47709, 151,          2) /* HookType - Wall */;
+     , (47709, 151,          2) /* HookType - Wall */
+     , (47709, 353,          5) /* WeaponType - Spear */
+     , (47709, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47709,   1, False) /* Stuck */
@@ -23,6 +31,14 @@ VALUES (47709,   1, False) /* Stuck */
      , (47709,  14, True ) /* GravityStatus */
      , (47709,  19, True ) /* Attackable */
      , (47709,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (47709,  21,       0) /* WeaponLength */
+     , (47709,  22,     0.5) /* DamageVariance */
+     , (47709,  26,       0) /* MaximumVelocity */
+     , (47709,  29,       1) /* WeaponDefense */
+     , (47709,  62,       1) /* WeaponOffense */
+     , (47709,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47709,   1, 'Acid Spear') /* Name */;

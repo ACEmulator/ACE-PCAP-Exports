@@ -6,11 +6,9 @@ VALUES (43163, 'ace43163-frostgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43163,   1,         16) /* ItemType - Creature */
      , (43163,   2,         13) /* CreatureType - Golem */
-     , (43163,   5,       6060) /* EncumbranceVal */
      , (43163,   6,        255) /* ItemsCapacity */
      , (43163,   7,        255) /* ContainersCapacity */
      , (43163,  16,          1) /* ItemUseable - No */
-     , (43163,  19,          0) /* Value */
      , (43163,  25,        200) /* Level */
      , (43163,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43163, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -30,7 +28,6 @@ VALUES (43163,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43163,   1, 'Frost Golem') /* Name */
-     , (43163,  16, 'Killed by Kilzeer.') /* LongDesc */
      , (43163, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

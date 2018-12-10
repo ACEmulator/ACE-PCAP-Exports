@@ -6,19 +6,13 @@ VALUES (11499, 'humanbandit_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11499,   1,         16) /* ItemType - Creature */
      , (11499,   2,         31) /* CreatureType - Human */
-     , (11499,   5,         20) /* EncumbranceVal */
      , (11499,   6,        255) /* ItemsCapacity */
      , (11499,   7,        255) /* ContainersCapacity */
      , (11499,  16,          1) /* ItemUseable - No */
-     , (11499,  19,          0) /* Value */
      , (11499,  25,          8) /* Level */
      , (11499,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11499, 105,          2) /* ItemWorkmanship */
      , (11499, 113,          1) /* Gender - Male */
-     , (11499, 115,          0) /* ItemSkillLevelLimit */
-     , (11499, 131,          1) /* MaterialType - Ceramic */
      , (11499, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11499, 172,          1) /* AppraisalLongDescDecoration */
      , (11499, 188,          1) /* HeritageGroup - Aluvian */
      , (11499, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -31,8 +25,6 @@ VALUES (11499,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11499,   1, 'Bandit') /* Name */
-     , (11499,  14, 'This item is used in brewing.') /* Use */
-     , (11499,  16, 'The saliva from a creature of the Tusker persuasion.') /* LongDesc */
      , (11499, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

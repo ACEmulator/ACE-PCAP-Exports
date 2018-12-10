@@ -37,7 +37,6 @@ VALUES (15450,   1, False) /* Stuck */
      , (15450,  19, True ) /* Attackable */
      , (15450,  22, True ) /* Inscribable */
      , (15450,  69, False) /* IsSellable */
-     , (15450,  85, True ) /* AppraisalHasAllowedWielder */
      , (15450,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,10 +50,7 @@ VALUES (15450,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15450,   1, 'Deadly Hollow Sword') /* Name */
-     , (15450,   7, '3.5s 85.3') /* Inscription */
-     , (15450,   8, 'Cowhead') /* ScribeName */
-     , (15450,  16, 'A sword crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */
-     , (15450,  25, 'Gryphon') /* CraftsmanName */;
+     , (15450,  16, 'A sword crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15450,   1,   33556645) /* Setup */

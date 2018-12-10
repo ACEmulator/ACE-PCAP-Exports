@@ -50,8 +50,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46959,   1, 'Modified Iasparailaun') /* Name */
      , (46959,   7, 'With this I shall cleanse the vermin from the world. Then shall I strike the final blow through Asheron''s heart. ') /* Inscription */
      , (46959,   8, 'Gaerlan') /* ScribeName */
-     , (46959,  15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* ShortDesc */
-     , (46959,  16, 'Killed by Callaway.') /* LongDesc */;
+     , (46959,  15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46959,   1,   33557926) /* Setup */

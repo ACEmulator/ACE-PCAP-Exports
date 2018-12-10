@@ -48,8 +48,6 @@ VALUES (30370,   5, -0.0333333015441895) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30370,   1, 'Twin Ward') /* Name */
-     , (30370,   7, 'You''d be surprised at how useless this is.') /* Inscription */
-     , (30370,   8, 'Rare Doubt') /* ScribeName */
      , (30370,  16, '"Why would you want to use a shield with a target plain as day on it?" said one. "''Tis ugly!" said another. The only response by the smith was, "Would you rather have an archer aiming for your head or for your shield?"') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

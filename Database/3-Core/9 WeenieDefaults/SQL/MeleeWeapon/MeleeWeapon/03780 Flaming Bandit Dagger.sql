@@ -20,19 +20,9 @@ VALUES (3780,   1,          1) /* ItemType - MeleeWeapon */
      , (3780,  65,        101) /* Placement - Resting */
      , (3780,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3780, 105,          1) /* ItemWorkmanship */
-     , (3780, 106,        200) /* ItemSpellcraft */
-     , (3780, 107,          0) /* ItemCurMana */
-     , (3780, 108,        640) /* ItemMaxMana */
-     , (3780, 109,         90) /* ItemDifficulty */
-     , (3780, 110,          0) /* ItemAllegianceRankLimit */
      , (3780, 114,          0) /* Attuned - Normal */
-     , (3780, 115,        220) /* ItemSkillLevelLimit */
      , (3780, 131,         60) /* MaterialType - Gold */
      , (3780, 151,          2) /* HookType - Wall */
-     , (3780, 172,          7) /* AppraisalLongDescDecoration */
-     , (3780, 176,         46) /* AppraisalItemSkill */
-     , (3780, 177,          1) /* GemCount */
-     , (3780, 178,         12) /* GemType */
      , (3780, 353,          6) /* WeaponType - Dagger */
      , (3780, 8030,          0);
 
@@ -43,12 +33,10 @@ VALUES (3780,   1, False) /* Stuck */
      , (3780,  14, True ) /* GravityStatus */
      , (3780,  19, True ) /* Attackable */
      , (3780,  22, True ) /* Inscribable */
-     , (3780,  85, True ) /* AppraisalHasAllowedWielder */
-     , (3780,  99, False) /* Ivoryable */;
+     , (3780,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3780,   5, -0.0500000007450581) /* ManaRate */
-     , (3780,  21,       0) /* WeaponLength */
+VALUES (3780,  21,       0) /* WeaponLength */
      , (3780,  22,    0.75) /* DamageVariance */
      , (3780,  26,       0) /* MaximumVelocity */
      , (3780,  29, 1.05525100231171) /* WeaponDefense */
@@ -77,9 +65,3 @@ VALUES (3780,   1,   33555716) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3780,   2, 1342869133) /* Container */
      , (3780, 8000, 2981037278) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3780,  1401,      2) 
-     , (3780,  1591,      2) 
-     , (3780,  1614,      2) 
-     , (3780,  1615,      2) ;

@@ -6,36 +6,13 @@ VALUES (7332, 'banderlingblade', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7332,   1,         16) /* ItemType - Creature */
      , (7332,   2,          2) /* CreatureType - Banderling */
-     , (7332,   5,         30) /* EncumbranceVal */
      , (7332,   6,        255) /* ItemsCapacity */
      , (7332,   7,        255) /* ContainersCapacity */
      , (7332,  16,          1) /* ItemUseable - No */
-     , (7332,  19,       7898) /* Value */
      , (7332,  25,         20) /* Level */
-     , (7332,  44,         14) /* Damage */
-     , (7332,  45,          4) /* DamageType - Bludgeon */
-     , (7332,  47,          4) /* AttackType - Slash */
-     , (7332,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (7332,  49,         10) /* WeaponTime */
      , (7332,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7332, 105,          8) /* ItemWorkmanship */
-     , (7332, 106,        236) /* ItemSpellcraft */
-     , (7332, 107,       1867) /* ItemCurMana */
-     , (7332, 108,       1867) /* ItemMaxMana */
-     , (7332, 109,        280) /* ItemDifficulty */
-     , (7332, 110,          0) /* ItemAllegianceRankLimit */
-     , (7332, 115,          0) /* ItemSkillLevelLimit */
-     , (7332, 131,         49) /* MaterialType - YellowTopaz */
      , (7332, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7332, 172,          5) /* AppraisalLongDescDecoration */
-     , (7332, 176,         41) /* AppraisalItemSkill */
-     , (7332, 177,          1) /* GemCount */
-     , (7332, 178,         13) /* GemType */
-     , (7332, 292,          2) /* Cleaving */
-     , (7332, 307,          5) /* DamageRating */
-     , (7332, 353,         10) /* WeaponType - Thrown */
-     , (7332, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7332, 8030,          0);
+     , (7332, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7332,   1, True ) /* Stuck */
@@ -45,21 +22,10 @@ VALUES (7332,   1, True ) /* Stuck */
      , (7332,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7332,   5, -0.0555555555555556) /* ManaRate */
-     , (7332,  21,       0) /* WeaponLength */
-     , (7332,  22,    0.25) /* DamageVariance */
-     , (7332,  26,       0) /* MaximumVelocity */
-     , (7332,  29,       1) /* WeaponDefense */
-     , (7332,  39, 1.29999995231628) /* DefaultScale */
-     , (7332,  62,       1) /* WeaponOffense */
-     , (7332,  63,       1) /* DamageMod */
-     , (7332,  87,       2) /* ItemEfficiency */
-     , (7332, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (7332,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7332,   1, 'Banderling Blade') /* Name */
-     , (7332,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (7332,  16, 'Ring of Cold Protection') /* LongDesc */
      , (7332, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,16 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7332,   1,   105, 0, 0, 105) /* MaxHealth */
      , (7332,   3,   200, 0, 0, 200) /* MaxStamina */
      , (7332,   5,    38, 0, 0, 38) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7332,   707,      2) 
-     , (7332,  1035,      2) 
-     , (7332,  1612,      2) 
-     , (7332,  1624,      2) 
-     , (7332,  2513,      2) 
-     , (7332,  2538,      2) 
-     , (7332,  2570,      2) 
-     , (7332,  5892,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7332, 67114038, 0, 0);

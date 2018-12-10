@@ -43,8 +43,6 @@ VALUES (24363,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24363,   1, 'Asheron''s Supreme Raiment') /* Name */
-     , (24363,   7, '                                 Happy Birthday                                                        Hope Kaylie 9/19/01 7:17a                                                      Daddys Little Girl') /* Inscription */
-     , (24363,   8, 'Archmage Tintalieau') /* ScribeName */
      , (24363,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

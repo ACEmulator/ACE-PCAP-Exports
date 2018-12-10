@@ -5,8 +5,6 @@ VALUES (52622, 'ace52622-lightningbolt', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52622,   1,          0) /* ItemType - None */
-     , (52622,   2,         36) /* CreatureType - Slithis */
-     , (52622,  25,        100) /* Level */
      , (52622,  93,     166728) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, ScriptedCollision, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,7 +33,7 @@ VALUES (52622,   1,   33561636) /* Setup */
      , (52622,   3,  536870968) /* SoundTable */
      , (52622,   8,  100667494) /* Icon */
      , (52622,  22,  872415447) /* PhysicsEffectTable */
-     , (52622,  28,         75) /* Spell */
+     , (52622,  28,         75) /* Spell - LightningBolt1 */
      , (52622, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (52622, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (52622, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
@@ -47,6 +45,3 @@ VALUES (52622, 8040, 3007905852, 188.1861, 87.30669, 115.052, 0.5602173, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52622, 8000, 3684405130) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52622,   1,   440, 0, 0, 433) /* MaxHealth */;

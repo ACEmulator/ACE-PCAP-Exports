@@ -51,7 +51,7 @@ VALUES (14569,   1,   33557297) /* Setup */
      , (14569,   6,   67113783) /* PaletteBase */
      , (14569,   8,  100672520) /* Icon */
      , (14569,  22,  872415275) /* PhysicsEffectTable */
-     , (14569,  28,       2637) /* Spell */
+     , (14569,  28,       2637) /* Spell - InvokingAunTanua */
      , (14569, 8001,  275480720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (14569, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14569, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

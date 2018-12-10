@@ -6,11 +6,9 @@ VALUES (40428, 'ace40428-intenseshiveringcrystallinewisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40428,   1,         16) /* ItemType - Creature */
      , (40428,   2,         20) /* CreatureType - Wisp */
-     , (40428,   5,       9384) /* EncumbranceVal */
      , (40428,   6,        255) /* ItemsCapacity */
      , (40428,   7,        255) /* ContainersCapacity */
      , (40428,  16,          1) /* ItemUseable - No */
-     , (40428,  19,          0) /* Value */
      , (40428,  25,        115) /* Level */
      , (40428,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (40428, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -26,8 +24,6 @@ VALUES (40428,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40428,   1, 'Intense Shivering Crystalline Wisp') /* Name */
-     , (40428,  14, 'This item is used in brewing.') /* Use */
-     , (40428,  16, 'Killed by Llllllllllllllllllll.') /* LongDesc */
      , (40428, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -19,8 +19,7 @@ VALUES (38044,   1,          2) /* ItemType - Armor */
      , (38044, 108,        320) /* ItemMaxMana */
      , (38044, 109,         45) /* ItemDifficulty */
      , (38044, 114,          1) /* Attuned - Attuned */
-     , (38044, 151,          2) /* HookType - Wall */
-     , (38044, 324,          6) /* HeritageSpecificArmor */;
+     , (38044, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38044,   1, False) /* Stuck */
@@ -45,9 +44,7 @@ VALUES (38044,   5,   -0.01) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38044,   1, 'Green Mire Yoroi Cuirass') /* Name */
-     , (38044,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (38044,  16, 'An ancient Yoroi Cuirass retrieved from the Green Mire Grave, recently repaired and upgraded by Hiro Ishigame.') /* LongDesc */
-     , (38044,  52, 'Core Cuirass Plating') /* GearPlatingName */;
+     , (38044,  16, 'An ancient Yoroi Cuirass retrieved from the Green Mire Grave, recently repaired and upgraded by Hiro Ishigame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38044,   1,   33554854) /* Setup */

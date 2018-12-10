@@ -44,9 +44,7 @@ VALUES (23816,   5, -0.025000000372529) /* ManaRate */
      , (23816, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23816,   1, 'Solid Celdon Leggings') /* Name */
-     , (23816,   7, 'Major Slashing') /* Inscription */
-     , (23816,   8, 'Jet Fang') /* ScribeName */;
+VALUES (23816,   1, 'Solid Celdon Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23816,   1,   33554856) /* Setup */

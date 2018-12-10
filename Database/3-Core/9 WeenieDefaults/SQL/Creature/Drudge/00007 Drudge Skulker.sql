@@ -6,17 +6,12 @@ VALUES (7, 'drudgeskulker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7,   1,         16) /* ItemType - Creature */
      , (7,   2,          3) /* CreatureType - Drudge */
-     , (7,   5,          1) /* EncumbranceVal */
      , (7,   6,        255) /* ItemsCapacity */
      , (7,   7,        255) /* ContainersCapacity */
      , (7,  16,          1) /* ItemUseable - No */
-     , (7,  19,          1) /* Value */
      , (7,  25,          8) /* Level */
-     , (7,  33,          1) /* Bonded - Bonded */
      , (7,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7, 114,          1) /* Attuned - Attuned */
      , (7, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7, 307,          5) /* DamageRating */
      , (7, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,18 +19,13 @@ VALUES (7,   1, True ) /* Stuck */
      , (7,  12, True ) /* ReportCollisions */
      , (7,  13, False) /* Ethereal */
      , (7,  14, True ) /* GravityStatus */
-     , (7,  19, True ) /* Attackable */
-     , (7,  69, False) /* IsSellable */;
+     , (7,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7,  39, 0.949999988079071) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7,   1, 'Drudge Skulker') /* Name */
-     , (7,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (7,  15, 'A set of thick, engraved bracers, which make you feel dizzy when they touch your skin.') /* ShortDesc */
-     , (7,  16, 'Inscribed spell: Sneak Attack Mastery Other VII
-Increases the target''s Sneak Attack skill by 40 points.') /* LongDesc */
      , (7, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -68,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7,   1,    42, 0, 0, 42) /* MaxHealth */
      , (7,   3,    80, 0, 0, 80) /* MaxStamina */
      , (7,   5,    15, 0, 0, 15) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7,  5873,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7, 67112817, 0, 0);

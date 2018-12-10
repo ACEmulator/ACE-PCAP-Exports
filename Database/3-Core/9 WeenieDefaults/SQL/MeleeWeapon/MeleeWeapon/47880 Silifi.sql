@@ -13,7 +13,6 @@ VALUES (47880,   1,          1) /* ItemType - MeleeWeapon */
      , (47880,  51,          1) /* CombatUse - Melee */
      , (47880,  65,          1) /* Placement - RightHandCombat */
      , (47880,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47880, 107,          0) /* ItemCurMana */
      , (47880, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -25,13 +24,10 @@ VALUES (47880,   1, False) /* Stuck */
      , (47880,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47880,  39,    1.25) /* DefaultScale */
-     , (47880,  87,     1.2) /* ItemEfficiency */
-     , (47880, 137,    0.15) /* ManaStoneDestroyChance */;
+VALUES (47880,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47880,   1, 'Silifi') /* Name */
-     , (47880,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (47880,   1, 'Silifi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47880,   1,   33554753) /* Setup */

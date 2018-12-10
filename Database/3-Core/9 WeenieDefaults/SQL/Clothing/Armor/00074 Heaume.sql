@@ -23,9 +23,7 @@ VALUES (74,   1,          2) /* ItemType - Armor */
      , (74, 115,        180) /* ItemSkillLevelLimit */
      , (74, 131,         63) /* MaterialType - Silver */
      , (74, 151,          2) /* HookType - Wall */
-     , (74, 171,         10) /* NumTimesTinkered */
-     , (74, 176,          7) /* AppraisalItemSkill */
-     , (74, 188,          1) /* HeritageGroup - Aluvian */;
+     , (74, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (74,   1, False) /* Stuck */
@@ -34,7 +32,6 @@ VALUES (74,   1, False) /* Stuck */
      , (74,  14, True ) /* GravityStatus */
      , (74,  19, True ) /* Attackable */
      , (74,  22, True ) /* Inscribable */
-     , (74,  91, True ) /* Retained */
      , (74, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,8 +51,7 @@ VALUES (74,   1, 'Heaume') /* Name */
      , (74,   7, 'al 295 FB2 IMP4 REJUV4 MISSLE>180 diff70
 Worth 8,317') /* Inscription */
      , (74,   8, 'Shelron Vein Slayer') /* ScribeName */
-     , (74,  16, 'Exquisitely crafted Silver Heaume of Rejuvenation, set with 1 Red Jade') /* LongDesc */
-     , (74,  39, 'Backup') /* TinkerName */;
+     , (74,  16, 'Exquisitely crafted Silver Heaume of Rejuvenation, set with 1 Red Jade') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (74,   1,   33555248) /* Setup */
@@ -73,15 +69,8 @@ VALUES (74,   2, 2186220491) /* Container */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (74,   191,      2) 
-     , (74,   192,      2) 
-     , (74,   193,      2) 
-     , (74,   948,      2) 
-     , (74,  1482,      2) 
      , (74,  1484,      2) 
-     , (74,  1525,      2) 
-     , (74,  1548,      2) 
-     , (74,  1558,      2) 
-     , (74,  1560,      2) ;
+     , (74,  1548,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (74, 67110015, 240, 10);

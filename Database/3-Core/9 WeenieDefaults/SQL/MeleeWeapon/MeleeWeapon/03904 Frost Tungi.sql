@@ -10,7 +10,6 @@ VALUES (3904,   1,          1) /* ItemType - MeleeWeapon */
      , (3904,  16,          1) /* ItemUseable - No */
      , (3904,  18,        129) /* UiEffects - Magical, Frost */
      , (3904,  19,      21283) /* Value */
-     , (3904,  33,         -2) /* Bonded - Destroy */
      , (3904,  44,         51) /* Damage */
      , (3904,  45,          8) /* DamageType - Cold */
      , (3904,  47,          4) /* AttackType - Slash */
@@ -35,11 +34,7 @@ VALUES (3904,   1,          1) /* ItemType - MeleeWeapon */
      , (3904, 176,         46) /* AppraisalItemSkill */
      , (3904, 177,          2) /* GemCount */
      , (3904, 178,         47) /* GemType */
-     , (3904, 307,          5) /* DamageRating */
-     , (3904, 313,          0) /* CritRating */
-     , (3904, 314,          0) /* CritDamageRating */
      , (3904, 353,          3) /* WeaponType - Axe */
-     , (3904, 386,          0) /* Overpower */
      , (3904, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,9 +54,6 @@ VALUES (3904,   5,   -0.05) /* ManaRate */
      , (3904,  39, 1.20000004768372) /* DefaultScale */
      , (3904,  62,    1.18) /* WeaponOffense */
      , (3904,  63,       1) /* DamageMod */
-     , (3904, 147,       1) /* CriticalFrequency */
-     , (3904, 149,   1.005) /* WeaponMissileDefense */
-     , (3904, 150,    1.02) /* WeaponMagicDefense */
      , (3904, 8004,       9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -82,38 +74,5 @@ VALUES (3904,   2, 3710514680) /* Container */
      , (3904, 8000, 3710514683) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3904,    49,      2) 
-     , (3904,  1332,      2) 
-     , (3904,  1588,      2) 
-     , (3904,  1590,      2) 
-     , (3904,  1591,      2) 
-     , (3904,  1592,      2) 
-     , (3904,  1603,      2) 
-     , (3904,  1605,      2) 
-     , (3904,  1612,      2) 
-     , (3904,  1613,      2) 
-     , (3904,  1614,      2) 
-     , (3904,  1615,      2) 
-     , (3904,  1616,      2) 
-     , (3904,  1624,      2) 
-     , (3904,  1627,      2) 
-     , (3904,  2096,      2) 
-     , (3904,  2101,      2) 
-     , (3904,  2116,      2) 
-     , (3904,  2536,      2) 
-     , (3904,  2571,      2) 
-     , (3904,  2575,      2) 
-     , (3904,  2582,      2) 
-     , (3904,  2586,      2) 
-     , (3904,  2588,      2) 
-     , (3904,  2603,      2) 
-     , (3904,  2616,      2) 
-     , (3904,  3963,      2) 
-     , (3904,  4297,      2) 
-     , (3904,  4299,      2) 
-     , (3904,  4319,      2) 
-     , (3904,  4417,      2) 
-     , (3904,  4661,      2) 
-     , (3904,  4703,      2) 
-     , (3904,  4707,      2) 
-     , (3904,  5809,      2) ;
+VALUES (3904,  1616,      2) 
+     , (3904,  2571,      2) ;

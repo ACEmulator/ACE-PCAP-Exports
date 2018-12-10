@@ -19,7 +19,6 @@ VALUES (34550,   1,         32) /* ItemType - Food */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34550,   1, False) /* Stuck */
-     , (34550,   2, False) /* Open */
      , (34550,  11, True ) /* IgnoreCollisions */
      , (34550,  13, True ) /* Ethereal */
      , (34550,  14, True ) /* GravityStatus */

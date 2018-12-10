@@ -13,8 +13,6 @@ VALUES (47953,   1,          1) /* ItemType - MeleeWeapon */
      , (47953,  19,        155) /* Value */
      , (47953,  51,          1) /* CombatUse - Melee */
      , (47953,  65,          1) /* Placement - RightHandCombat */
-     , (47953,  89,          2) /* BoosterEnum - Health */
-     , (47953,  90,        100) /* BoostValue */
      , (47953,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47953, 151,          2) /* HookType - Wall */;
 
@@ -27,8 +25,7 @@ VALUES (47953,   1, False) /* Stuck */
      , (47953,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47953,   1, 'Acid Nekode') /* Name */
-     , (47953,  14, 'Use this item to drink it.') /* Use */;
+VALUES (47953,   1, 'Acid Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47953,   1,   33555988) /* Setup */

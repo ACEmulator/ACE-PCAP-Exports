@@ -6,28 +6,16 @@ VALUES (46537, 'ace46537-spectralsamurai', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46537,   1,         16) /* ItemType - Creature */
      , (46537,   2,         77) /* CreatureType - Ghost */
-     , (46537,   5,         50) /* EncumbranceVal */
      , (46537,   6,        255) /* ItemsCapacity */
      , (46537,   7,        255) /* ContainersCapacity */
      , (46537,  16,          1) /* ItemUseable - No */
-     , (46537,  19,       4000) /* Value */
      , (46537,  25,        265) /* Level */
-     , (46537,  33,          0) /* Bonded - Normal */
-     , (46537,  91,         50) /* MaxStructure */
-     , (46537,  92,         50) /* Structure */
      , (46537,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46537, 105,          6) /* ItemWorkmanship */
-     , (46537, 114,          0) /* Attuned - Normal */
      , (46537, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46537, 280,        213) /* SharedCooldown */
      , (46537, 307,         20) /* DamageRating */
      , (46537, 308,         15) /* DamageResistRating */
      , (46537, 313,         15) /* CritRating */
      , (46537, 316,         10) /* CritDamageResistRating */
-     , (46537, 366,         54) /* UseRequiresSkill */
-     , (46537, 367,        310) /* UseRequiresSkillLevel */
-     , (46537, 369,         40) /* UseRequiresLevel */
-     , (46537, 372,          9) /* GearCrit */
      , (46537, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,15 +23,10 @@ VALUES (46537,   1, True ) /* Stuck */
      , (46537,  12, True ) /* ReportCollisions */
      , (46537,  13, False) /* Ethereal */
      , (46537,  14, True ) /* GravityStatus */
-     , (46537,  19, True ) /* Attackable */
-     , (46537,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46537, 167,      45) /* CooldownDuration */;
+     , (46537,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46537,   1, 'Spectral Samurai') /* Name */
-     , (46537,  14, 'Use this essence to summon or dismiss your Acid Wisp.') /* Use */
      , (46537, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

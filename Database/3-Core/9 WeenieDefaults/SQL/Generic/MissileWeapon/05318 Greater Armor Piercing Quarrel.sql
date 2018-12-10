@@ -5,7 +5,6 @@ VALUES (5318, 'boltgreaterarmorpiercing', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5318,   1,        256) /* ItemType - MissileWeapon */
-     , (5318,   2,          3) /* CreatureType - Drudge */
      , (5318,   5,         40) /* EncumbranceVal */
      , (5318,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (5318,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,7 +12,6 @@ VALUES (5318,   1,        256) /* ItemType - MissileWeapon */
      , (5318,  12,          8) /* StackSize */
      , (5318,  16,          1) /* ItemUseable - No */
      , (5318,  19,         72) /* Value */
-     , (5318,  25,         80) /* Level */
      , (5318,  44,         21) /* Damage */
      , (5318,  45,          2) /* DamageType - Pierce */
      , (5318,  48,          0) /* WeaponSkill - None */
@@ -23,15 +21,6 @@ VALUES (5318,   1,        256) /* ItemType - MissileWeapon */
      , (5318,  65,          1) /* Placement - RightHandCombat */
      , (5318,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5318, 151,          2) /* HookType - Wall */
-     , (5318, 179,          0) /* ImbuedEffect - Undef */
-     , (5318, 303,          0) /* ImbuedEffect2 - Undef */
-     , (5318, 304,          0) /* ImbuedEffect3 - Undef */
-     , (5318, 305,          0) /* ImbuedEffect4 - Undef */
-     , (5318, 306,          0) /* ImbuedEffect5 - Undef */
-     , (5318, 307,          5) /* DamageRating */
-     , (5318, 313,          0) /* CritRating */
-     , (5318, 314,          0) /* CritDamageRating */
-     , (5318, 386,          0) /* Overpower */
      , (5318, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,11 +41,7 @@ VALUES (5318,  21,       0) /* WeaponLength */
      , (5318,  62,       1) /* WeaponOffense */
      , (5318,  63,       1) /* DamageMod */
      , (5318,  78,       1) /* Friction */
-     , (5318,  79,       0) /* Elasticity */
-     , (5318, 136,       1) /* CriticalMultiplier */
-     , (5318, 147,       1) /* CriticalFrequency */
-     , (5318, 149,       0) /* WeaponMissileDefense */
-     , (5318, 150,       0) /* WeaponMagicDefense */;
+     , (5318,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5318,   1, 'Greater Armor Piercing Quarrel') /* Name */;
@@ -80,9 +65,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5318,   3, 1343072797) /* Wielder */
      , (5318, 8000, 2287107078) /* PCAPRecordedObjectIID */
      , (5318, 8008, 1343072797) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5318,   1,   258, 0, 0, 258) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5318, 67111924, 0, 0);

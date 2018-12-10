@@ -10,7 +10,6 @@ VALUES (48024,   1,          1) /* ItemType - MeleeWeapon */
      , (48024,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48024,  16,          1) /* ItemUseable - No */
      , (48024,  19,        155) /* Value */
-     , (48024,  33,          1) /* Bonded - Bonded */
      , (48024,  51,          1) /* CombatUse - Melee */
      , (48024,  65,          1) /* Placement - RightHandCombat */
      , (48024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -25,8 +24,7 @@ VALUES (48024,   1, False) /* Stuck */
      , (48024,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48024,   1, 'Katar') /* Name */
-     , (48024,  16, 'A concentrated lead pea.') /* LongDesc */;
+VALUES (48024,   1, 'Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48024,   1,   33554743) /* Setup */

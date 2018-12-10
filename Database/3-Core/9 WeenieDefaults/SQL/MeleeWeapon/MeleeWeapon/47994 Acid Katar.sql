@@ -5,14 +5,12 @@ VALUES (47994, 'ace47994-acidkatar', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47994,   1,          1) /* ItemType - MeleeWeapon */
-     , (47994,   2,          8) /* CreatureType - Tusker */
      , (47994,   5,        135) /* EncumbranceVal */
      , (47994,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47994,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47994,  16,          1) /* ItemUseable - No */
      , (47994,  18,        256) /* UiEffects - Acid */
      , (47994,  19,        155) /* Value */
-     , (47994,  25,         80) /* Level */
      , (47994,  51,          1) /* CombatUse - Melee */
      , (47994,  65,          1) /* Placement - RightHandCombat */
      , (47994,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -47,6 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47994,   3, 3707766208) /* Wielder */
      , (47994, 8000, 3707166546) /* PCAPRecordedObjectIID */
      , (47994, 8008, 3707766208) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47994,   1,   400, 0, 0, 400) /* MaxHealth */;

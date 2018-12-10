@@ -6,42 +6,15 @@ VALUES (49025, 'ace49025-spillthesaltszombie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49025,   1,         16) /* ItemType - Creature */
      , (49025,   2,         14) /* CreatureType - Undead */
-     , (49025,   5,       6248) /* EncumbranceVal */
      , (49025,   6,        255) /* ItemsCapacity */
      , (49025,   7,        255) /* ContainersCapacity */
      , (49025,  16,          1) /* ItemUseable - No */
-     , (49025,  19,          0) /* Value */
      , (49025,  25,        100) /* Level */
-     , (49025,  44,         22) /* Damage */
-     , (49025,  45,         32) /* DamageType - Acid */
-     , (49025,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
-     , (49025,  48,         45) /* WeaponSkill - LightWeapons */
-     , (49025,  49,         16) /* WeaponTime */
      , (49025,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49025, 105,          6) /* ItemWorkmanship */
-     , (49025, 106,        370) /* ItemSpellcraft */
-     , (49025, 107,       1245) /* ItemCurMana */
-     , (49025, 108,       1245) /* ItemMaxMana */
-     , (49025, 109,        189) /* ItemDifficulty */
-     , (49025, 110,          0) /* ItemAllegianceRankLimit */
-     , (49025, 115,        390) /* ItemSkillLevelLimit */
-     , (49025, 131,         21) /* MaterialType - Emerald */
      , (49025, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49025, 158,          2) /* WieldRequirements - RawSkill */
-     , (49025, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (49025, 160,        400) /* WieldDifficulty */
-     , (49025, 172,          5) /* AppraisalLongDescDecoration */
-     , (49025, 176,         45) /* AppraisalItemSkill */
-     , (49025, 177,          1) /* GemCount */
-     , (49025, 178,         41) /* GemType */
      , (49025, 307,          5) /* DamageRating */
-     , (49025, 313,         19) /* CritRating */
      , (49025, 314,          9) /* CritDamageRating */
-     , (49025, 315,         11) /* CritResistRating */
-     , (49025, 316,         16) /* CritDamageResistRating */
-     , (49025, 353,          6) /* WeaponType - Dagger */
-     , (49025, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (49025, 8030,          0);
+     , (49025, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49025,   1, True ) /* Stuck */
@@ -50,18 +23,8 @@ VALUES (49025,   1, True ) /* Stuck */
      , (49025,  14, True ) /* GravityStatus */
      , (49025,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49025,   5, -0.0666666666666667) /* ManaRate */
-     , (49025,  21,       0) /* WeaponLength */
-     , (49025,  22,     0.4) /* DamageVariance */
-     , (49025,  26,       0) /* MaximumVelocity */
-     , (49025,  29,    1.15) /* WeaponDefense */
-     , (49025,  62,    1.13) /* WeaponOffense */
-     , (49025,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49025,   1, 'Spill the salt''s Zombie') /* Name */
-     , (49025,  16, 'Killed by Ferah Palacost.') /* LongDesc */
      , (49025, 8006, 'AAA+AAEAAAA+AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -96,11 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49025,   1,   770, 0, 0, 770) /* MaxHealth */
      , (49025,   3,  1000, 0, 0, 1000) /* MaxStamina */
      , (49025,   5,   630, 0, 0, 630) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49025,  1616,      2) 
-     , (49025,  2504,      2) 
-     , (49025,  4417,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49025, 67109966, 72, 8)

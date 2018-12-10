@@ -38,10 +38,6 @@ VALUES (10705,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10705,   1, 'Niffis Pearl') /* Name */
-     , (10705,   7, '     /)/)
-  =('':'')=
-,,,('')(''),,,') /* Inscription */
-     , (10705,   8, 'Sidhartho') /* ScribeName */
      , (10705,  16, 'A large niffis pearl that gleams with an inner light.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

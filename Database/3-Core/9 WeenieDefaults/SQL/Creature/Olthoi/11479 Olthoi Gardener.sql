@@ -6,18 +6,12 @@ VALUES (11479, 'olthoigardener_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11479,   1,         16) /* ItemType - Creature */
      , (11479,   2,          1) /* CreatureType - Olthoi */
-     , (11479,   5,         77) /* EncumbranceVal */
      , (11479,   6,        255) /* ItemsCapacity */
      , (11479,   7,        255) /* ContainersCapacity */
      , (11479,  16,          1) /* ItemUseable - No */
-     , (11479,  19,       7705) /* Value */
      , (11479,  25,         30) /* Level */
-     , (11479,  28,        291) /* ArmorLevel */
      , (11479,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11479, 105,          7) /* ItemWorkmanship */
-     , (11479, 131,         63) /* MaterialType - Silver */
      , (11479, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11479, 172,          1) /* AppraisalLongDescDecoration */
      , (11479, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -25,23 +19,13 @@ VALUES (11479,   1, True ) /* Stuck */
      , (11479,  12, True ) /* ReportCollisions */
      , (11479,  13, False) /* Ethereal */
      , (11479,  14, True ) /* GravityStatus */
-     , (11479,  19, True ) /* Attackable */
-     , (11479, 100, True ) /* Dyable */;
+     , (11479,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11479,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (11479,  14,       1) /* ArmorModVsPierce */
-     , (11479,  15,       1) /* ArmorModVsBludgeon */
-     , (11479,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (11479,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (11479,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (11479,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (11479,  77,       1) /* PhysicsScriptIntensity */
-     , (11479, 165,       1) /* ArmorModVsNether */;
+VALUES (11479,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11479,   1, 'Olthoi Gardener') /* Name */
-     , (11479,  16, 'Crown') /* LongDesc */
      , (11479, 8006, 'AAA9AEAAAAAAAMC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

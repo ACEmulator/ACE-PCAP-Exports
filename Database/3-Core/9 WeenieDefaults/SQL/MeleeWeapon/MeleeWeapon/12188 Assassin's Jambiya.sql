@@ -10,31 +10,9 @@ VALUES (12188,   1,          1) /* ItemType - MeleeWeapon */
      , (12188,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12188,  16,          1) /* ItemUseable - No */
      , (12188,  19,         30) /* Value */
-     , (12188,  44,          0) /* Damage */
-     , (12188,  45,         32) /* DamageType - Acid */
-     , (12188,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (12188,  49,         99) /* WeaponTime */
      , (12188,  51,          1) /* CombatUse - Melee */
      , (12188,  65,          1) /* Placement - RightHandCombat */
-     , (12188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12188, 105,          9) /* ItemWorkmanship */
-     , (12188, 106,        305) /* ItemSpellcraft */
-     , (12188, 107,       1984) /* ItemCurMana */
-     , (12188, 108,       1984) /* ItemMaxMana */
-     , (12188, 109,        156) /* ItemDifficulty */
-     , (12188, 110,          0) /* ItemAllegianceRankLimit */
-     , (12188, 115,        325) /* ItemSkillLevelLimit */
-     , (12188, 131,         62) /* MaterialType - Pyreal */
-     , (12188, 158,          2) /* WieldRequirements - RawSkill */
-     , (12188, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (12188, 160,        360) /* WieldDifficulty */
-     , (12188, 172,          5) /* AppraisalLongDescDecoration */
-     , (12188, 176,         47) /* AppraisalItemSkill */
-     , (12188, 177,          4) /* GemCount */
-     , (12188, 178,         26) /* GemType */
-     , (12188, 204,         10) /* ElementalDamageBonus */
-     , (12188, 353,          9) /* WeaponType - Crossbow */
-     , (12188, 8030,          0);
+     , (12188,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12188,   1, False) /* Stuck */
@@ -44,18 +22,8 @@ VALUES (12188,   1, False) /* Stuck */
      , (12188,  19, True ) /* Attackable */
      , (12188,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12188,   5, -0.0555555555555556) /* ManaRate */
-     , (12188,  21,       0) /* WeaponLength */
-     , (12188,  22,       0) /* DamageVariance */
-     , (12188,  26,    27.3) /* MaximumVelocity */
-     , (12188,  29,    1.09) /* WeaponDefense */
-     , (12188,  62,       1) /* WeaponOffense */
-     , (12188,  63,    2.65) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12188,   1, 'Assassin''s Jambiya') /* Name */
-     , (12188,  16, 'Acid Crossbow of Endurance') /* LongDesc */;
+VALUES (12188,   1, 'Assassin''s Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12188,   1,   33554887) /* Setup */
@@ -76,13 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12188,   3, 2930052234) /* Wielder */
      , (12188, 8000, 2930052231) /* PCAPRecordedObjectIID */
      , (12188, 8008, 2930052234) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12188,  1627,      2) 
-     , (12188,  2061,      2) 
-     , (12188,  2096,      2) 
-     , (12188,  2598,      2) 
-     , (12188,  2608,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12188, 67111920, 0, 0);

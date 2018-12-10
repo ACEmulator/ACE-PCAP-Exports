@@ -6,11 +6,9 @@ VALUES (42737, 'ace42737-tailorsapprentice', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42737,   1,         16) /* ItemType - Creature */
      , (42737,   2,         31) /* CreatureType - Human */
-     , (42737,   5,       6240) /* EncumbranceVal */
      , (42737,   6,        255) /* ItemsCapacity */
      , (42737,   7,        255) /* ContainersCapacity */
      , (42737,  16,         32) /* ItemUseable - Remote */
-     , (42737,  19,          0) /* Value */
      , (42737,  25,         67) /* Level */
      , (42737,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42737,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (42737,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42737,   1, 'Tailor''s Apprentice') /* Name */
      , (42737,   5, 'Tailor''s Apprentice') /* Template */
-     , (42737,  16, 'Killed by Mag-seven.') /* LongDesc */
      , (42737, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

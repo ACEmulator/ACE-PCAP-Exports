@@ -6,11 +6,9 @@ VALUES (36598, 'ace36598-paradoxsimulacrum', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36598,   1,         16) /* ItemType - Creature */
      , (36598,   2,         59) /* CreatureType - Simulacrum */
-     , (36598,   5,         30) /* EncumbranceVal */
      , (36598,   6,        255) /* ItemsCapacity */
      , (36598,   7,        255) /* ContainersCapacity */
      , (36598,  16,          1) /* ItemUseable - No */
-     , (36598,  19,       2000) /* Value */
      , (36598,  25,        185) /* Level */
      , (36598,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36598, 113,          1) /* Gender - Male */
@@ -27,9 +25,6 @@ VALUES (36598,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36598,   1, 'Paradox Simulacrum') /* Name */
-     , (36598,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (36598,  16, 'Inscribed spell: Avalenne''s Blessing
-Increases the caster''s Healing skill by 40 points.') /* LongDesc */
      , (36598, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -58,9 +53,6 @@ VALUES (36598, 8000, 3684473966) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (36598,   1,  1200, 0, 0, 1200) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36598,  2241,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36598, 67109562, 0, 24)

@@ -10,27 +10,10 @@ VALUES (48041,   1,          1) /* ItemType - MeleeWeapon */
      , (48041,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48041,  16,          1) /* ItemUseable - No */
      , (48041,  19,        155) /* Value */
-     , (48041,  44,         40) /* Damage */
-     , (48041,  45,          1) /* DamageType - Slash */
-     , (48041,  48,          0) /* WeaponSkill - None */
-     , (48041,  49,         -1) /* WeaponTime */
      , (48041,  51,          1) /* CombatUse - Melee */
      , (48041,  65,          1) /* Placement - RightHandCombat */
      , (48041,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48041, 151,          2) /* HookType - Wall */
-     , (48041, 158,          2) /* WieldRequirements - RawSkill */
-     , (48041, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (48041, 160,        270) /* WieldDifficulty */
-     , (48041, 179,          8) /* ImbuedEffect - SlashRending */
-     , (48041, 303,          8) /* ImbuedEffect2 - SlashRending */
-     , (48041, 304,          8) /* ImbuedEffect3 - SlashRending */
-     , (48041, 305,          8) /* ImbuedEffect4 - SlashRending */
-     , (48041, 306,          8) /* ImbuedEffect5 - SlashRending */
-     , (48041, 307,          5) /* DamageRating */
-     , (48041, 313,          0) /* CritRating */
-     , (48041, 314,          0) /* CritDamageRating */
-     , (48041, 386,          0) /* Overpower */
-     , (48041, 8030,          0);
+     , (48041, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48041,   1, False) /* Stuck */
@@ -38,18 +21,7 @@ VALUES (48041,   1, False) /* Stuck */
      , (48041,  13, True ) /* Ethereal */
      , (48041,  14, True ) /* GravityStatus */
      , (48041,  19, True ) /* Attackable */
-     , (48041,  22, True ) /* Inscribable */
-     , (48041,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48041,  21,       0) /* WeaponLength */
-     , (48041,  22,     0.2) /* DamageVariance */
-     , (48041,  26,       0) /* MaximumVelocity */
-     , (48041,  29,       1) /* WeaponDefense */
-     , (48041,  62,       1) /* WeaponOffense */
-     , (48041,  63,       1) /* DamageMod */
-     , (48041, 149,       0) /* WeaponMissileDefense */
-     , (48041, 150,       0) /* WeaponMagicDefense */;
+     , (48041,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48041,   1, 'Nekode') /* Name */;

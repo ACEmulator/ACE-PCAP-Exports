@@ -6,60 +6,27 @@ VALUES (948, 'mosswartfeeder', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (948,   1,         16) /* ItemType - Creature */
      , (948,   2,          4) /* CreatureType - Mosswart */
-     , (948,   5,          0) /* EncumbranceVal */
      , (948,   6,        255) /* ItemsCapacity */
      , (948,   7,        255) /* ContainersCapacity */
      , (948,  16,          1) /* ItemUseable - No */
-     , (948,  19,       2999) /* Value */
      , (948,  25,          8) /* Level */
-     , (948,  28,        282) /* ArmorLevel */
-     , (948,  44,         -1) /* Damage */
-     , (948,  45,          0) /* DamageType - Undef */
-     , (948,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (948,  49,         -1) /* WeaponTime */
      , (948,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (948, 105,          7) /* ItemWorkmanship */
-     , (948, 131,         54) /* MaterialType - GromnieHide */
      , (948, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (948, 172,          1) /* AppraisalLongDescDecoration */
      , (948, 307,          5) /* DamageRating */
-     , (948, 313,          0) /* CritRating */
-     , (948, 314,          0) /* CritDamageRating */
-     , (948, 353,         10) /* WeaponType - Thrown */
-     , (948, 386,          0) /* Overpower */
-     , (948, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (948, 8030,          0);
+     , (948, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (948,   1, True ) /* Stuck */
      , (948,  12, True ) /* ReportCollisions */
      , (948,  13, False) /* Ethereal */
      , (948,  14, True ) /* GravityStatus */
-     , (948,  19, True ) /* Attackable */
-     , (948, 100, True ) /* Dyable */;
+     , (948,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (948,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (948,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (948,  15,       1) /* ArmorModVsBludgeon */
-     , (948,  16,     0.5) /* ArmorModVsCold */
-     , (948,  17, 1.06177163124084) /* ArmorModVsFire */
-     , (948,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (948,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (948,  21,       0) /* WeaponLength */
-     , (948,  22,    0.25) /* DamageVariance */
-     , (948,  26,       0) /* MaximumVelocity */
-     , (948,  29,       1) /* WeaponDefense */
-     , (948,  39, 0.899999976158142) /* DefaultScale */
-     , (948,  62,       1) /* WeaponOffense */
-     , (948,  63,       1) /* DamageMod */
-     , (948, 149,       0) /* WeaponMissileDefense */
-     , (948, 150,       0) /* WeaponMagicDefense */
-     , (948, 165,       1) /* ArmorModVsNether */;
+VALUES (948,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (948,   1, 'Mosswart Feeder') /* Name */
-     , (948,  16, 'Leather Cowl') /* LongDesc */
      , (948, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

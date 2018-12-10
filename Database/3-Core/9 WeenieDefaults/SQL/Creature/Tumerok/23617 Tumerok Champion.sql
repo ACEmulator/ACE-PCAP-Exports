@@ -6,27 +6,12 @@ VALUES (23617, 'tumerokchampion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23617,   1,         16) /* ItemType - Creature */
      , (23617,   2,          6) /* CreatureType - Tumerok */
-     , (23617,   5,        135) /* EncumbranceVal */
      , (23617,   6,        255) /* ItemsCapacity */
      , (23617,   7,        255) /* ContainersCapacity */
      , (23617,  16,          1) /* ItemUseable - No */
-     , (23617,  19,       5576) /* Value */
      , (23617,  25,        100) /* Level */
-     , (23617,  28,          0) /* ArmorLevel */
      , (23617,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23617, 105,          6) /* ItemWorkmanship */
-     , (23617, 106,        370) /* ItemSpellcraft */
-     , (23617, 107,       1121) /* ItemCurMana */
-     , (23617, 108,       1121) /* ItemMaxMana */
-     , (23617, 109,        414) /* ItemDifficulty */
-     , (23617, 110,          0) /* ItemAllegianceRankLimit */
-     , (23617, 115,          0) /* ItemSkillLevelLimit */
-     , (23617, 131,          7) /* MaterialType - Velvet */
      , (23617, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23617, 158,          7) /* WieldRequirements - Level */
-     , (23617, 159,          1) /* WieldSkilltype - Axe */
-     , (23617, 160,        150) /* WieldDifficulty */
-     , (23617, 172,          1) /* AppraisalLongDescDecoration */
      , (23617, 307,          5) /* DamageRating */
      , (23617, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -35,24 +20,13 @@ VALUES (23617,   1, True ) /* Stuck */
      , (23617,  12, True ) /* ReportCollisions */
      , (23617,  13, False) /* Ethereal */
      , (23617,  14, True ) /* GravityStatus */
-     , (23617,  19, True ) /* Attackable */
-     , (23617, 100, True ) /* Dyable */;
+     , (23617,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23617,   5, -0.0666666666666667) /* ManaRate */
-     , (23617,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (23617,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (23617,  15,       1) /* ArmorModVsBludgeon */
-     , (23617,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (23617,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (23617,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (23617,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (23617,  39, 1.29999995231628) /* DefaultScale */
-     , (23617, 165,       1) /* ArmorModVsNether */;
+VALUES (23617,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23617,   1, 'Tumerok Champion') /* Name */
-     , (23617,  16, 'Trousers of Lightning Protection') /* LongDesc */
      , (23617, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -85,11 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (23617,   1,   365, 0, 0, 365) /* MaxHealth */
      , (23617,   3,   500, 0, 0, 500) /* MaxStamina */
      , (23617,   5,   250, 0, 0, 250) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23617,  2159,      2) 
-     , (23617,  2535,      2) 
-     , (23617,  4468,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23617, 67116636, 153, 47)

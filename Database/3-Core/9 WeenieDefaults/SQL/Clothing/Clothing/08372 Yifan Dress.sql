@@ -34,9 +34,7 @@ VALUES (8372,  13,       1) /* ArmorModVsSlash */
      , (8372, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8372,   1, 'Yifan Dress') /* Name */
-     , (8372,   7, NULL) /* Inscription */
-     , (8372,   8, NULL) /* ScribeName */;
+VALUES (8372,   1, 'Yifan Dress') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8372,   1,   33554854) /* Setup */

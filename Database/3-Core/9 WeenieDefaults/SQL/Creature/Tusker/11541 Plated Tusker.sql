@@ -6,17 +6,12 @@ VALUES (11541, 'tuskerplated_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11541,   1,         16) /* ItemType - Creature */
      , (11541,   2,          8) /* CreatureType - Tusker */
-     , (11541,   5,       6065) /* EncumbranceVal */
      , (11541,   6,        255) /* ItemsCapacity */
      , (11541,   7,        255) /* ContainersCapacity */
      , (11541,  16,          1) /* ItemUseable - No */
-     , (11541,  19,          0) /* Value */
      , (11541,  25,        100) /* Level */
-     , (11541,  33,          1) /* Bonded - Bonded */
      , (11541,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11541, 107,          0) /* ItemCurMana */
      , (11541, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11541, 307,          2) /* DamageRating */
      , (11541, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -27,14 +22,10 @@ VALUES (11541,   1, True ) /* Stuck */
      , (11541,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11541,  39, 1.20000004768372) /* DefaultScale */
-     , (11541,  87,       2) /* ItemEfficiency */
-     , (11541, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (11541,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11541,   1, 'Plated Tusker') /* Name */
-     , (11541,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (11541,  16, 'Killed by Arkaina.') /* LongDesc */
      , (11541, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

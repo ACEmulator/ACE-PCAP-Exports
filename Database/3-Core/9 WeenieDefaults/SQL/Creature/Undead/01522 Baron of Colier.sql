@@ -6,38 +6,14 @@ VALUES (1522, 'undeadbaronminer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1522,   1,         16) /* ItemType - Creature */
      , (1522,   2,         14) /* CreatureType - Undead */
-     , (1522,   5,        750) /* EncumbranceVal */
      , (1522,   6,        255) /* ItemsCapacity */
      , (1522,   7,        255) /* ContainersCapacity */
      , (1522,  16,          1) /* ItemUseable - No */
-     , (1522,  19,       4584) /* Value */
      , (1522,  25,         30) /* Level */
-     , (1522,  44,         26) /* Damage */
-     , (1522,  45,         32) /* DamageType - Acid */
-     , (1522,  47,          2) /* AttackType - Thrust */
-     , (1522,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (1522,  49,         42) /* WeaponTime */
      , (1522,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1522, 105,          6) /* ItemWorkmanship */
-     , (1522, 106,        184) /* ItemSpellcraft */
-     , (1522, 107,       1167) /* ItemCurMana */
-     , (1522, 108,       1167) /* ItemMaxMana */
-     , (1522, 109,         82) /* ItemDifficulty */
-     , (1522, 110,          0) /* ItemAllegianceRankLimit */
-     , (1522, 115,        204) /* ItemSkillLevelLimit */
-     , (1522, 131,         73) /* MaterialType - Ebony */
      , (1522, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1522, 158,          2) /* WieldRequirements - RawSkill */
-     , (1522, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (1522, 160,        325) /* WieldDifficulty */
-     , (1522, 172,          5) /* AppraisalLongDescDecoration */
-     , (1522, 176,         41) /* AppraisalItemSkill */
-     , (1522, 177,          1) /* GemCount */
-     , (1522, 178,         23) /* GemType */
      , (1522, 307,          5) /* DamageRating */
-     , (1522, 353,         11) /* WeaponType - TwoHanded */
-     , (1522, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (1522, 8030,          0);
+     , (1522, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1522,   1, True ) /* Stuck */
@@ -47,18 +23,10 @@ VALUES (1522,   1, True ) /* Stuck */
      , (1522,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1522,   5, -0.0416666666666667) /* ManaRate */
-     , (1522,  21,       0) /* WeaponLength */
-     , (1522,  22,    0.35) /* DamageVariance */
-     , (1522,  26,       0) /* MaximumVelocity */
-     , (1522,  29,    1.09) /* WeaponDefense */
-     , (1522,  39, 1.11000001430511) /* DefaultScale */
-     , (1522,  62,    1.11) /* WeaponOffense */
-     , (1522,  63,       1) /* DamageMod */;
+VALUES (1522,  39, 1.11000001430511) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1522,   1, 'Baron of Colier') /* Name */
-     , (1522,  16, 'Acid Assagai of Blood Drinker') /* LongDesc */
      , (1522, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -91,11 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1522,   1,   113, 0, 0, 113) /* MaxHealth */
      , (1522,   3,   275, 0, 0, 275) /* MaxStamina */
      , (1522,   5,   270, 0, 0, 270) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1522,  1591,      2) 
-     , (1522,  1615,      2) 
-     , (1522,  1626,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1522, 67111342, 0, 0);

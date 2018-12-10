@@ -33,8 +33,7 @@ VALUES (35593,   1, False) /* Stuck */
      , (35593,  14, True ) /* GravityStatus */
      , (35593,  15, True ) /* LightsStatus */
      , (35593,  19, True ) /* Attackable */
-     , (35593,  22, True ) /* Inscribable */
-     , (35593,  91, True ) /* Retained */;
+     , (35593,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35593,   5, -0.0333329997956753) /* ManaRate */
@@ -46,8 +45,6 @@ VALUES (35593,   5, -0.0333329997956753) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35593,   1, 'Drudge Scrying Orb') /* Name */
-     , (35593,   7, '=D') /* Inscription */
-     , (35593,   8, 'Kallak') /* ScribeName */
      , (35593,  16, 'It is said that Drudge Mystics can see the future in these orbs. Allowing them to prepare for battles to come.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -55,7 +52,7 @@ VALUES (35593,   1,   33558259) /* Setup */
      , (35593,   3,  536870932) /* SoundTable */
      , (35593,   8,  100674116) /* Icon */
      , (35593,  22,  872415275) /* PhysicsEffectTable */
-     , (35593,  28,       2076) /* Spell */
+     , (35593,  28,       2076) /* Spell - ManaBoostOther7 */
      , (35593,  52,  100686604) /* IconUnderlay */
      , (35593, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (35593, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

@@ -53,8 +53,6 @@ VALUES (30534,   5, -0.0333333015441895) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30534,   1, 'Gauntlets of the Crimson Star ') /* Name */
-     , (30534,   7, '$30 (Tailored $20)') /* Inscription */
-     , (30534,   8, 'Trade''') /* ScribeName */
      , (30534,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

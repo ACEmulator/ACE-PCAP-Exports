@@ -35,13 +35,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41466,   5, -0.0500000007450581) /* ManaRate */
      , (41466,  29, 1.20000004768372) /* WeaponDefense */
      , (41466,  39,     1.5) /* DefaultScale */
-     , (41466, 144,       0) /* ManaConversionMod */
-     , (41466, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (41466, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41466,   1, 'Incomparable Lense') /* Name */
-     , (41466,   7, 'Tlosk rox!! he gave me this =)') /* Inscription */
-     , (41466,   8, 'Gt') /* ScribeName */
      , (41466,  16, 'A lense used in the assessment of creatures. Use of this lense will make creatures more vulnerable to physical attacks.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -50,7 +47,7 @@ VALUES (41466,   1,   33560887) /* Setup */
      , (41466,   6,   67116700) /* PaletteBase */
      , (41466,   8,  100690684) /* Icon */
      , (41466,  22,  872415275) /* PhysicsEffectTable */
-     , (41466,  28,       5121) /* Spell */
+     , (41466,  28,       5121) /* Spell - ExposeWeakness7 */
      , (41466, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (41466, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41466, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

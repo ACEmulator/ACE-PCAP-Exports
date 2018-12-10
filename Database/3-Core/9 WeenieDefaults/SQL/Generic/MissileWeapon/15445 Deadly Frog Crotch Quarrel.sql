@@ -24,16 +24,6 @@ VALUES (15445,   1,        256) /* ItemType - MissileWeapon */
      , (15445, 158,          2) /* WieldRequirements - RawSkill */
      , (15445, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (15445, 160,        230) /* WieldDifficulty */
-     , (15445, 166,          1) /* SlayerCreatureType - Olthoi */
-     , (15445, 179,          0) /* ImbuedEffect - Undef */
-     , (15445, 303,          0) /* ImbuedEffect2 - Undef */
-     , (15445, 304,          0) /* ImbuedEffect3 - Undef */
-     , (15445, 305,          0) /* ImbuedEffect4 - Undef */
-     , (15445, 306,          0) /* ImbuedEffect5 - Undef */
-     , (15445, 307,         11) /* DamageRating */
-     , (15445, 313,          0) /* CritRating */
-     , (15445, 314,          5) /* CritDamageRating */
-     , (15445, 386,          0) /* Overpower */
      , (15445, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,10 +44,7 @@ VALUES (15445,  21,       0) /* WeaponLength */
      , (15445,  62,       1) /* WeaponOffense */
      , (15445,  63,       1) /* DamageMod */
      , (15445,  78,       1) /* Friction */
-     , (15445,  79,       0) /* Elasticity */
-     , (15445, 147,       1) /* CriticalFrequency */
-     , (15445, 149,       0) /* WeaponMissileDefense */
-     , (15445, 150,       0) /* WeaponMagicDefense */;
+     , (15445,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15445,   1, 'Deadly Frog Crotch Quarrel') /* Name */;

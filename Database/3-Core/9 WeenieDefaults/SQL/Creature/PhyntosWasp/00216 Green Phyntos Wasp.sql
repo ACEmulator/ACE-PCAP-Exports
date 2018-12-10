@@ -6,17 +6,12 @@ VALUES (216, 'phyntoswaspgreen', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (216,   1,         16) /* ItemType - Creature */
      , (216,   2,          9) /* CreatureType - PhyntosWasp */
-     , (216,   5,       7525) /* EncumbranceVal */
      , (216,   6,        255) /* ItemsCapacity */
      , (216,   7,        255) /* ContainersCapacity */
      , (216,  16,          1) /* ItemUseable - No */
-     , (216,  19,          0) /* Value */
      , (216,  25,          8) /* Level */
-     , (216,  91,         50) /* MaxStructure */
-     , (216,  92,         50) /* Structure */
      , (216,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (216, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (216, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,8 +26,6 @@ VALUES (216,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (216,   1, 'Green Phyntos Wasp') /* Name */
-     , (216,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (216,  16, 'Killed by Branor.') /* LongDesc */
      , (216, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

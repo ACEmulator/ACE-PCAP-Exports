@@ -6,20 +6,16 @@ VALUES (49051, 'ace49051-hexonesgrievver', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49051,   1,         16) /* ItemType - Creature */
      , (49051,   2,         44) /* CreatureType - Grievver */
-     , (49051,   5,          0) /* EncumbranceVal */
      , (49051,   6,        255) /* ItemsCapacity */
      , (49051,   7,        255) /* ContainersCapacity */
      , (49051,  16,          1) /* ItemUseable - No */
-     , (49051,  19,          0) /* Value */
      , (49051,  25,        200) /* Level */
      , (49051,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49051, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49051, 280,        100) /* SharedCooldown */
      , (49051, 307,         11) /* DamageRating */
      , (49051, 308,         14) /* DamageResistRating */
      , (49051, 313,         14) /* CritRating */
      , (49051, 314,         12) /* CritDamageRating */
-     , (49051, 315,          9) /* CritResistRating */
      , (49051, 316,          9) /* CritDamageResistRating */
      , (49051, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -28,17 +24,14 @@ VALUES (49051,   1, True ) /* Stuck */
      , (49051,  12, True ) /* ReportCollisions */
      , (49051,  13, True ) /* Ethereal */
      , (49051,  14, True ) /* GravityStatus */
-     , (49051,  19, True ) /* Attackable */
-     , (49051,  69, False) /* IsSellable */;
+     , (49051,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49051,  39, 1.10000002384186) /* DefaultScale */
-     , (49051,  77,       1) /* PhysicsScriptIntensity */
-     , (49051, 167,       2) /* CooldownDuration */;
+     , (49051,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49051,   1, 'Hexone''s Grievver') /* Name */
-     , (49051,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal sword. (Recommended Levels 180+)') /* LongDesc */
      , (49051, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

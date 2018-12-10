@@ -27,10 +27,8 @@ VALUES (38478,   1,          2) /* ItemType - Armor */
      , (38478, 160,        101) /* WieldDifficulty */
      , (38478, 171,         10) /* NumTimesTinkered */
      , (38478, 172,          1) /* AppraisalLongDescDecoration */
-     , (38478, 176,          6) /* AppraisalItemSkill */
      , (38478, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38478, 374,          1) /* GearCritDamage */
-     , (38478, 375,          2) /* GearCritDamageResist */;
+     , (38478, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38478,   1, False) /* Stuck */
@@ -74,31 +72,10 @@ VALUES (38478,   2, 1343032295) /* Container */
      , (38478, 8000, 2764655337) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38478,  1516,      2) 
-     , (38478,  1540,      2) 
-     , (38478,  2092,      2) 
-     , (38478,  2094,      2) 
-     , (38478,  2098,      2) 
-     , (38478,  2102,      2) 
-     , (38478,  2104,      2) 
-     , (38478,  2108,      2) 
-     , (38478,  2110,      2) 
-     , (38478,  2301,      2) 
-     , (38478,  2520,      2) 
-     , (38478,  2521,      2) 
-     , (38478,  2572,      2) 
-     , (38478,  2573,      2) 
-     , (38478,  4319,      2) 
+VALUES (38478,  2102,      2) 
      , (38478,  4403,      2) 
      , (38478,  4407,      2) 
-     , (38478,  4412,      2) 
      , (38478,  6039,      2) 
-     , (38478,  6044,      2) 
-     , (38478,  6057,      2) 
-     , (38478,  6071,      2) 
-     , (38478,  6085,      2) 
-     , (38478,  6095,      2) 
-     , (38478,  6122,      2) 
      , (38478,  6123,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

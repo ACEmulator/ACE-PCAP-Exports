@@ -13,7 +13,6 @@ VALUES (5308,   1,        256) /* ItemType - MissileWeapon */
      , (5308,  16,          1) /* ItemUseable - No */
      , (5308,  18,         64) /* UiEffects - Lightning */
      , (5308,  19,        220) /* Value */
-     , (5308,  28,        256) /* ArmorLevel */
      , (5308,  44,         14) /* Damage */
      , (5308,  45,         64) /* DamageType - Electric */
      , (5308,  48,          0) /* WeaponSkill - None */
@@ -22,19 +21,7 @@ VALUES (5308,   1,        256) /* ItemType - MissileWeapon */
      , (5308,  51,          3) /* CombatUse - Ammo */
      , (5308,  65,          1) /* Placement - RightHandCombat */
      , (5308,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (5308, 105,          8) /* ItemWorkmanship */
-     , (5308, 106,        228) /* ItemSpellcraft */
-     , (5308, 107,       1494) /* ItemCurMana */
-     , (5308, 108,       1494) /* ItemMaxMana */
-     , (5308, 109,        228) /* ItemDifficulty */
-     , (5308, 110,          0) /* ItemAllegianceRankLimit */
-     , (5308, 115,          0) /* ItemSkillLevelLimit */
-     , (5308, 117,        350) /* ItemManaCost */
-     , (5308, 131,          4) /* MaterialType - Linen */
      , (5308, 151,          2) /* HookType - Wall */
-     , (5308, 172,          5) /* AppraisalLongDescDecoration */
-     , (5308, 177,          1) /* GemCount */
-     , (5308, 178,         34) /* GemType */
      , (5308, 179,          0) /* ImbuedEffect - Undef */
      , (5308, 303,          0) /* ImbuedEffect2 - Undef */
      , (5308, 304,          0) /* ImbuedEffect3 - Undef */
@@ -53,19 +40,10 @@ VALUES (5308,   1, False) /* Stuck */
      , (5308,  14, True ) /* GravityStatus */
      , (5308,  17, True ) /* Inelastic */
      , (5308,  19, True ) /* Attackable */
-     , (5308,  69, False) /* IsSellable */
-     , (5308, 100, True ) /* Dyable */;
+     , (5308,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5308,   5, -0.0555555555555556) /* ManaRate */
-     , (5308,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (5308,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (5308,  15,       1) /* ArmorModVsBludgeon */
-     , (5308,  16,     0.5) /* ArmorModVsCold */
-     , (5308,  17,     0.5) /* ArmorModVsFire */
-     , (5308,  18, 0.62499988079071) /* ArmorModVsAcid */
-     , (5308,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (5308,  21,       0) /* WeaponLength */
+VALUES (5308,  21,       0) /* WeaponLength */
      , (5308,  22,    0.25) /* DamageVariance */
      , (5308,  26,       0) /* MaximumVelocity */
      , (5308,  29,       1) /* WeaponDefense */
@@ -75,12 +53,10 @@ VALUES (5308,   5, -0.0555555555555556) /* ManaRate */
      , (5308,  78,       1) /* Friction */
      , (5308,  79,       0) /* Elasticity */
      , (5308, 149,       0) /* WeaponMissileDefense */
-     , (5308, 150,       0) /* WeaponMagicDefense */
-     , (5308, 165,       1) /* ArmorModVsNether */;
+     , (5308, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5308,   1, 'Greater Lightning Arrow') /* Name */
-     , (5308,  16, 'Qafiya of Rejuvenation') /* LongDesc */;
+VALUES (5308,   1, 'Greater Lightning Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5308,   1,   33555709) /* Setup */
@@ -101,11 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5308,   3, 2780587994) /* Wielder */
      , (5308, 8000, 2780849896) /* PCAPRecordedObjectIID */
      , (5308, 8008, 2780587994) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5308,   193,      2) 
-     , (5308,   520,      2) 
-     , (5308,  1485,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5308, 67111923, 0, 0);

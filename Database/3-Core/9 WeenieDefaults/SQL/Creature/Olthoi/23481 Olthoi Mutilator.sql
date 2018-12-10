@@ -6,26 +6,20 @@ VALUES (23481, 'olthoimutilator', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23481,   1,         16) /* ItemType - Creature */
      , (23481,   2,          1) /* CreatureType - Olthoi */
-     , (23481,   5,          1) /* EncumbranceVal */
      , (23481,   6,        255) /* ItemsCapacity */
      , (23481,   7,        255) /* ContainersCapacity */
      , (23481,  16,          1) /* ItemUseable - No */
-     , (23481,  19,          1) /* Value */
      , (23481,  25,        115) /* Level */
-     , (23481,  33,          1) /* Bonded - Bonded */
      , (23481,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23481, 114,          1) /* Attuned - Attuned */
      , (23481, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (23481, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23481,   1, True ) /* Stuck */
-     , (23481,   2, False) /* Open */
      , (23481,  12, True ) /* ReportCollisions */
      , (23481,  13, False) /* Ethereal */
      , (23481,  14, True ) /* GravityStatus */
-     , (23481,  19, True ) /* Attackable */
-     , (23481,  69, False) /* IsSellable */;
+     , (23481,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23481,  39, 0.800000011920929) /* DefaultScale */
@@ -33,8 +27,6 @@ VALUES (23481,  39, 0.800000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23481,   1, 'Olthoi Mutilator') /* Name */
-     , (23481,  15, 'A small, delicately engraved token, created by an exceptionally skilled A''nekshay artisan.') /* ShortDesc */
-     , (23481,  16, 'Killed by Mozart''s Requiem.') /* LongDesc */
      , (23481, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

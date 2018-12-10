@@ -6,11 +6,9 @@ VALUES (41735, 'ace41735-goldgearheavyscout', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41735,   1,         16) /* ItemType - Creature */
      , (41735,   2,         99) /* CreatureType - GearKnight */
-     , (41735,   5,       6065) /* EncumbranceVal */
      , (41735,   6,        255) /* ItemsCapacity */
      , (41735,   7,        255) /* ContainersCapacity */
      , (41735,  16,          1) /* ItemUseable - No */
-     , (41735,  19,          0) /* Value */
      , (41735,  25,        185) /* Level */
      , (41735,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41735, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (41735,  39, 1.70000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41735,   1, 'Gold Gear Heavy Scout') /* Name */
-     , (41735,  16, 'Killed by Makor.') /* LongDesc */
      , (41735, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

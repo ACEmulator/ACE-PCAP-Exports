@@ -11,10 +11,7 @@ VALUES (38180,   1,         16) /* ItemType - Creature */
      , (38180,  16,          1) /* ItemUseable - No */
      , (38180,  25,        115) /* Level */
      , (38180,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38180, 113,          1) /* Gender - Male */
      , (38180, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38180, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38180, 188,          4) /* HeritageGroup - Viamontian */
      , (38180, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,7 +27,6 @@ VALUES (38180,  39,     1.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38180,   1, 'Blighted Bane Grievver') /* Name */
-     , (38180,   5, 'Knight of Bellenesse') /* Template */
      , (38180, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -39,12 +35,6 @@ VALUES (38180,   1,   33556698) /* Setup */
      , (38180,   3,  536871009) /* SoundTable */
      , (38180,   6,   67112927) /* PaletteBase */
      , (38180,   8,  100670960) /* Icon */
-     , (38180,   9,   83890493) /* EyesTexture */
-     , (38180,  10,   83890548) /* NoseTexture */
-     , (38180,  11,   83890629) /* MouthTexture */
-     , (38180,  15,   67117077) /* HairPalette */
-     , (38180,  16,   67110064) /* EyesPalette */
-     , (38180,  17,   67115908) /* SkinPalette */
      , (38180,  22,  872415364) /* PhysicsEffectTable */
      , (38180, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38180, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

@@ -36,7 +36,7 @@ VALUES (29109,   1,   33559128) /* Setup */
      , (29109,   3,  536870932) /* SoundTable */
      , (29109,   8,  100686437) /* Icon */
      , (29109,  22,  872415275) /* PhysicsEffectTable */
-     , (29109,  28,       3530) /* Spell */
+     , (29109,  28,       3530) /* Spell - KetnansBoon */
      , (29109,  50,  100687554) /* IconOverlay */
      , (29109,  52,  100687547) /* IconUnderlay */
      , (29109, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */

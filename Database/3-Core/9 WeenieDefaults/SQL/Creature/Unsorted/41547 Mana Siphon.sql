@@ -5,7 +5,6 @@ VALUES (41547, 'ace41547-manasiphon', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41547,   1,         16) /* ItemType - Creature */
-     , (41547,   5,          0) /* EncumbranceVal */
      , (41547,   6,        255) /* ItemsCapacity */
      , (41547,   7,        255) /* ContainersCapacity */
      , (41547,  16,         32) /* ItemUseable - Remote */

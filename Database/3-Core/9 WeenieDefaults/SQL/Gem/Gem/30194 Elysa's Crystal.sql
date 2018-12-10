@@ -40,7 +40,7 @@ VALUES (30194,   1,   33554809) /* Setup */
      , (30194,   3,  536870932) /* SoundTable */
      , (30194,   8,  100686697) /* Icon */
      , (30194,  22,  872415275) /* PhysicsEffectTable */
-     , (30194,  28,       3691) /* Spell */
+     , (30194,  28,       3691) /* Spell - BowMasteryRare */
      , (30194,  50,  100686638) /* IconOverlay */
      , (30194,  52,  100686604) /* IconUnderlay */
      , (30194, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

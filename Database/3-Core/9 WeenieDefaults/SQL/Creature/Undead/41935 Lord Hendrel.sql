@@ -12,7 +12,6 @@ VALUES (41935,   1,         16) /* ItemType - Creature */
      , (41935,  25,        270) /* Level */
      , (41935,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41935, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41935, 307,          5) /* DamageRating */
      , (41935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

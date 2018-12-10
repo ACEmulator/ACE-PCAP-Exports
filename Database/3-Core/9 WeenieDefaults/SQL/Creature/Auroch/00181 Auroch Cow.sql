@@ -6,14 +6,10 @@ VALUES (181, 'aurochcow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (181,   1,         16) /* ItemType - Creature */
      , (181,   2,         11) /* CreatureType - Auroch */
-     , (181,   5,       6048) /* EncumbranceVal */
      , (181,   6,        255) /* ItemsCapacity */
      , (181,   7,        255) /* ContainersCapacity */
      , (181,  16,          1) /* ItemUseable - No */
-     , (181,  19,          0) /* Value */
      , (181,  25,         15) /* Level */
-     , (181,  89,          6) /* BoosterEnum - Mana */
-     , (181,  90,        100) /* BoostValue */
      , (181,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (181, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (181, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -27,8 +23,6 @@ VALUES (181,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (181,   1, 'Auroch Cow') /* Name */
-     , (181,  14, 'Use this item to drink it.') /* Use */
-     , (181,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (181, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

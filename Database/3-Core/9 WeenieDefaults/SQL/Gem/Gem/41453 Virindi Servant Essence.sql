@@ -33,8 +33,6 @@ VALUES (41453, 167,      30) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41453,   1, 'Virindi Servant Essence') /* Name */
-     , (41453,   7, ' This was priced on my trade bot for 5 points.Incribing my items like this because one guy (I have a few of his names in my records if anyone needs) keeps buying these out.') /* Inscription */
-     , (41453,   8, 'Oosa') /* ScribeName */
      , (41453,  16, 'This essence is eternal. Use this essence to increase your Arcane Lore by 8.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -42,7 +40,7 @@ VALUES (41453,   1,   33554809) /* Setup */
      , (41453,   3,  536870932) /* SoundTable */
      , (41453,   8,  100690742) /* Icon */
      , (41453,  22,  872415275) /* PhysicsEffectTable */
-     , (41453,  28,       5157) /* Spell */
+     , (41453,  28,       5157) /* Spell - DeceptionArcane1 */
      , (41453, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (41453, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (41453, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

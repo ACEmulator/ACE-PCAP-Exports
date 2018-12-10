@@ -19,18 +19,12 @@ VALUES (11913,   1,          1) /* ItemType - MeleeWeapon */
      , (11913,  51,          1) /* CombatUse - Melee */
      , (11913,  65,          1) /* Placement - RightHandCombat */
      , (11913,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (11913, 105,          6) /* ItemWorkmanship */
      , (11913, 106,        400) /* ItemSpellcraft */
      , (11913, 107,       1000) /* ItemCurMana */
      , (11913, 108,       1000) /* ItemMaxMana */
      , (11913, 109,          1) /* ItemDifficulty */
-     , (11913, 110,          0) /* ItemAllegianceRankLimit */
      , (11913, 115,        200) /* ItemSkillLevelLimit */
-     , (11913, 131,          1) /* MaterialType - Ceramic */
-     , (11913, 172,          5) /* AppraisalLongDescDecoration */
      , (11913, 176,         46) /* AppraisalItemSkill */
-     , (11913, 177,          4) /* GemCount */
-     , (11913, 178,         30) /* GemType */
      , (11913, 353,          5) /* WeaponType - Spear */
      , (11913, 8030,          0);
 
@@ -76,8 +70,7 @@ VALUES (11913,   3, 3691228526) /* Wielder */
      , (11913, 8008, 3691228526) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11913,   731,      2) 
-     , (11913,  1591,      2) 
+VALUES (11913,  1591,      2) 
      , (11913,  1603,      2) 
      , (11913,  1614,      2) 
      , (11913,  1625,      2) ;

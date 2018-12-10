@@ -36,7 +36,7 @@ VALUES (30798,   1,   33554663) /* Setup */
      , (30798,   3,  536870932) /* SoundTable */
      , (30798,   8,  100677488) /* Icon */
      , (30798,  22,  872415275) /* PhysicsEffectTable */
-     , (30798,  28,       3799) /* Spell */
+     , (30798,  28,       3799) /* Spell - BlackMarrowBliss */
      , (30798, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (30798, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30798, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

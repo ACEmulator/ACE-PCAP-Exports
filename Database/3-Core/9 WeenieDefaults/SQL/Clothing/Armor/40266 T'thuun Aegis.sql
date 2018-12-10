@@ -9,41 +9,22 @@ VALUES (40266,   1,          2) /* ItemType - Armor */
      , (40266,   9,    2097152) /* ValidLocations - Shield */
      , (40266,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (40266,  16,          1) /* ItemUseable - No */
-     , (40266,  19,      18051) /* Value */
-     , (40266,  28,        174) /* ArmorLevel */
-     , (40266,  36,       9999) /* ResistMagic */
      , (40266,  51,          4) /* CombatUse - Shield */
      , (40266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40266, 105,          6) /* ItemWorkmanship */
-     , (40266, 131,         63) /* MaterialType - Silver */
-     , (40266, 151,          2) /* HookType - Wall */
-     , (40266, 158,          2) /* WieldRequirements - RawSkill */
-     , (40266, 159,         15) /* WieldSkilltype - MagicDefense */
-     , (40266, 160,        145) /* WieldDifficulty */
-     , (40266, 172,          1) /* AppraisalLongDescDecoration */;
+     , (40266, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40266,   1, False) /* Stuck */
      , (40266,  11, True ) /* IgnoreCollisions */
      , (40266,  13, True ) /* Ethereal */
      , (40266,  14, True ) /* GravityStatus */
-     , (40266,  19, True ) /* Attackable */
-     , (40266, 100, True ) /* Dyable */;
+     , (40266,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40266,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (40266,  14,     1.5) /* ArmorModVsPierce */
-     , (40266,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (40266,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (40266,  17,       1) /* ArmorModVsFire */
-     , (40266,  18, 0.800000011920929) /* ArmorModVsAcid */
-     , (40266,  19,       1) /* ArmorModVsElectric */
-     , (40266,  39, 1.20000004768372) /* DefaultScale */
-     , (40266, 165,       1) /* ArmorModVsNether */;
+VALUES (40266,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40266,   1, 'T''thuun Aegis') /* Name */
-     , (40266,  16, 'Covenant Sollerets') /* LongDesc */;
+VALUES (40266,   1, 'T''thuun Aegis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40266,   1,   33560704) /* Setup */

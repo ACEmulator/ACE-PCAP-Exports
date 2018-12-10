@@ -5,7 +5,6 @@ VALUES (32479, 'ace32479-wardenofloweringstrength', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32479,   1,         16) /* ItemType - Creature */
-     , (32479,   5,          0) /* EncumbranceVal */
      , (32479,   6,        255) /* ItemsCapacity */
      , (32479,   7,        255) /* ContainersCapacity */
      , (32479,  16,         32) /* ItemUseable - Remote */

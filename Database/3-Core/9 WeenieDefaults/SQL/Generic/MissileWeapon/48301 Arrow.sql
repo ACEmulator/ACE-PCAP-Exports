@@ -5,7 +5,6 @@ VALUES (48301, 'ace48301-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48301,   1,        256) /* ItemType - MissileWeapon */
-     , (48301,   2,          6) /* CreatureType - Tumerok */
      , (48301,   5,        770) /* EncumbranceVal */
      , (48301,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48301,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (48301,   1,        256) /* ItemType - MissileWeapon */
      , (48301,  16,          1) /* ItemUseable - No */
      , (48301,  18,         32) /* UiEffects - Fire */
      , (48301,  19,        154) /* Value */
-     , (48301,  25,        115) /* Level */
      , (48301,  33,         -2) /* Bonded - Destroy */
      , (48301,  44,        247) /* Damage */
      , (48301,  45,         16) /* DamageType - Fire */
@@ -58,8 +56,7 @@ VALUES (48301,  21,       0) /* WeaponLength */
      , (48301, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48301,   1, 'Arrow') /* Name */
-     , (48301,  16, 'Killed by Nihoawa''s Swarm.') /* LongDesc */;
+VALUES (48301,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48301,   1,   33555406) /* Setup */
@@ -80,9 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48301,   3, 3695035618) /* Wielder */
      , (48301, 8000, 3695161053) /* PCAPRecordedObjectIID */
      , (48301, 8008, 3695035618) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48301,   1,   400, 0, 0, 400) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48301, 67111921, 0, 0);

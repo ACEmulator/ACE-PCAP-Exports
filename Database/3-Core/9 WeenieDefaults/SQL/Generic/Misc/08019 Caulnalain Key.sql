@@ -25,8 +25,6 @@ VALUES (8019,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8019,   1, 'Caulnalain Key') /* Name */
-     , (8019,   7, 'Mine') /* Inscription */
-     , (8019,   8, 'Cyndra') /* ScribeName */
      , (8019,  14, 'Use this item on the Caulnalain Gate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

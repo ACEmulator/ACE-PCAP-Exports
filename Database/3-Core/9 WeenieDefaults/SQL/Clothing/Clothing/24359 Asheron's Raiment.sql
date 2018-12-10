@@ -43,9 +43,6 @@ VALUES (24359,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24359,   1, 'Asheron''s Raiment') /* Name */
-     , (24359,   7, 'minor coord
-') /* Inscription */
-     , (24359,   8, 'Big Strong Tough Guy') /* ScribeName */
      , (24359,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

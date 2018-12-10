@@ -6,11 +6,9 @@ VALUES (29731, 'watcherqinxikit', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29731,   1,         16) /* ItemType - Creature */
      , (29731,   2,         77) /* CreatureType - Ghost */
-     , (29731,   5,       6285) /* EncumbranceVal */
      , (29731,   6,        255) /* ItemsCapacity */
      , (29731,   7,        255) /* ContainersCapacity */
      , (29731,  16,         32) /* ItemUseable - Remote */
-     , (29731,  19,          0) /* Value */
      , (29731,  25,        155) /* Level */
      , (29731,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29731,  95,          8) /* RadarBlipColor - Yellow */
@@ -34,7 +32,6 @@ VALUES (29731,  54,       3) /* UseRadius */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29731,   1, 'Watcher of the Dead') /* Name */
-     , (29731,  16, 'Killed by Ragarnok.') /* LongDesc */
      , (29731, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

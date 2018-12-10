@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2868,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2868,   1, 'Scroll of Piercing Bane III') /* Name */;
+VALUES (2868,   1, 'Scroll of Piercing Bane III') /* Name */
+     , (2868,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (2868,  16, 'Inscribed spell: Piercing Bane III
+Increases a shield or piece of armor''s resistance to piercing damage by 50%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2868,   1,   33554826) /* Setup */
      , (2868,   8,  100676654) /* Icon */
      , (2868,  22,  872415275) /* PhysicsEffectTable */
-     , (2868,  28,       1571) /* Spell */
+     , (2868,  28,       1571) /* Spell - PiercingBane3 */
      , (2868, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2868, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (2868,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2868,   2, 1880404026) /* Container */
      , (2868, 8000, 2204671386) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (2868,  1571,      2) ;

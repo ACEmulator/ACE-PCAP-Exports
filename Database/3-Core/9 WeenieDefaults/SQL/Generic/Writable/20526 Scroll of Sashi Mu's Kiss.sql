@@ -8,25 +8,8 @@ VALUES (20526,   1,       8192) /* ItemType - Writable */
      , (20526,   5,         30) /* EncumbranceVal */
      , (20526,  16,          8) /* ItemUseable - Contained */
      , (20526,  19,       2000) /* Value */
-     , (20526,  28,        293) /* ArmorLevel */
-     , (20526,  33,          1) /* Bonded - Bonded */
      , (20526,  65,        101) /* Placement - Resting */
-     , (20526,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20526, 105,          6) /* ItemWorkmanship */
-     , (20526, 106,        299) /* ItemSpellcraft */
-     , (20526, 107,       1089) /* ItemCurMana */
-     , (20526, 108,       1089) /* ItemMaxMana */
-     , (20526, 109,        147) /* ItemDifficulty */
-     , (20526, 110,          0) /* ItemAllegianceRankLimit */
-     , (20526, 115,        319) /* ItemSkillLevelLimit */
-     , (20526, 131,         63) /* MaterialType - Silver */
-     , (20526, 158,          7) /* WieldRequirements - Level */
-     , (20526, 159,          1) /* WieldSkilltype - Axe */
-     , (20526, 160,        150) /* WieldDifficulty */
-     , (20526, 172,          5) /* AppraisalLongDescDecoration */
-     , (20526, 176,          6) /* AppraisalItemSkill */
-     , (20526, 177,          3) /* GemCount */
-     , (20526, 178,         26) /* GemType */;
+     , (20526,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20526,   1, False) /* Stuck */
@@ -34,20 +17,10 @@ VALUES (20526,   1, False) /* Stuck */
      , (20526,  13, True ) /* Ethereal */
      , (20526,  14, True ) /* GravityStatus */
      , (20526,  19, True ) /* Attackable */
-     , (20526,  22, True ) /* Inscribable */
-     , (20526, 100, True ) /* Dyable */;
+     , (20526,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20526,   5, -0.0555555555555556) /* ManaRate */
-     , (20526,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (20526,  14,       1) /* ArmorModVsPierce */
-     , (20526,  15,       1) /* ArmorModVsBludgeon */
-     , (20526,  16, 1.2050998210907) /* ArmorModVsCold */
-     , (20526,  17, 0.77674812078476) /* ArmorModVsFire */
-     , (20526,  18, 0.86679470539093) /* ArmorModVsAcid */
-     , (20526,  19, 1.1038875579834) /* ArmorModVsElectric */
-     , (20526,  39,     1.5) /* DefaultScale */
-     , (20526, 165,       1) /* ArmorModVsNether */;
+VALUES (20526,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20526,   1, 'Scroll of Sashi Mu''s Kiss') /* Name */
@@ -59,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20526,   1,   33554826) /* Setup */
      , (20526,   8,  100676446) /* Icon */
      , (20526,  22,  872415275) /* PhysicsEffectTable */
-     , (20526,  28,       2230) /* Spell */
+     , (20526,  28,       2230) /* Spell - FaithlessnessOther7 */
      , (20526, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (20526, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20526, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
@@ -72,9 +45,4 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20526, 8000, 3689628960) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20526,  1092,      2) 
-     , (20526,  2098,      2) 
-     , (20526,  2108,      2) 
-     , (20526,  2230,      2) 
-     , (20526,  2281,      2) 
-     , (20526,  2597,      2) ;
+VALUES (20526,  2230,      2) ;

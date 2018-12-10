@@ -5,14 +5,12 @@ VALUES (47502, 'ace47502-frostmace', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47502,   1,          1) /* ItemType - MeleeWeapon */
-     , (47502,   2,         13) /* CreatureType - Golem */
      , (47502,   5,        800) /* EncumbranceVal */
      , (47502,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47502,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47502,  16,          1) /* ItemUseable - No */
      , (47502,  18,        128) /* UiEffects - Frost */
      , (47502,  19,        350) /* Value */
-     , (47502,  25,        100) /* Level */
      , (47502,  51,          1) /* CombatUse - Melee */
      , (47502,  65,          1) /* Placement - RightHandCombat */
      , (47502,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -48,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47502,   3, 3687871853) /* Wielder */
      , (47502, 8000, 3688309196) /* PCAPRecordedObjectIID */
      , (47502, 8008, 3687871853) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47502,   1,   555, 0, 0, 555) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47502, 67111920, 0, 0);

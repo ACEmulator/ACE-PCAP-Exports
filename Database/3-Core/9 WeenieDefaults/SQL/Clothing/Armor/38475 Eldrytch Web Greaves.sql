@@ -25,11 +25,8 @@ VALUES (38475,   1,          2) /* ItemType - Armor */
      , (38475, 158,          9) /* WieldRequirements - IntStat */
      , (38475, 159,        288) /* WieldSkilltype */
      , (38475, 160,        101) /* WieldDifficulty */
-     , (38475, 171,          9) /* NumTimesTinkered */
      , (38475, 172,          1) /* AppraisalLongDescDecoration */
-     , (38475, 176,          6) /* AppraisalItemSkill */
      , (38475, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38475, 374,          1) /* GearCritDamage */
      , (38475, 375,          1) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,8 +53,7 @@ VALUES (38475,   5, -0.0666666666666667) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38475,   1, 'Eldrytch Web Greaves') /* Name */
-     , (38475,  16, 'Eldrytch Web Greaves of Summoning Mastery') /* LongDesc */
-     , (38475,  39, 'Hellarious') /* TinkerName */;
+     , (38475,  16, 'Eldrytch Web Greaves of Summoning Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38475,   1,   33554641) /* Setup */
@@ -73,19 +69,9 @@ VALUES (38475,   2, 2088321040) /* Container */
      , (38475, 8000, 3428515426) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38475,  1486,      2) 
-     , (38475,  2081,      2) 
-     , (38475,  2087,      2) 
-     , (38475,  2102,      2) 
-     , (38475,  2108,      2) 
-     , (38475,  2110,      2) 
-     , (38475,  2113,      2) 
-     , (38475,  2524,      2) 
+VALUES (38475,  2113,      2) 
      , (38475,  4407,      2) 
      , (38475,  4662,      2) 
-     , (38475,  4686,      2) 
-     , (38475,  6074,      2) 
-     , (38475,  6107,      2) 
      , (38475,  6123,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)

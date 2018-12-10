@@ -39,13 +39,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36552,   5,   -0.05) /* ManaRate */
      , (36552,  29,       1) /* WeaponDefense */
      , (36552, 144,     0.1) /* ManaConversionMod */
-     , (36552, 147,       1) /* CriticalFrequency */
-     , (36552, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (36552, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36552,   1, 'Scepter of the Portal Currents') /* Name */
-     , (36552,   7, '78 red 117 green 42 blue') /* Inscription */
-     , (36552,   8, 'Fenn') /* ScribeName */
      , (36552,  16, 'This scepter constantly hums and sparks with a barely visible blue energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -53,7 +50,7 @@ VALUES (36552,   1,   33560394) /* Setup */
      , (36552,   3,  536870932) /* SoundTable */
      , (36552,   8,  100689645) /* Icon */
      , (36552,  22,  872415275) /* PhysicsEffectTable */
-     , (36552,  28,       4214) /* Spell */
+     , (36552,  28,       4214) /* Spell - CandethKeepRecall */
      , (36552, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (36552, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36552, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

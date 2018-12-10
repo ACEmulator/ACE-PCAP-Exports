@@ -5,7 +5,6 @@ VALUES (29776, 'threebagsmixedlabeledbagnpc', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29776,   1,         16) /* ItemType - Creature */
-     , (29776,   5,          0) /* EncumbranceVal */
      , (29776,   6,        255) /* ItemsCapacity */
      , (29776,   7,        255) /* ContainersCapacity */
      , (29776,  16,         32) /* ItemUseable - Remote */

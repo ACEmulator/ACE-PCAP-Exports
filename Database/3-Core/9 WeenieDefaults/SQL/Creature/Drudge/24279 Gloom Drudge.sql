@@ -6,75 +6,27 @@ VALUES (24279, 'drudgegloom', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24279,   1,         16) /* ItemType - Creature */
      , (24279,   2,          3) /* CreatureType - Drudge */
-     , (24279,   5,         10) /* EncumbranceVal */
      , (24279,   6,        255) /* ItemsCapacity */
      , (24279,   7,        255) /* ContainersCapacity */
      , (24279,  16,          1) /* ItemUseable - No */
-     , (24279,  19,         20) /* Value */
      , (24279,  25,        100) /* Level */
-     , (24279,  28,        250) /* ArmorLevel */
-     , (24279,  33,          1) /* Bonded - Bonded */
-     , (24279,  36,       9999) /* ResistMagic */
-     , (24279,  44,         40) /* Damage */
-     , (24279,  45,          4) /* DamageType - Bludgeon */
-     , (24279,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (24279,  49,         20) /* WeaponTime */
      , (24279,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24279, 105,          8) /* ItemWorkmanship */
-     , (24279, 106,        364) /* ItemSpellcraft */
-     , (24279, 107,       1707) /* ItemCurMana */
-     , (24279, 108,       1707) /* ItemMaxMana */
-     , (24279, 109,        112) /* ItemDifficulty */
-     , (24279, 110,          0) /* ItemAllegianceRankLimit */
-     , (24279, 114,          1) /* Attuned - Attuned */
-     , (24279, 115,        384) /* ItemSkillLevelLimit */
-     , (24279, 131,         53) /* MaterialType - ArmoredilloHide */
      , (24279, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24279, 158,          7) /* WieldRequirements - Level */
-     , (24279, 159,          1) /* WieldSkilltype - Axe */
-     , (24279, 160,        150) /* WieldDifficulty */
-     , (24279, 172,          1) /* AppraisalLongDescDecoration */
-     , (24279, 176,          6) /* AppraisalItemSkill */
-     , (24279, 265,         23) /* EquipmentSetId - Hardened */
      , (24279, 307,          5) /* DamageRating */
-     , (24279, 313,          0) /* CritRating */
-     , (24279, 314,          0) /* CritDamageRating */
-     , (24279, 353,         10) /* WeaponType - Thrown */
-     , (24279, 386,          0) /* Overpower */
-     , (24279, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (24279, 8030,          0);
+     , (24279, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24279,   1, True ) /* Stuck */
      , (24279,  12, True ) /* ReportCollisions */
      , (24279,  13, False) /* Ethereal */
      , (24279,  14, True ) /* GravityStatus */
-     , (24279,  19, True ) /* Attackable */
-     , (24279, 100, True ) /* Dyable */;
+     , (24279,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24279,   5, -0.0666666666666667) /* ManaRate */
-     , (24279,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (24279,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (24279,  15,       1) /* ArmorModVsBludgeon */
-     , (24279,  16, 0.719278812408447) /* ArmorModVsCold */
-     , (24279,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (24279,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (24279,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (24279,  21,       0) /* WeaponLength */
-     , (24279,  22,     0.5) /* DamageVariance */
-     , (24279,  26,      45) /* MaximumVelocity */
-     , (24279,  29,     0.8) /* WeaponDefense */
-     , (24279,  39, 0.949999988079071) /* DefaultScale */
-     , (24279,  62,       1) /* WeaponOffense */
-     , (24279,  63,       1) /* DamageMod */
-     , (24279, 149,       0) /* WeaponMissileDefense */
-     , (24279, 150,       0) /* WeaponMagicDefense */
-     , (24279, 165,       1) /* ArmorModVsNether */;
+VALUES (24279,  39, 0.949999988079071) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24279,   1, 'Gloom Drudge') /* Name */
-     , (24279,  16, 'A small piece of olthoi carapace.') /* LongDesc */
      , (24279, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -107,13 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24279,   1,   413, 0, 0, 413) /* MaxHealth */
      , (24279,   3,   725, 0, 0, 725) /* MaxStamina */
      , (24279,   5,   240, 0, 0, 240) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24279,  2108,      2) 
-     , (24279,  2577,      2) 
-     , (24279,  2593,      2) 
-     , (24279,  4319,      2) 
-     , (24279,  4397,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24279, 67114282, 0, 0);

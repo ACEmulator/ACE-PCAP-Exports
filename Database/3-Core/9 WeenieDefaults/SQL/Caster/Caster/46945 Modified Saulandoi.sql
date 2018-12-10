@@ -15,21 +15,16 @@ VALUES (46945,   1,      32768) /* ItemType - Caster */
      , (46945,  65,          1) /* Placement - RightHandCombat */
      , (46945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46945,  94,         16) /* TargetType - Creature */
-     , (46945, 105,          6) /* ItemWorkmanship */
      , (46945, 106,        450) /* ItemSpellcraft */
      , (46945, 107,        506) /* ItemCurMana */
      , (46945, 108,       1250) /* ItemMaxMana */
      , (46945, 109,        250) /* ItemDifficulty */
      , (46945, 110,          0) /* ItemAllegianceRankLimit */
      , (46945, 114,          0) /* Attuned - Normal */
-     , (46945, 115,          0) /* ItemSkillLevelLimit */
-     , (46945, 117,        300) /* ItemManaCost */
-     , (46945, 131,         40) /* MaterialType - SmokeyQuartz */
      , (46945, 151,          2) /* HookType - Wall */
      , (46945, 158,          8) /* WieldRequirements - Training */
      , (46945, 159,         33) /* WieldSkilltype - LifeMagic */
-     , (46945, 160,          2) /* WieldDifficulty */
-     , (46945, 172,          1) /* AppraisalLongDescDecoration */;
+     , (46945, 160,          2) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46945,   1, False) /* Stuck */
@@ -40,7 +35,6 @@ VALUES (46945,   1, False) /* Stuck */
      , (46945,  22, True ) /* Inscribable */
      , (46945,  69, False) /* IsSellable */
      , (46945,  85, True ) /* AppraisalHasAllowedWielder */
-     , (46945,  91, True ) /* Retained */
      , (46945,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,10 +45,6 @@ VALUES (46945,   5,    -0.2) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46945,   1, 'Modified Saulandoi') /* Name */
-     , (46945,   7, '<Inscribe here>21:29:57 Original Badgirl is ignoring you. (OB can kiss my ass.)  <3
-
-') /* Inscription */
-     , (46945,   8, 'Zurkeyon''s Girl') /* ScribeName */
      , (46945,  16, 'A wand of obsidian and sapphire.') /* LongDesc */
      , (46945,  25, 'Nihoawa') /* CraftsmanName */;
 
@@ -64,7 +54,7 @@ VALUES (46945,   1,   33557968) /* Setup */
      , (46945,   6,   67111919) /* PaletteBase */
      , (46945,   8,  100673495) /* Icon */
      , (46945,  22,  872415275) /* PhysicsEffectTable */
-     , (46945,  28,       2785) /* Spell */
+     , (46945,  28,       2785) /* Spell - LesserStasisField */
      , (46945, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (46945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46945, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
@@ -80,8 +70,7 @@ VALUES (46945,   3, 1343488604) /* Wielder */
      , (46945, 8008, 1343488604) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46945,   216,      2) 
-     , (46945,  2785,      2) 
+VALUES (46945,  2785,      2) 
      , (46945,  4581,      2) 
      , (46945,  4700,      2) ;
 

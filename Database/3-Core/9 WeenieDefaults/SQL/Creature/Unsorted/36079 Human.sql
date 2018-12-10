@@ -5,14 +5,11 @@ VALUES (36079, 'ace36079-human', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36079,   1,         16) /* ItemType - Creature */
-     , (36079,   5,         50) /* EncumbranceVal */
      , (36079,   6,        255) /* ItemsCapacity */
      , (36079,   7,        255) /* ContainersCapacity */
      , (36079,  16,         32) /* ItemUseable - Remote */
-     , (36079,  19,       5000) /* Value */
      , (36079,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (36079,  95,          8) /* RadarBlipColor - Yellow */
-     , (36079, 107,          0) /* ItemCurMana */
      , (36079, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (36079, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -26,13 +23,10 @@ VALUES (36079,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36079,  54,       3) /* UseRadius */
-     , (36079,  76,     0.5) /* Translucency */
-     , (36079,  87,       2) /* ItemEfficiency */
-     , (36079, 137,     0.2) /* ManaStoneDestroyChance */;
+     , (36079,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36079,   1, 'Human') /* Name */
-     , (36079,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (36079, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

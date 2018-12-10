@@ -5,18 +5,15 @@ VALUES (12189, 'jambiyaelectricbanditzharalim', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12189,   1,          1) /* ItemType - MeleeWeapon */
-     , (12189,   2,         38) /* CreatureType - FireElemental */
      , (12189,   5,         30) /* EncumbranceVal */
      , (12189,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12189,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12189,  16,          1) /* ItemUseable - No */
      , (12189,  18,         64) /* UiEffects - Lightning */
      , (12189,  19,         75) /* Value */
-     , (12189,  25,         20) /* Level */
      , (12189,  51,          1) /* CombatUse - Melee */
      , (12189,  65,          1) /* Placement - RightHandCombat */
-     , (12189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12189, 307,          2) /* DamageRating */;
+     , (12189,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12189,   1, False) /* Stuck */
@@ -27,8 +24,7 @@ VALUES (12189,   1, False) /* Stuck */
      , (12189,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12189,   1, 'Assassin''s Lightning Jambiya') /* Name */
-     , (12189,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (12189,   1, 'Assassin''s Lightning Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12189,   1,   33555728) /* Setup */
@@ -48,16 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12189,   3, 3706906886) /* Wielder */
      , (12189, 8000, 3706906889) /* PCAPRecordedObjectIID */
      , (12189, 8008, 3706906886) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (12189,   1,  60, 0, 0) /* Strength */
-     , (12189,   2,  80, 0, 0) /* Endurance */
-     , (12189,   3,  80, 0, 0) /* Quickness */
-     , (12189,   4,  80, 0, 0) /* Coordination */
-     , (12189,   5,  80, 0, 0) /* Focus */
-     , (12189,   6, 100, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12189,   1,    70, 0, 0, 70) /* MaxHealth */
-     , (12189,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (12189,   5,   180, 0, 0, 180) /* MaxMana */;

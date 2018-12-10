@@ -71,13 +71,8 @@ VALUES (38473,   2, 2088321040) /* Container */
      , (38473, 8000, 3432240882) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38473,  2059,      2) 
-     , (38473,  2108,      2) 
-     , (38473,  2113,      2) 
-     , (38473,  2535,      2) 
+VALUES (38473,  2113,      2) 
      , (38473,  4297,      2) 
-     , (38473,  4391,      2) 
-     , (38473,  4393,      2) 
      , (38473,  4407,      2) 
      , (38473,  4678,      2) ;
 

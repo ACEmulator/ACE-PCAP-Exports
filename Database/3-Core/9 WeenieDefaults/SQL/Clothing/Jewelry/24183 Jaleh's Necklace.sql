@@ -31,7 +31,6 @@ VALUES (24183,   1, False) /* Stuck */
      , (24183,  19, True ) /* Attackable */
      , (24183,  22, True ) /* Inscribable */
      , (24183,  69, False) /* IsSellable */
-     , (24183,  85, True ) /* AppraisalHasAllowedWielder */
      , (24183,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -42,8 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24183,   1, 'Jaleh''s Necklace') /* Name */
      , (24183,   7, 'For my son Jaleh, He shall be a leader of men and my love shall guard him from harm wherever he may go.') /* Inscription */
      , (24183,   8, 'Unknown ') /* ScribeName */
-     , (24183,  15, 'An ornate necklace once worn by Jaleh al-Thani. There is an inscription on the necklace.') /* ShortDesc */
-     , (24183,  25, 'Karn Aje') /* CraftsmanName */;
+     , (24183,  15, 'An ornate necklace once worn by Jaleh al-Thani. There is an inscription on the necklace.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24183,   1,   33554687) /* Setup */

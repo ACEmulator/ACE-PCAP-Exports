@@ -25,8 +25,6 @@ VALUES (36914,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36914,   1, 'Pile of Presents') /* Name */
-     , (36914,   7, 'haha, its scribed') /* Inscription */
-     , (36914,   8, 'Ny Yankee') /* ScribeName */
      , (36914,  14, 'This item may be placed on floor and yard hooks.') /* Use */
      , (36914,  16, 'A pile of present boxes. All glued shut to preserve the mystery.') /* LongDesc */;
 

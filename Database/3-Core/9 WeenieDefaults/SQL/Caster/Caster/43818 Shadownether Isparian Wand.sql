@@ -42,8 +42,6 @@ VALUES (43818,  29, 1.28999996185303) /* WeaponDefense */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43818,   1, 'Shadownether Isparian Wand') /* Name */
-     , (43818,   7, 'Pre - August 2012 Version') /* Inscription */
-     , (43818,   8, 'Gwendolyn du Avalon') /* ScribeName */
      , (43818,  16, 'A Perfect Isparian Wand, infused with the power of the Shadownether Stone.') /* LongDesc */
      , (43818,  25, 'Immortalbob') /* CraftsmanName */;
 

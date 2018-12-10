@@ -55,8 +55,6 @@ VALUES (25633,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25633,   1, 'Flaming Weeping Sword') /* Name */
-     , (25633,   7, '--') /* Inscription */
-     , (25633,   8, 'Azrakin') /* ScribeName */
      , (25633,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
      , (25633,  25, 'Olthoi King') /* CraftsmanName */;
 

@@ -5,11 +5,9 @@ VALUES (7470, 'sidestreamyellowmedium', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7470,   1,        128) /* ItemType - Misc */
-     , (7470,   2,          2) /* CreatureType - Banderling */
      , (7470,   5,          1) /* EncumbranceVal */
      , (7470,  16,          1) /* ItemUseable - No */
      , (7470,  19,          1) /* Value */
-     , (7470,  25,        135) /* Level */
      , (7470,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,6 +40,3 @@ VALUES (7470, 8040, 3119317044, 166.4165, 77.05265, 36.09413, -0.999679, 0, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7470, 8000, 3690359215) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7470,   1,   610, 0, 0, 610) /* MaxHealth */;

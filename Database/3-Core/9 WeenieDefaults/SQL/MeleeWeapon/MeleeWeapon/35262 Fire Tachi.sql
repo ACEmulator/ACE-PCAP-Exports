@@ -11,23 +11,9 @@ VALUES (35262,   1,          1) /* ItemType - MeleeWeapon */
      , (35262,  16,          1) /* ItemUseable - No */
      , (35262,  18,         32) /* UiEffects - Fire */
      , (35262,  19,       1150) /* Value */
-     , (35262,  33,          0) /* Bonded - Normal */
      , (35262,  51,          1) /* CombatUse - Melee */
      , (35262,  65,          1) /* Placement - RightHandCombat */
-     , (35262,  91,         50) /* MaxStructure */
-     , (35262,  92,         50) /* Structure */
-     , (35262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35262, 105,          7) /* ItemWorkmanship */
-     , (35262, 107,          0) /* ItemCurMana */
-     , (35262, 114,          0) /* Attuned - Normal */
-     , (35262, 280,        213) /* SharedCooldown */
-     , (35262, 366,         54) /* UseRequiresSkill */
-     , (35262, 367,        400) /* UseRequiresSkillLevel */
-     , (35262, 369,         90) /* UseRequiresLevel */
-     , (35262, 370,          4) /* GearDamage */
-     , (35262, 373,         13) /* GearCritResist */
-     , (35262, 374,         13) /* GearCritDamage */
-     , (35262, 375,         12) /* GearCritDamageResist */;
+     , (35262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35262,   1, False) /* Stuck */
@@ -35,17 +21,10 @@ VALUES (35262,   1, False) /* Stuck */
      , (35262,  13, True ) /* Ethereal */
      , (35262,  14, True ) /* GravityStatus */
      , (35262,  19, True ) /* Attackable */
-     , (35262,  22, True ) /* Inscribable */
-     , (35262,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35262,  87,     1.2) /* ItemEfficiency */
-     , (35262, 137,    0.15) /* ManaStoneDestroyChance */
-     , (35262, 167,      45) /* CooldownDuration */;
+     , (35262,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35262,   1, 'Fire Tachi') /* Name */
-     , (35262,  14, 'Use this essence to summon or dismiss your Lightning Phyntos Wasp.') /* Use */;
+VALUES (35262,   1, 'Fire Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35262,   1,   33555732) /* Setup */

@@ -8,14 +8,8 @@ VALUES (3132,   1,       8192) /* ItemType - Writable */
      , (3132,   5,         30) /* EncumbranceVal */
      , (3132,  16,          8) /* ItemUseable - Contained */
      , (3132,  19,       1000) /* Value */
-     , (3132,  28,        214) /* ArmorLevel */
      , (3132,  65,        101) /* Placement - Resting */
-     , (3132,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3132, 105,          5) /* ItemWorkmanship */
-     , (3132, 131,         58) /* MaterialType - Bronze */
-     , (3132, 172,          5) /* AppraisalLongDescDecoration */
-     , (3132, 177,          2) /* GemCount */
-     , (3132, 178,         19) /* GemType */;
+     , (3132,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3132,   1, False) /* Stuck */
@@ -23,19 +17,10 @@ VALUES (3132,   1, False) /* Stuck */
      , (3132,  13, True ) /* Ethereal */
      , (3132,  14, True ) /* GravityStatus */
      , (3132,  19, True ) /* Attackable */
-     , (3132,  22, True ) /* Inscribable */
-     , (3132, 100, True ) /* Dyable */;
+     , (3132,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3132,  13,       1) /* ArmorModVsSlash */
-     , (3132,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (3132,  15,       1) /* ArmorModVsBludgeon */
-     , (3132,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (3132,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (3132,  18, 1.17407548427582) /* ArmorModVsAcid */
-     , (3132,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (3132,  39,     1.5) /* DefaultScale */
-     , (3132, 165,       1) /* ArmorModVsNether */;
+VALUES (3132,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3132,   1, 'Scroll of Arcane Benightedness VI') /* Name */
@@ -47,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3132,   1,   33554826) /* Setup */
      , (3132,   8,  100676447) /* Icon */
      , (3132,  22,  872415275) /* PhysicsEffectTable */
-     , (3132,  28,        701) /* Spell */
+     , (3132,  28,        701) /* Spell - ArcaneBenightednessOther6 */
      , (3132, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3132, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3132, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

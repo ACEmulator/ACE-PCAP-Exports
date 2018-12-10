@@ -11,12 +11,7 @@ VALUES (2462,   1,         32) /* ItemType - Food */
      , (2462,  16,          8) /* ItemUseable - Contained */
      , (2462,  19,         30) /* Value */
      , (2462,  65,        101) /* Placement - Resting */
-     , (2462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2462, 105,          5) /* ItemWorkmanship */
-     , (2462, 131,         31) /* MaterialType - Moonstone */
-     , (2462, 172,          5) /* AppraisalLongDescDecoration */
-     , (2462, 177,          3) /* GemCount */
-     , (2462, 178,         23) /* GemType */;
+     , (2462,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2462,   1, False) /* Stuck */
@@ -25,13 +20,8 @@ VALUES (2462,   1, False) /* Stuck */
      , (2462,  14, True ) /* GravityStatus */
      , (2462,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2462,  29,    1.09) /* WeaponDefense */
-     , (2462, 144,    0.05) /* ManaConversionMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2462,   1, 'Mead') /* Name */
-     , (2462,  16, 'Sceptre') /* LongDesc */
      , (2462,  20, 'Mugs of Mead') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

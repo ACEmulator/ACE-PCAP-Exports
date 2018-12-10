@@ -6,56 +6,23 @@ VALUES (1628, 'tuskerslave', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1628,   1,         16) /* ItemType - Creature */
      , (1628,   2,          8) /* CreatureType - Tusker */
-     , (1628,   5,       6158) /* EncumbranceVal */
      , (1628,   6,        255) /* ItemsCapacity */
      , (1628,   7,        255) /* ContainersCapacity */
      , (1628,  16,          1) /* ItemUseable - No */
-     , (1628,  19,          0) /* Value */
      , (1628,  25,         80) /* Level */
-     , (1628,  28,        428) /* ArmorLevel */
-     , (1628,  36,       9999) /* ResistMagic */
      , (1628,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1628, 105,          7) /* ItemWorkmanship */
-     , (1628, 106,        204) /* ItemSpellcraft */
-     , (1628, 107,       1281) /* ItemCurMana */
-     , (1628, 108,       1281) /* ItemMaxMana */
-     , (1628, 109,        204) /* ItemDifficulty */
-     , (1628, 110,          0) /* ItemAllegianceRankLimit */
-     , (1628, 115,          0) /* ItemSkillLevelLimit */
-     , (1628, 131,         41) /* MaterialType - Sunstone */
      , (1628, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1628, 158,          2) /* WieldRequirements - RawSkill */
-     , (1628, 159,          6) /* WieldSkilltype - MeleeDefense */
-     , (1628, 160,        350) /* WieldDifficulty */
-     , (1628, 172,          1) /* AppraisalLongDescDecoration */
-     , (1628, 177,          1) /* GemCount */
-     , (1628, 178,         17) /* GemType */
      , (1628, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1628,   1, True ) /* Stuck */
-     , (1628,   2, False) /* Open */
      , (1628,  12, True ) /* ReportCollisions */
      , (1628,  13, False) /* Ethereal */
      , (1628,  14, True ) /* GravityStatus */
-     , (1628,  19, True ) /* Attackable */
-     , (1628, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1628,   5,   -0.05) /* ManaRate */
-     , (1628,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (1628,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (1628,  15,     1.5) /* ArmorModVsBludgeon */
-     , (1628,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (1628,  17,       1) /* ArmorModVsFire */
-     , (1628,  18,       1) /* ArmorModVsAcid */
-     , (1628,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (1628, 165,       1) /* ArmorModVsNether */;
+     , (1628,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1628,   1, 'Tusker Slave') /* Name */
-     , (1628,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (1628,  16, 'Killed by Brooker.') /* LongDesc */
      , (1628, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -88,10 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1628,   1,   400, 0, 0, 400) /* MaxHealth */
      , (1628,   3,   600, 0, 0, 599) /* MaxStamina */
      , (1628,   5,    60, 0, 0, 60) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1628,  1034,      2) 
-     , (1628,  2294,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1628, 67113012, 0, 0);

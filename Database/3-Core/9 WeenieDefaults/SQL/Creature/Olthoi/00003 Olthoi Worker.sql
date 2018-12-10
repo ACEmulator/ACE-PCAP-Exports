@@ -6,26 +6,12 @@ VALUES (3, 'olthoiworker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3,   1,         16) /* ItemType - Creature */
      , (3,   2,          1) /* CreatureType - Olthoi */
-     , (3,   5,         50) /* EncumbranceVal */
      , (3,   6,        255) /* ItemsCapacity */
      , (3,   7,        255) /* ContainersCapacity */
      , (3,  16,          1) /* ItemUseable - No */
-     , (3,  19,       7500) /* Value */
      , (3,  25,         50) /* Level */
-     , (3,  33,          0) /* Bonded - Normal */
-     , (3,  91,         50) /* MaxStructure */
-     , (3,  92,         50) /* Structure */
      , (3,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (3, 105,          6) /* ItemWorkmanship */
-     , (3, 107,          0) /* ItemCurMana */
-     , (3, 114,          0) /* Attuned - Normal */
      , (3, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (3, 280,        213) /* SharedCooldown */
-     , (3, 366,         54) /* UseRequiresSkill */
-     , (3, 367,        310) /* UseRequiresSkillLevel */
-     , (3, 369,         40) /* UseRequiresLevel */
-     , (3, 373,          8) /* GearCritResist */
-     , (3, 375,         10) /* GearCritDamageResist */
      , (3, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,17 +19,10 @@ VALUES (3,   1, True ) /* Stuck */
      , (3,  12, True ) /* ReportCollisions */
      , (3,  13, False) /* Ethereal */
      , (3,  14, True ) /* GravityStatus */
-     , (3,  19, True ) /* Attackable */
-     , (3,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3,  87,       3) /* ItemEfficiency */
-     , (3, 137,    0.25) /* ManaStoneDestroyChance */
-     , (3, 167,      45) /* CooldownDuration */;
+     , (3,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3,   1, 'Olthoi Worker') /* Name */
-     , (3,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (3, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

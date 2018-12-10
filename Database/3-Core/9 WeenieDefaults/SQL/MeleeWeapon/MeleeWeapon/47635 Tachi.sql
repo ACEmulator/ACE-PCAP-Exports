@@ -10,30 +10,10 @@ VALUES (47635,   1,          1) /* ItemType - MeleeWeapon */
      , (47635,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47635,  16,          1) /* ItemUseable - No */
      , (47635,  19,        460) /* Value */
-     , (47635,  44,          0) /* Damage */
-     , (47635,  45,         16) /* DamageType - Fire */
-     , (47635,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (47635,  49,         39) /* WeaponTime */
      , (47635,  51,          1) /* CombatUse - Melee */
      , (47635,  65,          1) /* Placement - RightHandCombat */
      , (47635,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47635, 105,          8) /* ItemWorkmanship */
-     , (47635, 106,        322) /* ItemSpellcraft */
-     , (47635, 107,       1867) /* ItemCurMana */
-     , (47635, 108,       1867) /* ItemMaxMana */
-     , (47635, 109,        186) /* ItemDifficulty */
-     , (47635, 110,          0) /* ItemAllegianceRankLimit */
-     , (47635, 115,        342) /* ItemSkillLevelLimit */
-     , (47635, 131,         39) /* MaterialType - Sapphire */
-     , (47635, 151,          2) /* HookType - Wall */
-     , (47635, 158,          2) /* WieldRequirements - RawSkill */
-     , (47635, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (47635, 160,        385) /* WieldDifficulty */
-     , (47635, 172,          1) /* AppraisalLongDescDecoration */
-     , (47635, 176,         47) /* AppraisalItemSkill */
-     , (47635, 204,         20) /* ElementalDamageBonus */
-     , (47635, 353,          8) /* WeaponType - Bow */
-     , (47635, 8030,          0);
+     , (47635, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47635,   1, False) /* Stuck */
@@ -43,18 +23,8 @@ VALUES (47635,   1, False) /* Stuck */
      , (47635,  19, True ) /* Attackable */
      , (47635,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47635,   5, -0.0555555555555556) /* ManaRate */
-     , (47635,  21,       0) /* WeaponLength */
-     , (47635,  22,       0) /* DamageVariance */
-     , (47635,  26,    27.3) /* MaximumVelocity */
-     , (47635,  29,    1.16) /* WeaponDefense */
-     , (47635,  62,       1) /* WeaponOffense */
-     , (47635,  63,    2.37) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47635,   1, 'Tachi') /* Name */
-     , (47635,  16, 'Fire Compound Bow of Blood Drinker') /* LongDesc */;
+VALUES (47635,   1, 'Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47635,   1,   33554742) /* Setup */
@@ -75,10 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47635,   3, 3685405996) /* Wielder */
      , (47635, 8000, 3685195176) /* PCAPRecordedObjectIID */
      , (47635, 8008, 3685405996) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47635,  2096,      2) 
-     , (47635,  3965,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47635, 67111920, 0, 0);

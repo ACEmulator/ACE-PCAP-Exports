@@ -5,9 +5,7 @@ VALUES (43563, 'ace43563-olthoitunnel', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43563,   1,      65536) /* ItemType - Portal */
-     , (43563,   5,       6015) /* EncumbranceVal */
      , (43563,  16,         32) /* ItemUseable - Remote */
-     , (43563,  19,          0) /* Value */
      , (43563,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (43563, 111,        829) /* PortalBitmask - Unrestricted, NoPKLite, NoNPK, NoSummon, NoRecall, NoVitae, NoNewAccounts */
      , (43563, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -26,7 +24,6 @@ VALUES (43563,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43563,   1, 'Olthoi Tunnel') /* Name */
-     , (43563,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (43563,  38, 'Olthoi Tunnel (67.4N, 80.3E).') /* AppraisalPortalDestination */
      , (43563, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

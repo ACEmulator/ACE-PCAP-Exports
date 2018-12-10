@@ -5,27 +5,12 @@ VALUES (42016, 'ace42016-fieryremains', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42016,   1,         16) /* ItemType - Creature */
-     , (42016,   5,        768) /* EncumbranceVal */
      , (42016,   6,        255) /* ItemsCapacity */
      , (42016,   7,        255) /* ContainersCapacity */
      , (42016,  16,         32) /* ItemUseable - Remote */
-     , (42016,  19,      25195) /* Value */
-     , (42016,  28,        255) /* ArmorLevel */
      , (42016,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42016,  95,          8) /* RadarBlipColor - Yellow */
-     , (42016, 105,          7) /* ItemWorkmanship */
-     , (42016, 106,        370) /* ItemSpellcraft */
-     , (42016, 107,       1601) /* ItemCurMana */
-     , (42016, 108,       1601) /* ItemMaxMana */
-     , (42016, 109,        313) /* ItemDifficulty */
-     , (42016, 110,          0) /* ItemAllegianceRankLimit */
-     , (42016, 115,          0) /* ItemSkillLevelLimit */
-     , (42016, 131,         61) /* MaterialType - Iron */
      , (42016, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (42016, 158,          7) /* WieldRequirements - Level */
-     , (42016, 159,          1) /* WieldSkilltype - Axe */
-     , (42016, 160,        150) /* WieldDifficulty */
-     , (42016, 172,          1) /* AppraisalLongDescDecoration */
      , (42016, 307,          0) /* DamageRating */
      , (42016, 308,          0) /* DamageResistRating */
      , (42016, 313,          0) /* CritRating */
@@ -58,25 +43,14 @@ VALUES (42016,   1, True ) /* Stuck */
      , (42016,  13, True ) /* Ethereal */
      , (42016,  14, True ) /* GravityStatus */
      , (42016,  19, False) /* Attackable */
-     , (42016,  42, True ) /* AllowEdgeSlide */
-     , (42016, 100, True ) /* Dyable */;
+     , (42016,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42016,   5, -0.0666666666666667) /* ManaRate */
-     , (42016,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (42016,  14,       1) /* ArmorModVsPierce */
-     , (42016,  15,       1) /* ArmorModVsBludgeon */
-     , (42016,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (42016,  17, 0.856192588806152) /* ArmorModVsFire */
-     , (42016,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (42016,  19, 0.843066334724426) /* ArmorModVsElectric */
-     , (42016,  39, 1.20000004768372) /* DefaultScale */
-     , (42016,  54,       3) /* UseRadius */
-     , (42016, 165,       1) /* ArmorModVsNether */;
+VALUES (42016,  39, 1.20000004768372) /* DefaultScale */
+     , (42016,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42016,   1, 'Fiery Remains') /* Name */
-     , (42016,  16, 'Nariyid Girth of Magic Resistance') /* LongDesc */
      , (42016, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -95,9 +69,3 @@ VALUES (42016, 8040, 2349008868, 207.8534, -210.5634, 24.006, 1, 0, 0, 0) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42016, 8000, 2629423661) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42016,  1552,      2) 
-     , (42016,  2281,      2) 
-     , (42016,  4407,      2) 
-     , (42016,  4689,      2) ;

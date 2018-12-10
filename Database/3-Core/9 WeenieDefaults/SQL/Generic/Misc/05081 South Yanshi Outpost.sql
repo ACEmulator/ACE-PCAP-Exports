@@ -19,8 +19,7 @@ VALUES (5081,   1, True ) /* Stuck */
      , (5081,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5081,   1, 'South Yanshi Outpost') /* Name */
-     , (5081,  16, 'South Yanshi Outpost.') /* LongDesc */;
+VALUES (5081,   1, 'South Yanshi Outpost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5081,   1,   33555088) /* Setup */

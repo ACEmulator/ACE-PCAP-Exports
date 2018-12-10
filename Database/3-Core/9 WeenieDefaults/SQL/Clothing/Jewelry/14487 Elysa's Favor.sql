@@ -35,8 +35,6 @@ VALUES (14487,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14487,   1, 'Elysa''s Favor') /* Name */
-     , (14487,   7, ' located at 88.8N, 72.6W armor') /* Inscription */
-     , (14487,   8, 'Og striger') /* ScribeName */
      , (14487,  14, 'You must be over Level 20 to use this ring.') /* Use */
      , (14487,  15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* ShortDesc */;
 

@@ -9,22 +9,11 @@ VALUES (43130,   1,          2) /* ItemType - Armor */
      , (43130,   9,    2097152) /* ValidLocations - Shield */
      , (43130,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (43130,  16,          1) /* ItemUseable - No */
-     , (43130,  19,       2837) /* Value */
      , (43130,  33,         -2) /* Bonded - Destroy */
      , (43130,  51,          4) /* CombatUse - Shield */
      , (43130,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43130, 105,          8) /* ItemWorkmanship */
-     , (43130, 106,        370) /* ItemSpellcraft */
-     , (43130, 107,        712) /* ItemCurMana */
-     , (43130, 108,        712) /* ItemMaxMana */
-     , (43130, 109,          0) /* ItemDifficulty */
-     , (43130, 110,          0) /* ItemAllegianceRankLimit */
      , (43130, 114,          1) /* Attuned - Attuned */
-     , (43130, 115,          0) /* ItemSkillLevelLimit */
-     , (43130, 117,        400) /* ItemManaCost */
-     , (43130, 131,         26) /* MaterialType - ImperialTopaz */
-     , (43130, 151,          2) /* HookType - Wall */
-     , (43130, 172,          1) /* AppraisalLongDescDecoration */;
+     , (43130, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43130,   1, False) /* Stuck */
@@ -40,8 +29,7 @@ VALUES (43130,  39, 1.20000004768372) /* DefaultScale */
      , (43130, 159,       1) /* AbsorbMagicDamage */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43130,   1, 'Iron Blade Aegis') /* Name */
-     , (43130,  16, 'Gem of Protection') /* LongDesc */;
+VALUES (43130,   1, 'Iron Blade Aegis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43130,   1,   33561094) /* Setup */
@@ -61,6 +49,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43130,   3, 3706478962) /* Wielder */
      , (43130, 8000, 3706483244) /* PCAPRecordedObjectIID */
      , (43130, 8008, 3706478962) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43130,  4291,      2) ;

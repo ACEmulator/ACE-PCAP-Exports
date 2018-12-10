@@ -5,11 +5,9 @@ VALUES (7473, 'firespurt11', 13) /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7473,   1,        128) /* ItemType - Misc */
-     , (7473,   2,         78) /* CreatureType - Fiun */
      , (7473,   5,          1) /* EncumbranceVal */
      , (7473,  16,          1) /* ItemUseable - No */
      , (7473,  19,          1) /* Value */
-     , (7473,  25,        115) /* Level */
      , (7473,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -20,8 +18,7 @@ VALUES (7473,   1, True ) /* Stuck */
      , (7473,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7473,   1, '11-sec Firespurt') /* Name */
-     , (7473,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (7473,   1, '11-sec Firespurt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7473,   1,   33556137) /* Setup */
@@ -37,6 +34,3 @@ VALUES (7473, 8040, 3119317044, 151.7327, 87.58933, 39.09378, -0.999679, 0, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7473, 8000, 3690359206) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7473,   1,   460, 0, 0, 460) /* MaxHealth */;

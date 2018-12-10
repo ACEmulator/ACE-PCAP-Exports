@@ -6,11 +6,9 @@ VALUES (39474, 'ace39474-narthrantwoblades', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39474,   1,         16) /* ItemType - Creature */
      , (39474,   2,         31) /* CreatureType - Human */
-     , (39474,   5,       7689) /* EncumbranceVal */
      , (39474,   6,        255) /* ItemsCapacity */
      , (39474,   7,        255) /* ContainersCapacity */
      , (39474,  16,         32) /* ItemUseable - Remote */
-     , (39474,  19,          0) /* Value */
      , (39474,  25,        180) /* Level */
      , (39474,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (39474,  95,          8) /* RadarBlipColor - Yellow */
@@ -38,7 +36,6 @@ VALUES (39474,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39474,   1, 'Narthran Two-Blades') /* Name */
      , (39474,   5, 'Society Collector') /* Template */
-     , (39474,  16, 'Killed by Hydroptic.') /* LongDesc */
      , (39474, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

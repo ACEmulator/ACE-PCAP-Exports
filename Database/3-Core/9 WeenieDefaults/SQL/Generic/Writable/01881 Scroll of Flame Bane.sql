@@ -9,8 +9,7 @@ VALUES (1881,   1,       8192) /* ItemType - Writable */
      , (1881,  16,          8) /* ItemUseable - Contained */
      , (1881,  19,          1) /* Value */
      , (1881,  65,        101) /* Placement - Resting */
-     , (1881,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1881, 107,          0) /* ItemCurMana */;
+     , (1881,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1881,   1, False) /* Stuck */
@@ -21,9 +20,7 @@ VALUES (1881,   1, False) /* Stuck */
      , (1881,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1881,  39,     1.5) /* DefaultScale */
-     , (1881,  87,     1.2) /* ItemEfficiency */
-     , (1881, 137,    0.15) /* ManaStoneDestroyChance */;
+VALUES (1881,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1881,   1, 'Scroll of Flame Bane') /* Name */
@@ -35,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1881,   1,   33554826) /* Setup */
      , (1881,   8,  100676651) /* Icon */
      , (1881,  22,  872415275) /* PhysicsEffectTable */
-     , (1881,  28,       1547) /* Spell */
+     , (1881,  28,       1547) /* Spell - FlameBane1 */
      , (1881, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1881, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1881, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

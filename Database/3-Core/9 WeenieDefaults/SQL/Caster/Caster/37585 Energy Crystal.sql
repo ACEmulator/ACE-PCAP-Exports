@@ -25,14 +25,7 @@ VALUES (37585,   1,      32768) /* ItemType - Caster */
      , (37585, 159,          1) /* WieldSkilltype - Axe */
      , (37585, 160,        160) /* WieldDifficulty */
      , (37585, 166,         77) /* SlayerCreatureType - Ghost */
-     , (37585, 263,          2) /* ResistanceModifierType */
-     , (37585, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
-     , (37585, 319,          5) /* ItemMaxLevel */
-     , (37585, 320,          1) /* ItemXpStyle - Fixed */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (37585,   4, 10000000000) /* ItemTotalXp */
-     , (37585,   5, 2000000000) /* ItemBaseXp */;
+     , (37585, 263,          2) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37585,   1, False) /* Stuck */
@@ -44,7 +37,6 @@ VALUES (37585,   1, False) /* Stuck */
      , (37585,  22, True ) /* Inscribable */
      , (37585,  69, False) /* IsSellable */
      , (37585,  85, True ) /* AppraisalHasAllowedWielder */
-     , (37585,  91, True ) /* Retained */
      , (37585,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -59,8 +51,6 @@ VALUES (37585,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37585,   1, 'Energy Crystal') /* Name */
-     , (37585,   7, 'Ye though I walk through the Vally of Death, I fear no evil, because I carry a big ass stick') /* Inscription */
-     , (37585,   8, 'Dragon Of Sin') /* ScribeName */
      , (37585,  16, 'A ghostly blue casting staff, bound to your soul.') /* LongDesc */
      , (37585,  25, 'Trunk Slamchest') /* CraftsmanName */;
 
@@ -70,7 +60,7 @@ VALUES (37585,   1,   33557374) /* Setup */
      , (37585,   6,   67111919) /* PaletteBase */
      , (37585,   8,  100672184) /* Icon */
      , (37585,  22,  872415275) /* PhysicsEffectTable */
-     , (37585,  28,       2132) /* Spell */
+     , (37585,  28,       2132) /* Spell - ForceBolt7 */
      , (37585,  52,  100689896) /* IconUnderlay */
      , (37585, 8001,  275480720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (37585, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

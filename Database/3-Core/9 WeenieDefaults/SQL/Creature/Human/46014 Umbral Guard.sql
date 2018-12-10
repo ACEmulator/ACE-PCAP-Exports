@@ -6,38 +6,17 @@ VALUES (46014, 'ace46014-umbralguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46014,   1,         16) /* ItemType - Creature */
      , (46014,   2,         31) /* CreatureType - Human */
-     , (46014,   5,         50) /* EncumbranceVal */
      , (46014,   6,        255) /* ItemsCapacity */
      , (46014,   7,        255) /* ContainersCapacity */
      , (46014,  16,         32) /* ItemUseable - Remote */
-     , (46014,  19,       3000) /* Value */
      , (46014,  25,        275) /* Level */
-     , (46014,  28,          0) /* ArmorLevel */
-     , (46014,  91,         50) /* MaxStructure */
-     , (46014,  92,         50) /* Structure */
      , (46014,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (46014,  95,          8) /* RadarBlipColor - Yellow */
-     , (46014, 105,          8) /* ItemWorkmanship */
-     , (46014, 106,        370) /* ItemSpellcraft */
-     , (46014, 107,       1423) /* ItemCurMana */
-     , (46014, 108,       1423) /* ItemMaxMana */
-     , (46014, 109,        291) /* ItemDifficulty */
-     , (46014, 110,          0) /* ItemAllegianceRankLimit */
      , (46014, 113,          2) /* Gender - Female */
-     , (46014, 115,          0) /* ItemSkillLevelLimit */
-     , (46014, 131,          7) /* MaterialType - Velvet */
      , (46014, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (46014, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (46014, 158,          7) /* WieldRequirements - Level */
-     , (46014, 159,          1) /* WieldSkilltype - Axe */
-     , (46014, 160,        180) /* WieldDifficulty */
-     , (46014, 172,          5) /* AppraisalLongDescDecoration */
-     , (46014, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (46014, 177,          1) /* GemCount */
-     , (46014, 178,         21) /* GemType */
      , (46014, 188,          5) /* HeritageGroup - Shadowbound */
      , (46014, 307,          5) /* DamageRating */
-     , (46014, 370,          1) /* GearDamage */
      , (46014, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,26 +27,14 @@ VALUES (46014,   1, True ) /* Stuck */
      , (46014,  14, True ) /* GravityStatus */
      , (46014,  19, False) /* Attackable */
      , (46014,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (46014,  42, True ) /* AllowEdgeSlide */
-     , (46014, 100, True ) /* Dyable */;
+     , (46014,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46014,   5, -0.0666666666666667) /* ManaRate */
-     , (46014,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (46014,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (46014,  15,       1) /* ArmorModVsBludgeon */
-     , (46014,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (46014,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (46014,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (46014,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (46014,  54,       3) /* UseRadius */
-     , (46014, 165,       1) /* ArmorModVsNether */;
+VALUES (46014,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46014,   1, 'Umbral Guard') /* Name */
      , (46014,   5, 'Shadow Flyer Hunter') /* Template */
-     , (46014,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (46014,  16, 'Baggy Shirt of Cold Protection') /* LongDesc */
      , (46014, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -105,10 +72,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46014,   1,   326, 0, 0, 326) /* MaxHealth */
      , (46014,   3,   456, 0, 0, 456) /* MaxStamina */
      , (46014,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46014,  2592,      2) 
-     , (46014,  4466,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46014, 67109964, 92, 4)

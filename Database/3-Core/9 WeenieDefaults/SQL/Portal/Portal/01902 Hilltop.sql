@@ -5,9 +5,7 @@ VALUES (1902, 'portalhilltop', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1902,   1,      65536) /* ItemType - Portal */
-     , (1902,   5,       6255) /* EncumbranceVal */
      , (1902,  16,         32) /* ItemUseable - Remote */
-     , (1902,  19,          0) /* Value */
      , (1902,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (1902, 111,          1) /* PortalBitmask - Unrestricted */
      , (1902, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -26,7 +24,6 @@ VALUES (1902,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1902,   1, 'Hilltop') /* Name */
-     , (1902,  16, 'Killed by Makor.') /* LongDesc */
      , (1902,  38, 'Hilltop (32.8N, 34.7E).') /* AppraisalPortalDestination */
      , (1902, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

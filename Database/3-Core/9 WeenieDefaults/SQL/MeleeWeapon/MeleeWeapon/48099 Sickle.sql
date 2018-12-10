@@ -5,31 +5,18 @@ VALUES (48099, 'ace48099-sickle', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48099,   1,          1) /* ItemType - MeleeWeapon */
-     , (48099,   2,         14) /* CreatureType - Undead */
      , (48099,   5,        450) /* EncumbranceVal */
      , (48099,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (48099,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48099,  16,          1) /* ItemUseable - No */
      , (48099,  19,         60) /* Value */
-     , (48099,  25,         20) /* Level */
      , (48099,  51,          1) /* CombatUse - Melee */
      , (48099,  65,          1) /* Placement - RightHandCombat */
      , (48099,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48099, 105,          9) /* ItemWorkmanship */
-     , (48099, 106,        300) /* ItemSpellcraft */
-     , (48099, 107,        662) /* ItemCurMana */
-     , (48099, 108,        662) /* ItemMaxMana */
-     , (48099, 109,          0) /* ItemDifficulty */
-     , (48099, 110,          0) /* ItemAllegianceRankLimit */
-     , (48099, 115,          0) /* ItemSkillLevelLimit */
-     , (48099, 117,        350) /* ItemManaCost */
-     , (48099, 131,         39) /* MaterialType - Sapphire */
-     , (48099, 151,          2) /* HookType - Wall */
-     , (48099, 172,          1) /* AppraisalLongDescDecoration */;
+     , (48099, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48099,   1, False) /* Stuck */
-     , (48099,   2, True ) /* Open */
      , (48099,  11, True ) /* IgnoreCollisions */
      , (48099,  13, True ) /* Ethereal */
      , (48099,  14, True ) /* GravityStatus */
@@ -37,9 +24,7 @@ VALUES (48099,   1, False) /* Stuck */
      , (48099,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48099,   1, 'Sickle') /* Name */
-     , (48099,  14, 'Use this item to close it.') /* Use */
-     , (48099,  16, 'Killed by Mag-three.') /* LongDesc */;
+VALUES (48099,   1, 'Sickle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48099,   1,   33558593) /* Setup */
@@ -59,19 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48099,   3, 2447758172) /* Wielder */
      , (48099, 8000, 2447758081) /* PCAPRecordedObjectIID */
      , (48099, 8008, 2447758172) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48099,   1,  50, 0, 0) /* Strength */
-     , (48099,   2,  60, 0, 0) /* Endurance */
-     , (48099,   3,  30, 0, 0) /* Quickness */
-     , (48099,   4,  80, 0, 0) /* Coordination */
-     , (48099,   5, 125, 0, 0) /* Focus */
-     , (48099,   6, 115, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48099,   1,    90, 0, 0, 90) /* MaxHealth */
-     , (48099,   3,   130, 0, 0, 129) /* MaxStamina */
-     , (48099,   5,   155, 0, 0, 146) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48099,  2183,      2) ;

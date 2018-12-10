@@ -6,26 +6,13 @@ VALUES (27981, 'burungurukboor', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27981,   1,         16) /* ItemType - Creature */
      , (27981,   2,         75) /* CreatureType - Burun */
-     , (27981,   5,          0) /* EncumbranceVal */
      , (27981,   6,        255) /* ItemsCapacity */
      , (27981,   7,        255) /* ContainersCapacity */
      , (27981,  16,          1) /* ItemUseable - No */
-     , (27981,  19,          0) /* Value */
      , (27981,  25,        100) /* Level */
-     , (27981,  33,         -2) /* Bonded - Destroy */
-     , (27981,  44,        180) /* Damage */
-     , (27981,  45,          2) /* DamageType - Pierce */
-     , (27981,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (27981,  49,         10) /* WeaponTime */
      , (27981,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27981, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27981, 307,          5) /* DamageRating */
-     , (27981, 313,          0) /* CritRating */
-     , (27981, 314,          0) /* CritDamageRating */
-     , (27981, 353,         10) /* WeaponType - Thrown */
-     , (27981, 386,          0) /* Overpower */
-     , (27981, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (27981, 8030,          0);
+     , (27981, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27981,   1, True ) /* Stuck */
@@ -33,17 +20,6 @@ VALUES (27981,   1, True ) /* Stuck */
      , (27981,  13, False) /* Ethereal */
      , (27981,  14, True ) /* GravityStatus */
      , (27981,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27981,  21,       0) /* WeaponLength */
-     , (27981,  22,     0.5) /* DamageVariance */
-     , (27981,  26, 23.2000007629395) /* MaximumVelocity */
-     , (27981,  29,       1) /* WeaponDefense */
-     , (27981,  62,       1) /* WeaponOffense */
-     , (27981,  63,       1) /* DamageMod */
-     , (27981, 147,       1) /* CriticalFrequency */
-     , (27981, 149,       0) /* WeaponMissileDefense */
-     , (27981, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27981,   1, 'Guruk Boor') /* Name */

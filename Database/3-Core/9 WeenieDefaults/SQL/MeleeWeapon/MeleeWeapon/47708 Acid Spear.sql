@@ -25,8 +25,7 @@ VALUES (47708,   1, False) /* Stuck */
      , (47708,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47708,   1, 'Acid Spear') /* Name */
-     , (47708,  16, 'Killed by Tree Marmot.') /* LongDesc */;
+VALUES (47708,   1, 'Acid Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47708,   1,   33555780) /* Setup */

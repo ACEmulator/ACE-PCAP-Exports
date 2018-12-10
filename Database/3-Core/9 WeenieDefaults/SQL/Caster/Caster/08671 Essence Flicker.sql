@@ -34,8 +34,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8671,   5,  -0.025) /* ManaRate */
      , (8671,  29,       1) /* WeaponDefense */
      , (8671,  76,     0.5) /* Translucency */
-     , (8671, 144, 1.08060953040833E-314) /* ManaConversionMod */
-     , (8671, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (8671, 144, 1.08060953040833E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8671,   1, 'Essence Flicker') /* Name */

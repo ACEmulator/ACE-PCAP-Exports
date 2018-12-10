@@ -28,37 +28,9 @@ VALUES (40684,   1,          2) /* ItemType - Armor */
      , (40684, 160,        290) /* WieldDifficulty */
      , (40684, 172,          1) /* AppraisalLongDescDecoration */
      , (40684, 176,          7) /* AppraisalItemSkill */
-     , (40684, 177,          2) /* GemCount */
-     , (40684, 178,         33) /* GemType */
-     , (40684, 188,          1) /* HeritageGroup - Aluvian */
-     , (40684, 265,         28) /* EquipmentSetId - Coldproof */
      , (40684, 270,          7) /* WieldRequirements2 - Level */
      , (40684, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40684, 272,        150) /* WieldDifficulty2 */
-     , (40684, 307,          0) /* DamageRating */
-     , (40684, 308,          0) /* DamageResistRating */
-     , (40684, 313,          0) /* CritRating */
-     , (40684, 314,          0) /* CritDamageRating */
-     , (40684, 315,          0) /* CritResistRating */
-     , (40684, 316,          0) /* CritDamageResistRating */
-     , (40684, 370,          0) /* GearDamage */
-     , (40684, 371,          0) /* GearDamageResist */
-     , (40684, 372,          0) /* GearCrit */
-     , (40684, 373,          0) /* GearCritResist */
-     , (40684, 374,          0) /* GearCritDamage */
-     , (40684, 375,          2) /* GearCritDamageResist */
-     , (40684, 376,          0) /* GearHealingBoost */
-     , (40684, 377,          0) /* GearNetherResist */
-     , (40684, 378,          0) /* GearLifeResist */
-     , (40684, 379,          0) /* GearMaxHealth */
-     , (40684, 381,          0) /* PKDamageRating */
-     , (40684, 382,          0) /* PKDamageResistRating */
-     , (40684, 383,          0) /* GearPKDamageRating */
-     , (40684, 384,          0) /* GearPKDamageResistRating */
-     , (40684, 386,          0) /* Overpower */
-     , (40684, 387,          0) /* OverpowerResist */
-     , (40684, 388,          0) /* GearOverpower */
-     , (40684, 389,          0) /* GearOverpowerResist */;
+     , (40684, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40684,   1, False) /* Stuck */
@@ -104,55 +76,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40684, 8000, 3488074341) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40684,   975,      2) 
-     , (40684,  1332,      2) 
-     , (40684,  1486,      2) 
-     , (40684,  1516,      2) 
-     , (40684,  1528,      2) 
-     , (40684,  2081,      2) 
-     , (40684,  2087,      2) 
-     , (40684,  2092,      2) 
-     , (40684,  2098,      2) 
-     , (40684,  2104,      2) 
-     , (40684,  2108,      2) 
-     , (40684,  2110,      2) 
-     , (40684,  2113,      2) 
-     , (40684,  2301,      2) 
+VALUES (40684,  2108,      2) 
      , (40684,  2559,      2) 
-     , (40684,  2571,      2) 
-     , (40684,  2574,      2) 
-     , (40684,  2577,      2) 
-     , (40684,  2610,      2) 
-     , (40684,  2612,      2) 
-     , (40684,  2613,      2) 
-     , (40684,  2618,      2) 
-     , (40684,  4226,      2) 
-     , (40684,  4232,      2) 
-     , (40684,  4299,      2) 
-     , (40684,  4325,      2) 
-     , (40684,  4391,      2) 
-     , (40684,  4393,      2) 
-     , (40684,  4397,      2) 
-     , (40684,  4401,      2) 
-     , (40684,  4407,      2) 
-     , (40684,  4409,      2) 
-     , (40684,  4412,      2) 
-     , (40684,  4466,      2) 
-     , (40684,  4572,      2) 
-     , (40684,  4664,      2) 
-     , (40684,  4668,      2) 
-     , (40684,  4673,      2) 
-     , (40684,  4679,      2) 
-     , (40684,  4691,      2) 
-     , (40684,  4697,      2) 
-     , (40684,  4698,      2) 
-     , (40684,  4700,      2) 
-     , (40684,  4708,      2) 
-     , (40684,  4710,      2) 
-     , (40684,  5429,      2) 
-     , (40684,  5893,      2) 
-     , (40684,  5895,      2) 
-     , (40684,  6123,      2) ;
+     , (40684,  4401,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40684, 67116573, 136, 12)

@@ -36,7 +36,7 @@ VALUES (29104,   1,   33559128) /* Setup */
      , (29104,   3,  536870932) /* SoundTable */
      , (29104,   8,  100686437) /* Icon */
      , (29104,  22,  872415275) /* PhysicsEffectTable */
-     , (29104,  28,       3533) /* Spell */
+     , (29104,  28,       3533) /* Spell - BrighteyesFavor */
      , (29104,  50,  100687554) /* IconOverlay */
      , (29104,  52,  100687547) /* IconUnderlay */
      , (29104, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */

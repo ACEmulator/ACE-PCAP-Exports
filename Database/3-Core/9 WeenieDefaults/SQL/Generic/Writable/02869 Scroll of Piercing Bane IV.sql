@@ -5,14 +5,11 @@ VALUES (2869, 'scrollpiercingbane4', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2869,   1,       8192) /* ItemType - Writable */
-     , (2869,   2,          6) /* CreatureType - Tumerok */
      , (2869,   5,         30) /* EncumbranceVal */
      , (2869,  16,          8) /* ItemUseable - Contained */
      , (2869,  19,        100) /* Value */
-     , (2869,  25,         80) /* Level */
      , (2869,  65,        101) /* Placement - Resting */
-     , (2869,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2869, 307,          5) /* DamageRating */;
+     , (2869,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2869,   1, False) /* Stuck */
@@ -35,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2869,   1,   33554826) /* Setup */
      , (2869,   8,  100676654) /* Icon */
      , (2869,  22,  872415275) /* PhysicsEffectTable */
-     , (2869,  28,       1572) /* Spell */
+     , (2869,  28,       1572) /* Spell - PiercingBane4 */
      , (2869, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (2869, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2869, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
@@ -46,19 +43,6 @@ VALUES (2869, 8040, 3562209536, 96.93739, 49.03295, 34.8855, -0.931491, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2869, 8000, 2780651889) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (2869,   1, 150, 0, 0) /* Strength */
-     , (2869,   2, 165, 0, 0) /* Endurance */
-     , (2869,   3, 145, 0, 0) /* Quickness */
-     , (2869,   4, 170, 0, 0) /* Coordination */
-     , (2869,   5,  90, 0, 0) /* Focus */
-     , (2869,   6,  90, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2869,   1,   223, 0, 0, 223) /* MaxHealth */
-     , (2869,   3,   330, 0, 0, 329) /* MaxStamina */
-     , (2869,   5,    90, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2869,  1572,      2) ;

@@ -25,8 +25,7 @@ VALUES (46423,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46423,   1, 'Stipend') /* Name */
-     , (46423,  15, 'A stipend for service to Dereth. Stipends may be used to purchase special items at a stipend vendor. ') /* ShortDesc */
-     , (46423,  16, 'Killed by Straharik.') /* LongDesc */;
+     , (46423,  15, 'A stipend for service to Dereth. Stipends may be used to purchase special items at a stipend vendor. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46423,   1,   33554659) /* Setup */

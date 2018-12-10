@@ -6,49 +6,23 @@ VALUES (27715, 'ursuinferocious', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27715,   1,         16) /* ItemType - Creature */
      , (27715,   2,         46) /* CreatureType - Ursuin */
-     , (27715,   5,          5) /* EncumbranceVal */
      , (27715,   6,        255) /* ItemsCapacity */
      , (27715,   7,        255) /* ContainersCapacity */
      , (27715,  16,          1) /* ItemUseable - No */
-     , (27715,  19,          1) /* Value */
      , (27715,  25,         80) /* Level */
-     , (27715,  33,         -2) /* Bonded - Destroy */
-     , (27715,  44,        304) /* Damage */
-     , (27715,  45,         64) /* DamageType - Electric */
-     , (27715,  48,          0) /* WeaponSkill - None */
-     , (27715,  49,         -1) /* WeaponTime */
      , (27715,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27715, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27715, 179,          0) /* ImbuedEffect - Undef */
-     , (27715, 303,          0) /* ImbuedEffect2 - Undef */
-     , (27715, 304,          0) /* ImbuedEffect3 - Undef */
-     , (27715, 305,          0) /* ImbuedEffect4 - Undef */
-     , (27715, 306,          0) /* ImbuedEffect5 - Undef */
-     , (27715, 307,          5) /* DamageRating */
-     , (27715, 313,          0) /* CritRating */
-     , (27715, 314,          0) /* CritDamageRating */
-     , (27715, 386,          0) /* Overpower */
-     , (27715, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (27715, 8030,          0);
+     , (27715, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27715,   1, True ) /* Stuck */
      , (27715,  12, True ) /* ReportCollisions */
      , (27715,  13, False) /* Ethereal */
      , (27715,  14, True ) /* GravityStatus */
-     , (27715,  19, True ) /* Attackable */
-     , (27715,  69, False) /* IsSellable */;
+     , (27715,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27715,  21,       0) /* WeaponLength */
-     , (27715,  22,     0.3) /* DamageVariance */
-     , (27715,  26,       0) /* MaximumVelocity */
-     , (27715,  29,       1) /* WeaponDefense */
-     , (27715,  39, 1.29999995231628) /* DefaultScale */
-     , (27715,  62,       1) /* WeaponOffense */
-     , (27715,  63,       1) /* DamageMod */
-     , (27715, 149,       0) /* WeaponMissileDefense */
-     , (27715, 150,       0) /* WeaponMagicDefense */;
+VALUES (27715,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27715,   1, 'Ferocious Ursuin') /* Name */

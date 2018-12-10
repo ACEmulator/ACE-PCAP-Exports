@@ -6,26 +6,15 @@ VALUES (43029, 'ace43029-niccolodeluca', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43029,   1,         16) /* ItemType - Creature */
      , (43029,   2,         31) /* CreatureType - Human */
-     , (43029,   5,         60) /* EncumbranceVal */
      , (43029,   6,        255) /* ItemsCapacity */
      , (43029,   7,        255) /* ContainersCapacity */
      , (43029,  16,         32) /* ItemUseable - Remote */
-     , (43029,  19,       3660) /* Value */
      , (43029,  25,        100) /* Level */
      , (43029,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43029,  95,          8) /* RadarBlipColor - Yellow */
-     , (43029, 105,          6) /* ItemWorkmanship */
-     , (43029, 106,        183) /* ItemSpellcraft */
-     , (43029, 107,       1214) /* ItemCurMana */
-     , (43029, 108,       1214) /* ItemMaxMana */
-     , (43029, 109,        227) /* ItemDifficulty */
-     , (43029, 110,          0) /* ItemAllegianceRankLimit */
      , (43029, 113,          1) /* Gender - Male */
-     , (43029, 115,          0) /* ItemSkillLevelLimit */
-     , (43029, 131,         60) /* MaterialType - Gold */
      , (43029, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43029, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43029, 172,          1) /* AppraisalLongDescDecoration */
      , (43029, 188,          4) /* HeritageGroup - Viamontian */
      , (43029, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -40,13 +29,11 @@ VALUES (43029,   1, True ) /* Stuck */
      , (43029,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43029,   5,   -0.05) /* ManaRate */
-     , (43029,  54,       3) /* UseRadius */;
+VALUES (43029,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43029,   1, 'Niccolo De Luca') /* Name */
      , (43029,   5, 'Explorer Society Outreach Officer') /* Template */
-     , (43029,  16, 'Bracelet of Focus') /* LongDesc */
      , (43029, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,11 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43029,   1,   125, 0, 0, 125) /* MaxHealth */
      , (43029,   3,   250, 0, 0, 250) /* MaxStamina */
      , (43029,   5,   170, 0, 0, 170) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43029,   730,      2) 
-     , (43029,  1425,      2) 
-     , (43029,  2555,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43029, 67109969, 92, 4)

@@ -6,29 +6,15 @@ VALUES (24578, 'candethkeepsentrytumerok', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24578,   1,         16) /* ItemType - Creature */
      , (24578,   2,         57) /* CreatureType - AunTumerok */
-     , (24578,   5,         50) /* EncumbranceVal */
      , (24578,   6,        255) /* ItemsCapacity */
      , (24578,   7,        255) /* ContainersCapacity */
      , (24578,  16,         32) /* ItemUseable - Remote */
-     , (24578,  19,       4000) /* Value */
      , (24578,  25,         60) /* Level */
-     , (24578,  33,          0) /* Bonded - Normal */
-     , (24578,  91,         50) /* MaxStructure */
-     , (24578,  92,         50) /* Structure */
      , (24578,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24578,  95,          8) /* RadarBlipColor - Yellow */
-     , (24578, 105,          7) /* ItemWorkmanship */
-     , (24578, 114,          0) /* Attuned - Normal */
      , (24578, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24578, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24578, 280,        213) /* SharedCooldown */
      , (24578, 307,          5) /* DamageRating */
-     , (24578, 366,         54) /* UseRequiresSkill */
-     , (24578, 367,        310) /* UseRequiresSkillLevel */
-     , (24578, 369,         40) /* UseRequiresLevel */
-     , (24578, 372,          3) /* GearCrit */
-     , (24578, 373,          8) /* GearCritResist */
-     , (24578, 375,         14) /* GearCritDamageResist */
      , (24578, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,17 +25,14 @@ VALUES (24578,   1, True ) /* Stuck */
      , (24578,  14, True ) /* GravityStatus */
      , (24578,  19, False) /* Attackable */
      , (24578,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (24578,  42, True ) /* AllowEdgeSlide */
-     , (24578,  69, True ) /* IsSellable */;
+     , (24578,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24578,  54,      30) /* UseRadius */
-     , (24578, 167,      45) /* CooldownDuration */;
+VALUES (24578,  54,      30) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24578,   1, 'Sentry') /* Name */
      , (24578,   5, 'Candeth Keep Guard') /* Template */
-     , (24578,  14, 'Use this essence to summon or dismiss your Frost Skeleton Minion.') /* Use */
      , (24578, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

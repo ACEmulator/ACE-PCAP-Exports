@@ -25,7 +25,6 @@ VALUES (38465,   1,          2) /* ItemType - Armor */
      , (38465, 158,          9) /* WieldRequirements - IntStat */
      , (38465, 159,        287) /* WieldSkilltype */
      , (38465, 160,        601) /* WieldDifficulty */
-     , (38465, 171,         10) /* NumTimesTinkered */
      , (38465, 172,          1) /* AppraisalLongDescDecoration */
      , (38465, 176,          7) /* AppraisalItemSkill */
      , (38465, 265,         30) /* EquipmentSetId - SocietyArmor */
@@ -38,7 +37,6 @@ VALUES (38465,   1, False) /* Stuck */
      , (38465,  14, True ) /* GravityStatus */
      , (38465,  19, True ) /* Attackable */
      , (38465,  22, True ) /* Inscribable */
-     , (38465,  91, True ) /* Retained */
      , (38465, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -55,11 +53,7 @@ VALUES (38465,   5, -0.0666666666666667) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38465,   1, 'Celestial Hand Girth') /* Name */
-     , (38465,   7, 'Epic Bludgeoning Ward,  212al
-Dedication Set') /* Inscription */
-     , (38465,   8, 'Nardwuar') /* ScribeName */
-     , (38465,  16, 'Celestial Hand Girth of Regeneration') /* LongDesc */
-     , (38465,  39, 'Straharik') /* TinkerName */;
+     , (38465,  16, 'Celestial Hand Girth of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38465,   1,   33554647) /* Setup */
@@ -75,20 +69,10 @@ VALUES (38465,   2, 3666901363) /* Container */
      , (38465, 8000, 3662127562) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38465,  1498,      2) 
-     , (38465,  2104,      2) 
-     , (38465,  2108,      2) 
-     , (38465,  2113,      2) 
+VALUES (38465,  2108,      2) 
      , (38465,  2505,      2) 
-     , (38465,  2512,      2) 
      , (38465,  2614,      2) 
-     , (38465,  4299,      2) 
-     , (38465,  4391,      2) 
-     , (38465,  4407,      2) 
-     , (38465,  4496,      2) 
-     , (38465,  4674,      2) 
-     , (38465,  5893,      2) 
-     , (38465,  6123,      2) ;
+     , (38465,  4496,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38465, 0, 83889072, 83897918)

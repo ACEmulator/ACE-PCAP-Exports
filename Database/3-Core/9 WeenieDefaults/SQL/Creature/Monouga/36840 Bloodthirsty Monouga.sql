@@ -6,15 +6,12 @@ VALUES (36840, 'ace36840-bloodthirstymonouga', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36840,   1,         16) /* ItemType - Creature */
      , (36840,   2,         28) /* CreatureType - Monouga */
-     , (36840,   5,       8798) /* EncumbranceVal */
      , (36840,   6,        255) /* ItemsCapacity */
      , (36840,   7,        255) /* ContainersCapacity */
      , (36840,  16,          1) /* ItemUseable - No */
-     , (36840,  19,          0) /* Value */
      , (36840,  25,        100) /* Level */
      , (36840,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (36840, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (36840, 307,          5) /* DamageRating */
      , (36840, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,7 +27,6 @@ VALUES (36840,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36840,   1, 'Bloodthirsty Monouga') /* Name */
-     , (36840,  16, 'Killed by Mag-three.') /* LongDesc */
      , (36840, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

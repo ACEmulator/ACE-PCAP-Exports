@@ -35,7 +35,7 @@ VALUES (14570,   1,   33557502) /* Setup */
      , (14570,   6,   67113280) /* PaletteBase */
      , (14570,   8,  100672508) /* Icon */
      , (14570,  22,  872415382) /* PhysicsEffectTable */
-     , (14570,  28,       2637) /* Spell */
+     , (14570,  28,       2637) /* Spell - InvokingAunTanua */
      , (14570, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (14570, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (14570, 8005,     326405) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Translucency */

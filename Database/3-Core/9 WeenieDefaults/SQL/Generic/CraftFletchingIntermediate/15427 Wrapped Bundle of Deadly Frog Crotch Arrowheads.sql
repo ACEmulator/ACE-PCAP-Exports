@@ -23,10 +23,6 @@ VALUES (15427,   1, False) /* Stuck */
      , (15427,  19, True ) /* Attackable */
      , (15427,  69, False) /* IsSellable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15427,  29,       1) /* WeaponDefense */
-     , (15427, 144,       0) /* ManaConversionMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15427,   1, 'Wrapped Bundle of Deadly Frog Crotch Arrowheads') /* Name */
      , (15427,  14, 'This item is used in fletching.') /* Use */

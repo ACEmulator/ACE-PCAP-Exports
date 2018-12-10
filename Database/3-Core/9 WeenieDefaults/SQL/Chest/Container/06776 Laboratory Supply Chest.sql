@@ -41,7 +41,7 @@ VALUES (6776,   1,   33554556) /* Setup */
      , (6776,   3,  536870945) /* SoundTable */
      , (6776,   8,  100667424) /* Icon */
      , (6776,  22,  872415275) /* PhysicsEffectTable */
-     , (6776,  28,       1089) /* Spell */
+     , (6776,  28,       1089) /* Spell - LightningVulnerabilityOther6 */
      , (6776, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (6776, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (6776, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;

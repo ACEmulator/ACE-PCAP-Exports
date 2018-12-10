@@ -5,13 +5,11 @@ VALUES (26051, 'spearburunstonemid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26051,   1,          1) /* ItemType - MeleeWeapon */
-     , (26051,   2,         82) /* CreatureType - Thrungus */
      , (26051,   5,        700) /* EncumbranceVal */
      , (26051,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (26051,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (26051,  16,          1) /* ItemUseable - No */
      , (26051,  19,        425) /* Value */
-     , (26051,  25,        200) /* Level */
      , (26051,  33,         -2) /* Bonded - Destroy */
      , (26051,  44,         -1) /* Damage */
      , (26051,  45,          0) /* DamageType - Undef */
@@ -61,6 +59,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26051,   3, 3692095585) /* Wielder */
      , (26051, 8000, 3692169051) /* PCAPRecordedObjectIID */
      , (26051, 8008, 3692095585) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26051,   1,   929, 0, 0, 929) /* MaxHealth */;

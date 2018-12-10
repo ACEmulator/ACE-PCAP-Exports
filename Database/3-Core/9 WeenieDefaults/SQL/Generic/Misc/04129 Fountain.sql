@@ -30,7 +30,7 @@ VALUES (4129,   1,   33555071) /* Setup */
      , (4129,   3,  536870932) /* SoundTable */
      , (4129,   8,  100668104) /* Icon */
      , (4129,  22,  872415275) /* PhysicsEffectTable */
-     , (4129,  28,          1) /* Spell */
+     , (4129,  28,          1) /* Spell - StrengthOther1 */
      , (4129, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
      , (4129, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4129, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

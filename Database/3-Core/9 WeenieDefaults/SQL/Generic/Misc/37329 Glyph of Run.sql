@@ -22,7 +22,6 @@ VALUES (37329,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37329,   1, 'Glyph of Run') /* Name */
-     , (37329,  16, 'Killed by Mag-one.') /* LongDesc */
      , (37329,  20, 'Glyphs of Run') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

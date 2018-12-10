@@ -34,19 +34,15 @@ VALUES (42211,   1, False) /* Stuck */
      , (42211,  15, True ) /* LightsStatus */
      , (42211,  19, True ) /* Attackable */
      , (42211,  22, True ) /* Inscribable */
-     , (42211,  69, False) /* IsSellable */
-     , (42211,  91, True ) /* Retained */;
+     , (42211,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42211,  29,       1) /* WeaponDefense */
      , (42211,  39, 0.600000023841858) /* DefaultScale */
-     , (42211, 144,       0) /* ManaConversionMod */
-     , (42211, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (42211, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42211,   1, 'Teleportation Device') /* Name */
-     , (42211,   7, ' ') /* Inscription */
-     , (42211,   8, 'Under attack') /* ScribeName */
      , (42211,  14, 'Target yourself while wielding this orb and cast its innate spell to portal to its predetermined location.') /* Use */
      , (42211,  16, 'A simple orb used to cast a portal sending spell on the owner. When you touch the orb you get the sense of a message, it feels like someone wants to meet you.') /* LongDesc */;
 
@@ -56,7 +52,7 @@ VALUES (42211,   1,   33554669) /* Setup */
      , (42211,   6,   67111928) /* PaletteBase */
      , (42211,   8,  100668722) /* Icon */
      , (42211,  22,  872415275) /* PhysicsEffectTable */
-     , (42211,  28,       5175) /* Spell */
+     , (42211,  28,       5175) /* Spell - PortalSendHubNPE */
      , (42211, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (42211, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42211, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

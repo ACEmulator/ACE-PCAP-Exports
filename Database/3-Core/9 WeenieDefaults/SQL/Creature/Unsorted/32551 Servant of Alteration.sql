@@ -5,7 +5,6 @@ VALUES (32551, 'ace32551-servantofalteration', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32551,   1,         16) /* ItemType - Creature */
-     , (32551,   5,          0) /* EncumbranceVal */
      , (32551,   6,        255) /* ItemsCapacity */
      , (32551,   7,        255) /* ContainersCapacity */
      , (32551,  16,         32) /* ItemUseable - Remote */

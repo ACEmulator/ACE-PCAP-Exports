@@ -6,11 +6,9 @@ VALUES (33286, 'ace33286-tormentedimperialconsort', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33286,   1,         16) /* ItemType - Creature */
      , (33286,   2,         14) /* CreatureType - Undead */
-     , (33286,   5,       6105) /* EncumbranceVal */
      , (33286,   6,        255) /* ItemsCapacity */
      , (33286,   7,        255) /* ContainersCapacity */
      , (33286,  16,          1) /* ItemUseable - No */
-     , (33286,  19,          0) /* Value */
      , (33286,  25,        185) /* Level */
      , (33286,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33286, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (33286,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33286,   1, 'Tormented Imperial Consort') /* Name */
-     , (33286,  16, 'Killed by Timthos.') /* LongDesc */
      , (33286, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -49,18 +46,8 @@ VALUES (33286, 8040, 13501408, 60, -160, 12.01362, 1, 0, 0, 0) /* PCAPRecordedLo
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33286, 8000, 3708003619) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (33286,   1, 565, 0, 0) /* Strength */
-     , (33286,   2, 252, 0, 0) /* Endurance */
-     , (33286,   3, 262, 0, 0) /* Quickness */
-     , (33286,   4, 575, 0, 0) /* Coordination */
-     , (33286,   5, 373, 0, 0) /* Focus */
-     , (33286,   6, 404, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33286,   1,  2420, 0, 0, 2420) /* MaxHealth */
-     , (33286,   3,   812, 0, 0, 812) /* MaxStamina */
-     , (33286,   5,   767, 0, 0, 767) /* MaxMana */;
+VALUES (33286,   1,  2420, 0, 0, 2420) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33286, 67115243, 0, 0);

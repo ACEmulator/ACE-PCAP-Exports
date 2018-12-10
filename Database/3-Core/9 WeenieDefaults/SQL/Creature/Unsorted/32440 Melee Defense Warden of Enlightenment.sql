@@ -5,24 +5,11 @@ VALUES (32440, 'ace32440-meleedefensewardenofenlightenment', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32440,   1,         16) /* ItemType - Creature */
-     , (32440,   5,          0) /* EncumbranceVal */
      , (32440,   6,        255) /* ItemsCapacity */
      , (32440,   7,        255) /* ContainersCapacity */
      , (32440,  16,         32) /* ItemUseable - Remote */
-     , (32440,  19,      16998) /* Value */
      , (32440,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32440,  95,          3) /* RadarBlipColor - White */
-     , (32440, 105,          8) /* ItemWorkmanship */
-     , (32440, 106,        254) /* ItemSpellcraft */
-     , (32440, 107,       1992) /* ItemCurMana */
-     , (32440, 108,       1992) /* ItemMaxMana */
-     , (32440, 109,        260) /* ItemDifficulty */
-     , (32440, 110,          0) /* ItemAllegianceRankLimit */
-     , (32440, 115,          0) /* ItemSkillLevelLimit */
-     , (32440, 131,         60) /* MaterialType - Gold */
-     , (32440, 172,          5) /* AppraisalLongDescDecoration */
-     , (32440, 177,          5) /* GemCount */
-     , (32440, 178,         20) /* GemType */
      , (32440, 307,          0) /* DamageRating */
      , (32440, 308,          0) /* DamageResistRating */
      , (32440, 313,          0) /* CritRating */
@@ -60,13 +47,11 @@ VALUES (32440,   1, True ) /* Stuck */
      , (32440,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32440,   5, -0.0555555555555556) /* ManaRate */
-     , (32440,  39,     0.5) /* DefaultScale */
+VALUES (32440,  39,     0.5) /* DefaultScale */
      , (32440,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32440,   1, 'Melee Defense Warden of Enlightenment') /* Name */
-     , (32440,  16, 'Heavy Necklace of Magic Resistance') /* LongDesc */
      , (32440, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -85,7 +70,3 @@ VALUES (32440, 8040, 3583574070, 163, 129, 374, -4.37114E-08, 0, 0, -1) /* PCAPR
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32440, 8000, 3692312910) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32440,   279,      2) 
-     , (32440,  2541,      2) ;

@@ -24,8 +24,6 @@ VALUES (27807,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27807,   1, 'Ancient Diamond Idol') /* Name */
-     , (27807,   7, 'Mine') /* Inscription */
-     , (27807,   8, 'Merenwen') /* ScribeName */
      , (27807,  14, 'Use this item to equip it.') /* Use */
      , (27807,  16, 'An Ancient Diamond idol.') /* LongDesc */;
 

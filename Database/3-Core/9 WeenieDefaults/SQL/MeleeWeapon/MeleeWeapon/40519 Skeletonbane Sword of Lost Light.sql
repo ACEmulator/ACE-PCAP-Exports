@@ -54,8 +54,6 @@ VALUES (40519,   5, -0.0329999998211861) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40519,   1, 'Skeletonbane Sword of Lost Light') /* Name */
-     , (40519,   7, 'Critical hit!  You scratch Lord Cynreft Mhoire for 13113 points of slashing damage!') /* Inscription */
-     , (40519,   8, 'Ramulus') /* ScribeName */
      , (40519,  16, 'The Empowered Sword of Lost Light, infused with the power of House Mhoire, which has been attuned to be deadly to Skeletons.') /* LongDesc */
      , (40519,  25, 'Kromwell') /* CraftsmanName */;
 

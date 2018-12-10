@@ -6,40 +6,13 @@ VALUES (36856, 'ace36856-skeletalchampion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36856,   1,         16) /* ItemType - Creature */
      , (36856,   2,         30) /* CreatureType - Skeleton */
-     , (36856,   5,         50) /* EncumbranceVal */
      , (36856,   6,        255) /* ItemsCapacity */
      , (36856,   7,        255) /* ContainersCapacity */
      , (36856,  16,          1) /* ItemUseable - No */
-     , (36856,  19,       7500) /* Value */
      , (36856,  25,        100) /* Level */
-     , (36856,  44,         41) /* Damage */
-     , (36856,  45,         64) /* DamageType - Electric */
-     , (36856,  47,          4) /* AttackType - Slash */
-     , (36856,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (36856,  49,         36) /* WeaponTime */
      , (36856,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36856, 105,          8) /* ItemWorkmanship */
-     , (36856, 106,        370) /* ItemSpellcraft */
-     , (36856, 107,          0) /* ItemCurMana */
-     , (36856, 108,       2134) /* ItemMaxMana */
-     , (36856, 109,        192) /* ItemDifficulty */
-     , (36856, 110,          0) /* ItemAllegianceRankLimit */
-     , (36856, 115,        390) /* ItemSkillLevelLimit */
-     , (36856, 131,         51) /* MaterialType - Ivory */
      , (36856, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36856, 158,          2) /* WieldRequirements - RawSkill */
-     , (36856, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (36856, 160,        420) /* WieldDifficulty */
-     , (36856, 172,          5) /* AppraisalLongDescDecoration */
-     , (36856, 176,         41) /* AppraisalItemSkill */
-     , (36856, 177,          3) /* GemCount */
-     , (36856, 178,         22) /* GemType */
-     , (36856, 204,          3) /* ElementalDamageBonus */
-     , (36856, 292,          2) /* Cleaving */
-     , (36856, 307,          5) /* DamageRating */
-     , (36856, 353,         11) /* WeaponType - TwoHanded */
-     , (36856, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36856, 8030,          0);
+     , (36856, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36856,   1, True ) /* Stuck */
@@ -48,22 +21,8 @@ VALUES (36856,   1, True ) /* Stuck */
      , (36856,  14, True ) /* GravityStatus */
      , (36856,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36856,   5, -0.0666666666666667) /* ManaRate */
-     , (36856,  21,       0) /* WeaponLength */
-     , (36856,  22,    0.45) /* DamageVariance */
-     , (36856,  26,       0) /* MaximumVelocity */
-     , (36856,  29,    1.11) /* WeaponDefense */
-     , (36856,  62,     1.2) /* WeaponOffense */
-     , (36856,  63,       1) /* DamageMod */
-     , (36856,  87,       3) /* ItemEfficiency */
-     , (36856, 137,    0.25) /* ManaStoneDestroyChance */
-     , (36856, 149,    1.02) /* WeaponMissileDefense */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36856,   1, 'Skeletal Champion') /* Name */
-     , (36856,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (36856,  16, 'Lightning Tetsubo of Coordination') /* LongDesc */
      , (36856, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -96,12 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36856,   1,   433, 0, 0, 433) /* MaxHealth */
      , (36856,   3,   535, 0, 0, 535) /* MaxStamina */
      , (36856,   5,   215, 0, 0, 215) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36856,  1378,      2) 
-     , (36856,  2573,      2) 
-     , (36856,  4395,      2) 
-     , (36856,  4400,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36856, 67116523, 0, 0);

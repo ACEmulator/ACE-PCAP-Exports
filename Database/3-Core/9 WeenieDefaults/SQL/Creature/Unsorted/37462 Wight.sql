@@ -5,18 +5,11 @@ VALUES (37462, 'ace37462-wight', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37462,   1,         16) /* ItemType - Creature */
-     , (37462,   5,         50) /* EncumbranceVal */
      , (37462,   6,        255) /* ItemsCapacity */
      , (37462,   7,        255) /* ContainersCapacity */
      , (37462,  16,          1) /* ItemUseable - No */
-     , (37462,  19,       2500) /* Value */
-     , (37462,  28,        257) /* ArmorLevel */
      , (37462,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (37462, 105,          8) /* ItemWorkmanship */
-     , (37462, 107,          0) /* ItemCurMana */
-     , (37462, 131,         54) /* MaterialType - GromnieHide */
      , (37462, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (37462, 172,          1) /* AppraisalLongDescDecoration */
      , (37462, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,26 +17,13 @@ VALUES (37462,   1, True ) /* Stuck */
      , (37462,  12, True ) /* ReportCollisions */
      , (37462,  13, False) /* Ethereal */
      , (37462,  14, True ) /* GravityStatus */
-     , (37462,  19, True ) /* Attackable */
-     , (37462, 100, True ) /* Dyable */;
+     , (37462,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37462,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (37462,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (37462,  15,       1) /* ArmorModVsBludgeon */
-     , (37462,  16,     0.5) /* ArmorModVsCold */
-     , (37462,  17, 1.39141511917114) /* ArmorModVsFire */
-     , (37462,  18, 0.721671104431152) /* ArmorModVsAcid */
-     , (37462,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (37462,  39, 1.10000002384186) /* DefaultScale */
-     , (37462,  87,     1.2) /* ItemEfficiency */
-     , (37462, 137,    0.15) /* ManaStoneDestroyChance */
-     , (37462, 165,       1) /* ArmorModVsNether */;
+VALUES (37462,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37462,   1, 'Wight') /* Name */
-     , (37462,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (37462,  16, 'Amuli Leggings') /* LongDesc */
      , (37462, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

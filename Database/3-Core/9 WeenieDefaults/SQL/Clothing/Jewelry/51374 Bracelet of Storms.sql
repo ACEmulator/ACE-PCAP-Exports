@@ -27,8 +27,7 @@ VALUES (51374,   1, False) /* Stuck */
      , (51374,  13, True ) /* Ethereal */
      , (51374,  14, True ) /* GravityStatus */
      , (51374,  19, True ) /* Attackable */
-     , (51374,  22, True ) /* Inscribable */
-     , (51374,  91, True ) /* Retained */;
+     , (51374,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51374,   5,   -0.04) /* ManaRate */
@@ -36,8 +35,6 @@ VALUES (51374,   5,   -0.04) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51374,   1, 'Bracelet of Storms') /* Name */
-     , (51374,   7, 'Legendary Storm Ward') /* Inscription */
-     , (51374,   8, 'Kin Tama') /* ScribeName */
      , (51374,  15, 'A bracelet of lightning protection, given by Behdo Yii for completing the Hive Warrior quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

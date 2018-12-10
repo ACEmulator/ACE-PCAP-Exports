@@ -6,11 +6,9 @@ VALUES (24324, 'zombielichsailorlow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24324,   1,         16) /* ItemType - Creature */
      , (24324,   2,         14) /* CreatureType - Undead */
-     , (24324,   5,         30) /* EncumbranceVal */
      , (24324,   6,        255) /* ItemsCapacity */
      , (24324,   7,        255) /* ContainersCapacity */
      , (24324,  16,          1) /* ItemUseable - No */
-     , (24324,  19,       2000) /* Value */
      , (24324,  25,        100) /* Level */
      , (24324,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24324, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -31,9 +29,6 @@ VALUES (24324,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24324,   1, 'Undead Sailor') /* Name */
-     , (24324,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (24324,  16, 'Inscribed spell: Energize Vigor
-Drains one-half of the caster''s Mana and gives 175% of that to his/her Stamina.') /* LongDesc */
      , (24324, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -56,9 +51,6 @@ VALUES (24324, 8000, 2629351756) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (24324,   1,   475, 0, 0, 475) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24324,  2341,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24324, 67114311, 0, 0);

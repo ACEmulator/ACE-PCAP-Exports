@@ -13,7 +13,6 @@ VALUES (15292,   1,        256) /* ItemType - MissileWeapon */
      , (15292,  16,          1) /* ItemUseable - No */
      , (15292,  18,         64) /* UiEffects - Lightning */
      , (15292,  19,        220) /* Value */
-     , (15292,  28,        256) /* ArmorLevel */
      , (15292,  44,         18) /* Damage */
      , (15292,  45,         64) /* DamageType - Electric */
      , (15292,  48,          0) /* WeaponSkill - None */
@@ -22,17 +21,8 @@ VALUES (15292,   1,        256) /* ItemType - MissileWeapon */
      , (15292,  51,          3) /* CombatUse - Ammo */
      , (15292,  65,          1) /* Placement - RightHandCombat */
      , (15292,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (15292, 105,          8) /* ItemWorkmanship */
-     , (15292, 131,         63) /* MaterialType - Silver */
      , (15292, 151,          2) /* HookType - Wall */
-     , (15292, 158,          7) /* WieldRequirements - Level */
-     , (15292, 159,          1) /* WieldSkilltype - Axe */
-     , (15292, 160,        150) /* WieldDifficulty */
-     , (15292, 172,          5) /* AppraisalLongDescDecoration */
-     , (15292, 177,          2) /* GemCount */
-     , (15292, 178,         33) /* GemType */
      , (15292, 179,          0) /* ImbuedEffect - Undef */
-     , (15292, 265,         15) /* EquipmentSetId - Archers */
      , (15292, 303,          0) /* ImbuedEffect2 - Undef */
      , (15292, 304,          0) /* ImbuedEffect3 - Undef */
      , (15292, 305,          0) /* ImbuedEffect4 - Undef */
@@ -50,18 +40,10 @@ VALUES (15292,   1, False) /* Stuck */
      , (15292,  14, True ) /* GravityStatus */
      , (15292,  17, True ) /* Inelastic */
      , (15292,  19, True ) /* Attackable */
-     , (15292,  69, False) /* IsSellable */
-     , (15292, 100, True ) /* Dyable */;
+     , (15292,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15292,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (15292,  14,       1) /* ArmorModVsPierce */
-     , (15292,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (15292,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (15292,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (15292,  18, 0.978792667388916) /* ArmorModVsAcid */
-     , (15292,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (15292,  21,       0) /* WeaponLength */
+VALUES (15292,  21,       0) /* WeaponLength */
      , (15292,  22,    0.24) /* DamageVariance */
      , (15292,  26,       0) /* MaximumVelocity */
      , (15292,  29,       1) /* WeaponDefense */
@@ -71,12 +53,10 @@ VALUES (15292,  13, 1.20000004768372) /* ArmorModVsSlash */
      , (15292,  78,       1) /* Friction */
      , (15292,  79,       0) /* Elasticity */
      , (15292, 149,       0) /* WeaponMissileDefense */
-     , (15292, 150,       0) /* WeaponMagicDefense */
-     , (15292, 165,       1) /* ArmorModVsNether */;
+     , (15292, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15292,   1, 'Greater Lightning Atlatl Dart') /* Name */
-     , (15292,  16, 'Chainmail Breastplate') /* LongDesc */;
+VALUES (15292,   1, 'Greater Lightning Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15292,   1,   33557598) /* Setup */

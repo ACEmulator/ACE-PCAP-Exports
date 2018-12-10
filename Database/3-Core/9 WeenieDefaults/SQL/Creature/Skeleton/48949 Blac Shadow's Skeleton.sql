@@ -15,27 +15,7 @@ VALUES (48949,   1,         16) /* ItemType - Creature */
      , (48949, 307,         20) /* DamageRating */
      , (48949, 308,         17) /* DamageResistRating */
      , (48949, 313,         13) /* CritRating */
-     , (48949, 314,          0) /* CritDamageRating */
      , (48949, 315,         12) /* CritResistRating */
-     , (48949, 316,          0) /* CritDamageResistRating */
-     , (48949, 370,          0) /* GearDamage */
-     , (48949, 371,          0) /* GearDamageResist */
-     , (48949, 372,          0) /* GearCrit */
-     , (48949, 373,          0) /* GearCritResist */
-     , (48949, 374,          0) /* GearCritDamage */
-     , (48949, 375,          0) /* GearCritDamageResist */
-     , (48949, 376,          0) /* GearHealingBoost */
-     , (48949, 377,          0) /* GearNetherResist */
-     , (48949, 378,          0) /* GearLifeResist */
-     , (48949, 379,          0) /* GearMaxHealth */
-     , (48949, 381,          0) /* PKDamageRating */
-     , (48949, 382,          0) /* PKDamageResistRating */
-     , (48949, 383,          0) /* GearPKDamageRating */
-     , (48949, 384,          0) /* GearPKDamageResistRating */
-     , (48949, 386,          0) /* Overpower */
-     , (48949, 387,          0) /* OverpowerResist */
-     , (48949, 388,          0) /* GearOverpower */
-     , (48949, 389,          0) /* GearOverpowerResist */
      , (48949, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,7 +27,6 @@ VALUES (48949,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48949,   1, 'Blac Shadow''s Skeleton') /* Name */
-     , (48949,  15, 'A scroll case.') /* ShortDesc */
      , (48949, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

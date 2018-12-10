@@ -31,7 +31,6 @@ VALUES (25671,   1, False) /* Stuck */
      , (25671,  19, True ) /* Attackable */
      , (25671,  22, True ) /* Inscribable */
      , (25671,  69, False) /* IsSellable */
-     , (25671,  85, True ) /* AppraisalHasAllowedWielder */
      , (25671,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,10 +38,7 @@ VALUES (25671,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25671,   1, 'Refulgent Bracelet') /* Name */
-     , (25671,   7, 'Gabrielle') /* Inscription */
-     , (25671,   8, 'Gabrielle of The North') /* ScribeName */
-     , (25671,  16, 'A sparkling bangle cleansed in the waters of Ithaenc. Clasping it around your wrist seems to drive affliction from you and boost your resilience.') /* LongDesc */
-     , (25671,  25, 'Gabrielle of The North') /* CraftsmanName */;
+     , (25671,  16, 'A sparkling bangle cleansed in the waters of Ithaenc. Clasping it around your wrist seems to drive affliction from you and boost your resilience.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25671,   1,   33554683) /* Setup */

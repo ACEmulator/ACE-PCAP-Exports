@@ -6,34 +6,17 @@ VALUES (44950, 'ace44950-chafulumisa', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44950,   1,         16) /* ItemType - Creature */
      , (44950,   2,         51) /* CreatureType - Empyrean */
-     , (44950,   5,        274) /* EncumbranceVal */
      , (44950,   6,        255) /* ItemsCapacity */
      , (44950,   7,        255) /* ContainersCapacity */
      , (44950,  16,         32) /* ItemUseable - Remote */
-     , (44950,  19,       6355) /* Value */
      , (44950,  25,        200) /* Level */
-     , (44950,  44,         63) /* Damage */
-     , (44950,  45,         64) /* DamageType - Electric */
-     , (44950,  47,          4) /* AttackType - Slash */
-     , (44950,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (44950,  49,         44) /* WeaponTime */
      , (44950,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44950,  95,          8) /* RadarBlipColor - Yellow */
-     , (44950, 105,          5) /* ItemWorkmanship */
      , (44950, 113,          1) /* Gender - Male */
-     , (44950, 131,         75) /* MaterialType - Oak */
      , (44950, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (44950, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44950, 158,          2) /* WieldRequirements - RawSkill */
-     , (44950, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (44950, 160,        400) /* WieldDifficulty */
-     , (44950, 172,          5) /* AppraisalLongDescDecoration */
-     , (44950, 177,          3) /* GemCount */
-     , (44950, 178,         39) /* GemType */
      , (44950, 188,          9) /* HeritageGroup - Empyrean */
-     , (44950, 353,          3) /* WeaponType - Axe */
-     , (44950, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (44950, 8030,          0);
+     , (44950, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44950,   1, True ) /* Stuck */
@@ -46,18 +29,11 @@ VALUES (44950,   1, True ) /* Stuck */
      , (44950,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44950,  21,       0) /* WeaponLength */
-     , (44950,  22,     0.9) /* DamageVariance */
-     , (44950,  26,       0) /* MaximumVelocity */
-     , (44950,  29,    1.11) /* WeaponDefense */
-     , (44950,  39,    1.25) /* DefaultScale */
-     , (44950,  54,       3) /* UseRadius */
-     , (44950,  62,    1.15) /* WeaponOffense */
-     , (44950,  63,       1) /* DamageMod */;
+VALUES (44950,  39,    1.25) /* DefaultScale */
+     , (44950,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44950,   1, 'Chafulumisa') /* Name */
-     , (44950,  16, 'Lightning Lugian Hammer') /* LongDesc */
      , (44950, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

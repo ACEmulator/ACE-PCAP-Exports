@@ -17,18 +17,10 @@ VALUES (49235,   1,        128) /* ItemType - Misc */
      , (49235,  94,         16) /* TargetType - Creature */
      , (49235, 105,          6) /* ItemWorkmanship */
      , (49235, 114,          0) /* Attuned - Normal */
-     , (49235, 131,         23) /* MaterialType - GreenGarnet */
-     , (49235, 172,          1) /* AppraisalLongDescDecoration */
      , (49235, 280,        213) /* SharedCooldown */
      , (49235, 366,         54) /* UseRequiresSkill */
      , (49235, 367,        400) /* UseRequiresSkillLevel */
-     , (49235, 369,         90) /* UseRequiresLevel */
-     , (49235, 370,         10) /* GearDamage */
-     , (49235, 371,         17) /* GearDamageResist */
-     , (49235, 372,         10) /* GearCrit */
-     , (49235, 373,         11) /* GearCritResist */
-     , (49235, 374,          7) /* GearCritDamage */
-     , (49235, 375,         13) /* GearCritDamageResist */;
+     , (49235, 369,         90) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49235,   1, False) /* Stuck */
@@ -45,8 +37,7 @@ VALUES (49235,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49235,   1, 'Acid Zombie Essence (100)') /* Name */
-     , (49235,  14, 'Use this essence to summon or dismiss your Acid Zombie.') /* Use */
-     , (49235,  16, 'Gem') /* LongDesc */;
+     , (49235,  14, 'Use this essence to summon or dismiss your Acid Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49235,   1,   33554817) /* Setup */

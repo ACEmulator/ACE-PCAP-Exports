@@ -5,11 +5,9 @@ VALUES (21493, 'pillarornate', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21493,   1,         16) /* ItemType - Creature */
-     , (21493,   5,          0) /* EncumbranceVal */
      , (21493,   6,        255) /* ItemsCapacity */
      , (21493,   7,        255) /* ContainersCapacity */
      , (21493,  16,         32) /* ItemUseable - Remote */
-     , (21493,  19,       1003) /* Value */
      , (21493,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (21493,  95,          3) /* RadarBlipColor - White */
      , (21493, 307,          0) /* DamageRating */
@@ -40,7 +38,6 @@ VALUES (21493,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21493,   1, True ) /* Stuck */
-     , (21493,   2, False) /* Open */
      , (21493,  11, True ) /* IgnoreCollisions */
      , (21493,  12, True ) /* ReportCollisions */
      , (21493,  13, False) /* Ethereal */
@@ -55,7 +52,6 @@ VALUES (21493,  39, 1.20000004768372) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21493,   1, 'Ornate Pillar') /* Name */
-     , (21493,  16, 'Killed by A''nekshen Thorn Reaver.') /* LongDesc */
      , (21493, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,31 +6,14 @@ VALUES (28667, 'ruschkvile', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28667,   1,         16) /* ItemType - Creature */
      , (28667,   2,         81) /* CreatureType - Ruschk */
-     , (28667,   5,        570) /* EncumbranceVal */
      , (28667,   6,        255) /* ItemsCapacity */
      , (28667,   7,        255) /* ContainersCapacity */
      , (28667,  16,          1) /* ItemUseable - No */
-     , (28667,  19,      20718) /* Value */
      , (28667,  25,         80) /* Level */
-     , (28667,  44,         46) /* Damage */
-     , (28667,  45,         32) /* DamageType - Acid */
-     , (28667,  47,          4) /* AttackType - Slash */
-     , (28667,  48,         45) /* WeaponSkill - LightWeapons */
-     , (28667,  49,         33) /* WeaponTime */
      , (28667,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28667, 105,          8) /* ItemWorkmanship */
-     , (28667, 131,         77) /* MaterialType - Teak */
      , (28667, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28667, 158,          2) /* WieldRequirements - RawSkill */
-     , (28667, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (28667, 160,        400) /* WieldDifficulty */
-     , (28667, 172,          5) /* AppraisalLongDescDecoration */
-     , (28667, 177,          4) /* GemCount */
-     , (28667, 178,         39) /* GemType */
      , (28667, 307,          5) /* DamageRating */
-     , (28667, 353,          4) /* WeaponType - Mace */
-     , (28667, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (28667, 8030,          0);
+     , (28667, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28667,   1, True ) /* Stuck */
@@ -40,17 +23,10 @@ VALUES (28667,   1, True ) /* Stuck */
      , (28667,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28667,  21,       0) /* WeaponLength */
-     , (28667,  22,    0.32) /* DamageVariance */
-     , (28667,  26,       0) /* MaximumVelocity */
-     , (28667,  29,    1.15) /* WeaponDefense */
-     , (28667,  39, 1.20000004768372) /* DefaultScale */
-     , (28667,  62,    1.13) /* WeaponOffense */
-     , (28667,  63,       1) /* DamageMod */;
+VALUES (28667,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28667,   1, 'Vile Ruschk') /* Name */
-     , (28667,  16, 'Acid Spiked Club') /* LongDesc */
      , (28667, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

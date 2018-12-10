@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3086,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3086,   1, 'Scroll of Fester Other V') /* Name */;
+VALUES (3086,   1, 'Scroll of Fester Other V') /* Name */
+     , (3086,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (3086,  16, 'Inscribed spell: Fester Other V
+Decrease target''s natural healing rate by 41%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3086,   1,   33554826) /* Setup */
      , (3086,   8,  100676941) /* Icon */
      , (3086,  22,  872415275) /* PhysicsEffectTable */
-     , (3086,  28,        175) /* Spell */
+     , (3086,  28,        175) /* Spell - FesterOther5 */
      , (3086, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3086, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3086, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (3086,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3086,   2, 3704816366) /* Container */
      , (3086, 8000, 3705384079) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3086,   175,      2) ;

@@ -31,8 +31,6 @@ VALUES (8789,   5, -0.033333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8789,   1, 'Virindi Servant''s Amulet') /* Name */
-     , (8789,   7, 'Mine') /* Inscription */
-     , (8789,   8, 'Eirene') /* ScribeName */
      , (8789,  16, 'A magical amulet taken from a Virindi Servant in the Chakron Flux dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

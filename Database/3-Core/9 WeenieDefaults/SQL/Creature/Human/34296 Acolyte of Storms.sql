@@ -6,19 +6,13 @@ VALUES (34296, 'ace34296-acolyteofstorms', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34296,   1,         16) /* ItemType - Creature */
      , (34296,   2,         31) /* CreatureType - Human */
-     , (34296,   5,        100) /* EncumbranceVal */
      , (34296,   6,        255) /* ItemsCapacity */
      , (34296,   7,        255) /* ContainersCapacity */
      , (34296,  16,          1) /* ItemUseable - No */
-     , (34296,  19,         10) /* Value */
      , (34296,  25,        115) /* Level */
-     , (34296,  33,          1) /* Bonded - Bonded */
      , (34296,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (34296, 105,        100) /* ItemWorkmanship */
      , (34296, 113,          1) /* Gender - Male */
-     , (34296, 131,         41) /* MaterialType - Sunstone */
      , (34296, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34296, 170,         10) /* NumItemsInMaterial */
      , (34296, 188,          3) /* HeritageGroup - Sho */
      , (34296, 307,          5) /* DamageRating */
      , (34296, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -32,8 +26,6 @@ VALUES (34296,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34296,   1, 'Acolyte of Storms') /* Name */
-     , (34296,  14, 'Apply this material to a treasure-generated weapon to imbue the target with Armor Rending. Armor Rending gives the item the ability to ignore some of its opponent''s armor. The amount of armor it ignores depends on the attack skill of the wielder.') /* Use */
-     , (34296,  15, 'Chips of sunstone material salvaged from old items.') /* ShortDesc */
      , (34296, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

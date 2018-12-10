@@ -5,30 +5,17 @@ VALUES (36052, 'ace36052-reflectionofaaminah', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36052,   1,        128) /* ItemType - Misc */
-     , (36052,   2,          6) /* CreatureType - Tumerok */
      , (36052,   5,          1) /* EncumbranceVal */
      , (36052,  16,          1) /* ItemUseable - No */
      , (36052,  18,         64) /* UiEffects - Lightning */
      , (36052,  19,          0) /* Value */
-     , (36052,  25,         80) /* Level */
      , (36052,  33,          1) /* Bonded - Bonded */
      , (36052,  65,        101) /* Placement - Resting */
-     , (36052,  91,         50) /* MaxStructure */
-     , (36052,  92,         50) /* Structure */
      , (36052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36052,  98, 1485661517) /* CreationTimestamp */
-     , (36052, 105,          7) /* ItemWorkmanship */
      , (36052, 114,          1) /* Attuned - Attuned */
      , (36052, 267,        600) /* Lifespan */
-     , (36052, 268,        542) /* RemainingLifespan */
-     , (36052, 280,        213) /* SharedCooldown */
-     , (36052, 366,         54) /* UseRequiresSkill */
-     , (36052, 367,        430) /* UseRequiresSkillLevel */
-     , (36052, 369,        115) /* UseRequiresLevel */
-     , (36052, 370,          4) /* GearDamage */
-     , (36052, 372,         10) /* GearCrit */
-     , (36052, 373,          8) /* GearCritResist */
-     , (36052, 374,         18) /* GearCritDamage */;
+     , (36052, 268,        542) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36052,   1, False) /* Stuck */
@@ -39,12 +26,8 @@ VALUES (36052,   1, False) /* Stuck */
      , (36052,  22, True ) /* Inscribable */
      , (36052,  69, False) /* IsSellable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36052, 167,      45) /* CooldownDuration */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36052,   1, 'Reflection of Aaminah') /* Name */
-     , (36052,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (36052,  16, 'In the heart of this gem, you perceive the image of Aaminah of Ayan Baqur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -62,11 +45,3 @@ VALUES (36052, 8040, 10682822, 224.9412, -139.8277, -12.001, 0.9964173, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36052, 8000, 3705810505) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36052,   1,   223, 0, 0, 223) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36052,    69,      2) 
-     , (36052,  1704,      2) 
-     , (36052,  1795,      2) ;

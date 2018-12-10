@@ -26,8 +26,6 @@ VALUES (9177,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9177,   1, 'Pack Scarecrow') /* Name */
-     , (9177,   7, 'Hmm!') /* Inscription */
-     , (9177,   8, 'Juliana Bravehart') /* ScribeName */
      , (9177,  16, 'Sure fire fun at parties! Scarecrow... stands there. Amaze your friends with his amazing... standing ability! Watch their envy as their little friends all move around and annoy them while your scarecrow stands silent and proud.') /* LongDesc */
      , (9177, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

@@ -5,14 +5,12 @@ VALUES (42932, 'ace42932-wellbalancedlugiangreataxe', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42932,   1,          1) /* ItemType - MeleeWeapon */
-     , (42932,   2,         14) /* CreatureType - Undead */
      , (42932,   5,        220) /* EncumbranceVal */
      , (42932,   9,   33554432) /* ValidLocations - TwoHanded */
      , (42932,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (42932,  16,          1) /* ItemUseable - No */
      , (42932,  18,          1) /* UiEffects - Magical */
      , (42932,  19,      20000) /* Value */
-     , (42932,  25,        115) /* Level */
      , (42932,  33,          1) /* Bonded - Bonded */
      , (42932,  44,         28) /* Damage */
      , (42932,  45,          3) /* DamageType - Slash, Pierce */
@@ -77,9 +75,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42932,   3, 1342194742) /* Wielder */
      , (42932, 8000, 2184591782) /* PCAPRecordedObjectIID */
      , (42932, 8008, 1342194742) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42932,   1,   555, 0, 0, 555) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42932,  2101,      2) 

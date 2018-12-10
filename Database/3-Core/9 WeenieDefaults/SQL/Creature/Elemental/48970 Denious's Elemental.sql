@@ -6,18 +6,14 @@ VALUES (48970, 'ace48970-deniousselemental', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48970,   1,         16) /* ItemType - Creature */
      , (48970,   2,         62) /* CreatureType - Elemental */
-     , (48970,   5,       6206) /* EncumbranceVal */
      , (48970,   6,        255) /* ItemsCapacity */
      , (48970,   7,        255) /* ContainersCapacity */
      , (48970,  16,          1) /* ItemUseable - No */
-     , (48970,  19,          0) /* Value */
      , (48970,  25,        180) /* Level */
      , (48970,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (48970, 133,          1) /* ShowableOnRadar - ShowNever */
      , (48970, 307,         16) /* DamageRating */
-     , (48970, 308,         11) /* DamageResistRating */
      , (48970, 314,         12) /* CritDamageRating */
-     , (48970, 315,          8) /* CritResistRating */
      , (48970, 316,         12) /* CritDamageResistRating */
      , (48970, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,7 +29,6 @@ VALUES (48970,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48970,   1, 'Denious''s Elemental') /* Name */
-     , (48970,  16, 'Killed by Rimok.') /* LongDesc */
      , (48970, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

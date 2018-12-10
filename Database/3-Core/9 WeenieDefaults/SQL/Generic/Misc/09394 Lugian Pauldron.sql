@@ -5,11 +5,9 @@ VALUES (9394, 'pauldronlugian', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9394,   1,        128) /* ItemType - Misc */
-     , (9394,   2,         14) /* CreatureType - Undead */
      , (9394,   5,        900) /* EncumbranceVal */
      , (9394,  16,          1) /* ItemUseable - No */
      , (9394,  19,       2000) /* Value */
-     , (9394,  25,         15) /* Level */
      , (9394,  33,          1) /* Bonded - Bonded */
      , (9394,  65,        101) /* Placement - Resting */
      , (9394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -42,9 +40,6 @@ VALUES (9394, 8040, 302186508, 38.4825, 79.1887, 1.115, -0.9679723, 0, 0, 0.2510
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9394, 8000, 3361939593) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9394,   1,    63, 0, 0, 63) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9394, 67113164, 0, 0);

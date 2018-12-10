@@ -5,14 +5,12 @@ VALUES (38613, 'ace38613-blackcoral', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38613,   1,        128) /* ItemType - Misc */
-     , (38613,   2,          1) /* CreatureType - Olthoi */
      , (38613,   5,         50) /* EncumbranceVal */
      , (38613,  11,         10) /* MaxStackSize */
      , (38613,  12,          1) /* StackSize */
      , (38613,  16,          1) /* ItemUseable - No */
      , (38613,  18,        512) /* UiEffects - Bludgeoning */
      , (38613,  19,          0) /* Value */
-     , (38613,  25,         80) /* Level */
      , (38613,  33,          1) /* Bonded - Bonded */
      , (38613,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38613, 114,          1) /* Attuned - Attuned */;
@@ -44,16 +42,3 @@ VALUES (38613,   1,   33560657) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38613,   2, 2210356871) /* Container */
      , (38613, 8000, 2210356891) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (38613,   1, 300, 0, 0) /* Strength */
-     , (38613,   2, 300, 0, 0) /* Endurance */
-     , (38613,   3, 130, 0, 0) /* Quickness */
-     , (38613,   4, 130, 0, 0) /* Coordination */
-     , (38613,   5, 100, 0, 0) /* Focus */
-     , (38613,   6,  50, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38613,   1,   275, 0, 0, 275) /* MaxHealth */
-     , (38613,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (38613,   5,    50, 0, 0, 50) /* MaxMana */;

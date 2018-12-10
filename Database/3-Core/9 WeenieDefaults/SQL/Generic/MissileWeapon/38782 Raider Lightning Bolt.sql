@@ -36,8 +36,7 @@ VALUES (38782,  39, 1.10000002384186) /* DefaultScale */
      , (38782, 8012, -1.25372433662415) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38782,   1, 'Raider Lightning Bolt') /* Name */
-     , (38782,  16, 'Killed by Ua-King.') /* LongDesc */;
+VALUES (38782,   1, 'Raider Lightning Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38782,   1,   33555695) /* Setup */

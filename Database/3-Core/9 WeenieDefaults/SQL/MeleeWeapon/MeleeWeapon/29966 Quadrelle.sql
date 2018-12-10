@@ -5,17 +5,12 @@ VALUES (29966, 'maceknighthigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29966,   1,          1) /* ItemType - MeleeWeapon */
-     , (29966,   2,         44) /* CreatureType - Grievver */
      , (29966,   5,       5200) /* EncumbranceVal */
      , (29966,   9,   33554432) /* ValidLocations - TwoHanded */
      , (29966,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (29966,  16,          1) /* ItemUseable - No */
      , (29966,  19,        500) /* Value */
-     , (29966,  25,        200) /* Level */
      , (29966,  51,          5) /* CombatUse - TwoHanded */
-     , (29966,  90,        100) /* BoostValue */
-     , (29966,  91,         30) /* MaxStructure */
-     , (29966,  92,         30) /* Structure */
      , (29966,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29966, 151,          2) /* HookType - Wall */;
 
@@ -27,13 +22,8 @@ VALUES (29966,   1, False) /* Stuck */
      , (29966,  19, True ) /* Attackable */
      , (29966,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29966, 100,       1) /* HealkitMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29966,   1, 'Quadrelle') /* Name */
-     , (29966,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (29966,  16, 'Killed by Mag-five.') /* LongDesc */;
+VALUES (29966,   1, 'Quadrelle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29966,   1,   33559359) /* Setup */
@@ -54,9 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29966,   3, 3689992064) /* Wielder */
      , (29966, 8000, 3690117108) /* PCAPRecordedObjectIID */
      , (29966, 8008, 3689992064) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29966,   1,  1370, 0, 0, 1370) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29966, 67116834, 0, 0);

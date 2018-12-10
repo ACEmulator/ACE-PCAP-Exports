@@ -49,8 +49,6 @@ VALUES (12154,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12154,   1, 'Imbued Shield of the Simulacra') /* Name */
-     , (12154,   7, 'Yo') /* Inscription */
-     , (12154,   8, 'Mithril') /* ScribeName */
      , (12154,  16, 'A shield imbued with the power of the Asteliary Gem.') /* LongDesc */
      , (12154,  25, 'Pugilatrix') /* CraftsmanName */;
 

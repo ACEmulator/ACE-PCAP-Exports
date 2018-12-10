@@ -5,7 +5,6 @@ VALUES (15287, 'atlatldartgreater', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15287,   1,        256) /* ItemType - MissileWeapon */
-     , (15287,   2,         79) /* CreatureType - Eater */
      , (15287,   5,        105) /* EncumbranceVal */
      , (15287,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (15287,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,7 +12,6 @@ VALUES (15287,   1,        256) /* ItemType - MissileWeapon */
      , (15287,  12,         21) /* StackSize */
      , (15287,  16,          1) /* ItemUseable - No */
      , (15287,  19,        105) /* Value */
-     , (15287,  25,        100) /* Level */
      , (15287,  44,         18) /* Damage */
      , (15287,  45,          2) /* DamageType - Pierce */
      , (15287,  48,          0) /* WeaponSkill - None */
@@ -22,10 +20,7 @@ VALUES (15287,   1,        256) /* ItemType - MissileWeapon */
      , (15287,  51,          3) /* CombatUse - Ammo */
      , (15287,  65,          1) /* Placement - RightHandCombat */
      , (15287,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (15287, 105,          8) /* ItemWorkmanship */
-     , (15287, 131,         24) /* MaterialType - GreenJade */
      , (15287, 151,          2) /* HookType - Wall */
-     , (15287, 172,          1) /* AppraisalLongDescDecoration */
      , (15287, 179,          0) /* ImbuedEffect - Undef */
      , (15287, 303,          0) /* ImbuedEffect2 - Undef */
      , (15287, 304,          0) /* ImbuedEffect3 - Undef */
@@ -60,9 +55,7 @@ VALUES (15287,  21,       0) /* WeaponLength */
      , (15287, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15287,   1, 'Greater Atlatl Dart') /* Name */
-     , (15287,  14, 'Combine with another dark shard to make a shadow fragment, or combine with a small shard to make a glimmering gem.') /* Use */
-     , (15287,  16, 'Gem') /* LongDesc */;
+VALUES (15287,   1, 'Greater Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15287,   1,   33557434) /* Setup */
@@ -83,9 +76,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (15287,   3, 2780612286) /* Wielder */
      , (15287, 8000, 2780612239) /* PCAPRecordedObjectIID */
      , (15287, 8008, 2780612286) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (15287,   1,   495, 0, 0, 495) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15287, 67111919, 0, 0);

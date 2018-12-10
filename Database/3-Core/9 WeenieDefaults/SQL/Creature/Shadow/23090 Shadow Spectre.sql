@@ -6,11 +6,9 @@ VALUES (23090, 'shadowspecter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23090,   1,         16) /* ItemType - Creature */
      , (23090,   2,         22) /* CreatureType - Shadow */
-     , (23090,   5,         30) /* EncumbranceVal */
      , (23090,   6,        255) /* ItemsCapacity */
      , (23090,   7,        255) /* ContainersCapacity */
      , (23090,  16,          1) /* ItemUseable - No */
-     , (23090,  19,       2000) /* Value */
      , (23090,  25,        115) /* Level */
      , (23090,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (23090, 113,          2) /* Gender - Female */
@@ -32,9 +30,6 @@ VALUES (23090,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23090,   1, 'Shadow Spectre') /* Name */
-     , (23090,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (23090,  16, 'Inscribed spell: Icy Torment
-Shoots a bolt of cold at the target. The bolt does 115-189 points of cold damage to the first thing it hits.') /* LongDesc */
      , (23090, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -73,10 +68,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (23090,   1,   480, 0, 0, 480) /* MaxHealth */
      , (23090,   3,   620, 0, 0, 620) /* MaxStamina */
      , (23090,   5,   590, 0, 0, 482) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23090,  2136,      2) 
-     , (23090,  2141,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23090, 67112860, 0, 0);

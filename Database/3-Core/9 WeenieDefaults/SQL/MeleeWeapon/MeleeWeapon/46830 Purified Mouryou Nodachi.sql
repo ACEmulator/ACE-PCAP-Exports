@@ -55,8 +55,6 @@ VALUES (46830,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46830,   1, 'Purified Mouryou Nodachi') /* Name */
-     , (46830,   7, 'Hanamoto Aki''ko gives you Purified Mouryou Nodachi.') /* Inscription */
-     , (46830,   8, 'Hot Shot''') /* ScribeName */
      , (46830,  16, 'A spectral nodachi that burns with an inner light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

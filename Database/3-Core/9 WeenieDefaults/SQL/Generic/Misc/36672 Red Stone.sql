@@ -23,8 +23,7 @@ VALUES (36672,   1, False) /* Stuck */
      , (36672,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36672,   1, 'Red Stone') /* Name */
-     , (36672,  16, 'Killed by Pure noobage.') /* LongDesc */;
+VALUES (36672,   1, 'Red Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36672,   1,   33554669) /* Setup */

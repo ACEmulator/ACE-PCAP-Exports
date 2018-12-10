@@ -42,12 +42,12 @@ VALUES (14412,   1,   33554433) /* Setup */
      , (14412,   3,  536870913) /* SoundTable */
      , (14412,   6,   67108990) /* PaletteBase */
      , (14412,   8,  100667446) /* Icon */
-     , (14412,   9,   83890467) /* EyesTexture */
-     , (14412,  10,   83890530) /* NoseTexture */
-     , (14412,  11,   83890614) /* MouthTexture */
-     , (14412,  15,   67117068) /* HairPalette */
-     , (14412,  16,   67110062) /* EyesPalette */
-     , (14412,  17,   67109553) /* SkinPalette */
+     , (14412,   9,   83890514) /* EyesTexture */
+     , (14412,  10,   83890536) /* NoseTexture */
+     , (14412,  11,   83890610) /* MouthTexture */
+     , (14412,  15,   67117074) /* HairPalette */
+     , (14412,  16,   67109567) /* EyesPalette */
+     , (14412,  17,   67109550) /* SkinPalette */
      , (14412, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (14412, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (14412, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;

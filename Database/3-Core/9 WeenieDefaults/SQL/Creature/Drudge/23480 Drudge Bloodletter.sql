@@ -6,59 +6,27 @@ VALUES (23480, 'drudgebloodletter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23480,   1,         16) /* ItemType - Creature */
      , (23480,   2,          3) /* CreatureType - Drudge */
-     , (23480,   5,         12) /* EncumbranceVal */
      , (23480,   6,        255) /* ItemsCapacity */
      , (23480,   7,        255) /* ContainersCapacity */
      , (23480,  16,          1) /* ItemUseable - No */
-     , (23480,  19,         15) /* Value */
      , (23480,  25,        135) /* Level */
-     , (23480,  33,         -2) /* Bonded - Destroy */
-     , (23480,  44,          8) /* Damage */
-     , (23480,  45,         64) /* DamageType - Electric */
-     , (23480,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (23480,  49,         10) /* WeaponTime */
      , (23480,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23480, 105,          8) /* ItemWorkmanship */
-     , (23480, 131,         51) /* MaterialType - Ivory */
      , (23480, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23480, 158,          2) /* WieldRequirements - RawSkill */
-     , (23480, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (23480, 160,        315) /* WieldDifficulty */
-     , (23480, 172,          5) /* AppraisalLongDescDecoration */
-     , (23480, 177,          4) /* GemCount */
-     , (23480, 178,         21) /* GemType */
-     , (23480, 204,          2) /* ElementalDamageBonus */
      , (23480, 307,          5) /* DamageRating */
-     , (23480, 313,          0) /* CritRating */
-     , (23480, 314,          0) /* CritDamageRating */
-     , (23480, 353,         10) /* WeaponType - Thrown */
-     , (23480, 386,          0) /* Overpower */
-     , (23480, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (23480, 8030,          0);
+     , (23480, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23480,   1, True ) /* Stuck */
-     , (23480,   2, True ) /* Open */
      , (23480,  12, True ) /* ReportCollisions */
      , (23480,  13, False) /* Ethereal */
      , (23480,  14, True ) /* GravityStatus */
      , (23480,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23480,  21,       0) /* WeaponLength */
-     , (23480,  22,    0.25) /* DamageVariance */
-     , (23480,  26,      15) /* MaximumVelocity */
-     , (23480,  29,       1) /* WeaponDefense */
-     , (23480,  39, 1.29999995231628) /* DefaultScale */
-     , (23480,  62,       1) /* WeaponOffense */
-     , (23480,  63,       1) /* DamageMod */
-     , (23480, 149,       0) /* WeaponMissileDefense */
-     , (23480, 150,       0) /* WeaponMagicDefense */;
+VALUES (23480,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23480,   1, 'Drudge Bloodletter') /* Name */
-     , (23480,  14, 'Use this item to close it.') /* Use */
-     , (23480,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (23480, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

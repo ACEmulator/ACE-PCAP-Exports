@@ -6,11 +6,9 @@ VALUES (24576, 'leathercraftercandethkeep', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24576,   1,         16) /* ItemType - Creature */
      , (24576,   2,         57) /* CreatureType - AunTumerok */
-     , (24576,   5,         30) /* EncumbranceVal */
      , (24576,   6,        255) /* ItemsCapacity */
      , (24576,   7,        255) /* ContainersCapacity */
      , (24576,  16,         32) /* ItemUseable - Remote */
-     , (24576,  19,       1000) /* Value */
      , (24576,  25,         78) /* Level */
      , (24576,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24576,  95,          8) /* RadarBlipColor - Yellow */
@@ -35,9 +33,6 @@ VALUES (24576,  39, 1.29999995231628) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24576,   1, 'Aun Xathurea the Leather Crafter') /* Name */
      , (24576,   5, 'Trophy Collector') /* Template */
-     , (24576,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (24576,  16, 'Inscribed spell: Flame Bane VI
-Increases a shield or piece of armor''s resistance to fire damage by 150%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */
      , (24576, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -68,6 +63,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24576,   1,   203, 0, 0, 203) /* MaxHealth */
      , (24576,   3,   285, 0, 0, 285) /* MaxStamina */
      , (24576,   5,    70, 0, 0, 70) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24576,  1552,      2) ;

@@ -6,23 +6,12 @@ VALUES (4255, 'shrethmalus', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4255,   1,         16) /* ItemType - Creature */
      , (4255,   2,         32) /* CreatureType - Shreth */
-     , (4255,   5,         60) /* EncumbranceVal */
      , (4255,   6,        255) /* ItemsCapacity */
      , (4255,   7,        255) /* ContainersCapacity */
      , (4255,  16,          1) /* ItemUseable - No */
-     , (4255,  19,          0) /* Value */
      , (4255,  25,         80) /* Level */
-     , (4255,  33,          1) /* Bonded - Bonded */
      , (4255,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4255, 106,        150) /* ItemSpellcraft */
-     , (4255, 107,        600) /* ItemCurMana */
-     , (4255, 108,        600) /* ItemMaxMana */
-     , (4255, 109,        125) /* ItemDifficulty */
-     , (4255, 113,          2) /* Gender - Female */
-     , (4255, 114,          1) /* Attuned - Attuned */
      , (4255, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4255, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4255, 188,          1) /* HeritageGroup - Aluvian */
      , (4255, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,17 +19,13 @@ VALUES (4255,   1, True ) /* Stuck */
      , (4255,  12, True ) /* ReportCollisions */
      , (4255,  13, False) /* Ethereal */
      , (4255,  14, True ) /* GravityStatus */
-     , (4255,  19, True ) /* Attackable */
-     , (4255,  99, True ) /* Ivoryable */;
+     , (4255,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4255,   5,   -0.04) /* ManaRate */
-     , (4255,  39, 1.45000004768372) /* DefaultScale */;
+VALUES (4255,  39, 1.45000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4255,   1, 'Malus Shreth') /* Name */
-     , (4255,   5, 'Trophy Collector') /* Template */
-     , (4255,  15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Soldier quest.') /* ShortDesc */
      , (4255, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -49,12 +34,6 @@ VALUES (4255,   1,   33555879) /* Setup */
      , (4255,   3,  536870986) /* SoundTable */
      , (4255,   6,   67112444) /* PaletteBase */
      , (4255,   8,  100669720) /* Icon */
-     , (4255,   9,   83890283) /* EyesTexture */
-     , (4255,  10,   83890292) /* NoseTexture */
-     , (4255,  11,   83890345) /* MouthTexture */
-     , (4255,  15,   67116990) /* HairPalette */
-     , (4255,  16,   67110062) /* EyesPalette */
-     , (4255,  17,   67109561) /* SkinPalette */
      , (4255,  22,  872415333) /* PhysicsEffectTable */
      , (4255, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (4255, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
@@ -79,10 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4255,   1,   245, 0, 0, 245) /* MaxHealth */
      , (4255,   3,   480, 0, 0, 480) /* MaxStamina */
      , (4255,   5,   130, 0, 0, 130) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4255,   241,      2) 
-     , (4255,  1142,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4255, 67112880, 0, 0);

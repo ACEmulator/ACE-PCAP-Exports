@@ -38,7 +38,7 @@ VALUES (11136,   1,   33555975) /* Setup */
      , (11136,   3,  536870932) /* SoundTable */
      , (11136,   8,  100671979) /* Icon */
      , (11136,  22,  872415275) /* PhysicsEffectTable */
-     , (11136,  28,       2433) /* Spell */
+     , (11136,  28,       2433) /* Spell - FlameWard */
      , (11136, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (11136, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (11136, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

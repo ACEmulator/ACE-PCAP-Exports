@@ -10,28 +10,10 @@ VALUES (15402,   1,          2) /* ItemType - Armor */
      , (15402,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (15402,  16,          1) /* ItemUseable - No */
      , (15402,  19,        120) /* Value */
-     , (15402,  28,        398) /* ArmorLevel */
      , (15402,  33,         -2) /* Bonded - Destroy */
-     , (15402,  36,       9999) /* ResistMagic */
      , (15402,  51,          4) /* CombatUse - Shield */
      , (15402,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15402, 105,          4) /* ItemWorkmanship */
-     , (15402, 106,        279) /* ItemSpellcraft */
-     , (15402, 107,        747) /* ItemCurMana */
-     , (15402, 108,        747) /* ItemMaxMana */
-     , (15402, 109,        138) /* ItemDifficulty */
-     , (15402, 110,          0) /* ItemAllegianceRankLimit */
-     , (15402, 114,          1) /* Attuned - Attuned */
-     , (15402, 115,        299) /* ItemSkillLevelLimit */
-     , (15402, 117,        350) /* ItemManaCost */
-     , (15402, 131,         59) /* MaterialType - Copper */
-     , (15402, 158,          2) /* WieldRequirements - RawSkill */
-     , (15402, 159,         15) /* WieldSkilltype - MagicDefense */
-     , (15402, 160,        245) /* WieldDifficulty */
-     , (15402, 172,          5) /* AppraisalLongDescDecoration */
-     , (15402, 176,          6) /* AppraisalItemSkill */
-     , (15402, 177,          3) /* GemCount */
-     , (15402, 178,         33) /* GemType */;
+     , (15402, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15402,   1, False) /* Stuck */
@@ -42,20 +24,10 @@ VALUES (15402,   1, False) /* Stuck */
      , (15402,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15402,   5, -0.0555555555555556) /* ManaRate */
-     , (15402,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (15402,  14,     1.5) /* ArmorModVsPierce */
-     , (15402,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (15402,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (15402,  17, 1.60000002384186) /* ArmorModVsFire */
-     , (15402,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (15402,  19, 1.20000004768372) /* ArmorModVsElectric */
-     , (15402,  39,     2.5) /* DefaultScale */
-     , (15402, 165,       1) /* ArmorModVsNether */;
+VALUES (15402,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15402,   1, 'Cragstone''s Shield') /* Name */
-     , (15402,  16, 'Covenant Shield of Invulnerability') /* LongDesc */;
+VALUES (15402,   1, 'Cragstone''s Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15402,   1,   33554788) /* Setup */
@@ -76,15 +48,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (15402,   3, 3360318671) /* Wielder */
      , (15402, 8000, 3360318712) /* PCAPRecordedObjectIID */
      , (15402, 8008, 3360318671) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (15402,   249,      2) 
-     , (15402,  1354,      2) 
-     , (15402,  1498,      2) 
-     , (15402,  1516,      2) 
-     , (15402,  2108,      2) 
-     , (15402,  2110,      2) 
-     , (15402,  2617,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15402, 67113836, 0, 0);

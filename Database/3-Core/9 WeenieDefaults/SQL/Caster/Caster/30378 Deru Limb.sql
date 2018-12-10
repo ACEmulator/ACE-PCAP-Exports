@@ -53,7 +53,7 @@ VALUES (30378,   1,   33559426) /* Setup */
      , (30378,   3,  536870932) /* SoundTable */
      , (30378,   8,  100686855) /* Icon */
      , (30378,  22,  872415275) /* PhysicsEffectTable */
-     , (30378,  28,       2073) /* Spell */
+     , (30378,  28,       2073) /* Spell - HealSelf7 */
      , (30378,  52,  100686604) /* IconUnderlay */
      , (30378, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (30378, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

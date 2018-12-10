@@ -39,7 +39,7 @@ VALUES (47055,   1,   33554809) /* Setup */
      , (47055,   6,   67111919) /* PaletteBase */
      , (47055,   8,  100692971) /* Icon */
      , (47055,  22,  872415275) /* PhysicsEffectTable */
-     , (47055,  28,       6035) /* Spell */
+     , (47055,  28,       6035) /* Spell - CantripSpiritofIzexi */
      , (47055, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (47055, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (47055, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

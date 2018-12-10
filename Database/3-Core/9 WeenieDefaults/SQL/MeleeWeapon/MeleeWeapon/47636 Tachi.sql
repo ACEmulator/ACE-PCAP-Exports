@@ -5,13 +5,11 @@ VALUES (47636, 'ace47636-tachi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47636,   1,          1) /* ItemType - MeleeWeapon */
-     , (47636,   2,          6) /* CreatureType - Tumerok */
      , (47636,   5,        450) /* EncumbranceVal */
      , (47636,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47636,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47636,  16,          1) /* ItemUseable - No */
      , (47636,  19,        460) /* Value */
-     , (47636,  25,         50) /* Level */
      , (47636,  33,         -2) /* Bonded - Destroy */
      , (47636,  44,         26) /* Damage */
      , (47636,  45,          3) /* DamageType - Slash, Pierce */
@@ -21,9 +19,7 @@ VALUES (47636,   1,          1) /* ItemType - MeleeWeapon */
      , (47636,  51,          1) /* CombatUse - Melee */
      , (47636,  65,          1) /* Placement - RightHandCombat */
      , (47636,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47636, 107,          0) /* ItemCurMana */
      , (47636, 151,          2) /* HookType - Wall */
-     , (47636, 307,          5) /* DamageRating */
      , (47636, 353,          2) /* WeaponType - Sword */
      , (47636, 8030,          0);
 
@@ -41,13 +37,10 @@ VALUES (47636,  21,       0) /* WeaponLength */
      , (47636,  26,       0) /* MaximumVelocity */
      , (47636,  29,       1) /* WeaponDefense */
      , (47636,  62,       1) /* WeaponOffense */
-     , (47636,  63,       1) /* DamageMod */
-     , (47636,  87,     1.2) /* ItemEfficiency */
-     , (47636, 137,    0.15) /* ManaStoneDestroyChance */;
+     , (47636,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47636,   1, 'Tachi') /* Name */
-     , (47636,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (47636,   1, 'Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47636,   1,   33554742) /* Setup */
@@ -68,19 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47636,   3, 3685884603) /* Wielder */
      , (47636, 8000, 3685884622) /* PCAPRecordedObjectIID */
      , (47636, 8008, 3685884603) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47636,   1, 170, 0, 0) /* Strength */
-     , (47636,   2, 180, 0, 0) /* Endurance */
-     , (47636,   3, 170, 0, 0) /* Quickness */
-     , (47636,   4, 165, 0, 0) /* Coordination */
-     , (47636,   5, 145, 0, 0) /* Focus */
-     , (47636,   6, 140, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47636,   1,   160, 0, 0, 160) /* MaxHealth */
-     , (47636,   3,   309, 0, 0, 307) /* MaxStamina */
-     , (47636,   5,   140, 0, 0, 117) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47636, 67111920, 0, 0);

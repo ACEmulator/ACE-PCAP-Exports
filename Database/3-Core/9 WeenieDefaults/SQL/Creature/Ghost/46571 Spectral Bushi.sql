@@ -6,11 +6,9 @@ VALUES (46571, 'ace46571-spectralbushi', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46571,   1,         16) /* ItemType - Creature */
      , (46571,   2,         77) /* CreatureType - Ghost */
-     , (46571,   5,       6000) /* EncumbranceVal */
      , (46571,   6,        255) /* ItemsCapacity */
      , (46571,   7,        255) /* ContainersCapacity */
      , (46571,  16,          1) /* ItemUseable - No */
-     , (46571,  19,          0) /* Value */
      , (46571,  25,        240) /* Level */
      , (46571,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46571, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (46571,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46571,   1, 'Spectral Bushi') /* Name */
-     , (46571,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (46571, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -27,9 +27,6 @@ VALUES (6127,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6127,   1, 'Stone Tool') /* Name */
-     , (6127,   7, 'http://www.theonion.com/onion3011/cola.html
-') /* Inscription */
-     , (6127,   8, 'Killarwolf') /* ScribeName */
      , (6127,  14, 'Use this tool to remove an elemental stone from an Empyrean or Isparian weapon or a piece of Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

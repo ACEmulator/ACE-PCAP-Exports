@@ -28,8 +28,7 @@ VALUES (27371,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27371,  29,       1) /* WeaponDefense */
      , (27371,  39, 1.10000002384186) /* DefaultScale */
-     , (27371, 144,       0) /* ManaConversionMod */
-     , (27371, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (27371, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27371,   1, 'Buadren') /* Name */

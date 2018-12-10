@@ -13,9 +13,6 @@ VALUES (49015,   1,         16) /* ItemType - Creature */
      , (49015,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49015, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49015, 307,         20) /* DamageRating */
-     , (49015, 313,         19) /* CritRating */
-     , (49015, 314,         18) /* CritDamageRating */
-     , (49015, 315,          4) /* CritResistRating */
      , (49015, 316,         15) /* CritDamageResistRating */
      , (49015, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 

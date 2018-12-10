@@ -5,11 +5,9 @@ VALUES (30983, 'snowlily', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30983,   1,        128) /* ItemType - Misc */
-     , (30983,   2,          8) /* CreatureType - Tusker */
      , (30983,   5,         10) /* EncumbranceVal */
      , (30983,  16,          1) /* ItemUseable - No */
      , (30983,  19,        165) /* Value */
-     , (30983,  25,         80) /* Level */
      , (30983,  33,          0) /* Bonded - Normal */
      , (30983,  65,        101) /* Placement - Resting */
      , (30983,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -43,6 +41,3 @@ VALUES (30983, 8040, 23855549, 47.98972, -40.23125, 0, 0.1414164, 0, 0, -0.98995
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30983, 8000, 3202088897) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30983,   1,   400, 0, 0, 400) /* MaxHealth */;

@@ -10,7 +10,6 @@ VALUES (15889,   1,          1) /* ItemType - MeleeWeapon */
      , (15889,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (15889,  16,          1) /* ItemUseable - No */
      , (15889,  19,          0) /* Value */
-     , (15889,  33,          0) /* Bonded - Normal */
      , (15889,  44,          4) /* Damage */
      , (15889,  45,          3) /* DamageType - Slash, Pierce */
      , (15889,  47,          6) /* AttackType - Thrust, Slash */
@@ -19,10 +18,7 @@ VALUES (15889,   1,          1) /* ItemType - MeleeWeapon */
      , (15889,  51,          1) /* CombatUse - Melee */
      , (15889,  65,          1) /* Placement - RightHandCombat */
      , (15889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15889, 114,          0) /* Attuned - Normal */
      , (15889, 151,          2) /* HookType - Wall */
-     , (15889, 174,          1) /* AppraisalPages */
-     , (15889, 175,          1) /* AppraisalMaxPages */
      , (15889, 353,          6) /* WeaponType - Dagger */
      , (15889, 8030,          0);
 
@@ -44,11 +40,7 @@ VALUES (15889,  21,       0) /* WeaponLength */
      , (15889,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15889,   1, 'Bronze Dagger') /* Name */
-     , (15889,   7, 'mahs
-') /* Inscription */
-     , (15889,   8, 'Might of the bow') /* ScribeName */
-     , (15889,  15, 'A bright gold piece of paper with some writing on it.') /* ShortDesc */;
+VALUES (15889,   1, 'Bronze Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15889,   1,   33554735) /* Setup */

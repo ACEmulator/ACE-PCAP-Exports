@@ -6,40 +6,17 @@ VALUES (42722, 'ace42722-haruko', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42722,   1,         16) /* ItemType - Creature */
      , (42722,   2,         31) /* CreatureType - Human */
-     , (42722,   5,        825) /* EncumbranceVal */
      , (42722,   6,        255) /* ItemsCapacity */
      , (42722,   7,        255) /* ContainersCapacity */
      , (42722,  16,         32) /* ItemUseable - Remote */
-     , (42722,  19,       2975) /* Value */
      , (42722,  25,        200) /* Level */
-     , (42722,  44,          0) /* Damage */
-     , (42722,  45,          0) /* DamageType - Undef */
-     , (42722,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (42722,  49,         38) /* WeaponTime */
      , (42722,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42722,  95,          8) /* RadarBlipColor - Yellow */
-     , (42722, 105,          3) /* ItemWorkmanship */
-     , (42722, 106,        237) /* ItemSpellcraft */
-     , (42722, 107,        881) /* ItemCurMana */
-     , (42722, 108,        881) /* ItemMaxMana */
-     , (42722, 109,        114) /* ItemDifficulty */
-     , (42722, 110,          0) /* ItemAllegianceRankLimit */
      , (42722, 113,          2) /* Gender - Female */
-     , (42722, 115,        257) /* ItemSkillLevelLimit */
-     , (42722, 131,         75) /* MaterialType - Oak */
      , (42722, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42722, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42722, 158,          2) /* WieldRequirements - RawSkill */
-     , (42722, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (42722, 160,        270) /* WieldDifficulty */
-     , (42722, 172,          5) /* AppraisalLongDescDecoration */
-     , (42722, 176,         47) /* AppraisalItemSkill */
-     , (42722, 177,          2) /* GemCount */
-     , (42722, 178,         41) /* GemType */
      , (42722, 188,          3) /* HeritageGroup - Sho */
-     , (42722, 353,          8) /* WeaponType - Bow */
-     , (42722, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (42722, 8030,          0);
+     , (42722, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42722,   1, True ) /* Stuck */
@@ -52,19 +29,11 @@ VALUES (42722,   1, True ) /* Stuck */
      , (42722,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42722,   5,   -0.05) /* ManaRate */
-     , (42722,  21,       0) /* WeaponLength */
-     , (42722,  22,       0) /* DamageVariance */
-     , (42722,  26,    27.3) /* MaximumVelocity */
-     , (42722,  29,    1.09) /* WeaponDefense */
-     , (42722,  54,       3) /* UseRadius */
-     , (42722,  62,       1) /* WeaponOffense */
-     , (42722,  63,    2.25) /* DamageMod */;
+VALUES (42722,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42722,   1, 'Haruko') /* Name */
      , (42722,   5, 'Barber') /* Template */
-     , (42722,  16, 'Nayin of Blood Drinker') /* LongDesc */
      , (42722, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -102,10 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42722,   1,   110, 0, 0, 110) /* MaxHealth */
      , (42722,   3,   180, 0, 0, 180) /* MaxStamina */
      , (42722,   5,   105, 0, 0, 105) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42722,  1616,      2) 
-     , (42722,  2545,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42722, 67109967, 92, 4)

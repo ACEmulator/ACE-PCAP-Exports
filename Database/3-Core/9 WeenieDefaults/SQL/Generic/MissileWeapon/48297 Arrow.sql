@@ -5,7 +5,6 @@ VALUES (48297, 'ace48297-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48297,   1,        256) /* ItemType - MissileWeapon */
-     , (48297,   2,          1) /* CreatureType - Olthoi */
      , (48297,   5,        760) /* EncumbranceVal */
      , (48297,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48297,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,8 +13,6 @@ VALUES (48297,   1,        256) /* ItemType - MissileWeapon */
      , (48297,  16,          1) /* ItemUseable - No */
      , (48297,  18,         32) /* UiEffects - Fire */
      , (48297,  19,        152) /* Value */
-     , (48297,  25,        100) /* Level */
-     , (48297,  26,          0) /* AccountRequirements - No_Subscription */
      , (48297,  33,         -2) /* Bonded - Destroy */
      , (48297,  44,        114) /* Damage */
      , (48297,  45,         16) /* DamageType - Fire */
@@ -24,10 +21,7 @@ VALUES (48297,   1,        256) /* ItemType - MissileWeapon */
      , (48297,  50,          1) /* AmmoType - Arrow */
      , (48297,  51,          3) /* CombatUse - Ammo */
      , (48297,  65,          1) /* Placement - RightHandCombat */
-     , (48297,  86,         -1) /* MinLevel */
-     , (48297,  87,         -1) /* MaxLevel */
      , (48297,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48297, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (48297, 151,          2) /* HookType - Wall */
      , (48297, 179,          0) /* ImbuedEffect - Undef */
      , (48297, 303,          0) /* ImbuedEffect2 - Undef */
@@ -62,9 +56,7 @@ VALUES (48297,  21,       0) /* WeaponLength */
      , (48297, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48297,   1, 'Arrow') /* Name */
-     , (48297,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */
-     , (48297,  38, 'Gateway (21.5S, 74.6W).') /* AppraisalPortalDestination */;
+VALUES (48297,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48297,   1,   33555406) /* Setup */
@@ -85,9 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48297,   3, 2880074523) /* Wielder */
      , (48297, 8000, 2880157551) /* PCAPRecordedObjectIID */
      , (48297, 8008, 2880074523) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48297,   1,   410, 0, 0, 410) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48297, 67111921, 0, 0);

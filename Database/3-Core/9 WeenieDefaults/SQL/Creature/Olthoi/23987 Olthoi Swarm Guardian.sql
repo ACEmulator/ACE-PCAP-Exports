@@ -6,11 +6,9 @@ VALUES (23987, 'olthoiswarmguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23987,   1,         16) /* ItemType - Creature */
      , (23987,   2,          1) /* CreatureType - Olthoi */
-     , (23987,   5,       6070) /* EncumbranceVal */
      , (23987,   6,        255) /* ItemsCapacity */
      , (23987,   7,        255) /* ContainersCapacity */
      , (23987,  16,          1) /* ItemUseable - No */
-     , (23987,  19,          0) /* Value */
      , (23987,  25,        115) /* Level */
      , (23987,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23987, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (23987,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23987,   1, 'Olthoi Swarm Guardian') /* Name */
-     , (23987,  16, 'Killed by Ragarnok.') /* LongDesc */
      , (23987, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

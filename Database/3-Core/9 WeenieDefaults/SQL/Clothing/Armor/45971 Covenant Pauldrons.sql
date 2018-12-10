@@ -31,7 +31,6 @@ VALUES (45971,   1, False) /* Stuck */
      , (45971,  14, True ) /* GravityStatus */
      , (45971,  19, True ) /* Attackable */
      , (45971,  22, True ) /* Inscribable */
-     , (45971,  85, True ) /* AppraisalHasAllowedWielder */
      , (45971,  99, True ) /* Ivoryable */
      , (45971, 100, True ) /* Dyable */;
 
@@ -49,8 +48,7 @@ VALUES (45971,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45971,   1, 'Covenant Pauldrons') /* Name */
-     , (45971,  16, NULL) /* LongDesc */
-     , (45971,  25, 'Brambles') /* CraftsmanName */;
+     , (45971,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45971,   1,   33554641) /* Setup */

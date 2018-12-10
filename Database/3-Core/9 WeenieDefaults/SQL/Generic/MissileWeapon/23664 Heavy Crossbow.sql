@@ -19,11 +19,6 @@ VALUES (23664,   1,        256) /* ItemType - MissileWeapon */
      , (23664,  51,          2) /* CombatUse - Missle */
      , (23664,  65,          3) /* Placement - LeftHand */
      , (23664,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23664, 106,        300) /* ItemSpellcraft */
-     , (23664, 107,         50) /* ItemCurMana */
-     , (23664, 108,         50) /* ItemMaxMana */
-     , (23664, 109,          0) /* ItemDifficulty */
-     , (23664, 110,          0) /* ItemAllegianceRankLimit */
      , (23664, 353,          9) /* WeaponType - Crossbow */
      , (23664, 8030,          0);
 
@@ -33,8 +28,7 @@ VALUES (23664,   1, False) /* Stuck */
      , (23664,  13, True ) /* Ethereal */
      , (23664,  14, True ) /* GravityStatus */
      , (23664,  19, True ) /* Attackable */
-     , (23664,  22, True ) /* Inscribable */
-     , (23664,  69, False) /* IsSellable */;
+     , (23664,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23664,  21,       0) /* WeaponLength */
@@ -46,9 +40,7 @@ VALUES (23664,  21,       0) /* WeaponLength */
      , (23664,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23664,   1, 'Heavy Crossbow') /* Name */
-     , (23664,  14, 'Use this item to eat it.') /* Use */
-     , (23664,  16, 'A festival treat. A little rat shaped licorice candy. It jumps and squeaks like the real thing! But it''s much safer to eat.') /* LongDesc */;
+VALUES (23664,   1, 'Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23664,   1,   33554732) /* Setup */
@@ -69,9 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23664,   3, 3688329657) /* Wielder */
      , (23664, 8000, 3688329706) /* PCAPRecordedObjectIID */
      , (23664, 8008, 3688329657) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23664,  4211,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23664, 67111920, 0, 0);

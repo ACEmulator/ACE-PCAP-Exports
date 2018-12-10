@@ -42,7 +42,7 @@ VALUES (30204,   1,   33554809) /* Setup */
      , (30204,   6,   67111919) /* PaletteBase */
      , (30204,   8,  100686695) /* Icon */
      , (30204,  22,  872415275) /* PhysicsEffectTable */
-     , (30204,  28,       3703) /* Spell */
+     , (30204,  28,       3703) /* Spell - FlameBaneRare */
      , (30204,  50,  100686650) /* IconOverlay */
      , (30204,  52,  100686604) /* IconUnderlay */
      , (30204, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */

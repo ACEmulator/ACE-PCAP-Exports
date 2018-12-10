@@ -6,29 +6,12 @@ VALUES (10776, 'drudgeunconquered', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10776,   1,         16) /* ItemType - Creature */
      , (10776,   2,          3) /* CreatureType - Drudge */
-     , (10776,   5,         75) /* EncumbranceVal */
      , (10776,   6,        255) /* ItemsCapacity */
      , (10776,   7,        255) /* ContainersCapacity */
      , (10776,  16,          1) /* ItemUseable - No */
-     , (10776,  19,       9093) /* Value */
      , (10776,  25,        115) /* Level */
-     , (10776,  28,          0) /* ArmorLevel */
      , (10776,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (10776, 105,          8) /* ItemWorkmanship */
-     , (10776, 106,        370) /* ItemSpellcraft */
-     , (10776, 107,       1992) /* ItemCurMana */
-     , (10776, 108,       1992) /* ItemMaxMana */
-     , (10776, 109,        295) /* ItemDifficulty */
-     , (10776, 110,          0) /* ItemAllegianceRankLimit */
-     , (10776, 115,          0) /* ItemSkillLevelLimit */
-     , (10776, 131,          6) /* MaterialType - Silk */
      , (10776, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10776, 158,          7) /* WieldRequirements - Level */
-     , (10776, 159,          1) /* WieldSkilltype - Axe */
-     , (10776, 160,        150) /* WieldDifficulty */
-     , (10776, 172,          5) /* AppraisalLongDescDecoration */
-     , (10776, 177,          2) /* GemCount */
-     , (10776, 178,         33) /* GemType */
      , (10776, 307,          5) /* DamageRating */
      , (10776, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -37,24 +20,13 @@ VALUES (10776,   1, True ) /* Stuck */
      , (10776,  12, True ) /* ReportCollisions */
      , (10776,  13, False) /* Ethereal */
      , (10776,  14, True ) /* GravityStatus */
-     , (10776,  19, True ) /* Attackable */
-     , (10776, 100, True ) /* Dyable */;
+     , (10776,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10776,   5, -0.0666666666666667) /* ManaRate */
-     , (10776,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (10776,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (10776,  15,       1) /* ArmorModVsBludgeon */
-     , (10776,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (10776,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (10776,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (10776,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (10776,  39, 1.29999995231628) /* DefaultScale */
-     , (10776, 165,       1) /* ArmorModVsNether */;
+VALUES (10776,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10776,   1, 'Unconquered Drudge') /* Name */
-     , (10776,  16, 'Vest of Protection') /* LongDesc */
      , (10776, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,10 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (10776,   1,   503, 0, 0, 503) /* MaxHealth */
      , (10776,   3,   705, 0, 0, 705) /* MaxStamina */
      , (10776,   5,   370, 0, 0, 370) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10776,  2585,      2) 
-     , (10776,  4291,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10776, 67114278, 0, 0);

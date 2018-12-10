@@ -6,11 +6,9 @@ VALUES (24283, 'drudgesage', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24283,   1,         16) /* ItemType - Creature */
      , (24283,   2,          3) /* CreatureType - Drudge */
-     , (24283,   5,         30) /* EncumbranceVal */
      , (24283,   6,        255) /* ItemsCapacity */
      , (24283,   7,        255) /* ContainersCapacity */
      , (24283,  16,          1) /* ItemUseable - No */
-     , (24283,  19,       2000) /* Value */
      , (24283,  25,        100) /* Level */
      , (24283,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24283, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,9 +27,6 @@ VALUES (24283,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24283,   1, 'Drudge Sage') /* Name */
-     , (24283,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (24283,  16, 'Inscribed spell: Finesse Weapon Ineptitude Other VII
-Decreases the target''s Finesse Weapons skill by 40 points.') /* LongDesc */
      , (24283, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -64,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24283,   1,   375, 0, 0, 375) /* MaxHealth */
      , (24283,   3,   590, 0, 0, 590) /* MaxStamina */
      , (24283,   5,   360, 0, 0, 360) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24283,  2220,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24283, 67114281, 0, 0);

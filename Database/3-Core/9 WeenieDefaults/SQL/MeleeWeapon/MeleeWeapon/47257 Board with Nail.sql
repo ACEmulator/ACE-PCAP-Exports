@@ -5,13 +5,11 @@ VALUES (47257, 'ace47257-boardwithnail', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47257,   1,          1) /* ItemType - MeleeWeapon */
-     , (47257,   2,         78) /* CreatureType - Fiun */
      , (47257,   5,        800) /* EncumbranceVal */
      , (47257,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47257,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47257,  16,          1) /* ItemUseable - No */
      , (47257,  19,        350) /* Value */
-     , (47257,  25,        115) /* Level */
      , (47257,  51,          1) /* CombatUse - Melee */
      , (47257,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47257, 151,          2) /* HookType - Wall */;
@@ -25,8 +23,7 @@ VALUES (47257,   1, False) /* Stuck */
      , (47257,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47257,   1, 'Board with Nail') /* Name */
-     , (47257,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (47257,   1, 'Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47257,   1,   33559627) /* Setup */
@@ -47,9 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47257,   3, 3688391883) /* Wielder */
      , (47257, 8000, 3688391877) /* PCAPRecordedObjectIID */
      , (47257, 8008, 3688391883) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47257,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47257, 67116700, 0, 101)

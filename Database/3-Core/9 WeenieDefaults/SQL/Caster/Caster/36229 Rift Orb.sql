@@ -34,8 +34,7 @@ VALUES (36229,   5, -0.0333333015441895) /* ManaRate */
      , (36229,  29, 1.10000002384186) /* WeaponDefense */
      , (36229,  39, 0.600000023841858) /* DefaultScale */
      , (36229, 144, 0.100000001490116) /* ManaConversionMod */
-     , (36229, 147,       1) /* CriticalFrequency */
-     , (36229, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (36229, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36229,   1, 'Rift Orb') /* Name */
@@ -47,7 +46,7 @@ VALUES (36229,   1,   33560377) /* Setup */
      , (36229,   3,  536870932) /* SoundTable */
      , (36229,   8,  100689612) /* Icon */
      , (36229,  22,  872415275) /* PhysicsEffectTable */
-     , (36229,  28,       2100) /* Spell */
+     , (36229,  28,       2100) /* Spell - Brittlemail7 */
      , (36229, 8001,  275333144) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (36229, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36229, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

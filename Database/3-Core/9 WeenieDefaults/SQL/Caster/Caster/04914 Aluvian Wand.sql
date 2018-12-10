@@ -25,13 +25,10 @@ VALUES (4914,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4914,  29,       1) /* WeaponDefense */
-     , (4914, 144, 1.08013645316519E-314) /* ManaConversionMod */
-     , (4914, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (4914, 144, 1.08013645316519E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4914,   1, 'Aluvian Wand') /* Name */
-     , (4914,   7, 'pp wand for my girlfriend for the next 10 hours') /* Inscription */
-     , (4914,   8, 'Kilemal') /* ScribeName */;
+VALUES (4914,   1, 'Aluvian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4914,   1,   33554812) /* Setup */

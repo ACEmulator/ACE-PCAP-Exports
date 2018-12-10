@@ -10,22 +10,9 @@ VALUES (15877,   1,          1) /* ItemType - MeleeWeapon */
      , (15877,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (15877,  16,          1) /* ItemUseable - No */
      , (15877,  19,        310) /* Value */
-     , (15877,  33,          0) /* Bonded - Normal */
      , (15877,  51,          1) /* CombatUse - Melee */
      , (15877,  65,          1) /* Placement - RightHandCombat */
-     , (15877,  91,         50) /* MaxStructure */
-     , (15877,  92,         50) /* Structure */
-     , (15877,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15877, 105,          8) /* ItemWorkmanship */
-     , (15877, 114,          0) /* Attuned - Normal */
-     , (15877, 280,        213) /* SharedCooldown */
-     , (15877, 366,         54) /* UseRequiresSkill */
-     , (15877, 367,        310) /* UseRequiresSkillLevel */
-     , (15877, 369,         40) /* UseRequiresLevel */
-     , (15877, 371,         10) /* GearDamageResist */
-     , (15877, 372,         14) /* GearCrit */
-     , (15877, 374,          4) /* GearCritDamage */
-     , (15877, 375,         12) /* GearCritDamageResist */;
+     , (15877,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15877,   1, False) /* Stuck */
@@ -33,16 +20,13 @@ VALUES (15877,   1, False) /* Stuck */
      , (15877,  13, True ) /* Ethereal */
      , (15877,  14, True ) /* GravityStatus */
      , (15877,  19, True ) /* Attackable */
-     , (15877,  22, True ) /* Inscribable */
-     , (15877,  69, True ) /* IsSellable */;
+     , (15877,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15877,  39,     2.5) /* DefaultScale */
-     , (15877, 167,      45) /* CooldownDuration */;
+VALUES (15877,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15877,   1, 'Bronze Morning Star') /* Name */
-     , (15877,  14, 'Use this essence to summon or dismiss your Fire Elemental.') /* Use */;
+VALUES (15877,   1, 'Bronze Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15877,   1,   33554748) /* Setup */

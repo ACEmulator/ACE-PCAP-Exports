@@ -5,13 +5,11 @@ VALUES (7549, 'lugianpickaxetool', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7549,   1,        128) /* ItemType - Misc */
-     , (7549,   2,         82) /* CreatureType - Thrungus */
      , (7549,   5,       4000) /* EncumbranceVal */
      , (7549,  11,          1) /* MaxStackSize */
      , (7549,  12,          1) /* StackSize */
      , (7549,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (7549,  19,       1500) /* Value */
-     , (7549,  25,        135) /* Level */
      , (7549,  65,        101) /* Placement - Resting */
      , (7549,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7549,  94,        128) /* TargetType - Misc */
@@ -44,6 +42,3 @@ VALUES (7549,   1,   33554813) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7549,   2, 3696766239) /* Container */
      , (7549, 8000, 3696765375) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7549,   1,   448, 0, 0, 448) /* MaxHealth */;

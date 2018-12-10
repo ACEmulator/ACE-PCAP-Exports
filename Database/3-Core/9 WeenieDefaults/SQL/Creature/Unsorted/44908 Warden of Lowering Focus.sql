@@ -5,11 +5,9 @@ VALUES (44908, 'ace44908-wardenofloweringfocus', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44908,   1,         16) /* ItemType - Creature */
-     , (44908,   5,          0) /* EncumbranceVal */
      , (44908,   6,        255) /* ItemsCapacity */
      , (44908,   7,        255) /* ContainersCapacity */
      , (44908,  16,         32) /* ItemUseable - Remote */
-     , (44908,  19,          0) /* Value */
      , (44908,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44908,  95,          3) /* RadarBlipColor - White */
      , (44908, 307,          0) /* DamageRating */
@@ -40,7 +38,6 @@ VALUES (44908,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44908,   1, True ) /* Stuck */
-     , (44908,   2, False) /* Open */
      , (44908,  11, True ) /* IgnoreCollisions */
      , (44908,  12, True ) /* ReportCollisions */
      , (44908,  13, False) /* Ethereal */
@@ -55,7 +52,6 @@ VALUES (44908,  39,     0.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44908,   1, 'Warden of Lowering Focus') /* Name */
-     , (44908,  16, 'Killed by Jesse the Destroyer''s Wisp.') /* LongDesc */
      , (44908, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

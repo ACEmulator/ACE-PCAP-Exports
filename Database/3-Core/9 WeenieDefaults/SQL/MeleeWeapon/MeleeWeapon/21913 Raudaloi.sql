@@ -5,14 +5,12 @@ VALUES (21913, 'swordgaerlan', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21913,   1,          1) /* ItemType - MeleeWeapon */
-     , (21913,   2,         71) /* CreatureType - Margul */
      , (21913,   5,        450) /* EncumbranceVal */
      , (21913,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (21913,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (21913,  16,          1) /* ItemUseable - No */
      , (21913,  18,          1) /* UiEffects - Magical */
      , (21913,  19,       4000) /* Value */
-     , (21913,  25,        200) /* Level */
      , (21913,  33,          1) /* Bonded - Bonded */
      , (21913,  36,       9999) /* ResistMagic */
      , (21913,  44,         69) /* Damage */
@@ -77,19 +75,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21913,   3, 3701495639) /* Wielder */
      , (21913, 8000, 3701495650) /* PCAPRecordedObjectIID */
      , (21913, 8008, 3701495639) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (21913,   1, 200, 0, 0) /* Strength */
-     , (21913,   2, 240, 0, 0) /* Endurance */
-     , (21913,   3, 260, 0, 0) /* Quickness */
-     , (21913,   4, 200, 0, 0) /* Coordination */
-     , (21913,   5, 240, 0, 0) /* Focus */
-     , (21913,   6, 240, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (21913,   1,  1520, 0, 0, 1520) /* MaxHealth */
-     , (21913,   3,  1340, 0, 0, 1340) /* MaxStamina */
-     , (21913,   5,  1140, 0, 0, 1084) /* MaxMana */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21913,   416,      2) ;

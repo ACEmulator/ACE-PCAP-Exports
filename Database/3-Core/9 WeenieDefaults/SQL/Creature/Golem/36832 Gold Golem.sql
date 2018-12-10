@@ -6,33 +6,13 @@ VALUES (36832, 'ace36832-goldgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36832,   1,         16) /* ItemType - Creature */
      , (36832,   2,         13) /* CreatureType - Golem */
-     , (36832,   5,        150) /* EncumbranceVal */
      , (36832,   6,        255) /* ItemsCapacity */
      , (36832,   7,        255) /* ContainersCapacity */
      , (36832,  16,          1) /* ItemUseable - No */
-     , (36832,  19,       3691) /* Value */
      , (36832,  25,        100) /* Level */
-     , (36832,  28,        307) /* ArmorLevel */
      , (36832,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36832, 105,          6) /* ItemWorkmanship */
-     , (36832, 106,        284) /* ItemSpellcraft */
-     , (36832, 107,       4084) /* ItemCurMana */
-     , (36832, 108,       4084) /* ItemMaxMana */
-     , (36832, 109,        222) /* ItemDifficulty */
-     , (36832, 110,          0) /* ItemAllegianceRankLimit */
-     , (36832, 115,          0) /* ItemSkillLevelLimit */
-     , (36832, 131,         63) /* MaterialType - Silver */
      , (36832, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36832, 158,          7) /* WieldRequirements - Level */
-     , (36832, 159,          1) /* WieldSkilltype - Axe */
-     , (36832, 160,        180) /* WieldDifficulty */
-     , (36832, 172,          5) /* AppraisalLongDescDecoration */
-     , (36832, 177,          2) /* GemCount */
-     , (36832, 178,         13) /* GemType */
-     , (36832, 265,         21) /* EquipmentSetId - Wise */
      , (36832, 307,          2) /* DamageRating */
-     , (36832, 313,         15) /* CritRating */
-     , (36832, 375,          2) /* GearCritDamageResist */
      , (36832, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,26 +20,10 @@ VALUES (36832,   1, True ) /* Stuck */
      , (36832,  12, True ) /* ReportCollisions */
      , (36832,  13, False) /* Ethereal */
      , (36832,  14, True ) /* GravityStatus */
-     , (36832,  19, True ) /* Attackable */
-     , (36832,  69, False) /* IsSellable */
-     , (36832, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36832,   5, -0.0555555555555556) /* ManaRate */
-     , (36832,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (36832,  14,       1) /* ArmorModVsPierce */
-     , (36832,  15,       1) /* ArmorModVsBludgeon */
-     , (36832,  16, 0.936305940151215) /* ArmorModVsCold */
-     , (36832,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (36832,  18, 1.41233050823212) /* ArmorModVsAcid */
-     , (36832,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (36832,  29,    1.12) /* WeaponDefense */
-     , (36832, 144,    0.09) /* ManaConversionMod */
-     , (36832, 165,       1) /* ArmorModVsNether */;
+     , (36832,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36832,   1, 'Gold Golem') /* Name */
-     , (36832,  16, 'Heavy Bracelet') /* LongDesc */
      , (36832, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,12 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36832,   1,   555, 0, 0, 555) /* MaxHealth */
      , (36832,   3,   470, 0, 0, 470) /* MaxStamina */
      , (36832,   5,   425, 0, 0, 425) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36832,  2117,      2) 
-     , (36832,  2146,      2) 
-     , (36832,  2195,      2) 
-     , (36832,  2559,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36832, 67114284, 0, 0);

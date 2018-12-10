@@ -55,7 +55,7 @@ VALUES (35558,   1,   33559423) /* Setup */
      , (35558,   6,   67111919) /* PaletteBase */
      , (35558,   8,  100686849) /* Icon */
      , (35558,  22,  872415275) /* PhysicsEffectTable */
-     , (35558,  28,       1836) /* Spell */
+     , (35558,  28,       1836) /* Spell - FrostStrike */
      , (35558,  52,  100689403) /* IconUnderlay */
      , (35558, 8001,    7045136) /* PCAPRecordedWeenieHeader - Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell */
      , (35558, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

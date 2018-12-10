@@ -11,34 +11,21 @@ VALUES (11698,   1,        512) /* ItemType - Container */
      , (11698,  19,         10) /* Value */
      , (11698,  65,        103) /* Placement - Hook */
      , (11698,  93,         16) /* PhysicsState - IgnoreCollisions */
-     , (11698, 106,        400) /* ItemSpellcraft */
-     , (11698, 107,        979) /* ItemCurMana */
-     , (11698, 108,       1000) /* ItemMaxMana */
-     , (11698, 109,          1) /* ItemDifficulty */
-     , (11698, 110,          0) /* ItemAllegianceRankLimit */
-     , (11698, 115,        200) /* ItemSkillLevelLimit */
      , (11698, 151,          4) /* HookType - Ceiling */
-     , (11698, 152,         -1) /* HookItemType */
-     , (11698, 176,         16) /* AppraisalItemSkill */;
+     , (11698, 152,         -1) /* HookItemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11698,   1, True ) /* Stuck */
      , (11698,   2, False) /* Open */
      , (11698,  11, True ) /* IgnoreCollisions */
      , (11698,  13, False) /* Ethereal */
-     , (11698,  19, True ) /* Attackable */
-     , (11698,  69, False) /* IsSellable */;
+     , (11698,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11698,   5, -0.025000000372529) /* ManaRate */
-     , (11698,  29,       1) /* WeaponDefense */
-     , (11698,  54,      10) /* UseRadius */
-     , (11698, 144, 3.72422973736505E+77) /* ManaConversionMod */;
+VALUES (11698,  54,      10) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11698,   1, 'Mistletoe') /* Name */
-     , (11698,   7, NULL) /* Inscription */
-     , (11698,   8, NULL) /* ScribeName */
      , (11698,  14, 'Use this item to open it and see its contents.') /* Use */
      , (11698,  16, 'This hook is owned by Ripley. ') /* LongDesc */;
 
@@ -57,8 +44,3 @@ VALUES (11698, 8040, 2399928582, 55.175, 123.275, 10.05, 1, 0, 0, 0) /* PCAPReco
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11698,  32, 1343089867) /* HouseOwner */
      , (11698, 8000, 2029043713) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11698,   586,      2) 
-     , (11698,   608,      2) 
-     , (11698,   658,      2) ;

@@ -10,7 +10,6 @@ VALUES (47952,   1,          1) /* ItemType - MeleeWeapon */
      , (47952,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47952,  16,          1) /* ItemUseable - No */
      , (47952,  19,        155) /* Value */
-     , (47952,  33,          1) /* Bonded - Bonded */
      , (47952,  51,          1) /* CombatUse - Melee */
      , (47952,  65,          1) /* Placement - RightHandCombat */
      , (47952,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -25,8 +24,7 @@ VALUES (47952,   1, False) /* Stuck */
      , (47952,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47952,   1, 'Nekode') /* Name */
-     , (47952,  16, 'A concentrated iron pea.') /* LongDesc */;
+VALUES (47952,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47952,   1,   33555996) /* Setup */

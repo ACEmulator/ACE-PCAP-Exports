@@ -5,33 +5,14 @@ VALUES (46605, 'ace46605-magariyari', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46605,   1,          1) /* ItemType - MeleeWeapon */
-     , (46605,   2,         28) /* CreatureType - Monouga */
      , (46605,   5,        750) /* EncumbranceVal */
      , (46605,   9,   33554432) /* ValidLocations - TwoHanded */
      , (46605,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (46605,  16,          1) /* ItemUseable - No */
      , (46605,  19,        170) /* Value */
-     , (46605,  25,        100) /* Level */
-     , (46605,  44,         12) /* Damage */
-     , (46605,  45,         16) /* DamageType - Fire */
-     , (46605,  47,          2) /* AttackType - Thrust */
-     , (46605,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (46605,  49,         47) /* WeaponTime */
      , (46605,  51,          5) /* CombatUse - TwoHanded */
      , (46605,  65,          1) /* Placement - RightHandCombat */
-     , (46605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46605, 105,          2) /* ItemWorkmanship */
-     , (46605, 106,         48) /* ItemSpellcraft */
-     , (46605, 107,        267) /* ItemCurMana */
-     , (46605, 108,        267) /* ItemMaxMana */
-     , (46605, 109,         14) /* ItemDifficulty */
-     , (46605, 110,          0) /* ItemAllegianceRankLimit */
-     , (46605, 115,         68) /* ItemSkillLevelLimit */
-     , (46605, 131,         75) /* MaterialType - Oak */
-     , (46605, 172,          1) /* AppraisalLongDescDecoration */
-     , (46605, 176,         41) /* AppraisalItemSkill */
-     , (46605, 353,         11) /* WeaponType - TwoHanded */
-     , (46605, 8030,          0);
+     , (46605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46605,   1, False) /* Stuck */
@@ -42,18 +23,10 @@ VALUES (46605,   1, False) /* Stuck */
      , (46605,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46605,   5, -0.0166666666666667) /* ManaRate */
-     , (46605,  21,       0) /* WeaponLength */
-     , (46605,  22,     0.4) /* DamageVariance */
-     , (46605,  26,       0) /* MaximumVelocity */
-     , (46605,  29,    1.03) /* WeaponDefense */
-     , (46605,  39, 1.20000004768372) /* DefaultScale */
-     , (46605,  62,    1.04) /* WeaponOffense */
-     , (46605,  63,       1) /* DamageMod */;
+VALUES (46605,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46605,   1, 'Magari Yari') /* Name */
-     , (46605,  16, 'Flaming Assagai of Blood Drinker') /* LongDesc */;
+VALUES (46605,   1, 'Magari Yari') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46605,   1,   33560795) /* Setup */
@@ -74,12 +47,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46605,   3, 3707809485) /* Wielder */
      , (46605, 8000, 3707809477) /* PCAPRecordedObjectIID */
      , (46605, 8008, 3707809485) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46605,   1,   420, 0, 0, 420) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46605,  1612,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46605, 67116380, 0, 0);

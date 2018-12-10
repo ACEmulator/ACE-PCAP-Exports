@@ -9,10 +9,17 @@ VALUES (34590,   1,          1) /* ItemType - MeleeWeapon */
      , (34590,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (34590,  16,          1) /* ItemUseable - No */
      , (34590,  19,        460) /* Value */
+     , (34590,  44,         10) /* Damage */
+     , (34590,  45,          3) /* DamageType - Slash, Pierce */
+     , (34590,  47,          6) /* AttackType - Thrust, Slash */
+     , (34590,  48,         45) /* WeaponSkill - LightWeapons */
+     , (34590,  49,         35) /* WeaponTime */
      , (34590,  51,          1) /* CombatUse - Melee */
      , (34590,  65,        101) /* Placement - Resting */
      , (34590,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34590, 151,          2) /* HookType - Wall */;
+     , (34590, 151,          2) /* HookType - Wall */
+     , (34590, 353,          2) /* WeaponType - Sword */
+     , (34590, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34590,   1, False) /* Stuck */
@@ -21,6 +28,14 @@ VALUES (34590,   1, False) /* Stuck */
      , (34590,  14, True ) /* GravityStatus */
      , (34590,  19, True ) /* Attackable */
      , (34590,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (34590,  21,       0) /* WeaponLength */
+     , (34590,  22,     0.5) /* DamageVariance */
+     , (34590,  26,       0) /* MaximumVelocity */
+     , (34590,  29,       1) /* WeaponDefense */
+     , (34590,  62,       1) /* WeaponOffense */
+     , (34590,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34590,   1, 'Bone Sword') /* Name */;

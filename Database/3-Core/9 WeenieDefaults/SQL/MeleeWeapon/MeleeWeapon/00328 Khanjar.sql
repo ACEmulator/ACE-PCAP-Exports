@@ -10,7 +10,6 @@ VALUES (328,   1,          1) /* ItemType - MeleeWeapon */
      , (328,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (328,  16,          1) /* ItemUseable - No */
      , (328,  19,         40) /* Value */
-     , (328,  33,          1) /* Bonded - Bonded */
      , (328,  44,          7) /* Damage */
      , (328,  45,          1) /* DamageType - Slash */
      , (328,  47,          4) /* AttackType - Slash */
@@ -25,7 +24,6 @@ VALUES (328,   1,          1) /* ItemType - MeleeWeapon */
      , (328, 108,        654) /* ItemMaxMana */
      , (328, 109,        127) /* ItemDifficulty */
      , (328, 110,          0) /* ItemAllegianceRankLimit */
-     , (328, 114,          1) /* Attuned - Attuned */
      , (328, 115,        294) /* ItemSkillLevelLimit */
      , (328, 131,         60) /* MaterialType - Gold */
      , (328, 151,          2) /* HookType - Wall */
@@ -33,7 +31,6 @@ VALUES (328,   1,          1) /* ItemType - MeleeWeapon */
      , (328, 176,         46) /* AppraisalItemSkill */
      , (328, 177,          2) /* GemCount */
      , (328, 178,         38) /* GemType */
-     , (328, 188,          2) /* HeritageGroup - Gharundim */
      , (328, 353,          6) /* WeaponType - Dagger */
      , (328, 8030,          0);
 
@@ -43,8 +40,7 @@ VALUES (328,   1, False) /* Stuck */
      , (328,  13, True ) /* Ethereal */
      , (328,  14, True ) /* GravityStatus */
      , (328,  19, True ) /* Attackable */
-     , (328,  22, True ) /* Inscribable */
-     , (328,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (328,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (328,   5,   -0.05) /* ManaRate */
@@ -60,8 +56,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (328,   1, 'Khanjar') /* Name */
      , (328,   7, 'WEAPON DEATH ITEM') /* Inscription */
      , (328,   8, 'Triumph') /* ScribeName */
-     , (328,  16, 'Khanjar') /* LongDesc */
-     , (328,  25, 'El Perro Caliente') /* CraftsmanName */;
+     , (328,  16, 'Khanjar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (328,   1,   33554744) /* Setup */
@@ -84,16 +79,7 @@ VALUES (328,   3, 2010529806) /* Wielder */
      , (328, 8008, 2010529806) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (328,  1330,      2) 
-     , (328,  1352,      2) 
-     , (328,  1589,      2) 
-     , (328,  1590,      2) 
-     , (328,  1603,      2) 
-     , (328,  1613,      2) 
-     , (328,  1614,      2) 
-     , (328,  1615,      2) 
-     , (328,  1616,      2) 
-     , (328,  1624,      2) 
+VALUES (328,  1616,      2) 
      , (328,  1627,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

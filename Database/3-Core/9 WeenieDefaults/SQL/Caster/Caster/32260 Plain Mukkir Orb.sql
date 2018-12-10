@@ -44,7 +44,7 @@ VALUES (32260,   1,   33559761) /* Setup */
      , (32260,   3,  536870932) /* SoundTable */
      , (32260,   8,  100688412) /* Icon */
      , (32260,  22,  872415275) /* PhysicsEffectTable */
-     , (32260,  28,       3861) /* Spell */
+     , (32260,  28,       3861) /* Spell - CantripTasteForBlood */
      , (32260, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (32260, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32260, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

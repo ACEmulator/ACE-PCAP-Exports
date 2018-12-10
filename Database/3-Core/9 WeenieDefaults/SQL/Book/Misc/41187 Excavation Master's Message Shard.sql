@@ -29,8 +29,7 @@ VALUES (41187,  39, 0.200000002980232) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41187,   1, 'Excavation Master''s Message Shard') /* Name */
      , (41187,  14, 'This item cannot be read, but a scholar of the ways of the Virindi may be able to decode the message contained within.') /* Use */
-     , (41187,  15, 'A shard of black crystal, recovered from the Apostate Excavation Master.') /* ShortDesc */
-     , (41187,  16, 'Killed by Mag-lite.') /* LongDesc */;
+     , (41187,  15, 'A shard of black crystal, recovered from the Apostate Excavation Master.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41187,   1,   33555391) /* Setup */

@@ -43,8 +43,6 @@ VALUES (26500,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26500,   1, 'Crown of Anointed Blood') /* Name */
-     , (26500,   7, 'Happy Xmas and New Year 07'' To my awesome vassal, Arkaina') /* Inscription */
-     , (26500,   8, 'Death''s Avenger') /* ScribeName */
      , (26500,  15, 'This veiled crown was likely used during the rites of the Falatacot.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

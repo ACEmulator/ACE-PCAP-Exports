@@ -30,7 +30,6 @@ VALUES (33012,   1, False) /* Stuck */
      , (33012,  14, True ) /* GravityStatus */
      , (33012,  19, True ) /* Attackable */
      , (33012,  22, True ) /* Inscribable */
-     , (33012,  85, True ) /* AppraisalHasAllowedWielder */
      , (33012,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,8 +38,7 @@ VALUES (33012,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33012,   1, 'Ring of the Rossu Morta') /* Name */
-     , (33012,  16, 'This ring signifies the bearer as a member of the secretive Ordina Rossu Morta.  It admits the bearer to the chapterhouse at 69.7 N, 62.3 W.') /* LongDesc */
-     , (33012,  25, 'Beale') /* CraftsmanName */;
+     , (33012,  16, 'This ring signifies the bearer as a member of the secretive Ordina Rossu Morta.  It admits the bearer to the chapterhouse at 69.7 N, 62.3 W.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33012,   1,   33554690) /* Setup */

@@ -8,21 +8,8 @@ VALUES (21307,   1,       8192) /* ItemType - Writable */
      , (21307,   5,         30) /* EncumbranceVal */
      , (21307,  16,          8) /* ItemUseable - Contained */
      , (21307,  19,       1000) /* Value */
-     , (21307,  33,          0) /* Bonded - Normal */
      , (21307,  65,        101) /* Placement - Resting */
-     , (21307,  91,         50) /* MaxStructure */
-     , (21307,  92,         50) /* Structure */
-     , (21307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (21307, 105,          7) /* ItemWorkmanship */
-     , (21307, 114,          0) /* Attuned - Normal */
-     , (21307, 280,        213) /* SharedCooldown */
-     , (21307, 366,         54) /* UseRequiresSkill */
-     , (21307, 367,        310) /* UseRequiresSkillLevel */
-     , (21307, 369,         40) /* UseRequiresLevel */
-     , (21307, 370,         14) /* GearDamage */
-     , (21307, 372,          9) /* GearCrit */
-     , (21307, 374,         12) /* GearCritDamage */
-     , (21307, 375,         11) /* GearCritDamageResist */;
+     , (21307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21307,   1, False) /* Stuck */
@@ -30,12 +17,10 @@ VALUES (21307,   1, False) /* Stuck */
      , (21307,  13, True ) /* Ethereal */
      , (21307,  14, True ) /* GravityStatus */
      , (21307,  19, True ) /* Attackable */
-     , (21307,  22, True ) /* Inscribable */
-     , (21307,  69, True ) /* IsSellable */;
+     , (21307,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21307,  39,     1.5) /* DefaultScale */
-     , (21307, 167,      45) /* CooldownDuration */;
+VALUES (21307,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21307,   1, 'Scroll of Flame Arc VI') /* Name */
@@ -47,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21307,   1,   33554826) /* Setup */
      , (21307,   8,  100677022) /* Icon */
      , (21307,  22,  872415275) /* PhysicsEffectTable */
-     , (21307,  28,       2744) /* Spell */
+     , (21307,  28,       2744) /* Spell - FlameArc6 */
      , (21307, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21307, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21307, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

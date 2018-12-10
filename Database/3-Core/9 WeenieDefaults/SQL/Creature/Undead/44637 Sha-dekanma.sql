@@ -6,19 +6,14 @@ VALUES (44637, 'ace44637-shadekanma', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44637,   1,         16) /* ItemType - Creature */
      , (44637,   2,         14) /* CreatureType - Undead */
-     , (44637,   5,         50) /* EncumbranceVal */
      , (44637,   6,        255) /* ItemsCapacity */
      , (44637,   7,        255) /* ContainersCapacity */
      , (44637,  16,         32) /* ItemUseable - Remote */
-     , (44637,  19,       3000) /* Value */
      , (44637,  25,        250) /* Level */
-     , (44637,  91,         50) /* MaxStructure */
-     , (44637,  92,         50) /* Structure */
      , (44637,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (44637,  95,          8) /* RadarBlipColor - Yellow */
      , (44637, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (44637, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44637, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (44637, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,7 +31,6 @@ VALUES (44637,  39, 1.29999995231628) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44637,   1, 'Sha-dekanma') /* Name */
      , (44637,   5, 'Mu-miyah') /* Template */
-     , (44637,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (44637, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -57,8 +51,18 @@ VALUES (44637, 8040, 2288386076, 88.6466, 92.1125, 1.069758, 0.9752754, 0, 0, 0.
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44637, 8000, 2447353009) /* PCAPRecordedObjectIID */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (44637,   1, 400, 0, 0) /* Strength */
+     , (44637,   2, 500, 0, 0) /* Endurance */
+     , (44637,   3, 100, 0, 0) /* Quickness */
+     , (44637,   4, 160, 0, 0) /* Coordination */
+     , (44637,   5, 450, 0, 0) /* Focus */
+     , (44637,   6, 450, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44637,   1, 30250, 0, 0, 30250) /* MaxHealth */;
+VALUES (44637,   1, 30250, 0, 0, 30250) /* MaxHealth */
+     , (44637,   3,  4000, 0, 0, 4000) /* MaxStamina */
+     , (44637,   5,  5950, 0, 0, 5950) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44637, 67111813, 0, 0);

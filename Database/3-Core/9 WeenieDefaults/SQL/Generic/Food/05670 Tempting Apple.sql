@@ -37,7 +37,7 @@ VALUES (5670,   1,   33554667) /* Setup */
      , (5670,   3,  536870932) /* SoundTable */
      , (5670,   8,  100667465) /* Icon */
      , (5670,  22,  872415275) /* PhysicsEffectTable */
-     , (5670,  28,        678) /* Spell */
+     , (5670,  28,        678) /* Spell - ArcaneEnlightenmentSelf1 */
      , (5670, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (5670, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5670, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

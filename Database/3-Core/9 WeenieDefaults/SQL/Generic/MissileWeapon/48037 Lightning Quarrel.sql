@@ -14,31 +14,15 @@ VALUES (48037,   1,        256) /* ItemType - MissileWeapon */
      , (48037,  18,         64) /* UiEffects - Lightning */
      , (48037,  19,        154) /* Value */
      , (48037,  33,         -2) /* Bonded - Destroy */
-     , (48037,  44,         40) /* Damage */
+     , (48037,  44,        247) /* Damage */
      , (48037,  45,         64) /* DamageType - Electric */
-     , (48037,  47,          6) /* AttackType - Thrust, Slash */
-     , (48037,  48,         45) /* WeaponSkill - LightWeapons */
-     , (48037,  49,         24) /* WeaponTime */
+     , (48037,  48,          0) /* WeaponSkill - None */
+     , (48037,  49,         -1) /* WeaponTime */
      , (48037,  50,          2) /* AmmoType - Bolt */
      , (48037,  51,          3) /* CombatUse - Ammo */
      , (48037,  65,          1) /* Placement - RightHandCombat */
      , (48037,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48037, 105,          7) /* ItemWorkmanship */
-     , (48037, 106,        324) /* ItemSpellcraft */
-     , (48037, 107,        934) /* ItemCurMana */
-     , (48037, 108,        934) /* ItemMaxMana */
-     , (48037, 109,         76) /* ItemDifficulty */
-     , (48037, 110,          0) /* ItemAllegianceRankLimit */
-     , (48037, 115,        344) /* ItemSkillLevelLimit */
-     , (48037, 131,         41) /* MaterialType - Sunstone */
      , (48037, 151,          2) /* HookType - Wall */
-     , (48037, 158,          2) /* WieldRequirements - RawSkill */
-     , (48037, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (48037, 160,        350) /* WieldDifficulty */
-     , (48037, 172,          5) /* AppraisalLongDescDecoration */
-     , (48037, 176,         45) /* AppraisalItemSkill */
-     , (48037, 177,          3) /* GemCount */
-     , (48037, 178,         47) /* GemType */
      , (48037, 179,          0) /* ImbuedEffect - Undef */
      , (48037, 303,          0) /* ImbuedEffect2 - Undef */
      , (48037, 304,          0) /* ImbuedEffect3 - Undef */
@@ -47,7 +31,6 @@ VALUES (48037,   1,        256) /* ItemType - MissileWeapon */
      , (48037, 307,          5) /* DamageRating */
      , (48037, 313,          0) /* CritRating */
      , (48037, 314,          0) /* CritDamageRating */
-     , (48037, 353,          2) /* WeaponType - Sword */
      , (48037, 386,          0) /* Overpower */
      , (48037, 8030,          0);
 
@@ -61,12 +44,11 @@ VALUES (48037,   1, False) /* Stuck */
      , (48037,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48037,   5, -0.0555555555555556) /* ManaRate */
-     , (48037,  21,       0) /* WeaponLength */
-     , (48037,  22,    0.56) /* DamageVariance */
+VALUES (48037,  21,       0) /* WeaponLength */
+     , (48037,  22,     0.3) /* DamageVariance */
      , (48037,  26,       0) /* MaximumVelocity */
-     , (48037,  29,    1.14) /* WeaponDefense */
-     , (48037,  62,     1.1) /* WeaponOffense */
+     , (48037,  29,       1) /* WeaponDefense */
+     , (48037,  62,       1) /* WeaponOffense */
      , (48037,  63,       1) /* DamageMod */
      , (48037,  78,       1) /* Friction */
      , (48037,  79,       0) /* Elasticity */
@@ -74,8 +56,7 @@ VALUES (48037,   5, -0.0555555555555556) /* ManaRate */
      , (48037, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48037,   1, 'Lightning Quarrel') /* Name */
-     , (48037,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (48037,   1, 'Lightning Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48037,   1,   33555695) /* Setup */
@@ -96,12 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48037,   3, 3710513674) /* Wielder */
      , (48037, 8000, 3710513683) /* PCAPRecordedObjectIID */
      , (48037, 8008, 3710513674) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48037,  1378,      2) 
-     , (48037,  1616,      2) 
-     , (48037,  2116,      2) 
-     , (48037,  2539,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48037, 67111923, 0, 0);

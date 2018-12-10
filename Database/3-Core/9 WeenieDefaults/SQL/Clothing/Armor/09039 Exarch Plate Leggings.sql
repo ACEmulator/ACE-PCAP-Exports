@@ -42,8 +42,6 @@ VALUES (9039,   5,  -0.125) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9039,   1, 'Exarch Plate Leggings') /* Name */
-     , (9039,   7, 'Made with the loving hands of Lycentia for the love of her life Kurse. =) ') /* Inscription */
-     , (9039,   8, 'Lycentia') /* ScribeName */
      , (9039,  16, 'A heavily enchanted set of crystalline leggings, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers') /* LongDesc */
      , (9039,  25, 'Alto Voltaje') /* CraftsmanName */;
 

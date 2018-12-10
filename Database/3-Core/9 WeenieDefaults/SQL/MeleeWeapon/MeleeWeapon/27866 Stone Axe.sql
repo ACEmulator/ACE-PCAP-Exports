@@ -5,19 +5,15 @@ VALUES (27866, 'axegurukstone2', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27866,   1,          1) /* ItemType - MeleeWeapon */
-     , (27866,   2,         22) /* CreatureType - Shadow */
      , (27866,   5,       6400) /* EncumbranceVal */
      , (27866,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (27866,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (27866,  16,          1) /* ItemUseable - No */
      , (27866,  19,        750) /* Value */
-     , (27866,  25,        185) /* Level */
      , (27866,  51,          1) /* CombatUse - Melee */
      , (27866,  65,          1) /* Placement - RightHandCombat */
      , (27866,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27866, 113,          1) /* Gender - Male */
-     , (27866, 151,          2) /* HookType - Wall */
-     , (27866, 188,          1) /* HeritageGroup - Aluvian */;
+     , (27866, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27866,   1, False) /* Stuck */
@@ -37,12 +33,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27866,   1,   33558786) /* Setup */
      , (27866,   3,  536870932) /* SoundTable */
      , (27866,   8,  100676578) /* Icon */
-     , (27866,   9,   83890516) /* EyesTexture */
-     , (27866,  10,   83890549) /* NoseTexture */
-     , (27866,  11,   83890638) /* MouthTexture */
-     , (27866,  15,   67116985) /* HairPalette */
-     , (27866,  16,   67109567) /* EyesPalette */
-     , (27866,  17,   67109559) /* SkinPalette */
      , (27866,  22,  872415275) /* PhysicsEffectTable */
      , (27866, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (27866, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -57,6 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27866,   3, 3701512963) /* Wielder */
      , (27866, 8000, 3701512929) /* PCAPRecordedObjectIID */
      , (27866, 8008, 3701512963) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27866,   1,  1600, 0, 0, 1600) /* MaxHealth */;

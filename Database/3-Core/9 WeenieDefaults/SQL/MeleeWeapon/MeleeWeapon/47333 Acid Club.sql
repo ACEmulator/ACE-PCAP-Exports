@@ -14,7 +14,6 @@ VALUES (47333,   1,          1) /* ItemType - MeleeWeapon */
      , (47333,  51,          1) /* CombatUse - Melee */
      , (47333,  65,          1) /* Placement - RightHandCombat */
      , (47333,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47333, 107,          0) /* ItemCurMana */
      , (47333, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -25,13 +24,8 @@ VALUES (47333,   1, False) /* Stuck */
      , (47333,  19, True ) /* Attackable */
      , (47333,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47333,  87,       3) /* ItemEfficiency */
-     , (47333, 137,    0.25) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47333,   1, 'Acid Club') /* Name */
-     , (47333,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (47333,   1, 'Acid Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47333,   1,   33555727) /* Setup */

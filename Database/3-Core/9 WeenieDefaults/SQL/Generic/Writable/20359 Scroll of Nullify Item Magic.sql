@@ -8,12 +8,8 @@ VALUES (20359,   1,       8192) /* ItemType - Writable */
      , (20359,   5,         30) /* EncumbranceVal */
      , (20359,  16,          8) /* ItemUseable - Contained */
      , (20359,  19,       1000) /* Value */
-     , (20359,  33,          0) /* Bonded - Normal */
      , (20359,  65,        101) /* Placement - Resting */
-     , (20359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20359, 114,          0) /* Attuned - Normal */
-     , (20359, 174,          1) /* AppraisalPages */
-     , (20359, 175,          1) /* AppraisalMaxPages */;
+     , (20359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20359,   1, False) /* Stuck */
@@ -29,7 +25,6 @@ VALUES (20359,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20359,   1, 'Scroll of Nullify Item Magic') /* Name */
      , (20359,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (20359,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */
      , (20359,  16, 'Inscribed spell: Nullify Item Magic
 Dispels 3-6 negative Item Magic enchantments of level 6 or lower from the target.') /* LongDesc */;
 
@@ -37,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20359,   1,   33554826) /* Setup */
      , (20359,   8,  100676659) /* Icon */
      , (20359,  22,  872415275) /* PhysicsEffectTable */
-     , (20359,  28,       1951) /* Spell */
+     , (20359,  28,       1951) /* Spell - DispelItemBadOther6 */
      , (20359, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20359, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

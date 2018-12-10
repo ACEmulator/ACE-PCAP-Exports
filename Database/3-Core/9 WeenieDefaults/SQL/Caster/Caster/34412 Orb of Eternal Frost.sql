@@ -44,7 +44,7 @@ VALUES (34412,   1,   33560161) /* Setup */
      , (34412,   6,   67111919) /* PaletteBase */
      , (34412,   8,  100688575) /* Icon */
      , (34412,  22,  872415275) /* PhysicsEffectTable */
-     , (34412,  28,       4028) /* Spell */
+     , (34412,  28,       4028) /* Spell - Snowball */
      , (34412, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (34412, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34412, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

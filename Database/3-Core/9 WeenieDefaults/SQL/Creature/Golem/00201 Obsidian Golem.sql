@@ -6,28 +6,13 @@ VALUES (201, 'golemobsidian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (201,   1,         16) /* ItemType - Creature */
      , (201,   2,         13) /* CreatureType - Golem */
-     , (201,   5,       6916) /* EncumbranceVal */
      , (201,   6,        255) /* ItemsCapacity */
      , (201,   7,        255) /* ContainersCapacity */
      , (201,  16,          1) /* ItemUseable - No */
-     , (201,  19,          0) /* Value */
      , (201,  25,         60) /* Level */
      , (201,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (201, 105,          7) /* ItemWorkmanship */
-     , (201, 106,        200) /* ItemSpellcraft */
-     , (201, 107,        501) /* ItemCurMana */
-     , (201, 108,        501) /* ItemMaxMana */
-     , (201, 109,          0) /* ItemDifficulty */
-     , (201, 110,          0) /* ItemAllegianceRankLimit */
-     , (201, 113,          1) /* Gender - Male */
-     , (201, 115,          0) /* ItemSkillLevelLimit */
-     , (201, 117,        300) /* ItemManaCost */
-     , (201, 131,         45) /* MaterialType - WhiteJade */
      , (201, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (201, 172,          1) /* AppraisalLongDescDecoration */
      , (201, 307,          2) /* DamageRating */
-     , (201, 308,         10) /* DamageResistRating */
-     , (201, 313,          5) /* CritRating */
      , (201, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,7 +24,6 @@ VALUES (201,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (201,   1, 'Obsidian Golem') /* Name */
-     , (201,  16, 'Killed by Hawkeye the Ranger''s K''nath.') /* LongDesc */
      , (201, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -71,6 +55,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (201,   1,   190, 0, 0, 190) /* MaxHealth */
      , (201,   3,   350, 0, 0, 350) /* MaxStamina */
      , (201,   5,   340, 0, 0, 340) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (201,   192,      2) ;

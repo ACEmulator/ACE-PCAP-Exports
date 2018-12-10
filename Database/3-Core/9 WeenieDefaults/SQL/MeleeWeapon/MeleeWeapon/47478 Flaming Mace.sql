@@ -5,14 +5,12 @@ VALUES (47478, 'ace47478-flamingmace', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47478,   1,          1) /* ItemType - MeleeWeapon */
-     , (47478,   2,         78) /* CreatureType - Fiun */
      , (47478,   5,        800) /* EncumbranceVal */
      , (47478,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47478,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47478,  16,          1) /* ItemUseable - No */
      , (47478,  18,         32) /* UiEffects - Fire */
      , (47478,  19,        350) /* Value */
-     , (47478,  25,        115) /* Level */
      , (47478,  33,         -2) /* Bonded - Destroy */
      , (47478,  44,         24) /* Damage */
      , (47478,  45,         16) /* DamageType - Fire */
@@ -64,9 +62,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47478,   3, 3708719519) /* Wielder */
      , (47478, 8000, 3708719520) /* PCAPRecordedObjectIID */
      , (47478, 8008, 3708719519) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47478,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47478, 67111920, 0, 0);

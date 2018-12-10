@@ -5,13 +5,11 @@ VALUES (690, 'scarabpyreal', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (690,   1,       4096) /* ItemType - SpellComponents */
-     , (690,   2,          9) /* CreatureType - PhyntosWasp */
      , (690,   5,         80) /* EncumbranceVal */
      , (690,  11,        100) /* MaxStackSize */
      , (690,  12,         20) /* StackSize */
      , (690,  16,          1) /* ItemUseable - No */
      , (690,  19,      20000) /* Value */
-     , (690,  25,         80) /* Level */
      , (690,  65,        101) /* Placement - Resting */
      , (690,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (690, 151,          2) /* HookType - Wall */;
@@ -39,19 +37,6 @@ VALUES (690,   1,   33555211) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (690,   2, 2186220377) /* Container */
      , (690, 8000, 2186220582) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (690,   1, 120, 0, 0) /* Strength */
-     , (690,   2, 145, 0, 0) /* Endurance */
-     , (690,   3, 175, 0, 0) /* Quickness */
-     , (690,   4, 175, 0, 0) /* Coordination */
-     , (690,   5, 125, 0, 0) /* Focus */
-     , (690,   6, 105, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (690,   1,   238, 0, 0, 238) /* MaxHealth */
-     , (690,   3,   355, 0, 0, 355) /* MaxStamina */
-     , (690,   5,   265, 0, 0, 265) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (690, 67111921, 0, 0);

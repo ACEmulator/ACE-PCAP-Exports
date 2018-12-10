@@ -24,8 +24,7 @@ VALUES (23694,   1, False) /* Stuck */
      , (23694,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23694,   1, 'Frost Spear') /* Name */
-     , (23694,  16, 'Killed by Kilzeer.') /* LongDesc */;
+VALUES (23694,   1, 'Frost Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23694,   1,   33555822) /* Setup */

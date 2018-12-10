@@ -5,12 +5,10 @@ VALUES (49372, 'ace49372-causticgrievveressence', 70) /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49372,   1,        128) /* ItemType - Misc */
-     , (49372,   2,         13) /* CreatureType - Golem */
      , (49372,   5,         50) /* EncumbranceVal */
      , (49372,  16,          8) /* ItemUseable - Contained */
      , (49372,  18,        256) /* UiEffects - Acid */
      , (49372,  19,      10000) /* Value */
-     , (49372,  25,        300) /* Level */
      , (49372,  33,          0) /* Bonded - Normal */
      , (49372,  65,        101) /* Placement - Resting */
      , (49372,  91,         50) /* MaxStructure */
@@ -64,9 +62,6 @@ VALUES (49372,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49372,   2, 3666901363) /* Container */
      , (49372, 8000, 2174542841) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49372,   1, 10000, 0, 0, 10000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49372, 67111920, 0, 0);

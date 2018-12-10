@@ -5,11 +5,9 @@ VALUES (20239, 'scrollfeeblemind7', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20239,   1,       8192) /* ItemType - Writable */
-     , (20239,   2,          1) /* CreatureType - Olthoi */
      , (20239,   5,         30) /* EncumbranceVal */
      , (20239,  16,          8) /* ItemUseable - Contained */
      , (20239,  19,       2000) /* Value */
-     , (20239,  25,        185) /* Level */
      , (20239,  65,        101) /* Placement - Resting */
      , (20239,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20239,   1,   33554826) /* Setup */
      , (20239,   8,  100676471) /* Icon */
      , (20239,  22,  872415275) /* PhysicsEffectTable */
-     , (20239,  28,       2064) /* Spell */
+     , (20239,  28,       2064) /* Spell - FeeblemindOther7 */
      , (20239, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20239, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20239, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,19 +40,6 @@ VALUES (20239,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20239,   2, 3700378196) /* Container */
      , (20239, 8000, 3700393387) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (20239,   1, 430, 0, 0) /* Strength */
-     , (20239,   2, 440, 0, 0) /* Endurance */
-     , (20239,   3, 280, 0, 0) /* Quickness */
-     , (20239,   4, 300, 0, 0) /* Coordination */
-     , (20239,   5, 230, 0, 0) /* Focus */
-     , (20239,   6, 230, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20239,   1,  2300, 0, 0, 2300) /* MaxHealth */
-     , (20239,   3,   890, 0, 0, 890) /* MaxStamina */
-     , (20239,   5,   230, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20239,  2064,      2) ;

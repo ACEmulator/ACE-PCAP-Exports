@@ -38,8 +38,6 @@ VALUES (52788,   1, False) /* Stuck */
      , (52788,  19, True ) /* Attackable */
      , (52788,  22, True ) /* Inscribable */
      , (52788,  69, False) /* IsSellable */
-     , (52788,  85, True ) /* AppraisalHasAllowedWielder */
-     , (52788,  91, True ) /* Retained */
      , (52788,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -48,8 +46,7 @@ VALUES (52788,   5, -0.0333333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52788,   1, 'Yellow Society Locket') /* Name */
-     , (52788,  16, 'A necklace set with vibrant gemstones of yellow and white.') /* LongDesc */
-     , (52788,  25, 'High-Voltage II') /* CraftsmanName */;
+     , (52788,  16, 'A necklace set with vibrant gemstones of yellow and white.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52788,   1,   33554680) /* Setup */

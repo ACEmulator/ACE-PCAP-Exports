@@ -6,28 +6,14 @@ VALUES (43405, 'ace43405-shadeofladyadja', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43405,   1,         16) /* ItemType - Creature */
      , (43405,   2,         77) /* CreatureType - Ghost */
-     , (43405,   5,         75) /* EncumbranceVal */
      , (43405,   6,        255) /* ItemsCapacity */
      , (43405,   7,        255) /* ContainersCapacity */
      , (43405,  16,         32) /* ItemUseable - Remote */
-     , (43405,  19,       7921) /* Value */
      , (43405,  25,        600) /* Level */
-     , (43405,  28,          0) /* ArmorLevel */
      , (43405,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43405,  95,          8) /* RadarBlipColor - Yellow */
-     , (43405, 105,          9) /* ItemWorkmanship */
-     , (43405, 106,        234) /* ItemSpellcraft */
-     , (43405, 107,       1852) /* ItemCurMana */
-     , (43405, 108,       1852) /* ItemMaxMana */
-     , (43405, 109,        234) /* ItemDifficulty */
-     , (43405, 110,          0) /* ItemAllegianceRankLimit */
-     , (43405, 115,          0) /* ItemSkillLevelLimit */
-     , (43405, 131,          7) /* MaterialType - Velvet */
      , (43405, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43405, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43405, 172,          5) /* AppraisalLongDescDecoration */
-     , (43405, 177,          2) /* GemCount */
-     , (43405, 178,         13) /* GemType */
      , (43405, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,27 +24,16 @@ VALUES (43405,   1, True ) /* Stuck */
      , (43405,  14, True ) /* GravityStatus */
      , (43405,  19, False) /* Attackable */
      , (43405,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (43405,  42, True ) /* AllowEdgeSlide */
-     , (43405, 100, True ) /* Dyable */;
+     , (43405,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43405,   5, -0.0555555555555556) /* ManaRate */
-     , (43405,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (43405,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (43405,  15,       1) /* ArmorModVsBludgeon */
-     , (43405,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (43405,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (43405,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (43405,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (43405,  39, 1.29999995231628) /* DefaultScale */
+VALUES (43405,  39, 1.29999995231628) /* DefaultScale */
      , (43405,  54,       3) /* UseRadius */
-     , (43405,  76, 0.400000005960464) /* Translucency */
-     , (43405, 165,       1) /* ArmorModVsNether */;
+     , (43405,  76, 0.400000005960464) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43405,   1, 'Shade of Lady Adja') /* Name */
      , (43405,   5, 'Seer of the Light Falatacot') /* Template */
-     , (43405,  16, 'Baggy Shirt of Piercing Protection') /* LongDesc */
      , (43405, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -90,9 +65,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43405,   1,   700, 0, 0, 700) /* MaxHealth */
      , (43405,   3,   900, 0, 0, 900) /* MaxStamina */
      , (43405,   5,  4000, 0, 0, 4000) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43405,  1138,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43405, 67116814, 40, 40)

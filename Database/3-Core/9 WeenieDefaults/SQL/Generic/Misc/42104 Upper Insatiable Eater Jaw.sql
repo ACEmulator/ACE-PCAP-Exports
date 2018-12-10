@@ -5,11 +5,9 @@ VALUES (42104, 'ace42104-upperinsatiableeaterjaw', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42104,   1,        128) /* ItemType - Misc */
-     , (42104,   2,         99) /* CreatureType - GearKnight */
      , (42104,   5,        400) /* EncumbranceVal */
      , (42104,  16,          1) /* ItemUseable - No */
      , (42104,  19,          0) /* Value */
-     , (42104,  25,         80) /* Level */
      , (42104,  33,          1) /* Bonded - Bonded */
      , (42104,  65,        101) /* Placement - Resting */
      , (42104,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -39,6 +37,3 @@ VALUES (42104,   1,   33554769) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42104,   2, 2186220449) /* Container */
      , (42104, 8000, 3678679108) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42104,   1,   325, 0, 0, 325) /* MaxHealth */;

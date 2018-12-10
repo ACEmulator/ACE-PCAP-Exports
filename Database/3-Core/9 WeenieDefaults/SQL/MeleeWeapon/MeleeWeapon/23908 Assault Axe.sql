@@ -52,9 +52,6 @@ VALUES (23908,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23908,   1, 'Assault Axe') /* Name */
-     , (23908,   7, 'Made three of these from a single run to the Tumerok''s Reedshark Training Grounds
-October 14th 2012') /* Inscription */
-     , (23908,   8, 'Carokahn') /* ScribeName */
      , (23908,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

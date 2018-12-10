@@ -6,24 +6,12 @@ VALUES (35879, 'ace35879-paradoxtouchedolthoiripper', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35879,   1,         16) /* ItemType - Creature */
      , (35879,   2,         92) /* CreatureType - ParadoxOlthoi */
-     , (35879,   5,       6515) /* EncumbranceVal */
      , (35879,   6,        255) /* ItemsCapacity */
      , (35879,   7,        255) /* ContainersCapacity */
      , (35879,  16,          1) /* ItemUseable - No */
-     , (35879,  19,          0) /* Value */
      , (35879,  25,        200) /* Level */
-     , (35879,  28,          0) /* ArmorLevel */
      , (35879,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35879, 105,          8) /* ItemWorkmanship */
-     , (35879, 106,        234) /* ItemSpellcraft */
-     , (35879, 107,        996) /* ItemCurMana */
-     , (35879, 108,        996) /* ItemMaxMana */
-     , (35879, 109,        242) /* ItemDifficulty */
-     , (35879, 110,          0) /* ItemAllegianceRankLimit */
-     , (35879, 115,          0) /* ItemSkillLevelLimit */
-     , (35879, 131,          5) /* MaterialType - Satin */
      , (35879, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35879, 172,          1) /* AppraisalLongDescDecoration */
      , (35879, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,25 +19,14 @@ VALUES (35879,   1, True ) /* Stuck */
      , (35879,  12, True ) /* ReportCollisions */
      , (35879,  13, False) /* Ethereal */
      , (35879,  14, True ) /* GravityStatus */
-     , (35879,  19, True ) /* Attackable */
-     , (35879, 100, True ) /* Dyable */;
+     , (35879,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35879,   5, -0.0555555555555556) /* ManaRate */
-     , (35879,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (35879,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (35879,  15,       1) /* ArmorModVsBludgeon */
-     , (35879,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (35879,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (35879,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (35879,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (35879,  39, 0.800000011920929) /* DefaultScale */
-     , (35879,  77,       1) /* PhysicsScriptIntensity */
-     , (35879, 165,       1) /* ArmorModVsNether */;
+VALUES (35879,  39, 0.800000011920929) /* DefaultScale */
+     , (35879,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35879,   1, 'Paradox-touched Olthoi Ripper') /* Name */
-     , (35879,  16, 'Killed by Oz Pk.') /* LongDesc */
      , (35879, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,10 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (35879,   1,  2090, 0, 0, 2090) /* MaxHealth */
      , (35879,   3,  3590, 0, 0, 3590) /* MaxStamina */
      , (35879,   5,   120, 0, 0, 120) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35879,  1035,      2) 
-     , (35879,  2550,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35879, 67116827, 0, 0);

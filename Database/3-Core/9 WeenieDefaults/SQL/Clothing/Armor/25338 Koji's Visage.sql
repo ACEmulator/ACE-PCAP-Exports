@@ -43,8 +43,6 @@ VALUES (25338,   5, -0.0333000011742115) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25338,   1, 'Koji''s Visage') /* Name */
-     , (25338,   7, 'Windruneshade gaty 325 ua at 21 H---lvl 49 too') /* Inscription */
-     , (25338,   8, 'Beast') /* ScribeName */
      , (25338,  16, 'A lovely and delicately detailed mask representing Koji herself. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

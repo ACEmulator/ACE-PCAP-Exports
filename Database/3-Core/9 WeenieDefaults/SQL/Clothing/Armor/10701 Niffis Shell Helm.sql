@@ -35,9 +35,6 @@ VALUES (10701,  13, 0.800000011920929) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10701,   1, 'Niffis Shell Helm') /* Name */
-     , (10701,   7, 'AL 210 and white colored
-For my vassal and little brother') /* Inscription */
-     , (10701,   8, 'Valkiry') /* ScribeName */
      , (10701,  16, 'A Niffis Shell Helmet.  It is unusally light, and very well ventilated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

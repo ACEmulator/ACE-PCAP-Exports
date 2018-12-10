@@ -25,9 +25,7 @@ VALUES (49309,   1,        128) /* ItemType - Misc */
      , (49309, 370,         16) /* GearDamage */
      , (49309, 371,         11) /* GearDamageResist */
      , (49309, 372,         17) /* GearCrit */
-     , (49309, 373,          7) /* GearCritResist */
-     , (49309, 374,          6) /* GearCritDamage */
-     , (49309, 375,         11) /* GearCritDamageResist */;
+     , (49309, 373,          7) /* GearCritResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49309,   1, False) /* Stuck */
@@ -44,8 +42,6 @@ VALUES (49309,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49309,   1, 'Blizzard Wisp Essence') /* Name */
-     , (49309,   7, '38 (17/19/10)') /* Inscription */
-     , (49309,   8, 'Jesse the Destroyer') /* ScribeName */
      , (49309,  14, 'Use this essence to summon or dismiss your Blizzard Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

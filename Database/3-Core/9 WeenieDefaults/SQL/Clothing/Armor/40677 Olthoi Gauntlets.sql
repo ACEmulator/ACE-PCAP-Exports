@@ -5,14 +5,12 @@ VALUES (40677, 'ace40677-olthoigauntlets', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40677,   1,          2) /* ItemType - Armor */
-     , (40677,   2,         13) /* CreatureType - Golem */
      , (40677,   4,      32768) /* ClothingPriority - Hands */
      , (40677,   5,        484) /* EncumbranceVal */
      , (40677,   9,         32) /* ValidLocations - HandWear */
      , (40677,  16,          1) /* ItemUseable - No */
      , (40677,  18,          1) /* UiEffects - Magical */
      , (40677,  19,      33687) /* Value */
-     , (40677,  25,        125) /* Level */
      , (40677,  28,        496) /* ArmorLevel */
      , (40677,  36,       9999) /* ResistMagic */
      , (40677,  65,        101) /* Placement - Resting */
@@ -32,11 +30,9 @@ VALUES (40677,   1,          2) /* ItemType - Armor */
      , (40677, 176,          7) /* AppraisalItemSkill */
      , (40677, 177,          2) /* GemCount */
      , (40677, 178,         21) /* GemType */
-     , (40677, 265,         15) /* EquipmentSetId - Archers */
      , (40677, 270,          7) /* WieldRequirements2 - Level */
      , (40677, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40677, 272,        150) /* WieldDifficulty2 */
-     , (40677, 374,          1) /* GearCritDamage */;
+     , (40677, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40677,   1, False) /* Stuck */
@@ -77,64 +73,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40677,   2, 2149211073) /* Container */
      , (40677, 8000, 2976579750) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (40677,   1, 190, 0, 0) /* Strength */
-     , (40677,   2, 220, 0, 0) /* Endurance */
-     , (40677,   3, 230, 0, 0) /* Quickness */
-     , (40677,   4, 140, 0, 0) /* Coordination */
-     , (40677,   5, 150, 0, 0) /* Focus */
-     , (40677,   6, 150, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40677,   1,   870, 0, 0, 870) /* MaxHealth */
-     , (40677,   3,  1120, 0, 0, 1120) /* MaxStamina */
-     , (40677,   5,   750, 0, 0, 750) /* MaxMana */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40677,   423,      2) 
-     , (40677,  1378,      2) 
-     , (40677,  1486,      2) 
-     , (40677,  1498,      2) 
-     , (40677,  1516,      2) 
-     , (40677,  1528,      2) 
-     , (40677,  1562,      2) 
-     , (40677,  2059,      2) 
-     , (40677,  2092,      2) 
-     , (40677,  2094,      2) 
-     , (40677,  2098,      2) 
+VALUES (40677,  1378,      2) 
      , (40677,  2102,      2) 
-     , (40677,  2108,      2) 
-     , (40677,  2113,      2) 
-     , (40677,  2203,      2) 
-     , (40677,  2207,      2) 
-     , (40677,  2223,      2) 
-     , (40677,  2504,      2) 
-     , (40677,  2510,      2) 
-     , (40677,  2515,      2) 
-     , (40677,  2547,      2) 
-     , (40677,  2551,      2) 
-     , (40677,  2572,      2) 
-     , (40677,  2577,      2) 
-     , (40677,  2592,      2) 
-     , (40677,  2610,      2) 
-     , (40677,  2614,      2) 
-     , (40677,  3834,      2) 
      , (40677,  4226,      2) 
-     , (40677,  4391,      2) 
-     , (40677,  4393,      2) 
-     , (40677,  4397,      2) 
-     , (40677,  4401,      2) 
-     , (40677,  4407,      2) 
-     , (40677,  4409,      2) 
-     , (40677,  4412,      2) 
-     , (40677,  4518,      2) 
-     , (40677,  4538,      2) 
-     , (40677,  4624,      2) 
-     , (40677,  4671,      2) 
-     , (40677,  4696,      2) 
-     , (40677,  5070,      2) 
-     , (40677,  5889,      2) 
-     , (40677,  6074,      2) ;
+     , (40677,  4407,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40677, 67114460, 171, 3)

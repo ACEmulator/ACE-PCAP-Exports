@@ -6,50 +6,27 @@ VALUES (36822, 'ace36822-drudgebloodletter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36822,   1,         16) /* ItemType - Creature */
      , (36822,   2,          3) /* CreatureType - Drudge */
-     , (36822,   5,        500) /* EncumbranceVal */
      , (36822,   6,        255) /* ItemsCapacity */
      , (36822,   7,        255) /* ContainersCapacity */
      , (36822,  16,          1) /* ItemUseable - No */
-     , (36822,  19,          1) /* Value */
      , (36822,  25,        135) /* Level */
-     , (36822,  33,         -2) /* Bonded - Destroy */
-     , (36822,  44,         45) /* Damage */
-     , (36822,  45,          4) /* DamageType - Bludgeon */
-     , (36822,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (36822,  49,         20) /* WeaponTime */
      , (36822,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36822, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36822, 307,          5) /* DamageRating */
-     , (36822, 313,          0) /* CritRating */
-     , (36822, 314,          0) /* CritDamageRating */
-     , (36822, 353,         10) /* WeaponType - Thrown */
-     , (36822, 386,          0) /* Overpower */
-     , (36822, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36822, 8030,          0);
+     , (36822, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36822,   1, True ) /* Stuck */
-     , (36822,   2, False) /* Open */
      , (36822,  12, True ) /* ReportCollisions */
      , (36822,  13, False) /* Ethereal */
      , (36822,  14, True ) /* GravityStatus */
      , (36822,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36822,  21,       0) /* WeaponLength */
-     , (36822,  22,     0.5) /* DamageVariance */
-     , (36822,  26,      45) /* MaximumVelocity */
-     , (36822,  29,       1) /* WeaponDefense */
-     , (36822,  39, 1.29999995231628) /* DefaultScale */
-     , (36822,  62,       1) /* WeaponOffense */
-     , (36822,  63,       1) /* DamageMod */
-     , (36822, 149,       0) /* WeaponMissileDefense */
-     , (36822, 150,       0) /* WeaponMagicDefense */;
+VALUES (36822,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36822,   1, 'Drudge Bloodletter') /* Name */
-     , (36822,  14, 'Use this item to close it.') /* Use */
-     , (36822,  16, 'Killed by Mag-three.') /* LongDesc */
      , (36822, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

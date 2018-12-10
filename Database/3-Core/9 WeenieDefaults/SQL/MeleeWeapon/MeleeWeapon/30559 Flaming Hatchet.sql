@@ -5,13 +5,11 @@ VALUES (30559, 'axehatchetfire', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30559,   1,          1) /* ItemType - MeleeWeapon */
-     , (30559,   2,         83) /* CreatureType - ViamontianKnight */
      , (30559,   5,        354) /* EncumbranceVal */
      , (30559,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (30559,  16,          1) /* ItemUseable - No */
      , (30559,  18,         32) /* UiEffects - Fire */
      , (30559,  19,        436) /* Value */
-     , (30559,  25,        185) /* Level */
      , (30559,  44,         58) /* Damage */
      , (30559,  45,         16) /* DamageType - Fire */
      , (30559,  47,          4) /* AttackType - Slash */
@@ -27,7 +25,6 @@ VALUES (30559,   1,          1) /* ItemType - MeleeWeapon */
      , (30559, 109,        195) /* ItemDifficulty */
      , (30559, 110,          0) /* ItemAllegianceRankLimit */
      , (30559, 115,        390) /* ItemSkillLevelLimit */
-     , (30559, 117,        350) /* ItemManaCost */
      , (30559, 131,         58) /* MaterialType - Bronze */
      , (30559, 151,          2) /* HookType - Wall */
      , (30559, 158,          2) /* WieldRequirements - RawSkill */
@@ -37,15 +34,8 @@ VALUES (30559,   1,          1) /* ItemType - MeleeWeapon */
      , (30559, 176,         46) /* AppraisalItemSkill */
      , (30559, 177,          1) /* GemCount */
      , (30559, 178,         20) /* GemType */
-     , (30559, 307,          5) /* DamageRating */
-     , (30559, 319,          2) /* ItemMaxLevel */
-     , (30559, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (30559, 353,          3) /* WeaponType - Axe */
      , (30559, 8030,          0);
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (30559,   4,          0) /* ItemTotalXp */
-     , (30559,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30559,   1, False) /* Stuck */
@@ -63,8 +53,6 @@ VALUES (30559,   5, -0.0666666666666667) /* ManaRate */
      , (30559,  29,    1.11) /* WeaponDefense */
      , (30559,  62,     1.2) /* WeaponOffense */
      , (30559,  63,       1) /* DamageMod */
-     , (30559, 149,   1.005) /* WeaponMissileDefense */
-     , (30559, 150,   1.015) /* WeaponMagicDefense */
      , (30559, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -85,55 +73,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30559,   2, 2925027699) /* Container */
      , (30559, 8000, 2925027584) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (30559,   1, 465, 0, 0) /* Strength */
-     , (30559,   2, 415, 0, 0) /* Endurance */
-     , (30559,   3, 370, 0, 0) /* Quickness */
-     , (30559,   4, 405, 0, 0) /* Coordination */
-     , (30559,   5,  85, 0, 0) /* Focus */
-     , (30559,   6,  85, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30559,   1,   808, 0, 0, 808) /* MaxHealth */
-     , (30559,   3,  1415, 0, 0, 1415) /* MaxStamina */
-     , (30559,   5,    85, 0, 0, 85) /* MaxMana */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30559,   658,      2) 
-     , (30559,  1401,      2) 
-     , (30559,  1402,      2) 
-     , (30559,  1589,      2) 
-     , (30559,  1591,      2) 
-     , (30559,  1592,      2) 
-     , (30559,  1601,      2) 
-     , (30559,  1604,      2) 
-     , (30559,  1612,      2) 
-     , (30559,  1614,      2) 
-     , (30559,  1615,      2) 
-     , (30559,  1616,      2) 
-     , (30559,  1626,      2) 
-     , (30559,  1627,      2) 
-     , (30559,  2053,      2) 
-     , (30559,  2059,      2) 
-     , (30559,  2096,      2) 
-     , (30559,  2106,      2) 
-     , (30559,  2116,      2) 
-     , (30559,  2509,      2) 
-     , (30559,  2544,      2) 
-     , (30559,  2548,      2) 
-     , (30559,  2552,      2) 
-     , (30559,  2579,      2) 
-     , (30559,  2580,      2) 
-     , (30559,  2582,      2) 
-     , (30559,  2591,      2) 
-     , (30559,  2608,      2) 
-     , (30559,  2617,      2) 
-     , (30559,  4395,      2) 
-     , (30559,  4663,      2) 
-     , (30559,  4691,      2) 
-     , (30559,  4710,      2) 
-     , (30559,  5783,      2) 
-     , (30559,  5808,      2) ;
+VALUES (30559,  4395,      2) 
+     , (30559,  4663,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30559, 67116386, 0, 0);

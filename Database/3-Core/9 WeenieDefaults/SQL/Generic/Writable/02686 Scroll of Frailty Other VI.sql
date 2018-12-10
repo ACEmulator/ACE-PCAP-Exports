@@ -8,17 +8,8 @@ VALUES (2686,   1,       8192) /* ItemType - Writable */
      , (2686,   5,         30) /* EncumbranceVal */
      , (2686,  16,          8) /* ItemUseable - Contained */
      , (2686,  19,       1000) /* Value */
-     , (2686,  45,          8) /* DamageType - Cold */
      , (2686,  65,        101) /* Placement - Resting */
-     , (2686,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2686, 105,          8) /* ItemWorkmanship */
-     , (2686, 131,         58) /* MaterialType - Bronze */
-     , (2686, 158,          2) /* WieldRequirements - RawSkill */
-     , (2686, 159,         34) /* WieldSkilltype - WarMagic */
-     , (2686, 160,        310) /* WieldDifficulty */
-     , (2686, 172,          5) /* AppraisalLongDescDecoration */
-     , (2686, 177,          4) /* GemCount */
-     , (2686, 178,         47) /* GemType */;
+     , (2686,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2686,   1, False) /* Stuck */
@@ -29,10 +20,7 @@ VALUES (2686,   1, False) /* Stuck */
      , (2686,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2686,  29,    1.13) /* WeaponDefense */
-     , (2686,  39,     1.5) /* DefaultScale */
-     , (2686, 144,    0.06) /* ManaConversionMod */
-     , (2686, 152,    1.05) /* ElementalDamageMod */;
+VALUES (2686,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2686,   1, 'Scroll of Frailty Other VI') /* Name */
@@ -44,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2686,   1,   33554826) /* Setup */
      , (2686,   8,  100676456) /* Icon */
      , (2686,  22,  872415275) /* PhysicsEffectTable */
-     , (2686,  28,       1372) /* Spell */
+     , (2686,  28,       1372) /* Spell - FrailtyOther6 */
      , (2686, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2686, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2686, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

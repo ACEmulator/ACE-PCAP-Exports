@@ -6,27 +6,13 @@ VALUES (25755, 'golemmagmadfdsmall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25755,   1,         16) /* ItemType - Creature */
      , (25755,   2,         13) /* CreatureType - Golem */
-     , (25755,   5,          0) /* EncumbranceVal */
      , (25755,   6,        255) /* ItemsCapacity */
      , (25755,   7,        255) /* ContainersCapacity */
      , (25755,  16,          1) /* ItemUseable - No */
-     , (25755,  19,       4747) /* Value */
      , (25755,  25,         40) /* Level */
-     , (25755,  33,         -2) /* Bonded - Destroy */
-     , (25755,  44,        610) /* Damage */
-     , (25755,  45,          2) /* DamageType - Pierce */
-     , (25755,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (25755,  49,         10) /* WeaponTime */
      , (25755,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
-     , (25755, 113,          1) /* Gender - Male */
      , (25755, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25755, 307,          5) /* DamageRating */
-     , (25755, 313,          0) /* CritRating */
-     , (25755, 314,          0) /* CritDamageRating */
-     , (25755, 353,         10) /* WeaponType - Thrown */
-     , (25755, 386,          0) /* Overpower */
-     , (25755, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (25755, 8030,          0);
+     , (25755, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25755,   1, True ) /* Stuck */
@@ -38,16 +24,7 @@ VALUES (25755,   1, True ) /* Stuck */
      , (25755,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25755,  21,       0) /* WeaponLength */
-     , (25755,  22,     0.5) /* DamageVariance */
-     , (25755,  26, 23.2000007629395) /* MaximumVelocity */
-     , (25755,  29,       1) /* WeaponDefense */
-     , (25755,  39,     0.5) /* DefaultScale */
-     , (25755,  62,       1) /* WeaponOffense */
-     , (25755,  63,       1) /* DamageMod */
-     , (25755, 147,       1) /* CriticalFrequency */
-     , (25755, 149,       0) /* WeaponMissileDefense */
-     , (25755, 150,       0) /* WeaponMagicDefense */;
+VALUES (25755,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25755,   1, 'Scold Lump') /* Name */

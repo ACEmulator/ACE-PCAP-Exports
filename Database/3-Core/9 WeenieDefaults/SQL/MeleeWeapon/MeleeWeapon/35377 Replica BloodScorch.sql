@@ -56,8 +56,6 @@ VALUES (35377,   5, -0.0329999998211861) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35377,   1, 'Replica BloodScorch') /* Name */
-     , (35377,   7, ' ') /* Inscription */
-     , (35377,   8, 'Genese') /* ScribeName */
      , (35377,  16, 'A replica of the sword, BloodScorch, carried by Lord Cynreft Mhoire, the Cursed Lord of House Mhoire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

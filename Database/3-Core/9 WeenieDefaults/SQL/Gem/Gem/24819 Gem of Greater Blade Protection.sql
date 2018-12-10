@@ -31,7 +31,7 @@ VALUES (24819,   1,   33554809) /* Setup */
      , (24819,   6,   67111919) /* PaletteBase */
      , (24819,   8,  100674443) /* Icon */
      , (24819,  22,  872415275) /* PhysicsEffectTable */
-     , (24819,  28,       1120) /* Spell */
+     , (24819,  28,       1120) /* Spell - BladeProtectionOther6 */
      , (24819, 8001,    6844561) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (24819, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (24819, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

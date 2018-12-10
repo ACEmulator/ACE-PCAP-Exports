@@ -5,25 +5,11 @@ VALUES (32468, 'ace32468-lifemagicwardenofenlightenment', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32468,   1,         16) /* ItemType - Creature */
-     , (32468,   5,         81) /* EncumbranceVal */
      , (32468,   6,        255) /* ItemsCapacity */
      , (32468,   7,        255) /* ContainersCapacity */
      , (32468,  16,         32) /* ItemUseable - Remote */
-     , (32468,  19,      17066) /* Value */
-     , (32468,  28,        299) /* ArmorLevel */
      , (32468,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32468,  95,          3) /* RadarBlipColor - White */
-     , (32468, 105,          6) /* ItemWorkmanship */
-     , (32468, 106,        232) /* ItemSpellcraft */
-     , (32468, 107,       1307) /* ItemCurMana */
-     , (32468, 108,       1307) /* ItemMaxMana */
-     , (32468, 109,        261) /* ItemDifficulty */
-     , (32468, 110,          0) /* ItemAllegianceRankLimit */
-     , (32468, 115,          0) /* ItemSkillLevelLimit */
-     , (32468, 131,          5) /* MaterialType - Satin */
-     , (32468, 172,          5) /* AppraisalLongDescDecoration */
-     , (32468, 177,          2) /* GemCount */
-     , (32468, 178,         29) /* GemType */
      , (32468, 307,          0) /* DamageRating */
      , (32468, 308,          0) /* DamageResistRating */
      , (32468, 313,          0) /* CritRating */
@@ -58,25 +44,14 @@ VALUES (32468,   1, True ) /* Stuck */
      , (32468,  14, True ) /* GravityStatus */
      , (32468,  19, False) /* Attackable */
      , (32468,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32468,  42, True ) /* AllowEdgeSlide */
-     , (32468, 100, True ) /* Dyable */;
+     , (32468,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32468,   5, -0.0555555555555556) /* ManaRate */
-     , (32468,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32468,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (32468,  15,       1) /* ArmorModVsBludgeon */
-     , (32468,  16,     0.5) /* ArmorModVsCold */
-     , (32468,  17,     0.5) /* ArmorModVsFire */
-     , (32468,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (32468,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (32468,  39,     0.5) /* DefaultScale */
-     , (32468,  54,       3) /* UseRadius */
-     , (32468, 165,       1) /* ArmorModVsNether */;
+VALUES (32468,  39,     0.5) /* DefaultScale */
+     , (32468,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32468,   1, 'Life Magic Warden of Enlightenment') /* Name */
-     , (32468,  16, 'Slippers of Arcane Enlightenment') /* LongDesc */
      , (32468, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -95,10 +70,3 @@ VALUES (32468, 8040, 3583574078, 187.5, 129, 374, -4.37114E-08, 0, 0, -1) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32468, 8000, 3692312795) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32468,   683,      2) 
-     , (32468,  1402,      2) 
-     , (32468,  1486,      2) 
-     , (32468,  3833,      2) 
-     , (32468,  5883,      2) ;

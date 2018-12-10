@@ -6,11 +6,9 @@ VALUES (237, 'virindimaster', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (237,   1,         16) /* ItemType - Creature */
      , (237,   2,         19) /* CreatureType - Virindi */
-     , (237,   5,       6365) /* EncumbranceVal */
      , (237,   6,        255) /* ItemsCapacity */
      , (237,   7,        255) /* ContainersCapacity */
      , (237,  16,          1) /* ItemUseable - No */
-     , (237,  19,          0) /* Value */
      , (237,  25,         50) /* Level */
      , (237,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (237, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (237,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (237,   1, 'Virindi Master') /* Name */
-     , (237,  16, 'Killed by The Baron of Colier.') /* LongDesc */
      , (237, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

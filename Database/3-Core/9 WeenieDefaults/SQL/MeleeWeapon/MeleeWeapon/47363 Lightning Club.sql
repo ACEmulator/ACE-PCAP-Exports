@@ -5,14 +5,12 @@ VALUES (47363, 'ace47363-lightningclub', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47363,   1,          1) /* ItemType - MeleeWeapon */
-     , (47363,   2,          8) /* CreatureType - Tusker */
      , (47363,   5,        800) /* EncumbranceVal */
      , (47363,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47363,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47363,  16,          1) /* ItemUseable - No */
      , (47363,  18,         64) /* UiEffects - Lightning */
      , (47363,  19,        350) /* Value */
-     , (47363,  25,         80) /* Level */
      , (47363,  51,          1) /* CombatUse - Melee */
      , (47363,  65,          1) /* Placement - RightHandCombat */
      , (47363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -47,6 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47363,   3, 3700900093) /* Wielder */
      , (47363, 8000, 3701072604) /* PCAPRecordedObjectIID */
      , (47363, 8008, 3700900093) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47363,   1,   400, 0, 0, 400) /* MaxHealth */;

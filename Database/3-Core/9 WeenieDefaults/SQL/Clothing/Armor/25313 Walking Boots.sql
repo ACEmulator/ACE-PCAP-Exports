@@ -47,8 +47,6 @@ VALUES (25313,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25313,   1, 'Walking Boots') /* Name */
-     , (25313,   7, 'Dont want to lose these!') /* Inscription */
-     , (25313,   8, 'Just Bob') /* ScribeName */
      , (25313,  16, 'These boots were made for walking. They can also be dyed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

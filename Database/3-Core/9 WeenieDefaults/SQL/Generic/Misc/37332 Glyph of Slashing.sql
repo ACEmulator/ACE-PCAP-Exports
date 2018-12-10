@@ -15,7 +15,6 @@ VALUES (37332,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37332,   1, False) /* Stuck */
-     , (37332,   2, True ) /* Open */
      , (37332,  11, True ) /* IgnoreCollisions */
      , (37332,  13, True ) /* Ethereal */
      , (37332,  14, True ) /* GravityStatus */
@@ -23,8 +22,6 @@ VALUES (37332,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37332,   1, 'Glyph of Slashing') /* Name */
-     , (37332,  14, 'Use this item to close it.') /* Use */
-     , (37332,  16, 'Killed by Mag-four.') /* LongDesc */
      , (37332,  20, 'Glyphs of Slashing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

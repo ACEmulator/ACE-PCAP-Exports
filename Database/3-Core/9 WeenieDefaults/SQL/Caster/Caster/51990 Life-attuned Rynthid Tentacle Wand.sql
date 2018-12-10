@@ -34,7 +34,6 @@ VALUES (51990,   1, False) /* Stuck */
      , (51990,  19, True ) /* Attackable */
      , (51990,  22, True ) /* Inscribable */
      , (51990,  69, False) /* IsSellable */
-     , (51990,  85, True ) /* AppraisalHasAllowedWielder */
      , (51990,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -46,8 +45,7 @@ VALUES (51990,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51990,   1, 'Life-attuned Rynthid Tentacle Wand') /* Name */
-     , (51990,  16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */
-     , (51990,  25, 'Deathspawner') /* CraftsmanName */;
+     , (51990,  16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51990,   1,   33561603) /* Setup */

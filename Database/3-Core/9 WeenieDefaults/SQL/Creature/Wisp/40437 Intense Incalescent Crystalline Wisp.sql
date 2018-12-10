@@ -6,20 +6,11 @@ VALUES (40437, 'ace40437-intenseincalescentcrystallinewisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40437,   1,         16) /* ItemType - Creature */
      , (40437,   2,         20) /* CreatureType - Wisp */
-     , (40437,   5,          5) /* EncumbranceVal */
      , (40437,   6,        255) /* ItemsCapacity */
      , (40437,   7,        255) /* ContainersCapacity */
      , (40437,  16,          1) /* ItemUseable - No */
-     , (40437,  17,         48) /* RareId */
-     , (40437,  19,          0) /* Value */
      , (40437,  25,        115) /* Level */
-     , (40437,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
-     , (40437,  33,         -1) /* Bonded - Slippery */
      , (40437,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (40437, 106,        325) /* ItemSpellcraft */
-     , (40437, 107,      10000) /* ItemCurMana */
-     , (40437, 108,      10000) /* ItemMaxMana */
-     , (40437, 109,          0) /* ItemDifficulty */
      , (40437, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40437, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -29,12 +20,10 @@ VALUES (40437,   1, True ) /* Stuck */
      , (40437,  13, False) /* Ethereal */
      , (40437,  14, True ) /* GravityStatus */
      , (40437,  19, True ) /* Attackable */
-     , (40437,  42, True ) /* AllowEdgeSlide */
-     , (40437, 108, True ) /* RareUsesTimer */;
+     , (40437,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40437,   1, 'Intense Incalescent Crystalline Wisp') /* Name */
-     , (40437,  16, 'Using this gem will increase your natural resistance to Acid damage by 99.9% for 15 minutes.') /* LongDesc */
      , (40437, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -66,6 +55,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40437,   1,  1220, 0, 0, 29) /* MaxHealth */
      , (40437,   3,  1320, 0, 0, 1318) /* MaxStamina */
      , (40437,   5,   490, 0, 0, 287) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40437,  3680,      2) ;

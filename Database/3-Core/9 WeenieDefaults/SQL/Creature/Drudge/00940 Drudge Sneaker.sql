@@ -6,37 +6,13 @@ VALUES (940, 'drudgesneaker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (940,   1,         16) /* ItemType - Creature */
      , (940,   2,          3) /* CreatureType - Drudge */
-     , (940,   5,         30) /* EncumbranceVal */
      , (940,   6,        255) /* ItemsCapacity */
      , (940,   7,        255) /* ContainersCapacity */
      , (940,  16,          1) /* ItemUseable - No */
-     , (940,  19,       2000) /* Value */
      , (940,  25,          8) /* Level */
-     , (940,  44,         21) /* Damage */
-     , (940,  45,         64) /* DamageType - Electric */
-     , (940,  47,          4) /* AttackType - Slash */
-     , (940,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (940,  49,         38) /* WeaponTime */
      , (940,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (940, 105,          5) /* ItemWorkmanship */
-     , (940, 106,        237) /* ItemSpellcraft */
-     , (940, 107,        708) /* ItemCurMana */
-     , (940, 108,        708) /* ItemMaxMana */
-     , (940, 109,        108) /* ItemDifficulty */
-     , (940, 110,          0) /* ItemAllegianceRankLimit */
-     , (940, 115,        257) /* ItemSkillLevelLimit */
-     , (940, 131,         75) /* MaterialType - Oak */
      , (940, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (940, 158,          2) /* WieldRequirements - RawSkill */
-     , (940, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (940, 160,        300) /* WieldDifficulty */
-     , (940, 172,          1) /* AppraisalLongDescDecoration */
-     , (940, 176,         41) /* AppraisalItemSkill */
-     , (940, 292,          2) /* Cleaving */
-     , (940, 307,          5) /* DamageRating */
-     , (940, 353,         11) /* WeaponType - TwoHanded */
-     , (940, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (940, 8030,          0);
+     , (940, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (940,   1, True ) /* Stuck */
@@ -46,20 +22,10 @@ VALUES (940,   1, True ) /* Stuck */
      , (940,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (940,   5, -0.0555555555555556) /* ManaRate */
-     , (940,  21,       0) /* WeaponLength */
-     , (940,  22,    0.35) /* DamageVariance */
-     , (940,  26,       0) /* MaximumVelocity */
-     , (940,  29,    1.06) /* WeaponDefense */
-     , (940,  39, 1.20000004768372) /* DefaultScale */
-     , (940,  62,    1.11) /* WeaponOffense */
-     , (940,  63,       1) /* DamageMod */;
+VALUES (940,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (940,   1, 'Drudge Sneaker') /* Name */
-     , (940,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (940,  16, 'Inscribed spell: Dual Wield Mastery Other VII
-Increases the target''s Dual Wield skill by 40 points.') /* LongDesc */
      , (940, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,12 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (940,   1,    47, 0, 0, 47) /* MaxHealth */
      , (940,   3,    85, 0, 0, 85) /* MaxStamina */
      , (940,   5,    20, 0, 0, 20) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (940,  1615,      2) 
-     , (940,  1626,      2) 
-     , (940,  5801,      2) 
-     , (940,  5880,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (940, 67112812, 0, 0);

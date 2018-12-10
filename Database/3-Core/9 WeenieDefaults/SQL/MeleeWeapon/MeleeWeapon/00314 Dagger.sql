@@ -5,14 +5,11 @@ VALUES (314, 'dagger', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (314,   1,          1) /* ItemType - MeleeWeapon */
-     , (314,   2,         86) /* CreatureType - Moar */
      , (314,   5,        135) /* EncumbranceVal */
      , (314,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (314,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (314,  16,          1) /* ItemUseable - No */
      , (314,  19,         40) /* Value */
-     , (314,  25,        180) /* Level */
-     , (314,  33,          1) /* Bonded - Bonded */
      , (314,  44,          7) /* Damage */
      , (314,  45,          3) /* DamageType - Slash, Pierce */
      , (314,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
@@ -27,16 +24,10 @@ VALUES (314,   1,          1) /* ItemType - MeleeWeapon */
      , (314, 108,        392) /* ItemMaxMana */
      , (314, 109,         43) /* ItemDifficulty */
      , (314, 110,          0) /* ItemAllegianceRankLimit */
-     , (314, 114,          0) /* Attuned - Normal */
      , (314, 115,        126) /* ItemSkillLevelLimit */
      , (314, 131,         60) /* MaterialType - Gold */
      , (314, 151,          2) /* HookType - Wall */
-     , (314, 171,          3) /* NumTimesTinkered */
-     , (314, 172,          7) /* AppraisalLongDescDecoration */
      , (314, 176,         46) /* AppraisalItemSkill */
-     , (314, 177,          2) /* GemCount */
-     , (314, 178,         16) /* GemType */
-     , (314, 188,          1) /* HeritageGroup - Aluvian */
      , (314, 353,          6) /* WeaponType - Dagger */
      , (314, 8030,          0);
 
@@ -46,9 +37,7 @@ VALUES (314,   1, False) /* Stuck */
      , (314,  13, True ) /* Ethereal */
      , (314,  14, True ) /* GravityStatus */
      , (314,  19, True ) /* Attackable */
-     , (314,  22, True ) /* Inscribable */
-     , (314,  85, True ) /* AppraisalHasAllowedWielder */
-     , (314,  99, False) /* Ivoryable */;
+     , (314,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (314,   5, -0.0333333350718021) /* ManaRate */
@@ -63,9 +52,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (314,   1, 'Dagger') /* Name */
      , (314,   7, '2-7, +8att, bd3, coord3, diff 43, Dagger 126') /* Inscription */
      , (314,   8, 'Baal Riojn') /* ScribeName */
-     , (314,  16, 'Finely crafted Gold Dagger of Coordination, set with 2 Black Opals') /* LongDesc */
-     , (314,  25, 'Triumph') /* CraftsmanName */
-     , (314,  39, 'Darkseraf') /* TinkerName */;
+     , (314,  16, 'Finely crafted Gold Dagger of Coordination, set with 2 Black Opals') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (314,   1,   33554735) /* Setup */
@@ -87,31 +74,9 @@ VALUES (314,   3, 2094272544) /* Wielder */
      , (314, 8000, 2155151124) /* PCAPRecordedObjectIID */
      , (314, 8008, 2094272544) /* PCAPRecordedParentIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (314,   1,  1020, 0, 0, 1020) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (314,  1375,      2) 
-     , (314,  1376,      2) 
-     , (314,  1399,      2) 
-     , (314,  1589,      2) 
-     , (314,  1590,      2) 
-     , (314,  1591,      2) 
-     , (314,  1592,      2) 
-     , (314,  1602,      2) 
-     , (314,  1603,      2) 
-     , (314,  1604,      2) 
-     , (314,  1613,      2) 
-     , (314,  1614,      2) 
-     , (314,  1615,      2) 
-     , (314,  1616,      2) 
-     , (314,  1624,      2) 
-     , (314,  1625,      2) 
-     , (314,  1626,      2) 
-     , (314,  2572,      2) 
-     , (314,  2580,      2) 
-     , (314,  2598,      2) 
-     , (314,  2603,      2) ;
+     , (314,  1613,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (314, 67111920, 0, 0);

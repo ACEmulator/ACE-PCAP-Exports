@@ -35,9 +35,6 @@ VALUES (10971,   5,    -0.1) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10971,   1, 'Reshalra''s Collar') /* Name */
-     , (10971,   7, 'Strength VI
-') /* Inscription */
-     , (10971,   8, 'Ikon Blade') /* ScribeName */
      , (10971,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

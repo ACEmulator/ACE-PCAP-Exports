@@ -5,19 +5,14 @@ VALUES (23674, 'katarmonsterhigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23674,   1,          1) /* ItemType - MeleeWeapon */
-     , (23674,   2,         59) /* CreatureType - Simulacrum */
      , (23674,   5,        135) /* EncumbranceVal */
      , (23674,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (23674,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23674,  16,          1) /* ItemUseable - No */
      , (23674,  19,         50) /* Value */
-     , (23674,  25,         50) /* Level */
      , (23674,  51,          1) /* CombatUse - Melee */
      , (23674,  65,          1) /* Placement - RightHandCombat */
-     , (23674,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23674, 113,          1) /* Gender - Male */
-     , (23674, 188,          3) /* HeritageGroup - Sho */
-     , (23674, 307,          5) /* DamageRating */;
+     , (23674,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23674,   1, False) /* Stuck */
@@ -35,12 +30,6 @@ VALUES (23674,   1,   33554743) /* Setup */
      , (23674,   3,  536870932) /* SoundTable */
      , (23674,   6,   67111919) /* PaletteBase */
      , (23674,   8,  100668926) /* Icon */
-     , (23674,   9,   83890449) /* EyesTexture */
-     , (23674,  10,   83890547) /* NoseTexture */
-     , (23674,  11,   83890581) /* MouthTexture */
-     , (23674,  15,   67117016) /* HairPalette */
-     , (23674,  16,   67109565) /* EyesPalette */
-     , (23674,  17,   67110048) /* SkinPalette */
      , (23674,  22,  872415275) /* PhysicsEffectTable */
      , (23674, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (23674, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -55,19 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23674,   3, 3687897355) /* Wielder */
      , (23674, 8000, 3687897313) /* PCAPRecordedObjectIID */
      , (23674, 8008, 3687897355) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (23674,   1, 250, 0, 0) /* Strength */
-     , (23674,   2, 200, 0, 0) /* Endurance */
-     , (23674,   3, 100, 0, 0) /* Quickness */
-     , (23674,   4, 100, 0, 0) /* Coordination */
-     , (23674,   5,  90, 0, 0) /* Focus */
-     , (23674,   6, 120, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23674,   1,   200, 0, 0, 200) /* MaxHealth */
-     , (23674,   3,   350, 0, 0, 348) /* MaxStamina */
-     , (23674,   5,   120, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23674, 67111920, 0, 0);

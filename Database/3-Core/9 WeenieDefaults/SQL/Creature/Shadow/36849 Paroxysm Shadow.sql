@@ -6,14 +6,11 @@ VALUES (36849, 'ace36849-paroxysmshadow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36849,   1,         16) /* ItemType - Creature */
      , (36849,   2,         22) /* CreatureType - Shadow */
-     , (36849,   5,         50) /* EncumbranceVal */
      , (36849,   6,        255) /* ItemsCapacity */
      , (36849,   7,        255) /* ContainersCapacity */
      , (36849,  16,          1) /* ItemUseable - No */
-     , (36849,  19,       5000) /* Value */
      , (36849,  25,        100) /* Level */
      , (36849,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (36849, 107,          0) /* ItemCurMana */
      , (36849, 113,          2) /* Gender - Female */
      , (36849, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36849, 188,          1) /* HeritageGroup - Aluvian */
@@ -29,13 +26,10 @@ VALUES (36849,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36849,  39, 1.29999995231628) /* DefaultScale */
-     , (36849,  76,     0.5) /* Translucency */
-     , (36849,  87,       2) /* ItemEfficiency */
-     , (36849, 137,     0.2) /* ManaStoneDestroyChance */;
+     , (36849,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36849,   1, 'Paroxysm Shadow') /* Name */
-     , (36849,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (36849, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -14,7 +14,6 @@ VALUES (25969,   1,         16) /* ItemType - Creature */
      , (25969, 113,          1) /* Gender - Male */
      , (25969, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25969, 188,          2) /* HeritageGroup - Gharundim */
-     , (25969, 307,          5) /* DamageRating */
      , (25969, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

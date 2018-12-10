@@ -5,11 +5,9 @@ VALUES (11354, 'golemheartwater_xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11354,   1,        128) /* ItemType - Misc */
-     , (11354,   2,         53) /* CreatureType - Doll */
      , (11354,   5,        100) /* EncumbranceVal */
      , (11354,  16,          1) /* ItemUseable - No */
      , (11354,  19,        100) /* Value */
-     , (11354,  25,         60) /* Level */
      , (11354,  65,        101) /* Placement - Resting */
      , (11354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -25,11 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11354,  39, 0.400000005960464) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11354,   1, 'Water Golem Heart') /* Name */
-     , (11354,   7, 'TO KILLERWOLF THIS THING IS THE BEST HAHAHA
-') /* Inscription */
-     , (11354,   8, 'The Apocalypse') /* ScribeName */
-     , (11354,  16, 'Killed by High-Voltage II.') /* LongDesc */;
+VALUES (11354,   1, 'Water Golem Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11354,   1,   33554817) /* Setup */
@@ -44,9 +38,6 @@ VALUES (11354,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11354,   2, 3691034601) /* Container */
      , (11354, 8000, 3691034369) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11354,   1,   150, 0, 0, 150) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11354, 67111924, 0, 0);

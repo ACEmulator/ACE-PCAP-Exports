@@ -15,18 +15,15 @@ VALUES (48967,   1,        128) /* ItemType - Misc */
      , (48967,  92,         50) /* Structure */
      , (48967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48967,  94,         16) /* TargetType - Creature */
-     , (48967, 105,          8) /* ItemWorkmanship */
+     , (48967, 105,          6) /* ItemWorkmanship */
      , (48967, 114,          0) /* Attuned - Normal */
      , (48967, 280,        213) /* SharedCooldown */
      , (48967, 366,         54) /* UseRequiresSkill */
      , (48967, 367,        475) /* UseRequiresSkillLevel */
      , (48967, 369,        140) /* UseRequiresLevel */
-     , (48967, 370,         11) /* GearDamage */
-     , (48967, 371,         12) /* GearDamageResist */
-     , (48967, 372,          7) /* GearCrit */
-     , (48967, 373,         11) /* GearCritResist */
-     , (48967, 374,         13) /* GearCritDamage */
-     , (48967, 375,         14) /* GearCritDamageResist */;
+     , (48967, 371,          9) /* GearDamageResist */
+     , (48967, 374,          8) /* GearCritDamage */
+     , (48967, 375,         10) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48967,   1, False) /* Stuck */

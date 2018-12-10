@@ -6,11 +6,9 @@ VALUES (22074, 'collectorartscraftsalchemy', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22074,   1,         16) /* ItemType - Creature */
      , (22074,   2,         31) /* CreatureType - Human */
-     , (22074,   5,       6518) /* EncumbranceVal */
      , (22074,   6,        255) /* ItemsCapacity */
      , (22074,   7,        255) /* ContainersCapacity */
      , (22074,  16,         32) /* ItemUseable - Remote */
-     , (22074,  19,          0) /* Value */
      , (22074,  25,         35) /* Level */
      , (22074,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22074,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (22074,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22074,   1, 'Tiffany Comfore') /* Name */
      , (22074,   5, 'Alchemical Artist') /* Template */
-     , (22074,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (22074, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

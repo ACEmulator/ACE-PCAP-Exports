@@ -6,33 +6,14 @@ VALUES (7421, 'golemdiamondnofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7421,   1,         16) /* ItemType - Creature */
      , (7421,   2,         13) /* CreatureType - Golem */
-     , (7421,   5,         15) /* EncumbranceVal */
      , (7421,   6,        255) /* ItemsCapacity */
      , (7421,   7,        255) /* ContainersCapacity */
      , (7421,  16,          1) /* ItemUseable - No */
-     , (7421,  19,       3912) /* Value */
      , (7421,  25,        100) /* Level */
-     , (7421,  44,         20) /* Damage */
-     , (7421,  45,          1) /* DamageType - Slash */
-     , (7421,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (7421,  49,         10) /* WeaponTime */
      , (7421,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (7421, 105,          6) /* ItemWorkmanship */
-     , (7421, 106,        213) /* ItemSpellcraft */
-     , (7421, 107,       1681) /* ItemCurMana */
-     , (7421, 108,       1681) /* ItemMaxMana */
-     , (7421, 109,        159) /* ItemDifficulty */
-     , (7421, 110,          0) /* ItemAllegianceRankLimit */
-     , (7421, 115,          0) /* ItemSkillLevelLimit */
-     , (7421, 131,         58) /* MaterialType - Bronze */
      , (7421, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7421, 172,          1) /* AppraisalLongDescDecoration */
-     , (7421, 177,          4) /* GemCount */
-     , (7421, 178,         21) /* GemType */
      , (7421, 307,          2) /* DamageRating */
-     , (7421, 353,         10) /* WeaponType - Thrown */
-     , (7421, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7421, 8030,          0);
+     , (7421, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7421,   1, True ) /* Stuck */
@@ -43,18 +24,10 @@ VALUES (7421,   1, True ) /* Stuck */
      , (7421,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7421,   5,   -0.05) /* ManaRate */
-     , (7421,  21,       0) /* WeaponLength */
-     , (7421,  22,    0.25) /* DamageVariance */
-     , (7421,  26,       0) /* MaximumVelocity */
-     , (7421,  29,       1) /* WeaponDefense */
-     , (7421,  62,       1) /* WeaponOffense */
-     , (7421,  63,       1) /* DamageMod */
-     , (7421,  76, 0.300000011920929) /* Translucency */;
+VALUES (7421,  76, 0.300000011920929) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7421,   1, 'Diamond Golem') /* Name */
-     , (7421,  16, 'Ring of Mana Renewal') /* LongDesc */
      , (7421, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,10 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7421,   1,   555, 0, 0, 555) /* MaxHealth */
      , (7421,   3,   470, 0, 0, 470) /* MaxStamina */
      , (7421,   5,   425, 0, 0, 425) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7421,   216,      2) 
-     , (7421,  1744,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7421, 67112807, 0, 0);

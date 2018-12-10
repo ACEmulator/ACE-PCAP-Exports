@@ -6,11 +6,9 @@ VALUES (19303, 'statuereplicamidbentensmall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19303,   1,         16) /* ItemType - Creature */
      , (19303,   2,         63) /* CreatureType - Statue */
-     , (19303,   5,         30) /* EncumbranceVal */
      , (19303,   6,        255) /* ItemsCapacity */
      , (19303,   7,        255) /* ContainersCapacity */
      , (19303,  16,          1) /* ItemUseable - No */
-     , (19303,  19,       2000) /* Value */
      , (19303,  25,         50) /* Level */
      , (19303,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19303, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,9 +27,6 @@ VALUES (19303,  39, 2.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19303,   1, 'Bronze Statue of Ben Ten') /* Name */
-     , (19303,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (19303,  16, 'Inscribed spell: Brogard''s Defiance
-Improves a shield or piece of armor''s armor value by 220 points. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */
      , (19303, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -64,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (19303,   1,   235, 0, 0, 235) /* MaxHealth */
      , (19303,   3,   330, 0, 0, 330) /* MaxStamina */
      , (19303,   5,   180, 0, 0, 180) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19303,  2108,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19303, 67113833, 0, 0);

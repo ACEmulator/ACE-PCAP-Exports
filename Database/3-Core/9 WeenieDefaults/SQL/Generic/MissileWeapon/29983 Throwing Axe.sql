@@ -5,7 +5,6 @@ VALUES (29983, 'axethrowingknightmid', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29983,   1,        256) /* ItemType - MissileWeapon */
-     , (29983,   2,          4) /* CreatureType - Mosswart */
      , (29983,   5,         23) /* EncumbranceVal */
      , (29983,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (29983,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
@@ -13,7 +12,6 @@ VALUES (29983,   1,        256) /* ItemType - MissileWeapon */
      , (29983,  12,          1) /* StackSize */
      , (29983,  16,          1) /* ItemUseable - No */
      , (29983,  19,          4) /* Value */
-     , (29983,  25,          8) /* Level */
      , (29983,  44,         -1) /* Damage */
      , (29983,  45,          0) /* DamageType - Undef */
      , (29983,  48,         47) /* WeaponSkill - MissileWeapons */
@@ -68,6 +66,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29983,   3, 3688294947) /* Wielder */
      , (29983, 8000, 3688294961) /* PCAPRecordedObjectIID */
      , (29983, 8008, 3688294947) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29983,   1,    47, 0, 0, 47) /* MaxHealth */;

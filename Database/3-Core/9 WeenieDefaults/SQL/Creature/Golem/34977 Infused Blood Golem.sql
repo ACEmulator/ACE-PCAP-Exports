@@ -6,11 +6,9 @@ VALUES (34977, 'ace34977-infusedbloodgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34977,   1,         16) /* ItemType - Creature */
      , (34977,   2,         13) /* CreatureType - Golem */
-     , (34977,   5,       6070) /* EncumbranceVal */
      , (34977,   6,        255) /* ItemsCapacity */
      , (34977,   7,        255) /* ContainersCapacity */
      , (34977,  16,          1) /* ItemUseable - No */
-     , (34977,  19,          0) /* Value */
      , (34977,  25,        185) /* Level */
      , (34977,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34977, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (34977,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34977,   1, 'Infused Blood Golem') /* Name */
-     , (34977,  16, 'Killed by Timthos.') /* LongDesc */
      , (34977, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

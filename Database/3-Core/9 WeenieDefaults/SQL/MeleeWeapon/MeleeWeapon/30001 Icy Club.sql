@@ -10,22 +10,9 @@ VALUES (30001,   1,          1) /* ItemType - MeleeWeapon */
      , (30001,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (30001,  16,          1) /* ItemUseable - No */
      , (30001,  19,        500) /* Value */
-     , (30001,  28,        250) /* ArmorLevel */
      , (30001,  51,          1) /* CombatUse - Melee */
      , (30001,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30001, 105,          8) /* ItemWorkmanship */
-     , (30001, 106,        301) /* ItemSpellcraft */
-     , (30001, 107,        996) /* ItemCurMana */
-     , (30001, 108,        996) /* ItemMaxMana */
-     , (30001, 109,        205) /* ItemDifficulty */
-     , (30001, 110,          0) /* ItemAllegianceRankLimit */
-     , (30001, 115,        224) /* ItemSkillLevelLimit */
-     , (30001, 131,         60) /* MaterialType - Gold */
-     , (30001, 151,          2) /* HookType - Wall */
-     , (30001, 172,          5) /* AppraisalLongDescDecoration */
-     , (30001, 176,          7) /* AppraisalItemSkill */
-     , (30001, 177,          1) /* GemCount */
-     , (30001, 178,         39) /* GemType */;
+     , (30001, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30001,   1, False) /* Stuck */
@@ -33,26 +20,13 @@ VALUES (30001,   1, False) /* Stuck */
      , (30001,  13, True ) /* Ethereal */
      , (30001,  14, True ) /* GravityStatus */
      , (30001,  19, True ) /* Attackable */
-     , (30001,  22, True ) /* Inscribable */
-     , (30001, 100, True ) /* Dyable */;
+     , (30001,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30001,   5, -0.0555555555555556) /* ManaRate */
-     , (30001,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (30001,  14,       1) /* ArmorModVsPierce */
-     , (30001,  15,       1) /* ArmorModVsBludgeon */
-     , (30001,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (30001,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (30001,  18, 0.935880303382874) /* ArmorModVsAcid */
-     , (30001,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (30001,  39,       2) /* DefaultScale */
-     , (30001, 165,       1) /* ArmorModVsNether */;
+VALUES (30001,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30001,   1, 'Icy Club') /* Name */
-     , (30001,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (30001,  16, 'Inscribed spell: Crushing Shame
-Shoots a shock wave at the target. The wave does 115-189 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
+VALUES (30001,   1, 'Icy Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30001,   1,   33559363) /* Setup */
@@ -72,17 +46,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30001,   3, 3692755036) /* Wielder */
      , (30001, 8000, 3692755041) /* PCAPRecordedObjectIID */
      , (30001, 8008, 3692755036) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30001,  1332,      2) 
-     , (30001,  1354,      2) 
-     , (30001,  1486,      2) 
-     , (30001,  1540,      2) 
-     , (30001,  1562,      2) 
-     , (30001,  2056,      2) 
-     , (30001,  2104,      2) 
-     , (30001,  2108,      2) 
-     , (30001,  2144,      2) 
-     , (30001,  2281,      2) 
-     , (30001,  2577,      2) 
-     , (30001,  5886,      2) ;

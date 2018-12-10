@@ -42,7 +42,7 @@ VALUES (39111,   1,   33555630) /* Setup */
      , (39111,   3,  536870932) /* SoundTable */
      , (39111,   8,  100689671) /* Icon */
      , (39111,  22,  872415275) /* PhysicsEffectTable */
-     , (39111,  28,       4210) /* Spell */
+     , (39111,  28,       4210) /* Spell - JumpSpin */
      , (39111, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (39111, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39111, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;

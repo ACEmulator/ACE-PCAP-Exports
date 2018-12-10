@@ -6,29 +6,12 @@ VALUES (4111, 'shrethhunter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4111,   1,         16) /* ItemType - Creature */
      , (4111,   2,         32) /* CreatureType - Shreth */
-     , (4111,   5,         30) /* EncumbranceVal */
      , (4111,   6,        255) /* ItemsCapacity */
      , (4111,   7,        255) /* ContainersCapacity */
      , (4111,  16,          1) /* ItemUseable - No */
-     , (4111,  19,       9520) /* Value */
      , (4111,  25,         15) /* Level */
      , (4111,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4111, 105,          8) /* ItemWorkmanship */
-     , (4111, 106,        320) /* ItemSpellcraft */
-     , (4111, 107,       1494) /* ItemCurMana */
-     , (4111, 108,       1494) /* ItemMaxMana */
-     , (4111, 109,        355) /* ItemDifficulty */
-     , (4111, 110,          0) /* ItemAllegianceRankLimit */
-     , (4111, 115,          0) /* ItemSkillLevelLimit */
-     , (4111, 131,         63) /* MaterialType - Silver */
      , (4111, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4111, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4111, 158,          7) /* WieldRequirements - Level */
-     , (4111, 159,          1) /* WieldSkilltype - Axe */
-     , (4111, 160,        150) /* WieldDifficulty */
-     , (4111, 172,          5) /* AppraisalLongDescDecoration */
-     , (4111, 177,          1) /* GemCount */
-     , (4111, 178,         33) /* GemType */
      , (4111, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,12 +21,8 @@ VALUES (4111,   1, True ) /* Stuck */
      , (4111,  14, True ) /* GravityStatus */
      , (4111,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4111,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4111,   1, 'Hunter Shreth') /* Name */
-     , (4111,  16, 'Ring of Blade Protection') /* LongDesc */
      , (4111, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,14 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4111,   1,    50, 0, 0, 50) /* MaxHealth */
      , (4111,   3,   260, 0, 0, 260) /* MaxStamina */
      , (4111,   5,    60, 0, 0, 60) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4111,  1023,      2) 
-     , (4111,  2151,      2) 
-     , (4111,  2505,      2) 
-     , (4111,  2524,      2) 
-     , (4111,  2570,      2) 
-     , (4111,  5885,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4111, 67112466, 0, 0);

@@ -5,13 +5,11 @@ VALUES (8037, 'plantdarkgreen', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8037,   1,    4194304) /* ItemType - CraftCookingBase */
-     , (8037,   2,          2) /* CreatureType - Banderling */
      , (8037,   5,          5) /* EncumbranceVal */
      , (8037,  11,        100) /* MaxStackSize */
      , (8037,  12,          1) /* StackSize */
      , (8037,  16,          1) /* ItemUseable - No */
      , (8037,  19,         10) /* Value */
-     , (8037,  25,          8) /* Level */
      , (8037,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8037, 151,          9) /* HookType - Floor, Yard */;
 
@@ -46,9 +44,6 @@ VALUES (8037, 8040, 2459369495, 70.60129, 158.3294, 32, -0.8833039, 0, 0, -0.468
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8037, 8000, 3685916234) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8037,   1,    43, 0, 0, 43) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8037, 67111922, 0, 0);

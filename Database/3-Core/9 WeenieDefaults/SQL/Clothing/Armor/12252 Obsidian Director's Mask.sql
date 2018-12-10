@@ -41,8 +41,6 @@ VALUES (12252,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12252,   1, 'Obsidian Director''s Mask') /* Name */
-     , (12252,   7, 'MINE') /* Inscription */
-     , (12252,   8, 'Vortek') /* ScribeName */
      , (12252,  16, 'A Virindi mask taken from the Director of the Singular Obsidian Repository.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

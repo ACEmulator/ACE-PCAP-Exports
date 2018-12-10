@@ -6,27 +6,12 @@ VALUES (8, 'mosswartcreeper', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8,   1,         16) /* ItemType - Creature */
      , (8,   2,          4) /* CreatureType - Mosswart */
-     , (8,   5,       1665) /* EncumbranceVal */
      , (8,   6,        255) /* ItemsCapacity */
      , (8,   7,        255) /* ContainersCapacity */
      , (8,  16,          1) /* ItemUseable - No */
-     , (8,  19,       8747) /* Value */
      , (8,  25,          8) /* Level */
-     , (8,  28,        242) /* ArmorLevel */
      , (8,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (8, 105,          4) /* ItemWorkmanship */
-     , (8, 106,        309) /* ItemSpellcraft */
-     , (8, 107,        561) /* ItemCurMana */
-     , (8, 108,        561) /* ItemMaxMana */
-     , (8, 109,        309) /* ItemDifficulty */
-     , (8, 110,          0) /* ItemAllegianceRankLimit */
-     , (8, 115,          0) /* ItemSkillLevelLimit */
-     , (8, 117,        350) /* ItemManaCost */
-     , (8, 131,         62) /* MaterialType - Pyreal */
      , (8, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8, 172,          5) /* AppraisalLongDescDecoration */
-     , (8, 177,          1) /* GemCount */
-     , (8, 178,         48) /* GemType */
      , (8, 307,          5) /* DamageRating */
      , (8, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -35,24 +20,13 @@ VALUES (8,   1, True ) /* Stuck */
      , (8,  12, True ) /* ReportCollisions */
      , (8,  13, False) /* Ethereal */
      , (8,  14, True ) /* GravityStatus */
-     , (8,  19, True ) /* Attackable */
-     , (8, 100, True ) /* Dyable */;
+     , (8,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8,   5, -0.0555555555555556) /* ManaRate */
-     , (8,  13,       1) /* ArmorModVsSlash */
-     , (8,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (8,  15,       1) /* ArmorModVsBludgeon */
-     , (8,  16, 0.899584114551544) /* ArmorModVsCold */
-     , (8,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (8,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (8,  19, 0.916687905788422) /* ArmorModVsElectric */
-     , (8,  39, 0.899999976158142) /* DefaultScale */
-     , (8, 165,       1) /* ArmorModVsNether */;
+VALUES (8,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8,   1, 'Creeper Mosswart') /* Name */
-     , (8,  16, 'Amuli Coat of Endurance') /* LongDesc */
      , (8, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -85,11 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (8,   1,    47, 0, 0, 47) /* MaxHealth */
      , (8,   3,    94, 0, 0, 94) /* MaxStamina */
      , (8,   5,    30, 0, 0, 30) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8,  1354,      2) 
-     , (8,  2067,      2) 
-     , (8,  2108,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8, 67113411, 0, 0);

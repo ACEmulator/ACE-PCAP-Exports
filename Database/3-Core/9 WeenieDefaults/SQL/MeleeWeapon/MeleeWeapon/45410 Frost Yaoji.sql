@@ -5,13 +5,11 @@ VALUES (45410, 'ace45410-frostyaoji', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45410,   1,          1) /* ItemType - MeleeWeapon */
-     , (45410,   2,         92) /* CreatureType - ParadoxOlthoi */
      , (45410,   5,        276) /* EncumbranceVal */
      , (45410,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45410,  16,          1) /* ItemUseable - No */
      , (45410,  18,        129) /* UiEffects - Magical, Frost */
      , (45410,  19,       8448) /* Value */
-     , (45410,  25,        115) /* Level */
      , (45410,  44,         45) /* Damage */
      , (45410,  45,          8) /* DamageType - Cold */
      , (45410,  47,          6) /* AttackType - Thrust, Slash */
@@ -57,13 +55,10 @@ VALUES (45410,   5, -0.0555555555555556) /* ManaRate */
      , (45410,  29,     1.2) /* WeaponDefense */
      , (45410,  62,    1.13) /* WeaponOffense */
      , (45410,  63,       1) /* DamageMod */
-     , (45410, 149,    1.01) /* WeaponMissileDefense */
-     , (45410, 150,   1.015) /* WeaponMagicDefense */
      , (45410, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45410,   1, 'Frost Yaoji') /* Name */
-     , (45410,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (45410,  16, 'Frost Yaoji of Quickness') /* LongDesc */
      , (45410,  40, 'Jadefire') /* ImbuerName */;
 
@@ -82,46 +77,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45410,   2, 3666901584) /* Container */
      , (45410, 8000, 2172523423) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45410,   1,   940, 0, 0, 940) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45410,    63,      2) 
-     , (45410,  1378,      2) 
-     , (45410,  1401,      2) 
-     , (45410,  1591,      2) 
-     , (45410,  1592,      2) 
-     , (45410,  1604,      2) 
-     , (45410,  1605,      2) 
-     , (45410,  1612,      2) 
-     , (45410,  1615,      2) 
-     , (45410,  1616,      2) 
-     , (45410,  1626,      2) 
-     , (45410,  1627,      2) 
-     , (45410,  2061,      2) 
-     , (45410,  2081,      2) 
+VALUES (45410,  2081,      2) 
      , (45410,  2096,      2) 
-     , (45410,  2106,      2) 
-     , (45410,  2116,      2) 
-     , (45410,  2529,      2) 
-     , (45410,  2544,      2) 
-     , (45410,  2549,      2) 
-     , (45410,  2550,      2) 
-     , (45410,  2573,      2) 
-     , (45410,  2582,      2) 
-     , (45410,  2586,      2) 
-     , (45410,  2598,      2) 
-     , (45410,  2612,      2) 
-     , (45410,  4319,      2) 
-     , (45410,  4325,      2) 
-     , (45410,  4395,      2) 
-     , (45410,  4405,      2) 
-     , (45410,  4417,      2) 
-     , (45410,  4663,      2) 
-     , (45410,  4691,      2) 
-     , (45410,  4695,      2) 
-     , (45410,  5784,      2) 
-     , (45410,  5881,      2) 
-     , (45410,  5888,      2) 
-     , (45410,  5894,      2) 
-     , (45410,  6127,      2) ;
+     , (45410,  4663,      2) ;

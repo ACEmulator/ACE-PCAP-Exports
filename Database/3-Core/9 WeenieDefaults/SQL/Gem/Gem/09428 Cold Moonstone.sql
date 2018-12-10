@@ -32,7 +32,7 @@ VALUES (9428,   1,   33554809) /* Setup */
      , (9428,   6,   67111919) /* PaletteBase */
      , (9428,   8,  100668365) /* Icon */
      , (9428,  22,  872415275) /* PhysicsEffectTable */
-     , (9428,  28,       2397) /* Spell */
+     , (9428,  28,       2397) /* Spell - IceShield */
      , (9428, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9428, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9428, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

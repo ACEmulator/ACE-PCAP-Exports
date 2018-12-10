@@ -5,11 +5,9 @@ VALUES (34946, 'ace34946-statue', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34946,   1,         16) /* ItemType - Creature */
-     , (34946,   5,       6730) /* EncumbranceVal */
      , (34946,   6,        255) /* ItemsCapacity */
      , (34946,   7,        255) /* ContainersCapacity */
      , (34946,  16,         32) /* ItemUseable - Remote */
-     , (34946,  19,          0) /* Value */
      , (34946,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34946,  95,          3) /* RadarBlipColor - White */
      , (34946, 307,          0) /* DamageRating */
@@ -54,7 +52,6 @@ VALUES (34946,  39, 1.20000004768372) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34946,   1, 'Statue') /* Name */
-     , (34946,  16, 'Killed by Timthos.') /* LongDesc */
      , (34946, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

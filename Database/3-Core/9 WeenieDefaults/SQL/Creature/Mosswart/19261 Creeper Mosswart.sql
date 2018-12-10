@@ -6,15 +6,11 @@ VALUES (19261, 'mosswartcreeper_noaggro', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19261,   1,         16) /* ItemType - Creature */
      , (19261,   2,          4) /* CreatureType - Mosswart */
-     , (19261,   5,       7040) /* EncumbranceVal */
      , (19261,   6,        255) /* ItemsCapacity */
      , (19261,   7,        255) /* ContainersCapacity */
      , (19261,  16,          1) /* ItemUseable - No */
-     , (19261,  19,          0) /* Value */
      , (19261,  25,          8) /* Level */
-     , (19261,  33,          1) /* Bonded - Bonded */
      , (19261,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19261, 114,          1) /* Attuned - Attuned */
      , (19261, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19261, 307,          5) /* DamageRating */
      , (19261, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -31,9 +27,6 @@ VALUES (19261,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19261,   1, 'Creeper Mosswart') /* Name */
-     , (19261,  14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend 5,000 Luminance for one Luminous Crystal of Towering Defense.') /* Use */
-     , (19261,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */
-     , (19261,  16, 'Killed by Owain.') /* LongDesc */
      , (19261, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

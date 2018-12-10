@@ -5,13 +5,11 @@ VALUES (23131, 'crossbowheavyvod', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23131,   1,        256) /* ItemType - MissileWeapon */
-     , (23131,   2,          8) /* CreatureType - Tusker */
      , (23131,   5,       1920) /* EncumbranceVal */
      , (23131,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (23131,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (23131,  16,          1) /* ItemUseable - No */
      , (23131,  19,        375) /* Value */
-     , (23131,  25,         80) /* Level */
      , (23131,  50,          2) /* AmmoType - Bolt */
      , (23131,  51,          2) /* CombatUse - Missle */
      , (23131,  65,          3) /* Placement - LeftHand */
@@ -50,9 +48,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23131,   3, 3692201299) /* Wielder */
      , (23131, 8000, 3692201327) /* PCAPRecordedObjectIID */
      , (23131, 8008, 3692201299) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23131,   1,   400, 0, 0, 400) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23131, 67111920, 0, 0);

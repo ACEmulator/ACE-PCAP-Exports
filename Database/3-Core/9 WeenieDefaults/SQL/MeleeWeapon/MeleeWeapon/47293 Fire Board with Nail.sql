@@ -11,7 +11,6 @@ VALUES (47293,   1,          1) /* ItemType - MeleeWeapon */
      , (47293,  16,          1) /* ItemUseable - No */
      , (47293,  18,         32) /* UiEffects - Fire */
      , (47293,  19,        350) /* Value */
-     , (47293,  33,          1) /* Bonded - Bonded */
      , (47293,  51,          1) /* CombatUse - Melee */
      , (47293,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47293, 151,          2) /* HookType - Wall */;
@@ -25,8 +24,7 @@ VALUES (47293,   1, False) /* Stuck */
      , (47293,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47293,   1, 'Fire Board with Nail') /* Name */
-     , (47293,  16, 'A chunk of polished volcanic rock.  As you look at it, you can see what seems to be movement just under its surface.  You feel a strange pressure in the back of your mind, but it slowly recedes.  (Bring it to Diyas in Zaikhal)') /* LongDesc */;
+VALUES (47293,   1, 'Fire Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47293,   1,   33559656) /* Setup */

@@ -5,13 +5,11 @@ VALUES (3948, 'monougamorningstar', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3948,   1,          1) /* ItemType - MeleeWeapon */
-     , (3948,   2,         61) /* CreatureType - FrostElemental */
      , (3948,   5,       1380) /* EncumbranceVal */
      , (3948,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (3948,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (3948,  16,          1) /* ItemUseable - No */
      , (3948,  19,        770) /* Value */
-     , (3948,  25,         60) /* Level */
      , (3948,  33,         -2) /* Bonded - Destroy */
      , (3948,  44,         10) /* Damage */
      , (3948,  45,          4) /* DamageType - Bludgeon */
@@ -20,10 +18,7 @@ VALUES (3948,   1,          1) /* ItemType - MeleeWeapon */
      , (3948,  49,         70) /* WeaponTime */
      , (3948,  51,          1) /* CombatUse - Melee */
      , (3948,  65,          1) /* Placement - RightHandCombat */
-     , (3948,  91,         35) /* MaxStructure */
-     , (3948,  92,         35) /* Structure */
      , (3948,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3948, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (3948, 353,          4) /* WeaponType - Mace */
      , (3948, 8030,          0);
 
@@ -45,8 +40,7 @@ VALUES (3948,  21,       0) /* WeaponLength */
      , (3948,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3948,   1, 'Morning Star') /* Name */
-     , (3948,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */;
+VALUES (3948,   1, 'Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3948,   1,   33554748) /* Setup */
@@ -67,9 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3948,   3, 3685898268) /* Wielder */
      , (3948, 8000, 3685898280) /* PCAPRecordedObjectIID */
      , (3948, 8008, 3685898268) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (3948,   1,   170, 0, 0, 170) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3948, 67111920, 0, 0);

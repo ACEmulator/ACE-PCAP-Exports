@@ -6,19 +6,12 @@ VALUES (24287, 'monougabloodthirsty', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24287,   1,         16) /* ItemType - Creature */
      , (24287,   2,         28) /* CreatureType - Monouga */
-     , (24287,   5,         25) /* EncumbranceVal */
      , (24287,   6,        255) /* ItemsCapacity */
      , (24287,   7,        255) /* ContainersCapacity */
      , (24287,  16,          1) /* ItemUseable - No */
-     , (24287,  19,         20) /* Value */
      , (24287,  25,        100) /* Level */
-     , (24287,  33,          1) /* Bonded - Bonded */
      , (24287,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (24287, 113,          1) /* Gender - Male */
-     , (24287, 114,          1) /* Attuned - Attuned */
      , (24287, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24287, 188,          1) /* HeritageGroup - Aluvian */
-     , (24287, 307,          5) /* DamageRating */
      , (24287, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,8 +27,6 @@ VALUES (24287,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24287,   1, 'Bloodthirsty Monouga') /* Name */
-     , (24287,  14, 'To use this item, find the other pieces.') /* Use */
-     , (24287,  16, 'The right strip of a torn page. What little can be seen of the text looks to be written in ancient Falatacot symbols.') /* LongDesc */
      , (24287, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -44,12 +35,6 @@ VALUES (24287,   1,   33555199) /* Setup */
      , (24287,   3,  536870962) /* SoundTable */
      , (24287,   6,   67111302) /* PaletteBase */
      , (24287,   8,  100669117) /* Icon */
-     , (24287,   9,   83890480) /* EyesTexture */
-     , (24287,  10,   83890554) /* NoseTexture */
-     , (24287,  11,   83890643) /* MouthTexture */
-     , (24287,  15,   67117021) /* HairPalette */
-     , (24287,  16,   67110065) /* EyesPalette */
-     , (24287,  17,   67109558) /* SkinPalette */
      , (24287,  22,  872415257) /* PhysicsEffectTable */
      , (24287, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24287, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

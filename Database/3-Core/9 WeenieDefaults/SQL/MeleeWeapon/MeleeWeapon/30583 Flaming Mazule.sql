@@ -19,22 +19,14 @@ VALUES (30583,   1,          1) /* ItemType - MeleeWeapon */
      , (30583,  51,          1) /* CombatUse - Melee */
      , (30583,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30583, 105,          4) /* ItemWorkmanship */
-     , (30583, 106,        295) /* ItemSpellcraft */
-     , (30583, 107,        872) /* ItemCurMana */
-     , (30583, 108,        872) /* ItemMaxMana */
-     , (30583, 109,        151) /* ItemDifficulty */
-     , (30583, 110,          0) /* ItemAllegianceRankLimit */
-     , (30583, 115,        315) /* ItemSkillLevelLimit */
      , (30583, 131,         75) /* MaterialType - Oak */
      , (30583, 151,          2) /* HookType - Wall */
      , (30583, 158,          2) /* WieldRequirements - RawSkill */
      , (30583, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (30583, 160,        325) /* WieldDifficulty */
      , (30583, 172,          5) /* AppraisalLongDescDecoration */
-     , (30583, 176,         44) /* AppraisalItemSkill */
      , (30583, 177,          3) /* GemCount */
      , (30583, 178,         13) /* GemType */
-     , (30583, 204,          4) /* ElementalDamageBonus */
      , (30583, 353,          4) /* WeaponType - Mace */
      , (30583, 8030,          0);
 
@@ -47,15 +39,12 @@ VALUES (30583,   1, False) /* Stuck */
      , (30583,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30583,   5, -0.0555555555555556) /* ManaRate */
-     , (30583,  21,       0) /* WeaponLength */
+VALUES (30583,  21,       0) /* WeaponLength */
      , (30583,  22,    0.42) /* DamageVariance */
      , (30583,  26,       0) /* MaximumVelocity */
      , (30583,  29,     1.1) /* WeaponDefense */
      , (30583,  62,    1.04) /* WeaponOffense */
      , (30583,  63,       1) /* DamageMod */
-     , (30583, 149,    1.01) /* WeaponMissileDefense */
-     , (30583, 150,    1.02) /* WeaponMagicDefense */
      , (30583, 8004,       4) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -81,55 +70,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30583,   3, 1344146162) /* Wielder */
      , (30583, 8000, 3621620357) /* PCAPRecordedObjectIID */
      , (30583, 8008, 1344146162) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30583,  1353,      2) 
-     , (30583,  1377,      2) 
-     , (30583,  1401,      2) 
-     , (30583,  1402,      2) 
-     , (30583,  1590,      2) 
-     , (30583,  1591,      2) 
-     , (30583,  1592,      2) 
-     , (30583,  1603,      2) 
-     , (30583,  1604,      2) 
-     , (30583,  1605,      2) 
-     , (30583,  1613,      2) 
-     , (30583,  1614,      2) 
-     , (30583,  1615,      2) 
-     , (30583,  1616,      2) 
-     , (30583,  1623,      2) 
-     , (30583,  1625,      2) 
-     , (30583,  1626,      2) 
-     , (30583,  1627,      2) 
-     , (30583,  2059,      2) 
-     , (30583,  2061,      2) 
-     , (30583,  2081,      2) 
-     , (30583,  2096,      2) 
-     , (30583,  2101,      2) 
-     , (30583,  2106,      2) 
-     , (30583,  2116,      2) 
-     , (30583,  2502,      2) 
-     , (30583,  2515,      2) 
-     , (30583,  2537,      2) 
-     , (30583,  2540,      2) 
-     , (30583,  2541,      2) 
-     , (30583,  2547,      2) 
-     , (30583,  2553,      2) 
-     , (30583,  2566,      2) 
-     , (30583,  2573,      2) 
-     , (30583,  2579,      2) 
-     , (30583,  2580,      2) 
-     , (30583,  2582,      2) 
-     , (30583,  2588,      2) 
-     , (30583,  2591,      2) 
-     , (30583,  2596,      2) 
-     , (30583,  2600,      2) 
-     , (30583,  2615,      2) 
-     , (30583,  4395,      2) 
-     , (30583,  4712,      2) 
-     , (30583,  5808,      2) 
-     , (30583,  5880,      2) 
-     , (30583,  5887,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30583, 67116406, 0, 0);

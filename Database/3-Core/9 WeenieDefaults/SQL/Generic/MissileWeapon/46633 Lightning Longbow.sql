@@ -10,7 +10,6 @@ VALUES (46633,   1,        256) /* ItemType - MissileWeapon */
      , (46633,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (46633,  16,          1) /* ItemUseable - No */
      , (46633,  18,         64) /* UiEffects - Lightning */
-     , (46633,  19,          0) /* Value */
      , (46633,  50,          1) /* AmmoType - Arrow */
      , (46633,  51,          2) /* CombatUse - Missle */
      , (46633,  65,          3) /* Placement - LeftHand */
@@ -28,8 +27,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46633,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46633,   1, 'Lightning Longbow') /* Name */
-     , (46633,  16, 'Killed by Murderous.') /* LongDesc */;
+VALUES (46633,   1, 'Lightning Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46633,   1,   33559031) /* Setup */

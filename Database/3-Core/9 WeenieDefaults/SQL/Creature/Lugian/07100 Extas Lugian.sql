@@ -6,38 +6,14 @@ VALUES (7100, 'lugianextas', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7100,   1,         16) /* ItemType - Creature */
      , (7100,   2,          5) /* CreatureType - Lugian */
-     , (7100,   5,        313) /* EncumbranceVal */
      , (7100,   6,        255) /* ItemsCapacity */
      , (7100,   7,        255) /* ContainersCapacity */
      , (7100,  16,          1) /* ItemUseable - No */
-     , (7100,  19,      10834) /* Value */
      , (7100,  25,         80) /* Level */
-     , (7100,  44,         46) /* Damage */
-     , (7100,  45,         64) /* DamageType - Electric */
-     , (7100,  47,          4) /* AttackType - Slash */
-     , (7100,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (7100,  49,         45) /* WeaponTime */
      , (7100,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7100, 105,          6) /* ItemWorkmanship */
-     , (7100, 106,        261) /* ItemSpellcraft */
-     , (7100, 107,        981) /* ItemCurMana */
-     , (7100, 108,        981) /* ItemMaxMana */
-     , (7100, 109,        141) /* ItemDifficulty */
-     , (7100, 110,          0) /* ItemAllegianceRankLimit */
-     , (7100, 115,        281) /* ItemSkillLevelLimit */
-     , (7100, 131,         51) /* MaterialType - Ivory */
      , (7100, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (7100, 158,          2) /* WieldRequirements - RawSkill */
-     , (7100, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (7100, 160,        370) /* WieldDifficulty */
-     , (7100, 172,          5) /* AppraisalLongDescDecoration */
-     , (7100, 176,         46) /* AppraisalItemSkill */
-     , (7100, 177,          2) /* GemCount */
-     , (7100, 178,         16) /* GemType */
      , (7100, 307,          5) /* DamageRating */
-     , (7100, 353,          3) /* WeaponType - Axe */
-     , (7100, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7100, 8030,          0);
+     , (7100, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7100,   1, True ) /* Stuck */
@@ -46,19 +22,8 @@ VALUES (7100,   1, True ) /* Stuck */
      , (7100,  14, True ) /* GravityStatus */
      , (7100,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7100,   5, -0.0555555555555556) /* ManaRate */
-     , (7100,  21,       0) /* WeaponLength */
-     , (7100,  22,    0.85) /* DamageVariance */
-     , (7100,  26,       0) /* MaximumVelocity */
-     , (7100,  29,     1.1) /* WeaponDefense */
-     , (7100,  62,    1.14) /* WeaponOffense */
-     , (7100,  63,       1) /* DamageMod */
-     , (7100, 150,    1.01) /* WeaponMagicDefense */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7100,   1, 'Extas Lugian') /* Name */
-     , (7100,  16, 'Lightning Tungi of Blood Drinker') /* LongDesc */
      , (7100, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -91,13 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7100,   1,   390, 0, 0, 390) /* MaxHealth */
      , (7100,   3,   410, 0, 0, 410) /* MaxStamina */
      , (7100,   5,   170, 0, 0, 170) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7100,  1378,      2) 
-     , (7100,  1616,      2) 
-     , (7100,  2584,      2) 
-     , (7100,  2600,      2) 
-     , (7100,  2608,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7100, 67113162, 0, 0);

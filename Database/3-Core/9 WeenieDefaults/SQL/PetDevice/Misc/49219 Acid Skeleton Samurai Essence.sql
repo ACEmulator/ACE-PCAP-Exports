@@ -26,8 +26,7 @@ VALUES (49219,   1,        128) /* ItemType - Misc */
      , (49219, 371,          4) /* GearDamageResist */
      , (49219, 372,         10) /* GearCrit */
      , (49219, 373,         12) /* GearCritResist */
-     , (49219, 374,         10) /* GearCritDamage */
-     , (49219, 375,         12) /* GearCritDamageResist */;
+     , (49219, 374,         10) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49219,   1, False) /* Stuck */
@@ -44,8 +43,7 @@ VALUES (49219,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49219,   1, 'Acid Skeleton Samurai Essence') /* Name */
-     , (49219,  14, 'Use this essence to summon or dismiss your Acid Skeleton Samurai.') /* Use */
-     , (49219,  16, 'Killed by Mag-two.') /* LongDesc */;
+     , (49219,  14, 'Use this essence to summon or dismiss your Acid Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49219,   1,   33554817) /* Setup */

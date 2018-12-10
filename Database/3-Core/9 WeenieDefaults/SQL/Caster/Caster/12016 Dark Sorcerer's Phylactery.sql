@@ -33,13 +33,10 @@ VALUES (12016,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12016,   5,   -0.05) /* ManaRate */
      , (12016,  29,       1) /* WeaponDefense */
-     , (12016, 144, 1.08013643784915E-314) /* ManaConversionMod */
-     , (12016, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (12016, 144, 1.08013643784915E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12016,   1, 'Dark Sorcerer''s Phylactery') /* Name */
-     , (12016,   7, 'To one of the coolest people in the game, Lonsgard!') /* Inscription */
-     , (12016,   8, 'The King''s Sharpshot') /* ScribeName */
      , (12016,  16, 'An orb with some sort of dark figure within.  Gazing into its depths, you see the wretched face of a Dark Sorcerer, an undead from the Vesayen Isles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

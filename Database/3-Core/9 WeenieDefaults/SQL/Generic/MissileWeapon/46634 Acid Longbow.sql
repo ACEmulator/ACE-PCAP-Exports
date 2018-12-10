@@ -5,13 +5,11 @@ VALUES (46634, 'ace46634-acidlongbow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46634,   1,        256) /* ItemType - MissileWeapon */
-     , (46634,   2,          1) /* CreatureType - Olthoi */
      , (46634,   5,        980) /* EncumbranceVal */
      , (46634,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46634,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (46634,  16,          1) /* ItemUseable - No */
      , (46634,  18,        256) /* UiEffects - Acid */
-     , (46634,  25,        115) /* Level */
      , (46634,  33,         -2) /* Bonded - Destroy */
      , (46634,  44,         -1) /* Damage */
      , (46634,  45,          0) /* DamageType - Undef */
@@ -67,9 +65,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46634,   3, 3695143820) /* Wielder */
      , (46634, 8000, 3694592608) /* PCAPRecordedObjectIID */
      , (46634, 8008, 3695143820) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46634,   1,   740, 0, 0, 740) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46634, 67115369, 0, 0);

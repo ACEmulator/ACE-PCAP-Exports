@@ -41,9 +41,7 @@ VALUES (35915,   1, False) /* Stuck */
      , (35915,  19, True ) /* Attackable */
      , (35915,  22, True ) /* Inscribable */
      , (35915,  69, False) /* IsSellable */
-     , (35915,  91, True ) /* Retained */
-     , (35915,  99, True ) /* Ivoryable */
-     , (35915, 130, False) /* AutowieldLeft */;
+     , (35915,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35915,   5, -0.0333) /* ManaRate */

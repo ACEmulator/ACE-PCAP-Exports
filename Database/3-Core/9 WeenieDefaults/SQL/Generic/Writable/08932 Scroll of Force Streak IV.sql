@@ -8,25 +8,8 @@ VALUES (8932,   1,       8192) /* ItemType - Writable */
      , (8932,   5,         30) /* EncumbranceVal */
      , (8932,  16,          8) /* ItemUseable - Contained */
      , (8932,  19,        100) /* Value */
-     , (8932,  44,         20) /* Damage */
-     , (8932,  45,          1) /* DamageType - Slash */
-     , (8932,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (8932,  49,         10) /* WeaponTime */
      , (8932,  65,        101) /* Placement - Resting */
-     , (8932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8932, 105,          4) /* ItemWorkmanship */
-     , (8932, 106,        193) /* ItemSpellcraft */
-     , (8932, 107,       1201) /* ItemCurMana */
-     , (8932, 108,       1201) /* ItemMaxMana */
-     , (8932, 109,        144) /* ItemDifficulty */
-     , (8932, 110,          0) /* ItemAllegianceRankLimit */
-     , (8932, 115,          0) /* ItemSkillLevelLimit */
-     , (8932, 131,         67) /* MaterialType - Granite */
-     , (8932, 172,          5) /* AppraisalLongDescDecoration */
-     , (8932, 177,          1) /* GemCount */
-     , (8932, 178,         30) /* GemType */
-     , (8932, 353,         10) /* WeaponType - Thrown */
-     , (8932, 8030,          0);
+     , (8932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8932,   1, False) /* Stuck */
@@ -37,14 +20,7 @@ VALUES (8932,   1, False) /* Stuck */
      , (8932,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8932,   5,   -0.05) /* ManaRate */
-     , (8932,  21,       0) /* WeaponLength */
-     , (8932,  22,    0.25) /* DamageVariance */
-     , (8932,  26,       0) /* MaximumVelocity */
-     , (8932,  29,       1) /* WeaponDefense */
-     , (8932,  39,     1.5) /* DefaultScale */
-     , (8932,  62,       1) /* WeaponOffense */
-     , (8932,  63,       1) /* DamageMod */;
+VALUES (8932,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8932,   1, 'Scroll of Force Streak IV') /* Name */
@@ -56,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8932,   1,   33554826) /* Setup */
      , (8932,   8,  100677019) /* Icon */
      , (8932,  22,  872415275) /* PhysicsEffectTable */
-     , (8932,  28,       1805) /* Spell */
+     , (8932,  28,       1805) /* Spell - ForceStreak4 */
      , (8932, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8932, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -66,5 +42,4 @@ VALUES (8932,   2, 3694251239) /* Container */
      , (8932, 8000, 3694251241) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8932,   778,      2) 
-     , (8932,  1805,      2) ;
+VALUES (8932,  1805,      2) ;

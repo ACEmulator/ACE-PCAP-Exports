@@ -45,7 +45,7 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721,   6,   67111928) /* PaletteBase */
      , (3721,   8,  100668730) /* Icon */
      , (3721,  22,  872415275) /* PhysicsEffectTable */
-     , (3721,  28,        145) /* Spell */
+     , (3721,  28,        145) /* Spell - FlameVolley5 */
      , (3721, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (3721, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3721, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

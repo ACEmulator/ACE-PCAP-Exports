@@ -44,8 +44,6 @@ VALUES (32511,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32511,   1, 'Shield of Yanshi') /* Name */
-     , (32511,   7, 'Yanshi, my original home 11/2/1999 HG server...') /* Inscription */
-     , (32511,   8, 'The Baron of Colier') /* ScribeName */
      , (32511,  16, 'A shield given by Royal Guard Adrana, for valor in the defense of Yanshi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

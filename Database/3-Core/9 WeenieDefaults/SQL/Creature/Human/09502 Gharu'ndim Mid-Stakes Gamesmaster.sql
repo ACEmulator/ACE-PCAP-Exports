@@ -6,29 +6,15 @@ VALUES (9502, 'gamblergmmidgha', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9502,   1,         16) /* ItemType - Creature */
      , (9502,   2,         31) /* CreatureType - Human */
-     , (9502,   5,          5) /* EncumbranceVal */
      , (9502,   6,        255) /* ItemsCapacity */
      , (9502,   7,        255) /* ContainersCapacity */
      , (9502,  16,         32) /* ItemUseable - Remote */
-     , (9502,  19,       3343) /* Value */
      , (9502,  25,         16) /* Level */
-     , (9502,  28,        262) /* ArmorLevel */
      , (9502,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (9502,  95,          8) /* RadarBlipColor - Yellow */
-     , (9502, 105,          8) /* ItemWorkmanship */
-     , (9502, 106,        250) /* ItemSpellcraft */
-     , (9502, 107,        623) /* ItemCurMana */
-     , (9502, 108,        623) /* ItemMaxMana */
-     , (9502, 109,          0) /* ItemDifficulty */
-     , (9502, 110,          0) /* ItemAllegianceRankLimit */
      , (9502, 113,          2) /* Gender - Female */
-     , (9502, 115,          0) /* ItemSkillLevelLimit */
-     , (9502, 117,        350) /* ItemManaCost */
-     , (9502, 131,         38) /* MaterialType - Ruby */
      , (9502, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9502, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9502, 172,          1) /* AppraisalLongDescDecoration */
-     , (9502, 176,          6) /* AppraisalItemSkill */
      , (9502, 188,          2) /* HeritageGroup - Gharundim */
      , (9502, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -40,25 +26,14 @@ VALUES (9502,   1, True ) /* Stuck */
      , (9502,  14, True ) /* GravityStatus */
      , (9502,  19, False) /* Attackable */
      , (9502,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (9502,  42, True ) /* AllowEdgeSlide */
-     , (9502, 100, True ) /* Dyable */;
+     , (9502,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9502,   5, -0.0416666666666667) /* ManaRate */
-     , (9502,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (9502,  14,       1) /* ArmorModVsPierce */
-     , (9502,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (9502,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (9502,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (9502,  18,     0.5) /* ArmorModVsAcid */
-     , (9502,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (9502,  54,       3) /* UseRadius */
-     , (9502, 165,       1) /* ArmorModVsNether */;
+VALUES (9502,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9502,   1, 'Gharu''ndim Mid-Stakes Gamesmaster') /* Name */
      , (9502,   5, 'Gamesmaster') /* Template */
-     , (9502,  16, 'Gem of Protection') /* LongDesc */
      , (9502, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -96,11 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9502,   1,    70, 0, 0, 70) /* MaxHealth */
      , (9502,   3,   240, 0, 0, 240) /* MaxStamina */
      , (9502,   5,   105, 0, 0, 105) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9502,  1312,      2) 
-     , (9502,  1485,      2) 
-     , (9502,  1539,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9502, 67109557, 0, 24)

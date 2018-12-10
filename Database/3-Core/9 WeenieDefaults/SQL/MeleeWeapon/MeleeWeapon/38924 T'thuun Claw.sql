@@ -26,8 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38924,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38924,   1, 'T''thuun Claw') /* Name */
-     , (38924,  14, 'This item is used in Summoning.') /* Use */;
+VALUES (38924,   1, 'T''thuun Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38924,   1,   33560670) /* Setup */

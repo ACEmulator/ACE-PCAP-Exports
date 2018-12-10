@@ -6,11 +6,9 @@ VALUES (22050, 'skeletoncambarthnew', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22050,   1,         16) /* ItemType - Creature */
      , (22050,   2,         30) /* CreatureType - Skeleton */
-     , (22050,   5,       6100) /* EncumbranceVal */
      , (22050,   6,        255) /* ItemsCapacity */
      , (22050,   7,        255) /* ContainersCapacity */
      , (22050,  16,          1) /* ItemUseable - No */
-     , (22050,  19,          0) /* Value */
      , (22050,  25,        200) /* Level */
      , (22050,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22050, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (22050,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22050,   1, 'Lord Cambarth') /* Name */
-     , (22050,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (22050, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

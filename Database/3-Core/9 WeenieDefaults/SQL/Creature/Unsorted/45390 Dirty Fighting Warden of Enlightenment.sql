@@ -5,7 +5,6 @@ VALUES (45390, 'ace45390-dirtyfightingwardenofenlightenment', 10) /* Creature */
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45390,   1,         16) /* ItemType - Creature */
-     , (45390,   5,          0) /* EncumbranceVal */
      , (45390,   6,        255) /* ItemsCapacity */
      , (45390,   7,        255) /* ContainersCapacity */
      , (45390,  16,         32) /* ItemUseable - Remote */

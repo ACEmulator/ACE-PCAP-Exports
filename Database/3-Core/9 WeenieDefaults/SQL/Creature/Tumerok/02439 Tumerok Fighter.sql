@@ -6,31 +6,14 @@ VALUES (2439, 'tumerokfighter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2439,   1,         16) /* ItemType - Creature */
      , (2439,   2,          6) /* CreatureType - Tumerok */
-     , (2439,   5,         50) /* EncumbranceVal */
      , (2439,   6,        255) /* ItemsCapacity */
      , (2439,   7,        255) /* ContainersCapacity */
      , (2439,  16,          1) /* ItemUseable - No */
-     , (2439,  19,        698) /* Value */
      , (2439,  25,         20) /* Level */
-     , (2439,  44,         14) /* Damage */
-     , (2439,  45,          4) /* DamageType - Bludgeon */
-     , (2439,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (2439,  49,         10) /* WeaponTime */
      , (2439,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (2439, 105,          4) /* ItemWorkmanship */
-     , (2439, 106,         53) /* ItemSpellcraft */
-     , (2439, 107,        241) /* ItemCurMana */
-     , (2439, 108,        241) /* ItemMaxMana */
-     , (2439, 109,         39) /* ItemDifficulty */
-     , (2439, 110,          0) /* ItemAllegianceRankLimit */
-     , (2439, 115,          0) /* ItemSkillLevelLimit */
-     , (2439, 131,         67) /* MaterialType - Granite */
      , (2439, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (2439, 172,          1) /* AppraisalLongDescDecoration */
      , (2439, 307,          5) /* DamageRating */
-     , (2439, 353,         10) /* WeaponType - Thrown */
-     , (2439, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (2439, 8030,          0);
+     , (2439, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2439,   1, True ) /* Stuck */
@@ -40,18 +23,10 @@ VALUES (2439,   1, True ) /* Stuck */
      , (2439,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2439,   5,  -0.025) /* ManaRate */
-     , (2439,  21,       0) /* WeaponLength */
-     , (2439,  22,    0.25) /* DamageVariance */
-     , (2439,  26,       0) /* MaximumVelocity */
-     , (2439,  29,       1) /* WeaponDefense */
-     , (2439,  39, 1.10000002384186) /* DefaultScale */
-     , (2439,  62,       1) /* WeaponOffense */
-     , (2439,  63,       1) /* DamageMod */;
+VALUES (2439,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2439,   1, 'Tumerok Fighter') /* Name */
-     , (2439,  16, 'Tankard of Weapon Expertise') /* LongDesc */
      , (2439, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (2439,   1,    78, 0, 0, 78) /* MaxHealth */
      , (2439,   3,   170, 0, 0, 170) /* MaxStamina */
      , (2439,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2439,   775,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2439, 67116625, 57, 48)

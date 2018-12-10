@@ -19,19 +19,12 @@ VALUES (40732,   1,          1) /* ItemType - MeleeWeapon */
      , (40732,  65,        101) /* Placement - Resting */
      , (40732,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40732, 105,          8) /* ItemWorkmanship */
-     , (40732, 106,        370) /* ItemSpellcraft */
-     , (40732, 107,       1761) /* ItemCurMana */
-     , (40732, 108,       1761) /* ItemMaxMana */
-     , (40732, 109,        187) /* ItemDifficulty */
-     , (40732, 110,          0) /* ItemAllegianceRankLimit */
-     , (40732, 115,        390) /* ItemSkillLevelLimit */
      , (40732, 131,         60) /* MaterialType - Gold */
      , (40732, 151,          2) /* HookType - Wall */
      , (40732, 158,          2) /* WieldRequirements - RawSkill */
      , (40732, 159,         46) /* WieldSkilltype - FinesseWeapons */
      , (40732, 160,        370) /* WieldDifficulty */
      , (40732, 172,          7) /* AppraisalLongDescDecoration */
-     , (40732, 176,         46) /* AppraisalItemSkill */
      , (40732, 177,          2) /* GemCount */
      , (40732, 178,         22) /* GemType */
      , (40732, 353,          6) /* WeaponType - Dagger */
@@ -46,8 +39,7 @@ VALUES (40732,   1, False) /* Stuck */
      , (40732,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40732,   5, -0.0666666666666667) /* ManaRate */
-     , (40732,  21,       0) /* WeaponLength */
+VALUES (40732,  21,       0) /* WeaponLength */
      , (40732,  22,    0.99) /* DamageVariance */
      , (40732,  26,       0) /* MaximumVelocity */
      , (40732,  29,     1.1) /* WeaponDefense */
@@ -72,8 +64,3 @@ VALUES (40732,   1,   33555751) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40732,   2, 1343085871) /* Container */
      , (40732, 8000, 2979050500) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40732,  1592,      2) 
-     , (40732,  2591,      2) 
-     , (40732,  4395,      2) ;

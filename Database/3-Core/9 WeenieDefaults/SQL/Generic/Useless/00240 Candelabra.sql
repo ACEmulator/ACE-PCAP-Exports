@@ -22,9 +22,7 @@ VALUES (240,   1, False) /* Stuck */
      , (240,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (240,   1, 'Candelabra') /* Name */
-     , (240,   7, 'In memory of Morph. Always on guard.') /* Inscription */
-     , (240,   8, 'Sheralyn Jade') /* ScribeName */;
+VALUES (240,   1, 'Candelabra') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (240,   1,   33557389) /* Setup */

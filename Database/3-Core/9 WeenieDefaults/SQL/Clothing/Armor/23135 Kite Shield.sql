@@ -11,16 +11,7 @@ VALUES (23135,   1,          2) /* ItemType - Armor */
      , (23135,  16,          1) /* ItemUseable - No */
      , (23135,  19,        120) /* Value */
      , (23135,  51,          4) /* CombatUse - Shield */
-     , (23135,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23135, 105,          7) /* ItemWorkmanship */
-     , (23135, 106,        217) /* ItemSpellcraft */
-     , (23135, 107,       2001) /* ItemCurMana */
-     , (23135, 108,       2001) /* ItemMaxMana */
-     , (23135, 109,        225) /* ItemDifficulty */
-     , (23135, 110,          0) /* ItemAllegianceRankLimit */
-     , (23135, 115,          0) /* ItemSkillLevelLimit */
-     , (23135, 131,         64) /* MaterialType - Steel */
-     , (23135, 172,          1) /* AppraisalLongDescDecoration */;
+     , (23135,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23135,   1, False) /* Stuck */
@@ -31,12 +22,10 @@ VALUES (23135,   1, False) /* Stuck */
      , (23135,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23135,   5,   -0.05) /* ManaRate */
-     , (23135,  39,    0.75) /* DefaultScale */;
+VALUES (23135,  39,    0.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23135,   1, 'Kite Shield') /* Name */
-     , (23135,  16, 'Ring of Fire Protection') /* LongDesc */;
+VALUES (23135,   1, 'Kite Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23135,   1,   33554788) /* Setup */
@@ -57,10 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23135,   3, 3690605074) /* Wielder */
      , (23135, 8000, 3690605085) /* PCAPRecordedObjectIID */
      , (23135, 8008, 3690605074) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23135,  1093,      2) 
-     , (23135,  5427,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23135, 67111919, 0, 0);

@@ -6,29 +6,15 @@ VALUES (27948, 'finnskigg', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27948,   1,         16) /* ItemType - Creature */
      , (27948,   2,         31) /* CreatureType - Human */
-     , (27948,   5,         38) /* EncumbranceVal */
      , (27948,   6,        255) /* ItemsCapacity */
      , (27948,   7,        255) /* ContainersCapacity */
      , (27948,  16,         32) /* ItemUseable - Remote */
-     , (27948,  19,       7522) /* Value */
      , (27948,  25,        120) /* Level */
-     , (27948,  28,          0) /* ArmorLevel */
      , (27948,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27948,  95,          8) /* RadarBlipColor - Yellow */
-     , (27948, 105,          8) /* ItemWorkmanship */
-     , (27948, 106,        245) /* ItemSpellcraft */
-     , (27948, 107,        872) /* ItemCurMana */
-     , (27948, 108,        872) /* ItemMaxMana */
-     , (27948, 109,        183) /* ItemDifficulty */
-     , (27948, 110,          0) /* ItemAllegianceRankLimit */
      , (27948, 113,          1) /* Gender - Male */
-     , (27948, 115,          0) /* ItemSkillLevelLimit */
-     , (27948, 131,          7) /* MaterialType - Velvet */
      , (27948, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27948, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (27948, 172,          5) /* AppraisalLongDescDecoration */
-     , (27948, 177,          1) /* GemCount */
-     , (27948, 178,         38) /* GemType */
      , (27948, 188,          1) /* HeritageGroup - Aluvian */
      , (27948, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -40,25 +26,14 @@ VALUES (27948,   1, True ) /* Stuck */
      , (27948,  14, True ) /* GravityStatus */
      , (27948,  19, False) /* Attackable */
      , (27948,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (27948,  42, True ) /* AllowEdgeSlide */
-     , (27948, 100, True ) /* Dyable */;
+     , (27948,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27948,   5, -0.0555555555555556) /* ManaRate */
-     , (27948,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (27948,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (27948,  15,       1) /* ArmorModVsBludgeon */
-     , (27948,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (27948,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (27948,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (27948,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (27948,  54,       3) /* UseRadius */
-     , (27948, 165,       1) /* ArmorModVsNether */;
+VALUES (27948,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27948,   1, 'Finn Skigg') /* Name */
      , (27948,   5, 'Adventurer') /* Template */
-     , (27948,  16, 'Doublet of Protection') /* LongDesc */
      , (27948, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,9 +61,6 @@ VALUES (27948, 8000, 3688957350) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (27948,   1,   235, 0, 0, 235) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27948,  1312,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27948, 67109561, 0, 24)

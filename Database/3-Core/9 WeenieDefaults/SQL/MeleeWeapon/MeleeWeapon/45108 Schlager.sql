@@ -10,8 +10,6 @@ VALUES (45108,   1,          1) /* ItemType - MeleeWeapon */
      , (45108,  16,          1) /* ItemUseable - No */
      , (45108,  18,          1) /* UiEffects - Magical */
      , (45108,  19,       2419) /* Value */
-     , (45108,  28,        296) /* ArmorLevel */
-     , (45108,  33,          1) /* Bonded - Bonded */
      , (45108,  44,         11) /* Damage */
      , (45108,  45,          3) /* DamageType - Slash, Pierce */
      , (45108,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
@@ -26,47 +24,26 @@ VALUES (45108,   1,          1) /* ItemType - MeleeWeapon */
      , (45108, 108,        934) /* ItemMaxMana */
      , (45108, 109,         97) /* ItemDifficulty */
      , (45108, 110,          0) /* ItemAllegianceRankLimit */
-     , (45108, 114,          1) /* Attuned - Attuned */
      , (45108, 115,        234) /* ItemSkillLevelLimit */
-     , (45108, 117,        350) /* ItemManaCost */
      , (45108, 131,         58) /* MaterialType - Bronze */
      , (45108, 151,          2) /* HookType - Wall */
-     , (45108, 158,          2) /* WieldRequirements - RawSkill */
-     , (45108, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (45108, 160,        300) /* WieldDifficulty */
-     , (45108, 166,         89) /* SlayerCreatureType - Mukkir */
-     , (45108, 171,         10) /* NumTimesTinkered */
      , (45108, 172,          5) /* AppraisalLongDescDecoration */
      , (45108, 176,         44) /* AppraisalItemSkill */
      , (45108, 177,          2) /* GemCount */
      , (45108, 178,         42) /* GemType */
-     , (45108, 179,         16) /* ImbuedEffect - PierceRending */
-     , (45108, 265,          9) /* EquipmentSetId - EmpyreanRings */
      , (45108, 353,          2) /* WeaponType - Sword */
      , (45108, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45108,   1, False) /* Stuck */
-     , (45108,   2, False) /* Open */
      , (45108,  11, True ) /* IgnoreCollisions */
      , (45108,  13, True ) /* Ethereal */
      , (45108,  14, True ) /* GravityStatus */
      , (45108,  19, True ) /* Attackable */
-     , (45108,  22, True ) /* Inscribable */
-     , (45108,  85, True ) /* AppraisalHasAllowedWielder */
-     , (45108,  91, True ) /* Retained */
-     , (45108,  99, True ) /* Ivoryable */
-     , (45108, 100, True ) /* Dyable */;
+     , (45108,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45108,   5, -0.0416666666666667) /* ManaRate */
-     , (45108,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (45108,  14,       1) /* ArmorModVsPierce */
-     , (45108,  15,       1) /* ArmorModVsBludgeon */
-     , (45108,  16, 0.666292369365692) /* ArmorModVsCold */
-     , (45108,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (45108,  18, 1.37325930595398) /* ArmorModVsAcid */
-     , (45108,  19, 1.10499715805054) /* ArmorModVsElectric */
      , (45108,  21,       0) /* WeaponLength */
      , (45108,  22,    0.58) /* DamageVariance */
      , (45108,  26,       0) /* MaximumVelocity */
@@ -74,20 +51,11 @@ VALUES (45108,   5, -0.0416666666666667) /* ManaRate */
      , (45108,  39, 1.20000004768372) /* DefaultScale */
      , (45108,  62,    1.03) /* WeaponOffense */
      , (45108,  63,       1) /* DamageMod */
-     , (45108, 149,    1.01) /* WeaponMissileDefense */
-     , (45108, 150,    1.04) /* WeaponMagicDefense */
-     , (45108, 165,       1) /* ArmorModVsNether */
      , (45108, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45108,   1, 'Schlager') /* Name */
-     , (45108,   7, '"Crystalfang" --') /* Inscription */
-     , (45108,   8, 'Azrakin') /* ScribeName */
-     , (45108,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (45108,  16, 'Schlager of Blood Drinker') /* LongDesc */
-     , (45108,  25, 'Azrakin') /* CraftsmanName */
-     , (45108,  39, 'Jadefire') /* TinkerName */
-     , (45108,  40, 'Dez''mron Salvager') /* ImbuerName */;
+     , (45108,  16, 'Schlager of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45108,   1,   33561441) /* Setup */
@@ -104,91 +72,7 @@ VALUES (45108,   2, 3696413526) /* Container */
      , (45108, 8000, 3696554879) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45108,    35,      2) 
-     , (45108,  1331,      2) 
-     , (45108,  1332,      2) 
-     , (45108,  1378,      2) 
-     , (45108,  1401,      2) 
-     , (45108,  1402,      2) 
-     , (45108,  1528,      2) 
-     , (45108,  1591,      2) 
-     , (45108,  1592,      2) 
-     , (45108,  1599,      2) 
-     , (45108,  1604,      2) 
-     , (45108,  1605,      2) 
-     , (45108,  1612,      2) 
-     , (45108,  1613,      2) 
-     , (45108,  1614,      2) 
-     , (45108,  1615,      2) 
-     , (45108,  1616,      2) 
-     , (45108,  1623,      2) 
-     , (45108,  1624,      2) 
-     , (45108,  1626,      2) 
-     , (45108,  1627,      2) 
-     , (45108,  2059,      2) 
-     , (45108,  2081,      2) 
-     , (45108,  2087,      2) 
-     , (45108,  2096,      2) 
-     , (45108,  2101,      2) 
-     , (45108,  2108,      2) 
-     , (45108,  2116,      2) 
-     , (45108,  2159,      2) 
-     , (45108,  2203,      2) 
-     , (45108,  2237,      2) 
-     , (45108,  2506,      2) 
-     , (45108,  2514,      2) 
-     , (45108,  2524,      2) 
-     , (45108,  2529,      2) 
-     , (45108,  2531,      2) 
-     , (45108,  2544,      2) 
-     , (45108,  2549,      2) 
-     , (45108,  2553,      2) 
-     , (45108,  2556,      2) 
-     , (45108,  2566,      2) 
-     , (45108,  2573,      2) 
-     , (45108,  2575,      2) 
-     , (45108,  2576,      2) 
-     , (45108,  2579,      2) 
-     , (45108,  2580,      2) 
-     , (45108,  2582,      2) 
-     , (45108,  2583,      2) 
-     , (45108,  2584,      2) 
-     , (45108,  2586,      2) 
-     , (45108,  2591,      2) 
-     , (45108,  2596,      2) 
-     , (45108,  2598,      2) 
-     , (45108,  2603,      2) 
-     , (45108,  2608,      2) 
-     , (45108,  2614,      2) 
-     , (45108,  2616,      2) 
-     , (45108,  2618,      2) 
-     , (45108,  2620,      2) 
-     , (45108,  3983,      2) 
-     , (45108,  4071,      2) 
-     , (45108,  4072,      2) 
-     , (45108,  4076,      2) 
-     , (45108,  4297,      2) 
-     , (45108,  4299,      2) 
-     , (45108,  4319,      2) 
-     , (45108,  4395,      2) 
-     , (45108,  4400,      2) 
-     , (45108,  4405,      2) 
-     , (45108,  4417,      2) 
-     , (45108,  4661,      2) 
-     , (45108,  4672,      2) 
-     , (45108,  4706,      2) 
-     , (45108,  4712,      2) 
-     , (45108,  4912,      2) 
-     , (45108,  5785,      2) 
-     , (45108,  5786,      2) 
-     , (45108,  5807,      2) 
-     , (45108,  5808,      2) 
-     , (45108,  5879,      2) 
-     , (45108,  5881,      2) 
-     , (45108,  5884,      2) 
-     , (45108,  6103,      2) 
-     , (45108,  6104,      2) 
-     , (45108,  6127,      2) ;
+VALUES (45108,  1615,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45108, 67111926, 0, 0);

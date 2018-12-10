@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9649,   1,   33554826) /* Setup */
      , (9649,   8,  100676945) /* Icon */
      , (9649,  22,  872415275) /* PhysicsEffectTable */
-     , (9649,  28,       1301) /* Spell */
+     , (9649,  28,       1301) /* Spell - ManaToStaminaSelf6 */
      , (9649, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9649, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9649, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,6 +42,4 @@ VALUES (9649,   2, 1343428168) /* Container */
      , (9649, 8000, 2272270050) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9649,  1301,      2) 
-     , (9649,  1574,      2) 
-     , (9649,  2141,      2) ;
+VALUES (9649,  1301,      2) ;

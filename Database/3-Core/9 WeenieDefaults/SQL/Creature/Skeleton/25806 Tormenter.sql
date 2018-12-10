@@ -6,11 +6,9 @@ VALUES (25806, 'skeletontormenter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25806,   1,         16) /* ItemType - Creature */
      , (25806,   2,         30) /* CreatureType - Skeleton */
-     , (25806,   5,          0) /* EncumbranceVal */
      , (25806,   6,        255) /* ItemsCapacity */
      , (25806,   7,        255) /* ContainersCapacity */
      , (25806,  16,          1) /* ItemUseable - No */
-     , (25806,  19,        512) /* Value */
      , (25806,  25,        160) /* Level */
      , (25806,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25806, 133,          2) /* ShowableOnRadar - ShowMovement */

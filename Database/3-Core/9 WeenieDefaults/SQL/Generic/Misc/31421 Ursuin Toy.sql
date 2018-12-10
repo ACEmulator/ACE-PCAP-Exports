@@ -28,8 +28,6 @@ VALUES (31421,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31421,   1, 'Ursuin Toy') /* Name */
-     , (31421,   7, 'Happy Chanakah wife. I love you very much.') /* Inscription */
-     , (31421,   8, 'Klutz the Lefthanded') /* ScribeName */
      , (31421,  16, 'A large stuffed Ursuin.  There appear to be large chew marks on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

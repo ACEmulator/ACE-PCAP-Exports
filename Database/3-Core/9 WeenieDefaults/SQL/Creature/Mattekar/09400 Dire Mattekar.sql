@@ -6,13 +6,10 @@ VALUES (9400, 'mattekardire', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9400,   1,         16) /* ItemType - Creature */
      , (9400,   2,         23) /* CreatureType - Mattekar */
-     , (9400,   5,         10) /* EncumbranceVal */
      , (9400,   6,        255) /* ItemsCapacity */
      , (9400,   7,        255) /* ContainersCapacity */
      , (9400,  16,          1) /* ItemUseable - No */
-     , (9400,  19,       2500) /* Value */
      , (9400,  25,         40) /* Level */
-     , (9400,  33,          1) /* Bonded - Bonded */
      , (9400,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (9400, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9400, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -30,7 +27,6 @@ VALUES (9400,  39, 3.09999990463257) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9400,   1, 'Dire Mattekar') /* Name */
-     , (9400,  16, 'A concentrated iron pea.') /* LongDesc */
      , (9400, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

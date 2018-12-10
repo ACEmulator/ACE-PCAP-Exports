@@ -6,28 +6,13 @@ VALUES (11500, 'humanbrigand_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11500,   1,         16) /* ItemType - Creature */
      , (11500,   2,         31) /* CreatureType - Human */
-     , (11500,   5,        150) /* EncumbranceVal */
      , (11500,   6,        255) /* ItemsCapacity */
      , (11500,   7,        255) /* ContainersCapacity */
      , (11500,  16,          1) /* ItemUseable - No */
-     , (11500,  19,       9526) /* Value */
      , (11500,  25,         20) /* Level */
-     , (11500,  33,          1) /* Bonded - Bonded */
      , (11500,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11500, 105,          7) /* ItemWorkmanship */
-     , (11500, 106,        229) /* ItemSpellcraft */
-     , (11500, 107,       2101) /* ItemCurMana */
-     , (11500, 108,       2101) /* ItemMaxMana */
-     , (11500, 109,        257) /* ItemDifficulty */
-     , (11500, 110,          0) /* ItemAllegianceRankLimit */
      , (11500, 113,          1) /* Gender - Male */
-     , (11500, 114,          1) /* Attuned - Attuned */
-     , (11500, 115,          0) /* ItemSkillLevelLimit */
-     , (11500, 131,         21) /* MaterialType - Emerald */
      , (11500, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11500, 172,          5) /* AppraisalLongDescDecoration */
-     , (11500, 177,          2) /* GemCount */
-     , (11500, 178,         34) /* GemType */
      , (11500, 188,          1) /* HeritageGroup - Aluvian */
      , (11500, 307,          5) /* DamageRating */
      , (11500, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -39,13 +24,8 @@ VALUES (11500,   1, True ) /* Stuck */
      , (11500,  14, True ) /* GravityStatus */
      , (11500,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11500,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11500,   1, 'Brigand') /* Name */
-     , (11500,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (11500,  16, 'Heavy Bracelet of Magic Resistance') /* LongDesc */
      , (11500, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,13 +64,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (11500,   1,    70, 0, 0, 70) /* MaxHealth */
      , (11500,   3,    85, 0, 0, 84) /* MaxStamina */
      , (11500,   5,    90, 0, 0, 90) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11500,   279,      2) 
-     , (11500,  2551,      2) 
-     , (11500,  5070,      2) 
-     , (11500,  5809,      2) 
-     , (11500,  6127,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11500, 67109560, 0, 24)

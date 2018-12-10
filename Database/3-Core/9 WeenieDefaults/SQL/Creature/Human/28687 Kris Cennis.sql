@@ -6,32 +6,15 @@ VALUES (28687, 'cragstonekris', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28687,   1,         16) /* ItemType - Creature */
      , (28687,   2,         31) /* CreatureType - Human */
-     , (28687,   5,        135) /* EncumbranceVal */
      , (28687,   6,        255) /* ItemsCapacity */
      , (28687,   7,        255) /* ContainersCapacity */
      , (28687,  16,         32) /* ItemUseable - Remote */
-     , (28687,  19,       4330) /* Value */
      , (28687,  25,        261) /* Level */
-     , (28687,  28,          0) /* ArmorLevel */
      , (28687,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28687,  95,          8) /* RadarBlipColor - Yellow */
-     , (28687, 105,          6) /* ItemWorkmanship */
-     , (28687, 106,        299) /* ItemSpellcraft */
-     , (28687, 107,       1089) /* ItemCurMana */
-     , (28687, 108,       1089) /* ItemMaxMana */
-     , (28687, 109,        242) /* ItemDifficulty */
-     , (28687, 110,          0) /* ItemAllegianceRankLimit */
      , (28687, 113,          1) /* Gender - Male */
-     , (28687, 115,          0) /* ItemSkillLevelLimit */
-     , (28687, 131,          7) /* MaterialType - Velvet */
      , (28687, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28687, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (28687, 158,          7) /* WieldRequirements - Level */
-     , (28687, 159,          1) /* WieldSkilltype - Axe */
-     , (28687, 160,        150) /* WieldDifficulty */
-     , (28687, 172,          1) /* AppraisalLongDescDecoration */
-     , (28687, 177,          1) /* GemCount */
-     , (28687, 178,         26) /* GemType */
      , (28687, 188,          1) /* HeritageGroup - Aluvian */
      , (28687, 307,          5) /* DamageRating */
      , (28687, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -44,25 +27,14 @@ VALUES (28687,   1, True ) /* Stuck */
      , (28687,  14, True ) /* GravityStatus */
      , (28687,  19, False) /* Attackable */
      , (28687,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (28687,  42, True ) /* AllowEdgeSlide */
-     , (28687, 100, True ) /* Dyable */;
+     , (28687,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28687,   5, -0.0555555555555556) /* ManaRate */
-     , (28687,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (28687,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (28687,  15,       1) /* ArmorModVsBludgeon */
-     , (28687,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (28687,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (28687,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (28687,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (28687,  54,       3) /* UseRadius */
-     , (28687, 165,       1) /* ArmorModVsNether */;
+VALUES (28687,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28687,   1, 'Kris Cennis') /* Name */
      , (28687,   5, 'Augmentation Trainer') /* Template */
-     , (28687,  16, 'Pants of Lightning Protection') /* LongDesc */
      , (28687, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -100,15 +72,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28687,   1,    45, 0, 0, 45) /* MaxHealth */
      , (28687,   3,    80, 0, 0, 80) /* MaxStamina */
      , (28687,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28687,   951,      2) 
-     , (28687,  1516,      2) 
-     , (28687,  2108,      2) 
-     , (28687,  2159,      2) 
-     , (28687,  2514,      2) 
-     , (28687,  4393,      2) 
-     , (28687,  4689,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28687, 67109558, 0, 24)

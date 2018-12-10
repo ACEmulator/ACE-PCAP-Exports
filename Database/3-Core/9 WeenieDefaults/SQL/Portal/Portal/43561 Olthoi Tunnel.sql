@@ -5,9 +5,7 @@ VALUES (43561, 'ace43561-olthoitunnel', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43561,   1,      65536) /* ItemType - Portal */
-     , (43561,   2,        101) /* CreatureType - Anekshay */
      , (43561,  16,         32) /* ItemUseable - Remote */
-     , (43561,  25,        200) /* Level */
      , (43561,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (43561, 111,        829) /* PortalBitmask - Unrestricted, NoPKLite, NoNPK, NoSummon, NoRecall, NoVitae, NoNewAccounts */
      , (43561, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -44,19 +42,6 @@ VALUES (43561, 8040, 4133290242, 11.9689, 189.212, 14.337, 1, 0, 0, 0) /* PCAPRe
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43561, 8000, 3685989914) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (43561,   1, 200, 0, 0) /* Strength */
-     , (43561,   2, 220, 0, 0) /* Endurance */
-     , (43561,   3, 220, 0, 0) /* Quickness */
-     , (43561,   4, 220, 0, 0) /* Coordination */
-     , (43561,   5, 220, 0, 0) /* Focus */
-     , (43561,   6, 250, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43561,   1,  2610, 0, 0, 2610) /* MaxHealth */
-     , (43561,   3,  3220, 0, 0, 3220) /* MaxStamina */
-     , (43561,   5,  2250, 0, 0, 2250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43561, 67111849, 1, 255);

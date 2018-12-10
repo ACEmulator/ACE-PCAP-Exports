@@ -6,17 +6,12 @@ VALUES (25874, 'nefanelistris', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25874,   1,         16) /* ItemType - Creature */
      , (25874,   2,         45) /* CreatureType - Niffis */
-     , (25874,   5,         50) /* EncumbranceVal */
      , (25874,   6,        255) /* ItemsCapacity */
      , (25874,   7,        255) /* ContainersCapacity */
      , (25874,  16,          1) /* ItemUseable - No */
-     , (25874,  19,       3000) /* Value */
      , (25874,  25,        135) /* Level */
-     , (25874,  91,         50) /* MaxStructure */
-     , (25874,  92,         50) /* Structure */
      , (25874,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25874, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25874, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (25874, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,7 +26,6 @@ VALUES (25874,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25874,   1, 'Listris Nefane') /* Name */
-     , (25874,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (25874, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

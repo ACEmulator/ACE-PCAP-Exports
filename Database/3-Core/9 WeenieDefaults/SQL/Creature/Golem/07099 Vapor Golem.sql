@@ -6,31 +6,24 @@ VALUES (7099, 'golemvapor', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7099,   1,         16) /* ItemType - Creature */
      , (7099,   2,         13) /* CreatureType - Golem */
-     , (7099,   5,       6057) /* EncumbranceVal */
      , (7099,   6,        255) /* ItemsCapacity */
      , (7099,   7,        255) /* ContainersCapacity */
      , (7099,  16,          1) /* ItemUseable - No */
-     , (7099,  19,          0) /* Value */
      , (7099,  25,        115) /* Level */
-     , (7099,  33,          0) /* Bonded - Normal */
      , (7099,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7099, 114,          0) /* Attuned - Normal */
      , (7099, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7099, 307,          2) /* DamageRating */
      , (7099, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7099,   1, True ) /* Stuck */
-     , (7099,   2, False) /* Open */
      , (7099,  12, True ) /* ReportCollisions */
      , (7099,  13, False) /* Ethereal */
      , (7099,  14, True ) /* GravityStatus */
-     , (7099,  19, True ) /* Attackable */
-     , (7099,  69, True ) /* IsSellable */;
+     , (7099,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7099,   1, 'Vapor Golem') /* Name */
-     , (7099,  16, 'Killed by Kaveatta.') /* LongDesc */
      , (7099, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

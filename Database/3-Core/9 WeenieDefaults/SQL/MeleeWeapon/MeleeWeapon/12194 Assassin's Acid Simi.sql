@@ -13,17 +13,7 @@ VALUES (12194,   1,          1) /* ItemType - MeleeWeapon */
      , (12194,  19,        160) /* Value */
      , (12194,  51,          1) /* CombatUse - Melee */
      , (12194,  65,          1) /* Placement - RightHandCombat */
-     , (12194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12194, 105,          8) /* ItemWorkmanship */
-     , (12194, 106,        200) /* ItemSpellcraft */
-     , (12194, 107,        534) /* ItemCurMana */
-     , (12194, 108,        534) /* ItemMaxMana */
-     , (12194, 109,          0) /* ItemDifficulty */
-     , (12194, 110,          0) /* ItemAllegianceRankLimit */
-     , (12194, 115,          0) /* ItemSkillLevelLimit */
-     , (12194, 117,        300) /* ItemManaCost */
-     , (12194, 131,         13) /* MaterialType - Aquamarine */
-     , (12194, 172,          1) /* AppraisalLongDescDecoration */;
+     , (12194,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12194,   1, False) /* Stuck */
@@ -34,8 +24,7 @@ VALUES (12194,   1, False) /* Stuck */
      , (12194,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12194,   1, 'Assassin''s Acid Simi') /* Name */
-     , (12194,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (12194,   1, 'Assassin''s Acid Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12194,   1,   33555775) /* Setup */
@@ -55,6 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12194,   3, 2881363475) /* Wielder */
      , (12194, 8000, 2881363472) /* PCAPRecordedObjectIID */
      , (12194, 8008, 2881363475) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12194,   192,      2) ;

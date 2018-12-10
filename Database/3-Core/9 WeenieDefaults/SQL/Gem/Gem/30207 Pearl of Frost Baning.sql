@@ -42,7 +42,7 @@ VALUES (30207,   1,   33554809) /* Setup */
      , (30207,   6,   67111919) /* PaletteBase */
      , (30207,   8,  100686695) /* Icon */
      , (30207,  22,  872415275) /* PhysicsEffectTable */
-     , (30207,  28,       3706) /* Spell */
+     , (30207,  28,       3706) /* Spell - FrostBaneRare */
      , (30207,  50,  100686653) /* IconOverlay */
      , (30207,  52,  100686604) /* IconUnderlay */
      , (30207, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

@@ -54,9 +54,7 @@ VALUES (45906,   5,  -0.025) /* ManaRate */
      , (45906, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45906,   1, 'Seasoned Explorer Compound Bow') /* Name */
-     , (45906,   7, 'CRAPTASTIC!') /* Inscription */
-     , (45906,   8, 'Deran Dark') /* ScribeName */;
+VALUES (45906,   1, 'Seasoned Explorer Compound Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45906,   1,   33559688) /* Setup */

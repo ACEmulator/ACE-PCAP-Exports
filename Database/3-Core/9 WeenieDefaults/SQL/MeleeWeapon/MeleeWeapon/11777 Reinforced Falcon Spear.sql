@@ -5,18 +5,14 @@ VALUES (11777, 'bannerreinforcedspearfalcon', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11777,   1,          1) /* ItemType - MeleeWeapon */
-     , (11777,   2,         38) /* CreatureType - FireElemental */
      , (11777,   5,        400) /* EncumbranceVal */
      , (11777,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (11777,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (11777,  16,          1) /* ItemUseable - No */
      , (11777,  18,          1) /* UiEffects - Magical */
-     , (11777,  19,          0) /* Value */
-     , (11777,  25,         60) /* Level */
      , (11777,  51,          1) /* CombatUse - Melee */
      , (11777,  65,          1) /* Placement - RightHandCombat */
-     , (11777,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11777, 307,          2) /* DamageRating */;
+     , (11777,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11777,   1, False) /* Stuck */
@@ -27,8 +23,7 @@ VALUES (11777,   1, False) /* Stuck */
      , (11777,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11777,   1, 'Reinforced Falcon Spear') /* Name */
-     , (11777,  16, 'Killed by Fquick.') /* LongDesc */;
+VALUES (11777,   1, 'Reinforced Falcon Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11777,   1,   33557257) /* Setup */
@@ -48,19 +43,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11777,   3, 2629309909) /* Wielder */
      , (11777, 8000, 2629408261) /* PCAPRecordedObjectIID */
      , (11777, 8008, 2629309909) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (11777,   1, 110, 0, 0) /* Strength */
-     , (11777,   2, 130, 0, 0) /* Endurance */
-     , (11777,   3, 130, 0, 0) /* Quickness */
-     , (11777,   4, 130, 0, 0) /* Coordination */
-     , (11777,   5, 130, 0, 0) /* Focus */
-     , (11777,   6, 150, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11777,   1,   170, 0, 0, 170) /* MaxHealth */
-     , (11777,   3,   330, 0, 0, 329) /* MaxStamina */
-     , (11777,   5,   300, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11777, 0, 83893725, 83893724)

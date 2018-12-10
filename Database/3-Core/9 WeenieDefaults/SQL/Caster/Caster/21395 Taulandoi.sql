@@ -50,7 +50,7 @@ VALUES (21395,   1,   33557963) /* Setup */
      , (21395,   3,  536870932) /* SoundTable */
      , (21395,   8,  100673490) /* Icon */
      , (21395,  22,  872415275) /* PhysicsEffectTable */
-     , (21395,  28,       2784) /* Spell */
+     , (21395,  28,       2784) /* Spell - LesserElementalFuryLightning */
      , (21395, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (21395, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21395, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

@@ -34,7 +34,7 @@ VALUES (29031,   1,   33555469) /* Setup */
      , (29031,   3,  536870969) /* SoundTable */
      , (29031,   8,  100667494) /* Icon */
      , (29031,  22,  872415405) /* PhysicsEffectTable */
-     , (29031,  28,         58) /* Spell */
+     , (29031,  28,         58) /* Spell - AcidStream1 */
      , (29031, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (29031, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (29031, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */

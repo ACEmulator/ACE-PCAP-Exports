@@ -33,8 +33,7 @@ VALUES (29371,   1, False) /* Stuck */
      , (29371,  13, True ) /* Ethereal */
      , (29371,  14, True ) /* GravityStatus */
      , (29371,  19, True ) /* Attackable */
-     , (29371,  22, True ) /* Inscribable */
-     , (29371, 100, False) /* Dyable */;
+     , (29371,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29371,   5, -0.0500000007450581) /* ManaRate */
@@ -49,8 +48,6 @@ VALUES (29371,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29371,   1, 'Blooded Platinum Invader Lord Helm') /* Name */
-     , (29371,   7, 'Me') /* Inscription */
-     , (29371,   8, 'Little Thor') /* ScribeName */
      , (29371,  16, 'A helm taken from one of the Knights of the Viamontian Platinum Legion and fortified with royal blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

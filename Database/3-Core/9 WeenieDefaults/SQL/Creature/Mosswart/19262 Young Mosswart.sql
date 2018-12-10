@@ -6,52 +6,27 @@ VALUES (19262, 'mosswartyoung_noaggro', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19262,   1,         16) /* ItemType - Creature */
      , (19262,   2,          4) /* CreatureType - Mosswart */
-     , (19262,   5,          5) /* EncumbranceVal */
      , (19262,   6,        255) /* ItemsCapacity */
      , (19262,   7,        255) /* ContainersCapacity */
      , (19262,  16,          1) /* ItemUseable - No */
-     , (19262,  19,          4) /* Value */
      , (19262,  25,          8) /* Level */
-     , (19262,  44,         10) /* Damage */
-     , (19262,  45,          2) /* DamageType - Pierce */
-     , (19262,  48,          0) /* WeaponSkill - None */
-     , (19262,  49,         -1) /* WeaponTime */
      , (19262,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19262, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19262, 179,          0) /* ImbuedEffect - Undef */
-     , (19262, 303,          0) /* ImbuedEffect2 - Undef */
-     , (19262, 304,          0) /* ImbuedEffect3 - Undef */
-     , (19262, 305,          0) /* ImbuedEffect4 - Undef */
-     , (19262, 306,          0) /* ImbuedEffect5 - Undef */
      , (19262, 307,          5) /* DamageRating */
-     , (19262, 313,          0) /* CritRating */
-     , (19262, 314,          0) /* CritDamageRating */
-     , (19262, 386,          0) /* Overpower */
-     , (19262, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (19262, 8030,          0);
+     , (19262, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19262,   1, True ) /* Stuck */
      , (19262,  12, True ) /* ReportCollisions */
      , (19262,  13, False) /* Ethereal */
      , (19262,  14, True ) /* GravityStatus */
-     , (19262,  19, True ) /* Attackable */
-     , (19262,  69, False) /* IsSellable */;
+     , (19262,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19262,  21,       0) /* WeaponLength */
-     , (19262,  22,     0.1) /* DamageVariance */
-     , (19262,  26,       0) /* MaximumVelocity */
-     , (19262,  29,       1) /* WeaponDefense */
-     , (19262,  39, 0.800000011920929) /* DefaultScale */
-     , (19262,  62,       1) /* WeaponOffense */
-     , (19262,  63,       1) /* DamageMod */
-     , (19262, 149,       0) /* WeaponMissileDefense */
-     , (19262, 150,       0) /* WeaponMagicDefense */;
+VALUES (19262,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19262,   1, 'Young Mosswart') /* Name */
-     , (19262,  16, 'Killed by Uncle P.') /* LongDesc */
      , (19262, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

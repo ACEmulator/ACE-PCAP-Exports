@@ -5,13 +5,11 @@ VALUES (264, 'grapes', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (264,   1,         32) /* ItemType - Food */
-     , (264,   2,          8) /* CreatureType - Tusker */
      , (264,   5,         50) /* EncumbranceVal */
      , (264,  11,        100) /* MaxStackSize */
      , (264,  12,          1) /* StackSize */
      , (264,  16,          8) /* ItemUseable - Contained */
      , (264,  19,          7) /* Value */
-     , (264,  25,         80) /* Level */
      , (264,  65,        101) /* Placement - Resting */
      , (264,  89,          4) /* BoosterEnum - Stamina */
      , (264,  90,          4) /* BoostValue */
@@ -45,6 +43,3 @@ VALUES (264, 8040, 3094544640, 153.8146, 146.32, 16.8015, -0.968436, 0, 0, -0.24
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (264, 8000, 3694262574) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (264,   1,   400, 0, 0, 400) /* MaxHealth */;

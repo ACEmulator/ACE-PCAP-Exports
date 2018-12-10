@@ -5,15 +5,11 @@ VALUES (32751, 'ace32751-blackbookofsaltandash', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32751,   1,         16) /* ItemType - Creature */
-     , (32751,   5,         10) /* EncumbranceVal */
      , (32751,   6,        255) /* ItemsCapacity */
      , (32751,   7,        255) /* ContainersCapacity */
      , (32751,  16,         32) /* ItemUseable - Remote */
-     , (32751,  19,          0) /* Value */
-     , (32751,  33,          1) /* Bonded - Bonded */
      , (32751,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32751,  95,          8) /* RadarBlipColor - Yellow */
-     , (32751, 114,          1) /* Attuned - Attuned */
      , (32751, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32751, 307,          0) /* DamageRating */
      , (32751, 308,          0) /* DamageResistRating */
@@ -57,7 +53,6 @@ VALUES (32751,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32751,   1, 'Black Book of Salt and Ash') /* Name */
      , (32751,  15, 'The Black Book of Salt and Ash seems to thrum with dark energy, and its pages rattle very faintly, as if eager to spring loose from their binding...') /* ShortDesc */
-     , (32751,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */
      , (32751, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

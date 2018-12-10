@@ -6,11 +6,9 @@ VALUES (27708, 'carenzicarnivorous', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27708,   1,         16) /* ItemType - Creature */
      , (27708,   2,         55) /* CreatureType - Carenzi */
-     , (27708,   5,       6713) /* EncumbranceVal */
      , (27708,   6,        255) /* ItemsCapacity */
      , (27708,   7,        255) /* ContainersCapacity */
      , (27708,  16,          1) /* ItemUseable - No */
-     , (27708,  19,          0) /* Value */
      , (27708,  25,        100) /* Level */
      , (27708,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27708, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (27708,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27708,   1, 'Carnivorous Carenzi') /* Name */
-     , (27708,  16, 'Killed by Sanguis Sparta.') /* LongDesc */
      , (27708, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

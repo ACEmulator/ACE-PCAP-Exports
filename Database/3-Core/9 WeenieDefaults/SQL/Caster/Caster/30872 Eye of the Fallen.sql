@@ -38,9 +38,7 @@ VALUES (30872,   5,  -0.025) /* ManaRate */
      , (30872, 152,    1.08) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30872,   1, 'Eye of the Fallen') /* Name */
-     , (30872,   7, 'My undieing gratitude to my faithful vassel Tedbell for this fine gift. ') /* Inscription */
-     , (30872,   8, 'Merland') /* ScribeName */;
+VALUES (30872,   1, 'Eye of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30872,   1,   33559279) /* Setup */

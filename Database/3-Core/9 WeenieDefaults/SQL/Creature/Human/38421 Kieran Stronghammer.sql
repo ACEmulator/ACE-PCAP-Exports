@@ -6,51 +6,19 @@ VALUES (38421, 'ace38421-kieranstronghammer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38421,   1,         16) /* ItemType - Creature */
      , (38421,   2,         31) /* CreatureType - Human */
-     , (38421,   5,          5) /* EncumbranceVal */
      , (38421,   6,        255) /* ItemsCapacity */
      , (38421,   7,        255) /* ContainersCapacity */
      , (38421,  16,         32) /* ItemUseable - Remote */
-     , (38421,  19,          1) /* Value */
      , (38421,  25,        185) /* Level */
-     , (38421,  28,        296) /* ArmorLevel */
-     , (38421,  33,         -2) /* Bonded - Destroy */
-     , (38421,  44,        114) /* Damage */
-     , (38421,  45,          2) /* DamageType - Pierce */
-     , (38421,  48,          0) /* WeaponSkill - None */
-     , (38421,  49,         -1) /* WeaponTime */
      , (38421,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38421,  95,          8) /* RadarBlipColor - Yellow */
-     , (38421, 105,          8) /* ItemWorkmanship */
-     , (38421, 106,        370) /* ItemSpellcraft */
-     , (38421, 107,       1138) /* ItemCurMana */
-     , (38421, 108,       1138) /* ItemMaxMana */
-     , (38421, 109,        294) /* ItemDifficulty */
-     , (38421, 110,          0) /* ItemAllegianceRankLimit */
      , (38421, 113,          1) /* Gender - Male */
-     , (38421, 115,          0) /* ItemSkillLevelLimit */
-     , (38421, 131,         58) /* MaterialType - Bronze */
      , (38421, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38421, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38421, 158,          7) /* WieldRequirements - Level */
-     , (38421, 159,          1) /* WieldSkilltype - Axe */
-     , (38421, 160,        150) /* WieldDifficulty */
-     , (38421, 172,          5) /* AppraisalLongDescDecoration */
-     , (38421, 177,          1) /* GemCount */
-     , (38421, 178,         21) /* GemType */
-     , (38421, 179,          0) /* ImbuedEffect - Undef */
      , (38421, 188,          1) /* HeritageGroup - Aluvian */
      , (38421, 281,          1) /* Faction1Bits */
      , (38421, 287,        301) /* SocietyRankCelhan */
-     , (38421, 303,          0) /* ImbuedEffect2 - Undef */
-     , (38421, 304,          0) /* ImbuedEffect3 - Undef */
-     , (38421, 305,          0) /* ImbuedEffect4 - Undef */
-     , (38421, 306,          0) /* ImbuedEffect5 - Undef */
-     , (38421, 307,          5) /* DamageRating */
-     , (38421, 313,          0) /* CritRating */
-     , (38421, 314,          0) /* CritDamageRating */
-     , (38421, 386,          0) /* Overpower */
-     , (38421, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38421, 8030,          0);
+     , (38421, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38421,   1, True ) /* Stuck */
@@ -60,34 +28,14 @@ VALUES (38421,   1, True ) /* Stuck */
      , (38421,  14, True ) /* GravityStatus */
      , (38421,  19, False) /* Attackable */
      , (38421,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38421,  42, True ) /* AllowEdgeSlide */
-     , (38421,  69, False) /* IsSellable */
-     , (38421, 100, True ) /* Dyable */;
+     , (38421,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38421,   5, -0.0666666666666667) /* ManaRate */
-     , (38421,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (38421,  14,       1) /* ArmorModVsPierce */
-     , (38421,  15,       1) /* ArmorModVsBludgeon */
-     , (38421,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (38421,  17, 1.06560289859772) /* ArmorModVsFire */
-     , (38421,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (38421,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (38421,  21,       0) /* WeaponLength */
-     , (38421,  22,     0.3) /* DamageVariance */
-     , (38421,  26,       0) /* MaximumVelocity */
-     , (38421,  29,       1) /* WeaponDefense */
-     , (38421,  54,       3) /* UseRadius */
-     , (38421,  62,       1) /* WeaponOffense */
-     , (38421,  63,       1) /* DamageMod */
-     , (38421, 149,       0) /* WeaponMissileDefense */
-     , (38421, 150,       0) /* WeaponMagicDefense */
-     , (38421, 165,       1) /* ArmorModVsNether */;
+VALUES (38421,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38421,   1, 'Kieran Stronghammer') /* Name */
      , (38421,   5, 'Blessed Moarsman Hunt Taskmaster ') /* Template */
-     , (38421,  16, 'Haebrean Helm') /* LongDesc */
      , (38421, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -125,12 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38421,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38421,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38421,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38421,  1528,      2) 
-     , (38421,  2108,      2) 
-     , (38421,  2517,      2) 
-     , (38421,  4401,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38421, 67109559, 0, 24)

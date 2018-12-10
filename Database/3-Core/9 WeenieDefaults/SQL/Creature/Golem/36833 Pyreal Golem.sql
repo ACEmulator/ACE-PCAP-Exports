@@ -6,27 +6,12 @@ VALUES (36833, 'ace36833-pyrealgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36833,   1,         16) /* ItemType - Creature */
      , (36833,   2,         13) /* CreatureType - Golem */
-     , (36833,   5,          2) /* EncumbranceVal */
      , (36833,   6,        255) /* ItemsCapacity */
      , (36833,   7,        255) /* ContainersCapacity */
      , (36833,  16,          1) /* ItemUseable - No */
-     , (36833,  19,     150000) /* Value */
      , (36833,  25,        100) /* Level */
-     , (36833,  33,          1) /* Bonded - Bonded */
      , (36833,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36833, 105,          6) /* ItemWorkmanship */
-     , (36833, 106,        289) /* ItemSpellcraft */
-     , (36833, 107,       2178) /* ItemCurMana */
-     , (36833, 108,       2178) /* ItemMaxMana */
-     , (36833, 109,        242) /* ItemDifficulty */
-     , (36833, 110,          0) /* ItemAllegianceRankLimit */
-     , (36833, 115,          0) /* ItemSkillLevelLimit */
-     , (36833, 131,         21) /* MaterialType - Emerald */
      , (36833, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36833, 158,          7) /* WieldRequirements - Level */
-     , (36833, 159,          1) /* WieldSkilltype - Axe */
-     , (36833, 160,        150) /* WieldDifficulty */
-     , (36833, 172,          1) /* AppraisalLongDescDecoration */
      , (36833, 307,          2) /* DamageRating */
      , (36833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -37,12 +22,8 @@ VALUES (36833,   1, True ) /* Stuck */
      , (36833,  14, True ) /* GravityStatus */
      , (36833,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36833,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36833,   1, 'Pyreal Golem') /* Name */
-     , (36833,  16, 'Ring of Strength') /* LongDesc */
      , (36833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -75,10 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36833,   1,   555, 0, 0, 555) /* MaxHealth */
      , (36833,   3,   470, 0, 0, 470) /* MaxStamina */
      , (36833,   5,   425, 0, 0, 405) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36833,  2087,      2) 
-     , (36833,  4911,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36833, 67113787, 0, 0);

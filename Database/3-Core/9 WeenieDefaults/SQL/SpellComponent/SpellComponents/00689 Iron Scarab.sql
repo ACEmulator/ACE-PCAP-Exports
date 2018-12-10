@@ -10,20 +10,9 @@ VALUES (689,   1,       4096) /* ItemType - SpellComponents */
      , (689,  12,         30) /* StackSize */
      , (689,  16,          1) /* ItemUseable - No */
      , (689,  19,       1500) /* Value */
-     , (689,  33,         -2) /* Bonded - Destroy */
-     , (689,  44,         15) /* Damage */
-     , (689,  45,         32) /* DamageType - Acid */
-     , (689,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (689,  49,         20) /* WeaponTime */
      , (689,  65,        101) /* Placement - Resting */
      , (689,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (689, 151,          2) /* HookType - Wall */
-     , (689, 307,          5) /* DamageRating */
-     , (689, 313,          0) /* CritRating */
-     , (689, 314,          0) /* CritDamageRating */
-     , (689, 353,         10) /* WeaponType - Thrown */
-     , (689, 386,          0) /* Overpower */
-     , (689, 8030,          0);
+     , (689, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (689,   1, False) /* Stuck */
@@ -31,16 +20,6 @@ VALUES (689,   1, False) /* Stuck */
      , (689,  13, True ) /* Ethereal */
      , (689,  14, True ) /* GravityStatus */
      , (689,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (689,  21,       0) /* WeaponLength */
-     , (689,  22,     0.5) /* DamageVariance */
-     , (689,  26, 22.761663898249) /* MaximumVelocity */
-     , (689,  29,       1) /* WeaponDefense */
-     , (689,  62,       1) /* WeaponOffense */
-     , (689,  63,       1) /* DamageMod */
-     , (689, 149,       0) /* WeaponMissileDefense */
-     , (689, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (689,   1, 'Iron Scarab') /* Name */;

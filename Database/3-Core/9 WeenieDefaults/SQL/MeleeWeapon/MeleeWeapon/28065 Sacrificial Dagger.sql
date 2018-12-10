@@ -34,7 +34,6 @@ VALUES (28065,   1, False) /* Stuck */
      , (28065,  14, True ) /* GravityStatus */
      , (28065,  19, True ) /* Attackable */
      , (28065,  22, True ) /* Inscribable */
-     , (28065,  85, True ) /* AppraisalHasAllowedWielder */
      , (28065,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,8 +49,7 @@ VALUES (28065,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28065,   1, 'Sacrificial Dagger') /* Name */
-     , (28065,  16, 'A vicious looking dagger of Dericostian design, with a cruel serrated edge. There is old, dark blood on its blade. Found in the reservoir on Aerlinthe Island. This weapon is unenchantable and ignores modified armor and protection values.') /* LongDesc */
-     , (28065,  25, 'Genese') /* CraftsmanName */;
+     , (28065,  16, 'A vicious looking dagger of Dericostian design, with a cruel serrated edge. There is old, dark blood on its blade. Found in the reservoir on Aerlinthe Island. This weapon is unenchantable and ignores modified armor and protection values.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28065,   1,   33558822) /* Setup */

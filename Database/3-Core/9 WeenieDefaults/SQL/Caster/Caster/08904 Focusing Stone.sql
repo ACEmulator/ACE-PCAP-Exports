@@ -20,10 +20,7 @@ VALUES (8904,   1,      32768) /* ItemType - Caster */
      , (8904, 109,        121) /* ItemDifficulty */
      , (8904, 110,          0) /* ItemAllegianceRankLimit */
      , (8904, 114,          1) /* Attuned - Attuned */
-     , (8904, 151,          2) /* HookType - Wall */
-     , (8904, 158,          7) /* WieldRequirements - Level */
-     , (8904, 159,          1) /* WieldSkilltype - Axe */
-     , (8904, 160,        150) /* WieldDifficulty */;
+     , (8904, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8904,   1, False) /* Stuck */
@@ -34,8 +31,6 @@ VALUES (8904,   1, False) /* Stuck */
      , (8904,  19, True ) /* Attackable */
      , (8904,  22, True ) /* Inscribable */
      , (8904,  69, False) /* IsSellable */
-     , (8904,  85, True ) /* AppraisalHasAllowedWielder */
-     , (8904,  91, True ) /* Retained */
      , (8904,  94, True ) /* AppraisalHasAllowedActivator */
      , (8904,  99, True ) /* Ivoryable */;
 
@@ -44,18 +39,10 @@ VALUES (8904,   5,   -0.05) /* ManaRate */
      , (8904,  29,       1) /* WeaponDefense */
      , (8904,  39, 0.699999988079071) /* DefaultScale */
      , (8904,  76, 0.200000002980232) /* Translucency */
-     , (8904, 144, 1.08013642450938E-314) /* ManaConversionMod */
-     , (8904, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (8904, 144, 1.08013642450938E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8904,   1, 'Focusing Stone') /* Name */
-     , (8904,   7, 'Praze has achieved the 1st level of Enlightenment!
-Praze has achieved the 2nd level of Enlightenment!
-Praze has achieved the 3rd level of Enlightenment!
-Praze has achieved the 4th level of Enlightenment!
-Praze has achieved the 5th level of Enlightenment!') /* Inscription */
-     , (8904,   8, 'Praze') /* ScribeName */
-     , (8904,  14, 'Use this item to equip it.') /* Use */
      , (8904,  16, 'A small stone with strange markings on the side. The stone has been imbued with strong magical abilities.') /* LongDesc */
      , (8904,  25, 'Ripley') /* CraftsmanName */;
 
@@ -65,7 +52,7 @@ VALUES (8904,   1,   33556976) /* Setup */
      , (8904,   6,   67111928) /* PaletteBase */
      , (8904,   8,  100671374) /* Icon */
      , (8904,  22,  872415275) /* PhysicsEffectTable */
-     , (8904,  28,       2348) /* Spell */
+     , (8904,  28,       2348) /* Spell - BrillianceOther */
      , (8904, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (8904, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8904, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
@@ -75,8 +62,7 @@ VALUES (8904,   2, 2186220449) /* Container */
      , (8904, 8000, 2186220462) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8904,  2227,      2) 
-     , (8904,  2346,      2) 
+VALUES (8904,  2346,      2) 
      , (8904,  2347,      2) 
      , (8904,  2348,      2) ;
 

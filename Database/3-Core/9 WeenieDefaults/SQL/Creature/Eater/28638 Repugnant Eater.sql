@@ -6,76 +6,23 @@ VALUES (28638, 'eaterrepugnant', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28638,   1,         16) /* ItemType - Creature */
      , (28638,   2,         79) /* CreatureType - Eater */
-     , (28638,   5,         50) /* EncumbranceVal */
      , (28638,   6,        255) /* ItemsCapacity */
      , (28638,   7,        255) /* ContainersCapacity */
      , (28638,  16,          1) /* ItemUseable - No */
-     , (28638,  19,       7500) /* Value */
      , (28638,  25,        115) /* Level */
-     , (28638,  28,          0) /* ArmorLevel */
-     , (28638,  33,          1) /* Bonded - Bonded */
-     , (28638,  44,         10) /* Damage */
-     , (28638,  45,          4) /* DamageType - Bludgeon */
-     , (28638,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (28638,  49,         10) /* WeaponTime */
-     , (28638,  89,          4) /* BoosterEnum - Stamina */
-     , (28638,  90,         85) /* BoostValue */
      , (28638,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28638, 105,          8) /* ItemWorkmanship */
-     , (28638, 106,        246) /* ItemSpellcraft */
-     , (28638, 107,          0) /* ItemCurMana */
-     , (28638, 108,       2489) /* ItemMaxMana */
-     , (28638, 109,        260) /* ItemDifficulty */
-     , (28638, 110,          0) /* ItemAllegianceRankLimit */
-     , (28638, 114,          0) /* Attuned - Normal */
-     , (28638, 115,          0) /* ItemSkillLevelLimit */
-     , (28638, 117,        300) /* ItemManaCost */
-     , (28638, 131,         63) /* MaterialType - Silver */
      , (28638, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28638, 172,          5) /* AppraisalLongDescDecoration */
-     , (28638, 174,          1) /* AppraisalPages */
-     , (28638, 175,          1) /* AppraisalMaxPages */
-     , (28638, 176,          7) /* AppraisalItemSkill */
-     , (28638, 177,          2) /* GemCount */
-     , (28638, 178,         24) /* GemType */
-     , (28638, 307,          5) /* DamageRating */
-     , (28638, 353,         10) /* WeaponType - Thrown */
-     , (28638, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (28638, 8030,          0);
+     , (28638, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28638,   1, True ) /* Stuck */
      , (28638,  12, True ) /* ReportCollisions */
      , (28638,  13, False) /* Ethereal */
      , (28638,  14, True ) /* GravityStatus */
-     , (28638,  19, True ) /* Attackable */
-     , (28638, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28638,   5, -0.0555555555555556) /* ManaRate */
-     , (28638,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (28638,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (28638,  15,       1) /* ArmorModVsBludgeon */
-     , (28638,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (28638,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (28638,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (28638,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (28638,  21,       0) /* WeaponLength */
-     , (28638,  22,    0.25) /* DamageVariance */
-     , (28638,  26,       0) /* MaximumVelocity */
-     , (28638,  29,       1) /* WeaponDefense */
-     , (28638,  62,       1) /* WeaponOffense */
-     , (28638,  63,       1) /* DamageMod */
-     , (28638,  87,       3) /* ItemEfficiency */
-     , (28638, 137,    0.25) /* ManaStoneDestroyChance */
-     , (28638, 165,       1) /* ArmorModVsNether */;
+     , (28638,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28638,   1, 'Repugnant Eater') /* Name */
-     , (28638,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (28638,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */
-     , (28638,  16, 'Inscribed spell: Eradicate Creature Magic Other
-Dispels 3-6 negative Creature Magic enchantments of level 7 or lower from the target.') /* LongDesc */
      , (28638, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -108,19 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28638,   1,   655, 0, 0, 655) /* MaxHealth */
      , (28638,   3,   810, 0, 0, 810) /* MaxStamina */
      , (28638,   5,   200, 0, 0, 200) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28638,   279,      2) 
-     , (28638,   731,      2) 
-     , (28638,  1093,      2) 
-     , (28638,  1353,      2) 
-     , (28638,  1378,      2) 
-     , (28638,  1486,      2) 
-     , (28638,  1719,      2) 
-     , (28638,  2558,      2) 
-     , (28638,  2559,      2) 
-     , (28638,  3184,      2) 
-     , (28638,  5825,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28638, 67115516, 0, 0);

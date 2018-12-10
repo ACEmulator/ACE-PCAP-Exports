@@ -6,17 +6,10 @@ VALUES (36534, 'ace36534-guardqalia', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36534,   1,         16) /* ItemType - Creature */
      , (36534,   2,         31) /* CreatureType - Human */
-     , (36534,   5,         50) /* EncumbranceVal */
      , (36534,   6,        255) /* ItemsCapacity */
      , (36534,   7,        255) /* ContainersCapacity */
      , (36534,  16,         32) /* ItemUseable - Remote */
-     , (36534,  19,         25) /* Value */
      , (36534,  25,        113) /* Level */
-     , (36534,  44,          8) /* Damage */
-     , (36534,  45,          4) /* DamageType - Bludgeon */
-     , (36534,  47,          1) /* AttackType - Punch */
-     , (36534,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (36534,  49,         25) /* WeaponTime */
      , (36534,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36534,  95,          8) /* RadarBlipColor - Yellow */
      , (36534, 113,          2) /* Gender - Female */
@@ -24,9 +17,7 @@ VALUES (36534,   1,         16) /* ItemType - Creature */
      , (36534, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (36534, 188,          2) /* HeritageGroup - Gharundim */
      , (36534, 307,          5) /* DamageRating */
-     , (36534, 353,          1) /* WeaponType - Unarmed */
-     , (36534, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36534, 8030,          0);
+     , (36534, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36534,   1, True ) /* Stuck */
@@ -39,19 +30,11 @@ VALUES (36534,   1, True ) /* Stuck */
      , (36534,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36534,  21,       0) /* WeaponLength */
-     , (36534,  22,     0.5) /* DamageVariance */
-     , (36534,  26,       0) /* MaximumVelocity */
-     , (36534,  29,    1.05) /* WeaponDefense */
-     , (36534,  54,       3) /* UseRadius */
-     , (36534,  62,       1) /* WeaponOffense */
-     , (36534,  63,       1) /* DamageMod */;
+VALUES (36534,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36534,   1, 'Guard Q''alia') /* Name */
      , (36534,   5, 'Soldier') /* Template */
-     , (36534,  14, 'Use Oil of Rendering on this weapon to create an Academy Cestus.') /* Use */
-     , (36534,  15, 'A basic cestus forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */
      , (36534, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

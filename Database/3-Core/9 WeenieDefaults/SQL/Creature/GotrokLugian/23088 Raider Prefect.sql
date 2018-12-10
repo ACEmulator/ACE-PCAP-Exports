@@ -6,15 +6,12 @@ VALUES (23088, 'lugianprefectraider', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23088,   1,         16) /* ItemType - Creature */
      , (23088,   2,         70) /* CreatureType - GotrokLugian */
-     , (23088,   5,       6869) /* EncumbranceVal */
      , (23088,   6,        255) /* ItemsCapacity */
      , (23088,   7,        255) /* ContainersCapacity */
      , (23088,  16,          1) /* ItemUseable - No */
-     , (23088,  19,          0) /* Value */
      , (23088,  25,        160) /* Level */
      , (23088,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23088, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (23088, 307,          5) /* DamageRating */
      , (23088, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,7 +23,6 @@ VALUES (23088,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23088,   1, 'Raider Prefect') /* Name */
-     , (23088,  16, 'Killed by Oykib.') /* LongDesc */
      , (23088, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

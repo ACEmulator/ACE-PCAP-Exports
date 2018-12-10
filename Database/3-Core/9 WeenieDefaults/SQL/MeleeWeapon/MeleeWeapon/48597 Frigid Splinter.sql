@@ -12,7 +12,6 @@ VALUES (48597,   1,          1) /* ItemType - MeleeWeapon */
      , (48597,  19,        170) /* Value */
      , (48597,  51,          1) /* CombatUse - Melee */
      , (48597,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48597, 107,          0) /* ItemCurMana */
      , (48597, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,13 +22,8 @@ VALUES (48597,   1, False) /* Stuck */
      , (48597,  19, True ) /* Attackable */
      , (48597,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48597,  87,       2) /* ItemEfficiency */
-     , (48597, 137,     0.2) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48597,   1, 'Frigid Splinter') /* Name */
-     , (48597,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (48597,   1, 'Frigid Splinter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48597,   1,   33559304) /* Setup */

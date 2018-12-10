@@ -19,9 +19,6 @@ VALUES (36919,   1,        256) /* ItemType - MissileWeapon */
      , (36919,  49,         20) /* WeaponTime */
      , (36919,  51,          2) /* CombatUse - Missle */
      , (36919,  65,          1) /* Placement - RightHandCombat */
-     , (36919,  90,         25) /* BoostValue */
-     , (36919,  91,         50) /* MaxStructure */
-     , (36919,  92,         50) /* Structure */
      , (36919,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (36919, 106,        440) /* ItemSpellcraft */
      , (36919, 107,        200) /* ItemCurMana */
@@ -52,7 +49,6 @@ VALUES (36919,  21,       0) /* WeaponLength */
      , (36919,  63,       1) /* DamageMod */
      , (36919,  78,       1) /* Friction */
      , (36919,  79,       0) /* Elasticity */
-     , (36919, 100,       2) /* HealkitMod */
      , (36919, 149,       0) /* WeaponMissileDefense */
      , (36919, 150,       0) /* WeaponMagicDefense */
      , (36919, 157,       1) /* ResistanceModifier */;

@@ -5,11 +5,9 @@ VALUES (28942, 'scrollarcanumsalvagingother3', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28942,   1,       8192) /* ItemType - Writable */
-     , (28942,   2,         19) /* CreatureType - Virindi */
      , (28942,   5,         10) /* EncumbranceVal */
      , (28942,  16,          8) /* ItemUseable - Contained */
      , (28942,  19,         20) /* Value */
-     , (28942,  25,        100) /* Level */
      , (28942,  65,        101) /* Placement - Resting */
      , (28942,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28942,   1,   33554826) /* Setup */
      , (28942,   8,  100676477) /* Icon */
      , (28942,  22,  872415275) /* PhysicsEffectTable */
-     , (28942,  28,       3508) /* Spell */
+     , (28942,  28,       3508) /* Spell - ArcanumSalvagingOther3 */
      , (28942, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (28942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28942, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,9 +40,6 @@ VALUES (28942,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28942,   2, 2025209858) /* Container */
      , (28942, 8000, 3540458323) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28942,   1,   500, 0, 0, 500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28942,  3508,      2) ;

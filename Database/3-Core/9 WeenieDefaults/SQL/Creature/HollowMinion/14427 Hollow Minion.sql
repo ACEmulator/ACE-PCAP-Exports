@@ -6,14 +6,11 @@ VALUES (14427, 'hollowminionregicide', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14427,   1,         16) /* ItemType - Creature */
      , (14427,   2,         48) /* CreatureType - HollowMinion */
-     , (14427,   5,       6410) /* EncumbranceVal */
      , (14427,   6,        255) /* ItemsCapacity */
      , (14427,   7,        255) /* ContainersCapacity */
      , (14427,  16,          1) /* ItemUseable - No */
-     , (14427,  19,          0) /* Value */
      , (14427,  25,         23) /* Level */
      , (14427,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (14427, 107,          0) /* ItemCurMana */
      , (14427, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (14427, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -24,14 +21,8 @@ VALUES (14427,   1, True ) /* Stuck */
      , (14427,  14, True ) /* GravityStatus */
      , (14427,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14427,  87,       3) /* ItemEfficiency */
-     , (14427, 137,    0.25) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14427,   1, 'Hollow Minion') /* Name */
-     , (14427,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (14427,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (14427, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -63,6 +54,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (14427,   1,   110, 0, 0, 28) /* MaxHealth */
      , (14427,   3,   300, 0, 0, 300) /* MaxStamina */
      , (14427,   5,    40, 0, 0, 40) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14427,  2260,      2) ;

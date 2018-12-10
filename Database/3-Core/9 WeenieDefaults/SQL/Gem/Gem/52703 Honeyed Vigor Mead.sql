@@ -40,7 +40,7 @@ VALUES (52703,   1,   33554603) /* Setup */
      , (52703,   6,   67111919) /* PaletteBase */
      , (52703,   8,  100676320) /* Icon */
      , (52703,  22,  872415275) /* PhysicsEffectTable */
-     , (52703,  28,       6172) /* Spell */
+     , (52703,  28,       6172) /* Spell - HoneyedVigorMead */
      , (52703,  52,  100689826) /* IconUnderlay */
      , (52703, 8001,  275280025) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (52703, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

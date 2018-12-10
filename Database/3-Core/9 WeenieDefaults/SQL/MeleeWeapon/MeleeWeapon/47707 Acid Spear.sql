@@ -5,14 +5,12 @@ VALUES (47707, 'ace47707-acidspear', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47707,   1,          1) /* ItemType - MeleeWeapon */
-     , (47707,   2,          1) /* CreatureType - Olthoi */
      , (47707,   5,        700) /* EncumbranceVal */
      , (47707,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47707,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47707,  16,          1) /* ItemUseable - No */
      , (47707,  18,        256) /* UiEffects - Acid */
      , (47707,  19,        170) /* Value */
-     , (47707,  25,         20) /* Level */
      , (47707,  33,         -2) /* Bonded - Destroy */
      , (47707,  44,         24) /* Damage */
      , (47707,  45,         32) /* DamageType - Acid */
@@ -43,8 +41,7 @@ VALUES (47707,  21,       0) /* WeaponLength */
      , (47707,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47707,   1, 'Acid Spear') /* Name */
-     , (47707,  16, 'Killed by Owain.') /* LongDesc */;
+VALUES (47707,   1, 'Acid Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47707,   1,   33555780) /* Setup */
@@ -65,19 +62,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47707,   3, 3692158699) /* Wielder */
      , (47707, 8000, 3692158719) /* PCAPRecordedObjectIID */
      , (47707, 8008, 3692158699) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47707,   1, 190, 0, 0) /* Strength */
-     , (47707,   2, 150, 0, 0) /* Endurance */
-     , (47707,   3,  60, 0, 0) /* Quickness */
-     , (47707,   4,  60, 0, 0) /* Coordination */
-     , (47707,   5,  30, 0, 0) /* Focus */
-     , (47707,   6,  20, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47707,   1,   100, 0, 0, 100) /* MaxHealth */
-     , (47707,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (47707,   5,    20, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47707, 67111920, 0, 0);

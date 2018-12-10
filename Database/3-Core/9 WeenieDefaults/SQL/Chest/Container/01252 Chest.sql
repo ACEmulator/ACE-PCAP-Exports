@@ -40,7 +40,7 @@ VALUES (1252,   1,   33554556) /* Setup */
      , (1252,   3,  536870945) /* SoundTable */
      , (1252,   8,  100667426) /* Icon */
      , (1252,  22,  872415275) /* PhysicsEffectTable */
-     , (1252,  28,       1418) /* Spell */
+     , (1252,  28,       1418) /* Spell - SlownessOther4 */
      , (1252, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (1252, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1252, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;

@@ -32,7 +32,7 @@ VALUES (25781,   1,   33558523) /* Setup */
      , (25781,   3,  536870932) /* SoundTable */
      , (25781,   8,  100675514) /* Icon */
      , (25781,  22,  872415275) /* PhysicsEffectTable */
-     , (25781,  28,       2991) /* Spell */
+     , (25781,  28,       2991) /* Spell - WintersKiss */
      , (25781, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (25781, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25781, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

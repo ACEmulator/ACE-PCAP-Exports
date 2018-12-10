@@ -39,7 +39,6 @@ VALUES (3844,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3844,   1, False) /* Stuck */
-     , (3844,   2, True ) /* Open */
      , (3844,  11, True ) /* IgnoreCollisions */
      , (3844,  13, True ) /* Ethereal */
      , (3844,  14, True ) /* GravityStatus */
@@ -54,13 +53,10 @@ VALUES (3844,   5, -0.0555555555555556) /* ManaRate */
      , (3844,  29,    1.08) /* WeaponDefense */
      , (3844,  62,    1.16) /* WeaponOffense */
      , (3844,  63,       1) /* DamageMod */
-     , (3844, 149,    1.02) /* WeaponMissileDefense */
-     , (3844, 150,    1.02) /* WeaponMagicDefense */
      , (3844, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3844,   1, 'Flaming Ono') /* Name */
-     , (3844,  14, 'Use this item to close it.') /* Use */
      , (3844,  16, 'Flaming Ono of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -78,36 +74,8 @@ VALUES (3844,   2, 3688474770) /* Container */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3844,  1402,      2) 
-     , (3844,  1591,      2) 
-     , (3844,  1592,      2) 
-     , (3844,  1599,      2) 
-     , (3844,  1605,      2) 
-     , (3844,  1612,      2) 
-     , (3844,  1613,      2) 
-     , (3844,  1614,      2) 
-     , (3844,  1615,      2) 
-     , (3844,  1616,      2) 
-     , (3844,  1626,      2) 
-     , (3844,  1627,      2) 
-     , (3844,  2081,      2) 
      , (3844,  2096,      2) 
      , (3844,  2116,      2) 
-     , (3844,  2512,      2) 
-     , (3844,  2524,      2) 
-     , (3844,  2537,      2) 
      , (3844,  2550,      2) 
      , (3844,  2558,      2) 
-     , (3844,  2559,      2) 
-     , (3844,  2561,      2) 
-     , (3844,  2570,      2) 
-     , (3844,  2575,      2) 
-     , (3844,  2582,      2) 
-     , (3844,  4297,      2) 
-     , (3844,  4395,      2) 
-     , (3844,  4400,      2) 
-     , (3844,  4405,      2) 
-     , (3844,  4417,      2) 
-     , (3844,  4695,      2) 
-     , (3844,  4698,      2) 
-     , (3844,  5809,      2) 
-     , (3844,  6124,      2) ;
+     , (3844,  2561,      2) ;

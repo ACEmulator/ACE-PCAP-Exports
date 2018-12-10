@@ -24,9 +24,6 @@ VALUES (28731,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28731,   1, 'Identification Plate') /* Name */
-     , (28731,   7, 'Tag
-') /* Inscription */
-     , (28731,   8, 'Munchkinizer') /* ScribeName */
      , (28731,  16, 'An identification plate from the province of Celdon. This would have once been attached to a merchant''s cart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

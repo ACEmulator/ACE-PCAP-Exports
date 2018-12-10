@@ -35,9 +35,6 @@ VALUES (3706,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3706,   1, 'Olthoi Cuirass') /* Name */
-     , (3706,   7, ' 
-') /* Inscription */
-     , (3706,   8, 'Jesse the Knight') /* ScribeName */
      , (3706,  15, 'Breastplate crafted from the carapace of an Olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

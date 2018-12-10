@@ -10,9 +10,6 @@ VALUES (979,   1,         16) /* ItemType - Creature */
      , (979,   7,        255) /* ContainersCapacity */
      , (979,  16,         32) /* ItemUseable - Remote */
      , (979,  25,         11) /* Level */
-     , (979,  74,     262272) /* MerchandiseItemTypes - Misc, PromissoryNote */
-     , (979,  75,          0) /* MerchandiseMinValue */
-     , (979,  76,      25000) /* MerchandiseMaxValue */
      , (979,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (979, 113,          2) /* Gender - Female */
      , (979, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -27,13 +24,10 @@ VALUES (979,   1, True ) /* Stuck */
      , (979,  13, False) /* Ethereal */
      , (979,  14, True ) /* GravityStatus */
      , (979,  19, False) /* Attackable */
-     , (979,  39, True ) /* DealMagicalItems */
      , (979,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (979,  37, 0.949999988079071) /* BuyPrice */
-     , (979,  38,    1.25) /* SellPrice */
-     , (979,  54,       3) /* UseRadius */;
+VALUES (979,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (979,   1, 'Healer Burah bint Fathlan') /* Name */
@@ -75,21 +69,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (979,   1,   155, 0, 0, 155) /* MaxHealth */
      , (979,   3,   190, 0, 0, 190) /* MaxStamina */
      , (979,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (979, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (979, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
-     , (979, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
-     , (979, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (979, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (979, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (979, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (979, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (979, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (979, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
-     , (979, 4,  4597, -1, 0, 0, False) /* Create  (4597) for Shop */
-     , (979, 4,  4610, -1, 0, 0, False) /* Create  (4610) for Shop */
-     , (979, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (979, 67109557, 0, 24)

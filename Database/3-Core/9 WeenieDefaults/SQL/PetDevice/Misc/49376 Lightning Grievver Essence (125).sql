@@ -5,12 +5,10 @@ VALUES (49376, 'ace49376-lightninggrievveressence125', 70) /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49376,   1,        128) /* ItemType - Misc */
-     , (49376,   2,          1) /* CreatureType - Olthoi */
      , (49376,   5,         50) /* EncumbranceVal */
      , (49376,  16,          8) /* ItemUseable - Contained */
      , (49376,  18,         64) /* UiEffects - Lightning */
      , (49376,  19,       7000) /* Value */
-     , (49376,  25,        185) /* Level */
      , (49376,  33,          0) /* Bonded - Normal */
      , (49376,  65,        101) /* Placement - Resting */
      , (49376,  91,         50) /* MaxStructure */
@@ -23,12 +21,7 @@ VALUES (49376,   1,        128) /* ItemType - Misc */
      , (49376, 366,         54) /* UseRequiresSkill */
      , (49376, 367,        430) /* UseRequiresSkillLevel */
      , (49376, 369,        115) /* UseRequiresLevel */
-     , (49376, 370,         20) /* GearDamage */
-     , (49376, 371,          9) /* GearDamageResist */
-     , (49376, 372,         12) /* GearCrit */
-     , (49376, 373,          8) /* GearCritResist */
-     , (49376, 374,         12) /* GearCritDamage */
-     , (49376, 375,          4) /* GearCritDamageResist */;
+     , (49376, 374,         12) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49376,   1, False) /* Stuck */
@@ -63,9 +56,6 @@ VALUES (49376,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49376,   2, 1342814975) /* Container */
      , (49376, 8000, 3680397661) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49376,   1,  2300, 0, 0, 2300) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49376, 67111921, 0, 0);

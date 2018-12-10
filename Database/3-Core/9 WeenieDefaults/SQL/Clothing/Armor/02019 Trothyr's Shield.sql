@@ -35,9 +35,7 @@ VALUES (2019,  13, 1.20000004768372) /* ArmorModVsSlash */
      , (2019, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2019,   1, 'Trothyr''s Shield') /* Name */
-     , (2019,   7, 'from the quest.') /* Inscription */
-     , (2019,   8, 'Juliana Bravehart') /* ScribeName */;
+VALUES (2019,   1, 'Trothyr''s Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2019,   1,   33554786) /* Setup */

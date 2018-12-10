@@ -31,8 +31,6 @@ VALUES (7886,   5, -0.033333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7886,   1, 'Baron''s Amulet of Life Giving') /* Name */
-     , (7886,   7, 'Level 15') /* Inscription */
-     , (7886,   8, 'Johnny Richter') /* ScribeName */
      , (7886,  15, 'In life, this object was the Baron of Colier''s most coveted item.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

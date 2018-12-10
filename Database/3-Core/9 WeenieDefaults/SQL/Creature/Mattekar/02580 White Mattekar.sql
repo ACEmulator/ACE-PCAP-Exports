@@ -6,11 +6,9 @@ VALUES (2580, 'mattekarwhite', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2580,   1,         16) /* ItemType - Creature */
      , (2580,   2,         23) /* CreatureType - Mattekar */
-     , (2580,   5,       6000) /* EncumbranceVal */
      , (2580,   6,        255) /* ItemsCapacity */
      , (2580,   7,        255) /* ContainersCapacity */
      , (2580,  16,          1) /* ItemUseable - No */
-     , (2580,  19,          0) /* Value */
      , (2580,  25,         15) /* Level */
      , (2580,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (2580, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (2580,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2580,   1, 'White Mattekar') /* Name */
-     , (2580,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (2580, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

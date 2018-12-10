@@ -6,20 +6,12 @@ VALUES (46935, 'ace46935-ancientsandstonegolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46935,   1,         16) /* ItemType - Creature */
      , (46935,   2,         13) /* CreatureType - Golem */
-     , (46935,   5,        100) /* EncumbranceVal */
      , (46935,   6,        255) /* ItemsCapacity */
      , (46935,   7,        255) /* ContainersCapacity */
      , (46935,  16,          1) /* ItemUseable - No */
-     , (46935,  19,      29835) /* Value */
      , (46935,  25,        240) /* Level */
-     , (46935,  33,          1) /* Bonded - Bonded */
-     , (46935,  89,          6) /* BoosterEnum - Mana */
-     , (46935,  90,         85) /* BoostValue */
      , (46935,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46935, 105,         73) /* ItemWorkmanship */
-     , (46935, 131,         57) /* MaterialType - Brass */
      , (46935, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46935, 170,          8) /* NumItemsInMaterial */
      , (46935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,10 +23,6 @@ VALUES (46935,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46935,   1, 'Ancient Sandstone Golem') /* Name */
-     , (46935,  14, 'Apply this material to a treasure-generated weapon to increase the weapon''s melee defense bonus by 1%.') /* Use */
-     , (46935,  15, 'A bar of brass material salvaged from old items.') /* ShortDesc */
-     , (46935,  16, 'Inscribed spell: Odif''s Blessing
-Increases the caster''s Loyalty skill by 40 points.') /* LongDesc */
      , (46935, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -67,10 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46935,   1,  9000, 0, 0, 9000) /* MaxHealth */
      , (46935,   3,  6400, 0, 0, 6368) /* MaxStamina */
      , (46935,   5,  7690, 0, 0, 7541) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46935,   713,      2) 
-     , (46935,  2233,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46935, 67112822, 0, 0);

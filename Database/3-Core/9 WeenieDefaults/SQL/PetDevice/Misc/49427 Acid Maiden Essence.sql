@@ -23,8 +23,6 @@ VALUES (49427,   1,        128) /* ItemType - Misc */
      , (49427, 368,         54) /* UseRequiresSkillSpec */
      , (49427, 369,        185) /* UseRequiresLevel */
      , (49427, 370,         11) /* GearDamage */
-     , (49427, 371,         10) /* GearDamageResist */
-     , (49427, 372,          9) /* GearCrit */
      , (49427, 373,         15) /* GearCritResist */
      , (49427, 374,         12) /* GearCritDamage */
      , (49427, 375,         13) /* GearCritDamageResist */;
@@ -44,8 +42,6 @@ VALUES (49427,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49427,   1, 'Acid Maiden Essence') /* Name */
-     , (49427,   7, 'Yes, she''s quite sour') /* Inscription */
-     , (49427,   8, 'The Baron of Colier') /* ScribeName */
      , (49427,  14, 'Use this essence to summon or dismiss your Acid Maiden.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

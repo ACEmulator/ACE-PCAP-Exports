@@ -29,10 +29,7 @@ VALUES (5541,  29,       1) /* WeaponDefense */
      , (5541, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5541,   1, 'Wand') /* Name */
-     , (5541,   7, 'The Truth is Out There
-') /* Inscription */
-     , (5541,   8, 'Dougie') /* ScribeName */;
+VALUES (5541,   1, 'Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5541,   1,   33556000) /* Setup */

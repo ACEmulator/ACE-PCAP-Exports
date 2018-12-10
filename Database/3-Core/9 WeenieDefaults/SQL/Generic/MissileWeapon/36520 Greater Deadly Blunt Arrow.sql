@@ -20,16 +20,11 @@ VALUES (36520,   1,        256) /* ItemType - MissileWeapon */
      , (36520,  51,          3) /* CombatUse - Ammo */
      , (36520,  65,          1) /* Placement - RightHandCombat */
      , (36520,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (36520, 105,         10) /* ItemWorkmanship */
-     , (36520, 131,         60) /* MaterialType - Gold */
      , (36520, 151,          2) /* HookType - Wall */
      , (36520, 158,          2) /* WieldRequirements - RawSkill */
      , (36520, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (36520, 160,        270) /* WieldDifficulty */
      , (36520, 166,         77) /* SlayerCreatureType - Ghost */
-     , (36520, 172,          5) /* AppraisalLongDescDecoration */
-     , (36520, 177,          4) /* GemCount */
-     , (36520, 178,         39) /* GemType */
      , (36520, 179,          0) /* ImbuedEffect - Undef */
      , (36520, 303,          0) /* ImbuedEffect2 - Undef */
      , (36520, 304,          0) /* ImbuedEffect3 - Undef */
@@ -66,8 +61,7 @@ VALUES (36520,  21,       0) /* WeaponLength */
      , (36520, 155,       1) /* IgnoreArmor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36520,   1, 'Greater Deadly Blunt Arrow') /* Name */
-     , (36520,  16, 'Killed by High-Voltage II.') /* LongDesc */;
+VALUES (36520,   1, 'Greater Deadly Blunt Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36520,   1,   33554724) /* Setup */

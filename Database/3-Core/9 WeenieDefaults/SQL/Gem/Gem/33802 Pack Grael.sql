@@ -26,9 +26,6 @@ VALUES (33802,  39, 0.600000023841858) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33802,   1, 'Pack Grael') /* Name */
-     , (33802,   7, 'I got this as my long-time player reward?  ...Disgusting...
-') /* Inscription */
-     , (33802,   8, 'Carokahn') /* ScribeName */
      , (33802,  14, 'The Pack Grael can be placed on floor and yard hooks.') /* Use */
      , (33802,  16, 'A miniature doll of Grael, the Heart-Render, Black Spear of the Kemeroi, Scourge of Haebrous, and Rage of Shadow.  You can turn this doll in to one of the Emissaries of Ulgrim, who will advance you one character level in exchange.  You can only turn in one doll.') /* LongDesc */
      , (33802, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;

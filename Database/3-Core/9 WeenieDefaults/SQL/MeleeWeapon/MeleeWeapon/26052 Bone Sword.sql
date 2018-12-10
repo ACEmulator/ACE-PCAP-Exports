@@ -5,13 +5,11 @@ VALUES (26052, 'swordburunboneextreme', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26052,   1,          1) /* ItemType - MeleeWeapon */
-     , (26052,   2,         35) /* CreatureType - OlthoiLarvae */
      , (26052,   5,        450) /* EncumbranceVal */
      , (26052,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (26052,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (26052,  16,          1) /* ItemUseable - No */
      , (26052,  19,       1150) /* Value */
-     , (26052,  25,        115) /* Level */
      , (26052,  51,          1) /* CombatUse - Melee */
      , (26052,  65,          1) /* Placement - RightHandCombat */
      , (26052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -45,6 +43,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26052,   3, 3701072250) /* Wielder */
      , (26052, 8000, 3701597133) /* PCAPRecordedObjectIID */
      , (26052, 8008, 3701072250) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26052,   1,   740, 0, 0, 740) /* MaxHealth */;

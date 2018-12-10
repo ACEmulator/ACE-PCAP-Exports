@@ -6,11 +6,9 @@ VALUES (7086, 'banderlingthrasher', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7086,   1,         16) /* ItemType - Creature */
      , (7086,   2,          2) /* CreatureType - Banderling */
-     , (7086,   5,       6970) /* EncumbranceVal */
      , (7086,   6,        255) /* ItemsCapacity */
      , (7086,   7,        255) /* ContainersCapacity */
      , (7086,  16,          1) /* ItemUseable - No */
-     , (7086,  19,          0) /* Value */
      , (7086,  25,        100) /* Level */
      , (7086,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7086, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -19,7 +17,6 @@ VALUES (7086,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7086,   1, True ) /* Stuck */
-     , (7086,   2, False) /* Open */
      , (7086,  12, True ) /* ReportCollisions */
      , (7086,  13, False) /* Ethereal */
      , (7086,  14, True ) /* GravityStatus */
@@ -30,7 +27,6 @@ VALUES (7086,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7086,   1, 'Banderling Thrasher') /* Name */
-     , (7086,  16, 'Killed by Hawkeye the Ranger''s K''nath.') /* LongDesc */
      , (7086, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

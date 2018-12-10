@@ -45,7 +45,7 @@ VALUES (21391,   1,   33556769) /* Setup */
      , (21391,   6,   67111919) /* PaletteBase */
      , (21391,   8,  100673478) /* Icon */
      , (21391,  22,  872415275) /* PhysicsEffectTable */
-     , (21391,  28,       2796) /* Spell */
+     , (21391,  28,       2796) /* Spell - PortalSendingCitadelSurface */
      , (21391, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (21391, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21391, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

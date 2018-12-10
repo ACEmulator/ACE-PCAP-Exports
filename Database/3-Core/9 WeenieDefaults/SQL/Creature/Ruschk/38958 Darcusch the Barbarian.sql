@@ -6,31 +6,14 @@ VALUES (38958, 'ace38958-darcuschthebarbarian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38958,   1,         16) /* ItemType - Creature */
      , (38958,   2,         81) /* CreatureType - Ruschk */
-     , (38958,   5,        273) /* EncumbranceVal */
      , (38958,   6,        255) /* ItemsCapacity */
      , (38958,   7,        255) /* ContainersCapacity */
      , (38958,  16,          1) /* ItemUseable - No */
-     , (38958,  19,       6589) /* Value */
      , (38958,  25,        200) /* Level */
-     , (38958,  44,         48) /* Damage */
-     , (38958,  45,          8) /* DamageType - Cold */
-     , (38958,  47,          6) /* AttackType - Thrust, Slash */
-     , (38958,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (38958,  49,         23) /* WeaponTime */
      , (38958,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38958, 105,          7) /* ItemWorkmanship */
-     , (38958, 131,         74) /* MaterialType - Mahogany */
      , (38958, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (38958, 158,          2) /* WieldRequirements - RawSkill */
-     , (38958, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (38958, 160,        350) /* WieldDifficulty */
-     , (38958, 172,          5) /* AppraisalLongDescDecoration */
-     , (38958, 177,          3) /* GemCount */
-     , (38958, 178,         21) /* GemType */
      , (38958, 307,          5) /* DamageRating */
-     , (38958, 353,          7) /* WeaponType - Staff */
-     , (38958, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38958, 8030,          0);
+     , (38958, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38958,   1, True ) /* Stuck */
@@ -40,18 +23,11 @@ VALUES (38958,   1, True ) /* Stuck */
      , (38958,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38958,  21,       0) /* WeaponLength */
-     , (38958,  22,     0.5) /* DamageVariance */
-     , (38958,  26,       0) /* MaximumVelocity */
-     , (38958,  29,    1.14) /* WeaponDefense */
-     , (38958,  39, 1.20000004768372) /* DefaultScale */
-     , (38958,  62,    1.06) /* WeaponOffense */
-     , (38958,  63,       1) /* DamageMod */;
+VALUES (38958,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38958,   1, 'Darcusch the Barbarian') /* Name */
      , (38958,   5, 'Monster Fighter') /* Template */
-     , (38958,  16, 'Frost Stick') /* LongDesc */
      , (38958, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

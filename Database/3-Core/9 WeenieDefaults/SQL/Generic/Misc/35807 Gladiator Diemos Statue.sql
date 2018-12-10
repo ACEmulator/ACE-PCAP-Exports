@@ -9,23 +9,8 @@ VALUES (35807,   1,        128) /* ItemType - Misc */
      , (35807,  16,         32) /* ItemUseable - Remote */
      , (35807,  18,          1) /* UiEffects - Magical */
      , (35807,  19,          0) /* Value */
-     , (35807,  28,        275) /* ArmorLevel */
      , (35807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35807, 105,          8) /* ItemWorkmanship */
-     , (35807, 106,        370) /* ItemSpellcraft */
-     , (35807, 107,       1423) /* ItemCurMana */
-     , (35807, 108,       1423) /* ItemMaxMana */
-     , (35807, 109,        312) /* ItemDifficulty */
-     , (35807, 110,          0) /* ItemAllegianceRankLimit */
-     , (35807, 115,          0) /* ItemSkillLevelLimit */
-     , (35807, 131,         60) /* MaterialType - Gold */
      , (35807, 151,          9) /* HookType - Floor, Yard */
-     , (35807, 158,          7) /* WieldRequirements - Level */
-     , (35807, 159,          1) /* WieldSkilltype - Axe */
-     , (35807, 160,        150) /* WieldDifficulty */
-     , (35807, 172,          5) /* AppraisalLongDescDecoration */
-     , (35807, 177,          3) /* GemCount */
-     , (35807, 178,         21) /* GemType */
      , (35807, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,24 +19,10 @@ VALUES (35807,   1, False) /* Stuck */
      , (35807,  13, True ) /* Ethereal */
      , (35807,  14, True ) /* GravityStatus */
      , (35807,  19, True ) /* Attackable */
-     , (35807,  22, True ) /* Inscribable */
-     , (35807, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35807,   5, -0.0666666666666667) /* ManaRate */
-     , (35807,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (35807,  14,       1) /* ArmorModVsPierce */
-     , (35807,  15,       1) /* ArmorModVsBludgeon */
-     , (35807,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (35807,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (35807,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (35807,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (35807, 165,       1) /* ArmorModVsNether */;
+     , (35807,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35807,   1, 'Gladiator Diemos Statue') /* Name */
-     , (35807,   7, 'Casts Strength of Diemos (equals and overwrites Incantation of Strength). Lasts 3 hours.') /* Inscription */
-     , (35807,   8, 'Retrodenizen') /* ScribeName */
      , (35807,  14, 'On use, will cast the spell Strength of Diemos.  This item does not count against the maximum number of casters that can be hooked in a residence.') /* Use */
      , (35807,  16, 'A statue sculpted in the likeness of the vanquished Colosseum Champion, Gladiator Diemos.') /* LongDesc */
      , (35807, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
@@ -69,11 +40,6 @@ VALUES (35807,   1,   33560265) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35807,   2, 2088321213) /* Container */
      , (35807, 8000, 2151959408) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35807,  2108,      2) 
-     , (35807,  4403,      2) 
-     , (35807,  4912,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35807, 0, 83894477, 83897668)

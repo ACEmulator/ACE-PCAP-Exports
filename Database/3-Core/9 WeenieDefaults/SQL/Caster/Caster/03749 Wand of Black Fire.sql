@@ -32,8 +32,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3749,   5,  -0.025) /* ManaRate */
      , (3749,  29,       1) /* WeaponDefense */
      , (3749,  39, 0.800000011920929) /* DefaultScale */
-     , (3749, 144,    0.03) /* ManaConversionMod */
-     , (3749, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (3749, 144,    0.03) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3749,   1, 'Wand of Black Fire') /* Name */
@@ -46,7 +45,7 @@ VALUES (3749,   1,   33558258) /* Setup */
      , (3749,   6,   67111919) /* PaletteBase */
      , (3749,   8,  100668800) /* Icon */
      , (3749,  22,  872415275) /* PhysicsEffectTable */
-     , (3749,  28,        145) /* Spell */
+     , (3749,  28,        145) /* Spell - FlameVolley5 */
      , (3749, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (3749, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3749, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

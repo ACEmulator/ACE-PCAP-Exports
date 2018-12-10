@@ -31,7 +31,7 @@ VALUES (11134,   1,   33555193) /* Setup */
      , (11134,   3,  536870932) /* SoundTable */
      , (11134,   8,  100671762) /* Icon */
      , (11134,  22,  872415275) /* PhysicsEffectTable */
-     , (11134,  28,       2425) /* Spell */
+     , (11134,  28,       2425) /* Spell - StoneWall */
      , (11134, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (11134, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11134, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

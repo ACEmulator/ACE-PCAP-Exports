@@ -23,9 +23,7 @@ VALUES (49544,   1,        128) /* ItemType - Misc */
      , (49544, 368,         54) /* UseRequiresSkillSpec */
      , (49544, 369,        185) /* UseRequiresLevel */
      , (49544, 370,         17) /* GearDamage */
-     , (49544, 371,          7) /* GearDamageResist */
      , (49544, 372,         12) /* GearCrit */
-     , (49544, 373,          8) /* GearCritResist */
      , (49544, 374,         14) /* GearCritDamage */
      , (49544, 375,         15) /* GearCritDamageResist */;
 

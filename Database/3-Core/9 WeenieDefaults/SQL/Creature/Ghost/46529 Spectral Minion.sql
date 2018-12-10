@@ -6,40 +6,16 @@ VALUES (46529, 'ace46529-spectralminion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46529,   1,         16) /* ItemType - Creature */
      , (46529,   2,         77) /* CreatureType - Ghost */
-     , (46529,   5,        635) /* EncumbranceVal */
      , (46529,   6,        255) /* ItemsCapacity */
      , (46529,   7,        255) /* ContainersCapacity */
      , (46529,  16,          1) /* ItemUseable - No */
-     , (46529,  19,       8584) /* Value */
      , (46529,  25,        240) /* Level */
-     , (46529,  44,         43) /* Damage */
-     , (46529,  45,         16) /* DamageType - Fire */
-     , (46529,  47,          2) /* AttackType - Thrust */
-     , (46529,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (46529,  49,         44) /* WeaponTime */
      , (46529,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46529, 105,          7) /* ItemWorkmanship */
-     , (46529, 106,        292) /* ItemSpellcraft */
-     , (46529, 107,       1284) /* ItemCurMana */
-     , (46529, 108,       1284) /* ItemMaxMana */
-     , (46529, 109,        153) /* ItemDifficulty */
-     , (46529, 110,          0) /* ItemAllegianceRankLimit */
-     , (46529, 115,        312) /* ItemSkillLevelLimit */
-     , (46529, 131,         63) /* MaterialType - Silver */
      , (46529, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46529, 158,          2) /* WieldRequirements - RawSkill */
-     , (46529, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (46529, 160,        420) /* WieldDifficulty */
-     , (46529, 172,          5) /* AppraisalLongDescDecoration */
-     , (46529, 176,         41) /* AppraisalItemSkill */
-     , (46529, 177,          2) /* GemCount */
-     , (46529, 178,         39) /* GemType */
      , (46529, 307,         10) /* DamageRating */
      , (46529, 308,         10) /* DamageResistRating */
      , (46529, 313,          5) /* CritRating */
-     , (46529, 353,         11) /* WeaponType - TwoHanded */
-     , (46529, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (46529, 8030,          0);
+     , (46529, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46529,   1, True ) /* Stuck */
@@ -48,18 +24,8 @@ VALUES (46529,   1, True ) /* Stuck */
      , (46529,  14, True ) /* GravityStatus */
      , (46529,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46529,   5, -0.0555555555555556) /* ManaRate */
-     , (46529,  21,       0) /* WeaponLength */
-     , (46529,  22,     0.4) /* DamageVariance */
-     , (46529,  26,       0) /* MaximumVelocity */
-     , (46529,  29,    1.18) /* WeaponDefense */
-     , (46529,  62,    1.13) /* WeaponOffense */
-     , (46529,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46529,   1, 'Spectral Minion') /* Name */
-     , (46529,  16, 'Flaming Pike of Swiftkiller') /* LongDesc */
      , (46529, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -91,12 +57,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46529,   1,  2500, 0, 0, 1590) /* MaxHealth */
      , (46529,   3,  2700, 0, 0, 2700) /* MaxStamina */
      , (46529,   5,   750, 0, 0, 750) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46529,  1616,      2) 
-     , (46529,  2116,      2) 
-     , (46529,  2575,      2) 
-     , (46529,  5785,      2) ;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (46529, 0, 16796675)

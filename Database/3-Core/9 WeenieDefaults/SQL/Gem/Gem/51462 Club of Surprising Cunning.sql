@@ -25,7 +25,7 @@ VALUES (51462,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51462,   1, 'Club of Surprising Cunning') /* Name */
-     , (51462,  16, 'Killed by Ripley.') /* LongDesc */;
+     , (51462,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51462,   1,   33560551) /* Setup */

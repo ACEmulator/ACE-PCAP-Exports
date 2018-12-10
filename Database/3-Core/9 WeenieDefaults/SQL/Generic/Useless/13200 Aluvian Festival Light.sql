@@ -22,8 +22,6 @@ VALUES (13200,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13200,   1, 'Aluvian Festival Light') /* Name */
-     , (13200,   7, 'In memory of Sir Joffre Tremblant and his galiant party, found in Frore.') /* Inscription */
-     , (13200,   8, 'Ripley') /* ScribeName */
      , (13200,  15, 'You can use this item on floor and yard hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,11 +6,9 @@ VALUES (1615, 'gromnieash', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1615,   1,         16) /* ItemType - Creature */
      , (1615,   2,         15) /* CreatureType - Gromnie */
-     , (1615,   5,       6556) /* EncumbranceVal */
      , (1615,   6,        255) /* ItemsCapacity */
      , (1615,   7,        255) /* ContainersCapacity */
      , (1615,  16,          1) /* ItemUseable - No */
-     , (1615,  19,          0) /* Value */
      , (1615,  25,         30) /* Level */
      , (1615,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1615, 133,          2) /* ShowableOnRadar - ShowMovement */

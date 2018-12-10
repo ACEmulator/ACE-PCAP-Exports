@@ -37,7 +37,6 @@ VALUES (52786,   1, False) /* Stuck */
      , (52786,  19, True ) /* Attackable */
      , (52786,  22, True ) /* Inscribable */
      , (52786,  69, False) /* IsSellable */
-     , (52786,  85, True ) /* AppraisalHasAllowedWielder */
      , (52786,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,8 +48,7 @@ VALUES (52786,   1, 'Green Society Band') /* Name */
      , (52786,   7, 'LS = 4.3N , 63.9W
 LS = 1.0N , 70..7W') /* Inscription */
      , (52786,   8, 'Genese') /* ScribeName */
-     , (52786,  16, 'A dark black ring set with five emeralds.') /* LongDesc */
-     , (52786,  25, 'Rob The Hand') /* CraftsmanName */;
+     , (52786,  16, 'A dark black ring set with five emeralds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52786,   1,   33554691) /* Setup */

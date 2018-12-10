@@ -42,8 +42,6 @@ VALUES (25953,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25953,   1, 'Cowl of the Sand') /* Name */
-     , (25953,   7, 'thanks Car') /* Inscription */
-     , (25953,   8, 'Midnight The Dark') /* ScribeName */
      , (25953,  16, 'This Cowl was used by a member of the Shagar Zharala to protect himself from the sandstorms of the A''mun Desert.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

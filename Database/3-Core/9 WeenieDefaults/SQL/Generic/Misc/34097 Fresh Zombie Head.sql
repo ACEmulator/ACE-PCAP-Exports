@@ -22,8 +22,6 @@ VALUES (34097,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34097,   1, 'Fresh Zombie Head') /* Name */
-     , (34097,   7, 'fragaregvacwaflll!') /* Inscription */
-     , (34097,   8, 'Fenn') /* ScribeName */
      , (34097,  14, 'Turn this item into Ungrim in Glendenwood.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

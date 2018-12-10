@@ -5,22 +5,10 @@ VALUES (39810, 'ace39810-explorationmarker', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39810,   1,         16) /* ItemType - Creature */
-     , (39810,   5,          5) /* EncumbranceVal */
      , (39810,   6,        255) /* ItemsCapacity */
      , (39810,   7,        255) /* ContainersCapacity */
      , (39810,  16,         32) /* ItemUseable - Remote */
-     , (39810,  19,       2090) /* Value */
      , (39810,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (39810, 105,          6) /* ItemWorkmanship */
-     , (39810, 106,        250) /* ItemSpellcraft */
-     , (39810, 107,        545) /* ItemCurMana */
-     , (39810, 108,        545) /* ItemMaxMana */
-     , (39810, 109,          0) /* ItemDifficulty */
-     , (39810, 110,          0) /* ItemAllegianceRankLimit */
-     , (39810, 115,          0) /* ItemSkillLevelLimit */
-     , (39810, 117,        350) /* ItemManaCost */
-     , (39810, 131,         22) /* MaterialType - FireOpal */
-     , (39810, 172,          1) /* AppraisalLongDescDecoration */
      , (39810, 307,          0) /* DamageRating */
      , (39810, 308,          0) /* DamageResistRating */
      , (39810, 313,          0) /* CritRating */
@@ -63,7 +51,7 @@ VALUES (39810,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39810,   1, 'Exploration Marker') /* Name */
      , (39810,  14, 'Use this marker to declare this spot discovered.') /* Use */
-     , (39810,  16, 'Gem of Regeneration') /* LongDesc */
+     , (39810,  16, 'An Exploration Marker.  Speak with Sean the Speedy of the Exploration Society, in Holtburg, for more information on these markers.') /* LongDesc */
      , (39810, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,9 +71,6 @@ VALUES (39810, 8040, 2031921, 152.467, -22.4244, -45.46271, 0.362219, 0, 0, -0.9
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39810, 8000, 3704760285) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39810,   170,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39810, 67111092, 0, 0);

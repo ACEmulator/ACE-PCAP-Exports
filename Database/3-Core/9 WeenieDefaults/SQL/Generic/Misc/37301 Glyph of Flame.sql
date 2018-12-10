@@ -5,13 +5,11 @@ VALUES (37301, 'ace37301-glyphofflame', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37301,   1,        128) /* ItemType - Misc */
-     , (37301,   2,         92) /* CreatureType - ParadoxOlthoi */
      , (37301,   5,         25) /* EncumbranceVal */
      , (37301,  11,       1000) /* MaxStackSize */
      , (37301,  12,          1) /* StackSize */
      , (37301,  16,          1) /* ItemUseable - No */
      , (37301,  19,      30000) /* Value */
-     , (37301,  25,        200) /* Level */
      , (37301,  65,        101) /* Placement - Resting */
      , (37301,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -40,9 +38,6 @@ VALUES (37301,   1,   33554809) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37301,   2, 1343249241) /* Container */
      , (37301, 8000, 3179535662) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37301,   1,  2090, 0, 0, 2090) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37301, 67111924, 0, 0);

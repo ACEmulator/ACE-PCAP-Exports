@@ -25,13 +25,10 @@ VALUES (38464,   1,          2) /* ItemType - Armor */
      , (38464, 158,          9) /* WieldRequirements - IntStat */
      , (38464, 159,        287) /* WieldSkilltype */
      , (38464, 160,          1) /* WieldDifficulty */
-     , (38464, 171,          8) /* NumTimesTinkered */
      , (38464, 172,          5) /* AppraisalLongDescDecoration */
-     , (38464, 176,          6) /* AppraisalItemSkill */
      , (38464, 177,          2) /* GemCount */
      , (38464, 178,         20) /* GemType */
      , (38464, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38464, 374,          1) /* GearCritDamage */
      , (38464, 375,          1) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,7 +38,6 @@ VALUES (38464,   1, False) /* Stuck */
      , (38464,  14, True ) /* GravityStatus */
      , (38464,  19, True ) /* Attackable */
      , (38464,  22, True ) /* Inscribable */
-     , (38464,  91, True ) /* Retained */
      , (38464, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -58,10 +54,7 @@ VALUES (38464,   5, -0.0555555555555556) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38464,   1, 'Celestial Hand Gauntlets') /* Name */
-     , (38464,   7, 'Epic Coordination') /* Inscription */
-     , (38464,   8, 'Straharik') /* ScribeName */
-     , (38464,  16, 'Celestial Hand Gauntlets of Coordination') /* LongDesc */
-     , (38464,  39, 'Straharik') /* TinkerName */;
+     , (38464,  16, 'Celestial Hand Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38464,   1,   33554648) /* Setup */
@@ -79,10 +72,6 @@ VALUES (38464,   2, 1343493255) /* Container */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38464,  2059,      2) 
      , (38464,  2108,      2) 
-     , (38464,  2203,      2) 
-     , (38464,  2612,      2) 
-     , (38464,  3963,      2) 
-     , (38464,  4391,      2) 
      , (38464,  4912,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)

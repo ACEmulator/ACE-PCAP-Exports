@@ -11,7 +11,6 @@ VALUES (30488,   1,        128) /* ItemType - Misc */
      , (30488,  33,          1) /* Bonded - Bonded */
      , (30488,  65,        101) /* Placement - Resting */
      , (30488,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30488, 107,          0) /* ItemCurMana */
      , (30488, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,13 +22,10 @@ VALUES (30488,   1, False) /* Stuck */
      , (30488,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30488,  39,       2) /* DefaultScale */
-     , (30488,  87,       2) /* ItemEfficiency */
-     , (30488, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (30488,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30488,   1, 'Bag of Rye Seed') /* Name */
-     , (30488,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (30488,  16, 'A bulging bag of rye seed, stolen from Alfrin the farmer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

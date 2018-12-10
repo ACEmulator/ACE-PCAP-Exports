@@ -31,7 +31,6 @@ VALUES (45979,   1, False) /* Stuck */
      , (45979,  14, True ) /* GravityStatus */
      , (45979,  19, True ) /* Attackable */
      , (45979,  22, True ) /* Inscribable */
-     , (45979,  85, True ) /* AppraisalHasAllowedWielder */
      , (45979,  99, True ) /* Ivoryable */
      , (45979, 100, True ) /* Dyable */;
 
@@ -48,8 +47,7 @@ VALUES (45979,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45979,   1, 'Armoredillo Hide Bracers') /* Name */
-     , (45979,  16, NULL) /* LongDesc */
-     , (45979,  25, 'Brambles') /* CraftsmanName */;
+     , (45979,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45979,   1,   33554641) /* Setup */

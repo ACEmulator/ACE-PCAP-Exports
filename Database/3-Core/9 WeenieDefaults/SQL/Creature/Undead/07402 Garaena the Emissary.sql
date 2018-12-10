@@ -14,7 +14,6 @@ VALUES (7402,   1,         16) /* ItemType - Creature */
      , (7402,  95,          8) /* RadarBlipColor - Yellow */
      , (7402, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7402, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (7402, 307,          5) /* DamageRating */
      , (7402, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,18 +50,8 @@ VALUES (7402, 8040, 756088864, 82.6887, 171.336, 56.00825, -0.9927421, 0, 0, -0.
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7402, 8000, 3695140288) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (7402,   1, 200, 0, 0) /* Strength */
-     , (7402,   2, 220, 0, 0) /* Endurance */
-     , (7402,   3, 220, 0, 0) /* Quickness */
-     , (7402,   4, 220, 0, 0) /* Coordination */
-     , (7402,   5, 220, 0, 0) /* Focus */
-     , (7402,   6, 250, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7402,   1,   200, 0, 0, 200) /* MaxHealth */
-     , (7402,   3,  3220, 0, 0, 3216) /* MaxStamina */
-     , (7402,   5,  2250, 0, 0, 1621) /* MaxMana */;
+VALUES (7402,   1,   200, 0, 0, 200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7402, 67111342, 0, 0);

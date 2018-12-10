@@ -6,11 +6,9 @@ VALUES (5890, 'mattekarhoary', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5890,   1,         16) /* ItemType - Creature */
      , (5890,   2,         23) /* CreatureType - Mattekar */
-     , (5890,   5,          0) /* EncumbranceVal */
      , (5890,   6,        255) /* ItemsCapacity */
      , (5890,   7,        255) /* ContainersCapacity */
      , (5890,  16,          1) /* ItemUseable - No */
-     , (5890,  19,       1037) /* Value */
      , (5890,  25,         80) /* Level */
      , (5890,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5890, 133,          4) /* ShowableOnRadar - ShowAlways */

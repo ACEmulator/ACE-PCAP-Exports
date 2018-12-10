@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7303,   1,   33555469) /* Setup */
      , (7303,   8,  100667494) /* Icon */
      , (7303,  22,  872415358) /* PhysicsEffectTable */
-     , (7303,  28,         86) /* Spell */
+     , (7303,  28,         86) /* Spell - ForceBolt1 */
      , (7303, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (7303, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (7303, 8005,      62341) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, PeTable, DefaultScript, DefaultScriptIntensity, Position */

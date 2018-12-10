@@ -46,9 +46,6 @@ VALUES (21377,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21377,   1, 'Dauloirae') /* Name */
-     , (21377,   7, 'Butthead you owe me bigtime!
-') /* Inscription */
-     , (21377,   8, 'Zanzan') /* ScribeName */
      , (21377,  15, 'An obsidian shield enhanced to defend against the piercing attacks of olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

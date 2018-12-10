@@ -30,11 +30,7 @@ VALUES (38479,   1,          2) /* ItemType - Armor */
      , (38479, 176,          6) /* AppraisalItemSkill */
      , (38479, 177,          2) /* GemCount */
      , (38479, 178,         38) /* GemType */
-     , (38479, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38479, 374,          3) /* GearCritDamage */
-     , (38479, 375,          2) /* GearCritDamageResist */
-     , (38479, 379,          1) /* GearMaxHealth */
-     , (38479, 383,          1) /* GearPKDamageRating */;
+     , (38479, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38479,   1, False) /* Stuck */
@@ -59,10 +55,6 @@ VALUES (38479,   5, -0.0555555559694767) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38479,   1, 'Olthoi Bracers') /* Name */
-     , (38479,   7, 'Property 
-                                
-                            Of') /* Inscription */
-     , (38479,   8, 'Esprit Des Bannis') /* ScribeName */
      , (38479,  16, NULL) /* LongDesc */
      , (38479,  39, 'Olthoi king''s mage') /* TinkerName */;
 
@@ -81,28 +73,8 @@ VALUES (38479,   2, 1343032295) /* Container */
      , (38479, 8000, 2150515822) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38479,  1332,      2) 
-     , (38479,  1498,      2) 
-     , (38479,  2092,      2) 
-     , (38479,  2102,      2) 
-     , (38479,  2104,      2) 
-     , (38479,  2108,      2) 
+VALUES (38479,  2108,      2) 
      , (38479,  2185,      2) 
-     , (38479,  2281,      2) 
-     , (38479,  2516,      2) 
-     , (38479,  2610,      2) 
-     , (38479,  3964,      2) 
-     , (38479,  4299,      2) 
-     , (38479,  4397,      2) 
-     , (38479,  4401,      2) 
-     , (38479,  4403,      2) 
-     , (38479,  4407,      2) 
-     , (38479,  4498,      2) 
-     , (38479,  6054,      2) 
-     , (38479,  6072,      2) 
-     , (38479,  6103,      2) 
-     , (38479,  6106,      2) 
-     , (38479,  6122,      2) 
      , (38479,  6125,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

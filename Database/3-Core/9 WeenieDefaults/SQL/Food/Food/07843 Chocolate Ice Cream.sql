@@ -11,6 +11,8 @@ VALUES (7843,   1,         32) /* ItemType - Food */
      , (7843,  16,          8) /* ItemUseable - Contained */
      , (7843,  19,        150) /* Value */
      , (7843,  65,        101) /* Placement - Resting */
+     , (7843,  89,          2) /* BoosterEnum - Health */
+     , (7843,  90,         20) /* BoostValue */
      , (7843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -18,10 +20,13 @@ VALUES (7843,   1, False) /* Stuck */
      , (7843,  11, True ) /* IgnoreCollisions */
      , (7843,  13, True ) /* Ethereal */
      , (7843,  14, True ) /* GravityStatus */
-     , (7843,  19, True ) /* Attackable */;
+     , (7843,  19, True ) /* Attackable */
+     , (7843,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7843,   1, 'Chocolate Ice Cream') /* Name */
+     , (7843,  14, 'Use this item to eat it.') /* Use */
+     , (7843,  15, 'A tempting bowl of cool, dark, rich, chocolate ice cream.') /* ShortDesc */
      , (7843,  20, 'Bowls of Chocolate Ice Cream') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

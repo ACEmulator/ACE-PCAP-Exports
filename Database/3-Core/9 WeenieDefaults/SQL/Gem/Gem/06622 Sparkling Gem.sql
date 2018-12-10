@@ -29,8 +29,6 @@ VALUES (6622,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6622,   1, 'Sparkling Gem') /* Name */
-     , (6622,   7, NULL) /* Inscription */
-     , (6622,   8, NULL) /* ScribeName */
      , (6622,  14, 'Combine with another sparkling gem to make a larger fused gem.') /* Use */
      , (6622,  16, 'A medium-sized, sparkling gem with swirls of orange and black.') /* LongDesc */;
 

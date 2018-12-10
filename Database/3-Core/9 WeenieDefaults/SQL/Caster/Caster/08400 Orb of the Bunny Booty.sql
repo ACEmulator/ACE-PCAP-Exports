@@ -24,20 +24,15 @@ VALUES (8400,   1, False) /* Stuck */
      , (8400,  14, True ) /* GravityStatus */
      , (8400,  19, True ) /* Attackable */
      , (8400,  22, True ) /* Inscribable */
-     , (8400,  85, True ) /* AppraisalHasAllowedWielder */
      , (8400,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8400,  29,       1) /* WeaponDefense */
      , (8400,  39, 1.60000002384186) /* DefaultScale */
-     , (8400, 144,       0) /* ManaConversionMod */
-     , (8400, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (8400, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8400,   1, 'Orb of the Bunny Booty') /* Name */
-     , (8400,   7, 'My what a pretty bunny :)') /* Inscription */
-     , (8400,   8, 'Lonsgard') /* ScribeName */
-     , (8400,  25, 'Lonsgard') /* CraftsmanName */;
+VALUES (8400,   1, 'Orb of the Bunny Booty') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8400,   1,   33556870) /* Setup */

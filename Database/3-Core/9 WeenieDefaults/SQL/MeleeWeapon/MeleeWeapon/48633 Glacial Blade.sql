@@ -5,19 +5,14 @@ VALUES (48633, 'ace48633-glacialblade', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48633,   1,          1) /* ItemType - MeleeWeapon */
-     , (48633,   2,         79) /* CreatureType - Eater */
      , (48633,   5,        450) /* EncumbranceVal */
      , (48633,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (48633,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48633,  16,          1) /* ItemUseable - No */
      , (48633,  19,        460) /* Value */
-     , (48633,  25,         60) /* Level */
      , (48633,  51,          1) /* CombatUse - Melee */
      , (48633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48633, 105,          6) /* ItemWorkmanship */
-     , (48633, 131,         13) /* MaterialType - Aquamarine */
-     , (48633, 151,          2) /* HookType - Wall */
-     , (48633, 172,          1) /* AppraisalLongDescDecoration */;
+     , (48633, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48633,   1, False) /* Stuck */
@@ -28,8 +23,7 @@ VALUES (48633,   1, False) /* Stuck */
      , (48633,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48633,   1, 'Glacial Blade') /* Name */
-     , (48633,  16, 'Gem') /* LongDesc */;
+VALUES (48633,   1, 'Glacial Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48633,   1,   33559362) /* Setup */
@@ -49,16 +43,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48633,   3, 3692113094) /* Wielder */
      , (48633, 8000, 3692755409) /* PCAPRecordedObjectIID */
      , (48633, 8008, 3692113094) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48633,   1, 330, 0, 0) /* Strength */
-     , (48633,   2, 340, 0, 0) /* Endurance */
-     , (48633,   3, 180, 0, 0) /* Quickness */
-     , (48633,   4, 200, 0, 0) /* Coordination */
-     , (48633,   5, 130, 0, 0) /* Focus */
-     , (48633,   6, 130, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48633,   1,   290, 0, 0, 290) /* MaxHealth */
-     , (48633,   3,   490, 0, 0, 490) /* MaxStamina */
-     , (48633,   5,   130, 0, 0, 130) /* MaxMana */;

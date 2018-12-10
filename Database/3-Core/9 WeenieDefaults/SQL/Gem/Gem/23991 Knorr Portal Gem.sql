@@ -45,7 +45,7 @@ VALUES (23991,   1,   33556769) /* Setup */
      , (23991,   6,   67111919) /* PaletteBase */
      , (23991,   8,  100668365) /* Icon */
      , (23991,  22,  872415275) /* PhysicsEffectTable */
-     , (23991,  28,       2951) /* Spell */
+     , (23991,  28,       2951) /* Spell - PortalSendingKnorr */
      , (23991, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (23991, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23991, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

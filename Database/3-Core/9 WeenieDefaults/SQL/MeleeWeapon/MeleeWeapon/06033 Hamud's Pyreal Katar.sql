@@ -35,7 +35,6 @@ VALUES (6033,   1, False) /* Stuck */
      , (6033,  14, True ) /* GravityStatus */
      , (6033,  19, True ) /* Attackable */
      , (6033,  22, True ) /* Inscribable */
-     , (6033,  85, True ) /* AppraisalHasAllowedWielder */
      , (6033,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,10 +49,7 @@ VALUES (6033,   5, -0.100000001490116) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6033,   1, 'Hamud''s Pyreal Katar') /* Name */
-     , (6033,   7, '0wnD') /* Inscription */
-     , (6033,   8, 'Eternal Spirit') /* ScribeName */
-     , (6033,  15, 'An exquisitely crafted katar with a damascened blade.') /* ShortDesc */
-     , (6033,  25, 'Juliana Bravehart') /* CraftsmanName */;
+     , (6033,  15, 'An exquisitely crafted katar with a damascened blade.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6033,   1,   33556277) /* Setup */

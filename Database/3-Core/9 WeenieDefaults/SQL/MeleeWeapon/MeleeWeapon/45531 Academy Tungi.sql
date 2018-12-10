@@ -43,8 +43,6 @@ VALUES (45531,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45531,   1, 'Academy Tungi') /* Name */
-     , (45531,   7, '5/5/15') /* Inscription */
-     , (45531,   8, 'Moom') /* ScribeName */
      , (45531,  15, 'An enhanced tungi crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

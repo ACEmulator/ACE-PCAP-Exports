@@ -27,8 +27,6 @@ VALUES (9170,  39, 0.300000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9170,   1, 'Velveteen Olthoi') /* Name */
-     , (9170,   7, 'Not for children under 3!') /* Inscription */
-     , (9170,   8, 'Juliana Bravehart') /* ScribeName */
      , (9170,  16, 'Fantastic pincer cleaning action! Warning: Velveteen Olthoi may be fatal if swallowed.') /* LongDesc */
      , (9170, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

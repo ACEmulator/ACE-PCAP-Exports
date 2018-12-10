@@ -30,19 +30,15 @@ VALUES (3865,   1,          1) /* ItemType - MeleeWeapon */
      , (3865, 158,          2) /* WieldRequirements - RawSkill */
      , (3865, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (3865, 160,        300) /* WieldDifficulty */
-     , (3865, 171,          5) /* NumTimesTinkered */
      , (3865, 172,          5) /* AppraisalLongDescDecoration */
      , (3865, 176,         44) /* AppraisalItemSkill */
      , (3865, 177,          3) /* GemCount */
      , (3865, 178,         26) /* GemType */
-     , (3865, 179,         64) /* ImbuedEffect - AcidRending */
-     , (3865, 188,          2) /* HeritageGroup - Gharundim */
      , (3865, 353,          3) /* WeaponType - Axe */
      , (3865, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3865,   1, False) /* Stuck */
-     , (3865,   2, False) /* Open */
      , (3865,  11, True ) /* IgnoreCollisions */
      , (3865,  13, True ) /* Ethereal */
      , (3865,  14, True ) /* GravityStatus */
@@ -58,15 +54,11 @@ VALUES (3865,   5,   -0.05) /* ManaRate */
      , (3865,  39,    1.25) /* DefaultScale */
      , (3865,  62,    1.11) /* WeaponOffense */
      , (3865,  63,       1) /* DamageMod */
-     , (3865, 149,   1.015) /* WeaponMissileDefense */
-     , (3865, 150,    1.01) /* WeaponMagicDefense */
      , (3865, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3865,   1, 'Acid Silifi') /* Name */
-     , (3865,  16, 'Acid Silifi of Defender') /* LongDesc */
-     , (3865,  39, 'Kricket') /* TinkerName */
-     , (3865,  40, 'Jafar ibn Tinker') /* ImbuerName */;
+     , (3865,  16, 'Acid Silifi of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3865,   1,   33555773) /* Setup */
@@ -82,31 +74,6 @@ VALUES (3865,   2, 2629326128) /* Container */
      , (3865, 8000, 2629326129) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3865,    35,      2) 
-     , (3865,  1331,      2) 
-     , (3865,  1587,      2) 
-     , (3865,  1591,      2) 
-     , (3865,  1602,      2) 
-     , (3865,  1604,      2) 
+VALUES (3865,  1591,      2) 
      , (3865,  1605,      2) 
-     , (3865,  1615,      2) 
-     , (3865,  1616,      2) 
-     , (3865,  1624,      2) 
-     , (3865,  1625,      2) 
-     , (3865,  1627,      2) 
-     , (3865,  2081,      2) 
-     , (3865,  2087,      2) 
-     , (3865,  2096,      2) 
-     , (3865,  2101,      2) 
-     , (3865,  2502,      2) 
-     , (3865,  2524,      2) 
-     , (3865,  2539,      2) 
-     , (3865,  2547,      2) 
-     , (3865,  2570,      2) 
-     , (3865,  2598,      2) 
-     , (3865,  2600,      2) 
-     , (3865,  2603,      2) 
-     , (3865,  2620,      2) 
-     , (3865,  5783,      2) 
-     , (3865,  5809,      2) 
-     , (3865,  5881,      2) ;
+     , (3865,  1615,      2) ;

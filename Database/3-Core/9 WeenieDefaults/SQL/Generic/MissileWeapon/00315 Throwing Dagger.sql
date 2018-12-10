@@ -12,7 +12,6 @@ VALUES (315,   1,        256) /* ItemType - MissileWeapon */
      , (315,  12,         10) /* StackSize */
      , (315,  16,          1) /* ItemUseable - No */
      , (315,  19,         30) /* Value */
-     , (315,  33,         -2) /* Bonded - Destroy */
      , (315,  44,          8) /* Damage */
      , (315,  45,          2) /* DamageType - Pierce */
      , (315,  48,         47) /* WeaponSkill - MissileWeapons */
@@ -20,23 +19,11 @@ VALUES (315,   1,        256) /* ItemType - MissileWeapon */
      , (315,  51,          2) /* CombatUse - Missle */
      , (315,  65,          1) /* Placement - RightHandCombat */
      , (315,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (315, 105,          5) /* ItemWorkmanship */
-     , (315, 106,          2) /* ItemSpellcraft */
-     , (315, 107,        412) /* ItemCurMana */
-     , (315, 108,        412) /* ItemMaxMana */
-     , (315, 109,          2) /* ItemDifficulty */
-     , (315, 110,          0) /* ItemAllegianceRankLimit */
-     , (315, 115,          0) /* ItemSkillLevelLimit */
-     , (315, 131,         57) /* MaterialType - Brass */
      , (315, 151,          2) /* HookType - Wall */
-     , (315, 172,          5) /* AppraisalLongDescDecoration */
-     , (315, 177,          1) /* GemCount */
-     , (315, 178,         30) /* GemType */
      , (315, 307,          5) /* DamageRating */
      , (315, 313,          0) /* CritRating */
      , (315, 314,          0) /* CritDamageRating */
      , (315, 353,         10) /* WeaponType - Thrown */
-     , (315, 381,          0) /* PKDamageRating */
      , (315, 386,          0) /* Overpower */
      , (315, 8030,          0);
 
@@ -49,8 +36,7 @@ VALUES (315,   1, False) /* Stuck */
      , (315,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (315,   5, -0.0125) /* ManaRate */
-     , (315,  21,       0) /* WeaponLength */
+VALUES (315,  21,       0) /* WeaponLength */
      , (315,  22,    0.25) /* DamageVariance */
      , (315,  26, 17.8557182121557) /* MaximumVelocity */
      , (315,  29,       1) /* WeaponDefense */
@@ -62,8 +48,7 @@ VALUES (315,   5, -0.0125) /* ManaRate */
      , (315, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (315,   1, 'Throwing Dagger') /* Name */
-     , (315,  16, 'Ring of Quickness') /* LongDesc */;
+VALUES (315,   1, 'Throwing Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (315,   1,   33554734) /* Setup */
@@ -83,6 +68,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (315,   3, 3692283216) /* Wielder */
      , (315, 8000, 3692283203) /* PCAPRecordedObjectIID */
      , (315, 8008, 3692283216) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (315,  1397,      2) ;

@@ -19,7 +19,6 @@ VALUES (47729,   1,          1) /* ItemType - MeleeWeapon */
      , (47729,  51,          1) /* CombatUse - Melee */
      , (47729,  65,          1) /* Placement - RightHandCombat */
      , (47729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47729, 107,          0) /* ItemCurMana */
      , (47729, 151,          2) /* HookType - Wall */
      , (47729, 353,          5) /* WeaponType - Spear */
      , (47729, 8030,          0);
@@ -38,14 +37,10 @@ VALUES (47729,  21,       0) /* WeaponLength */
      , (47729,  26,       0) /* MaximumVelocity */
      , (47729,  29,       1) /* WeaponDefense */
      , (47729,  62,       1) /* WeaponOffense */
-     , (47729,  63,       1) /* DamageMod */
-     , (47729,  87,     0.1) /* ItemEfficiency */
-     , (47729, 137,   0.025) /* ManaStoneDestroyChance */;
+     , (47729,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47729,   1, 'Spear') /* Name */
-     , (47729,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (47729,  16, 'Killed by Mag-seven.') /* LongDesc */;
+VALUES (47729,   1, 'Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47729,   1,   33554756) /* Setup */

@@ -6,11 +6,9 @@ VALUES (44322, 'ace44322-baktshaysoldier', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44322,   1,         16) /* ItemType - Creature */
      , (44322,   2,        101) /* CreatureType - Anekshay */
-     , (44322,   5,       6055) /* EncumbranceVal */
      , (44322,   6,        255) /* ItemsCapacity */
      , (44322,   7,        255) /* ContainersCapacity */
      , (44322,  16,          1) /* ItemUseable - No */
-     , (44322,  19,          0) /* Value */
      , (44322,  25,        240) /* Level */
      , (44322,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44322, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (44322,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44322,   1, 'Bak''tshay Soldier') /* Name */
-     , (44322,  16, 'Killed by Fquicker.') /* LongDesc */
      , (44322, 8006, 'AAA9AEAAAADNzMw+') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

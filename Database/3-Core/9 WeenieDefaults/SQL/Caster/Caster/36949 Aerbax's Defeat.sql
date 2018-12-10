@@ -27,18 +27,15 @@ VALUES (36949,   1, False) /* Stuck */
      , (36949,  19, True ) /* Attackable */
      , (36949,  22, True ) /* Inscribable */
      , (36949,  69, False) /* IsSellable */
-     , (36949,  85, True ) /* AppraisalHasAllowedWielder */
      , (36949,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36949,  29,       1) /* WeaponDefense */
-     , (36949, 144,       0) /* ManaConversionMod */
-     , (36949, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (36949, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36949,   1, 'Aerbax''s Defeat') /* Name */
-     , (36949,  15, 'An orb crafted from a shard of Aerbax''s mask.  A palpable flux of conflicting energies swirls about the orb.') /* ShortDesc */
-     , (36949,  25, 'Callaway') /* CraftsmanName */;
+     , (36949,  15, 'An orb crafted from a shard of Aerbax''s mask.  A palpable flux of conflicting energies swirls about the orb.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36949,   1,   33560440) /* Setup */

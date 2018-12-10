@@ -11,32 +11,10 @@ VALUES (47481,   1,          1) /* ItemType - MeleeWeapon */
      , (47481,  16,          1) /* ItemUseable - No */
      , (47481,  18,         32) /* UiEffects - Fire */
      , (47481,  19,        350) /* Value */
-     , (47481,  44,         60) /* Damage */
-     , (47481,  45,         64) /* DamageType - Electric */
-     , (47481,  47,          6) /* AttackType - Thrust, Slash */
-     , (47481,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (47481,  49,         21) /* WeaponTime */
      , (47481,  51,          1) /* CombatUse - Melee */
      , (47481,  65,          1) /* Placement - RightHandCombat */
      , (47481,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47481, 105,          8) /* ItemWorkmanship */
-     , (47481, 106,        318) /* ItemSpellcraft */
-     , (47481, 107,       1743) /* ItemCurMana */
-     , (47481, 108,       1743) /* ItemMaxMana */
-     , (47481, 109,        149) /* ItemDifficulty */
-     , (47481, 110,          0) /* ItemAllegianceRankLimit */
-     , (47481, 115,        338) /* ItemSkillLevelLimit */
-     , (47481, 131,         73) /* MaterialType - Ebony */
-     , (47481, 151,          2) /* HookType - Wall */
-     , (47481, 158,          2) /* WieldRequirements - RawSkill */
-     , (47481, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (47481, 160,        400) /* WieldDifficulty */
-     , (47481, 172,          5) /* AppraisalLongDescDecoration */
-     , (47481, 176,         44) /* AppraisalItemSkill */
-     , (47481, 177,          4) /* GemCount */
-     , (47481, 178,         38) /* GemType */
-     , (47481, 353,          7) /* WeaponType - Staff */
-     , (47481, 8030,          0);
+     , (47481, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47481,   1, False) /* Stuck */
@@ -46,18 +24,8 @@ VALUES (47481,   1, False) /* Stuck */
      , (47481,  19, True ) /* Attackable */
      , (47481,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47481,   5, -0.0555555555555556) /* ManaRate */
-     , (47481,  21,       0) /* WeaponLength */
-     , (47481,  22,    0.45) /* DamageVariance */
-     , (47481,  26,       0) /* MaximumVelocity */
-     , (47481,  29,    1.14) /* WeaponDefense */
-     , (47481,  62,    1.06) /* WeaponOffense */
-     , (47481,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47481,   1, 'Flaming Mace') /* Name */
-     , (47481,  16, 'Lightning Stick of Quickness') /* LongDesc */;
+VALUES (47481,   1, 'Flaming Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47481,   1,   33555756) /* Setup */
@@ -78,10 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47481,   3, 3685897288) /* Wielder */
      , (47481, 8000, 3685897304) /* PCAPRecordedObjectIID */
      , (47481, 8008, 3685897288) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47481,  2081,      2) 
-     , (47481,  2096,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47481, 67111920, 0, 0);

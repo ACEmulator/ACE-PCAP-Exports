@@ -6,14 +6,11 @@ VALUES (29351, 'banderlingexplorer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29351,   1,         16) /* ItemType - Creature */
      , (29351,   2,          2) /* CreatureType - Banderling */
-     , (29351,   5,         50) /* EncumbranceVal */
      , (29351,   6,        255) /* ItemsCapacity */
      , (29351,   7,        255) /* ContainersCapacity */
      , (29351,  16,          1) /* ItemUseable - No */
-     , (29351,  19,       7500) /* Value */
      , (29351,  25,        100) /* Level */
      , (29351,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (29351, 107,          0) /* ItemCurMana */
      , (29351, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (29351, 307,          7) /* DamageRating */
      , (29351, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,13 +23,10 @@ VALUES (29351,   1, True ) /* Stuck */
      , (29351,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29351,  39, 1.29999995231628) /* DefaultScale */
-     , (29351,  87,       3) /* ItemEfficiency */
-     , (29351, 137,    0.25) /* ManaStoneDestroyChance */;
+VALUES (29351,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29351,   1, 'Banderling Explorer') /* Name */
-     , (29351,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (29351, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

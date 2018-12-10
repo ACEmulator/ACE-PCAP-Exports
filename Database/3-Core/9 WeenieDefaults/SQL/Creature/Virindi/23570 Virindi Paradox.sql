@@ -6,22 +6,12 @@ VALUES (23570, 'virindiparadox', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23570,   1,         16) /* ItemType - Creature */
      , (23570,   2,         19) /* CreatureType - Virindi */
-     , (23570,   5,        298) /* EncumbranceVal */
      , (23570,   6,        255) /* ItemsCapacity */
      , (23570,   7,        255) /* ContainersCapacity */
      , (23570,  16,          1) /* ItemUseable - No */
-     , (23570,  19,      18510) /* Value */
      , (23570,  25,        220) /* Level */
-     , (23570,  28,        315) /* ArmorLevel */
      , (23570,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23570, 105,          9) /* ItemWorkmanship */
-     , (23570, 131,         63) /* MaterialType - Silver */
      , (23570, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23570, 158,          7) /* WieldRequirements - Level */
-     , (23570, 159,          1) /* WieldSkilltype - Axe */
-     , (23570, 160,        180) /* WieldDifficulty */
-     , (23570, 172,          1) /* AppraisalLongDescDecoration */
-     , (23570, 265,         16) /* EquipmentSetId - Defenders */
      , (23570, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,25 +19,15 @@ VALUES (23570,   1, True ) /* Stuck */
      , (23570,  12, True ) /* ReportCollisions */
      , (23570,  13, False) /* Ethereal */
      , (23570,  14, True ) /* GravityStatus */
-     , (23570,  19, True ) /* Attackable */
-     , (23570, 100, True ) /* Dyable */;
+     , (23570,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23570,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (23570,  14,       1) /* ArmorModVsPierce */
-     , (23570,  15,       1) /* ArmorModVsBludgeon */
-     , (23570,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (23570,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (23570,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (23570,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (23570, 165,       1) /* ArmorModVsNether */
-     , (23570, 8010,       0) /* PCAPRecordedVelocityX */
+VALUES (23570, 8010,       0) /* PCAPRecordedVelocityX */
      , (23570, 8011,       0) /* PCAPRecordedVelocityY */
      , (23570, 8012, -0.189574435353279) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23570,   1, 'Virindi Paradox') /* Name */
-     , (23570,  16, 'Nariyid Boots') /* LongDesc */
      , (23570, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

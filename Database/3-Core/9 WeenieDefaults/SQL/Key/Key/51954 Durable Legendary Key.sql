@@ -30,9 +30,6 @@ VALUES (51954,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51954,   1, 'Durable Legendary Key') /* Name */
-     , (51954,   7, 'key to mp (dropped by eps)
-') /* Inscription */
-     , (51954,   8, 'Bong Boy Reborn') /* ScribeName */
      , (51954,  14, 'Use this key to open a Legendary Chest.') /* Use */
      , (51954,  16, 'This key has seen better days.') /* LongDesc */;
 

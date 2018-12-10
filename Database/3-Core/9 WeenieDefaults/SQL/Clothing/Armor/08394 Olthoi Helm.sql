@@ -36,8 +36,6 @@ VALUES (8394,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8394,   1, 'Olthoi Helm') /* Name */
-     , (8394,   7, 'Tusker Guard crushes you for 117 points of bludgeoning damage!') /* Inscription */
-     , (8394,   8, 'Killerwolf') /* ScribeName */
      , (8394,  15, 'Helm crafted from the carapace of an Olthoi. This item can be dyed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

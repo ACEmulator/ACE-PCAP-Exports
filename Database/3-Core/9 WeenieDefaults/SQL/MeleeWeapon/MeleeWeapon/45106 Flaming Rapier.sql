@@ -5,13 +5,11 @@ VALUES (45106, 'ace45106-flamingrapier', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45106,   1,          1) /* ItemType - MeleeWeapon */
-     , (45106,   2,         32) /* CreatureType - Shreth */
      , (45106,   5,        406) /* EncumbranceVal */
      , (45106,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45106,  16,          1) /* ItemUseable - No */
      , (45106,  18,         33) /* UiEffects - Magical, Fire */
      , (45106,  19,       3461) /* Value */
-     , (45106,  25,          8) /* Level */
      , (45106,  44,          5) /* Damage */
      , (45106,  45,         16) /* DamageType - Fire */
      , (45106,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
@@ -29,15 +27,8 @@ VALUES (45106,   1,          1) /* ItemType - MeleeWeapon */
      , (45106, 115,        129) /* ItemSkillLevelLimit */
      , (45106, 131,         59) /* MaterialType - Copper */
      , (45106, 151,          2) /* HookType - Wall */
-     , (45106, 158,          2) /* WieldRequirements - RawSkill */
-     , (45106, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (45106, 160,        430) /* WieldDifficulty */
-     , (45106, 171,         10) /* NumTimesTinkered */
      , (45106, 172,          1) /* AppraisalLongDescDecoration */
      , (45106, 176,         46) /* AppraisalItemSkill */
-     , (45106, 177,          5) /* GemCount */
-     , (45106, 178,         39) /* GemType */
-     , (45106, 179,        512) /* ImbuedEffect - FireRending */
      , (45106, 353,          2) /* WeaponType - Sword */
      , (45106, 8030,          0);
 
@@ -47,8 +38,7 @@ VALUES (45106,   1, False) /* Stuck */
      , (45106,  13, True ) /* Ethereal */
      , (45106,  14, True ) /* GravityStatus */
      , (45106,  19, True ) /* Attackable */
-     , (45106,  22, True ) /* Inscribable */
-     , (45106,  91, True ) /* Retained */;
+     , (45106,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45106,   5, -0.025000000372529) /* ManaRate */
@@ -60,16 +50,11 @@ VALUES (45106,   5, -0.025000000372529) /* ManaRate */
      , (45106,  62, 1.00999999046326) /* WeaponOffense */
      , (45106,  63,       1) /* DamageMod */
      , (45106, 149,    1.01) /* WeaponMissileDefense */
-     , (45106, 150,    1.01) /* WeaponMagicDefense */
      , (45106, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45106,   1, 'Flaming Rapier') /* Name */
-     , (45106,   7, '5 iron 4 granite') /* Inscription */
-     , (45106,   8, 'Aikido') /* ScribeName */
-     , (45106,  16, 'Flaming Rapier of Blood Drinker') /* LongDesc */
-     , (45106,  39, 'Imhotep Amun-Ra') /* TinkerName */
-     , (45106,  40, 'Trader Dagger') /* ImbuerName */;
+     , (45106,  16, 'Flaming Rapier of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45106,   1,   33561418) /* Setup */
@@ -85,48 +70,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45106,   2, 3681700271) /* Container */
      , (45106, 8000, 3681700364) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45106,   1,    15, 0, 0, 15) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45106,  1353,      2) 
-     , (45106,  1402,      2) 
-     , (45106,  1589,      2) 
-     , (45106,  1591,      2) 
-     , (45106,  1605,      2) 
-     , (45106,  1612,      2) 
-     , (45106,  1613,      2) 
-     , (45106,  1614,      2) 
-     , (45106,  1615,      2) 
-     , (45106,  1616,      2) 
-     , (45106,  1626,      2) 
-     , (45106,  1627,      2) 
-     , (45106,  2059,      2) 
-     , (45106,  2081,      2) 
-     , (45106,  2087,      2) 
-     , (45106,  2096,      2) 
-     , (45106,  2101,      2) 
-     , (45106,  2502,      2) 
-     , (45106,  2544,      2) 
-     , (45106,  2549,      2) 
-     , (45106,  2559,      2) 
-     , (45106,  2573,      2) 
-     , (45106,  2574,      2) 
-     , (45106,  2576,      2) 
-     , (45106,  2580,      2) 
-     , (45106,  2588,      2) 
-     , (45106,  2596,      2) 
-     , (45106,  2603,      2) 
-     , (45106,  4297,      2) 
-     , (45106,  4395,      2) 
-     , (45106,  4405,      2) 
-     , (45106,  4417,      2) 
-     , (45106,  4661,      2) 
-     , (45106,  4663,      2) 
-     , (45106,  4684,      2) 
-     , (45106,  4695,      2) 
-     , (45106,  5786,      2) 
-     , (45106,  5885,      2) ;
+VALUES (45106,  1589,      2) 
+     , (45106,  1612,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45106, 67111926, 0, 0);

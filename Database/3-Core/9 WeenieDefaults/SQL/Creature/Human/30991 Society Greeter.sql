@@ -6,11 +6,9 @@ VALUES (30991, 'academygreeter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30991,   1,         16) /* ItemType - Creature */
      , (30991,   2,         31) /* CreatureType - Human */
-     , (30991,   5,       7906) /* EncumbranceVal */
      , (30991,   6,        255) /* ItemsCapacity */
      , (30991,   7,        255) /* ContainersCapacity */
      , (30991,  16,         32) /* ItemUseable - Remote */
-     , (30991,  19,          0) /* Value */
      , (30991,  25,         15) /* Level */
      , (30991,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (30991,  95,          8) /* RadarBlipColor - Yellow */
@@ -22,7 +20,6 @@ VALUES (30991,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30991,   1, True ) /* Stuck */
-     , (30991,   2, False) /* Open */
      , (30991,  11, True ) /* IgnoreCollisions */
      , (30991,  12, True ) /* ReportCollisions */
      , (30991,  13, False) /* Ethereal */
@@ -37,7 +34,6 @@ VALUES (30991,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30991,   1, 'Society Greeter') /* Name */
      , (30991,   5, 'Exploration Society Agent') /* Template */
-     , (30991,  16, 'Killed by Mr Fz.') /* LongDesc */
      , (30991, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

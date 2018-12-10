@@ -19,8 +19,6 @@ VALUES (47476,   1,          1) /* ItemType - MeleeWeapon */
      , (47476,  49,         40) /* WeaponTime */
      , (47476,  51,          1) /* CombatUse - Melee */
      , (47476,  65,          1) /* Placement - RightHandCombat */
-     , (47476,  89,          6) /* BoosterEnum - Mana */
-     , (47476,  90,        100) /* BoostValue */
      , (47476,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47476, 151,          2) /* HookType - Wall */
      , (47476, 353,          4) /* WeaponType - Mace */
@@ -43,8 +41,7 @@ VALUES (47476,  21,       0) /* WeaponLength */
      , (47476,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47476,   1, 'Flaming Mace') /* Name */
-     , (47476,  14, 'Use this item to drink it.') /* Use */;
+VALUES (47476,   1, 'Flaming Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47476,   1,   33555756) /* Setup */

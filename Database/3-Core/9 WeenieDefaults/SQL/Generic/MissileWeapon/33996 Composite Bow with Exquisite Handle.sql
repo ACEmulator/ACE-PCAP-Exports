@@ -37,8 +37,7 @@ VALUES (33996,   1, False) /* Stuck */
      , (33996,  14, True ) /* GravityStatus */
      , (33996,  19, True ) /* Attackable */
      , (33996,  22, True ) /* Inscribable */
-     , (33996,  85, True ) /* AppraisalHasAllowedWielder */
-     , (33996,  91, True ) /* Retained */;
+     , (33996,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33996,   5, -0.0500000007450581) /* ManaRate */

@@ -5,17 +5,13 @@ VALUES (37350, 'ace37350-glyphofcoordination', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37350,   1,        128) /* ItemType - Misc */
-     , (37350,   2,         22) /* CreatureType - Shadow */
      , (37350,   5,         75) /* EncumbranceVal */
      , (37350,  11,       1000) /* MaxStackSize */
      , (37350,  12,          3) /* StackSize */
      , (37350,  16,          1) /* ItemUseable - No */
      , (37350,  19,      90000) /* Value */
-     , (37350,  25,        240) /* Level */
      , (37350,  65,        101) /* Placement - Resting */
-     , (37350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37350, 113,          2) /* Gender - Female */
-     , (37350, 188,          1) /* HeritageGroup - Aluvian */;
+     , (37350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37350,   1, False) /* Stuck */
@@ -33,12 +29,6 @@ VALUES (37350,   1,   33554809) /* Setup */
      , (37350,   3,  536870932) /* SoundTable */
      , (37350,   6,   67111919) /* PaletteBase */
      , (37350,   8,  100690191) /* Icon */
-     , (37350,   9,   83890283) /* EyesTexture */
-     , (37350,  10,   83890289) /* NoseTexture */
-     , (37350,  11,   83890339) /* MouthTexture */
-     , (37350,  15,   67117077) /* HairPalette */
-     , (37350,  16,   67110064) /* EyesPalette */
-     , (37350,  17,   67109560) /* SkinPalette */
      , (37350,  22,  872415275) /* PhysicsEffectTable */
      , (37350,  50,  100686641) /* IconOverlay */
      , (37350, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
@@ -48,9 +38,6 @@ VALUES (37350,   1,   33554809) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37350,   2, 1343249241) /* Container */
      , (37350, 8000, 3179507493) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37350,   1,  2380, 0, 0, 2380) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37350, 67111924, 0, 0);

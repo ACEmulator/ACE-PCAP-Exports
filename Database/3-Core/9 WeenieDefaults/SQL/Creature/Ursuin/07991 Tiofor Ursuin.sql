@@ -6,30 +6,12 @@ VALUES (7991, 'ursuintiofor', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7991,   1,         16) /* ItemType - Creature */
      , (7991,   2,         46) /* CreatureType - Ursuin */
-     , (7991,   5,        344) /* EncumbranceVal */
      , (7991,   6,        255) /* ItemsCapacity */
      , (7991,   7,        255) /* ContainersCapacity */
      , (7991,  16,          1) /* ItemUseable - No */
-     , (7991,  19,       6132) /* Value */
      , (7991,  25,         20) /* Level */
-     , (7991,  28,        162) /* ArmorLevel */
-     , (7991,  91,         50) /* MaxStructure */
-     , (7991,  92,         50) /* Structure */
      , (7991,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7991, 105,          8) /* ItemWorkmanship */
-     , (7991, 106,        216) /* ItemSpellcraft */
-     , (7991, 107,        801) /* ItemCurMana */
-     , (7991, 108,        801) /* ItemMaxMana */
-     , (7991, 109,         51) /* ItemDifficulty */
-     , (7991, 110,          0) /* ItemAllegianceRankLimit */
-     , (7991, 115,        236) /* ItemSkillLevelLimit */
-     , (7991, 131,         58) /* MaterialType - Bronze */
      , (7991, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7991, 172,          5) /* AppraisalLongDescDecoration */
-     , (7991, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (7991, 176,          6) /* AppraisalItemSkill */
-     , (7991, 177,          1) /* GemCount */
-     , (7991, 178,         31) /* GemType */
      , (7991, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,25 +19,13 @@ VALUES (7991,   1, True ) /* Stuck */
      , (7991,  12, True ) /* ReportCollisions */
      , (7991,  13, False) /* Ethereal */
      , (7991,  14, True ) /* GravityStatus */
-     , (7991,  19, True ) /* Attackable */
-     , (7991, 100, True ) /* Dyable */;
+     , (7991,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7991,   5, -0.0416666666666667) /* ManaRate */
-     , (7991,  13,       1) /* ArmorModVsSlash */
-     , (7991,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (7991,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (7991,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (7991,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (7991,  18,       1) /* ArmorModVsAcid */
-     , (7991,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (7991,  39, 1.10000002384186) /* DefaultScale */
-     , (7991, 165,       1) /* ArmorModVsNether */;
+VALUES (7991,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7991,   1, 'Tiofor Ursuin') /* Name */
-     , (7991,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (7991,  16, 'Buckler') /* LongDesc */
      , (7991, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -88,13 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7991,   1,   115, 0, 0, 115) /* MaxHealth */
      , (7991,   3,   330, 0, 0, 330) /* MaxStamina */
      , (7991,   5,    60, 0, 0, 60) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7991,  1485,      2) 
-     , (7991,  1486,      2) 
-     , (7991,  2092,      2) 
-     , (7991,  2094,      2) 
-     , (7991,  2601,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7991, 67112946, 0, 0);

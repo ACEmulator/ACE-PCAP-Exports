@@ -12,7 +12,6 @@ VALUES (7987,   1,         16) /* ItemType - Creature */
      , (7987,  25,         60) /* Level */
      , (7987,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7987, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7987, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (7987, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

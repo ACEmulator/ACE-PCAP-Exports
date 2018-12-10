@@ -6,11 +6,9 @@ VALUES (20188, 'acidelementalmox', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20188,   1,         16) /* ItemType - Creature */
      , (20188,   2,         60) /* CreatureType - AcidElemental */
-     , (20188,   5,       6735) /* EncumbranceVal */
      , (20188,   6,        255) /* ItemsCapacity */
      , (20188,   7,        255) /* ContainersCapacity */
      , (20188,  16,          1) /* ItemUseable - No */
-     , (20188,  19,          0) /* Value */
      , (20188,  25,         50) /* Level */
      , (20188,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (20188, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (20188,  39, 0.600000023841858) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20188,   1, 'Mox') /* Name */
-     , (20188,  16, 'Killed by Arkaina.') /* LongDesc */
      , (20188, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

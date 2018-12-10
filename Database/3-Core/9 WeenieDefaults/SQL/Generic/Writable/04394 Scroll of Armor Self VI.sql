@@ -9,8 +9,6 @@ VALUES (4394,   1,       8192) /* ItemType - Writable */
      , (4394,  16,          8) /* ItemUseable - Contained */
      , (4394,  19,       1000) /* Value */
      , (4394,  65,        101) /* Placement - Resting */
-     , (4394,  89,          4) /* BoosterEnum - Stamina */
-     , (4394,  90,         65) /* BoostValue */
      , (4394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4394,   1,   33554826) /* Setup */
      , (4394,   8,  100676928) /* Icon */
      , (4394,  22,  872415275) /* PhysicsEffectTable */
-     , (4394,  28,       1312) /* Spell */
+     , (4394,  28,       1312) /* Spell - ArmorSelf6 */
      , (4394, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (4394, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4394, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

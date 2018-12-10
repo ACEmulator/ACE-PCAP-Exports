@@ -6,27 +6,12 @@ VALUES (5429, 'rabbitdesert', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5429,   1,         16) /* ItemType - Creature */
      , (5429,   2,         25) /* CreatureType - Rabbit */
-     , (5429,   5,         10) /* EncumbranceVal */
      , (5429,   6,        255) /* ItemsCapacity */
      , (5429,   7,        255) /* ContainersCapacity */
      , (5429,  16,          1) /* ItemUseable - No */
-     , (5429,  19,       5000) /* Value */
      , (5429,  25,          4) /* Level */
-     , (5429,  28,        297) /* ArmorLevel */
-     , (5429,  33,          1) /* Bonded - Bonded */
      , (5429,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (5429, 105,          8) /* ItemWorkmanship */
-     , (5429, 106,        297) /* ItemSpellcraft */
-     , (5429, 107,       1121) /* ItemCurMana */
-     , (5429, 108,       1121) /* ItemMaxMana */
-     , (5429, 109,        247) /* ItemDifficulty */
-     , (5429, 110,          0) /* ItemAllegianceRankLimit */
-     , (5429, 115,          0) /* ItemSkillLevelLimit */
-     , (5429, 131,         54) /* MaterialType - GromnieHide */
      , (5429, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (5429, 172,          5) /* AppraisalLongDescDecoration */
-     , (5429, 177,          2) /* GemCount */
-     , (5429, 178,         38) /* GemType */
      , (5429, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,24 +19,13 @@ VALUES (5429,   1, True ) /* Stuck */
      , (5429,  12, True ) /* ReportCollisions */
      , (5429,  13, False) /* Ethereal */
      , (5429,  14, True ) /* GravityStatus */
-     , (5429,  19, True ) /* Attackable */
-     , (5429, 100, True ) /* Dyable */;
+     , (5429,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5429,   5, -0.0555555555555556) /* ManaRate */
-     , (5429,  13,       1) /* ArmorModVsSlash */
-     , (5429,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (5429,  15,       1) /* ArmorModVsBludgeon */
-     , (5429,  16,     0.5) /* ArmorModVsCold */
-     , (5429,  17,     0.5) /* ArmorModVsFire */
-     , (5429,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (5429,  19, 1.16609466075897) /* ArmorModVsElectric */
-     , (5429,  39, 1.39999997615814) /* DefaultScale */
-     , (5429, 165,       1) /* ArmorModVsNether */;
+VALUES (5429,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5429,   1, 'Desert Rabbit') /* Name */
-     , (5429,  16, 'A concentrated copper pea.') /* LongDesc */
      , (5429, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,17 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (5429,   1,     5, 0, 0, 5) /* MaxHealth */
      , (5429,   3,    10, 0, 0, 10) /* MaxStamina */
      , (5429,   5,    10, 0, 0, 10) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5429,  1483,      2) 
-     , (5429,  2094,      2) 
-     , (5429,  2102,      2) 
-     , (5429,  2104,      2) 
-     , (5429,  2108,      2) 
-     , (5429,  2540,      2) 
-     , (5429,  2554,      2) 
-     , (5429,  2620,      2) 
-     , (5429,  5857,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5429, 67111661, 0, 0);

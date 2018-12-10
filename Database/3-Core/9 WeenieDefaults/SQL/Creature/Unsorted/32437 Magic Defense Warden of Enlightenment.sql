@@ -5,15 +5,11 @@ VALUES (32437, 'ace32437-magicdefensewardenofenlightenment', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32437,   1,         16) /* ItemType - Creature */
-     , (32437,   5,          0) /* EncumbranceVal */
      , (32437,   6,        255) /* ItemsCapacity */
      , (32437,   7,        255) /* ContainersCapacity */
      , (32437,  16,         32) /* ItemUseable - Remote */
-     , (32437,  19,          1) /* Value */
-     , (32437,  33,          1) /* Bonded - Bonded */
      , (32437,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32437,  95,          3) /* RadarBlipColor - White */
-     , (32437, 114,          1) /* Attuned - Attuned */
      , (32437, 307,          0) /* DamageRating */
      , (32437, 308,          0) /* DamageResistRating */
      , (32437, 313,          0) /* CritRating */
@@ -48,8 +44,7 @@ VALUES (32437,   1, True ) /* Stuck */
      , (32437,  14, True ) /* GravityStatus */
      , (32437,  19, False) /* Attackable */
      , (32437,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32437,  42, True ) /* AllowEdgeSlide */
-     , (32437,  69, False) /* IsSellable */;
+     , (32437,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32437,  39,     0.5) /* DefaultScale */
@@ -57,7 +52,6 @@ VALUES (32437,  39,     0.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32437,   1, 'Magic Defense Warden of Enlightenment') /* Name */
-     , (32437,  15, 'A small, intact venom sac, removed from one of the more powerful Paradox-touched Olthoi.') /* ShortDesc */
      , (32437, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

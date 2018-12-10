@@ -6,45 +6,26 @@ VALUES (25850, 'carenzimangy', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25850,   1,         16) /* ItemType - Creature */
      , (25850,   2,         55) /* CreatureType - Carenzi */
-     , (25850,   5,         50) /* EncumbranceVal */
      , (25850,   6,        255) /* ItemsCapacity */
      , (25850,   7,        255) /* ContainersCapacity */
      , (25850,  16,          1) /* ItemUseable - No */
-     , (25850,  19,       5000) /* Value */
      , (25850,  25,        115) /* Level */
      , (25850,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25850, 105,          8) /* ItemWorkmanship */
-     , (25850, 106,        300) /* ItemSpellcraft */
-     , (25850, 107,          0) /* ItemCurMana */
-     , (25850, 108,        545) /* ItemMaxMana */
-     , (25850, 109,          0) /* ItemDifficulty */
-     , (25850, 110,          0) /* ItemAllegianceRankLimit */
-     , (25850, 115,          0) /* ItemSkillLevelLimit */
-     , (25850, 117,        350) /* ItemManaCost */
-     , (25850, 131,         60) /* MaterialType - Gold */
      , (25850, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (25850, 172,          5) /* AppraisalLongDescDecoration */
-     , (25850, 177,          4) /* GemCount */
-     , (25850, 178,         47) /* GemType */
      , (25850, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25850,   1, True ) /* Stuck */
-     , (25850,   2, False) /* Open */
      , (25850,  12, True ) /* ReportCollisions */
      , (25850,  13, False) /* Ethereal */
      , (25850,  14, True ) /* GravityStatus */
      , (25850,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25850,  39,       2) /* DefaultScale */
-     , (25850,  87,       2) /* ItemEfficiency */
-     , (25850, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (25850,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25850,   1, 'Mangy Carenzi') /* Name */
-     , (25850,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (25850,  16, 'Puzzle Box') /* LongDesc */
      , (25850, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,6 +57,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (25850,   1,   530, 0, 0, 530) /* MaxHealth */
      , (25850,   3,   660, 0, 0, 660) /* MaxStamina */
      , (25850,   5,   330, 0, 0, 330) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25850,  2187,      2) ;

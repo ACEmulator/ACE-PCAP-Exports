@@ -6,11 +6,9 @@ VALUES (7088, 'banderlingmauler', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7088,   1,         16) /* ItemType - Creature */
      , (7088,   2,          2) /* CreatureType - Banderling */
-     , (7088,   5,         30) /* EncumbranceVal */
      , (7088,   6,        255) /* ItemsCapacity */
      , (7088,   7,        255) /* ContainersCapacity */
      , (7088,  16,          1) /* ItemUseable - No */
-     , (7088,  19,          5) /* Value */
      , (7088,  25,        100) /* Level */
      , (7088,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7088, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,9 +27,6 @@ VALUES (7088,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7088,   1, 'Banderling Mauler') /* Name */
-     , (7088,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (7088,  16, 'Inscribed spell: Person Attunement Other II
-Increases the target''s Assess Person skill by 15 points.') /* LongDesc */
      , (7088, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -64,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7088,   1,   413, 0, 0, 413) /* MaxHealth */
      , (7088,   3,   675, 0, 0, 675) /* MaxStamina */
      , (7088,   5,   300, 0, 0, 300) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7088,   831,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7088, 67114036, 0, 0);

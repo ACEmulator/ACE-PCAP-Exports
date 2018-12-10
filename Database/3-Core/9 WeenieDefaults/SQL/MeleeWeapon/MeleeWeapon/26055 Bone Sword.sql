@@ -19,17 +19,6 @@ VALUES (26055,   1,          1) /* ItemType - MeleeWeapon */
      , (26055,  51,          1) /* CombatUse - Melee */
      , (26055,  65,          1) /* Placement - RightHandCombat */
      , (26055,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (26055, 105,          8) /* ItemWorkmanship */
-     , (26055, 106,        199) /* ItemSpellcraft */
-     , (26055, 107,       1281) /* ItemCurMana */
-     , (26055, 108,       1281) /* ItemMaxMana */
-     , (26055, 109,        217) /* ItemDifficulty */
-     , (26055, 110,          0) /* ItemAllegianceRankLimit */
-     , (26055, 115,          0) /* ItemSkillLevelLimit */
-     , (26055, 131,         63) /* MaterialType - Silver */
-     , (26055, 172,          5) /* AppraisalLongDescDecoration */
-     , (26055, 177,          3) /* GemCount */
-     , (26055, 178,         33) /* GemType */
      , (26055, 353,          2) /* WeaponType - Sword */
      , (26055, 8030,          0);
 
@@ -42,8 +31,7 @@ VALUES (26055,   1, False) /* Stuck */
      , (26055,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26055,   5,   -0.05) /* ManaRate */
-     , (26055,  21,       0) /* WeaponLength */
+VALUES (26055,  21,       0) /* WeaponLength */
      , (26055,  22,    0.25) /* DamageVariance */
      , (26055,  26,       0) /* MaximumVelocity */
      , (26055,  29,       1) /* WeaponDefense */
@@ -51,8 +39,7 @@ VALUES (26055,   5,   -0.05) /* ManaRate */
      , (26055,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26055,   1, 'Bone Sword') /* Name */
-     , (26055,  16, 'A concentrated copper pea.') /* LongDesc */;
+VALUES (26055,   1, 'Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26055,   1,   33558586) /* Setup */
@@ -72,8 +59,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26055,   3, 3692125974) /* Wielder */
      , (26055, 8000, 3692125988) /* PCAPRecordedObjectIID */
      , (26055, 8008, 3692125974) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26055,  1311,      2) 
-     , (26055,  2540,      2) 
-     , (26055,  2542,      2) ;

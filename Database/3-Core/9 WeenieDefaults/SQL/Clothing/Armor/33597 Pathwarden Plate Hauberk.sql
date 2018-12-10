@@ -13,16 +13,12 @@ VALUES (33597,   1,          2) /* ItemType - Armor */
      , (33597,  28,        120) /* ArmorLevel */
      , (33597,  33,          1) /* Bonded - Bonded */
      , (33597,  65,        101) /* Placement - Resting */
-     , (33597,  91,         35) /* MaxStructure */
-     , (33597,  92,         35) /* Structure */
      , (33597,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33597, 106,        100) /* ItemSpellcraft */
      , (33597, 107,       1000) /* ItemCurMana */
      , (33597, 108,       1000) /* ItemMaxMana */
      , (33597, 109,          0) /* ItemDifficulty */
-     , (33597, 114,          1) /* Attuned - Attuned */
-     , (33597, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (33597, 324,          6) /* HeritageSpecificArmor */;
+     , (33597, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33597,   1, False) /* Stuck */
@@ -46,9 +42,7 @@ VALUES (33597,   5, -0.0333333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33597,   1, 'Pathwarden Plate Hauberk') /* Name */
-     , (33597,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (33597,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */
-     , (33597,  52, 'Core Hauberk Plating') /* GearPlatingName */;
+     , (33597,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33597,   1,   33554644) /* Setup */

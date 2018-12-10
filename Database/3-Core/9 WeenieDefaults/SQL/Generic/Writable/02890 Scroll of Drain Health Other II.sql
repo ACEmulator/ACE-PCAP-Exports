@@ -5,11 +5,9 @@ VALUES (2890, 'scrolldrainhealth2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2890,   1,       8192) /* ItemType - Writable */
-     , (2890,   2,         32) /* CreatureType - Shreth */
      , (2890,   5,         30) /* EncumbranceVal */
      , (2890,  16,          8) /* ItemUseable - Contained */
      , (2890,  19,          5) /* Value */
-     , (2890,  25,          8) /* Level */
      , (2890,  65,        101) /* Placement - Resting */
      , (2890,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2890,   1,   33554826) /* Setup */
      , (2890,   8,  100676934) /* Icon */
      , (2890,  22,  872415275) /* PhysicsEffectTable */
-     , (2890,  28,       1238) /* Spell */
+     , (2890,  28,       1238) /* Spell - DrainHealth2 */
      , (2890, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2890, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2890, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,19 +40,6 @@ VALUES (2890,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2890,   2, 2874457485) /* Container */
      , (2890, 8000, 2874448510) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (2890,   1,  45, 0, 0) /* Strength */
-     , (2890,   2,  40, 0, 0) /* Endurance */
-     , (2890,   3,  50, 0, 0) /* Quickness */
-     , (2890,   4,  45, 0, 0) /* Coordination */
-     , (2890,   5,  30, 0, 0) /* Focus */
-     , (2890,   6,  30, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2890,   1,    25, 0, 0, 25) /* MaxHealth */
-     , (2890,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (2890,   5,    30, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2890,  1238,      2) ;

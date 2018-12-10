@@ -9,12 +9,7 @@ VALUES (3367,   1,       8192) /* ItemType - Writable */
      , (3367,  16,          8) /* ItemUseable - Contained */
      , (3367,  19,       1000) /* Value */
      , (3367,  65,        101) /* Placement - Resting */
-     , (3367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3367, 105,          5) /* ItemWorkmanship */
-     , (3367, 131,         63) /* MaterialType - Silver */
-     , (3367, 172,          5) /* AppraisalLongDescDecoration */
-     , (3367, 177,          1) /* GemCount */
-     , (3367, 178,         23) /* GemType */;
+     , (3367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3367,   1, False) /* Stuck */
@@ -25,10 +20,7 @@ VALUES (3367,   1, False) /* Stuck */
      , (3367,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3367,  29,    1.09) /* WeaponDefense */
-     , (3367,  39,     1.5) /* DefaultScale */
-     , (3367, 144,    0.04) /* ManaConversionMod */
-     , (3367, 149,    1.01) /* WeaponMissileDefense */;
+VALUES (3367,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3367,   1, 'Scroll of Life Magic Ineptitude VI') /* Name */
@@ -40,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3367,   1,   33554826) /* Setup */
      , (3367,   8,  100676462) /* Icon */
      , (3367,  22,  872415275) /* PhysicsEffectTable */
-     , (3367,  28,        628) /* Spell */
+     , (3367,  28,        628) /* Spell - LifeMagicIneptitudeOther6 */
      , (3367, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3367, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3367, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

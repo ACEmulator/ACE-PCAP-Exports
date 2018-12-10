@@ -36,8 +36,7 @@ VALUES (11299,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11299,   5, -0.0500000007450581) /* ManaRate */
      , (11299,  29,       1) /* WeaponDefense */
-     , (11299, 144, 0.0700000002980232) /* ManaConversionMod */
-     , (11299, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (11299, 144, 0.0700000002980232) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11299,   1, 'Stave of Palenqual') /* Name */
@@ -50,7 +49,7 @@ VALUES (11299,   1,   33557232) /* Setup */
      , (11299,   6,   67111919) /* PaletteBase */
      , (11299,   8,  100671868) /* Icon */
      , (11299,  22,  872415275) /* PhysicsEffectTable */
-     , (11299,  28,       1836) /* Spell */
+     , (11299,  28,       1836) /* Spell - FrostStrike */
      , (11299, 8001,  275480720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (11299, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11299, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

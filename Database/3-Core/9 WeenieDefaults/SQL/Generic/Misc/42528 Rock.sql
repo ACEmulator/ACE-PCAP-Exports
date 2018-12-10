@@ -25,7 +25,6 @@ VALUES (42528,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42528,   1, 'Rock') /* Name */
-     , (42528,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (42528,  16, 'A rock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -41,6 +40,3 @@ VALUES (42528, 8040, 629211191, 158.223, 159.9338, 220.8429, 0.5451726, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42528, 8000, 3692285978) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42528,  1769,      2) ;

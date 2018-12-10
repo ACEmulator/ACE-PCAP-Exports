@@ -50,8 +50,6 @@ VALUES (33213,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33213,   1, 'Royal Runed Knuckles') /* Name */
-     , (33213,   7, 'You''ve made 36,092,973 XP in 00:00:27 for 4,801,121,234 XP/hour. 67,029,314 XP to reach level 186, ETA 00:00:50.') /* Inscription */
-     , (33213,   8, 'Sho Slave') /* ScribeName */
      , (33213,  15, 'A set of fighting knuckles crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

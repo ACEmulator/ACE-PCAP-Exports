@@ -5,7 +5,6 @@ VALUES (48310, 'ace48310-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48310,   1,        256) /* ItemType - MissileWeapon */
-     , (48310,   2,         19) /* CreatureType - Virindi */
      , (48310,   5,        465) /* EncumbranceVal */
      , (48310,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48310,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (48310,   1,        256) /* ItemType - MissileWeapon */
      , (48310,  16,          1) /* ItemUseable - No */
      , (48310,  18,        128) /* UiEffects - Frost */
      , (48310,  19,         93) /* Value */
-     , (48310,  25,        115) /* Level */
      , (48310,  33,         -2) /* Bonded - Destroy */
      , (48310,  44,         33) /* Damage */
      , (48310,  45,          8) /* DamageType - Cold */
@@ -25,20 +23,10 @@ VALUES (48310,   1,        256) /* ItemType - MissileWeapon */
      , (48310,  65,          1) /* Placement - RightHandCombat */
      , (48310,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48310, 151,          2) /* HookType - Wall */
-     , (48310, 179,          0) /* ImbuedEffect - Undef */
-     , (48310, 303,          0) /* ImbuedEffect2 - Undef */
-     , (48310, 304,          0) /* ImbuedEffect3 - Undef */
-     , (48310, 305,          0) /* ImbuedEffect4 - Undef */
-     , (48310, 306,          0) /* ImbuedEffect5 - Undef */
-     , (48310, 307,          5) /* DamageRating */
-     , (48310, 313,          0) /* CritRating */
-     , (48310, 314,          0) /* CritDamageRating */
-     , (48310, 386,          0) /* Overpower */
      , (48310, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48310,   1, False) /* Stuck */
-     , (48310,   2, True ) /* Open */
      , (48310,  11, True ) /* IgnoreCollisions */
      , (48310,  13, True ) /* Ethereal */
      , (48310,  14, True ) /* GravityStatus */
@@ -54,14 +42,10 @@ VALUES (48310,  21,       0) /* WeaponLength */
      , (48310,  62,       1) /* WeaponOffense */
      , (48310,  63,       1) /* DamageMod */
      , (48310,  78,       1) /* Friction */
-     , (48310,  79,       0) /* Elasticity */
-     , (48310, 149,       0) /* WeaponMissileDefense */
-     , (48310, 150,       0) /* WeaponMagicDefense */;
+     , (48310,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48310,   1, 'Arrow') /* Name */
-     , (48310,  14, 'Use this item to close it.') /* Use */
-     , (48310,  16, 'Killed by Owain.') /* LongDesc */;
+VALUES (48310,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48310,   1,   33555689) /* Setup */
@@ -82,9 +66,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48310,   3, 3685899143) /* Wielder */
      , (48310, 8000, 3685899154) /* PCAPRecordedObjectIID */
      , (48310, 8008, 3685899143) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48310,   1,   500, 0, 0, 500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48310, 67111927, 0, 0);

@@ -5,11 +5,9 @@ VALUES (34457, 'ace34457-thunderchickentoken', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34457,   1,        128) /* ItemType - Misc */
-     , (34457,   2,         28) /* CreatureType - Monouga */
      , (34457,   5,         10) /* EncumbranceVal */
      , (34457,  16,          1) /* ItemUseable - No */
      , (34457,  19,          0) /* Value */
-     , (34457,  25,        100) /* Level */
      , (34457,  33,          1) /* Bonded - Bonded */
      , (34457,  65,        101) /* Placement - Resting */
      , (34457,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -39,6 +37,3 @@ VALUES (34457,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34457,   2, 2656737895) /* Container */
      , (34457, 8000, 3317516032) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34457,   1,   475, 0, 0, 475) /* MaxHealth */;

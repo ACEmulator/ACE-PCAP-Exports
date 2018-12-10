@@ -10,22 +10,9 @@ VALUES (22796,   1,          1) /* ItemType - MeleeWeapon */
      , (22796,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (22796,  16,          1) /* ItemUseable - No */
      , (22796,  19,        160) /* Value */
-     , (22796,  33,          0) /* Bonded - Normal */
      , (22796,  51,          1) /* CombatUse - Melee */
      , (22796,  65,          1) /* Placement - RightHandCombat */
-     , (22796,  91,         50) /* MaxStructure */
-     , (22796,  92,         50) /* Structure */
-     , (22796,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22796, 105,          7) /* ItemWorkmanship */
-     , (22796, 114,          0) /* Attuned - Normal */
-     , (22796, 280,        213) /* SharedCooldown */
-     , (22796, 366,         54) /* UseRequiresSkill */
-     , (22796, 367,        310) /* UseRequiresSkillLevel */
-     , (22796, 369,         40) /* UseRequiresLevel */
-     , (22796, 370,         12) /* GearDamage */
-     , (22796, 371,         17) /* GearDamageResist */
-     , (22796, 373,         18) /* GearCritResist */
-     , (22796, 375,         15) /* GearCritDamageResist */;
+     , (22796,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22796,   1, False) /* Stuck */
@@ -33,17 +20,13 @@ VALUES (22796,   1, False) /* Stuck */
      , (22796,  13, True ) /* Ethereal */
      , (22796,  14, True ) /* GravityStatus */
      , (22796,  19, True ) /* Attackable */
-     , (22796,  22, True ) /* Inscribable */
-     , (22796,  69, True ) /* IsSellable */;
+     , (22796,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22796,  39, 1.10000002384186) /* DefaultScale */
-     , (22796, 167,      45) /* CooldownDuration */;
+VALUES (22796,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22796,   1, 'Bandit Short Sword') /* Name */
-     , (22796,  14, 'Use this essence to summon or dismiss your Frost Spectre.') /* Use */
-     , (22796,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (22796,   1, 'Bandit Short Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22796,   1,   33554760) /* Setup */

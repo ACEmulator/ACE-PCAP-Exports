@@ -30,7 +30,6 @@ VALUES (25371,   1, False) /* Stuck */
      , (25371,  14, True ) /* GravityStatus */
      , (25371,  19, True ) /* Attackable */
      , (25371,  22, True ) /* Inscribable */
-     , (25371,  85, True ) /* AppraisalHasAllowedWielder */
      , (25371,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,10 +37,7 @@ VALUES (25371,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25371,   1, 'Bracelet of Dark Essence') /* Name */
-     , (25371,   7, 'Mine') /* Inscription */
-     , (25371,   8, 'Aralcarin') /* ScribeName */
-     , (25371,  16, 'A bracelet, forged in pyreal, stained dark with the taint of corruption. Several diamonds and oddly shaped crystals adorn the thick band of this bracelet. A palpable taint of corruption emanates from within a large white opal that is set into the metal.') /* LongDesc */
-     , (25371,  25, 'Chatlin') /* CraftsmanName */;
+     , (25371,  16, 'A bracelet, forged in pyreal, stained dark with the taint of corruption. Several diamonds and oddly shaped crystals adorn the thick band of this bracelet. A palpable taint of corruption emanates from within a large white opal that is set into the metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25371,   1,   33554683) /* Setup */

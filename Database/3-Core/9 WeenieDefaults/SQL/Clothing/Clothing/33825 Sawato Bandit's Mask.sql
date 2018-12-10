@@ -14,20 +14,10 @@ VALUES (33825,   1,          4) /* ItemType - Clothing */
      , (33825,  33,          1) /* Bonded - Bonded */
      , (33825,  65,        101) /* Placement - Resting */
      , (33825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33825, 105,          5) /* ItemWorkmanship */
      , (33825, 106,        300) /* ItemSpellcraft */
      , (33825, 107,        300) /* ItemCurMana */
      , (33825, 108,       5000) /* ItemMaxMana */
-     , (33825, 109,        292) /* ItemDifficulty */
-     , (33825, 110,          0) /* ItemAllegianceRankLimit */
-     , (33825, 114,          1) /* Attuned - Attuned */
-     , (33825, 115,          0) /* ItemSkillLevelLimit */
-     , (33825, 131,         54) /* MaterialType - GromnieHide */
-     , (33825, 158,          7) /* WieldRequirements - Level */
-     , (33825, 159,          1) /* WieldSkilltype - Axe */
-     , (33825, 160,        150) /* WieldDifficulty */
-     , (33825, 172,          1) /* AppraisalLongDescDecoration */
-     , (33825, 265,         25) /* EquipmentSetId - Interlocking */;
+     , (33825, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33825,   1, False) /* Stuck */
@@ -37,8 +27,7 @@ VALUES (33825,   1, False) /* Stuck */
      , (33825,  19, True ) /* Attackable */
      , (33825,  22, True ) /* Inscribable */
      , (33825,  69, False) /* IsSellable */
-     , (33825,  99, True ) /* Ivoryable */
-     , (33825, 100, True ) /* Dyable */;
+     , (33825,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33825,   5,  -0.033) /* ManaRate */
@@ -53,8 +42,7 @@ VALUES (33825,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33825,   1, 'Sawato Bandit''s Mask') /* Name */
-     , (33825,  15, 'A mask that may assist you in infiltrating the Sawato Bandit''s hideout.') /* ShortDesc */
-     , (33825,  16, 'Studded Leather Pauldrons') /* LongDesc */;
+     , (33825,  15, 'A mask that may assist you in infiltrating the Sawato Bandit''s hideout.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33825,   1,   33554643) /* Setup */
@@ -71,10 +59,8 @@ VALUES (33825,   2, 2224240266) /* Container */
      , (33825, 8000, 2224240299) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33825,  2108,      2) 
-     , (33825,  2226,      2) 
-     , (33825,  2545,      2) 
-     , (33825,  2612,      2) ;
+VALUES (33825,  2226,      2) 
+     , (33825,  2545,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33825, 67114655, 240, 16);

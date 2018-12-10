@@ -5,14 +5,12 @@ VALUES (47957, 'ace47957-lightningsilifi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47957,   1,          1) /* ItemType - MeleeWeapon */
-     , (47957,   2,         78) /* CreatureType - Fiun */
      , (47957,   5,        800) /* EncumbranceVal */
      , (47957,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47957,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47957,  16,          1) /* ItemUseable - No */
      , (47957,  18,         64) /* UiEffects - Lightning */
      , (47957,  19,       1000) /* Value */
-     , (47957,  25,        115) /* Level */
      , (47957,  33,         -2) /* Bonded - Destroy */
      , (47957,  44,         65) /* Damage */
      , (47957,  45,         64) /* DamageType - Electric */
@@ -64,6 +62,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47957,   3, 3700589377) /* Wielder */
      , (47957, 8000, 3700589389) /* PCAPRecordedObjectIID */
      , (47957, 8008, 3700589377) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47957,   1,   460, 0, 0, 460) /* MaxHealth */;

@@ -9,17 +9,7 @@ VALUES (3381,   1,       8192) /* ItemType - Writable */
      , (3381,  16,          8) /* ItemUseable - Contained */
      , (3381,  19,        200) /* Value */
      , (3381,  65,        101) /* Placement - Resting */
-     , (3381,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3381, 105,          5) /* ItemWorkmanship */
-     , (3381, 106,        200) /* ItemSpellcraft */
-     , (3381, 107,        434) /* ItemCurMana */
-     , (3381, 108,        434) /* ItemMaxMana */
-     , (3381, 109,          0) /* ItemDifficulty */
-     , (3381, 110,          0) /* ItemAllegianceRankLimit */
-     , (3381, 115,          0) /* ItemSkillLevelLimit */
-     , (3381, 117,        300) /* ItemManaCost */
-     , (3381, 131,         32) /* MaterialType - Onyx */
-     , (3381, 172,          1) /* AppraisalLongDescDecoration */;
+     , (3381,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3381,   1, False) /* Stuck */
@@ -42,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3381,   1,   33554826) /* Setup */
      , (3381,   8,  100676463) /* Icon */
      , (3381,  22,  872415275) /* PhysicsEffectTable */
-     , (3381,  28,        944) /* Spell */
+     , (3381,  28,        944) /* Spell - LockpickIneptitudeOther5 */
      , (3381, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3381, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3381, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -52,5 +42,4 @@ VALUES (3381,   2, 2780108357) /* Container */
      , (3381, 8000, 2780108358) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3381,   944,      2) 
-     , (3381,  1070,      2) ;
+VALUES (3381,   944,      2) ;

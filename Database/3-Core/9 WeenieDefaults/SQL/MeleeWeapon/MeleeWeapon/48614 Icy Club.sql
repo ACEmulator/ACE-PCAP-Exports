@@ -12,7 +12,6 @@ VALUES (48614,   1,          1) /* ItemType - MeleeWeapon */
      , (48614,  19,        350) /* Value */
      , (48614,  51,          1) /* CombatUse - Melee */
      , (48614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48614, 107,          0) /* ItemCurMana */
      , (48614, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,13 +22,8 @@ VALUES (48614,   1, False) /* Stuck */
      , (48614,  19, True ) /* Attackable */
      , (48614,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48614,  87,     1.2) /* ItemEfficiency */
-     , (48614, 137,    0.15) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48614,   1, 'Icy Club') /* Name */
-     , (48614,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (48614,   1, 'Icy Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48614,   1,   33559363) /* Setup */

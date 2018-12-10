@@ -6,11 +6,9 @@ VALUES (19, 'armoredillobronze', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19,   1,         16) /* ItemType - Creature */
      , (19,   2,         17) /* CreatureType - Armoredillo */
-     , (19,   5,       6156) /* EncumbranceVal */
      , (19,   6,        255) /* ItemsCapacity */
      , (19,   7,        255) /* ContainersCapacity */
      , (19,  16,          1) /* ItemUseable - No */
-     , (19,  19,          0) /* Value */
      , (19,  25,         20) /* Level */
      , (19,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -18,7 +16,6 @@ VALUES (19,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19,   1, True ) /* Stuck */
-     , (19,   2, False) /* Open */
      , (19,  12, True ) /* ReportCollisions */
      , (19,  13, False) /* Ethereal */
      , (19,  14, True ) /* GravityStatus */
@@ -26,8 +23,6 @@ VALUES (19,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19,   1, 'Bronze Armoredillo') /* Name */
-     , (19,  14, 'Use this item to close it.') /* Use */
-     , (19,  16, 'Killed by Mag-four.') /* LongDesc */
      , (19, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

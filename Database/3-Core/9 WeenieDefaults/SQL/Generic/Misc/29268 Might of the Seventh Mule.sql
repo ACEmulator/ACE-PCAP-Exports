@@ -5,11 +5,9 @@ VALUES (29268, 'gemaugmentationcarryingcapacityi', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29268,   1,        128) /* ItemType - Misc */
-     , (29268,   2,          8) /* CreatureType - Tusker */
      , (29268,   5,         50) /* EncumbranceVal */
      , (29268,  16,          8) /* ItemUseable - Contained */
      , (29268,  19,          0) /* Value */
-     , (29268,  25,        135) /* Level */
      , (29268,  33,          1) /* Bonded - Bonded */
      , (29268,  65,        101) /* Placement - Resting */
      , (29268,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -42,6 +40,3 @@ VALUES (29268,   1,   33554809) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29268,   2, 3231350412) /* Container */
      , (29268, 8000, 3231350413) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29268,   1,   760, 0, 0, 760) /* MaxHealth */;

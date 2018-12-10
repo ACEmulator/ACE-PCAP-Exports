@@ -44,12 +44,12 @@ VALUES (52294,   1,   33561112) /* Setup */
      , (52294,   3,  536871128) /* SoundTable */
      , (52294,   6,   67108990) /* PaletteBase */
      , (52294,   8,  100667446) /* Icon */
-     , (52294,   9,   83898739) /* EyesTexture */
-     , (52294,  10,   83898986) /* NoseTexture */
-     , (52294,  11,   83898753) /* MouthTexture */
-     , (52294,  15,   67117062) /* HairPalette */
-     , (52294,  16,   67116953) /* EyesPalette */
-     , (52294,  17,   67117109) /* SkinPalette */
+     , (52294,   9,   83898993) /* EyesTexture */
+     , (52294,  10,   83898747) /* NoseTexture */
+     , (52294,  11,   83898752) /* MouthTexture */
+     , (52294,  15,   67117089) /* HairPalette */
+     , (52294,  16,   67116950) /* EyesPalette */
+     , (52294,  17,   67117122) /* SkinPalette */
      , (52294,  22,  872415236) /* PhysicsEffectTable */
      , (52294, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (52294, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */

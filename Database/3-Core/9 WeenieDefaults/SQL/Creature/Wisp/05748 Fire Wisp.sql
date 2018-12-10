@@ -6,16 +6,12 @@ VALUES (5748, 'wispfire', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5748,   1,         16) /* ItemType - Creature */
      , (5748,   2,         20) /* CreatureType - Wisp */
-     , (5748,   5,         50) /* EncumbranceVal */
      , (5748,   6,        255) /* ItemsCapacity */
      , (5748,   7,        255) /* ContainersCapacity */
      , (5748,  16,          1) /* ItemUseable - No */
-     , (5748,  19,       5000) /* Value */
      , (5748,  25,         80) /* Level */
      , (5748,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (5748, 107,          0) /* ItemCurMana */
      , (5748, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (5748, 307,          5) /* DamageRating */
      , (5748, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,13 +22,10 @@ VALUES (5748,   1, True ) /* Stuck */
      , (5748,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5748,  39, 1.29999995231628) /* DefaultScale */
-     , (5748,  87,       2) /* ItemEfficiency */
-     , (5748, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (5748,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5748,   1, 'Fire Wisp') /* Name */
-     , (5748,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (5748, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

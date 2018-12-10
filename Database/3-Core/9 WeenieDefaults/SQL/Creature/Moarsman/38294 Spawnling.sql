@@ -6,11 +6,9 @@ VALUES (38294, 'ace38294-spawnling', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38294,   1,         16) /* ItemType - Creature */
      , (38294,   2,         34) /* CreatureType - Moarsman */
-     , (38294,   5,       6097) /* EncumbranceVal */
      , (38294,   6,        255) /* ItemsCapacity */
      , (38294,   7,        255) /* ContainersCapacity */
      , (38294,  16,          1) /* ItemUseable - No */
-     , (38294,  19,          0) /* Value */
      , (38294,  25,        165) /* Level */
      , (38294,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (38294, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -18,7 +16,6 @@ VALUES (38294,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38294,   1, True ) /* Stuck */
-     , (38294,   2, True ) /* Open */
      , (38294,  12, True ) /* ReportCollisions */
      , (38294,  13, False) /* Ethereal */
      , (38294,  14, True ) /* GravityStatus */
@@ -30,8 +27,6 @@ VALUES (38294,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38294,   1, 'Spawnling') /* Name */
-     , (38294,  14, 'Use this item to close it.') /* Use */
-     , (38294,  16, 'Killed by Mag-three.') /* LongDesc */
      , (38294, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

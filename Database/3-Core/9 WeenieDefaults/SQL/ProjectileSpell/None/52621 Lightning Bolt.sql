@@ -34,7 +34,7 @@ VALUES (52621,   1,   33561636) /* Setup */
      , (52621,   3,  536870968) /* SoundTable */
      , (52621,   8,  100667494) /* Icon */
      , (52621,  22,  872415447) /* PhysicsEffectTable */
-     , (52621,  28,         75) /* Spell */
+     , (52621,  28,         75) /* Spell - LightningBolt1 */
      , (52621, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (52621, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (52621, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */

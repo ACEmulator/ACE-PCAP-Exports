@@ -10,20 +10,10 @@ VALUES (20855,   1,        128) /* ItemType - Misc */
      , (20855,  12,          1) /* StackSize */
      , (20855,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20855,  19,        100) /* Value */
-     , (20855,  33,          0) /* Bonded - Normal */
      , (20855,  65,        101) /* Placement - Resting */
-     , (20855,  91,         50) /* MaxStructure */
-     , (20855,  92,         50) /* Structure */
      , (20855,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20855,  94,          6) /* TargetType - Vestements */
-     , (20855, 105,          6) /* ItemWorkmanship */
-     , (20855, 114,          0) /* Attuned - Normal */
-     , (20855, 151,          2) /* HookType - Wall */
-     , (20855, 280,        213) /* SharedCooldown */
-     , (20855, 366,         54) /* UseRequiresSkill */
-     , (20855, 367,        370) /* UseRequiresSkillLevel */
-     , (20855, 369,         70) /* UseRequiresLevel */
-     , (20855, 371,          9) /* GearDamageResist */;
+     , (20855, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20855,   1, False) /* Stuck */
@@ -32,11 +22,7 @@ VALUES (20855,   1, False) /* Stuck */
      , (20855,  14, True ) /* GravityStatus */
      , (20855,  19, True ) /* Attackable */
      , (20855,  22, True ) /* Inscribable */
-     , (20855,  69, True ) /* IsSellable */
      , (20855, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20855, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20855,   1, 'Alchemy Stamp') /* Name */

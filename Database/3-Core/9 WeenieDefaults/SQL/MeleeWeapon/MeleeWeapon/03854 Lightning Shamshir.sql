@@ -5,13 +5,11 @@ VALUES (3854, 'shamshirelectric', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3854,   1,          1) /* ItemType - MeleeWeapon */
-     , (3854,   2,         20) /* CreatureType - Wisp */
      , (3854,   5,        298) /* EncumbranceVal */
      , (3854,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (3854,  16,          1) /* ItemUseable - No */
      , (3854,  18,         65) /* UiEffects - Magical, Lightning */
      , (3854,  19,       7248) /* Value */
-     , (3854,  25,         80) /* Level */
      , (3854,  44,         36) /* Damage */
      , (3854,  45,         64) /* DamageType - Electric */
      , (3854,  47,          6) /* AttackType - Thrust, Slash */
@@ -32,13 +30,10 @@ VALUES (3854,   1,          1) /* ItemType - MeleeWeapon */
      , (3854, 158,          2) /* WieldRequirements - RawSkill */
      , (3854, 159,         45) /* WieldSkilltype - LightWeapons */
      , (3854, 160,        325) /* WieldDifficulty */
-     , (3854, 171,         10) /* NumTimesTinkered */
      , (3854, 172,          5) /* AppraisalLongDescDecoration */
      , (3854, 176,         45) /* AppraisalItemSkill */
      , (3854, 177,          5) /* GemCount */
      , (3854, 178,         22) /* GemType */
-     , (3854, 179,        256) /* ImbuedEffect - ElectricRending */
-     , (3854, 188,          2) /* HeritageGroup - Gharundim */
      , (3854, 353,          2) /* WeaponType - Sword */
      , (3854, 8030,          0);
 
@@ -59,16 +54,11 @@ VALUES (3854,   5, -0.0555555555555556) /* ManaRate */
      , (3854,  39, 1.10000002384186) /* DefaultScale */
      , (3854,  62,    1.09) /* WeaponOffense */
      , (3854,  63,       1) /* DamageMod */
-     , (3854, 149,    1.01) /* WeaponMissileDefense */
      , (3854, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3854,   1, 'Lightning Shamshir') /* Name */
-     , (3854,   7, 'AMG') /* Inscription */
-     , (3854,   8, 'Sheetguys') /* ScribeName */
-     , (3854,  16, 'Lightning Shamshir of Defender') /* LongDesc */
-     , (3854,  39, 'Mag-tinker') /* TinkerName */
-     , (3854,  40, 'Tinker Toes') /* ImbuerName */;
+     , (3854,  16, 'Lightning Shamshir of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3854,   1,   33555782) /* Setup */
@@ -83,35 +73,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3854,   2, 2995790193) /* Container */
      , (3854, 8000, 2995798185) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (3854,   1,   225, 0, 0, 0) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3854,  1401,      2) 
-     , (3854,  1402,      2) 
-     , (3854,  1592,      2) 
-     , (3854,  1599,      2) 
-     , (3854,  1604,      2) 
+VALUES (3854,  1402,      2) 
      , (3854,  1605,      2) 
-     , (3854,  1612,      2) 
-     , (3854,  1614,      2) 
-     , (3854,  1615,      2) 
      , (3854,  1616,      2) 
-     , (3854,  1623,      2) 
-     , (3854,  1624,      2) 
-     , (3854,  1627,      2) 
-     , (3854,  2061,      2) 
-     , (3854,  2087,      2) 
-     , (3854,  2096,      2) 
-     , (3854,  2101,      2) 
-     , (3854,  2106,      2) 
-     , (3854,  2116,      2) 
-     , (3854,  2576,      2) 
-     , (3854,  2579,      2) 
-     , (3854,  2582,      2) 
-     , (3854,  2586,      2) 
-     , (3854,  2600,      2) 
-     , (3854,  4395,      2) 
-     , (3854,  4673,      2) 
-     , (3854,  6107,      2) 
-     , (3854,  6127,      2) ;
+     , (3854,  2579,      2) ;

@@ -45,7 +45,7 @@ VALUES (20019,   1,   33556769) /* Setup */
      , (20019,   6,   67111919) /* PaletteBase */
      , (20019,   8,  100673039) /* Icon */
      , (20019,  22,  872415275) /* PhysicsEffectTable */
-     , (20019,  28,       2671) /* Spell */
+     , (20019,  28,       2671) /* Spell - PortalSendingLabyrinthRewards */
      , (20019, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (20019, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20019, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

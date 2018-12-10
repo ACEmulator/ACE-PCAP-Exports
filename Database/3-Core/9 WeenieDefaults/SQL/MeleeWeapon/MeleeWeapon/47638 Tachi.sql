@@ -24,8 +24,7 @@ VALUES (47638,   1, False) /* Stuck */
      , (47638,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47638,   1, 'Tachi') /* Name */
-     , (47638,  16, 'Killed by High-Voltage VI.') /* LongDesc */;
+VALUES (47638,   1, 'Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47638,   1,   33554742) /* Setup */

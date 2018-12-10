@@ -5,11 +5,9 @@ VALUES (34744, 'ace34744-westernpedestal', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34744,   1,         16) /* ItemType - Creature */
-     , (34744,   5,       6650) /* EncumbranceVal */
      , (34744,   6,        255) /* ItemsCapacity */
      , (34744,   7,        255) /* ContainersCapacity */
      , (34744,  16,         32) /* ItemUseable - Remote */
-     , (34744,  19,          0) /* Value */
      , (34744,  93,    6358040) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, HasPhysicsBSP, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34744,  95,          3) /* RadarBlipColor - White */
      , (34744, 307,          0) /* DamageRating */
@@ -40,7 +38,6 @@ VALUES (34744,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34744,   1, True ) /* Stuck */
-     , (34744,   2, True ) /* Open */
      , (34744,  11, True ) /* IgnoreCollisions */
      , (34744,  12, True ) /* ReportCollisions */
      , (34744,  13, False) /* Ethereal */
@@ -55,8 +52,7 @@ VALUES (34744,  39, 1.39999997615814) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34744,   1, 'Western Pedestal') /* Name */
-     , (34744,  14, 'Use this item to close it.') /* Use */
-     , (34744,  16, 'Killed by Solitary''.') /* LongDesc */
+     , (34744,  16, 'This pedestal feels warm to the touch. You see many places where small pieces of stone have been chipped away, as if someone had actively chosen to inflict damage.') /* LongDesc */
      , (34744, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

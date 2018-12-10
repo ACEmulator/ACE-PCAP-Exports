@@ -25,8 +25,6 @@ VALUES (21531,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21531,   1, 'Imbued Pyreal Nugget') /* Name */
-     , (21531,   7, 'gaerlan quest') /* Inscription */
-     , (21531,   8, 'Rainwolf') /* ScribeName */
      , (21531,  15, 'A glowing nugget of pyreal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

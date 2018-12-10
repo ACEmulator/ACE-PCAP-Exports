@@ -35,8 +35,6 @@ VALUES (4224,  13, 1.20000004768372) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4224,   1, 'Armoredillo Hide Coat') /* Name */
-     , (4224,   7, 'AL 70') /* Inscription */
-     , (4224,   8, 'Xikanir-Cos') /* ScribeName */
      , (4224,  15, 'Coat crafted from the hide of an Armoredillo.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

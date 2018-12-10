@@ -39,8 +39,6 @@ VALUES (14505,   5, -0.033333) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14505,   1, 'Incalescent Bracelet') /* Name */
-     , (14505,   7, NULL) /* Inscription */
-     , (14505,   8, NULL) /* ScribeName */
      , (14505,  16, 'A golden bracelet fitted with a glowing red gem. The band is warm to the touch. When worn the heat rises making skin contact uncomfortable. ') /* LongDesc */
      , (14505,  25, 'Juliana Bravehart') /* CraftsmanName */;
 

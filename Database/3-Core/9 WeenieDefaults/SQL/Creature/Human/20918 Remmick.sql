@@ -6,11 +6,9 @@ VALUES (20918, 'retreatremmick', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20918,   1,         16) /* ItemType - Creature */
      , (20918,   2,         31) /* CreatureType - Human */
-     , (20918,   5,       6505) /* EncumbranceVal */
      , (20918,   6,        255) /* ItemsCapacity */
      , (20918,   7,        255) /* ContainersCapacity */
      , (20918,  16,         32) /* ItemUseable - Remote */
-     , (20918,  19,          0) /* Value */
      , (20918,  25,         16) /* Level */
      , (20918,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20918,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (20918,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20918,   1, 'Remmick') /* Name */
      , (20918,   5, 'Farmer') /* Template */
-     , (20918,  16, 'Killed by Callaway.') /* LongDesc */
      , (20918, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

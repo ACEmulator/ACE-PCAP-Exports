@@ -6,11 +6,9 @@ VALUES (28819, 'fiunseniorsageshibak', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28819,   1,         16) /* ItemType - Creature */
      , (28819,   2,         78) /* CreatureType - Fiun */
-     , (28819,   5,       7607) /* EncumbranceVal */
      , (28819,   6,        255) /* ItemsCapacity */
      , (28819,   7,        255) /* ContainersCapacity */
      , (28819,  16,         32) /* ItemUseable - Remote */
-     , (28819,  19,          0) /* Value */
      , (28819,  25,          6) /* Level */
      , (28819,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28819,  95,          8) /* RadarBlipColor - Yellow */
@@ -33,7 +31,6 @@ VALUES (28819,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28819,   1, 'Senior Sage Shibak') /* Name */
-     , (28819,  16, 'Killed by Mag-five.') /* LongDesc */
      , (28819, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

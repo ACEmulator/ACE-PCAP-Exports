@@ -11,8 +11,6 @@ VALUES (37371,   1,        128) /* ItemType - Misc */
      , (37371,  16,          1) /* ItemUseable - No */
      , (37371,  19,      30000) /* Value */
      , (37371,  65,        101) /* Placement - Resting */
-     , (37371,  89,          6) /* BoosterEnum - Mana */
-     , (37371,  90,        100) /* BoostValue */
      , (37371,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,7 +22,6 @@ VALUES (37371,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37371,   1, 'Glyph of Missile Weapons') /* Name */
-     , (37371,  14, 'Use this item to drink it.') /* Use */
      , (37371,  20, 'Glyphs of Missile Weapons') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

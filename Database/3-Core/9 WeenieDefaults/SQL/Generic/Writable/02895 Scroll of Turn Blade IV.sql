@@ -13,7 +13,6 @@ VALUES (2895,   1,       8192) /* ItemType - Writable */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2895,   1, False) /* Stuck */
-     , (2895,   2, False) /* Open */
      , (2895,  11, True ) /* IgnoreCollisions */
      , (2895,  13, True ) /* Ethereal */
      , (2895,  14, True ) /* GravityStatus */
@@ -33,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2895,   1,   33554826) /* Setup */
      , (2895,   8,  100676677) /* Icon */
      , (2895,  22,  872415275) /* PhysicsEffectTable */
-     , (2895,  28,       1596) /* Spell */
+     , (2895,  28,       1596) /* Spell - TurnBlade4 */
      , (2895, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2895, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2895, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

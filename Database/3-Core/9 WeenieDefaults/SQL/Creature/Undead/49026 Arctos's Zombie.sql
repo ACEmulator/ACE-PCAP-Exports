@@ -6,39 +6,15 @@ VALUES (49026, 'ace49026-arctosszombie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49026,   1,         16) /* ItemType - Creature */
      , (49026,   2,         14) /* CreatureType - Undead */
-     , (49026,   5,       6758) /* EncumbranceVal */
      , (49026,   6,        255) /* ItemsCapacity */
      , (49026,   7,        255) /* ContainersCapacity */
      , (49026,  16,          1) /* ItemUseable - No */
-     , (49026,  19,          0) /* Value */
      , (49026,  25,        125) /* Level */
-     , (49026,  44,         51) /* Damage */
-     , (49026,  45,         32) /* DamageType - Acid */
-     , (49026,  47,          6) /* AttackType - Thrust, Slash */
-     , (49026,  48,         45) /* WeaponSkill - LightWeapons */
-     , (49026,  49,         28) /* WeaponTime */
      , (49026,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49026, 105,          6) /* ItemWorkmanship */
-     , (49026, 106,        237) /* ItemSpellcraft */
-     , (49026, 107,        934) /* ItemCurMana */
-     , (49026, 108,        934) /* ItemMaxMana */
-     , (49026, 109,         90) /* ItemDifficulty */
-     , (49026, 110,          0) /* ItemAllegianceRankLimit */
-     , (49026, 115,        257) /* ItemSkillLevelLimit */
-     , (49026, 131,         51) /* MaterialType - Ivory */
      , (49026, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49026, 158,          2) /* WieldRequirements - RawSkill */
-     , (49026, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (49026, 160,        400) /* WieldDifficulty */
-     , (49026, 172,          5) /* AppraisalLongDescDecoration */
-     , (49026, 176,         45) /* AppraisalItemSkill */
-     , (49026, 177,          1) /* GemCount */
-     , (49026, 178,         21) /* GemType */
      , (49026, 307,          5) /* DamageRating */
      , (49026, 315,         13) /* CritResistRating */
-     , (49026, 353,          2) /* WeaponType - Sword */
-     , (49026, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (49026, 8030,          0);
+     , (49026, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49026,   1, True ) /* Stuck */
@@ -47,19 +23,8 @@ VALUES (49026,   1, True ) /* Stuck */
      , (49026,  14, True ) /* GravityStatus */
      , (49026,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49026,   5,   -0.05) /* ManaRate */
-     , (49026,  21,       0) /* WeaponLength */
-     , (49026,  22,    0.47) /* DamageVariance */
-     , (49026,  26,       0) /* MaximumVelocity */
-     , (49026,  29,    1.15) /* WeaponDefense */
-     , (49026,  62,    1.14) /* WeaponOffense */
-     , (49026,  63,       1) /* DamageMod */
-     , (49026, 149,   1.015) /* WeaponMissileDefense */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49026,   1, 'Arctos''s Zombie') /* Name */
-     , (49026,  16, 'Killed by Arctos.') /* LongDesc */
      , (49026, 8006, 'AAA+AAEAAAA+AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -94,14 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49026,   1,   870, 0, 0, 870) /* MaxHealth */
      , (49026,   3,  1120, 0, 0, 1119) /* MaxStamina */
      , (49026,   5,   750, 0, 0, 750) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49026,  1616,      2) 
-     , (49026,  2096,      2) 
-     , (49026,  2575,      2) 
-     , (49026,  3834,      2) 
-     , (49026,  4325,      2) 
-     , (49026,  4912,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49026, 67109966, 72, 8)

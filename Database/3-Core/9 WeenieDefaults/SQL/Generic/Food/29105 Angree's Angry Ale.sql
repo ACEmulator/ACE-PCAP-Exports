@@ -29,7 +29,7 @@ VALUES (29105,   1,   33559126) /* Setup */
      , (29105,   3,  536870932) /* SoundTable */
      , (29105,   8,  100686439) /* Icon */
      , (29105,  22,  872415275) /* PhysicsEffectTable */
-     , (29105,  28,       3529) /* Spell */
+     , (29105,  28,       3529) /* Spell - Intoxication3 */
      , (29105,  50,  100687550) /* IconOverlay */
      , (29105,  52,  100687547) /* IconUnderlay */
      , (29105, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */

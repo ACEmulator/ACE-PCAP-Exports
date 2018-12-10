@@ -6,47 +6,27 @@ VALUES (22809, 'banderlingbandit', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22809,   1,         16) /* ItemType - Creature */
      , (22809,   2,          2) /* CreatureType - Banderling */
-     , (22809,   5,       6106) /* EncumbranceVal */
      , (22809,   6,        255) /* ItemsCapacity */
      , (22809,   7,        255) /* ContainersCapacity */
      , (22809,  16,          1) /* ItemUseable - No */
-     , (22809,  19,          0) /* Value */
      , (22809,  25,         50) /* Level */
      , (22809,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22809, 105,          6) /* ItemWorkmanship */
-     , (22809, 106,        257) /* ItemSpellcraft */
-     , (22809, 107,       1852) /* ItemCurMana */
-     , (22809, 108,       1852) /* ItemMaxMana */
-     , (22809, 109,        231) /* ItemDifficulty */
-     , (22809, 110,          0) /* ItemAllegianceRankLimit */
-     , (22809, 115,          0) /* ItemSkillLevelLimit */
-     , (22809, 131,         60) /* MaterialType - Gold */
      , (22809, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22809, 158,          7) /* WieldRequirements - Level */
-     , (22809, 159,          1) /* WieldSkilltype - Axe */
-     , (22809, 160,        150) /* WieldDifficulty */
-     , (22809, 172,          5) /* AppraisalLongDescDecoration */
-     , (22809, 177,          3) /* GemCount */
-     , (22809, 178,         21) /* GemType */
      , (22809, 307,          5) /* DamageRating */
      , (22809, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22809,   1, True ) /* Stuck */
-     , (22809,   2, True ) /* Open */
      , (22809,  12, True ) /* ReportCollisions */
      , (22809,  13, False) /* Ethereal */
      , (22809,  14, True ) /* GravityStatus */
      , (22809,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22809,   5, -0.0555555555555556) /* ManaRate */
-     , (22809,  39, 1.29999995231628) /* DefaultScale */;
+VALUES (22809,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22809,   1, 'Banderling Bandit') /* Name */
-     , (22809,  14, 'Use this item to close it.') /* Use */
-     , (22809,  16, 'Killed by Mag-three.') /* LongDesc */
      , (22809, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -79,12 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22809,   1,   165, 0, 0, 165) /* MaxHealth */
      , (22809,   3,   290, 0, 0, 290) /* MaxStamina */
      , (22809,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22809,   279,      2) 
-     , (22809,  2153,      2) 
-     , (22809,  2511,      2) 
-     , (22809,  5897,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22809, 67114033, 0, 0);

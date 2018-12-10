@@ -25,10 +25,7 @@ VALUES (47677,   1, False) /* Stuck */
      , (47677,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47677,   1, 'Flaming Tachi') /* Name */
-     , (47677,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (47677,  16, 'Inscribed spell: Tattercoat
-Worsens a shield or piece of armor''s armor value by 220 points.') /* LongDesc */;
+VALUES (47677,   1, 'Flaming Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47677,   1,   33555732) /* Setup */
@@ -49,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47677,   3, 3701908764) /* Wielder */
      , (47677, 8000, 3701908774) /* PCAPRecordedObjectIID */
      , (47677, 8008, 3701908764) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47677,  2100,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47677, 67111920, 0, 0);

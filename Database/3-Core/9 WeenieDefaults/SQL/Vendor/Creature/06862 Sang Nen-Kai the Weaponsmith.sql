@@ -6,22 +6,17 @@ VALUES (6862, 'ayanbaqurweaponsmith', 12) /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6862,   1,         16) /* ItemType - Creature */
      , (6862,   2,         31) /* CreatureType - Human */
-     , (6862,   5,         50) /* EncumbranceVal */
      , (6862,   6,        255) /* ItemsCapacity */
      , (6862,   7,        255) /* ContainersCapacity */
      , (6862,  16,         32) /* ItemUseable - Remote */
-     , (6862,  19,        323) /* Value */
      , (6862,  25,         23) /* Level */
      , (6862,  74, 1074004225) /* MerchandiseItemTypes - Weapon, PromissoryNote, TinkeringMaterial */
      , (6862,  75,          0) /* MerchandiseMinValue */
      , (6862,  76,    1000000) /* MerchandiseMaxValue */
      , (6862,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
-     , (6862, 105,          5) /* ItemWorkmanship */
      , (6862, 113,          2) /* Gender - Female */
-     , (6862, 131,         59) /* MaterialType - Copper */
      , (6862, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6862, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (6862, 172,          1) /* AppraisalLongDescDecoration */
      , (6862, 188,          3) /* HeritageGroup - Sho */
      , (6862, 307,          5) /* DamageRating */
      , (6862, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -37,17 +32,13 @@ VALUES (6862,   1, True ) /* Stuck */
      , (6862,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6862,  29,    1.02) /* WeaponDefense */
-     , (6862,  37, 0.699999988079071) /* BuyPrice */
+VALUES (6862,  37, 0.699999988079071) /* BuyPrice */
      , (6862,  38, 1.89999997615814) /* SellPrice */
-     , (6862,  54,       3) /* UseRadius */
-     , (6862, 144,       0) /* ManaConversionMod */
-     , (6862, 149,    1.01) /* WeaponMissileDefense */;
+     , (6862,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6862,   1, 'Sang Nen-Kai the Weaponsmith') /* Name */
      , (6862,   5, 'Weaponsmith') /* Template */
-     , (6862,  16, 'Sceptre') /* LongDesc */
      , (6862, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

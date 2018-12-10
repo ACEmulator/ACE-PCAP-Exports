@@ -5,7 +5,6 @@ VALUES (35478, 'ace35478-kresovuslockbox', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35478,   1,         16) /* ItemType - Creature */
-     , (35478,   5,          0) /* EncumbranceVal */
      , (35478,   6,        255) /* ItemsCapacity */
      , (35478,   7,        255) /* ContainersCapacity */
      , (35478,  16,         32) /* ItemUseable - Remote */

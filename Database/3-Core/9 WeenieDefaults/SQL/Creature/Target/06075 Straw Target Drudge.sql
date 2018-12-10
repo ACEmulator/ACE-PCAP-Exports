@@ -6,11 +6,9 @@ VALUES (6075, 'drudgestrawtarget', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6075,   1,         16) /* ItemType - Creature */
      , (6075,   2,         76) /* CreatureType - Target */
-     , (6075,   5,       6235) /* EncumbranceVal */
      , (6075,   6,        255) /* ItemsCapacity */
      , (6075,   7,        255) /* ContainersCapacity */
      , (6075,  16,          1) /* ItemUseable - No */
-     , (6075,  19,          0) /* Value */
      , (6075,  25,          2) /* Level */
      , (6075,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (6075, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (6075,  39, 0.949999988079071) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6075,   1, 'Straw Target Drudge') /* Name */
-     , (6075,  16, 'Killed by Callaway.') /* LongDesc */
      , (6075, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,24 +6,12 @@ VALUES (1614, 'gromniejade', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1614,   1,         16) /* ItemType - Creature */
      , (1614,   2,         15) /* CreatureType - Gromnie */
-     , (1614,   5,         75) /* EncumbranceVal */
      , (1614,   6,        255) /* ItemsCapacity */
      , (1614,   7,        255) /* ContainersCapacity */
      , (1614,  16,          1) /* ItemUseable - No */
-     , (1614,  19,        667) /* Value */
      , (1614,  25,         15) /* Level */
-     , (1614,  28,          0) /* ArmorLevel */
      , (1614,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1614, 105,          1) /* ItemWorkmanship */
-     , (1614, 106,        102) /* ItemSpellcraft */
-     , (1614, 107,        280) /* ItemCurMana */
-     , (1614, 108,        280) /* ItemMaxMana */
-     , (1614, 109,         76) /* ItemDifficulty */
-     , (1614, 110,          0) /* ItemAllegianceRankLimit */
-     , (1614, 115,          0) /* ItemSkillLevelLimit */
-     , (1614, 131,          8) /* MaterialType - Wool */
      , (1614, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1614, 172,          1) /* AppraisalLongDescDecoration */
      , (1614, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,25 +19,14 @@ VALUES (1614,   1, True ) /* Stuck */
      , (1614,  12, True ) /* ReportCollisions */
      , (1614,  13, False) /* Ethereal */
      , (1614,  14, True ) /* GravityStatus */
-     , (1614,  19, True ) /* Attackable */
-     , (1614, 100, True ) /* Dyable */;
+     , (1614,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1614,   5, -0.0333333333333333) /* ManaRate */
-     , (1614,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (1614,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (1614,  15,       1) /* ArmorModVsBludgeon */
-     , (1614,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (1614,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (1614,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (1614,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (1614,  39, 0.899999976158142) /* DefaultScale */
-     , (1614,  77,       1) /* PhysicsScriptIntensity */
-     , (1614, 165,       1) /* ArmorModVsNether */;
+VALUES (1614,  39, 0.899999976158142) /* DefaultScale */
+     , (1614,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1614,   1, 'Jade Gromnie') /* Name */
-     , (1614,  16, 'Lace Shirt of Acid Protection') /* LongDesc */
      , (1614, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,9 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1614,   1,    68, 0, 0, 68) /* MaxHealth */
      , (1614,   3,    75, 0, 0, 75) /* MaxStamina */
      , (1614,   5,    20, 0, 0, 20) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1614,   517,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1614, 67116460, 0, 0);

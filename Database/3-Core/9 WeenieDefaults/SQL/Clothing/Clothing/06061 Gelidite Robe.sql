@@ -43,8 +43,6 @@ VALUES (6061,   5,    -0.1) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6061,   1, 'Gelidite Robe') /* Name */
-     , (6061,   7, 'AL O  Flame Bane 3  Frost Lure 2 Diff: 50') /* Inscription */
-     , (6061,   8, 'Juliana Bravehart') /* ScribeName */
      , (6061,  16, 'An icy blue robe, worn by the Gelidites of Frore when they walked the living world. This artifact is several millennia old.') /* LongDesc */
      , (6061,  25, 'Jungle Souljah') /* CraftsmanName */;
 

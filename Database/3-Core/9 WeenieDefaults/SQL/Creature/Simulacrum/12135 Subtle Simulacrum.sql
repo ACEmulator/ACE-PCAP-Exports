@@ -6,28 +6,13 @@ VALUES (12135, 'simulacrumsubtlefemale', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12135,   1,         16) /* ItemType - Creature */
      , (12135,   2,         59) /* CreatureType - Simulacrum */
-     , (12135,   5,       1278) /* EncumbranceVal */
      , (12135,   6,        255) /* ItemsCapacity */
      , (12135,   7,        255) /* ContainersCapacity */
      , (12135,  16,          1) /* ItemUseable - No */
-     , (12135,  19,       3395) /* Value */
      , (12135,  25,         60) /* Level */
-     , (12135,  28,        147) /* ArmorLevel */
-     , (12135,  33,          1) /* Bonded - Bonded */
      , (12135,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (12135, 105,          4) /* ItemWorkmanship */
-     , (12135, 106,        155) /* ItemSpellcraft */
-     , (12135, 107,        587) /* ItemCurMana */
-     , (12135, 108,        587) /* ItemMaxMana */
-     , (12135, 109,         55) /* ItemDifficulty */
-     , (12135, 110,          0) /* ItemAllegianceRankLimit */
      , (12135, 113,          2) /* Gender - Female */
-     , (12135, 114,          1) /* Attuned - Attuned */
-     , (12135, 115,        122) /* ItemSkillLevelLimit */
-     , (12135, 131,         59) /* MaterialType - Copper */
      , (12135, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (12135, 172,          1) /* AppraisalLongDescDecoration */
-     , (12135, 176,          7) /* AppraisalItemSkill */
      , (12135, 188,          1) /* HeritageGroup - Aluvian */
      , (12135, 307,          5) /* DamageRating */
      , (12135, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -37,24 +22,10 @@ VALUES (12135,   1, True ) /* Stuck */
      , (12135,  12, True ) /* ReportCollisions */
      , (12135,  13, False) /* Ethereal */
      , (12135,  14, True ) /* GravityStatus */
-     , (12135,  19, True ) /* Attackable */
-     , (12135,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12135,   5, -0.0333333333333333) /* ManaRate */
-     , (12135,  13,       1) /* ArmorModVsSlash */
-     , (12135,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (12135,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (12135,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (12135,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (12135,  18,       1) /* ArmorModVsAcid */
-     , (12135,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (12135, 165,       1) /* ArmorModVsNether */;
+     , (12135,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12135,   1, 'Subtle Simulacrum') /* Name */
-     , (12135,  15, 'A tusk plucked from a dead Tusker Guard. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* ShortDesc */
-     , (12135,  16, 'Large Kite Shield') /* LongDesc */
      , (12135, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -93,11 +64,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12135,   1,   154, 0, 0, 154) /* MaxHealth */
      , (12135,   3,   204, 0, 0, 204) /* MaxStamina */
      , (12135,   5,   362, 0, 0, 362) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12135,  1483,      2) 
-     , (12135,  1514,      2) 
-     , (12135,  1572,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12135, 67109561, 0, 24)

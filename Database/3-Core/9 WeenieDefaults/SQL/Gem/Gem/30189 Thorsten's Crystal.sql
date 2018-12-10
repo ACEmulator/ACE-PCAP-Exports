@@ -40,7 +40,7 @@ VALUES (30189,   1,   33554809) /* Setup */
      , (30189,   3,  536870932) /* SoundTable */
      , (30189,   8,  100686697) /* Icon */
      , (30189,  22,  872415275) /* PhysicsEffectTable */
-     , (30189,  28,       3685) /* Spell */
+     , (30189,  28,       3685) /* Spell - AxeMasteryRare */
      , (30189,  50,  100692242) /* IconOverlay */
      , (30189,  52,  100686604) /* IconUnderlay */
      , (30189, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */

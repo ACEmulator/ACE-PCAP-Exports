@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2859,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2859,   1, 'Scroll of Lightning Lure IV') /* Name */;
+VALUES (2859,   1, 'Scroll of Lightning Lure IV') /* Name */
+     , (2859,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (2859,  16, 'Inscribed spell: Lightning Lure IV
+Decreases a shield or piece of armor''s resistance to electric damage by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2859,   1,   33554826) /* Setup */
      , (2859,   8,  100676668) /* Icon */
      , (2859,  22,  872415275) /* PhysicsEffectTable */
-     , (2859,  28,       1532) /* Spell */
+     , (2859,  28,       1532) /* Spell - LightningLure4 */
      , (2859, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2859, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2859, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (2859,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2859,   2, 2618142651) /* Container */
      , (2859, 8000, 2616702619) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (2859,  1532,      2) ;

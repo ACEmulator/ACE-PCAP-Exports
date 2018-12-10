@@ -28,8 +28,6 @@ VALUES (9295,  39,    0.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9295,   1, 'Intricate Carving Tool') /* Name */
-     , (9295,   7, '43.7s 12.2 e  pack dolls shore armoredillo spine') /* Inscription */
-     , (9295,   8, 'Brambles') /* ScribeName */
      , (9295,  14, 'Use to carve out keys.') /* Use */
      , (9295,  16, 'A multipurpose tool used to sculpt golem hearts and virindi artifacts. ') /* LongDesc */;
 

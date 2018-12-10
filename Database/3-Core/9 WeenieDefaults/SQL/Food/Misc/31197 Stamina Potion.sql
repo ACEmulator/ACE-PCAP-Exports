@@ -18,7 +18,6 @@ VALUES (31197,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31197,   1, False) /* Stuck */
-     , (31197,   2, True ) /* Open */
      , (31197,  11, True ) /* IgnoreCollisions */
      , (31197,  13, True ) /* Ethereal */
      , (31197,  14, True ) /* GravityStatus */
@@ -27,9 +26,7 @@ VALUES (31197,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31197,   1, 'Stamina Potion') /* Name */
-     , (31197,  14, 'Use this item to drink it.') /* Use */
-     , (31197,  16, 'Inscribed spell: Bottle Breaker
-Decreases the target''s Alchemy skill by 40 points.') /* LongDesc */;
+     , (31197,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31197,   1,   33554603) /* Setup */
@@ -44,9 +41,6 @@ VALUES (31197,   1,   33554603) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31197,   2, 2019569764) /* Container */
      , (31197, 8000, 3687936542) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31197,  2188,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31197, 67111920, 0, 0);

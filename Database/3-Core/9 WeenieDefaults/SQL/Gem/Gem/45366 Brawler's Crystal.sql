@@ -13,10 +13,6 @@ VALUES (45366,   1,       2048) /* ItemType - Gem */
      , (45366,  18,          1) /* UiEffects - Magical */
      , (45366,  19,          0) /* Value */
      , (45366,  33,         -1) /* Bonded - Slippery */
-     , (45366,  44,        195) /* Damage */
-     , (45366,  45,          8) /* DamageType - Cold */
-     , (45366,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (45366,  49,         20) /* WeaponTime */
      , (45366,  65,        101) /* Placement - Resting */
      , (45366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45366,  94,         16) /* TargetType - Creature */
@@ -24,13 +20,7 @@ VALUES (45366,   1,       2048) /* ItemType - Gem */
      , (45366, 107,      10000) /* ItemCurMana */
      , (45366, 108,      10000) /* ItemMaxMana */
      , (45366, 109,          0) /* ItemDifficulty */
-     , (45366, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (45366, 307,          5) /* DamageRating */
-     , (45366, 313,          0) /* CritRating */
-     , (45366, 314,          0) /* CritDamageRating */
-     , (45366, 353,         10) /* WeaponType - Thrown */
-     , (45366, 386,          0) /* Overpower */
-     , (45366, 8030,          0);
+     , (45366, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45366,   1, False) /* Stuck */
@@ -39,16 +29,6 @@ VALUES (45366,   1, False) /* Stuck */
      , (45366,  14, True ) /* GravityStatus */
      , (45366,  19, True ) /* Attackable */
      , (45366, 108, True ) /* RareUsesTimer */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45366,  21,       0) /* WeaponLength */
-     , (45366,  22,     0.5) /* DamageVariance */
-     , (45366,  26, 23.2000007629395) /* MaximumVelocity */
-     , (45366,  29,       1) /* WeaponDefense */
-     , (45366,  62,       1) /* WeaponOffense */
-     , (45366,  63,       1) /* DamageMod */
-     , (45366, 149,       0) /* WeaponMissileDefense */
-     , (45366, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45366,   1, 'Brawler''s Crystal') /* Name */
@@ -61,7 +41,7 @@ VALUES (45366,   1,   33554809) /* Setup */
      , (45366,   6,   67111919) /* PaletteBase */
      , (45366,   8,  100686697) /* Icon */
      , (45366,  22,  872415275) /* PhysicsEffectTable */
-     , (45366,  28,       5911) /* Spell */
+     , (45366,  28,       5911) /* Spell - DirtyFightingMasteryRare */
      , (45366,  50,  100692244) /* IconOverlay */
      , (45366,  52,  100686604) /* IconUnderlay */
      , (45366, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */

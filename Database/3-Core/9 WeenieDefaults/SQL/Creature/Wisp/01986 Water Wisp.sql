@@ -6,13 +6,10 @@ VALUES (1986, 'wispwater', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1986,   1,         16) /* ItemType - Creature */
      , (1986,   2,         20) /* CreatureType - Wisp */
-     , (1986,   5,         10) /* EncumbranceVal */
      , (1986,   6,        255) /* ItemsCapacity */
      , (1986,   7,        255) /* ContainersCapacity */
      , (1986,  16,          1) /* ItemUseable - No */
-     , (1986,  19,       5000) /* Value */
      , (1986,  25,          8) /* Level */
-     , (1986,  33,          1) /* Bonded - Bonded */
      , (1986,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1986, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1986, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,7 +23,6 @@ VALUES (1986,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1986,   1, 'Water Wisp') /* Name */
-     , (1986,  16, 'A concentrated copper pea.') /* LongDesc */
      , (1986, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

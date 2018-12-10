@@ -27,8 +27,7 @@ VALUES (31978,   1, False) /* Stuck */
      , (31978,  13, True ) /* Ethereal */
      , (31978,  14, True ) /* GravityStatus */
      , (31978,  19, True ) /* Attackable */
-     , (31978,  22, True ) /* Inscribable */
-     , (31978,  91, True ) /* Retained */;
+     , (31978,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31978,   5, -0.00555) /* ManaRate */
@@ -36,8 +35,6 @@ VALUES (31978,   5, -0.00555) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31978,   1, 'Rose of Celdon') /* Name */
-     , (31978,   7, 'Mine') /* Inscription */
-     , (31978,   8, 'Aralcarin') /* ScribeName */
      , (31978,  16, 'A rose colored ring with a subtle rose shaped design carved into it. For years, the Rose of Celdon has long been a symbol of the Aluvian resistance against the Viamontian invaders led by Queen Alfrega the Mad.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -37,7 +37,7 @@ VALUES (35570,   1,   33554602) /* Setup */
      , (35570,   6,   67111919) /* PaletteBase */
      , (35570,   8,  100669701) /* Icon */
      , (35570,  22,  872415244) /* PhysicsEffectTable */
-     , (35570,  28,       4092) /* Spell */
+     , (35570,  28,       4092) /* Spell - FlameGrenade */
      , (35570, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (35570, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (35570, 8005,      64277) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Omega, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */

@@ -47,10 +47,6 @@ VALUES (1435,   5,  -0.022) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1435,   1, 'Ice Tachi') /* Name */
-     , (1435,   7, 'it came to me...
-my own......          my love.......
-my..... ice tachi.....') /* Inscription */
-     , (1435,   8, 'Gryphon') /* ScribeName */
      , (1435,  15, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

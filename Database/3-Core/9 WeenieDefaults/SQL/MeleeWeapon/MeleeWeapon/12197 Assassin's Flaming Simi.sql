@@ -5,27 +5,15 @@ VALUES (12197, 'simifirebanditzharalim', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12197,   1,          1) /* ItemType - MeleeWeapon */
-     , (12197,   2,         13) /* CreatureType - Golem */
      , (12197,   5,        400) /* EncumbranceVal */
      , (12197,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12197,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12197,  16,          1) /* ItemUseable - No */
      , (12197,  18,         32) /* UiEffects - Fire */
      , (12197,  19,        160) /* Value */
-     , (12197,  25,         60) /* Level */
      , (12197,  51,          1) /* CombatUse - Melee */
      , (12197,  65,          1) /* Placement - RightHandCombat */
-     , (12197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12197, 105,          4) /* ItemWorkmanship */
-     , (12197, 106,        150) /* ItemSpellcraft */
-     , (12197, 107,        334) /* ItemCurMana */
-     , (12197, 108,        334) /* ItemMaxMana */
-     , (12197, 109,          0) /* ItemDifficulty */
-     , (12197, 110,          0) /* ItemAllegianceRankLimit */
-     , (12197, 115,          0) /* ItemSkillLevelLimit */
-     , (12197, 117,        250) /* ItemManaCost */
-     , (12197, 131,         31) /* MaterialType - Moonstone */
-     , (12197, 172,          1) /* AppraisalLongDescDecoration */;
+     , (12197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12197,   1, False) /* Stuck */
@@ -36,8 +24,7 @@ VALUES (12197,   1, False) /* Stuck */
      , (12197,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12197,   1, 'Assassin''s Flaming Simi') /* Name */
-     , (12197,  16, 'Gem of Mana Renewal') /* LongDesc */;
+VALUES (12197,   1, 'Assassin''s Flaming Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12197,   1,   33555777) /* Setup */
@@ -57,9 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12197,   3, 2929187950) /* Wielder */
      , (12197, 8000, 2929132896) /* PCAPRecordedObjectIID */
      , (12197, 8008, 2929187950) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12197,   1,   190, 0, 0, 5) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12197,   215,      2) ;

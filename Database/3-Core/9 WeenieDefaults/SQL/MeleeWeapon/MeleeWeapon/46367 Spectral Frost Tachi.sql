@@ -5,18 +5,13 @@ VALUES (46367, 'ace46367-spectralfrosttachi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46367,   1,          1) /* ItemType - MeleeWeapon */
-     , (46367,   2,          1) /* CreatureType - Olthoi */
      , (46367,   5,        550) /* EncumbranceVal */
      , (46367,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46367,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46367,  16,          1) /* ItemUseable - No */
      , (46367,  19,        340) /* Value */
-     , (46367,  25,        115) /* Level */
      , (46367,  51,          1) /* CombatUse - Melee */
      , (46367,  65,          1) /* Placement - RightHandCombat */
-     , (46367,  90,         20) /* BoostValue */
-     , (46367,  91,         40) /* MaxStructure */
-     , (46367,  92,         40) /* Structure */
      , (46367,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -28,8 +23,7 @@ VALUES (46367,   1, False) /* Stuck */
      , (46367,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46367,  76,     0.5) /* Translucency */
-     , (46367, 100,    1.75) /* HealkitMod */;
+VALUES (46367,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46367,   1, 'Spectral Frost Tachi') /* Name */;
@@ -53,9 +47,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46367,   3, 3707810605) /* Wielder */
      , (46367, 8000, 3707810588) /* PCAPRecordedObjectIID */
      , (46367, 8008, 3707810605) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46367,   1,   740, 0, 0, 740) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46367, 67111925, 0, 0);

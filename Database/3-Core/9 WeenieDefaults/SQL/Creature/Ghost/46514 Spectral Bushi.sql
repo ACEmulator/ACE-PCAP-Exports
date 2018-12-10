@@ -6,11 +6,9 @@ VALUES (46514, 'ace46514-spectralbushi', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46514,   1,         16) /* ItemType - Creature */
      , (46514,   2,         77) /* CreatureType - Ghost */
-     , (46514,   5,       6332) /* EncumbranceVal */
      , (46514,   6,        255) /* ItemsCapacity */
      , (46514,   7,        255) /* ContainersCapacity */
      , (46514,  16,          1) /* ItemUseable - No */
-     , (46514,  19,          0) /* Value */
      , (46514,  25,        240) /* Level */
      , (46514,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46514, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (46514,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46514,   1, 'Spectral Bushi') /* Name */
-     , (46514,  16, 'Killed by Jakka.') /* LongDesc */
      , (46514, 8006, 'BwA9AA0A40w/0gVC77fqQklaY0JP7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAAAAwQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -10,7 +10,6 @@ VALUES (5361,   1,          1) /* ItemType - MeleeWeapon */
      , (5361,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (5361,  16,          1) /* ItemUseable - No */
      , (5361,  19,         30) /* Value */
-     , (5361,  28,        286) /* ArmorLevel */
      , (5361,  33,          1) /* Bonded - Bonded */
      , (5361,  44,         38) /* Damage */
      , (5361,  45,          3) /* DamageType - Slash, Pierce */
@@ -20,22 +19,8 @@ VALUES (5361,   1,          1) /* ItemType - MeleeWeapon */
      , (5361,  51,          1) /* CombatUse - Melee */
      , (5361,  65,          1) /* Placement - RightHandCombat */
      , (5361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5361, 105,          8) /* ItemWorkmanship */
-     , (5361, 106,        370) /* ItemSpellcraft */
-     , (5361, 107,       1707) /* ItemCurMana */
-     , (5361, 108,       1707) /* ItemMaxMana */
-     , (5361, 109,        286) /* ItemDifficulty */
-     , (5361, 110,          0) /* ItemAllegianceRankLimit */
      , (5361, 114,          1) /* Attuned - Attuned */
-     , (5361, 115,          0) /* ItemSkillLevelLimit */
-     , (5361, 131,         60) /* MaterialType - Gold */
      , (5361, 151,          2) /* HookType - Wall */
-     , (5361, 158,          7) /* WieldRequirements - Level */
-     , (5361, 159,          1) /* WieldSkilltype - Axe */
-     , (5361, 160,        150) /* WieldDifficulty */
-     , (5361, 172,          5) /* AppraisalLongDescDecoration */
-     , (5361, 177,          3) /* GemCount */
-     , (5361, 178,         20) /* GemType */
      , (5361, 353,          6) /* WeaponType - Dagger */
      , (5361, 8030,          0);
 
@@ -45,31 +30,20 @@ VALUES (5361,   1, False) /* Stuck */
      , (5361,  13, True ) /* Ethereal */
      , (5361,  14, True ) /* GravityStatus */
      , (5361,  19, True ) /* Attackable */
-     , (5361,  22, True ) /* Inscribable */
-     , (5361, 100, True ) /* Dyable */;
+     , (5361,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5361,   5, -0.0666666666666667) /* ManaRate */
-     , (5361,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (5361,  14,       1) /* ArmorModVsPierce */
-     , (5361,  15,       1) /* ArmorModVsBludgeon */
-     , (5361,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (5361,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (5361,  18, 1.43383431434631) /* ArmorModVsAcid */
-     , (5361,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (5361,  21,       0) /* WeaponLength */
+VALUES (5361,  21,       0) /* WeaponLength */
      , (5361,  22,    0.75) /* DamageVariance */
      , (5361,  26,       0) /* MaximumVelocity */
      , (5361,  29,       1) /* WeaponDefense */
      , (5361,  62,       1) /* WeaponOffense */
-     , (5361,  63,       1) /* DamageMod */
-     , (5361, 165,       1) /* ArmorModVsNether */;
+     , (5361,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5361,   1, 'Abmim''s Jambiya') /* Name */
      , (5361,   7, 'Taken from the hand of a fat merchant, the first of many successes in this new world!') /* Inscription */
-     , (5361,   8, 'Abmim ibn Ibsar') /* ScribeName */
-     , (5361,  16, 'Olthoi Amuli Helm of Invulnerability') /* LongDesc */;
+     , (5361,   8, 'Abmim ibn Ibsar') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5361,   1,   33554887) /* Setup */
@@ -90,12 +64,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5361,   3, 1343493313) /* Wielder */
      , (5361, 8000, 3691973313) /* PCAPRecordedObjectIID */
      , (5361, 8008, 1343493313) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5361,   249,      2) 
-     , (5361,  2094,      2) 
-     , (5361,  4407,      2) 
-     , (5361,  5427,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5361, 67111920, 0, 0);

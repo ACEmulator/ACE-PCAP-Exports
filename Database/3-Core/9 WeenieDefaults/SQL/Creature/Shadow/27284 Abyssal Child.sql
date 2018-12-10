@@ -6,17 +6,14 @@ VALUES (27284, 'shadowchildabyssal', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27284,   1,         16) /* ItemType - Creature */
      , (27284,   2,         22) /* CreatureType - Shadow */
-     , (27284,   5,          0) /* EncumbranceVal */
      , (27284,   6,        255) /* ItemsCapacity */
      , (27284,   7,        255) /* ContainersCapacity */
      , (27284,  16,          1) /* ItemUseable - No */
-     , (27284,  19,          0) /* Value */
      , (27284,  25,        135) /* Level */
      , (27284,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (27284, 113,          1) /* Gender - Male */
      , (27284, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27284, 188,          1) /* HeritageGroup - Aluvian */
-     , (27284, 280,        100) /* SharedCooldown */
      , (27284, 307,          2) /* DamageRating */
      , (27284, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -26,17 +23,14 @@ VALUES (27284,   1, True ) /* Stuck */
      , (27284,  13, False) /* Ethereal */
      , (27284,  14, True ) /* GravityStatus */
      , (27284,  19, True ) /* Attackable */
-     , (27284,  42, True ) /* AllowEdgeSlide */
-     , (27284,  69, False) /* IsSellable */;
+     , (27284,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27284,  39,    0.75) /* DefaultScale */
-     , (27284,  76,     0.5) /* Translucency */
-     , (27284, 167,       2) /* CooldownDuration */;
+     , (27284,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27284,   1, 'Abyssal Child') /* Name */
-     , (27284,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal staff. (Recommended Levels 180+)') /* LongDesc */
      , (27284, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

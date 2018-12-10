@@ -6,25 +6,12 @@ VALUES (36839, 'ace36839-gotroktitan', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36839,   1,         16) /* ItemType - Creature */
      , (36839,   2,         70) /* CreatureType - GotrokLugian */
-     , (36839,   5,        150) /* EncumbranceVal */
      , (36839,   6,        255) /* ItemsCapacity */
      , (36839,   7,        255) /* ContainersCapacity */
      , (36839,  16,          1) /* ItemUseable - No */
-     , (36839,  19,       8924) /* Value */
      , (36839,  25,        135) /* Level */
      , (36839,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36839, 105,          7) /* ItemWorkmanship */
-     , (36839, 106,        231) /* ItemSpellcraft */
-     , (36839, 107,       2217) /* ItemCurMana */
-     , (36839, 108,       2217) /* ItemMaxMana */
-     , (36839, 109,        240) /* ItemDifficulty */
-     , (36839, 110,          0) /* ItemAllegianceRankLimit */
-     , (36839, 115,          0) /* ItemSkillLevelLimit */
-     , (36839, 131,         60) /* MaterialType - Gold */
      , (36839, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (36839, 172,          5) /* AppraisalLongDescDecoration */
-     , (36839, 177,          4) /* GemCount */
-     , (36839, 178,         47) /* GemType */
      , (36839, 307,          5) /* DamageRating */
      , (36839, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -35,12 +22,8 @@ VALUES (36839,   1, True ) /* Stuck */
      , (36839,  14, True ) /* GravityStatus */
      , (36839,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36839,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36839,   1, 'Gotrok Titan') /* Name */
-     , (36839,  16, 'Gorget of Lightning Protection') /* LongDesc */
      , (36839, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -73,10 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36839,   1,   565, 0, 0, 565) /* MaxHealth */
      , (36839,   3,   580, 0, 0, 580) /* MaxStamina */
      , (36839,   5,   220, 0, 0, 220) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36839,  1071,      2) 
-     , (36839,  2621,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36839, 67114245, 0, 0);

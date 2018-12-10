@@ -24,8 +24,7 @@ VALUES (48103,   1, False) /* Stuck */
      , (48103,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48103,   1, 'Sickle') /* Name */
-     , (48103,  16, 'Killed by Timthos.') /* LongDesc */;
+VALUES (48103,   1, 'Sickle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48103,   1,   33558593) /* Setup */

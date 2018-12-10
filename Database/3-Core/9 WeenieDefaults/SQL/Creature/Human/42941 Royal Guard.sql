@@ -6,33 +6,18 @@ VALUES (42941, 'ace42941-royalguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42941,   1,         16) /* ItemType - Creature */
      , (42941,   2,         31) /* CreatureType - Human */
-     , (42941,   5,        100) /* EncumbranceVal */
      , (42941,   6,        255) /* ItemsCapacity */
      , (42941,   7,        255) /* ContainersCapacity */
      , (42941,  16,         32) /* ItemUseable - Remote */
-     , (42941,  19,       2000) /* Value */
      , (42941,  25,        275) /* Level */
-     , (42941,  44,         20) /* Damage */
-     , (42941,  45,          4) /* DamageType - Bludgeon */
-     , (42941,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (42941,  49,         10) /* WeaponTime */
-     , (42941,  89,          2) /* BoosterEnum - Health */
-     , (42941,  90,         85) /* BoostValue */
      , (42941,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42941,  95,          8) /* RadarBlipColor - Yellow */
-     , (42941, 105,          8) /* ItemWorkmanship */
      , (42941, 113,          2) /* Gender - Female */
-     , (42941, 131,         63) /* MaterialType - Silver */
      , (42941, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42941, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42941, 172,          5) /* AppraisalLongDescDecoration */
-     , (42941, 177,          4) /* GemCount */
-     , (42941, 178,         26) /* GemType */
      , (42941, 188,         10) /* HeritageGroup - Penumbraen */
      , (42941, 307,          5) /* DamageRating */
-     , (42941, 353,         10) /* WeaponType - Thrown */
-     , (42941, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (42941, 8030,          0);
+     , (42941, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42941,   1, True ) /* Stuck */
@@ -45,19 +30,11 @@ VALUES (42941,   1, True ) /* Stuck */
      , (42941,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42941,  21,       0) /* WeaponLength */
-     , (42941,  22,    0.25) /* DamageVariance */
-     , (42941,  26,       0) /* MaximumVelocity */
-     , (42941,  29,       1) /* WeaponDefense */
-     , (42941,  54,       3) /* UseRadius */
-     , (42941,  62,       1) /* WeaponOffense */
-     , (42941,  63,       1) /* DamageMod */;
+VALUES (42941,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42941,   1, 'Royal Guard') /* Name */
      , (42941,   5, 'Borelean''s Royal Guard') /* Template */
-     , (42941,  14, 'Use this item to drink it.') /* Use */
-     , (42941,  16, 'Ornamental Bowl') /* LongDesc */
      , (42941, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

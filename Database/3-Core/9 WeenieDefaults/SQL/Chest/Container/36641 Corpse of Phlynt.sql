@@ -26,7 +26,6 @@ VALUES (36641,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36641,   1, 'Corpse of Phlynt') /* Name */
-     , (36641,  14, 'Use this item to close it.') /* Use */
      , (36641,  16, 'Corpse of the spy that Oswent said was missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

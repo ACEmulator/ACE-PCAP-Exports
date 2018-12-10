@@ -27,13 +27,14 @@ VALUES (36377,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36377,   1, 'Scroll of ''Infested Area'' Recall') /* Name */
      , (36377,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (36377,  16, 'Killed by Sheetguys.') /* LongDesc */;
+     , (36377,  16, 'Inscribed spell: Paradox-touched Olthoi Infested Area Recall
+Transports the caster to the area infested by the Paradox-touched Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36377,   1,   33554826) /* Setup */
      , (36377,   8,  100676673) /* Icon */
      , (36377,  22,  872415275) /* PhysicsEffectTable */
-     , (36377,  28,       4198) /* Spell */
+     , (36377,  28,       4198) /* Spell - InfestedAreaRecall */
      , (36377, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (36377, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36377, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

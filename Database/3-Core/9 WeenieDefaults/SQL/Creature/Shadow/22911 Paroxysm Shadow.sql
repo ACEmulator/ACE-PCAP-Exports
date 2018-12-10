@@ -6,11 +6,9 @@ VALUES (22911, 'shadowparoxim', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22911,   1,         16) /* ItemType - Creature */
      , (22911,   2,         22) /* CreatureType - Shadow */
-     , (22911,   5,       6005) /* EncumbranceVal */
      , (22911,   6,        255) /* ItemsCapacity */
      , (22911,   7,        255) /* ContainersCapacity */
      , (22911,  16,          1) /* ItemUseable - No */
-     , (22911,  19,          0) /* Value */
      , (22911,  25,        100) /* Level */
      , (22911,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22911, 113,          2) /* Gender - Female */
@@ -32,7 +30,6 @@ VALUES (22911,  39, 1.29999995231628) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22911,   1, 'Paroxysm Shadow') /* Name */
-     , (22911,  16, 'Killed by Fenn.') /* LongDesc */
      , (22911, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

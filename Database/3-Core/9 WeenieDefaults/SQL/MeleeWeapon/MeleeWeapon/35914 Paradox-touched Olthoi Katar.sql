@@ -56,8 +56,6 @@ VALUES (35914,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35914,   1, 'Paradox-touched Olthoi Katar') /* Name */
-     , (35914,   7, '"Your Name"') /* Inscription */
-     , (35914,   8, 'Ogg Cave-Man') /* ScribeName */
      , (35914,  16, 'A katar, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

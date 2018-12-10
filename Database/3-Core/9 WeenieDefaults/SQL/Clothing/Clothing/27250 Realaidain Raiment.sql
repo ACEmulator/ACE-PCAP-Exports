@@ -13,8 +13,7 @@ VALUES (27250,   1,          4) /* ItemType - Clothing */
      , (27250,  19,       3000) /* Value */
      , (27250,  28,        240) /* ArmorLevel */
      , (27250,  65,        101) /* Placement - Resting */
-     , (27250,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27250, 324,          6) /* HeritageSpecificArmor */;
+     , (27250,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27250,   1, False) /* Stuck */
@@ -37,11 +36,8 @@ VALUES (27250,  13, 2.79999995231628) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27250,   1, 'Realaidain Raiment') /* Name */
-     , (27250,   7, 'my stolen undies') /* Inscription */
-     , (27250,   8, 'Ninavie') /* ScribeName */
      , (27250,  14, 'This raiment can be dyed.') /* Use */
-     , (27250,  16, 'This raiment, emblazoned with the crest of the Realaidain family, is a gift from the High Queen and Asheron to those who have made Dereth their home by Morningthaw, PY 15.') /* LongDesc */
-     , (27250,  52, 'Core Upper Body Underplating') /* GearPlatingName */;
+     , (27250,  16, 'This raiment, emblazoned with the crest of the Realaidain family, is a gift from the High Queen and Asheron to those who have made Dereth their home by Morningthaw, PY 15.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27250,   1,   33554854) /* Setup */

@@ -41,7 +41,7 @@ VALUES (52025,   1,   33554809) /* Setup */
      , (52025,   6,   67111919) /* PaletteBase */
      , (52025,   8,  100690568) /* Icon */
      , (52025,  22,  872415275) /* PhysicsEffectTable */
-     , (52025,  28,       5192) /* Spell */
+     , (52025,  28,       5192) /* Spell - RareDamageReduction5 */
      , (52025,  50,  100686629) /* IconOverlay */
      , (52025,  52,  100691593) /* IconUnderlay */
      , (52025, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

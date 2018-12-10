@@ -6,27 +6,15 @@ VALUES (41522, 'ace41522-carlitogallo', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41522,   1,         16) /* ItemType - Creature */
      , (41522,   2,         31) /* CreatureType - Human */
-     , (41522,   5,          5) /* EncumbranceVal */
      , (41522,   6,        255) /* ItemsCapacity */
      , (41522,   7,        255) /* ContainersCapacity */
      , (41522,  16,         32) /* ItemUseable - Remote */
-     , (41522,  19,       2659) /* Value */
      , (41522,  25,        247) /* Level */
      , (41522,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41522,  95,          8) /* RadarBlipColor - Yellow */
-     , (41522, 105,          6) /* ItemWorkmanship */
-     , (41522, 106,        250) /* ItemSpellcraft */
-     , (41522, 107,        545) /* ItemCurMana */
-     , (41522, 108,        545) /* ItemMaxMana */
-     , (41522, 109,          0) /* ItemDifficulty */
-     , (41522, 110,          0) /* ItemAllegianceRankLimit */
      , (41522, 113,          1) /* Gender - Male */
-     , (41522, 115,          0) /* ItemSkillLevelLimit */
-     , (41522, 117,        350) /* ItemManaCost */
-     , (41522, 131,         36) /* MaterialType - RedJade */
      , (41522, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41522, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (41522, 172,          1) /* AppraisalLongDescDecoration */
      , (41522, 188,          4) /* HeritageGroup - Viamontian */
      , (41522, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -46,7 +34,6 @@ VALUES (41522,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41522,   1, 'Carlito Gallo') /* Name */
      , (41522,   5, 'Augmentation Trainer') /* Template */
-     , (41522,  16, 'Gem of Strength') /* LongDesc */
      , (41522, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41522,   1,    45, 0, 0, 45) /* MaxHealth */
      , (41522,   3,    80, 0, 0, 80) /* MaxStamina */
      , (41522,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41522,  1332,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41522, 67110063, 32, 8)

@@ -6,11 +6,9 @@ VALUES (1988, 'wispdark', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1988,   1,         16) /* ItemType - Creature */
      , (1988,   2,         20) /* CreatureType - Wisp */
-     , (1988,   5,       6550) /* EncumbranceVal */
      , (1988,   6,        255) /* ItemsCapacity */
      , (1988,   7,        255) /* ContainersCapacity */
      , (1988,  16,          1) /* ItemUseable - No */
-     , (1988,  19,          0) /* Value */
      , (1988,  25,         20) /* Level */
      , (1988,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1988, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -25,7 +23,6 @@ VALUES (1988,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1988,   1, 'Dark Wisp') /* Name */
-     , (1988,  16, 'Killed by The Fallen.') /* LongDesc */
      , (1988, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

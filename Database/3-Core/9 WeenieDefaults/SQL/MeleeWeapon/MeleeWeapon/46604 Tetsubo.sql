@@ -25,10 +25,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46604,  39, 0.850000023841858) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46604,   1, 'Tetsubo') /* Name */
-     , (46604,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (46604,  16, 'Inscribed spell: Eye of the Grunt
-Decreases the target''s Weapon Tinkering skill by 40 points.') /* LongDesc */;
+VALUES (46604,   1, 'Tetsubo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46604,   1,   33560728) /* Setup */
@@ -49,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46604,   3, 3707807778) /* Wielder */
      , (46604, 8000, 3707807803) /* PCAPRecordedObjectIID */
      , (46604, 8008, 3707807778) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46604,  2326,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46604, 67116700, 1, 100)

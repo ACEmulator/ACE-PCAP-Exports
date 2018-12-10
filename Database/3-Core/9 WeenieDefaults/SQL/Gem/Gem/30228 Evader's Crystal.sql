@@ -5,7 +5,6 @@ VALUES (30228, 'gemrarevolatilemeleedefense', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30228,   1,       2048) /* ItemType - Gem */
-     , (30228,   2,         82) /* CreatureType - Thrungus */
      , (30228,   5,          5) /* EncumbranceVal */
      , (30228,  11,        100) /* MaxStackSize */
      , (30228,  12,          1) /* StackSize */
@@ -13,7 +12,6 @@ VALUES (30228,   1,       2048) /* ItemType - Gem */
      , (30228,  17,         32) /* RareId */
      , (30228,  18,          1) /* UiEffects - Magical */
      , (30228,  19,          0) /* Value */
-     , (30228,  25,        135) /* Level */
      , (30228,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30228,  33,         -1) /* Bonded - Slippery */
      , (30228,  65,        101) /* Placement - Resting */
@@ -44,7 +42,7 @@ VALUES (30228,   1,   33554809) /* Setup */
      , (30228,   6,   67111919) /* PaletteBase */
      , (30228,   8,  100686697) /* Icon */
      , (30228,  22,  872415275) /* PhysicsEffectTable */
-     , (30228,  28,       3712) /* Spell */
+     , (30228,  28,       3712) /* Spell - InvulnerabilityRare */
      , (30228,  50,  100686675) /* IconOverlay */
      , (30228,  52,  100686604) /* IconUnderlay */
      , (30228, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
@@ -55,9 +53,6 @@ VALUES (30228,   1,   33554809) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30228,   2, 3073894161) /* Container */
      , (30228, 8000, 2988653219) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30228,   1,   448, 0, 0, 448) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30228,  3712,      2) ;

@@ -39,7 +39,6 @@ VALUES (51988,   1, False) /* Stuck */
      , (51988,  19, True ) /* Attackable */
      , (51988,  22, True ) /* Inscribable */
      , (51988,  69, False) /* IsSellable */
-     , (51988,  85, True ) /* AppraisalHasAllowedWielder */
      , (51988,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -56,10 +55,7 @@ VALUES (51988,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51988,   1, 'Rynthid Tentacle Bow') /* Name */
-     , (51988,   7, '0:35:15 Deep in the Catacombs of Torment, Tzhar has struck down the Curator of Torment, forcing him again for a time into his prison in the abyss of Portalspace.') /* Inscription */
-     , (51988,   8, 'Tzhar') /* ScribeName */
-     , (51988,  16, 'A bow crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */
-     , (51988,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
+     , (51988,  16, 'A bow crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51988,   1,   33561601) /* Setup */

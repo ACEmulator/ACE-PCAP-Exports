@@ -48,7 +48,7 @@ VALUES (40141,   1,   33560707) /* Setup */
      , (40141,   3,  536870932) /* SoundTable */
      , (40141,   8,  100690370) /* Icon */
      , (40141,  22,  872415275) /* PhysicsEffectTable */
-     , (40141,  28,       4315) /* Spell */
+     , (40141,  28,       4315) /* Spell - ManaBoostSelf8 */
      , (40141, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (40141, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40141, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */

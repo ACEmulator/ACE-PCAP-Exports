@@ -6,11 +6,9 @@ VALUES (36794, 'ace36794-olthoiqueen', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36794,   1,         16) /* ItemType - Creature */
      , (36794,   2,          1) /* CreatureType - Olthoi */
-     , (36794,   5,       6030) /* EncumbranceVal */
      , (36794,   6,        255) /* ItemsCapacity */
      , (36794,   7,        255) /* ContainersCapacity */
      , (36794,  16,          1) /* ItemUseable - No */
-     , (36794,  19,          0) /* Value */
      , (36794,  25,         87) /* Level */
      , (36794,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36794, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -31,7 +29,6 @@ VALUES (36794,  39, 0.899999976158142) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36794,   1, 'Olthoi Queen') /* Name */
-     , (36794,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (36794, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -24,8 +24,7 @@ VALUES (52514,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52514,  29,       1) /* WeaponDefense */
-     , (52514, 144,       0) /* ManaConversionMod */
-     , (52514, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (52514, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52514,   1, 'Painter''s Palette') /* Name */

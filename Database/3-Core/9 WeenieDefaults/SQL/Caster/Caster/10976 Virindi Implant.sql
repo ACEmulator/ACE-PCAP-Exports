@@ -32,14 +32,10 @@ VALUES (10976,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10976,   5,   -0.05) /* ManaRate */
      , (10976,  29,       1) /* WeaponDefense */
-     , (10976, 144,    0.05) /* ManaConversionMod */
-     , (10976, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (10976, 144,    0.05) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10976,   1, 'Virindi Implant') /* Name */
-     , (10976,   7, 'Paralyzing Fear - Causes target to freeze in horror.
-Must have 300 in Creature.  M: x/300 V: 11,450') /* Inscription */
-     , (10976,   8, 'Pheyd') /* ScribeName */
      , (10976,  16, 'A purplish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Utelari.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -47,7 +43,7 @@ VALUES (10976,   1,   33557223) /* Setup */
      , (10976,   3,  536870932) /* SoundTable */
      , (10976,   8,  100671870) /* Icon */
      , (10976,  22,  872415275) /* PhysicsEffectTable */
-     , (10976,  28,       2421) /* Spell */
+     , (10976,  28,       2421) /* Spell - ParalyzingFear */
      , (10976, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (10976, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10976, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

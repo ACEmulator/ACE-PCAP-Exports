@@ -5,7 +5,6 @@ VALUES (30182, 'gemrarevolatileacidprotection', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30182,   1,       2048) /* ItemType - Gem */
-     , (30182,   2,          7) /* CreatureType - Mite */
      , (30182,   5,          5) /* EncumbranceVal */
      , (30182,  11,        100) /* MaxStackSize */
      , (30182,  12,          1) /* StackSize */
@@ -13,7 +12,6 @@ VALUES (30182,   1,       2048) /* ItemType - Gem */
      , (30182,  17,         48) /* RareId */
      , (30182,  18,          1) /* UiEffects - Magical */
      , (30182,  19,          0) /* Value */
-     , (30182,  25,          8) /* Level */
      , (30182,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30182,  33,         -1) /* Bonded - Slippery */
      , (30182,  65,        101) /* Placement - Resting */
@@ -44,7 +42,7 @@ VALUES (30182,   1,   33554809) /* Setup */
      , (30182,   6,   67111919) /* PaletteBase */
      , (30182,   8,  100686696) /* Icon */
      , (30182,  22,  872415275) /* PhysicsEffectTable */
-     , (30182,  28,       3680) /* Spell */
+     , (30182,  28,       3680) /* Spell - AcidProtectionRare */
      , (30182,  50,  100686625) /* IconOverlay */
      , (30182,  52,  100686604) /* IconUnderlay */
      , (30182, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
@@ -55,9 +53,6 @@ VALUES (30182,   1,   33554809) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30182,   2, 1343036179) /* Container */
      , (30182, 8000, 2166055631) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30182,   1,    20, 0, 0, 20) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30182,  3680,      2) ;

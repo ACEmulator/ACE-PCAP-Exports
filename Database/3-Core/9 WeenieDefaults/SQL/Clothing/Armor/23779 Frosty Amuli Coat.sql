@@ -44,9 +44,7 @@ VALUES (23779,   5, -0.025000000372529) /* ManaRate */
      , (23779, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23779,   1, 'Frosty Amuli Coat') /* Name */
-     , (23779,   7, 'ds ') /* Inscription */
-     , (23779,   8, 'Dark sayian') /* ScribeName */;
+VALUES (23779,   1, 'Frosty Amuli Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23779,   1,   33554854) /* Setup */

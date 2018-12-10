@@ -6,15 +6,10 @@ VALUES (31658, 'ace31658-ruqayaalmubarak', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31658,   1,         16) /* ItemType - Creature */
      , (31658,   2,         31) /* CreatureType - Human */
-     , (31658,   5,         50) /* EncumbranceVal */
      , (31658,   6,        255) /* ItemsCapacity */
      , (31658,   7,        255) /* ContainersCapacity */
      , (31658,  16,         32) /* ItemUseable - Remote */
-     , (31658,  19,        500) /* Value */
      , (31658,  25,        133) /* Level */
-     , (31658,  90,         10) /* BoostValue */
-     , (31658,  91,         35) /* MaxStructure */
-     , (31658,  92,         35) /* Structure */
      , (31658,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31658,  95,          8) /* RadarBlipColor - Yellow */
      , (31658, 113,          2) /* Gender - Female */
@@ -34,8 +29,7 @@ VALUES (31658,   1, True ) /* Stuck */
      , (31658,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31658,  54,       3) /* UseRadius */
-     , (31658, 100,     1.5) /* HealkitMod */;
+VALUES (31658,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31658,   1, 'Ruqaya al Mubarak') /* Name */

@@ -5,7 +5,6 @@ VALUES (48021, 'ace48021-acidquarrel', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48021,   1,        256) /* ItemType - MissileWeapon */
-     , (48021,   2,          6) /* CreatureType - Tumerok */
      , (48021,   5,        790) /* EncumbranceVal */
      , (48021,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48021,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (48021,   1,        256) /* ItemType - MissileWeapon */
      , (48021,  16,          1) /* ItemUseable - No */
      , (48021,  18,        256) /* UiEffects - Acid */
      , (48021,  19,        158) /* Value */
-     , (48021,  25,         80) /* Level */
      , (48021,  50,          2) /* AmmoType - Bolt */
      , (48021,  51,          3) /* CombatUse - Ammo */
      , (48021,  65,          1) /* Placement - RightHandCombat */
@@ -55,19 +53,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48021,   3, 3680506369) /* Wielder */
      , (48021, 8000, 3680506379) /* PCAPRecordedObjectIID */
      , (48021, 8008, 3680506369) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48021,   1, 150, 0, 0) /* Strength */
-     , (48021,   2, 165, 0, 0) /* Endurance */
-     , (48021,   3, 145, 0, 0) /* Quickness */
-     , (48021,   4, 170, 0, 0) /* Coordination */
-     , (48021,   5,  90, 0, 0) /* Focus */
-     , (48021,   6,  90, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48021,   1,   223, 0, 0, 223) /* MaxHealth */
-     , (48021,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (48021,   5,    90, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48021, 67111922, 0, 0);

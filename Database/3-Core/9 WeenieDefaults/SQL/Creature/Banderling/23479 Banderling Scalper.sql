@@ -6,74 +6,26 @@ VALUES (23479, 'banderlingscalper', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23479,   1,         16) /* ItemType - Creature */
      , (23479,   2,          2) /* CreatureType - Banderling */
-     , (23479,   5,         75) /* EncumbranceVal */
      , (23479,   6,        255) /* ItemsCapacity */
      , (23479,   7,        255) /* ContainersCapacity */
      , (23479,  16,          1) /* ItemUseable - No */
-     , (23479,  19,       1784) /* Value */
      , (23479,  25,        115) /* Level */
-     , (23479,  28,          0) /* ArmorLevel */
-     , (23479,  44,         30) /* Damage */
-     , (23479,  45,          4) /* DamageType - Bludgeon */
-     , (23479,  47,          4) /* AttackType - Slash */
-     , (23479,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (23479,  49,         31) /* WeaponTime */
-     , (23479,  89,          6) /* BoosterEnum - Mana */
-     , (23479,  90,         50) /* BoostValue */
      , (23479,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23479, 105,          6) /* ItemWorkmanship */
-     , (23479, 106,        185) /* ItemSpellcraft */
-     , (23479, 107,        561) /* ItemCurMana */
-     , (23479, 108,        561) /* ItemMaxMana */
-     , (23479, 109,        185) /* ItemDifficulty */
-     , (23479, 110,          0) /* ItemAllegianceRankLimit */
-     , (23479, 115,          0) /* ItemSkillLevelLimit */
-     , (23479, 117,        300) /* ItemManaCost */
-     , (23479, 131,          7) /* MaterialType - Velvet */
      , (23479, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23479, 158,          2) /* WieldRequirements - RawSkill */
-     , (23479, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (23479, 160,        350) /* WieldDifficulty */
-     , (23479, 172,          1) /* AppraisalLongDescDecoration */
-     , (23479, 176,         41) /* AppraisalItemSkill */
-     , (23479, 177,          3) /* GemCount */
-     , (23479, 178,         38) /* GemType */
-     , (23479, 292,          2) /* Cleaving */
-     , (23479, 353,         11) /* WeaponType - TwoHanded */
-     , (23479, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (23479, 8030,          0);
+     , (23479, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23479,   1, True ) /* Stuck */
      , (23479,  12, True ) /* ReportCollisions */
      , (23479,  13, False) /* Ethereal */
      , (23479,  14, True ) /* GravityStatus */
-     , (23479,  19, True ) /* Attackable */
-     , (23479, 100, True ) /* Dyable */;
+     , (23479,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23479,   5,   -0.05) /* ManaRate */
-     , (23479,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (23479,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (23479,  15,       1) /* ArmorModVsBludgeon */
-     , (23479,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (23479,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (23479,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (23479,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (23479,  21,       0) /* WeaponLength */
-     , (23479,  22,     0.4) /* DamageVariance */
-     , (23479,  26,       0) /* MaximumVelocity */
-     , (23479,  29,    1.07) /* WeaponDefense */
-     , (23479,  39, 1.29999995231628) /* DefaultScale */
-     , (23479,  62,     1.1) /* WeaponOffense */
-     , (23479,  63,       1) /* DamageMod */
-     , (23479, 149,    1.01) /* WeaponMissileDefense */
-     , (23479, 165,       1) /* ArmorModVsNether */;
+VALUES (23479,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23479,   1, 'Banderling Scalper') /* Name */
-     , (23479,  14, 'Use this item to drink it.') /* Use */
-     , (23479,  16, 'Puffy Shirt of Fire Protection') /* LongDesc */
      , (23479, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -106,17 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (23479,   1,   555, 0, 0, 555) /* MaxHealth */
      , (23479,   3,   810, 0, 0, 810) /* MaxStamina */
      , (23479,   5,   390, 0, 0, 390) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23479,   169,      2) 
-     , (23479,  1093,      2) 
-     , (23479,  1615,      2) 
-     , (23479,  1627,      2) 
-     , (23479,  2096,      2) 
-     , (23479,  2106,      2) 
-     , (23479,  2108,      2) 
-     , (23479,  5072,      2) 
-     , (23479,  5880,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23479, 67114266, 0, 0);

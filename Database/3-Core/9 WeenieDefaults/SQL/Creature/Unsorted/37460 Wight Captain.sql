@@ -5,19 +5,11 @@ VALUES (37460, 'ace37460-wightcaptain', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37460,   1,         16) /* ItemType - Creature */
-     , (37460,   5,        291) /* EncumbranceVal */
      , (37460,   6,        255) /* ItemsCapacity */
      , (37460,   7,        255) /* ContainersCapacity */
      , (37460,  16,          1) /* ItemUseable - No */
-     , (37460,  19,        746) /* Value */
-     , (37460,  28,        146) /* ArmorLevel */
      , (37460,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (37460, 105,          7) /* ItemWorkmanship */
-     , (37460, 131,         64) /* MaterialType - Steel */
      , (37460, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (37460, 172,          5) /* AppraisalLongDescDecoration */
-     , (37460, 177,          1) /* GemCount */
-     , (37460, 178,         35) /* GemType */
      , (37460, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -28,19 +20,10 @@ VALUES (37460,   1, True ) /* Stuck */
      , (37460,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37460,  13,       1) /* ArmorModVsSlash */
-     , (37460,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (37460,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (37460,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (37460,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (37460,  18,       1) /* ArmorModVsAcid */
-     , (37460,  19, 0.850284695625305) /* ArmorModVsElectric */
-     , (37460,  39, 1.10000002384186) /* DefaultScale */
-     , (37460, 165,       1) /* ArmorModVsNether */;
+VALUES (37460,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37460,   1, 'Wight Captain') /* Name */
-     , (37460,  16, 'Buckler') /* LongDesc */
      , (37460, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

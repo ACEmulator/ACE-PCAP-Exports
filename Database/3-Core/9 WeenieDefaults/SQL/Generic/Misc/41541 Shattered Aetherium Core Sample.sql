@@ -27,8 +27,6 @@ VALUES (41541,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41541,   1, 'Shattered Aetherium Core Sample') /* Name */
-     , (41541,   7, 'para 23') /* Inscription */
-     , (41541,   8, 'Stramus') /* ScribeName */
      , (41541,  14, 'Bring this to T''ing Douzen for a reward.') /* Use */
      , (41541,  16, 'A shattered piece of the Aetherium Core that powered the Gear Knight called the Overseer.') /* LongDesc */;
 

@@ -5,7 +5,6 @@ VALUES (22546, 'coconutgunner', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22546,   1,        256) /* ItemType - MissileWeapon */
-     , (22546,   2,          2) /* CreatureType - Banderling */
      , (22546,   5,         20) /* EncumbranceVal */
      , (22546,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (22546,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
@@ -13,7 +12,6 @@ VALUES (22546,   1,        256) /* ItemType - MissileWeapon */
      , (22546,  12,          1) /* StackSize */
      , (22546,  16,          1) /* ItemUseable - No */
      , (22546,  19,          1) /* Value */
-     , (22546,  25,        100) /* Level */
      , (22546,  33,         -2) /* Bonded - Destroy */
      , (22546,  44,        120) /* Damage */
      , (22546,  45,          4) /* DamageType - Bludgeon */
@@ -21,8 +19,6 @@ VALUES (22546,   1,        256) /* ItemType - MissileWeapon */
      , (22546,  49,         10) /* WeaponTime */
      , (22546,  51,          2) /* CombatUse - Missle */
      , (22546,  65,          1) /* Placement - RightHandCombat */
-     , (22546,  89,          6) /* BoosterEnum - Mana */
-     , (22546,  90,         65) /* BoostValue */
      , (22546,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (22546, 307,          5) /* DamageRating */
      , (22546, 313,          0) /* CritRating */
@@ -53,8 +49,7 @@ VALUES (22546,  21,       0) /* WeaponLength */
      , (22546, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22546,   1, 'Coconut') /* Name */
-     , (22546,  14, 'Use this item to drink it.') /* Use */;
+VALUES (22546,   1, 'Coconut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22546,   1,   33554669) /* Setup */
@@ -74,9 +69,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22546,   3, 3690482834) /* Wielder */
      , (22546, 8000, 3690482833) /* PCAPRecordedObjectIID */
      , (22546, 8008, 3690482834) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22546,   1,   413, 0, 0, 413) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22546, 0, 83888861, 83888944);

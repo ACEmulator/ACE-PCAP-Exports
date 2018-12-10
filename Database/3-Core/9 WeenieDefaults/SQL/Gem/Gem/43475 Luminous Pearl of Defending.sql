@@ -41,7 +41,7 @@ VALUES (43475,   1,   33554809) /* Setup */
      , (43475,   6,   67111919) /* PaletteBase */
      , (43475,   8,  100686695) /* Icon */
      , (43475,  22,  872415275) /* PhysicsEffectTable */
-     , (43475,  28,       4400) /* Spell */
+     , (43475,  28,       4400) /* Spell - DefenderSelf8 */
      , (43475,  50,  100686646) /* IconOverlay */
      , (43475,  52,  100691593) /* IconUnderlay */
      , (43475, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

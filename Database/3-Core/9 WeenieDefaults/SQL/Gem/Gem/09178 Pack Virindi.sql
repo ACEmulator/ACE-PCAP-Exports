@@ -26,10 +26,6 @@ VALUES (9178,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9178,   1, 'Pack Virindi') /* Name */
-     , (9178,   7, 'Claude Jr, Age 1 year.
-My darling love child.
-') /* Inscription */
-     , (9178,   8, 'Rachaela') /* ScribeName */
      , (9178,  16, 'Removable mask! Magic-Cyborg-Ninja sickles! Pack Virindi even flies (somehow...)!') /* LongDesc */
      , (9178, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

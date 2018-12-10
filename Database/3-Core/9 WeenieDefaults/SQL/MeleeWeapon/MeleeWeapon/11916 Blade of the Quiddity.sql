@@ -5,13 +5,11 @@ VALUES (11916, 'tumerokswordgromnie_creatureonly', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11916,   1,          1) /* ItemType - MeleeWeapon */
-     , (11916,   2,         78) /* CreatureType - Fiun */
      , (11916,   5,        650) /* EncumbranceVal */
      , (11916,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (11916,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (11916,  16,          1) /* ItemUseable - No */
      , (11916,  19,       2000) /* Value */
-     , (11916,  25,        115) /* Level */
      , (11916,  51,          1) /* CombatUse - Melee */
      , (11916,  65,          1) /* Placement - RightHandCombat */
      , (11916,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
@@ -29,8 +27,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11916,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11916,   1, 'Blade of the Quiddity') /* Name */
-     , (11916,  16, 'Killed by High-Voltage II.') /* LongDesc */;
+VALUES (11916,   1, 'Blade of the Quiddity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11916,   1,   33557106) /* Setup */
@@ -50,6 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11916,   3, 3706880695) /* Wielder */
      , (11916, 8000, 3706880698) /* PCAPRecordedObjectIID */
      , (11916, 8008, 3706880695) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11916,   1,   460, 0, 0, 460) /* MaxHealth */;

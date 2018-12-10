@@ -6,17 +6,11 @@ VALUES (23616, 'crystalshard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23616,   1,         16) /* ItemType - Creature */
      , (23616,   2,         47) /* CreatureType - Crystal */
-     , (23616,   5,          0) /* EncumbranceVal */
      , (23616,   6,        255) /* ItemsCapacity */
      , (23616,   7,        255) /* ContainersCapacity */
      , (23616,  16,          1) /* ItemUseable - No */
-     , (23616,  19,        949) /* Value */
      , (23616,  25,        100) /* Level */
-     , (23616,  33,          0) /* Bonded - Normal */
-     , (23616,  91,          1) /* MaxStructure */
-     , (23616,  92,          1) /* Structure */
      , (23616,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23616, 114,          0) /* Attuned - Normal */
      , (23616, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (23616, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -25,17 +19,13 @@ VALUES (23616,   1, True ) /* Stuck */
      , (23616,  12, True ) /* ReportCollisions */
      , (23616,  13, False) /* Ethereal */
      , (23616,  14, True ) /* GravityStatus */
-     , (23616,  19, True ) /* Attackable */
-     , (23616,  69, False) /* IsSellable */
-     , (23616,  99, False) /* Ivoryable */;
+     , (23616,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23616,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23616,   1, 'Crystal Shard') /* Name */
-     , (23616,  14, 'Use this key to open any of the chests within the Mana Forges.') /* Use */
-     , (23616,  16, 'A crystalline key that coruscates with purple energies.') /* LongDesc */
      , (23616, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

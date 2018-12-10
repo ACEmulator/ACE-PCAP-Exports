@@ -5,13 +5,11 @@ VALUES (30605, 'daggerstilettoacid', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30605,   1,          1) /* ItemType - MeleeWeapon */
-     , (30605,   2,         14) /* CreatureType - Undead */
      , (30605,   5,        128) /* EncumbranceVal */
      , (30605,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (30605,  16,          1) /* ItemUseable - No */
      , (30605,  18,        257) /* UiEffects - Magical, Acid */
      , (30605,  19,      13387) /* Value */
-     , (30605,  25,        240) /* Level */
      , (30605,  44,         25) /* Damage */
      , (30605,  45,         32) /* DamageType - Acid */
      , (30605,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
@@ -55,8 +53,6 @@ VALUES (30605,   5, -0.0555555555555556) /* ManaRate */
      , (30605,  29,    1.11) /* WeaponDefense */
      , (30605,  62,    1.13) /* WeaponOffense */
      , (30605,  63,       1) /* DamageMod */
-     , (30605, 149,    1.02) /* WeaponMissileDefense */
-     , (30605, 150,    1.03) /* WeaponMagicDefense */
      , (30605, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -77,62 +73,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30605,   2, 3695125072) /* Container */
      , (30605, 8000, 3695849504) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30605,   1,  4600, 0, 0, 4600) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30605,   779,      2) 
-     , (30605,  1331,      2) 
-     , (30605,  1402,      2) 
-     , (30605,  1587,      2) 
-     , (30605,  1588,      2) 
-     , (30605,  1589,      2) 
-     , (30605,  1591,      2) 
-     , (30605,  1603,      2) 
-     , (30605,  1604,      2) 
-     , (30605,  1605,      2) 
-     , (30605,  1612,      2) 
-     , (30605,  1613,      2) 
-     , (30605,  1614,      2) 
-     , (30605,  1615,      2) 
-     , (30605,  1616,      2) 
-     , (30605,  1623,      2) 
-     , (30605,  1626,      2) 
-     , (30605,  2059,      2) 
-     , (30605,  2096,      2) 
+VALUES (30605,  2096,      2) 
      , (30605,  2101,      2) 
-     , (30605,  2106,      2) 
-     , (30605,  2116,      2) 
-     , (30605,  2514,      2) 
-     , (30605,  2515,      2) 
-     , (30605,  2537,      2) 
-     , (30605,  2538,      2) 
-     , (30605,  2541,      2) 
-     , (30605,  2549,      2) 
-     , (30605,  2550,      2) 
      , (30605,  2552,      2) 
-     , (30605,  2554,      2) 
-     , (30605,  2566,      2) 
-     , (30605,  2576,      2) 
-     , (30605,  2580,      2) 
-     , (30605,  2584,      2) 
-     , (30605,  2598,      2) 
-     , (30605,  2608,      2) 
-     , (30605,  2611,      2) 
-     , (30605,  2612,      2) 
-     , (30605,  2622,      2) 
-     , (30605,  4299,      2) 
-     , (30605,  4319,      2) 
-     , (30605,  4325,      2) 
-     , (30605,  4395,      2) 
-     , (30605,  4400,      2) 
-     , (30605,  4405,      2) 
-     , (30605,  4417,      2) 
-     , (30605,  5783,      2) 
-     , (30605,  5808,      2) 
-     , (30605,  5809,      2) 
-     , (30605,  5810,      2) 
-     , (30605,  6127,      2) ;
+     , (30605,  5808,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30605, 67116422, 0, 0);

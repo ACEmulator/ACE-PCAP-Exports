@@ -33,12 +33,6 @@ VALUES (31000, 167,      30) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31000,   1, 'Blackmoor''s Favor') /* Name */
-     , (31000,   7, 'Aun Ralirea: Complete
-Chasing Oswald: Complete
-Colosseum Bosses: Matron
-Dark Isle Flagging: Complete
-Bur Flagging: Complete') /* Inscription */
-     , (31000,   8, 'Dooty Tang') /* ScribeName */
      , (31000,  16, 'A gift from the late Antius Blackmoor and his Page in Arwic. This gem is eternal. You can use it as often as you like.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -46,7 +40,7 @@ VALUES (31000,   1,   33554809) /* Setup */
      , (31000,   3,  536870932) /* SoundTable */
      , (31000,   8,  100683149) /* Icon */
      , (31000,  22,  872415275) /* PhysicsEffectTable */
-     , (31000,  28,       3811) /* Spell */
+     , (31000,  28,       3811) /* Spell - BlackmoorsFavor */
      , (31000, 8001,  273182864) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Spell, HookType */
      , (31000, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (31000, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

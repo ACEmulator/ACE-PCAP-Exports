@@ -6,11 +6,9 @@ VALUES (44999, 'ace44999-sirdaeglan', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44999,   1,         16) /* ItemType - Creature */
      , (44999,   2,         31) /* CreatureType - Human */
-     , (44999,   5,          0) /* EncumbranceVal */
      , (44999,   6,        255) /* ItemsCapacity */
      , (44999,   7,        255) /* ContainersCapacity */
      , (44999,  16,         32) /* ItemUseable - Remote */
-     , (44999,  19,       1184) /* Value */
      , (44999,  25,        220) /* Level */
      , (44999,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44999,  95,          8) /* RadarBlipColor - Yellow */
@@ -22,7 +20,6 @@ VALUES (44999,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44999,   1, True ) /* Stuck */
-     , (44999,   2, True ) /* Open */
      , (44999,  11, True ) /* IgnoreCollisions */
      , (44999,  12, True ) /* ReportCollisions */
      , (44999,  13, False) /* Ethereal */
@@ -37,8 +34,6 @@ VALUES (44999,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44999,   1, 'Sir Daeglan') /* Name */
      , (44999,   5, 'Royal Investigator') /* Template */
-     , (44999,  14, 'Use this item to close it.') /* Use */
-     , (44999,  16, 'Killed by Mag-four.') /* LongDesc */
      , (44999, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

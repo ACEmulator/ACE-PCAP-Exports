@@ -6,17 +6,10 @@ VALUES (35826, 'ace35826-tomihino', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35826,   1,         16) /* ItemType - Creature */
      , (35826,   2,         31) /* CreatureType - Human */
-     , (35826,   5,          0) /* EncumbranceVal */
      , (35826,   6,        255) /* ItemsCapacity */
      , (35826,   7,        255) /* ContainersCapacity */
      , (35826,  16,         32) /* ItemUseable - Remote */
-     , (35826,  19,          0) /* Value */
      , (35826,  25,         80) /* Level */
-     , (35826,  33,         -2) /* Bonded - Destroy */
-     , (35826,  44,        610) /* Damage */
-     , (35826,  45,          2) /* DamageType - Pierce */
-     , (35826,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (35826,  49,         10) /* WeaponTime */
      , (35826,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35826,  95,          8) /* RadarBlipColor - Yellow */
      , (35826, 113,          1) /* Gender - Male */
@@ -24,12 +17,7 @@ VALUES (35826,   1,         16) /* ItemType - Creature */
      , (35826, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (35826, 188,          3) /* HeritageGroup - Sho */
      , (35826, 307,          5) /* DamageRating */
-     , (35826, 313,          0) /* CritRating */
-     , (35826, 314,          0) /* CritDamageRating */
-     , (35826, 353,         10) /* WeaponType - Thrown */
-     , (35826, 386,          0) /* Overpower */
-     , (35826, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (35826, 8030,          0);
+     , (35826, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35826,   1, True ) /* Stuck */
@@ -42,16 +30,7 @@ VALUES (35826,   1, True ) /* Stuck */
      , (35826,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35826,  21,       0) /* WeaponLength */
-     , (35826,  22,     0.5) /* DamageVariance */
-     , (35826,  26, 23.2000007629395) /* MaximumVelocity */
-     , (35826,  29,       1) /* WeaponDefense */
-     , (35826,  54,       3) /* UseRadius */
-     , (35826,  62,       1) /* WeaponOffense */
-     , (35826,  63,       1) /* DamageMod */
-     , (35826, 147,       1) /* CriticalFrequency */
-     , (35826, 149,       0) /* WeaponMissileDefense */
-     , (35826, 150,       0) /* WeaponMagicDefense */;
+VALUES (35826,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35826,   1, 'Tomihino') /* Name */

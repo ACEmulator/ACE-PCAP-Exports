@@ -6,41 +6,15 @@ VALUES (37042, 'ace37042-emissaryofasheron', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37042,   1,         16) /* ItemType - Creature */
      , (37042,   2,         62) /* CreatureType - Elemental */
-     , (37042,   5,       1924) /* EncumbranceVal */
      , (37042,   6,        255) /* ItemsCapacity */
      , (37042,   7,        255) /* ContainersCapacity */
      , (37042,  16,         32) /* ItemUseable - Remote */
-     , (37042,  19,      20418) /* Value */
      , (37042,  25,         60) /* Level */
-     , (37042,  28,        266) /* ArmorLevel */
-     , (37042,  44,         29) /* Damage */
-     , (37042,  45,         32) /* DamageType - Acid */
-     , (37042,  47,          4) /* AttackType - Slash */
-     , (37042,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (37042,  49,         39) /* WeaponTime */
      , (37042,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37042,  95,          8) /* RadarBlipColor - Yellow */
-     , (37042, 105,          7) /* ItemWorkmanship */
-     , (37042, 106,        241) /* ItemSpellcraft */
-     , (37042, 107,       1101) /* ItemCurMana */
-     , (37042, 108,       1101) /* ItemMaxMana */
-     , (37042, 109,        110) /* ItemDifficulty */
-     , (37042, 110,          0) /* ItemAllegianceRankLimit */
-     , (37042, 115,        261) /* ItemSkillLevelLimit */
-     , (37042, 131,         54) /* MaterialType - GromnieHide */
      , (37042, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (37042, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (37042, 158,          2) /* WieldRequirements - RawSkill */
-     , (37042, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (37042, 160,        350) /* WieldDifficulty */
-     , (37042, 172,          1) /* AppraisalLongDescDecoration */
-     , (37042, 176,          6) /* AppraisalItemSkill */
-     , (37042, 177,          3) /* GemCount */
-     , (37042, 178,         39) /* GemType */
-     , (37042, 292,          2) /* Cleaving */
-     , (37042, 353,         11) /* WeaponType - TwoHanded */
-     , (37042, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (37042, 8030,          0);
+     , (37042, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37042,   1, True ) /* Stuck */
@@ -50,32 +24,14 @@ VALUES (37042,   1, True ) /* Stuck */
      , (37042,  14, True ) /* GravityStatus */
      , (37042,  19, False) /* Attackable */
      , (37042,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (37042,  42, True ) /* AllowEdgeSlide */
-     , (37042, 100, True ) /* Dyable */;
+     , (37042,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37042,   5,   -0.05) /* ManaRate */
-     , (37042,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (37042,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (37042,  15,       1) /* ArmorModVsBludgeon */
-     , (37042,  16, 1.28874361515045) /* ArmorModVsCold */
-     , (37042,  17,     0.5) /* ArmorModVsFire */
-     , (37042,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (37042,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (37042,  21,       0) /* WeaponLength */
-     , (37042,  22,     0.4) /* DamageVariance */
-     , (37042,  26,       0) /* MaximumVelocity */
-     , (37042,  29,    1.08) /* WeaponDefense */
-     , (37042,  54,       3) /* UseRadius */
-     , (37042,  62,    1.15) /* WeaponOffense */
-     , (37042,  63,       1) /* DamageMod */
-     , (37042, 165,       1) /* ArmorModVsNether */;
+VALUES (37042,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37042,   1, 'Emissary of Asheron') /* Name */
      , (37042,   5, 'Emissary') /* Template */
-     , (37042,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (37042,  16, 'Amuli Leggings') /* LongDesc */
      , (37042, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -106,10 +62,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (37042,   1,   190, 0, 0, 190) /* MaxHealth */
      , (37042,   3,   330, 0, 0, 330) /* MaxStamina */
      , (37042,   5,   270, 0, 0, 270) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37042,  1354,      2) 
-     , (37042,  1486,      2) 
-     , (37042,  2093,      2) 
-     , (37042,  2096,      2) 
-     , (37042,  2509,      2) ;

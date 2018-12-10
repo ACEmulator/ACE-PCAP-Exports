@@ -13,10 +13,6 @@ VALUES (40692,   1,          2) /* ItemType - Armor */
      , (40692,  19,      25853) /* Value */
      , (40692,  28,        513) /* ArmorLevel */
      , (40692,  36,       9999) /* ResistMagic */
-     , (40692,  44,          0) /* Damage */
-     , (40692,  45,         32) /* DamageType - Acid */
-     , (40692,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (40692,  49,         95) /* WeaponTime */
      , (40692,  65,        101) /* Placement - Resting */
      , (40692,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40692, 105,          7) /* ItemWorkmanship */
@@ -31,17 +27,9 @@ VALUES (40692,   1,          2) /* ItemType - Armor */
      , (40692, 159,          6) /* WieldSkilltype - MeleeDefense */
      , (40692, 160,        410) /* WieldDifficulty */
      , (40692, 172,          1) /* AppraisalLongDescDecoration */
-     , (40692, 176,          7) /* AppraisalItemSkill */
-     , (40692, 177,          4) /* GemCount */
-     , (40692, 178,         26) /* GemType */
-     , (40692, 204,         11) /* ElementalDamageBonus */
-     , (40692, 265,         17) /* EquipmentSetId - Tinkers */
      , (40692, 270,          7) /* WieldRequirements2 - Level */
      , (40692, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40692, 272,        180) /* WieldDifficulty2 */
-     , (40692, 353,          9) /* WeaponType - Crossbow */
-     , (40692, 375,          1) /* GearCritDamageResist */
-     , (40692, 8030,          0);
+     , (40692, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40692,   1, False) /* Stuck */
@@ -61,13 +49,7 @@ VALUES (40692,   5, -0.0666666666666667) /* ManaRate */
      , (40692,  17, 1.20000004768372) /* ArmorModVsFire */
      , (40692,  18, 1.60000002384186) /* ArmorModVsAcid */
      , (40692,  19, 1.39999997615814) /* ArmorModVsElectric */
-     , (40692,  21,       0) /* WeaponLength */
-     , (40692,  22,       0) /* DamageVariance */
-     , (40692,  26,    27.3) /* MaximumVelocity */
-     , (40692,  29,    1.13) /* WeaponDefense */
      , (40692,  39, 1.33000004291534) /* DefaultScale */
-     , (40692,  62,       1) /* WeaponOffense */
-     , (40692,  63,     2.6) /* DamageMod */
      , (40692, 165,       1) /* ArmorModVsNether */
      , (40692, 8004,       7) /* PCAPRecordedWorkmanship */;
 
@@ -93,44 +75,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40692, 8000, 2905186810) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40692,  1486,      2) 
-     , (40692,  1516,      2) 
-     , (40692,  1562,      2) 
-     , (40692,  2061,      2) 
-     , (40692,  2081,      2) 
-     , (40692,  2087,      2) 
-     , (40692,  2092,      2) 
-     , (40692,  2094,      2) 
-     , (40692,  2098,      2) 
-     , (40692,  2102,      2) 
-     , (40692,  2104,      2) 
-     , (40692,  2108,      2) 
-     , (40692,  2110,      2) 
-     , (40692,  2301,      2) 
-     , (40692,  2516,      2) 
-     , (40692,  2527,      2) 
-     , (40692,  2534,      2) 
-     , (40692,  2549,      2) 
-     , (40692,  2573,      2) 
-     , (40692,  2590,      2) 
-     , (40692,  2593,      2) 
-     , (40692,  2614,      2) 
-     , (40692,  3964,      2) 
-     , (40692,  4227,      2) 
+VALUES (40692,  2108,      2) 
      , (40692,  4319,      2) 
-     , (40692,  4325,      2) 
-     , (40692,  4393,      2) 
-     , (40692,  4397,      2) 
-     , (40692,  4401,      2) 
-     , (40692,  4407,      2) 
-     , (40692,  4409,      2) 
-     , (40692,  4685,      2) 
-     , (40692,  4687,      2) 
-     , (40692,  4689,      2) 
-     , (40692,  4698,      2) 
-     , (40692,  4701,      2) 
-     , (40692,  6044,      2) 
-     , (40692,  6122,      2) ;
+     , (40692,  4689,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40692, 67116578, 148, 4)

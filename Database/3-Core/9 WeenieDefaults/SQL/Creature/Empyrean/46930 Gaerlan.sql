@@ -6,20 +6,12 @@ VALUES (46930, 'ace46930-gaerlan', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46930,   1,         16) /* ItemType - Creature */
      , (46930,   2,         51) /* CreatureType - Empyrean */
-     , (46930,   5,         90) /* EncumbranceVal */
      , (46930,   6,        255) /* ItemsCapacity */
      , (46930,   7,        255) /* ContainersCapacity */
      , (46930,  16,          1) /* ItemUseable - No */
-     , (46930,  19,       1252) /* Value */
      , (46930,  25,        750) /* Level */
-     , (46930,  28,          0) /* ArmorLevel */
      , (46930,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46930, 105,          7) /* ItemWorkmanship */
-     , (46930, 131,          7) /* MaterialType - Velvet */
      , (46930, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46930, 172,          5) /* AppraisalLongDescDecoration */
-     , (46930, 177,          1) /* GemCount */
-     , (46930, 178,         13) /* GemType */
      , (46930, 307,          5) /* DamageRating */
      , (46930, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -28,23 +20,13 @@ VALUES (46930,   1, True ) /* Stuck */
      , (46930,  12, True ) /* ReportCollisions */
      , (46930,  13, False) /* Ethereal */
      , (46930,  14, True ) /* GravityStatus */
-     , (46930,  19, True ) /* Attackable */
-     , (46930, 100, True ) /* Dyable */;
+     , (46930,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46930,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (46930,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (46930,  15,       1) /* ArmorModVsBludgeon */
-     , (46930,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (46930,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (46930,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (46930,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (46930,  39, 1.29999995231628) /* DefaultScale */
-     , (46930, 165,       1) /* ArmorModVsNether */;
+VALUES (46930,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46930,   1, 'Gaerlan') /* Name */
-     , (46930,  16, 'Wide Breeches') /* LongDesc */
      , (46930, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -5,7 +5,6 @@ VALUES (48067, 'ace48067-lightningquarrel', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48067,   1,        256) /* ItemType - MissileWeapon */
-     , (48067,   2,         53) /* CreatureType - Doll */
      , (48067,   5,        715) /* EncumbranceVal */
      , (48067,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48067,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (48067,   1,        256) /* ItemType - MissileWeapon */
      , (48067,  16,          1) /* ItemUseable - No */
      , (48067,  18,         64) /* UiEffects - Lightning */
      , (48067,  19,        143) /* Value */
-     , (48067,  25,        135) /* Level */
      , (48067,  33,         -2) /* Bonded - Destroy */
      , (48067,  44,        304) /* Damage */
      , (48067,  45,         64) /* DamageType - Electric */
@@ -24,17 +22,7 @@ VALUES (48067,   1,        256) /* ItemType - MissileWeapon */
      , (48067,  51,          3) /* CombatUse - Ammo */
      , (48067,  65,          1) /* Placement - RightHandCombat */
      , (48067,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48067, 105,          7) /* ItemWorkmanship */
-     , (48067, 106,        200) /* ItemSpellcraft */
-     , (48067, 107,        501) /* ItemCurMana */
-     , (48067, 108,        501) /* ItemMaxMana */
-     , (48067, 109,          0) /* ItemDifficulty */
-     , (48067, 110,          0) /* ItemAllegianceRankLimit */
-     , (48067, 115,          0) /* ItemSkillLevelLimit */
-     , (48067, 117,        300) /* ItemManaCost */
-     , (48067, 131,         34) /* MaterialType - Peridot */
      , (48067, 151,          2) /* HookType - Wall */
-     , (48067, 172,          1) /* AppraisalLongDescDecoration */
      , (48067, 179,          0) /* ImbuedEffect - Undef */
      , (48067, 303,          0) /* ImbuedEffect2 - Undef */
      , (48067, 304,          0) /* ImbuedEffect3 - Undef */
@@ -68,8 +56,7 @@ VALUES (48067,  21,       0) /* WeaponLength */
      , (48067, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48067,   1, 'Lightning Quarrel') /* Name */
-     , (48067,  16, 'Killed by Mag-five.') /* LongDesc */;
+VALUES (48067,   1, 'Lightning Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48067,   1,   33555695) /* Setup */
@@ -90,12 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48067,   3, 3681279191) /* Wielder */
      , (48067, 8000, 3681279222) /* PCAPRecordedObjectIID */
      , (48067, 8008, 3681279191) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48067,   1,   900, 0, 0, 900) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48067,  1425,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48067, 67111923, 0, 0);

@@ -5,14 +5,12 @@ VALUES (47421, 'ace47421-acidmace', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47421,   1,          1) /* ItemType - MeleeWeapon */
-     , (47421,   2,         30) /* CreatureType - Skeleton */
      , (47421,   5,        800) /* EncumbranceVal */
      , (47421,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47421,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47421,  16,          1) /* ItemUseable - No */
      , (47421,  18,        256) /* UiEffects - Acid */
      , (47421,  19,        350) /* Value */
-     , (47421,  25,        180) /* Level */
      , (47421,  51,          1) /* CombatUse - Melee */
      , (47421,  65,          1) /* Placement - RightHandCombat */
      , (47421,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -48,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47421,   3, 3694248160) /* Wielder */
      , (47421, 8000, 3694248161) /* PCAPRecordedObjectIID */
      , (47421, 8008, 3694248160) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47421,   1,  1020, 0, 0, 1020) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47421, 67111920, 0, 0);

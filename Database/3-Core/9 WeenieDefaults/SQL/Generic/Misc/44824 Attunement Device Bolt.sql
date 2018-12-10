@@ -7,12 +7,8 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44824,   1,        128) /* ItemType - Misc */
      , (44824,   5,         10) /* EncumbranceVal */
      , (44824,  16,          1) /* ItemUseable - No */
-     , (44824,  19,       1200) /* Value */
      , (44824,  65,        101) /* Placement - Resting */
-     , (44824,  91,         50) /* MaxStructure */
-     , (44824,  92,         50) /* Structure */
-     , (44824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44824, 173,        100) /* AppraisalLockpickSuccessPercent */;
+     , (44824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44824,   1, False) /* Stuck */
@@ -26,8 +22,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44824,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44824,   1, 'Attunement Device Bolt') /* Name */
-     , (44824,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */;
+VALUES (44824,   1, 'Attunement Device Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44824,   1,   33557679) /* Setup */

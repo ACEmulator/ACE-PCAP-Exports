@@ -6,11 +6,9 @@ VALUES (5777, 'towncriershomale', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5777,   1,         16) /* ItemType - Creature */
      , (5777,   2,         31) /* CreatureType - Human */
-     , (5777,   5,       7334) /* EncumbranceVal */
      , (5777,   6,        255) /* ItemsCapacity */
      , (5777,   7,        255) /* ContainersCapacity */
      , (5777,  16,         32) /* ItemUseable - Remote */
-     , (5777,  19,          0) /* Value */
      , (5777,  25,         30) /* Level */
      , (5777,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5777,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (5777,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5777,   1, 'Town Crier') /* Name */
      , (5777,   5, 'Herald') /* Template */
-     , (5777,  16, 'Killed by Jak Sv.') /* LongDesc */
      , (5777, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

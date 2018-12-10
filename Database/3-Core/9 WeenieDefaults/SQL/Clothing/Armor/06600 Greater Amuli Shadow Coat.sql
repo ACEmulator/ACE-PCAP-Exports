@@ -35,9 +35,7 @@ VALUES (6600,  13,       1) /* ArmorModVsSlash */
      , (6600, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6600,   1, 'Greater Amuli Shadow Coat') /* Name */
-     , (6600,   7, 'ppgsa') /* Inscription */
-     , (6600,   8, 'Renamed Five') /* ScribeName */;
+VALUES (6600,   1, 'Greater Amuli Shadow Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6600,   1,   33554854) /* Setup */

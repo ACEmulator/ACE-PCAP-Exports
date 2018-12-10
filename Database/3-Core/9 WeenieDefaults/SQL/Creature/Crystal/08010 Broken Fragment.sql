@@ -6,26 +6,13 @@ VALUES (8010, 'crystalbrokenfragmentnew', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8010,   1,         16) /* ItemType - Creature */
      , (8010,   2,         47) /* CreatureType - Crystal */
-     , (8010,   5,          0) /* EncumbranceVal */
      , (8010,   6,        255) /* ItemsCapacity */
      , (8010,   7,        255) /* ContainersCapacity */
      , (8010,  16,          1) /* ItemUseable - No */
-     , (8010,  19,          0) /* Value */
      , (8010,  25,         20) /* Level */
-     , (8010,  33,         -2) /* Bonded - Destroy */
-     , (8010,  44,        610) /* Damage */
-     , (8010,  45,          2) /* DamageType - Pierce */
-     , (8010,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (8010,  49,         10) /* WeaponTime */
      , (8010,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (8010, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (8010, 307,          5) /* DamageRating */
-     , (8010, 313,          0) /* CritRating */
-     , (8010, 314,          0) /* CritDamageRating */
-     , (8010, 353,         10) /* WeaponType - Thrown */
-     , (8010, 386,          0) /* Overpower */
-     , (8010, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (8010, 8030,          0);
+     , (8010, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8010,   1, True ) /* Stuck */
@@ -36,20 +23,10 @@ VALUES (8010,   1, True ) /* Stuck */
      , (8010,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8010,  21,       0) /* WeaponLength */
-     , (8010,  22,     0.5) /* DamageVariance */
-     , (8010,  26, 23.2000007629395) /* MaximumVelocity */
-     , (8010,  29,       1) /* WeaponDefense */
-     , (8010,  39,     1.5) /* DefaultScale */
-     , (8010,  62,       1) /* WeaponOffense */
-     , (8010,  63,       1) /* DamageMod */
-     , (8010, 147,       1) /* CriticalFrequency */
-     , (8010, 149,       0) /* WeaponMissileDefense */
-     , (8010, 150,       0) /* WeaponMagicDefense */;
+VALUES (8010,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8010,   1, 'Broken Fragment') /* Name */
-     , (8010,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (8010, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

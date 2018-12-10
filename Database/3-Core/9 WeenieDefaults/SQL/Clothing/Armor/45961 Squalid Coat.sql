@@ -31,7 +31,6 @@ VALUES (45961,   1, False) /* Stuck */
      , (45961,  14, True ) /* GravityStatus */
      , (45961,  19, True ) /* Attackable */
      , (45961,  22, True ) /* Inscribable */
-     , (45961,  85, True ) /* AppraisalHasAllowedWielder */
      , (45961,  99, True ) /* Ivoryable */
      , (45961, 100, True ) /* Dyable */;
 
@@ -48,8 +47,7 @@ VALUES (45961,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45961,   1, 'Squalid Coat') /* Name */
-     , (45961,  16, NULL) /* LongDesc */
-     , (45961,  25, 'Brambles') /* CraftsmanName */;
+     , (45961,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45961,   1,   33554642) /* Setup */

@@ -36,8 +36,6 @@ VALUES (10858,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10858,   1, 'A Ring of Acid Protection') /* Name */
-     , (10858,   7, 'Turker') /* Inscription */
-     , (10858,   8, 'Spotieodiedopalicous') /* ScribeName */
      , (10858,  15, 'A ring of acid protection, given by Behdo Yii for completing the Gardener quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -23,7 +23,6 @@ VALUES (49441,   1,        128) /* ItemType - Misc */
      , (49441, 368,         54) /* UseRequiresSkillSpec */
      , (49441, 369,        185) /* UseRequiresLevel */
      , (49441, 370,         13) /* GearDamage */
-     , (49441, 371,         11) /* GearDamageResist */
      , (49441, 372,          2) /* GearCrit */
      , (49441, 373,         15) /* GearCritResist */
      , (49441, 374,         15) /* GearCritDamage */
@@ -44,8 +43,6 @@ VALUES (49441,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49441,   1, 'Fire Maiden Essence') /* Name */
-     , (49441,   7, '18dam/11res') /* Inscription */
-     , (49441,   8, 'Damien Ash') /* ScribeName */
      , (49441,  14, 'Use this essence to summon or dismiss your Fire Maiden.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

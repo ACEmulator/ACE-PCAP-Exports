@@ -6,24 +6,12 @@ VALUES (20190, 'frostelementalgelid', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20190,   1,         16) /* ItemType - Creature */
      , (20190,   2,         61) /* CreatureType - FrostElemental */
-     , (20190,   5,         50) /* EncumbranceVal */
      , (20190,   6,        255) /* ItemsCapacity */
      , (20190,   7,        255) /* ContainersCapacity */
      , (20190,  16,          1) /* ItemUseable - No */
-     , (20190,  19,       4000) /* Value */
      , (20190,  25,        115) /* Level */
-     , (20190,  33,          0) /* Bonded - Normal */
-     , (20190,  91,         50) /* MaxStructure */
-     , (20190,  92,         50) /* Structure */
      , (20190,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
-     , (20190, 105,          5) /* ItemWorkmanship */
-     , (20190, 114,          0) /* Attuned - Normal */
      , (20190, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (20190, 280,        213) /* SharedCooldown */
-     , (20190, 366,         54) /* UseRequiresSkill */
-     , (20190, 367,        310) /* UseRequiresSkillLevel */
-     , (20190, 369,         40) /* UseRequiresLevel */
-     , (20190, 374,         17) /* GearCritDamage */
      , (20190, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,16 +20,13 @@ VALUES (20190,   1, True ) /* Stuck */
      , (20190,  13, False) /* Ethereal */
      , (20190,  14, True ) /* GravityStatus */
      , (20190,  15, True ) /* LightsStatus */
-     , (20190,  19, True ) /* Attackable */
-     , (20190,  69, True ) /* IsSellable */;
+     , (20190,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20190,  39,     1.5) /* DefaultScale */
-     , (20190, 167,      45) /* CooldownDuration */;
+VALUES (20190,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20190,   1, 'Gelid') /* Name */
-     , (20190,  14, 'Use this essence to summon or dismiss your Acid Phyntos Wasp.') /* Use */
      , (20190, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

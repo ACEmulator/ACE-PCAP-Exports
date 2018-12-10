@@ -6,27 +6,14 @@ VALUES (20925, 'retreatcollector', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20925,   1,         16) /* ItemType - Creature */
      , (20925,   2,         19) /* CreatureType - Virindi */
-     , (20925,   5,        450) /* EncumbranceVal */
      , (20925,   6,        255) /* ItemsCapacity */
      , (20925,   7,        255) /* ContainersCapacity */
      , (20925,  16,         32) /* ItemUseable - Remote */
-     , (20925,  19,       3088) /* Value */
      , (20925,  25,         40) /* Level */
-     , (20925,  28,        128) /* ArmorLevel */
      , (20925,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (20925,  95,          8) /* RadarBlipColor - Yellow */
-     , (20925, 105,          5) /* ItemWorkmanship */
-     , (20925, 106,          2) /* ItemSpellcraft */
-     , (20925, 107,         87) /* ItemCurMana */
-     , (20925, 108,         87) /* ItemMaxMana */
-     , (20925, 109,          0) /* ItemDifficulty */
-     , (20925, 110,          0) /* ItemAllegianceRankLimit */
-     , (20925, 115,         22) /* ItemSkillLevelLimit */
-     , (20925, 131,         52) /* MaterialType - Leather */
      , (20925, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20925, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (20925, 172,          1) /* AppraisalLongDescDecoration */
-     , (20925, 176,          6) /* AppraisalItemSkill */
      , (20925, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,24 +24,13 @@ VALUES (20925,   1, True ) /* Stuck */
      , (20925,  14, True ) /* GravityStatus */
      , (20925,  19, False) /* Attackable */
      , (20925,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (20925,  42, True ) /* AllowEdgeSlide */
-     , (20925, 100, True ) /* Dyable */;
+     , (20925,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20925,   5, -0.00833333333333333) /* ManaRate */
-     , (20925,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (20925,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (20925,  15,       1) /* ArmorModVsBludgeon */
-     , (20925,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (20925,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (20925,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (20925,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (20925,  54,       3) /* UseRadius */
-     , (20925, 165,       1) /* ArmorModVsNether */;
+VALUES (20925,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20925,   1, 'Timon Rae') /* Name */
-     , (20925,  16, 'Studded Leather Tassets') /* LongDesc */
      , (20925, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,9 +62,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (20925,   1,   145, 0, 0, 145) /* MaxHealth */
      , (20925,   3,   300, 0, 0, 300) /* MaxStamina */
      , (20925,   5,   550, 0, 0, 550) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20925,    51,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20925, 67111815, 0, 0);

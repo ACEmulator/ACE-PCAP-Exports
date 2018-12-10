@@ -42,7 +42,7 @@ VALUES (30806,   1,   33556769) /* Setup */
      , (30806,   6,   67111919) /* PaletteBase */
      , (30806,   8,  100668364) /* Icon */
      , (30806,  22,  872415275) /* PhysicsEffectTable */
-     , (30806,  28,        157) /* Spell */
+     , (30806,  28,        157) /* Spell - SummonPortal1 */
      , (30806,  50,  100676404) /* IconOverlay */
      , (30806, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30806, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */

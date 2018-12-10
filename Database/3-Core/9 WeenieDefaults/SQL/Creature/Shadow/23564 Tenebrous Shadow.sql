@@ -6,46 +6,16 @@ VALUES (23564, 'shadowtenebrous', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23564,   1,         16) /* ItemType - Creature */
      , (23564,   2,         22) /* CreatureType - Shadow */
-     , (23564,   5,        100) /* EncumbranceVal */
      , (23564,   6,        255) /* ItemsCapacity */
      , (23564,   7,        255) /* ContainersCapacity */
      , (23564,  16,          1) /* ItemUseable - No */
-     , (23564,  19,      14171) /* Value */
      , (23564,  25,        100) /* Level */
-     , (23564,  28,        255) /* ArmorLevel */
-     , (23564,  33,          1) /* Bonded - Bonded */
-     , (23564,  44,         10) /* Damage */
-     , (23564,  45,          4) /* DamageType - Bludgeon */
-     , (23564,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (23564,  49,         10) /* WeaponTime */
-     , (23564,  91,         50) /* MaxStructure */
-     , (23564,  92,         50) /* Structure */
      , (23564,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (23564, 105,         36) /* ItemWorkmanship */
-     , (23564, 106,        370) /* ItemSpellcraft */
-     , (23564, 107,       1814) /* ItemCurMana */
-     , (23564, 108,       1814) /* ItemMaxMana */
-     , (23564, 109,        262) /* ItemDifficulty */
-     , (23564, 110,          0) /* ItemAllegianceRankLimit */
      , (23564, 113,          2) /* Gender - Female */
-     , (23564, 115,        273) /* ItemSkillLevelLimit */
-     , (23564, 131,         74) /* MaterialType - Mahogany */
      , (23564, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23564, 158,          7) /* WieldRequirements - Level */
-     , (23564, 159,          1) /* WieldSkilltype - Axe */
-     , (23564, 160,        180) /* WieldDifficulty */
-     , (23564, 170,          4) /* NumItemsInMaterial */
-     , (23564, 172,          1) /* AppraisalLongDescDecoration */
-     , (23564, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (23564, 176,          7) /* AppraisalItemSkill */
-     , (23564, 177,          3) /* GemCount */
-     , (23564, 178,         23) /* GemType */
      , (23564, 188,          1) /* HeritageGroup - Aluvian */
      , (23564, 307,          5) /* DamageRating */
-     , (23564, 353,         10) /* WeaponType - Thrown */
-     , (23564, 374,          1) /* GearCritDamage */
-     , (23564, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (23564, 8030,          0);
+     , (23564, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23564,   1, True ) /* Stuck */
@@ -53,32 +23,13 @@ VALUES (23564,   1, True ) /* Stuck */
      , (23564,  13, False) /* Ethereal */
      , (23564,  14, True ) /* GravityStatus */
      , (23564,  19, True ) /* Attackable */
-     , (23564,  42, True ) /* AllowEdgeSlide */
-     , (23564, 100, True ) /* Dyable */;
+     , (23564,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23564,   5, -0.0666666666666667) /* ManaRate */
-     , (23564,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (23564,  14,       1) /* ArmorModVsPierce */
-     , (23564,  15,       1) /* ArmorModVsBludgeon */
-     , (23564,  16, 0.867560386657715) /* ArmorModVsCold */
-     , (23564,  17, 0.954453647136688) /* ArmorModVsFire */
-     , (23564,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (23564,  19, 0.85153466463089) /* ArmorModVsElectric */
-     , (23564,  21,       0) /* WeaponLength */
-     , (23564,  22,    0.25) /* DamageVariance */
-     , (23564,  26,       0) /* MaximumVelocity */
-     , (23564,  29,       1) /* WeaponDefense */
-     , (23564,  62,       1) /* WeaponOffense */
-     , (23564,  63,       1) /* DamageMod */
-     , (23564,  76,     0.5) /* Translucency */
-     , (23564, 165,       1) /* ArmorModVsNether */;
+VALUES (23564,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23564,   1, 'Tenebrous Shadow') /* Name */
-     , (23564,  14, 'Apply this material to a treasure-generated missile weapon to increase the weapon''s damage modifier by 4%.') /* Use */
-     , (23564,  15, 'A bundle of mahogany material salvaged from old items.') /* ShortDesc */
-     , (23564,  16, 'Olthoi Celdon Girth of Fealty') /* LongDesc */
      , (23564, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -117,12 +68,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (23564,   1,   385, 0, 0, 385) /* MaxHealth */
      , (23564,   3,   530, 0, 0, 530) /* MaxStamina */
      , (23564,   5,   490, 0, 0, 490) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23564,   926,      2) 
-     , (23564,  2233,      2) 
-     , (23564,  4407,      2) 
-     , (23564,  4697,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23564, 67112860, 0, 0);

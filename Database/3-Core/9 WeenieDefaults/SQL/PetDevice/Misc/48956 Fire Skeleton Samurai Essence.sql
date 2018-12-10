@@ -5,12 +5,10 @@ VALUES (48956, 'ace48956-fireskeletonsamuraiessence', 70) /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48956,   1,        128) /* ItemType - Misc */
-     , (48956,   2,         30) /* CreatureType - Skeleton */
      , (48956,   5,         50) /* EncumbranceVal */
      , (48956,  16,          8) /* ItemUseable - Contained */
      , (48956,  18,         32) /* UiEffects - Fire */
      , (48956,  19,      10000) /* Value */
-     , (48956,  25,        125) /* Level */
      , (48956,  33,          0) /* Bonded - Normal */
      , (48956,  65,        101) /* Placement - Resting */
      , (48956,  91,         50) /* MaxStructure */
@@ -25,9 +23,7 @@ VALUES (48956,   1,        128) /* ItemType - Misc */
      , (48956, 368,         54) /* UseRequiresSkillSpec */
      , (48956, 369,        185) /* UseRequiresLevel */
      , (48956, 370,         19) /* GearDamage */
-     , (48956, 371,         12) /* GearDamageResist */
      , (48956, 372,          7) /* GearCrit */
-     , (48956, 373,         12) /* GearCritResist */
      , (48956, 374,         15) /* GearCritDamage */
      , (48956, 375,         13) /* GearCritDamageResist */;
 
@@ -46,9 +42,6 @@ VALUES (48956,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48956,   1, 'Fire Skeleton Samurai Essence') /* Name */
-     , (48956,   7, '
-''') /* Inscription */
-     , (48956,   8, 'Stramus') /* ScribeName */
      , (48956,  14, 'Use this essence to summon or dismiss your Fire Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -67,9 +60,6 @@ VALUES (48956,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48956,   2, 3116523930) /* Container */
      , (48956, 8000, 3315626412) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48956,   1,   870, 0, 0, 870) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48956, 67111923, 0, 0);

@@ -11,29 +11,19 @@ VALUES (47255,   1,          1) /* ItemType - MeleeWeapon */
      , (47255,  16,          1) /* ItemUseable - No */
      , (47255,  19,        350) /* Value */
      , (47255,  51,          1) /* CombatUse - Melee */
-     , (47255,  90,         25) /* BoostValue */
-     , (47255,  91,         50) /* MaxStructure */
-     , (47255,  92,         50) /* Structure */
      , (47255,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47255, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47255,   1, False) /* Stuck */
-     , (47255,   2, False) /* Open */
      , (47255,  11, True ) /* IgnoreCollisions */
      , (47255,  13, True ) /* Ethereal */
      , (47255,  14, True ) /* GravityStatus */
      , (47255,  19, True ) /* Attackable */
-     , (47255,  22, True ) /* Inscribable */
-     , (47255,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47255, 100,       2) /* HealkitMod */;
+     , (47255,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47255,   1, 'Board with Nail') /* Name */
-     , (47255,  14, 'Use this item to close it.') /* Use */
-     , (47255,  16, 'Killed by High-Voltage II.') /* LongDesc */;
+VALUES (47255,   1, 'Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47255,   1,   33559627) /* Setup */

@@ -11,27 +11,10 @@ VALUES (47616,   1,          1) /* ItemType - MeleeWeapon */
      , (47616,  16,          1) /* ItemUseable - No */
      , (47616,  18,        256) /* UiEffects - Acid */
      , (47616,  19,        460) /* Value */
-     , (47616,  44,         20) /* Damage */
-     , (47616,  45,          4) /* DamageType - Bludgeon */
-     , (47616,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (47616,  49,         10) /* WeaponTime */
      , (47616,  51,          1) /* CombatUse - Melee */
      , (47616,  65,          1) /* Placement - RightHandCombat */
      , (47616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47616, 105,          7) /* ItemWorkmanship */
-     , (47616, 106,        231) /* ItemSpellcraft */
-     , (47616, 107,       1634) /* ItemCurMana */
-     , (47616, 108,       1634) /* ItemMaxMana */
-     , (47616, 109,        173) /* ItemDifficulty */
-     , (47616, 110,          0) /* ItemAllegianceRankLimit */
-     , (47616, 115,          0) /* ItemSkillLevelLimit */
-     , (47616, 131,         27) /* MaterialType - Jet */
-     , (47616, 151,          2) /* HookType - Wall */
-     , (47616, 172,          5) /* AppraisalLongDescDecoration */
-     , (47616, 177,          4) /* GemCount */
-     , (47616, 178,         43) /* GemType */
-     , (47616, 353,         10) /* WeaponType - Thrown */
-     , (47616, 8030,          0);
+     , (47616, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47616,   1, False) /* Stuck */
@@ -41,18 +24,8 @@ VALUES (47616,   1, False) /* Stuck */
      , (47616,  19, True ) /* Attackable */
      , (47616,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47616,   5, -0.0555555555555556) /* ManaRate */
-     , (47616,  21,       0) /* WeaponLength */
-     , (47616,  22,    0.25) /* DamageVariance */
-     , (47616,  26,       0) /* MaximumVelocity */
-     , (47616,  29,       1) /* WeaponDefense */
-     , (47616,  62,       1) /* WeaponOffense */
-     , (47616,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47616,   1, 'Acid Tachi') /* Name */
-     , (47616,  16, 'Ornamental Bowl of Fletching Mastery') /* LongDesc */;
+VALUES (47616,   1, 'Acid Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47616,   1,   33555730) /* Setup */
@@ -73,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47616,   3, 3685690273) /* Wielder */
      , (47616, 8000, 3685003387) /* PCAPRecordedObjectIID */
      , (47616, 8008, 3685690273) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47616,  1744,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47616, 67111920, 0, 0);

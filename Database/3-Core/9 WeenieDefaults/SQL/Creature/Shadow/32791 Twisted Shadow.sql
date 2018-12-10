@@ -6,58 +6,15 @@ VALUES (32791, 'ace32791-twistedshadow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32791,   1,         16) /* ItemType - Creature */
      , (32791,   2,         22) /* CreatureType - Shadow */
-     , (32791,   5,       6105) /* EncumbranceVal */
      , (32791,   6,        255) /* ItemsCapacity */
      , (32791,   7,        255) /* ContainersCapacity */
      , (32791,  16,          1) /* ItemUseable - No */
-     , (32791,  19,          0) /* Value */
      , (32791,  25,        160) /* Level */
-     , (32791,  28,        270) /* ArmorLevel */
-     , (32791,  33,          0) /* Bonded - Normal */
-     , (32791,  36,       9999) /* ResistMagic */
-     , (32791,  44,         42) /* Damage */
-     , (32791,  45,          4) /* DamageType - Bludgeon */
-     , (32791,  47,          4) /* AttackType - Slash */
-     , (32791,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (32791,  49,         44) /* WeaponTime */
-     , (32791,  91,         50) /* MaxStructure */
-     , (32791,  92,         50) /* Structure */
      , (32791,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (32791, 105,          9) /* ItemWorkmanship */
-     , (32791, 106,        285) /* ItemSpellcraft */
-     , (32791, 107,        926) /* ItemCurMana */
-     , (32791, 108,        926) /* ItemMaxMana */
-     , (32791, 109,        202) /* ItemDifficulty */
-     , (32791, 110,          0) /* ItemAllegianceRankLimit */
      , (32791, 113,          2) /* Gender - Female */
-     , (32791, 114,          0) /* Attuned - Normal */
-     , (32791, 115,        213) /* ItemSkillLevelLimit */
-     , (32791, 117,        350) /* ItemManaCost */
-     , (32791, 131,         52) /* MaterialType - Leather */
      , (32791, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (32791, 158,          2) /* WieldRequirements - RawSkill */
-     , (32791, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (32791, 160,        350) /* WieldDifficulty */
-     , (32791, 172,          1) /* AppraisalLongDescDecoration */
-     , (32791, 176,          7) /* AppraisalItemSkill */
-     , (32791, 177,          1) /* GemCount */
-     , (32791, 178,         38) /* GemType */
      , (32791, 188,          1) /* HeritageGroup - Aluvian */
-     , (32791, 204,          6) /* ElementalDamageBonus */
-     , (32791, 280,        213) /* SharedCooldown */
-     , (32791, 307,          5) /* DamageRating */
-     , (32791, 353,          3) /* WeaponType - Axe */
-     , (32791, 366,         54) /* UseRequiresSkill */
-     , (32791, 367,        430) /* UseRequiresSkillLevel */
-     , (32791, 369,        115) /* UseRequiresLevel */
-     , (32791, 370,         11) /* GearDamage */
-     , (32791, 371,          9) /* GearDamageResist */
-     , (32791, 372,          7) /* GearCrit */
-     , (32791, 373,         13) /* GearCritResist */
-     , (32791, 374,         13) /* GearCritDamage */
-     , (32791, 375,         11) /* GearCritDamageResist */
-     , (32791, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (32791, 8030,          0);
+     , (32791, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32791,   1, True ) /* Stuck */
@@ -65,39 +22,13 @@ VALUES (32791,   1, True ) /* Stuck */
      , (32791,  13, False) /* Ethereal */
      , (32791,  14, True ) /* GravityStatus */
      , (32791,  19, True ) /* Attackable */
-     , (32791,  42, True ) /* AllowEdgeSlide */
-     , (32791,  69, True ) /* IsSellable */
-     , (32791, 100, True ) /* Dyable */;
+     , (32791,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32791,   5, -0.0555555555555556) /* ManaRate */
-     , (32791,  13,       1) /* ArmorModVsSlash */
-     , (32791,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (32791,  15,       1) /* ArmorModVsBludgeon */
-     , (32791,  16,     0.5) /* ArmorModVsCold */
-     , (32791,  17,     0.5) /* ArmorModVsFire */
-     , (32791,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (32791,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (32791,  21,       0) /* WeaponLength */
-     , (32791,  22,    0.85) /* DamageVariance */
-     , (32791,  26,       0) /* MaximumVelocity */
-     , (32791,  29,    1.08) /* WeaponDefense */
-     , (32791,  39, 1.10000002384186) /* DefaultScale */
-     , (32791,  62,    1.15) /* WeaponOffense */
-     , (32791,  63,       1) /* DamageMod */
-     , (32791,  87,     1.2) /* ItemEfficiency */
-     , (32791, 137,    0.15) /* ManaStoneDestroyChance */
-     , (32791, 144,    0.05) /* ManaConversionMod */
-     , (32791, 149,   1.015) /* WeaponMissileDefense */
-     , (32791, 150,   1.015) /* WeaponMagicDefense */
-     , (32791, 152,    1.08) /* ElementalDamageMod */
-     , (32791, 165,       1) /* ArmorModVsNether */
-     , (32791, 167,      45) /* CooldownDuration */;
+VALUES (32791,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32791,   1, 'Twisted Shadow') /* Name */
-     , (32791,  14, 'Use this essence to summon or dismiss your Lightning K''nath.') /* Use */
-     , (32791,  16, 'Killed by Mag-five.') /* LongDesc */
      , (32791, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -124,74 +55,8 @@ VALUES (32791, 8040, 7733786, 59.446, -61.7952, -77.9945, -0.8306584, 0, 0, 0.55
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32791, 8000, 3358582485) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (32791,   1, 465, 0, 0) /* Strength */
-     , (32791,   2, 415, 0, 0) /* Endurance */
-     , (32791,   3, 370, 0, 0) /* Quickness */
-     , (32791,   4, 405, 0, 0) /* Coordination */
-     , (32791,   5,  85, 0, 0) /* Focus */
-     , (32791,   6,  85, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32791,   1,   750, 0, 0, 750) /* MaxHealth */
-     , (32791,   3,  1415, 0, 0, 1415) /* MaxStamina */
-     , (32791,   5,    85, 0, 0, 85) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32791,    91,      2) 
-     , (32791,   193,      2) 
-     , (32791,   217,      2) 
-     , (32791,   683,      2) 
-     , (32791,   987,      2) 
-     , (32791,  1138,      2) 
-     , (32791,  1332,      2) 
-     , (32791,  1378,      2) 
-     , (32791,  1402,      2) 
-     , (32791,  1450,      2) 
-     , (32791,  1486,      2) 
-     , (32791,  1562,      2) 
-     , (32791,  1592,      2) 
-     , (32791,  1616,      2) 
-     , (32791,  1627,      2) 
-     , (32791,  2061,      2) 
-     , (32791,  2092,      2) 
-     , (32791,  2094,      2) 
-     , (32791,  2096,      2) 
-     , (32791,  2097,      2) 
-     , (32791,  2098,      2) 
-     , (32791,  2101,      2) 
-     , (32791,  2102,      2) 
-     , (32791,  2108,      2) 
-     , (32791,  2117,      2) 
-     , (32791,  2233,      2) 
-     , (32791,  2250,      2) 
-     , (32791,  2257,      2) 
-     , (32791,  2287,      2) 
-     , (32791,  2506,      2) 
-     , (32791,  2516,      2) 
-     , (32791,  2527,      2) 
-     , (32791,  2534,      2) 
-     , (32791,  2554,      2) 
-     , (32791,  2558,      2) 
-     , (32791,  2564,      2) 
-     , (32791,  2570,      2) 
-     , (32791,  2578,      2) 
-     , (32791,  2582,      2) 
-     , (32791,  2583,      2) 
-     , (32791,  2603,      2) 
-     , (32791,  2606,      2) 
-     , (32791,  2614,      2) 
-     , (32791,  2617,      2) 
-     , (32791,  2620,      2) 
-     , (32791,  2621,      2) 
-     , (32791,  2622,      2) 
-     , (32791,  3259,      2) 
-     , (32791,  5784,      2) 
-     , (32791,  5856,      2) 
-     , (32791,  5881,      2) 
-     , (32791,  5884,      2) 
-     , (32791,  5888,      2) 
-     , (32791,  6126,      2) ;
+VALUES (32791,   1,   750, 0, 0, 750) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32791, 67109558, 0, 24)

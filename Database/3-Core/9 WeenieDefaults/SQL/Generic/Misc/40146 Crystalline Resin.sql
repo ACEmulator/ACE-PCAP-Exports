@@ -12,10 +12,10 @@ VALUES (40146,   1,        128) /* ItemType - Misc */
      , (40146,  19,          0) /* Value */
      , (40146,  33,          1) /* Bonded - Bonded */
      , (40146,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (40146,  98, 1485833462) /* CreationTimestamp */
+     , (40146,  98, 1485833217) /* CreationTimestamp */
      , (40146, 114,          1) /* Attuned - Attuned */
      , (40146, 267,        300) /* Lifespan */
-     , (40146, 268,        299) /* RemainingLifespan */;
+     , (40146, 268,        298) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40146,   1, True ) /* Stuck */

@@ -40,7 +40,7 @@ VALUES (37261,   1,   33560546) /* Setup */
      , (37261,   3,  536870932) /* SoundTable */
      , (37261,   8,  100689861) /* Icon */
      , (37261,  22,  872415275) /* PhysicsEffectTable */
-     , (37261,  28,       4280) /* Spell */
+     , (37261,  28,       4280) /* Spell - CoordinationJesterDeck */
      , (37261, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (37261, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (37261, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

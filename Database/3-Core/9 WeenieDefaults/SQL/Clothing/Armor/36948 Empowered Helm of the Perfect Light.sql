@@ -31,7 +31,6 @@ VALUES (36948,   1, False) /* Stuck */
      , (36948,  19, True ) /* Attackable */
      , (36948,  22, True ) /* Inscribable */
      , (36948,  69, False) /* IsSellable */
-     , (36948,  85, True ) /* AppraisalHasAllowedWielder */
      , (36948,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,8 +46,7 @@ VALUES (36948,   5,    -0.5) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36948,   1, 'Empowered Helm of the Perfect Light') /* Name */
-     , (36948,  16, 'A helm forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.') /* LongDesc */
-     , (36948,  25, 'Arkaii') /* CraftsmanName */;
+     , (36948,  16, 'A helm forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36948,   1,   33558266) /* Setup */

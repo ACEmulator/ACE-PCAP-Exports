@@ -23,9 +23,6 @@ VALUES (8154,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8154,   1, 'Broken Virindi Mask') /* Name */
-     , (8154,   7, 'The Apocalypse tells you, "1300 pennsylvania avenue"
-') /* Inscription */
-     , (8154,   8, 'Arie') /* ScribeName */
      , (8154,  16, 'A broken mask that seems to made out of some sort of strange metal. It was damaged by whoever killed its original owner. Perhaps a friendly Virindi, or a human who studies Virindi, could repair it for you?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

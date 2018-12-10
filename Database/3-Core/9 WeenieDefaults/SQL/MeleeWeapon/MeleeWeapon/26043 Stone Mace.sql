@@ -5,13 +5,11 @@ VALUES (26043, 'maceburunstoneextreme', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26043,   1,          1) /* ItemType - MeleeWeapon */
-     , (26043,   2,         35) /* CreatureType - OlthoiLarvae */
      , (26043,   5,       5200) /* EncumbranceVal */
      , (26043,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (26043,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (26043,  16,          1) /* ItemUseable - No */
      , (26043,  19,        500) /* Value */
-     , (26043,  25,        115) /* Level */
      , (26043,  51,          1) /* CombatUse - Melee */
      , (26043,  65,          1) /* Placement - RightHandCombat */
      , (26043,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -29,8 +27,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26043,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26043,   1, 'Stone Mace') /* Name */
-     , (26043,  16, 'Killed by Rou. This corpse generated a rare item!') /* LongDesc */;
+VALUES (26043,   1, 'Stone Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26043,   1,   33558587) /* Setup */
@@ -50,6 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26043,   3, 3701227602) /* Wielder */
      , (26043, 8000, 3701226765) /* PCAPRecordedObjectIID */
      , (26043, 8008, 3701227602) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26043,   1,   740, 0, 0, 740) /* MaxHealth */;

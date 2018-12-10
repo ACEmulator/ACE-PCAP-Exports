@@ -25,9 +25,7 @@ VALUES (42921,  39, 1.60000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42921,   1, 'Ore Deposit') /* Name */
-     , (42921,  14, 'Use a lugian pick axe to break up this deposite of ore.') /* Use */
-     , (42921,  16, 'Inscribed spell: Shield Mastery Self VII
-Increases the caster''s Shield skill by 40 points.') /* LongDesc */;
+     , (42921,  14, 'Use a lugian pick axe to break up this deposite of ore.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42921,   1,   33560224) /* Setup */
@@ -44,6 +42,3 @@ VALUES (42921, 8040, 537854854, 48.968, -168.917, -58.8, 1, 0, 0, 0) /* PCAPReco
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42921, 8000, 3706734947) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42921,  5857,      2) ;

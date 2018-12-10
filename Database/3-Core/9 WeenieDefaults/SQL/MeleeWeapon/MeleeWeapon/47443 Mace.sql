@@ -13,7 +13,6 @@ VALUES (47443,   1,          1) /* ItemType - MeleeWeapon */
      , (47443,  51,          1) /* CombatUse - Melee */
      , (47443,  65,          1) /* Placement - RightHandCombat */
      , (47443,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47443, 107,          0) /* ItemCurMana */
      , (47443, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,13 +23,8 @@ VALUES (47443,   1, False) /* Stuck */
      , (47443,  19, True ) /* Attackable */
      , (47443,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47443,  87,     1.2) /* ItemEfficiency */
-     , (47443, 137,    0.15) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47443,   1, 'Mace') /* Name */
-     , (47443,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (47443,   1, 'Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47443,   1,   33554746) /* Setup */

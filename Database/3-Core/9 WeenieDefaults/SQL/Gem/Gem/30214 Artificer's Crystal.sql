@@ -42,7 +42,7 @@ VALUES (30214,   1,   33554809) /* Setup */
      , (30214,   6,   67111919) /* PaletteBase */
      , (30214,   8,  100686697) /* Icon */
      , (30214,  22,  872415275) /* PhysicsEffectTable */
-     , (30214,  28,       3713) /* Spell */
+     , (30214,  28,       3713) /* Spell - ItemEnchantmentMasteryRare */
      , (30214,  50,  100686660) /* IconOverlay */
      , (30214,  52,  100686604) /* IconUnderlay */
      , (30214, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

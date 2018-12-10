@@ -9,8 +9,6 @@ VALUES (2791,   1,       8192) /* ItemType - Writable */
      , (2791,  16,          8) /* ItemUseable - Contained */
      , (2791,  19,       1000) /* Value */
      , (2791,  65,        101) /* Placement - Resting */
-     , (2791,  89,          2) /* BoosterEnum - Health */
-     , (2791,  90,         65) /* BoostValue */
      , (2791,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2791,   1,   33554826) /* Setup */
      , (2791,   8,  100676656) /* Icon */
      , (2791,  22,  872415275) /* PhysicsEffectTable */
-     , (2791,  28,       1621) /* Spell */
+     , (2791,  28,       1621) /* Spell - BloodLoather6 */
      , (2791, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2791, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2791, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

@@ -49,8 +49,6 @@ VALUES (30376,   5, -0.0333333015441895) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30376,   1, 'Orb of the Ironsea') /* Name */
-     , (30376,   7, '20:13:45 Engage Killswitch tells you, "cry more beta male"') /* Inscription */
-     , (30376,   8, 'Fat Tard') /* ScribeName */
      , (30376,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -59,7 +57,7 @@ VALUES (30376,   1,   33559424) /* Setup */
      , (30376,   6,   67111919) /* PaletteBase */
      , (30376,   8,  100686851) /* Icon */
      , (30376,  22,  872415275) /* PhysicsEffectTable */
-     , (30376,  28,       2132) /* Spell */
+     , (30376,  28,       2132) /* Spell - ForceBolt7 */
      , (30376,  52,  100686604) /* IconUnderlay */
      , (30376, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (30376, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

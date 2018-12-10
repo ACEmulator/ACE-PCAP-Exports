@@ -6,13 +6,10 @@ VALUES (4248, 'moarsmanputrid', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4248,   1,         16) /* ItemType - Creature */
      , (4248,   2,         34) /* CreatureType - Moarsman */
-     , (4248,   5,         10) /* EncumbranceVal */
      , (4248,   6,        255) /* ItemsCapacity */
      , (4248,   7,        255) /* ContainersCapacity */
      , (4248,  16,          1) /* ItemUseable - No */
-     , (4248,  19,      12500) /* Value */
      , (4248,  25,        100) /* Level */
-     , (4248,  33,          1) /* Bonded - Bonded */
      , (4248,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4248, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4248, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -30,7 +27,6 @@ VALUES (4248,  39, 1.64999997615814) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4248,   1, 'Putrid Moarsman') /* Name */
-     , (4248,  16, 'A concentrated silver pea.') /* LongDesc */
      , (4248, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

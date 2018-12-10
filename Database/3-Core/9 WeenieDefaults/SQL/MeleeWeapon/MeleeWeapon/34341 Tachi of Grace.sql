@@ -40,7 +40,6 @@ VALUES (34341,   1, False) /* Stuck */
      , (34341,  14, True ) /* GravityStatus */
      , (34341,  19, True ) /* Attackable */
      , (34341,  22, True ) /* Inscribable */
-     , (34341,  85, True ) /* AppraisalHasAllowedWielder */
      , (34341,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -57,8 +56,7 @@ VALUES (34341,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34341,   1, 'Tachi of Grace') /* Name */
-     , (34341,  16, 'A light, beautifully crafted Tachi, engraved and enameled in imagery dedicating the weapon to the Grace of Unicorn.') /* LongDesc */
-     , (34341,  25, 'Fenn') /* CraftsmanName */;
+     , (34341,  16, 'A light, beautifully crafted Tachi, engraved and enameled in imagery dedicating the weapon to the Grace of Unicorn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34341,   1,   33560150) /* Setup */

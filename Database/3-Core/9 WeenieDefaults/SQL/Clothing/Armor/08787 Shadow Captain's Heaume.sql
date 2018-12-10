@@ -41,8 +41,6 @@ VALUES (8787,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8787,   1, 'Shadow Captain''s Heaume') /* Name */
-     , (8787,   7, 'OoOo~Shadow Captain~oOoO') /* Inscription */
-     , (8787,   8, 'Hyero') /* ScribeName */
      , (8787,  16, 'A magical heaume taken from a Shadow in the Heart of Darkness dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

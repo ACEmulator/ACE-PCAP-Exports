@@ -5,13 +5,11 @@ VALUES (48594, 'ace48594-icyclub', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48594,   1,          1) /* ItemType - MeleeWeapon */
-     , (48594,   2,         78) /* CreatureType - Fiun */
      , (48594,   5,        800) /* EncumbranceVal */
      , (48594,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (48594,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48594,  16,          1) /* ItemUseable - No */
      , (48594,  19,        350) /* Value */
-     , (48594,  25,        115) /* Level */
      , (48594,  51,          1) /* CombatUse - Melee */
      , (48594,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48594, 151,          2) /* HookType - Wall */;
@@ -43,6 +41,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48594,   3, 3703658830) /* Wielder */
      , (48594, 8000, 3703158102) /* PCAPRecordedObjectIID */
      , (48594, 8008, 3703658830) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48594,   1,   460, 0, 0, 460) /* MaxHealth */;

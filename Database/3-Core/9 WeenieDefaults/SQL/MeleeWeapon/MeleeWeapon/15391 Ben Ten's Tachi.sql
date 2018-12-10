@@ -10,19 +10,9 @@ VALUES (15391,   1,          1) /* ItemType - MeleeWeapon */
      , (15391,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (15391,  16,          1) /* ItemUseable - No */
      , (15391,  19,        460) /* Value */
-     , (15391,  28,        268) /* ArmorLevel */
      , (15391,  51,          1) /* CombatUse - Melee */
      , (15391,  65,          1) /* Placement - RightHandCombat */
-     , (15391,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15391, 105,          5) /* ItemWorkmanship */
-     , (15391, 106,        233) /* ItemSpellcraft */
-     , (15391, 107,       1041) /* ItemCurMana */
-     , (15391, 108,       1041) /* ItemMaxMana */
-     , (15391, 109,        233) /* ItemDifficulty */
-     , (15391, 110,          0) /* ItemAllegianceRankLimit */
-     , (15391, 115,          0) /* ItemSkillLevelLimit */
-     , (15391, 131,         64) /* MaterialType - Steel */
-     , (15391, 172,          1) /* AppraisalLongDescDecoration */;
+     , (15391,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15391,   1, False) /* Stuck */
@@ -30,24 +20,13 @@ VALUES (15391,   1, False) /* Stuck */
      , (15391,  13, True ) /* Ethereal */
      , (15391,  14, True ) /* GravityStatus */
      , (15391,  19, True ) /* Attackable */
-     , (15391,  22, True ) /* Inscribable */
-     , (15391, 100, True ) /* Dyable */;
+     , (15391,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15391,   5,   -0.05) /* ManaRate */
-     , (15391,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (15391,  14,       1) /* ArmorModVsPierce */
-     , (15391,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (15391,  16, 1.00870871543884) /* ArmorModVsCold */
-     , (15391,  17, 1.21749210357666) /* ArmorModVsFire */
-     , (15391,  18,     0.5) /* ArmorModVsAcid */
-     , (15391,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (15391,  39,     2.5) /* DefaultScale */
-     , (15391, 165,       1) /* ArmorModVsNether */;
+VALUES (15391,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15391,   1, 'Ben Ten''s Tachi') /* Name */
-     , (15391,  16, 'Chainmail Leggings') /* LongDesc */;
+VALUES (15391,   1, 'Ben Ten''s Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15391,   1,   33554742) /* Setup */
@@ -68,10 +47,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (15391,   3, 3360318673) /* Wielder */
      , (15391, 8000, 3359552315) /* PCAPRecordedObjectIID */
      , (15391, 8008, 3360318673) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (15391,  1486,      2) 
-     , (15391,  1516,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15391, 67113836, 0, 0);

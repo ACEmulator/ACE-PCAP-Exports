@@ -10,25 +10,11 @@ VALUES (15762,   1,        128) /* ItemType - Misc */
      , (15762,  12,          1) /* StackSize */
      , (15762,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15762,  19,          0) /* Value */
-     , (15762,  28,          0) /* ArmorLevel */
      , (15762,  33,          1) /* Bonded - Bonded */
      , (15762,  65,        101) /* Placement - Resting */
      , (15762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15762,  94,          2) /* TargetType - Armor */
-     , (15762, 105,          8) /* ItemWorkmanship */
-     , (15762, 106,        198) /* ItemSpellcraft */
-     , (15762, 107,       1281) /* ItemCurMana */
-     , (15762, 108,       1281) /* ItemMaxMana */
-     , (15762, 109,        203) /* ItemDifficulty */
-     , (15762, 110,          0) /* ItemAllegianceRankLimit */
-     , (15762, 114,          1) /* Attuned - Attuned */
-     , (15762, 115,          0) /* ItemSkillLevelLimit */
-     , (15762, 117,        350) /* ItemManaCost */
-     , (15762, 131,          7) /* MaterialType - Velvet */
-     , (15762, 172,          5) /* AppraisalLongDescDecoration */
-     , (15762, 176,          7) /* AppraisalItemSkill */
-     , (15762, 177,          1) /* GemCount */
-     , (15762, 178,         43) /* GemType */;
+     , (15762, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15762,   1, False) /* Stuck */
@@ -36,20 +22,10 @@ VALUES (15762,   1, False) /* Stuck */
      , (15762,  13, True ) /* Ethereal */
      , (15762,  14, True ) /* GravityStatus */
      , (15762,  19, True ) /* Attackable */
-     , (15762,  22, True ) /* Inscribable */
-     , (15762, 100, True ) /* Dyable */;
+     , (15762,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15762,   5,   -0.05) /* ManaRate */
-     , (15762,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (15762,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (15762,  15,       1) /* ArmorModVsBludgeon */
-     , (15762,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (15762,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (15762,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (15762,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (15762,  39, 0.670000016689301) /* DefaultScale */
-     , (15762, 165,       1) /* ArmorModVsNether */;
+VALUES (15762,  39, 0.670000016689301) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15762,   1, 'Ruined Amulet of Missile Weapons') /* Name */
@@ -69,13 +45,6 @@ VALUES (15762,   1,   33554680) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (15762,   2, 1342241038) /* Container */
      , (15762, 8000, 3039657276) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (15762,  1094,      2) 
-     , (15762,  1113,      2) 
-     , (15762,  1485,      2) 
-     , (15762,  1573,      2) 
-     , (15762,  2558,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15762, 67111922, 0, 0);

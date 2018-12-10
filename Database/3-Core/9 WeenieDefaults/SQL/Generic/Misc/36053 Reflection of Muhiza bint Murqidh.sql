@@ -8,10 +8,7 @@ VALUES (36053,   1,        128) /* ItemType - Misc */
      , (36053,   5,          1) /* EncumbranceVal */
      , (36053,  16,          1) /* ItemUseable - No */
      , (36053,  18,         64) /* UiEffects - Lightning */
-     , (36053,  19,        300) /* Value */
      , (36053,  65,        101) /* Placement - Resting */
-     , (36053,  89,          4) /* BoosterEnum - Stamina */
-     , (36053,  90,         85) /* BoostValue */
      , (36053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,8 +20,7 @@ VALUES (36053,   1, False) /* Stuck */
      , (36053,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36053,   1, 'Reflection of Muhiza bint Murqidh') /* Name */
-     , (36053,  14, 'Use this item to drink it.') /* Use */;
+VALUES (36053,   1, 'Reflection of Muhiza bint Murqidh') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36053,   1,   33556769) /* Setup */

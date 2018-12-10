@@ -6,38 +6,14 @@ VALUES (36843, 'ace36843-mercilessmonouga', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36843,   1,         16) /* ItemType - Creature */
      , (36843,   2,         28) /* CreatureType - Monouga */
-     , (36843,   5,        323) /* EncumbranceVal */
      , (36843,   6,        255) /* ItemsCapacity */
      , (36843,   7,        255) /* ContainersCapacity */
      , (36843,  16,          1) /* ItemUseable - No */
-     , (36843,  19,       8792) /* Value */
      , (36843,  25,        100) /* Level */
-     , (36843,  44,         42) /* Damage */
-     , (36843,  45,          4) /* DamageType - Bludgeon */
-     , (36843,  47,          6) /* AttackType - Thrust, Slash */
-     , (36843,  48,         45) /* WeaponSkill - LightWeapons */
-     , (36843,  49,         24) /* WeaponTime */
      , (36843,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (36843, 105,          7) /* ItemWorkmanship */
-     , (36843, 106,        277) /* ItemSpellcraft */
-     , (36843, 107,        701) /* ItemCurMana */
-     , (36843, 108,        701) /* ItemMaxMana */
-     , (36843, 109,         64) /* ItemDifficulty */
-     , (36843, 110,          0) /* ItemAllegianceRankLimit */
-     , (36843, 115,        297) /* ItemSkillLevelLimit */
-     , (36843, 131,         77) /* MaterialType - Teak */
      , (36843, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (36843, 158,          2) /* WieldRequirements - RawSkill */
-     , (36843, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (36843, 160,        370) /* WieldDifficulty */
-     , (36843, 172,          5) /* AppraisalLongDescDecoration */
-     , (36843, 176,         45) /* AppraisalItemSkill */
-     , (36843, 177,          4) /* GemCount */
-     , (36843, 178,         34) /* GemType */
      , (36843, 307,          5) /* DamageRating */
-     , (36843, 353,          7) /* WeaponType - Staff */
-     , (36843, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36843, 8030,          0);
+     , (36843, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36843,   1, True ) /* Stuck */
@@ -48,18 +24,10 @@ VALUES (36843,   1, True ) /* Stuck */
      , (36843,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36843,   5, -0.0555555555555556) /* ManaRate */
-     , (36843,  21,       0) /* WeaponLength */
-     , (36843,  22,    0.45) /* DamageVariance */
-     , (36843,  26,       0) /* MaximumVelocity */
-     , (36843,  29,    1.16) /* WeaponDefense */
-     , (36843,  39, 1.20000004768372) /* DefaultScale */
-     , (36843,  62,     1.1) /* WeaponOffense */
-     , (36843,  63,       1) /* DamageMod */;
+VALUES (36843,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36843,   1, 'Merciless Monouga') /* Name */
-     , (36843,  16, 'Quarter Staff of Coordination') /* LongDesc */
      , (36843, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,12 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36843,   1,   475, 0, 0, 475) /* MaxHealth */
      , (36843,   3,   650, 0, 0, 649) /* MaxStamina */
      , (36843,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36843,  1378,      2) 
-     , (36843,  2096,      2) 
-     , (36843,  2101,      2) 
-     , (36843,  2537,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36843, 67114293, 0, 0);

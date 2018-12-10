@@ -6,75 +6,23 @@ VALUES (44022, 'ace44022-baktshay', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44022,   1,         16) /* ItemType - Creature */
      , (44022,   2,        101) /* CreatureType - Anekshay */
-     , (44022,   5,          0) /* EncumbranceVal */
      , (44022,   6,        255) /* ItemsCapacity */
      , (44022,   7,        255) /* ContainersCapacity */
      , (44022,  16,          1) /* ItemUseable - No */
-     , (44022,  19,          0) /* Value */
      , (44022,  25,        200) /* Level */
-     , (44022,  33,         -2) /* Bonded - Destroy */
-     , (44022,  44,        610) /* Damage */
-     , (44022,  45,          2) /* DamageType - Pierce */
-     , (44022,  47,          4) /* AttackType - Slash */
-     , (44022,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (44022,  49,         10) /* WeaponTime */
-     , (44022,  91,         50) /* MaxStructure */
-     , (44022,  92,         50) /* Structure */
      , (44022,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44022, 105,          6) /* ItemWorkmanship */
-     , (44022, 106,        313) /* ItemSpellcraft */
-     , (44022, 107,       1307) /* ItemCurMana */
-     , (44022, 108,       1307) /* ItemMaxMana */
-     , (44022, 109,        156) /* ItemDifficulty */
-     , (44022, 110,          0) /* ItemAllegianceRankLimit */
-     , (44022, 113,          1) /* Gender - Male */
-     , (44022, 115,        333) /* ItemSkillLevelLimit */
-     , (44022, 131,         74) /* MaterialType - Mahogany */
      , (44022, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44022, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44022, 158,          2) /* WieldRequirements - RawSkill */
-     , (44022, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (44022, 160,        420) /* WieldDifficulty */
-     , (44022, 172,          5) /* AppraisalLongDescDecoration */
-     , (44022, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (44022, 176,         41) /* AppraisalItemSkill */
-     , (44022, 177,          4) /* GemCount */
-     , (44022, 178,         21) /* GemType */
-     , (44022, 188,          2) /* HeritageGroup - Gharundim */
-     , (44022, 292,          2) /* Cleaving */
-     , (44022, 307,          5) /* DamageRating */
-     , (44022, 313,          0) /* CritRating */
-     , (44022, 314,          0) /* CritDamageRating */
-     , (44022, 353,         10) /* WeaponType - Thrown */
-     , (44022, 386,          0) /* Overpower */
-     , (44022, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (44022, 8030,          0);
+     , (44022, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44022,   1, True ) /* Stuck */
-     , (44022,   2, True ) /* Open */
      , (44022,  12, True ) /* ReportCollisions */
      , (44022,  13, False) /* Ethereal */
      , (44022,  14, True ) /* GravityStatus */
      , (44022,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44022,   5, -0.0555555555555556) /* ManaRate */
-     , (44022,  21,       0) /* WeaponLength */
-     , (44022,  22,     0.5) /* DamageVariance */
-     , (44022,  26, 23.2000007629395) /* MaximumVelocity */
-     , (44022,  29,       1) /* WeaponDefense */
-     , (44022,  62,       1) /* WeaponOffense */
-     , (44022,  63,       1) /* DamageMod */
-     , (44022, 147,       1) /* CriticalFrequency */
-     , (44022, 149,       0) /* WeaponMissileDefense */
-     , (44022, 150,       0) /* WeaponMagicDefense */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44022,   1, 'Bak''tshay') /* Name */
-     , (44022,   5, 'Arcanum Cook') /* Template */
-     , (44022,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (44022,  16, 'Killed by Mag-one.') /* LongDesc */
      , (44022, 8006, 'AAA9AEAAAADNzMy+') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,12 +31,6 @@ VALUES (44022,   1,   33561251) /* Setup */
      , (44022,   3,  536870933) /* SoundTable */
      , (44022,   6,   67108990) /* PaletteBase */
      , (44022,   8,  100670274) /* Icon */
-     , (44022,   9,   83890457) /* EyesTexture */
-     , (44022,  10,   83890555) /* NoseTexture */
-     , (44022,  11,   83890637) /* MouthTexture */
-     , (44022,  15,   67116998) /* HairPalette */
-     , (44022,  16,   67110063) /* EyesPalette */
-     , (44022,  17,   67109550) /* SkinPalette */
      , (44022,  22,  872415269) /* PhysicsEffectTable */
      , (44022, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44022, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
@@ -113,12 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44022,   1,  2610, 0, 0, 2610) /* MaxHealth */
      , (44022,   3,  3220, 0, 0, 3220) /* MaxStamina */
      , (44022,   5,  2250, 0, 0, 2250) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44022,  2087,      2) 
-     , (44022,  2096,      2) 
-     , (44022,  2116,      2) 
-     , (44022,  2517,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44022, 67116877, 0, 24)

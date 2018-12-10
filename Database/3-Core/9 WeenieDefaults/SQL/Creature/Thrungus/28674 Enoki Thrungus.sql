@@ -6,32 +6,13 @@ VALUES (28674, 'thrungusenoki', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28674,   1,         16) /* ItemType - Creature */
      , (28674,   2,         82) /* CreatureType - Thrungus */
-     , (28674,   5,         50) /* EncumbranceVal */
      , (28674,   6,        255) /* ItemsCapacity */
      , (28674,   7,        255) /* ContainersCapacity */
      , (28674,  16,          1) /* ItemUseable - No */
-     , (28674,  19,       7458) /* Value */
      , (28674,  25,        100) /* Level */
-     , (28674,  44,         10) /* Damage */
-     , (28674,  45,          4) /* DamageType - Bludgeon */
-     , (28674,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (28674,  49,         10) /* WeaponTime */
      , (28674,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28674, 105,          7) /* ItemWorkmanship */
-     , (28674, 106,        267) /* ItemSpellcraft */
-     , (28674, 107,       1401) /* ItemCurMana */
-     , (28674, 108,       1401) /* ItemMaxMana */
-     , (28674, 109,        200) /* ItemDifficulty */
-     , (28674, 110,          0) /* ItemAllegianceRankLimit */
-     , (28674, 115,          0) /* ItemSkillLevelLimit */
-     , (28674, 131,         16) /* MaterialType - BlackOpal */
      , (28674, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28674, 172,          5) /* AppraisalLongDescDecoration */
-     , (28674, 177,          3) /* GemCount */
-     , (28674, 178,         22) /* GemType */
-     , (28674, 353,         10) /* WeaponType - Thrown */
-     , (28674, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (28674, 8030,          0);
+     , (28674, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28674,   1, True ) /* Stuck */
@@ -41,18 +22,10 @@ VALUES (28674,   1, True ) /* Stuck */
      , (28674,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28674,   5, -0.0555555555555556) /* ManaRate */
-     , (28674,  21,       0) /* WeaponLength */
-     , (28674,  22,    0.25) /* DamageVariance */
-     , (28674,  26,       0) /* MaximumVelocity */
-     , (28674,  29,       1) /* WeaponDefense */
-     , (28674,  39,     1.5) /* DefaultScale */
-     , (28674,  62,       1) /* WeaponOffense */
-     , (28674,  63,       1) /* DamageMod */;
+VALUES (28674,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28674,   1, 'Enoki Thrungus') /* Name */
-     , (28674,  16, 'Chalice of Item Tinkering') /* LongDesc */
      , (28674, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -85,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28674,   1,   355, 0, 0, 355) /* MaxHealth */
      , (28674,   3,   430, 0, 0, 428) /* MaxStamina */
      , (28674,   5,   350, 0, 0, 350) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28674,   731,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28674, 67116370, 0, 0);

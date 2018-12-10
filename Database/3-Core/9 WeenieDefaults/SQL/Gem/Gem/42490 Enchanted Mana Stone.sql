@@ -31,8 +31,6 @@ VALUES (42490, 167,      10) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42490,   1, 'Enchanted Mana Stone') /* Name */
-     , (42490,   7, '11/20') /* Inscription */
-     , (42490,   8, 'Callaway') /* ScribeName */
      , (42490,  16, 'A normal looking mana stone enchanted to pick up energy from the environment on use, but won''t hold a charge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

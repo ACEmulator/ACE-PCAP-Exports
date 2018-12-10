@@ -5,29 +5,16 @@ VALUES (47789, 'ace47789-frostspear', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47789,   1,          1) /* ItemType - MeleeWeapon */
-     , (47789,   2,          8) /* CreatureType - Tusker */
      , (47789,   5,        700) /* EncumbranceVal */
      , (47789,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47789,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47789,  16,          1) /* ItemUseable - No */
      , (47789,  18,        128) /* UiEffects - Frost */
      , (47789,  19,        170) /* Value */
-     , (47789,  25,         80) /* Level */
-     , (47789,  28,        226) /* ArmorLevel */
      , (47789,  51,          1) /* CombatUse - Melee */
      , (47789,  65,          1) /* Placement - RightHandCombat */
      , (47789,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47789, 105,          7) /* ItemWorkmanship */
-     , (47789, 106,        229) /* ItemSpellcraft */
-     , (47789, 107,        901) /* ItemCurMana */
-     , (47789, 108,        901) /* ItemMaxMana */
-     , (47789, 109,         47) /* ItemDifficulty */
-     , (47789, 110,          0) /* ItemAllegianceRankLimit */
-     , (47789, 115,        249) /* ItemSkillLevelLimit */
-     , (47789, 131,         61) /* MaterialType - Iron */
-     , (47789, 151,          2) /* HookType - Wall */
-     , (47789, 172,          1) /* AppraisalLongDescDecoration */
-     , (47789, 176,          6) /* AppraisalItemSkill */;
+     , (47789, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47789,   1, False) /* Stuck */
@@ -35,23 +22,10 @@ VALUES (47789,   1, False) /* Stuck */
      , (47789,  13, True ) /* Ethereal */
      , (47789,  14, True ) /* GravityStatus */
      , (47789,  19, True ) /* Attackable */
-     , (47789,  22, True ) /* Inscribable */
-     , (47789, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47789,   5,   -0.05) /* ManaRate */
-     , (47789,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (47789,  14,       1) /* ArmorModVsPierce */
-     , (47789,  15,       1) /* ArmorModVsBludgeon */
-     , (47789,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (47789,  17, 0.898070156574249) /* ArmorModVsFire */
-     , (47789,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (47789,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (47789, 165,       1) /* ArmorModVsNether */;
+     , (47789,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47789,   1, 'Frost Spear') /* Name */
-     , (47789,  16, 'Celdon Girth') /* LongDesc */;
+VALUES (47789,   1, 'Frost Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47789,   1,   33555822) /* Setup */
@@ -72,12 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47789,   3, 3704405347) /* Wielder */
      , (47789, 8000, 3704405371) /* PCAPRecordedObjectIID */
      , (47789, 8008, 3704405347) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47789,   1,   400, 0, 0, 400) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47789,  1486,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47789, 67111920, 0, 0);

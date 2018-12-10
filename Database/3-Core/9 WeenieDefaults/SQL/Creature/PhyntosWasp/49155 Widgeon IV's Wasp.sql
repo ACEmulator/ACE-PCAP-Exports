@@ -15,7 +15,6 @@ VALUES (49155,   1,         16) /* ItemType - Creature */
      , (49155, 307,          9) /* DamageRating */
      , (49155, 308,         12) /* DamageResistRating */
      , (49155, 314,         13) /* CritDamageRating */
-     , (49155, 315,         14) /* CritResistRating */
      , (49155, 316,         11) /* CritDamageResistRating */
      , (49155, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 

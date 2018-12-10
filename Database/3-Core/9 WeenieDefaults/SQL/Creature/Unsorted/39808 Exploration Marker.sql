@@ -5,27 +5,10 @@ VALUES (39808, 'ace39808-explorationmarker', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39808,   1,         16) /* ItemType - Creature */
-     , (39808,   5,       1486) /* EncumbranceVal */
      , (39808,   6,        255) /* ItemsCapacity */
      , (39808,   7,        255) /* ContainersCapacity */
      , (39808,  16,         32) /* ItemUseable - Remote */
-     , (39808,  19,      18587) /* Value */
-     , (39808,  28,        267) /* ArmorLevel */
      , (39808,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (39808, 105,          7) /* ItemWorkmanship */
-     , (39808, 106,        370) /* ItemSpellcraft */
-     , (39808, 107,       1601) /* ItemCurMana */
-     , (39808, 108,       1601) /* ItemMaxMana */
-     , (39808, 109,        292) /* ItemDifficulty */
-     , (39808, 110,          0) /* ItemAllegianceRankLimit */
-     , (39808, 115,          0) /* ItemSkillLevelLimit */
-     , (39808, 131,         54) /* MaterialType - GromnieHide */
-     , (39808, 158,          7) /* WieldRequirements - Level */
-     , (39808, 159,          1) /* WieldSkilltype - Axe */
-     , (39808, 160,        180) /* WieldDifficulty */
-     , (39808, 172,          1) /* AppraisalLongDescDecoration */
-     , (39808, 176,          6) /* AppraisalItemSkill */
-     , (39808, 265,         17) /* EquipmentSetId - Tinkers */
      , (39808, 307,          0) /* DamageRating */
      , (39808, 308,          0) /* DamageResistRating */
      , (39808, 313,          0) /* CritRating */
@@ -60,20 +43,10 @@ VALUES (39808,   1, True ) /* Stuck */
      , (39808,  14, True ) /* GravityStatus */
      , (39808,  19, False) /* Attackable */
      , (39808,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (39808,  42, True ) /* AllowEdgeSlide */
-     , (39808, 100, True ) /* Dyable */;
+     , (39808,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39808,   5, -0.0666666666666667) /* ManaRate */
-     , (39808,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (39808,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (39808,  15,       1) /* ArmorModVsBludgeon */
-     , (39808,  16, 0.916155099868774) /* ArmorModVsCold */
-     , (39808,  17,     0.5) /* ArmorModVsFire */
-     , (39808,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (39808,  19, 1.39190542697906) /* ArmorModVsElectric */
-     , (39808,  54,       3) /* UseRadius */
-     , (39808, 165,       1) /* ArmorModVsNether */;
+VALUES (39808,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39808,   1, 'Exploration Marker') /* Name */
@@ -98,14 +71,6 @@ VALUES (39808, 8040, 15794477, 93.653, -146.317, -72, 0.9340628, 0, 0, -0.357108
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39808, 8000, 2447452818) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39808,  2094,      2) 
-     , (39808,  2108,      2) 
-     , (39808,  2529,      2) 
-     , (39808,  2610,      2) 
-     , (39808,  2611,      2) 
-     , (39808,  4407,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39808, 67111092, 0, 0);

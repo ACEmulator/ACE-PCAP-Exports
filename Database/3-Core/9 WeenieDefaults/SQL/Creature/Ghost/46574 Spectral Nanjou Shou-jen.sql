@@ -6,11 +6,9 @@ VALUES (46574, 'ace46574-spectralnanjoushoujen', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46574,   1,         16) /* ItemType - Creature */
      , (46574,   2,         77) /* CreatureType - Ghost */
-     , (46574,   5,       6115) /* EncumbranceVal */
      , (46574,   6,        255) /* ItemsCapacity */
      , (46574,   7,        255) /* ContainersCapacity */
      , (46574,  16,          1) /* ItemUseable - No */
-     , (46574,  19,          0) /* Value */
      , (46574,  25,        260) /* Level */
      , (46574,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46574, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (46574,  76, 0.850000023841858) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46574,   1, 'Spectral Nanjou Shou-jen') /* Name */
-     , (46574,  16, 'Killed by Rimok.') /* LongDesc */
      , (46574, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -55,7 +55,7 @@ VALUES (46942,   1,   33557963) /* Setup */
      , (46942,   6,   67111919) /* PaletteBase */
      , (46942,   8,  100673490) /* Icon */
      , (46942,  22,  872415275) /* PhysicsEffectTable */
-     , (46942,  28,       2782) /* Spell */
+     , (46942,  28,       2782) /* Spell - LesserElementalFuryFlame */
      , (46942, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (46942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46942, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

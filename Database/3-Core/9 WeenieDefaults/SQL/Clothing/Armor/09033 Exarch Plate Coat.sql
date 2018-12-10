@@ -42,8 +42,6 @@ VALUES (9033,   5,  -0.125) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9033,   1, 'Exarch Plate Coat') /* Name */
-     , (9033,   7, 'Made with the loving hands of Lycentia for the love of her life Kurse. =) ') /* Inscription */
-     , (9033,   8, 'Lycentia') /* ScribeName */
      , (9033,  16, 'A heavily enchanted crystalline coat, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers. The seal of the Yalaini Seaborne Empire is embossed on its chest.') /* LongDesc */
      , (9033,  25, 'Alto Voltaje') /* CraftsmanName */;
 

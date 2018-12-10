@@ -35,9 +35,6 @@ VALUES (8148,  13, 0.449999988079071) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8148,   1, 'Banderling Mask') /* Name */
-     , (8148,   7, 'Yeah this rules
-') /* Inscription */
-     , (8148,   8, 'Inferno Of Death') /* ScribeName */
      , (8148,  16, 'A finely sewed and maintained Banderling head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -5,13 +5,11 @@ VALUES (46635, 'ace46635-firelongbow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46635,   1,        256) /* ItemType - MissileWeapon */
-     , (46635,   2,         14) /* CreatureType - Undead */
      , (46635,   5,        980) /* EncumbranceVal */
      , (46635,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (46635,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (46635,  16,          1) /* ItemUseable - No */
      , (46635,  18,         32) /* UiEffects - Fire */
-     , (46635,  25,        160) /* Level */
      , (46635,  50,          1) /* AmmoType - Arrow */
      , (46635,  51,          2) /* CombatUse - Missle */
      , (46635,  65,          3) /* Placement - LeftHand */
@@ -50,9 +48,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46635,   3, 3707809577) /* Wielder */
      , (46635, 8000, 3707809553) /* PCAPRecordedObjectIID */
      , (46635, 8008, 3707809577) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46635,   1,  2840, 0, 0, 2182) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46635, 67115370, 0, 0);

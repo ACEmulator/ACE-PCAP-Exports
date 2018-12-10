@@ -6,31 +6,15 @@ VALUES (41824, 'ace41824-khanldun', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41824,   1,         16) /* ItemType - Creature */
      , (41824,   2,         31) /* CreatureType - Human */
-     , (41824,   5,        100) /* EncumbranceVal */
      , (41824,   6,        255) /* ItemsCapacity */
      , (41824,   7,        255) /* ContainersCapacity */
      , (41824,  16,         32) /* ItemUseable - Remote */
-     , (41824,  19,      20063) /* Value */
      , (41824,  25,        180) /* Level */
      , (41824,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41824,  95,          8) /* RadarBlipColor - Yellow */
-     , (41824, 105,          6) /* ItemWorkmanship */
-     , (41824, 106,        306) /* ItemSpellcraft */
-     , (41824, 107,       1525) /* ItemCurMana */
-     , (41824, 108,       1525) /* ItemMaxMana */
-     , (41824, 109,        261) /* ItemDifficulty */
-     , (41824, 110,          0) /* ItemAllegianceRankLimit */
      , (41824, 113,          1) /* Gender - Male */
-     , (41824, 115,          0) /* ItemSkillLevelLimit */
-     , (41824, 131,         39) /* MaterialType - Sapphire */
      , (41824, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41824, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (41824, 158,          7) /* WieldRequirements - Level */
-     , (41824, 159,          1) /* WieldSkilltype - Axe */
-     , (41824, 160,        150) /* WieldDifficulty */
-     , (41824, 172,          5) /* AppraisalLongDescDecoration */
-     , (41824, 177,          3) /* GemCount */
-     , (41824, 178,         16) /* GemType */
      , (41824, 188,          2) /* HeritageGroup - Gharundim */
      , (41824, 281,          1) /* Faction1Bits */
      , (41824, 287,       1001) /* SocietyRankCelhan */
@@ -47,13 +31,11 @@ VALUES (41824,   1, True ) /* Stuck */
      , (41824,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41824,   5, -0.0555555555555556) /* ManaRate */
-     , (41824,  54,       3) /* UseRadius */;
+VALUES (41824,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41824,   1, 'Khanldun') /* Name */
      , (41824,   5, 'Society Collector') /* Template */
-     , (41824,  16, 'Puzzle Box of Item Tinkering') /* LongDesc */
      , (41824, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -91,11 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41824,   1,   296, 0, 0, 296) /* MaxHealth */
      , (41824,   3,   396, 0, 0, 396) /* MaxStamina */
      , (41824,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41824,  2251,      2) 
-     , (41824,  2564,      2) 
-     , (41824,  4697,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41824, 67109556, 0, 24)

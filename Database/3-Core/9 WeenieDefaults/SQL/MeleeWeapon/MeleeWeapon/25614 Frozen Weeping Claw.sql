@@ -39,7 +39,6 @@ VALUES (25614,   1, False) /* Stuck */
      , (25614,  14, True ) /* GravityStatus */
      , (25614,  19, True ) /* Attackable */
      , (25614,  22, True ) /* Inscribable */
-     , (25614,  85, True ) /* AppraisalHasAllowedWielder */
      , (25614,  91, True ) /* Retained */
      , (25614,  99, True ) /* Ivoryable */;
 
@@ -57,8 +56,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25614,   1, 'Frozen Weeping Claw') /* Name */
      , (25614,   7, '"Skadi''s Fist"') /* Inscription */
      , (25614,   8, 'Azrakin') /* ScribeName */
-     , (25614,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
-     , (25614,  25, 'Jungle Souljah') /* CraftsmanName */;
+     , (25614,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25614,   1,   33558485) /* Setup */

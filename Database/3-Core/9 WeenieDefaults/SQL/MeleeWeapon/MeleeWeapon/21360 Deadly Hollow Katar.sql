@@ -25,17 +25,8 @@ VALUES (21360,   1,          1) /* ItemType - MeleeWeapon */
      , (21360, 158,          2) /* WieldRequirements - RawSkill */
      , (21360, 159,         45) /* WieldSkilltype - LightWeapons */
      , (21360, 160,        250) /* WieldDifficulty */
-     , (21360, 265,        140) /* EquipmentSetId - UNKNOWN_140 */
-     , (21360, 319,         41) /* ItemMaxLevel */
-     , (21360, 320,          1) /* ItemXpStyle - Fixed */
      , (21360, 353,          1) /* WeaponType - Unarmed */
-     , (21360, 383,          1) /* GearPKDamageRating */
-     , (21360, 384,          1) /* GearPKDamageResistRating */
      , (21360, 8030,          0);
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (21360,   4, 82000000000) /* ItemTotalXp */
-     , (21360,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21360,   1, False) /* Stuck */
@@ -46,8 +37,6 @@ VALUES (21360,   1, False) /* Stuck */
      , (21360,  19, True ) /* Attackable */
      , (21360,  22, True ) /* Inscribable */
      , (21360,  69, False) /* IsSellable */
-     , (21360,  85, True ) /* AppraisalHasAllowedWielder */
-     , (21360,  91, True ) /* Retained */
      , (21360,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -61,10 +50,7 @@ VALUES (21360,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21360,   1, 'Deadly Hollow Katar') /* Name */
-     , (21360,   7, 'You resist the spell cast by Korzer') /* Inscription */
-     , (21360,   8, 'Ash Gromnies') /* ScribeName */
-     , (21360,  16, 'A katar crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */
-     , (21360,  25, 'Toad Wart') /* CraftsmanName */;
+     , (21360,  16, 'A katar crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21360,   1,   33556648) /* Setup */

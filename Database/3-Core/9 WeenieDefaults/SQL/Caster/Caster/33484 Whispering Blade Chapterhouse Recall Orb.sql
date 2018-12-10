@@ -38,14 +38,10 @@ VALUES (33484,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33484,  29,       1) /* WeaponDefense */
      , (33484,  39, 0.600000023841858) /* DefaultScale */
-     , (33484, 144, 1.1391879691671E-314) /* ManaConversionMod */
-     , (33484, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (33484, 144, 1.1391879691671E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33484,   1, 'Whispering Blade Chapterhouse Recall Orb') /* Name */
-     , (33484,   7, 'Chapterhouse Recall Orb :)') /* Inscription */
-     , (33484,   8, 'Vote Pedro') /* ScribeName */
-     , (33484,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (33484,  16, 'A spellcasting orb used to recall to the Whispering Blade Chapterhouse.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -54,7 +50,7 @@ VALUES (33484,   1,   33554669) /* Setup */
      , (33484,   6,   67111928) /* PaletteBase */
      , (33484,   8,  100668722) /* Icon */
      , (33484,  22,  872415275) /* PhysicsEffectTable */
-     , (33484,  28,       3930) /* Spell */
+     , (33484,  28,       3930) /* Spell - RecallWhisperingBlade */
      , (33484, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (33484, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33484, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
@@ -70,8 +66,7 @@ VALUES (33484,   3, 1343276127) /* Wielder */
      , (33484, 8008, 1343276127) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33484,  2191,      2) 
-     , (33484,  3930,      2) ;
+VALUES (33484,  3930,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33484, 67111919, 0, 0);

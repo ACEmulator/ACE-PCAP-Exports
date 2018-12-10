@@ -6,21 +6,16 @@ VALUES (25875, 'nefaneparfal', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25875,   1,         16) /* ItemType - Creature */
      , (25875,   2,         45) /* CreatureType - Niffis */
-     , (25875,   5,       6493) /* EncumbranceVal */
      , (25875,   6,        255) /* ItemsCapacity */
      , (25875,   7,        255) /* ContainersCapacity */
      , (25875,  16,          1) /* ItemUseable - No */
-     , (25875,  19,          0) /* Value */
      , (25875,  25,        160) /* Level */
      , (25875,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25875, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25875, 307,          5) /* DamageRating */
-     , (25875, 313,         15) /* CritRating */
      , (25875, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25875,   1, True ) /* Stuck */
-     , (25875,   2, True ) /* Open */
      , (25875,  12, True ) /* ReportCollisions */
      , (25875,  13, False) /* Ethereal */
      , (25875,  14, True ) /* GravityStatus */
@@ -31,8 +26,6 @@ VALUES (25875,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25875,   1, 'Parfal Nefane') /* Name */
-     , (25875,  14, 'Use this item to close it.') /* Use */
-     , (25875,  16, 'Killed by Mag-four.') /* LongDesc */
      , (25875, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

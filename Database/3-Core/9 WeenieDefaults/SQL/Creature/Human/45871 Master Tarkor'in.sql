@@ -6,31 +6,15 @@ VALUES (45871, 'ace45871-mastertarkorin', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45871,   1,         16) /* ItemType - Creature */
      , (45871,   2,         31) /* CreatureType - Human */
-     , (45871,   5,        680) /* EncumbranceVal */
      , (45871,   6,        255) /* ItemsCapacity */
      , (45871,   7,        255) /* ContainersCapacity */
      , (45871,  16,         32) /* ItemUseable - Remote */
-     , (45871,  19,      13243) /* Value */
      , (45871,  25,        200) /* Level */
-     , (45871,  28,        303) /* ArmorLevel */
      , (45871,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45871,  95,          8) /* RadarBlipColor - Yellow */
-     , (45871, 105,          4) /* ItemWorkmanship */
-     , (45871, 106,        370) /* ItemSpellcraft */
-     , (45871, 107,       1174) /* ItemCurMana */
-     , (45871, 108,       1174) /* ItemMaxMana */
-     , (45871, 109,        194) /* ItemDifficulty */
-     , (45871, 110,          0) /* ItemAllegianceRankLimit */
      , (45871, 113,          1) /* Gender - Male */
-     , (45871, 115,        390) /* ItemSkillLevelLimit */
-     , (45871, 131,         59) /* MaterialType - Copper */
      , (45871, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (45871, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (45871, 158,          7) /* WieldRequirements - Level */
-     , (45871, 159,          1) /* WieldSkilltype - Axe */
-     , (45871, 160,        150) /* WieldDifficulty */
-     , (45871, 172,          1) /* AppraisalLongDescDecoration */
-     , (45871, 176,          6) /* AppraisalItemSkill */
      , (45871, 188,          9) /* HeritageGroup - Empyrean */
      , (45871, 281,          1) /* Faction1Bits */
      , (45871, 287,       1001) /* SocietyRankCelhan */
@@ -44,26 +28,15 @@ VALUES (45871,   1, True ) /* Stuck */
      , (45871,  14, True ) /* GravityStatus */
      , (45871,  19, False) /* Attackable */
      , (45871,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (45871,  42, True ) /* AllowEdgeSlide */
-     , (45871, 100, True ) /* Dyable */;
+     , (45871,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (45871,   5, -0.0666666666666667) /* ManaRate */
-     , (45871,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (45871,  14,       1) /* ArmorModVsPierce */
-     , (45871,  15,       1) /* ArmorModVsBludgeon */
-     , (45871,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (45871,  17, 0.829740405082703) /* ArmorModVsFire */
-     , (45871,  18, 1.10298991203308) /* ArmorModVsAcid */
-     , (45871,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (45871,  39, 1.20000004768372) /* DefaultScale */
-     , (45871,  54,       3) /* UseRadius */
-     , (45871, 165,       1) /* ArmorModVsNether */;
+VALUES (45871,  39, 1.20000004768372) /* DefaultScale */
+     , (45871,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45871,   1, 'Master Tarkor''in') /* Name */
      , (45871,   5, 'Society Stipend Officer') /* Template */
-     , (45871,  16, 'Haebrean Tassets of Sprinting') /* LongDesc */
      , (45871, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -101,15 +74,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (45871,   1,   296, 0, 0, 296) /* MaxHealth */
      , (45871,   3,   396, 0, 0, 396) /* MaxStamina */
      , (45871,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45871,  1516,      2) 
-     , (45871,  1574,      2) 
-     , (45871,  2104,      2) 
-     , (45871,  2110,      2) 
-     , (45871,  2301,      2) 
-     , (45871,  2577,      2) 
-     , (45871,  4407,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45871, 67116856, 32, 8)

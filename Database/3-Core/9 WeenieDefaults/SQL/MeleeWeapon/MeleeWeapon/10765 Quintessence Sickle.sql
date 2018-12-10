@@ -50,8 +50,6 @@ VALUES (10765,   5, -0.100000001490116) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10765,   1, 'Quintessence Sickle') /* Name */
-     , (10765,   7, ':)') /* Inscription */
-     , (10765,   8, 'Branor') /* ScribeName */
      , (10765,  16, 'A strange glowing sickle that crackles with energy.  Its unusually sharp edge seems as if it could inflict devastating wounds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

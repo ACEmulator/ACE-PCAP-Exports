@@ -5,7 +5,6 @@ VALUES (22480, 'statuetuskieitem', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22480,   1,         16) /* ItemType - Creature */
-     , (22480,   5,          0) /* EncumbranceVal */
      , (22480,   6,        255) /* ItemsCapacity */
      , (22480,   7,        255) /* ContainersCapacity */
      , (22480,  16,         32) /* ItemUseable - Remote */

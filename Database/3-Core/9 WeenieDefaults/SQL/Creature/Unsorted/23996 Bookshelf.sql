@@ -5,7 +5,6 @@ VALUES (23996, 'bookshelfasheron', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23996,   1,         16) /* ItemType - Creature */
-     , (23996,   5,          0) /* EncumbranceVal */
      , (23996,   6,        255) /* ItemsCapacity */
      , (23996,   7,        255) /* ContainersCapacity */
      , (23996,  16,         32) /* ItemUseable - Remote */

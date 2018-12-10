@@ -22,7 +22,6 @@ VALUES (25477,   1, False) /* Stuck */
      , (25477,  14, True ) /* GravityStatus */
      , (25477,  19, True ) /* Attackable */
      , (25477,  22, True ) /* Inscribable */
-     , (25477,  85, True ) /* AppraisalHasAllowedWielder */
      , (25477,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -30,8 +29,7 @@ VALUES (25477,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25477,   1, 'Renegade Pendant') /* Name */
-     , (25477,  16, 'A large green gem hung from a silver necklace. The pendant marks you as a Renegade ally.') /* LongDesc */
-     , (25477,  25, 'Aliah the radiant') /* CraftsmanName */;
+     , (25477,  16, 'A large green gem hung from a silver necklace. The pendant marks you as a Renegade ally.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25477,   1,   33554680) /* Setup */

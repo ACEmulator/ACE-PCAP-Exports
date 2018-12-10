@@ -5,14 +5,12 @@ VALUES (47878, 'ace47878-acidnekode', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47878,   1,          1) /* ItemType - MeleeWeapon */
-     , (47878,   2,         78) /* CreatureType - Fiun */
      , (47878,   5,        135) /* EncumbranceVal */
      , (47878,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47878,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47878,  16,          1) /* ItemUseable - No */
      , (47878,  18,        256) /* UiEffects - Acid */
      , (47878,  19,        155) /* Value */
-     , (47878,  25,        115) /* Level */
      , (47878,  51,          1) /* CombatUse - Melee */
      , (47878,  65,          1) /* Placement - RightHandCombat */
      , (47878,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -47,6 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47878,   3, 3701800141) /* Wielder */
      , (47878, 8000, 3701800143) /* PCAPRecordedObjectIID */
      , (47878, 8008, 3701800141) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47878,   1,   460, 0, 0, 460) /* MaxHealth */;

@@ -43,7 +43,7 @@ VALUES (8213,   1,   33556851) /* Setup */
      , (8213,   3,  536870932) /* SoundTable */
      , (8213,   8,  100671182) /* Icon */
      , (8213,  22,  872415275) /* PhysicsEffectTable */
-     , (8213,  28,       2016) /* Spell */
+     , (8213,  28,       2016) /* Spell - Impulse */
      , (8213, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (8213, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8213, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

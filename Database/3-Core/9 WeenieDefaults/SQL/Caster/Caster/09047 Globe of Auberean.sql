@@ -26,13 +26,10 @@ VALUES (9047,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9047,  29,       1) /* WeaponDefense */
-     , (9047, 144,       0) /* ManaConversionMod */
-     , (9047, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (9047, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9047,   1, 'Globe of Auberean') /* Name */
-     , (9047,   7, 'He''s got the whole world, in his hands...') /* Inscription */
-     , (9047,   8, 'Queror') /* ScribeName */
      , (9047,  16, 'A magical orb, painted to show the continents and islands of Auberean. The island of Dereth can barely be seen, a tiny speck in the northern oceans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

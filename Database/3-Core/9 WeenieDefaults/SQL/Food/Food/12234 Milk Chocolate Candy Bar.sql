@@ -30,8 +30,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12234,   1, 'Milk Chocolate Candy Bar') /* Name */
      , (12234,  14, 'Use this item to eat it.') /* Use */
      , (12234,  15, 'A milk chocolate candy with a  sticky, sweet center.') /* ShortDesc */
-     , (12234,  20, 'Milk Chocolate Candy Bar') /* PluralName */
-     , (12234,  25, 'Squire Juliana') /* CraftsmanName */;
+     , (12234,  20, 'Milk Chocolate Candy Bar') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12234,   1,   33555677) /* Setup */

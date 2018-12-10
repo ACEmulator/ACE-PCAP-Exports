@@ -6,11 +6,9 @@ VALUES (51762, 'ace51762-discorporaterynthidofrage', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51762,   1,         16) /* ItemType - Creature */
      , (51762,   2,         19) /* CreatureType - Virindi */
-     , (51762,   5,       6077) /* EncumbranceVal */
      , (51762,   6,        255) /* ItemsCapacity */
      , (51762,   7,        255) /* ContainersCapacity */
      , (51762,  16,          1) /* ItemUseable - No */
-     , (51762,  19,          0) /* Value */
      , (51762,  25,        200) /* Level */
      , (51762,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51762, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (51762,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51762,   1, 'Discorporate Rynthid of Rage') /* Name */
-     , (51762,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (51762, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

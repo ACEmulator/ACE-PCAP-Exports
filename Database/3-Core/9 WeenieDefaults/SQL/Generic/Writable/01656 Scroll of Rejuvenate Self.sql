@@ -31,7 +31,7 @@ Increases the rate at which the caster regains Stamina by 10%.') /* LongDesc */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1656,   1,   33554826) /* Setup */
      , (1656,   8,  100676940) /* Icon */
-     , (1656,  28,         54) /* Spell */
+     , (1656,  28,         54) /* Spell - RejuvenationSelf1 */
      , (1656, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1656, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1656, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;

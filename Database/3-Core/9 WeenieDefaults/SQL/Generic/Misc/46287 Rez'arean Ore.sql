@@ -28,9 +28,7 @@ VALUES (46287,  39,    0.25) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46287,   1, 'Rez''arean Ore') /* Name */
      , (46287,  14, 'Lady Kiara Trianna may be interested in this.') /* Use */
-     , (46287,  15, 'A small stone found in the Gearknight Invasion Area in the Direlands.') /* ShortDesc */
-     , (46287,  16, 'Inscribed spell: Crushing Shame
-Shoots a shock wave at the target. The wave does 115-189 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
+     , (46287,  15, 'A small stone found in the Gearknight Invasion Area in the Direlands.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46287,   1,   33561460) /* Setup */
@@ -47,6 +45,3 @@ VALUES (46287, 8040, 577830915, 14.63286, 70.10345, 165.2194, -0.7646202, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46287, 8000, 3706483104) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46287,  2144,      2) ;

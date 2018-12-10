@@ -6,23 +6,12 @@ VALUES (198, 'golemlimestone', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (198,   1,         16) /* ItemType - Creature */
      , (198,   2,         13) /* CreatureType - Golem */
-     , (198,   5,         13) /* EncumbranceVal */
      , (198,   6,        255) /* ItemsCapacity */
      , (198,   7,        255) /* ContainersCapacity */
      , (198,  16,          1) /* ItemUseable - No */
-     , (198,  19,      24071) /* Value */
      , (198,  25,         15) /* Level */
-     , (198,  28,        294) /* ArmorLevel */
      , (198,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (198, 105,          7) /* ItemWorkmanship */
-     , (198, 131,          5) /* MaterialType - Satin */
      , (198, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (198, 158,          7) /* WieldRequirements - Level */
-     , (198, 159,          1) /* WieldSkilltype - Axe */
-     , (198, 160,        180) /* WieldDifficulty */
-     , (198, 172,          5) /* AppraisalLongDescDecoration */
-     , (198, 177,          1) /* GemCount */
-     , (198, 178,         22) /* GemType */
      , (198, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,22 +19,10 @@ VALUES (198,   1, True ) /* Stuck */
      , (198,  12, True ) /* ReportCollisions */
      , (198,  13, False) /* Ethereal */
      , (198,  14, True ) /* GravityStatus */
-     , (198,  19, True ) /* Attackable */
-     , (198, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (198,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (198,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (198,  15,       1) /* ArmorModVsBludgeon */
-     , (198,  16,     0.5) /* ArmorModVsCold */
-     , (198,  17, 1.13270056247711) /* ArmorModVsFire */
-     , (198,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (198,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (198, 165,       1) /* ArmorModVsNether */;
+     , (198,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (198,   1, 'Limestone Golem') /* Name */
-     , (198,  16, 'Qafiya') /* LongDesc */
      , (198, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

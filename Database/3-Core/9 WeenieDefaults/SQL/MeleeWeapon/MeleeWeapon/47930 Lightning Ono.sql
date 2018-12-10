@@ -11,22 +11,10 @@ VALUES (47930,   1,          1) /* ItemType - MeleeWeapon */
      , (47930,  16,          1) /* ItemUseable - No */
      , (47930,  18,         64) /* UiEffects - Lightning */
      , (47930,  19,        350) /* Value */
-     , (47930,  28,        274) /* ArmorLevel */
      , (47930,  51,          1) /* CombatUse - Melee */
      , (47930,  65,          1) /* Placement - RightHandCombat */
      , (47930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47930, 105,          9) /* ItemWorkmanship */
-     , (47930, 106,        311) /* ItemSpellcraft */
-     , (47930, 107,       1587) /* ItemCurMana */
-     , (47930, 108,       1587) /* ItemMaxMana */
-     , (47930, 109,        322) /* ItemDifficulty */
-     , (47930, 110,          0) /* ItemAllegianceRankLimit */
-     , (47930, 115,          0) /* ItemSkillLevelLimit */
-     , (47930, 131,         64) /* MaterialType - Steel */
-     , (47930, 151,          2) /* HookType - Wall */
-     , (47930, 172,          5) /* AppraisalLongDescDecoration */
-     , (47930, 177,          2) /* GemCount */
-     , (47930, 178,         39) /* GemType */;
+     , (47930, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47930,   1, False) /* Stuck */
@@ -34,23 +22,10 @@ VALUES (47930,   1, False) /* Stuck */
      , (47930,  13, True ) /* Ethereal */
      , (47930,  14, True ) /* GravityStatus */
      , (47930,  19, True ) /* Attackable */
-     , (47930,  22, True ) /* Inscribable */
-     , (47930, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47930,   5, -0.0555555555555556) /* ManaRate */
-     , (47930,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (47930,  14,       1) /* ArmorModVsPierce */
-     , (47930,  15,       1) /* ArmorModVsBludgeon */
-     , (47930,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (47930,  17, 1.01756131649017) /* ArmorModVsFire */
-     , (47930,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (47930,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (47930, 165,       1) /* ArmorModVsNether */;
+     , (47930,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47930,   1, 'Lightning Ono') /* Name */
-     , (47930,  16, 'Haebrean Vambraces of Magic Resistance') /* LongDesc */;
+VALUES (47930,   1, 'Lightning Ono') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47930,   1,   33555704) /* Setup */
@@ -70,9 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47930,   3, 3690336089) /* Wielder */
      , (47930, 8000, 3690336097) /* PCAPRecordedObjectIID */
      , (47930, 8008, 3690336089) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47930,  1486,      2) 
-     , (47930,  2281,      2) 
-     , (47930,  2597,      2) 
-     , (47930,  5884,      2) ;

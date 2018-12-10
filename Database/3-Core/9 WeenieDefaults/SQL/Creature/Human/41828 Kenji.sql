@@ -6,32 +6,15 @@ VALUES (41828, 'ace41828-kenji', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41828,   1,         16) /* ItemType - Creature */
      , (41828,   2,         31) /* CreatureType - Human */
-     , (41828,   5,        135) /* EncumbranceVal */
      , (41828,   6,        255) /* ItemsCapacity */
      , (41828,   7,        255) /* ContainersCapacity */
      , (41828,  16,         32) /* ItemUseable - Remote */
-     , (41828,  19,       2090) /* Value */
      , (41828,  25,        180) /* Level */
-     , (41828,  28,          0) /* ArmorLevel */
-     , (41828,  33,          1) /* Bonded - Bonded */
      , (41828,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41828,  95,          8) /* RadarBlipColor - Yellow */
-     , (41828, 105,          7) /* ItemWorkmanship */
-     , (41828, 106,        297) /* ItemSpellcraft */
-     , (41828, 107,        872) /* ItemCurMana */
-     , (41828, 108,        872) /* ItemMaxMana */
-     , (41828, 109,        146) /* ItemDifficulty */
-     , (41828, 110,          0) /* ItemAllegianceRankLimit */
      , (41828, 113,          1) /* Gender - Male */
-     , (41828, 114,          1) /* Attuned - Attuned */
-     , (41828, 115,        317) /* ItemSkillLevelLimit */
-     , (41828, 131,          6) /* MaterialType - Silk */
      , (41828, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41828, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (41828, 172,          1) /* AppraisalLongDescDecoration */
-     , (41828, 176,          6) /* AppraisalItemSkill */
-     , (41828, 177,          2) /* GemCount */
-     , (41828, 178,         21) /* GemType */
      , (41828, 188,          3) /* HeritageGroup - Sho */
      , (41828, 281,          4) /* Faction1Bits */
      , (41828, 289,       1001) /* SocietyRankRadblo */
@@ -39,33 +22,20 @@ VALUES (41828,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41828,   1, True ) /* Stuck */
-     , (41828,   2, False) /* Open */
      , (41828,  11, True ) /* IgnoreCollisions */
      , (41828,  12, True ) /* ReportCollisions */
      , (41828,  13, False) /* Ethereal */
      , (41828,  14, True ) /* GravityStatus */
      , (41828,  19, False) /* Attackable */
      , (41828,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (41828,  42, True ) /* AllowEdgeSlide */
-     , (41828, 100, True ) /* Dyable */;
+     , (41828,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41828,   5, -0.0555555555555556) /* ManaRate */
-     , (41828,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (41828,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (41828,  15,       1) /* ArmorModVsBludgeon */
-     , (41828,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (41828,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (41828,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (41828,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (41828,  54,       3) /* UseRadius */
-     , (41828, 165,       1) /* ArmorModVsNether */;
+VALUES (41828,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41828,   1, 'Kenji') /* Name */
      , (41828,   5, 'Society Collector') /* Template */
-     , (41828,  14, 'Use this item to close it.') /* Use */
-     , (41828,  16, 'Trousers') /* LongDesc */
      , (41828, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -103,13 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41828,   1,   296, 0, 0, 296) /* MaxHealth */
      , (41828,   3,   396, 0, 0, 396) /* MaxStamina */
      , (41828,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41828,  1486,      2) 
-     , (41828,  1540,      2) 
-     , (41828,  2113,      2) 
-     , (41828,  2203,      2) 
-     , (41828,  2599,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41828, 67110056, 0, 24)

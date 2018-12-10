@@ -12,7 +12,6 @@ VALUES (52725,   1,        256) /* ItemType - MissileWeapon */
      , (52725,  12,          1) /* StackSize */
      , (52725,  16,          1) /* ItemUseable - No */
      , (52725,  19,          1) /* Value */
-     , (52725,  28,          0) /* ArmorLevel */
      , (52725,  33,         -2) /* Bonded - Destroy */
      , (52725,  44,        425) /* Damage */
      , (52725,  45,          4) /* DamageType - Bludgeon */
@@ -21,15 +20,6 @@ VALUES (52725,   1,        256) /* ItemType - MissileWeapon */
      , (52725,  51,          2) /* CombatUse - Missle */
      , (52725,  65,          1) /* Placement - RightHandCombat */
      , (52725,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (52725, 105,          6) /* ItemWorkmanship */
-     , (52725, 106,        156) /* ItemSpellcraft */
-     , (52725, 107,        701) /* ItemCurMana */
-     , (52725, 108,        701) /* ItemMaxMana */
-     , (52725, 109,        156) /* ItemDifficulty */
-     , (52725, 110,          0) /* ItemAllegianceRankLimit */
-     , (52725, 115,          0) /* ItemSkillLevelLimit */
-     , (52725, 131,          8) /* MaterialType - Wool */
-     , (52725, 172,          1) /* AppraisalLongDescDecoration */
      , (52725, 307,         35) /* DamageRating */
      , (52725, 313,         30) /* CritRating */
      , (52725, 314,          0) /* CritDamageRating */
@@ -43,19 +33,10 @@ VALUES (52725,   1, True ) /* Stuck */
      , (52725,  13, True ) /* Ethereal */
      , (52725,  14, True ) /* GravityStatus */
      , (52725,  17, True ) /* Inelastic */
-     , (52725,  19, True ) /* Attackable */
-     , (52725, 100, True ) /* Dyable */;
+     , (52725,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52725,   5, -0.0416666666666667) /* ManaRate */
-     , (52725,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (52725,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (52725,  15,       1) /* ArmorModVsBludgeon */
-     , (52725,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (52725,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (52725,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (52725,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (52725,  21,       0) /* WeaponLength */
+VALUES (52725,  21,       0) /* WeaponLength */
      , (52725,  22,     0.5) /* DamageVariance */
      , (52725,  26,      45) /* MaximumVelocity */
      , (52725,  29,       1) /* WeaponDefense */
@@ -65,12 +46,10 @@ VALUES (52725,   5, -0.0416666666666667) /* ManaRate */
      , (52725,  78,       1) /* Friction */
      , (52725,  79,       0) /* Elasticity */
      , (52725, 149,       0) /* WeaponMissileDefense */
-     , (52725, 150,       0) /* WeaponMagicDefense */
-     , (52725, 165,       1) /* ArmorModVsNether */;
+     , (52725, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52725,   1, 'Frozen Coconut') /* Name */
-     , (52725,  16, 'Smock of Blade Protection') /* LongDesc */;
+VALUES (52725,   1, 'Frozen Coconut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52725,   1,   33554669) /* Setup */
@@ -94,8 +73,7 @@ VALUES (52725,   3, 3695203393) /* Wielder */
      , (52725, 8008, 3695203393) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52725,  1112,      2) 
-     , (52725,  4312,      2) ;
+VALUES (52725,  4312,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52725, 67111925, 0, 0);

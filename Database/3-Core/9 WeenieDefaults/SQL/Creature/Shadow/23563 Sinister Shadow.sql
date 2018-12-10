@@ -6,28 +6,14 @@ VALUES (23563, 'shadowsinister', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23563,   1,         16) /* ItemType - Creature */
      , (23563,   2,         22) /* CreatureType - Shadow */
-     , (23563,   5,         60) /* EncumbranceVal */
      , (23563,   6,        255) /* ItemsCapacity */
      , (23563,   7,        255) /* ContainersCapacity */
      , (23563,  16,          1) /* ItemUseable - No */
-     , (23563,  19,       9219) /* Value */
      , (23563,  25,        100) /* Level */
      , (23563,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (23563, 105,          6) /* ItemWorkmanship */
-     , (23563, 106,        298) /* ItemSpellcraft */
-     , (23563, 107,       1634) /* ItemCurMana */
-     , (23563, 108,       1634) /* ItemMaxMana */
-     , (23563, 109,        298) /* ItemDifficulty */
-     , (23563, 110,          0) /* ItemAllegianceRankLimit */
      , (23563, 113,          1) /* Gender - Male */
-     , (23563, 115,          0) /* ItemSkillLevelLimit */
-     , (23563, 131,         63) /* MaterialType - Silver */
      , (23563, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23563, 172,          5) /* AppraisalLongDescDecoration */
-     , (23563, 177,          2) /* GemCount */
-     , (23563, 178,         38) /* GemType */
      , (23563, 188,          1) /* HeritageGroup - Aluvian */
-     , (23563, 307,          5) /* DamageRating */
      , (23563, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,12 +25,10 @@ VALUES (23563,   1, True ) /* Stuck */
      , (23563,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23563,   5, -0.0555555555555556) /* ManaRate */
-     , (23563,  76,     0.5) /* Translucency */;
+VALUES (23563,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23563,   1, 'Sinister Shadow') /* Name */
-     , (23563,  16, 'Bracelet of Focus') /* LongDesc */
      , (23563, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,9 +67,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (23563,   1,   385, 0, 0, 385) /* MaxHealth */
      , (23563,   3,   530, 0, 0, 530) /* MaxStamina */
      , (23563,   5,   490, 0, 0, 490) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23563,  2067,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23563, 67112860, 0, 0);

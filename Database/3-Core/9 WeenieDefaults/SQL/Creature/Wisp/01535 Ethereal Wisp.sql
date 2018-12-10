@@ -6,11 +6,9 @@ VALUES (1535, 'wispethereal', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1535,   1,         16) /* ItemType - Creature */
      , (1535,   2,         20) /* CreatureType - Wisp */
-     , (1535,   5,       6354) /* EncumbranceVal */
      , (1535,   6,        255) /* ItemsCapacity */
      , (1535,   7,        255) /* ContainersCapacity */
      , (1535,  16,          1) /* ItemUseable - No */
-     , (1535,  19,          0) /* Value */
      , (1535,  25,          8) /* Level */
      , (1535,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1535, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -18,7 +16,6 @@ VALUES (1535,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1535,   1, True ) /* Stuck */
-     , (1535,   2, True ) /* Open */
      , (1535,  12, True ) /* ReportCollisions */
      , (1535,  13, False) /* Ethereal */
      , (1535,  14, True ) /* GravityStatus */
@@ -26,8 +23,6 @@ VALUES (1535,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1535,   1, 'Ethereal Wisp') /* Name */
-     , (1535,  14, 'Use this item to close it.') /* Use */
-     , (1535,  16, 'Killed by Mag-one.') /* LongDesc */
      , (1535, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

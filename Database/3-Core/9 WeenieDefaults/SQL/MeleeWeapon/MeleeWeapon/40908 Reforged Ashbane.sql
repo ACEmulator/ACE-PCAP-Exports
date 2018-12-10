@@ -36,7 +36,6 @@ VALUES (40908,   1, False) /* Stuck */
      , (40908,  19, True ) /* Attackable */
      , (40908,  22, True ) /* Inscribable */
      , (40908,  69, False) /* IsSellable */
-     , (40908,  85, True ) /* AppraisalHasAllowedWielder */
      , (40908,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -52,10 +51,7 @@ VALUES (40908,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40908,   1, 'Reforged Ashbane') /* Name */
-     , (40908,   7, 'Rise, Latzimestal brethren, smite Rytheran, Aerfalle, and their Filinuvektan filth') /* Inscription */
-     , (40908,   8, 'The Guardian of the Lost Light') /* ScribeName */
-     , (40908,  16, 'A heavily enchanted flaming sword, wrought from magically-reinforced silver.  The magics are so elegantly inlaid into the weapon that there is no visible enchantment on the blade.  Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir.') /* LongDesc */
-     , (40908,  25, 'Tzhar') /* CraftsmanName */;
+     , (40908,  16, 'A heavily enchanted flaming sword, wrought from magically-reinforced silver.  The magics are so elegantly inlaid into the weapon that there is no visible enchantment on the blade.  Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40908,   1,   33558823) /* Setup */

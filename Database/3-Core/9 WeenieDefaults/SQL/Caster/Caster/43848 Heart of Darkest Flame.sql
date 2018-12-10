@@ -32,7 +32,7 @@ VALUES (43848,   1,   33561171) /* Setup */
      , (43848,   6,   67111919) /* PaletteBase */
      , (43848,   8,  100691783) /* Icon */
      , (43848,  22,  872415275) /* PhysicsEffectTable */
-     , (43848,  28,       5355) /* Spell */
+     , (43848,  28,       5355) /* Spell - NetherBolt7 */
      , (43848,  52,  100686604) /* IconUnderlay */
      , (43848, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (43848, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

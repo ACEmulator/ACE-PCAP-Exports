@@ -7,7 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25328,   1,        128) /* ItemType - Misc */
      , (25328,   5,         25) /* EncumbranceVal */
      , (25328,  16,          1) /* ItemUseable - No */
-     , (25328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (25328,  19,          0) /* Value */
+     , (25328,  33,          1) /* Bonded - Bonded */
+     , (25328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (25328, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25328,   1, False) /* Stuck */
@@ -18,7 +21,8 @@ VALUES (25328,   1, False) /* Stuck */
      , (25328,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25328,   1, 'Alloy Piston') /* Name */;
+VALUES (25328,   1, 'Alloy Piston') /* Name */
+     , (25328,  16, 'This mechanism appears to be made of some unknown alloy. Perhaps an Agent of the Arcanum would know what it is?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25328,   1,   33558439) /* Setup */

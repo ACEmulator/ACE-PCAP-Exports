@@ -8,23 +8,8 @@ VALUES (20544,   1,       8192) /* ItemType - Writable */
      , (20544,   5,         30) /* EncumbranceVal */
      , (20544,  16,          8) /* ItemUseable - Contained */
      , (20544,  19,       2000) /* Value */
-     , (20544,  44,         49) /* Damage */
-     , (20544,  45,         32) /* DamageType - Acid */
-     , (20544,  47,          1) /* AttackType - Punch */
-     , (20544,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (20544,  49,         17) /* WeaponTime */
      , (20544,  65,        101) /* Placement - Resting */
-     , (20544,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20544, 105,          8) /* ItemWorkmanship */
-     , (20544, 131,         63) /* MaterialType - Silver */
-     , (20544, 158,          2) /* WieldRequirements - RawSkill */
-     , (20544, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (20544, 160,        400) /* WieldDifficulty */
-     , (20544, 172,          5) /* AppraisalLongDescDecoration */
-     , (20544, 177,          2) /* GemCount */
-     , (20544, 178,         39) /* GemType */
-     , (20544, 353,          1) /* WeaponType - Unarmed */
-     , (20544, 8030,          0);
+     , (20544,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20544,   1, False) /* Stuck */
@@ -35,13 +20,7 @@ VALUES (20544,   1, False) /* Stuck */
      , (20544,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20544,  21,       0) /* WeaponLength */
-     , (20544,  22,    0.53) /* DamageVariance */
-     , (20544,  26,       0) /* MaximumVelocity */
-     , (20544,  29,    1.13) /* WeaponDefense */
-     , (20544,  39,     1.5) /* DefaultScale */
-     , (20544,  62,    1.18) /* WeaponOffense */
-     , (20544,  63,       1) /* DamageMod */;
+VALUES (20544,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20544,   1, 'Scroll of Unfortunate Appraisal') /* Name */
@@ -53,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20544,   1,   33554826) /* Setup */
      , (20544,   8,  100676477) /* Icon */
      , (20544,  22,  872415275) /* PhysicsEffectTable */
-     , (20544,  28,       2252) /* Spell */
+     , (20544,  28,       2252) /* Spell - ItemIgnoranceOther7 */
      , (20544, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20544, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20544, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -63,5 +42,4 @@ VALUES (20544,   2, 3690121320) /* Container */
      , (20544, 8000, 3690121187) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20544,  2064,      2) 
-     , (20544,  2252,      2) ;
+VALUES (20544,  2252,      2) ;

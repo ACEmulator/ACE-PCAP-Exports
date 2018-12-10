@@ -10,8 +10,6 @@ VALUES (3766,   1,          1) /* ItemType - MeleeWeapon */
      , (3766,  16,          1) /* ItemUseable - No */
      , (3766,  18,        257) /* UiEffects - Magical, Acid */
      , (3766,  19,       2345) /* Value */
-     , (3766,  28,        229) /* ArmorLevel */
-     , (3766,  33,          1) /* Bonded - Bonded */
      , (3766,  44,         28) /* Damage */
      , (3766,  45,         32) /* DamageType - Acid */
      , (3766,  47,          4) /* AttackType - Slash */
@@ -45,18 +43,10 @@ VALUES (3766,   1, False) /* Stuck */
      , (3766,  13, True ) /* Ethereal */
      , (3766,  14, True ) /* GravityStatus */
      , (3766,  19, True ) /* Attackable */
-     , (3766,  22, True ) /* Inscribable */
-     , (3766, 100, True ) /* Dyable */;
+     , (3766,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3766,   5, -0.0416666666666667) /* ManaRate */
-     , (3766,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (3766,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (3766,  15,       1) /* ArmorModVsBludgeon */
-     , (3766,  16,     0.5) /* ArmorModVsCold */
-     , (3766,  17,     0.5) /* ArmorModVsFire */
-     , (3766,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (3766,  19, 1.23393833637238) /* ArmorModVsElectric */
      , (3766,  21,       0) /* WeaponLength */
      , (3766,  22,    0.37) /* DamageVariance */
      , (3766,  26,       0) /* MaximumVelocity */
@@ -64,14 +54,10 @@ VALUES (3766,   5, -0.0416666666666667) /* ManaRate */
      , (3766,  39,    1.25) /* DefaultScale */
      , (3766,  62,    1.06) /* WeaponOffense */
      , (3766,  63,       1) /* DamageMod */
-     , (3766, 149,   1.015) /* WeaponMissileDefense */
-     , (3766, 150,   1.005) /* WeaponMagicDefense */
-     , (3766, 165,       1) /* ArmorModVsNether */
      , (3766, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3766,   1, 'Acid Club') /* Name */
-     , (3766,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (3766,  16, 'Acid Club of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -88,56 +74,7 @@ VALUES (3766,   2, 3698914163) /* Container */
      , (3766, 8000, 3701027319) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3766,   829,      2) 
-     , (3766,  1354,      2) 
-     , (3766,  1377,      2) 
-     , (3766,  1378,      2) 
-     , (3766,  1485,      2) 
-     , (3766,  1539,      2) 
-     , (3766,  1589,      2) 
-     , (3766,  1590,      2) 
-     , (3766,  1591,      2) 
-     , (3766,  1592,      2) 
-     , (3766,  1601,      2) 
-     , (3766,  1602,      2) 
-     , (3766,  1603,      2) 
+VALUES (3766,  1591,      2) 
      , (3766,  1604,      2) 
-     , (3766,  1605,      2) 
-     , (3766,  1613,      2) 
      , (3766,  1614,      2) 
-     , (3766,  1615,      2) 
-     , (3766,  1616,      2) 
-     , (3766,  1623,      2) 
-     , (3766,  1626,      2) 
-     , (3766,  1627,      2) 
-     , (3766,  2061,      2) 
-     , (3766,  2081,      2) 
-     , (3766,  2087,      2) 
-     , (3766,  2096,      2) 
-     , (3766,  2101,      2) 
-     , (3766,  2116,      2) 
-     , (3766,  2140,      2) 
-     , (3766,  2526,      2) 
-     , (3766,  2537,      2) 
-     , (3766,  2539,      2) 
-     , (3766,  2548,      2) 
-     , (3766,  2559,      2) 
-     , (3766,  2570,      2) 
-     , (3766,  2572,      2) 
-     , (3766,  2573,      2) 
-     , (3766,  2576,      2) 
-     , (3766,  2579,      2) 
-     , (3766,  2580,      2) 
-     , (3766,  2582,      2) 
-     , (3766,  2583,      2) 
-     , (3766,  2591,      2) 
-     , (3766,  2598,      2) 
-     , (3766,  2619,      2) 
-     , (3766,  4395,      2) 
-     , (3766,  4666,      2) 
-     , (3766,  4708,      2) 
-     , (3766,  5785,      2) 
-     , (3766,  5806,      2) 
-     , (3766,  5879,      2) 
-     , (3766,  5881,      2) 
-     , (3766,  6126,      2) ;
+     , (3766,  2598,      2) ;

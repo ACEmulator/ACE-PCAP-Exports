@@ -6,11 +6,9 @@ VALUES (49011, 'ace49011-ferahpalacostszombie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49011,   1,         16) /* ItemType - Creature */
      , (49011,   2,         14) /* CreatureType - Undead */
-     , (49011,   5,       6787) /* EncumbranceVal */
      , (49011,   6,        255) /* ItemsCapacity */
      , (49011,   7,        255) /* ContainersCapacity */
      , (49011,  16,          1) /* ItemUseable - No */
-     , (49011,  19,          0) /* Value */
      , (49011,  25,        100) /* Level */
      , (49011,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49011, 133,          1) /* ShowableOnRadar - ShowNever */
@@ -28,7 +26,6 @@ VALUES (49011,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49011,   1, 'Ferah Palacost''s Zombie') /* Name */
-     , (49011,  16, 'Killed by Ferah Palacost.') /* LongDesc */
      , (49011, 8006, 'AAA+AAEAAAA+AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

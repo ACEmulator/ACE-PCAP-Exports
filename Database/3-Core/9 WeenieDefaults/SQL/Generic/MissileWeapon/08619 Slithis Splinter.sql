@@ -20,11 +20,7 @@ VALUES (8619,   1,        256) /* ItemType - MissileWeapon */
      , (8619,  51,          2) /* CombatUse - Missle */
      , (8619,  65,          1) /* Placement - RightHandCombat */
      , (8619,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (8619, 307,          5) /* DamageRating */
-     , (8619, 313,          0) /* CritRating */
-     , (8619, 314,          0) /* CritDamageRating */
      , (8619, 353,         10) /* WeaponType - Thrown */
-     , (8619, 386,          0) /* Overpower */
      , (8619, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,8 +30,7 @@ VALUES (8619,   1, False) /* Stuck */
      , (8619,  14, True ) /* GravityStatus */
      , (8619,  17, True ) /* Inelastic */
      , (8619,  19, True ) /* Attackable */
-     , (8619,  24, True ) /* UiHidden */
-     , (8619,  69, False) /* IsSellable */;
+     , (8619,  24, True ) /* UiHidden */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8619,  21,       0) /* WeaponLength */
@@ -46,14 +41,10 @@ VALUES (8619,  21,       0) /* WeaponLength */
      , (8619,  62,       1) /* WeaponOffense */
      , (8619,  63,       1) /* DamageMod */
      , (8619,  78,       1) /* Friction */
-     , (8619,  79,       0) /* Elasticity */
-     , (8619, 149,       0) /* WeaponMissileDefense */
-     , (8619, 150,       0) /* WeaponMagicDefense */;
+     , (8619,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8619,   1, 'Slithis Splinter') /* Name */
-     , (8619,  14, 'Combine with another dark shard to make a shadow fragment, or combine with a small shard to make a glimmering gem.') /* Use */
-     , (8619,  16, 'A jet-black shard of something hard and crystalline.') /* LongDesc */;
+VALUES (8619,   1, 'Slithis Splinter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8619,   1,   33556900) /* Setup */

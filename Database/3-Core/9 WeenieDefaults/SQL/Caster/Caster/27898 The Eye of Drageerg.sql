@@ -34,8 +34,7 @@ VALUES (27898,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27898,   5, -0.00999999977648258) /* ManaRate */
      , (27898,  29,       1) /* WeaponDefense */
-     , (27898, 144, 0.0299999993294477) /* ManaConversionMod */
-     , (27898, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (27898, 144, 0.0299999993294477) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27898,   1, 'The Eye of Drageerg') /* Name */
@@ -46,7 +45,7 @@ VALUES (27898,   1,   33558802) /* Setup */
      , (27898,   3,  536870932) /* SoundTable */
      , (27898,   8,  100676618) /* Icon */
      , (27898,  22,  872415275) /* PhysicsEffectTable */
-     , (27898,  28,       1050) /* Spell */
+     , (27898,  28,       1050) /* Spell - BludgeonVulnerabilityOther3 */
      , (27898, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (27898, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27898, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

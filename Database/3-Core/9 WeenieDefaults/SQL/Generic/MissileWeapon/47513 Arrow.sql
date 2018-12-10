@@ -5,7 +5,6 @@ VALUES (47513, 'ace47513-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47513,   1,        256) /* ItemType - MissileWeapon */
-     , (47513,   2,          8) /* CreatureType - Tusker */
      , (47513,   5,       1250) /* EncumbranceVal */
      , (47513,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (47513,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,7 +12,6 @@ VALUES (47513,   1,        256) /* ItemType - MissileWeapon */
      , (47513,  12,        250) /* StackSize */
      , (47513,  16,          1) /* ItemUseable - No */
      , (47513,  19,       1750) /* Value */
-     , (47513,  25,         30) /* Level */
      , (47513,  33,         -2) /* Bonded - Destroy */
      , (47513,  44,         -1) /* Damage */
      , (47513,  45,          0) /* DamageType - Undef */
@@ -23,10 +21,6 @@ VALUES (47513,   1,        256) /* ItemType - MissileWeapon */
      , (47513,  51,          3) /* CombatUse - Ammo */
      , (47513,  65,          1) /* Placement - RightHandCombat */
      , (47513,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (47513, 307,          5) /* DamageRating */
-     , (47513, 313,          0) /* CritRating */
-     , (47513, 314,          0) /* CritDamageRating */
-     , (47513, 386,          0) /* Overpower */
      , (47513, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,13 +41,10 @@ VALUES (47513,  21,       0) /* WeaponLength */
      , (47513,  62,       1) /* WeaponOffense */
      , (47513,  63,       1) /* DamageMod */
      , (47513,  78,       1) /* Friction */
-     , (47513,  79,       0) /* Elasticity */
-     , (47513, 149,       0) /* WeaponMissileDefense */
-     , (47513, 150,       0) /* WeaponMagicDefense */;
+     , (47513,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47513,   1, 'Arrow') /* Name */
-     , (47513,  16, 'Killed by Mag-five.') /* LongDesc */;
+VALUES (47513,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47513,   1,   33554724) /* Setup */
@@ -74,19 +65,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47513,   3, 3358288599) /* Wielder */
      , (47513, 8000, 3360588190) /* PCAPRecordedObjectIID */
      , (47513, 8008, 3358288599) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47513,   1, 300, 0, 0) /* Strength */
-     , (47513,   2, 300, 0, 0) /* Endurance */
-     , (47513,   3, 130, 0, 0) /* Quickness */
-     , (47513,   4, 130, 0, 0) /* Coordination */
-     , (47513,   5, 100, 0, 0) /* Focus */
-     , (47513,   6,  50, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47513,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (47513,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (47513,   5,    50, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47513, 67111919, 0, 0);

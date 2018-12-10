@@ -19,7 +19,6 @@ VALUES (21912,   1,      32768) /* ItemType - Caster */
      , (21912, 108,      10000) /* ItemMaxMana */
      , (21912, 109,        100) /* ItemDifficulty */
      , (21912, 110,          0) /* ItemAllegianceRankLimit */
-     , (21912, 114,          0) /* Attuned - Normal */
      , (21912, 151,          2) /* HookType - Wall */
      , (21912, 158,          8) /* WieldRequirements - Training */
      , (21912, 159,         34) /* WieldSkilltype - WarMagic */
@@ -33,30 +32,23 @@ VALUES (21912,   1, False) /* Stuck */
      , (21912,  14, True ) /* GravityStatus */
      , (21912,  19, True ) /* Attackable */
      , (21912,  22, True ) /* Inscribable */
-     , (21912,  69, False) /* IsSellable */
-     , (21912,  85, True ) /* AppraisalHasAllowedWielder */
-     , (21912,  99, False) /* Ivoryable */;
+     , (21912,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21912,   5,      -1) /* ManaRate */
      , (21912,  29,       1) /* WeaponDefense */
-     , (21912, 144, 1.47270474428673E-314) /* ManaConversionMod */
-     , (21912, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (21912, 144, 1.47270474428673E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21912,   1, 'Taulandoi') /* Name */
-     , (21912,   7, '
-      Proud member of the Renegade Guild') /* Inscription */
-     , (21912,   8, 'Deathspawner') /* ScribeName */
-     , (21912,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */
-     , (21912,  25, 'Eugene Levy') /* CraftsmanName */;
+     , (21912,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21912,   1,   33557963) /* Setup */
      , (21912,   3,  536870932) /* SoundTable */
      , (21912,   8,  100673490) /* Icon */
      , (21912,  22,  872415275) /* PhysicsEffectTable */
-     , (21912,  28,       2783) /* Spell */
+     , (21912,  28,       2783) /* Spell - LesserElementalFuryFrost */
      , (21912, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (21912, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21912, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

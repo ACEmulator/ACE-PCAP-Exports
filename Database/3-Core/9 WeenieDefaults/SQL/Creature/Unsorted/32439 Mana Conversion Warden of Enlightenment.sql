@@ -5,22 +5,11 @@ VALUES (32439, 'ace32439-manaconversionwardenofenlightenment', 10) /* Creature *
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32439,   1,         16) /* ItemType - Creature */
-     , (32439,   5,          0) /* EncumbranceVal */
      , (32439,   6,        255) /* ItemsCapacity */
      , (32439,   7,        255) /* ContainersCapacity */
      , (32439,  16,         32) /* ItemUseable - Remote */
-     , (32439,  19,       7832) /* Value */
      , (32439,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32439,  95,          3) /* RadarBlipColor - White */
-     , (32439, 105,          8) /* ItemWorkmanship */
-     , (32439, 106,        295) /* ItemSpellcraft */
-     , (32439, 107,       1618) /* ItemCurMana */
-     , (32439, 108,       1618) /* ItemMaxMana */
-     , (32439, 109,        295) /* ItemDifficulty */
-     , (32439, 110,          0) /* ItemAllegianceRankLimit */
-     , (32439, 115,          0) /* ItemSkillLevelLimit */
-     , (32439, 131,         51) /* MaterialType - Ivory */
-     , (32439, 172,          1) /* AppraisalLongDescDecoration */
      , (32439, 307,          0) /* DamageRating */
      , (32439, 308,          0) /* DamageResistRating */
      , (32439, 313,          0) /* CritRating */
@@ -58,13 +47,11 @@ VALUES (32439,   1, True ) /* Stuck */
      , (32439,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32439,   5, -0.0555555555555556) /* ManaRate */
-     , (32439,  39,     0.5) /* DefaultScale */
+VALUES (32439,  39,     0.5) /* DefaultScale */
      , (32439,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32439,   1, 'Mana Conversion Warden of Enlightenment') /* Name */
-     , (32439,  16, 'Ring of Cold Protection') /* LongDesc */
      , (32439, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,6 +70,3 @@ VALUES (32439, 8040, 3583574070, 166.5, 129, 374, -4.37114E-08, 0, 0, -1) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32439, 8000, 3692312909) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32439,  2155,      2) ;

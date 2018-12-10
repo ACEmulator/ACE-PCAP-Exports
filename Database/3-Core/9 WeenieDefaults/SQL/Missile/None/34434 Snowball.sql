@@ -38,7 +38,7 @@ VALUES (34434,   1,   33556223) /* Setup */
      , (34434,   6,   67111928) /* PaletteBase */
      , (34434,   8,  100670277) /* Icon */
      , (34434,  22,  872415238) /* PhysicsEffectTable */
-     , (34434,  28,       4028) /* Spell */
+     , (34434,  28,       4028) /* Spell - Snowball */
      , (34434, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (34434, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (34434, 8005,      64405) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Omega, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */

@@ -34,7 +34,6 @@ VALUES (5937,   1, False) /* Stuck */
      , (5937,  14, True ) /* GravityStatus */
      , (5937,  19, True ) /* Attackable */
      , (5937,  22, True ) /* Inscribable */
-     , (5937,  85, True ) /* AppraisalHasAllowedWielder */
      , (5937,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -46,8 +45,7 @@ VALUES (5937,   1, 'Impious Staff') /* Name */
      , (5937,   7, ' 
 ') /* Inscription */
      , (5937,   8, 'Sylence') /* ScribeName */
-     , (5937,  16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LongDesc */
-     , (5937,  25, 'Spinal') /* CraftsmanName */;
+     , (5937,  16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5937,   1,   33555022) /* Setup */
@@ -55,7 +53,7 @@ VALUES (5937,   1,   33555022) /* Setup */
      , (5937,   6,   67111919) /* PaletteBase */
      , (5937,   8,  100669103) /* Icon */
      , (5937,  22,  872415275) /* PhysicsEffectTable */
-     , (5937,  28,         91) /* Spell */
+     , (5937,  28,         91) /* Spell - ForceBolt6 */
      , (5937, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (5937, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5937, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

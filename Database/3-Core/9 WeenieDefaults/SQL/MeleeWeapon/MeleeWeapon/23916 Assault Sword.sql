@@ -53,8 +53,6 @@ VALUES (23916,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23916,   1, 'Assault Sword') /* Name */
-     , (23916,   7, 'A gift to my Saeba') /* Inscription */
-     , (23916,   8, 'Dezerith') /* ScribeName */
      , (23916,  16, 'A reward for defeating the leaders of the Serpent Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

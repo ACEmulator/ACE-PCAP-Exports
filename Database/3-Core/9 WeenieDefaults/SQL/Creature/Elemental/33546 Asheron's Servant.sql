@@ -6,11 +6,9 @@ VALUES (33546, 'ace33546-asheronsservant', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33546,   1,         16) /* ItemType - Creature */
      , (33546,   2,         62) /* CreatureType - Elemental */
-     , (33546,   5,       6102) /* EncumbranceVal */
      , (33546,   6,        255) /* ItemsCapacity */
      , (33546,   7,        255) /* ContainersCapacity */
      , (33546,  16,         32) /* ItemUseable - Remote */
-     , (33546,  19,          0) /* Value */
      , (33546,  25,        130) /* Level */
      , (33546,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (33546,  95,          8) /* RadarBlipColor - Yellow */
@@ -34,7 +32,6 @@ VALUES (33546,  39,     1.5) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33546,   1, 'Asheron''s Servant') /* Name */
      , (33546,   5, 'Guardian of the White Tower') /* Template */
-     , (33546,  16, 'Killed by High-Voltage III.') /* LongDesc */
      , (33546, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

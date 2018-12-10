@@ -22,10 +22,8 @@ VALUES (49446,   1,        128) /* ItemType - Misc */
      , (49446, 367,        475) /* UseRequiresSkillLevel */
      , (49446, 369,        140) /* UseRequiresLevel */
      , (49446, 370,         12) /* GearDamage */
-     , (49446, 371,          8) /* GearDamageResist */
      , (49446, 372,         19) /* GearCrit */
      , (49446, 373,          8) /* GearCritResist */
-     , (49446, 374,         10) /* GearCritDamage */
      , (49446, 375,          7) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

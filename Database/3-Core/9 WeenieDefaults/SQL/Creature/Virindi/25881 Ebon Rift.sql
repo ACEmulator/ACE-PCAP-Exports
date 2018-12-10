@@ -6,11 +6,9 @@ VALUES (25881, 'riftebon', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25881,   1,         16) /* ItemType - Creature */
      , (25881,   2,         19) /* CreatureType - Virindi */
-     , (25881,   5,       6105) /* EncumbranceVal */
      , (25881,   6,        255) /* ItemsCapacity */
      , (25881,   7,        255) /* ContainersCapacity */
      , (25881,  16,          1) /* ItemUseable - No */
-     , (25881,  19,          0) /* Value */
      , (25881,  25,        135) /* Level */
      , (25881,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (25881, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -29,7 +27,6 @@ VALUES (25881,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25881,   1, 'Ebon Rift') /* Name */
-     , (25881,  16, 'Killed by Uncle P.') /* LongDesc */
      , (25881, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

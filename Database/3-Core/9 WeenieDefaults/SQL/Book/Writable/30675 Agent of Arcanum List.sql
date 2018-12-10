@@ -5,11 +5,9 @@ VALUES (30675, 'agentarcanumacceptableitemsnote', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30675,   1,       8192) /* ItemType - Writable */
-     , (30675,   2,         82) /* CreatureType - Thrungus */
      , (30675,   5,         25) /* EncumbranceVal */
      , (30675,  16,          8) /* ItemUseable - Contained */
      , (30675,  19,          0) /* Value */
-     , (30675,  25,         30) /* Level */
      , (30675,  33,          0) /* Bonded - Normal */
      , (30675,  65,        101) /* Placement - Resting */
      , (30675,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -43,9 +41,6 @@ VALUES (30675,   1,   33554773) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30675,   2, 2186220426) /* Container */
      , (30675, 8000, 2186220440) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30675,   1,   120, 0, 0, 120) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30675, 3, 1000);

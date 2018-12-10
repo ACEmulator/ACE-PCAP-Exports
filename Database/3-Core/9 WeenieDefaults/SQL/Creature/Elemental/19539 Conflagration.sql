@@ -6,32 +6,13 @@ VALUES (19539, 'estuaryelementalconflagration', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19539,   1,         16) /* ItemType - Creature */
      , (19539,   2,         62) /* CreatureType - Elemental */
-     , (19539,   5,         50) /* EncumbranceVal */
      , (19539,   6,        255) /* ItemsCapacity */
      , (19539,   7,        255) /* ContainersCapacity */
      , (19539,  16,          1) /* ItemUseable - No */
-     , (19539,  19,      14876) /* Value */
      , (19539,  25,        115) /* Level */
-     , (19539,  44,         20) /* Damage */
-     , (19539,  45,          4) /* DamageType - Bludgeon */
-     , (19539,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (19539,  49,         10) /* WeaponTime */
      , (19539,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
-     , (19539, 105,          7) /* ItemWorkmanship */
-     , (19539, 106,        289) /* ItemSpellcraft */
-     , (19539, 107,       1751) /* ItemCurMana */
-     , (19539, 108,       1751) /* ItemMaxMana */
-     , (19539, 109,        216) /* ItemDifficulty */
-     , (19539, 110,          0) /* ItemAllegianceRankLimit */
-     , (19539, 115,          0) /* ItemSkillLevelLimit */
-     , (19539, 131,          2) /* MaterialType - Porcelain */
      , (19539, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19539, 172,          5) /* AppraisalLongDescDecoration */
-     , (19539, 177,          6) /* GemCount */
-     , (19539, 178,         47) /* GemType */
-     , (19539, 353,         10) /* WeaponType - Thrown */
-     , (19539, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (19539, 8030,          0);
+     , (19539, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19539,   1, True ) /* Stuck */
@@ -42,18 +23,10 @@ VALUES (19539,   1, True ) /* Stuck */
      , (19539,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19539,   5, -0.0555555555555556) /* ManaRate */
-     , (19539,  21,       0) /* WeaponLength */
-     , (19539,  22,    0.25) /* DamageVariance */
-     , (19539,  26,       0) /* MaximumVelocity */
-     , (19539,  29,       1) /* WeaponDefense */
-     , (19539,  39, 1.39999997615814) /* DefaultScale */
-     , (19539,  62,       1) /* WeaponOffense */
-     , (19539,  63,       1) /* DamageMod */;
+VALUES (19539,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19539,   1, 'Conflagration') /* Name */
-     , (19539,  16, 'Ornamental Bowl of Armor Expertise') /* LongDesc */
      , (19539, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -85,6 +58,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (19539,   1,   780, 0, 0, 780) /* MaxHealth */
      , (19539,   3,   610, 0, 0, 610) /* MaxStamina */
      , (19539,   5,   540, 0, 0, 540) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19539,  2197,      2) ;

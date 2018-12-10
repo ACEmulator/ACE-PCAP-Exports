@@ -35,8 +35,6 @@ VALUES (9389,  13, 1.29999995231628) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9389,   1, 'Bastion of Tukal') /* Name */
-     , (9389,   7, 'A gift from a friend') /* Inscription */
-     , (9389,   8, 'Gw') /* ScribeName */
      , (9389,  16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

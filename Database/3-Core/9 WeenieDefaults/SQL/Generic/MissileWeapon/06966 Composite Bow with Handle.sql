@@ -37,7 +37,6 @@ VALUES (6966,   1, False) /* Stuck */
      , (6966,  19, True ) /* Attackable */
      , (6966,  22, True ) /* Inscribable */
      , (6966,  69, False) /* IsSellable */
-     , (6966,  85, True ) /* AppraisalHasAllowedWielder */
      , (6966,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -53,8 +52,7 @@ VALUES (6966,   5, -0.0500000007450581) /* ManaRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6966,   1, 'Composite Bow with Handle') /* Name */
      , (6966,   7, 'Mod 110% BD V, Bow Mastery V, diff 170, bow skill 240+ Thank''s Mr Mattie, Mr Drudge, Mr  and Mr High Dead Man') /* Inscription */
-     , (6966,   8, 'Goober Nut') /* ScribeName */
-     , (6966,  25, 'Love''s Blindfold') /* CraftsmanName */;
+     , (6966,   8, 'Goober Nut') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6966,   1,   33556600) /* Setup */

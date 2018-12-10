@@ -36,8 +36,7 @@ VALUES (28059,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28059,   5,  -0.083) /* ManaRate */
      , (28059,  29,    1.06) /* WeaponDefense */
-     , (28059, 144,     0.1) /* ManaConversionMod */
-     , (28059, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (28059, 144,     0.1) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28059,   1, 'War Staff of Aerfalle') /* Name */
@@ -51,7 +50,7 @@ VALUES (28059,   1,   33556630) /* Setup */
      , (28059,   6,   67111919) /* PaletteBase */
      , (28059,   8,  100670752) /* Icon */
      , (28059,  22,  872415275) /* PhysicsEffectTable */
-     , (28059,  28,       2123) /* Spell */
+     , (28059,  28,       2123) /* Spell - AcidVolley7 */
      , (28059, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (28059, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28059, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

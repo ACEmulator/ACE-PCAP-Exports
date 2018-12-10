@@ -6,25 +6,12 @@ VALUES (22600, 'tuskerredeemer_nofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22600,   1,         16) /* ItemType - Creature */
      , (22600,   2,          8) /* CreatureType - Tusker */
-     , (22600,   5,         50) /* EncumbranceVal */
      , (22600,   6,        255) /* ItemsCapacity */
      , (22600,   7,        255) /* ContainersCapacity */
      , (22600,  16,          1) /* ItemUseable - No */
-     , (22600,  19,       5000) /* Value */
      , (22600,  25,         60) /* Level */
-     , (22600,  33,          0) /* Bonded - Normal */
-     , (22600,  91,         50) /* MaxStructure */
-     , (22600,  92,         50) /* Structure */
      , (22600,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (22600, 105,          8) /* ItemWorkmanship */
-     , (22600, 114,          0) /* Attuned - Normal */
      , (22600, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (22600, 280,        213) /* SharedCooldown */
-     , (22600, 366,         54) /* UseRequiresSkill */
-     , (22600, 367,        370) /* UseRequiresSkillLevel */
-     , (22600, 369,         70) /* UseRequiresLevel */
-     , (22600, 370,         17) /* GearDamage */
-     , (22600, 375,         10) /* GearCritDamageResist */
      , (22600, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,16 +20,13 @@ VALUES (22600,   1, True ) /* Stuck */
      , (22600,  13, False) /* Ethereal */
      , (22600,  14, True ) /* GravityStatus */
      , (22600,  19, True ) /* Attackable */
-     , (22600,  42, True ) /* AllowEdgeSlide */
-     , (22600,  69, True ) /* IsSellable */;
+     , (22600,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22600,  39, 0.899999976158142) /* DefaultScale */
-     , (22600, 167,      45) /* CooldownDuration */;
+VALUES (22600,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22600,   1, 'Tusker Redeemer') /* Name */
-     , (22600,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */
      , (22600, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

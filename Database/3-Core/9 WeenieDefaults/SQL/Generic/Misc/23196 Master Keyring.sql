@@ -15,8 +15,7 @@ VALUES (23196,   1,        128) /* ItemType - Misc */
      , (23196,  92,         50) /* Structure */
      , (23196,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23196,  94,      16384) /* TargetType - Key */
-     , (23196, 151,          2) /* HookType - Wall */
-     , (23196, 193,          5) /* NumKeys */;
+     , (23196, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23196,   1, False) /* Stuck */

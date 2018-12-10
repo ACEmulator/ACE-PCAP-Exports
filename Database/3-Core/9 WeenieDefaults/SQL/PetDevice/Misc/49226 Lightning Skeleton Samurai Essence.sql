@@ -24,14 +24,11 @@ VALUES (49226,   1,        128) /* ItemType - Misc */
      , (49226, 369,        185) /* UseRequiresLevel */
      , (49226, 370,         13) /* GearDamage */
      , (49226, 371,          8) /* GearDamageResist */
-     , (49226, 372,         11) /* GearCrit */
      , (49226, 373,         14) /* GearCritResist */
-     , (49226, 374,         14) /* GearCritDamage */
-     , (49226, 375,         11) /* GearCritDamageResist */;
+     , (49226, 374,         14) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49226,   1, False) /* Stuck */
-     , (49226,   2, False) /* Open */
      , (49226,  11, True ) /* IgnoreCollisions */
      , (49226,  13, True ) /* Ethereal */
      , (49226,  14, True ) /* GravityStatus */
@@ -45,8 +42,7 @@ VALUES (49226,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49226,   1, 'Lightning Skeleton Samurai Essence') /* Name */
-     , (49226,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Samurai.') /* Use */
-     , (49226,  16, 'Killed by Mag-two.') /* LongDesc */;
+     , (49226,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49226,   1,   33554817) /* Setup */

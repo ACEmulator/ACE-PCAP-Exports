@@ -6,30 +6,13 @@ VALUES (24031, 'miteroyalsentry', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24031,   1,         16) /* ItemType - Creature */
      , (24031,   2,          7) /* CreatureType - Mite */
-     , (24031,   5,         35) /* EncumbranceVal */
      , (24031,   6,        255) /* ItemsCapacity */
      , (24031,   7,        255) /* ContainersCapacity */
      , (24031,  16,          1) /* ItemUseable - No */
-     , (24031,  19,       1564) /* Value */
      , (24031,  25,         50) /* Level */
-     , (24031,  44,          8) /* Damage */
-     , (24031,  45,          4) /* DamageType - Bludgeon */
-     , (24031,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (24031,  49,         10) /* WeaponTime */
      , (24031,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24031, 105,          4) /* ItemWorkmanship */
-     , (24031, 106,        108) /* ItemSpellcraft */
-     , (24031, 107,        694) /* ItemCurMana */
-     , (24031, 108,        694) /* ItemMaxMana */
-     , (24031, 109,        108) /* ItemDifficulty */
-     , (24031, 110,          0) /* ItemAllegianceRankLimit */
-     , (24031, 115,          0) /* ItemSkillLevelLimit */
-     , (24031, 131,          1) /* MaterialType - Ceramic */
      , (24031, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24031, 172,          1) /* AppraisalLongDescDecoration */
-     , (24031, 353,         10) /* WeaponType - Thrown */
-     , (24031, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (24031, 8030,          0);
+     , (24031, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24031,   1, True ) /* Stuck */
@@ -39,18 +22,10 @@ VALUES (24031,   1, True ) /* Stuck */
      , (24031,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24031,   5, -0.0333333333333333) /* ManaRate */
-     , (24031,  21,       0) /* WeaponLength */
-     , (24031,  22,    0.25) /* DamageVariance */
-     , (24031,  26,       0) /* MaximumVelocity */
-     , (24031,  29,       1) /* WeaponDefense */
-     , (24031,  39, 1.39999997615814) /* DefaultScale */
-     , (24031,  62,       1) /* WeaponOffense */
-     , (24031,  63,       1) /* DamageMod */;
+VALUES (24031,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24031,   1, 'Royal Mite Sentry') /* Name */
-     , (24031,  16, 'Cup of Armor Expertise') /* LongDesc */
      , (24031, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24031,   1,   200, 0, 0, 200) /* MaxHealth */
      , (24031,   3,   450, 0, 0, 450) /* MaxStamina */
      , (24031,   5,    80, 0, 0, 80) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24031,   704,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24031, 67115128, 0, 0);

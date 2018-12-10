@@ -12,30 +12,6 @@ VALUES (24960,   1,         16) /* ItemType - Creature */
      , (24960,  25,         80) /* Level */
      , (24960,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24960, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24960, 307,          0) /* DamageRating */
-     , (24960, 308,          0) /* DamageResistRating */
-     , (24960, 313,          0) /* CritRating */
-     , (24960, 314,          0) /* CritDamageRating */
-     , (24960, 315,          0) /* CritResistRating */
-     , (24960, 316,          0) /* CritDamageResistRating */
-     , (24960, 370,          0) /* GearDamage */
-     , (24960, 371,          0) /* GearDamageResist */
-     , (24960, 372,          0) /* GearCrit */
-     , (24960, 373,          0) /* GearCritResist */
-     , (24960, 374,          0) /* GearCritDamage */
-     , (24960, 375,          0) /* GearCritDamageResist */
-     , (24960, 376,          0) /* GearHealingBoost */
-     , (24960, 377,          0) /* GearNetherResist */
-     , (24960, 378,          0) /* GearLifeResist */
-     , (24960, 379,          0) /* GearMaxHealth */
-     , (24960, 381,          0) /* PKDamageRating */
-     , (24960, 382,          0) /* PKDamageResistRating */
-     , (24960, 383,          0) /* GearPKDamageRating */
-     , (24960, 384,          0) /* GearPKDamageResistRating */
-     , (24960, 386,          0) /* Overpower */
-     , (24960, 387,          0) /* OverpowerResist */
-     , (24960, 388,          0) /* GearOverpower */
-     , (24960, 389,          0) /* GearOverpowerResist */
      , (24960, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +27,6 @@ VALUES (24960,  39, 0.699999988079071) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24960,   1, 'Olthoi Piercer') /* Name */
-     , (24960,  16, 'A portal leading deeper into the Viridian Rise.') /* LongDesc */
      , (24960, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

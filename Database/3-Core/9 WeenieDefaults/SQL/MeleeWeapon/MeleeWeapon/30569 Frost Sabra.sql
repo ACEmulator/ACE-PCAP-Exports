@@ -57,8 +57,6 @@ VALUES (30569,   5, -0.0666666701436043) /* ManaRate */
      , (30569,  39, 1.10000002384186) /* DefaultScale */
      , (30569,  62, 1.1599999666214) /* WeaponOffense */
      , (30569,  63,       1) /* DamageMod */
-     , (30569, 149,   1.015) /* WeaponMissileDefense */
-     , (30569, 150,   1.015) /* WeaponMagicDefense */
      , (30569, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -86,31 +84,10 @@ VALUES (30569,   2, 2210356777) /* Container */
      , (30569, 8000, 2210356779) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30569,  1332,      2) 
-     , (30569,  1402,      2) 
-     , (30569,  1592,      2) 
-     , (30569,  1614,      2) 
-     , (30569,  1615,      2) 
-     , (30569,  1616,      2) 
-     , (30569,  1625,      2) 
-     , (30569,  2087,      2) 
-     , (30569,  2096,      2) 
-     , (30569,  2116,      2) 
-     , (30569,  2509,      2) 
-     , (30569,  2524,      2) 
-     , (30569,  2526,      2) 
+VALUES (30569,  2096,      2) 
      , (30569,  2531,      2) 
-     , (30569,  2541,      2) 
-     , (30569,  2544,      2) 
-     , (30569,  2580,      2) 
-     , (30569,  2582,      2) 
-     , (30569,  2591,      2) 
-     , (30569,  2598,      2) 
-     , (30569,  2608,      2) 
      , (30569,  3834,      2) 
-     , (30569,  4395,      2) 
-     , (30569,  4405,      2) 
-     , (30569,  5809,      2) ;
+     , (30569,  4405,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30569, 67116395, 0, 0);

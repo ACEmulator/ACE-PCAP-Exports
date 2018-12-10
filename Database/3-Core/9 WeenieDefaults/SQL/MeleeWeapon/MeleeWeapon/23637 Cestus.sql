@@ -10,32 +10,9 @@ VALUES (23637,   1,          1) /* ItemType - MeleeWeapon */
      , (23637,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23637,  16,          1) /* ItemUseable - No */
      , (23637,  19,         50) /* Value */
-     , (23637,  44,         40) /* Damage */
-     , (23637,  45,          1) /* DamageType - Slash */
-     , (23637,  48,          0) /* WeaponSkill - None */
-     , (23637,  49,         -1) /* WeaponTime */
      , (23637,  51,          1) /* CombatUse - Melee */
      , (23637,  65,          1) /* Placement - RightHandCombat */
-     , (23637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23637, 158,          8) /* WieldRequirements - Training */
-     , (23637, 159,         37) /* WieldSkilltype - Fletching */
-     , (23637, 160,          3) /* WieldDifficulty */
-     , (23637, 179,          8) /* ImbuedEffect - SlashRending */
-     , (23637, 270,          2) /* WieldRequirements2 - RawSkill */
-     , (23637, 271,         37) /* WieldSkilltype2 - Fletching */
-     , (23637, 272,        375) /* WieldDifficulty2 */
-     , (23637, 273,          2) /* WieldRequirements3 - RawSkill */
-     , (23637, 274,         47) /* WieldSkilltype3 - MissileWeapons */
-     , (23637, 275,        300) /* WieldDifficulty3 */
-     , (23637, 303,          8) /* ImbuedEffect2 - SlashRending */
-     , (23637, 304,          8) /* ImbuedEffect3 - SlashRending */
-     , (23637, 305,          8) /* ImbuedEffect4 - SlashRending */
-     , (23637, 306,          8) /* ImbuedEffect5 - SlashRending */
-     , (23637, 307,         32) /* DamageRating */
-     , (23637, 313,          1) /* CritRating */
-     , (23637, 314,         14) /* CritDamageRating */
-     , (23637, 386,          0) /* Overpower */
-     , (23637, 8030,          0);
+     , (23637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23637,   1, False) /* Stuck */
@@ -43,26 +20,13 @@ VALUES (23637,   1, False) /* Stuck */
      , (23637,  13, True ) /* Ethereal */
      , (23637,  14, True ) /* GravityStatus */
      , (23637,  19, True ) /* Attackable */
-     , (23637,  22, True ) /* Inscribable */
-     , (23637,  69, False) /* IsSellable */;
+     , (23637,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23637,  21,       0) /* WeaponLength */
-     , (23637,  22,     0.3) /* DamageVariance */
-     , (23637,  26,       0) /* MaximumVelocity */
-     , (23637,  29,       1) /* WeaponDefense */
-     , (23637,  39, 0.800000011920929) /* DefaultScale */
-     , (23637,  62,       1) /* WeaponOffense */
-     , (23637,  63,       1) /* DamageMod */
-     , (23637, 136,       1) /* CriticalMultiplier */
-     , (23637, 147,       1) /* CriticalFrequency */
-     , (23637, 149,       0) /* WeaponMissileDefense */
-     , (23637, 150,       0) /* WeaponMagicDefense */;
+VALUES (23637,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23637,   1, 'Cestus') /* Name */
-     , (23637,  14, 'You must be a specialized fletcher of great skill to use these potentially volatile arrows.') /* Use */
-     , (23637,  16, 'Deadly, crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */;
+VALUES (23637,   1, 'Cestus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23637,   1,   33555997) /* Setup */

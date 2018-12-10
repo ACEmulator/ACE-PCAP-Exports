@@ -44,8 +44,6 @@ VALUES (23615,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23615,   1, 'Diamond Shield') /* Name */
-     , (23615,   7, 'property of me!') /* Inscription */
-     , (23615,   8, 'Triumph') /* ScribeName */
      , (23615,  16, 'A shield made of diamond.  It is incredibly resilient, and seems to be nigh unbreakable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

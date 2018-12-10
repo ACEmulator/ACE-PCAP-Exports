@@ -43,7 +43,7 @@ VALUES (32261,   1,   33559761) /* Setup */
      , (32261,   6,   67111919) /* PaletteBase */
      , (32261,   8,  100688412) /* Icon */
      , (32261,  22,  872415275) /* PhysicsEffectTable */
-     , (32261,  28,       3861) /* Spell */
+     , (32261,  28,       3861) /* Spell - CantripTasteForBlood */
      , (32261, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (32261, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32261, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

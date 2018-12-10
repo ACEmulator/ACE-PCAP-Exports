@@ -29,7 +29,6 @@ VALUES (41200,   1, False) /* Stuck */
      , (41200,  14, True ) /* GravityStatus */
      , (41200,  19, True ) /* Attackable */
      , (41200,  22, True ) /* Inscribable */
-     , (41200,  91, True ) /* Retained */
      , (41200, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,9 +44,6 @@ VALUES (41200,   5, -0.0333333015441895) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41200,   1, 'Leggings of Darkness') /* Name */
-     , (41200,   7, 'BYE WORLD
-') /* Inscription */
-     , (41200,   8, 'Bong Boy Reborn') /* ScribeName */
      , (41200,  16, 'This piece of armor once belonged to the unknown warrior. Touching this armor fills your head with chaotic thoughts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -32,9 +32,6 @@ VALUES (3859,   1,          1) /* ItemType - MeleeWeapon */
      , (3859, 160,        250) /* WieldDifficulty */
      , (3859, 172,          1) /* AppraisalLongDescDecoration */
      , (3859, 176,         46) /* AppraisalItemSkill */
-     , (3859, 177,          1) /* GemCount */
-     , (3859, 178,         41) /* GemType */
-     , (3859, 188,          3) /* HeritageGroup - Sho */
      , (3859, 353,          3) /* WeaponType - Axe */
      , (3859, 8030,          0);
 
@@ -55,14 +52,10 @@ VALUES (3859,   5, -0.0333333333333333) /* ManaRate */
      , (3859,  39, 1.20000004768372) /* DefaultScale */
      , (3859,  62,    1.08) /* WeaponOffense */
      , (3859,  63,       1) /* DamageMod */
-     , (3859, 149,   1.015) /* WeaponMissileDefense */
-     , (3859, 150,   1.025) /* WeaponMagicDefense */
      , (3859, 8004,       4) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3859,   1, 'Flaming Shou-ono') /* Name */
-     , (3859,   7, 'fenn') /* Inscription */
-     , (3859,   8, 'Fenn') /* ScribeName */
      , (3859,  16, 'Flaming Shou-ono of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -79,38 +72,4 @@ VALUES (3859,   2, 3685958768) /* Container */
      , (3859, 8000, 3685958770) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3859,  1378,      2) 
-     , (3859,  1601,      2) 
-     , (3859,  1602,      2) 
-     , (3859,  1604,      2) 
-     , (3859,  1605,      2) 
-     , (3859,  1612,      2) 
-     , (3859,  1613,      2) 
-     , (3859,  1614,      2) 
-     , (3859,  1615,      2) 
-     , (3859,  1616,      2) 
-     , (3859,  1623,      2) 
-     , (3859,  1624,      2) 
-     , (3859,  2081,      2) 
-     , (3859,  2087,      2) 
-     , (3859,  2096,      2) 
-     , (3859,  2101,      2) 
-     , (3859,  2106,      2) 
-     , (3859,  2116,      2) 
-     , (3859,  2509,      2) 
-     , (3859,  2550,      2) 
-     , (3859,  2553,      2) 
-     , (3859,  2573,      2) 
-     , (3859,  2579,      2) 
-     , (3859,  2582,      2) 
-     , (3859,  2588,      2) 
-     , (3859,  2596,      2) 
-     , (3859,  4019,      2) 
-     , (3859,  4325,      2) 
-     , (3859,  4395,      2) 
-     , (3859,  4400,      2) 
-     , (3859,  4405,      2) 
-     , (3859,  4417,      2) 
-     , (3859,  4673,      2) 
-     , (3859,  5808,      2) 
-     , (3859,  5883,      2) ;
+VALUES (3859,  1614,      2) ;

@@ -18,8 +18,7 @@ VALUES (30264,   1,          2) /* ItemType - Armor */
      , (30264, 108,        800) /* ItemMaxMana */
      , (30264, 158,          7) /* WieldRequirements - Level */
      , (30264, 159,          1) /* WieldSkilltype - Axe */
-     , (30264, 160,        100) /* WieldDifficulty */
-     , (30264, 324,          6) /* HeritageSpecificArmor */;
+     , (30264, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30264,   1, False) /* Stuck */
@@ -42,9 +41,7 @@ VALUES (30264,   5, -0.0329999998211861) /* ManaRate */
      , (30264, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30264,   1, 'Ancient Armored Helm') /* Name */
-     , (30264,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (30264,  52, 'Core Helm Plating') /* GearPlatingName */;
+VALUES (30264,   1, 'Ancient Armored Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30264,   1,   33559082) /* Setup */

@@ -6,25 +6,12 @@ VALUES (30441, 'phyntoswaspblue_nofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30441,   1,         16) /* ItemType - Creature */
      , (30441,   2,          9) /* CreatureType - PhyntosWasp */
-     , (30441,   5,       6216) /* EncumbranceVal */
      , (30441,   6,        255) /* ItemsCapacity */
      , (30441,   7,        255) /* ContainersCapacity */
      , (30441,  16,          1) /* ItemUseable - No */
-     , (30441,  19,          0) /* Value */
      , (30441,  25,          8) /* Level */
-     , (30441,  28,        180) /* ArmorLevel */
      , (30441,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (30441, 105,          3) /* ItemWorkmanship */
-     , (30441, 106,        107) /* ItemSpellcraft */
-     , (30441, 107,        331) /* ItemCurMana */
-     , (30441, 108,        331) /* ItemMaxMana */
-     , (30441, 109,         63) /* ItemDifficulty */
-     , (30441, 110,          0) /* ItemAllegianceRankLimit */
-     , (30441, 115,         88) /* ItemSkillLevelLimit */
-     , (30441, 131,         52) /* MaterialType - Leather */
      , (30441, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (30441, 172,          1) /* AppraisalLongDescDecoration */
-     , (30441, 176,          7) /* AppraisalItemSkill */
      , (30441, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,24 +20,13 @@ VALUES (30441,   1, True ) /* Stuck */
      , (30441,  13, False) /* Ethereal */
      , (30441,  14, True ) /* GravityStatus */
      , (30441,  19, True ) /* Attackable */
-     , (30441,  42, True ) /* AllowEdgeSlide */
-     , (30441, 100, True ) /* Dyable */;
+     , (30441,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30441,   5,  -0.025) /* ManaRate */
-     , (30441,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (30441,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (30441,  15,       1) /* ArmorModVsBludgeon */
-     , (30441,  16,     0.5) /* ArmorModVsCold */
-     , (30441,  17,     0.5) /* ArmorModVsFire */
-     , (30441,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (30441,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (30441,  39, 1.20000004768372) /* DefaultScale */
-     , (30441, 165,       1) /* ArmorModVsNether */;
+VALUES (30441,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30441,   1, 'Blue Phyntos Wasp') /* Name */
-     , (30441,  16, 'Killed by Uncle P.') /* LongDesc */
      , (30441, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (30441,   1,    35, 0, 0, 35) /* MaxHealth */
      , (30441,   3,   160, 0, 0, 160) /* MaxStamina */
      , (30441,   5,    20, 0, 0, 20) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30441,  1483,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30441, 67115263, 0, 0);

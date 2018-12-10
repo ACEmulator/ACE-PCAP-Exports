@@ -14,7 +14,6 @@ VALUES (47170,   1,         16) /* ItemType - Creature */
      , (47170,  95,          8) /* RadarBlipColor - Yellow */
      , (47170, 133,          1) /* ShowableOnRadar - ShowNever */
      , (47170, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (47170, 307,          5) /* DamageRating */
      , (47170, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

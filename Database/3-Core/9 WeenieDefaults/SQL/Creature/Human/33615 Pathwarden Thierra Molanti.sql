@@ -6,41 +6,17 @@ VALUES (33615, 'ace33615-pathwardenthierramolanti', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33615,   1,         16) /* ItemType - Creature */
      , (33615,   2,         31) /* CreatureType - Human */
-     , (33615,   5,        288) /* EncumbranceVal */
      , (33615,   6,        255) /* ItemsCapacity */
      , (33615,   7,        255) /* ContainersCapacity */
      , (33615,  16,         32) /* ItemUseable - Remote */
-     , (33615,  19,       4984) /* Value */
      , (33615,  25,          5) /* Level */
-     , (33615,  44,         51) /* Damage */
-     , (33615,  45,         32) /* DamageType - Acid */
-     , (33615,  47,          6) /* AttackType - Thrust, Slash */
-     , (33615,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (33615,  49,         34) /* WeaponTime */
      , (33615,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33615,  95,          8) /* RadarBlipColor - Yellow */
-     , (33615, 105,          7) /* ItemWorkmanship */
-     , (33615, 106,        202) /* ItemSpellcraft */
-     , (33615, 107,       1167) /* ItemCurMana */
-     , (33615, 108,       1167) /* ItemMaxMana */
-     , (33615, 109,         91) /* ItemDifficulty */
-     , (33615, 110,          0) /* ItemAllegianceRankLimit */
      , (33615, 113,          2) /* Gender - Female */
-     , (33615, 115,        222) /* ItemSkillLevelLimit */
-     , (33615, 131,         58) /* MaterialType - Bronze */
      , (33615, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (33615, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (33615, 158,          2) /* WieldRequirements - RawSkill */
-     , (33615, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (33615, 160,        350) /* WieldDifficulty */
-     , (33615, 172,          5) /* AppraisalLongDescDecoration */
-     , (33615, 176,         44) /* AppraisalItemSkill */
-     , (33615, 177,          3) /* GemCount */
-     , (33615, 178,         23) /* GemType */
      , (33615, 188,          4) /* HeritageGroup - Viamontian */
-     , (33615, 353,          2) /* WeaponType - Sword */
-     , (33615, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (33615, 8030,          0);
+     , (33615, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33615,   1, True ) /* Stuck */
@@ -53,20 +29,11 @@ VALUES (33615,   1, True ) /* Stuck */
      , (33615,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33615,   5, -0.0416666666666667) /* ManaRate */
-     , (33615,  21,       0) /* WeaponLength */
-     , (33615,  22,    0.62) /* DamageVariance */
-     , (33615,  26,       0) /* MaximumVelocity */
-     , (33615,  29,     1.1) /* WeaponDefense */
-     , (33615,  54,       3) /* UseRadius */
-     , (33615,  62,    1.09) /* WeaponOffense */
-     , (33615,  63,       1) /* DamageMod */
-     , (33615, 149,    1.02) /* WeaponMissileDefense */;
+VALUES (33615,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33615,   1, 'Pathwarden Thierra Molanti') /* Name */
      , (33615,   5, 'Pathwarden Greeter') /* Template */
-     , (33615,  16, 'Acid Long Sword of Blood Drinker') /* LongDesc */
      , (33615, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -104,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33615,   1,    45, 0, 0, 45) /* MaxHealth */
      , (33615,   3,    80, 0, 0, 80) /* MaxStamina */
      , (33615,   5,    70, 0, 0, 70) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33615,  1615,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33615, 67110015, 160, 8)

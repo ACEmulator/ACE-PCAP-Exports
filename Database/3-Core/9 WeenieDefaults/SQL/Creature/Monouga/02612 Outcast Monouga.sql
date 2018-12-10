@@ -6,57 +6,27 @@ VALUES (2612, 'monougagiant', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2612,   1,         16) /* ItemType - Creature */
      , (2612,   2,         28) /* CreatureType - Monouga */
-     , (2612,   5,         50) /* EncumbranceVal */
      , (2612,   6,        255) /* ItemsCapacity */
      , (2612,   7,        255) /* ContainersCapacity */
      , (2612,  16,          1) /* ItemUseable - No */
-     , (2612,  19,        500) /* Value */
      , (2612,  25,          8) /* Level */
-     , (2612,  33,          0) /* Bonded - Normal */
-     , (2612,  89,          2) /* BoosterEnum - Health */
-     , (2612,  90,         50) /* BoostValue */
-     , (2612,  91,         50) /* MaxStructure */
-     , (2612,  92,         50) /* Structure */
      , (2612,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (2612, 105,          6) /* ItemWorkmanship */
-     , (2612, 106,        370) /* ItemSpellcraft */
-     , (2612, 107,        623) /* ItemCurMana */
-     , (2612, 108,        623) /* ItemMaxMana */
-     , (2612, 109,          0) /* ItemDifficulty */
-     , (2612, 110,          0) /* ItemAllegianceRankLimit */
-     , (2612, 114,          0) /* Attuned - Normal */
-     , (2612, 115,          0) /* ItemSkillLevelLimit */
-     , (2612, 117,        400) /* ItemManaCost */
-     , (2612, 131,         38) /* MaterialType - Ruby */
      , (2612, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (2612, 172,          1) /* AppraisalLongDescDecoration */
-     , (2612, 280,        213) /* SharedCooldown */
      , (2612, 307,          5) /* DamageRating */
-     , (2612, 366,         54) /* UseRequiresSkill */
-     , (2612, 367,        310) /* UseRequiresSkillLevel */
-     , (2612, 369,         40) /* UseRequiresLevel */
-     , (2612, 370,         12) /* GearDamage */
-     , (2612, 371,          5) /* GearDamageResist */
-     , (2612, 372,          9) /* GearCrit */
      , (2612, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2612,   1, True ) /* Stuck */
-     , (2612,   2, True ) /* Open */
      , (2612,  12, True ) /* ReportCollisions */
      , (2612,  13, False) /* Ethereal */
      , (2612,  14, True ) /* GravityStatus */
-     , (2612,  19, True ) /* Attackable */
-     , (2612,  69, True ) /* IsSellable */;
+     , (2612,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2612,  39,     1.5) /* DefaultScale */
-     , (2612, 167,      45) /* CooldownDuration */;
+VALUES (2612,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2612,   1, 'Outcast Monouga') /* Name */
-     , (2612,  14, 'Use this item to drink it.') /* Use */
-     , (2612,  16, 'Killed by Mag-two.') /* LongDesc */
      , (2612, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -89,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (2612,   1,    40, 0, 0, 40) /* MaxHealth */
      , (2612,   3,   210, 0, 0, 210) /* MaxStamina */
      , (2612,   5,    40, 0, 0, 40) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2612,  4325,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2612, 67111952, 0, 0);

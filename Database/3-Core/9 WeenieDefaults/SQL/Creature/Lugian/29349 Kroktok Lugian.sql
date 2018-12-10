@@ -6,17 +6,12 @@ VALUES (29349, 'lugiankroktok', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29349,   1,         16) /* ItemType - Creature */
      , (29349,   2,          5) /* CreatureType - Lugian */
-     , (29349,   5,          5) /* EncumbranceVal */
      , (29349,   6,        255) /* ItemsCapacity */
      , (29349,   7,        255) /* ContainersCapacity */
      , (29349,  16,          1) /* ItemUseable - No */
-     , (29349,  19,        797) /* Value */
      , (29349,  25,        115) /* Level */
      , (29349,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (29349, 105,          7) /* ItemWorkmanship */
-     , (29349, 131,         49) /* MaterialType - YellowTopaz */
      , (29349, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (29349, 172,          1) /* AppraisalLongDescDecoration */
      , (29349, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -28,7 +23,6 @@ VALUES (29349,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29349,   1, 'Kroktok Lugian') /* Name */
-     , (29349,  16, 'Gem') /* LongDesc */
      , (29349, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

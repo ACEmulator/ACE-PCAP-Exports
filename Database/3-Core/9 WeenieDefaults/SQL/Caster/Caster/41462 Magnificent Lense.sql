@@ -35,7 +35,7 @@ VALUES (41462,   1,   33560887) /* Setup */
      , (41462,   6,   67116700) /* PaletteBase */
      , (41462,   8,  100690681) /* Icon */
      , (41462,  22,  872415275) /* PhysicsEffectTable */
-     , (41462,  28,       5119) /* Spell */
+     , (41462,  28,       5119) /* Spell - ExposeWeakness5 */
      , (41462, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (41462, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41462, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

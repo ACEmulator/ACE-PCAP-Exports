@@ -6,11 +6,9 @@ VALUES (25827, 'karaadherent', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25827,   1,         16) /* ItemType - Creature */
      , (25827,   2,         31) /* CreatureType - Human */
-     , (25827,   5,       6350) /* EncumbranceVal */
      , (25827,   6,        255) /* ItemsCapacity */
      , (25827,   7,        255) /* ContainersCapacity */
      , (25827,  16,         32) /* ItemUseable - Remote */
-     , (25827,  19,          0) /* Value */
      , (25827,  25,         53) /* Level */
      , (25827,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25827,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (25827,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25827,   1, 'Miko Li, Jojii Adherent') /* Name */
      , (25827,   5, 'Monk') /* Template */
-     , (25827,  16, 'Killed by High-Voltage X.') /* LongDesc */
      , (25827, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

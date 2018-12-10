@@ -5,13 +5,11 @@ VALUES (37193, 'ace37193-olthoigirth', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37193,   1,          2) /* ItemType - Armor */
-     , (37193,   2,          1) /* CreatureType - Olthoi */
      , (37193,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (37193,   5,        503) /* EncumbranceVal */
      , (37193,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (37193,  16,          1) /* ItemUseable - No */
      , (37193,  19,      25697) /* Value */
-     , (37193,  25,        185) /* Level */
      , (37193,  28,        648) /* ArmorLevel */
      , (37193,  36,       9999) /* ResistMagic */
      , (37193,  65,        101) /* Placement - Resting */
@@ -30,13 +28,10 @@ VALUES (37193,   1,          2) /* ItemType - Armor */
      , (37193, 171,         10) /* NumTimesTinkered */
      , (37193, 172,          1) /* AppraisalLongDescDecoration */
      , (37193, 176,          6) /* AppraisalItemSkill */
-     , (37193, 177,          4) /* GemCount */
-     , (37193, 178,         22) /* GemType */
      , (37193, 265,         19) /* EquipmentSetId - Hearty */
      , (37193, 270,          7) /* WieldRequirements2 - Level */
      , (37193, 271,          1) /* WieldSkilltype2 - Axe */
-     , (37193, 272,        180) /* WieldDifficulty2 */
-     , (37193, 374,          1) /* GearCritDamage */;
+     , (37193, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37193,   1, False) /* Stuck */
@@ -61,8 +56,6 @@ VALUES (37193,   5, -0.0666666701436043) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37193,   1, 'Olthoi Girth') /* Name */
-     , (37193,   7, 'yellow with blue veins') /* Inscription */
-     , (37193,   8, 'Fenn') /* ScribeName */
      , (37193,  16, 'Olthoi Girth of Endurance') /* LongDesc */
      , (37193,  39, 'Tiesto') /* TinkerName */;
 
@@ -83,65 +76,12 @@ VALUES (37193, 8040, 23855631, 87.89492, -16.69748, 0, -0.8451899, 0, 0, 0.53446
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37193, 8000, 3473432961) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37193,   1,  2300, 0, 0, 2300) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37193,  1354,      2) 
      , (37193,  1486,      2) 
-     , (37193,  1516,      2) 
-     , (37193,  1540,      2) 
-     , (37193,  1552,      2) 
-     , (37193,  1574,      2) 
-     , (37193,  2061,      2) 
-     , (37193,  2087,      2) 
-     , (37193,  2092,      2) 
-     , (37193,  2094,      2) 
-     , (37193,  2104,      2) 
-     , (37193,  2108,      2) 
-     , (37193,  2110,      2) 
-     , (37193,  2113,      2) 
-     , (37193,  2281,      2) 
-     , (37193,  2516,      2) 
-     , (37193,  2520,      2) 
-     , (37193,  2521,      2) 
-     , (37193,  2523,      2) 
-     , (37193,  2525,      2) 
-     , (37193,  2527,      2) 
-     , (37193,  2531,      2) 
-     , (37193,  2534,      2) 
-     , (37193,  2573,      2) 
-     , (37193,  2574,      2) 
-     , (37193,  2589,      2) 
-     , (37193,  2592,      2) 
-     , (37193,  2595,      2) 
      , (37193,  2609,      2) 
-     , (37193,  2617,      2) 
-     , (37193,  3964,      2) 
-     , (37193,  4325,      2) 
-     , (37193,  4391,      2) 
-     , (37193,  4393,      2) 
      , (37193,  4397,      2) 
-     , (37193,  4401,      2) 
-     , (37193,  4403,      2) 
-     , (37193,  4407,      2) 
-     , (37193,  4409,      2) 
-     , (37193,  4412,      2) 
-     , (37193,  4596,      2) 
-     , (37193,  4664,      2) 
-     , (37193,  4665,      2) 
-     , (37193,  4677,      2) 
-     , (37193,  4686,      2) 
-     , (37193,  4695,      2) 
-     , (37193,  4703,      2) 
-     , (37193,  4706,      2) 
-     , (37193,  4708,      2) 
-     , (37193,  4712,      2) 
-     , (37193,  5428,      2) 
-     , (37193,  5894,      2) 
-     , (37193,  6046,      2) 
-     , (37193,  6121,      2) 
-     , (37193,  6122,      2) ;
+     , (37193,  6046,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37193, 67116559, 84, 8)

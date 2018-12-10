@@ -11,17 +11,10 @@ VALUES (47477,   1,          1) /* ItemType - MeleeWeapon */
      , (47477,  16,          1) /* ItemUseable - No */
      , (47477,  18,         32) /* UiEffects - Fire */
      , (47477,  19,        350) /* Value */
-     , (47477,  28,          0) /* ArmorLevel */
      , (47477,  51,          1) /* CombatUse - Melee */
      , (47477,  65,          1) /* Placement - RightHandCombat */
      , (47477,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47477, 105,          6) /* ItemWorkmanship */
-     , (47477, 131,          5) /* MaterialType - Satin */
-     , (47477, 151,          2) /* HookType - Wall */
-     , (47477, 158,          7) /* WieldRequirements - Level */
-     , (47477, 159,          1) /* WieldSkilltype - Axe */
-     , (47477, 160,        180) /* WieldDifficulty */
-     , (47477, 172,          1) /* AppraisalLongDescDecoration */;
+     , (47477, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47477,   1, False) /* Stuck */
@@ -29,22 +22,10 @@ VALUES (47477,   1, False) /* Stuck */
      , (47477,  13, True ) /* Ethereal */
      , (47477,  14, True ) /* GravityStatus */
      , (47477,  19, True ) /* Attackable */
-     , (47477,  22, True ) /* Inscribable */
-     , (47477, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47477,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (47477,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47477,  15,       1) /* ArmorModVsBludgeon */
-     , (47477,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (47477,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (47477,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (47477,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (47477, 165,       1) /* ArmorModVsNether */;
+     , (47477,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47477,   1, 'Flaming Mace') /* Name */
-     , (47477,  16, 'Baggy Pants') /* LongDesc */;
+VALUES (47477,   1, 'Flaming Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47477,   1,   33555756) /* Setup */

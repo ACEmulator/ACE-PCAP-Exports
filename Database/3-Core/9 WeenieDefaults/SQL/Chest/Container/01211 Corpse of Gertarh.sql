@@ -27,7 +27,6 @@ VALUES (1211,  39,     1.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1211,   1, 'Corpse of Gertarh') /* Name */
-     , (1211,  14, 'Use this item to close it.') /* Use */
      , (1211,  15, 'Killed by Oswald.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

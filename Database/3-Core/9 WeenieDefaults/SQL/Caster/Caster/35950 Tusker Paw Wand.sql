@@ -26,14 +26,7 @@ VALUES (35950,   1,      32768) /* ItemType - Caster */
      , (35950, 159,          1) /* WieldSkilltype - Axe */
      , (35950, 160,        130) /* WieldDifficulty */
      , (35950, 166,          8) /* SlayerCreatureType - Tusker */
-     , (35950, 176,         16) /* AppraisalItemSkill */
-     , (35950, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
-     , (35950, 319,          1) /* ItemMaxLevel */
-     , (35950, 320,          1) /* ItemXpStyle - Fixed */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (35950,   4, 2000000000) /* ItemTotalXp */
-     , (35950,   5, 2000000000) /* ItemBaseXp */;
+     , (35950, 176,         16) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35950,   1, False) /* Stuck */
@@ -43,7 +36,6 @@ VALUES (35950,   1, False) /* Stuck */
      , (35950,  19, True ) /* Attackable */
      , (35950,  22, True ) /* Inscribable */
      , (35950,  69, False) /* IsSellable */
-     , (35950,  85, True ) /* AppraisalHasAllowedWielder */
      , (35950,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,10 +46,7 @@ VALUES (35950,   5, -0.0166) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35950,   1, 'Tusker Paw Wand') /* Name */
-     , (35950,   7, 'Shield of Truth') /* Inscription */
-     , (35950,   8, 'Copastetic') /* ScribeName */
-     , (35950,  16, 'A short little wand with a tusker paw on the end. The paw seems to clench when you cast magic.  Also useful for reaching hard to get things on the top shelf.') /* LongDesc */
-     , (35950,  25, 'Blazing Sun') /* CraftsmanName */;
+     , (35950,  16, 'A short little wand with a tusker paw on the end. The paw seems to clench when you cast magic.  Also useful for reaching hard to get things on the top shelf.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35950,   1,   33560345) /* Setup */

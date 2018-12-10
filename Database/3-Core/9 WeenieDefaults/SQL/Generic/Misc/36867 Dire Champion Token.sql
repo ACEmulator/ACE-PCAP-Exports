@@ -13,7 +13,6 @@ VALUES (36867,   1,        128) /* ItemType - Misc */
      , (36867,  33,          1) /* Bonded - Bonded */
      , (36867,  65,        101) /* Placement - Resting */
      , (36867,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36867, 107,          0) /* ItemCurMana */
      , (36867, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -22,10 +21,6 @@ VALUES (36867,   1, False) /* Stuck */
      , (36867,  13, True ) /* Ethereal */
      , (36867,  14, True ) /* GravityStatus */
      , (36867,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36867,  87,       3) /* ItemEfficiency */
-     , (36867, 137,    0.25) /* ManaStoneDestroyChance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36867,   1, 'Dire Champion Token') /* Name */

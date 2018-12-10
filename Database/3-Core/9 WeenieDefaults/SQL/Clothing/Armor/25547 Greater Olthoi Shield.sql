@@ -14,21 +14,10 @@ VALUES (25547,   1,          2) /* ItemType - Armor */
      , (25547,  36,       9999) /* ResistMagic */
      , (25547,  51,          4) /* CombatUse - Shield */
      , (25547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25547, 105,          7) /* ItemWorkmanship */
-     , (25547, 106,        363) /* ItemSpellcraft */
-     , (25547, 107,       1334) /* ItemCurMana */
-     , (25547, 108,       1334) /* ItemMaxMana */
-     , (25547, 109,        375) /* ItemDifficulty */
-     , (25547, 110,          0) /* ItemAllegianceRankLimit */
-     , (25547, 115,          0) /* ItemSkillLevelLimit */
-     , (25547, 131,         54) /* MaterialType - GromnieHide */
      , (25547, 151,          2) /* HookType - Wall */
      , (25547, 158,          7) /* WieldRequirements - Level */
      , (25547, 159,          1) /* WieldSkilltype - Axe */
-     , (25547, 160,         80) /* WieldDifficulty */
-     , (25547, 172,          5) /* AppraisalLongDescDecoration */
-     , (25547, 177,          4) /* GemCount */
-     , (25547, 178,         21) /* GemType */;
+     , (25547, 160,         80) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25547,   1, False) /* Stuck */
@@ -36,12 +25,10 @@ VALUES (25547,   1, False) /* Stuck */
      , (25547,  13, True ) /* Ethereal */
      , (25547,  14, True ) /* GravityStatus */
      , (25547,  19, True ) /* Attackable */
-     , (25547,  22, True ) /* Inscribable */
-     , (25547, 100, True ) /* Dyable */;
+     , (25547,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25547,   5, -0.0666666666666667) /* ManaRate */
-     , (25547,  13, 1.70000004768372) /* ArmorModVsSlash */
+VALUES (25547,  13, 1.70000004768372) /* ArmorModVsSlash */
      , (25547,  14, 1.29999995231628) /* ArmorModVsPierce */
      , (25547,  15, 1.29999995231628) /* ArmorModVsBludgeon */
      , (25547,  16,     1.5) /* ArmorModVsCold */
@@ -73,11 +60,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25547,   3, 3691033918) /* Wielder */
      , (25547, 8000, 3690949373) /* PCAPRecordedObjectIID */
      , (25547, 8008, 3691033918) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25547,  2575,      2) 
-     , (25547,  4407,      2) 
-     , (25547,  6122,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25547, 67114593, 0, 0);

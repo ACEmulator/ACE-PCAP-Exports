@@ -6,23 +6,12 @@ VALUES (49141, 'ace49141-nihoawaswasp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49141,   1,         16) /* ItemType - Creature */
      , (49141,   2,          9) /* CreatureType - PhyntosWasp */
-     , (49141,   5,       6931) /* EncumbranceVal */
      , (49141,   6,        255) /* ItemsCapacity */
      , (49141,   7,        255) /* ContainersCapacity */
      , (49141,  16,          1) /* ItemUseable - No */
-     , (49141,  19,          0) /* Value */
      , (49141,  25,        180) /* Level */
-     , (49141,  26,          0) /* AccountRequirements - No_Subscription */
-     , (49141,  86,         20) /* MinLevel */
-     , (49141,  87,         -1) /* MaxLevel */
      , (49141,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49141, 105,          6) /* ItemWorkmanship */
-     , (49141, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
-     , (49141, 131,         58) /* MaterialType - Bronze */
      , (49141, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49141, 172,          5) /* AppraisalLongDescDecoration */
-     , (49141, 177,          3) /* GemCount */
-     , (49141, 178,         30) /* GemType */
      , (49141, 307,         11) /* DamageRating */
      , (49141, 308,          8) /* DamageResistRating */
      , (49141, 313,         19) /* CritRating */
@@ -39,15 +28,10 @@ VALUES (49141,   1, True ) /* Stuck */
      , (49141,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49141,  29,    1.06) /* WeaponDefense */
-     , (49141,  39, 1.29999995231628) /* DefaultScale */
-     , (49141, 144,    0.02) /* ManaConversionMod */;
+VALUES (49141,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49141,   1, 'Nihoawa''s Wasp') /* Name */
-     , (49141,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */
-     , (49141,  16, 'Killed by Nihoawa''s Wasp.') /* LongDesc */
-     , (49141,  38, 'Gateway') /* AppraisalPortalDestination */
      , (49141, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

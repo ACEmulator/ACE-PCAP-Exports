@@ -5,11 +5,9 @@ VALUES (36038, 'ace36038-change', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36038,   1,         16) /* ItemType - Creature */
-     , (36038,   5,       7305) /* EncumbranceVal */
      , (36038,   6,        255) /* ItemsCapacity */
      , (36038,   7,        255) /* ContainersCapacity */
      , (36038,  16,          1) /* ItemUseable - No */
-     , (36038,  19,          0) /* Value */
      , (36038,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36038, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36038, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,7 +24,6 @@ VALUES (36038,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36038,   1, 'Change') /* Name */
-     , (36038,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (36038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

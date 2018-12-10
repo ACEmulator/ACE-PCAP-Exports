@@ -6,18 +6,12 @@ VALUES (22133, 'zombiehauntedmansionscrollboss', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22133,   1,         16) /* ItemType - Creature */
      , (22133,   2,         14) /* CreatureType - Undead */
-     , (22133,   5,        100) /* EncumbranceVal */
      , (22133,   6,        255) /* ItemsCapacity */
      , (22133,   7,        255) /* ContainersCapacity */
      , (22133,  16,          1) /* ItemUseable - No */
-     , (22133,  19,        466) /* Value */
      , (22133,  25,         50) /* Level */
-     , (22133,  33,          1) /* Bonded - Bonded */
      , (22133,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (22133, 105,         18) /* ItemWorkmanship */
-     , (22133, 131,         13) /* MaterialType - Aquamarine */
      , (22133, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22133, 170,          3) /* NumItemsInMaterial */
      , (22133, 307,          5) /* DamageRating */
      , (22133, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -34,8 +28,6 @@ VALUES (22133,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22133,   1, 'Zombie') /* Name */
-     , (22133,  14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Cold Rending. Cold Rending gives the weapon the ability to make its opponent vulnerable to cold attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Cold Vulnerability spells. ') /* Use */
-     , (22133,  15, 'Chips of aquamarine material salvaged from old items.') /* ShortDesc */
      , (22133, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

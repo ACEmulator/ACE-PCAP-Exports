@@ -6,75 +6,27 @@ VALUES (36830, 'ace36830-diamondgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36830,   1,         16) /* ItemType - Creature */
      , (36830,   2,         13) /* CreatureType - Golem */
-     , (36830,   5,        339) /* EncumbranceVal */
      , (36830,   6,        255) /* ItemsCapacity */
      , (36830,   7,        255) /* ContainersCapacity */
      , (36830,  16,          1) /* ItemUseable - No */
-     , (36830,  19,       7200) /* Value */
      , (36830,  25,        100) /* Level */
-     , (36830,  28,        261) /* ArmorLevel */
-     , (36830,  36,       9999) /* ResistMagic */
-     , (36830,  44,          0) /* Damage */
-     , (36830,  45,          0) /* DamageType - Undef */
-     , (36830,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (36830,  49,         45) /* WeaponTime */
-     , (36830,  91,         35) /* MaxStructure */
-     , (36830,  92,         35) /* Structure */
      , (36830,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36830, 105,          8) /* ItemWorkmanship */
-     , (36830, 106,        261) /* ItemSpellcraft */
-     , (36830, 107,          0) /* ItemCurMana */
-     , (36830, 108,        781) /* ItemMaxMana */
-     , (36830, 109,         55) /* ItemDifficulty */
-     , (36830, 110,          0) /* ItemAllegianceRankLimit */
-     , (36830, 115,        281) /* ItemSkillLevelLimit */
-     , (36830, 131,         63) /* MaterialType - Silver */
      , (36830, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36830, 158,          7) /* WieldRequirements - Level */
-     , (36830, 159,          1) /* WieldSkilltype - Axe */
-     , (36830, 160,        180) /* WieldDifficulty */
-     , (36830, 172,          1) /* AppraisalLongDescDecoration */
-     , (36830, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (36830, 176,          6) /* AppraisalItemSkill */
-     , (36830, 265,         13) /* EquipmentSetId - Soldiers */
      , (36830, 307,          2) /* DamageRating */
-     , (36830, 353,          8) /* WeaponType - Bow */
-     , (36830, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36830, 8030,          0);
+     , (36830, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36830,   1, True ) /* Stuck */
-     , (36830,   2, True ) /* Open */
      , (36830,  12, True ) /* ReportCollisions */
      , (36830,  13, False) /* Ethereal */
      , (36830,  14, True ) /* GravityStatus */
-     , (36830,  19, True ) /* Attackable */
-     , (36830, 100, True ) /* Dyable */;
+     , (36830,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36830,   5,   -0.05) /* ManaRate */
-     , (36830,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (36830,  14,       1) /* ArmorModVsPierce */
-     , (36830,  15,       1) /* ArmorModVsBludgeon */
-     , (36830,  16, 0.984049499034882) /* ArmorModVsCold */
-     , (36830,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (36830,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (36830,  19, 0.946381568908691) /* ArmorModVsElectric */
-     , (36830,  21,       0) /* WeaponLength */
-     , (36830,  22,       0) /* DamageVariance */
-     , (36830,  26,    27.3) /* MaximumVelocity */
-     , (36830,  29,    1.06) /* WeaponDefense */
-     , (36830,  62,       1) /* WeaponOffense */
-     , (36830,  63,    2.27) /* DamageMod */
-     , (36830,  76, 0.300000011920929) /* Translucency */
-     , (36830,  87,       3) /* ItemEfficiency */
-     , (36830, 137,    0.25) /* ManaStoneDestroyChance */
-     , (36830, 165,       1) /* ArmorModVsNether */;
+VALUES (36830,  76, 0.300000011920929) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36830,   1, 'Diamond Golem') /* Name */
-     , (36830,  14, 'Use this item to close it.') /* Use */
-     , (36830,  16, 'Yoroi Sleeves') /* LongDesc */
      , (36830, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -107,16 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36830,   1,   555, 0, 0, 555) /* MaxHealth */
      , (36830,   3,   470, 0, 0, 470) /* MaxStamina */
      , (36830,   5,   425, 0, 0, 425) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36830,  1484,      2) 
-     , (36830,  1515,      2) 
-     , (36830,  1552,      2) 
-     , (36830,  1560,      2) 
-     , (36830,  1604,      2) 
-     , (36830,  1616,      2) 
-     , (36830,  1626,      2) 
-     , (36830,  2320,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36830, 67112807, 0, 0);

@@ -24,10 +24,7 @@ VALUES (49434,   1,        128) /* ItemType - Misc */
      , (49434, 369,        185) /* UseRequiresLevel */
      , (49434, 370,         12) /* GearDamage */
      , (49434, 371,         11) /* GearDamageResist */
-     , (49434, 372,         11) /* GearCrit */
-     , (49434, 373,          4) /* GearCritResist */
-     , (49434, 374,         13) /* GearCritDamage */
-     , (49434, 375,         12) /* GearCritDamageResist */;
+     , (49434, 374,         13) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49434,   1, False) /* Stuck */
@@ -44,8 +41,6 @@ VALUES (49434,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49434,   1, 'Lightning Maiden Essence') /* Name */
-     , (49434,   7, 'It''s Electric! Boogie Woogie Woogie') /* Inscription */
-     , (49434,   8, 'The Baron of Colier') /* ScribeName */
      , (49434,  14, 'Use this essence to summon or dismiss your Lightning Maiden.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

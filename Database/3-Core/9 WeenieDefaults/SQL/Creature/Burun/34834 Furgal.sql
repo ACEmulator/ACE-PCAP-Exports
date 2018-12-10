@@ -6,11 +6,9 @@ VALUES (34834, 'ace34834-furgal', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34834,   1,         16) /* ItemType - Creature */
      , (34834,   2,         75) /* CreatureType - Burun */
-     , (34834,   5,       6360) /* EncumbranceVal */
      , (34834,   6,        255) /* ItemsCapacity */
      , (34834,   7,        255) /* ContainersCapacity */
      , (34834,  16,         32) /* ItemUseable - Remote */
-     , (34834,  19,          0) /* Value */
      , (34834,  25,         38) /* Level */
      , (34834,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34834,  95,          8) /* RadarBlipColor - Yellow */
@@ -34,7 +32,6 @@ VALUES (34834,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34834,   1, 'Furgal') /* Name */
      , (34834,   5, 'Mushroom Collector') /* Template */
-     , (34834,  16, 'Killed by Thrillhouse.') /* LongDesc */
      , (34834, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

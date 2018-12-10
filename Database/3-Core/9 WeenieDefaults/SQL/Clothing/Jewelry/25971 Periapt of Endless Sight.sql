@@ -34,8 +34,6 @@ VALUES (25971,   5, -0.033333) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25971,   1, 'Periapt of Endless Sight') /* Name */
-     , (25971,   7, 'For Chatlin') /* Inscription */
-     , (25971,   8, 'Louis Point du lac') /* ScribeName */
      , (25971,  16, 'Crafted from fine glass and gems, this periapt refocuses light superbly, allowing the wearer to see farther and aim truer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -32,14 +32,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52444,   5,  -0.025) /* ManaRate */
      , (52444,  29,     1.2) /* WeaponDefense */
      , (52444,  39, 0.170000001788139) /* DefaultScale */
-     , (52444, 144,     0.1) /* ManaConversionMod */
-     , (52444, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (52444, 144,     0.1) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52444,   1, 'Holiday Present') /* Name */
-     , (52444,   7, '1 metos
-2 withereds') /* Inscription */
-     , (52444,   8, 'Tian Zaru') /* ScribeName */
      , (52444,  14, 'Use this item to equip it.') /* Use */
      , (52444,  16, 'A beautifully wrapped holiday present. You wonder what''s inside!') /* LongDesc */;
 

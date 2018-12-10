@@ -6,26 +6,15 @@ VALUES (42124, 'ace42124-warden', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42124,   1,         16) /* ItemType - Creature */
      , (42124,   2,         31) /* CreatureType - Human */
-     , (42124,   5,        150) /* EncumbranceVal */
      , (42124,   6,        255) /* ItemsCapacity */
      , (42124,   7,        255) /* ContainersCapacity */
      , (42124,  16,         32) /* ItemUseable - Remote */
-     , (42124,  19,       3219) /* Value */
      , (42124,  25,        145) /* Level */
      , (42124,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42124,  95,          8) /* RadarBlipColor - Yellow */
-     , (42124, 105,          4) /* ItemWorkmanship */
-     , (42124, 106,        239) /* ItemSpellcraft */
-     , (42124, 107,       1307) /* ItemCurMana */
-     , (42124, 108,       1307) /* ItemMaxMana */
-     , (42124, 109,        278) /* ItemDifficulty */
-     , (42124, 110,          0) /* ItemAllegianceRankLimit */
      , (42124, 113,          2) /* Gender - Female */
-     , (42124, 115,          0) /* ItemSkillLevelLimit */
-     , (42124, 131,         35) /* MaterialType - RedGarnet */
      , (42124, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42124, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42124, 172,          1) /* AppraisalLongDescDecoration */
      , (42124, 188,          2) /* HeritageGroup - Gharundim */
      , (42124, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -40,13 +29,11 @@ VALUES (42124,   1, True ) /* Stuck */
      , (42124,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42124,   5, -0.0555555555555556) /* ManaRate */
-     , (42124,  54,       3) /* UseRadius */;
+VALUES (42124,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42124,   1, 'Warden') /* Name */
      , (42124,   5, 'Portal Warden') /* Template */
-     , (42124,  16, 'Heavy Bracelet of Weapon Expertise') /* LongDesc */
      , (42124, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,11 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42124,   1,   175, 0, 0, 175) /* MaxHealth */
      , (42124,   3,   300, 0, 0, 300) /* MaxStamina */
      , (42124,   5,   200, 0, 0, 200) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42124,   779,      2) 
-     , (42124,  1070,      2) 
-     , (42124,  2553,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42124, 67109554, 0, 24)

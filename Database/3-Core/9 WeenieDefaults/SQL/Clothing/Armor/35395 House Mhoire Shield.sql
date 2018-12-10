@@ -13,21 +13,12 @@ VALUES (35395,   1,          2) /* ItemType - Armor */
      , (35395,  33,         -2) /* Bonded - Destroy */
      , (35395,  51,          4) /* CombatUse - Shield */
      , (35395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35395, 105,          7) /* ItemWorkmanship */
-     , (35395, 106,        250) /* ItemSpellcraft */
-     , (35395, 107,        584) /* ItemCurMana */
-     , (35395, 108,        584) /* ItemMaxMana */
-     , (35395, 109,          0) /* ItemDifficulty */
-     , (35395, 110,          0) /* ItemAllegianceRankLimit */
      , (35395, 114,          1) /* Attuned - Attuned */
      , (35395, 115,        475) /* ItemSkillLevelLimit */
-     , (35395, 117,        350) /* ItemManaCost */
-     , (35395, 131,         32) /* MaterialType - Onyx */
      , (35395, 151,          2) /* HookType - Wall */
      , (35395, 158,          7) /* WieldRequirements - Level */
      , (35395, 159,          1) /* WieldSkilltype - Axe */
-     , (35395, 160,        100) /* WieldDifficulty */
-     , (35395, 172,          1) /* AppraisalLongDescDecoration */;
+     , (35395, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35395,   1, False) /* Stuck */
@@ -43,8 +34,7 @@ VALUES (35395,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35395,   1, 'House Mhoire Shield') /* Name */
-     , (35395,  15, 'This shield was crafted for the Lords of House Mhoire.') /* ShortDesc */
-     , (35395,  16, 'Gem of Regeneration') /* LongDesc */;
+     , (35395,  15, 'This shield was crafted for the Lords of House Mhoire.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35395,   1,   33560569) /* Setup */
@@ -64,6 +54,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35395,   3, 3682370371) /* Wielder */
      , (35395, 8000, 3681412333) /* PCAPRecordedObjectIID */
      , (35395, 8008, 3682370371) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35395,   170,      2) ;

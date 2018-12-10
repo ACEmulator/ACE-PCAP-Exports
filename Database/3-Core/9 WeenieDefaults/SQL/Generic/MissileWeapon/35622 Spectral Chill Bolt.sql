@@ -13,15 +13,11 @@ VALUES (35622,   1,        256) /* ItemType - MissileWeapon */
      , (35622,  16,          1) /* ItemUseable - No */
      , (35622,  18,        128) /* UiEffects - Frost */
      , (35622,  19,        576) /* Value */
-     , (35622,  33,          1) /* Bonded - Bonded */
      , (35622,  50,          2) /* AmmoType - Bolt */
      , (35622,  51,          3) /* CombatUse - Ammo */
      , (35622,  65,          1) /* Placement - RightHandCombat */
      , (35622,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (35622, 105,          6) /* ItemWorkmanship */
-     , (35622, 131,         34) /* MaterialType - Peridot */
-     , (35622, 151,          2) /* HookType - Wall */
-     , (35622, 170,          1) /* NumItemsInMaterial */;
+     , (35622, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35622,   1, False) /* Stuck */
@@ -38,10 +34,7 @@ VALUES (35622,  39, 1.10000002384186) /* DefaultScale */
      , (35622,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35622,   1, 'Spectral Chill Bolt') /* Name */
-     , (35622,  14, 'Apply this material to treasure-generated armor to imbue the target with a +1 bonus to Melee Defense.') /* Use */
-     , (35622,  15, 'Chips of peridot material salvaged from old items.') /* ShortDesc */
-     , (35622,  16, 'Killed by Dooty Tang.') /* LongDesc */;
+VALUES (35622,   1, 'Spectral Chill Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35622,   1,   33555694) /* Setup */

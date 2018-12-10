@@ -24,9 +24,7 @@ VALUES (30375,   1,      32768) /* ItemType - Caster */
      , (30375, 179,        128) /* ImbuedEffect - ColdRending */
      , (30375, 265,         41) /* EquipmentSetId - RareDamageBoost */
      , (30375, 319,         50) /* ItemMaxLevel */
-     , (30375, 320,          1) /* ItemXpStyle - Fixed */
-     , (30375, 383,          1) /* GearPKDamageRating */
-     , (30375, 384,          1) /* GearPKDamageResistRating */;
+     , (30375, 320,          1) /* ItemXpStyle - Fixed */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30375,   4, 100000000000) /* ItemTotalXp */
@@ -59,7 +57,7 @@ VALUES (30375,   1,   33559423) /* Setup */
      , (30375,   6,   67111919) /* PaletteBase */
      , (30375,   8,  100686849) /* Icon */
      , (30375,  22,  872415275) /* PhysicsEffectTable */
-     , (30375,  28,       2136) /* Spell */
+     , (30375,  28,       2136) /* Spell - FrostBolt7 */
      , (30375,  52,  100686604) /* IconUnderlay */
      , (30375, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (30375, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

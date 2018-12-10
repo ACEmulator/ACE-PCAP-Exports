@@ -6,33 +6,17 @@ VALUES (32068, 'ace32068-titobrickicci', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32068,   1,         16) /* ItemType - Creature */
      , (32068,   2,         31) /* CreatureType - Human */
-     , (32068,   5,        475) /* EncumbranceVal */
      , (32068,   6,        255) /* ItemsCapacity */
      , (32068,   7,        255) /* ContainersCapacity */
      , (32068,  16,         32) /* ItemUseable - Remote */
-     , (32068,  19,       1021) /* Value */
      , (32068,  25,        174) /* Level */
-     , (32068,  44,         23) /* Damage */
-     , (32068,  45,         64) /* DamageType - Electric */
-     , (32068,  47,          4) /* AttackType - Slash */
-     , (32068,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (32068,  49,         40) /* WeaponTime */
      , (32068,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32068,  95,          8) /* RadarBlipColor - Yellow */
-     , (32068, 105,          6) /* ItemWorkmanship */
      , (32068, 113,          1) /* Gender - Male */
-     , (32068, 131,         59) /* MaterialType - Copper */
      , (32068, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32068, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32068, 158,          2) /* WieldRequirements - RawSkill */
-     , (32068, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (32068, 160,        300) /* WieldDifficulty */
-     , (32068, 172,          1) /* AppraisalLongDescDecoration */
      , (32068, 188,          4) /* HeritageGroup - Viamontian */
-     , (32068, 292,          2) /* Cleaving */
-     , (32068, 353,         11) /* WeaponType - TwoHanded */
-     , (32068, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (32068, 8030,          0);
+     , (32068, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32068,   1, True ) /* Stuck */
@@ -45,18 +29,11 @@ VALUES (32068,   1, True ) /* Stuck */
      , (32068,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32068,  21,       0) /* WeaponLength */
-     , (32068,  22,     0.5) /* DamageVariance */
-     , (32068,  26,       0) /* MaximumVelocity */
-     , (32068,  29,    1.07) /* WeaponDefense */
-     , (32068,  54,       3) /* UseRadius */
-     , (32068,  62,     1.1) /* WeaponOffense */
-     , (32068,  63,       1) /* DamageMod */;
+VALUES (32068,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32068,   1, 'Tito Brickicci') /* Name */
      , (32068,   5, 'Ferran Knight') /* Template */
-     , (32068,  16, 'Lightning Quadrelle') /* LongDesc */
      , (32068, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

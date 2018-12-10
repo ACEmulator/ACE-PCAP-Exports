@@ -6,30 +6,18 @@ VALUES (49037, 'ace49037-hannikiselemental', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49037,   1,         16) /* ItemType - Creature */
      , (49037,   2,         62) /* CreatureType - Elemental */
-     , (49037,   5,         40) /* EncumbranceVal */
      , (49037,   6,        255) /* ItemsCapacity */
      , (49037,   7,        255) /* ContainersCapacity */
      , (49037,  16,          1) /* ItemUseable - No */
-     , (49037,  19,       1009) /* Value */
      , (49037,  25,        200) /* Level */
-     , (49037,  44,         10) /* Damage */
-     , (49037,  45,          4) /* DamageType - Bludgeon */
-     , (49037,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (49037,  49,         10) /* WeaponTime */
      , (49037,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49037, 105,          6) /* ItemWorkmanship */
-     , (49037, 131,         66) /* MaterialType - Alabaster */
      , (49037, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49037, 172,          1) /* AppraisalLongDescDecoration */
      , (49037, 307,         17) /* DamageRating */
      , (49037, 308,         14) /* DamageResistRating */
      , (49037, 313,         12) /* CritRating */
      , (49037, 314,         10) /* CritDamageRating */
-     , (49037, 315,          7) /* CritResistRating */
      , (49037, 316,         17) /* CritDamageResistRating */
-     , (49037, 353,         10) /* WeaponType - Thrown */
-     , (49037, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (49037, 8030,          0);
+     , (49037, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49037,   1, True ) /* Stuck */
@@ -39,17 +27,10 @@ VALUES (49037,   1, True ) /* Stuck */
      , (49037,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49037,  21,       0) /* WeaponLength */
-     , (49037,  22,    0.25) /* DamageVariance */
-     , (49037,  26,       0) /* MaximumVelocity */
-     , (49037,  29,       1) /* WeaponDefense */
-     , (49037,  39, 1.20000004768372) /* DefaultScale */
-     , (49037,  62,       1) /* WeaponOffense */
-     , (49037,  63,       1) /* DamageMod */;
+VALUES (49037,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49037,   1, 'Hanniki''s Elemental') /* Name */
-     , (49037,  16, 'Mug') /* LongDesc */
      , (49037, 8006, 'AAA9AEAAAAAAAMA/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

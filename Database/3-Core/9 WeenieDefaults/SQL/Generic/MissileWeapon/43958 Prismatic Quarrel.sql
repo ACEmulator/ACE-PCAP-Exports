@@ -13,8 +13,6 @@ VALUES (43958,   1,        256) /* ItemType - MissileWeapon */
      , (43958,  16,          1) /* ItemUseable - No */
      , (43958,  18,        128) /* UiEffects - Frost */
      , (43958,  19,      17100) /* Value */
-     , (43958,  28,        120) /* ArmorLevel */
-     , (43958,  33,          1) /* Bonded - Bonded */
      , (43958,  44,         35) /* Damage */
      , (43958,  45,          4) /* DamageType - Bludgeon */
      , (43958,  48,          0) /* WeaponSkill - None */
@@ -23,11 +21,6 @@ VALUES (43958,   1,        256) /* ItemType - MissileWeapon */
      , (43958,  51,          3) /* CombatUse - Ammo */
      , (43958,  65,          1) /* Placement - RightHandCombat */
      , (43958,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (43958, 106,        100) /* ItemSpellcraft */
-     , (43958, 107,       1000) /* ItemCurMana */
-     , (43958, 108,       1000) /* ItemMaxMana */
-     , (43958, 109,          0) /* ItemDifficulty */
-     , (43958, 114,          1) /* Attuned - Attuned */
      , (43958, 151,          2) /* HookType - Wall */
      , (43958, 158,          2) /* WieldRequirements - RawSkill */
      , (43958, 159,         37) /* WieldSkilltype - Fletching */
@@ -53,19 +46,10 @@ VALUES (43958,   1, False) /* Stuck */
      , (43958,  14, True ) /* GravityStatus */
      , (43958,  17, True ) /* Inelastic */
      , (43958,  19, True ) /* Attackable */
-     , (43958,  69, False) /* IsSellable */
-     , (43958,  99, True ) /* Ivoryable */;
+     , (43958,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43958,   5, -0.0333333) /* ManaRate */
-     , (43958,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (43958,  14,       1) /* ArmorModVsPierce */
-     , (43958,  15,       1) /* ArmorModVsBludgeon */
-     , (43958,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (43958,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (43958,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (43958,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (43958,  21,       0) /* WeaponLength */
+VALUES (43958,  21,       0) /* WeaponLength */
      , (43958,  22,     0.4) /* DamageVariance */
      , (43958,  26,       0) /* MaximumVelocity */
      , (43958,  29,       1) /* WeaponDefense */
@@ -74,8 +58,7 @@ VALUES (43958,   5, -0.0333333) /* ManaRate */
      , (43958,  78,       1) /* Friction */
      , (43958,  79,       0) /* Elasticity */
      , (43958, 149,       0) /* WeaponMissileDefense */
-     , (43958, 150,       0) /* WeaponMagicDefense */
-     , (43958, 165,       1) /* ArmorModVsNether */;
+     , (43958, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43958,   1, 'Prismatic Quarrel') /* Name */
@@ -101,11 +84,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43958,   3, 1343115917) /* Wielder */
      , (43958, 8000, 3693071779) /* PCAPRecordedObjectIID */
      , (43958, 8008, 1343115917) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43958,  1374,      2) 
-     , (43958,  1482,      2) 
-     , (43958,  2322,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43958, 67111920, 0, 0);

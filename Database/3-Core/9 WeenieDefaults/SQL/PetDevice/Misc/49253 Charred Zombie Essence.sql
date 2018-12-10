@@ -22,16 +22,13 @@ VALUES (49253,   1,        128) /* ItemType - Misc */
      , (49253, 367,        570) /* UseRequiresSkillLevel */
      , (49253, 368,         54) /* UseRequiresSkillSpec */
      , (49253, 369,        185) /* UseRequiresLevel */
-     , (49253, 370,          1) /* GearDamage */
      , (49253, 371,         11) /* GearDamageResist */
      , (49253, 372,         12) /* GearCrit */
      , (49253, 373,         12) /* GearCritResist */
-     , (49253, 374,         13) /* GearCritDamage */
      , (49253, 375,          9) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49253,   1, False) /* Stuck */
-     , (49253,   2, False) /* Open */
      , (49253,  11, True ) /* IgnoreCollisions */
      , (49253,  13, True ) /* Ethereal */
      , (49253,  14, True ) /* GravityStatus */
@@ -45,8 +42,7 @@ VALUES (49253,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49253,   1, 'Charred Zombie Essence') /* Name */
-     , (49253,  14, 'Use this essence to summon or dismiss your Charred Zombie.') /* Use */
-     , (49253,  16, 'Killed by Mag-one.') /* LongDesc */;
+     , (49253,  14, 'Use this essence to summon or dismiss your Charred Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49253,   1,   33554817) /* Setup */

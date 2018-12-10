@@ -6,31 +6,14 @@ VALUES (36092, 'ace36092-claudethearchmage', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36092,   1,         16) /* ItemType - Creature */
      , (36092,   2,         19) /* CreatureType - Virindi */
-     , (36092,   5,        185) /* EncumbranceVal */
      , (36092,   6,        255) /* ItemsCapacity */
      , (36092,   7,        255) /* ContainersCapacity */
      , (36092,  16,         32) /* ItemUseable - Remote */
-     , (36092,  19,        886) /* Value */
      , (36092,  25,         28) /* Level */
-     , (36092,  44,         11) /* Damage */
-     , (36092,  45,          3) /* DamageType - Slash, Pierce */
-     , (36092,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
-     , (36092,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (36092,  49,         22) /* WeaponTime */
      , (36092,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
-     , (36092, 105,          6) /* ItemWorkmanship */
-     , (36092, 131,         58) /* MaterialType - Bronze */
      , (36092, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (36092, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (36092, 158,          2) /* WieldRequirements - RawSkill */
-     , (36092, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (36092, 160,        300) /* WieldDifficulty */
-     , (36092, 172,          5) /* AppraisalLongDescDecoration */
-     , (36092, 177,          1) /* GemCount */
-     , (36092, 178,         12) /* GemType */
-     , (36092, 353,          6) /* WeaponType - Dagger */
-     , (36092, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36092, 8030,          0);
+     , (36092, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36092,   1, True ) /* Stuck */
@@ -42,18 +25,10 @@ VALUES (36092,   1, True ) /* Stuck */
      , (36092,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36092,  21,       0) /* WeaponLength */
-     , (36092,  22,    0.35) /* DamageVariance */
-     , (36092,  26,       0) /* MaximumVelocity */
-     , (36092,  29,    1.07) /* WeaponDefense */
-     , (36092,  54,       3) /* UseRadius */
-     , (36092,  62,    1.06) /* WeaponOffense */
-     , (36092,  63,       1) /* DamageMod */
-     , (36092, 150,   1.015) /* WeaponMagicDefense */;
+VALUES (36092,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36092,   1, 'Claude the Archmage') /* Name */
-     , (36092,  16, 'Lancet') /* LongDesc */
      , (36092, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

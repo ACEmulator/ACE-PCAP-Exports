@@ -6,14 +6,11 @@ VALUES (44046, 'ace44046-mumiyahvizier', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44046,   1,         16) /* ItemType - Creature */
      , (44046,   2,         14) /* CreatureType - Undead */
-     , (44046,   5,         50) /* EncumbranceVal */
      , (44046,   6,        255) /* ItemsCapacity */
      , (44046,   7,        255) /* ContainersCapacity */
      , (44046,  16,          1) /* ItemUseable - No */
-     , (44046,  19,       5000) /* Value */
      , (44046,  25,        240) /* Level */
      , (44046,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44046, 107,          0) /* ItemCurMana */
      , (44046, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44046, 307,          4) /* DamageRating */
      , (44046, 315,         10) /* CritResistRating */
@@ -28,13 +25,10 @@ VALUES (44046,   1, True ) /* Stuck */
      , (44046,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44046,  39, 1.20000004768372) /* DefaultScale */
-     , (44046,  87,       2) /* ItemEfficiency */
-     , (44046, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (44046,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44046,   1, 'Mu-miyah Vizier') /* Name */
-     , (44046,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (44046, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,11 +6,9 @@ VALUES (31718, 'ace31718-higharchonkraest', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31718,   1,         16) /* ItemType - Creature */
      , (31718,   2,         31) /* CreatureType - Human */
-     , (31718,   5,       8625) /* EncumbranceVal */
      , (31718,   6,        255) /* ItemsCapacity */
      , (31718,   7,        255) /* ContainersCapacity */
      , (31718,  16,          1) /* ItemUseable - No */
-     , (31718,  19,          0) /* Value */
      , (31718,  25,        160) /* Level */
      , (31718,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31718, 113,          1) /* Gender - Male */
@@ -20,7 +18,6 @@ VALUES (31718,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31718,   1, True ) /* Stuck */
-     , (31718,   2, True ) /* Open */
      , (31718,  12, True ) /* ReportCollisions */
      , (31718,  13, False) /* Ethereal */
      , (31718,  14, True ) /* GravityStatus */
@@ -28,8 +25,6 @@ VALUES (31718,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31718,   1, 'High Archon Kraest') /* Name */
-     , (31718,  14, 'Use this item to close it.') /* Use */
-     , (31718,  16, 'Killed by Mag-three.') /* LongDesc */
      , (31718, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

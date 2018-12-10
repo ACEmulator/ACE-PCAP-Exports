@@ -6,24 +6,14 @@ VALUES (34779, 'ace34779-gurukbeast', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34779,   1,         16) /* ItemType - Creature */
      , (34779,   2,         75) /* CreatureType - Burun */
-     , (34779,   5,         23) /* EncumbranceVal */
      , (34779,   6,        255) /* ItemsCapacity */
      , (34779,   7,        255) /* ContainersCapacity */
      , (34779,  16,          1) /* ItemUseable - No */
      , (34779,  25,        115) /* Level */
-     , (34779,  44,         -1) /* Damage */
-     , (34779,  45,          0) /* DamageType - Undef */
-     , (34779,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (34779,  49,         -1) /* WeaponTime */
      , (34779,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34779, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (34779, 307,          5) /* DamageRating */
-     , (34779, 313,          0) /* CritRating */
-     , (34779, 314,          0) /* CritDamageRating */
-     , (34779, 353,         10) /* WeaponType - Thrown */
-     , (34779, 386,          0) /* Overpower */
-     , (34779, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (34779, 8030,          0);
+     , (34779, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34779,   1, True ) /* Stuck */
@@ -31,16 +21,6 @@ VALUES (34779,   1, True ) /* Stuck */
      , (34779,  13, False) /* Ethereal */
      , (34779,  14, True ) /* GravityStatus */
      , (34779,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34779,  21,       0) /* WeaponLength */
-     , (34779,  22,    0.25) /* DamageVariance */
-     , (34779,  26,       0) /* MaximumVelocity */
-     , (34779,  29,       1) /* WeaponDefense */
-     , (34779,  62,       1) /* WeaponOffense */
-     , (34779,  63,       1) /* DamageMod */
-     , (34779, 149,       0) /* WeaponMissileDefense */
-     , (34779, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34779,   1, 'Guruk Beast') /* Name */

@@ -6,24 +6,12 @@ VALUES (38150, 'ace38150-blightedverdantmoarsman', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38150,   1,         16) /* ItemType - Creature */
      , (38150,   2,         98) /* CreatureType - BlightedMoarsman */
-     , (38150,   5,          5) /* EncumbranceVal */
      , (38150,   6,        255) /* ItemsCapacity */
      , (38150,   7,        255) /* ContainersCapacity */
      , (38150,  16,          1) /* ItemUseable - No */
-     , (38150,  19,       3389) /* Value */
      , (38150,  25,        160) /* Level */
      , (38150,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (38150, 105,          7) /* ItemWorkmanship */
-     , (38150, 106,        200) /* ItemSpellcraft */
-     , (38150, 107,        501) /* ItemCurMana */
-     , (38150, 108,        501) /* ItemMaxMana */
-     , (38150, 109,          0) /* ItemDifficulty */
-     , (38150, 110,          0) /* ItemAllegianceRankLimit */
-     , (38150, 115,          0) /* ItemSkillLevelLimit */
-     , (38150, 117,        300) /* ItemManaCost */
-     , (38150, 131,         38) /* MaterialType - Ruby */
      , (38150, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38150, 172,          1) /* AppraisalLongDescDecoration */
      , (38150, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +28,6 @@ VALUES (38150,  39, 1.64999997615814) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38150,   1, 'Blighted Verdant Moarsman') /* Name */
-     , (38150,  16, 'Gem of Acid Protection') /* LongDesc */
      , (38150, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -74,9 +61,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38150,   1,   800, 0, 0, 800) /* MaxHealth */
      , (38150,   3,  1000, 0, 0, 1000) /* MaxStamina */
      , (38150,   5,   320, 0, 0, 320) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38150,   519,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38150, 67113029, 0, 0);

@@ -29,12 +29,7 @@ VALUES (3779,   1,          1) /* ItemType - MeleeWeapon */
      , (3779, 115,        225) /* ItemSkillLevelLimit */
      , (3779, 131,         24) /* MaterialType - GreenJade */
      , (3779, 151,          2) /* HookType - Wall */
-     , (3779, 171,          6) /* NumTimesTinkered */
-     , (3779, 172,          7) /* AppraisalLongDescDecoration */
      , (3779, 176,         46) /* AppraisalItemSkill */
-     , (3779, 177,          1) /* GemCount */
-     , (3779, 178,         41) /* GemType */
-     , (3779, 188,          3) /* HeritageGroup - Sho */
      , (3779, 353,          6) /* WeaponType - Dagger */
      , (3779, 8030,          0);
 
@@ -62,8 +57,7 @@ VALUES (3779,   1, 'Lightning Bandit Dagger') /* Name */
      , (3779,   7, 'Cattleprod.') /* Inscription */
      , (3779,   8, 'Lonsgard') /* ScribeName */
      , (3779,  16, 'Lightning Dagger') /* LongDesc */
-     , (3779,  25, 'Lonsgard') /* CraftsmanName */
-     , (3779,  39, 'Klutz''s Trade Mule') /* TinkerName */;
+     , (3779,  25, 'Lonsgard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3779,   1,   33555707) /* Setup */
@@ -81,7 +75,4 @@ VALUES (3779,   2, 1342869133) /* Container */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3779,  1330,      2) 
      , (3779,  1615,      2) 
-     , (3779,  2087,      2) 
-     , (3779,  2096,      2) 
-     , (3779,  2579,      2) 
      , (3779,  2598,      2) ;

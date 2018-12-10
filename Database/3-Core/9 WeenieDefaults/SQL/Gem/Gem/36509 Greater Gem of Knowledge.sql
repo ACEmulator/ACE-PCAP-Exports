@@ -11,19 +11,8 @@ VALUES (36509,   1,       2048) /* ItemType - Gem */
      , (36509,  16,          1) /* ItemUseable - No */
      , (36509,  18,          2) /* UiEffects - Poisoned */
      , (36509,  19,        360) /* Value */
-     , (36509,  33,         -2) /* Bonded - Destroy */
-     , (36509,  44,        610) /* Damage */
-     , (36509,  45,          2) /* DamageType - Pierce */
-     , (36509,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (36509,  49,         10) /* WeaponTime */
      , (36509,  65,        101) /* Placement - Resting */
-     , (36509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36509, 307,          5) /* DamageRating */
-     , (36509, 313,          0) /* CritRating */
-     , (36509, 314,          0) /* CritDamageRating */
-     , (36509, 353,         10) /* WeaponType - Thrown */
-     , (36509, 386,          0) /* Overpower */
-     , (36509, 8030,          0);
+     , (36509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36509,   1, False) /* Stuck */
@@ -31,17 +20,6 @@ VALUES (36509,   1, False) /* Stuck */
      , (36509,  13, True ) /* Ethereal */
      , (36509,  14, True ) /* GravityStatus */
      , (36509,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36509,  21,       0) /* WeaponLength */
-     , (36509,  22,     0.5) /* DamageVariance */
-     , (36509,  26, 23.2000007629395) /* MaximumVelocity */
-     , (36509,  29,       1) /* WeaponDefense */
-     , (36509,  62,       1) /* WeaponOffense */
-     , (36509,  63,       1) /* DamageMod */
-     , (36509, 147,       1) /* CriticalFrequency */
-     , (36509, 149,       0) /* WeaponMissileDefense */
-     , (36509, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36509,   1, 'Greater Gem of Knowledge') /* Name */

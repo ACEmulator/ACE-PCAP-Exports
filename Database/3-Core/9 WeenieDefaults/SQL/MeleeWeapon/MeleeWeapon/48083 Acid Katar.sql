@@ -13,8 +13,6 @@ VALUES (48083,   1,          1) /* ItemType - MeleeWeapon */
      , (48083,  19,        155) /* Value */
      , (48083,  51,          1) /* CombatUse - Melee */
      , (48083,  65,          1) /* Placement - RightHandCombat */
-     , (48083,  89,          6) /* BoosterEnum - Mana */
-     , (48083,  90,         85) /* BoostValue */
      , (48083,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48083, 151,          2) /* HookType - Wall */;
 
@@ -27,8 +25,7 @@ VALUES (48083,   1, False) /* Stuck */
      , (48083,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48083,   1, 'Acid Katar') /* Name */
-     , (48083,  14, 'Use this item to drink it.') /* Use */;
+VALUES (48083,   1, 'Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48083,   1,   33555739) /* Setup */

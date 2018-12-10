@@ -9,9 +9,8 @@ VALUES (1,   1,         16) /* ItemType - Creature */
      , (1,   6,        102) /* ItemsCapacity */
      , (1,   7,          7) /* ContainersCapacity */
      , (1,  16,          1) /* ItemUseable - No */
-     , (1,  25,        146) /* Level */
-     , (1,  30,          7) /* AllegianceRank */
-     , (1,  35,         14) /* AllegianceFollowers */
+     , (1,  25,        275) /* Level */
+     , (1,  30,          2) /* AllegianceRank */
      , (1,  43,         83) /* NumDeaths */
      , (1,  93,    4211728) /* PhysicsState - IgnoreCollisions, Gravity, Hidden, EdgeSlide */
      , (1, 113,          1) /* Gender - Male */
@@ -21,22 +20,11 @@ VALUES (1,   1,         16) /* ItemType - Creature */
      , (1, 181,       1300) /* ChessRank */
      , (1, 188,          1) /* HeritageGroup - Aluvian */
      , (1, 192,         23) /* FakeFishingSkill */
-     , (1, 261,          1) /* CharacterTitleId */
+     , (1, 261,         85) /* CharacterTitleId */
      , (1, 262,         26) /* NumCharacterTitles */
-     , (1, 281,          1) /* Faction1Bits */
-     , (1, 287,          1) /* SocietyRankCelhan */
-     , (1, 288,          1) /* SocietyRankEldweb */
-     , (1, 289,        595) /* SocietyRankRadblo */
-     , (1, 307,          5) /* DamageRating */
-     , (1, 308,         15) /* DamageResistRating */
-     , (1, 313,          1) /* CritRating */
+     , (1, 307,          6) /* DamageRating */
      , (1, 314,          1) /* CritDamageRating */
-     , (1, 316,          4) /* CritDamageResistRating */
-     , (1, 323,          4) /* HealingBoostRating */
-     , (1, 350,         16) /* DotResistRating */
      , (1, 351,          4) /* LifeResistRating */
-     , (1, 381,          5) /* PKDamageRating */
-     , (1, 382,          5) /* PKDamageResistRating */
      , (1, 390,          0) /* Enlightenment */
      , (1, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -50,11 +38,10 @@ VALUES (1,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1,   1, 'Ripley') /* Name */
-     , (1,  10, 'X') /* Fellowship */
-     , (1,  21, 'King Oompa Loompa') /* MonarchsTitle */
-     , (1,  35, 'Aetheling Legits Vengeance') /* PatronsTitle */
+     , (1,  21, 'Jo-ou Tika Waylen') /* MonarchsTitle */
+     , (1,  35, 'Nan-chueh Angwyshaunce') /* PatronsTitle */
      , (1,  43, '22 September 2001') /* DateOfBirth */
-     , (1,  47, 'LOG START AFK') /* AllegianceName */
+     , (1,  47, 'The Dragon Moon Clan') /* AllegianceName */
      , (1, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -63,11 +50,11 @@ VALUES (1,   1,   33554433) /* Setup */
      , (1,   3,  536870913) /* SoundTable */
      , (1,   6,   67108990) /* PaletteBase */
      , (1,   8,  100667446) /* Icon */
-     , (1,   9,   83890515) /* EyesTexture */
-     , (1,  10,   83890551) /* NoseTexture */
-     , (1,  11,   83890642) /* MouthTexture */
-     , (1,  15,   67116989) /* HairPalette */
-     , (1,  16,   67110064) /* EyesPalette */
+     , (1,   9,   83890509) /* EyesTexture */
+     , (1,  10,   83890561) /* NoseTexture */
+     , (1,  11,   83890640) /* MouthTexture */
+     , (1,  15,   67109614) /* HairPalette */
+     , (1,  16,   67109564) /* EyesPalette */
      , (1,  17,   67109560) /* SkinPalette */
      , (1,  22,  872415236) /* PhysicsEffectTable */
      , (1, 8001,    8388694) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, Monarch, RadarBehavior */
@@ -83,17 +70,17 @@ VALUES (1,  26, 1343089867) /* Monarch */
      , (1, 8000, 1342814975) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (1,   1, 200, 0, 0) /* Strength */
-     , (1,   2, 250, 0, 0) /* Endurance */
-     , (1,   3, 180, 0, 0) /* Quickness */
-     , (1,   4, 250, 0, 0) /* Coordination */
-     , (1,   5, 160, 0, 0) /* Focus */
-     , (1,   6, 250, 0, 0) /* Self */;
+VALUES (1,   1, 285, 0, 0) /* Strength */
+     , (1,   2, 296, 0, 0) /* Endurance */
+     , (1,   3, 245, 0, 0) /* Quickness */
+     , (1,   4, 245, 0, 0) /* Coordination */
+     , (1,   5, 335, 0, 0) /* Focus */
+     , (1,   6, 335, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1,   1,   288, 0, 0, 288) /* MaxHealth */
-     , (1,   3,   250, 0, 0, 250) /* MaxStamina */
-     , (1,   5,   250, 0, 0, 250) /* MaxMana */;
+VALUES (1,   1,   345, 0, 0, 345) /* MaxHealth */
+     , (1,   3,   497, 0, 0, 368) /* MaxStamina */
+     , (1,   5,   536, 0, 0, 361) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1, 67109560, 0, 24)

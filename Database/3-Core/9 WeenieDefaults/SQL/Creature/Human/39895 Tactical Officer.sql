@@ -6,47 +6,19 @@ VALUES (39895, 'ace39895-tacticalofficer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39895,   1,         16) /* ItemType - Creature */
      , (39895,   2,         31) /* CreatureType - Human */
-     , (39895,   5,          5) /* EncumbranceVal */
      , (39895,   6,        255) /* ItemsCapacity */
      , (39895,   7,        255) /* ContainersCapacity */
      , (39895,  16,         32) /* ItemUseable - Remote */
-     , (39895,  19,       3106) /* Value */
      , (39895,  25,        200) /* Level */
-     , (39895,  33,          1) /* Bonded - Bonded */
-     , (39895,  44,         36) /* Damage */
-     , (39895,  45,         32) /* DamageType - Acid */
-     , (39895,  47,          4) /* AttackType - Slash */
-     , (39895,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (39895,  49,         41) /* WeaponTime */
      , (39895,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (39895,  95,          8) /* RadarBlipColor - Yellow */
-     , (39895, 105,          8) /* ItemWorkmanship */
-     , (39895, 106,        200) /* ItemSpellcraft */
-     , (39895, 107,        534) /* ItemCurMana */
-     , (39895, 108,        534) /* ItemMaxMana */
-     , (39895, 109,          0) /* ItemDifficulty */
-     , (39895, 110,          0) /* ItemAllegianceRankLimit */
      , (39895, 113,          1) /* Gender - Male */
-     , (39895, 114,          1) /* Attuned - Attuned */
-     , (39895, 115,          0) /* ItemSkillLevelLimit */
-     , (39895, 117,        300) /* ItemManaCost */
-     , (39895, 131,         38) /* MaterialType - Ruby */
      , (39895, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (39895, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (39895, 158,          2) /* WieldRequirements - RawSkill */
-     , (39895, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (39895, 160,        400) /* WieldDifficulty */
-     , (39895, 172,          1) /* AppraisalLongDescDecoration */
-     , (39895, 176,         41) /* AppraisalItemSkill */
-     , (39895, 177,          4) /* GemCount */
-     , (39895, 178,         38) /* GemType */
      , (39895, 188,          1) /* HeritageGroup - Aluvian */
      , (39895, 281,          4) /* Faction1Bits */
      , (39895, 289,       1001) /* SocietyRankRadblo */
-     , (39895, 292,          2) /* Cleaving */
-     , (39895, 353,         11) /* WeaponType - TwoHanded */
-     , (39895, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (39895, 8030,          0);
+     , (39895, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39895,   1, True ) /* Stuck */
@@ -59,19 +31,11 @@ VALUES (39895,   1, True ) /* Stuck */
      , (39895,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (39895,   5, -0.0555555555555556) /* ManaRate */
-     , (39895,  21,       0) /* WeaponLength */
-     , (39895,  22,    0.35) /* DamageVariance */
-     , (39895,  26,       0) /* MaximumVelocity */
-     , (39895,  29,    1.11) /* WeaponDefense */
-     , (39895,  54,       3) /* UseRadius */
-     , (39895,  62,    1.12) /* WeaponOffense */
-     , (39895,  63,       1) /* DamageMod */;
+VALUES (39895,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39895,   1, 'Tactical Officer') /* Name */
      , (39895,   5, 'Society Officer') /* Template */
-     , (39895,  16, 'Gem of Rejuvenation') /* LongDesc */
      , (39895, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -109,18 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (39895,   1,   296, 0, 0, 296) /* MaxHealth */
      , (39895,   3,   396, 0, 0, 396) /* MaxStamina */
      , (39895,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39895,   192,      2) 
-     , (39895,  1605,      2) 
-     , (39895,  2096,      2) 
-     , (39895,  2106,      2) 
-     , (39895,  2116,      2) 
-     , (39895,  2564,      2) 
-     , (39895,  2576,      2) 
-     , (39895,  2584,      2) 
-     , (39895,  2586,      2) 
-     , (39895,  6127,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39895, 67109559, 0, 24)

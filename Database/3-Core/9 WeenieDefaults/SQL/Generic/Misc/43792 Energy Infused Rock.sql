@@ -10,8 +10,6 @@ VALUES (43792,   1,        128) /* ItemType - Misc */
      , (43792,  18,         64) /* UiEffects - Lightning */
      , (43792,  19,          0) /* Value */
      , (43792,  33,          1) /* Bonded - Bonded */
-     , (43792,  89,          2) /* BoosterEnum - Health */
-     , (43792,  90,         10) /* BoostValue */
      , (43792,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43792, 114,          1) /* Attuned - Attuned */;
 
@@ -27,7 +25,6 @@ VALUES (43792,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43792,   1, 'Energy Infused Rock') /* Name */
-     , (43792,  14, 'Use this item to drink it.') /* Use */
      , (43792,  16, 'Fayza may be interested in this item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

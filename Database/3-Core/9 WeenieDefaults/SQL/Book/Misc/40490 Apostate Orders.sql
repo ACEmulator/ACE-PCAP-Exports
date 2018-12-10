@@ -9,8 +9,6 @@ VALUES (40490,   1,        128) /* ItemType - Misc */
      , (40490,  16,          8) /* ItemUseable - Contained */
      , (40490,  19,          0) /* Value */
      , (40490,  65,        101) /* Placement - Resting */
-     , (40490,  89,          2) /* BoosterEnum - Health */
-     , (40490,  90,         50) /* BoostValue */
      , (40490,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40490, 174,          4) /* AppraisalPages */
      , (40490, 175,          4) /* AppraisalMaxPages */;
@@ -29,7 +27,6 @@ VALUES (40490,  39, 0.200000002980232) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40490,   1, 'Apostate Orders') /* Name */
-     , (40490,  14, 'Use this item to drink it.') /* Use */
      , (40490,  15, 'A translation of a Virindi message shard found in the Apostate Citadel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

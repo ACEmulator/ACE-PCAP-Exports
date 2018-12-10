@@ -42,7 +42,7 @@ VALUES (36445,   1,   33560398) /* Setup */
      , (36445,   6,   67109307) /* PaletteBase */
      , (36445,   8,  100689668) /* Icon */
      , (36445,  22,  872415275) /* PhysicsEffectTable */
-     , (36445,  28,       4206) /* Spell */
+     , (36445,  28,       4206) /* Spell - ChewyCenter */
      , (36445, 8001,  275263640) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType */
      , (36445, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36445, 8005,      39041) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position */;
@@ -55,8 +55,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36445, 8000, 2291999283) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36445,  4206,      2) 
-     , (36445,  5823,      2) ;
+VALUES (36445,  4206,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36445, 67113822, 0, 0);

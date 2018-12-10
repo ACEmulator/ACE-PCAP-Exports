@@ -6,11 +6,9 @@ VALUES (46523, 'ace46523-spectralclawmaster', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46523,   1,         16) /* ItemType - Creature */
      , (46523,   2,         77) /* CreatureType - Ghost */
-     , (46523,   5,       6471) /* EncumbranceVal */
      , (46523,   6,        255) /* ItemsCapacity */
      , (46523,   7,        255) /* ContainersCapacity */
      , (46523,  16,          1) /* ItemUseable - No */
-     , (46523,  19,          0) /* Value */
      , (46523,  25,        240) /* Level */
      , (46523,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46523, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (46523,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46523,   1, 'Spectral Claw Master') /* Name */
-     , (46523,  16, 'Killed by Rimok.') /* LongDesc */
      , (46523, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

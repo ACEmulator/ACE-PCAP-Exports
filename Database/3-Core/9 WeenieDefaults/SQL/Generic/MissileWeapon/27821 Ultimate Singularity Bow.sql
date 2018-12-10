@@ -40,7 +40,6 @@ VALUES (27821,   1, False) /* Stuck */
      , (27821,  14, True ) /* GravityStatus */
      , (27821,  19, True ) /* Attackable */
      , (27821,  22, True ) /* Inscribable */
-     , (27821,  85, True ) /* AppraisalHasAllowedWielder */
      , (27821,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -56,8 +55,7 @@ VALUES (27821,   5, -0.0329999998211861) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27821,   1, 'Ultimate Singularity Bow') /* Name */
-     , (27821,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */
-     , (27821,  25, 'Al Bow') /* CraftsmanName */;
+     , (27821,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27821,   1,   33557312) /* Setup */

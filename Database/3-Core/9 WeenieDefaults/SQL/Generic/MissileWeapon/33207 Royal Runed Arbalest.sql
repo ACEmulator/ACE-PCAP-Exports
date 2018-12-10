@@ -50,8 +50,6 @@ VALUES (33207,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33207,   1, 'Royal Runed Arbalest') /* Name */
-     , (33207,   7, 'Critical hit!  You cut Sir Bellas for 1223 points of slashing damage!') /* Inscription */
-     , (33207,   8, 'Ares Blackheart') /* ScribeName */
      , (33207,  15, 'An arbalest crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

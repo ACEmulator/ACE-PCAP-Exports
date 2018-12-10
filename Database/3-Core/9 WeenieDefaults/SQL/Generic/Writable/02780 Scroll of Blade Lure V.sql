@@ -9,8 +9,7 @@ VALUES (2780,   1,       8192) /* ItemType - Writable */
      , (2780,  16,          8) /* ItemUseable - Contained */
      , (2780,  19,        200) /* Value */
      , (2780,  65,        101) /* Placement - Resting */
-     , (2780,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2780, 107,          0) /* ItemCurMana */;
+     , (2780,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2780,   1, False) /* Stuck */
@@ -21,9 +20,7 @@ VALUES (2780,   1, False) /* Stuck */
      , (2780,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2780,  39,     1.5) /* DefaultScale */
-     , (2780,  87,     0.6) /* ItemEfficiency */
-     , (2780, 137,     0.1) /* ManaStoneDestroyChance */;
+VALUES (2780,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2780,   1, 'Scroll of Blade Lure V') /* Name */
@@ -35,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2780,   1,   33554826) /* Setup */
      , (2780,   8,  100676664) /* Icon */
      , (2780,  22,  872415275) /* PhysicsEffectTable */
-     , (2780,  28,       1556) /* Spell */
+     , (2780,  28,       1556) /* Spell - BladeLure5 */
      , (2780, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2780, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2780, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

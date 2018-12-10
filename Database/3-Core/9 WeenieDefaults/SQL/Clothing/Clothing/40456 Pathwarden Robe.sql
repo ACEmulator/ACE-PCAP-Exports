@@ -18,8 +18,7 @@ VALUES (40456,   1,          4) /* ItemType - Clothing */
      , (40456, 107,       1000) /* ItemCurMana */
      , (40456, 108,       1000) /* ItemMaxMana */
      , (40456, 109,          0) /* ItemDifficulty */
-     , (40456, 114,          1) /* Attuned - Attuned */
-     , (40456, 324,          6) /* HeritageSpecificArmor */;
+     , (40456, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40456,   1, False) /* Stuck */
@@ -43,9 +42,7 @@ VALUES (40456,   5, -0.0333333) /* ManaRate */
      , (40456, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40456,   1, 'Pathwarden Robe') /* Name */
-     , (40456,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (40456,  52, 'Core Body Plating') /* GearPlatingName */;
+VALUES (40456,   1, 'Pathwarden Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40456,   1,   33559315) /* Setup */

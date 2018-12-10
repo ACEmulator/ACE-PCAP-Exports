@@ -29,8 +29,6 @@ VALUES (24141,  39,     0.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24141,   1, 'Sweet Smelling Bark') /* Name */
-     , (24141,   7, 'iohji') /* Inscription */
-     , (24141,   8, 'The Unknown''') /* ScribeName */
      , (24141,  15, 'A sweet-smelling piece of bark.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

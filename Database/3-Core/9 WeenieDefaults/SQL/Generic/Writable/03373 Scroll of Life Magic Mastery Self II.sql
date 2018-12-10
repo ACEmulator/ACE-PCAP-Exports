@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3373,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3373,   1, 'Scroll of Life Magic Mastery Self II') /* Name */;
+VALUES (3373,   1, 'Scroll of Life Magic Mastery Self II') /* Name */
+     , (3373,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (3373,  16, 'Inscribed spell: Life Magic Mastery Self II
+Increases the caster''s Life Magic skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3373,   1,   33554826) /* Setup */
      , (3373,   8,  100676462) /* Icon */
      , (3373,  22,  872415275) /* PhysicsEffectTable */
-     , (3373,  28,        606) /* Spell */
+     , (3373,  28,        606) /* Spell - LifeMagicMasterySelf2 */
      , (3373, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3373, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3373, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (3373,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3373,   2, 3623231311) /* Container */
      , (3373, 8000, 3623231458) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3373,   606,      2) ;

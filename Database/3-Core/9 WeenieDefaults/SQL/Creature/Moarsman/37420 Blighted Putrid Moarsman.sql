@@ -6,11 +6,9 @@ VALUES (37420, 'ace37420-blightedputridmoarsman', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37420,   1,         16) /* ItemType - Creature */
      , (37420,   2,         34) /* CreatureType - Moarsman */
-     , (37420,   5,      10728) /* EncumbranceVal */
      , (37420,   6,        255) /* ItemsCapacity */
      , (37420,   7,        255) /* ContainersCapacity */
      , (37420,  16,          1) /* ItemUseable - No */
-     , (37420,  19,          0) /* Value */
      , (37420,  25,        100) /* Level */
      , (37420,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (37420, 133,          2) /* ShowableOnRadar - ShowMovement */

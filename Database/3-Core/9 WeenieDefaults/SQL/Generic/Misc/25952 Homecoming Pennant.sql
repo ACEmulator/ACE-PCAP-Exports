@@ -22,8 +22,6 @@ VALUES (25952,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25952,   1, 'Homecoming Pennant') /* Name */
-     , (25952,   7, 'GET OFF MUH LAWN!!!') /* Inscription */
-     , (25952,   8, 'Forgotten Burrito Boy') /* ScribeName */
      , (25952,  14, 'You can use this pennant on roof and yard hooks. ') /* Use */
      , (25952,  15, 'This pennant is a gift from the High Queen and Asheron to those who were present in Dereth during his homecoming. It is emblazoned with Asheron''s seal - the sigil of the Realadain family and of the Lyceum at Knorr.') /* ShortDesc */;
 

@@ -5,8 +5,6 @@ VALUES (33851, 'ace33851-shockbomb', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33851,   1,          0) /* ItemType - None */
-     , (33851,   2,         81) /* CreatureType - Ruschk */
-     , (33851,  25,        100) /* Level */
      , (33851,  93,    1179700) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw, Inelastic, Cloaked */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,7 +30,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33851,   1,   33560091) /* Setup */
      , (33851,   3,  536870971) /* SoundTable */
      , (33851,   8,  100667494) /* Icon */
-     , (33851,  28,       3975) /* Spell */
+     , (33851,  28,       3975) /* Spell - ShockwaveBomb */
      , (33851, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33851, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33851, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
@@ -43,6 +41,3 @@ VALUES (33851, 8040, 808386595, 100.1232, 59.92374, 124.6058, 0.6827399, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33851, 8000, 2930819789) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33851,   1,   445, 0, 0, 445) /* MaxHealth */;

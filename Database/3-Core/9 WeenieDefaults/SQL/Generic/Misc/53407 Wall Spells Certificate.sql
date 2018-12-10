@@ -23,8 +23,7 @@ VALUES (53407,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53407,   1, 'Wall Spells Certificate') /* Name */
-     , (53407,  15, 'A certificate that grants the bearer all wall spells. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */
-     , (53407,  16, 'Killed by Mag-nus.') /* LongDesc */;
+     , (53407,  15, 'A certificate that grants the bearer all wall spells. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53407,   1,   33554659) /* Setup */

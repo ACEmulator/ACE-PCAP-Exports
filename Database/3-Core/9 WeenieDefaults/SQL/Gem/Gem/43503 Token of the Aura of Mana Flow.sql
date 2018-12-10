@@ -5,11 +5,9 @@ VALUES (43503, 'ace43503-tokenoftheauraofmanaflow', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43503,   1,       2048) /* ItemType - Gem */
-     , (43503,   2,         86) /* CreatureType - Moar */
      , (43503,   5,          5) /* EncumbranceVal */
      , (43503,  16,          1) /* ItemUseable - No */
      , (43503,  19,          0) /* Value */
-     , (43503,  25,        200) /* Level */
      , (43503,  33,          1) /* Bonded - Bonded */
      , (43503,  65,        101) /* Placement - Resting */
      , (43503,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -43,9 +41,6 @@ VALUES (43503, 8040, 3600351238, 7.99088, 143.587, 375.653, -0.711158, 0, 0, 0.7
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43503, 8000, 3692312744) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43503,   1,  1370, 0, 0, 1370) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43503, 0, 83893723, 83898330)

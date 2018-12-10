@@ -13,8 +13,7 @@ VALUES (13213,   1,          2) /* ItemType - Armor */
      , (13213,  28,         30) /* ArmorLevel */
      , (13213,  33,          1) /* Bonded - Bonded */
      , (13213,  65,        101) /* Placement - Resting */
-     , (13213,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13213, 324,          6) /* HeritageSpecificArmor */;
+     , (13213,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13213,   1, False) /* Stuck */
@@ -36,9 +35,7 @@ VALUES (13213,  13, 0.600000023841858) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13213,   1, 'Academy Coat') /* Name */
-     , (13213,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (13213,  16, 'A fur coat awarded by the Academy to those who complete their training.') /* LongDesc */
-     , (13213,  52, 'Core Coat Plating') /* GearPlatingName */;
+     , (13213,  16, 'A fur coat awarded by the Academy to those who complete their training.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13213,   1,   33554644) /* Setup */

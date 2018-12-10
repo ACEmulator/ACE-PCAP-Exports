@@ -6,11 +6,9 @@ VALUES (6640, 'olthoisoldiernofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6640,   1,         16) /* ItemType - Creature */
      , (6640,   2,          1) /* CreatureType - Olthoi */
-     , (6640,   5,       6040) /* EncumbranceVal */
      , (6640,   6,        255) /* ItemsCapacity */
      , (6640,   7,        255) /* ContainersCapacity */
      , (6640,  16,          1) /* ItemUseable - No */
-     , (6640,  19,          0) /* Value */
      , (6640,  25,         60) /* Level */
      , (6640,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (6640, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (6640,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6640,   1, 'Olthoi Soldier') /* Name */
-     , (6640,  16, 'Killed by Garbanzo.') /* LongDesc */
      , (6640, 8006, 'AAA9AIAAAABRAAEAAACAPw==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

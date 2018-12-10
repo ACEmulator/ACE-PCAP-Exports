@@ -5,13 +5,11 @@ VALUES (44224, 'ace44224-wrappedbundleofgreaterdeadlybluntarrowheads', 1) /* Gen
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44224,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
-     , (44224,   2,          1) /* CreatureType - Olthoi */
      , (44224,   5,          0) /* EncumbranceVal */
      , (44224,  11,        100) /* MaxStackSize */
      , (44224,  12,         33) /* StackSize */
      , (44224,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44224,  19,     396000) /* Value */
-     , (44224,  25,         80) /* Level */
      , (44224,  33,          1) /* Bonded - Bonded */
      , (44224,  65,        101) /* Placement - Resting */
      , (44224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -44,6 +42,3 @@ VALUES (44224,   1,   33557030) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44224,   2, 2196995606) /* Container */
      , (44224, 8000, 2341647810) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44224,   1,   275, 0, 0, 275) /* MaxHealth */;

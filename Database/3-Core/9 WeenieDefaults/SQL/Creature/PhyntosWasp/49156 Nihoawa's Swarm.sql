@@ -6,43 +6,17 @@ VALUES (49156, 'ace49156-nihoawasswarm', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49156,   1,         16) /* ItemType - Creature */
      , (49156,   2,          9) /* CreatureType - PhyntosWasp */
-     , (49156,   5,          0) /* EncumbranceVal */
      , (49156,   6,        255) /* ItemsCapacity */
      , (49156,   7,        255) /* ContainersCapacity */
      , (49156,  16,          1) /* ItemUseable - No */
-     , (49156,  19,      25000) /* Value */
      , (49156,  25,        200) /* Level */
-     , (49156,  44,          0) /* Damage */
-     , (49156,  45,         16) /* DamageType - Fire */
-     , (49156,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (49156,  49,         22) /* WeaponTime */
      , (49156,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49156, 105,          6) /* ItemWorkmanship */
-     , (49156, 106,        321) /* ItemSpellcraft */
-     , (49156, 107,       1089) /* ItemCurMana */
-     , (49156, 108,       1089) /* ItemMaxMana */
-     , (49156, 109,        162) /* ItemDifficulty */
-     , (49156, 110,          0) /* ItemAllegianceRankLimit */
-     , (49156, 115,        341) /* ItemSkillLevelLimit */
-     , (49156, 131,         51) /* MaterialType - Ivory */
      , (49156, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49156, 158,          2) /* WieldRequirements - RawSkill */
-     , (49156, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (49156, 160,        315) /* WieldDifficulty */
-     , (49156, 172,          5) /* AppraisalLongDescDecoration */
-     , (49156, 176,         47) /* AppraisalItemSkill */
-     , (49156, 177,          2) /* GemCount */
-     , (49156, 178,         39) /* GemType */
-     , (49156, 204,          2) /* ElementalDamageBonus */
      , (49156, 307,         14) /* DamageRating */
      , (49156, 308,         17) /* DamageResistRating */
      , (49156, 313,         12) /* CritRating */
      , (49156, 314,         17) /* CritDamageRating */
-     , (49156, 315,         17) /* CritResistRating */
-     , (49156, 316,         10) /* CritDamageResistRating */
-     , (49156, 353,         10) /* WeaponType - Thrown */
-     , (49156, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (49156, 8030,          0);
+     , (49156, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49156,   1, True ) /* Stuck */
@@ -52,18 +26,10 @@ VALUES (49156,   1, True ) /* Stuck */
      , (49156,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49156,   5, -0.0555555555555556) /* ManaRate */
-     , (49156,  21,       0) /* WeaponLength */
-     , (49156,  22,       0) /* DamageVariance */
-     , (49156,  26,    24.9) /* MaximumVelocity */
-     , (49156,  29,    1.13) /* WeaponDefense */
-     , (49156,  39, 0.800000011920929) /* DefaultScale */
-     , (49156,  62,       1) /* WeaponOffense */
-     , (49156,  63,    2.57) /* DamageMod */;
+VALUES (49156,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49156,   1, 'Nihoawa''s Swarm') /* Name */
-     , (49156,  16, 'Killed by Ferah Palacost''s Golem.') /* LongDesc */
      , (49156, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -98,12 +64,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49156,   1,  1370, 0, 0, 1370) /* MaxHealth */
      , (49156,   3,  1740, 0, 0, 1740) /* MaxStamina */
      , (49156,   5,  1070, 0, 0, 1070) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49156,  2096,      2) 
-     , (49156,  2116,      2) 
-     , (49156,  2564,      2) 
-     , (49156,  2598,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49156, 67115268, 0, 0);

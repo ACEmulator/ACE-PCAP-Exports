@@ -22,8 +22,6 @@ VALUES (246,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (246,   1, 'Hearth') /* Name */
-     , (246,   7, '            ') /* Inscription */
-     , (246,   8, 'Crimson Stormbringer') /* ScribeName */
      , (246,  15, 'You can use this item on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

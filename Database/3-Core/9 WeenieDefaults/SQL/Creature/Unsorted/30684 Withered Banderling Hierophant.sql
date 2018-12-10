@@ -5,11 +5,9 @@ VALUES (30684, 'banderlingheirophantwitheredboss', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30684,   1,         16) /* ItemType - Creature */
-     , (30684,   5,       6584) /* EncumbranceVal */
      , (30684,   6,        255) /* ItemsCapacity */
      , (30684,   7,        255) /* ContainersCapacity */
      , (30684,  16,          1) /* ItemUseable - No */
-     , (30684,  19,          0) /* Value */
      , (30684,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30684, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (30684, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,7 +24,6 @@ VALUES (30684,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30684,   1, 'Withered Banderling Hierophant') /* Name */
-     , (30684,  16, 'Killed by Kaveatta.') /* LongDesc */
      , (30684, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

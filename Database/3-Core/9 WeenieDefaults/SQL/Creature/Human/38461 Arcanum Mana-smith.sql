@@ -6,32 +6,15 @@ VALUES (38461, 'ace38461-arcanummanasmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38461,   1,         16) /* ItemType - Creature */
      , (38461,   2,         31) /* CreatureType - Human */
-     , (38461,   5,        156) /* EncumbranceVal */
      , (38461,   6,        255) /* ItemsCapacity */
      , (38461,   7,        255) /* ContainersCapacity */
      , (38461,  16,         32) /* ItemUseable - Remote */
-     , (38461,  19,      16099) /* Value */
      , (38461,  25,        180) /* Level */
-     , (38461,  28,        252) /* ArmorLevel */
      , (38461,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38461,  95,          8) /* RadarBlipColor - Yellow */
-     , (38461, 105,          5) /* ItemWorkmanship */
-     , (38461, 106,        249) /* ItemSpellcraft */
-     , (38461, 107,        708) /* ItemCurMana */
-     , (38461, 108,        708) /* ItemMaxMana */
-     , (38461, 109,        269) /* ItemDifficulty */
-     , (38461, 110,          0) /* ItemAllegianceRankLimit */
      , (38461, 113,          1) /* Gender - Male */
-     , (38461, 115,          0) /* ItemSkillLevelLimit */
-     , (38461, 131,         62) /* MaterialType - Pyreal */
      , (38461, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38461, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38461, 158,          7) /* WieldRequirements - Level */
-     , (38461, 159,          1) /* WieldSkilltype - Axe */
-     , (38461, 160,        150) /* WieldDifficulty */
-     , (38461, 172,          5) /* AppraisalLongDescDecoration */
-     , (38461, 177,          2) /* GemCount */
-     , (38461, 178,         49) /* GemType */
      , (38461, 188,          1) /* HeritageGroup - Aluvian */
      , (38461, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -43,25 +26,14 @@ VALUES (38461,   1, True ) /* Stuck */
      , (38461,  14, True ) /* GravityStatus */
      , (38461,  19, False) /* Attackable */
      , (38461,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38461,  42, True ) /* AllowEdgeSlide */
-     , (38461, 100, True ) /* Dyable */;
+     , (38461,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38461,   5, -0.0555555555555556) /* ManaRate */
-     , (38461,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38461,  14,       1) /* ArmorModVsPierce */
-     , (38461,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (38461,  16, 1.00160872936249) /* ArmorModVsCold */
-     , (38461,  17, 1.14396691322327) /* ArmorModVsFire */
-     , (38461,  18, 1.20609986782074) /* ArmorModVsAcid */
-     , (38461,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (38461,  54,       3) /* UseRadius */
-     , (38461, 165,       1) /* ArmorModVsNether */;
+VALUES (38461,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38461,   1, 'Arcanum Mana-smith') /* Name */
      , (38461,   5, 'Pristine Mana Shard Collector') /* Template */
-     , (38461,  16, 'Chainmail Bracers of Regeneration') /* LongDesc */
      , (38461, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -99,12 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38461,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38461,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38461,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38461,   170,      2) 
-     , (38461,  1486,      2) 
-     , (38461,  2583,      2) 
-     , (38461,  2590,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38461, 67109560, 0, 24)

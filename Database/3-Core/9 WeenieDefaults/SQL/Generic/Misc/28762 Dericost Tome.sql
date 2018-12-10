@@ -5,14 +5,10 @@ VALUES (28762, 'tomedericost', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28762,   1,        128) /* ItemType - Misc */
-     , (28762,   2,         78) /* CreatureType - Fiun */
      , (28762,   5,        350) /* EncumbranceVal */
      , (28762,  16,          1) /* ItemUseable - No */
-     , (28762,  19,          0) /* Value */
-     , (28762,  25,        115) /* Level */
      , (28762,  65,        101) /* Placement - Resting */
-     , (28762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28762, 107,          0) /* ItemCurMana */;
+     , (28762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28762,   1, False) /* Stuck */
@@ -22,14 +18,8 @@ VALUES (28762,   1, False) /* Stuck */
      , (28762,  19, True ) /* Attackable */
      , (28762,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28762,  87,       2) /* ItemEfficiency */
-     , (28762, 137,     0.2) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28762,   1, 'Dericost Tome') /* Name */
-     , (28762,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (28762,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (28762,   1, 'Dericost Tome') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28762,   1,   33554771) /* Setup */
@@ -46,16 +36,3 @@ VALUES (28762, 8040, 23003408, 7.59318, -20.0744, -29.943, -0.7202787, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28762, 8000, 3703156561) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (28762,   1, 170, 0, 0) /* Strength */
-     , (28762,   2, 140, 0, 0) /* Endurance */
-     , (28762,   3, 180, 0, 0) /* Quickness */
-     , (28762,   4, 130, 0, 0) /* Coordination */
-     , (28762,   5, 160, 0, 0) /* Focus */
-     , (28762,   6, 140, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28762,   1,   460, 0, 0, 460) /* MaxHealth */
-     , (28762,   3,   560, 0, 0, 560) /* MaxStamina */
-     , (28762,   5,   440, 0, 0, 440) /* MaxMana */;

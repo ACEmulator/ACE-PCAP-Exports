@@ -44,7 +44,7 @@ VALUES (27772,   1,   33558808) /* Setup */
      , (27772,   3,  536870932) /* SoundTable */
      , (27772,   8,  100676632) /* Icon */
      , (27772,  22,  872415275) /* PhysicsEffectTable */
-     , (27772,  28,        157) /* Spell */
+     , (27772,  28,        157) /* Spell - SummonPortal1 */
      , (27772, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (27772, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (27772, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

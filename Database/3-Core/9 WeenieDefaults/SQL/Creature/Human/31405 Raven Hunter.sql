@@ -6,34 +6,16 @@ VALUES (31405, 'ace31405-ravenhunter', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31405,   1,         16) /* ItemType - Creature */
      , (31405,   2,         31) /* CreatureType - Human */
-     , (31405,   5,        121) /* EncumbranceVal */
      , (31405,   6,        255) /* ItemsCapacity */
      , (31405,   7,        255) /* ContainersCapacity */
      , (31405,  16,          1) /* ItemUseable - No */
-     , (31405,  19,      26848) /* Value */
      , (31405,  25,        160) /* Level */
-     , (31405,  44,         69) /* Damage */
-     , (31405,  45,          3) /* DamageType - Slash, Pierce */
-     , (31405,  47,          6) /* AttackType - Thrust, Slash */
-     , (31405,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (31405,  49,         31) /* WeaponTime */
      , (31405,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31405, 105,          8) /* ItemWorkmanship */
      , (31405, 113,          1) /* Gender - Male */
-     , (31405, 131,         39) /* MaterialType - Sapphire */
      , (31405, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31405, 158,          2) /* WieldRequirements - RawSkill */
-     , (31405, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (31405, 160,        430) /* WieldDifficulty */
-     , (31405, 172,          5) /* AppraisalLongDescDecoration */
-     , (31405, 177,          2) /* GemCount */
-     , (31405, 178,         23) /* GemType */
      , (31405, 188,          1) /* HeritageGroup - Aluvian */
      , (31405, 307,          5) /* DamageRating */
-     , (31405, 315,       9999) /* CritResistRating */
-     , (31405, 353,          6) /* WeaponType - Dagger */
-     , (31405, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (31405, 8030,          0);
+     , (31405, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31405,   1, True ) /* Stuck */
@@ -42,18 +24,8 @@ VALUES (31405,   1, True ) /* Stuck */
      , (31405,  14, True ) /* GravityStatus */
      , (31405,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31405,  21,       0) /* WeaponLength */
-     , (31405,  22,    0.62) /* DamageVariance */
-     , (31405,  26,       0) /* MaximumVelocity */
-     , (31405,  29,    1.17) /* WeaponDefense */
-     , (31405,  62,    1.15) /* WeaponOffense */
-     , (31405,  63,       1) /* DamageMod */
-     , (31405, 150,    1.01) /* WeaponMagicDefense */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31405,   1, 'Raven Hunter') /* Name */
-     , (31405,  16, 'Dirk') /* LongDesc */
      , (31405, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

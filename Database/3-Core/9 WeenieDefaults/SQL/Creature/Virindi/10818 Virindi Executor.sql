@@ -6,17 +6,12 @@ VALUES (10818, 'virindiexecutorsummoned', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10818,   1,         16) /* ItemType - Creature */
      , (10818,   2,         19) /* CreatureType - Virindi */
-     , (10818,   5,        150) /* EncumbranceVal */
      , (10818,   6,        255) /* ItemsCapacity */
      , (10818,   7,        255) /* ContainersCapacity */
      , (10818,  16,          1) /* ItemUseable - No */
-     , (10818,  19,        500) /* Value */
      , (10818,  25,        100) /* Level */
-     , (10818,  89,          4) /* BoosterEnum - Stamina */
-     , (10818,  90,        100) /* BoostValue */
      , (10818,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10818, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10818, 307,          4) /* DamageRating */
      , (10818, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -28,7 +23,6 @@ VALUES (10818,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10818,   1, 'Virindi Executor') /* Name */
-     , (10818,  14, 'Use this item to drink it.') /* Use */
      , (10818, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -49,18 +43,8 @@ VALUES (10818, 8040, 639303682, 9.828791, 46.0009, 18.22428, 0.8191521, 0, 0, -0
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10818, 8000, 2447587173) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (10818,   1, 230, 0, 0) /* Strength */
-     , (10818,   2, 240, 0, 0) /* Endurance */
-     , (10818,   3, 240, 0, 0) /* Quickness */
-     , (10818,   4, 240, 0, 0) /* Coordination */
-     , (10818,   5, 240, 0, 0) /* Focus */
-     , (10818,   6, 290, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10818,   1,   275, 0, 0, 275) /* MaxHealth */
-     , (10818,   3,  3740, 0, 0, 3739) /* MaxStamina */
-     , (10818,   5,  2790, 0, 0, 2672) /* MaxMana */;
+VALUES (10818,   1,   275, 0, 0, 275) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10818, 67113145, 0, 0);

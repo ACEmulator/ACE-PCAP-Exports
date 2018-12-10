@@ -6,11 +6,9 @@ VALUES (25866, 'marionettedamned', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25866,   1,         16) /* ItemType - Creature */
      , (25866,   2,         54) /* CreatureType - Marionette */
-     , (25866,   5,       6055) /* EncumbranceVal */
      , (25866,   6,        255) /* ItemsCapacity */
      , (25866,   7,        255) /* ContainersCapacity */
      , (25866,  16,          1) /* ItemUseable - No */
-     , (25866,  19,          0) /* Value */
      , (25866,  25,        160) /* Level */
      , (25866,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (25866, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (25866,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25866,   1, 'Damned Marionette') /* Name */
-     , (25866,  16, 'Killed by Ripley.') /* LongDesc */
      , (25866, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

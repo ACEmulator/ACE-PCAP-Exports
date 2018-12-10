@@ -6,18 +6,11 @@ VALUES (11536, 'wispentropy_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11536,   1,         16) /* ItemType - Creature */
      , (11536,   2,         20) /* CreatureType - Wisp */
-     , (11536,   5,         30) /* EncumbranceVal */
      , (11536,   6,        255) /* ItemsCapacity */
      , (11536,   7,        255) /* ContainersCapacity */
      , (11536,  16,          1) /* ItemUseable - No */
-     , (11536,  19,       2000) /* Value */
      , (11536,  25,        135) /* Level */
      , (11536,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11536, 106,        210) /* ItemSpellcraft */
-     , (11536, 107,        100) /* ItemCurMana */
-     , (11536, 108,        200) /* ItemMaxMana */
-     , (11536, 109,          0) /* ItemDifficulty */
-     , (11536, 110,          0) /* ItemAllegianceRankLimit */
      , (11536, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11536, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,9 +26,6 @@ VALUES (11536,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11536,   1, 'Entropy Wisp') /* Name */
-     , (11536,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (11536,  16, 'Inscribed spell: Storm''s Boon
-Reduces damage the target takes from Lightning by 65%.') /* LongDesc */
      , (11536, 8006, 'AAA9AEAAAAAAAMC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -67,7 +57,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (11536,   1,   500, 0, 0, 500) /* MaxHealth */
      , (11536,   3,   450, 0, 0, 450) /* MaxStamina */
      , (11536,   5,   600, 0, 0, 600) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11536,  1882,      2) 
-     , (11536,  2158,      2) ;

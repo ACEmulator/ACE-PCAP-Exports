@@ -27,13 +27,10 @@ VALUES (52192,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52192,  29,     1.1) /* WeaponDefense */
      , (52192,  39,    0.75) /* DefaultScale */
-     , (52192, 144,       0) /* ManaConversionMod */
-     , (52192, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (52192, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52192,   1, 'Casting Jack o'' Lantern') /* Name */
-     , (52192,   7, 'To my great friend DS (Rob) You sir are truly a lifelong friend I am glad to have met you and I cherish our friendship dearly I consider you a brother in-game and in real life youll always be a rum guzzling jackwagon though! OWNED') /* Inscription */
-     , (52192,   8, 'Fester and Spray') /* ScribeName */
      , (52192,  16, 'A small, heavy pumpkin, carved into a Jack o'' Lantern and swirling with magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

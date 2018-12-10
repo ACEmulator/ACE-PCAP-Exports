@@ -6,11 +6,9 @@ VALUES (4259, 'slithayrtendril', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4259,   1,         16) /* ItemType - Creature */
      , (4259,   2,         36) /* CreatureType - Slithis */
-     , (4259,   5,         30) /* EncumbranceVal */
      , (4259,   6,        255) /* ItemsCapacity */
      , (4259,   7,        255) /* ContainersCapacity */
      , (4259,  16,          1) /* ItemUseable - No */
-     , (4259,  19,       2000) /* Value */
      , (4259,  25,         40) /* Level */
      , (4259,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4259, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,9 +27,6 @@ VALUES (4259,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4259,   1, 'Slithayr Tendril') /* Name */
-     , (4259,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (4259,  16, 'Inscribed spell: Sneak Attack Ineptitude Other VII
-Decreases the target''s Sneak Attack skill by 40 points.') /* LongDesc */
      , (4259, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -64,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4259,   1,   180, 0, 0, 180) /* MaxHealth */
      , (4259,   3,   330, 0, 0, 330) /* MaxStamina */
      , (4259,   5,   290, 0, 0, 290) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4259,  5865,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4259, 67113034, 0, 0);

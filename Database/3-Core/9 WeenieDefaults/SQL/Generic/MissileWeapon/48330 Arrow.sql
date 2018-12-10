@@ -23,15 +23,6 @@ VALUES (48330,   1,        256) /* ItemType - MissileWeapon */
      , (48330,  65,          1) /* Placement - RightHandCombat */
      , (48330,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48330, 151,          2) /* HookType - Wall */
-     , (48330, 179,          0) /* ImbuedEffect - Undef */
-     , (48330, 303,          0) /* ImbuedEffect2 - Undef */
-     , (48330, 304,          0) /* ImbuedEffect3 - Undef */
-     , (48330, 305,          0) /* ImbuedEffect4 - Undef */
-     , (48330, 306,          0) /* ImbuedEffect5 - Undef */
-     , (48330, 307,          5) /* DamageRating */
-     , (48330, 313,          0) /* CritRating */
-     , (48330, 314,          0) /* CritDamageRating */
-     , (48330, 386,          0) /* Overpower */
      , (48330, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,9 +42,7 @@ VALUES (48330,  21,       0) /* WeaponLength */
      , (48330,  62,       1) /* WeaponOffense */
      , (48330,  63,       1) /* DamageMod */
      , (48330,  78,       1) /* Friction */
-     , (48330,  79,       0) /* Elasticity */
-     , (48330, 149,       0) /* WeaponMissileDefense */
-     , (48330, 150,       0) /* WeaponMagicDefense */;
+     , (48330,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48330,   1, 'Arrow') /* Name */;

@@ -5,13 +5,11 @@ VALUES (10864, 'ichorolthoiacid_xp', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10864,   1,        128) /* ItemType - Misc */
-     , (10864,   2,          1) /* CreatureType - Olthoi */
      , (10864,   5,         15) /* EncumbranceVal */
      , (10864,  11,          1) /* MaxStackSize */
      , (10864,  12,          1) /* StackSize */
      , (10864,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (10864,  19,          0) /* Value */
-     , (10864,  25,         80) /* Level */
      , (10864,  33,          1) /* Bonded - Bonded */
      , (10864,  65,        101) /* Placement - Resting */
      , (10864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -28,8 +26,6 @@ VALUES (10864,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10864,   1, 'Olthoi Ichor') /* Name */
-     , (10864,   7, 'No they aern''t you use it for matty pelts duh!') /* Inscription */
-     , (10864,   8, 'Ragarnok') /* ScribeName */
      , (10864,  14, 'The uses for this potent acid are still unknown.') /* Use */
      , (10864,  15, 'A nasty smelling residue of ichor, collected from an Olthoi.') /* ShortDesc */;
 
@@ -46,9 +42,6 @@ VALUES (10864,   1,   33556964) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10864,   2, 3681750034) /* Container */
      , (10864, 8000, 3681749034) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10864,   1,   275, 0, 0, 275) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10864, 67111924, 0, 0);

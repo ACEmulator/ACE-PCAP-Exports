@@ -8,18 +8,7 @@ VALUES (7800,   1,        128) /* ItemType - Misc */
      , (7800,   5,          1) /* EncumbranceVal */
      , (7800,  16,          1) /* ItemUseable - No */
      , (7800,  19,          1) /* Value */
-     , (7800,  93,      66572) /* PhysicsState - Ethereal, ReportCollisions, Gravity, HasPhysicsBSP */
-     , (7800, 105,          8) /* ItemWorkmanship */
-     , (7800, 106,        310) /* ItemSpellcraft */
-     , (7800, 107,       2116) /* ItemCurMana */
-     , (7800, 108,       2116) /* ItemMaxMana */
-     , (7800, 109,        335) /* ItemDifficulty */
-     , (7800, 110,          0) /* ItemAllegianceRankLimit */
-     , (7800, 115,          0) /* ItemSkillLevelLimit */
-     , (7800, 131,         51) /* MaterialType - Ivory */
-     , (7800, 172,          5) /* AppraisalLongDescDecoration */
-     , (7800, 177,          1) /* GemCount */
-     , (7800, 178,         22) /* GemType */;
+     , (7800,  93,      66572) /* PhysicsState - Ethereal, ReportCollisions, Gravity, HasPhysicsBSP */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7800,   1, True ) /* Stuck */
@@ -29,12 +18,8 @@ VALUES (7800,   1, True ) /* Stuck */
      , (7800,  19, True ) /* Attackable */
      , (7800,  24, True ) /* UiHidden */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7800,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7800,   1, 'Geyser') /* Name */
-     , (7800,  16, 'Killed by Jesse the Knight.') /* LongDesc */;
+VALUES (7800,   1, 'Geyser') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7800,   1,   33555403) /* Setup */
@@ -50,8 +35,3 @@ VALUES (7800, 8040, 3119317034, 124.339, 41.74158, 22.72403, -0.999679, 0, 0, 0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7800, 8000, 3690359340) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7800,  2149,      2) 
-     , (7800,  2547,      2) 
-     , (7800,  2610,      2) ;

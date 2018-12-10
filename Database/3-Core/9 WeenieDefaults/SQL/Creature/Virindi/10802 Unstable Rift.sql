@@ -6,24 +6,12 @@ VALUES (10802, 'riftunstable', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10802,   1,         16) /* ItemType - Creature */
      , (10802,   2,         19) /* CreatureType - Virindi */
-     , (10802,   5,         49) /* EncumbranceVal */
      , (10802,   6,        255) /* ItemsCapacity */
      , (10802,   7,        255) /* ContainersCapacity */
      , (10802,  16,          1) /* ItemUseable - No */
-     , (10802,  19,      17699) /* Value */
      , (10802,  25,        100) /* Level */
-     , (10802,  28,        253) /* ArmorLevel */
      , (10802,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
-     , (10802, 105,          6) /* ItemWorkmanship */
-     , (10802, 106,        278) /* ItemSpellcraft */
-     , (10802, 107,       1089) /* ItemCurMana */
-     , (10802, 108,       1089) /* ItemMaxMana */
-     , (10802, 109,        208) /* ItemDifficulty */
-     , (10802, 110,          0) /* ItemAllegianceRankLimit */
-     , (10802, 115,          0) /* ItemSkillLevelLimit */
-     , (10802, 131,         53) /* MaterialType - ArmoredilloHide */
      , (10802, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (10802, 172,          1) /* AppraisalLongDescDecoration */
      , (10802, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,24 +20,13 @@ VALUES (10802,   1, True ) /* Stuck */
      , (10802,  13, False) /* Ethereal */
      , (10802,  14, True ) /* GravityStatus */
      , (10802,  15, True ) /* LightsStatus */
-     , (10802,  19, True ) /* Attackable */
-     , (10802, 100, True ) /* Dyable */;
+     , (10802,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10802,   5, -0.0555555555555556) /* ManaRate */
-     , (10802,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (10802,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (10802,  15,       1) /* ArmorModVsBludgeon */
-     , (10802,  16,     0.5) /* ArmorModVsCold */
-     , (10802,  17, 1.20634162425995) /* ArmorModVsFire */
-     , (10802,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (10802,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (10802,  39,     1.5) /* DefaultScale */
-     , (10802, 165,       1) /* ArmorModVsNether */;
+VALUES (10802,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10802,   1, 'Unstable Rift') /* Name */
-     , (10802,  16, 'Sandals of Arcane Enlightenment') /* LongDesc */
      , (10802, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -81,9 +58,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (10802,   1,   320, 0, 0, 320) /* MaxHealth */
      , (10802,   3,   440, 0, 0, 440) /* MaxStamina */
      , (10802,   5,   720, 0, 0, 720) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10802,  1486,      2) 
-     , (10802,  1539,      2) 
-     , (10802,  1562,      2) 
-     , (10802,  2195,      2) ;

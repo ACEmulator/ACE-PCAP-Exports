@@ -5,14 +5,12 @@ VALUES (47389, 'ace47389-flamingclub', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47389,   1,          1) /* ItemType - MeleeWeapon */
-     , (47389,   2,          3) /* CreatureType - Drudge */
      , (47389,   5,        800) /* EncumbranceVal */
      , (47389,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47389,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47389,  16,          1) /* ItemUseable - No */
      , (47389,  18,         32) /* UiEffects - Fire */
      , (47389,  19,        350) /* Value */
-     , (47389,  25,          8) /* Level */
      , (47389,  33,         -2) /* Bonded - Destroy */
      , (47389,  44,         80) /* Damage */
      , (47389,  45,         16) /* DamageType - Fire */
@@ -22,11 +20,6 @@ VALUES (47389,   1,          1) /* ItemType - MeleeWeapon */
      , (47389,  51,          1) /* CombatUse - Melee */
      , (47389,  65,          1) /* Placement - RightHandCombat */
      , (47389,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47389, 106,        300) /* ItemSpellcraft */
-     , (47389, 107,         50) /* ItemCurMana */
-     , (47389, 108,         50) /* ItemMaxMana */
-     , (47389, 109,          0) /* ItemDifficulty */
-     , (47389, 110,          0) /* ItemAllegianceRankLimit */
      , (47389, 151,          2) /* HookType - Wall */
      , (47389, 353,          4) /* WeaponType - Mace */
      , (47389, 8030,          0);
@@ -37,8 +30,7 @@ VALUES (47389,   1, False) /* Stuck */
      , (47389,  13, True ) /* Ethereal */
      , (47389,  14, True ) /* GravityStatus */
      , (47389,  19, True ) /* Attackable */
-     , (47389,  22, True ) /* Inscribable */
-     , (47389,  69, False) /* IsSellable */;
+     , (47389,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47389,  21,       0) /* WeaponLength */
@@ -49,9 +41,7 @@ VALUES (47389,  21,       0) /* WeaponLength */
      , (47389,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47389,   1, 'Flaming Club') /* Name */
-     , (47389,  14, 'Use this item to eat it.') /* Use */
-     , (47389,  16, 'A festival treat. Candy Corn is fabled to be the tears of a Great Pumpkin.') /* LongDesc */;
+VALUES (47389,   1, 'Flaming Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47389,   1,   33555698) /* Setup */
@@ -71,19 +61,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47389,   3, 3685777857) /* Wielder */
      , (47389, 8000, 3685777676) /* PCAPRecordedObjectIID */
      , (47389, 8008, 3685777857) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47389,   1,  75, 0, 0) /* Strength */
-     , (47389,   2,  65, 0, 0) /* Endurance */
-     , (47389,   3, 115, 0, 0) /* Quickness */
-     , (47389,   4,  95, 0, 0) /* Coordination */
-     , (47389,   5,  20, 0, 0) /* Focus */
-     , (47389,   6,  20, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47389,   1,    47, 0, 0, 47) /* MaxHealth */
-     , (47389,   3,    85, 0, 0, 85) /* MaxStamina */
-     , (47389,   5,    20, 0, 0, 20) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47389,  3860,      2) ;

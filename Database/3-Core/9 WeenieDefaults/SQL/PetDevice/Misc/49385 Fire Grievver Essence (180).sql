@@ -21,12 +21,10 @@ VALUES (49385,   1,        128) /* ItemType - Misc */
      , (49385, 366,         54) /* UseRequiresSkill */
      , (49385, 367,        530) /* UseRequiresSkillLevel */
      , (49385, 369,        170) /* UseRequiresLevel */
-     , (49385, 370,         14) /* GearDamage */
      , (49385, 371,         12) /* GearDamageResist */
      , (49385, 372,         10) /* GearCrit */
      , (49385, 373,         12) /* GearCritResist */
-     , (49385, 374,          9) /* GearCritDamage */
-     , (49385, 375,         19) /* GearCritDamageResist */;
+     , (49385, 374,          9) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49385,   1, False) /* Stuck */
@@ -43,8 +41,6 @@ VALUES (49385,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49385,   1, 'Fire Grievver Essence (180)') /* Name */
-     , (49385,   7, 'thing doesn''t die') /* Inscription */
-     , (49385,   8, 'Harlune the Misanthrope') /* ScribeName */
      , (49385,  14, 'Use this essence to summon or dismiss your Fire Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

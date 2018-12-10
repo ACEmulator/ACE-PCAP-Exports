@@ -11,20 +11,9 @@ VALUES (43491,   1,        128) /* ItemType - Misc */
      , (43491,  16,          1) /* ItemUseable - No */
      , (43491,  19,          0) /* Value */
      , (43491,  33,          1) /* Bonded - Bonded */
-     , (43491,  44,          8) /* Damage */
-     , (43491,  45,         32) /* DamageType - Acid */
-     , (43491,  47,          4) /* AttackType - Slash */
-     , (43491,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (43491,  49,         40) /* WeaponTime */
      , (43491,  65,        101) /* Placement - Resting */
      , (43491,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43491, 105,          4) /* ItemWorkmanship */
-     , (43491, 114,          1) /* Attuned - Attuned */
-     , (43491, 131,         76) /* MaterialType - Pine */
-     , (43491, 172,          1) /* AppraisalLongDescDecoration */
-     , (43491, 292,          2) /* Cleaving */
-     , (43491, 353,         11) /* WeaponType - TwoHanded */
-     , (43491, 8030,          0);
+     , (43491, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43491,   1, False) /* Stuck */
@@ -32,14 +21,6 @@ VALUES (43491,   1, False) /* Stuck */
      , (43491,  13, True ) /* Ethereal */
      , (43491,  14, True ) /* GravityStatus */
      , (43491,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43491,  21,       0) /* WeaponLength */
-     , (43491,  22,    0.35) /* DamageVariance */
-     , (43491,  26,       0) /* MaximumVelocity */
-     , (43491,  29,       1) /* WeaponDefense */
-     , (43491,  62,    1.02) /* WeaponOffense */
-     , (43491,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43491,   1, 'Pitted Slag') /* Name */

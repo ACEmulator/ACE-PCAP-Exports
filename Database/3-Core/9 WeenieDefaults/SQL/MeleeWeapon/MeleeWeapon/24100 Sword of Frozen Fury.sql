@@ -49,9 +49,7 @@ VALUES (24100,   5,    -0.1) /* ManaRate */
      , (24100, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24100,   1, 'Sword of Frozen Fury') /* Name */
-     , (24100,   7, 'Ichimonji says, "pimp?  that''s a good thing, right?"') /* Inscription */
-     , (24100,   8, 'Owned by newb') /* ScribeName */;
+VALUES (24100,   1, 'Sword of Frozen Fury') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24100,   1,   33558261) /* Setup */

@@ -37,13 +37,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28994,   5, -0.0333999991416931) /* ManaRate */
      , (28994,  29, 1.0900000333786) /* WeaponDefense */
      , (28994, 144, 0.0599999986588955) /* ManaConversionMod */
-     , (28994, 147,       1) /* CriticalFrequency */
-     , (28994, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (28994, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28994,   1, 'Burun Slaying Sceptre') /* Name */
-     , (28994,   7, 'Burun Slayer') /* Inscription */
-     , (28994,   8, 'High-Voltage II') /* ScribeName */
      , (28994,  25, 'Olthoi king''s mage') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

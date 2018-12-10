@@ -6,11 +6,9 @@ VALUES (24291, 'monougamerciless', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24291,   1,         16) /* ItemType - Creature */
      , (24291,   2,         28) /* CreatureType - Monouga */
-     , (24291,   5,         30) /* EncumbranceVal */
      , (24291,   6,        255) /* ItemsCapacity */
      , (24291,   7,        255) /* ContainersCapacity */
      , (24291,  16,          1) /* ItemUseable - No */
-     , (24291,  19,       2000) /* Value */
      , (24291,  25,        100) /* Level */
      , (24291,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (24291, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -30,9 +28,6 @@ VALUES (24291,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24291,   1, 'Merciless Monouga') /* Name */
-     , (24291,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (24291,  16, 'Inscribed spell: Lilitha''s Blessing
-Increases the caster''s Fletching skill by 40 points.') /* LongDesc */
      , (24291, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -65,9 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24291,   1,   475, 0, 0, 475) /* MaxHealth */
      , (24291,   3,   650, 0, 0, 650) /* MaxStamina */
      , (24291,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24291,  2237,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24291, 67114293, 0, 0);

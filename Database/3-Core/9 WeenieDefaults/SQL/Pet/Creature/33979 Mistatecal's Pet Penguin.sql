@@ -6,19 +6,14 @@ VALUES (33979, 'ace33979-mistatecalspetpenguin', 69) /* Pet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33979,   1,         16) /* ItemType - Creature */
      , (33979,   2,         80) /* CreatureType - Penguin */
-     , (33979,   5,       6405) /* EncumbranceVal */
      , (33979,   6,        255) /* ItemsCapacity */
      , (33979,   7,        255) /* ContainersCapacity */
      , (33979,  16,          1) /* ItemUseable - No */
-     , (33979,  19,          0) /* Value */
      , (33979,  25,          5) /* Level */
-     , (33979,  91,         50) /* MaxStructure */
-     , (33979,  92,         50) /* Structure */
      , (33979,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (33979,  95,          8) /* RadarBlipColor - Yellow */
      , (33979, 133,          1) /* ShowableOnRadar - ShowNever */
      , (33979, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (33979, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (33979, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,8 +29,6 @@ VALUES (33979,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33979,   1, 'Mistatecal''s Pet Penguin') /* Name */
-     , (33979,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (33979,  16, 'Killed by High-Voltage IV.') /* LongDesc */
      , (33979, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,28 +6,15 @@ VALUES (14457, 'regicidesentryn', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14457,   1,         16) /* ItemType - Creature */
      , (14457,   2,         31) /* CreatureType - Human */
-     , (14457,   5,        500) /* EncumbranceVal */
      , (14457,   6,        255) /* ItemsCapacity */
      , (14457,   7,        255) /* ContainersCapacity */
      , (14457,  16,         32) /* ItemUseable - Remote */
-     , (14457,  19,       4000) /* Value */
      , (14457,  25,         35) /* Level */
-     , (14457,  28,        540) /* ArmorLevel */
-     , (14457,  33,          0) /* Bonded - Normal */
      , (14457,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (14457,  95,          8) /* RadarBlipColor - Yellow */
-     , (14457, 106,        300) /* ItemSpellcraft */
-     , (14457, 107,        943) /* ItemCurMana */
-     , (14457, 108,        950) /* ItemMaxMana */
-     , (14457, 109,        250) /* ItemDifficulty */
-     , (14457, 110,          0) /* ItemAllegianceRankLimit */
      , (14457, 113,          2) /* Gender - Female */
-     , (14457, 114,          0) /* Attuned - Normal */
      , (14457, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (14457, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (14457, 158,          7) /* WieldRequirements - Level */
-     , (14457, 159,          1) /* WieldSkilltype - Axe */
-     , (14457, 160,        100) /* WieldDifficulty */
      , (14457, 188,          1) /* HeritageGroup - Aluvian */
      , (14457, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -42,21 +29,11 @@ VALUES (14457,   1, True ) /* Stuck */
      , (14457,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14457,   5, -0.0500000007450581) /* ManaRate */
-     , (14457,  13, 2.70000004768372) /* ArmorModVsSlash */
-     , (14457,  14, 2.70000004768372) /* ArmorModVsPierce */
-     , (14457,  15, 2.90000009536743) /* ArmorModVsBludgeon */
-     , (14457,  16,     2.5) /* ArmorModVsCold */
-     , (14457,  17,     2.5) /* ArmorModVsFire */
-     , (14457,  18, 2.40000009536743) /* ArmorModVsAcid */
-     , (14457,  19, 2.40000009536743) /* ArmorModVsElectric */
-     , (14457,  54,       3) /* UseRadius */
-     , (14457, 165,       1) /* ArmorModVsNether */;
+VALUES (14457,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14457,   1, 'Sentry') /* Name */
      , (14457,   5, 'Guard') /* Template */
-     , (14457,  16, 'A helm taken from one of the Knights of the Viamontian Platinum Legion and fortified with royal blood.') /* LongDesc */
      , (14457, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -94,15 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (14457,   1,   185, 0, 0, 185) /* MaxHealth */
      , (14457,   3,   230, 0, 0, 230) /* MaxStamina */
      , (14457,   5,   135, 0, 0, 135) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14457,  2108,      2) 
-     , (14457,  2195,      2) 
-     , (14457,  2243,      2) 
-     , (14457,  2245,      2) 
-     , (14457,  2281,      2) 
-     , (14457,  2573,      2) 
-     , (14457,  2576,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14457, 67109562, 0, 24)

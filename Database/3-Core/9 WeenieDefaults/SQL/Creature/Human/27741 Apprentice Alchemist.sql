@@ -6,34 +6,17 @@ VALUES (27741, 'collectoralchemyghanewbie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27741,   1,         16) /* ItemType - Creature */
      , (27741,   2,         31) /* CreatureType - Human */
-     , (27741,   5,        321) /* EncumbranceVal */
      , (27741,   6,        255) /* ItemsCapacity */
      , (27741,   7,        255) /* ContainersCapacity */
      , (27741,  16,         32) /* ItemUseable - Remote */
-     , (27741,  19,      12084) /* Value */
      , (27741,  25,          5) /* Level */
-     , (27741,  44,          0) /* Damage */
-     , (27741,  45,         64) /* DamageType - Electric */
-     , (27741,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (27741,  49,         20) /* WeaponTime */
      , (27741,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27741,  95,          8) /* RadarBlipColor - Yellow */
-     , (27741, 105,          8) /* ItemWorkmanship */
      , (27741, 113,          2) /* Gender - Female */
-     , (27741, 131,         51) /* MaterialType - Ivory */
      , (27741, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27741, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (27741, 158,          2) /* WieldRequirements - RawSkill */
-     , (27741, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (27741, 160,        375) /* WieldDifficulty */
-     , (27741, 172,          5) /* AppraisalLongDescDecoration */
-     , (27741, 177,          3) /* GemCount */
-     , (27741, 178,         33) /* GemType */
      , (27741, 188,          2) /* HeritageGroup - Gharundim */
-     , (27741, 204,         17) /* ElementalDamageBonus */
-     , (27741, 353,         10) /* WeaponType - Thrown */
-     , (27741, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (27741, 8030,          0);
+     , (27741, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27741,   1, True ) /* Stuck */
@@ -46,18 +29,11 @@ VALUES (27741,   1, True ) /* Stuck */
      , (27741,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27741,  21,       0) /* WeaponLength */
-     , (27741,  22,       0) /* DamageVariance */
-     , (27741,  26,    24.9) /* MaximumVelocity */
-     , (27741,  29,    1.14) /* WeaponDefense */
-     , (27741,  54,       3) /* UseRadius */
-     , (27741,  62,       1) /* WeaponOffense */
-     , (27741,  63,    2.45) /* DamageMod */;
+VALUES (27741,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27741,   1, 'Apprentice Alchemist') /* Name */
      , (27741,   5, 'Apprentice Alchemist') /* Template */
-     , (27741,  16, 'Electric Atlatl') /* LongDesc */
      , (27741, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

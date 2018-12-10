@@ -6,30 +6,17 @@ VALUES (44054, 'ace44054-warreaper', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44054,   1,         16) /* ItemType - Creature */
      , (44054,   2,         16) /* CreatureType - Reedshark */
-     , (44054,   5,       6286) /* EncumbranceVal */
      , (44054,   6,        255) /* ItemsCapacity */
      , (44054,   7,        255) /* ContainersCapacity */
      , (44054,  16,          1) /* ItemUseable - No */
-     , (44054,  19,          0) /* Value */
      , (44054,  25,        240) /* Level */
      , (44054,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44054, 105,          4) /* ItemWorkmanship */
-     , (44054, 106,        370) /* ItemSpellcraft */
-     , (44054, 107,        534) /* ItemCurMana */
-     , (44054, 108,        534) /* ItemMaxMana */
-     , (44054, 109,          0) /* ItemDifficulty */
-     , (44054, 110,          0) /* ItemAllegianceRankLimit */
-     , (44054, 115,          0) /* ItemSkillLevelLimit */
-     , (44054, 117,        400) /* ItemManaCost */
-     , (44054, 131,         13) /* MaterialType - Aquamarine */
      , (44054, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44054, 172,          1) /* AppraisalLongDescDecoration */
      , (44054, 313,         40) /* CritRating */
      , (44054, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44054,   1, True ) /* Stuck */
-     , (44054,   2, True ) /* Open */
      , (44054,  12, True ) /* ReportCollisions */
      , (44054,  13, False) /* Ethereal */
      , (44054,  14, True ) /* GravityStatus */
@@ -40,8 +27,6 @@ VALUES (44054,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44054,   1, 'War Reaper') /* Name */
-     , (44054,  14, 'Use this item to close it.') /* Use */
-     , (44054,  16, 'Killed by Mag-one.') /* LongDesc */
      , (44054, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -72,11 +57,8 @@ VALUES (44054,   1, 260, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (44054,   1,  2755, 0, 0, 2755) /* MaxHealth */
-     , (44054,   3,  3310, 0, 0, 3310) /* MaxStamina */
+     , (44054,   3,  3310, 0, 0, 3308) /* MaxStamina */
      , (44054,   5,   700, 0, 0, 700) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44054,  4297,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44054, 67114044, 0, 0);

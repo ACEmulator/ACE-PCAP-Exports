@@ -5,13 +5,11 @@ VALUES (48629, 'ace48629-icyclub', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48629,   1,          1) /* ItemType - MeleeWeapon */
-     , (48629,   2,          8) /* CreatureType - Tusker */
      , (48629,   5,        800) /* EncumbranceVal */
      , (48629,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (48629,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48629,  16,          1) /* ItemUseable - No */
      , (48629,  19,        350) /* Value */
-     , (48629,  25,         80) /* Level */
      , (48629,  51,          1) /* CombatUse - Melee */
      , (48629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48629, 151,          2) /* HookType - Wall */;
@@ -25,8 +23,7 @@ VALUES (48629,   1, False) /* Stuck */
      , (48629,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48629,   1, 'Icy Club') /* Name */
-     , (48629,  16, 'Killed by Fquicker.') /* LongDesc */;
+VALUES (48629,   1, 'Icy Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48629,   1,   33559363) /* Setup */
@@ -44,6 +41,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48629,   3, 3692755953) /* Wielder */
      , (48629, 8000, 3692755959) /* PCAPRecordedObjectIID */
      , (48629, 8008, 3692755953) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48629,   1,   400, 0, 0, 400) /* MaxHealth */;

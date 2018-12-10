@@ -11,13 +11,18 @@ VALUES (47990,   1,          1) /* ItemType - MeleeWeapon */
      , (47990,  16,          1) /* ItemUseable - No */
      , (47990,  18,         64) /* UiEffects - Lightning */
      , (47990,  19,        350) /* Value */
+     , (47990,  33,         -2) /* Bonded - Destroy */
+     , (47990,  44,         87) /* Damage */
+     , (47990,  45,         64) /* DamageType - Electric */
+     , (47990,  47,          4) /* AttackType - Slash */
+     , (47990,  48,         45) /* WeaponSkill - LightWeapons */
+     , (47990,  49,         45) /* WeaponTime */
      , (47990,  51,          1) /* CombatUse - Melee */
      , (47990,  65,          1) /* Placement - RightHandCombat */
-     , (47990,  90,         20) /* BoostValue */
-     , (47990,  91,         40) /* MaxStructure */
-     , (47990,  92,         40) /* Structure */
      , (47990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47990, 151,          2) /* HookType - Wall */;
+     , (47990, 151,          2) /* HookType - Wall */
+     , (47990, 353,          3) /* WeaponType - Axe */
+     , (47990, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47990,   1, False) /* Stuck */
@@ -28,7 +33,12 @@ VALUES (47990,   1, False) /* Stuck */
      , (47990,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47990, 100,    1.75) /* HealkitMod */;
+VALUES (47990,  21,       0) /* WeaponLength */
+     , (47990,  22,     0.7) /* DamageVariance */
+     , (47990,  26,       0) /* MaximumVelocity */
+     , (47990,  29,       1) /* WeaponDefense */
+     , (47990,  62,       1) /* WeaponOffense */
+     , (47990,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47990,   1, 'Lightning Ono') /* Name */;

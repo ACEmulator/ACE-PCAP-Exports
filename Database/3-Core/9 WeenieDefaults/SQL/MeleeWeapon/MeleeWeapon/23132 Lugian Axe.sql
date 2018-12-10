@@ -28,8 +28,7 @@ VALUES (23132,  39,       2) /* DefaultScale */
      , (23132,  76, 0.699999988079071) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23132,   1, 'Lugian Axe') /* Name */
-     , (23132,  16, 'Killed by Cat Devnull.') /* LongDesc */;
+VALUES (23132,   1, 'Lugian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23132,   1,   33554726) /* Setup */

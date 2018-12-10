@@ -12,19 +12,7 @@ VALUES (48617,   1,          1) /* ItemType - MeleeWeapon */
      , (48617,  19,        170) /* Value */
      , (48617,  51,          1) /* CombatUse - Melee */
      , (48617,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48617, 105,          7) /* ItemWorkmanship */
-     , (48617, 106,        200) /* ItemSpellcraft */
-     , (48617, 107,        501) /* ItemCurMana */
-     , (48617, 108,        501) /* ItemMaxMana */
-     , (48617, 109,          0) /* ItemDifficulty */
-     , (48617, 110,          0) /* ItemAllegianceRankLimit */
-     , (48617, 115,          0) /* ItemSkillLevelLimit */
-     , (48617, 117,        300) /* ItemManaCost */
-     , (48617, 131,         18) /* MaterialType - Carnelian */
-     , (48617, 151,          2) /* HookType - Wall */
-     , (48617, 172,          1) /* AppraisalLongDescDecoration */
-     , (48617, 177,          1) /* GemCount */
-     , (48617, 178,         26) /* GemType */;
+     , (48617, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48617,   1, False) /* Stuck */
@@ -34,14 +22,8 @@ VALUES (48617,   1, False) /* Stuck */
      , (48617,  19, True ) /* Attackable */
      , (48617,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48617,   5, -0.0555555555555556) /* ManaRate */
-     , (48617,  29,    1.07) /* WeaponDefense */
-     , (48617, 144,    0.07) /* ManaConversionMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48617,   1, 'Frigid Splinter') /* Name */
-     , (48617,  16, 'Gem of Lightning Protection') /* LongDesc */;
+VALUES (48617,   1, 'Frigid Splinter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48617,   1,   33559304) /* Setup */
@@ -61,10 +43,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48617,   3, 3692755009) /* Wielder */
      , (48617, 8000, 3692755056) /* PCAPRecordedObjectIID */
      , (48617, 8008, 3692755009) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48617,    62,      2) 
-     , (48617,  1070,      2) 
-     , (48617,  1450,      2) 
-     , (48617,  1480,      2) 
-     , (48617,  1604,      2) ;

@@ -6,11 +6,9 @@ VALUES (43030, 'ace43030-esmondfielding', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43030,   1,         16) /* ItemType - Creature */
      , (43030,   2,         31) /* CreatureType - Human */
-     , (43030,   5,       7163) /* EncumbranceVal */
      , (43030,   6,        255) /* ItemsCapacity */
      , (43030,   7,        255) /* ContainersCapacity */
      , (43030,  16,         32) /* ItemUseable - Remote */
-     , (43030,  19,          0) /* Value */
      , (43030,  25,        100) /* Level */
      , (43030,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (43030,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (43030,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43030,   1, 'Esmond Fielding') /* Name */
      , (43030,   5, 'Explorer Society Outreach Officer') /* Template */
-     , (43030,  16, 'Killed by High-Voltage III.') /* LongDesc */
      , (43030, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

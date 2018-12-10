@@ -10,11 +10,9 @@ VALUES (47980,   1,          1) /* ItemType - MeleeWeapon */
      , (47980,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47980,  16,          1) /* ItemUseable - No */
      , (47980,  19,        155) /* Value */
-     , (47980,  33,          1) /* Bonded - Bonded */
      , (47980,  51,          1) /* CombatUse - Melee */
      , (47980,  65,          1) /* Placement - RightHandCombat */
      , (47980,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47980, 114,          0) /* Attuned - Normal */
      , (47980, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,13 +21,10 @@ VALUES (47980,   1, False) /* Stuck */
      , (47980,  13, True ) /* Ethereal */
      , (47980,  14, True ) /* GravityStatus */
      , (47980,  19, True ) /* Attackable */
-     , (47980,  22, True ) /* Inscribable */
-     , (47980,  69, False) /* IsSellable */;
+     , (47980,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47980,   1, 'Katar') /* Name */
-     , (47980,  15, 'A small, delicately engraved token, created by an exceptionally skilled A''nekshay artisan.') /* ShortDesc */
-     , (47980,  16, 'A human torso. All appendages have been savagely removed.') /* LongDesc */;
+VALUES (47980,   1, 'Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47980,   1,   33554743) /* Setup */

@@ -6,72 +6,27 @@ VALUES (1609, 'drudgestalker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1609,   1,         16) /* ItemType - Creature */
      , (1609,   2,          3) /* CreatureType - Drudge */
-     , (1609,   5,       7408) /* EncumbranceVal */
      , (1609,   6,        255) /* ItemsCapacity */
      , (1609,   7,        255) /* ContainersCapacity */
      , (1609,  16,          1) /* ItemUseable - No */
-     , (1609,  19,          0) /* Value */
      , (1609,  25,         50) /* Level */
-     , (1609,  33,          0) /* Bonded - Normal */
-     , (1609,  44,         57) /* Damage */
-     , (1609,  45,         32) /* DamageType - Acid */
-     , (1609,  47,          4) /* AttackType - Slash */
-     , (1609,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (1609,  49,         55) /* WeaponTime */
-     , (1609,  91,         50) /* MaxStructure */
-     , (1609,  92,         50) /* Structure */
      , (1609,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1609, 105,          8) /* ItemWorkmanship */
-     , (1609, 106,        314) /* ItemSpellcraft */
-     , (1609, 107,       1618) /* ItemCurMana */
-     , (1609, 108,       1618) /* ItemMaxMana */
-     , (1609, 109,         90) /* ItemDifficulty */
-     , (1609, 110,          0) /* ItemAllegianceRankLimit */
-     , (1609, 114,          0) /* Attuned - Normal */
-     , (1609, 115,        334) /* ItemSkillLevelLimit */
-     , (1609, 131,         51) /* MaterialType - Ivory */
      , (1609, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1609, 158,          2) /* WieldRequirements - RawSkill */
-     , (1609, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (1609, 160,        400) /* WieldDifficulty */
-     , (1609, 172,          5) /* AppraisalLongDescDecoration */
-     , (1609, 176,         44) /* AppraisalItemSkill */
-     , (1609, 177,          5) /* GemCount */
-     , (1609, 178,         21) /* GemType */
-     , (1609, 280,        213) /* SharedCooldown */
      , (1609, 307,          5) /* DamageRating */
-     , (1609, 353,          4) /* WeaponType - Mace */
-     , (1609, 366,         54) /* UseRequiresSkill */
-     , (1609, 367,        530) /* UseRequiresSkillLevel */
-     , (1609, 369,        170) /* UseRequiresLevel */
-     , (1609, 370,         13) /* GearDamage */
-     , (1609, 372,          8) /* GearCrit */
-     , (1609, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (1609, 8030,          0);
+     , (1609, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1609,   1, True ) /* Stuck */
      , (1609,  12, True ) /* ReportCollisions */
      , (1609,  13, False) /* Ethereal */
      , (1609,  14, True ) /* GravityStatus */
-     , (1609,  19, True ) /* Attackable */
-     , (1609,  69, True ) /* IsSellable */;
+     , (1609,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1609,   5, -0.0555555555555556) /* ManaRate */
-     , (1609,  21,       0) /* WeaponLength */
-     , (1609,  22,    0.37) /* DamageVariance */
-     , (1609,  26,       0) /* MaximumVelocity */
-     , (1609,  29,    1.16) /* WeaponDefense */
-     , (1609,  39, 1.29999995231628) /* DefaultScale */
-     , (1609,  62,    1.11) /* WeaponOffense */
-     , (1609,  63,       1) /* DamageMod */
-     , (1609, 167,      45) /* CooldownDuration */;
+VALUES (1609,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1609,   1, 'Drudge Stalker') /* Name */
-     , (1609,  14, 'Use this essence to summon or dismiss your Fire Spectre.') /* Use */
-     , (1609,  16, 'Killed by Dirty Dee.') /* LongDesc */
      , (1609, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -104,13 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1609,   1,   167, 0, 0, 167) /* MaxHealth */
      , (1609,   3,   273, 0, 0, 273) /* MaxStamina */
      , (1609,   5,   165, 0, 0, 165) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1609,  1616,      2) 
-     , (1609,  2087,      2) 
-     , (1609,  2195,      2) 
-     , (1609,  4019,      2) 
-     , (1609,  5889,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1609, 67112819, 0, 0);

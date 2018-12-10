@@ -5,13 +5,11 @@ VALUES (3852, 'scimitarfrost', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3852,   1,          1) /* ItemType - MeleeWeapon */
-     , (3852,   2,         80) /* CreatureType - Penguin */
      , (3852,   5,        353) /* EncumbranceVal */
      , (3852,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (3852,  16,          1) /* ItemUseable - No */
      , (3852,  18,        129) /* UiEffects - Magical, Frost */
      , (3852,  19,      17937) /* Value */
-     , (3852,  25,        240) /* Level */
      , (3852,  44,         50) /* Damage */
      , (3852,  45,          8) /* DamageType - Cold */
      , (3852,  47,          6) /* AttackType - Thrust, Slash */
@@ -38,8 +36,6 @@ VALUES (3852,   1,          1) /* ItemType - MeleeWeapon */
      , (3852, 177,          6) /* GemCount */
      , (3852, 178,         49) /* GemType */
      , (3852, 179,        128) /* ImbuedEffect - ColdRending */
-     , (3852, 188,          1) /* HeritageGroup - Aluvian */
-     , (3852, 204,          4) /* ElementalDamageBonus */
      , (3852, 353,          2) /* WeaponType - Sword */
      , (3852, 8030,          0);
 
@@ -49,9 +45,7 @@ VALUES (3852,   1, False) /* Stuck */
      , (3852,  13, True ) /* Ethereal */
      , (3852,  14, True ) /* GravityStatus */
      , (3852,  19, True ) /* Attackable */
-     , (3852,  22, True ) /* Inscribable */
-     , (3852,  85, True ) /* AppraisalHasAllowedWielder */
-     , (3852,  91, True ) /* Retained */;
+     , (3852,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3852,   5, -0.0555555555555556) /* ManaRate */
@@ -67,12 +61,7 @@ VALUES (3852,   5, -0.0555555555555556) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3852,   1, 'Frost Scimitar') /* Name */
-     , (3852,   7, 'Mine') /* Inscription */
-     , (3852,   8, 'Aralcarin') /* ScribeName */
-     , (3852,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (3852,  16, 'Frost Scimitar of Coordination') /* LongDesc */
-     , (3852,  25, 'Mag-one') /* CraftsmanName */
-     , (3852,  39, 'Camomille') /* TinkerName */
      , (3852,  40, 'Varizma') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -90,65 +79,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3852,   2, 3666901363) /* Container */
      , (3852, 8000, 2173387646) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (3852,   1, 800, 0, 0) /* Strength */
-     , (3852,   2, 800, 0, 0) /* Endurance */
-     , (3852,   3, 800, 0, 0) /* Quickness */
-     , (3852,   4, 800, 0, 0) /* Coordination */
-     , (3852,   5, 800, 0, 0) /* Focus */
-     , (3852,   6, 800, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (3852,   1,  4500, 0, 0, 4500) /* MaxHealth */
-     , (3852,   3,  4500, 0, 0, 4500) /* MaxStamina */
-     , (3852,   5,  4500, 0, 0, 4500) /* MaxMana */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3852,    35,      2) 
-     , (3852,  1354,      2) 
-     , (3852,  1377,      2) 
-     , (3852,  1378,      2) 
-     , (3852,  1589,      2) 
-     , (3852,  1591,      2) 
-     , (3852,  1592,      2) 
-     , (3852,  1599,      2) 
-     , (3852,  1605,      2) 
-     , (3852,  1612,      2) 
-     , (3852,  1614,      2) 
-     , (3852,  1615,      2) 
+VALUES (3852,  1378,      2) 
      , (3852,  1616,      2) 
-     , (3852,  1625,      2) 
-     , (3852,  1626,      2) 
-     , (3852,  1627,      2) 
-     , (3852,  2061,      2) 
-     , (3852,  2081,      2) 
-     , (3852,  2087,      2) 
-     , (3852,  2096,      2) 
-     , (3852,  2101,      2) 
-     , (3852,  2106,      2) 
-     , (3852,  2116,      2) 
-     , (3852,  2502,      2) 
-     , (3852,  2518,      2) 
-     , (3852,  2523,      2) 
-     , (3852,  2538,      2) 
-     , (3852,  2544,      2) 
-     , (3852,  2549,      2) 
-     , (3852,  2550,      2) 
-     , (3852,  2556,      2) 
-     , (3852,  2558,      2) 
-     , (3852,  2574,      2) 
-     , (3852,  2579,      2) 
-     , (3852,  2580,      2) 
-     , (3852,  2596,      2) 
-     , (3852,  2598,      2) 
-     , (3852,  2608,      2) 
-     , (3852,  2611,      2) 
-     , (3852,  2613,      2) 
-     , (3852,  2616,      2) 
-     , (3852,  2618,      2) 
-     , (3852,  4019,      2) 
-     , (3852,  4395,      2) 
-     , (3852,  4417,      2) 
-     , (3852,  5784,      2) 
-     , (3852,  5857,      2) 
-     , (3852,  5880,      2) ;
+     , (3852,  2598,      2) ;

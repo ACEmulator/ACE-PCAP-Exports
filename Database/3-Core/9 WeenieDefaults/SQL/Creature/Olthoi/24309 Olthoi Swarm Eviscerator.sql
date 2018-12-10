@@ -47,15 +47,5 @@ VALUES (24309, 8040, 1581580903, 79.9313, -37.2848, -6.016, 0.7848595, 0, 0, -0.
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24309, 8000, 3691344574) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (24309,   1, 265, 0, 0) /* Strength */
-     , (24309,   2, 265, 0, 0) /* Endurance */
-     , (24309,   3, 100, 0, 0) /* Quickness */
-     , (24309,   4, 100, 0, 0) /* Coordination */
-     , (24309,   5,  60, 0, 0) /* Focus */
-     , (24309,   6,  20, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24309,   1,   740, 0, 0, 740) /* MaxHealth */
-     , (24309,   3,   345, 0, 0, 345) /* MaxStamina */
-     , (24309,   5,    20, 0, 0, 20) /* MaxMana */;
+VALUES (24309,   1,   740, 0, 0, 740) /* MaxHealth */;

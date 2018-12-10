@@ -6,15 +6,11 @@ VALUES (7978, 'grievverscrawed', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7978,   1,         16) /* ItemType - Creature */
      , (7978,   2,         44) /* CreatureType - Grievver */
-     , (7978,   5,         10) /* EncumbranceVal */
      , (7978,   6,        255) /* ItemsCapacity */
      , (7978,   7,        255) /* ContainersCapacity */
      , (7978,  16,          1) /* ItemUseable - No */
-     , (7978,  19,          0) /* Value */
      , (7978,  25,         50) /* Level */
-     , (7978,  33,          1) /* Bonded - Bonded */
      , (7978,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7978, 114,          1) /* Attuned - Attuned */
      , (7978, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7978, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,8 +29,6 @@ VALUES (7978,  77,       1) /* PhysicsScriptIntensity */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7978,   1, 'Scrawed Grievver') /* Name */
-     , (7978,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return four skill credits when used to unspecialize or eight skill credits when used to untrain the Summoning skill. ') /* Use */
-     , (7978,  16, 'Killed by Jesse the Destroyer.') /* LongDesc */
      , (7978, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

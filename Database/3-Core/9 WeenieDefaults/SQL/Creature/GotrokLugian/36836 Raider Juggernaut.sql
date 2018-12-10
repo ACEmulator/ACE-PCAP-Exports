@@ -6,22 +6,12 @@ VALUES (36836, 'ace36836-raiderjuggernaut', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36836,   1,         16) /* ItemType - Creature */
      , (36836,   2,         70) /* CreatureType - GotrokLugian */
-     , (36836,   5,         30) /* EncumbranceVal */
      , (36836,   6,        255) /* ItemsCapacity */
      , (36836,   7,        255) /* ContainersCapacity */
      , (36836,  16,          1) /* ItemUseable - No */
-     , (36836,  19,       2000) /* Value */
      , (36836,  25,        135) /* Level */
-     , (36836,  91,         35) /* MaxStructure */
-     , (36836,  92,         35) /* Structure */
      , (36836,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36836, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (36836, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (36836, 307,          9) /* DamageRating */
-     , (36836, 308,         17) /* DamageResistRating */
-     , (36836, 314,         10) /* CritDamageRating */
-     , (36836, 315,         10) /* CritResistRating */
-     , (36836, 316,         15) /* CritDamageResistRating */
      , (36836, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,9 +23,6 @@ VALUES (36836,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36836,   1, 'Raider Juggernaut') /* Name */
-     , (36836,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (36836,  16, 'Inscribed spell: Twisted Digits
-Decreases the target''s Fletching skill by 40 points.') /* LongDesc */
      , (36836, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -68,9 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36836,   1,   513, 0, 0, 513) /* MaxHealth */
      , (36836,   3,   525, 0, 0, 525) /* MaxStamina */
      , (36836,   5,   220, 0, 0, 220) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36836,  2234,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36836, 67114288, 0, 0);

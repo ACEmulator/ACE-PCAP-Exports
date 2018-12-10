@@ -31,8 +31,6 @@ VALUES (34195,  29, 1.23999996483326) /* WeaponDefense */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34195,   1, 'Red Anniversary Sparkler') /* Name */
-     , (34195,   7, 'Here You Go Happy Anniversary ') /* Inscription */
-     , (34195,   8, 'S T E E L') /* ScribeName */
      , (34195,  16, 'A bright sparkler meant to help commemorate Festival season and the anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

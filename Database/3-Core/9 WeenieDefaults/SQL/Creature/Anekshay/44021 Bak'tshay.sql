@@ -6,19 +6,12 @@ VALUES (44021, 'ace44021-baktshay', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44021,   1,         16) /* ItemType - Creature */
      , (44021,   2,        101) /* CreatureType - Anekshay */
-     , (44021,   5,          1) /* EncumbranceVal */
      , (44021,   6,        255) /* ItemsCapacity */
      , (44021,   7,        255) /* ContainersCapacity */
      , (44021,  16,          1) /* ItemUseable - No */
-     , (44021,  19,          1) /* Value */
      , (44021,  25,        200) /* Level */
-     , (44021,  33,          1) /* Bonded - Bonded */
      , (44021,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44021, 113,          2) /* Gender - Female */
-     , (44021, 114,          1) /* Attuned - Attuned */
      , (44021, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44021, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44021, 188,          5) /* HeritageGroup - Shadowbound */
      , (44021, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,13 +19,10 @@ VALUES (44021,   1, True ) /* Stuck */
      , (44021,  12, True ) /* ReportCollisions */
      , (44021,  13, False) /* Ethereal */
      , (44021,  14, True ) /* GravityStatus */
-     , (44021,  19, True ) /* Attackable */
-     , (44021,  69, False) /* IsSellable */;
+     , (44021,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44021,   1, 'Bak''tshay') /* Name */
-     , (44021,  14, 'Lady Mashal Trianna may be interested in this.') /* Use */
-     , (44021,  15, 'A small, delicate cactus flower found only in the Lost City of Neftet.') /* ShortDesc */
      , (44021, 8006, 'BwA9AAMAZYm2xglB/kNFQgB9Ez5P7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAxU4sQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -41,12 +31,6 @@ VALUES (44021,   1,   33561251) /* Setup */
      , (44021,   3,  536870933) /* SoundTable */
      , (44021,   6,   67108990) /* PaletteBase */
      , (44021,   8,  100670274) /* Icon */
-     , (44021,   9,   83890276) /* EyesTexture */
-     , (44021,  10,   83890287) /* NoseTexture */
-     , (44021,  11,   83890349) /* MouthTexture */
-     , (44021,  15,   67117025) /* HairPalette */
-     , (44021,  16,   67116858) /* EyesPalette */
-     , (44021,  17,   67116847) /* SkinPalette */
      , (44021,  22,  872415269) /* PhysicsEffectTable */
      , (44021, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44021, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

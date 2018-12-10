@@ -10,23 +10,10 @@ VALUES (47442,   1,          1) /* ItemType - MeleeWeapon */
      , (47442,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47442,  16,          1) /* ItemUseable - No */
      , (47442,  19,        350) /* Value */
-     , (47442,  33,          0) /* Bonded - Normal */
      , (47442,  51,          1) /* CombatUse - Melee */
      , (47442,  65,          1) /* Placement - RightHandCombat */
-     , (47442,  91,         50) /* MaxStructure */
-     , (47442,  92,         50) /* Structure */
      , (47442,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47442, 105,          6) /* ItemWorkmanship */
-     , (47442, 114,          0) /* Attuned - Normal */
-     , (47442, 151,          2) /* HookType - Wall */
-     , (47442, 280,        213) /* SharedCooldown */
-     , (47442, 366,         54) /* UseRequiresSkill */
-     , (47442, 367,        430) /* UseRequiresSkillLevel */
-     , (47442, 369,        115) /* UseRequiresLevel */
-     , (47442, 370,         13) /* GearDamage */
-     , (47442, 372,          7) /* GearCrit */
-     , (47442, 374,         12) /* GearCritDamage */
-     , (47442, 375,          3) /* GearCritDamageResist */;
+     , (47442, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47442,   1, False) /* Stuck */
@@ -34,16 +21,10 @@ VALUES (47442,   1, False) /* Stuck */
      , (47442,  13, True ) /* Ethereal */
      , (47442,  14, True ) /* GravityStatus */
      , (47442,  19, True ) /* Attackable */
-     , (47442,  22, True ) /* Inscribable */
-     , (47442,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47442, 167,      45) /* CooldownDuration */;
+     , (47442,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47442,   1, 'Mace') /* Name */
-     , (47442,  14, 'Use this essence to summon or dismiss your Frost Phyntos Wasp.') /* Use */
-     , (47442,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (47442,   1, 'Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47442,   1,   33554746) /* Setup */

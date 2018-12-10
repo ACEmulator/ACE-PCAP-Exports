@@ -39,7 +39,7 @@ VALUES (31425,   1,   33554809) /* Setup */
      , (31425,   6,   67111919) /* PaletteBase */
      , (31425,   8,  100687889) /* Icon */
      , (31425,  22,  872415275) /* PhysicsEffectTable */
-     , (31425,  28,       3828) /* Spell */
+     , (31425,  28,       3828) /* Spell - CantripRageofGrael */
      , (31425, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (31425, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31425, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

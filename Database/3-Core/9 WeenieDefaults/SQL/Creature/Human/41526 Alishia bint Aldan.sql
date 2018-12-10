@@ -6,11 +6,9 @@ VALUES (41526, 'ace41526-alishiabintaldan', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41526,   1,         16) /* ItemType - Creature */
      , (41526,   2,         31) /* CreatureType - Human */
-     , (41526,   5,       6439) /* EncumbranceVal */
      , (41526,   6,        255) /* ItemsCapacity */
      , (41526,   7,        255) /* ContainersCapacity */
      , (41526,  16,         32) /* ItemUseable - Remote */
-     , (41526,  19,          0) /* Value */
      , (41526,  25,        199) /* Level */
      , (41526,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41526,  95,          8) /* RadarBlipColor - Yellow */
@@ -37,7 +35,6 @@ VALUES (41526,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41526,   1, 'Alishia bint Aldan') /* Name */
      , (41526,   5, 'Augmentation Trainer') /* Template */
-     , (41526,  16, 'Killed by Zech.') /* LongDesc */
      , (41526, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

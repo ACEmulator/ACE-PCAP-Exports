@@ -5,14 +5,12 @@ VALUES (23134, 'lugianmorningstarhollowvod', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23134,   1,          1) /* ItemType - MeleeWeapon */
-     , (23134,   2,         17) /* CreatureType - Armoredillo */
      , (23134,   5,      11040) /* EncumbranceVal */
      , (23134,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (23134,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23134,  16,          1) /* ItemUseable - No */
      , (23134,  19,        850) /* Value */
-     , (23134,  25,        265) /* Level */
-     , (23134,  33,          1) /* Bonded - Bonded */
+     , (23134,  33,         -2) /* Bonded - Destroy */
      , (23134,  36,       9999) /* ResistMagic */
      , (23134,  44,         50) /* Damage */
      , (23134,  45,          2) /* DamageType - Pierce */
@@ -22,21 +20,17 @@ VALUES (23134,   1,          1) /* ItemType - MeleeWeapon */
      , (23134,  51,          1) /* CombatUse - Melee */
      , (23134,  65,          1) /* Placement - RightHandCombat */
      , (23134,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23134, 114,          1) /* Attuned - Attuned */
      , (23134, 151,          2) /* HookType - Wall */
      , (23134, 353,          4) /* WeaponType - Mace */
-     , (23134, 386,          5) /* Overpower */
      , (23134, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23134,   1, False) /* Stuck */
-     , (23134,   2, True ) /* Open */
      , (23134,  11, True ) /* IgnoreCollisions */
      , (23134,  13, True ) /* Ethereal */
      , (23134,  14, True ) /* GravityStatus */
      , (23134,  19, True ) /* Attackable */
-     , (23134,  22, True ) /* Inscribable */
-     , (23134,  69, False) /* IsSellable */;
+     , (23134,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23134,  21,       0) /* WeaponLength */
@@ -49,10 +43,7 @@ VALUES (23134,  21,       0) /* WeaponLength */
      , (23134,  76, 0.699999988079071) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23134,   1, 'Lugian Morning Star') /* Name */
-     , (23134,  14, 'Use this item to close it.') /* Use */
-     , (23134,  15, 'A small, delicately engraved token, created by an exceptionally skilled A''nekshay artisan.') /* ShortDesc */
-     , (23134,  16, 'Killed by Makor.') /* LongDesc */;
+VALUES (23134,   1, 'Lugian Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23134,   1,   33554748) /* Setup */
@@ -72,6 +63,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23134,   3, 3692287231) /* Wielder */
      , (23134, 8000, 3692287239) /* PCAPRecordedObjectIID */
      , (23134, 8008, 3692287231) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23134,   1, 52390, 0, 0, 40643) /* MaxHealth */;

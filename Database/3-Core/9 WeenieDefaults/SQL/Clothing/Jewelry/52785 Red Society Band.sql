@@ -38,7 +38,6 @@ VALUES (52785,   1, False) /* Stuck */
      , (52785,  19, True ) /* Attackable */
      , (52785,  22, True ) /* Inscribable */
      , (52785,  69, False) /* IsSellable */
-     , (52785,  91, True ) /* Retained */
      , (52785,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,8 +46,6 @@ VALUES (52785,   5, -0.033333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52785,   1, 'Red Society Band') /* Name */
-     , (52785,   7, '22:42:36 Im A Girl says, "put down the lady ballz lrd cmon get em"') /* Inscription */
-     , (52785,   8, 'Validus') /* ScribeName */
      , (52785,  16, 'A dark black ring set with five rubies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

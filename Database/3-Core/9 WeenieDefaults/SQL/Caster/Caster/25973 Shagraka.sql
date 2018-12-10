@@ -33,8 +33,7 @@ VALUES (25973,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25973,   5,  -0.033) /* ManaRate */
      , (25973,  29,       1) /* WeaponDefense */
-     , (25973, 144,    0.05) /* ManaConversionMod */
-     , (25973, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (25973, 144,    0.05) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25973,   1, 'Shagraka') /* Name */

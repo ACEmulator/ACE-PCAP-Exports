@@ -6,11 +6,9 @@ VALUES (46951, 'ace46951-ragewisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46951,   1,         16) /* ItemType - Creature */
      , (46951,   2,         20) /* CreatureType - Wisp */
-     , (46951,   5,         30) /* EncumbranceVal */
      , (46951,   6,        255) /* ItemsCapacity */
      , (46951,   7,        255) /* ContainersCapacity */
      , (46951,  16,          1) /* ItemUseable - No */
-     , (46951,  19,        200) /* Value */
      , (46951,  25,        255) /* Level */
      , (46951,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46951, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,9 +26,6 @@ VALUES (46951,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46951,   1, 'Rage Wisp') /* Name */
-     , (46951,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (46951,  16, 'Inscribed spell: Summoning Mastery Self V
-Increases the caster''s Summoning skill by 30 points.') /* LongDesc */
      , (46951, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -61,6 +56,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46951,   1, 18125, 0, 0, 18125) /* MaxHealth */
      , (46951,   3,  5250, 0, 0, 5250) /* MaxStamina */
      , (46951,   5,  6490, 0, 0, 6420) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46951,  6120,      2) ;

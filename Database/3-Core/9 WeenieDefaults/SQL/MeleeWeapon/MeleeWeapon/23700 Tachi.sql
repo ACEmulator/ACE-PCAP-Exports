@@ -10,32 +10,16 @@ VALUES (23700,   1,          1) /* ItemType - MeleeWeapon */
      , (23700,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23700,  16,          1) /* ItemUseable - No */
      , (23700,  19,       1150) /* Value */
-     , (23700,  28,          0) /* ArmorLevel */
      , (23700,  33,         -2) /* Bonded - Destroy */
-     , (23700,  44,         48) /* Damage */
-     , (23700,  45,         32) /* DamageType - Acid */
+     , (23700,  44,         -1) /* Damage */
+     , (23700,  45,          0) /* DamageType - Undef */
      , (23700,  47,          6) /* AttackType - Thrust, Slash */
      , (23700,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (23700,  49,         35) /* WeaponTime */
+     , (23700,  49,         -1) /* WeaponTime */
      , (23700,  51,          1) /* CombatUse - Melee */
      , (23700,  65,          1) /* Placement - RightHandCombat */
      , (23700,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23700, 105,          6) /* ItemWorkmanship */
-     , (23700, 106,        226) /* ItemSpellcraft */
-     , (23700, 107,        841) /* ItemCurMana */
-     , (23700, 108,        841) /* ItemMaxMana */
-     , (23700, 109,        112) /* ItemDifficulty */
-     , (23700, 110,          0) /* ItemAllegianceRankLimit */
-     , (23700, 115,        246) /* ItemSkillLevelLimit */
-     , (23700, 131,         51) /* MaterialType - Ivory */
-     , (23700, 158,          2) /* WieldRequirements - RawSkill */
-     , (23700, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (23700, 160,        350) /* WieldDifficulty */
-     , (23700, 172,          5) /* AppraisalLongDescDecoration */
-     , (23700, 176,         44) /* AppraisalItemSkill */
-     , (23700, 177,          1) /* GemCount */
-     , (23700, 178,         21) /* GemType */
-     , (23700, 353,          7) /* WeaponType - Staff */
+     , (23700, 353,          2) /* WeaponType - Sword */
      , (23700, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,29 +28,18 @@ VALUES (23700,   1, False) /* Stuck */
      , (23700,  13, True ) /* Ethereal */
      , (23700,  14, True ) /* GravityStatus */
      , (23700,  19, True ) /* Attackable */
-     , (23700,  22, True ) /* Inscribable */
-     , (23700, 100, True ) /* Dyable */;
+     , (23700,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23700,   5,   -0.05) /* ManaRate */
-     , (23700,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (23700,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (23700,  15,       1) /* ArmorModVsBludgeon */
-     , (23700,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (23700,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (23700,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (23700,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (23700,  21,       0) /* WeaponLength */
-     , (23700,  22,    0.45) /* DamageVariance */
+VALUES (23700,  21,       0) /* WeaponLength */
+     , (23700,  22,    0.25) /* DamageVariance */
      , (23700,  26,       0) /* MaximumVelocity */
-     , (23700,  29,    1.19) /* WeaponDefense */
-     , (23700,  62,    1.03) /* WeaponOffense */
-     , (23700,  63,       1) /* DamageMod */
-     , (23700, 165,       1) /* ArmorModVsNether */;
+     , (23700,  29,       1) /* WeaponDefense */
+     , (23700,  62,       1) /* WeaponOffense */
+     , (23700,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23700,   1, 'Tachi') /* Name */
-     , (23700,  16, 'Acid Nabut of Endurance') /* LongDesc */;
+VALUES (23700,   1, 'Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23700,   1,   33554742) /* Setup */
@@ -87,11 +60,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23700,   3, 3686849603) /* Wielder */
      , (23700, 8000, 3687016755) /* PCAPRecordedObjectIID */
      , (23700, 8008, 3686849603) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23700,  1353,      2) 
-     , (23700,  1616,      2) 
-     , (23700,  2550,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23700, 67111920, 0, 0);

@@ -13,17 +13,7 @@ VALUES (33083,   1,          1) /* ItemType - MeleeWeapon */
      , (33083,  19,        220) /* Value */
      , (33083,  51,          1) /* CombatUse - Melee */
      , (33083,  65,          1) /* Placement - RightHandCombat */
-     , (33083,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33083, 105,          6) /* ItemWorkmanship */
-     , (33083, 106,        200) /* ItemSpellcraft */
-     , (33083, 107,        467) /* ItemCurMana */
-     , (33083, 108,        467) /* ItemMaxMana */
-     , (33083, 109,          0) /* ItemDifficulty */
-     , (33083, 110,          0) /* ItemAllegianceRankLimit */
-     , (33083, 115,          0) /* ItemSkillLevelLimit */
-     , (33083, 117,        300) /* ItemManaCost */
-     , (33083, 131,         13) /* MaterialType - Aquamarine */
-     , (33083, 172,          1) /* AppraisalLongDescDecoration */;
+     , (33083,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33083,   1, False) /* Stuck */
@@ -34,8 +24,7 @@ VALUES (33083,   1, False) /* Stuck */
      , (33083,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33083,   1, 'Shadow Blade') /* Name */
-     , (33083,  16, 'Gem of Regeneration') /* LongDesc */;
+VALUES (33083,   1, 'Shadow Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33083,   1,   33559905) /* Setup */
@@ -55,6 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33083,   3, 3679330539) /* Wielder */
      , (33083, 8000, 3679424276) /* PCAPRecordedObjectIID */
      , (33083, 8008, 3679330539) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33083,   169,      2) ;

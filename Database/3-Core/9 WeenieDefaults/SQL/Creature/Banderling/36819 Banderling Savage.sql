@@ -6,18 +6,12 @@ VALUES (36819, 'ace36819-banderlingsavage', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36819,   1,         16) /* ItemType - Creature */
      , (36819,   2,          2) /* CreatureType - Banderling */
-     , (36819,   5,        100) /* EncumbranceVal */
      , (36819,   6,        255) /* ItemsCapacity */
      , (36819,   7,        255) /* ContainersCapacity */
      , (36819,  16,          1) /* ItemUseable - No */
-     , (36819,  19,         10) /* Value */
      , (36819,  25,        115) /* Level */
-     , (36819,  33,          1) /* Bonded - Bonded */
      , (36819,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36819, 105,        100) /* ItemWorkmanship */
-     , (36819, 131,         15) /* MaterialType - BlackGarnet */
      , (36819, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36819, 170,         10) /* NumItemsInMaterial */
      , (36819, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,9 +26,6 @@ VALUES (36819,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36819,   1, 'Banderling Savage') /* Name */
-     , (36819,  14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Pierce Rending. Pierce Rending gives the weapon the ability to make its opponent vulnerable to piercing attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Piercing Vulnerability spells.') /* Use */
-     , (36819,  15, 'Chips of black garnet material salvaged from old items.') /* ShortDesc */
-     , (36819,  16, 'Killed by Horrible shot.') /* LongDesc */
      , (36819, 8006, 'BwA8ADgAVBR7mhpDmdk5Q6kDjEIP7kEAAAAAAAAAAAD//39/AACAPwAAcEEAAAAAuSMeQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -67,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36819,   1,   555, 0, 0, 555) /* MaxHealth */
      , (36819,   3,   810, 0, 0, 810) /* MaxStamina */
      , (36819,   5,   390, 0, 0, 390) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36819,  2320,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36819, 67114264, 0, 0);

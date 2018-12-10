@@ -6,38 +6,18 @@ VALUES (41515, 'ace41515-anframmellow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41515,   1,         16) /* ItemType - Creature */
      , (41515,   2,         31) /* CreatureType - Human */
-     , (41515,   5,         50) /* EncumbranceVal */
      , (41515,   6,        255) /* ItemsCapacity */
      , (41515,   7,        255) /* ContainersCapacity */
      , (41515,  16,         32) /* ItemUseable - Remote */
-     , (41515,  19,       2000) /* Value */
      , (41515,  25,        271) /* Level */
-     , (41515,  44,         14) /* Damage */
-     , (41515,  45,          4) /* DamageType - Bludgeon */
-     , (41515,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (41515,  49,         10) /* WeaponTime */
-     , (41515,  90,         25) /* BoostValue */
-     , (41515,  91,         50) /* MaxStructure */
-     , (41515,  92,         50) /* Structure */
      , (41515,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (41515,  95,          8) /* RadarBlipColor - Yellow */
-     , (41515, 105,          4) /* ItemWorkmanship */
-     , (41515, 106,        155) /* ItemSpellcraft */
-     , (41515, 107,        401) /* ItemCurMana */
-     , (41515, 108,        401) /* ItemMaxMana */
-     , (41515, 109,        155) /* ItemDifficulty */
-     , (41515, 110,          0) /* ItemAllegianceRankLimit */
      , (41515, 113,          1) /* Gender - Male */
-     , (41515, 115,          0) /* ItemSkillLevelLimit */
-     , (41515, 131,          1) /* MaterialType - Ceramic */
      , (41515, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41515, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (41515, 172,          1) /* AppraisalLongDescDecoration */
      , (41515, 188,          1) /* HeritageGroup - Aluvian */
      , (41515, 307,          5) /* DamageRating */
-     , (41515, 353,         10) /* WeaponType - Thrown */
-     , (41515, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (41515, 8030,          0);
+     , (41515, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41515,   1, True ) /* Stuck */
@@ -50,20 +30,11 @@ VALUES (41515,   1, True ) /* Stuck */
      , (41515,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41515,   5, -0.0416666666666667) /* ManaRate */
-     , (41515,  21,       0) /* WeaponLength */
-     , (41515,  22,    0.25) /* DamageVariance */
-     , (41515,  26,       0) /* MaximumVelocity */
-     , (41515,  29,       1) /* WeaponDefense */
-     , (41515,  54,       3) /* UseRadius */
-     , (41515,  62,       1) /* WeaponOffense */
-     , (41515,  63,       1) /* DamageMod */
-     , (41515, 100,       2) /* HealkitMod */;
+VALUES (41515,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41515,   1, 'Anfram Mellow') /* Name */
      , (41515,   5, 'Augmentation Trainer') /* Template */
-     , (41515,  16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LongDesc */
      , (41515, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -101,9 +72,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41515,   1,    45, 0, 0, 45) /* MaxHealth */
      , (41515,   3,    80, 0, 0, 80) /* MaxStamina */
      , (41515,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41515,   705,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41515, 67109558, 0, 24)

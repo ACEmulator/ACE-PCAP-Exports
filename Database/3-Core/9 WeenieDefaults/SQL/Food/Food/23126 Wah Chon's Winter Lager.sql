@@ -5,13 +5,11 @@ VALUES (23126, 'lagerwinter', 18) /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23126,   1,         32) /* ItemType - Food */
-     , (23126,   2,          9) /* CreatureType - PhyntosWasp */
      , (23126,   5,        315) /* EncumbranceVal */
      , (23126,  11,        100) /* MaxStackSize */
      , (23126,  12,          7) /* StackSize */
      , (23126,  16,          8) /* ItemUseable - Contained */
      , (23126,  19,       2100) /* Value */
-     , (23126,  25,         50) /* Level */
      , (23126,  65,        101) /* Placement - Resting */
      , (23126,  89,          4) /* BoosterEnum - Stamina */
      , (23126,  90,         60) /* BoostValue */
@@ -42,6 +40,3 @@ VALUES (23126,   1,   33556854) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23126,   2, 2186220426) /* Container */
      , (23126, 8000, 2186220447) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23126,   1,   138, 0, 0, 138) /* MaxHealth */;

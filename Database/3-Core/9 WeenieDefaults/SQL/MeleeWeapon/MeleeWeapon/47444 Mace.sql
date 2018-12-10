@@ -10,7 +10,6 @@ VALUES (47444,   1,          1) /* ItemType - MeleeWeapon */
      , (47444,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47444,  16,          1) /* ItemUseable - No */
      , (47444,  19,        350) /* Value */
-     , (47444,  33,          1) /* Bonded - Bonded */
      , (47444,  51,          1) /* CombatUse - Melee */
      , (47444,  65,          1) /* Placement - RightHandCombat */
      , (47444,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -25,9 +24,7 @@ VALUES (47444,   1, False) /* Stuck */
      , (47444,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47444,   1, 'Mace') /* Name */
-     , (47444,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (47444,  16, 'A concentrated copper pea.') /* LongDesc */;
+VALUES (47444,   1, 'Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47444,   1,   33554746) /* Setup */
@@ -48,9 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47444,   3, 3685887020) /* Wielder */
      , (47444, 8000, 3685887031) /* PCAPRecordedObjectIID */
      , (47444, 8008, 3685887020) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47444,  2289,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47444, 67111920, 0, 0);

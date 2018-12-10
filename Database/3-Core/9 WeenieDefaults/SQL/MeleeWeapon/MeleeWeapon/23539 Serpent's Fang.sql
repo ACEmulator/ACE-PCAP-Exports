@@ -48,8 +48,6 @@ VALUES (23539,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23539,   1, 'Serpent''s Fang') /* Name */
-     , (23539,   7, 'LET MY PEOPLE GO!') /* Inscription */
-     , (23539,   8, 'Wahooka the Great') /* ScribeName */
      , (23539,  16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and acid drips from the fangs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

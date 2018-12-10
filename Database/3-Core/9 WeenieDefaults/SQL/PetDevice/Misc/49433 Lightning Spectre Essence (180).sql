@@ -23,14 +23,11 @@ VALUES (49433,   1,        128) /* ItemType - Misc */
      , (49433, 369,        170) /* UseRequiresLevel */
      , (49433, 370,         11) /* GearDamage */
      , (49433, 371,         15) /* GearDamageResist */
-     , (49433, 372,         12) /* GearCrit */
      , (49433, 373,         10) /* GearCritResist */
-     , (49433, 374,         16) /* GearCritDamage */
-     , (49433, 375,         16) /* GearCritDamageResist */;
+     , (49433, 374,         16) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49433,   1, False) /* Stuck */
-     , (49433,   2, True ) /* Open */
      , (49433,  11, True ) /* IgnoreCollisions */
      , (49433,  13, True ) /* Ethereal */
      , (49433,  14, True ) /* GravityStatus */
@@ -44,10 +41,7 @@ VALUES (49433,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49433,   1, 'Lightning Spectre Essence (180)') /* Name */
-     , (49433,   7, 'A pretty sick 180') /* Inscription */
-     , (49433,   8, 'The Baron of Colier') /* ScribeName */
-     , (49433,  14, 'Use this essence to summon or dismiss your Lightning Spectre.') /* Use */
-     , (49433,  16, 'Killed by Mag-three.') /* LongDesc */;
+     , (49433,  14, 'Use this essence to summon or dismiss your Lightning Spectre.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49433,   1,   33554817) /* Setup */

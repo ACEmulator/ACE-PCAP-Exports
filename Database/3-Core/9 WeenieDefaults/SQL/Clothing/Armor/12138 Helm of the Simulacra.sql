@@ -47,10 +47,6 @@ VALUES (12138,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12138,   1, 'Helm of the Simulacra') /* Name */
-     , (12138,   7, 'AL 80 AA/A/A/BA/BA/BA/BA
-Mana 650 1/30 Diff 35   Invuln 180
-Impreg IV, Imp IV, Inv IV') /* Inscription */
-     , (12138,   8, 'Archmage Al') /* ScribeName */
      , (12138,  16, 'A helm enchanted with powerful magic, taken from the Southern Infiltrator Keep dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

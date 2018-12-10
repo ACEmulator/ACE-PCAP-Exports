@@ -71,22 +71,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38480, 8000, 2167400523) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38480,  1552,      2) 
-     , (38480,  2081,      2) 
-     , (38480,  2108,      2) 
-     , (38480,  2113,      2) 
-     , (38480,  2506,      2) 
-     , (38480,  4319,      2) 
-     , (38480,  4397,      2) 
-     , (38480,  4401,      2) 
-     , (38480,  4407,      2) 
-     , (38480,  4412,      2) 
-     , (38480,  4538,      2) 
+VALUES (38480,  2108,      2) 
      , (38480,  4572,      2) 
-     , (38480,  6045,      2) 
-     , (38480,  6073,      2) 
-     , (38480,  6074,      2) 
-     , (38480,  6075,      2) ;
+     , (38480,  6045,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38480, 0, 83889344, 83897948)

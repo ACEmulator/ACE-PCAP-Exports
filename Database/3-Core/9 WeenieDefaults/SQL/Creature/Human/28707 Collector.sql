@@ -6,11 +6,9 @@ VALUES (28707, 'collectorviamontian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28707,   1,         16) /* ItemType - Creature */
      , (28707,   2,         31) /* CreatureType - Human */
-     , (28707,   5,       6225) /* EncumbranceVal */
      , (28707,   6,        255) /* ItemsCapacity */
      , (28707,   7,        255) /* ContainersCapacity */
      , (28707,  16,         32) /* ItemUseable - Remote */
-     , (28707,  19,          0) /* Value */
      , (28707,  25,          5) /* Level */
      , (28707,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28707,  95,          8) /* RadarBlipColor - Yellow */
@@ -22,7 +20,6 @@ VALUES (28707,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28707,   1, True ) /* Stuck */
-     , (28707,   2, True ) /* Open */
      , (28707,  11, True ) /* IgnoreCollisions */
      , (28707,  12, True ) /* ReportCollisions */
      , (28707,  13, False) /* Ethereal */
@@ -37,8 +34,6 @@ VALUES (28707,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28707,   1, 'Collector') /* Name */
      , (28707,   5, 'Trophy Collector') /* Template */
-     , (28707,  14, 'Use this item to close it.') /* Use */
-     , (28707,  16, 'Killed by High-Voltage VIII.') /* LongDesc */
      , (28707, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

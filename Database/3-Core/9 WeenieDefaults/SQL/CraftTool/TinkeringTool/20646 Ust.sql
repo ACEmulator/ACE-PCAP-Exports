@@ -24,8 +24,6 @@ VALUES (20646,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20646,   1, 'Ust') /* Name */
-     , (20646,   7, 'Dereth might not live on, but Deathspawner''s puns will. You better get %ITEMNAME% to it.') /* Inscription */
-     , (20646,   8, 'Greg Graffin') /* ScribeName */
      , (20646,  14, 'Use to salvage materials from treasure items.') /* Use */
      , (20646,  15, 'A tool used to extract materials from treasure items.') /* ShortDesc */;
 

@@ -31,8 +31,6 @@ VALUES (42710, 167,      10) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42710,   1, 'Aligned Mana Stone') /* Name */
-     , (42710,   7, 'N,E,W') /* Inscription */
-     , (42710,   8, 'Callaway') /* ScribeName */
      , (42710,  16, 'This mana stone is incapable of holding a charge. Using this stone creates a conduit between the wielder and Dereth''s mana field.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

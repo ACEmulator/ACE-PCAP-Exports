@@ -34,7 +34,7 @@ VALUES (29033,   1,   33555469) /* Setup */
      , (29033,   3,  536870966) /* SoundTable */
      , (29033,   8,  100667494) /* Icon */
      , (29033,  22,  872415407) /* PhysicsEffectTable */
-     , (29033,  28,         28) /* Spell */
+     , (29033,  28,         28) /* Spell - FrostBolt1 */
      , (29033, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (29033, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (29033, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */

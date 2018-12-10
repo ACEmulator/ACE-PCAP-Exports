@@ -8,43 +8,20 @@ VALUES (22091,   1,       8192) /* ItemType - Writable */
      , (22091,   5,         20) /* EncumbranceVal */
      , (22091,  16,          8) /* ItemUseable - Contained */
      , (22091,  19,         25) /* Value */
-     , (22091,  44,          9) /* Damage */
-     , (22091,  45,          2) /* DamageType - Pierce */
-     , (22091,  48,          0) /* WeaponSkill - None */
-     , (22091,  49,         -1) /* WeaponTime */
      , (22091,  65,        101) /* Placement - Resting */
      , (22091,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22091, 174,         16) /* AppraisalPages */
-     , (22091, 175,         16) /* AppraisalMaxPages */
-     , (22091, 179,          0) /* ImbuedEffect - Undef */
-     , (22091, 303,          0) /* ImbuedEffect2 - Undef */
-     , (22091, 304,          0) /* ImbuedEffect3 - Undef */
-     , (22091, 305,          0) /* ImbuedEffect4 - Undef */
-     , (22091, 306,          0) /* ImbuedEffect5 - Undef */
-     , (22091, 307,          5) /* DamageRating */
-     , (22091, 313,          0) /* CritRating */
-     , (22091, 314,          0) /* CritDamageRating */
-     , (22091, 386,          0) /* Overpower */
-     , (22091, 8030,          0);
+     , (22091, 175,         16) /* AppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22091,   1, False) /* Stuck */
      , (22091,  11, True ) /* IgnoreCollisions */
      , (22091,  13, True ) /* Ethereal */
      , (22091,  14, True ) /* GravityStatus */
-     , (22091,  19, True ) /* Attackable */
-     , (22091,  69, False) /* IsSellable */;
+     , (22091,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22091,  21,       0) /* WeaponLength */
-     , (22091,  22,    0.25) /* DamageVariance */
-     , (22091,  26,       0) /* MaximumVelocity */
-     , (22091,  29,       1) /* WeaponDefense */
-     , (22091,  39, 1.22000002861023) /* DefaultScale */
-     , (22091,  62,       1) /* WeaponOffense */
-     , (22091,  63,       1) /* DamageMod */
-     , (22091, 149,       0) /* WeaponMissileDefense */
-     , (22091, 150,       0) /* WeaponMagicDefense */;
+VALUES (22091,  39, 1.22000002861023) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22091,   1, 'Journal of Frest Greelving') /* Name */;

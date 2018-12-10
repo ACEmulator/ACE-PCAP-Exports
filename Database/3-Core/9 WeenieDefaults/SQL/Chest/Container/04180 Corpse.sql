@@ -5,13 +5,11 @@ VALUES (4180, 'rottingcorpse', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4180,   1,        512) /* ItemType - Container */
-     , (4180,   2,         44) /* CreatureType - Grievver */
      , (4180,   5,       3000) /* EncumbranceVal */
      , (4180,   6,        120) /* ItemsCapacity */
      , (4180,   7,         10) /* ContainersCapacity */
      , (4180,  16,         48) /* ItemUseable - ViewedRemote */
      , (4180,  19,          0) /* Value */
-     , (4180,  25,        200) /* Level */
      , (4180,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,9 +28,7 @@ VALUES (4180,  54,       1) /* UseRadius */
      , (4180, 8012, -0.0271992217749357) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4180,   1, 'Corpse') /* Name */
-     , (4180,  14, 'Use this item to close it.') /* Use */
-     , (4180,  16, 'Killed by Mag-two.') /* LongDesc */;
+VALUES (4180,   1, 'Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4180,   1,   33556617) /* Setup */
@@ -49,16 +45,3 @@ VALUES (4180, 8040, 2451767349, 149.7337, 96.01506, 108.2974, 0.9238795, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4180, 8000, 3685721405) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (4180,   1, 280, 0, 0) /* Strength */
-     , (4180,   2, 190, 0, 0) /* Endurance */
-     , (4180,   3, 280, 0, 0) /* Quickness */
-     , (4180,   4, 230, 0, 0) /* Coordination */
-     , (4180,   5, 170, 0, 0) /* Focus */
-     , (4180,   6, 220, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4180,   1,  1495, 0, 0, 1495) /* MaxHealth */
-     , (4180,   3,  1190, 0, 0, 1190) /* MaxStamina */
-     , (4180,   5,  1120, 0, 0, 1120) /* MaxMana */;

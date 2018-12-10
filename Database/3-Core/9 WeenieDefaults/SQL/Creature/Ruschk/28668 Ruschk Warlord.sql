@@ -6,18 +6,12 @@ VALUES (28668, 'ruschkwarlord', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28668,   1,         16) /* ItemType - Creature */
      , (28668,   2,         81) /* CreatureType - Ruschk */
-     , (28668,   5,          0) /* EncumbranceVal */
      , (28668,   6,        255) /* ItemsCapacity */
      , (28668,   7,        255) /* ContainersCapacity */
      , (28668,  16,          1) /* ItemUseable - No */
-     , (28668,  19,       1757) /* Value */
      , (28668,  25,        100) /* Level */
-     , (28668,  28,        253) /* ArmorLevel */
      , (28668,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28668, 105,          7) /* ItemWorkmanship */
-     , (28668, 131,         61) /* MaterialType - Iron */
      , (28668, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28668, 172,          1) /* AppraisalLongDescDecoration */
      , (28668, 307,          5) /* DamageRating */
      , (28668, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -26,23 +20,13 @@ VALUES (28668,   1, True ) /* Stuck */
      , (28668,  12, True ) /* ReportCollisions */
      , (28668,  13, False) /* Ethereal */
      , (28668,  14, True ) /* GravityStatus */
-     , (28668,  19, True ) /* Attackable */
-     , (28668, 100, True ) /* Dyable */;
+     , (28668,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28668,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (28668,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (28668,  15,       1) /* ArmorModVsBludgeon */
-     , (28668,  16,     0.5) /* ArmorModVsCold */
-     , (28668,  17,     0.5) /* ArmorModVsFire */
-     , (28668,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (28668,  19, 0.926705002784729) /* ArmorModVsElectric */
-     , (28668,  39, 1.20000004768372) /* DefaultScale */
-     , (28668, 165,       1) /* ArmorModVsNether */;
+VALUES (28668,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28668,   1, 'Ruschk Warlord') /* Name */
-     , (28668,  16, 'Tenassa Sleeves') /* LongDesc */
      , (28668, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

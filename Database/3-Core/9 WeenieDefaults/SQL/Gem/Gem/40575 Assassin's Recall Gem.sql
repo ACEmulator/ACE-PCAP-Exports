@@ -42,7 +42,7 @@ VALUES (40575,   1,   33554809) /* Setup */
      , (40575,   6,   67111919) /* PaletteBase */
      , (40575,   8,  100668365) /* Icon */
      , (40575,  22,  872415275) /* PhysicsEffectTable */
-     , (40575,  28,       4992) /* Spell */
+     , (40575,  28,       4992) /* Spell - PortalSendingAssassinsRoost4 */
      , (40575, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (40575, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40575, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

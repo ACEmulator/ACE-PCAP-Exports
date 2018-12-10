@@ -42,7 +42,7 @@ VALUES (30237,   1,   33554809) /* Setup */
      , (30237,   6,   67111919) /* PaletteBase */
      , (30237,   8,  100686695) /* Icon */
      , (30237,  22,  872415275) /* PhysicsEffectTable */
-     , (30237,  28,       3735) /* Spell */
+     , (30237,  28,       3735) /* Spell - SpiritDrinkerRare */
      , (30237,  50,  100686685) /* IconOverlay */
      , (30237,  52,  100686604) /* IconUnderlay */
      , (30237, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

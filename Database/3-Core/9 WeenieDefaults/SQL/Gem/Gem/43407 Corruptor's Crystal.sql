@@ -40,7 +40,7 @@ VALUES (43407,   1,   33554809) /* Setup */
      , (43407,   3,  536870932) /* SoundTable */
      , (43407,   8,  100686697) /* Icon */
      , (43407,  22,  872415275) /* PhysicsEffectTable */
-     , (43407,  28,       5436) /* Spell */
+     , (43407,  28,       5436) /* Spell - VoidMagicMasteryRare */
      , (43407,  50,  100691567) /* IconOverlay */
      , (43407,  52,  100686604) /* IconUnderlay */
      , (43407, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */

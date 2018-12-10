@@ -32,8 +32,7 @@ VALUES (35188,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35188,  29,       1) /* WeaponDefense */
      , (35188,  39, 0.699999988079071) /* DefaultScale */
-     , (35188, 144, 1.26134721441255E-314) /* ManaConversionMod */
-     , (35188, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (35188, 144, 1.26134721441255E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35188,   1, 'Egg Launcher') /* Name */
@@ -47,7 +46,7 @@ VALUES (35188,   1,   33560288) /* Setup */
      , (35188,   6,   67110219) /* PaletteBase */
      , (35188,   8,  100674625) /* Icon */
      , (35188,  22,  872415275) /* PhysicsEffectTable */
-     , (35188,  28,       4078) /* Spell */
+     , (35188,  28,       4078) /* Spell - EggBolt */
      , (35188, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (35188, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35188, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */

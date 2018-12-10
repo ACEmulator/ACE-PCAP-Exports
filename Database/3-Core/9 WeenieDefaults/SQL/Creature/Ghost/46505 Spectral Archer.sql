@@ -6,25 +6,12 @@ VALUES (46505, 'ace46505-spectralarcher', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46505,   1,         16) /* ItemType - Creature */
      , (46505,   2,         77) /* CreatureType - Ghost */
-     , (46505,   5,        960) /* EncumbranceVal */
      , (46505,   6,        255) /* ItemsCapacity */
      , (46505,   7,        255) /* ContainersCapacity */
      , (46505,  16,          1) /* ItemUseable - No */
-     , (46505,  19,       7918) /* Value */
      , (46505,  25,        240) /* Level */
-     , (46505,  28,        225) /* ArmorLevel */
      , (46505,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (46505, 105,          3) /* ItemWorkmanship */
-     , (46505, 106,        190) /* ItemSpellcraft */
-     , (46505, 107,        367) /* ItemCurMana */
-     , (46505, 108,        367) /* ItemMaxMana */
-     , (46505, 109,         37) /* ItemDifficulty */
-     , (46505, 110,          0) /* ItemAllegianceRankLimit */
-     , (46505, 115,        210) /* ItemSkillLevelLimit */
-     , (46505, 131,         52) /* MaterialType - Leather */
      , (46505, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46505, 172,          1) /* AppraisalLongDescDecoration */
-     , (46505, 176,          6) /* AppraisalItemSkill */
      , (46505, 307,         10) /* DamageRating */
      , (46505, 308,         10) /* DamageResistRating */
      , (46505, 313,          5) /* CritRating */
@@ -32,29 +19,14 @@ VALUES (46505,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46505,   1, True ) /* Stuck */
-     , (46505,   2, True ) /* Open */
      , (46505,  12, True ) /* ReportCollisions */
      , (46505,  13, False) /* Ethereal */
      , (46505,  14, True ) /* GravityStatus */
      , (46505,  19, True ) /* Attackable */
-     , (46505,  42, True ) /* AllowEdgeSlide */
-     , (46505, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46505,   5, -0.0416666666666667) /* ManaRate */
-     , (46505,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (46505,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (46505,  15,       1) /* ArmorModVsBludgeon */
-     , (46505,  16,     0.5) /* ArmorModVsCold */
-     , (46505,  17,     0.5) /* ArmorModVsFire */
-     , (46505,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (46505,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (46505, 165,       1) /* ArmorModVsNether */;
+     , (46505,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46505,   1, 'Spectral Archer') /* Name */
-     , (46505,  14, 'Use this item to close it.') /* Use */
-     , (46505,  16, 'Leather Leggings') /* LongDesc */
      , (46505, 8006, 'AAA9AEAAAADNzMy+') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,10 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46505,   1,  2200, 0, 0, 2200) /* MaxHealth */
      , (46505,   3,  2400, 0, 0, 2397) /* MaxStamina */
      , (46505,   5,   750, 0, 0, 750) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46505,  1484,      2) 
-     , (46505,  1527,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46505, 0, 83899054, 83899085)

@@ -6,33 +6,12 @@ VALUES (44038, 'ace44038-mumiyahguardian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44038,   1,         16) /* ItemType - Creature */
      , (44038,   2,         14) /* CreatureType - Undead */
-     , (44038,   5,          5) /* EncumbranceVal */
      , (44038,   6,        255) /* ItemsCapacity */
      , (44038,   7,        255) /* ContainersCapacity */
      , (44038,  16,          1) /* ItemUseable - No */
-     , (44038,  19,       3216) /* Value */
      , (44038,  25,        220) /* Level */
-     , (44038,  28,        281) /* ArmorLevel */
-     , (44038,  90,         20) /* BoostValue */
-     , (44038,  91,         50) /* MaxStructure */
-     , (44038,  92,         50) /* Structure */
      , (44038,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44038, 105,          7) /* ItemWorkmanship */
-     , (44038, 106,        370) /* ItemSpellcraft */
-     , (44038, 107,        667) /* ItemCurMana */
-     , (44038, 108,        667) /* ItemMaxMana */
-     , (44038, 109,          0) /* ItemDifficulty */
-     , (44038, 110,          0) /* ItemAllegianceRankLimit */
-     , (44038, 115,          0) /* ItemSkillLevelLimit */
-     , (44038, 117,        400) /* ItemManaCost */
-     , (44038, 131,         21) /* MaterialType - Emerald */
      , (44038, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44038, 158,          7) /* WieldRequirements - Level */
-     , (44038, 159,          1) /* WieldSkilltype - Axe */
-     , (44038, 160,        180) /* WieldDifficulty */
-     , (44038, 172,          1) /* AppraisalLongDescDecoration */
-     , (44038, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (44038, 280,        100) /* SharedCooldown */
      , (44038, 307,          7) /* DamageRating */
      , (44038, 315,         10) /* CritResistRating */
      , (44038, 316,         20) /* CritDamageResistRating */
@@ -40,32 +19,16 @@ VALUES (44038,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44038,   1, True ) /* Stuck */
-     , (44038,   2, True ) /* Open */
      , (44038,  12, True ) /* ReportCollisions */
      , (44038,  13, False) /* Ethereal */
      , (44038,  14, True ) /* GravityStatus */
-     , (44038,  19, True ) /* Attackable */
-     , (44038,  69, False) /* IsSellable */
-     , (44038, 100, True ) /* Dyable */;
+     , (44038,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44038,   5, -0.0555555555555556) /* ManaRate */
-     , (44038,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (44038,  14,       1) /* ArmorModVsPierce */
-     , (44038,  15,       1) /* ArmorModVsBludgeon */
-     , (44038,  16, 0.718600332736969) /* ArmorModVsCold */
-     , (44038,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (44038,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (44038,  19, 0.806197226047516) /* ArmorModVsElectric */
-     , (44038,  39, 1.20000004768372) /* DefaultScale */
-     , (44038, 100,    1.75) /* HealkitMod */
-     , (44038, 165,       1) /* ArmorModVsNether */
-     , (44038, 167,       2) /* CooldownDuration */;
+VALUES (44038,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44038,   1, 'Mu-miyah Guardian') /* Name */
-     , (44038,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (44038,  16, 'Gem of Rejuvenation') /* LongDesc */
      , (44038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -98,12 +61,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44038,   1,  4200, 0, 0, 4200) /* MaxHealth */
      , (44038,   3,  5200, 0, 0, 5199) /* MaxStamina */
      , (44038,   5,  1860, 0, 0, 1860) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44038,  2104,      2) 
-     , (44038,  2108,      2) 
-     , (44038,  2615,      2) 
-     , (44038,  4498,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44038, 67111813, 0, 0);

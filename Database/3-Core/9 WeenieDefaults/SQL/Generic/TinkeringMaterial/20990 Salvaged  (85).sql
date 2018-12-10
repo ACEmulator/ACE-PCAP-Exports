@@ -5,13 +5,11 @@ VALUES (20990, 'materialpine', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20990,   1, 1073741824) /* ItemType - TinkeringMaterial */
-     , (20990,   2,         20) /* CreatureType - Wisp */
      , (20990,   5,        100) /* EncumbranceVal */
      , (20990,  11,          1) /* MaxStackSize */
      , (20990,  12,          1) /* StackSize */
      , (20990,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (20990,  19,      12707) /* Value */
-     , (20990,  25,         80) /* Level */
      , (20990,  33,          1) /* Bonded - Bonded */
      , (20990,  65,        101) /* Placement - Resting */
      , (20990,  91,        100) /* MaxStructure */
@@ -53,9 +51,6 @@ VALUES (20990,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20990,   2, 2157267522) /* Container */
      , (20990, 8000, 2157267542) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20990,   1,   180, 0, 0, 180) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20990, 67111922, 0, 0);

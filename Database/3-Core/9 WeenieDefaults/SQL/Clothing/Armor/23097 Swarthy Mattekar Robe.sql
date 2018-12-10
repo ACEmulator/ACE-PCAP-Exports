@@ -36,8 +36,6 @@ VALUES (23097,  13, 0.899999976158142) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23097,   1, 'Swarthy Mattekar Robe') /* Name */
-     , (23097,   7, ' 47.6 S 86.3 W') /* Inscription */
-     , (23097,   8, 'Destiny Blow') /* ScribeName */
      , (23097,  15, 'Rare, lightweight, extremely warm robe crafted from the hide of the vile Swarthy Mattekar, rumored only to appear under certain conditions.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -46,7 +46,7 @@ VALUES (24051,   1,   33557297) /* Setup */
      , (24051,   6,   67113344) /* PaletteBase */
      , (24051,   8,  100672059) /* Icon */
      , (24051,  22,  872415275) /* PhysicsEffectTable */
-     , (24051,  28,       3203) /* Spell */
+     , (24051,  28,       3203) /* Spell - DispelAllBadOther7NoManaCon */
      , (24051, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (24051, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24051, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

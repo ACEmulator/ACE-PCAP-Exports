@@ -40,7 +40,6 @@ VALUES (24201,   1, False) /* Stuck */
      , (24201,  19, True ) /* Attackable */
      , (24201,  22, True ) /* Inscribable */
      , (24201,  69, False) /* IsSellable */
-     , (24201,  85, True ) /* AppraisalHasAllowedWielder */
      , (24201,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -56,11 +55,7 @@ VALUES (24201,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24201,   1, 'Weeping Crossbow') /* Name */
-     , (24201,   7, 'Darkness flows from the center of the eye coursing through your veins and into the very fiber of your being. Your thoughts become muddled and filled with rage. You have become a Player Killer.') /* Inscription */
-     , (24201,   8, 'Ares Blackheart') /* ScribeName */
-     , (24201,  15, 'A crossbow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
-     , (24201,  16, NULL) /* LongDesc */
-     , (24201,  25, 'Crog') /* CraftsmanName */;
+     , (24201,  15, 'A crossbow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24201,   1,   33558299) /* Setup */

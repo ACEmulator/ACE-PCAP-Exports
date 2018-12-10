@@ -13,16 +13,7 @@ VALUES (47446,   1,          1) /* ItemType - MeleeWeapon */
      , (47446,  51,          1) /* CombatUse - Melee */
      , (47446,  65,          1) /* Placement - RightHandCombat */
      , (47446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47446, 105,          8) /* ItemWorkmanship */
-     , (47446, 106,        228) /* ItemSpellcraft */
-     , (47446, 107,       1618) /* ItemCurMana */
-     , (47446, 108,       1618) /* ItemMaxMana */
-     , (47446, 109,        228) /* ItemDifficulty */
-     , (47446, 110,          0) /* ItemAllegianceRankLimit */
-     , (47446, 115,          0) /* ItemSkillLevelLimit */
-     , (47446, 131,         33) /* MaterialType - Opal */
-     , (47446, 151,          2) /* HookType - Wall */
-     , (47446, 172,          1) /* AppraisalLongDescDecoration */;
+     , (47446, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47446,   1, False) /* Stuck */
@@ -32,12 +23,8 @@ VALUES (47446,   1, False) /* Stuck */
      , (47446,  19, True ) /* Attackable */
      , (47446,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47446,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47446,   1, 'Mace') /* Name */
-     , (47446,  16, 'Killed by Ellipses''s Wisp.') /* LongDesc */;
+VALUES (47446,   1, 'Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47446,   1,   33554746) /* Setup */
@@ -58,9 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47446,   3, 3685887694) /* Wielder */
      , (47446, 8000, 3685887696) /* PCAPRecordedObjectIID */
      , (47446, 8008, 3685887694) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47446,   731,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47446, 67111920, 0, 0);

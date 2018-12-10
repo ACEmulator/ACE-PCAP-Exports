@@ -22,9 +22,7 @@ VALUES (3698,   1, False) /* Stuck */
      , (3698,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3698,   1, 'White Jewel') /* Name */
-     , (3698,   7, 'To Triumph,                                                                                    For all of the times that you listened to me and helped me.  I will keep your friendship, forever') /* Inscription */
-     , (3698,   8, 'Cyndane') /* ScribeName */;
+VALUES (3698,   1, 'White Jewel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3698,   1,   33554809) /* Setup */

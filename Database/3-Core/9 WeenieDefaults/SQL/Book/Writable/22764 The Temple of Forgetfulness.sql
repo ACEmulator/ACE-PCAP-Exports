@@ -8,32 +8,10 @@ VALUES (22764,   1,       8192) /* ItemType - Writable */
      , (22764,   5,         10) /* EncumbranceVal */
      , (22764,  16,          8) /* ItemUseable - Contained */
      , (22764,  19,          0) /* Value */
-     , (22764,  44,         38) /* Damage */
-     , (22764,  45,          8) /* DamageType - Cold */
-     , (22764,  47,          4) /* AttackType - Slash */
-     , (22764,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (22764,  49,         42) /* WeaponTime */
      , (22764,  65,        101) /* Placement - Resting */
      , (22764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22764, 105,          9) /* ItemWorkmanship */
-     , (22764, 106,        315) /* ItemSpellcraft */
-     , (22764, 107,        794) /* ItemCurMana */
-     , (22764, 108,        794) /* ItemMaxMana */
-     , (22764, 109,        147) /* ItemDifficulty */
-     , (22764, 110,          0) /* ItemAllegianceRankLimit */
-     , (22764, 115,        335) /* ItemSkillLevelLimit */
-     , (22764, 131,         51) /* MaterialType - Ivory */
-     , (22764, 158,          2) /* WieldRequirements - RawSkill */
-     , (22764, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (22764, 160,        325) /* WieldDifficulty */
-     , (22764, 172,          5) /* AppraisalLongDescDecoration */
      , (22764, 174,          2) /* AppraisalPages */
-     , (22764, 175,          2) /* AppraisalMaxPages */
-     , (22764, 176,         46) /* AppraisalItemSkill */
-     , (22764, 177,          4) /* GemCount */
-     , (22764, 178,         13) /* GemType */
-     , (22764, 353,          3) /* WeaponType - Axe */
-     , (22764, 8030,          0);
+     , (22764, 175,          2) /* AppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22764,   1, False) /* Stuck */
@@ -43,15 +21,8 @@ VALUES (22764,   1, False) /* Stuck */
      , (22764,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22764,   5, -0.0555555555555556) /* ManaRate */
-     , (22764,  21,       0) /* WeaponLength */
-     , (22764,  22,    0.83) /* DamageVariance */
-     , (22764,  26,       0) /* MaximumVelocity */
-     , (22764,  29,    1.08) /* WeaponDefense */
-     , (22764,  39, 1.22000002861023) /* DefaultScale */
-     , (22764,  54, 0.300000011920929) /* UseRadius */
-     , (22764,  62,    1.15) /* WeaponOffense */
-     , (22764,  63,       1) /* DamageMod */;
+VALUES (22764,  39, 1.22000002861023) /* DefaultScale */
+     , (22764,  54, 0.300000011920929) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22764,   1, 'The Temple of Forgetfulness') /* Name */
@@ -69,12 +40,6 @@ VALUES (22764,   1,   33554771) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22764,   2, 2186220449) /* Container */
      , (22764, 8000, 2186220451) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22764,  1591,      2) 
-     , (22764,  1616,      2) 
-     , (22764,  2116,      2) 
-     , (22764,  5880,      2) ;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (22764, 2, 1000);

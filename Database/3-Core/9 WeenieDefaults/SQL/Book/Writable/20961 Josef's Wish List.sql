@@ -10,7 +10,6 @@ VALUES (20961,   1,       8192) /* ItemType - Writable */
      , (20961,  19,          0) /* Value */
      , (20961,  65,        101) /* Placement - Resting */
      , (20961,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (20961, 107,          0) /* ItemCurMana */
      , (20961, 174,          1) /* AppraisalPages */
      , (20961, 175,          1) /* AppraisalMaxPages */;
 
@@ -22,13 +21,10 @@ VALUES (20961,   1, False) /* Stuck */
      , (20961,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20961,  39, 1.22000002861023) /* DefaultScale */
-     , (20961,  87,     1.2) /* ItemEfficiency */
-     , (20961, 137,    0.15) /* ManaStoneDestroyChance */;
+VALUES (20961,  39, 1.22000002861023) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20961,   1, 'Josef''s Wish List') /* Name */
-     , (20961,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (20961,  16, 'A list of trophies that Josef thinks will please Martine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

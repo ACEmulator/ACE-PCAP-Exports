@@ -22,9 +22,6 @@ VALUES (8147,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8147,   1, 'Tusker Head') /* Name */
-     , (8147,   7, 'from Cyn
-') /* Inscription */
-     , (8147,   8, 'Triumph') /* ScribeName */
      , (8147,  16, 'A bloody head that smells of blood, sweat, and unwashed fur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

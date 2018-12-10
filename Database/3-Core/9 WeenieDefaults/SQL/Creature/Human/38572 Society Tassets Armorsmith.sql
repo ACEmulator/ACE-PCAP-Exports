@@ -6,29 +6,18 @@ VALUES (38572, 'ace38572-societytassetsarmorsmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38572,   1,         16) /* ItemType - Creature */
      , (38572,   2,         31) /* CreatureType - Human */
-     , (38572,   5,         10) /* EncumbranceVal */
      , (38572,   6,        255) /* ItemsCapacity */
      , (38572,   7,        255) /* ContainersCapacity */
      , (38572,  16,         32) /* ItemUseable - Remote */
-     , (38572,  19,          0) /* Value */
      , (38572,  25,        185) /* Level */
-     , (38572,  33,          1) /* Bonded - Bonded */
-     , (38572,  91,         50) /* MaxStructure */
-     , (38572,  92,         50) /* Structure */
      , (38572,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38572,  95,          8) /* RadarBlipColor - Yellow */
-     , (38572, 105,          7) /* ItemWorkmanship */
      , (38572, 113,          1) /* Gender - Male */
-     , (38572, 114,          1) /* Attuned - Attuned */
      , (38572, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38572, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38572, 188,          4) /* HeritageGroup - Viamontian */
-     , (38572, 280,        213) /* SharedCooldown */
-     , (38572, 366,         54) /* UseRequiresSkill */
-     , (38572, 367,        370) /* UseRequiresSkillLevel */
-     , (38572, 369,         70) /* UseRequiresLevel */
-     , (38572, 370,         14) /* GearDamage */
-     , (38572, 375,          8) /* GearCritDamageResist */
+     , (38572, 281,          4) /* Faction1Bits */
+     , (38572, 289,        101) /* SocietyRankRadblo */
      , (38572, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,18 +28,14 @@ VALUES (38572,   1, True ) /* Stuck */
      , (38572,  14, True ) /* GravityStatus */
      , (38572,  19, False) /* Attackable */
      , (38572,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38572,  42, True ) /* AllowEdgeSlide */
-     , (38572,  69, True ) /* IsSellable */;
+     , (38572,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38572,  54,       3) /* UseRadius */
-     , (38572, 167,      45) /* CooldownDuration */;
+VALUES (38572,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38572,   1, 'Society Tassets Armorsmith') /* Name */
      , (38572,   5, 'Society Armorsmith') /* Template */
-     , (38572,  14, 'Use this essence to summon or dismiss your Acid Skeleton Minion.') /* Use */
-     , (38572,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */
      , (38572, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,8 +61,18 @@ VALUES (38572, 8040, 12124421, 57.7021, -41.4561, -23.995, 0.7071068, 0, 0, -0.7
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38572, 8000, 3693008320) /* PCAPRecordedObjectIID */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (38572,   1, 290, 0, 0) /* Strength */
+     , (38572,   2, 200, 0, 0) /* Endurance */
+     , (38572,   3, 290, 0, 0) /* Quickness */
+     , (38572,   4, 290, 0, 0) /* Coordination */
+     , (38572,   5, 200, 0, 0) /* Focus */
+     , (38572,   6, 200, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38572,   1,   296, 0, 0, 296) /* MaxHealth */;
+VALUES (38572,   1,   296, 0, 0, 296) /* MaxHealth */
+     , (38572,   3,   396, 0, 0, 396) /* MaxStamina */
+     , (38572,   5,   396, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38572, 67109564, 32, 8)

@@ -6,16 +6,12 @@ VALUES (33844, 'ace33844-blackflame', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33844,   1,         16) /* ItemType - Creature */
      , (33844,   2,         22) /* CreatureType - Shadow */
-     , (33844,   5,       6050) /* EncumbranceVal */
      , (33844,   6,        255) /* ItemsCapacity */
      , (33844,   7,        255) /* ContainersCapacity */
      , (33844,  16,          1) /* ItemUseable - No */
-     , (33844,  19,          0) /* Value */
      , (33844,  25,        160) /* Level */
      , (33844,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33844, 113,          2) /* Gender - Female */
      , (33844, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (33844, 188,          1) /* HeritageGroup - Aluvian */
      , (33844, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,7 +26,6 @@ VALUES (33844,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33844,   1, 'Black Flame') /* Name */
-     , (33844,  16, 'Killed by Ekhidna''s Maiden.') /* LongDesc */
      , (33844, 8006, 'AAE8AMEAAAA8AGdm5r9jABAAAAAAQAAAq94CUA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -38,12 +33,6 @@ VALUES (33844,   1,   33556634) /* Setup */
      , (33844,   2,  150995087) /* MotionTable */
      , (33844,   3,  536870985) /* SoundTable */
      , (33844,   8,  100668442) /* Icon */
-     , (33844,   9,   83890262) /* EyesTexture */
-     , (33844,  10,   83890317) /* NoseTexture */
-     , (33844,  11,   83890348) /* MouthTexture */
-     , (33844,  15,   67117027) /* HairPalette */
-     , (33844,  16,   67110064) /* EyesPalette */
-     , (33844,  17,   67109559) /* SkinPalette */
      , (33844,  22,  872415331) /* PhysicsEffectTable */
      , (33844, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33844, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
@@ -65,6 +54,6 @@ VALUES (33844,   1, 290, 0, 0) /* Strength */
      , (33844,   6, 380, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33844,   1,  2165, 0, 0, 2019) /* MaxHealth */
-     , (33844,   3,   930, 0, 0, 926) /* MaxStamina */
+VALUES (33844,   1,  2165, 0, 0, 2038) /* MaxHealth */
+     , (33844,   3,   930, 0, 0, 923) /* MaxStamina */
      , (33844,   5,   820, 0, 0, 820) /* MaxMana */;

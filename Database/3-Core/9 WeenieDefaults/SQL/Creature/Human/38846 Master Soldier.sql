@@ -32,12 +32,12 @@ VALUES (38846,   1,   33554433) /* Setup */
      , (38846,   2,  150994945) /* MotionTable */
      , (38846,   3,  536870913) /* SoundTable */
      , (38846,   8,  100667446) /* Icon */
-     , (38846,   9,   83890499) /* EyesTexture */
-     , (38846,  10,   83890556) /* NoseTexture */
-     , (38846,  11,   83890566) /* MouthTexture */
-     , (38846,  15,   67116981) /* HairPalette */
-     , (38846,  16,   67110064) /* EyesPalette */
-     , (38846,  17,   67109560) /* SkinPalette */
+     , (38846,   9,   83890445) /* EyesTexture */
+     , (38846,  10,   83890521) /* NoseTexture */
+     , (38846,  11,   83890637) /* MouthTexture */
+     , (38846,  15,   67116994) /* HairPalette */
+     , (38846,  16,   67109565) /* EyesPalette */
+     , (38846,  17,   67109559) /* SkinPalette */
      , (38846,  22,  872415236) /* PhysicsEffectTable */
      , (38846, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38846, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

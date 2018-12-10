@@ -9,16 +9,7 @@ VALUES (3140,   1,       8192) /* ItemType - Writable */
      , (3140,  16,          8) /* ItemUseable - Contained */
      , (3140,  19,        100) /* Value */
      , (3140,  65,        101) /* Placement - Resting */
-     , (3140,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3140, 105,          6) /* ItemWorkmanship */
-     , (3140, 106,        218) /* ItemSpellcraft */
-     , (3140, 107,       1401) /* ItemCurMana */
-     , (3140, 108,       1401) /* ItemMaxMana */
-     , (3140, 109,        218) /* ItemDifficulty */
-     , (3140, 110,          0) /* ItemAllegianceRankLimit */
-     , (3140, 115,          0) /* ItemSkillLevelLimit */
-     , (3140, 131,         59) /* MaterialType - Copper */
-     , (3140, 172,          1) /* AppraisalLongDescDecoration */;
+     , (3140,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3140,   1, False) /* Stuck */
@@ -29,8 +20,7 @@ VALUES (3140,   1, False) /* Stuck */
      , (3140,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3140,   5,   -0.05) /* ManaRate */
-     , (3140,  39,     1.5) /* DefaultScale */;
+VALUES (3140,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3140,   1, 'Scroll of Arcane Enlightenment Self IV') /* Name */
@@ -42,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3140,   1,   33554826) /* Setup */
      , (3140,   8,  100676447) /* Icon */
      , (3140,  22,  872415275) /* PhysicsEffectTable */
-     , (3140,  28,        681) /* Spell */
+     , (3140,  28,        681) /* Spell - ArcaneEnlightenmentSelf4 */
      , (3140, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3140, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3140, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -52,5 +42,4 @@ VALUES (3140,   2, 3693432813) /* Container */
      , (3140, 8000, 3694570528) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3140,   681,      2) 
-     , (3140,  1113,      2) ;
+VALUES (3140,   681,      2) ;

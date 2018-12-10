@@ -6,45 +6,19 @@ VALUES (38547, 'ace38547-societybreastplatearmorsmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38547,   1,         16) /* ItemType - Creature */
      , (38547,   2,         31) /* CreatureType - Human */
-     , (38547,   5,          1) /* EncumbranceVal */
      , (38547,   6,        255) /* ItemsCapacity */
      , (38547,   7,        255) /* ContainersCapacity */
      , (38547,  16,         32) /* ItemUseable - Remote */
-     , (38547,  19,        100) /* Value */
      , (38547,  25,        185) /* Level */
-     , (38547,  44,         40) /* Damage */
-     , (38547,  45,         16) /* DamageType - Fire */
-     , (38547,  48,          0) /* WeaponSkill - None */
-     , (38547,  49,         -1) /* WeaponTime */
      , (38547,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38547,  95,          8) /* RadarBlipColor - Yellow */
      , (38547, 113,          1) /* Gender - Male */
      , (38547, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38547, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38547, 158,          8) /* WieldRequirements - Training */
-     , (38547, 159,         37) /* WieldSkilltype - Fletching */
-     , (38547, 160,          3) /* WieldDifficulty */
-     , (38547, 166,         14) /* SlayerCreatureType - Undead */
-     , (38547, 179,        512) /* ImbuedEffect - FireRending */
      , (38547, 188,          4) /* HeritageGroup - Viamontian */
-     , (38547, 270,          2) /* WieldRequirements2 - RawSkill */
-     , (38547, 271,         37) /* WieldSkilltype2 - Fletching */
-     , (38547, 272,        375) /* WieldDifficulty2 */
-     , (38547, 273,          2) /* WieldRequirements3 - RawSkill */
-     , (38547, 274,         47) /* WieldSkilltype3 - MissileWeapons */
-     , (38547, 275,        300) /* WieldDifficulty3 */
      , (38547, 281,          1) /* Faction1Bits */
      , (38547, 287,        601) /* SocietyRankCelhan */
-     , (38547, 303,        512) /* ImbuedEffect2 - FireRending */
-     , (38547, 304,        512) /* ImbuedEffect3 - FireRending */
-     , (38547, 305,        512) /* ImbuedEffect4 - FireRending */
-     , (38547, 306,        512) /* ImbuedEffect5 - FireRending */
-     , (38547, 307,         41) /* DamageRating */
-     , (38547, 313,          1) /* CritRating */
-     , (38547, 314,         17) /* CritDamageRating */
-     , (38547, 386,          0) /* Overpower */
-     , (38547, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38547, 8030,          0);
+     , (38547, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38547,   1, True ) /* Stuck */
@@ -54,25 +28,14 @@ VALUES (38547,   1, True ) /* Stuck */
      , (38547,  14, True ) /* GravityStatus */
      , (38547,  19, False) /* Attackable */
      , (38547,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38547,  42, True ) /* AllowEdgeSlide */
-     , (38547,  69, False) /* IsSellable */;
+     , (38547,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38547,  21,       0) /* WeaponLength */
-     , (38547,  22,     0.3) /* DamageVariance */
-     , (38547,  26,       0) /* MaximumVelocity */
-     , (38547,  29,       1) /* WeaponDefense */
-     , (38547,  54,       3) /* UseRadius */
-     , (38547,  62,       1) /* WeaponOffense */
-     , (38547,  63,       1) /* DamageMod */
-     , (38547, 149,       0) /* WeaponMissileDefense */
-     , (38547, 150,       0) /* WeaponMagicDefense */;
+VALUES (38547,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38547,   1, 'Society Breastplate Armorsmith') /* Name */
      , (38547,   5, 'Society Armorsmith') /* Template */
-     , (38547,  14, 'You must be a specialized fletcher of great skill to use these potentially volatile arrows.') /* Use */
-     , (38547,  16, 'Deadly, crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */
      , (38547, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

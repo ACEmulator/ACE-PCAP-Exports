@@ -5,14 +5,12 @@ VALUES (45429, 'ace45429-flamingweepingdagger', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45429,   1,          1) /* ItemType - MeleeWeapon */
-     , (45429,   2,         44) /* CreatureType - Grievver */
      , (45429,   5,         20) /* EncumbranceVal */
      , (45429,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45429,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45429,  16,          1) /* ItemUseable - No */
      , (45429,  18,         33) /* UiEffects - Magical, Fire */
      , (45429,  19,      14677) /* Value */
-     , (45429,  25,        200) /* Level */
      , (45429,  44,         24) /* Damage */
      , (45429,  45,         16) /* DamageType - Fire */
      , (45429,  47,        160) /* AttackType - DoubleSlash, DoubleThrust */
@@ -35,8 +33,6 @@ VALUES (45429,   1,          1) /* ItemType - MeleeWeapon */
      , (45429, 160,        350) /* WieldDifficulty */
      , (45429, 172,          1) /* AppraisalLongDescDecoration */
      , (45429, 176,         44) /* AppraisalItemSkill */
-     , (45429, 177,          2) /* GemCount */
-     , (45429, 178,         33) /* GemType */
      , (45429, 353,          6) /* WeaponType - Dagger */
      , (45429, 8030,          0);
 
@@ -56,8 +52,6 @@ VALUES (45429,   5, -0.0555555555555556) /* ManaRate */
      , (45429,  29,    1.13) /* WeaponDefense */
      , (45429,  62,    1.08) /* WeaponOffense */
      , (45429,  63,       1) /* DamageMod */
-     , (45429, 149,   1.015) /* WeaponMissileDefense */
-     , (45429, 150,    1.03) /* WeaponMagicDefense */
      , (45429, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -87,64 +81,9 @@ VALUES (45429,   3, 1343192190) /* Wielder */
      , (45429, 8000, 2355482491) /* PCAPRecordedObjectIID */
      , (45429, 8008, 1343192190) /* PCAPRecordedParentIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (45429,   1, 280, 0, 0) /* Strength */
-     , (45429,   2, 190, 0, 0) /* Endurance */
-     , (45429,   3, 280, 0, 0) /* Quickness */
-     , (45429,   4, 230, 0, 0) /* Coordination */
-     , (45429,   5, 170, 0, 0) /* Focus */
-     , (45429,   6, 220, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45429,   1,  1495, 0, 0, 1495) /* MaxHealth */
-     , (45429,   3,  1190, 0, 0, 1190) /* MaxStamina */
-     , (45429,   5,  1120, 0, 0, 1101) /* MaxMana */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45429,  1332,      2) 
-     , (45429,  1402,      2) 
-     , (45429,  1588,      2) 
-     , (45429,  1591,      2) 
-     , (45429,  1592,      2) 
-     , (45429,  1599,      2) 
-     , (45429,  1605,      2) 
-     , (45429,  1612,      2) 
-     , (45429,  1613,      2) 
-     , (45429,  1615,      2) 
-     , (45429,  1616,      2) 
-     , (45429,  1626,      2) 
-     , (45429,  1627,      2) 
-     , (45429,  2081,      2) 
-     , (45429,  2087,      2) 
-     , (45429,  2096,      2) 
-     , (45429,  2101,      2) 
-     , (45429,  2106,      2) 
-     , (45429,  2116,      2) 
-     , (45429,  2502,      2) 
-     , (45429,  2510,      2) 
-     , (45429,  2531,      2) 
-     , (45429,  2536,      2) 
-     , (45429,  2566,      2) 
-     , (45429,  2572,      2) 
-     , (45429,  2576,      2) 
-     , (45429,  2582,      2) 
-     , (45429,  2596,      2) 
-     , (45429,  2600,      2) 
-     , (45429,  2618,      2) 
-     , (45429,  4226,      2) 
-     , (45429,  4325,      2) 
-     , (45429,  4395,      2) 
-     , (45429,  4400,      2) 
-     , (45429,  4405,      2) 
-     , (45429,  4675,      2) 
-     , (45429,  4704,      2) 
-     , (45429,  4710,      2) 
-     , (45429,  5785,      2) 
-     , (45429,  5810,      2) 
-     , (45429,  5879,      2) 
-     , (45429,  5882,      2) 
-     , (45429,  5883,      2) 
-     , (45429,  6126,      2) ;
+VALUES (45429,  1616,      2) 
+     , (45429,  2116,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45429, 67114520, 0, 0);

@@ -16,7 +16,6 @@ VALUES (42138,   1,         16) /* ItemType - Creature */
      , (42138, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42138, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (42138, 188,          4) /* HeritageGroup - Viamontian */
-     , (42138, 386,         10) /* Overpower */
      , (42138, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

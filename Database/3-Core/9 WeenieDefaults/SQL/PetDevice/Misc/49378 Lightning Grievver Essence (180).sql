@@ -24,7 +24,6 @@ VALUES (49378,   1,        128) /* ItemType - Misc */
      , (49378, 370,         16) /* GearDamage */
      , (49378, 371,         11) /* GearDamageResist */
      , (49378, 372,         11) /* GearCrit */
-     , (49378, 373,          8) /* GearCritResist */
      , (49378, 374,          4) /* GearCritDamage */
      , (49378, 375,         13) /* GearCritDamageResist */;
 

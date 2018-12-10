@@ -31,14 +31,10 @@ VALUES (3894,   1,          1) /* ItemType - MeleeWeapon */
      , (3894, 158,          2) /* WieldRequirements - RawSkill */
      , (3894, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (3894, 160,        350) /* WieldDifficulty */
-     , (3894, 171,          5) /* NumTimesTinkered */
      , (3894, 172,          5) /* AppraisalLongDescDecoration */
      , (3894, 176,         44) /* AppraisalItemSkill */
      , (3894, 177,          5) /* GemCount */
      , (3894, 178,         21) /* GemType */
-     , (3894, 179,        256) /* ImbuedEffect - ElectricRending */
-     , (3894, 188,          2) /* HeritageGroup - Gharundim */
-     , (3894, 204,         11) /* ElementalDamageBonus */
      , (3894, 353,          2) /* WeaponType - Sword */
      , (3894, 8030,          0);
 
@@ -49,7 +45,6 @@ VALUES (3894,   1, False) /* Stuck */
      , (3894,  14, True ) /* GravityStatus */
      , (3894,  19, True ) /* Attackable */
      , (3894,  22, True ) /* Inscribable */
-     , (3894,  85, True ) /* AppraisalHasAllowedWielder */
      , (3894,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -66,13 +61,7 @@ VALUES (3894,   5, -0.0555555555555556) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3894,   1, 'Lightning Takuba') /* Name */
-     , (3894,   7, 'For Shib''s. may it serve you well
-') /* Inscription */
-     , (3894,   8, 'Ronin Vang') /* ScribeName */
-     , (3894,  16, 'Lightning Takuba of Swiftkiller') /* LongDesc */
-     , (3894,  25, 'Mag-one') /* CraftsmanName */
-     , (3894,  39, 'Slartibartfast') /* TinkerName */
-     , (3894,  40, 'Lizardman') /* ImbuerName */;
+     , (3894,  16, 'Lightning Takuba of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3894,   1,   33555808) /* Setup */
@@ -96,33 +85,6 @@ VALUES (3894,   3, 1342922043) /* Wielder */
      , (3894, 8008, 1342922043) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3894,    49,      2) 
-     , (3894,  1401,      2) 
-     , (3894,  1589,      2) 
-     , (3894,  1591,      2) 
-     , (3894,  1592,      2) 
-     , (3894,  1612,      2) 
-     , (3894,  1614,      2) 
-     , (3894,  1615,      2) 
-     , (3894,  1616,      2) 
-     , (3894,  1626,      2) 
-     , (3894,  1627,      2) 
-     , (3894,  2081,      2) 
-     , (3894,  2096,      2) 
-     , (3894,  2101,      2) 
-     , (3894,  2106,      2) 
+VALUES (3894,  1616,      2) 
      , (3894,  2116,      2) 
-     , (3894,  2514,      2) 
-     , (3894,  2537,      2) 
-     , (3894,  2547,      2) 
-     , (3894,  2556,      2) 
-     , (3894,  2572,      2) 
-     , (3894,  2583,      2) 
-     , (3894,  2586,      2) 
-     , (3894,  2588,      2) 
-     , (3894,  2608,      2) 
-     , (3894,  4299,      2) 
-     , (3894,  4661,      2) 
-     , (3894,  5879,      2) 
-     , (3894,  5880,      2) 
-     , (3894,  6127,      2) ;
+     , (3894,  2608,      2) ;

@@ -5,21 +5,13 @@ VALUES (38922, 'ace38922-tthuunshield', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38922,   1,          2) /* ItemType - Armor */
-     , (38922,   2,         79) /* CreatureType - Eater */
      , (38922,   5,        300) /* EncumbranceVal */
      , (38922,   9,    2097152) /* ValidLocations - Shield */
      , (38922,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (38922,  16,          1) /* ItemUseable - No */
-     , (38922,  19,        884) /* Value */
-     , (38922,  25,        100) /* Level */
      , (38922,  51,          4) /* CombatUse - Shield */
-     , (38922,  89,          2) /* BoosterEnum - Health */
-     , (38922,  90,         65) /* BoostValue */
      , (38922,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38922, 105,          6) /* ItemWorkmanship */
-     , (38922, 131,         36) /* MaterialType - RedJade */
-     , (38922, 151,          2) /* HookType - Wall */
-     , (38922, 172,          1) /* AppraisalLongDescDecoration */;
+     , (38922, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38922,   1, False) /* Stuck */
@@ -32,9 +24,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38922,  39, 1.60000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38922,   1, 'T''thuun Shield') /* Name */
-     , (38922,  14, 'Use this item to drink it.') /* Use */
-     , (38922,  16, 'Gem') /* LongDesc */;
+VALUES (38922,   1, 'T''thuun Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38922,   1,   33560679) /* Setup */
@@ -54,16 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38922,   3, 3327557641) /* Wielder */
      , (38922, 8000, 3327422567) /* PCAPRecordedObjectIID */
      , (38922, 8008, 3327557641) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (38922,   1, 380, 0, 0) /* Strength */
-     , (38922,   2, 390, 0, 0) /* Endurance */
-     , (38922,   3, 230, 0, 0) /* Quickness */
-     , (38922,   4, 250, 0, 0) /* Coordination */
-     , (38922,   5, 180, 0, 0) /* Focus */
-     , (38922,   6, 180, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38922,   1,   495, 0, 0, 495) /* MaxHealth */
-     , (38922,   3,   690, 0, 0, 684) /* MaxStamina */
-     , (38922,   5,   180, 0, 0, 180) /* MaxMana */;

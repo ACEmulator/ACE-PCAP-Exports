@@ -40,7 +40,6 @@ VALUES (41881,   1, False) /* Stuck */
      , (41881,  14, True ) /* GravityStatus */
      , (41881,  19, True ) /* Attackable */
      , (41881,  22, True ) /* Inscribable */
-     , (41881,  85, True ) /* AppraisalHasAllowedWielder */
      , (41881,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -58,10 +57,7 @@ VALUES (41881,   5, -0.0329999998211861) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41881,   1, 'Ultimate Singularity Crossbow') /* Name */
-     , (41881,   7, 'Critical hit!  You burn Rynthid Rager for 5320 points of fire damage!') /* Inscription */
-     , (41881,   8, 'Crog') /* ScribeName */
-     , (41881,  15, 'A crossbow imbued with Singularity energy.') /* ShortDesc */
-     , (41881,  25, 'Crog') /* CraftsmanName */;
+     , (41881,  15, 'A crossbow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41881,   1,   33557313) /* Setup */

@@ -33,23 +33,17 @@ VALUES (48938,   1, False) /* Stuck */
      , (48938,  15, True ) /* LightsStatus */
      , (48938,  19, True ) /* Attackable */
      , (48938,  22, True ) /* Inscribable */
-     , (48938,  85, True ) /* AppraisalHasAllowedWielder */
      , (48938,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48938,   5, -0.025000000372529) /* ManaRate */
      , (48938,  29, 1.20000004768372) /* WeaponDefense */
      , (48938,  39, 0.600000023841858) /* DefaultScale */
-     , (48938, 144, 0.200000002980232) /* ManaConversionMod */
-     , (48938, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (48938, 144, 0.200000002980232) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48938,   1, 'Legendary Seed of Mornings') /* Name */
-     , (48938,   7, '
-Matchstick tells you, "this stuff is like veggie cocaine! yummmmmmm"') /* Inscription */
-     , (48938,   8, 'Malt Liquor') /* ScribeName */
-     , (48938,  16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Mornings, underneath the desert sands.') /* LongDesc */
-     , (48938,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
+     , (48938,  16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Mornings, underneath the desert sands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48938,   1,   33561509) /* Setup */
@@ -57,7 +51,7 @@ VALUES (48938,   1,   33561509) /* Setup */
      , (48938,   6,   67111919) /* PaletteBase */
      , (48938,   8,  100692970) /* Icon */
      , (48938,  22,  872415275) /* PhysicsEffectTable */
-     , (48938,  28,       2072) /* Spell */
+     , (48938,  28,       2072) /* Spell - HealOther7 */
      , (48938, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (48938, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48938, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

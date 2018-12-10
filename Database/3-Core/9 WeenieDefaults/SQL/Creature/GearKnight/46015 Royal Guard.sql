@@ -6,19 +6,14 @@ VALUES (46015, 'ace46015-royalguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46015,   1,         16) /* ItemType - Creature */
      , (46015,   2,         99) /* CreatureType - GearKnight */
-     , (46015,   5,         50) /* EncumbranceVal */
      , (46015,   6,        255) /* ItemsCapacity */
      , (46015,   7,        255) /* ContainersCapacity */
      , (46015,  16,         32) /* ItemUseable - Remote */
-     , (46015,  19,        750) /* Value */
      , (46015,  25,        275) /* Level */
-     , (46015,  91,         35) /* MaxStructure */
-     , (46015,  92,         35) /* Structure */
      , (46015,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (46015,  95,          8) /* RadarBlipColor - Yellow */
      , (46015, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (46015, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (46015, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (46015, 307,          5) /* DamageRating */
      , (46015, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -39,7 +34,6 @@ VALUES (46015,  39, 1.20000004768372) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46015,   1, 'Royal Guard') /* Name */
      , (46015,   5, 'Grievver Shredder Hunter') /* Template */
-     , (46015,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (46015, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

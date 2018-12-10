@@ -35,8 +35,6 @@ VALUES (8149,  13, 0.449999988079071) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8149,   1, 'Drudge Mask') /* Name */
-     , (8149,   7, 'W00t') /* Inscription */
-     , (8149,   8, 'Killerwolf') /* ScribeName */
      , (8149,  16, 'A mask made from the head of a Drudge Prowler.  Its skin is very well cured, and the mask is very well put together.  A faint odor still clings to it however...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

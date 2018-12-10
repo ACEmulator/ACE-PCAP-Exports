@@ -26,8 +26,7 @@ VALUES (35590,   1, False) /* Stuck */
      , (35590,  13, True ) /* Ethereal */
      , (35590,  14, True ) /* GravityStatus */
      , (35590,  19, True ) /* Attackable */
-     , (35590,  22, True ) /* Inscribable */
-     , (35590,  91, True ) /* Retained */;
+     , (35590,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35590,   5,  -0.033) /* ManaRate */
@@ -35,8 +34,6 @@ VALUES (35590,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35590,   1, 'Protective Drudge Charm') /* Name */
-     , (35590,   7, '...and death shall raineth upon the drudges.  And Bonecrunch shall know fear.') /* Inscription */
-     , (35590,   8, 'Tinker McBaggins') /* ScribeName */
      , (35590,  16, 'A powerful charm crafted by Bonecrunch. The charm emanates magical energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

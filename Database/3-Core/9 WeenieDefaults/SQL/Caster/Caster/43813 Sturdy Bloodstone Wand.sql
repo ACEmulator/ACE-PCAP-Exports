@@ -46,10 +46,6 @@ VALUES (43813,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43813,   1, 'Sturdy Bloodstone Wand') /* Name */
-     , (43813,   7, 'Thank You Berek Heartthew and Nickk =)
-
-07/01/2012') /* Inscription */
-     , (43813,   8, 'Gwendolyn du Avalon') /* ScribeName */
      , (43813,  16, 'A wand, crafted from the remains of the shattered Master Bloodstone.  This wand has been reinforced in order to make it easier to wield, but it lost some of its potency in the process.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -58,7 +54,7 @@ VALUES (43813,   1,   33561162) /* Setup */
      , (43813,   6,   67111919) /* PaletteBase */
      , (43813,   8,  100672995) /* Icon */
      , (43813,  22,  872415275) /* PhysicsEffectTable */
-     , (43813,  28,       5530) /* Spell */
+     , (43813,  28,       5530) /* Spell - BloodstoneBolt6 */
      , (43813, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (43813, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43813, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

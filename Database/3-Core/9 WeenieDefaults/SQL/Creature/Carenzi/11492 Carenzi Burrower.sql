@@ -6,11 +6,9 @@ VALUES (11492, 'carenziburrower_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11492,   1,         16) /* ItemType - Creature */
      , (11492,   2,         55) /* CreatureType - Carenzi */
-     , (11492,   5,         30) /* EncumbranceVal */
      , (11492,   6,        255) /* ItemsCapacity */
      , (11492,   7,        255) /* ContainersCapacity */
      , (11492,  16,          1) /* ItemUseable - No */
-     , (11492,  19,       2000) /* Value */
      , (11492,  25,         40) /* Level */
      , (11492,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11492, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,9 +26,6 @@ VALUES (11492,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11492,   1, 'Carenzi Burrower') /* Name */
-     , (11492,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (11492,  16, 'Inscribed spell: Fat Fingers
-Decreases the target''s Lockpick skill by 40 points.') /* LongDesc */
      , (11492, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -63,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (11492,   1,   125, 0, 0, 125) /* MaxHealth */
      , (11492,   3,   200, 0, 0, 200) /* MaxStamina */
      , (11492,   5,    85, 0, 0, 85) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11492,  2268,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11492, 67113301, 0, 0);

@@ -28,7 +28,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22446,   1, 'Combined Hyssop and Mandrake') /* Name */
      , (22446,  14, 'Use a bundle of bandages with these herbs to make a Plentiful Healing Kit.') /* Use */
      , (22446,  15, 'A pile of crushed leaves having a malodorous scent.') /* ShortDesc */
-     , (22446,  16, 'Killed by Fquicker.') /* LongDesc */
      , (22446,  20, 'Piles of Hyssop and Mandrake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

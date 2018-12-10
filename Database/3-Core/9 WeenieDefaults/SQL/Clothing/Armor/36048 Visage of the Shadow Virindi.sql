@@ -41,8 +41,6 @@ VALUES (36048,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36048,   1, 'Visage of the Shadow Virindi') /* Name */
-     , (36048,   7, 'Carenzi Race Bookie tells you, "No one thought that Five could do it. He came back from an injury a week ago and proved us all wrong today."') /* Inscription */
-     , (36048,   8, 'Rainwolf') /* ScribeName */
      , (36048,  16, 'This mask was fashioned for its wielder from the defeated essence of Aerbax left within Claude the Archmage. While it lacks in physical form, it radiates magical power beyond most articles of clothing or armor you have encountered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

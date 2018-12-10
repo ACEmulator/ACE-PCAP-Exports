@@ -17,19 +17,11 @@ VALUES (29930,   1,      32768) /* ItemType - Caster */
      , (29930, 107,          0) /* ItemCurMana */
      , (29930, 108,        800) /* ItemMaxMana */
      , (29930, 109,        125) /* ItemDifficulty */
-     , (29930, 114,          0) /* Attuned - Normal */
      , (29930, 151,          2) /* HookType - Wall */
      , (29930, 158,          2) /* WieldRequirements - RawSkill */
      , (29930, 159,         16) /* WieldSkilltype - ManaConversion */
      , (29930, 160,        255) /* WieldDifficulty */
-     , (29930, 166,         75) /* SlayerCreatureType - Burun */
-     , (29930, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
-     , (29930, 319,          2) /* ItemMaxLevel */
-     , (29930, 320,          1) /* ItemXpStyle - Fixed */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (29930,   4, 4000000000) /* ItemTotalXp */
-     , (29930,   5, 2000000000) /* ItemBaseXp */;
+     , (29930, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29930,   1, False) /* Stuck */
@@ -38,15 +30,13 @@ VALUES (29930,   1, False) /* Stuck */
      , (29930,  14, True ) /* GravityStatus */
      , (29930,  19, True ) /* Attackable */
      , (29930,  22, True ) /* Inscribable */
-     , (29930,  85, True ) /* AppraisalHasAllowedWielder */
-     , (29930,  99, False) /* Ivoryable */;
+     , (29930,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29930,   5, -0.0333999991416931) /* ManaRate */
      , (29930,  29, 1.10000002384186) /* WeaponDefense */
      , (29930, 144, 0.119999997317791) /* ManaConversionMod */
-     , (29930, 147,       1) /* CriticalFrequency */
-     , (29930, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (29930, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29930,   1, 'Regal Sceptre') /* Name */

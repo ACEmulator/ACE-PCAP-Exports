@@ -35,8 +35,6 @@ VALUES (36354,  13,     0.5) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36354,   1, 'Cow Mask') /* Name */
-     , (36354,   7, 'to my bff blade... live long and moolicious!') /* Inscription */
-     , (36354,   8, 'Mrs Moolicious') /* ScribeName */
      , (36354,  16, 'A cow mask') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

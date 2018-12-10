@@ -6,11 +6,9 @@ VALUES (46279, 'ace46279-olthoiswarmsoldier', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46279,   1,         16) /* ItemType - Creature */
      , (46279,   2,          1) /* CreatureType - Olthoi */
-     , (46279,   5,       6135) /* EncumbranceVal */
      , (46279,   6,        255) /* ItemsCapacity */
      , (46279,   7,        255) /* ContainersCapacity */
      , (46279,  16,          1) /* ItemUseable - No */
-     , (46279,  19,          0) /* Value */
      , (46279,  25,        100) /* Level */
      , (46279,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (46279, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (46279,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46279,   1, 'Olthoi Swarm Soldier') /* Name */
-     , (46279,  16, 'Killed by Fuuucwb.') /* LongDesc */
      , (46279, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

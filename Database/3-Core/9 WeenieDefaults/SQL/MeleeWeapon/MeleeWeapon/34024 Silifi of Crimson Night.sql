@@ -58,8 +58,6 @@ VALUES (34024,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34024,   1, 'Silifi of Crimson Night') /* Name */
-     , (34024,   7, ' ') /* Inscription */
-     , (34024,   8, 'Genese') /* ScribeName */
      , (34024,  14, 'This silifi has been modified to hold a fourth gem: the Ruby of Crimson Night.  It can only hold on Ruby of Crimson Night.') /* Use */
      , (34024,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the rubies Al-Shajar, Al-Khur, and Mahwan.') /* LongDesc */
      , (34024,  25, 'Azrakin') /* CraftsmanName */;

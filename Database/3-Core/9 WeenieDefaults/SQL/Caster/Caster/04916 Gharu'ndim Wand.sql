@@ -29,9 +29,7 @@ VALUES (4916,  29,       1) /* WeaponDefense */
      , (4916, 144, 1.0830312682694E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4916,   1, 'Gharu''ndim Wand') /* Name */
-     , (4916,   7, 'Manifestation says, "Soliel you dont need to question me, you stole from blackhauk, its all good"') /* Inscription */
-     , (4916,   8, 'Rusk') /* ScribeName */;
+VALUES (4916,   1, 'Gharu''ndim Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4916,   1,   33556000) /* Setup */

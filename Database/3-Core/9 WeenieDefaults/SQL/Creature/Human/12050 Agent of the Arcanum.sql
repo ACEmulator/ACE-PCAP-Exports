@@ -6,30 +6,15 @@ VALUES (12050, 'agentwritrefuge_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12050,   1,         16) /* ItemType - Creature */
      , (12050,   2,         31) /* CreatureType - Human */
-     , (12050,   5,       6933) /* EncumbranceVal */
      , (12050,   6,        255) /* ItemsCapacity */
      , (12050,   7,        255) /* ContainersCapacity */
      , (12050,  16,         32) /* ItemUseable - Remote */
-     , (12050,  19,          0) /* Value */
      , (12050,  25,         75) /* Level */
-     , (12050,  90,         20) /* BoostValue */
-     , (12050,  91,         40) /* MaxStructure */
-     , (12050,  92,         40) /* Structure */
      , (12050,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12050,  95,          8) /* RadarBlipColor - Yellow */
-     , (12050, 105,          8) /* ItemWorkmanship */
-     , (12050, 106,        370) /* ItemSpellcraft */
-     , (12050, 107,        712) /* ItemCurMana */
-     , (12050, 108,        712) /* ItemMaxMana */
-     , (12050, 109,          0) /* ItemDifficulty */
-     , (12050, 110,          0) /* ItemAllegianceRankLimit */
      , (12050, 113,          1) /* Gender - Male */
-     , (12050, 115,          0) /* ItemSkillLevelLimit */
-     , (12050, 117,        400) /* ItemManaCost */
-     , (12050, 131,         21) /* MaterialType - Emerald */
      , (12050, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12050, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (12050, 172,          1) /* AppraisalLongDescDecoration */
      , (12050, 188,          2) /* HeritageGroup - Gharundim */
      , (12050, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -44,13 +29,11 @@ VALUES (12050,   1, True ) /* Stuck */
      , (12050,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12050,  54,       3) /* UseRadius */
-     , (12050, 100,    1.75) /* HealkitMod */;
+VALUES (12050,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12050,   1, 'Agent of the Arcanum') /* Name */
      , (12050,   5, 'Mage') /* Template */
-     , (12050,  16, 'Killed by Grael.') /* LongDesc */
      , (12050, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -88,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12050,   1,    85, 0, 0, 85) /* MaxHealth */
      , (12050,   3,   180, 0, 0, 180) /* MaxStamina */
      , (12050,   5,   230, 0, 0, 230) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12050,  4470,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12050, 67109552, 0, 24)

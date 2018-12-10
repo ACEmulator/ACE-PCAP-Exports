@@ -19,12 +19,6 @@ VALUES (3840,   1,          1) /* ItemType - MeleeWeapon */
      , (3840,  65,        101) /* Placement - Resting */
      , (3840,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3840, 105,          5) /* ItemWorkmanship */
-     , (3840, 106,        233) /* ItemSpellcraft */
-     , (3840, 107,        310) /* ItemCurMana */
-     , (3840, 108,        841) /* ItemMaxMana */
-     , (3840, 109,         48) /* ItemDifficulty */
-     , (3840, 110,          0) /* ItemAllegianceRankLimit */
-     , (3840, 115,        253) /* ItemSkillLevelLimit */
      , (3840, 131,         74) /* MaterialType - Mahogany */
      , (3840, 151,          2) /* HookType - Wall */
      , (3840, 158,          2) /* WieldRequirements - RawSkill */
@@ -32,11 +26,9 @@ VALUES (3840,   1,          1) /* ItemType - MeleeWeapon */
      , (3840, 160,        325) /* WieldDifficulty */
      , (3840, 171,          6) /* NumTimesTinkered */
      , (3840, 172,          7) /* AppraisalLongDescDecoration */
-     , (3840, 176,         45) /* AppraisalItemSkill */
      , (3840, 177,          3) /* GemCount */
      , (3840, 178,         34) /* GemType */
      , (3840, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (3840, 188,          2) /* HeritageGroup - Gharundim */
      , (3840, 353,          7) /* WeaponType - Staff */
      , (3840, 8030,          0);
 
@@ -49,8 +41,7 @@ VALUES (3840,   1, False) /* Stuck */
      , (3840,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3840,   5, -0.0555555555555556) /* ManaRate */
-     , (3840,  21,       0) /* WeaponLength */
+VALUES (3840,  21,       0) /* WeaponLength */
      , (3840,  22, 0.649996280670166) /* DamageVariance */
      , (3840,  26,       0) /* MaximumVelocity */
      , (3840,  29, 1.08000004291534) /* WeaponDefense */
@@ -81,9 +72,3 @@ VALUES (3840,   1,   33555407) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3840,   2, 2401546842) /* Container */
      , (3840, 8000, 2401546850) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3840,  1402,      2) 
-     , (3840,  1604,      2) 
-     , (3840,  1615,      2) 
-     , (3840,  1626,      2) ;

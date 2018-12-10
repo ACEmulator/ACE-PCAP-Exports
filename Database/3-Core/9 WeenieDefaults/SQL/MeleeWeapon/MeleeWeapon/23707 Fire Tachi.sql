@@ -5,27 +5,15 @@ VALUES (23707, 'tachifiredrudgehigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23707,   1,          1) /* ItemType - MeleeWeapon */
-     , (23707,   2,         19) /* CreatureType - Virindi */
      , (23707,   5,        450) /* EncumbranceVal */
      , (23707,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (23707,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23707,  16,          1) /* ItemUseable - No */
      , (23707,  18,         64) /* UiEffects - Lightning */
      , (23707,  19,       1150) /* Value */
-     , (23707,  25,         50) /* Level */
      , (23707,  51,          1) /* CombatUse - Melee */
      , (23707,  65,          1) /* Placement - RightHandCombat */
-     , (23707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23707, 105,          5) /* ItemWorkmanship */
-     , (23707, 106,        150) /* ItemSpellcraft */
-     , (23707, 107,        362) /* ItemCurMana */
-     , (23707, 108,        362) /* ItemMaxMana */
-     , (23707, 109,          0) /* ItemDifficulty */
-     , (23707, 110,          0) /* ItemAllegianceRankLimit */
-     , (23707, 115,          0) /* ItemSkillLevelLimit */
-     , (23707, 117,        250) /* ItemManaCost */
-     , (23707, 131,         19) /* MaterialType - Citrine */
-     , (23707, 172,          1) /* AppraisalLongDescDecoration */;
+     , (23707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23707,   1, False) /* Stuck */
@@ -36,8 +24,7 @@ VALUES (23707,   1, False) /* Stuck */
      , (23707,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23707,   1, 'Fire Tachi') /* Name */
-     , (23707,  16, 'Gem of Mana Renewal') /* LongDesc */;
+VALUES (23707,   1, 'Fire Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23707,   1,   33555732) /* Setup */
@@ -58,12 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23707,   3, 3688130385) /* Wielder */
      , (23707, 8000, 3688129783) /* PCAPRecordedObjectIID */
      , (23707, 8008, 3688130385) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23707,   1,   100, 0, 0, 100) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23707,   215,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23707, 67111920, 0, 0);

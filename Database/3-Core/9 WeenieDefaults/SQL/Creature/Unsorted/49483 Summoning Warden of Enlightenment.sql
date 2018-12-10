@@ -5,28 +5,17 @@ VALUES (49483, 'ace49483-summoningwardenofenlightenment', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49483,   1,         16) /* ItemType - Creature */
-     , (49483,   5,          0) /* EncumbranceVal */
      , (49483,   6,        255) /* ItemsCapacity */
      , (49483,   7,        255) /* ContainersCapacity */
      , (49483,  16,         32) /* ItemUseable - Remote */
-     , (49483,  19,       8000) /* Value */
-     , (49483,  33,          0) /* Bonded - Normal */
-     , (49483,  91,         50) /* MaxStructure */
-     , (49483,  92,         50) /* Structure */
      , (49483,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (49483,  95,          3) /* RadarBlipColor - White */
-     , (49483, 105,          8) /* ItemWorkmanship */
-     , (49483, 114,          0) /* Attuned - Normal */
-     , (49483, 280,        213) /* SharedCooldown */
      , (49483, 307,          0) /* DamageRating */
      , (49483, 308,          0) /* DamageResistRating */
      , (49483, 313,          0) /* CritRating */
      , (49483, 314,          0) /* CritDamageRating */
      , (49483, 315,          0) /* CritResistRating */
      , (49483, 316,          0) /* CritDamageResistRating */
-     , (49483, 366,         54) /* UseRequiresSkill */
-     , (49483, 367,        475) /* UseRequiresSkillLevel */
-     , (49483, 369,        140) /* UseRequiresLevel */
      , (49483, 370,          0) /* GearDamage */
      , (49483, 371,          0) /* GearDamageResist */
      , (49483, 372,          0) /* GearCrit */
@@ -55,17 +44,14 @@ VALUES (49483,   1, True ) /* Stuck */
      , (49483,  14, True ) /* GravityStatus */
      , (49483,  19, False) /* Attackable */
      , (49483,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (49483,  42, True ) /* AllowEdgeSlide */
-     , (49483,  69, True ) /* IsSellable */;
+     , (49483,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (49483,  39,     0.5) /* DefaultScale */
-     , (49483,  54,       3) /* UseRadius */
-     , (49483, 167,      45) /* CooldownDuration */;
+     , (49483,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49483,   1, 'Summoning Warden of Enlightenment') /* Name */
-     , (49483,  14, 'Use this essence to summon or dismiss your Lightning Phyntos Wasp.') /* Use */
      , (49483, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

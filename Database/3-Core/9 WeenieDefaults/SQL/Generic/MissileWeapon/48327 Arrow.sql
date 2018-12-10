@@ -22,17 +22,7 @@ VALUES (48327,   1,        256) /* ItemType - MissileWeapon */
      , (48327,  51,          3) /* CombatUse - Ammo */
      , (48327,  65,          1) /* Placement - RightHandCombat */
      , (48327,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48327, 105,          6) /* ItemWorkmanship */
-     , (48327, 106,        300) /* ItemSpellcraft */
-     , (48327, 107,        545) /* ItemCurMana */
-     , (48327, 108,        545) /* ItemMaxMana */
-     , (48327, 109,          0) /* ItemDifficulty */
-     , (48327, 110,          0) /* ItemAllegianceRankLimit */
-     , (48327, 115,          0) /* ItemSkillLevelLimit */
-     , (48327, 117,        350) /* ItemManaCost */
-     , (48327, 131,         38) /* MaterialType - Ruby */
      , (48327, 151,          2) /* HookType - Wall */
-     , (48327, 172,          1) /* AppraisalLongDescDecoration */
      , (48327, 179,          0) /* ImbuedEffect - Undef */
      , (48327, 303,          0) /* ImbuedEffect2 - Undef */
      , (48327, 304,          0) /* ImbuedEffect3 - Undef */
@@ -66,8 +56,7 @@ VALUES (48327,  21,       0) /* WeaponLength */
      , (48327, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48327,   1, 'Arrow') /* Name */
-     , (48327,  16, 'Gem of Quickness') /* LongDesc */;
+VALUES (48327,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48327,   1,   33555787) /* Setup */
@@ -88,9 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48327,   3, 3700031555) /* Wielder */
      , (48327, 8000, 3700031631) /* PCAPRecordedObjectIID */
      , (48327, 8008, 3700031555) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48327,  2081,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48327, 67111922, 0, 0);

@@ -6,15 +6,12 @@ VALUES (36800, 'ace36800-thorstencragstone', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36800,   1,         16) /* ItemType - Creature */
      , (36800,   2,         31) /* CreatureType - Human */
-     , (36800,   5,         50) /* EncumbranceVal */
      , (36800,   6,        255) /* ItemsCapacity */
      , (36800,   7,        255) /* ContainersCapacity */
      , (36800,  16,          1) /* ItemUseable - No */
-     , (36800,  19,       2500) /* Value */
      , (36800,  25,         87) /* Level */
      , (36800,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36800,  95,          8) /* RadarBlipColor - Yellow */
-     , (36800, 107,          0) /* ItemCurMana */
      , (36800, 113,          1) /* Gender - Male */
      , (36800, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (36800, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -30,14 +27,11 @@ VALUES (36800,   1, True ) /* Stuck */
      , (36800,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36800,  76,     0.5) /* Translucency */
-     , (36800,  87,     1.2) /* ItemEfficiency */
-     , (36800, 137,    0.15) /* ManaStoneDestroyChance */;
+VALUES (36800,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36800,   1, 'Thorsten Cragstone') /* Name */
      , (36800,   5, 'Soldier') /* Template */
-     , (36800,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (36800, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -64,18 +58,8 @@ VALUES (36800, 8040, 32376026, 99.63215, -201.1169, -5.995, -4.371139E-08, 0, 0,
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36800, 8000, 3696975058) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (36800,   1, 170, 0, 0) /* Strength */
-     , (36800,   2, 140, 0, 0) /* Endurance */
-     , (36800,   3, 180, 0, 0) /* Quickness */
-     , (36800,   4, 130, 0, 0) /* Coordination */
-     , (36800,   5, 160, 0, 0) /* Focus */
-     , (36800,   6, 140, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36800,   1,    85, 0, 0, 85) /* MaxHealth */
-     , (36800,   3,   560, 0, 0, 560) /* MaxStamina */
-     , (36800,   5,   440, 0, 0, 440) /* MaxMana */;
+VALUES (36800,   1,    85, 0, 0, 85) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36800, 67110022, 160, 8)

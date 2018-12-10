@@ -35,8 +35,6 @@ VALUES (8659,  13, 1.10000002384186) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8659,   1, 'Shreth Hide Pants') /* Name */
-     , (8659,   7, 'the mopnster who kills me and i loose this is  a BITCH!') /* Inscription */
-     , (8659,   8, 'Magister of Time') /* ScribeName */
      , (8659,  16, 'Pants made from the hide of a shreth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

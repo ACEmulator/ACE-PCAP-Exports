@@ -24,8 +24,7 @@ VALUES (47236,   1, False) /* Stuck */
      , (47236,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47236,   1, 'Acid Board with Nail') /* Name */
-     , (47236,  16, 'Killed by Darth Kronos.') /* LongDesc */;
+VALUES (47236,   1, 'Acid Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47236,   1,   33559657) /* Setup */

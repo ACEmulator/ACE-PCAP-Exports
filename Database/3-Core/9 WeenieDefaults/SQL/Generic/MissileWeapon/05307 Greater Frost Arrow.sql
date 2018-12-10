@@ -22,22 +22,7 @@ VALUES (5307,   1,        256) /* ItemType - MissileWeapon */
      , (5307,  51,          3) /* CombatUse - Ammo */
      , (5307,  65,          1) /* Placement - RightHandCombat */
      , (5307,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (5307, 105,          8) /* ItemWorkmanship */
-     , (5307, 131,          1) /* MaterialType - Ceramic */
      , (5307, 151,          2) /* HookType - Wall */
-     , (5307, 172,          5) /* AppraisalLongDescDecoration */
-     , (5307, 177,          3) /* GemCount */
-     , (5307, 178,         41) /* GemType */
-     , (5307, 179,          0) /* ImbuedEffect - Undef */
-     , (5307, 303,          0) /* ImbuedEffect2 - Undef */
-     , (5307, 304,          0) /* ImbuedEffect3 - Undef */
-     , (5307, 305,          0) /* ImbuedEffect4 - Undef */
-     , (5307, 306,          0) /* ImbuedEffect5 - Undef */
-     , (5307, 307,          5) /* DamageRating */
-     , (5307, 313,          0) /* CritRating */
-     , (5307, 314,          0) /* CritDamageRating */
-     , (5307, 353,         10) /* WeaponType - Thrown */
-     , (5307, 386,          0) /* Overpower */
      , (5307, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,14 +43,10 @@ VALUES (5307,  21,       0) /* WeaponLength */
      , (5307,  62,       1) /* WeaponOffense */
      , (5307,  63,       1) /* DamageMod */
      , (5307,  78,       1) /* Friction */
-     , (5307,  79,       0) /* Elasticity */
-     , (5307, 149,       0) /* WeaponMissileDefense */
-     , (5307, 150,       0) /* WeaponMagicDefense */;
+     , (5307,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5307,   1, 'Greater Frost Arrow') /* Name */
-     , (5307,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (5307,  16, 'Goblet') /* LongDesc */;
+VALUES (5307,   1, 'Greater Frost Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5307,   1,   33555689) /* Setup */
@@ -86,9 +67,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5307,   3, 3359863873) /* Wielder */
      , (5307, 8000, 3359839897) /* PCAPRecordedObjectIID */
      , (5307, 8008, 3359863873) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5307,  2290,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5307, 67111927, 0, 0);

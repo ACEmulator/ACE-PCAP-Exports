@@ -5,18 +5,15 @@ VALUES (11891, 'tumerokcrossbowfalcon_creatureonly', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11891,   1,        256) /* ItemType - MissileWeapon */
-     , (11891,   2,         30) /* CreatureType - Skeleton */
      , (11891,   5,        650) /* EncumbranceVal */
      , (11891,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (11891,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (11891,  16,          1) /* ItemUseable - No */
      , (11891,  19,       2000) /* Value */
-     , (11891,  25,         80) /* Level */
      , (11891,  50,          2) /* AmmoType - Bolt */
      , (11891,  51,          2) /* CombatUse - Missle */
      , (11891,  65,          3) /* Placement - LeftHand */
-     , (11891,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (11891, 307,          5) /* DamageRating */;
+     , (11891,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11891,   1, False) /* Stuck */
@@ -31,8 +28,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11891,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11891,   1, 'Balister of the Quiddity') /* Name */
-     , (11891,  16, 'Killed by Fquick.') /* LongDesc */;
+VALUES (11891,   1, 'Balister of the Quiddity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11891,   1,   33557112) /* Setup */
@@ -52,16 +48,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11891,   3, 2604158264) /* Wielder */
      , (11891, 8000, 2629410206) /* PCAPRecordedObjectIID */
      , (11891, 8008, 2604158264) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (11891,   1, 115, 0, 0) /* Strength */
-     , (11891,   2, 125, 0, 0) /* Endurance */
-     , (11891,   3, 170, 0, 0) /* Quickness */
-     , (11891,   4, 165, 0, 0) /* Coordination */
-     , (11891,   5, 135, 0, 0) /* Focus */
-     , (11891,   6, 145, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11891,   1,   283, 0, 0, 283) /* MaxHealth */
-     , (11891,   3,   425, 0, 0, 419) /* MaxStamina */
-     , (11891,   5,   195, 0, 0, 195) /* MaxMana */;

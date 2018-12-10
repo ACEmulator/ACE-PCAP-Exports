@@ -6,11 +6,9 @@ VALUES (6380, 'lightningelementalscintilla', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6380,   1,         16) /* ItemType - Creature */
      , (6380,   2,         42) /* CreatureType - LightningElemental */
-     , (6380,   5,       6119) /* EncumbranceVal */
      , (6380,   6,        255) /* ItemsCapacity */
      , (6380,   7,        255) /* ContainersCapacity */
      , (6380,  16,          1) /* ItemUseable - No */
-     , (6380,  19,          0) /* Value */
      , (6380,  25,         60) /* Level */
      , (6380,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (6380, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -30,7 +28,6 @@ VALUES (6380,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6380,   1, 'Scintilla') /* Name */
-     , (6380,  16, 'Killed by Vitamind.') /* LongDesc */
      , (6380, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

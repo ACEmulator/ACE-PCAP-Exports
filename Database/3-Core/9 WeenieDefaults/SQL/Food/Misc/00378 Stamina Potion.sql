@@ -18,7 +18,6 @@ VALUES (378,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (378,   1, False) /* Stuck */
-     , (378,   2, True ) /* Open */
      , (378,  11, True ) /* IgnoreCollisions */
      , (378,  13, True ) /* Ethereal */
      , (378,  14, True ) /* GravityStatus */
@@ -27,8 +26,7 @@ VALUES (378,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (378,   1, 'Stamina Potion') /* Name */
-     , (378,  14, 'Use this item to drink it.') /* Use */
-     , (378,  16, 'Killed by Ujiio.') /* LongDesc */;
+     , (378,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (378,   1,   33554603) /* Setup */

@@ -5,11 +5,9 @@ VALUES (45247, 'ace45247-scrollofdirtyfightingmasteryotheriv', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45247,   1,       8192) /* ItemType - Writable */
-     , (45247,   2,         13) /* CreatureType - Golem */
      , (45247,   5,         30) /* EncumbranceVal */
      , (45247,  16,          8) /* ItemUseable - Contained */
      , (45247,  19,        100) /* Value */
-     , (45247,  25,         80) /* Level */
      , (45247,  65,        101) /* Placement - Resting */
      , (45247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45247,   1,   33554826) /* Setup */
      , (45247,   8,  100692255) /* Icon */
      , (45247,  22,  872415275) /* PhysicsEffectTable */
-     , (45247,  28,       5774) /* Spell */
+     , (45247,  28,       5774) /* Spell - DirtyFightingMasteryOther4 */
      , (45247, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45247, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45247, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,9 +40,6 @@ VALUES (45247,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45247,   2, 3357792423) /* Container */
      , (45247, 8000, 3357792535) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45247,   1,  1000, 0, 0, 1000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45247,  5774,      2) ;

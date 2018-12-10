@@ -31,12 +31,10 @@ VALUES (45112,   1,          1) /* ItemType - MeleeWeapon */
      , (45112, 158,          2) /* WieldRequirements - RawSkill */
      , (45112, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (45112, 160,        325) /* WieldDifficulty */
-     , (45112, 171,          5) /* NumTimesTinkered */
      , (45112, 172,          5) /* AppraisalLongDescDecoration */
      , (45112, 176,         44) /* AppraisalItemSkill */
      , (45112, 177,          3) /* GemCount */
      , (45112, 178,         33) /* GemType */
-     , (45112, 204,         18) /* ElementalDamageBonus */
      , (45112, 353,          2) /* WeaponType - Sword */
      , (45112, 8030,          0);
 
@@ -56,14 +54,11 @@ VALUES (45112,   5, -0.0555555555555556) /* ManaRate */
      , (45112,  29,    1.07) /* WeaponDefense */
      , (45112,  62,    1.07) /* WeaponOffense */
      , (45112,  63,       1) /* DamageMod */
-     , (45112, 149,    1.01) /* WeaponMissileDefense */
-     , (45112, 150,   1.025) /* WeaponMagicDefense */
      , (45112, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45112,   1, 'Shadow Blade of Frost') /* Name */
-     , (45112,  16, 'Frost Schlager of Defender') /* LongDesc */
-     , (45112,  39, 'Mrs Tink') /* TinkerName */;
+     , (45112,  16, 'Frost Schlager of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45112,   1,   33559906) /* Setup */
@@ -87,39 +82,8 @@ VALUES (45112,   3, 1343493025) /* Wielder */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45112,  1332,      2) 
-     , (45112,  1591,      2) 
      , (45112,  1604,      2) 
-     , (45112,  1605,      2) 
-     , (45112,  1615,      2) 
-     , (45112,  1616,      2) 
-     , (45112,  1627,      2) 
-     , (45112,  2081,      2) 
-     , (45112,  2087,      2) 
-     , (45112,  2096,      2) 
-     , (45112,  2101,      2) 
-     , (45112,  2106,      2) 
-     , (45112,  2506,      2) 
-     , (45112,  2518,      2) 
-     , (45112,  2527,      2) 
-     , (45112,  2578,      2) 
-     , (45112,  2582,      2) 
-     , (45112,  2596,      2) 
-     , (45112,  2603,      2) 
-     , (45112,  2610,      2) 
-     , (45112,  2614,      2) 
-     , (45112,  3963,      2) 
-     , (45112,  3965,      2) 
-     , (45112,  4299,      2) 
-     , (45112,  4325,      2) 
-     , (45112,  4395,      2) 
-     , (45112,  4405,      2) 
-     , (45112,  4417,      2) 
-     , (45112,  5808,      2) 
-     , (45112,  5832,      2) 
-     , (45112,  5879,      2) 
-     , (45112,  5882,      2) 
-     , (45112,  5893,      2) 
-     , (45112,  6094,      2) ;
+     , (45112,  1615,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45112, 67116820, 0, 0);

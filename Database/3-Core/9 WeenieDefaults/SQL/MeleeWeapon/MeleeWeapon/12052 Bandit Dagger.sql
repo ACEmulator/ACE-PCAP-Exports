@@ -10,30 +10,9 @@ VALUES (12052,   1,          1) /* ItemType - MeleeWeapon */
      , (12052,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12052,  16,          1) /* ItemUseable - No */
      , (12052,  19,         40) /* Value */
-     , (12052,  44,          0) /* Damage */
-     , (12052,  45,          0) /* DamageType - Undef */
-     , (12052,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (12052,  49,        120) /* WeaponTime */
      , (12052,  51,          1) /* CombatUse - Melee */
      , (12052,  65,          1) /* Placement - RightHandCombat */
-     , (12052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12052, 105,          6) /* ItemWorkmanship */
-     , (12052, 106,        267) /* ItemSpellcraft */
-     , (12052, 107,        561) /* ItemCurMana */
-     , (12052, 108,        561) /* ItemMaxMana */
-     , (12052, 109,        123) /* ItemDifficulty */
-     , (12052, 110,          0) /* ItemAllegianceRankLimit */
-     , (12052, 115,        287) /* ItemSkillLevelLimit */
-     , (12052, 131,         59) /* MaterialType - Copper */
-     , (12052, 158,          2) /* WieldRequirements - RawSkill */
-     , (12052, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (12052, 160,        290) /* WieldDifficulty */
-     , (12052, 172,          5) /* AppraisalLongDescDecoration */
-     , (12052, 176,         47) /* AppraisalItemSkill */
-     , (12052, 177,          1) /* GemCount */
-     , (12052, 178,         37) /* GemType */
-     , (12052, 353,          9) /* WeaponType - Crossbow */
-     , (12052, 8030,          0);
+     , (12052,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12052,   1, False) /* Stuck */
@@ -43,18 +22,8 @@ VALUES (12052,   1, False) /* Stuck */
      , (12052,  19, True ) /* Attackable */
      , (12052,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12052,   5,   -0.05) /* ManaRate */
-     , (12052,  21,       0) /* WeaponLength */
-     , (12052,  22,       0) /* DamageVariance */
-     , (12052,  26,    27.3) /* MaximumVelocity */
-     , (12052,  29,    1.07) /* WeaponDefense */
-     , (12052,  62,       1) /* WeaponOffense */
-     , (12052,  63,    2.65) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12052,   1, 'Bandit Dagger') /* Name */
-     , (12052,  16, 'Arbalest of Defender') /* LongDesc */;
+VALUES (12052,   1, 'Bandit Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12052,   1,   33554735) /* Setup */
@@ -75,10 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12052,   3, 3690391888) /* Wielder */
      , (12052, 8000, 3690531176) /* PCAPRecordedObjectIID */
      , (12052, 8008, 3690391888) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12052,  1604,      2) 
-     , (12052,  1616,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12052, 67111920, 0, 0);

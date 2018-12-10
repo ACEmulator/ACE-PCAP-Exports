@@ -8,12 +8,8 @@ VALUES (2708,   1,       8192) /* ItemType - Writable */
      , (2708,   5,         30) /* EncumbranceVal */
      , (2708,  16,          8) /* ItemUseable - Contained */
      , (2708,  19,         20) /* Value */
-     , (2708,  33,          0) /* Bonded - Normal */
      , (2708,  65,        101) /* Placement - Resting */
-     , (2708,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2708, 114,          0) /* Attuned - Normal */
-     , (2708, 174,          1) /* AppraisalPages */
-     , (2708, 175,          1) /* AppraisalMaxPages */;
+     , (2708,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2708,   1, False) /* Stuck */
@@ -29,7 +25,6 @@ VALUES (2708,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2708,   1, 'Scroll of Mana Drain Other III') /* Name */
      , (2708,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (2708,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */
      , (2708,  16, 'Inscribed spell: Mana Drain Other III
 Drains 10-19 points of the target''s Mana.') /* LongDesc */;
 
@@ -37,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2708,   1,   33554826) /* Setup */
      , (2708,   8,  100676932) /* Icon */
      , (2708,  22,  872415275) /* PhysicsEffectTable */
-     , (2708,  28,       1221) /* Spell */
+     , (2708,  28,       1221) /* Spell - ManaDrainOther3 */
      , (2708, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2708, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2708, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

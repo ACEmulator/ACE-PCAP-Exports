@@ -6,11 +6,9 @@ VALUES (41577, 'ace41577-coppercogguardian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41577,   1,         16) /* ItemType - Creature */
      , (41577,   2,         99) /* CreatureType - GearKnight */
-     , (41577,   5,       6000) /* EncumbranceVal */
      , (41577,   6,        255) /* ItemsCapacity */
      , (41577,   7,        255) /* ContainersCapacity */
      , (41577,  16,          1) /* ItemUseable - No */
-     , (41577,  19,          0) /* Value */
      , (41577,  25,         80) /* Level */
      , (41577,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41577, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (41577,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41577,   1, 'Copper Cog Guardian') /* Name */
-     , (41577,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (41577, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -15,7 +15,6 @@ VALUES (40340,   1,       2048) /* ItemType - Gem */
      , (40340,  65,        101) /* Placement - Resting */
      , (40340,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40340,  94,         16) /* TargetType - Creature */
-     , (40340, 107,          0) /* ItemCurMana */
      , (40340, 114,          1) /* Attuned - Attuned */
      , (40340, 280,         51) /* SharedCooldown */;
 
@@ -28,13 +27,10 @@ VALUES (40340,   1, False) /* Stuck */
      , (40340,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40340,  87,     1.2) /* ItemEfficiency */
-     , (40340, 137,    0.15) /* ManaStoneDestroyChance */
-     , (40340, 167,      10) /* CooldownDuration */;
+VALUES (40340, 167,      10) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40340,   1, 'Skull of One Thousand Torments') /* Name */
-     , (40340,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (40340,  16, 'This darkened skull feels cold to the touch. Use it to destroy invisible ghosts under Mhoire Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,23 +6,14 @@ VALUES (49183, 'ace49183-ramsissskeleton', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49183,   1,         16) /* ItemType - Creature */
      , (49183,   2,         30) /* CreatureType - Skeleton */
-     , (49183,   5,       6237) /* EncumbranceVal */
      , (49183,   6,        255) /* ItemsCapacity */
      , (49183,   7,        255) /* ContainersCapacity */
      , (49183,  16,          1) /* ItemUseable - No */
-     , (49183,  19,          0) /* Value */
      , (49183,  25,        180) /* Level */
-     , (49183,  26,          0) /* AccountRequirements - No_Subscription */
-     , (49183,  86,         -1) /* MinLevel */
-     , (49183,  87,         -1) /* MaxLevel */
      , (49183,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49183, 111,        177) /* PortalBitmask - Unrestricted, NoSummon, NoRecall, NoOlthoiPCs */
      , (49183, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49183, 307,         19) /* DamageRating */
-     , (49183, 308,         13) /* DamageResistRating */
      , (49183, 313,         13) /* CritRating */
      , (49183, 314,         16) /* CritDamageRating */
-     , (49183, 315,         13) /* CritResistRating */
      , (49183, 316,         10) /* CritDamageResistRating */
      , (49183, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -35,9 +26,6 @@ VALUES (49183,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49183,   1, 'Ramsis''s Skeleton') /* Name */
-     , (49183,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */
-     , (49183,  16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LongDesc */
-     , (49183,  38, 'Gateway') /* AppraisalPortalDestination */
      , (49183, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

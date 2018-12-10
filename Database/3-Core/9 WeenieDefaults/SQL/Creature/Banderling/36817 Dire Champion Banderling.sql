@@ -6,11 +6,9 @@ VALUES (36817, 'ace36817-direchampionbanderling', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36817,   1,         16) /* ItemType - Creature */
      , (36817,   2,          2) /* CreatureType - Banderling */
-     , (36817,   5,          0) /* EncumbranceVal */
      , (36817,   6,        255) /* ItemsCapacity */
      , (36817,   7,        255) /* ContainersCapacity */
      , (36817,  16,          1) /* ItemUseable - No */
-     , (36817,  19,        331) /* Value */
      , (36817,  25,        135) /* Level */
      , (36817,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36817, 133,          2) /* ShowableOnRadar - ShowMovement */

@@ -10,23 +10,13 @@ VALUES (40522,   1,       8192) /* ItemType - Writable */
      , (40522,  19,          0) /* Value */
      , (40522,  33,          1) /* Bonded - Bonded */
      , (40522,  65,        101) /* Placement - Resting */
-     , (40522,  91,         50) /* MaxStructure */
-     , (40522,  92,         50) /* Structure */
      , (40522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40522,  98, 1485368894) /* CreationTimestamp */
-     , (40522, 105,          6) /* ItemWorkmanship */
      , (40522, 114,          1) /* Attuned - Attuned */
      , (40522, 174,          1) /* AppraisalPages */
      , (40522, 175,          1) /* AppraisalMaxPages */
      , (40522, 267,        600) /* Lifespan */
-     , (40522, 268,        491) /* RemainingLifespan */
-     , (40522, 280,        213) /* SharedCooldown */
-     , (40522, 366,         54) /* UseRequiresSkill */
-     , (40522, 367,        475) /* UseRequiresSkillLevel */
-     , (40522, 369,        140) /* UseRequiresLevel */
-     , (40522, 371,         10) /* GearDamageResist */
-     , (40522, 372,          2) /* GearCrit */
-     , (40522, 373,         10) /* GearCritResist */;
+     , (40522, 268,        491) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40522,   1, False) /* Stuck */
@@ -37,12 +27,10 @@ VALUES (40522,   1, False) /* Stuck */
      , (40522,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40522,  54,       1) /* UseRadius */
-     , (40522, 167,      45) /* CooldownDuration */;
+VALUES (40522,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40522,   1, 'Contact Instructions') /* Name */
-     , (40522,  14, 'Use this essence to summon or dismiss your Acid Child.') /* Use */
      , (40522,  15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

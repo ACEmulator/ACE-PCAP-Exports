@@ -40,9 +40,7 @@ VALUES (2496,  21,       0) /* WeaponLength */
      , (2496,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2496,   1, 'Overlord''s Sword') /* Name */
-     , (2496,   7, '12-23 spd:100') /* Inscription */
-     , (2496,   8, 'Shing-How') /* ScribeName */;
+VALUES (2496,   1, 'Overlord''s Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2496,   1,   33554758) /* Setup */

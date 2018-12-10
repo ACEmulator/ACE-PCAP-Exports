@@ -18,7 +18,6 @@ VALUES (21910,   1,      32768) /* ItemType - Caster */
      , (21910, 108,      10000) /* ItemMaxMana */
      , (21910, 109,        100) /* ItemDifficulty */
      , (21910, 110,          0) /* ItemAllegianceRankLimit */
-     , (21910, 114,          0) /* Attuned - Normal */
      , (21910, 151,          2) /* HookType - Wall */
      , (21910, 158,          8) /* WieldRequirements - Training */
      , (21910, 159,         34) /* WieldSkilltype - WarMagic */
@@ -32,8 +31,7 @@ VALUES (21910,   1, False) /* Stuck */
      , (21910,  14, True ) /* GravityStatus */
      , (21910,  19, True ) /* Attackable */
      , (21910,  22, True ) /* Inscribable */
-     , (21910,  69, False) /* IsSellable */
-     , (21910,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (21910,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21910,   5,      -1) /* ManaRate */
@@ -42,15 +40,14 @@ VALUES (21910,   5,      -1) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21910,   1, 'Taulandoi') /* Name */
-     , (21910,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */
-     , (21910,  25, 'Mortis The Forgotten') /* CraftsmanName */;
+     , (21910,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21910,   1,   33557963) /* Setup */
      , (21910,   3,  536870932) /* SoundTable */
      , (21910,   8,  100673490) /* Icon */
      , (21910,  22,  872415275) /* PhysicsEffectTable */
-     , (21910,  28,       2781) /* Spell */
+     , (21910,  28,       2781) /* Spell - LesserElementalFuryAcid */
      , (21910, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (21910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21910, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

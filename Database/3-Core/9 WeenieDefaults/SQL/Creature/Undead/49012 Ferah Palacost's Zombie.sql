@@ -6,26 +6,12 @@ VALUES (49012, 'ace49012-ferahpalacostszombie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49012,   1,         16) /* ItemType - Creature */
      , (49012,   2,         14) /* CreatureType - Undead */
-     , (49012,   5,       7052) /* EncumbranceVal */
      , (49012,   6,        255) /* ItemsCapacity */
      , (49012,   7,        255) /* ContainersCapacity */
      , (49012,  16,          1) /* ItemUseable - No */
-     , (49012,  19,          0) /* Value */
      , (49012,  25,        125) /* Level */
-     , (49012,  28,          0) /* ArmorLevel */
      , (49012,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49012, 105,          7) /* ItemWorkmanship */
-     , (49012, 106,        316) /* ItemSpellcraft */
-     , (49012, 107,       1167) /* ItemCurMana */
-     , (49012, 108,       1167) /* ItemMaxMana */
-     , (49012, 109,        254) /* ItemDifficulty */
-     , (49012, 110,          0) /* ItemAllegianceRankLimit */
-     , (49012, 115,          0) /* ItemSkillLevelLimit */
-     , (49012, 131,          5) /* MaterialType - Satin */
      , (49012, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49012, 172,          5) /* AppraisalLongDescDecoration */
-     , (49012, 177,          1) /* GemCount */
-     , (49012, 178,         16) /* GemType */
      , (49012, 307,         21) /* DamageRating */
      , (49012, 314,          1) /* CritDamageRating */
      , (49012, 315,         16) /* CritResistRating */
@@ -37,23 +23,10 @@ VALUES (49012,   1, True ) /* Stuck */
      , (49012,  12, True ) /* ReportCollisions */
      , (49012,  13, True ) /* Ethereal */
      , (49012,  14, True ) /* GravityStatus */
-     , (49012,  19, True ) /* Attackable */
-     , (49012, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49012,   5, -0.0555555555555556) /* ManaRate */
-     , (49012,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (49012,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (49012,  15,       1) /* ArmorModVsBludgeon */
-     , (49012,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (49012,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (49012,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (49012,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (49012, 165,       1) /* ArmorModVsNether */;
+     , (49012,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49012,   1, 'Ferah Palacost''s Zombie') /* Name */
-     , (49012,  16, 'Killed by Mag-seven.') /* LongDesc */
      , (49012, 8006, 'AAA+AAEAAAA+AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -88,11 +61,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49012,   1,   870, 0, 0, 870) /* MaxHealth */
      , (49012,   3,  1120, 0, 0, 1120) /* MaxStamina */
      , (49012,   5,   750, 0, 0, 750) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49012,  2053,      2) 
-     , (49012,  2554,      2) 
-     , (49012,  2622,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49012, 67109966, 72, 8)

@@ -6,26 +6,15 @@ VALUES (36850, 'ace36850-shadowphantom', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36850,   1,         16) /* ItemType - Creature */
      , (36850,   2,         22) /* CreatureType - Shadow */
-     , (36850,   5,         50) /* EncumbranceVal */
      , (36850,   6,        255) /* ItemsCapacity */
      , (36850,   7,        255) /* ContainersCapacity */
      , (36850,  16,          1) /* ItemUseable - No */
-     , (36850,  19,       8000) /* Value */
      , (36850,  25,        115) /* Level */
-     , (36850,  33,          0) /* Bonded - Normal */
-     , (36850,  91,         50) /* MaxStructure */
-     , (36850,  92,         50) /* Structure */
      , (36850,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (36850, 105,          7) /* ItemWorkmanship */
      , (36850, 113,          1) /* Gender - Male */
-     , (36850, 114,          0) /* Attuned - Normal */
      , (36850, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36850, 188,          1) /* HeritageGroup - Aluvian */
-     , (36850, 280,        213) /* SharedCooldown */
      , (36850, 307,          5) /* DamageRating */
-     , (36850, 366,         54) /* UseRequiresSkill */
-     , (36850, 367,        475) /* UseRequiresSkillLevel */
-     , (36850, 369,        140) /* UseRequiresLevel */
      , (36850, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,16 +23,13 @@ VALUES (36850,   1, True ) /* Stuck */
      , (36850,  13, False) /* Ethereal */
      , (36850,  14, True ) /* GravityStatus */
      , (36850,  19, True ) /* Attackable */
-     , (36850,  42, True ) /* AllowEdgeSlide */
-     , (36850,  69, True ) /* IsSellable */;
+     , (36850,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36850,  76,     0.5) /* Translucency */
-     , (36850, 167,      45) /* CooldownDuration */;
+VALUES (36850,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36850,   1, 'Shadow Phantom') /* Name */
-     , (36850,  14, 'Use this essence to summon or dismiss your Lightning Phyntos Wasp.') /* Use */
      , (36850, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

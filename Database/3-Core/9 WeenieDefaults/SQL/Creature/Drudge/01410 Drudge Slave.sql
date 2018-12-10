@@ -6,15 +6,10 @@ VALUES (1410, 'lostlightyaraqdrudge', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1410,   1,         16) /* ItemType - Creature */
      , (1410,   2,          3) /* CreatureType - Drudge */
-     , (1410,   5,         50) /* EncumbranceVal */
      , (1410,   6,        255) /* ItemsCapacity */
      , (1410,   7,        255) /* ContainersCapacity */
      , (1410,  16,          1) /* ItemUseable - No */
-     , (1410,  19,        500) /* Value */
      , (1410,  25,         15) /* Level */
-     , (1410,  90,         10) /* BoostValue */
-     , (1410,  91,         35) /* MaxStructure */
-     , (1410,  92,         35) /* Structure */
      , (1410,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1410, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (1410, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -27,8 +22,7 @@ VALUES (1410,   1, True ) /* Stuck */
      , (1410,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1410,  39, 1.20000004768372) /* DefaultScale */
-     , (1410, 100,     1.5) /* HealkitMod */;
+VALUES (1410,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1410,   1, 'Drudge Slave') /* Name */

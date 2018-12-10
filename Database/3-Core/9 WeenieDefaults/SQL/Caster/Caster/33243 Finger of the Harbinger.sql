@@ -49,7 +49,7 @@ VALUES (33243,   1,   33559926) /* Setup */
      , (33243,   3,  536870932) /* SoundTable */
      , (33243,   8,  100688937) /* Icon */
      , (33243,  22,  872415275) /* PhysicsEffectTable */
-     , (33243,  28,       3926) /* Spell */
+     , (33243,  28,       3926) /* Spell - HarbingersFieryTouch */
      , (33243, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (33243, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33243, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

@@ -11,8 +11,6 @@ VALUES (37311,   1,        128) /* ItemType - Misc */
      , (37311,  16,          1) /* ItemUseable - No */
      , (37311,  19,      30000) /* Value */
      , (37311,  65,        101) /* Placement - Resting */
-     , (37311,  89,          2) /* BoosterEnum - Health */
-     , (37311,  90,        100) /* BoostValue */
      , (37311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,7 +22,6 @@ VALUES (37311,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37311,   1, 'Glyph of Jump') /* Name */
-     , (37311,  14, 'Use this item to drink it.') /* Use */
      , (37311,  20, 'Glyphs of Jump') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

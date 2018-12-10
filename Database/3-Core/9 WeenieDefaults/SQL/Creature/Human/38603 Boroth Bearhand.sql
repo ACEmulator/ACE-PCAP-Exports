@@ -18,7 +18,6 @@ VALUES (38603,   1,         16) /* ItemType - Creature */
      , (38603, 188,          1) /* HeritageGroup - Aluvian */
      , (38603, 281,          1) /* Faction1Bits */
      , (38603, 287,          1) /* SocietyRankCelhan */
-     , (38603, 307,          5) /* DamageRating */
      , (38603, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

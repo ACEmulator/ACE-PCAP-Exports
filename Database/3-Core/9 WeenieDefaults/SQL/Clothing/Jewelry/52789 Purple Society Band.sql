@@ -38,8 +38,6 @@ VALUES (52789,   1, False) /* Stuck */
      , (52789,  19, True ) /* Attackable */
      , (52789,  22, True ) /* Inscribable */
      , (52789,  69, False) /* IsSellable */
-     , (52789,  85, True ) /* AppraisalHasAllowedWielder */
-     , (52789,  91, True ) /* Retained */
      , (52789,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -48,10 +46,7 @@ VALUES (52789,   5, -0.033333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52789,   1, 'Purple Society Band') /* Name */
-     , (52789,   7, 'i want a meta that : 1. i log in with a fellow made of 5 chars ( manually ), 2. i say !start in chat fellow, 3. all the chars open the house storage chest and pick up all the items into it. i think its pretty easy to make') /* Inscription */
-     , (52789,   8, 'Under attack') /* ScribeName */
-     , (52789,  16, 'A dark black ring set with five amethysts.') /* LongDesc */
-     , (52789,  25, 'Dread Muki') /* CraftsmanName */;
+     , (52789,  16, 'A dark black ring set with five amethysts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52789,   1,   33554691) /* Setup */

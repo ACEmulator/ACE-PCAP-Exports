@@ -19,11 +19,7 @@ VALUES (5769,   1,        256) /* ItemType - MissileWeapon */
      , (5769,  65,        101) /* Placement - Resting */
      , (5769,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5769, 151,          2) /* HookType - Wall */
-     , (5769, 307,          5) /* DamageRating */
-     , (5769, 313,          0) /* CritRating */
-     , (5769, 314,          0) /* CritDamageRating */
      , (5769, 353,         10) /* WeaponType - Thrown */
-     , (5769, 386,          0) /* Overpower */
      , (5769, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,9 +39,7 @@ VALUES (5769,  21,       0) /* WeaponLength */
      , (5769,  62,       1) /* WeaponOffense */
      , (5769,  63,       1) /* DamageMod */
      , (5769,  78,       1) /* Friction */
-     , (5769,  79,       0) /* Elasticity */
-     , (5769, 149,       0) /* WeaponMissileDefense */
-     , (5769, 150,       0) /* WeaponMagicDefense */;
+     , (5769,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5769,   1, 'Iceball') /* Name */

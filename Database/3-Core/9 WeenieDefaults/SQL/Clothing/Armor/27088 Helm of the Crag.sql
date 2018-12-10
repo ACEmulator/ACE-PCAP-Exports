@@ -5,13 +5,11 @@ VALUES (27088, 'helmcragnew', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27088,   1,          2) /* ItemType - Armor */
-     , (27088,   2,         13) /* CreatureType - Golem */
      , (27088,   4,      16384) /* ClothingPriority - Head */
      , (27088,   5,        900) /* EncumbranceVal */
      , (27088,   9,          1) /* ValidLocations - HeadWear */
      , (27088,  16,          1) /* ItemUseable - No */
      , (27088,  19,       2000) /* Value */
-     , (27088,  25,        115) /* Level */
      , (27088,  28,        300) /* ArmorLevel */
      , (27088,  65,        101) /* Placement - Resting */
      , (27088,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -60,9 +58,6 @@ VALUES (27088,   1,   33557002) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27088,   2, 1342181790) /* Container */
      , (27088, 8000, 2448510374) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27088,   1,   555, 0, 0, 555) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27088,   883,      2) 

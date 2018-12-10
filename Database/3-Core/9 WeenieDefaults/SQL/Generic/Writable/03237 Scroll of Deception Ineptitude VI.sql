@@ -24,8 +24,6 @@ VALUES (3237,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3237,   1, 'Scroll of Deception Ineptitude VI') /* Name */
-     , (3237,   7, 'MINE') /* Inscription */
-     , (3237,   8, 'Cyndra') /* ScribeName */
      , (3237,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (3237,  16, 'Inscribed spell: Deception Ineptitude Other VI
 Decreases the target''s Deception skill by 35 points.') /* LongDesc */;
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3237,   1,   33554826) /* Setup */
      , (3237,   8,  100676448) /* Icon */
      , (3237,  22,  872415275) /* PhysicsEffectTable */
-     , (3237,  28,        873) /* Spell */
+     , (3237,  28,        873) /* Spell - DeceptionIneptitudeOther6 */
      , (3237, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3237, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3237, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

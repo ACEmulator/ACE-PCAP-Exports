@@ -30,12 +30,10 @@ VALUES (30580,   1,          1) /* ItemType - MeleeWeapon */
      , (30580, 158,          2) /* WieldRequirements - RawSkill */
      , (30580, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (30580, 160,        350) /* WieldDifficulty */
-     , (30580, 171,         10) /* NumTimesTinkered */
      , (30580, 172,          5) /* AppraisalLongDescDecoration */
      , (30580, 176,         44) /* AppraisalItemSkill */
      , (30580, 177,          6) /* GemCount */
      , (30580, 178,         48) /* GemType */
-     , (30580, 179,        256) /* ImbuedEffect - ElectricRending */
      , (30580, 353,          2) /* WeaponType - Sword */
      , (30580, 8030,          0);
 
@@ -45,8 +43,7 @@ VALUES (30580,   1, False) /* Stuck */
      , (30580,  13, True ) /* Ethereal */
      , (30580,  14, True ) /* GravityStatus */
      , (30580,  19, True ) /* Attackable */
-     , (30580,  22, True ) /* Inscribable */
-     , (30580,  91, True ) /* Retained */;
+     , (30580,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30580,   5, -0.0555555555555556) /* ManaRate */
@@ -57,17 +54,12 @@ VALUES (30580,   5, -0.0555555555555556) /* ManaRate */
      , (30580,  39, 1.10000002384186) /* DefaultScale */
      , (30580,  62,     1.1) /* WeaponOffense */
      , (30580,  63,       1) /* DamageMod */
-     , (30580, 149,   1.015) /* WeaponMissileDefense */
      , (30580, 150,   1.015) /* WeaponMagicDefense */
      , (30580, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30580,   1, 'Lightning Flamberge') /* Name */
-     , (30580,   7, '"Fulmination"') /* Inscription */
-     , (30580,   8, 'Azrakin') /* ScribeName */
-     , (30580,  16, 'Lightning Flamberge of Blood Drinker') /* LongDesc */
-     , (30580,  39, 'Jadefire') /* TinkerName */
-     , (30580,  40, 'Dez''mron Smithy') /* ImbuerName */;
+     , (30580,  16, 'Lightning Flamberge of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30580,   1,   33559468) /* Setup */
@@ -84,48 +76,9 @@ VALUES (30580,   2, 3692284160) /* Container */
      , (30580, 8000, 3692402487) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30580,  1378,      2) 
-     , (30580,  1592,      2) 
-     , (30580,  1599,      2) 
-     , (30580,  1602,      2) 
-     , (30580,  1605,      2) 
-     , (30580,  1612,      2) 
-     , (30580,  1614,      2) 
-     , (30580,  1615,      2) 
-     , (30580,  1616,      2) 
-     , (30580,  1625,      2) 
-     , (30580,  1626,      2) 
-     , (30580,  1627,      2) 
-     , (30580,  2061,      2) 
-     , (30580,  2081,      2) 
-     , (30580,  2096,      2) 
+VALUES (30580,  1616,      2) 
      , (30580,  2101,      2) 
-     , (30580,  2106,      2) 
-     , (30580,  2116,      2) 
-     , (30580,  2514,      2) 
-     , (30580,  2515,      2) 
-     , (30580,  2526,      2) 
-     , (30580,  2549,      2) 
-     , (30580,  2553,      2) 
-     , (30580,  2566,      2) 
-     , (30580,  2570,      2) 
-     , (30580,  2573,      2) 
-     , (30580,  2586,      2) 
-     , (30580,  2598,      2) 
-     , (30580,  2600,      2) 
-     , (30580,  2618,      2) 
-     , (30580,  2621,      2) 
-     , (30580,  4019,      2) 
-     , (30580,  4297,      2) 
-     , (30580,  4395,      2) 
-     , (30580,  4405,      2) 
-     , (30580,  4661,      2) 
-     , (30580,  4712,      2) 
-     , (30580,  5785,      2) 
-     , (30580,  5882,      2) 
-     , (30580,  5887,      2) 
-     , (30580,  6042,      2) 
-     , (30580,  6063,      2) ;
+     , (30580,  5887,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30580, 67116387, 0, 0);

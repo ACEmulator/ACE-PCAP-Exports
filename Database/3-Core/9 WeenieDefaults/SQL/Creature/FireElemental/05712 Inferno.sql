@@ -6,29 +6,12 @@ VALUES (5712, 'fireelementalinferno', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5712,   1,         16) /* ItemType - Creature */
      , (5712,   2,         38) /* CreatureType - FireElemental */
-     , (5712,   5,       6307) /* EncumbranceVal */
      , (5712,   6,        255) /* ItemsCapacity */
      , (5712,   7,        255) /* ContainersCapacity */
      , (5712,  16,          1) /* ItemUseable - No */
-     , (5712,  19,          0) /* Value */
      , (5712,  25,        100) /* Level */
-     , (5712,  28,          0) /* ArmorLevel */
      , (5712,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
-     , (5712, 105,          7) /* ItemWorkmanship */
-     , (5712, 106,        244) /* ItemSpellcraft */
-     , (5712, 107,       1751) /* ItemCurMana */
-     , (5712, 108,       1751) /* ItemMaxMana */
-     , (5712, 109,        264) /* ItemDifficulty */
-     , (5712, 110,          0) /* ItemAllegianceRankLimit */
-     , (5712, 115,          0) /* ItemSkillLevelLimit */
-     , (5712, 131,          5) /* MaterialType - Satin */
      , (5712, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (5712, 158,          7) /* WieldRequirements - Level */
-     , (5712, 159,          1) /* WieldSkilltype - Axe */
-     , (5712, 160,        180) /* WieldDifficulty */
-     , (5712, 172,          5) /* AppraisalLongDescDecoration */
-     , (5712, 177,          2) /* GemCount */
-     , (5712, 178,         21) /* GemType */
      , (5712, 307,          7) /* DamageRating */
      , (5712, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -38,24 +21,13 @@ VALUES (5712,   1, True ) /* Stuck */
      , (5712,  13, False) /* Ethereal */
      , (5712,  14, True ) /* GravityStatus */
      , (5712,  15, True ) /* LightsStatus */
-     , (5712,  19, True ) /* Attackable */
-     , (5712, 100, True ) /* Dyable */;
+     , (5712,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5712,   5, -0.0555555555555556) /* ManaRate */
-     , (5712,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (5712,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (5712,  15,       1) /* ArmorModVsBludgeon */
-     , (5712,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (5712,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (5712,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (5712,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (5712,  39, 1.70000004768372) /* DefaultScale */
-     , (5712, 165,       1) /* ArmorModVsNether */;
+VALUES (5712,  39, 1.70000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5712,   1, 'Inferno') /* Name */
-     , (5712,  16, 'Killed by Fenn.') /* LongDesc */
      , (5712, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,7 +59,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (5712,   1,   575, 0, 0, 575) /* MaxHealth */
      , (5712,   3,   550, 0, 0, 550) /* MaxStamina */
      , (5712,   5,   470, 0, 0, 470) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5712,   520,      2) 
-     , (5712,  4700,      2) ;

@@ -6,27 +6,15 @@ VALUES (44261, 'ace44261-siribrehbinkassim', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44261,   1,         16) /* ItemType - Creature */
      , (44261,   2,         31) /* CreatureType - Human */
-     , (44261,   5,        172) /* EncumbranceVal */
      , (44261,   6,        255) /* ItemsCapacity */
      , (44261,   7,        255) /* ContainersCapacity */
      , (44261,  16,         32) /* ItemUseable - Remote */
-     , (44261,  19,       9992) /* Value */
      , (44261,  25,        275) /* Level */
-     , (44261,  28,        235) /* ArmorLevel */
      , (44261,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44261,  95,          8) /* RadarBlipColor - Yellow */
-     , (44261, 105,          6) /* ItemWorkmanship */
-     , (44261, 106,        188) /* ItemSpellcraft */
-     , (44261, 107,        856) /* ItemCurMana */
-     , (44261, 108,        856) /* ItemMaxMana */
-     , (44261, 109,        188) /* ItemDifficulty */
-     , (44261, 110,          0) /* ItemAllegianceRankLimit */
      , (44261, 113,          1) /* Gender - Male */
-     , (44261, 115,          0) /* ItemSkillLevelLimit */
-     , (44261, 131,         60) /* MaterialType - Gold */
      , (44261, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (44261, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44261, 172,          1) /* AppraisalLongDescDecoration */
      , (44261, 188,          2) /* HeritageGroup - Gharundim */
      , (44261, 307,          5) /* DamageRating */
      , (44261, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -39,25 +27,14 @@ VALUES (44261,   1, True ) /* Stuck */
      , (44261,  14, True ) /* GravityStatus */
      , (44261,  19, False) /* Attackable */
      , (44261,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (44261,  42, True ) /* AllowEdgeSlide */
-     , (44261, 100, True ) /* Dyable */;
+     , (44261,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44261,   5, -0.0416666666666667) /* ManaRate */
-     , (44261,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (44261,  14,       1) /* ArmorModVsPierce */
-     , (44261,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (44261,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (44261,  17, 1.30550050735474) /* ArmorModVsFire */
-     , (44261,  18,     0.5) /* ArmorModVsAcid */
-     , (44261,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (44261,  54,       3) /* UseRadius */
-     , (44261, 165,       1) /* ArmorModVsNether */;
+VALUES (44261,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44261,   1, 'Sir Ibreh bin Kassim') /* Name */
      , (44261,   5, 'Royal Knight') /* Template */
-     , (44261,  16, 'Chainmail Greaves') /* LongDesc */
      , (44261, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -96,9 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44261,   1,   296, 0, 0, 296) /* MaxHealth */
      , (44261,   3,   396, 0, 0, 396) /* MaxStamina */
      , (44261,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44261,  1485,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44261, 67109553, 0, 24)

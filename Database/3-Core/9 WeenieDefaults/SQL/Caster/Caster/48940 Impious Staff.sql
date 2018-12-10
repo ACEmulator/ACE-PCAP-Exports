@@ -40,13 +40,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48940,   5, -0.025000000372529) /* ManaRate */
      , (48940,  29, 1.20000004768372) /* WeaponDefense */
      , (48940,  39, 0.600000023841858) /* DefaultScale */
-     , (48940, 144, 0.200000002980232) /* ManaConversionMod */
-     , (48940, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (48940, 144, 0.200000002980232) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48940,   1, 'Impious Staff') /* Name */
-     , (48940,   7, '   ') /* Inscription */
-     , (48940,   8, 'Mentha''') /* ScribeName */
      , (48940,  16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Twilight, underneath the Inner Sea.') /* LongDesc */
      , (48940,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
@@ -56,7 +53,7 @@ VALUES (48940,   1,   33557877) /* Setup */
      , (48940,   6,   67111919) /* PaletteBase */
      , (48940,   8,  100690010) /* Icon */
      , (48940,  22,  872415275) /* PhysicsEffectTable */
-     , (48940,  28,       2282) /* Spell */
+     , (48940,  28,       2282) /* Spell - MagicYieldOther7 */
      , (48940, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (48940, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48940, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

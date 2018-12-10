@@ -5,12 +5,10 @@ VALUES (33697, 'ace33697-experimentalshadowstone', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33697,   1,        128) /* ItemType - Misc */
-     , (33697,   2,         20) /* CreatureType - Wisp */
      , (33697,   5,        100) /* EncumbranceVal */
      , (33697,  16,          1) /* ItemUseable - No */
      , (33697,  18,          1) /* UiEffects - Magical */
      , (33697,  19,          0) /* Value */
-     , (33697,  25,        115) /* Level */
      , (33697,  33,          1) /* Bonded - Bonded */
      , (33697,  65,        101) /* Placement - Resting */
      , (33697,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -41,6 +39,3 @@ VALUES (33697,   1,   33559809) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33697,   2, 1342476573) /* Container */
      , (33697, 8000, 2979050399) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33697,   1,   520, 0, 0, 520) /* MaxHealth */;

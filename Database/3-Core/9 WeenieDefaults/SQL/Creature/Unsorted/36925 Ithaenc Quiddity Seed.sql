@@ -5,11 +5,9 @@ VALUES (36925, 'ace36925-ithaencquiddityseed', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36925,   1,         16) /* ItemType - Creature */
-     , (36925,   5,       6594) /* EncumbranceVal */
      , (36925,   6,        255) /* ItemsCapacity */
      , (36925,   7,        255) /* ContainersCapacity */
      , (36925,  16,         32) /* ItemUseable - Remote */
-     , (36925,  19,          0) /* Value */
      , (36925,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (36925,  95,          3) /* RadarBlipColor - White */
      , (36925, 307,          0) /* DamageRating */
@@ -53,7 +51,6 @@ VALUES (36925,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36925,   1, 'Ithaenc Quiddity Seed') /* Name */
-     , (36925,  16, 'Killed by Tierra Zatha.') /* LongDesc */
      , (36925, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -10,18 +10,12 @@ VALUES (43480,   1,         16) /* ItemType - Creature */
      , (43480,   7,          7) /* ContainersCapacity */
      , (43480,  16,          1) /* ItemUseable - No */
      , (43480,  25,        180) /* Level */
-     , (43480,  43,         51) /* NumDeaths */
      , (43480,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (43480, 113,          2) /* Gender - Female */
-     , (43480, 125,     147349) /* Age */
      , (43480, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43480, 134,          4) /* PlayerKillerStatus - PK */
      , (43480, 188,         12) /* HeritageGroup - Olthoi */
      , (43480, 261,        711) /* CharacterTitleId */
-     , (43480, 262,          1) /* NumCharacterTitles */
-     , (43480, 307,          1) /* DamageRating */
-     , (43480, 308,          1) /* DamageResistRating */
-     , (43480, 314,          4) /* CritDamageRating */
      , (43480, 390,          0) /* Enlightenment */
      , (43480, 8007,          1) /* PCAPRecordedAutonomousMovement */;
 
@@ -38,7 +32,6 @@ VALUES (43480,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43480,   1, 'Big Red Olthoi') /* Name */
-     , (43480,  43, '30 November 2010') /* DateOfBirth */
      , (43480, 8006, 'AAA8AAcAAAA8AAcAAABEQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,30 +12,8 @@ VALUES (49062,   1,         16) /* ItemType - Creature */
      , (49062,  25,        125) /* Level */
      , (49062,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49062, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49062, 307,          0) /* DamageRating */
-     , (49062, 308,          0) /* DamageResistRating */
-     , (49062, 313,          0) /* CritRating */
      , (49062, 314,         10) /* CritDamageRating */
      , (49062, 315,          8) /* CritResistRating */
-     , (49062, 316,          0) /* CritDamageResistRating */
-     , (49062, 370,          0) /* GearDamage */
-     , (49062, 371,          0) /* GearDamageResist */
-     , (49062, 372,          0) /* GearCrit */
-     , (49062, 373,          0) /* GearCritResist */
-     , (49062, 374,          0) /* GearCritDamage */
-     , (49062, 375,          0) /* GearCritDamageResist */
-     , (49062, 376,          0) /* GearHealingBoost */
-     , (49062, 377,          0) /* GearNetherResist */
-     , (49062, 378,          0) /* GearLifeResist */
-     , (49062, 379,          0) /* GearMaxHealth */
-     , (49062, 381,          0) /* PKDamageRating */
-     , (49062, 382,          0) /* PKDamageResistRating */
-     , (49062, 383,          0) /* GearPKDamageRating */
-     , (49062, 384,          0) /* GearPKDamageResistRating */
-     , (49062, 386,          0) /* Overpower */
-     , (49062, 387,          0) /* OverpowerResist */
-     , (49062, 388,          0) /* GearOverpower */
-     , (49062, 389,          0) /* GearOverpowerResist */
      , (49062, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +29,6 @@ VALUES (49062,  39, 0.800000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49062,   1, 'Ripley''s Grievver') /* Name */
-     , (49062,  15, 'A sarcophagus containing the bones of a recently deceased warrior.') /* ShortDesc */
      , (49062, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,11 +6,9 @@ VALUES (31655, 'ace31655-alessandromardor', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31655,   1,         16) /* ItemType - Creature */
      , (31655,   2,         31) /* CreatureType - Human */
-     , (31655,   5,       6171) /* EncumbranceVal */
      , (31655,   6,        255) /* ItemsCapacity */
      , (31655,   7,        255) /* ContainersCapacity */
      , (31655,  16,         32) /* ItemUseable - Remote */
-     , (31655,  19,          0) /* Value */
      , (31655,  25,         14) /* Level */
      , (31655,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31655,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (31655,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31655,   1, 'Alessandro Mardor') /* Name */
      , (31655,   5, 'Polardillo Pummeler') /* Template */
-     , (31655,  16, 'Killed by Fquicker.') /* LongDesc */
      , (31655, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

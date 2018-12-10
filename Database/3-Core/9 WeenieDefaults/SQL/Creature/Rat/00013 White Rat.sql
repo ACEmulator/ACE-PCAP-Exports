@@ -6,11 +6,9 @@ VALUES (13, 'ratwhite', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13,   1,         16) /* ItemType - Creature */
      , (13,   2,         10) /* CreatureType - Rat */
-     , (13,   5,       6060) /* EncumbranceVal */
      , (13,   6,        255) /* ItemsCapacity */
      , (13,   7,        255) /* ContainersCapacity */
      , (13,  16,          1) /* ItemUseable - No */
-     , (13,  19,          0) /* Value */
      , (13,  25,          8) /* Level */
      , (13,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (13, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (13,  39, 2.09999990463257) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13,   1, 'White Rat') /* Name */
-     , (13,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (13, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

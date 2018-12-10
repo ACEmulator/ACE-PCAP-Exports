@@ -39,8 +39,6 @@ VALUES (10870,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10870,   1, 'Canescent Mattekar Robe') /* Name */
-     , (10870,   7, 'AL 40 A/A/A/A/A/A/A        0p clan wartorn') /* Inscription */
-     , (10870,   8, 'X-force') /* ScribeName */
      , (10870,  15, 'The Canescent Mattekar Robe, brought to you with the finest care by Britana.') /* ShortDesc */
      , (10870,  25, 'Aliah the radiant') /* CraftsmanName */;
 

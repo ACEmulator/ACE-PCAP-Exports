@@ -5,13 +5,11 @@ VALUES (7041, 'lichthighbone', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7041,   1,        128) /* ItemType - Misc */
-     , (7041,   2,         20) /* CreatureType - Wisp */
      , (7041,   5,         10) /* EncumbranceVal */
      , (7041,  11,          1) /* MaxStackSize */
      , (7041,  12,          1) /* StackSize */
      , (7041,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7041,  19,          0) /* Value */
-     , (7041,  25,        115) /* Level */
      , (7041,  65,        101) /* Placement - Resting */
      , (7041,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7041,  94,        128) /* TargetType - Misc */
@@ -42,6 +40,3 @@ VALUES (7041,   1,   33556593) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7041,   2, 3658159434) /* Container */
      , (7041, 8000, 3658159436) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7041,   1,   720, 0, 0, 720) /* MaxHealth */;

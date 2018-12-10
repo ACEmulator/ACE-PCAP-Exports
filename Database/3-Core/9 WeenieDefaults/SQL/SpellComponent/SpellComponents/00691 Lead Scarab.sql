@@ -12,7 +12,6 @@ VALUES (691,   1,       4096) /* ItemType - SpellComponents */
      , (691,  19,        250) /* Value */
      , (691,  65,        101) /* Placement - Resting */
      , (691,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (691, 107,          0) /* ItemCurMana */
      , (691, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -22,13 +21,8 @@ VALUES (691,   1, False) /* Stuck */
      , (691,  14, True ) /* GravityStatus */
      , (691,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (691,  87,       2) /* ItemEfficiency */
-     , (691, 137,     0.2) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (691,   1, 'Lead Scarab') /* Name */
-     , (691,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (691,   1, 'Lead Scarab') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (691,   1,   33555211) /* Setup */

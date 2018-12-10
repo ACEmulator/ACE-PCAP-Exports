@@ -5,13 +5,10 @@ VALUES (46033, 'ace46033-lightningbolt', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46033,   1,          0) /* ItemType - None */
-     , (46033,   5,         69) /* EncumbranceVal */
-     , (46033,  19,         65) /* Value */
      , (46033,  93,     166728) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, ScriptedCollision, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46033,   1, True ) /* Stuck */
-     , (46033,   2, True ) /* Open */
      , (46033,  12, True ) /* ReportCollisions */
      , (46033,  13, False) /* Ethereal */
      , (46033,  15, True ) /* LightsStatus */
@@ -29,15 +26,14 @@ VALUES (46033,  77,       1) /* PhysicsScriptIntensity */
      , (46033, 8012, -0.18708860874176) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46033,   1, 'Lightning Bolt') /* Name */
-     , (46033,  14, 'Use this item to close it.') /* Use */;
+VALUES (46033,   1, 'Lightning Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46033,   1,   33561456) /* Setup */
      , (46033,   3,  536870968) /* SoundTable */
      , (46033,   8,  100667494) /* Icon */
      , (46033,  22,  872415442) /* PhysicsEffectTable */
-     , (46033,  28,         75) /* Spell */
+     , (46033,  28,         75) /* Spell - LightningBolt1 */
      , (46033, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (46033, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (46033, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */

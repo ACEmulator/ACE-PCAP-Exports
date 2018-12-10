@@ -6,43 +6,12 @@ VALUES (40134, 'ace40134-crystallinewisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40134,   1,         16) /* ItemType - Creature */
      , (40134,   2,         20) /* CreatureType - Wisp */
-     , (40134,   5,      11333) /* EncumbranceVal */
      , (40134,   6,        255) /* ItemsCapacity */
      , (40134,   7,        255) /* ContainersCapacity */
      , (40134,  16,          1) /* ItemUseable - No */
-     , (40134,  19,          0) /* Value */
      , (40134,  25,        115) /* Level */
-     , (40134,  28,        290) /* ArmorLevel */
-     , (40134,  33,          0) /* Bonded - Normal */
-     , (40134,  45,          2) /* DamageType - Pierce */
-     , (40134,  91,         50) /* MaxStructure */
-     , (40134,  92,         50) /* Structure */
      , (40134,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (40134, 105,          9) /* ItemWorkmanship */
-     , (40134, 106,        230) /* ItemSpellcraft */
-     , (40134, 107,       2116) /* ItemCurMana */
-     , (40134, 108,       2116) /* ItemMaxMana */
-     , (40134, 109,        240) /* ItemDifficulty */
-     , (40134, 110,          0) /* ItemAllegianceRankLimit */
-     , (40134, 114,          0) /* Attuned - Normal */
-     , (40134, 115,          0) /* ItemSkillLevelLimit */
-     , (40134, 117,        300) /* ItemManaCost */
-     , (40134, 131,         59) /* MaterialType - Copper */
      , (40134, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (40134, 158,          2) /* WieldRequirements - RawSkill */
-     , (40134, 159,         34) /* WieldSkilltype - WarMagic */
-     , (40134, 160,        355) /* WieldDifficulty */
-     , (40134, 172,          5) /* AppraisalLongDescDecoration */
-     , (40134, 176,          7) /* AppraisalItemSkill */
-     , (40134, 177,          3) /* GemCount */
-     , (40134, 178,         39) /* GemType */
-     , (40134, 280,        213) /* SharedCooldown */
-     , (40134, 307,          5) /* DamageRating */
-     , (40134, 366,         54) /* UseRequiresSkill */
-     , (40134, 367,        475) /* UseRequiresSkillLevel */
-     , (40134, 369,        140) /* UseRequiresLevel */
-     , (40134, 370,          8) /* GearDamage */
-     , (40134, 374,          5) /* GearCritDamage */
      , (40134, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,30 +19,10 @@ VALUES (40134,   1, True ) /* Stuck */
      , (40134,  12, True ) /* ReportCollisions */
      , (40134,  13, False) /* Ethereal */
      , (40134,  14, True ) /* GravityStatus */
-     , (40134,  19, True ) /* Attackable */
-     , (40134,  69, True ) /* IsSellable */
-     , (40134, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40134,   5, -0.0555555555555556) /* ManaRate */
-     , (40134,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (40134,  14,       1) /* ArmorModVsPierce */
-     , (40134,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (40134,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (40134,  17, 1.01825356483459) /* ArmorModVsFire */
-     , (40134,  18, 1.21131384372711) /* ArmorModVsAcid */
-     , (40134,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (40134,  29,    1.13) /* WeaponDefense */
-     , (40134, 144,    0.07) /* ManaConversionMod */
-     , (40134, 150,    1.03) /* WeaponMagicDefense */
-     , (40134, 152,     1.1) /* ElementalDamageMod */
-     , (40134, 165,       1) /* ArmorModVsNether */
-     , (40134, 167,      45) /* CooldownDuration */;
+     , (40134,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40134,   1, 'Crystalline Wisp') /* Name */
-     , (40134,  14, 'Use this essence to summon or dismiss your Acid Phyntos Wasp.') /* Use */
-     , (40134,  16, 'Killed by Mag-three.') /* LongDesc */
      , (40134, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -105,24 +54,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40134,   1,   520, 0, 0, 520) /* MaxHealth */
      , (40134,   3,   620, 0, 0, 619) /* MaxStamina */
      , (40134,   5,   450, 0, 0, 392) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40134,   520,      2) 
-     , (40134,  1113,      2) 
-     , (40134,  1486,      2) 
-     , (40134,  1528,      2) 
-     , (40134,  2108,      2) 
-     , (40134,  2110,      2) 
-     , (40134,  2506,      2) 
-     , (40134,  2539,      2) 
-     , (40134,  2545,      2) 
-     , (40134,  2548,      2) 
-     , (40134,  2583,      2) 
-     , (40134,  2605,      2) 
-     , (40134,  2620,      2) 
-     , (40134,  4299,      2) 
-     , (40134,  4305,      2) 
-     , (40134,  4418,      2) 
-     , (40134,  4433,      2) 
-     , (40134,  4699,      2) 
-     , (40134,  6121,      2) ;

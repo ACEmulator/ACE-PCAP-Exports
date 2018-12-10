@@ -48,8 +48,6 @@ VALUES (43274,   5,    -0.5) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43274,   1, 'Empyrean Over-robe') /* Name */
-     , (43274,   7, 'Sneux, Crog, Linkmage, Blood of Night, Veneficus, Tinkers'' ... Rescuers of the Trapped Empyreans on October 13, 2010') /* Inscription */
-     , (43274,   8, 'Crog') /* ScribeName */
      , (43274,  14, 'This robe may be tailored onto most breastplates.') /* Use */
      , (43274,  16, 'A loose-fitting Empyrean robe, designed to be worn over other armor pieces.  Embedded in the fabric are small threads of Thaumaturgic Crystal which radiate an almost palpable power.') /* LongDesc */;
 

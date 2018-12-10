@@ -45,7 +45,7 @@ VALUES (22824,   1,   33556769) /* Setup */
      , (22824,   6,   67111919) /* PaletteBase */
      , (22824,   8,  100672368) /* Icon */
      , (22824,  22,  872415275) /* PhysicsEffectTable */
-     , (22824,  28,       2942) /* Spell */
+     , (22824,  28,       2942) /* Spell - PortalSendAbandonedMine */
      , (22824, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (22824, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22824, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

@@ -34,9 +34,7 @@ VALUES (5850,  13, 0.800000011920929) /* ArmorModVsSlash */
      , (5850, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5850,   1, 'Faran Robe') /* Name */
-     , (5850,   7, 'Koa encore des gars porte des robes? tatatata  ') /* Inscription */
-     , (5850,   8, 'Baeth Elgolhuir''Bulkur') /* ScribeName */;
+VALUES (5850,   1, 'Faran Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5850,   1,   33554854) /* Setup */

@@ -11,32 +11,9 @@ VALUES (34018,   1,          1) /* ItemType - MeleeWeapon */
      , (34018,  16,          1) /* ItemUseable - No */
      , (34018,  18,        128) /* UiEffects - Frost */
      , (34018,  19,       1150) /* Value */
-     , (34018,  28,          0) /* ArmorLevel */
-     , (34018,  44,         60) /* Damage */
-     , (34018,  45,          2) /* DamageType - Pierce */
-     , (34018,  47,          2) /* AttackType - Thrust */
-     , (34018,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (34018,  49,         45) /* WeaponTime */
      , (34018,  51,          1) /* CombatUse - Melee */
      , (34018,  65,          1) /* Placement - RightHandCombat */
-     , (34018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34018, 105,          6) /* ItemWorkmanship */
-     , (34018, 106,        327) /* ItemSpellcraft */
-     , (34018, 107,       1525) /* ItemCurMana */
-     , (34018, 108,       1525) /* ItemMaxMana */
-     , (34018, 109,        252) /* ItemDifficulty */
-     , (34018, 110,          0) /* ItemAllegianceRankLimit */
-     , (34018, 115,          0) /* ItemSkillLevelLimit */
-     , (34018, 131,          7) /* MaterialType - Velvet */
-     , (34018, 158,          2) /* WieldRequirements - RawSkill */
-     , (34018, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (34018, 160,        400) /* WieldDifficulty */
-     , (34018, 172,          1) /* AppraisalLongDescDecoration */
-     , (34018, 176,         44) /* AppraisalItemSkill */
-     , (34018, 177,          2) /* GemCount */
-     , (34018, 178,         39) /* GemType */
-     , (34018, 353,          5) /* WeaponType - Spear */
-     , (34018, 8030,          0);
+     , (34018,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34018,   1, False) /* Stuck */
@@ -44,29 +21,10 @@ VALUES (34018,   1, False) /* Stuck */
      , (34018,  13, True ) /* Ethereal */
      , (34018,  14, True ) /* GravityStatus */
      , (34018,  19, True ) /* Attackable */
-     , (34018,  22, True ) /* Inscribable */
-     , (34018, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (34018,   5, -0.0555555555555556) /* ManaRate */
-     , (34018,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (34018,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (34018,  15,       1) /* ArmorModVsBludgeon */
-     , (34018,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (34018,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (34018,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (34018,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (34018,  21,       0) /* WeaponLength */
-     , (34018,  22,    0.59) /* DamageVariance */
-     , (34018,  26,       0) /* MaximumVelocity */
-     , (34018,  29,    1.06) /* WeaponDefense */
-     , (34018,  62,    1.15) /* WeaponOffense */
-     , (34018,  63,       1) /* DamageMod */
-     , (34018, 165,       1) /* ArmorModVsNether */;
+     , (34018,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34018,   1, 'Frost Tachi') /* Name */
-     , (34018,  16, 'Trousers of Acid Protection') /* LongDesc */;
+VALUES (34018,   1, 'Frost Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34018,   1,   33555754) /* Setup */
@@ -87,13 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34018,   3, 2930040024) /* Wielder */
      , (34018, 8000, 2928264844) /* PCAPRecordedObjectIID */
      , (34018, 8008, 2930040024) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34018,  1616,      2) 
-     , (34018,  2149,      2) 
-     , (34018,  2566,      2) 
-     , (34018,  5809,      2) 
-     , (34018,  5883,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34018, 67111920, 0, 0);

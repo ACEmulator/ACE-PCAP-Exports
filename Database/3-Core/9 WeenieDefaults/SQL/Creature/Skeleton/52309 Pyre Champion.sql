@@ -6,16 +6,11 @@ VALUES (52309, 'ace52309-pyrechampion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52309,   1,         16) /* ItemType - Creature */
      , (52309,   2,         30) /* CreatureType - Skeleton */
-     , (52309,   5,         50) /* EncumbranceVal */
      , (52309,   6,        255) /* ItemsCapacity */
      , (52309,   7,        255) /* ContainersCapacity */
      , (52309,  16,          1) /* ItemUseable - No */
-     , (52309,  19,       5000) /* Value */
      , (52309,  25,        265) /* Level */
-     , (52309,  33,          1) /* Bonded - Bonded */
      , (52309,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52309, 107,          0) /* ItemCurMana */
-     , (52309, 114,          1) /* Attuned - Attuned */
      , (52309, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (52309, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -24,18 +19,13 @@ VALUES (52309,   1, True ) /* Stuck */
      , (52309,  12, True ) /* ReportCollisions */
      , (52309,  13, False) /* Ethereal */
      , (52309,  14, True ) /* GravityStatus */
-     , (52309,  19, True ) /* Attackable */
-     , (52309,  69, False) /* IsSellable */;
+     , (52309,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52309,  39, 1.10000002384186) /* DefaultScale */
-     , (52309,  87,       2) /* ItemEfficiency */
-     , (52309, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (52309,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52309,   1, 'Pyre Champion') /* Name */
-     , (52309,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (52309,  15, 'A tusk plucked from a dead Tusker Guard. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* ShortDesc */
      , (52309, 8006, 'AABAAAEAAABAAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

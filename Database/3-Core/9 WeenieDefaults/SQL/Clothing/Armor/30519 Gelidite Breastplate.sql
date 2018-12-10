@@ -23,10 +23,7 @@ VALUES (30519,   1,          2) /* ItemType - Armor */
      , (30519, 151,          2) /* HookType - Wall */
      , (30519, 265,         40) /* EquipmentSetId - RareDamageResistance */
      , (30519, 319,         50) /* ItemMaxLevel */
-     , (30519, 320,          1) /* ItemXpStyle - Fixed */
-     , (30519, 371,          1) /* GearDamageResist */
-     , (30519, 379,          2) /* GearMaxHealth */
-     , (30519, 384,          2) /* GearPKDamageResistRating */;
+     , (30519, 320,          1) /* ItemXpStyle - Fixed */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30519,   4,          0) /* ItemTotalXp */
@@ -38,9 +35,7 @@ VALUES (30519,   1, False) /* Stuck */
      , (30519,  13, True ) /* Ethereal */
      , (30519,  14, True ) /* GravityStatus */
      , (30519,  19, True ) /* Attackable */
-     , (30519,  22, True ) /* Inscribable */
-     , (30519,  91, True ) /* Retained */
-     , (30519, 100, True ) /* Dyable */;
+     , (30519,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30519,   5, -0.0333333015441895) /* ManaRate */

@@ -35,7 +35,6 @@ VALUES (8363,   1, False) /* Stuck */
      , (8363,  14, True ) /* GravityStatus */
      , (8363,  19, True ) /* Attackable */
      , (8363,  22, True ) /* Inscribable */
-     , (8363,  85, True ) /* AppraisalHasAllowedWielder */
      , (8363,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,10 +49,7 @@ VALUES (8363,   5,  -0.061) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8363,   1, 'Mace of the Explorer') /* Name */
-     , (8363,   7, '9-14;  BD III (14-22); +7 attack; 14-22 with BD III') /* Inscription */
-     , (8363,   8, 'Brother Trevor') /* ScribeName */
-     , (8363,  16, 'A well crafted mace, created by the Society.') /* LongDesc */
-     , (8363,  25, 'Brokkr') /* CraftsmanName */;
+     , (8363,  16, 'A well crafted mace, created by the Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8363,   1,   33554746) /* Setup */

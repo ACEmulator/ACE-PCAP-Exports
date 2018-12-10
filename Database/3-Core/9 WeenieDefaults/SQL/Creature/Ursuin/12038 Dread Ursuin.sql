@@ -6,11 +6,9 @@ VALUES (12038, 'ursuinbossmonster', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12038,   1,         16) /* ItemType - Creature */
      , (12038,   2,         46) /* CreatureType - Ursuin */
-     , (12038,   5,       6050) /* EncumbranceVal */
      , (12038,   6,        255) /* ItemsCapacity */
      , (12038,   7,        255) /* ContainersCapacity */
      , (12038,  16,          1) /* ItemUseable - No */
-     , (12038,  19,          0) /* Value */
      , (12038,  25,         80) /* Level */
      , (12038,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12038, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -31,7 +29,6 @@ VALUES (12038,  39,     1.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12038,   1, 'Dread Ursuin') /* Name */
-     , (12038,  16, 'Killed by Mag-five.') /* LongDesc */
      , (12038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

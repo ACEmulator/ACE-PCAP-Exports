@@ -5,7 +5,6 @@ VALUES (33674, 'ace33674-thedeep', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33674,   1,         16) /* ItemType - Creature */
-     , (33674,   5,          0) /* EncumbranceVal */
      , (33674,   6,        255) /* ItemsCapacity */
      , (33674,   7,        255) /* ContainersCapacity */
      , (33674,  16,         32) /* ItemUseable - Remote */

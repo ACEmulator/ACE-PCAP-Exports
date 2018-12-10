@@ -6,11 +6,9 @@ VALUES (11872, 'tumerokattackreedshark', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11872,   1,         16) /* ItemType - Creature */
      , (11872,   2,          6) /* CreatureType - Tumerok */
-     , (11872,   5,       7001) /* EncumbranceVal */
      , (11872,   6,        255) /* ItemsCapacity */
      , (11872,   7,        255) /* ContainersCapacity */
      , (11872,  16,          1) /* ItemUseable - No */
-     , (11872,  19,          0) /* Value */
      , (11872,  25,         50) /* Level */
      , (11872,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11872, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (11872,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11872,   1, 'Tumerok Commander') /* Name */
-     , (11872,  16, 'Killed by Jesse the Destroyer.') /* LongDesc */
      , (11872, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

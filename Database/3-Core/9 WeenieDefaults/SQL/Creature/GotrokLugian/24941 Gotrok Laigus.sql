@@ -6,29 +6,12 @@ VALUES (24941, 'lugianlaigusrenegade', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24941,   1,         16) /* ItemType - Creature */
      , (24941,   2,         70) /* CreatureType - GotrokLugian */
-     , (24941,   5,       6448) /* EncumbranceVal */
      , (24941,   6,        255) /* ItemsCapacity */
      , (24941,   7,        255) /* ContainersCapacity */
      , (24941,  16,          1) /* ItemUseable - No */
-     , (24941,  19,          0) /* Value */
      , (24941,  25,         20) /* Level */
-     , (24941,  28,        286) /* ArmorLevel */
      , (24941,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24941, 105,          9) /* ItemWorkmanship */
-     , (24941, 106,        294) /* ItemSpellcraft */
-     , (24941, 107,        926) /* ItemCurMana */
-     , (24941, 108,        926) /* ItemMaxMana */
-     , (24941, 109,        307) /* ItemDifficulty */
-     , (24941, 110,          0) /* ItemAllegianceRankLimit */
-     , (24941, 115,          0) /* ItemSkillLevelLimit */
-     , (24941, 131,         53) /* MaterialType - ArmoredilloHide */
      , (24941, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24941, 158,          7) /* WieldRequirements - Level */
-     , (24941, 159,          1) /* WieldSkilltype - Axe */
-     , (24941, 160,        150) /* WieldDifficulty */
-     , (24941, 172,          5) /* AppraisalLongDescDecoration */
-     , (24941, 177,          2) /* GemCount */
-     , (24941, 178,         39) /* GemType */
      , (24941, 307,          5) /* DamageRating */
      , (24941, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -37,23 +20,10 @@ VALUES (24941,   1, True ) /* Stuck */
      , (24941,  12, True ) /* ReportCollisions */
      , (24941,  13, False) /* Ethereal */
      , (24941,  14, True ) /* GravityStatus */
-     , (24941,  19, True ) /* Attackable */
-     , (24941, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24941,   5, -0.0555555555555556) /* ManaRate */
-     , (24941,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (24941,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (24941,  15,       1) /* ArmorModVsBludgeon */
-     , (24941,  16, 1.2063045501709) /* ArmorModVsCold */
-     , (24941,  17,     0.5) /* ArmorModVsFire */
-     , (24941,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (24941,  19, 1.1191371679306) /* ArmorModVsElectric */
-     , (24941, 165,       1) /* ArmorModVsNether */;
+     , (24941,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24941,   1, 'Gotrok Laigus') /* Name */
-     , (24941,  16, 'Killed by Dooty Tang.') /* LongDesc */
      , (24941, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,16 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24941,   1,   105, 0, 0, 105) /* MaxHealth */
      , (24941,   3,   300, 0, 0, 298) /* MaxStamina */
      , (24941,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24941,   682,      2) 
-     , (24941,   878,      2) 
-     , (24941,  1486,      2) 
-     , (24941,  1551,      2) 
-     , (24941,  1573,      2) 
-     , (24941,  2108,      2) 
-     , (24941,  2207,      2) 
-     , (24941,  2531,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24941, 67113163, 0, 0);

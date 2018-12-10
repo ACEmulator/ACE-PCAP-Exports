@@ -10,34 +10,12 @@ VALUES (36056,   1,        128) /* ItemType - Misc */
      , (36056,  18,         64) /* UiEffects - Lightning */
      , (36056,  19,          0) /* Value */
      , (36056,  33,          1) /* Bonded - Bonded */
-     , (36056,  44,          0) /* Damage */
-     , (36056,  45,          0) /* DamageType - Undef */
-     , (36056,  47,          4) /* AttackType - Slash */
-     , (36056,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (36056,  49,         40) /* WeaponTime */
      , (36056,  65,        101) /* Placement - Resting */
      , (36056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36056,  98, 1485661247) /* CreationTimestamp */
-     , (36056, 105,         10) /* ItemWorkmanship */
-     , (36056, 106,        281) /* ItemSpellcraft */
-     , (36056, 107,       2521) /* ItemCurMana */
-     , (36056, 108,       2521) /* ItemMaxMana */
-     , (36056, 109,        221) /* ItemDifficulty */
-     , (36056, 110,          0) /* ItemAllegianceRankLimit */
      , (36056, 114,          1) /* Attuned - Attuned */
-     , (36056, 115,          0) /* ItemSkillLevelLimit */
-     , (36056, 131,         21) /* MaterialType - Emerald */
-     , (36056, 158,          2) /* WieldRequirements - RawSkill */
-     , (36056, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (36056, 160,        250) /* WieldDifficulty */
-     , (36056, 172,          5) /* AppraisalLongDescDecoration */
-     , (36056, 176,         47) /* AppraisalItemSkill */
-     , (36056, 177,          4) /* GemCount */
-     , (36056, 178,         26) /* GemType */
      , (36056, 267,        600) /* Lifespan */
-     , (36056, 268,        265) /* RemainingLifespan */
-     , (36056, 353,          8) /* WeaponType - Bow */
-     , (36056, 8030,          0);
+     , (36056, 268,        265) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36056,   1, False) /* Stuck */
@@ -47,15 +25,6 @@ VALUES (36056,   1, False) /* Stuck */
      , (36056,  19, True ) /* Attackable */
      , (36056,  22, True ) /* Inscribable */
      , (36056,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36056,   5, -0.0555555555555556) /* ManaRate */
-     , (36056,  21,       0) /* WeaponLength */
-     , (36056,  22,       0) /* DamageVariance */
-     , (36056,  26,    27.3) /* MaximumVelocity */
-     , (36056,  29,    1.09) /* WeaponDefense */
-     , (36056,  62,       1) /* WeaponOffense */
-     , (36056,  63,     2.2) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36056,   1, 'Reflection of the Agent of the Arcanum') /* Name */
@@ -76,11 +45,3 @@ VALUES (36056, 8040, 10682829, 226.6342, -140.3578, -12.001, 0.7403256, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36056, 8000, 3705811810) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36056,  1614,      2) 
-     , (36056,  1616,      2) 
-     , (36056,  2195,      2) 
-     , (36056,  2501,      2) 
-     , (36056,  2537,      2) 
-     , (36056,  5881,      2) ;

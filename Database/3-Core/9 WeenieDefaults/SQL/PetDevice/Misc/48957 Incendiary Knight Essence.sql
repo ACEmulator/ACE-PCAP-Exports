@@ -24,10 +24,7 @@ VALUES (48957,   1,        128) /* ItemType - Misc */
      , (48957, 369,        185) /* UseRequiresLevel */
      , (48957, 370,         11) /* GearDamage */
      , (48957, 371,         13) /* GearDamageResist */
-     , (48957, 372,         12) /* GearCrit */
-     , (48957, 373,         14) /* GearCritResist */
-     , (48957, 374,          7) /* GearCritDamage */
-     , (48957, 375,         11) /* GearCritDamageResist */;
+     , (48957, 374,          7) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48957,   1, False) /* Stuck */
@@ -44,8 +41,6 @@ VALUES (48957,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48957,   1, 'Incendiary Knight Essence') /* Name */
-     , (48957,   7, '66') /* Inscription */
-     , (48957,   8, 'Nihao Storage') /* ScribeName */
      , (48957,  14, 'Use this essence to summon or dismiss your Incendiary Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

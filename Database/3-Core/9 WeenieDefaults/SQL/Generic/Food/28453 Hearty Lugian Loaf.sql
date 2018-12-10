@@ -40,7 +40,7 @@ VALUES (28453,   1,   33554806) /* Setup */
      , (28453,   3,  536870932) /* SoundTable */
      , (28453,   8,  100676972) /* Icon */
      , (28453,  22,  872415275) /* PhysicsEffectTable */
-     , (28453,  28,       3440) /* Spell */
+     , (28453,  28,       3440) /* Spell - LugianHealth */
      , (28453, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (28453, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (28453, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

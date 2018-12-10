@@ -6,70 +6,26 @@ VALUES (7117, 'mumiyahguardian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7117,   1,         16) /* ItemType - Creature */
      , (7117,   2,         14) /* CreatureType - Undead */
-     , (7117,   5,         57) /* EncumbranceVal */
      , (7117,   6,        255) /* ItemsCapacity */
      , (7117,   7,        255) /* ContainersCapacity */
      , (7117,  16,          1) /* ItemUseable - No */
-     , (7117,  19,       1006) /* Value */
      , (7117,  25,         80) /* Level */
-     , (7117,  28,          0) /* ArmorLevel */
-     , (7117,  44,         13) /* Damage */
-     , (7117,  45,          8) /* DamageType - Cold */
-     , (7117,  47,          4) /* AttackType - Slash */
-     , (7117,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (7117,  49,         46) /* WeaponTime */
      , (7117,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7117, 105,          7) /* ItemWorkmanship */
-     , (7117, 106,        103) /* ItemSpellcraft */
-     , (7117, 107,        304) /* ItemCurMana */
-     , (7117, 108,        304) /* ItemMaxMana */
-     , (7117, 109,         41) /* ItemDifficulty */
-     , (7117, 110,          0) /* ItemAllegianceRankLimit */
-     , (7117, 115,        123) /* ItemSkillLevelLimit */
-     , (7117, 131,          7) /* MaterialType - Velvet */
      , (7117, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7117, 158,          2) /* WieldRequirements - RawSkill */
-     , (7117, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (7117, 160,        400) /* WieldDifficulty */
-     , (7117, 172,          5) /* AppraisalLongDescDecoration */
-     , (7117, 176,         41) /* AppraisalItemSkill */
-     , (7117, 177,          1) /* GemCount */
-     , (7117, 178,         34) /* GemType */
-     , (7117, 292,          2) /* Cleaving */
-     , (7117, 353,         11) /* WeaponType - TwoHanded */
-     , (7117, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7117, 8030,          0);
+     , (7117, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7117,   1, True ) /* Stuck */
      , (7117,  12, True ) /* ReportCollisions */
      , (7117,  13, False) /* Ethereal */
      , (7117,  14, True ) /* GravityStatus */
-     , (7117,  19, True ) /* Attackable */
-     , (7117, 100, True ) /* Dyable */;
+     , (7117,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7117,   5,  -0.025) /* ManaRate */
-     , (7117,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (7117,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (7117,  15,       1) /* ArmorModVsBludgeon */
-     , (7117,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (7117,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (7117,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (7117,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (7117,  21,       0) /* WeaponLength */
-     , (7117,  22,    0.55) /* DamageVariance */
-     , (7117,  26,       0) /* MaximumVelocity */
-     , (7117,  29,    1.02) /* WeaponDefense */
-     , (7117,  39, 1.29999995231628) /* DefaultScale */
-     , (7117,  62,    1.05) /* WeaponOffense */
-     , (7117,  63,       1) /* DamageMod */
-     , (7117, 149,    1.04) /* WeaponMissileDefense */
-     , (7117, 165,       1) /* ArmorModVsNether */;
+VALUES (7117,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7117,   1, 'Guardian Mu-miyah') /* Name */
-     , (7117,  16, 'Baggy Tunic') /* LongDesc */
      , (7117, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -102,14 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7117,   1,   230, 0, 0, 230) /* MaxHealth */
      , (7117,   3,   420, 0, 0, 420) /* MaxStamina */
      , (7117,   5,   350, 0, 0, 350) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7117,  1613,      2) 
-     , (7117,  1624,      2) 
-     , (7117,  2059,      2) 
-     , (7117,  2116,      2) 
-     , (7117,  4395,      2) 
-     , (7117,  4661,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7117, 67111813, 0, 0);

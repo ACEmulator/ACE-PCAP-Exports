@@ -6,24 +6,12 @@ VALUES (49017, 'ace49017-snakemannszombie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49017,   1,         16) /* ItemType - Creature */
      , (49017,   2,         14) /* CreatureType - Undead */
-     , (49017,   5,         60) /* EncumbranceVal */
      , (49017,   6,        255) /* ItemsCapacity */
      , (49017,   7,        255) /* ContainersCapacity */
      , (49017,  16,          1) /* ItemUseable - No */
-     , (49017,  19,       3677) /* Value */
      , (49017,  25,         80) /* Level */
-     , (49017,  28,        266) /* ArmorLevel */
      , (49017,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49017, 105,          7) /* ItemWorkmanship */
-     , (49017, 106,        184) /* ItemSpellcraft */
-     , (49017, 107,       1701) /* ItemCurMana */
-     , (49017, 108,       1701) /* ItemMaxMana */
-     , (49017, 109,        184) /* ItemDifficulty */
-     , (49017, 110,          0) /* ItemAllegianceRankLimit */
-     , (49017, 115,          0) /* ItemSkillLevelLimit */
-     , (49017, 131,         57) /* MaterialType - Brass */
      , (49017, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49017, 172,          1) /* AppraisalLongDescDecoration */
      , (49017, 307,          5) /* DamageRating */
      , (49017, 313,          8) /* CritRating */
      , (49017, 314,         12) /* CritDamageRating */
@@ -35,23 +23,10 @@ VALUES (49017,   1, True ) /* Stuck */
      , (49017,  12, True ) /* ReportCollisions */
      , (49017,  13, True ) /* Ethereal */
      , (49017,  14, True ) /* GravityStatus */
-     , (49017,  19, True ) /* Attackable */
-     , (49017, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49017,   5,   -0.05) /* ManaRate */
-     , (49017,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (49017,  14,       1) /* ArmorModVsPierce */
-     , (49017,  15,       1) /* ArmorModVsBludgeon */
-     , (49017,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (49017,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (49017,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (49017,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (49017, 165,       1) /* ArmorModVsNether */;
+     , (49017,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49017,   1, 'Snakemann''s Zombie') /* Name */
-     , (49017,  16, 'Bracelet of Coordination') /* LongDesc */
      , (49017, 8006, 'AAA+AAEAAAA+AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,9 +61,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49017,   1,   670, 0, 0, 670) /* MaxHealth */
      , (49017,   3,   930, 0, 0, 930) /* MaxStamina */
      , (49017,   5,   460, 0, 0, 460) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49017,  1377,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49017, 67109969, 186, 12)

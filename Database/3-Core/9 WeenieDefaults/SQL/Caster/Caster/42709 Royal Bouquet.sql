@@ -33,13 +33,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42709,   5, -0.0500000007450581) /* ManaRate */
      , (42709,  29,       1) /* WeaponDefense */
      , (42709,  39, 0.600000023841858) /* DefaultScale */
-     , (42709, 144, 0.100000001490116) /* ManaConversionMod */
-     , (42709, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (42709, 144, 0.100000001490116) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42709,   1, 'Royal Bouquet') /* Name */
-     , (42709,   7, 'Mr Baker II, Thanks for being a friend !!!') /* Inscription */
-     , (42709,   8, 'Buckingham') /* ScribeName */
      , (42709,  16, 'A magical bouquet of flowers which casts it''s beneficial magic on others.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -47,7 +44,7 @@ VALUES (42709,   1,   33560951) /* Setup */
      , (42709,   3,  536871012) /* SoundTable */
      , (42709,   8,  100672710) /* Icon */
      , (42709,  22,  872415275) /* PhysicsEffectTable */
-     , (42709,  28,       5314) /* Spell */
+     , (42709,  28,       5314) /* Spell - BlessingOfUnity */
      , (42709, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (42709, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42709, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */

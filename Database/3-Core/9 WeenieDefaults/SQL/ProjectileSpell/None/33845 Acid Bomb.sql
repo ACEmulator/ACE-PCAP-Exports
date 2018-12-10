@@ -5,11 +5,6 @@ VALUES (33845, 'ace33845-acidbomb', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33845,   1,          0) /* ItemType - None */
-     , (33845,   5,         50) /* EncumbranceVal */
-     , (33845,  19,        500) /* Value */
-     , (33845,  90,         10) /* BoostValue */
-     , (33845,  91,         35) /* MaxStructure */
-     , (33845,  92,         35) /* Structure */
      , (33845,  93,    1179700) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw, Inelastic, Cloaked */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,7 +19,6 @@ VALUES (33845,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33845,  78,       1) /* Friction */
      , (33845,  79,       0) /* Elasticity */
-     , (33845, 100,     1.5) /* HealkitMod */
      , (33845, 8010, -0.612682998180389) /* PCAPRecordedVelocityX */
      , (33845, 8011, 0.0377473682165146) /* PCAPRecordedVelocityY */
      , (33845, 8012, 0.549409747123718) /* PCAPRecordedVelocityZ */;
@@ -36,7 +30,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33845,   1,   33560085) /* Setup */
      , (33845,   3,  536870969) /* SoundTable */
      , (33845,   8,  100667494) /* Icon */
-     , (33845,  28,       3969) /* Spell */
+     , (33845,  28,       3969) /* Spell - AcidBomb */
      , (33845, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33845, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33845, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;

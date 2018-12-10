@@ -30,13 +30,10 @@ VALUES (3823,   1,          1) /* ItemType - MeleeWeapon */
      , (3823, 158,          2) /* WieldRequirements - RawSkill */
      , (3823, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (3823, 160,        250) /* WieldDifficulty */
-     , (3823, 171,         10) /* NumTimesTinkered */
      , (3823, 172,          5) /* AppraisalLongDescDecoration */
      , (3823, 176,         44) /* AppraisalItemSkill */
      , (3823, 177,          2) /* GemCount */
      , (3823, 178,         19) /* GemType */
-     , (3823, 179,        256) /* ImbuedEffect - ElectricRending */
-     , (3823, 188,          3) /* HeritageGroup - Sho */
      , (3823, 353,          2) /* WeaponType - Sword */
      , (3823, 8030,          0);
 
@@ -56,17 +53,11 @@ VALUES (3823,   5,   -0.05) /* ManaRate */
      , (3823,  29,    1.07) /* WeaponDefense */
      , (3823,  62,    1.05) /* WeaponOffense */
      , (3823,  63,       1) /* DamageMod */
-     , (3823, 149,   1.015) /* WeaponMissileDefense */
-     , (3823, 150,   1.015) /* WeaponMagicDefense */
      , (3823, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3823,   1, 'Lightning Ken') /* Name */
-     , (3823,   7, '7-13 Electrical,+5MD, Def IV, BDV, Diff 42, Sho Sword of 230') /* Inscription */
-     , (3823,   8, 'Chi-Lee') /* ScribeName */
-     , (3823,  16, 'Lightning Ken of Defender') /* LongDesc */
-     , (3823,  39, 'Sho Can Tinker') /* TinkerName */
-     , (3823,  40, 'Sho Can Tinker') /* ImbuerName */;
+     , (3823,  16, 'Lightning Ken of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3823,   1,   33555701) /* Setup */
@@ -82,33 +73,6 @@ VALUES (3823,   2, 3700273087) /* Container */
      , (3823, 8000, 3698624489) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3823,    35,      2) 
-     , (3823,  1354,      2) 
-     , (3823,  1588,      2) 
-     , (3823,  1591,      2) 
-     , (3823,  1592,      2) 
-     , (3823,  1603,      2) 
-     , (3823,  1605,      2) 
-     , (3823,  1612,      2) 
-     , (3823,  1615,      2) 
+VALUES (3823,  1605,      2) 
      , (3823,  1616,      2) 
-     , (3823,  1623,      2) 
-     , (3823,  1624,      2) 
-     , (3823,  1627,      2) 
-     , (3823,  2061,      2) 
-     , (3823,  2081,      2) 
-     , (3823,  2096,      2) 
-     , (3823,  2101,      2) 
-     , (3823,  2106,      2) 
-     , (3823,  2116,      2) 
-     , (3823,  2524,      2) 
-     , (3823,  2529,      2) 
-     , (3823,  2549,      2) 
-     , (3823,  2559,      2) 
-     , (3823,  2566,      2) 
-     , (3823,  2600,      2) 
-     , (3823,  2608,      2) 
-     , (3823,  4395,      2) 
-     , (3823,  4400,      2) 
-     , (3823,  4661,      2) 
-     , (3823,  5880,      2) ;
+     , (3823,  1627,      2) ;

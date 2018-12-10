@@ -6,27 +6,15 @@ VALUES (28705, 'sanamaranton', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28705,   1,         16) /* ItemType - Creature */
      , (28705,   2,         31) /* CreatureType - Human */
-     , (28705,   5,          5) /* EncumbranceVal */
      , (28705,   6,        255) /* ItemsCapacity */
      , (28705,   7,        255) /* ContainersCapacity */
      , (28705,  16,         32) /* ItemUseable - Remote */
-     , (28705,  19,       1776) /* Value */
      , (28705,  25,         10) /* Level */
      , (28705,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (28705,  95,          8) /* RadarBlipColor - Yellow */
-     , (28705, 105,          6) /* ItemWorkmanship */
-     , (28705, 106,        200) /* ItemSpellcraft */
-     , (28705, 107,        467) /* ItemCurMana */
-     , (28705, 108,        467) /* ItemMaxMana */
-     , (28705, 109,          0) /* ItemDifficulty */
-     , (28705, 110,          0) /* ItemAllegianceRankLimit */
      , (28705, 113,          1) /* Gender - Male */
-     , (28705, 115,          0) /* ItemSkillLevelLimit */
-     , (28705, 117,        300) /* ItemManaCost */
-     , (28705, 131,         33) /* MaterialType - Opal */
      , (28705, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (28705, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (28705, 172,          1) /* AppraisalLongDescDecoration */
      , (28705, 188,          4) /* HeritageGroup - Viamontian */
      , (28705, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -46,7 +34,6 @@ VALUES (28705,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28705,   1, 'Anton Sillezi') /* Name */
      , (28705,   5, 'Trade Merchant') /* Template */
-     , (28705,  16, 'Gem of Regeneration') /* LongDesc */
      , (28705, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28705,   1,    45, 0, 0, 45) /* MaxHealth */
      , (28705,   3,    80, 0, 0, 80) /* MaxStamina */
      , (28705,   5,   140, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28705,   169,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28705, 67110064, 32, 8)

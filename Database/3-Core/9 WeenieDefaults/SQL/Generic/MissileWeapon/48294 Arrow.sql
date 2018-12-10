@@ -56,8 +56,7 @@ VALUES (48294,  21,       0) /* WeaponLength */
      , (48294, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48294,   1, 'Arrow') /* Name */
-     , (48294,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (48294,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48294,   1,   33555406) /* Setup */

@@ -5,11 +5,9 @@ VALUES (3457, 'scrollpersonattunementself6', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3457,   1,       8192) /* ItemType - Writable */
-     , (3457,   2,          8) /* CreatureType - Tusker */
      , (3457,   5,         30) /* EncumbranceVal */
      , (3457,  16,          8) /* ItemUseable - Contained */
      , (3457,  19,       1000) /* Value */
-     , (3457,  25,         80) /* Level */
      , (3457,  65,        101) /* Placement - Resting */
      , (3457,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3457,   1,   33554826) /* Setup */
      , (3457,   8,  100676448) /* Icon */
      , (3457,  22,  872415275) /* PhysicsEffectTable */
-     , (3457,  28,        829) /* Spell */
+     , (3457,  28,        829) /* Spell - PersonAttunementSelf6 */
      , (3457, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3457, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3457, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,9 +40,6 @@ VALUES (3457,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3457,   2, 3355071549) /* Container */
      , (3457, 8000, 3355071552) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (3457,   1,   400, 0, 0, 400) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3457,   829,      2) ;

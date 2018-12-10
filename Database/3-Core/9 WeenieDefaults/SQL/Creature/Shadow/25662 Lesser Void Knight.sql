@@ -6,19 +6,14 @@ VALUES (25662, 'shadowvoidknight', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25662,   1,         16) /* ItemType - Creature */
      , (25662,   2,         22) /* CreatureType - Shadow */
-     , (25662,   5,        150) /* EncumbranceVal */
      , (25662,   6,        255) /* ItemsCapacity */
      , (25662,   7,        255) /* ContainersCapacity */
      , (25662,  16,          1) /* ItemUseable - No */
-     , (25662,  19,       5000) /* Value */
      , (25662,  25,        100) /* Level */
-     , (25662,  89,          2) /* BoosterEnum - Health */
-     , (25662,  90,        100) /* BoostValue */
      , (25662,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (25662, 113,          1) /* Gender - Male */
      , (25662, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25662, 188,          1) /* HeritageGroup - Aluvian */
-     , (25662, 307,          5) /* DamageRating */
      , (25662, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,7 +30,6 @@ VALUES (25662,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25662,   1, 'Lesser Void Knight') /* Name */
-     , (25662,  14, 'Use this item to drink it.') /* Use */
      , (25662, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

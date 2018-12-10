@@ -11,7 +11,6 @@ VALUES (30562,   1,          1) /* ItemType - MeleeWeapon */
      , (30562,  16,          1) /* ItemUseable - No */
      , (30562,  18,        256) /* UiEffects - Acid */
      , (30562,  19,        360) /* Value */
-     , (30562,  28,        258) /* ArmorLevel */
      , (30562,  44,         34) /* Damage */
      , (30562,  45,         32) /* DamageType - Acid */
      , (30562,  47,          4) /* AttackType - Slash */
@@ -20,23 +19,12 @@ VALUES (30562,   1,          1) /* ItemType - MeleeWeapon */
      , (30562,  51,          1) /* CombatUse - Melee */
      , (30562,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30562, 105,          7) /* ItemWorkmanship */
-     , (30562, 106,        242) /* ItemSpellcraft */
-     , (30562, 107,       1101) /* ItemCurMana */
-     , (30562, 108,       1101) /* ItemMaxMana */
-     , (30562, 109,         59) /* ItemDifficulty */
-     , (30562, 110,          0) /* ItemAllegianceRankLimit */
-     , (30562, 115,        262) /* ItemSkillLevelLimit */
      , (30562, 131,         58) /* MaterialType - Bronze */
      , (30562, 151,          2) /* HookType - Wall */
      , (30562, 158,          2) /* WieldRequirements - RawSkill */
      , (30562, 159,         45) /* WieldSkilltype - LightWeapons */
      , (30562, 160,        300) /* WieldDifficulty */
      , (30562, 172,          1) /* AppraisalLongDescDecoration */
-     , (30562, 176,         45) /* AppraisalItemSkill */
-     , (30562, 177,          1) /* GemCount */
-     , (30562, 178,         26) /* GemType */
-     , (30562, 204,         15) /* ElementalDamageBonus */
-     , (30562, 265,         27) /* EquipmentSetId - Acidproof */
      , (30562, 353,          3) /* WeaponType - Axe */
      , (30562, 8030,          0);
 
@@ -46,27 +34,16 @@ VALUES (30562,   1, False) /* Stuck */
      , (30562,  13, True ) /* Ethereal */
      , (30562,  14, True ) /* GravityStatus */
      , (30562,  19, True ) /* Attackable */
-     , (30562,  22, True ) /* Inscribable */
-     , (30562, 100, True ) /* Dyable */;
+     , (30562,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30562,   5,   -0.05) /* ManaRate */
-     , (30562,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (30562,  14,       1) /* ArmorModVsPierce */
-     , (30562,  15,       1) /* ArmorModVsBludgeon */
-     , (30562,  16, 0.665301740169525) /* ArmorModVsCold */
-     , (30562,  17, 0.821769893169403) /* ArmorModVsFire */
-     , (30562,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (30562,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (30562,  21,       0) /* WeaponLength */
+VALUES (30562,  21,       0) /* WeaponLength */
      , (30562,  22,    0.83) /* DamageVariance */
      , (30562,  26,       0) /* MaximumVelocity */
      , (30562,  29,    1.04) /* WeaponDefense */
      , (30562,  62,    1.09) /* WeaponOffense */
      , (30562,  63,       1) /* DamageMod */
-     , (30562,  77,       1) /* PhysicsScriptIntensity */
-     , (30562, 149,    1.01) /* WeaponMissileDefense */
-     , (30562, 165,       1) /* ArmorModVsNether */;
+     , (30562,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30562,   1, 'Acid Dolabra') /* Name */
@@ -92,39 +69,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30562,   3, 3692285951) /* Wielder */
      , (30562, 8000, 3692285957) /* PCAPRecordedObjectIID */
      , (30562, 8008, 3692285951) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30562,   279,      2) 
-     , (30562,  1486,      2) 
-     , (30562,  1540,      2) 
-     , (30562,  1605,      2) 
-     , (30562,  1615,      2) 
-     , (30562,  1616,      2) 
-     , (30562,  1626,      2) 
-     , (30562,  2059,      2) 
-     , (30562,  2096,      2) 
-     , (30562,  2101,      2) 
-     , (30562,  2106,      2) 
-     , (30562,  2116,      2) 
-     , (30562,  2504,      2) 
-     , (30562,  2537,      2) 
-     , (30562,  2539,      2) 
-     , (30562,  2549,      2) 
-     , (30562,  2554,      2) 
-     , (30562,  2559,      2) 
-     , (30562,  2577,      2) 
-     , (30562,  2579,      2) 
-     , (30562,  2582,      2) 
-     , (30562,  2615,      2) 
-     , (30562,  4299,      2) 
-     , (30562,  4395,      2) 
-     , (30562,  4400,      2) 
-     , (30562,  4407,      2) 
-     , (30562,  4911,      2) 
-     , (30562,  5785,      2) 
-     , (30562,  5809,      2) 
-     , (30562,  5883,      2) 
-     , (30562,  5884,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30562, 67116377, 0, 0);

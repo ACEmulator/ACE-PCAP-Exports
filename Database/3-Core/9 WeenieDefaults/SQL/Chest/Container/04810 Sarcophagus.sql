@@ -10,15 +10,11 @@ VALUES (4810,   1,        512) /* ItemType - Container */
      , (4810,   7,         10) /* ContainersCapacity */
      , (4810,  16,         48) /* ItemUseable - ViewedRemote */
      , (4810,  19,        200) /* Value */
-     , (4810,  38,       5000) /* ResistLockpick */
      , (4810,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (4810, 173,          0) /* AppraisalLockpickSuccessPercent */
      , (4810, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4810,   1, True ) /* Stuck */
-     , (4810,   2, False) /* Open */
-     , (4810,   3, True ) /* Locked */
      , (4810,  11, True ) /* IgnoreCollisions */
      , (4810,  12, True ) /* ReportCollisions */
      , (4810,  13, False) /* Ethereal */
@@ -30,8 +26,6 @@ VALUES (4810,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4810,   1, 'Sarcophagus') /* Name */
-     , (4810,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (4810,  16, 'This coffin appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.') /* LongDesc */
      , (4810, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

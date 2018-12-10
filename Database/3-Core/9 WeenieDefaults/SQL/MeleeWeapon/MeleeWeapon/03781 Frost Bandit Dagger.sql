@@ -21,19 +21,9 @@ VALUES (3781,   1,          1) /* ItemType - MeleeWeapon */
      , (3781,  65,          1) /* Placement - RightHandCombat */
      , (3781,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3781, 105,          1) /* ItemWorkmanship */
-     , (3781, 106,        232) /* ItemSpellcraft */
-     , (3781, 107,        510) /* ItemCurMana */
-     , (3781, 108,        654) /* ItemMaxMana */
-     , (3781, 109,        106) /* ItemDifficulty */
-     , (3781, 110,          0) /* ItemAllegianceRankLimit */
      , (3781, 114,          1) /* Attuned - Attuned */
-     , (3781, 115,        252) /* ItemSkillLevelLimit */
      , (3781, 131,         51) /* MaterialType - Ivory */
      , (3781, 151,          2) /* HookType - Wall */
-     , (3781, 172,          7) /* AppraisalLongDescDecoration */
-     , (3781, 176,         46) /* AppraisalItemSkill */
-     , (3781, 177,          1) /* GemCount */
-     , (3781, 178,         27) /* GemType */
      , (3781, 353,          6) /* WeaponType - Dagger */
      , (3781, 8030,          0);
 
@@ -43,12 +33,10 @@ VALUES (3781,   1, False) /* Stuck */
      , (3781,  13, True ) /* Ethereal */
      , (3781,  14, True ) /* GravityStatus */
      , (3781,  19, True ) /* Attackable */
-     , (3781,  22, True ) /* Inscribable */
-     , (3781,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (3781,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3781,   5, -0.0555555559694767) /* ManaRate */
-     , (3781,  21,       0) /* WeaponLength */
+VALUES (3781,  21,       0) /* WeaponLength */
      , (3781,  22,    0.75) /* DamageVariance */
      , (3781,  26,       0) /* MaximumVelocity */
      , (3781,  29, 1.07793378829956) /* WeaponDefense */
@@ -60,8 +48,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3781,   1, 'Frost Bandit Dagger') /* Name */
      , (3781,   7, '     Hollow Smackdown!!!  9/15/01  ') /* Inscription */
      , (3781,   8, 'Cygmus') /* ScribeName */
-     , (3781,  16, 'Frost Dagger') /* LongDesc */
-     , (3781,  25, 'Ki''tiara') /* CraftsmanName */;
+     , (3781,  16, 'Frost Dagger') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3781,   1,   33555721) /* Setup */
@@ -81,10 +68,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3781,   3, 1342760115) /* Wielder */
      , (3781, 8000, 2584296128) /* PCAPRecordedObjectIID */
      , (3781, 8008, 1342760115) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3781,  1332,      2) 
-     , (3781,  1375,      2) 
-     , (3781,  1604,      2) 
-     , (3781,  1614,      2) 
-     , (3781,  1616,      2) ;

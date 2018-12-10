@@ -32,8 +32,6 @@ VALUES (30564,   1,          1) /* ItemType - MeleeWeapon */
      , (30564, 160,        325) /* WieldDifficulty */
      , (30564, 172,          1) /* AppraisalLongDescDecoration */
      , (30564, 176,         45) /* AppraisalItemSkill */
-     , (30564, 177,          3) /* GemCount */
-     , (30564, 178,         29) /* GemType */
      , (30564, 353,          3) /* WeaponType - Axe */
      , (30564, 8030,          0);
 
@@ -54,7 +52,6 @@ VALUES (30564,   5,   -0.05) /* ManaRate */
      , (30564,  62,     1.1) /* WeaponOffense */
      , (30564,  63,       1) /* DamageMod */
      , (30564,  77,       1) /* PhysicsScriptIntensity */
-     , (30564, 150,   1.005) /* WeaponMagicDefense */
      , (30564, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -85,29 +82,9 @@ VALUES (30564,   3, 1342959279) /* Wielder */
      , (30564, 8008, 1342959279) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30564,    35,      2) 
-     , (30564,  1402,      2) 
-     , (30564,  1588,      2) 
-     , (30564,  1590,      2) 
-     , (30564,  1591,      2) 
-     , (30564,  1601,      2) 
-     , (30564,  1602,      2) 
-     , (30564,  1612,      2) 
-     , (30564,  1615,      2) 
-     , (30564,  1616,      2) 
-     , (30564,  1623,      2) 
-     , (30564,  1624,      2) 
-     , (30564,  1627,      2) 
-     , (30564,  2096,      2) 
-     , (30564,  2106,      2) 
-     , (30564,  2513,      2) 
-     , (30564,  2539,      2) 
+VALUES (30564,  1616,      2) 
      , (30564,  2579,      2) 
-     , (30564,  2586,      2) 
-     , (30564,  4299,      2) 
-     , (30564,  4395,      2) 
-     , (30564,  4672,      2) 
-     , (30564,  5808,      2) ;
+     , (30564,  2586,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30564, 67116378, 0, 0);

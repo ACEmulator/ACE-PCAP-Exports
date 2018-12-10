@@ -28,8 +28,6 @@ VALUES (53328,   1,          1) /* ItemType - MeleeWeapon */
      , (53328, 158,          2) /* WieldRequirements - RawSkill */
      , (53328, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (53328, 160,        430) /* WieldDifficulty */
-     , (53328, 171,         10) /* NumTimesTinkered */
-     , (53328, 179,        256) /* ImbuedEffect - ElectricRending */
      , (53328, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -55,12 +53,8 @@ VALUES (53328,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53328,   1, 'Stormwood Sword') /* Name */
-     , (53328,   7, 'No damage gem added yet; Note: Does not give 5 damage rating, so actually pretty much junk') /* Inscription */
-     , (53328,   8, 'Jesse the Destroyer') /* ScribeName */
      , (53328,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
-     , (53328,  16, 'A sword imbued with the energies of the Viridian Rise.') /* LongDesc */
-     , (53328,  39, 'Plumpy') /* TinkerName */
-     , (53328,  40, 'Plumpy') /* ImbuerName */;
+     , (53328,  16, 'A sword imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53328,   1,   33561671) /* Setup */

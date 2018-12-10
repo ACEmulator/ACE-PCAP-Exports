@@ -20,20 +20,9 @@ VALUES (3828,   1,          1) /* ItemType - MeleeWeapon */
      , (3828,  65,        101) /* Placement - Resting */
      , (3828,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3828, 105,          1) /* ItemWorkmanship */
-     , (3828, 106,        162) /* ItemSpellcraft */
-     , (3828, 107,        427) /* ItemCurMana */
-     , (3828, 108,        427) /* ItemMaxMana */
-     , (3828, 109,          0) /* ItemDifficulty */
-     , (3828, 110,          6) /* ItemAllegianceRankLimit */
      , (3828, 114,          0) /* Attuned - Normal */
-     , (3828, 115,        182) /* ItemSkillLevelLimit */
      , (3828, 131,         60) /* MaterialType - Gold */
      , (3828, 151,          2) /* HookType - Wall */
-     , (3828, 172,          3) /* AppraisalLongDescDecoration */
-     , (3828, 176,         46) /* AppraisalItemSkill */
-     , (3828, 177,          2) /* GemCount */
-     , (3828, 178,         33) /* GemType */
-     , (3828, 188,          2) /* HeritageGroup - Gharundim */
      , (3828, 353,          6) /* WeaponType - Dagger */
      , (3828, 8030,          0);
 
@@ -47,8 +36,7 @@ VALUES (3828,   1, False) /* Stuck */
      , (3828,  85, True ) /* AppraisalHasAllowedWielder */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3828,   5, -0.0333333333333333) /* ManaRate */
-     , (3828,  21,       0) /* WeaponLength */
+VALUES (3828,  21,       0) /* WeaponLength */
      , (3828,  22,    0.75) /* DamageVariance */
      , (3828,  26,       0) /* MaximumVelocity */
      , (3828,  29, 1.07811105251312) /* WeaponDefense */
@@ -59,8 +47,6 @@ VALUES (3828,   5, -0.0333333333333333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3828,   1, 'Flaming Bandit Khanjar') /* Name */
-     , (3828,   7, NULL) /* Inscription */
-     , (3828,   8, NULL) /* ScribeName */
      , (3828,  16, 'Flaming Khanjar') /* LongDesc */
      , (3828,  25, 'Triumph') /* CraftsmanName */;
 
@@ -76,12 +62,3 @@ VALUES (3828,   1,   33555769) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3828,   2, 2541837484) /* Container */
      , (3828, 8000, 2541837503) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3828,  1352,      2) 
-     , (3828,  1377,      2) 
-     , (3828,  1603,      2) 
-     , (3828,  1613,      2) 
-     , (3828,  1614,      2) 
-     , (3828,  1625,      2) 
-     , (3828,  2582,      2) ;

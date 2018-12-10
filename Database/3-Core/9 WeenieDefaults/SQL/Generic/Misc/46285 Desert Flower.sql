@@ -5,16 +5,12 @@ VALUES (46285, 'ace46285-desertflower', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46285,   1,        128) /* ItemType - Misc */
-     , (46285,   2,         62) /* CreatureType - Elemental */
      , (46285,   5,          7) /* EncumbranceVal */
      , (46285,  11,         30) /* MaxStackSize */
      , (46285,  12,          7) /* StackSize */
      , (46285,  16,          1) /* ItemUseable - No */
      , (46285,  19,          7) /* Value */
-     , (46285,  25,        125) /* Level */
      , (46285,  33,          1) /* Bonded - Bonded */
-     , (46285,  89,          4) /* BoosterEnum - Stamina */
-     , (46285,  90,        125) /* BoostValue */
      , (46285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46285, 114,          1) /* Attuned - Attuned */;
 
@@ -46,6 +42,3 @@ VALUES (46285,   1,   33561458) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46285,   2, 2210356871) /* Container */
      , (46285, 8000, 2210356879) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46285,   1,   870, 0, 0, 870) /* MaxHealth */;

@@ -31,7 +31,7 @@ VALUES (11297,   1,   33557232) /* Setup */
      , (11297,   3,  536870932) /* SoundTable */
      , (11297,   8,  100671868) /* Icon */
      , (11297,  22,  872415275) /* PhysicsEffectTable */
-     , (11297,  28,       1836) /* Spell */
+     , (11297,  28,       1836) /* Spell - FrostStrike */
      , (11297, 8001,  275480720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (11297, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11297, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

@@ -6,11 +6,9 @@ VALUES (29322, 'academyguard2', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29322,   1,         16) /* ItemType - Creature */
      , (29322,   2,         31) /* CreatureType - Human */
-     , (29322,   5,       6205) /* EncumbranceVal */
      , (29322,   6,        255) /* ItemsCapacity */
      , (29322,   7,        255) /* ContainersCapacity */
      , (29322,  16,         32) /* ItemUseable - Remote */
-     , (29322,  19,          0) /* Value */
      , (29322,  25,          9) /* Level */
      , (29322,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29322,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (29322,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29322,   1, 'Samuel') /* Name */
      , (29322,   5, 'Exploration Society Agent') /* Template */
-     , (29322,  16, 'Killed by Grievver Shredder.') /* LongDesc */
      , (29322, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

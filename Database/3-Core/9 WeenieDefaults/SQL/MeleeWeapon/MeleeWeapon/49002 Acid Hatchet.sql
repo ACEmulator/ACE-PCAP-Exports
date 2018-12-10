@@ -5,20 +5,14 @@ VALUES (49002, 'ace49002-acidhatchet', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49002,   1,          1) /* ItemType - MeleeWeapon */
-     , (49002,   2,          9) /* CreatureType - PhyntosWasp */
      , (49002,   5,        450) /* EncumbranceVal */
      , (49002,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (49002,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (49002,  16,          1) /* ItemUseable - No */
      , (49002,  18,        256) /* UiEffects - Acid */
      , (49002,  19,        130) /* Value */
-     , (49002,  25,         80) /* Level */
-     , (49002,  33,          0) /* Bonded - Normal */
      , (49002,  51,          1) /* CombatUse - Melee */
-     , (49002,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (49002, 114,          0) /* Attuned - Normal */
-     , (49002, 174,          1) /* AppraisalPages */
-     , (49002, 175,          1) /* AppraisalMaxPages */;
+     , (49002,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49002,   1, False) /* Stuck */
@@ -29,9 +23,7 @@ VALUES (49002,   1, False) /* Stuck */
      , (49002,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49002,   1, 'Acid Hatchet') /* Name */
-     , (49002,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */
-     , (49002,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (49002,   1, 'Acid Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49002,   1,   33559451) /* Setup */
@@ -52,9 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49002,   3, 2932493441) /* Wielder */
      , (49002, 8000, 2932493436) /* PCAPRecordedObjectIID */
      , (49002, 8008, 2932493441) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49002,   1,   238, 0, 0, 238) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49002, 67116377, 0, 0);

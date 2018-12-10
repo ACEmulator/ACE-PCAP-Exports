@@ -10,7 +10,7 @@ VALUES (34252,   1,         16) /* ItemType - Creature */
      , (34252,  16,         32) /* ItemUseable - Remote */
      , (34252,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34252,  95,          3) /* RadarBlipColor - White */
-     , (34252,  98, 1485677017) /* CreationTimestamp */
+     , (34252,  98, 1485589268) /* CreationTimestamp */
      , (34252, 267,        240) /* Lifespan */
      , (34252, 268,        238) /* RemainingLifespan */
      , (34252, 307,          0) /* DamageRating */

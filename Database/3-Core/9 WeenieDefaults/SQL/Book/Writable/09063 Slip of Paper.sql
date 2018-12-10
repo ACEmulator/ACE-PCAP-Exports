@@ -8,43 +8,21 @@ VALUES (9063,   1,       8192) /* ItemType - Writable */
      , (9063,   5,         10) /* EncumbranceVal */
      , (9063,  16,          8) /* ItemUseable - Contained */
      , (9063,  19,          5) /* Value */
-     , (9063,  28,          0) /* ArmorLevel */
      , (9063,  65,        101) /* Placement - Resting */
      , (9063,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9063, 105,          4) /* ItemWorkmanship */
-     , (9063, 106,          1) /* ItemSpellcraft */
-     , (9063, 107,        201) /* ItemCurMana */
-     , (9063, 108,        201) /* ItemMaxMana */
-     , (9063, 109,          1) /* ItemDifficulty */
-     , (9063, 110,          0) /* ItemAllegianceRankLimit */
      , (9063, 114,          1) /* Attuned - Attuned */
-     , (9063, 115,          0) /* ItemSkillLevelLimit */
-     , (9063, 131,          4) /* MaterialType - Linen */
-     , (9063, 172,          1) /* AppraisalLongDescDecoration */
      , (9063, 174,          1) /* AppraisalPages */
-     , (9063, 175,          1) /* AppraisalMaxPages */
-     , (9063, 177,          4) /* GemCount */
-     , (9063, 178,         21) /* GemType */;
+     , (9063, 175,          1) /* AppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9063,   1, False) /* Stuck */
      , (9063,  11, True ) /* IgnoreCollisions */
      , (9063,  13, True ) /* Ethereal */
      , (9063,  14, True ) /* GravityStatus */
-     , (9063,  19, True ) /* Attackable */
-     , (9063, 100, True ) /* Dyable */;
+     , (9063,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9063,   5, -0.0125) /* ManaRate */
-     , (9063,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (9063,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (9063,  15,       1) /* ArmorModVsBludgeon */
-     , (9063,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (9063,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (9063,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (9063,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (9063,  54,       1) /* UseRadius */
-     , (9063, 165,       1) /* ArmorModVsNether */;
+VALUES (9063,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9063,   1, 'Slip of Paper') /* Name */
@@ -65,13 +43,6 @@ VALUES (9063, 8040, 3155231062, 77.1274, 91.6981, 251.004, 0.2168019, 0, 0, -0.9
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9063, 8000, 3361830479) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9063,    24,      2) 
-     , (9063,  1354,      2) 
-     , (9063,  2525,      2) 
-     , (9063,  2540,      2) 
-     , (9063,  5883,      2) ;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9063, 1, 1000);

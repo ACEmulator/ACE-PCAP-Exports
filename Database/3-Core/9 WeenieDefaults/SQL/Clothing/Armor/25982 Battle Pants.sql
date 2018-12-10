@@ -36,8 +36,6 @@ VALUES (25982,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25982,   1, 'Battle Pants') /* Name */
-     , (25982,  14, 'Use this item on the beer keg at your local tavern.') /* Use */
-     , (25982,  15, 'Commemorative mug celebrating the new season.') /* ShortDesc */
      , (25982,  16, 'Loose pants originally used to protect the legs from carenzi while running like a mite through Marae Lassal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

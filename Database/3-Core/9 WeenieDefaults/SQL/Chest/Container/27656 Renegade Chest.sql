@@ -37,7 +37,7 @@ VALUES (27656,   1,   33558692) /* Setup */
      , (27656,   3,  536870950) /* SoundTable */
      , (27656,   8,  100676428) /* Icon */
      , (27656,  22,  872415275) /* PhysicsEffectTable */
-     , (27656,  28,         85) /* Spell */
+     , (27656,  28,         85) /* Spell - FlameBolt6 */
      , (27656, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (27656, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (27656, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;

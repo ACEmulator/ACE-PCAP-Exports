@@ -32,9 +32,7 @@ VALUES (30459,   5,  -0.033) /* ManaRate */
      , (30459,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30459,   1, 'Ring of Shielding') /* Name */
-     , (30459,   7, 'Moderate ') /* Inscription */
-     , (30459,   8, 'Morak Karuzi') /* ScribeName */;
+VALUES (30459,   1, 'Ring of Shielding') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30459,   1,   33554691) /* Setup */

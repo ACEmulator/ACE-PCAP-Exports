@@ -6,11 +6,9 @@ VALUES (51213, 'ace51213-olthoihivewarrior', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51213,   1,         16) /* ItemType - Creature */
      , (51213,   2,          1) /* CreatureType - Olthoi */
-     , (51213,   5,       7743) /* EncumbranceVal */
      , (51213,   6,        255) /* ItemsCapacity */
      , (51213,   7,        255) /* ContainersCapacity */
      , (51213,  16,          1) /* ItemUseable - No */
-     , (51213,  19,          0) /* Value */
      , (51213,  25,        240) /* Level */
      , (51213,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51213, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (51213,  39, 0.699999988079071) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51213,   1, 'Olthoi Hive Warrior') /* Name */
-     , (51213,  16, 'Killed by Jak Sv.') /* LongDesc */
      , (51213, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

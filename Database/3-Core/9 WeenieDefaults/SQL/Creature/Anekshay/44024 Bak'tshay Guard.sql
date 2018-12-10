@@ -6,62 +6,24 @@ VALUES (44024, 'ace44024-baktshayguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44024,   1,         16) /* ItemType - Creature */
      , (44024,   2,        101) /* CreatureType - Anekshay */
-     , (44024,   5,       6125) /* EncumbranceVal */
      , (44024,   6,        255) /* ItemsCapacity */
      , (44024,   7,        255) /* ContainersCapacity */
      , (44024,  16,          1) /* ItemUseable - No */
-     , (44024,  19,          0) /* Value */
      , (44024,  25,        200) /* Level */
-     , (44024,  28,        299) /* ArmorLevel */
-     , (44024,  33,          1) /* Bonded - Bonded */
      , (44024,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44024, 105,          7) /* ItemWorkmanship */
-     , (44024, 106,        370) /* ItemSpellcraft */
-     , (44024, 107,       1201) /* ItemCurMana */
-     , (44024, 108,       1201) /* ItemMaxMana */
-     , (44024, 109,        414) /* ItemDifficulty */
-     , (44024, 110,          0) /* ItemAllegianceRankLimit */
-     , (44024, 113,          1) /* Gender - Male */
-     , (44024, 115,          0) /* ItemSkillLevelLimit */
-     , (44024, 131,         52) /* MaterialType - Leather */
      , (44024, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44024, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44024, 158,          7) /* WieldRequirements - Level */
-     , (44024, 159,          1) /* WieldSkilltype - Axe */
-     , (44024, 160,        180) /* WieldDifficulty */
-     , (44024, 172,          5) /* AppraisalLongDescDecoration */
-     , (44024, 176,          7) /* AppraisalItemSkill */
-     , (44024, 177,          2) /* GemCount */
-     , (44024, 178,         38) /* GemType */
-     , (44024, 188,          1) /* HeritageGroup - Aluvian */
-     , (44024, 265,         26) /* EquipmentSetId - Flameproof */
      , (44024, 307,          5) /* DamageRating */
      , (44024, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44024,   1, True ) /* Stuck */
-     , (44024,   2, False) /* Open */
      , (44024,  12, True ) /* ReportCollisions */
      , (44024,  13, False) /* Ethereal */
      , (44024,  14, True ) /* GravityStatus */
-     , (44024,  19, True ) /* Attackable */
-     , (44024, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44024,   5, -0.0666666666666667) /* ManaRate */
-     , (44024,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (44024,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (44024,  15,       1) /* ArmorModVsBludgeon */
-     , (44024,  16,     0.5) /* ArmorModVsCold */
-     , (44024,  17,     0.5) /* ArmorModVsFire */
-     , (44024,  18, 0.674478054046631) /* ArmorModVsAcid */
-     , (44024,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (44024, 165,       1) /* ArmorModVsNether */;
+     , (44024,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44024,   1, 'Bak''tshay Guard') /* Name */
-     , (44024,   5, 'Royal Guard Captain') /* Template */
-     , (44024,  16, 'Killed by Mag-two.') /* LongDesc */
      , (44024, 8006, 'AAA9AEAAAADNzMw+') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -70,12 +32,6 @@ VALUES (44024,   1,   33561252) /* Setup */
      , (44024,   3,  536870933) /* SoundTable */
      , (44024,   6,   67108990) /* PaletteBase */
      , (44024,   8,  100670274) /* Icon */
-     , (44024,   9,   83890500) /* EyesTexture */
-     , (44024,  10,   83890554) /* NoseTexture */
-     , (44024,  11,   83890651) /* MouthTexture */
-     , (44024,  15,   67117026) /* HairPalette */
-     , (44024,  16,   67109566) /* EyesPalette */
-     , (44024,  17,   67109558) /* SkinPalette */
      , (44024,  22,  872415269) /* PhysicsEffectTable */
      , (44024, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44024, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
@@ -100,20 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44024,   1,  2610, 0, 0, 2610) /* MaxHealth */
      , (44024,   3,  3220, 0, 0, 3220) /* MaxStamina */
      , (44024,   5,  2250, 0, 0, 2250) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44024,   879,      2) 
-     , (44024,  1552,      2) 
-     , (44024,  1562,      2) 
-     , (44024,  2098,      2) 
-     , (44024,  2108,      2) 
-     , (44024,  2571,      2) 
-     , (44024,  2599,      2) 
-     , (44024,  4412,      2) 
-     , (44024,  4556,      2) 
-     , (44024,  4640,      2) 
-     , (44024,  5429,      2) 
-     , (44024,  6047,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44024, 67116890, 0, 24)

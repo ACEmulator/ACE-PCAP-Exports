@@ -14,8 +14,7 @@ VALUES (1446,   1,         32) /* ItemType - Food */
      , (1446,  65,        101) /* Placement - Resting */
      , (1446,  89,          2) /* BoosterEnum - Health */
      , (1446,  90,          4) /* BoostValue */
-     , (1446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1446, 107,          0) /* ItemCurMana */;
+     , (1446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1446,   1, False) /* Stuck */
@@ -23,10 +22,6 @@ VALUES (1446,   1, False) /* Stuck */
      , (1446,  13, True ) /* Ethereal */
      , (1446,  14, True ) /* GravityStatus */
      , (1446,  19, True ) /* Attackable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1446,  87,     0.6) /* ItemEfficiency */
-     , (1446, 137,     0.1) /* ManaStoneDestroyChance */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1446,   1, 'Fire Auroch Meat') /* Name */

@@ -39,7 +39,6 @@ VALUES (35630,   1, False) /* Stuck */
      , (35630,  14, True ) /* GravityStatus */
      , (35630,  19, True ) /* Attackable */
      , (35630,  22, True ) /* Inscribable */
-     , (35630,  85, True ) /* AppraisalHasAllowedWielder */
      , (35630,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -57,8 +56,7 @@ VALUES (35630,   5, -0.03333333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35630,   1, 'Sickle of Azaxis') /* Name */
-     , (35630,  16, 'A sickle that once belonged to the Colosseum champion, the Virindi Azaxis.') /* LongDesc */
-     , (35630,  25, 'Darkshot Dragoon') /* CraftsmanName */;
+     , (35630,  16, 'A sickle that once belonged to the Colosseum champion, the Virindi Azaxis.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35630,   1,   33557067) /* Setup */

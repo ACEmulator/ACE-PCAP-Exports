@@ -28,8 +28,6 @@ VALUES (15269,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15269,   1, 'Foci of Artifice') /* Name */
-     , (15269,   7, 'aw') /* Inscription */
-     , (15269,   8, 'Minaris') /* ScribeName */
      , (15269,  15, 'A foci used to cast spells from the School of the Right Hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

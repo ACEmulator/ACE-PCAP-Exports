@@ -6,11 +6,9 @@ VALUES (46024, 'ace46024-icedancerspetmouf', 69) /* Pet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46024,   1,         16) /* ItemType - Creature */
      , (46024,   2,         80) /* CreatureType - Penguin */
-     , (46024,   5,         50) /* EncumbranceVal */
      , (46024,   6,        255) /* ItemsCapacity */
      , (46024,   7,        255) /* ContainersCapacity */
      , (46024,  16,          1) /* ItemUseable - No */
-     , (46024,  19,        500) /* Value */
      , (46024,  25,          5) /* Level */
      , (46024,  93,    2098196) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (46024,  95,          8) /* RadarBlipColor - Yellow */
@@ -31,8 +29,6 @@ VALUES (46024,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46024,   1, 'Icedancer''s Pet Mouf') /* Name */
-     , (46024,  14, 'This item is used in Summoning.') /* Use */
-     , (46024,  16, 'Killed by Uncle P.') /* LongDesc */
      , (46024, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

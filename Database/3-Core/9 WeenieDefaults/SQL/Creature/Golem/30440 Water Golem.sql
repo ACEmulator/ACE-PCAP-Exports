@@ -6,24 +6,13 @@ VALUES (30440, 'golemwater_nofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30440,   1,         16) /* ItemType - Creature */
      , (30440,   2,         13) /* CreatureType - Golem */
-     , (30440,   5,         50) /* EncumbranceVal */
      , (30440,   6,        255) /* ItemsCapacity */
      , (30440,   7,        255) /* ContainersCapacity */
      , (30440,  16,          1) /* ItemUseable - No */
-     , (30440,  19,        776) /* Value */
      , (30440,  25,          8) /* Level */
-     , (30440,  44,         20) /* Damage */
-     , (30440,  45,          4) /* DamageType - Bludgeon */
-     , (30440,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (30440,  49,         10) /* WeaponTime */
      , (30440,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (30440, 105,          8) /* ItemWorkmanship */
-     , (30440, 131,         58) /* MaterialType - Bronze */
      , (30440, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (30440, 172,          1) /* AppraisalLongDescDecoration */
-     , (30440, 353,         10) /* WeaponType - Thrown */
-     , (30440, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (30440, 8030,          0);
+     , (30440, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30440,   1, True ) /* Stuck */
@@ -34,17 +23,10 @@ VALUES (30440,   1, True ) /* Stuck */
      , (30440,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30440,  21,       0) /* WeaponLength */
-     , (30440,  22,    0.25) /* DamageVariance */
-     , (30440,  26,       0) /* MaximumVelocity */
-     , (30440,  29,       1) /* WeaponDefense */
-     , (30440,  62,       1) /* WeaponOffense */
-     , (30440,  63,       1) /* DamageMod */
-     , (30440,  76, 0.200000002980232) /* Translucency */;
+VALUES (30440,  76, 0.200000002980232) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30440,   1, 'Water Golem') /* Name */
-     , (30440,  16, 'Ornamental Bowl') /* LongDesc */
      , (30440, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -14,7 +14,6 @@ VALUES (47630,   1,          1) /* ItemType - MeleeWeapon */
      , (47630,  51,          1) /* CombatUse - Melee */
      , (47630,  65,          1) /* Placement - RightHandCombat */
      , (47630,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47630, 107,          0) /* ItemCurMana */
      , (47630, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -25,13 +24,8 @@ VALUES (47630,   1, False) /* Stuck */
      , (47630,  19, True ) /* Attackable */
      , (47630,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47630,  87,       3) /* ItemEfficiency */
-     , (47630, 137,    0.25) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47630,   1, 'Acid Tachi') /* Name */
-     , (47630,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (47630,   1, 'Acid Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47630,   1,   33555730) /* Setup */

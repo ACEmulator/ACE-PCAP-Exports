@@ -33,8 +33,7 @@ VALUES (9491,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9491,   5,  -0.033) /* ManaRate */
      , (9491,  29,       1) /* WeaponDefense */
-     , (9491, 144, 1.36631260413943E-314) /* ManaConversionMod */
-     , (9491, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (9491, 144, 1.36631260413943E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9491,   1, 'Staff of Clarity') /* Name */

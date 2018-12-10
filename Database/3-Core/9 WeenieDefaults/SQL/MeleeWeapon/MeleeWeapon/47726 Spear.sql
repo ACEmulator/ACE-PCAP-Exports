@@ -24,10 +24,7 @@ VALUES (47726,   1, False) /* Stuck */
      , (47726,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47726,   1, 'Spear') /* Name */
-     , (47726,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (47726,  16, 'Inscribed spell: Destructive Curse VII
-The target loses 294 points of health over 30 seconds.') /* LongDesc */;
+VALUES (47726,   1, 'Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47726,   1,   33554756) /* Setup */
@@ -48,9 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47726,   3, 3685891806) /* Wielder */
      , (47726, 8000, 3685891803) /* PCAPRecordedObjectIID */
      , (47726, 8008, 3685891806) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47726,  5337,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47726, 67111920, 0, 0);

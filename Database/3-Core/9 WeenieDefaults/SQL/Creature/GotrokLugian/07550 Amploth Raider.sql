@@ -6,65 +6,24 @@ VALUES (7550, 'lugianamplothminer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7550,   1,         16) /* ItemType - Creature */
      , (7550,   2,         70) /* CreatureType - GotrokLugian */
-     , (7550,   5,          5) /* EncumbranceVal */
      , (7550,   6,        255) /* ItemsCapacity */
      , (7550,   7,        255) /* ContainersCapacity */
      , (7550,  16,          1) /* ItemUseable - No */
-     , (7550,  19,        152) /* Value */
      , (7550,  25,         20) /* Level */
-     , (7550,  28,          0) /* ArmorLevel */
-     , (7550,  44,         10) /* Damage */
-     , (7550,  45,          4) /* DamageType - Bludgeon */
-     , (7550,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (7550,  49,         10) /* WeaponTime */
-     , (7550,  91,         35) /* MaxStructure */
-     , (7550,  92,         35) /* Structure */
      , (7550,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7550, 105,          7) /* ItemWorkmanship */
-     , (7550, 106,        240) /* ItemSpellcraft */
-     , (7550, 107,       1121) /* ItemCurMana */
-     , (7550, 108,       1121) /* ItemMaxMana */
-     , (7550, 109,        240) /* ItemDifficulty */
-     , (7550, 110,          0) /* ItemAllegianceRankLimit */
-     , (7550, 115,          0) /* ItemSkillLevelLimit */
-     , (7550, 131,         12) /* MaterialType - Amethyst */
      , (7550, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (7550, 172,          1) /* AppraisalLongDescDecoration */
-     , (7550, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (7550, 307,          5) /* DamageRating */
-     , (7550, 353,         10) /* WeaponType - Thrown */
-     , (7550, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7550, 8030,          0);
+     , (7550, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7550,   1, True ) /* Stuck */
      , (7550,  12, True ) /* ReportCollisions */
      , (7550,  13, False) /* Ethereal */
      , (7550,  14, True ) /* GravityStatus */
-     , (7550,  19, True ) /* Attackable */
-     , (7550, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7550,   5, -0.0555555555555556) /* ManaRate */
-     , (7550,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (7550,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (7550,  15,       1) /* ArmorModVsBludgeon */
-     , (7550,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (7550,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (7550,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (7550,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (7550,  21,       0) /* WeaponLength */
-     , (7550,  22,    0.25) /* DamageVariance */
-     , (7550,  26,       0) /* MaximumVelocity */
-     , (7550,  29,       1) /* WeaponDefense */
-     , (7550,  62,       1) /* WeaponOffense */
-     , (7550,  63,       1) /* DamageMod */
-     , (7550, 165,       1) /* ArmorModVsNether */;
+     , (7550,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7550,   1, 'Amploth Raider') /* Name */
-     , (7550,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (7550,  16, 'Gem') /* LongDesc */
      , (7550, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -97,10 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7550,   1,   125, 0, 0, 125) /* MaxHealth */
      , (7550,   3,   300, 0, 0, 300) /* MaxStamina */
      , (7550,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7550,   520,      2) 
-     , (7550,  3504,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7550, 67113163, 0, 0);

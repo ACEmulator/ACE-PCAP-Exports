@@ -27,7 +27,6 @@ VALUES (329,   1,          1) /* ItemType - MeleeWeapon */
      , (329, 115,        114) /* ItemSkillLevelLimit */
      , (329, 131,         51) /* MaterialType - Ivory */
      , (329, 151,          2) /* HookType - Wall */
-     , (329, 172,          3) /* AppraisalLongDescDecoration */
      , (329, 176,         46) /* AppraisalItemSkill */
      , (329, 353,          6) /* WeaponType - Dagger */
      , (329, 8030,          0);
@@ -77,7 +76,6 @@ VALUES (329,   3, 1344172104) /* Wielder */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (329,  1351,      2) 
      , (329,  1613,      2) 
-     , (329,  1614,      2) 
      , (329,  1623,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

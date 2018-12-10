@@ -5,14 +5,12 @@ VALUES (34837, 'ace34837-blueburningmushroom', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34837,   1,        128) /* ItemType - Misc */
-     , (34837,   2,         82) /* CreatureType - Thrungus */
      , (34837,   5,          5) /* EncumbranceVal */
      , (34837,  11,        200) /* MaxStackSize */
      , (34837,  12,          1) /* StackSize */
      , (34837,  16,          1) /* ItemUseable - No */
      , (34837,  18,          8) /* UiEffects - BoostMana */
      , (34837,  19,         10) /* Value */
-     , (34837,  25,         60) /* Level */
      , (34837,  65,        101) /* Placement - Resting */
      , (34837,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -43,16 +41,3 @@ VALUES (34837, 8040, 13895148, 179.0735, -227.9897, -12.0025, 0.9393727, 0, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34837, 8000, 3708726480) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (34837,   1, 250, 0, 0) /* Strength */
-     , (34837,   2,  85, 0, 0) /* Endurance */
-     , (34837,   3,  85, 0, 0) /* Quickness */
-     , (34837,   4, 265, 0, 0) /* Coordination */
-     , (34837,   5, 150, 0, 0) /* Focus */
-     , (34837,   6, 165, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34837,   1,   218, 0, 0, 218) /* MaxHealth */
-     , (34837,   3,   350, 0, 0, 350) /* MaxStamina */
-     , (34837,   5,   245, 0, 0, 245) /* MaxMana */;

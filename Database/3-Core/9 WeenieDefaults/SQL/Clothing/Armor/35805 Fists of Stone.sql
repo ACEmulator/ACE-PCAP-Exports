@@ -27,7 +27,6 @@ VALUES (35805,   1, False) /* Stuck */
      , (35805,  14, True ) /* GravityStatus */
      , (35805,  19, True ) /* Attackable */
      , (35805,  22, True ) /* Inscribable */
-     , (35805,  85, True ) /* AppraisalHasAllowedWielder */
      , (35805,  99, True ) /* Ivoryable */
      , (35805, 100, True ) /* Dyable */;
 
@@ -44,8 +43,7 @@ VALUES (35805,   5, -0.0333333313465118) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35805,   1, 'Fists of Stone') /* Name */
-     , (35805,  16, 'A pair of enchanted gauntlets granted as a reward for defeating the Champion Stone Fists in the Colosseum.') /* LongDesc */
-     , (35805,  25, 'The Baron of Colier') /* CraftsmanName */;
+     , (35805,  16, 'A pair of enchanted gauntlets granted as a reward for defeating the Champion Stone Fists in the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35805,   1,   33560324) /* Setup */

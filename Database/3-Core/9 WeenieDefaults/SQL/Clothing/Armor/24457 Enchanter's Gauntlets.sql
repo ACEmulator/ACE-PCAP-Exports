@@ -43,9 +43,6 @@ VALUES (24457,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24457,   1, 'Enchanter''s Gauntlets') /* Name */
-     , (24457,   7, '
-') /* Inscription */
-     , (24457,   8, 'A A') /* ScribeName */
      , (24457,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the enchanter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -23,7 +23,6 @@ VALUES (21073,   1, 1073741824) /* ItemType - TinkeringMaterial */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21073,   1, False) /* Stuck */
-     , (21073,   2, True ) /* Open */
      , (21073,  11, True ) /* IgnoreCollisions */
      , (21073,  13, True ) /* Ethereal */
      , (21073,  14, True ) /* GravityStatus */
@@ -36,8 +35,7 @@ VALUES (21073, 8004, 3.33333325386047) /* PCAPRecordedWorkmanship */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21073,   1, 'Salvage (33)') /* Name */
      , (21073,  14, 'Apply this material to a treasure-generated item in order to remove that item''s "Retained" status.') /* Use */
-     , (21073,  15, 'A brick of sandstone material salvaged from old items.') /* ShortDesc */
-     , (21073,  16, 'Killed by Mag-two.') /* LongDesc */;
+     , (21073,  15, 'A brick of sandstone material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21073,   1,   33554817) /* Setup */

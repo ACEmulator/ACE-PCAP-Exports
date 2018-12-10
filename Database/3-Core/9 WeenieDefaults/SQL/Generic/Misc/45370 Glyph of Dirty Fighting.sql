@@ -11,10 +11,7 @@ VALUES (45370,   1,        128) /* ItemType - Misc */
      , (45370,  16,          1) /* ItemUseable - No */
      , (45370,  19,      30000) /* Value */
      , (45370,  65,        101) /* Placement - Resting */
-     , (45370,  91,         50) /* MaxStructure */
-     , (45370,  92,         50) /* Structure */
-     , (45370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45370, 173,        100) /* AppraisalLockpickSuccessPercent */;
+     , (45370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45370,   1, False) /* Stuck */
@@ -25,7 +22,6 @@ VALUES (45370,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45370,   1, 'Glyph of Dirty Fighting') /* Name */
-     , (45370,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (45370,  20, 'Glyphs of Dirty Fighting') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -48,12 +48,6 @@ VALUES (21961,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21961,   1, 'Hollow Bow') /* Name */
-     , (21961,   7, '13:47:25 You stab Sage The Undead for 69 points of piercing damage!
-13:47:26 Sage The Undead is fatally punctured!
-
-
-16:23:35 You tell +Envoy Sparker, "the only reason your talking to me is because somebody WHO DIED TO ME, reported me. now stop talking to me and gb2ff."') /* Inscription */
-     , (21961,   8, 'Eggburt the Fierce') /* ScribeName */
      , (21961,  16, 'A bow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */
      , (21961,  25, 'Azrakin') /* CraftsmanName */;
 

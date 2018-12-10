@@ -6,49 +6,19 @@ VALUES (38706, 'ace38706-saphinebrauno', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38706,   1,         16) /* ItemType - Creature */
      , (38706,   2,         31) /* CreatureType - Human */
-     , (38706,   5,       7823) /* EncumbranceVal */
      , (38706,   6,        255) /* ItemsCapacity */
      , (38706,   7,        255) /* ContainersCapacity */
      , (38706,  16,         32) /* ItemUseable - Remote */
-     , (38706,  19,          0) /* Value */
      , (38706,  25,        182) /* Level */
-     , (38706,  28,        152) /* ArmorLevel */
-     , (38706,  33,          1) /* Bonded - Bonded */
-     , (38706,  36,       9999) /* ResistMagic */
-     , (38706,  44,         33) /* Damage */
-     , (38706,  45,         16) /* DamageType - Fire */
-     , (38706,  47,          4) /* AttackType - Slash */
-     , (38706,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (38706,  49,         42) /* WeaponTime */
      , (38706,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38706,  95,          8) /* RadarBlipColor - Yellow */
-     , (38706, 105,          7) /* ItemWorkmanship */
-     , (38706, 106,        274) /* ItemSpellcraft */
-     , (38706, 107,       1501) /* ItemCurMana */
-     , (38706, 108,       1501) /* ItemMaxMana */
-     , (38706, 109,        134) /* ItemDifficulty */
-     , (38706, 110,          0) /* ItemAllegianceRankLimit */
      , (38706, 113,          2) /* Gender - Female */
-     , (38706, 115,        294) /* ItemSkillLevelLimit */
-     , (38706, 131,         63) /* MaterialType - Silver */
      , (38706, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38706, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38706, 158,          2) /* WieldRequirements - RawSkill */
-     , (38706, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (38706, 160,        370) /* WieldDifficulty */
-     , (38706, 172,          5) /* AppraisalLongDescDecoration */
-     , (38706, 176,         41) /* AppraisalItemSkill */
-     , (38706, 177,          3) /* GemCount */
-     , (38706, 178,         21) /* GemType */
      , (38706, 188,          4) /* HeritageGroup - Viamontian */
-     , (38706, 204,          3) /* ElementalDamageBonus */
      , (38706, 281,          4) /* Faction1Bits */
      , (38706, 289,          1) /* SocietyRankRadblo */
-     , (38706, 292,          2) /* Cleaving */
-     , (38706, 307,          5) /* DamageRating */
-     , (38706, 353,         11) /* WeaponType - TwoHanded */
-     , (38706, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38706, 8030,          0);
+     , (38706, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38706,   1, True ) /* Stuck */
@@ -58,31 +28,14 @@ VALUES (38706,   1, True ) /* Stuck */
      , (38706,  14, True ) /* GravityStatus */
      , (38706,  19, False) /* Attackable */
      , (38706,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38706,  42, True ) /* AllowEdgeSlide */
-     , (38706, 100, True ) /* Dyable */;
+     , (38706,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38706,   5,   -0.05) /* ManaRate */
-     , (38706,  13, 1.39999997615814) /* ArmorModVsSlash */
-     , (38706,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (38706,  15, 1.29999995231628) /* ArmorModVsBludgeon */
-     , (38706,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (38706,  17,       1) /* ArmorModVsFire */
-     , (38706,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (38706,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38706,  21,       0) /* WeaponLength */
-     , (38706,  22,    0.35) /* DamageVariance */
-     , (38706,  26,       0) /* MaximumVelocity */
-     , (38706,  29,    1.09) /* WeaponDefense */
-     , (38706,  54,       3) /* UseRadius */
-     , (38706,  62,    1.15) /* WeaponOffense */
-     , (38706,  63,       1) /* DamageMod */
-     , (38706, 165,       1) /* ArmorModVsNether */;
+VALUES (38706,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38706,   1, 'Saphine Brauno') /* Name */
      , (38706,   5, 'Delivery Taskmaster') /* Template */
-     , (38706,  16, 'Killed by Mag-six.') /* LongDesc */
      , (38706, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -120,18 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38706,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38706,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38706,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38706,  1516,      2) 
-     , (38706,  1616,      2) 
-     , (38706,  1627,      2) 
-     , (38706,  2108,      2) 
-     , (38706,  2116,      2) 
-     , (38706,  2538,      2) 
-     , (38706,  2582,      2) 
-     , (38706,  2600,      2) 
-     , (38706,  2603,      2) 
-     , (38706,  5887,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38706, 67109964, 92, 4)

@@ -5,17 +5,13 @@ VALUES (35814, 'ace35814-paradoxtouchedolthoiegg', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35814,   1,        128) /* ItemType - Misc */
-     , (35814,   2,         25) /* CreatureType - Rabbit */
      , (35814,   5,        800) /* EncumbranceVal */
      , (35814,  16,          1) /* ItemUseable - No */
      , (35814,  18,         64) /* UiEffects - Lightning */
      , (35814,  19,          0) /* Value */
-     , (35814,  25,          4) /* Level */
      , (35814,  33,          1) /* Bonded - Bonded */
      , (35814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35814, 114,          1) /* Attuned - Attuned */
-     , (35814, 174,          2) /* AppraisalPages */
-     , (35814, 175,          2) /* AppraisalMaxPages */;
+     , (35814, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35814,   1, False) /* Stuck */
@@ -46,6 +42,3 @@ VALUES (35814, 8040, 8913238, 70, -50, -72, 1, 0, 0, 0) /* PCAPRecordedLocation 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35814, 8000, 3691610693) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35814,   1,     5, 0, 0, 5) /* MaxHealth */;

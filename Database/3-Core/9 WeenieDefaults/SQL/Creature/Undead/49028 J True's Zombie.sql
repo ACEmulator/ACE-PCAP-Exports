@@ -17,25 +17,6 @@ VALUES (49028,   1,         16) /* ItemType - Creature */
      , (49028, 313,          4) /* CritRating */
      , (49028, 314,         14) /* CritDamageRating */
      , (49028, 315,         13) /* CritResistRating */
-     , (49028, 316,          0) /* CritDamageResistRating */
-     , (49028, 370,          0) /* GearDamage */
-     , (49028, 371,          0) /* GearDamageResist */
-     , (49028, 372,          0) /* GearCrit */
-     , (49028, 373,          0) /* GearCritResist */
-     , (49028, 374,          0) /* GearCritDamage */
-     , (49028, 375,          0) /* GearCritDamageResist */
-     , (49028, 376,          0) /* GearHealingBoost */
-     , (49028, 377,          0) /* GearNetherResist */
-     , (49028, 378,          0) /* GearLifeResist */
-     , (49028, 379,          0) /* GearMaxHealth */
-     , (49028, 381,          0) /* PKDamageRating */
-     , (49028, 382,          0) /* PKDamageResistRating */
-     , (49028, 383,          0) /* GearPKDamageRating */
-     , (49028, 384,          0) /* GearPKDamageResistRating */
-     , (49028, 386,          0) /* Overpower */
-     , (49028, 387,          0) /* OverpowerResist */
-     , (49028, 388,          0) /* GearOverpower */
-     , (49028, 389,          0) /* GearOverpowerResist */
      , (49028, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,7 +28,6 @@ VALUES (49028,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49028,   1, 'J True''s Zombie') /* Name */
-     , (49028,  16, 'A portal leading deeper into the Viridian Rise.') /* LongDesc */
      , (49028, 8006, 'AAA+AAEAAAA+AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

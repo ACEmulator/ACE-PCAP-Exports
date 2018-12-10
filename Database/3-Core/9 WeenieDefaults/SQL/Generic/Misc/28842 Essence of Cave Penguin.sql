@@ -37,7 +37,7 @@ VALUES (28842,   1,   33554603) /* Setup */
      , (28842,   3,  536870932) /* SoundTable */
      , (28842,   8,  100686396) /* Icon */
      , (28842,  22,  872415275) /* PhysicsEffectTable */
-     , (28842,  28,       3571) /* Spell */
+     , (28842,  28,       3571) /* Spell - HealthUp10Percent */
      , (28842, 8001,  274755608) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Spell, HookType */
      , (28842, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (28842, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

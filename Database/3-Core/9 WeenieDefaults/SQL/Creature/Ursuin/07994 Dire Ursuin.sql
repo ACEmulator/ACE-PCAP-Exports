@@ -6,25 +6,12 @@ VALUES (7994, 'ursuindire', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7994,   1,         16) /* ItemType - Creature */
      , (7994,   2,         46) /* CreatureType - Ursuin */
-     , (7994,   5,         50) /* EncumbranceVal */
      , (7994,   6,        255) /* ItemsCapacity */
      , (7994,   7,        255) /* ContainersCapacity */
      , (7994,  16,          1) /* ItemUseable - No */
-     , (7994,  19,       5587) /* Value */
      , (7994,  25,         60) /* Level */
      , (7994,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7994, 105,          8) /* ItemWorkmanship */
-     , (7994, 106,        200) /* ItemSpellcraft */
-     , (7994, 107,       2001) /* ItemCurMana */
-     , (7994, 108,       2001) /* ItemMaxMana */
-     , (7994, 109,        150) /* ItemDifficulty */
-     , (7994, 110,          0) /* ItemAllegianceRankLimit */
-     , (7994, 115,          0) /* ItemSkillLevelLimit */
-     , (7994, 131,         58) /* MaterialType - Bronze */
      , (7994, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7994, 172,          5) /* AppraisalLongDescDecoration */
-     , (7994, 177,          4) /* GemCount */
-     , (7994, 178,         17) /* GemType */
      , (7994, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,17 +22,13 @@ VALUES (7994,   1, True ) /* Stuck */
      , (7994,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7994,   5, -0.0416666666666667) /* ManaRate */
-     , (7994,  29,    1.08) /* WeaponDefense */
-     , (7994,  39, 1.29999995231628) /* DefaultScale */
-     , (7994, 144,    0.06) /* ManaConversionMod */
+VALUES (7994,  39, 1.29999995231628) /* DefaultScale */
      , (7994, 8010,       0) /* PCAPRecordedVelocityX */
      , (7994, 8011,       0) /* PCAPRecordedVelocityY */
      , (7994, 8012, -0.162941232323647) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7994,   1, 'Dire Ursuin') /* Name */
-     , (7994,  16, 'Staff of Shockwave') /* LongDesc */
      , (7994, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -78,10 +61,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7994,   1,   215, 0, 0, 215) /* MaxHealth */
      , (7994,   3,   430, 0, 0, 430) /* MaxStamina */
      , (7994,   5,   100, 0, 0, 100) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7994,    68,      2) 
-     , (7994,  1479,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7994, 67112945, 0, 0);

@@ -6,14 +6,10 @@ VALUES (40498, 'ace40498-apostatemaster', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40498,   1,         16) /* ItemType - Creature */
      , (40498,   2,         19) /* CreatureType - Virindi */
-     , (40498,   5,         75) /* EncumbranceVal */
      , (40498,   6,        255) /* ItemsCapacity */
      , (40498,   7,        255) /* ContainersCapacity */
      , (40498,  16,          1) /* ItemUseable - No */
-     , (40498,  19,       1000) /* Value */
      , (40498,  25,        220) /* Level */
-     , (40498,  89,          2) /* BoosterEnum - Health */
-     , (40498,  90,         65) /* BoostValue */
      , (40498,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40498, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (40498, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -27,7 +23,6 @@ VALUES (40498,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40498,   1, 'Apostate Master') /* Name */
-     , (40498,  14, 'Use this item to drink it.') /* Use */
      , (40498, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

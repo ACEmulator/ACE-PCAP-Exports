@@ -6,30 +6,15 @@ VALUES (46016, 'ace46016-umbralguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46016,   1,         16) /* ItemType - Creature */
      , (46016,   2,         31) /* CreatureType - Human */
-     , (46016,   5,         50) /* EncumbranceVal */
      , (46016,   6,        255) /* ItemsCapacity */
      , (46016,   7,        255) /* ContainersCapacity */
      , (46016,  16,         32) /* ItemUseable - Remote */
-     , (46016,  19,       2000) /* Value */
      , (46016,  25,        275) /* Level */
-     , (46016,  90,         25) /* BoostValue */
-     , (46016,  91,         50) /* MaxStructure */
-     , (46016,  92,         50) /* Structure */
      , (46016,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (46016,  95,          8) /* RadarBlipColor - Yellow */
-     , (46016, 105,          7) /* ItemWorkmanship */
-     , (46016, 106,        250) /* ItemSpellcraft */
-     , (46016, 107,        584) /* ItemCurMana */
-     , (46016, 108,        584) /* ItemMaxMana */
-     , (46016, 109,          0) /* ItemDifficulty */
-     , (46016, 110,          0) /* ItemAllegianceRankLimit */
      , (46016, 113,          2) /* Gender - Female */
-     , (46016, 115,          0) /* ItemSkillLevelLimit */
-     , (46016, 117,        350) /* ItemManaCost */
-     , (46016, 131,         20) /* MaterialType - Diamond */
      , (46016, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (46016, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (46016, 172,          1) /* AppraisalLongDescDecoration */
      , (46016, 188,          5) /* HeritageGroup - Shadowbound */
      , (46016, 307,          5) /* DamageRating */
      , (46016, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -45,13 +30,11 @@ VALUES (46016,   1, True ) /* Stuck */
      , (46016,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46016,  54,       3) /* UseRadius */
-     , (46016, 100,       2) /* HealkitMod */;
+VALUES (46016,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46016,   1, 'Umbral Guard') /* Name */
      , (46016,   5, 'Devourer Margul Hunter') /* Template */
-     , (46016,  16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LongDesc */
      , (46016, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -89,9 +72,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46016,   1,   326, 0, 0, 326) /* MaxHealth */
      , (46016,   3,   456, 0, 0, 456) /* MaxStamina */
      , (46016,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46016,  1312,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46016, 67109964, 92, 4)

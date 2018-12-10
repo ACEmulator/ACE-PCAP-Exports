@@ -26,9 +26,6 @@ VALUES (34399,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34399,   1, 'Doll House') /* Name */
-     , (34399,   7, 'EPS MAFIA
-') /* Inscription */
-     , (34399,   8, 'The Diplomat') /* ScribeName */
      , (34399,  14, 'This item can be placed on floor and yard hooks.') /* Use */
      , (34399,  16, 'A simple doll house crafted like the ones back on Ispar.') /* LongDesc */;
 

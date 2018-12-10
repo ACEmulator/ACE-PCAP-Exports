@@ -45,9 +45,6 @@ VALUES (14917,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14917,   1, 'Elegant Flower Bouquet') /* Name */
-     , (14917,   7, 'The wedding of Little Thor and Daggerwood
-October 30th, 2005.  May we be friends forever.') /* Inscription */
-     , (14917,   8, 'Daggerwood') /* ScribeName */
      , (14917,  16, 'A large and beautiful floral arrangement.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

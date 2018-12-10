@@ -29,7 +29,6 @@ VALUES (15856,   1, False) /* Stuck */
      , (15856,  14, True ) /* GravityStatus */
      , (15856,  19, True ) /* Attackable */
      , (15856,  22, True ) /* Inscribable */
-     , (15856,  85, True ) /* AppraisalHasAllowedWielder */
      , (15856,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,10 +37,7 @@ VALUES (15856,   5, -0.033333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15856,   1, 'Encrusted Bloodstone Jewel') /* Name */
-     , (15856,   7, '19.8n 43.0e Cottage u wanted to buy esprit') /* Inscription */
-     , (15856,   8, 'Baeth Le Farfadet') /* ScribeName */
-     , (15856,  16, 'A jewel carved from Bloodstone that has a slick, sticky coating. A thin copper necklace can be seen beneath the sheen. Perhaps it is a necklace?') /* LongDesc */
-     , (15856,  25, 'Arkaina') /* CraftsmanName */;
+     , (15856,  16, 'A jewel carved from Bloodstone that has a slick, sticky coating. A thin copper necklace can be seen beneath the sheen. Perhaps it is a necklace?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15856,   1,   33554809) /* Setup */

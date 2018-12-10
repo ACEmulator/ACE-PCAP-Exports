@@ -6,17 +6,13 @@ VALUES (29051, 'sanamarseneschaldalmour', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29051,   1,         16) /* ItemType - Creature */
      , (29051,   2,         31) /* CreatureType - Human */
-     , (29051,   5,        100) /* EncumbranceVal */
      , (29051,   6,        255) /* ItemsCapacity */
      , (29051,   7,        255) /* ContainersCapacity */
      , (29051,  16,         32) /* ItemUseable - Remote */
-     , (29051,  19,          0) /* Value */
      , (29051,  25,          6) /* Level */
-     , (29051,  33,          1) /* Bonded - Bonded */
      , (29051,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (29051,  95,          8) /* RadarBlipColor - Yellow */
      , (29051, 113,          1) /* Gender - Male */
-     , (29051, 114,          1) /* Attuned - Attuned */
      , (29051, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29051, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (29051, 188,          4) /* HeritageGroup - Viamontian */
@@ -30,8 +26,7 @@ VALUES (29051,   1, True ) /* Stuck */
      , (29051,  14, True ) /* GravityStatus */
      , (29051,  19, False) /* Attackable */
      , (29051,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (29051,  42, True ) /* AllowEdgeSlide */
-     , (29051,  69, False) /* IsSellable */;
+     , (29051,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29051,  54,       3) /* UseRadius */;
@@ -39,7 +34,6 @@ VALUES (29051,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29051,   1, 'Seneschal Dalmour') /* Name */
      , (29051,   5, 'King''s Seneschal') /* Template */
-     , (29051,  15, 'A tusk plucked from a dead Tusker Guard. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* ShortDesc */
      , (29051, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

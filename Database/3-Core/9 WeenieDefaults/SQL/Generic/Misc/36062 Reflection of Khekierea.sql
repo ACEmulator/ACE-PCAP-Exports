@@ -8,13 +8,8 @@ VALUES (36062,   1,        128) /* ItemType - Misc */
      , (36062,   5,          1) /* EncumbranceVal */
      , (36062,  16,          1) /* ItemUseable - No */
      , (36062,  18,         64) /* UiEffects - Lightning */
-     , (36062,  19,      14211) /* Value */
-     , (36062,  28,        299) /* ArmorLevel */
      , (36062,  65,        101) /* Placement - Resting */
-     , (36062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36062, 105,          5) /* ItemWorkmanship */
-     , (36062, 131,          6) /* MaterialType - Silk */
-     , (36062, 172,          1) /* AppraisalLongDescDecoration */;
+     , (36062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36062,   1, False) /* Stuck */
@@ -22,22 +17,10 @@ VALUES (36062,   1, False) /* Stuck */
      , (36062,  13, True ) /* Ethereal */
      , (36062,  14, True ) /* GravityStatus */
      , (36062,  19, True ) /* Attackable */
-     , (36062,  22, True ) /* Inscribable */
-     , (36062, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36062,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (36062,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (36062,  15,       1) /* ArmorModVsBludgeon */
-     , (36062,  16,     0.5) /* ArmorModVsCold */
-     , (36062,  17,     0.5) /* ArmorModVsFire */
-     , (36062,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (36062,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (36062, 165,       1) /* ArmorModVsNether */;
+     , (36062,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36062,   1, 'Reflection of Khekierea') /* Name */
-     , (36062,  16, 'Cowl') /* LongDesc */;
+VALUES (36062,   1, 'Reflection of Khekierea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36062,   1,   33556769) /* Setup */

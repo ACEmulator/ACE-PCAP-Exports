@@ -6,15 +6,12 @@ VALUES (33531, 'ace33531-shadoweddy', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33531,   1,         16) /* ItemType - Creature */
      , (33531,   2,         22) /* CreatureType - Shadow */
-     , (33531,   5,       6488) /* EncumbranceVal */
      , (33531,   6,        255) /* ItemsCapacity */
      , (33531,   7,        255) /* ContainersCapacity */
      , (33531,  16,          1) /* ItemUseable - No */
-     , (33531,  19,          0) /* Value */
      , (33531,  25,        160) /* Level */
      , (33531,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33531, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33531, 307,          5) /* DamageRating */
      , (33531, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,7 +27,6 @@ VALUES (33531,  39, 0.800000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33531,   1, 'Shadow Eddy') /* Name */
-     , (33531,  16, 'Killed by Makor.') /* LongDesc */
      , (33531, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -10,7 +10,6 @@ VALUES (21059,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21059,  12,          1) /* StackSize */
      , (21059,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (21059,  19,      42273) /* Value */
-     , (21059,  28,          0) /* ArmorLevel */
      , (21059,  33,          1) /* Bonded - Bonded */
      , (21059,  65,        101) /* Placement - Resting */
      , (21059,  91,        100) /* MaxStructure */
@@ -18,21 +17,9 @@ VALUES (21059,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21059,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21059,  94,      35215) /* TargetType - Jewelry, Misc, Gem, RedirectableItemEnchantmentTarget */
      , (21059, 105,         16) /* ItemWorkmanship */
-     , (21059, 106,        327) /* ItemSpellcraft */
-     , (21059, 107,       1058) /* ItemCurMana */
-     , (21059, 108,       1058) /* ItemMaxMana */
-     , (21059, 109,        362) /* ItemDifficulty */
-     , (21059, 110,          0) /* ItemAllegianceRankLimit */
-     , (21059, 115,          0) /* ItemSkillLevelLimit */
      , (21059, 131,         52) /* MaterialType - Leather */
      , (21059, 151,          9) /* HookType - Floor, Yard */
-     , (21059, 158,          7) /* WieldRequirements - Level */
-     , (21059, 159,          1) /* WieldSkilltype - Axe */
-     , (21059, 160,        150) /* WieldDifficulty */
-     , (21059, 170,          3) /* NumItemsInMaterial */
-     , (21059, 172,          1) /* AppraisalLongDescDecoration */
-     , (21059, 177,          1) /* GemCount */
-     , (21059, 178,         34) /* GemType */;
+     , (21059, 170,          3) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21059,   1, False) /* Stuck */
@@ -40,26 +27,15 @@ VALUES (21059,   1, False) /* Stuck */
      , (21059,  13, True ) /* Ethereal */
      , (21059,  14, True ) /* GravityStatus */
      , (21059,  19, True ) /* Attackable */
-     , (21059,  22, True ) /* Inscribable */
-     , (21059, 100, True ) /* Dyable */;
+     , (21059,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21059,   5, -0.0555555555555556) /* ManaRate */
-     , (21059,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (21059,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (21059,  15,       1) /* ArmorModVsBludgeon */
-     , (21059,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (21059,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (21059,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (21059,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (21059, 165,       1) /* ArmorModVsNether */
-     , (21059, 8004,       8) /* PCAPRecordedWorkmanship */;
+VALUES (21059, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21059,   1, 'Salvage (64)') /* Name */
      , (21059,  14, 'Apply this material to a treasure-generated item in order to render that item "Retained". Retained items cannot be salvaged or sold to vendors. Applying this material does not require a tinkering skill, does not add a tinker to the target''s count, and cannot destroy the target.') /* Use */
-     , (21059,  15, 'A strip of leather material salvaged from old items.') /* ShortDesc */
-     , (21059,  16, 'Trousers of Acid Protection') /* LongDesc */;
+     , (21059,  15, 'A strip of leather material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21059,   1,   33554817) /* Setup */
@@ -78,13 +54,6 @@ VALUES (21059, 8040, 23855555, 56.57001, -40.72089, -0.002499998, -0.3153024, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (21059, 8000, 3661317282) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21059,  1035,      2) 
-     , (21059,  2149,      2) 
-     , (21059,  2507,      2) 
-     , (21059,  2562,      2) 
-     , (21059,  5428,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21059, 67111926, 0, 0);

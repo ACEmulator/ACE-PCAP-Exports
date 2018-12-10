@@ -38,8 +38,6 @@ VALUES (32642,   1, False) /* Stuck */
      , (32642,  19, True ) /* Attackable */
      , (32642,  22, True ) /* Inscribable */
      , (32642,  69, False) /* IsSellable */
-     , (32642,  85, True ) /* AppraisalHasAllowedWielder */
-     , (32642,  91, True ) /* Retained */
      , (32642,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -55,10 +53,7 @@ VALUES (32642,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32642,   1, 'Shadowfire Isparian Crossbow') /* Name */
-     , (32642,   7, 'Critical hit!  You incinerate Degenerate Shadow Commander for 4660 points of fire damage!') /* Inscription */
-     , (32642,   8, 'Crog') /* ScribeName */
-     , (32642,  16, 'A Perfect Isparian Crossbow, infused with the power of the Shadowfire Stone.') /* LongDesc */
-     , (32642,  25, 'Crog') /* CraftsmanName */;
+     , (32642,  16, 'A Perfect Isparian Crossbow, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32642,   1,   33559820) /* Setup */

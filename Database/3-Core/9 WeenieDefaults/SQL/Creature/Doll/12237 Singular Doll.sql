@@ -6,14 +6,11 @@ VALUES (12237, 'dollpyrealleader', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12237,   1,         16) /* ItemType - Creature */
      , (12237,   2,         53) /* CreatureType - Doll */
-     , (12237,   5,         50) /* EncumbranceVal */
      , (12237,   6,        255) /* ItemsCapacity */
      , (12237,   7,        255) /* ContainersCapacity */
      , (12237,  16,          1) /* ItemUseable - No */
-     , (12237,  19,        500) /* Value */
      , (12237,  25,         50) /* Level */
      , (12237,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (12237, 107,          0) /* ItemCurMana */
      , (12237, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12237, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -25,13 +22,10 @@ VALUES (12237,   1, True ) /* Stuck */
      , (12237,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12237,  77,       1) /* PhysicsScriptIntensity */
-     , (12237,  87,    0.25) /* ItemEfficiency */
-     , (12237, 137,    0.05) /* ManaStoneDestroyChance */;
+VALUES (12237,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12237,   1, 'Singular Doll') /* Name */
-     , (12237,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (12237, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

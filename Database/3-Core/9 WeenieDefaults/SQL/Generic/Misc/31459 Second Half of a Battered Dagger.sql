@@ -7,6 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31459,   1,        128) /* ItemType - Misc */
      , (31459,   5,         50) /* EncumbranceVal */
      , (31459,  16,          1) /* ItemUseable - No */
+     , (31459,  19,          0) /* Value */
      , (31459,  65,        101) /* Placement - Resting */
      , (31459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -19,7 +20,8 @@ VALUES (31459,   1, False) /* Stuck */
      , (31459,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31459,   1, 'Second Half of a Battered Dagger') /* Name */;
+VALUES (31459,   1, 'Second Half of a Battered Dagger') /* Name */
+     , (31459,  16, 'Half of a battered old dagger. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31459,   1,   33554817) /* Setup */

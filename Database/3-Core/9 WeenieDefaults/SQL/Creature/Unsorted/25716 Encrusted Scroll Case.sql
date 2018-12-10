@@ -5,7 +5,6 @@ VALUES (25716, 'encrustedscrollcasenoir1', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25716,   1,         16) /* ItemType - Creature */
-     , (25716,   5,          0) /* EncumbranceVal */
      , (25716,   6,        255) /* ItemsCapacity */
      , (25716,   7,        255) /* ContainersCapacity */
      , (25716,  16,         32) /* ItemUseable - Remote */

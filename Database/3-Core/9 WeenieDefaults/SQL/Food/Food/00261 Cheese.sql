@@ -10,28 +10,11 @@ VALUES (261,   1,         32) /* ItemType - Food */
      , (261,  12,          1) /* StackSize */
      , (261,  16,          8) /* ItemUseable - Contained */
      , (261,  19,         15) /* Value */
-     , (261,  44,         20) /* Damage */
-     , (261,  45,          1) /* DamageType - Slash */
-     , (261,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (261,  49,         10) /* WeaponTime */
      , (261,  65,        101) /* Placement - Resting */
      , (261,  89,          4) /* BoosterEnum - Stamina */
      , (261,  90,          8) /* BoostValue */
      , (261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (261, 105,          8) /* ItemWorkmanship */
-     , (261, 106,        207) /* ItemSpellcraft */
-     , (261, 107,       1067) /* ItemCurMana */
-     , (261, 108,       1067) /* ItemMaxMana */
-     , (261, 109,        207) /* ItemDifficulty */
-     , (261, 110,          0) /* ItemAllegianceRankLimit */
-     , (261, 115,          0) /* ItemSkillLevelLimit */
-     , (261, 131,         67) /* MaterialType - Granite */
-     , (261, 151,          2) /* HookType - Wall */
-     , (261, 172,          5) /* AppraisalLongDescDecoration */
-     , (261, 177,          2) /* GemCount */
-     , (261, 178,         31) /* GemType */
-     , (261, 353,         10) /* WeaponType - Thrown */
-     , (261, 8030,          0);
+     , (261, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (261,   1, False) /* Stuck */
@@ -41,19 +24,9 @@ VALUES (261,   1, False) /* Stuck */
      , (261,  19, True ) /* Attackable */
      , (261,  69, False) /* IsSellable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (261,   5,   -0.05) /* ManaRate */
-     , (261,  21,       0) /* WeaponLength */
-     , (261,  22,    0.25) /* DamageVariance */
-     , (261,  26,       0) /* MaximumVelocity */
-     , (261,  29,       1) /* WeaponDefense */
-     , (261,  62,       1) /* WeaponOffense */
-     , (261,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (261,   1, 'Cheese') /* Name */
      , (261,  14, 'Use this item to eat it.') /* Use */
-     , (261,  16, 'Dinner Plate of Cooking Mastery') /* LongDesc */
      , (261,  20, 'Hunks of Cheese') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -71,6 +44,3 @@ VALUES (261, 8040, 3646488836, 105.8252, 12.32823, 10.024, 0.272208, 0, 0, 0.962
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (261, 8000, 3692125777) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (261,  1719,      2) ;

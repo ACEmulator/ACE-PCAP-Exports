@@ -6,11 +6,9 @@ VALUES (12203, 'maskcollectoraluvianapprentice', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12203,   1,         16) /* ItemType - Creature */
      , (12203,   2,         31) /* CreatureType - Human */
-     , (12203,   5,         30) /* EncumbranceVal */
      , (12203,   6,        255) /* ItemsCapacity */
      , (12203,   7,        255) /* ContainersCapacity */
      , (12203,  16,         32) /* ItemUseable - Remote */
-     , (12203,  19,       2000) /* Value */
      , (12203,  25,         20) /* Level */
      , (12203,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (12203,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,9 +34,6 @@ VALUES (12203,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12203,   1, 'Alexander''s Apprentice') /* Name */
      , (12203,   5, 'Apprentice Mask Maker') /* Template */
-     , (12203,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (12203,  16, 'Inscribed spell: Archer Bait
-Decreases a shield or piece of armor''s resistance to piercing damage by 170%.') /* LongDesc */
      , (12203, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12203,   1,   100, 0, 0, 100) /* MaxHealth */
      , (12203,   3,   150, 0, 0, 150) /* MaxStamina */
      , (12203,   5,   160, 0, 0, 160) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12203,  2114,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12203, 67109562, 0, 24)

@@ -6,47 +6,19 @@ VALUES (38275, 'ace38275-elesandratrembol', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38275,   1,         16) /* ItemType - Creature */
      , (38275,   2,         31) /* CreatureType - Human */
-     , (38275,   5,       6160) /* EncumbranceVal */
      , (38275,   6,        255) /* ItemsCapacity */
      , (38275,   7,        255) /* ContainersCapacity */
      , (38275,  16,         32) /* ItemUseable - Remote */
-     , (38275,  19,          0) /* Value */
      , (38275,  25,        220) /* Level */
-     , (38275,  28,        264) /* ArmorLevel */
-     , (38275,  33,          1) /* Bonded - Bonded */
-     , (38275,  44,         38) /* Damage */
-     , (38275,  45,         32) /* DamageType - Acid */
-     , (38275,  47,          1) /* AttackType - Punch */
-     , (38275,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (38275,  49,         16) /* WeaponTime */
      , (38275,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38275,  95,          8) /* RadarBlipColor - Yellow */
-     , (38275, 105,          7) /* ItemWorkmanship */
-     , (38275, 106,        259) /* ItemSpellcraft */
-     , (38275, 107,        481) /* ItemCurMana */
-     , (38275, 108,        481) /* ItemMaxMana */
-     , (38275, 109,        168) /* ItemDifficulty */
-     , (38275, 110,          0) /* ItemAllegianceRankLimit */
      , (38275, 113,          2) /* Gender - Female */
-     , (38275, 115,        195) /* ItemSkillLevelLimit */
-     , (38275, 131,         60) /* MaterialType - Gold */
      , (38275, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38275, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38275, 158,          2) /* WieldRequirements - RawSkill */
-     , (38275, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (38275, 160,        325) /* WieldDifficulty */
-     , (38275, 172,          5) /* AppraisalLongDescDecoration */
-     , (38275, 176,          7) /* AppraisalItemSkill */
-     , (38275, 177,          2) /* GemCount */
-     , (38275, 178,         23) /* GemType */
      , (38275, 188,          1) /* HeritageGroup - Aluvian */
-     , (38275, 204,          8) /* ElementalDamageBonus */
      , (38275, 281,          4) /* Faction1Bits */
      , (38275, 289,       1001) /* SocietyRankRadblo */
-     , (38275, 307,          5) /* DamageRating */
-     , (38275, 353,          1) /* WeaponType - Unarmed */
-     , (38275, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38275, 8030,          0);
+     , (38275, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38275,   1, True ) /* Stuck */
@@ -56,33 +28,14 @@ VALUES (38275,   1, True ) /* Stuck */
      , (38275,  14, True ) /* GravityStatus */
      , (38275,  19, False) /* Attackable */
      , (38275,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38275,  42, True ) /* AllowEdgeSlide */
-     , (38275, 100, True ) /* Dyable */;
+     , (38275,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38275,   5,   -0.05) /* ManaRate */
-     , (38275,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38275,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38275,  15,       1) /* ArmorModVsBludgeon */
-     , (38275,  16,     0.5) /* ArmorModVsCold */
-     , (38275,  17,     0.5) /* ArmorModVsFire */
-     , (38275,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (38275,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38275,  21,       0) /* WeaponLength */
-     , (38275,  22,    0.48) /* DamageVariance */
-     , (38275,  26,       0) /* MaximumVelocity */
-     , (38275,  29,     1.1) /* WeaponDefense */
-     , (38275,  54,       3) /* UseRadius */
-     , (38275,  62,     1.1) /* WeaponOffense */
-     , (38275,  63,       1) /* DamageMod */
-     , (38275, 150,   1.015) /* WeaponMagicDefense */
-     , (38275, 165,       1) /* ArmorModVsNether */;
+VALUES (38275,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38275,   1, 'Elesandra Trembol') /* Name */
      , (38275,   5, 'Magshuth Hunt Task Master') /* Template */
-     , (38275,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38275,  16, 'Killed by Mag-five.') /* LongDesc */
      , (38275, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -120,25 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38275,   1,   235, 0, 0, 235) /* MaxHealth */
      , (38275,   3,   330, 0, 0, 330) /* MaxStamina */
      , (38275,   5,   145, 0, 0, 145) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38275,   707,      2) 
-     , (38275,  1486,      2) 
-     , (38275,  1562,      2) 
-     , (38275,  1574,      2) 
-     , (38275,  1605,      2) 
-     , (38275,  1616,      2) 
-     , (38275,  1627,      2) 
-     , (38275,  2073,      2) 
-     , (38275,  2081,      2) 
-     , (38275,  2096,      2) 
-     , (38275,  2108,      2) 
-     , (38275,  2516,      2) 
-     , (38275,  2549,      2) 
-     , (38275,  2566,      2) 
-     , (38275,  2582,      2) 
-     , (38275,  2584,      2) 
-     , (38275,  2620,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38275, 67109561, 0, 24)

@@ -21,10 +21,7 @@ VALUES (49232,   1,        128) /* ItemType - Misc */
      , (49232, 366,         54) /* UseRequiresSkill */
      , (49232, 367,        530) /* UseRequiresSkillLevel */
      , (49232, 369,        170) /* UseRequiresLevel */
-     , (49232, 370,         14) /* GearDamage */
-     , (49232, 371,         20) /* GearDamageResist */
      , (49232, 372,         13) /* GearCrit */
-     , (49232, 373,         11) /* GearCritResist */
      , (49232, 374,         16) /* GearCritDamage */
      , (49232, 375,         10) /* GearCritDamageResist */;
 

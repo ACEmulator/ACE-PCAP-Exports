@@ -6,11 +6,9 @@ VALUES (33739, 'ace33739-parfalsleech', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33739,   1,         16) /* ItemType - Creature */
      , (33739,   2,         45) /* CreatureType - Niffis */
-     , (33739,   5,       6696) /* EncumbranceVal */
      , (33739,   6,        255) /* ItemsCapacity */
      , (33739,   7,        255) /* ContainersCapacity */
      , (33739,  16,          1) /* ItemUseable - No */
-     , (33739,  19,          0) /* Value */
      , (33739,  25,        185) /* Level */
      , (33739,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (33739, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (33739,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33739,   1, 'Parfal Sleech') /* Name */
-     , (33739,  16, 'Killed by Husband V.') /* LongDesc */
      , (33739, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

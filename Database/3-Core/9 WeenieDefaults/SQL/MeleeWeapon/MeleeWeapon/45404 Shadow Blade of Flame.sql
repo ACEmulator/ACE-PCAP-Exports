@@ -5,14 +5,12 @@ VALUES (45404, 'ace45404-shadowbladeofflame', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45404,   1,          1) /* ItemType - MeleeWeapon */
-     , (45404,   2,          8) /* CreatureType - Tusker */
      , (45404,   5,        232) /* EncumbranceVal */
      , (45404,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (45404,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45404,  16,          1) /* ItemUseable - No */
      , (45404,  18,         33) /* UiEffects - Magical, Fire */
      , (45404,  19,      24108) /* Value */
-     , (45404,  25,         80) /* Level */
      , (45404,  44,         64) /* Damage */
      , (45404,  45,         16) /* DamageType - Fire */
      , (45404,  47,          6) /* AttackType - Thrust, Slash */
@@ -60,8 +58,6 @@ VALUES (45404,   5, -0.0555555559694767) /* ManaRate */
      , (45404,  29, 1.16999995708466) /* WeaponDefense */
      , (45404,  62, 1.16999995708466) /* WeaponOffense */
      , (45404,  63,       1) /* DamageMod */
-     , (45404, 149,    1.01) /* WeaponMissileDefense */
-     , (45404, 150,   1.025) /* WeaponMagicDefense */
      , (45404, 8004,       8) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -98,46 +94,10 @@ VALUES (45404,   3, 1343103074) /* Wielder */
      , (45404, 8000, 2171113026) /* PCAPRecordedObjectIID */
      , (45404, 8008, 1343103074) /* PCAPRecordedParentIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45404,   1,   400, 0, 0, 400) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45404,  1331,      2) 
-     , (45404,  1401,      2) 
-     , (45404,  1601,      2) 
-     , (45404,  1602,      2) 
-     , (45404,  1603,      2) 
-     , (45404,  1604,      2) 
-     , (45404,  1605,      2) 
-     , (45404,  1613,      2) 
-     , (45404,  1614,      2) 
-     , (45404,  1615,      2) 
-     , (45404,  1616,      2) 
-     , (45404,  1625,      2) 
-     , (45404,  1627,      2) 
-     , (45404,  2059,      2) 
-     , (45404,  2061,      2) 
+VALUES (45404,  2059,      2) 
      , (45404,  2096,      2) 
-     , (45404,  2101,      2) 
-     , (45404,  2106,      2) 
-     , (45404,  2116,      2) 
-     , (45404,  2521,      2) 
-     , (45404,  2544,      2) 
-     , (45404,  2579,      2) 
-     , (45404,  2583,      2) 
-     , (45404,  2588,      2) 
-     , (45404,  2616,      2) 
-     , (45404,  4297,      2) 
-     , (45404,  4395,      2) 
-     , (45404,  4417,      2) 
-     , (45404,  4666,      2) 
-     , (45404,  4710,      2) 
-     , (45404,  5783,      2) 
-     , (45404,  5785,      2) 
-     , (45404,  5807,      2) 
-     , (45404,  5882,      2) 
-     , (45404,  6089,      2) 
-     , (45404,  6127,      2) ;
+     , (45404,  6089,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45404, 67116820, 0, 0);

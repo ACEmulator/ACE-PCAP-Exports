@@ -6,11 +6,9 @@ VALUES (1605, 'aurochfireyearling', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1605,   1,         16) /* ItemType - Creature */
      , (1605,   2,         11) /* CreatureType - Auroch */
-     , (1605,   5,          0) /* EncumbranceVal */
      , (1605,   6,        255) /* ItemsCapacity */
      , (1605,   7,        255) /* ContainersCapacity */
      , (1605,  16,          1) /* ItemUseable - No */
-     , (1605,  19,        610) /* Value */
      , (1605,  25,         15) /* Level */
      , (1605,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1605, 133,          4) /* ShowableOnRadar - ShowAlways */

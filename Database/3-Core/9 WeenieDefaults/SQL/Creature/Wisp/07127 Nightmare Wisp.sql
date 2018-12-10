@@ -6,26 +6,12 @@ VALUES (7127, 'wispnightmare', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7127,   1,         16) /* ItemType - Creature */
      , (7127,   2,         20) /* CreatureType - Wisp */
-     , (7127,   5,         50) /* EncumbranceVal */
      , (7127,   6,        255) /* ItemsCapacity */
      , (7127,   7,        255) /* ContainersCapacity */
      , (7127,  16,          1) /* ItemUseable - No */
-     , (7127,  19,       4000) /* Value */
      , (7127,  25,        115) /* Level */
-     , (7127,  33,          0) /* Bonded - Normal */
-     , (7127,  91,         50) /* MaxStructure */
-     , (7127,  92,         50) /* Structure */
      , (7127,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7127, 105,          8) /* ItemWorkmanship */
-     , (7127, 114,          0) /* Attuned - Normal */
      , (7127, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7127, 280,        213) /* SharedCooldown */
-     , (7127, 366,         54) /* UseRequiresSkill */
-     , (7127, 367,        310) /* UseRequiresSkillLevel */
-     , (7127, 369,         40) /* UseRequiresLevel */
-     , (7127, 370,         16) /* GearDamage */
-     , (7127, 373,         10) /* GearCritResist */
-     , (7127, 375,         12) /* GearCritDamageResist */
      , (7127, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,16 +19,13 @@ VALUES (7127,   1, True ) /* Stuck */
      , (7127,  12, True ) /* ReportCollisions */
      , (7127,  13, False) /* Ethereal */
      , (7127,  14, True ) /* GravityStatus */
-     , (7127,  19, True ) /* Attackable */
-     , (7127,  69, True ) /* IsSellable */;
+     , (7127,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7127,  39, 1.29999995231628) /* DefaultScale */
-     , (7127, 167,      45) /* CooldownDuration */;
+VALUES (7127,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7127,   1, 'Nightmare Wisp') /* Name */
-     , (7127,  14, 'Use this essence to summon or dismiss your Fire Spectre.') /* Use */
      , (7127, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

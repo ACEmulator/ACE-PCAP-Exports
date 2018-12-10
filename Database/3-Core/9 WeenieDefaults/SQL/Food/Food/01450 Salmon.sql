@@ -26,7 +26,6 @@ VALUES (1450,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1450,   1, 'Salmon') /* Name */
      , (1450,  14, 'Use this item to eat it.') /* Use */
-     , (1450,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (1450,  20, 'Salmon') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

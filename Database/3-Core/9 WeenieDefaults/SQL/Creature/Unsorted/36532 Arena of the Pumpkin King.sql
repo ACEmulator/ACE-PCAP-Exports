@@ -5,7 +5,6 @@ VALUES (36532, 'ace36532-arenaofthepumpkinking', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36532,   1,         16) /* ItemType - Creature */
-     , (36532,   5,          0) /* EncumbranceVal */
      , (36532,   6,        255) /* ItemsCapacity */
      , (36532,   7,        255) /* ContainersCapacity */
      , (36532,  16,         32) /* ItemUseable - Remote */

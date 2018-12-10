@@ -6,26 +6,12 @@ VALUES (36820, 'ace36820-banderlingscalper', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36820,   1,         16) /* ItemType - Creature */
      , (36820,   2,          2) /* CreatureType - Banderling */
-     , (36820,   5,         10) /* EncumbranceVal */
      , (36820,   6,        255) /* ItemsCapacity */
      , (36820,   7,        255) /* ContainersCapacity */
      , (36820,  16,          1) /* ItemUseable - No */
-     , (36820,  19,          0) /* Value */
      , (36820,  25,        115) /* Level */
-     , (36820,  28,        256) /* ArmorLevel */
-     , (36820,  33,          1) /* Bonded - Bonded */
      , (36820,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36820, 105,          8) /* ItemWorkmanship */
-     , (36820, 106,        187) /* ItemSpellcraft */
-     , (36820, 107,       1067) /* ItemCurMana */
-     , (36820, 108,       1067) /* ItemMaxMana */
-     , (36820, 109,        187) /* ItemDifficulty */
-     , (36820, 110,          0) /* ItemAllegianceRankLimit */
-     , (36820, 114,          1) /* Attuned - Attuned */
-     , (36820, 115,          0) /* ItemSkillLevelLimit */
-     , (36820, 131,         60) /* MaterialType - Gold */
      , (36820, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36820, 172,          1) /* AppraisalLongDescDecoration */
      , (36820, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,24 +19,13 @@ VALUES (36820,   1, True ) /* Stuck */
      , (36820,  12, True ) /* ReportCollisions */
      , (36820,  13, False) /* Ethereal */
      , (36820,  14, True ) /* GravityStatus */
-     , (36820,  19, True ) /* Attackable */
-     , (36820, 100, True ) /* Dyable */;
+     , (36820,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36820,   5, -0.0416666666666667) /* ManaRate */
-     , (36820,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (36820,  14,       1) /* ArmorModVsPierce */
-     , (36820,  15,       1) /* ArmorModVsBludgeon */
-     , (36820,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (36820,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (36820,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (36820,  19, 0.980130732059479) /* ArmorModVsElectric */
-     , (36820,  39, 1.29999995231628) /* DefaultScale */
-     , (36820, 165,       1) /* ArmorModVsNether */;
+VALUES (36820,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36820,   1, 'Banderling Scalper') /* Name */
-     , (36820,  16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.') /* LongDesc */
      , (36820, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36820,   1,   555, 0, 0, 555) /* MaxHealth */
      , (36820,   3,   810, 0, 0, 810) /* MaxStamina */
      , (36820,   5,   390, 0, 0, 360) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36820,  1485,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36820, 67114266, 0, 0);

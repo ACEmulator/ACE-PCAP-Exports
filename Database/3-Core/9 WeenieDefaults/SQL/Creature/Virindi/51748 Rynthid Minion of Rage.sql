@@ -6,39 +6,12 @@ VALUES (51748, 'ace51748-rynthidminionofrage', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51748,   1,         16) /* ItemType - Creature */
      , (51748,   2,         19) /* CreatureType - Virindi */
-     , (51748,   5,         10) /* EncumbranceVal */
      , (51748,   6,        255) /* ItemsCapacity */
      , (51748,   7,        255) /* ContainersCapacity */
      , (51748,  16,          1) /* ItemUseable - No */
-     , (51748,  19,      12500) /* Value */
      , (51748,  25,        240) /* Level */
-     , (51748,  33,          1) /* Bonded - Bonded */
      , (51748,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51748, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (51748, 307,          0) /* DamageRating */
-     , (51748, 308,          0) /* DamageResistRating */
-     , (51748, 313,          0) /* CritRating */
-     , (51748, 314,          0) /* CritDamageRating */
-     , (51748, 315,          0) /* CritResistRating */
-     , (51748, 316,          0) /* CritDamageResistRating */
-     , (51748, 370,          0) /* GearDamage */
-     , (51748, 371,          0) /* GearDamageResist */
-     , (51748, 372,          0) /* GearCrit */
-     , (51748, 373,          0) /* GearCritResist */
-     , (51748, 374,          0) /* GearCritDamage */
-     , (51748, 375,          0) /* GearCritDamageResist */
-     , (51748, 376,          0) /* GearHealingBoost */
-     , (51748, 377,          0) /* GearNetherResist */
-     , (51748, 378,          0) /* GearLifeResist */
-     , (51748, 379,          0) /* GearMaxHealth */
-     , (51748, 381,          0) /* PKDamageRating */
-     , (51748, 382,          0) /* PKDamageResistRating */
-     , (51748, 383,          0) /* GearPKDamageRating */
-     , (51748, 384,          0) /* GearPKDamageResistRating */
-     , (51748, 386,          0) /* Overpower */
-     , (51748, 387,          0) /* OverpowerResist */
-     , (51748, 388,          0) /* GearOverpower */
-     , (51748, 389,          0) /* GearOverpowerResist */
      , (51748, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,7 +23,6 @@ VALUES (51748,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51748,   1, 'Rynthid Minion of Rage') /* Name */
-     , (51748,  16, 'A concentrated silver pea.') /* LongDesc */
      , (51748, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -30,15 +30,12 @@ VALUES (24207,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24207,   1, False) /* Stuck */
-     , (24207,   2, False) /* Open */
      , (24207,  11, True ) /* IgnoreCollisions */
      , (24207,  13, True ) /* Ethereal */
      , (24207,  14, True ) /* GravityStatus */
      , (24207,  19, True ) /* Attackable */
      , (24207,  22, True ) /* Inscribable */
      , (24207,  69, False) /* IsSellable */
-     , (24207,  85, True ) /* AppraisalHasAllowedWielder */
-     , (24207,  91, True ) /* Retained */
      , (24207,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,16 +47,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24207,   1, 'Weeping Wand') /* Name */
      , (24207,   7, 'Exit 57') /* Inscription */
      , (24207,   8, 'J a c k') /* ScribeName */
-     , (24207,  15, 'A wand infused with the Heart of the Innocent.The wand appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
-     , (24207,  16, NULL) /* LongDesc */
-     , (24207,  25, 'Bunny Love Pilot') /* CraftsmanName */;
+     , (24207,  15, 'A wand infused with the Heart of the Innocent.The wand appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24207,   1,   33558300) /* Setup */
      , (24207,   3,  536870932) /* SoundTable */
      , (24207,   8,  100674265) /* Icon */
      , (24207,  22,  872415275) /* PhysicsEffectTable */
-     , (24207,  28,       2970) /* Spell */
+     , (24207,  28,       2970) /* Spell - HuntersLash */
      , (24207, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (24207, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24207, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

@@ -33,7 +33,6 @@ VALUES (21348,   1,        256) /* ItemType - MissileWeapon */
      , (21348, 307,          5) /* DamageRating */
      , (21348, 313,          0) /* CritRating */
      , (21348, 314,          0) /* CritDamageRating */
-     , (21348, 381,          0) /* PKDamageRating */
      , (21348, 386,          0) /* Overpower */
      , (21348, 8030,          0);
 

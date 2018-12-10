@@ -21,12 +21,8 @@ VALUES (49252,   1,        128) /* ItemType - Misc */
      , (49252, 366,         54) /* UseRequiresSkill */
      , (49252, 367,        530) /* UseRequiresSkillLevel */
      , (49252, 369,        170) /* UseRequiresLevel */
-     , (49252, 370,         17) /* GearDamage */
      , (49252, 371,         10) /* GearDamageResist */
-     , (49252, 372,         12) /* GearCrit */
-     , (49252, 373,         16) /* GearCritResist */
-     , (49252, 374,          8) /* GearCritDamage */
-     , (49252, 375,         10) /* GearCritDamageResist */;
+     , (49252, 373,         16) /* GearCritResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49252,   1, False) /* Stuck */
@@ -43,8 +39,6 @@ VALUES (49252,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49252,   1, 'Fire Zombie Essence (180)') /* Name */
-     , (49252,   7, '.') /* Inscription */
-     , (49252,   8, 'Mag-nine') /* ScribeName */
      , (49252,  14, 'Use this essence to summon or dismiss your Fire Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

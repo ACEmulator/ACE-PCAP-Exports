@@ -6,35 +6,16 @@ VALUES (30297, 'knightmageroyalthaumaturge_nofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30297,   1,         16) /* ItemType - Creature */
      , (30297,   2,         83) /* CreatureType - ViamontianKnight */
-     , (30297,   5,         60) /* EncumbranceVal */
      , (30297,   6,        255) /* ItemsCapacity */
      , (30297,   7,        255) /* ContainersCapacity */
      , (30297,  16,          1) /* ItemUseable - No */
-     , (30297,  19,       5314) /* Value */
      , (30297,  25,        135) /* Level */
-     , (30297,  44,         10) /* Damage */
-     , (30297,  45,          4) /* DamageType - Bludgeon */
-     , (30297,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (30297,  49,         10) /* WeaponTime */
      , (30297,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (30297, 105,          7) /* ItemWorkmanship */
-     , (30297, 106,        326) /* ItemSpellcraft */
-     , (30297, 107,        701) /* ItemCurMana */
-     , (30297, 108,        701) /* ItemMaxMana */
-     , (30297, 109,        326) /* ItemDifficulty */
-     , (30297, 110,          0) /* ItemAllegianceRankLimit */
      , (30297, 113,          1) /* Gender - Male */
-     , (30297, 115,          0) /* ItemSkillLevelLimit */
-     , (30297, 131,         69) /* MaterialType - Obsidian */
      , (30297, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (30297, 172,          5) /* AppraisalLongDescDecoration */
-     , (30297, 177,          6) /* GemCount */
-     , (30297, 178,         23) /* GemType */
      , (30297, 188,          4) /* HeritageGroup - Viamontian */
      , (30297, 307,          5) /* DamageRating */
-     , (30297, 353,         10) /* WeaponType - Thrown */
-     , (30297, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (30297, 8030,          0);
+     , (30297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30297,   1, True ) /* Stuck */
@@ -44,21 +25,8 @@ VALUES (30297,   1, True ) /* Stuck */
      , (30297,  19, True ) /* Attackable */
      , (30297,  42, True ) /* AllowEdgeSlide */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30297,   5, -0.0555555555555556) /* ManaRate */
-     , (30297,  21,       0) /* WeaponLength */
-     , (30297,  22,    0.25) /* DamageVariance */
-     , (30297,  26,       0) /* MaximumVelocity */
-     , (30297,  29,       1) /* WeaponDefense */
-     , (30297,  62,       1) /* WeaponOffense */
-     , (30297,  63,       1) /* DamageMod */
-     , (30297,  87,       2) /* ItemEfficiency */
-     , (30297, 137,     0.2) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30297,   1, 'Royal Thaumaturge') /* Name */
-     , (30297,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (30297,  16, 'Ewer of Fletching Mastery') /* LongDesc */
      , (30297, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -96,7 +64,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (30297,   1,   510, 0, 0, 510) /* MaxHealth */
      , (30297,   3,   530, 0, 0, 530) /* MaxStamina */
      , (30297,   5,   790, 0, 0, 362) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30297,  2083,      2) 
-     , (30297,  2237,      2) ;

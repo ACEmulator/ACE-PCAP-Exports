@@ -6,16 +6,12 @@ VALUES (42206, 'ace42206-highwayman', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42206,   1,         16) /* ItemType - Creature */
      , (42206,   2,         31) /* CreatureType - Human */
-     , (42206,   5,         10) /* EncumbranceVal */
      , (42206,   6,        255) /* ItemsCapacity */
      , (42206,   7,        255) /* ContainersCapacity */
      , (42206,  16,          1) /* ItemUseable - No */
-     , (42206,  19,          0) /* Value */
      , (42206,  25,         40) /* Level */
-     , (42206,  33,          1) /* Bonded - Bonded */
      , (42206,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (42206, 113,          1) /* Gender - Male */
-     , (42206, 114,          1) /* Attuned - Attuned */
      , (42206, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (42206, 188,          3) /* HeritageGroup - Sho */
      , (42206, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -29,7 +25,6 @@ VALUES (42206,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42206,   1, 'Highwayman') /* Name */
-     , (42206,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */
      , (42206, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

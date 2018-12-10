@@ -10,7 +10,6 @@ VALUES (11755,   1,          1) /* ItemType - MeleeWeapon */
      , (11755,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (11755,  16,          1) /* ItemUseable - No */
      , (11755,  18,          1) /* UiEffects - Magical */
-     , (11755,  19,          0) /* Value */
      , (11755,  51,          1) /* CombatUse - Melee */
      , (11755,  65,          1) /* Placement - RightHandCombat */
      , (11755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -24,8 +23,7 @@ VALUES (11755,   1, False) /* Stuck */
      , (11755,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11755,   1, 'Hafted Serpent Spear') /* Name */
-     , (11755,  16, 'Killed by Murderous.') /* LongDesc */;
+VALUES (11755,   1, 'Hafted Serpent Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11755,   1,   33557257) /* Setup */

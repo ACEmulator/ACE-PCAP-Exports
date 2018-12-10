@@ -41,9 +41,6 @@ VALUES (12147,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12147,   1, 'Asteliary Orb') /* Name */
-     , (12147,   7, 'Just a silly little house warming gift to my favorite girl.  ;)                                                                                   
-                                     ') /* Inscription */
-     , (12147,   8, 'Lissette') /* ScribeName */
      , (12147,  16, 'An orb enchanted with powerful magic, taken from the Asteliary dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

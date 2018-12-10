@@ -11,19 +11,8 @@ VALUES (48986,   1,          1) /* ItemType - MeleeWeapon */
      , (48986,  16,          1) /* ItemUseable - No */
      , (48986,  18,         32) /* UiEffects - Fire */
      , (48986,  19,        130) /* Value */
-     , (48986,  33,          0) /* Bonded - Normal */
      , (48986,  51,          1) /* CombatUse - Melee */
-     , (48986,  91,         50) /* MaxStructure */
-     , (48986,  92,         50) /* Structure */
-     , (48986,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48986, 105,          7) /* ItemWorkmanship */
-     , (48986, 114,          0) /* Attuned - Normal */
-     , (48986, 280,        213) /* SharedCooldown */
-     , (48986, 366,         54) /* UseRequiresSkill */
-     , (48986, 367,        310) /* UseRequiresSkillLevel */
-     , (48986, 369,         40) /* UseRequiresLevel */
-     , (48986, 370,          8) /* GearDamage */
-     , (48986, 374,          8) /* GearCritDamage */;
+     , (48986,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48986,   1, False) /* Stuck */
@@ -31,15 +20,10 @@ VALUES (48986,   1, False) /* Stuck */
      , (48986,  13, True ) /* Ethereal */
      , (48986,  14, True ) /* GravityStatus */
      , (48986,  19, True ) /* Attackable */
-     , (48986,  22, True ) /* Inscribable */
-     , (48986,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48986, 167,      45) /* CooldownDuration */;
+     , (48986,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48986,   1, 'Flaming Hatchet') /* Name */
-     , (48986,  14, 'Use this essence to summon or dismiss your Lightning Phyntos Wasp.') /* Use */;
+VALUES (48986,   1, 'Flaming Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48986,   1,   33559449) /* Setup */

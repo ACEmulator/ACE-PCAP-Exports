@@ -11,8 +11,6 @@ VALUES (49357,   1,        128) /* ItemType - Misc */
      , (49357,  19,       9000) /* Value */
      , (49357,  33,          0) /* Bonded - Normal */
      , (49357,  65,        101) /* Placement - Resting */
-     , (49357,  89,          6) /* BoosterEnum - Mana */
-     , (49357,  90,        100) /* BoostValue */
      , (49357,  91,         50) /* MaxStructure */
      , (49357,  92,         50) /* Structure */
      , (49357,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -25,10 +23,8 @@ VALUES (49357,   1,        128) /* ItemType - Misc */
      , (49357, 369,        170) /* UseRequiresLevel */
      , (49357, 370,         15) /* GearDamage */
      , (49357, 371,         14) /* GearDamageResist */
-     , (49357, 372,         10) /* GearCrit */
      , (49357, 373,         14) /* GearCritResist */
-     , (49357, 374,         16) /* GearCritDamage */
-     , (49357, 375,         17) /* GearCritDamageResist */;
+     , (49357, 374,         16) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49357,   1, False) /* Stuck */

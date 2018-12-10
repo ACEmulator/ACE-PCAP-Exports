@@ -37,7 +37,6 @@ VALUES (38471,   1, False) /* Stuck */
      , (38471,  14, True ) /* GravityStatus */
      , (38471,  19, True ) /* Attackable */
      , (38471,  22, True ) /* Inscribable */
-     , (38471,  91, True ) /* Retained */
      , (38471, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,8 +53,6 @@ VALUES (38471,   5, -0.0666666701436043) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38471,   1, 'Celestial Hand Sollerets') /* Name */
-     , (38471,   7, 'Epic Pierce Ward,  334 Arcane') /* Inscription */
-     , (38471,   8, 'Eugene Levy') /* ScribeName */
      , (38471,  16, 'Celestial Hand Sollerets of Curing') /* LongDesc */
      , (38471,  39, 'Mana Man II') /* TinkerName */;
 
@@ -73,19 +70,11 @@ VALUES (38471,   2, 2165177830) /* Container */
      , (38471, 8000, 2159969590) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38471,   303,      2) 
-     , (38471,   448,      2) 
-     , (38471,  1486,      2) 
-     , (38471,  1574,      2) 
-     , (38471,  2092,      2) 
-     , (38471,  2098,      2) 
+VALUES (38471,  1574,      2) 
      , (38471,  2108,      2) 
      , (38471,  2241,      2) 
      , (38471,  3963,      2) 
-     , (38471,  4401,      2) 
-     , (38471,  4403,      2) 
-     , (38471,  4677,      2) 
-     , (38471,  4703,      2) ;
+     , (38471,  4401,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38471, 0, 83889344, 83897917)

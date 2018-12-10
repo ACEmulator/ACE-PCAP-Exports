@@ -6,15 +6,12 @@ VALUES (46017, 'ace46017-royalguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46017,   1,         16) /* ItemType - Creature */
      , (46017,   2,         31) /* CreatureType - Human */
-     , (46017,   5,         50) /* EncumbranceVal */
      , (46017,   6,        255) /* ItemsCapacity */
      , (46017,   7,        255) /* ContainersCapacity */
      , (46017,  16,         32) /* ItemUseable - Remote */
-     , (46017,  19,       5000) /* Value */
      , (46017,  25,        275) /* Level */
      , (46017,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (46017,  95,          8) /* RadarBlipColor - Yellow */
-     , (46017, 107,          0) /* ItemCurMana */
      , (46017, 113,          1) /* Gender - Male */
      , (46017, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (46017, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -33,15 +30,11 @@ VALUES (46017,   1, True ) /* Stuck */
      , (46017,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46017,  54,       3) /* UseRadius */
-     , (46017,  87,       2) /* ItemEfficiency */
-     , (46017, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (46017,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46017,   1, 'Royal Guard') /* Name */
      , (46017,   5, 'Tou-Tou Shadow Hunter') /* Template */
-     , (46017,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (46017,  16, 'Killed by Interim Mad Axe.') /* LongDesc */
      , (46017, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

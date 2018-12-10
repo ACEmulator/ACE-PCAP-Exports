@@ -6,20 +6,15 @@ VALUES (44890, 'ace44890-rufina', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44890,   1,         16) /* ItemType - Creature */
      , (44890,   2,         31) /* CreatureType - Human */
-     , (44890,   5,          5) /* EncumbranceVal */
      , (44890,   6,        255) /* ItemsCapacity */
      , (44890,   7,        255) /* ContainersCapacity */
      , (44890,  16,         32) /* ItemUseable - Remote */
-     , (44890,  19,        525) /* Value */
      , (44890,  25,          5) /* Level */
      , (44890,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44890,  95,          8) /* RadarBlipColor - Yellow */
-     , (44890, 105,          8) /* ItemWorkmanship */
      , (44890, 113,          2) /* Gender - Female */
-     , (44890, 131,         23) /* MaterialType - GreenGarnet */
      , (44890, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (44890, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (44890, 172,          1) /* AppraisalLongDescDecoration */
      , (44890, 188,          4) /* HeritageGroup - Viamontian */
      , (44890, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -39,7 +34,6 @@ VALUES (44890,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44890,   1, 'Rufina') /* Name */
      , (44890,   5, 'Lifestone Greeter') /* Template */
-     , (44890,  16, 'Gem') /* LongDesc */
      , (44890, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

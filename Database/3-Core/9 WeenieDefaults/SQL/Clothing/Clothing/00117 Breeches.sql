@@ -11,28 +11,8 @@ VALUES (117,   1,          4) /* ItemType - Clothing */
      , (117,  16,          1) /* ItemUseable - No */
      , (117,  19,         20) /* Value */
      , (117,  28,          0) /* ArmorLevel */
-     , (117,  44,         24) /* Damage */
-     , (117,  45,          8) /* DamageType - Cold */
-     , (117,  47,          1) /* AttackType - Punch */
-     , (117,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (117,  49,         17) /* WeaponTime */
      , (117,  65,        101) /* Placement - Resting */
-     , (117,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (117, 105,          7) /* ItemWorkmanship */
-     , (117, 106,        196) /* ItemSpellcraft */
-     , (117, 107,        667) /* ItemCurMana */
-     , (117, 108,        667) /* ItemMaxMana */
-     , (117, 109,         39) /* ItemDifficulty */
-     , (117, 110,          0) /* ItemAllegianceRankLimit */
-     , (117, 115,        216) /* ItemSkillLevelLimit */
-     , (117, 131,         51) /* MaterialType - Ivory */
-     , (117, 158,          2) /* WieldRequirements - RawSkill */
-     , (117, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (117, 160,        300) /* WieldDifficulty */
-     , (117, 172,          1) /* AppraisalLongDescDecoration */
-     , (117, 176,         46) /* AppraisalItemSkill */
-     , (117, 353,          1) /* WeaponType - Unarmed */
-     , (117, 8030,          0);
+     , (117,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (117,   1, False) /* Stuck */
@@ -44,25 +24,17 @@ VALUES (117,   1, False) /* Stuck */
      , (117, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (117,   5, -0.0416666666666667) /* ManaRate */
-     , (117,  13, 0.800000011920929) /* ArmorModVsSlash */
+VALUES (117,  13, 0.800000011920929) /* ArmorModVsSlash */
      , (117,  14, 0.800000011920929) /* ArmorModVsPierce */
      , (117,  15,       1) /* ArmorModVsBludgeon */
      , (117,  16, 0.200000002980232) /* ArmorModVsCold */
      , (117,  17, 0.200000002980232) /* ArmorModVsFire */
      , (117,  18, 0.100000001490116) /* ArmorModVsAcid */
      , (117,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (117,  21,       0) /* WeaponLength */
-     , (117,  22,    0.48) /* DamageVariance */
-     , (117,  26,       0) /* MaximumVelocity */
-     , (117,  29,    1.06) /* WeaponDefense */
-     , (117,  62,    1.06) /* WeaponOffense */
-     , (117,  63,       1) /* DamageMod */
      , (117, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (117,   1, 'Breeches') /* Name */
-     , (117,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (117,   1, 'Breeches') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (117,   1,   33554960) /* Setup */
@@ -80,14 +52,6 @@ VALUES (117, 8040, 23855555, 55.0998, -40.40979, -0.002499998, -0.4767624, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (117, 8000, 3657044792) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (117,  1484,      2) 
-     , (117,  1561,      2) 
-     , (117,  1573,      2) 
-     , (117,  1603,      2) 
-     , (117,  1615,      2) 
-     , (117,  2540,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (117, 67110026, 72, 8)

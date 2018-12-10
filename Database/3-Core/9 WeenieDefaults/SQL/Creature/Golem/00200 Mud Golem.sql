@@ -6,11 +6,9 @@ VALUES (200, 'golemmud', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (200,   1,         16) /* ItemType - Creature */
      , (200,   2,         13) /* CreatureType - Golem */
-     , (200,   5,         20) /* EncumbranceVal */
      , (200,   6,        255) /* ItemsCapacity */
      , (200,   7,        255) /* ContainersCapacity */
      , (200,  16,          1) /* ItemUseable - No */
-     , (200,  19,          0) /* Value */
      , (200,  25,          8) /* Level */
      , (200,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (200, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -21,16 +19,13 @@ VALUES (200,   1, True ) /* Stuck */
      , (200,  12, True ) /* ReportCollisions */
      , (200,  13, False) /* Ethereal */
      , (200,  14, True ) /* GravityStatus */
-     , (200,  19, True ) /* Attackable */
-     , (200,  69, False) /* IsSellable */;
+     , (200,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (200,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (200,   1, 'Mud Golem') /* Name */
-     , (200,  14, 'Combine with another dark shard to make a shadow fragment, or combine with a small shard to make a glimmering gem.') /* Use */
-     , (200,  16, 'A jet-black shard of something hard and crystalline.') /* LongDesc */
      , (200, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

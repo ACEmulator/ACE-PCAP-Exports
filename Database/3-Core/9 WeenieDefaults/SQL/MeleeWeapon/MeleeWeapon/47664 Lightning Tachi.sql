@@ -11,25 +11,10 @@ VALUES (47664,   1,          1) /* ItemType - MeleeWeapon */
      , (47664,  16,          1) /* ItemUseable - No */
      , (47664,  18,         64) /* UiEffects - Lightning */
      , (47664,  19,        460) /* Value */
-     , (47664,  28,        300) /* ArmorLevel */
      , (47664,  51,          1) /* CombatUse - Melee */
      , (47664,  65,          1) /* Placement - RightHandCombat */
      , (47664,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47664, 105,          7) /* ItemWorkmanship */
-     , (47664, 106,        281) /* ItemSpellcraft */
-     , (47664, 107,       1051) /* ItemCurMana */
-     , (47664, 108,       1051) /* ItemMaxMana */
-     , (47664, 109,        295) /* ItemDifficulty */
-     , (47664, 110,          0) /* ItemAllegianceRankLimit */
-     , (47664, 115,          0) /* ItemSkillLevelLimit */
-     , (47664, 131,         54) /* MaterialType - GromnieHide */
-     , (47664, 151,          2) /* HookType - Wall */
-     , (47664, 158,          7) /* WieldRequirements - Level */
-     , (47664, 159,          1) /* WieldSkilltype - Axe */
-     , (47664, 160,        180) /* WieldDifficulty */
-     , (47664, 172,          5) /* AppraisalLongDescDecoration */
-     , (47664, 177,          2) /* GemCount */
-     , (47664, 178,         39) /* GemType */;
+     , (47664, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47664,   1, False) /* Stuck */
@@ -37,23 +22,10 @@ VALUES (47664,   1, False) /* Stuck */
      , (47664,  13, True ) /* Ethereal */
      , (47664,  14, True ) /* GravityStatus */
      , (47664,  19, True ) /* Attackable */
-     , (47664,  22, True ) /* Inscribable */
-     , (47664, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47664,   5, -0.0555555555555556) /* ManaRate */
-     , (47664,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (47664,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47664,  15,       1) /* ArmorModVsBludgeon */
-     , (47664,  16, 0.857549071311951) /* ArmorModVsCold */
-     , (47664,  17,     0.5) /* ArmorModVsFire */
-     , (47664,  18, 0.633005261421204) /* ArmorModVsAcid */
-     , (47664,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (47664, 165,       1) /* ArmorModVsNether */;
+     , (47664,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47664,   1, 'Lightning Tachi') /* Name */
-     , (47664,  16, 'Loafers of Heavy Weapon Mastery') /* LongDesc */;
+VALUES (47664,   1, 'Lightning Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47664,   1,   33555731) /* Setup */
@@ -74,11 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47664,   3, 3685983894) /* Wielder */
      , (47664, 8000, 3685983904) /* PCAPRecordedObjectIID */
      , (47664, 8008, 3685983894) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47664,  2108,      2) 
-     , (47664,  2309,      2) 
-     , (47664,  2574,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47664, 67111920, 0, 0);

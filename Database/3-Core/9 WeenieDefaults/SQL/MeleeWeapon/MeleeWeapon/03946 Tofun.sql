@@ -40,8 +40,7 @@ VALUES (3946,  21,       0) /* WeaponLength */
      , (3946,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3946,   1, 'Tofun') /* Name */
-     , (3946,  16, 'Killed by High-Voltage X.') /* LongDesc */;
+VALUES (3946,   1, 'Tofun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3946,   1,   33554746) /* Setup */

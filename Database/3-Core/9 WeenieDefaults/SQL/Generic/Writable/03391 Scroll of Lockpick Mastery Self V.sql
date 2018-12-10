@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3391,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3391,   1, 'Scroll of Lockpick Mastery Self V') /* Name */;
+VALUES (3391,   1, 'Scroll of Lockpick Mastery Self V') /* Name */
+     , (3391,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (3391,  16, 'Inscribed spell: Lockpick Mastery Self V
+Increases the caster''s Lockpick skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3391,   1,   33554826) /* Setup */
      , (3391,   8,  100676463) /* Icon */
      , (3391,  22,  872415275) /* PhysicsEffectTable */
-     , (3391,  28,        926) /* Spell */
+     , (3391,  28,        926) /* Spell - LockpickMasterySelf5 */
      , (3391, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3391, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3391, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (3391,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3391,   2, 2880059205) /* Container */
      , (3391, 8000, 2879398597) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3391,   926,      2) ;

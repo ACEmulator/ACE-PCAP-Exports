@@ -5,23 +5,11 @@ VALUES (32478, 'ace32478-wardenofloweringcoordination', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32478,   1,         16) /* ItemType - Creature */
-     , (32478,   5,        350) /* EncumbranceVal */
      , (32478,   6,        255) /* ItemsCapacity */
      , (32478,   7,        255) /* ContainersCapacity */
      , (32478,  16,         32) /* ItemUseable - Remote */
-     , (32478,  19,       4633) /* Value */
-     , (32478,  28,        165) /* ArmorLevel */
      , (32478,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32478,  95,          3) /* RadarBlipColor - White */
-     , (32478, 105,          5) /* ItemWorkmanship */
-     , (32478, 106,         91) /* ItemSpellcraft */
-     , (32478, 107,        261) /* ItemCurMana */
-     , (32478, 108,        261) /* ItemMaxMana */
-     , (32478, 109,         68) /* ItemDifficulty */
-     , (32478, 110,          0) /* ItemAllegianceRankLimit */
-     , (32478, 115,          0) /* ItemSkillLevelLimit */
-     , (32478, 131,         52) /* MaterialType - Leather */
-     , (32478, 172,          1) /* AppraisalLongDescDecoration */
      , (32478, 307,          0) /* DamageRating */
      , (32478, 308,          0) /* DamageResistRating */
      , (32478, 313,          0) /* CritRating */
@@ -56,25 +44,14 @@ VALUES (32478,   1, True ) /* Stuck */
      , (32478,  14, True ) /* GravityStatus */
      , (32478,  19, False) /* Attackable */
      , (32478,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32478,  42, True ) /* AllowEdgeSlide */
-     , (32478, 100, True ) /* Dyable */;
+     , (32478,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32478,   5,  -0.025) /* ManaRate */
-     , (32478,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32478,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (32478,  15,       1) /* ArmorModVsBludgeon */
-     , (32478,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (32478,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (32478,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (32478,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (32478,  39,     0.5) /* DefaultScale */
-     , (32478,  54,       3) /* UseRadius */
-     , (32478, 165,       1) /* ArmorModVsNether */;
+VALUES (32478,  39,     0.5) /* DefaultScale */
+     , (32478,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32478,   1, 'Warden of Lowering Coordination') /* Name */
-     , (32478,  16, 'Studded Leather Girth') /* LongDesc */
      , (32478, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -93,7 +70,3 @@ VALUES (32478, 8040, 1565000053, 53.012, -5.52864, 18, 0, 0, 0, -1) /* PCAPRecor
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32478, 8000, 2929263839) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32478,  1483,      2) 
-     , (32478,  1536,      2) ;

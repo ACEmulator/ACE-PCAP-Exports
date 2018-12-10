@@ -5,29 +5,15 @@ VALUES (43132, 'ace43132-gearcrossbow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43132,   1,        256) /* ItemType - MissileWeapon */
-     , (43132,   2,         16) /* CreatureType - Reedshark */
      , (43132,   5,        950) /* EncumbranceVal */
      , (43132,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (43132,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (43132,  16,          1) /* ItemUseable - No */
      , (43132,  19,       6000) /* Value */
-     , (43132,  25,        240) /* Level */
-     , (43132,  28,        310) /* ArmorLevel */
      , (43132,  50,          2) /* AmmoType - Bolt */
      , (43132,  51,          2) /* CombatUse - Missle */
      , (43132,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43132, 105,          7) /* ItemWorkmanship */
-     , (43132, 106,        265) /* ItemSpellcraft */
-     , (43132, 107,       1284) /* ItemCurMana */
-     , (43132, 108,       1284) /* ItemMaxMana */
-     , (43132, 109,        205) /* ItemDifficulty */
-     , (43132, 110,          0) /* ItemAllegianceRankLimit */
-     , (43132, 115,          0) /* ItemSkillLevelLimit */
-     , (43132, 131,          7) /* MaterialType - Velvet */
-     , (43132, 151,          2) /* HookType - Wall */
-     , (43132, 172,          5) /* AppraisalLongDescDecoration */
-     , (43132, 177,          2) /* GemCount */
-     , (43132, 178,         20) /* GemType */;
+     , (43132, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43132,   1, False) /* Stuck */
@@ -35,25 +21,13 @@ VALUES (43132,   1, False) /* Stuck */
      , (43132,  13, True ) /* Ethereal */
      , (43132,  14, True ) /* GravityStatus */
      , (43132,  19, True ) /* Attackable */
-     , (43132,  22, True ) /* Inscribable */
-     , (43132, 100, True ) /* Dyable */;
+     , (43132,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43132,   5, -0.0555555555555556) /* ManaRate */
-     , (43132,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (43132,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (43132,  15,       1) /* ArmorModVsBludgeon */
-     , (43132,  16, 1.03001224994659) /* ArmorModVsCold */
-     , (43132,  17,     0.5) /* ArmorModVsFire */
-     , (43132,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (43132,  19, 1.56692361831665) /* ArmorModVsElectric */
-     , (43132,  39,     1.5) /* DefaultScale */
-     , (43132, 165,       1) /* ArmorModVsNether */;
+VALUES (43132,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43132,   1, 'Gear Crossbow') /* Name */
-     , (43132,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (43132,  16, 'Killed by Mag-five.') /* LongDesc */;
+VALUES (43132,   1, 'Gear Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43132,   1,   33560921) /* Setup */
@@ -73,16 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43132,   3, 3695642142) /* Wielder */
      , (43132, 8000, 3695657934) /* PCAPRecordedObjectIID */
      , (43132, 8008, 3695642142) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43132,   1,  2650, 0, 0, 2650) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43132,  1402,      2) 
-     , (43132,  1485,      2) 
-     , (43132,  1486,      2) 
-     , (43132,  1527,      2) 
-     , (43132,  1561,      2) 
-     , (43132,  2256,      2) 
-     , (43132,  2544,      2) 
-     , (43132,  2560,      2) ;

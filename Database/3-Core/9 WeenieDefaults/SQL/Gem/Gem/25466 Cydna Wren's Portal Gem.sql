@@ -36,7 +36,7 @@ VALUES (25466,   1,   33556769) /* Setup */
      , (25466,   6,   67111919) /* PaletteBase */
      , (25466,   8,  100672368) /* Icon */
      , (25466,  22,  872415275) /* PhysicsEffectTable */
-     , (25466,  28,       2977) /* Spell */
+     , (25466,  28,       2977) /* Spell - PortalSendHiddenWarehouseROT2 */
      , (25466, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (25466, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25466, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

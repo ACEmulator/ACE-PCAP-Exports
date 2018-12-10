@@ -6,11 +6,9 @@ VALUES (30687, 'tumerokreveredshamanwithered', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30687,   1,         16) /* ItemType - Creature */
      , (30687,   2,          6) /* CreatureType - Tumerok */
-     , (30687,   5,       6319) /* EncumbranceVal */
      , (30687,   6,        255) /* ItemsCapacity */
      , (30687,   7,        255) /* ContainersCapacity */
      , (30687,  16,          1) /* ItemUseable - No */
-     , (30687,  19,          0) /* Value */
      , (30687,  25,        160) /* Level */
      , (30687,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (30687, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -18,7 +16,6 @@ VALUES (30687,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30687,   1, True ) /* Stuck */
-     , (30687,   2, False) /* Open */
      , (30687,  12, True ) /* ReportCollisions */
      , (30687,  13, False) /* Ethereal */
      , (30687,  14, True ) /* GravityStatus */
@@ -29,7 +26,6 @@ VALUES (30687,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30687,   1, 'Withered Revered Tumerok Shaman') /* Name */
-     , (30687,  16, 'Killed by Ferah Palacost.') /* LongDesc */
      , (30687, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

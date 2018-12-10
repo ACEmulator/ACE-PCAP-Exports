@@ -6,11 +6,9 @@ VALUES (12027, 'skeletonlowbossmonster', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12027,   1,         16) /* ItemType - Creature */
      , (12027,   2,         30) /* CreatureType - Skeleton */
-     , (12027,   5,         30) /* EncumbranceVal */
      , (12027,   6,        255) /* ItemsCapacity */
      , (12027,   7,        255) /* ContainersCapacity */
      , (12027,  16,          1) /* ItemUseable - No */
-     , (12027,  19,       2000) /* Value */
      , (12027,  25,         30) /* Level */
      , (12027,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (12027, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -30,9 +28,6 @@ VALUES (12027, 8010,       0) /* PCAPRecordedVelocityX */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12027,   1, 'Lord of Decay') /* Name */
-     , (12027,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (12027,  16, 'Inscribed spell: Fat Fingers
-Decreases the target''s Lockpick skill by 40 points.') /* LongDesc */
      , (12027, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -54,6 +49,3 @@ VALUES (12027, 8000, 3711021820) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (12027,   1,   125, 0, 0, 125) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12027,  2268,      2) ;

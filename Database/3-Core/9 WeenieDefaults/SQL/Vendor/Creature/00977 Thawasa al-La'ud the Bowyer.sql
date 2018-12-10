@@ -10,9 +10,6 @@ VALUES (977,   1,         16) /* ItemType - Creature */
      , (977,   7,        255) /* ContainersCapacity */
      , (977,  16,         32) /* ItemUseable - Remote */
      , (977,  25,          7) /* Level */
-     , (977,  74,  134480129) /* MerchandiseItemTypes - Weapon, PromissoryNote, CraftFletchingIntermediate */
-     , (977,  75,          0) /* MerchandiseMinValue */
-     , (977,  76,      25000) /* MerchandiseMaxValue */
      , (977,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (977, 113,          2) /* Gender - Female */
      , (977, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,13 +25,10 @@ VALUES (977,   1, True ) /* Stuck */
      , (977,  13, False) /* Ethereal */
      , (977,  14, True ) /* GravityStatus */
      , (977,  19, False) /* Attackable */
-     , (977,  39, True ) /* DealMagicalItems */
      , (977,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (977,  37, 0.899999976158142) /* BuyPrice */
-     , (977,  38, 1.35000002384186) /* SellPrice */
-     , (977,  54,       3) /* UseRadius */;
+VALUES (977,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (977,   1, 'Thawasa al-La''ud the Bowyer') /* Name */
@@ -76,46 +70,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (977,   1,    95, 0, 0, 95) /* MaxHealth */
      , (977,   3,   240, 0, 0, 240) /* MaxStamina */
      , (977,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (977, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (977, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
-     , (977, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (977, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
-     , (977, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
-     , (977, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (977, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
-     , (977, 4,   360, -1, 0, 0, False) /* Create Yag (360) for Shop */
-     , (977, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (977, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (977, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (977, 4,  3758, -1, 0, 0, False) /* Create  (3758) for Shop */
-     , (977, 4,  3759, -1, 0, 0, False) /* Create  (3759) for Shop */
-     , (977, 4,  3760, -1, 0, 0, False) /* Create Flaming Throwing Axe (3760) for Shop */
-     , (977, 4,  3761, -1, 0, 0, False) /* Create  (3761) for Shop */
-     , (977, 4,  3786, -1, 0, 0, False) /* Create  (3786) for Shop */
-     , (977, 4,  3787, -1, 0, 0, False) /* Create  (3787) for Shop */
-     , (977, 4,  3788, -1, 0, 0, False) /* Create Throwing Fire Dart (3788) for Shop */
-     , (977, 4,  3789, -1, 0, 0, False) /* Create  (3789) for Shop */
-     , (977, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
-     , (977, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
-     , (977, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
-     , (977, 4,  5344, -1, 0, 0, False) /* Create Bundle of Blunt Arrowheads (5344) for Shop */
-     , (977, 4,  5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads (5345) for Shop */
-     , (977, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
-     , (977, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
-     , (977, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
-     , (977, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
-     , (977, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
-     , (977, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
-     , (977, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
-     , (977, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
-     , (977, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
-     , (977, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
-     , (977, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */
-     , (977, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (977, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (977, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (977, 67109555, 0, 24)

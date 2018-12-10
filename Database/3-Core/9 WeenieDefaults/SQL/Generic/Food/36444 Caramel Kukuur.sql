@@ -43,7 +43,7 @@ VALUES (36444,   1,   33560400) /* Setup */
      , (36444,   6,   67115354) /* PaletteBase */
      , (36444,   8,  100689667) /* Icon */
      , (36444,  22,  872415275) /* PhysicsEffectTable */
-     , (36444,  28,       4212) /* Spell */
+     , (36444,  28,       4212) /* Spell - StickyMelee */
      , (36444, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (36444, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36444, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

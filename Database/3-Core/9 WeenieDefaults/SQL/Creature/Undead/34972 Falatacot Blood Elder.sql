@@ -6,11 +6,9 @@ VALUES (34972, 'ace34972-falatacotbloodelder', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34972,   1,         16) /* ItemType - Creature */
      , (34972,   2,         14) /* CreatureType - Undead */
-     , (34972,   5,       8489) /* EncumbranceVal */
      , (34972,   6,        255) /* ItemsCapacity */
      , (34972,   7,        255) /* ContainersCapacity */
      , (34972,  16,          1) /* ItemUseable - No */
-     , (34972,  19,          0) /* Value */
      , (34972,  25,        185) /* Level */
      , (34972,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34972, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -18,7 +16,6 @@ VALUES (34972,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34972,   1, True ) /* Stuck */
-     , (34972,   2, False) /* Open */
      , (34972,  12, True ) /* ReportCollisions */
      , (34972,  13, False) /* Ethereal */
      , (34972,  14, True ) /* GravityStatus */
@@ -29,7 +26,6 @@ VALUES (34972,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34972,   1, 'Falatacot Blood Elder') /* Name */
-     , (34972,  16, 'Killed by High-Voltage III.') /* LongDesc */
      , (34972, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

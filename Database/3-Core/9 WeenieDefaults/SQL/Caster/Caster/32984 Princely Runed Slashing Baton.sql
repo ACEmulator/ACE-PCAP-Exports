@@ -30,8 +30,7 @@ VALUES (32984,   1, False) /* Stuck */
      , (32984,  14, True ) /* GravityStatus */
      , (32984,  19, True ) /* Attackable */
      , (32984,  22, True ) /* Inscribable */
-     , (32984,  69, True ) /* IsSellable */
-     , (32984,  91, True ) /* Retained */;
+     , (32984,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32984,   5,   -0.05) /* ManaRate */
@@ -44,8 +43,6 @@ VALUES (32984,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32984,   1, 'Princely Runed Slashing Baton') /* Name */
-     , (32984,   7, 'Your base Strength is now 290 and has reached its upper limit!') /* Inscription */
-     , (32984,   8, 'Riotgear') /* ScribeName */
      , (32984,  16, 'A spellcasting baton crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -54,7 +51,7 @@ VALUES (32984,   1,   33559863) /* Setup */
      , (32984,   6,   67116700) /* PaletteBase */
      , (32984,   8,  100688016) /* Icon */
      , (32984,  22,  872415275) /* PhysicsEffectTable */
-     , (32984,  28,       2282) /* Spell */
+     , (32984,  28,       2282) /* Spell - MagicYieldOther7 */
      , (32984,  50,  100688913) /* IconOverlay */
      , (32984, 8001, 1349075096) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType, IconOverlay */
      , (32984, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */

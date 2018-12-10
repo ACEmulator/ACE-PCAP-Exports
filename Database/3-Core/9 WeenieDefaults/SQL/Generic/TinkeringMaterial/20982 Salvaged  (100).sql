@@ -35,8 +35,7 @@ VALUES (20982, 8004, 6.73076915740967) /* PCAPRecordedWorkmanship */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20982,   1, 'Salvaged  (100)') /* Name */
      , (20982,  14, 'Apply this material to treasure-generated armor to increase the armor''s protection against slashing by 0.2.') /* Use */
-     , (20982,  15, 'A bar of bronze material salvaged from old items.') /* ShortDesc */
-     , (20982,  16, 'Killed by Kronos Lord.') /* LongDesc */;
+     , (20982,  15, 'A bar of bronze material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20982,   1,   33554817) /* Setup */

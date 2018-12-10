@@ -6,25 +6,12 @@ VALUES (35989, 'ace35989-shadowknighthand', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35989,   1,         16) /* ItemType - Creature */
      , (35989,   2,         22) /* CreatureType - Shadow */
-     , (35989,   5,         50) /* EncumbranceVal */
      , (35989,   6,        255) /* ItemsCapacity */
      , (35989,   7,        255) /* ContainersCapacity */
      , (35989,  16,          1) /* ItemUseable - No */
-     , (35989,  19,       9771) /* Value */
      , (35989,  25,        185) /* Level */
      , (35989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35989, 105,          7) /* ItemWorkmanship */
-     , (35989, 106,        245) /* ItemSpellcraft */
-     , (35989, 107,       3501) /* ItemCurMana */
-     , (35989, 108,       3501) /* ItemMaxMana */
-     , (35989, 109,        190) /* ItemDifficulty */
-     , (35989, 110,          0) /* ItemAllegianceRankLimit */
-     , (35989, 115,          0) /* ItemSkillLevelLimit */
-     , (35989, 131,         58) /* MaterialType - Bronze */
      , (35989, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35989, 172,          5) /* AppraisalLongDescDecoration */
-     , (35989, 177,          5) /* GemCount */
-     , (35989, 178,         50) /* GemType */
      , (35989, 307,          5) /* DamageRating */
      , (35989, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -36,15 +23,11 @@ VALUES (35989,   1, True ) /* Stuck */
      , (35989,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35989,   5,   -0.05) /* ManaRate */
-     , (35989,  29,    1.07) /* WeaponDefense */
-     , (35989,  39, 1.29999995231628) /* DefaultScale */
-     , (35989,  76,     0.5) /* Translucency */
-     , (35989, 144,    0.06) /* ManaConversionMod */;
+VALUES (35989,  39, 1.29999995231628) /* DefaultScale */
+     , (35989,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35989,   1, 'Shadow Knight Hand') /* Name */
-     , (35989,  16, 'Staff of Shockwave') /* LongDesc */
      , (35989, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -77,12 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (35989,   1,  5000, 0, 0, 5000) /* MaxHealth */
      , (35989,   3,  1420, 0, 0, 1420) /* MaxStamina */
      , (35989,   5,    85, 0, 0, 85) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35989,    69,      2) 
-     , (35989,  1479,      2) 
-     , (35989,  2537,      2) 
-     , (35989,  3258,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35989, 67115540, 0, 0);

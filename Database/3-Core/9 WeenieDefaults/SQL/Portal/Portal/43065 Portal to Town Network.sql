@@ -5,15 +5,10 @@ VALUES (43065, 'ace43065-portaltotownnetwork', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43065,   1,      65536) /* ItemType - Portal */
-     , (43065,   2,         31) /* CreatureType - Human */
      , (43065,  16,         32) /* ItemUseable - Remote */
-     , (43065,  25,          5) /* Level */
      , (43065,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (43065, 111,        129) /* PortalBitmask - Unrestricted, NoOlthoiPCs */
-     , (43065, 113,          1) /* Gender - Male */
      , (43065, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (43065, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43065, 188,          3) /* HeritageGroup - Sho */
      , (43065, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,7 +24,6 @@ VALUES (43065,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43065,   1, 'Portal to Town Network') /* Name */
-     , (43065,   5, 'Society Agent') /* Template */
      , (43065,  16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LongDesc */
      , (43065,  38, 'Portal to Town Network') /* AppraisalPortalDestination */
      , (43065, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
@@ -38,12 +32,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43065,   1,   33554867) /* Setup */
      , (43065,   2,  150994947) /* MotionTable */
      , (43065,   8,  100667499) /* Icon */
-     , (43065,   9,   83890448) /* EyesTexture */
-     , (43065,  10,   83890527) /* NoseTexture */
-     , (43065,  11,   83890614) /* MouthTexture */
-     , (43065,  15,   67117073) /* HairPalette */
-     , (43065,  16,   67109565) /* EyesPalette */
-     , (43065,  17,   67110061) /* SkinPalette */
      , (43065, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (43065, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (43065, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
@@ -54,6 +42,3 @@ VALUES (43065, 8040, 3465871405, 123.797, 114.757, 20.198, 0.9998391, 0, 0, -0.0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43065, 8000, 2095665289) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43065,   1,    35, 0, 0, 35) /* MaxHealth */;

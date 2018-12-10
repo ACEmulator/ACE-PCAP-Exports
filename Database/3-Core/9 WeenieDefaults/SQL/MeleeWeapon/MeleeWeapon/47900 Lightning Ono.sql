@@ -5,14 +5,12 @@ VALUES (47900, 'ace47900-lightningono', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47900,   1,          1) /* ItemType - MeleeWeapon */
-     , (47900,   2,         13) /* CreatureType - Golem */
      , (47900,   5,        800) /* EncumbranceVal */
      , (47900,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47900,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47900,  16,          1) /* ItemUseable - No */
      , (47900,  18,         64) /* UiEffects - Lightning */
      , (47900,  19,        350) /* Value */
-     , (47900,  25,        150) /* Level */
      , (47900,  51,          1) /* CombatUse - Melee */
      , (47900,  65,          1) /* Placement - RightHandCombat */
      , (47900,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -27,8 +25,7 @@ VALUES (47900,   1, False) /* Stuck */
      , (47900,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47900,   1, 'Lightning Ono') /* Name */
-     , (47900,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (47900,   1, 'Lightning Ono') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47900,   1,   33555715) /* Setup */
@@ -48,6 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47900,   3, 3708834593) /* Wielder */
      , (47900, 8000, 3708834602) /* PCAPRecordedObjectIID */
      , (47900, 8008, 3708834593) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47900,   1,   920, 0, 0, 920) /* MaxHealth */;

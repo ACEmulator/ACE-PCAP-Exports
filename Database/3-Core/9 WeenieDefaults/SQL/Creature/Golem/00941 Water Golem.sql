@@ -6,16 +6,12 @@ VALUES (941, 'golemwater', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (941,   1,         16) /* ItemType - Creature */
      , (941,   2,         13) /* CreatureType - Golem */
-     , (941,   5,         25) /* EncumbranceVal */
      , (941,   6,        255) /* ItemsCapacity */
      , (941,   7,        255) /* ContainersCapacity */
      , (941,  16,          1) /* ItemUseable - No */
-     , (941,  19,      30000) /* Value */
      , (941,  25,          8) /* Level */
      , (941,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (941, 113,          2) /* Gender - Female */
      , (941, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (941, 188,          1) /* HeritageGroup - Aluvian */
      , (941, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,12 +33,6 @@ VALUES (941,   1,   33556454) /* Setup */
      , (941,   2,  150995073) /* MotionTable */
      , (941,   3,  536871067) /* SoundTable */
      , (941,   8,  100667940) /* Icon */
-     , (941,   9,   83890255) /* EyesTexture */
-     , (941,  10,   83890309) /* NoseTexture */
-     , (941,  11,   83890330) /* MouthTexture */
-     , (941,  15,   67116982) /* HairPalette */
-     , (941,  16,   67109565) /* EyesPalette */
-     , (941,  17,   67109562) /* SkinPalette */
      , (941,  22,  872415330) /* PhysicsEffectTable */
      , (941, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (941, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

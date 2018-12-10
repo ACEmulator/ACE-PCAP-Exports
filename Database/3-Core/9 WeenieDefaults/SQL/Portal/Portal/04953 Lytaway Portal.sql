@@ -6,10 +6,7 @@ VALUES (4953, 'portallytaway', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4953,   1,      65536) /* ItemType - Portal */
      , (4953,  16,         32) /* ItemUseable - Remote */
-     , (4953,  86,          1) /* MinLevel */
-     , (4953,  87,         20) /* MaxLevel */
      , (4953,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (4953, 111,          1) /* PortalBitmask - Unrestricted */
      , (4953, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4953, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -26,7 +23,6 @@ VALUES (4953,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4953,   1, 'Lytaway Portal') /* Name */
-     , (4953,  38, 'Lytaway Portal') /* AppraisalPortalDestination */
      , (4953, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

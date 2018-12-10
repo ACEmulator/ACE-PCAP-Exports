@@ -6,11 +6,9 @@ VALUES (46353, 'ace46353-armoredafessasclavusveteran', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46353,   1,         16) /* ItemType - Creature */
      , (46353,   2,         26) /* CreatureType - Sclavus */
-     , (46353,   5,       6332) /* EncumbranceVal */
      , (46353,   6,        255) /* ItemsCapacity */
      , (46353,   7,        255) /* ContainersCapacity */
      , (46353,  16,          1) /* ItemUseable - No */
-     , (46353,  19,          0) /* Value */
      , (46353,  25,        240) /* Level */
      , (46353,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46353, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (46353,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46353,   1, 'Armored Afessa Sclavus Veteran') /* Name */
-     , (46353,  16, 'Killed by Chatlin.') /* LongDesc */
      , (46353, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

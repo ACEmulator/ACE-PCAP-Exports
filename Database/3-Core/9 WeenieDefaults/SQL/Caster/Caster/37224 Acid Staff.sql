@@ -21,29 +21,17 @@ VALUES (37224,   1,      32768) /* ItemType - Caster */
      , (37224, 108,       3201) /* ItemMaxMana */
      , (37224, 109,        307) /* ItemDifficulty */
      , (37224, 110,          0) /* ItemAllegianceRankLimit */
-     , (37224, 114,          0) /* Attuned - Normal */
      , (37224, 115,          0) /* ItemSkillLevelLimit */
      , (37224, 131,         51) /* MaterialType - Ivory */
      , (37224, 151,          2) /* HookType - Wall */
      , (37224, 158,          2) /* WieldRequirements - RawSkill */
      , (37224, 159,         34) /* WieldSkilltype - WarMagic */
      , (37224, 160,        355) /* WieldDifficulty */
-     , (37224, 166,        101) /* SlayerCreatureType - Anekshay */
      , (37224, 171,          2) /* NumTimesTinkered */
      , (37224, 172,          5) /* AppraisalLongDescDecoration */
      , (37224, 177,          4) /* GemCount */
      , (37224, 178,         20) /* GemType */
-     , (37224, 179,         64) /* ImbuedEffect - AcidRending */
-     , (37224, 188,          3) /* HeritageGroup - Sho */
-     , (37224, 265,        139) /* EquipmentSetId - UNKNOWN_139 */
-     , (37224, 319,         50) /* ItemMaxLevel */
-     , (37224, 320,          1) /* ItemXpStyle - Fixed */
-     , (37224, 383,          1) /* GearPKDamageRating */
-     , (37224, 384,          1) /* GearPKDamageResistRating */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (37224,   4, 100000000000) /* ItemTotalXp */
-     , (37224,   5, 2000000000) /* ItemBaseXp */;
+     , (37224, 179,         64) /* ImbuedEffect - AcidRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37224,   1, False) /* Stuck */
@@ -51,26 +39,18 @@ VALUES (37224,   1, False) /* Stuck */
      , (37224,  13, True ) /* Ethereal */
      , (37224,  14, True ) /* GravityStatus */
      , (37224,  19, True ) /* Attackable */
-     , (37224,  22, True ) /* Inscribable */
-     , (37224,  85, True ) /* AppraisalHasAllowedWielder */
-     , (37224,  91, True ) /* Retained */
-     , (37224,  99, False) /* Ivoryable */;
+     , (37224,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37224,   5, -0.0555555555555556) /* ManaRate */
      , (37224,  29, 1.37000000178814) /* WeaponDefense */
      , (37224,  39, 0.600000023841858) /* DefaultScale */
      , (37224, 144, 0.102000002861023) /* ManaConversionMod */
-     , (37224, 149,    1.01) /* WeaponMissileDefense */
-     , (37224, 150,   1.005) /* WeaponMagicDefense */
      , (37224, 152, 1.20000000029802) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37224,   1, 'Acid Staff') /* Name */
-     , (37224,   7, 'Fire') /* Inscription */
-     , (37224,   8, 'Vindico of Borg') /* ScribeName */
      , (37224,  16, 'Acid Staff of Lightning') /* LongDesc */
-     , (37224,  25, 'Kloud Nine') /* CraftsmanName */
      , (37224,  39, 'Jons cargohold') /* TinkerName */
      , (37224,  40, 'Jons cargohold') /* ImbuerName */;
 
@@ -95,96 +75,10 @@ VALUES (37224,   3, 3692312623) /* Wielder */
      , (37224, 8008, 3692312623) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37224,    74,      2) 
-     , (37224,    80,      2) 
-     , (37224,    91,      2) 
-     , (37224,    97,      2) 
-     , (37224,   586,      2) 
-     , (37224,   634,      2) 
-     , (37224,   658,      2) 
-     , (37224,  1450,      2) 
-     , (37224,  1480,      2) 
-     , (37224,  1605,      2) 
-     , (37224,  2067,      2) 
-     , (37224,  2091,      2) 
-     , (37224,  2101,      2) 
+VALUES (37224,   634,      2) 
      , (37224,  2117,      2) 
-     , (37224,  2122,      2) 
-     , (37224,  2128,      2) 
-     , (37224,  2132,      2) 
-     , (37224,  2136,      2) 
-     , (37224,  2140,      2) 
-     , (37224,  2144,      2) 
-     , (37224,  2146,      2) 
-     , (37224,  2195,      2) 
-     , (37224,  2215,      2) 
-     , (37224,  2249,      2) 
-     , (37224,  2267,      2) 
-     , (37224,  2323,      2) 
-     , (37224,  2502,      2) 
-     , (37224,  2514,      2) 
-     , (37224,  2515,      2) 
-     , (37224,  2517,      2) 
-     , (37224,  2521,      2) 
-     , (37224,  2524,      2) 
-     , (37224,  2525,      2) 
-     , (37224,  2526,      2) 
-     , (37224,  2535,      2) 
-     , (37224,  2545,      2) 
-     , (37224,  2550,      2) 
-     , (37224,  2551,      2) 
-     , (37224,  2554,      2) 
-     , (37224,  2571,      2) 
-     , (37224,  2573,      2) 
-     , (37224,  2575,      2) 
-     , (37224,  2576,      2) 
-     , (37224,  2588,      2) 
-     , (37224,  2600,      2) 
-     , (37224,  2613,      2) 
-     , (37224,  2622,      2) 
-     , (37224,  3250,      2) 
-     , (37224,  3251,      2) 
-     , (37224,  3258,      2) 
-     , (37224,  3259,      2) 
-     , (37224,  3834,      2) 
-     , (37224,  3964,      2) 
-     , (37224,  4227,      2) 
-     , (37224,  4305,      2) 
-     , (37224,  4329,      2) 
-     , (37224,  4400,      2) 
-     , (37224,  4414,      2) 
-     , (37224,  4418,      2) 
-     , (37224,  4433,      2) 
-     , (37224,  4439,      2) 
-     , (37224,  4443,      2) 
-     , (37224,  4447,      2) 
      , (37224,  4451,      2) 
-     , (37224,  4455,      2) 
-     , (37224,  4457,      2) 
-     , (37224,  4510,      2) 
-     , (37224,  4530,      2) 
-     , (37224,  4564,      2) 
-     , (37224,  4582,      2) 
-     , (37224,  4602,      2) 
-     , (37224,  4638,      2) 
-     , (37224,  4663,      2) 
-     , (37224,  4670,      2) 
-     , (37224,  4689,      2) 
-     , (37224,  4696,      2) 
-     , (37224,  4697,      2) 
-     , (37224,  4700,      2) 
-     , (37224,  4704,      2) 
-     , (37224,  4705,      2) 
-     , (37224,  4708,      2) 
-     , (37224,  4710,      2) 
-     , (37224,  5892,      2) 
-     , (37224,  5897,      2) 
-     , (37224,  6055,      2) 
-     , (37224,  6091,      2) 
-     , (37224,  6098,      2) 
-     , (37224,  6102,      2) 
-     , (37224,  6124,      2) 
-     , (37224,  6125,      2) ;
+     , (37224,  6124,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37224, 67111922, 0, 0);

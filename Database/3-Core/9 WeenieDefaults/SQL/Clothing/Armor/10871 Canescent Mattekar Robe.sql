@@ -38,8 +38,6 @@ VALUES (10871,  13, 0.300000011920929) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10871,   1, 'Canescent Mattekar Robe') /* Name */
-     , (10871,   7, 'http://appzngamez.warez.com/FBI.jpg') /* Inscription */
-     , (10871,   8, 'Killerwolf') /* ScribeName */
      , (10871,  15, 'The Canescent Mattekar Robe, brought to you with the finest care by Britana.') /* ShortDesc */
      , (10871,  25, 'Dark''Magic') /* CraftsmanName */;
 

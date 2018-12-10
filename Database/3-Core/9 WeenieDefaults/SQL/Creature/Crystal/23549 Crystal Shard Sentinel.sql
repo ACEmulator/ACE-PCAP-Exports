@@ -6,11 +6,9 @@ VALUES (23549, 'crystalshardsentinel', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23549,   1,         16) /* ItemType - Creature */
      , (23549,   2,         47) /* CreatureType - Crystal */
-     , (23549,   5,         30) /* EncumbranceVal */
      , (23549,   6,        255) /* ItemsCapacity */
      , (23549,   7,        255) /* ContainersCapacity */
      , (23549,  16,          1) /* ItemUseable - No */
-     , (23549,  19,         20) /* Value */
      , (23549,  25,        160) /* Level */
      , (23549,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
      , (23549, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -29,9 +27,6 @@ VALUES (23549,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23549,   1, 'Crystal Shard Sentinel') /* Name */
-     , (23549,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (23549,  16, 'Inscribed spell: Cooking Mastery Other III
-Increases the target''s Cooking skill by 20 points.') /* LongDesc */
      , (23549, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -54,9 +49,6 @@ VALUES (23549, 8000, 3680507056) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (23549,   1,   200, 0, 0, 200) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23549,  1711,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23549, 67111919, 0, 0);

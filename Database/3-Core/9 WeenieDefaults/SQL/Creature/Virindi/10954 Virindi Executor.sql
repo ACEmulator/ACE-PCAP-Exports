@@ -6,37 +6,13 @@ VALUES (10954, 'virindiexecutormarae_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10954,   1,         16) /* ItemType - Creature */
      , (10954,   2,         19) /* CreatureType - Virindi */
-     , (10954,   5,         80) /* EncumbranceVal */
      , (10954,   6,        255) /* ItemsCapacity */
      , (10954,   7,        255) /* ContainersCapacity */
      , (10954,  16,          1) /* ItemUseable - No */
-     , (10954,  19,      13613) /* Value */
      , (10954,  25,        100) /* Level */
-     , (10954,  44,         48) /* Damage */
-     , (10954,  45,         64) /* DamageType - Electric */
-     , (10954,  47,          1) /* AttackType - Punch */
-     , (10954,  48,         45) /* WeaponSkill - LightWeapons */
-     , (10954,  49,         17) /* WeaponTime */
      , (10954,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (10954, 105,          8) /* ItemWorkmanship */
-     , (10954, 106,        370) /* ItemSpellcraft */
-     , (10954, 107,       1565) /* ItemCurMana */
-     , (10954, 108,       1565) /* ItemMaxMana */
-     , (10954, 109,        146) /* ItemDifficulty */
-     , (10954, 110,          0) /* ItemAllegianceRankLimit */
-     , (10954, 115,        390) /* ItemSkillLevelLimit */
-     , (10954, 131,         63) /* MaterialType - Silver */
      , (10954, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10954, 158,          2) /* WieldRequirements - RawSkill */
-     , (10954, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (10954, 160,        430) /* WieldDifficulty */
-     , (10954, 172,          5) /* AppraisalLongDescDecoration */
-     , (10954, 176,         45) /* AppraisalItemSkill */
-     , (10954, 177,          2) /* GemCount */
-     , (10954, 178,         38) /* GemType */
-     , (10954, 353,          1) /* WeaponType - Unarmed */
-     , (10954, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (10954, 8030,          0);
+     , (10954, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10954,   1, True ) /* Stuck */
@@ -45,18 +21,8 @@ VALUES (10954,   1, True ) /* Stuck */
      , (10954,  14, True ) /* GravityStatus */
      , (10954,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10954,   5, -0.0666666666666667) /* ManaRate */
-     , (10954,  21,       0) /* WeaponLength */
-     , (10954,  22,    0.48) /* DamageVariance */
-     , (10954,  26,       0) /* MaximumVelocity */
-     , (10954,  29,    1.13) /* WeaponDefense */
-     , (10954,  62,     1.2) /* WeaponOffense */
-     , (10954,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10954,   1, 'Virindi Executor') /* Name */
-     , (10954,  16, 'Lightning Katar of Swiftkiller') /* LongDesc */
      , (10954, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -79,13 +45,6 @@ VALUES (10954, 8000, 2930021885) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (10954,   1,   275, 0, 0, 275) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10954,  2096,      2) 
-     , (10954,  4405,      2) 
-     , (10954,  4417,      2) 
-     , (10954,  4663,      2) 
-     , (10954,  4672,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10954, 67113145, 0, 0);

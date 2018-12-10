@@ -50,7 +50,7 @@ VALUES (33463,   1,   33554669) /* Setup */
      , (33463,   6,   67111928) /* PaletteBase */
      , (33463,   8,  100668722) /* Icon */
      , (33463,  22,  872415275) /* PhysicsEffectTable */
-     , (33463,  28,       3929) /* Spell */
+     , (33463,  28,       3929) /* Spell - RecallRossuMorta */
      , (33463, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (33463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33463, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

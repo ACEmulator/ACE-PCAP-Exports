@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4395,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4395,   1, 'Scroll of Force Bolt II') /* Name */;
+VALUES (4395,   1, 'Scroll of Force Bolt II') /* Name */
+     , (4395,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (4395,  16, 'Inscribed spell: Force Bolt II
+Shoots a bolt of force at the target. The bolt does 26-52 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4395,   1,   33554826) /* Setup */
      , (4395,   8,  100677019) /* Icon */
      , (4395,  22,  872415275) /* PhysicsEffectTable */
-     , (4395,  28,         87) /* Spell */
+     , (4395,  28,         87) /* Spell - ForceBolt2 */
      , (4395, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (4395, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4395, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (4395,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4395,   2, 3627658106) /* Container */
      , (4395, 8000, 3628530527) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (4395,    87,      2) ;

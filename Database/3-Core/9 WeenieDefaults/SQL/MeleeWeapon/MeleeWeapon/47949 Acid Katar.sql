@@ -22,12 +22,10 @@ VALUES (47949,   1, False) /* Stuck */
      , (47949,  13, True ) /* Ethereal */
      , (47949,  14, True ) /* GravityStatus */
      , (47949,  19, True ) /* Attackable */
-     , (47949,  22, True ) /* Inscribable */
-     , (47949,  69, False) /* IsSellable */;
+     , (47949,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47949,   1, 'Acid Katar') /* Name */
-     , (47949,  16, 'A crystalline shard condensed from the remains of a crystalline wisp.') /* LongDesc */;
+VALUES (47949,   1, 'Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47949,   1,   33555739) /* Setup */

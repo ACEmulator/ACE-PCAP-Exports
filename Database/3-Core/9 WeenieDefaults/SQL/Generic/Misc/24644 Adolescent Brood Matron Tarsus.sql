@@ -7,8 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24644,   1,        128) /* ItemType - Misc */
      , (24644,   5,         50) /* EncumbranceVal */
      , (24644,  16,          1) /* ItemUseable - No */
+     , (24644,  19,          0) /* Value */
+     , (24644,  33,          1) /* Bonded - Bonded */
      , (24644,  65,        101) /* Placement - Resting */
-     , (24644,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (24644,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (24644, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24644,   1, False) /* Stuck */
@@ -19,7 +22,8 @@ VALUES (24644,   1, False) /* Stuck */
      , (24644,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24644,   1, 'Adolescent Brood Matron Tarsus') /* Name */;
+VALUES (24644,   1, 'Adolescent Brood Matron Tarsus') /* Name */
+     , (24644,  15, 'The tarsus of a departed Adolescent Olthoi Brood Matron.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24644,   1,   33556593) /* Setup */

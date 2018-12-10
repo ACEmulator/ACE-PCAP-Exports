@@ -25,8 +25,6 @@ VALUES (49302,   1,        128) /* ItemType - Misc */
      , (49302, 370,         16) /* GearDamage */
      , (49302, 371,         17) /* GearDamageResist */
      , (49302, 372,          2) /* GearCrit */
-     , (49302, 373,         16) /* GearCritResist */
-     , (49302, 374,         10) /* GearCritDamage */
      , (49302, 375,         16) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,8 +42,6 @@ VALUES (49302,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49302,   1, 'K''nath B''orret Essence') /* Name */
-     , (49302,   7, '34 (18/13/13)') /* Inscription */
-     , (49302,   8, 'Jesse the Destroyer') /* ScribeName */
      , (49302,  14, 'Use this essence to summon or dismiss your K''nath B''orret.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

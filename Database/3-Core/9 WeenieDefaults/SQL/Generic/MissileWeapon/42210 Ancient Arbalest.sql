@@ -45,10 +45,7 @@ VALUES (42210,   5, -0.025000000372529) /* ManaRate */
      , (42210, 136,       1) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42210,   1, 'Ancient Arbalest') /* Name */
-     , (42210,   7, '30
-') /* Inscription */
-     , (42210,   8, 'Darkk') /* ScribeName */;
+VALUES (42210,   1, 'Ancient Arbalest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42210,   1,   33559303) /* Setup */

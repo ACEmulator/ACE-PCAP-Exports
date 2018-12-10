@@ -5,7 +5,6 @@ VALUES (22754, 'guardiantempleforgetfulness', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22754,   1,         16) /* ItemType - Creature */
-     , (22754,   5,          0) /* EncumbranceVal */
      , (22754,   6,        255) /* ItemsCapacity */
      , (22754,   7,        255) /* ContainersCapacity */
      , (22754,  16,         32) /* ItemUseable - Remote */

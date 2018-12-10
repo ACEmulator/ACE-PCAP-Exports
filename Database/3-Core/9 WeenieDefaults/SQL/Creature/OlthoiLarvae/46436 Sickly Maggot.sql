@@ -6,25 +6,13 @@ VALUES (46436, 'ace46436-sicklymaggot', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46436,   1,         16) /* ItemType - Creature */
      , (46436,   2,         35) /* CreatureType - OlthoiLarvae */
-     , (46436,   5,        135) /* EncumbranceVal */
      , (46436,   6,        255) /* ItemsCapacity */
      , (46436,   7,        255) /* ContainersCapacity */
      , (46436,  16,          1) /* ItemUseable - No */
-     , (46436,  19,         78) /* Value */
      , (46436,  25,        205) /* Level */
-     , (46436,  44,         18) /* Damage */
-     , (46436,  45,          3) /* DamageType - Slash, Pierce */
-     , (46436,  47,          1) /* AttackType - Punch */
-     , (46436,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (46436,  49,         18) /* WeaponTime */
      , (46436,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46436, 105,          2) /* ItemWorkmanship */
-     , (46436, 131,         58) /* MaterialType - Bronze */
      , (46436, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46436, 172,          1) /* AppraisalLongDescDecoration */
-     , (46436, 353,          1) /* WeaponType - Unarmed */
-     , (46436, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (46436, 8030,          0);
+     , (46436, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46436,   1, True ) /* Stuck */
@@ -34,18 +22,11 @@ VALUES (46436,   1, True ) /* Stuck */
      , (46436,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46436,  21,       0) /* WeaponLength */
-     , (46436,  22,     0.6) /* DamageVariance */
-     , (46436,  26,       0) /* MaximumVelocity */
-     , (46436,  29,    1.03) /* WeaponDefense */
-     , (46436,  39, 0.800000011920929) /* DefaultScale */
-     , (46436,  62,    1.04) /* WeaponOffense */
-     , (46436,  63,       1) /* DamageMod */
+VALUES (46436,  39, 0.800000011920929) /* DefaultScale */
      , (46436,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46436,   1, 'Sickly Maggot') /* Name */
-     , (46436,  16, 'Nekode') /* LongDesc */
      , (46436, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

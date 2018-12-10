@@ -41,7 +41,7 @@ VALUES (30231,   1,   33554809) /* Setup */
      , (30231,   3,  536870932) /* SoundTable */
      , (30231,   8,  100686696) /* Icon */
      , (30231,  22,  872415275) /* PhysicsEffectTable */
-     , (30231,  28,       3729) /* Spell */
+     , (30231,  28,       3729) /* Spell - PiercingProtectionRare */
      , (30231,  50,  100686678) /* IconOverlay */
      , (30231,  52,  100686604) /* IconUnderlay */
      , (30231, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

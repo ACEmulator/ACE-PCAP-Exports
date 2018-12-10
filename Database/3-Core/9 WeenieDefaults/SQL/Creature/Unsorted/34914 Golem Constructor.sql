@@ -5,11 +5,9 @@ VALUES (34914, 'ace34914-golemconstructor', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34914,   1,         16) /* ItemType - Creature */
-     , (34914,   5,       6494) /* EncumbranceVal */
      , (34914,   6,        255) /* ItemsCapacity */
      , (34914,   7,        255) /* ContainersCapacity */
      , (34914,  16,         32) /* ItemUseable - Remote */
-     , (34914,  19,          0) /* Value */
      , (34914,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34914,  95,          8) /* RadarBlipColor - Yellow */
      , (34914, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -54,7 +52,6 @@ VALUES (34914,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34914,   1, 'Golem Constructor') /* Name */
-     , (34914,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (34914, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

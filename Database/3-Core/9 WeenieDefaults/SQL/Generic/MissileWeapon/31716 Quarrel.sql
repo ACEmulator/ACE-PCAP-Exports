@@ -21,21 +21,10 @@ VALUES (31716,   1,        256) /* ItemType - MissileWeapon */
      , (31716,  65,          1) /* Placement - RightHandCombat */
      , (31716,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (31716, 151,          2) /* HookType - Wall */
-     , (31716, 179,          0) /* ImbuedEffect - Undef */
-     , (31716, 303,          0) /* ImbuedEffect2 - Undef */
-     , (31716, 304,          0) /* ImbuedEffect3 - Undef */
-     , (31716, 305,          0) /* ImbuedEffect4 - Undef */
-     , (31716, 306,          0) /* ImbuedEffect5 - Undef */
-     , (31716, 307,          5) /* DamageRating */
-     , (31716, 313,          0) /* CritRating */
-     , (31716, 314,          0) /* CritDamageRating */
-     , (31716, 381,          0) /* PKDamageRating */
-     , (31716, 386,          0) /* Overpower */
      , (31716, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31716,   1, False) /* Stuck */
-     , (31716,   2, True ) /* Open */
      , (31716,  11, True ) /* IgnoreCollisions */
      , (31716,  13, True ) /* Ethereal */
      , (31716,  14, True ) /* GravityStatus */
@@ -51,14 +40,10 @@ VALUES (31716,  21,       0) /* WeaponLength */
      , (31716,  62,       1) /* WeaponOffense */
      , (31716,  63,       1) /* DamageMod */
      , (31716,  78,       1) /* Friction */
-     , (31716,  79,       0) /* Elasticity */
-     , (31716, 149,       0) /* WeaponMissileDefense */
-     , (31716, 150,       0) /* WeaponMagicDefense */;
+     , (31716,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31716,   1, 'Quarrel') /* Name */
-     , (31716,  14, 'Use this item to close it.') /* Use */
-     , (31716,  16, 'Killed by Grindr.') /* LongDesc */;
+VALUES (31716,   1, 'Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31716,   1,   33554730) /* Setup */

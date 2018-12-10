@@ -6,26 +6,12 @@ VALUES (19315, 'statuereplicamidzharalimsmall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19315,   1,         16) /* ItemType - Creature */
      , (19315,   2,         63) /* CreatureType - Statue */
-     , (19315,   5,       1777) /* EncumbranceVal */
      , (19315,   6,        255) /* ItemsCapacity */
      , (19315,   7,        255) /* ContainersCapacity */
      , (19315,  16,          1) /* ItemUseable - No */
-     , (19315,  19,      28209) /* Value */
      , (19315,  25,         50) /* Level */
-     , (19315,  28,        245) /* ArmorLevel */
      , (19315,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19315, 105,          6) /* ItemWorkmanship */
-     , (19315, 106,        271) /* ItemSpellcraft */
-     , (19315, 107,       1198) /* ItemCurMana */
-     , (19315, 108,       1198) /* ItemMaxMana */
-     , (19315, 109,        286) /* ItemDifficulty */
-     , (19315, 110,          0) /* ItemAllegianceRankLimit */
-     , (19315, 115,          0) /* ItemSkillLevelLimit */
-     , (19315, 131,         60) /* MaterialType - Gold */
      , (19315, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19315, 172,          5) /* AppraisalLongDescDecoration */
-     , (19315, 177,          4) /* GemCount */
-     , (19315, 178,         39) /* GemType */
      , (19315, 307,          5) /* DamageRating */
      , (19315, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -34,24 +20,13 @@ VALUES (19315,   1, True ) /* Stuck */
      , (19315,  12, True ) /* ReportCollisions */
      , (19315,  13, False) /* Ethereal */
      , (19315,  14, True ) /* GravityStatus */
-     , (19315,  19, True ) /* Attackable */
-     , (19315, 100, True ) /* Dyable */;
+     , (19315,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19315,   5, -0.0555555555555556) /* ManaRate */
-     , (19315,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (19315,  14,       1) /* ArmorModVsPierce */
-     , (19315,  15,       1) /* ArmorModVsBludgeon */
-     , (19315,  16, 1.00029301643372) /* ArmorModVsCold */
-     , (19315,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (19315,  18, 1.30989634990692) /* ArmorModVsAcid */
-     , (19315,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (19315,  39, 2.29999995231628) /* DefaultScale */
-     , (19315, 165,       1) /* ArmorModVsNether */;
+VALUES (19315,  39, 2.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19315,   1, 'Bronze Statue of a Zharalim') /* Name */
-     , (19315,  16, 'Haebrean Breastplate') /* LongDesc */
      , (19315, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -84,15 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (19315,   1,   255, 0, 0, 255) /* MaxHealth */
      , (19315,   3,   330, 0, 0, 330) /* MaxStamina */
      , (19315,   5,   250, 0, 0, 250) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19315,  1486,      2) 
-     , (19315,  1574,      2) 
-     , (19315,  2098,      2) 
-     , (19315,  2281,      2) 
-     , (19315,  2520,      2) 
-     , (19315,  2606,      2) 
-     , (19315,  2619,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19315, 67113806, 0, 0);

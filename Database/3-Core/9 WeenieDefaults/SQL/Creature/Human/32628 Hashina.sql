@@ -6,23 +6,15 @@ VALUES (32628, 'ace32628-hashina', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32628,   1,         16) /* ItemType - Creature */
      , (32628,   2,         31) /* CreatureType - Human */
-     , (32628,   5,         25) /* EncumbranceVal */
      , (32628,   6,        255) /* ItemsCapacity */
      , (32628,   7,        255) /* ContainersCapacity */
      , (32628,  16,         32) /* ItemUseable - Remote */
-     , (32628,  19,       7923) /* Value */
      , (32628,  25,        100) /* Level */
-     , (32628,  28,        272) /* ArmorLevel */
      , (32628,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32628,  95,          8) /* RadarBlipColor - Yellow */
-     , (32628, 105,          7) /* ItemWorkmanship */
      , (32628, 113,          2) /* Gender - Female */
-     , (32628, 131,          4) /* MaterialType - Linen */
      , (32628, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32628, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32628, 172,          5) /* AppraisalLongDescDecoration */
-     , (32628, 177,          2) /* GemCount */
-     , (32628, 178,         19) /* GemType */
      , (32628, 188,          2) /* HeritageGroup - Gharundim */
      , (32628, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -34,24 +26,14 @@ VALUES (32628,   1, True ) /* Stuck */
      , (32628,  14, True ) /* GravityStatus */
      , (32628,  19, False) /* Attackable */
      , (32628,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32628,  42, True ) /* AllowEdgeSlide */
-     , (32628, 100, True ) /* Dyable */;
+     , (32628,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32628,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32628,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (32628,  15,       1) /* ArmorModVsBludgeon */
-     , (32628,  16,     0.5) /* ArmorModVsCold */
-     , (32628,  17,     0.5) /* ArmorModVsFire */
-     , (32628,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (32628,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (32628,  54,       3) /* UseRadius */
-     , (32628, 165,       1) /* ArmorModVsNether */;
+VALUES (32628,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32628,   1, 'Hashina') /* Name */
      , (32628,   5, 'Ambassador') /* Template */
-     , (32628,  16, 'Cloth Gloves') /* LongDesc */
      , (32628, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,19 +6,12 @@ VALUES (16916, 'tuskerrampager_nofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (16916,   1,         16) /* ItemType - Creature */
      , (16916,   2,          8) /* CreatureType - Tusker */
-     , (16916,   5,         30) /* EncumbranceVal */
      , (16916,   6,        255) /* ItemsCapacity */
      , (16916,   7,        255) /* ContainersCapacity */
      , (16916,  16,          1) /* ItemUseable - No */
-     , (16916,  19,        623) /* Value */
      , (16916,  25,        100) /* Level */
      , (16916,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (16916, 105,          6) /* ItemWorkmanship */
-     , (16916, 131,         61) /* MaterialType - Iron */
      , (16916, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (16916, 172,          5) /* AppraisalLongDescDecoration */
-     , (16916, 177,          1) /* GemCount */
-     , (16916, 178,         29) /* GemType */
      , (16916, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,7 +27,6 @@ VALUES (16916,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16916,   1, 'Rampager') /* Name */
-     , (16916,  16, 'Ring') /* LongDesc */
      , (16916, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

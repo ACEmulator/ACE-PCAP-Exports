@@ -6,11 +6,9 @@ VALUES (22905, 'zombielichoppressor', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22905,   1,         16) /* ItemType - Creature */
      , (22905,   2,         14) /* CreatureType - Undead */
-     , (22905,   5,         30) /* EncumbranceVal */
      , (22905,   6,        255) /* ItemsCapacity */
      , (22905,   7,        255) /* ContainersCapacity */
      , (22905,  16,          1) /* ItemUseable - No */
-     , (22905,  19,       2000) /* Value */
      , (22905,  25,        160) /* Level */
      , (22905,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22905, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -27,9 +25,6 @@ VALUES (22905,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22905,   1, 'Lich Oppressor') /* Name */
-     , (22905,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (22905,  16, 'Inscribed spell: Ketnan''s Boon
-Increases the target''s Deception skill by 40 points.') /* LongDesc */
      , (22905, 8006, 'AABBAEEAAABBAAAAgL8AAA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -62,9 +57,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22905,   1,  2840, 0, 0, 2741) /* MaxHealth */
      , (22905,   3,  3000, 0, 0, 3000) /* MaxStamina */
      , (22905,   5,  2450, 0, 0, 2450) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22905,  2226,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22905, 67114309, 0, 0);

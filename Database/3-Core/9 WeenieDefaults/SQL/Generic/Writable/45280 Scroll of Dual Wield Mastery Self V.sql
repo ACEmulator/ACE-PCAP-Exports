@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45280,   1,   33554826) /* Setup */
      , (45280,   8,  100692251) /* Icon */
      , (45280,  22,  872415275) /* PhysicsEffectTable */
-     , (45280,  28,       5807) /* Spell */
+     , (45280,  28,       5807) /* Spell - DualWieldMasterySelf5 */
      , (45280, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45280, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45280, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,5 +42,4 @@ VALUES (45280,   2, 2874457976) /* Container */
      , (45280, 8000, 2874380057) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45280,  1532,      2) 
-     , (45280,  5807,      2) ;
+VALUES (45280,  5807,      2) ;

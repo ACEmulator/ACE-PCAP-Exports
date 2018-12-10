@@ -26,8 +26,6 @@ VALUES (24142,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24142,   1, 'Half Empty Cider') /* Name */
-     , (24142,   7, 'ljlkjl') /* Inscription */
-     , (24142,   8, 'The Unknown''') /* ScribeName */
      , (24142,  15, 'A mug of cove apple cider that has only been half finished. Made from the very special apples in Cove Orchards.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

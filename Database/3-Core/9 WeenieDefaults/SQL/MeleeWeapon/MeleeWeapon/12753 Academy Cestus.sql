@@ -43,8 +43,6 @@ VALUES (12753,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12753,   1, 'Academy Cestus') /* Name */
-     , (12753,   7, '39N, 81.2W, Shoushi to Nanto (33.3S,72.8E)') /* Inscription */
-     , (12753,   8, 'Qarkai') /* ScribeName */
      , (12753,  15, 'An enhanced cestus crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

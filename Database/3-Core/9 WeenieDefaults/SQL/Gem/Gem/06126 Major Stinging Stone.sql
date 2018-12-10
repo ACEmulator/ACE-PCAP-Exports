@@ -26,8 +26,6 @@ VALUES (6126,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6126,   1, 'Major Stinging Stone') /* Name */
-     , (6126,   7, 'Lo Pan says to your fellowship, "Diamond Golem crushes your foot for 206 points of bludgeoning damage!"39.7N, 56.9E') /* Inscription */
-     , (6126,   8, 'Killerwolf') /* ScribeName */
      , (6126,  14, 'Use this stone on an Empyrean or Isparian weapon or on a piece of Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,33 +6,13 @@ VALUES (1764, 'mumiyahgreater', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1764,   1,         16) /* ItemType - Creature */
      , (1764,   2,         14) /* CreatureType - Undead */
-     , (1764,   5,       6325) /* EncumbranceVal */
      , (1764,   6,        255) /* ItemsCapacity */
      , (1764,   7,        255) /* ContainersCapacity */
      , (1764,  16,          1) /* ItemUseable - No */
-     , (1764,  19,          0) /* Value */
      , (1764,  25,         20) /* Level */
-     , (1764,  44,         20) /* Damage */
-     , (1764,  45,          4) /* DamageType - Bludgeon */
-     , (1764,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (1764,  49,         10) /* WeaponTime */
      , (1764,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1764, 105,          6) /* ItemWorkmanship */
-     , (1764, 106,        283) /* ItemSpellcraft */
-     , (1764, 107,        654) /* ItemCurMana */
-     , (1764, 108,        654) /* ItemMaxMana */
-     , (1764, 109,        283) /* ItemDifficulty */
-     , (1764, 110,          0) /* ItemAllegianceRankLimit */
-     , (1764, 115,          0) /* ItemSkillLevelLimit */
-     , (1764, 131,         51) /* MaterialType - Ivory */
      , (1764, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1764, 172,          5) /* AppraisalLongDescDecoration */
-     , (1764, 177,          5) /* GemCount */
-     , (1764, 178,         35) /* GemType */
-     , (1764, 307,          5) /* DamageRating */
-     , (1764, 353,         10) /* WeaponType - Thrown */
-     , (1764, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (1764, 8030,          0);
+     , (1764, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1764,   1, True ) /* Stuck */
@@ -42,19 +22,10 @@ VALUES (1764,   1, True ) /* Stuck */
      , (1764,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1764,   5, -0.0555555555555556) /* ManaRate */
-     , (1764,  21,       0) /* WeaponLength */
-     , (1764,  22,    0.25) /* DamageVariance */
-     , (1764,  26,       0) /* MaximumVelocity */
-     , (1764,  29,       1) /* WeaponDefense */
-     , (1764,  39, 1.20000004768372) /* DefaultScale */
-     , (1764,  62,       1) /* WeaponOffense */
-     , (1764,  63,       1) /* DamageMod */;
+VALUES (1764,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1764,   1, 'Greater Mu-miyah') /* Name */
-     , (1764,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (1764,  16, 'Killed by Owain.') /* LongDesc */
      , (1764, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,11 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1764,   1,    75, 0, 0, 75) /* MaxHealth */
      , (1764,   3,   150, 0, 0, 150) /* MaxStamina */
      , (1764,   5,   210, 0, 0, 202) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1764,  2325,      2) 
-     , (1764,  2751,      2) 
-     , (1764,  4512,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1764, 67111814, 0, 0);

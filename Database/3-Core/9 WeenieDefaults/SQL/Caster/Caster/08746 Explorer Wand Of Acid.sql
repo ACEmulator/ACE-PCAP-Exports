@@ -40,7 +40,7 @@ VALUES (8746,   1,   33558231) /* Setup */
      , (8746,   6,   67111919) /* PaletteBase */
      , (8746,   8,  100668799) /* Icon */
      , (8746,  22,  872415275) /* PhysicsEffectTable */
-     , (8746,  28,         60) /* Spell */
+     , (8746,  28,         60) /* Spell - AcidStream3 */
      , (8746, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (8746, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8746, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

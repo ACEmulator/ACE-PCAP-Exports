@@ -16,26 +16,13 @@ VALUES (49299,   1,        128) /* ItemType - Misc */
      , (49299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49299,  94,         16) /* TargetType - Creature */
      , (49299, 105,          7) /* ItemWorkmanship */
-     , (49299, 106,        262) /* ItemSpellcraft */
-     , (49299, 107,       1922) /* ItemCurMana */
-     , (49299, 108,       1922) /* ItemMaxMana */
-     , (49299, 109,        287) /* ItemDifficulty */
-     , (49299, 110,          0) /* ItemAllegianceRankLimit */
      , (49299, 114,          0) /* Attuned - Normal */
-     , (49299, 115,          0) /* ItemSkillLevelLimit */
-     , (49299, 131,         63) /* MaterialType - Silver */
-     , (49299, 172,          5) /* AppraisalLongDescDecoration */
-     , (49299, 177,          1) /* GemCount */
-     , (49299, 178,         26) /* GemType */
      , (49299, 280,        213) /* SharedCooldown */
      , (49299, 366,         54) /* UseRequiresSkill */
      , (49299, 367,        430) /* UseRequiresSkillLevel */
      , (49299, 369,        115) /* UseRequiresLevel */
      , (49299, 370,         12) /* GearDamage */
-     , (49299, 371,         13) /* GearDamageResist */
-     , (49299, 372,         11) /* GearCrit */
      , (49299, 373,         14) /* GearCritResist */
-     , (49299, 374,         11) /* GearCritDamage */
      , (49299, 375,          9) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,14 +35,12 @@ VALUES (49299,   1, False) /* Stuck */
      , (49299,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49299,   5, -0.0555555555555556) /* ManaRate */
-     , (49299,  39, 0.400000005960464) /* DefaultScale */
+VALUES (49299,  39, 0.400000005960464) /* DefaultScale */
      , (49299, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49299,   1, 'Fire K''nath Essence (125)') /* Name */
-     , (49299,  14, 'Use this essence to summon or dismiss your Fire K''nath.') /* Use */
-     , (49299,  16, 'Ring of Focus') /* LongDesc */;
+     , (49299,  14, 'Use this essence to summon or dismiss your Fire K''nath.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49299,   1,   33554817) /* Setup */
@@ -73,10 +58,6 @@ VALUES (49299,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49299,   2, 3681260275) /* Container */
      , (49299, 8000, 3681260274) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49299,  1425,      2) 
-     , (49299,  3504,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49299, 67111923, 0, 0);

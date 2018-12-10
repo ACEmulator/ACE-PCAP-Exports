@@ -12,16 +12,7 @@ VALUES (32648,   1,          1) /* ItemType - MeleeWeapon */
      , (32648,  19,        500) /* Value */
      , (32648,  51,          1) /* CombatUse - Melee */
      , (32648,  65,          1) /* Placement - RightHandCombat */
-     , (32648,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32648, 105,          4) /* ItemWorkmanship */
-     , (32648, 106,        150) /* ItemSpellcraft */
-     , (32648, 107,       1134) /* ItemCurMana */
-     , (32648, 108,       1134) /* ItemMaxMana */
-     , (32648, 109,        150) /* ItemDifficulty */
-     , (32648, 110,          0) /* ItemAllegianceRankLimit */
-     , (32648, 115,          0) /* ItemSkillLevelLimit */
-     , (32648, 131,         58) /* MaterialType - Bronze */
-     , (32648, 172,          1) /* AppraisalLongDescDecoration */;
+     , (32648,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32648,   1, False) /* Stuck */
@@ -31,12 +22,8 @@ VALUES (32648,   1, False) /* Stuck */
      , (32648,  19, True ) /* Attackable */
      , (32648,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32648,   5, -0.0416666666666667) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32648,   1, 'Sickle') /* Name */
-     , (32648,  16, 'Mechanical Scarab of Coordination') /* LongDesc */;
+VALUES (32648,   1, 'Sickle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32648,   1,   33557067) /* Setup */
@@ -57,9 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32648,   3, 3690763203) /* Wielder */
      , (32648, 8000, 3691093105) /* PCAPRecordedObjectIID */
      , (32648, 8008, 3690763203) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32648,  1376,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32648, 67111920, 0, 0);

@@ -35,7 +35,7 @@ VALUES (27773,   1,   33555639) /* Setup */
      , (27773,   3,  536870932) /* SoundTable */
      , (27773,   8,  100676624) /* Icon */
      , (27773,  22,  872415275) /* PhysicsEffectTable */
-     , (27773,  28,       3249) /* Spell */
+     , (27773,  28,       3249) /* Spell - ManaRenewalAdja */
      , (27773, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (27773, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (27773, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

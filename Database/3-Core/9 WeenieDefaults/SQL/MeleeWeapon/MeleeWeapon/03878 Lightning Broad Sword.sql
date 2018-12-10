@@ -11,7 +11,6 @@ VALUES (3878,   1,          1) /* ItemType - MeleeWeapon */
      , (3878,  16,          1) /* ItemUseable - No */
      , (3878,  18,         65) /* UiEffects - Magical, Lightning */
      , (3878,  19,       3917) /* Value */
-     , (3878,  33,          1) /* Bonded - Bonded */
      , (3878,  44,         63) /* Damage */
      , (3878,  45,         64) /* DamageType - Electric */
      , (3878,  47,          6) /* AttackType - Thrust, Slash */
@@ -38,7 +37,6 @@ VALUES (3878,   1,          1) /* ItemType - MeleeWeapon */
      , (3878, 177,          3) /* GemCount */
      , (3878, 178,         38) /* GemType */
      , (3878, 179,        256) /* ImbuedEffect - ElectricRending */
-     , (3878, 188,          1) /* HeritageGroup - Aluvian */
      , (3878, 353,          2) /* WeaponType - Sword */
      , (3878, 8030,          0);
 
@@ -48,8 +46,7 @@ VALUES (3878,   1, False) /* Stuck */
      , (3878,  13, True ) /* Ethereal */
      , (3878,  14, True ) /* GravityStatus */
      , (3878,  19, True ) /* Attackable */
-     , (3878,  22, True ) /* Inscribable */
-     , (3878,  91, True ) /* Retained */;
+     , (3878,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3878,   5, -0.0555555559694767) /* ManaRate */
@@ -60,14 +57,11 @@ VALUES (3878,   5, -0.0555555559694767) /* ManaRate */
      , (3878,  39, 1.10000002384186) /* DefaultScale */
      , (3878,  62, 1.13999998569489) /* WeaponOffense */
      , (3878,  63,       1) /* DamageMod */
-     , (3878, 149,    1.02) /* WeaponMissileDefense */
      , (3878, 150,   1.025) /* WeaponMagicDefense */
      , (3878, 8004,       4) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3878,   1, 'Lightning Broad Sword') /* Name */
-     , (3878,   7, '  ') /* Inscription */
-     , (3878,   8, 'Njorgard') /* ScribeName */
      , (3878,  16, 'Lightning Broad Sword') /* LongDesc */
      , (3878,  39, 'Tiesto') /* TinkerName */
      , (3878,  40, 'Tiesto') /* ImbuerName */;
@@ -94,41 +88,5 @@ VALUES (3878,   3, 1343485268) /* Wielder */
      , (3878, 8008, 1343485268) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3878,  1351,      2) 
-     , (3878,  1354,      2) 
-     , (3878,  1376,      2) 
-     , (3878,  1377,      2) 
-     , (3878,  1592,      2) 
-     , (3878,  1604,      2) 
-     , (3878,  1613,      2) 
-     , (3878,  1614,      2) 
-     , (3878,  1615,      2) 
-     , (3878,  1616,      2) 
-     , (3878,  1624,      2) 
-     , (3878,  1626,      2) 
-     , (3878,  1627,      2) 
-     , (3878,  2059,      2) 
-     , (3878,  2061,      2) 
-     , (3878,  2081,      2) 
-     , (3878,  2096,      2) 
-     , (3878,  2101,      2) 
-     , (3878,  2106,      2) 
-     , (3878,  2116,      2) 
-     , (3878,  2518,      2) 
-     , (3878,  2531,      2) 
-     , (3878,  2536,      2) 
-     , (3878,  2539,      2) 
-     , (3878,  2558,      2) 
-     , (3878,  2559,      2) 
-     , (3878,  2573,      2) 
-     , (3878,  2579,      2) 
-     , (3878,  2582,      2) 
-     , (3878,  2586,      2) 
-     , (3878,  2591,      2) 
-     , (3878,  4019,      2) 
-     , (3878,  4299,      2) 
-     , (3878,  4319,      2) 
-     , (3878,  4395,      2) 
-     , (3878,  4417,      2) 
-     , (3878,  5887,      2) 
-     , (3878,  6103,      2) ;
+VALUES (3878,  2096,      2) 
+     , (3878,  2531,      2) ;

@@ -27,8 +27,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1217,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1217,   1, 'Corpse') /* Name */
-     , (1217,  14, 'Use this item to close it.') /* Use */;
+VALUES (1217,   1, 'Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1217,   1,   33555322) /* Setup */

@@ -5,27 +5,11 @@ VALUES (36073, 'ace36073-reflectionofsangnenkai', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36073,   1,        128) /* ItemType - Misc */
-     , (36073,   2,         14) /* CreatureType - Undead */
      , (36073,   5,          1) /* EncumbranceVal */
      , (36073,  16,          1) /* ItemUseable - No */
      , (36073,  18,         64) /* UiEffects - Lightning */
-     , (36073,  19,          0) /* Value */
-     , (36073,  25,        200) /* Level */
-     , (36073,  33,          1) /* Bonded - Bonded */
      , (36073,  65,        101) /* Placement - Resting */
-     , (36073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36073, 105,          7) /* ItemWorkmanship */
-     , (36073, 106,        288) /* ItemSpellcraft */
-     , (36073, 107,       1751) /* ItemCurMana */
-     , (36073, 108,       1751) /* ItemMaxMana */
-     , (36073, 109,        216) /* ItemDifficulty */
-     , (36073, 110,          0) /* ItemAllegianceRankLimit */
-     , (36073, 114,          1) /* Attuned - Attuned */
-     , (36073, 115,          0) /* ItemSkillLevelLimit */
-     , (36073, 131,         21) /* MaterialType - Emerald */
-     , (36073, 172,          5) /* AppraisalLongDescDecoration */
-     , (36073, 177,          2) /* GemCount */
-     , (36073, 178,         21) /* GemType */;
+     , (36073,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36073,   1, False) /* Stuck */
@@ -35,12 +19,8 @@ VALUES (36073,   1, False) /* Stuck */
      , (36073,  19, True ) /* Attackable */
      , (36073,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36073,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36073,   1, 'Reflection of Sang Nen-Kai') /* Name */
-     , (36073,  16, 'Give this to the Master Arbitor for a new Title.') /* LongDesc */;
+VALUES (36073,   1, 'Reflection of Sang Nen-Kai') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36073,   1,   33556769) /* Setup */
@@ -57,9 +37,3 @@ VALUES (36073, 8040, 10682822, 223.1042, -139.0684, -12.001, 0.9502546, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36073, 8000, 3706684032) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36073,   1,  1370, 0, 0, 1370) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36073,  2289,      2) ;

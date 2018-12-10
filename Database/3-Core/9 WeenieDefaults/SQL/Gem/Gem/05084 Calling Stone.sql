@@ -28,8 +28,6 @@ VALUES (5084,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5084,   1, 'Calling Stone') /* Name */
-     , (5084,   7, 'Mortis Silentblade') /* Inscription */
-     , (5084,   8, 'Yakana Cheusha') /* ScribeName */
      , (5084,  16, 'This is a Calling Stone that all newcomers arrive with. It is a plain, lightweight gem. Give this item to the Society Greeter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

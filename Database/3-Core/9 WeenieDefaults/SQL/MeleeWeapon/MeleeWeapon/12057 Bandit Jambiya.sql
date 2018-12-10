@@ -5,29 +5,14 @@ VALUES (12057, 'jambiyabandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12057,   1,          1) /* ItemType - MeleeWeapon */
-     , (12057,   2,         61) /* CreatureType - FrostElemental */
      , (12057,   5,         30) /* EncumbranceVal */
      , (12057,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12057,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12057,  16,          1) /* ItemUseable - No */
      , (12057,  19,         30) /* Value */
-     , (12057,  25,         80) /* Level */
-     , (12057,  33,          0) /* Bonded - Normal */
      , (12057,  51,          1) /* CombatUse - Melee */
      , (12057,  65,          1) /* Placement - RightHandCombat */
-     , (12057,  91,         50) /* MaxStructure */
-     , (12057,  92,         50) /* Structure */
-     , (12057,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12057, 105,          6) /* ItemWorkmanship */
-     , (12057, 114,          0) /* Attuned - Normal */
-     , (12057, 280,        213) /* SharedCooldown */
-     , (12057, 366,         54) /* UseRequiresSkill */
-     , (12057, 367,        310) /* UseRequiresSkillLevel */
-     , (12057, 369,         40) /* UseRequiresLevel */
-     , (12057, 370,          6) /* GearDamage */
-     , (12057, 372,         17) /* GearCrit */
-     , (12057, 374,         15) /* GearCritDamage */
-     , (12057, 375,         19) /* GearCritDamageResist */;
+     , (12057,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12057,   1, False) /* Stuck */
@@ -35,15 +20,10 @@ VALUES (12057,   1, False) /* Stuck */
      , (12057,  13, True ) /* Ethereal */
      , (12057,  14, True ) /* GravityStatus */
      , (12057,  19, True ) /* Attackable */
-     , (12057,  22, True ) /* Inscribable */
-     , (12057,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12057, 167,      45) /* CooldownDuration */;
+     , (12057,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12057,   1, 'Bandit Jambiya') /* Name */
-     , (12057,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */;
+VALUES (12057,   1, 'Bandit Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12057,   1,   33554887) /* Setup */
@@ -64,9 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12057,   3, 3691108101) /* Wielder */
      , (12057, 8000, 3691244969) /* PCAPRecordedObjectIID */
      , (12057, 8008, 3691108101) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12057,   1,   220, 0, 0, 220) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12057, 67111920, 0, 0);

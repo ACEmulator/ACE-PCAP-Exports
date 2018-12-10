@@ -6,41 +6,17 @@ VALUES (8404, 'maskcollectoraluvian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8404,   1,         16) /* ItemType - Creature */
      , (8404,   2,         31) /* CreatureType - Human */
-     , (8404,   5,         89) /* EncumbranceVal */
      , (8404,   6,        255) /* ItemsCapacity */
      , (8404,   7,        255) /* ContainersCapacity */
      , (8404,  16,         32) /* ItemUseable - Remote */
-     , (8404,  19,       8691) /* Value */
      , (8404,  25,         28) /* Level */
-     , (8404,  44,         56) /* Damage */
-     , (8404,  45,          8) /* DamageType - Cold */
-     , (8404,  47,          1) /* AttackType - Punch */
-     , (8404,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (8404,  49,         14) /* WeaponTime */
      , (8404,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8404,  95,          8) /* RadarBlipColor - Yellow */
-     , (8404, 105,          5) /* ItemWorkmanship */
-     , (8404, 106,        370) /* ItemSpellcraft */
-     , (8404, 107,        694) /* ItemCurMana */
-     , (8404, 108,        694) /* ItemMaxMana */
-     , (8404, 109,        115) /* ItemDifficulty */
-     , (8404, 110,          0) /* ItemAllegianceRankLimit */
      , (8404, 113,          1) /* Gender - Male */
-     , (8404, 115,        390) /* ItemSkillLevelLimit */
-     , (8404, 131,         51) /* MaterialType - Ivory */
      , (8404, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8404, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8404, 158,          2) /* WieldRequirements - RawSkill */
-     , (8404, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (8404, 160,        420) /* WieldDifficulty */
-     , (8404, 172,          5) /* AppraisalLongDescDecoration */
-     , (8404, 176,         44) /* AppraisalItemSkill */
-     , (8404, 177,          2) /* GemCount */
-     , (8404, 178,         47) /* GemType */
      , (8404, 188,          1) /* HeritageGroup - Aluvian */
-     , (8404, 353,          1) /* WeaponType - Unarmed */
-     , (8404, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (8404, 8030,          0);
+     , (8404, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8404,   1, True ) /* Stuck */
@@ -53,19 +29,11 @@ VALUES (8404,   1, True ) /* Stuck */
      , (8404,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8404,   5, -0.0666666666666667) /* ManaRate */
-     , (8404,  21,       0) /* WeaponLength */
-     , (8404,  22,    0.53) /* DamageVariance */
-     , (8404,  26,       0) /* MaximumVelocity */
-     , (8404,  29,     1.2) /* WeaponDefense */
-     , (8404,  54,       3) /* UseRadius */
-     , (8404,  62,     1.2) /* WeaponOffense */
-     , (8404,  63,       1) /* DamageMod */;
+VALUES (8404,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8404,   1, 'Alexander the Deft') /* Name */
      , (8404,   5, 'Mask Maker') /* Template */
-     , (8404,  16, 'Frost Nekode of Quickness') /* LongDesc */
      , (8404, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -103,13 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (8404,   1,   125, 0, 0, 125) /* MaxHealth */
      , (8404,   3,   210, 0, 0, 210) /* MaxStamina */
      , (8404,   5,   175, 0, 0, 175) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8404,  2096,      2) 
-     , (8404,  2101,      2) 
-     , (8404,  3963,      2) 
-     , (8404,  4319,      2) 
-     , (8404,  4405,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8404, 67109561, 0, 24)

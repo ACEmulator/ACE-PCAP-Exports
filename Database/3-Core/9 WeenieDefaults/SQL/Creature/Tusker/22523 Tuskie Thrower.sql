@@ -6,11 +6,9 @@ VALUES (22523, 'tuskiethrower', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22523,   1,         16) /* ItemType - Creature */
      , (22523,   2,          8) /* CreatureType - Tusker */
-     , (22523,   5,          0) /* EncumbranceVal */
      , (22523,   6,        255) /* ItemsCapacity */
      , (22523,   7,        255) /* ContainersCapacity */
      , (22523,  16,          1) /* ItemUseable - No */
-     , (22523,  19,        100) /* Value */
      , (22523,  25,         40) /* Level */
      , (22523,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22523, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -22,15 +20,13 @@ VALUES (22523,   1, True ) /* Stuck */
      , (22523,  12, True ) /* ReportCollisions */
      , (22523,  13, False) /* Ethereal */
      , (22523,  14, True ) /* GravityStatus */
-     , (22523,  19, True ) /* Attackable */
-     , (22523,  69, False) /* IsSellable */;
+     , (22523,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22523,  39, 0.400000005960464) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22523,   1, 'Tuskie Thrower') /* Name */
-     , (22523,  14, 'This item is used in fletching.') /* Use */
      , (22523, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

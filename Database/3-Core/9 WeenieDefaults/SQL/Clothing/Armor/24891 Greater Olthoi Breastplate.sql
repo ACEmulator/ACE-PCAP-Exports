@@ -38,8 +38,7 @@ VALUES (24891,  13, 1.70000004768372) /* ArmorModVsSlash */
      , (24891, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24891,   1, 'Greater Olthoi Breastplate') /* Name */
-     , (24891,  16, NULL) /* LongDesc */;
+VALUES (24891,   1, 'Greater Olthoi Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24891,   1,   33554642) /* Setup */

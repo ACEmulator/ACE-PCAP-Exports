@@ -40,8 +40,6 @@ VALUES (27116,  29, 1.17000000178814) /* WeaponDefense */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27116,   1, 'Elysa''s Wondrous Orb') /* Name */
-     , (27116,   7, 'lvl 45') /* Inscription */
-     , (27116,   8, 'Callaway') /* ScribeName */
      , (27116,  16, 'A magical orb infused with strange power of a most wondrous nature. This was a gift from the High Queen for furnishing information on the new creatures that have come to Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -49,7 +47,7 @@ VALUES (27116,   1,   33558643) /* Setup */
      , (27116,   3,  536870932) /* SoundTable */
      , (27116,   8,  100675935) /* Icon */
      , (27116,  22,  872415275) /* PhysicsEffectTable */
-     , (27116,  28,       1702) /* Spell */
+     , (27116,  28,       1702) /* Spell - HealthToManaSelf4 */
      , (27116, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (27116, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27116, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

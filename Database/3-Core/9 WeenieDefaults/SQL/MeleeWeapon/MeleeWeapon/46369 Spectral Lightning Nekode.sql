@@ -10,7 +10,6 @@ VALUES (46369,   1,          1) /* ItemType - MeleeWeapon */
      , (46369,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46369,  16,          1) /* ItemUseable - No */
      , (46369,  19,        125) /* Value */
-     , (46369,  33,          1) /* Bonded - Bonded */
      , (46369,  51,          1) /* CombatUse - Melee */
      , (46369,  65,          1) /* Placement - RightHandCombat */
      , (46369,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -27,8 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46369,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46369,   1, 'Spectral Lightning Nekode') /* Name */
-     , (46369,  16, 'A concentrated copper pea.') /* LongDesc */;
+VALUES (46369,   1, 'Spectral Lightning Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46369,   1,   33555991) /* Setup */

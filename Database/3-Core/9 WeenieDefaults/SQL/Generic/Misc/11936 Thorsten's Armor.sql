@@ -22,8 +22,6 @@ VALUES (11936,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11936,   1, 'Thorsten''s Armor') /* Name */
-     , (11936,   7, '   ') /* Inscription */
-     , (11936,   8, 'Ikon Blade') /* ScribeName */
      , (11936,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

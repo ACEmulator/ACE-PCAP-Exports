@@ -35,9 +35,7 @@ VALUES (4981,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (4981, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4981,   1, 'Ice Heaume of Frore') /* Name */
-     , (4981,   7, 'al 160, unparralled fire and cold protection.') /* Inscription */
-     , (4981,   8, 'Cassidy') /* ScribeName */;
+VALUES (4981,   1, 'Ice Heaume of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4981,   1,   33555248) /* Setup */

@@ -5,19 +5,11 @@ VALUES (36070, 'ace36070-essenceoforder', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36070,   1,        128) /* ItemType - Misc */
-     , (36070,   2,         23) /* CreatureType - Mattekar */
      , (36070,   5,          1) /* EncumbranceVal */
      , (36070,  16,          1) /* ItemUseable - No */
      , (36070,  18,         64) /* UiEffects - Lightning */
-     , (36070,  19,        245) /* Value */
-     , (36070,  25,        115) /* Level */
      , (36070,  65,        101) /* Placement - Resting */
-     , (36070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36070, 105,          3) /* ItemWorkmanship */
-     , (36070, 131,         58) /* MaterialType - Bronze */
-     , (36070, 172,          5) /* AppraisalLongDescDecoration */
-     , (36070, 177,          1) /* GemCount */
-     , (36070, 178,         49) /* GemType */;
+     , (36070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36070,   1, False) /* Stuck */
@@ -28,10 +20,7 @@ VALUES (36070,   1, False) /* Stuck */
      , (36070,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36070,   1, 'Essence of Order') /* Name */
-     , (36070,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (36070,  16, 'Inscribed spell: Frost Lure VI
-Decreases a shield or piece of armor''s resistance to cold damage by 150%.') /* LongDesc */;
+VALUES (36070,   1, 'Essence of Order') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36070,   1,   33556769) /* Setup */
@@ -48,9 +37,3 @@ VALUES (36070, 8040, 10682751, 63.0453, -162.8949, -18.001, 0.8439364, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36070, 8000, 3704779130) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36070,   1,   700, 0, 0, 700) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36070,  1522,      2) ;

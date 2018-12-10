@@ -6,17 +6,13 @@ VALUES (24224, 'arcanumalchemistapprentice', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24224,   1,         16) /* ItemType - Creature */
      , (24224,   2,         31) /* CreatureType - Human */
-     , (24224,   5,         10) /* EncumbranceVal */
      , (24224,   6,        255) /* ItemsCapacity */
      , (24224,   7,        255) /* ContainersCapacity */
      , (24224,  16,         32) /* ItemUseable - Remote */
-     , (24224,  19,          0) /* Value */
      , (24224,  25,         40) /* Level */
-     , (24224,  33,          1) /* Bonded - Bonded */
      , (24224,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24224,  95,          8) /* RadarBlipColor - Yellow */
      , (24224, 113,          2) /* Gender - Female */
-     , (24224, 114,          1) /* Attuned - Attuned */
      , (24224, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24224, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (24224, 188,          2) /* HeritageGroup - Gharundim */
@@ -38,7 +34,6 @@ VALUES (24224,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24224,   1, 'Alaine the Apprentice') /* Name */
      , (24224,   5, 'Apprentice Alchemist') /* Template */
-     , (24224,  16, 'Turn this token into one of the Pathwarden Greeters at Holtburg, Yaraq, Shoushi, or Sanamar to receive a key to the Pathwarden Supply Chest.') /* LongDesc */
      , (24224, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

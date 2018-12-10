@@ -55,7 +55,7 @@ VALUES (46943,   1,   33557963) /* Setup */
      , (46943,   6,   67111919) /* PaletteBase */
      , (46943,   8,  100673490) /* Icon */
      , (46943,  22,  872415275) /* PhysicsEffectTable */
-     , (46943,  28,       2783) /* Spell */
+     , (46943,  28,       2783) /* Spell - LesserElementalFuryFrost */
      , (46943, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (46943, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46943, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

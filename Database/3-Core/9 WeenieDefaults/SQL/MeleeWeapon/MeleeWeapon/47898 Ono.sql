@@ -12,28 +12,14 @@ VALUES (47898,   1,          1) /* ItemType - MeleeWeapon */
      , (47898,  19,        350) /* Value */
      , (47898,  33,         -2) /* Bonded - Destroy */
      , (47898,  44,         26) /* Damage */
-     , (47898,  45,       1024) /* DamageType - Nether */
+     , (47898,  45,          1) /* DamageType - Slash */
      , (47898,  47,          4) /* AttackType - Slash */
      , (47898,  48,         45) /* WeaponSkill - LightWeapons */
      , (47898,  49,         45) /* WeaponTime */
      , (47898,  51,          1) /* CombatUse - Melee */
      , (47898,  65,          1) /* Placement - RightHandCombat */
      , (47898,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47898, 105,          4) /* ItemWorkmanship */
-     , (47898, 106,        309) /* ItemSpellcraft */
-     , (47898, 107,       3001) /* ItemCurMana */
-     , (47898, 108,       3001) /* ItemMaxMana */
-     , (47898, 109,        309) /* ItemDifficulty */
-     , (47898, 110,          0) /* ItemAllegianceRankLimit */
-     , (47898, 115,          0) /* ItemSkillLevelLimit */
-     , (47898, 131,         23) /* MaterialType - GreenGarnet */
      , (47898, 151,          2) /* HookType - Wall */
-     , (47898, 158,          2) /* WieldRequirements - RawSkill */
-     , (47898, 159,         43) /* WieldSkilltype - VoidMagic */
-     , (47898, 160,        310) /* WieldDifficulty */
-     , (47898, 172,          5) /* AppraisalLongDescDecoration */
-     , (47898, 177,          3) /* GemCount */
-     , (47898, 178,         34) /* GemType */
      , (47898, 353,          3) /* WeaponType - Axe */
      , (47898, 8030,          0);
 
@@ -46,20 +32,15 @@ VALUES (47898,   1, False) /* Stuck */
      , (47898,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47898,   5, -0.0555555555555556) /* ManaRate */
-     , (47898,  21,       0) /* WeaponLength */
+VALUES (47898,  21,       0) /* WeaponLength */
      , (47898,  22,     0.7) /* DamageVariance */
      , (47898,  26,       0) /* MaximumVelocity */
-     , (47898,  29,     1.1) /* WeaponDefense */
+     , (47898,  29,       1) /* WeaponDefense */
      , (47898,  62,       1) /* WeaponOffense */
-     , (47898,  63,       1) /* DamageMod */
-     , (47898, 144,    0.08) /* ManaConversionMod */
-     , (47898, 150,    1.02) /* WeaponMagicDefense */
-     , (47898, 152,    1.04) /* ElementalDamageMod */;
+     , (47898,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47898,   1, 'Ono') /* Name */
-     , (47898,  16, 'Nether Baton of Curse Destruction') /* LongDesc */;
+VALUES (47898,   1, 'Ono') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47898,   1,   33554725) /* Setup */
@@ -80,11 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47898,   3, 3685845394) /* Wielder */
      , (47898, 8000, 3685848521) /* PCAPRecordedObjectIID */
      , (47898, 8008, 3685845394) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47898,  1479,      2) 
-     , (47898,  3259,      2) 
-     , (47898,  5343,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47898, 67111926, 0, 0);

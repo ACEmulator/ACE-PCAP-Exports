@@ -39,9 +39,6 @@ VALUES (32359,  29,       1) /* WeaponDefense */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32359,   1, 'Glenden Wood Recall Orb') /* Name */
-     , (32359,   7, 'Mine :)
-') /* Inscription */
-     , (32359,   8, 'Ninavie') /* ScribeName */
      , (32359,  16, 'A simple orb used to recall to Glenden Wood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -50,7 +47,7 @@ VALUES (32359,   1,   33554669) /* Setup */
      , (32359,   6,   67111928) /* PaletteBase */
      , (32359,   8,  100668722) /* Icon */
      , (32359,  22,  872415275) /* PhysicsEffectTable */
-     , (32359,  28,       3865) /* Spell */
+     , (32359,  28,       3865) /* Spell - GlendenWoodRecall */
      , (32359, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (32359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32359, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

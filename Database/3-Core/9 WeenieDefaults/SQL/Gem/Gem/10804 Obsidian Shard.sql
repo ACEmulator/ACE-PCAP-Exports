@@ -26,7 +26,6 @@ VALUES (10804,  39, 0.200000002980232) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10804,   1, 'Obsidian Shard') /* Name */
-     , (10804,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (10804,  16, 'A chunk of polished volcanic rock.  As you look at it, you can see what seems to be movement just under its surface.  You feel a strange pressure in the back of your mind, but it slowly recedes.  (Bring it to Diyas in Zaikhal)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -41,6 +40,3 @@ VALUES (10804,   1,   33555391) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10804,   2, 3701868785) /* Container */
      , (10804, 8000, 3701756666) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10804,  2058,      2) ;

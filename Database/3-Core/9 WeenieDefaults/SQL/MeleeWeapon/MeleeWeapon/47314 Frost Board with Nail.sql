@@ -5,14 +5,12 @@ VALUES (47314, 'ace47314-frostboardwithnail', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47314,   1,          1) /* ItemType - MeleeWeapon */
-     , (47314,   2,         77) /* CreatureType - Ghost */
      , (47314,   5,        800) /* EncumbranceVal */
      , (47314,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47314,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47314,  16,          1) /* ItemUseable - No */
      , (47314,  18,        128) /* UiEffects - Frost */
      , (47314,  19,        350) /* Value */
-     , (47314,  25,        180) /* Level */
      , (47314,  51,          1) /* CombatUse - Melee */
      , (47314,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47314, 151,          2) /* HookType - Wall */;
@@ -47,9 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47314,   3, 3688392445) /* Wielder */
      , (47314, 8000, 3688392435) /* PCAPRecordedObjectIID */
      , (47314, 8008, 3688392445) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47314,   1,  1020, 0, 0, 1020) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47314, 67116700, 0, 101)

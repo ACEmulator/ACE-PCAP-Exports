@@ -6,11 +6,9 @@ VALUES (24873, 'candethkeepguardhuman', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24873,   1,         16) /* ItemType - Creature */
      , (24873,   2,         31) /* CreatureType - Human */
-     , (24873,   5,       6666) /* EncumbranceVal */
      , (24873,   6,        255) /* ItemsCapacity */
      , (24873,   7,        255) /* ContainersCapacity */
      , (24873,  16,         32) /* ItemUseable - Remote */
-     , (24873,  19,          0) /* Value */
      , (24873,  25,         92) /* Level */
      , (24873,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24873,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (24873,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24873,   1, 'Gate Guard') /* Name */
      , (24873,   5, 'Candeth Keep Guard') /* Template */
-     , (24873,  16, 'Killed by High-Voltage VI''s K''nath.') /* LongDesc */
      , (24873, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

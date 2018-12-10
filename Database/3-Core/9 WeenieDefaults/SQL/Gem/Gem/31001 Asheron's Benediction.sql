@@ -33,8 +33,6 @@ VALUES (31001, 167,      30) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31001,   1, 'Asheron''s Benediction') /* Name */
-     , (31001,   7, ' Bronze Blunt Sceptre, (BludgeR), 1 tinks, work 5, +10 ManaC/+15 MeleeD/+2,5 MagicD/+10 PvM, Whirling Blade VI, Hermetic Link VI, Aliester''s Blessing, Spirit Drinker VI, Lore 231"') /* Inscription */
-     , (31001,   8, 'Miss Fizzel') /* ScribeName */
      , (31001,  16, 'This gem is eternal. You can use it as often as you like.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -42,7 +40,7 @@ VALUES (31001,   1,   33554809) /* Setup */
      , (31001,   3,  536870932) /* SoundTable */
      , (31001,   8,  100683150) /* Icon */
      , (31001,  22,  872415275) /* PhysicsEffectTable */
-     , (31001,  28,       3810) /* Spell */
+     , (31001,  28,       3810) /* Spell - AsheronsBenediction */
      , (31001, 8001,  273182864) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Spell, HookType */
      , (31001, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (31001, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

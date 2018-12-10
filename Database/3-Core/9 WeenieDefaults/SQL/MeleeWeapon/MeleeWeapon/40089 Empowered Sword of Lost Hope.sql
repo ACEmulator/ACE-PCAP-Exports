@@ -19,16 +19,13 @@ VALUES (40089,   1,          1) /* ItemType - MeleeWeapon */
      , (40089,  51,          1) /* CombatUse - Melee */
      , (40089,  65,        101) /* Placement - Resting */
      , (40089,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (40089, 105,          4) /* ItemWorkmanship */
      , (40089, 106,        460) /* ItemSpellcraft */
      , (40089, 107,       1220) /* ItemCurMana */
      , (40089, 108,       1332) /* ItemMaxMana */
-     , (40089, 131,         23) /* MaterialType - GreenGarnet */
      , (40089, 151,          2) /* HookType - Wall */
      , (40089, 158,          2) /* WieldRequirements - RawSkill */
      , (40089, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (40089, 160,        370) /* WieldDifficulty */
-     , (40089, 172,          1) /* AppraisalLongDescDecoration */
      , (40089, 263,         32) /* ResistanceModifierType */
      , (40089, 353,          2) /* WeaponType - Sword */
      , (40089, 8030,          0);

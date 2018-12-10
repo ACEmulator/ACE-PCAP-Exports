@@ -5,14 +5,12 @@ VALUES (47954, 'ace47954-lightningnekode', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47954,   1,          1) /* ItemType - MeleeWeapon */
-     , (47954,   2,          6) /* CreatureType - Tumerok */
      , (47954,   5,        135) /* EncumbranceVal */
      , (47954,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47954,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47954,  16,          1) /* ItemUseable - No */
      , (47954,  18,         64) /* UiEffects - Lightning */
      , (47954,  19,        155) /* Value */
-     , (47954,  25,         50) /* Level */
      , (47954,  33,         -2) /* Bonded - Destroy */
      , (47954,  44,         45) /* Damage */
      , (47954,  45,         64) /* DamageType - Electric */
@@ -23,7 +21,6 @@ VALUES (47954,   1,          1) /* ItemType - MeleeWeapon */
      , (47954,  65,          1) /* Placement - RightHandCombat */
      , (47954,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47954, 151,          2) /* HookType - Wall */
-     , (47954, 307,          5) /* DamageRating */
      , (47954, 353,          1) /* WeaponType - Unarmed */
      , (47954, 8030,          0);
 
@@ -64,16 +61,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47954,   3, 3685914675) /* Wielder */
      , (47954, 8000, 3685914683) /* PCAPRecordedObjectIID */
      , (47954, 8008, 3685914675) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47954,   1, 100, 0, 0) /* Strength */
-     , (47954,   2, 100, 0, 0) /* Endurance */
-     , (47954,   3, 150, 0, 0) /* Quickness */
-     , (47954,   4, 100, 0, 0) /* Coordination */
-     , (47954,   5,  60, 0, 0) /* Focus */
-     , (47954,   6,  60, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47954,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (47954,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (47954,   5,    60, 0, 0, 60) /* MaxMana */;

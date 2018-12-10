@@ -22,9 +22,6 @@ VALUES (30736,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30736,   1, 'Bottle of Crystal Champagne') /* Name */
-     , (30736,   7, 'Immortals ..CHEERS TO AC
-') /* Inscription */
-     , (30736,   8, 'Spawn') /* ScribeName */
      , (30736,  14, 'You can hook this item on floor and yard hooks. It''s far too much to try and drink.') /* Use */
      , (30736,  16, 'If you see this decorative bottle of champagne, you know a party is going on!') /* LongDesc */;
 

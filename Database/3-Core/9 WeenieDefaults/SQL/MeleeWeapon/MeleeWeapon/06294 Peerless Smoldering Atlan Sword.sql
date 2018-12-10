@@ -36,8 +36,7 @@ VALUES (6294,   1, False) /* Stuck */
      , (6294,  14, True ) /* GravityStatus */
      , (6294,  19, True ) /* Attackable */
      , (6294,  22, True ) /* Inscribable */
-     , (6294,  69, False) /* IsSellable */
-     , (6294,  91, True ) /* Retained */;
+     , (6294,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6294,   5, -0.0329999998211861) /* ManaRate */
@@ -49,9 +48,7 @@ VALUES (6294,   5, -0.0329999998211861) /* ManaRate */
      , (6294,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6294,   1, 'Peerless Smoldering Atlan Sword') /* Name */
-     , (6294,   7, 'TO THE HELP OF FAT SLIM I AND KHAN') /* Inscription */
-     , (6294,   8, 'Fat slim I') /* ScribeName */;
+VALUES (6294,   1, 'Peerless Smoldering Atlan Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6294,   1,   33556377) /* Setup */

@@ -6,14 +6,11 @@ VALUES (7487, 'fireelementalinferno_nospawn', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7487,   1,         16) /* ItemType - Creature */
      , (7487,   2,         38) /* CreatureType - FireElemental */
-     , (7487,   5,       6095) /* EncumbranceVal */
      , (7487,   6,        255) /* ItemsCapacity */
      , (7487,   7,        255) /* ContainersCapacity */
      , (7487,  16,          1) /* ItemUseable - No */
-     , (7487,  19,          0) /* Value */
      , (7487,  25,        100) /* Level */
      , (7487,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
-     , (7487, 107,          0) /* ItemCurMana */
      , (7487, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7487, 307,          7) /* DamageRating */
      , (7487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -27,14 +24,10 @@ VALUES (7487,   1, True ) /* Stuck */
      , (7487,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7487,  39, 1.70000004768372) /* DefaultScale */
-     , (7487,  87,       2) /* ItemEfficiency */
-     , (7487, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (7487,  39, 1.70000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7487,   1, 'Inferno') /* Name */
-     , (7487,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (7487,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (7487, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -10,11 +10,9 @@ VALUES (47875,   1,          1) /* ItemType - MeleeWeapon */
      , (47875,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47875,  16,          1) /* ItemUseable - No */
      , (47875,  19,        155) /* Value */
-     , (47875,  33,          1) /* Bonded - Bonded */
      , (47875,  51,          1) /* CombatUse - Melee */
      , (47875,  65,          1) /* Placement - RightHandCombat */
      , (47875,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47875, 114,          1) /* Attuned - Attuned */
      , (47875, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,12 +21,10 @@ VALUES (47875,   1, False) /* Stuck */
      , (47875,  13, True ) /* Ethereal */
      , (47875,  14, True ) /* GravityStatus */
      , (47875,  19, True ) /* Attackable */
-     , (47875,  22, True ) /* Inscribable */
-     , (47875,  69, False) /* IsSellable */;
+     , (47875,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47875,   1, 'Katar') /* Name */
-     , (47875,  15, 'A small, intact venom sac, removed from one of the more powerful Paradox-touched Olthoi.') /* ShortDesc */;
+VALUES (47875,   1, 'Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47875,   1,   33554743) /* Setup */

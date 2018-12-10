@@ -26,8 +26,6 @@ VALUES (32206,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32206,   1, 'Pack Pumpkin Lord') /* Name */
-     , (32206,   7, 'Welcome back !! Next time arrange for someone to pay your rent they may not be as nice as me =D') /* Inscription */
-     , (32206,   8, 'Calyianna') /* ScribeName */
      , (32206,  16, 'The vile and naughty Pumpkin Lord. He was grown from a bad seed.') /* LongDesc */
      , (32206, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

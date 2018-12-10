@@ -6,11 +6,9 @@ VALUES (40281, 'ace40281-degeneratemukkir', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40281,   1,         16) /* ItemType - Creature */
      , (40281,   2,         89) /* CreatureType - Mukkir */
-     , (40281,   5,       6379) /* EncumbranceVal */
      , (40281,   6,        255) /* ItemsCapacity */
      , (40281,   7,        255) /* ContainersCapacity */
      , (40281,  16,          1) /* ItemUseable - No */
-     , (40281,  19,          0) /* Value */
      , (40281,  25,        185) /* Level */
      , (40281,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40281, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (40281,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40281,   1, 'Degenerate Mukkir') /* Name */
-     , (40281,  16, 'Killed by Husband V.') /* LongDesc */
      , (40281, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

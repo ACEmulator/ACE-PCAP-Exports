@@ -6,19 +6,12 @@ VALUES (40775, 'ace40775-ancientgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40775,   1,         16) /* ItemType - Creature */
      , (40775,   2,         13) /* CreatureType - Golem */
-     , (40775,   5,          1) /* EncumbranceVal */
      , (40775,   6,        255) /* ItemsCapacity */
      , (40775,   7,        255) /* ContainersCapacity */
      , (40775,  16,          1) /* ItemUseable - No */
-     , (40775,  19,          1) /* Value */
      , (40775,  25,        185) /* Level */
-     , (40775,  33,          1) /* Bonded - Bonded */
      , (40775,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (40775, 114,          1) /* Attuned - Attuned */
      , (40775, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (40775, 307,          7) /* DamageRating */
-     , (40775, 315,         10) /* CritResistRating */
-     , (40775, 316,         20) /* CritDamageResistRating */
      , (40775, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,15 +19,13 @@ VALUES (40775,   1, True ) /* Stuck */
      , (40775,  12, True ) /* ReportCollisions */
      , (40775,  13, False) /* Ethereal */
      , (40775,  14, True ) /* GravityStatus */
-     , (40775,  19, True ) /* Attackable */
-     , (40775,  69, False) /* IsSellable */;
+     , (40775,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40775,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40775,   1, 'Ancient Golem') /* Name */
-     , (40775,  15, 'A small, delicately engraved token, created by an exceptionally skilled A''nekshay artisan.') /* ShortDesc */
      , (40775, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -56,17 +47,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40775, 8000, 3711129242) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (40775,   1, 190, 0, 0) /* Strength */
-     , (40775,   2, 200, 0, 0) /* Endurance */
-     , (40775,   3, 210, 0, 0) /* Quickness */
-     , (40775,   4, 210, 0, 0) /* Coordination */
-     , (40775,   5, 300, 0, 0) /* Focus */
-     , (40775,   6, 310, 0, 0) /* Self */;
+VALUES (40775,   1, 290, 0, 0) /* Strength */
+     , (40775,   2, 300, 0, 0) /* Endurance */
+     , (40775,   3, 190, 0, 0) /* Quickness */
+     , (40775,   4, 200, 0, 0) /* Coordination */
+     , (40775,   5, 190, 0, 0) /* Focus */
+     , (40775,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (40775,   1,  1500, 0, 0, 1500) /* MaxHealth */
-     , (40775,   3,  5200, 0, 0, 5200) /* MaxStamina */
-     , (40775,   5,  1860, 0, 0, 1790) /* MaxMana */;
+     , (40775,   3,  1500, 0, 0, 1500) /* MaxStamina */
+     , (40775,   5,  1190, 0, 0, 1190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40775, 67116746, 0, 0);

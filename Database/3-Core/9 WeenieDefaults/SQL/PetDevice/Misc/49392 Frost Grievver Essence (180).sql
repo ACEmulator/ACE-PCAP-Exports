@@ -5,12 +5,10 @@ VALUES (49392, 'ace49392-frostgrievveressence180', 70) /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49392,   1,        128) /* ItemType - Misc */
-     , (49392,   2,          1) /* CreatureType - Olthoi */
      , (49392,   5,         50) /* EncumbranceVal */
      , (49392,  16,          8) /* ItemUseable - Contained */
      , (49392,  18,        128) /* UiEffects - Frost */
      , (49392,  19,       9000) /* Value */
-     , (49392,  25,        185) /* Level */
      , (49392,  33,          0) /* Bonded - Normal */
      , (49392,  65,        101) /* Placement - Resting */
      , (49392,  91,         50) /* MaxStructure */
@@ -26,7 +24,6 @@ VALUES (49392,   1,        128) /* ItemType - Misc */
      , (49392, 370,         10) /* GearDamage */
      , (49392, 371,          8) /* GearDamageResist */
      , (49392, 372,         11) /* GearCrit */
-     , (49392, 373,          5) /* GearCritResist */
      , (49392, 374,          8) /* GearCritDamage */
      , (49392, 375,         13) /* GearCritDamageResist */;
 
@@ -45,8 +42,6 @@ VALUES (49392,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49392,   1, 'Frost Grievver Essence (180)') /* Name */
-     , (49392,   7, '.') /* Inscription */
-     , (49392,   8, 'Mag-seven') /* ScribeName */
      , (49392,  14, 'Use this essence to summon or dismiss your Frost Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -65,9 +60,6 @@ VALUES (49392,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49392,   2, 2622707398) /* Container */
      , (49392, 8000, 2622707422) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49392,   1,  2300, 0, 0, 2300) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49392, 67111919, 0, 0);

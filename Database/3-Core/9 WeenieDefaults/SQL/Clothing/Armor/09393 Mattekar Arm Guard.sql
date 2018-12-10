@@ -43,8 +43,6 @@ VALUES (9393,   5, -0.00999999977648258) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9393,   1, 'Mattekar Arm Guard') /* Name */
-     , (9393,   7, 'Ripped from my enemy''s corpse.') /* Inscription */
-     , (9393,   8, 'Wahooka the Great') /* ScribeName */
      , (9393,  16, 'A Large Mattekar arm guard, it covers your hand while hanging over some of the rest of your arm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

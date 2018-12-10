@@ -6,18 +6,12 @@ VALUES (24281, 'drudgemystic', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24281,   1,         16) /* ItemType - Creature */
      , (24281,   2,          3) /* CreatureType - Drudge */
-     , (24281,   5,         30) /* EncumbranceVal */
      , (24281,   6,        255) /* ItemsCapacity */
      , (24281,   7,        255) /* ContainersCapacity */
      , (24281,  16,          1) /* ItemUseable - No */
-     , (24281,  19,       1000) /* Value */
      , (24281,  25,        115) /* Level */
-     , (24281,  91,         35) /* MaxStructure */
-     , (24281,  92,         35) /* Structure */
      , (24281,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24281, 107,          0) /* ItemCurMana */
      , (24281, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24281, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (24281, 307,          5) /* DamageRating */
      , (24281, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -29,15 +23,10 @@ VALUES (24281,   1, True ) /* Stuck */
      , (24281,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24281,  39, 1.29999995231628) /* DefaultScale */
-     , (24281,  87,       2) /* ItemEfficiency */
-     , (24281, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (24281,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24281,   1, 'Drudge Mystic') /* Name */
-     , (24281,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (24281,  16, 'Inscribed spell: Eradicate Life Magic Self
-Dispels 3-6 negative Life Magic enchantments of level 7 or lower from the caster.') /* LongDesc */
      , (24281, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -70,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24281,   1,   503, 0, 0, 503) /* MaxHealth */
      , (24281,   3,   705, 0, 0, 705) /* MaxStamina */
      , (24281,   5,   370, 0, 0, 370) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24281,  3194,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24281, 67114279, 0, 0);

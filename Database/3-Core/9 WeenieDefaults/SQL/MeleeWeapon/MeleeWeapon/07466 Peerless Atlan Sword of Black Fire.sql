@@ -39,7 +39,6 @@ VALUES (7466,   1, False) /* Stuck */
      , (7466,  19, True ) /* Attackable */
      , (7466,  22, True ) /* Inscribable */
      , (7466,  69, False) /* IsSellable */
-     , (7466,  85, True ) /* AppraisalHasAllowedWielder */
      , (7466,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -52,8 +51,7 @@ VALUES (7466,   5, -0.0329999998211861) /* ManaRate */
      , (7466,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7466,   1, 'Peerless Atlan Sword of Black Fire') /* Name */
-     , (7466,  25, 'Ridley') /* CraftsmanName */;
+VALUES (7466,   1, 'Peerless Atlan Sword of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7466,   1,   33557411) /* Setup */

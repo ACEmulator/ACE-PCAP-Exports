@@ -5,11 +5,9 @@ VALUES (34716, 'ace34716-arenabell', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34716,   1,         16) /* ItemType - Creature */
-     , (34716,   5,         30) /* EncumbranceVal */
      , (34716,   6,        255) /* ItemsCapacity */
      , (34716,   7,        255) /* ContainersCapacity */
      , (34716,  16,         32) /* ItemUseable - Remote */
-     , (34716,  19,       2000) /* Value */
      , (34716,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34716,  95,          8) /* RadarBlipColor - Yellow */
      , (34716, 307,          0) /* DamageRating */
@@ -54,8 +52,6 @@ VALUES (34716,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34716,   1, 'Arena Bell') /* Name */
      , (34716,  14, 'Use this bell to begin the battle.') /* Use */
-     , (34716,  16, 'Inscribed spell: Bottle Breaker
-Decreases the target''s Alchemy skill by 40 points.') /* LongDesc */
      , (34716, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -74,6 +70,3 @@ VALUES (34716, 8040, 11534650, 30, -120, 0.105, 1, 0, 0, 0) /* PCAPRecordedLocat
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34716, 8000, 2447293047) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34716,  2188,      2) ;

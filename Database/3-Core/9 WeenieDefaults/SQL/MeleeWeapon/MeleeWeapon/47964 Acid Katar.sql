@@ -25,10 +25,7 @@ VALUES (47964,   1, False) /* Stuck */
      , (47964,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47964,   1, 'Acid Katar') /* Name */
-     , (47964,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (47964,  16, 'Inscribed spell: Yoshi''s Boon
-Increases the target''s Item Tinkering skill by 40 points.') /* LongDesc */;
+VALUES (47964,   1, 'Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47964,   1,   33555739) /* Setup */
@@ -48,6 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47964,   3, 3686232327) /* Wielder */
      , (47964, 8000, 3685204894) /* PCAPRecordedObjectIID */
      , (47964, 8008, 3686232327) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47964,  2250,      2) ;

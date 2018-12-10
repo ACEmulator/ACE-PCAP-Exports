@@ -54,12 +54,10 @@ VALUES (45399,   5, -0.0555555555555556) /* ManaRate */
      , (45399,  39, 1.10000002384186) /* DefaultScale */
      , (45399,  62,    1.13) /* WeaponOffense */
      , (45399,  63,       1) /* DamageMod */
-     , (45399, 150,   1.015) /* WeaponMagicDefense */
      , (45399, 8004,       5) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45399,   1, 'Flaming Short Sword') /* Name */
-     , (45399,  14, 'Turn this item into an Agent of the Arcanum for a housing writ. Turn this item into a High-Stakes Gamemaster for a chance at some experience.') /* Use */
      , (45399,  16, 'Flaming Short Sword of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,30 +74,6 @@ VALUES (45399,   2, 3681370804) /* Container */
      , (45399, 8000, 3681370806) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45399,  1402,      2) 
-     , (45399,  1591,      2) 
-     , (45399,  1592,      2) 
-     , (45399,  1605,      2) 
-     , (45399,  1615,      2) 
-     , (45399,  1616,      2) 
-     , (45399,  1625,      2) 
-     , (45399,  1626,      2) 
-     , (45399,  1627,      2) 
+VALUES (45399,  1616,      2) 
      , (45399,  2061,      2) 
-     , (45399,  2096,      2) 
-     , (45399,  2101,      2) 
-     , (45399,  2106,      2) 
-     , (45399,  2116,      2) 
-     , (45399,  2529,      2) 
-     , (45399,  2541,      2) 
-     , (45399,  2544,      2) 
-     , (45399,  2552,      2) 
-     , (45399,  2579,      2) 
-     , (45399,  2580,      2) 
-     , (45399,  2582,      2) 
-     , (45399,  2583,      2) 
-     , (45399,  2596,      2) 
-     , (45399,  2603,      2) 
-     , (45399,  5785,      2) 
-     , (45399,  5880,      2) 
-     , (45399,  5883,      2) ;
+     , (45399,  2596,      2) ;

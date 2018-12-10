@@ -5,15 +5,12 @@ VALUES (4381, 'rottingcorpse2', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4381,   1,        512) /* ItemType - Container */
-     , (4381,   2,         36) /* CreatureType - Slithis */
      , (4381,   5,       3000) /* EncumbranceVal */
      , (4381,   6,        120) /* ItemsCapacity */
      , (4381,   7,         10) /* ContainersCapacity */
      , (4381,  16,         48) /* ItemUseable - ViewedRemote */
      , (4381,  19,          0) /* Value */
-     , (4381,  25,        100) /* Level */
-     , (4381,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */
-     , (4381, 307,          5) /* DamageRating */;
+     , (4381,  93,       1052) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4381,   1, True ) /* Stuck */
@@ -45,16 +42,3 @@ VALUES (4381, 8040, 3027107901, 187.2004, 111.0849, 48.14165, 0.9238795, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4381, 8000, 3710836466) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (4381,   1, 230, 0, 0) /* Strength */
-     , (4381,   2, 260, 0, 0) /* Endurance */
-     , (4381,   3, 240, 0, 0) /* Quickness */
-     , (4381,   4, 250, 0, 0) /* Coordination */
-     , (4381,   5, 250, 0, 0) /* Focus */
-     , (4381,   6, 290, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4381,   1,   450, 0, 0, 415) /* MaxHealth */
-     , (4381,   3,   460, 0, 0, 448) /* MaxStamina */
-     , (4381,   5,   515, 0, 0, 473) /* MaxMana */;

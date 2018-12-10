@@ -14,18 +14,7 @@ VALUES (47904,   1,          1) /* ItemType - MeleeWeapon */
      , (47904,  51,          1) /* CombatUse - Melee */
      , (47904,  65,          1) /* Placement - RightHandCombat */
      , (47904,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47904, 105,          6) /* ItemWorkmanship */
-     , (47904, 106,        192) /* ItemSpellcraft */
-     , (47904, 107,       1681) /* ItemCurMana */
-     , (47904, 108,       1681) /* ItemMaxMana */
-     , (47904, 109,        192) /* ItemDifficulty */
-     , (47904, 110,          0) /* ItemAllegianceRankLimit */
-     , (47904, 115,          0) /* ItemSkillLevelLimit */
-     , (47904, 131,         60) /* MaterialType - Gold */
-     , (47904, 151,          2) /* HookType - Wall */
-     , (47904, 172,          5) /* AppraisalLongDescDecoration */
-     , (47904, 177,          2) /* GemCount */
-     , (47904, 178,         11) /* GemType */;
+     , (47904, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47904,   1, False) /* Stuck */
@@ -35,12 +24,8 @@ VALUES (47904,   1, False) /* Stuck */
      , (47904,  19, True ) /* Attackable */
      , (47904,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47904,   5,   -0.05) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47904,   1, 'Acid Katar') /* Name */
-     , (47904,  16, 'Gorget of Fire Protection') /* LongDesc */;
+VALUES (47904,   1, 'Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47904,   1,   33555739) /* Setup */
@@ -60,6 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47904,   3, 3685863002) /* Wielder */
      , (47904, 8000, 3685862998) /* PCAPRecordedObjectIID */
      , (47904, 8008, 3685863002) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47904,  1093,      2) ;

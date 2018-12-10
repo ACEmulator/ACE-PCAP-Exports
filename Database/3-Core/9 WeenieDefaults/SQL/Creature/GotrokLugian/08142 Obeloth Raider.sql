@@ -6,11 +6,9 @@ VALUES (8142, 'lugianobelothraider', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8142,   1,         16) /* ItemType - Creature */
      , (8142,   2,         70) /* CreatureType - GotrokLugian */
-     , (8142,   5,         30) /* EncumbranceVal */
      , (8142,   6,        255) /* ItemsCapacity */
      , (8142,   7,        255) /* ContainersCapacity */
      , (8142,  16,          1) /* ItemUseable - No */
-     , (8142,  19,        100) /* Value */
      , (8142,  25,         50) /* Level */
      , (8142,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8142, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -26,9 +24,6 @@ VALUES (8142,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8142,   1, 'Obeloth Raider') /* Name */
-     , (8142,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (8142,  16, 'Inscribed spell: Force Streak IV
-Sends a bolt of force streaking towards the target. The bolt does 25-50 points of piercing damage to the first thing it hits.') /* LongDesc */
      , (8142, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -61,9 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (8142,   1,   150, 0, 0, 150) /* MaxHealth */
      , (8142,   3,   350, 0, 0, 350) /* MaxStamina */
      , (8142,   5,    85, 0, 0, 85) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8142,  1805,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8142, 67113161, 0, 0);

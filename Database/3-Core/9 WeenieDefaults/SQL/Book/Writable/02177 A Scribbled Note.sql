@@ -8,10 +8,8 @@ VALUES (2177,   1,       8192) /* ItemType - Writable */
      , (2177,   5,         25) /* EncumbranceVal */
      , (2177,  16,          8) /* ItemUseable - Contained */
      , (2177,  19,          3) /* Value */
-     , (2177,  33,          1) /* Bonded - Bonded */
      , (2177,  65,        101) /* Placement - Resting */
      , (2177,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2177, 114,          1) /* Attuned - Attuned */
      , (2177, 174,          1) /* AppraisalPages */
      , (2177, 175,          1) /* AppraisalMaxPages */;
 
@@ -26,8 +24,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2177,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2177,   1, 'A Scribbled Note') /* Name */
-     , (2177,  16, 'This Arbitrator''s Augmentation Token can be turned in to the Master Arbitrator for experience, or it can be turned in to Fiun Rehlyun at the Fiun settlement for a Blank Augmentation Gem.') /* LongDesc */;
+VALUES (2177,   1, 'A Scribbled Note') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2177,   1,   33554773) /* Setup */

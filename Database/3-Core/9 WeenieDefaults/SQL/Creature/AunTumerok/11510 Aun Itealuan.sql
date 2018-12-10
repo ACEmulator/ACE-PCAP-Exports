@@ -6,17 +6,12 @@ VALUES (11510, 'tumerokaunitealuan_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11510,   1,         16) /* ItemType - Creature */
      , (11510,   2,         57) /* CreatureType - AunTumerok */
-     , (11510,   5,         50) /* EncumbranceVal */
      , (11510,   6,        255) /* ItemsCapacity */
      , (11510,   7,        255) /* ContainersCapacity */
      , (11510,  16,          1) /* ItemUseable - No */
-     , (11510,  19,       1200) /* Value */
      , (11510,  25,         50) /* Level */
-     , (11510,  91,         50) /* MaxStructure */
-     , (11510,  92,         50) /* Structure */
      , (11510,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11510, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11510, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (11510, 307,          5) /* DamageRating */
      , (11510, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -32,7 +27,6 @@ VALUES (11510,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11510,   1, 'Aun Itealuan') /* Name */
-     , (11510,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (11510, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

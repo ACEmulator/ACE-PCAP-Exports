@@ -6,54 +6,19 @@ VALUES (38373, 'ace38373-brizinnaducorcosi', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38373,   1,         16) /* ItemType - Creature */
      , (38373,   2,         31) /* CreatureType - Human */
-     , (38373,   5,         74) /* EncumbranceVal */
      , (38373,   6,        255) /* ItemsCapacity */
      , (38373,   7,        255) /* ContainersCapacity */
      , (38373,  16,         32) /* ItemUseable - Remote */
-     , (38373,  19,      13682) /* Value */
      , (38373,  25,        200) /* Level */
-     , (38373,  28,        290) /* ArmorLevel */
-     , (38373,  33,          1) /* Bonded - Bonded */
-     , (38373,  44,         41) /* Damage */
-     , (38373,  45,         32) /* DamageType - Acid */
-     , (38373,  47,          4) /* AttackType - Slash */
-     , (38373,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (38373,  49,         22) /* WeaponTime */
      , (38373,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38373,  95,          8) /* RadarBlipColor - Yellow */
-     , (38373,  98, 1485299920) /* CreationTimestamp */
-     , (38373, 105,          7) /* ItemWorkmanship */
-     , (38373, 106,        185) /* ItemSpellcraft */
-     , (38373, 107,        651) /* ItemCurMana */
-     , (38373, 108,        651) /* ItemMaxMana */
-     , (38373, 109,        122) /* ItemDifficulty */
-     , (38373, 110,          0) /* ItemAllegianceRankLimit */
-     , (38373, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (38373, 113,          2) /* Gender - Female */
-     , (38373, 114,          1) /* Attuned - Attuned */
-     , (38373, 115,        143) /* ItemSkillLevelLimit */
-     , (38373, 131,         52) /* MaterialType - Leather */
      , (38373, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38373, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38373, 158,          2) /* WieldRequirements - RawSkill */
-     , (38373, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (38373, 160,        350) /* WieldDifficulty */
-     , (38373, 172,          1) /* AppraisalLongDescDecoration */
-     , (38373, 176,          7) /* AppraisalItemSkill */
-     , (38373, 177,          2) /* GemCount */
-     , (38373, 178,         39) /* GemType */
      , (38373, 188,          4) /* HeritageGroup - Viamontian */
-     , (38373, 267,        180) /* Lifespan */
-     , (38373, 268,        179) /* RemainingLifespan */
      , (38373, 281,          4) /* Faction1Bits */
      , (38373, 289,       1001) /* SocietyRankRadblo */
-     , (38373, 307,          5) /* DamageRating */
-     , (38373, 313,          0) /* CritRating */
-     , (38373, 314,          0) /* CritDamageRating */
-     , (38373, 353,          3) /* WeaponType - Axe */
-     , (38373, 386,          0) /* Overpower */
-     , (38373, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38373, 8030,          0);
+     , (38373, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38373,   1, True ) /* Stuck */
@@ -63,34 +28,14 @@ VALUES (38373,   1, True ) /* Stuck */
      , (38373,  14, True ) /* GravityStatus */
      , (38373,  19, False) /* Attackable */
      , (38373,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38373,  42, True ) /* AllowEdgeSlide */
-     , (38373, 100, True ) /* Dyable */;
+     , (38373,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38373,   5, -0.0416666666666667) /* ManaRate */
-     , (38373,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38373,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38373,  15,       1) /* ArmorModVsBludgeon */
-     , (38373,  16,     0.5) /* ArmorModVsCold */
-     , (38373,  17,     0.5) /* ArmorModVsFire */
-     , (38373,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (38373,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38373,  21,       0) /* WeaponLength */
-     , (38373,  22,    0.83) /* DamageVariance */
-     , (38373,  26,       0) /* MaximumVelocity */
-     , (38373,  29,    1.09) /* WeaponDefense */
-     , (38373,  54,       3) /* UseRadius */
-     , (38373,  62,    1.14) /* WeaponOffense */
-     , (38373,  63,       1) /* DamageMod */
-     , (38373, 149,       0) /* WeaponMissileDefense */
-     , (38373, 150,       0) /* WeaponMagicDefense */
-     , (38373, 165,       1) /* ArmorModVsNether */;
+VALUES (38373,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38373,   1, 'Brizinna du Corcosi') /* Name */
      , (38373,   5, 'Inspector of Masters') /* Template */
-     , (38373,  16, 'Loafers') /* LongDesc */
-     , (38373,  38, 'The Colosseum') /* AppraisalPortalDestination */
      , (38373, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -128,15 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38373,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38373,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38373,   5,   486, 0, 0, 486) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38373,  1485,      2) 
-     , (38373,  1616,      2) 
-     , (38373,  2101,      2) 
-     , (38373,  2106,      2) 
-     , (38373,  2116,      2) 
-     , (38373,  2597,      2) 
-     , (38373,  2608,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38373, 67109964, 92, 4)

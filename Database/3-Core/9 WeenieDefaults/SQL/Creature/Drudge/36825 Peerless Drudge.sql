@@ -6,17 +6,12 @@ VALUES (36825, 'ace36825-peerlessdrudge', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36825,   1,         16) /* ItemType - Creature */
      , (36825,   2,          3) /* CreatureType - Drudge */
-     , (36825,   5,         50) /* EncumbranceVal */
      , (36825,   6,        255) /* ItemsCapacity */
      , (36825,   7,        255) /* ContainersCapacity */
      , (36825,  16,          1) /* ItemUseable - No */
-     , (36825,  19,        750) /* Value */
      , (36825,  25,        135) /* Level */
-     , (36825,  91,         35) /* MaxStructure */
-     , (36825,  92,         35) /* Structure */
      , (36825,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36825, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36825, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (36825, 307,          7) /* DamageRating */
      , (36825, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -32,7 +27,6 @@ VALUES (36825,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36825,   1, 'Peerless Drudge') /* Name */
-     , (36825,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (36825, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

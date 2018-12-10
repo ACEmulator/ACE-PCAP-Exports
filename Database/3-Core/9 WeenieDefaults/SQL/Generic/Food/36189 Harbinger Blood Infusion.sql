@@ -40,7 +40,7 @@ VALUES (36189,   1,   33554603) /* Setup */
      , (36189,   6,   67111919) /* PaletteBase */
      , (36189,   8,  100689590) /* Icon */
      , (36189,  22,  872415275) /* PhysicsEffectTable */
-     , (36189,  28,       4169) /* Spell */
+     , (36189,  28,       4169) /* Spell - ArmorProdigalHarbinger */
      , (36189, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (36189, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36189, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

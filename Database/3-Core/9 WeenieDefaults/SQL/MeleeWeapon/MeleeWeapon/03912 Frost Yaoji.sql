@@ -52,8 +52,6 @@ VALUES (3912,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3912,   1, 'Frost Yaoji') /* Name */
-     , (3912,   7, NULL) /* Inscription */
-     , (3912,   8, NULL) /* ScribeName */
      , (3912,  16, 'Frost Yaoji') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -26,9 +26,6 @@ VALUES (19236,  39, 0.699999988079071) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19236,   1, 'Oxidized Statue ') /* Name */
-     , (19236,   7, 'Take don''t need X-force
-') /* Inscription */
-     , (19236,   8, 'Amy the Princess') /* ScribeName */
      , (19236,  16, 'A small oxidized statue of a Sclavus crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */
      , (19236, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

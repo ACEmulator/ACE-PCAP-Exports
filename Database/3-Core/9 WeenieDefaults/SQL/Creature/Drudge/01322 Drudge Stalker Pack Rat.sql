@@ -11,9 +11,7 @@ VALUES (1322,   1,         16) /* ItemType - Creature */
      , (1322,  16,          1) /* ItemUseable - No */
      , (1322,  25,         50) /* Level */
      , (1322,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1322, 113,          1) /* Gender - Male */
      , (1322, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1322, 188,          1) /* HeritageGroup - Aluvian */
      , (1322, 307,          5) /* DamageRating */
      , (1322, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -37,12 +35,6 @@ VALUES (1322,   1,   33556445) /* Setup */
      , (1322,   3,  536870919) /* SoundTable */
      , (1322,   6,   67112812) /* PaletteBase */
      , (1322,   8,  100667445) /* Icon */
-     , (1322,   9,   83890485) /* EyesTexture */
-     , (1322,  10,   83890518) /* NoseTexture */
-     , (1322,  11,   83890570) /* MouthTexture */
-     , (1322,  15,   67116999) /* HairPalette */
-     , (1322,  16,   67110065) /* EyesPalette */
-     , (1322,  17,   67109558) /* SkinPalette */
      , (1322,  22,  872415258) /* PhysicsEffectTable */
      , (1322, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1322, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

@@ -5,10 +5,7 @@ VALUES (44115, 'ace44115-sandcaves', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44115,   1,      65536) /* ItemType - Portal */
-     , (44115,   5,         10) /* EncumbranceVal */
      , (44115,  16,         32) /* ItemUseable - Remote */
-     , (44115,  19,      25000) /* Value */
-     , (44115,  33,          1) /* Bonded - Bonded */
      , (44115,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (44115, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (44115, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -27,7 +24,6 @@ VALUES (44115,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44115,   1, 'Sand Caves') /* Name */
-     , (44115,  16, 'A concentrated gold pea.') /* LongDesc */
      , (44115,  38, 'Sand Caves') /* AppraisalPortalDestination */
      , (44115, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

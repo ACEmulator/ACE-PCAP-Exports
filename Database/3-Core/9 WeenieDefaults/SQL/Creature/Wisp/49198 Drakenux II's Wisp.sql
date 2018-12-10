@@ -6,19 +6,14 @@ VALUES (49198, 'ace49198-drakenuxiiswisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49198,   1,         16) /* ItemType - Creature */
      , (49198,   2,         20) /* CreatureType - Wisp */
-     , (49198,   5,         10) /* EncumbranceVal */
      , (49198,   6,        255) /* ItemsCapacity */
      , (49198,   7,        255) /* ContainersCapacity */
      , (49198,  16,          1) /* ItemUseable - No */
-     , (49198,  19,       2000) /* Value */
      , (49198,  25,        200) /* Level */
      , (49198,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49198, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49198, 307,         12) /* DamageRating */
-     , (49198, 308,         14) /* DamageResistRating */
      , (49198, 313,         10) /* CritRating */
-     , (49198, 314,         17) /* CritDamageRating */
-     , (49198, 316,         11) /* CritDamageResistRating */
      , (49198, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -30,9 +25,6 @@ VALUES (49198,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49198,   1, 'Drakenux II''s Wisp') /* Name */
-     , (49198,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (49198,  16, 'Inscribed spell: Arcanum Salvaging VII
-Increases the caster''s Salvaging skill by 40 points.') /* LongDesc */
      , (49198, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -65,7 +57,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49198,   1,  1370, 0, 0, 1370) /* MaxHealth */
      , (49198,   3,  1740, 0, 0, 1737) /* MaxStamina */
      , (49198,   5,  1070, 0, 0, 1070) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49198,  2078,      2) 
-     , (49198,  3505,      2) ;

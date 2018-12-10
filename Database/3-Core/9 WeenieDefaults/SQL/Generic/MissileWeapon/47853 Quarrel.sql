@@ -5,7 +5,6 @@ VALUES (47853, 'ace47853-quarrel', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47853,   1,        256) /* ItemType - MissileWeapon */
-     , (47853,   2,         19) /* CreatureType - Virindi */
      , (47853,   5,        720) /* EncumbranceVal */
      , (47853,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (47853,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,7 +12,6 @@ VALUES (47853,   1,        256) /* ItemType - MissileWeapon */
      , (47853,  12,        144) /* StackSize */
      , (47853,  16,          1) /* ItemUseable - No */
      , (47853,  19,        144) /* Value */
-     , (47853,  25,        100) /* Level */
      , (47853,  33,         -2) /* Bonded - Destroy */
      , (47853,  44,          6) /* Damage */
      , (47853,  45,          2) /* DamageType - Pierce */
@@ -67,9 +65,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47853,   3, 3686182958) /* Wielder */
      , (47853, 8000, 3686130982) /* PCAPRecordedObjectIID */
      , (47853, 8008, 3686182958) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47853,   1,   500, 0, 0, 500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47853, 67111919, 0, 0);

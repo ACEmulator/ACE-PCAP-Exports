@@ -5,14 +5,12 @@ VALUES (40687, 'ace40687-olthoigreaves', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40687,   1,          2) /* ItemType - Armor */
-     , (40687,   2,          1) /* CreatureType - Olthoi */
      , (40687,   4,        512) /* ClothingPriority - OuterwearLowerLegs */
      , (40687,   5,        513) /* EncumbranceVal */
      , (40687,   9,      16384) /* ValidLocations - LowerLegArmor */
      , (40687,  16,          1) /* ItemUseable - No */
      , (40687,  18,          1) /* UiEffects - Magical */
      , (40687,  19,      17630) /* Value */
-     , (40687,  25,        185) /* Level */
      , (40687,  28,        436) /* ArmorLevel */
      , (40687,  36,       9999) /* ResistMagic */
      , (40687,  65,        101) /* Placement - Resting */
@@ -29,12 +27,9 @@ VALUES (40687,   1,          2) /* ItemType - Armor */
      , (40687, 159,          6) /* WieldSkilltype - MeleeDefense */
      , (40687, 160,        350) /* WieldDifficulty */
      , (40687, 172,          1) /* AppraisalLongDescDecoration */
-     , (40687, 176,          6) /* AppraisalItemSkill */
-     , (40687, 265,         17) /* EquipmentSetId - Tinkers */
      , (40687, 270,          7) /* WieldRequirements2 - Level */
      , (40687, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40687, 272,        150) /* WieldDifficulty2 */
-     , (40687, 374,          1) /* GearCritDamage */;
+     , (40687, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40687,   1, False) /* Stuck */
@@ -76,57 +71,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40687,   2, 1343493255) /* Container */
      , (40687, 8000, 2174543118) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40687,   1,  2300, 0, 0, 2300) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40687,   975,      2) 
-     , (40687,   987,      2) 
-     , (40687,  1332,      2) 
-     , (40687,  1354,      2) 
-     , (40687,  1486,      2) 
-     , (40687,  1516,      2) 
-     , (40687,  1562,      2) 
-     , (40687,  2081,      2) 
-     , (40687,  2087,      2) 
+VALUES (40687,  1354,      2) 
      , (40687,  2092,      2) 
      , (40687,  2094,      2) 
-     , (40687,  2098,      2) 
-     , (40687,  2102,      2) 
      , (40687,  2108,      2) 
-     , (40687,  2113,      2) 
-     , (40687,  2301,      2) 
-     , (40687,  2505,      2) 
-     , (40687,  2507,      2) 
-     , (40687,  2513,      2) 
-     , (40687,  2518,      2) 
-     , (40687,  2535,      2) 
-     , (40687,  2537,      2) 
-     , (40687,  2574,      2) 
-     , (40687,  2582,      2) 
-     , (40687,  2587,      2) 
-     , (40687,  2609,      2) 
-     , (40687,  2611,      2) 
-     , (40687,  3965,      2) 
-     , (40687,  4319,      2) 
-     , (40687,  4391,      2) 
-     , (40687,  4393,      2) 
-     , (40687,  4397,      2) 
-     , (40687,  4401,      2) 
-     , (40687,  4403,      2) 
-     , (40687,  4407,      2) 
-     , (40687,  4409,      2) 
-     , (40687,  4572,      2) 
-     , (40687,  4616,      2) 
-     , (40687,  4662,      2) 
-     , (40687,  4664,      2) 
-     , (40687,  4669,      2) 
-     , (40687,  4698,      2) 
-     , (40687,  4912,      2) 
-     , (40687,  5888,      2) 
-     , (40687,  6085,      2) 
-     , (40687,  6121,      2) 
-     , (40687,  6123,      2) ;
+     , (40687,  2505,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40687, 67116552, 152, 4)

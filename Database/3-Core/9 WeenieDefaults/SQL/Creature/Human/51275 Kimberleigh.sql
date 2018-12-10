@@ -6,11 +6,9 @@ VALUES (51275, 'ace51275-kimberleigh', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51275,   1,         16) /* ItemType - Creature */
      , (51275,   2,         31) /* CreatureType - Human */
-     , (51275,   5,          0) /* EncumbranceVal */
      , (51275,   6,        255) /* ItemsCapacity */
      , (51275,   7,        255) /* ContainersCapacity */
      , (51275,  16,         32) /* ItemUseable - Remote */
-     , (51275,  19,        174) /* Value */
      , (51275,  25,        180) /* Level */
      , (51275,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (51275,  95,          8) /* RadarBlipColor - Yellow */
@@ -38,9 +36,6 @@ VALUES (51275,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51275,   1, 'Kimberleigh') /* Name */
      , (51275,   5, 'Mana Siphon Taskmaster') /* Template */
-     , (51275,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (51275,  16, 'Inscribed spell: Finesse Weapon Mastery Self VII
-Increases the caster''s Finesse Weapons skill by 40 points.') /* LongDesc */
      , (51275, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -78,9 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51275,   1,   296, 0, 0, 296) /* MaxHealth */
      , (51275,   3,   396, 0, 0, 396) /* MaxStamina */
      , (51275,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51275,  2223,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51275, 67109560, 0, 24)

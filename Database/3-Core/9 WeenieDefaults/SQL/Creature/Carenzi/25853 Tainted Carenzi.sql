@@ -6,42 +6,13 @@ VALUES (25853, 'carenzitainted', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25853,   1,         16) /* ItemType - Creature */
      , (25853,   2,         55) /* CreatureType - Carenzi */
-     , (25853,   5,        100) /* EncumbranceVal */
      , (25853,   6,        255) /* ItemsCapacity */
      , (25853,   7,        255) /* ContainersCapacity */
      , (25853,  16,          1) /* ItemUseable - No */
-     , (25853,  19,      25040) /* Value */
      , (25853,  25,        160) /* Level */
-     , (25853,  33,          1) /* Bonded - Bonded */
-     , (25853,  44,         66) /* Damage */
-     , (25853,  45,         64) /* DamageType - Electric */
-     , (25853,  47,          2) /* AttackType - Thrust */
-     , (25853,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (25853,  49,         45) /* WeaponTime */
-     , (25853,  91,         50) /* MaxStructure */
-     , (25853,  92,         50) /* Structure */
      , (25853,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25853, 105,         76) /* ItemWorkmanship */
-     , (25853, 106,        370) /* ItemSpellcraft */
-     , (25853, 107,       1201) /* ItemCurMana */
-     , (25853, 108,       1201) /* ItemMaxMana */
-     , (25853, 109,        100) /* ItemDifficulty */
-     , (25853, 110,          0) /* ItemAllegianceRankLimit */
-     , (25853, 115,        390) /* ItemSkillLevelLimit */
-     , (25853, 131,         15) /* MaterialType - BlackGarnet */
      , (25853, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (25853, 158,          2) /* WieldRequirements - RawSkill */
-     , (25853, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (25853, 160,        420) /* WieldDifficulty */
-     , (25853, 170,         11) /* NumItemsInMaterial */
-     , (25853, 172,          5) /* AppraisalLongDescDecoration */
-     , (25853, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (25853, 176,         44) /* AppraisalItemSkill */
-     , (25853, 177,          2) /* GemCount */
-     , (25853, 178,         33) /* GemType */
-     , (25853, 353,          5) /* WeaponType - Spear */
-     , (25853, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (25853, 8030,          0);
+     , (25853, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25853,   1, True ) /* Stuck */
@@ -51,20 +22,10 @@ VALUES (25853,   1, True ) /* Stuck */
      , (25853,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25853,   5, -0.0666666666666667) /* ManaRate */
-     , (25853,  21,       0) /* WeaponLength */
-     , (25853,  22,    0.72) /* DamageVariance */
-     , (25853,  26,       0) /* MaximumVelocity */
-     , (25853,  29,    1.11) /* WeaponDefense */
-     , (25853,  39, 2.09999990463257) /* DefaultScale */
-     , (25853,  62,     1.2) /* WeaponOffense */
-     , (25853,  63,       1) /* DamageMod */;
+VALUES (25853,  39, 2.09999990463257) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25853,   1, 'Tainted Carenzi') /* Name */
-     , (25853,  14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Pierce Rending. Pierce Rending gives the weapon the ability to make its opponent vulnerable to piercing attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Piercing Vulnerability spells. ') /* Use */
-     , (25853,  15, 'Chips of black garnet material salvaged from old items.') /* ShortDesc */
-     , (25853,  16, 'Killed by Fenn.') /* LongDesc */
      , (25853, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -96,8 +57,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (25853,   1,   780, 0, 0, 780) /* MaxHealth */
      , (25853,   3,   950, 0, 0, 950) /* MaxStamina */
      , (25853,   5,   450, 0, 0, 450) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25853,  2343,      2) 
-     , (25853,  2591,      2) 
-     , (25853,  4395,      2) ;

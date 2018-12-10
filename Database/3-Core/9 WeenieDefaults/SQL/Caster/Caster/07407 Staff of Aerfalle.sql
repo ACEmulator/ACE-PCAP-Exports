@@ -53,7 +53,7 @@ VALUES (7407,   1,   33556630) /* Setup */
      , (7407,   6,   67111919) /* PaletteBase */
      , (7407,   8,  100670752) /* Icon */
      , (7407,  22,  872415275) /* PhysicsEffectTable */
-     , (7407,  28,       1794) /* Spell */
+     , (7407,  28,       1794) /* Spell - AcidStreak5 */
      , (7407, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (7407, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7407, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

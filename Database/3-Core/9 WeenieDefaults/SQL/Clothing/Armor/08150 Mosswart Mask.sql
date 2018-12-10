@@ -35,8 +35,6 @@ VALUES (8150,  13,     0.5) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8150,   1, 'Mosswart Mask') /* Name */
-     , (8150,   7, 'There once was a mossy named Pat/Who thought his sk33lz were so ph4t/Then I came along, and proved him wrong,/And sewed his face into a hat') /* Inscription */
-     , (8150,   8, 'Idraea') /* ScribeName */
      , (8150,  16, 'A finely sewed and cured Mosswart head, complete with cushions around the neck for active use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

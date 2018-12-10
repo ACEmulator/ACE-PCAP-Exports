@@ -6,50 +6,24 @@ VALUES (232, 'tumerokscout', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (232,   1,         16) /* ItemType - Creature */
      , (232,   2,          6) /* CreatureType - Tumerok */
-     , (232,   5,       6405) /* EncumbranceVal */
      , (232,   6,        255) /* ItemsCapacity */
      , (232,   7,        255) /* ContainersCapacity */
      , (232,  16,          1) /* ItemUseable - No */
-     , (232,  19,          0) /* Value */
      , (232,  25,         20) /* Level */
-     , (232,  33,         -2) /* Bonded - Destroy */
-     , (232,  44,        610) /* Damage */
-     , (232,  45,          2) /* DamageType - Pierce */
-     , (232,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (232,  49,         10) /* WeaponTime */
      , (232,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (232, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (232, 307,          5) /* DamageRating */
-     , (232, 313,          0) /* CritRating */
-     , (232, 314,          0) /* CritDamageRating */
-     , (232, 353,         10) /* WeaponType - Thrown */
-     , (232, 386,          0) /* Overpower */
-     , (232, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (232, 8030,          0);
+     , (232, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (232,   1, True ) /* Stuck */
-     , (232,   2, True ) /* Open */
      , (232,  12, True ) /* ReportCollisions */
      , (232,  13, False) /* Ethereal */
      , (232,  14, True ) /* GravityStatus */
      , (232,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (232,  21,       0) /* WeaponLength */
-     , (232,  22,     0.5) /* DamageVariance */
-     , (232,  26, 23.2000007629395) /* MaximumVelocity */
-     , (232,  29,       1) /* WeaponDefense */
-     , (232,  62,       1) /* WeaponOffense */
-     , (232,  63,       1) /* DamageMod */
-     , (232, 147,       1) /* CriticalFrequency */
-     , (232, 149,       0) /* WeaponMissileDefense */
-     , (232, 150,       0) /* WeaponMagicDefense */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (232,   1, 'Tumerok Scout') /* Name */
-     , (232,  14, 'Use this item to close it.') /* Use */
-     , (232,  16, 'Killed by Mag-two.') /* LongDesc */
      , (232, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

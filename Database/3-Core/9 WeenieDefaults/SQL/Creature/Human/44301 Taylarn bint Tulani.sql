@@ -6,11 +6,9 @@ VALUES (44301, 'ace44301-taylarnbinttulani', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44301,   1,         16) /* ItemType - Creature */
      , (44301,   2,         31) /* CreatureType - Human */
-     , (44301,   5,         50) /* EncumbranceVal */
      , (44301,   6,        255) /* ItemsCapacity */
      , (44301,   7,        255) /* ContainersCapacity */
      , (44301,  16,         32) /* ItemUseable - Remote */
-     , (44301,  19,        500) /* Value */
      , (44301,  25,        200) /* Level */
      , (44301,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44301,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (44301,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44301,   1, 'Taylarn bint Tulani') /* Name */
      , (44301,   5, 'Arcanum Collector') /* Template */
-     , (44301,  14, 'This item is used in Summoning.') /* Use */
      , (44301, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

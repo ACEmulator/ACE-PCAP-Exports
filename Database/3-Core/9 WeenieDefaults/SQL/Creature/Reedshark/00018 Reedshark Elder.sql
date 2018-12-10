@@ -6,21 +6,12 @@ VALUES (18, 'reedsharkelder', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (18,   1,         16) /* ItemType - Creature */
      , (18,   2,         16) /* CreatureType - Reedshark */
-     , (18,   5,        255) /* EncumbranceVal */
      , (18,   6,        255) /* ItemsCapacity */
      , (18,   7,        255) /* ContainersCapacity */
      , (18,  16,          1) /* ItemUseable - No */
-     , (18,  19,       4227) /* Value */
      , (18,  25,         15) /* Level */
-     , (18,  28,        120) /* ArmorLevel */
      , (18,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (18, 105,          4) /* ItemWorkmanship */
-     , (18, 131,         52) /* MaterialType - Leather */
      , (18, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (18, 172,          1) /* AppraisalLongDescDecoration */
-     , (18, 307,         35) /* DamageRating */
-     , (18, 313,         30) /* CritRating */
-     , (18, 386,         10) /* Overpower */
      , (18, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -28,23 +19,13 @@ VALUES (18,   1, True ) /* Stuck */
      , (18,  12, True ) /* ReportCollisions */
      , (18,  13, False) /* Ethereal */
      , (18,  14, True ) /* GravityStatus */
-     , (18,  19, True ) /* Attackable */
-     , (18, 100, True ) /* Dyable */;
+     , (18,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (18,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (18,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (18,  15,       1) /* ArmorModVsBludgeon */
-     , (18,  16,     0.5) /* ArmorModVsCold */
-     , (18,  17,     0.5) /* ArmorModVsFire */
-     , (18,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (18,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (18,  39, 1.39999997615814) /* DefaultScale */
-     , (18, 165,       1) /* ArmorModVsNether */;
+VALUES (18,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (18,   1, 'Reedshark Elder') /* Name */
-     , (18,  16, 'Leather Girth') /* LongDesc */
      , (18, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

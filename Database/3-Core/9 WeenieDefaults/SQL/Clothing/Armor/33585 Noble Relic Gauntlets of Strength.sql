@@ -45,9 +45,7 @@ VALUES (33585,   5, -0.0165999997407198) /* ManaRate */
      , (33585, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33585,   1, 'Noble Relic Gauntlets of Strength') /* Name */
-     , (33585,   7, 'greg dont lose') /* Inscription */
-     , (33585,   8, 'Alex The Grate') /* ScribeName */;
+VALUES (33585,   1, 'Noble Relic Gauntlets of Strength') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33585,   1,   33554648) /* Setup */

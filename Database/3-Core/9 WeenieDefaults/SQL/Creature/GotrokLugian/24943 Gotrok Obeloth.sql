@@ -6,34 +6,12 @@ VALUES (24943, 'lugianobelothrenegade', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24943,   1,         16) /* ItemType - Creature */
      , (24943,   2,         70) /* CreatureType - GotrokLugian */
-     , (24943,   5,        465) /* EncumbranceVal */
      , (24943,   6,        255) /* ItemsCapacity */
      , (24943,   7,        255) /* ContainersCapacity */
      , (24943,  16,          1) /* ItemUseable - No */
-     , (24943,  19,      30545) /* Value */
      , (24943,  25,         30) /* Level */
-     , (24943,  28,        506) /* ArmorLevel */
-     , (24943,  36,       9999) /* ResistMagic */
      , (24943,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24943, 105,          6) /* ItemWorkmanship */
-     , (24943, 106,        370) /* ItemSpellcraft */
-     , (24943, 107,       1867) /* ItemCurMana */
-     , (24943, 108,       1867) /* ItemMaxMana */
-     , (24943, 109,         93) /* ItemDifficulty */
-     , (24943, 110,          0) /* ItemAllegianceRankLimit */
-     , (24943, 115,        390) /* ItemSkillLevelLimit */
-     , (24943, 131,         60) /* MaterialType - Gold */
      , (24943, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24943, 158,          2) /* WieldRequirements - RawSkill */
-     , (24943, 159,          7) /* WieldSkilltype - MissileDefense */
-     , (24943, 160,        340) /* WieldDifficulty */
-     , (24943, 172,          5) /* AppraisalLongDescDecoration */
-     , (24943, 176,          6) /* AppraisalItemSkill */
-     , (24943, 177,          2) /* GemCount */
-     , (24943, 178,         16) /* GemType */
-     , (24943, 270,          7) /* WieldRequirements2 - Level */
-     , (24943, 271,          1) /* WieldSkilltype2 - Axe */
-     , (24943, 272,        180) /* WieldDifficulty2 */
      , (24943, 307,          5) /* DamageRating */
      , (24943, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -42,23 +20,10 @@ VALUES (24943,   1, True ) /* Stuck */
      , (24943,  12, True ) /* ReportCollisions */
      , (24943,  13, False) /* Ethereal */
      , (24943,  14, True ) /* GravityStatus */
-     , (24943,  19, True ) /* Attackable */
-     , (24943, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24943,   5, -0.0666666666666667) /* ManaRate */
-     , (24943,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (24943,  14, 1.39999997615814) /* ArmorModVsPierce */
-     , (24943,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (24943,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (24943,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (24943,  18, 1.39999997615814) /* ArmorModVsAcid */
-     , (24943,  19, 0.600000023841858) /* ArmorModVsElectric */
-     , (24943, 165,       1) /* ArmorModVsNether */;
+     , (24943,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24943,   1, 'Gotrok Obeloth') /* Name */
-     , (24943,  16, 'Covenant Gauntlets of Coordination') /* LongDesc */
      , (24943, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -91,11 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24943,   1,   150, 0, 0, 150) /* MaxHealth */
      , (24943,   3,   350, 0, 0, 350) /* MaxStamina */
      , (24943,   5,    85, 0, 0, 85) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24943,  2059,      2) 
-     , (24943,  2529,      2) 
-     , (24943,  4407,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24943, 67113161, 0, 0);

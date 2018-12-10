@@ -6,89 +6,34 @@ VALUES (32992, 'ace32992-eddredthewolf', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32992,   1,         16) /* ItemType - Creature */
      , (32992,   2,         31) /* CreatureType - Human */
-     , (32992,   5,        417) /* EncumbranceVal */
      , (32992,   6,        255) /* ItemsCapacity */
      , (32992,   7,        255) /* ContainersCapacity */
      , (32992,  16,         32) /* ItemUseable - Remote */
-     , (32992,  19,      19897) /* Value */
      , (32992,  25,        100) /* Level */
-     , (32992,  28,        255) /* ArmorLevel */
-     , (32992,  33,          0) /* Bonded - Normal */
-     , (32992,  36,       9999) /* ResistMagic */
-     , (32992,  44,         46) /* Damage */
-     , (32992,  45,          4) /* DamageType - Bludgeon */
-     , (32992,  47,          4) /* AttackType - Slash */
-     , (32992,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (32992,  49,         30) /* WeaponTime */
-     , (32992,  91,         50) /* MaxStructure */
-     , (32992,  92,         50) /* Structure */
      , (32992,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32992,  95,          8) /* RadarBlipColor - Yellow */
-     , (32992, 105,          8) /* ItemWorkmanship */
-     , (32992, 106,        327) /* ItemSpellcraft */
-     , (32992, 107,       1618) /* ItemCurMana */
-     , (32992, 108,       1618) /* ItemMaxMana */
-     , (32992, 109,        153) /* ItemDifficulty */
-     , (32992, 110,          0) /* ItemAllegianceRankLimit */
      , (32992, 113,          1) /* Gender - Male */
-     , (32992, 114,          0) /* Attuned - Normal */
-     , (32992, 115,        347) /* ItemSkillLevelLimit */
-     , (32992, 131,         54) /* MaterialType - GromnieHide */
      , (32992, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32992, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32992, 158,          2) /* WieldRequirements - RawSkill */
-     , (32992, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (32992, 160,        350) /* WieldDifficulty */
-     , (32992, 172,          5) /* AppraisalLongDescDecoration */
-     , (32992, 176,          6) /* AppraisalItemSkill */
-     , (32992, 177,          2) /* GemCount */
-     , (32992, 178,         22) /* GemType */
      , (32992, 188,          1) /* HeritageGroup - Aluvian */
-     , (32992, 280,        213) /* SharedCooldown */
-     , (32992, 353,          4) /* WeaponType - Mace */
-     , (32992, 366,         54) /* UseRequiresSkill */
-     , (32992, 367,        430) /* UseRequiresSkillLevel */
-     , (32992, 369,        115) /* UseRequiresLevel */
-     , (32992, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (32992, 8030,          0);
+     , (32992, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32992,   1, True ) /* Stuck */
-     , (32992,   2, True ) /* Open */
      , (32992,  11, True ) /* IgnoreCollisions */
      , (32992,  12, True ) /* ReportCollisions */
      , (32992,  13, False) /* Ethereal */
      , (32992,  14, True ) /* GravityStatus */
      , (32992,  19, False) /* Attackable */
      , (32992,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (32992,  42, True ) /* AllowEdgeSlide */
-     , (32992,  69, True ) /* IsSellable */
-     , (32992, 100, True ) /* Dyable */;
+     , (32992,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (32992,   5, -0.0555555555555556) /* ManaRate */
-     , (32992,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (32992,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (32992,  15,       1) /* ArmorModVsBludgeon */
-     , (32992,  16,     0.5) /* ArmorModVsCold */
-     , (32992,  17,     0.5) /* ArmorModVsFire */
-     , (32992,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (32992,  19, 1.19610273838043) /* ArmorModVsElectric */
-     , (32992,  21,       0) /* WeaponLength */
-     , (32992,  22,    0.37) /* DamageVariance */
-     , (32992,  26,       0) /* MaximumVelocity */
-     , (32992,  29,    1.13) /* WeaponDefense */
-     , (32992,  54,       3) /* UseRadius */
-     , (32992,  62,    1.07) /* WeaponOffense */
-     , (32992,  63,       1) /* DamageMod */
-     , (32992, 165,       1) /* ArmorModVsNether */
-     , (32992, 167,      45) /* CooldownDuration */;
+VALUES (32992,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32992,   1, 'Eddred the Wolf') /* Name */
      , (32992,   5, 'Chapterhouse Chamberlain') /* Template */
-     , (32992,  14, 'Use this essence to summon or dismiss your Acid Skeleton Bushi.') /* Use */
-     , (32992,  16, 'Empyrean Over-robe') /* LongDesc */
      , (32992, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -126,21 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (32992,   1,   125, 0, 0, 125) /* MaxHealth */
      , (32992,   3,   250, 0, 0, 250) /* MaxStamina */
      , (32992,   5,   200, 0, 0, 200) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32992,  1332,      2) 
-     , (32992,  1485,      2) 
-     , (32992,  1562,      2) 
-     , (32992,  1574,      2) 
-     , (32992,  1616,      2) 
-     , (32992,  2087,      2) 
-     , (32992,  2108,      2) 
-     , (32992,  2550,      2) 
-     , (32992,  2558,      2) 
-     , (32992,  2559,      2) 
-     , (32992,  2608,      2) 
-     , (32992,  6121,      2) 
-     , (32992,  6135,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32992, 67109562, 0, 24)

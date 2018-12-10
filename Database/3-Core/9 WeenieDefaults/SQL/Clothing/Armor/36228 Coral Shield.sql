@@ -39,8 +39,6 @@ VALUES (36228,  13, 1.39999997615814) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36228,   1, 'Coral Shield') /* Name */
-     , (36228,   7, 'I''ve killed enough of these to make my own damn barrier reef') /* Inscription */
-     , (36228,   8, 'The Guardian of Lost Light') /* ScribeName */
      , (36228,  16, 'A shield made of the remnants of many Coral Golems. It appears to be held together by some sort of viscous water that offers protection against most types of damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -30,7 +30,6 @@ VALUES (35872,   1, False) /* Stuck */
      , (35872,  14, True ) /* GravityStatus */
      , (35872,  19, True ) /* Attackable */
      , (35872,  22, True ) /* Inscribable */
-     , (35872,  85, True ) /* AppraisalHasAllowedWielder */
      , (35872,  99, True ) /* Ivoryable */
      , (35872, 100, True ) /* Dyable */;
 
@@ -47,8 +46,7 @@ VALUES (35872,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35872,   1, 'Colosseum Master''s Robe') /* Name */
-     , (35872,  16, 'The elegant silken robes that once belonged to the fearsome Master of the Colosseum.') /* LongDesc */
-     , (35872,  25, 'Mystic Magistic') /* CraftsmanName */;
+     , (35872,  16, 'The elegant silken robes that once belonged to the fearsome Master of the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35872,   1,   33554854) /* Setup */

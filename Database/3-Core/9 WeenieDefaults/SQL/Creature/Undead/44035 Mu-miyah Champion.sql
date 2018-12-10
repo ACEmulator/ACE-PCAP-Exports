@@ -6,15 +6,10 @@ VALUES (44035, 'ace44035-mumiyahchampion', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44035,   1,         16) /* ItemType - Creature */
      , (44035,   2,         14) /* CreatureType - Undead */
-     , (44035,   5,         50) /* EncumbranceVal */
      , (44035,   6,        255) /* ItemsCapacity */
      , (44035,   7,        255) /* ContainersCapacity */
      , (44035,  16,          1) /* ItemUseable - No */
-     , (44035,  19,       1000) /* Value */
      , (44035,  25,        220) /* Level */
-     , (44035,  90,         20) /* BoostValue */
-     , (44035,  91,         40) /* MaxStructure */
-     , (44035,  92,         40) /* Structure */
      , (44035,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44035, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (44035, 307,          7) /* DamageRating */
@@ -30,8 +25,7 @@ VALUES (44035,   1, True ) /* Stuck */
      , (44035,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44035,  39, 1.20000004768372) /* DefaultScale */
-     , (44035, 100,    1.75) /* HealkitMod */;
+VALUES (44035,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44035,   1, 'Mu-miyah Champion') /* Name */

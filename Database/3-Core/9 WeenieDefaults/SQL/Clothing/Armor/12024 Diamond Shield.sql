@@ -44,8 +44,6 @@ VALUES (12024,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12024,   1, 'Diamond Shield') /* Name */
-     , (12024,   7, 'This space for rent - 1 M/patch') /* Inscription */
-     , (12024,   8, 'Lonsgard') /* ScribeName */
      , (12024,  16, 'A shield made of diamond.  It is incredibly resilient, and seems to be nigh unbreakable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

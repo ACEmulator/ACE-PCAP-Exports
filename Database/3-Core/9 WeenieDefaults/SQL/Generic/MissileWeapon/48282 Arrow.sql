@@ -5,7 +5,6 @@ VALUES (48282, 'ace48282-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48282,   1,        256) /* ItemType - MissileWeapon */
-     , (48282,   2,         77) /* CreatureType - Ghost */
      , (48282,   5,        715) /* EncumbranceVal */
      , (48282,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48282,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,11 +13,9 @@ VALUES (48282,   1,        256) /* ItemType - MissileWeapon */
      , (48282,  16,          1) /* ItemUseable - No */
      , (48282,  18,         64) /* UiEffects - Lightning */
      , (48282,  19,        143) /* Value */
-     , (48282,  25,        135) /* Level */
      , (48282,  33,         -2) /* Bonded - Destroy */
      , (48282,  44,        247) /* Damage */
      , (48282,  45,         64) /* DamageType - Electric */
-     , (48282,  47,          6) /* AttackType - Thrust, Slash */
      , (48282,  48,          0) /* WeaponSkill - None */
      , (48282,  49,         -1) /* WeaponTime */
      , (48282,  50,          1) /* AmmoType - Arrow */
@@ -34,7 +31,6 @@ VALUES (48282,   1,        256) /* ItemType - MissileWeapon */
      , (48282, 307,          7) /* DamageRating */
      , (48282, 313,          0) /* CritRating */
      , (48282, 314,          0) /* CritDamageRating */
-     , (48282, 353,          6) /* WeaponType - Dagger */
      , (48282, 386,          0) /* Overpower */
      , (48282, 8030,          0);
 
@@ -60,8 +56,7 @@ VALUES (48282,  21,       0) /* WeaponLength */
      , (48282, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48282,   1, 'Arrow') /* Name */
-     , (48282,  16, 'Killed by Callaway.') /* LongDesc */;
+VALUES (48282,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48282,   1,   33555709) /* Setup */
@@ -82,19 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48282,   3, 3694709342) /* Wielder */
      , (48282, 8000, 3695564249) /* PCAPRecordedObjectIID */
      , (48282, 8008, 3694709342) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48282,   1, 330, 0, 0) /* Strength */
-     , (48282,   2, 270, 0, 0) /* Endurance */
-     , (48282,   3, 360, 0, 0) /* Quickness */
-     , (48282,   4, 360, 0, 0) /* Coordination */
-     , (48282,   5, 320, 0, 0) /* Focus */
-     , (48282,   6, 320, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48282,   1,   635, 0, 0, 635) /* MaxHealth */
-     , (48282,   3,   270, 0, 0, 270) /* MaxStamina */
-     , (48282,   5,   670, 0, 0, 670) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48282, 67111923, 0, 0);

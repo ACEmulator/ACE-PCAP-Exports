@@ -6,15 +6,12 @@ VALUES (4247, 'moarsmanfoul', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4247,   1,         16) /* ItemType - Creature */
      , (4247,   2,         34) /* CreatureType - Moarsman */
-     , (4247,   5,          0) /* EncumbranceVal */
      , (4247,   6,        255) /* ItemsCapacity */
      , (4247,   7,        255) /* ContainersCapacity */
      , (4247,  16,          1) /* ItemUseable - No */
-     , (4247,  19,       2700) /* Value */
      , (4247,  25,         80) /* Level */
      , (4247,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4247, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4247, 307,          5) /* DamageRating */
      , (4247, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

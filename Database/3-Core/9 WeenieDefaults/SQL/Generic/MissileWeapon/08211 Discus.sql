@@ -11,7 +11,6 @@ VALUES (8211,   1,        256) /* ItemType - MissileWeapon */
      , (8211,  12,        250) /* StackSize */
      , (8211,  16,          1) /* ItemUseable - No */
      , (8211,  19,       2000) /* Value */
-     , (8211,  33,          1) /* Bonded - Bonded */
      , (8211,  44,         16) /* Damage */
      , (8211,  45,          1) /* DamageType - Slash */
      , (8211,  48,         47) /* WeaponSkill - MissileWeapons */
@@ -19,16 +18,7 @@ VALUES (8211,   1,        256) /* ItemType - MissileWeapon */
      , (8211,  51,          2) /* CombatUse - Missle */
      , (8211,  65,        101) /* Placement - Resting */
      , (8211,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (8211, 106,        325) /* ItemSpellcraft */
-     , (8211, 107,       1000) /* ItemCurMana */
-     , (8211, 108,       1000) /* ItemMaxMana */
-     , (8211, 109,          0) /* ItemDifficulty */
-     , (8211, 114,          0) /* Attuned - Normal */
      , (8211, 151,          2) /* HookType - Wall */
-     , (8211, 158,          7) /* WieldRequirements - Level */
-     , (8211, 159,          1) /* WieldSkilltype - Axe */
-     , (8211, 160,        150) /* WieldDifficulty */
-     , (8211, 265,          9) /* EquipmentSetId - EmpyreanRings */
      , (8211, 353,         10) /* WeaponType - Thrown */
      , (8211, 8030,          0);
 
@@ -38,13 +28,10 @@ VALUES (8211,   1, False) /* Stuck */
      , (8211,  13, True ) /* Ethereal */
      , (8211,  14, True ) /* GravityStatus */
      , (8211,  17, True ) /* Inelastic */
-     , (8211,  19, True ) /* Attackable */
-     , (8211,  85, True ) /* AppraisalHasAllowedWielder */
-     , (8211,  99, False) /* Ivoryable */;
+     , (8211,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8211,   5, -0.033333) /* ManaRate */
-     , (8211,  21,       0) /* WeaponLength */
+VALUES (8211,  21,       0) /* WeaponLength */
      , (8211,  22,     0.5) /* DamageVariance */
      , (8211,  26,       0) /* MaximumVelocity */
      , (8211,  29,       1) /* WeaponDefense */
@@ -56,9 +43,7 @@ VALUES (8211,   5, -0.033333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8211,   1, 'Discus') /* Name */
-     , (8211,  14, 'One of the five Empyrean Rings. Any two combine for an additional spell set.') /* Use */
-     , (8211,  16, 'A metal ring, with decorative Empyrean inscriptions around the rim. This seems to be a thrown weapon.') /* LongDesc */
-     , (8211,  25, 'Widgeon V') /* CraftsmanName */;
+     , (8211,  16, 'A metal ring, with decorative Empyrean inscriptions around the rim. This seems to be a thrown weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8211,   1,   33556852) /* Setup */
@@ -73,10 +58,6 @@ VALUES (8211,   1,   33556852) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8211,   2, 1342814975) /* Container */
      , (8211, 8000, 3683069695) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8211,  2666,      2) 
-     , (8211,  3982,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8211, 67111926, 0, 0);

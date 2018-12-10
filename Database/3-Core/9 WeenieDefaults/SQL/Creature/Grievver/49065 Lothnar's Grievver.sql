@@ -6,25 +6,12 @@ VALUES (49065, 'ace49065-lothnarsgrievver', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49065,   1,         16) /* ItemType - Creature */
      , (49065,   2,         44) /* CreatureType - Grievver */
-     , (49065,   5,         10) /* EncumbranceVal */
      , (49065,   6,        255) /* ItemsCapacity */
      , (49065,   7,        255) /* ContainersCapacity */
      , (49065,  16,          1) /* ItemUseable - No */
-     , (49065,  19,          0) /* Value */
      , (49065,  25,        200) /* Level */
-     , (49065,  33,          1) /* Bonded - Bonded */
      , (49065,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
-     , (49065, 105,          7) /* ItemWorkmanship */
-     , (49065, 106,        260) /* ItemSpellcraft */
-     , (49065, 107,       1984) /* ItemCurMana */
-     , (49065, 108,       1984) /* ItemMaxMana */
-     , (49065, 109,        266) /* ItemDifficulty */
-     , (49065, 110,          0) /* ItemAllegianceRankLimit */
-     , (49065, 114,          1) /* Attuned - Attuned */
-     , (49065, 115,          0) /* ItemSkillLevelLimit */
-     , (49065, 131,         59) /* MaterialType - Copper */
      , (49065, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49065, 172,          1) /* AppraisalLongDescDecoration */
      , (49065, 307,         20) /* DamageRating */
      , (49065, 308,         13) /* DamageResistRating */
      , (49065, 313,         15) /* CritRating */
@@ -41,13 +28,11 @@ VALUES (49065,   1, True ) /* Stuck */
      , (49065,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (49065,   5, -0.0555555555555556) /* ManaRate */
-     , (49065,  39, 1.10000002384186) /* DefaultScale */
+VALUES (49065,  39, 1.10000002384186) /* DefaultScale */
      , (49065,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49065,   1, 'Lothnar''s Grievver') /* Name */
-     , (49065,  16, 'Give this to the Master Arbitor for a new Title.') /* LongDesc */
      , (49065, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -83,10 +68,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49065,   1,  1370, 0, 0, 1370) /* MaxHealth */
      , (49065,   3,  1740, 0, 0, 1735) /* MaxStamina */
      , (49065,   5,  1070, 0, 0, 1070) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49065,   520,      2) 
-     , (49065,  5072,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49065, 67113742, 0, 0);

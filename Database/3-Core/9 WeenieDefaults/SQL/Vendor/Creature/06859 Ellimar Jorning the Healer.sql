@@ -6,11 +6,9 @@ VALUES (6859, 'ayanbaqurhealer', 12) /* Vendor */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6859,   1,         16) /* ItemType - Creature */
      , (6859,   2,         31) /* CreatureType - Human */
-     , (6859,   5,         30) /* EncumbranceVal */
      , (6859,   6,        255) /* ItemsCapacity */
      , (6859,   7,        255) /* ContainersCapacity */
      , (6859,  16,         32) /* ItemUseable - Remote */
-     , (6859,  19,       2000) /* Value */
      , (6859,  25,         21) /* Level */
      , (6859,  74,     266368) /* MerchandiseItemTypes - Misc, SpellComponents, PromissoryNote */
      , (6859,  75,          0) /* MerchandiseMinValue */
@@ -40,9 +38,6 @@ VALUES (6859,  37, 0.699999988079071) /* BuyPrice */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6859,   1, 'Ellimar Jorning the Healer') /* Name */
      , (6859,   5, 'Healer') /* Template */
-     , (6859,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (6859,  16, 'Inscribed spell: Storm''s Boon
-Reduces damage the target takes from Lightning by 65%.') /* LongDesc */
      , (6859, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -80,9 +75,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (6859,   1,   120, 0, 0, 120) /* MaxHealth */
      , (6859,   3,   220, 0, 0, 220) /* MaxStamina */
      , (6859,   5,   250, 0, 0, 250) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6859,  2158,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6859, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */

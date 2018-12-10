@@ -10,7 +10,6 @@ VALUES (26023,   1,          1) /* ItemType - MeleeWeapon */
      , (26023,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (26023,  16,          1) /* ItemUseable - No */
      , (26023,  19,        750) /* Value */
-     , (26023,  28,          0) /* ArmorLevel */
      , (26023,  33,         -2) /* Bonded - Destroy */
      , (26023,  44,         -1) /* Damage */
      , (26023,  45,          0) /* DamageType - Undef */
@@ -20,17 +19,8 @@ VALUES (26023,   1,          1) /* ItemType - MeleeWeapon */
      , (26023,  51,          1) /* CombatUse - Melee */
      , (26023,  65,          1) /* Placement - RightHandCombat */
      , (26023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (26023, 105,          8) /* ItemWorkmanship */
-     , (26023, 131,          4) /* MaterialType - Linen */
      , (26023, 151,          2) /* HookType - Wall */
-     , (26023, 172,          5) /* AppraisalLongDescDecoration */
-     , (26023, 177,          1) /* GemCount */
-     , (26023, 178,         13) /* GemType */
-     , (26023, 307,          5) /* DamageRating */
-     , (26023, 313,          0) /* CritRating */
-     , (26023, 314,          0) /* CritDamageRating */
      , (26023, 353,          3) /* WeaponType - Axe */
-     , (26023, 386,          0) /* Overpower */
      , (26023, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,31 +29,18 @@ VALUES (26023,   1, False) /* Stuck */
      , (26023,  13, True ) /* Ethereal */
      , (26023,  14, True ) /* GravityStatus */
      , (26023,  19, True ) /* Attackable */
-     , (26023,  22, True ) /* Inscribable */
-     , (26023, 100, True ) /* Dyable */;
+     , (26023,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26023,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (26023,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (26023,  15,       1) /* ArmorModVsBludgeon */
-     , (26023,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (26023,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (26023,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (26023,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (26023,  21,       0) /* WeaponLength */
+VALUES (26023,  21,       0) /* WeaponLength */
      , (26023,  22,    0.25) /* DamageVariance */
      , (26023,  26,       0) /* MaximumVelocity */
      , (26023,  29,       1) /* WeaponDefense */
      , (26023,  62,       1) /* WeaponOffense */
-     , (26023,  63,       1) /* DamageMod */
-     , (26023, 147,       1) /* CriticalFrequency */
-     , (26023, 149,       0) /* WeaponMissileDefense */
-     , (26023, 150,       0) /* WeaponMagicDefense */
-     , (26023, 165,       1) /* ArmorModVsNether */;
+     , (26023,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26023,   1, 'Stone Axe') /* Name */
-     , (26023,  16, 'Doublet') /* LongDesc */;
+VALUES (26023,   1, 'Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26023,   1,   33558583) /* Setup */

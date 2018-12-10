@@ -5,14 +5,12 @@ VALUES (12069, 'knifefirebandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12069,   1,          1) /* ItemType - MeleeWeapon */
-     , (12069,   2,          1) /* CreatureType - Olthoi */
      , (12069,   5,         38) /* EncumbranceVal */
      , (12069,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12069,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12069,  16,          1) /* ItemUseable - No */
      , (12069,  18,         32) /* UiEffects - Fire */
      , (12069,  19,        100) /* Value */
-     , (12069,  25,         80) /* Level */
      , (12069,  51,          1) /* CombatUse - Melee */
      , (12069,  65,          1) /* Placement - RightHandCombat */
      , (12069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -49,6 +47,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12069,   3, 3706878009) /* Wielder */
      , (12069, 8000, 3706878027) /* PCAPRecordedObjectIID */
      , (12069, 8008, 3706878009) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12069,   1,   275, 0, 0, 275) /* MaxHealth */;

@@ -10,21 +10,10 @@ VALUES (26022,   1,          1) /* ItemType - MeleeWeapon */
      , (26022,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (26022,  16,          1) /* ItemUseable - No */
      , (26022,  19,        750) /* Value */
-     , (26022,  33,          0) /* Bonded - Normal */
      , (26022,  51,          1) /* CombatUse - Melee */
      , (26022,  65,          1) /* Placement - RightHandCombat */
-     , (26022,  91,         50) /* MaxStructure */
-     , (26022,  92,         50) /* Structure */
      , (26022,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (26022, 105,          5) /* ItemWorkmanship */
-     , (26022, 114,          0) /* Attuned - Normal */
-     , (26022, 151,          2) /* HookType - Wall */
-     , (26022, 280,        213) /* SharedCooldown */
-     , (26022, 366,         54) /* UseRequiresSkill */
-     , (26022, 367,        530) /* UseRequiresSkillLevel */
-     , (26022, 369,        170) /* UseRequiresLevel */
-     , (26022, 370,         15) /* GearDamage */
-     , (26022, 372,          7) /* GearCrit */;
+     , (26022, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26022,   1, False) /* Stuck */
@@ -32,16 +21,10 @@ VALUES (26022,   1, False) /* Stuck */
      , (26022,  13, True ) /* Ethereal */
      , (26022,  14, True ) /* GravityStatus */
      , (26022,  19, True ) /* Attackable */
-     , (26022,  22, True ) /* Inscribable */
-     , (26022,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26022, 167,      45) /* CooldownDuration */;
+     , (26022,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26022,   1, 'Stone Axe') /* Name */
-     , (26022,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */
-     , (26022,  16, 'Killed by Sunrise Adams.') /* LongDesc */;
+VALUES (26022,   1, 'Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26022,   1,   33558583) /* Setup */

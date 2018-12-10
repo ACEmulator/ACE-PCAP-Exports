@@ -41,7 +41,7 @@ VALUES (30196,   1,   33554809) /* Setup */
      , (30196,   3,  536870932) /* SoundTable */
      , (30196,   8,  100686698) /* Icon */
      , (30196,  22,  872415275) /* PhysicsEffectTable */
-     , (30196,  28,       3694) /* Spell */
+     , (30196,  28,       3694) /* Spell - CoordinationRare */
      , (30196,  50,  100686641) /* IconOverlay */
      , (30196,  52,  100686604) /* IconUnderlay */
      , (30196, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

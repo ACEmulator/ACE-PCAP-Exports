@@ -29,7 +29,6 @@ VALUES (28046,   1, False) /* Stuck */
      , (28046,  14, True ) /* GravityStatus */
      , (28046,  19, True ) /* Attackable */
      , (28046,  22, True ) /* Inscribable */
-     , (28046,  85, True ) /* AppraisalHasAllowedWielder */
      , (28046,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,8 +44,7 @@ VALUES (28046,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28046,   1, 'Aerfalle''s Supreme Pallium') /* Name */
-     , (28046,  16, 'A black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LongDesc */
-     , (28046,  25, 'Lonsgard') /* CraftsmanName */;
+     , (28046,  16, 'A black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28046,   1,   33554854) /* Setup */

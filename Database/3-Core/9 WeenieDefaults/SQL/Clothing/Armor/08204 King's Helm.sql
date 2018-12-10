@@ -42,8 +42,6 @@ VALUES (8204,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8204,   1, 'King''s Helm') /* Name */
-     , (8204,   7, 'AL 230, Dagger Mastery IV') /* Inscription */
-     , (8204,   8, 'Kil''jaedon') /* ScribeName */
      , (8204,  16, 'A finely crafted mask with the features of the legendary high king Pwyll upon it. It is a testament to the skill of its maker -- the features almost look life-like, and it is a comfortable fit on your head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

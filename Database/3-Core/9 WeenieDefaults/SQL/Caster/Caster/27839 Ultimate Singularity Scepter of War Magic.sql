@@ -40,8 +40,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27839,   5, -0.0329999998211861) /* ManaRate */
      , (27839,  29, 1.08000004291534) /* WeaponDefense */
      , (27839, 144, 0.0799999982118607) /* ManaConversionMod */
-     , (27839, 147,       1) /* CriticalFrequency */
-     , (27839, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (27839, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27839,   1, 'Ultimate Singularity Scepter of War Magic') /* Name */

@@ -23,8 +23,6 @@ VALUES (38043,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38043,   1, 'Diplomatic Message from Harlune') /* Name */
-     , (38043,   7, 'harlune''s diplomacy quest') /* Inscription */
-     , (38043,   8, 'Callaway') /* ScribeName */
      , (38043,  14, 'Give this note to the Falatacot Herald in the Falatacot Visitor''s Alcove.') /* Use */
      , (38043,  16, 'This official diplomatic message from Harlune is written in three languages.  Two versions are in what you''d guess to be Empyrean and Ancient Falatacot, but the third is in Roulean...unfortunately.  You''ve never seen a cruder, irreverent, more spiteful letter in your life.  This letter was designed by a master to anger whoever it is addressed to.') /* LongDesc */;
 

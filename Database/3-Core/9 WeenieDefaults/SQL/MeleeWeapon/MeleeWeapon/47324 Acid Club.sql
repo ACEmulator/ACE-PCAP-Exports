@@ -11,32 +11,10 @@ VALUES (47324,   1,          1) /* ItemType - MeleeWeapon */
      , (47324,  16,          1) /* ItemUseable - No */
      , (47324,  18,        256) /* UiEffects - Acid */
      , (47324,  19,        350) /* Value */
-     , (47324,  44,         53) /* Damage */
-     , (47324,  45,          4) /* DamageType - Bludgeon */
-     , (47324,  47,          4) /* AttackType - Slash */
-     , (47324,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (47324,  49,         22) /* WeaponTime */
      , (47324,  51,          1) /* CombatUse - Melee */
      , (47324,  65,          1) /* Placement - RightHandCombat */
      , (47324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47324, 105,          9) /* ItemWorkmanship */
-     , (47324, 106,        370) /* ItemSpellcraft */
-     , (47324, 107,       1965) /* ItemCurMana */
-     , (47324, 108,       1965) /* ItemMaxMana */
-     , (47324, 109,        223) /* ItemDifficulty */
-     , (47324, 110,          0) /* ItemAllegianceRankLimit */
-     , (47324, 115,        390) /* ItemSkillLevelLimit */
-     , (47324, 131,         51) /* MaterialType - Ivory */
-     , (47324, 151,          2) /* HookType - Wall */
-     , (47324, 158,          2) /* WieldRequirements - RawSkill */
-     , (47324, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (47324, 160,        420) /* WieldDifficulty */
-     , (47324, 172,          5) /* AppraisalLongDescDecoration */
-     , (47324, 176,         46) /* AppraisalItemSkill */
-     , (47324, 177,          2) /* GemCount */
-     , (47324, 178,         38) /* GemType */
-     , (47324, 353,          4) /* WeaponType - Mace */
-     , (47324, 8030,          0);
+     , (47324, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47324,   1, False) /* Stuck */
@@ -46,18 +24,8 @@ VALUES (47324,   1, False) /* Stuck */
      , (47324,  19, True ) /* Attackable */
      , (47324,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47324,   5, -0.0666666666666667) /* ManaRate */
-     , (47324,  21,       0) /* WeaponLength */
-     , (47324,  22,    0.37) /* DamageVariance */
-     , (47324,  26,       0) /* MaximumVelocity */
-     , (47324,  29,     1.2) /* WeaponDefense */
-     , (47324,  62,    1.14) /* WeaponOffense */
-     , (47324,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47324,   1, 'Acid Club') /* Name */
-     , (47324,  16, 'Tofun of Blooddrinker') /* LongDesc */;
+VALUES (47324,   1, 'Acid Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47324,   1,   33555727) /* Setup */
@@ -77,8 +45,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47324,   3, 3685093752) /* Wielder */
      , (47324, 8000, 3684922730) /* PCAPRecordedObjectIID */
      , (47324, 8008, 3685093752) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47324,  4395,      2) 
-     , (47324,  5809,      2) 
-     , (47324,  6062,      2) ;

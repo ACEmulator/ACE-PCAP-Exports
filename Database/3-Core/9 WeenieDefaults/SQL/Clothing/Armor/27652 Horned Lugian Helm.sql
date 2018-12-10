@@ -45,8 +45,6 @@ VALUES (27652,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27652,   1, 'Horned Lugian Helm') /* Name */
-     , (27652,   7, '--') /* Inscription */
-     , (27652,   8, 'Azrakin') /* ScribeName */
      , (27652,  15, 'A horned helm taken from the Renegade Lugian, General Fostok.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

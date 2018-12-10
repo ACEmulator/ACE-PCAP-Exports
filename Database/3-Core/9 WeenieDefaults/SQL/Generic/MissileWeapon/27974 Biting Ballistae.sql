@@ -51,8 +51,6 @@ VALUES (27974,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27974,   1, 'Biting Ballistae') /* Name */
-     , (27974,   7, '.') /* Inscription */
-     , (27974,   8, 'Genacide X') /* ScribeName */
      , (27974,  16, 'A Crossbow crafted in Falatacot times. This weapon was crafted for the sole purpose of killing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28013,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28013,   1, 'Scroll of Spirit Loather V') /* Name */;
+VALUES (28013,   1, 'Scroll of Spirit Loather V') /* Name */
+     , (28013,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (28013,  16, 'Inscribed spell: Spirit Loather V
+Decreases the elemental damage bonus of an elemental magic caster by 5%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28013,   1,   33554826) /* Setup */
      , (28013,   8,  100676675) /* Icon */
      , (28013,  22,  872415275) /* PhysicsEffectTable */
-     , (28013,  28,       3264) /* Spell */
+     , (28013,  28,       3264) /* Spell - SpiritLoather5 */
      , (28013, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (28013, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28013, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (28013,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28013,   2, 2618138723) /* Container */
      , (28013, 8000, 2618138715) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (28013,  3264,      2) ;

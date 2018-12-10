@@ -29,8 +29,6 @@ VALUES (12261,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12261,   1, 'Ecorto''s Chisel') /* Name */
-     , (12261,   7, 'Ecorto the Lost Director tells you, Find the repositories of the New Singularity in the desert, the southern mountains and the Obsidian Plains, human.  Take this chisel, scrape slivers from the pillars they assemble, and bring the joined elements back to me...') /* Inscription */
-     , (12261,   8, 'Triumph') /* ScribeName */
      , (12261,  14, 'Use this item to chip slivers of Singular material.') /* Use */
      , (12261,  16, 'A tool provided by Ecorto the Lost Director.') /* LongDesc */;
 

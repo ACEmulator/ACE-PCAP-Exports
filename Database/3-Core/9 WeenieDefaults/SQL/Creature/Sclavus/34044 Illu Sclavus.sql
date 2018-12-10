@@ -6,17 +6,11 @@ VALUES (34044, 'ace34044-illusclavus', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34044,   1,         16) /* ItemType - Creature */
      , (34044,   2,         26) /* CreatureType - Sclavus */
-     , (34044,   5,       6979) /* EncumbranceVal */
      , (34044,   6,        255) /* ItemsCapacity */
      , (34044,   7,        255) /* ContainersCapacity */
      , (34044,  16,          1) /* ItemUseable - No */
-     , (34044,  19,          0) /* Value */
      , (34044,  25,        185) /* Level */
-     , (34044,  26,          0) /* AccountRequirements - No_Subscription */
-     , (34044,  86,         -1) /* MinLevel */
-     , (34044,  87,         -1) /* MaxLevel */
      , (34044,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (34044, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (34044, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (34044, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -32,9 +26,6 @@ VALUES (34044,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34044,   1, 'Illu Sclavus') /* Name */
-     , (34044,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */
-     , (34044,  16, 'Killed by Mag-three.') /* LongDesc */
-     , (34044,  38, 'Gateway') /* AppraisalPortalDestination */
      , (34044, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

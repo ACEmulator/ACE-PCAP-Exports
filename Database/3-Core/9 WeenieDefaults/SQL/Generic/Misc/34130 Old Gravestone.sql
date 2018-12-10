@@ -5,11 +5,8 @@ VALUES (34130, 'ace34130-oldgravestone', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34130,   1,        128) /* ItemType - Misc */
-     , (34130,   2,         22) /* CreatureType - Shadow */
      , (34130,  16,         48) /* ItemUseable - ViewedRemote */
-     , (34130,  25,        240) /* Level */
      , (34130,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
-     , (34130, 113,          1) /* Gender - Male */
      , (34130, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,6 +38,3 @@ VALUES (34130, 8040, 2291990533, 7.932512, 101.0394, 133.8211, 0.5523583, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34130, 8000, 3693089305) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34130,   1,  2830, 0, 0, 2830) /* MaxHealth */;

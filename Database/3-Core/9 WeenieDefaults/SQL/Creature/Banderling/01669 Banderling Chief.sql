@@ -6,11 +6,9 @@ VALUES (1669, 'banderlingchief', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1669,   1,         16) /* ItemType - Creature */
      , (1669,   2,          2) /* CreatureType - Banderling */
-     , (1669,   5,       6517) /* EncumbranceVal */
      , (1669,   6,        255) /* ItemsCapacity */
      , (1669,   7,        255) /* ContainersCapacity */
      , (1669,  16,          1) /* ItemUseable - No */
-     , (1669,  19,          0) /* Value */
      , (1669,  25,         20) /* Level */
      , (1669,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1669, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -19,7 +17,6 @@ VALUES (1669,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1669,   1, True ) /* Stuck */
-     , (1669,   2, False) /* Open */
      , (1669,  12, True ) /* ReportCollisions */
      , (1669,  13, False) /* Ethereal */
      , (1669,  14, True ) /* GravityStatus */
@@ -30,7 +27,6 @@ VALUES (1669,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1669,   1, 'Banderling Chief') /* Name */
-     , (1669,  16, 'Killed by Midori Aoi.') /* LongDesc */
      , (1669, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -26,7 +26,6 @@ VALUES (49288,   1,        128) /* ItemType - Misc */
      , (49288, 371,         15) /* GearDamageResist */
      , (49288, 372,          9) /* GearCrit */
      , (49288, 373,         11) /* GearCritResist */
-     , (49288, 374,         19) /* GearCritDamage */
      , (49288, 375,         16) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,8 +43,6 @@ VALUES (49288,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49288,   1, 'K''nath Y''nda Essence') /* Name */
-     , (49288,   7, '55') /* Inscription */
-     , (49288,   8, 'Nihao Storage') /* ScribeName */
      , (49288,  14, 'Use this essence to summon or dismiss your K''nath Y''nda.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

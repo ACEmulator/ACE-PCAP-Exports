@@ -24,8 +24,6 @@ VALUES (1533,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1533,   1, 'Small Rusted Key') /* Name */
-     , (1533,   7, NULL) /* Inscription */
-     , (1533,   8, NULL) /* ScribeName */
      , (1533,  14, 'Use this item on a locked door to unlock it.') /* Use */
      , (1533,  16, 'This key is badly rusted. It will open the door to Colier Mine.') /* LongDesc */;
 

@@ -11,18 +11,9 @@ VALUES (43933,   1,          2) /* ItemType - Armor */
      , (43933,  16,          1) /* ItemUseable - No */
      , (43933,  18,          1) /* UiEffects - Magical */
      , (43933,  19,      20000) /* Value */
-     , (43933,  28,        660) /* ArmorLevel */
      , (43933,  65,        101) /* Placement - Resting */
      , (43933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43933, 106,        400) /* ItemSpellcraft */
-     , (43933, 107,          0) /* ItemCurMana */
-     , (43933, 108,        800) /* ItemMaxMana */
-     , (43933, 109,        200) /* ItemDifficulty */
-     , (43933, 151,          2) /* HookType - Wall */
-     , (43933, 158,          7) /* WieldRequirements - Level */
-     , (43933, 159,          1) /* WieldSkilltype - Axe */
-     , (43933, 160,        180) /* WieldDifficulty */
-     , (43933, 265,         48) /* EquipmentSetId - NobleRelicUpgrade */;
+     , (43933, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43933,   1, False) /* Stuck */
@@ -31,17 +22,6 @@ VALUES (43933,   1, False) /* Stuck */
      , (43933,  14, True ) /* GravityStatus */
      , (43933,  19, True ) /* Attackable */
      , (43933,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43933,   5, -0.0165999997407198) /* ManaRate */
-     , (43933,  13, 3.20000004768372) /* ArmorModVsSlash */
-     , (43933,  14, 3.20000004768372) /* ArmorModVsPierce */
-     , (43933,  15, 3.40000009536743) /* ArmorModVsBludgeon */
-     , (43933,  16, 3.40000009536743) /* ArmorModVsCold */
-     , (43933,  17,       3) /* ArmorModVsFire */
-     , (43933,  18, 2.90000009536743) /* ArmorModVsAcid */
-     , (43933,  19, 2.90000009536743) /* ArmorModVsElectric */
-     , (43933, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43933,   1, 'Helmet') /* Name */;
@@ -59,11 +39,6 @@ VALUES (43933,   1,   33554650) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43933,   2, 1343160931) /* Container */
      , (43933, 8000, 2925459494) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43933,  2577,      2) 
-     , (43933,  4407,      2) 
-     , (43933,  4521,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43933, 67110540, 240, 10);

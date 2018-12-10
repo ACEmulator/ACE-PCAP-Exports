@@ -5,12 +5,7 @@ VALUES (33864, 'ace33864-frostwave', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33864,   1,          0) /* ItemType - None */
-     , (33864,   5,          5) /* EncumbranceVal */
-     , (33864,  19,        208) /* Value */
-     , (33864,  93,    1179700) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw, Inelastic, Cloaked */
-     , (33864, 105,          5) /* ItemWorkmanship */
-     , (33864, 131,         27) /* MaterialType - Jet */
-     , (33864, 172,          1) /* AppraisalLongDescDecoration */;
+     , (33864,  93,    1179700) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw, Inelastic, Cloaked */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33864,   1, True ) /* Stuck */
@@ -29,14 +24,13 @@ VALUES (33864,  78,       1) /* Friction */
      , (33864, 8012, -1.59094393253326) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33864,   1, 'Frost Wave') /* Name */
-     , (33864,  16, 'Gem') /* LongDesc */;
+VALUES (33864,   1, 'Frost Wave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33864,   1,   33560056) /* Setup */
      , (33864,   3,  536870966) /* SoundTable */
      , (33864,   8,  100667494) /* Icon */
-     , (33864,  28,         28) /* Spell */
+     , (33864,  28,         28) /* Spell - FrostBolt1 */
      , (33864, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33864, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33864, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;

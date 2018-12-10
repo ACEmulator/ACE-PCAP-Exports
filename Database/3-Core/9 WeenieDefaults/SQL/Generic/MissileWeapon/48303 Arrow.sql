@@ -56,8 +56,7 @@ VALUES (48303,  21,       0) /* WeaponLength */
      , (48303, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48303,   1, 'Arrow') /* Name */
-     , (48303,  16, 'Killed by Chatlin.') /* LongDesc */;
+VALUES (48303,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48303,   1,   33555406) /* Setup */

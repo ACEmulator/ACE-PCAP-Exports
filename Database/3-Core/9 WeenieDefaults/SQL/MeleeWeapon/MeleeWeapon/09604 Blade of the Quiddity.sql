@@ -47,8 +47,6 @@ VALUES (9604,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9604,   1, 'Blade of the Quiddity') /* Name */
-     , (9604,   7, 'Looks do not define functionality.....') /* Inscription */
-     , (9604,   8, 'Gryphon') /* ScribeName */
      , (9604,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

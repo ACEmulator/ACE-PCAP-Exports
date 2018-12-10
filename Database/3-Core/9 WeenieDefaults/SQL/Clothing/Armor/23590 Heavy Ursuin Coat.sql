@@ -40,8 +40,6 @@ VALUES (23590,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23590,   1, 'Heavy Ursuin Coat') /* Name */
-     , (23590,   7, 'Fenn') /* Inscription */
-     , (23590,   8, 'Fenn') /* ScribeName */
      , (23590,  16, 'Some tattered shreds of the Dread Ursuin''s pelt that you have managed to assemble into a coat.  The creature''s healing ability seems to have not gone away with its death, allowing for the coat to seal itself as you watch.  It''s actually quite morbid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

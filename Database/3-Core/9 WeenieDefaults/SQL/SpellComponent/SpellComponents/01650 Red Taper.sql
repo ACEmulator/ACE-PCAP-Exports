@@ -5,13 +5,11 @@ VALUES (1650, 'taperred', 32) /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1650,   1,       4096) /* ItemType - SpellComponents */
-     , (1650,   2,         78) /* CreatureType - Fiun */
      , (1650,   5,         12) /* EncumbranceVal */
      , (1650,  11,        100) /* MaxStackSize */
      , (1650,  12,          3) /* StackSize */
      , (1650,  16,          1) /* ItemUseable - No */
      , (1650,  19,         75) /* Value */
-     , (1650,  25,        115) /* Level */
      , (1650,  65,        101) /* Placement - Resting */
      , (1650,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -37,9 +35,6 @@ VALUES (1650,   1,   33555445) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1650,   2, 2856726432) /* Container */
      , (1650, 8000, 2856726434) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1650,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (1650, 0, 83890928, 83890931);

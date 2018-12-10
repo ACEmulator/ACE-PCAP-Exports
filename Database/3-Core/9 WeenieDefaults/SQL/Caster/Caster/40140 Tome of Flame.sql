@@ -41,13 +41,6 @@ VALUES (40140,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40140,   1, 'Tome of Flame') /* Name */
-     , (40140,   7, '
-
-For my friend to use.
-
-
-') /* Inscription */
-     , (40140,   8, 'Taxus') /* ScribeName */
      , (40140,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -56,7 +49,7 @@ VALUES (40140,   1,   33560706) /* Setup */
      , (40140,   6,   67115357) /* PaletteBase */
      , (40140,   8,  100690368) /* Icon */
      , (40140,  22,  872415275) /* PhysicsEffectTable */
-     , (40140,  28,       4315) /* Spell */
+     , (40140,  28,       4315) /* Spell - ManaBoostSelf8 */
      , (40140, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (40140, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40140, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */

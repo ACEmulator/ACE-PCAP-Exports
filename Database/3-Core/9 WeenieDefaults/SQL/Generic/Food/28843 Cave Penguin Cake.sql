@@ -36,7 +36,7 @@ VALUES (28843,   1,   33555193) /* Setup */
      , (28843,   3,  536870932) /* SoundTable */
      , (28843,   8,  100686397) /* Icon */
      , (28843,  22,  872415275) /* PhysicsEffectTable */
-     , (28843,  28,       3569) /* Spell */
+     , (28843,  28,       3569) /* Spell - ManaUp10Percent */
      , (28843, 8001,    6303769) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden, Spell */
      , (28843, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (28843, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

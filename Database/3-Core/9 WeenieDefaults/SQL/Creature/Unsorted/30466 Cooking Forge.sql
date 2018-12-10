@@ -5,7 +5,6 @@ VALUES (30466, 'craftingforgecooking', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30466,   1,         16) /* ItemType - Creature */
-     , (30466,   5,          0) /* EncumbranceVal */
      , (30466,   6,        255) /* ItemsCapacity */
      , (30466,   7,        255) /* ContainersCapacity */
      , (30466,  16,         32) /* ItemUseable - Remote */

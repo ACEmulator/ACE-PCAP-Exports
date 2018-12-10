@@ -6,15 +6,12 @@ VALUES (37518, 'ace37518-royalguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37518,   1,         16) /* ItemType - Creature */
      , (37518,   2,         31) /* CreatureType - Human */
-     , (37518,   5,         50) /* EncumbranceVal */
      , (37518,   6,        255) /* ItemsCapacity */
      , (37518,   7,        255) /* ContainersCapacity */
      , (37518,  16,         32) /* ItemUseable - Remote */
-     , (37518,  19,       2500) /* Value */
      , (37518,  25,         40) /* Level */
      , (37518,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (37518,  95,          8) /* RadarBlipColor - Yellow */
-     , (37518, 107,          0) /* ItemCurMana */
      , (37518, 113,          1) /* Gender - Male */
      , (37518, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (37518, 134,         16) /* PlayerKillerStatus - RubberGlue */
@@ -32,16 +29,11 @@ VALUES (37518,   1, True ) /* Stuck */
      , (37518,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37518,  54,       3) /* UseRadius */
-     , (37518,  87,     1.2) /* ItemEfficiency */
-     , (37518, 137,    0.15) /* ManaStoneDestroyChance */;
+VALUES (37518,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37518,   1, 'Royal Guard') /* Name */
      , (37518,   5, 'Soldier') /* Template */
-     , (37518,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (37518,  16, 'Inscribed spell: Eradicate Creature Magic Other
-Dispels 3-6 negative Creature Magic enchantments of level 7 or lower from the target.') /* LongDesc */
      , (37518, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -79,9 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (37518,   1,    60, 0, 0, 60) /* MaxHealth */
      , (37518,   3,   110, 0, 0, 110) /* MaxStamina */
      , (37518,   5,    70, 0, 0, 70) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37518,  3184,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37518, 67109562, 0, 24)

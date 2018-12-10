@@ -6,19 +6,14 @@ VALUES (35933, 'ace35933-amelia', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35933,   1,         16) /* ItemType - Creature */
      , (35933,   2,         77) /* CreatureType - Ghost */
-     , (35933,   5,       6040) /* EncumbranceVal */
      , (35933,   6,        255) /* ItemsCapacity */
      , (35933,   7,        255) /* ContainersCapacity */
      , (35933,  16,         32) /* ItemUseable - Remote */
-     , (35933,  19,          0) /* Value */
      , (35933,  25,          1) /* Level */
      , (35933,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (35933,  95,          8) /* RadarBlipColor - Yellow */
-     , (35933, 105,          6) /* ItemWorkmanship */
-     , (35933, 131,         18) /* MaterialType - Carnelian */
      , (35933, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (35933, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (35933, 172,          1) /* AppraisalLongDescDecoration */
      , (35933, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,7 +32,6 @@ VALUES (35933,  39,    0.75) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35933,   1, 'Amelia') /* Name */
      , (35933,   5, 'Ghostly Orphan') /* Template */
-     , (35933,  16, 'Killed by Mag-five.') /* LongDesc */
      , (35933, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

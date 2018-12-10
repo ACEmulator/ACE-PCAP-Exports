@@ -23,14 +23,12 @@ VALUES (49329,   1,        128) /* ItemType - Misc */
      , (49329, 369,        170) /* UseRequiresLevel */
      , (49329, 370,         15) /* GearDamage */
      , (49329, 371,         15) /* GearDamageResist */
-     , (49329, 372,         18) /* GearCrit */
      , (49329, 373,         10) /* GearCritResist */
      , (49329, 374,         14) /* GearCritDamage */
      , (49329, 375,          7) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49329,   1, False) /* Stuck */
-     , (49329,   2, False) /* Open */
      , (49329,  11, True ) /* IgnoreCollisions */
      , (49329,  13, True ) /* Ethereal */
      , (49329,  14, True ) /* GravityStatus */
@@ -44,8 +42,7 @@ VALUES (49329,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49329,   1, 'Fire Wisp Essence (180)') /* Name */
-     , (49329,  14, 'Use this essence to summon or dismiss your Fire Wisp.') /* Use */
-     , (49329,  16, 'Killed by Mag-three.') /* LongDesc */;
+     , (49329,  14, 'Use this essence to summon or dismiss your Fire Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49329,   1,   33554817) /* Setup */

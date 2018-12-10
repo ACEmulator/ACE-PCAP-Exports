@@ -6,11 +6,9 @@ VALUES (41193, 'ace41193-apostatesapper', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41193,   1,         16) /* ItemType - Creature */
      , (41193,   2,         19) /* CreatureType - Virindi */
-     , (41193,   5,          5) /* EncumbranceVal */
      , (41193,   6,        255) /* ItemsCapacity */
      , (41193,   7,        255) /* ContainersCapacity */
      , (41193,  16,          1) /* ItemUseable - No */
-     , (41193,  19,          0) /* Value */
      , (41193,  25,        220) /* Level */
      , (41193,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41193, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -21,12 +19,10 @@ VALUES (41193,   1, True ) /* Stuck */
      , (41193,  12, True ) /* ReportCollisions */
      , (41193,  13, False) /* Ethereal */
      , (41193,  14, True ) /* GravityStatus */
-     , (41193,  19, True ) /* Attackable */
-     , (41193,  69, False) /* IsSellable */;
+     , (41193,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41193,   1, 'Apostate Sapper') /* Name */
-     , (41193,  16, 'A crystalline shard condensed from the remains of a crystalline wisp.') /* LongDesc */
      , (41193, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

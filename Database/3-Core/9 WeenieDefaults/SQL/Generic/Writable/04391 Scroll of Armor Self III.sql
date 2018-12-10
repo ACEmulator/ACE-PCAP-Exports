@@ -25,13 +25,14 @@ VALUES (4391,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4391,   1, 'Scroll of Armor Self III') /* Name */
      , (4391,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (4391,  16, 'Killed by Www Acemulator Org.') /* LongDesc */;
+     , (4391,  16, 'Inscribed spell: Armor Self III
+Increases the caster''s natural armor by 75 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4391,   1,   33554826) /* Setup */
      , (4391,   8,  100676928) /* Icon */
      , (4391,  22,  872415275) /* PhysicsEffectTable */
-     , (4391,  28,       1309) /* Spell */
+     , (4391,  28,       1309) /* Spell - ArmorSelf3 */
      , (4391, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (4391, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4391, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;

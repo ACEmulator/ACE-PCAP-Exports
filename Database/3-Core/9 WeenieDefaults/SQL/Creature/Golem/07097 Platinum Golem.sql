@@ -6,11 +6,9 @@ VALUES (7097, 'golemplatinum', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7097,   1,         16) /* ItemType - Creature */
      , (7097,   2,         13) /* CreatureType - Golem */
-     , (7097,   5,       6654) /* EncumbranceVal */
      , (7097,   6,        255) /* ItemsCapacity */
      , (7097,   7,        255) /* ContainersCapacity */
      , (7097,  16,          1) /* ItemUseable - No */
-     , (7097,  19,          0) /* Value */
      , (7097,  25,        135) /* Level */
      , (7097,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7097, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (7097,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7097,   1, 'Platinum Golem') /* Name */
-     , (7097,  16, 'Killed by Mr Fz.') /* LongDesc */
      , (7097, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

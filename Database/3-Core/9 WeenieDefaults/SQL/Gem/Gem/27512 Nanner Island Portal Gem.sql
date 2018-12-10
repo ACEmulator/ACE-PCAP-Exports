@@ -45,7 +45,7 @@ VALUES (27512,   1,   33556769) /* Setup */
      , (27512,   6,   67111919) /* PaletteBase */
      , (27512,   8,  100676422) /* Icon */
      , (27512,  22,  872415275) /* PhysicsEffectTable */
-     , (27512,  28,       3238) /* Spell */
+     , (27512,  28,       3238) /* Spell - PortalSendingNannerIsland */
      , (27512, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (27512, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (27512, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

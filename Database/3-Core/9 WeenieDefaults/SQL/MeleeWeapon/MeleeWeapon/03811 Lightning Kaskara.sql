@@ -10,7 +10,6 @@ VALUES (3811,   1,          1) /* ItemType - MeleeWeapon */
      , (3811,  16,          1) /* ItemUseable - No */
      , (3811,  18,         65) /* UiEffects - Magical, Lightning */
      , (3811,  19,      21854) /* Value */
-     , (3811,  33,          1) /* Bonded - Bonded */
      , (3811,  44,         36) /* Damage */
      , (3811,  45,         64) /* DamageType - Electric */
      , (3811,  47,          6) /* AttackType - Thrust, Slash */
@@ -25,7 +24,6 @@ VALUES (3811,   1,          1) /* ItemType - MeleeWeapon */
      , (3811, 108,        401) /* ItemMaxMana */
      , (3811, 109,         90) /* ItemDifficulty */
      , (3811, 110,          0) /* ItemAllegianceRankLimit */
-     , (3811, 114,          1) /* Attuned - Attuned */
      , (3811, 115,        220) /* ItemSkillLevelLimit */
      , (3811, 131,         51) /* MaterialType - Ivory */
      , (3811, 151,          2) /* HookType - Wall */
@@ -45,8 +43,7 @@ VALUES (3811,   1, False) /* Stuck */
      , (3811,  13, True ) /* Ethereal */
      , (3811,  14, True ) /* GravityStatus */
      , (3811,  19, True ) /* Attackable */
-     , (3811,  22, True ) /* Inscribable */
-     , (3811,  69, False) /* IsSellable */;
+     , (3811,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3811,   5, -0.0416666666666667) /* ManaRate */
@@ -56,8 +53,6 @@ VALUES (3811,   5, -0.0416666666666667) /* ManaRate */
      , (3811,  29,    1.07) /* WeaponDefense */
      , (3811,  62,    1.07) /* WeaponOffense */
      , (3811,  63,       1) /* DamageMod */
-     , (3811, 149,    1.01) /* WeaponMissileDefense */
-     , (3811, 150,   1.025) /* WeaponMagicDefense */
      , (3811, 8004,       9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -78,47 +73,5 @@ VALUES (3811,   2, 1343409039) /* Container */
      , (3811, 8000, 3336804322) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3811,  1378,      2) 
-     , (3811,  1588,      2) 
-     , (3811,  1590,      2) 
-     , (3811,  1592,      2) 
-     , (3811,  1605,      2) 
-     , (3811,  1612,      2) 
-     , (3811,  1613,      2) 
-     , (3811,  1614,      2) 
-     , (3811,  1615,      2) 
-     , (3811,  1616,      2) 
-     , (3811,  1626,      2) 
-     , (3811,  1627,      2) 
-     , (3811,  2059,      2) 
-     , (3811,  2061,      2) 
-     , (3811,  2081,      2) 
-     , (3811,  2087,      2) 
-     , (3811,  2096,      2) 
-     , (3811,  2101,      2) 
-     , (3811,  2106,      2) 
-     , (3811,  2116,      2) 
-     , (3811,  2502,      2) 
-     , (3811,  2503,      2) 
-     , (3811,  2504,      2) 
-     , (3811,  2539,      2) 
-     , (3811,  2547,      2) 
-     , (3811,  2552,      2) 
-     , (3811,  2553,      2) 
-     , (3811,  2561,      2) 
-     , (3811,  2564,      2) 
-     , (3811,  2575,      2) 
-     , (3811,  2582,      2) 
-     , (3811,  2583,      2) 
-     , (3811,  2598,      2) 
-     , (3811,  2600,      2) 
-     , (3811,  2603,      2) 
-     , (3811,  2620,      2) 
-     , (3811,  4020,      2) 
-     , (3811,  4395,      2) 
-     , (3811,  4405,      2) 
-     , (3811,  4417,      2) 
-     , (3811,  4666,      2) 
-     , (3811,  4912,      2) 
-     , (3811,  5785,      2) 
-     , (3811,  5807,      2) ;
+VALUES (3811,  1615,      2) 
+     , (3811,  1626,      2) ;

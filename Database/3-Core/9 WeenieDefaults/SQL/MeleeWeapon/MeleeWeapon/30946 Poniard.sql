@@ -5,38 +5,14 @@ VALUES (30946, 'daggerbanditmagehigh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30946,   1,          1) /* ItemType - MeleeWeapon */
-     , (30946,   2,          7) /* CreatureType - Mite */
      , (30946,   5,        135) /* EncumbranceVal */
      , (30946,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (30946,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (30946,  16,          1) /* ItemUseable - No */
      , (30946,  19,         40) /* Value */
-     , (30946,  25,        135) /* Level */
-     , (30946,  44,         43) /* Damage */
-     , (30946,  45,          4) /* DamageType - Bludgeon */
-     , (30946,  47,          4) /* AttackType - Slash */
-     , (30946,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (30946,  49,         39) /* WeaponTime */
      , (30946,  51,          1) /* CombatUse - Melee */
      , (30946,  65,          1) /* Placement - RightHandCombat */
-     , (30946,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30946, 105,          9) /* ItemWorkmanship */
-     , (30946, 106,        200) /* ItemSpellcraft */
-     , (30946, 107,        501) /* ItemCurMana */
-     , (30946, 108,        501) /* ItemMaxMana */
-     , (30946, 109,          0) /* ItemDifficulty */
-     , (30946, 110,          0) /* ItemAllegianceRankLimit */
-     , (30946, 115,          0) /* ItemSkillLevelLimit */
-     , (30946, 117,        300) /* ItemManaCost */
-     , (30946, 131,         63) /* MaterialType - Silver */
-     , (30946, 158,          2) /* WieldRequirements - RawSkill */
-     , (30946, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (30946, 160,        350) /* WieldDifficulty */
-     , (30946, 172,          5) /* AppraisalLongDescDecoration */
-     , (30946, 177,          4) /* GemCount */
-     , (30946, 178,         33) /* GemType */
-     , (30946, 353,          3) /* WeaponType - Axe */
-     , (30946, 8030,          0);
+     , (30946,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30946,   1, False) /* Stuck */
@@ -46,17 +22,8 @@ VALUES (30946,   1, False) /* Stuck */
      , (30946,  19, True ) /* Attackable */
      , (30946,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30946,  21,       0) /* WeaponLength */
-     , (30946,  22,     0.9) /* DamageVariance */
-     , (30946,  26,       0) /* MaximumVelocity */
-     , (30946,  29,     1.1) /* WeaponDefense */
-     , (30946,  62,     1.1) /* WeaponOffense */
-     , (30946,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30946,   1, 'Poniard') /* Name */
-     , (30946,  16, 'Killed by Mag-five.') /* LongDesc */;
+VALUES (30946,   1, 'Poniard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30946,   1,   33554735) /* Setup */
@@ -77,12 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30946,   3, 3692263163) /* Wielder */
      , (30946, 8000, 3692263130) /* PCAPRecordedObjectIID */
      , (30946, 8008, 3692263163) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30946,   1,   950, 0, 0, 950) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30946,   519,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30946, 67111920, 0, 0);

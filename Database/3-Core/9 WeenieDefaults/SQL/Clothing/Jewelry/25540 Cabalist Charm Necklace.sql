@@ -34,8 +34,6 @@ VALUES (25540,   5,  -0.049) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25540,   1, 'Cabalist Charm Necklace') /* Name */
-     , (25540,   7, 'free to lucky guest') /* Inscription */
-     , (25540,   8, 'Maidenfair') /* ScribeName */
      , (25540,  16, 'A powerful charm crafted by Drudge Cabalists. The magic within the necklace is now freed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

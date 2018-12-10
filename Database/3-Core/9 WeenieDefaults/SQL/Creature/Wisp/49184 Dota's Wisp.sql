@@ -16,7 +16,6 @@ VALUES (49184,   1,         16) /* ItemType - Creature */
      , (49184, 313,         12) /* CritRating */
      , (49184, 314,         17) /* CritDamageRating */
      , (49184, 315,         14) /* CritResistRating */
-     , (49184, 316,         13) /* CritDamageResistRating */
      , (49184, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

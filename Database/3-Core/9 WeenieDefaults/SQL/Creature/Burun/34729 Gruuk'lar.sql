@@ -6,13 +6,10 @@ VALUES (34729, 'ace34729-gruuklar', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34729,   1,         16) /* ItemType - Creature */
      , (34729,   2,         75) /* CreatureType - Burun */
-     , (34729,   5,         10) /* EncumbranceVal */
      , (34729,   6,        255) /* ItemsCapacity */
      , (34729,   7,        255) /* ContainersCapacity */
      , (34729,  16,         32) /* ItemUseable - Remote */
-     , (34729,  19,        500) /* Value */
      , (34729,  25,         75) /* Level */
-     , (34729,  33,          1) /* Bonded - Bonded */
      , (34729,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34729,  95,          8) /* RadarBlipColor - Yellow */
      , (34729, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -37,7 +34,6 @@ VALUES (34729,  39, 1.10000002384186) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34729,   1, 'Gruuk''lar') /* Name */
      , (34729,   5, 'Village Guardian') /* Template */
-     , (34729,  16, 'A concentrated lead pea.') /* LongDesc */
      , (34729, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

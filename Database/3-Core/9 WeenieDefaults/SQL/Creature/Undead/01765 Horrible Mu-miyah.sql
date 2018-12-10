@@ -6,30 +6,12 @@ VALUES (1765, 'mumiyahhorrible', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1765,   1,         16) /* ItemType - Creature */
      , (1765,   2,         14) /* CreatureType - Undead */
-     , (1765,   5,        276) /* EncumbranceVal */
      , (1765,   6,        255) /* ItemsCapacity */
      , (1765,   7,        255) /* ContainersCapacity */
      , (1765,  16,          1) /* ItemUseable - No */
-     , (1765,  19,      17597) /* Value */
      , (1765,  25,         50) /* Level */
-     , (1765,  28,        268) /* ArmorLevel */
      , (1765,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1765, 105,          5) /* ItemWorkmanship */
-     , (1765, 106,        287) /* ItemSpellcraft */
-     , (1765, 107,       1214) /* ItemCurMana */
-     , (1765, 108,       1214) /* ItemMaxMana */
-     , (1765, 109,         74) /* ItemDifficulty */
-     , (1765, 110,          0) /* ItemAllegianceRankLimit */
-     , (1765, 115,        307) /* ItemSkillLevelLimit */
-     , (1765, 131,         53) /* MaterialType - ArmoredilloHide */
      , (1765, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1765, 158,          7) /* WieldRequirements - Level */
-     , (1765, 159,          1) /* WieldSkilltype - Axe */
-     , (1765, 160,        180) /* WieldDifficulty */
-     , (1765, 172,          1) /* AppraisalLongDescDecoration */
-     , (1765, 176,          6) /* AppraisalItemSkill */
-     , (1765, 177,          2) /* GemCount */
-     , (1765, 178,         38) /* GemType */
      , (1765, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,24 +19,13 @@ VALUES (1765,   1, True ) /* Stuck */
      , (1765,  12, True ) /* ReportCollisions */
      , (1765,  13, False) /* Ethereal */
      , (1765,  14, True ) /* GravityStatus */
-     , (1765,  19, True ) /* Attackable */
-     , (1765, 100, True ) /* Dyable */;
+     , (1765,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1765,   5, -0.0555555555555556) /* ManaRate */
-     , (1765,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (1765,  14, 1.10000002384186) /* ArmorModVsPierce */
-     , (1765,  15,       1) /* ArmorModVsBludgeon */
-     , (1765,  16, 1.14672267436981) /* ArmorModVsCold */
-     , (1765,  17, 0.699999988079071) /* ArmorModVsFire */
-     , (1765,  18, 1.01251924037933) /* ArmorModVsAcid */
-     , (1765,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (1765,  39, 1.29999995231628) /* DefaultScale */
-     , (1765, 165,       1) /* ArmorModVsNether */;
+VALUES (1765,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1765,   1, 'Horrible Mu-miyah') /* Name */
-     , (1765,  16, 'Studded Leather Girth of Magic Resistance') /* LongDesc */
      , (1765, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,17 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1765,   1,   130, 0, 0, 130) /* MaxHealth */
      , (1765,   3,   260, 0, 0, 260) /* MaxStamina */
      , (1765,   5,   290, 0, 0, 290) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1765,   279,      2) 
-     , (1765,  1540,      2) 
-     , (1765,  1574,      2) 
-     , (1765,  2098,      2) 
-     , (1765,  2108,      2) 
-     , (1765,  2281,      2) 
-     , (1765,  2553,      2) 
-     , (1765,  2580,      2) 
-     , (1765,  4710,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1765, 67111813, 0, 0);

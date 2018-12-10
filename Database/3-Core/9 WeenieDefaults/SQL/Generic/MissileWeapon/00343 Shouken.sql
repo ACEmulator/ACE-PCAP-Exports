@@ -21,11 +21,7 @@ VALUES (343,   1,        256) /* ItemType - MissileWeapon */
      , (343,  65,          1) /* Placement - RightHandCombat */
      , (343,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (343, 151,          2) /* HookType - Wall */
-     , (343, 307,          5) /* DamageRating */
-     , (343, 313,          0) /* CritRating */
-     , (343, 314,          0) /* CritDamageRating */
      , (343, 353,         10) /* WeaponType - Thrown */
-     , (343, 386,          0) /* Overpower */
      , (343, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,13 +41,10 @@ VALUES (343,  21,       0) /* WeaponLength */
      , (343,  62,       1) /* WeaponOffense */
      , (343,  63,       1) /* DamageMod */
      , (343,  78,       1) /* Friction */
-     , (343,  79,       0) /* Elasticity */
-     , (343, 149,       0) /* WeaponMissileDefense */
-     , (343, 150,       0) /* WeaponMagicDefense */;
+     , (343,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (343,   1, 'Shouken') /* Name */
-     , (343,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (343,   1, 'Shouken') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (343,   1,   33554752) /* Setup */

@@ -13,10 +13,6 @@ VALUES (40675,   1,          2) /* ItemType - Armor */
      , (40675,  19,      31389) /* Value */
      , (40675,  28,        485) /* ArmorLevel */
      , (40675,  36,       9999) /* ResistMagic */
-     , (40675,  44,          0) /* Damage */
-     , (40675,  45,          8) /* DamageType - Cold */
-     , (40675,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (40675,  49,         40) /* WeaponTime */
      , (40675,  65,        101) /* Placement - Resting */
      , (40675,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40675, 105,          8) /* ItemWorkmanship */
@@ -34,14 +30,9 @@ VALUES (40675,   1,          2) /* ItemType - Armor */
      , (40675, 176,          7) /* AppraisalItemSkill */
      , (40675, 177,          2) /* GemCount */
      , (40675, 178,         22) /* GemType */
-     , (40675, 204,         18) /* ElementalDamageBonus */
-     , (40675, 265,         25) /* EquipmentSetId - Interlocking */
      , (40675, 270,          7) /* WieldRequirements2 - Level */
      , (40675, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40675, 272,        180) /* WieldDifficulty2 */
-     , (40675, 353,          8) /* WeaponType - Bow */
-     , (40675, 374,          1) /* GearCritDamage */
-     , (40675, 8030,          0);
+     , (40675, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40675,   1, False) /* Stuck */
@@ -61,12 +52,6 @@ VALUES (40675,   5, -0.0666666666666667) /* ManaRate */
      , (40675,  17, 1.20000004768372) /* ArmorModVsFire */
      , (40675,  18, 1.39999997615814) /* ArmorModVsAcid */
      , (40675,  19,       1) /* ArmorModVsElectric */
-     , (40675,  21,       0) /* WeaponLength */
-     , (40675,  22,       0) /* DamageVariance */
-     , (40675,  26,    27.3) /* MaximumVelocity */
-     , (40675,  29,    1.16) /* WeaponDefense */
-     , (40675,  62,       1) /* WeaponOffense */
-     , (40675,  63,    2.23) /* DamageMod */
      , (40675, 165,       1) /* ArmorModVsNether */
      , (40675, 8004,       8) /* PCAPRecordedWorkmanship */;
 
@@ -89,47 +74,12 @@ VALUES (40675,   2, 2151382130) /* Container */
      , (40675, 8000, 2626658686) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40675,   193,      2) 
-     , (40675,  1486,      2) 
-     , (40675,  1528,      2) 
-     , (40675,  1562,      2) 
-     , (40675,  1574,      2) 
-     , (40675,  2087,      2) 
-     , (40675,  2092,      2) 
-     , (40675,  2094,      2) 
-     , (40675,  2096,      2) 
-     , (40675,  2102,      2) 
+VALUES (40675,  2092,      2) 
      , (40675,  2104,      2) 
-     , (40675,  2108,      2) 
      , (40675,  2113,      2) 
-     , (40675,  2185,      2) 
-     , (40675,  2515,      2) 
-     , (40675,  2516,      2) 
-     , (40675,  2560,      2) 
-     , (40675,  2572,      2) 
-     , (40675,  2586,      2) 
      , (40675,  2590,      2) 
-     , (40675,  2609,      2) 
-     , (40675,  2611,      2) 
-     , (40675,  2612,      2) 
-     , (40675,  2615,      2) 
-     , (40675,  3965,      2) 
-     , (40675,  4019,      2) 
-     , (40675,  4227,      2) 
-     , (40675,  4391,      2) 
-     , (40675,  4393,      2) 
-     , (40675,  4397,      2) 
      , (40675,  4401,      2) 
      , (40675,  4407,      2) 
-     , (40675,  4409,      2) 
-     , (40675,  4412,      2) 
-     , (40675,  4417,      2) 
-     , (40675,  4596,      2) 
-     , (40675,  4703,      2) 
-     , (40675,  4704,      2) 
-     , (40675,  4706,      2) 
-     , (40675,  5893,      2) 
-     , (40675,  5897,      2) 
      , (40675,  6123,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

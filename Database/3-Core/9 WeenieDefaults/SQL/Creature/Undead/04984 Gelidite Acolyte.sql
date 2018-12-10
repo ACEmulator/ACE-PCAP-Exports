@@ -6,11 +6,9 @@ VALUES (4984, 'lichfrore', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4984,   1,         16) /* ItemType - Creature */
      , (4984,   2,         14) /* CreatureType - Undead */
-     , (4984,   5,       6200) /* EncumbranceVal */
      , (4984,   6,        255) /* ItemsCapacity */
      , (4984,   7,        255) /* ContainersCapacity */
      , (4984,  16,          1) /* ItemUseable - No */
-     , (4984,  19,          0) /* Value */
      , (4984,  25,         80) /* Level */
      , (4984,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4984, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (4984,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4984,   1, 'Gelidite Acolyte') /* Name */
-     , (4984,  16, 'Killed by Og Rakshas.') /* LongDesc */
      , (4984, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

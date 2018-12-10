@@ -40,8 +40,6 @@ VALUES (27888,   5, -0.0333000011742115) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27888,   1, 'Mire Witch''s Loincloth') /* Name */
-     , (27888,   7, 'febbvv') /* Inscription */
-     , (27888,   8, 'Fenn') /* ScribeName */
      , (27888,  16, 'A reproduction of the loincloth worn by the first Mosswart Mire Witch. Complete with official mosswart smell. A small tag attached to the garment boasts: An original Ketnan product.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

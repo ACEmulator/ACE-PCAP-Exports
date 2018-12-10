@@ -14,10 +14,8 @@ VALUES (49135,   1,         16) /* ItemType - Creature */
      , (49135, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49135, 307,         14) /* DamageRating */
      , (49135, 308,         15) /* DamageResistRating */
-     , (49135, 313,         12) /* CritRating */
      , (49135, 314,         10) /* CritDamageRating */
      , (49135, 315,         10) /* CritResistRating */
-     , (49135, 316,         12) /* CritDamageResistRating */
      , (49135, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

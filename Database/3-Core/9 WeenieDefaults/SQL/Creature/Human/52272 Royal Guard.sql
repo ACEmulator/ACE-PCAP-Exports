@@ -6,14 +6,10 @@ VALUES (52272, 'ace52272-royalguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52272,   1,         16) /* ItemType - Creature */
      , (52272,   2,         31) /* CreatureType - Human */
-     , (52272,   5,        200) /* EncumbranceVal */
      , (52272,   6,        255) /* ItemsCapacity */
      , (52272,   7,        255) /* ContainersCapacity */
      , (52272,  16,         32) /* ItemUseable - Remote */
-     , (52272,  19,       1000) /* Value */
      , (52272,  25,        275) /* Level */
-     , (52272,  89,          4) /* BoosterEnum - Stamina */
-     , (52272,  90,        125) /* BoostValue */
      , (52272,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52272,  95,          8) /* RadarBlipColor - Yellow */
      , (52272, 113,          2) /* Gender - Female */
@@ -39,7 +35,6 @@ VALUES (52272,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52272,   1, 'Royal Guard') /* Name */
      , (52272,   5, 'Shadow Destroyer') /* Template */
-     , (52272,  14, 'Use this item to drink it.') /* Use */
      , (52272, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

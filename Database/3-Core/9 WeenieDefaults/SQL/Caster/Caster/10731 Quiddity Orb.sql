@@ -32,22 +32,19 @@ VALUES (10731,   1, False) /* Stuck */
      , (10731,  19, True ) /* Attackable */
      , (10731,  22, True ) /* Inscribable */
      , (10731,  69, False) /* IsSellable */
-     , (10731,  85, True ) /* AppraisalHasAllowedWielder */
      , (10731,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10731,   5,   -0.05) /* ManaRate */
      , (10731,  29,       1) /* WeaponDefense */
      , (10731,  76,     0.5) /* Translucency */
-     , (10731, 144, 1.12365290694017E-314) /* ManaConversionMod */
-     , (10731, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (10731, 144, 1.12365290694017E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10731,   1, 'Quiddity Orb') /* Name */
      , (10731,   7, ' Swamp Garden: 22.6S, 45.8E') /* Inscription */
      , (10731,   8, 'Olthoi king''s mage') /* ScribeName */
-     , (10731,  16, 'A spellcasting orb pulsing with the mickle energies of the Virindi.') /* LongDesc */
-     , (10731,  25, 'Jet Fang') /* CraftsmanName */;
+     , (10731,  16, 'A spellcasting orb pulsing with the mickle energies of the Virindi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10731,   1,   33557050) /* Setup */

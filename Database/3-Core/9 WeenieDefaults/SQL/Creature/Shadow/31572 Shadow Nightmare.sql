@@ -6,11 +6,9 @@ VALUES (31572, 'ace31572-shadownightmare', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31572,   1,         16) /* ItemType - Creature */
      , (31572,   2,         22) /* CreatureType - Shadow */
-     , (31572,   5,       6035) /* EncumbranceVal */
      , (31572,   6,        255) /* ItemsCapacity */
      , (31572,   7,        255) /* ContainersCapacity */
      , (31572,  16,          1) /* ItemUseable - No */
-     , (31572,  19,          0) /* Value */
      , (31572,  25,        135) /* Level */
      , (31572,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (31572, 113,          2) /* Gender - Female */
@@ -32,7 +30,6 @@ VALUES (31572,  39, 1.10000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31572,   1, 'Shadow Nightmare') /* Name */
-     , (31572,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (31572, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

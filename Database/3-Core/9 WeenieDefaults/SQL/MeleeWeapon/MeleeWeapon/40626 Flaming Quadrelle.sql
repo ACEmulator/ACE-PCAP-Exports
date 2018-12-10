@@ -5,14 +5,12 @@ VALUES (40626, 'ace40626-flamingquadrelle', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40626,   1,          1) /* ItemType - MeleeWeapon */
-     , (40626,   2,          3) /* CreatureType - Drudge */
      , (40626,   5,        489) /* EncumbranceVal */
      , (40626,   9,   33554432) /* ValidLocations - TwoHanded */
      , (40626,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (40626,  16,          1) /* ItemUseable - No */
      , (40626,  18,         32) /* UiEffects - Fire */
      , (40626,  19,      21965) /* Value */
-     , (40626,  25,         80) /* Level */
      , (40626,  44,         10) /* Damage */
      , (40626,  45,         16) /* DamageType - Fire */
      , (40626,  47,          4) /* AttackType - Slash */
@@ -29,15 +27,9 @@ VALUES (40626,   1,          1) /* ItemType - MeleeWeapon */
      , (40626, 115,        121) /* ItemSkillLevelLimit */
      , (40626, 131,         51) /* MaterialType - Ivory */
      , (40626, 151,          2) /* HookType - Wall */
-     , (40626, 158,          2) /* WieldRequirements - RawSkill */
-     , (40626, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (40626, 160,        350) /* WieldDifficulty */
      , (40626, 172,          1) /* AppraisalLongDescDecoration */
      , (40626, 176,         41) /* AppraisalItemSkill */
-     , (40626, 177,          4) /* GemCount */
-     , (40626, 178,         21) /* GemType */
      , (40626, 292,          2) /* Cleaving */
-     , (40626, 307,          5) /* DamageRating */
      , (40626, 353,         11) /* WeaponType - TwoHanded */
      , (40626, 8030,          0);
 
@@ -58,7 +50,6 @@ VALUES (40626,   5,  -0.025) /* ManaRate */
      , (40626,  29,       1) /* WeaponDefense */
      , (40626,  62,    1.02) /* WeaponOffense */
      , (40626,  63,       1) /* DamageMod */
-     , (40626, 149,   1.025) /* WeaponMissileDefense */
      , (40626, 150,   1.015) /* WeaponMagicDefense */
      , (40626, 8004,       8) /* PCAPRecordedWorkmanship */;
 
@@ -89,82 +80,8 @@ VALUES (40626,   3, 1343489356) /* Wielder */
      , (40626, 8000, 2147672670) /* PCAPRecordedObjectIID */
      , (40626, 8008, 1343489356) /* PCAPRecordedParentIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (40626,   1, 190, 0, 0) /* Strength */
-     , (40626,   2, 175, 0, 0) /* Endurance */
-     , (40626,   3, 200, 0, 0) /* Quickness */
-     , (40626,   4, 150, 0, 0) /* Coordination */
-     , (40626,   5, 100, 0, 0) /* Focus */
-     , (40626,   6, 100, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40626,   1,   258, 0, 0, 258) /* MaxHealth */
-     , (40626,   3,   455, 0, 0, 454) /* MaxStamina */
-     , (40626,   5,   200, 0, 0, 200) /* MaxMana */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40626,  1332,      2) 
-     , (40626,  1353,      2) 
-     , (40626,  1377,      2) 
-     , (40626,  1402,      2) 
-     , (40626,  1588,      2) 
-     , (40626,  1590,      2) 
-     , (40626,  1591,      2) 
-     , (40626,  1592,      2) 
-     , (40626,  1599,      2) 
-     , (40626,  1602,      2) 
-     , (40626,  1603,      2) 
-     , (40626,  1604,      2) 
-     , (40626,  1605,      2) 
-     , (40626,  1612,      2) 
-     , (40626,  1613,      2) 
-     , (40626,  1614,      2) 
-     , (40626,  1615,      2) 
-     , (40626,  1616,      2) 
-     , (40626,  1623,      2) 
-     , (40626,  1626,      2) 
-     , (40626,  1627,      2) 
-     , (40626,  2061,      2) 
-     , (40626,  2081,      2) 
-     , (40626,  2096,      2) 
-     , (40626,  2101,      2) 
-     , (40626,  2106,      2) 
-     , (40626,  2116,      2) 
-     , (40626,  2524,      2) 
-     , (40626,  2529,      2) 
-     , (40626,  2536,      2) 
-     , (40626,  2537,      2) 
-     , (40626,  2538,      2) 
-     , (40626,  2547,      2) 
-     , (40626,  2553,      2) 
-     , (40626,  2571,      2) 
-     , (40626,  2572,      2) 
-     , (40626,  2575,      2) 
-     , (40626,  2576,      2) 
-     , (40626,  2577,      2) 
-     , (40626,  2580,      2) 
-     , (40626,  2582,      2) 
-     , (40626,  2583,      2) 
-     , (40626,  2596,      2) 
-     , (40626,  2598,      2) 
-     , (40626,  2608,      2) 
-     , (40626,  2620,      2) 
-     , (40626,  4232,      2) 
-     , (40626,  4299,      2) 
-     , (40626,  4395,      2) 
-     , (40626,  4400,      2) 
-     , (40626,  4405,      2) 
-     , (40626,  4417,      2) 
-     , (40626,  4663,      2) 
-     , (40626,  5070,      2) 
-     , (40626,  5783,      2) 
-     , (40626,  5784,      2) 
-     , (40626,  5785,      2) 
-     , (40626,  5832,      2) 
-     , (40626,  5879,      2) 
-     , (40626,  5880,      2) 
-     , (40626,  5892,      2) 
-     , (40626,  6127,      2) ;
+VALUES (40626,  1613,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40626, 67116840, 0, 0);

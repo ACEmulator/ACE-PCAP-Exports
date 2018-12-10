@@ -6,39 +6,17 @@ VALUES (42132, 'ace42132-warden', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42132,   1,         16) /* ItemType - Creature */
      , (42132,   2,         31) /* CreatureType - Human */
-     , (42132,   5,        476) /* EncumbranceVal */
      , (42132,   6,        255) /* ItemsCapacity */
      , (42132,   7,        255) /* ContainersCapacity */
      , (42132,  16,         32) /* ItemUseable - Remote */
-     , (42132,  19,       2017) /* Value */
      , (42132,  25,        145) /* Level */
-     , (42132,  44,         35) /* Damage */
-     , (42132,  45,          4) /* DamageType - Bludgeon */
-     , (42132,  47,          6) /* AttackType - Thrust, Slash */
-     , (42132,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (42132,  49,         43) /* WeaponTime */
      , (42132,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42132,  95,          8) /* RadarBlipColor - Yellow */
-     , (42132, 105,          5) /* ItemWorkmanship */
-     , (42132, 106,        252) /* ItemSpellcraft */
-     , (42132, 107,        781) /* ItemCurMana */
-     , (42132, 108,        781) /* ItemMaxMana */
-     , (42132, 109,         53) /* ItemDifficulty */
-     , (42132, 110,          0) /* ItemAllegianceRankLimit */
      , (42132, 113,          2) /* Gender - Female */
-     , (42132, 115,        272) /* ItemSkillLevelLimit */
-     , (42132, 131,         75) /* MaterialType - Oak */
      , (42132, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42132, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42132, 158,          2) /* WieldRequirements - RawSkill */
-     , (42132, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (42132, 160,        300) /* WieldDifficulty */
-     , (42132, 172,          1) /* AppraisalLongDescDecoration */
-     , (42132, 176,         44) /* AppraisalItemSkill */
      , (42132, 188,          2) /* HeritageGroup - Gharundim */
-     , (42132, 353,          7) /* WeaponType - Staff */
-     , (42132, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (42132, 8030,          0);
+     , (42132, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42132,   1, True ) /* Stuck */
@@ -51,20 +29,11 @@ VALUES (42132,   1, True ) /* Stuck */
      , (42132,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42132,   5,   -0.05) /* ManaRate */
-     , (42132,  21,       0) /* WeaponLength */
-     , (42132,  22,    0.38) /* DamageVariance */
-     , (42132,  26,       0) /* MaximumVelocity */
-     , (42132,  29,    1.13) /* WeaponDefense */
-     , (42132,  54,       3) /* UseRadius */
-     , (42132,  62,    1.01) /* WeaponOffense */
-     , (42132,  63,       1) /* DamageMod */
-     , (42132, 149,    1.01) /* WeaponMissileDefense */;
+VALUES (42132,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42132,   1, 'Warden') /* Name */
      , (42132,   5, 'Portal Warden') /* Template */
-     , (42132,  16, 'Nabut of Blood Drinker') /* LongDesc */
      , (42132, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -102,10 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42132,   1,   175, 0, 0, 175) /* MaxHealth */
      , (42132,   3,   300, 0, 0, 300) /* MaxStamina */
      , (42132,   5,   200, 0, 0, 200) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42132,  1616,      2) 
-     , (42132,  1625,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42132, 67109554, 0, 24)

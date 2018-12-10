@@ -32,7 +32,7 @@ VALUES (9429,   1,   33554809) /* Setup */
      , (9429,   6,   67111919) /* PaletteBase */
      , (9429,   8,  100668364) /* Icon */
      , (9429,  22,  872415275) /* PhysicsEffectTable */
-     , (9429,  28,       2396) /* Spell */
+     , (9429,  28,       2396) /* Spell - FlameShield */
      , (9429, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9429, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9429, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

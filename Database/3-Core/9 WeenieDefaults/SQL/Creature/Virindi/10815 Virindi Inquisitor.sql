@@ -6,19 +6,12 @@ VALUES (10815, 'virindibossmonstersummoned', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10815,   1,         16) /* ItemType - Creature */
      , (10815,   2,         19) /* CreatureType - Virindi */
-     , (10815,   5,       6130) /* EncumbranceVal */
      , (10815,   6,        255) /* ItemsCapacity */
      , (10815,   7,        255) /* ContainersCapacity */
      , (10815,  16,          1) /* ItemUseable - No */
-     , (10815,  19,          0) /* Value */
      , (10815,  25,        100) /* Level */
-     , (10815,  91,          1) /* MaxStructure */
-     , (10815,  92,          1) /* Structure */
      , (10815,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (10815, 113,          2) /* Gender - Female */
      , (10815, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10815, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (10815, 188,          1) /* HeritageGroup - Aluvian */
      , (10815, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,14 +19,10 @@ VALUES (10815,   1, True ) /* Stuck */
      , (10815,  12, True ) /* ReportCollisions */
      , (10815,  13, False) /* Ethereal */
      , (10815,  14, True ) /* GravityStatus */
-     , (10815,  19, True ) /* Attackable */
-     , (10815,  69, False) /* IsSellable */;
+     , (10815,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10815,   1, 'Virindi Inquisitor') /* Name */
-     , (10815,   5, 'Rift Walker') /* Template */
-     , (10815,  14, 'Use this item on a locked chest to unlock it.') /* Use */
-     , (10815,  16, 'Killed by Callaway.') /* LongDesc */
      , (10815, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -42,12 +31,6 @@ VALUES (10815,   1,   33556982) /* Setup */
      , (10815,   3,  536870930) /* SoundTable */
      , (10815,   6,   67111346) /* PaletteBase */
      , (10815,   8,  100667943) /* Icon */
-     , (10815,   9,   83890276) /* EyesTexture */
-     , (10815,  10,   83890312) /* NoseTexture */
-     , (10815,  11,   83890358) /* MouthTexture */
-     , (10815,  15,   67117021) /* HairPalette */
-     , (10815,  16,   67110065) /* EyesPalette */
-     , (10815,  17,   67109559) /* SkinPalette */
      , (10815,  22,  872415273) /* PhysicsEffectTable */
      , (10815, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (10815, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

@@ -5,13 +5,11 @@ VALUES (46371, 'ace46371-spectralfrostnekode', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46371,   1,          1) /* ItemType - MeleeWeapon */
-     , (46371,   2,         44) /* CreatureType - Grievver */
      , (46371,   5,        135) /* EncumbranceVal */
      , (46371,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46371,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46371,  16,          1) /* ItemUseable - No */
      , (46371,  19,        125) /* Value */
-     , (46371,  25,        200) /* Level */
      , (46371,  51,          1) /* CombatUse - Melee */
      , (46371,  65,          1) /* Placement - RightHandCombat */
      , (46371,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -48,6 +46,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46371,   3, 3707809432) /* Wielder */
      , (46371, 8000, 3707809534) /* PCAPRecordedObjectIID */
      , (46371, 8008, 3707809432) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46371,   1,  1370, 0, 0, 693) /* MaxHealth */;

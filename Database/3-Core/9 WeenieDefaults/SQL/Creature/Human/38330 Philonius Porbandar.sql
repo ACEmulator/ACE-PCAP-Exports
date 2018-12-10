@@ -6,36 +6,19 @@ VALUES (38330, 'ace38330-philoniusporbandar', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38330,   1,         16) /* ItemType - Creature */
      , (38330,   2,         31) /* CreatureType - Human */
-     , (38330,   5,          5) /* EncumbranceVal */
      , (38330,   6,        255) /* ItemsCapacity */
      , (38330,   7,        255) /* ContainersCapacity */
      , (38330,  16,         32) /* ItemUseable - Remote */
-     , (38330,  19,          1) /* Value */
      , (38330,  25,        200) /* Level */
-     , (38330,  33,         -2) /* Bonded - Destroy */
-     , (38330,  44,        114) /* Damage */
-     , (38330,  45,         64) /* DamageType - Electric */
-     , (38330,  48,          0) /* WeaponSkill - None */
-     , (38330,  49,         -1) /* WeaponTime */
      , (38330,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38330,  95,          8) /* RadarBlipColor - Yellow */
      , (38330, 113,          1) /* Gender - Male */
      , (38330, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38330, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38330, 179,          0) /* ImbuedEffect - Undef */
      , (38330, 188,          2) /* HeritageGroup - Gharundim */
      , (38330, 281,          1) /* Faction1Bits */
      , (38330, 287,        601) /* SocietyRankCelhan */
-     , (38330, 303,          0) /* ImbuedEffect2 - Undef */
-     , (38330, 304,          0) /* ImbuedEffect3 - Undef */
-     , (38330, 305,          0) /* ImbuedEffect4 - Undef */
-     , (38330, 306,          0) /* ImbuedEffect5 - Undef */
-     , (38330, 307,          5) /* DamageRating */
-     , (38330, 313,          0) /* CritRating */
-     , (38330, 314,          0) /* CritDamageRating */
-     , (38330, 386,          0) /* Overpower */
-     , (38330, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38330, 8030,          0);
+     , (38330, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38330,   1, True ) /* Stuck */
@@ -45,19 +28,10 @@ VALUES (38330,   1, True ) /* Stuck */
      , (38330,  14, True ) /* GravityStatus */
      , (38330,  19, False) /* Attackable */
      , (38330,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38330,  42, True ) /* AllowEdgeSlide */
-     , (38330,  69, False) /* IsSellable */;
+     , (38330,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38330,  21,       0) /* WeaponLength */
-     , (38330,  22,     0.3) /* DamageVariance */
-     , (38330,  26,       0) /* MaximumVelocity */
-     , (38330,  29,       1) /* WeaponDefense */
-     , (38330,  54,       3) /* UseRadius */
-     , (38330,  62,       1) /* WeaponOffense */
-     , (38330,  63,       1) /* DamageMod */
-     , (38330, 149,       0) /* WeaponMissileDefense */
-     , (38330, 150,       0) /* WeaponMagicDefense */;
+VALUES (38330,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38330,   1, 'Philonius Porbandar') /* Name */

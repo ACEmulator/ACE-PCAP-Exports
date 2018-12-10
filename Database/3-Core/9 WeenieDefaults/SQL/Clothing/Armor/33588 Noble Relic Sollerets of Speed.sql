@@ -44,10 +44,7 @@ VALUES (33588,   5, -0.0165999997407198) /* ManaRate */
      , (33588, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33588,   1, 'Noble Relic Sollerets of Speed') /* Name */
-     , (33588,   7, 'Keep
-') /* Inscription */
-     , (33588,   8, 'Kilemal') /* ScribeName */;
+VALUES (33588,   1, 'Noble Relic Sollerets of Speed') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33588,   1,   33554654) /* Setup */

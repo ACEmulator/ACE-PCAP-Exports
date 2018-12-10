@@ -5,13 +5,11 @@ VALUES (48954, 'ace48954-burningsandskeyring', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48954,   1,        128) /* ItemType - Misc */
-     , (48954,   2,         75) /* CreatureType - Burun */
      , (48954,   5,         40) /* EncumbranceVal */
      , (48954,  11,          1) /* MaxStackSize */
      , (48954,  12,          1) /* StackSize */
      , (48954,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (48954,  19,        500) /* Value */
-     , (48954,  25,        135) /* Level */
      , (48954,  33,          0) /* Bonded - Normal */
      , (48954,  65,        101) /* Placement - Resting */
      , (48954,  91,         50) /* MaxStructure */
@@ -55,6 +53,3 @@ VALUES (48954, 8040, 23855555, 56.16494, -35.75027, 0.03300015, -0.05077174, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48954, 8000, 2161267443) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48954,   1,   650, 0, 0, 650) /* MaxHealth */;

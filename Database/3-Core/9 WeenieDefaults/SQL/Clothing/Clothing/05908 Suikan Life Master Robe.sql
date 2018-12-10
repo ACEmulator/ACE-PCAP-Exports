@@ -43,8 +43,6 @@ VALUES (5908,   5,  -0.116) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5908,   1, 'Suikan Life Master Robe') /* Name */
-     , (5908,   7, 'I am a gimp..') /* Inscription */
-     , (5908,   8, 'Azrakin') /* ScribeName */
      , (5908,  16, 'A finely tailored Sho robe for master mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

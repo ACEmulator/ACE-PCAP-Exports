@@ -6,11 +6,9 @@ VALUES (40149, 'ace40149-blackcoralgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40149,   1,         16) /* ItemType - Creature */
      , (40149,   2,         13) /* CreatureType - Golem */
-     , (40149,   5,       6167) /* EncumbranceVal */
      , (40149,   6,        255) /* ItemsCapacity */
      , (40149,   7,        255) /* ContainersCapacity */
      , (40149,  16,          1) /* ItemUseable - No */
-     , (40149,  19,          0) /* Value */
      , (40149,  25,        185) /* Level */
      , (40149,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40149, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (40149,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40149,   1, 'Black Coral Golem') /* Name */
-     , (40149,  16, 'Killed by Husband V.') /* LongDesc */
      , (40149, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

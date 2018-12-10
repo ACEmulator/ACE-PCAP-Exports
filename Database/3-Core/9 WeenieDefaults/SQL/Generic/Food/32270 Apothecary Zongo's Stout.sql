@@ -39,7 +39,7 @@ VALUES (32270,   1,   33559128) /* Setup */
      , (32270,   3,  536870932) /* SoundTable */
      , (32270,   8,  100688499) /* Icon */
      , (32270,  22,  872415275) /* PhysicsEffectTable */
-     , (32270,  28,       3864) /* Spell */
+     , (32270,  28,       3864) /* Spell - ZongoFist */
      , (32270,  50,  100687554) /* IconOverlay */
      , (32270,  52,  100687547) /* IconUnderlay */
      , (32270, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */

@@ -6,11 +6,9 @@ VALUES (28049, 'golemancientcoral', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28049,   1,         16) /* ItemType - Creature */
      , (28049,   2,         13) /* CreatureType - Golem */
-     , (28049,   5,       7170) /* EncumbranceVal */
      , (28049,   6,        255) /* ItemsCapacity */
      , (28049,   7,        255) /* ContainersCapacity */
      , (28049,  16,          1) /* ItemUseable - No */
-     , (28049,  19,          0) /* Value */
      , (28049,  25,        115) /* Level */
      , (28049,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28049, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (28049,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28049,   1, 'Ancient Coral Golem') /* Name */
-     , (28049,  16, 'Killed by Fquicker.') /* LongDesc */
      , (28049, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

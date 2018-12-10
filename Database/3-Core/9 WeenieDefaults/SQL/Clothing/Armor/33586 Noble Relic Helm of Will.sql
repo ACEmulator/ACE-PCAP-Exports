@@ -44,9 +44,7 @@ VALUES (33586,   5, -0.0165999997407198) /* ManaRate */
      , (33586, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33586,   1, 'Noble Relic Helm of Will') /* Name */
-     , (33586,   7, 'greg dont lose') /* Inscription */
-     , (33586,   8, 'Alex The Grate') /* ScribeName */;
+VALUES (33586,   1, 'Noble Relic Helm of Will') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33586,   1,   33559080) /* Setup */

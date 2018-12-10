@@ -22,8 +22,6 @@ VALUES (35889,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35889,   1, 'Head of the Paradox-touched Olthoi Queen') /* Name */
-     , (35889,   7, ' ') /* Inscription */
-     , (35889,   8, 'Narcotic') /* ScribeName */
      , (35889,  16, 'The plaque-mounted head of the Paradox-touched Olthoi Queen, given to you by Ethan Wintermaine for the slaying of said Paradox-touched Olthoi Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

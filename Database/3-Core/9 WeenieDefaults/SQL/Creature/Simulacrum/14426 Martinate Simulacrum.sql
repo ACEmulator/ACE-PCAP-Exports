@@ -13,7 +13,6 @@ VALUES (14426,   1,         16) /* ItemType - Creature */
      , (14426,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (14426, 113,          1) /* Gender - Male */
      , (14426, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (14426, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (14426, 188,          3) /* HeritageGroup - Sho */
      , (14426, 307,          5) /* DamageRating */
      , (14426, 8007,          0) /* PCAPRecordedAutonomousMovement */;

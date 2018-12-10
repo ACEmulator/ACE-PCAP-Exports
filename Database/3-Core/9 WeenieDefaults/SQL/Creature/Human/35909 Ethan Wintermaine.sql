@@ -6,20 +6,15 @@ VALUES (35909, 'ace35909-ethanwintermaine', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35909,   1,         16) /* ItemType - Creature */
      , (35909,   2,         31) /* CreatureType - Human */
-     , (35909,   5,         50) /* EncumbranceVal */
      , (35909,   6,        255) /* ItemsCapacity */
      , (35909,   7,        255) /* ContainersCapacity */
      , (35909,  16,         32) /* ItemUseable - Remote */
-     , (35909,  19,       3000) /* Value */
      , (35909,  25,        150) /* Level */
-     , (35909,  91,         50) /* MaxStructure */
-     , (35909,  92,         50) /* Structure */
      , (35909,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35909,  95,          8) /* RadarBlipColor - Yellow */
      , (35909, 113,          1) /* Gender - Male */
      , (35909, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (35909, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (35909, 173,        100) /* AppraisalLockpickSuccessPercent */
      , (35909, 188,          1) /* HeritageGroup - Aluvian */
      , (35909, 307,          5) /* DamageRating */
      , (35909, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -40,7 +35,6 @@ VALUES (35909,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35909,   1, 'Ethan Wintermaine') /* Name */
      , (35909,   5, 'Royal Guard Captain') /* Template */
-     , (35909,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (35909, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

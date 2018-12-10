@@ -46,9 +46,7 @@ VALUES (30861,   5,  -0.033) /* ManaRate */
      , (30861, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30861,   1, 'Banished Point') /* Name */
-     , (30861,   7, 'fire') /* Inscription */
-     , (30861,   8, 'Galek') /* ScribeName */;
+VALUES (30861,   1, 'Banished Point') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30861,   1,   33559256) /* Setup */

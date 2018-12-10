@@ -37,7 +37,6 @@ VALUES (40909,   1, False) /* Stuck */
      , (40909,  19, True ) /* Attackable */
      , (40909,  22, True ) /* Inscribable */
      , (40909,  69, False) /* IsSellable */
-     , (40909,  85, True ) /* AppraisalHasAllowedWielder */
      , (40909,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,8 +49,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40909,   1, 'Mana-infused Acid War Staff of Aerfalle') /* Name */
      , (40909,   7, 'Made with the help of Rytheran and, in beneficence, His Eternal Splendor.') /* Inscription */
      , (40909,   8, 'Lady Aerfalle') /* ScribeName */
-     , (40909,  16, 'A heavily enchanted staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */
-     , (40909,  25, 'Blazing Sun') /* CraftsmanName */;
+     , (40909,  16, 'A heavily enchanted staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40909,   1,   33556630) /* Setup */
@@ -59,7 +57,7 @@ VALUES (40909,   1,   33556630) /* Setup */
      , (40909,   6,   67111919) /* PaletteBase */
      , (40909,   8,  100670752) /* Icon */
      , (40909,  22,  872415275) /* PhysicsEffectTable */
-     , (40909,  28,       4434) /* Spell */
+     , (40909,  28,       4434) /* Spell - AcidVolley8 */
      , (40909, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (40909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40909, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

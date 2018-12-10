@@ -37,7 +37,6 @@ VALUES (21362,   1, False) /* Stuck */
      , (21362,  19, True ) /* Attackable */
      , (21362,  22, True ) /* Inscribable */
      , (21362,  69, False) /* IsSellable */
-     , (21362,  85, True ) /* AppraisalHasAllowedWielder */
      , (21362,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,10 +50,7 @@ VALUES (21362,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21362,   1, 'Deadly Hollow Staff') /* Name */
-     , (21362,   7, ' ') /* Inscription */
-     , (21362,   8, 'Genese') /* ScribeName */
-     , (21362,  16, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */
-     , (21362,  25, 'Genese') /* CraftsmanName */;
+     , (21362,  16, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21362,   1,   33556647) /* Setup */

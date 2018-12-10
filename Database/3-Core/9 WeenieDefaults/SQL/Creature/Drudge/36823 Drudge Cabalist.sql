@@ -6,27 +6,13 @@ VALUES (36823, 'ace36823-drudgecabalist', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36823,   1,         16) /* ItemType - Creature */
      , (36823,   2,          3) /* CreatureType - Drudge */
-     , (36823,   5,        600) /* EncumbranceVal */
      , (36823,   6,        255) /* ItemsCapacity */
      , (36823,   7,        255) /* ContainersCapacity */
      , (36823,  16,          1) /* ItemUseable - No */
-     , (36823,  19,          0) /* Value */
      , (36823,  25,        135) /* Level */
-     , (36823,  33,          1) /* Bonded - Bonded */
-     , (36823,  91,         50) /* MaxStructure */
-     , (36823,  92,         50) /* Structure */
      , (36823,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36823, 105,          6) /* ItemWorkmanship */
-     , (36823, 114,          1) /* Attuned - Attuned */
      , (36823, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36823, 280,        213) /* SharedCooldown */
      , (36823, 307,          7) /* DamageRating */
-     , (36823, 366,         54) /* UseRequiresSkill */
-     , (36823, 367,        430) /* UseRequiresSkillLevel */
-     , (36823, 369,        115) /* UseRequiresLevel */
-     , (36823, 374,         10) /* GearCritDamage */
-     , (36823, 375,         12) /* GearCritDamageResist */
-     , (36823, 386,          5) /* Overpower */
      , (36823, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,17 +20,13 @@ VALUES (36823,   1, True ) /* Stuck */
      , (36823,  12, True ) /* ReportCollisions */
      , (36823,  13, False) /* Ethereal */
      , (36823,  14, True ) /* GravityStatus */
-     , (36823,  19, True ) /* Attackable */
-     , (36823,  69, True ) /* IsSellable */;
+     , (36823,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36823,  39, 1.29999995231628) /* DefaultScale */
-     , (36823, 167,      45) /* CooldownDuration */;
+VALUES (36823,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36823,   1, 'Drudge Cabalist') /* Name */
-     , (36823,  14, 'Use this essence to summon or dismiss your Lightning Spectre.') /* Use */
-     , (36823,  16, 'An engorged eater jaw. Large slabs of flesh hang loosely from the jaw. This eater has been feeding well.') /* LongDesc */
      , (36823, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

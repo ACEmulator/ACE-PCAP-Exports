@@ -6,29 +6,14 @@ VALUES (38178, 'ace38178-blightedpyrealgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38178,   1,         16) /* ItemType - Creature */
      , (38178,   2,         13) /* CreatureType - Golem */
-     , (38178,   5,        695) /* EncumbranceVal */
      , (38178,   6,        255) /* ItemsCapacity */
      , (38178,   7,        255) /* ContainersCapacity */
      , (38178,  16,          1) /* ItemUseable - No */
-     , (38178,  19,        702) /* Value */
      , (38178,  25,        100) /* Level */
-     , (38178,  44,         22) /* Damage */
-     , (38178,  45,          2) /* DamageType - Pierce */
-     , (38178,  47,          2) /* AttackType - Thrust */
-     , (38178,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (38178,  49,         50) /* WeaponTime */
      , (38178,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38178, 105,          6) /* ItemWorkmanship */
-     , (38178, 131,         63) /* MaterialType - Silver */
      , (38178, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38178, 158,          2) /* WieldRequirements - RawSkill */
-     , (38178, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (38178, 160,        300) /* WieldDifficulty */
-     , (38178, 172,          1) /* AppraisalLongDescDecoration */
      , (38178, 307,          2) /* DamageRating */
-     , (38178, 353,         11) /* WeaponType - TwoHanded */
-     , (38178, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38178, 8030,          0);
+     , (38178, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38178,   1, True ) /* Stuck */
@@ -37,17 +22,8 @@ VALUES (38178,   1, True ) /* Stuck */
      , (38178,  14, True ) /* GravityStatus */
      , (38178,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38178,  21,       0) /* WeaponLength */
-     , (38178,  22,     0.4) /* DamageVariance */
-     , (38178,  26,       0) /* MaximumVelocity */
-     , (38178,  29,    1.06) /* WeaponDefense */
-     , (38178,  62,    1.11) /* WeaponOffense */
-     , (38178,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38178,   1, 'Blighted Pyreal Golem') /* Name */
-     , (38178,  16, 'Assagai') /* LongDesc */
      , (38178, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

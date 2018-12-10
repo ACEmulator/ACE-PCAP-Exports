@@ -20,11 +20,7 @@ VALUES (22547,   1,        256) /* ItemType - MissileWeapon */
      , (22547,  51,          2) /* CombatUse - Missle */
      , (22547,  65,          1) /* Placement - RightHandCombat */
      , (22547,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (22547, 307,          5) /* DamageRating */
-     , (22547, 313,          0) /* CritRating */
-     , (22547, 314,          0) /* CritDamageRating */
      , (22547, 353,         10) /* WeaponType - Thrown */
-     , (22547, 386,          0) /* Overpower */
      , (22547, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,9 +40,7 @@ VALUES (22547,  21,       0) /* WeaponLength */
      , (22547,  62,       1) /* WeaponOffense */
      , (22547,  63,       1) /* DamageMod */
      , (22547,  78,       1) /* Friction */
-     , (22547,  79,       0) /* Elasticity */
-     , (22547, 149,       0) /* WeaponMissileDefense */
-     , (22547, 150,       0) /* WeaponMagicDefense */;
+     , (22547,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22547,   1, 'Coconut') /* Name */;

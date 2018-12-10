@@ -14,7 +14,7 @@ VALUES (31977,   1,          8) /* ItemType - Jewelry */
      , (31977,  65,        101) /* Placement - Resting */
      , (31977,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31977, 106,        300) /* ItemSpellcraft */
-     , (31977, 107,       1743) /* ItemCurMana */
+     , (31977, 107,       2000) /* ItemCurMana */
      , (31977, 108,       2000) /* ItemMaxMana */
      , (31977, 109,        250) /* ItemDifficulty */
      , (31977, 114,          1) /* Attuned - Attuned */

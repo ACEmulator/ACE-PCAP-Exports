@@ -31,15 +31,8 @@ VALUES (43044,   1,        256) /* ItemType - MissileWeapon */
      , (43044, 166,          1) /* SlayerCreatureType - Olthoi */
      , (43044, 204,         12) /* ElementalDamageBonus */
      , (43044, 263,          2) /* ResistanceModifierType */
-     , (43044, 265,        138) /* EquipmentSetId - UNKNOWN_138 */
-     , (43044, 319,          2) /* ItemMaxLevel */
-     , (43044, 320,          1) /* ItemXpStyle - Fixed */
      , (43044, 353,          8) /* WeaponType - Bow */
      , (43044, 8030,          0);
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (43044,   4,          0) /* ItemTotalXp */
-     , (43044,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43044,   1, False) /* Stuck */

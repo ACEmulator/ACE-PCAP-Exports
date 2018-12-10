@@ -30,12 +30,10 @@ VALUES (3896,   1,          1) /* ItemType - MeleeWeapon */
      , (3896, 158,          2) /* WieldRequirements - RawSkill */
      , (3896, 159,         44) /* WieldSkilltype - HeavyWeapons */
      , (3896, 160,        420) /* WieldDifficulty */
-     , (3896, 171,          1) /* NumTimesTinkered */
      , (3896, 172,          5) /* AppraisalLongDescDecoration */
      , (3896, 176,         44) /* AppraisalItemSkill */
      , (3896, 177,          4) /* GemCount */
      , (3896, 178,         41) /* GemType */
-     , (3896, 179,          4) /* ImbuedEffect - ArmorRending */
      , (3896, 353,          2) /* WeaponType - Sword */
      , (3896, 8030,          0);
 
@@ -45,8 +43,7 @@ VALUES (3896,   1, False) /* Stuck */
      , (3896,  13, True ) /* Ethereal */
      , (3896,  14, True ) /* GravityStatus */
      , (3896,  19, True ) /* Attackable */
-     , (3896,  22, True ) /* Inscribable */
-     , (3896,  91, True ) /* Retained */;
+     , (3896,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3896,   5, -0.0555555555555556) /* ManaRate */
@@ -57,17 +54,11 @@ VALUES (3896,   5, -0.0555555555555556) /* ManaRate */
      , (3896,  39, 1.21000003814697) /* DefaultScale */
      , (3896,  62,    1.13) /* WeaponOffense */
      , (3896,  63,       1) /* DamageMod */
-     , (3896, 149,   1.015) /* WeaponMissileDefense */
-     , (3896, 150,   1.015) /* WeaponMagicDefense */
      , (3896, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3896,   1, 'Frost Takuba') /* Name */
-     , (3896,   7, 'Cold.  So very cold.') /* Inscription */
-     , (3896,   8, 'Stargren Dragoon') /* ScribeName */
-     , (3896,  16, 'Frost Takuba of Blood Drinker') /* LongDesc */
-     , (3896,  39, 'Stargren Dragoon') /* TinkerName */
-     , (3896,  40, 'Yura Freek') /* ImbuerName */;
+     , (3896,  16, 'Frost Takuba of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3896,   1,   33555821) /* Setup */
@@ -86,40 +77,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3896, 8000, 2156287740) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3896,  1331,      2) 
-     , (3896,  1332,      2) 
-     , (3896,  1352,      2) 
-     , (3896,  1401,      2) 
-     , (3896,  1588,      2) 
-     , (3896,  1592,      2) 
-     , (3896,  1603,      2) 
-     , (3896,  1604,      2) 
-     , (3896,  1605,      2) 
-     , (3896,  1612,      2) 
-     , (3896,  1613,      2) 
-     , (3896,  1615,      2) 
-     , (3896,  1616,      2) 
-     , (3896,  1623,      2) 
-     , (3896,  1624,      2) 
-     , (3896,  1625,      2) 
-     , (3896,  1626,      2) 
-     , (3896,  1627,      2) 
-     , (3896,  2081,      2) 
-     , (3896,  2087,      2) 
-     , (3896,  2096,      2) 
-     , (3896,  2101,      2) 
-     , (3896,  2106,      2) 
-     , (3896,  2116,      2) 
-     , (3896,  2515,      2) 
-     , (3896,  2531,      2) 
-     , (3896,  2559,      2) 
-     , (3896,  2583,      2) 
-     , (3896,  2588,      2) 
-     , (3896,  2600,      2) 
-     , (3896,  2603,      2) 
-     , (3896,  2620,      2) 
-     , (3896,  4395,      2) 
-     , (3896,  5880,      2) 
-     , (3896,  5883,      2) 
-     , (3896,  6048,      2) 
-     , (3896,  6089,      2) ;
+VALUES (3896,  2096,      2) 
+     , (3896,  2588,      2) ;

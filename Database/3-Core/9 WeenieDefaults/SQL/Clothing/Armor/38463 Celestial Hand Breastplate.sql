@@ -25,13 +25,10 @@ VALUES (38463,   1,          2) /* ItemType - Armor */
      , (38463, 158,          9) /* WieldRequirements - IntStat */
      , (38463, 159,        287) /* WieldSkilltype */
      , (38463, 160,        601) /* WieldDifficulty */
-     , (38463, 171,          8) /* NumTimesTinkered */
      , (38463, 172,          5) /* AppraisalLongDescDecoration */
-     , (38463, 176,          7) /* AppraisalItemSkill */
      , (38463, 177,          4) /* GemCount */
      , (38463, 178,         21) /* GemType */
-     , (38463, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38463, 375,          1) /* GearCritDamageResist */;
+     , (38463, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38463,   1, False) /* Stuck */
@@ -40,7 +37,6 @@ VALUES (38463,   1, False) /* Stuck */
      , (38463,  14, True ) /* GravityStatus */
      , (38463,  19, True ) /* Attackable */
      , (38463,  22, True ) /* Inscribable */
-     , (38463,  91, True ) /* Retained */
      , (38463, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -57,10 +53,7 @@ VALUES (38463,   5, -0.0666666701436043) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38463,   1, 'Celestial Hand Breastplate') /* Name */
-     , (38463,   7, 'Major Life Magic') /* Inscription */
-     , (38463,   8, 'Nardwuar') /* ScribeName */
-     , (38463,  16, 'Celestial Hand Breastplate of Fealty') /* LongDesc */
-     , (38463,  39, 'Straharik') /* TinkerName */;
+     , (38463,  16, 'Celestial Hand Breastplate of Fealty') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38463,   1,   33554642) /* Setup */
@@ -76,26 +69,10 @@ VALUES (38463,   2, 1343409039) /* Container */
      , (38463, 8000, 3082503137) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38463,  2061,      2) 
-     , (38463,  2092,      2) 
-     , (38463,  2102,      2) 
-     , (38463,  2108,      2) 
-     , (38463,  2110,      2) 
+VALUES (38463,  2092,      2) 
      , (38463,  2233,      2) 
-     , (38463,  2520,      2) 
-     , (38463,  2572,      2) 
-     , (38463,  2574,      2) 
-     , (38463,  2587,      2) 
      , (38463,  3963,      2) 
-     , (38463,  4299,      2) 
-     , (38463,  4391,      2) 
-     , (38463,  4397,      2) 
-     , (38463,  4401,      2) 
-     , (38463,  4407,      2) 
-     , (38463,  4412,      2) 
-     , (38463,  4496,      2) 
-     , (38463,  4911,      2) 
-     , (38463,  6093,      2) ;
+     , (38463,  4407,      2) ;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38463, 0, 16794120);

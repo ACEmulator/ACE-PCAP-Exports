@@ -5,27 +5,14 @@ VALUES (12067, 'knifebandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12067,   1,          1) /* ItemType - MeleeWeapon */
-     , (12067,   2,         13) /* CreatureType - Golem */
      , (12067,   5,         38) /* EncumbranceVal */
      , (12067,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12067,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12067,  16,          1) /* ItemUseable - No */
      , (12067,  19,         30) /* Value */
-     , (12067,  25,        100) /* Level */
      , (12067,  51,          1) /* CombatUse - Melee */
      , (12067,  65,          1) /* Placement - RightHandCombat */
-     , (12067,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12067, 105,          9) /* ItemWorkmanship */
-     , (12067, 106,        318) /* ItemSpellcraft */
-     , (12067, 107,       1587) /* ItemCurMana */
-     , (12067, 108,       1587) /* ItemMaxMana */
-     , (12067, 109,        342) /* ItemDifficulty */
-     , (12067, 110,          0) /* ItemAllegianceRankLimit */
-     , (12067, 115,          0) /* ItemSkillLevelLimit */
-     , (12067, 131,         38) /* MaterialType - Ruby */
-     , (12067, 172,          5) /* AppraisalLongDescDecoration */
-     , (12067, 177,          1) /* GemCount */
-     , (12067, 178,         26) /* GemType */;
+     , (12067,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12067,   1, False) /* Stuck */
@@ -36,12 +23,10 @@ VALUES (12067,   1, False) /* Stuck */
      , (12067,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12067,   5, -0.0555555555555556) /* ManaRate */
-     , (12067,  39,    1.25) /* DefaultScale */;
+VALUES (12067,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12067,   1, 'Bandit Knife') /* Name */
-     , (12067,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (12067,   1, 'Bandit Knife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12067,   1,   33554745) /* Setup */
@@ -62,13 +47,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12067,   3, 3691250976) /* Wielder */
      , (12067, 8000, 3691250985) /* PCAPRecordedObjectIID */
      , (12067, 8008, 3691250976) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12067,   1,   455, 0, 0, 455) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12067,  2053,      2) 
-     , (12067,  2061,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12067, 67111920, 0, 0);

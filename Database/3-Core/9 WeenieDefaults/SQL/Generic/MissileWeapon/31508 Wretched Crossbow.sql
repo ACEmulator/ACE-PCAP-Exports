@@ -38,7 +38,6 @@ VALUES (31508,   1, False) /* Stuck */
      , (31508,  14, True ) /* GravityStatus */
      , (31508,  19, True ) /* Attackable */
      , (31508,  22, True ) /* Inscribable */
-     , (31508,  85, True ) /* AppraisalHasAllowedWielder */
      , (31508,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -53,8 +52,7 @@ VALUES (31508,   5,   -0.05) /* ManaRate */
      , (31508, 136,       1) /* CriticalMultiplier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31508,   1, 'Wretched Crossbow') /* Name */
-     , (31508,  25, 'Fenn') /* CraftsmanName */;
+VALUES (31508,   1, 'Wretched Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31508,   1,   33559544) /* Setup */

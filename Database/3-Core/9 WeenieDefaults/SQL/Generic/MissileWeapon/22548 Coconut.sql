@@ -5,7 +5,6 @@ VALUES (22548, 'coconutthrower', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22548,   1,        256) /* ItemType - MissileWeapon */
-     , (22548,   2,         41) /* CreatureType - Bunny */
      , (22548,   5,         20) /* EncumbranceVal */
      , (22548,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (22548,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
@@ -13,7 +12,6 @@ VALUES (22548,   1,        256) /* ItemType - MissileWeapon */
      , (22548,  12,          1) /* StackSize */
      , (22548,  16,          1) /* ItemUseable - No */
      , (22548,  19,          1) /* Value */
-     , (22548,  25,          2) /* Level */
      , (22548,  33,         -2) /* Bonded - Destroy */
      , (22548,  44,         40) /* Damage */
      , (22548,  45,          4) /* DamageType - Bludgeon */
@@ -71,19 +69,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22548,   3, 3699857530) /* Wielder */
      , (22548, 8000, 3699857531) /* PCAPRecordedObjectIID */
      , (22548, 8008, 3699857530) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (22548,   1,   5, 0, 0) /* Strength */
-     , (22548,   2,   5, 0, 0) /* Endurance */
-     , (22548,   3,   5, 0, 0) /* Quickness */
-     , (22548,   4,   5, 0, 0) /* Coordination */
-     , (22548,   5,   5, 0, 0) /* Focus */
-     , (22548,   6,   5, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22548,   1,     3, 0, 0, 3) /* MaxHealth */
-     , (22548,   3,     5, 0, 0, 5) /* MaxStamina */
-     , (22548,   5,     5, 0, 0, 5) /* MaxMana */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22548, 0, 83888861, 83888944);

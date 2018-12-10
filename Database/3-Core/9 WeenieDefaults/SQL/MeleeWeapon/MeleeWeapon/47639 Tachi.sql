@@ -40,8 +40,7 @@ VALUES (47639,  21,       0) /* WeaponLength */
      , (47639,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47639,   1, 'Tachi') /* Name */
-     , (47639,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (47639,   1, 'Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47639,   1,   33554742) /* Setup */

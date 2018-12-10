@@ -5,13 +5,10 @@ VALUES (33726, 'ace33726-shockwave', 33) /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33726,   1,          0) /* ItemType - None */
-     , (33726,   5,       6099) /* EncumbranceVal */
-     , (33726,  19,          0) /* Value */
      , (33726,  93,     133960) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, LightingOn, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33726,   1, True ) /* Stuck */
-     , (33726,   2, True ) /* Open */
      , (33726,  12, True ) /* ReportCollisions */
      , (33726,  13, False) /* Ethereal */
      , (33726,  15, True ) /* LightsStatus */
@@ -27,15 +24,13 @@ VALUES (33726,  78,       1) /* Friction */
      , (33726, 8012, -0.514638662338257) /* PCAPRecordedVelocityZ */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33726,   1, 'Shockwave') /* Name */
-     , (33726,  14, 'Use this item to close it.') /* Use */
-     , (33726,  16, 'Killed by Makor.') /* LongDesc */;
+VALUES (33726,   1, 'Shockwave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33726,   1,   33560045) /* Setup */
      , (33726,   3,  536870971) /* SoundTable */
      , (33726,   8,  100667494) /* Icon */
-     , (33726,  28,         64) /* Spell */
+     , (33726,  28,         64) /* Spell - ShockWave1 */
      , (33726, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33726, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33726, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;

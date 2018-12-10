@@ -6,39 +6,19 @@ VALUES (38554, 'ace38554-societytassetsarmorsmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38554,   1,         16) /* ItemType - Creature */
      , (38554,   2,         31) /* CreatureType - Human */
-     , (38554,   5,          1) /* EncumbranceVal */
      , (38554,   6,        255) /* ItemsCapacity */
      , (38554,   7,        255) /* ContainersCapacity */
      , (38554,  16,         32) /* ItemUseable - Remote */
-     , (38554,  19,          1) /* Value */
      , (38554,  25,        185) /* Level */
-     , (38554,  44,         40) /* Damage */
-     , (38554,  45,         16) /* DamageType - Fire */
-     , (38554,  48,          0) /* WeaponSkill - None */
-     , (38554,  49,         -1) /* WeaponTime */
      , (38554,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38554,  95,          8) /* RadarBlipColor - Yellow */
      , (38554, 113,          1) /* Gender - Male */
      , (38554, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38554, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38554, 158,          2) /* WieldRequirements - RawSkill */
-     , (38554, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (38554, 160,        270) /* WieldDifficulty */
-     , (38554, 166,         14) /* SlayerCreatureType - Undead */
-     , (38554, 179,        512) /* ImbuedEffect - FireRending */
      , (38554, 188,          4) /* HeritageGroup - Viamontian */
      , (38554, 281,          1) /* Faction1Bits */
      , (38554, 287,        101) /* SocietyRankCelhan */
-     , (38554, 303,        512) /* ImbuedEffect2 - FireRending */
-     , (38554, 304,        512) /* ImbuedEffect3 - FireRending */
-     , (38554, 305,        512) /* ImbuedEffect4 - FireRending */
-     , (38554, 306,        512) /* ImbuedEffect5 - FireRending */
-     , (38554, 307,         11) /* DamageRating */
-     , (38554, 313,          1) /* CritRating */
-     , (38554, 314,         17) /* CritDamageRating */
-     , (38554, 386,          0) /* Overpower */
-     , (38554, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38554, 8030,          0);
+     , (38554, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38554,   1, True ) /* Stuck */
@@ -48,19 +28,10 @@ VALUES (38554,   1, True ) /* Stuck */
      , (38554,  14, True ) /* GravityStatus */
      , (38554,  19, False) /* Attackable */
      , (38554,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38554,  42, True ) /* AllowEdgeSlide */
-     , (38554,  69, False) /* IsSellable */;
+     , (38554,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38554,  21,       0) /* WeaponLength */
-     , (38554,  22,     0.3) /* DamageVariance */
-     , (38554,  26,       0) /* MaximumVelocity */
-     , (38554,  29,       1) /* WeaponDefense */
-     , (38554,  54,       3) /* UseRadius */
-     , (38554,  62,       1) /* WeaponOffense */
-     , (38554,  63,       1) /* DamageMod */
-     , (38554, 149,       0) /* WeaponMissileDefense */
-     , (38554, 150,       0) /* WeaponMagicDefense */;
+VALUES (38554,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38554,   1, 'Society Tassets Armorsmith') /* Name */

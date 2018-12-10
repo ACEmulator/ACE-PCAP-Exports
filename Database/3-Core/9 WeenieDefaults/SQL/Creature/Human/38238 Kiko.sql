@@ -18,7 +18,6 @@ VALUES (38238,   1,         16) /* ItemType - Creature */
      , (38238, 188,          3) /* HeritageGroup - Sho */
      , (38238, 281,          1) /* Faction1Bits */
      , (38238, 287,       1001) /* SocietyRankCelhan */
-     , (38238, 307,          5) /* DamageRating */
      , (38238, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

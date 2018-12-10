@@ -10,27 +10,10 @@ VALUES (47438,   1,          1) /* ItemType - MeleeWeapon */
      , (47438,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47438,  16,          1) /* ItemUseable - No */
      , (47438,  19,        350) /* Value */
-     , (47438,  44,         10) /* Damage */
-     , (47438,  45,          4) /* DamageType - Bludgeon */
-     , (47438,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (47438,  49,         10) /* WeaponTime */
      , (47438,  51,          1) /* CombatUse - Melee */
      , (47438,  65,          1) /* Placement - RightHandCombat */
      , (47438,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47438, 105,          8) /* ItemWorkmanship */
-     , (47438, 106,        277) /* ItemSpellcraft */
-     , (47438, 107,        996) /* ItemCurMana */
-     , (47438, 108,        996) /* ItemMaxMana */
-     , (47438, 109,        207) /* ItemDifficulty */
-     , (47438, 110,          0) /* ItemAllegianceRankLimit */
-     , (47438, 115,          0) /* ItemSkillLevelLimit */
-     , (47438, 131,         39) /* MaterialType - Sapphire */
-     , (47438, 151,          2) /* HookType - Wall */
-     , (47438, 172,          5) /* AppraisalLongDescDecoration */
-     , (47438, 177,          7) /* GemCount */
-     , (47438, 178,         23) /* GemType */
-     , (47438, 353,         10) /* WeaponType - Thrown */
-     , (47438, 8030,          0);
+     , (47438, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47438,   1, False) /* Stuck */
@@ -40,18 +23,8 @@ VALUES (47438,   1, False) /* Stuck */
      , (47438,  19, True ) /* Attackable */
      , (47438,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47438,   5, -0.0555555555555556) /* ManaRate */
-     , (47438,  21,       0) /* WeaponLength */
-     , (47438,  22,    0.25) /* DamageVariance */
-     , (47438,  26,       0) /* MaximumVelocity */
-     , (47438,  29,       1) /* WeaponDefense */
-     , (47438,  62,       1) /* WeaponOffense */
-     , (47438,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47438,   1, 'Mace') /* Name */
-     , (47438,  16, 'An exclusive prize from a gambling den!  The hopping Golden Gromnie is the hippest Pack Monster ever!') /* LongDesc */;
+VALUES (47438,   1, 'Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47438,   1,   33554746) /* Setup */
@@ -72,11 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47438,   3, 3685891462) /* Wielder */
      , (47438, 8000, 3685431966) /* PCAPRecordedObjectIID */
      , (47438, 8008, 3685891462) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47438,  2251,      2) 
-     , (47438,  2325,      2) 
-     , (47438,  4586,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47438, 67111920, 0, 0);

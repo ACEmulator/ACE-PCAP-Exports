@@ -6,9 +6,7 @@ VALUES (7616, 'portallabyrinthkrauli', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7616,   1,      65536) /* ItemType - Portal */
      , (7616,  16,         32) /* ItemUseable - Remote */
-     , (7616,  86,         25) /* MinLevel */
      , (7616,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (7616, 111,          1) /* PortalBitmask - Unrestricted */
      , (7616, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (7616, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -25,7 +23,6 @@ VALUES (7616,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7616,   1, 'Krau Li''s Labyrinth Portal') /* Name */
-     , (7616,  38, 'Krau Li''s Labyrinth Portal') /* AppraisalPortalDestination */
      , (7616, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

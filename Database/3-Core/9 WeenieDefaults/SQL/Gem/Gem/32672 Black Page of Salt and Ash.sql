@@ -42,7 +42,7 @@ VALUES (32672,   1,   33554809) /* Setup */
      , (32672,   6,   67111919) /* PaletteBase */
      , (32672,   8,  100688622) /* Icon */
      , (32672,  22,  872415275) /* PhysicsEffectTable */
-     , (32672,  28,       3869) /* Spell */
+     , (32672,  28,       3869) /* Spell - CantripSaltAshAttackMod */
      , (32672, 8001,  275280017) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (32672, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32672, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

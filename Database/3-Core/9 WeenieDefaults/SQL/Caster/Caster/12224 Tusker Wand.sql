@@ -26,13 +26,10 @@ VALUES (12224,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12224,  29,       1) /* WeaponDefense */
      , (12224,  39, 1.20000004768372) /* DefaultScale */
-     , (12224, 144, 1.80737091767736E-314) /* ManaConversionMod */
-     , (12224, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (12224, 144, 1.80737091767736E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12224,   1, 'Tusker Wand') /* Name */
-     , (12224,   7, '                                                                                                      ev0l.') /* Inscription */
-     , (12224,   8, 'Mezlat Xed') /* ScribeName */
      , (12224,  16, 'A wand with a shrunken tusker head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

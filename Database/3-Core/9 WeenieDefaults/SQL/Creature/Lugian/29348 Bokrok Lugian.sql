@@ -6,15 +6,10 @@ VALUES (29348, 'lugianbokrok', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29348,   1,         16) /* ItemType - Creature */
      , (29348,   2,          5) /* CreatureType - Lugian */
-     , (29348,   5,         30) /* EncumbranceVal */
      , (29348,   6,        255) /* ItemsCapacity */
      , (29348,   7,        255) /* ContainersCapacity */
      , (29348,  16,          1) /* ItemUseable - No */
-     , (29348,  19,       2000) /* Value */
      , (29348,  25,        100) /* Level */
-     , (29348,  90,         10) /* BoostValue */
-     , (29348,  91,         35) /* MaxStructure */
-     , (29348,  92,         35) /* Structure */
      , (29348,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29348, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (29348, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,14 +21,8 @@ VALUES (29348,   1, True ) /* Stuck */
      , (29348,  14, True ) /* GravityStatus */
      , (29348,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29348, 100,     1.5) /* HealkitMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29348,   1, 'Bokrok Lugian') /* Name */
-     , (29348,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (29348,  16, 'Inscribed spell: Hieromancer''s Blessing
-Increases the caster''s War Magic skill by 40 points.') /* LongDesc */
      , (29348, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -56,9 +45,6 @@ VALUES (29348, 8000, 3691613123) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (29348,   1,   450, 0, 0, 450) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29348,  2323,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29348, 67113163, 0, 0);

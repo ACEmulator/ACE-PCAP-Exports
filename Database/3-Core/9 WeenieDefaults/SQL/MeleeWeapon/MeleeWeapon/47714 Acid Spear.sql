@@ -5,14 +5,12 @@ VALUES (47714, 'ace47714-acidspear', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47714,   1,          1) /* ItemType - MeleeWeapon */
-     , (47714,   2,          8) /* CreatureType - Tusker */
      , (47714,   5,        700) /* EncumbranceVal */
      , (47714,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47714,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47714,  16,          1) /* ItemUseable - No */
      , (47714,  18,        256) /* UiEffects - Acid */
      , (47714,  19,        170) /* Value */
-     , (47714,  25,         80) /* Level */
      , (47714,  33,         -2) /* Bonded - Destroy */
      , (47714,  44,        105) /* Damage */
      , (47714,  45,         32) /* DamageType - Acid */
@@ -64,19 +62,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47714,   3, 3682990729) /* Wielder */
      , (47714, 8000, 3682990731) /* PCAPRecordedObjectIID */
      , (47714, 8008, 3682990729) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47714,   1, 210, 0, 0) /* Strength */
-     , (47714,   2, 300, 0, 0) /* Endurance */
-     , (47714,   3, 180, 0, 0) /* Quickness */
-     , (47714,   4, 200, 0, 0) /* Coordination */
-     , (47714,   5,  70, 0, 0) /* Focus */
-     , (47714,   6,  60, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47714,   1,   400, 0, 0, 400) /* MaxHealth */
-     , (47714,   3,   600, 0, 0, 600) /* MaxStamina */
-     , (47714,   5,    60, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47714, 67111920, 0, 0);

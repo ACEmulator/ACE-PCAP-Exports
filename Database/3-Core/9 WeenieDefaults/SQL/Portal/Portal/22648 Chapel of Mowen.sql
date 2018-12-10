@@ -6,9 +6,7 @@ VALUES (22648, 'portalchapelofmowen', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22648,   1,      65536) /* ItemType - Portal */
      , (22648,  16,         32) /* ItemUseable - Remote */
-     , (22648,  86,         50) /* MinLevel */
      , (22648,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (22648, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (22648, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22648, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -25,7 +23,6 @@ VALUES (22648,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22648,   1, 'Chapel of Mowen') /* Name */
-     , (22648,  38, 'Chapel of Mowen') /* AppraisalPortalDestination */
      , (22648, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

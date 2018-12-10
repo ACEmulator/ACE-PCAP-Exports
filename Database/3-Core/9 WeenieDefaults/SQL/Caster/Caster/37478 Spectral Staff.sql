@@ -61,7 +61,7 @@ VALUES (37478,   1,   33560575) /* Setup */
      , (37478,   6,   67111919) /* PaletteBase */
      , (37478,   8,  100675639) /* Icon */
      , (37478,  22,  872415275) /* PhysicsEffectTable */
-     , (37478,  28,       2132) /* Spell */
+     , (37478,  28,       2132) /* Spell - ForceBolt7 */
      , (37478,  52,  100689404) /* IconUnderlay */
      , (37478, 8001,    7045264) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell */
      , (37478, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */

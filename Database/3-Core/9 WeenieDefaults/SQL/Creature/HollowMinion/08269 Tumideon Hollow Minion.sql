@@ -6,11 +6,9 @@ VALUES (8269, 'hollowminiontumideon', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8269,   1,         16) /* ItemType - Creature */
      , (8269,   2,         48) /* CreatureType - HollowMinion */
-     , (8269,   5,       6040) /* EncumbranceVal */
      , (8269,   6,        255) /* ItemsCapacity */
      , (8269,   7,        255) /* ContainersCapacity */
      , (8269,  16,          1) /* ItemUseable - No */
-     , (8269,  19,          0) /* Value */
      , (8269,  25,         60) /* Level */
      , (8269,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8269, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -18,7 +16,6 @@ VALUES (8269,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8269,   1, True ) /* Stuck */
-     , (8269,   2, False) /* Open */
      , (8269,  12, True ) /* ReportCollisions */
      , (8269,  13, False) /* Ethereal */
      , (8269,  14, True ) /* GravityStatus */
@@ -26,8 +23,6 @@ VALUES (8269,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8269,   1, 'Tumideon Hollow Minion') /* Name */
-     , (8269,  14, 'Use this item to close it.') /* Use */
-     , (8269,  16, 'Killed by Distribute.') /* LongDesc */
      , (8269, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

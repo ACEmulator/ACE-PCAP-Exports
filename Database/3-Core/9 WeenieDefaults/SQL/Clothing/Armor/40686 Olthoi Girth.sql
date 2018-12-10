@@ -27,8 +27,6 @@ VALUES (40686,   1,          2) /* ItemType - Armor */
      , (40686, 159,          6) /* WieldSkilltype - MeleeDefense */
      , (40686, 160,        325) /* WieldDifficulty */
      , (40686, 172,          1) /* AppraisalLongDescDecoration */
-     , (40686, 176,          7) /* AppraisalItemSkill */
-     , (40686, 265,         17) /* EquipmentSetId - Tinkers */
      , (40686, 270,          7) /* WieldRequirements2 - Level */
      , (40686, 271,          1) /* WieldSkilltype2 - Axe */
      , (40686, 272,        150) /* WieldDifficulty2 */;
@@ -56,8 +54,6 @@ VALUES (40686,   5, -0.0555555559694767) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40686,   1, 'Olthoi Girth') /* Name */
-     , (40686,   7, 'blue with turquoise') /* Inscription */
-     , (40686,   8, 'Fenn') /* ScribeName */
      , (40686,  16, 'Olthoi Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -75,47 +71,11 @@ VALUES (40686,   2, 2088321040) /* Container */
      , (40686, 8000, 3430827734) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40686,  1486,      2) 
-     , (40686,  1498,      2) 
-     , (40686,  1540,      2) 
-     , (40686,  1562,      2) 
-     , (40686,  2087,      2) 
-     , (40686,  2092,      2) 
-     , (40686,  2098,      2) 
+VALUES (40686,  1562,      2) 
      , (40686,  2102,      2) 
      , (40686,  2108,      2) 
-     , (40686,  2110,      2) 
-     , (40686,  2113,      2) 
-     , (40686,  2185,      2) 
-     , (40686,  2281,      2) 
-     , (40686,  2507,      2) 
-     , (40686,  2517,      2) 
-     , (40686,  2523,      2) 
-     , (40686,  2549,      2) 
-     , (40686,  2577,      2) 
-     , (40686,  2589,      2) 
-     , (40686,  2593,      2) 
-     , (40686,  2595,      2) 
-     , (40686,  2610,      2) 
-     , (40686,  2618,      2) 
-     , (40686,  4299,      2) 
-     , (40686,  4325,      2) 
-     , (40686,  4393,      2) 
-     , (40686,  4401,      2) 
-     , (40686,  4403,      2) 
-     , (40686,  4407,      2) 
-     , (40686,  4409,      2) 
-     , (40686,  4412,      2) 
-     , (40686,  4498,      2) 
-     , (40686,  4674,      2) 
      , (40686,  4689,      2) 
-     , (40686,  4699,      2) 
-     , (40686,  4911,      2) 
-     , (40686,  5429,      2) 
-     , (40686,  5890,      2) 
-     , (40686,  5894,      2) 
-     , (40686,  6054,      2) 
-     , (40686,  6101,      2) ;
+     , (40686,  5429,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40686, 67116584, 72, 12)

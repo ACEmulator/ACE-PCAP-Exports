@@ -31,7 +31,6 @@ VALUES (45963,   1, False) /* Stuck */
      , (45963,  14, True ) /* GravityStatus */
      , (45963,  19, True ) /* Attackable */
      , (45963,  22, True ) /* Inscribable */
-     , (45963,  85, True ) /* AppraisalHasAllowedWielder */
      , (45963,  99, True ) /* Ivoryable */
      , (45963, 100, True ) /* Dyable */;
 
@@ -48,8 +47,7 @@ VALUES (45963,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45963,   1, 'Leather Gauntlets') /* Name */
-     , (45963,  16, NULL) /* LongDesc */
-     , (45963,  25, 'Brambles') /* CraftsmanName */;
+     , (45963,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45963,   1,   33554648) /* Setup */

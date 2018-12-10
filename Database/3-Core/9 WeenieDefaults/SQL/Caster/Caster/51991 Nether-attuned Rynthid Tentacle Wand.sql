@@ -34,8 +34,6 @@ VALUES (51991,   1, False) /* Stuck */
      , (51991,  19, True ) /* Attackable */
      , (51991,  22, True ) /* Inscribable */
      , (51991,  69, False) /* IsSellable */
-     , (51991,  85, True ) /* AppraisalHasAllowedWielder */
-     , (51991,  91, True ) /* Retained */
      , (51991,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,8 +47,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51991,   1, 'Nether-attuned Rynthid Tentacle Wand') /* Name */
      , (51991,   7, 'HILLARY 2016!!!!!!') /* Inscription */
      , (51991,   8, 'Rayvenn') /* ScribeName */
-     , (51991,  16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */
-     , (51991,  25, 'Immortalbob') /* CraftsmanName */;
+     , (51991,  16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51991,   1,   33561603) /* Setup */

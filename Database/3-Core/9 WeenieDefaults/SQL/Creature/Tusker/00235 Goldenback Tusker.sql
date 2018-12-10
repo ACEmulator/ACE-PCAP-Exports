@@ -6,97 +6,26 @@ VALUES (235, 'tuskergoldenback', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (235,   1,         16) /* ItemType - Creature */
      , (235,   2,          8) /* CreatureType - Tusker */
-     , (235,   5,         50) /* EncumbranceVal */
      , (235,   6,        255) /* ItemsCapacity */
      , (235,   7,        255) /* ContainersCapacity */
      , (235,  16,          1) /* ItemUseable - No */
-     , (235,  19,        120) /* Value */
      , (235,  25,         30) /* Level */
-     , (235,  28,        270) /* ArmorLevel */
-     , (235,  44,         30) /* Damage */
-     , (235,  45,         32) /* DamageType - Acid */
-     , (235,  47,          6) /* AttackType - Thrust, Slash */
-     , (235,  48,         45) /* WeaponSkill - LightWeapons */
-     , (235,  49,         28) /* WeaponTime */
-     , (235,  90,        100) /* BoostValue */
-     , (235,  91,         30) /* MaxStructure */
-     , (235,  92,         30) /* Structure */
      , (235,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (235, 105,          5) /* ItemWorkmanship */
-     , (235, 106,        250) /* ItemSpellcraft */
-     , (235, 107,        867) /* ItemCurMana */
-     , (235, 108,        867) /* ItemMaxMana */
-     , (235, 109,         52) /* ItemDifficulty */
-     , (235, 110,          0) /* ItemAllegianceRankLimit */
-     , (235, 115,        270) /* ItemSkillLevelLimit */
-     , (235, 131,         59) /* MaterialType - Copper */
      , (235, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (235, 158,          2) /* WieldRequirements - RawSkill */
-     , (235, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (235, 160,        300) /* WieldDifficulty */
-     , (235, 172,          5) /* AppraisalLongDescDecoration */
-     , (235, 176,         45) /* AppraisalItemSkill */
-     , (235, 177,          1) /* GemCount */
-     , (235, 178,         22) /* GemType */
-     , (235, 307,          0) /* DamageRating */
-     , (235, 308,          0) /* DamageResistRating */
-     , (235, 313,          0) /* CritRating */
-     , (235, 314,          0) /* CritDamageRating */
-     , (235, 315,          0) /* CritResistRating */
-     , (235, 316,          5) /* CritDamageResistRating */
-     , (235, 353,          2) /* WeaponType - Sword */
-     , (235, 370,          0) /* GearDamage */
-     , (235, 371,          0) /* GearDamageResist */
-     , (235, 372,          0) /* GearCrit */
-     , (235, 373,          0) /* GearCritResist */
-     , (235, 374,          0) /* GearCritDamage */
-     , (235, 375,          0) /* GearCritDamageResist */
-     , (235, 376,          0) /* GearHealingBoost */
-     , (235, 377,          0) /* GearNetherResist */
-     , (235, 378,          0) /* GearLifeResist */
-     , (235, 379,          0) /* GearMaxHealth */
-     , (235, 381,          0) /* PKDamageRating */
-     , (235, 382,          0) /* PKDamageResistRating */
-     , (235, 383,          0) /* GearPKDamageRating */
-     , (235, 384,          0) /* GearPKDamageResistRating */
-     , (235, 386,          0) /* Overpower */
-     , (235, 387,          0) /* OverpowerResist */
-     , (235, 388,          0) /* GearOverpower */
-     , (235, 389,          0) /* GearOverpowerResist */
-     , (235, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (235, 8030,          0);
+     , (235, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (235,   1, True ) /* Stuck */
      , (235,  12, True ) /* ReportCollisions */
      , (235,  13, False) /* Ethereal */
      , (235,  14, True ) /* GravityStatus */
-     , (235,  19, True ) /* Attackable */
-     , (235, 100, True ) /* Dyable */;
+     , (235,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (235,   5,   -0.05) /* ManaRate */
-     , (235,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (235,  14,       1) /* ArmorModVsPierce */
-     , (235,  15,       1) /* ArmorModVsBludgeon */
-     , (235,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (235,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (235,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (235,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (235,  21,       0) /* WeaponLength */
-     , (235,  22,    0.52) /* DamageVariance */
-     , (235,  26,       0) /* MaximumVelocity */
-     , (235,  29,     1.1) /* WeaponDefense */
-     , (235,  39, 1.10000002384186) /* DefaultScale */
-     , (235,  62,    1.06) /* WeaponOffense */
-     , (235,  63,       1) /* DamageMod */
-     , (235, 100,       1) /* HealkitMod */
-     , (235, 165,       1) /* ArmorModVsNether */;
+VALUES (235,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (235,   1, 'Goldenback Tusker') /* Name */
-     , (235,  14, 'This item is used in brewing.') /* Use */
-     , (235,  16, 'Killed by Zech.') /* LongDesc */
      , (235, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -129,20 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (235,   1,   130, 0, 0, 130) /* MaxHealth */
      , (235,   3,   340, 0, 0, 340) /* MaxStamina */
      , (235,   5,    20, 0, 0, 20) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (235,   169,      2) 
-     , (235,   216,      2) 
-     , (235,   248,      2) 
-     , (235,   520,      2) 
-     , (235,  1034,      2) 
-     , (235,  1070,      2) 
-     , (235,  1311,      2) 
-     , (235,  1485,      2) 
-     , (235,  1528,      2) 
-     , (235,  1592,      2) 
-     , (235,  1615,      2) 
-     , (235,  1720,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (235, 67113007, 0, 0);

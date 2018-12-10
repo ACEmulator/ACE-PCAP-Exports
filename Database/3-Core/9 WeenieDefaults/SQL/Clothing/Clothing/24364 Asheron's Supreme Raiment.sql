@@ -43,9 +43,6 @@ VALUES (24364,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24364,   1, 'Asheron''s Supreme Raiment') /* Name */
-     , (24364,   7, 'long johns
-') /* Inscription */
-     , (24364,   8, 'Bong Boy Reborn') /* ScribeName */
      , (24364,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

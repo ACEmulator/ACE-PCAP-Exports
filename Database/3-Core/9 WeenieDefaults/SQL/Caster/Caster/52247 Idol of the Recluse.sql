@@ -38,8 +38,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52247,   5,  -0.025) /* ManaRate */
      , (52247,  29,     1.2) /* WeaponDefense */
      , (52247,  39, 0.400000005960464) /* DefaultScale */
-     , (52247, 144,     0.1) /* ManaConversionMod */
-     , (52247, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (52247, 144,     0.1) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52247,   1, 'Idol of the Recluse') /* Name */
@@ -50,7 +49,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52247,   1,   33561621) /* Setup */
      , (52247,   6,   67108990) /* PaletteBase */
      , (52247,   8,  100669122) /* Icon */
-     , (52247,  28,       3203) /* Spell */
+     , (52247,  28,       3203) /* Spell - DispelAllBadOther7NoManaCon */
      , (52247, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (52247, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52247, 8005,     164001) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Position, AnimationFrame */

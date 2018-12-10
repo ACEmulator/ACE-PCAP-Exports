@@ -34,8 +34,6 @@ VALUES (41886,   1, False) /* Stuck */
      , (41886,  14, True ) /* GravityStatus */
      , (41886,  19, True ) /* Attackable */
      , (41886,  22, True ) /* Inscribable */
-     , (41886,  85, True ) /* AppraisalHasAllowedWielder */
-     , (41886,  91, True ) /* Retained */
      , (41886,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,12 +45,7 @@ VALUES (41886,   5, -0.0329999998211861) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41886,   1, 'Ultimate Singularity Scepter of War Magic') /* Name */
-     , (41886,   7, '
-      Proud member of the Renegade Guild') /* Inscription */
-     , (41886,   8, 'Deathspawner') /* ScribeName */
-     , (41886,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */
-     , (41886,  16, NULL) /* LongDesc */
-     , (41886,  25, 'Deathspawner') /* CraftsmanName */;
+     , (41886,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41886,   1,   33558796) /* Setup */

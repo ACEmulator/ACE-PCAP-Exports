@@ -6,11 +6,9 @@ VALUES (210, 'mosswartchief', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (210,   1,         16) /* ItemType - Creature */
      , (210,   2,          4) /* CreatureType - Mosswart */
-     , (210,   5,       6100) /* EncumbranceVal */
      , (210,   6,        255) /* ItemsCapacity */
      , (210,   7,        255) /* ContainersCapacity */
      , (210,  16,          1) /* ItemUseable - No */
-     , (210,  19,          0) /* Value */
      , (210,  25,         30) /* Level */
      , (210,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (210, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (210,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (210,   1, 'Mosswart Chief') /* Name */
-     , (210,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (210, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

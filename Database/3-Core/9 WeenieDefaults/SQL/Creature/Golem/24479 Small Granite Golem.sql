@@ -6,11 +6,9 @@ VALUES (24479, 'golemgranitemini', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24479,   1,         16) /* ItemType - Creature */
      , (24479,   2,         13) /* CreatureType - Golem */
-     , (24479,   5,       6407) /* EncumbranceVal */
      , (24479,   6,        255) /* ItemsCapacity */
      , (24479,   7,        255) /* ContainersCapacity */
      , (24479,  16,          1) /* ItemUseable - No */
-     , (24479,  19,          0) /* Value */
      , (24479,  25,        115) /* Level */
      , (24479,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24479, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (24479,  39,    0.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24479,   1, 'Small Granite Golem') /* Name */
-     , (24479,  16, 'Killed by Fquicker.') /* LongDesc */
      , (24479, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

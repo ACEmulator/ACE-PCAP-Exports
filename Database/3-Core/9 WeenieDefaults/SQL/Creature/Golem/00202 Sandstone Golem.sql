@@ -6,14 +6,11 @@ VALUES (202, 'golemsandstone', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (202,   1,         16) /* ItemType - Creature */
      , (202,   2,         13) /* CreatureType - Golem */
-     , (202,   5,         30) /* EncumbranceVal */
      , (202,   6,        255) /* ItemsCapacity */
      , (202,   7,        255) /* ContainersCapacity */
      , (202,  16,          1) /* ItemUseable - No */
-     , (202,  19,       1000) /* Value */
      , (202,  25,         15) /* Level */
      , (202,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (202, 111,        129) /* PortalBitmask - Unrestricted, NoOlthoiPCs */
      , (202, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (202, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -26,9 +23,6 @@ VALUES (202,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (202,   1, 'Sandstone Golem') /* Name */
-     , (202,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (202,  16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LongDesc */
-     , (202,  38, 'Portal to Town Network') /* AppraisalPortalDestination */
      , (202, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -61,9 +55,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (202,   1,    95, 0, 0, 95) /* MaxHealth */
      , (202,   3,   170, 0, 0, 167) /* MaxStamina */
      , (202,   5,   110, 0, 0, 110) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (202,  2772,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (202, 67112822, 0, 0);

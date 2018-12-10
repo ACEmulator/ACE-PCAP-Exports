@@ -5,15 +5,12 @@ VALUES (35926, 'ace35926-dirtpile', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35926,   1,         16) /* ItemType - Creature */
-     , (35926,   5,         50) /* EncumbranceVal */
      , (35926,   6,        255) /* ItemsCapacity */
      , (35926,   7,        255) /* ContainersCapacity */
      , (35926,  16,         32) /* ItemUseable - Remote */
-     , (35926,  19,       5000) /* Value */
      , (35926,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (35926,  95,          8) /* RadarBlipColor - Yellow */
      , (35926,  98, 1485568611) /* CreationTimestamp */
-     , (35926, 107,          0) /* ItemCurMana */
      , (35926, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (35926, 267,         30) /* Lifespan */
      , (35926, 268,         29) /* RemainingLifespan */
@@ -53,13 +50,10 @@ VALUES (35926,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35926,  39, 0.699999988079071) /* DefaultScale */
-     , (35926,  54,       3) /* UseRadius */
-     , (35926,  87,       2) /* ItemEfficiency */
-     , (35926, 137,     0.2) /* ManaStoneDestroyChance */;
+     , (35926,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35926,   1, 'Dirt Pile') /* Name */
-     , (35926,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (35926, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -26,8 +26,6 @@ VALUES (139,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (139,   1, 'Small Belt Pouch') /* Name */
-     , (139,   7, 'Legend: Other') /* Inscription */
-     , (139,   8, 'Majorscl') /* ScribeName */
      , (139,  14, 'Use this item to close it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

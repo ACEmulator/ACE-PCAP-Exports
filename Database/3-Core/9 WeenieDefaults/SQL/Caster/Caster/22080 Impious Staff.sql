@@ -33,22 +33,16 @@ VALUES (22080,   1, False) /* Stuck */
      , (22080,  14, True ) /* GravityStatus */
      , (22080,  19, True ) /* Attackable */
      , (22080,  22, True ) /* Inscribable */
-     , (22080,  85, True ) /* AppraisalHasAllowedWielder */
      , (22080,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22080,  29,       1) /* WeaponDefense */
      , (22080,  39, 0.600000023841858) /* DefaultScale */
-     , (22080, 144, 1.47278844592405E-314) /* ManaConversionMod */
-     , (22080, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (22080, 144, 1.47278844592405E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22080,   1, 'Impious Staff') /* Name */
-     , (22080,   7, 'You slay Son-of-Sam viciously enough to impart death several times over!2.6S 16.4E Triangles
-   40.8S, 11.8E MM') /* Inscription */
-     , (22080,   8, 'Copastetic') /* ScribeName */
-     , (22080,  16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LongDesc */
-     , (22080,  25, 'Callaway') /* CraftsmanName */;
+     , (22080,  16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22080,   1,   33557877) /* Setup */
@@ -56,7 +50,7 @@ VALUES (22080,   1,   33557877) /* Setup */
      , (22080,   6,   67111919) /* PaletteBase */
      , (22080,   8,  100673510) /* Icon */
      , (22080,  22,  872415275) /* PhysicsEffectTable */
-     , (22080,  28,       2814) /* Spell */
+     , (22080,  28,       2814) /* Spell - ImpiousCurse */
      , (22080, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (22080, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22080, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

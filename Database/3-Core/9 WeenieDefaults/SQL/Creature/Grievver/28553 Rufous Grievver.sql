@@ -6,17 +6,12 @@ VALUES (28553, 'grievverrufous', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28553,   1,         16) /* ItemType - Creature */
      , (28553,   2,         44) /* CreatureType - Grievver */
-     , (28553,   5,         10) /* EncumbranceVal */
      , (28553,   6,        255) /* ItemsCapacity */
      , (28553,   7,        255) /* ContainersCapacity */
      , (28553,  16,          1) /* ItemUseable - No */
-     , (28553,  19,          1) /* Value */
      , (28553,  25,         80) /* Level */
      , (28553,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28553, 105,          2) /* ItemWorkmanship */
-     , (28553, 131,          1) /* MaterialType - Ceramic */
      , (28553, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28553, 172,          1) /* AppraisalLongDescDecoration */
      , (28553, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,8 +27,6 @@ VALUES (28553,  39, 1.20000004768372) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28553,   1, 'Rufous Grievver') /* Name */
-     , (28553,  14, 'Use this item on a well.') /* Use */
-     , (28553,  16, 'Empty Flask') /* LongDesc */
      , (28553, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

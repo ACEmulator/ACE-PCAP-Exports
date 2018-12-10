@@ -14,16 +14,11 @@ VALUES (9192,   1,       2048) /* ItemType - Gem */
      , (9192,  65,        101) /* Placement - Resting */
      , (9192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9192,  94,         16) /* TargetType - Creature */
-     , (9192, 105,          5) /* ItemWorkmanship */
      , (9192, 106,        210) /* ItemSpellcraft */
      , (9192, 107,        100) /* ItemCurMana */
      , (9192, 108,        200) /* ItemMaxMana */
      , (9192, 109,          0) /* ItemDifficulty */
-     , (9192, 110,          0) /* ItemAllegianceRankLimit */
-     , (9192, 115,          0) /* ItemSkillLevelLimit */
-     , (9192, 117,        350) /* ItemManaCost */
-     , (9192, 131,         47) /* MaterialType - WhiteSapphire */
-     , (9192, 172,          1) /* AppraisalLongDescDecoration */;
+     , (9192, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9192,   1, False) /* Stuck */
@@ -43,7 +38,7 @@ VALUES (9192,   1,   33554809) /* Setup */
      , (9192,   6,   67111919) /* PaletteBase */
      , (9192,   8,  100671407) /* Icon */
      , (9192,  22,  872415275) /* PhysicsEffectTable */
-     , (9192,  28,       1882) /* Spell */
+     , (9192,  28,       1882) /* Spell - DispelAllBadSelf6 */
      , (9192, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9192, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9192, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
@@ -53,8 +48,7 @@ VALUES (9192,   2, 1343493255) /* Container */
      , (9192, 8000, 2172561761) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9192,  1882,      2) 
-     , (9192,  2053,      2) ;
+VALUES (9192,  1882,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9192, 67111919, 0, 0);

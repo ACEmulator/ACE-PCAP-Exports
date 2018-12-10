@@ -16,22 +16,13 @@ VALUES (47917,   1,        256) /* ItemType - MissileWeapon */
      , (47917,  33,         -2) /* Bonded - Destroy */
      , (47917,  44,         42) /* Damage */
      , (47917,  45,         32) /* DamageType - Acid */
-     , (47917,  47,          4) /* AttackType - Slash */
      , (47917,  48,          0) /* WeaponSkill - None */
      , (47917,  49,         -1) /* WeaponTime */
      , (47917,  50,          2) /* AmmoType - Bolt */
      , (47917,  51,          3) /* CombatUse - Ammo */
      , (47917,  65,          1) /* Placement - RightHandCombat */
      , (47917,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (47917, 105,          7) /* ItemWorkmanship */
-     , (47917, 131,         60) /* MaterialType - Gold */
      , (47917, 151,          2) /* HookType - Wall */
-     , (47917, 158,          2) /* WieldRequirements - RawSkill */
-     , (47917, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (47917, 160,        370) /* WieldDifficulty */
-     , (47917, 172,          5) /* AppraisalLongDescDecoration */
-     , (47917, 177,          3) /* GemCount */
-     , (47917, 178,         23) /* GemType */
      , (47917, 179,          0) /* ImbuedEffect - Undef */
      , (47917, 303,          0) /* ImbuedEffect2 - Undef */
      , (47917, 304,          0) /* ImbuedEffect3 - Undef */
@@ -40,7 +31,6 @@ VALUES (47917,   1,        256) /* ItemType - MissileWeapon */
      , (47917, 307,          5) /* DamageRating */
      , (47917, 313,          0) /* CritRating */
      , (47917, 314,          0) /* CritDamageRating */
-     , (47917, 353,          4) /* WeaponType - Mace */
      , (47917, 386,          0) /* Overpower */
      , (47917, 8030,          0);
 
@@ -66,8 +56,7 @@ VALUES (47917,  21,       0) /* WeaponLength */
      , (47917, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47917,   1, 'Acid Quarrel') /* Name */
-     , (47917,  16, 'Lightning Morning Star') /* LongDesc */;
+VALUES (47917,   1, 'Acid Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47917,   1,   33555696) /* Setup */

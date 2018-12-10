@@ -6,36 +6,17 @@ VALUES (38462, 'ace38462-gastonshadowbound', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38462,   1,         16) /* ItemType - Creature */
      , (38462,   2,         31) /* CreatureType - Human */
-     , (38462,   5,         50) /* EncumbranceVal */
      , (38462,   6,        255) /* ItemsCapacity */
      , (38462,   7,        255) /* ContainersCapacity */
      , (38462,  16,         32) /* ItemUseable - Remote */
-     , (38462,  19,       5222) /* Value */
      , (38462,  25,        200) /* Level */
-     , (38462,  44,         14) /* Damage */
-     , (38462,  45,          4) /* DamageType - Bludgeon */
-     , (38462,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (38462,  49,         10) /* WeaponTime */
      , (38462,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38462,  95,          8) /* RadarBlipColor - Yellow */
-     , (38462, 105,          8) /* ItemWorkmanship */
-     , (38462, 106,        239) /* ItemSpellcraft */
-     , (38462, 107,       1369) /* ItemCurMana */
-     , (38462, 108,       1369) /* ItemMaxMana */
-     , (38462, 109,        265) /* ItemDifficulty */
-     , (38462, 110,          0) /* ItemAllegianceRankLimit */
      , (38462, 113,          1) /* Gender - Male */
-     , (38462, 115,          0) /* ItemSkillLevelLimit */
-     , (38462, 131,         71) /* MaterialType - Serpentine */
      , (38462, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38462, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38462, 172,          5) /* AppraisalLongDescDecoration */
-     , (38462, 177,          2) /* GemCount */
-     , (38462, 178,         23) /* GemType */
      , (38462, 188,          4) /* HeritageGroup - Viamontian */
-     , (38462, 353,         10) /* WeaponType - Thrown */
-     , (38462, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38462, 8030,          0);
+     , (38462, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38462,   1, True ) /* Stuck */
@@ -48,19 +29,11 @@ VALUES (38462,   1, True ) /* Stuck */
      , (38462,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38462,   5, -0.0555555555555556) /* ManaRate */
-     , (38462,  21,       0) /* WeaponLength */
-     , (38462,  22,    0.25) /* DamageVariance */
-     , (38462,  26,       0) /* MaximumVelocity */
-     , (38462,  29,       1) /* WeaponDefense */
-     , (38462,  54,       3) /* UseRadius */
-     , (38462,  62,       1) /* WeaponOffense */
-     , (38462,  63,       1) /* DamageMod */;
+VALUES (38462,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38462,   1, 'Gaston Shadowbound') /* Name */
      , (38462,   5, 'Vagabond') /* Template */
-     , (38462,  16, 'Goblet of Fletching Mastery') /* LongDesc */
      , (38462, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -98,10 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38462,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38462,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38462,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38462,  1744,      2) 
-     , (38462,  1767,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38462, 67109564, 32, 8)

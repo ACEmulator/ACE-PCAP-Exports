@@ -5,34 +5,12 @@ VALUES (36039, 'ace36039-chaos', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36039,   1,         16) /* ItemType - Creature */
-     , (36039,   5,        472) /* EncumbranceVal */
      , (36039,   6,        255) /* ItemsCapacity */
      , (36039,   7,        255) /* ContainersCapacity */
      , (36039,  16,          1) /* ItemUseable - No */
-     , (36039,  19,       3119) /* Value */
-     , (36039,  44,         36) /* Damage */
-     , (36039,  45,         32) /* DamageType - Acid */
-     , (36039,  47,          4) /* AttackType - Slash */
-     , (36039,  48,         45) /* WeaponSkill - LightWeapons */
-     , (36039,  49,         43) /* WeaponTime */
      , (36039,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36039, 105,          7) /* ItemWorkmanship */
-     , (36039, 106,        188) /* ItemSpellcraft */
-     , (36039, 107,        917) /* ItemCurMana */
-     , (36039, 108,        917) /* ItemMaxMana */
-     , (36039, 109,         90) /* ItemDifficulty */
-     , (36039, 110,          0) /* ItemAllegianceRankLimit */
-     , (36039, 115,        208) /* ItemSkillLevelLimit */
-     , (36039, 131,         58) /* MaterialType - Bronze */
      , (36039, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36039, 158,          2) /* WieldRequirements - RawSkill */
-     , (36039, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (36039, 160,        325) /* WieldDifficulty */
-     , (36039, 172,          1) /* AppraisalLongDescDecoration */
-     , (36039, 176,         45) /* AppraisalItemSkill */
-     , (36039, 353,          3) /* WeaponType - Axe */
-     , (36039, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (36039, 8030,          0);
+     , (36039, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36039,   1, True ) /* Stuck */
@@ -42,18 +20,10 @@ VALUES (36039,   1, True ) /* Stuck */
      , (36039,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36039,   5, -0.0416666666666667) /* ManaRate */
-     , (36039,  21,       0) /* WeaponLength */
-     , (36039,  22,    0.85) /* DamageVariance */
-     , (36039,  26,       0) /* MaximumVelocity */
-     , (36039,  29,    1.06) /* WeaponDefense */
-     , (36039,  62,    1.09) /* WeaponOffense */
-     , (36039,  63,       1) /* DamageMod */
-     , (36039,  76,     0.5) /* Translucency */;
+VALUES (36039,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36039,   1, 'Chaos') /* Name */
-     , (36039,  16, 'Acid War Hammer of Defender') /* LongDesc */
      , (36039, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -73,11 +43,6 @@ VALUES (36039, 8040, 10682747, 52.22369, -173.1653, -17.971, 1, 0, 0, 0) /* PCAP
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36039, 8000, 3705804482) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36039,  1604,      2) 
-     , (36039,  1615,      2) 
-     , (36039,  2598,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36039, 67114022, 0, 0);

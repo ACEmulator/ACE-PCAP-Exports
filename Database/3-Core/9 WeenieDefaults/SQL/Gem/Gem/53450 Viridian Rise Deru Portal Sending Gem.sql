@@ -45,7 +45,7 @@ VALUES (53450,   1,   33556769) /* Setup */
      , (53450,   6,   67111919) /* PaletteBase */
      , (53450,   8,  100693361) /* Icon */
      , (53450,  22,  872415275) /* PhysicsEffectTable */
-     , (53450,  28,       6322) /* Spell */
+     , (53450,  28,       6322) /* Spell - ViridianRiseGreatTreeRecall */
      , (53450, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (53450, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (53450, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

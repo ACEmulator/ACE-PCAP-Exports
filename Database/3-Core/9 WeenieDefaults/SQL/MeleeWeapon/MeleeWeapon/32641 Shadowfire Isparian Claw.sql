@@ -38,7 +38,6 @@ VALUES (32641,   1, False) /* Stuck */
      , (32641,  19, True ) /* Attackable */
      , (32641,  22, True ) /* Inscribable */
      , (32641,  69, False) /* IsSellable */
-     , (32641,  85, True ) /* AppraisalHasAllowedWielder */
      , (32641,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -53,8 +52,7 @@ VALUES (32641,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32641,   1, 'Shadowfire Isparian Claw') /* Name */
-     , (32641,  16, 'A Perfect Isparian Claw, infused with the power of the Shadowfire Stone.') /* LongDesc */
-     , (32641,  25, 'Mag-nus') /* CraftsmanName */;
+     , (32641,  16, 'A Perfect Isparian Claw, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32641,   1,   33559819) /* Setup */

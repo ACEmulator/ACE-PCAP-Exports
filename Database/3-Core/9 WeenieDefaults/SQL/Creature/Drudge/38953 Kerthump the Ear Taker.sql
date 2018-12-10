@@ -6,11 +6,9 @@ VALUES (38953, 'ace38953-kerthumptheeartaker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38953,   1,         16) /* ItemType - Creature */
      , (38953,   2,          3) /* CreatureType - Drudge */
-     , (38953,   5,       6624) /* EncumbranceVal */
      , (38953,   6,        255) /* ItemsCapacity */
      , (38953,   7,        255) /* ContainersCapacity */
      , (38953,  16,          1) /* ItemUseable - No */
-     , (38953,  19,          0) /* Value */
      , (38953,  25,        200) /* Level */
      , (38953,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38953, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -30,7 +28,6 @@ VALUES (38953,  39, 1.39999997615814) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38953,   1, 'Kerthump the Ear Taker') /* Name */
      , (38953,   5, 'Monster Fighter') /* Template */
-     , (38953,  16, 'Killed by Mag-seven.') /* LongDesc */
      , (38953, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -40,9 +40,7 @@ VALUES (15890,  21,       0) /* WeaponLength */
      , (15890,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15890,   1, 'Bronze Morning Star') /* Name */
-     , (15890,   7, 'Muling, don''t steal') /* Inscription */
-     , (15890,   8, 'Lochiel Cameron') /* ScribeName */;
+VALUES (15890,   1, 'Bronze Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15890,   1,   33554748) /* Setup */

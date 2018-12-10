@@ -42,8 +42,6 @@ VALUES (23945,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23945,   1, 'Runic Helm of Knorr') /* Name */
-     , (23945,   7, 'Don''t stand behind me, or I might lean back and poke your eye out!') /* Inscription */
-     , (23945,   8, 'Wahooka the Great') /* ScribeName */
      , (23945,  15, 'This helm was worn by Initiates of Perfect Light. They are modeled after the helms worn by the armies of Lord Atlan against the swelling darkness. The helm has a single setting for an orb.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

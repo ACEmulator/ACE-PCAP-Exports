@@ -6,14 +6,10 @@ VALUES (51726, 'ace51726-discorporaterynthidofblindrage', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51726,   1,         16) /* ItemType - Creature */
      , (51726,   2,         19) /* CreatureType - Virindi */
-     , (51726,   5,          5) /* EncumbranceVal */
      , (51726,   6,        255) /* ItemsCapacity */
      , (51726,   7,        255) /* ContainersCapacity */
      , (51726,  16,          1) /* ItemUseable - No */
-     , (51726,  19,         85) /* Value */
      , (51726,  25,        200) /* Level */
-     , (51726,  89,          2) /* BoosterEnum - Health */
-     , (51726,  90,         10) /* BoostValue */
      , (51726,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51726, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (51726, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -23,15 +19,13 @@ VALUES (51726,   1, True ) /* Stuck */
      , (51726,  12, True ) /* ReportCollisions */
      , (51726,  13, False) /* Ethereal */
      , (51726,  14, True ) /* GravityStatus */
-     , (51726,  19, True ) /* Attackable */
-     , (51726,  69, False) /* IsSellable */;
+     , (51726,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51726,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51726,   1, 'Discorporate Rynthid of Blind Rage') /* Name */
-     , (51726,  14, 'Use this item to drink it.') /* Use */
      , (51726, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

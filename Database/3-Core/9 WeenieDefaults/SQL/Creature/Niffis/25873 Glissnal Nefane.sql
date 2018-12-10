@@ -6,17 +6,12 @@ VALUES (25873, 'nefaneglissnal', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25873,   1,         16) /* ItemType - Creature */
      , (25873,   2,         45) /* CreatureType - Niffis */
-     , (25873,   5,       6227) /* EncumbranceVal */
      , (25873,   6,        255) /* ItemsCapacity */
      , (25873,   7,        255) /* ContainersCapacity */
      , (25873,  16,          1) /* ItemUseable - No */
-     , (25873,  19,          0) /* Value */
      , (25873,  25,        135) /* Level */
      , (25873,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25873, 113,          2) /* Gender - Female */
      , (25873, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25873, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (25873, 188,          5) /* HeritageGroup - Shadowbound */
      , (25873, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,8 +26,6 @@ VALUES (25873,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25873,   1, 'Glissnal Nefane') /* Name */
-     , (25873,   5, 'Shadow Flyer Hunter') /* Template */
-     , (25873,  16, 'Killed by Uncle P.') /* LongDesc */
      , (25873, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -41,12 +34,6 @@ VALUES (25873,   1,   33556774) /* Setup */
      , (25873,   3,  536871010) /* SoundTable */
      , (25873,   6,   67112937) /* PaletteBase */
      , (25873,   8,  100670961) /* Icon */
-     , (25873,   9,   83890284) /* EyesTexture */
-     , (25873,  10,   83890316) /* NoseTexture */
-     , (25873,  11,   83890357) /* MouthTexture */
-     , (25873,  15,   67117015) /* HairPalette */
-     , (25873,  16,   67116858) /* EyesPalette */
-     , (25873,  17,   67116851) /* SkinPalette */
      , (25873,  22,  872415365) /* PhysicsEffectTable */
      , (25873, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25873, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

@@ -5,11 +5,9 @@ VALUES (35002, 'ace35002-lowercatacombprisonkey', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35002,   1,      16384) /* ItemType - Key */
-     , (35002,   2,         77) /* CreatureType - Ghost */
      , (35002,   5,         20) /* EncumbranceVal */
      , (35002,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (35002,  19,          0) /* Value */
-     , (35002,  25,        135) /* Level */
      , (35002,  65,        101) /* Placement - Resting */
      , (35002,  91,          1) /* MaxStructure */
      , (35002,  92,          1) /* Structure */
@@ -41,19 +39,6 @@ VALUES (35002,   1,   33554784) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35002,   2, 3708726159) /* Container */
      , (35002, 8000, 3708768534) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (35002,   1, 330, 0, 0) /* Strength */
-     , (35002,   2, 270, 0, 0) /* Endurance */
-     , (35002,   3, 360, 0, 0) /* Quickness */
-     , (35002,   4, 360, 0, 0) /* Coordination */
-     , (35002,   5, 320, 0, 0) /* Focus */
-     , (35002,   6, 320, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35002,   1,   635, 0, 0, 635) /* MaxHealth */
-     , (35002,   3,   270, 0, 0, 270) /* MaxStamina */
-     , (35002,   5,   670, 0, 0, 670) /* MaxMana */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35002, 0, 83888936, 83893868);

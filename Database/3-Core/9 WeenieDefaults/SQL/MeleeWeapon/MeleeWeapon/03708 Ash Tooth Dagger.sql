@@ -40,8 +40,6 @@ VALUES (3708,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3708,   1, 'Ash Tooth Dagger') /* Name */
-     , (3708,   7, '(10-20) bd iv (12-24 V)') /* Inscription */
-     , (3708,   8, 'Ninwa Chang') /* ScribeName */
      , (3708,  16, 'A dagger made from the tooth of an Ash Gromnie. Lightning flickers from the blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

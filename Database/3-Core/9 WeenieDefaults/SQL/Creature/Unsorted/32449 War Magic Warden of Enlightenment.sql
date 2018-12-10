@@ -5,11 +5,9 @@ VALUES (32449, 'ace32449-warmagicwardenofenlightenment', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32449,   1,         16) /* ItemType - Creature */
-     , (32449,   5,       6080) /* EncumbranceVal */
      , (32449,   6,        255) /* ItemsCapacity */
      , (32449,   7,        255) /* ContainersCapacity */
      , (32449,  16,         32) /* ItemUseable - Remote */
-     , (32449,  19,          0) /* Value */
      , (32449,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32449,  95,          3) /* RadarBlipColor - White */
      , (32449, 307,          0) /* DamageRating */
@@ -54,7 +52,6 @@ VALUES (32449,  39,     0.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32449,   1, 'War Magic Warden of Enlightenment') /* Name */
-     , (32449,  16, 'Killed by High-Voltage VIII.') /* LongDesc */
      , (32449, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -12,10 +12,7 @@ VALUES (49412,   1,         16) /* ItemType - Creature */
      , (49412,  25,        150) /* Level */
      , (49412,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49412, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (49412, 307,          8) /* DamageRating */
-     , (49412, 308,         11) /* DamageResistRating */
      , (49412, 313,          8) /* CritRating */
-     , (49412, 314,          9) /* CritDamageRating */
      , (49412, 315,         14) /* CritResistRating */
      , (49412, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 

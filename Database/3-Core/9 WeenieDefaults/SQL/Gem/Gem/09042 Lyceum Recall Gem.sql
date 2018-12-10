@@ -42,7 +42,7 @@ VALUES (9042,   1,   33556769) /* Setup */
      , (9042,   6,   67111919) /* PaletteBase */
      , (9042,   8,  100670993) /* Icon */
      , (9042,  22,  872415275) /* PhysicsEffectTable */
-     , (9042,  28,       2358) /* Spell */
+     , (9042,  28,       2358) /* Spell - RecallLyceum */
      , (9042, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9042, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9042, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

@@ -22,16 +22,13 @@ VALUES (49274,   1,        128) /* ItemType - Misc */
      , (49274, 367,        570) /* UseRequiresSkillLevel */
      , (49274, 368,         54) /* UseRequiresSkillSpec */
      , (49274, 369,        185) /* UseRequiresLevel */
-     , (49274, 370,          9) /* GearDamage */
      , (49274, 371,          9) /* GearDamageResist */
      , (49274, 372,         17) /* GearCrit */
      , (49274, 373,          9) /* GearCritResist */
-     , (49274, 374,          1) /* GearCritDamage */
      , (49274, 375,         10) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49274,   1, False) /* Stuck */
-     , (49274,   2, True ) /* Open */
      , (49274,  11, True ) /* IgnoreCollisions */
      , (49274,  13, True ) /* Ethereal */
      , (49274,  14, True ) /* GravityStatus */
@@ -45,10 +42,7 @@ VALUES (49274,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49274,   1, 'Galvanic Knight Essence') /* Name */
-     , (49274,   7, '31 (19/9/14)') /* Inscription */
-     , (49274,   8, 'Jesse the Destroyer') /* ScribeName */
-     , (49274,  14, 'Use this essence to summon or dismiss your Galvanic Knight.') /* Use */
-     , (49274,  16, 'Killed by Mag-one.') /* LongDesc */;
+     , (49274,  14, 'Use this essence to summon or dismiss your Galvanic Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49274,   1,   33554817) /* Setup */

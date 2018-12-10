@@ -30,13 +30,10 @@ VALUES (32263,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32263,   5,   -0.05) /* ManaRate */
      , (32263,  29,       1) /* WeaponDefense */
-     , (32263, 144,       0) /* ManaConversionMod */
-     , (32263, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (32263, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32263,   1, 'Intricate Mukkir Orb') /* Name */
-     , (32263,   7, 'Tinkerbot - @tell "help" for more information') /* Inscription */
-     , (32263,   8, 'Little Tinktink') /* ScribeName */
      , (32263,  16, 'A casting device fancifully crafted in the shape of a Mukkir''s head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -45,7 +42,7 @@ VALUES (32263,   1,   33559761) /* Setup */
      , (32263,   6,   67111919) /* PaletteBase */
      , (32263,   8,  100688412) /* Icon */
      , (32263,  22,  872415275) /* PhysicsEffectTable */
-     , (32263,  28,       3861) /* Spell */
+     , (32263,  28,       3861) /* Spell - CantripTasteForBlood */
      , (32263, 8001,  275316888) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, TargetType, Burden, Spell, HookType */
      , (32263, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32263, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

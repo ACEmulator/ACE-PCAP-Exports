@@ -11,16 +11,10 @@ VALUES (47897,   1,          1) /* ItemType - MeleeWeapon */
      , (47897,  16,          1) /* ItemUseable - No */
      , (47897,  18,         64) /* UiEffects - Lightning */
      , (47897,  19,       1000) /* Value */
-     , (47897,  28,        256) /* ArmorLevel */
      , (47897,  51,          1) /* CombatUse - Melee */
      , (47897,  65,          1) /* Placement - RightHandCombat */
      , (47897,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47897, 105,          5) /* ItemWorkmanship */
-     , (47897, 131,         63) /* MaterialType - Silver */
-     , (47897, 151,          2) /* HookType - Wall */
-     , (47897, 172,          5) /* AppraisalLongDescDecoration */
-     , (47897, 177,          1) /* GemCount */
-     , (47897, 178,         14) /* GemType */;
+     , (47897, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47897,   1, False) /* Stuck */
@@ -28,23 +22,13 @@ VALUES (47897,   1, False) /* Stuck */
      , (47897,  13, True ) /* Ethereal */
      , (47897,  14, True ) /* GravityStatus */
      , (47897,  19, True ) /* Attackable */
-     , (47897,  22, True ) /* Inscribable */
-     , (47897, 100, True ) /* Dyable */;
+     , (47897,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47897,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (47897,  14,       1) /* ArmorModVsPierce */
-     , (47897,  15,       1) /* ArmorModVsBludgeon */
-     , (47897,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (47897,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (47897,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (47897,  19, 0.686712324619293) /* ArmorModVsElectric */
-     , (47897,  39,    1.25) /* DefaultScale */
-     , (47897, 165,       1) /* ArmorModVsNether */;
+VALUES (47897,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47897,   1, 'Lightning Silifi') /* Name */
-     , (47897,  16, 'Signet Crown') /* LongDesc */;
+VALUES (47897,   1, 'Lightning Silifi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47897,   1,   33555781) /* Setup */

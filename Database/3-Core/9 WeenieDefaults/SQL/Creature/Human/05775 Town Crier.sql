@@ -6,30 +6,17 @@ VALUES (5775, 'towncriergharundimmale', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5775,   1,         16) /* ItemType - Creature */
      , (5775,   2,         31) /* CreatureType - Human */
-     , (5775,   5,         50) /* EncumbranceVal */
      , (5775,   6,        255) /* ItemsCapacity */
      , (5775,   7,        255) /* ContainersCapacity */
      , (5775,  16,         32) /* ItemUseable - Remote */
-     , (5775,  19,       5000) /* Value */
      , (5775,  25,         30) /* Level */
-     , (5775,  44,         10) /* Damage */
-     , (5775,  45,          4) /* DamageType - Bludgeon */
-     , (5775,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (5775,  49,         20) /* WeaponTime */
      , (5775,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (5775,  95,          8) /* RadarBlipColor - Yellow */
-     , (5775, 107,          0) /* ItemCurMana */
      , (5775, 113,          1) /* Gender - Male */
      , (5775, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5775, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (5775, 188,          2) /* HeritageGroup - Gharundim */
-     , (5775, 307,          5) /* DamageRating */
-     , (5775, 313,          0) /* CritRating */
-     , (5775, 314,          0) /* CritDamageRating */
-     , (5775, 353,         10) /* WeaponType - Thrown */
-     , (5775, 386,          0) /* Overpower */
-     , (5775, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (5775, 8030,          0);
+     , (5775, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5775,   1, True ) /* Stuck */
@@ -42,22 +29,11 @@ VALUES (5775,   1, True ) /* Stuck */
      , (5775,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5775,  21,       0) /* WeaponLength */
-     , (5775,  22,    0.25) /* DamageVariance */
-     , (5775,  26, 23.2000007629395) /* MaximumVelocity */
-     , (5775,  29,       1) /* WeaponDefense */
-     , (5775,  54,       3) /* UseRadius */
-     , (5775,  62,       1) /* WeaponOffense */
-     , (5775,  63,       1) /* DamageMod */
-     , (5775,  87,       2) /* ItemEfficiency */
-     , (5775, 137,     0.2) /* ManaStoneDestroyChance */
-     , (5775, 149,       0) /* WeaponMissileDefense */
-     , (5775, 150,       0) /* WeaponMagicDefense */;
+VALUES (5775,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5775,   1, 'Town Crier') /* Name */
      , (5775,   5, 'Herald') /* Template */
-     , (5775,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (5775, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -22,8 +22,7 @@ VALUES (41245,   1, False) /* Stuck */
      , (41245,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41245,   1, 'Gearknight Greatsword') /* Name */
-     , (41245,  16, 'Killed by Validus.') /* LongDesc */;
+VALUES (41245,   1, 'Gearknight Greatsword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41245,   1,   33560847) /* Setup */

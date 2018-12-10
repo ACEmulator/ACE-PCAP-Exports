@@ -6,36 +6,17 @@ VALUES (38151, 'ace38151-captainwarner', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38151,   1,         16) /* ItemType - Creature */
      , (38151,   2,         31) /* CreatureType - Human */
-     , (38151,   5,        124) /* EncumbranceVal */
      , (38151,   6,        255) /* ItemsCapacity */
      , (38151,   7,        255) /* ContainersCapacity */
      , (38151,  16,         32) /* ItemUseable - Remote */
-     , (38151,  19,        686) /* Value */
      , (38151,  25,         34) /* Level */
-     , (38151,  44,         10) /* Damage */
-     , (38151,  45,          4) /* DamageType - Bludgeon */
-     , (38151,  47,          1) /* AttackType - Punch */
-     , (38151,  48,         45) /* WeaponSkill - LightWeapons */
-     , (38151,  49,         19) /* WeaponTime */
      , (38151,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38151,  95,          8) /* RadarBlipColor - Yellow */
-     , (38151, 105,          3) /* ItemWorkmanship */
-     , (38151, 106,         55) /* ItemSpellcraft */
-     , (38151, 107,        269) /* ItemCurMana */
-     , (38151, 108,        269) /* ItemMaxMana */
-     , (38151, 109,         17) /* ItemDifficulty */
-     , (38151, 110,          0) /* ItemAllegianceRankLimit */
      , (38151, 113,          1) /* Gender - Male */
-     , (38151, 115,         75) /* ItemSkillLevelLimit */
-     , (38151, 131,         57) /* MaterialType - Brass */
      , (38151, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38151, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38151, 172,          1) /* AppraisalLongDescDecoration */
-     , (38151, 176,         45) /* AppraisalItemSkill */
      , (38151, 188,          1) /* HeritageGroup - Aluvian */
-     , (38151, 353,          1) /* WeaponType - Unarmed */
-     , (38151, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38151, 8030,          0);
+     , (38151, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38151,   1, True ) /* Stuck */
@@ -48,19 +29,11 @@ VALUES (38151,   1, True ) /* Stuck */
      , (38151,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38151,   5, -0.0166666666666667) /* ManaRate */
-     , (38151,  21,       0) /* WeaponLength */
-     , (38151,  22,    0.43) /* DamageVariance */
-     , (38151,  26,       0) /* MaximumVelocity */
-     , (38151,  29,    1.03) /* WeaponDefense */
-     , (38151,  54,       3) /* UseRadius */
-     , (38151,  62,    1.02) /* WeaponOffense */
-     , (38151,  63,       1) /* DamageMod */;
+VALUES (38151,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38151,   1, 'Captain Warner') /* Name */
      , (38151,   5, 'Mariner') /* Template */
-     , (38151,  16, 'Knuckles of Blood Drinker') /* LongDesc */
      , (38151, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -98,10 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38151,   1,    85, 0, 0, 85) /* MaxHealth */
      , (38151,   3,   140, 0, 0, 140) /* MaxStamina */
      , (38151,   5,    40, 0, 0, 40) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38151,  1612,      2) 
-     , (38151,  1623,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38151, 67109560, 0, 24)

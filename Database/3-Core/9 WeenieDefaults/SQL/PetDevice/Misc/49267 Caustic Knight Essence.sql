@@ -17,19 +17,15 @@ VALUES (49267,   1,        128) /* ItemType - Misc */
      , (49267,  94,         16) /* TargetType - Creature */
      , (49267, 105,          7) /* ItemWorkmanship */
      , (49267, 114,          0) /* Attuned - Normal */
-     , (49267, 131,         29) /* MaterialType - LavenderJade */
-     , (49267, 172,          1) /* AppraisalLongDescDecoration */
      , (49267, 280,        213) /* SharedCooldown */
      , (49267, 366,         54) /* UseRequiresSkill */
      , (49267, 367,        570) /* UseRequiresSkillLevel */
      , (49267, 368,         54) /* UseRequiresSkillSpec */
      , (49267, 369,        185) /* UseRequiresLevel */
-     , (49267, 370,         14) /* GearDamage */
      , (49267, 371,         11) /* GearDamageResist */
      , (49267, 372,         10) /* GearCrit */
      , (49267, 373,          3) /* GearCritResist */
-     , (49267, 374,         10) /* GearCritDamage */
-     , (49267, 375,         10) /* GearCritDamageResist */;
+     , (49267, 374,         10) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49267,   1, False) /* Stuck */
@@ -46,8 +42,7 @@ VALUES (49267,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49267,   1, 'Caustic Knight Essence') /* Name */
-     , (49267,  14, 'Use this essence to summon or dismiss your Caustic Knight.') /* Use */
-     , (49267,  16, 'Gem') /* LongDesc */;
+     , (49267,  14, 'Use this essence to summon or dismiss your Caustic Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49267,   1,   33554817) /* Setup */

@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33525,   1,   33560036) /* Setup */
      , (33525,   3,  536870968) /* SoundTable */
      , (33525,   8,  100667494) /* Icon */
-     , (33525,  28,         75) /* Spell */
+     , (33525,  28,         75) /* Spell - LightningBolt1 */
      , (33525, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33525, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33525, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;

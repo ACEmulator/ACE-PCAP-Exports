@@ -26,8 +26,6 @@ VALUES (19221,  39, 0.699999988079071) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19221,   1, 'Decorative Bronze Statue') /* Name */
-     , (19221,   7, 'Koji fued') /* Inscription */
-     , (19221,   8, 'Little Thor') /* ScribeName */
      , (19221,  16, 'A small decorative statue of Ben Ten crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */
      , (19221, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

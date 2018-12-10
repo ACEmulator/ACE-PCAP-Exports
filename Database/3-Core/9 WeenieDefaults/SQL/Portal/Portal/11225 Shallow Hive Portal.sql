@@ -5,9 +5,7 @@ VALUES (11225, 'portalrandomhived_xp', 7) /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11225,   1,      65536) /* ItemType - Portal */
-     , (11225,   2,         44) /* CreatureType - Grievver */
      , (11225,  16,         32) /* ItemUseable - Remote */
-     , (11225,  25,        200) /* Level */
      , (11225,  86,         60) /* MinLevel */
      , (11225,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (11225, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
@@ -44,6 +42,3 @@ VALUES (11225, 8040, 615972919, 164.7044, 145.015, 107.937, 1, 0, 0, 0) /* PCAPR
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11225, 8000, 2929983893) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11225,   1,  1370, 0, 0, 1370) /* MaxHealth */;

@@ -6,38 +6,14 @@ VALUES (38954, 'ace38954-warriorcorthos', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38954,   1,         16) /* ItemType - Creature */
      , (38954,   2,          5) /* CreatureType - Lugian */
-     , (38954,   5,        351) /* EncumbranceVal */
      , (38954,   6,        255) /* ItemsCapacity */
      , (38954,   7,        255) /* ContainersCapacity */
      , (38954,  16,          1) /* ItemUseable - No */
-     , (38954,  19,      10372) /* Value */
      , (38954,  25,        200) /* Level */
-     , (38954,  44,         56) /* Damage */
-     , (38954,  45,         32) /* DamageType - Acid */
-     , (38954,  47,          6) /* AttackType - Thrust, Slash */
-     , (38954,  48,         44) /* WeaponSkill - HeavyWeapons */
-     , (38954,  49,         31) /* WeaponTime */
      , (38954,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38954, 105,          7) /* ItemWorkmanship */
-     , (38954, 106,        319) /* ItemSpellcraft */
-     , (38954, 107,       1634) /* ItemCurMana */
-     , (38954, 108,       1634) /* ItemMaxMana */
-     , (38954, 109,        155) /* ItemDifficulty */
-     , (38954, 110,          0) /* ItemAllegianceRankLimit */
-     , (38954, 115,        339) /* ItemSkillLevelLimit */
-     , (38954, 131,         51) /* MaterialType - Ivory */
      , (38954, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (38954, 158,          2) /* WieldRequirements - RawSkill */
-     , (38954, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (38954, 160,        370) /* WieldDifficulty */
-     , (38954, 172,          5) /* AppraisalLongDescDecoration */
-     , (38954, 176,         44) /* AppraisalItemSkill */
-     , (38954, 177,          2) /* GemCount */
-     , (38954, 178,         41) /* GemType */
      , (38954, 307,          5) /* DamageRating */
-     , (38954, 353,          5) /* WeaponType - Spear */
-     , (38954, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38954, 8030,          0);
+     , (38954, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38954,   1, True ) /* Stuck */
@@ -47,19 +23,11 @@ VALUES (38954,   1, True ) /* Stuck */
      , (38954,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38954,   5, -0.0555555555555556) /* ManaRate */
-     , (38954,  21,       0) /* WeaponLength */
-     , (38954,  22,    0.75) /* DamageVariance */
-     , (38954,  26,       0) /* MaximumVelocity */
-     , (38954,  29,    1.08) /* WeaponDefense */
-     , (38954,  39, 1.20000004768372) /* DefaultScale */
-     , (38954,  62,    1.14) /* WeaponOffense */
-     , (38954,  63,       1) /* DamageMod */;
+VALUES (38954,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38954,   1, 'Warrior Corthos') /* Name */
      , (38954,   5, 'Monster Fighter') /* Template */
-     , (38954,  16, 'Acid Spine Glaive of Swift Killer') /* LongDesc */
      , (38954, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,11 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38954,   1,  3225, 0, 0, 3225) /* MaxHealth */
      , (38954,   3, 10450, 0, 0, 10450) /* MaxStamina */
      , (38954,   5, 10320, 0, 0, 10320) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38954,  1627,      2) 
-     , (38954,  2096,      2) 
-     , (38954,  2541,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38954, 67114288, 0, 0);

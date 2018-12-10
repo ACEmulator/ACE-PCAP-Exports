@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3250,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3250,   1, 'Scroll of Defenselessness IV') /* Name */;
+VALUES (3250,   1, 'Scroll of Defenselessness IV') /* Name */
+     , (3250,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (3250,  16, 'Inscribed spell: Defenselessness Other IV
+Decreases the target''s Missile Defense skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3250,   1,   33554826) /* Setup */
      , (3250,   8,  100676468) /* Icon */
      , (3250,  22,  872415275) /* PhysicsEffectTable */
-     , (3250,  28,        265) /* Spell */
+     , (3250,  28,        265) /* Spell - DefenselessnessOther4 */
      , (3250, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3250, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3250, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (3250,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3250,   2, 3683072149) /* Container */
      , (3250, 8000, 3683072148) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3250,   265,      2) ;

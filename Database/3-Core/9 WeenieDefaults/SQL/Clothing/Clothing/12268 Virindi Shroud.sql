@@ -40,8 +40,6 @@ VALUES (12268,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12268,   1, 'Virindi Shroud') /* Name */
-     , (12268,   7, 'pwned') /* Inscription */
-     , (12268,   8, 'Icefalcon Artifex') /* ScribeName */
      , (12268,  16, 'The wrappings of a powerful Virindi Director') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

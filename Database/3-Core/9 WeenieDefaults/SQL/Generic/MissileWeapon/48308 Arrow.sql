@@ -13,7 +13,6 @@ VALUES (48308,   1,        256) /* ItemType - MissileWeapon */
      , (48308,  16,          1) /* ItemUseable - No */
      , (48308,  18,        128) /* UiEffects - Frost */
      , (48308,  19,         96) /* Value */
-     , (48308,  33,          1) /* Bonded - Bonded */
      , (48308,  50,          1) /* AmmoType - Arrow */
      , (48308,  51,          3) /* CombatUse - Ammo */
      , (48308,  65,          1) /* Placement - RightHandCombat */
@@ -33,8 +32,7 @@ VALUES (48308,  78,       1) /* Friction */
      , (48308,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48308,   1, 'Arrow') /* Name */
-     , (48308,  16, 'A concentrated lead pea.') /* LongDesc */;
+VALUES (48308,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48308,   1,   33555689) /* Setup */

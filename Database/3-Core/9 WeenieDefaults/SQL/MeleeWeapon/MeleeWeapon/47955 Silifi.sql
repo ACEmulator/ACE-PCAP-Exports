@@ -11,32 +11,16 @@ VALUES (47955,   1,          1) /* ItemType - MeleeWeapon */
      , (47955,  16,          1) /* ItemUseable - No */
      , (47955,  19,       1000) /* Value */
      , (47955,  33,         -2) /* Bonded - Destroy */
-     , (47955,  44,          0) /* Damage */
-     , (47955,  45,          2) /* DamageType - Pierce */
+     , (47955,  44,         65) /* Damage */
+     , (47955,  45,          1) /* DamageType - Slash */
      , (47955,  47,          4) /* AttackType - Slash */
-     , (47955,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (47955,  49,         20) /* WeaponTime */
+     , (47955,  48,         44) /* WeaponSkill - HeavyWeapons */
+     , (47955,  49,         55) /* WeaponTime */
      , (47955,  51,          1) /* CombatUse - Melee */
      , (47955,  65,          1) /* Placement - RightHandCombat */
      , (47955,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47955, 105,          6) /* ItemWorkmanship */
-     , (47955, 106,        271) /* ItemSpellcraft */
-     , (47955, 107,        981) /* ItemCurMana */
-     , (47955, 108,        981) /* ItemMaxMana */
-     , (47955, 109,        125) /* ItemDifficulty */
-     , (47955, 110,          0) /* ItemAllegianceRankLimit */
-     , (47955, 115,        291) /* ItemSkillLevelLimit */
-     , (47955, 131,         51) /* MaterialType - Ivory */
      , (47955, 151,          2) /* HookType - Wall */
-     , (47955, 158,          2) /* WieldRequirements - RawSkill */
-     , (47955, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (47955, 160,        315) /* WieldDifficulty */
-     , (47955, 172,          5) /* AppraisalLongDescDecoration */
-     , (47955, 176,         47) /* AppraisalItemSkill */
-     , (47955, 177,          3) /* GemCount */
-     , (47955, 178,         38) /* GemType */
-     , (47955, 204,          1) /* ElementalDamageBonus */
-     , (47955, 353,         10) /* WeaponType - Thrown */
+     , (47955, 353,          3) /* WeaponType - Axe */
      , (47955, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,18 +32,16 @@ VALUES (47955,   1, False) /* Stuck */
      , (47955,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47955,   5, -0.0555555555555556) /* ManaRate */
-     , (47955,  21,       0) /* WeaponLength */
-     , (47955,  22,       0) /* DamageVariance */
-     , (47955,  26,    24.9) /* MaximumVelocity */
-     , (47955,  29,    1.09) /* WeaponDefense */
+VALUES (47955,  21,       0) /* WeaponLength */
+     , (47955,  22,    0.75) /* DamageVariance */
+     , (47955,  26,       0) /* MaximumVelocity */
+     , (47955,  29,       1) /* WeaponDefense */
      , (47955,  39,    1.25) /* DefaultScale */
      , (47955,  62,       1) /* WeaponOffense */
-     , (47955,  63,    2.55) /* DamageMod */;
+     , (47955,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47955,   1, 'Silifi') /* Name */
-     , (47955,  16, 'Piercing Atlatl of Endurance') /* LongDesc */;
+VALUES (47955,   1, 'Silifi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47955,   1,   33554753) /* Setup */
@@ -80,10 +62,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47955,   3, 3685617824) /* Wielder */
      , (47955, 8000, 3685499269) /* PCAPRecordedObjectIID */
      , (47955, 8008, 3685617824) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47955,  1354,      2) 
-     , (47955,  1615,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47955, 67111920, 0, 0);

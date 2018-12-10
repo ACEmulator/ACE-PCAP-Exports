@@ -6,68 +6,26 @@ VALUES (31403, 'ace31403-ravenaugur', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31403,   1,         16) /* ItemType - Creature */
      , (31403,   2,         31) /* CreatureType - Human */
-     , (31403,   5,        300) /* EncumbranceVal */
      , (31403,   6,        255) /* ItemsCapacity */
      , (31403,   7,        255) /* ContainersCapacity */
      , (31403,  16,          1) /* ItemUseable - No */
-     , (31403,  19,      18006) /* Value */
      , (31403,  25,        160) /* Level */
-     , (31403,  44,         28) /* Damage */
-     , (31403,  45,         32) /* DamageType - Acid */
-     , (31403,  47,          4) /* AttackType - Slash */
-     , (31403,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (31403,  49,         43) /* WeaponTime */
-     , (31403,  89,          6) /* BoosterEnum - Mana */
-     , (31403,  90,         85) /* BoostValue */
      , (31403,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31403, 105,          8) /* ItemWorkmanship */
-     , (31403, 106,        287) /* ItemSpellcraft */
-     , (31403, 107,       1245) /* ItemCurMana */
-     , (31403, 108,       1245) /* ItemMaxMana */
-     , (31403, 109,        140) /* ItemDifficulty */
-     , (31403, 110,          0) /* ItemAllegianceRankLimit */
      , (31403, 113,          1) /* Gender - Male */
-     , (31403, 115,        307) /* ItemSkillLevelLimit */
-     , (31403, 131,         51) /* MaterialType - Ivory */
      , (31403, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31403, 158,          2) /* WieldRequirements - RawSkill */
-     , (31403, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (31403, 160,        350) /* WieldDifficulty */
-     , (31403, 172,          5) /* AppraisalLongDescDecoration */
-     , (31403, 176,         41) /* AppraisalItemSkill */
-     , (31403, 177,          5) /* GemCount */
-     , (31403, 178,         20) /* GemType */
      , (31403, 188,          1) /* HeritageGroup - Aluvian */
-     , (31403, 204,         22) /* ElementalDamageBonus */
-     , (31403, 292,          2) /* Cleaving */
      , (31403, 307,          5) /* DamageRating */
-     , (31403, 353,         11) /* WeaponType - TwoHanded */
-     , (31403, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (31403, 8030,          0);
+     , (31403, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31403,   1, True ) /* Stuck */
-     , (31403,   2, True ) /* Open */
      , (31403,  12, True ) /* ReportCollisions */
      , (31403,  13, False) /* Ethereal */
      , (31403,  14, True ) /* GravityStatus */
      , (31403,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31403,   5, -0.0555555555555556) /* ManaRate */
-     , (31403,  21,       0) /* WeaponLength */
-     , (31403,  22,    0.35) /* DamageVariance */
-     , (31403,  26,       0) /* MaximumVelocity */
-     , (31403,  29,    1.08) /* WeaponDefense */
-     , (31403,  62,    1.12) /* WeaponOffense */
-     , (31403,  63,       1) /* DamageMod */
-     , (31403,  87,       3) /* ItemEfficiency */
-     , (31403, 137,    0.25) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31403,   1, 'Raven Augur') /* Name */
-     , (31403,  14, 'Use this item to close it.') /* Use */
-     , (31403,  16, 'Acid Shashqa of Blood Drinker') /* LongDesc */
      , (31403, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -106,13 +64,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (31403,   1,  3000, 0, 0, 3000) /* MaxHealth */
      , (31403,   3,  4000, 0, 0, 4000) /* MaxStamina */
      , (31403,   5,  3000, 0, 0, 3000) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31403,  1332,      2) 
-     , (31403,  2096,      2) 
-     , (31403,  2620,      2) 
-     , (31403,  4395,      2) 
-     , (31403,  4684,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31403, 67109560, 0, 24)

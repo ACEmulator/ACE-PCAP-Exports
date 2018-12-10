@@ -39,8 +39,6 @@ VALUES (551,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (551,   1, 'Basinet') /* Name */
-     , (551,   7, 'mine.') /* Inscription */
-     , (551,   8, 'Arkai') /* ScribeName */
      , (551,  16, '  Leather Basinet ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

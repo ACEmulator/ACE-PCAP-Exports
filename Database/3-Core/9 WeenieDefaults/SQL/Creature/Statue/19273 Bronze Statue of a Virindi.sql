@@ -6,11 +6,9 @@ VALUES (19273, 'statuereplicaextremevirindismall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19273,   1,         16) /* ItemType - Creature */
      , (19273,   2,         63) /* CreatureType - Statue */
-     , (19273,   5,       6015) /* EncumbranceVal */
      , (19273,   6,        255) /* ItemsCapacity */
      , (19273,   7,        255) /* ContainersCapacity */
      , (19273,  16,          1) /* ItemUseable - No */
-     , (19273,  19,          0) /* Value */
      , (19273,  25,        100) /* Level */
      , (19273,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19273, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (19273,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19273,   1, 'Bronze Statue of a Virindi') /* Name */
-     , (19273,  16, 'Killed by Hawkeye the Ranger''s K''nath.') /* LongDesc */
      , (19273, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

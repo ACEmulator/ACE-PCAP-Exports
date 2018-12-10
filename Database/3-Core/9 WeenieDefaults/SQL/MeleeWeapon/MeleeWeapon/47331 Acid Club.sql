@@ -11,16 +11,10 @@ VALUES (47331,   1,          1) /* ItemType - MeleeWeapon */
      , (47331,  16,          1) /* ItemUseable - No */
      , (47331,  18,        256) /* UiEffects - Acid */
      , (47331,  19,        350) /* Value */
-     , (47331,  28,          0) /* ArmorLevel */
      , (47331,  51,          1) /* CombatUse - Melee */
      , (47331,  65,          1) /* Placement - RightHandCombat */
      , (47331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47331, 105,          8) /* ItemWorkmanship */
-     , (47331, 131,          7) /* MaterialType - Velvet */
-     , (47331, 151,          2) /* HookType - Wall */
-     , (47331, 172,          5) /* AppraisalLongDescDecoration */
-     , (47331, 177,          2) /* GemCount */
-     , (47331, 178,         20) /* GemType */;
+     , (47331, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47331,   1, False) /* Stuck */
@@ -28,22 +22,10 @@ VALUES (47331,   1, False) /* Stuck */
      , (47331,  13, True ) /* Ethereal */
      , (47331,  14, True ) /* GravityStatus */
      , (47331,  19, True ) /* Attackable */
-     , (47331,  22, True ) /* Inscribable */
-     , (47331, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47331,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (47331,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47331,  15,       1) /* ArmorModVsBludgeon */
-     , (47331,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (47331,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (47331,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (47331,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (47331, 165,       1) /* ArmorModVsNether */;
+     , (47331,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47331,   1, 'Acid Club') /* Name */
-     , (47331,  16, 'Baggy Shirt') /* LongDesc */;
+VALUES (47331,   1, 'Acid Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47331,   1,   33555727) /* Setup */

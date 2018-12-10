@@ -19,12 +19,7 @@ VALUES (48626,   1,        256) /* ItemType - MissileWeapon */
      , (48626,  49,         20) /* WeaponTime */
      , (48626,  51,          2) /* CombatUse - Missle */
      , (48626,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48626, 105,          3) /* ItemWorkmanship */
-     , (48626, 131,          2) /* MaterialType - Porcelain */
      , (48626, 151,          2) /* HookType - Wall */
-     , (48626, 172,          5) /* AppraisalLongDescDecoration */
-     , (48626, 177,          1) /* GemCount */
-     , (48626, 178,         36) /* GemType */
      , (48626, 307,          5) /* DamageRating */
      , (48626, 313,          0) /* CritRating */
      , (48626, 314,          0) /* CritDamageRating */
@@ -53,8 +48,7 @@ VALUES (48626,  21,       0) /* WeaponLength */
      , (48626, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48626,   1, 'Ice Shard') /* Name */
-     , (48626,  16, 'Dinner Plate') /* LongDesc */;
+VALUES (48626,   1, 'Ice Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48626,   1,   33559361) /* Setup */

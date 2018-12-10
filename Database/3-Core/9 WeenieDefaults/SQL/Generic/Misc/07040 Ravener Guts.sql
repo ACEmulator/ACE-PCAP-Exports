@@ -24,9 +24,6 @@ VALUES (7040,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7040,   1, 'Ravener Guts') /* Name */
-     , (7040,   7, 'You knock Faith Raven into next Morningthaw!
-Your attack stops Faith Raven cold!') /* Inscription */
-     , (7040,   8, 'Killerwolf') /* ScribeName */
      , (7040,  14, 'This has no apparent use.') /* Use */
      , (7040,  16, 'The guts of a departed Drudge Ravener.') /* LongDesc */;
 

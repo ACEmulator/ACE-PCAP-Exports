@@ -44,9 +44,7 @@ VALUES (33587,   5, -0.0166) /* ManaRate */
      , (33587, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33587,   1, 'Noble Relic Leggings of Health') /* Name */
-     , (33587,   7, 'Keep') /* Inscription */
-     , (33587,   8, 'Kilemal') /* ScribeName */;
+VALUES (33587,   1, 'Noble Relic Leggings of Health') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33587,   1,   33554856) /* Setup */

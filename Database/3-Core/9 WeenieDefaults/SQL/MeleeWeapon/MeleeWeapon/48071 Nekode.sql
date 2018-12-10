@@ -10,14 +10,10 @@ VALUES (48071,   1,          1) /* ItemType - MeleeWeapon */
      , (48071,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48071,  16,          1) /* ItemUseable - No */
      , (48071,  19,        155) /* Value */
-     , (48071,  28,        269) /* ArmorLevel */
      , (48071,  51,          1) /* CombatUse - Melee */
      , (48071,  65,          1) /* Placement - RightHandCombat */
      , (48071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48071, 105,          8) /* ItemWorkmanship */
-     , (48071, 131,          5) /* MaterialType - Satin */
-     , (48071, 151,          2) /* HookType - Wall */
-     , (48071, 172,          1) /* AppraisalLongDescDecoration */;
+     , (48071, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48071,   1, False) /* Stuck */
@@ -25,22 +21,10 @@ VALUES (48071,   1, False) /* Stuck */
      , (48071,  13, True ) /* Ethereal */
      , (48071,  14, True ) /* GravityStatus */
      , (48071,  19, True ) /* Attackable */
-     , (48071,  22, True ) /* Inscribable */
-     , (48071, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48071,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (48071,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (48071,  15,       1) /* ArmorModVsBludgeon */
-     , (48071,  16,     0.5) /* ArmorModVsCold */
-     , (48071,  17,     0.5) /* ArmorModVsFire */
-     , (48071,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (48071,  19, 1.07728111743927) /* ArmorModVsElectric */
-     , (48071, 165,       1) /* ArmorModVsNether */;
+     , (48071,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48071,   1, 'Nekode') /* Name */
-     , (48071,  16, 'Cloth Gloves') /* LongDesc */;
+VALUES (48071,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48071,   1,   33555996) /* Setup */

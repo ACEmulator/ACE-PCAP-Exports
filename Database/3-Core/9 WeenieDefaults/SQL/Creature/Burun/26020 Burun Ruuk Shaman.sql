@@ -6,11 +6,9 @@ VALUES (26020, 'burunruukshaman', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26020,   1,         16) /* ItemType - Creature */
      , (26020,   2,         75) /* CreatureType - Burun */
-     , (26020,   5,       8097) /* EncumbranceVal */
      , (26020,   6,        255) /* ItemsCapacity */
      , (26020,   7,        255) /* ContainersCapacity */
      , (26020,  16,          1) /* ItemUseable - No */
-     , (26020,  19,          0) /* Value */
      , (26020,  25,        135) /* Level */
      , (26020,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26020, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (26020,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26020,   1, 'Burun Ruuk Shaman') /* Name */
-     , (26020,  16, 'Killed by Reaver Simulacrum.') /* LongDesc */
      , (26020, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

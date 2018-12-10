@@ -18,8 +18,7 @@ VALUES (33603,   1,          2) /* ItemType - Armor */
      , (33603, 107,       1000) /* ItemCurMana */
      , (33603, 108,       1000) /* ItemMaxMana */
      , (33603, 109,          0) /* ItemDifficulty */
-     , (33603, 114,          1) /* Attuned - Attuned */
-     , (33603, 324,          6) /* HeritageSpecificArmor */;
+     , (33603, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33603,   1, False) /* Stuck */
@@ -28,7 +27,6 @@ VALUES (33603,   1, False) /* Stuck */
      , (33603,  14, True ) /* GravityStatus */
      , (33603,  19, True ) /* Attackable */
      , (33603,  22, True ) /* Inscribable */
-     , (33603,  85, True ) /* AppraisalHasAllowedWielder */
      , (33603,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,10 +42,7 @@ VALUES (33603,   5, -0.0333333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33603,   1, 'Pathwarden Yoroi Leggings') /* Name */
-     , (33603,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
-     , (33603,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */
-     , (33603,  25, 'Mrs Grey') /* CraftsmanName */
-     , (33603,  52, 'Core Leg Plating') /* GearPlatingName */;
+     , (33603,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33603,   1,   33554856) /* Setup */

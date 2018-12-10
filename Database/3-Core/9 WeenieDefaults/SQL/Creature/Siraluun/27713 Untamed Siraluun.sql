@@ -6,11 +6,9 @@ VALUES (27713, 'siraluununtamed', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27713,   1,         16) /* ItemType - Creature */
      , (27713,   2,         56) /* CreatureType - Siraluun */
-     , (27713,   5,       6852) /* EncumbranceVal */
      , (27713,   6,        255) /* ItemsCapacity */
      , (27713,   7,        255) /* ContainersCapacity */
      , (27713,  16,          1) /* ItemUseable - No */
-     , (27713,  19,          0) /* Value */
      , (27713,  25,        100) /* Level */
      , (27713,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27713, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (27713,  39, 1.60000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27713,   1, 'Untamed Siraluun') /* Name */
-     , (27713,  16, 'Killed by Sanguis Tenebrous.') /* LongDesc */
      , (27713, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

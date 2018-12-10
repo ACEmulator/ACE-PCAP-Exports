@@ -25,7 +25,6 @@ VALUES (30560,   1,          1) /* ItemType - MeleeWeapon */
      , (30560, 109,        123) /* ItemDifficulty */
      , (30560, 110,          0) /* ItemAllegianceRankLimit */
      , (30560, 115,        273) /* ItemSkillLevelLimit */
-     , (30560, 117,        350) /* ItemManaCost */
      , (30560, 131,         77) /* MaterialType - Teak */
      , (30560, 151,          2) /* HookType - Wall */
      , (30560, 158,          2) /* WieldRequirements - RawSkill */
@@ -54,8 +53,6 @@ VALUES (30560,   5,   -0.05) /* ManaRate */
      , (30560,  29,    1.03) /* WeaponDefense */
      , (30560,  62,    1.08) /* WeaponOffense */
      , (30560,  63,       1) /* DamageMod */
-     , (30560, 149,   1.015) /* WeaponMissileDefense */
-     , (30560, 150,   1.015) /* WeaponMagicDefense */
      , (30560, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -77,35 +74,9 @@ VALUES (30560,   2, 3355119835) /* Container */
      , (30560, 8000, 3355119837) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30560,  1332,      2) 
-     , (30560,  1354,      2) 
-     , (30560,  1591,      2) 
-     , (30560,  1592,      2) 
-     , (30560,  1602,      2) 
-     , (30560,  1605,      2) 
+VALUES (30560,  1605,      2) 
      , (30560,  1615,      2) 
-     , (30560,  1616,      2) 
-     , (30560,  1626,      2) 
-     , (30560,  1627,      2) 
-     , (30560,  2053,      2) 
-     , (30560,  2087,      2) 
-     , (30560,  2096,      2) 
-     , (30560,  2101,      2) 
-     , (30560,  2106,      2) 
-     , (30560,  2511,      2) 
-     , (30560,  2537,      2) 
-     , (30560,  2544,      2) 
-     , (30560,  2548,      2) 
-     , (30560,  2549,      2) 
-     , (30560,  2554,      2) 
-     , (30560,  2576,      2) 
-     , (30560,  2578,      2) 
-     , (30560,  2582,      2) 
-     , (30560,  2596,      2) 
-     , (30560,  2603,      2) 
-     , (30560,  2621,      2) 
-     , (30560,  4395,      2) 
-     , (30560,  5808,      2) ;
+     , (30560,  2537,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30560, 67116386, 0, 0);

@@ -6,32 +6,13 @@ VALUES (219, 'ratgrey', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (219,   1,         16) /* ItemType - Creature */
      , (219,   2,         10) /* CreatureType - Rat */
-     , (219,   5,         50) /* EncumbranceVal */
      , (219,   6,        255) /* ItemsCapacity */
      , (219,   7,        255) /* ContainersCapacity */
      , (219,  16,          1) /* ItemUseable - No */
-     , (219,  19,       6561) /* Value */
      , (219,  25,          8) /* Level */
-     , (219,  44,         20) /* Damage */
-     , (219,  45,          4) /* DamageType - Bludgeon */
-     , (219,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (219,  49,         10) /* WeaponTime */
      , (219,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (219, 105,          6) /* ItemWorkmanship */
-     , (219, 106,        261) /* ItemSpellcraft */
-     , (219, 107,       1525) /* ItemCurMana */
-     , (219, 108,       1525) /* ItemMaxMana */
-     , (219, 109,        195) /* ItemDifficulty */
-     , (219, 110,          0) /* ItemAllegianceRankLimit */
-     , (219, 115,          0) /* ItemSkillLevelLimit */
-     , (219, 131,         51) /* MaterialType - Ivory */
      , (219, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (219, 172,          5) /* AppraisalLongDescDecoration */
-     , (219, 177,          6) /* GemCount */
-     , (219, 178,         23) /* GemType */
-     , (219, 353,         10) /* WeaponType - Thrown */
-     , (219, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (219, 8030,          0);
+     , (219, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (219,   1, True ) /* Stuck */
@@ -41,18 +22,10 @@ VALUES (219,   1, True ) /* Stuck */
      , (219,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (219,   5, -0.0555555555555556) /* ManaRate */
-     , (219,  21,       0) /* WeaponLength */
-     , (219,  22,    0.25) /* DamageVariance */
-     , (219,  26,       0) /* MaximumVelocity */
-     , (219,  29,       1) /* WeaponDefense */
-     , (219,  39,     2.5) /* DefaultScale */
-     , (219,  62,       1) /* WeaponOffense */
-     , (219,  63,       1) /* DamageMod */;
+VALUES (219,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (219,   1, 'Grey Rat') /* Name */
-     , (219,  16, 'Ornamental Bowl of Fletching Mastery') /* LongDesc */
      , (219, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -85,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (219,   1,    15, 0, 0, 15) /* MaxHealth */
      , (219,   3,   120, 0, 0, 120) /* MaxStamina */
      , (219,   5,    15, 0, 0, 15) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (219,  1744,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (219, 67111339, 0, 0);

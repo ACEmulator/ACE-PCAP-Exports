@@ -36,7 +36,7 @@ VALUES (8550,   1,   33554712) /* Setup */
      , (8550,   3,  536870932) /* SoundTable */
      , (8550,   8,  100667466) /* Icon */
      , (8550,  22,  872415275) /* PhysicsEffectTable */
-     , (8550,  28,        686) /* Spell */
+     , (8550,  28,        686) /* Spell - ArcaneEnlightenmentOther3 */
      , (8550, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
      , (8550, 8003,         22) /* PCAPRecordedObjectDesc - Inscribable, Stuck, Attackable */
      , (8550, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;

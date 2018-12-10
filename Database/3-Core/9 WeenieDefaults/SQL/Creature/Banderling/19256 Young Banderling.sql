@@ -6,68 +6,24 @@ VALUES (19256, 'banderlingyoung_noaggro', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19256,   1,         16) /* ItemType - Creature */
      , (19256,   2,          2) /* CreatureType - Banderling */
-     , (19256,   5,          5) /* EncumbranceVal */
      , (19256,   6,        255) /* ItemsCapacity */
      , (19256,   7,        255) /* ContainersCapacity */
      , (19256,  16,          1) /* ItemUseable - No */
-     , (19256,  19,          4) /* Value */
      , (19256,  25,          8) /* Level */
-     , (19256,  44,         10) /* Damage */
-     , (19256,  45,          2) /* DamageType - Pierce */
-     , (19256,  48,          0) /* WeaponSkill - None */
-     , (19256,  49,         -1) /* WeaponTime */
      , (19256,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19256, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19256, 179,          0) /* ImbuedEffect - Undef */
-     , (19256, 303,          0) /* ImbuedEffect2 - Undef */
-     , (19256, 304,          0) /* ImbuedEffect3 - Undef */
-     , (19256, 305,          0) /* ImbuedEffect4 - Undef */
-     , (19256, 306,          0) /* ImbuedEffect5 - Undef */
      , (19256, 307,          5) /* DamageRating */
-     , (19256, 308,          0) /* DamageResistRating */
-     , (19256, 313,          0) /* CritRating */
-     , (19256, 314,          0) /* CritDamageRating */
-     , (19256, 315,          0) /* CritResistRating */
-     , (19256, 316,          0) /* CritDamageResistRating */
-     , (19256, 370,          0) /* GearDamage */
-     , (19256, 371,          0) /* GearDamageResist */
-     , (19256, 372,          0) /* GearCrit */
-     , (19256, 373,          0) /* GearCritResist */
-     , (19256, 374,          0) /* GearCritDamage */
-     , (19256, 375,          0) /* GearCritDamageResist */
-     , (19256, 376,          0) /* GearHealingBoost */
-     , (19256, 377,          0) /* GearNetherResist */
-     , (19256, 378,          0) /* GearLifeResist */
-     , (19256, 379,          0) /* GearMaxHealth */
-     , (19256, 381,          0) /* PKDamageRating */
-     , (19256, 382,          0) /* PKDamageResistRating */
-     , (19256, 383,          0) /* GearPKDamageRating */
-     , (19256, 384,          0) /* GearPKDamageResistRating */
-     , (19256, 386,          0) /* Overpower */
-     , (19256, 387,          0) /* OverpowerResist */
-     , (19256, 388,          0) /* GearOverpower */
-     , (19256, 389,          0) /* GearOverpowerResist */
-     , (19256, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (19256, 8030,          0);
+     , (19256, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19256,   1, True ) /* Stuck */
      , (19256,  12, True ) /* ReportCollisions */
      , (19256,  13, False) /* Ethereal */
      , (19256,  14, True ) /* GravityStatus */
-     , (19256,  19, True ) /* Attackable */
-     , (19256,  69, False) /* IsSellable */;
+     , (19256,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19256,  21,       0) /* WeaponLength */
-     , (19256,  22,     0.1) /* DamageVariance */
-     , (19256,  26,       0) /* MaximumVelocity */
-     , (19256,  29,       1) /* WeaponDefense */
-     , (19256,  39, 1.29999995231628) /* DefaultScale */
-     , (19256,  62,       1) /* WeaponOffense */
-     , (19256,  63,       1) /* DamageMod */
-     , (19256, 149,       0) /* WeaponMissileDefense */
-     , (19256, 150,       0) /* WeaponMagicDefense */;
+VALUES (19256,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19256,   1, 'Young Banderling') /* Name */

@@ -42,8 +42,6 @@ VALUES (9036,   5,  -0.125) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9036,   1, 'Exarch Plate Girth') /* Name */
-     , (9036,   7, 'Made with the loving hands of Lycentia for the love of her life Kurse. =) ') /* Inscription */
-     , (9036,   8, 'Lycentia') /* ScribeName */
      , (9036,  16, 'A heavily enchanted crystalline girth, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers.') /* LongDesc */
      , (9036,  25, 'Alto Voltaje') /* CraftsmanName */;
 

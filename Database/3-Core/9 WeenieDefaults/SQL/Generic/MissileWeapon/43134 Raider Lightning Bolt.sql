@@ -5,7 +5,6 @@ VALUES (43134, 'ace43134-raiderlightningbolt', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43134,   1,        256) /* ItemType - MissileWeapon */
-     , (43134,   2,         19) /* CreatureType - Virindi */
      , (43134,   5,         50) /* EncumbranceVal */
      , (43134,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (43134,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (43134,   1,        256) /* ItemType - MissileWeapon */
      , (43134,  16,          1) /* ItemUseable - No */
      , (43134,  18,         64) /* UiEffects - Lightning */
      , (43134,  19,         50) /* Value */
-     , (43134,  25,        100) /* Level */
      , (43134,  33,         -2) /* Bonded - Destroy */
      , (43134,  44,         -1) /* Damage */
      , (43134,  45,          0) /* DamageType - Undef */
@@ -58,10 +56,7 @@ VALUES (43134,  21,       0) /* WeaponLength */
      , (43134, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43134,   1, 'Raider Lightning Bolt') /* Name */
-     , (43134,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (43134,  16, 'Inscribed spell: Jibril''s Boon
-Increases the target''s Armor Tinkering skill by 40 points.') /* LongDesc */;
+VALUES (43134,   1, 'Raider Lightning Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43134,   1,   33555695) /* Setup */
@@ -82,22 +77,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43134,   3, 3702863611) /* Wielder */
      , (43134, 8000, 3702863641) /* PCAPRecordedObjectIID */
      , (43134, 8008, 3702863611) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (43134,   1, 430, 0, 0) /* Strength */
-     , (43134,   2, 440, 0, 0) /* Endurance */
-     , (43134,   3, 280, 0, 0) /* Quickness */
-     , (43134,   4, 300, 0, 0) /* Coordination */
-     , (43134,   5, 230, 0, 0) /* Focus */
-     , (43134,   6, 230, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43134,   1,   500, 0, 0, 500) /* MaxHealth */
-     , (43134,   3,   890, 0, 0, 890) /* MaxStamina */
-     , (43134,   5,   230, 0, 0, 230) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43134,  2196,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43134, 67111923, 0, 0);

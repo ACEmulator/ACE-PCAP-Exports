@@ -25,8 +25,7 @@ VALUES (47889,   1, False) /* Stuck */
      , (47889,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47889,   1, 'Acid Katar') /* Name */
-     , (47889,  16, 'Killed by Tierra Zatha.') /* LongDesc */;
+VALUES (47889,   1, 'Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47889,   1,   33555739) /* Setup */

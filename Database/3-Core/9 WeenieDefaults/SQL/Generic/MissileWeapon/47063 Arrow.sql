@@ -5,7 +5,6 @@ VALUES (47063, 'ace47063-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47063,   1,        256) /* ItemType - MissileWeapon */
-     , (47063,   2,         14) /* CreatureType - Undead */
      , (47063,   5,        495) /* EncumbranceVal */
      , (47063,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (47063,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -13,7 +12,6 @@ VALUES (47063,   1,        256) /* ItemType - MissileWeapon */
      , (47063,  12,         99) /* StackSize */
      , (47063,  16,          1) /* ItemUseable - No */
      , (47063,  19,         99) /* Value */
-     , (47063,  25,         20) /* Level */
      , (47063,  33,         -2) /* Bonded - Destroy */
      , (47063,  44,         64) /* Damage */
      , (47063,  45,          2) /* DamageType - Pierce */
@@ -37,7 +35,6 @@ VALUES (47063,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47063,   1, False) /* Stuck */
-     , (47063,   2, False) /* Open */
      , (47063,  11, True ) /* IgnoreCollisions */
      , (47063,  13, True ) /* Ethereal */
      , (47063,  14, True ) /* GravityStatus */
@@ -58,8 +55,7 @@ VALUES (47063,  21,       0) /* WeaponLength */
      , (47063, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47063,   1, 'Arrow') /* Name */
-     , (47063,  16, 'Killed by Ragan the Clone.') /* LongDesc */;
+VALUES (47063,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47063,   1,   33554724) /* Setup */
@@ -80,19 +76,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47063,   3, 3688162785) /* Wielder */
      , (47063, 8000, 3688086332) /* PCAPRecordedObjectIID */
      , (47063, 8008, 3688162785) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47063,   1,  50, 0, 0) /* Strength */
-     , (47063,   2,  60, 0, 0) /* Endurance */
-     , (47063,   3,  30, 0, 0) /* Quickness */
-     , (47063,   4,  80, 0, 0) /* Coordination */
-     , (47063,   5, 125, 0, 0) /* Focus */
-     , (47063,   6, 115, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47063,   1,    90, 0, 0, 90) /* MaxHealth */
-     , (47063,   3,   130, 0, 0, 130) /* MaxStamina */
-     , (47063,   5,   155, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47063, 67111919, 0, 0);

@@ -14,7 +14,6 @@ VALUES (48596,   1,        256) /* ItemType - MissileWeapon */
      , (48596,  19,         12) /* Value */
      , (48596,  51,          2) /* CombatUse - Missle */
      , (48596,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48596, 107,          0) /* ItemCurMana */
      , (48596, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -27,14 +26,10 @@ VALUES (48596,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48596,  78,       1) /* Friction */
-     , (48596,  79,       0) /* Elasticity */
-     , (48596,  87,     1.2) /* ItemEfficiency */
-     , (48596, 137,    0.15) /* ManaStoneDestroyChance */;
+     , (48596,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48596,   1, 'Ice Shard') /* Name */
-     , (48596,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (48596,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (48596,   1, 'Ice Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48596,   1,   33559361) /* Setup */

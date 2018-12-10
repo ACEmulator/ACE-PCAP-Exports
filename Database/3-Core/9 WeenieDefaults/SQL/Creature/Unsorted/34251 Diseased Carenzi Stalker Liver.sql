@@ -10,6 +10,33 @@ VALUES (34251,   1,         16) /* ItemType - Creature */
      , (34251,  16,         32) /* ItemUseable - Remote */
      , (34251,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34251,  95,          3) /* RadarBlipColor - White */
+     , (34251,  98, 1485757038) /* CreationTimestamp */
+     , (34251, 267,        240) /* Lifespan */
+     , (34251, 268,        240) /* RemainingLifespan */
+     , (34251, 307,          0) /* DamageRating */
+     , (34251, 308,          0) /* DamageResistRating */
+     , (34251, 313,          0) /* CritRating */
+     , (34251, 314,          0) /* CritDamageRating */
+     , (34251, 315,          0) /* CritResistRating */
+     , (34251, 316,          0) /* CritDamageResistRating */
+     , (34251, 370,          0) /* GearDamage */
+     , (34251, 371,          0) /* GearDamageResist */
+     , (34251, 372,          0) /* GearCrit */
+     , (34251, 373,          0) /* GearCritResist */
+     , (34251, 374,          0) /* GearCritDamage */
+     , (34251, 375,          0) /* GearCritDamageResist */
+     , (34251, 376,          0) /* GearHealingBoost */
+     , (34251, 377,          0) /* GearNetherResist */
+     , (34251, 378,          0) /* GearLifeResist */
+     , (34251, 379,          0) /* GearMaxHealth */
+     , (34251, 381,          0) /* PKDamageRating */
+     , (34251, 382,          0) /* PKDamageResistRating */
+     , (34251, 383,          0) /* GearPKDamageRating */
+     , (34251, 384,          0) /* GearPKDamageResistRating */
+     , (34251, 386,          0) /* Overpower */
+     , (34251, 387,          0) /* OverpowerResist */
+     , (34251, 388,          0) /* GearOverpower */
+     , (34251, 389,          0) /* GearOverpowerResist */
      , (34251, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -27,6 +54,7 @@ VALUES (34251,  54,       5) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34251,   1, 'Diseased Carenzi Stalker Liver') /* Name */
+     , (34251,  15, 'This is the liver from a now-deceased carenzi.  You can use it to more closely examine it, but you can''t bring yourself to put it into your pack - you have no idea how healthy it is.  Aun Teriona, near the town of Bluespire, is said to concern himself with the carenzi population.') /* ShortDesc */
      , (34251, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

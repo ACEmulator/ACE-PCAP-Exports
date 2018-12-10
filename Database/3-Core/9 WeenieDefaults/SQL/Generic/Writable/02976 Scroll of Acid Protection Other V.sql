@@ -5,11 +5,9 @@ VALUES (2976, 'scrollacidprotectionother5', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2976,   1,       8192) /* ItemType - Writable */
-     , (2976,   2,         19) /* CreatureType - Virindi */
      , (2976,   5,         30) /* EncumbranceVal */
      , (2976,  16,          8) /* ItemUseable - Contained */
      , (2976,  19,        200) /* Value */
-     , (2976,  25,         50) /* Level */
      , (2976,  65,        101) /* Placement - Resting */
      , (2976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2976,   1,   33554826) /* Setup */
      , (2976,   8,  100676951) /* Icon */
      , (2976,  22,  872415275) /* PhysicsEffectTable */
-     , (2976,  28,        513) /* Spell */
+     , (2976,  28,        513) /* Spell - AcidProtectionOther5 */
      , (2976, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2976, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2976, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -42,9 +40,6 @@ VALUES (2976,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2976,   2, 2884899848) /* Container */
      , (2976, 8000, 2884852847) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2976,   1,   100, 0, 0, 100) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2976,   513,      2) ;

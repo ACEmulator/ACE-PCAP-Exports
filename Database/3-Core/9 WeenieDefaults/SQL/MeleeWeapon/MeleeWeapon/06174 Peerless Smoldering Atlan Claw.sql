@@ -49,9 +49,7 @@ VALUES (6174,   5, -0.0329999998211861) /* ManaRate */
      , (6174,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6174,   1, 'Peerless Smoldering Atlan Claw') /* Name */
-     , (6174,   7, 'ph33r!') /* Inscription */
-     , (6174,   8, 'Eternal Spirit') /* ScribeName */;
+VALUES (6174,   1, 'Peerless Smoldering Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6174,   1,   33556361) /* Setup */

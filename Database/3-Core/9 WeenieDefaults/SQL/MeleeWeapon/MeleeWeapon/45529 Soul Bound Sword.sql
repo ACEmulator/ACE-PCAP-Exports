@@ -57,8 +57,6 @@ VALUES (45529,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45529,   1, 'Soul Bound Sword') /* Name */
-     , (45529,   7, ' ') /* Inscription */
-     , (45529,   8, 'Genese') /* ScribeName */
      , (45529,  16, 'A ghostly blue sword, bound to your soul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

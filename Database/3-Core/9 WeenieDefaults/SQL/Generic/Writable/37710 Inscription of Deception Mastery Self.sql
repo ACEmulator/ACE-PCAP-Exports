@@ -29,7 +29,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37710,   1,   33554826) /* Setup */
      , (37710,   8,  100676448) /* Icon */
      , (37710,  22,  872415275) /* PhysicsEffectTable */
-     , (37710,  28,       4542) /* Spell */
+     , (37710,  28,       4542) /* Spell - DeceptionMasterySelf8 */
      , (37710, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37710, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37710, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

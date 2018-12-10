@@ -8,10 +8,8 @@ VALUES (3679,   1,        128) /* ItemType - Misc */
      , (3679,   5,        625) /* EncumbranceVal */
      , (3679,  16,          1) /* ItemUseable - No */
      , (3679,  19,        200) /* Value */
-     , (3679,  33,          1) /* Bonded - Bonded */
      , (3679,  65,        101) /* Placement - Resting */
      , (3679,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3679, 114,          1) /* Attuned - Attuned */
      , (3679, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,8 +24,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3679,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3679,   1, 'Olthoi Claw') /* Name */
-     , (3679,  16, 'A cracked piece of the Blazing Crystal. It feels warm and glows brightly. Bring this to David in Frost Haven.') /* LongDesc */;
+VALUES (3679,   1, 'Olthoi Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3679,   1,   33557721) /* Setup */

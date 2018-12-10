@@ -6,11 +6,9 @@ VALUES (32684, 'ace32684-mekhmet', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32684,   1,         16) /* ItemType - Creature */
      , (32684,   2,         31) /* CreatureType - Human */
-     , (32684,   5,       6390) /* EncumbranceVal */
      , (32684,   6,        255) /* ItemsCapacity */
      , (32684,   7,        255) /* ContainersCapacity */
      , (32684,  16,         32) /* ItemUseable - Remote */
-     , (32684,  19,          0) /* Value */
      , (32684,  25,         80) /* Level */
      , (32684,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32684,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (32684,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32684,   1, 'Mekhmet') /* Name */
      , (32684,   5, 'Ore Merchant') /* Template */
-     , (32684,  16, 'Killed by Hydroptic.') /* LongDesc */
      , (32684, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

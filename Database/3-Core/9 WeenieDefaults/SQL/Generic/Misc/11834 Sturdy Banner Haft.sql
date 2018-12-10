@@ -5,13 +5,11 @@ VALUES (11834, 'haftbanner', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11834,   1,        128) /* ItemType - Misc */
-     , (11834,   2,         82) /* CreatureType - Thrungus */
      , (11834,   5,        100) /* EncumbranceVal */
      , (11834,  11,          1) /* MaxStackSize */
      , (11834,  12,          1) /* StackSize */
      , (11834,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (11834,  19,          0) /* Value */
-     , (11834,  25,         60) /* Level */
      , (11834,  65,        101) /* Placement - Resting */
      , (11834,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11834,  94,        128) /* TargetType - Misc */
@@ -42,9 +40,6 @@ VALUES (11834,   1,   33557246) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11834,   2, 1343593571) /* Container */
      , (11834, 8000, 3630713873) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11834,   1,   218, 0, 0, 218) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11834, 0, 83893729, 83893729);

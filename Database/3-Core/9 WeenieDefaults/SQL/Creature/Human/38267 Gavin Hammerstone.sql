@@ -6,34 +6,19 @@ VALUES (38267, 'ace38267-gavinhammerstone', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38267,   1,         16) /* ItemType - Creature */
      , (38267,   2,         31) /* CreatureType - Human */
-     , (38267,   5,        659) /* EncumbranceVal */
      , (38267,   6,        255) /* ItemsCapacity */
      , (38267,   7,        255) /* ContainersCapacity */
      , (38267,  16,         32) /* ItemUseable - Remote */
-     , (38267,  19,        418) /* Value */
      , (38267,  25,        200) /* Level */
-     , (38267,  44,         23) /* Damage */
-     , (38267,  45,          2) /* DamageType - Pierce */
-     , (38267,  47,          2) /* AttackType - Thrust */
-     , (38267,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (38267,  49,         50) /* WeaponTime */
      , (38267,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38267,  95,          8) /* RadarBlipColor - Yellow */
-     , (38267, 105,          6) /* ItemWorkmanship */
      , (38267, 113,          1) /* Gender - Male */
-     , (38267, 131,         75) /* MaterialType - Oak */
      , (38267, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38267, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38267, 158,          2) /* WieldRequirements - RawSkill */
-     , (38267, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (38267, 160,        300) /* WieldDifficulty */
-     , (38267, 172,          1) /* AppraisalLongDescDecoration */
      , (38267, 188,          1) /* HeritageGroup - Aluvian */
      , (38267, 281,          1) /* Faction1Bits */
      , (38267, 287,       1001) /* SocietyRankCelhan */
-     , (38267, 353,         11) /* WeaponType - TwoHanded */
-     , (38267, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38267, 8030,          0);
+     , (38267, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38267,   1, True ) /* Stuck */
@@ -46,19 +31,11 @@ VALUES (38267,   1, True ) /* Stuck */
      , (38267,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38267,  21,       0) /* WeaponLength */
-     , (38267,  22,    0.35) /* DamageVariance */
-     , (38267,  26,       0) /* MaximumVelocity */
-     , (38267,  29,    1.06) /* WeaponDefense */
-     , (38267,  54,       3) /* UseRadius */
-     , (38267,  62,    1.06) /* WeaponOffense */
-     , (38267,  63,       1) /* DamageMod */
-     , (38267, 150,   1.015) /* WeaponMagicDefense */;
+VALUES (38267,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38267,   1, 'Gavin Hammerstone') /* Name */
      , (38267,   5, 'Shoguth Hunt Task Master') /* Template */
-     , (38267,  16, 'Assagai') /* LongDesc */
      , (38267, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

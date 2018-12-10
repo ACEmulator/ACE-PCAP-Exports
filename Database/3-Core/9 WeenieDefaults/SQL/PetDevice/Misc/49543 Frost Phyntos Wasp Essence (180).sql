@@ -23,10 +23,7 @@ VALUES (49543,   1,        128) /* ItemType - Misc */
      , (49543, 369,        170) /* UseRequiresLevel */
      , (49543, 370,         13) /* GearDamage */
      , (49543, 371,         12) /* GearDamageResist */
-     , (49543, 372,          8) /* GearCrit */
-     , (49543, 373,         15) /* GearCritResist */
-     , (49543, 374,         14) /* GearCritDamage */
-     , (49543, 375,          9) /* GearCritDamageResist */;
+     , (49543, 372,          8) /* GearCrit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49543,   1, False) /* Stuck */

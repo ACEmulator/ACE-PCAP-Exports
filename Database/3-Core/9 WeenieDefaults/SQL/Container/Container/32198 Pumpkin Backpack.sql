@@ -26,10 +26,6 @@ VALUES (32198,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32198,   1, 'Pumpkin Backpack') /* Name */
-     , (32198,   7, 'Vissy Leech Spot: 75.6N, 59.6E
-Golem Sanctum:  93.8N, 7.7E
-') /* Inscription */
-     , (32198,   8, 'Crog') /* ScribeName */
      , (32198,  14, 'Use this item to close it.') /* Use */
      , (32198,  16, 'A hollowed out pumpkin with some straps so it can be used to carry things.') /* LongDesc */;
 

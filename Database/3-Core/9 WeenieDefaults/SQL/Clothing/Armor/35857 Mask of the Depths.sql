@@ -41,9 +41,6 @@ VALUES (35857,   5, -0.0500000007450581) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35857,   1, 'Mask of the Depths') /* Name */
-     , (35857,   7, 'Next House 22.3s and 69.1E
-San-Chin houses') /* Inscription */
-     , (35857,   8, 'Heero-Yuy') /* ScribeName */
      , (35857,  16, 'This mask was fashioned for its wielder from the broken mask of the Watcher of Black Water.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

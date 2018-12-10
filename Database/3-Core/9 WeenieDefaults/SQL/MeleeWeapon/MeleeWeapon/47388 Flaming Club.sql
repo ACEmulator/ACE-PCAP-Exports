@@ -11,23 +11,10 @@ VALUES (47388,   1,          1) /* ItemType - MeleeWeapon */
      , (47388,  16,          1) /* ItemUseable - No */
      , (47388,  18,         32) /* UiEffects - Fire */
      , (47388,  19,        350) /* Value */
-     , (47388,  33,          0) /* Bonded - Normal */
      , (47388,  51,          1) /* CombatUse - Melee */
      , (47388,  65,          1) /* Placement - RightHandCombat */
-     , (47388,  91,         50) /* MaxStructure */
-     , (47388,  92,         50) /* Structure */
      , (47388,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47388, 105,          6) /* ItemWorkmanship */
-     , (47388, 114,          0) /* Attuned - Normal */
-     , (47388, 151,          2) /* HookType - Wall */
-     , (47388, 280,        213) /* SharedCooldown */
-     , (47388, 366,         54) /* UseRequiresSkill */
-     , (47388, 367,        530) /* UseRequiresSkillLevel */
-     , (47388, 369,        170) /* UseRequiresLevel */
-     , (47388, 370,         15) /* GearDamage */
-     , (47388, 373,         12) /* GearCritResist */
-     , (47388, 374,          3) /* GearCritDamage */
-     , (47388, 375,         12) /* GearCritDamageResist */;
+     , (47388, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47388,   1, False) /* Stuck */
@@ -35,15 +22,10 @@ VALUES (47388,   1, False) /* Stuck */
      , (47388,  13, True ) /* Ethereal */
      , (47388,  14, True ) /* GravityStatus */
      , (47388,  19, True ) /* Attackable */
-     , (47388,  22, True ) /* Inscribable */
-     , (47388,  69, True ) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47388, 167,      45) /* CooldownDuration */;
+     , (47388,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47388,   1, 'Flaming Club') /* Name */
-     , (47388,  14, 'Use this essence to summon or dismiss your Acid Skeleton Bushi.') /* Use */;
+VALUES (47388,   1, 'Flaming Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47388,   1,   33555698) /* Setup */

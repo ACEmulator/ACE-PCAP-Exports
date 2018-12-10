@@ -79,11 +79,8 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38467,  1516,      2) 
      , (38467,  2108,      2) 
      , (38467,  2110,      2) 
-     , (38467,  2612,      2) 
      , (38467,  3965,      2) 
-     , (38467,  4393,      2) 
-     , (38467,  4407,      2) 
-     , (38467,  6067,      2) ;
+     , (38467,  4393,      2) ;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38467, 0, 16794128);

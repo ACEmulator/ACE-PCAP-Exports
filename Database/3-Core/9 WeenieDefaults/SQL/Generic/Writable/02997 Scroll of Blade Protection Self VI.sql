@@ -8,19 +8,8 @@ VALUES (2997,   1,       8192) /* ItemType - Writable */
      , (2997,   5,         30) /* EncumbranceVal */
      , (2997,  16,          8) /* ItemUseable - Contained */
      , (2997,  19,       1000) /* Value */
-     , (2997,  28,        246) /* ArmorLevel */
      , (2997,  65,        101) /* Placement - Resting */
-     , (2997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2997, 105,          6) /* ItemWorkmanship */
-     , (2997, 106,        258) /* ItemSpellcraft */
-     , (2997, 107,        654) /* ItemCurMana */
-     , (2997, 108,        654) /* ItemMaxMana */
-     , (2997, 109,         54) /* ItemDifficulty */
-     , (2997, 110,          0) /* ItemAllegianceRankLimit */
-     , (2997, 115,        278) /* ItemSkillLevelLimit */
-     , (2997, 131,         59) /* MaterialType - Copper */
-     , (2997, 172,          1) /* AppraisalLongDescDecoration */
-     , (2997, 176,          6) /* AppraisalItemSkill */;
+     , (2997,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2997,   1, False) /* Stuck */
@@ -28,20 +17,10 @@ VALUES (2997,   1, False) /* Stuck */
      , (2997,  13, True ) /* Ethereal */
      , (2997,  14, True ) /* GravityStatus */
      , (2997,  19, True ) /* Attackable */
-     , (2997,  22, True ) /* Inscribable */
-     , (2997, 100, True ) /* Dyable */;
+     , (2997,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2997,   5,   -0.05) /* ManaRate */
-     , (2997,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (2997,  14,       1) /* ArmorModVsPierce */
-     , (2997,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (2997,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (2997,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (2997,  18, 0.698671460151672) /* ArmorModVsAcid */
-     , (2997,  19, 0.769818127155304) /* ArmorModVsElectric */
-     , (2997,  39,     1.5) /* DefaultScale */
-     , (2997, 165,       1) /* ArmorModVsNether */;
+VALUES (2997,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2997,   1, 'Scroll of Blade Protection Self VI') /* Name */
@@ -53,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2997,   1,   33554826) /* Setup */
      , (2997,   8,  100676954) /* Icon */
      , (2997,  22,  872415275) /* PhysicsEffectTable */
-     , (2997,  28,       1114) /* Spell */
+     , (2997,  28,       1114) /* Spell - BladeProtectionSelf6 */
      , (2997, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2997, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2997, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -63,6 +42,4 @@ VALUES (2997,   2, 3682605555) /* Container */
      , (2997, 8000, 3682605558) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2997,  1114,      2) 
-     , (2997,  1485,      2) 
-     , (2997,  1562,      2) ;
+VALUES (2997,  1114,      2) ;

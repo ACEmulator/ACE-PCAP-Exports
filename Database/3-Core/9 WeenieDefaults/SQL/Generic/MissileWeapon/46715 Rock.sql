@@ -13,25 +13,10 @@ VALUES (46715,   1,        256) /* ItemType - MissileWeapon */
      , (46715,  16,          1) /* ItemUseable - No */
      , (46715,  19,          1) /* Value */
      , (46715,  33,          1) /* Bonded - Bonded */
-     , (46715,  44,         18) /* Damage */
-     , (46715,  45,          4) /* DamageType - Bludgeon */
-     , (46715,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (46715,  49,         10) /* WeaponTime */
      , (46715,  51,          2) /* CombatUse - Missle */
      , (46715,  65,          1) /* Placement - RightHandCombat */
      , (46715,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (46715, 105,          7) /* ItemWorkmanship */
-     , (46715, 106,        231) /* ItemSpellcraft */
-     , (46715, 107,       1634) /* ItemCurMana */
-     , (46715, 108,       1634) /* ItemMaxMana */
-     , (46715, 109,        231) /* ItemDifficulty */
-     , (46715, 110,          0) /* ItemAllegianceRankLimit */
-     , (46715, 114,          1) /* Attuned - Attuned */
-     , (46715, 115,          0) /* ItemSkillLevelLimit */
-     , (46715, 131,          1) /* MaterialType - Ceramic */
-     , (46715, 172,          1) /* AppraisalLongDescDecoration */
-     , (46715, 353,         10) /* WeaponType - Thrown */
-     , (46715, 8030,          0);
+     , (46715, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46715,   1, True ) /* Stuck */
@@ -43,22 +28,14 @@ VALUES (46715,   1, True ) /* Stuck */
      , (46715,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46715,   5, -0.0555555555555556) /* ManaRate */
-     , (46715,  21,       0) /* WeaponLength */
-     , (46715,  22,    0.25) /* DamageVariance */
-     , (46715,  26,       0) /* MaximumVelocity */
-     , (46715,  29,       1) /* WeaponDefense */
-     , (46715,  62,       1) /* WeaponOffense */
-     , (46715,  63,       1) /* DamageMod */
-     , (46715,  76, 0.699999988079071) /* Translucency */
+VALUES (46715,  76, 0.699999988079071) /* Translucency */
      , (46715,  78,       1) /* Friction */
      , (46715,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46715,   1, 'Rock') /* Name */
-     , (46715,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (46715,  16, 'Inscribed spell: Heavy Weapon Ineptitude Other IV
-Decreases the target''s Heavy Weapons skill by 25 points.') /* LongDesc */;
+     , (46715,  14, 'Use this skull on any loot-generated weapon or caster to give it a Skeleton Slayer effect. The weapon/caster will become attuned to the person applying the gem.') /* Use */
+     , (46715,  16, 'A spectral skull with sockets so dark they seem to be emptier than a mere lack of light can explain. The Spectral Skull is empowered to enchant a single weapon against Skeletons. This effect is permanent, but fragile, and therefore cannot be applied to any weapon previously empowered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46715,   1,   33555863) /* Setup */
@@ -78,7 +55,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46715,   3, 3694666619) /* Wielder */
      , (46715, 8000, 3694705105) /* PCAPRecordedObjectIID */
      , (46715, 8008, 3694666619) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46715,   427,      2) 
-     , (46715,   779,      2) ;

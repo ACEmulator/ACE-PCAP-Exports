@@ -58,7 +58,7 @@ VALUES (43814,   1,   33561162) /* Setup */
      , (43814,   6,   67111919) /* PaletteBase */
      , (43814,   8,  100672995) /* Icon */
      , (43814,  22,  872415275) /* PhysicsEffectTable */
-     , (43814,  28,       5531) /* Spell */
+     , (43814,  28,       5531) /* Spell - BloodstoneBolt7 */
      , (43814, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (43814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43814, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

@@ -9,17 +9,7 @@ VALUES (28945,   1,       8192) /* ItemType - Writable */
      , (28945,  16,          8) /* ItemUseable - Contained */
      , (28945,  19,       1000) /* Value */
      , (28945,  65,        101) /* Placement - Resting */
-     , (28945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28945, 105,          7) /* ItemWorkmanship */
-     , (28945, 106,        200) /* ItemSpellcraft */
-     , (28945, 107,        501) /* ItemCurMana */
-     , (28945, 108,        501) /* ItemMaxMana */
-     , (28945, 109,          0) /* ItemDifficulty */
-     , (28945, 110,          0) /* ItemAllegianceRankLimit */
-     , (28945, 115,          0) /* ItemSkillLevelLimit */
-     , (28945, 117,        300) /* ItemManaCost */
-     , (28945, 131,         15) /* MaterialType - BlackGarnet */
-     , (28945, 172,          1) /* AppraisalLongDescDecoration */;
+     , (28945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28945,   1, False) /* Stuck */
@@ -42,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28945,   1,   33554826) /* Setup */
      , (28945,   8,  100676477) /* Icon */
      , (28945,  22,  872415275) /* PhysicsEffectTable */
-     , (28945,  28,       3511) /* Spell */
+     , (28945,  28,       3511) /* Spell - ArcanumSalvagingOther6 */
      , (28945, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (28945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28945, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -52,5 +42,4 @@ VALUES (28945,   2, 3682539666) /* Container */
      , (28945, 8000, 3682539668) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28945,  1070,      2) 
-     , (28945,  3511,      2) ;
+VALUES (28945,  3511,      2) ;

@@ -6,21 +6,13 @@ VALUES (1758, 'shadow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1758,   1,         16) /* ItemType - Creature */
      , (1758,   2,         22) /* CreatureType - Shadow */
-     , (1758,   5,        126) /* EncumbranceVal */
      , (1758,   6,        255) /* ItemsCapacity */
      , (1758,   7,        255) /* ContainersCapacity */
      , (1758,  16,          1) /* ItemUseable - No */
-     , (1758,  19,       7319) /* Value */
      , (1758,  25,         30) /* Level */
-     , (1758,  28,        255) /* ArmorLevel */
      , (1758,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1758, 105,          5) /* ItemWorkmanship */
      , (1758, 113,          1) /* Gender - Male */
-     , (1758, 131,         57) /* MaterialType - Brass */
      , (1758, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1758, 172,          1) /* AppraisalLongDescDecoration */
-     , (1758, 177,          3) /* GemCount */
-     , (1758, 178,         26) /* GemType */
      , (1758, 188,          1) /* HeritageGroup - Aluvian */
      , (1758, 307,          5) /* DamageRating */
      , (1758, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -30,23 +22,13 @@ VALUES (1758,   1, True ) /* Stuck */
      , (1758,  12, True ) /* ReportCollisions */
      , (1758,  13, False) /* Ethereal */
      , (1758,  14, True ) /* GravityStatus */
-     , (1758,  19, True ) /* Attackable */
-     , (1758, 100, True ) /* Dyable */;
+     , (1758,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1758,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (1758,  14,       1) /* ArmorModVsPierce */
-     , (1758,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (1758,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (1758,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (1758,  18, 0.63701468706131) /* ArmorModVsAcid */
-     , (1758,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (1758,  76,     0.5) /* Translucency */
-     , (1758, 165,       1) /* ArmorModVsNether */;
+VALUES (1758,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1758,   1, 'Shadow') /* Name */
-     , (1758,  16, 'Chainmail Coif') /* LongDesc */
      , (1758, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

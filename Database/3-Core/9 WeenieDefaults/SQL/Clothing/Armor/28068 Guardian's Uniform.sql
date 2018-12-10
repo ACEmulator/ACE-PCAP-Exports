@@ -31,7 +31,6 @@ VALUES (28068,   1, False) /* Stuck */
      , (28068,  14, True ) /* GravityStatus */
      , (28068,  19, True ) /* Attackable */
      , (28068,  22, True ) /* Inscribable */
-     , (28068,  85, True ) /* AppraisalHasAllowedWielder */
      , (28068,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,8 +46,7 @@ VALUES (28068,   5, -0.0329999998211861) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28068,   1, 'Guardian''s Uniform') /* Name */
-     , (28068,  16, 'A reward for your efforts to learn more of the Burun and their treaty with the Renegades.') /* LongDesc */
-     , (28068,  25, 'Lonsgard') /* CraftsmanName */;
+     , (28068,  16, 'A reward for your efforts to learn more of the Burun and their treaty with the Renegades.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28068,   1,   33554854) /* Setup */

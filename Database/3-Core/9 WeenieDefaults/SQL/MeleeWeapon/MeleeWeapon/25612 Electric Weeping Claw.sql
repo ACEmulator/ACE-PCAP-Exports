@@ -39,7 +39,6 @@ VALUES (25612,   1, False) /* Stuck */
      , (25612,  14, True ) /* GravityStatus */
      , (25612,  19, True ) /* Attackable */
      , (25612,  22, True ) /* Inscribable */
-     , (25612,  85, True ) /* AppraisalHasAllowedWielder */
      , (25612,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,11 +53,7 @@ VALUES (25612,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25612,   1, 'Electric Weeping Claw') /* Name */
-     , (25612,   7, 'My weeping the best gank wep any mage could have!
-') /* Inscription */
-     , (25612,   8, 'Tranner') /* ScribeName */
-     , (25612,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
-     , (25612,  25, 'Tranner') /* CraftsmanName */;
+     , (25612,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25612,   1,   33558484) /* Setup */

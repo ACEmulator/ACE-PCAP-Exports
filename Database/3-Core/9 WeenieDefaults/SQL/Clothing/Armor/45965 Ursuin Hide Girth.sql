@@ -30,7 +30,6 @@ VALUES (45965,   1, False) /* Stuck */
      , (45965,  14, True ) /* GravityStatus */
      , (45965,  19, True ) /* Attackable */
      , (45965,  22, True ) /* Inscribable */
-     , (45965,  85, True ) /* AppraisalHasAllowedWielder */
      , (45965,  99, True ) /* Ivoryable */
      , (45965, 100, True ) /* Dyable */;
 
@@ -46,8 +45,7 @@ VALUES (45965,   5, -0.025000000372529) /* ManaRate */
      , (45965, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45965,   1, 'Ursuin Hide Girth') /* Name */
-     , (45965,  25, 'Brambles') /* CraftsmanName */;
+VALUES (45965,   1, 'Ursuin Hide Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45965,   1,   33554647) /* Setup */

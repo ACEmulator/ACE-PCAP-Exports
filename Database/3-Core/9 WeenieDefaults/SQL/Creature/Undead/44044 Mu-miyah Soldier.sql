@@ -6,34 +6,15 @@ VALUES (44044, 'ace44044-mumiyahsoldier', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44044,   1,         16) /* ItemType - Creature */
      , (44044,   2,         14) /* CreatureType - Undead */
-     , (44044,   5,         75) /* EncumbranceVal */
      , (44044,   6,        255) /* ItemsCapacity */
      , (44044,   7,        255) /* ContainersCapacity */
      , (44044,  16,          1) /* ItemUseable - No */
-     , (44044,  19,      12354) /* Value */
      , (44044,  25,        240) /* Level */
-     , (44044,  28,          0) /* ArmorLevel */
-     , (44044,  33,          1) /* Bonded - Bonded */
      , (44044,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44044, 105,          6) /* ItemWorkmanship */
-     , (44044, 106,        314) /* ItemSpellcraft */
-     , (44044, 107,       1416) /* ItemCurMana */
-     , (44044, 108,       1416) /* ItemMaxMana */
-     , (44044, 109,        386) /* ItemDifficulty */
-     , (44044, 110,          0) /* ItemAllegianceRankLimit */
-     , (44044, 115,          0) /* ItemSkillLevelLimit */
-     , (44044, 131,          5) /* MaterialType - Satin */
      , (44044, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44044, 158,          7) /* WieldRequirements - Level */
-     , (44044, 159,          1) /* WieldSkilltype - Axe */
-     , (44044, 160,        180) /* WieldDifficulty */
-     , (44044, 172,          5) /* AppraisalLongDescDecoration */
-     , (44044, 177,          3) /* GemCount */
-     , (44044, 178,         21) /* GemType */
      , (44044, 307,          9) /* DamageRating */
      , (44044, 315,         10) /* CritResistRating */
      , (44044, 316,         20) /* CritDamageResistRating */
-     , (44044, 370,          2) /* GearDamage */
      , (44044, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,24 +22,13 @@ VALUES (44044,   1, True ) /* Stuck */
      , (44044,  12, True ) /* ReportCollisions */
      , (44044,  13, False) /* Ethereal */
      , (44044,  14, True ) /* GravityStatus */
-     , (44044,  19, True ) /* Attackable */
-     , (44044, 100, True ) /* Dyable */;
+     , (44044,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44044,   5, -0.0555555555555556) /* ManaRate */
-     , (44044,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (44044,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (44044,  15,       1) /* ArmorModVsBludgeon */
-     , (44044,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (44044,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (44044,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (44044,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (44044,  39, 1.20000004768372) /* DefaultScale */
-     , (44044, 165,       1) /* ArmorModVsNether */;
+VALUES (44044,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44044,   1, 'Mu-miyah Soldier') /* Name */
-     , (44044,  16, 'Shirt of Piercing Protection') /* LongDesc */
      , (44044, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -91,11 +61,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (44044,   1,  4600, 0, 0, 4600) /* MaxHealth */
      , (44044,   3,  5620, 0, 0, 5617) /* MaxStamina */
      , (44044,   5,  1880, 0, 0, 1880) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44044,  2161,      2) 
-     , (44044,  3964,      2) 
-     , (44044,  4712,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44044, 67111814, 0, 0);

@@ -6,11 +6,9 @@ VALUES (40285, 'ace40285-listrissleech', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40285,   1,         16) /* ItemType - Creature */
      , (40285,   2,         45) /* CreatureType - Niffis */
-     , (40285,   5,       6073) /* EncumbranceVal */
      , (40285,   6,        255) /* ItemsCapacity */
      , (40285,   7,        255) /* ContainersCapacity */
      , (40285,  16,          1) /* ItemUseable - No */
-     , (40285,  19,          0) /* Value */
      , (40285,  25,        200) /* Level */
      , (40285,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40285, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (40285,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40285,   1, 'Listris Sleech') /* Name */
-     , (40285,  16, 'Killed by Husband V.') /* LongDesc */
      , (40285, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

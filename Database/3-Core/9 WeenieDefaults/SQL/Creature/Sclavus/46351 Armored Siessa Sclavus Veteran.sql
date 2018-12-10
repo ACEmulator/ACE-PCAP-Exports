@@ -6,24 +6,12 @@ VALUES (46351, 'ace46351-armoredsiessasclavusveteran', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46351,   1,         16) /* ItemType - Creature */
      , (46351,   2,         26) /* CreatureType - Sclavus */
-     , (46351,   5,          5) /* EncumbranceVal */
      , (46351,   6,        255) /* ItemsCapacity */
      , (46351,   7,        255) /* ContainersCapacity */
      , (46351,  16,          1) /* ItemUseable - No */
-     , (46351,  19,       4388) /* Value */
      , (46351,  25,        240) /* Level */
      , (46351,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46351, 105,          7) /* ItemWorkmanship */
-     , (46351, 106,        300) /* ItemSpellcraft */
-     , (46351, 107,        584) /* ItemCurMana */
-     , (46351, 108,        584) /* ItemMaxMana */
-     , (46351, 109,          0) /* ItemDifficulty */
-     , (46351, 110,          0) /* ItemAllegianceRankLimit */
-     , (46351, 115,          0) /* ItemSkillLevelLimit */
-     , (46351, 117,        350) /* ItemManaCost */
-     , (46351, 131,         39) /* MaterialType - Sapphire */
      , (46351, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46351, 172,          1) /* AppraisalLongDescDecoration */
      , (46351, 307,          5) /* DamageRating */
      , (46351, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -39,7 +27,6 @@ VALUES (46351,  39, 1.39999997615814) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46351,   1, 'Armored Siessa Sclavus Veteran') /* Name */
-     , (46351,  16, 'Gem of Willpower') /* LongDesc */
      , (46351, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -72,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46351,   1,  1215, 0, 0, 1215) /* MaxHealth */
      , (46351,   3,  1530, 0, 0, 1528) /* MaxStamina */
      , (46351,   5,  1030, 0, 0, 1030) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46351,  2091,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46351, 67113361, 0, 0);

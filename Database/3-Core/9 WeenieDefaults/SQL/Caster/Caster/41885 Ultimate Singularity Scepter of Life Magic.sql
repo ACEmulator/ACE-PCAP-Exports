@@ -45,11 +45,6 @@ VALUES (41885,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41885,   1, 'Ultimate Singularity Scepter of Life Magic') /* Name */
-     , (41885,   7, '"87.9n 9.3w Deewains"
- Hosh - Route: Take Stonehold 
-portal in north wing of Town Network and then take Desolation Beach portal at 69.7N 20.2W. 
-The Royal Tent is located at 80.7N, 43.0W. ') /* Inscription */
-     , (41885,   8, 'Stramus') /* ScribeName */
      , (41885,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

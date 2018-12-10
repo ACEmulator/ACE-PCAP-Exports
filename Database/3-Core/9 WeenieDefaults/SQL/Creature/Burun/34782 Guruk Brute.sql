@@ -6,11 +6,9 @@ VALUES (34782, 'ace34782-gurukbrute', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34782,   1,         16) /* ItemType - Creature */
      , (34782,   2,         75) /* CreatureType - Burun */
-     , (34782,   5,       6948) /* EncumbranceVal */
      , (34782,   6,        255) /* ItemsCapacity */
      , (34782,   7,        255) /* ContainersCapacity */
      , (34782,  16,          1) /* ItemUseable - No */
-     , (34782,  19,          0) /* Value */
      , (34782,  25,        115) /* Level */
      , (34782,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34782, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (34782,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34782,   1, 'Guruk Brute') /* Name */
-     , (34782,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (34782, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

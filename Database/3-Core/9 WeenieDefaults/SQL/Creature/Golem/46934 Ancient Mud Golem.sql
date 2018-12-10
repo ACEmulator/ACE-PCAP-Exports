@@ -6,17 +6,12 @@ VALUES (46934, 'ace46934-ancientmudgolem', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46934,   1,         16) /* ItemType - Creature */
      , (46934,   2,         13) /* CreatureType - Golem */
-     , (46934,   5,          5) /* EncumbranceVal */
      , (46934,   6,        255) /* ItemsCapacity */
      , (46934,   7,        255) /* ContainersCapacity */
      , (46934,  16,          1) /* ItemUseable - No */
-     , (46934,  19,        936) /* Value */
      , (46934,  25,        240) /* Level */
      , (46934,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46934, 105,          6) /* ItemWorkmanship */
-     , (46934, 131,         36) /* MaterialType - RedJade */
      , (46934, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46934, 172,          1) /* AppraisalLongDescDecoration */
      , (46934, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,8 +26,6 @@ VALUES (46934,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46934,   1, 'Ancient Mud Golem') /* Name */
-     , (46934,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (46934,  16, 'Gem') /* LongDesc */
      , (46934, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -65,9 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46934,   1,  8820, 0, 0, 8820) /* MaxHealth */
      , (46934,   3,  6900, 0, 0, 6900) /* MaxStamina */
      , (46934,   5,  5590, 0, 0, 5590) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46934,  2751,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46934, 67112774, 0, 0);

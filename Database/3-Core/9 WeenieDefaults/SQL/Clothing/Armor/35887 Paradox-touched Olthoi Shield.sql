@@ -32,7 +32,6 @@ VALUES (35887,   1, False) /* Stuck */
      , (35887,  19, True ) /* Attackable */
      , (35887,  22, True ) /* Inscribable */
      , (35887,  69, False) /* IsSellable */
-     , (35887,  85, True ) /* AppraisalHasAllowedWielder */
      , (35887,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -48,8 +47,7 @@ VALUES (35887,   5, -0.0333000011742115) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35887,   1, 'Paradox-touched Olthoi Shield') /* Name */
-     , (35887,  16, 'A shield, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes this shield empowered versus the attack types oft used by Olthoi.') /* LongDesc */
-     , (35887,  25, 'Tzhar') /* CraftsmanName */;
+     , (35887,  16, 'A shield, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes this shield empowered versus the attack types oft used by Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35887,   1,   33560335) /* Setup */

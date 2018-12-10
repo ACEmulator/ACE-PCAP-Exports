@@ -40,9 +40,7 @@ VALUES (12739,  21,       0) /* WeaponLength */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12739,   1, 'Training Dirk') /* Name */
      , (12739,  14, 'Use Oil of Rendering on this weapon to create an Academy Dirk.') /* Use */
-     , (12739,  15, 'A basic dirk forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */
-     , (12739,  16, 'Inscribed spell: Aura of Elysa''s Sight
-Increases a weapon''s Attack Skill modifier by 17.0 percentage points.') /* LongDesc */;
+     , (12739,  15, 'A basic dirk forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12739,   1,   33558089) /* Setup */
@@ -57,9 +55,6 @@ VALUES (12739,   1,   33558089) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12739,   2, 1343225874) /* Container */
      , (12739, 8000, 3658160283) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12739,  2106,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12739, 67111926, 0, 0);

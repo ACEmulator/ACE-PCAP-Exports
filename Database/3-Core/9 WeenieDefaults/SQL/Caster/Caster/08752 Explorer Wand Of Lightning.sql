@@ -33,7 +33,7 @@ VALUES (8752,   1,   33558231) /* Setup */
      , (8752,   6,   67111919) /* PaletteBase */
      , (8752,   8,  100668799) /* Icon */
      , (8752,  22,  872415275) /* PhysicsEffectTable */
-     , (8752,  28,         77) /* Spell */
+     , (8752,  28,         77) /* Spell - LightningBolt3 */
      , (8752, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (8752, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8752, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

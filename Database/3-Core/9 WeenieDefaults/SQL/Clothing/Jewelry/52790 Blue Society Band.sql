@@ -37,8 +37,6 @@ VALUES (52790,   1, False) /* Stuck */
      , (52790,  19, True ) /* Attackable */
      , (52790,  22, True ) /* Inscribable */
      , (52790,  69, False) /* IsSellable */
-     , (52790,  85, True ) /* AppraisalHasAllowedWielder */
-     , (52790,  91, True ) /* Retained */
      , (52790,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,8 +47,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52790,   1, 'Blue Society Band') /* Name */
      , (52790,   7, 'OK''s mage suit - take BP and tassets from atari for full build.') /* Inscription */
      , (52790,   8, 'Olthoi King') /* ScribeName */
-     , (52790,  16, 'A dark black ring set with five aquamarines.') /* LongDesc */
-     , (52790,  25, 'Bone Supremacy') /* CraftsmanName */;
+     , (52790,  16, 'A dark black ring set with five aquamarines.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52790,   1,   33554691) /* Setup */

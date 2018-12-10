@@ -26,8 +26,7 @@ VALUES (34588,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34588,  29,       1) /* WeaponDefense */
      , (34588,  39,    0.25) /* DefaultScale */
-     , (34588, 144,       0) /* ManaConversionMod */
-     , (34588, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (34588, 144,       0) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34588,   1, 'Repugnant Spellcasting Staff') /* Name */;

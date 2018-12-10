@@ -38,7 +38,7 @@ VALUES (22882,   1,   33554809) /* Setup */
      , (22882,   6,   67111919) /* PaletteBase */
      , (22882,   8,  100673906) /* Icon */
      , (22882,  22,  872415275) /* PhysicsEffectTable */
-     , (22882,  28,       1144) /* Spell */
+     , (22882,  28,       1144) /* Spell - PiercingProtectionOther6 */
      , (22882, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (22882, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22882, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

@@ -6,61 +6,14 @@ VALUES (7096, 'golemgold', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7096,   1,         16) /* ItemType - Creature */
      , (7096,   2,         13) /* CreatureType - Golem */
-     , (7096,   5,          0) /* EncumbranceVal */
      , (7096,   6,        255) /* ItemsCapacity */
      , (7096,   7,        255) /* ContainersCapacity */
      , (7096,  16,          1) /* ItemUseable - No */
-     , (7096,  19,       3197) /* Value */
      , (7096,  25,        100) /* Level */
-     , (7096,  44,         43) /* Damage */
-     , (7096,  45,         32) /* DamageType - Acid */
-     , (7096,  47,          2) /* AttackType - Thrust */
-     , (7096,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (7096,  49,         36) /* WeaponTime */
      , (7096,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7096, 105,          8) /* ItemWorkmanship */
-     , (7096, 106,        370) /* ItemSpellcraft */
-     , (7096, 107,       1849) /* ItemCurMana */
-     , (7096, 108,       1849) /* ItemMaxMana */
-     , (7096, 109,         98) /* ItemDifficulty */
-     , (7096, 110,          0) /* ItemAllegianceRankLimit */
-     , (7096, 115,        390) /* ItemSkillLevelLimit */
-     , (7096, 131,         64) /* MaterialType - Steel */
      , (7096, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7096, 158,          2) /* WieldRequirements - RawSkill */
-     , (7096, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (7096, 160,        420) /* WieldDifficulty */
-     , (7096, 172,          5) /* AppraisalLongDescDecoration */
-     , (7096, 176,         41) /* AppraisalItemSkill */
-     , (7096, 177,          2) /* GemCount */
-     , (7096, 178,         26) /* GemType */
      , (7096, 307,          2) /* DamageRating */
-     , (7096, 308,          0) /* DamageResistRating */
-     , (7096, 313,          0) /* CritRating */
-     , (7096, 314,          0) /* CritDamageRating */
-     , (7096, 315,          0) /* CritResistRating */
-     , (7096, 316,          0) /* CritDamageResistRating */
-     , (7096, 353,         11) /* WeaponType - TwoHanded */
-     , (7096, 370,          0) /* GearDamage */
-     , (7096, 371,          0) /* GearDamageResist */
-     , (7096, 372,          0) /* GearCrit */
-     , (7096, 373,          0) /* GearCritResist */
-     , (7096, 374,          0) /* GearCritDamage */
-     , (7096, 375,          0) /* GearCritDamageResist */
-     , (7096, 376,          0) /* GearHealingBoost */
-     , (7096, 377,          0) /* GearNetherResist */
-     , (7096, 378,          0) /* GearLifeResist */
-     , (7096, 379,          0) /* GearMaxHealth */
-     , (7096, 381,          0) /* PKDamageRating */
-     , (7096, 382,          0) /* PKDamageResistRating */
-     , (7096, 383,          0) /* GearPKDamageRating */
-     , (7096, 384,          0) /* GearPKDamageResistRating */
-     , (7096, 386,          0) /* Overpower */
-     , (7096, 387,          0) /* OverpowerResist */
-     , (7096, 388,          0) /* GearOverpower */
-     , (7096, 389,          0) /* GearOverpowerResist */
-     , (7096, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7096, 8030,          0);
+     , (7096, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7096,   1, True ) /* Stuck */
@@ -69,19 +22,8 @@ VALUES (7096,   1, True ) /* Stuck */
      , (7096,  14, True ) /* GravityStatus */
      , (7096,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7096,   5, -0.0666666666666667) /* ManaRate */
-     , (7096,  21,       0) /* WeaponLength */
-     , (7096,  22,    0.45) /* DamageVariance */
-     , (7096,  26,       0) /* MaximumVelocity */
-     , (7096,  29,    1.13) /* WeaponDefense */
-     , (7096,  62,    1.16) /* WeaponOffense */
-     , (7096,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7096,   1, 'Gold Golem') /* Name */
-     , (7096,  15, 'A mosswart idol.') /* ShortDesc */
-     , (7096,  16, 'Acid Assagai of Endurance') /* LongDesc */
      , (7096, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -114,11 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7096,   1,   555, 0, 0, 555) /* MaxHealth */
      , (7096,   3,   470, 0, 0, 469) /* MaxStamina */
      , (7096,   5,   425, 0, 0, 425) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7096,  2096,      2) 
-     , (7096,  2610,      2) 
-     , (7096,  4299,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7096, 67114284, 0, 0);

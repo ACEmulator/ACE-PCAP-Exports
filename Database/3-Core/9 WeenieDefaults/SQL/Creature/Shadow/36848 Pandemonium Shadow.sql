@@ -6,11 +6,9 @@ VALUES (36848, 'ace36848-pandemoniumshadow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36848,   1,         16) /* ItemType - Creature */
      , (36848,   2,         22) /* CreatureType - Shadow */
-     , (36848,   5,       6429) /* EncumbranceVal */
      , (36848,   6,        255) /* ItemsCapacity */
      , (36848,   7,        255) /* ContainersCapacity */
      , (36848,  16,          1) /* ItemUseable - No */
-     , (36848,  19,          0) /* Value */
      , (36848,  25,         80) /* Level */
      , (36848,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (36848, 113,          2) /* Gender - Female */
@@ -32,7 +30,6 @@ VALUES (36848,  39, 1.29999995231628) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36848,   1, 'Pandemonium Shadow') /* Name */
-     , (36848,  16, 'Killed by Mag-five.') /* LongDesc */
      , (36848, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -9,9 +9,6 @@ VALUES (12762,   1,       8192) /* ItemType - Writable */
      , (12762,  16,          8) /* ItemUseable - Contained */
      , (12762,  19,          0) /* Value */
      , (12762,  65,        101) /* Placement - Resting */
-     , (12762,  90,         25) /* BoostValue */
-     , (12762,  91,         50) /* MaxStructure */
-     , (12762,  92,         50) /* Structure */
      , (12762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12762, 174,          6) /* AppraisalPages */
      , (12762, 175,          6) /* AppraisalMaxPages */;
@@ -25,13 +22,11 @@ VALUES (12762,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12762,  39, 1.22000002861023) /* DefaultScale */
-     , (12762,  54, 0.300000011920929) /* UseRadius */
-     , (12762, 100,       2) /* HealkitMod */;
+     , (12762,  54, 0.300000011920929) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12762,   1, 'Guide to Healing') /* Name */
-     , (12762,  15, 'A guide to regaining Health, Stamina, and Mana.') /* ShortDesc */
-     , (12762,  16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LongDesc */;
+     , (12762,  15, 'A guide to regaining Health, Stamina, and Mana.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12762,   1,   33554771) /* Setup */

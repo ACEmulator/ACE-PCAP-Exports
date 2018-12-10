@@ -30,8 +30,6 @@ VALUES (39923,   1, False) /* Stuck */
      , (39923,  14, True ) /* GravityStatus */
      , (39923,  19, True ) /* Attackable */
      , (39923,  22, True ) /* Inscribable */
-     , (39923,  85, True ) /* AppraisalHasAllowedWielder */
-     , (39923,  91, True ) /* Retained */
      , (39923,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -41,8 +39,7 @@ VALUES (39923,   5, -0.033333) /* ManaRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39923,   1, 'Enhanced Yellow Empyrean Ring') /* Name */
      , (39923,  14, 'One of the five Empyrean Rings. Any two combine for an additional spell set.') /* Use */
-     , (39923,  16, 'A ring of pyreal fitted with a band of glowing gold.') /* LongDesc */
-     , (39923,  25, 'Mag-nus') /* CraftsmanName */;
+     , (39923,  16, 'A ring of pyreal fitted with a band of glowing gold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39923,   1,   33554691) /* Setup */

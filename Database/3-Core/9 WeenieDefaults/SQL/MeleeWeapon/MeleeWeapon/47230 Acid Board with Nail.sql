@@ -5,14 +5,12 @@ VALUES (47230, 'ace47230-acidboardwithnail', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47230,   1,          1) /* ItemType - MeleeWeapon */
-     , (47230,   2,         78) /* CreatureType - Fiun */
      , (47230,   5,        800) /* EncumbranceVal */
      , (47230,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47230,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47230,  16,          1) /* ItemUseable - No */
      , (47230,  18,        256) /* UiEffects - Acid */
      , (47230,  19,        350) /* Value */
-     , (47230,  25,        115) /* Level */
      , (47230,  51,          1) /* CombatUse - Melee */
      , (47230,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (47230, 151,          2) /* HookType - Wall */;
@@ -47,9 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47230,   3, 3701072535) /* Wielder */
      , (47230, 8000, 3701065386) /* PCAPRecordedObjectIID */
      , (47230, 8008, 3701072535) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47230,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47230, 67116700, 0, 101)

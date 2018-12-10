@@ -5,24 +5,15 @@ VALUES (22614, 'phatlewt', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22614,   1,        128) /* ItemType - Misc */
-     , (22614,   2,         13) /* CreatureType - Golem */
      , (22614,   5,       9000) /* EncumbranceVal */
      , (22614,  16,          1) /* ItemUseable - No */
      , (22614,  19,     200000) /* Value */
-     , (22614,  25,        100) /* Level */
      , (22614,  65,        101) /* Placement - Resting */
      , (22614,  92,        100) /* Structure */
      , (22614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22614, 105,         10) /* ItemWorkmanship */
-     , (22614, 106,        220) /* ItemSpellcraft */
-     , (22614, 107,       1401) /* ItemCurMana */
-     , (22614, 108,       1401) /* ItemMaxMana */
-     , (22614, 109,        220) /* ItemDifficulty */
-     , (22614, 110,          0) /* ItemAllegianceRankLimit */
-     , (22614, 115,          0) /* ItemSkillLevelLimit */
      , (22614, 131,         60) /* MaterialType - Gold */
-     , (22614, 151,          1) /* HookType - Floor */
-     , (22614, 172,          1) /* AppraisalLongDescDecoration */;
+     , (22614, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22614,   1, False) /* Stuck */
@@ -33,13 +24,11 @@ VALUES (22614,   1, False) /* Stuck */
      , (22614,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22614,   5,   -0.05) /* ManaRate */
-     , (22614, 8004,      10) /* PCAPRecordedWorkmanship */;
+VALUES (22614, 8004,      10) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22614,   1, 'Treasure') /* Name */
-     , (22614,  15, 'A pile of gleaming treasure. You''re rich! You''re wealthy! You''re independent! You''re comfortably well off!') /* ShortDesc */
-     , (22614,  16, 'Bracelet of Cold Protection') /* LongDesc */;
+     , (22614,  15, 'A pile of gleaming treasure. You''re rich! You''re wealthy! You''re independent! You''re comfortably well off!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22614,   1,   33558212) /* Setup */
@@ -56,9 +45,3 @@ VALUES (22614, 8040, 1631781120, 10.9294, 0.107069, -6, -0.665691, 0, 0, -0.7462
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22614, 8000, 3682425905) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22614,   1,   540, 0, 0, 540) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22614,  1034,      2) ;

@@ -6,16 +6,12 @@ VALUES (34102, 'ace34102-oldzombie', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34102,   1,         16) /* ItemType - Creature */
      , (34102,   2,         14) /* CreatureType - Undead */
-     , (34102,   5,       6060) /* EncumbranceVal */
      , (34102,   6,        255) /* ItemsCapacity */
      , (34102,   7,        255) /* ContainersCapacity */
      , (34102,  16,          1) /* ItemUseable - No */
-     , (34102,  19,          0) /* Value */
      , (34102,  25,         60) /* Level */
      , (34102,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (34102, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34102, 307,          5) /* DamageRating */
-     , (34102, 316,         10) /* CritDamageResistRating */
      , (34102, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,7 +27,6 @@ VALUES (34102,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34102,   1, 'Old Zombie') /* Name */
-     , (34102,  16, 'Killed by Fenn.') /* LongDesc */
      , (34102, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

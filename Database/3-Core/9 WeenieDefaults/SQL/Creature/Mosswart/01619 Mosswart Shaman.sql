@@ -6,27 +6,12 @@ VALUES (1619, 'mosswartshaman', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1619,   1,         16) /* ItemType - Creature */
      , (1619,   2,          4) /* CreatureType - Mosswart */
-     , (1619,   5,         50) /* EncumbranceVal */
      , (1619,   6,        255) /* ItemsCapacity */
      , (1619,   7,        255) /* ContainersCapacity */
      , (1619,  16,          1) /* ItemUseable - No */
-     , (1619,  19,       2138) /* Value */
      , (1619,  25,         20) /* Level */
-     , (1619,  28,          0) /* ArmorLevel */
-     , (1619,  33,          1) /* Bonded - Bonded */
      , (1619,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1619, 105,          3) /* ItemWorkmanship */
-     , (1619, 106,        109) /* ItemSpellcraft */
-     , (1619, 107,        917) /* ItemCurMana */
-     , (1619, 108,        917) /* ItemMaxMana */
-     , (1619, 109,         81) /* ItemDifficulty */
-     , (1619, 110,          0) /* ItemAllegianceRankLimit */
-     , (1619, 115,          0) /* ItemSkillLevelLimit */
-     , (1619, 131,         63) /* MaterialType - Silver */
      , (1619, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1619, 172,          1) /* AppraisalLongDescDecoration */
-     , (1619, 177,          6) /* GemCount */
-     , (1619, 178,         13) /* GemType */
      , (1619, 307,          2) /* DamageRating */
      , (1619, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -35,25 +20,10 @@ VALUES (1619,   1, True ) /* Stuck */
      , (1619,  12, True ) /* ReportCollisions */
      , (1619,  13, False) /* Ethereal */
      , (1619,  14, True ) /* GravityStatus */
-     , (1619,  19, True ) /* Attackable */
-     , (1619, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1619,   5, -0.0166666666666667) /* ManaRate */
-     , (1619,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (1619,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (1619,  15,       1) /* ArmorModVsBludgeon */
-     , (1619,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (1619,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (1619,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (1619,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (1619,  29,    1.02) /* WeaponDefense */
-     , (1619, 144,       0) /* ManaConversionMod */
-     , (1619, 165,       1) /* ArmorModVsNether */;
+     , (1619,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1619,   1, 'Mosswart Shaman') /* Name */
-     , (1619,  16, 'Wand of Force') /* LongDesc */
      , (1619, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -86,12 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1619,   1,    90, 0, 0, 90) /* MaxHealth */
      , (1619,   3,   185, 0, 0, 185) /* MaxStamina */
      , (1619,   5,    55, 0, 0, 46) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1619,    88,      2) 
-     , (1619,   170,      2) 
-     , (1619,   518,      2) 
-     , (1619,  1476,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1619, 67113401, 0, 0);

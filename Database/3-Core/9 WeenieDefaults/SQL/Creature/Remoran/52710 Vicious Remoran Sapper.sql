@@ -11,9 +11,7 @@ VALUES (52710,   1,         16) /* ItemType - Creature */
      , (52710,  16,          1) /* ItemUseable - No */
      , (52710,  25,        280) /* Level */
      , (52710,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52710, 113,          2) /* Gender - Female */
      , (52710, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (52710, 188,          1) /* HeritageGroup - Aluvian */
      , (52710, 307,         20) /* DamageRating */
      , (52710, 308,         20) /* DamageResistRating */
      , (52710, 386,          5) /* Overpower */
@@ -39,12 +37,6 @@ VALUES (52710,   1,   33559700) /* Setup */
      , (52710,   3,  536871103) /* SoundTable */
      , (52710,   6,   67116726) /* PaletteBase */
      , (52710,   8,  100667937) /* Icon */
-     , (52710,   9,   83890261) /* EyesTexture */
-     , (52710,  10,   83890294) /* NoseTexture */
-     , (52710,  11,   83890328) /* MouthTexture */
-     , (52710,  15,   67116978) /* HairPalette */
-     , (52710,  16,   67109564) /* EyesPalette */
-     , (52710,  17,   67109558) /* SkinPalette */
      , (52710,  22,  872415414) /* PhysicsEffectTable */
      , (52710, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52710, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

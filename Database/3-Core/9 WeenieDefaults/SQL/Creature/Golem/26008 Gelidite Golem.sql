@@ -6,11 +6,9 @@ VALUES (26008, 'golemgelidite', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26008,   1,         16) /* ItemType - Creature */
      , (26008,   2,         13) /* CreatureType - Golem */
-     , (26008,   5,       6045) /* EncumbranceVal */
      , (26008,   6,        255) /* ItemsCapacity */
      , (26008,   7,        255) /* ContainersCapacity */
      , (26008,  16,          1) /* ItemUseable - No */
-     , (26008,  19,          0) /* Value */
      , (26008,  25,        100) /* Level */
      , (26008,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26008, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (26008,  76, 0.300000011920929) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26008,   1, 'Gelidite Golem') /* Name */
-     , (26008,  16, 'Killed by Simal.') /* LongDesc */
      , (26008, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

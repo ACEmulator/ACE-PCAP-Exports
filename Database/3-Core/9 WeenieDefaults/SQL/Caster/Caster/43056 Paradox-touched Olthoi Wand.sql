@@ -35,7 +35,6 @@ VALUES (43056,   1, False) /* Stuck */
      , (43056,  19, True ) /* Attackable */
      , (43056,  22, True ) /* Inscribable */
      , (43056,  69, False) /* IsSellable */
-     , (43056,  85, True ) /* AppraisalHasAllowedWielder */
      , (43056,  91, True ) /* Retained */
      , (43056,  99, True ) /* Ivoryable */;
 
@@ -50,17 +49,14 @@ VALUES (43056,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43056,   1, 'Paradox-touched Olthoi Wand') /* Name */
-     , (43056,   7, 'Olthoi Slayer') /* Inscription */
-     , (43056,   8, 'High-Voltage II') /* ScribeName */
-     , (43056,  16, NULL) /* LongDesc */
-     , (43056,  25, 'Deathspawner') /* CraftsmanName */;
+     , (43056,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43056,   1,   33561081) /* Setup */
      , (43056,   3,  536870932) /* SoundTable */
      , (43056,   8,  100691347) /* Icon */
      , (43056,  22,  872415275) /* PhysicsEffectTable */
-     , (43056,  28,         67) /* Spell */
+     , (43056,  28,         67) /* Spell - ShockWave4 */
      , (43056, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (43056, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43056, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

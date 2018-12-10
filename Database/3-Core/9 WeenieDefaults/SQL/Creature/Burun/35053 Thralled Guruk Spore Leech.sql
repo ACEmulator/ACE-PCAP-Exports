@@ -6,11 +6,9 @@ VALUES (35053, 'ace35053-thralledguruksporeleech', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35053,   1,         16) /* ItemType - Creature */
      , (35053,   2,         75) /* CreatureType - Burun */
-     , (35053,   5,       7051) /* EncumbranceVal */
      , (35053,   6,        255) /* ItemsCapacity */
      , (35053,   7,        255) /* ContainersCapacity */
      , (35053,  16,          1) /* ItemUseable - No */
-     , (35053,  19,          0) /* Value */
      , (35053,  25,        220) /* Level */
      , (35053,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35053, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -26,7 +24,6 @@ VALUES (35053,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35053,   1, 'Thralled Guruk Spore Leech') /* Name */
-     , (35053,  16, 'Killed by Nihoawa''s Swarm.') /* LongDesc */
      , (35053, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

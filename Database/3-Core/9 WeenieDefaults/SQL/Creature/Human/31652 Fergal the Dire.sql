@@ -6,11 +6,9 @@ VALUES (31652, 'ace31652-fergalthedire', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31652,   1,         16) /* ItemType - Creature */
      , (31652,   2,         31) /* CreatureType - Human */
-     , (31652,   5,       6410) /* EncumbranceVal */
      , (31652,   6,        255) /* ItemsCapacity */
      , (31652,   7,        255) /* ContainersCapacity */
      , (31652,  16,         32) /* ItemUseable - Remote */
-     , (31652,  19,          0) /* Value */
      , (31652,  25,         21) /* Level */
      , (31652,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31652,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (31652,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31652,   1, 'Fergal the Dire') /* Name */
      , (31652,   5, 'Dire Mattekar Dispatcher') /* Template */
-     , (31652,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (31652, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

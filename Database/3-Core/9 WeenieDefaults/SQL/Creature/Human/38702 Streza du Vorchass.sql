@@ -6,11 +6,9 @@ VALUES (38702, 'ace38702-strezaduvorchass', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38702,   1,         16) /* ItemType - Creature */
      , (38702,   2,         31) /* CreatureType - Human */
-     , (38702,   5,       6701) /* EncumbranceVal */
      , (38702,   6,        255) /* ItemsCapacity */
      , (38702,   7,        255) /* ContainersCapacity */
      , (38702,  16,         32) /* ItemUseable - Remote */
-     , (38702,  19,          0) /* Value */
      , (38702,  25,        182) /* Level */
      , (38702,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38702,  95,          8) /* RadarBlipColor - Yellow */
@@ -38,7 +36,6 @@ VALUES (38702,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38702,   1, 'Streza du Vorchass') /* Name */
      , (38702,   5, 'Delivery Taskmaster') /* Template */
-     , (38702,  16, 'Killed by The Guardian of the Lost Light.') /* LongDesc */
      , (38702, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

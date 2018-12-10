@@ -23,13 +23,16 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3456,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3456,   1, 'Scroll of Person Attunement Self V') /* Name */;
+VALUES (3456,   1, 'Scroll of Person Attunement Self V') /* Name */
+     , (3456,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (3456,  16, 'Inscribed spell: Person Attunement Self V
+Increases the caster''s Assess Person skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3456,   1,   33554826) /* Setup */
      , (3456,   8,  100676448) /* Icon */
      , (3456,  22,  872415275) /* PhysicsEffectTable */
-     , (3456,  28,        828) /* Spell */
+     , (3456,  28,        828) /* Spell - PersonAttunementSelf5 */
      , (3456, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3456, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3456, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
@@ -37,3 +40,6 @@ VALUES (3456,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3456,   2, 3627642895) /* Container */
      , (3456, 8000, 3627642894) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (3456,   828,      2) ;

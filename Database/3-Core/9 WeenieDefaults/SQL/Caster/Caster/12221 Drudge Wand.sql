@@ -30,8 +30,6 @@ VALUES (12221,  29,       1) /* WeaponDefense */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12221,   1, 'Drudge Wand') /* Name */
-     , (12221,   7, 'OOgah BOogah!') /* Inscription */
-     , (12221,   8, 'Cygmus') /* ScribeName */
      , (12221,  16, 'A wand with a shrunken drudge head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

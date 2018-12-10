@@ -5,11 +5,9 @@ VALUES (45488, 'bookcombatrevamp', 8) /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45488,   1,       8192) /* ItemType - Writable */
-     , (45488,   2,         78) /* CreatureType - Fiun */
      , (45488,   5,          2) /* EncumbranceVal */
      , (45488,  16,          8) /* ItemUseable - Contained */
      , (45488,  19,          0) /* Value */
-     , (45488,  25,        115) /* Level */
      , (45488,  65,        101) /* Placement - Resting */
      , (45488,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45488, 174,          8) /* AppraisalPages */
@@ -28,9 +26,6 @@ VALUES (45488,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45488,   1, 'Some Changes for February 2012') /* Name */
-     , (45488,   7, 'OLd one
-') /* Inscription */
-     , (45488,   8, 'Xog') /* ScribeName */
      , (45488,  16, 'A summary of the combat skill changes for February 2012.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -45,9 +40,6 @@ VALUES (45488,   1,   33554771) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45488,   2, 2186220491) /* Container */
      , (45488, 8000, 2186220498) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45488,   1,   460, 0, 0, 460) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (45488, 8, 1000);

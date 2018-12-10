@@ -18,7 +18,6 @@ VALUES (21376,   1,          4) /* ItemType - Clothing */
      , (21376, 107,        500) /* ItemCurMana */
      , (21376, 108,        500) /* ItemMaxMana */
      , (21376, 109,        150) /* ItemDifficulty */
-     , (21376, 114,          0) /* Attuned - Normal */
      , (21376, 151,          2) /* HookType - Wall */
      , (21376, 158,          7) /* WieldRequirements - Level */
      , (21376, 159,          1) /* WieldSkilltype - Axe */
@@ -31,8 +30,7 @@ VALUES (21376,   1, False) /* Stuck */
      , (21376,  14, True ) /* GravityStatus */
      , (21376,  19, True ) /* Attackable */
      , (21376,  22, True ) /* Inscribable */
-     , (21376,  69, False) /* IsSellable */
-     , (21376,  85, True ) /* AppraisalHasAllowedWielder */;
+     , (21376,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21376,   5, -0.0333) /* ManaRate */
@@ -47,8 +45,7 @@ VALUES (21376,   5, -0.0333) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21376,   1, 'Martine''s Robe') /* Name */
-     , (21376,  15, 'A purple robe once worn by the half-man, half-virindi, Candeth Martine.') /* ShortDesc */
-     , (21376,  25, 'Juliana Bravehart') /* CraftsmanName */;
+     , (21376,  15, 'A purple robe once worn by the half-man, half-virindi, Candeth Martine.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21376,   1,   33554854) /* Setup */

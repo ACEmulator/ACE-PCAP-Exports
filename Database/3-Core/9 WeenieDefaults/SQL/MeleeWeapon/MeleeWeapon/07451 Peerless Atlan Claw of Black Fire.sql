@@ -50,9 +50,7 @@ VALUES (7451,   5, -0.0329999998211861) /* ManaRate */
      , (7451,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7451,   1, 'Peerless Atlan Claw of Black Fire') /* Name */
-     , (7451,   7, '    ') /* Inscription */
-     , (7451,   8, 'Killerwolf') /* ScribeName */;
+VALUES (7451,   1, 'Peerless Atlan Claw of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7451,   1,   33557401) /* Setup */

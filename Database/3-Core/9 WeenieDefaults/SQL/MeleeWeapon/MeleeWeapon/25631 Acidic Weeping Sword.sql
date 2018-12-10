@@ -54,8 +54,6 @@ VALUES (25631,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25631,   1, 'Acidic Weeping Sword') /* Name */
-     , (25631,   7, 'Funky-Monk says, "likea  byclce helm"') /* Inscription */
-     , (25631,   8, 'Deeza') /* ScribeName */
      , (25631,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
      , (25631,  25, 'Olthoi King') /* CraftsmanName */;
 

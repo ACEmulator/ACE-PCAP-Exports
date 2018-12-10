@@ -6,18 +6,12 @@ VALUES (1989, 'wispshadow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1989,   1,         16) /* ItemType - Creature */
      , (1989,   2,         20) /* CreatureType - Wisp */
-     , (1989,   5,        100) /* EncumbranceVal */
      , (1989,   6,        255) /* ItemsCapacity */
      , (1989,   7,        255) /* ContainersCapacity */
      , (1989,  16,          1) /* ItemUseable - No */
-     , (1989,  19,         10) /* Value */
      , (1989,  25,         50) /* Level */
-     , (1989,  33,          1) /* Bonded - Bonded */
      , (1989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1989, 105,        100) /* ItemWorkmanship */
-     , (1989, 131,         21) /* MaterialType - Emerald */
      , (1989, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1989, 170,         10) /* NumItemsInMaterial */
      , (1989, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,8 +23,6 @@ VALUES (1989,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1989,   1, 'Shadow Wisp') /* Name */
-     , (1989,  14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Acid Rending. Acid Rending gives the weapon the ability to make its opponent vulnerable to acid attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Acid Vulnerability spells.') /* Use */
-     , (1989,  15, 'Chips of emerald material salvaged from old items.') /* ShortDesc */
      , (1989, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -32,7 +32,6 @@ VALUES (36748,   1, False) /* Stuck */
      , (36748,  19, True ) /* Attackable */
      , (36748,  22, True ) /* Inscribable */
      , (36748,  69, False) /* IsSellable */
-     , (36748,  85, True ) /* AppraisalHasAllowedWielder */
      , (36748,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -48,10 +47,7 @@ VALUES (36748,   5,    -0.5) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36748,   1, 'Empowered Breastplate of the Perfect Light') /* Name */
-     , (36748,   7, 'January 2013') /* Inscription */
-     , (36748,   8, 'Carokahn') /* ScribeName */
-     , (36748,  16, 'A breastplate forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.  This piece of armor resonates with the two other pieces of its set, generating more powerful spells as the pieces are worn together.') /* LongDesc */
-     , (36748,  25, 'Arkaina') /* CraftsmanName */;
+     , (36748,  16, 'A breastplate forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.  This piece of armor resonates with the two other pieces of its set, generating more powerful spells as the pieces are worn together.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36748,   1,   33554642) /* Setup */

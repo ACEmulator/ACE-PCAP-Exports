@@ -22,9 +22,7 @@ VALUES (49212,   1,        128) /* ItemType - Misc */
      , (49212, 367,        570) /* UseRequiresSkillLevel */
      , (49212, 368,         54) /* UseRequiresSkillSpec */
      , (49212, 369,        185) /* UseRequiresLevel */
-     , (49212, 370,         16) /* GearDamage */
      , (49212, 371,          9) /* GearDamageResist */
-     , (49212, 372,         10) /* GearCrit */
      , (49212, 373,          7) /* GearCritResist */
      , (49212, 374,          3) /* GearCritDamage */
      , (49212, 375,         14) /* GearCritDamageResist */;
@@ -44,8 +42,6 @@ VALUES (49212,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49212,   1, 'Frost Skeleton Samurai Essence') /* Name */
-     , (49212,   7, ' ') /* Inscription */
-     , (49212,   8, 'Toxygen') /* ScribeName */
      , (49212,  14, 'Use this essence to summon or dismiss your Frost Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

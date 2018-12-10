@@ -27,7 +27,6 @@ VALUES (34261,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34261,   1, 'Corpse of Ainea Besu') /* Name */
-     , (34261,  14, 'Use this item to close it.') /* Use */
      , (34261, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

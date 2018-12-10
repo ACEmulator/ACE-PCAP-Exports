@@ -42,8 +42,6 @@ VALUES (12751,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12751,   1, 'Academy Battle Axe') /* Name */
-     , (12751,   7, '5/5/15 Rare') /* Inscription */
-     , (12751,   8, 'Moolfasa') /* ScribeName */
      , (12751,  15, 'An enhanced battle axe crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

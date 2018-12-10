@@ -41,7 +41,6 @@ VALUES (43041,   1, False) /* Stuck */
      , (43041,  19, True ) /* Attackable */
      , (43041,  22, True ) /* Inscribable */
      , (43041,  69, False) /* IsSellable */
-     , (43041,  85, True ) /* AppraisalHasAllowedWielder */
      , (43041,  99, True ) /* Ivoryable */
      , (43041, 130, True ) /* AutowieldLeft */;
 
@@ -61,8 +60,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43041,   1, 'Paradox-touched Olthoi Staff') /* Name */
      , (43041,   7, 'min') /* Inscription */
      , (43041,   8, 'Falkeye') /* ScribeName */
-     , (43041,  16, 'A staff, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */
-     , (43041,  25, 'We Pwn Khao''s') /* CraftsmanName */;
+     , (43041,  16, 'A staff, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43041,   1,   33561079) /* Setup */

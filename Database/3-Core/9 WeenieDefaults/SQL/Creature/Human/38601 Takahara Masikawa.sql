@@ -6,31 +6,18 @@ VALUES (38601, 'ace38601-takaharamasikawa', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38601,   1,         16) /* ItemType - Creature */
      , (38601,   2,         31) /* CreatureType - Human */
-     , (38601,   5,         50) /* EncumbranceVal */
      , (38601,   6,        255) /* ItemsCapacity */
      , (38601,   7,        255) /* ContainersCapacity */
      , (38601,  16,         32) /* ItemUseable - Remote */
-     , (38601,  19,       6000) /* Value */
      , (38601,  25,        182) /* Level */
-     , (38601,  33,          0) /* Bonded - Normal */
-     , (38601,  91,         50) /* MaxStructure */
-     , (38601,  92,         50) /* Structure */
      , (38601,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38601,  95,          8) /* RadarBlipColor - Yellow */
-     , (38601, 105,          7) /* ItemWorkmanship */
      , (38601, 113,          1) /* Gender - Male */
-     , (38601, 114,          0) /* Attuned - Normal */
      , (38601, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38601, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38601, 188,          3) /* HeritageGroup - Sho */
-     , (38601, 280,        213) /* SharedCooldown */
      , (38601, 281,          4) /* Faction1Bits */
      , (38601, 289,          1) /* SocietyRankRadblo */
-     , (38601, 307,          2) /* DamageRating */
-     , (38601, 366,         54) /* UseRequiresSkill */
-     , (38601, 367,        400) /* UseRequiresSkillLevel */
-     , (38601, 369,         90) /* UseRequiresLevel */
-     , (38601, 371,         12) /* GearDamageResist */
      , (38601, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -41,17 +28,14 @@ VALUES (38601,   1, True ) /* Stuck */
      , (38601,  14, True ) /* GravityStatus */
      , (38601,  19, False) /* Attackable */
      , (38601,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38601,  42, True ) /* AllowEdgeSlide */
-     , (38601,  69, True ) /* IsSellable */;
+     , (38601,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38601,  54,       3) /* UseRadius */
-     , (38601, 167,      45) /* CooldownDuration */;
+VALUES (38601,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38601,   1, 'Takahara Masikawa') /* Name */
      , (38601,   5, 'Ruschk Boss Taskmaster') /* Template */
-     , (38601,  14, 'Use this essence to summon or dismiss your Fire Moar.') /* Use */
      , (38601, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

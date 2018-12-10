@@ -6,11 +6,9 @@ VALUES (32295, 'ace32295-royalinquisitor', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32295,   1,         16) /* ItemType - Creature */
      , (32295,   2,         83) /* CreatureType - ViamontianKnight */
-     , (32295,   5,       6200) /* EncumbranceVal */
      , (32295,   6,        255) /* ItemsCapacity */
      , (32295,   7,        255) /* ContainersCapacity */
      , (32295,  16,          1) /* ItemUseable - No */
-     , (32295,  19,          0) /* Value */
      , (32295,  25,        185) /* Level */
      , (32295,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32295, 113,          1) /* Gender - Male */

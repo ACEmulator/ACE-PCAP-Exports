@@ -6,11 +6,9 @@ VALUES (24326, 'zombierisenlord', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24326,   1,         16) /* ItemType - Creature */
      , (24326,   2,         14) /* CreatureType - Undead */
-     , (24326,   5,       7107) /* EncumbranceVal */
      , (24326,   6,        255) /* ItemsCapacity */
      , (24326,   7,        255) /* ContainersCapacity */
      , (24326,  16,          1) /* ItemUseable - No */
-     , (24326,  19,          0) /* Value */
      , (24326,  25,        100) /* Level */
      , (24326,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (24326, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -27,7 +25,6 @@ VALUES (24326,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24326,   1, 'Risen Lord') /* Name */
-     , (24326,  16, 'Killed by Cat Devnull.') /* LongDesc */
      , (24326, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

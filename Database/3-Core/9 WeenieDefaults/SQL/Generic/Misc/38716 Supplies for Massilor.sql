@@ -10,11 +10,8 @@ VALUES (38716,   1,        128) /* ItemType - Misc */
      , (38716,  19,          0) /* Value */
      , (38716,  33,          1) /* Bonded - Bonded */
      , (38716,  65,        101) /* Placement - Resting */
-     , (38716,  91,         50) /* MaxStructure */
-     , (38716,  92,         50) /* Structure */
      , (38716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38716, 114,          1) /* Attuned - Attuned */
-     , (38716, 173,        100) /* AppraisalLockpickSuccessPercent */;
+     , (38716, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38716,   1, False) /* Stuck */
@@ -26,7 +23,6 @@ VALUES (38716,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38716,   1, 'Supplies for Massilor') /* Name */
-     , (38716,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
      , (38716,  16, 'A foul-smelling bag filled with mysterious supplies, intended for Massilor the Withered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

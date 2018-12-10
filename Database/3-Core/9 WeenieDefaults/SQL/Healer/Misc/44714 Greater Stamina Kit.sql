@@ -5,11 +5,9 @@ VALUES (44714, 'ace44714-greaterstaminakit', 28) /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44714,   1,        128) /* ItemType - Misc */
-     , (44714,   2,         76) /* CreatureType - Target */
      , (44714,   5,        200) /* EncumbranceVal */
      , (44714,  16,    2228232) /* ItemUseable - SourceContainedTargetRemoteOrSelf */
      , (44714,  19,       3000) /* Value */
-     , (44714,  25,          2) /* Level */
      , (44714,  65,        101) /* Placement - Resting */
      , (44714,  90,        200) /* BoostValue */
      , (44714,  91,         50) /* MaxStructure */
@@ -32,8 +30,7 @@ VALUES (44714, 100,     1.1) /* HealkitMod */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44714,   1, 'Greater Stamina Kit') /* Name */
      , (44714,  14, 'Use this item on a person to restore stamina.') /* Use */
-     , (44714,  15, 'A stamina kit which provides substanial restoration.') /* ShortDesc */
-     , (44714,  16, 'Killed by Mag-nus.') /* LongDesc */;
+     , (44714,  15, 'A stamina kit which provides substanial restoration.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44714,   1,   33555194) /* Setup */
@@ -48,19 +45,6 @@ VALUES (44714, 8040, 23855555, 56.77068, -40.34103, 0.0315, -0.6199058, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44714, 8000, 3706806487) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (44714,   1,   1, 0, 0) /* Strength */
-     , (44714,   2,   1, 0, 0) /* Endurance */
-     , (44714,   3,   1, 0, 0) /* Quickness */
-     , (44714,   4,   1, 0, 0) /* Coordination */
-     , (44714,   5,   1, 0, 0) /* Focus */
-     , (44714,   6,   1, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44714,   1,  1000, 0, 0, 1000) /* MaxHealth */
-     , (44714,   3,     1, 0, 0, 1) /* MaxStamina */
-     , (44714,   5,     1, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44714, 0, 83889681, 83894377)

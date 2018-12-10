@@ -6,11 +6,9 @@ VALUES (22904, 'darkrevenantguardian', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22904,   1,         16) /* ItemType - Creature */
      , (22904,   2,         14) /* CreatureType - Undead */
-     , (22904,   5,       6250) /* EncumbranceVal */
      , (22904,   6,        255) /* ItemsCapacity */
      , (22904,   7,        255) /* ContainersCapacity */
      , (22904,  16,          1) /* ItemUseable - No */
-     , (22904,  19,          0) /* Value */
      , (22904,  25,        160) /* Level */
      , (22904,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22904, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -30,7 +28,6 @@ VALUES (22904,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22904,   1, 'Dark Guardian') /* Name */
-     , (22904,  16, 'Killed by Ripley''s Grievver.') /* LongDesc */
      , (22904, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

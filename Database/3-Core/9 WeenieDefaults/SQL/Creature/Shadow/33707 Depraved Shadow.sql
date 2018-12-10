@@ -6,42 +6,15 @@ VALUES (33707, 'ace33707-depravedshadow', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33707,   1,         16) /* ItemType - Creature */
      , (33707,   2,         22) /* CreatureType - Shadow */
-     , (33707,   5,       8276) /* EncumbranceVal */
      , (33707,   6,        255) /* ItemsCapacity */
      , (33707,   7,        255) /* ContainersCapacity */
      , (33707,  16,          1) /* ItemUseable - No */
-     , (33707,  19,          0) /* Value */
      , (33707,  25,        200) /* Level */
-     , (33707,  28,        294) /* ArmorLevel */
-     , (33707,  44,          0) /* Damage */
-     , (33707,  45,          1) /* DamageType - Slash */
-     , (33707,  47,          6) /* AttackType - Thrust, Slash */
-     , (33707,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (33707,  49,         97) /* WeaponTime */
      , (33707,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (33707, 105,          6) /* ItemWorkmanship */
-     , (33707, 106,        300) /* ItemSpellcraft */
-     , (33707, 107,        545) /* ItemCurMana */
-     , (33707, 108,        545) /* ItemMaxMana */
-     , (33707, 109,          0) /* ItemDifficulty */
-     , (33707, 110,          0) /* ItemAllegianceRankLimit */
      , (33707, 113,          2) /* Gender - Female */
-     , (33707, 115,          0) /* ItemSkillLevelLimit */
-     , (33707, 117,        350) /* ItemManaCost */
-     , (33707, 131,         13) /* MaterialType - Aquamarine */
      , (33707, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33707, 158,          2) /* WieldRequirements - RawSkill */
-     , (33707, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (33707, 160,        360) /* WieldDifficulty */
-     , (33707, 172,          1) /* AppraisalLongDescDecoration */
-     , (33707, 176,          7) /* AppraisalItemSkill */
-     , (33707, 177,          3) /* GemCount */
-     , (33707, 178,         23) /* GemType */
      , (33707, 188,          1) /* HeritageGroup - Aluvian */
-     , (33707, 204,         12) /* ElementalDamageBonus */
-     , (33707, 353,          9) /* WeaponType - Crossbow */
-     , (33707, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (33707, 8030,          0);
+     , (33707, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33707,   1, True ) /* Stuck */
@@ -49,30 +22,13 @@ VALUES (33707,   1, True ) /* Stuck */
      , (33707,  13, False) /* Ethereal */
      , (33707,  14, True ) /* GravityStatus */
      , (33707,  19, True ) /* Attackable */
-     , (33707,  42, True ) /* AllowEdgeSlide */
-     , (33707, 100, True ) /* Dyable */;
+     , (33707,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33707,   5, -0.0555555555555556) /* ManaRate */
-     , (33707,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (33707,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (33707,  15,       1) /* ArmorModVsBludgeon */
-     , (33707,  16,     0.5) /* ArmorModVsCold */
-     , (33707,  17,     0.5) /* ArmorModVsFire */
-     , (33707,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (33707,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (33707,  21,       0) /* WeaponLength */
-     , (33707,  22,       0) /* DamageVariance */
-     , (33707,  26,    27.3) /* MaximumVelocity */
-     , (33707,  29,    1.14) /* WeaponDefense */
-     , (33707,  39, 1.10000002384186) /* DefaultScale */
-     , (33707,  62,       1) /* WeaponOffense */
-     , (33707,  63,    2.47) /* DamageMod */
-     , (33707, 165,       1) /* ArmorModVsNether */;
+VALUES (33707,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33707,   1, 'Depraved Shadow') /* Name */
-     , (33707,  16, 'Killed by Mag-three.') /* LongDesc */
      , (33707, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -99,38 +55,8 @@ VALUES (33707, 8040, 7537695, -0.439964, -43.1948, -17.9945, 0.04250801, 0, 0, -
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33707, 8000, 3358116244) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (33707,   1, 900, 0, 0) /* Strength */
-     , (33707,   2, 900, 0, 0) /* Endurance */
-     , (33707,   3, 250, 0, 0) /* Quickness */
-     , (33707,   4, 250, 0, 0) /* Coordination */
-     , (33707,   5,  60, 0, 0) /* Focus */
-     , (33707,   6,  60, 0, 0) /* Self */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33707,   1,  1000, 0, 0, 1000) /* MaxHealth */
-     , (33707,   3, 100000, 0, 0, 100000) /* MaxStamina */
-     , (33707,   5,    60, 0, 0, 60) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33707,   279,      2) 
-     , (33707,  1023,      2) 
-     , (33707,  1605,      2) 
-     , (33707,  1616,      2) 
-     , (33707,  2096,      2) 
-     , (33707,  2104,      2) 
-     , (33707,  2108,      2) 
-     , (33707,  2116,      2) 
-     , (33707,  2159,      2) 
-     , (33707,  2554,      2) 
-     , (33707,  2570,      2) 
-     , (33707,  2583,      2) 
-     , (33707,  2608,      2) 
-     , (33707,  2619,      2) 
-     , (33707,  4405,      2) 
-     , (33707,  4672,      2) 
-     , (33707,  5883,      2) 
-     , (33707,  5887,      2) ;
+VALUES (33707,   1,  1000, 0, 0, 1000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33707, 67109561, 0, 24)

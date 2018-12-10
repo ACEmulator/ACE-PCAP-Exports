@@ -6,22 +6,16 @@ VALUES (21552, 'wisptempest', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21552,   1,         16) /* ItemType - Creature */
      , (21552,   2,         20) /* CreatureType - Wisp */
-     , (21552,   5,       7377) /* EncumbranceVal */
      , (21552,   6,        255) /* ItemsCapacity */
      , (21552,   7,        255) /* ContainersCapacity */
      , (21552,  16,          1) /* ItemUseable - No */
-     , (21552,  19,          0) /* Value */
      , (21552,  25,        115) /* Level */
      , (21552,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (21552, 105,          7) /* ItemWorkmanship */
-     , (21552, 131,         26) /* MaterialType - ImperialTopaz */
      , (21552, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (21552, 172,          1) /* AppraisalLongDescDecoration */
      , (21552, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21552,   1, True ) /* Stuck */
-     , (21552,   2, True ) /* Open */
      , (21552,  12, True ) /* ReportCollisions */
      , (21552,  13, False) /* Ethereal */
      , (21552,  14, True ) /* GravityStatus */
@@ -32,8 +26,6 @@ VALUES (21552,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21552,   1, 'Tempest Wisp') /* Name */
-     , (21552,  14, 'Use this item to close it.') /* Use */
-     , (21552,  16, 'Killed by Mag-three.') /* LongDesc */
      , (21552, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

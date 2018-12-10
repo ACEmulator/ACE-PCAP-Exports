@@ -6,11 +6,9 @@ VALUES (7084, 'armoredillohoary', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7084,   1,         16) /* ItemType - Creature */
      , (7084,   2,         17) /* CreatureType - Armoredillo */
-     , (7084,   5,       6060) /* EncumbranceVal */
      , (7084,   6,        255) /* ItemsCapacity */
      , (7084,   7,        255) /* ContainersCapacity */
      , (7084,  16,          1) /* ItemUseable - No */
-     , (7084,  19,          0) /* Value */
      , (7084,  25,         80) /* Level */
      , (7084,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7084, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (7084,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7084,   1, 'Hoary Armoredillo') /* Name */
-     , (7084,  16, 'Killed by Exopaladin.') /* LongDesc */
      , (7084, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

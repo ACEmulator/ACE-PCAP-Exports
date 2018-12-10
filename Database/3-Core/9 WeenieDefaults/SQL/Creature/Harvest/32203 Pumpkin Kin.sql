@@ -10,13 +10,8 @@ VALUES (32203,   1,         16) /* ItemType - Creature */
      , (32203,   7,        255) /* ContainersCapacity */
      , (32203,  16,          1) /* ItemUseable - No */
      , (32203,  25,         15) /* Level */
-     , (32203,  86,         60) /* MinLevel */
      , (32203,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (32203, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
-     , (32203, 113,          1) /* Gender - Male */
      , (32203, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (32203, 188,          1) /* HeritageGroup - Aluvian */
-     , (32203, 307,          5) /* DamageRating */
      , (32203, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,7 +26,6 @@ VALUES (32203,  39, 1.70000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32203,   1, 'Pumpkin Kin') /* Name */
-     , (32203,  38, 'Heart of Innocence') /* AppraisalPortalDestination */
      , (32203, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -39,12 +33,6 @@ VALUES (32203,   1,   33559776) /* Setup */
      , (32203,   2,  150994994) /* MotionTable */
      , (32203,   3,  536871014) /* SoundTable */
      , (32203,   8,  100671017) /* Icon */
-     , (32203,   9,   83890481) /* EyesTexture */
-     , (32203,  10,   83890550) /* NoseTexture */
-     , (32203,  11,   83890662) /* MouthTexture */
-     , (32203,  15,   67117023) /* HairPalette */
-     , (32203,  16,   67110062) /* EyesPalette */
-     , (32203,  17,   67109560) /* SkinPalette */
      , (32203,  22,  872415344) /* PhysicsEffectTable */
      , (32203, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (32203, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

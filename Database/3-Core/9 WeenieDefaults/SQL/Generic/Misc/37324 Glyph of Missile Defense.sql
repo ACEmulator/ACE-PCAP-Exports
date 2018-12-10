@@ -15,7 +15,6 @@ VALUES (37324,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37324,   1, False) /* Stuck */
-     , (37324,   2, False) /* Open */
      , (37324,  11, True ) /* IgnoreCollisions */
      , (37324,  13, True ) /* Ethereal */
      , (37324,  14, True ) /* GravityStatus */
@@ -23,8 +22,6 @@ VALUES (37324,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37324,   1, 'Glyph of Missile Defense') /* Name */
-     , (37324,  14, 'Use this item to close it.') /* Use */
-     , (37324,  16, 'Killed by Mag-two.') /* LongDesc */
      , (37324,  20, 'Glyphs of Missile Defense') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

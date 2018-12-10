@@ -25,8 +25,6 @@ VALUES (11019,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11019,   1, 'Pyreal Bell') /* Name */
-     , (11019,   7, 'The dinner bell for the pack dolls') /* Inscription */
-     , (11019,   8, 'Metatron of Araboth') /* ScribeName */
      , (11019,  16, 'A reforged Yalaini bell. If rung, its noise is enough to make the very stones beneath you shake.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

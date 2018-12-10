@@ -6,29 +6,15 @@ VALUES (38699, 'ace38699-aldorodibelleforte', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38699,   1,         16) /* ItemType - Creature */
      , (38699,   2,         31) /* CreatureType - Human */
-     , (38699,   5,        163) /* EncumbranceVal */
      , (38699,   6,        255) /* ItemsCapacity */
      , (38699,   7,        255) /* ContainersCapacity */
      , (38699,  16,         32) /* ItemUseable - Remote */
-     , (38699,  19,      13619) /* Value */
      , (38699,  25,        182) /* Level */
-     , (38699,  28,        256) /* ArmorLevel */
      , (38699,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38699,  95,          8) /* RadarBlipColor - Yellow */
-     , (38699, 105,          7) /* ItemWorkmanship */
-     , (38699, 106,        271) /* ItemSpellcraft */
-     , (38699, 107,        934) /* ItemCurMana */
-     , (38699, 108,        934) /* ItemMaxMana */
-     , (38699, 109,        125) /* ItemDifficulty */
-     , (38699, 110,          0) /* ItemAllegianceRankLimit */
      , (38699, 113,          1) /* Gender - Male */
-     , (38699, 115,        291) /* ItemSkillLevelLimit */
-     , (38699, 117,        350) /* ItemManaCost */
-     , (38699, 131,         60) /* MaterialType - Gold */
      , (38699, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38699, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38699, 172,          1) /* AppraisalLongDescDecoration */
-     , (38699, 176,          6) /* AppraisalItemSkill */
      , (38699, 188,          4) /* HeritageGroup - Viamontian */
      , (38699, 281,          4) /* Faction1Bits */
      , (38699, 289,          1) /* SocietyRankRadblo */
@@ -42,25 +28,14 @@ VALUES (38699,   1, True ) /* Stuck */
      , (38699,  14, True ) /* GravityStatus */
      , (38699,  19, False) /* Attackable */
      , (38699,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38699,  42, True ) /* AllowEdgeSlide */
-     , (38699, 100, True ) /* Dyable */;
+     , (38699,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38699,   5, -0.0555555555555556) /* ManaRate */
-     , (38699,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38699,  14,       1) /* ArmorModVsPierce */
-     , (38699,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (38699,  16, 1.21522974967957) /* ArmorModVsCold */
-     , (38699,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (38699,  18,     0.5) /* ArmorModVsAcid */
-     , (38699,  19, 0.775969266891479) /* ArmorModVsElectric */
-     , (38699,  54,       3) /* UseRadius */
-     , (38699, 165,       1) /* ArmorModVsNether */;
+VALUES (38699,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38699,   1, 'Aldoro di Belleforte') /* Name */
      , (38699,   5, 'Bounty Taskmaster') /* Template */
-     , (38699,  16, 'Chainmail Tassets of Strength') /* LongDesc */
      , (38699, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -98,12 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38699,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38699,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38699,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38699,  1332,      2) 
-     , (38699,  1486,      2) 
-     , (38699,  1551,      2) 
-     , (38699,  2091,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38699, 67109564, 32, 8)

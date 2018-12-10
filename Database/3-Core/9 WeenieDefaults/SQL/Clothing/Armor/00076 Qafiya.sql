@@ -5,7 +5,6 @@ VALUES (76, 'helmhorned', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (76,   1,          2) /* ItemType - Armor */
-     , (76,   2,         20) /* CreatureType - Wisp */
      , (76,   4,      16384) /* ClothingPriority - Head */
      , (76,   5,        555) /* EncumbranceVal */
      , (76,   9,          1) /* ValidLocations - HeadWear */
@@ -13,13 +12,8 @@ VALUES (76,   1,          2) /* ItemType - Armor */
      , (76,  16,          1) /* ItemUseable - No */
      , (76,  18,          1) /* UiEffects - Magical */
      , (76,  19,      18787) /* Value */
-     , (76,  25,        100) /* Level */
      , (76,  28,        736) /* ArmorLevel */
-     , (76,  33,          1) /* Bonded - Bonded */
-     , (76,  36,       9999) /* ResistMagic */
      , (76,  65,        101) /* Placement - Resting */
-     , (76,  89,          2) /* BoosterEnum - Health */
-     , (76,  90,         50) /* BoostValue */
      , (76,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (76, 105,          6) /* ItemWorkmanship */
      , (76, 106,        370) /* ItemSpellcraft */
@@ -38,11 +32,8 @@ VALUES (76,   1,          2) /* ItemType - Armor */
      , (76, 176,          6) /* AppraisalItemSkill */
      , (76, 177,          3) /* GemCount */
      , (76, 178,         41) /* GemType */
-     , (76, 188,          1) /* HeritageGroup - Aluvian */
      , (76, 265,         16) /* EquipmentSetId - Defenders */
-     , (76, 307,          5) /* DamageRating */
-     , (76, 374,          1) /* GearCritDamage */
-     , (76, 375,          1) /* GearCritDamageResist */;
+     , (76, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (76,   1, False) /* Stuck */
@@ -51,7 +42,6 @@ VALUES (76,   1, False) /* Stuck */
      , (76,  14, True ) /* GravityStatus */
      , (76,  19, True ) /* Attackable */
      , (76,  22, True ) /* Inscribable */
-     , (76,  91, True ) /* Retained */
      , (76, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -70,7 +60,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (76,   1, 'Qafiya') /* Name */
      , (76,   7, ':)') /* Inscription */
      , (76,   8, 'Lonsgard') /* ScribeName */
-     , (76,  14, 'Use this item to drink it.') /* Use */
      , (76,  16, NULL) /* LongDesc */
      , (76,  39, 'Rydia') /* TinkerName */;
 
@@ -88,93 +77,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (76,   3, 1342476573) /* Wielder */
      , (76, 8000, 2526296781) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (76,   1, 115, 0, 0) /* Strength */
-     , (76,   2, 125, 0, 0) /* Endurance */
-     , (76,   3, 170, 0, 0) /* Quickness */
-     , (76,   4, 165, 0, 0) /* Coordination */
-     , (76,   5, 135, 0, 0) /* Focus */
-     , (76,   6, 145, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (76,   1,   325, 0, 0, 325) /* MaxHealth */
-     , (76,   3,   425, 0, 0, 425) /* MaxStamina */
-     , (76,   5,   195, 0, 0, 195) /* MaxMana */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (76,   214,      2) 
-     , (76,   216,      2) 
-     , (76,   217,      2) 
-     , (76,   248,      2) 
-     , (76,   249,      2) 
-     , (76,   261,      2) 
-     , (76,   279,      2) 
-     , (76,   731,      2) 
-     , (76,   802,      2) 
-     , (76,   950,      2) 
-     , (76,   951,      2) 
-     , (76,  1482,      2) 
-     , (76,  1483,      2) 
-     , (76,  1484,      2) 
-     , (76,  1485,      2) 
-     , (76,  1486,      2) 
-     , (76,  1496,      2) 
-     , (76,  1497,      2) 
-     , (76,  1516,      2) 
-     , (76,  1525,      2) 
-     , (76,  1526,      2) 
-     , (76,  1527,      2) 
-     , (76,  1528,      2) 
-     , (76,  1537,      2) 
-     , (76,  1539,      2) 
-     , (76,  1540,      2) 
-     , (76,  1552,      2) 
-     , (76,  1561,      2) 
-     , (76,  1562,      2) 
-     , (76,  1572,      2) 
-     , (76,  1573,      2) 
-     , (76,  1574,      2) 
-     , (76,  2094,      2) 
-     , (76,  2102,      2) 
-     , (76,  2108,      2) 
-     , (76,  2110,      2) 
-     , (76,  2243,      2) 
-     , (76,  2289,      2) 
-     , (76,  2501,      2) 
-     , (76,  2504,      2) 
-     , (76,  2525,      2) 
-     , (76,  2526,      2) 
-     , (76,  2548,      2) 
-     , (76,  2550,      2) 
-     , (76,  2551,      2) 
-     , (76,  2555,      2) 
-     , (76,  2556,      2) 
-     , (76,  2560,      2) 
-     , (76,  2572,      2) 
-     , (76,  2580,      2) 
-     , (76,  2581,      2) 
-     , (76,  2582,      2) 
-     , (76,  2583,      2) 
-     , (76,  2584,      2) 
-     , (76,  2594,      2) 
-     , (76,  2595,      2) 
-     , (76,  2597,      2) 
-     , (76,  2602,      2) 
-     , (76,  2604,      2) 
-     , (76,  2613,      2) 
-     , (76,  2617,      2) 
-     , (76,  2620,      2) 
-     , (76,  4226,      2) 
-     , (76,  4393,      2) 
-     , (76,  4407,      2) 
-     , (76,  4412,      2) 
-     , (76,  4496,      2) 
-     , (76,  4556,      2) 
-     , (76,  5428,      2) 
-     , (76,  5786,      2) 
-     , (76,  5810,      2) 
-     , (76,  5833,      2) 
-     , (76,  5883,      2) 
+VALUES (76,  4407,      2) 
      , (76,  6060,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

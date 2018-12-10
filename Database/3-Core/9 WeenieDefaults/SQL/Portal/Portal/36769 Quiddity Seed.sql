@@ -7,6 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36769,   1,      65536) /* ItemType - Portal */
      , (36769,  16,         32) /* ItemUseable - Remote */
      , (36769,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (36769, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (36769, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (36769, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -23,6 +24,7 @@ VALUES (36769,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36769,   1, 'Quiddity Seed') /* Name */
+     , (36769,  38, 'Quiddity Seed') /* AppraisalPortalDestination */
      , (36769, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

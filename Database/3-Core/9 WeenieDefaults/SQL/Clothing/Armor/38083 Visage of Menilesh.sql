@@ -5,14 +5,12 @@ VALUES (38083, 'ace38083-visageofmenilesh', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38083,   1,          2) /* ItemType - Armor */
-     , (38083,   2,         99) /* CreatureType - GearKnight */
      , (38083,   4,      16384) /* ClothingPriority - Head */
      , (38083,   5,        200) /* EncumbranceVal */
      , (38083,   9,          1) /* ValidLocations - HeadWear */
      , (38083,  16,          1) /* ItemUseable - No */
      , (38083,  18,          1) /* UiEffects - Magical */
      , (38083,  19,          0) /* Value */
-     , (38083,  25,         80) /* Level */
      , (38083,  28,        400) /* ArmorLevel */
      , (38083,  33,          1) /* Bonded - Bonded */
      , (38083,  65,        101) /* Placement - Resting */
@@ -60,9 +58,6 @@ VALUES (38083,   1,   33560635) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38083,   2, 2979050339) /* Container */
      , (38083, 8000, 2979050356) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38083,   1,   325, 0, 0, 325) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38083,  2052,      2) 

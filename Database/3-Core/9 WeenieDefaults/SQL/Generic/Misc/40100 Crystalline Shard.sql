@@ -5,13 +5,11 @@ VALUES (40100, 'ace40100-crystallineshard', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40100,   1,        128) /* ItemType - Misc */
-     , (40100,   2,         20) /* CreatureType - Wisp */
      , (40100,   5,          5) /* EncumbranceVal */
      , (40100,  11,        100) /* MaxStackSize */
      , (40100,  12,          1) /* StackSize */
      , (40100,  16,          1) /* ItemUseable - No */
      , (40100,  19,          0) /* Value */
-     , (40100,  25,        115) /* Level */
      , (40100,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,19 +43,6 @@ VALUES (40100, 8040, 23855554, 56.12926, -27.92147, 0.015, 0.7737151, 0, 0, -0.6
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40100, 8000, 3680481563) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (40100,   1, 150, 0, 0) /* Strength */
-     , (40100,   2, 200, 0, 0) /* Endurance */
-     , (40100,   3, 220, 0, 0) /* Quickness */
-     , (40100,   4, 150, 0, 0) /* Coordination */
-     , (40100,   5, 330, 0, 0) /* Focus */
-     , (40100,   6, 330, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40100,   1,   720, 0, 0, 720) /* MaxHealth */
-     , (40100,   3,   820, 0, 0, 820) /* MaxStamina */
-     , (40100,   5,   450, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40100, 67112807, 0, 0);

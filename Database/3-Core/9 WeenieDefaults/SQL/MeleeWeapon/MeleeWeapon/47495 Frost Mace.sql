@@ -14,7 +14,6 @@ VALUES (47495,   1,          1) /* ItemType - MeleeWeapon */
      , (47495,  51,          1) /* CombatUse - Melee */
      , (47495,  65,          1) /* Placement - RightHandCombat */
      , (47495,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47495, 107,          0) /* ItemCurMana */
      , (47495, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -25,13 +24,8 @@ VALUES (47495,   1, False) /* Stuck */
      , (47495,  19, True ) /* Attackable */
      , (47495,  22, True ) /* Inscribable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47495,  87,       3) /* ItemEfficiency */
-     , (47495, 137,    0.25) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47495,   1, 'Frost Mace') /* Name */
-     , (47495,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
+VALUES (47495,   1, 'Frost Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47495,   1,   33555741) /* Setup */

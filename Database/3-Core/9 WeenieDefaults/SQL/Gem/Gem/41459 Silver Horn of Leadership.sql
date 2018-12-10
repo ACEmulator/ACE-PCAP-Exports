@@ -40,7 +40,7 @@ VALUES (41459,   1,   33554809) /* Setup */
      , (41459,   3,  536870932) /* SoundTable */
      , (41459,   8,  100690573) /* Icon */
      , (41459,  22,  872415275) /* PhysicsEffectTable */
-     , (41459,  28,       5134) /* Spell */
+     , (41459,  28,       5134) /* Spell - CallOfLeadership2 */
      , (41459, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (41459, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (41459, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

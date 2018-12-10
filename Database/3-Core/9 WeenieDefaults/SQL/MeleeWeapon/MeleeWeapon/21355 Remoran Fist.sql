@@ -50,8 +50,6 @@ VALUES (21355,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21355,   1, 'Remoran Fist') /* Name */
-     , (21355,   7, 'mine') /* Inscription */
-     , (21355,   8, 'Minaris') /* ScribeName */
      , (21355,  16, NULL) /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

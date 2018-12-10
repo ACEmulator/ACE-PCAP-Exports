@@ -5,11 +5,9 @@ VALUES (29205, 'trophybrewmasterbiblepiece2', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29205,   1,        128) /* ItemType - Misc */
-     , (29205,   2,         13) /* CreatureType - Golem */
      , (29205,   5,         25) /* EncumbranceVal */
      , (29205,  16,          1) /* ItemUseable - No */
      , (29205,  19,          0) /* Value */
-     , (29205,  25,         60) /* Level */
      , (29205,  33,          1) /* Bonded - Bonded */
      , (29205,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29205, 114,          1) /* Attuned - Attuned */;
@@ -41,6 +39,3 @@ VALUES (29205,   1,   33559184) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29205,   2, 2166102659) /* Container */
      , (29205, 8000, 2166102628) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29205,   1,   190, 0, 0, 190) /* MaxHealth */;

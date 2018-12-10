@@ -22,9 +22,6 @@ VALUES (27439,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27439,   1, 'Coffin') /* Name */
-     , (27439,   7, 'Boo!
-') /* Inscription */
-     , (27439,   8, 'Xagyg') /* ScribeName */
      , (27439,  14, 'Use this item on floor and yard hooks.') /* Use */
      , (27439,  16, 'A coffin in very good condition. Whomever owned it before you took good care of it.') /* LongDesc */
      , (27439, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;

@@ -34,8 +34,6 @@ VALUES (21394,   5, -0.034000001847744) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21394,   1, 'Ring of Intellect') /* Name */
-     , (21394,   7, 'Mine') /* Inscription */
-     , (21394,   8, 'Karn Aje') /* ScribeName */
      , (21394,  15, 'An obsidian ring with a precious sapphire set within.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

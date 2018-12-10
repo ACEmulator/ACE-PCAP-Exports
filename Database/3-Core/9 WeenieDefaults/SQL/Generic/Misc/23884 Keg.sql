@@ -32,7 +32,7 @@ VALUES (23884,   1,   33556853) /* Setup */
      , (23884,   3,  536870932) /* SoundTable */
      , (23884,   8,  100667431) /* Icon */
      , (23884,  22,  872415275) /* PhysicsEffectTable */
-     , (23884,  28,       1162) /* Spell */
+     , (23884,  28,       1162) /* Spell - HealOther2 */
      , (23884, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
      , (23884, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23884, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;

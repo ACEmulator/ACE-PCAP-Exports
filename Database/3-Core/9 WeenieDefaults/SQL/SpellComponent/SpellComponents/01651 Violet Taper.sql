@@ -11,16 +11,7 @@ VALUES (1651,   1,       4096) /* ItemType - SpellComponents */
      , (1651,  16,          1) /* ItemUseable - No */
      , (1651,  19,         75) /* Value */
      , (1651,  65,        101) /* Placement - Resting */
-     , (1651,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1651, 105,          7) /* ItemWorkmanship */
-     , (1651, 106,        242) /* ItemSpellcraft */
-     , (1651, 107,       1867) /* ItemCurMana */
-     , (1651, 108,       1867) /* ItemMaxMana */
-     , (1651, 109,        258) /* ItemDifficulty */
-     , (1651, 110,          0) /* ItemAllegianceRankLimit */
-     , (1651, 115,          0) /* ItemSkillLevelLimit */
-     , (1651, 131,         38) /* MaterialType - Ruby */
-     , (1651, 172,          1) /* AppraisalLongDescDecoration */;
+     , (1651,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1651,   1, False) /* Stuck */
@@ -29,12 +20,8 @@ VALUES (1651,   1, False) /* Stuck */
      , (1651,  14, True ) /* GravityStatus */
      , (1651,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1651,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1651,   1, 'Violet Taper') /* Name */
-     , (1651,  16, 'Heavy Bracelet of Magic Resistance') /* LongDesc */;
+VALUES (1651,   1, 'Violet Taper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1651,   1,   33555445) /* Setup */
@@ -48,11 +35,6 @@ VALUES (1651,   1,   33555445) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1651,   2, 2856726432) /* Container */
      , (1651, 8000, 2856726440) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1651,   279,      2) 
-     , (1651,  2536,      2) 
-     , (1651,  2570,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (1651, 0, 83890928, 83890927);

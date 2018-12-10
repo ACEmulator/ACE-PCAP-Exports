@@ -36,8 +36,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9601,   5,  -0.025) /* ManaRate */
      , (9601,  29,       1) /* WeaponDefense */
      , (9601,  39, 0.800000011920929) /* DefaultScale */
-     , (9601, 144, 1.29230558764018E-314) /* ManaConversionMod */
-     , (9601, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (9601, 144, 1.29230558764018E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9601,   1, 'Eye of the Quiddity') /* Name */

@@ -49,8 +49,6 @@ VALUES (23029,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23029,   1, 'Silifi of Crimson Stars') /* Name */
-     , (23029,   7, 'BS/2: Silifi of Crimson Stars, 30-60 +15m/+15a, Axe 325+ to wield, Value 2,500, 950BU') /* Inscription */
-     , (23029,   8, 'The Scuba Squad') /* ScribeName */
      , (23029,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. There are three notches on the haft.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

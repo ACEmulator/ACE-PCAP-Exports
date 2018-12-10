@@ -41,7 +41,7 @@ VALUES (36708,   1,   33554809) /* Setup */
      , (36708,   3,  536870932) /* SoundTable */
      , (36708,   8,  100686697) /* Icon */
      , (36708,  22,  872415275) /* PhysicsEffectTable */
-     , (36708,  28,       4221) /* Spell */
+     , (36708,  28,       4221) /* Spell - LifeMagicMasterySpectral */
      , (36708,  50,  100686664) /* IconOverlay */
      , (36708,  52,  100686604) /* IconUnderlay */
      , (36708, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

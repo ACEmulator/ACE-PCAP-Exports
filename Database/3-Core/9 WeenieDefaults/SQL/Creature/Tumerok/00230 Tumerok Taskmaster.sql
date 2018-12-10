@@ -6,34 +6,14 @@ VALUES (230, 'tumerokoverlord', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (230,   1,         16) /* ItemType - Creature */
      , (230,   2,          6) /* CreatureType - Tumerok */
-     , (230,   5,       6468) /* EncumbranceVal */
      , (230,   6,        255) /* ItemsCapacity */
      , (230,   7,        255) /* ContainersCapacity */
      , (230,  16,          1) /* ItemUseable - No */
-     , (230,  19,          0) /* Value */
      , (230,  25,         80) /* Level */
-     , (230,  33,          1) /* Bonded - Bonded */
-     , (230,  44,         10) /* Damage */
-     , (230,  45,          4) /* DamageType - Bludgeon */
-     , (230,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (230,  49,         10) /* WeaponTime */
      , (230,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (230, 105,          7) /* ItemWorkmanship */
-     , (230, 106,        227) /* ItemSpellcraft */
-     , (230, 107,       1051) /* ItemCurMana */
-     , (230, 108,       1051) /* ItemMaxMana */
-     , (230, 109,        170) /* ItemDifficulty */
-     , (230, 110,          0) /* ItemAllegianceRankLimit */
-     , (230, 115,          0) /* ItemSkillLevelLimit */
-     , (230, 131,         22) /* MaterialType - FireOpal */
      , (230, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (230, 172,          5) /* AppraisalLongDescDecoration */
-     , (230, 177,          4) /* GemCount */
-     , (230, 178,         41) /* GemType */
      , (230, 307,          5) /* DamageRating */
-     , (230, 353,         10) /* WeaponType - Thrown */
-     , (230, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (230, 8030,          0);
+     , (230, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (230,   1, True ) /* Stuck */
@@ -43,18 +23,10 @@ VALUES (230,   1, True ) /* Stuck */
      , (230,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (230,   5, -0.0555555555555556) /* ManaRate */
-     , (230,  21,       0) /* WeaponLength */
-     , (230,  22,    0.25) /* DamageVariance */
-     , (230,  26,       0) /* MaximumVelocity */
-     , (230,  29,       1) /* WeaponDefense */
-     , (230,  39, 1.29999995231628) /* DefaultScale */
-     , (230,  62,       1) /* WeaponOffense */
-     , (230,  63,       1) /* DamageMod */;
+VALUES (230,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (230,   1, 'Tumerok Taskmaster') /* Name */
-     , (230,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (230, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,9 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (230,   1,   330, 0, 0, 330) /* MaxHealth */
      , (230,   3,   600, 0, 0, 600) /* MaxStamina */
      , (230,   5,   270, 0, 0, 270) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (230,  3504,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (230, 67116625, 57, 48)

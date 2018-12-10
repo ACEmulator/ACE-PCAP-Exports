@@ -6,11 +6,9 @@ VALUES (45859, 'ace45859-virindiguard', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45859,   1,         16) /* ItemType - Creature */
      , (45859,   2,         19) /* CreatureType - Virindi */
-     , (45859,   5,       8218) /* EncumbranceVal */
      , (45859,   6,        255) /* ItemsCapacity */
      , (45859,   7,        255) /* ContainersCapacity */
      , (45859,  16,          1) /* ItemUseable - No */
-     , (45859,  19,          0) /* Value */
      , (45859,  25,        200) /* Level */
      , (45859,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (45859, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (45859,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45859,   1, 'Virindi Guard') /* Name */
-     , (45859,  16, 'Killed by Jakka''s Wisp.') /* LongDesc */
      , (45859, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

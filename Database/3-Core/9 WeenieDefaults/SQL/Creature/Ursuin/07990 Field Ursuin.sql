@@ -6,11 +6,9 @@ VALUES (7990, 'ursuinfield', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7990,   1,         16) /* ItemType - Creature */
      , (7990,   2,         46) /* CreatureType - Ursuin */
-     , (7990,   5,       6165) /* EncumbranceVal */
      , (7990,   6,        255) /* ItemsCapacity */
      , (7990,   7,        255) /* ContainersCapacity */
      , (7990,  16,          1) /* ItemUseable - No */
-     , (7990,  19,          0) /* Value */
      , (7990,  25,          8) /* Level */
      , (7990,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7990, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -25,7 +23,6 @@ VALUES (7990,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7990,   1, 'Field Ursuin') /* Name */
-     , (7990,  16, 'Killed by Mag-one.') /* LongDesc */
      , (7990, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -26,8 +26,6 @@ VALUES (24143,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24143,   1, 'Empty Mug') /* Name */
-     , (24143,   7, ',hkjhhj') /* Inscription */
-     , (24143,   8, 'The Unknown''') /* ScribeName */
      , (24143,  15, 'An empty mug with the words, "Property of Celcynd" etched into the bottom.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

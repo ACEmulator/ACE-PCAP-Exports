@@ -33,7 +33,7 @@ VALUES (14919,   1,   33554809) /* Setup */
      , (14919,   6,   67111919) /* PaletteBase */
      , (14919,   8,  100672698) /* Icon */
      , (14919,  22,  872415275) /* PhysicsEffectTable */
-     , (14919,  28,       1708) /* Spell */
+     , (14919,  28,       1708) /* Spell - WeddingBliss */
      , (14919, 8001,    6844432) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (14919, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14919, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

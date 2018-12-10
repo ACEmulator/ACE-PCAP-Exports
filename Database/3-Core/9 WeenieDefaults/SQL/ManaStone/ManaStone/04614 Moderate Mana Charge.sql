@@ -29,8 +29,6 @@ VALUES (4614,  87,       1) /* ItemEfficiency */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4614,   1, 'Moderate Mana Charge') /* Name */
-     , (4614,   7, '0wnD?') /* Inscription */
-     , (4614,   8, 'Arkai') /* ScribeName */
      , (4614,  14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

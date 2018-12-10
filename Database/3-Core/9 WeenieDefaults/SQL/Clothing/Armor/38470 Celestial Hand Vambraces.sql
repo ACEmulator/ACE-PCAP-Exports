@@ -39,7 +39,6 @@ VALUES (38470,   1, False) /* Stuck */
      , (38470,  14, True ) /* GravityStatus */
      , (38470,  19, True ) /* Attackable */
      , (38470,  22, True ) /* Inscribable */
-     , (38470,  91, True ) /* Retained */
      , (38470, 100, False) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -56,8 +55,6 @@ VALUES (38470,   5, -0.0666666701436043) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38470,   1, 'Celestial Hand Vambraces') /* Name */
-     , (38470,   7, 'Major Coordination') /* Inscription */
-     , (38470,   8, 'Nardwuar') /* ScribeName */
      , (38470,  16, 'Celestial Hand Vambraces of Strength') /* LongDesc */
      , (38470,  39, 'Tiesto') /* TinkerName */;
 
@@ -76,11 +73,8 @@ VALUES (38470,   2, 2165177832) /* Container */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38470,  1486,      2) 
-     , (38470,  2092,      2) 
      , (38470,  2102,      2) 
      , (38470,  2530,      2) 
-     , (38470,  2532,      2) 
-     , (38470,  2572,      2) 
      , (38470,  4325,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)

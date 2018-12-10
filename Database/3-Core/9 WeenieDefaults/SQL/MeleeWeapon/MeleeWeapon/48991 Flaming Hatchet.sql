@@ -5,49 +5,22 @@ VALUES (48991, 'ace48991-flaminghatchet', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48991,   1,          1) /* ItemType - MeleeWeapon */
-     , (48991,   2,          9) /* CreatureType - PhyntosWasp */
      , (48991,   5,        450) /* EncumbranceVal */
      , (48991,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (48991,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48991,  16,          1) /* ItemUseable - No */
      , (48991,  18,         32) /* UiEffects - Fire */
      , (48991,  19,        130) /* Value */
-     , (48991,  25,        100) /* Level */
-     , (48991,  28,        246) /* ArmorLevel */
-     , (48991,  33,          0) /* Bonded - Normal */
-     , (48991,  44,          0) /* Damage */
+     , (48991,  33,         -2) /* Bonded - Destroy */
+     , (48991,  44,         -1) /* Damage */
      , (48991,  45,          0) /* DamageType - Undef */
      , (48991,  47,          4) /* AttackType - Slash */
-     , (48991,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (48991,  49,        120) /* WeaponTime */
+     , (48991,  48,         45) /* WeaponSkill - LightWeapons */
+     , (48991,  49,         -1) /* WeaponTime */
      , (48991,  51,          1) /* CombatUse - Melee */
-     , (48991,  91,         50) /* MaxStructure */
-     , (48991,  92,         50) /* Structure */
      , (48991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48991, 105,          7) /* ItemWorkmanship */
-     , (48991, 106,        195) /* ItemSpellcraft */
-     , (48991, 107,       1901) /* ItemCurMana */
-     , (48991, 108,       1901) /* ItemMaxMana */
-     , (48991, 109,        195) /* ItemDifficulty */
-     , (48991, 110,          0) /* ItemAllegianceRankLimit */
-     , (48991, 114,          0) /* Attuned - Normal */
-     , (48991, 115,          0) /* ItemSkillLevelLimit */
-     , (48991, 131,         60) /* MaterialType - Gold */
-     , (48991, 158,          2) /* WieldRequirements - RawSkill */
-     , (48991, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (48991, 160,        250) /* WieldDifficulty */
-     , (48991, 172,          1) /* AppraisalLongDescDecoration */
-     , (48991, 176,          6) /* AppraisalItemSkill */
-     , (48991, 177,          2) /* GemCount */
-     , (48991, 178,         34) /* GemType */
      , (48991, 263,         16) /* ResistanceModifierType */
-     , (48991, 280,        213) /* SharedCooldown */
-     , (48991, 353,          9) /* WeaponType - Crossbow */
-     , (48991, 366,         54) /* UseRequiresSkill */
-     , (48991, 367,        400) /* UseRequiresSkillLevel */
-     , (48991, 369,         90) /* UseRequiresLevel */
-     , (48991, 371,         10) /* GearDamageResist */
-     , (48991, 373,          8) /* GearCritResist */
+     , (48991, 353,          3) /* WeaponType - Axe */
      , (48991, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,34 +29,19 @@ VALUES (48991,   1, False) /* Stuck */
      , (48991,  13, True ) /* Ethereal */
      , (48991,  14, True ) /* GravityStatus */
      , (48991,  19, True ) /* Attackable */
-     , (48991,  22, True ) /* Inscribable */
-     , (48991,  69, True ) /* IsSellable */
-     , (48991, 100, True ) /* Dyable */;
+     , (48991,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48991,   5,   -0.05) /* ManaRate */
-     , (48991,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (48991,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (48991,  15,       1) /* ArmorModVsBludgeon */
-     , (48991,  16,     0.5) /* ArmorModVsCold */
-     , (48991,  17,     0.5) /* ArmorModVsFire */
-     , (48991,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (48991,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (48991,  21,       0) /* WeaponLength */
-     , (48991,  22,       0) /* DamageVariance */
-     , (48991,  26,    27.3) /* MaximumVelocity */
-     , (48991,  29,    1.08) /* WeaponDefense */
+VALUES (48991,  21,       0) /* WeaponLength */
+     , (48991,  22,    0.25) /* DamageVariance */
+     , (48991,  26,       0) /* MaximumVelocity */
+     , (48991,  29,       1) /* WeaponDefense */
      , (48991,  62,       1) /* WeaponOffense */
-     , (48991,  63,    2.45) /* DamageMod */
-     , (48991, 149,   1.015) /* WeaponMissileDefense */
-     , (48991, 157,       1) /* ResistanceModifier */
-     , (48991, 165,       1) /* ArmorModVsNether */
-     , (48991, 167,      45) /* CooldownDuration */;
+     , (48991,  63,       1) /* DamageMod */
+     , (48991, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48991,   1, 'Flaming Hatchet') /* Name */
-     , (48991,  14, 'Use this essence to summon or dismiss your Fire Zombie.') /* Use */
-     , (48991,  16, 'Gorget of Armor Expertise') /* LongDesc */;
+VALUES (48991,   1, 'Flaming Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48991,   1,   33559449) /* Setup */
@@ -104,27 +62,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48991,   3, 3684900299) /* Wielder */
      , (48991, 8000, 3684900309) /* PCAPRecordedObjectIID */
      , (48991, 8008, 3684900299) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (48991,   1, 130, 0, 0) /* Strength */
-     , (48991,   2, 155, 0, 0) /* Endurance */
-     , (48991,   3, 190, 0, 0) /* Quickness */
-     , (48991,   4, 190, 0, 0) /* Coordination */
-     , (48991,   5, 140, 0, 0) /* Focus */
-     , (48991,   6, 110, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48991,   1,   378, 0, 0, 378) /* MaxHealth */
-     , (48991,   3,   505, 0, 0, 505) /* MaxStamina */
-     , (48991,   5,   360, 0, 0, 311) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48991,   706,      2) 
-     , (48991,  1377,      2) 
-     , (48991,  1486,      2) 
-     , (48991,  1616,      2) 
-     , (48991,  1626,      2) 
-     , (48991,  2509,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48991, 67116377, 0, 0);

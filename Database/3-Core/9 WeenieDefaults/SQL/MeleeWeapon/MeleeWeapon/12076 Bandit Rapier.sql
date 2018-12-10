@@ -10,11 +10,9 @@ VALUES (12076,   1,          1) /* ItemType - MeleeWeapon */
      , (12076,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12076,  16,          1) /* ItemUseable - No */
      , (12076,  19,        240) /* Value */
-     , (12076,  33,          1) /* Bonded - Bonded */
      , (12076,  51,          1) /* CombatUse - Melee */
      , (12076,  65,          1) /* Placement - RightHandCombat */
-     , (12076,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12076, 114,          1) /* Attuned - Attuned */;
+     , (12076,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12076,   1, False) /* Stuck */
@@ -28,8 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12076,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12076,   1, 'Bandit Rapier') /* Name */
-     , (12076,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */;
+VALUES (12076,   1, 'Bandit Rapier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12076,   1,   33556588) /* Setup */

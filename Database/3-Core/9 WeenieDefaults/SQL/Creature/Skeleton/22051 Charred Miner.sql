@@ -6,33 +6,12 @@ VALUES (22051, 'skeletoncharrednew', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22051,   1,         16) /* ItemType - Creature */
      , (22051,   2,         30) /* CreatureType - Skeleton */
-     , (22051,   5,         10) /* EncumbranceVal */
      , (22051,   6,        255) /* ItemsCapacity */
      , (22051,   7,        255) /* ContainersCapacity */
      , (22051,  16,          1) /* ItemUseable - No */
-     , (22051,  19,          0) /* Value */
      , (22051,  25,        135) /* Level */
-     , (22051,  28,        373) /* ArmorLevel */
-     , (22051,  33,          1) /* Bonded - Bonded */
-     , (22051,  36,       9999) /* ResistMagic */
      , (22051,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22051, 105,          6) /* ItemWorkmanship */
-     , (22051, 106,        250) /* ItemSpellcraft */
-     , (22051, 107,        545) /* ItemCurMana */
-     , (22051, 108,        545) /* ItemMaxMana */
-     , (22051, 109,          0) /* ItemDifficulty */
-     , (22051, 110,          0) /* ItemAllegianceRankLimit */
-     , (22051, 114,          1) /* Attuned - Attuned */
-     , (22051, 115,          0) /* ItemSkillLevelLimit */
-     , (22051, 117,        350) /* ItemManaCost */
-     , (22051, 131,         43) /* MaterialType - Tourmaline */
      , (22051, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22051, 158,          2) /* WieldRequirements - RawSkill */
-     , (22051, 159,          7) /* WieldSkilltype - MissileDefense */
-     , (22051, 160,        270) /* WieldDifficulty */
-     , (22051, 172,          1) /* AppraisalLongDescDecoration */
-     , (22051, 177,          4) /* GemCount */
-     , (22051, 178,         47) /* GemType */
      , (22051, 307,          5) /* DamageRating */
      , (22051, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -43,23 +22,8 @@ VALUES (22051,   1, True ) /* Stuck */
      , (22051,  14, True ) /* GravityStatus */
      , (22051,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22051,   5, -0.0555555555555556) /* ManaRate */
-     , (22051,  13, 1.39999997615814) /* ArmorModVsSlash */
-     , (22051,  14, 1.60000002384186) /* ArmorModVsPierce */
-     , (22051,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (22051,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (22051,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (22051,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (22051,  19,       1) /* ArmorModVsElectric */
-     , (22051,  87,       2) /* ItemEfficiency */
-     , (22051, 137,     0.2) /* ManaStoneDestroyChance */
-     , (22051, 165,       1) /* ArmorModVsNether */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22051,   1, 'Charred Miner') /* Name */
-     , (22051,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (22051,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */
      , (22051, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -92,14 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22051,   1,   753, 0, 0, 753) /* MaxHealth */
      , (22051,   3,   865, 0, 0, 865) /* MaxStamina */
      , (22051,   5,   275, 0, 0, 275) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22051,  1332,      2) 
-     , (22051,  1486,      2) 
-     , (22051,  1562,      2) 
-     , (22051,  2064,      2) 
-     , (22051,  2113,      2) 
-     , (22051,  2504,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22051, 67116526, 0, 0);

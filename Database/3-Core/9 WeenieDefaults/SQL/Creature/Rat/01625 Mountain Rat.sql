@@ -6,38 +6,13 @@ VALUES (1625, 'ratmountain', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1625,   1,         16) /* ItemType - Creature */
      , (1625,   2,         10) /* CreatureType - Rat */
-     , (1625,   5,        711) /* EncumbranceVal */
      , (1625,   6,        255) /* ItemsCapacity */
      , (1625,   7,        255) /* ContainersCapacity */
      , (1625,  16,          1) /* ItemUseable - No */
-     , (1625,  19,       2825) /* Value */
      , (1625,  25,         20) /* Level */
-     , (1625,  44,         23) /* Damage */
-     , (1625,  45,         32) /* DamageType - Acid */
-     , (1625,  47,          4) /* AttackType - Slash */
-     , (1625,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (1625,  49,         37) /* WeaponTime */
      , (1625,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1625, 105,          5) /* ItemWorkmanship */
-     , (1625, 106,        202) /* ItemSpellcraft */
-     , (1625, 107,       1041) /* ItemCurMana */
-     , (1625, 108,       1041) /* ItemMaxMana */
-     , (1625, 109,         40) /* ItemDifficulty */
-     , (1625, 110,          0) /* ItemAllegianceRankLimit */
-     , (1625, 113,          1) /* Gender - Male */
-     , (1625, 115,        222) /* ItemSkillLevelLimit */
-     , (1625, 131,         75) /* MaterialType - Oak */
      , (1625, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1625, 158,          2) /* WieldRequirements - RawSkill */
-     , (1625, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (1625, 160,        250) /* WieldDifficulty */
-     , (1625, 172,          1) /* AppraisalLongDescDecoration */
-     , (1625, 176,         46) /* AppraisalItemSkill */
-     , (1625, 177,          4) /* GemCount */
-     , (1625, 178,         49) /* GemType */
-     , (1625, 353,          4) /* WeaponType - Mace */
-     , (1625, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (1625, 8030,          0);
+     , (1625, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1625,   1, True ) /* Stuck */
@@ -47,19 +22,11 @@ VALUES (1625,   1, True ) /* Stuck */
      , (1625,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1625,   5,   -0.05) /* ManaRate */
-     , (1625,  21,       0) /* WeaponLength */
-     , (1625,  22,    0.28) /* DamageVariance */
-     , (1625,  26,       0) /* MaximumVelocity */
-     , (1625,  29,    1.06) /* WeaponDefense */
-     , (1625,  39,       3) /* DefaultScale */
-     , (1625,  62,    1.03) /* WeaponOffense */
-     , (1625,  63,       1) /* DamageMod */
+VALUES (1625,  39,       3) /* DefaultScale */
      , (1625,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1625,   1, 'Mountain Rat') /* Name */
-     , (1625,  16, 'Acid Board with Nail of Blood Drinker') /* LongDesc */
      , (1625, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -93,13 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1625,   1,    80, 0, 0, 80) /* MaxHealth */
      , (1625,   3,   200, 0, 0, 200) /* MaxStamina */
      , (1625,   5,    50, 0, 0, 50) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1625,   707,      2) 
-     , (1625,  1401,      2) 
-     , (1625,  1614,      2) 
-     , (1625,  1616,      2) 
-     , (1625,  5883,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1625, 67111795, 0, 0);

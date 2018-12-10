@@ -5,13 +5,11 @@ VALUES (6123, 'stoneshiveringmajor', 38) /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6123,   1,       2048) /* ItemType - Gem */
-     , (6123,   2,         35) /* CreatureType - OlthoiLarvae */
      , (6123,   5,          5) /* EncumbranceVal */
      , (6123,  11,          1) /* MaxStackSize */
      , (6123,  12,          1) /* StackSize */
      , (6123,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6123,  19,       5000) /* Value */
-     , (6123,  25,         20) /* Level */
      , (6123,  33,          1) /* Bonded - Bonded */
      , (6123,  65,        101) /* Placement - Resting */
      , (6123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -28,8 +26,6 @@ VALUES (6123,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6123,   1, 'Major Shivering Stone') /* Name */
-     , (6123,   7, 'crude09@hotmail.com') /* Inscription */
-     , (6123,   8, 'Killarwolf') /* ScribeName */
      , (6123,  14, 'Use this stone on an Empyrean or Isparian weapon or on a piece of Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -45,9 +41,6 @@ VALUES (6123,   1,   33556407) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6123,   2, 1343032295) /* Container */
      , (6123, 8000, 2280399215) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6123,   1,    90, 0, 0, 90) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6123, 67111919, 0, 0);

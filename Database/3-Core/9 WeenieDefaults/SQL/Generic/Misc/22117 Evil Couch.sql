@@ -25,9 +25,6 @@ VALUES (22117,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22117,   1, 'Evil Couch') /* Name */
-     , (22117,   7, '42.3 47.2
-') /* Inscription */
-     , (22117,   8, 'Kodokan') /* ScribeName */
      , (22117,  14, 'This item can be used on a floor hook.') /* Use */
      , (22117,  15, 'A comfortable couch that makes you uncomfortable.') /* ShortDesc */;
 

@@ -6,16 +6,12 @@ VALUES (1612, 'gromnieazure', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1612,   1,         16) /* ItemType - Creature */
      , (1612,   2,         15) /* CreatureType - Gromnie */
-     , (1612,   5,       6479) /* EncumbranceVal */
      , (1612,   6,        255) /* ItemsCapacity */
      , (1612,   7,        255) /* ContainersCapacity */
      , (1612,  16,          1) /* ItemUseable - No */
-     , (1612,  19,          0) /* Value */
      , (1612,  25,         15) /* Level */
      , (1612,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1612, 113,          2) /* Gender - Female */
      , (1612, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1612, 188,          1) /* HeritageGroup - Aluvian */
      , (1612, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,7 +27,6 @@ VALUES (1612,  39, 0.899999976158142) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1612,   1, 'Azure Gromnie') /* Name */
-     , (1612,  16, 'Killed by Lightfighter.') /* LongDesc */
      , (1612, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -40,12 +35,6 @@ VALUES (1612,   1,   33554487) /* Setup */
      , (1612,   3,  536870921) /* SoundTable */
      , (1612,   6,   67109307) /* PaletteBase */
      , (1612,   8,  100667938) /* Icon */
-     , (1612,   9,   83890258) /* EyesTexture */
-     , (1612,  10,   83890300) /* NoseTexture */
-     , (1612,  11,   83890347) /* MouthTexture */
-     , (1612,  15,   67116977) /* HairPalette */
-     , (1612,  16,   67109567) /* EyesPalette */
-     , (1612,  17,   67109561) /* SkinPalette */
      , (1612,  22,  872415260) /* PhysicsEffectTable */
      , (1612, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1612, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

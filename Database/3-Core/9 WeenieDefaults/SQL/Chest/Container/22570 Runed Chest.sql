@@ -10,21 +10,9 @@ VALUES (22570,   1,        512) /* ItemType - Container */
      , (22570,   7,         10) /* ContainersCapacity */
      , (22570,  16,         48) /* ItemUseable - ViewedRemote */
      , (22570,  19,       2500) /* Value */
-     , (22570,  28,          0) /* ArmorLevel */
      , (22570,  38,        200) /* ResistLockpick */
      , (22570,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (22570, 105,          7) /* ItemWorkmanship */
-     , (22570, 106,        317) /* ItemSpellcraft */
-     , (22570, 107,       1401) /* ItemCurMana */
-     , (22570, 108,       1401) /* ItemMaxMana */
-     , (22570, 109,        335) /* ItemDifficulty */
-     , (22570, 110,          0) /* ItemAllegianceRankLimit */
-     , (22570, 115,          0) /* ItemSkillLevelLimit */
-     , (22570, 131,          6) /* MaterialType - Silk */
-     , (22570, 172,          5) /* AppraisalLongDescDecoration */
      , (22570, 173,        100) /* AppraisalLockpickSuccessPercent */
-     , (22570, 177,          2) /* GemCount */
-     , (22570, 178,         21) /* GemType */
      , (22570, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -35,20 +23,10 @@ VALUES (22570,   1, True ) /* Stuck */
      , (22570,  12, True ) /* ReportCollisions */
      , (22570,  13, False) /* Ethereal */
      , (22570,  14, True ) /* GravityStatus */
-     , (22570,  19, True ) /* Attackable */
-     , (22570, 100, True ) /* Dyable */;
+     , (22570,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22570,   5, -0.0555555555555556) /* ManaRate */
-     , (22570,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (22570,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (22570,  15,       1) /* ArmorModVsBludgeon */
-     , (22570,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (22570,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (22570,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (22570,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (22570,  54,       1) /* UseRadius */
-     , (22570, 165,       1) /* ArmorModVsNether */;
+VALUES (22570,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22570,   1, 'Runed Chest') /* Name */
@@ -72,8 +50,3 @@ VALUES (22570, 8040, 2536505345, 16.99635, 12.78855, 123.5179, 1, 0, 0, 0) /* PC
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22570, 8000, 3685828078) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22570,  2161,      2) 
-     , (22570,  2578,      2) 
-     , (22570,  2614,      2) ;

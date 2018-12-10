@@ -35,8 +35,6 @@ VALUES (9247,  13, 1.39999997615814) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9247,   1, 'Sclavus Skin Helmet') /* Name */
-     , (9247,   7, NULL) /* Inscription */
-     , (9247,   8, NULL) /* ScribeName */
      , (9247,  16, 'A helmet reinforced by the skin shed from a potent Sclavus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

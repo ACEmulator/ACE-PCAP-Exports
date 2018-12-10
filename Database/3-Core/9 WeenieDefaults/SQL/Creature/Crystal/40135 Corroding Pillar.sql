@@ -6,39 +6,13 @@ VALUES (40135, 'ace40135-corrodingpillar', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40135,   1,         16) /* ItemType - Creature */
      , (40135,   2,         47) /* CreatureType - Crystal */
-     , (40135,   5,        106) /* EncumbranceVal */
      , (40135,   6,        255) /* ItemsCapacity */
      , (40135,   7,        255) /* ContainersCapacity */
      , (40135,  16,          1) /* ItemUseable - No */
-     , (40135,  19,       8264) /* Value */
      , (40135,  25,        100) /* Level */
-     , (40135,  28,        245) /* ArmorLevel */
-     , (40135,  44,         33) /* Damage */
-     , (40135,  45,         64) /* DamageType - Electric */
-     , (40135,  47,          1) /* AttackType - Punch */
-     , (40135,  48,         45) /* WeaponSkill - LightWeapons */
-     , (40135,  49,         16) /* WeaponTime */
      , (40135,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (40135, 105,          7) /* ItemWorkmanship */
-     , (40135, 106,        321) /* ItemSpellcraft */
-     , (40135, 107,       1284) /* ItemCurMana */
-     , (40135, 108,       1284) /* ItemMaxMana */
-     , (40135, 109,        158) /* ItemDifficulty */
-     , (40135, 110,          0) /* ItemAllegianceRankLimit */
-     , (40135, 115,        341) /* ItemSkillLevelLimit */
-     , (40135, 131,         63) /* MaterialType - Silver */
      , (40135, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (40135, 158,          2) /* WieldRequirements - RawSkill */
-     , (40135, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (40135, 160,        350) /* WieldDifficulty */
-     , (40135, 172,          5) /* AppraisalLongDescDecoration */
-     , (40135, 176,         45) /* AppraisalItemSkill */
-     , (40135, 177,          2) /* GemCount */
-     , (40135, 178,         13) /* GemType */
-     , (40135, 265,         25) /* EquipmentSetId - Interlocking */
-     , (40135, 353,          1) /* WeaponType - Unarmed */
-     , (40135, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (40135, 8030,          0);
+     , (40135, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40135,   1, True ) /* Stuck */
@@ -46,30 +20,13 @@ VALUES (40135,   1, True ) /* Stuck */
      , (40135,  13, True ) /* Ethereal */
      , (40135,  14, True ) /* GravityStatus */
      , (40135,  15, True ) /* LightsStatus */
-     , (40135,  19, True ) /* Attackable */
-     , (40135, 100, True ) /* Dyable */;
+     , (40135,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40135,   5, -0.0555555555555556) /* ManaRate */
-     , (40135,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (40135,  14,       1) /* ArmorModVsPierce */
-     , (40135,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (40135,  16, 1.16398978233337) /* ArmorModVsCold */
-     , (40135,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (40135,  18,     0.5) /* ArmorModVsAcid */
-     , (40135,  19, 0.782500863075256) /* ArmorModVsElectric */
-     , (40135,  21,       0) /* WeaponLength */
-     , (40135,  22,    0.53) /* DamageVariance */
-     , (40135,  26,       0) /* MaximumVelocity */
-     , (40135,  29,     1.1) /* WeaponDefense */
-     , (40135,  39, 0.400000005960464) /* DefaultScale */
-     , (40135,  62,     1.1) /* WeaponOffense */
-     , (40135,  63,       1) /* DamageMod */
-     , (40135, 165,       1) /* ArmorModVsNether */;
+VALUES (40135,  39, 0.400000005960464) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40135,   1, 'Corroding Pillar') /* Name */
-     , (40135,  16, 'Lightning Katar of Blood Drinker') /* LongDesc */
      , (40135, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -102,15 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40135,   1,   445, 0, 0, 445) /* MaxHealth */
      , (40135,   3,   190, 0, 0, 190) /* MaxStamina */
      , (40135,   5,   450, 0, 0, 450) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40135,  1332,      2) 
-     , (40135,  1486,      2) 
-     , (40135,  1616,      2) 
-     , (40135,  1627,      2) 
-     , (40135,  2106,      2) 
-     , (40135,  2520,      2) 
-     , (40135,  2603,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40135, 67113879, 0, 0);

@@ -11,7 +11,6 @@ VALUES (9314,   1,        128) /* ItemType - Misc */
      , (9314,  33,          1) /* Bonded - Bonded */
      , (9314,  65,        101) /* Placement - Resting */
      , (9314,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9314, 107,          0) /* ItemCurMana */
      , (9314, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -23,13 +22,10 @@ VALUES (9314,   1, False) /* Stuck */
      , (9314,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9314,  39,    0.75) /* DefaultScale */
-     , (9314,  87,       2) /* ItemEfficiency */
-     , (9314, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (9314,  39,    0.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9314,   1, 'A Tiny Mnemosyne') /* Name */
-     , (9314,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (9314,  16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

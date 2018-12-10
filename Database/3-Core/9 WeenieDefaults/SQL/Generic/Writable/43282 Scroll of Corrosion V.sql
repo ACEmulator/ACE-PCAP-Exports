@@ -9,8 +9,7 @@ VALUES (43282,   1,       8192) /* ItemType - Writable */
      , (43282,  16,          8) /* ItemUseable - Contained */
      , (43282,  19,        200) /* Value */
      , (43282,  65,        101) /* Placement - Resting */
-     , (43282,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43282, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
+     , (43282,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43282,   1, False) /* Stuck */
@@ -27,14 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43282,   1, 'Scroll of Corrosion V') /* Name */
      , (43282,  14, 'Use this item to attempt to learn its spell.') /* Use */
      , (43282,  16, 'Inscribed spell: Corrosion V
-Sends a bolt of corrosion towards the target. The bolt does 204 points of damage over 15 seconds.') /* LongDesc */
-     , (43282,  38, 'Arena 6') /* AppraisalPortalDestination */;
+Sends a bolt of corrosion towards the target. The bolt does 204 points of damage over 15 seconds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43282,   1,   33554826) /* Setup */
      , (43282,   8,  100691573) /* Icon */
      , (43282,  22,  872415275) /* PhysicsEffectTable */
-     , (43282,  28,       5391) /* Spell */
+     , (43282,  28,       5391) /* Spell - Corrosion5 */
      , (43282, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43282, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43282, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

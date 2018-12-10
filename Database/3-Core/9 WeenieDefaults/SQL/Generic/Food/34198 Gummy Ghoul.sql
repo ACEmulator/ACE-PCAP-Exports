@@ -41,7 +41,7 @@ VALUES (34198,   1,   33554817) /* Setup */
      , (34198,   3,  536870932) /* SoundTable */
      , (34198,   8,  100667942) /* Icon */
      , (34198,  22,  872415275) /* PhysicsEffectTable */
-     , (34198,  28,       4022) /* Spell */
+     , (34198,  28,       4022) /* Spell - ZombiesPersistence */
      , (34198, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (34198, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34198, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;

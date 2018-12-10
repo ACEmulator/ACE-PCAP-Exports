@@ -6,29 +6,15 @@ VALUES (38569, 'ace38569-societyhelmarmorsmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38569,   1,         16) /* ItemType - Creature */
      , (38569,   2,         31) /* CreatureType - Human */
-     , (38569,   5,         30) /* EncumbranceVal */
      , (38569,   6,        255) /* ItemsCapacity */
      , (38569,   7,        255) /* ContainersCapacity */
      , (38569,  16,         32) /* ItemUseable - Remote */
-     , (38569,  19,       2000) /* Value */
      , (38569,  25,        185) /* Level */
-     , (38569,  28,        251) /* ArmorLevel */
-     , (38569,  33,          1) /* Bonded - Bonded */
      , (38569,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38569,  95,          8) /* RadarBlipColor - Yellow */
-     , (38569, 105,          6) /* ItemWorkmanship */
-     , (38569, 106,        245) /* ItemSpellcraft */
-     , (38569, 107,       1121) /* ItemCurMana */
-     , (38569, 108,       1121) /* ItemMaxMana */
-     , (38569, 109,        183) /* ItemDifficulty */
-     , (38569, 110,          0) /* ItemAllegianceRankLimit */
      , (38569, 113,          1) /* Gender - Male */
-     , (38569, 114,          1) /* Attuned - Attuned */
-     , (38569, 115,          0) /* ItemSkillLevelLimit */
-     , (38569, 131,         58) /* MaterialType - Bronze */
      , (38569, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38569, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38569, 172,          1) /* AppraisalLongDescDecoration */
      , (38569, 188,          4) /* HeritageGroup - Viamontian */
      , (38569, 281,          4) /* Faction1Bits */
      , (38569, 289,       1001) /* SocietyRankRadblo */
@@ -42,27 +28,14 @@ VALUES (38569,   1, True ) /* Stuck */
      , (38569,  14, True ) /* GravityStatus */
      , (38569,  19, False) /* Attackable */
      , (38569,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38569,  42, True ) /* AllowEdgeSlide */
-     , (38569, 100, True ) /* Dyable */;
+     , (38569,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38569,   5,   -0.05) /* ManaRate */
-     , (38569,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (38569,  14,       1) /* ArmorModVsPierce */
-     , (38569,  15,       1) /* ArmorModVsBludgeon */
-     , (38569,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (38569,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (38569,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (38569,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (38569,  54,       3) /* UseRadius */
-     , (38569, 165,       1) /* ArmorModVsNether */;
+VALUES (38569,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38569,   1, 'Society Helm Armorsmith') /* Name */
      , (38569,   5, 'Society Armorsmith') /* Template */
-     , (38569,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38569,  16, 'Inscribed spell: Might of the 5 Mules
-Increases the target''s Strength by 40 points.') /* LongDesc */
      , (38569, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -100,11 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38569,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38569,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38569,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38569,  1486,      2) 
-     , (38569,  1539,      2) 
-     , (38569,  2086,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38569, 67109564, 32, 8)

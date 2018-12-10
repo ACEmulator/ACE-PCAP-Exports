@@ -44,8 +44,6 @@ VALUES (12029,   5,  -0.017) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12029,   1, 'Soul Staff') /* Name */
-     , (12029,   7, '60.1n/15.4e') /* Inscription */
-     , (12029,   8, 'Jet Fang') /* ScribeName */
      , (12029,  16, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

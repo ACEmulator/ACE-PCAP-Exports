@@ -6,13 +6,10 @@ VALUES (10814, 'virindibossmonster', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10814,   1,         16) /* ItemType - Creature */
      , (10814,   2,         19) /* CreatureType - Virindi */
-     , (10814,   5,       6104) /* EncumbranceVal */
      , (10814,   6,        255) /* ItemsCapacity */
      , (10814,   7,        255) /* ContainersCapacity */
      , (10814,  16,          1) /* ItemUseable - No */
-     , (10814,  19,          0) /* Value */
      , (10814,  25,        100) /* Level */
-     , (10814,  33,          1) /* Bonded - Bonded */
      , (10814,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10814, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (10814, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -26,7 +23,6 @@ VALUES (10814,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10814,   1, 'Virindi Inquisitor') /* Name */
-     , (10814,  16, 'Killed by Fquicker.') /* LongDesc */
      , (10814, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

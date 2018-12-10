@@ -37,8 +37,6 @@ VALUES (10969,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10969,   1, 'Awakener') /* Name */
-     , (10969,   7, '01/27/02') /* Inscription */
-     , (10969,   8, 'Xerxez') /* ScribeName */
      , (10969,  16, 'Hea Karenua''s casting buadren. This is a fine old drum from the Tumerok world, rich with fetishes and power. The bones of centuries-dead drudges, mosswarts, and banderlings, rattle against one another in the wind. The skin stretched across it, legend tells, is made from flesh of Zhuaruf, a Tumerok birthed from the union of the Hea shaman Niheaua and his own dream-spun daughter. There is an inscription around the rim which reads, "To release one''s brother from the clinging threads of a hateful dream."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -47,7 +45,7 @@ VALUES (10969,   1,   33557297) /* Setup */
      , (10969,   6,   67113344) /* PaletteBase */
      , (10969,   8,  100672059) /* Icon */
      , (10969,  22,  872415275) /* PhysicsEffectTable */
-     , (10969,  28,       3179) /* Spell */
+     , (10969,  28,       3179) /* Spell - DispelAllBadOther7 */
      , (10969, 8001,  275316888) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, TargetType, Burden, Spell, HookType */
      , (10969, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10969, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

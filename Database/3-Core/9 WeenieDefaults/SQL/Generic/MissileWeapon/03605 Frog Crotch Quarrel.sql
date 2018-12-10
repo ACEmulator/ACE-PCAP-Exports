@@ -20,15 +20,6 @@ VALUES (3605,   1,        256) /* ItemType - MissileWeapon */
      , (3605,  65,        101) /* Placement - Resting */
      , (3605,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3605, 151,          2) /* HookType - Wall */
-     , (3605, 179,          0) /* ImbuedEffect - Undef */
-     , (3605, 303,          0) /* ImbuedEffect2 - Undef */
-     , (3605, 304,          0) /* ImbuedEffect3 - Undef */
-     , (3605, 305,          0) /* ImbuedEffect4 - Undef */
-     , (3605, 306,          0) /* ImbuedEffect5 - Undef */
-     , (3605, 307,          5) /* DamageRating */
-     , (3605, 313,          0) /* CritRating */
-     , (3605, 314,          0) /* CritDamageRating */
-     , (3605, 386,          0) /* Overpower */
      , (3605, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,13 +39,10 @@ VALUES (3605,  21,       0) /* WeaponLength */
      , (3605,  62,       1) /* WeaponOffense */
      , (3605,  63,       1) /* DamageMod */
      , (3605,  78,       1) /* Friction */
-     , (3605,  79,       0) /* Elasticity */
-     , (3605, 149,       0) /* WeaponMissileDefense */
-     , (3605, 150,       0) /* WeaponMagicDefense */;
+     , (3605,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3605,   1, 'Frog Crotch Quarrel') /* Name */
-     , (3605,  16, 'Killed by Ragarnok.') /* LongDesc */;
+VALUES (3605,   1, 'Frog Crotch Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3605,   1,   33554730) /* Setup */

@@ -34,7 +34,6 @@ VALUES (35938,   1, False) /* Stuck */
      , (35938,  19, True ) /* Attackable */
      , (35938,  22, True ) /* Inscribable */
      , (35938,  69, False) /* IsSellable */
-     , (35938,  85, True ) /* AppraisalHasAllowedWielder */
      , (35938,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,8 +49,7 @@ VALUES (35938,   5, -0.0165999997407198) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35938,   1, 'Tusker Skull Helm') /* Name */
-     , (35938,  16, 'A large helm fashioned from the skull of a Tusker.') /* LongDesc */
-     , (35938,  25, 'Widgeon''s Apprentice') /* CraftsmanName */;
+     , (35938,  16, 'A large helm fashioned from the skull of a Tusker.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35938,   1,   33560346) /* Setup */

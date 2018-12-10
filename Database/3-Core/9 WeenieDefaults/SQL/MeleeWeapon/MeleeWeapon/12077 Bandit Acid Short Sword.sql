@@ -11,13 +11,9 @@ VALUES (12077,   1,          1) /* ItemType - MeleeWeapon */
      , (12077,  16,          1) /* ItemUseable - No */
      , (12077,  18,        256) /* UiEffects - Acid */
      , (12077,  19,        400) /* Value */
-     , (12077,  28,        277) /* ArmorLevel */
      , (12077,  51,          1) /* CombatUse - Melee */
      , (12077,  65,          1) /* Placement - RightHandCombat */
-     , (12077,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12077, 105,          7) /* ItemWorkmanship */
-     , (12077, 131,         54) /* MaterialType - GromnieHide */
-     , (12077, 172,          1) /* AppraisalLongDescDecoration */;
+     , (12077,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12077,   1, False) /* Stuck */
@@ -25,23 +21,13 @@ VALUES (12077,   1, False) /* Stuck */
      , (12077,  13, True ) /* Ethereal */
      , (12077,  14, True ) /* GravityStatus */
      , (12077,  19, True ) /* Attackable */
-     , (12077,  22, True ) /* Inscribable */
-     , (12077, 100, True ) /* Dyable */;
+     , (12077,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12077,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (12077,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (12077,  15,       1) /* ArmorModVsBludgeon */
-     , (12077,  16,     0.5) /* ArmorModVsCold */
-     , (12077,  17,     0.5) /* ArmorModVsFire */
-     , (12077,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (12077,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (12077,  39, 1.10000002384186) /* DefaultScale */
-     , (12077, 165,       1) /* ArmorModVsNether */;
+VALUES (12077,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12077,   1, 'Bandit Acid Short Sword') /* Name */
-     , (12077,  16, 'Cloth Gloves') /* LongDesc */;
+VALUES (12077,   1, 'Bandit Acid Short Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12077,   1,   33555793) /* Setup */

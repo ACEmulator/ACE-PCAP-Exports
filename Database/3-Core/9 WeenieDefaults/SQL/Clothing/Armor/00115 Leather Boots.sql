@@ -13,9 +13,7 @@ VALUES (115,   1,          2) /* ItemType - Armor */
      , (115,  19,       1100) /* Value */
      , (115,  28,        130) /* ArmorLevel */
      , (115,  65,        101) /* Placement - Resting */
-     , (115,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (115, 105,          1) /* ItemWorkmanship */
-     , (115, 131,         52) /* MaterialType - Leather */;
+     , (115,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (115,   1, False) /* Stuck */
@@ -37,10 +35,7 @@ VALUES (115,  13,       1) /* ArmorModVsSlash */
      , (115, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (115,   1, 'Leather Boots') /* Name */
-     , (115,   7, 'Nice and broken in, just they way I like ''em') /* Inscription */
-     , (115,   8, 'Ripley') /* ScribeName */
-     , (115,  16, '  Leather Boots ') /* LongDesc */;
+VALUES (115,   1, 'Leather Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (115,   1,   33554640) /* Setup */

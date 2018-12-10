@@ -41,7 +41,7 @@ VALUES (36021,   1,   33554809) /* Setup */
      , (36021,   3,  536870932) /* SoundTable */
      , (36021,   8,  100686697) /* Icon */
      , (36021,  22,  872415275) /* PhysicsEffectTable */
-     , (36021,  28,       4139) /* Spell */
+     , (36021,  28,       4139) /* Spell - SwordMasterySpectral */
      , (36021,  50,  100692248) /* IconOverlay */
      , (36021,  52,  100686604) /* IconUnderlay */
      , (36021, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

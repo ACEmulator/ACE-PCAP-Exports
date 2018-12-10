@@ -6,69 +6,27 @@ VALUES (1608, 'drudgelurker', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1608,   1,         16) /* ItemType - Creature */
      , (1608,   2,          3) /* CreatureType - Drudge */
-     , (1608,   5,         50) /* EncumbranceVal */
      , (1608,   6,        255) /* ItemsCapacity */
      , (1608,   7,        255) /* ContainersCapacity */
      , (1608,  16,          1) /* ItemUseable - No */
-     , (1608,  19,       4000) /* Value */
      , (1608,  25,         40) /* Level */
-     , (1608,  33,          0) /* Bonded - Normal */
-     , (1608,  44,         14) /* Damage */
-     , (1608,  45,          4) /* DamageType - Bludgeon */
-     , (1608,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (1608,  49,         10) /* WeaponTime */
-     , (1608,  91,         50) /* MaxStructure */
-     , (1608,  92,         50) /* Structure */
      , (1608,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1608, 105,          5) /* ItemWorkmanship */
-     , (1608, 106,        196) /* ItemSpellcraft */
-     , (1608, 107,       1201) /* ItemCurMana */
-     , (1608, 108,       1201) /* ItemMaxMana */
-     , (1608, 109,        196) /* ItemDifficulty */
-     , (1608, 110,          0) /* ItemAllegianceRankLimit */
-     , (1608, 114,          0) /* Attuned - Normal */
-     , (1608, 115,          0) /* ItemSkillLevelLimit */
-     , (1608, 117,        300) /* ItemManaCost */
-     , (1608, 131,          2) /* MaterialType - Porcelain */
      , (1608, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1608, 172,          5) /* AppraisalLongDescDecoration */
-     , (1608, 177,          5) /* GemCount */
-     , (1608, 178,         21) /* GemType */
-     , (1608, 280,        213) /* SharedCooldown */
      , (1608, 307,          7) /* DamageRating */
-     , (1608, 353,         10) /* WeaponType - Thrown */
-     , (1608, 366,         54) /* UseRequiresSkill */
-     , (1608, 367,        310) /* UseRequiresSkillLevel */
-     , (1608, 369,         40) /* UseRequiresLevel */
-     , (1608, 370,         17) /* GearDamage */
-     , (1608, 371,          9) /* GearDamageResist */
-     , (1608, 373,         14) /* GearCritResist */
-     , (1608, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (1608, 8030,          0);
+     , (1608, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1608,   1, True ) /* Stuck */
      , (1608,  12, True ) /* ReportCollisions */
      , (1608,  13, False) /* Ethereal */
      , (1608,  14, True ) /* GravityStatus */
-     , (1608,  19, True ) /* Attackable */
-     , (1608,  69, True ) /* IsSellable */;
+     , (1608,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1608,   5,   -0.05) /* ManaRate */
-     , (1608,  21,       0) /* WeaponLength */
-     , (1608,  22,    0.25) /* DamageVariance */
-     , (1608,  26,       0) /* MaximumVelocity */
-     , (1608,  29,       1) /* WeaponDefense */
-     , (1608,  39, 0.949999988079071) /* DefaultScale */
-     , (1608,  62,       1) /* WeaponOffense */
-     , (1608,  63,       1) /* DamageMod */
-     , (1608, 167,      45) /* CooldownDuration */;
+VALUES (1608,  39, 0.949999988079071) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1608,   1, 'Drudge Lurker') /* Name */
-     , (1608,  14, 'Use this essence to summon or dismiss your Frost Elemental.') /* Use */
-     , (1608,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (1608, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -101,10 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1608,   1,   117, 0, 0, 117) /* MaxHealth */
      , (1608,   3,   190, 0, 0, 190) /* MaxStamina */
      , (1608,   5,   185, 0, 0, 185) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1608,  1093,      2) 
-     , (1608,  1401,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1608, 67112814, 0, 0);

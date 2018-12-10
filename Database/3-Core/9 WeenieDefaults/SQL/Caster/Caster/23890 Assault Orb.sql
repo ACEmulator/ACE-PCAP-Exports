@@ -38,8 +38,7 @@ VALUES (23890,   5, -0.025000000372529) /* ManaRate */
      , (23890,  29,       1) /* WeaponDefense */
      , (23890,  39, 0.800000011920929) /* DefaultScale */
      , (23890,  77,       1) /* PhysicsScriptIntensity */
-     , (23890, 144, 1.47282915051041E-314) /* ManaConversionMod */
-     , (23890, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (23890, 144, 1.47282915051041E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23890,   1, 'Assault Orb') /* Name */

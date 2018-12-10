@@ -5,13 +5,11 @@ VALUES (42875, 'ace42875-chunkofore', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42875,   1,        128) /* ItemType - Misc */
-     , (42875,   2,          1) /* CreatureType - Olthoi */
      , (42875,   5,        530) /* EncumbranceVal */
      , (42875,  11,        100) /* MaxStackSize */
      , (42875,  12,         53) /* StackSize */
      , (42875,  16,          1) /* ItemUseable - No */
      , (42875,  19,          0) /* Value */
-     , (42875,  25,         60) /* Level */
      , (42875,  33,          1) /* Bonded - Bonded */
      , (42875,  65,        101) /* Placement - Resting */
      , (42875,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -43,9 +41,6 @@ VALUES (42875,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42875,   2, 1343301116) /* Container */
      , (42875, 8000, 3706547999) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42875,   1,   190, 0, 0, 190) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42875, 67111924, 0, 0);

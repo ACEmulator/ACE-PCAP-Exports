@@ -6,14 +6,10 @@ VALUES (40429, 'ace40429-intenseaggregatecrystallinewisp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40429,   1,         16) /* ItemType - Creature */
      , (40429,   2,         20) /* CreatureType - Wisp */
-     , (40429,   5,        150) /* EncumbranceVal */
      , (40429,   6,        255) /* ItemsCapacity */
      , (40429,   7,        255) /* ContainersCapacity */
      , (40429,  16,          1) /* ItemUseable - No */
-     , (40429,  19,        500) /* Value */
      , (40429,  25,        115) /* Level */
-     , (40429,  89,          4) /* BoosterEnum - Stamina */
-     , (40429,  90,        100) /* BoostValue */
      , (40429,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (40429, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40429, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -28,7 +24,6 @@ VALUES (40429,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40429,   1, 'Intense Aggregate Crystalline Wisp') /* Name */
-     , (40429,  14, 'Use this item to drink it.') /* Use */
      , (40429, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

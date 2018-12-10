@@ -5,7 +5,6 @@ VALUES (38257, 'ace38257-shrineofthetemplehorn', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38257,   1,         16) /* ItemType - Creature */
-     , (38257,   5,          0) /* EncumbranceVal */
      , (38257,   6,        255) /* ItemsCapacity */
      , (38257,   7,        255) /* ContainersCapacity */
      , (38257,  16,         32) /* ItemUseable - Remote */

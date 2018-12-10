@@ -6,26 +6,13 @@ VALUES (43217, 'ace43217-subvertedcoppercogknight', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43217,   1,         16) /* ItemType - Creature */
      , (43217,   2,         99) /* CreatureType - GearKnight */
-     , (43217,   5,         50) /* EncumbranceVal */
      , (43217,   6,        255) /* ItemsCapacity */
      , (43217,   7,        255) /* ContainersCapacity */
      , (43217,  16,          1) /* ItemUseable - No */
-     , (43217,  19,       4000) /* Value */
      , (43217,  25,        185) /* Level */
-     , (43217,  33,          0) /* Bonded - Normal */
-     , (43217,  91,         50) /* MaxStructure */
-     , (43217,  92,         50) /* Structure */
      , (43217,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (43217, 105,          5) /* ItemWorkmanship */
-     , (43217, 114,          0) /* Attuned - Normal */
      , (43217, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (43217, 280,        213) /* SharedCooldown */
      , (43217, 307,          5) /* DamageRating */
-     , (43217, 366,         54) /* UseRequiresSkill */
-     , (43217, 367,        310) /* UseRequiresSkillLevel */
-     , (43217, 369,         40) /* UseRequiresLevel */
-     , (43217, 373,         14) /* GearCritResist */
-     , (43217, 374,         11) /* GearCritDamage */
      , (43217, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,16 +20,13 @@ VALUES (43217,   1, True ) /* Stuck */
      , (43217,  12, True ) /* ReportCollisions */
      , (43217,  13, False) /* Ethereal */
      , (43217,  14, True ) /* GravityStatus */
-     , (43217,  19, True ) /* Attackable */
-     , (43217,  69, True ) /* IsSellable */;
+     , (43217,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (43217,  39, 1.60000002384186) /* DefaultScale */
-     , (43217, 167,      45) /* CooldownDuration */;
+VALUES (43217,  39, 1.60000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43217,   1, 'Subverted Copper Cog Knight') /* Name */
-     , (43217,  14, 'Use this essence to summon or dismiss your Fire K''nath.') /* Use */
      , (43217, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

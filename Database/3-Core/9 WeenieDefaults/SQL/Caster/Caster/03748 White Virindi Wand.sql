@@ -32,13 +32,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3748,   5,  -0.033) /* ManaRate */
      , (3748,  29,       1) /* WeaponDefense */
      , (3748,  39, 0.800000011920929) /* DefaultScale */
-     , (3748, 144,    0.05) /* ManaConversionMod */
-     , (3748, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (3748, 144,    0.05) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3748,   1, 'White Virindi Wand') /* Name */
-     , (3748,   7, 'Min') /* Inscription */
-     , (3748,   8, 'Georgeta') /* ScribeName */;
+VALUES (3748,   1, 'White Virindi Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3748,   1,   33558228) /* Setup */
@@ -46,7 +43,7 @@ VALUES (3748,   1,   33558228) /* Setup */
      , (3748,   6,   67111919) /* PaletteBase */
      , (3748,   8,  100670152) /* Icon */
      , (3748,  22,  872415275) /* PhysicsEffectTable */
-     , (3748,  28,         80) /* Spell */
+     , (3748,  28,         80) /* Spell - LightningBolt6 */
      , (3748, 8001,  275316888) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, TargetType, Burden, Spell, HookType */
      , (3748, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3748, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;

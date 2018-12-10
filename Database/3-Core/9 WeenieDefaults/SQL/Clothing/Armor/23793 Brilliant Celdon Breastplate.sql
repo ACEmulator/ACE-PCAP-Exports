@@ -43,9 +43,7 @@ VALUES (23793,   5, -0.025000000372529) /* ManaRate */
      , (23793, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23793,   1, 'Brilliant Celdon Breastplate') /* Name */
-     , (23793,   7, '8.7s 85.7 Tia-Leh...spirit cell') /* Inscription */
-     , (23793,   8, 'Fenn') /* ScribeName */;
+VALUES (23793,   1, 'Brilliant Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23793,   1,   33554642) /* Setup */

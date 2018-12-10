@@ -36,13 +36,10 @@ VALUES (25894,   5,   -0.05) /* ManaRate */
      , (25894,  29,       1) /* WeaponDefense */
      , (25894,  76, 0.200000002980232) /* Translucency */
      , (25894, 144,    0.11) /* ManaConversionMod */
-     , (25894, 147,       1) /* CriticalFrequency */
-     , (25894, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (25894, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25894,   1, 'Nefane Pearl') /* Name */
-     , (25894,   7, 'Magic Master says to your fellowship, "pizza should be its own food group"') /* Inscription */
-     , (25894,   8, 'Makosa''') /* ScribeName */
      , (25894,  16, 'A pearl carefully removed from the corpse of a nefane.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

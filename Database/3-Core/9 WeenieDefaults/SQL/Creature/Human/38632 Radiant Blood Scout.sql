@@ -6,11 +6,9 @@ VALUES (38632, 'ace38632-radiantbloodscout', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38632,   1,         16) /* ItemType - Creature */
      , (38632,   2,         31) /* CreatureType - Human */
-     , (38632,   5,       6015) /* EncumbranceVal */
      , (38632,   6,        255) /* ItemsCapacity */
      , (38632,   7,        255) /* ContainersCapacity */
      , (38632,  16,          1) /* ItemUseable - No */
-     , (38632,  19,          0) /* Value */
      , (38632,  25,        200) /* Level */
      , (38632,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38632, 113,          1) /* Gender - Male */
@@ -27,7 +25,6 @@ VALUES (38632,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38632,   1, 'Radiant Blood Scout') /* Name */
-     , (38632,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (38632, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

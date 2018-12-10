@@ -42,7 +42,7 @@ VALUES (30213,   1,   33554809) /* Setup */
      , (30213,   6,   67111919) /* PaletteBase */
      , (30213,   8,  100686695) /* Icon */
      , (30213,  22,  872415275) /* PhysicsEffectTable */
-     , (30213,  28,       3710) /* Spell */
+     , (30213,  28,       3710) /* Spell - ImpenetrabilityRare */
      , (30213,  50,  100686659) /* IconOverlay */
      , (30213,  52,  100686604) /* IconUnderlay */
      , (30213, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

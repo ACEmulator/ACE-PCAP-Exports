@@ -23,15 +23,6 @@ VALUES (47993,   1,        256) /* ItemType - MissileWeapon */
      , (47993,  65,          1) /* Placement - RightHandCombat */
      , (47993,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47993, 151,          2) /* HookType - Wall */
-     , (47993, 179,          0) /* ImbuedEffect - Undef */
-     , (47993, 303,          0) /* ImbuedEffect2 - Undef */
-     , (47993, 304,          0) /* ImbuedEffect3 - Undef */
-     , (47993, 305,          0) /* ImbuedEffect4 - Undef */
-     , (47993, 306,          0) /* ImbuedEffect5 - Undef */
-     , (47993, 307,          5) /* DamageRating */
-     , (47993, 313,          0) /* CritRating */
-     , (47993, 314,          0) /* CritDamageRating */
-     , (47993, 386,          0) /* Overpower */
      , (47993, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,9 +42,7 @@ VALUES (47993,  21,       0) /* WeaponLength */
      , (47993,  62,       1) /* WeaponOffense */
      , (47993,  63,       1) /* DamageMod */
      , (47993,  78,       1) /* Friction */
-     , (47993,  79,       0) /* Elasticity */
-     , (47993, 149,       0) /* WeaponMissileDefense */
-     , (47993, 150,       0) /* WeaponMagicDefense */;
+     , (47993,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47993,   1, 'Lightning Quarrel') /* Name */;

@@ -10,32 +10,8 @@ VALUES (29991,   1,          1) /* ItemType - MeleeWeapon */
      , (29991,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (29991,  16,          1) /* ItemUseable - No */
      , (29991,  19,        425) /* Value */
-     , (29991,  28,        149) /* ArmorLevel */
-     , (29991,  44,         29) /* Damage */
-     , (29991,  45,          4) /* DamageType - Bludgeon */
-     , (29991,  47,          4) /* AttackType - Slash */
-     , (29991,  48,         41) /* WeaponSkill - TwoHandedCombat */
-     , (29991,  49,         35) /* WeaponTime */
      , (29991,  51,          1) /* CombatUse - Melee */
-     , (29991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29991, 105,          7) /* ItemWorkmanship */
-     , (29991, 106,        294) /* ItemSpellcraft */
-     , (29991, 107,       1867) /* ItemCurMana */
-     , (29991, 108,       1867) /* ItemMaxMana */
-     , (29991, 109,        303) /* ItemDifficulty */
-     , (29991, 110,          0) /* ItemAllegianceRankLimit */
-     , (29991, 115,          0) /* ItemSkillLevelLimit */
-     , (29991, 131,         13) /* MaterialType - Aquamarine */
-     , (29991, 158,          2) /* WieldRequirements - RawSkill */
-     , (29991, 159,         41) /* WieldSkilltype - TwoHandedCombat */
-     , (29991, 160,        350) /* WieldDifficulty */
-     , (29991, 172,          5) /* AppraisalLongDescDecoration */
-     , (29991, 176,          6) /* AppraisalItemSkill */
-     , (29991, 177,          2) /* GemCount */
-     , (29991, 178,         39) /* GemType */
-     , (29991, 292,          2) /* Cleaving */
-     , (29991, 353,         11) /* WeaponType - TwoHanded */
-     , (29991, 8030,          0);
+     , (29991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29991,   1, False) /* Stuck */
@@ -43,29 +19,10 @@ VALUES (29991,   1, False) /* Stuck */
      , (29991,  13, True ) /* Ethereal */
      , (29991,  14, True ) /* GravityStatus */
      , (29991,  19, True ) /* Attackable */
-     , (29991,  22, True ) /* Inscribable */
-     , (29991, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29991,   5, -0.0555555555555556) /* ManaRate */
-     , (29991,  13,       1) /* ArmorModVsSlash */
-     , (29991,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (29991,  15, 1.20000004768372) /* ArmorModVsBludgeon */
-     , (29991,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (29991,  17, 1.14325058460236) /* ArmorModVsFire */
-     , (29991,  18,       1) /* ArmorModVsAcid */
-     , (29991,  19, 0.916982412338257) /* ArmorModVsElectric */
-     , (29991,  21,       0) /* WeaponLength */
-     , (29991,  22,    0.35) /* DamageVariance */
-     , (29991,  26,       0) /* MaximumVelocity */
-     , (29991,  29,    1.08) /* WeaponDefense */
-     , (29991,  62,    1.11) /* WeaponOffense */
-     , (29991,  63,       1) /* DamageMod */
-     , (29991, 165,       1) /* ArmorModVsNether */;
+     , (29991,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29991,   1, 'Frigid Splinter') /* Name */
-     , (29991,  16, 'Heavy Bracelet of Bludgeon Protection') /* LongDesc */;
+VALUES (29991,   1, 'Frigid Splinter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29991,   1,   33559304) /* Setup */
@@ -85,11 +42,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29991,   3, 3692755073) /* Wielder */
      , (29991, 8000, 3692755084) /* PCAPRecordedObjectIID */
      , (29991, 8008, 3692755073) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29991,   249,      2) 
-     , (29991,  1498,      2) 
-     , (29991,  2108,      2) 
-     , (29991,  2153,      2) 
-     , (29991,  2553,      2) 
-     , (29991,  2606,      2) ;

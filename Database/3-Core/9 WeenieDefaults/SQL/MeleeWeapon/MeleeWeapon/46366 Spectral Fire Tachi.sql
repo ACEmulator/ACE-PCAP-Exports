@@ -5,13 +5,11 @@ VALUES (46366, 'ace46366-spectralfiretachi', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46366,   1,          1) /* ItemType - MeleeWeapon */
-     , (46366,   2,          1) /* CreatureType - Olthoi */
      , (46366,   5,        550) /* EncumbranceVal */
      , (46366,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (46366,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46366,  16,          1) /* ItemUseable - No */
      , (46366,  19,        340) /* Value */
-     , (46366,  25,        115) /* Level */
      , (46366,  51,          1) /* CombatUse - Melee */
      , (46366,  65,          1) /* Placement - RightHandCombat */
      , (46366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -49,9 +47,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46366,   3, 3707809448) /* Wielder */
      , (46366, 8000, 3706579516) /* PCAPRecordedObjectIID */
      , (46366, 8008, 3707809448) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46366,   1,   740, 0, 0, 740) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46366, 67111925, 0, 0);

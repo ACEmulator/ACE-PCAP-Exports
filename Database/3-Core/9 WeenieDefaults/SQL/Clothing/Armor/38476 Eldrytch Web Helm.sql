@@ -26,13 +26,11 @@ VALUES (38476,   1,          2) /* ItemType - Armor */
      , (38476, 158,          9) /* WieldRequirements - IntStat */
      , (38476, 159,        288) /* WieldSkilltype */
      , (38476, 160,       1001) /* WieldDifficulty */
-     , (38476, 171,          9) /* NumTimesTinkered */
      , (38476, 172,          5) /* AppraisalLongDescDecoration */
      , (38476, 176,          7) /* AppraisalItemSkill */
      , (38476, 177,          3) /* GemCount */
      , (38476, 178,         41) /* GemType */
-     , (38476, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38476, 375,          1) /* GearCritDamageResist */;
+     , (38476, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38476,   1, False) /* Stuck */
@@ -57,8 +55,7 @@ VALUES (38476,   5, -0.0555555555555556) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38476,   1, 'Eldrytch Web Helm') /* Name */
-     , (38476,  16, 'Eldrytch Web Helm') /* LongDesc */
-     , (38476,  39, 'Hellarious') /* TinkerName */;
+     , (38476,  16, 'Eldrytch Web Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38476,   1,   33560112) /* Setup */
@@ -74,28 +71,10 @@ VALUES (38476,   2, 2621825357) /* Container */
      , (38476, 8000, 2996451160) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38476,  1528,      2) 
-     , (38476,  2094,      2) 
-     , (38476,  2098,      2) 
+VALUES (38476,  2094,      2) 
      , (38476,  2102,      2) 
      , (38476,  2108,      2) 
-     , (38476,  2241,      2) 
-     , (38476,  2281,      2) 
-     , (38476,  2289,      2) 
-     , (38476,  2520,      2) 
-     , (38476,  2585,      2) 
-     , (38476,  4226,      2) 
-     , (38476,  4391,      2) 
-     , (38476,  4397,      2) 
-     , (38476,  4407,      2) 
-     , (38476,  4596,      2) 
-     , (38476,  4695,      2) 
-     , (38476,  5810,      2) 
-     , (38476,  6039,      2) 
-     , (38476,  6060,      2) 
-     , (38476,  6082,      2) 
-     , (38476,  6084,      2) 
-     , (38476,  6085,      2) ;
+     , (38476,  6084,      2) ;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38476, 0, 16794168);

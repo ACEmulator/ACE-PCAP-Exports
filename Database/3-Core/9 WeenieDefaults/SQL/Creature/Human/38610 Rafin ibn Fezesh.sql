@@ -6,44 +6,19 @@ VALUES (38610, 'ace38610-rafinibnfezesh', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38610,   1,         16) /* ItemType - Creature */
      , (38610,   2,         31) /* CreatureType - Human */
-     , (38610,   5,       8114) /* EncumbranceVal */
      , (38610,   6,        255) /* ItemsCapacity */
      , (38610,   7,        255) /* ContainersCapacity */
      , (38610,  16,         32) /* ItemUseable - Remote */
-     , (38610,  19,          0) /* Value */
      , (38610,  25,        183) /* Level */
-     , (38610,  28,        315) /* ArmorLevel */
-     , (38610,  36,       9999) /* ResistMagic */
-     , (38610,  44,          0) /* Damage */
-     , (38610,  45,          0) /* DamageType - Undef */
-     , (38610,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (38610,  49,         25) /* WeaponTime */
      , (38610,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38610,  95,          8) /* RadarBlipColor - Yellow */
-     , (38610, 105,          8) /* ItemWorkmanship */
-     , (38610, 106,        226) /* ItemSpellcraft */
-     , (38610, 107,        872) /* ItemCurMana */
-     , (38610, 108,        872) /* ItemMaxMana */
-     , (38610, 109,        183) /* ItemDifficulty */
-     , (38610, 110,          0) /* ItemAllegianceRankLimit */
      , (38610, 113,          1) /* Gender - Male */
-     , (38610, 115,          0) /* ItemSkillLevelLimit */
-     , (38610, 131,         63) /* MaterialType - Silver */
      , (38610, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38610, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38610, 158,          2) /* WieldRequirements - RawSkill */
-     , (38610, 159,          7) /* WieldSkilltype - MissileDefense */
-     , (38610, 160,        245) /* WieldDifficulty */
-     , (38610, 172,          1) /* AppraisalLongDescDecoration */
-     , (38610, 176,         47) /* AppraisalItemSkill */
-     , (38610, 177,          1) /* GemCount */
-     , (38610, 178,         16) /* GemType */
      , (38610, 188,          2) /* HeritageGroup - Gharundim */
      , (38610, 281,          4) /* Faction1Bits */
      , (38610, 289,          1) /* SocietyRankRadblo */
-     , (38610, 353,         10) /* WeaponType - Thrown */
-     , (38610, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38610, 8030,          0);
+     , (38610, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38610,   1, True ) /* Stuck */
@@ -53,32 +28,14 @@ VALUES (38610,   1, True ) /* Stuck */
      , (38610,  14, True ) /* GravityStatus */
      , (38610,  19, False) /* Attackable */
      , (38610,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38610,  42, True ) /* AllowEdgeSlide */
-     , (38610, 100, True ) /* Dyable */;
+     , (38610,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38610,   5, -0.0555555555555556) /* ManaRate */
-     , (38610,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (38610,  14,     1.5) /* ArmorModVsPierce */
-     , (38610,  15, 1.39999997615814) /* ArmorModVsBludgeon */
-     , (38610,  16, 0.800000011920929) /* ArmorModVsCold */
-     , (38610,  17, 0.800000011920929) /* ArmorModVsFire */
-     , (38610,  18, 0.800000011920929) /* ArmorModVsAcid */
-     , (38610,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38610,  21,       0) /* WeaponLength */
-     , (38610,  22,       0) /* DamageVariance */
-     , (38610,  26,    24.9) /* MaximumVelocity */
-     , (38610,  29,    1.09) /* WeaponDefense */
-     , (38610,  54,       3) /* UseRadius */
-     , (38610,  62,       1) /* WeaponOffense */
-     , (38610,  63,    2.33) /* DamageMod */
-     , (38610, 165,       1) /* ArmorModVsNether */;
+VALUES (38610,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38610,   1, 'Rafin ibn Fezesh') /* Name */
      , (38610,   5, 'Dark Isle Scout Taskmaster') /* Template */
-     , (38610,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38610,  16, 'Killed by Mag-six.') /* LongDesc */
      , (38610, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -116,23 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38610,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38610,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38610,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38610,  1332,      2) 
-     , (38610,  1486,      2) 
-     , (38610,  1615,      2) 
-     , (38610,  2087,      2) 
-     , (38610,  2104,      2) 
-     , (38610,  2108,      2) 
-     , (38610,  2542,      2) 
-     , (38610,  2559,      2) 
-     , (38610,  2564,      2) 
-     , (38610,  2580,      2) 
-     , (38610,  2619,      2) 
-     , (38610,  2620,      2) 
-     , (38610,  5105,      2) 
-     , (38610,  5783,      2) 
-     , (38610,  5884,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38610, 67109554, 0, 24)

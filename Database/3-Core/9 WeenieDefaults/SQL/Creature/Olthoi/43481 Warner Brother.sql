@@ -16,7 +16,6 @@ VALUES (43481,   1,         16) /* ItemType - Creature */
      , (43481, 134,          4) /* PlayerKillerStatus - PK */
      , (43481, 188,         13) /* HeritageGroup - OlthoiAcid */
      , (43481, 261,        712) /* CharacterTitleId */
-     , (43481, 307,          5) /* DamageRating */
      , (43481, 390,          0) /* Enlightenment */
      , (43481, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 

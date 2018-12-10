@@ -32,7 +32,6 @@ VALUES (46397,   1, False) /* Stuck */
      , (46397,  19, True ) /* Attackable */
      , (46397,  22, True ) /* Inscribable */
      , (46397,  69, False) /* IsSellable */
-     , (46397,  91, True ) /* Retained */
      , (46397,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -42,8 +41,6 @@ VALUES (46397,  29,    1.29) /* WeaponDefense */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46397,   1, 'Shadownether Isparian Wand') /* Name */
-     , (46397,   7, 'You''ve made 1,174,975,999 XP in 00:09:00 for 7,820,060,526 XP/hour (5min 7,451,148,492 XP/hour). 905,683,697 XP to reach level 236, ETA 00:06:56.') /* Inscription */
-     , (46397,   8, 'Stramus') /* ScribeName */
      , (46397,  16, 'A Perfect Isparian Wand, infused with the power of the Shadownether Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

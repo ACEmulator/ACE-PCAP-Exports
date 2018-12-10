@@ -11,17 +11,7 @@ VALUES (43470,   1,       2048) /* ItemType - Gem */
      , (43470,  33,          1) /* Bonded - Bonded */
      , (43470,  65,        101) /* Placement - Resting */
      , (43470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43470, 105,          8) /* ItemWorkmanship */
-     , (43470, 106,        300) /* ItemSpellcraft */
-     , (43470, 107,        623) /* ItemCurMana */
-     , (43470, 108,        623) /* ItemMaxMana */
-     , (43470, 109,          0) /* ItemDifficulty */
-     , (43470, 110,          0) /* ItemAllegianceRankLimit */
-     , (43470, 114,          1) /* Attuned - Attuned */
-     , (43470, 115,          0) /* ItemSkillLevelLimit */
-     , (43470, 117,        350) /* ItemManaCost */
-     , (43470, 131,         41) /* MaterialType - Sunstone */
-     , (43470, 172,          1) /* AppraisalLongDescDecoration */;
+     , (43470, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43470,   1, False) /* Stuck */
@@ -34,8 +24,7 @@ VALUES (43470,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43470,   1, 'Token of the Light Infused Healing Kit') /* Name */
      , (43470,  14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend 25,000 Luminance for a Light Infused Healing Kit. A Light Infused Healing Kit boosts your Heal Skill by 250, and has 30 charges.') /* Use */
-     , (43470,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */
-     , (43470,  16, 'Gem of Protection') /* LongDesc */;
+     , (43470,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43470,   1,   33557280) /* Setup */
@@ -52,9 +41,6 @@ VALUES (43470, 8040, 3600351238, 8.04665, 138.733, 375.653, -0.711158, 0, 0, 0.7
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43470, 8000, 3692312929) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43470,  2053,      2) ;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43470, 0, 83893723, 83898330)

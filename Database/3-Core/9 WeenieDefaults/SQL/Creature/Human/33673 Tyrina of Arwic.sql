@@ -6,11 +6,9 @@ VALUES (33673, 'ace33673-tyrinaofarwic', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33673,   1,         16) /* ItemType - Creature */
      , (33673,   2,         31) /* CreatureType - Human */
-     , (33673,   5,          0) /* EncumbranceVal */
      , (33673,   6,        255) /* ItemsCapacity */
      , (33673,   7,        255) /* ContainersCapacity */
      , (33673,  16,         32) /* ItemUseable - Remote */
-     , (33673,  19,       9514) /* Value */
      , (33673,  25,        159) /* Level */
      , (33673,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33673,  95,          8) /* RadarBlipColor - Yellow */
@@ -22,7 +20,6 @@ VALUES (33673,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33673,   1, True ) /* Stuck */
-     , (33673,   2, False) /* Open */
      , (33673,  11, True ) /* IgnoreCollisions */
      , (33673,  12, True ) /* ReportCollisions */
      , (33673,  13, False) /* Ethereal */
@@ -37,7 +34,6 @@ VALUES (33673,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33673,   1, 'Tyrina of Arwic') /* Name */
      , (33673,   5, 'Soldier') /* Template */
-     , (33673,  16, 'Killed by Mag-one.') /* LongDesc */
      , (33673, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

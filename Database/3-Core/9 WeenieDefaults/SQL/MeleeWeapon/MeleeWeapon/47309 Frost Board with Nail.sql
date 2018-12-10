@@ -11,21 +11,9 @@ VALUES (47309,   1,          1) /* ItemType - MeleeWeapon */
      , (47309,  16,          1) /* ItemUseable - No */
      , (47309,  18,        128) /* UiEffects - Frost */
      , (47309,  19,        350) /* Value */
-     , (47309,  28,          0) /* ArmorLevel */
      , (47309,  51,          1) /* CombatUse - Melee */
      , (47309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47309, 105,          6) /* ItemWorkmanship */
-     , (47309, 106,        250) /* ItemSpellcraft */
-     , (47309, 107,       1307) /* ItemCurMana */
-     , (47309, 108,       1307) /* ItemMaxMana */
-     , (47309, 109,        258) /* ItemDifficulty */
-     , (47309, 110,          0) /* ItemAllegianceRankLimit */
-     , (47309, 115,          0) /* ItemSkillLevelLimit */
-     , (47309, 131,          6) /* MaterialType - Silk */
-     , (47309, 151,          2) /* HookType - Wall */
-     , (47309, 172,          5) /* AppraisalLongDescDecoration */
-     , (47309, 177,          3) /* GemCount */
-     , (47309, 178,         13) /* GemType */;
+     , (47309, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47309,   1, False) /* Stuck */
@@ -33,23 +21,10 @@ VALUES (47309,   1, False) /* Stuck */
      , (47309,  13, True ) /* Ethereal */
      , (47309,  14, True ) /* GravityStatus */
      , (47309,  19, True ) /* Attackable */
-     , (47309,  22, True ) /* Inscribable */
-     , (47309, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47309,   5, -0.0555555555555556) /* ManaRate */
-     , (47309,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (47309,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47309,  15,       1) /* ArmorModVsBludgeon */
-     , (47309,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (47309,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (47309,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (47309,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (47309, 165,       1) /* ArmorModVsNether */;
+     , (47309,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47309,   1, 'Frost Board with Nail') /* Name */
-     , (47309,  16, 'Vest of Lightning Protection') /* LongDesc */;
+VALUES (47309,   1, 'Frost Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47309,   1,   33559655) /* Setup */
@@ -70,10 +45,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47309,   3, 3692328194) /* Wielder */
      , (47309, 8000, 3692328202) /* PCAPRecordedObjectIID */
      , (47309, 8008, 3692328194) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47309,  1071,      2) 
-     , (47309,  2607,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47309, 67116700, 0, 101)

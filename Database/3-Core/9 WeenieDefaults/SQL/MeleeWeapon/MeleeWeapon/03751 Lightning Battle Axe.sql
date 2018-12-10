@@ -27,15 +27,8 @@ VALUES (3751,   1,          1) /* ItemType - MeleeWeapon */
      , (3751, 115,         71) /* ItemSkillLevelLimit */
      , (3751, 131,         57) /* MaterialType - Brass */
      , (3751, 151,          2) /* HookType - Wall */
-     , (3751, 158,          2) /* WieldRequirements - RawSkill */
-     , (3751, 159,         44) /* WieldSkilltype - HeavyWeapons */
-     , (3751, 160,        250) /* WieldDifficulty */
-     , (3751, 171,          1) /* NumTimesTinkered */
      , (3751, 172,          1) /* AppraisalLongDescDecoration */
      , (3751, 176,         44) /* AppraisalItemSkill */
-     , (3751, 177,          2) /* GemCount */
-     , (3751, 178,         38) /* GemType */
-     , (3751, 188,          1) /* HeritageGroup - Aluvian */
      , (3751, 353,          3) /* WeaponType - Axe */
      , (3751, 8030,          0);
 
@@ -56,14 +49,12 @@ VALUES (3751,   5, -0.0166666666666667) /* ManaRate */
      , (3751,  62,    1.02) /* WeaponOffense */
      , (3751,  63,       1) /* DamageMod */
      , (3751,  77,       1) /* PhysicsScriptIntensity */
-     , (3751, 149,    1.02) /* WeaponMissileDefense */
      , (3751, 150,    1.01) /* WeaponMagicDefense */
      , (3751, 8004,       4) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3751,   1, 'Lightning Battle Axe') /* Name */
-     , (3751,  16, 'Lightning Battle Axe of Blood Drinker') /* LongDesc */
-     , (3751,  39, 'Chien Chaud') /* TinkerName */;
+     , (3751,  16, 'Lightning Battle Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3751,   1,   33555704) /* Setup */
@@ -80,38 +71,4 @@ VALUES (3751,   2, 1343053823) /* Container */
      , (3751, 8000, 2401546893) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3751,    35,      2) 
-     , (3751,  1378,      2) 
-     , (3751,  1589,      2) 
-     , (3751,  1591,      2) 
-     , (3751,  1592,      2) 
-     , (3751,  1602,      2) 
-     , (3751,  1603,      2) 
-     , (3751,  1605,      2) 
-     , (3751,  1612,      2) 
-     , (3751,  1613,      2) 
-     , (3751,  1615,      2) 
-     , (3751,  1616,      2) 
-     , (3751,  1626,      2) 
-     , (3751,  1627,      2) 
-     , (3751,  2061,      2) 
-     , (3751,  2081,      2) 
-     , (3751,  2096,      2) 
-     , (3751,  2101,      2) 
-     , (3751,  2116,      2) 
-     , (3751,  2537,      2) 
-     , (3751,  2562,      2) 
-     , (3751,  2566,      2) 
-     , (3751,  2578,      2) 
-     , (3751,  2579,      2) 
-     , (3751,  2583,      2) 
-     , (3751,  2586,      2) 
-     , (3751,  2598,      2) 
-     , (3751,  2618,      2) 
-     , (3751,  3963,      2) 
-     , (3751,  4395,      2) 
-     , (3751,  4400,      2) 
-     , (3751,  4405,      2) 
-     , (3751,  5880,      2) 
-     , (3751,  5882,      2) 
-     , (3751,  6107,      2) ;
+VALUES (3751,  1612,      2) ;

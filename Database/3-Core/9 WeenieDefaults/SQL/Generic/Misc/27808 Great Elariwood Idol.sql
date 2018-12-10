@@ -23,9 +23,6 @@ VALUES (27808,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27808,   1, 'Great Elariwood Idol') /* Name */
-     , (27808,   7, 'Toys are good. Hard to find toys are great!
-') /* Inscription */
-     , (27808,   8, 'Klutz the Lefthanded') /* ScribeName */
      , (27808,  14, 'Use this item to equip it.') /* Use */
      , (27808,  16, 'A Great Elariwood idol.') /* LongDesc */;
 

@@ -5,27 +5,12 @@ VALUES (44434, 'ace44434-summoningcave', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44434,   1,         16) /* ItemType - Creature */
-     , (44434,   5,          5) /* EncumbranceVal */
      , (44434,   6,        255) /* ItemsCapacity */
      , (44434,   7,        255) /* ContainersCapacity */
      , (44434,  16,         32) /* ItemUseable - Remote */
-     , (44434,  19,       4420) /* Value */
-     , (44434,  90,         20) /* BoostValue */
-     , (44434,  91,         40) /* MaxStructure */
-     , (44434,  92,         40) /* Structure */
      , (44434,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (44434,  95,          4) /* RadarBlipColor - Purple */
-     , (44434, 105,          7) /* ItemWorkmanship */
-     , (44434, 106,        300) /* ItemSpellcraft */
-     , (44434, 107,        584) /* ItemCurMana */
-     , (44434, 108,        584) /* ItemMaxMana */
-     , (44434, 109,          0) /* ItemDifficulty */
-     , (44434, 110,          0) /* ItemAllegianceRankLimit */
-     , (44434, 115,          0) /* ItemSkillLevelLimit */
-     , (44434, 117,        350) /* ItemManaCost */
-     , (44434, 131,         20) /* MaterialType - Diamond */
      , (44434, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (44434, 172,          1) /* AppraisalLongDescDecoration */
      , (44434, 307,          0) /* DamageRating */
      , (44434, 308,          0) /* DamageResistRating */
      , (44434, 313,          0) /* CritRating */
@@ -64,8 +49,7 @@ VALUES (44434,   1, True ) /* Stuck */
      , (44434,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (44434,  54, 0.100000001490116) /* UseRadius */
-     , (44434, 100,    1.75) /* HealkitMod */;
+VALUES (44434,  54, 0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44434,   1, 'Summoning Cave') /* Name */
@@ -89,10 +73,6 @@ VALUES (44434, 8040, 4149870849, 50.5785, 182.032, 14.737, 0.692863, 0, 0, -0.72
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44434, 8000, 3685982114) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44434,  2183,      2) 
-     , (44434,  4299,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44434, 67111849, 1, 255);

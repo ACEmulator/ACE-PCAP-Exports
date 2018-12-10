@@ -35,8 +35,6 @@ VALUES (8661,  13,       1) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8661,   1, 'Ursuin Hide Coat') /* Name */
-     , (8661,   7, 'al120') /* Inscription */
-     , (8661,   8, 'Nanouko') /* ScribeName */
      , (8661,  16, 'A coat made out of the hide of an ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

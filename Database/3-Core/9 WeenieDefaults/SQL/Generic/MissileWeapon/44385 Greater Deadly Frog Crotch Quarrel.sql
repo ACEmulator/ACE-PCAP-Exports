@@ -24,16 +24,6 @@ VALUES (44385,   1,        256) /* ItemType - MissileWeapon */
      , (44385, 158,          2) /* WieldRequirements - RawSkill */
      , (44385, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (44385, 160,        270) /* WieldDifficulty */
-     , (44385, 166,         30) /* SlayerCreatureType - Skeleton */
-     , (44385, 179,          8) /* ImbuedEffect - SlashRending */
-     , (44385, 303,          8) /* ImbuedEffect2 - SlashRending */
-     , (44385, 304,          8) /* ImbuedEffect3 - SlashRending */
-     , (44385, 305,          8) /* ImbuedEffect4 - SlashRending */
-     , (44385, 306,          8) /* ImbuedEffect5 - SlashRending */
-     , (44385, 307,          5) /* DamageRating */
-     , (44385, 313,          0) /* CritRating */
-     , (44385, 314,          6) /* CritDamageRating */
-     , (44385, 386,          0) /* Overpower */
      , (44385, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,13 +44,10 @@ VALUES (44385,  21,       0) /* WeaponLength */
      , (44385,  62,       1) /* WeaponOffense */
      , (44385,  63,       1) /* DamageMod */
      , (44385,  78,       1) /* Friction */
-     , (44385,  79,       0) /* Elasticity */
-     , (44385, 149,       0) /* WeaponMissileDefense */
-     , (44385, 150,       0) /* WeaponMagicDefense */;
+     , (44385,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44385,   1, 'Greater Deadly Frog Crotch Quarrel') /* Name */
-     , (44385,  16, 'Killed by Purpley Guy.') /* LongDesc */;
+VALUES (44385,   1, 'Greater Deadly Frog Crotch Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44385,   1,   33554730) /* Setup */

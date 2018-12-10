@@ -11,9 +11,7 @@ VALUES (44052,   1,         16) /* ItemType - Creature */
      , (44052,  16,          1) /* ItemUseable - No */
      , (44052,  25,        240) /* Level */
      , (44052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44052, 113,          2) /* Gender - Female */
      , (44052, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44052, 188,          1) /* HeritageGroup - Aluvian */
      , (44052, 313,         30) /* CritRating */
      , (44052, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -37,12 +35,6 @@ VALUES (44052,   1,   33554489) /* Setup */
      , (44052,   3,  536870928) /* SoundTable */
      , (44052,   6,   67109313) /* PaletteBase */
      , (44052,   8,  100667939) /* Icon */
-     , (44052,   9,   83890281) /* EyesTexture */
-     , (44052,  10,   83890311) /* NoseTexture */
-     , (44052,  11,   83890349) /* MouthTexture */
-     , (44052,  15,   67116997) /* HairPalette */
-     , (44052,  16,   67109567) /* EyesPalette */
-     , (44052,  17,   67109560) /* SkinPalette */
      , (44052,  22,  872415268) /* PhysicsEffectTable */
      , (44052, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44052, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
@@ -56,17 +48,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44052, 8000, 3360221678) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (44052,   1, 200, 0, 0) /* Strength */
-     , (44052,   2, 240, 0, 0) /* Endurance */
-     , (44052,   3, 260, 0, 0) /* Quickness */
-     , (44052,   4, 200, 0, 0) /* Coordination */
-     , (44052,   5, 240, 0, 0) /* Focus */
-     , (44052,   6, 240, 0, 0) /* Self */;
+VALUES (44052,   1, 250, 0, 0) /* Strength */
+     , (44052,   2, 300, 0, 0) /* Endurance */
+     , (44052,   3, 270, 0, 0) /* Quickness */
+     , (44052,   4, 250, 0, 0) /* Coordination */
+     , (44052,   5, 210, 0, 0) /* Focus */
+     , (44052,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (44052,   1,  2650, 0, 0, 2650) /* MaxHealth */
-     , (44052,   3,  1340, 0, 0, 1340) /* MaxStamina */
-     , (44052,   5,  1140, 0, 0, 1140) /* MaxMana */;
+     , (44052,   3,  3300, 0, 0, 3298) /* MaxStamina */
+     , (44052,   5,   690, 0, 0, 690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44052, 67113143, 0, 0);

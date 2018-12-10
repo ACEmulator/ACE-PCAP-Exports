@@ -35,7 +35,6 @@ VALUES (35982,   1, False) /* Stuck */
      , (35982,  19, True ) /* Attackable */
      , (35982,  22, True ) /* Inscribable */
      , (35982,  69, False) /* IsSellable */
-     , (35982,  85, True ) /* AppraisalHasAllowedWielder */
      , (35982,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,8 +53,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35982,   1, 'Aegis of the Golden Flame') /* Name */
      , (35982,   7, 'In honor of one who stood strong and held back the Shadows of this world.') /* Inscription */
      , (35982,   8, 'The Knights of the Golden Flame') /* ScribeName */
-     , (35982,  16, 'A shield forged from Pure Mana and Flame.  This Aegis is the ultimate expression of the heraldry of the Knights of the Golden Flame upon Dereth.') /* LongDesc */
-     , (35982,  25, 'Ip Man') /* CraftsmanName */;
+     , (35982,  16, 'A shield forged from Pure Mana and Flame.  This Aegis is the ultimate expression of the heraldry of the Knights of the Golden Flame upon Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35982,   1,   33560366) /* Setup */

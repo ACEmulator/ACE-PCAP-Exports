@@ -8,12 +8,8 @@ VALUES (5960,   1,       8192) /* ItemType - Writable */
      , (5960,   5,         30) /* EncumbranceVal */
      , (5960,  16,          8) /* ItemUseable - Contained */
      , (5960,  19,        200) /* Value */
-     , (5960,  33,          0) /* Bonded - Normal */
      , (5960,  65,        101) /* Placement - Resting */
-     , (5960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5960, 114,          0) /* Attuned - Normal */
-     , (5960, 174,          1) /* AppraisalPages */
-     , (5960, 175,          1) /* AppraisalMaxPages */;
+     , (5960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5960,   1, False) /* Stuck */
@@ -29,7 +25,6 @@ VALUES (5960,  39,     1.5) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5960,   1, 'Scroll of Cooking Mastery Self V') /* Name */
      , (5960,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (5960,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */
      , (5960,  16, 'Inscribed spell: Cooking Mastery Self V
 Increases the caster''s Cooking skill by 30 points.') /* LongDesc */;
 
@@ -37,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5960,   1,   33554826) /* Setup */
      , (5960,   8,  100676451) /* Icon */
      , (5960,  22,  872415275) /* PhysicsEffectTable */
-     , (5960,  28,       1719) /* Spell */
+     , (5960,  28,       1719) /* Spell - CookingMasterySelf5 */
      , (5960, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5960, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5960, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

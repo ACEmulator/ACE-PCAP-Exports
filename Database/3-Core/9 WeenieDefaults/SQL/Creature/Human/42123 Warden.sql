@@ -6,33 +6,15 @@ VALUES (42123, 'ace42123-warden', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42123,   1,         16) /* ItemType - Creature */
      , (42123,   2,         31) /* CreatureType - Human */
-     , (42123,   5,       1803) /* EncumbranceVal */
      , (42123,   6,        255) /* ItemsCapacity */
      , (42123,   7,        255) /* ContainersCapacity */
      , (42123,  16,         32) /* ItemUseable - Remote */
-     , (42123,  19,      26527) /* Value */
      , (42123,  25,        150) /* Level */
-     , (42123,  28,        302) /* ArmorLevel */
      , (42123,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (42123,  95,          8) /* RadarBlipColor - Yellow */
-     , (42123, 105,          6) /* ItemWorkmanship */
-     , (42123, 106,        370) /* ItemSpellcraft */
-     , (42123, 107,       1494) /* ItemCurMana */
-     , (42123, 108,       1494) /* ItemMaxMana */
-     , (42123, 109,        262) /* ItemDifficulty */
-     , (42123, 110,          0) /* ItemAllegianceRankLimit */
      , (42123, 113,          2) /* Gender - Female */
-     , (42123, 115,        273) /* ItemSkillLevelLimit */
-     , (42123, 131,         60) /* MaterialType - Gold */
      , (42123, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42123, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42123, 158,          7) /* WieldRequirements - Level */
-     , (42123, 159,          1) /* WieldSkilltype - Axe */
-     , (42123, 160,        150) /* WieldDifficulty */
-     , (42123, 172,          5) /* AppraisalLongDescDecoration */
-     , (42123, 176,          7) /* AppraisalItemSkill */
-     , (42123, 177,          4) /* GemCount */
-     , (42123, 178,         39) /* GemType */
      , (42123, 188,          3) /* HeritageGroup - Sho */
      , (42123, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -44,25 +26,14 @@ VALUES (42123,   1, True ) /* Stuck */
      , (42123,  14, True ) /* GravityStatus */
      , (42123,  19, False) /* Attackable */
      , (42123,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (42123,  42, True ) /* AllowEdgeSlide */
-     , (42123, 100, True ) /* Dyable */;
+     , (42123,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (42123,   5, -0.0666666666666667) /* ManaRate */
-     , (42123,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (42123,  14,       1) /* ArmorModVsPierce */
-     , (42123,  15,       1) /* ArmorModVsBludgeon */
-     , (42123,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (42123,  17, 1.28899884223938) /* ArmorModVsFire */
-     , (42123,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (42123,  19, 0.849595844745636) /* ArmorModVsElectric */
-     , (42123,  54,       3) /* UseRadius */
-     , (42123, 165,       1) /* ArmorModVsNether */;
+VALUES (42123,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42123,   1, 'Warden') /* Name */
      , (42123,   5, 'Portal Warden') /* Template */
-     , (42123,  16, 'Diforsa Hauberk of Strength') /* LongDesc */
      , (42123, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -100,13 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42123,   1,   175, 0, 0, 175) /* MaxHealth */
      , (42123,   3,   300, 0, 0, 300) /* MaxStamina */
      , (42123,   5,   200, 0, 0, 200) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42123,  1486,      2) 
-     , (42123,  1574,      2) 
-     , (42123,  2087,      2) 
-     , (42123,  4227,      2) 
-     , (42123,  4397,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42123, 67109969, 92, 4)

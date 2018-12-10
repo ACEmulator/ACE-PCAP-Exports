@@ -6,26 +6,15 @@ VALUES (22909, 'shadowmaelstrom', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22909,   1,         16) /* ItemType - Creature */
      , (22909,   2,         22) /* CreatureType - Shadow */
-     , (22909,   5,         23) /* EncumbranceVal */
      , (22909,   6,        255) /* ItemsCapacity */
      , (22909,   7,        255) /* ContainersCapacity */
      , (22909,  16,          1) /* ItemUseable - No */
      , (22909,  25,        100) /* Level */
-     , (22909,  44,         -1) /* Damage */
-     , (22909,  45,          0) /* DamageType - Undef */
-     , (22909,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (22909,  49,         -1) /* WeaponTime */
      , (22909,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22909, 113,          2) /* Gender - Female */
      , (22909, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (22909, 188,          1) /* HeritageGroup - Aluvian */
-     , (22909, 307,          5) /* DamageRating */
-     , (22909, 313,          0) /* CritRating */
-     , (22909, 314,          0) /* CritDamageRating */
-     , (22909, 353,         10) /* WeaponType - Thrown */
-     , (22909, 386,          0) /* Overpower */
-     , (22909, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (22909, 8030,          0);
+     , (22909, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22909,   1, True ) /* Stuck */
@@ -36,16 +25,8 @@ VALUES (22909,   1, True ) /* Stuck */
      , (22909,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22909,  21,       0) /* WeaponLength */
-     , (22909,  22,    0.25) /* DamageVariance */
-     , (22909,  26,       0) /* MaximumVelocity */
-     , (22909,  29,       1) /* WeaponDefense */
-     , (22909,  39, 1.29999995231628) /* DefaultScale */
-     , (22909,  62,       1) /* WeaponOffense */
-     , (22909,  63,       1) /* DamageMod */
-     , (22909,  76,     0.5) /* Translucency */
-     , (22909, 149,       0) /* WeaponMissileDefense */
-     , (22909, 150,       0) /* WeaponMagicDefense */;
+VALUES (22909,  39, 1.29999995231628) /* DefaultScale */
+     , (22909,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22909,   1, 'Maelstrom Shadow') /* Name */

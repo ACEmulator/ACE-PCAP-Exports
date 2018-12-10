@@ -6,24 +6,12 @@ VALUES (11526, 'gromnieebon_xp', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11526,   1,         16) /* ItemType - Creature */
      , (11526,   2,         15) /* CreatureType - Gromnie */
-     , (11526,   5,       1515) /* EncumbranceVal */
      , (11526,   6,        255) /* ItemsCapacity */
      , (11526,   7,        255) /* ContainersCapacity */
      , (11526,  16,          1) /* ItemUseable - No */
-     , (11526,  19,       4613) /* Value */
      , (11526,  25,         80) /* Level */
-     , (11526,  28,        151) /* ArmorLevel */
      , (11526,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11526, 105,          3) /* ItemWorkmanship */
-     , (11526, 106,        102) /* ItemSpellcraft */
-     , (11526, 107,        477) /* ItemCurMana */
-     , (11526, 108,        477) /* ItemMaxMana */
-     , (11526, 109,        102) /* ItemDifficulty */
-     , (11526, 110,          0) /* ItemAllegianceRankLimit */
-     , (11526, 115,          0) /* ItemSkillLevelLimit */
-     , (11526, 131,         63) /* MaterialType - Silver */
      , (11526, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11526, 172,          1) /* AppraisalLongDescDecoration */
      , (11526, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -31,24 +19,13 @@ VALUES (11526,   1, True ) /* Stuck */
      , (11526,  12, True ) /* ReportCollisions */
      , (11526,  13, False) /* Ethereal */
      , (11526,  14, True ) /* GravityStatus */
-     , (11526,  19, True ) /* Attackable */
-     , (11526, 100, True ) /* Dyable */;
+     , (11526,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11526,   5,  -0.025) /* ManaRate */
-     , (11526,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (11526,  14,       1) /* ArmorModVsPierce */
-     , (11526,  15, 0.800000011920929) /* ArmorModVsBludgeon */
-     , (11526,  16, 0.600000023841858) /* ArmorModVsCold */
-     , (11526,  17, 0.600000023841858) /* ArmorModVsFire */
-     , (11526,  18,     0.5) /* ArmorModVsAcid */
-     , (11526,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (11526,  77,       1) /* PhysicsScriptIntensity */
-     , (11526, 165,       1) /* ArmorModVsNether */;
+VALUES (11526,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11526,   1, 'Ebon Gromnie') /* Name */
-     , (11526,  16, 'Chainmail Leggings') /* LongDesc */
      , (11526, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -82,10 +59,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (11526,   1,   300, 0, 0, 300) /* MaxHealth */
      , (11526,   3,   230, 0, 0, 230) /* MaxStamina */
      , (11526,   5,   105, 0, 0, 105) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11526,  1482,      2) 
-     , (11526,  1549,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11526, 67116469, 0, 0);

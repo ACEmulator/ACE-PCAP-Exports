@@ -6,11 +6,9 @@ VALUES (32820, 'ace32820-giordonni', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32820,   1,         16) /* ItemType - Creature */
      , (32820,   2,         31) /* CreatureType - Human */
-     , (32820,   5,       9552) /* EncumbranceVal */
      , (32820,   6,        255) /* ItemsCapacity */
      , (32820,   7,        255) /* ContainersCapacity */
      , (32820,  16,         32) /* ItemUseable - Remote */
-     , (32820,  19,          0) /* Value */
      , (32820,  25,         60) /* Level */
      , (32820,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32820,  95,          8) /* RadarBlipColor - Yellow */
@@ -36,7 +34,6 @@ VALUES (32820,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32820,   1, 'Giordonni') /* Name */
      , (32820,   5, 'Plumber') /* Template */
-     , (32820,  16, 'Killed by Mag-five.') /* LongDesc */
      , (32820, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

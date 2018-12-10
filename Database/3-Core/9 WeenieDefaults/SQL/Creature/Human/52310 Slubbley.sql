@@ -6,40 +6,16 @@ VALUES (52310, 'ace52310-slubbley', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52310,   1,         16) /* ItemType - Creature */
      , (52310,   2,         31) /* CreatureType - Human */
-     , (52310,   5,       2400) /* EncumbranceVal */
      , (52310,   6,        255) /* ItemsCapacity */
      , (52310,   7,        255) /* ContainersCapacity */
      , (52310,  16,         32) /* ItemUseable - Remote */
-     , (52310,  19,      13434) /* Value */
      , (52310,  25,        275) /* Level */
-     , (52310,  28,        217) /* ArmorLevel */
-     , (52310,  33,          0) /* Bonded - Normal */
-     , (52310,  91,         50) /* MaxStructure */
-     , (52310,  92,         50) /* Structure */
      , (52310,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52310,  95,          8) /* RadarBlipColor - Yellow */
-     , (52310, 105,          6) /* ItemWorkmanship */
-     , (52310, 106,        202) /* ItemSpellcraft */
-     , (52310, 107,       1214) /* ItemCurMana */
-     , (52310, 108,       1214) /* ItemMaxMana */
-     , (52310, 109,         91) /* ItemDifficulty */
-     , (52310, 110,          0) /* ItemAllegianceRankLimit */
      , (52310, 113,          2) /* Gender - Female */
-     , (52310, 114,          0) /* Attuned - Normal */
-     , (52310, 115,        222) /* ItemSkillLevelLimit */
-     , (52310, 131,         60) /* MaterialType - Gold */
      , (52310, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52310, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (52310, 172,          1) /* AppraisalLongDescDecoration */
-     , (52310, 176,          6) /* AppraisalItemSkill */
      , (52310, 188,          3) /* HeritageGroup - Sho */
-     , (52310, 280,        213) /* SharedCooldown */
-     , (52310, 366,         54) /* UseRequiresSkill */
-     , (52310, 367,        430) /* UseRequiresSkillLevel */
-     , (52310, 369,        115) /* UseRequiresLevel */
-     , (52310, 373,          7) /* GearCritResist */
-     , (52310, 374,         10) /* GearCritDamage */
-     , (52310, 375,         11) /* GearCritDamageResist */
      , (52310, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,28 +26,14 @@ VALUES (52310,   1, True ) /* Stuck */
      , (52310,  14, True ) /* GravityStatus */
      , (52310,  19, False) /* Attackable */
      , (52310,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (52310,  42, True ) /* AllowEdgeSlide */
-     , (52310,  69, True ) /* IsSellable */
-     , (52310, 100, True ) /* Dyable */;
+     , (52310,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (52310,   5,   -0.05) /* ManaRate */
-     , (52310,  13, 1.29999995231628) /* ArmorModVsSlash */
-     , (52310,  14,       1) /* ArmorModVsPierce */
-     , (52310,  15,       1) /* ArmorModVsBludgeon */
-     , (52310,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (52310,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (52310,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (52310,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (52310,  54,       3) /* UseRadius */
-     , (52310, 165,       1) /* ArmorModVsNether */
-     , (52310, 167,      45) /* CooldownDuration */;
+VALUES (52310,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52310,   1, 'Slubbley') /* Name */
      , (52310,   5, 'Caretaker') /* Template */
-     , (52310,  14, 'Use this essence to summon or dismiss your Frost Grievver.') /* Use */
-     , (52310,  16, 'Celdon Leggings of Strength') /* LongDesc */
      , (52310, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -109,12 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (52310,   1,   326, 0, 0, 326) /* MaxHealth */
      , (52310,   3,   456, 0, 0, 456) /* MaxStamina */
      , (52310,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52310,  1331,      2) 
-     , (52310,  1485,      2) 
-     , (52310,  1551,      2) 
-     , (52310,  1573,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52310, 67109565, 32, 8)

@@ -10,29 +10,9 @@ VALUES (22787,   1,          1) /* ItemType - MeleeWeapon */
      , (22787,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (22787,  16,          1) /* ItemUseable - No */
      , (22787,  19,         30) /* Value */
-     , (22787,  44,         14) /* Damage */
-     , (22787,  45,          2) /* DamageType - Pierce */
-     , (22787,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (22787,  49,         10) /* WeaponTime */
      , (22787,  51,          1) /* CombatUse - Melee */
      , (22787,  65,          1) /* Placement - RightHandCombat */
-     , (22787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22787, 105,          8) /* ItemWorkmanship */
-     , (22787, 106,        288) /* ItemSpellcraft */
-     , (22787, 107,       3467) /* ItemCurMana */
-     , (22787, 108,       3467) /* ItemMaxMana */
-     , (22787, 109,        288) /* ItemDifficulty */
-     , (22787, 110,          0) /* ItemAllegianceRankLimit */
-     , (22787, 115,          0) /* ItemSkillLevelLimit */
-     , (22787, 131,         49) /* MaterialType - YellowTopaz */
-     , (22787, 158,          2) /* WieldRequirements - RawSkill */
-     , (22787, 159,         34) /* WieldSkilltype - WarMagic */
-     , (22787, 160,        290) /* WieldDifficulty */
-     , (22787, 172,          5) /* AppraisalLongDescDecoration */
-     , (22787, 177,          1) /* GemCount */
-     , (22787, 178,         22) /* GemType */
-     , (22787, 353,         10) /* WeaponType - Thrown */
-     , (22787, 8030,          0);
+     , (22787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22787,   1, False) /* Stuck */
@@ -43,20 +23,10 @@ VALUES (22787,   1, False) /* Stuck */
      , (22787,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22787,   5, -0.0555555555555556) /* ManaRate */
-     , (22787,  21,       0) /* WeaponLength */
-     , (22787,  22,    0.25) /* DamageVariance */
-     , (22787,  26,       0) /* MaximumVelocity */
-     , (22787,  29,    1.09) /* WeaponDefense */
-     , (22787,  39,    1.25) /* DefaultScale */
-     , (22787,  62,       1) /* WeaponOffense */
-     , (22787,  63,       1) /* DamageMod */
-     , (22787, 144,    0.08) /* ManaConversionMod */
-     , (22787, 152,    1.03) /* ElementalDamageMod */;
+VALUES (22787,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22787,   1, 'Knife') /* Name */
-     , (22787,  16, 'Piercing Baton of Flame') /* LongDesc */;
+VALUES (22787,   1, 'Knife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22787,   1,   33554745) /* Setup */
@@ -77,13 +47,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22787,   3, 3691246201) /* Wielder */
      , (22787, 8000, 3689978798) /* PCAPRecordedObjectIID */
      , (22787, 8008, 3691246201) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22787,    85,      2) 
-     , (22787,  1605,      2) 
-     , (22787,  2117,      2) 
-     , (22787,  2251,      2) 
-     , (22787,  2287,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22787, 67111920, 0, 0);

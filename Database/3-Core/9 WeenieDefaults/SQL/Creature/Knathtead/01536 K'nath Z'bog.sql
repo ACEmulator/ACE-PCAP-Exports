@@ -11,10 +11,7 @@ VALUES (1536,   1,         16) /* ItemType - Creature */
      , (1536,  16,          1) /* ItemUseable - No */
      , (1536,  25,          8) /* Level */
      , (1536,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1536, 113,          2) /* Gender - Female */
      , (1536, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1536, 188,          1) /* HeritageGroup - Aluvian */
-     , (1536, 307,          4) /* DamageRating */
      , (1536, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,12 +33,6 @@ VALUES (1536,   1,   33555631) /* Setup */
      , (1536,   2,  150994994) /* MotionTable */
      , (1536,   3,  536870984) /* SoundTable */
      , (1536,   8,  100668443) /* Icon */
-     , (1536,   9,   83890260) /* EyesTexture */
-     , (1536,  10,   83890308) /* NoseTexture */
-     , (1536,  11,   83890356) /* MouthTexture */
-     , (1536,  15,   67117075) /* HairPalette */
-     , (1536,  16,   67109566) /* EyesPalette */
-     , (1536,  17,   67109559) /* SkinPalette */
      , (1536,  22,  872415261) /* PhysicsEffectTable */
      , (1536, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1536, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

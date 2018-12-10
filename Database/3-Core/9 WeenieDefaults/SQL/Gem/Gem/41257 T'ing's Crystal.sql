@@ -40,7 +40,7 @@ VALUES (41257,   1,   33554809) /* Setup */
      , (41257,   3,  536870932) /* SoundTable */
      , (41257,   8,  100686697) /* Icon */
      , (41257,  22,  872415275) /* PhysicsEffectTable */
-     , (41257,  28,       5026) /* Spell */
+     , (41257,  28,       5026) /* Spell - TwoHandedMasteryRare */
      , (41257,  50,  100690691) /* IconOverlay */
      , (41257,  52,  100686604) /* IconUnderlay */
      , (41257, 8001, 1349021840) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

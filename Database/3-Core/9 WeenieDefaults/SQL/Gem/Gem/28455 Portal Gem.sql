@@ -45,7 +45,7 @@ VALUES (28455,   1,   33556769) /* Setup */
      , (28455,   6,   67111919) /* PaletteBase */
      , (28455,   8,  100672368) /* Icon */
      , (28455,  22,  872415275) /* PhysicsEffectTable */
-     , (28455,  28,       3411) /* Spell */
+     , (28455,  28,       3411) /* Spell - PortalSendingMorgluukReward */
      , (28455, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (28455, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (28455, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

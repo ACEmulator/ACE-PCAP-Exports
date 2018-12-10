@@ -10,20 +10,10 @@ VALUES (47637,   1,          1) /* ItemType - MeleeWeapon */
      , (47637,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47637,  16,          1) /* ItemUseable - No */
      , (47637,  19,        460) /* Value */
-     , (47637,  28,        284) /* ArmorLevel */
      , (47637,  51,          1) /* CombatUse - Melee */
      , (47637,  65,          1) /* Placement - RightHandCombat */
      , (47637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47637, 105,          8) /* ItemWorkmanship */
-     , (47637, 131,         54) /* MaterialType - GromnieHide */
-     , (47637, 151,          2) /* HookType - Wall */
-     , (47637, 158,          7) /* WieldRequirements - Level */
-     , (47637, 159,          1) /* WieldSkilltype - Axe */
-     , (47637, 160,        180) /* WieldDifficulty */
-     , (47637, 172,          5) /* AppraisalLongDescDecoration */
-     , (47637, 177,          4) /* GemCount */
-     , (47637, 178,         16) /* GemType */
-     , (47637, 280,        100) /* SharedCooldown */;
+     , (47637, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47637,   1, False) /* Stuck */
@@ -31,24 +21,10 @@ VALUES (47637,   1, False) /* Stuck */
      , (47637,  13, True ) /* Ethereal */
      , (47637,  14, True ) /* GravityStatus */
      , (47637,  19, True ) /* Attackable */
-     , (47637,  22, True ) /* Inscribable */
-     , (47637,  69, False) /* IsSellable */
-     , (47637, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47637,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (47637,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47637,  15,       1) /* ArmorModVsBludgeon */
-     , (47637,  16,     0.5) /* ArmorModVsCold */
-     , (47637,  17,     0.5) /* ArmorModVsFire */
-     , (47637,  18, 1.03616428375244) /* ArmorModVsAcid */
-     , (47637,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (47637, 165,       1) /* ArmorModVsNether */
-     , (47637, 167,       2) /* CooldownDuration */;
+     , (47637,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47637,   1, 'Tachi') /* Name */
-     , (47637,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal sword. (Recommended Levels 180+)') /* LongDesc */;
+VALUES (47637,   1, 'Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47637,   1,   33554742) /* Setup */

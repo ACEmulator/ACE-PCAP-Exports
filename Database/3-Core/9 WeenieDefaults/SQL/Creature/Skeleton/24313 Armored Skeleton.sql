@@ -6,31 +6,13 @@ VALUES (24313, 'skeletonarmored', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24313,   1,         16) /* ItemType - Creature */
      , (24313,   2,         30) /* CreatureType - Skeleton */
-     , (24313,   5,         57) /* EncumbranceVal */
      , (24313,   6,        255) /* ItemsCapacity */
      , (24313,   7,        255) /* ContainersCapacity */
      , (24313,  16,          1) /* ItemUseable - No */
-     , (24313,  19,      17359) /* Value */
      , (24313,  25,        100) /* Level */
-     , (24313,  28,          0) /* ArmorLevel */
      , (24313,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24313, 105,         10) /* ItemWorkmanship */
-     , (24313, 106,        370) /* ItemSpellcraft */
-     , (24313, 107,       2241) /* ItemCurMana */
-     , (24313, 108,       2241) /* ItemMaxMana */
-     , (24313, 109,        381) /* ItemDifficulty */
-     , (24313, 110,          0) /* ItemAllegianceRankLimit */
-     , (24313, 115,          0) /* ItemSkillLevelLimit */
-     , (24313, 131,          7) /* MaterialType - Velvet */
      , (24313, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24313, 158,          7) /* WieldRequirements - Level */
-     , (24313, 159,          1) /* WieldSkilltype - Axe */
-     , (24313, 160,        180) /* WieldDifficulty */
-     , (24313, 172,          5) /* AppraisalLongDescDecoration */
-     , (24313, 177,          3) /* GemCount */
-     , (24313, 178,         21) /* GemType */
      , (24313, 307,          5) /* DamageRating */
-     , (24313, 370,          1) /* GearDamage */
      , (24313, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,23 +20,10 @@ VALUES (24313,   1, True ) /* Stuck */
      , (24313,  12, True ) /* ReportCollisions */
      , (24313,  13, False) /* Ethereal */
      , (24313,  14, True ) /* GravityStatus */
-     , (24313,  19, True ) /* Attackable */
-     , (24313, 100, True ) /* Dyable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24313,   5, -0.0666666666666667) /* ManaRate */
-     , (24313,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (24313,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (24313,  15,       1) /* ArmorModVsBludgeon */
-     , (24313,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (24313,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (24313,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (24313,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (24313, 165,       1) /* ArmorModVsNether */;
+     , (24313,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24313,   1, 'Armored Skeleton') /* Name */
-     , (24313,  16, 'Tunic of Blade Protection') /* LongDesc */
      , (24313, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,10 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24313,   1,   433, 0, 0, 433) /* MaxHealth */
      , (24313,   3,   535, 0, 0, 535) /* MaxStamina */
      , (24313,   5,   215, 0, 0, 215) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24313,  2525,      2) 
-     , (24313,  4462,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24313, 67116527, 0, 0);

@@ -14,17 +14,7 @@ VALUES (47497,   1,          1) /* ItemType - MeleeWeapon */
      , (47497,  51,          1) /* CombatUse - Melee */
      , (47497,  65,          1) /* Placement - RightHandCombat */
      , (47497,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47497, 105,          6) /* ItemWorkmanship */
-     , (47497, 106,        300) /* ItemSpellcraft */
-     , (47497, 107,        545) /* ItemCurMana */
-     , (47497, 108,        545) /* ItemMaxMana */
-     , (47497, 109,          0) /* ItemDifficulty */
-     , (47497, 110,          0) /* ItemAllegianceRankLimit */
-     , (47497, 115,          0) /* ItemSkillLevelLimit */
-     , (47497, 117,        350) /* ItemManaCost */
-     , (47497, 131,         33) /* MaterialType - Opal */
-     , (47497, 151,          2) /* HookType - Wall */
-     , (47497, 172,          1) /* AppraisalLongDescDecoration */;
+     , (47497, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47497,   1, False) /* Stuck */
@@ -35,8 +25,7 @@ VALUES (47497,   1, False) /* Stuck */
      , (47497,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47497,   1, 'Frost Mace') /* Name */
-     , (47497,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (47497,   1, 'Frost Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47497,   1,   33555741) /* Setup */
@@ -57,9 +46,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47497,   3, 3694248051) /* Wielder */
      , (47497, 8000, 3694248108) /* PCAPRecordedObjectIID */
      , (47497, 8008, 3694248051) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (47497,  2061,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47497, 67111920, 0, 0);

@@ -44,17 +44,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28649, 8000, 3703649071) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (28649,   1, 190, 0, 0) /* Strength */
-     , (28649,   2, 150, 0, 0) /* Endurance */
-     , (28649,   3,  60, 0, 0) /* Quickness */
-     , (28649,   4,  60, 0, 0) /* Coordination */
-     , (28649,   5,  30, 0, 0) /* Focus */
-     , (28649,   6,  20, 0, 0) /* Self */;
+VALUES (28649,   1, 120, 0, 0) /* Strength */
+     , (28649,   2,  90, 0, 0) /* Endurance */
+     , (28649,   3, 130, 0, 0) /* Quickness */
+     , (28649,   4,  80, 0, 0) /* Coordination */
+     , (28649,   5, 110, 0, 0) /* Focus */
+     , (28649,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (28649,   1,   120, 0, 0, 120) /* MaxHealth */
-     , (28649,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (28649,   5,    20, 0, 0, 20) /* MaxMana */;
+     , (28649,   3,   140, 0, 0, 140) /* MaxStamina */
+     , (28649,   5,   175, 0, 0, 175) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28649, 67116327, 0, 0);

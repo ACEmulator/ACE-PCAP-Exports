@@ -34,8 +34,6 @@ VALUES (9245,  13, 1.39999997615814) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9245,   1, 'Snake Skin Coat') /* Name */
-     , (9245,   7, 'Honk honk') /* Inscription */
-     , (9245,   8, 'Killerwolf') /* ScribeName */
      , (9245,  16, 'A coat made out of the hide of a sclavus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

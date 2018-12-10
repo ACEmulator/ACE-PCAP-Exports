@@ -54,8 +54,6 @@ VALUES (25632,   5, -0.025000000372529) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25632,   1, 'Electric Weeping Sword') /* Name */
-     , (25632,   7, 'Blistered by lightning New Breed falls!Your lightning coruscates over Den-Ru Chang''s mortal remains! WE LUB U COP!!!!!') /* Inscription */
-     , (25632,   8, 'Havokk') /* ScribeName */
      , (25632,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

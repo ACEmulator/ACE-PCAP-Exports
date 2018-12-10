@@ -6,26 +6,14 @@ VALUES (4101, 'tumerokfighterarcher', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4101,   1,         16) /* ItemType - Creature */
      , (4101,   2,          6) /* CreatureType - Tumerok */
-     , (4101,   5,       6300) /* EncumbranceVal */
      , (4101,   6,        255) /* ItemsCapacity */
      , (4101,   7,        255) /* ContainersCapacity */
      , (4101,  16,          1) /* ItemUseable - No */
-     , (4101,  19,          0) /* Value */
      , (4101,  25,         20) /* Level */
-     , (4101,  33,         -2) /* Bonded - Destroy */
-     , (4101,  44,        610) /* Damage */
-     , (4101,  45,          2) /* DamageType - Pierce */
-     , (4101,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (4101,  49,         10) /* WeaponTime */
      , (4101,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4101, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4101, 307,          5) /* DamageRating */
-     , (4101, 313,          0) /* CritRating */
-     , (4101, 314,          0) /* CritDamageRating */
-     , (4101, 353,         10) /* WeaponType - Thrown */
-     , (4101, 386,          0) /* Overpower */
-     , (4101, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (4101, 8030,          0);
+     , (4101, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4101,   1, True ) /* Stuck */
@@ -35,20 +23,10 @@ VALUES (4101,   1, True ) /* Stuck */
      , (4101,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4101,  21,       0) /* WeaponLength */
-     , (4101,  22,     0.5) /* DamageVariance */
-     , (4101,  26, 23.2000007629395) /* MaximumVelocity */
-     , (4101,  29,       1) /* WeaponDefense */
-     , (4101,  39, 1.10000002384186) /* DefaultScale */
-     , (4101,  62,       1) /* WeaponOffense */
-     , (4101,  63,       1) /* DamageMod */
-     , (4101, 147,       1) /* CriticalFrequency */
-     , (4101, 149,       0) /* WeaponMissileDefense */
-     , (4101, 150,       0) /* WeaponMagicDefense */;
+VALUES (4101,  39, 1.10000002384186) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4101,   1, 'Tumerok Fighter') /* Name */
-     , (4101,  16, 'Killed by Grievver Shredder.') /* LongDesc */
      , (4101, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

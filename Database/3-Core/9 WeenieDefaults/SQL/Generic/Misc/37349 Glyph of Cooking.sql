@@ -11,8 +11,6 @@ VALUES (37349,   1,        128) /* ItemType - Misc */
      , (37349,  16,          1) /* ItemUseable - No */
      , (37349,  19,      90000) /* Value */
      , (37349,  65,        101) /* Placement - Resting */
-     , (37349,  89,          6) /* BoosterEnum - Mana */
-     , (37349,  90,         85) /* BoostValue */
      , (37349,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -24,7 +22,6 @@ VALUES (37349,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37349,   1, 'Glyph of Cooking') /* Name */
-     , (37349,  14, 'Use this item to drink it.') /* Use */
      , (37349,  20, 'Glyphs of Cooking') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

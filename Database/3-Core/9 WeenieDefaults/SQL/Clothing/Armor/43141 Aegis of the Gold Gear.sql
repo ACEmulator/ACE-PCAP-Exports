@@ -24,10 +24,7 @@ VALUES (43141,   1,          2) /* ItemType - Armor */
      , (43141, 160,        180) /* WieldDifficulty */
      , (43141, 270,          1) /* WieldRequirements2 - Skill */
      , (43141, 271,         48) /* WieldSkilltype2 - Shield */
-     , (43141, 272,        475) /* WieldDifficulty2 */
-     , (43141, 276,          0) /* WieldRequirements4 - Invalid */
-     , (43141, 277,          0) /* WieldSkilltype4 - None */
-     , (43141, 278,          0) /* WieldDifficulty4 */;
+     , (43141, 272,        475) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43141,   1, False) /* Stuck */
@@ -36,8 +33,7 @@ VALUES (43141,   1, False) /* Stuck */
      , (43141,  14, True ) /* GravityStatus */
      , (43141,  19, True ) /* Attackable */
      , (43141,  22, True ) /* Inscribable */
-     , (43141,  91, True ) /* Retained */
-     , (43141, 100, False) /* Dyable */;
+     , (43141,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43141,   5,  -0.025) /* ManaRate */
@@ -53,8 +49,6 @@ VALUES (43141,   5,  -0.025) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43141,   1, 'Aegis of the Gold Gear') /* Name */
-     , (43141,   7, 'For Jelly --- Your a dirty sack of shit but I <3 you') /* Inscription */
-     , (43141,   8, 'Inhalation') /* ScribeName */
      , (43141,  16, 'An Aegis, crafted in the Gear Knight style out of a chunk of Aetherium that has been augmented with small amounts of Chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,58 +6,27 @@ VALUES (35983, 'ace35983-penumbralterror', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35983,   1,         16) /* ItemType - Creature */
      , (35983,   2,         44) /* CreatureType - Grievver */
-     , (35983,   5,          5) /* EncumbranceVal */
      , (35983,   6,        255) /* ItemsCapacity */
      , (35983,   7,        255) /* ContainersCapacity */
      , (35983,  16,          1) /* ItemUseable - No */
-     , (35983,  19,          1) /* Value */
      , (35983,  25,        160) /* Level */
-     , (35983,  44,         40) /* Damage */
-     , (35983,  45,          1) /* DamageType - Slash */
-     , (35983,  48,          0) /* WeaponSkill - None */
-     , (35983,  49,         -1) /* WeaponTime */
      , (35983,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35983, 113,          1) /* Gender - Male */
      , (35983, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35983, 158,          2) /* WieldRequirements - RawSkill */
-     , (35983, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (35983, 160,        270) /* WieldDifficulty */
-     , (35983, 179,          8) /* ImbuedEffect - SlashRending */
-     , (35983, 188,          1) /* HeritageGroup - Aluvian */
-     , (35983, 303,          8) /* ImbuedEffect2 - SlashRending */
-     , (35983, 304,          8) /* ImbuedEffect3 - SlashRending */
-     , (35983, 305,          8) /* ImbuedEffect4 - SlashRending */
-     , (35983, 306,          8) /* ImbuedEffect5 - SlashRending */
-     , (35983, 307,          5) /* DamageRating */
-     , (35983, 313,          0) /* CritRating */
-     , (35983, 314,          0) /* CritDamageRating */
-     , (35983, 386,          0) /* Overpower */
-     , (35983, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (35983, 8030,          0);
+     , (35983, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35983,   1, True ) /* Stuck */
      , (35983,  12, True ) /* ReportCollisions */
      , (35983,  13, False) /* Ethereal */
      , (35983,  14, True ) /* GravityStatus */
-     , (35983,  19, True ) /* Attackable */
-     , (35983,  69, False) /* IsSellable */;
+     , (35983,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (35983,  21,       0) /* WeaponLength */
-     , (35983,  22,     0.2) /* DamageVariance */
-     , (35983,  26,       0) /* MaximumVelocity */
-     , (35983,  29,       1) /* WeaponDefense */
-     , (35983,  39, 1.60000002384186) /* DefaultScale */
-     , (35983,  62,       1) /* WeaponOffense */
-     , (35983,  63,       1) /* DamageMod */
-     , (35983,  77,       1) /* PhysicsScriptIntensity */
-     , (35983, 149,       0) /* WeaponMissileDefense */
-     , (35983, 150,       0) /* WeaponMagicDefense */;
+VALUES (35983,  39, 1.60000002384186) /* DefaultScale */
+     , (35983,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35983,   1, 'Penumbral Terror') /* Name */
-     , (35983,  16, 'Killed by Makor.') /* LongDesc */
      , (35983, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -66,12 +35,6 @@ VALUES (35983,   1,   33559621) /* Setup */
      , (35983,   3,  536871009) /* SoundTable */
      , (35983,   6,   67112927) /* PaletteBase */
      , (35983,   8,  100670960) /* Icon */
-     , (35983,   9,   83890495) /* EyesTexture */
-     , (35983,  10,   83890554) /* NoseTexture */
-     , (35983,  11,   83890663) /* MouthTexture */
-     , (35983,  15,   67116994) /* HairPalette */
-     , (35983,  16,   67110064) /* EyesPalette */
-     , (35983,  17,   67109560) /* SkinPalette */
      , (35983,  22,  872415331) /* PhysicsEffectTable */
      , (35983, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35983, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

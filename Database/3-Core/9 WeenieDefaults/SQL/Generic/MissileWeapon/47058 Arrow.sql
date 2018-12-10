@@ -35,7 +35,6 @@ VALUES (47058,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47058,   1, False) /* Stuck */
-     , (47058,   2, True ) /* Open */
      , (47058,  11, True ) /* IgnoreCollisions */
      , (47058,  13, True ) /* Ethereal */
      , (47058,  14, True ) /* GravityStatus */
@@ -56,9 +55,7 @@ VALUES (47058,  21,       0) /* WeaponLength */
      , (47058, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47058,   1, 'Arrow') /* Name */
-     , (47058,  14, 'Use this item to close it.') /* Use */
-     , (47058,  16, 'Killed by Sammet.') /* LongDesc */;
+VALUES (47058,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47058,   1,   33554724) /* Setup */

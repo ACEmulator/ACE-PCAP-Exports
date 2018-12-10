@@ -36,7 +36,6 @@ VALUES (36489,   1, False) /* Stuck */
      , (36489,  19, True ) /* Attackable */
      , (36489,  22, True ) /* Inscribable */
      , (36489,  69, False) /* IsSellable */
-     , (36489,  85, True ) /* AppraisalHasAllowedWielder */
      , (36489,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,17 +48,14 @@ VALUES (36489,   5, -0.0333000011742115) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36489,   1, 'Chilling Ebony Staff') /* Name */
-     , (36489,   7, '11/15/10') /* Inscription */
-     , (36489,   8, 'Dr Doom') /* ScribeName */
-     , (36489,  16, 'An ancient staff made of the darkest of ebony. Its head cradles a gem that possesses a chilling aura that could destroy all but the most magic resistant Humans. One who is skilled in the use of magical items may be able to harness this chilling aura''s power.') /* LongDesc */
-     , (36489,  25, 'Beale') /* CraftsmanName */;
+     , (36489,  16, 'An ancient staff made of the darkest of ebony. Its head cradles a gem that possesses a chilling aura that could destroy all but the most magic resistant Humans. One who is skilled in the use of magical items may be able to harness this chilling aura''s power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36489,   1,   33560392) /* Setup */
      , (36489,   3,  536870932) /* SoundTable */
      , (36489,   8,  100689642) /* Icon */
      , (36489,  22,  872415275) /* PhysicsEffectTable */
-     , (36489,  28,       4216) /* Spell */
+     , (36489,  28,       4216) /* Spell - FrostWaveOrisis */
      , (36489, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (36489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36489, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

@@ -10,32 +10,10 @@ VALUES (31251,   1,          1) /* ItemType - MeleeWeapon */
      , (31251,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (31251,  16,          1) /* ItemUseable - No */
      , (31251,  19,        500) /* Value */
-     , (31251,  44,         42) /* Damage */
-     , (31251,  45,          1) /* DamageType - Slash */
-     , (31251,  47,          4) /* AttackType - Slash */
-     , (31251,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (31251,  49,         22) /* WeaponTime */
      , (31251,  51,          1) /* CombatUse - Melee */
      , (31251,  65,          1) /* Placement - RightHandCombat */
      , (31251,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31251, 105,          9) /* ItemWorkmanship */
-     , (31251, 106,        319) /* ItemSpellcraft */
-     , (31251, 107,        794) /* ItemCurMana */
-     , (31251, 108,        794) /* ItemMaxMana */
-     , (31251, 109,        163) /* ItemDifficulty */
-     , (31251, 110,          0) /* ItemAllegianceRankLimit */
-     , (31251, 115,        339) /* ItemSkillLevelLimit */
-     , (31251, 131,         51) /* MaterialType - Ivory */
-     , (31251, 151,          2) /* HookType - Wall */
-     , (31251, 158,          2) /* WieldRequirements - RawSkill */
-     , (31251, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (31251, 160,        350) /* WieldDifficulty */
-     , (31251, 172,          5) /* AppraisalLongDescDecoration */
-     , (31251, 176,         46) /* AppraisalItemSkill */
-     , (31251, 177,          2) /* GemCount */
-     , (31251, 178,         21) /* GemType */
-     , (31251, 353,          3) /* WeaponType - Axe */
-     , (31251, 8030,          0);
+     , (31251, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31251,   1, False) /* Stuck */
@@ -46,19 +24,11 @@ VALUES (31251,   1, False) /* Stuck */
      , (31251,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31251,   5, -0.0555555555555556) /* ManaRate */
-     , (31251,  21,       0) /* WeaponLength */
-     , (31251,  22,    0.85) /* DamageVariance */
-     , (31251,  26,       0) /* MaximumVelocity */
-     , (31251,  29,    1.13) /* WeaponDefense */
-     , (31251,  39,       2) /* DefaultScale */
-     , (31251,  62,    1.14) /* WeaponOffense */
-     , (31251,  63,       1) /* DamageMod */
+VALUES (31251,  39,       2) /* DefaultScale */
      , (31251,  76, 0.699999988079071) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31251,   1, 'Lugian Mace') /* Name */
-     , (31251,  16, 'Shou-ono of Coordination') /* LongDesc */;
+VALUES (31251,   1, 'Lugian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31251,   1,   33554747) /* Setup */
@@ -78,10 +48,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31251,   3, 3703612685) /* Wielder */
      , (31251, 8000, 3703969659) /* PCAPRecordedObjectIID */
      , (31251, 8008, 3703612685) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31251,  1616,      2) 
-     , (31251,  2059,      2) 
-     , (31251,  2106,      2) 
-     , (31251,  2538,      2) 
-     , (31251,  2603,      2) ;

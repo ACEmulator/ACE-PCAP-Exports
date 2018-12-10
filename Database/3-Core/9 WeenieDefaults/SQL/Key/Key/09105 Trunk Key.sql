@@ -5,11 +5,9 @@ VALUES (9105, 'keysasalia', 22) /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9105,   1,      16384) /* ItemType - Key */
-     , (9105,   2,         46) /* CreatureType - Ursuin */
      , (9105,   5,         20) /* EncumbranceVal */
      , (9105,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (9105,  19,          5) /* Value */
-     , (9105,  25,          8) /* Level */
      , (9105,  33,          1) /* Bonded - Bonded */
      , (9105,  65,        101) /* Placement - Resting */
      , (9105,  91,          1) /* MaxStructure */
@@ -41,16 +39,3 @@ VALUES (9105,   1,   33554784) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9105,   2, 2879765716) /* Container */
      , (9105, 8000, 2879899271) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (9105,   1,  80, 0, 0) /* Strength */
-     , (9105,   2,  90, 0, 0) /* Endurance */
-     , (9105,   3,  50, 0, 0) /* Quickness */
-     , (9105,   4,  90, 0, 0) /* Coordination */
-     , (9105,   5,  50, 0, 0) /* Focus */
-     , (9105,   6,  20, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9105,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (9105,   3,   240, 0, 0, 240) /* MaxStamina */
-     , (9105,   5,    20, 0, 0, 20) /* MaxMana */;

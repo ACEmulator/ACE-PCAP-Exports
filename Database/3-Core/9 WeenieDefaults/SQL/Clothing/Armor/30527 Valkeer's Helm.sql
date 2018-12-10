@@ -24,8 +24,7 @@ VALUES (30527,   1,          2) /* ItemType - Armor */
      , (30527, 265,         40) /* EquipmentSetId - RareDamageResistance */
      , (30527, 319,         50) /* ItemMaxLevel */
      , (30527, 320,          1) /* ItemXpStyle - Fixed */
-     , (30527, 324,          6) /* HeritageSpecificArmor */
-     , (30527, 379,          1) /* GearMaxHealth */;
+     , (30527, 324,          6) /* HeritageSpecificArmor */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30527,   4, 100000000000) /* ItemTotalXp */
@@ -37,8 +36,7 @@ VALUES (30527,   1, False) /* Stuck */
      , (30527,  13, True ) /* Ethereal */
      , (30527,  14, True ) /* GravityStatus */
      , (30527,  19, True ) /* Attackable */
-     , (30527,  22, True ) /* Inscribable */
-     , (30527, 100, True ) /* Dyable */;
+     , (30527,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30527,   5, -0.0333333015441895) /* ManaRate */
@@ -53,8 +51,6 @@ VALUES (30527,   5, -0.0333333015441895) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30527,   1, 'Valkeer''s Helm') /* Name */
-     , (30527,   7, 'Bomb') /* Inscription */
-     , (30527,   8, 'Bombardment') /* ScribeName */
      , (30527,  14, 'This Aetherium core plating installs into the frame of a Gearknight to strengthen it.') /* Use */
      , (30527,  16, 'Helms of this type are one of the signature pieces of armor of elite group of Silveran warriors that called themselves the Valkeer. At first glance this helm would seem to be solely an ornamental piece. Delicate carvings cover the thin, almost fragile surface of the helm. However, its delicate nature belies its true strength. ') /* LongDesc */
      , (30527,  52, 'Core Helm Plating') /* GearPlatingName */;

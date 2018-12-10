@@ -30,7 +30,6 @@ VALUES (38482,   1,          2) /* ItemType - Armor */
      , (38482, 177,          2) /* GemCount */
      , (38482, 178,         23) /* GemType */
      , (38482, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38482, 374,          1) /* GearCritDamage */
      , (38482, 375,          1) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -75,14 +74,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38482, 8000, 2449261859) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38482,  2059,      2) 
-     , (38482,  2092,      2) 
+VALUES (38482,  2092,      2) 
      , (38482,  2098,      2) 
      , (38482,  2104,      2) 
-     , (38482,  2108,      2) 
      , (38482,  2207,      2) 
-     , (38482,  2534,      2) 
-     , (38482,  4391,      2) 
      , (38482,  4407,      2) 
      , (38482,  4700,      2) ;
 

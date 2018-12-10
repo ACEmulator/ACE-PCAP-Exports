@@ -24,8 +24,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2195,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2195,   1, 'Piece of parchment') /* Name */
-     , (2195,  16, 'Killed by Uncle P.') /* LongDesc */;
+VALUES (2195,   1, 'Piece of parchment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2195,   1,   33554773) /* Setup */

@@ -5,28 +5,16 @@ VALUES (7419, 'whitefireinfusion', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7419,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
-     , (7419,   2,         13) /* CreatureType - Golem */
      , (7419,   5,         15) /* EncumbranceVal */
      , (7419,  11,          1) /* MaxStackSize */
      , (7419,  12,          1) /* StackSize */
      , (7419,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7419,  19,       1500) /* Value */
-     , (7419,  25,        100) /* Level */
      , (7419,  33,          1) /* Bonded - Bonded */
      , (7419,  65,        101) /* Placement - Resting */
      , (7419,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7419,  94,          1) /* TargetType - MeleeWeapon */
-     , (7419, 105,          7) /* ItemWorkmanship */
-     , (7419, 106,        300) /* ItemSpellcraft */
-     , (7419, 107,        584) /* ItemCurMana */
-     , (7419, 108,        584) /* ItemMaxMana */
-     , (7419, 109,          0) /* ItemDifficulty */
-     , (7419, 110,          0) /* ItemAllegianceRankLimit */
-     , (7419, 114,          1) /* Attuned - Attuned */
-     , (7419, 115,          0) /* ItemSkillLevelLimit */
-     , (7419, 117,        350) /* ItemManaCost */
-     , (7419, 131,         21) /* MaterialType - Emerald */
-     , (7419, 172,          1) /* AppraisalLongDescDecoration */;
+     , (7419, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7419,   1, False) /* Stuck */
@@ -55,12 +43,6 @@ VALUES (7419,   1,   33555965) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7419,   2, 1342814975) /* Container */
      , (7419, 8000, 3682962575) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7419,   1,   540, 0, 0, 540) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7419,  2053,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7419, 67111927, 0, 0);

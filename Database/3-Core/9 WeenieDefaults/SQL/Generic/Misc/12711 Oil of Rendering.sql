@@ -18,7 +18,6 @@ VALUES (12711,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12711,   1, False) /* Stuck */
-     , (12711,   2, True ) /* Open */
      , (12711,  11, True ) /* IgnoreCollisions */
      , (12711,  13, True ) /* Ethereal */
      , (12711,  14, True ) /* GravityStatus */
@@ -31,8 +30,7 @@ VALUES (12711,  39, 1.20000004768372) /* DefaultScale */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12711,   1, 'Oil of Rendering') /* Name */
      , (12711,  14, 'Use this oil on a Training Weapon to create an Academy Weapon.') /* Use */
-     , (12711,  15, 'A small green bottle filled with a dark viscous substance. This oil was specially prepared for the Training Academy to enhance the quality of their weapons.') /* ShortDesc */
-     , (12711,  16, 'Killed by Mag-one.') /* LongDesc */;
+     , (12711,  15, 'A small green bottle filled with a dark viscous substance. This oil was specially prepared for the Training Academy to enhance the quality of their weapons.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12711,   1,   33555967) /* Setup */

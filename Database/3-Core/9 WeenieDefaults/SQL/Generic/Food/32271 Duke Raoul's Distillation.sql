@@ -39,7 +39,7 @@ VALUES (32271,   1,   33559128) /* Setup */
      , (32271,   3,  536870932) /* SoundTable */
      , (32271,   8,  100688499) /* Icon */
      , (32271,  22,  872415275) /* PhysicsEffectTable */
-     , (32271,  28,       3862) /* Spell */
+     , (32271,  28,       3862) /* Spell - DukeRaoulPride */
      , (32271,  50,  100687554) /* IconOverlay */
      , (32271,  52,  100687547) /* IconUnderlay */
      , (32271, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */

@@ -35,9 +35,6 @@ VALUES (12209,  13,     0.5) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12209,   1, 'Sclavus Mask') /* Name */
-     , (12209,   7, 'from Aon Mixed. Enjoy
-') /* Inscription */
-     , (12209,   8, 'Intensity') /* ScribeName */
      , (12209,  16, 'A finely sewed and oiled Sclavus head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

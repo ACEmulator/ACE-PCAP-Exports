@@ -14,8 +14,6 @@ VALUES (40688,   1,          2) /* ItemType - Armor */
      , (40688,  28,        399) /* ArmorLevel */
      , (40688,  36,       9999) /* ResistMagic */
      , (40688,  65,        101) /* Placement - Resting */
-     , (40688,  89,          2) /* BoosterEnum - Health */
-     , (40688,  90,         85) /* BoostValue */
      , (40688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40688, 105,          8) /* ItemWorkmanship */
      , (40688, 106,        370) /* ItemSpellcraft */
@@ -30,15 +28,12 @@ VALUES (40688,   1,          2) /* ItemType - Armor */
      , (40688, 159,          6) /* WieldSkilltype - MeleeDefense */
      , (40688, 160,        310) /* WieldDifficulty */
      , (40688, 172,          5) /* AppraisalLongDescDecoration */
-     , (40688, 176,          6) /* AppraisalItemSkill */
      , (40688, 177,          2) /* GemCount */
      , (40688, 178,         47) /* GemType */
      , (40688, 265,         28) /* EquipmentSetId - Coldproof */
      , (40688, 270,          7) /* WieldRequirements2 - Level */
      , (40688, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40688, 272,        180) /* WieldDifficulty2 */
-     , (40688, 374,          1) /* GearCritDamage */
-     , (40688, 375,          1) /* GearCritDamageResist */;
+     , (40688, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40688,   1, False) /* Stuck */
@@ -63,7 +58,6 @@ VALUES (40688,   5, -0.0666666666666667) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40688,   1, 'Olthoi Helm') /* Name */
-     , (40688,  14, 'Use this item to drink it.') /* Use */
      , (40688,  16, 'Olthoi Helm of Invulnerability') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -81,68 +75,11 @@ VALUES (40688,   2, 1343493255) /* Container */
      , (40688, 8000, 2174543104) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40688,   261,      2) 
-     , (40688,   779,      2) 
-     , (40688,   879,      2) 
-     , (40688,   951,      2) 
-     , (40688,  1486,      2) 
-     , (40688,  1498,      2) 
-     , (40688,  1528,      2) 
-     , (40688,  1552,      2) 
-     , (40688,  1562,      2) 
-     , (40688,  2092,      2) 
-     , (40688,  2094,      2) 
-     , (40688,  2098,      2) 
-     , (40688,  2102,      2) 
+VALUES (40688,  2094,      2) 
      , (40688,  2104,      2) 
      , (40688,  2108,      2) 
-     , (40688,  2110,      2) 
-     , (40688,  2113,      2) 
-     , (40688,  2233,      2) 
-     , (40688,  2245,      2) 
-     , (40688,  2251,      2) 
-     , (40688,  2281,      2) 
-     , (40688,  2501,      2) 
-     , (40688,  2502,      2) 
-     , (40688,  2504,      2) 
-     , (40688,  2505,      2) 
-     , (40688,  2513,      2) 
-     , (40688,  2514,      2) 
-     , (40688,  2523,      2) 
-     , (40688,  2524,      2) 
      , (40688,  2526,      2) 
-     , (40688,  2575,      2) 
-     , (40688,  2582,      2) 
-     , (40688,  2585,      2) 
-     , (40688,  2589,      2) 
-     , (40688,  2592,      2) 
-     , (40688,  2609,      2) 
-     , (40688,  2617,      2) 
-     , (40688,  4019,      2) 
-     , (40688,  4391,      2) 
-     , (40688,  4393,      2) 
-     , (40688,  4397,      2) 
-     , (40688,  4401,      2) 
-     , (40688,  4403,      2) 
-     , (40688,  4407,      2) 
-     , (40688,  4409,      2) 
-     , (40688,  4412,      2) 
-     , (40688,  4494,      2) 
-     , (40688,  4496,      2) 
-     , (40688,  4560,      2) 
-     , (40688,  4566,      2) 
-     , (40688,  4596,      2) 
-     , (40688,  4665,      2) 
-     , (40688,  4674,      2) 
-     , (40688,  4684,      2) 
-     , (40688,  4708,      2) 
-     , (40688,  4715,      2) 
-     , (40688,  5429,      2) 
-     , (40688,  5809,      2) 
-     , (40688,  5892,      2) 
-     , (40688,  5896,      2) 
-     , (40688,  6054,      2) 
-     , (40688,  6084,      2) ;
+     , (40688,  4560,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40688, 67116562, 250, 6)

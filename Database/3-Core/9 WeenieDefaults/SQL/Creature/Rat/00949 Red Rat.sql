@@ -6,55 +6,26 @@ VALUES (949, 'ratred', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (949,   1,         16) /* ItemType - Creature */
      , (949,   2,         10) /* CreatureType - Rat */
-     , (949,   5,       6575) /* EncumbranceVal */
      , (949,   6,        255) /* ItemsCapacity */
      , (949,   7,        255) /* ContainersCapacity */
      , (949,  16,          1) /* ItemUseable - No */
-     , (949,  19,          0) /* Value */
      , (949,  25,         15) /* Level */
-     , (949,  44,         20) /* Damage */
-     , (949,  45,          4) /* DamageType - Bludgeon */
-     , (949,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (949,  49,         10) /* WeaponTime */
      , (949,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (949, 105,          6) /* ItemWorkmanship */
-     , (949, 106,        296) /* ItemSpellcraft */
-     , (949, 107,       1416) /* ItemCurMana */
-     , (949, 108,       1416) /* ItemMaxMana */
-     , (949, 109,        335) /* ItemDifficulty */
-     , (949, 110,          0) /* ItemAllegianceRankLimit */
-     , (949, 115,          0) /* ItemSkillLevelLimit */
-     , (949, 131,          2) /* MaterialType - Porcelain */
      , (949, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (949, 172,          5) /* AppraisalLongDescDecoration */
-     , (949, 177,          5) /* GemCount */
-     , (949, 178,         35) /* GemType */
-     , (949, 353,         10) /* WeaponType - Thrown */
-     , (949, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (949, 8030,          0);
+     , (949, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (949,   1, True ) /* Stuck */
-     , (949,   2, True ) /* Open */
      , (949,  12, True ) /* ReportCollisions */
      , (949,  13, False) /* Ethereal */
      , (949,  14, True ) /* GravityStatus */
      , (949,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (949,   5, -0.0555555555555556) /* ManaRate */
-     , (949,  21,       0) /* WeaponLength */
-     , (949,  22,    0.25) /* DamageVariance */
-     , (949,  26,       0) /* MaximumVelocity */
-     , (949,  29,       1) /* WeaponDefense */
-     , (949,  39, 2.29999995231628) /* DefaultScale */
-     , (949,  62,       1) /* WeaponOffense */
-     , (949,  63,       1) /* DamageMod */;
+VALUES (949,  39, 2.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (949,   1, 'Red Rat') /* Name */
-     , (949,  14, 'Use this item to close it.') /* Use */
-     , (949,  16, 'Killed by Mag-four.') /* LongDesc */
      , (949, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -87,10 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (949,   1,    55, 0, 0, 55) /* MaxHealth */
      , (949,   3,   200, 0, 0, 200) /* MaxStamina */
      , (949,   5,    30, 0, 0, 30) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (949,   707,      2) 
-     , (949,  2251,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (949, 67111660, 0, 0);

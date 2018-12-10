@@ -6,11 +6,9 @@ VALUES (49043, 'ace49043-deniousselemental', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49043,   1,         16) /* ItemType - Creature */
      , (49043,   2,         62) /* CreatureType - Elemental */
-     , (49043,   5,       7413) /* EncumbranceVal */
      , (49043,   6,        255) /* ItemsCapacity */
      , (49043,   7,        255) /* ContainersCapacity */
      , (49043,  16,          1) /* ItemUseable - No */
-     , (49043,  19,          0) /* Value */
      , (49043,  25,        180) /* Level */
      , (49043,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49043, 133,          1) /* ShowableOnRadar - ShowNever */
@@ -18,7 +16,6 @@ VALUES (49043,   1,         16) /* ItemType - Creature */
      , (49043, 308,         16) /* DamageResistRating */
      , (49043, 313,         10) /* CritRating */
      , (49043, 314,         10) /* CritDamageRating */
-     , (49043, 315,         13) /* CritResistRating */
      , (49043, 316,          5) /* CritDamageResistRating */
      , (49043, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -34,7 +31,6 @@ VALUES (49043,  39, 0.899999976158142) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49043,   1, 'Denious''s Elemental') /* Name */
-     , (49043,  16, 'Killed by Jake of Gilead.') /* LongDesc */
      , (49043, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

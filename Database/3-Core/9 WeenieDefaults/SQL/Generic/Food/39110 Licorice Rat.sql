@@ -45,7 +45,7 @@ VALUES (39110,   1,   33554493) /* Setup */
      , (39110,   3,  536870932) /* SoundTable */
      , (39110,   8,  100689670) /* Icon */
      , (39110,  22,  872415275) /* PhysicsEffectTable */
-     , (39110,  28,       4211) /* Spell */
+     , (39110,  28,       4211) /* Spell - LicoriceLeap */
      , (39110, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (39110, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39110, 8005,      71811) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Movement */;

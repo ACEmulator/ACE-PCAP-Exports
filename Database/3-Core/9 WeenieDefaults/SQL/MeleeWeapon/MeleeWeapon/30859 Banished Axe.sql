@@ -47,8 +47,7 @@ VALUES (30859,   5,  -0.033) /* ManaRate */
      , (30859, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30859,   1, 'Banished Axe') /* Name */
-     , (30859,  16, 'Killed by Mag-nus.') /* LongDesc */;
+VALUES (30859,   1, 'Banished Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30859,   1,   33559262) /* Setup */

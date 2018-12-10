@@ -6,11 +6,9 @@ VALUES (35835, 'ace35835-witheredtranscendenttumerok', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35835,   1,         16) /* ItemType - Creature */
      , (35835,   2,          6) /* CreatureType - Tumerok */
-     , (35835,   5,       6080) /* EncumbranceVal */
      , (35835,   6,        255) /* ItemsCapacity */
      , (35835,   7,        255) /* ContainersCapacity */
      , (35835,  16,          1) /* ItemUseable - No */
-     , (35835,  19,          0) /* Value */
      , (35835,  25,        160) /* Level */
      , (35835,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35835, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (35835,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35835,   1, 'Withered Transcendent Tumerok') /* Name */
-     , (35835,  16, 'Killed by Duna the Dain.') /* LongDesc */
      , (35835, 8006, 'AAE8AMEAAAA8AAAAwD9nAAgAAAAAQAAAr1Zs3A==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,11 +6,9 @@ VALUES (35831, 'ace35831-withereddrudgeseraphmystic', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35831,   1,         16) /* ItemType - Creature */
      , (35831,   2,          3) /* CreatureType - Drudge */
-     , (35831,   5,       6140) /* EncumbranceVal */
      , (35831,   6,        255) /* ItemsCapacity */
      , (35831,   7,        255) /* ContainersCapacity */
      , (35831,  16,          1) /* ItemUseable - No */
-     , (35831,  19,          0) /* Value */
      , (35831,  25,        160) /* Level */
      , (35831,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35831, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (35831,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35831,   1, 'Withered Drudge Seraph Mystic') /* Name */
-     , (35831,  16, 'Killed by Gixer.') /* LongDesc */
      , (35831, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -39,7 +39,6 @@ VALUES (25611,   1, False) /* Stuck */
      , (25611,  14, True ) /* GravityStatus */
      , (25611,  19, True ) /* Attackable */
      , (25611,  22, True ) /* Inscribable */
-     , (25611,  85, True ) /* AppraisalHasAllowedWielder */
      , (25611,  91, True ) /* Retained */
      , (25611,  99, True ) /* Ivoryable */;
 
@@ -57,8 +56,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25611,   1, 'Acidic Weeping Claw') /* Name */
      , (25611,   7, '"Caustic Bite"') /* Inscription */
      , (25611,   8, 'Azrakin') /* ScribeName */
-     , (25611,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */
-     , (25611,  25, 'Callaway') /* CraftsmanName */;
+     , (25611,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25611,   1,   33558486) /* Setup */

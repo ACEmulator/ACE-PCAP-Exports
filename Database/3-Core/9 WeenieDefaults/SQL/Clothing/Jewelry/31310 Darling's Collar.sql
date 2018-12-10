@@ -35,8 +35,6 @@ VALUES (31310,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31310,   1, 'Darling''s Collar') /* Name */
-     , (31310,   7, 'Mine') /* Inscription */
-     , (31310,   8, 'Aralcarin') /* ScribeName */
      , (31310,  16, 'Darling XIV - Property of Xsao Lann') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

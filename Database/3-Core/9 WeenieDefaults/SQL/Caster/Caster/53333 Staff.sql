@@ -34,7 +34,6 @@ VALUES (53333,   1, False) /* Stuck */
      , (53333,  14, True ) /* GravityStatus */
      , (53333,  19, True ) /* Attackable */
      , (53333,  22, True ) /* Inscribable */
-     , (53333,  85, True ) /* AppraisalHasAllowedWielder */
      , (53333,  91, True ) /* Retained */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,7 +50,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53333,   1, 'Staff') /* Name */
      , (53333,  14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* Use */
      , (53333,  16, 'A wand imbued with the energies of the Viridian Rise.') /* LongDesc */
-     , (53333,  25, 'The Interweb') /* CraftsmanName */
      , (53333,  39, 'Declaregato') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -60,7 +58,7 @@ VALUES (53333,   1,   33555022) /* Setup */
      , (53333,   6,   67111919) /* PaletteBase */
      , (53333,   8,  100669097) /* Icon */
      , (53333,  22,  872415275) /* PhysicsEffectTable */
-     , (53333,  28,       4310) /* Spell */
+     , (53333,  28,       4310) /* Spell - HealOther8 */
      , (53333, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (53333, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (53333, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

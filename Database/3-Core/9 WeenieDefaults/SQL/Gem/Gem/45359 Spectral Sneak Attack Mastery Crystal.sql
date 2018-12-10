@@ -32,7 +32,7 @@ VALUES (45359,   1,   33554809) /* Setup */
      , (45359,   3,  536870932) /* SoundTable */
      , (45359,   8,  100686697) /* Icon */
      , (45359,  22,  872415275) /* PhysicsEffectTable */
-     , (45359,  28,       5910) /* Spell */
+     , (45359,  28,       5910) /* Spell - SneakAttackMasterySpectral */
      , (45359,  50,  100692247) /* IconOverlay */
      , (45359,  52,  100686604) /* IconUnderlay */
      , (45359, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

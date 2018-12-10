@@ -6,11 +6,9 @@ VALUES (29344, 'ruschksadist', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29344,   1,         16) /* ItemType - Creature */
      , (29344,   2,         81) /* CreatureType - Ruschk */
-     , (29344,   5,       6100) /* EncumbranceVal */
      , (29344,   6,        255) /* ItemsCapacity */
      , (29344,   7,        255) /* ContainersCapacity */
      , (29344,  16,          1) /* ItemUseable - No */
-     , (29344,  19,          0) /* Value */
      , (29344,  25,        115) /* Level */
      , (29344,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29344, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,8 +27,6 @@ VALUES (29344,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29344,   1, 'Ruschk Sadist') /* Name */
-     , (29344,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */
-     , (29344,  16, 'Killed by Mag-five.') /* LongDesc */
      , (29344, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

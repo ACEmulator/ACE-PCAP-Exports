@@ -5,13 +5,11 @@ VALUES (47967, 'ace47967-nekode', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47967,   1,          1) /* ItemType - MeleeWeapon */
-     , (47967,   2,         78) /* CreatureType - Fiun */
      , (47967,   5,        135) /* EncumbranceVal */
      , (47967,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47967,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47967,  16,          1) /* ItemUseable - No */
      , (47967,  19,        155) /* Value */
-     , (47967,  25,        135) /* Level */
      , (47967,  33,         -2) /* Bonded - Destroy */
      , (47967,  44,         59) /* Damage */
      , (47967,  45,          3) /* DamageType - Slash, Pierce */
@@ -63,9 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47967,   3, 3685538043) /* Wielder */
      , (47967, 8000, 3685094424) /* PCAPRecordedObjectIID */
      , (47967, 8008, 3685538043) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47967,   1,  2080, 0, 0, 2080) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47967, 67111920, 0, 0);

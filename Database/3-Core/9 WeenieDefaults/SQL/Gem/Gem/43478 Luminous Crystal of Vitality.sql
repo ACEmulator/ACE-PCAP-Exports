@@ -41,7 +41,7 @@ VALUES (43478,   1,   33554809) /* Setup */
      , (43478,   6,   67111919) /* PaletteBase */
      , (43478,   8,  100690568) /* Icon */
      , (43478,  22,  872415275) /* PhysicsEffectTable */
-     , (43478,  28,       5451) /* Spell */
+     , (43478,  28,       5451) /* Spell - LuminanceRewardHealthRaising */
      , (43478,  50,  100686655) /* IconOverlay */
      , (43478,  52,  100691593) /* IconUnderlay */
      , (43478, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */

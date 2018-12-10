@@ -33,8 +33,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38796,   5,   -0.05) /* ManaRate */
      , (38796,  29,       1) /* WeaponDefense */
      , (38796,  76, 0.200000002980232) /* Translucency */
-     , (38796, 144,    0.05) /* ManaConversionMod */
-     , (38796, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (38796, 144,    0.05) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38796,   1, 'Pursuit Orb') /* Name */
@@ -48,7 +47,7 @@ VALUES (38796,   1,   33559853) /* Setup */
      , (38796,   6,   67111919) /* PaletteBase */
      , (38796,   8,  100690200) /* Icon */
      , (38796,  22,  872415275) /* PhysicsEffectTable */
-     , (38796,  28,       4910) /* Spell */
+     , (38796,  28,       4910) /* Spell - HarmRaiderTag */
      , (38796, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (38796, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38796, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */

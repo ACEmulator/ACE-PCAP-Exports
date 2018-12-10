@@ -28,7 +28,6 @@ VALUES (333,   1,          1) /* ItemType - MeleeWeapon */
      , (333, 131,         73) /* MaterialType - Ebony */
      , (333, 151,          2) /* HookType - Wall */
      , (333, 176,         45) /* AppraisalItemSkill */
-     , (333, 188,          2) /* HeritageGroup - Gharundim */
      , (333, 353,          7) /* WeaponType - Staff */
      , (333, 8030,          0);
 
@@ -52,8 +51,6 @@ VALUES (333,   5, -0.0416666666666667) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (333,   1, 'Nabut') /* Name */
-     , (333,   7, 'You incinerate Tusker Guard for 333 points with Flame Bolt VI') /* Inscription */
-     , (333,   8, 'Desp') /* ScribeName */
      , (333,  16, 'Exquisitely crafted Ebony Nabut of Endurance, set with 1 White Sapphire') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -79,9 +76,7 @@ VALUES (333,   3, 3692020559) /* Wielder */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (333,  1352,      2) 
      , (333,  1590,      2) 
-     , (333,  1613,      2) 
-     , (333,  1615,      2) 
-     , (333,  1626,      2) ;
+     , (333,  1613,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (333, 67111919, 0, 0);

@@ -10,9 +10,6 @@ VALUES (981,   1,         16) /* ItemType - Creature */
      , (981,   7,        255) /* ContainersCapacity */
      , (981,  16,         32) /* ItemUseable - Remote */
      , (981,  25,         10) /* Level */
-     , (981,  74,     270336) /* MerchandiseItemTypes - Writable, PromissoryNote */
-     , (981,  75,          0) /* MerchandiseMinValue */
-     , (981,  76,      25000) /* MerchandiseMaxValue */
      , (981,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (981, 113,          2) /* Gender - Female */
      , (981, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -27,13 +24,10 @@ VALUES (981,   1, True ) /* Stuck */
      , (981,  13, False) /* Ethereal */
      , (981,  14, True ) /* GravityStatus */
      , (981,  19, False) /* Attackable */
-     , (981,  39, True ) /* DealMagicalItems */
      , (981,  41, True ) /* ReportCollisionsAsEnvironment */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (981,  37, 0.899999976158142) /* BuyPrice */
-     , (981,  38, 1.35000002384186) /* SellPrice */
-     , (981,  54,       3) /* UseRadius */;
+VALUES (981,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (981,   1, 'Sutaiya bint Yil the Scribe') /* Name */
@@ -75,27 +69,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (981,   1,   125, 0, 0, 125) /* MaxHealth */
      , (981,   3,   170, 0, 0, 170) /* MaxStamina */
      , (981,   5,   105, 0, 0, 105) /* MaxMana */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (981, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
-     , (981, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (981, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (981, 4,  1495, -1, 0, 0, False) /* Create Armoredillo Lair Directions (1495) for Shop */
-     , (981, 4,  1507, -1, 0, 0, False) /* Create  (1507) for Shop */
-     , (981, 4,  4209, -1, 0, 0, False) /* Create Dungeon Binar Directions (4209) for Shop */
-     , (981, 4,  5584, -1, 0, 0, False) /* Create  (5584) for Shop */
-     , (981, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (981, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
-     , (981, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (981, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (981, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
-     , (981, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (981, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
-     , (981, 4,  9124, -1, 0, 0, False) /* Create  (9124) for Shop */
-     , (981, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
-     , (981, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (981, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (981, 4, 27851, -1, 0, 0, False) /* Create  (27851) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (981, 67109556, 0, 24)

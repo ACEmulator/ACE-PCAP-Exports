@@ -29,8 +29,7 @@ VALUES (8748,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8748,   5, -0.025000000372529) /* ManaRate */
      , (8748,  29,       1) /* WeaponDefense */
-     , (8748, 144, 1.64025583497794E-314) /* ManaConversionMod */
-     , (8748, 152, 1.05000000074506) /* ElementalDamageMod */;
+     , (8748, 144, 1.64025583497794E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8748,   1, 'Explorer Wand Of Fire') /* Name */;
@@ -41,7 +40,7 @@ VALUES (8748,   1,   33558231) /* Setup */
      , (8748,   6,   67111919) /* PaletteBase */
      , (8748,   8,  100668799) /* Icon */
      , (8748,  22,  872415275) /* PhysicsEffectTable */
-     , (8748,  28,         82) /* Spell */
+     , (8748,  28,         82) /* Spell - FlameBolt3 */
      , (8748, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (8748, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8748, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

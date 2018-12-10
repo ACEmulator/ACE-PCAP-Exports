@@ -6,52 +6,24 @@ VALUES (7122, 'skeletongreat', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7122,   1,         16) /* ItemType - Creature */
      , (7122,   2,         30) /* CreatureType - Skeleton */
-     , (7122,   5,          5) /* EncumbranceVal */
      , (7122,   6,        255) /* ItemsCapacity */
      , (7122,   7,        255) /* ContainersCapacity */
      , (7122,  16,          1) /* ItemUseable - No */
-     , (7122,  19,          1) /* Value */
      , (7122,  25,        100) /* Level */
-     , (7122,  33,         -2) /* Bonded - Destroy */
-     , (7122,  44,        114) /* Damage */
-     , (7122,  45,          2) /* DamageType - Pierce */
-     , (7122,  48,          0) /* WeaponSkill - None */
-     , (7122,  49,         -1) /* WeaponTime */
      , (7122,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7122, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7122, 179,          0) /* ImbuedEffect - Undef */
-     , (7122, 303,          0) /* ImbuedEffect2 - Undef */
-     , (7122, 304,          0) /* ImbuedEffect3 - Undef */
-     , (7122, 305,          0) /* ImbuedEffect4 - Undef */
-     , (7122, 306,          0) /* ImbuedEffect5 - Undef */
      , (7122, 307,          5) /* DamageRating */
-     , (7122, 313,          0) /* CritRating */
-     , (7122, 314,          0) /* CritDamageRating */
-     , (7122, 386,          0) /* Overpower */
-     , (7122, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7122, 8030,          0);
+     , (7122, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7122,   1, True ) /* Stuck */
      , (7122,  12, True ) /* ReportCollisions */
      , (7122,  13, False) /* Ethereal */
      , (7122,  14, True ) /* GravityStatus */
-     , (7122,  19, True ) /* Attackable */
-     , (7122,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7122,  21,       0) /* WeaponLength */
-     , (7122,  22,     0.3) /* DamageVariance */
-     , (7122,  26,       0) /* MaximumVelocity */
-     , (7122,  29,       1) /* WeaponDefense */
-     , (7122,  62,       1) /* WeaponOffense */
-     , (7122,  63,       1) /* DamageMod */
-     , (7122, 149,       0) /* WeaponMissileDefense */
-     , (7122, 150,       0) /* WeaponMagicDefense */;
+     , (7122,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7122,   1, 'Great Skeleton') /* Name */
-     , (7122,  16, 'Killed by Fquick.') /* LongDesc */
      , (7122, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

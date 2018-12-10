@@ -77,7 +77,6 @@ VALUES (3827,   2, 2461826708) /* Container */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3827,  1401,      2) 
-     , (3827,  1615,      2) 
      , (3827,  1616,      2) 
      , (3827,  1626,      2) 
      , (3827,  2548,      2) ;

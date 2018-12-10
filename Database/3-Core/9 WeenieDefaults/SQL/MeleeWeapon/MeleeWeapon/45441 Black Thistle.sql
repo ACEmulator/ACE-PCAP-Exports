@@ -28,8 +28,6 @@ VALUES (45441,   1,          1) /* ItemType - MeleeWeapon */
      , (45441, 319,         50) /* ItemMaxLevel */
      , (45441, 320,          1) /* ItemXpStyle - Fixed */
      , (45441, 353,          6) /* WeaponType - Dagger */
-     , (45441, 383,          1) /* GearPKDamageRating */
-     , (45441, 384,          1) /* GearPKDamageResistRating */
      , (45441, 8030,          0);
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)

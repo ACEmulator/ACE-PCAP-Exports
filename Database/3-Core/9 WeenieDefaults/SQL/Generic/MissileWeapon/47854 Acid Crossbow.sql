@@ -5,14 +5,12 @@ VALUES (47854, 'ace47854-acidcrossbow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47854,   1,        256) /* ItemType - MissileWeapon */
-     , (47854,   2,         10) /* CreatureType - Rat */
      , (47854,   5,       1920) /* EncumbranceVal */
      , (47854,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (47854,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (47854,  16,          1) /* ItemUseable - No */
      , (47854,  18,        256) /* UiEffects - Acid */
      , (47854,  19,        375) /* Value */
-     , (47854,  25,        100) /* Level */
      , (47854,  33,         -2) /* Bonded - Destroy */
      , (47854,  44,          0) /* Damage */
      , (47854,  45,         32) /* DamageType - Acid */
@@ -45,8 +43,7 @@ VALUES (47854,  21,       0) /* WeaponLength */
      , (47854,  63,    1.25) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47854,   1, 'Acid Crossbow') /* Name */
-     , (47854,  16, 'Killed by Fenn.') /* LongDesc */;
+VALUES (47854,   1, 'Acid Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47854,   1,   33559240) /* Setup */
@@ -67,19 +64,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47854,   3, 3685887385) /* Wielder */
      , (47854, 8000, 3685887389) /* PCAPRecordedObjectIID */
      , (47854, 8008, 3685887385) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
-VALUES (47854,   1, 180, 0, 0) /* Strength */
-     , (47854,   2, 150, 0, 0) /* Endurance */
-     , (47854,   3, 100, 0, 0) /* Quickness */
-     , (47854,   4, 175, 0, 0) /* Coordination */
-     , (47854,   5,  50, 0, 0) /* Focus */
-     , (47854,   6,  50, 0, 0) /* Self */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47854,   1,   420, 0, 0, 420) /* MaxHealth */
-     , (47854,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (47854,   5,    50, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47854, 67115371, 0, 0);

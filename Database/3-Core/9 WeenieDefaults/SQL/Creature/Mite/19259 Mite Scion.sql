@@ -6,14 +6,11 @@ VALUES (19259, 'mitescion_noaggro', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19259,   1,         16) /* ItemType - Creature */
      , (19259,   2,          7) /* CreatureType - Mite */
-     , (19259,   5,         50) /* EncumbranceVal */
      , (19259,   6,        255) /* ItemsCapacity */
      , (19259,   7,        255) /* ContainersCapacity */
      , (19259,  16,          1) /* ItemUseable - No */
-     , (19259,  19,       2500) /* Value */
      , (19259,  25,          8) /* Level */
      , (19259,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19259, 107,          0) /* ItemCurMana */
      , (19259, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (19259, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -24,13 +21,8 @@ VALUES (19259,   1, True ) /* Stuck */
      , (19259,  14, True ) /* GravityStatus */
      , (19259,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19259,  87,     1.2) /* ItemEfficiency */
-     , (19259, 137,    0.15) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19259,   1, 'Mite Scion') /* Name */
-     , (19259,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (19259, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

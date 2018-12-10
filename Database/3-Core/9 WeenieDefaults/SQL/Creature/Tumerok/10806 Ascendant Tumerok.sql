@@ -6,26 +6,13 @@ VALUES (10806, 'tumerokascendant', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10806,   1,         16) /* ItemType - Creature */
      , (10806,   2,          6) /* CreatureType - Tumerok */
-     , (10806,   5,       6320) /* EncumbranceVal */
      , (10806,   6,        255) /* ItemsCapacity */
      , (10806,   7,        255) /* ContainersCapacity */
      , (10806,  16,          1) /* ItemUseable - No */
-     , (10806,  19,          0) /* Value */
      , (10806,  25,        100) /* Level */
-     , (10806,  33,          1) /* Bonded - Bonded */
-     , (10806,  91,         50) /* MaxStructure */
-     , (10806,  92,         50) /* Structure */
      , (10806,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (10806, 105,          5) /* ItemWorkmanship */
-     , (10806, 114,          0) /* Attuned - Normal */
      , (10806, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10806, 280,        213) /* SharedCooldown */
      , (10806, 307,          5) /* DamageRating */
-     , (10806, 366,         54) /* UseRequiresSkill */
-     , (10806, 367,        310) /* UseRequiresSkillLevel */
-     , (10806, 369,         40) /* UseRequiresLevel */
-     , (10806, 370,          7) /* GearDamage */
-     , (10806, 375,          4) /* GearCritDamageResist */
      , (10806, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -33,17 +20,13 @@ VALUES (10806,   1, True ) /* Stuck */
      , (10806,  12, True ) /* ReportCollisions */
      , (10806,  13, False) /* Ethereal */
      , (10806,  14, True ) /* GravityStatus */
-     , (10806,  19, True ) /* Attackable */
-     , (10806,  69, True ) /* IsSellable */;
+     , (10806,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10806,  39, 1.29999995231628) /* DefaultScale */
-     , (10806, 167,      45) /* CooldownDuration */;
+VALUES (10806,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10806,   1, 'Ascendant Tumerok') /* Name */
-     , (10806,  14, 'Use this essence to summon or dismiss your Frost Wisp.') /* Use */
-     , (10806,  16, 'Killed by Darth Kronos.') /* LongDesc */
      , (10806, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

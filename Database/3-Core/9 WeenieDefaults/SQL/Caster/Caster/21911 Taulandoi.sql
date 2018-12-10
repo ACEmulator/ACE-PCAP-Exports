@@ -37,8 +37,7 @@ VALUES (21911,   1, False) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21911,   5,      -1) /* ManaRate */
      , (21911,  29,       1) /* WeaponDefense */
-     , (21911, 144, 1.47278844691218E-314) /* ManaConversionMod */
-     , (21911, 152, 1.07000000029802) /* ElementalDamageMod */;
+     , (21911, 144, 1.47278844691218E-314) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21911,   1, 'Taulandoi') /* Name */
@@ -50,7 +49,7 @@ VALUES (21911,   1,   33557963) /* Setup */
      , (21911,   6,   67111919) /* PaletteBase */
      , (21911,   8,  100673490) /* Icon */
      , (21911,  22,  872415275) /* PhysicsEffectTable */
-     , (21911,  28,       2782) /* Spell */
+     , (21911,  28,       2782) /* Spell - LesserElementalFuryFlame */
      , (21911, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (21911, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21911, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */

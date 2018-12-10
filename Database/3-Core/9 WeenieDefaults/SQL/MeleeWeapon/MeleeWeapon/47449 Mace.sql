@@ -10,31 +10,10 @@ VALUES (47449,   1,          1) /* ItemType - MeleeWeapon */
      , (47449,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47449,  16,          1) /* ItemUseable - No */
      , (47449,  19,        350) /* Value */
-     , (47449,  44,         36) /* Damage */
-     , (47449,  45,          2) /* DamageType - Pierce */
-     , (47449,  48,          0) /* WeaponSkill - None */
-     , (47449,  49,         -1) /* WeaponTime */
      , (47449,  51,          1) /* CombatUse - Melee */
      , (47449,  65,          1) /* Placement - RightHandCombat */
      , (47449,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47449, 151,          2) /* HookType - Wall */
-     , (47449, 158,          2) /* WieldRequirements - RawSkill */
-     , (47449, 159,         37) /* WieldSkilltype - Fletching */
-     , (47449, 160,        350) /* WieldDifficulty */
-     , (47449, 166,          6) /* SlayerCreatureType - Tumerok */
-     , (47449, 179,          0) /* ImbuedEffect - Undef */
-     , (47449, 270,          2) /* WieldRequirements2 - RawSkill */
-     , (47449, 271,         47) /* WieldSkilltype2 - MissileWeapons */
-     , (47449, 272,        290) /* WieldDifficulty2 */
-     , (47449, 303,          0) /* ImbuedEffect2 - Undef */
-     , (47449, 304,          0) /* ImbuedEffect3 - Undef */
-     , (47449, 305,          0) /* ImbuedEffect4 - Undef */
-     , (47449, 306,          0) /* ImbuedEffect5 - Undef */
-     , (47449, 307,         44) /* DamageRating */
-     , (47449, 313,          1) /* CritRating */
-     , (47449, 314,         28) /* CritDamageRating */
-     , (47449, 386,          0) /* Overpower */
-     , (47449, 8030,          0);
+     , (47449, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47449,   1, False) /* Stuck */
@@ -42,23 +21,10 @@ VALUES (47449,   1, False) /* Stuck */
      , (47449,  13, True ) /* Ethereal */
      , (47449,  14, True ) /* GravityStatus */
      , (47449,  19, True ) /* Attackable */
-     , (47449,  22, True ) /* Inscribable */
-     , (47449,  69, False) /* IsSellable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47449,  21,       0) /* WeaponLength */
-     , (47449,  22,     0.3) /* DamageVariance */
-     , (47449,  26,       0) /* MaximumVelocity */
-     , (47449,  29,       1) /* WeaponDefense */
-     , (47449,  62,       1) /* WeaponOffense */
-     , (47449,  63,       1) /* DamageMod */
-     , (47449, 149,       0) /* WeaponMissileDefense */
-     , (47449, 150,       0) /* WeaponMagicDefense */;
+     , (47449,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47449,   1, 'Mace') /* Name */
-     , (47449,  14, 'You must be a trained fletcher of great skill to use these potentially volatile arrows.') /* Use */
-     , (47449,  16, 'Magically enhanced crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */;
+VALUES (47449,   1, 'Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47449,   1,   33554746) /* Setup */

@@ -38,8 +38,6 @@ VALUES (52787,   1, False) /* Stuck */
      , (52787,  19, True ) /* Attackable */
      , (52787,  22, True ) /* Inscribable */
      , (52787,  69, False) /* IsSellable */
-     , (52787,  85, True ) /* AppraisalHasAllowedWielder */
-     , (52787,  91, True ) /* Retained */
      , (52787,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,8 +48,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52787,   1, 'Brown Society Locket') /* Name */
      , (52787,   7, 'OK''s mage suit - take BP and tassets from atari for full build.') /* Inscription */
      , (52787,   8, 'Olthoi King') /* ScribeName */
-     , (52787,  16, 'A necklace set with vibrant gemstones of red and green.') /* LongDesc */
-     , (52787,  25, 'Bone Supremacy') /* CraftsmanName */;
+     , (52787,  16, 'A necklace set with vibrant gemstones of red and green.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52787,   1,   33554680) /* Setup */

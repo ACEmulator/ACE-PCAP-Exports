@@ -6,11 +6,9 @@ VALUES (35881, 'ace35881-paradoxtouchedolthoiswarmeviscerator', 10) /* Creature 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35881,   1,         16) /* ItemType - Creature */
      , (35881,   2,         92) /* CreatureType - ParadoxOlthoi */
-     , (35881,   5,       6729) /* EncumbranceVal */
      , (35881,   6,        255) /* ItemsCapacity */
      , (35881,   7,        255) /* ContainersCapacity */
      , (35881,  16,          1) /* ItemUseable - No */
-     , (35881,  19,          0) /* Value */
      , (35881,  25,        200) /* Level */
      , (35881,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35881, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (35881,  39, 0.800000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35881,   1, 'Paradox-touched Olthoi Swarm Eviscerator') /* Name */
-     , (35881,  16, 'Killed by Porcelina.') /* LongDesc */
      , (35881, 8006, 'AAA9AIAAAABRAA0AAACAPw==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

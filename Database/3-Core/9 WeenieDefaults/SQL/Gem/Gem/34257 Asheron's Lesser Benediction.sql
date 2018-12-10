@@ -33,10 +33,6 @@ VALUES (34257, 167,      30) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34257,   1, 'Asheron''s Lesser Benediction') /* Name */
-     , (34257,   7, 'Run to 86.9N, 59.8E 
-Run to 87.4N, 56.9E 
-Run to 96.4N, 54.6E') /* Inscription */
-     , (34257,   8, 'Dooty Tang') /* ScribeName */
      , (34257,  16, 'This gem is eternal. You can use it as often as you like.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -44,7 +40,7 @@ VALUES (34257,   1,   33554809) /* Setup */
      , (34257,   3,  536870932) /* SoundTable */
      , (34257,   8,  100683150) /* Icon */
      , (34257,  22,  872415275) /* PhysicsEffectTable */
-     , (34257,  28,       4024) /* Spell */
+     , (34257,  28,       4024) /* Spell - AsheronsLesserBenediction */
      , (34257, 8001,  273182864) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Spell, HookType */
      , (34257, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (34257, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

@@ -46,7 +46,7 @@ VALUES (34991,   1,   33560177) /* Setup */
      , (34991,   3,  536870932) /* SoundTable */
      , (34991,   8,  100677030) /* Icon */
      , (34991,  22,  872415275) /* PhysicsEffectTable */
-     , (34991,  28,       4067) /* Spell */
+     , (34991,  28,       4067) /* Spell - MucorBolt */
      , (34991, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (34991, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34991, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;

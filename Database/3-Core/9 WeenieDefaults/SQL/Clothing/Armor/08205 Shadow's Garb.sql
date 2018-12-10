@@ -42,9 +42,6 @@ VALUES (8205,   5, -0.0333000011742115) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8205,   1, 'Shadow''s Garb') /* Name */
-     , (8205,   7, '                   
-') /* Inscription */
-     , (8205,   8, 'Unarmed Blood') /* ScribeName */
      , (8205,  16, 'A facial wrap that protects your face from sandstorms, and occludes your face from the eyes of others. It is rumored that these were the same masks worn by the Shagar Zharala during their assassination of King Laszko.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

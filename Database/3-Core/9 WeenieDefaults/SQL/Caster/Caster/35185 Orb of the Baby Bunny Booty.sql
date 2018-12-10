@@ -31,21 +31,16 @@ VALUES (35185,   1, False) /* Stuck */
      , (35185,  19, True ) /* Attackable */
      , (35185,  22, True ) /* Inscribable */
      , (35185,  85, True ) /* AppraisalHasAllowedWielder */
-     , (35185,  91, True ) /* Retained */
      , (35185,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35185,   5, -0.0199999995529652) /* ManaRate */
      , (35185,  29,       1) /* WeaponDefense */
      , (35185,  39,     0.5) /* DefaultScale */
-     , (35185, 144,    0.25) /* ManaConversionMod */
-     , (35185, 152, 1.07999999821186) /* ElementalDamageMod */;
+     , (35185, 144,    0.25) /* ManaConversionMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35185,   1, 'Orb of the Baby Bunny Booty') /* Name */
-     , (35185,   7, '5/9/07 Thanks to paul & quuz for the help!
-How to get: Kill regular bunnies till a white one spawns. Kill it for orb. Took me 300 kills') /* Inscription */
-     , (35185,   8, 'Dakmor Kavu') /* ScribeName */
      , (35185,  25, 'Shadow Tamer') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -54,7 +49,7 @@ VALUES (35185,   1,   33556870) /* Setup */
      , (35185,   6,   67109300) /* PaletteBase */
      , (35185,   8,  100669116) /* Icon */
      , (35185,  22,  872415275) /* PhysicsEffectTable */
-     , (35185,  28,       2348) /* Spell */
+     , (35185,  28,       2348) /* Spell - BrillianceOther */
      , (35185, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (35185, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35185, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */

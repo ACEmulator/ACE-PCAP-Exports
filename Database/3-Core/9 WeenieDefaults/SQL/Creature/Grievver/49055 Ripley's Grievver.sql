@@ -6,19 +6,13 @@ VALUES (49055, 'ace49055-ripleysgrievver', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49055,   1,         16) /* ItemType - Creature */
      , (49055,   2,         44) /* CreatureType - Grievver */
-     , (49055,   5,       6040) /* EncumbranceVal */
      , (49055,   6,        255) /* ItemsCapacity */
      , (49055,   7,        255) /* ContainersCapacity */
      , (49055,  16,          1) /* ItemUseable - No */
-     , (49055,  19,          0) /* Value */
      , (49055,  25,        125) /* Level */
      , (49055,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49055, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49055, 307,          4) /* DamageRating */
-     , (49055, 308,         12) /* DamageResistRating */
-     , (49055, 313,         11) /* CritRating */
-     , (49055, 315,         16) /* CritResistRating */
-     , (49055, 316,         12) /* CritDamageResistRating */
      , (49055, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -34,7 +28,6 @@ VALUES (49055,  39, 0.800000011920929) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49055,   1, 'Ripley''s Grievver') /* Name */
-     , (49055,  16, 'Killed by Fquicker.') /* LongDesc */
      , (49055, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

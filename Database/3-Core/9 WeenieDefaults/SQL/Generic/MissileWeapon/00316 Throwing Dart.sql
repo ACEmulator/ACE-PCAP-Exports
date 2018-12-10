@@ -21,11 +21,7 @@ VALUES (316,   1,        256) /* ItemType - MissileWeapon */
      , (316,  65,          1) /* Placement - RightHandCombat */
      , (316,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (316, 151,          2) /* HookType - Wall */
-     , (316, 307,          5) /* DamageRating */
-     , (316, 313,          0) /* CritRating */
-     , (316, 314,          0) /* CritDamageRating */
      , (316, 353,         10) /* WeaponType - Thrown */
-     , (316, 386,          0) /* Overpower */
      , (316, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,9 +40,7 @@ VALUES (316,  21,       0) /* WeaponLength */
      , (316,  62,       1) /* WeaponOffense */
      , (316,  63,       1) /* DamageMod */
      , (316,  78,       1) /* Friction */
-     , (316,  79,       0) /* Elasticity */
-     , (316, 149,       0) /* WeaponMissileDefense */
-     , (316, 150,       0) /* WeaponMagicDefense */;
+     , (316,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (316,   1, 'Throwing Dart') /* Name */;

@@ -6,11 +6,9 @@ VALUES (35004, 'ace35004-sclavusritualist', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35004,   1,         16) /* ItemType - Creature */
      , (35004,   2,         26) /* CreatureType - Sclavus */
-     , (35004,   5,       6000) /* EncumbranceVal */
      , (35004,   6,        255) /* ItemsCapacity */
      , (35004,   7,        255) /* ContainersCapacity */
      , (35004,  16,          1) /* ItemUseable - No */
-     , (35004,  19,          0) /* Value */
      , (35004,  25,        185) /* Level */
      , (35004,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35004, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -28,7 +26,6 @@ VALUES (35004,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35004,   1, 'Sclavus Ritualist') /* Name */
-     , (35004,  16, 'Killed by Ares Blackheart.') /* LongDesc */
      , (35004, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

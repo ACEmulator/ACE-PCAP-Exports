@@ -6,11 +6,9 @@ VALUES (35825, 'ace35825-aliciaswiftblade', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35825,   1,         16) /* ItemType - Creature */
      , (35825,   2,         31) /* CreatureType - Human */
-     , (35825,   5,         30) /* EncumbranceVal */
      , (35825,   6,        255) /* ItemsCapacity */
      , (35825,   7,        255) /* ContainersCapacity */
      , (35825,  16,         32) /* ItemUseable - Remote */
-     , (35825,  19,       2000) /* Value */
      , (35825,  25,         80) /* Level */
      , (35825,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35825,  95,          8) /* RadarBlipColor - Yellow */
@@ -37,9 +35,6 @@ VALUES (35825,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35825,   1, 'Alicia Swiftblade') /* Name */
      , (35825,   5, 'Olthoi Hunter') /* Template */
-     , (35825,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (35825,  16, 'Inscribed spell: Twisted Digits
-Decreases the target''s Fletching skill by 40 points.') /* LongDesc */
      , (35825, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -77,9 +72,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (35825,   1,   130, 0, 0, 130) /* MaxHealth */
      , (35825,   3,   220, 0, 0, 220) /* MaxStamina */
      , (35825,   5,   100, 0, 0, 100) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35825,  2234,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35825, 67109558, 0, 24)

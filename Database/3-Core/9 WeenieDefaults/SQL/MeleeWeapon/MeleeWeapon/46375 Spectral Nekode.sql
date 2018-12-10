@@ -12,18 +12,7 @@ VALUES (46375,   1,          1) /* ItemType - MeleeWeapon */
      , (46375,  19,        125) /* Value */
      , (46375,  51,          1) /* CombatUse - Melee */
      , (46375,  65,          1) /* Placement - RightHandCombat */
-     , (46375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46375, 105,          7) /* ItemWorkmanship */
-     , (46375, 106,        182) /* ItemSpellcraft */
-     , (46375, 107,       1401) /* ItemCurMana */
-     , (46375, 108,       1401) /* ItemMaxMana */
-     , (46375, 109,        182) /* ItemDifficulty */
-     , (46375, 110,          0) /* ItemAllegianceRankLimit */
-     , (46375, 115,          0) /* ItemSkillLevelLimit */
-     , (46375, 131,         60) /* MaterialType - Gold */
-     , (46375, 172,          5) /* AppraisalLongDescDecoration */
-     , (46375, 177,          1) /* GemCount */
-     , (46375, 178,         41) /* GemType */;
+     , (46375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46375,   1, False) /* Stuck */
@@ -35,12 +24,10 @@ VALUES (46375,   1, False) /* Stuck */
      , (46375, 130, True ) /* AutowieldLeft */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (46375,   5,   -0.05) /* ManaRate */
-     , (46375,  76,     0.5) /* Translucency */;
+VALUES (46375,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46375,   1, 'Spectral Nekode') /* Name */
-     , (46375,  16, 'Killed by Murderous.') /* LongDesc */;
+VALUES (46375,   1, 'Spectral Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46375,   1,   33555996) /* Setup */
@@ -61,9 +48,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46375,   3, 3707810173) /* Wielder */
      , (46375, 8000, 3707810199) /* PCAPRecordedObjectIID */
      , (46375, 8008, 3707810173) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46375,   216,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46375, 67111925, 0, 0);

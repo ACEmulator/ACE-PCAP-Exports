@@ -6,91 +6,36 @@ VALUES (38571, 'ace38571-societysolleretsarmorsmith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38571,   1,         16) /* ItemType - Creature */
      , (38571,   2,         31) /* CreatureType - Human */
-     , (38571,   5,         10) /* EncumbranceVal */
      , (38571,   6,        255) /* ItemsCapacity */
      , (38571,   7,        255) /* ContainersCapacity */
      , (38571,  16,         32) /* ItemUseable - Remote */
-     , (38571,  19,          0) /* Value */
      , (38571,  25,        185) /* Level */
-     , (38571,  28,        242) /* ArmorLevel */
-     , (38571,  33,          1) /* Bonded - Bonded */
-     , (38571,  44,         -1) /* Damage */
-     , (38571,  45,          4) /* DamageType - Bludgeon */
-     , (38571,  47,          6) /* AttackType - Thrust, Slash */
-     , (38571,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (38571,  49,         -1) /* WeaponTime */
      , (38571,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38571,  95,          8) /* RadarBlipColor - Yellow */
-     , (38571, 105,          7) /* ItemWorkmanship */
-     , (38571, 106,        252) /* ItemSpellcraft */
-     , (38571, 107,       2917) /* ItemCurMana */
-     , (38571, 108,       2917) /* ItemMaxMana */
-     , (38571, 109,        258) /* ItemDifficulty */
-     , (38571, 110,          0) /* ItemAllegianceRankLimit */
      , (38571, 113,          1) /* Gender - Male */
-     , (38571, 114,          1) /* Attuned - Attuned */
-     , (38571, 115,          0) /* ItemSkillLevelLimit */
-     , (38571, 131,         13) /* MaterialType - Aquamarine */
      , (38571, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38571, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38571, 158,          2) /* WieldRequirements - RawSkill */
-     , (38571, 159,         34) /* WieldSkilltype - WarMagic */
-     , (38571, 160,        310) /* WieldDifficulty */
-     , (38571, 172,          5) /* AppraisalLongDescDecoration */
-     , (38571, 176,         47) /* AppraisalItemSkill */
-     , (38571, 177,          4) /* GemCount */
-     , (38571, 178,         48) /* GemType */
      , (38571, 188,          4) /* HeritageGroup - Viamontian */
-     , (38571, 204,         12) /* ElementalDamageBonus */
      , (38571, 281,          4) /* Faction1Bits */
      , (38571, 289,          1) /* SocietyRankRadblo */
-     , (38571, 307,          5) /* DamageRating */
-     , (38571, 313,          0) /* CritRating */
-     , (38571, 314,          0) /* CritDamageRating */
-     , (38571, 353,         10) /* WeaponType - Thrown */
-     , (38571, 386,          0) /* Overpower */
-     , (38571, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38571, 8030,          0);
+     , (38571, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38571,   1, True ) /* Stuck */
-     , (38571,   2, False) /* Open */
      , (38571,  11, True ) /* IgnoreCollisions */
      , (38571,  12, True ) /* ReportCollisions */
      , (38571,  13, False) /* Ethereal */
      , (38571,  14, True ) /* GravityStatus */
      , (38571,  19, False) /* Attackable */
      , (38571,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38571,  42, True ) /* AllowEdgeSlide */
-     , (38571, 100, True ) /* Dyable */;
+     , (38571,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38571,   5, -0.0555555555555556) /* ManaRate */
-     , (38571,  13,       1) /* ArmorModVsSlash */
-     , (38571,  14, 1.29999995231628) /* ArmorModVsPierce */
-     , (38571,  15,       1) /* ArmorModVsBludgeon */
-     , (38571,  16, 0.400000005960464) /* ArmorModVsCold */
-     , (38571,  17, 0.400000005960464) /* ArmorModVsFire */
-     , (38571,  18, 0.600000023841858) /* ArmorModVsAcid */
-     , (38571,  19, 0.400000005960464) /* ArmorModVsElectric */
-     , (38571,  21,       0) /* WeaponLength */
-     , (38571,  22,    0.25) /* DamageVariance */
-     , (38571,  26,       0) /* MaximumVelocity */
-     , (38571,  29,    1.09) /* WeaponDefense */
-     , (38571,  54,       3) /* UseRadius */
-     , (38571,  62,       1) /* WeaponOffense */
-     , (38571,  63,       1) /* DamageMod */
-     , (38571, 144,    0.06) /* ManaConversionMod */
-     , (38571, 149,       0) /* WeaponMissileDefense */
-     , (38571, 150,       0) /* WeaponMagicDefense */
-     , (38571, 152,    1.06) /* ElementalDamageMod */
-     , (38571, 165,       1) /* ArmorModVsNether */;
+VALUES (38571,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38571,   1, 'Society Sollerets Armorsmith') /* Name */
      , (38571,   5, 'Society Armorsmith') /* Template */
-     , (38571,  14, 'Use this item to attempt to learn its spell.') /* Use */
-     , (38571,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */
      , (38571, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -128,22 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38571,   1,   296, 0, 0, 296) /* MaxHealth */
      , (38571,   3,   396, 0, 0, 396) /* MaxStamina */
      , (38571,   5,   396, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38571,    62,      2) 
-     , (38571,   634,      2) 
-     , (38571,  1479,      2) 
-     , (38571,  1486,      2) 
-     , (38571,  1498,      2) 
-     , (38571,  1605,      2) 
-     , (38571,  2096,      2) 
-     , (38571,  2250,      2) 
-     , (38571,  2521,      2) 
-     , (38571,  2555,      2) 
-     , (38571,  2562,      2) 
-     , (38571,  2604,      2) 
-     , (38571,  5784,      2) 
-     , (38571,  6122,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38571, 67109964, 92, 4)

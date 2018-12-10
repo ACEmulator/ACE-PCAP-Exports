@@ -6,30 +6,13 @@ VALUES (4099, 'tumerokscoutarcher', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4099,   1,         16) /* ItemType - Creature */
      , (4099,   2,          6) /* CreatureType - Tumerok */
-     , (4099,   5,         30) /* EncumbranceVal */
      , (4099,   6,        255) /* ItemsCapacity */
      , (4099,   7,        255) /* ContainersCapacity */
      , (4099,  16,          1) /* ItemUseable - No */
-     , (4099,  19,       9245) /* Value */
      , (4099,  25,         20) /* Level */
      , (4099,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4099, 105,          9) /* ItemWorkmanship */
-     , (4099, 106,        305) /* ItemSpellcraft */
-     , (4099, 107,       2513) /* ItemCurMana */
-     , (4099, 108,       2513) /* ItemMaxMana */
-     , (4099, 109,        331) /* ItemDifficulty */
-     , (4099, 110,          0) /* ItemAllegianceRankLimit */
-     , (4099, 115,          0) /* ItemSkillLevelLimit */
-     , (4099, 131,         57) /* MaterialType - Brass */
      , (4099, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4099, 158,          7) /* WieldRequirements - Level */
-     , (4099, 159,          1) /* WieldSkilltype - Axe */
-     , (4099, 160,        180) /* WieldDifficulty */
-     , (4099, 172,          5) /* AppraisalLongDescDecoration */
-     , (4099, 177,          1) /* GemCount */
-     , (4099, 178,         47) /* GemType */
      , (4099, 307,          5) /* DamageRating */
-     , (4099, 376,          1) /* GearHealingBoost */
      , (4099, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -39,12 +22,8 @@ VALUES (4099,   1, True ) /* Stuck */
      , (4099,  14, True ) /* GravityStatus */
      , (4099,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4099,   5, -0.0555555555555556) /* ManaRate */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4099,   1, 'Tumerok Scout') /* Name */
-     , (4099,  16, 'Ring of Magic Item Expertise') /* LongDesc */
      , (4099, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -77,10 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4099,   1,    45, 0, 0, 45) /* MaxHealth */
      , (4099,   3,   140, 0, 0, 139) /* MaxStamina */
      , (4099,   5,    40, 0, 0, 40) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4099,  2277,      2) 
-     , (4099,  4675,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4099, 67116625, 57, 48)

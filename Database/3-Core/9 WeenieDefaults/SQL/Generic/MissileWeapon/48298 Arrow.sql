@@ -5,7 +5,6 @@ VALUES (48298, 'ace48298-arrow', 1) /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48298,   1,        256) /* ItemType - MissileWeapon */
-     , (48298,   2,         22) /* CreatureType - Shadow */
      , (48298,   5,        100) /* EncumbranceVal */
      , (48298,   9,    8388608) /* ValidLocations - MissileAmmo */
      , (48298,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
@@ -14,7 +13,6 @@ VALUES (48298,   1,        256) /* ItemType - MissileWeapon */
      , (48298,  16,          1) /* ItemUseable - No */
      , (48298,  18,         32) /* UiEffects - Fire */
      , (48298,  19,         20) /* Value */
-     , (48298,  25,         15) /* Level */
      , (48298,  33,         -2) /* Bonded - Destroy */
      , (48298,  44,        130) /* Damage */
      , (48298,  45,         16) /* DamageType - Fire */
@@ -24,23 +22,11 @@ VALUES (48298,   1,        256) /* ItemType - MissileWeapon */
      , (48298,  51,          3) /* CombatUse - Ammo */
      , (48298,  65,          1) /* Placement - RightHandCombat */
      , (48298,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48298, 113,          1) /* Gender - Male */
      , (48298, 151,          2) /* HookType - Wall */
-     , (48298, 179,          0) /* ImbuedEffect - Undef */
-     , (48298, 188,          1) /* HeritageGroup - Aluvian */
-     , (48298, 303,          0) /* ImbuedEffect2 - Undef */
-     , (48298, 304,          0) /* ImbuedEffect3 - Undef */
-     , (48298, 305,          0) /* ImbuedEffect4 - Undef */
-     , (48298, 306,          0) /* ImbuedEffect5 - Undef */
-     , (48298, 307,          5) /* DamageRating */
-     , (48298, 313,          0) /* CritRating */
-     , (48298, 314,          0) /* CritDamageRating */
-     , (48298, 386,          0) /* Overpower */
      , (48298, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48298,   1, False) /* Stuck */
-     , (48298,   2, True ) /* Open */
      , (48298,  11, True ) /* IgnoreCollisions */
      , (48298,  13, True ) /* Ethereal */
      , (48298,  14, True ) /* GravityStatus */
@@ -56,26 +42,16 @@ VALUES (48298,  21,       0) /* WeaponLength */
      , (48298,  62,       1) /* WeaponOffense */
      , (48298,  63,       1) /* DamageMod */
      , (48298,  78,       1) /* Friction */
-     , (48298,  79,       0) /* Elasticity */
-     , (48298, 149,       0) /* WeaponMissileDefense */
-     , (48298, 150,       0) /* WeaponMagicDefense */;
+     , (48298,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48298,   1, 'Arrow') /* Name */
-     , (48298,  14, 'Use this item to close it.') /* Use */
-     , (48298,  16, 'Killed by Mag-two.') /* LongDesc */;
+VALUES (48298,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48298,   1,   33555406) /* Setup */
      , (48298,   3,  536870932) /* SoundTable */
      , (48298,   6,   67111919) /* PaletteBase */
      , (48298,   8,  100670195) /* Icon */
-     , (48298,   9,   83890492) /* EyesTexture */
-     , (48298,  10,   83890551) /* NoseTexture */
-     , (48298,  11,   83890657) /* MouthTexture */
-     , (48298,  15,   67116980) /* HairPalette */
-     , (48298,  16,   67110064) /* EyesPalette */
-     , (48298,  17,   67109559) /* SkinPalette */
      , (48298,  22,  872415275) /* PhysicsEffectTable */
      , (48298, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (48298, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -90,9 +66,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48298,   3, 3688361405) /* Wielder */
      , (48298, 8000, 3688128327) /* PCAPRecordedObjectIID */
      , (48298, 8008, 3688361405) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48298,   1,    75, 0, 0, 75) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48298, 67111921, 0, 0);

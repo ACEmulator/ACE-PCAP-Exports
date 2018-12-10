@@ -25,9 +25,6 @@ VALUES (26588,  39,     0.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26588,   1, 'Portal to Kivik Lir''s Temple') /* Name */
-     , (26588,   7, 'Drops you at 37,6S - 46,6W
-In the Dires... Low lvl beware.') /* Inscription */
-     , (26588,   8, 'Ninavie') /* ScribeName */
      , (26588,  16, 'This device looks to be akin to a portal. It seems to be dormant at the moment. Perhaps if it were hooked in a mansion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

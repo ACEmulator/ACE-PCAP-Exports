@@ -5,13 +5,11 @@ VALUES (11754, 'bannerhaftedspearreedshark', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11754,   1,          1) /* ItemType - MeleeWeapon */
-     , (11754,   2,         77) /* CreatureType - Ghost */
      , (11754,   5,        400) /* EncumbranceVal */
      , (11754,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (11754,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (11754,  16,          1) /* ItemUseable - No */
      , (11754,  18,          1) /* UiEffects - Magical */
-     , (11754,  25,        260) /* Level */
      , (11754,  51,          1) /* CombatUse - Melee */
      , (11754,  65,          1) /* Placement - RightHandCombat */
      , (11754,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -45,9 +43,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11754,   3, 2885037846) /* Wielder */
      , (11754, 8000, 2885206631) /* PCAPRecordedObjectIID */
      , (11754, 8008, 2885037846) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11754,   1,  3175, 0, 0, 2773) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11754, 0, 83893729, 83893729)

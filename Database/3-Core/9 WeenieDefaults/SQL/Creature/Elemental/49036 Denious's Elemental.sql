@@ -14,7 +14,6 @@ VALUES (49036,   1,         16) /* ItemType - Creature */
      , (49036, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49036, 307,         16) /* DamageRating */
      , (49036, 308,         10) /* DamageResistRating */
-     , (49036, 313,          8) /* CritRating */
      , (49036, 314,         13) /* CritDamageRating */
      , (49036, 315,          8) /* CritResistRating */
      , (49036, 316,         17) /* CritDamageResistRating */

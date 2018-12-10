@@ -6,31 +6,14 @@ VALUES (7334, 'skeletonboneknight', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7334,   1,         16) /* ItemType - Creature */
      , (7334,   2,         30) /* CreatureType - Skeleton */
-     , (7334,   5,       6830) /* EncumbranceVal */
      , (7334,   6,        255) /* ItemsCapacity */
      , (7334,   7,        255) /* ContainersCapacity */
      , (7334,  16,          1) /* ItemUseable - No */
-     , (7334,  19,          0) /* Value */
      , (7334,  25,         60) /* Level */
-     , (7334,  44,         24) /* Damage */
-     , (7334,  45,         16) /* DamageType - Fire */
-     , (7334,  47,          1) /* AttackType - Punch */
-     , (7334,  48,         45) /* WeaponSkill - LightWeapons */
-     , (7334,  49,         18) /* WeaponTime */
      , (7334,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7334, 105,          7) /* ItemWorkmanship */
-     , (7334, 131,         63) /* MaterialType - Silver */
      , (7334, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7334, 158,          2) /* WieldRequirements - RawSkill */
-     , (7334, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (7334, 160,        300) /* WieldDifficulty */
-     , (7334, 172,          5) /* AppraisalLongDescDecoration */
-     , (7334, 177,          1) /* GemCount */
-     , (7334, 178,         37) /* GemType */
      , (7334, 307,          5) /* DamageRating */
-     , (7334, 353,          1) /* WeaponType - Unarmed */
-     , (7334, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (7334, 8030,          0);
+     , (7334, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7334,   1, True ) /* Stuck */
@@ -39,17 +22,8 @@ VALUES (7334,   1, True ) /* Stuck */
      , (7334,  14, True ) /* GravityStatus */
      , (7334,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7334,  21,       0) /* WeaponLength */
-     , (7334,  22,    0.53) /* DamageVariance */
-     , (7334,  26,       0) /* MaximumVelocity */
-     , (7334,  29,    1.08) /* WeaponDefense */
-     , (7334,  62,    1.06) /* WeaponOffense */
-     , (7334,  63,       1) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7334,   1, 'Skeleton Bone Knight') /* Name */
-     , (7334,  16, 'Killed by Darth Kronos.') /* LongDesc */
      , (7334, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

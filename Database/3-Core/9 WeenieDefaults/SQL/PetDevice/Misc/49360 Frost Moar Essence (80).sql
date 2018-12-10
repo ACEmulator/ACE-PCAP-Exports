@@ -21,11 +21,7 @@ VALUES (49360,   1,        128) /* ItemType - Misc */
      , (49360, 366,         54) /* UseRequiresSkill */
      , (49360, 367,        370) /* UseRequiresSkillLevel */
      , (49360, 369,         70) /* UseRequiresLevel */
-     , (49360, 370,          4) /* GearDamage */
-     , (49360, 371,         13) /* GearDamageResist */
      , (49360, 372,         15) /* GearCrit */
-     , (49360, 373,         17) /* GearCritResist */
-     , (49360, 374,         10) /* GearCritDamage */
      , (49360, 375,         10) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -43,8 +39,7 @@ VALUES (49360,  39, 0.400000005960464) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49360,   1, 'Frost Moar Essence (80)') /* Name */
-     , (49360,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */
-     , (49360,  16, 'Killed by Callaway.') /* LongDesc */;
+     , (49360,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49360,   1,   33554817) /* Setup */
@@ -62,9 +57,6 @@ VALUES (49360,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49360,   2, 1980006465) /* Container */
      , (49360, 8000, 3470932629) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49360,  1317,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49360, 67111919, 0, 0);

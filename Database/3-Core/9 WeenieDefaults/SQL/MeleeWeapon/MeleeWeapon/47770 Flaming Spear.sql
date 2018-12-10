@@ -18,7 +18,6 @@ VALUES (47770,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47770,   1, False) /* Stuck */
-     , (47770,   2, True ) /* Open */
      , (47770,  11, True ) /* IgnoreCollisions */
      , (47770,  13, True ) /* Ethereal */
      , (47770,  14, True ) /* GravityStatus */
@@ -26,9 +25,7 @@ VALUES (47770,   1, False) /* Stuck */
      , (47770,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47770,   1, 'Flaming Spear') /* Name */
-     , (47770,  14, 'Use this item to close it.') /* Use */
-     , (47770,  16, 'Killed by Mag-four.') /* LongDesc */;
+VALUES (47770,   1, 'Flaming Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47770,   1,   33555412) /* Setup */

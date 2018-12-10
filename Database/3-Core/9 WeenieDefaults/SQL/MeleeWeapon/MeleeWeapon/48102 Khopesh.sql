@@ -5,36 +5,22 @@ VALUES (48102, 'ace48102-khopesh', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48102,   1,          1) /* ItemType - MeleeWeapon */
-     , (48102,   2,         75) /* CreatureType - Burun */
      , (48102,   5,        400) /* EncumbranceVal */
      , (48102,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (48102,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (48102,  16,          1) /* ItemUseable - No */
      , (48102,  19,        200) /* Value */
-     , (48102,  25,        115) /* Level */
-     , (48102,  44,         31) /* Damage */
-     , (48102,  45,          8) /* DamageType - Cold */
-     , (48102,  47,          6) /* AttackType - Thrust, Slash */
+     , (48102,  33,         -2) /* Bonded - Destroy */
+     , (48102,  44,        210) /* Damage */
+     , (48102,  45,          3) /* DamageType - Slash, Pierce */
+     , (48102,  47,        486) /* AttackType - Thrust, Slash, DoubleSlash, TripleSlash, DoubleThrust, TripleThrust */
      , (48102,  48,         46) /* WeaponSkill - FinesseWeapons */
-     , (48102,  49,         23) /* WeaponTime */
+     , (48102,  49,         10) /* WeaponTime */
      , (48102,  51,          1) /* CombatUse - Melee */
      , (48102,  65,          1) /* Placement - RightHandCombat */
      , (48102,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (48102, 105,          4) /* ItemWorkmanship */
-     , (48102, 106,        211) /* ItemSpellcraft */
-     , (48102, 107,        721) /* ItemCurMana */
-     , (48102, 108,        721) /* ItemMaxMana */
-     , (48102, 109,        100) /* ItemDifficulty */
-     , (48102, 110,          0) /* ItemAllegianceRankLimit */
-     , (48102, 115,        231) /* ItemSkillLevelLimit */
-     , (48102, 131,         77) /* MaterialType - Teak */
      , (48102, 151,          2) /* HookType - Wall */
-     , (48102, 158,          2) /* WieldRequirements - RawSkill */
-     , (48102, 159,         46) /* WieldSkilltype - FinesseWeapons */
-     , (48102, 160,        300) /* WieldDifficulty */
-     , (48102, 172,          1) /* AppraisalLongDescDecoration */
-     , (48102, 176,         46) /* AppraisalItemSkill */
-     , (48102, 353,          7) /* WeaponType - Staff */
+     , (48102, 353,          2) /* WeaponType - Sword */
      , (48102, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -46,18 +32,15 @@ VALUES (48102,   1, False) /* Stuck */
      , (48102,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (48102,   5,   -0.05) /* ManaRate */
-     , (48102,  21,       0) /* WeaponLength */
-     , (48102,  22,     0.4) /* DamageVariance */
+VALUES (48102,  21,       0) /* WeaponLength */
+     , (48102,  22,    0.45) /* DamageVariance */
      , (48102,  26,       0) /* MaximumVelocity */
-     , (48102,  29,     1.1) /* WeaponDefense */
-     , (48102,  62,    1.03) /* WeaponOffense */
-     , (48102,  63,       1) /* DamageMod */
-     , (48102, 150,   1.015) /* WeaponMagicDefense */;
+     , (48102,  29,       1) /* WeaponDefense */
+     , (48102,  62,       1) /* WeaponOffense */
+     , (48102,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48102,   1, 'Khopesh') /* Name */
-     , (48102,  16, 'Frost Jo of Blood Drinker') /* LongDesc */;
+VALUES (48102,   1, 'Khopesh') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48102,   1,   33558444) /* Setup */
@@ -77,11 +60,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48102,   3, 3359850828) /* Wielder */
      , (48102, 8000, 3359850829) /* PCAPRecordedObjectIID */
      , (48102, 8008, 3359850828) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48102,   1,   525, 0, 0, 525) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48102,  1615,      2) 
-     , (48102,  2580,      2) 
-     , (48102,  5783,      2) ;

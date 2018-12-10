@@ -32,7 +32,6 @@ VALUES (8514,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8514,   1, 'Mistress'' Chest') /* Name */
      , (8514,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (8514,  15, 'A chest.') /* ShortDesc */
      , (8514,  16, 'A chest inscribed with arcane glyphs. There appear to be some inscriptions in a cuneiform language along the lid. There is a suspicious glow near the lock.') /* LongDesc */
      , (8514, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
@@ -42,7 +41,7 @@ VALUES (8514,   1,   33554556) /* Setup */
      , (8514,   3,  536870945) /* SoundTable */
      , (8514,   8,  100667424) /* Icon */
      , (8514,  22,  872415275) /* PhysicsEffectTable */
-     , (8514,  28,       1432) /* Spell */
+     , (8514,  28,       1432) /* Spell - FocusOther6 */
      , (8514, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (8514, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8514, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;

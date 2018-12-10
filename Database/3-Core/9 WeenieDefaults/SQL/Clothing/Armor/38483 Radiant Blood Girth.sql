@@ -26,7 +26,6 @@ VALUES (38483,   1,          2) /* ItemType - Armor */
      , (38483, 159,        289) /* WieldSkilltype */
      , (38483, 160,        601) /* WieldDifficulty */
      , (38483, 172,          1) /* AppraisalLongDescDecoration */
-     , (38483, 176,          7) /* AppraisalItemSkill */
      , (38483, 265,         30) /* EquipmentSetId - SocietyArmor */
      , (38483, 374,          1) /* GearCritDamage */;
 
@@ -73,10 +72,7 @@ VALUES (38483,   2, 1343474423) /* Container */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38483,  2108,      2) 
      , (38483,  2185,      2) 
-     , (38483,  2590,      2) 
      , (38483,  3964,      2) 
-     , (38483,  4325,      2) 
-     , (38483,  4397,      2) 
      , (38483,  4409,      2) 
      , (38483,  6079,      2) ;
 

@@ -6,22 +6,15 @@ VALUES (4214, 'leathercraftersho', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4214,   1,         16) /* ItemType - Creature */
      , (4214,   2,         31) /* CreatureType - Human */
-     , (4214,   5,         90) /* EncumbranceVal */
      , (4214,   6,        255) /* ItemsCapacity */
      , (4214,   7,        255) /* ContainersCapacity */
      , (4214,  16,         32) /* ItemUseable - Remote */
-     , (4214,  19,       1227) /* Value */
      , (4214,  25,          5) /* Level */
      , (4214,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (4214,  95,          8) /* RadarBlipColor - Yellow */
-     , (4214, 105,          6) /* ItemWorkmanship */
      , (4214, 113,          1) /* Gender - Male */
-     , (4214, 131,         57) /* MaterialType - Brass */
      , (4214, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4214, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4214, 172,          5) /* AppraisalLongDescDecoration */
-     , (4214, 177,          3) /* GemCount */
-     , (4214, 178,         48) /* GemType */
      , (4214, 188,          3) /* HeritageGroup - Sho */
      , (4214, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -41,7 +34,6 @@ VALUES (4214,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4214,   1, 'Leather Crafter') /* Name */
      , (4214,   5, 'Trophy Collector') /* Template */
-     , (4214,  16, 'Heavy Necklace') /* LongDesc */
      , (4214, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -5,7 +5,6 @@ VALUES (21499, 'statuecoffin', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21499,   1,         16) /* ItemType - Creature */
-     , (21499,   5,          0) /* EncumbranceVal */
      , (21499,   6,        255) /* ItemsCapacity */
      , (21499,   7,        255) /* ContainersCapacity */
      , (21499,  16,         32) /* ItemUseable - Remote */

@@ -6,83 +6,36 @@ VALUES (38242, 'ace38242-lunbaldolicci', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38242,   1,         16) /* ItemType - Creature */
      , (38242,   2,         31) /* CreatureType - Human */
-     , (38242,   5,         19) /* EncumbranceVal */
      , (38242,   6,        255) /* ItemsCapacity */
      , (38242,   7,        255) /* ContainersCapacity */
      , (38242,  16,         32) /* ItemUseable - Remote */
-     , (38242,  19,      24377) /* Value */
      , (38242,  25,        220) /* Level */
-     , (38242,  28,        286) /* ArmorLevel */
-     , (38242,  33,          0) /* Bonded - Normal */
-     , (38242,  44,         42) /* Damage */
-     , (38242,  45,          4) /* DamageType - Bludgeon */
-     , (38242,  47,          6) /* AttackType - Thrust, Slash */
-     , (38242,  48,         45) /* WeaponSkill - LightWeapons */
-     , (38242,  49,         27) /* WeaponTime */
      , (38242,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38242,  95,          8) /* RadarBlipColor - Yellow */
-     , (38242, 105,          7) /* ItemWorkmanship */
-     , (38242, 106,        201) /* ItemSpellcraft */
-     , (38242, 107,       1001) /* ItemCurMana */
-     , (38242, 108,       1001) /* ItemMaxMana */
-     , (38242, 109,        209) /* ItemDifficulty */
-     , (38242, 110,          0) /* ItemAllegianceRankLimit */
      , (38242, 113,          1) /* Gender - Male */
-     , (38242, 114,          0) /* Attuned - Normal */
-     , (38242, 115,          0) /* ItemSkillLevelLimit */
-     , (38242, 117,        300) /* ItemManaCost */
-     , (38242, 131,          6) /* MaterialType - Silk */
      , (38242, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38242, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (38242, 158,          2) /* WieldRequirements - RawSkill */
-     , (38242, 159,         45) /* WieldSkilltype - LightWeapons */
-     , (38242, 160,        370) /* WieldDifficulty */
-     , (38242, 172,          5) /* AppraisalLongDescDecoration */
-     , (38242, 177,          1) /* GemCount */
-     , (38242, 178,         23) /* GemType */
      , (38242, 188,          2) /* HeritageGroup - Gharundim */
      , (38242, 281,          4) /* Faction1Bits */
      , (38242, 289,       1001) /* SocietyRankRadblo */
-     , (38242, 353,          7) /* WeaponType - Staff */
-     , (38242, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (38242, 8030,          0);
+     , (38242, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38242,   1, True ) /* Stuck */
-     , (38242,   2, True ) /* Open */
      , (38242,  11, True ) /* IgnoreCollisions */
      , (38242,  12, True ) /* ReportCollisions */
      , (38242,  13, False) /* Ethereal */
      , (38242,  14, True ) /* GravityStatus */
      , (38242,  19, False) /* Attackable */
      , (38242,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (38242,  42, True ) /* AllowEdgeSlide */
-     , (38242, 100, True ) /* Dyable */;
+     , (38242,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (38242,   5,   -0.05) /* ManaRate */
-     , (38242,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (38242,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (38242,  15,       1) /* ArmorModVsBludgeon */
-     , (38242,  16,     0.5) /* ArmorModVsCold */
-     , (38242,  17,     0.5) /* ArmorModVsFire */
-     , (38242,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (38242,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (38242,  21,       0) /* WeaponLength */
-     , (38242,  22,    0.35) /* DamageVariance */
-     , (38242,  26,       0) /* MaximumVelocity */
-     , (38242,  29,    1.18) /* WeaponDefense */
-     , (38242,  54,       3) /* UseRadius */
-     , (38242,  62,    1.03) /* WeaponOffense */
-     , (38242,  63,       1) /* DamageMod */
-     , (38242, 165,       1) /* ArmorModVsNether */;
+VALUES (38242,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38242,   1, 'Lunbal Dolicci') /* Name */
      , (38242,   5, 'High Priest Task Master') /* Template */
-     , (38242,  14, 'Use this item to close it.') /* Use */
-     , (38242,  15, 'This key appears to have been a light marble once, but the years have dulled the color to a deep grey. With some clever locksmithing, and perhaps an intricate carving tool, you may be able to clean it up.') /* ShortDesc */
-     , (38242,  16, 'Cloth Cap of Arcane Enlightenment') /* LongDesc */
      , (38242, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -120,16 +73,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38242,   1,   235, 0, 0, 235) /* MaxHealth */
      , (38242,   3,   330, 0, 0, 330) /* MaxStamina */
      , (38242,   5,   145, 0, 0, 145) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38242,   682,      2) 
-     , (38242,   853,      2) 
-     , (38242,  1022,      2) 
-     , (38242,  1485,      2) 
-     , (38242,  1560,      2) 
-     , (38242,  2136,      2) 
-     , (38242,  2560,      2) 
-     , (38242,  5427,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38242, 67109555, 0, 24)

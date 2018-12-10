@@ -5,25 +5,13 @@ VALUES (8999, 'chestvirindicamplootlocked', 20) /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8999,   1,        512) /* ItemType - Container */
-     , (8999,   2,         14) /* CreatureType - Undead */
      , (8999,   5,       9000) /* EncumbranceVal */
      , (8999,   6,        120) /* ItemsCapacity */
      , (8999,   7,         10) /* ContainersCapacity */
      , (8999,  16,         48) /* ItemUseable - ViewedRemote */
      , (8999,  19,       2500) /* Value */
-     , (8999,  25,        240) /* Level */
      , (8999,  38,       5000) /* ResistLockpick */
      , (8999,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (8999, 105,          5) /* ItemWorkmanship */
-     , (8999, 106,        200) /* ItemSpellcraft */
-     , (8999, 107,        434) /* ItemCurMana */
-     , (8999, 108,        434) /* ItemMaxMana */
-     , (8999, 109,          0) /* ItemDifficulty */
-     , (8999, 110,          0) /* ItemAllegianceRankLimit */
-     , (8999, 115,          0) /* ItemSkillLevelLimit */
-     , (8999, 117,        300) /* ItemManaCost */
-     , (8999, 131,         40) /* MaterialType - SmokeyQuartz */
-     , (8999, 172,          1) /* AppraisalLongDescDecoration */
      , (8999, 173,          0) /* AppraisalLockpickSuccessPercent */
      , (8999, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -43,7 +31,6 @@ VALUES (8999,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8999,   1, 'Steel Chest') /* Name */
      , (8999,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (8999,  16, 'Gem of Mana Renewal') /* LongDesc */
      , (8999, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -62,9 +49,3 @@ VALUES (8999, 8040, 2977431564, 40.54576, 85.56056, 22.84017, 1, 0, 0, 0) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8999, 8000, 3694252152) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8999,   1,  4600, 0, 0, 4600) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8999,   216,      2) ;

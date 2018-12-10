@@ -42,7 +42,7 @@ VALUES (30809,   1,   33559265) /* Setup */
      , (30809,   3,  536870932) /* SoundTable */
      , (30809,   8,  100677497) /* Icon */
      , (30809,  22,  872415275) /* PhysicsEffectTable */
-     , (30809,  28,        157) /* Spell */
+     , (30809,  28,        157) /* Spell - SummonPortal1 */
      , (30809, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (30809, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (30809, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */

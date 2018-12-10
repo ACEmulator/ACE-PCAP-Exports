@@ -26,8 +26,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46401,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46401,   1, 'T''thuun Claw') /* Name */
-     , (46401,  16, 'Killed by Chatlin.') /* LongDesc */;
+VALUES (46401,   1, 'T''thuun Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46401,   1,   33560670) /* Setup */

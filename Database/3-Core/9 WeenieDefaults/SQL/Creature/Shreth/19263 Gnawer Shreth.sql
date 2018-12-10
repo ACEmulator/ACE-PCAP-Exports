@@ -6,35 +6,13 @@ VALUES (19263, 'shrethgnawer_noaggro', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19263,   1,         16) /* ItemType - Creature */
      , (19263,   2,         32) /* CreatureType - Shreth */
-     , (19263,   5,         50) /* EncumbranceVal */
      , (19263,   6,        255) /* ItemsCapacity */
      , (19263,   7,        255) /* ContainersCapacity */
      , (19263,  16,          1) /* ItemUseable - No */
-     , (19263,  19,       7070) /* Value */
      , (19263,  25,          8) /* Level */
-     , (19263,  44,         20) /* Damage */
-     , (19263,  45,          4) /* DamageType - Bludgeon */
-     , (19263,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (19263,  49,         10) /* WeaponTime */
      , (19263,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19263, 105,          7) /* ItemWorkmanship */
-     , (19263, 106,        215) /* ItemSpellcraft */
-     , (19263, 107,        801) /* ItemCurMana */
-     , (19263, 108,        801) /* ItemMaxMana */
-     , (19263, 109,        161) /* ItemDifficulty */
-     , (19263, 110,          0) /* ItemAllegianceRankLimit */
-     , (19263, 115,          0) /* ItemSkillLevelLimit */
-     , (19263, 131,         41) /* MaterialType - Sunstone */
      , (19263, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (19263, 158,          7) /* WieldRequirements - Level */
-     , (19263, 159,          1) /* WieldSkilltype - Axe */
-     , (19263, 160,        150) /* WieldDifficulty */
-     , (19263, 172,          5) /* AppraisalLongDescDecoration */
-     , (19263, 177,          2) /* GemCount */
-     , (19263, 178,         23) /* GemType */
-     , (19263, 353,         10) /* WeaponType - Thrown */
-     , (19263, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (19263, 8030,          0);
+     , (19263, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19263,   1, True ) /* Stuck */
@@ -44,18 +22,10 @@ VALUES (19263,   1, True ) /* Stuck */
      , (19263,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19263,   5,   -0.05) /* ManaRate */
-     , (19263,  21,       0) /* WeaponLength */
-     , (19263,  22,    0.25) /* DamageVariance */
-     , (19263,  26,       0) /* MaximumVelocity */
-     , (19263,  29,       1) /* WeaponDefense */
-     , (19263,  39, 0.600000023841858) /* DefaultScale */
-     , (19263,  62,       1) /* WeaponOffense */
-     , (19263,  63,       1) /* DamageMod */;
+VALUES (19263,  39, 0.600000023841858) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19263,   1, 'Gnawer Shreth') /* Name */
-     , (19263,  16, 'Ornamental Bowl of Item Tinkering') /* LongDesc */
      , (19263, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -88,11 +58,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (19263,   1,    15, 0, 0, 15) /* MaxHealth */
      , (19263,   3,   100, 0, 0, 100) /* MaxStamina */
      , (19263,   5,    15, 0, 0, 15) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19263,   730,      2) 
-     , (19263,  2067,      2) 
-     , (19263,  4673,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19263, 67112469, 0, 0);

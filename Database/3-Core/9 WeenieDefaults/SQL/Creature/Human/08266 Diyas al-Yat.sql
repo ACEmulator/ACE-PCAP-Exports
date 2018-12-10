@@ -6,17 +6,13 @@ VALUES (8266, 'zaikhalvirindischolar', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8266,   1,         16) /* ItemType - Creature */
      , (8266,   2,         31) /* CreatureType - Human */
-     , (8266,   5,        100) /* EncumbranceVal */
      , (8266,   6,        255) /* ItemsCapacity */
      , (8266,   7,        255) /* ContainersCapacity */
      , (8266,  16,         32) /* ItemUseable - Remote */
-     , (8266,  19,          0) /* Value */
      , (8266,  25,         21) /* Level */
-     , (8266,  33,          1) /* Bonded - Bonded */
      , (8266,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (8266,  95,          8) /* RadarBlipColor - Yellow */
      , (8266, 113,          1) /* Gender - Male */
-     , (8266, 114,          1) /* Attuned - Attuned */
      , (8266, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8266, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (8266, 188,          2) /* HeritageGroup - Gharundim */
@@ -30,8 +26,7 @@ VALUES (8266,   1, True ) /* Stuck */
      , (8266,  14, True ) /* GravityStatus */
      , (8266,  19, False) /* Attackable */
      , (8266,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (8266,  42, True ) /* AllowEdgeSlide */
-     , (8266,  69, False) /* IsSellable */;
+     , (8266,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8266,  54,       3) /* UseRadius */;
@@ -39,7 +34,6 @@ VALUES (8266,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8266,   1, 'Diyas al-Yat') /* Name */
      , (8266,   5, 'Scholar') /* Template */
-     , (8266,  15, 'A tusk plucked from a dead Tusker Guard. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* ShortDesc */
      , (8266, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

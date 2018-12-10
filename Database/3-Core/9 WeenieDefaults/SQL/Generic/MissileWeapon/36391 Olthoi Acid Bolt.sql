@@ -24,16 +24,6 @@ VALUES (36391,   1,        256) /* ItemType - MissileWeapon */
      , (36391, 158,          2) /* WieldRequirements - RawSkill */
      , (36391, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (36391, 160,        270) /* WieldDifficulty */
-     , (36391, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (36391, 303,          1) /* ImbuedEffect2 - CriticalStrike */
-     , (36391, 304,          1) /* ImbuedEffect3 - CriticalStrike */
-     , (36391, 305,          1) /* ImbuedEffect4 - CriticalStrike */
-     , (36391, 306,          1) /* ImbuedEffect5 - CriticalStrike */
-     , (36391, 307,         26) /* DamageRating */
-     , (36391, 313,          1) /* CritRating */
-     , (36391, 314,          8) /* CritDamageRating */
-     , (36391, 381,          0) /* PKDamageRating */
-     , (36391, 386,          0) /* Overpower */
      , (36391, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,9 +44,7 @@ VALUES (36391,  21,       0) /* WeaponLength */
      , (36391,  62,       1) /* WeaponOffense */
      , (36391,  63,       1) /* DamageMod */
      , (36391,  78,       1) /* Friction */
-     , (36391,  79,       0) /* Elasticity */
-     , (36391, 149,       0) /* WeaponMissileDefense */
-     , (36391, 150,       0) /* WeaponMagicDefense */;
+     , (36391,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36391,   1, 'Olthoi Acid Bolt') /* Name */;

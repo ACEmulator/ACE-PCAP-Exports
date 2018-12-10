@@ -46,7 +46,7 @@ VALUES (10934,   1,   33557001) /* Setup */
      , (10934,   6,   67111346) /* PaletteBase */
      , (10934,   8,  100671464) /* Icon */
      , (10934,  22,  872415275) /* PhysicsEffectTable */
-     , (10934,  28,       2636) /* Spell */
+     , (10934,  28,       2636) /* Spell - KarenuasCurse */
      , (10934, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (10934, 8003,         23) /* PCAPRecordedObjectDesc - Openable, Inscribable, Stuck, Attackable */
      , (10934, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;

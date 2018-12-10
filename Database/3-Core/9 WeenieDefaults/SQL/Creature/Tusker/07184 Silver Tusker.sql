@@ -6,22 +6,16 @@ VALUES (7184, 'tuskersilver', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7184,   1,         16) /* ItemType - Creature */
      , (7184,   2,          8) /* CreatureType - Tusker */
-     , (7184,   5,       6724) /* EncumbranceVal */
      , (7184,   6,        255) /* ItemsCapacity */
      , (7184,   7,        255) /* ContainersCapacity */
      , (7184,  16,          1) /* ItemUseable - No */
-     , (7184,  19,          0) /* Value */
      , (7184,  25,         80) /* Level */
      , (7184,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7184, 113,          1) /* Gender - Male */
      , (7184, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (7184, 188,          1) /* HeritageGroup - Aluvian */
-     , (7184, 307,          5) /* DamageRating */
      , (7184, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7184,   1, True ) /* Stuck */
-     , (7184,   2, True ) /* Open */
      , (7184,  12, True ) /* ReportCollisions */
      , (7184,  13, False) /* Ethereal */
      , (7184,  14, True ) /* GravityStatus */
@@ -32,8 +26,6 @@ VALUES (7184,  39, 1.20000004768372) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7184,   1, 'Silver Tusker') /* Name */
-     , (7184,  14, 'Use this item to close it.') /* Use */
-     , (7184,  16, 'Killed by Mag-three.') /* LongDesc */
      , (7184, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -42,12 +34,6 @@ VALUES (7184,   1,   33556836) /* Setup */
      , (7184,   3,  536870929) /* SoundTable */
      , (7184,   6,   67113007) /* PaletteBase */
      , (7184,   8,  100667443) /* Icon */
-     , (7184,   9,   83890466) /* EyesTexture */
-     , (7184,  10,   83890554) /* NoseTexture */
-     , (7184,  11,   83890643) /* MouthTexture */
-     , (7184,  15,   67117020) /* HairPalette */
-     , (7184,  16,   67110063) /* EyesPalette */
-     , (7184,  17,   67109558) /* SkinPalette */
      , (7184,  22,  872415271) /* PhysicsEffectTable */
      , (7184, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7184, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */

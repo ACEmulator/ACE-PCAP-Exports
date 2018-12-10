@@ -35,7 +35,7 @@ VALUES (41448,   1,   33554802) /* Setup */
      , (41448,   3,  536870932) /* SoundTable */
      , (41448,   8,  100690739) /* Icon */
      , (41448,  22,  872415275) /* PhysicsEffectTable */
-     , (41448,  28,       5128) /* Spell */
+     , (41448,  28,       5128) /* Spell - AnswerOfLoyaltyStam1 */
      , (41448, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (41448, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (41448, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */

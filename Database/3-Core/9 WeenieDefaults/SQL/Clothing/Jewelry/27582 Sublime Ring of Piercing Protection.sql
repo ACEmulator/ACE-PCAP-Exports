@@ -30,7 +30,6 @@ VALUES (27582,   1, False) /* Stuck */
      , (27582,  14, True ) /* GravityStatus */
      , (27582,  19, True ) /* Attackable */
      , (27582,  22, True ) /* Inscribable */
-     , (27582,  85, True ) /* AppraisalHasAllowedWielder */
      , (27582,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,8 +38,7 @@ VALUES (27582,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27582,   1, 'Sublime Ring of Piercing Protection') /* Name */
-     , (27582,  15, 'A ring of piercing protection, given by Behdo Yii for completing the Warrior quest.') /* ShortDesc */
-     , (27582,  25, 'Arkaina') /* CraftsmanName */;
+     , (27582,  15, 'A ring of piercing protection, given by Behdo Yii for completing the Warrior quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27582,   1,   33554691) /* Setup */

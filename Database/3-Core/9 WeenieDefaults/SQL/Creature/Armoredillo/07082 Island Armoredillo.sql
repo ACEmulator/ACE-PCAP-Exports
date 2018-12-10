@@ -6,14 +6,11 @@ VALUES (7082, 'armoredilloisland', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7082,   1,         16) /* ItemType - Creature */
      , (7082,   2,         17) /* CreatureType - Armoredillo */
-     , (7082,   5,       6000) /* EncumbranceVal */
      , (7082,   6,        255) /* ItemsCapacity */
      , (7082,   7,        255) /* ContainersCapacity */
      , (7082,  16,          1) /* ItemUseable - No */
-     , (7082,  19,          0) /* Value */
      , (7082,  25,         40) /* Level */
      , (7082,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7082, 107,          0) /* ItemCurMana */
      , (7082, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (7082, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -24,14 +21,8 @@ VALUES (7082,   1, True ) /* Stuck */
      , (7082,  14, True ) /* GravityStatus */
      , (7082,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7082,  87,     1.2) /* ItemEfficiency */
-     , (7082, 137,    0.15) /* ManaStoneDestroyChance */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7082,   1, 'Island Armoredillo') /* Name */
-     , (7082,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (7082,  16, 'Killed by Mag-nus.') /* LongDesc */
      , (7082, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

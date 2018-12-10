@@ -44,7 +44,7 @@ VALUES (51372,   1,   33556769) /* Setup */
      , (51372,   6,   67111919) /* PaletteBase */
      , (51372,   8,  100693112) /* Icon */
      , (51372,  22,  872415275) /* PhysicsEffectTable */
-     , (51372,  28,       6147) /* Spell */
+     , (51372,  28,       6147) /* Spell - PortalSendingIceValley */
      , (51372, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (51372, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (51372, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;

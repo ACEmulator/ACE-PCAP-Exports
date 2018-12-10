@@ -45,8 +45,6 @@ VALUES (3645,   5,  -0.033) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3645,   1, 'Tibri''s Fire Spear') /* Name */
-     , (3645,   7, '2-8 Fire, 30 spd, BD II, HS II') /* Inscription */
-     , (3645,   8, 'Edwin') /* ScribeName */
      , (3645,  16, 'Tibri''s flaming spear does fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

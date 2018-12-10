@@ -20,11 +20,7 @@ VALUES (5770,   1,        256) /* ItemType - MissileWeapon */
      , (5770,  65,          1) /* Placement - RightHandCombat */
      , (5770,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5770, 151,          2) /* HookType - Wall */
-     , (5770, 307,         11) /* DamageRating */
-     , (5770, 313,          1) /* CritRating */
-     , (5770, 314,          5) /* CritDamageRating */
      , (5770, 353,         10) /* WeaponType - Thrown */
-     , (5770, 386,          0) /* Overpower */
      , (5770, 8030,          0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,9 +40,7 @@ VALUES (5770,  21,       0) /* WeaponLength */
      , (5770,  62,       1) /* WeaponOffense */
      , (5770,  63,       1) /* DamageMod */
      , (5770,  78,       1) /* Friction */
-     , (5770,  79,       0) /* Elasticity */
-     , (5770, 149,       0) /* WeaponMissileDefense */
-     , (5770, 150,       0) /* WeaponMagicDefense */;
+     , (5770,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5770,   1, '"Enchanted" Iceball') /* Name */

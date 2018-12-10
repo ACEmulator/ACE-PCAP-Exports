@@ -11,10 +11,8 @@ VALUES (47272,   1,          1) /* ItemType - MeleeWeapon */
      , (47272,  16,          1) /* ItemUseable - No */
      , (47272,  18,         64) /* UiEffects - Lightning */
      , (47272,  19,        350) /* Value */
-     , (47272,  33,          1) /* Bonded - Bonded */
      , (47272,  51,          1) /* CombatUse - Melee */
      , (47272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47272, 114,          1) /* Attuned - Attuned */
      , (47272, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,8 +24,7 @@ VALUES (47272,   1, False) /* Stuck */
      , (47272,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47272,   1, 'Electric Board with Nail') /* Name */
-     , (47272,  16, 'This eater jaw has rows of long sharp teeth.') /* LongDesc */;
+VALUES (47272,   1, 'Electric Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47272,   1,   33559654) /* Setup */

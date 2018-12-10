@@ -45,8 +45,6 @@ VALUES (32757,   5, -0.0833) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32757,   1, 'Prismatic Amuli Leggings') /* Name */
-     , (32757,   7, 'Mine!') /* Inscription */
-     , (32757,   8, 'Ninavie') /* ScribeName */
      , (32757,  16, 'A set of Amuli Leggings infused with the power of the Elements. A soft glow surrounds the leggings and storms can be seen waxing and waning within the crystal surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

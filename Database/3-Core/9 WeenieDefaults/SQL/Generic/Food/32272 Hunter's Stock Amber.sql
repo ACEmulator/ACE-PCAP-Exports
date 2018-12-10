@@ -39,7 +39,7 @@ VALUES (32272,   1,   33559128) /* Setup */
      , (32272,   3,  536870932) /* SoundTable */
      , (32272,   8,  100688499) /* Icon */
      , (32272,  22,  872415275) /* PhysicsEffectTable */
-     , (32272,  28,       3863) /* Spell */
+     , (32272,  28,       3863) /* Spell - HunterHardiness */
      , (32272,  50,  100687554) /* IconOverlay */
      , (32272,  52,  100687547) /* IconUnderlay */
      , (32272, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */

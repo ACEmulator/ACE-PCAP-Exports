@@ -6,14 +6,11 @@ VALUES (36818, 'ace36818-banderlingpredator', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36818,   1,         16) /* ItemType - Creature */
      , (36818,   2,          2) /* CreatureType - Banderling */
-     , (36818,   5,       6472) /* EncumbranceVal */
      , (36818,   6,        255) /* ItemsCapacity */
      , (36818,   7,        255) /* ContainersCapacity */
      , (36818,  16,          1) /* ItemUseable - No */
-     , (36818,  19,          0) /* Value */
      , (36818,  25,        115) /* Level */
      , (36818,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (36818, 107,          0) /* ItemCurMana */
      , (36818, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36818, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -25,14 +22,10 @@ VALUES (36818,   1, True ) /* Stuck */
      , (36818,  19, True ) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36818,  39, 1.29999995231628) /* DefaultScale */
-     , (36818,  87,       2) /* ItemEfficiency */
-     , (36818, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (36818,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36818,   1, 'Banderling Predator') /* Name */
-     , (36818,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
-     , (36818,  16, 'Killed by Mag-lite.') /* LongDesc */
      , (36818, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -5,14 +5,11 @@ VALUES (33239, 'ace33239-tunnelstotheharbinger', 10) /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33239,   1,         16) /* ItemType - Creature */
-     , (33239,   5,         50) /* EncumbranceVal */
      , (33239,   6,        255) /* ItemsCapacity */
      , (33239,   7,        255) /* ContainersCapacity */
      , (33239,  16,         32) /* ItemUseable - Remote */
-     , (33239,  19,       5000) /* Value */
      , (33239,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (33239,  95,          4) /* RadarBlipColor - Purple */
-     , (33239, 107,          0) /* ItemCurMana */
      , (33239, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (33239, 307,          0) /* DamageRating */
      , (33239, 308,          0) /* DamageResistRating */
@@ -52,13 +49,10 @@ VALUES (33239,   1, True ) /* Stuck */
      , (33239,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (33239,  54, 0.100000001490116) /* UseRadius */
-     , (33239,  87,       2) /* ItemEfficiency */
-     , (33239, 137,     0.2) /* ManaStoneDestroyChance */;
+VALUES (33239,  54, 0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33239,   1, 'Tunnels to the Harbinger') /* Name */
-     , (33239,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */
      , (33239,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */
      , (33239, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

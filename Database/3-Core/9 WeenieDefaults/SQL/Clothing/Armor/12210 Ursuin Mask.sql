@@ -35,8 +35,6 @@ VALUES (12210,  13, 0.28999999165535) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12210,   1, 'Ursuin Mask') /* Name */
-     , (12210,   7, 'A gift for the best Sweetest Cat I know you can purr for me anytime 8)') /* Inscription */
-     , (12210,   8, 'Zordath') /* ScribeName */
      , (12210,  16, 'A finely stitched and cured Ursuin head, complete with cushions around the neck for active use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

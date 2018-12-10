@@ -30,7 +30,6 @@ VALUES (8133,   1, False) /* Stuck */
      , (8133,  14, True ) /* GravityStatus */
      , (8133,  19, True ) /* Attackable */
      , (8133,  22, True ) /* Inscribable */
-     , (8133,  85, True ) /* AppraisalHasAllowedWielder */
      , (8133,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -48,8 +47,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8133,   1, 'Aerfalle''s Pallium') /* Name */
      , (8133,   7, 'Uber') /* Inscription */
      , (8133,   8, 'Ripley') /* ScribeName */
-     , (8133,  16, 'A black robe which seems to have threads of chorizite woven into it. This item cannot be enchanted.') /* LongDesc */
-     , (8133,  25, 'Oldon') /* CraftsmanName */;
+     , (8133,  16, 'A black robe which seems to have threads of chorizite woven into it. This item cannot be enchanted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8133,   1,   33554854) /* Setup */

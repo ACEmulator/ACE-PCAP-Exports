@@ -6,14 +6,10 @@ VALUES (35462, 'ace35462-jarvishammerstone', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35462,   1,         16) /* ItemType - Creature */
      , (35462,   2,         31) /* CreatureType - Human */
-     , (35462,   5,         50) /* EncumbranceVal */
      , (35462,   6,        255) /* ItemsCapacity */
      , (35462,   7,        255) /* ContainersCapacity */
      , (35462,  16,         32) /* ItemUseable - Remote */
-     , (35462,  19,         25) /* Value */
      , (35462,  25,         84) /* Level */
-     , (35462,  91,          1) /* MaxStructure */
-     , (35462,  92,          1) /* Structure */
      , (35462,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (35462,  95,          8) /* RadarBlipColor - Yellow */
      , (35462, 113,          1) /* Gender - Male */
@@ -30,8 +26,7 @@ VALUES (35462,   1, True ) /* Stuck */
      , (35462,  14, True ) /* GravityStatus */
      , (35462,  19, False) /* Attackable */
      , (35462,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (35462,  42, True ) /* AllowEdgeSlide */
-     , (35462,  69, False) /* IsSellable */;
+     , (35462,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35462,  54,       3) /* UseRadius */;
@@ -39,8 +34,6 @@ VALUES (35462,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35462,   1, 'Jarvis Hammerstone') /* Name */
      , (35462,   5, 'Merchant') /* Template */
-     , (35462,  14, 'Use this item on a locked chest to unlock it.') /* Use */
-     , (35462,  16, 'This key is a sturdy iron key that looks like it might fit a variety of chests, of the type used to hold valuable treasure.') /* LongDesc */
      , (35462, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

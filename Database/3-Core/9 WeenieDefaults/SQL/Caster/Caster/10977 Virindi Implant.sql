@@ -35,8 +35,6 @@ VALUES (10977,   5,   -0.05) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10977,   1, 'Virindi Implant') /* Name */
-     , (10977,   7, 'please return') /* Inscription */
-     , (10977,   8, 'Branor') /* ScribeName */
      , (10977,  16, 'A reddish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Sahkurea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -44,7 +42,7 @@ VALUES (10977,   1,   33557289) /* Setup */
      , (10977,   3,  536870932) /* SoundTable */
      , (10977,   8,  100671871) /* Icon */
      , (10977,  22,  872415275) /* PhysicsEffectTable */
-     , (10977,  28,       2419) /* Spell */
+     , (10977,  28,       2419) /* Spell - PanicAttack */
      , (10977, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (10977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

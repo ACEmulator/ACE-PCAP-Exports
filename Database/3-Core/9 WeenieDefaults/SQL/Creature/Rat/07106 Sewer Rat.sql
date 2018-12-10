@@ -6,25 +6,13 @@ VALUES (7106, 'ratsewer', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7106,   1,         16) /* ItemType - Creature */
      , (7106,   2,         10) /* CreatureType - Rat */
-     , (7106,   5,         50) /* EncumbranceVal */
      , (7106,   6,        255) /* ItemsCapacity */
      , (7106,   7,        255) /* ContainersCapacity */
      , (7106,  16,          1) /* ItemUseable - No */
-     , (7106,  19,      10000) /* Value */
      , (7106,  25,         50) /* Level */
      , (7106,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7106, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7106, 158,          7) /* WieldRequirements - Level */
-     , (7106, 159,          1) /* WieldSkilltype - Axe */
-     , (7106, 160,         75) /* WieldDifficulty */
-     , (7106, 265,         39) /* EquipmentSetId - AetheriaVigor */
-     , (7106, 319,          3) /* ItemMaxLevel */
-     , (7106, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (7106, 8007,          0) /* PCAPRecordedAutonomousMovement */;
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (7106,   4,  750000000) /* ItemTotalXp */
-     , (7106,   5, 1000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7106,   1, True ) /* Stuck */
@@ -39,7 +27,6 @@ VALUES (7106,  39,       3) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7106,   1, 'Sewer Rat') /* Name */
-     , (7106,  16, 'This aetheria''s sigil now shows on the surface.') /* LongDesc */
      , (7106, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -49,7 +36,6 @@ VALUES (7106,   1,   33554493) /* Setup */
      , (7106,   6,   67109300) /* PaletteBase */
      , (7106,   8,  100667451) /* Icon */
      , (7106,  22,  872415267) /* PhysicsEffectTable */
-     , (7106,  55,       5208) /* ProcSpell */
      , (7106, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7106, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7106, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */
@@ -74,9 +60,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7106,   1,   150, 0, 0, 150) /* MaxHealth */
      , (7106,   3,   220, 0, 0, 220) /* MaxStamina */
      , (7106,   5,   100, 0, 0, 100) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7106,  5208,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7106, 67112878, 0, 0);

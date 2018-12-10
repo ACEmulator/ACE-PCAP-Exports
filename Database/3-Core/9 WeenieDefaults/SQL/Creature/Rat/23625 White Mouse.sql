@@ -6,11 +6,9 @@ VALUES (23625, 'ratwhitetiny', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23625,   1,         16) /* ItemType - Creature */
      , (23625,   2,         10) /* CreatureType - Rat */
-     , (23625,   5,       6060) /* EncumbranceVal */
      , (23625,   6,        255) /* ItemsCapacity */
      , (23625,   7,        255) /* ContainersCapacity */
      , (23625,  16,          1) /* ItemUseable - No */
-     , (23625,  19,          0) /* Value */
      , (23625,  25,          1) /* Level */
      , (23625,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23625, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -28,7 +26,6 @@ VALUES (23625,  39, 0.699999988079071) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23625,   1, 'White Mouse') /* Name */
-     , (23625,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (23625, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

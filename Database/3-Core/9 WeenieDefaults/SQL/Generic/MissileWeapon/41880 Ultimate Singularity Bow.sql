@@ -30,15 +30,8 @@ VALUES (41880,   1,        256) /* ItemType - MissileWeapon */
      , (41880, 159,         47) /* WieldSkilltype - MissileWeapons */
      , (41880, 160,        360) /* WieldDifficulty */
      , (41880, 166,         19) /* SlayerCreatureType - Virindi */
-     , (41880, 265,        138) /* EquipmentSetId - UNKNOWN_138 */
-     , (41880, 319,          1) /* ItemMaxLevel */
-     , (41880, 320,          1) /* ItemXpStyle - Fixed */
      , (41880, 353,          8) /* WeaponType - Bow */
      , (41880, 8030,          0);
-
-INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
-VALUES (41880,   4,          0) /* ItemTotalXp */
-     , (41880,   5, 2000000000) /* ItemBaseXp */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41880,   1, False) /* Stuck */
@@ -64,8 +57,6 @@ VALUES (41880,   5, -0.0329999998211861) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41880,   1, 'Ultimate Singularity Bow') /* Name */
-     , (41880,   7, 'Well, it ain''t Rynthid, but it''s not half bad, neither') /* Inscription */
-     , (41880,   8, 'The Eternal Harvester') /* ScribeName */
      , (41880,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */
      , (41880,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 

@@ -5,13 +5,11 @@ VALUES (47728, 'ace47728-spear', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47728,   1,          1) /* ItemType - MeleeWeapon */
-     , (47728,   2,          3) /* CreatureType - Drudge */
      , (47728,   5,        700) /* EncumbranceVal */
      , (47728,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47728,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47728,  16,          1) /* ItemUseable - No */
      , (47728,  19,        170) /* Value */
-     , (47728,  25,          8) /* Level */
      , (47728,  33,         -2) /* Bonded - Destroy */
      , (47728,  44,         33) /* Damage */
      , (47728,  45,          3) /* DamageType - Slash, Pierce */
@@ -42,8 +40,7 @@ VALUES (47728,  21,       0) /* WeaponLength */
      , (47728,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47728,   1, 'Spear') /* Name */
-     , (47728,  16, 'Killed by Mag-lite.') /* LongDesc */;
+VALUES (47728,   1, 'Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47728,   1,   33554756) /* Setup */
@@ -64,9 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47728,   3, 3685860766) /* Wielder */
      , (47728, 8000, 3685860773) /* PCAPRecordedObjectIID */
      , (47728, 8008, 3685860766) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47728,   1,    42, 0, 0, 42) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47728, 67111920, 0, 0);

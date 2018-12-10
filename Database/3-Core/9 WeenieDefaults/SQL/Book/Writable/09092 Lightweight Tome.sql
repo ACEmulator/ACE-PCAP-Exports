@@ -8,14 +8,10 @@ VALUES (9092,   1,       8192) /* ItemType - Writable */
      , (9092,   5,        500) /* EncumbranceVal */
      , (9092,  16,          8) /* ItemUseable - Contained */
      , (9092,  19,       1000) /* Value */
-     , (9092,  28,          0) /* ArmorLevel */
      , (9092,  33,          1) /* Bonded - Bonded */
      , (9092,  65,        101) /* Placement - Resting */
      , (9092,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9092, 105,          5) /* ItemWorkmanship */
      , (9092, 114,          1) /* Attuned - Attuned */
-     , (9092, 131,          4) /* MaterialType - Linen */
-     , (9092, 172,          1) /* AppraisalLongDescDecoration */
      , (9092, 174,         21) /* AppraisalPages */
      , (9092, 175,         70) /* AppraisalMaxPages */;
 
@@ -25,20 +21,11 @@ VALUES (9092,   1, False) /* Stuck */
      , (9092,  13, True ) /* Ethereal */
      , (9092,  14, True ) /* GravityStatus */
      , (9092,  19, True ) /* Attackable */
-     , (9092,  22, True ) /* Inscribable */
-     , (9092, 100, True ) /* Dyable */;
+     , (9092,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9092,  13, 0.800000011920929) /* ArmorModVsSlash */
-     , (9092,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (9092,  15,       1) /* ArmorModVsBludgeon */
-     , (9092,  16, 0.200000002980232) /* ArmorModVsCold */
-     , (9092,  17, 0.200000002980232) /* ArmorModVsFire */
-     , (9092,  18, 0.100000001490116) /* ArmorModVsAcid */
-     , (9092,  19, 0.200000002980232) /* ArmorModVsElectric */
-     , (9092,  39, 1.33000004291534) /* DefaultScale */
-     , (9092,  54,       1) /* UseRadius */
-     , (9092, 165,       1) /* ArmorModVsNether */;
+VALUES (9092,  39, 1.33000004291534) /* DefaultScale */
+     , (9092,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9092,   1, 'Lightweight Tome') /* Name */

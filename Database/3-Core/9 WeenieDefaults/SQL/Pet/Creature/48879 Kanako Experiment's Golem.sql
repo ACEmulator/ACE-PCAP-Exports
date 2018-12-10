@@ -6,11 +6,9 @@ VALUES (48879, 'ace48879-kanakoexperimentsgolem', 69) /* Pet */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48879,   1,         16) /* ItemType - Creature */
      , (48879,   2,         13) /* CreatureType - Golem */
-     , (48879,   5,       6690) /* EncumbranceVal */
      , (48879,   6,        255) /* ItemsCapacity */
      , (48879,   7,        255) /* ContainersCapacity */
      , (48879,  16,          1) /* ItemUseable - No */
-     , (48879,  19,          0) /* Value */
      , (48879,  25,         50) /* Level */
      , (48879,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (48879, 133,          1) /* ShowableOnRadar - ShowNever */
@@ -25,7 +23,6 @@ VALUES (48879,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48879,   1, 'Kanako Experiment''s Golem') /* Name */
-     , (48879,  16, 'Killed by Fquicker.') /* LongDesc */
      , (48879, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

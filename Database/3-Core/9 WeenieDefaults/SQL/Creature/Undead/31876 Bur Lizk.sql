@@ -6,11 +6,9 @@ VALUES (31876, 'ace31876-burlizk', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31876,   1,         16) /* ItemType - Creature */
      , (31876,   2,         14) /* CreatureType - Undead */
-     , (31876,   5,       6070) /* EncumbranceVal */
      , (31876,   6,        255) /* ItemsCapacity */
      , (31876,   7,        255) /* ContainersCapacity */
      , (31876,  16,          1) /* ItemUseable - No */
-     , (31876,  19,          0) /* Value */
      , (31876,  25,        160) /* Level */
      , (31876,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31876, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (31876,  39, 1.29999995231628) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31876,   1, 'Bur Lizk') /* Name */
-     , (31876,  16, 'Killed by Zedura.') /* LongDesc */
      , (31876, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

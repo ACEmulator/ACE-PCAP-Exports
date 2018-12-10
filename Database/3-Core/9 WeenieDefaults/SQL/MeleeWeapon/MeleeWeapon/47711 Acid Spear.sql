@@ -11,7 +11,6 @@ VALUES (47711,   1,          1) /* ItemType - MeleeWeapon */
      , (47711,  16,          1) /* ItemUseable - No */
      , (47711,  18,        256) /* UiEffects - Acid */
      , (47711,  19,        170) /* Value */
-     , (47711,  28,        148) /* ArmorLevel */
      , (47711,  33,         -2) /* Bonded - Destroy */
      , (47711,  44,         56) /* Damage */
      , (47711,  45,         32) /* DamageType - Acid */
@@ -21,10 +20,7 @@ VALUES (47711,   1,          1) /* ItemType - MeleeWeapon */
      , (47711,  51,          1) /* CombatUse - Melee */
      , (47711,  65,          1) /* Placement - RightHandCombat */
      , (47711,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47711, 105,          2) /* ItemWorkmanship */
-     , (47711, 131,          4) /* MaterialType - Linen */
      , (47711, 151,          2) /* HookType - Wall */
-     , (47711, 172,          1) /* AppraisalLongDescDecoration */
      , (47711, 353,          5) /* WeaponType - Spear */
      , (47711, 8030,          0);
 
@@ -34,28 +30,18 @@ VALUES (47711,   1, False) /* Stuck */
      , (47711,  13, True ) /* Ethereal */
      , (47711,  14, True ) /* GravityStatus */
      , (47711,  19, True ) /* Attackable */
-     , (47711,  22, True ) /* Inscribable */
-     , (47711, 100, True ) /* Dyable */;
+     , (47711,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (47711,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (47711,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (47711,  15,       1) /* ArmorModVsBludgeon */
-     , (47711,  16,     0.5) /* ArmorModVsCold */
-     , (47711,  17,     0.5) /* ArmorModVsFire */
-     , (47711,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (47711,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (47711,  21,       0) /* WeaponLength */
+VALUES (47711,  21,       0) /* WeaponLength */
      , (47711,  22,     0.5) /* DamageVariance */
      , (47711,  26,       0) /* MaximumVelocity */
      , (47711,  29,       1) /* WeaponDefense */
      , (47711,  62,       1) /* WeaponOffense */
-     , (47711,  63,       1) /* DamageMod */
-     , (47711, 165,       1) /* ArmorModVsNether */;
+     , (47711,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47711,   1, 'Acid Spear') /* Name */
-     , (47711,  16, 'Cloth Gloves') /* LongDesc */;
+VALUES (47711,   1, 'Acid Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47711,   1,   33555780) /* Setup */

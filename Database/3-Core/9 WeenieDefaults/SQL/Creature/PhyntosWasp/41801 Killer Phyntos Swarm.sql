@@ -10,11 +10,7 @@ VALUES (41801,   1,         16) /* ItemType - Creature */
      , (41801,   7,        255) /* ContainersCapacity */
      , (41801,  16,          1) /* ItemUseable - No */
      , (41801,  25,        185) /* Level */
-     , (41801,  26,          0) /* AccountRequirements - No_Subscription */
-     , (41801,  86,         25) /* MinLevel */
-     , (41801,  87,         -1) /* MaxLevel */
      , (41801,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (41801, 111,         17) /* PortalBitmask - Unrestricted, NoSummon */
      , (41801, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41801, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -30,8 +26,6 @@ VALUES (41801,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41801,   1, 'Killer Phyntos Swarm') /* Name */
-     , (41801,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */
-     , (41801,  38, 'Gateway') /* AppraisalPortalDestination */
      , (41801, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,11 +6,9 @@ VALUES (31914, 'ace31914-scummymoarsman', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31914,   1,         16) /* ItemType - Creature */
      , (31914,   2,         34) /* CreatureType - Moarsman */
-     , (31914,   5,       6322) /* EncumbranceVal */
      , (31914,   6,        255) /* ItemsCapacity */
      , (31914,   7,        255) /* ContainersCapacity */
      , (31914,  16,          1) /* ItemUseable - No */
-     , (31914,  19,          0) /* Value */
      , (31914,  25,        160) /* Level */
      , (31914,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (31914, 133,          2) /* ShowableOnRadar - ShowMovement */
@@ -29,7 +27,6 @@ VALUES (31914,  39, 1.60000002384186) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31914,   1, 'Scummy Moarsman') /* Name */
-     , (31914,  16, 'Killed by Soquelo.') /* LongDesc */
      , (31914, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

@@ -6,9 +6,7 @@ VALUES (4931, 'portaldesertedsho', 7) /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4931,   1,      65536) /* ItemType - Portal */
      , (4931,  16,         32) /* ItemUseable - Remote */
-     , (4931,  86,         40) /* MinLevel */
      , (4931,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (4931, 111,          1) /* PortalBitmask - Unrestricted */
      , (4931, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4931, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -25,7 +23,6 @@ VALUES (4931,  54, -0.100000001490116) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4931,   1, 'Deserted Ruin Portal') /* Name */
-     , (4931,  38, 'Deserted Ruin Portal') /* AppraisalPortalDestination */
      , (4931, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

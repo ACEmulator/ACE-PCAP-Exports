@@ -40,9 +40,6 @@ VALUES (3724,  21,       0) /* WeaponLength */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3724,   1, 'Olthoi Sword') /* Name */
-     , (3724,   7, '4-14. Speed: Average(40)
-') /* Inscription */
-     , (3724,   8, 'Elden Moor') /* ScribeName */
      , (3724,  16, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

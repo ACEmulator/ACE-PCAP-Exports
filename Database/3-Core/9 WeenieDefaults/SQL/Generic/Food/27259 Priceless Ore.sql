@@ -37,7 +37,7 @@ VALUES (27259,   1,   33554817) /* Setup */
      , (27259,   6,   67111919) /* PaletteBase */
      , (27259,   8,  100676396) /* Icon */
      , (27259,  22,  872415275) /* PhysicsEffectTable */
-     , (27259,  28,       3207) /* Spell */
+     , (27259,  28,       3207) /* Spell - GolemHunterManaLow */
      , (27259, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (27259, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (27259, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;

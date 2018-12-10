@@ -8,23 +8,8 @@ VALUES (4235,   1,        128) /* ItemType - Misc */
      , (4235,   5,        450) /* EncumbranceVal */
      , (4235,  16,          1) /* ItemUseable - No */
      , (4235,  19,         30) /* Value */
-     , (4235,  33,         -2) /* Bonded - Destroy */
-     , (4235,  44,        114) /* Damage */
-     , (4235,  45,         64) /* DamageType - Electric */
-     , (4235,  48,          0) /* WeaponSkill - None */
-     , (4235,  49,         -1) /* WeaponTime */
      , (4235,  65,        101) /* Placement - Resting */
-     , (4235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4235, 179,          0) /* ImbuedEffect - Undef */
-     , (4235, 303,          0) /* ImbuedEffect2 - Undef */
-     , (4235, 304,          0) /* ImbuedEffect3 - Undef */
-     , (4235, 305,          0) /* ImbuedEffect4 - Undef */
-     , (4235, 306,          0) /* ImbuedEffect5 - Undef */
-     , (4235, 307,          5) /* DamageRating */
-     , (4235, 313,          0) /* CritRating */
-     , (4235, 314,          0) /* CritDamageRating */
-     , (4235, 386,          0) /* Overpower */
-     , (4235, 8030,          0);
+     , (4235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4235,   1, False) /* Stuck */
@@ -32,19 +17,10 @@ VALUES (4235,   1, False) /* Stuck */
      , (4235,  13, True ) /* Ethereal */
      , (4235,  14, True ) /* GravityStatus */
      , (4235,  19, True ) /* Attackable */
-     , (4235,  22, True ) /* Inscribable */
-     , (4235,  69, False) /* IsSellable */;
+     , (4235,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4235,  21,       0) /* WeaponLength */
-     , (4235,  22,     0.3) /* DamageVariance */
-     , (4235,  26,       0) /* MaximumVelocity */
-     , (4235,  29,       1) /* WeaponDefense */
-     , (4235,  39,     0.5) /* DefaultScale */
-     , (4235,  62,       1) /* WeaponOffense */
-     , (4235,  63,       1) /* DamageMod */
-     , (4235, 149,       0) /* WeaponMissileDefense */
-     , (4235, 150,       0) /* WeaponMagicDefense */;
+VALUES (4235,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4235,   1, 'Thin Gromnie Hide') /* Name */;

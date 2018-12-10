@@ -6,15 +6,12 @@ VALUES (35833, 'ace35833-witheredraiderprefect', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35833,   1,         16) /* ItemType - Creature */
      , (35833,   2,         70) /* CreatureType - GotrokLugian */
-     , (35833,   5,       8885) /* EncumbranceVal */
      , (35833,   6,        255) /* ItemsCapacity */
      , (35833,   7,        255) /* ContainersCapacity */
      , (35833,  16,          1) /* ItemUseable - No */
-     , (35833,  19,          0) /* Value */
      , (35833,  25,        160) /* Level */
      , (35833,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35833, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35833, 307,          5) /* DamageRating */
      , (35833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,7 +23,6 @@ VALUES (35833,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35833,   1, 'Withered Raider Prefect') /* Name */
-     , (35833,  16, 'Killed by Callaway.') /* LongDesc */
      , (35833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

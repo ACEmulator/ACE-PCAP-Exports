@@ -6,30 +6,15 @@ VALUES (51956, 'ace51956-aethelswith', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51956,   1,         16) /* ItemType - Creature */
      , (51956,   2,         31) /* CreatureType - Human */
-     , (51956,   5,        277) /* EncumbranceVal */
      , (51956,   6,        255) /* ItemsCapacity */
      , (51956,   7,        255) /* ContainersCapacity */
      , (51956,  16,         32) /* ItemUseable - Remote */
-     , (51956,  19,      30384) /* Value */
      , (51956,  25,        200) /* Level */
-     , (51956,  28,        274) /* ArmorLevel */
      , (51956,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (51956,  95,          8) /* RadarBlipColor - Yellow */
-     , (51956, 105,          7) /* ItemWorkmanship */
-     , (51956, 106,        247) /* ItemSpellcraft */
-     , (51956, 107,       1001) /* ItemCurMana */
-     , (51956, 108,       1001) /* ItemMaxMana */
-     , (51956, 109,        173) /* ItemDifficulty */
-     , (51956, 110,          0) /* ItemAllegianceRankLimit */
      , (51956, 113,          2) /* Gender - Female */
-     , (51956, 115,        186) /* ItemSkillLevelLimit */
-     , (51956, 131,         52) /* MaterialType - Leather */
      , (51956, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (51956, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (51956, 172,          5) /* AppraisalLongDescDecoration */
-     , (51956, 176,          7) /* AppraisalItemSkill */
-     , (51956, 177,          2) /* GemCount */
-     , (51956, 178,         35) /* GemType */
      , (51956, 188,          1) /* HeritageGroup - Aluvian */
      , (51956, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -41,25 +26,14 @@ VALUES (51956,   1, True ) /* Stuck */
      , (51956,  14, True ) /* GravityStatus */
      , (51956,  19, False) /* Attackable */
      , (51956,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (51956,  42, True ) /* AllowEdgeSlide */
-     , (51956, 100, True ) /* Dyable */;
+     , (51956,  42, True ) /* AllowEdgeSlide */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (51956,   5,   -0.05) /* ManaRate */
-     , (51956,  13, 1.20000004768372) /* ArmorModVsSlash */
-     , (51956,  14, 0.800000011920929) /* ArmorModVsPierce */
-     , (51956,  15,       1) /* ArmorModVsBludgeon */
-     , (51956,  16,     0.5) /* ArmorModVsCold */
-     , (51956,  17,     0.5) /* ArmorModVsFire */
-     , (51956,  18, 0.300000011920929) /* ArmorModVsAcid */
-     , (51956,  19, 0.800000011920929) /* ArmorModVsElectric */
-     , (51956,  54,       3) /* UseRadius */
-     , (51956, 165,       1) /* ArmorModVsNether */;
+VALUES (51956,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51956,   1, 'Aethelswith') /* Name */
      , (51956,   5, 'Spirit Slayer') /* Template */
-     , (51956,  16, 'Leather Boots of Curing') /* LongDesc */
      , (51956, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -97,12 +71,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51956,   1,   235, 0, 0, 235) /* MaxHealth */
      , (51956,   3,   330, 0, 0, 330) /* MaxStamina */
      , (51956,   5,   145, 0, 0, 145) /* MaxMana */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51956,   878,      2) 
-     , (51956,  1486,      2) 
-     , (51956,  1528,      2) 
-     , (51956,  2589,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51956, 67109560, 0, 24)

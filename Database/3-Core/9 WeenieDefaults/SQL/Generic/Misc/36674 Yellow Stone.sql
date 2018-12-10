@@ -11,16 +11,7 @@ VALUES (36674,   1,        128) /* ItemType - Misc */
      , (36674,  33,          1) /* Bonded - Bonded */
      , (36674,  65,        101) /* Placement - Resting */
      , (36674,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36674, 105,          6) /* ItemWorkmanship */
-     , (36674, 106,        153) /* ItemSpellcraft */
-     , (36674, 107,       1167) /* ItemCurMana */
-     , (36674, 108,       1167) /* ItemMaxMana */
-     , (36674, 109,        122) /* ItemDifficulty */
-     , (36674, 110,          0) /* ItemAllegianceRankLimit */
-     , (36674, 114,          1) /* Attuned - Attuned */
-     , (36674, 115,          0) /* ItemSkillLevelLimit */
-     , (36674, 131,         63) /* MaterialType - Silver */
-     , (36674, 172,          1) /* AppraisalLongDescDecoration */;
+     , (36674, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36674,   1, False) /* Stuck */
@@ -32,12 +23,10 @@ VALUES (36674,   1, False) /* Stuck */
      , (36674,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36674,   5, -0.0416666666666667) /* ManaRate */
-     , (36674,  39, 0.800000011920929) /* DefaultScale */;
+VALUES (36674,  39, 0.800000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36674,   1, 'Yellow Stone') /* Name */
-     , (36674,  16, 'Ring of Regeneration') /* LongDesc */;
+VALUES (36674,   1, 'Yellow Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36674,   1,   33554669) /* Setup */
@@ -55,10 +44,6 @@ VALUES (36674, 8040, 10420545, 84.01703, -229.0704, -42, 1, 0, 0, 0) /* PCAPReco
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36674, 8000, 3709600889) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36674,   168,      2) 
-     , (36674,  2622,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36674, 67111919, 0, 0);

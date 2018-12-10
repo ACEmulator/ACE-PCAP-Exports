@@ -28,8 +28,6 @@ VALUES (15270,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15270,   1, 'Foci of Verdancy') /* Name */
-     , (15270,   7, 'Loonatic: Missile 228, Melee 275, Arcane 169') /* Inscription */
-     , (15270,   8, 'Minaris') /* ScribeName */
      , (15270,  15, 'A foci used to cast spells from the School of the Heart. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

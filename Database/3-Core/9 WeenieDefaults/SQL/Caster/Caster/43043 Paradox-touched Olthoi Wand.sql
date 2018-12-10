@@ -36,7 +36,6 @@ VALUES (43043,   1, False) /* Stuck */
      , (43043,  22, True ) /* Inscribable */
      , (43043,  69, False) /* IsSellable */
      , (43043,  85, True ) /* AppraisalHasAllowedWielder */
-     , (43043,  91, True ) /* Retained */
      , (43043,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -60,7 +59,7 @@ VALUES (43043,   1,   33561081) /* Setup */
      , (43043,   3,  536870932) /* SoundTable */
      , (43043,   8,  100691347) /* Icon */
      , (43043,  22,  872415275) /* PhysicsEffectTable */
-     , (43043,  28,         67) /* Spell */
+     , (43043,  28,         67) /* Spell - ShockWave4 */
      , (43043, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (43043, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43043, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */

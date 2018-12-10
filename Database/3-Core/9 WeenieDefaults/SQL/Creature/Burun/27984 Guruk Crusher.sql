@@ -6,15 +6,11 @@ VALUES (27984, 'burungurukcrusher', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27984,   1,         16) /* ItemType - Creature */
      , (27984,   2,         75) /* CreatureType - Burun */
-     , (27984,   5,       1900) /* EncumbranceVal */
      , (27984,   6,        255) /* ItemsCapacity */
      , (27984,   7,        255) /* ContainersCapacity */
      , (27984,  16,          1) /* ItemUseable - No */
-     , (27984,  19,     190000) /* Value */
      , (27984,  25,        115) /* Level */
-     , (27984,  33,          1) /* Bonded - Bonded */
      , (27984,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (27984, 114,          1) /* Attuned - Attuned */
      , (27984, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (27984, 307,          5) /* DamageRating */
      , (27984, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -28,7 +24,6 @@ VALUES (27984,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27984,   1, 'Guruk Crusher') /* Name */
-     , (27984,  16, 'A perfectly intact spine from an Olthoi Ripper.') /* LongDesc */
      , (27984, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

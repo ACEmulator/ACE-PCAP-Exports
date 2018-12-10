@@ -24,9 +24,6 @@ VALUES (2244,   1, False) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2244,   1, 'Dryreach Key') /* Name */
-     , (2244,   7, 'Dryreach Key
-') /* Inscription */
-     , (2244,   8, 'Ari') /* ScribeName */
      , (2244,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */
      , (2244,  16, 'This key unlocks the Dryreach Gates.') /* LongDesc */;
 

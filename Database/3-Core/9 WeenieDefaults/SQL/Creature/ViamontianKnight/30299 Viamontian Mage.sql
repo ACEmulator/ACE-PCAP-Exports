@@ -6,11 +6,9 @@ VALUES (30299, 'knightmage_nofall', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30299,   1,         16) /* ItemType - Creature */
      , (30299,   2,         83) /* CreatureType - ViamontianKnight */
-     , (30299,   5,       6185) /* EncumbranceVal */
      , (30299,   6,        255) /* ItemsCapacity */
      , (30299,   7,        255) /* ContainersCapacity */
      , (30299,  16,          1) /* ItemUseable - No */
-     , (30299,  19,          0) /* Value */
      , (30299,  25,        100) /* Level */
      , (30299,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (30299, 113,          1) /* Gender - Male */
@@ -29,7 +27,6 @@ VALUES (30299,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30299,   1, 'Viamontian Mage') /* Name */
-     , (30299,  16, 'Killed by High-Voltage II.') /* LongDesc */
      , (30299, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

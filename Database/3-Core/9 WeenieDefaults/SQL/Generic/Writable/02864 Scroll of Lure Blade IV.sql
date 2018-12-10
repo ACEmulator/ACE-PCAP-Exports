@@ -8,7 +8,6 @@ VALUES (2864,   1,       8192) /* ItemType - Writable */
      , (2864,   5,         30) /* EncumbranceVal */
      , (2864,  16,          8) /* ItemUseable - Contained */
      , (2864,  19,        100) /* Value */
-     , (2864,  33,          1) /* Bonded - Bonded */
      , (2864,  65,        101) /* Placement - Resting */
      , (2864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -33,7 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2864,   1,   33554826) /* Setup */
      , (2864,   8,  100676670) /* Icon */
      , (2864,  22,  872415275) /* PhysicsEffectTable */
-     , (2864,  28,       1609) /* Spell */
+     , (2864,  28,       1609) /* Spell - LureBlade4 */
      , (2864, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2864, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2864, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;

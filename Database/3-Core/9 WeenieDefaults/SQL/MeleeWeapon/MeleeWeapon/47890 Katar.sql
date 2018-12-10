@@ -5,14 +5,12 @@ VALUES (47890, 'ace47890-katar', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47890,   1,          1) /* ItemType - MeleeWeapon */
-     , (47890,   2,         20) /* CreatureType - Wisp */
      , (47890,   5,        135) /* EncumbranceVal */
      , (47890,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (47890,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47890,  16,          1) /* ItemUseable - No */
      , (47890,  19,        155) /* Value */
-     , (47890,  25,        200) /* Level */
-     , (47890,  33,          1) /* Bonded - Bonded */
+     , (47890,  33,         -2) /* Bonded - Destroy */
      , (47890,  44,         17) /* Damage */
      , (47890,  45,          3) /* DamageType - Slash, Pierce */
      , (47890,  47,          1) /* AttackType - Punch */
@@ -21,7 +19,6 @@ VALUES (47890,   1,          1) /* ItemType - MeleeWeapon */
      , (47890,  51,          1) /* CombatUse - Melee */
      , (47890,  65,          1) /* Placement - RightHandCombat */
      , (47890,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47890, 114,          1) /* Attuned - Attuned */
      , (47890, 151,          2) /* HookType - Wall */
      , (47890, 353,          1) /* WeaponType - Unarmed */
      , (47890, 8030,          0);
@@ -32,8 +29,7 @@ VALUES (47890,   1, False) /* Stuck */
      , (47890,  13, True ) /* Ethereal */
      , (47890,  14, True ) /* GravityStatus */
      , (47890,  19, True ) /* Attackable */
-     , (47890,  22, True ) /* Inscribable */
-     , (47890,  69, False) /* IsSellable */;
+     , (47890,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47890,  21,       0) /* WeaponLength */
@@ -44,9 +40,7 @@ VALUES (47890,  21,       0) /* WeaponLength */
      , (47890,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47890,   1, 'Katar') /* Name */
-     , (47890,  14, 'This item is used in Summoning.') /* Use */
-     , (47890,  15, 'A set of thick, engraved bracers, which make you feel dizzy when they touch your skin.') /* ShortDesc */;
+VALUES (47890,   1, 'Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47890,   1,   33554743) /* Setup */
@@ -67,9 +61,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47890,   3, 3691606171) /* Wielder */
      , (47890, 8000, 3689679667) /* PCAPRecordedObjectIID */
      , (47890, 8008, 3691606171) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47890,   1,  1370, 0, 0, 1370) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47890, 67111920, 0, 0);

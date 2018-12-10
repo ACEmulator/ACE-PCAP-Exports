@@ -5,14 +5,12 @@ VALUES (12054, 'daggerfirebandit', 6) /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12054,   1,          1) /* ItemType - MeleeWeapon */
-     , (12054,   2,         13) /* CreatureType - Golem */
      , (12054,   5,        135) /* EncumbranceVal */
      , (12054,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (12054,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (12054,  16,          1) /* ItemUseable - No */
      , (12054,  18,         32) /* UiEffects - Fire */
      , (12054,  19,        100) /* Value */
-     , (12054,  25,        100) /* Level */
      , (12054,  51,          1) /* CombatUse - Melee */
      , (12054,  65,          1) /* Placement - RightHandCombat */
      , (12054,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -46,6 +44,3 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12054,   3, 3691227742) /* Wielder */
      , (12054, 8000, 3691227751) /* PCAPRecordedObjectIID */
      , (12054, 8008, 3691227742) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12054,   1,   455, 0, 0, 455) /* MaxHealth */;

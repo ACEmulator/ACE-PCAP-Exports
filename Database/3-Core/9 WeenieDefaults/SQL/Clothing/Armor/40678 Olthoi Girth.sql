@@ -5,13 +5,11 @@ VALUES (40678, 'ace40678-olthoigirth', 2) /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40678,   1,          2) /* ItemType - Armor */
-     , (40678,   2,         20) /* CreatureType - Wisp */
      , (40678,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (40678,   5,        683) /* EncumbranceVal */
      , (40678,   9,       1024) /* ValidLocations - AbdomenArmor */
      , (40678,  16,          1) /* ItemUseable - No */
      , (40678,  19,      20814) /* Value */
-     , (40678,  25,        200) /* Level */
      , (40678,  28,        463) /* ArmorLevel */
      , (40678,  36,       9999) /* ResistMagic */
      , (40678,  65,        101) /* Placement - Resting */
@@ -32,8 +30,7 @@ VALUES (40678,   1,          2) /* ItemType - Armor */
      , (40678, 265,         26) /* EquipmentSetId - Flameproof */
      , (40678, 270,          7) /* WieldRequirements2 - Level */
      , (40678, 271,          1) /* WieldSkilltype2 - Axe */
-     , (40678, 272,        180) /* WieldDifficulty2 */
-     , (40678, 374,          2) /* GearCritDamage */;
+     , (40678, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40678,   1, False) /* Stuck */
@@ -58,8 +55,6 @@ VALUES (40678,   5, -0.0555555555555556) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40678,   1, 'Olthoi Girth') /* Name */
-     , (40678,   7, 'black') /* Inscription */
-     , (40678,   8, 'Huked on Fahniks') /* ScribeName */
      , (40678,  16, 'Olthoi Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
@@ -76,44 +71,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40678,   2, 1343487580) /* Container */
      , (40678, 8000, 3487019341) /* PCAPRecordedObjectIID */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40678,   1,  1370, 0, 0, 1370) /* MaxHealth */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40678,  1332,      2) 
-     , (40678,  1354,      2) 
-     , (40678,  1486,      2) 
-     , (40678,  1498,      2) 
-     , (40678,  2061,      2) 
-     , (40678,  2087,      2) 
-     , (40678,  2094,      2) 
-     , (40678,  2104,      2) 
-     , (40678,  2108,      2) 
-     , (40678,  2110,      2) 
-     , (40678,  2517,      2) 
-     , (40678,  2521,      2) 
-     , (40678,  2531,      2) 
-     , (40678,  2572,      2) 
-     , (40678,  2593,      2) 
-     , (40678,  2595,      2) 
-     , (40678,  2610,      2) 
-     , (40678,  2613,      2) 
-     , (40678,  2615,      2) 
-     , (40678,  3965,      2) 
-     , (40678,  4299,      2) 
-     , (40678,  4325,      2) 
-     , (40678,  4391,      2) 
-     , (40678,  4401,      2) 
-     , (40678,  4403,      2) 
-     , (40678,  4407,      2) 
-     , (40678,  4409,      2) 
-     , (40678,  4412,      2) 
-     , (40678,  4596,      2) 
-     , (40678,  4678,      2) 
-     , (40678,  5034,      2) 
-     , (40678,  5890,      2) 
-     , (40678,  5896,      2) 
-     , (40678,  6122,      2) ;
+VALUES (40678,  2108,      2) 
+     , (40678,  3965,      2) ;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40678, 67116583, 72, 12)

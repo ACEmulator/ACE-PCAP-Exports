@@ -6,16 +6,13 @@ VALUES (24940, 'lugiangigasrenegade', 10) /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24940,   1,         16) /* ItemType - Creature */
      , (24940,   2,         70) /* CreatureType - GotrokLugian */
-     , (24940,   5,       6050) /* EncumbranceVal */
      , (24940,   6,        255) /* ItemsCapacity */
      , (24940,   7,        255) /* ContainersCapacity */
      , (24940,  16,          1) /* ItemUseable - No */
-     , (24940,  19,          0) /* Value */
      , (24940,  25,         50) /* Level */
      , (24940,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24940, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24940, 307,          5) /* DamageRating */
-     , (24940, 316,         10) /* CritDamageResistRating */
      , (24940, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -32,7 +29,6 @@ VALUES (24940, 8010,       0) /* PCAPRecordedVelocityX */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24940,   1, 'Gotrok Gigas') /* Name */
-     , (24940,  16, 'Killed by High-Voltage V.') /* LongDesc */
      , (24940, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

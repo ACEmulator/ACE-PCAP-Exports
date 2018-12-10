@@ -10,21 +10,8 @@ VALUES (37309,   1,        128) /* ItemType - Misc */
      , (37309,  12,          2) /* StackSize */
      , (37309,  16,          1) /* ItemUseable - No */
      , (37309,  19,      60000) /* Value */
-     , (37309,  44,          0) /* Damage */
-     , (37309,  45,          2) /* DamageType - Pierce */
-     , (37309,  48,         47) /* WeaponSkill - MissileWeapons */
-     , (37309,  49,         40) /* WeaponTime */
      , (37309,  65,        101) /* Placement - Resting */
-     , (37309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37309, 105,          7) /* ItemWorkmanship */
-     , (37309, 131,         33) /* MaterialType - Opal */
-     , (37309, 158,          2) /* WieldRequirements - RawSkill */
-     , (37309, 159,         47) /* WieldSkilltype - MissileWeapons */
-     , (37309, 160,        360) /* WieldDifficulty */
-     , (37309, 172,          1) /* AppraisalLongDescDecoration */
-     , (37309, 204,         12) /* ElementalDamageBonus */
-     , (37309, 353,          8) /* WeaponType - Bow */
-     , (37309, 8030,          0);
+     , (37309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37309,   1, False) /* Stuck */
@@ -33,17 +20,8 @@ VALUES (37309,   1, False) /* Stuck */
      , (37309,  14, True ) /* GravityStatus */
      , (37309,  19, True ) /* Attackable */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (37309,  21,       0) /* WeaponLength */
-     , (37309,  22,       0) /* DamageVariance */
-     , (37309,  26,    27.3) /* MaximumVelocity */
-     , (37309,  29,    1.19) /* WeaponDefense */
-     , (37309,  62,       1) /* WeaponOffense */
-     , (37309,  63,    2.23) /* DamageMod */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37309,   1, 'Glyph of Item Enchantment') /* Name */
-     , (37309,  16, 'Piercing Compound Bow') /* LongDesc */
      , (37309,  20, 'Glyphs of Item Enchantment') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
