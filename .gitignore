@@ -2,9 +2,7 @@
 ## ACE-World Specific
 #################
 Database/compiled/*.sql
-Database/combined/*.sql
-Database/3-Core/combined/*.sql
-Database/10-Overwrites/dereth-museum/combined/*.sql
+
 
 #################
 ## Eclipse
@@ -149,7 +147,6 @@ csx
 AppPackages/
 
 # Others
-sql/
 *.Cache
 ClientBin/
 [Ss]tyle[Cc]op.*
@@ -222,3 +219,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+Database/compiled/password.txt

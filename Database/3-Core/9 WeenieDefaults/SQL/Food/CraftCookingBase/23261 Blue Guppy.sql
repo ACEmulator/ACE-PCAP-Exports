@@ -1,0 +1,52 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23261;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23261, 'guppyblue', 18, '2019-02-10 00:00:00') /* Food */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (23261,   1,    4194304) /* ItemType - CraftCookingBase */
+     , (23261,   5,         10) /* EncumbranceVal */
+     , (23261,  11,        100) /* MaxStackSize */
+     , (23261,  12,          1) /* StackSize */
+     , (23261,  13,         10) /* StackUnitEncumbrance */
+     , (23261,  15,          0) /* StackUnitValue */
+     , (23261,  16,          8) /* ItemUseable - Contained */
+     , (23261,  65,        101) /* Placement - Resting */
+     , (23261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23261, 151,          2) /* HookType - Wall */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23261,   1, False) /* Stuck */
+     , (23261,  11, True ) /* IgnoreCollisions */
+     , (23261,  13, True ) /* Ethereal */
+     , (23261,  14, True ) /* GravityStatus */
+     , (23261,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23261,  39, 0.600000023841858) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23261,   1, 'Blue Guppy') /* Name */
+     , (23261,  20, 'Blue Guppies') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23261,   1,   33558282) /* Setup */
+     , (23261,   3,  536870932) /* SoundTable */
+     , (23261,   6,   67114203) /* PaletteBase */
+     , (23261,   8,  100674188) /* Icon */
+     , (23261,  22,  872415275) /* PhysicsEffectTable */
+     , (23261, 8001,  270561297) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
+     , (23261, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
+     , (23261, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (23261, 8000, 3708805319) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (23261, 67114206, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (23261, 0, 83894506, 83894506);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (23261, 0, 16788968);

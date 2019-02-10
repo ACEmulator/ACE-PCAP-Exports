@@ -1,0 +1,47 @@
+DELETE FROM `weenie` WHERE `class_Id` = 44473;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44473, 'ace44473-guardianspirit', 10, '2019-02-10 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (44473,   1,         16) /* ItemType - Creature */
+     , (44473,   6,        255) /* ItemsCapacity */
+     , (44473,   7,        255) /* ContainersCapacity */
+     , (44473,  16,         32) /* ItemUseable - Remote */
+     , (44473,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
+     , (44473,  95,          8) /* RadarBlipColor - Yellow */
+     , (44473, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (44473, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (44473,   1, True ) /* Stuck */
+     , (44473,  11, True ) /* IgnoreCollisions */
+     , (44473,  12, True ) /* ReportCollisions */
+     , (44473,  13, False) /* Ethereal */
+     , (44473,  14, True ) /* GravityStatus */
+     , (44473,  19, False) /* Attackable */
+     , (44473,  41, True ) /* ReportCollisionsAsEnvironment */
+     , (44473,  42, True ) /* AllowEdgeSlide */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (44473,  54,       3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (44473,   1, 'Guardian Spirit') /* Name */
+     , (44473, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (44473,   1,   33556923) /* Setup */
+     , (44473,   2,  150995087) /* MotionTable */
+     , (44473,   3,  536870998) /* SoundTable */
+     , (44473,   8,  100670274) /* Icon */
+     , (44473, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
+     , (44473, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
+     , (44473, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (44473, 8040, 1498285570, 60, -190, -17.995, -0.00420373, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+/* @teleloc 0x594E0602 [60.000000 -190.000000 -17.995000] -0.004204 0.000000 0.000000 -0.999991 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (44473, 8000, 3694727041) /* PCAPRecordedObjectIID */;

@@ -1,0 +1,44 @@
+DELETE FROM `weenie` WHERE `class_Id` = 28206;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28206, 'gromnietoothbrass', 1, '2019-02-10 00:00:00') /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (28206,   1,        128) /* ItemType - Misc */
+     , (28206,   5,        105) /* EncumbranceVal */
+     , (28206,  16,          1) /* ItemUseable - No */
+     , (28206,  19,         80) /* Value */
+     , (28206,  65,        101) /* Placement - Resting */
+     , (28206,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (28206,   1, False) /* Stuck */
+     , (28206,  11, True ) /* IgnoreCollisions */
+     , (28206,  13, True ) /* Ethereal */
+     , (28206,  14, True ) /* GravityStatus */
+     , (28206,  19, True ) /* Attackable */
+     , (28206,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28206,  39, 0.400000005960464) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28206,   1, 'Brass Gromnie Tooth') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28206,   1,   33554817) /* Setup */
+     , (28206,   3,  536870932) /* SoundTable */
+     , (28206,   8,  100676756) /* Icon */
+     , (28206,  22,  872415275) /* PhysicsEffectTable */
+     , (28206, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
+     , (28206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (28206, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (28206, 8000, 2164131901) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (28206, 0, 83890064, 83890069);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (28206, 0, 16777882);
