@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41511;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41511, 'ace41511-flawlesspyrealhandle', 51, '2019-02-10 07:19:52') /* Stackable */;
+VALUES (41511, 'ace41511-flawlesspyrealhandle', 51, '2019-02-10 08:04:04') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41511,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45928;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45928, 'ace45928-lugianmorningstar', 6, '2019-02-10 07:19:52') /* MeleeWeapon */;
+VALUES (45928, 'ace45928-lugianmorningstar', 6, '2019-02-10 08:04:04') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45928,   1,          1) /* ItemType - MeleeWeapon */
@@ -55,8 +55,7 @@ VALUES (45928,   5,  -0.025) /* ManaRate */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45928,   1, 'Lugian Morning Star') /* Name */
      , (45928,   7, 'Lugian Morning Star refined by the most skilled kajiya and togishi of Wakuni.') /* Inscription */
-     , (45928,   8, 'Kanako Experiment') /* ScribeName */
-     , (45928,  16, NULL) /* LongDesc */;
+     , (45928,   8, 'Kanako Experiment') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45928,   1,   33554748) /* Setup */

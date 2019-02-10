@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30578;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30578, 'swordflambergefrost', 6, '2019-02-10 07:19:52') /* MeleeWeapon */;
+VALUES (30578, 'swordflambergefrost', 6, '2019-02-10 08:04:04') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30578,   1,          1) /* ItemType - MeleeWeapon */
@@ -63,7 +63,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30578,   1, 'Frost Flamberge') /* Name */
      , (30578,   7, '"Gelid Claw"') /* Inscription */
      , (30578,   8, 'Azrakin') /* ScribeName */
-     , (30578,  16, NULL) /* LongDesc */
      , (30578,  39, 'Jadefire') /* TinkerName */
      , (30578,  40, 'Mosswart Enforcer') /* ImbuerName */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45950;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (45950, 'ace45950-seasonedexplorerkatar', 6, '2019-02-10 07:19:52') /* MeleeWeapon */;
+VALUES (45950, 'ace45950-seasonedexplorerkatar', 6, '2019-02-10 08:04:04') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45950,   1,          1) /* ItemType - MeleeWeapon */
@@ -52,8 +52,7 @@ VALUES (45950,   5, -0.025000000372529) /* ManaRate */
      , (45950, 157,       1) /* ResistanceModifier */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45950,   1, 'Seasoned Explorer Katar') /* Name */
-     , (45950,  16, NULL) /* LongDesc */;
+VALUES (45950,   1, 'Seasoned Explorer Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45950,   1,   33554743) /* Setup */

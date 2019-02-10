@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8636;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8636, 'robehoorymattekarknockoff', 2, '2019-02-10 07:19:52') /* Clothing */;
+VALUES (8636, 'robehoorymattekarknockoff', 2, '2019-02-10 08:04:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8636,   1,          2) /* ItemType - Armor */
@@ -35,8 +35,6 @@ VALUES (8636,  13, 2.29999995231628) /* ArmorModVsSlash */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8636,   1, 'Hoory Mattekar Robe') /* Name */
-     , (8636,   7, NULL) /* Inscription */
-     , (8636,   8, NULL) /* ScribeName */
      , (8636,  15, 'A genuine artificial quality knockoff of the rare Hoary Mattekar Robe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

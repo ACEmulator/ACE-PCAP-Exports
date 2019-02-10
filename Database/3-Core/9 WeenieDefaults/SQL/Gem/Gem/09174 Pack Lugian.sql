@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9174;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9174, 'dollrewardlugian', 38, '2019-02-10 07:19:52') /* Gem */;
+VALUES (9174, 'dollrewardlugian', 38, '2019-02-10 08:04:04') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9174,   1,       2048) /* ItemType - Gem */
@@ -26,8 +26,6 @@ VALUES (9174,  39, 0.300000011920929) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9174,   1, 'Pack Lugian') /* Name */
-     , (9174,   7, NULL) /* Inscription */
-     , (9174,   8, NULL) /* ScribeName */
      , (9174,  16, 'Why get other toys when Pack Lugian could crush them all? Watch how he intimidates the others with his mighty Knuckle-Crush! They will cower before him!') /* LongDesc */
      , (9174, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 

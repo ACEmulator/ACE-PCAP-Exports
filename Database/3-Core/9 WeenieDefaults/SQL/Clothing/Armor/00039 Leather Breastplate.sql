@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (39, 'breastplateleather', 2, '2019-02-10 07:19:52') /* Clothing */;
+VALUES (39, 'breastplateleather', 2, '2019-02-10 08:04:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39,   1,          2) /* ItemType - Armor */
@@ -37,8 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39,   1, 'Leather Breastplate') /* Name */
      , (39,   7, 'Black Veins
 ') /* Inscription */
-     , (39,   8, 'Dez''mron Loremaster') /* ScribeName */
-     , (39,  16, NULL) /* LongDesc */;
+     , (39,   8, 'Dez''mron Loremaster') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39,   1,   33554642) /* Setup */

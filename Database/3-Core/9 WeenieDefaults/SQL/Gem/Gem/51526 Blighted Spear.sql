@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51526;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (51526, 'ace51526-blightedspear', 38, '2019-02-10 07:19:52') /* Gem */;
+VALUES (51526, 'ace51526-blightedspear', 38, '2019-02-10 08:04:04') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51526,   1,       2048) /* ItemType - Gem */
@@ -26,8 +26,7 @@ VALUES (51526,   1, False) /* Stuck */
      , (51526,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51526,   1, 'Blighted Spear') /* Name */
-     , (51526,  16, NULL) /* LongDesc */;
+VALUES (51526,   1, 'Blighted Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51526,   1,   33560674) /* Setup */

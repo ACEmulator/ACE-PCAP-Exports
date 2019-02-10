@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6296;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (6296, 'swordbestsparkingmajor', 6, '2019-02-10 07:19:52') /* MeleeWeapon */;
+VALUES (6296, 'swordbestsparkingmajor', 6, '2019-02-10 08:04:04') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6296,   1,          1) /* ItemType - MeleeWeapon */
@@ -48,9 +48,7 @@ VALUES (6296,   5, -0.0329999998211861) /* ManaRate */
      , (6296,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6296,   1, 'Peerless Sparking Atlan Sword') /* Name */
-     , (6296,   7, NULL) /* Inscription */
-     , (6296,   8, NULL) /* ScribeName */;
+VALUES (6296,   1, 'Peerless Sparking Atlan Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6296,   1,   33556376) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44863;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44863, 'ace44863-rynthidenergytentacles', 38, '2019-02-10 07:19:52') /* Gem */;
+VALUES (44863, 'ace44863-rynthidenergytentacles', 38, '2019-02-10 08:04:04') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44863,   1,       2048) /* ItemType - Gem */
@@ -38,8 +38,7 @@ VALUES (44863,  13, 0.800000011920929) /* ArmorModVsSlash */
      , (44863, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44863,   1, 'Rynthid Energy Tentacles') /* Name */
-     , (44863,  16, NULL) /* LongDesc */;
+VALUES (44863,   1, 'Rynthid Energy Tentacles') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44863,   1,   33561386) /* Setup */

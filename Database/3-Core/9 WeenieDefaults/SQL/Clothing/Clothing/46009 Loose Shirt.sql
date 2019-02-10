@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46009;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46009, 'ace46009-looseshirt', 2, '2019-02-10 07:19:52') /* Clothing */;
+VALUES (46009, 'ace46009-looseshirt', 2, '2019-02-10 08:04:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46009,   1,          4) /* ItemType - Clothing */
@@ -43,8 +43,7 @@ VALUES (46009,   5,  -0.025) /* ManaRate */
      , (46009, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46009,   1, 'Loose Shirt') /* Name */
-     , (46009,  16, NULL) /* LongDesc */;
+VALUES (46009,   1, 'Loose Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46009,   1,   33554644) /* Setup */

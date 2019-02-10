@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41204;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (41204, 'ace41204-gearshield', 2, '2019-02-10 07:19:52') /* Clothing */;
+VALUES (41204, 'ace41204-gearshield', 2, '2019-02-10 08:04:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41204,   1,          2) /* ItemType - Armor */
@@ -53,8 +53,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41204,   1, 'Gear Shield') /* Name */
      , (41204,   7, '"Darkness" -- When you gaze long into an abyss, the abyss also gazes into you
 ') /* Inscription */
-     , (41204,   8, 'Azrakin') /* ScribeName */
-     , (41204,  16, NULL) /* LongDesc */;
+     , (41204,   8, 'Azrakin') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41204,   1,   33560776) /* Setup */

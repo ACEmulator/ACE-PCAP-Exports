@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43050;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (43050, 'ace43050-covenantgirth', 2, '2019-02-10 07:19:52') /* Clothing */;
+VALUES (43050, 'ace43050-covenantgirth', 2, '2019-02-10 08:04:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43050,   1,          2) /* ItemType - Armor */
@@ -53,7 +53,6 @@ VALUES (43050,   5, -0.0666666701436043) /* ManaRate */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43050,   1, 'Covenant Girth') /* Name */
-     , (43050,  16, NULL) /* LongDesc */
      , (43050,  39, 'Tinkerbotz') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

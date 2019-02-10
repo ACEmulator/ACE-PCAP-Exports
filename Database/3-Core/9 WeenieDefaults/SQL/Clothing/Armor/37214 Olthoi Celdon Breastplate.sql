@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37214;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (37214, 'ace37214-olthoiceldonbreastplate', 2, '2019-02-10 07:19:52') /* Clothing */;
+VALUES (37214, 'ace37214-olthoiceldonbreastplate', 2, '2019-02-10 08:04:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37214,   1,          2) /* ItemType - Armor */
@@ -52,8 +52,7 @@ VALUES (37214,   5, -0.0555555559694767) /* ManaRate */
      , (37214, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37214,   1, 'Olthoi Celdon Breastplate') /* Name */
-     , (37214,  16, NULL) /* LongDesc */;
+VALUES (37214,   1, 'Olthoi Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37214,   1,   33554642) /* Setup */

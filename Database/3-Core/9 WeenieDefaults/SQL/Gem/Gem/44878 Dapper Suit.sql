@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44878;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (44878, 'ace44878-dappersuit', 38, '2019-02-10 07:19:52') /* Gem */;
+VALUES (44878, 'ace44878-dappersuit', 38, '2019-02-10 08:04:04') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44878,   1,       2048) /* ItemType - Gem */
@@ -38,8 +38,7 @@ VALUES (44878,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (44878, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44878,   1, 'Dapper Suit') /* Name */
-     , (44878,  16, NULL) /* LongDesc */;
+VALUES (44878,   1, 'Dapper Suit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44878,   1,   33554854) /* Setup */

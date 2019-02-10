@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40394;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (40394, 'ace40394-haftedfalconbannerwithsymbol', 35, '2019-02-10 07:19:52') /* Caster */;
+VALUES (40394, 'ace40394-haftedfalconbannerwithsymbol', 35, '2019-02-10 08:04:04') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40394,   1,      32768) /* ItemType - Caster */
@@ -50,7 +50,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40394,   1, 'Hafted Falcon Banner with Symbol') /* Name */
      , (40394,   7, 'Falcon PUNCH!') /* Inscription */
      , (40394,   8, 'Nihoawa') /* ScribeName */
-     , (40394,  16, NULL) /* LongDesc */
      , (40394,  25, 'Nihoawa') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

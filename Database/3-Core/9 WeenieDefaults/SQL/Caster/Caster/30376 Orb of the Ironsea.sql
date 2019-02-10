@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30376;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30376, 'wandrareorbironsea', 35, '2019-02-10 07:19:52') /* Caster */;
+VALUES (30376, 'wandrareorbironsea', 35, '2019-02-10 08:04:04') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30376,   1,      32768) /* ItemType - Caster */
@@ -48,8 +48,7 @@ VALUES (30376,   5, -0.0333333015441895) /* ManaRate */
      , (30376, 152, 1.34999997913837) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30376,   1, 'Orb of the Ironsea') /* Name */
-     , (30376,  16, NULL) /* LongDesc */;
+VALUES (30376,   1, 'Orb of the Ironsea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30376,   1,   33559424) /* Setup */

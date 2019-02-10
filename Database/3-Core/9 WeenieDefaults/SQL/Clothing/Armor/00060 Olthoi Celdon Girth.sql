@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 60;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (60, 'girthleather', 2, '2019-02-10 07:19:52') /* Clothing */;
+VALUES (60, 'girthleather', 2, '2019-02-10 08:04:04') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (60,   1,          2) /* ItemType - Armor */
@@ -36,8 +36,7 @@ VALUES (60,  13,       1) /* ArmorModVsSlash */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (60,   1, 'Olthoi Celdon Girth') /* Name */
      , (60,   7, 'Bright Red Veins') /* Inscription */
-     , (60,   8, 'Dez''mron Loremaster') /* ScribeName */
-     , (60,  16, NULL) /* LongDesc */;
+     , (60,   8, 'Dez''mron Loremaster') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (60,   1,   33554647) /* Setup */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21355;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (21355, 'katarphantom', 6, '2019-02-10 07:19:52') /* MeleeWeapon */;
+VALUES (21355, 'katarphantom', 6, '2019-02-10 08:04:04') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21355,   1,          1) /* ItemType - MeleeWeapon */
@@ -49,8 +49,7 @@ VALUES (21355,  21,       0) /* WeaponLength */
      , (21355,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21355,   1, 'Remoran Fist') /* Name */
-     , (21355,  16, NULL) /* LongDesc */;
+VALUES (21355,   1, 'Remoran Fist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21355,   1,   33559743) /* Setup */

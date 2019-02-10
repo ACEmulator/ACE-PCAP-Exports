@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42418;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (42418, 'ace42418-yoroipauldrons', 38, '2019-02-10 07:19:52') /* Gem */;
+VALUES (42418, 'ace42418-yoroipauldrons', 38, '2019-02-10 08:04:04') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42418,   1,       2048) /* ItemType - Gem */
@@ -38,8 +38,7 @@ VALUES (42418,  13, 1.29999995231628) /* ArmorModVsSlash */
      , (42418, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42418,   1, 'Yoroi Pauldrons') /* Name */
-     , (42418,  16, NULL) /* LongDesc */;
+VALUES (42418,   1, 'Yoroi Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42418,   1,   33554641) /* Setup */
