@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9119;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (9119, 'diarymartinerevenge2', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (9119, 'diarymartinerevenge2', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9119,   1,       8192) /* ItemType - Writable */
@@ -43,7 +43,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9119, 16, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9119, 0, 4294967295, NULL, 'Password is cheese', False, 'Facilitation
+VALUES (9119, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'Facilitation
 or
 I Scream, You Scream, We All Scream
 ');

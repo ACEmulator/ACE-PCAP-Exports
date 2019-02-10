@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30043;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (30043, 'sanamarstatuevaricci', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (30043, 'sanamarstatuevaricci', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30043,   1,       8192) /* ItemType - Writable */
@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30043, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30043, 0, 4294967295, NULL, 'Password is cheese', False, '
+VALUES (30043, 0, 4294967295, 'prewritten', 'Password is cheese', False, '
 To commemorate the founding of our new home and our conquests to follow.
 
 Built in the first year of the reign of our monarch, King Varicci di Corcosi, second of his name.

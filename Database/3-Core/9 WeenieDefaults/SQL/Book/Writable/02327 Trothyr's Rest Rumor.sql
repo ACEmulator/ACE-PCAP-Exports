@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2327;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2327, 'hinttrothyr', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (2327, 'hinttrothyr', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2327,   1,       8192) /* ItemType - Writable */
@@ -47,12 +47,12 @@ Long ago, I had a friend named Trothyr.  A mighty warrior was he; I heard once t
 
 (more)
 ')
-     , (2327, 1, 4294967295, NULL, 'Password is cheese', False, 'He was full of fear and muttered something about the swelling ranks of evil, so he went in haste and secrecy.  That was Trothyr''s way; hot-headed and overly proud was he, as well as quick to suspect evil and treachery without proof.
+     , (2327, 1, 4294967295, 'prewritten', 'Password is cheese', False, 'He was full of fear and muttered something about the swelling ranks of evil, so he went in haste and secrecy.  That was Trothyr''s way; hot-headed and overly proud was he, as well as quick to suspect evil and treachery without proof.
 
 
 I found him just inside the entrance.  He had been mortally wounded by a lord of the undead, he told me, and had crawled back to seek me.  With his dying breath, he said also that he had been to the dungeon''s bottom, and had there been both relieved and angered.  
 
 (more)
 ')
-     , (2327, 2, 4294967295, NULL, 'Password is cheese', False, 'There, he said, lay a sure sign of Asheron''s forgiveness to what he called murderers.  Then he spoke no more, and I buried him myself under the open sky.
+     , (2327, 2, 4294967295, 'prewritten', 'Password is cheese', False, 'There, he said, lay a sure sign of Asheron''s forgiveness to what he called murderers.  Then he spoke no more, and I buried him myself under the open sky.
 ');

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8581;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8581, 'bookmartine3', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (8581, 'bookmartine3', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8581,   1,       8192) /* ItemType - Writable */
@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8581, 14, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8581, 0, 4294967295, NULL, 'Password is cheese', False, 'If you are reading this, then there is still hope.
+VALUES (8581, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'If you are reading this, then there is still hope.
 
 Perhaps.  It still may be too late.  What they have planned...what they are still planning...the loss of blood makes it hard for me to concentrate.  
 

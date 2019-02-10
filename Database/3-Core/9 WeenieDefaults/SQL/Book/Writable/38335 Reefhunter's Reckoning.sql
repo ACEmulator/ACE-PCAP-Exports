@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38335;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (38335, 'ace38335-reefhuntersreckoning', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (38335, 'ace38335-reefhuntersreckoning', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38335,   1,       8192) /* ItemType - Writable */
@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (38335, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (38335, 0, 4294967295, NULL, 'Password is cheese', False, 'During the Tidal Surge, the hunters set forth with their nets to capture the Reefshark and bring food to the city.  They captured 294 Reefsharks for the pens. For every 7 Reefsharks captured 3 were slaughtered to feed the ravenous Brood Mothers.  Of the remaining Reefsharks, 1 out of every 4 were sacrificed to the Whispering One, may he bless us with his wisdom.
+VALUES (38335, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'During the Tidal Surge, the hunters set forth with their nets to capture the Reefshark and bring food to the city.  They captured 294 Reefsharks for the pens. For every 7 Reefsharks captured 3 were slaughtered to feed the ravenous Brood Mothers.  Of the remaining Reefsharks, 1 out of every 4 were sacrificed to the Whispering One, may he bless us with his wisdom.
 
 Know the number of Reefsharks left to feed the city and you shall know where to place the staff.
 ');

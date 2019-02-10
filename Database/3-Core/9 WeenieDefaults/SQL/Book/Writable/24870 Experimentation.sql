@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24870;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (24870, 'bookaerbaxharbinger', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (24870, 'bookaerbaxharbinger', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24870,   1,       8192) /* ItemType - Writable */
@@ -135,5 +135,5 @@ I wish you luck.
 
 Aerbax
 ')
-     , (24870, 15, 4294967295, NULL, 'Password is cheese', False, '
+     , (24870, 15, 4294967295, 'prewritten', 'Password is cheese', False, '
 ');

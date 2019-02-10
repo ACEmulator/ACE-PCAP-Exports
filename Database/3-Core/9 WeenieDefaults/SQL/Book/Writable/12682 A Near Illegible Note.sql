@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12682;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12682, 'notemenacet', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (12682, 'notemenacet', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12682,   1,       8192) /* ItemType - Writable */
@@ -49,8 +49,8 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (12682, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (12682, 0, 4294967295, NULL, 'Password is cheese', False, 'Master,
+VALUES (12682, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'Master,
 The day is won. We have destroyed six of the nine. Soon, master, soon, they will all fall. I hate the fleshy things so much, master. It hurts. I see their glows, their bright and shiny glows, and I hate the glows. I love it when I break through the glows and their flesh, master. I am not the hollow one, they are. Nothing but flimsy flesh and liquid inside. Empty. I have hate that fills me up. I am not hollow. There are so many of them and I hate them.
 ')
-     , (12682, 1, 4294967295, NULL, 'Password is cheese', False, 'When we break them, when we break them completely and utterly, I will keep a few around, just to play with. But just a few. I couldn''t stand the sight of more than a few. The second stage will be soon, Master. I will not fail.
+     , (12682, 1, 4294967295, 'prewritten', 'Password is cheese', False, 'When we break them, when we break them completely and utterly, I will keep a few around, just to play with. But just a few. I couldn''t stand the sight of more than a few. The second stage will be soon, Master. I will not fail.
 ');

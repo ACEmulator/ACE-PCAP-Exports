@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3949;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (3949, 'lettersuntikrequest', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (3949, 'lettersuntikrequest', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3949,   1,       8192) /* ItemType - Writable */
@@ -50,7 +50,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (3949, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (3949, 0, 4294967295, NULL, 'Password is cheese', False, 'Letter of Request
+VALUES (3949, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'Letter of Request
 
 The Naqib of Suntik hereby requests all available mercenaries to assist in purging our land of the fierce Monougas. Our stronghold, located 16.2N x 4.4E, is under siege and supplies are low. Monougas are climbing a ridge near 18.5N x 3.6E and following it to our village. We can not hold out for long and our only hope is that this letter is found by a band of mercenaries with the will to help.    
 

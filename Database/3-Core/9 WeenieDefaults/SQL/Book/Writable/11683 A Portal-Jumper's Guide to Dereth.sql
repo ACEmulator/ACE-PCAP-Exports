@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11683;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (11683, 'bookguidebook', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (11683, 'bookguidebook', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11683,   1,       8192) /* ItemType - Writable */
@@ -48,7 +48,7 @@ VALUES (11683, 0, 4294967295, 'by F.P.', 'Password is cheese', False, '   As par
 ')
      , (11683, 1, 4294967295, 'by F.P.', 'Password is cheese', False, '   First, I must mention the mind-boggling size of this island.  It''s very easy to get lost when you get out of sight of the nearest town.  I am often happy to simply follow my instincts and go willy-nilly from place to place without a clear destination in mind, but many people are not as open to exploration as I am, and it can be quite dangerous to get lost.  So if you''re new, I would suggest you buy a piece of parchment from a friendly vendor and record the coordinates of important locations.  If you keep track of which direction you''re going in, it''s easy to keep yourself from getting hopelessly lost, as my friend A.D. has a tendency to do.
 ')
-     , (11683, 2, 4294967295, NULL, 'Password is cheese', False, '   Now, how does one sustain oneself here?  When it became evident to me that I was not going to get off the surface of this planet any time soon, I began to wonder how I''d get along, with no useful skills to speak of other than a certain flair for description.  Luckily, the creatures of this island seem to be quite well-off in material possessions.  Do not consider yourself above mugging a Mosswart and taking the items it was carrying.  There are many vendors around who will happily buy whatever items you may find.  Yes, violence for fun and profit!
+     , (11683, 2, 4294967295, 'prewritten', 'Password is cheese', False, '   Now, how does one sustain oneself here?  When it became evident to me that I was not going to get off the surface of this planet any time soon, I began to wonder how I''d get along, with no useful skills to speak of other than a certain flair for description.  Luckily, the creatures of this island seem to be quite well-off in material possessions.  Do not consider yourself above mugging a Mosswart and taking the items it was carrying.  There are many vendors around who will happily buy whatever items you may find.  Yes, violence for fun and profit!
 ')
      , (11683, 3, 4294967295, 'by F.P.', 'Password is cheese', False, '   At this point, some of you may be thinking, "Well yes, now our intrepid correspondent has told us how to get places safely and what to do when we''re there... But, fearless friend, where do we go?"  Let me tell you.  When I was newly arrived here, I tried not to stray very far from the town where I started out, a charming little burg whose name I promptly forgot.  There were some interesting encounters to be found around there.  Excitement abounded as I fled the wrath of angered, squeaking Drudges.
 ')

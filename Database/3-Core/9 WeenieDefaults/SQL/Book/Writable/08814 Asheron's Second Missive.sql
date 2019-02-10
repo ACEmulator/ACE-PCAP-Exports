@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8814;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8814, 'noteasheronthanks', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (8814, 'noteasheronthanks', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8814,   1,       8192) /* ItemType - Writable */
@@ -43,7 +43,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8814, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8814, 0, 4294967295, NULL, 'Password is cheese', False, 'I am pleased to say that the defeat of Bael''Zharon has been accomplished.
+VALUES (8814, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'I am pleased to say that the defeat of Bael''Zharon has been accomplished.
 
 He has been driven off, though not destroyed. It would require powers far beyond ours to do such a thing. Such powers have not walked the world since the age of my people''s legends.
 

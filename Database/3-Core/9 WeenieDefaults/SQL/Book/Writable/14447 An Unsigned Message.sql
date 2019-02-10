@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14447;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (14447, 'noteregicideyaraq', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (14447, 'noteregicideyaraq', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14447,   1,       8192) /* ItemType - Writable */
@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (14447, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (14447, 0, 4294967295, NULL, 'Password is cheese', False, 'I have seeded one of my farmers in the cove of Yaraq. He will procure only the greenest of the crops for your harvest. Old Man Witshire''s granaries are nearly ready to be filled.  I need not emphasize the importance of your mission. Do not disappoint me again.
+VALUES (14447, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'I have seeded one of my farmers in the cove of Yaraq. He will procure only the greenest of the crops for your harvest. Old Man Witshire''s granaries are nearly ready to be filled.  I need not emphasize the importance of your mission. Do not disappoint me again.
 
 (unsigned)
 

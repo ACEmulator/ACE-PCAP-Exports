@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2194;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (2194, 'hintgreenmirea', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (2194, 'hintgreenmirea', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2194,   1,       8192) /* ItemType - Writable */
@@ -46,6 +46,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2194, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2194, 0, 4294967295, NULL, 'Password is cheese', False, 'Three center rooms has Green Mire; center rooms Green Mire has three.  You should first go up before you can go down.  And remember to collect the keys!
+VALUES (2194, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'Three center rooms has Green Mire; center rooms Green Mire has three.  You should first go up before you can go down.  And remember to collect the keys!
  
 ');

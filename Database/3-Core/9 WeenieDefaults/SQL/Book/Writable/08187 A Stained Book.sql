@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8187;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (8187, 'notefloatingcityb', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (8187, 'notefloatingcityb', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8187,   1,       8192) /* ItemType - Writable */
@@ -47,6 +47,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8187, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8187, 0, 4294967295, NULL, 'Password is cheese', False, 'It is I, Alatar Locke, writing as I listen to  the comfortingly mysterious sounds of what I call the Lost Chamber of the Floating City.
+VALUES (8187, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'It is I, Alatar Locke, writing as I listen to  the comfortingly mysterious sounds of what I call the Lost Chamber of the Floating City.
 I am convinced the ancient magic of this place is unstable; perhaps now you see for yourself how the portals link the scattered pieces of the city together, and how, indeed, even those portals are unpredictable at times - much like the portals that lead one into and out of the City itself.
 ');

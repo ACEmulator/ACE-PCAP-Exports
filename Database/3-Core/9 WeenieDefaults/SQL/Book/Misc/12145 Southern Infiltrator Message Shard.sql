@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12145;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (12145, 'noteinfiltratorsouthuntranslated', 8, '2019-02-10 05:41:14') /* Book */;
+VALUES (12145, 'noteinfiltratorsouthuntranslated', 8, '2019-02-10 07:19:52') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12145,   1,        128) /* ItemType - Misc */
@@ -47,5 +47,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (12145, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (12145, 0, 4294967295, NULL, 'Password is cheese', False, '[This item is unreadable and must be translated by Diyas al-Yat in Zaikhal.]
+VALUES (12145, 0, 4294967295, 'prewritten', 'Password is cheese', False, '[This item is unreadable and must be translated by Diyas al-Yat in Zaikhal.]
 ');
