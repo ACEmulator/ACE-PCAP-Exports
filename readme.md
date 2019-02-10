@@ -1,24 +1,13 @@
-# ACE-World - World Database for ACEmulator
+# ACE-PCAP-Exports - PCAP Exports in World Database form for ACEmulator
 
 **ACE-World is the World Database for ACEmulator, an emulator of the Asheron's Call game server**
  * MySQL and MariaDB are used as the database engine.
- * Currently intended for developers that wish to contribute to the ACEmulator project.
- * Initially the database will be filled with data that was pulled directly from data submitted by players before the game closed.
+ * Currently intended for developers that wish to refer to data as seen in PCAPs in ACE compatible formatting.
+ * Not directly usable as a world database. Use ACE-World-16PY-Patches releases instead
 
 ***
 ## Recommended Tools
-* SQLYog [on Github](https://github.com/webyog/sqlyog-community/wiki/Downloads)
-* ACLogView [on Github](https://github.com/tfarley/aclogview)
-* StyleCop Visual Studio Extension [on visualstudio.com](https://marketplace.visualstudio.com/items?itemName=ChrisDahlberg.StyleCop)
-
-## Getting Started
-
-**This guide assumes you've followed the first four bullet-points found [on ACEmulator Github](https://github.com/ACEmulator/ACE)**
-
-* Click [here](https://github.com/ACEmulator/ACE-World/releases/latest) to download the [latest release](https://github.com/ACEmulator/ACE-World/releases/latest) of the database.
-* Extract the zip file.
-* Import the extracted SQL file into your SQL server.
-* Return to ACEmulator Github for additional instructions.
+* ACLogView [on Github](https://github.com/ACEmulator/aclogview)
 
 ## Contributions
 
