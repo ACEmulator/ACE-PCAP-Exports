@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1654;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (1654, 'taperturquoise', 32, '2019-02-10 08:04:04') /* SpellComponent */;
+VALUES (1654, 'taperturquoise', 32, '2019-02-10 00:00:00') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1654,   1,       4096) /* ItemType - SpellComponents */

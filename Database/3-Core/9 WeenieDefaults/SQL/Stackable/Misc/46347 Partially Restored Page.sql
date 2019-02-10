@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46347;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (46347, 'ace46347-partiallyrestoredpage', 51, '2019-02-10 08:04:04') /* Stackable */;
+VALUES (46347, 'ace46347-partiallyrestoredpage', 51, '2019-02-10 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46347,   1,        128) /* ItemType - Misc */
