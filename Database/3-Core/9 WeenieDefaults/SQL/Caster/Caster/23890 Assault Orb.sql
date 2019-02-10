@@ -1,0 +1,83 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23890;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23890, 'orbtumerokwar', 35, '2019-02-10 00:00:00') /* Caster */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (23890,   1,      32768) /* ItemType - Caster */
+     , (23890,   5,        200) /* EncumbranceVal */
+     , (23890,   9,   16777216) /* ValidLocations - Held */
+     , (23890,  10,   16777216) /* CurrentWieldedLocation - Held */
+     , (23890,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
+     , (23890,  18,          1) /* UiEffects - Magical */
+     , (23890,  19,       5000) /* Value */
+     , (23890,  65,          1) /* Placement - RightHandCombat */
+     , (23890,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (23890,  94,         16) /* TargetType - Creature */
+     , (23890, 106,        400) /* ItemSpellcraft */
+     , (23890, 107,        600) /* ItemCurMana */
+     , (23890, 108,        600) /* ItemMaxMana */
+     , (23890, 109,        120) /* ItemDifficulty */
+     , (23890, 151,          2) /* HookType - Wall */
+     , (23890, 158,          7) /* WieldRequirements - Level */
+     , (23890, 159,          1) /* WieldSkillType - Axe */
+     , (23890, 160,         30) /* WieldDifficulty */
+     , (23890, 166,          6) /* SlayerCreatureType - Tumerok */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23890,   1, False) /* Stuck */
+     , (23890,  11, True ) /* IgnoreCollisions */
+     , (23890,  13, True ) /* Ethereal */
+     , (23890,  14, True ) /* GravityStatus */
+     , (23890,  15, True ) /* LightsStatus */
+     , (23890,  19, True ) /* Attackable */
+     , (23890,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23890,   5, -0.025000000372529) /* ManaRate */
+     , (23890,  29,       1) /* WeaponDefense */
+     , (23890,  39, 0.800000011920929) /* DefaultScale */
+     , (23890,  77,       1) /* PhysicsScriptIntensity */
+     , (23890, 144, 1.47282915051041E-314) /* ManaConversionMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23890,   1, 'Assault Orb') /* Name */
+     , (23890,   7, 'Thanks to Osmethne Yumi for his help :)') /* Inscription */
+     , (23890,   8, 'Lons di Orion') /* ScribeName */
+     , (23890,  16, 'A reward for defeating the leaders of the Falcon Clan.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23890,   1,   33558211) /* Setup */
+     , (23890,   3,  536870932) /* SoundTable */
+     , (23890,   6,   67111919) /* PaletteBase */
+     , (23890,   8,  100671741) /* Icon */
+     , (23890,  22,  872415275) /* PhysicsEffectTable */
+     , (23890, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
+     , (23890, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (23890, 8005,     194721) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
+     , (23890, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
+     , (23890, 8019,         88) /* PCAPRecordedDefaultScript */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (23890, 8040, 2399928332, 48.50957, 101.8459, 5.929, -0.7069204, -0.7069204, 0.01623157, 0.01623157) /* PCAPRecordedLocation */
+/* @teleloc 0x8F0C000C [48.509570 101.845900 5.929000] -0.706920 -0.706920 0.016232 0.016232 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (23890, 8000, 3653262441) /* PCAPRecordedObjectIID */
+     , (23890, 8008, 1343491347) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (23890,   215,      2) 
+     , (23890,   656,      2) 
+     , (23890,  1425,      2) 
+     , (23890,  2013,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (23890, 67111924, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (23890, 0, 83893489, 83893489)
+     , (23890, 0, 83894458, 83894458);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (23890, 0, 16788842);

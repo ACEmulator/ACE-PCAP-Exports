@@ -1,0 +1,43 @@
+DELETE FROM `weenie` WHERE `class_Id` = 31412;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31412, 'ace31412-unreadabledericosttome', 1, '2019-02-10 00:00:00') /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (31412,   1,        128) /* ItemType - Misc */
+     , (31412,   5,         50) /* EncumbranceVal */
+     , (31412,  16,          1) /* ItemUseable - No */
+     , (31412,  19,          0) /* Value */
+     , (31412,  33,          1) /* Bonded - Bonded */
+     , (31412,  65,        101) /* Placement - Resting */
+     , (31412,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (31412, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31412,   1, False) /* Stuck */
+     , (31412,  11, True ) /* IgnoreCollisions */
+     , (31412,  13, True ) /* Ethereal */
+     , (31412,  14, True ) /* GravityStatus */
+     , (31412,  19, True ) /* Attackable */
+     , (31412,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (31412,   1, 'Unreadable Dericost Tome') /* Name */
+     , (31412,  14, 'Bring this tome to Kuyiza bint Zayi in Zaikhal for translation.') /* Use */
+     , (31412,  16, 'An unreadable tome written in the runic language of the Dericost.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (31412,   1,   33559593) /* Setup */
+     , (31412,   3,  536870932) /* SoundTable */
+     , (31412,   8,  100688124) /* Icon */
+     , (31412,  22,  872415275) /* PhysicsEffectTable */
+     , (31412, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
+     , (31412, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (31412, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (31412, 8040, 15794510, 117.532, -113.411, -71.058, 0.4724821, 0, 0, -0.8813403) /* PCAPRecordedLocation */
+/* @teleloc 0x00F1014E [117.532000 -113.411000 -71.058000] 0.472482 0.000000 0.000000 -0.881340 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (31412, 8000, 2447664026) /* PCAPRecordedObjectIID */;

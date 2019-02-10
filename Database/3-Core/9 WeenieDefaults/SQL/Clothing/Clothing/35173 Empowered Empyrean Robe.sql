@@ -1,0 +1,97 @@
+DELETE FROM `weenie` WHERE `class_Id` = 35173;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35173, 'ace35173-empoweredempyreanrobe', 2, '2019-02-10 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (35173,   1,          4) /* ItemType - Clothing */
+     , (35173,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
+     , (35173,   5,        450) /* EncumbranceVal */
+     , (35173,   9,      32513) /* ValidLocations - HeadWear, Armor */
+     , (35173,  16,          1) /* ItemUseable - No */
+     , (35173,  19,     100000) /* Value */
+     , (35173,  28,        150) /* ArmorLevel */
+     , (35173,  33,          1) /* Bonded - Bonded */
+     , (35173,  65,        101) /* Placement - Resting */
+     , (35173,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (35173, 106,        400) /* ItemSpellcraft */
+     , (35173, 107,      10000) /* ItemCurMana */
+     , (35173, 108,      10000) /* ItemMaxMana */
+     , (35173, 109,        320) /* ItemDifficulty */
+     , (35173, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (35173,   1, False) /* Stuck */
+     , (35173,  11, True ) /* IgnoreCollisions */
+     , (35173,  13, True ) /* Ethereal */
+     , (35173,  14, True ) /* GravityStatus */
+     , (35173,  19, True ) /* Attackable */
+     , (35173,  22, True ) /* Inscribable */
+     , (35173,  69, False) /* IsSellable */
+     , (35173,  99, True ) /* Ivoryable */
+     , (35173, 100, False) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (35173,   5,    -0.5) /* ManaRate */
+     , (35173,  13, 0.600000023841858) /* ArmorModVsSlash */
+     , (35173,  14, 0.600000023841858) /* ArmorModVsPierce */
+     , (35173,  15, 0.600000023841858) /* ArmorModVsBludgeon */
+     , (35173,  16, 0.600000023841858) /* ArmorModVsCold */
+     , (35173,  17, 0.600000023841858) /* ArmorModVsFire */
+     , (35173,  18, 0.600000023841858) /* ArmorModVsAcid */
+     , (35173,  19, 0.600000023841858) /* ArmorModVsElectric */
+     , (35173, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (35173,   1, 'Empowered Empyrean Robe') /* Name */
+     , (35173,  16, 'A blue Empyrean robe, like the one worn by Asheron.  Embedded in the fabric are small threads of Thaumaturgic Crystal which radiate an almost palpable power.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (35173,   1,   33554854) /* Setup */
+     , (35173,   3,  536870932) /* SoundTable */
+     , (35173,   6,   67108990) /* PaletteBase */
+     , (35173,   8,  100689362) /* Icon */
+     , (35173,  22,  872415275) /* PhysicsEffectTable */
+     , (35173, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
+     , (35173, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (35173, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (35173, 8000, 2924061638) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (35173,  2350,      2) 
+     , (35173,  2351,      2) 
+     , (35173,  2352,      2) 
+     , (35173,  2353,      2) 
+     , (35173,  2377,      2) 
+     , (35173,  2378,      2) 
+     , (35173,  2380,      2) 
+     , (35173,  2623,      2) 
+     , (35173,  2624,      2) 
+     , (35173,  2625,      2) 
+     , (35173,  2959,      2) 
+     , (35173,  2960,      2) 
+     , (35173,  2961,      2) 
+     , (35173,  2962,      2) 
+     , (35173,  3977,      2) 
+     , (35173,  3978,      2) 
+     , (35173,  3979,      2) 
+     , (35173,  4059,      2) 
+     , (35173,  4060,      2) 
+     , (35173,  4061,      2) 
+     , (35173,  4062,      2) ;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (35173, 67113999, 40, 40)
+     , (35173, 67113999, 80, 12)
+     , (35173, 67113999, 96, 12);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (35173, 0, 83887061, 83894216)
+     , (35173, 0, 83887060, 83894214)
+     , (35173, 0, 83889072, 83894211)
+     , (35173, 0, 83889342, 83894211);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (35173, 0, 16778367);
