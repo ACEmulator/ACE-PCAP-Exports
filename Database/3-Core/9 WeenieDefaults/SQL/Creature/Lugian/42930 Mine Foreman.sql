@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42930;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42930, 'ace42930-mineforeman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42930, 'ace42930-mineforeman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42930,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,12 @@ VALUES (42930,   1, 400, 0, 0) /* Strength */
      , (42930,   6, 270, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42930,   1,   380, 0, 0, 380) /* MaxHealth */
-     , (42930,   3,   460, 0, 0, 460) /* MaxStamina */
-     , (42930,   5,   310, 0, 0, 310) /* MaxMana */;
+VALUES (42930,   1,    10, 0, 0, 380) /* MaxHealth */
+     , (42930,   3,    10, 0, 0, 460) /* MaxStamina */
+     , (42930,   5,    10, 0, 0, 310) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42930, 2, 23754,  1, 0, 0, False) /* Create Lugian Hammer (23754) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42930, 67113168, 0, 0);

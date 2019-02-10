@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46351;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46351, 'ace46351-armoredsiessasclavusveteran', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46351, 'ace46351-armoredsiessasclavusveteran', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46351,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,13 @@ VALUES (46351,   1, 250, 0, 0) /* Strength */
      , (46351,   6, 230, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46351,   1,  1215, 0, 0, 1215) /* MaxHealth */
-     , (46351,   3,  1530, 0, 0, 1528) /* MaxStamina */
-     , (46351,   5,  1030, 0, 0, 1030) /* MaxMana */;
+VALUES (46351,   1,    10, 0, 0, 1215) /* MaxHealth */
+     , (46351,   3,    10, 0, 0, 1528) /* MaxStamina */
+     , (46351,   5,    10, 0, 0, 1030) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46351, 2, 38849,  1, 0, 0, False) /* Create Raider Lightning Arrow (38849) for Wield */
+     , (46351, 2, 41010,  1, 0, 0, False) /* Create Lightning T'thuun Bow (41010) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46351, 67113361, 0, 0);

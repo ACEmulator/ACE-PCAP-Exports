@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33940;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33940, 'ace33940-enhancedcrystalsword', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33940, 'ace33940-enhancedcrystalsword', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,7 @@ VALUES (33940,   1,          1) /* ItemType - MeleeWeapon */
      , (33940, 108,       1500) /* ItemMaxMana */
      , (33940, 151,          2) /* HookType - Wall */
      , (33940, 158,          2) /* WieldRequirements - RawSkill */
-     , (33940, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (33940, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (33940, 160,        325) /* WieldDifficulty */
      , (33940, 353,          2) /* WeaponType - Sword */
      , (33940, 8030,          0);
@@ -55,14 +55,13 @@ VALUES (33940,   1,   33557340) /* Setup */
      , (33940,   6,   67111919) /* PaletteBase */
      , (33940,   8,  100674099) /* Icon */
      , (33940,  22,  872415275) /* PhysicsEffectTable */
-     , (33940,  55,       1155) /* ProcSpell */
+     , (33940,  55,       1155) /* ProcSpell - PiercingVulnerabilityOther5 */
      , (33940, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (33940, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33940, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33940,   2, 1342181083) /* Container */
-     , (33940, 8000, 2225922755) /* PCAPRecordedObjectIID */;
+VALUES (33940, 8000, 2225922755) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33940,  1094,      2) 

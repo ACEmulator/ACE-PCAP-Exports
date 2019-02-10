@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27429;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27429, 'shadowwraithconsumed', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27429, 'shadowwraithconsumed', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27429,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27429, 8000, 2629330631) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27429,   1,  2000, 0, 0, 2000) /* MaxHealth */;
+VALUES (27429,   1,    10, 0, 0, 2000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27429, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (27429, 2, 47678,  1, 0, 0, False) /* Create Flaming Tachi (47678) for Wield */
+     , (27429, 9, 20524,  0, 0, 0, False) /* Create Scroll of Ketnan's Blessing (20524) for ContainTreasure */
+     , (27429, 9, 27445,  0, 0, 0, False) /* Create Shadow Stone Necklace (27445) for ContainTreasure */
+     , (27429, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
+     , (27429, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
+     , (27429, 9, 49286,  0, 0, 0, False) /* Create Acid K'nath Essence (150) (49286) for ContainTreasure */
+     , (27429, 9, 49297,  0, 0, 0, False) /* Create Fire K'nath Essence (80) (49297) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27429, 67112860, 0, 0);

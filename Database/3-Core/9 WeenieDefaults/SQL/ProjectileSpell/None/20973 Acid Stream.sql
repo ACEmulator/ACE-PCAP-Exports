@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20973;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20973, 'acidstreamgravity', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20973, 'acidstreamgravity', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20973,   1,          0) /* ItemType - None */
@@ -47,3 +47,12 @@ VALUES (20973, 8040, 23855555, 56.09101, -38.81112, 1.84046, -0.9270869, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20973, 8000, 3686709196) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (20973, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (20973, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (20973, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (20973, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (20973, 2, 47249,  1, 0, 0, False) /* Create Board with Nail (47249) for Wield */
+     , (20973, 2, 47267,  1, 0, 0, False) /* Create Electric Board with Nail (47267) for Wield */
+     , (20973, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */;

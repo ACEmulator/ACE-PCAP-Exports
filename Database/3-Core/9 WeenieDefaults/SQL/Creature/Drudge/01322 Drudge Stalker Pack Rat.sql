@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1322;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1322, 'drudgesneakersewer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1322, 'drudgesneakersewer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1322,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,22 @@ VALUES (1322,   1, 220, 0, 0) /* Strength */
      , (1322,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1322,   1,   160, 0, 0, 160) /* MaxHealth */
-     , (1322,   3,   440, 0, 0, 438) /* MaxStamina */
-     , (1322,   5,    90, 0, 0, 76) /* MaxMana */;
+VALUES (1322,   1,    10, 0, 0, 160) /* MaxHealth */
+     , (1322,   3,    10, 0, 0, 438) /* MaxStamina */
+     , (1322,   5,    10, 0, 0, 76) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1322, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
+     , (1322, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
+     , (1322, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (1322, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */
+     , (1322, 9,   273, 46, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1322, 9,  1319,  0, 0, 0, False) /* Create Key (1319) for ContainTreasure */
+     , (1322, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1322, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (1322, 9, 30568,  0, 0, 0, False) /* Create Flaming Sabra (30568) for ContainTreasure */
+     , (1322, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */
+     , (1322, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1322, 67112819, 0, 0);

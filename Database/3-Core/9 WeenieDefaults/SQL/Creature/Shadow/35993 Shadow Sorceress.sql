@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35993;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35993, 'ace35993-shadowsorceress', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35993, 'ace35993-shadowsorceress', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35993,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35993, 8000, 3359972170) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35993,   1,  2000, 0, 0, 2000) /* MaxHealth */;
+VALUES (35993,   1,    10, 0, 0, 2000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35993, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (35993, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (35993, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35993, 67112860, 0, 0);

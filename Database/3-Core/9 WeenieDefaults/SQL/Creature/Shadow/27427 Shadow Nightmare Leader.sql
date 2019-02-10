@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27427;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27427, 'shadownightmareboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27427, 'shadownightmareboss', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27427,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27427, 8000, 2629107556) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27427,   1,  1400, 0, 0, 1400) /* MaxHealth */;
+VALUES (27427,   1,    10, 0, 0, 1400) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27427, 67112860, 0, 0);

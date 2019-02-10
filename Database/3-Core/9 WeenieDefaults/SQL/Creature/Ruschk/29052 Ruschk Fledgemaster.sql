@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29052;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29052, 'ruschkfledgemaster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29052, 'ruschkfledgemaster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29052,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,38 @@ VALUES (29052,   1, 130, 0, 0) /* Strength */
      , (29052,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29052,   1,   130, 0, 0, 130) /* MaxHealth */
-     , (29052,   3,   220, 0, 0, 220) /* MaxStamina */
-     , (29052,   5,   110, 0, 0, 110) /* MaxMana */;
+VALUES (29052,   1,    10, 0, 0, 130) /* MaxHealth */
+     , (29052,   3,    10, 0, 0, 220) /* MaxStamina */
+     , (29052,   5,    10, 0, 0, 110) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29052, 9,    51,  0, 0, 0, False) /* Create Platemail Cuirass (51) for ContainTreasure */
+     , (29052, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (29052, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (29052, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (29052, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (29052, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (29052, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (29052, 9,   273, 93, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (29052, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (29052, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (29052, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (29052, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (29052, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (29052, 9,  2824,  0, 0, 0, False) /* Create Scroll of Frost Bane IV (2824) for ContainTreasure */
+     , (29052, 9,  2854,  0, 0, 0, False) /* Create Scroll of Lightning Bane IV (2854) for ContainTreasure */
+     , (29052, 9,  3110,  0, 0, 0, False) /* Create Scroll of Regenerate Other IV (3110) for ContainTreasure */
+     , (29052, 9,  3898,  0, 0, 0, False) /* Create Lightning Tofun (3898) for ContainTreasure */
+     , (29052, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (29052, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (29052, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (29052, 9, 29054,  0, 0, 0, False) /* Create Fledgemaster's Tusk (29054) for ContainTreasure */
+     , (29052, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (29052, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (29052, 9, 40622,  0, 0, 0, False) /* Create Frost Nodachi (40622) for ContainTreasure */
+     , (29052, 9, 43323,  0, 0, 0, False) /* Create Scroll of Destructive Curse IV (43323) for ContainTreasure */
+     , (29052, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (29052, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29052, 67116363, 0, 0);

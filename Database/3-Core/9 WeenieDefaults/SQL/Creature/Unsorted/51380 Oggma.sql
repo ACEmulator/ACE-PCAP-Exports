@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51380;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51380, 'ace51380-oggma', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51380, 'ace51380-oggma', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51380,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,9 @@ VALUES (51380, 8040, 1483735315, 30, -50, -11.99, -4.371139E-08, 0, 0, -1) /* PC
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51380, 8000, 3629789851) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51380, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51380, 67113165, 0, 0);

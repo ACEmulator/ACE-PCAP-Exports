@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35870;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35870, 'ace35870-themaster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35870, 'ace35870-themaster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35870,   1,         16) /* ItemType - Creature */
@@ -82,6 +82,18 @@ VALUES (35870, 8040, 11469107, 42.5, -70, 0, -0.7071068, 0, 0, -0.7071068) /* PC
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35870, 8000, 3684814103) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35870, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */
+     , (35870, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (35870, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (35870, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (35870, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (35870, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (35870, 9, 27219,  0, 0, 0, False) /* Create Chiran Sandals (27219) for ContainTreasure */
+     , (35870, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */
+     , (35870, 9, 35871,  0, 0, 0, False) /* Create The Master Token (35871) for ContainTreasure */
+     , (35870, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35870, 0, 83897560, 83897667)

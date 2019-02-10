@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 273;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (273, 'coinstack', 9) /* Coin */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (273, 'coinstack', 9, '2019-02-10 05:41:14') /* Coin */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (273,   1,         64) /* ItemType - Money */
      , (273,   5,          0) /* EncumbranceVal */
      , (273,  11,      25000) /* MaxStackSize */
-     , (273,  12,      17094) /* StackSize */
+     , (273,  12,          1) /* StackSize */
+     , (273,  13,          0) /* StackUnitEncumbrance */
+     , (273,  15,          1) /* StackUnitValue */
      , (273,  16,          1) /* ItemUseable - No */
-     , (273,  19,      17094) /* Value */
+     , (273,  19,          1) /* Value */
      , (273,  65,        101) /* Placement - Resting */
      , (273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -31,5 +33,18 @@ VALUES (273,   1,   33557367) /* Setup */
      , (273, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (273,   2, 2186220449) /* Container */
-     , (273, 8000, 3681041220) /* PCAPRecordedObjectIID */;
+VALUES (273, 8000, 3681041220) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (273, 2,  3794,  1, 0, 0, False) /* Create Acid Jambiya (3794) for Wield */
+     , (273, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
+     , (273, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (273, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (273, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (273, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
+     , (273, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */
+     , (273, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (273, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (273, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (273, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (273, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */;

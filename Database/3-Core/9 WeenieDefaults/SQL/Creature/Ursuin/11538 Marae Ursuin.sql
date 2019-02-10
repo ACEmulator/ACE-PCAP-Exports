@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11538;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11538, 'ursuinmarae_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11538, 'ursuinmarae_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11538,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,20 @@ VALUES (11538,   1, 330, 0, 0) /* Strength */
      , (11538,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11538,   1,   300, 0, 0, 300) /* MaxHealth */
-     , (11538,   3,   400, 0, 0, 400) /* MaxStamina */
-     , (11538,   5,   110, 0, 0, 110) /* MaxMana */;
+VALUES (11538,   1,    10, 0, 0, 300) /* MaxHealth */
+     , (11538,   3,    10, 0, 0, 400) /* MaxStamina */
+     , (11538,   5,    10, 0, 0, 110) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11538, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (11538, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (11538, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (11538, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (11538, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (11538, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (11538, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (11538, 9,  2814,  0, 0, 0, False) /* Create Scroll of Flame Bane IV (2814) for ContainTreasure */
+     , (11538, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11538, 67112945, 0, 0);

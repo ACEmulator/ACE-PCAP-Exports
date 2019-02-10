@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10708;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10708, 'drudgeravenerblackclawnorth', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10708, 'drudgeravenerblackclawnorth', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10708,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10708, 8000, 2880415684) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10708,   1,   258, 0, 0, 258) /* MaxHealth */;
+VALUES (10708,   1,    10, 0, 0, 258) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (10708, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (10708, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
+     , (10708, 9, 10712,  1, 0, 0, False) /* Create Northern Quiddity Fragment (10712) for ContainTreasure */
+     , (10708, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10708, 67112813, 0, 0);

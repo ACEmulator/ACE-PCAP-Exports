@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33139;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33139, 'ace33139-archonmerille', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33139, 'ace33139-archonmerille', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33139,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,10 @@ VALUES (33139, 8040, 3537109616, 62, 175.546, -41.595, 1, 0, 0, -4.37114E-08) /*
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33139, 8000, 2877473612) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33139, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (33139, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33139, 67109561, 0, 24)

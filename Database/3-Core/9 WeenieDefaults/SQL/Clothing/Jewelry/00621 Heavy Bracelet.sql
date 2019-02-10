@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 621;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (621, 'braceletheavy', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (621, 'braceletheavy', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (621,   1,          8) /* ItemType - Jewelry */
@@ -58,6 +58,13 @@ VALUES (621, 8000, 3536874068) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (621,  1023,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (621, 2, 22782,  1, 0, 0, False) /* Create Khanjar (22782) for Wield */
+     , (621, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (621, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (621, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (621, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (621, 67111920, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27280;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27280, 'tumerokauntahuirea', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27280, 'tumerokauntahuirea', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27280,   1,         16) /* ItemType - Creature */
@@ -47,6 +47,9 @@ VALUES (27280, 8040, 631046172, 83.6707, 83.8345, 30.007, -0.0289871, 0, 0, -0.9
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27280, 8000, 2879931618) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27280, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27280, 67113366, 0, 0);

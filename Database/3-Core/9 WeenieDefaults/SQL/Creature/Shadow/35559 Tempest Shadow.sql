@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35559;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35559, 'ace35559-tempestshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35559, 'ace35559-tempestshadow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35559,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35559, 8000, 3358424717) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35559,   1,  2200, 0, 0, 2200) /* MaxHealth */;
+VALUES (35559,   1,    10, 0, 0, 2200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35559, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (35559, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35559, 67112860, 0, 0);

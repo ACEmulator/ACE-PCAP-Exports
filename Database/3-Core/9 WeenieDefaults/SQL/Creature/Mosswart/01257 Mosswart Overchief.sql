@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1257;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1257, 'mosswartchiefgreenmire', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1257, 'mosswartchiefgreenmire', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1257,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,39 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1257, 8000, 3360966085) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1257,   1,   110, 0, 0, 110) /* MaxHealth */;
+VALUES (1257,   1,    10, 0, 0, 110) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1257, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
+     , (1257, 2,   339,  1, 0, 0, False) /* Create Scimitar (339) for Wield */
+     , (1257, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
+     , (1257, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
+     , (1257, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
+     , (1257, 2,   362,  1, 0, 0, False) /* Create Yari (362) for Wield */
+     , (1257, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (1257, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (1257, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (1257, 9,   273, 43, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1257, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (1257, 9,  1264,  0, 0, 0, False) /* Create Key (1264) for ContainTreasure */
+     , (1257, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (1257, 9,  3103,  0, 0, 0, False) /* Create Scroll of Mana Renewal Self II (3103) for ContainTreasure */
+     , (1257, 9,  3338,  0, 0, 0, False) /* Create Scroll of Jumping Mastery Self II (3338) for ContainTreasure */
+     , (1257, 9,  3463,  0, 0, 0, False) /* Create Scroll of Resist Magic Other II (3463) for ContainTreasure */
+     , (1257, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
+     , (1257, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (1257, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1257, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
+     , (1257, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
+     , (1257, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (1257, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (1257, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */
+     , (1257, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (1257, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */
+     , (1257, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (1257, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (1257, 9, 43322,  0, 0, 0, False) /* Create Scroll of Destructive Curse III (43322) for ContainTreasure */
+     , (1257, 9, 43330,  0, 0, 0, False) /* Create Scroll of Festering Curse II (43330) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1257, 67113406, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42040;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42040, 'ace42040-nobleremains', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42040, 'ace42040-nobleremains', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42040,   1,         16) /* ItemType - Creature */
@@ -68,3 +68,6 @@ VALUES (42040, 8040, 2349008730, 210, -200, 12, 1, 0, 0, 0) /* PCAPRecordedLocat
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42040, 8000, 2628918606) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42040, 9, 42039,  1, 0, 0, False) /* Create Mhoire Signet Ring (42039) for ContainTreasure */;

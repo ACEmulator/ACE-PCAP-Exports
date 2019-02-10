@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5640;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5640, 'yanshisouthwestoutpostgrocer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5640, 'yanshisouthwestoutpostgrocer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5640,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (5640,   1,  90, 0, 0) /* Strength */
      , (5640,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5640,   1,    53, 0, 0, 53) /* MaxHealth */
-     , (5640,   3,    95, 0, 0, 95) /* MaxStamina */
-     , (5640,   5,    45, 0, 0, 45) /* MaxMana */;
+VALUES (5640,   1,    10, 0, 0, 53) /* MaxHealth */
+     , (5640,   3,    10, 0, 0, 95) /* MaxStamina */
+     , (5640,   5,    10, 0, 0, 45) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5640, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33956;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33956, 'ace33956-crystalofacidicelementalessence', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33956, 'ace33956-crystalofacidicelementalessence', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33956,   1,       2048) /* ItemType - Gem */
@@ -35,8 +35,7 @@ VALUES (33956,   1,   33556407) /* Setup */
      , (33956, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33956,   2, 2872604243) /* Container */
-     , (33956, 8000, 2865819906) /* PCAPRecordedObjectIID */;
+VALUES (33956, 8000, 2865819906) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33956, 67111923, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8516;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8516, 'shadowcloudhuge', 13) /* HotSpot */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8516, 'shadowcloudhuge', 13, '2019-02-10 05:41:14') /* HotSpot */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8516,   1,        128) /* ItemType - Misc */

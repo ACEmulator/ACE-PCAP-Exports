@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34313;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34313, 'ace34313-astesoulharrier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34313, 'ace34313-astesoulharrier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34313,   1,         16) /* ItemType - Creature */
@@ -42,3 +42,7 @@ VALUES (34313, 8040, 8126772, 67.1591, -29.4207, -18, 0.6883401, 0, 0, 0.7253881
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34313, 8000, 3704046487) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34313, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
+     , (34313, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47344;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (47344, 'ace47344-club', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (47344, 'ace47344-club', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47344,   1,          1) /* ItemType - MeleeWeapon */
@@ -51,16 +51,18 @@ VALUES (47344,   1,   33554731) /* Setup */
      , (47344, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (47344, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47344, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (47344, 8009,          1);
+     , (47344, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47344, 8040, 2471690285, 129.263, 116.9771, 14.85948, 0.6801053, 0.4531101, -0.3202259, -0.4791696) /* PCAPRecordedLocation */
 /* @teleloc 0x9353002D [129.263000 116.977100 14.859480] 0.680105 0.453110 -0.320226 -0.479170 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47344,   3, 3685886854) /* Wielder */
-     , (47344, 8000, 3685762132) /* PCAPRecordedObjectIID */
+VALUES (47344, 8000, 3685762132) /* PCAPRecordedObjectIID */
      , (47344, 8008, 3685886854) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (47344, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47344, 67111919, 0, 0);

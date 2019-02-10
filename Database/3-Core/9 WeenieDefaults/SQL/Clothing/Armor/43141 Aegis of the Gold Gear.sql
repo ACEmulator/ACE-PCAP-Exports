@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43141;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43141, 'ace43141-aegisofthegoldgear', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43141, 'ace43141-aegisofthegoldgear', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43141,   1,          2) /* ItemType - Armor */
@@ -20,10 +20,10 @@ VALUES (43141,   1,          2) /* ItemType - Armor */
      , (43141, 108,       3000) /* ItemMaxMana */
      , (43141, 151,          2) /* HookType - Wall */
      , (43141, 158,          7) /* WieldRequirements - Level */
-     , (43141, 159,          1) /* WieldSkilltype - Axe */
+     , (43141, 159,          1) /* WieldSkillType - Axe */
      , (43141, 160,        180) /* WieldDifficulty */
      , (43141, 270,          1) /* WieldRequirements2 - Skill */
-     , (43141, 271,         48) /* WieldSkilltype2 - Shield */
+     , (43141, 271,         48) /* WieldSkillType2 - Shield */
      , (43141, 272,        475) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -59,15 +59,14 @@ VALUES (43141,   1,   33561097) /* Setup */
      , (43141, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (43141, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43141, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (43141, 8009,          3);
+     , (43141, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43141, 8040, 3465871413, 157.1841, 95.99943, 19.926, 0.4786811, -0.2650957, -0.7998175, -0.2467401) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [157.184100 95.999430 19.926000] 0.478681 -0.265096 -0.799818 -0.246740 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43141,   3, 1343312799) /* Wielder */
-     , (43141, 8000, 2168348391) /* PCAPRecordedObjectIID */
+VALUES (43141, 8000, 2168348391) /* PCAPRecordedObjectIID */
      , (43141, 8008, 1343312799) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

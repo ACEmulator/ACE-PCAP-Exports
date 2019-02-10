@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45622;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45622, 'ace45622-doorkey', 22) /* Key */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45622, 'ace45622-doorkey', 22, '2019-02-10 05:41:14') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45622,   1,      16384) /* ItemType - Key */
@@ -10,7 +10,7 @@ VALUES (45622,   1,      16384) /* ItemType - Key */
      , (45622,  19,         50) /* Value */
      , (45622,  65,        101) /* Placement - Resting */
      , (45622,  91,          2) /* MaxStructure */
-     , (45622,  92,          1) /* Structure */
+     , (45622,  92,          2) /* Structure */
      , (45622,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45622,  94,        640) /* TargetType - LockableMagicTarget */;
 

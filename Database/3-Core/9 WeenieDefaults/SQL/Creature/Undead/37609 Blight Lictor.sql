@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37609;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37609, 'ace37609-blightlictor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37609, 'ace37609-blightlictor', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37609,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (37609,   1, 205, 0, 0) /* Strength */
      , (37609,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37609,   1,  1150, 0, 0, 1150) /* MaxHealth */
-     , (37609,   3,  2100, 0, 0, 2100) /* MaxStamina */
-     , (37609,   5,  1360, 0, 0, 1360) /* MaxMana */;
+VALUES (37609,   1,    10, 0, 0, 1150) /* MaxHealth */
+     , (37609,   3,    10, 0, 0, 2100) /* MaxStamina */
+     , (37609,   5,    10, 0, 0, 1360) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37609, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
+     , (37609, 2, 48007,  1, 0, 0, False) /* Create Acid Quarrel (48007) for Wield */
+     , (37609, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37609, 67114691, 0, 0);

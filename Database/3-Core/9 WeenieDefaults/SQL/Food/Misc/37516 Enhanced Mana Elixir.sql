@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37516;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37516, 'ace37516-enhancedmanaelixir', 18) /* Food */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37516, 'ace37516-enhancedmanaelixir', 18, '2019-02-10 05:41:14') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37516,   1,        128) /* ItemType - Misc */
-     , (37516,   5,        750) /* EncumbranceVal */
+     , (37516,   5,         75) /* EncumbranceVal */
      , (37516,  11,        100) /* MaxStackSize */
-     , (37516,  12,         10) /* StackSize */
+     , (37516,  12,          1) /* StackSize */
+     , (37516,  13,         75) /* StackUnitEncumbrance */
+     , (37516,  15,       1000) /* StackUnitValue */
      , (37516,  16,          8) /* ItemUseable - Contained */
      , (37516,  18,          1) /* UiEffects - Magical */
-     , (37516,  19,      10000) /* Value */
+     , (37516,  19,       1000) /* Value */
      , (37516,  33,          1) /* Bonded - Bonded */
      , (37516,  65,        101) /* Placement - Resting */
      , (37516,  89,          6) /* BoosterEnum - Mana */
@@ -47,8 +49,7 @@ VALUES (37516,   1,   33554603) /* Setup */
      , (37516, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37516,   2, 2400914310) /* Container */
-     , (37516, 8000, 2400588300) /* PCAPRecordedObjectIID */;
+VALUES (37516, 8000, 2400588300) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37516, 67111919, 0, 0);

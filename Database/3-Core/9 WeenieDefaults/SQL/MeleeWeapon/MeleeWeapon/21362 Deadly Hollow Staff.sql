@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21362;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21362, 'nabuthollownew', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21362, 'nabuthollownew', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21362,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (21362,   1,          1) /* ItemType - MeleeWeapon */
      , (21362, 114,          1) /* Attuned - Attuned */
      , (21362, 151,          2) /* HookType - Wall */
      , (21362, 158,          2) /* WieldRequirements - RawSkill */
-     , (21362, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (21362, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (21362, 160,        250) /* WieldDifficulty */
      , (21362, 353,          7) /* WeaponType - Staff */
      , (21362, 8030,          0);
@@ -61,15 +61,14 @@ VALUES (21362,   1,   33556647) /* Setup */
      , (21362, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (21362, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21362, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (21362, 8009,          1);
+     , (21362, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21362, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21362,   3, 1344150552) /* Wielder */
-     , (21362, 8000, 3433877368) /* PCAPRecordedObjectIID */
+VALUES (21362, 8000, 3433877368) /* PCAPRecordedObjectIID */
      , (21362, 8008, 1344150552) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

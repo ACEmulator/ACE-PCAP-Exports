@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9165;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9165, 'mosswartswamplordmartine', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9165, 'mosswartswamplordmartine', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9165,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,13 @@ VALUES (9165, 8040, 31129904, 90.7843, -70.0723, -23.9934, 0.6626469, 0, 0, -0.7
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9165, 8000, 3699152745) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9165, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (9165, 9,  3694,  0, 0, 0, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (9165, 9,  9121,  0, 0, 0, False) /* Create Storytelling (9121) for ContainTreasure */
+     , (9165, 9,  9128,  0, 0, 0, False) /* Create Torn Mosswart Shroud (9128) for ContainTreasure */
+     , (9165, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9165, 67113408, 0, 0);

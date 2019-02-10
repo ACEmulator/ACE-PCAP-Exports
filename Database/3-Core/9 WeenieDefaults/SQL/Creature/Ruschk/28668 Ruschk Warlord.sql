@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28668;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28668, 'ruschkwarlord', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28668, 'ruschkwarlord', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28668,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,16 @@ VALUES (28668,   1, 210, 0, 0) /* Strength */
      , (28668,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28668,   1,   445, 0, 0, 445) /* MaxHealth */
-     , (28668,   3,   590, 0, 0, 590) /* MaxStamina */
-     , (28668,   5,   320, 0, 0, 320) /* MaxMana */;
+VALUES (28668,   1,    10, 0, 0, 445) /* MaxHealth */
+     , (28668,   3,    10, 0, 0, 590) /* MaxStamina */
+     , (28668,   5,    10, 0, 0, 320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28668, 2, 48609,  1, 0, 0, False) /* Create Icy Club (48609) for Wield */
+     , (28668, 2, 48610,  1, 0, 0, False) /* Create Frozen Dagger (48610) for Wield */
+     , (28668, 2, 48611,  1, 0, 0, False) /* Create Ice Shard (48611) for Wield */
+     , (28668, 2, 48612,  1, 0, 0, False) /* Create Frigid Splinter (48612) for Wield */
+     , (28668, 2, 48613,  1, 0, 0, False) /* Create Glacial Blade (48613) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28668, 67115452, 0, 0);

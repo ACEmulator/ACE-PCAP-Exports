@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25854;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25854, 'dollbefouled', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25854, 'dollbefouled', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25854,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,45 @@ VALUES (25854,   1, 190, 0, 0) /* Strength */
      , (25854,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25854,   1,  1050, 0, 0, 1050) /* MaxHealth */
-     , (25854,   3,  1150, 0, 0, 1150) /* MaxStamina */
-     , (25854,   5,  1200, 0, 0, 1200) /* MaxMana */;
+VALUES (25854,   1,    10, 0, 0, 1050) /* MaxHealth */
+     , (25854,   3,    10, 0, 0, 1150) /* MaxStamina */
+     , (25854,   5,    10, 0, 0, 1200) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25854, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (25854, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (25854, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (25854, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (25854, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (25854, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (25854, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (25854, 9,  3422,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Ignorance VI (3422) for ContainTreasure */
+     , (25854, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (25854, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (25854, 9, 20446,  0, 0, 0, False) /* Create Scroll of Outlander's Insolence (20446) for ContainTreasure */
+     , (25854, 9, 20501,  0, 0, 0, False) /* Create Scroll of Jibril's Boon (20501) for ContainTreasure */
+     , (25854, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */
+     , (25854, 9, 20553,  0, 0, 0, False) /* Create Scroll of Harlune's Boon (20553) for ContainTreasure */
+     , (25854, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
+     , (25854, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (25854, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (25854, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (25854, 9, 29245,  0, 0, 0, False) /* Create Acid Crossbow (29245) for ContainTreasure */
+     , (25854, 9, 30589,  0, 0, 0, False) /* Create Flaming Flanged Mace (30589) for ContainTreasure */
+     , (25854, 9, 30610,  0, 0, 0, False) /* Create Acid Bastone (30610) for ContainTreasure */
+     , (25854, 9, 30613,  0, 0, 0, False) /* Create Flaming Knuckles (30613) for ContainTreasure */
+     , (25854, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */
+     , (25854, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (25854, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (25854, 9, 31800,  0, 0, 0, False) /* Create Blunt Compound Bow (31800) for ContainTreasure */
+     , (25854, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
+     , (25854, 9, 40702,  0, 0, 0, False) /* Create Covenant Pauldrons (40702) for ContainTreasure */
+     , (25854, 9, 40704,  0, 0, 0, False) /* Create Covenant Tassets (40704) for ContainTreasure */
+     , (25854, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (25854, 9, 43830,  0, 0, 0, False) /* Create Sedgemail Leather Gauntlets (43830) for ContainTreasure */
+     , (25854, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
+     , (25854, 9, 48967,  0, 0, 0, False) /* Create Fire Child Essence (150) (48967) for ContainTreasure */
+     , (25854, 9, 49215,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (100) (49215) for ContainTreasure */
+     , (25854, 9, 49223,  0, 0, 0, False) /* Create Lightning Skeleton Bushi Essence (125) (49223) for ContainTreasure */
+     , (25854, 9, 49327,  0, 0, 0, False) /* Create Fire Wisp Essence (125) (49327) for ContainTreasure */
+     , (25854, 9, 49469,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Other VII (49469) for ContainTreasure */;

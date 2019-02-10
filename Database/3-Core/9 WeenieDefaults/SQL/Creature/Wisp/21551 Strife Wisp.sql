@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21551;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21551, 'wispstrife', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21551, 'wispstrife', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21551,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (21551,   1, True ) /* Stuck */
      , (21551,  12, True ) /* ReportCollisions */
      , (21551,  13, False) /* Ethereal */
      , (21551,  14, True ) /* GravityStatus */
-     , (21551,  19, True ) /* Attackable */;
+     , (21551,  19, True ) /* Attackable */
+     , (21551, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21551,  39, 1.29999995231628) /* DefaultScale */;
@@ -53,6 +54,15 @@ VALUES (21551,   1, 120, 0, 0) /* Strength */
      , (21551,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (21551,   1,   225, 0, 0, 225) /* MaxHealth */
-     , (21551,   3,   350, 0, 0, 350) /* MaxStamina */
-     , (21551,   5,   310, 0, 0, 310) /* MaxMana */;
+VALUES (21551,   1,    10, 0, 0, 225) /* MaxHealth */
+     , (21551,   3,    10, 0, 0, 350) /* MaxStamina */
+     , (21551,   5,    10, 0, 0, 310) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (21551, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (21551, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (21551, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (21551, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (21551, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (21551, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (21551, 9, 49462,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VII (49462) for ContainTreasure */;

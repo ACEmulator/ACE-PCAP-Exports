@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8607;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8607, 'missilered', 4) /* Missile */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8607, 'missilered', 4, '2019-02-10 05:41:14') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8607,   1,          0) /* ItemType - None */
@@ -45,3 +45,6 @@ VALUES (8607, 8040, 653197353, 132.8977, 0.1182198, 6.040586, -0.4722963, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8607, 8000, 3688281522) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8607, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */;

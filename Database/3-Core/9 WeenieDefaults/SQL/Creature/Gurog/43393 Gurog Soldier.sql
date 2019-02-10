@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43393;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43393, 'ace43393-gurogsoldier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43393, 'ace43393-gurogsoldier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43393,   1,         16) /* ItemType - Creature */
@@ -56,6 +56,9 @@ VALUES (43393,   1, 550, 0, 0) /* Strength */
      , (43393,   6, 410, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43393,   1,  1900, 0, 0, 1900) /* MaxHealth */
-     , (43393,   3,  3990, 0, 0, 3990) /* MaxStamina */
-     , (43393,   5,  1410, 0, 0, 1410) /* MaxMana */;
+VALUES (43393,   1,    10, 0, 0, 1900) /* MaxHealth */
+     , (43393,   3,    10, 0, 0, 3990) /* MaxStamina */
+     , (43393,   5,    10, 0, 0, 1410) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43393, 2, 43397,  1, 0, 0, False) /* Create Frost Greataxe (43397) for Wield */;

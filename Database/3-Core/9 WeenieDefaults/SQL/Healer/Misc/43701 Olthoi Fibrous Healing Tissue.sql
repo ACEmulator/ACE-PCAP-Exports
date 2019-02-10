@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43701;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43701, 'healingkitolthoi', 28) /* Healer */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43701, 'healingkitolthoi', 28, '2019-02-10 05:41:14') /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43701,   1,        128) /* ItemType - Misc */
@@ -12,7 +12,7 @@ VALUES (43701,   1,        128) /* ItemType - Misc */
      , (43701,  65,        101) /* Placement - Resting */
      , (43701,  90,         70) /* BoostValue */
      , (43701,  91,        100) /* MaxStructure */
-     , (43701,  92,         99) /* Structure */
+     , (43701,  92,        100) /* Structure */
      , (43701,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43701,  94,         16) /* TargetType - Creature */
      , (43701, 114,          1) /* Attuned - Attuned */
@@ -43,8 +43,7 @@ VALUES (43701,   1,   33555194) /* Setup */
      , (43701, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43701,   2, 1344064847) /* Container */
-     , (43701, 8000, 3622211808) /* PCAPRecordedObjectIID */;
+VALUES (43701, 8000, 3622211808) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43701, 0, 83889681, 83894377)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2186;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2186, 'mosswartswampshaman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2186, 'mosswartswampshaman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2186,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,12 @@ VALUES (2186,   1, 120, 0, 0) /* Strength */
      , (2186,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2186,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (2186,   3,   250, 0, 0, 250) /* MaxStamina */
-     , (2186,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (2186,   1,    10, 0, 0, 80) /* MaxHealth */
+     , (2186,   3,    10, 0, 0, 250) /* MaxStamina */
+     , (2186,   5,    10, 0, 0, 150) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2186, 2,   362,  1, 0, 0, False) /* Create Yari (362) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2186, 67113401, 0, 0);

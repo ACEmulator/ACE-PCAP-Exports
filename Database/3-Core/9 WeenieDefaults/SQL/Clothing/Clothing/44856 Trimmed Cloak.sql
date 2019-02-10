@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44856;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44856, 'ace44856-trimmedcloak', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44856, 'ace44856-trimmedcloak', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44856,   1,          4) /* ItemType - Clothing */
@@ -18,7 +18,7 @@ VALUES (44856,   1,          4) /* ItemType - Clothing */
      , (44856, 105,          8) /* ItemWorkmanship */
      , (44856, 131,          6) /* MaterialType - Silk */
      , (44856, 158,          7) /* WieldRequirements - Level */
-     , (44856, 159,          1) /* WieldSkilltype - Axe */
+     , (44856, 159,          1) /* WieldSkillType - Axe */
      , (44856, 160,        150) /* WieldDifficulty */
      , (44856, 172,          1) /* AppraisalLongDescDecoration */
      , (44856, 265,         60) /* EquipmentSetId - CloakFletching */
@@ -65,8 +65,10 @@ VALUES (44856,   1,   33561386) /* Setup */
      , (44856, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44856,   2, 2088321040) /* Container */
-     , (44856, 8000, 3431474257) /* PCAPRecordedObjectIID */;
+VALUES (44856, 8000, 3431474257) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44856, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44856, 0, 83898657, 83898665);

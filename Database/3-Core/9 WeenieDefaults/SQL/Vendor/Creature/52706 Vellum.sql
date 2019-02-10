@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52706;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52706, 'ace52706-vellum', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52706, 'ace52706-vellum', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52706,   1,         16) /* ItemType - Creature */
@@ -74,9 +74,9 @@ VALUES (52706,   1, 600, 0, 0) /* Strength */
      , (52706,   6, 575, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52706,   1,  2075, 0, 0, 2075) /* MaxHealth */
-     , (52706,   3,  1800, 0, 0, 1800) /* MaxStamina */
-     , (52706,   5,  3075, 0, 0, 3075) /* MaxMana */;
+VALUES (52706,   1,    10, 0, 0, 2075) /* MaxHealth */
+     , (52706,   3,    10, 0, 0, 1800) /* MaxStamina */
+     , (52706,   5,    10, 0, 0, 3075) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52706, 4, 52735, -1, 0, 0, False) /* Create Gauntlet Backpack (52735) for Shop */

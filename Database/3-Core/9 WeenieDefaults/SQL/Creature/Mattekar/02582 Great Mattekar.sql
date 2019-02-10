@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2582;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2582, 'mattekargreat', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2582, 'mattekargreat', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2582,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,63 @@ VALUES (2582,   1, 115, 0, 0) /* Strength */
      , (2582,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2582,   1,    73, 0, 0, 73) /* MaxHealth */
-     , (2582,   3,   325, 0, 0, 325) /* MaxStamina */
-     , (2582,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (2582,   1,    10, 0, 0, 73) /* MaxHealth */
+     , (2582,   3,    10, 0, 0, 325) /* MaxStamina */
+     , (2582,   5,    10, 0, 0, 80) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2582, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (2582, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (2582, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (2582, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (2582, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (2582, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (2582, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (2582, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (2582, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (2582, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (2582, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (2582, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (2582, 9,   350,  0, 0, 0, False) /* Create Broad Sword (350) for ContainTreasure */
+     , (2582, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
+     , (2582, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (2582, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (2582, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (2582, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (2582, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (2582, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (2582, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (2582, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (2582, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (2582, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (2582, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (2582, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (2582, 9,  2989,  0, 0, 0, False) /* Create Scroll of Blade Protection Other III (2989) for ContainTreasure */
+     , (2582, 9,  3308,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other II (3308) for ContainTreasure */
+     , (2582, 9,  3804,  0, 0, 0, False) /* Create Flaming Jitte (3804) for ContainTreasure */
+     , (2582, 9,  3856,  0, 0, 0, False) /* Create Frost Shamshir (3856) for ContainTreasure */
+     , (2582, 9,  3905,  0, 0, 0, False) /* Create Acid War Hammer (3905) for ContainTreasure */
+     , (2582, 9,  4241,  0, 0, 0, False) /* Create Mattekar Hide (4241) for ContainTreasure */
+     , (2582, 9,  4753,  1, 0, 0, False) /* Create Side of Beef (4753) for ContainTreasure */
+     , (2582, 9,  7044,  1, 0, 0, False) /* Create Great Mattekar Horn (7044) for ContainTreasure */
+     , (2582, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
+     , (2582, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2582, 9,  9650,  0, 0, 0, False) /* Create Scroll of Stamina to Health Self II (9650) for ContainTreasure */
+     , (2582, 9,  9655,  0, 0, 0, False) /* Create Scroll of Stamina to Mana Self II (9655) for ContainTreasure */
+     , (2582, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (2582, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (2582, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (2582, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (2582, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (2582, 9, 30613,  0, 0, 0, False) /* Create Flaming Knuckles (30613) for ContainTreasure */
+     , (2582, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
+     , (2582, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (2582, 9, 41044,  0, 0, 0, False) /* Create Flaming Magari Yari (41044) for ContainTreasure */
+     , (2582, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (2582, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (2582, 9, 43338,  0, 0, 0, False) /* Create Scroll of Weakening Curse (43338) for ContainTreasure */
+     , (2582, 9, 43358,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude II (43358) for ContainTreasure */
+     , (2582, 9, 49380,  0, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2582, 67111956, 0, 0);

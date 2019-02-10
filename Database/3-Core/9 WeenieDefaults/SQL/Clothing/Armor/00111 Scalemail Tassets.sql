@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 111;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (111, 'tassetsscalemail', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (111, 'tassetsscalemail', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (111,   1,          2) /* ItemType - Armor */
@@ -62,14 +62,16 @@ VALUES (111,   1,   33554656) /* Setup */
      , (111, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (111,   2, 3699627972) /* Container */
-     , (111, 8000, 3701170528) /* PCAPRecordedObjectIID */;
+VALUES (111, 8000, 3701170528) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (111,  1486,      2) 
      , (111,  1497,      2) 
      , (111,  1574,      2) 
      , (111,  2545,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (111, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (111, 67110023, 136, 16);

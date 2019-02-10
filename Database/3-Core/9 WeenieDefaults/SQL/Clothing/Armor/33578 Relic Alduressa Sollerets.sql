@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33578;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33578, 'ace33578-relicalduressasollerets', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33578, 'ace33578-relicalduressasollerets', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33578,   1,          2) /* ItemType - Armor */
@@ -17,7 +17,7 @@ VALUES (33578,   1,          2) /* ItemType - Armor */
      , (33578, 108,        800) /* ItemMaxMana */
      , (33578, 109,        220) /* ItemDifficulty */
      , (33578, 158,          7) /* WieldRequirements - Level */
-     , (33578, 159,          1) /* WieldSkilltype - Axe */
+     , (33578, 159,          1) /* WieldSkillType - Axe */
      , (33578, 160,        150) /* WieldDifficulty */
      , (33578, 265,          7) /* EquipmentSetId - AlduressaRelic */;
 

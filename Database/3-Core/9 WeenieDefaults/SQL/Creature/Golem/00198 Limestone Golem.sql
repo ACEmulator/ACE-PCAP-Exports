@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 198;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (198, 'golemlimestone', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (198, 'golemlimestone', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (198,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,32 @@ VALUES (198,   1,  90, 0, 0) /* Strength */
      , (198,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (198,   1,    95, 0, 0, 95) /* MaxHealth */
-     , (198,   3,   170, 0, 0, 170) /* MaxStamina */
-     , (198,   5,   110, 0, 0, 110) /* MaxMana */;
+VALUES (198,   1,    10, 0, 0, 95) /* MaxHealth */
+     , (198,   3,    10, 0, 0, 170) /* MaxStamina */
+     , (198,   5,    10, 0, 0, 110) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (198, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (198, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (198, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (198, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (198, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (198, 9,   273, 37, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (198, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (198, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (198, 9,  1728,  0, 0, 0, False) /* Create Scroll of Monster Attunement Self (1728) for ContainTreasure */
+     , (198, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (198, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (198, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (198, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (198, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (198, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (198, 9,  2683,  0, 0, 0, False) /* Create Scroll of Frailty Other III (2683) for ContainTreasure */
+     , (198, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (198, 9, 21304,  0, 0, 0, False) /* Create Scroll of Flame Arc III (21304) for ContainTreasure */
+     , (198, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (198, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (198, 9, 41064,  0, 0, 0, False) /* Create Lightning Khanda-handled Mace (41064) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (198, 67112821, 0, 0);

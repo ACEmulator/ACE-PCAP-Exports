@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 676;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (676, 'cragstoneshopkeep', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (676, 'cragstoneshopkeep', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (676,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (676,   1,  40, 0, 0) /* Strength */
      , (676,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (676,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (676,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (676,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (676,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (676,   3,    10, 0, 0, 140) /* MaxStamina */
+     , (676,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (676, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */

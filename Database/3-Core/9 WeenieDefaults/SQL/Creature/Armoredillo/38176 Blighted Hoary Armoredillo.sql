@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38176;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38176, 'ace38176-blightedhoaryarmoredillo', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38176, 'ace38176-blightedhoaryarmoredillo', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38176,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,19 @@ VALUES (38176,   1, 220, 0, 0) /* Strength */
      , (38176,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38176,   1,   265, 0, 0, 265) /* MaxHealth */
-     , (38176,   3,   410, 0, 0, 410) /* MaxStamina */
-     , (38176,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (38176,   1,    10, 0, 0, 265) /* MaxHealth */
+     , (38176,   3,    10, 0, 0, 410) /* MaxStamina */
+     , (38176,   5,    10, 0, 0, 80) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38176, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (38176, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (38176, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (38176, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
+     , (38176, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (38176, 9, 38222,  1, 0, 0, False) /* Create Blighted Mana Crystal (38222) for ContainTreasure */
+     , (38176, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
+     , (38176, 9, 44853,  0, 0, 0, False) /* Create Bordered Cloak (44853) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38176, 67114258, 0, 0);

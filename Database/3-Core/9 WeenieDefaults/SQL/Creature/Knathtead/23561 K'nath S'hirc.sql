@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23561;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23561, 'knathshirc', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23561, 'knathshirc', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23561,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,9 @@ VALUES (23561,   1, 150, 0, 0) /* Strength */
      , (23561,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23561,   1,  3000, 0, 0, 3000) /* MaxHealth */
-     , (23561,   3,  2700, 0, 0, 2700) /* MaxStamina */
-     , (23561,   5,  2000, 0, 0, 1880) /* MaxMana */;
+VALUES (23561,   1,    10, 0, 0, 3000) /* MaxHealth */
+     , (23561,   3,    10, 0, 0, 2700) /* MaxStamina */
+     , (23561,   5,    10, 0, 0, 1880) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (23561, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */;

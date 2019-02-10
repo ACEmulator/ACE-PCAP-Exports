@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40326;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40326, 'ace40326-fistofenlightenment', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40326, 'ace40326-fistofenlightenment', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40326,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,7 +24,7 @@ VALUES (40326,   1,          1) /* ItemType - MeleeWeapon */
      , (40326, 114,          1) /* Attuned - Attuned */
      , (40326, 151,          2) /* HookType - Wall */
      , (40326, 158,          2) /* WieldRequirements - RawSkill */
-     , (40326, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (40326, 159,         45) /* WieldSkillType - LightWeapons */
      , (40326, 160,        400) /* WieldDifficulty */
      , (40326, 263,         16) /* ResistanceModifierType */
      , (40326, 353,          1) /* WeaponType - Unarmed */
@@ -60,14 +60,13 @@ VALUES (40326,   1,   33559499) /* Setup */
      , (40326,   6,   67115556) /* PaletteBase */
      , (40326,   8,  100687027) /* Icon */
      , (40326,  22,  872415275) /* PhysicsEffectTable */
-     , (40326,  55,       4967) /* ProcSpell */
+     , (40326,  55,       4967) /* ProcSpell - cleansingring */
      , (40326, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (40326, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40326, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40326,   2, 2967711580) /* Container */
-     , (40326, 8000, 2967711581) /* PCAPRecordedObjectIID */;
+VALUES (40326, 8000, 2967711581) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40326,  4967,      2) ;

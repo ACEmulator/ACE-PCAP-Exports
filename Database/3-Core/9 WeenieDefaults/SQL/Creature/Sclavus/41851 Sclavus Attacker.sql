@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41851;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41851, 'ace41851-sclavusattacker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41851, 'ace41851-sclavusattacker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41851,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41851, 8000, 2447919994) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41851,   1,  1190, 0, 0, 1190) /* MaxHealth */;
+VALUES (41851,   1,    10, 0, 0, 1190) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41851, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
+     , (41851, 2, 38923,  1, 0, 0, False) /* Create T'thuun Bow (38923) for Wield */
+     , (41851, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
+     , (41851, 2, 38927,  1, 0, 0, False) /* Create T'thuun Spear (38927) for Wield */
+     , (41851, 2, 38928,  1, 0, 0, False) /* Create T'thuun Sword (38928) for Wield */
+     , (41851, 2, 40266,  1, 0, 0, False) /* Create T'thuun Aegis (40266) for Wield */
+     , (41851, 2, 47071,  1, 0, 0, False) /* Create Arrow (47071) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41851, 67111940, 0, 0);

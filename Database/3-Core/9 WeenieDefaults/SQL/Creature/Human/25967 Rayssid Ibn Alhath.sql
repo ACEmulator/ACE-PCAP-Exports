@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25967;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25967, 'zharalimrayssidibnalhath', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25967, 'zharalimrayssidibnalhath', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25967,   1,         16) /* ItemType - Creature */
@@ -60,9 +60,18 @@ VALUES (25967,   1, 190, 0, 0) /* Strength */
      , (25967,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25967,   1,   400, 0, 0, 400) /* MaxHealth */
-     , (25967,   3,   400, 0, 0, 400) /* MaxStamina */
-     , (25967,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (25967,   1,    10, 0, 0, 400) /* MaxHealth */
+     , (25967,   3,    10, 0, 0, 400) /* MaxStamina */
+     , (25967,   5,    10, 0, 0, 100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25967, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (25967, 2, 23733,  1, 0, 0, False) /* Create Yumi (23733) for Wield */
+     , (25967, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (25967, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (25967, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (25967, 9, 25960,  1, 0, 0, False) /* Create Woven Tassel of Far Sight (25960) for ContainTreasure */
+     , (25967, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25967, 67109551, 0, 24)

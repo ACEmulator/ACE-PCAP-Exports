@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43071;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43071, 'ace43071-menileshguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43071, 'ace43071-menileshguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43071,   1,         16) /* ItemType - Creature */
@@ -42,3 +42,7 @@ VALUES (43071, 8040, 15139465, 93.1302, -79.6403, 48.00825, 0.8010994, 0, 0, 0.5
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43071, 8000, 3360653511) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43071, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (43071, 2, 40910,  1, 0, 0, False) /* Create Dericost Blade (40910) for Wield */;

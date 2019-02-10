@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35482;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35482, 'ace35482-watchersguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35482, 'ace35482-watchersguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35482,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,21 @@ VALUES (35482,   1, 380, 0, 0) /* Strength */
      , (35482,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35482,   1,   800, 0, 0, 800) /* MaxHealth */
-     , (35482,   3,  1500, 0, 0, 1500) /* MaxStamina */
-     , (35482,   5,   240, 0, 0, 240) /* MaxMana */;
+VALUES (35482,   1,    10, 0, 0, 800) /* MaxHealth */
+     , (35482,   3,    10, 0, 0, 1500) /* MaxStamina */
+     , (35482,   5,    10, 0, 0, 240) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35482, 2, 31033,  1, 0, 0, False) /* Create Rock (31033) for Wield */
+     , (35482, 2, 31250,  1, 0, 0, False) /* Create Lugian Axe (31250) for Wield */
+     , (35482, 2, 31251,  1, 0, 0, False) /* Create Lugian Mace (31251) for Wield */
+     , (35482, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (35482, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
+     , (35482, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (35482, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (35482, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
+     , (35482, 9, 46882,  0, 0, 0, False) /* Create Aura of Spirit Drinker Other VII (46882) for ContainTreasure */
+     , (35482, 9, 49217,  0, 0, 0, False) /* Create Acid Skeleton Bushi Essence (150) (49217) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35482, 67114245, 0, 0);

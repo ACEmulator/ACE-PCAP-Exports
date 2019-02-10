@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5766;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5766, 'snowmanunhappy', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5766, 'snowmanunhappy', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5766,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,9 @@ VALUES (5766,   1,  50, 0, 0) /* Strength */
      , (5766,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5766,   1,    50, 0, 0, 50) /* MaxHealth */
-     , (5766,   3,   120, 0, 0, 118) /* MaxStamina */
-     , (5766,   5,   200, 0, 0, 200) /* MaxMana */;
+VALUES (5766,   1,    10, 0, 0, 50) /* MaxHealth */
+     , (5766,   3,    10, 0, 0, 118) /* MaxStamina */
+     , (5766,   5,    10, 0, 0, 200) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (5766, 2,  5769,  1, 0, 0, False) /* Create Iceball (5769) for Wield */;

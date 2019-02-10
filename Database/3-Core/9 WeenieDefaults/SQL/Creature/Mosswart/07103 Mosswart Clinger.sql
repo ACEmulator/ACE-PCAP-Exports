@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7103;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7103, 'mosswartclinger', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7103, 'mosswartclinger', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7103,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,43 @@ VALUES (7103,   1, 170, 0, 0) /* Strength */
      , (7103,   6, 105, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7103,   1,   205, 0, 0, 205) /* MaxHealth */
-     , (7103,   3,   345, 0, 0, 343) /* MaxStamina */
-     , (7103,   5,   205, 0, 0, 205) /* MaxMana */;
+VALUES (7103,   1,    10, 0, 0, 205) /* MaxHealth */
+     , (7103,   3,    10, 0, 0, 343) /* MaxStamina */
+     , (7103,   5,    10, 0, 0, 205) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7103, 2, 47526,  1, 0, 0, False) /* Create Acid Javelin (47526) for Wield */
+     , (7103, 2, 47545,  1, 0, 0, False) /* Create Javelin (47545) for Wield */
+     , (7103, 2, 47621,  1, 0, 0, False) /* Create Acid Tachi (47621) for Wield */
+     , (7103, 2, 47640,  1, 0, 0, False) /* Create Tachi (47640) for Wield */
+     , (7103, 2, 47711,  1, 0, 0, False) /* Create Acid Spear (47711) for Wield */
+     , (7103, 2, 47730,  1, 0, 0, False) /* Create Spear (47730) for Wield */
+     , (7103, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (7103, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (7103, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (7103, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (7103, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (7103, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (7103, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (7103, 9,  3132,  0, 0, 0, False) /* Create Scroll of Arcane Benightedness VI (3132) for ContainTreasure */
+     , (7103, 9,  3694,  0, 0, 0, False) /* Create Swamp Stone (3694) for ContainTreasure */
+     , (7103, 9,  3757,  0, 0, 0, False) /* Create Frost Hand Axe (3757) for ContainTreasure */
+     , (7103, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (7103, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7103, 9, 20570,  0, 0, 0, False) /* Create Scroll of Ignorance's Bliss (20570) for ContainTreasure */
+     , (7103, 9, 20599,  0, 0, 0, False) /* Create Scroll of Eye of the Grunt (20599) for ContainTreasure */
+     , (7103, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (7103, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */
+     , (7103, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
+     , (7103, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7103, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (7103, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (7103, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
+     , (7103, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */
+     , (7103, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (7103, 9, 41071,  0, 0, 0, False) /* Create Frost Shashqa (41071) for ContainTreasure */
+     , (7103, 9, 45249,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other VI (45249) for ContainTreasure */
+     , (7103, 9, 49248,  0, 0, 0, False) /* Create Fire Zombie Essence (80) (49248) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7103, 67113411, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4125;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4125, 'skeletonpileobones', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4125, 'skeletonpileobones', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4125,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4125, 8000, 3331041835) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4125,   1,    33, 0, 0, 33) /* MaxHealth */;
+VALUES (4125,   1,    10, 0, 0, 33) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4125, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (4125, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (4125, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (4125, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4125, 67116527, 0, 0);

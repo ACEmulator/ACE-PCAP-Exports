@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31397;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31397, 'ace31397-xaaxiil', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31397, 'ace31397-xaaxiil', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31397,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,15 @@ VALUES (31397,   1, 150, 0, 0) /* Strength */
      , (31397,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31397,   1,  1755, 0, 0, 1755) /* MaxHealth */
-     , (31397,   3,  1910, 0, 0, 1910) /* MaxStamina */
-     , (31397,   5,  1710, 0, 0, 1710) /* MaxMana */;
+VALUES (31397,   1,    10, 0, 0, 1755) /* MaxHealth */
+     , (31397,   3,    10, 0, 0, 1910) /* MaxStamina */
+     , (31397,   5,    10, 0, 0, 1710) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31397, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (31397, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */
+     , (31397, 9, 20554,  0, 0, 0, False) /* Create Scroll of Harlune's Blessing (20554) for ContainTreasure */
+     , (31397, 9, 31377,  1, 0, 0, False) /* Create Twilight Fragment (31377) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31397, 67115143, 0, 0);

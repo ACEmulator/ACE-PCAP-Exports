@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9099;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9099, 'wispfiresummoned', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9099, 'wispfiresummoned', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9099,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (9099,   1, True ) /* Stuck */
      , (9099,  12, True ) /* ReportCollisions */
      , (9099,  13, False) /* Ethereal */
      , (9099,  14, True ) /* GravityStatus */
-     , (9099,  19, True ) /* Attackable */;
+     , (9099,  19, True ) /* Attackable */
+     , (9099, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9099,   1, 'Summoned Pulsar Wisp') /* Name */
@@ -51,6 +52,12 @@ VALUES (9099,   1, 110, 0, 0) /* Strength */
      , (9099,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9099,   1,   180, 0, 0, 180) /* MaxHealth */
-     , (9099,   3,   360, 0, 0, 360) /* MaxStamina */
-     , (9099,   5,   450, 0, 0, 450) /* MaxMana */;
+VALUES (9099,   1,    10, 0, 0, 180) /* MaxHealth */
+     , (9099,   3,    10, 0, 0, 360) /* MaxStamina */
+     , (9099,   5,    10, 0, 0, 450) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9099, 9,   273, 336, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (9099, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (9099, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (9099, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37211;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37211, 'ace37211-olthoisollerets', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37211, 'ace37211-olthoisollerets', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37211,   1,          2) /* ItemType - Armor */
@@ -23,11 +23,11 @@ VALUES (37211,   1,          2) /* ItemType - Armor */
      , (37211, 115,          0) /* ItemSkillLevelLimit */
      , (37211, 131,         63) /* MaterialType - Silver */
      , (37211, 158,          2) /* WieldRequirements - RawSkill */
-     , (37211, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (37211, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37211, 160,        410) /* WieldDifficulty */
      , (37211, 172,          1) /* AppraisalLongDescDecoration */
      , (37211, 270,          7) /* WieldRequirements2 - Level */
-     , (37211, 271,          1) /* WieldSkilltype2 - Axe */
+     , (37211, 271,          1) /* WieldSkillType2 - Axe */
      , (37211, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

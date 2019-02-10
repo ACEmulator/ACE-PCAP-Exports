@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1409;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1409, 'lostlightyanshidrudge', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1409, 'lostlightyanshidrudge', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1409,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1409, 8000, 3701004470) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1409,   1,    60, 0, 0, 60) /* MaxHealth */;
+VALUES (1409,   1,    10, 0, 0, 60) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1409, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
+     , (1409, 2,   361,  1, 0, 0, False) /* Create Yaoji (361) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1409, 67112818, 0, 0);

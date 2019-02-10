@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31825;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31825, 'ace31825-piercingbaton', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31825, 'ace31825-piercingbaton', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31825,   1,      32768) /* ItemType - Caster */
@@ -24,7 +24,7 @@ VALUES (31825,   1,      32768) /* ItemType - Caster */
      , (31825, 131,         47) /* MaterialType - WhiteSapphire */
      , (31825, 151,          2) /* HookType - Wall */
      , (31825, 158,          2) /* WieldRequirements - RawSkill */
-     , (31825, 159,         34) /* WieldSkilltype - WarMagic */
+     , (31825, 159,         34) /* WieldSkillType - WarMagic */
      , (31825, 160,        355) /* WieldDifficulty */
      , (31825, 172,          7) /* AppraisalLongDescDecoration */
      , (31825, 177,          4) /* GemCount */
@@ -62,13 +62,15 @@ VALUES (31825,   1,   33559698) /* Setup */
      , (31825, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31825,   2, 1343409039) /* Container */
-     , (31825, 8000, 2159970490) /* PCAPRecordedObjectIID */;
+VALUES (31825, 8000, 2159970490) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31825,  2091,      2) 
      , (31825,  2117,      2) 
      , (31825,  2132,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31825, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31825, 67116700, 1, 100)

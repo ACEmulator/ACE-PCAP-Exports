@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14533;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14533, 'prismfragmentlightningcraftable', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14533, 'prismfragmentlightningcraftable', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14533,   1,       2048) /* ItemType - Gem */
      , (14533,   5,         40) /* EncumbranceVal */
      , (14533,  11,          1) /* MaxStackSize */
      , (14533,  12,          1) /* StackSize */
+     , (14533,  13,         40) /* StackUnitEncumbrance */
+     , (14533,  15,          0) /* StackUnitValue */
      , (14533,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14533,  19,          0) /* Value */
      , (14533,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -37,8 +39,7 @@ VALUES (14533,   1,   33557506) /* Setup */
      , (14533, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14533,   2, 2779733336) /* Container */
-     , (14533, 8000, 2779733315) /* PCAPRecordedObjectIID */;
+VALUES (14533, 8000, 2779733315) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14533, 0, 83892433, 83892492)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40786;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40786, 'ace40786-progenitoroflightning', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40786, 'ace40786-progenitoroflightning', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40786,   1,         16) /* ItemType - Creature */
@@ -51,6 +51,12 @@ VALUES (40786,   1, 200, 0, 0) /* Strength */
      , (40786,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40786,   1,  3120, 0, 0, 3120) /* MaxHealth */
-     , (40786,   3,  2220, 0, 0, 2220) /* MaxStamina */
-     , (40786,   5,   490, 0, 0, 490) /* MaxMana */;
+VALUES (40786,   1,    10, 0, 0, 3120) /* MaxHealth */
+     , (40786,   3,    10, 0, 0, 2220) /* MaxStamina */
+     , (40786,   5,    10, 0, 0, 490) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40786, 9, 28629,  0, 0, 0, False) /* Create Alduressa Coat (28629) for ContainTreasure */
+     , (40786, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
+     , (40786, 9, 40795,  1, 0, 0, False) /* Create Progenitor Crystal (40795) for ContainTreasure */
+     , (40786, 9, 45412,  0, 0, 0, False) /* Create Acid Spada (45412) for ContainTreasure */;

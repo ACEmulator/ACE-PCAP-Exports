@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43979;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43979, 'ace43979-virindidreamslayer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43979, 'ace43979-virindidreamslayer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43979,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,18 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43979, 8000, 3695839086) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43979,   1, 12250, 0, 0, 12250) /* MaxHealth */;
+VALUES (43979,   1,    10, 0, 0, 12250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43979, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
+     , (43979, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (43979, 9,   273, 2245, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (43979, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (43979, 9, 37201,  0, 0, 0, False) /* Create Olthoi Amuli Leggings (37201) for ContainTreasure */
+     , (43979, 9, 41046,  0, 0, 0, False) /* Create Pike (41046) for ContainTreasure */
+     , (43979, 9, 45401,  0, 0, 0, False) /* Create Simi (45401) for ContainTreasure */
+     , (43979, 9, 45426,  0, 0, 0, False) /* Create Jambiya (45426) for ContainTreasure */
+     , (43979, 9, 49233,  0, 0, 0, False) /* Create Frigid Zombie Essence (49233) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43979, 67113145, 0, 0);

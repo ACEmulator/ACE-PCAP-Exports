@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37097;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37097, 'ace37097-shroudcabalnodeleech', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37097, 'ace37097-shroudcabalnodeleech', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37097,   1,         16) /* ItemType - Creature */
@@ -52,7 +52,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37097, 8000, 3693570095) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37097,   1,   600, 0, 0, 600) /* MaxHealth */;
+VALUES (37097,   1,    10, 0, 0, 600) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37097, 2, 23680,  1, 0, 0, False) /* Create Nekode (23680) for Wield */
+     , (37097, 9, 20505,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other VII (20505) for ContainTreasure */
+     , (37097, 9, 37092,  0, 0, 0, False) /* Create Node Leech's Medallion (37092) for ContainTreasure */
+     , (37097, 9, 37103,  0, 0, 0, False) /* Create Node-Leech's Orders (37103) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37097, 67109559, 0, 24)

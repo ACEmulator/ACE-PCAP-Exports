@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32301;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32301, 'ace32301-nexuscommander', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32301, 'ace32301-nexuscommander', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32301,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32301, 8000, 2881940466) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32301,   1,  1360, 0, 0, 1360) /* MaxHealth */;
+VALUES (32301,   1,    10, 0, 0, 1360) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32301, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
+     , (32301, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
+     , (32301, 9, 32300,  0, 0, 0, False) /* Create Nexus Commander's Helm (32300) for ContainTreasure */
+     , (32301, 9, 32302,  0, 0, 0, False) /* Create Nexus Commander's Orders (32302) for ContainTreasure */
+     , (32301, 9, 49348,  0, 0, 0, False) /* Create Lightning Moar Essence (125) (49348) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32301, 67115540, 0, 0);

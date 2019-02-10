@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11521;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11521, 'tumerokhearunner_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11521, 'tumerokhearunner_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11521,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,28 @@ VALUES (11521,   1,  60, 0, 0) /* Strength */
      , (11521,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11521,   1,    70, 0, 0, 70) /* MaxHealth */
-     , (11521,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (11521,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (11521,   1,    10, 0, 0, 70) /* MaxHealth */
+     , (11521,   3,    10, 0, 0, 140) /* MaxStamina */
+     , (11521,   5,    10, 0, 0, 80) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11521, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
+     , (11521, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
+     , (11521, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (11521, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
+     , (11521, 2, 11906,  1, 0, 0, False) /* Create Mace of the Quiddity (11906) for Wield */
+     , (11521, 2, 11912,  1, 0, 0, False) /* Create Lance of the Quiddity (11912) for Wield */
+     , (11521, 2, 11915,  1, 0, 0, False) /* Create Blade of the Quiddity (11915) for Wield */
+     , (11521, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (11521, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (11521, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (11521, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (11521, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (11521, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (11521, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (11521, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (11521, 9, 43294,  0, 0, 0, False) /* Create Scroll of Corruption (43294) for ContainTreasure */
+     , (11521, 9, 45424,  0, 0, 0, False) /* Create Flaming Dagger (45424) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11521, 67116625, 57, 48)

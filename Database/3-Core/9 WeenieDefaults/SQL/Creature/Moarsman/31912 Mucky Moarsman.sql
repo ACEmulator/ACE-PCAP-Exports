@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31912;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31912, 'ace31912-muckymoarsman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31912, 'ace31912-muckymoarsman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31912,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,26 @@ VALUES (31912,   1, 200, 0, 0) /* Strength */
      , (31912,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31912,   1,   800, 0, 0, 800) /* MaxHealth */
-     , (31912,   3,  1000, 0, 0, 1000) /* MaxStamina */
-     , (31912,   5,   320, 0, 0, 320) /* MaxMana */;
+VALUES (31912,   1,    10, 0, 0, 800) /* MaxHealth */
+     , (31912,   3,    10, 0, 0, 1000) /* MaxStamina */
+     , (31912,   5,    10, 0, 0, 320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31912, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield */
+     , (31912, 9,  4192,  0, 0, 0, False) /* Create Acid Cestus (4192) for ContainTreasure */
+     , (31912, 9, 20241,  0, 0, 0, False) /* Create Scroll of Inner Calm (20241) for ContainTreasure */
+     , (31912, 9, 20418,  0, 0, 0, False) /* Create Scroll of Brogard's Defiance (20418) for ContainTreasure */
+     , (31912, 9, 20550,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Boon (20550) for ContainTreasure */
+     , (31912, 9, 20598,  0, 0, 0, False) /* Create Scroll of Koga's Blessing (20598) for ContainTreasure */
+     , (31912, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */
+     , (31912, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
+     , (31912, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */
+     , (31912, 9, 40713,  0, 0, 0, False) /* Create Covenant Shield (40713) for ContainTreasure */
+     , (31912, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
+     , (31912, 9, 41066,  0, 0, 0, False) /* Create Frost Khanda-handled Mace (41066) for ContainTreasure */
+     , (31912, 9, 43068,  0, 0, 0, False) /* Create Knorr Academy Helm (43068) for ContainTreasure */
+     , (31912, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
+     , (31912, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31912, 67116781, 0, 0);

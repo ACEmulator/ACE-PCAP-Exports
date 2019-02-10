@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8137;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8137, 'lugiantiatusraider', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8137, 'lugiantiatusraider', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8137,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,18 @@ VALUES (8137,   1, 340, 0, 0) /* Strength */
      , (8137,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8137,   1,   450, 0, 0, 450) /* MaxHealth */
-     , (8137,   3,   470, 0, 0, 470) /* MaxStamina */
-     , (8137,   5,   220, 0, 0, 220) /* MaxMana */;
+VALUES (8137,   1,    10, 0, 0, 450) /* MaxHealth */
+     , (8137,   3,    10, 0, 0, 470) /* MaxStamina */
+     , (8137,   5,    10, 0, 0, 220) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8137, 2, 23739,  1, 0, 0, False) /* Create Lugian Axe (23739) for Wield */
+     , (8137, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
+     , (8137, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (8137, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (8137, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (8137, 9,  7796,  0, 0, 0, False) /* Create Fire Naginata (7796) for ContainTreasure */
+     , (8137, 9, 40620,  0, 0, 0, False) /* Create Lightning Spadone (40620) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8137, 67113164, 0, 0);

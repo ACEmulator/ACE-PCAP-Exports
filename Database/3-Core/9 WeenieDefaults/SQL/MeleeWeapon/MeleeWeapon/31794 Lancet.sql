@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31794;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31794, 'ace31794-lancet', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31794, 'ace31794-lancet', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31794,   1,          1) /* ItemType - MeleeWeapon */
@@ -67,8 +67,7 @@ VALUES (31794,   1,   33559628) /* Setup */
      , (31794, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31794,   2, 3701071672) /* Container */
-     , (31794, 8000, 3701147002) /* PCAPRecordedObjectIID */;
+VALUES (31794, 8000, 3701147002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31794,  1612,      2) ;

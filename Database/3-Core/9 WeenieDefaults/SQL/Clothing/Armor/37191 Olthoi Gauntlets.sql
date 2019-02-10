@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37191;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37191, 'ace37191-olthoigauntlets', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37191, 'ace37191-olthoigauntlets', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37191,   1,          2) /* ItemType - Armor */
@@ -25,7 +25,7 @@ VALUES (37191,   1,          2) /* ItemType - Armor */
      , (37191, 115,        390) /* ItemSkillLevelLimit */
      , (37191, 131,         60) /* MaterialType - Gold */
      , (37191, 158,          2) /* WieldRequirements - RawSkill */
-     , (37191, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (37191, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37191, 160,        410) /* WieldDifficulty */
      , (37191, 171,          5) /* NumTimesTinkered */
      , (37191, 172,          5) /* AppraisalLongDescDecoration */
@@ -33,7 +33,7 @@ VALUES (37191,   1,          2) /* ItemType - Armor */
      , (37191, 177,          2) /* GemCount */
      , (37191, 178,         13) /* GemType */
      , (37191, 270,          7) /* WieldRequirements2 - Level */
-     , (37191, 271,          1) /* WieldSkilltype2 - Axe */
+     , (37191, 271,          1) /* WieldSkillType2 - Axe */
      , (37191, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -73,8 +73,7 @@ VALUES (37191,   1,   33554648) /* Setup */
      , (37191, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37191,   3, 1343071278) /* Wielder */
-     , (37191, 8000, 2151384694) /* PCAPRecordedObjectIID */;
+VALUES (37191, 8000, 2151384694) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37191,  2092,      2) 

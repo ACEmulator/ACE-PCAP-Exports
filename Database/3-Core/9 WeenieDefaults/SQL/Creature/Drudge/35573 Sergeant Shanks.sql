@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35573;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35573, 'ace35573-sergeantshanks', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35573, 'ace35573-sergeantshanks', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35573,   1,         16) /* ItemType - Creature */
@@ -63,9 +63,12 @@ VALUES (35573,   1, 350, 0, 0) /* Strength */
      , (35573,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35573,   1,   225, 0, 0, 225) /* MaxHealth */
-     , (35573,   3,   310, 0, 0, 310) /* MaxStamina */
-     , (35573,   5,   290, 0, 0, 290) /* MaxMana */;
+VALUES (35573,   1,    10, 0, 0, 225) /* MaxHealth */
+     , (35573,   3,    10, 0, 0, 310) /* MaxStamina */
+     , (35573,   5,    10, 0, 0, 290) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35573, 2, 35672,  1, 0, 0, False) /* Create Fork (35672) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35573, 67112815, 0, 0);

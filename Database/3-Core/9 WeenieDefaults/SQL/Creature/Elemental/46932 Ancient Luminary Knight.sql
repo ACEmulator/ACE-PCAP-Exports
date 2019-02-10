@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46932;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46932, 'ace46932-ancientluminaryknight', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46932, 'ace46932-ancientluminaryknight', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46932,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (46932,   1, True ) /* Stuck */
      , (46932,  12, True ) /* ReportCollisions */
      , (46932,  13, False) /* Ethereal */
      , (46932,  14, True ) /* GravityStatus */
-     , (46932,  19, True ) /* Attackable */;
+     , (46932,  19, True ) /* Attackable */
+     , (46932, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46932,  39, 1.29999995231628) /* DefaultScale */;
@@ -56,9 +57,23 @@ VALUES (46932,   1, 210, 0, 0) /* Strength */
      , (46932,   6, 310, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46932,   1,  3500, 0, 0, 1333) /* MaxHealth */
-     , (46932,   3,  4720, 0, 0, 4720) /* MaxStamina */
-     , (46932,   5,  4310, 0, 0, 4244) /* MaxMana */;
+VALUES (46932,   1,    10, 0, 0, 1333) /* MaxHealth */
+     , (46932,   3,    10, 0, 0, 4720) /* MaxStamina */
+     , (46932,   5,    10, 0, 0, 4244) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46932, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (46932, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (46932, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (46932, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (46932, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (46932, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (46932, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (46932, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (46932, 9, 30187,  1, 0, 0, False) /* Create Hunter's Crystal (30187) for ContainTreasure */
+     , (46932, 9, 31818,  0, 0, 0, False) /* Create Piercing Slingshot (31818) for ContainTreasure */
+     , (46932, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
+     , (46932, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46932, 67116527, 0, 0);

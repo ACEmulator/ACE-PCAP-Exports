@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49025;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49025, 'ace49025-spillthesaltszombie', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49025, 'ace49025-spillthesaltszombie', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49025,   1,         16) /* ItemType - Creature */
@@ -44,8 +44,7 @@ VALUES (49025, 8040, 2818900, 462.976, -120.5532, -5.995, -0.6581008, 0, 0, -0.7
 /* @teleloc 0x002B0354 [462.976000 -120.553200 -5.995000] -0.658101 0.000000 0.000000 -0.752930 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49025,  44, 1343492912) /* PetOwner */
-     , (49025, 8000, 3685644272) /* PCAPRecordedObjectIID */;
+VALUES (49025, 8000, 3685644272) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49025,   1, 170, 0, 0) /* Strength */
@@ -56,9 +55,12 @@ VALUES (49025,   1, 170, 0, 0) /* Strength */
      , (49025,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49025,   1,   770, 0, 0, 770) /* MaxHealth */
-     , (49025,   3,  1000, 0, 0, 1000) /* MaxStamina */
-     , (49025,   5,   630, 0, 0, 630) /* MaxMana */;
+VALUES (49025,   1,    10, 0, 0, 770) /* MaxHealth */
+     , (49025,   3,    10, 0, 0, 1000) /* MaxStamina */
+     , (49025,   5,    10, 0, 0, 630) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49025, 2, 48994,  1, 0, 0, False) /* Create Frost Hatchet (48994) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49025, 67109966, 72, 8)

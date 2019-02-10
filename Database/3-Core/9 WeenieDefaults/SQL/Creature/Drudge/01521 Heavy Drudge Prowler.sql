@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1521;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1521, 'drudgecolier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1521, 'drudgecolier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1521,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,37 @@ VALUES (1521,   1,  30, 0, 0) /* Strength */
      , (1521,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1521,   1,    50, 0, 0, 50) /* MaxHealth */
-     , (1521,   3,    90, 0, 0, 90) /* MaxStamina */
-     , (1521,   5,    20, 0, 0, 20) /* MaxMana */;
+VALUES (1521,   1,    10, 0, 0, 50) /* MaxHealth */
+     , (1521,   3,    10, 0, 0, 90) /* MaxStamina */
+     , (1521,   5,    10, 0, 0, 20) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1521, 2,   309,  1, 0, 0, False) /* Create Club (309) for Wield */
+     , (1521, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (1521, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
+     , (1521, 2,   325,  1, 0, 0, False) /* Create Kasrullah (325) for Wield */
+     , (1521, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */
+     , (1521, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
+     , (1521, 2,   345,  1, 0, 0, False) /* Create Simi (345) for Wield */
+     , (1521, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (1521, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (1521, 2,  7767,  1, 0, 0, False) /* Create Drudge Board with Nail (7767) for Wield */
+     , (1521, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (1521, 9,    72,  0, 0, 0, False) /* Create Platemail Hauberk (72) for ContainTreasure */
+     , (1521, 9,    77,  0, 0, 0, False) /* Create Kabuton (77) for ContainTreasure */
+     , (1521, 9,   273, 75, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1521, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
+     , (1521, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (1521, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (1521, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (1521, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (1521, 9,  1531,  0, 0, 0, False) /* Create Cell Key (1531) for ContainTreasure */
+     , (1521, 9,  2739,  0, 0, 0, False) /* Create Scroll of Strength Other IV (2739) for ContainTreasure */
+     , (1521, 9,  3059,  0, 0, 0, False) /* Create Scroll of Lightning Vulnerability Other III (3059) for ContainTreasure */
+     , (1521, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1521, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1521, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */
+     , (1521, 9, 44851,  0, 0, 0, False) /* Create Chevron Cloak (44851) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1521, 67112895, 0, 0);

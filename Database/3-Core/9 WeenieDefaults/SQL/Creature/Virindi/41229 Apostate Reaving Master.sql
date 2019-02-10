@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41229;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41229, 'ace41229-apostatereavingmaster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41229, 'ace41229-apostatereavingmaster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41229,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,24 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41229, 8000, 3706412870) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41229,   1,  8000, 0, 0, 8000) /* MaxHealth */;
+VALUES (41229,   1,    10, 0, 0, 8000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41229, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (41229, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */
+     , (41229, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (41229, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (41229, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (41229, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (41229, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (41229, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (41229, 9, 29247,  0, 0, 0, False) /* Create Electric Crossbow (29247) for ContainTreasure */
+     , (41229, 9, 30602,  0, 0, 0, False) /* Create Lightning Stiletto (30602) for ContainTreasure */
+     , (41229, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
+     , (41229, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */
+     , (41229, 9, 31810,  0, 0, 0, False) /* Create Frost Compound Crossbow (31810) for ContainTreasure */
+     , (41229, 9, 41230,  0, 0, 0, False) /* Create Arrival Chamber Key (41230) for ContainTreasure */
+     , (41229, 9, 49424,  0, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41229, 67113145, 0, 0);

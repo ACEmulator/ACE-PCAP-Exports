@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45485;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45485, 'ace45485-meleerarevendor', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45485, 'ace45485-meleerarevendor', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45485,   1,         16) /* ItemType - Creature */
@@ -65,9 +65,9 @@ VALUES (45485,   1, 680, 0, 0) /* Strength */
      , (45485,   6, 585, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45485,   1,  1120, 0, 0, 1120) /* MaxHealth */
-     , (45485,   3,  1491, 0, 0, 1491) /* MaxStamina */
-     , (45485,   5,  1085, 0, 0, 1085) /* MaxMana */;
+VALUES (45485,   1,    10, 0, 0, 1120) /* MaxHealth */
+     , (45485,   3,    10, 0, 0, 1491) /* MaxStamina */
+     , (45485,   5,    10, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45485, 4, 45436, -1, 0, 0, False) /* Create Bearded Axe of Souia-Vey (45436) for Shop */

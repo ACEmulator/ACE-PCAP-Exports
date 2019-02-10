@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27222;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27222, 'gauntletslorica', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27222, 'gauntletslorica', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27222,   1,          2) /* ItemType - Armor */
@@ -23,7 +23,7 @@ VALUES (27222,   1,          2) /* ItemType - Armor */
      , (27222, 115,          0) /* ItemSkillLevelLimit */
      , (27222, 131,         60) /* MaterialType - Gold */
      , (27222, 158,          7) /* WieldRequirements - Level */
-     , (27222, 159,          1) /* WieldSkilltype - Axe */
+     , (27222, 159,          1) /* WieldSkillType - Axe */
      , (27222, 160,        180) /* WieldDifficulty */
      , (27222, 172,          5) /* AppraisalLongDescDecoration */
      , (27222, 177,          2) /* GemCount */
@@ -79,6 +79,10 @@ VALUES (27222,  2108,      2)
      , (27222,  4397,      2) 
      , (27222,  4403,      2) 
      , (27222,  4671,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27222, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (27222, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27222, 67115027, 168, 6);

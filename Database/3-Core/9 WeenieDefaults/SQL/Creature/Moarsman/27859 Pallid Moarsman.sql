@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27859;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27859, 'moarsmanpallid', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27859, 'moarsmanpallid', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27859,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,17 @@ VALUES (27859,   1,  90, 0, 0) /* Strength */
      , (27859,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27859,   1,    95, 0, 0, 95) /* MaxHealth */
-     , (27859,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (27859,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (27859,   1,    10, 0, 0, 95) /* MaxHealth */
+     , (27859,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (27859,   5,    10, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27859, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (27859, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (27859, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (27859, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (27859, 9,  9648,  0, 0, 0, False) /* Create Scroll of Mana to Stamina Self V (9648) for ContainTreasure */
+     , (27859, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27859, 67115234, 0, 0);

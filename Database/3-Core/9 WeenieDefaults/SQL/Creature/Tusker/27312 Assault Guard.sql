@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27312;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27312, 'tuskerassaultguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27312, 'tuskerassaultguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27312,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,31 @@ VALUES (27312,   1, 240, 0, 0) /* Strength */
      , (27312,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27312,   1,   760, 0, 0, 760) /* MaxHealth */
-     , (27312,   3,  1220, 0, 0, 1218) /* MaxStamina */
-     , (27312,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (27312,   1,    10, 0, 0, 760) /* MaxHealth */
+     , (27312,   3,    10, 0, 0, 1218) /* MaxStamina */
+     , (27312,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27312, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (27312, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (27312, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (27312, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (27312, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (27312, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (27312, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
+     , (27312, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (27312, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (27312, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (27312, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (27312, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (27312, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (27312, 9, 20532,  0, 0, 0, False) /* Create Scroll of Unsteady Hands (20532) for ContainTreasure */
+     , (27312, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
+     , (27312, 9, 27314,  0, 0, 0, False) /* Create Rusted Brass Key (27314) for ContainTreasure */
+     , (27312, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (27312, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
+     , (27312, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */
+     , (27312, 9, 49311,  0, 0, 0, False) /* Create Acid Wisp Essence (80) (49311) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27312, 67113012, 0, 0);

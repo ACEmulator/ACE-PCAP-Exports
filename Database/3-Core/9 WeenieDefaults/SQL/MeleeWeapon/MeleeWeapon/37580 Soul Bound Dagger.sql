@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37580;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37580, 'ace37580-soulbounddagger', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37580, 'ace37580-soulbounddagger', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37580,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,7 +24,7 @@ VALUES (37580,   1,          1) /* ItemType - MeleeWeapon */
      , (37580, 108,       2700) /* ItemMaxMana */
      , (37580, 114,          0) /* Attuned - Normal */
      , (37580, 158,          1) /* WieldRequirements - Skill */
-     , (37580, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (37580, 159,         45) /* WieldSkillType - LightWeapons */
      , (37580, 160,        400) /* WieldDifficulty */
      , (37580, 166,         77) /* SlayerCreatureType - Ghost */
      , (37580, 353,          6) /* WeaponType - Dagger */
@@ -71,8 +71,7 @@ VALUES (37580,   1,   33560572) /* Setup */
      , (37580, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37580,   2, 2023526438) /* Container */
-     , (37580, 8000, 2623492156) /* PCAPRecordedObjectIID */;
+VALUES (37580, 8000, 2623492156) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37580,  2096,      2) 

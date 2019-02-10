@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9249;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9249, 'marionette', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9249, 'marionette', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9249,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,13 @@ VALUES (9249,   1, 110, 0, 0) /* Strength */
      , (9249,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9249,   1,   125, 0, 0, 125) /* MaxHealth */
-     , (9249,   3,   190, 0, 0, 190) /* MaxStamina */
-     , (9249,   5,   410, 0, 0, 410) /* MaxMana */;
+VALUES (9249,   1,    10, 0, 0, 125) /* MaxHealth */
+     , (9249,   3,    10, 0, 0, 190) /* MaxStamina */
+     , (9249,   5,    10, 0, 0, 410) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9249, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (9249, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9249, 67111664, 0, 0);

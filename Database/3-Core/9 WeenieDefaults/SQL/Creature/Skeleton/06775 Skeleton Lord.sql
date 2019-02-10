@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6775;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6775, 'skeletonwarriorcrimsonruby4', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6775, 'skeletonwarriorcrimsonruby4', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6775,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,12 @@ VALUES (6775,   1,  85, 0, 0) /* Strength */
      , (6775,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6775,   1,   146, 0, 0, 146) /* MaxHealth */
-     , (6775,   3,   205, 0, 0, 205) /* MaxStamina */
-     , (6775,   5,   230, 0, 0, 230) /* MaxMana */;
+VALUES (6775,   1,    10, 0, 0, 146) /* MaxHealth */
+     , (6775,   3,    10, 0, 0, 205) /* MaxStamina */
+     , (6775,   5,    10, 0, 0, 230) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6775, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6775, 67116527, 0, 0);

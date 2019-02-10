@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14521;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14521, 'golemglacial', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14521, 'golemglacial', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14521,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,36 @@ VALUES (14521,   1, 130, 0, 0) /* Strength */
      , (14521,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14521,   1,   165, 0, 0, 165) /* MaxHealth */
-     , (14521,   3,   320, 0, 0, 320) /* MaxStamina */
-     , (14521,   5,   320, 0, 0, 320) /* MaxMana */;
+VALUES (14521,   1,    10, 0, 0, 165) /* MaxHealth */
+     , (14521,   3,    10, 0, 0, 320) /* MaxStamina */
+     , (14521,   5,    10, 0, 0, 320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14521, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (14521, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (14521, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (14521, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (14521, 9,   273, 431, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14521, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
+     , (14521, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
+     , (14521, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (14521, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (14521, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (14521, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+     , (14521, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (14521, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (14521, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (14521, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (14521, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (14521, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
+     , (14521, 9, 21335,  0, 0, 0, False) /* Create Scroll of Shock Arc VI (21335) for ContainTreasure */
+     , (14521, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (14521, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (14521, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (14521, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
+     , (14521, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (14521, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
+     , (14521, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14521, 67113782, 0, 0);

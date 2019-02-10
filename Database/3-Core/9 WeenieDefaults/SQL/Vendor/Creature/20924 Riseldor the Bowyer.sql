@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20924;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20924, 'retreatbowyer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20924, 'retreatbowyer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20924,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (20924,   1,  70, 0, 0) /* Strength */
      , (20924,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20924,   1,   105, 0, 0, 105) /* MaxHealth */
-     , (20924,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (20924,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (20924,   1,    10, 0, 0, 105) /* MaxHealth */
+     , (20924,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (20924,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20924, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+VALUES (20924, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (20924, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (20924, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (20924, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (20924, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */

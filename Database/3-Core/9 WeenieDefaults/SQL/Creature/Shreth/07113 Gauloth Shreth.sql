@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7113;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7113, 'shrethgauloth', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7113, 'shrethgauloth', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7113,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,29 @@ VALUES (7113,   1, 300, 0, 0) /* Strength */
      , (7113,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7113,   1,   550, 0, 0, 550) /* MaxHealth */
-     , (7113,   3,   600, 0, 0, 600) /* MaxStamina */
-     , (7113,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (7113,   1,    10, 0, 0, 550) /* MaxHealth */
+     , (7113,   3,    10, 0, 0, 600) /* MaxStamina */
+     , (7113,   5,    10, 0, 0, 150) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7113, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (7113, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (7113, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (7113, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
+     , (7113, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (7113, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+     , (7113, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (7113, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (7113, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (7113, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (7113, 9,  3002,  0, 0, 0, False) /* Create Scroll of Blade Vulnerability Other VI (3002) for ContainTreasure */
+     , (7113, 9,  3022,  0, 0, 0, False) /* Create Scroll of Cold Protection Other VI (3022) for ContainTreasure */
+     , (7113, 9,  3047,  0, 0, 0, False) /* Create Scroll of Fire Vulnerability Other VI (3047) for ContainTreasure */
+     , (7113, 9, 24849,  0, 0, 0, False) /* Create Gauloth Shreth Hide (24849) for ContainTreasure */
+     , (7113, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */
+     , (7113, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7113, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */
+     , (7113, 9, 42517,  1, 0, 0, False) /* Create Coalesced Mana (42517) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7113, 67114302, 0, 0);

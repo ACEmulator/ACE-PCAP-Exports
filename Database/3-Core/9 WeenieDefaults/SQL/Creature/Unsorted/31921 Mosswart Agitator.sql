@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31921;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31921, 'ace31921-mosswartagitator', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31921, 'ace31921-mosswartagitator', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31921,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,9 @@ VALUES (31921, 8040, 10617293, 61.1982, -111.594, 0.007700086, 0.997144, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31921, 8000, 3329447548) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31921, 2, 47717,  1, 0, 0, False) /* Create Acid Spear (47717) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31921, 67113408, 0, 0);

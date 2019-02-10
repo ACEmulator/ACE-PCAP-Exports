@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31338;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31338, 'ace31338-gronkthehammer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31338, 'ace31338-gronkthehammer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31338,   1,         16) /* ItemType - Creature */
@@ -64,9 +64,23 @@ VALUES (31338,   1, 400, 0, 0) /* Strength */
      , (31338,   6, 146, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31338,   1,  1623, 0, 0, 1623) /* MaxHealth */
-     , (31338,   3,  1245, 0, 0, 1245) /* MaxStamina */
-     , (31338,   5,   146, 0, 0, 146) /* MaxMana */;
+VALUES (31338,   1,    10, 0, 0, 1623) /* MaxHealth */
+     , (31338,   3,    10, 0, 0, 1245) /* MaxStamina */
+     , (31338,   5,    10, 0, 0, 146) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31338, 2, 31838,  1, 0, 0, False) /* Create Hammer of Discipline (31838) for Wield */
+     , (31338, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */
+     , (31338, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (31338, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (31338, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (31338, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (31338, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (31338, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (31338, 9, 10701,  0, 0, 0, False) /* Create Niffis Shell Helm (10701) for ContainTreasure */
+     , (31338, 9, 10702,  0, 0, 0, False) /* Create Niffis Shell (10702) for ContainTreasure */
+     , (31338, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
+     , (31338, 9, 31334,  0, 0, 0, False) /* Create Crate of Fake Niffis Pearls (31334) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31338, 67109560, 0, 24)

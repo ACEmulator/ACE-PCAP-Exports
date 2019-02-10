@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35666;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35666, 'ace35666-mastersacolyte', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35666, 'ace35666-mastersacolyte', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35666,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,13 @@ VALUES (35666,   1, 300, 0, 0) /* Strength */
      , (35666,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35666,   1,   600, 0, 0, 600) /* MaxHealth */
-     , (35666,   3,  1600, 0, 0, 1600) /* MaxStamina */
-     , (35666,   5,  2700, 0, 0, 2700) /* MaxMana */;
+VALUES (35666,   1,    10, 0, 0, 600) /* MaxHealth */
+     , (35666,   3,    10, 0, 0, 1600) /* MaxStamina */
+     , (35666,   5,    10, 0, 0, 2700) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35666, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */
+     , (35666, 2, 34018,  1, 0, 0, False) /* Create Frost Tachi (34018) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35666, 67114607, 168, 6);

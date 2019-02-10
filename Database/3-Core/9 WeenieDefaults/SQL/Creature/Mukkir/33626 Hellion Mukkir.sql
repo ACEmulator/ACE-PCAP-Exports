@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33626;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33626, 'ace33626-hellionmukkir', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33626, 'ace33626-hellionmukkir', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33626,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,42 @@ VALUES (33626,   1, 455, 0, 0) /* Strength */
      , (33626,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33626,   1,  9203, 0, 0, 9203) /* MaxHealth */
-     , (33626,   3,  3405, 0, 0, 3405) /* MaxStamina */
-     , (33626,   5,   500, 0, 0, 500) /* MaxMana */;
+VALUES (33626,   1,    10, 0, 0, 9203) /* MaxHealth */
+     , (33626,   3,    10, 0, 0, 3405) /* MaxStamina */
+     , (33626,   5,    10, 0, 0, 500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33626, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (33626, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (33626, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (33626, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33626, 9,  3905,  0, 0, 0, False) /* Create Acid War Hammer (3905) for ContainTreasure */
+     , (33626, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (33626, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (33626, 9,  7796,  0, 0, 0, False) /* Create Fire Naginata (7796) for ContainTreasure */
+     , (33626, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
+     , (33626, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */
+     , (33626, 9, 20526,  0, 0, 0, False) /* Create Scroll of Sashi Mu's Kiss (20526) for ContainTreasure */
+     , (33626, 9, 20533,  0, 0, 0, False) /* Create Scroll of Avalenne's Boon (20533) for ContainTreasure */
+     , (33626, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (33626, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
+     , (33626, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
+     , (33626, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (33626, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (33626, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (33626, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (33626, 9, 30582,  0, 0, 0, False) /* Create Lightning Mazule (30582) for ContainTreasure */
+     , (33626, 9, 30609,  0, 0, 0, False) /* Create Frost Bastone (30609) for ContainTreasure */
+     , (33626, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (33626, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (33626, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
+     , (33626, 9, 37209,  0, 0, 0, False) /* Create Olthoi Celdon Sollerets (37209) for ContainTreasure */
+     , (33626, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (33626, 9, 44469,  1, 0, 0, False) /* Create Lesser Corrupted Essence (44469) for ContainTreasure */
+     , (33626, 9, 44852,  0, 0, 0, False) /* Create Chevron Cloak (44852) for ContainTreasure */
+     , (33626, 9, 49370,  0, 0, 0, False) /* Create Acid Grievver Essence (150) (49370) for ContainTreasure */
+     , (33626, 9, 49431,  0, 0, 0, False) /* Create Lightning Spectre Essence (125) (49431) for ContainTreasure */
+     , (33626, 9, 49535,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (150) (49535) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33626, 67116774, 0, 0);

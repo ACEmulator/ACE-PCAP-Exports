@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27318;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27318, 'healthphiltre', 18) /* Food */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27318, 'healthphiltre', 18, '2019-02-10 05:41:14') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27318,   1,        128) /* ItemType - Misc */
      , (27318,   5,        150) /* EncumbranceVal */
      , (27318,  11,        100) /* MaxStackSize */
      , (27318,  12,          1) /* StackSize */
+     , (27318,  13,        150) /* StackUnitEncumbrance */
+     , (27318,  15,       5000) /* StackUnitValue */
      , (27318,  16,          8) /* ItemUseable - Contained */
      , (27318,  19,       5000) /* Value */
      , (27318,  65,        101) /* Placement - Resting */
@@ -38,8 +40,11 @@ VALUES (27318,   1,   33554603) /* Setup */
      , (27318, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27318,   2, 2151959421) /* Container */
-     , (27318, 8000, 3448799657) /* PCAPRecordedObjectIID */;
+VALUES (27318, 8000, 3448799657) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27318, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (27318, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27318, 67111922, 0, 0);

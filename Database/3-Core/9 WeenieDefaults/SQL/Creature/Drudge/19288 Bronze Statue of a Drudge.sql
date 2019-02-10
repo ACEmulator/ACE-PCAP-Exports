@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19288;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19288, 'statuereplicalowdrudgesmall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19288, 'statuereplicalowdrudgesmall', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19288,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,39 @@ VALUES (19288,   1,  55, 0, 0) /* Strength */
      , (19288,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19288,   1,    75, 0, 0, 75) /* MaxHealth */
-     , (19288,   3,   130, 0, 0, 130) /* MaxStamina */
-     , (19288,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (19288,   1,    10, 0, 0, 75) /* MaxHealth */
+     , (19288,   3,    10, 0, 0, 130) /* MaxStamina */
+     , (19288,   5,    10, 0, 0, 80) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (19288, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (19288, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (19288, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (19288, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (19288, 9,   273,  6, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (19288, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (19288, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */
+     , (19288, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (19288, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (19288, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (19288, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (19288, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (19288, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
+     , (19288, 9,  2788,  0, 0, 0, False) /* Create Scroll of Blood Loather III (2788) for ContainTreasure */
+     , (19288, 9,  3124,  0, 0, 0, False) /* Create Scroll of Rejuvenate Self III (3124) for ContainTreasure */
+     , (19288, 9,  3906,  0, 0, 0, False) /* Create Lightning War Hammer (3906) for ContainTreasure */
+     , (19288, 9,  5975,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Self II (5975) for ContainTreasure */
+     , (19288, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (19288, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (19288, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (19288, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (19288, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
+     , (19288, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
+     , (19288, 9, 41066,  0, 0, 0, False) /* Create Frost Khanda-handled Mace (41066) for ContainTreasure */
+     , (19288, 9, 46874,  0, 0, 0, False) /* Create Aura of Defender Other II (46874) for ContainTreasure */
+     , (19288, 9, 48959,  0, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for ContainTreasure */
+     , (19288, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
+     , (19288, 9, 49282,  0, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19288, 67113809, 0, 0);

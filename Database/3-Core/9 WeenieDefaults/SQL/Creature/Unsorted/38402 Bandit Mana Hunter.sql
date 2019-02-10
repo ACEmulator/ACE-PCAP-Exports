@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38402;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38402, 'ace38402-banditmanahunter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38402, 'ace38402-banditmanahunter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38402,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,11 @@ VALUES (38402, 8040, 4164616595, 215.251, 81.979, -22.445, 0.5854009, 0, 0, -0.8
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38402, 8000, 2629727322) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38402, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+     , (38402, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
+     , (38402, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38402, 67109561, 0, 24)

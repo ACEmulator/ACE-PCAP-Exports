@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41884;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41884, 'ace41884-ultimatesingularitymace', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41884, 'ace41884-ultimatesingularitymace', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41884,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,7 +26,7 @@ VALUES (41884,   1,          1) /* ItemType - MeleeWeapon */
      , (41884, 114,          1) /* Attuned - Attuned */
      , (41884, 151,          2) /* HookType - Wall */
      , (41884, 158,          2) /* WieldRequirements - RawSkill */
-     , (41884, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (41884, 159,         45) /* WieldSkillType - LightWeapons */
      , (41884, 160,        400) /* WieldDifficulty */
      , (41884, 166,         19) /* SlayerCreatureType - Virindi */
      , (41884, 353,          4) /* WeaponType - Mace */
@@ -68,8 +68,7 @@ VALUES (41884,   1,   33557316) /* Setup */
      , (41884, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41884,   2, 1342377334) /* Container */
-     , (41884, 8000, 2148598061) /* PCAPRecordedObjectIID */;
+VALUES (41884, 8000, 2148598061) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41884,  2086,      2) 

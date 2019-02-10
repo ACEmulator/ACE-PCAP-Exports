@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4260;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4260, 'slithayrtentacle', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4260, 'slithayrtentacle', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4260,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,18 @@ VALUES (4260,   1, 150, 0, 0) /* Strength */
      , (4260,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4260,   1,   140, 0, 0, 140) /* MaxHealth */
-     , (4260,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (4260,   5,   290, 0, 0, 290) /* MaxMana */;
+VALUES (4260,   1,    10, 0, 0, 140) /* MaxHealth */
+     , (4260,   3,    10, 0, 0, 290) /* MaxStamina */
+     , (4260,   5,    10, 0, 0, 290) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4260, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
+     , (4260, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (4260, 9,   273, 96, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (4260, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (4260, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (4260, 9,  2814,  0, 0, 0, False) /* Create Scroll of Flame Bane IV (2814) for ContainTreasure */
+     , (4260, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4260, 67113034, 0, 0);

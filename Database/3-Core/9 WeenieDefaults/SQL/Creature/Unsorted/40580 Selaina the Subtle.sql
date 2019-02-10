@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40580;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40580, 'ace40580-selainathesubtle', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40580, 'ace40580-selainathesubtle', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40580,   1,         16) /* ItemType - Creature */
@@ -44,6 +44,9 @@ VALUES (40580, 8040, 1210253361, 156.289, 13.7339, 135.005, -0.999967, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40580, 8000, 3710166853) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40580, 2, 40630,  1, 0, 0, False) /* Create Assassin's Edge (40630) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40580, 67109558, 0, 24)

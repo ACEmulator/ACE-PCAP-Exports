@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22506;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22506, 'chittickironspine', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22506, 'chittickironspine', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22506,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,24 @@ VALUES (22506,   1, 180, 0, 0) /* Strength */
      , (22506,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22506,   1,   555, 0, 0, 555) /* MaxHealth */
-     , (22506,   3,   750, 0, 0, 750) /* MaxStamina */
-     , (22506,   5,   250, 0, 0, 250) /* MaxMana */;
+VALUES (22506,   1,    10, 0, 0, 555) /* MaxHealth */
+     , (22506,   3,    10, 0, 0, 750) /* MaxStamina */
+     , (22506,   5,    10, 0, 0, 250) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22506, 2, 22544,  1, 0, 0, False) /* Create Lightning Spines (22544) for Wield */
+     , (22506, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (22506, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (22506, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (22506, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (22506, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (22506, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (22506, 9, 20432,  0, 0, 0, False) /* Create Scroll of Disintegration (20432) for ContainTreasure */
+     , (22506, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (22506, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
+     , (22506, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (22506, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (22506, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22506, 67114053, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43688;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43688, 'ace43688-townsperson', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43688, 'ace43688-townsperson', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43688,   1,         16) /* ItemType - Creature */
@@ -51,4 +51,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43688, 8000, 3632788422) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43688,   1,  1500, 0, 0, 1500) /* MaxHealth */;
+VALUES (43688,   1,    10, 0, 0, 1500) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43688, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
+     , (43688, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */;

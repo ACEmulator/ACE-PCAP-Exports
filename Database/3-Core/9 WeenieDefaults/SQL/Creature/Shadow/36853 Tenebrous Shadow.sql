@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36853;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36853, 'ace36853-tenebrousshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36853, 'ace36853-tenebrousshadow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36853,   1,         16) /* ItemType - Creature */
@@ -65,9 +65,41 @@ VALUES (36853,   1, 140, 0, 0) /* Strength */
      , (36853,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36853,   1,   385, 0, 0, 385) /* MaxHealth */
-     , (36853,   3,   530, 0, 0, 530) /* MaxStamina */
-     , (36853,   5,   490, 0, 0, 490) /* MaxMana */;
+VALUES (36853,   1,    10, 0, 0, 385) /* MaxHealth */
+     , (36853,   3,    10, 0, 0, 530) /* MaxStamina */
+     , (36853,   5,    10, 0, 0, 490) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36853, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (36853, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (36853, 2, 47065,  1, 0, 0, False) /* Create Arrow (47065) for Wield */
+     , (36853, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
+     , (36853, 2, 47623,  1, 0, 0, False) /* Create Acid Tachi (47623) for Wield */
+     , (36853, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
+     , (36853, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
+     , (36853, 2, 47979,  1, 0, 0, False) /* Create Acid Katar (47979) for Wield */
+     , (36853, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
+     , (36853, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
+     , (36853, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (36853, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+     , (36853, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (36853, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
+     , (36853, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
+     , (36853, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
+     , (36853, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */
+     , (36853, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (36853, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (36853, 9,   273, 1985, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (36853, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (36853, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (36853, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (36853, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (36853, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (36853, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (36853, 9, 20469,  0, 0, 0, False) /* Create Scroll of Blessing of the Blade Turner (20469) for ContainTreasure */
+     , (36853, 9, 30245,  1, 0, 0, False) /* Create Hieromancer's Crystal (30245) for ContainTreasure */
+     , (36853, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (36853, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36853, 67112860, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35662;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35662, 'ace35662-demonswarmclawbearer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35662, 'ace35662-demonswarmclawbearer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35662,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,25 @@ VALUES (35662,   1, 380, 0, 0) /* Strength */
      , (35662,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35662,   1,   700, 0, 0, 700) /* MaxHealth */
-     , (35662,   3,   600, 0, 0, 600) /* MaxStamina */
-     , (35662,   5,   140, 0, 0, 140) /* MaxMana */;
+VALUES (35662,   1,    10, 0, 0, 700) /* MaxHealth */
+     , (35662,   3,    10, 0, 0, 600) /* MaxStamina */
+     , (35662,   5,    10, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35662, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (35662, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (35662, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (35662, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (35662, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (35662, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (35662, 9, 29252,  0, 0, 0, False) /* Create Acid Atlatl (29252) for ContainTreasure */
+     , (35662, 9, 29254,  0, 0, 0, False) /* Create Electric Atlatl (29254) for ContainTreasure */
+     , (35662, 9, 30615,  0, 0, 0, False) /* Create Acid Knuckles (30615) for ContainTreasure */
+     , (35662, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
+     , (35662, 9, 42752,  0, 0, 0, False) /* Create Haebrean Greaves (42752) for ContainTreasure */
+     , (35662, 9, 49250,  0, 0, 0, False) /* Create Fire Zombie Essence (125) (49250) for ContainTreasure */
+     , (35662, 9, 49339,  0, 0, 0, False) /* Create Acid Moar Essence (80) (49339) for ContainTreasure */
+     , (35662, 9, 49375,  0, 0, 0, False) /* Create Lightning Grievver Essence (100) (49375) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35662, 67116813, 0, 0);

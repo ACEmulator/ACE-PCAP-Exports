@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27567;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27567, 'humanbrute', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27567, 'humanbrute', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27567,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,17 @@ VALUES (27567,   1, 170, 0, 0) /* Strength */
      , (27567,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27567,   1,   175, 0, 0, 175) /* MaxHealth */
-     , (27567,   3,   250, 0, 0, 250) /* MaxStamina */
+VALUES (27567,   1,    10, 0, 0, 175) /* MaxHealth */
+     , (27567,   3,    10, 0, 0, 250) /* MaxStamina */
      , (27567,   5,    10, 0, 0, 10) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27567, 2,  6292,  1, 0, 0, False) /* Create Peerless Shivering Atlan Sword (6292) for Wield */
+     , (27567, 2,  6298,  1, 0, 0, False) /* Create Peerless Stinging Atlan Sword (6298) for Wield */
+     , (27567, 2, 22885,  1, 0, 0, False) /* Create Bandit Shield (22885) for Wield */
+     , (27567, 2, 23708,  1, 0, 0, False) /* Create Fire Tachi (23708) for Wield */
+     , (27567, 2, 23712,  1, 0, 0, False) /* Create Yaoji (23712) for Wield */
+     , (27567, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
+     , (27567, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (27567, 9, 28014,  0, 0, 0, False) /* Create Scroll of Spirit Loather VI (28014) for ContainTreasure */
+     , (27567, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */;

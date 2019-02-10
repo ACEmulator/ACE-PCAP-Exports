@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34938;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34938, 'ace34938-collectorgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34938, 'ace34938-collectorgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34938,   1,         16) /* ItemType - Creature */
@@ -60,9 +60,9 @@ VALUES (34938,   1, 900, 0, 0) /* Strength */
      , (34938,   6, 890, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34938,   1,  1625, 0, 0, 1625) /* MaxHealth */
-     , (34938,   3,  1905, 0, 0, 1905) /* MaxStamina */
-     , (34938,   5,  2100, 0, 0, 2100) /* MaxMana */;
+VALUES (34938,   1,    10, 0, 0, 1625) /* MaxHealth */
+     , (34938,   3,    10, 0, 0, 1905) /* MaxStamina */
+     , (34938,   5,    10, 0, 0, 2100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (34938, 0, 83894477, 83892492)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 796;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (796, 'mayoibarkeeper', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (796, 'mayoibarkeeper', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (796,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (796,   1,  50, 0, 0) /* Strength */
      , (796,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (796,   1,    95, 0, 0, 95) /* MaxHealth */
-     , (796,   3,   170, 0, 0, 170) /* MaxStamina */
-     , (796,   5,    75, 0, 0, 75) /* MaxMana */;
+VALUES (796,   1,    10, 0, 0, 95) /* MaxHealth */
+     , (796,   3,    10, 0, 0, 170) /* MaxStamina */
+     , (796,   5,    10, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (796, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */

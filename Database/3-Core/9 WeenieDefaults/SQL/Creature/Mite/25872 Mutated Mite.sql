@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25872;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25872, 'mitemutated', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25872, 'mitemutated', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25872,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,35 @@ VALUES (25872,   1, 380, 0, 0) /* Strength */
      , (25872,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25872,   1,   950, 0, 0, 950) /* MaxHealth */
-     , (25872,   3,   950, 0, 0, 949) /* MaxStamina */
-     , (25872,   5,   120, 0, 0, 120) /* MaxMana */;
+VALUES (25872,   1,    10, 0, 0, 950) /* MaxHealth */
+     , (25872,   3,    10, 0, 0, 949) /* MaxStamina */
+     , (25872,   5,    10, 0, 0, 120) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25872, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (25872, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (25872, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (25872, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (25872, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (25872, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (25872, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (25872, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (25872, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (25872, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (25872, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (25872, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (25872, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
+     , (25872, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
+     , (25872, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (25872, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */
+     , (25872, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (25872, 9, 28939,  0, 0, 0, False) /* Create Scroll of Arcanum Salvaging VII (28939) for ContainTreasure */
+     , (25872, 9, 29254,  0, 0, 0, False) /* Create Electric Atlatl (29254) for ContainTreasure */
+     , (25872, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
+     , (25872, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (25872, 9, 43316,  0, 0, 0, False) /* Create Scroll of Nether Streak VII (43316) for ContainTreasure */
+     , (25872, 9, 45274,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VII (45274) for ContainTreasure */
+     , (25872, 9, 49443,  0, 0, 0, False) /* Create Frost Spectre Essence (80) (49443) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25872, 67115133, 0, 0);

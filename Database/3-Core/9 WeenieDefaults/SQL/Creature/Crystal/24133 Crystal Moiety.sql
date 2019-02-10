@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24133;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24133, 'crystalmoiety', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24133, 'crystalmoiety', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24133,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,49 @@ VALUES (24133,   1, 200, 0, 0) /* Strength */
      , (24133,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24133,   1,   350, 0, 0, 350) /* MaxHealth */
-     , (24133,   3,   500, 0, 0, 500) /* MaxStamina */
-     , (24133,   5,   800, 0, 0, 672) /* MaxMana */;
+VALUES (24133,   1,    10, 0, 0, 350) /* MaxHealth */
+     , (24133,   3,    10, 0, 0, 500) /* MaxStamina */
+     , (24133,   5,    10, 0, 0, 672) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24133, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (24133, 9,    90,  0, 0, 0, False) /* Create Yoroi Pauldrons (90) for ContainTreasure */
+     , (24133, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (24133, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (24133, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (24133, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (24133, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (24133, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (24133, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (24133, 9,   273, 1049, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (24133, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (24133, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (24133, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (24133, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (24133, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (24133, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (24133, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (24133, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (24133, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (24133, 9,  3879,  0, 0, 0, False) /* Create Flaming Broad Sword (3879) for ContainTreasure */
+     , (24133, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (24133, 9,  6056,  1, 0, 0, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (24133, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (24133, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (24133, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (24133, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
+     , (24133, 9, 20420,  0, 0, 0, False) /* Create Scroll of Astyrrian's Bane (20420) for ContainTreasure */
+     , (24133, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */
+     , (24133, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
+     , (24133, 9, 20514,  0, 0, 0, False) /* Create Scroll of Adja's Boon (20514) for ContainTreasure */
+     , (24133, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (24133, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (24133, 9, 29260,  0, 0, 0, False) /* Create Blunt Sceptre (29260) for ContainTreasure */
+     , (24133, 9, 30217,  1, 0, 0, False) /* Create Monarch's Crystal (30217) for ContainTreasure */
+     , (24133, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (24133, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (24133, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
+     , (24133, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24133, 67114269, 0, 0);

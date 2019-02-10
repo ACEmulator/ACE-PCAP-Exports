@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45776;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45776, 'ace45776-apparitionofhoshinokei', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45776, 'ace45776-apparitionofhoshinokei', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45776,   1,         16) /* ItemType - Creature */
@@ -68,9 +68,9 @@ VALUES (45776,   1, 190, 0, 0) /* Strength */
      , (45776,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45776,   1,   265, 0, 0, 265) /* MaxHealth */
-     , (45776,   3,   380, 0, 0, 380) /* MaxStamina */
-     , (45776,   5,   486, 0, 0, 486) /* MaxMana */;
+VALUES (45776,   1,    10, 0, 0, 265) /* MaxHealth */
+     , (45776,   3,    10, 0, 0, 380) /* MaxStamina */
+     , (45776,   5,    10, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (45776, 0, 16795382)

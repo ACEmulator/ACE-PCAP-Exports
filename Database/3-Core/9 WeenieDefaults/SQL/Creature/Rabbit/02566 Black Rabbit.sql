@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2566;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2566, 'rabbitblack', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2566, 'rabbitblack', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2566,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,11 @@ VALUES (2566,   1,  10, 0, 0) /* Strength */
      , (2566,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2566,   1,     5, 0, 0, 5) /* MaxHealth */
+VALUES (2566,   1,    10, 0, 0, 5) /* MaxHealth */
      , (2566,   3,    10, 0, 0, 10) /* MaxStamina */
      , (2566,   5,    10, 0, 0, 10) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2566, 9,   273, 24, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (2566, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (2566, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;

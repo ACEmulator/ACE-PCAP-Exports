@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4261;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4261, 'slithayreyestalk', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4261, 'slithayreyestalk', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4261,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,15 @@ VALUES (4261,   1, 250, 0, 0) /* Strength */
      , (4261,   6, 230, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4261,   1,   210, 0, 0, 210) /* MaxHealth */
-     , (4261,   3,   370, 0, 0, 370) /* MaxStamina */
-     , (4261,   5,   380, 0, 0, 380) /* MaxMana */;
+VALUES (4261,   1,    10, 0, 0, 210) /* MaxHealth */
+     , (4261,   3,    10, 0, 0, 370) /* MaxStamina */
+     , (4261,   5,    10, 0, 0, 380) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4261, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
+     , (4261, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (4261, 9,   273, 351, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (4261, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4261, 67113034, 0, 0);

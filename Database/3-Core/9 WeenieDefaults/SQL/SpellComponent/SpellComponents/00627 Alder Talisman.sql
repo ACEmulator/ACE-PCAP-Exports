@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 627;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (627, 'aldertalisman', 32) /* SpellComponent */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (627, 'aldertalisman', 32, '2019-02-10 05:41:14') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (627,   1,       4096) /* ItemType - SpellComponents */
-     , (627,   5,         96) /* EncumbranceVal */
+     , (627,   5,          4) /* EncumbranceVal */
      , (627,  11,        100) /* MaxStackSize */
-     , (627,  12,         24) /* StackSize */
+     , (627,  12,          1) /* StackSize */
+     , (627,  13,          4) /* StackUnitEncumbrance */
+     , (627,  15,          5) /* StackUnitValue */
      , (627,  16,          1) /* ItemUseable - No */
-     , (627,  19,        120) /* Value */
+     , (627,  19,          5) /* Value */
      , (627,  65,        101) /* Placement - Resting */
      , (627,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -34,8 +36,7 @@ VALUES (627,   1,   33555207) /* Setup */
      , (627, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (627,   2, 2856726408) /* Container */
-     , (627, 8000, 2856726410) /* PCAPRecordedObjectIID */;
+VALUES (627, 8000, 2856726410) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (627, 67111918, 0, 0);

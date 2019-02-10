@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44809;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44809, 'ace44809-grievvershredder', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44809, 'ace44809-grievvershredder', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44809,   1,         16) /* ItemType - Creature */
@@ -60,9 +60,15 @@ VALUES (44809,   1, 280, 0, 0) /* Strength */
      , (44809,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44809,   1,  1495, 0, 0, 1495) /* MaxHealth */
-     , (44809,   3,  1190, 0, 0, 1190) /* MaxStamina */
-     , (44809,   5,  1120, 0, 0, 1120) /* MaxMana */;
+VALUES (44809,   1,    10, 0, 0, 1495) /* MaxHealth */
+     , (44809,   3,    10, 0, 0, 1190) /* MaxStamina */
+     , (44809,   5,    10, 0, 0, 1120) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44809, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (44809, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (44809, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44809, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44809, 67114286, 0, 0);

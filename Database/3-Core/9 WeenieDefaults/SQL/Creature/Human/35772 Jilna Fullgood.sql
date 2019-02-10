@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35772;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35772, 'ace35772-jilnafullgood', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35772, 'ace35772-jilnafullgood', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35772,   1,         16) /* ItemType - Creature */
@@ -69,6 +69,16 @@ VALUES (35772,   1, 220, 0, 0) /* Strength */
      , (35772,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35772,   1,   213, 0, 0, 213) /* MaxHealth */
-     , (35772,   3,   325, 0, 0, 325) /* MaxStamina */
-     , (35772,   5,   410, 0, 0, 410) /* MaxMana */;
+VALUES (35772,   1,    10, 0, 0, 213) /* MaxHealth */
+     , (35772,   3,    10, 0, 0, 325) /* MaxStamina */
+     , (35772,   5,    10, 0, 0, 410) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35772, 2, 12052,  1, 0, 0, False) /* Create Bandit Dagger (12052) for Wield */
+     , (35772, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
+     , (35772, 2, 12062,  1, 0, 0, False) /* Create Bandit Khanjar (12062) for Wield */
+     , (35772, 2, 12067,  1, 0, 0, False) /* Create Bandit Knife (12067) for Wield */
+     , (35772, 2, 12072,  1, 0, 0, False) /* Create Bandit Simi (12072) for Wield */
+     , (35772, 2, 12076,  1, 0, 0, False) /* Create Bandit Rapier (12076) for Wield */
+     , (35772, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */
+     , (35772, 2, 12083,  1, 0, 0, False) /* Create Bandit Yaoji (12083) for Wield */;

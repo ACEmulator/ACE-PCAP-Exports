@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11730;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11730, 'houseportal', 7) /* Portal */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11730, 'houseportal', 7, '2019-02-10 05:41:14') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11730,   1,      65536) /* ItemType - Portal */
@@ -39,5 +39,4 @@ VALUES (11730, 8040, 2399928658, 42.2664, 126.972, -18.063, 0.6714331, 0, 0, -0.
 /* @teleloc 0x8F0C0152 [42.266400 126.972000 -18.063000] 0.671433 0.000000 0.000000 -0.741065 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11730,  32, 1343089867) /* HouseOwner */
-     , (11730, 8000, 2029043782) /* PCAPRecordedObjectIID */;
+VALUES (11730, 8000, 2029043782) /* PCAPRecordedObjectIID */;

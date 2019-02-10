@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38147;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38147, 'ace38147-inkitanthecrazed', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38147, 'ace38147-inkitanthecrazed', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38147,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,28 @@ VALUES (38147,   1, 140, 0, 0) /* Strength */
      , (38147,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38147,   1,   495, 0, 0, 495) /* MaxHealth */
-     , (38147,   3,   320, 0, 0, 320) /* MaxStamina */
-     , (38147,   5,   360, 0, 0, 360) /* MaxMana */;
+VALUES (38147,   1,    10, 0, 0, 495) /* MaxHealth */
+     , (38147,   3,    10, 0, 0, 320) /* MaxStamina */
+     , (38147,   5,    10, 0, 0, 360) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38147, 2,  5304,  1, 0, 0, False) /* Create Greater Arrow (5304) for Wield */
+     , (38147, 2, 23655,  1, 0, 0, False) /* Create Throwing Club (23655) for Wield */
+     , (38147, 2, 23663,  1, 0, 0, False) /* Create Frost Throwing Club (23663) for Wield */
+     , (38147, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */
+     , (38147, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
+     , (38147, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (38147, 9,   273, 905, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (38147, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (38147, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (38147, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
+     , (38147, 9, 20564,  0, 0, 0, False) /* Create Scroll of Futility (20564) for ContainTreasure */
+     , (38147, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (38147, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
+     , (38147, 9, 30220,  1, 0, 0, False) /* Create Astyrrian's Jewel (30220) for ContainTreasure */
+     , (38147, 9, 38161,  0, 0, 0, False) /* Create Tattered Disgusting Moarsman Ritual (38161) for ContainTreasure */
+     , (38147, 9, 38172,  0, 0, 0, False) /* Create The Creation of Blighted Moarsmen (38172) for ContainTreasure */
+     , (38147, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38147, 67109977, 80, 12)

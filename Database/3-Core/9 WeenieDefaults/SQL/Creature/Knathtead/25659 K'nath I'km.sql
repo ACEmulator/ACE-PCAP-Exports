@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25659;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25659, 'knathikm', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25659, 'knathikm', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25659,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,9 @@ VALUES (25659,   1, 150, 0, 0) /* Strength */
      , (25659,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25659,   1,  3000, 0, 0, 3000) /* MaxHealth */
-     , (25659,   3,  2700, 0, 0, 2700) /* MaxStamina */
-     , (25659,   5,  2000, 0, 0, 1845) /* MaxMana */;
+VALUES (25659,   1,    10, 0, 0, 3000) /* MaxHealth */
+     , (25659,   3,    10, 0, 0, 2700) /* MaxStamina */
+     , (25659,   5,    10, 0, 0, 1845) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25659, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */;

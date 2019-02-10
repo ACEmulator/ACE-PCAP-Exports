@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31028;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31028, 'eaterbloatedsnowlily', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31028, 'eaterbloatedsnowlily', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31028,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,14 @@ VALUES (31028,   1, 460, 0, 0) /* Strength */
      , (31028,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31028,   1,   765, 0, 0, 765) /* MaxHealth */
-     , (31028,   3,   970, 0, 0, 970) /* MaxStamina */
-     , (31028,   5,   260, 0, 0, 260) /* MaxMana */;
+VALUES (31028,   1,    10, 0, 0, 765) /* MaxHealth */
+     , (31028,   3,    10, 0, 0, 970) /* MaxStamina */
+     , (31028,   5,    10, 0, 0, 260) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31028, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (31028, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (31028, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31028, 67115510, 0, 0);

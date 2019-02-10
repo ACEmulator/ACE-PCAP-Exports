@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12679;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12679, 'hook_yard', 56) /* Hook */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12679, 'hook_yard', 56, '2019-02-10 05:41:14') /* Hook */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12679,   1,        512) /* ItemType - Container */
@@ -43,5 +43,4 @@ VALUES (12679, 8040, 2399928341, 54.9692, 102.065, 6.1, 0.9205049, 0, 0, -0.3907
 /* @teleloc 0x8F0C0015 [54.969200 102.065000 6.100000] 0.920505 0.000000 0.000000 -0.390731 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12679,  32, 1343089867) /* HouseOwner */
-     , (12679, 8000, 2029043807) /* PCAPRecordedObjectIID */;
+VALUES (12679, 8000, 2029043807) /* PCAPRecordedObjectIID */;

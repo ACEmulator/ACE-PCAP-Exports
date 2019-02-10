@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32081;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32081, 'ace32081-redspireportalgem', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32081, 'ace32081-redspireportalgem', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32081,   1,       2048) /* ItemType - Gem */
-     , (32081,   5,         60) /* EncumbranceVal */
+     , (32081,   5,         10) /* EncumbranceVal */
      , (32081,  11,         25) /* MaxStackSize */
-     , (32081,  12,          6) /* StackSize */
+     , (32081,  12,          1) /* StackSize */
+     , (32081,  13,         10) /* StackUnitEncumbrance */
+     , (32081,  15,        500) /* StackUnitValue */
      , (32081,  16,          8) /* ItemUseable - Contained */
      , (32081,  18,          1) /* UiEffects - Magical */
-     , (32081,  19,       3000) /* Value */
+     , (32081,  19,        500) /* Value */
      , (32081,  65,        101) /* Placement - Resting */
      , (32081,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (32081,  94,         16) /* TargetType - Creature */
@@ -49,8 +51,7 @@ VALUES (32081,   1,   33556769) /* Setup */
      , (32081, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32081,   2, 2158698247) /* Container */
-     , (32081, 8000, 2158698254) /* PCAPRecordedObjectIID */;
+VALUES (32081, 8000, 2158698254) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32081,   157,      2) ;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52724;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52724, 'ace52724-tuskerheaver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52724, 'ace52724-tuskerheaver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52724,   1,         16) /* ItemType - Creature */
@@ -57,6 +57,9 @@ VALUES (52724,   1, 380, 0, 0) /* Strength */
      , (52724,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52724,   1,  3325, 0, 0, 3325) /* MaxHealth */
-     , (52724,   3,  3350, 0, 0, 3344) /* MaxStamina */
-     , (52724,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (52724,   1,    10, 0, 0, 3325) /* MaxHealth */
+     , (52724,   3,    10, 0, 0, 3344) /* MaxStamina */
+     , (52724,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52724, 2, 52725,  1, 0, 0, False) /* Create Frozen Coconut (52725) for Wield */;

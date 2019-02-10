@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40268;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40268, 'ace40268-sclavusacolyteoftthuun', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40268, 'ace40268-sclavusacolyteoftthuun', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40268,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,13 @@ VALUES (40268,   1, 240, 0, 0) /* Strength */
      , (40268,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40268,   1,  1110, 0, 0, 1110) /* MaxHealth */
-     , (40268,   3,  1520, 0, 0, 1520) /* MaxStamina */
-     , (40268,   5,  1020, 0, 0, 982) /* MaxMana */;
+VALUES (40268,   1,    10, 0, 0, 1110) /* MaxHealth */
+     , (40268,   3,    10, 0, 0, 1520) /* MaxStamina */
+     , (40268,   5,    10, 0, 0, 982) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40268, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
+     , (40268, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40268, 67111940, 0, 0);

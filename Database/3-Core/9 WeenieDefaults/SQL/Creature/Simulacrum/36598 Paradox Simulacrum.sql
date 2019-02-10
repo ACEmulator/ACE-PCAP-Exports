@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36598;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36598, 'ace36598-paradoxsimulacrum', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36598, 'ace36598-paradoxsimulacrum', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36598,   1,         16) /* ItemType - Creature */
@@ -52,7 +52,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36598, 8000, 3684473966) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36598,   1,  1200, 0, 0, 1200) /* MaxHealth */;
+VALUES (36598,   1,    10, 0, 0, 1200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36598, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (36598, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
+     , (36598, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (36598, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (36598, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (36598, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (36598, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (36598, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36598, 67109562, 0, 24)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1766;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1766, 'armoredillostony', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1766, 'armoredillostony', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1766,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,19 @@ VALUES (1766,   1,  95, 0, 0) /* Strength */
      , (1766,   6,  15, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1766,   1,    38, 0, 0, 38) /* MaxHealth */
-     , (1766,   3,   185, 0, 0, 185) /* MaxStamina */
-     , (1766,   5,    15, 0, 0, 15) /* MaxMana */;
+VALUES (1766,   1,    10, 0, 0, 38) /* MaxHealth */
+     , (1766,   3,    10, 0, 0, 185) /* MaxStamina */
+     , (1766,   5,    10, 0, 0, 15) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1766, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1766, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (1766, 9, 21324,  0, 0, 0, False) /* Create Scroll of Lightning Arc II (21324) for ContainTreasure */
+     , (1766, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (1766, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (1766, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (1766, 9, 45292,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other (45292) for ContainTreasure */
+     , (1766, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1766, 67115925, 0, 0);

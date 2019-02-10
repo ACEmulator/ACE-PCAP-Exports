@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33037;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33037, 'ace33037-vilemukkir', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33037, 'ace33037-vilemukkir', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33037,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (33037,   1, 455, 0, 0) /* Strength */
      , (33037,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33037,   1,  2703, 0, 0, 2703) /* MaxHealth */
-     , (33037,   3,  2405, 0, 0, 2405) /* MaxStamina */
-     , (33037,   5,   500, 0, 0, 500) /* MaxMana */;
+VALUES (33037,   1,    10, 0, 0, 2703) /* MaxHealth */
+     , (33037,   3,    10, 0, 0, 2405) /* MaxStamina */
+     , (33037,   5,    10, 0, 0, 500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33037, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (33037, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (33037, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33037, 67116775, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25345;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25345, 'zombieundeadabbess', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25345, 'zombieundeadabbess', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25345,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,17 @@ VALUES (25345,   1, 215, 0, 0) /* Strength */
      , (25345,   6, 390, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25345,   1,  2160, 0, 0, 2160) /* MaxHealth */
-     , (25345,   3,  3320, 0, 0, 3320) /* MaxStamina */
-     , (25345,   5,  2190, 0, 0, 2190) /* MaxMana */;
+VALUES (25345,   1,    10, 0, 0, 2160) /* MaxHealth */
+     , (25345,   3,    10, 0, 0, 3320) /* MaxStamina */
+     , (25345,   5,    10, 0, 0, 2190) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25345, 2, 48096,  1, 0, 0, False) /* Create Khopesh (48096) for Wield */
+     , (25345, 2, 48097,  1, 0, 0, False) /* Create Sickle (48097) for Wield */
+     , (25345, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (25345, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */
+     , (25345, 9, 40697,  0, 0, 0, False) /* Create Covenant Breastplate (40697) for ContainTreasure */
+     , (25345, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25345, 67114479, 0, 0);

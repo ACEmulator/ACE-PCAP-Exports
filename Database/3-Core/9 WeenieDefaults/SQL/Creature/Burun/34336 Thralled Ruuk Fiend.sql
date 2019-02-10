@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34336;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34336, 'ace34336-thralledruukfiend', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34336, 'ace34336-thralledruukfiend', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34336,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,16 @@ VALUES (34336,   1, 180, 0, 0) /* Strength */
      , (34336,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34336,   1,   385, 0, 0, 385) /* MaxHealth */
-     , (34336,   3,   460, 0, 0, 460) /* MaxStamina */
-     , (34336,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (34336,   1,    10, 0, 0, 385) /* MaxHealth */
+     , (34336,   3,    10, 0, 0, 460) /* MaxStamina */
+     , (34336,   5,    10, 0, 0, 100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34336, 2, 26022,  1, 0, 0, False) /* Create Stone Axe (26022) for Wield */
+     , (34336, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */
+     , (34336, 2, 26043,  1, 0, 0, False) /* Create Stone Mace (26043) for Wield */
+     , (34336, 2, 26048,  1, 0, 0, False) /* Create Stone Spear (26048) for Wield */
+     , (34336, 2, 26052,  1, 0, 0, False) /* Create Bone Sword (26052) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34336, 67114921, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49152;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49152, 'ace49152-digardswasp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49152, 'ace49152-digardswasp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49152,   1,         16) /* ItemType - Creature */
@@ -40,8 +40,7 @@ VALUES (49152, 8040, 1925775388, 95.95898, 94.03083, 79.8459, -0.01354598, 0, 0,
 /* @teleloc 0x72C9001C [95.958980 94.030830 79.845900] -0.013546 0.000000 0.000000 -0.999908 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49152,  44, 1343236420) /* PetOwner */
-     , (49152, 8000, 2880370923) /* PCAPRecordedObjectIID */;
+VALUES (49152, 8000, 2880370923) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49152, 67115268, 0, 0);

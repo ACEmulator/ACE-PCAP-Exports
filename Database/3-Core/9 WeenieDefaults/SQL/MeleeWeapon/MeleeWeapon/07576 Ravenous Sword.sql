@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7576;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7576, 'swordravenous', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7576, 'swordravenous', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7576,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (7576,   1,          1) /* ItemType - MeleeWeapon */
      , (7576,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7576, 114,          1) /* Attuned - Attuned */
      , (7576, 158,          2) /* WieldRequirements - RawSkill */
-     , (7576, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (7576, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (7576, 160,        250) /* WieldDifficulty */
      , (7576, 353,          2) /* WeaponType - Sword */
      , (7576, 8030,          0);
@@ -60,13 +60,12 @@ VALUES (7576,   1,   33556658) /* Setup */
      , (7576, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (7576, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7576, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (7576, 8009,          1);
+     , (7576, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7576, 8040, 3583574079, 189.1439, 159.5337, 373.929, -0.4906826, -0.4906826, -0.5091469, -0.5091469) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [189.143900 159.533700 373.929000] -0.490683 -0.490683 -0.509147 -0.509147 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7576,   3, 1342922043) /* Wielder */
-     , (7576, 8000, 3661115166) /* PCAPRecordedObjectIID */
+VALUES (7576, 8000, 3661115166) /* PCAPRecordedObjectIID */
      , (7576, 8008, 1342922043) /* PCAPRecordedParentIID */;

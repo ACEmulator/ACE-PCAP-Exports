@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45894;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45894, 'ace45894-knathkram', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45894, 'ace45894-knathkram', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45894,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,13 @@ VALUES (45894,   1, 140, 0, 0) /* Strength */
      , (45894,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45894,   1,   255, 0, 0, 88) /* MaxHealth */
-     , (45894,   3,   410, 0, 0, 404) /* MaxStamina */
-     , (45894,   5,   500, 0, 0, 216) /* MaxMana */;
+VALUES (45894,   1,    10, 0, 0, 88) /* MaxHealth */
+     , (45894,   3,    10, 0, 0, 404) /* MaxStamina */
+     , (45894,   5,    10, 0, 0, 216) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45894, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (45894, 9,   273, 414, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (45894, 9,  2855,  0, 0, 0, False) /* Create Scroll of Lightning Bane V (2855) for ContainTreasure */
+     , (45894, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (45894, 9, 22162,  0, 0, 0, False) /* Create Frost Nabut (22162) for ContainTreasure */;

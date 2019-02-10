@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23092;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23092, 'tumerokreveredshaman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23092, 'tumerokreveredshaman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23092,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,17 @@ VALUES (23092,   1, 300, 0, 0) /* Strength */
      , (23092,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23092,   1,  5000, 0, 0, 5000) /* MaxHealth */
-     , (23092,   3,  5000, 0, 0, 5000) /* MaxStamina */
-     , (23092,   5,  5000, 0, 0, 5000) /* MaxMana */;
+VALUES (23092,   1,    10, 0, 0, 5000) /* MaxHealth */
+     , (23092,   3,    10, 0, 0, 5000) /* MaxStamina */
+     , (23092,   5,    10, 0, 0, 5000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (23092, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (23092, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (23092, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+     , (23092, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
+     , (23092, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
+     , (23092, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23092, 67116625, 57, 48)

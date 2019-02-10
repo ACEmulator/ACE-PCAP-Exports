@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40471;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40471, 'ace40471-sandlurker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40471, 'ace40471-sandlurker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40471,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,17 @@ VALUES (40471,   1, 205, 0, 0) /* Strength */
      , (40471,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40471,   1,  1700, 0, 0, 1700) /* MaxHealth */
-     , (40471,   3,  2230, 0, 0, 2227) /* MaxStamina */
-     , (40471,   5,   290, 0, 0, 290) /* MaxMana */;
+VALUES (40471,   1,    10, 0, 0, 1700) /* MaxHealth */
+     , (40471,   3,    10, 0, 0, 2227) /* MaxStamina */
+     , (40471,   5,    10, 0, 0, 290) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40471, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (40471, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (40471, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (40471, 9, 20488,  0, 0, 0, False) /* Create Scroll of Energy Flux (20488) for ContainTreasure */
+     , (40471, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+     , (40471, 9, 49444,  0, 0, 0, False) /* Create Frost Spectre Essence (100) (49444) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40471, 67116784, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21155;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21155, 'greavescovenant', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21155, 'greavescovenant', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21155,   1,          2) /* ItemType - Armor */
@@ -24,7 +24,7 @@ VALUES (21155,   1,          2) /* ItemType - Armor */
      , (21155, 115,          0) /* ItemSkillLevelLimit */
      , (21155, 131,         58) /* MaterialType - Bronze */
      , (21155, 158,          2) /* WieldRequirements - RawSkill */
-     , (21155, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (21155, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21155, 160,        200) /* WieldDifficulty */
      , (21155, 172,          1) /* AppraisalLongDescDecoration */;
 
@@ -65,8 +65,7 @@ VALUES (21155,   1,   33554641) /* Setup */
      , (21155, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21155,   2, 3694326436) /* Container */
-     , (21155, 8000, 3694326438) /* PCAPRecordedObjectIID */;
+VALUES (21155, 8000, 3694326438) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21155,  2092,      2) 
@@ -74,6 +73,9 @@ VALUES (21155,  2092,      2)
      , (21155,  2108,      2) 
      , (21155,  2113,      2) 
      , (21155,  2538,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (21155, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21155, 67113980, 136, 16);

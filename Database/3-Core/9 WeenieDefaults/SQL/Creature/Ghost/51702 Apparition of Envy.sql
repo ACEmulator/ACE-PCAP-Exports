@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51702;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51702, 'ace51702-apparitionofenvy', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51702, 'ace51702-apparitionofenvy', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51702,   1,         16) /* ItemType - Creature */
@@ -22,7 +22,8 @@ VALUES (51702,   1, True ) /* Stuck */
      , (51702,  12, True ) /* ReportCollisions */
      , (51702,  13, False) /* Ethereal */
      , (51702,  14, True ) /* GravityStatus */
-     , (51702,  19, True ) /* Attackable */;
+     , (51702,  19, True ) /* Attackable */
+     , (51702, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51702,  76, 0.699999988079071) /* Translucency */;
@@ -57,6 +58,9 @@ VALUES (51702,   1, 350, 0, 0) /* Strength */
      , (51702,   6, 480, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51702,   1, 17675, 0, 0, 16673) /* MaxHealth */
-     , (51702,   3,  4450, 0, 0, 4450) /* MaxStamina */
-     , (51702,   5,  4430, 0, 0, 4430) /* MaxMana */;
+VALUES (51702,   1,    10, 0, 0, 16673) /* MaxHealth */
+     , (51702,   3,    10, 0, 0, 4450) /* MaxStamina */
+     , (51702,   5,    10, 0, 0, 4430) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51702, 9, 51704,  0, 0, 0, False) /* Create Shroud of Envy (51704) for ContainTreasure */;

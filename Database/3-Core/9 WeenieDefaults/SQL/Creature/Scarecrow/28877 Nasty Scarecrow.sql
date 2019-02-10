@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28877;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28877, 'scarecrownasty', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28877, 'scarecrownasty', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28877,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,20 @@ VALUES (28877,   1, 140, 0, 0) /* Strength */
      , (28877,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28877,   1,   130, 0, 0, 130) /* MaxHealth */
-     , (28877,   3,   290, 0, 0, 288) /* MaxStamina */
-     , (28877,   5,   175, 0, 0, 175) /* MaxMana */;
+VALUES (28877,   1,    10, 0, 0, 130) /* MaxHealth */
+     , (28877,   3,    10, 0, 0, 288) /* MaxStamina */
+     , (28877,   5,    10, 0, 0, 175) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28877, 2,  8395,  1, 0, 0, False) /* Create Jack o' Lantern (8395) for Wield */
+     , (28877, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (28877, 9,   273, 31, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28877, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (28877, 9,  3433,  0, 0, 0, False) /* Create Scroll of Mana Mastery Self II (3433) for ContainTreasure */
+     , (28877, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (28877, 9,  8943,  0, 0, 0, False) /* Create Scroll of Lightning Streak III (8943) for ContainTreasure */
+     , (28877, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (28877, 9, 45334,  0, 0, 0, False) /* Create Scroll of Sneak Attack Ineptitude Other III (45334) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28877, 67112975, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35986;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35986, 'ace35986-ashadowoflerrhan', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35986, 'ace35986-ashadowoflerrhan', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35986,   1,         16) /* ItemType - Creature */
@@ -64,9 +64,21 @@ VALUES (35986,   1, 455, 0, 0) /* Strength */
      , (35986,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35986,   1, 50000, 0, 0, 50000) /* MaxHealth */
-     , (35986,   3, 10000, 0, 0, 10000) /* MaxStamina */
-     , (35986,   5, 10000, 0, 0, 10000) /* MaxMana */;
+VALUES (35986,   1,    10, 0, 0, 50000) /* MaxHealth */
+     , (35986,   3,    10, 0, 0, 10000) /* MaxStamina */
+     , (35986,   5,    10, 0, 0, 10000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35986, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (35986, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (35986, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (35986, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (35986, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (35986, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
+     , (35986, 9, 30594,  0, 0, 0, False) /* Create Acid Partizan (30594) for ContainTreasure */
+     , (35986, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
+     , (35986, 9, 43336,  0, 0, 0, False) /* Create Scroll of Weakening Curse VII (43336) for ContainTreasure */
+     , (35986, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35986, 67112860, 0, 0);

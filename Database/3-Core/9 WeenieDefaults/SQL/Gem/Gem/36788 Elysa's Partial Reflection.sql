@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36788;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36788, 'ace36788-elysaspartialreflection', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36788, 'ace36788-elysaspartialreflection', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36788,   1,       2048) /* ItemType - Gem */
      , (36788,   5,          5) /* EncumbranceVal */
      , (36788,  11,          1) /* MaxStackSize */
      , (36788,  12,          1) /* StackSize */
+     , (36788,  13,          5) /* StackUnitEncumbrance */
+     , (36788,  15,          0) /* StackUnitValue */
      , (36788,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36788,  18,        256) /* UiEffects - Acid */
      , (36788,  65,        101) /* Placement - Resting */
@@ -35,5 +37,4 @@ VALUES (36788,   1,   33556769) /* Setup */
      , (36788, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36788,   2, 1343301116) /* Container */
-     , (36788, 8000, 3697124204) /* PCAPRecordedObjectIID */;
+VALUES (36788, 8000, 3697124204) /* PCAPRecordedObjectIID */;

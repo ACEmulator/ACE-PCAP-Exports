@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20208;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20208, 'scrivenercreatureextreme', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20208, 'scrivenercreatureextreme', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20208,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (20208,   1,  90, 0, 0) /* Strength */
      , (20208,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20208,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (20208,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (20208,   5,   215, 0, 0, 215) /* MaxMana */;
+VALUES (20208,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (20208,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (20208,   5,    10, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20208, 4,  2638, -1, 0, 0, False) /* Create Scroll of Bafflement Other VI (2638) for Shop */

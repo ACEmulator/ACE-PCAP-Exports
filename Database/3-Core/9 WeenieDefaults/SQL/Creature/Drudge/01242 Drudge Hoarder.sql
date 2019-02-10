@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1242;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1242, 'drudgeprowlerglenden', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1242, 'drudgeprowlerglenden', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1242,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,37 @@ VALUES (1242,   1,  45, 0, 0) /* Strength */
      , (1242,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1242,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (1242,   3,   120, 0, 0, 120) /* MaxStamina */
-     , (1242,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (1242,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (1242,   3,    10, 0, 0, 120) /* MaxStamina */
+     , (1242,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1242, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (1242, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (1242, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (1242, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
+     , (1242, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (1242, 2,   321,  1, 0, 0, False) /* Create Jitte (321) for Wield */
+     , (1242, 2,   342,  1, 0, 0, False) /* Create Shou-ono (342) for Wield */
+     , (1242, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (1242, 9,   273, 105, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1242, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (1242, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (1242, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (1242, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (1242, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (1242, 9,  1248,  0, 0, 0, False) /* Create Key (1248) for ContainTreasure */
+     , (1242, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (1242, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (1242, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (1242, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (1242, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (1242, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1242, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (1242, 9, 20854,  1, 0, 0, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (1242, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
+     , (1242, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
+     , (1242, 9, 49282,  0, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1242, 67112816, 0, 0);

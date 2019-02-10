@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 132;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (132, 'shoes', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (132, 'shoes', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (132,   1,          4) /* ItemType - Clothing */
@@ -59,8 +59,7 @@ VALUES (132,   1,   33554654) /* Setup */
      , (132, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (132,   2, 2186220377) /* Container */
-     , (132, 8000, 2186220387) /* PCAPRecordedObjectIID */;
+VALUES (132, 8000, 2186220387) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (132,   423,      2) 

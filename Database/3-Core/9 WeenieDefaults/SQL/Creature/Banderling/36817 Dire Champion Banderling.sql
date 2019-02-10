@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36817;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36817, 'ace36817-direchampionbanderling', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36817, 'ace36817-direchampionbanderling', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36817,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,30 @@ VALUES (36817,   1, 275, 0, 0) /* Strength */
      , (36817,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36817,   1,  1110, 0, 0, 1110) /* MaxHealth */
-     , (36817,   3,  1520, 0, 0, 1520) /* MaxStamina */
-     , (36817,   5,   600, 0, 0, 600) /* MaxMana */;
+VALUES (36817,   1,    10, 0, 0, 1110) /* MaxHealth */
+     , (36817,   3,    10, 0, 0, 1520) /* MaxStamina */
+     , (36817,   5,    10, 0, 0, 600) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36817, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (36817, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (36817, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (36817, 9,  3752,  0, 0, 0, False) /* Create Flaming Battle Axe (3752) for ContainTreasure */
+     , (36817, 9,  4190,  0, 0, 0, False) /* Create Cestus (4190) for ContainTreasure */
+     , (36817, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (36817, 9,  7796,  0, 0, 0, False) /* Create Fire Naginata (7796) for ContainTreasure */
+     , (36817, 9, 20405,  0, 0, 0, False) /* Create Scroll of Swordsman Bait (20405) for ContainTreasure */
+     , (36817, 9, 20474,  0, 0, 0, False) /* Create Scroll of Icy Boon (20474) for ContainTreasure */
+     , (36817, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
+     , (36817, 9, 30578,  0, 0, 0, False) /* Create Frost Flamberge (30578) for ContainTreasure */
+     , (36817, 9, 30951,  0, 0, 0, False) /* Create Alduressa Gauntlets (30951) for ContainTreasure */
+     , (36817, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (36817, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
+     , (36817, 9, 40620,  0, 0, 0, False) /* Create Lightning Spadone (40620) for ContainTreasure */
+     , (36817, 9, 40627,  0, 0, 0, False) /* Create Frost Quadrelle (40627) for ContainTreasure */
+     , (36817, 9, 41061,  0, 0, 0, False) /* Create Frost Great Star Mace (41061) for ContainTreasure */
+     , (36817, 9, 42756,  0, 0, 0, False) /* Create Haebrean Tassets (42756) for ContainTreasure */
+     , (36817, 9, 49388,  0, 0, 0, False) /* Create Frost Grievver Essence (80) (49388) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36817, 67114263, 0, 0);

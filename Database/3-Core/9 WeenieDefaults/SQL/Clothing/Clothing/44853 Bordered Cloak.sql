@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44853;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44853, 'ace44853-borderedcloak', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44853, 'ace44853-borderedcloak', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44853,   1,          4) /* ItemType - Clothing */
@@ -18,7 +18,7 @@ VALUES (44853,   1,          4) /* ItemType - Clothing */
      , (44853, 105,          8) /* ItemWorkmanship */
      , (44853, 131,          5) /* MaterialType - Satin */
      , (44853, 158,          7) /* WieldRequirements - Level */
-     , (44853, 159,          1) /* WieldSkilltype - Axe */
+     , (44853, 159,          1) /* WieldSkillType - Axe */
      , (44853, 160,         90) /* WieldDifficulty */
      , (44853, 172,          1) /* AppraisalLongDescDecoration */
      , (44853, 265,         62) /* EquipmentSetId - CloakItemEnchantment */
@@ -60,7 +60,7 @@ VALUES (44853,   1,   33561386) /* Setup */
      , (44853,   8,  100692128) /* Icon */
      , (44853,  22,  872415275) /* PhysicsEffectTable */
      , (44853,  50,  100690998) /* IconOverlay */
-     , (44853,  55,       1787) /* ProcSpell */
+     , (44853,  55,       1787) /* ProcSpell - FrostRing */
      , (44853, 8001, 3240427672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (44853, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44853, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

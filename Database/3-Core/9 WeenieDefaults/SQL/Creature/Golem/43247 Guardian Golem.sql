@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43247;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43247, 'ace43247-guardiangolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43247, 'ace43247-guardiangolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43247,   1,         16) /* ItemType - Creature */
@@ -60,9 +60,14 @@ VALUES (43247,   1, 900, 0, 0) /* Strength */
      , (43247,   6, 890, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43247,   1,  1625, 0, 0, 1625) /* MaxHealth */
-     , (43247,   3,  1905, 0, 0, 1905) /* MaxStamina */
-     , (43247,   5,  2100, 0, 0, 2100) /* MaxMana */;
+VALUES (43247,   1,    10, 0, 0, 1625) /* MaxHealth */
+     , (43247,   3,    10, 0, 0, 1905) /* MaxStamina */
+     , (43247,   5,    10, 0, 0, 2100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43247, 2, 35295,  1, 0, 0, False) /* Create Shield of Perfect Light (35295) for Wield */
+     , (43247, 2, 40088,  1, 0, 0, False) /* Create Empowered Sword of Lost Light (40088) for Wield */
+     , (43247, 9,  9105,  0, 0, 0, False) /* Create Trunk Key (9105) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43247, 0, 83894477, 83892492)

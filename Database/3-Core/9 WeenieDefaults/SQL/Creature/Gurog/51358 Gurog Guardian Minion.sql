@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51358;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51358, 'ace51358-gurogguardianminion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51358, 'ace51358-gurogguardianminion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51358,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,22 @@ VALUES (51358,   1, 530, 0, 0) /* Strength */
      , (51358,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51358,   1,  1750, 0, 0, 1750) /* MaxHealth */
-     , (51358,   3,  3980, 0, 0, 3980) /* MaxStamina */
-     , (51358,   5,  1400, 0, 0, 1400) /* MaxMana */;
+VALUES (51358,   1,    10, 0, 0, 1750) /* MaxHealth */
+     , (51358,   3,    10, 0, 0, 3980) /* MaxStamina */
+     , (51358,   5,    10, 0, 0, 1400) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51358, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (51358, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (51358, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (51358, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (51358, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (51358, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (51358, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (51358, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (51358, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
+     , (51358, 9, 31770,  0, 0, 0, False) /* Create Acid War Axe (31770) for ContainTreasure */
+     , (51358, 9, 37205,  0, 0, 0, False) /* Create Olthoi Celdon Sleeves (37205) for ContainTreasure */
+     , (51358, 9, 43300,  0, 0, 0, False) /* Create Scroll of Nether Arc VII (43300) for ContainTreasure */
+     , (51358, 9, 43382,  0, 0, 0, False) /* Create Nefane Pearl (43382) for ContainTreasure */
+     , (51358, 9, 45101,  0, 0, 0, False) /* Create Lightning Epee (45101) for ContainTreasure */;

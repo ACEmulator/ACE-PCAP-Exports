@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42264;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42264, 'ace42264-mastermage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42264, 'ace42264-mastermage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42264,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,20 @@ VALUES (42264,   1, 270, 0, 0) /* Strength */
      , (42264,   6, 470, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42264,   1,   890, 0, 0, 890) /* MaxHealth */
-     , (42264,   3,   910, 0, 0, 910) /* MaxStamina */
-     , (42264,   5,  1000, 0, 0, 497) /* MaxMana */;
+VALUES (42264,   1,    10, 0, 0, 890) /* MaxHealth */
+     , (42264,   3,    10, 0, 0, 910) /* MaxStamina */
+     , (42264,   5,    10, 0, 0, 497) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42264, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */
+     , (42264, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (42264, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (42264, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (42264, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
+     , (42264, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (42264, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */
+     , (42264, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
+     , (42264, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (42264, 0, 16795621)

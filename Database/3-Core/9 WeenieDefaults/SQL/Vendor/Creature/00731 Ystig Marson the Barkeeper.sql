@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 731;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (731, 'glendenbarkeeper', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (731, 'glendenbarkeeper', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (731,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (731,   1,  20, 0, 0) /* Strength */
      , (731,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (731,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (731,   3,    80, 0, 0, 80) /* MaxStamina */
-     , (731,   5,    30, 0, 0, 30) /* MaxMana */;
+VALUES (731,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (731,   3,    10, 0, 0, 80) /* MaxStamina */
+     , (731,   5,    10, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (731, 4,  1490, -1, 0, 0, False) /* Create Glenden Dungeon Directions (1490) for Shop */

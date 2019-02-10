@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4124;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4124, 'zombielichoverseer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4124, 'zombielichoverseer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4124,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,20 @@ VALUES (4124,   1, 161, 0, 0) /* Strength */
      , (4124,   6, 155, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4124,   1,    89, 0, 0, 89) /* MaxHealth */
-     , (4124,   3,   328, 0, 0, 326) /* MaxStamina */
-     , (4124,   5,   305, 0, 0, 259) /* MaxMana */;
+VALUES (4124,   1,    10, 0, 0, 89) /* MaxHealth */
+     , (4124,   3,    10, 0, 0, 326) /* MaxStamina */
+     , (4124,   5,    10, 0, 0, 259) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4124, 2,  4181,  1, 0, 0, False) /* Create Acid Arrow (4181) for Wield */
+     , (4124, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
+     , (4124, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
+     , (4124, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (4124, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (4124, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (4124, 9,  3851,  0, 0, 0, False) /* Create Flaming Scimitar (3851) for ContainTreasure */
+     , (4124, 9,  8903,  1, 0, 0, False) /* Create Focusing Stone (8903) for ContainTreasure */
+     , (4124, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4124, 67111342, 0, 0);

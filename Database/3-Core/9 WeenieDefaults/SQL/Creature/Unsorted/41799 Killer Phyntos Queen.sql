@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41799;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41799, 'ace41799-killerphyntosqueen', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41799, 'ace41799-killerphyntosqueen', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41799,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,17 @@ VALUES (41799, 8040, 4180672776, 10, 155, 38.416, 1, 0, 0, 0) /* PCAPRecordedLoc
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41799, 8000, 2922176399) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41799, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (41799, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (41799, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (41799, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (41799, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (41799, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (41799, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (41799, 9, 41816,  0, 0, 0, False) /* Create Phyntos Queen's Abdomen (41816) for ContainTreasure */
+     , (41799, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41799, 67115264, 0, 0);

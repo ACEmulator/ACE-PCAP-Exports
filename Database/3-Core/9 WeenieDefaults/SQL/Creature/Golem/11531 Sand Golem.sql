@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11531;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11531, 'golemsand_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11531, 'golemsand_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11531,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,22 @@ VALUES (11531,   1, 110, 0, 0) /* Strength */
      , (11531,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11531,   1,   145, 0, 0, 145) /* MaxHealth */
-     , (11531,   3,   250, 0, 0, 250) /* MaxStamina */
-     , (11531,   5,   210, 0, 0, 210) /* MaxMana */;
+VALUES (11531,   1,    10, 0, 0, 145) /* MaxHealth */
+     , (11531,   3,    10, 0, 0, 250) /* MaxStamina */
+     , (11531,   5,    10, 0, 0, 210) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11531, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (11531, 9,   273, 50, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11531, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
+     , (11531, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (11531, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (11531, 9,  2669,  0, 0, 0, False) /* Create Scroll of Feeblemind Other II (2669) for ContainTreasure */
+     , (11531, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (11531, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (11531, 9, 11352,  0, 0, 0, False) /* Create Sand Golem Heart (11352) for ContainTreasure */
+     , (11531, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (11531, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11531, 67112822, 0, 0);

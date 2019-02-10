@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40787;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40787, 'ace40787-progenitorofacid', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40787, 'ace40787-progenitorofacid', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40787,   1,         16) /* ItemType - Creature */
@@ -51,6 +51,12 @@ VALUES (40787,   1, 200, 0, 0) /* Strength */
      , (40787,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40787,   1,  3120, 0, 0, 3120) /* MaxHealth */
-     , (40787,   3,  2220, 0, 0, 2220) /* MaxStamina */
-     , (40787,   5,   490, 0, 0, 458) /* MaxMana */;
+VALUES (40787,   1,    10, 0, 0, 3120) /* MaxHealth */
+     , (40787,   3,    10, 0, 0, 2220) /* MaxStamina */
+     , (40787,   5,    10, 0, 0, 458) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40787, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (40787, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (40787, 9, 31818,  0, 0, 0, False) /* Create Piercing Slingshot (31818) for ContainTreasure */
+     , (40787, 9, 40788,  1, 0, 0, False) /* Create Progenitor Crystal (40788) for ContainTreasure */;

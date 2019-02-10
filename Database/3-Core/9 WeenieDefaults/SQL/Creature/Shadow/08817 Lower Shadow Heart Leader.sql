@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8817;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8817, 'shadowheartleaderlower', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8817, 'shadowheartleaderlower', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8817,   1,         16) /* ItemType - Creature */
@@ -56,7 +56,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8817, 8000, 3701805268) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8817,   1,   480, 0, 0, 480) /* MaxHealth */;
+VALUES (8817,   1,    10, 0, 0, 480) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8817, 9, 20479,  0, 0, 0, False) /* Create Scroll of Inferno's Gift (20479) for ContainTreasure */
+     , (8817, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8817, 67112860, 0, 0);

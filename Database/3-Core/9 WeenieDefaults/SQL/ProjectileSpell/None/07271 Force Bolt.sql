@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7271;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7271, 'forcering', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7271, 'forcering', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7271,   1,          0) /* ItemType - None */
@@ -41,3 +41,10 @@ VALUES (7271, 8040, 12321027, 23.1148, -8.48106, -34.77167, 0.9110277, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7271, 8000, 3698954191) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7271, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */
+     , (7271, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (7271, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (7271, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (7271, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

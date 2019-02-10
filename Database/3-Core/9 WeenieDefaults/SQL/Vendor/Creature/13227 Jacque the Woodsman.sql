@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 13227;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (13227, 'glendenwoodsman', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (13227, 'glendenwoodsman', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13227,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (13227,   1, 180, 0, 0) /* Strength */
      , (13227,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (13227,   1,   158, 0, 0, 158) /* MaxHealth */
-     , (13227,   3,   235, 0, 0, 235) /* MaxStamina */
-     , (13227,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (13227,   1,    10, 0, 0, 158) /* MaxHealth */
+     , (13227,   3,    10, 0, 0, 235) /* MaxStamina */
+     , (13227,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (13227, 4,   244, -1, 0, 0, False) /* Create Wood (244) for Shop */
+VALUES (13227, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
+     , (13227, 4,   244, -1, 0, 0, False) /* Create Wood (244) for Shop */
      , (13227, 4, 13199, -1, 0, 0, False) /* Create Small Pine Tree (13199) for Shop */
      , (13227, 4, 13209, -1, 0, 0, False) /* Create Wreath (13209) for Shop */
      , (13227, 4, 13228, -1, 0, 0, False) /* Create Large Pine Tree (13228) for Shop */

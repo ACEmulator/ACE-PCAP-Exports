@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9229;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9229, 'healingkittreated', 28) /* Healer */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9229, 'healingkittreated', 28, '2019-02-10 05:41:14') /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9229,   1,        128) /* ItemType - Misc */
@@ -43,3 +43,10 @@ VALUES (9229, 8040, 2847146018, 99.06889, 41.68376, 97.5315, 0.8933309, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9229, 8000, 3622215195) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9229, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (9229, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (9229, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (9229, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (9229, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

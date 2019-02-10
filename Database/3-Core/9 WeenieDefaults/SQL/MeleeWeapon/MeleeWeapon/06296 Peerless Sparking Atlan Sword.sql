@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6296;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6296, 'swordbestsparkingmajor', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6296, 'swordbestsparkingmajor', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6296,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,7 +24,7 @@ VALUES (6296,   1,          1) /* ItemType - MeleeWeapon */
      , (6296, 108,        750) /* ItemMaxMana */
      , (6296, 151,          2) /* HookType - Wall */
      , (6296, 158,          2) /* WieldRequirements - RawSkill */
-     , (6296, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (6296, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (6296, 160,        250) /* WieldDifficulty */
      , (6296, 353,          2) /* WeaponType - Sword */
      , (6296, 8030,          0);

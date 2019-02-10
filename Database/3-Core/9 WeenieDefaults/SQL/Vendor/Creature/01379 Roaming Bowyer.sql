@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1379;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1379, 'bowyergaron', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1379, 'bowyergaron', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1379,   1,         16) /* ItemType - Creature */
@@ -52,7 +52,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1379, 8000, 2040668170) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1379, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+VALUES (1379, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (1379, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (1379, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (1379, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
      , (1379, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */

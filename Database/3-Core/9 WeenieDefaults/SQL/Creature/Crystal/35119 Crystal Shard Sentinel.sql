@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35119;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35119, 'ace35119-crystalshardsentinel', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35119, 'ace35119-crystalshardsentinel', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35119,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,12 @@ VALUES (35119,   1, 220, 0, 0) /* Strength */
      , (35119,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35119,   1,   200, 0, 0, 200) /* MaxHealth */
-     , (35119,   3,   300, 0, 0, 300) /* MaxStamina */
-     , (35119,   5,   500, 0, 0, 500) /* MaxMana */;
+VALUES (35119,   1,    10, 0, 0, 200) /* MaxHealth */
+     , (35119,   3,    10, 0, 0, 300) /* MaxStamina */
+     , (35119,   5,    10, 0, 0, 500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35119, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35119, 67111919, 0, 0);

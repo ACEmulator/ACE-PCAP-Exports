@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4196;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4196, 'nekodefire', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4196, 'nekodefire', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4196,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (4196,   1,          1) /* ItemType - MeleeWeapon */
      , (4196, 131,         59) /* MaterialType - Copper */
      , (4196, 151,          2) /* HookType - Wall */
      , (4196, 158,          2) /* WieldRequirements - RawSkill */
-     , (4196, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (4196, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (4196, 160,        250) /* WieldDifficulty */
      , (4196, 172,          1) /* AppraisalLongDescDecoration */
      , (4196, 353,          1) /* WeaponType - Unarmed */
@@ -61,13 +61,12 @@ VALUES (4196,   1,   33555989) /* Setup */
      , (4196, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (4196, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (4196, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (4196, 8009,          9);
+     , (4196, 8009,          9) /* PCAPRecordedParentLocation - LeftUnarmed */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4196, 8040, 2847146009, 83.97531, 7.103911, 93.92901, -0.05547891, -0.05547891, -0.704927, -0.704927) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [83.975310 7.103911 93.929010] -0.055479 -0.055479 -0.704927 -0.704927 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4196,   3, 1343282139) /* Wielder */
-     , (4196, 8000, 3619466413) /* PCAPRecordedObjectIID */
+VALUES (4196, 8000, 3619466413) /* PCAPRecordedObjectIID */
      , (4196, 8008, 1343282139) /* PCAPRecordedParentIID */;

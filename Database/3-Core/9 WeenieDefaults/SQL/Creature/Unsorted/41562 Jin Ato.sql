@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41562;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41562, 'ace41562-jinato', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41562, 'ace41562-jinato', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41562,   1,         16) /* ItemType - Creature */
@@ -46,6 +46,9 @@ VALUES (41562, 8040, 2270494976, 58.8915, 135, 9.705, -0.0971128, 0, 0, 0.995273
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41562, 8000, 3709162201) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41562, 2, 40760,  1, 0, 0, False) /* Create Nodachi (40760) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41562, 67109565, 32, 8)

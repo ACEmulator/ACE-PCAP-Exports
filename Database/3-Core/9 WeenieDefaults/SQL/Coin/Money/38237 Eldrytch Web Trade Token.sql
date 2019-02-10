@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38237;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38237, 'ace38237-eldrytchwebtradetoken', 9) /* Coin */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38237, 'ace38237-eldrytchwebtradetoken', 9, '2019-02-10 05:41:14') /* Coin */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38237,   1,         64) /* ItemType - Money */
      , (38237,   5,          0) /* EncumbranceVal */
      , (38237,  11,        100) /* MaxStackSize */
-     , (38237,  12,         50) /* StackSize */
+     , (38237,  12,          1) /* StackSize */
+     , (38237,  13,          0) /* StackUnitEncumbrance */
+     , (38237,  15,          0) /* StackUnitValue */
      , (38237,  16,          1) /* ItemUseable - No */
      , (38237,  19,          0) /* Value */
      , (38237,  33,          1) /* Bonded - Bonded */
@@ -37,5 +39,4 @@ VALUES (38237,   1,   33554802) /* Setup */
      , (38237, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38237,   2, 2855097382) /* Container */
-     , (38237, 8000, 2914740564) /* PCAPRecordedObjectIID */;
+VALUES (38237, 8000, 2914740564) /* PCAPRecordedObjectIID */;

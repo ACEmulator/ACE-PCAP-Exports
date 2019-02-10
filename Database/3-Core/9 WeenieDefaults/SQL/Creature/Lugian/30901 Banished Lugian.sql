@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30901;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30901, 'lugianbossmid0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30901, 'lugianbossmid0205', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30901,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,20 @@ VALUES (30901,   1, 290, 0, 0) /* Strength */
      , (30901,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30901,   1,   590, 0, 0, 590) /* MaxHealth */
-     , (30901,   3,   410, 0, 0, 408) /* MaxStamina */
-     , (30901,   5,   170, 0, 0, 170) /* MaxMana */;
+VALUES (30901,   1,    10, 0, 0, 590) /* MaxHealth */
+     , (30901,   3,    10, 0, 0, 408) /* MaxStamina */
+     , (30901,   5,    10, 0, 0, 170) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30901, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
+     , (30901, 9,    61,  0, 0, 0, False) /* Create Platemail Girth (61) for ContainTreasure */
+     , (30901, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (30901, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (30901, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (30901, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (30901, 9,  2855,  0, 0, 0, False) /* Create Scroll of Lightning Bane V (2855) for ContainTreasure */
+     , (30901, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (30901, 9, 30859,  0, 0, 0, False) /* Create Banished Axe (30859) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30901, 67113162, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37213;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37213, 'ace37213-olthoibracers', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37213, 'ace37213-olthoibracers', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37213,   1,          2) /* ItemType - Armor */
@@ -17,14 +17,14 @@ VALUES (37213,   1,          2) /* ItemType - Armor */
      , (37213, 105,          8) /* ItemWorkmanship */
      , (37213, 131,         57) /* MaterialType - Brass */
      , (37213, 158,          2) /* WieldRequirements - RawSkill */
-     , (37213, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (37213, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37213, 160,        350) /* WieldDifficulty */
      , (37213, 172,          5) /* AppraisalLongDescDecoration */
      , (37213, 177,          2) /* GemCount */
      , (37213, 178,         47) /* GemType */
      , (37213, 265,         27) /* EquipmentSetId - Acidproof */
      , (37213, 270,          7) /* WieldRequirements2 - Level */
-     , (37213, 271,          1) /* WieldSkilltype2 - Axe */
+     , (37213, 271,          1) /* WieldSkillType2 - Axe */
      , (37213, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -62,8 +62,7 @@ VALUES (37213,   1,   33554641) /* Setup */
      , (37213, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37213,   2, 1343487580) /* Container */
-     , (37213, 8000, 3484338528) /* PCAPRecordedObjectIID */;
+VALUES (37213, 8000, 3484338528) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37213, 67116577, 96, 12)

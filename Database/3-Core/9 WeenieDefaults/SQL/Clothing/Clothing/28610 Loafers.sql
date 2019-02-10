@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28610;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28610, 'shoesviamontloafers', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28610, 'shoesviamontloafers', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28610,   1,          4) /* ItemType - Clothing */
@@ -23,7 +23,7 @@ VALUES (28610,   1,          4) /* ItemType - Clothing */
      , (28610, 115,          0) /* ItemSkillLevelLimit */
      , (28610, 131,         54) /* MaterialType - GromnieHide */
      , (28610, 158,          7) /* WieldRequirements - Level */
-     , (28610, 159,          1) /* WieldSkilltype - Axe */
+     , (28610, 159,          1) /* WieldSkillType - Axe */
      , (28610, 160,        180) /* WieldDifficulty */
      , (28610, 172,          5) /* AppraisalLongDescDecoration */
      , (28610, 177,          2) /* GemCount */
@@ -65,14 +65,17 @@ VALUES (28610,   1,   33559324) /* Setup */
      , (28610, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28610,   2, 3666901363) /* Container */
-     , (28610, 8000, 2174244954) /* PCAPRecordedObjectIID */;
+VALUES (28610, 8000, 2174244954) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28610,  2108,      2) 
      , (28610,  2195,      2) 
      , (28610,  3965,      2) 
      , (28610,  4401,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28610, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (28610, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28610, 67115846, 160, 8);

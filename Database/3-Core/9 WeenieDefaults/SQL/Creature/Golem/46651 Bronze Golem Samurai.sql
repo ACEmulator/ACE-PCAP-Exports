@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46651;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46651, 'ace46651-bronzegolemsamurai', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46651, 'ace46651-bronzegolemsamurai', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46651,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46651, 8000, 3707809323) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46651,   1,  5250, 0, 0, 4135) /* MaxHealth */;
+VALUES (46651,   1,    10, 0, 0, 4135) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46651, 2, 46605,  1, 0, 0, False) /* Create Magari Yari (46605) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46651, 67117138, 0, 0);

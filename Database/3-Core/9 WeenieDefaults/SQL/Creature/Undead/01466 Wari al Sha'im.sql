@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1466;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1466, 'undeaddefender', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1466, 'undeaddefender', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1466,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,17 @@ VALUES (1466,   1,  60, 0, 0) /* Strength */
      , (1466,   6, 125, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1466,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (1466,   3,   190, 0, 0, 190) /* MaxStamina */
-     , (1466,   5,   205, 0, 0, 205) /* MaxMana */;
+VALUES (1466,   1,    10, 0, 0, 135) /* MaxHealth */
+     , (1466,   3,    10, 0, 0, 190) /* MaxStamina */
+     , (1466,   5,    10, 0, 0, 205) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1466, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (1466, 2, 47905,  1, 0, 0, False) /* Create Katar (47905) for Wield */
+     , (1466, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (1466, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+     , (1466, 9,  6661,  1, 0, 0, False) /* Create The Ruby Al-Khur (6661) for ContainTreasure */
+     , (1466, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1466, 67111341, 0, 0);

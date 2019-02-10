@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41901;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41901, 'ace41901-enhancedassaultgreatsword', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41901, 'ace41901-enhancedassaultgreatsword', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41901,   1,          1) /* ItemType - MeleeWeapon */
@@ -25,7 +25,7 @@ VALUES (41901,   1,          1) /* ItemType - MeleeWeapon */
      , (41901, 109,        120) /* ItemDifficulty */
      , (41901, 151,          2) /* HookType - Wall */
      , (41901, 158,          2) /* WieldRequirements - RawSkill */
-     , (41901, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41901, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41901, 160,        400) /* WieldDifficulty */
      , (41901, 166,          6) /* SlayerCreatureType - Tumerok */
      , (41901, 263,          1) /* ResistanceModifierType */
@@ -67,7 +67,7 @@ VALUES (41901,   1,   33558209) /* Setup */
      , (41901, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (41901, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41901, 8005,     194721) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
-     , (41901, 8009,          1)
+     , (41901, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
      , (41901, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -75,8 +75,7 @@ VALUES (41901, 8040, 3583574079, 178.882, 161.9281, 373.929, 0.5268642, 0.526864
 /* @teleloc 0xD599003F [178.882000 161.928100 373.929000] 0.526864 0.526864 -0.471608 -0.471608 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41901,   3, 1343318476) /* Wielder */
-     , (41901, 8000, 2273811200) /* PCAPRecordedObjectIID */
+VALUES (41901, 8000, 2273811200) /* PCAPRecordedObjectIID */
      , (41901, 8008, 1343318476) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

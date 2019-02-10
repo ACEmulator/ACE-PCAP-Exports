@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36644;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36644, 'ace36644-guardianoflinvaktukal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36644, 'ace36644-guardianoflinvaktukal', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36644,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,14 @@ VALUES (36644,   1, 380, 0, 0) /* Strength */
      , (36644,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36644,   1,   800, 0, 0, 800) /* MaxHealth */
-     , (36644,   3,  1500, 0, 0, 1500) /* MaxStamina */
-     , (36644,   5,   240, 0, 0, 240) /* MaxMana */;
+VALUES (36644,   1,    10, 0, 0, 800) /* MaxHealth */
+     , (36644,   3,    10, 0, 0, 1500) /* MaxStamina */
+     , (36644,   5,    10, 0, 0, 240) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36644, 2, 31033,  1, 0, 0, False) /* Create Rock (31033) for Wield */
+     , (36644, 2, 31250,  1, 0, 0, False) /* Create Lugian Axe (31250) for Wield */
+     , (36644, 2, 31251,  1, 0, 0, False) /* Create Lugian Mace (31251) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36644, 67114245, 0, 0);

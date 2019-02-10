@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7432;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7432, 'zombiesoulfearingacolytetower2', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7432, 'zombiesoulfearingacolytetower2', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7432,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,17 @@ VALUES (7432,   1,  50, 0, 0) /* Strength */
      , (7432,   6, 115, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7432,   1,    90, 0, 0, 90) /* MaxHealth */
-     , (7432,   3,   130, 0, 0, 130) /* MaxStamina */
-     , (7432,   5,   155, 0, 0, 155) /* MaxMana */;
+VALUES (7432,   1,    10, 0, 0, 90) /* MaxHealth */
+     , (7432,   3,    10, 0, 0, 130) /* MaxStamina */
+     , (7432,   5,    10, 0, 0, 155) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7432, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
+     , (7432, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (7432, 2, 47887,  1, 0, 0, False) /* Create Acid Quarrel (47887) for Wield */
+     , (7432, 2, 47888,  1, 0, 0, False) /* Create Lightning Quarrel (47888) for Wield */
+     , (7432, 2, 47889,  1, 0, 0, False) /* Create Acid Katar (47889) for Wield */
+     , (7432, 2, 47898,  1, 0, 0, False) /* Create Ono (47898) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7432, 67111341, 0, 0);

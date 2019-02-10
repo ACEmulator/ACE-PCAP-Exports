@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44808;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44808, 'ace44808-panumbrisshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44808, 'ace44808-panumbrisshadow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44808,   1,         16) /* ItemType - Creature */
@@ -66,9 +66,16 @@ VALUES (44808,   1, 240, 0, 0) /* Strength */
      , (44808,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44808,   1,  2250, 0, 0, 2250) /* MaxHealth */
-     , (44808,   3,  2260, 0, 0, 2260) /* MaxStamina */
-     , (44808,   5,  2190, 0, 0, 2190) /* MaxMana */;
+VALUES (44808,   1,    10, 0, 0, 2250) /* MaxHealth */
+     , (44808,   3,    10, 0, 0, 2260) /* MaxStamina */
+     , (44808,   5,    10, 0, 0, 2190) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44808, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (44808, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (44808, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (44808, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (44808, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44808, 67112860, 0, 0);

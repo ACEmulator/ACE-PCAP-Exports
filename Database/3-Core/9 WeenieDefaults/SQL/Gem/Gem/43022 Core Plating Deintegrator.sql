@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43022;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43022, 'gearcraftreversetool', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43022, 'gearcraftreversetool', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43022,   1,       2048) /* ItemType - Gem */
@@ -9,6 +9,8 @@ VALUES (43022,   1,       2048) /* ItemType - Gem */
      , (43022,   5,         10) /* EncumbranceVal */
      , (43022,  11,          1) /* MaxStackSize */
      , (43022,  12,          1) /* StackSize */
+     , (43022,  13,         10) /* StackUnitEncumbrance */
+     , (43022,  15,         10) /* StackUnitValue */
      , (43022,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (43022,  19,         10) /* Value */
      , (43022,  28,          0) /* ArmorLevel */
@@ -52,5 +54,4 @@ VALUES (43022,   1,   33555677) /* Setup */
      , (43022, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43022,   2, 1344175055) /* Container */
-     , (43022, 8000, 3618495994) /* PCAPRecordedObjectIID */;
+VALUES (43022, 8000, 3618495994) /* PCAPRecordedObjectIID */;

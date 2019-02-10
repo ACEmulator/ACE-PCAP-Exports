@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44293;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44293, 'ace44293-ancienttabletofthecrystalstafflevel180', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44293, 'ace44293-ancienttabletofthecrystalstafflevel180', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44293,   1,       2048) /* ItemType - Gem */
      , (44293,   5,          0) /* EncumbranceVal */
      , (44293,  11,          1) /* MaxStackSize */
      , (44293,  12,          1) /* StackSize */
+     , (44293,  13,          0) /* StackUnitEncumbrance */
+     , (44293,  15,          0) /* StackUnitValue */
      , (44293,  16,          8) /* ItemUseable - Contained */
      , (44293,  18,          2) /* UiEffects - Poisoned */
      , (44293,  19,          0) /* Value */
@@ -48,3 +50,6 @@ VALUES (44293, 8040, 3332964380, 81.06934, 92.42748, 42.079, 0.9038728, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44293, 8000, 2158509835) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44293, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

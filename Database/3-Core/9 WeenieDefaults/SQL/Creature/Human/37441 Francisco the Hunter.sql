@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37441;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37441, 'ace37441-franciscothehunter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37441, 'ace37441-franciscothehunter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37441,   1,         16) /* ItemType - Creature */
@@ -68,6 +68,10 @@ VALUES (37441,   1, 250, 0, 0) /* Strength */
      , (37441,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37441,   1,   165, 0, 0, 165) /* MaxHealth */
-     , (37441,   3,   240, 0, 0, 240) /* MaxStamina */
-     , (37441,   5,    40, 0, 0, 40) /* MaxMana */;
+VALUES (37441,   1,    10, 0, 0, 165) /* MaxHealth */
+     , (37441,   3,    10, 0, 0, 240) /* MaxStamina */
+     , (37441,   5,    10, 0, 0, 40) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37441, 2, 28815,  1, 0, 0, False) /* Create Kul'dir (28815) for Wield */
+     , (37441, 2, 32648,  1, 0, 0, False) /* Create Sickle (32648) for Wield */;

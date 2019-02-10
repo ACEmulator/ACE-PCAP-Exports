@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14930;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14930, 'plannerwedding', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14930, 'plannerwedding', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14930,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (14930,   1,  90, 0, 0) /* Strength */
      , (14930,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14930,   1,    55, 0, 0, 55) /* MaxHealth */
-     , (14930,   3,   100, 0, 0, 100) /* MaxStamina */
-     , (14930,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (14930,   1,    10, 0, 0, 55) /* MaxHealth */
+     , (14930,   3,    10, 0, 0, 100) /* MaxStamina */
+     , (14930,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14930, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38386;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38386, 'ace38386-skithkirit', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38386, 'ace38386-skithkirit', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38386,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38386, 8000, 3359206921) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38386,   1,  6000, 0, 0, 6000) /* MaxHealth */;
+VALUES (38386,   1,    10, 0, 0, 6000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38386, 2, 38923,  1, 0, 0, False) /* Create T'thuun Bow (38923) for Wield */
+     , (38386, 2, 47071,  1, 0, 0, False) /* Create Arrow (47071) for Wield */
+     , (38386, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (38386, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (38386, 9, 38374,  0, 0, 0, False) /* Create Skith'Kirit's Severed Head (38374) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38386, 67111941, 0, 0);

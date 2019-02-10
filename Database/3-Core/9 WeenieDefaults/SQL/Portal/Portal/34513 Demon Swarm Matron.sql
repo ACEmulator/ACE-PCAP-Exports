@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34513;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34513, 'ace34513-demonswarmmatron', 7) /* Portal */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34513, 'ace34513-demonswarmmatron', 7, '2019-02-10 05:41:14') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34513,   1,      65536) /* ItemType - Portal */
@@ -43,6 +43,14 @@ VALUES (34513, 8040, 11469097, 37.5, -50, 0, 0.7071068, 0, 0, -0.7071068) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34513, 8000, 1879765074) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34513, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (34513, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (34513, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */
+     , (34513, 9, 34451,  0, 0, 0, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */
+     , (34513, 9, 45112,  0, 0, 0, False) /* Create Shadow Blade of Frost (45112) for ContainTreasure */
+     , (34513, 9, 49221,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (80) (49221) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (34513, 0, 83893576, 83897667)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7790;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7790, 'clubspikedelectric', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7790, 'clubspikedelectric', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7790,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (7790,   1,          1) /* ItemType - MeleeWeapon */
      , (7790, 131,         23) /* MaterialType - GreenGarnet */
      , (7790, 151,          2) /* HookType - Wall */
      , (7790, 158,          2) /* WieldRequirements - RawSkill */
-     , (7790, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (7790, 159,         45) /* WieldSkillType - LightWeapons */
      , (7790, 160,        350) /* WieldDifficulty */
      , (7790, 172,          5) /* AppraisalLongDescDecoration */
      , (7790, 176,         45) /* AppraisalItemSkill */
@@ -70,12 +70,14 @@ VALUES (7790,   1,   33556659) /* Setup */
      , (7790, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7790,   2, 1980006465) /* Container */
-     , (7790, 8000, 3469922999) /* PCAPRecordedObjectIID */;
+VALUES (7790, 8000, 3469922999) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7790,  2096,      2) 
      , (7790,  2603,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7790, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7790, 67111922, 0, 0);

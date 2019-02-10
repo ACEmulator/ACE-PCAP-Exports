@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36021;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36021, 'ace36021-spectralheavyweaponmasterycrystal', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36021, 'ace36021-spectralheavyweaponmasterycrystal', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36021,   1,       2048) /* ItemType - Gem */
-     , (36021,   5,         15) /* EncumbranceVal */
+     , (36021,   5,          5) /* EncumbranceVal */
      , (36021,  11,        100) /* MaxStackSize */
-     , (36021,  12,          3) /* StackSize */
+     , (36021,  12,          1) /* StackSize */
+     , (36021,  13,          5) /* StackUnitEncumbrance */
+     , (36021,  15,          5) /* StackUnitValue */
      , (36021,  16,          8) /* ItemUseable - Contained */
      , (36021,  18,          1) /* UiEffects - Magical */
-     , (36021,  19,         15) /* Value */
+     , (36021,  19,          5) /* Value */
      , (36021,  33,          1) /* Bonded - Bonded */
      , (36021,  65,        101) /* Placement - Resting */
      , (36021,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -50,8 +52,7 @@ VALUES (36021,   1,   33554809) /* Setup */
      , (36021, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36021,   2, 1342589188) /* Container */
-     , (36021, 8000, 2466422492) /* PCAPRecordedObjectIID */;
+VALUES (36021, 8000, 2466422492) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36021,  4139,      2) ;

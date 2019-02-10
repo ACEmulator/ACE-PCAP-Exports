@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43140;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43140, 'ace43140-shieldofthegoldgear', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43140, 'ace43140-shieldofthegoldgear', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43140,   1,          2) /* ItemType - Armor */
@@ -19,10 +19,10 @@ VALUES (43140,   1,          2) /* ItemType - Armor */
      , (43140, 108,       3000) /* ItemMaxMana */
      , (43140, 151,          2) /* HookType - Wall */
      , (43140, 158,          7) /* WieldRequirements - Level */
-     , (43140, 159,          1) /* WieldSkilltype - Axe */
+     , (43140, 159,          1) /* WieldSkillType - Axe */
      , (43140, 160,        180) /* WieldDifficulty */
      , (43140, 270,          1) /* WieldRequirements2 - Skill */
-     , (43140, 271,         48) /* WieldSkilltype2 - Shield */
+     , (43140, 271,         48) /* WieldSkillType2 - Shield */
      , (43140, 272,        475) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,8 +58,7 @@ VALUES (43140,   1,   33561096) /* Setup */
      , (43140, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43140,   2, 2222480168) /* Container */
-     , (43140, 8000, 2224565127) /* PCAPRecordedObjectIID */;
+VALUES (43140, 8000, 2224565127) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43140,  4667,      2) 

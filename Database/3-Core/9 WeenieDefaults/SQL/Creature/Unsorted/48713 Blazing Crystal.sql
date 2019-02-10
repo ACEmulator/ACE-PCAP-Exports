@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48713;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48713, 'ace48713-blazingcrystal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48713, 'ace48713-blazingcrystal', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48713,   1,         16) /* ItemType - Creature */
@@ -44,6 +44,11 @@ VALUES (48713, 8040, 1482752333, 71.30726, -6.737144, 0.005190015, 0, 0, 0, -1) 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48713, 8000, 3709068147) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48713, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (48713, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (48713, 9, 48714,  0, 0, 0, False) /* Create Blazing Shard (48714) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48713, 67111921, 0, 0);

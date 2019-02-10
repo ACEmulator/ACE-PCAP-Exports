@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40678;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40678, 'ace40678-olthoigirth', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40678, 'ace40678-olthoigirth', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40678,   1,          2) /* ItemType - Armor */
@@ -23,13 +23,13 @@ VALUES (40678,   1,          2) /* ItemType - Armor */
      , (40678, 115,        236) /* ItemSkillLevelLimit */
      , (40678, 131,         64) /* MaterialType - Steel */
      , (40678, 158,          2) /* WieldRequirements - RawSkill */
-     , (40678, 159,          7) /* WieldSkilltype - MissileDefense */
+     , (40678, 159,          7) /* WieldSkillType - MissileDefense */
      , (40678, 160,        300) /* WieldDifficulty */
      , (40678, 172,          1) /* AppraisalLongDescDecoration */
      , (40678, 176,          7) /* AppraisalItemSkill */
      , (40678, 265,         26) /* EquipmentSetId - Flameproof */
      , (40678, 270,          7) /* WieldRequirements2 - Level */
-     , (40678, 271,          1) /* WieldSkilltype2 - Axe */
+     , (40678, 271,          1) /* WieldSkillType2 - Axe */
      , (40678, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -68,8 +68,7 @@ VALUES (40678,   1,   33554647) /* Setup */
      , (40678, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40678,   2, 1343487580) /* Container */
-     , (40678, 8000, 3487019341) /* PCAPRecordedObjectIID */;
+VALUES (40678, 8000, 3487019341) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40678,  2108,      2) 

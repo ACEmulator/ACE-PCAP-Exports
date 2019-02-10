@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46516;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46516, 'ace46516-spectralbushi', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46516, 'ace46516-spectralbushi', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46516,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46516, 8000, 3707863596) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46516,   1,  2850, 0, 0, 2850) /* MaxHealth */;
+VALUES (46516,   1,    10, 0, 0, 2850) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46516, 2, 46367,  1, 0, 0, False) /* Create Spectral Frost Tachi (46367) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46516, 67109964, 92, 4)

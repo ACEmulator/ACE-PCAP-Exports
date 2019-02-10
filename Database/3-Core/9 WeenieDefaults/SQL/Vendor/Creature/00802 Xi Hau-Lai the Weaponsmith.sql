@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 802;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (802, 'mayoiweaponsmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (802, 'mayoiweaponsmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (802,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (802,   1,  90, 0, 0) /* Strength */
      , (802,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (802,   1,   155, 0, 0, 155) /* MaxHealth */
-     , (802,   3,   190, 0, 0, 190) /* MaxStamina */
-     , (802,   5,    95, 0, 0, 95) /* MaxMana */;
+VALUES (802,   1,    10, 0, 0, 155) /* MaxHealth */
+     , (802,   3,    10, 0, 0, 190) /* MaxStamina */
+     , (802,   5,    10, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (802, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
+VALUES (802, 2,   327,  1, 0, 0, False) /* Create Ken (327) for Wield */
+     , (802, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
      , (802, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
      , (802, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
      , (802, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */

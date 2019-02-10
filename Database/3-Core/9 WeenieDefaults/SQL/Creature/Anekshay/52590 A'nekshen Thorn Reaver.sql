@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52590;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52590, 'ace52590-anekshenthornreaver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52590, 'ace52590-anekshenthornreaver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52590,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (52590,   1, True ) /* Stuck */
      , (52590,  13, False) /* Ethereal */
      , (52590,  14, True ) /* GravityStatus */
      , (52590,  19, True ) /* Attackable */
-     , (52590,  42, True ) /* AllowEdgeSlide */;
+     , (52590,  42, True ) /* AllowEdgeSlide */
+     , (52590, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52590,   1, 'A''nekshen Thorn Reaver') /* Name */
@@ -46,7 +47,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52590, 8000, 3684769602) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52590,   1,  8200, 0, 0, 8200) /* MaxHealth */;
+VALUES (52590,   1,    10, 0, 0, 8200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52590, 2, 52635,  1, 0, 0, False) /* Create Thorn Dagger (52635) for Wield */
+     , (52590, 2, 52636,  1, 0, 0, False) /* Create Thorn Dagger (52636) for Wield */
+     , (52590, 9,   273, 2072, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (52590, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (52590, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52590, 67110361, 72, 8)

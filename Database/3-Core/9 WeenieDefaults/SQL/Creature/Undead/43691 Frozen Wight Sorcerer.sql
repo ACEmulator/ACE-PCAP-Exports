@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43691;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43691, 'ace43691-frozenwightsorcerer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43691, 'ace43691-frozenwightsorcerer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43691,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,30 @@ VALUES (43691,   1, 240, 0, 0) /* Strength */
      , (43691,   6, 305, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43691,   1,  3500, 0, 0, 3500) /* MaxHealth */
-     , (43691,   3,  3220, 0, 0, 3220) /* MaxStamina */
-     , (43691,   5,  2305, 0, 0, 2305) /* MaxMana */;
+VALUES (43691,   1,    10, 0, 0, 3500) /* MaxHealth */
+     , (43691,   3,    10, 0, 0, 3220) /* MaxStamina */
+     , (43691,   5,    10, 0, 0, 2305) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43691, 9,   273, 3862, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (43691, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (43691, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (43691, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (43691, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (43691, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (43691, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (43691, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
+     , (43691, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (43691, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (43691, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (43691, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
+     , (43691, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */
+     , (43691, 9, 37301,  1, 0, 0, False) /* Create Glyph of Flame (37301) for ContainTreasure */
+     , (43691, 9, 37358,  1, 0, 0, False) /* Create Ink of Separation (37358) for ContainTreasure */
+     , (43691, 9, 40685,  0, 0, 0, False) /* Create Olthoi Gauntlets (40685) for ContainTreasure */
+     , (43691, 9, 45024,  0, 0, 0, False) /* Create Door Key (45024) for ContainTreasure */
+     , (43691, 9, 45025,  0, 0, 0, False) /* Create Door Key (45025) for ContainTreasure */
+     , (43691, 9, 46883,  0, 0, 0, False) /* Create Aura of Swift Killer Other VII (46883) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43691, 67113362, 0, 0);

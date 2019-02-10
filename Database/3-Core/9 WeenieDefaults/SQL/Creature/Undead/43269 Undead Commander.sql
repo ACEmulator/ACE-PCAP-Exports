@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43269;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43269, 'ace43269-undeadcommander', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43269, 'ace43269-undeadcommander', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43269,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,17 @@ VALUES (43269,   1, 500, 0, 0) /* Strength */
      , (43269,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43269,   1, 60250, 0, 0, 60250) /* MaxHealth */
-     , (43269,   3, 60500, 0, 0, 60500) /* MaxStamina */
-     , (43269,   5,  4450, 0, 0, 4450) /* MaxMana */;
+VALUES (43269,   1,    10, 0, 0, 60250) /* MaxHealth */
+     , (43269,   3,    10, 0, 0, 60500) /* MaxStamina */
+     , (43269,   5,    10, 0, 0, 4450) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43269, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (43269, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (43269, 9, 20418,  0, 0, 0, False) /* Create Scroll of Brogard's Defiance (20418) for ContainTreasure */
+     , (43269, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (43269, 9, 41262,  0, 0, 0, False) /* Create Scroll of Blessing of T'ing (41262) for ContainTreasure */
+     , (43269, 9, 49385,  0, 0, 0, False) /* Create Fire Grievver Essence (180) (49385) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43269, 67114694, 0, 0);

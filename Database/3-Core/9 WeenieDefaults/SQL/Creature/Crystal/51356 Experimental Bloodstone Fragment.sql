@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51356;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51356, 'ace51356-experimentalbloodstonefragment', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51356, 'ace51356-experimentalbloodstonefragment', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51356,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (51356,   1, True ) /* Stuck */
      , (51356,  12, True ) /* ReportCollisions */
      , (51356,  13, False) /* Ethereal */
      , (51356,  14, True ) /* GravityStatus */
-     , (51356,  19, True ) /* Attackable */;
+     , (51356,  19, True ) /* Attackable */
+     , (51356, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51356,   1, 'Experimental Bloodstone Fragment') /* Name */
@@ -43,4 +44,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51356, 8000, 3698968363) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51356,   1,  3000, 0, 0, 3000) /* MaxHealth */;
+VALUES (51356,   1,    10, 0, 0, 3000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51356, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (51356, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (51356, 9, 20537,  0, 0, 0, False) /* Create Scroll of Web of Defense (20537) for ContainTreasure */
+     , (51356, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (51356, 9, 37362,  1, 0, 0, False) /* Create Quill of Extraction (37362) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 975;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (975, 'samsurblacksmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (975, 'samsurblacksmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (975,   1,         16) /* ItemType - Creature */
@@ -66,9 +66,12 @@ VALUES (975,   1, 130, 0, 0) /* Strength */
      , (975,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (975,   1,   205, 0, 0, 205) /* MaxHealth */
-     , (975,   3,   250, 0, 0, 250) /* MaxStamina */
-     , (975,   5,   120, 0, 0, 120) /* MaxMana */;
+VALUES (975,   1,    10, 0, 0, 205) /* MaxHealth */
+     , (975,   3,    10, 0, 0, 250) /* MaxStamina */
+     , (975,   5,    10, 0, 0, 120) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (975, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (975, 67109550, 0, 24)

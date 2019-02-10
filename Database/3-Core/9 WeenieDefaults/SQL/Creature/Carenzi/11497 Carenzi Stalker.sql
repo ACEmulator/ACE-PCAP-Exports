@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11497;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11497, 'carenzistalker_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11497, 'carenzistalker_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11497,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,19 @@ VALUES (11497,   1, 140, 0, 0) /* Strength */
      , (11497,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11497,   1,   204, 0, 0, 204) /* MaxHealth */
-     , (11497,   3,   320, 0, 0, 320) /* MaxStamina */
-     , (11497,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (11497,   1,    10, 0, 0, 204) /* MaxHealth */
+     , (11497,   3,    10, 0, 0, 320) /* MaxStamina */
+     , (11497,   5,    10, 0, 0, 150) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11497, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (11497, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (11497, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (11497, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (11497, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (11497, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (11497, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (11497, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (11497, 9, 12235,  0, 0, 0, False) /* Create Carenzi Stalker Pelt (12235) for ContainTreasure */
+     , (11497, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (11497, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */;

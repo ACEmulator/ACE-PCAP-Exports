@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12264;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12264, 'virindidirectorsingular', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12264, 'virindidirectorsingular', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12264,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,15 @@ VALUES (12264,   1,  40, 0, 0) /* Strength */
      , (12264,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12264,   1,   145, 0, 0, 145) /* MaxHealth */
-     , (12264,   3,   150, 0, 0, 150) /* MaxStamina */
-     , (12264,   5,   550, 0, 0, 550) /* MaxMana */;
+VALUES (12264,   1,    10, 0, 0, 145) /* MaxHealth */
+     , (12264,   3,    10, 0, 0, 150) /* MaxStamina */
+     , (12264,   5,    10, 0, 0, 550) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (12264, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (12264, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (12264, 9,   273, 853, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (12264, 9,  3698,  1, 0, 0, False) /* Create White Jewel (3698) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12264, 67113396, 0, 0);

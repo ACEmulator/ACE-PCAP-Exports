@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12299;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12299, 'virindimastersingular', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12299, 'virindimastersingular', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12299,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,20 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12299, 8000, 3704103375) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12299,   1,   145, 0, 0, 145) /* MaxHealth */;
+VALUES (12299,   1,    10, 0, 0, 145) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (12299, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (12299, 9,   273, 296, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (12299, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
+     , (12299, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (12299, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (12299, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (12299, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (12299, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (12299, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (12299, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (12299, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12299, 67111815, 0, 0);

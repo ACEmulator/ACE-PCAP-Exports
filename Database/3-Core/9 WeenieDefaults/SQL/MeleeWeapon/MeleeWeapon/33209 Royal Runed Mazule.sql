@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33209;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33209, 'ace33209-royalrunedmazule', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33209, 'ace33209-royalrunedmazule', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33209,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (33209,   1,          1) /* ItemType - MeleeWeapon */
      , (33209, 109,          0) /* ItemDifficulty */
      , (33209, 151,          2) /* HookType - Wall */
      , (33209, 158,          7) /* WieldRequirements - Level */
-     , (33209, 159,          1) /* WieldSkilltype - Axe */
+     , (33209, 159,          1) /* WieldSkillType - Axe */
      , (33209, 160,        120) /* WieldDifficulty */
      , (33209, 353,          4) /* WeaponType - Mace */
      , (33209, 8030,          0);
@@ -58,7 +58,7 @@ VALUES (33209,   1,   33559934) /* Setup */
      , (33209,   8,  100686965) /* Icon */
      , (33209,  22,  872415275) /* PhysicsEffectTable */
      , (33209,  50,  100688914) /* IconOverlay */
-     , (33209,  55,       2074) /* ProcSpell */
+     , (33209,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (33209, 8001, 1344340504) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType, IconOverlay */
      , (33209, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33209, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;

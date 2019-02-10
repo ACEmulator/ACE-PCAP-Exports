@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1955;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1955, 'portalgateway', 7) /* Portal */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1955, 'portalgateway', 7, '2019-02-10 05:41:14') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1955,   1,      65536) /* ItemType - Portal */
@@ -43,3 +43,6 @@ VALUES (1955, 8040, 3409772585, 139.7829, 22.91368, 176.2991, 0.3420202, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1955, 8000, 3685036600) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1955, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

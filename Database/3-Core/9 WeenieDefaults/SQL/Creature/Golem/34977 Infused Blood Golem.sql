@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34977;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34977, 'ace34977-infusedbloodgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34977, 'ace34977-infusedbloodgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34977,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,25 @@ VALUES (34977,   1, 570, 0, 0) /* Strength */
      , (34977,   6, 405, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34977,   1,  1200, 0, 0, 1200) /* MaxHealth */
-     , (34977,   3,  1700, 0, 0, 1694) /* MaxStamina */
-     , (34977,   5,  3900, 0, 0, 3900) /* MaxMana */;
+VALUES (34977,   1,    10, 0, 0, 1200) /* MaxHealth */
+     , (34977,   3,    10, 0, 0, 1694) /* MaxStamina */
+     , (34977,   5,    10, 0, 0, 3900) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34977, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (34977, 9,   354,  0, 0, 0, False) /* Create Takuba (354) for ContainTreasure */
+     , (34977, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (34977, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (34977, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (34977, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (34977, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (34977, 9, 31814,  0, 0, 0, False) /* Create Dark Blunt Slingshot (31814) for ContainTreasure */
+     , (34977, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
+     , (34977, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (34977, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (34977, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
+     , (34977, 9, 49527,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (125) (49527) for ContainTreasure */
+     , (34977, 9, 49546,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (80) (49546) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34977, 67116622, 0, 0);

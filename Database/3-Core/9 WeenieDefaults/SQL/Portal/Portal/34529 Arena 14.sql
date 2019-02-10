@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34529;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34529, 'ace34529-arena14', 7) /* Portal */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34529, 'ace34529-arena14', 7, '2019-02-10 05:41:14') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34529,   1,      65536) /* ItemType - Portal */
@@ -37,3 +37,6 @@ VALUES (34529, 8040, 11534661, 30, -466, 0, 1, 0, 0, 0) /* PCAPRecordedLocation 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34529, 8000, 2447685227) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34529, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;

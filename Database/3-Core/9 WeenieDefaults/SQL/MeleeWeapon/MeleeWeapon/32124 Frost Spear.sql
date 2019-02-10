@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32124;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32124, 'ace32124-frostspear', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32124, 'ace32124-frostspear', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32124,   1,          1) /* ItemType - MeleeWeapon */
@@ -35,16 +35,18 @@ VALUES (32124,   1,   33555822) /* Setup */
      , (32124, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (32124, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32124, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (32124, 8009,          1);
+     , (32124, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32124, 8040, 11534656, 33.56147, -295.9977, 0.04673001, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00140 [33.561470 -295.997700 0.046730] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32124,   3, 2447686421) /* Wielder */
-     , (32124, 8000, 2447686422) /* PCAPRecordedObjectIID */
+VALUES (32124, 8000, 2447686422) /* PCAPRecordedObjectIID */
      , (32124, 8008, 2447686421) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32124, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32124, 67111920, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8468;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8468, 'sulthistendril', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8468, 'sulthistendril', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8468,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,9 @@ VALUES (8468,   1, 200, 0, 0) /* Strength */
      , (8468,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8468,   1,   195, 0, 0, 195) /* MaxHealth */
-     , (8468,   3,   340, 0, 0, 339) /* MaxStamina */
-     , (8468,   5,   400, 0, 0, 400) /* MaxMana */;
+VALUES (8468,   1,    10, 0, 0, 195) /* MaxHealth */
+     , (8468,   3,    10, 0, 0, 339) /* MaxStamina */
+     , (8468,   5,    10, 0, 0, 400) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8468, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */;

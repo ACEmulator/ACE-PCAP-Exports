@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 222;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (222, 'reedsharkveteran', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (222, 'reedsharkveteran', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (222,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,36 @@ VALUES (222,   1,  75, 0, 0) /* Strength */
      , (222,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (222,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (222,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (222,   5,    35, 0, 0, 35) /* MaxMana */;
+VALUES (222,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (222,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (222,   5,    10, 0, 0, 35) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (222, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (222, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (222, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (222, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (222, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (222, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (222, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (222, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (222, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (222, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (222, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (222, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (222, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (222, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (222, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (222, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (222, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (222, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (222, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (222, 9,  2882,  0, 0, 0, False) /* Create Aura of Swift Killer Self II (2882) for ContainTreasure */
+     , (222, 9,  3273,  0, 0, 0, False) /* Create Scroll of Healing Mastery Other II (3273) for ContainTreasure */
+     , (222, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (222, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (222, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (222, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (222, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
+     , (222, 9, 49289,  0, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for ContainTreasure */
+     , (222, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */;

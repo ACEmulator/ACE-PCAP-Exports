@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51663;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51663, 'ace51663-corruptgearsentry', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51663, 'ace51663-corruptgearsentry', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51663,   1,         16) /* ItemType - Creature */
@@ -56,7 +56,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51663, 8000, 3695147839) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51663,   1,  7375, 0, 0, 7375) /* MaxHealth */;
+VALUES (51663,   1,    10, 0, 0, 7375) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51663, 2, 51384,  1, 0, 0, False) /* Create Electric Gearknight Greatsword (51384) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51663, 67116865, 0, 24)

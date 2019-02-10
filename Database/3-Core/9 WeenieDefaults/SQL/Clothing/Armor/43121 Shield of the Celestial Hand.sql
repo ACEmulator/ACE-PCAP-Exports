@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43121;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43121, 'ace43121-shieldofthecelestialhand', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43121, 'ace43121-shieldofthecelestialhand', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43121,   1,          2) /* ItemType - Armor */
@@ -18,10 +18,10 @@ VALUES (43121,   1,          2) /* ItemType - Armor */
      , (43121, 108,       3000) /* ItemMaxMana */
      , (43121, 151,          2) /* HookType - Wall */
      , (43121, 158,          9) /* WieldRequirements - IntStat */
-     , (43121, 159,        287) /* WieldSkilltype */
+     , (43121, 159,        287) /* WieldSkillType */
      , (43121, 160,       1001) /* WieldDifficulty */
      , (43121, 270,          1) /* WieldRequirements2 - Skill */
-     , (43121, 271,         48) /* WieldSkilltype2 - Shield */
+     , (43121, 271,         48) /* WieldSkillType2 - Shield */
      , (43121, 272,        475) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -57,8 +57,7 @@ VALUES (43121,   1,   33560663) /* Setup */
      , (43121, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43121,   2, 1343188955) /* Container */
-     , (43121, 8000, 2461328075) /* PCAPRecordedObjectIID */;
+VALUES (43121, 8000, 2461328075) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43121,  4667,      2) 

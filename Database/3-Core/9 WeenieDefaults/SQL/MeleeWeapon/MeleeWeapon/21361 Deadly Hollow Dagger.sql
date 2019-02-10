@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21361;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21361, 'daggerhollownew', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21361, 'daggerhollownew', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21361,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (21361,   1,          1) /* ItemType - MeleeWeapon */
      , (21361, 114,          0) /* Attuned - Normal */
      , (21361, 151,          2) /* HookType - Wall */
      , (21361, 158,          2) /* WieldRequirements - RawSkill */
-     , (21361, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (21361, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (21361, 160,        250) /* WieldDifficulty */
      , (21361, 353,          6) /* WeaponType - Dagger */
      , (21361, 8030,          0);
@@ -62,13 +62,12 @@ VALUES (21361,   1,   33556650) /* Setup */
      , (21361, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (21361, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21361, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (21361, 8009,          1);
+     , (21361, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21361, 8040, 2847080479, 13.22165, 35.3875, 93.92901, 0.6830127, 0.6830127, -0.1830127, -0.1830127) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B3001F [13.221650 35.387500 93.929010] 0.683013 0.683013 -0.183013 -0.183013 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21361,   3, 1344171019) /* Wielder */
-     , (21361, 8000, 3370949114) /* PCAPRecordedObjectIID */
+VALUES (21361, 8000, 3370949114) /* PCAPRecordedObjectIID */
      , (21361, 8008, 1344171019) /* PCAPRecordedParentIID */;

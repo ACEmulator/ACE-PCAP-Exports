@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4725;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4725, 'fishpie', 18) /* Food */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4725, 'fishpie', 18, '2019-02-10 05:41:14') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4725,   1,         32) /* ItemType - Food */
-     , (4725,   5,       5550) /* EncumbranceVal */
+     , (4725,   5,         75) /* EncumbranceVal */
      , (4725,  11,        100) /* MaxStackSize */
-     , (4725,  12,         74) /* StackSize */
+     , (4725,  12,          1) /* StackSize */
+     , (4725,  13,         75) /* StackUnitEncumbrance */
+     , (4725,  15,         30) /* StackUnitValue */
      , (4725,  16,          8) /* ItemUseable - Contained */
-     , (4725,  19,       2220) /* Value */
+     , (4725,  19,         30) /* Value */
      , (4725,  65,        101) /* Placement - Resting */
      , (4725,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 

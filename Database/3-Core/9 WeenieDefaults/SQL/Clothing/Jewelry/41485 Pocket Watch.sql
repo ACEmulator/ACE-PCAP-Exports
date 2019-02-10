@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41485;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41485, 'ace41485-pocketwatch', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41485, 'ace41485-pocketwatch', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41485,   1,          8) /* ItemType - Jewelry */
@@ -52,12 +52,15 @@ VALUES (41485,   1,   33554680) /* Setup */
      , (41485, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41485,   2, 3701259149) /* Container */
-     , (41485, 8000, 3701259151) /* PCAPRecordedObjectIID */;
+VALUES (41485, 8000, 3701259151) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41485,  1114,      2) 
      , (41485,  5072,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41485, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (41485, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41485, 67111927, 0, 0);

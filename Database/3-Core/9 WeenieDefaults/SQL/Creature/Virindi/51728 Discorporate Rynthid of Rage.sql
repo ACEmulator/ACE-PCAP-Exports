@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51728;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51728, 'ace51728-discorporaterynthidofrage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51728, 'ace51728-discorporaterynthidofrage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51728,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (51728,   1, True ) /* Stuck */
      , (51728,  13, False) /* Ethereal */
      , (51728,  14, True ) /* GravityStatus */
      , (51728,  19, True ) /* Attackable */
-     , (51728,  42, True ) /* AllowEdgeSlide */;
+     , (51728,  42, True ) /* AllowEdgeSlide */
+     , (51728, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51728,  77,       1) /* PhysicsScriptIntensity */;
@@ -49,7 +50,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51728, 8000, 3707732809) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51728,   1,   100, 0, 0, 100) /* MaxHealth */;
+VALUES (51728,   1,    10, 0, 0, 100) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51728, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (51728, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (51728, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (51728, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51728, 67117140, 0, 0);

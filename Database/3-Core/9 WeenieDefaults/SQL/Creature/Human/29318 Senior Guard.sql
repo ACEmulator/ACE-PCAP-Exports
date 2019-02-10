@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29318;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29318, 'academyguardsenior', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29318, 'academyguardsenior', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29318,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (29318,   1, 250, 0, 0) /* Strength */
      , (29318,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29318,   1,   335, 0, 0, 335) /* MaxHealth */
-     , (29318,   3,   470, 0, 0, 470) /* MaxStamina */
-     , (29318,   5,   480, 0, 0, 480) /* MaxMana */;
+VALUES (29318,   1,    10, 0, 0, 335) /* MaxHealth */
+     , (29318,   3,    10, 0, 0, 470) /* MaxStamina */
+     , (29318,   5,    10, 0, 0, 480) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29318, 2, 27849,  1, 0, 0, False) /* Create Singularity Sword (27849) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29318, 67109561, 0, 24)

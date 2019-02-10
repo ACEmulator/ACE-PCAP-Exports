@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40784;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40784, 'ace40784-spectralprogenitor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40784, 'ace40784-spectralprogenitor', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40784,   1,         16) /* ItemType - Creature */
@@ -51,6 +51,13 @@ VALUES (40784,   1, 200, 0, 0) /* Strength */
      , (40784,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40784,   1,  3120, 0, 0, 3120) /* MaxHealth */
-     , (40784,   3,  2220, 0, 0, 2220) /* MaxStamina */
-     , (40784,   5,  1570, 0, 0, 1328) /* MaxMana */;
+VALUES (40784,   1,    10, 0, 0, 3120) /* MaxHealth */
+     , (40784,   3,    10, 0, 0, 2220) /* MaxStamina */
+     , (40784,   5,    10, 0, 0, 1328) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40784, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (40784, 9, 30561,  0, 0, 0, False) /* Create Dolabra (30561) for ContainTreasure */
+     , (40784, 9, 40100,  1, 0, 0, False) /* Create Crystalline Shard (40100) for ContainTreasure */
+     , (40784, 9, 40796,  1, 0, 0, False) /* Create Progenitor Crystal (40796) for ContainTreasure */
+     , (40784, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */;

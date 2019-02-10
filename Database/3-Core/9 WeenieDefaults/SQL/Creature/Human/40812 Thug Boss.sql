@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40812;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40812, 'ace40812-thugboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40812, 'ace40812-thugboss', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40812,   1,         16) /* ItemType - Creature */
@@ -52,4 +52,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40812, 8000, 3692639293) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40812,   1,  2075, 0, 0, 2075) /* MaxHealth */;
+VALUES (40812,   1,    10, 0, 0, 2075) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40812, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+     , (40812, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
+     , (40812, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */;

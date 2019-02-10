@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6381;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6381, 'lightningelementalspark', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6381, 'lightningelementalspark', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6381,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (6381,   1, True ) /* Stuck */
      , (6381,  13, False) /* Ethereal */
      , (6381,  14, True ) /* GravityStatus */
      , (6381,  15, True ) /* LightsStatus */
-     , (6381,  19, True ) /* Attackable */;
+     , (6381,  19, True ) /* Attackable */
+     , (6381, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6381,   1, 'Spark') /* Name */
@@ -53,6 +54,10 @@ VALUES (6381,   1,  60, 0, 0) /* Strength */
      , (6381,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6381,   1,    70, 0, 0, 70) /* MaxHealth */
-     , (6381,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (6381,   5,   180, 0, 0, 180) /* MaxMana */;
+VALUES (6381,   1,    10, 0, 0, 70) /* MaxHealth */
+     , (6381,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (6381,   5,    10, 0, 0, 180) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6381, 9,   273, 88, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (6381, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;

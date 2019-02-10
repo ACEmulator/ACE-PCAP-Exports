@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31876;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31876, 'ace31876-burlizk', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31876, 'ace31876-burlizk', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31876,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,12 @@ VALUES (31876,   1, 380, 0, 0) /* Strength */
      , (31876,   6, 420, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31876,   1,  8000, 0, 0, 8000) /* MaxHealth */
-     , (31876,   3,  5000, 0, 0, 4997) /* MaxStamina */
-     , (31876,   5,  4500, 0, 0, 4442) /* MaxMana */;
+VALUES (31876,   1,    10, 0, 0, 8000) /* MaxHealth */
+     , (31876,   3,    10, 0, 0, 4997) /* MaxStamina */
+     , (31876,   5,    10, 0, 0, 4442) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31876, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31876, 67114479, 0, 0);

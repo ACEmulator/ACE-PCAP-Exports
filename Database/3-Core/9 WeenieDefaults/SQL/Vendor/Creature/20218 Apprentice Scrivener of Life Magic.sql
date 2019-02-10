@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20218;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20218, 'scrivenerlife2starter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20218, 'scrivenerlife2starter', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20218,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (20218,   1,  90, 0, 0) /* Strength */
      , (20218,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20218,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (20218,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (20218,   5,   215, 0, 0, 215) /* MaxMana */;
+VALUES (20218,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (20218,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (20218,   5,    10, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20218, 4,  2664, -1, 0, 0, False) /* Create Scroll of Enfeeble Other II (2664) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43271;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43271, 'ace43271-filinuvektaexarch', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43271, 'ace43271-filinuvektaexarch', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43271,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,20 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43271, 8000, 2629563307) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43271,   1, 150000, 0, 0, 150000) /* MaxHealth */;
+VALUES (43271,   1,    10, 0, 0, 150000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43271, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (43271, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (43271, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (43271, 9, 20490,  0, 0, 0, False) /* Create Scroll of Battlemage's Blessing (20490) for ContainTreasure */
+     , (43271, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (43271, 9, 22123,  0, 0, 0, False) /* Create Empyrean Robe (22123) for ContainTreasure */
+     , (43271, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */
+     , (43271, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */
+     , (43271, 9, 30591,  0, 0, 0, False) /* Create Partizan (30591) for ContainTreasure */
+     , (43271, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
+     , (43271, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43271, 67110022, 168, 6)

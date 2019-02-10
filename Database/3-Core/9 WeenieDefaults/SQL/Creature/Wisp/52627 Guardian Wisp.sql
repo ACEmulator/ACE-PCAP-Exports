@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52627;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52627, 'ace52627-guardianwisp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52627, 'ace52627-guardianwisp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52627,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (52627,   1, True ) /* Stuck */
      , (52627,  13, False) /* Ethereal */
      , (52627,  14, True ) /* GravityStatus */
      , (52627,  19, True ) /* Attackable */
-     , (52627,  42, True ) /* AllowEdgeSlide */;
+     , (52627,  42, True ) /* AllowEdgeSlide */
+     , (52627, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52627,  39, 1.29999995231628) /* DefaultScale */;
@@ -48,4 +49,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52627, 8000, 3684131507) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52627,   1, 20200, 0, 0, 20200) /* MaxHealth */;
+VALUES (52627,   1,    10, 0, 0, 20200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52627, 9,   273, 4092, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (52627, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (52627, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (52627, 9, 37211,  0, 0, 0, False) /* Create Olthoi Sollerets (37211) for ContainTreasure */
+     , (52627, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
+     , (52627, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
+     , (52627, 9, 37365,  1, 0, 0, False) /* Create Quill of Benevolence (37365) for ContainTreasure */;

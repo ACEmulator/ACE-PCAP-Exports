@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8431;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8431, 'mumiyahnomad', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8431, 'mumiyahnomad', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8431,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,21 @@ VALUES (8431,   1, 120, 0, 0) /* Strength */
      , (8431,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8431,   1,   375, 0, 0, 375) /* MaxHealth */
-     , (8431,   3,   530, 0, 0, 530) /* MaxStamina */
-     , (8431,   5,   470, 0, 0, 470) /* MaxMana */;
+VALUES (8431,   1,    10, 0, 0, 375) /* MaxHealth */
+     , (8431,   3,    10, 0, 0, 530) /* MaxStamina */
+     , (8431,   5,    10, 0, 0, 470) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8431, 9,   273, 2960, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (8431, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (8431, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (8431, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (8431, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (8431, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (8431, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (8431, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (8431, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (8431, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8431, 67111813, 0, 0);

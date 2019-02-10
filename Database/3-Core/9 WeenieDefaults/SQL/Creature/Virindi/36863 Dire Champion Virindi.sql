@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36863;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36863, 'ace36863-direchampionvirindi', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36863, 'ace36863-direchampionvirindi', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36863,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36863, 8000, 3352207495) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36863,   1,  1800, 0, 0, 1800) /* MaxHealth */;
+VALUES (36863,   1,    10, 0, 0, 1800) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36863, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (36863, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (36863, 9,  3897,  0, 0, 0, False) /* Create Acid Tofun (3897) for ContainTreasure */
+     , (36863, 9, 20246,  0, 0, 0, False) /* Create Scroll of Gossamer Flesh (20246) for ContainTreasure */
+     , (36863, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36863, 67114251, 0, 0);

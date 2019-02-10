@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36827;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36827, 'ace36827-acidiccoralgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36827, 'ace36827-acidiccoralgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36827,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,25 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36827, 8000, 3696047719) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36827,   1,   555, 0, 0, 555) /* MaxHealth */;
+VALUES (36827,   1,    10, 0, 0, 555) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36827, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (36827, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (36827, 9,   273, 694, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (36827, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (36827, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (36827, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (36827, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (36827, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (36827, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (36827, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (36827, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (36827, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (36827, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (36827, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (36827, 9, 30909,  0, 0, 0, False) /* Create Halaetan Magic Page 4 (30909) for ContainTreasure */
+     , (36827, 9, 41065,  0, 0, 0, False) /* Create Flaming Nodachi (41065) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36827, 67112892, 0, 0);

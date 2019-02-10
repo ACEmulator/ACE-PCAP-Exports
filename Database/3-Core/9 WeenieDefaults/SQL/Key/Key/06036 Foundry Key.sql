@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6036;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6036, 'keyempyreanfoundry', 22) /* Key */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6036, 'keyempyreanfoundry', 22, '2019-02-10 05:41:14') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6036,   1,      16384) /* ItemType - Key */
@@ -10,7 +10,7 @@ VALUES (6036,   1,      16384) /* ItemType - Key */
      , (6036,  19,         15) /* Value */
      , (6036,  65,        101) /* Placement - Resting */
      , (6036,  91,          2) /* MaxStructure */
-     , (6036,  92,          1) /* Structure */
+     , (6036,  92,          2) /* Structure */
      , (6036,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6036,  94,        640) /* TargetType - LockableMagicTarget */;
 
@@ -38,5 +38,4 @@ VALUES (6036,   1,   33554784) /* Setup */
      , (6036, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6036,   2, 2925380376) /* Container */
-     , (6036, 8000, 2925380377) /* PCAPRecordedObjectIID */;
+VALUES (6036, 8000, 2925380377) /* PCAPRecordedObjectIID */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22168;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22168, 'quarterstaffnew', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22168, 'quarterstaffnew', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22168,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (22168,   1,          1) /* ItemType - MeleeWeapon */
      , (22168, 131,         76) /* MaterialType - Pine */
      , (22168, 151,          2) /* HookType - Wall */
      , (22168, 158,          2) /* WieldRequirements - RawSkill */
-     , (22168, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (22168, 159,         45) /* WieldSkillType - LightWeapons */
      , (22168, 160,        300) /* WieldDifficulty */
      , (22168, 172,          5) /* AppraisalLongDescDecoration */
      , (22168, 176,         45) /* AppraisalItemSkill */
@@ -69,21 +69,23 @@ VALUES (22168,   1,   33558562) /* Setup */
      , (22168, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (22168, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22168, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (22168, 8009,          1);
+     , (22168, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22168, 8040, 23855473, 12.8773, -54.59282, -0.071, 0.002673675, 0.002673675, -0.7071017, -0.7071017) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [12.877300 -54.592820 -0.071000] 0.002674 0.002674 -0.707102 -0.707102 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22168,   3, 1343410786) /* Wielder */
-     , (22168, 8000, 2200012867) /* PCAPRecordedObjectIID */
+VALUES (22168, 8000, 2200012867) /* PCAPRecordedObjectIID */
      , (22168, 8008, 1343410786) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22168,  1591,      2) 
      , (22168,  1616,      2) 
      , (22168,  5884,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22168, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22168, 67111921, 0, 0);

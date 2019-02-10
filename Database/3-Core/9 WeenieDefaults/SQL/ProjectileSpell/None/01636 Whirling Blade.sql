@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1636;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1636, 'whirlingblade', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1636, 'whirlingblade', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1636,   1,          0) /* ItemType - None */
@@ -49,3 +49,34 @@ VALUES (1636, 8040, 2458255371, 40.37815, 59.44172, 33.85108, 0.996205, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1636, 8000, 3685439944) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1636, 2,  7577,  1, 0, 0, False) /* Create Lugian Axe (7577) for Wield */
+     , (1636, 2, 11913,  1, 0, 0, False) /* Create Lance of the Quiddity (11913) for Wield */
+     , (1636, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (1636, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (1636, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
+     , (1636, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
+     , (1636, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */
+     , (1636, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (1636, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (1636, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (1636, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (1636, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (1636, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (1636, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
+     , (1636, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */
+     , (1636, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (1636, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (1636, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */
+     , (1636, 2, 47236,  1, 0, 0, False) /* Create Acid Board with Nail (47236) for Wield */
+     , (1636, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
+     , (1636, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (1636, 2, 47539,  1, 0, 0, False) /* Create Javelin (47539) for Wield */
+     , (1636, 2, 47630,  1, 0, 0, False) /* Create Acid Tachi (47630) for Wield */
+     , (1636, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (1636, 2, 47729,  1, 0, 0, False) /* Create Spear (47729) for Wield */
+     , (1636, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (1636, 2, 47955,  1, 0, 0, False) /* Create Silifi (47955) for Wield */
+     , (1636, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
+     , (1636, 2, 48995,  1, 0, 0, False) /* Create Frost Hatchet (48995) for Wield */;

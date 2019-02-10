@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7433;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7433, 'zombiesoulfearingacolytetower3', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7433, 'zombiesoulfearingacolytetower3', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7433,   1,         16) /* ItemType - Creature */
@@ -45,7 +45,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7433, 8000, 2780104220) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7433,   1,    90, 0, 0, 90) /* MaxHealth */;
+VALUES (7433,   1,    10, 0, 0, 90) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7433, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (7433, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (7433, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
+     , (7433, 2, 47887,  1, 0, 0, False) /* Create Acid Quarrel (47887) for Wield */
+     , (7433, 2, 47891,  1, 0, 0, False) /* Create Lightning Katar (47891) for Wield */
+     , (7433, 2, 47892,  1, 0, 0, False) /* Create Nekode (47892) for Wield */
+     , (7433, 2, 47894,  1, 0, 0, False) /* Create Lightning Nekode (47894) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7433, 67111341, 0, 0);

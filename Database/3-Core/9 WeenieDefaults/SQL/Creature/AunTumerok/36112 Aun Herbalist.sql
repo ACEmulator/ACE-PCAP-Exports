@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36112;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36112, 'ace36112-aunherbalist', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36112, 'ace36112-aunherbalist', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36112,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36112, 8000, 3706905769) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36112,   1,   425, 0, 0, 425) /* MaxHealth */;
+VALUES (36112,   1,    10, 0, 0, 425) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36112, 2, 11971,  1, 0, 0, False) /* Create Buadren (11971) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36112, 67113367, 0, 0);

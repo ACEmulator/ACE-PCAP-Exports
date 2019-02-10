@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3850;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (3850, 'scimitarelectric', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (3850, 'scimitarelectric', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3850,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,7 @@ VALUES (3850,   1,          1) /* ItemType - MeleeWeapon */
      , (3850, 131,         63) /* MaterialType - Silver */
      , (3850, 151,          2) /* HookType - Wall */
      , (3850, 158,          2) /* WieldRequirements - RawSkill */
-     , (3850, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (3850, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3850, 160,        350) /* WieldDifficulty */
      , (3850, 172,          5) /* AppraisalLongDescDecoration */
      , (3850, 177,          3) /* GemCount */
@@ -63,5 +63,7 @@ VALUES (3850,   1,   33555782) /* Setup */
      , (3850, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3850,   2, 3666812288) /* Container */
-     , (3850, 8000, 2174540959) /* PCAPRecordedObjectIID */;
+VALUES (3850, 8000, 2174540959) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (3850, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42754;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42754, 'ace42754-haebreanpauldrons', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42754, 'ace42754-haebreanpauldrons', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42754,   1,          2) /* ItemType - Armor */
@@ -16,7 +16,7 @@ VALUES (42754,   1,          2) /* ItemType - Armor */
      , (42754, 105,          6) /* ItemWorkmanship */
      , (42754, 131,         63) /* MaterialType - Silver */
      , (42754, 158,          7) /* WieldRequirements - Level */
-     , (42754, 159,          1) /* WieldSkilltype - Axe */
+     , (42754, 159,          1) /* WieldSkillType - Axe */
      , (42754, 160,        150) /* WieldDifficulty */
      , (42754, 172,          1) /* AppraisalLongDescDecoration */;
 
@@ -56,8 +56,7 @@ VALUES (42754,   1,   33554641) /* Setup */
      , (42754, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42754,   2, 3707427473) /* Container */
-     , (42754, 8000, 3707414143) /* PCAPRecordedObjectIID */;
+VALUES (42754, 8000, 3707414143) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42754, 67110007, 128, 8)

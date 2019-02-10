@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7348;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7348, 'zombiesoulfearingacolytearea1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7348, 'zombiesoulfearingacolytearea1', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7348,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,39 @@ VALUES (7348,   1, 110, 0, 0) /* Strength */
      , (7348,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7348,   1,   175, 0, 0, 0) /* MaxHealth */
-     , (7348,   3,   330, 0, 0, 328) /* MaxStamina */
-     , (7348,   5,   285, 0, 0, 270) /* MaxMana */;
+VALUES (7348,   1,    10, 0, 0, 0) /* MaxHealth */
+     , (7348,   3,    10, 0, 0, 328) /* MaxStamina */
+     , (7348,   5,    10, 0, 0, 270) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7348, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (7348, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (7348, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (7348, 2, 47931,  1, 0, 0, False) /* Create Quarrel (47931) for Wield */
+     , (7348, 2, 47935,  1, 0, 0, False) /* Create Katar (47935) for Wield */
+     , (7348, 2, 47939,  1, 0, 0, False) /* Create Lightning Nekode (47939) for Wield */
+     , (7348, 2, 47943,  1, 0, 0, False) /* Create Ono (47943) for Wield */
+     , (7348, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (7348, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
+     , (7348, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (7348, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (7348, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (7348, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (7348, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (7348, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
+     , (7348, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (7348, 9,  2706,  0, 0, 0, False) /* Create Scroll of Imperil Other VI (2706) for ContainTreasure */
+     , (7348, 9,  2781,  0, 0, 0, False) /* Create Scroll of Blade Lure VI (2781) for ContainTreasure */
+     , (7348, 9,  3322,  0, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other VI (3322) for ContainTreasure */
+     , (7348, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
+     , (7348, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
+     , (7348, 9,  8934,  0, 0, 0, False) /* Create Scroll of Force Streak VI (8934) for ContainTreasure */
+     , (7348, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (7348, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7348, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
+     , (7348, 9, 45110,  0, 0, 0, False) /* Create Lightning Schlager (45110) for ContainTreasure */
+     , (7348, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
+     , (7348, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7348, 67111341, 0, 0);

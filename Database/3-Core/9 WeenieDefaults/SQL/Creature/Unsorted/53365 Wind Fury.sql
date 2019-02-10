@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53365;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (53365, 'ace53365-windfury', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (53365, 'ace53365-windfury', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53365,   1,         16) /* ItemType - Creature */
@@ -44,6 +44,9 @@ VALUES (53365, 8040, 3058237456, 29.70089, 174.0659, 118.006, 1, 0, 0, 0) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (53365, 8000, 2885545073) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (53365, 2, 52633,  1, 0, 0, False) /* Create A'nekshen Stormwood Spear (52633) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53365, 67110361, 72, 8)

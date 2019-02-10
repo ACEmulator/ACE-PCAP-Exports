@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39157;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (39157, 'ace39157-sclavusraider', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (39157, 'ace39157-sclavusraider', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39157,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,10 @@ VALUES (39157, 8040, 13304105, 39.9943, -63.17473, -30, 0.03973381, 0, 0, -0.999
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39157, 8000, 3332247532) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (39157, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (39157, 2, 48041,  1, 0, 0, False) /* Create Nekode (48041) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39157, 67111941, 0, 0);

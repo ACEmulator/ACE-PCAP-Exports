@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9465;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9465, 'lugianlieutenantc', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9465, 'lugianlieutenantc', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9465,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,24 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9465, 8000, 2448312465) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9465,   1,   550, 0, 0, 550) /* MaxHealth */;
+VALUES (9465,   1,    10, 0, 0, 550) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9465, 2, 23739,  1, 0, 0, False) /* Create Lugian Axe (23739) for Wield */
+     , (9465, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
+     , (9465, 2, 23763,  1, 0, 0, False) /* Create Lugian Morning Star (23763) for Wield */
+     , (9465, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (9465, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
+     , (9465, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (9465, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (9465, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (9465, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (9465, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (9465, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (9465, 9,  9468,  0, 0, 0, False) /* Create Blade of the Heart (9468) for ContainTreasure */
+     , (9465, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
+     , (9465, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (9465, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9465, 67114973, 0, 0);

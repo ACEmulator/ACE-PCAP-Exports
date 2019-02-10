@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11895;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11895, 'tumerokhaft', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11895, 'tumerokhaft', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11895,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,31 @@ VALUES (11895,   1, 100, 0, 0) /* Strength */
      , (11895,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11895,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (11895,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (11895,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (11895,   1,    10, 0, 0, 110) /* MaxHealth */
+     , (11895,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (11895,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11895, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (11895, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (11895, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (11895, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (11895, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (11895, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (11895, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (11895, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (11895, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (11895, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (11895, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
+     , (11895, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (11895, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
+     , (11895, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (11895, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
+     , (11895, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
+     , (11895, 2, 11893,  1, 0, 0, False) /* Create Balister of the Quiddity (11893) for Wield */
+     , (11895, 2, 11908,  1, 0, 0, False) /* Create Mace of the Quiddity (11908) for Wield */
+     , (11895, 2, 11914,  1, 0, 0, False) /* Create Lance of the Quiddity (11914) for Wield */
+     , (11895, 2, 11917,  1, 0, 0, False) /* Create Blade of the Quiddity (11917) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11895, 67116625, 105, 48)

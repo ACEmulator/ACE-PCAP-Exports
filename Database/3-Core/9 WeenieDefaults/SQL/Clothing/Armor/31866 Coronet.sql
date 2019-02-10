@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31866;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31866, 'ace31866-coronet', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31866, 'ace31866-coronet', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31866,   1,          2) /* ItemType - Armor */
@@ -63,14 +63,16 @@ VALUES (31866,   1,   33559740) /* Setup */
      , (31866, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31866,   2, 3690156754) /* Container */
-     , (31866, 8000, 3690154713) /* PCAPRecordedObjectIID */;
+VALUES (31866, 8000, 3690154713) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31866,   855,      2) 
      , (31866,  1486,      2) 
      , (31866,  2104,      2) 
      , (31866,  2621,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31866, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31866, 67110323, 240, 10)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35140;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35140, 'ace35140-mosswartscrounger', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35140, 'ace35140-mosswartscrounger', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35140,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,14 @@ VALUES (35140,   1, 450, 0, 0) /* Strength */
      , (35140,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35140,   1,   245, 0, 0, 245) /* MaxHealth */
-     , (35140,   3,   410, 0, 0, 410) /* MaxStamina */
-     , (35140,   5,   400, 0, 0, 400) /* MaxMana */;
+VALUES (35140,   1,    10, 0, 0, 245) /* MaxHealth */
+     , (35140,   3,    10, 0, 0, 410) /* MaxStamina */
+     , (35140,   5,    10, 0, 0, 400) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35140, 2, 23699,  1, 0, 0, False) /* Create Tachi (23699) for Wield */
+     , (35140, 2, 23709,  1, 0, 0, False) /* Create Yaoji (23709) for Wield */
+     , (35140, 2, 23721,  1, 0, 0, False) /* Create Acid Yari (23721) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35140, 67115240, 0, 0);

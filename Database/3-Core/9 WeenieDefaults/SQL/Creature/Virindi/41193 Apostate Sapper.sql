@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41193;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41193, 'ace41193-apostatesapper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41193, 'ace41193-apostatesapper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41193,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,26 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41193, 8000, 3703500605) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41193,   1,  1000, 0, 0, 1000) /* MaxHealth */;
+VALUES (41193,   1,    10, 0, 0, 1000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41193, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (41193, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (41193, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (41193, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (41193, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (41193, 9,   354,  0, 0, 0, False) /* Create Takuba (354) for ContainTreasure */
+     , (41193, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (41193, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (41193, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (41193, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (41193, 9,  3883,  0, 0, 0, False) /* Create Flaming Long Sword (3883) for ContainTreasure */
+     , (41193, 9,  3905,  0, 0, 0, False) /* Create Acid War Hammer (3905) for ContainTreasure */
+     , (41193, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (41193, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (41193, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (41193, 9, 30582,  0, 0, 0, False) /* Create Lightning Mazule (30582) for ContainTreasure */
+     , (41193, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41193, 67113145, 0, 0);

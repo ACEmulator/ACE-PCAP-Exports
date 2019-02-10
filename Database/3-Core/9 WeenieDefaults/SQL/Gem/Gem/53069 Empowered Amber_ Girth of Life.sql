@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53069;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (53069, 'ace53069-empoweredambergirthoflife', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (53069, 'ace53069-empoweredambergirthoflife', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53069,   1,       2048) /* ItemType - Gem */
-     , (53069,   5,       1400) /* EncumbranceVal */
+     , (53069,   5,        100) /* EncumbranceVal */
      , (53069,  11,        100) /* MaxStackSize */
-     , (53069,  12,         14) /* StackSize */
+     , (53069,  12,          1) /* StackSize */
+     , (53069,  13,        100) /* StackUnitEncumbrance */
+     , (53069,  15,         25) /* StackUnitValue */
      , (53069,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (53069,  18,        256) /* UiEffects - Acid */
-     , (53069,  19,        350) /* Value */
+     , (53069,  19,         25) /* Value */
      , (53069,  65,        101) /* Placement - Resting */
      , (53069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53069,  94,          6) /* TargetType - Vestements */;
@@ -37,8 +39,7 @@ VALUES (53069,   1,   33554809) /* Setup */
      , (53069, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53069,   2, 2936574794) /* Container */
-     , (53069, 8000, 2955208686) /* PCAPRecordedObjectIID */;
+VALUES (53069, 8000, 2955208686) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53069, 67111921, 0, 0);

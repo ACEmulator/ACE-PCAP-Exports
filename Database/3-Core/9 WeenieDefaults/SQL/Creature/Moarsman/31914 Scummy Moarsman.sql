@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31914;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31914, 'ace31914-scummymoarsman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31914, 'ace31914-scummymoarsman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31914,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,28 @@ VALUES (31914,   1, 200, 0, 0) /* Strength */
      , (31914,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31914,   1,   800, 0, 0, 800) /* MaxHealth */
-     , (31914,   3,  1000, 0, 0, 1000) /* MaxStamina */
-     , (31914,   5,   320, 0, 0, 320) /* MaxMana */;
+VALUES (31914,   1,    10, 0, 0, 800) /* MaxHealth */
+     , (31914,   3,    10, 0, 0, 1000) /* MaxStamina */
+     , (31914,   5,    10, 0, 0, 320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31914, 9,    51,  0, 0, 0, False) /* Create Platemail Cuirass (51) for ContainTreasure */
+     , (31914, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+     , (31914, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (31914, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (31914, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (31914, 9, 20416,  0, 0, 0, False) /* Create Aura of Elysa's Sight (20416) for ContainTreasure */
+     , (31914, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (31914, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (31914, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (31914, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (31914, 9, 32274,  1, 0, 0, False) /* Create Moarsmuck (32274) for ContainTreasure */
+     , (31914, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (31914, 9, 41070,  0, 0, 0, False) /* Create Flaming Shashqa (41070) for ContainTreasure */
+     , (31914, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (31914, 9, 44850,  0, 0, 0, False) /* Create Chevron Cloak (44850) for ContainTreasure */
+     , (31914, 9, 44851,  0, 0, 0, False) /* Create Chevron Cloak (44851) for ContainTreasure */
+     , (31914, 9, 49313,  0, 0, 0, False) /* Create Acid Wisp Essence (125) (49313) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31914, 67116780, 0, 0);

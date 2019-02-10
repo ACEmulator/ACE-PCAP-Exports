@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40297;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40297, 'ace40297-banditmanahunter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40297, 'ace40297-banditmanahunter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40297,   1,         16) /* ItemType - Creature */
@@ -60,9 +60,16 @@ VALUES (40297,   1, 320, 0, 0) /* Strength */
      , (40297,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40297,   1,  1500, 0, 0, 1500) /* MaxHealth */
-     , (40297,   3,  1650, 0, 0, 1650) /* MaxStamina */
-     , (40297,   5,  2720, 0, 0, 2720) /* MaxMana */;
+VALUES (40297,   1,    10, 0, 0, 1500) /* MaxHealth */
+     , (40297,   3,    10, 0, 0, 1650) /* MaxStamina */
+     , (40297,   5,    10, 0, 0, 2720) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40297, 2, 21348,  1, 0, 0, False) /* Create Deadly Chorizite Arrow (21348) for Wield */
+     , (40297, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+     , (40297, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
+     , (40297, 2, 31705,  1, 0, 0, False) /* Create Phantom Bow (31705) for Wield */
+     , (40297, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40297, 67109562, 0, 24)

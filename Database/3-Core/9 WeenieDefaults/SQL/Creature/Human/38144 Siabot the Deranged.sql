@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38144;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38144, 'ace38144-siabotthederanged', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38144, 'ace38144-siabotthederanged', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38144,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,17 @@ VALUES (38144,   1, 315, 0, 0) /* Strength */
      , (38144,   6, 146, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38144,   1,   923, 0, 0, 923) /* MaxHealth */
-     , (38144,   3,  1245, 0, 0, 1245) /* MaxStamina */
-     , (38144,   5,   146, 0, 0, 146) /* MaxMana */;
+VALUES (38144,   1,    10, 0, 0, 923) /* MaxHealth */
+     , (38144,   3,    10, 0, 0, 1245) /* MaxStamina */
+     , (38144,   5,    10, 0, 0, 146) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38144, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */
+     , (38144, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (38144, 9, 38158,  0, 0, 0, False) /* Create Tattered Grimy Moarsman Ritual (38158) for ContainTreasure */
+     , (38144, 9, 38172,  0, 0, 0, False) /* Create The Creation of Blighted Moarsmen (38172) for ContainTreasure */
+     , (38144, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
+     , (38144, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38144, 67109977, 80, 12)

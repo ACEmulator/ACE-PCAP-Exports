@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38360;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38360, 'ace38360-priorkothmox', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38360, 'ace38360-priorkothmox', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38360,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,12 @@ VALUES (38360,   1, 520, 0, 0) /* Strength */
      , (38360,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38360,   1, 40000, 0, 0, 40000) /* MaxHealth */
-     , (38360,   3,  4000, 0, 0, 3999) /* MaxStamina */
-     , (38360,   5,   500, 0, 0, 460) /* MaxMana */;
+VALUES (38360,   1,    10, 0, 0, 40000) /* MaxHealth */
+     , (38360,   3,    10, 0, 0, 3999) /* MaxStamina */
+     , (38360,   5,    10, 0, 0, 460) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38360, 2, 38323,  1, 0, 0, False) /* Create Klarmox's Staff (38323) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38360, 67115235, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51155;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51155, 'ace51155-kogahideki', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51155, 'ace51155-kogahideki', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51155,   1,         16) /* ItemType - Creature */
@@ -75,9 +75,9 @@ VALUES (51155,   1, 220, 0, 0) /* Strength */
      , (51155,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51155,   1,   250, 0, 0, 250) /* MaxHealth */
-     , (51155,   3,   435, 0, 0, 435) /* MaxStamina */
-     , (51155,   5,   300, 0, 0, 300) /* MaxMana */;
+VALUES (51155,   1,    10, 0, 0, 250) /* MaxHealth */
+     , (51155,   3,    10, 0, 0, 435) /* MaxStamina */
+     , (51155,   5,    10, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51155, 4, 49772, -1, 0, 0, False) /* Create  (49772) for Shop */

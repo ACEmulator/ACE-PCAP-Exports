@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41224;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41224, 'ace41224-ironbladelieutenant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41224, 'ace41224-ironbladelieutenant', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41224,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,17 @@ VALUES (41224,   1, 600, 0, 0) /* Strength */
      , (41224,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41224,   1, 25000, 0, 0, 25000) /* MaxHealth */
-     , (41224,   3, 25000, 0, 0, 25000) /* MaxStamina */
-     , (41224,   5,  1500, 0, 0, 1500) /* MaxMana */;
+VALUES (41224,   1,    10, 0, 0, 25000) /* MaxHealth */
+     , (41224,   3,    10, 0, 0, 25000) /* MaxStamina */
+     , (41224,   5,    10, 0, 0, 1500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41224, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
+     , (41224, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (41224, 9,   273, 2352, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (41224, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (41224, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (41224, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (41224, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (41224, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (41224, 9, 41226,  0, 0, 0, False) /* Create Aetherium Core Fragment (41226) for ContainTreasure */;

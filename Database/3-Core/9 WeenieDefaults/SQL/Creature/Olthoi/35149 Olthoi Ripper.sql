@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35149;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35149, 'ace35149-olthoiripper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35149, 'ace35149-olthoiripper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35149,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,11 @@ VALUES (35149,   1, 380, 0, 0) /* Strength */
      , (35149,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35149,   1,  3840, 0, 0, 3840) /* MaxHealth */
-     , (35149,   3,  9000, 0, 0, 8999) /* MaxStamina */
-     , (35149,   5,   160, 0, 0, 160) /* MaxMana */;
+VALUES (35149,   1,    10, 0, 0, 3840) /* MaxHealth */
+     , (35149,   3,    10, 0, 0, 8999) /* MaxStamina */
+     , (35149,   5,    10, 0, 0, 160) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35149, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (35149, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (35149, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

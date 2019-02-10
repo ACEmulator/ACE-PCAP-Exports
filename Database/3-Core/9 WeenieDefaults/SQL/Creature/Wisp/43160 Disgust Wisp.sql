@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43160;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43160, 'ace43160-disgustwisp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43160, 'ace43160-disgustwisp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43160,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (43160,   1, True ) /* Stuck */
      , (43160,  12, True ) /* ReportCollisions */
      , (43160,  13, False) /* Ethereal */
      , (43160,  14, True ) /* GravityStatus */
-     , (43160,  19, True ) /* Attackable */;
+     , (43160,  19, True ) /* Attackable */
+     , (43160, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43160,  39, 1.29999995231628) /* DefaultScale */;
@@ -53,6 +54,11 @@ VALUES (43160,   1, 220, 0, 0) /* Strength */
      , (43160,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43160,   1,  2125, 0, 0, 2125) /* MaxHealth */
-     , (43160,   3,  2250, 0, 0, 2250) /* MaxStamina */
-     , (43160,   5,  2490, 0, 0, 2345) /* MaxMana */;
+VALUES (43160,   1,    10, 0, 0, 2125) /* MaxHealth */
+     , (43160,   3,    10, 0, 0, 2250) /* MaxStamina */
+     , (43160,   5,    10, 0, 0, 2345) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43160, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (43160, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (43160, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */;

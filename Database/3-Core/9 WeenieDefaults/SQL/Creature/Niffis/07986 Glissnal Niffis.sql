@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7986;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7986, 'niffisglissnal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7986, 'niffisglissnal', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7986,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,36 @@ VALUES (7986,   1,  90, 0, 0) /* Strength */
      , (7986,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7986,   1,   115, 0, 0, 115) /* MaxHealth */
-     , (7986,   3,    90, 0, 0, 90) /* MaxStamina */
-     , (7986,   5,   390, 0, 0, 390) /* MaxMana */;
+VALUES (7986,   1,    10, 0, 0, 115) /* MaxHealth */
+     , (7986,   3,    10, 0, 0, 90) /* MaxStamina */
+     , (7986,   5,    10, 0, 0, 390) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7986, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (7986, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (7986, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (7986, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (7986, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (7986, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (7986, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (7986, 9,   273, 35, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7986, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (7986, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (7986, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */
+     , (7986, 9,   354,  0, 0, 0, False) /* Create Takuba (354) for ContainTreasure */
+     , (7986, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (7986, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (7986, 9,  1584,  0, 0, 0, False) /* Create Scroll of Invulnerability Other (1584) for ContainTreasure */
+     , (7986, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (7986, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (7986, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (7986, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (7986, 9,  3233,  0, 0, 0, False) /* Create Scroll of Deception Ineptitude II (3233) for ContainTreasure */
+     , (7986, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (7986, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (7986, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (7986, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */
+     , (7986, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7986, 67112942, 0, 0);

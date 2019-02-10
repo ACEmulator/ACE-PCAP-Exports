@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43251;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43251, 'ace43251-armoredguardian', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43251, 'ace43251-armoredguardian', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43251,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,16 @@ VALUES (43251,   1, 322, 0, 0) /* Strength */
      , (43251,   6, 382, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43251,   1,  6831, 0, 0, 6831) /* MaxHealth */
-     , (43251,   3,  7338, 0, 0, 7338) /* MaxStamina */
-     , (43251,   5,  4382, 0, 0, 4382) /* MaxMana */;
+VALUES (43251,   1,    10, 0, 0, 6831) /* MaxHealth */
+     , (43251,   3,    10, 0, 0, 7338) /* MaxStamina */
+     , (43251,   5,    10, 0, 0, 4382) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43251, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (43251, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
+     , (43251, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (43251, 9,   321,  0, 0, 0, False) /* Create Jitte (321) for ContainTreasure */
+     , (43251, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (43251, 9, 29243,  0, 0, 0, False) /* Create Piercing Bow (29243) for ContainTreasure */
+     , (43251, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */
+     , (43251, 9, 49390,  0, 0, 0, False) /* Create Frost Grievver Essence (125) (49390) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51735;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51735, 'ace51735-riftoftorment', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51735, 'ace51735-riftoftorment', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51735,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (51735,   1, True ) /* Stuck */
      , (51735,  14, True ) /* GravityStatus */
      , (51735,  15, True ) /* LightsStatus */
      , (51735,  19, True ) /* Attackable */
-     , (51735,  42, True ) /* AllowEdgeSlide */;
+     , (51735,  42, True ) /* AllowEdgeSlide */
+     , (51735, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51735,  39,     1.5) /* DefaultScale */;
@@ -56,6 +57,19 @@ VALUES (51735,   1, 180, 0, 0) /* Strength */
      , (51735,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51735,   1, 10100, 0, 0, 10100) /* MaxHealth */
-     , (51735,   3,  1100, 0, 0, 1100) /* MaxStamina */
-     , (51735,   5, 11120, 0, 0, 11093) /* MaxMana */;
+VALUES (51735,   1,    10, 0, 0, 10100) /* MaxHealth */
+     , (51735,   3,    10, 0, 0, 1100) /* MaxStamina */
+     , (51735,   5,    10, 0, 0, 11093) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51735, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */
+     , (51735, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (51735, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (51735, 9, 20567,  0, 0, 0, False) /* Create Scroll of Inefficient Investment (20567) for ContainTreasure */
+     , (51735, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
+     , (51735, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (51735, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (51735, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */
+     , (51735, 9, 37205,  0, 0, 0, False) /* Create Olthoi Celdon Sleeves (37205) for ContainTreasure */
+     , (51735, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (51735, 9, 49314,  0, 0, 0, False) /* Create Acid Wisp Essence (150) (49314) for ContainTreasure */;

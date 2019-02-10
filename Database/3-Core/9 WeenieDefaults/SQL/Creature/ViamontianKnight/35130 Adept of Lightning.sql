@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35130;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35130, 'ace35130-adeptoflightning', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35130, 'ace35130-adeptoflightning', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35130,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,28 @@ VALUES (35130,   1, 245, 0, 0) /* Strength */
      , (35130,   6, 445, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35130,   1,   513, 0, 0, 513) /* MaxHealth */
-     , (35130,   3,   560, 0, 0, 560) /* MaxStamina */
-     , (35130,   5,   820, 0, 0, 820) /* MaxMana */;
+VALUES (35130,   1,    10, 0, 0, 513) /* MaxHealth */
+     , (35130,   3,    10, 0, 0, 560) /* MaxStamina */
+     , (35130,   5,    10, 0, 0, 820) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35130, 2, 31822,  1, 0, 0, False) /* Create Aerbax's Defeat (31822) for Wield */
+     , (35130, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (35130, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (35130, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (35130, 9,   273, 2864, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (35130, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (35130, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (35130, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (35130, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
+     , (35130, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (35130, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (35130, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (35130, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (35130, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (35130, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (35130, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
+     , (35130, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
+     , (35130, 9, 44851,  0, 0, 0, False) /* Create Chevron Cloak (44851) for ContainTreasure */
+     , (35130, 9, 49248,  0, 0, 0, False) /* Create Fire Zombie Essence (80) (49248) for ContainTreasure */
+     , (35130, 9, 49313,  0, 0, 0, False) /* Create Acid Wisp Essence (125) (49313) for ContainTreasure */;

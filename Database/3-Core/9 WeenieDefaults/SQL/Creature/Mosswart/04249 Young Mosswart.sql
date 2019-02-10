@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4249;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4249, 'mosswartyoung', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4249, 'mosswartyoung', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4249,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,17 @@ VALUES (4249,   1, 100, 0, 0) /* Strength */
      , (4249,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4249,   1,    47, 0, 0, 47) /* MaxHealth */
-     , (4249,   3,    94, 0, 0, 94) /* MaxStamina */
-     , (4249,   5,    30, 0, 0, 30) /* MaxMana */;
+VALUES (4249,   1,    10, 0, 0, 47) /* MaxHealth */
+     , (4249,   3,    10, 0, 0, 94) /* MaxStamina */
+     , (4249,   5,    10, 0, 0, 30) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4249, 2, 47520,  1, 0, 0, False) /* Create Acid Javelin (47520) for Wield */
+     , (4249, 2, 47539,  1, 0, 0, False) /* Create Javelin (47539) for Wield */
+     , (4249, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */
+     , (4249, 2, 47634,  1, 0, 0, False) /* Create Tachi (47634) for Wield */
+     , (4249, 2, 47705,  1, 0, 0, False) /* Create Acid Spear (47705) for Wield */
+     , (4249, 2, 47724,  1, 0, 0, False) /* Create Spear (47724) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4249, 67113411, 0, 0);

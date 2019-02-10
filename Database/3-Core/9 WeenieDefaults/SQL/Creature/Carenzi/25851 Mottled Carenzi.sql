@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25851;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25851, 'carenzimottled', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25851, 'carenzimottled', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25851,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,14 @@ VALUES (25851,   1, 190, 0, 0) /* Strength */
      , (25851,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25851,   1,   735, 0, 0, 735) /* MaxHealth */
-     , (25851,   3,   870, 0, 0, 870) /* MaxStamina */
-     , (25851,   5,   410, 0, 0, 410) /* MaxMana */;
+VALUES (25851,   1,    10, 0, 0, 735) /* MaxHealth */
+     , (25851,   3,    10, 0, 0, 870) /* MaxStamina */
+     , (25851,   5,    10, 0, 0, 410) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25851, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (25851, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (25851, 9, 20482,  0, 0, 0, False) /* Create Scroll of Astyrrian's Gift (20482) for ContainTreasure */
+     , (25851, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */
+     , (25851, 9, 20572,  0, 0, 0, False) /* Create Scroll of Kaluhc's Blessing (20572) for ContainTreasure */
+     , (25851, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */;

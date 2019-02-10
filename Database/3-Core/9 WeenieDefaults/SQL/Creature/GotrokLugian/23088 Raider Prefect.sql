@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23088;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23088, 'lugianprefectraider', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23088, 'lugianprefectraider', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23088,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,17 @@ VALUES (23088,   1, 320, 0, 0) /* Strength */
      , (23088,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23088,   1, 10000, 0, 0, 10000) /* MaxHealth */
-     , (23088,   3,  6000, 0, 0, 6000) /* MaxStamina */
-     , (23088,   5,   240, 0, 0, 240) /* MaxMana */;
+VALUES (23088,   1,    10, 0, 0, 10000) /* MaxHealth */
+     , (23088,   3,    10, 0, 0, 6000) /* MaxStamina */
+     , (23088,   5,    10, 0, 0, 240) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (23088, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */
+     , (23088, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */
+     , (23088, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
+     , (23088, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (23088, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (23088, 9, 49236,  0, 0, 0, False) /* Create Acid Zombie Essence (125) (49236) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23088, 67114347, 0, 0);

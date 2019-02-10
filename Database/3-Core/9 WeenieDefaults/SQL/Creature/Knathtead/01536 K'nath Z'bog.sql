@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1536;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1536, 'knathzbog', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1536, 'knathzbog', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1536,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,15 @@ VALUES (1536,   1,  35, 0, 0) /* Strength */
      , (1536,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1536,   1,    50, 0, 0, 50) /* MaxHealth */
-     , (1536,   3,   150, 0, 0, 150) /* MaxStamina */
-     , (1536,   5,    30, 0, 0, 5) /* MaxMana */;
+VALUES (1536,   1,    10, 0, 0, 50) /* MaxHealth */
+     , (1536,   3,    10, 0, 0, 150) /* MaxStamina */
+     , (1536,   5,    10, 0, 0, 5) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1536, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
+     , (1536, 9,   273,  7, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1536, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (1536, 9,  3742,  0, 0, 0, False) /* Create Scroll of Infuse Stamina III (3742) for ContainTreasure */
+     , (1536, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1536, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (1536, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;

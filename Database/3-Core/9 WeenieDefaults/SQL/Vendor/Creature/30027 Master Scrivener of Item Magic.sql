@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30027;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30027, 'viascriveneritemdistant', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30027, 'viascriveneritemdistant', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30027,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (30027,   1,  90, 0, 0) /* Strength */
      , (30027,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30027,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (30027,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (30027,   5,   550, 0, 0, 550) /* MaxMana */;
+VALUES (30027,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (30027,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (30027,   5,    10, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30027, 4,  2765, -1, 0, 0, False) /* Create Scroll of Acid Bane V (2765) for Shop */

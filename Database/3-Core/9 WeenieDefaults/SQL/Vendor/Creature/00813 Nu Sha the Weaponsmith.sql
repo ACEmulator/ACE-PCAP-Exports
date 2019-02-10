@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 813;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (813, 'yanshiblacksmith2', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (813, 'yanshiblacksmith2', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (813,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (813,   1,  40, 0, 0) /* Strength */
      , (813,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (813,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (813,   3,   115, 0, 0, 115) /* MaxStamina */
-     , (813,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (813,   1,    10, 0, 0, 80) /* MaxHealth */
+     , (813,   3,    10, 0, 0, 115) /* MaxStamina */
+     , (813,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (813, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+VALUES (813, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (813, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (813, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (813, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
      , (813, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2608;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2608, 'zefirjibrit', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2608, 'zefirjibrit', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2608,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,22 @@ VALUES (2608,   1,  50, 0, 0) /* Strength */
      , (2608,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2608,   1,    25, 0, 0, 25) /* MaxHealth */
-     , (2608,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (2608,   5,   170, 0, 0, 170) /* MaxMana */;
+VALUES (2608,   1,    10, 0, 0, 25) /* MaxHealth */
+     , (2608,   3,    10, 0, 0, 140) /* MaxStamina */
+     , (2608,   5,    10, 0, 0, 170) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2608, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (2608, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (2608, 9,   273, 15, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (2608, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (2608, 9,  3083,  0, 0, 0, False) /* Create Scroll of Fester Other II (3083) for ContainTreasure */
+     , (2608, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (2608, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2608, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (2608, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (2608, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */
+     , (2608, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2608, 67112518, 0, 0);

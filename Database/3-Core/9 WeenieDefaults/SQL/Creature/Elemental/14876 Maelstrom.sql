@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14876;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14876, 'stormelementalmaelstrom', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14876, 'stormelementalmaelstrom', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14876,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (14876,   1, True ) /* Stuck */
      , (14876,  13, False) /* Ethereal */
      , (14876,  14, True ) /* GravityStatus */
      , (14876,  15, True ) /* LightsStatus */
-     , (14876,  19, True ) /* Attackable */;
+     , (14876,  19, True ) /* Attackable */
+     , (14876, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14876,  39, 1.39999997615814) /* DefaultScale */;
@@ -56,6 +57,25 @@ VALUES (14876,   1, 150, 0, 0) /* Strength */
      , (14876,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14876,   1,   780, 0, 0, 780) /* MaxHealth */
-     , (14876,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (14876,   5,   540, 0, 0, 540) /* MaxMana */;
+VALUES (14876,   1,    10, 0, 0, 780) /* MaxHealth */
+     , (14876,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (14876,   5,    10, 0, 0, 540) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14876, 2,  6383,  1, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
+     , (14876, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (14876, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (14876, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (14876, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (14876, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (14876, 9,   273, 2025, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14876, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (14876, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (14876, 9,  3750,  0, 0, 0, False) /* Create Acid Battle Axe (3750) for ContainTreasure */
+     , (14876, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (14876, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (14876, 9, 24477,  0, 0, 0, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (14876, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (14876, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (14876, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (14876, 9, 34276,  1, 0, 0, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */;

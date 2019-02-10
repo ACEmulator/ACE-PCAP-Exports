@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42270;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42270, 'ace42270-mastersoldier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42270, 'ace42270-mastersoldier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42270,   1,         16) /* ItemType - Creature */
@@ -39,6 +39,10 @@ VALUES (42270, 8040, 2315452992, 268.0269, -319.9904, 0.004999995, -4.371139E-08
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42270, 8000, 3694185881) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42270, 2, 38855,  1, 0, 0, False) /* Create Eldrytch Web Blade (38855) for Wield */
+     , (42270, 2, 41858,  1, 0, 0, False) /* Create Eldrytch Web Shield (41858) for Wield */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (42270, 0, 16794164)

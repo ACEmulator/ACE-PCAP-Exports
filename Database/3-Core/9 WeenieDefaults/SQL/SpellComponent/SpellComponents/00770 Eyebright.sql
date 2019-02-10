@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 770;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (770, 'eyebright', 32) /* SpellComponent */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (770, 'eyebright', 32, '2019-02-10 05:41:14') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (770,   1,       4096) /* ItemType - SpellComponents */
      , (770,   5,          4) /* EncumbranceVal */
      , (770,  11,        100) /* MaxStackSize */
      , (770,  12,          1) /* StackSize */
+     , (770,  13,          4) /* StackUnitEncumbrance */
+     , (770,  15,         10) /* StackUnitValue */
      , (770,  16,          1) /* ItemUseable - No */
      , (770,  19,         10) /* Value */
      , (770,  65,        101) /* Placement - Resting */

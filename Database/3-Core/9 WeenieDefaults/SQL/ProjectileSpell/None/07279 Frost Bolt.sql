@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7279;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7279, 'frostwall', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7279, 'frostwall', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7279,   1,          0) /* ItemType - None */
@@ -46,3 +46,8 @@ VALUES (7279, 8040, 2028470326, 144.8371, 140.5391, 155.2491, 0.7459897, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7279, 8000, 3695632410) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7279, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (7279, 2, 46387,  1, 0, 0, False) /* Create Spectral Frost Nodachi (46387) for Wield */
+     , (7279, 2, 46635,  1, 0, 0, False) /* Create Fire Longbow (46635) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34801;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34801, 'ace34801-guruktitan', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34801, 'ace34801-guruktitan', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34801,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34801, 8000, 3708726320) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34801,   1,   725, 0, 0, 725) /* MaxHealth */;
+VALUES (34801,   1,    10, 0, 0, 725) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34801, 2, 27872,  1, 0, 0, False) /* Create Tree Trunk (27872) for Wield */
+     , (34801, 2, 27876,  1, 0, 0, False) /* Create Muck Ball (27876) for Wield */
+     , (34801, 2, 27880,  1, 0, 0, False) /* Create Bone Sword (27880) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34801, 67115210, 0, 0);

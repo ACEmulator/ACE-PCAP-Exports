@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24481;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24481, 'golemmagmamini', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24481, 'golemmagmamini', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24481,   1,         16) /* ItemType - Creature */
@@ -56,6 +56,14 @@ VALUES (24481,   1, 280, 0, 0) /* Strength */
      , (24481,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24481,   1,   540, 0, 0, 540) /* MaxHealth */
-     , (24481,   3,   680, 0, 0, 680) /* MaxStamina */
-     , (24481,   5,   380, 0, 0, 380) /* MaxMana */;
+VALUES (24481,   1,    10, 0, 0, 540) /* MaxHealth */
+     , (24481,   3,    10, 0, 0, 680) /* MaxStamina */
+     , (24481,   5,    10, 0, 0, 380) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24481, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
+     , (24481, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (24481, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (24481, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (24481, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
+     , (24481, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */;

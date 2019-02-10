@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11506;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11506, 'humanzharalim_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11506, 'humanzharalim_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11506,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,31 @@ VALUES (11506,   1, 150, 0, 0) /* Strength */
      , (11506,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11506,   1,   220, 0, 0, 220) /* MaxHealth */
-     , (11506,   3,   260, 0, 0, 260) /* MaxStamina */
-     , (11506,   5,   120, 0, 0, 120) /* MaxMana */;
+VALUES (11506,   1,    10, 0, 0, 220) /* MaxHealth */
+     , (11506,   3,    10, 0, 0, 260) /* MaxStamina */
+     , (11506,   5,    10, 0, 0, 120) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11506, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
+     , (11506, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
+     , (11506, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
+     , (11506, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */
+     , (11506, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
+     , (11506, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
+     , (11506, 2, 12195,  1, 0, 0, False) /* Create Assassin's Simi (12195) for Wield */
+     , (11506, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */
+     , (11506, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */
+     , (11506, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
+     , (11506, 9,    37,  0, 0, 0, False) /* Create Scalemail Bracers (37) for ContainTreasure */
+     , (11506, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (11506, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (11506, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (11506, 9,  3883,  0, 0, 0, False) /* Create Flaming Long Sword (3883) for ContainTreasure */
+     , (11506, 9, 20253,  0, 0, 0, False) /* Create Scroll of Might of the 5 Mules (20253) for ContainTreasure */
+     , (11506, 9, 21315,  0, 0, 0, False) /* Create Scroll of Force Arc VII (21315) for ContainTreasure */
+     , (11506, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (11506, 9, 49318,  0, 0, 0, False) /* Create Lightning Wisp Essence (80) (49318) for ContainTreasure */
+     , (11506, 9, 49366,  0, 0, 0, False) /* Create Acid Grievver Essence (50) (49366) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11506, 67109557, 0, 24)

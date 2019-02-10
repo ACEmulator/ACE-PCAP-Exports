@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39152;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (39152, 'ace39152-sclavusmarauder', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (39152, 'ace39152-sclavusmarauder', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39152,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,10 @@ VALUES (39152, 8040, 13304107, 39.6861, -78.0708, -30, -0.04432501, 0, 0, 0.9990
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39152, 8000, 3332247447) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (39152, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
+     , (39152, 2, 38927,  1, 0, 0, False) /* Create T'thuun Spear (38927) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39152, 67111938, 0, 0);

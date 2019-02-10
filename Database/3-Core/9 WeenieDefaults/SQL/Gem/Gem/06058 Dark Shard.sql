@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6058;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6058, 'shardshadowshard', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6058, 'shardshadowshard', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6058,   1,       2048) /* ItemType - Gem */
      , (6058,   5,         20) /* EncumbranceVal */
      , (6058,  11,          1) /* MaxStackSize */
      , (6058,  12,          1) /* StackSize */
+     , (6058,  13,         20) /* StackUnitEncumbrance */
+     , (6058,  15,          0) /* StackUnitValue */
      , (6058,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (6058,  19,          0) /* Value */
      , (6058,  65,        101) /* Placement - Resting */
@@ -40,8 +42,11 @@ VALUES (6058,   1,   33554809) /* Setup */
      , (6058, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6058,   2, 1342814975) /* Container */
-     , (6058, 8000, 3681969059) /* PCAPRecordedObjectIID */;
+VALUES (6058, 8000, 3681969059) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6058, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (6058, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6058, 67111927, 0, 0);

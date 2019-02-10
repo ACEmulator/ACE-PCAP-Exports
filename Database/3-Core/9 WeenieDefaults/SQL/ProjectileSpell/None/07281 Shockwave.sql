@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7281;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7281, 'shockwavewall', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7281, 'shockwavewall', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7281,   1,          0) /* ItemType - None */
@@ -41,3 +41,6 @@ VALUES (7281, 8040, 1481638208, 48.65992, -36.41766, 1.584917, -0.9343482, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7281, 8000, 3698968869) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7281, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */;

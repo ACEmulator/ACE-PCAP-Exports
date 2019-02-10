@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11517;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11517, 'tumerokheaeldershaman_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11517, 'tumerokheaeldershaman_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11517,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,31 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11517, 8000, 3706878440) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11517,   1,   440, 0, 0, 440) /* MaxHealth */;
+VALUES (11517,   1,    10, 0, 0, 440) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11517, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (11517, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (11517, 2, 15432,  1, 0, 0, False) /* Create Deadly Blunt Arrow (15432) for Wield */
+     , (11517, 2, 15433,  1, 0, 0, False) /* Create Deadly Broadhead Arrow (15433) for Wield */
+     , (11517, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (11517, 2, 15440,  1, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */
+     , (11517, 2, 15441,  1, 0, 0, False) /* Create Deadly Blunt Quarrel (15441) for Wield */
+     , (11517, 2, 15442,  1, 0, 0, False) /* Create Deadly Broadhead Quarrel (15442) for Wield */
+     , (11517, 2, 23636,  1, 0, 0, False) /* Create Cestus (23636) for Wield */
+     , (11517, 2, 23664,  1, 0, 0, False) /* Create Heavy Crossbow (23664) for Wield */
+     , (11517, 2, 23673,  1, 0, 0, False) /* Create Katar (23673) for Wield */
+     , (11517, 2, 23679,  1, 0, 0, False) /* Create Nekode (23679) for Wield */
+     , (11517, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
+     , (11517, 2, 23695,  1, 0, 0, False) /* Create Spear (23695) for Wield */
+     , (11517, 2, 23699,  1, 0, 0, False) /* Create Tachi (23699) for Wield */
+     , (11517, 2, 23706,  1, 0, 0, False) /* Create Fire Tachi (23706) for Wield */
+     , (11517, 2, 23709,  1, 0, 0, False) /* Create Yaoji (23709) for Wield */
+     , (11517, 2, 23717,  1, 0, 0, False) /* Create Fire Yaoji (23717) for Wield */
+     , (11517, 2, 23733,  1, 0, 0, False) /* Create Yumi (23733) for Wield */
+     , (11517, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (11517, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (11517, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11517, 67116625, 57, 48)

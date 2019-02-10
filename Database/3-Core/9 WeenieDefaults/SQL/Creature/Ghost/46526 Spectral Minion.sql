@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46526;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46526, 'ace46526-spectralminion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46526, 'ace46526-spectralminion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46526,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,12 @@ VALUES (46526,   1, 400, 0, 0) /* Strength */
      , (46526,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46526,   1,  2500, 0, 0, 2500) /* MaxHealth */
-     , (46526,   3,  2700, 0, 0, 2700) /* MaxStamina */
-     , (46526,   5,   750, 0, 0, 750) /* MaxMana */;
+VALUES (46526,   1,    10, 0, 0, 2500) /* MaxHealth */
+     , (46526,   3,    10, 0, 0, 2700) /* MaxStamina */
+     , (46526,   5,    10, 0, 0, 750) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46526, 2, 46370,  1, 0, 0, False) /* Create Spectral Flaming Nekode (46370) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46526, 0, 83899054, 83899080)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5763;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5763, 'aljalimatazal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5763, 'aljalimatazal', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5763,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5763, 8000, 3692405512) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5763,   1,   300, 0, 0, 300) /* MaxHealth */;
+VALUES (5763,   1,    10, 0, 0, 300) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (5763, 2, 12223,  1, 0, 0, False) /* Create Skull Wand (12223) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5763, 67109550, 0, 24)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46688;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46688, 'ace46688-spectralvoidmage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46688, 'ace46688-spectralvoidmage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46688,   1,         16) /* ItemType - Creature */
@@ -43,7 +43,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46688, 8000, 3708022798) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46688,   1,  5200, 0, 0, 5200) /* MaxHealth */;
+VALUES (46688,   1,    10, 0, 0, 5200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46688, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46688, 16, 83899055, 83899086)

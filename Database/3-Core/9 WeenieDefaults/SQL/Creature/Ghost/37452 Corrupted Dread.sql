@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37452;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37452, 'ace37452-corrupteddread', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37452, 'ace37452-corrupteddread', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37452,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (37452,   1, True ) /* Stuck */
      , (37452,  12, True ) /* ReportCollisions */
      , (37452,  13, False) /* Ethereal */
      , (37452,  14, True ) /* GravityStatus */
-     , (37452,  19, True ) /* Attackable */;
+     , (37452,  19, True ) /* Attackable */
+     , (37452, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37452,  39, 0.800000011920929) /* DefaultScale */
@@ -56,9 +57,24 @@ VALUES (37452,   1, 490, 0, 0) /* Strength */
      , (37452,   6, 420, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37452,   1, 15210, 0, 0, 15210) /* MaxHealth */
-     , (37452,   3,  3420, 0, 0, 3420) /* MaxStamina */
-     , (37452,   5,   420, 0, 0, 420) /* MaxMana */;
+VALUES (37452,   1,    10, 0, 0, 15210) /* MaxHealth */
+     , (37452,   3,    10, 0, 0, 3420) /* MaxStamina */
+     , (37452,   5,    10, 0, 0, 420) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37452, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (37452, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (37452, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (37452, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (37452, 9,   273, 1823, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (37452, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (37452, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (37452, 9,  3803,  0, 0, 0, False) /* Create Lightning Jitte (3803) for ContainTreasure */
+     , (37452, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
+     , (37452, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (37452, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (37452, 9, 35105,  1, 0, 0, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (37452, 9, 45151,  1, 0, 0, False) /* Create Mhoire Oubliette Portal Glyph (45151) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37452, 67115254, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4679;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4679, 'alarqasblacksmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4679, 'alarqasblacksmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4679,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (4679,   1, 110, 0, 0) /* Strength */
      , (4679,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4679,   1,    55, 0, 0, 55) /* MaxHealth */
-     , (4679,   3,   100, 0, 0, 100) /* MaxStamina */
-     , (4679,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (4679,   1,    10, 0, 0, 55) /* MaxHealth */
+     , (4679,   3,    10, 0, 0, 100) /* MaxStamina */
+     , (4679,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4679, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (4679, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (4679, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (4679, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (4679, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
      , (4679, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */

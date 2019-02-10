@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43233;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43233, 'ace43233-netherring', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43233, 'ace43233-netherring', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43233,   1,          0) /* ItemType - None */
@@ -41,3 +41,6 @@ VALUES (43233, 8040, 2847146017, 97.42845, 8.990114, 95.22834, -0.509742, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43233, 8000, 3622545798) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43233, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */;

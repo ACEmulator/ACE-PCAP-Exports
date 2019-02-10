@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35883;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35883, 'ace35883-paradoxtouchedolthoilancer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35883, 'ace35883-paradoxtouchedolthoilancer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35883,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,16 @@ VALUES (35883,   1, 360, 0, 0) /* Strength */
      , (35883,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35883,   1,  1570, 0, 0, 1570) /* MaxHealth */
-     , (35883,   3,  1780, 0, 0, 1780) /* MaxStamina */
-     , (35883,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (35883,   1,    10, 0, 0, 1570) /* MaxHealth */
+     , (35883,   3,    10, 0, 0, 1780) /* MaxStamina */
+     , (35883,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35883, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (35883, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (35883, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
+     , (35883, 9, 31804,  0, 0, 0, False) /* Create Piercing Compound Bow (31804) for ContainTreasure */
+     , (35883, 9, 40702,  0, 0, 0, False) /* Create Covenant Pauldrons (40702) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35883, 67114444, 0, 0);

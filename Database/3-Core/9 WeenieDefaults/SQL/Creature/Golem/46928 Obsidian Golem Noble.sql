@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46928;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46928, 'ace46928-obsidiangolemnoble', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46928, 'ace46928-obsidiangolemnoble', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46928,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,9 @@ VALUES (46928,   1, 400, 0, 0) /* Strength */
      , (46928,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46928,   1, 88000, 0, 0, 88000) /* MaxHealth */
-     , (46928,   3, 68000, 0, 0, 67984) /* MaxStamina */
-     , (46928,   5, 26200, 0, 0, 26200) /* MaxMana */;
+VALUES (46928,   1,    10, 0, 0, 88000) /* MaxHealth */
+     , (46928,   3,    10, 0, 0, 67984) /* MaxStamina */
+     , (46928,   5,    10, 0, 0, 26200) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46928, 9, 20426,  0, 0, 0, False) /* Create Aura of Atlan's Alacrity (20426) for ContainTreasure */;

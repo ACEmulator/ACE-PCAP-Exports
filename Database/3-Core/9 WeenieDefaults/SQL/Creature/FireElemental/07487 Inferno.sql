@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7487;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7487, 'fireelementalinferno_nospawn', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7487, 'fireelementalinferno_nospawn', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7487,   1,         16) /* ItemType - Creature */
@@ -56,6 +56,9 @@ VALUES (7487,   1, 130, 0, 0) /* Strength */
      , (7487,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7487,   1,   575, 0, 0, 575) /* MaxHealth */
-     , (7487,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (7487,   5,   470, 0, 0, 470) /* MaxMana */;
+VALUES (7487,   1,    10, 0, 0, 575) /* MaxHealth */
+     , (7487,   3,    10, 0, 0, 550) /* MaxStamina */
+     , (7487,   5,    10, 0, 0, 470) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7487, 2,  5709,  1, 0, 0, False) /* Create Ball of fire (5709) for Wield */;

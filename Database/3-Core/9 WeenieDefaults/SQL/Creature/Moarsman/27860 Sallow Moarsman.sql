@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27860;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27860, 'moarsmansallow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27860, 'moarsmansallow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27860,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,28 @@ VALUES (27860,   1,  80, 0, 0) /* Strength */
      , (27860,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27860,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (27860,   3,   130, 0, 0, 130) /* MaxStamina */
-     , (27860,   5,    40, 0, 0, 40) /* MaxMana */;
+VALUES (27860,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (27860,   3,    10, 0, 0, 130) /* MaxStamina */
+     , (27860,   5,    10, 0, 0, 40) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27860, 9,    87,  0, 0, 0, False) /* Create Platemail Pauldrons (87) for ContainTreasure */
+     , (27860, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (27860, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (27860, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (27860, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (27860, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (27860, 9,  2714,  0, 0, 0, False) /* Create Scroll of Quickness Other IV (2714) for ContainTreasure */
+     , (27860, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for ContainTreasure */
+     , (27860, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (27860, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (27860, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (27860, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (27860, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (27860, 9, 27326,  1, 0, 0, False) /* Create Stamina Tincture (27326) for ContainTreasure */
+     , (27860, 9, 45120,  0, 0, 0, False) /* Create Lightning Hand Wraps (45120) for ContainTreasure */
+     , (27860, 9, 49331,  0, 0, 0, False) /* Create Frost Wisp Essence (50) (49331) for ContainTreasure */
+     , (27860, 9, 49380,  0, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27860, 67115233, 0, 0);

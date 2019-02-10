@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32938;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32938, 'ace32938-guardianofthemonolith', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32938, 'ace32938-guardianofthemonolith', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32938,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32938, 8000, 2448427152) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32938,   1, 75000, 0, 0, 75000) /* MaxHealth */;
+VALUES (32938,   1,    10, 0, 0, 75000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32938, 9, 32941,  0, 0, 0, False) /* Create Title Token: Guardian of the Dark (32941) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32938, 67114014, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30069;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30069, 'silyuntailor', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30069, 'silyuntailor', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30069,   1,         16) /* ItemType - Creature */
@@ -64,7 +64,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30069, 8000, 1920909322) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30069,   1,   145, 0, 0, 145) /* MaxHealth */;
+VALUES (30069,   1,    10, 0, 0, 145) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30069, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

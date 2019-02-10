@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29415;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29415, 'knightdoorkeepersilver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29415, 'knightdoorkeepersilver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29415,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,12 @@ VALUES (29415,   1, 355, 0, 0) /* Strength */
      , (29415,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29415,   1,   468, 0, 0, 468) /* MaxHealth */
-     , (29415,   3,   535, 0, 0, 535) /* MaxStamina */
-     , (29415,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (29415,   1,    10, 0, 0, 468) /* MaxHealth */
+     , (29415,   3,    10, 0, 0, 535) /* MaxStamina */
+     , (29415,   5,    10, 0, 0, 70) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29415, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29415, 67115468, 0, 0);

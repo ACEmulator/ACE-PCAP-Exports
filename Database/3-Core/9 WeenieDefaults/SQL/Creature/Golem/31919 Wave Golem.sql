@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31919;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31919, 'ace31919-wavegolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31919, 'ace31919-wavegolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31919,   1,         16) /* ItemType - Creature */
@@ -47,4 +47,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31919, 8000, 2629435898) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31919,   1,  1810, 0, 0, 1810) /* MaxHealth */;
+VALUES (31919,   1,    10, 0, 0, 1810) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31919, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (31919, 9,   273, 4273, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (31919, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (31919, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (31919, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (31919, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (31919, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (31919, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (31919, 9, 31803,  0, 0, 0, False) /* Create Frost Compound Bow (31803) for ContainTreasure */
+     , (31919, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
+     , (31919, 9, 43048,  0, 0, 0, False) /* Create Knorr Academy Breastplate (43048) for ContainTreasure */;

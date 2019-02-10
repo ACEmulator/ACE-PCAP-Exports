@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38631;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38631, 'ace38631-eldrytchwebscout', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38631, 'ace38631-eldrytchwebscout', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38631,   1,         16) /* ItemType - Creature */
@@ -52,7 +52,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38631, 8000, 3703873635) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38631,   1,  1000, 0, 0, 1000) /* MaxHealth */;
+VALUES (38631,   1,    10, 0, 0, 1000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38631, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
+     , (38631, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38631, 67109551, 0, 24)

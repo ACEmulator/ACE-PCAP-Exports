@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44857;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44857, 'ace44857-quarteredcloak', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44857, 'ace44857-quarteredcloak', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44857,   1,          4) /* ItemType - Clothing */
@@ -18,7 +18,7 @@ VALUES (44857,   1,          4) /* ItemType - Clothing */
      , (44857, 105,          9) /* ItemWorkmanship */
      , (44857, 131,          7) /* MaterialType - Velvet */
      , (44857, 158,          7) /* WieldRequirements - Level */
-     , (44857, 159,          1) /* WieldSkilltype - Axe */
+     , (44857, 159,          1) /* WieldSkillType - Axe */
      , (44857, 160,         60) /* WieldDifficulty */
      , (44857, 172,          1) /* AppraisalLongDescDecoration */
      , (44857, 265,         85) /* EquipmentSetId - CloakDualWield */
@@ -65,8 +65,7 @@ VALUES (44857,   1,   33561386) /* Setup */
      , (44857, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44857,   2, 2087358610) /* Container */
-     , (44857, 8000, 3690298016) /* PCAPRecordedObjectIID */;
+VALUES (44857, 8000, 3690298016) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44857, 0, 83898657, 83898666);

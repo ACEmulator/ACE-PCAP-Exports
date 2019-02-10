@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44295;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44295, 'ace44295-ancienttabletofthecrystalamuletlevel180', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44295, 'ace44295-ancienttabletofthecrystalamuletlevel180', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44295,   1,       2048) /* ItemType - Gem */
      , (44295,   5,          0) /* EncumbranceVal */
      , (44295,  11,          1) /* MaxStackSize */
      , (44295,  12,          1) /* StackSize */
+     , (44295,  13,          0) /* StackUnitEncumbrance */
+     , (44295,  15,          0) /* StackUnitValue */
      , (44295,  16,          8) /* ItemUseable - Contained */
      , (44295,  18,          2) /* UiEffects - Poisoned */
      , (44295,  19,          0) /* Value */
@@ -43,5 +45,7 @@ VALUES (44295,   1,   33554773) /* Setup */
      , (44295, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44295,   2, 1343301116) /* Container */
-     , (44295, 8000, 3696601344) /* PCAPRecordedObjectIID */;
+VALUES (44295, 8000, 3696601344) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44295, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

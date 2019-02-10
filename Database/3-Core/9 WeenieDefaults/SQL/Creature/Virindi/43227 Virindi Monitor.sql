@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43227;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43227, 'ace43227-virindimonitor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43227, 'ace43227-virindimonitor', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43227,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43227, 8000, 3710426068) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43227,   1,  1000, 0, 0, 1000) /* MaxHealth */;
+VALUES (43227,   1,    10, 0, 0, 1000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43227, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (43227, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (43227, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (43227, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43227, 67113145, 0, 0);

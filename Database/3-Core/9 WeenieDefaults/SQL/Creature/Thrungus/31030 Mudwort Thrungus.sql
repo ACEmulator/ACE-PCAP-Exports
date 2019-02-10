@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31030;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31030, 'thrungusmudwortsnowlily', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31030, 'thrungusmudwortsnowlily', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31030,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,13 @@ VALUES (31030,   1, 442, 0, 0) /* Strength */
      , (31030,   6, 316, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31030,   1,   517, 0, 0, 517) /* MaxHealth */
-     , (31030,   3,   489, 0, 0, 489) /* MaxStamina */
-     , (31030,   5,   505, 0, 0, 505) /* MaxMana */;
+VALUES (31030,   1,    10, 0, 0, 517) /* MaxHealth */
+     , (31030,   3,    10, 0, 0, 489) /* MaxStamina */
+     , (31030,   5,    10, 0, 0, 505) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31030, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (31030, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31030, 67116369, 0, 0);

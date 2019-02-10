@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1989;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1989, 'wispshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1989, 'wispshadow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1989,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (1989,   1, True ) /* Stuck */
      , (1989,  12, True ) /* ReportCollisions */
      , (1989,  13, False) /* Ethereal */
      , (1989,  14, True ) /* GravityStatus */
-     , (1989,  19, True ) /* Attackable */;
+     , (1989,  19, True ) /* Attackable */
+     , (1989, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1989,   1, 'Shadow Wisp') /* Name */
@@ -51,6 +52,25 @@ VALUES (1989,   1, 100, 0, 0) /* Strength */
      , (1989,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1989,   1,   120, 0, 0, 120) /* MaxHealth */
-     , (1989,   3,   320, 0, 0, 320) /* MaxStamina */
-     , (1989,   5,   280, 0, 0, 251) /* MaxMana */;
+VALUES (1989,   1,    10, 0, 0, 120) /* MaxHealth */
+     , (1989,   3,    10, 0, 0, 320) /* MaxStamina */
+     , (1989,   5,    10, 0, 0, 251) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1989, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (1989, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1989, 9,   273, 25, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1989, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (1989, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (1989, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (1989, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (1989, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1989, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (1989, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (1989, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1989, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1989, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1989, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
+     , (1989, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (1989, 9, 43370,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude IV (43370) for ContainTreasure */
+     , (1989, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */;

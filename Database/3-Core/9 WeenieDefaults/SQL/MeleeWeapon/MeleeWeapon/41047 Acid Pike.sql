@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41047;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41047, 'ace41047-acidpike', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41047, 'ace41047-acidpike', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41047,   1,          1) /* ItemType - MeleeWeapon */
@@ -67,20 +67,22 @@ VALUES (41047,   1,   33560876) /* Setup */
      , (41047, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41047, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (41047, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (41047, 8009,          1);
+     , (41047, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41047, 8040, 2847145993, 43.88592, 13.17736, 86.6326, 0.697145, 0.697145, -0.1182744, -0.1182744) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40009 [43.885920 13.177360 86.632600] 0.697145 0.697145 -0.118274 -0.118274 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41047,   3, 1343928354) /* Wielder */
-     , (41047, 8000, 2408205086) /* PCAPRecordedObjectIID */
+VALUES (41047, 8000, 2408205086) /* PCAPRecordedObjectIID */
      , (41047, 8008, 1343928354) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41047,  1601,      2) 
      , (41047,  1612,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41047, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41047, 67116378, 0, 0);

@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8288;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8288, 'peaherbdragonsblood', 32) /* SpellComponent */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8288, 'peaherbdragonsblood', 32, '2019-02-10 05:41:14') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8288,   1,       4096) /* ItemType - SpellComponents */
      , (8288,   5,         10) /* EncumbranceVal */
      , (8288,  11,        100) /* MaxStackSize */
      , (8288,  12,          1) /* StackSize */
+     , (8288,  13,         10) /* StackUnitEncumbrance */
+     , (8288,  15,       1250) /* StackUnitValue */
      , (8288,  16,          1) /* ItemUseable - No */
      , (8288,  19,       1250) /* Value */
      , (8288,  65,        101) /* Placement - Resting */
@@ -36,8 +38,7 @@ VALUES (8288,   1,   33554817) /* Setup */
      , (8288, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8288,   2, 1342760115) /* Container */
-     , (8288, 8000, 2584296066) /* PCAPRecordedObjectIID */;
+VALUES (8288, 8000, 2584296066) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (8288, 0, 83890064, 83889696);

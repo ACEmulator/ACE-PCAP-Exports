@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30937;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30937, 'eaterswordswallower', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30937, 'eaterswordswallower', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30937,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,17 @@ VALUES (30937,   1, 350, 0, 0) /* Strength */
      , (30937,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30937,   1,   380, 0, 0, 380) /* MaxHealth */
-     , (30937,   3,   510, 0, 0, 510) /* MaxStamina */
-     , (30937,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (30937,   1,    10, 0, 0, 380) /* MaxHealth */
+     , (30937,   3,    10, 0, 0, 510) /* MaxStamina */
+     , (30937,   5,    10, 0, 0, 150) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30937, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (30937, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (30937, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
+     , (30937, 9, 20233,  0, 0, 0, False) /* Create Scroll of Ataxia (20233) for ContainTreasure */
+     , (30937, 9, 20505,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other VII (20505) for ContainTreasure */
+     , (30937, 9, 29492,  0, 0, 0, False) /* Create Sir Ginazio's Sword (29492) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30937, 67115511, 0, 0);

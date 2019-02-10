@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49235;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49235, 'ace49235-acidzombieessence100', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49235, 'ace49235-acidzombieessence100', 70, '2019-02-10 05:41:14') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49235,   1,        128) /* ItemType - Misc */
@@ -12,7 +12,7 @@ VALUES (49235,   1,        128) /* ItemType - Misc */
      , (49235,  33,          0) /* Bonded - Normal */
      , (49235,  65,        101) /* Placement - Resting */
      , (49235,  91,         50) /* MaxStructure */
-     , (49235,  92,         47) /* Structure */
+     , (49235,  92,         50) /* Structure */
      , (49235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49235,  94,         16) /* TargetType - Creature */
      , (49235, 105,          6) /* ItemWorkmanship */

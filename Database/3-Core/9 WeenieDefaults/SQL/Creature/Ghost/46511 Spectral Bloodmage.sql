@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46511;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46511, 'ace46511-spectralbloodmage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46511, 'ace46511-spectralbloodmage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46511,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,33 @@ VALUES (46511,   1, 350, 0, 0) /* Strength */
      , (46511,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46511,   1,  5200, 0, 0, 5200) /* MaxHealth */
-     , (46511,   3,  6000, 0, 0, 6000) /* MaxStamina */
-     , (46511,   5,  6000, 0, 0, 5894) /* MaxMana */;
+VALUES (46511,   1,    10, 0, 0, 5200) /* MaxHealth */
+     , (46511,   3,    10, 0, 0, 6000) /* MaxStamina */
+     , (46511,   5,    10, 0, 0, 5894) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46511, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
+     , (46511, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+     , (46511, 9,   273, 377, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (46511, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
+     , (46511, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (46511, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (46511, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (46511, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (46511, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (46511, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (46511, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */
+     , (46511, 9, 20455,  0, 0, 0, False) /* Create Scroll of Alset's Coil (20455) for ContainTreasure */
+     , (46511, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (46511, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (46511, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (46511, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (46511, 9, 37197,  0, 0, 0, False) /* Create Olthoi Celdon Helm (37197) for ContainTreasure */
+     , (46511, 9, 37205,  0, 0, 0, False) /* Create Olthoi Celdon Sleeves (37205) for ContainTreasure */
+     , (46511, 9, 37302,  1, 0, 0, False) /* Create Glyph of Fletching (37302) for ContainTreasure */
+     , (46511, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
+     , (46511, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (46511, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (46511, 0, 16796578)

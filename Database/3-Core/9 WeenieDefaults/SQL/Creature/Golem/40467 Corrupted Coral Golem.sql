@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40467;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40467, 'ace40467-corruptedcoralgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40467, 'ace40467-corruptedcoralgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40467,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40467, 8000, 2447936041) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40467,   1,  1810, 0, 0, 1810) /* MaxHealth */;
+VALUES (40467,   1,    10, 0, 0, 1810) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40467, 67112891, 0, 0);

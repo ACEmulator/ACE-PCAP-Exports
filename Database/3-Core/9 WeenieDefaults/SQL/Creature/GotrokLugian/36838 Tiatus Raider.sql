@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36838;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36838, 'ace36838-tiatusraider', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36838, 'ace36838-tiatusraider', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36838,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,12 @@ VALUES (36838,   1, 340, 0, 0) /* Strength */
      , (36838,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36838,   1,   450, 0, 0, 450) /* MaxHealth */
-     , (36838,   3,   470, 0, 0, 470) /* MaxStamina */
-     , (36838,   5,   220, 0, 0, 220) /* MaxMana */;
+VALUES (36838,   1,    10, 0, 0, 450) /* MaxHealth */
+     , (36838,   3,    10, 0, 0, 470) /* MaxStamina */
+     , (36838,   5,    10, 0, 0, 220) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36838, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36838, 67113164, 0, 0);

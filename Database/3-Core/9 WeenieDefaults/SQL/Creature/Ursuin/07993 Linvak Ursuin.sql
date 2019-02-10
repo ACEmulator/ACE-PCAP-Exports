@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7993;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7993, 'ursuinlinvak', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7993, 'ursuinlinvak', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7993,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,13 @@ VALUES (7993,   1, 190, 0, 0) /* Strength */
      , (7993,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7993,   1,   190, 0, 0, 190) /* MaxHealth */
-     , (7993,   3,   420, 0, 0, 420) /* MaxStamina */
-     , (7993,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (7993,   1,    10, 0, 0, 190) /* MaxHealth */
+     , (7993,   3,    10, 0, 0, 420) /* MaxStamina */
+     , (7993,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7993, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (7993, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7993, 67112947, 0, 0);

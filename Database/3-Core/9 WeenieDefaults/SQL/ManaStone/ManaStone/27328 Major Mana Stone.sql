@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27328;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27328, 'manastonemajor', 37) /* ManaStone */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27328, 'manastonemajor', 37, '2019-02-10 05:41:14') /* ManaStone */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27328,   1,     524288) /* ItemType - ManaStone */
@@ -38,5 +38,11 @@ VALUES (27328,   1,   33555641) /* Setup */
      , (27328, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27328,   2, 3688354815) /* Container */
-     , (27328, 8000, 3688354817) /* PCAPRecordedObjectIID */;
+VALUES (27328, 8000, 3688354817) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27328, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (27328, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (27328, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (27328, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (27328, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

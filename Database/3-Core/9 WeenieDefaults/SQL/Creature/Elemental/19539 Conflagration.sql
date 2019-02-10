@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19539;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19539, 'estuaryelementalconflagration', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19539, 'estuaryelementalconflagration', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19539,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (19539,   1, True ) /* Stuck */
      , (19539,  13, False) /* Ethereal */
      , (19539,  14, True ) /* GravityStatus */
      , (19539,  15, True ) /* LightsStatus */
-     , (19539,  19, True ) /* Attackable */;
+     , (19539,  19, True ) /* Attackable */
+     , (19539, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19539,  39, 1.39999997615814) /* DefaultScale */;
@@ -55,6 +56,10 @@ VALUES (19539,   1, 150, 0, 0) /* Strength */
      , (19539,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19539,   1,   780, 0, 0, 780) /* MaxHealth */
-     , (19539,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (19539,   5,   540, 0, 0, 540) /* MaxMana */;
+VALUES (19539,   1,    10, 0, 0, 780) /* MaxHealth */
+     , (19539,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (19539,   5,    10, 0, 0, 540) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (19539, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (19539, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */;

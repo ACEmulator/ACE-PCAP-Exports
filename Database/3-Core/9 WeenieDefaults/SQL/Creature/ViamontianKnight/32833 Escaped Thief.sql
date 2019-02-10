@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32833;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32833, 'ace32833-escapedthief', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32833, 'ace32833-escapedthief', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32833,   1,         16) /* ItemType - Creature */
@@ -52,7 +52,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32833, 8000, 2880273547) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32833,   1,   900, 0, 0, 900) /* MaxHealth */;
+VALUES (32833,   1,    10, 0, 0, 900) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32833, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (32833, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+     , (32833, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (32833, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
+     , (32833, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (32833, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
+     , (32833, 9, 29244,  0, 0, 0, False) /* Create Slashing Bow (29244) for ContainTreasure */
+     , (32833, 9, 32832,  0, 0, 0, False) /* Create The Sword of Bellenesse (32832) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32833, 67110026, 92, 4)

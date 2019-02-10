@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24869;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24869, 'sishaltitentacle', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24869, 'sishaltitentacle', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24869,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,9 @@ VALUES (24869,   1, 230, 0, 0) /* Strength */
      , (24869,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24869,   1,   450, 0, 0, 450) /* MaxHealth */
-     , (24869,   3,   460, 0, 0, 460) /* MaxStamina */
-     , (24869,   5,   515, 0, 0, 515) /* MaxMana */;
+VALUES (24869,   1,    10, 0, 0, 450) /* MaxHealth */
+     , (24869,   3,    10, 0, 0, 460) /* MaxStamina */
+     , (24869,   5,    10, 0, 0, 515) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24869, 2, 22545,  1, 0, 0, False) /* Create Obsidian Spines (22545) for Wield */;

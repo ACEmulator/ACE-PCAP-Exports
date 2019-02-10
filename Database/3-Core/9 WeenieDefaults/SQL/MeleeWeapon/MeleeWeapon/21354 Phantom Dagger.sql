@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21354;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21354, 'daggerphantom', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21354, 'daggerphantom', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21354,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,7 @@ VALUES (21354,   1,          1) /* ItemType - MeleeWeapon */
      , (21354, 114,          1) /* Attuned - Attuned */
      , (21354, 151,          2) /* HookType - Wall */
      , (21354, 158,          2) /* WieldRequirements - RawSkill */
-     , (21354, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (21354, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (21354, 160,        275) /* WieldDifficulty */
      , (21354, 179, -2147483648) /* ImbuedEffect - IgnoreAllArmor */
      , (21354, 353,          6) /* WeaponType - Dagger */
@@ -62,5 +62,4 @@ VALUES (21354,   1,   33556656) /* Setup */
      , (21354, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21354,   2, 2979050443) /* Container */
-     , (21354, 8000, 2979050458) /* PCAPRecordedObjectIID */;
+VALUES (21354, 8000, 2979050458) /* PCAPRecordedObjectIID */;

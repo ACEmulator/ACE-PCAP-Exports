@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8562;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8562, 'skeletonlordfortarcher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8562, 'skeletonlordfortarcher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8562,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,23 @@ VALUES (8562,   1,  65, 0, 0) /* Strength */
      , (8562,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8562,   1,   108, 0, 0, 108) /* MaxHealth */
-     , (8562,   3,   165, 0, 0, 165) /* MaxStamina */
-     , (8562,   5,   230, 0, 0, 230) /* MaxMana */;
+VALUES (8562,   1,    10, 0, 0, 108) /* MaxHealth */
+     , (8562,   3,    10, 0, 0, 165) /* MaxStamina */
+     , (8562,   5,    10, 0, 0, 230) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8562, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */
+     , (8562, 2, 47061,  1, 0, 0, False) /* Create Arrow (47061) for Wield */
+     , (8562, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (8562, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (8562, 2, 48233,  1, 0, 0, False) /* Create Electric Compound Bow (48233) for Wield */
+     , (8562, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (8562, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
+     , (8562, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */
+     , (8562, 2, 48274,  1, 0, 0, False) /* Create Arrow (48274) for Wield */
+     , (8562, 2, 48293,  1, 0, 0, False) /* Create Arrow (48293) for Wield */
+     , (8562, 2, 48312,  1, 0, 0, False) /* Create Arrow (48312) for Wield */
+     , (8562, 2, 48331,  1, 0, 0, False) /* Create Arrow (48331) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8562, 67116527, 0, 0);

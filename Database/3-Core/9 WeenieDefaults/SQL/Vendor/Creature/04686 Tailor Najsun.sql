@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4686;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4686, 'alarqastailor', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4686, 'alarqastailor', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4686,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (4686,   1,  80, 0, 0) /* Strength */
      , (4686,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4686,   1,    58, 0, 0, 58) /* MaxHealth */
-     , (4686,   3,   105, 0, 0, 105) /* MaxStamina */
-     , (4686,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (4686,   1,    10, 0, 0, 58) /* MaxHealth */
+     , (4686,   3,    10, 0, 0, 105) /* MaxStamina */
+     , (4686,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4686, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */

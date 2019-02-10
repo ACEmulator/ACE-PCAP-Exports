@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31399;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31399, 'ace31399-greaterpenumbralhorror', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31399, 'ace31399-greaterpenumbralhorror', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31399,   1,         16) /* ItemType - Creature */
@@ -49,7 +49,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31399, 8000, 3711450269) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31399,   1,  1480, 0, 0, 1480) /* MaxHealth */;
+VALUES (31399,   1,    10, 0, 0, 1480) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31399, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (31399, 9, 31380,  0, 0, 0, False) /* Create Iniquitous Fragment (31380) for ContainTreasure */
+     , (31399, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31399, 67116699, 0, 0);

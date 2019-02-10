@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29363;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29363, 'knighttorturer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29363, 'knighttorturer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29363,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,23 @@ VALUES (29363,   1, 140, 0, 0) /* Strength */
      , (29363,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29363,   1,   105, 0, 0, 105) /* MaxHealth */
-     , (29363,   3,   205, 0, 0, 205) /* MaxStamina */
-     , (29363,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (29363,   1,    10, 0, 0, 105) /* MaxHealth */
+     , (29363,   3,    10, 0, 0, 205) /* MaxStamina */
+     , (29363,   5,    10, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29363, 2, 30566,  1, 0, 0, False) /* Create Sabra (30566) for Wield */
+     , (29363, 2, 30567,  1, 0, 0, False) /* Create Lightning Sabra (30567) for Wield */
+     , (29363, 2, 30568,  1, 0, 0, False) /* Create Flaming Sabra (30568) for Wield */
+     , (29363, 2, 30581,  1, 0, 0, False) /* Create Mazule (30581) for Wield */
+     , (29363, 2, 30583,  1, 0, 0, False) /* Create Flaming Mazule (30583) for Wield */
+     , (29363, 2, 30585,  1, 0, 0, False) /* Create Acid Mazule (30585) for Wield */
+     , (29363, 2, 30595,  1, 0, 0, False) /* Create Frost Partizan (30595) for Wield */
+     , (29363, 2, 30596,  1, 0, 0, False) /* Create Poniard (30596) for Wield */
+     , (29363, 2, 30597,  1, 0, 0, False) /* Create Lightning Poniard (30597) for Wield */
+     , (29363, 2, 30600,  1, 0, 0, False) /* Create Acid Poniard (30600) for Wield */
+     , (29363, 2, 30601,  1, 0, 0, False) /* Create Stiletto (30601) for Wield */
+     , (29363, 2, 30602,  1, 0, 0, False) /* Create Lightning Stiletto (30602) for Wield */
+     , (29363, 2, 30603,  1, 0, 0, False) /* Create Flaming Stiletto (30603) for Wield */
+     , (29363, 2, 30604,  1, 0, 0, False) /* Create Frost Stiletto (30604) for Wield */
+     , (29363, 2, 30605,  1, 0, 0, False) /* Create Acid Stiletto (30605) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49044;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49044, 'ace49044-nephthysticprophecyselemental', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49044, 'ace49044-nephthysticprophecyselemental', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49044,   1,         16) /* ItemType - Creature */
@@ -50,8 +50,7 @@ VALUES (49044, 8040, 1498677566, 30.49853, -65.59077, -41.997, 0.1366508, 0, 0, 
 /* @teleloc 0x5954013E [30.498530 -65.590770 -41.997000] 0.136651 0.000000 0.000000 -0.990619 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49044,  44, 1343425824) /* PetOwner */
-     , (49044, 8000, 3707619857) /* PCAPRecordedObjectIID */;
+VALUES (49044, 8000, 3707619857) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49044,   1, 210, 0, 0) /* Strength */
@@ -62,9 +61,9 @@ VALUES (49044,   1, 210, 0, 0) /* Strength */
      , (49044,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49044,   1,  1370, 0, 0, 1370) /* MaxHealth */
-     , (49044,   3,  1740, 0, 0, 1740) /* MaxStamina */
-     , (49044,   5,  1070, 0, 0, 1070) /* MaxMana */;
+VALUES (49044,   1,    10, 0, 0, 1370) /* MaxHealth */
+     , (49044,   3,    10, 0, 0, 1740) /* MaxStamina */
+     , (49044,   5,    10, 0, 0, 1070) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49044, 67116721, 0, 0);

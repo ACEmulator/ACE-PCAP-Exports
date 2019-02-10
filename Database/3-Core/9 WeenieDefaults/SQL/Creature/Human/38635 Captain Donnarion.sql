@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38635;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38635, 'ace38635-captaindonnarion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38635, 'ace38635-captaindonnarion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38635,   1,         16) /* ItemType - Creature */
@@ -53,7 +53,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38635, 8000, 3704754947) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38635,   1,  1500, 0, 0, 1500) /* MaxHealth */;
+VALUES (38635,   1,    10, 0, 0, 1500) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38635, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (38635, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (38635, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (38635, 9, 38642,  0, 0, 0, False) /* Create Donnarion's Key (38642) for ContainTreasure */
+     , (38635, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38635, 67109560, 0, 24)

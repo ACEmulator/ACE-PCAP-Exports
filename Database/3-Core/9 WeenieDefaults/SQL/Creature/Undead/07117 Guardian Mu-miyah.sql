@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7117;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7117, 'mumiyahguardian', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7117, 'mumiyahguardian', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7117,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,27 @@ VALUES (7117,   1, 110, 0, 0) /* Strength */
      , (7117,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7117,   1,   230, 0, 0, 230) /* MaxHealth */
-     , (7117,   3,   420, 0, 0, 420) /* MaxStamina */
-     , (7117,   5,   350, 0, 0, 350) /* MaxMana */;
+VALUES (7117,   1,    10, 0, 0, 230) /* MaxHealth */
+     , (7117,   3,    10, 0, 0, 420) /* MaxStamina */
+     , (7117,   5,    10, 0, 0, 350) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7117, 9,    72,  0, 0, 0, False) /* Create Platemail Hauberk (72) for ContainTreasure */
+     , (7117, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (7117, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (7117, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (7117, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (7117, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (7117, 9,   273, 413, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7117, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (7117, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (7117, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (7117, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7117, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (7117, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7117, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7117, 9, 41037,  0, 0, 0, False) /* Create Acidic Weeping Two Handed Spear (41037) for ContainTreasure */
+     , (7117, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7117, 67111813, 0, 0);

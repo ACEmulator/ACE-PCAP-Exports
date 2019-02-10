@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29489;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29489, 'knightkarlunsirbelfelor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29489, 'knightkarlunsirbelfelor', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29489,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,12 @@ VALUES (29489, 8040, 2163032, 20, -2, 6.005, -0.00142271, 0, 0, -0.999999) /* PC
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29489, 8000, 3705296043) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29489, 2, 12083,  1, 0, 0, False) /* Create Bandit Yaoji (12083) for Wield */
+     , (29489, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (29489, 9, 29493,  0, 0, 0, False) /* Create Ring of Karlun (29493) for ContainTreasure */
+     , (29489, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29489, 67110063, 32, 8)

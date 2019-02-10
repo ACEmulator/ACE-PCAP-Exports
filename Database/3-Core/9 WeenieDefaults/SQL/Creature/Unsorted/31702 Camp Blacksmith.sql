@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31702;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31702, 'ace31702-campblacksmith', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31702, 'ace31702-campblacksmith', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31702,   1,         16) /* ItemType - Creature */
@@ -46,6 +46,9 @@ VALUES (31702, 8040, 1004994817, 40.2, 55.7957, -0.2950001, -0.128606, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31702, 8000, 2878769403) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31702, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31702, 67110003, 72, 8)

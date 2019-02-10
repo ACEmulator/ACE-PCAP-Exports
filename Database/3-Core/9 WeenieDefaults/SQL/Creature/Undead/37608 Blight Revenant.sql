@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37608;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37608, 'ace37608-blightrevenant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37608, 'ace37608-blightrevenant', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37608,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,28 @@ VALUES (37608,   1, 245, 0, 0) /* Strength */
      , (37608,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37608,   1,  1150, 0, 0, 1150) /* MaxHealth */
-     , (37608,   3,  2100, 0, 0, 2100) /* MaxStamina */
-     , (37608,   5,  1320, 0, 0, 1320) /* MaxMana */;
+VALUES (37608,   1,    10, 0, 0, 1150) /* MaxHealth */
+     , (37608,   3,    10, 0, 0, 2100) /* MaxStamina */
+     , (37608,   5,    10, 0, 0, 1320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37608, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (37608, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (37608, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (37608, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (37608, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
+     , (37608, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (37608, 2, 48006,  1, 0, 0, False) /* Create Quarrel (48006) for Wield */
+     , (37608, 2, 48007,  1, 0, 0, False) /* Create Acid Quarrel (48007) for Wield */
+     , (37608, 2, 48009,  1, 0, 0, False) /* Create Acid Katar (48009) for Wield */
+     , (37608, 2, 48010,  1, 0, 0, False) /* Create Katar (48010) for Wield */
+     , (37608, 2, 48011,  1, 0, 0, False) /* Create Lightning Katar (48011) for Wield */
+     , (37608, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */
+     , (37608, 2, 48014,  1, 0, 0, False) /* Create Lightning Nekode (48014) for Wield */
+     , (37608, 2, 48015,  1, 0, 0, False) /* Create Silifi (48015) for Wield */
+     , (37608, 2, 48016,  1, 0, 0, False) /* Create Acid Silifi (48016) for Wield */
+     , (37608, 2, 48019,  1, 0, 0, False) /* Create Lightning Ono (48019) for Wield */
+     , (37608, 2, 48095,  1, 0, 0, False) /* Create Lightning Silifi (48095) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37608, 67114691, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45160;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45160, 'ace45160-wightcaptain', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45160, 'ace45160-wightcaptain', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45160,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,13 @@ VALUES (45160, 8040, 1466171910, 20, -30, -5.99175, 1, 0, 0, 0) /* PCAPRecordedL
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45160, 8000, 3630564724) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45160, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (45160, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
+     , (45160, 2, 48081,  1, 0, 0, False) /* Create Acid Quarrel (48081) for Wield */
+     , (45160, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
+     , (45160, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45160, 67111664, 0, 0);

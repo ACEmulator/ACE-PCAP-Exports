@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52740;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52740, 'ace52740-gemofbrilliance', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52740, 'ace52740-gemofbrilliance', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52740,   1,       2048) /* ItemType - Gem */
-     , (52740,   5,         90) /* EncumbranceVal */
+     , (52740,   5,         10) /* EncumbranceVal */
      , (52740,  11,         10) /* MaxStackSize */
-     , (52740,  12,          9) /* StackSize */
+     , (52740,  12,          1) /* StackSize */
+     , (52740,  13,         10) /* StackUnitEncumbrance */
+     , (52740,  15,          5) /* StackUnitValue */
      , (52740,  16,          8) /* ItemUseable - Contained */
      , (52740,  18,          1) /* UiEffects - Magical */
-     , (52740,  19,         45) /* Value */
+     , (52740,  19,          5) /* Value */
      , (52740,  65,        101) /* Placement - Resting */
      , (52740,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -36,8 +38,7 @@ VALUES (52740,   1,   33554809) /* Setup */
      , (52740, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52740,   2, 1343492795) /* Container */
-     , (52740, 8000, 3501533863) /* PCAPRecordedObjectIID */;
+VALUES (52740, 8000, 3501533863) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52740, 67112926, 0, 0);

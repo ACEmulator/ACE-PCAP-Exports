@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41068;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41068, 'ace41068-acidshashqa', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41068, 'ace41068-acidshashqa', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41068,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (41068,   1,          1) /* ItemType - MeleeWeapon */
      , (41068, 131,         51) /* MaterialType - Ivory */
      , (41068, 151,          2) /* HookType - Wall */
      , (41068, 158,          2) /* WieldRequirements - RawSkill */
-     , (41068, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41068, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41068, 160,        300) /* WieldDifficulty */
      , (41068, 172,          5) /* AppraisalLongDescDecoration */
      , (41068, 176,         41) /* AppraisalItemSkill */
@@ -72,12 +72,14 @@ VALUES (41068,   1,   33560827) /* Setup */
      , (41068, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41068,   2, 3706737032) /* Container */
-     , (41068, 8000, 3706737034) /* PCAPRecordedObjectIID */;
+VALUES (41068, 8000, 3706737034) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41068,  1615,      2) 
      , (41068,  1626,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41068, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41068, 67116394, 0, 0);

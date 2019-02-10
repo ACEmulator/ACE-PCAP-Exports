@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27432;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27432, 'gibbering', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27432, 'gibbering', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27432,   1,         16) /* ItemType - Creature */
@@ -46,4 +46,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27432, 8000, 2629227206) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27432,   1,  4000, 0, 0, 4000) /* MaxHealth */;
+VALUES (27432,   1,    10, 0, 0, 4000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27432, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (27432, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (27432, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
+     , (27432, 9, 20521,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self VII (20521) for ContainTreasure */
+     , (27432, 9, 27451,  0, 0, 0, False) /* Create Gibbering Claw (27451) for ContainTreasure */
+     , (27432, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (27432, 9, 44856,  0, 0, 0, False) /* Create Trimmed Cloak (44856) for ContainTreasure */;

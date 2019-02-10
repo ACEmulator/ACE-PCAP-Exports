@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27709;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27709, 'golemgreatelariwood', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27709, 'golemgreatelariwood', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27709,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,22 @@ VALUES (27709,   1, 270, 0, 0) /* Strength */
      , (27709,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27709,   1,   625, 0, 0, 625) /* MaxHealth */
-     , (27709,   3,   750, 0, 0, 750) /* MaxStamina */
-     , (27709,   5,   880, 0, 0, 880) /* MaxMana */;
+VALUES (27709,   1,    10, 0, 0, 625) /* MaxHealth */
+     , (27709,   3,    10, 0, 0, 750) /* MaxStamina */
+     , (27709,   5,    10, 0, 0, 880) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27709, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (27709, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (27709, 9,   273, 2772, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (27709, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (27709, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (27709, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (27709, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27709, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (27709, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (27709, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (27709, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27709, 67115186, 0, 0);

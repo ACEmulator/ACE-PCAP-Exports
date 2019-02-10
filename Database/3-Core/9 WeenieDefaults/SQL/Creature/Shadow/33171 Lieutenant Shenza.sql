@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33171;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33171, 'ace33171-lieutenantshenza', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33171, 'ace33171-lieutenantshenza', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33171,   1,         16) /* ItemType - Creature */
@@ -54,4 +54,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33171, 8000, 3332568055) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33171,   1,  2750, 0, 0, 2750) /* MaxHealth */;
+VALUES (33171,   1,    10, 0, 0, 2750) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33171, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
+     , (33171, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */;

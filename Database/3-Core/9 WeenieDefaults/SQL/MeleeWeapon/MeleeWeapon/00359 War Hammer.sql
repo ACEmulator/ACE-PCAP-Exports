@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 359;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (359, 'warhammer', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (359, 'warhammer', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (359,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (359,   1,          1) /* ItemType - MeleeWeapon */
      , (359, 131,         75) /* MaterialType - Oak */
      , (359, 151,          2) /* HookType - Wall */
      , (359, 158,          2) /* WieldRequirements - RawSkill */
-     , (359, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (359, 159,         45) /* WieldSkillType - LightWeapons */
      , (359, 160,        300) /* WieldDifficulty */
      , (359, 172,          5) /* AppraisalLongDescDecoration */
      , (359, 176,         45) /* AppraisalItemSkill */
@@ -67,20 +67,22 @@ VALUES (359,   1,   33554766) /* Setup */
      , (359, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (359, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (359, 8009,          1);
+     , (359, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (359, 8040, 3332964642, 31.9969, 82.953, 41.929, 0.08975437, 0.08975437, -0.7013873, -0.7013873) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90122 [31.996900 82.953000 41.929000] 0.089754 0.089754 -0.701387 -0.701387 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (359,   3, 2087358503) /* Wielder */
-     , (359, 8000, 2155136957) /* PCAPRecordedObjectIID */
+VALUES (359, 8000, 2155136957) /* PCAPRecordedObjectIID */
      , (359, 8008, 2087358503) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (359,  1591,      2) 
      , (359,  1615,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (359, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (359, 67111920, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35812;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35812, 'ace35812-paradoxtouchedolthoiwardguardian', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35812, 'ace35812-paradoxtouchedolthoiwardguardian', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35812,   1,         16) /* ItemType - Creature */
@@ -49,7 +49,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35812, 8000, 3701403299) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35812,   1, 30250, 0, 0, 30250) /* MaxHealth */;
+VALUES (35812,   1,    10, 0, 0, 30250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35812, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (35812, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (35812, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (35812, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (35812, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
+     , (35812, 9, 49236,  0, 0, 0, False) /* Create Acid Zombie Essence (125) (49236) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35812, 67114508, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40479;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40479, 'ace40479-maguthmoarsman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40479, 'ace40479-maguthmoarsman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40479,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (40479,   1, 230, 0, 0) /* Strength */
      , (40479,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40479,   1,  1115, 0, 0, 1115) /* MaxHealth */
-     , (40479,   3,  1630, 0, 0, 1625) /* MaxStamina */
-     , (40479,   5,   680, 0, 0, 680) /* MaxMana */;
+VALUES (40479,   1,    10, 0, 0, 1115) /* MaxHealth */
+     , (40479,   3,    10, 0, 0, 1625) /* MaxStamina */
+     , (40479,   5,    10, 0, 0, 680) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40479, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
+     , (40479, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
+     , (40479, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40479, 67113030, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31398;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31398, 'ace31398-penumbralhorror', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31398, 'ace31398-penumbralhorror', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31398,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,17 @@ VALUES (31398,   1, 250, 0, 0) /* Strength */
      , (31398,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31398,   1,  1310, 0, 0, 1310) /* MaxHealth */
-     , (31398,   3,  1310, 0, 0, 1310) /* MaxStamina */
-     , (31398,   5,  1190, 0, 0, 1190) /* MaxMana */;
+VALUES (31398,   1,    10, 0, 0, 1310) /* MaxHealth */
+     , (31398,   3,    10, 0, 0, 1310) /* MaxStamina */
+     , (31398,   5,    10, 0, 0, 1190) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31398, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
+     , (31398, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (31398, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (31398, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+     , (31398, 9, 30823,  0, 0, 0, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
+     , (31398, 9, 45298,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other VII (45298) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31398, 67116699, 0, 0);

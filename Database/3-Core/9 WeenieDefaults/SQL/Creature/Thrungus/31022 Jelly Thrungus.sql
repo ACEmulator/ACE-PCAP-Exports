@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31022;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31022, 'thrungusjelly', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31022, 'thrungusjelly', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31022,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,15 @@ VALUES (31022,   1, 565, 0, 0) /* Strength */
      , (31022,   6, 404, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31022,   1,   929, 0, 0, 929) /* MaxHealth */
-     , (31022,   3,   812, 0, 0, 812) /* MaxStamina */
-     , (31022,   5,   767, 0, 0, 767) /* MaxMana */;
+VALUES (31022,   1,    10, 0, 0, 929) /* MaxHealth */
+     , (31022,   3,    10, 0, 0, 812) /* MaxStamina */
+     , (31022,   5,    10, 0, 0, 767) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31022, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (31022, 9, 20526,  0, 0, 0, False) /* Create Scroll of Sashi Mu's Kiss (20526) for ContainTreasure */
+     , (31022, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (31022, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31022, 67116368, 0, 0);

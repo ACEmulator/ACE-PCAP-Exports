@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48763;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48763, 'ace48763-skeletonranger', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48763, 'ace48763-skeletonranger', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48763,   1,         16) /* ItemType - Creature */
@@ -45,7 +45,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48763, 8000, 3684344265) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48763,   1,  3125, 0, 0, 3125) /* MaxHealth */;
+VALUES (48763,   1,    10, 0, 0, 3125) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48763, 2, 46629,  1, 0, 0, False) /* Create Greater Deadly Lightning Arrow (46629) for Wield */
+     , (48763, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) for Wield */
+     , (48763, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (48763, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (48763, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48763, 67116523, 0, 0);

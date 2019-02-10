@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7350;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7350, 'zombiesoulfearingacolytearea3', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7350, 'zombiesoulfearingacolytearea3', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7350,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,31 @@ VALUES (7350,   1, 110, 0, 0) /* Strength */
      , (7350,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7350,   1,   175, 0, 0, 175) /* MaxHealth */
-     , (7350,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (7350,   5,   285, 0, 0, 176) /* MaxMana */;
+VALUES (7350,   1,    10, 0, 0, 175) /* MaxHealth */
+     , (7350,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (7350,   5,    10, 0, 0, 176) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7350, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (7350, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (7350, 2, 47937,  1, 0, 0, False) /* Create Nekode (47937) for Wield */
+     , (7350, 2, 47938,  1, 0, 0, False) /* Create Acid Nekode (47938) for Wield */
+     , (7350, 2, 47940,  1, 0, 0, False) /* Create Silifi (47940) for Wield */
+     , (7350, 2, 47945,  1, 0, 0, False) /* Create Lightning Ono (47945) for Wield */
+     , (7350, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (7350, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (7350, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (7350, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (7350, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (7350, 9,  2992,  0, 0, 0, False) /* Create Scroll of Blade Protection Other VI (2992) for ContainTreasure */
+     , (7350, 9,  7810,  0, 0, 0, False) /* Create Yucky Key (7810) for ContainTreasure */
+     , (7350, 9,  7817,  0, 0, 0, False) /* Create Skull of High Acolyte (7817) for ContainTreasure */
+     , (7350, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (7350, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
+     , (7350, 9, 41053,  0, 0, 0, False) /* Create Acid Greataxe (41053) for ContainTreasure */
+     , (7350, 9, 44801,  0, 0, 0, False) /* Create Suikan Over-robe (44801) for ContainTreasure */
+     , (7350, 9, 49296,  0, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for ContainTreasure */
+     , (7350, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7350, 67111341, 0, 0);

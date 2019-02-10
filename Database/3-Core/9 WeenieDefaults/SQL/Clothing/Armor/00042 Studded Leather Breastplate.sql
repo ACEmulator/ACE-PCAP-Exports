@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42, 'breastplatestuddedleather', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42, 'breastplatestuddedleather', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42,   1,          2) /* ItemType - Armor */
@@ -59,6 +59,9 @@ VALUES (42, 8040, 1581449474, 13.70616, -28.23217, -0.004999995, 0.4977438, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42, 8000, 3691668604) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42, 2, 48233,  1, 0, 0, False) /* Create Electric Compound Bow (48233) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42, 67110002, 186, 12)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36821;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36821, 'ace36821-ascendantdrudge', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36821, 'ace36821-ascendantdrudge', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36821,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,21 @@ VALUES (36821,   1, 210, 0, 0) /* Strength */
      , (36821,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36821,   1,   503, 0, 0, 503) /* MaxHealth */
-     , (36821,   3,   705, 0, 0, 705) /* MaxStamina */
-     , (36821,   5,   370, 0, 0, 370) /* MaxMana */;
+VALUES (36821,   1,    10, 0, 0, 503) /* MaxHealth */
+     , (36821,   3,    10, 0, 0, 705) /* MaxStamina */
+     , (36821,   5,    10, 0, 0, 370) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36821, 2, 47238,  1, 0, 0, False) /* Create Acid Board with Nail (47238) for Wield */
+     , (36821, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
+     , (36821, 2, 47276,  1, 0, 0, False) /* Create Electric Board with Nail (47276) for Wield */
+     , (36821, 2, 47295,  1, 0, 0, False) /* Create Fire Board with Nail (47295) for Wield */
+     , (36821, 2, 47314,  1, 0, 0, False) /* Create Frost Board with Nail (47314) for Wield */
+     , (36821, 2, 47333,  1, 0, 0, False) /* Create Acid Club (47333) for Wield */
+     , (36821, 2, 47352,  1, 0, 0, False) /* Create Club (47352) for Wield */
+     , (36821, 2, 47371,  1, 0, 0, False) /* Create Lightning Club (47371) for Wield */
+     , (36821, 2, 47390,  1, 0, 0, False) /* Create Flaming Club (47390) for Wield */
+     , (36821, 2, 47409,  1, 0, 0, False) /* Create Frost Club (47409) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36821, 67112818, 0, 0);

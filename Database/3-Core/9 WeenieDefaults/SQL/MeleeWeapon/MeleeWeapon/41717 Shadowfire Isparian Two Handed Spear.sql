@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41717;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41717, 'ace41717-shadowfireispariantwohandedspear', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41717, 'ace41717-shadowfireispariantwohandedspear', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41717,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (41717,   1,          1) /* ItemType - MeleeWeapon */
      , (41717, 114,          1) /* Attuned - Attuned */
      , (41717, 151,          2) /* HookType - Wall */
      , (41717, 158,          2) /* WieldRequirements - RawSkill */
-     , (41717, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41717, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41717, 160,        400) /* WieldDifficulty */
      , (41717, 166,         22) /* SlayerCreatureType - Shadow */
      , (41717, 353,         11) /* WeaponType - TwoHanded */
@@ -64,8 +64,7 @@ VALUES (41717,   1,   33559823) /* Setup */
      , (41717, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41717,   2, 1343270995) /* Container */
-     , (41717, 8000, 2237242444) /* PCAPRecordedObjectIID */;
+VALUES (41717, 8000, 2237242444) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41717, 67111927, 0, 0);

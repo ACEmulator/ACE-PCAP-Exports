@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35129;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35129, 'ace35129-adeptoffrost', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35129, 'ace35129-adeptoffrost', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35129,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,22 @@ VALUES (35129,   1, 245, 0, 0) /* Strength */
      , (35129,   6, 445, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35129,   1,   513, 0, 0, 513) /* MaxHealth */
-     , (35129,   3,   560, 0, 0, 560) /* MaxStamina */
-     , (35129,   5,   820, 0, 0, 820) /* MaxMana */;
+VALUES (35129,   1,    10, 0, 0, 513) /* MaxHealth */
+     , (35129,   3,    10, 0, 0, 560) /* MaxStamina */
+     , (35129,   5,    10, 0, 0, 820) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35129, 2, 31824,  1, 0, 0, False) /* Create Ice Wand (31824) for Wield */
+     , (35129, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (35129, 9,   273, 2528, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (35129, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (35129, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (35129, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (35129, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */
+     , (35129, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (35129, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
+     , (35129, 9, 20573,  0, 0, 0, False) /* Create Scroll of Introversion (20573) for ContainTreasure */
+     , (35129, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */
+     , (35129, 9, 40695,  0, 0, 0, False) /* Create Covenant Sollerets (40695) for ContainTreasure */
+     , (35129, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
+     , (35129, 9, 49291,  0, 0, 0, False) /* Create Lightning K'nath Essence (100) (49291) for ContainTreasure */;

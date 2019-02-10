@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51399;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51399, 'ace51399-simulacrumdoppelganger', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51399, 'ace51399-simulacrumdoppelganger', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51399,   1,         16) /* ItemType - Creature */
@@ -41,6 +41,9 @@ VALUES (51399, 8040, 1483735772, 198.938, -120.99, 0.004999995, 1, 0, 0, 0) /* P
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51399, 8000, 3629701656) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51399, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51399, 67109550, 0, 24)

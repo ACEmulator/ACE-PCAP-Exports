@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35143;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35143, 'ace35143-mukkirkartak', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35143, 'ace35143-mukkirkartak', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35143,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,12 @@ VALUES (35143,   1, 500, 0, 0) /* Strength */
      , (35143,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35143,   1,  3725, 0, 0, 3725) /* MaxHealth */
-     , (35143,   3,  2950, 0, 0, 2950) /* MaxStamina */
-     , (35143,   5,   620, 0, 0, 620) /* MaxMana */;
+VALUES (35143,   1,    10, 0, 0, 3725) /* MaxHealth */
+     , (35143,   3,    10, 0, 0, 2950) /* MaxStamina */
+     , (35143,   5,    10, 0, 0, 620) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35143, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35143, 67116774, 0, 0);

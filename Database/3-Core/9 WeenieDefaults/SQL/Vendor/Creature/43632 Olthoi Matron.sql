@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43632;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43632, 'ace43632-olthoimatron', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43632, 'ace43632-olthoimatron', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43632,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,9 @@ VALUES (43632,   1, 380, 0, 0) /* Strength */
      , (43632,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43632,   1,  1710, 0, 0, 1710) /* MaxHealth */
-     , (43632,   3,   920, 0, 0, 920) /* MaxStamina */
-     , (43632,   5,   250, 0, 0, 250) /* MaxMana */;
+VALUES (43632,   1,    10, 0, 0, 1710) /* MaxHealth */
+     , (43632,   3,    10, 0, 0, 920) /* MaxStamina */
+     , (43632,   5,    10, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43632, 4, 43633, -1, 0, 0, False) /* Create  (43633) for Shop */

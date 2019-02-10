@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35481;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35481, 'ace35481-watcherinthewarren', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35481, 'ace35481-watcherinthewarren', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35481,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,18 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35481, 8000, 3709596138) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35481,   1,  1005, 0, 0, 1005) /* MaxHealth */;
+VALUES (35481,   1,    10, 0, 0, 1005) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35481, 9,    72,  0, 0, 0, False) /* Create Platemail Hauberk (72) for ContainTreasure */
+     , (35481, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (35481, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (35481, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (35481, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
+     , (35481, 9, 31806,  0, 0, 0, False) /* Create Acid Compound Crossbow (31806) for ContainTreasure */
+     , (35481, 9, 35480,  0, 0, 0, False) /* Create Watcher's Message Shard (35480) for ContainTreasure */
+     , (35481, 9, 49221,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (80) (49221) for ContainTreasure */
+     , (35481, 9, 49320,  0, 0, 0, False) /* Create Lightning Wisp Essence (125) (49320) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35481, 67114250, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26019;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (26019, 'burunruukseer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (26019, 'burunruukseer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26019,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,44 @@ VALUES (26019,   1, 180, 0, 0) /* Strength */
      , (26019,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26019,   1,   340, 0, 0, 340) /* MaxHealth */
-     , (26019,   3,   450, 0, 0, 450) /* MaxStamina */
-     , (26019,   5,   420, 0, 0, 420) /* MaxMana */;
+VALUES (26019,   1,    10, 0, 0, 340) /* MaxHealth */
+     , (26019,   3,    10, 0, 0, 450) /* MaxStamina */
+     , (26019,   5,    10, 0, 0, 420) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (26019, 2, 26023,  1, 0, 0, False) /* Create Stone Axe (26023) for Wield */
+     , (26019, 2, 26032,  1, 0, 0, False) /* Create Bone Dagger (26032) for Wield */
+     , (26019, 2, 26044,  1, 0, 0, False) /* Create Stone Mace (26044) for Wield */
+     , (26019, 2, 26049,  1, 0, 0, False) /* Create Stone Spear (26049) for Wield */
+     , (26019, 2, 26053,  1, 0, 0, False) /* Create Bone Sword (26053) for Wield */
+     , (26019, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (26019, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (26019, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (26019, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */
+     , (26019, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (26019, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (26019, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (26019, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (26019, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (26019, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (26019, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (26019, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
+     , (26019, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
+     , (26019, 9,  2816,  0, 0, 0, False) /* Create Scroll of Flame Bane VI (2816) for ContainTreasure */
+     , (26019, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (26019, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (26019, 9, 20233,  0, 0, 0, False) /* Create Scroll of Ataxia (20233) for ContainTreasure */
+     , (26019, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (26019, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
+     , (26019, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
+     , (26019, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (26019, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (26019, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (26019, 9, 41037,  0, 0, 0, False) /* Create Acidic Weeping Two Handed Spear (41037) for ContainTreasure */
+     , (26019, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (26019, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (26019, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (26019, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26019, 67114925, 0, 0);

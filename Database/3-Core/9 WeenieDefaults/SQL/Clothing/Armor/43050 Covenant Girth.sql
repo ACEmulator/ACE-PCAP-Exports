@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43050;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43050, 'ace43050-covenantgirth', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43050, 'ace43050-covenantgirth', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43050,   1,          2) /* ItemType - Armor */
@@ -23,7 +23,7 @@ VALUES (43050,   1,          2) /* ItemType - Armor */
      , (43050, 115,          0) /* ItemSkillLevelLimit */
      , (43050, 131,         52) /* MaterialType - Leather */
      , (43050, 158,          7) /* WieldRequirements - Level */
-     , (43050, 159,          1) /* WieldSkilltype - Axe */
+     , (43050, 159,          1) /* WieldSkillType - Axe */
      , (43050, 160,        180) /* WieldDifficulty */
      , (43050, 171,          6) /* NumTimesTinkered */
      , (43050, 172,          1) /* AppraisalLongDescDecoration */
@@ -67,12 +67,14 @@ VALUES (43050,   1,   33554647) /* Setup */
      , (43050, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43050,   2, 1342814975) /* Container */
-     , (43050, 8000, 3580267361) /* PCAPRecordedObjectIID */;
+VALUES (43050, 8000, 3580267361) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43050,  4407,      2) 
      , (43050,  6082,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43050, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43050, 67113916, 80, 12);

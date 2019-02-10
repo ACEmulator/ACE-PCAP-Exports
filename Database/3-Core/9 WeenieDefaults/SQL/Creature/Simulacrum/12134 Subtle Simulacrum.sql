@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12134;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12134, 'simulacrumsubtle', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12134, 'simulacrumsubtle', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12134,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,13 @@ VALUES (12134,   1, 190, 0, 0) /* Strength */
      , (12134,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12134,   1,   154, 0, 0, 154) /* MaxHealth */
-     , (12134,   3,   204, 0, 0, 204) /* MaxStamina */
-     , (12134,   5,   362, 0, 0, 362) /* MaxMana */;
+VALUES (12134,   1,    10, 0, 0, 154) /* MaxHealth */
+     , (12134,   3,    10, 0, 0, 204) /* MaxStamina */
+     , (12134,   5,    10, 0, 0, 362) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (12134, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (12134, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12134, 67109560, 0, 24)

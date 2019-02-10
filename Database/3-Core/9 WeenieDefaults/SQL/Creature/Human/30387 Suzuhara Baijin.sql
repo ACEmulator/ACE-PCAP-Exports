@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30387;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30387, 'stoneholdsuzuharabaijin', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30387, 'stoneholdsuzuharabaijin', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30387,   1,         16) /* ItemType - Creature */
@@ -68,9 +68,9 @@ VALUES (30387,   1,  84, 0, 0) /* Strength */
      , (30387,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30387,   1,   173, 0, 0, 173) /* MaxHealth */
-     , (30387,   3,   209, 0, 0, 209) /* MaxStamina */
-     , (30387,   5,   140, 0, 0, 140) /* MaxMana */;
+VALUES (30387,   1,    10, 0, 0, 173) /* MaxHealth */
+     , (30387,   3,    10, 0, 0, 209) /* MaxStamina */
+     , (30387,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30387, 67109565, 32, 8)

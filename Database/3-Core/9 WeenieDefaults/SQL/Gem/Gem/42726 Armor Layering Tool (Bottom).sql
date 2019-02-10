@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42726;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42726, 'ace42726-armorlayeringtoolbottom', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42726, 'ace42726-armorlayeringtoolbottom', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42726,   1,       2048) /* ItemType - Gem */
-     , (42726,   5,       1000) /* EncumbranceVal */
+     , (42726,   5,         10) /* EncumbranceVal */
      , (42726,  11,        100) /* MaxStackSize */
-     , (42726,  12,        100) /* StackSize */
+     , (42726,  12,          1) /* StackSize */
+     , (42726,  13,         10) /* StackUnitEncumbrance */
+     , (42726,  15,          1) /* StackUnitValue */
      , (42726,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
-     , (42726,  19,        100) /* Value */
+     , (42726,  19,          1) /* Value */
      , (42726,  65,        101) /* Placement - Resting */
      , (42726,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42726,  94,          6) /* TargetType - Vestements */;
@@ -37,5 +39,4 @@ VALUES (42726,   1,   33555677) /* Setup */
      , (42726, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42726,   2, 1343890285) /* Container */
-     , (42726, 8000, 3443531061) /* PCAPRecordedObjectIID */;
+VALUES (42726, 8000, 3443531061) /* PCAPRecordedObjectIID */;

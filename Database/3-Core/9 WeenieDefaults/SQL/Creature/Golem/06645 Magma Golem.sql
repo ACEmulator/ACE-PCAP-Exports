@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6645;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6645, 'golemunstablemagma', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6645, 'golemunstablemagma', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6645,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,9 @@ VALUES (6645,   1, 250, 0, 0) /* Strength */
      , (6645,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6645,   1,   455, 0, 0, 455) /* MaxHealth */
-     , (6645,   3,   470, 0, 0, 470) /* MaxStamina */
-     , (6645,   5,   425, 0, 0, 425) /* MaxMana */;
+VALUES (6645,   1,    10, 0, 0, 455) /* MaxHealth */
+     , (6645,   3,    10, 0, 0, 470) /* MaxStamina */
+     , (6645,   5,    10, 0, 0, 425) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6645, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41528;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41528, 'ace41528-aetheriumpowercore', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41528, 'ace41528-aetheriumpowercore', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41528,   1,       2048) /* ItemType - Gem */
-     , (41528,   5,        700) /* EncumbranceVal */
+     , (41528,   5,        100) /* EncumbranceVal */
      , (41528,  11,         10) /* MaxStackSize */
-     , (41528,  12,          7) /* StackSize */
+     , (41528,  12,          1) /* StackSize */
+     , (41528,  13,        100) /* StackUnitEncumbrance */
+     , (41528,  15,          0) /* StackUnitValue */
      , (41528,  16,          1) /* ItemUseable - No */
      , (41528,  19,          0) /* Value */
      , (41528,  33,          1) /* Bonded - Bonded */
@@ -38,5 +40,4 @@ VALUES (41528,   1,   33560864) /* Setup */
      , (41528, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41528,   2, 2979050412) /* Container */
-     , (41528, 8000, 2979050415) /* PCAPRecordedObjectIID */;
+VALUES (41528, 8000, 2979050415) /* PCAPRecordedObjectIID */;

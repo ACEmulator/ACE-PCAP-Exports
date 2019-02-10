@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33847;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33847, 'ace33847-flamebomb', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33847, 'ace33847-flamebomb', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33847,   1,          0) /* ItemType - None */
@@ -41,3 +41,6 @@ VALUES (33847, 8040, 791543856, 131.9153, 174.8209, 148.0249, 0.7727315, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33847, 8000, 2930852864) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33847, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */;

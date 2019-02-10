@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7554;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7554, 'lugianlithosminer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7554, 'lugianlithosminer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7554,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,13 @@ VALUES (7554,   1, 250, 0, 0) /* Strength */
      , (7554,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7554,   1,   160, 0, 0, 160) /* MaxHealth */
-     , (7554,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (7554,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (7554,   1,    10, 0, 0, 160) /* MaxHealth */
+     , (7554,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (7554,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7554, 2,  7577,  1, 0, 0, False) /* Create Lugian Axe (7577) for Wield */
+     , (7554, 2, 23765,  1, 0, 0, False) /* Create Lugian Morning Star (23765) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7554, 67113163, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27422;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27422, 'mosswarttruebeliever', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27422, 'mosswarttruebeliever', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27422,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (27422,   1, 200, 0, 0) /* Strength */
      , (27422,   6, 115, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27422,   1,   395, 0, 0, 395) /* MaxHealth */
-     , (27422,   3,   590, 0, 0, 588) /* MaxStamina */
-     , (27422,   5,   415, 0, 0, 415) /* MaxMana */;
+VALUES (27422,   1,    10, 0, 0, 395) /* MaxHealth */
+     , (27422,   3,    10, 0, 0, 588) /* MaxStamina */
+     , (27422,   5,    10, 0, 0, 415) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27422, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield */
+     , (27422, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (27422, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27422, 67115140, 0, 0);

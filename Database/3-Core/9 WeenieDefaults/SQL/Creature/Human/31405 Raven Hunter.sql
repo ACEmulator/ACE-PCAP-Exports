@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31405;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31405, 'ace31405-ravenhunter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31405, 'ace31405-ravenhunter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31405,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,20 @@ VALUES (31405,   1, 300, 0, 0) /* Strength */
      , (31405,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31405,   1,  3000, 0, 0, 3000) /* MaxHealth */
-     , (31405,   3,  4000, 0, 0, 4000) /* MaxStamina */
-     , (31405,   5,  3000, 0, 0, 3000) /* MaxMana */;
+VALUES (31405,   1,    10, 0, 0, 3000) /* MaxHealth */
+     , (31405,   3,    10, 0, 0, 4000) /* MaxStamina */
+     , (31405,   5,    10, 0, 0, 3000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31405, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (31405, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (31405, 2, 31385,  1, 0, 0, False) /* Create Raven Crossbow (31385) for Wield */
+     , (31405, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (31405, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (31405, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
+     , (31405, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (31405, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (31405, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31405, 67109561, 0, 24)

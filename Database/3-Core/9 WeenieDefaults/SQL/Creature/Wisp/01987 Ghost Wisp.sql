@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1987;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1987, 'wispghost', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1987, 'wispghost', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1987,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (1987,   1, True ) /* Stuck */
      , (1987,  12, True ) /* ReportCollisions */
      , (1987,  13, False) /* Ethereal */
      , (1987,  14, True ) /* GravityStatus */
-     , (1987,  19, True ) /* Attackable */;
+     , (1987,  19, True ) /* Attackable */
+     , (1987, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1987,   1, 'Ghost Wisp') /* Name */
@@ -51,6 +52,25 @@ VALUES (1987,   1,  50, 0, 0) /* Strength */
      , (1987,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1987,   1,    50, 0, 0, 50) /* MaxHealth */
-     , (1987,   3,   170, 0, 0, 170) /* MaxStamina */
-     , (1987,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (1987,   1,    10, 0, 0, 50) /* MaxHealth */
+     , (1987,   3,    10, 0, 0, 170) /* MaxStamina */
+     , (1987,   5,    10, 0, 0, 150) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1987, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (1987, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1987, 9,   273, 38, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1987, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (1987, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1987, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (1987, 9,  1559,  0, 0, 0, False) /* Create Scroll of Weakness Other (1559) for ContainTreasure */
+     , (1987, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (1987, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1987, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (1987, 9,  3763,  0, 0, 0, False) /* Create Lightning Budiaq (3763) for ContainTreasure */
+     , (1987, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1987, 9, 21290,  0, 0, 0, False) /* Create Scroll of Acid Arc III (21290) for ContainTreasure */
+     , (1987, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1987, 9, 30584,  0, 0, 0, False) /* Create Frost Mazule (30584) for ContainTreasure */
+     , (1987, 9, 40763,  0, 0, 0, False) /* Create Flaming Nodachi (40763) for ContainTreasure */
+     , (1987, 9, 41070,  0, 0, 0, False) /* Create Flaming Shashqa (41070) for ContainTreasure */;

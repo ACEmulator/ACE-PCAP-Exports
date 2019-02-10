@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28609;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28609, 'shirtviamontvest', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28609, 'shirtviamontvest', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28609,   1,          4) /* ItemType - Clothing */
@@ -62,11 +62,14 @@ VALUES (28609,   1,   33554642) /* Setup */
      , (28609, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28609,   2, 3688174304) /* Container */
-     , (28609, 8000, 3687429092) /* PCAPRecordedObjectIID */;
+VALUES (28609, 8000, 3687429092) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28609,  1311,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28609, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (28609, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28609, 67115935, 40, 24);

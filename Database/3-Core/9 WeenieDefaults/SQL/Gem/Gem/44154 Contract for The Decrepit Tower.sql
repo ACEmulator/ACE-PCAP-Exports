@@ -1,12 +1,14 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44154;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44154, 'ace44154-contractforthedecrepittower', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44154, 'ace44154-contractforthedecrepittower', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44154,   1,       2048) /* ItemType - Gem */
      , (44154,  11,          1) /* MaxStackSize */
      , (44154,  12,          1) /* StackSize */
+     , (44154,  13,          0) /* StackUnitEncumbrance */
+     , (44154,  15,        100) /* StackUnitValue */
      , (44154,  16,          8) /* ItemUseable - Contained */
      , (44154,  18,          2) /* UiEffects - Poisoned */
      , (44154,  19,        100) /* Value */
@@ -40,5 +42,4 @@ VALUES (44154,   1,   33554773) /* Setup */
      , (44154, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44154,   2, 1343027891) /* Container */
-     , (44154, 8000, 2776589105) /* PCAPRecordedObjectIID */;
+VALUES (44154, 8000, 2776589105) /* PCAPRecordedObjectIID */;

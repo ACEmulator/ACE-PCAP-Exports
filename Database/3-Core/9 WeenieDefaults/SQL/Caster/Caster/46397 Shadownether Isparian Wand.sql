@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46397;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46397, 'ace46397-shadownetherisparianwand', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46397, 'ace46397-shadownetherisparianwand', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46397,   1,      32768) /* ItemType - Caster */
@@ -20,7 +20,7 @@ VALUES (46397,   1,      32768) /* ItemType - Caster */
      , (46397, 114,          1) /* Attuned - Attuned */
      , (46397, 151,          2) /* HookType - Wall */
      , (46397, 158,          2) /* WieldRequirements - RawSkill */
-     , (46397, 159,         43) /* WieldSkilltype - VoidMagic */
+     , (46397, 159,         43) /* WieldSkillType - VoidMagic */
      , (46397, 160,        335) /* WieldDifficulty */
      , (46397, 166,         22) /* SlayerCreatureType - Shadow */;
 
@@ -51,13 +51,12 @@ VALUES (46397,   1,   33561165) /* Setup */
      , (46397, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (46397, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46397, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (46397, 8009,          1);
+     , (46397, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46397, 8040, 23855554, 56.63604, -25.49104, -0.071, -0.002523273, -0.002523273, -0.7071023, -0.7071023) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.636040 -25.491040 -0.071000] -0.002523 -0.002523 -0.707102 -0.707102 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46397,   3, 1343455034) /* Wielder */
-     , (46397, 8000, 3383926510) /* PCAPRecordedObjectIID */
+VALUES (46397, 8000, 3383926510) /* PCAPRecordedObjectIID */
      , (46397, 8008, 1343455034) /* PCAPRecordedParentIID */;

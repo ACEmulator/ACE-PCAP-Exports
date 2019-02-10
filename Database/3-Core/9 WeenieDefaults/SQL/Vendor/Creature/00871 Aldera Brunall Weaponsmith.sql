@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 871;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (871, 'hebianweaponsmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (871, 'hebianweaponsmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (871,   1,         16) /* ItemType - Creature */
@@ -64,10 +64,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (871, 8000, 2121588785) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (871,   1,    83, 0, 0, 83) /* MaxHealth */;
+VALUES (871,   1,    10, 0, 0, 83) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (871, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+VALUES (871, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (871, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (871, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (871, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
      , (871, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */

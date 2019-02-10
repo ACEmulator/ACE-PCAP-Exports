@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33707;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33707, 'ace33707-depravedshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33707, 'ace33707-depravedshadow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33707,   1,         16) /* ItemType - Creature */
@@ -56,7 +56,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33707, 8000, 3358116244) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33707,   1,  1000, 0, 0, 1000) /* MaxHealth */;
+VALUES (33707,   1,    10, 0, 0, 1000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33707, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (33707, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33707, 67109561, 0, 24)

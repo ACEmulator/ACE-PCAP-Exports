@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3906;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (3906, 'warhammerelectric', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (3906, 'warhammerelectric', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3906,   1,          1) /* ItemType - MeleeWeapon */
@@ -64,9 +64,11 @@ VALUES (3906,   1,   33555829) /* Setup */
      , (3906, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3906,   2, 3697575837) /* Container */
-     , (3906, 8000, 3701225638) /* PCAPRecordedObjectIID */;
+VALUES (3906, 8000, 3701225638) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3906,  1590,      2) 
      , (3906,  1614,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (3906, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

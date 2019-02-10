@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49656;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49656, 'ace49656-ulibibnghunirtheweaponsmith', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49656, 'ace49656-ulibibnghunirtheweaponsmith', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49656,   1,         16) /* ItemType - Creature */
@@ -68,9 +68,12 @@ VALUES (49656,   1, 150, 0, 0) /* Strength */
      , (49656,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49656,   1,   255, 0, 0, 255) /* MaxHealth */
-     , (49656,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (49656,   5,   160, 0, 0, 160) /* MaxMana */;
+VALUES (49656,   1,    10, 0, 0, 255) /* MaxHealth */
+     , (49656,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (49656,   5,    10, 0, 0, 160) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49656, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49656, 67109551, 0, 24)

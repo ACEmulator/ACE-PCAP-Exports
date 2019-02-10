@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46662;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46662, 'ace46662-bushigatekeeper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46662, 'ace46662-bushigatekeeper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46662,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46662, 8000, 3708106029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46662,   1,  2850, 0, 0, 2850) /* MaxHealth */;
+VALUES (46662,   1,    10, 0, 0, 2850) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46662, 2, 46364,  1, 0, 0, False) /* Create Spectral Acid Tachi (46364) for Wield */
+     , (46662, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (46662, 9, 20493,  0, 0, 0, False) /* Create Scroll of Tenaciousness (20493) for ContainTreasure */
+     , (46662, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (46662, 9, 46599,  1, 0, 0, False) /* Create Broken Key (46599) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46662, 67109964, 92, 4)

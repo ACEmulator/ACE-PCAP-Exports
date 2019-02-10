@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38845;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38845, 'ace38845-mastersoldier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38845, 'ace38845-mastersoldier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38845,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,13 @@ VALUES (38845,   1, 320, 0, 0) /* Strength */
      , (38845,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38845,   1,  1500, 0, 0, 1500) /* MaxHealth */
-     , (38845,   3,  1650, 0, 0, 1650) /* MaxStamina */
-     , (38845,   5,  2720, 0, 0, 2720) /* MaxMana */;
+VALUES (38845,   1,    10, 0, 0, 1500) /* MaxHealth */
+     , (38845,   3,    10, 0, 0, 1650) /* MaxStamina */
+     , (38845,   5,    10, 0, 0, 2720) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38845, 2, 38851,  1, 0, 0, False) /* Create Celestial Hand Shield (38851) for Wield */
+     , (38845, 2, 38854,  1, 0, 0, False) /* Create Celestial Hand Blade (38854) for Wield */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38845, 0, 16794124)

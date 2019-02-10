@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43485;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43485, 'ace43485-banderlingcrusher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43485, 'ace43485-banderlingcrusher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43485,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (43485,   1, 295, 0, 0) /* Strength */
      , (43485,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43485,   1,  1520, 0, 0, 1520) /* MaxHealth */
-     , (43485,   3,  2040, 0, 0, 2040) /* MaxStamina */
-     , (43485,   5,   760, 0, 0, 760) /* MaxMana */;
+VALUES (43485,   1,    10, 0, 0, 1520) /* MaxHealth */
+     , (43485,   3,    10, 0, 0, 2040) /* MaxStamina */
+     , (43485,   5,    10, 0, 0, 760) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43485, 9, 30188,  1, 0, 0, False) /* Create Observer's Crystal (30188) for ContainTreasure */
+     , (43485, 9, 43407,  1, 0, 0, False) /* Create Corruptor's Crystal (43407) for ContainTreasure */
+     , (43485, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43485, 67114266, 0, 0);

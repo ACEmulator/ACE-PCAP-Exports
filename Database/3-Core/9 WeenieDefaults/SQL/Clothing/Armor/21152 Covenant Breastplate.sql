@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21152;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21152, 'breastplatecovenant', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21152, 'breastplatecovenant', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21152,   1,          2) /* ItemType - Armor */
@@ -23,13 +23,13 @@ VALUES (21152,   1,          2) /* ItemType - Armor */
      , (21152, 115,          0) /* ItemSkillLevelLimit */
      , (21152, 131,         60) /* MaterialType - Gold */
      , (21152, 158,          2) /* WieldRequirements - RawSkill */
-     , (21152, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (21152, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21152, 160,        325) /* WieldDifficulty */
      , (21152, 172,          5) /* AppraisalLongDescDecoration */
      , (21152, 177,          4) /* GemCount */
      , (21152, 178,         13) /* GemType */
      , (21152, 270,          7) /* WieldRequirements2 - Level */
-     , (21152, 271,          1) /* WieldSkilltype2 - Axe */
+     , (21152, 271,          1) /* WieldSkillType2 - Axe */
      , (21152, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29262;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29262, 'wandfire', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29262, 'wandfire', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29262,   1,      32768) /* ItemType - Caster */
@@ -19,7 +19,7 @@ VALUES (29262,   1,      32768) /* ItemType - Caster */
      , (29262, 131,         38) /* MaterialType - Ruby */
      , (29262, 151,          2) /* HookType - Wall */
      , (29262, 158,          2) /* WieldRequirements - RawSkill */
-     , (29262, 159,         34) /* WieldSkilltype - WarMagic */
+     , (29262, 159,         34) /* WieldSkillType - WarMagic */
      , (29262, 160,        375) /* WieldDifficulty */
      , (29262, 171,          7) /* NumTimesTinkered */
      , (29262, 172,          5) /* AppraisalLongDescDecoration */
@@ -59,15 +59,14 @@ VALUES (29262,   1,   33559228) /* Setup */
      , (29262, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29262, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (29262, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (29262, 8009,          1);
+     , (29262, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29262, 8040, 1676148781, 132.5456, 100.5979, 130.4047, -0.4816509, -0.4816509, -0.5176992, -0.5176992) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002D [132.545600 100.597900 130.404700] -0.481651 -0.481651 -0.517699 -0.517699 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29262,   3, 1342799792) /* Wielder */
-     , (29262, 8000, 3377664675) /* PCAPRecordedObjectIID */
+VALUES (29262, 8000, 3377664675) /* PCAPRecordedObjectIID */
      , (29262, 8008, 1342799792) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46563;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46563, 'ace46563-spectralarcher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46563, 'ace46563-spectralarcher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46563,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46563, 8000, 3706964449) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46563,   1,  2200, 0, 0, 2200) /* MaxHealth */;
+VALUES (46563,   1,    10, 0, 0, 2200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46563, 2, 46631,  1, 0, 0, False) /* Create Greater Deadly Fire Arrow (46631) for Wield */
+     , (46563, 2, 46635,  1, 0, 0, False) /* Create Fire Longbow (46635) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46563, 0, 83899054, 83899080)

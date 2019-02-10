@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 91;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (91, 'shieldkite', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (91, 'shieldkite', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (91,   1,          2) /* ItemType - Armor */
@@ -58,19 +58,21 @@ VALUES (91,   1,   33554788) /* Setup */
      , (91, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (91, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (91, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (91, 8009,          3);
+     , (91, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (91, 8040, 3677946112, 54.97376, 85.56487, 22.7285, 0.4646914, 0.5335704, -0.6521398, 0.272173) /* PCAPRecordedLocation */
 /* @teleloc 0xDB390100 [54.973760 85.564870 22.728500] 0.464691 0.533570 -0.652140 0.272173 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (91,   3, 3685774806) /* Wielder */
-     , (91, 8000, 3685619156) /* PCAPRecordedObjectIID */
+VALUES (91, 8000, 3685619156) /* PCAPRecordedObjectIID */
      , (91, 8008, 3685774806) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (91,  1482,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (91, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (91, 67111919, 0, 0);

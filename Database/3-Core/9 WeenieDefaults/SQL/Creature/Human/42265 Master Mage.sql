@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42265;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42265, 'ace42265-mastermage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42265, 'ace42265-mastermage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42265,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,12 @@ VALUES (42265,   1, 270, 0, 0) /* Strength */
      , (42265,   6, 470, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42265,   1,   890, 0, 0, 890) /* MaxHealth */
-     , (42265,   3,   910, 0, 0, 910) /* MaxStamina */
-     , (42265,   5,  1000, 0, 0, 1000) /* MaxMana */;
+VALUES (42265,   1,    10, 0, 0, 890) /* MaxHealth */
+     , (42265,   3,    10, 0, 0, 910) /* MaxStamina */
+     , (42265,   5,    10, 0, 0, 1000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42265, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (42265, 0, 16795622)

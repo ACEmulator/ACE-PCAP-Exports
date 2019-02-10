@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38149;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38149, 'ace38149-despetheinsane', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38149, 'ace38149-despetheinsane', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38149,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,14 @@ VALUES (38149,   1, 360, 0, 0) /* Strength */
      , (38149,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38149,   1,   850, 0, 0, 850) /* MaxHealth */
-     , (38149,   3,   600, 0, 0, 600) /* MaxStamina */
-     , (38149,   5,   600, 0, 0, 600) /* MaxMana */;
+VALUES (38149,   1,    10, 0, 0, 850) /* MaxHealth */
+     , (38149,   3,    10, 0, 0, 600) /* MaxStamina */
+     , (38149,   5,    10, 0, 0, 600) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38149, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (38149, 9, 38163,  0, 0, 0, False) /* Create Tattered Desolation Moarsman Ritual (38163) for ContainTreasure */
+     , (38149, 9, 38172,  0, 0, 0, False) /* Create The Creation of Blighted Moarsmen (38172) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38149, 67109977, 80, 12)

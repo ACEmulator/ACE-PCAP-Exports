@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 545;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (545, 'lockpickreliable', 23) /* Lockpick */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (545, 'lockpickreliable', 23, '2019-02-10 05:41:14') /* Lockpick */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (545,   1,      16384) /* ItemType - Key */
@@ -10,7 +10,7 @@ VALUES (545,   1,      16384) /* ItemType - Key */
      , (545,  19,        354) /* Value */
      , (545,  65,        101) /* Placement - Resting */
      , (545,  91,         35) /* MaxStructure */
-     , (545,  92,         31) /* Structure */
+     , (545,  92,         35) /* Structure */
      , (545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (545,  94,        640) /* TargetType - LockableMagicTarget */
      , (545, 173,        100) /* AppraisalLockpickSuccessPercent */;
@@ -38,5 +38,4 @@ VALUES (545,   1,   33554790) /* Setup */
      , (545, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (545,   2, 2186220401) /* Container */
-     , (545, 8000, 2186220414) /* PCAPRecordedObjectIID */;
+VALUES (545, 8000, 2186220414) /* PCAPRecordedObjectIID */;

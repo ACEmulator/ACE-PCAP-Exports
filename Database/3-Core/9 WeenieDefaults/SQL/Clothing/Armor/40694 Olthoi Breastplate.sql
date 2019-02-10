@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40694;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40694, 'ace40694-olthoibreastplate', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40694, 'ace40694-olthoibreastplate', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40694,   1,          2) /* ItemType - Armor */
@@ -24,7 +24,7 @@ VALUES (40694,   1,          2) /* ItemType - Armor */
      , (40694, 115,        273) /* ItemSkillLevelLimit */
      , (40694, 131,         63) /* MaterialType - Silver */
      , (40694, 158,          2) /* WieldRequirements - RawSkill */
-     , (40694, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (40694, 159,          6) /* WieldSkillType - MeleeDefense */
      , (40694, 160,        370) /* WieldDifficulty */
      , (40694, 171,          2) /* NumTimesTinkered */
      , (40694, 172,          5) /* AppraisalLongDescDecoration */
@@ -33,7 +33,7 @@ VALUES (40694,   1,          2) /* ItemType - Armor */
      , (40694, 178,         34) /* GemType */
      , (40694, 265,         26) /* EquipmentSetId - Flameproof */
      , (40694, 270,          7) /* WieldRequirements2 - Level */
-     , (40694, 271,          1) /* WieldSkilltype2 - Axe */
+     , (40694, 271,          1) /* WieldSkillType2 - Axe */
      , (40694, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -73,8 +73,7 @@ VALUES (40694,   1,   33554642) /* Setup */
      , (40694, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40694,   2, 1343493255) /* Container */
-     , (40694, 8000, 2174542903) /* PCAPRecordedObjectIID */;
+VALUES (40694, 8000, 2174542903) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40694,  2108,      2) 

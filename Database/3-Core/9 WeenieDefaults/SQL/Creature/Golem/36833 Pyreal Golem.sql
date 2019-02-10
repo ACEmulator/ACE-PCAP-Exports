@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36833;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36833, 'ace36833-pyrealgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36833, 'ace36833-pyrealgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36833,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,9 @@ VALUES (36833,   1, 250, 0, 0) /* Strength */
      , (36833,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36833,   1,   555, 0, 0, 555) /* MaxHealth */
-     , (36833,   3,   470, 0, 0, 470) /* MaxStamina */
-     , (36833,   5,   425, 0, 0, 405) /* MaxMana */;
+VALUES (36833,   1,    10, 0, 0, 555) /* MaxHealth */
+     , (36833,   3,    10, 0, 0, 470) /* MaxStamina */
+     , (36833,   5,    10, 0, 0, 405) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36833, 67113787, 0, 0);

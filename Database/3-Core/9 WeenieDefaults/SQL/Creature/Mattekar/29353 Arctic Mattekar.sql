@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29353;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29353, 'mattekararctic', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29353, 'mattekararctic', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29353,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,21 @@ VALUES (29353,   1, 360, 0, 0) /* Strength */
      , (29353,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29353,   1,   475, 0, 0, 475) /* MaxHealth */
-     , (29353,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (29353,   5,   110, 0, 0, 110) /* MaxMana */;
+VALUES (29353,   1,    10, 0, 0, 475) /* MaxHealth */
+     , (29353,   3,    10, 0, 0, 550) /* MaxStamina */
+     , (29353,   5,    10, 0, 0, 110) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29353, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (29353, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (29353, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
+     , (29353, 9,  2725,  0, 0, 0, False) /* Create Scroll of Revitalize Other V (2725) for ContainTreasure */
+     , (29353, 9,  4191,  0, 0, 0, False) /* Create Flaming Cestus (4191) for ContainTreasure */
+     , (29353, 9, 21300,  0, 0, 0, False) /* Create Scroll of Blade Arc VI (21300) for ContainTreasure */
+     , (29353, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (29353, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (29353, 9, 40820,  0, 0, 0, False) /* Create Lightning Corsesca (40820) for ContainTreasure */
+     , (29353, 9, 41301,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other VI (41301) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29353, 67111954, 0, 0);

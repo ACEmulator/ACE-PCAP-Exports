@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37197;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37197, 'ace37197-olthoiceldonhelm', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37197, 'ace37197-olthoiceldonhelm', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37197,   1,          2) /* ItemType - Armor */
@@ -24,7 +24,7 @@ VALUES (37197,   1,          2) /* ItemType - Armor */
      , (37197, 131,         62) /* MaterialType - Pyreal */
      , (37197, 151,          2) /* HookType - Wall */
      , (37197, 158,          7) /* WieldRequirements - Level */
-     , (37197, 159,          1) /* WieldSkilltype - Axe */
+     , (37197, 159,          1) /* WieldSkillType - Axe */
      , (37197, 160,        180) /* WieldDifficulty */
      , (37197, 172,          5) /* AppraisalLongDescDecoration */
      , (37197, 176,          6) /* AppraisalItemSkill */
@@ -69,8 +69,7 @@ VALUES (37197,   1,   33558424) /* Setup */
      , (37197, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37197,   2, 2158692249) /* Container */
-     , (37197, 8000, 3420126114) /* PCAPRecordedObjectIID */;
+VALUES (37197, 8000, 3420126114) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37197,  1486,      2) 
@@ -79,6 +78,9 @@ VALUES (37197,  1486,      2)
      , (37197,  4397,      2) 
      , (37197,  4596,      2) 
      , (37197,  4664,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37197, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37197, 67114456, 250, 6)

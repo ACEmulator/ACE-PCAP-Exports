@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46537;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46537, 'ace46537-spectralsamurai', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46537, 'ace46537-spectralsamurai', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46537,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,23 @@ VALUES (46537,   1, 500, 0, 0) /* Strength */
      , (46537,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46537,   1,  3750, 0, 0, 3750) /* MaxHealth */
-     , (46537,   3,  3700, 0, 0, 3700) /* MaxStamina */
-     , (46537,   5,  3900, 0, 0, 3900) /* MaxMana */;
+VALUES (46537,   1,    10, 0, 0, 3750) /* MaxHealth */
+     , (46537,   3,    10, 0, 0, 3700) /* MaxStamina */
+     , (46537,   5,    10, 0, 0, 3900) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46537, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */
+     , (46537, 9,   273, 4356, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (46537, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (46537, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (46537, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (46537, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (46537, 9, 20550,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Boon (20550) for ContainTreasure */
+     , (46537, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (46537, 9, 30224,  1, 0, 0, False) /* Create Resister's Crystal (30224) for ContainTreasure */
+     , (46537, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
+     , (46537, 9, 43407,  1, 0, 0, False) /* Create Corruptor's Crystal (43407) for ContainTreasure */
+     , (46537, 9, 48954,  1, 0, 0, False) /* Create Burning Sands Keyring (48954) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46537, 67109966, 92, 4)

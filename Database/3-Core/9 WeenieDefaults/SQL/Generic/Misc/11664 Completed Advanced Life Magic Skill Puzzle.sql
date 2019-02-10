@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11664;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11664, 'skillpuzzlecompletedlifeadvanced', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11664, 'skillpuzzlecompletedlifeadvanced', 1, '2019-02-10 05:41:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11664,   1,        128) /* ItemType - Misc */
@@ -35,5 +35,4 @@ VALUES (11664,   1,   33557028) /* Setup */
      , (11664, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11664,   2, 1343430166) /* Container */
-     , (11664, 8000, 3706812289) /* PCAPRecordedObjectIID */;
+VALUES (11664, 8000, 3706812289) /* PCAPRecordedObjectIID */;

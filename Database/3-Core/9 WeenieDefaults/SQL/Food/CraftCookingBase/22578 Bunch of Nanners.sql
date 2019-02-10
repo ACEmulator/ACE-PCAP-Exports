@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22578;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22578, 'nannerbunch', 18) /* Food */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22578, 'nannerbunch', 18, '2019-02-10 05:41:14') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22578,   1,    4194304) /* ItemType - CraftCookingBase */
-     , (22578,   5,        240) /* EncumbranceVal */
+     , (22578,   5,         30) /* EncumbranceVal */
      , (22578,  11,        100) /* MaxStackSize */
-     , (22578,  12,          8) /* StackSize */
+     , (22578,  12,          1) /* StackSize */
+     , (22578,  13,         30) /* StackUnitEncumbrance */
+     , (22578,  15,         50) /* StackUnitValue */
      , (22578,  16,          8) /* ItemUseable - Contained */
-     , (22578,  19,        400) /* Value */
+     , (22578,  19,         50) /* Value */
      , (22578,  65,        101) /* Placement - Resting */
      , (22578,  89,          4) /* BoosterEnum - Stamina */
      , (22578,  90,          6) /* BoostValue */
@@ -38,5 +40,7 @@ VALUES (22578,   1,   33558106) /* Setup */
      , (22578, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22578,   2, 2186220473) /* Container */
-     , (22578, 8000, 2186220551) /* PCAPRecordedObjectIID */;
+VALUES (22578, 8000, 2186220551) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22578, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

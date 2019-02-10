@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41732;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41732, 'ace41732-silverscopeheavyscout', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41732, 'ace41732-silverscopeheavyscout', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41732,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,19 @@ VALUES (41732,   1, 465, 0, 0) /* Strength */
      , (41732,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41732,   1,  9975, 0, 0, 9975) /* MaxHealth */
-     , (41732,   3,  5950, 0, 0, 5950) /* MaxStamina */
-     , (41732,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (41732,   1,    10, 0, 0, 9975) /* MaxHealth */
+     , (41732,   3,    10, 0, 0, 5950) /* MaxStamina */
+     , (41732,   5,    10, 0, 0, 85) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41732, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
+     , (41732, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+     , (41732, 2, 41252,  1, 0, 0, False) /* Create Fire Gearknight Greatsword (41252) for Wield */
+     , (41732, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (41732, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (41732, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (41732, 9, 21322,  0, 0, 0, False) /* Create Scroll of Frost Arc VII (21322) for ContainTreasure */
+     , (41732, 9, 31819,  0, 0, 0, False) /* Create Staff (31819) for ContainTreasure */
+     , (41732, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (41732, 9, 49244,  0, 0, 0, False) /* Create Lightning Zombie Essence (150) (49244) for ContainTreasure */
+     , (41732, 9, 49424,  0, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for ContainTreasure */;

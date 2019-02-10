@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12006;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12006, 'mosswarthighbossmonster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12006, 'mosswarthighbossmonster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12006,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12006, 8000, 3358983211) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12006,   1,   300, 0, 0, 300) /* MaxHealth */;
+VALUES (12006,   1,    10, 0, 0, 300) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (12006, 2, 23657,  1, 0, 0, False) /* Create Frost Throwing Club (23657) for Wield */
+     , (12006, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (12006, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
+     , (12006, 2, 23718,  1, 0, 0, False) /* Create Fire Yaoji (23718) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12006, 67113410, 0, 0);

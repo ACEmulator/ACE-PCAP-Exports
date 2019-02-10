@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7272;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7272, 'frostring', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7272, 'frostring', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7272,   1,          0) /* ItemType - None */
@@ -42,3 +42,7 @@ VALUES (7272, 8040, 1615201014, 109.4725, -49.22186, 19.22833, 0.1203089, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7272, 8000, 3687887464) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7272, 2,  7799,  1, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
+     , (7272, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

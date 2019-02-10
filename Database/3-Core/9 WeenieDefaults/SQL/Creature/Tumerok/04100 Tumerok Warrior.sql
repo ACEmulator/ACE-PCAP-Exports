@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4100;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4100, 'tumerokwarriorarcher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4100, 'tumerokwarriorarcher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4100,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,27 @@ VALUES (4100,   1, 110, 0, 0) /* Strength */
      , (4100,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4100,   1,   103, 0, 0, 103) /* MaxHealth */
-     , (4100,   3,   210, 0, 0, 210) /* MaxStamina */
-     , (4100,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (4100,   1,    10, 0, 0, 103) /* MaxHealth */
+     , (4100,   3,    10, 0, 0, 210) /* MaxStamina */
+     , (4100,   5,    10, 0, 0, 100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4100, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (4100, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
+     , (4100, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (4100, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (4100, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (4100, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (4100, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (4100, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (4100, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (4100, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (4100, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (4100, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
+     , (4100, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (4100, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
+     , (4100, 2,   360,  1, 0, 0, False) /* Create Yag (360) for Wield */
+     , (4100, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4100, 67116625, 105, 48)

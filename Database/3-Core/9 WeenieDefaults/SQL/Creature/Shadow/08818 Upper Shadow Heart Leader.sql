@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8818;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8818, 'shadowheartleaderupper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8818, 'shadowheartleaderupper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8818,   1,         16) /* ItemType - Creature */
@@ -56,7 +56,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8818, 8000, 3701696294) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8818,   1,   480, 0, 0, 480) /* MaxHealth */;
+VALUES (8818,   1,    10, 0, 0, 480) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8818, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (8818, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
+     , (8818, 9,  8787,  0, 0, 0, False) /* Create Shadow Captain's Heaume (8787) for ContainTreasure */
+     , (8818, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (8818, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8818, 67112860, 0, 0);

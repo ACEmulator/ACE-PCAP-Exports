@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14874;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14874, 'olthoiaugmentedhollow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14874, 'olthoiaugmentedhollow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14874,   1,         16) /* ItemType - Creature */
@@ -58,9 +58,32 @@ VALUES (14874,   1, 310, 0, 0) /* Strength */
      , (14874,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14874,   1,   410, 0, 0, 410) /* MaxHealth */
-     , (14874,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (14874,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (14874,   1,    10, 0, 0, 410) /* MaxHealth */
+     , (14874,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (14874,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14874, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (14874, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (14874, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (14874, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (14874, 9,   273, 315, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14874, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (14874, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (14874, 9,  2458,  1, 0, 0, False) /* Create Health Elixir (2458) for ContainTreasure */
+     , (14874, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
+     , (14874, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (14874, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (14874, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (14874, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */
+     , (14874, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (14874, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (14874, 9, 20450,  0, 0, 0, False) /* Create Scroll of Icy Torment (20450) for ContainTreasure */
+     , (14874, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (14874, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
+     , (14874, 9, 41057,  0, 0, 0, False) /* Create Great Star Mace (41057) for ContainTreasure */
+     , (14874, 9, 42517,  1, 0, 0, False) /* Create Coalesced Mana (42517) for ContainTreasure */
+     , (14874, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14874, 67113795, 0, 0);

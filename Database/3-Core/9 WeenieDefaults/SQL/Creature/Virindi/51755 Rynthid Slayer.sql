@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51755;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51755, 'ace51755-rynthidslayer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51755, 'ace51755-rynthidslayer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51755,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,9 @@ VALUES (51755,   1, 500, 0, 0) /* Strength */
      , (51755,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51755,   1, 12000, 0, 0, 12000) /* MaxHealth */
-     , (51755,   3,  5300, 0, 0, 5300) /* MaxStamina */
-     , (51755,   5,  3900, 0, 0, 3822) /* MaxMana */;
+VALUES (51755,   1,    10, 0, 0, 12000) /* MaxHealth */
+     , (51755,   3,    10, 0, 0, 5300) /* MaxStamina */
+     , (51755,   5,    10, 0, 0, 3822) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51755, 67117140, 0, 0);

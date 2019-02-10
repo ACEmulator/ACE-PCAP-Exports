@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22901;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22901, 'mattekarswarthy', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22901, 'mattekarswarthy', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22901,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,20 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22901, 8000, 3695215585) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22901,   1,  8000, 0, 0, 8000) /* MaxHealth */;
+VALUES (22901,   1,    10, 0, 0, 8000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22901, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (22901, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (22901, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (22901, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (22901, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (22901, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (22901, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (22901, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
+     , (22901, 9, 23096,  0, 0, 0, False) /* Create Swarthy Mattekar Hide (23096) for ContainTreasure */
+     , (22901, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
+     , (22901, 9, 49369,  0, 0, 0, False) /* Create Acid Grievver Essence (125) (49369) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22901, 67113172, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8434;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8434, 'krystbarkeep', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8434, 'krystbarkeep', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8434,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (8434,   1, 150, 0, 0) /* Strength */
      , (8434,   6,  65, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8434,   1,   108, 0, 0, 108) /* MaxHealth */
-     , (8434,   3,   215, 0, 0, 215) /* MaxStamina */
-     , (8434,   5,    95, 0, 0, 95) /* MaxMana */;
+VALUES (8434,   1,    10, 0, 0, 108) /* MaxHealth */
+     , (8434,   3,    10, 0, 0, 215) /* MaxStamina */
+     , (8434,   5,    10, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8434, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */

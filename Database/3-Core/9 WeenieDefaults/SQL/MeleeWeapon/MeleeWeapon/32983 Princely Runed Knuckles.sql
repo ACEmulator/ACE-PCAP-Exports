@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32983;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32983, 'ace32983-princelyrunedknuckles', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32983, 'ace32983-princelyrunedknuckles', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32983,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (32983,   1,          1) /* ItemType - MeleeWeapon */
      , (32983, 109,          0) /* ItemDifficulty */
      , (32983, 151,          2) /* HookType - Wall */
      , (32983, 158,          7) /* WieldRequirements - Level */
-     , (32983, 159,          1) /* WieldSkilltype - Axe */
+     , (32983, 159,          1) /* WieldSkillType - Axe */
      , (32983, 160,        100) /* WieldDifficulty */
      , (32983, 353,          1) /* WeaponType - Unarmed */
      , (32983, 8030,          0);
@@ -59,19 +59,18 @@ VALUES (32983,   1,   33559867) /* Setup */
      , (32983,   8,  100687027) /* Icon */
      , (32983,  22,  872415275) /* PhysicsEffectTable */
      , (32983,  50,  100688913) /* IconOverlay */
-     , (32983,  55,       2074) /* ProcSpell */
+     , (32983,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (32983, 8001, 1344504344) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType, IconOverlay */
      , (32983, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32983, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (32983, 8009,          1);
+     , (32983, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32983, 8040, 3465871405, 139.9073, 107.0423, 19.929, 0.7051418, 0.7051418, -0.05267891, -0.05267891) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [139.907300 107.042300 19.929000] 0.705142 0.705142 -0.052679 -0.052679 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32983,   3, 1343252571) /* Wielder */
-     , (32983, 8000, 3674680260) /* PCAPRecordedObjectIID */
+VALUES (32983, 8000, 3674680260) /* PCAPRecordedObjectIID */
      , (32983, 8008, 1343252571) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

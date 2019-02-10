@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7097;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7097, 'golemplatinum', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7097, 'golemplatinum', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7097,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,47 @@ VALUES (7097,   1, 270, 0, 0) /* Strength */
      , (7097,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7097,   1,   540, 0, 0, 540) /* MaxHealth */
-     , (7097,   3,   500, 0, 0, 500) /* MaxStamina */
-     , (7097,   5,   445, 0, 0, 445) /* MaxMana */;
+VALUES (7097,   1,    10, 0, 0, 540) /* MaxHealth */
+     , (7097,   3,    10, 0, 0, 500) /* MaxStamina */
+     , (7097,   5,    10, 0, 0, 445) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7097, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (7097, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (7097, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (7097, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (7097, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (7097, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (7097, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (7097, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (7097, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (7097, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (7097, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (7097, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (7097, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (7097, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (7097, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (7097, 9,  3940,  0, 0, 0, False) /* Create Lightning Morning Star (3940) for ContainTreasure */
+     , (7097, 9,  6355,  1, 0, 0, False) /* Create Pyreal Sliver (6355) for ContainTreasure */
+     , (7097, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7097, 9, 20600,  0, 0, 0, False) /* Create Scroll of Vitality Siphon (20600) for ContainTreasure */
+     , (7097, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (7097, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (7097, 9, 23202,  0, 0, 0, False) /* Create Platinum Golem Heart (23202) for ContainTreasure */
+     , (7097, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (7097, 9, 27224,  0, 0, 0, False) /* Create Lorica Leggings (27224) for ContainTreasure */
+     , (7097, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (7097, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (7097, 9, 30224,  1, 0, 0, False) /* Create Resister's Crystal (30224) for ContainTreasure */
+     , (7097, 9, 30607,  0, 0, 0, False) /* Create Lightning Bastone (30607) for ContainTreasure */
+     , (7097, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */
+     , (7097, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (7097, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
+     , (7097, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
+     , (7097, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (7097, 9, 42752,  0, 0, 0, False) /* Create Haebrean Greaves (42752) for ContainTreasure */
+     , (7097, 9, 43292,  0, 0, 0, False) /* Create Scroll of Corruption VII (43292) for ContainTreasure */
+     , (7097, 9, 45354,  0, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self VII (45354) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7097, 67114285, 0, 0);

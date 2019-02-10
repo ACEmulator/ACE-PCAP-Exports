@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32397;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32397, 'ace32397-antiusblackmoormemorial', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32397, 'ace32397-antiusblackmoormemorial', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32397,   1,         16) /* ItemType - Creature */
@@ -84,6 +84,9 @@ VALUES (32397, 8040, 3027173400, 60, 180, 48.815, -0.707107, 0, 0, -0.707107) /*
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32397, 8000, 3685095290) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32397, 2, 32565,  1, 0, 0, False) /* Create Memorial Sword of Lost Light (32565) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32397, 67109565, 32, 8)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42280;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42280, 'ace42280-commander', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42280, 'ace42280-commander', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42280,   1,         16) /* ItemType - Creature */
@@ -39,6 +39,9 @@ VALUES (42280, 8040, 2315453271, 350, -40, 6.005, -4.371139E-08, 0, 0, -1) /* PC
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42280, 8000, 3623200416) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42280, 2, 38856,  1, 0, 0, False) /* Create Radiant Blood Blade (38856) for Wield */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (42280, 0, 16794145)

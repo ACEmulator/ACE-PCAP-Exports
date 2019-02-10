@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30507;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30507, 'marionettemadstar', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30507, 'marionettemadstar', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30507,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,18 @@ VALUES (30507,   1,  65, 0, 0) /* Strength */
      , (30507,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30507,   1,    43, 0, 0, 43) /* MaxHealth */
-     , (30507,   3,   235, 0, 0, 235) /* MaxStamina */
-     , (30507,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (30507,   1,    10, 0, 0, 43) /* MaxHealth */
+     , (30507,   3,    10, 0, 0, 235) /* MaxStamina */
+     , (30507,   5,    10, 0, 0, 85) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30507, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (30507, 9,   273, 49, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (30507, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (30507, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (30507, 9, 30506,  0, 0, 0, False) /* Create Mad Star Marionette's Head (30506) for ContainTreasure */
+     , (30507, 9, 30613,  0, 0, 0, False) /* Create Flaming Knuckles (30613) for ContainTreasure */
+     , (30507, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30507, 67111664, 0, 0);

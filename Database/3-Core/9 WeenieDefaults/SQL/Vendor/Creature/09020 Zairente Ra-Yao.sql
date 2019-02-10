@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9020;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9020, 'blacksmithwanderingsdires', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9020, 'blacksmithwanderingsdires', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9020,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (9020,   1, 170, 0, 0) /* Strength */
      , (9020,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9020,   1,   315, 0, 0, 315) /* MaxHealth */
-     , (9020,   3,   350, 0, 0, 350) /* MaxStamina */
-     , (9020,   5,   125, 0, 0, 125) /* MaxMana */;
+VALUES (9020,   1,    10, 0, 0, 315) /* MaxHealth */
+     , (9020,   3,    10, 0, 0, 350) /* MaxStamina */
+     , (9020,   5,    10, 0, 0, 125) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9020, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (9020, 2,  3905,  1, 0, 0, False) /* Create Acid War Hammer (3905) for Wield */
+     , (9020, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (9020, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (9020, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (9020, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */

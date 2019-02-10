@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2435;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2435, 'manastone', 37) /* ManaStone */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2435, 'manastone', 37, '2019-02-10 05:41:14') /* ManaStone */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2435,   1,     524288) /* ItemType - ManaStone */
@@ -38,5 +38,7 @@ VALUES (2435,   1,   33555641) /* Setup */
      , (2435, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2435,   2, 3688298035) /* Container */
-     , (2435, 8000, 3688298038) /* PCAPRecordedObjectIID */;
+VALUES (2435, 8000, 3688298038) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2435, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7273;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7273, 'lightningring', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7273, 'lightningring', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7273,   1,          0) /* ItemType - None */
@@ -41,3 +41,11 @@ VALUES (7273, 8040, 487718958, 125.8852, 124.5957, 1.128333, 0.7139835, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7273, 8000, 3698083984) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7273, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (7273, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (7273, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */
+     , (7273, 2, 46648,  1, 0, 0, False) /* Create Spectral Lightning Nodachi (46648) for Wield */
+     , (7273, 2, 47725,  1, 0, 0, False) /* Create Spear (47725) for Wield */
+     , (7273, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */;

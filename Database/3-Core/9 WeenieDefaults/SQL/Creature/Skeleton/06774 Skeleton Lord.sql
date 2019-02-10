@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6774;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6774, 'skeletonlordcrimsonruby5', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6774, 'skeletonlordcrimsonruby5', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6774,   1,         16) /* ItemType - Creature */
@@ -52,6 +52,10 @@ VALUES (6774,   1,  85, 0, 0) /* Strength */
      , (6774,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6774,   1,   146, 0, 0, 146) /* MaxHealth */
-     , (6774,   3,   205, 0, 0, 205) /* MaxStamina */
-     , (6774,   5,   230, 0, 0, 230) /* MaxMana */;
+VALUES (6774,   1,    10, 0, 0, 146) /* MaxHealth */
+     , (6774,   3,    10, 0, 0, 205) /* MaxStamina */
+     , (6774,   5,    10, 0, 0, 230) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6774, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (6774, 2, 47729,  1, 0, 0, False) /* Create Spear (47729) for Wield */;

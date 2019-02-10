@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27313;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27313, 'tuskerpainbringer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27313, 'tuskerpainbringer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27313,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,26 @@ VALUES (27313,   1, 470, 0, 0) /* Strength */
      , (27313,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27313,   1,  1400, 0, 0, 1400) /* MaxHealth */
-     , (27313,   3,  1100, 0, 0, 1097) /* MaxStamina */
-     , (27313,   5,   220, 0, 0, 220) /* MaxMana */;
+VALUES (27313,   1,    10, 0, 0, 1400) /* MaxHealth */
+     , (27313,   3,    10, 0, 0, 1097) /* MaxStamina */
+     , (27313,   5,    10, 0, 0, 220) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27313, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (27313, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (27313, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (27313, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (27313, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
+     , (27313, 9, 20467,  0, 0, 0, False) /* Create Scroll of Olthoi's Gift (20467) for ContainTreasure */
+     , (27313, 9, 22578,  1, 0, 0, False) /* Create Bunch of Nanners (22578) for ContainTreasure */
+     , (27313, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (27313, 9, 27514,  0, 0, 0, False) /* Create Painbringer's Head (27514) for ContainTreasure */
+     , (27313, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (27313, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (27313, 9, 41056,  0, 0, 0, False) /* Create Frost Greataxe (41056) for ContainTreasure */
+     , (27313, 9, 43292,  0, 0, 0, False) /* Create Scroll of Corruption VII (43292) for ContainTreasure */
+     , (27313, 9, 45108,  0, 0, 0, False) /* Create Schlager (45108) for ContainTreasure */
+     , (27313, 9, 49236,  0, 0, 0, False) /* Create Acid Zombie Essence (125) (49236) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27313, 67113009, 0, 0);

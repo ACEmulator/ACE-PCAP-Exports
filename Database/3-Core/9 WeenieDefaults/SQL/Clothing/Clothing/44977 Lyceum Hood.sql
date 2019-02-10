@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44977;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44977, 'ace44977-lyceumhood', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44977, 'ace44977-lyceumhood', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44977,   1,          4) /* ItemType - Clothing */
@@ -24,7 +24,7 @@ VALUES (44977,   1,          4) /* ItemType - Clothing */
      , (44977, 131,         54) /* MaterialType - GromnieHide */
      , (44977, 151,          2) /* HookType - Wall */
      , (44977, 158,          7) /* WieldRequirements - Level */
-     , (44977, 159,          1) /* WieldSkilltype - Axe */
+     , (44977, 159,          1) /* WieldSkillType - Axe */
      , (44977, 160,        180) /* WieldDifficulty */
      , (44977, 172,          5) /* AppraisalLongDescDecoration */
      , (44977, 177,          3) /* GemCount */
@@ -66,14 +66,16 @@ VALUES (44977,   1,   33556237) /* Setup */
      , (44977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44977,   2, 2165177833) /* Container */
-     , (44977, 8000, 2165201440) /* PCAPRecordedObjectIID */;
+VALUES (44977, 8000, 2165201440) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44977,  4397,      2) 
      , (44977,  4403,      2) 
      , (44977,  4407,      2) 
      , (44977,  4697,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44977, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44977, 67110359, 240, 10)

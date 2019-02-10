@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41231;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41231, 'ace41231-reaversimulacrum', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41231, 'ace41231-reaversimulacrum', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41231,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,18 @@ VALUES (41231,   1, 270, 0, 0) /* Strength */
      , (41231,   6, 470, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41231,   1,   890, 0, 0, 890) /* MaxHealth */
-     , (41231,   3,   910, 0, 0, 908) /* MaxStamina */
-     , (41231,   5,  1000, 0, 0, 1000) /* MaxMana */;
+VALUES (41231,   1,    10, 0, 0, 890) /* MaxHealth */
+     , (41231,   3,    10, 0, 0, 908) /* MaxStamina */
+     , (41231,   5,    10, 0, 0, 1000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41231, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (41231, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (41231, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
+     , (41231, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (41231, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (41231, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
+     , (41231, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41231, 67109965, 152, 8)

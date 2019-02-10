@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2569;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2569, 'knathngell', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2569, 'knathngell', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2569,   1,         16) /* ItemType - Creature */
@@ -57,6 +57,20 @@ VALUES (2569,   1,  40, 0, 0) /* Strength */
      , (2569,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2569,   1,    55, 0, 0, 55) /* MaxHealth */
-     , (2569,   3,   160, 0, 0, 160) /* MaxStamina */
-     , (2569,   5,    40, 0, 0, 40) /* MaxMana */;
+VALUES (2569,   1,    10, 0, 0, 55) /* MaxHealth */
+     , (2569,   3,    10, 0, 0, 160) /* MaxStamina */
+     , (2569,   5,    10, 0, 0, 40) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2569, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (2569, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+     , (2569, 9,   273, 20, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (2569, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (2569, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (2569, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (2569, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2569, 9,  8954,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak II (8954) for ContainTreasure */
+     , (2569, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (2569, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (2569, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */
+     , (2569, 9, 45285,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other II (45285) for ContainTreasure */;

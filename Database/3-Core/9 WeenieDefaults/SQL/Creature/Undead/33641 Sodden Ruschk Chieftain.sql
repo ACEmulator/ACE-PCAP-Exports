@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33641;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33641, 'ace33641-soddenruschkchieftain', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33641, 'ace33641-soddenruschkchieftain', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33641,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,19 @@ VALUES (33641,   1, 470, 0, 0) /* Strength */
      , (33641,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33641,   1, 12200, 0, 0, 12200) /* MaxHealth */
-     , (33641,   3,  3400, 0, 0, 3400) /* MaxStamina */
-     , (33641,   5,   420, 0, 0, 420) /* MaxMana */;
+VALUES (33641,   1,    10, 0, 0, 12200) /* MaxHealth */
+     , (33641,   3,    10, 0, 0, 3400) /* MaxStamina */
+     , (33641,   5,    10, 0, 0, 420) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33641, 2, 48587,  1, 0, 0, False) /* Create Frigid Splinter (48587) for Wield */
+     , (33641, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (33641, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (33641, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (33641, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (33641, 9,  3907,  0, 0, 0, False) /* Create Flaming War Hammer (3907) for ContainTreasure */
+     , (33641, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */
+     , (33641, 9, 21156,  0, 0, 0, False) /* Create Covenant Helm (21156) for ContainTreasure */
+     , (33641, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
+     , (33641, 9, 44470,  1, 0, 0, False) /* Create Corrupted Essence (44470) for ContainTreasure */
+     , (33641, 9, 49272,  0, 0, 0, False) /* Create Lightning Child Essence (150) (49272) for ContainTreasure */;

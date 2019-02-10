@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51986;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51986, 'ace51986-curatoroftorment', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51986, 'ace51986-curatoroftorment', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51986,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,12 @@ VALUES (51986,   1, 500, 0, 0) /* Strength */
      , (51986,   6, 600, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51986,   1, 250000, 0, 0, 250000) /* MaxHealth */
-     , (51986,   3, 99900, 0, 0, 99900) /* MaxStamina */
-     , (51986,   5, 100000, 0, 0, 100000) /* MaxMana */;
+VALUES (51986,   1,    10, 0, 0, 250000) /* MaxHealth */
+     , (51986,   3,    10, 0, 0, 99900) /* MaxStamina */
+     , (51986,   5,    10, 0, 0, 100000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51986, 9, 52008,  0, 0, 0, False) /* Create Shard of the Curator of Torment's Mask (52008) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51986, 67113217, 0, 0);

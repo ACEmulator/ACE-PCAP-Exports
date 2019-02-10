@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1616;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1616, 'gromnieswamp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1616, 'gromnieswamp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1616,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,25 @@ VALUES (1616,   1,  90, 0, 0) /* Strength */
      , (1616,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1616,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (1616,   3,    90, 0, 0, 90) /* MaxStamina */
-     , (1616,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (1616,   1,    10, 0, 0, 80) /* MaxHealth */
+     , (1616,   3,    10, 0, 0, 90) /* MaxStamina */
+     , (1616,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1616, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (1616, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (1616, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1616, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (1616, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (1616, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1616, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (1616, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
+     , (1616, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (1616, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (1616, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (1616, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1616, 9, 21324,  0, 0, 0, False) /* Create Scroll of Lightning Arc II (21324) for ContainTreasure */
+     , (1616, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1616, 67116464, 0, 0);

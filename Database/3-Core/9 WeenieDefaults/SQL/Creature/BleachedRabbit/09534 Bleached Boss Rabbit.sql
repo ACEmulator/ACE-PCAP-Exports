@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9534;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9534, 'rabbitgardenpinkboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9534, 'rabbitgardenpinkboss', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9534,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,12 @@ VALUES (9534,   1, 200, 0, 0) /* Strength */
      , (9534,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9534,   1,   300, 0, 0, 300) /* MaxHealth */
-     , (9534,   3,   400, 0, 0, 400) /* MaxStamina */
-     , (9534,   5,    40, 0, 0, 40) /* MaxMana */;
+VALUES (9534,   1,    10, 0, 0, 300) /* MaxHealth */
+     , (9534,   3,    10, 0, 0, 400) /* MaxStamina */
+     , (9534,   5,    10, 0, 0, 40) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9534, 9, 25995,  0, 0, 0, False) /* Create Lucky Rabbit's Foot (25995) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9534, 67113186, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23483;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23483, 'sclavusastelord', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23483, 'sclavusastelord', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23483,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,29 @@ VALUES (23483,   1, 180, 0, 0) /* Strength */
      , (23483,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23483,   1,   325, 0, 0, 325) /* MaxHealth */
-     , (23483,   3,   450, 0, 0, 450) /* MaxStamina */
-     , (23483,   5,   350, 0, 0, 350) /* MaxMana */;
+VALUES (23483,   1,    10, 0, 0, 325) /* MaxHealth */
+     , (23483,   3,    10, 0, 0, 450) /* MaxStamina */
+     , (23483,   5,    10, 0, 0, 350) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (23483, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (23483, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
+     , (23483, 2, 47623,  1, 0, 0, False) /* Create Acid Tachi (47623) for Wield */
+     , (23483, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
+     , (23483, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
+     , (23483, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield */
+     , (23483, 2, 47732,  1, 0, 0, False) /* Create Spear (47732) for Wield */
+     , (23483, 2, 47751,  1, 0, 0, False) /* Create Lightning Spear (47751) for Wield */
+     , (23483, 2, 47979,  1, 0, 0, False) /* Create Acid Katar (47979) for Wield */
+     , (23483, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
+     , (23483, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
+     , (23483, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
+     , (23483, 2, 47983,  1, 0, 0, False) /* Create Acid Nekode (47983) for Wield */
+     , (23483, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (23483, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+     , (23483, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (23483, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
+     , (23483, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
+     , (23483, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
+     , (23483, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
+     , (23483, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */;

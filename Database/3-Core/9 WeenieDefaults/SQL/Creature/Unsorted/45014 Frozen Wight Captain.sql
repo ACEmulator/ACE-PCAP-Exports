@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45014;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45014, 'ace45014-frozenwightcaptain', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45014, 'ace45014-frozenwightcaptain', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45014,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,9 @@ VALUES (45014, 8040, 2332295801, 17.0887, -61.2101, -17.99175, -0.7209731, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45014, 8000, 3701262625) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45014, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45014, 67111664, 0, 0);

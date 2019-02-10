@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2315;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2315, 'forttethanablacksmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2315, 'forttethanablacksmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2315,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (2315,   1, 110, 0, 0) /* Strength */
      , (2315,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2315,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (2315,   3,   210, 0, 0, 210) /* MaxStamina */
-     , (2315,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (2315,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (2315,   3,    10, 0, 0, 210) /* MaxStamina */
+     , (2315,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2315, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (2315, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (2315, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (2315, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (2315, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (2315, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */

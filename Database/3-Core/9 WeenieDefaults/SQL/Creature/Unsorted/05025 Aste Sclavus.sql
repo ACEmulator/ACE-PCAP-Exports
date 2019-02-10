@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5025;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5025, 'sclavusastefolthid', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5025, 'sclavusastefolthid', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5025,   1,         16) /* ItemType - Creature */
@@ -42,3 +42,8 @@ VALUES (5025, 8040, 20644110, 126.701, -19.553, -78, 0.8418632, 0, 0, -0.5396911
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5025, 8000, 3629903055) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (5025, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (5025, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (5025, 2,  5017,  1, 0, 0, False) /* Create Dagger of Tikola (5017) for Wield */;

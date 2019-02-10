@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31718;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31718, 'ace31718-higharchonkraest', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31718, 'ace31718-higharchonkraest', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31718,   1,         16) /* ItemType - Creature */
@@ -52,7 +52,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31718, 8000, 2447496110) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31718,   1,  3000, 0, 0, 3000) /* MaxHealth */;
+VALUES (31718,   1,    10, 0, 0, 3000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31718, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (31718, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
+     , (31718, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (31718, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31718, 67109561, 0, 24)

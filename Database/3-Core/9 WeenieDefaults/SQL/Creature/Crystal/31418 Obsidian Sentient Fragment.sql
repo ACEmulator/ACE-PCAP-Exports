@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31418;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31418, 'ace31418-obsidiansentientfragment', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31418, 'ace31418-obsidiansentientfragment', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31418,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,14 @@ VALUES (31418,   1, 220, 0, 0) /* Strength */
      , (31418,   6, 560, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31418,   1, 15000, 0, 0, 15000) /* MaxHealth */
-     , (31418,   3,  5000, 0, 0, 5000) /* MaxStamina */
-     , (31418,   5, 15000, 0, 0, 15000) /* MaxMana */;
+VALUES (31418,   1,    10, 0, 0, 15000) /* MaxHealth */
+     , (31418,   3,    10, 0, 0, 5000) /* MaxStamina */
+     , (31418,   5,    10, 0, 0, 15000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31418, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (31418, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (31418, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (31418, 9,  3777,  0, 0, 0, False) /* Create Frost Dabus (3777) for ContainTreasure */
+     , (31418, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (31418, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */;

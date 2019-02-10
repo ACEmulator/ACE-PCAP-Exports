@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11522;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11522, 'tumerokheashaman_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11522, 'tumerokheashaman_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11522,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,25 @@ VALUES (11522,   1, 240, 0, 0) /* Strength */
      , (11522,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11522,   1,   325, 0, 0, 325) /* MaxHealth */
-     , (11522,   3,   375, 0, 0, 375) /* MaxStamina */
-     , (11522,   5,   400, 0, 0, 400) /* MaxMana */;
+VALUES (11522,   1,    10, 0, 0, 325) /* MaxHealth */
+     , (11522,   3,    10, 0, 0, 375) /* MaxStamina */
+     , (11522,   5,    10, 0, 0, 400) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11522, 2, 23637,  1, 0, 0, False) /* Create Cestus (23637) for Wield */
+     , (11522, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
+     , (11522, 2, 23674,  1, 0, 0, False) /* Create Katar (23674) for Wield */
+     , (11522, 2, 23680,  1, 0, 0, False) /* Create Nekode (23680) for Wield */
+     , (11522, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */
+     , (11522, 2, 23696,  1, 0, 0, False) /* Create Spear (23696) for Wield */
+     , (11522, 2, 23710,  1, 0, 0, False) /* Create Yaoji (23710) for Wield */
+     , (11522, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
+     , (11522, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
+     , (11522, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (11522, 9,  3096,  0, 0, 0, False) /* Create Scroll of Mana Depletion Other V (3096) for ContainTreasure */
+     , (11522, 9,  4192,  0, 0, 0, False) /* Create Acid Cestus (4192) for ContainTreasure */
+     , (11522, 9, 11320,  0, 0, 0, False) /* Create Vault Key (11320) for ContainTreasure */
+     , (11522, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11522, 67116625, 105, 48)

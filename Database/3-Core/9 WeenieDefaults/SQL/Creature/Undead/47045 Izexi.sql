@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47045;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (47045, 'ace47045-izexi', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (47045, 'ace47045-izexi', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47045,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47045, 8000, 3707811973) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47045,   1, 19878, 0, 0, 19878) /* MaxHealth */;
+VALUES (47045,   1,    10, 0, 0, 19878) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (47045, 2, 47046,  1, 0, 0, False) /* Create Sickle (47046) for Wield */
+     , (47045, 9, 47152,  0, 0, 0, False) /* Create Ancient Falatacot Symbol (47152) for ContainTreasure */
+     , (47045, 9, 48914,  0, 0, 0, False) /* Create Legendary Key (48914) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47045, 67114481, 0, 0);

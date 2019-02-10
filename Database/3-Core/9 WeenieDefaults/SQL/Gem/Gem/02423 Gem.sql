@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2423;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2423, 'gemopal', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2423, 'gemopal', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2423,   1,       2048) /* ItemType - Gem */
      , (2423,   5,          5) /* EncumbranceVal */
      , (2423,  11,          1) /* MaxStackSize */
      , (2423,  12,          1) /* StackSize */
+     , (2423,  13,          5) /* StackUnitEncumbrance */
+     , (2423,  15,       2130) /* StackUnitValue */
      , (2423,  16,          8) /* ItemUseable - Contained */
      , (2423,  18,          1) /* UiEffects - Magical */
      , (2423,  19,       2130) /* Value */
@@ -51,11 +53,13 @@ VALUES (2423,   1,   33554809) /* Setup */
      , (2423, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2423,   2, 3700444967) /* Container */
-     , (2423, 8000, 3700264425) /* PCAPRecordedObjectIID */;
+VALUES (2423, 8000, 3700264425) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2423,  1312,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2423, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2423, 67111918, 0, 0);

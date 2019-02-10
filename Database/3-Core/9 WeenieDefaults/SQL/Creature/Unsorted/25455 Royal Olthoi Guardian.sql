@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25455;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25455, 'olthoiroyalguardrot1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25455, 'olthoiroyalguardrot1', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25455,   1,         16) /* ItemType - Creature */
@@ -44,6 +44,11 @@ VALUES (25455, 8040, 1615397368, 500, -200, -12.016, 0.714421, 0, 0, 0.699716) /
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25455, 8000, 3708907720) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25455, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (25455, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */
+     , (25455, 9, 25482,  0, 0, 0, False) /* Create Smelly Olthoi Gland (25482) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25455, 67113325, 0, 0);

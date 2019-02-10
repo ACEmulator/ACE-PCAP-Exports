@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26639;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (26639, 'gemportalxarabydun', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (26639, 'gemportalxarabydun', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26639,   1,       2048) /* ItemType - Gem */
-     , (26639,   5,         20) /* EncumbranceVal */
+     , (26639,   5,         10) /* EncumbranceVal */
      , (26639,  11,         25) /* MaxStackSize */
-     , (26639,  12,          2) /* StackSize */
+     , (26639,  12,          1) /* StackSize */
+     , (26639,  13,         10) /* StackUnitEncumbrance */
+     , (26639,  15,        500) /* StackUnitValue */
      , (26639,  16,          8) /* ItemUseable - Contained */
      , (26639,  18,          1) /* UiEffects - Magical */
-     , (26639,  19,       1000) /* Value */
+     , (26639,  19,        500) /* Value */
      , (26639,  65,        101) /* Placement - Resting */
      , (26639,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (26639,  94,         16) /* TargetType - Creature */

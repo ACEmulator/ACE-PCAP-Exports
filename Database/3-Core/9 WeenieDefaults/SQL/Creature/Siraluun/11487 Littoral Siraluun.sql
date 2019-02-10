@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11487;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11487, 'siraluunlittoral_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11487, 'siraluunlittoral_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11487,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,22 @@ VALUES (11487,   1, 180, 0, 0) /* Strength */
      , (11487,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11487,   1,   190, 0, 0, 190) /* MaxHealth */
-     , (11487,   3,   210, 0, 0, 210) /* MaxStamina */
-     , (11487,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (11487,   1,    10, 0, 0, 190) /* MaxHealth */
+     , (11487,   3,    10, 0, 0, 210) /* MaxStamina */
+     , (11487,   5,    10, 0, 0, 80) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11487, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (11487, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (11487, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (11487, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (11487, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (11487, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (11487, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (11487, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (11487, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (11487, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (11487, 9, 30600,  0, 0, 0, False) /* Create Acid Poniard (30600) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11487, 67113291, 0, 0);

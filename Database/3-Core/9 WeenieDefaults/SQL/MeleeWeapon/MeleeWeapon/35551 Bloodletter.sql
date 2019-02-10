@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35551;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35551, 'ace35551-bloodletter', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35551, 'ace35551-bloodletter', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
@@ -64,15 +64,14 @@ VALUES (35551,   1,   33559320) /* Setup */
      , (35551,   8,  100686986) /* Icon */
      , (35551,  22,  872415275) /* PhysicsEffectTable */
      , (35551,  52,  100689403) /* IconUnderlay */
-     , (35551,  55,       2070) /* ProcSpell */
+     , (35551,  55,       2070) /* ProcSpell - HarmOther7 */
      , (35551, 8001,    2179728) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (35551, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (35551, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (35551, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35551,   2, 1343803904) /* Container */
-     , (35551, 8000, 3633432153) /* PCAPRecordedObjectIID */;
+VALUES (35551, 8000, 3633432153) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35551,  2070,      2) 

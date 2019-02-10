@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7301;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7301, 'acidstrike', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7301, 'acidstrike', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7301,   1,          0) /* ItemType - None */
@@ -46,3 +46,9 @@ VALUES (7301, 8040, 10944770, 126.4199, -60.35337, -0.4839559, 0.7471739, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7301, 8000, 3680637963) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7301, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (7301, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (7301, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (7301, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

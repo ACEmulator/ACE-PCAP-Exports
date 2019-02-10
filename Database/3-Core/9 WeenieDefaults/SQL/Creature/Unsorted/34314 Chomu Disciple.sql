@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34314;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34314, 'ace34314-chomudisciple', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34314, 'ace34314-chomudisciple', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34314,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,18 @@ VALUES (34314, 8040, 8126909, 23.1672, -90.4786, -12, 0.659983, 0, 0, 0.75128) /
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34314, 8000, 3703138917) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34314, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (34314, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
+     , (34314, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
+     , (34314, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
+     , (34314, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (34314, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+     , (34314, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
+     , (34314, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
+     , (34314, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
+     , (34314, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34314, 67113043, 0, 0);

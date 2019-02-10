@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33867;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33867, 'ace33867-bladewave', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33867, 'ace33867-bladewave', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33867,   1,          0) /* ItemType - None */
@@ -41,3 +41,6 @@ VALUES (33867, 8040, 1482883608, 210, -69.45546, 1.228333, -4.37114E-08, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33867, 8000, 2629331548) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33867, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36822;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36822, 'ace36822-drudgebloodletter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36822, 'ace36822-drudgebloodletter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36822,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,12 @@ VALUES (36822,   1, 220, 0, 0) /* Strength */
      , (36822,   6, 145, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36822,   1,   608, 0, 0, 608) /* MaxHealth */
-     , (36822,   3,   915, 0, 0, 915) /* MaxStamina */
-     , (36822,   5,   445, 0, 0, 445) /* MaxMana */;
+VALUES (36822,   1,    10, 0, 0, 608) /* MaxHealth */
+     , (36822,   3,    10, 0, 0, 915) /* MaxStamina */
+     , (36822,   5,    10, 0, 0, 445) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36822, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36822, 67114277, 0, 0);

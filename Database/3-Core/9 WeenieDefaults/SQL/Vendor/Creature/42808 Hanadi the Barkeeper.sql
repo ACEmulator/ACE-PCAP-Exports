@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42808;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42808, 'ace42808-hanadithebarkeeper', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42808, 'ace42808-hanadithebarkeeper', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42808,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (42808,   1,  55, 0, 0) /* Strength */
      , (42808,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42808,   1,    75, 0, 0, 75) /* MaxHealth */
-     , (42808,   3,   135, 0, 0, 135) /* MaxStamina */
-     , (42808,   5,    65, 0, 0, 65) /* MaxMana */;
+VALUES (42808,   1,    10, 0, 0, 75) /* MaxHealth */
+     , (42808,   3,    10, 0, 0, 135) /* MaxStamina */
+     , (42808,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42808, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (42979) for Shop */

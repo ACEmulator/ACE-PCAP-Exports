@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25884;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25884, 'riftumbral', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25884, 'riftumbral', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25884,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (25884,   1, True ) /* Stuck */
      , (25884,  13, False) /* Ethereal */
      , (25884,  14, True ) /* GravityStatus */
      , (25884,  15, True ) /* LightsStatus */
-     , (25884,  19, True ) /* Attackable */;
+     , (25884,  19, True ) /* Attackable */
+     , (25884, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25884,  39,     1.5) /* DefaultScale */;
@@ -55,6 +56,15 @@ VALUES (25884,   1, 180, 0, 0) /* Strength */
      , (25884,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25884,   1,  1000, 0, 0, 1000) /* MaxHealth */
-     , (25884,   3,  1000, 0, 0, 1000) /* MaxStamina */
-     , (25884,   5,  1000, 0, 0, 1000) /* MaxMana */;
+VALUES (25884,   1,    10, 0, 0, 1000) /* MaxHealth */
+     , (25884,   3,    10, 0, 0, 1000) /* MaxStamina */
+     , (25884,   5,    10, 0, 0, 1000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25884, 9,    90,  0, 0, 0, False) /* Create Yoroi Pauldrons (90) for ContainTreasure */
+     , (25884, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (25884, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (25884, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (25884, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
+     , (25884, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
+     , (25884, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;

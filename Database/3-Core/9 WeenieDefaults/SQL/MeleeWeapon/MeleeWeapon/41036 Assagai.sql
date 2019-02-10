@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41036;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41036, 'ace41036-assagai', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41036, 'ace41036-assagai', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41036,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (41036,   1,          1) /* ItemType - MeleeWeapon */
      , (41036, 131,         22) /* MaterialType - FireOpal */
      , (41036, 151,          2) /* HookType - Wall */
      , (41036, 158,          2) /* WieldRequirements - RawSkill */
-     , (41036, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41036, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41036, 160,        350) /* WieldDifficulty */
      , (41036, 172,          5) /* AppraisalLongDescDecoration */
      , (41036, 176,         41) /* AppraisalItemSkill */

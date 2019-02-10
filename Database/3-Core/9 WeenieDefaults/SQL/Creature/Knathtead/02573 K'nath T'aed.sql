@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2573;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2573, 'knathtaed', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2573, 'knathtaed', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2573,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,19 @@ VALUES (2573,   1,  70, 0, 0) /* Strength */
      , (2573,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2573,   1,    90, 0, 0, 90) /* MaxHealth */
-     , (2573,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (2573,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (2573,   1,    10, 0, 0, 90) /* MaxHealth */
+     , (2573,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (2573,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2573, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (2573, 9,   273, 14, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (2573, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (2573, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (2573, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (2573, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
+     , (2573, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (2573, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2573, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
+     , (2573, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (2573, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;

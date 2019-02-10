@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22166;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22166, 'quarterstaffflamenew', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22166, 'quarterstaffflamenew', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22166,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (22166,   1,          1) /* ItemType - MeleeWeapon */
      , (22166, 131,         75) /* MaterialType - Oak */
      , (22166, 151,          2) /* HookType - Wall */
      , (22166, 158,          2) /* WieldRequirements - RawSkill */
-     , (22166, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (22166, 159,         45) /* WieldSkillType - LightWeapons */
      , (22166, 160,        300) /* WieldDifficulty */
      , (22166, 172,          5) /* AppraisalLongDescDecoration */
      , (22166, 176,         45) /* AppraisalItemSkill */
@@ -71,12 +71,16 @@ VALUES (22166,   1,   33558066) /* Setup */
      , (22166, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22166,   2, 3699627972) /* Container */
-     , (22166, 8000, 3701170527) /* PCAPRecordedObjectIID */;
+VALUES (22166, 8000, 3701170527) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22166,  1615,      2) 
      , (22166,  2583,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22166, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (22166, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22166, 67111919, 0, 0);

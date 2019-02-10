@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33748;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33748, 'ace33748-decayingruschksadist', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33748, 'ace33748-decayingruschksadist', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33748,   1,         16) /* ItemType - Creature */
@@ -46,4 +46,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33748, 8000, 3708738656) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33748,   1,   580, 0, 0, 580) /* MaxHealth */;
+VALUES (33748,   1,    10, 0, 0, 580) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33748, 2, 48616,  1, 0, 0, False) /* Create Ice Shard (48616) for Wield */;

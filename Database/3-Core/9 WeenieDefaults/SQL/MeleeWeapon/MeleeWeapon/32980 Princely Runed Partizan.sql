@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32980;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32980, 'ace32980-princelyrunedpartizan', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32980, 'ace32980-princelyrunedpartizan', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32980,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (32980,   1,          1) /* ItemType - MeleeWeapon */
      , (32980, 109,          0) /* ItemDifficulty */
      , (32980, 151,          2) /* HookType - Wall */
      , (32980, 158,          7) /* WieldRequirements - Level */
-     , (32980, 159,          1) /* WieldSkilltype - Axe */
+     , (32980, 159,          1) /* WieldSkillType - Axe */
      , (32980, 160,        100) /* WieldDifficulty */
      , (32980, 353,          5) /* WeaponType - Spear */
      , (32980, 8030,          0);
@@ -58,14 +58,13 @@ VALUES (32980,   1,   33559865) /* Setup */
      , (32980,   8,  100686985) /* Icon */
      , (32980,  22,  872415275) /* PhysicsEffectTable */
      , (32980,  50,  100688913) /* IconOverlay */
-     , (32980,  55,       2074) /* ProcSpell */
+     , (32980,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (32980, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (32980, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32980, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32980,   2, 3666810984) /* Container */
-     , (32980, 8000, 2174251899) /* PCAPRecordedObjectIID */;
+VALUES (32980, 8000, 2174251899) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32980,  2074,      2) 

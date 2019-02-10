@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 540;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (540, 'lugianaxe', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (540, 'lugianaxe', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (540,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,7 @@ VALUES (540,   1,          1) /* ItemType - MeleeWeapon */
      , (540,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (540, 151,          2) /* HookType - Wall */
      , (540, 158,          2) /* WieldRequirements - RawSkill */
-     , (540, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (540, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (540, 160,        250) /* WieldDifficulty */
      , (540, 353,          3) /* WeaponType - Axe */
      , (540, 8030,          0);

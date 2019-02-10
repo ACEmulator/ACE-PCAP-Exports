@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32702;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32702, 'ace32702-captainvietrelasallia', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32702, 'ace32702-captainvietrelasallia', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32702,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,20 @@ VALUES (32702,   1, 260, 0, 0) /* Strength */
      , (32702,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32702,   1,   695, 0, 0, 695) /* MaxHealth */
-     , (32702,   3,   410, 0, 0, 410) /* MaxStamina */
-     , (32702,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (32702,   1,    10, 0, 0, 695) /* MaxHealth */
+     , (32702,   3,    10, 0, 0, 410) /* MaxStamina */
+     , (32702,   5,    10, 0, 0, 70) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32702, 2, 29968,  1, 0, 0, False) /* Create Quadrelle (29968) for Wield */
+     , (32702, 2, 29978,  1, 0, 0, False) /* Create Spadone (29978) for Wield */
+     , (32702, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (32702, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (32702, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (32702, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (32702, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (32702, 9, 32671,  0, 0, 0, False) /* Create Viamontian Pennant (32671) for ContainTreasure */
+     , (32702, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32702, 67115520, 0, 0);

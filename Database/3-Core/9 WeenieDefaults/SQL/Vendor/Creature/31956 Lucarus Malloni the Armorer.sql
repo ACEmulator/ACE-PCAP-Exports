@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31956;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31956, 'ace31956-lucarusmallonithearmorer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31956, 'ace31956-lucarusmallonithearmorer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31956,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (31956,   1, 130, 0, 0) /* Strength */
      , (31956,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31956,   1,   195, 0, 0, 195) /* MaxHealth */
-     , (31956,   3,   260, 0, 0, 260) /* MaxStamina */
-     , (31956,   5,   130, 0, 0, 130) /* MaxMana */;
+VALUES (31956,   1,    10, 0, 0, 195) /* MaxHealth */
+     , (31956,   3,    10, 0, 0, 260) /* MaxStamina */
+     , (31956,   5,    10, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31956, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (31956, 2, 30571,  1, 0, 0, False) /* Create Spada (30571) for Wield */
+     , (31956, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (31956, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (31956, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (31956, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */

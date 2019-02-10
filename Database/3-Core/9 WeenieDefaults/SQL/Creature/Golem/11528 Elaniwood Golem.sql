@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11528;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11528, 'golemelaniwood_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11528, 'golemelaniwood_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11528,   1,         16) /* ItemType - Creature */
@@ -51,6 +51,24 @@ VALUES (11528,   1, 100, 0, 0) /* Strength */
      , (11528,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11528,   1,   140, 0, 0, 140) /* MaxHealth */
-     , (11528,   3,   240, 0, 0, 240) /* MaxStamina */
-     , (11528,   5,   200, 0, 0, 200) /* MaxMana */;
+VALUES (11528,   1,    10, 0, 0, 140) /* MaxHealth */
+     , (11528,   3,    10, 0, 0, 240) /* MaxStamina */
+     , (11528,   5,    10, 0, 0, 200) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11528, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (11528, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (11528, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (11528, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (11528, 9,   273, 42, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11528, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (11528, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (11528, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (11528, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (11528, 9,  5974,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Self (5974) for ContainTreasure */
+     , (11528, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (11528, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (11528, 9, 11350,  0, 0, 0, False) /* Create Elaniwood Golem Heart (11350) for ContainTreasure */
+     , (11528, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (11528, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (11528, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */;

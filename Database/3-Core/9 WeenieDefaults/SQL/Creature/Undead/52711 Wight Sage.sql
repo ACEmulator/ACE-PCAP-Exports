@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52711;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52711, 'ace52711-wightsage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52711, 'ace52711-wightsage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52711,   1,         16) /* ItemType - Creature */
@@ -60,9 +60,13 @@ VALUES (52711,   1, 260, 0, 0) /* Strength */
      , (52711,   6, 285, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52711,   1,  7120, 0, 0, 7120) /* MaxHealth */
-     , (52711,   3,  4240, 0, 0, 4240) /* MaxStamina */
-     , (52711,   5,  2285, 0, 0, 2285) /* MaxMana */;
+VALUES (52711,   1,    10, 0, 0, 7120) /* MaxHealth */
+     , (52711,   3,    10, 0, 0, 4240) /* MaxStamina */
+     , (52711,   5,    10, 0, 0, 2285) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52711, 2, 46703,  1, 0, 0, False) /* Create Acid Nekode (46703) for Wield */
+     , (52711, 2, 46707,  1, 0, 0, False) /* Create Corrupted Aegis (46707) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52711, 67111664, 0, 0);

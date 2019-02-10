@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42912;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42912, 'ace42912-snowman', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42912, 'ace42912-snowman', 1, '2019-02-10 05:41:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42912,   1,        128) /* ItemType - Misc */
@@ -34,3 +34,26 @@ VALUES (42912, 8040, 459097, 81.7505, -115.12, 0.66, 1, 0, 0, 0) /* PCAPRecorded
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42912, 8000, 1879076972) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42912, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (42912, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (42912, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (42912, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (42912, 9,   273, 25, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (42912, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (42912, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (42912, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (42912, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (42912, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (42912, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */
+     , (42912, 9,  5762,  9, 0, 0, False) /* Create Snowball (5762) for ContainTreasure */
+     , (42912, 9,  5768,  1, 0, 0, False) /* Create Poofy Snowball (5768) for ContainTreasure */
+     , (42912, 9,  7835,  1, 0, 0, False) /* Create Magic Iceball (7835) for ContainTreasure */
+     , (42912, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (42912, 9, 22441,  0, 0, 0, False) /* Create Acid Dirk (22441) for ContainTreasure */
+     , (42912, 9, 22825,  0, 0, 0, False) /* Create A Lump of Coal (22825) for ContainTreasure */
+     , (42912, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (42912, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (42912, 9, 28941,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment II (28941) for ContainTreasure */
+     , (42912, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42030;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42030, 'ace42030-shadeoffordroth', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42030, 'ace42030-shadeoffordroth', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42030,   1,         16) /* ItemType - Creature */
@@ -47,6 +47,10 @@ VALUES (42030, 8040, 2349008864, 210, -30, 24.006, 1, 0, 0, 0) /* PCAPRecordedLo
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42030, 8000, 3683495518) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42030, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
+     , (42030, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42030, 67109969, 92, 4)

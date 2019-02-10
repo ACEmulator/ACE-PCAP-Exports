@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53375;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (53375, 'ace53375-sathtikeyestalk', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (53375, 'ace53375-sathtikeyestalk', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53375,   1,         16) /* ItemType - Creature */
@@ -46,4 +46,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (53375, 8000, 2932474357) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (53375,   1,  1230, 0, 0, 1230) /* MaxHealth */;
+VALUES (53375,   1,    10, 0, 0, 1230) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (53375, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */
+     , (53375, 9,  8952,  0, 0, 0, False) /* Create Scroll of Shock Wave Streak VI (8952) for ContainTreasure */
+     , (53375, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (53375, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */;

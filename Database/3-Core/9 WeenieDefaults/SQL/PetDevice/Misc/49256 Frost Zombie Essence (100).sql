@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49256;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49256, 'ace49256-frostzombieessence100', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49256, 'ace49256-frostzombieessence100', 70, '2019-02-10 05:41:14') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49256,   1,        128) /* ItemType - Misc */
@@ -54,8 +54,10 @@ VALUES (49256,   1,   33554817) /* Setup */
      , (49256, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49256,   2, 3694210800) /* Container */
-     , (49256, 8000, 3694257574) /* PCAPRecordedObjectIID */;
+VALUES (49256, 8000, 3694257574) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49256, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49256, 67111919, 0, 0);

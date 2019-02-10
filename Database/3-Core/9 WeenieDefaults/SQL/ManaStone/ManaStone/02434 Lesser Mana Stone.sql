@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2434;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2434, 'manastonelesser', 37) /* ManaStone */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2434, 'manastonelesser', 37, '2019-02-10 05:41:14') /* ManaStone */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2434,   1,     524288) /* ItemType - ManaStone */
@@ -38,5 +38,8 @@ VALUES (2434,   1,   33555639) /* Setup */
      , (2434, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2434,   2, 3686702638) /* Container */
-     , (2434, 8000, 3687018274) /* PCAPRecordedObjectIID */;
+VALUES (2434, 8000, 3687018274) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2434, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (2434, 2, 47996,  1, 0, 0, False) /* Create Lightning Katar (47996) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20217;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20217, 'scrivenerlife1starter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20217, 'scrivenerlife1starter', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20217,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (20217,   1,  90, 0, 0) /* Strength */
      , (20217,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20217,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (20217,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (20217,   5,   215, 0, 0, 215) /* MaxMana */;
+VALUES (20217,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (20217,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (20217,   5,    10, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20217, 4,  1549, -1, 0, 0, False) /* Create Scroll of Armor Other (1549) for Shop */

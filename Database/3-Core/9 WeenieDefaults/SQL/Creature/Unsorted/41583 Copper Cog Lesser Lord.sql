@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41583;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41583, 'ace41583-coppercoglesserlord', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41583, 'ace41583-coppercoglesserlord', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41583,   1,         16) /* ItemType - Creature */
@@ -43,3 +43,6 @@ VALUES (41583, 8040, 2287009809, 59.9379, 12.1789, 46.5189, -4.371139E-08, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41583, 8000, 2868042437) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41583, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */;

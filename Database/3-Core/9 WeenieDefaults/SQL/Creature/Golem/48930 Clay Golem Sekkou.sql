@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48930;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48930, 'ace48930-claygolemsekkou', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48930, 'ace48930-claygolemsekkou', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48930,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,12 @@ VALUES (48930,   1, 520, 0, 0) /* Strength */
      , (48930,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48930,   1,  4750, 0, 0, 4750) /* MaxHealth */
-     , (48930,   3,  4000, 0, 0, 4000) /* MaxStamina */
-     , (48930,   5,  3000, 0, 0, 3000) /* MaxMana */;
+VALUES (48930,   1,    10, 0, 0, 4750) /* MaxHealth */
+     , (48930,   3,    10, 0, 0, 4000) /* MaxStamina */
+     , (48930,   5,    10, 0, 0, 3000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48930, 2, 46606,  1, 0, 0, False) /* Create Fire-hardened Clay Nodachi (46606) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48930, 67116877, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1635;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1635, 'lightningbolt', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1635, 'lightningbolt', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1635,   1,          0) /* ItemType - None */
@@ -45,3 +45,34 @@ VALUES (1635, 8040, 2417885188, 13.86163, 76.98003, 312.6382, -0.9399194, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1635, 8000, 3685783366) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1635, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
+     , (1635, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
+     , (1635, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
+     , (1635, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
+     , (1635, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */
+     , (1635, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */
+     , (1635, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (1635, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (1635, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (1635, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (1635, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
+     , (1635, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (1635, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (1635, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (1635, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (1635, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (1635, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (1635, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (1635, 2, 46374,  1, 0, 0, False) /* Create Spectral Nekode (46374) for Wield */
+     , (1635, 2, 47388,  1, 0, 0, False) /* Create Flaming Club (47388) for Wield */
+     , (1635, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
+     , (1635, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
+     , (1635, 2, 47478,  1, 0, 0, False) /* Create Flaming Mace (47478) for Wield */
+     , (1635, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (1635, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
+     , (1635, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (1635, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (1635, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (1635, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;

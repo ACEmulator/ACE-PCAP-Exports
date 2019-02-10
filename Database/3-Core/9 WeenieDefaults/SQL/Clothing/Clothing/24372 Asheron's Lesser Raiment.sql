@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24372;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24372, 'raimentasheronlowfocus', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24372, 'raimentasheronlowfocus', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24372,   1,          4) /* ItemType - Clothing */
@@ -19,7 +19,7 @@ VALUES (24372,   1,          4) /* ItemType - Clothing */
      , (24372, 108,        800) /* ItemMaxMana */
      , (24372, 109,         80) /* ItemDifficulty */
      , (24372, 158,          7) /* WieldRequirements - Level */
-     , (24372, 159,          1) /* WieldSkilltype - Axe */
+     , (24372, 159,          1) /* WieldSkillType - Axe */
      , (24372, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -57,8 +57,7 @@ VALUES (24372,   1,   33554854) /* Setup */
      , (24372, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24372,   3, 1343073480) /* Wielder */
-     , (24372, 8000, 2166186163) /* PCAPRecordedObjectIID */;
+VALUES (24372, 8000, 2166186163) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24372,  1144,      2) 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11983;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11983, 'banderlingbossmonster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11983, 'banderlingbossmonster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11983,   1,         16) /* ItemType - Creature */
@@ -59,9 +59,27 @@ VALUES (11983,   1, 130, 0, 0) /* Strength */
      , (11983,   6,  75, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11983,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (11983,   3,   270, 0, 0, 270) /* MaxStamina */
-     , (11983,   5,    75, 0, 0, 75) /* MaxMana */;
+VALUES (11983,   1,    10, 0, 0, 135) /* MaxHealth */
+     , (11983,   3,    10, 0, 0, 270) /* MaxStamina */
+     , (11983,   5,    10, 0, 0, 75) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11983, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
+     , (11983, 2,   309,  1, 0, 0, False) /* Create Club (309) for Wield */
+     , (11983, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (11983, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (11983, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
+     , (11983, 2,   332,  1, 0, 0, False) /* Create Morning Star (332) for Wield */
+     , (11983, 2,   342,  1, 0, 0, False) /* Create Shou-ono (342) for Wield */
+     , (11983, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (11983, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (11983, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (11983, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (11983, 9,  3693,  0, 0, 0, False) /* Create Banderling Scalp (3693) for ContainTreasure */
+     , (11983, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (11983, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (11983, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (11983, 9, 49289,  0, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11983, 67114030, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8583;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8583, 'shadowcloudcreature', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8583, 'shadowcloudcreature', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8583,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,37 @@ VALUES (8583,   1, 289, 0, 0) /* Strength */
      , (8583,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8583,   1,   858, 0, 0, 858) /* MaxHealth */
-     , (8583,   3,   655, 0, 0, 655) /* MaxStamina */
-     , (8583,   5,   700, 0, 0, 700) /* MaxMana */;
+VALUES (8583,   1,    10, 0, 0, 858) /* MaxHealth */
+     , (8583,   3,    10, 0, 0, 655) /* MaxStamina */
+     , (8583,   5,    10, 0, 0, 700) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8583, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (8583, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (8583, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (8583, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (8583, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (8583, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (8583, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (8583, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (8583, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (8583, 9,  3311,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other V (3311) for ContainTreasure */
+     , (8583, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (8583, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */
+     , (8583, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (8583, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (8583, 9, 20446,  0, 0, 0, False) /* Create Scroll of Outlander's Insolence (20446) for ContainTreasure */
+     , (8583, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
+     , (8583, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (8583, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (8583, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
+     , (8583, 9, 29241,  0, 0, 0, False) /* Create Fire Bow (29241) for ContainTreasure */
+     , (8583, 9, 30558,  0, 0, 0, False) /* Create Lightning Hatchet (30558) for ContainTreasure */
+     , (8583, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
+     , (8583, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (8583, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
+     , (8583, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (8583, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (8583, 9, 44799,  0, 0, 0, False) /* Create Faran Over-robe (44799) for ContainTreasure */
+     , (8583, 9, 49223,  0, 0, 0, False) /* Create Lightning Skeleton Bushi Essence (125) (49223) for ContainTreasure */
+     , (8583, 9, 49366,  0, 0, 0, False) /* Create Acid Grievver Essence (50) (49366) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6882;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6882, 'tumerokdryreachguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6882, 'tumerokdryreachguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6882,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,21 @@ VALUES (6882,   1, 100, 0, 0) /* Strength */
      , (6882,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6882,   1,   170, 0, 0, 170) /* MaxHealth */
-     , (6882,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (6882,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (6882,   1,    10, 0, 0, 170) /* MaxHealth */
+     , (6882,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (6882,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6882, 9,    35,  0, 0, 0, False) /* Create Chainmail Basinet (35) for ContainTreasure */
+     , (6882, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (6882, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+     , (6882, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (6882, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (6882, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (6882, 9,  6880,  0, 0, 0, False) /* Create Bone Engraved Key (6880) for ContainTreasure */
+     , (6882, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (6882, 9, 30949,  0, 0, 0, False) /* Create Diforsa Sleeves (30949) for ContainTreasure */
+     , (6882, 9, 44801,  0, 0, 0, False) /* Create Suikan Over-robe (44801) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6882, 67116625, 153, 47)

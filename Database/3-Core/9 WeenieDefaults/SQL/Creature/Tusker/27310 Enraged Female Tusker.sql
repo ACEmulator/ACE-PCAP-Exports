@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27310;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27310, 'tuskerenragedfemale', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27310, 'tuskerenragedfemale', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27310,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,15 @@ VALUES (27310,   1, 230, 0, 0) /* Strength */
      , (27310,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27310,   1,   760, 0, 0, 760) /* MaxHealth */
-     , (27310,   3,  1220, 0, 0, 1217) /* MaxStamina */
-     , (27310,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (27310,   1,    10, 0, 0, 760) /* MaxHealth */
+     , (27310,   3,    10, 0, 0, 1217) /* MaxStamina */
+     , (27310,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27310, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (27310, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
+     , (27310, 9, 31813,  0, 0, 0, False) /* Create Acid Slingshot (31813) for ContainTreasure */
+     , (27310, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27310, 67113010, 0, 0);

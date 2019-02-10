@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34315;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34315, 'ace34315-soulhunter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34315, 'ace34315-soulhunter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34315,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,12 @@ VALUES (34315, 8040, 8127195, 178.33, -81.034, 0.008249998, 0.9551743, 0, 0, 0.2
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34315, 8000, 3704047134) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34315, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (34315, 9,  3835,  0, 0, 0, False) /* Create Lightning Mace (3835) for ContainTreasure */
+     , (34315, 9, 34310,  0, 0, 0, False) /* Create Soul Hunter's Untranslated Orders (34310) for ContainTreasure */
+     , (34315, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34315, 67114481, 0, 0);

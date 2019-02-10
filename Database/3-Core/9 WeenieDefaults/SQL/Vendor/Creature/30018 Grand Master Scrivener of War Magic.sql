@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30018;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30018, 'viascrivenerwarextreme', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30018, 'viascrivenerwarextreme', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30018,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (30018,   1,  90, 0, 0) /* Strength */
      , (30018,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30018,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (30018,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (30018,   5,   690, 0, 0, 690) /* MaxMana */;
+VALUES (30018,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (30018,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (30018,   5,    10, 0, 0, 690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30018, 4,  2911, -1, 0, 0, False) /* Create Scroll of Acid Stream VI (2911) for Shop */

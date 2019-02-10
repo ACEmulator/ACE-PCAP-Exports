@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35562;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35562, 'ace35562-enniodicinghalle', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35562, 'ace35562-enniodicinghalle', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35562,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (35562,   1, 230, 0, 0) /* Strength */
      , (35562,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35562,   1,   255, 0, 0, 255) /* MaxHealth */
-     , (35562,   3,   410, 0, 0, 410) /* MaxStamina */
-     , (35562,   5,   360, 0, 0, 360) /* MaxMana */;
+VALUES (35562,   1,    10, 0, 0, 255) /* MaxHealth */
+     , (35562,   3,    10, 0, 0, 410) /* MaxStamina */
+     , (35562,   5,    10, 0, 0, 360) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35562, 2, 30625,  1, 0, 0, False) /* Create War Bow (30625) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35562, 67109945, 72, 8)

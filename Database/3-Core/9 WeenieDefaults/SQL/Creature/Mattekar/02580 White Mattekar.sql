@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2580;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2580, 'mattekarwhite', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2580, 'mattekarwhite', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2580,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,36 @@ VALUES (2580,   1, 100, 0, 0) /* Strength */
      , (2580,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2580,   1,    65, 0, 0, 65) /* MaxHealth */
-     , (2580,   3,   310, 0, 0, 310) /* MaxStamina */
-     , (2580,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (2580,   1,    10, 0, 0, 65) /* MaxHealth */
+     , (2580,   3,    10, 0, 0, 310) /* MaxStamina */
+     , (2580,   5,    10, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2580, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (2580, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (2580, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (2580, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (2580, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (2580, 9,   259,  1, 0, 0, False) /* Create Bread (259) for ContainTreasure */
+     , (2580, 9,   273, 40, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (2580, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (2580, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (2580, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
+     , (2580, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (2580, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (2580, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (2580, 9,  1684,  0, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance (1684) for ContainTreasure */
+     , (2580, 9,  1719,  0, 0, 0, False) /* Create Scroll of Lockpick Ineptitude (1719) for ContainTreasure */
+     , (2580, 9,  1721,  0, 0, 0, False) /* Create Scroll of Lockpick Mastery Self (1721) for ContainTreasure */
+     , (2580, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (2580, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (2580, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (2580, 9,  3568,  0, 0, 0, False) /* Create Scroll of War Magic Mastery Other II (3568) for ContainTreasure */
+     , (2580, 9,  5964,  0, 0, 0, False) /* Create Scroll of Fletching Ineptitude Other III (5964) for ContainTreasure */
+     , (2580, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */
+     , (2580, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (2580, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (2580, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (2580, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
+     , (2580, 9, 49373,  0, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for ContainTreasure */
+     , (2580, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */;

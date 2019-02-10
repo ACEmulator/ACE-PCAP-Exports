@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 972;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (972, 'undercityweaponsmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (972, 'undercityweaponsmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (972,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (972,   1, 100, 0, 0) /* Strength */
      , (972,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (972,   1,   185, 0, 0, 185) /* MaxHealth */
-     , (972,   3,   270, 0, 0, 270) /* MaxStamina */
-     , (972,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (972,   1,    10, 0, 0, 185) /* MaxHealth */
+     , (972,   3,    10, 0, 0, 270) /* MaxStamina */
+     , (972,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (972, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+VALUES (972, 2, 22158,  1, 0, 0, False) /* Create Jo (22158) for Wield */
+     , (972, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (972, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (972, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (972, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44094;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44094, 'ace44094-mumiyahchampion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44094, 'ace44094-mumiyahchampion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44094,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,9 @@ VALUES (44094, 8040, 1465254405, 88.9265, -20.2971, 18.006, -0.08027568, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44094, 8000, 3632799894) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44094, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44094, 67111814, 0, 0);

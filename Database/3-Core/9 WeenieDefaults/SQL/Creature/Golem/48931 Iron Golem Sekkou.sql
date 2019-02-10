@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48931;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48931, 'ace48931-irongolemsekkou', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48931, 'ace48931-irongolemsekkou', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48931,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,12 @@ VALUES (48931,   1, 520, 0, 0) /* Strength */
      , (48931,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48931,   1,  5250, 0, 0, 5250) /* MaxHealth */
-     , (48931,   3,  4100, 0, 0, 4088) /* MaxStamina */
-     , (48931,   5,  3000, 0, 0, 3000) /* MaxMana */;
+VALUES (48931,   1,    10, 0, 0, 5250) /* MaxHealth */
+     , (48931,   3,    10, 0, 0, 4088) /* MaxStamina */
+     , (48931,   5,    10, 0, 0, 3000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48931, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48931, 67116897, 0, 0);

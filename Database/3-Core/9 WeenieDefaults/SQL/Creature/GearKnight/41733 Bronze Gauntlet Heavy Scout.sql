@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41733;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41733, 'ace41733-bronzegauntletheavyscout', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41733, 'ace41733-bronzegauntletheavyscout', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41733,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,12 @@ VALUES (41733,   1, 465, 0, 0) /* Strength */
      , (41733,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41733,   1,  9975, 0, 0, 9975) /* MaxHealth */
-     , (41733,   3,  5950, 0, 0, 5950) /* MaxStamina */
-     , (41733,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (41733,   1,    10, 0, 0, 9975) /* MaxHealth */
+     , (41733,   3,    10, 0, 0, 5950) /* MaxStamina */
+     , (41733,   5,    10, 0, 0, 85) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41733, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
+     , (41733, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+     , (41733, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
+     , (41733, 2, 41253,  1, 0, 0, False) /* Create Frost Gearknight Greatsword (41253) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48746;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48746, 'ace48746-agedlegendarykey', 22) /* Key */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48746, 'ace48746-agedlegendarykey', 22, '2019-02-10 05:41:14') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48746,   1,      16384) /* ItemType - Key */
@@ -43,5 +43,8 @@ VALUES (48746,   1,   33554784) /* Setup */
      , (48746, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48746,   2, 1342814975) /* Container */
-     , (48746, 8000, 3678084509) /* PCAPRecordedObjectIID */;
+VALUES (48746, 8000, 3678084509) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48746, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (48746, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

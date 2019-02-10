@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41584;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41584, 'ace41584-goldgearlesserlord', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41584, 'ace41584-goldgearlesserlord', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41584,   1,         16) /* ItemType - Creature */
@@ -47,4 +47,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41584, 8000, 2965665390) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41584,   1,   560, 0, 0, 560) /* MaxHealth */;
+VALUES (41584,   1,    10, 0, 0, 560) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41584, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
+     , (41584, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (41584, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (41584, 9, 41045,  0, 0, 0, False) /* Create Frost Magari Yari (41045) for ContainTreasure */
+     , (41584, 9, 41564,  1, 0, 0, False) /* Create Gold Aetherium Core Fragment (41564) for ContainTreasure */
+     , (41584, 9, 41565,  1, 0, 0, False) /* Create Large Gold Aetherium Core Fragment (41565) for ContainTreasure */
+     , (41584, 9, 45242,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other VII (45242) for ContainTreasure */;

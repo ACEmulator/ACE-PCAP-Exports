@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 297;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (297, 'ring', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (297, 'ring', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (297,   1,          8) /* ItemType - Jewelry */
@@ -58,6 +58,11 @@ VALUES (297, 8000, 3685101875) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (297,  1378,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (297, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */
+     , (297, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (297, 2, 46400,  1, 0, 0, False) /* Create T'thuun Bow (46400) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (297, 67111926, 0, 0);

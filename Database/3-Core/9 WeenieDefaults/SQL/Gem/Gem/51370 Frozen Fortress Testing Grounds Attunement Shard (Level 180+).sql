@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51370;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51370, 'ace51370-frozenfortresstestinggroundsattunementshardlevel180', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51370, 'ace51370-frozenfortresstestinggroundsattunementshardlevel180', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51370,   1,       2048) /* ItemType - Gem */
      , (51370,   5,          0) /* EncumbranceVal */
      , (51370,  11,          1) /* MaxStackSize */
      , (51370,  12,          1) /* StackSize */
+     , (51370,  13,          0) /* StackUnitEncumbrance */
+     , (51370,  15,          0) /* StackUnitValue */
      , (51370,  16,          8) /* ItemUseable - Contained */
      , (51370,  19,          0) /* Value */
      , (51370,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

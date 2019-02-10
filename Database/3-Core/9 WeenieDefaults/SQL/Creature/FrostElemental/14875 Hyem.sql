@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14875;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14875, 'frostelementalhyem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14875, 'frostelementalhyem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14875,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (14875,   1, True ) /* Stuck */
      , (14875,  13, False) /* Ethereal */
      , (14875,  14, True ) /* GravityStatus */
      , (14875,  15, True ) /* LightsStatus */
-     , (14875,  19, True ) /* Attackable */;
+     , (14875,  19, True ) /* Attackable */
+     , (14875, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14875,  39, 1.39999997615814) /* DefaultScale */;
@@ -56,6 +57,16 @@ VALUES (14875,   1, 130, 0, 0) /* Strength */
      , (14875,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14875,   1,   575, 0, 0, 575) /* MaxHealth */
-     , (14875,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (14875,   5,   470, 0, 0, 470) /* MaxMana */;
+VALUES (14875,   1,    10, 0, 0, 575) /* MaxHealth */
+     , (14875,   3,    10, 0, 0, 550) /* MaxStamina */
+     , (14875,   5,    10, 0, 0, 470) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14875, 9,   273, 2588, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14875, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (14875, 9, 20550,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Boon (20550) for ContainTreasure */
+     , (14875, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (14875, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (14875, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
+     , (14875, 9, 33958,  0, 0, 0, False) /* Create Crystal of Frozen Elemental Essence (33958) for ContainTreasure */
+     , (14875, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;

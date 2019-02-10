@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44319;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44319, 'ace44319-baktshayguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44319, 'ace44319-baktshayguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44319,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,13 @@ VALUES (44319,   1, 200, 0, 0) /* Strength */
      , (44319,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44319,   1,  2610, 0, 0, 2610) /* MaxHealth */
-     , (44319,   3,  3220, 0, 0, 3216) /* MaxStamina */
-     , (44319,   5,  2250, 0, 0, 1621) /* MaxMana */;
+VALUES (44319,   1,    10, 0, 0, 2610) /* MaxHealth */
+     , (44319,   3,    10, 0, 0, 3216) /* MaxStamina */
+     , (44319,   5,    10, 0, 0, 1621) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44319, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (44319, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44319, 67116890, 0, 24)

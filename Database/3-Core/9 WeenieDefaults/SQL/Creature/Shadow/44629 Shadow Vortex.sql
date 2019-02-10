@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44629;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44629, 'ace44629-shadowvortex', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44629, 'ace44629-shadowvortex', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44629,   1,         16) /* ItemType - Creature */
@@ -56,6 +56,9 @@ VALUES (44629,   1, 800, 0, 0) /* Strength */
      , (44629,   6, 800, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44629,   1, 40400, 0, 0, 40400) /* MaxHealth */
-     , (44629,   3, 25800, 0, 0, 25800) /* MaxStamina */
-     , (44629,   5, 25800, 0, 0, 25800) /* MaxMana */;
+VALUES (44629,   1,    10, 0, 0, 40400) /* MaxHealth */
+     , (44629,   3,    10, 0, 0, 25800) /* MaxStamina */
+     , (44629,   5,    10, 0, 0, 25800) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44629, 2, 44628,  1, 0, 0, False) /* Create Shadow Bolt (44628) for Wield */;

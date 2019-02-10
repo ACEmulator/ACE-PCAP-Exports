@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23615;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23615, 'shielddiamondnew', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23615, 'shielddiamondnew', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23615,   1,          2) /* ItemType - Armor */
@@ -19,7 +19,7 @@ VALUES (23615,   1,          2) /* ItemType - Armor */
      , (23615, 108,       1700) /* ItemMaxMana */
      , (23615, 151,          2) /* HookType - Wall */
      , (23615, 158,          2) /* WieldRequirements - RawSkill */
-     , (23615, 159,         48) /* WieldSkilltype - Shield */
+     , (23615, 159,         48) /* WieldSkillType - Shield */
      , (23615, 160,        360) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,15 +54,14 @@ VALUES (23615,   1,   33557043) /* Setup */
      , (23615, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (23615, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23615, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (23615, 8009,          3);
+     , (23615, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23615, 8040, 3967090738, 171.7325, 188.8012, 10.87206, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0xEC750032 [171.732500 188.801200 10.872060] 0.403672 0.649030 -0.537349 0.356462 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23615,   3, 1343489224) /* Wielder */
-     , (23615, 8000, 3675518361) /* PCAPRecordedObjectIID */
+VALUES (23615, 8000, 3675518361) /* PCAPRecordedObjectIID */
      , (23615, 8008, 1343489224) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

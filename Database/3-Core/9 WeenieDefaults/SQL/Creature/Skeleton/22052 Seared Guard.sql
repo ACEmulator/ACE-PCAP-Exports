@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22052;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22052, 'skeletonsearednew', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22052, 'skeletonsearednew', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22052,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,32 @@ VALUES (22052,   1, 115, 0, 0) /* Strength */
      , (22052,   6, 145, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22052,   1,   283, 0, 0, 283) /* MaxHealth */
-     , (22052,   3,   425, 0, 0, 425) /* MaxStamina */
-     , (22052,   5,   195, 0, 0, 195) /* MaxMana */;
+VALUES (22052,   1,    10, 0, 0, 283) /* MaxHealth */
+     , (22052,   3,    10, 0, 0, 425) /* MaxStamina */
+     , (22052,   5,    10, 0, 0, 195) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22052, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (22052, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (22052, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (22052, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (22052, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (22052, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (22052, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (22052, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (22052, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (22052, 9,  3687,  0, 0, 0, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (22052, 9,  3859,  0, 0, 0, False) /* Create Flaming Shou-ono (3859) for ContainTreasure */
+     , (22052, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (22052, 9, 20414,  0, 0, 0, False) /* Create Scroll of Gelidite's Bane (20414) for ContainTreasure */
+     , (22052, 9, 20420,  0, 0, 0, False) /* Create Scroll of Astyrrian's Bane (20420) for ContainTreasure */
+     , (22052, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (22052, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (22052, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (22052, 9, 30563,  0, 0, 0, False) /* Create Lightning Dolabra (30563) for ContainTreasure */
+     , (22052, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
+     , (22052, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (22052, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22052, 67116523, 0, 0);

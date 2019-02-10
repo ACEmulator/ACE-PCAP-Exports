@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35487;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35487, 'ace35487-hurnmelthesmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35487, 'ace35487-hurnmelthesmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35487,   1,         16) /* ItemType - Creature */
@@ -68,12 +68,13 @@ VALUES (35487,   1,  75, 0, 0) /* Strength */
      , (35487,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35487,   1,    95, 0, 0, 95) /* MaxHealth */
-     , (35487,   3,   165, 0, 0, 165) /* MaxStamina */
-     , (35487,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (35487,   1,    10, 0, 0, 95) /* MaxHealth */
+     , (35487,   3,    10, 0, 0, 165) /* MaxStamina */
+     , (35487,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35487, 4, 35377, -1, 0, 0, False) /* Create Replica BloodScorch (35377) for Shop */
+VALUES (35487, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
+     , (35487, 4, 35377, -1, 0, 0, False) /* Create Replica BloodScorch (35377) for Shop */
      , (35487, 4, 35491, -1, 0, 0, False) /* Create Maelstrom of Souls Gem (35491) for Shop */
      , (35487, 4, 35492, -1, 0, 0, False) /* Create Gem of Spectral Force (35492) for Shop */
      , (35487, 4, 35500, -1, 0, 0, False) /* Create Spectral Chill Arrow Bundle (35500) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4244;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4244, 'chittickstinging', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4244, 'chittickstinging', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4244,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,12 @@ VALUES (4244,   1, 170, 0, 0) /* Strength */
      , (4244,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4244,   1,   490, 0, 0, 490) /* MaxHealth */
-     , (4244,   3,   680, 0, 0, 680) /* MaxStamina */
-     , (4244,   5,   220, 0, 0, 220) /* MaxMana */;
+VALUES (4244,   1,    10, 0, 0, 490) /* MaxHealth */
+     , (4244,   3,    10, 0, 0, 680) /* MaxStamina */
+     , (4244,   5,    10, 0, 0, 220) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4244, 2, 22541,  1, 0, 0, False) /* Create Acid Spines (22541) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4244, 67114051, 0, 0);

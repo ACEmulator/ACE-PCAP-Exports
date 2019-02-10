@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19439;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19439, 'ursuinslasher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19439, 'ursuinslasher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19439,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,15 @@ VALUES (19439,   1, 230, 0, 0) /* Strength */
      , (19439,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19439,   1,   190, 0, 0, 190) /* MaxHealth */
-     , (19439,   3,   420, 0, 0, 420) /* MaxStamina */
-     , (19439,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (19439,   1,    10, 0, 0, 190) /* MaxHealth */
+     , (19439,   3,    10, 0, 0, 420) /* MaxStamina */
+     , (19439,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (19439, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (19439, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (19439, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (19439, 9,  2724,  0, 0, 0, False) /* Create Scroll of Revitalize Other IV (2724) for ContainTreasure */
+     , (19439, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (19439, 9, 30948,  0, 0, 0, False) /* Create Diforsa Hauberk (30948) for ContainTreasure */
+     , (19439, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */;

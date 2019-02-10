@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44098;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44098, 'ace44098-mumiyahslavemaster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44098, 'ace44098-mumiyahslavemaster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44098,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,11 @@ VALUES (44098, 8040, 1465254537, 94.9409, -62.4397, 36.0075, -0.9998934, 0, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44098, 8000, 3632512139) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44098, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (44098, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (44098, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44098, 67113142, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7331;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7331, 'banderlinghunter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7331, 'banderlinghunter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7331,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7331, 8000, 2629680512) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7331,   1,   413, 0, 0, 413) /* MaxHealth */;
+VALUES (7331,   1,    10, 0, 0, 413) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7331, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7331, 67114035, 0, 0);

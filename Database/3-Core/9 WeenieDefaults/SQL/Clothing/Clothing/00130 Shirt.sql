@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 130;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (130, 'shirt', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (130, 'shirt', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (130,   1,          4) /* ItemType - Clothing */
@@ -69,6 +69,10 @@ VALUES (130, 8000, 3685458472) /* PCAPRecordedObjectIID */;
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (130,  1138,      2) 
      , (130,  2618,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (130, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (130, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (130, 67109966, 92, 4)

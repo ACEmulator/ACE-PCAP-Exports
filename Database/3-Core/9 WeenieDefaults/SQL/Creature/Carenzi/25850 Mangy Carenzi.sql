@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25850;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25850, 'carenzimangy', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25850, 'carenzimangy', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25850,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,18 @@ VALUES (25850,   1, 180, 0, 0) /* Strength */
      , (25850,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25850,   1,   530, 0, 0, 530) /* MaxHealth */
-     , (25850,   3,   660, 0, 0, 660) /* MaxStamina */
-     , (25850,   5,   330, 0, 0, 330) /* MaxMana */;
+VALUES (25850,   1,    10, 0, 0, 530) /* MaxHealth */
+     , (25850,   3,    10, 0, 0, 660) /* MaxStamina */
+     , (25850,   5,    10, 0, 0, 330) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25850, 9,    64,  0, 0, 0, False) /* Create Yoroi Girth (64) for ContainTreasure */
+     , (25850, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (25850, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (25850, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (25850, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (25850, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (25850, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (25850, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
+     , (25850, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (25850, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */;

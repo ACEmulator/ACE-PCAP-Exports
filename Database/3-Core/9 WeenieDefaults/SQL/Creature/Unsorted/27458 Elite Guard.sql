@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27458;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27458, 'lugianrenegadeeliteguarda', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27458, 'lugianrenegadeeliteguarda', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27458,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,10 @@ VALUES (27458, 8040, 1648886017, 174.111, -195.772, -29.99, -0.8957803, 0, 0, 0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27458, 8000, 2877973105) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27458, 2, 23738,  1, 0, 0, False) /* Create Lugian Axe (23738) for Wield */
+     , (27458, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27458, 67114975, 0, 0);

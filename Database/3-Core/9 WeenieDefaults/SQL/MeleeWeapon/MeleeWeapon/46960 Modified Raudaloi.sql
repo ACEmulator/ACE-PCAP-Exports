@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46960;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46960, 'ace46960-modifiedraudaloi', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46960, 'ace46960-modifiedraudaloi', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46960,   1,          1) /* ItemType - MeleeWeapon */
@@ -27,7 +27,7 @@ VALUES (46960,   1,          1) /* ItemType - MeleeWeapon */
      , (46960, 114,          1) /* Attuned - Attuned */
      , (46960, 151,          2) /* HookType - Wall */
      , (46960, 158,          2) /* WieldRequirements - RawSkill */
-     , (46960, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (46960, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (46960, 160,        400) /* WieldDifficulty */
      , (46960, 353,          2) /* WeaponType - Sword */
      , (46960, 8030,          0);
@@ -60,14 +60,13 @@ VALUES (46960,   1,   33557967) /* Setup */
      , (46960,   3,  536870932) /* SoundTable */
      , (46960,   8,  100673494) /* Icon */
      , (46960,  22,  872415275) /* PhysicsEffectTable */
-     , (46960,  55,       2318) /* ProcSpell */
+     , (46960,  55,       2318) /* ProcSpell - VulnerabilityOther7 */
      , (46960, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46960, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46960, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46960,   2, 1343493025) /* Container */
-     , (46960, 8000, 3706536922) /* PCAPRecordedObjectIID */;
+VALUES (46960, 8000, 3706536922) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46960,  2318,      2) 

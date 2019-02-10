@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10969;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10969, 'buadrenorbkarenua_xp', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10969, 'buadrenorbkarenua_xp', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10969,   1,      32768) /* ItemType - Caster */
@@ -19,7 +19,7 @@ VALUES (10969,   1,      32768) /* ItemType - Caster */
      , (10969, 109,        110) /* ItemDifficulty */
      , (10969, 151,          1) /* HookType - Floor */
      , (10969, 158,          8) /* WieldRequirements - Training */
-     , (10969, 159,         31) /* WieldSkilltype - CreatureEnchantment */
+     , (10969, 159,         31) /* WieldSkillType - CreatureEnchantment */
      , (10969, 160,          3) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

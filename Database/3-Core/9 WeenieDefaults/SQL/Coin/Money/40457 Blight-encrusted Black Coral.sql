@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40457;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40457, 'ace40457-blightencrustedblackcoral', 9) /* Coin */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40457, 'ace40457-blightencrustedblackcoral', 9, '2019-02-10 05:41:14') /* Coin */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40457,   1,         64) /* ItemType - Money */
      , (40457,   5,         50) /* EncumbranceVal */
      , (40457,  11,         10) /* MaxStackSize */
      , (40457,  12,          1) /* StackSize */
+     , (40457,  13,         50) /* StackUnitEncumbrance */
+     , (40457,  15,          0) /* StackUnitValue */
      , (40457,  16,          1) /* ItemUseable - No */
      , (40457,  18,          1) /* UiEffects - Magical */
      , (40457,  19,          0) /* Value */

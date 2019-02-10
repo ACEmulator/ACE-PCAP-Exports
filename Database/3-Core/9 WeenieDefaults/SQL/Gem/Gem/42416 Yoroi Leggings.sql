@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42416;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42416, 'ace42416-yoroileggings', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42416, 'ace42416-yoroileggings', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42416,   1,       2048) /* ItemType - Gem */
@@ -9,6 +9,8 @@ VALUES (42416,   1,       2048) /* ItemType - Gem */
      , (42416,   5,        919) /* EncumbranceVal */
      , (42416,  11,          1) /* MaxStackSize */
      , (42416,  12,          1) /* StackSize */
+     , (42416,  13,        919) /* StackUnitEncumbrance */
+     , (42416,  15,        653) /* StackUnitValue */
      , (42416,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (42416,  19,        653) /* Value */
      , (42416,  28,          0) /* ArmorLevel */

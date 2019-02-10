@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22897;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22897, 'banderlingheirophant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22897, 'banderlingheirophant', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22897,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,18 @@ VALUES (22897,   1, 350, 0, 0) /* Strength */
      , (22897,   6, 275, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22897,   1,  2000, 0, 0, 2000) /* MaxHealth */
-     , (22897,   3,  3000, 0, 0, 3000) /* MaxStamina */
-     , (22897,   5,   275, 0, 0, 275) /* MaxMana */;
+VALUES (22897,   1,    10, 0, 0, 2000) /* MaxHealth */
+     , (22897,   3,    10, 0, 0, 3000) /* MaxStamina */
+     , (22897,   5,    10, 0, 0, 275) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22897, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
+     , (22897, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */
+     , (22897, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (22897, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
+     , (22897, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (22897, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (22897, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22897, 67114262, 0, 0);

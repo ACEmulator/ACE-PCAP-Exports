@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35560;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35560, 'ace35560-thearchivist', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35560, 'ace35560-thearchivist', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35560,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,18 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35560, 8000, 2447925529) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35560,   1, 10270, 0, 0, 10270) /* MaxHealth */;
+VALUES (35560,   1,    10, 0, 0, 10270) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35560, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (35560, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (35560, 9,  3820,  0, 0, 0, False) /* Create Flaming Katar (3820) for ContainTreasure */
+     , (35560, 9,  3883,  0, 0, 0, False) /* Create Flaming Long Sword (3883) for ContainTreasure */
+     , (35560, 9, 20550,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Boon (20550) for ContainTreasure */
+     , (35560, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
+     , (35560, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (35560, 9, 35561,  1, 0, 0, False) /* Create Virindi Message Shard (35561) for ContainTreasure */
+     , (35560, 9, 41044,  0, 0, 0, False) /* Create Flaming Magari Yari (41044) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35560, 67114256, 0, 0);

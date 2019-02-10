@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8496;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8496, 'freeholdweaponsmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8496, 'freeholdweaponsmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8496,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (8496,   1, 240, 0, 0) /* Strength */
      , (8496,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8496,   1,   165, 0, 0, 165) /* MaxHealth */
-     , (8496,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (8496,   5,   120, 0, 0, 120) /* MaxMana */;
+VALUES (8496,   1,    10, 0, 0, 165) /* MaxHealth */
+     , (8496,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (8496,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8496, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
+VALUES (8496, 2,   350,  1, 0, 0, False) /* Create Broad Sword (350) for Wield */
+     , (8496, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (8496, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
      , (8496, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
      , (8496, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */

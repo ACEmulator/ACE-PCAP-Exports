@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7370;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7370, 'firestormesper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7370, 'firestormesper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7370,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (7370,   1, True ) /* Stuck */
      , (7370,  13, False) /* Ethereal */
      , (7370,  14, True ) /* GravityStatus */
      , (7370,  15, True ) /* LightsStatus */
-     , (7370,  19, True ) /* Attackable */;
+     , (7370,  19, True ) /* Attackable */
+     , (7370, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7370,  39, 1.70000004768372) /* DefaultScale */;
@@ -56,6 +57,22 @@ VALUES (7370,   1, 130, 0, 0) /* Strength */
      , (7370,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7370,   1,   575, 0, 0, 575) /* MaxHealth */
-     , (7370,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (7370,   5,   470, 0, 0, 470) /* MaxMana */;
+VALUES (7370,   1,    10, 0, 0, 575) /* MaxHealth */
+     , (7370,   3,    10, 0, 0, 550) /* MaxStamina */
+     , (7370,   5,    10, 0, 0, 470) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7370, 2,  5709,  1, 0, 0, False) /* Create Ball of fire (5709) for Wield */
+     , (7370, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (7370, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (7370, 9,   273, 2883, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7370, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (7370, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (7370, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (7370, 9,  7419,  1, 0, 0, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (7370, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (7370, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7370, 9, 20424,  0, 0, 0, False) /* Create Scroll of Archer Bait (20424) for ContainTreasure */
+     , (7370, 9, 20472,  0, 0, 0, False) /* Create Scroll of Blessing of the Mace Turner (20472) for ContainTreasure */
+     , (7370, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;

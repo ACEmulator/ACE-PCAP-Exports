@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43812;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43812, 'ace43812-missile', 4) /* Missile */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43812, 'ace43812-missile', 4, '2019-02-10 05:41:14') /* Missile */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43812,   1,          0) /* ItemType - None */
@@ -45,3 +45,8 @@ VALUES (43812, 8040, 2028470288, 40.18701, 169.8799, 106.858, -0.7291715, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43812, 8000, 3695625935) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43812, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
+     , (43812, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (43812, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

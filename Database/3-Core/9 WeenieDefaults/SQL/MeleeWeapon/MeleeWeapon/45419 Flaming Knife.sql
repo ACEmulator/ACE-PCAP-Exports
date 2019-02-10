@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45419;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45419, 'ace45419-flamingknife', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45419, 'ace45419-flamingknife', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45419,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (45419,   1,          1) /* ItemType - MeleeWeapon */
      , (45419, 131,         60) /* MaterialType - Gold */
      , (45419, 151,          2) /* HookType - Wall */
      , (45419, 158,          2) /* WieldRequirements - RawSkill */
-     , (45419, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (45419, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45419, 160,        325) /* WieldDifficulty */
      , (45419, 172,          1) /* AppraisalLongDescDecoration */
      , (45419, 176,         46) /* AppraisalItemSkill */
@@ -68,10 +68,12 @@ VALUES (45419,   1,   33555751) /* Setup */
      , (45419, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45419,   2, 3691213360) /* Container */
-     , (45419, 8000, 3691148940) /* PCAPRecordedObjectIID */;
+VALUES (45419, 8000, 3691148940) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45419,  1604,      2) 
      , (45419,  1615,      2) 
      , (45419,  1626,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45419, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

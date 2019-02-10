@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43383;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43383, 'ace43383-netherstaff', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43383, 'ace43383-netherstaff', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43383,   1,      32768) /* ItemType - Caster */
@@ -25,7 +25,7 @@ VALUES (43383,   1,      32768) /* ItemType - Caster */
      , (43383, 131,         51) /* MaterialType - Ivory */
      , (43383, 151,          2) /* HookType - Wall */
      , (43383, 158,          2) /* WieldRequirements - RawSkill */
-     , (43383, 159,         43) /* WieldSkilltype - VoidMagic */
+     , (43383, 159,         43) /* WieldSkillType - VoidMagic */
      , (43383, 160,        375) /* WieldDifficulty */
      , (43383, 171,         10) /* NumTimesTinkered */
      , (43383, 172,          5) /* AppraisalLongDescDecoration */
@@ -67,15 +67,14 @@ VALUES (43383,   1,   33561137) /* Setup */
      , (43383, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43383, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (43383, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (43383, 8009,          1);
+     , (43383, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43383, 8040, 459075, 69.975, -60, -0.071, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [69.975000 -60.000000 -0.071000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43383,   3, 1343355605) /* Wielder */
-     , (43383, 8000, 2412106813) /* PCAPRecordedObjectIID */
+VALUES (43383, 8000, 2412106813) /* PCAPRecordedObjectIID */
      , (43383, 8008, 1343355605) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
@@ -83,6 +82,9 @@ VALUES (43383,  1480,      2)
      , (43383,  3259,      2) 
      , (43383,  4663,      2) 
      , (43383,  5355,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43383, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43383, 67111924, 0, 0);

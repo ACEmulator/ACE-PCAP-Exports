@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29362;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29362, 'knightexecutioner', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29362, 'knightexecutioner', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29362,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,15 @@ VALUES (29362,   1, 160, 0, 0) /* Strength */
      , (29362,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29362,   1,   155, 0, 0, 155) /* MaxHealth */
-     , (29362,   3,   285, 0, 0, 285) /* MaxStamina */
-     , (29362,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (29362,   1,    10, 0, 0, 155) /* MaxHealth */
+     , (29362,   3,    10, 0, 0, 285) /* MaxStamina */
+     , (29362,   5,    10, 0, 0, 70) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29362, 2, 29967,  1, 0, 0, False) /* Create Quadrelle (29967) for Wield */
+     , (29362, 2, 29972,  1, 0, 0, False) /* Create Partizan (29972) for Wield */
+     , (29362, 2, 29977,  1, 0, 0, False) /* Create Spadone (29977) for Wield */
+     , (29362, 2, 29982,  1, 0, 0, False) /* Create Throwing Axe (29982) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29362, 67109564, 32, 8)

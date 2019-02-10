@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40783;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40783, 'ace40783-progenitorofshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40783, 'ace40783-progenitorofshadow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40783,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (40783,   1, True ) /* Stuck */
      , (40783,  12, True ) /* ReportCollisions */
      , (40783,  13, False) /* Ethereal */
      , (40783,  14, True ) /* GravityStatus */
-     , (40783,  19, True ) /* Attackable */;
+     , (40783,  19, True ) /* Attackable */
+     , (40783, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40783,   1, 'Progenitor of Shadow') /* Name */
@@ -51,6 +52,12 @@ VALUES (40783,   1, 200, 0, 0) /* Strength */
      , (40783,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40783,   1,  3120, 0, 0, 3120) /* MaxHealth */
-     , (40783,   3,  2220, 0, 0, 2220) /* MaxStamina */
-     , (40783,   5,  1570, 0, 0, 1328) /* MaxMana */;
+VALUES (40783,   1,    10, 0, 0, 3120) /* MaxHealth */
+     , (40783,   3,    10, 0, 0, 2220) /* MaxStamina */
+     , (40783,   5,    10, 0, 0, 1328) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40783, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (40783, 9, 40797,  1, 0, 0, False) /* Create Progenitor Crystal (40797) for ContainTreasure */
+     , (40783, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
+     , (40783, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */;

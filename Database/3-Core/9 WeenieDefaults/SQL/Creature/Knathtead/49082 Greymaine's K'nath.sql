@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49082;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49082, 'ace49082-greymainesknath', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49082, 'ace49082-greymainesknath', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49082,   1,         16) /* ItemType - Creature */
@@ -45,8 +45,7 @@ VALUES (49082, 8040, 2847080488, 109.008, 175.8787, 99.91499, 0.9962484, 0, 0, -
 /* @teleloc 0xA9B30028 [109.008000 175.878700 99.914990] 0.996248 0.000000 0.000000 -0.086539 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49082,  44, 1342329280) /* PetOwner */
-     , (49082, 8000, 3335896823) /* PCAPRecordedObjectIID */;
+VALUES (49082, 8000, 3335896823) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49082,   1,   770, 0, 0, 770) /* MaxHealth */;
+VALUES (49082,   1,    10, 0, 0, 770) /* MaxHealth */;

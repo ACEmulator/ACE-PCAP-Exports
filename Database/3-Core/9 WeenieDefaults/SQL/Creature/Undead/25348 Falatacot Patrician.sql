@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25348;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25348, 'zombieundeadpatrician', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25348, 'zombieundeadpatrician', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25348,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,22 @@ VALUES (25348,   1, 205, 0, 0) /* Strength */
      , (25348,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25348,   1,  1800, 0, 0, 1800) /* MaxHealth */
-     , (25348,   3,  2300, 0, 0, 2298) /* MaxStamina */
-     , (25348,   5,  1360, 0, 0, 1360) /* MaxMana */;
+VALUES (25348,   1,    10, 0, 0, 1800) /* MaxHealth */
+     , (25348,   3,    10, 0, 0, 2298) /* MaxStamina */
+     , (25348,   5,    10, 0, 0, 1360) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25348, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
+     , (25348, 2, 48101,  1, 0, 0, False) /* Create Sickle (48101) for Wield */
+     , (25348, 9,    58,  0, 0, 0, False) /* Create Scalemail Gauntlets (58) for ContainTreasure */
+     , (25348, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (25348, 9,    75,  0, 0, 0, False) /* Create Helmet (75) for ContainTreasure */
+     , (25348, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (25348, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
+     , (25348, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (25348, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (25348, 9, 49231,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (150) (49231) for ContainTreasure */
+     , (25348, 9, 49429,  0, 0, 0, False) /* Create Lightning Spectre Essence (80) (49429) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25348, 67114482, 0, 0);

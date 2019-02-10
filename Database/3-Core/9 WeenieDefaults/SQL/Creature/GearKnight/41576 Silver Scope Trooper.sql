@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41576;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41576, 'ace41576-silverscopetrooper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41576, 'ace41576-silverscopetrooper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41576,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,22 @@ VALUES (41576,   1, 280, 0, 0) /* Strength */
      , (41576,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41576,   1,   325, 0, 0, 325) /* MaxHealth */
-     , (41576,   3,   430, 0, 0, 430) /* MaxStamina */
-     , (41576,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (41576,   1,    10, 0, 0, 325) /* MaxHealth */
+     , (41576,   3,    10, 0, 0, 430) /* MaxStamina */
+     , (41576,   5,    10, 0, 0, 70) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41576, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
+     , (41576, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
+     , (41576, 9,    78,  0, 0, 0, False) /* Create Kote (78) for ContainTreasure */
+     , (41576, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (41576, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (41576, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (41576, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (41576, 9, 30610,  0, 0, 0, False) /* Create Acid Bastone (30610) for ContainTreasure */
+     , (41576, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (41576, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
+     , (41576, 9, 41563,  1, 0, 0, False) /* Create Gear Knight Core Fragment (41563) for ContainTreasure */
+     , (41576, 9, 42517,  1, 0, 0, False) /* Create Coalesced Mana (42517) for ContainTreasure */
+     , (41576, 9, 45434,  0, 0, 0, False) /* Create Flaming Khanjar (45434) for ContainTreasure */
+     , (41576, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */;

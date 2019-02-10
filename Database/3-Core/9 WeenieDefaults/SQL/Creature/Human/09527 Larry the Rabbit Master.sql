@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9527;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9527, 'farmerofrabbits', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9527, 'farmerofrabbits', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9527,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (9527,   1, 125, 0, 0) /* Strength */
      , (9527,   6,  55, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9527,   1,    50, 0, 0, 50) /* MaxHealth */
-     , (9527,   3,   100, 0, 0, 100) /* MaxStamina */
-     , (9527,   5,    55, 0, 0, 55) /* MaxMana */;
+VALUES (9527,   1,    10, 0, 0, 50) /* MaxHealth */
+     , (9527,   3,    10, 0, 0, 100) /* MaxStamina */
+     , (9527,   5,    10, 0, 0, 55) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9527, 2,  5753,  1, 0, 0, False) /* Create Pickaxe (5753) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9527, 67109559, 0, 24)

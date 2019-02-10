@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5641;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5641, 'yanshisouthwestoutpostweaponsmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5641, 'yanshisouthwestoutpostweaponsmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5641,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (5641,   1, 110, 0, 0) /* Strength */
      , (5641,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5641,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (5641,   3,   100, 0, 0, 100) /* MaxStamina */
-     , (5641,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (5641,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (5641,   3,    10, 0, 0, 100) /* MaxStamina */
+     , (5641,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5641, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */

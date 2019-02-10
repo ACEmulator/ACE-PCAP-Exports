@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25866;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25866, 'marionettedamned', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25866, 'marionettedamned', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25866,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,27 @@ VALUES (25866,   1, 400, 0, 0) /* Strength */
      , (25866,   6, 380, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25866,   1,  8000, 0, 0, 8000) /* MaxHealth */
-     , (25866,   3,  8000, 0, 0, 8000) /* MaxStamina */
-     , (25866,   5,  8000, 0, 0, 8000) /* MaxMana */;
+VALUES (25866,   1,    10, 0, 0, 8000) /* MaxHealth */
+     , (25866,   3,    10, 0, 0, 8000) /* MaxStamina */
+     , (25866,   5,    10, 0, 0, 8000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25866, 9,    43,  0, 0, 0, False) /* Create Yoroi Breastplate (43) for ContainTreasure */
+     , (25866, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (25866, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (25866, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (25866, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (25866, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (25866, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (25866, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (25866, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (25866, 9, 30586,  0, 0, 0, False) /* Create Flanged Mace (30586) for ContainTreasure */
+     , (25866, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
+     , (25866, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
+     , (25866, 9, 43054,  0, 0, 0, False) /* Create Knorr Academy Tassets (43054) for ContainTreasure */
+     , (25866, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
+     , (25866, 9, 49223,  0, 0, 0, False) /* Create Lightning Skeleton Bushi Essence (125) (49223) for ContainTreasure */
+     , (25866, 9, 49382,  0, 0, 0, False) /* Create Fire Grievver Essence (100) (49382) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25866, 67114693, 0, 0);

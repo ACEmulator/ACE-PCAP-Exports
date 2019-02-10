@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14541;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14541, 'chestprismfracturedlightning', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14541, 'chestprismfracturedlightning', 20, '2019-02-10 05:41:14') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14541,   1,        512) /* ItemType - Container */
@@ -50,6 +50,9 @@ VALUES (14541, 8040, 1383268672, 74.7397, -104.909, -42, -0.1868, 0, 0, -0.98239
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (14541, 8000, 1965502619) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (14541, -1, 14526, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Fragment of the Lightning Prism (14526) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14541, 0, 83892433, 83892492)

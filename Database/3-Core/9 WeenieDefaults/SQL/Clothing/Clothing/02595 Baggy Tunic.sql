@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2595;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2595, 'tunicbaggy', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2595, 'tunicbaggy', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2595,   1,          4) /* ItemType - Clothing */
@@ -62,14 +62,17 @@ VALUES (2595,   1,   33554883) /* Setup */
      , (2595, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2595,   2, 1980006465) /* Container */
-     , (2595, 8000, 3469316235) /* PCAPRecordedObjectIID */;
+VALUES (2595, 8000, 3469316235) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2595,  1138,      2) 
      , (2595,  2556,      2) 
      , (2595,  2602,      2) 
      , (2595,  5887,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2595, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (2595, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2595, 67110343, 40, 24)

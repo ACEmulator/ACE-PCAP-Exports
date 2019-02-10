@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30947;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30947, 'daggerbanditmageextreme', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30947, 'daggerbanditmageextreme', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30947,   1,          1) /* ItemType - MeleeWeapon */
@@ -51,16 +51,18 @@ VALUES (30947,   1,   33554735) /* Setup */
      , (30947, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (30947, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30947, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (30947, 8009,          1);
+     , (30947, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30947, 8040, 1173487624, 4.702204, 175.0208, 64.11993, -0.4726446, -0.4726446, -0.5259345, -0.5259345) /* PCAPRecordedLocation */
 /* @teleloc 0x45F20008 [4.702204 175.020800 64.119930] -0.472645 -0.472645 -0.525935 -0.525935 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30947,   3, 3690116605) /* Wielder */
-     , (30947, 8000, 3690116821) /* PCAPRecordedObjectIID */
+VALUES (30947, 8000, 3690116821) /* PCAPRecordedObjectIID */
      , (30947, 8008, 3690116605) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30947, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30947, 67111920, 0, 0);

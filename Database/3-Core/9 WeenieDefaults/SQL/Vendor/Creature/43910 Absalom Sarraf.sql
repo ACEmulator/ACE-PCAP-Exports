@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43910;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43910, 'ace43910-absalomsarraf', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43910, 'ace43910-absalomsarraf', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43910,   1,         16) /* ItemType - Creature */
@@ -73,9 +73,9 @@ VALUES (43910,   1, 220, 0, 0) /* Strength */
      , (43910,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43910,   1,   331, 0, 0, 331) /* MaxHealth */
-     , (43910,   3,   466, 0, 0, 466) /* MaxStamina */
-     , (43910,   5,   486, 0, 0, 486) /* MaxMana */;
+VALUES (43910,   1,    10, 0, 0, 331) /* MaxHealth */
+     , (43910,   3,    10, 0, 0, 466) /* MaxStamina */
+     , (43910,   5,    10, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43910, 4, 43902, -1, 0, 0, False) /* Create Box Of Ten Ornate Gear Markers (43902) for Shop */

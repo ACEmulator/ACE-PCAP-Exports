@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27229;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27229, 'girthnariyid', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27229, 'girthnariyid', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27229,   1,          2) /* ItemType - Armor */
@@ -23,7 +23,7 @@ VALUES (27229,   1,          2) /* ItemType - Armor */
      , (27229, 115,        237) /* ItemSkillLevelLimit */
      , (27229, 131,         58) /* MaterialType - Bronze */
      , (27229, 158,          7) /* WieldRequirements - Level */
-     , (27229, 159,          1) /* WieldSkilltype - Axe */
+     , (27229, 159,          1) /* WieldSkillType - Axe */
      , (27229, 160,        180) /* WieldDifficulty */
      , (27229, 172,          1) /* AppraisalLongDescDecoration */
      , (27229, 176,          7) /* AppraisalItemSkill */
@@ -76,6 +76,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27229,  1540,      2) 
      , (27229,  2108,      2) 
      , (27229,  6074,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27229, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27229, 67115065, 72, 8)

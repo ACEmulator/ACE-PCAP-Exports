@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35828;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35828, 'ace35828-adrienswiftblade', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35828, 'ace35828-adrienswiftblade', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35828,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (35828,   1, 200, 0, 0) /* Strength */
      , (35828,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35828,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (35828,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (35828,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (35828,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (35828,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (35828,   5,    10, 0, 0, 150) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35828, 2, 28498,  1, 0, 0, False) /* Create Noble Rapier (28498) for Wield */
+     , (35828, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35828, 67109561, 0, 24)

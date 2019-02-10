@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7305;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7305, 'lightningstrike', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7305, 'lightningstrike', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7305,   1,          0) /* ItemType - None */
@@ -46,3 +46,8 @@ VALUES (7305, 8040, 522846270, 178.7141, 134.2931, 225.8093, 0.9238797, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7305, 8000, 2629113424) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7305, 2, 23679,  1, 0, 0, False) /* Create Nekode (23679) for Wield */
+     , (7305, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (7305, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */;

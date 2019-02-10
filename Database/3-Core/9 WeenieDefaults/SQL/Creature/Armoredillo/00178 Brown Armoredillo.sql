@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 178;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (178, 'armoredillobrown', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (178, 'armoredillobrown', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (178,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,14 @@ VALUES (178,   1,  95, 0, 0) /* Strength */
      , (178,   6,  15, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (178,   1,    38, 0, 0, 38) /* MaxHealth */
-     , (178,   3,   185, 0, 0, 185) /* MaxStamina */
-     , (178,   5,    15, 0, 0, 15) /* MaxMana */;
+VALUES (178,   1,    10, 0, 0, 38) /* MaxHealth */
+     , (178,   3,    10, 0, 0, 185) /* MaxStamina */
+     , (178,   5,    10, 0, 0, 15) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (178, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (178, 9,  1770,  0, 0, 0, False) /* Create Scroll of Coordination Self (1770) for ContainTreasure */
+     , (178, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (178, 67115917, 0, 0);

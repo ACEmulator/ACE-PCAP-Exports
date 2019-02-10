@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22082;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22082, 'mitemazealianew', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22082, 'mitemazealianew', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22082,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (22082,   1,  70, 0, 0) /* Strength */
      , (22082,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22082,   1,    33, 0, 0, 33) /* MaxHealth */
-     , (22082,   3,    65, 0, 0, 65) /* MaxStamina */
-     , (22082,   5,   120, 0, 0, 120) /* MaxMana */;
+VALUES (22082,   1,    10, 0, 0, 33) /* MaxHealth */
+     , (22082,   3,    10, 0, 0, 65) /* MaxStamina */
+     , (22082,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22082, 4,  5670, -1, 0, 0, False) /* Create Tempting Apple (5670) for Shop */

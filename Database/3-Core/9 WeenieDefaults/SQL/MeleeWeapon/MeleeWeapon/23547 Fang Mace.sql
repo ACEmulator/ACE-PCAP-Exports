@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23547;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23547, 'macefangnew', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23547, 'macefangnew', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23547,   1,          1) /* ItemType - MeleeWeapon */
@@ -19,7 +19,7 @@ VALUES (23547,   1,          1) /* ItemType - MeleeWeapon */
      , (23547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23547, 151,          2) /* HookType - Wall */
      , (23547, 158,          2) /* WieldRequirements - RawSkill */
-     , (23547, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (23547, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (23547, 160,        250) /* WieldDifficulty */
      , (23547, 353,          4) /* WeaponType - Mace */
      , (23547, 8030,          0);

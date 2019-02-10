@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46934;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46934, 'ace46934-ancientmudgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46934, 'ace46934-ancientmudgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46934,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,16 @@ VALUES (46934,   1, 380, 0, 0) /* Strength */
      , (46934,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46934,   1,  8820, 0, 0, 8820) /* MaxHealth */
-     , (46934,   3,  6900, 0, 0, 6900) /* MaxStamina */
-     , (46934,   5,  5590, 0, 0, 5590) /* MaxMana */;
+VALUES (46934,   1,    10, 0, 0, 8820) /* MaxHealth */
+     , (46934,   3,    10, 0, 0, 6900) /* MaxStamina */
+     , (46934,   5,    10, 0, 0, 5590) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46934, 9,    78,  0, 0, 0, False) /* Create Kote (78) for ContainTreasure */
+     , (46934, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (46934, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (46934, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (46934, 9, 45120,  0, 0, 0, False) /* Create Lightning Hand Wraps (45120) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46934, 67112774, 0, 0);

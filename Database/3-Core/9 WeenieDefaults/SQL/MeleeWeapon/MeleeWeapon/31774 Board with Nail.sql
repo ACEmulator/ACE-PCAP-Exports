@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31774;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31774, 'ace31774-boardwithnail', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31774, 'ace31774-boardwithnail', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31774,   1,          1) /* ItemType - MeleeWeapon */
@@ -21,7 +21,7 @@ VALUES (31774,   1,          1) /* ItemType - MeleeWeapon */
      , (31774, 131,         76) /* MaterialType - Pine */
      , (31774, 151,          2) /* HookType - Wall */
      , (31774, 158,          2) /* WieldRequirements - RawSkill */
-     , (31774, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (31774, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (31774, 160,        300) /* WieldDifficulty */
      , (31774, 172,          1) /* AppraisalLongDescDecoration */
      , (31774, 353,          4) /* WeaponType - Mace */
@@ -59,8 +59,10 @@ VALUES (31774,   1,   33559627) /* Setup */
      , (31774, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31774,   2, 3688254468) /* Container */
-     , (31774, 8000, 3687970018) /* PCAPRecordedObjectIID */;
+VALUES (31774, 8000, 3687970018) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31774, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31774, 67116700, 0, 101)

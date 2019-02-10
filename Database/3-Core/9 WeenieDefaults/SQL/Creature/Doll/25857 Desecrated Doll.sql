@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25857;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25857, 'dolldesecrated', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25857, 'dolldesecrated', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25857,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,16 @@ VALUES (25857,   1, 180, 0, 0) /* Strength */
      , (25857,   6, 340, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25857,   1,  1000, 0, 0, 1000) /* MaxHealth */
-     , (25857,   3,  1100, 0, 0, 1100) /* MaxStamina */
-     , (25857,   5,  1200, 0, 0, 1200) /* MaxMana */;
+VALUES (25857,   1,    10, 0, 0, 1000) /* MaxHealth */
+     , (25857,   3,    10, 0, 0, 1100) /* MaxStamina */
+     , (25857,   5,    10, 0, 0, 1200) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25857, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (25857, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (25857, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (25857, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (25857, 9, 20461,  0, 0, 0, False) /* Create Scroll of Cameron's Curse (20461) for ContainTreasure */
+     , (25857, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
+     , (25857, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
+     , (25857, 9, 41043,  0, 0, 0, False) /* Create Lightning Magari Yari (41043) for ContainTreasure */;

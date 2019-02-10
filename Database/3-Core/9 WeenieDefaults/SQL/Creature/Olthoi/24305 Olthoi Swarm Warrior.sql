@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24305;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24305, 'olthoiswarmwarrior', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24305, 'olthoiswarmwarrior', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24305,   1,         16) /* ItemType - Creature */
@@ -56,6 +56,24 @@ VALUES (24305,   1, 330, 0, 0) /* Strength */
      , (24305,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24305,   1,   740, 0, 0, 740) /* MaxHealth */
-     , (24305,   3,   750, 0, 0, 750) /* MaxStamina */
-     , (24305,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (24305,   1,    10, 0, 0, 740) /* MaxHealth */
+     , (24305,   3,    10, 0, 0, 750) /* MaxStamina */
+     , (24305,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24305, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (24305, 9,    41,  0, 0, 0, False) /* Create Scalemail Breastplate (41) for ContainTreasure */
+     , (24305, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (24305, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (24305, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (24305, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (24305, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */
+     , (24305, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (24305, 9, 20549,  0, 0, 0, False) /* Create Scroll of Kwipetian Vision (20549) for ContainTreasure */
+     , (24305, 9, 27220,  0, 0, 0, False) /* Create Lorica Boots (27220) for ContainTreasure */
+     , (24305, 9, 30246,  1, 0, 0, False) /* Create Artist's Crystal (30246) for ContainTreasure */
+     , (24305, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
+     , (24305, 9, 40763,  0, 0, 0, False) /* Create Flaming Nodachi (40763) for ContainTreasure */
+     , (24305, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
+     , (24305, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
+     , (24305, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */;

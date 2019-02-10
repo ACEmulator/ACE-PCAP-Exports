@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41042;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41042, 'ace41042-acidmagariyari', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41042, 'ace41042-acidmagariyari', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41042,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,7 @@ VALUES (41042,   1,          1) /* ItemType - MeleeWeapon */
      , (41042, 131,         51) /* MaterialType - Ivory */
      , (41042, 151,          2) /* HookType - Wall */
      , (41042, 158,          2) /* WieldRequirements - RawSkill */
-     , (41042, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41042, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41042, 160,        250) /* WieldDifficulty */
      , (41042, 172,          1) /* AppraisalLongDescDecoration */
      , (41042, 353,         11) /* WeaponType - TwoHanded */
@@ -60,8 +60,10 @@ VALUES (41042,   1,   33560796) /* Setup */
      , (41042, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41042,   2, 1343493255) /* Container */
-     , (41042, 8000, 2150841370) /* PCAPRecordedObjectIID */;
+VALUES (41042, 8000, 2150841370) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41042, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41042, 67116384, 0, 0);

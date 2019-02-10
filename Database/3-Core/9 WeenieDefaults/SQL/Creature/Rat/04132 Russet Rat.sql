@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4132;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4132, 'ratrusset', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4132, 'ratrusset', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4132,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,29 @@ VALUES (4132,   1,  15, 0, 0) /* Strength */
      , (4132,   6,  15, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4132,   1,    15, 0, 0, 15) /* MaxHealth */
-     , (4132,   3,   115, 0, 0, 115) /* MaxStamina */
-     , (4132,   5,    15, 0, 0, 15) /* MaxMana */;
+VALUES (4132,   1,    10, 0, 0, 15) /* MaxHealth */
+     , (4132,   3,    10, 0, 0, 115) /* MaxStamina */
+     , (4132,   5,    10, 0, 0, 15) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4132, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (4132, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (4132, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (4132, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
+     , (4132, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (4132, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (4132, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (4132, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (4132, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (4132, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (4132, 9,  3308,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other II (3308) for ContainTreasure */
+     , (4132, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (4132, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (4132, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (4132, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
+     , (4132, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
+     , (4132, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */
+     , (4132, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4132, 67111795, 0, 0);

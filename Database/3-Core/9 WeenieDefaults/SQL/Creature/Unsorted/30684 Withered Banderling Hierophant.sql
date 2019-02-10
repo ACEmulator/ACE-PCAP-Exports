@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30684;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30684, 'banderlingheirophantwitheredboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30684, 'banderlingheirophantwitheredboss', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30684,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,12 @@ VALUES (30684, 8040, 437452860, 183.437, 86.2085, 0.007149994, 0.7342549, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30684, 8000, 3360122907) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30684, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
+     , (30684, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */
+     , (30684, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (30684, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30684, 67114262, 0, 0);

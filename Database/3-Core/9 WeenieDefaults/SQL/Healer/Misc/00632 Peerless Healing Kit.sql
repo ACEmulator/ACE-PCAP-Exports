@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 632;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (632, 'healingkitpeerless', 28) /* Healer */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (632, 'healingkitpeerless', 28, '2019-02-10 05:41:14') /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (632,   1,        128) /* ItemType - Misc */
@@ -37,5 +37,8 @@ VALUES (632,   1,   33555194) /* Setup */
      , (632, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (632,   2, 3691172958) /* Container */
-     , (632, 8000, 3691172955) /* PCAPRecordedObjectIID */;
+VALUES (632, 8000, 3691172955) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (632, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */
+     , (632, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;

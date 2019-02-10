@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44850;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44850, 'ace44850-chevroncloak', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44850, 'ace44850-chevroncloak', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44850,   1,          4) /* ItemType - Clothing */
@@ -18,7 +18,7 @@ VALUES (44850,   1,          4) /* ItemType - Clothing */
      , (44850, 105,          8) /* ItemWorkmanship */
      , (44850, 131,          4) /* MaterialType - Linen */
      , (44850, 158,          7) /* WieldRequirements - Level */
-     , (44850, 159,          1) /* WieldSkilltype - Axe */
+     , (44850, 159,          1) /* WieldSkillType - Axe */
      , (44850, 160,        180) /* WieldDifficulty */
      , (44850, 172,          1) /* AppraisalLongDescDecoration */
      , (44850, 265,         64) /* EquipmentSetId - CloakLeadership */
@@ -61,14 +61,13 @@ VALUES (44850,   1,   33561386) /* Setup */
      , (44850,   8,  100692125) /* Icon */
      , (44850,  22,  872415275) /* PhysicsEffectTable */
      , (44850,  50,  100690997) /* IconOverlay */
-     , (44850,  55,       5755) /* ProcSpell */
+     , (44850,  55,       5755) /* ProcSpell - CloakMeleeDLower */
      , (44850, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (44850, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44850, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44850,   2, 3666901584) /* Container */
-     , (44850, 8000, 2174255185) /* PCAPRecordedObjectIID */;
+VALUES (44850, 8000, 2174255185) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44850,  5755,      2) ;

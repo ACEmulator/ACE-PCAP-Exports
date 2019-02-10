@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29558;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29558, 'gemnoblequickness', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29558, 'gemnoblequickness', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29558,   1,       2048) /* ItemType - Gem */
      , (29558,   5,         10) /* EncumbranceVal */
      , (29558,  11,          1) /* MaxStackSize */
      , (29558,  12,          1) /* StackSize */
+     , (29558,  13,         10) /* StackUnitEncumbrance */
+     , (29558,  15,          0) /* StackUnitValue */
      , (29558,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29558,  19,          0) /* Value */
      , (29558,  65,        101) /* Placement - Resting */
@@ -40,8 +42,7 @@ VALUES (29558,   1,   33554809) /* Setup */
      , (29558, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29558,   2, 3073894161) /* Container */
-     , (29558, 8000, 2981544779) /* PCAPRecordedObjectIID */;
+VALUES (29558, 8000, 2981544779) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29558, 67111921, 0, 0);

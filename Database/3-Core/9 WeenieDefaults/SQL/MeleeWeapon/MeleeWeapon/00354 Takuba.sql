@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 354;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (354, 'takuba', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (354, 'takuba', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (354,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (354,   1,          1) /* ItemType - MeleeWeapon */
      , (354, 131,         12) /* MaterialType - Amethyst */
      , (354, 151,          2) /* HookType - Wall */
      , (354, 158,          2) /* WieldRequirements - RawSkill */
-     , (354, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (354, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (354, 160,        325) /* WieldDifficulty */
      , (354, 172,          5) /* AppraisalLongDescDecoration */
      , (354, 176,         44) /* AppraisalItemSkill */
@@ -71,12 +71,14 @@ VALUES (354,   1,   33554763) /* Setup */
      , (354, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (354,   2, 3700895317) /* Container */
-     , (354, 8000, 3700884073) /* PCAPRecordedObjectIID */;
+VALUES (354, 8000, 3700884073) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (354,  1616,      2) 
      , (354,  2580,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (354, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (354, 67111923, 0, 0);

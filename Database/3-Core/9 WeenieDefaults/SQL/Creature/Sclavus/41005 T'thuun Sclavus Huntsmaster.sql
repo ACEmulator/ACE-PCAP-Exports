@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41005;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41005, 'ace41005-tthuunsclavushuntsmaster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41005, 'ace41005-tthuunsclavushuntsmaster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41005,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41005, 8000, 3334049271) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41005,   1,  6000, 0, 0, 6000) /* MaxHealth */;
+VALUES (41005,   1,    10, 0, 0, 6000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41005, 2, 38849,  1, 0, 0, False) /* Create Raider Lightning Arrow (38849) for Wield */
+     , (41005, 2, 41010,  1, 0, 0, False) /* Create Lightning T'thuun Bow (41010) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41005, 67111941, 0, 0);

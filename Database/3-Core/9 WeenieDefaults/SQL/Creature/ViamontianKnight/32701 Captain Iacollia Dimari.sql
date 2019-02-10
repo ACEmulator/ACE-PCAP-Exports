@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32701;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32701, 'ace32701-captainiacolliadimari', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32701, 'ace32701-captainiacolliadimari', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32701,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,23 @@ VALUES (32701,   1, 260, 0, 0) /* Strength */
      , (32701,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32701,   1,   695, 0, 0, 695) /* MaxHealth */
-     , (32701,   3,   410, 0, 0, 410) /* MaxStamina */
-     , (32701,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (32701,   1,    10, 0, 0, 695) /* MaxHealth */
+     , (32701,   3,    10, 0, 0, 410) /* MaxStamina */
+     , (32701,   5,    10, 0, 0, 70) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32701, 2, 29968,  1, 0, 0, False) /* Create Quadrelle (29968) for Wield */
+     , (32701, 2, 29978,  1, 0, 0, False) /* Create Spadone (29978) for Wield */
+     , (32701, 2, 29983,  1, 0, 0, False) /* Create Throwing Axe (29983) for Wield */
+     , (32701, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (32701, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (32701, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (32701, 9,  2851,  0, 0, 0, False) /* Create Scroll of Leaden Weapon VI (2851) for ContainTreasure */
+     , (32701, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
+     , (32701, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (32701, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */
+     , (32701, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (32701, 9, 32670,  0, 0, 0, False) /* Create Viamontian Pennant (32670) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32701, 67115520, 0, 0);

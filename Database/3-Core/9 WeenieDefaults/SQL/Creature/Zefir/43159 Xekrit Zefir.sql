@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43159;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43159, 'ace43159-xekritzefir', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43159, 'ace43159-xekritzefir', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43159,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,12 @@ VALUES (43159,   1, 150, 0, 0) /* Strength */
      , (43159,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43159,   1,  1100, 0, 0, 1100) /* MaxHealth */
-     , (43159,   3,  3200, 0, 0, 3200) /* MaxStamina */
-     , (43159,   5,  5400, 0, 0, 5400) /* MaxMana */;
+VALUES (43159,   1,    10, 0, 0, 1100) /* MaxHealth */
+     , (43159,   3,    10, 0, 0, 3200) /* MaxStamina */
+     , (43159,   5,    10, 0, 0, 5400) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43159, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43159, 67114714, 0, 0);

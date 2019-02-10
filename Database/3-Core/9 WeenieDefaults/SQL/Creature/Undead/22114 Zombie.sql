@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22114;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22114, 'zombiehauntedmansionboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22114, 'zombiehauntedmansionboss', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22114,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22114, 8000, 2618373503) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22114,   1,   205, 0, 0, 205) /* MaxHealth */;
+VALUES (22114,   1,    10, 0, 0, 205) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22114, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (22114, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (22114, 2, 47931,  1, 0, 0, False) /* Create Quarrel (47931) for Wield */
+     , (22114, 2, 47934,  1, 0, 0, False) /* Create Acid Katar (47934) for Wield */
+     , (22114, 2, 47937,  1, 0, 0, False) /* Create Nekode (47937) for Wield */
+     , (22114, 2, 47938,  1, 0, 0, False) /* Create Acid Nekode (47938) for Wield */
+     , (22114, 2, 47941,  1, 0, 0, False) /* Create Acid Silifi (47941) for Wield */
+     , (22114, 2, 47943,  1, 0, 0, False) /* Create Ono (47943) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22114, 67111665, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32295;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32295, 'ace32295-royalinquisitor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32295, 'ace32295-royalinquisitor', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32295,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,17 @@ VALUES (32295,   1, 270, 0, 0) /* Strength */
      , (32295,   6, 470, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32295,   1,   890, 0, 0, 890) /* MaxHealth */
-     , (32295,   3,   910, 0, 0, 910) /* MaxStamina */
-     , (32295,   5,  1000, 0, 0, 55) /* MaxMana */;
+VALUES (32295,   1,    10, 0, 0, 890) /* MaxHealth */
+     , (32295,   3,    10, 0, 0, 910) /* MaxStamina */
+     , (32295,   5,    10, 0, 0, 55) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32295, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (32295, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (32295, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (32295, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
+     , (32295, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */
+     , (32295, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32295, 67110063, 32, 8)

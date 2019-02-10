@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26021;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (26021, 'burunruuksoothsayer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (26021, 'burunruuksoothsayer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26021,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,35 @@ VALUES (26021,   1, 180, 0, 0) /* Strength */
      , (26021,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26021,   1,   410, 0, 0, 410) /* MaxHealth */
-     , (26021,   3,   470, 0, 0, 470) /* MaxStamina */
-     , (26021,   5,   460, 0, 0, 320) /* MaxMana */;
+VALUES (26021,   1,    10, 0, 0, 410) /* MaxHealth */
+     , (26021,   3,    10, 0, 0, 470) /* MaxStamina */
+     , (26021,   5,    10, 0, 0, 320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (26021, 2, 26022,  1, 0, 0, False) /* Create Stone Axe (26022) for Wield */
+     , (26021, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */
+     , (26021, 2, 26043,  1, 0, 0, False) /* Create Stone Mace (26043) for Wield */
+     , (26021, 2, 26048,  1, 0, 0, False) /* Create Stone Spear (26048) for Wield */
+     , (26021, 2, 26052,  1, 0, 0, False) /* Create Bone Sword (26052) for Wield */
+     , (26021, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (26021, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (26021, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (26021, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
+     , (26021, 9,  3815,  0, 0, 0, False) /* Create Lightning Kasrullah (3815) for ContainTreasure */
+     , (26021, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
+     , (26021, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (26021, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (26021, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (26021, 9, 20247,  0, 0, 0, False) /* Create Scroll of Void's Call (20247) for ContainTreasure */
+     , (26021, 9, 20253,  0, 0, 0, False) /* Create Scroll of Might of the 5 Mules (20253) for ContainTreasure */
+     , (26021, 9, 20475,  0, 0, 0, False) /* Create Scroll of Icy Blessing (20475) for ContainTreasure */
+     , (26021, 9, 20553,  0, 0, 0, False) /* Create Scroll of Harlune's Boon (20553) for ContainTreasure */
+     , (26021, 9, 22160,  0, 0, 0, False) /* Create Lightning Nabut (22160) for ContainTreasure */
+     , (26021, 9, 27227,  0, 0, 0, False) /* Create Nariyid Breastplate (27227) for ContainTreasure */
+     , (26021, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */
+     , (26021, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */
+     , (26021, 9, 49374,  0, 0, 0, False) /* Create Lightning Grievver Essence (80) (49374) for ContainTreasure */
+     , (26021, 9, 49525,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (80) (49525) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26021, 67114930, 0, 0);

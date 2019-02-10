@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37420;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37420, 'ace37420-blightedputridmoarsman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37420, 'ace37420-blightedputridmoarsman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37420,   1,         16) /* ItemType - Creature */
@@ -58,9 +58,59 @@ VALUES (37420,   1, 170, 0, 0) /* Strength */
      , (37420,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37420,   1,   405, 0, 0, 405) /* MaxHealth */
-     , (37420,   3,   570, 0, 0, 570) /* MaxStamina */
-     , (37420,   5,   220, 0, 0, 220) /* MaxMana */;
+VALUES (37420,   1,    10, 0, 0, 405) /* MaxHealth */
+     , (37420,   3,    10, 0, 0, 570) /* MaxStamina */
+     , (37420,   5,    10, 0, 0, 220) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37420, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */
+     , (37420, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (37420, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (37420, 9,   106,  0, 0, 0, False) /* Create Yoroi Sleeves (106) for ContainTreasure */
+     , (37420, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (37420, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (37420, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (37420, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (37420, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (37420, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (37420, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (37420, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (37420, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (37420, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (37420, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (37420, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (37420, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (37420, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (37420, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (37420, 9,  3916,  0, 0, 0, False) /* Create Frost Yari (3916) for ContainTreasure */
+     , (37420, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (37420, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (37420, 9, 20409,  0, 0, 0, False) /* Create Scroll of Tusker Bait (20409) for ContainTreasure */
+     , (37420, 9, 20557,  0, 0, 0, False) /* Create Scroll of Oswald's Blessing (20557) for ContainTreasure */
+     , (37420, 9, 20858,  1, 0, 0, False) /* Create Fish Stamp (20858) for ContainTreasure */
+     , (37420, 9, 22157,  0, 0, 0, False) /* Create Frost Jo (22157) for ContainTreasure */
+     , (37420, 9, 22161,  0, 0, 0, False) /* Create Flaming Nabut (22161) for ContainTreasure */
+     , (37420, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
+     , (37420, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (37420, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (37420, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
+     , (37420, 9, 28618,  0, 0, 0, False) /* Create Diforsa Helm (28618) for ContainTreasure */
+     , (37420, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (37420, 9, 28625,  0, 0, 0, False) /* Create Diforsa Sollerets (28625) for ContainTreasure */
+     , (37420, 9, 30581,  0, 0, 0, False) /* Create Mazule (30581) for ContainTreasure */
+     , (37420, 9, 31776,  0, 0, 0, False) /* Create Electric Board with Nail (31776) for ContainTreasure */
+     , (37420, 9, 31823,  0, 0, 0, False) /* Create Fire Baton (31823) for ContainTreasure */
+     , (37420, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */
+     , (37420, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (37420, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (37420, 9, 32274,  1, 0, 0, False) /* Create Moarsmuck (32274) for ContainTreasure */
+     , (37420, 9, 39016,  0, 0, 0, False) /* Create Putrid Sea Invasion Key (39016) for ContainTreasure */
+     , (37420, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (37420, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */
+     , (37420, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
+     , (37420, 9, 49374,  0, 0, 0, False) /* Create Lightning Grievver Essence (80) (49374) for ContainTreasure */
+     , (37420, 9, 49436,  0, 0, 0, False) /* Create Fire Spectre Essence (80) (49436) for ContainTreasure */
+     , (37420, 9, 49539,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (80) (49539) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37420, 67113029, 0, 0);

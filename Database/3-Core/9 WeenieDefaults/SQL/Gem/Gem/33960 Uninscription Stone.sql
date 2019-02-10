@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33960;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33960, 'ace33960-uninscriptionstone', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33960, 'ace33960-uninscriptionstone', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33960,   1,       2048) /* ItemType - Gem */
-     , (33960,   5,        400) /* EncumbranceVal */
+     , (33960,   5,         40) /* EncumbranceVal */
      , (33960,  11,         10) /* MaxStackSize */
-     , (33960,  12,         10) /* StackSize */
+     , (33960,  12,          1) /* StackSize */
+     , (33960,  13,         40) /* StackUnitEncumbrance */
+     , (33960,  15,     250000) /* StackUnitValue */
      , (33960,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (33960,  18,          1) /* UiEffects - Magical */
-     , (33960,  19,    2500000) /* Value */
+     , (33960,  19,     250000) /* Value */
      , (33960,  33,          1) /* Bonded - Bonded */
      , (33960,  65,        101) /* Placement - Resting */
      , (33960,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

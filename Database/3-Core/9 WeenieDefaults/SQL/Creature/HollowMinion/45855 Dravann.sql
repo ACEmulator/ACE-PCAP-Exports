@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45855;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45855, 'ace45855-dravann', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45855, 'ace45855-dravann', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45855,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45855, 8000, 3706291229) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45855,   1, 20000, 0, 0, 20000) /* MaxHealth */;
+VALUES (45855,   1,    10, 0, 0, 20000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45855, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (45855, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (45855, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (45855, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (45855, 9, 45858,  0, 0, 0, False) /* Create Essence of Dravann (45858) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45855, 67117137, 0, 0);

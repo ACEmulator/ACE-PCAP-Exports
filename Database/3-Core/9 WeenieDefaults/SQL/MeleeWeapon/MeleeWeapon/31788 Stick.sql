@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31788;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31788, 'ace31788-stick', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31788, 'ace31788-stick', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
      , (31788, 131,         51) /* MaterialType - Ivory */
      , (31788, 151,          2) /* HookType - Wall */
      , (31788, 158,          2) /* WieldRequirements - RawSkill */
-     , (31788, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (31788, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31788, 160,        325) /* WieldDifficulty */
      , (31788, 172,          5) /* AppraisalLongDescDecoration */
      , (31788, 176,         44) /* AppraisalItemSkill */
@@ -72,21 +72,25 @@ VALUES (31788,   1,   33559625) /* Setup */
      , (31788, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31788, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31788, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (31788, 8009,          1);
+     , (31788, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31788, 8040, 1581581014, 39.65677, -78.29746, -0.071, 0.4062837, 0.4062837, -0.5787345, -0.5787345) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4502D6 [39.656770 -78.297460 -0.071000] 0.406284 0.406284 -0.578735 -0.578735 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31788,   3, 1342789086) /* Wielder */
-     , (31788, 8000, 2183167588) /* PCAPRecordedObjectIID */
+VALUES (31788, 8000, 2183167588) /* PCAPRecordedObjectIID */
      , (31788, 8008, 1342789086) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31788,  1615,      2) 
      , (31788,  2580,      2) 
      , (31788,  5807,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31788, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (31788, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (31788, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31788, 67116700, 1, 100)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30576;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30576, 'swordflamberge', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30576, 'swordflamberge', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30576,   1,          1) /* ItemType - MeleeWeapon */
@@ -27,7 +27,7 @@ VALUES (30576,   1,          1) /* ItemType - MeleeWeapon */
      , (30576, 131,         59) /* MaterialType - Copper */
      , (30576, 151,          2) /* HookType - Wall */
      , (30576, 158,          2) /* WieldRequirements - RawSkill */
-     , (30576, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (30576, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30576, 160,        300) /* WieldDifficulty */
      , (30576, 172,          5) /* AppraisalLongDescDecoration */
      , (30576, 176,         44) /* AppraisalItemSkill */
@@ -70,15 +70,14 @@ VALUES (30576,   1,   33559305) /* Setup */
      , (30576, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30576, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30576, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (30576, 8009,          1);
+     , (30576, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30576, 8040, 459075, 69.975, -60, -0.071, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [69.975000 -60.000000 -0.071000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30576,   3, 1342203081) /* Wielder */
-     , (30576, 8000, 3692570766) /* PCAPRecordedObjectIID */
+VALUES (30576, 8000, 3692570766) /* PCAPRecordedObjectIID */
      , (30576, 8008, 1342203081) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
@@ -86,6 +85,9 @@ VALUES (30576,  1377,      2)
      , (30576,  1604,      2) 
      , (30576,  1615,      2) 
      , (30576,  1626,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30576, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30576, 67116396, 0, 0);

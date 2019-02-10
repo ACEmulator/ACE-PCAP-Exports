@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35442;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35442, 'ace35442-drudgesneaker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35442, 'ace35442-drudgesneaker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35442,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (35442,   1,  75, 0, 0) /* Strength */
      , (35442,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35442,   1,    47, 0, 0, 47) /* MaxHealth */
-     , (35442,   3,    85, 0, 0, 85) /* MaxStamina */
-     , (35442,   5,    20, 0, 0, 20) /* MaxMana */;
+VALUES (35442,   1,    10, 0, 0, 47) /* MaxHealth */
+     , (35442,   3,    10, 0, 0, 85) /* MaxStamina */
+     , (35442,   5,    10, 0, 0, 20) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35442, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
+     , (35442, 2, 47286,  1, 0, 0, False) /* Create Fire Board with Nail (47286) for Wield */
+     , (35442, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35442, 67112812, 0, 0);

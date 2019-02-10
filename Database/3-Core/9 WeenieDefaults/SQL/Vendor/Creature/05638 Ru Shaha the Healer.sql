@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5638;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5638, 'yanshisouthwestoutposthealer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5638, 'yanshisouthwestoutposthealer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5638,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (5638,   1,  70, 0, 0) /* Strength */
      , (5638,   6,  75, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5638,   1,    40, 0, 0, 40) /* MaxHealth */
-     , (5638,   3,    75, 0, 0, 75) /* MaxStamina */
-     , (5638,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (5638,   1,    10, 0, 0, 40) /* MaxHealth */
+     , (5638,   3,    10, 0, 0, 75) /* MaxStamina */
+     , (5638,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5638, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */

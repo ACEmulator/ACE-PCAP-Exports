@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30883;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30883, 'tuskerbossmid0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30883, 'tuskerbossmid0205', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30883,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,20 @@ VALUES (30883,   1, 350, 0, 0) /* Strength */
      , (30883,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30883,   1,   575, 0, 0, 575) /* MaxHealth */
-     , (30883,   3,   400, 0, 0, 400) /* MaxStamina */
-     , (30883,   5,   160, 0, 0, 160) /* MaxMana */;
+VALUES (30883,   1,    10, 0, 0, 575) /* MaxHealth */
+     , (30883,   3,    10, 0, 0, 400) /* MaxStamina */
+     , (30883,   5,    10, 0, 0, 160) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30883, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (30883, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (30883, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (30883, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (30883, 9,  3172,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self VI (3172) for ContainTreasure */
+     , (30883, 9,  8147,  0, 0, 0, False) /* Create Tusker Head (8147) for ContainTreasure */
+     , (30883, 9,  8946,  0, 0, 0, False) /* Create Scroll of Lightning Streak VI (8946) for ContainTreasure */
+     , (30883, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (30883, 9, 30861,  0, 0, 0, False) /* Create Banished Point (30861) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30883, 67113012, 0, 0);

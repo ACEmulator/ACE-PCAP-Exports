@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 15447;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (15447, 'axebattlehollownew', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (15447, 'axebattlehollownew', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15447,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (15447,   1,          1) /* ItemType - MeleeWeapon */
      , (15447, 114,          1) /* Attuned - Attuned */
      , (15447, 151,          2) /* HookType - Wall */
      , (15447, 158,          2) /* WieldRequirements - RawSkill */
-     , (15447, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (15447, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (15447, 160,        250) /* WieldDifficulty */
      , (15447, 353,          3) /* WeaponType - Axe */
      , (15447, 8030,          0);
@@ -61,7 +61,7 @@ VALUES (15447,   1,   33556651) /* Setup */
      , (15447, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (15447, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15447, 8005,     456737) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame, Translucency */
-     , (15447, 8009,          1)
+     , (15447, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
      , (15447, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -69,6 +69,5 @@ VALUES (15447, 8040, 3332964361, 46.83, 4.219, 41.929, 0.7071068, 0.7071068, 0, 
 /* @teleloc 0xC6A90009 [46.830000 4.219000 41.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15447,   3, 1342663900) /* Wielder */
-     , (15447, 8000, 2746689596) /* PCAPRecordedObjectIID */
+VALUES (15447, 8000, 2746689596) /* PCAPRecordedObjectIID */
      , (15447, 8008, 1342663900) /* PCAPRecordedParentIID */;

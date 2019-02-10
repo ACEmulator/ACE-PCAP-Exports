@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42131;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42131, 'ace42131-curmudgeonthedrudge', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42131, 'ace42131-curmudgeonthedrudge', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42131,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,12 @@ VALUES (42131,   1, 150, 0, 0) /* Strength */
      , (42131,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42131,   1,   125, 0, 0, 125) /* MaxHealth */
-     , (42131,   3,   110, 0, 0, 110) /* MaxStamina */
-     , (42131,   5,   190, 0, 0, 190) /* MaxMana */;
+VALUES (42131,   1,    10, 0, 0, 125) /* MaxHealth */
+     , (42131,   3,    10, 0, 0, 110) /* MaxStamina */
+     , (42131,   5,    10, 0, 0, 190) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42131, 2, 35672,  1, 0, 0, False) /* Create Fork (35672) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42131, 67112815, 0, 0);

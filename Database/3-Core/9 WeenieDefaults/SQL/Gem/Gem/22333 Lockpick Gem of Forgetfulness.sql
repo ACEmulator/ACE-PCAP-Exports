@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22333;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22333, 'skillgemdownlockpick', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22333, 'skillgemdownlockpick', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22333,   1,       2048) /* ItemType - Gem */
@@ -31,8 +31,7 @@ VALUES (22333,   1,   33558087) /* Setup */
      , (22333, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22333,   2, 2182531472) /* Container */
-     , (22333, 8000, 2182531481) /* PCAPRecordedObjectIID */;
+VALUES (22333, 8000, 2182531481) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22333, 67111924, 0, 0);

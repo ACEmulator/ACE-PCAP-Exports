@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40311;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40311, 'ace40311-siessasclavussoldier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40311, 'ace40311-siessasclavussoldier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40311,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,33 @@ VALUES (40311,   1, 250, 0, 0) /* Strength */
      , (40311,   6, 230, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40311,   1,  1215, 0, 0, 1215) /* MaxHealth */
-     , (40311,   3,  1530, 0, 0, 1530) /* MaxStamina */
-     , (40311,   5,  1030, 0, 0, 1030) /* MaxMana */;
+VALUES (40311,   1,    10, 0, 0, 1215) /* MaxHealth */
+     , (40311,   3,    10, 0, 0, 1530) /* MaxStamina */
+     , (40311,   5,    10, 0, 0, 1030) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40311, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
+     , (40311, 2, 40266,  1, 0, 0, False) /* Create T'thuun Aegis (40266) for Wield */
+     , (40311, 2, 46400,  1, 0, 0, False) /* Create T'thuun Bow (46400) for Wield */
+     , (40311, 2, 46401,  1, 0, 0, False) /* Create T'thuun Claw (46401) for Wield */
+     , (40311, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for Wield */
+     , (40311, 2, 46403,  1, 0, 0, False) /* Create T'thuun Mace (46403) for Wield */
+     , (40311, 2, 46404,  1, 0, 0, False) /* Create T'thuun Spear (46404) for Wield */
+     , (40311, 2, 46405,  1, 0, 0, False) /* Create T'thuun Sword (46405) for Wield */
+     , (40311, 2, 47072,  1, 0, 0, False) /* Create Arrow (47072) for Wield */
+     , (40311, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (40311, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (40311, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (40311, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (40311, 9,  3868,  0, 0, 0, False) /* Create Frost Silifi (3868) for ContainTreasure */
+     , (40311, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
+     , (40311, 9, 27223,  0, 0, 0, False) /* Create Lorica Helm (27223) for ContainTreasure */
+     , (40311, 9, 29243,  0, 0, 0, False) /* Create Piercing Bow (29243) for ContainTreasure */
+     , (40311, 9, 29248,  0, 0, 0, False) /* Create Fire Crossbow (29248) for ContainTreasure */
+     , (40311, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
+     , (40311, 9, 42749,  0, 0, 0, False) /* Create Haebrean Breastplate (42749) for ContainTreasure */
+     , (40311, 9, 43316,  0, 0, 0, False) /* Create Scroll of Nether Streak VII (43316) for ContainTreasure */
+     , (40311, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40311, 67113361, 0, 0);

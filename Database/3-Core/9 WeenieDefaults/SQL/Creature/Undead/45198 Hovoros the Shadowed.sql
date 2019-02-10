@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45198;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45198, 'ace45198-hovorostheshadowed', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45198, 'ace45198-hovorostheshadowed', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45198,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45198, 8000, 3630564346) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45198,   1, 150250, 0, 0, 150250) /* MaxHealth */;
+VALUES (45198,   1,    10, 0, 0, 150250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45198, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (45198, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (45198, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (45198, 9, 45200,  1, 0, 0, False) /* Create Corrupted Spectral Page (45200) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45198, 67113255, 40, 40)

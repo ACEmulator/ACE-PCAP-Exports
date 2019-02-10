@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42371;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42371, 'ace42371-invadingbronzegauntletsquire', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42371, 'ace42371-invadingbronzegauntletsquire', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42371,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,12 @@ VALUES (42371,   1, 445, 0, 0) /* Strength */
      , (42371,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42371,   1,   720, 0, 0, 720) /* MaxHealth */
-     , (42371,   3,  1400, 0, 0, 1400) /* MaxStamina */
-     , (42371,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (42371,   1,    10, 0, 0, 720) /* MaxHealth */
+     , (42371,   3,    10, 0, 0, 1400) /* MaxStamina */
+     , (42371,   5,    10, 0, 0, 85) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42371, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
+     , (42371, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */
+     , (42371, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */
+     , (42371, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */;

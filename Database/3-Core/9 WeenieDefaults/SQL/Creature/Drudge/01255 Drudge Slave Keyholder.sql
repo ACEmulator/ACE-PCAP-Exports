@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1255;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1255, 'drudgeprowlergreenmire', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1255, 'drudgeprowlergreenmire', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1255,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,31 @@ VALUES (1255,   1,  45, 0, 0) /* Strength */
      , (1255,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1255,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (1255,   3,   120, 0, 0, 120) /* MaxStamina */
-     , (1255,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (1255,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (1255,   3,    10, 0, 0, 120) /* MaxStamina */
+     , (1255,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1255, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (1255, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
+     , (1255, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
+     , (1255, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
+     , (1255, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (1255, 2,   345,  1, 0, 0, False) /* Create Simi (345) for Wield */
+     , (1255, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (1255, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (1255, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (1255, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (1255, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (1255, 9,  1265,  0, 0, 0, False) /* Create Key (1265) for ContainTreasure */
+     , (1255, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (1255, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (1255, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
+     , (1255, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
+     , (1255, 9,  3324,  0, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Self III (3324) for ContainTreasure */
+     , (1255, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1255, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
+     , (1255, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1255, 67112818, 0, 0);

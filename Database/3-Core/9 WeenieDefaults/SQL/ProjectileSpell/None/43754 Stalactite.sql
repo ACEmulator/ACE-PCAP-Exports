@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43754;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43754, 'ace43754-stalactite', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43754, 'ace43754-stalactite', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43754,   1,          0) /* ItemType - None */
@@ -46,3 +46,19 @@ VALUES (43754, 8040, 2114128145, 270, -180.3669, 17.22333, 1, 0, 0, 0) /* PCAPRe
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43754, 8000, 3360798435) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43754, 2, 23676,  1, 0, 0, False) /* Create Katar (23676) for Wield */
+     , (43754, 2, 23690,  1, 0, 0, False) /* Create Acid Spear (23690) for Wield */
+     , (43754, 2, 23694,  1, 0, 0, False) /* Create Frost Spear (23694) for Wield */
+     , (43754, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */
+     , (43754, 2, 23708,  1, 0, 0, False) /* Create Fire Tachi (23708) for Wield */
+     , (43754, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
+     , (43754, 2, 33064,  1, 0, 0, False) /* Create Red Rune Silveran Spear (33064) for Wield */
+     , (43754, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (43754, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
+     , (43754, 2, 47525,  1, 0, 0, False) /* Create Acid Javelin (47525) for Wield */
+     , (43754, 2, 47706,  1, 0, 0, False) /* Create Acid Spear (47706) for Wield */
+     , (43754, 2, 47708,  1, 0, 0, False) /* Create Acid Spear (47708) for Wield */
+     , (43754, 2, 47727,  1, 0, 0, False) /* Create Spear (47727) for Wield */
+     , (43754, 2, 48975,  1, 0, 0, False) /* Create Acid Hatchet (48975) for Wield */;

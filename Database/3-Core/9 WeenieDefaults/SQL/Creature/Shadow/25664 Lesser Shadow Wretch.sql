@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25664;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25664, 'shadowwretch', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25664, 'shadowwretch', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25664,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25664, 8000, 3333745274) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25664,   1,   385, 0, 0, 385) /* MaxHealth */;
+VALUES (25664,   1,    10, 0, 0, 385) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25664, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (25664, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (25664, 2, 47065,  1, 0, 0, False) /* Create Arrow (47065) for Wield */
+     , (25664, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
+     , (25664, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
+     , (25664, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (25664, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25664, 67112860, 0, 0);

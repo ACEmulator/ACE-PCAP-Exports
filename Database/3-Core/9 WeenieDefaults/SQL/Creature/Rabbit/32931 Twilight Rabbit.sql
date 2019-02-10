@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32931;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32931, 'ace32931-twilightrabbit', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32931, 'ace32931-twilightrabbit', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32931,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,19 @@ VALUES (32931,   1, 360, 0, 0) /* Strength */
      , (32931,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32931,   1,   430, 0, 0, 430) /* MaxHealth */
-     , (32931,   3,   610, 0, 0, 609) /* MaxStamina */
-     , (32931,   5,    40, 0, 0, 40) /* MaxMana */;
+VALUES (32931,   1,    10, 0, 0, 430) /* MaxHealth */
+     , (32931,   3,    10, 0, 0, 609) /* MaxStamina */
+     , (32931,   5,    10, 0, 0, 40) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32931, 9,   273, 1492, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (32931, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (32931, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (32931, 9,  3880,  0, 0, 0, False) /* Create Frost Broad Sword (3880) for ContainTreasure */
+     , (32931, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (32931, 9, 20563,  0, 0, 0, False) /* Create Scroll of Eyes Clouded (20563) for ContainTreasure */
+     , (32931, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (32931, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (32931, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
+     , (32931, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
+     , (32931, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45856;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45856, 'ace45856-virindikeeper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45856, 'ace45856-virindikeeper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45856,   1,         16) /* ItemType - Creature */
@@ -43,7 +43,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45856, 8000, 3706289418) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45856,   1,  8755, 0, 0, 8755) /* MaxHealth */;
+VALUES (45856,   1,    10, 0, 0, 8755) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45856, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (45856, 9, 45857,  0, 0, 0, False) /* Create Virindi Research Center Key (45857) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45856, 67113145, 0, 0);

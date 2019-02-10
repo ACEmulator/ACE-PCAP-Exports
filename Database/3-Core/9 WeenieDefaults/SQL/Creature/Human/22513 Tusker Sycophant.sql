@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22513;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22513, 'humantuskersycophant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22513, 'humantuskersycophant', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22513,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,39 @@ VALUES (22513,   1, 230, 0, 0) /* Strength */
      , (22513,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22513,   1,   200, 0, 0, 200) /* MaxHealth */
-     , (22513,   3,   320, 0, 0, 320) /* MaxStamina */
-     , (22513,   5,   140, 0, 0, 140) /* MaxMana */;
+VALUES (22513,   1,    10, 0, 0, 200) /* MaxHealth */
+     , (22513,   3,    10, 0, 0, 320) /* MaxStamina */
+     , (22513,   5,    10, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22513, 2, 22776,  1, 0, 0, False) /* Create Bandit Dagger (22776) for Wield */
+     , (22513, 2, 22779,  1, 0, 0, False) /* Create Jambiya (22779) for Wield */
+     , (22513, 2, 22782,  1, 0, 0, False) /* Create Khanjar (22782) for Wield */
+     , (22513, 2, 22785,  1, 0, 0, False) /* Create Knife (22785) for Wield */
+     , (22513, 2, 22788,  1, 0, 0, False) /* Create Bandit Simi (22788) for Wield */
+     , (22513, 2, 22791,  1, 0, 0, False) /* Create Bandit Rapier (22791) for Wield */
+     , (22513, 2, 22794,  1, 0, 0, False) /* Create Bandit Short Sword (22794) for Wield */
+     , (22513, 2, 22797,  1, 0, 0, False) /* Create Bandit Yaoji (22797) for Wield */
+     , (22513, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (22513, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (22513, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (22513, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (22513, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (22513, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (22513, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (22513, 9,   273, 137, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (22513, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (22513, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (22513, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (22513, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (22513, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (22513, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (22513, 9, 20541,  0, 0, 0, False) /* Create Scroll of Celcynd's Blessing (20541) for ContainTreasure */
+     , (22513, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (22513, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (22513, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (22513, 9, 31782,  0, 0, 0, False) /* Create Fire Spine Glaive (31782) for ContainTreasure */
+     , (22513, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
+     , (22513, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (22513, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */
+     , (22513, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;

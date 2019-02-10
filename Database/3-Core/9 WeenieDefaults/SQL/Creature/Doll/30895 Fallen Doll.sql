@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30895;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30895, 'dollbossuber0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30895, 'dollbossuber0205', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30895,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,12 @@ VALUES (30895,   1, 190, 0, 0) /* Strength */
      , (30895,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30895,   1,  1550, 0, 0, 1550) /* MaxHealth */
-     , (30895,   3,  1150, 0, 0, 1150) /* MaxStamina */
-     , (30895,   5,  1200, 0, 0, 1200) /* MaxMana */;
+VALUES (30895,   1,    10, 0, 0, 1550) /* MaxHealth */
+     , (30895,   3,    10, 0, 0, 1150) /* MaxStamina */
+     , (30895,   5,    10, 0, 0, 1200) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30895, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (30895, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (30895, 9, 30857,  1, 0, 0, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30895, 9, 30870,  0, 0, 0, False) /* Create Katar of the Fallen (30870) for ContainTreasure */;

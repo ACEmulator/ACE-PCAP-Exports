@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34261;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34261, 'ace34261-corpseofaineabesu', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34261, 'ace34261-corpseofaineabesu', 20, '2019-02-10 05:41:14') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34261,   1,        512) /* ItemType - Container */
@@ -46,6 +46,9 @@ VALUES (34261, 8040, 8782763, 67.2891, -57.0488, 6.005, 0.3963309, 0, 0, -0.9181
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34261, 8000, 1879597126) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (34261, -1, 34280, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Explorer's Journal (34280) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34261, 67110008, 136, 16)

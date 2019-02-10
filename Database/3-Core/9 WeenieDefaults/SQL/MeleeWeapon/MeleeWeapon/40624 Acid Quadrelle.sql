@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40624;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40624, 'ace40624-acidquadrelle', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40624, 'ace40624-acidquadrelle', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40624,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (40624,   1,          1) /* ItemType - MeleeWeapon */
      , (40624, 131,         51) /* MaterialType - Ivory */
      , (40624, 151,          2) /* HookType - Wall */
      , (40624, 158,          2) /* WieldRequirements - RawSkill */
-     , (40624, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (40624, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (40624, 160,        325) /* WieldDifficulty */
      , (40624, 172,          5) /* AppraisalLongDescDecoration */
      , (40624, 176,         41) /* AppraisalItemSkill */
@@ -71,11 +71,13 @@ VALUES (40624,   1,   33560725) /* Setup */
      , (40624, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40624,   2, 3707004840) /* Container */
-     , (40624, 8000, 3707011150) /* PCAPRecordedObjectIID */;
+VALUES (40624, 8000, 3707011150) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40624,  1615,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40624, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40624, 67116840, 0, 0);

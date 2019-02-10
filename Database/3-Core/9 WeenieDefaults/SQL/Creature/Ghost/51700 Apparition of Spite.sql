@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51700;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51700, 'ace51700-apparitionofspite', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51700, 'ace51700-apparitionofspite', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51700,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (51700,   1, True ) /* Stuck */
      , (51700,  12, True ) /* ReportCollisions */
      , (51700,  13, False) /* Ethereal */
      , (51700,  14, True ) /* GravityStatus */
-     , (51700,  19, True ) /* Attackable */;
+     , (51700,  19, True ) /* Attackable */
+     , (51700, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51700,  76, 0.699999988079071) /* Translucency */;
@@ -46,4 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51700, 8000, 3632946246) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51700,   1, 17675, 0, 0, 9072) /* MaxHealth */;
+VALUES (51700,   1,    10, 0, 0, 9072) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51700, 9, 51705,  0, 0, 0, False) /* Create Shroud of Spite (51705) for ContainTreasure */;

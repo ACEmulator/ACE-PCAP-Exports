@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41533;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41533, 'ace41533-invadingcoppercogphalanx', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41533, 'ace41533-invadingcoppercogphalanx', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41533,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,22 @@ VALUES (41533,   1, 395, 0, 0) /* Strength */
      , (41533,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41533,   1,   680, 0, 0, 680) /* MaxHealth */
-     , (41533,   3,   910, 0, 0, 910) /* MaxStamina */
-     , (41533,   5,    80, 0, 0, 80) /* MaxMana */;
+VALUES (41533,   1,    10, 0, 0, 680) /* MaxHealth */
+     , (41533,   3,    10, 0, 0, 910) /* MaxStamina */
+     , (41533,   5,    10, 0, 0, 80) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41533, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
+     , (41533, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+     , (41533, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
+     , (41533, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
+     , (41533, 2, 41248,  1, 0, 0, False) /* Create Fire Gearknight Sword (41248) for Wield */
+     , (41533, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
+     , (41533, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
+     , (41533, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */
+     , (41533, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */
+     , (41533, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */
+     , (41533, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (41533, 9, 29255,  0, 0, 0, False) /* Create Fire Atlatl (29255) for ContainTreasure */
+     , (41533, 9, 41528,  1, 0, 0, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
+     , (41533, 9, 42114,  1, 0, 0, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */;

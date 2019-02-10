@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11490;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11490, 'siraluuntidal_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11490, 'siraluuntidal_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11490,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,22 @@ VALUES (11490,   1,  60, 0, 0) /* Strength */
      , (11490,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11490,   1,    65, 0, 0, 65) /* MaxHealth */
-     , (11490,   3,   100, 0, 0, 100) /* MaxStamina */
-     , (11490,   5,    30, 0, 0, 30) /* MaxMana */;
+VALUES (11490,   1,    10, 0, 0, 65) /* MaxHealth */
+     , (11490,   3,    10, 0, 0, 100) /* MaxStamina */
+     , (11490,   5,    10, 0, 0, 30) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11490, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (11490, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+     , (11490, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (11490, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (11490, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (11490, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (11490, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (11490, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (11490, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
+     , (11490, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (11490, 9, 49366,  0, 0, 0, False) /* Create Acid Grievver Essence (50) (49366) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11490, 67113294, 0, 0);

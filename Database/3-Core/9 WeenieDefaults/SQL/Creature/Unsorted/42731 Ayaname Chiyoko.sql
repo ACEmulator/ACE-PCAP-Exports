@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42731;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42731, 'ace42731-ayanamechiyoko', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42731, 'ace42731-ayanamechiyoko', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42731,   1,         16) /* ItemType - Creature */
@@ -46,6 +46,9 @@ VALUES (42731, 8040, 1177485569, 108.016, 12.4292, 220.005, 0.00847993, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42731, 8000, 3701376798) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42731, 2, 37220,  1, 0, 0, False) /* Create Fire Staff (37220) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42731, 67109565, 32, 8)

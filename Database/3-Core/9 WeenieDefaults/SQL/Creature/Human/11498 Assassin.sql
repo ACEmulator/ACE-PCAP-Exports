@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11498;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11498, 'humanassassin_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11498, 'humanassassin_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11498,   1,         16) /* ItemType - Creature */
@@ -51,4 +51,20 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11498, 8000, 3706883292) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11498,   1,   180, 0, 0, 180) /* MaxHealth */;
+VALUES (11498,   1,    10, 0, 0, 180) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11498, 2,  5306,  1, 0, 0, False) /* Create Greater Acid Arrow (5306) for Wield */
+     , (11498, 2,  5307,  1, 0, 0, False) /* Create Greater Frost Arrow (5307) for Wield */
+     , (11498, 2,  5308,  1, 0, 0, False) /* Create Greater Lightning Arrow (5308) for Wield */
+     , (11498, 2,  5309,  1, 0, 0, False) /* Create Greater Armor Piercing Arrow (5309) for Wield */
+     , (11498, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
+     , (11498, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
+     , (11498, 2, 22780,  1, 0, 0, False) /* Create Jambiya (22780) for Wield */
+     , (11498, 2, 22783,  1, 0, 0, False) /* Create Khanjar (22783) for Wield */
+     , (11498, 2, 22885,  1, 0, 0, False) /* Create Bandit Shield (22885) for Wield */
+     , (11498, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
+     , (11498, 2, 23669,  1, 0, 0, False) /* Create Dagger (23669) for Wield */
+     , (11498, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
+     , (11498, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for ContainTreasure */
+     , (11498, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */;

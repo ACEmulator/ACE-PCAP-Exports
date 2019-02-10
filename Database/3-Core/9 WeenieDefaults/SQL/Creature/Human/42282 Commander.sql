@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42282;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42282, 'ace42282-commander', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42282, 'ace42282-commander', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42282,   1,         16) /* ItemType - Creature */
@@ -62,9 +62,18 @@ VALUES (42282,   1, 320, 0, 0) /* Strength */
      , (42282,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42282,   1,  7225, 0, 0, 7225) /* MaxHealth */
-     , (42282,   3,  7450, 0, 0, 7437) /* MaxStamina */
-     , (42282,   5, 10320, 0, 0, 10254) /* MaxMana */;
+VALUES (42282,   1,    10, 0, 0, 7225) /* MaxHealth */
+     , (42282,   3,    10, 0, 0, 7437) /* MaxStamina */
+     , (42282,   5,    10, 0, 0, 10254) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42282, 2, 38855,  1, 0, 0, False) /* Create Eldrytch Web Blade (38855) for Wield */
+     , (42282, 2, 41858,  1, 0, 0, False) /* Create Eldrytch Web Shield (41858) for Wield */
+     , (42282, 9,  3851,  0, 0, 0, False) /* Create Flaming Scimitar (3851) for ContainTreasure */
+     , (42282, 9,  3908,  0, 0, 0, False) /* Create Frost War Hammer (3908) for ContainTreasure */
+     , (42282, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
+     , (42282, 9, 49251,  0, 0, 0, False) /* Create Fire Zombie Essence (150) (49251) for ContainTreasure */
+     , (42282, 9, 49305,  0, 0, 0, False) /* Create Frost K'nath Essence (100) (49305) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (42282, 0, 16794164)

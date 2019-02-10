@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46816;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46816, 'ace46816-pyrechampion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46816, 'ace46816-pyrechampion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46816,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46816, 8000, 2921515979) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46816,   1,  6831, 0, 0, 6831) /* MaxHealth */;
+VALUES (46816,   1,    10, 0, 0, 6831) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46816, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
+     , (46816, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46816, 67116525, 0, 0);

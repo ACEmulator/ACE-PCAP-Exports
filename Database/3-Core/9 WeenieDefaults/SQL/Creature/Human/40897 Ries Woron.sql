@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40897;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40897, 'ace40897-riesworon', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40897, 'ace40897-riesworon', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40897,   1,         16) /* ItemType - Creature */
@@ -66,6 +66,10 @@ VALUES (40897,   1, 240, 0, 0) /* Strength */
      , (40897,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40897,   1,   180, 0, 0, 180) /* MaxHealth */
-     , (40897,   3,   320, 0, 0, 320) /* MaxStamina */
-     , (40897,   5,   180, 0, 0, 180) /* MaxMana */;
+VALUES (40897,   1,    10, 0, 0, 180) /* MaxHealth */
+     , (40897,   3,    10, 0, 0, 320) /* MaxStamina */
+     , (40897,   5,    10, 0, 0, 180) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40897, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
+     , (40897, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */;

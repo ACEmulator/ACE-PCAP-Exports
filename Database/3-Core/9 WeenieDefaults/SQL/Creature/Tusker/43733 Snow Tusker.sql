@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43733;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43733, 'ace43733-snowtusker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43733, 'ace43733-snowtusker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43733,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,22 @@ VALUES (43733,   1, 360, 0, 0) /* Strength */
      , (43733,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43733,   1,  2215, 0, 0, 2215) /* MaxHealth */
-     , (43733,   3,  2330, 0, 0, 2330) /* MaxStamina */
-     , (43733,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (43733,   1,    10, 0, 0, 2215) /* MaxHealth */
+     , (43733,   3,    10, 0, 0, 2330) /* MaxStamina */
+     , (43733,   5,    10, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43733, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (43733, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (43733, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (43733, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (43733, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (43733, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (43733, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (43733, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (43733, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (43733, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (43733, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (43733, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */
+     , (43733, 9, 42749,  0, 0, 0, False) /* Create Haebrean Breastplate (42749) for ContainTreasure */
+     , (43733, 9, 43742,  1, 0, 0, False) /* Create Snow Tusker Blood Sample (43742) for ContainTreasure */;

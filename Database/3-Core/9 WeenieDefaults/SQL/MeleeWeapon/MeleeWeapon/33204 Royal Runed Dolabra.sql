@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33204;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33204, 'ace33204-royalruneddolabra', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33204, 'ace33204-royalruneddolabra', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33204,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (33204,   1,          1) /* ItemType - MeleeWeapon */
      , (33204, 109,          0) /* ItemDifficulty */
      , (33204, 151,          2) /* HookType - Wall */
      , (33204, 158,          7) /* WieldRequirements - Level */
-     , (33204, 159,          1) /* WieldSkilltype - Axe */
+     , (33204, 159,          1) /* WieldSkillType - Axe */
      , (33204, 160,        120) /* WieldDifficulty */
      , (33204, 353,          3) /* WeaponType - Axe */
      , (33204, 8030,          0);
@@ -59,15 +59,14 @@ VALUES (33204,   1,   33559931) /* Setup */
      , (33204,   8,  100686925) /* Icon */
      , (33204,  22,  872415275) /* PhysicsEffectTable */
      , (33204,  50,  100688914) /* IconOverlay */
-     , (33204,  55,       2074) /* ProcSpell */
+     , (33204,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (33204, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (33204, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33204, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */
      , (33204, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33204,   2, 2807507490) /* Container */
-     , (33204, 8000, 2807507509) /* PCAPRecordedObjectIID */;
+VALUES (33204, 8000, 2807507509) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33204,  2074,      2) 

@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8308;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8308, 'peaalchemquicksilver', 32) /* SpellComponent */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8308, 'peaalchemquicksilver', 32, '2019-02-10 05:41:14') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8308,   1,       4096) /* ItemType - SpellComponents */
-     , (8308,   5,        280) /* EncumbranceVal */
+     , (8308,   5,         10) /* EncumbranceVal */
      , (8308,  11,        100) /* MaxStackSize */
-     , (8308,  12,         28) /* StackSize */
+     , (8308,  12,          1) /* StackSize */
+     , (8308,  13,         10) /* StackUnitEncumbrance */
+     , (8308,  15,        625) /* StackUnitValue */
      , (8308,  16,          1) /* ItemUseable - No */
-     , (8308,  19,      17500) /* Value */
+     , (8308,  19,        625) /* Value */
      , (8308,  33,          1) /* Bonded - Bonded */
      , (8308,  65,        101) /* Placement - Resting */
      , (8308,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -39,8 +41,7 @@ VALUES (8308,   1,   33555209) /* Setup */
      , (8308, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8308,   2, 2258805206) /* Container */
-     , (8308, 8000, 2258805207) /* PCAPRecordedObjectIID */;
+VALUES (8308, 8000, 2258805207) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8308, 67111921, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35954;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35954, 'ace35954-imp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35954, 'ace35954-imp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35954,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,12 @@ VALUES (35954,   1, 480, 0, 0) /* Strength */
      , (35954,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35954,   1,   500, 0, 0, 500) /* MaxHealth */
-     , (35954,   3,  1100, 0, 0, 1100) /* MaxStamina */
-     , (35954,   5,   180, 0, 0, 180) /* MaxMana */;
+VALUES (35954,   1,    10, 0, 0, 500) /* MaxHealth */
+     , (35954,   3,    10, 0, 0, 1100) /* MaxStamina */
+     , (35954,   5,    10, 0, 0, 180) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35954, 2, 35955,  1, 0, 0, False) /* Create Shadow Coconut (35955) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35954, 67113224, 0, 0);

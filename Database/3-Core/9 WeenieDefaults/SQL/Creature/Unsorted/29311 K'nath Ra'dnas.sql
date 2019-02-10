@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29311;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29311, 'knathradnas', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29311, 'knathradnas', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29311,   1,         16) /* ItemType - Creature */
@@ -42,3 +42,9 @@ VALUES (29311, 8040, 26411415, 340, -20, 0.01800001, -0.7071068, 0, 0, -0.707106
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29311, 8000, 3709625934) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29311, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (29311, 9,   273, 787, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (29311, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (29311, 9, 45289,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VI (45289) for ContainTreasure */;

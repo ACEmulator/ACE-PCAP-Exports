@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30882;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30882, 'shadowbossmid0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30882, 'shadowbossmid0205', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30882,   1,         16) /* ItemType - Creature */
@@ -56,7 +56,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30882, 8000, 3361480256) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30882,   1,   620, 0, 0, 620) /* MaxHealth */;
+VALUES (30882,   1,    10, 0, 0, 620) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30882, 9,   273, 17, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (30882, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (30882, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (30882, 9, 30878,  0, 0, 0, False) /* Create Banished Bow (30878) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30882, 67112860, 0, 0);

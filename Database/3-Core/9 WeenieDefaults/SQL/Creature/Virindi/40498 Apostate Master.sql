@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40498;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40498, 'ace40498-apostatemaster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40498, 'ace40498-apostatemaster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40498,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,36 @@ VALUES (40498,   1, 320, 0, 0) /* Strength */
      , (40498,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40498,   1,  6000, 0, 0, 6000) /* MaxHealth */
-     , (40498,   3,  6000, 0, 0, 6000) /* MaxStamina */
-     , (40498,   5,  6000, 0, 0, 6000) /* MaxMana */;
+VALUES (40498,   1,    10, 0, 0, 6000) /* MaxHealth */
+     , (40498,   3,    10, 0, 0, 6000) /* MaxStamina */
+     , (40498,   5,    10, 0, 0, 6000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40498, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (40498, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (40498, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (40498, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (40498, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (40498, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (40498, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
+     , (40498, 9, 20527,  0, 0, 0, False) /* Create Scroll of Odif's Boon (20527) for ContainTreasure */
+     , (40498, 9, 20533,  0, 0, 0, False) /* Create Scroll of Avalenne's Boon (20533) for ContainTreasure */
+     , (40498, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
+     , (40498, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (40498, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (40498, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (40498, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (40498, 9, 29243,  0, 0, 0, False) /* Create Piercing Bow (29243) for ContainTreasure */
+     , (40498, 9, 40489,  0, 0, 0, False) /* Create Apostate Message Shard (40489) for ContainTreasure */
+     , (40498, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */
+     , (40498, 9, 42752,  0, 0, 0, False) /* Create Haebrean Greaves (42752) for ContainTreasure */
+     , (40498, 9, 44850,  0, 0, 0, False) /* Create Chevron Cloak (44850) for ContainTreasure */
+     , (40498, 9, 46883,  0, 0, 0, False) /* Create Aura of Swift Killer Other VII (46883) for ContainTreasure */
+     , (40498, 9, 49235,  0, 0, 0, False) /* Create Acid Zombie Essence (100) (49235) for ContainTreasure */
+     , (40498, 9, 49256,  0, 0, 0, False) /* Create Frost Zombie Essence (100) (49256) for ContainTreasure */
+     , (40498, 9, 49355,  0, 0, 0, False) /* Create Fire Moar Essence (125) (49355) for ContainTreasure */
+     , (40498, 9, 49368,  0, 0, 0, False) /* Create Acid Grievver Essence (100) (49368) for ContainTreasure */
+     , (40498, 9, 49369,  0, 0, 0, False) /* Create Acid Grievver Essence (125) (49369) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40498, 67113145, 0, 0);

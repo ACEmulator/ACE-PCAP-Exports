@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36834;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36834, 'ace36834-vaporgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36834, 'ace36834-vaporgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36834,   1,         16) /* ItemType - Creature */
@@ -52,6 +52,32 @@ VALUES (36834,   1, 260, 0, 0) /* Strength */
      , (36834,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36834,   1,   465, 0, 0, 465) /* MaxHealth */
-     , (36834,   3,   490, 0, 0, 490) /* MaxStamina */
-     , (36834,   5,   435, 0, 0, 435) /* MaxMana */;
+VALUES (36834,   1,    10, 0, 0, 465) /* MaxHealth */
+     , (36834,   3,    10, 0, 0, 490) /* MaxStamina */
+     , (36834,   5,    10, 0, 0, 435) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36834, 9,    41,  0, 0, 0, False) /* Create Scalemail Breastplate (41) for ContainTreasure */
+     , (36834, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (36834, 9,   273, 660, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (36834, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (36834, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (36834, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (36834, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (36834, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (36834, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (36834, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (36834, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (36834, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (36834, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (36834, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (36834, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (36834, 9, 20509,  0, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self VII (20509) for ContainTreasure */
+     , (36834, 9, 20521,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self VII (20521) for ContainTreasure */
+     , (36834, 9, 20525,  0, 0, 0, False) /* Create Scroll of Broadside of a Barn (20525) for ContainTreasure */
+     , (36834, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (36834, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (36834, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (36834, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (36834, 9, 41057,  0, 0, 0, False) /* Create Great Star Mace (41057) for ContainTreasure */
+     , (36834, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */;

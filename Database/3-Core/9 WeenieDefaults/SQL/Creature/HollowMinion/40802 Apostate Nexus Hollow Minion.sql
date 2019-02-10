@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40802;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40802, 'ace40802-apostatenexushollowminion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40802, 'ace40802-apostatenexushollowminion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40802,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40802, 8000, 3703565873) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40802,   1,  1000, 0, 0, 1000) /* MaxHealth */;
+VALUES (40802,   1,    10, 0, 0, 1000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40802, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (40802, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (40802, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40802, 67114287, 0, 0);

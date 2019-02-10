@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1607;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1607, 'aurochfirebull', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1607, 'aurochfirebull', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1607,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,38 @@ VALUES (1607,   1, 145, 0, 0) /* Strength */
      , (1607,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1607,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (1607,   3,   340, 0, 0, 340) /* MaxStamina */
-     , (1607,   5,    30, 0, 0, 30) /* MaxMana */;
+VALUES (1607,   1,    10, 0, 0, 110) /* MaxHealth */
+     , (1607,   3,    10, 0, 0, 340) /* MaxStamina */
+     , (1607,   5,    10, 0, 0, 30) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1607, 9,    54,  0, 0, 0, False) /* Create Yoroi Cuirass (54) for ContainTreasure */
+     , (1607, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (1607, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (1607, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (1607, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (1607, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (1607, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (1607, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1607, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (1607, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (1607, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (1607, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (1607, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (1607, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (1607, 9,  2683,  0, 0, 0, False) /* Create Scroll of Frailty Other III (2683) for ContainTreasure */
+     , (1607, 9,  3309,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other III (3309) for ContainTreasure */
+     , (1607, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (1607, 9,  5983,  0, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other IV (5983) for ContainTreasure */
+     , (1607, 9,  6000,  0, 0, 0, False) /* Create Scroll of Flame Bolt IV (6000) for ContainTreasure */
+     , (1607, 9,  7039,  1, 0, 0, False) /* Create Fire Auroch Horn (7039) for ContainTreasure */
+     , (1607, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1607, 9, 27326,  1, 0, 0, False) /* Create Stamina Tincture (27326) for ContainTreasure */
+     , (1607, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1607, 9, 28626,  0, 0, 0, False) /* Create Diforsa Tassets (28626) for ContainTreasure */
+     , (1607, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
+     , (1607, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (1607, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1607, 67111322, 0, 0);

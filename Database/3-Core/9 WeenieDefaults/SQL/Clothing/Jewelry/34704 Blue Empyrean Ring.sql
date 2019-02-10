@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34704;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34704, 'ace34704-blueempyreanring', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34704, 'ace34704-blueempyreanring', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34704,   1,          8) /* ItemType - Jewelry */
@@ -19,7 +19,7 @@ VALUES (34704,   1,          8) /* ItemType - Jewelry */
      , (34704, 109,          0) /* ItemDifficulty */
      , (34704, 114,          1) /* Attuned - Attuned */
      , (34704, 158,          7) /* WieldRequirements - Level */
-     , (34704, 159,          1) /* WieldSkilltype - Axe */
+     , (34704, 159,          1) /* WieldSkillType - Axe */
      , (34704, 160,        150) /* WieldDifficulty */
      , (34704, 265,          9) /* EquipmentSetId - EmpyreanRings */;
 
@@ -52,14 +52,16 @@ VALUES (34704,   1,   33554691) /* Setup */
      , (34704, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34704,   2, 2274286819) /* Container */
-     , (34704, 8000, 2316348054) /* PCAPRecordedObjectIID */;
+VALUES (34704, 8000, 2316348054) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34704,  2613,      2) 
      , (34704,  3981,      2) 
      , (34704,  4070,      2) 
      , (34704,  4077,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34704, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34704, 67111919, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38293;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38293, 'ace38293-spawnwatcher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38293, 'ace38293-spawnwatcher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38293,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38293, 8000, 2629922895) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38293,   1,  1115, 0, 0, 1115) /* MaxHealth */;
+VALUES (38293,   1,    10, 0, 0, 1115) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38293, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (38293, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (38293, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (38293, 9, 20508,  0, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other VII (20508) for ContainTreasure */
+     , (38293, 9, 20547,  0, 0, 0, False) /* Create Scroll of Jahannan's Blessing (20547) for ContainTreasure */
+     , (38293, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
+     , (38293, 9, 43829,  0, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for ContainTreasure */
+     , (38293, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38293, 67113030, 0, 0);

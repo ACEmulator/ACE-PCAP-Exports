@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 712;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (712, 'holtburgblacksmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (712, 'holtburgblacksmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (712,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (712,   1,  80, 0, 0) /* Strength */
      , (712,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (712,   1,    95, 0, 0, 95) /* MaxHealth */
-     , (712,   3,   145, 0, 0, 145) /* MaxStamina */
-     , (712,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (712,   1,    10, 0, 0, 95) /* MaxHealth */
+     , (712,   3,    10, 0, 0, 145) /* MaxStamina */
+     , (712,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (712, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (712, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (712, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (712, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (712, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
      , (712, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */

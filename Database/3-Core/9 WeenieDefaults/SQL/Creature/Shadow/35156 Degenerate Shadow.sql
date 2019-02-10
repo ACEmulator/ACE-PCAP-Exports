@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35156;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35156, 'ace35156-degenerateshadow', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35156, 'ace35156-degenerateshadow', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35156,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,9 @@ VALUES (35156,   1, 300, 0, 0) /* Strength */
      , (35156,   6, 560, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35156,   1,   500, 0, 0, 500) /* MaxHealth */
-     , (35156,   3,   700, 0, 0, 700) /* MaxStamina */
-     , (35156,   5,   860, 0, 0, 860) /* MaxMana */;
+VALUES (35156,   1,    10, 0, 0, 500) /* MaxHealth */
+     , (35156,   3,    10, 0, 0, 700) /* MaxStamina */
+     , (35156,   5,    10, 0, 0, 860) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35156, 67115534, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37113;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37113, 'ace37113-empoweredtassetsoftheperfectlight', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37113, 'ace37113-empoweredtassetsoftheperfectlight', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37113,   1,          2) /* ItemType - Armor */
@@ -20,7 +20,7 @@ VALUES (37113,   1,          2) /* ItemType - Armor */
      , (37113, 108,      10000) /* ItemMaxMana */
      , (37113, 114,          0) /* Attuned - Normal */
      , (37113, 158,          7) /* WieldRequirements - Level */
-     , (37113, 159,          1) /* WieldSkilltype - Axe */
+     , (37113, 159,          1) /* WieldSkillType - Axe */
      , (37113, 160,        130) /* WieldDifficulty */
      , (37113, 265,         12) /* EquipmentSetId - ArmorPerfectLight2 */;
 
@@ -61,8 +61,7 @@ VALUES (37113,   1,   33554656) /* Setup */
      , (37113, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37113,   2, 2461841156) /* Container */
-     , (37113, 8000, 2461841157) /* PCAPRecordedObjectIID */;
+VALUES (37113, 8000, 2461841157) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37113,  2350,      2) 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7431;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7431, 'zombiesoulfearingacolytetower1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7431, 'zombiesoulfearingacolytetower1', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7431,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,21 @@ VALUES (7431,   1,  50, 0, 0) /* Strength */
      , (7431,   6, 115, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7431,   1,    90, 0, 0, 90) /* MaxHealth */
-     , (7431,   3,   130, 0, 0, 128) /* MaxStamina */
-     , (7431,   5,   155, 0, 0, 155) /* MaxMana */;
+VALUES (7431,   1,    10, 0, 0, 90) /* MaxHealth */
+     , (7431,   3,    10, 0, 0, 128) /* MaxStamina */
+     , (7431,   5,    10, 0, 0, 155) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7431, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (7431, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (7431, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (7431, 2, 47886,  1, 0, 0, False) /* Create Quarrel (47886) for Wield */
+     , (7431, 2, 47889,  1, 0, 0, False) /* Create Acid Katar (47889) for Wield */
+     , (7431, 2, 47892,  1, 0, 0, False) /* Create Nekode (47892) for Wield */
+     , (7431, 2, 47895,  1, 0, 0, False) /* Create Silifi (47895) for Wield */
+     , (7431, 2, 47896,  1, 0, 0, False) /* Create Acid Silifi (47896) for Wield */
+     , (7431, 2, 47898,  1, 0, 0, False) /* Create Ono (47898) for Wield */
+     , (7431, 2, 47899,  1, 0, 0, False) /* Create Acid Ono (47899) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7431, 67111341, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44260;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44260, 'ace44260-dametularin', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44260, 'ace44260-dametularin', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44260,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (44260,   1, 290, 0, 0) /* Strength */
      , (44260,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44260,   1,   296, 0, 0, 296) /* MaxHealth */
-     , (44260,   3,   396, 0, 0, 396) /* MaxStamina */
-     , (44260,   5,   396, 0, 0, 396) /* MaxMana */;
+VALUES (44260,   1,    10, 0, 0, 296) /* MaxHealth */
+     , (44260,   3,    10, 0, 0, 396) /* MaxStamina */
+     , (44260,   5,    10, 0, 0, 396) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44260, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44260, 67109556, 0, 24)

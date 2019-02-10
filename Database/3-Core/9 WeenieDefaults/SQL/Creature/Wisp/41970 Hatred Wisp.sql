@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41970;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41970, 'ace41970-hatredwisp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41970, 'ace41970-hatredwisp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41970,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (41970,   1, True ) /* Stuck */
      , (41970,  12, True ) /* ReportCollisions */
      , (41970,  13, False) /* Ethereal */
      , (41970,  14, True ) /* GravityStatus */
-     , (41970,  19, True ) /* Attackable */;
+     , (41970,  19, True ) /* Attackable */
+     , (41970, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41970,  39, 1.29999995231628) /* DefaultScale */;
@@ -45,4 +46,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41970, 8000, 3701376754) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41970,   1, 20250, 0, 0, 20250) /* MaxHealth */;
+VALUES (41970,   1,    10, 0, 0, 20250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41970, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (41970, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (41970, 9, 45151,  1, 0, 0, False) /* Create Mhoire Oubliette Portal Glyph (45151) for ContainTreasure */
+     , (41970, 9, 45193,  1, 0, 0, False) /* Create Red Veined Grub (45193) for ContainTreasure */;

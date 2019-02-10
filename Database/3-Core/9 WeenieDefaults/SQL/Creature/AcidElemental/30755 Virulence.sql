@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30755;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30755, 'acidelementalvirulence', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30755, 'acidelementalvirulence', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30755,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (30755,   1, True ) /* Stuck */
      , (30755,  13, False) /* Ethereal */
      , (30755,  14, True ) /* GravityStatus */
      , (30755,  15, True ) /* LightsStatus */
-     , (30755,  19, True ) /* Attackable */;
+     , (30755,  19, True ) /* Attackable */
+     , (30755, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30755,  39, 1.70000004768372) /* DefaultScale */;
@@ -56,6 +57,9 @@ VALUES (30755,   1, 160, 0, 0) /* Strength */
      , (30755,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30755,   1,   985, 0, 0, 985) /* MaxHealth */
-     , (30755,   3,   720, 0, 0, 720) /* MaxStamina */
-     , (30755,   5,   610, 0, 0, 610) /* MaxMana */;
+VALUES (30755,   1,    10, 0, 0, 985) /* MaxHealth */
+     , (30755,   3,    10, 0, 0, 720) /* MaxStamina */
+     , (30755,   5,    10, 0, 0, 610) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30755, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;

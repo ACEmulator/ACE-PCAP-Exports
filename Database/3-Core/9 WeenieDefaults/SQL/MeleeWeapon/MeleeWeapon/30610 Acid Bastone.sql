@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30610;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30610, 'staffmeleebastoneacid', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30610, 'staffmeleebastoneacid', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30610,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (30610,   1,          1) /* ItemType - MeleeWeapon */
      , (30610, 131,         73) /* MaterialType - Ebony */
      , (30610, 151,          2) /* HookType - Wall */
      , (30610, 158,          2) /* WieldRequirements - RawSkill */
-     , (30610, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (30610, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30610, 160,        370) /* WieldDifficulty */
      , (30610, 172,          5) /* AppraisalLongDescDecoration */
      , (30610, 176,         46) /* AppraisalItemSkill */

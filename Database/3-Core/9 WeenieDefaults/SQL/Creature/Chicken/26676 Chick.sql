@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26676;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (26676, 'chickenbaby', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (26676, 'chickenbaby', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26676,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,14 @@ VALUES (26676,   1,   5, 0, 0) /* Strength */
      , (26676,   6,   1, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26676,   1,     1, 0, 0, 1) /* MaxHealth */
-     , (26676,   3,     2, 0, 0, 2) /* MaxStamina */
-     , (26676,   5,     1, 0, 0, 1) /* MaxMana */;
+VALUES (26676,   1,    10, 0, 0, 1) /* MaxHealth */
+     , (26676,   3,    10, 0, 0, 2) /* MaxStamina */
+     , (26676,   5,    10, 0, 0, 1) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (26676, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (26676, 9,  3670,  0, 0, 0, False) /* Create Copper Heart (3670) for ContainTreasure */
+     , (26676, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26676, 67114979, 0, 0);

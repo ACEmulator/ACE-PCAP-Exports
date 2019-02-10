@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37589;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37589, 'ace37589-forgevaultkey', 22) /* Key */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37589, 'ace37589-forgevaultkey', 22, '2019-02-10 05:41:14') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37589,   1,      16384) /* ItemType - Key */
@@ -36,5 +36,4 @@ VALUES (37589,   1,   33554784) /* Setup */
      , (37589, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37589,   2, 3682604313) /* Container */
-     , (37589, 8000, 3675214088) /* PCAPRecordedObjectIID */;
+VALUES (37589, 8000, 3675214088) /* PCAPRecordedObjectIID */;

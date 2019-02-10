@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44100;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44100, 'ace44100-mumiyahsoldier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44100, 'ace44100-mumiyahsoldier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44100,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,10 @@ VALUES (44100, 8040, 1465254418, 95.8636, -29.8233, 18.006, 0.09352906, 0, 0, 0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44100, 8000, 3632512269) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44100, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (44100, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44100, 67111814, 0, 0);

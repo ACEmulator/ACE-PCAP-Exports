@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41548;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41548, 'ace41548-tingdouzen', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41548, 'ace41548-tingdouzen', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41548,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (41548,   1, 290, 0, 0) /* Strength */
      , (41548,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41548,   1,   296, 0, 0, 296) /* MaxHealth */
-     , (41548,   3,   396, 0, 0, 396) /* MaxStamina */
-     , (41548,   5,   386, 0, 0, 386) /* MaxMana */;
+VALUES (41548,   1,    10, 0, 0, 296) /* MaxHealth */
+     , (41548,   3,    10, 0, 0, 396) /* MaxStamina */
+     , (41548,   5,    10, 0, 0, 386) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41548, 2, 40760,  1, 0, 0, False) /* Create Nodachi (40760) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41548, 67109964, 92, 4)

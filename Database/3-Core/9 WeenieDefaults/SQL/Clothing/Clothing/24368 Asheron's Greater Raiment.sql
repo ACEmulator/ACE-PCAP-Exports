@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24368;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24368, 'raimentasheronhighfocus', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24368, 'raimentasheronhighfocus', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24368,   1,          4) /* ItemType - Clothing */
@@ -18,7 +18,7 @@ VALUES (24368,   1,          4) /* ItemType - Clothing */
      , (24368, 108,        800) /* ItemMaxMana */
      , (24368, 109,        150) /* ItemDifficulty */
      , (24368, 158,          7) /* WieldRequirements - Level */
-     , (24368, 159,          1) /* WieldSkilltype - Axe */
+     , (24368, 159,          1) /* WieldSkillType - Axe */
      , (24368, 160,         90) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1040;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1040, 'yaraqgrocer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1040, 'yaraqgrocer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1040,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (1040,   1, 100, 0, 0) /* Strength */
      , (1040,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1040,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (1040,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (1040,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (1040,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (1040,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (1040,   5,    10, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1040, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */

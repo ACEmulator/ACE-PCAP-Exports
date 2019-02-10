@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34974;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34974, 'ace34974-ancientcounselor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34974, 'ace34974-ancientcounselor', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34974,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34974, 8000, 3709186409) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34974,   1,  1834, 0, 0, 1834) /* MaxHealth */;
+VALUES (34974,   1,    10, 0, 0, 1834) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34974, 2, 48102,  1, 0, 0, False) /* Create Khopesh (48102) for Wield */
+     , (34974, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (34974, 9, 20494,  0, 0, 0, False) /* Create Scroll of Unflinching Persistence (20494) for ContainTreasure */
+     , (34974, 9, 34963,  0, 0, 0, False) /* Create Misshapen Bone Fragment (34963) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34974, 67114483, 0, 0);

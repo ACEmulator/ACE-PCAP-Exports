@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23998;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23998, 'npcdiamondgolem1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23998, 'npcdiamondgolem1', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23998,   1,         16) /* ItemType - Creature */
@@ -59,9 +59,9 @@ VALUES (23998,   1, 680, 0, 0) /* Strength */
      , (23998,   6, 585, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23998,   1,  1220, 0, 0, 1220) /* MaxHealth */
-     , (23998,   3,  1491, 0, 0, 1491) /* MaxStamina */
-     , (23998,   5,  1486, 0, 0, 1486) /* MaxMana */;
+VALUES (23998,   1,    10, 0, 0, 1220) /* MaxHealth */
+     , (23998,   3,    10, 0, 0, 1491) /* MaxStamina */
+     , (23998,   5,    10, 0, 0, 1486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (23998, 0, 83894477, 83892492)

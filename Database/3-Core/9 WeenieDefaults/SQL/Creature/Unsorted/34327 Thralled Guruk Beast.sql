@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34327;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34327, 'ace34327-thralledgurukbeast', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34327, 'ace34327-thralledgurukbeast', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34327,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,10 @@ VALUES (34327, 8040, 8782426, 71.382, -123.251, -6, -0.8904199, 0, 0, 0.4551399)
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34327, 8000, 2877438386) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34327, 2, 27867,  1, 0, 0, False) /* Create Stone Axe (27867) for Wield */
+     , (34327, 2, 27871,  1, 0, 0, False) /* Create Tree Trunk (27871) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34327, 67115198, 0, 0);

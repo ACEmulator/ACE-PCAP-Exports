@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 967;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (967, 'undercityarmorer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (967, 'undercityarmorer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (967,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (967,   1, 120, 0, 0) /* Strength */
      , (967,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (967,   1,   240, 0, 0, 240) /* MaxHealth */
-     , (967,   3,   275, 0, 0, 275) /* MaxStamina */
-     , (967,   5,   130, 0, 0, 130) /* MaxMana */;
+VALUES (967,   1,    10, 0, 0, 240) /* MaxHealth */
+     , (967,   3,    10, 0, 0, 275) /* MaxStamina */
+     , (967,   5,    10, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (967, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+VALUES (967, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
+     , (967, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (967, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (967, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (967, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */

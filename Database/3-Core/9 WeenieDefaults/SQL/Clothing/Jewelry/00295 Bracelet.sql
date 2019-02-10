@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 295;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (295, 'bracelet', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (295, 'bracelet', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (295,   1,          8) /* ItemType - Jewelry */
@@ -52,12 +52,18 @@ VALUES (295,   1,   33554683) /* Setup */
      , (295, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (295,   2, 3685853675) /* Container */
-     , (295, 8000, 3684971266) /* PCAPRecordedObjectIID */;
+VALUES (295, 8000, 3684971266) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (295,   277,      2) 
      , (295,  2555,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (295, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
+     , (295, 2, 23706,  1, 0, 0, False) /* Create Fire Tachi (23706) for Wield */
+     , (295, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (295, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (295, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (295, 67111920, 0, 0);

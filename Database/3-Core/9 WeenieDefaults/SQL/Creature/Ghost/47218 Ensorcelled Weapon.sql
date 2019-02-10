@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47218;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (47218, 'ace47218-ensorcelledweapon', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (47218, 'ace47218-ensorcelledweapon', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47218,   1,         16) /* ItemType - Creature */
@@ -46,4 +46,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47218, 8000, 3358288599) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47218,   1,  4865, 0, 0, 4865) /* MaxHealth */;
+VALUES (47218,   1,    10, 0, 0, 4865) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (47218, 2, 47221,  1, 0, 0, False) /* Create Ensorcelled Bow (47221) for Wield */
+     , (47218, 2, 47513,  1, 0, 0, False) /* Create Arrow (47513) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11371;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11371, 'ahurengatoneawa_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11371, 'ahurengatoneawa_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11371,   1,         16) /* ItemType - Creature */
@@ -60,9 +60,12 @@ VALUES (11371,   1,  50, 0, 0) /* Strength */
      , (11371,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11371,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (11371,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (11371,   5,   170, 0, 0, 170) /* MaxMana */;
+VALUES (11371,   1,    10, 0, 0, 110) /* MaxHealth */
+     , (11371,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (11371,   5,    10, 0, 0, 170) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11371, 2, 11912,  1, 0, 0, False) /* Create Lance of the Quiddity (11912) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11371, 67116625, 57, 48)

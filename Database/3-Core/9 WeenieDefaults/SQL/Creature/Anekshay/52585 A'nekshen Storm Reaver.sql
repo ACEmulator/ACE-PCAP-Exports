@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52585;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52585, 'ace52585-anekshenstormreaver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52585, 'ace52585-anekshenstormreaver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52585,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (52585,   1, True ) /* Stuck */
      , (52585,  13, False) /* Ethereal */
      , (52585,  14, True ) /* GravityStatus */
      , (52585,  19, True ) /* Attackable */
-     , (52585,  42, True ) /* AllowEdgeSlide */;
+     , (52585,  42, True ) /* AllowEdgeSlide */
+     , (52585, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52585,   1, 'A''nekshen Storm Reaver') /* Name */
@@ -46,7 +47,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52585, 8000, 3684770270) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52585,   1,  8200, 0, 0, 8200) /* MaxHealth */;
+VALUES (52585,   1,    10, 0, 0, 8200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52585, 2, 52631,  1, 0, 0, False) /* Create A'nekshen Stormwood Sword (52631) for Wield */
+     , (52585, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (52585, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (52585, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52585, 67110361, 72, 8)

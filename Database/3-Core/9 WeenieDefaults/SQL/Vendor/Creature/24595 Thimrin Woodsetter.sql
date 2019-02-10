@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24595;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24595, 'candethkeeptreetradesman', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24595, 'candethkeeptreetradesman', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24595,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (24595,   1, 120, 0, 0) /* Strength */
      , (24595,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24595,   1,   185, 0, 0, 185) /* MaxHealth */
-     , (24595,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (24595,   5,   165, 0, 0, 165) /* MaxMana */;
+VALUES (24595,   1,    10, 0, 0, 185) /* MaxHealth */
+     , (24595,   3,    10, 0, 0, 290) /* MaxStamina */
+     , (24595,   5,    10, 0, 0, 165) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24595, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+VALUES (24595, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
+     , (24595, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (24595, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (24595, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (24595, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */

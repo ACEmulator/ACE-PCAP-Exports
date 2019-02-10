@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6534;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6534, 'shadowsprite', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6534, 'shadowsprite', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6534,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,28 @@ VALUES (6534,   1,  30, 0, 0) /* Strength */
      , (6534,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6534,   1,    30, 0, 0, 30) /* MaxHealth */
-     , (6534,   3,    50, 0, 0, 49) /* MaxStamina */
-     , (6534,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (6534,   1,    10, 0, 0, 30) /* MaxHealth */
+     , (6534,   3,    10, 0, 0, 49) /* MaxStamina */
+     , (6534,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6534, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (6534, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (6534, 9,   273, 19, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (6534, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (6534, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (6534, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (6534, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (6534, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (6534, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (6534, 9,  1640,  0, 0, 0, False) /* Create Scroll of Lightning Bolt (1640) for ContainTreasure */
+     , (6534, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (6534, 9,  3906,  0, 0, 0, False) /* Create Lightning War Hammer (3906) for ContainTreasure */
+     , (6534, 9,  6060,  1, 0, 0, False) /* Create Dark Speck (6060) for ContainTreasure */
+     , (6534, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (6534, 9, 40625,  0, 0, 0, False) /* Create Lightning Quadrelle (40625) for ContainTreasure */
+     , (6534, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (6534, 9, 48959,  0, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6534, 67114711, 0, 0);

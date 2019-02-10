@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25636;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25636, 'basinetleathernew', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25636, 'basinetleathernew', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25636,   1,          2) /* ItemType - Armor */
@@ -55,8 +55,11 @@ VALUES (25636,   1,   33555048) /* Setup */
      , (25636, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25636,   2, 3700028645) /* Container */
-     , (25636, 8000, 3700028178) /* PCAPRecordedObjectIID */;
+VALUES (25636, 8000, 3700028178) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25636, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
+     , (25636, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25636, 67114645, 240, 16);

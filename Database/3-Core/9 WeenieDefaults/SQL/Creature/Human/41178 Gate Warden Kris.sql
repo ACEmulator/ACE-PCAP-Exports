@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41178;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41178, 'ace41178-gatewardenkris', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41178, 'ace41178-gatewardenkris', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41178,   1,         16) /* ItemType - Creature */
@@ -60,7 +60,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41178, 8000, 2884152120) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41178,   1,   365, 0, 0, 365) /* MaxHealth */;
+VALUES (41178,   1,    10, 0, 0, 365) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41178, 2, 33257,  1, 0, 0, False) /* Create Prismatic Diamond Shield (33257) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41178, 67109559, 0, 24)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38472;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38472, 'ace38472-eldrytchwebbreastplate', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38472, 'ace38472-eldrytchwebbreastplate', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38472,   1,          2) /* ItemType - Armor */
@@ -23,7 +23,7 @@ VALUES (38472,   1,          2) /* ItemType - Armor */
      , (38472, 115,        273) /* ItemSkillLevelLimit */
      , (38472, 131,         60) /* MaterialType - Gold */
      , (38472, 158,          9) /* WieldRequirements - IntStat */
-     , (38472, 159,        288) /* WieldSkilltype */
+     , (38472, 159,        288) /* WieldSkillType */
      , (38472, 160,        601) /* WieldDifficulty */
      , (38472, 172,          5) /* AppraisalLongDescDecoration */
      , (38472, 176,          7) /* AppraisalItemSkill */

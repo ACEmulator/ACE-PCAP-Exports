@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32322;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32322, 'ace32322-portalkeeper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32322, 'ace32322-portalkeeper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32322,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,15 @@ VALUES (32322,   1, 445, 0, 0) /* Strength */
      , (32322,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32322,   1,   720, 0, 0, 720) /* MaxHealth */
-     , (32322,   3,  1400, 0, 0, 1400) /* MaxStamina */
-     , (32322,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (32322,   1,    10, 0, 0, 720) /* MaxHealth */
+     , (32322,   3,    10, 0, 0, 1400) /* MaxStamina */
+     , (32322,   5,    10, 0, 0, 85) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32322, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (32322, 9, 20474,  0, 0, 0, False) /* Create Scroll of Icy Boon (20474) for ContainTreasure */
+     , (32322, 9, 28629,  0, 0, 0, False) /* Create Alduressa Coat (28629) for ContainTreasure */
+     , (32322, 9, 45366,  1, 0, 0, False) /* Create Brawler's Crystal (45366) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32322, 67115545, 0, 0);

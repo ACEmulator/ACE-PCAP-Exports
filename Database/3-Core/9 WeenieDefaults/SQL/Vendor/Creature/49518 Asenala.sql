@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49518;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49518, 'ace49518-asenala', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49518, 'ace49518-asenala', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49518,   1,         16) /* ItemType - Creature */
@@ -66,9 +66,9 @@ VALUES (49518,   1,  20, 0, 0) /* Strength */
      , (49518,   6,  65, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49518,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (49518,   3,   110, 0, 0, 110) /* MaxStamina */
-     , (49518,   5,   135, 0, 0, 135) /* MaxMana */;
+VALUES (49518,   1,    10, 0, 0, 80) /* MaxHealth */
+     , (49518,   3,    10, 0, 0, 110) /* MaxStamina */
+     , (49518,   5,    10, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49518, 4, 48878, -1, 0, 0, False) /* Create Copper Golem Essence (48878) for Shop */

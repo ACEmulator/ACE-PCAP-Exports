@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41638;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41638, 'ace41638-weepingtwohandedspear', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41638, 'ace41638-weepingtwohandedspear', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41638,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (41638,   1,          1) /* ItemType - MeleeWeapon */
      , (41638, 114,          0) /* Attuned - Normal */
      , (41638, 151,          2) /* HookType - Wall */
      , (41638, 158,          2) /* WieldRequirements - RawSkill */
-     , (41638, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41638, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41638, 160,        325) /* WieldDifficulty */
      , (41638, 166,         31) /* SlayerCreatureType - Human */
      , (41638, 8030,          0);
@@ -67,15 +67,14 @@ VALUES (41638,   1,   33558296) /* Setup */
      , (41638, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (41638, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41638, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (41638, 8009,          1);
+     , (41638, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41638, 8040, 3111059485, 83.8279, 106.7387, 18.3812, -0.01308082, -0.01308082, -0.7069858, -0.7069858) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001D [83.827900 106.738700 18.381200] -0.013081 -0.013081 -0.706986 -0.706986 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41638,   3, 1343270995) /* Wielder */
-     , (41638, 8000, 2237242397) /* PCAPRecordedObjectIID */
+VALUES (41638, 8000, 2237242397) /* PCAPRecordedObjectIID */
      , (41638, 8008, 1343270995) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37177;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37177, 'ace37177-bloodpriestess', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37177, 'ace37177-bloodpriestess', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37177,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,19 @@ VALUES (37177,   1, 270, 0, 0) /* Strength */
      , (37177,   6, 470, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37177,   1,   890, 0, 0, 890) /* MaxHealth */
-     , (37177,   3,   910, 0, 0, 910) /* MaxStamina */
-     , (37177,   5,  1000, 0, 0, 1000) /* MaxMana */;
+VALUES (37177,   1,    10, 0, 0, 890) /* MaxHealth */
+     , (37177,   3,    10, 0, 0, 910) /* MaxStamina */
+     , (37177,   5,    10, 0, 0, 1000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37177, 2, 31820,  1, 0, 0, False) /* Create Acid Baton (31820) for Wield */
+     , (37177, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (37177, 9,  3845,  0, 0, 0, False) /* Create Frost Ono (3845) for ContainTreasure */
+     , (37177, 9,  3878,  0, 0, 0, False) /* Create Lightning Broad Sword (3878) for ContainTreasure */
+     , (37177, 9, 20489,  0, 0, 0, False) /* Create Scroll of Battlemage's Boon (20489) for ContainTreasure */
+     , (37177, 9, 20498,  0, 0, 0, False) /* Create Scroll of Hands of Chorizite (20498) for ContainTreasure */
+     , (37177, 9, 20500,  0, 0, 0, False) /* Create Scroll of Aliester's Blessing (20500) for ContainTreasure */
+     , (37177, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37177, 67109557, 0, 24)

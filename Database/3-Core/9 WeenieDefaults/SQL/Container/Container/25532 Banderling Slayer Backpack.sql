@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25532;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25532, 'backpackbanderlingslayer', 21) /* Container */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25532, 'backpackbanderlingslayer', 21, '2019-02-10 05:41:14') /* Container */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25532,   1,        512) /* ItemType - Container */
@@ -39,8 +39,7 @@ VALUES (25532,   1,   33558496) /* Setup */
      , (25532, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25532,   2, 1343111324) /* Container */
-     , (25532, 8000, 2192311136) /* PCAPRecordedObjectIID */;
+VALUES (25532, 8000, 2192311136) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25532, 67114267, 0, 0);

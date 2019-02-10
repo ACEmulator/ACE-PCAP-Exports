@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48764;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48764, 'ace48764-countphainor', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48764, 'ace48764-countphainor', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48764,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,19 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48764, 8000, 3684343915) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48764,   1, 11878, 0, 0, 11878) /* MaxHealth */;
+VALUES (48764,   1,    10, 0, 0, 11878) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48764, 2, 48770,  1, 0, 0, False) /* Create Blade of Phainor (48770) for Wield */
+     , (48764, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (48764, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (48764, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (48764, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
+     , (48764, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (48764, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */
+     , (48764, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
+     , (48764, 9, 45306,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Self VII (45306) for ContainTreasure */
+     , (48764, 9, 49245,  0, 0, 0, False) /* Create Lightning Zombie Essence (180) (49245) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48764, 67116527, 0, 0);

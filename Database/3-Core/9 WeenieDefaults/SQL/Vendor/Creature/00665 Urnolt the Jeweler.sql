@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 665;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (665, 'rithwicjeweler', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (665, 'rithwicjeweler', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (665,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (665,   1,  25, 0, 0) /* Strength */
      , (665,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (665,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (665,   3,    80, 0, 0, 80) /* MaxStamina */
-     , (665,   5,    65, 0, 0, 65) /* MaxMana */;
+VALUES (665,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (665,   3,    10, 0, 0, 80) /* MaxStamina */
+     , (665,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (665, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */

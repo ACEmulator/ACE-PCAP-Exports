@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30031;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30031, 'sanamarfletcher', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30031, 'sanamarfletcher', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30031,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (30031,   1,  45, 0, 0) /* Strength */
      , (30031,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30031,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (30031,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (30031,   5,   155, 0, 0, 155) /* MaxMana */;
+VALUES (30031,   1,    10, 0, 0, 135) /* MaxHealth */
+     , (30031,   3,    10, 0, 0, 140) /* MaxStamina */
+     , (30031,   5,    10, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30031, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
+VALUES (30031, 2, 30625,  1, 0, 0, False) /* Create War Bow (30625) for Wield */
+     , (30031, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
      , (30031, 4,   312, -1, 0, 0, False) /* Create Light Crossbow (312) for Shop */
      , (30031, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30031, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */

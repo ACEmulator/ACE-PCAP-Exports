@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43273;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43273, 'ace43273-engorgedbloodstoneshard', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43273, 'ace43273-engorgedbloodstoneshard', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43273,   1,       2048) /* ItemType - Gem */
@@ -30,5 +30,4 @@ VALUES (43273,   1,   33561126) /* Setup */
      , (43273, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43273,   2, 2629768143) /* Container */
-     , (43273, 8000, 2629764003) /* PCAPRecordedObjectIID */;
+VALUES (43273, 8000, 2629764003) /* PCAPRecordedObjectIID */;

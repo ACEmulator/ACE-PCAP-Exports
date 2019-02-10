@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27799;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27799, 'skeletonbloodfiend', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27799, 'skeletonbloodfiend', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27799,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,26 @@ VALUES (27799,   1, 135, 0, 0) /* Strength */
      , (27799,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27799,   1,   551, 0, 0, 551) /* MaxHealth */
-     , (27799,   3,   645, 0, 0, 645) /* MaxStamina */
-     , (27799,   5,   225, 0, 0, 225) /* MaxMana */;
+VALUES (27799,   1,    10, 0, 0, 551) /* MaxHealth */
+     , (27799,   3,    10, 0, 0, 645) /* MaxStamina */
+     , (27799,   5,    10, 0, 0, 225) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27799, 2,  7312,  1, 0, 0, False) /* Create Kite Shield (7312) for Wield */
+     , (27799, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */
+     , (27799, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
+     , (27799, 2, 47676,  1, 0, 0, False) /* Create Flaming Tachi (47676) for Wield */
+     , (27799, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (27799, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (27799, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (27799, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (27799, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (27799, 9, 20420,  0, 0, 0, False) /* Create Scroll of Astyrrian's Bane (20420) for ContainTreasure */
+     , (27799, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
+     , (27799, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+     , (27799, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */
+     , (27799, 9, 40711,  0, 0, 0, False) /* Create Covenant Helm (40711) for ContainTreasure */
+     , (27799, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27799, 67116525, 0, 0);

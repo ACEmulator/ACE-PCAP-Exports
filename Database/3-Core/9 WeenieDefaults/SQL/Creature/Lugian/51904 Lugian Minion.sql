@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51904;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51904, 'ace51904-lugianminion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51904, 'ace51904-lugianminion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51904,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51904, 8000, 3695732860) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51904,   1,  6140, 0, 0, 6140) /* MaxHealth */;
+VALUES (51904,   1,    10, 0, 0, 6140) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51904, 2, 51910,  1, 0, 0, False) /* Create Lugian Mace (51910) for Wield */
+     , (51904, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (51904, 9, 20460,  0, 0, 0, False) /* Create Scroll of Crushing Shame (20460) for ContainTreasure */
+     , (51904, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (51904, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
+     , (51904, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (51904, 9, 49425,  0, 0, 0, False) /* Create Acid Spectre Essence (150) (49425) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51904, 67113159, 0, 0);

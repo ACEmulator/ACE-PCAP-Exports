@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32709;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32709, 'ace32709-shoswordsman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32709, 'ace32709-shoswordsman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32709,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (32709,   1, 140, 0, 0) /* Strength */
      , (32709,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32709,   1,    85, 0, 0, 85) /* MaxHealth */
-     , (32709,   3,   130, 0, 0, 130) /* MaxStamina */
-     , (32709,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (32709,   1,    10, 0, 0, 85) /* MaxHealth */
+     , (32709,   3,    10, 0, 0, 130) /* MaxStamina */
+     , (32709,   5,    10, 0, 0, 70) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32709, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */
+     , (32709, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32709, 67109565, 32, 8)

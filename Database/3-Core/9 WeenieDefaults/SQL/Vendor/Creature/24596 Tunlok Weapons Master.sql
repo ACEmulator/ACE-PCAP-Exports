@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24596;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24596, 'candethkeeptreewarrior', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24596, 'candethkeeptreewarrior', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24596,   1,         16) /* ItemType - Creature */
@@ -66,12 +66,13 @@ VALUES (24596,   1, 259, 0, 0) /* Strength */
      , (24596,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24596,   1,   254, 0, 0, 254) /* MaxHealth */
-     , (24596,   3,   348, 0, 0, 348) /* MaxStamina */
-     , (24596,   5,    35, 0, 0, 35) /* MaxMana */;
+VALUES (24596,   1,    10, 0, 0, 254) /* MaxHealth */
+     , (24596,   3,    10, 0, 0, 348) /* MaxStamina */
+     , (24596,   5,    10, 0, 0, 35) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24596, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
+VALUES (24596, 2, 23757,  1, 0, 0, False) /* Create Lugian Mace (23757) for Wield */
+     , (24596, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
      , (24596, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
      , (24596, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
      , (24596, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */

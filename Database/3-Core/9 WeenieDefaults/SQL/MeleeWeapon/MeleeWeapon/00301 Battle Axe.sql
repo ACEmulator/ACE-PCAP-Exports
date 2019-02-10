@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 301;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (301, 'axebattle', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (301, 'axebattle', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (301,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (301,   1,          1) /* ItemType - MeleeWeapon */
      , (301, 131,         60) /* MaterialType - Gold */
      , (301, 151,          2) /* HookType - Wall */
      , (301, 158,          2) /* WieldRequirements - RawSkill */
-     , (301, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (301, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (301, 160,        325) /* WieldDifficulty */
      , (301, 172,          5) /* AppraisalLongDescDecoration */
      , (301, 176,         44) /* AppraisalItemSkill */
@@ -69,7 +69,7 @@ VALUES (301,   1,   33554725) /* Setup */
      , (301, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (301, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (301, 8005,     194593) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
-     , (301, 8009,          1)
+     , (301, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
      , (301, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -77,8 +77,7 @@ VALUES (301, 8040, 3465871682, 155.2554, 30.84464, 19.929, -0.06593028, -0.06593
 /* @teleloc 0xCE950142 [155.255400 30.844640 19.929000] -0.065930 -0.065930 -0.704026 -0.704026 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (301,   3, 2095665183) /* Wielder */
-     , (301, 8000, 2155135356) /* PCAPRecordedObjectIID */
+VALUES (301, 8000, 2155135356) /* PCAPRecordedObjectIID */
      , (301, 8008, 2095665183) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

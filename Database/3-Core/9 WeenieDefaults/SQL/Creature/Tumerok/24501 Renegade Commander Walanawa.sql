@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24501;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24501, 'tumerokrenegadecommander2mage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24501, 'tumerokrenegadecommander2mage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24501,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24501, 8000, 3692287225) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24501,   1,  5000, 0, 0, 5000) /* MaxHealth */;
+VALUES (24501,   1,    10, 0, 0, 5000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24501, 2, 15440,  1, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */
+     , (24501, 2, 24569,  1, 0, 0, False) /* Create Renegade Crossbow (24569) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24501, 67116627, 1, 48)

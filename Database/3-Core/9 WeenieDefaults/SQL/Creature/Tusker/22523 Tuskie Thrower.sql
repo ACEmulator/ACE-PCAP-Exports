@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22523;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22523, 'tuskiethrower', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22523, 'tuskiethrower', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22523,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,12 @@ VALUES (22523,   1, 210, 0, 0) /* Strength */
      , (22523,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22523,   1,   125, 0, 0, 125) /* MaxHealth */
-     , (22523,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (22523,   5,    30, 0, 0, 30) /* MaxMana */;
+VALUES (22523,   1,    10, 0, 0, 125) /* MaxHealth */
+     , (22523,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (22523,   5,    10, 0, 0, 30) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22523, 2, 22548,  1, 0, 0, False) /* Create Coconut (22548) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22523, 67113012, 0, 0);

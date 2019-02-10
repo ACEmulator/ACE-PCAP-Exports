@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7990;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7990, 'ursuinfield', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7990, 'ursuinfield', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7990,   1,         16) /* ItemType - Creature */
@@ -51,6 +51,41 @@ VALUES (7990,   1,  80, 0, 0) /* Strength */
      , (7990,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7990,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (7990,   3,   240, 0, 0, 237) /* MaxStamina */
-     , (7990,   5,    20, 0, 0, 20) /* MaxMana */;
+VALUES (7990,   1,    10, 0, 0, 80) /* MaxHealth */
+     , (7990,   3,    10, 0, 0, 237) /* MaxStamina */
+     , (7990,   5,    10, 0, 0, 20) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7990, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (7990, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (7990, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (7990, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (7990, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (7990, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (7990, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (7990, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (7990, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (7990, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (7990, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (7990, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (7990, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (7990, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (7990, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (7990, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
+     , (7990, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (7990, 9,  2727,  0, 0, 0, False) /* Create Scroll of Revitalize Self II (2727) for ContainTreasure */
+     , (7990, 9,  2863,  0, 0, 0, False) /* Create Scroll of Lure Blade III (2863) for ContainTreasure */
+     , (7990, 9,  3154,  0, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance III (3154) for ContainTreasure */
+     , (7990, 9,  4192,  0, 0, 0, False) /* Create Acid Cestus (4192) for ContainTreasure */
+     , (7990, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (7990, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (7990, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (7990, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (7990, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (7990, 9, 30593,  0, 0, 0, False) /* Create Lightning Partizan (30593) for ContainTreasure */
+     , (7990, 9, 40762,  0, 0, 0, False) /* Create Lightning Nodachi (40762) for ContainTreasure */
+     , (7990, 9, 45325,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self II (45325) for ContainTreasure */
+     , (7990, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
+     , (7990, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */
+     , (7990, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */
+     , (7990, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */;

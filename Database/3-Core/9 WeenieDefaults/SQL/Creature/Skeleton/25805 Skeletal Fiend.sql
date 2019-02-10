@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25805;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25805, 'skeletonfiend', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25805, 'skeletonfiend', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25805,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,38 @@ VALUES (25805,   1, 135, 0, 0) /* Strength */
      , (25805,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25805,   1,   551, 0, 0, 551) /* MaxHealth */
-     , (25805,   3,   645, 0, 0, 645) /* MaxStamina */
-     , (25805,   5,   225, 0, 0, 225) /* MaxMana */;
+VALUES (25805,   1,    10, 0, 0, 551) /* MaxHealth */
+     , (25805,   3,    10, 0, 0, 645) /* MaxStamina */
+     , (25805,   5,    10, 0, 0, 225) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25805, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (25805, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (25805, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (25805, 2, 47066,  1, 0, 0, False) /* Create Arrow (47066) for Wield */
+     , (25805, 2, 47428,  1, 0, 0, False) /* Create Acid Mace (47428) for Wield */
+     , (25805, 2, 47447,  1, 0, 0, False) /* Create Mace (47447) for Wield */
+     , (25805, 2, 47466,  1, 0, 0, False) /* Create Lightning Mace (47466) for Wield */
+     , (25805, 2, 47504,  1, 0, 0, False) /* Create Frost Mace (47504) for Wield */
+     , (25805, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */
+     , (25805, 2, 47624,  1, 0, 0, False) /* Create Acid Tachi (47624) for Wield */
+     , (25805, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
+     , (25805, 2, 47695,  1, 0, 0, False) /* Create Frost Tachi (47695) for Wield */
+     , (25805, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (25805, 2, 47733,  1, 0, 0, False) /* Create Spear (47733) for Wield */
+     , (25805, 2, 47771,  1, 0, 0, False) /* Create Flaming Spear (47771) for Wield */
+     , (25805, 2, 47790,  1, 0, 0, False) /* Create Frost Spear (47790) for Wield */
+     , (25805, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (25805, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (25805, 2, 48233,  1, 0, 0, False) /* Create Electric Compound Bow (48233) for Wield */
+     , (25805, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
+     , (25805, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */
+     , (25805, 2, 48260,  1, 0, 0, False) /* Create Arrow (48260) for Wield */
+     , (25805, 2, 48279,  1, 0, 0, False) /* Create Arrow (48279) for Wield */
+     , (25805, 2, 48317,  1, 0, 0, False) /* Create Arrow (48317) for Wield */
+     , (25805, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (25805, 9, 20238,  0, 0, 0, False) /* Create Scroll of Anemia (20238) for ContainTreasure */
+     , (25805, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25805, 67116524, 0, 0);

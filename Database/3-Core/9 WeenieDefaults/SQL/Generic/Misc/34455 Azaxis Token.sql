@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34455;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34455, 'ace34455-azaxistoken', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34455, 'ace34455-azaxistoken', 1, '2019-02-10 05:41:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34455,   1,        128) /* ItemType - Misc */
@@ -35,5 +35,7 @@ VALUES (34455,   1,   33554817) /* Setup */
      , (34455, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34455,   2, 2988579999) /* Container */
-     , (34455, 8000, 2988579994) /* PCAPRecordedObjectIID */;
+VALUES (34455, 8000, 2988579994) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34455, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

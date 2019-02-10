@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35905;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35905, 'ace35905-deena', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35905, 'ace35905-deena', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35905,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (35905,   1, 155, 0, 0) /* Strength */
      , (35905,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35905,   1,    88, 0, 0, 88) /* MaxHealth */
-     , (35905,   3,   125, 0, 0, 125) /* MaxStamina */
-     , (35905,   5,   130, 0, 0, 130) /* MaxMana */;
+VALUES (35905,   1,    10, 0, 0, 88) /* MaxHealth */
+     , (35905,   3,    10, 0, 0, 125) /* MaxStamina */
+     , (35905,   5,    10, 0, 0, 130) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35905, 2, 35914,  1, 0, 0, False) /* Create Paradox-touched Olthoi Katar (35914) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35905, 67109565, 32, 8)

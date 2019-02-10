@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7266;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7266, 'lightningstreak', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7266, 'lightningstreak', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7266,   1,          0) /* ItemType - None */
@@ -45,3 +45,8 @@ VALUES (7266, 8040, 686686234, 91.94933, 29.49975, 23.83086, -0.07385156, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7266, 8000, 3688235907) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7266, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (7266, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (7266, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

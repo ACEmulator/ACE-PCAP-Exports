@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8215;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8215, 'mitematronxara', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8215, 'mitematronxara', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8215,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8215, 8000, 2883289133) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8215,   1,   100, 0, 0, 100) /* MaxHealth */;
+VALUES (8215,   1,    10, 0, 0, 100) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8215, 2,  8211,  1, 0, 0, False) /* Create Discus (8211) for Wield */
+     , (8215, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (8215, 9,  2738,  0, 0, 0, False) /* Create Scroll of Strength Other III (2738) for ContainTreasure */
+     , (8215, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */
+     , (8215, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (8215, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8215, 67115131, 0, 0);

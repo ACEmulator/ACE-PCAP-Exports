@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30009;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30009, 'viascriveneritemwar1starter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30009, 'viascriveneritemwar1starter', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30009,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (30009,   1,  90, 0, 0) /* Strength */
      , (30009,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30009,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (30009,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (30009,   5,   215, 0, 0, 215) /* MaxMana */;
+VALUES (30009,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (30009,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (30009,   5,    10, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30009, 4,  1552, -1, 0, 0, False) /* Create Scroll of Blade Bane (1552) for Shop */

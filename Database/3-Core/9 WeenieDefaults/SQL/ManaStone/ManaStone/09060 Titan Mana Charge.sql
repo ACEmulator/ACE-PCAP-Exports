@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9060;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9060, 'manachargetitan', 37) /* ManaStone */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9060, 'manachargetitan', 37, '2019-02-10 05:41:14') /* ManaStone */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9060,   1,     524288) /* ItemType - ManaStone */
@@ -44,3 +44,6 @@ VALUES (9060, 8040, 3583574079, 171.4812, 149.6451, 374, 0.9834927, 0, 0, -0.180
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9060, 8000, 3674261427) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9060, 2,  7578,  1, 0, 0, False) /* Create Rock (7578) for Wield */;

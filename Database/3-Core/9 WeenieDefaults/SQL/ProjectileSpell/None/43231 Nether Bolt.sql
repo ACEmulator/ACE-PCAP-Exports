@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43231;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43231, 'ace43231-netherbolt', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43231, 'ace43231-netherbolt', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43231,   1,          0) /* ItemType - None */
@@ -46,3 +46,16 @@ VALUES (43231, 8040, 2114060732, 81.64206, -129.133, 8.645861, -0.02940688, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43231, 8000, 3684996556) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43231, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (43231, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (43231, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (43231, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (43231, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (43231, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (43231, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
+     , (43231, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
+     , (43231, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
+     , (43231, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (43231, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;

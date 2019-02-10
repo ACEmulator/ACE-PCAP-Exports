@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46661;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46661, 'ace46661-clawmastergatekeeper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46661, 'ace46661-clawmastergatekeeper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46661,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46661, 8000, 3707809500) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46661,   1,  5175, 0, 0, 5175) /* MaxHealth */;
+VALUES (46661,   1,    10, 0, 0, 5175) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46661, 2, 46374,  1, 0, 0, False) /* Create Spectral Nekode (46374) for Wield */
+     , (46661, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
+     , (46661, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (46661, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (46661, 9, 46600,  1, 0, 0, False) /* Create Broken Key (46600) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46661, 67114607, 168, 6)

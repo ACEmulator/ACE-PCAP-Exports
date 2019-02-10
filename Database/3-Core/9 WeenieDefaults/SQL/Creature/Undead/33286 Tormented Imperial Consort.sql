@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33286;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33286, 'ace33286-tormentedimperialconsort', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33286, 'ace33286-tormentedimperialconsort', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33286,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,32 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33286, 8000, 3708003619) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33286,   1,  2420, 0, 0, 2420) /* MaxHealth */;
+VALUES (33286,   1,    10, 0, 0, 2420) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33286, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */
+     , (33286, 2, 48102,  1, 0, 0, False) /* Create Khopesh (48102) for Wield */
+     , (33286, 2, 48103,  1, 0, 0, False) /* Create Sickle (48103) for Wield */
+     , (33286, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (33286, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (33286, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (33286, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (33286, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (33286, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */
+     , (33286, 9, 20568,  0, 0, 0, False) /* Create Scroll of Topheron's Boon (20568) for ContainTreasure */
+     , (33286, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
+     , (33286, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (33286, 9, 22157,  0, 0, 0, False) /* Create Frost Jo (22157) for ContainTreasure */
+     , (33286, 9, 29261,  0, 0, 0, False) /* Create Electric Sceptre (29261) for ContainTreasure */
+     , (33286, 9, 29264,  0, 0, 0, False) /* Create Piercing Sceptre (29264) for ContainTreasure */
+     , (33286, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (33286, 9, 37196,  0, 0, 0, False) /* Create Olthoi Amuli Helm (37196) for ContainTreasure */
+     , (33286, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */
+     , (33286, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
+     , (33286, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
+     , (33286, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
+     , (33286, 9, 49336,  0, 0, 0, False) /* Create Frost Wisp Essence (180) (49336) for ContainTreasure */
+     , (33286, 9, 49445,  0, 0, 0, False) /* Create Frost Spectre Essence (125) (49445) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33286, 67115243, 0, 0);

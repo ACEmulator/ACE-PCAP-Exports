@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47392;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (47392, 'ace47392-flamingclub', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (47392, 'ace47392-flamingclub', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47392,   1,          1) /* ItemType - MeleeWeapon */
@@ -51,13 +51,15 @@ VALUES (47392,   1,   33555698) /* Setup */
      , (47392, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (47392, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47392, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (47392, 8009,          1);
+     , (47392, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47392, 8040, 675872830, 179.9338, 131.2379, -0.05175, 0.04968107, 0.04968107, -0.7053593, -0.7053593) /* PCAPRecordedLocation */
 /* @teleloc 0x2849003E [179.933800 131.237900 -0.051750] 0.049681 0.049681 -0.705359 -0.705359 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47392,   3, 3690505412) /* Wielder */
-     , (47392, 8000, 3690505415) /* PCAPRecordedObjectIID */
+VALUES (47392, 8000, 3690505415) /* PCAPRecordedObjectIID */
      , (47392, 8008, 3690505412) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (47392, 2, 12055,  1, 0, 0, False) /* Create Bandit Frost Dagger (12055) for Wield */;

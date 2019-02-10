@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35021;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35021, 'ace35021-gateguardian', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35021, 'ace35021-gateguardian', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35021,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,9 @@ VALUES (35021, 8040, 15008383, 100.039, -338.871, -65.991, 1, 0, 0, 0) /* PCAPRe
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35021, 8000, 3708728695) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35021, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35021, 67114479, 0, 0);

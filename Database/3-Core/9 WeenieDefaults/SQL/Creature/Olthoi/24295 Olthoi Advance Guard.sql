@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24295;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24295, 'olthoiadvanceguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24295, 'olthoiadvanceguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24295,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,21 @@ VALUES (24295,   1, 310, 0, 0) /* Strength */
      , (24295,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24295,   1,   410, 0, 0, 410) /* MaxHealth */
-     , (24295,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (24295,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (24295,   1,    10, 0, 0, 410) /* MaxHealth */
+     , (24295,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (24295,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24295, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
+     , (24295, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (24295, 9, 20245,  0, 0, 0, False) /* Create Scroll of Adja's Intervention (20245) for ContainTreasure */
+     , (24295, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
+     , (24295, 9, 24234,  0, 0, 0, False) /* Create Olthoi Crest (24234) for ContainTreasure */
+     , (24295, 9, 29257,  0, 0, 0, False) /* Create Piercing Atlatl (29257) for ContainTreasure */
+     , (24295, 9, 30615,  0, 0, 0, False) /* Create Acid Knuckles (30615) for ContainTreasure */
+     , (24295, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (24295, 9, 43382,  0, 0, 0, False) /* Create Nefane Pearl (43382) for ContainTreasure */
+     , (24295, 9, 45102,  0, 0, 0, False) /* Create Flaming Epee (45102) for ContainTreasure */
+     , (24295, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */
+     , (24295, 9, 49263,  0, 0, 0, False) /* Create Acid Elemental Essence (100) (49263) for ContainTreasure */
+     , (24295, 9, 49290,  0, 0, 0, False) /* Create Lightning K'nath Essence (80) (49290) for ContainTreasure */;

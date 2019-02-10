@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25453;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25453, 'olthoimatronrot1', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25453, 'olthoimatronrot1', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25453,   1,         16) /* ItemType - Creature */
@@ -43,3 +43,8 @@ VALUES (25453, 8040, 1615397148, 660, -80, -42, 0, 0, 0, -1) /* PCAPRecordedLoca
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25453, 8000, 3708907005) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25453, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (25453, 9, 25498,  0, 0, 0, False) /* Create Olthoi Chitin (25498) for ContainTreasure */
+     , (25453, 9, 49235,  0, 0, 0, False) /* Create Acid Zombie Essence (100) (49235) for ContainTreasure */;

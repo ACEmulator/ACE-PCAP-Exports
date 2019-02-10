@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35174;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35174, 'ace35174-highacolyteoftheblood', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35174, 'ace35174-highacolyteoftheblood', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35174,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,30 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35174, 8000, 3708729190) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35174,   1, 150000, 0, 0, 150000) /* MaxHealth */;
+VALUES (35174,   1,    10, 0, 0, 150000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35174, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (35174, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (35174, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (35174, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (35174, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (35174, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (35174, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (35174, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (35174, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (35174, 9, 20534,  0, 0, 0, False) /* Create Scroll of Avalenne's Blessing (20534) for ContainTreasure */
+     , (35174, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (35174, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (35174, 9, 27216,  0, 0, 0, False) /* Create Chiran Gauntlets (27216) for ContainTreasure */
+     , (35174, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (35174, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
+     , (35174, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (35174, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (35174, 9, 37219,  0, 0, 0, False) /* Create Energy Crystal (37219) for ContainTreasure */
+     , (35174, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
+     , (35174, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (35174, 9, 44801,  0, 0, 0, False) /* Create Suikan Over-robe (44801) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35174, 67114479, 0, 0);

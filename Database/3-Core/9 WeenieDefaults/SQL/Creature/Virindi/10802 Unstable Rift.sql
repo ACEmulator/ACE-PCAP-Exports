@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10802;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10802, 'riftunstable', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10802, 'riftunstable', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10802,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (10802,   1, True ) /* Stuck */
      , (10802,  13, False) /* Ethereal */
      , (10802,  14, True ) /* GravityStatus */
      , (10802,  15, True ) /* LightsStatus */
-     , (10802,  19, True ) /* Attackable */;
+     , (10802,  19, True ) /* Attackable */
+     , (10802, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10802,  39,     1.5) /* DefaultScale */;
@@ -55,6 +56,15 @@ VALUES (10802,   1, 140, 0, 0) /* Strength */
      , (10802,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10802,   1,   320, 0, 0, 320) /* MaxHealth */
-     , (10802,   3,   440, 0, 0, 440) /* MaxStamina */
-     , (10802,   5,   720, 0, 0, 720) /* MaxMana */;
+VALUES (10802,   1,    10, 0, 0, 320) /* MaxHealth */
+     , (10802,   3,    10, 0, 0, 440) /* MaxStamina */
+     , (10802,   5,    10, 0, 0, 720) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (10802, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (10802, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (10802, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (10802, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (10802, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (10802, 9, 21114,  0, 0, 0, False) /* Create Scroll of Martyr's Tenacity VI (21114) for ContainTreasure */
+     , (10802, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;

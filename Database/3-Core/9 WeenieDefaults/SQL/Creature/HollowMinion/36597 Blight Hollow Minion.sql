@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36597;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36597, 'ace36597-blighthollowminion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36597, 'ace36597-blighthollowminion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36597,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,24 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36597, 8000, 3684473826) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36597,   1,   663, 0, 0, 663) /* MaxHealth */;
+VALUES (36597,   1,    10, 0, 0, 663) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36597, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (36597, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (36597, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (36597, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (36597, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (36597, 9,  2643,  0, 0, 0, False) /* Create Scroll of Clumsiness Other VI (2643) for ContainTreasure */
+     , (36597, 9,  3007,  0, 0, 0, False) /* Create Scroll of Bludgeon Protection Other VI (3007) for ContainTreasure */
+     , (36597, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (36597, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (36597, 9, 20257,  0, 0, 0, False) /* Create Scroll of Mind Blossom (20257) for ContainTreasure */
+     , (36597, 9, 24477,  0, 0, 0, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (36597, 9, 31814,  0, 0, 0, False) /* Create Dark Blunt Slingshot (31814) for ContainTreasure */
+     , (36597, 9, 37212,  0, 0, 0, False) /* Create Olthoi Tassets (37212) for ContainTreasure */
+     , (36597, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */
+     , (36597, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36597, 67114794, 0, 0);

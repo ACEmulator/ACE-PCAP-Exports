@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21160;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21160, 'acidelementalscourge', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21160, 'acidelementalscourge', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21160,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (21160,   1, True ) /* Stuck */
      , (21160,  13, False) /* Ethereal */
      , (21160,  14, True ) /* GravityStatus */
      , (21160,  15, True ) /* LightsStatus */
-     , (21160,  19, True ) /* Attackable */;
+     , (21160,  19, True ) /* Attackable */
+     , (21160, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21160,  39, 0.600000023841858) /* DefaultScale */;
@@ -55,6 +56,10 @@ VALUES (21160,   1,  80, 0, 0) /* Strength */
      , (21160,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (21160,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (21160,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (21160,   5,   220, 0, 0, 220) /* MaxMana */;
+VALUES (21160,   1,    10, 0, 0, 110) /* MaxHealth */
+     , (21160,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (21160,   5,    10, 0, 0, 220) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (21160, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */
+     , (21160, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */;

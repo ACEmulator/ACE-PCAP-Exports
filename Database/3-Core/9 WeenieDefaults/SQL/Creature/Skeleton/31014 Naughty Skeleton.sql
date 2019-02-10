@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31014;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31014, 'skeletonnaughtyhighyield', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31014, 'skeletonnaughtyhighyield', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31014,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,23 @@ VALUES (31014,   1, 232, 0, 0) /* Strength */
      , (31014,   6, 308, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31014,   1,  3300, 0, 0, 3300) /* MaxHealth */
-     , (31014,   3,  4248, 0, 0, 4248) /* MaxStamina */
-     , (31014,   5,   428, 0, 0, 428) /* MaxMana */;
+VALUES (31014,   1,    10, 0, 0, 3300) /* MaxHealth */
+     , (31014,   3,    10, 0, 0, 4248) /* MaxStamina */
+     , (31014,   5,    10, 0, 0, 428) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31014, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (31014, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (31014, 2, 47068,  1, 0, 0, False) /* Create Arrow (47068) for Wield */
+     , (31014, 2, 47430,  1, 0, 0, False) /* Create Acid Mace (47430) for Wield */
+     , (31014, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (31014, 2, 47626,  1, 0, 0, False) /* Create Acid Tachi (47626) for Wield */
+     , (31014, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
+     , (31014, 2, 47678,  1, 0, 0, False) /* Create Flaming Tachi (47678) for Wield */
+     , (31014, 2, 47716,  1, 0, 0, False) /* Create Acid Spear (47716) for Wield */
+     , (31014, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
+     , (31014, 2, 47792,  1, 0, 0, False) /* Create Frost Spear (47792) for Wield */
+     , (31014, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31014, 67116524, 0, 0);

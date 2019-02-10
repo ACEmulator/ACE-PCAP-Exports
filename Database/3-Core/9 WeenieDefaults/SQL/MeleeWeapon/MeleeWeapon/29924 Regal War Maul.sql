@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29924;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29924, 'axeregal', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29924, 'axeregal', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29924,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,7 +24,7 @@ VALUES (29924,   1,          1) /* ItemType - MeleeWeapon */
      , (29924, 109,        150) /* ItemDifficulty */
      , (29924, 151,          2) /* HookType - Wall */
      , (29924, 158,          2) /* WieldRequirements - RawSkill */
-     , (29924, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (29924, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (29924, 160,        350) /* WieldDifficulty */
      , (29924, 166,         75) /* SlayerCreatureType - Burun */
      , (29924, 353,          3) /* WeaponType - Axe */
@@ -66,8 +66,7 @@ VALUES (29924,   1,   33559057) /* Setup */
      , (29924, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29924,   2, 1342589188) /* Container */
-     , (29924, 8000, 2147603587) /* PCAPRecordedObjectIID */;
+VALUES (29924, 8000, 2147603587) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29924,   243,      2) 

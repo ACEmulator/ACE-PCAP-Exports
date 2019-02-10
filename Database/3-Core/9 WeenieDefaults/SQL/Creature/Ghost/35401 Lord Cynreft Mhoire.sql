@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35401;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35401, 'ace35401-lordcynreftmhoire', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35401, 'ace35401-lordcynreftmhoire', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35401,   1,         16) /* ItemType - Creature */
@@ -55,7 +55,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35401, 8000, 3681526017) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35401,   1, 200250, 0, 0, 200250) /* MaxHealth */;
+VALUES (35401,   1,    10, 0, 0, 200250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35401, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wield */
+     , (35401, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35401, 67110017, 168, 6)

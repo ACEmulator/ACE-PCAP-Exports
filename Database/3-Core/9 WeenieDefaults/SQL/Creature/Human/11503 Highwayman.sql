@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11503;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11503, 'humanhighwayman_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11503, 'humanhighwayman_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11503,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,90 @@ VALUES (11503,   1, 130, 0, 0) /* Strength */
      , (11503,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11503,   1,   130, 0, 0, 130) /* MaxHealth */
-     , (11503,   3,   135, 0, 0, 134) /* MaxStamina */
+VALUES (11503,   1,    10, 0, 0, 130) /* MaxHealth */
+     , (11503,   3,    10, 0, 0, 134) /* MaxStamina */
      , (11503,   5,    10, 0, 0, 10) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11503, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */
+     , (11503, 2, 12052,  1, 0, 0, False) /* Create Bandit Dagger (12052) for Wield */
+     , (11503, 2, 12054,  1, 0, 0, False) /* Create Bandit Flaming Dagger (12054) for Wield */
+     , (11503, 2, 12055,  1, 0, 0, False) /* Create Bandit Frost Dagger (12055) for Wield */
+     , (11503, 2, 12056,  1, 0, 0, False) /* Create Bandit Acid Jambiya (12056) for Wield */
+     , (11503, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
+     , (11503, 2, 12058,  1, 0, 0, False) /* Create Bandit Lightning Jambiya (12058) for Wield */
+     , (11503, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */
+     , (11503, 2, 12060,  1, 0, 0, False) /* Create Bandit Frost Jambiya (12060) for Wield */
+     , (11503, 2, 12061,  1, 0, 0, False) /* Create Bandit Acid Khanjar (12061) for Wield */
+     , (11503, 2, 12062,  1, 0, 0, False) /* Create Bandit Khanjar (12062) for Wield */
+     , (11503, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */
+     , (11503, 2, 12064,  1, 0, 0, False) /* Create Bandit Flaming Khanjar (12064) for Wield */
+     , (11503, 2, 12065,  1, 0, 0, False) /* Create Bandit Frost Khanjar (12065) for Wield */
+     , (11503, 2, 12067,  1, 0, 0, False) /* Create Bandit Knife (12067) for Wield */
+     , (11503, 2, 12068,  1, 0, 0, False) /* Create Bandit Lightning Knife (12068) for Wield */
+     , (11503, 2, 12069,  1, 0, 0, False) /* Create Bandit Flaming Knife (12069) for Wield */
+     , (11503, 2, 12070,  1, 0, 0, False) /* Create Bandit Frost Knife (12070) for Wield */
+     , (11503, 2, 12071,  1, 0, 0, False) /* Create Bandit Acid Simi (12071) for Wield */
+     , (11503, 2, 12072,  1, 0, 0, False) /* Create Bandit Simi (12072) for Wield */
+     , (11503, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */
+     , (11503, 2, 12074,  1, 0, 0, False) /* Create Bandit Flaming Simi (12074) for Wield */
+     , (11503, 2, 12077,  1, 0, 0, False) /* Create Bandit Acid Short Sword (12077) for Wield */
+     , (11503, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */
+     , (11503, 2, 12079,  1, 0, 0, False) /* Create Bandit Lightning Short Sword (12079) for Wield */
+     , (11503, 2, 12080,  1, 0, 0, False) /* Create Bandit Flaming Short Sword (12080) for Wield */
+     , (11503, 2, 12082,  1, 0, 0, False) /* Create Bandit Acid Yaoji (12082) for Wield */
+     , (11503, 2, 12083,  1, 0, 0, False) /* Create Bandit Yaoji (12083) for Wield */
+     , (11503, 2, 12084,  1, 0, 0, False) /* Create Bandit Lightning Yaoji (12084) for Wield */
+     , (11503, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */
+     , (11503, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (11503, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (11503, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (11503, 9,    85,  0, 0, 0, False) /* Create Chainmail Coif (85) for ContainTreasure */
+     , (11503, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (11503, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (11503, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (11503, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (11503, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (11503, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (11503, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (11503, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (11503, 9,   273, 126, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11503, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (11503, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (11503, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (11503, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (11503, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (11503, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (11503, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (11503, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
+     , (11503, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (11503, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (11503, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
+     , (11503, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
+     , (11503, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
+     , (11503, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (11503, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (11503, 9,  3326,  0, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Self V (3326) for ContainTreasure */
+     , (11503, 9,  3349,  0, 0, 0, False) /* Create Scroll of Leadership Ineptitude III (3349) for ContainTreasure */
+     , (11503, 9,  3776,  0, 0, 0, False) /* Create Flaming Dabus (3776) for ContainTreasure */
+     , (11503, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for ContainTreasure */
+     , (11503, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
+     , (11503, 9,  4391,  0, 0, 0, False) /* Create Scroll of Armor Self III (4391) for ContainTreasure */
+     , (11503, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
+     , (11503, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
+     , (11503, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (11503, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (11503, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (11503, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (11503, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (11503, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
+     , (11503, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */
+     , (11503, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (11503, 9, 44854,  0, 0, 0, False) /* Create Halved Cloak (44854) for ContainTreasure */
+     , (11503, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (11503, 9, 49324,  0, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for ContainTreasure */
+     , (11503, 9, 49366,  0, 0, 0, False) /* Create Acid Grievver Essence (50) (49366) for ContainTreasure */
+     , (11503, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11503, 67109967, 92, 4)

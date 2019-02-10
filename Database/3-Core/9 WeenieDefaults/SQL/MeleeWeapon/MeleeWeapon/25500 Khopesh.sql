@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25500;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25500, 'khopeshfalatacotuber', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25500, 'khopeshfalatacotuber', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25500,   1,          1) /* ItemType - MeleeWeapon */
@@ -50,13 +50,18 @@ VALUES (25500,   1,   33558444) /* Setup */
      , (25500, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (25500, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25500, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (25500, 8009,          1);
+     , (25500, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25500, 8040, 1194131740, 332.587, 202.685, -25.66775, 0.7071068, 0.7071068, -3.090863E-08, -3.090863E-08) /* PCAPRecordedLocation */
 /* @teleloc 0x472D011C [332.587000 202.685000 -25.667750] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25500,   3, 2921517902) /* Wielder */
-     , (25500, 8000, 2921518028) /* PCAPRecordedObjectIID */
+VALUES (25500, 8000, 2921518028) /* PCAPRecordedObjectIID */
      , (25500, 8008, 2921517902) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25500, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (25500, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (25500, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (25500, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

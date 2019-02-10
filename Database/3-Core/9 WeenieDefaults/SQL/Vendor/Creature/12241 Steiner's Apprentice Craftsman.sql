@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12241;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12241, 'furniturevendoralu', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12241, 'furniturevendoralu', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12241,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (12241,   1,  55, 0, 0) /* Strength */
      , (12241,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12241,   1,    85, 0, 0, 85) /* MaxHealth */
-     , (12241,   3,   115, 0, 0, 115) /* MaxStamina */
-     , (12241,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (12241,   1,    10, 0, 0, 85) /* MaxHealth */
+     , (12241,   3,    10, 0, 0, 115) /* MaxStamina */
+     , (12241,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12241, 4,   240, -1, 0, 0, False) /* Create Candelabra (240) for Shop */

@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8327;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8327, 'peascarabgold', 32) /* SpellComponent */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8327, 'peascarabgold', 32, '2019-02-10 05:41:14') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8327,   1,       4096) /* ItemType - SpellComponents */
-     , (8327,   5,        240) /* EncumbranceVal */
+     , (8327,   5,         10) /* EncumbranceVal */
      , (8327,  11,        100) /* MaxStackSize */
-     , (8327,  12,         24) /* StackSize */
+     , (8327,  12,          1) /* StackSize */
+     , (8327,  13,         10) /* StackUnitEncumbrance */
+     , (8327,  15,      25000) /* StackUnitValue */
      , (8327,  16,          1) /* ItemUseable - No */
-     , (8327,  19,     600000) /* Value */
+     , (8327,  19,      25000) /* Value */
      , (8327,  33,          1) /* Bonded - Bonded */
      , (8327,  65,        101) /* Placement - Resting */
      , (8327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -39,8 +41,13 @@ VALUES (8327,   1,   33555211) /* Setup */
      , (8327, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8327,   2, 2186220426) /* Container */
-     , (8327, 8000, 2186220448) /* PCAPRecordedObjectIID */;
+VALUES (8327, 8000, 2186220448) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8327, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (8327, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (8327, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (8327, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8327, 67111920, 0, 0);

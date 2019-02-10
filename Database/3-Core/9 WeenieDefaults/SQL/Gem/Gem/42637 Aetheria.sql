@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42637;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42637, 'ace42637-aetheria', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42637, 'ace42637-aetheria', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42637,   1,       2048) /* ItemType - Gem */
@@ -10,13 +10,15 @@ VALUES (42637,   1,       2048) /* ItemType - Gem */
      , (42637,  10,  536870912) /* CurrentWieldedLocation - SigilTwo */
      , (42637,  11,          1) /* MaxStackSize */
      , (42637,  12,          1) /* StackSize */
+     , (42637,  13,         50) /* StackUnitEncumbrance */
+     , (42637,  15,      10000) /* StackUnitValue */
      , (42637,  16,          1) /* ItemUseable - No */
      , (42637,  18,          1) /* UiEffects - Magical */
      , (42637,  19,      10000) /* Value */
      , (42637,  65,        101) /* Placement - Resting */
      , (42637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42637, 158,          7) /* WieldRequirements - Level */
-     , (42637, 159,          1) /* WieldSkilltype - Axe */
+     , (42637, 159,          1) /* WieldSkillType - Axe */
      , (42637, 160,        150) /* WieldDifficulty */
      , (42637, 265,         36) /* EquipmentSetId - AetheriaDestruction */
      , (42637, 319,          2) /* ItemMaxLevel */
@@ -45,14 +47,13 @@ VALUES (42637,   1,   33554809) /* Setup */
      , (42637,   8,  100690951) /* Icon */
      , (42637,  22,  872415275) /* PhysicsEffectTable */
      , (42637,  50,  100690997) /* IconOverlay */
-     , (42637,  55,       5207) /* ProcSpell */
+     , (42637,  55,       5207) /* ProcSpell - AetheriaProcHealDebuff */
      , (42637, 8001, 1076080792) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, IconOverlay */
      , (42637, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42637, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42637,   3, 1342814975) /* Wielder */
-     , (42637, 8000, 3680242626) /* PCAPRecordedObjectIID */;
+VALUES (42637, 8000, 3680242626) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42637,  5207,      2) ;

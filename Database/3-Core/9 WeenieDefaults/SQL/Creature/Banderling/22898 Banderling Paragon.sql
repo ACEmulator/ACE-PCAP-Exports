@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22898;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22898, 'banderlingparagon', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22898, 'banderlingparagon', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22898,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,17 @@ VALUES (22898,   1, 450, 0, 0) /* Strength */
      , (22898,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22898,   1,  2500, 0, 0, 2500) /* MaxHealth */
-     , (22898,   3,  3500, 0, 0, 3500) /* MaxStamina */
-     , (22898,   5,   200, 0, 0, 200) /* MaxMana */;
+VALUES (22898,   1,    10, 0, 0, 2500) /* MaxHealth */
+     , (22898,   3,    10, 0, 0, 3500) /* MaxStamina */
+     , (22898,   5,    10, 0, 0, 200) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22898, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
+     , (22898, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */
+     , (22898, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (22898, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
+     , (22898, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */
+     , (22898, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22898, 67114261, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40493;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40493, 'ace40493-gotrokminingforeman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40493, 'ace40493-gotrokminingforeman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40493,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40493, 8000, 3703969607) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40493,   1,  4000, 0, 0, 4000) /* MaxHealth */;
+VALUES (40493,   1,    10, 0, 0, 4000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40493, 2, 31033,  1, 0, 0, False) /* Create Rock (31033) for Wield */
+     , (40493, 2, 31250,  1, 0, 0, False) /* Create Lugian Axe (31250) for Wield */
+     , (40493, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (40493, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (40493, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (40493, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (40493, 9, 40494,  0, 0, 0, False) /* Create Apostate Citadel Barracks Key (40494) for ContainTreasure */
+     , (40493, 9, 43049,  0, 0, 0, False) /* Create Knorr Academy Gauntlets (43049) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40493, 67114407, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38830;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38830, 'ace38830-tendriloftthuun', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38830, 'ace38830-tendriloftthuun', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38830,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,9 @@ VALUES (38830,   1, 300, 0, 0) /* Strength */
      , (38830,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38830,   1,   810, 0, 0, 810) /* MaxHealth */
-     , (38830,   3,   820, 0, 0, 820) /* MaxStamina */
-     , (38830,   5,   910, 0, 0, 910) /* MaxMana */;
+VALUES (38830,   1,    10, 0, 0, 810) /* MaxHealth */
+     , (38830,   3,    10, 0, 0, 820) /* MaxStamina */
+     , (38830,   5,    10, 0, 0, 910) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38830, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;

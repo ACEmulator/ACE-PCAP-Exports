@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24637;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24637, 'olthoibroodmatronhiveshigh', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24637, 'olthoibroodmatronhiveshigh', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24637,   1,         16) /* ItemType - Creature */
@@ -49,7 +49,21 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24637, 8000, 3707686080) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24637,   1,  1000, 0, 0, 1000) /* MaxHealth */;
+VALUES (24637,   1,    10, 0, 0, 1000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24637, 9,    82,  0, 0, 0, False) /* Create Platemail Leggings (82) for ContainTreasure */
+     , (24637, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (24637, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (24637, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (24637, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */
+     , (24637, 9, 20600,  0, 0, 0, False) /* Create Scroll of Vitality Siphon (20600) for ContainTreasure */
+     , (24637, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (24637, 9, 24644,  0, 0, 0, False) /* Create Adolescent Brood Matron Tarsus (24644) for ContainTreasure */
+     , (24637, 9, 24646,  0, 0, 0, False) /* Create Adolescent Brood Matron Tibia (24646) for ContainTreasure */
+     , (24637, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
+     , (24637, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */
+     , (24637, 9, 49443,  0, 0, 0, False) /* Create Frost Spectre Essence (80) (49443) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24637, 67114410, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30038;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30038, 'sanamararchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30038, 'sanamararchmage', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30038,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (30038,   1,  45, 0, 0) /* Strength */
      , (30038,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30038,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (30038,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (30038,   5,   155, 0, 0, 155) /* MaxMana */;
+VALUES (30038,   1,    10, 0, 0, 135) /* MaxHealth */
+     , (30038,   3,    10, 0, 0, 140) /* MaxStamina */
+     , (30038,   5,    10, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30038, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+VALUES (30038, 2,  2366,  1, 0, 0, False) /* Create Orb (2366) for Wield */
+     , (30038, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (30038, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (30038, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (30038, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */

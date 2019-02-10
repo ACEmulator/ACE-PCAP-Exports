@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51379;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51379, 'ace51379-kulbronzegear', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51379, 'ace51379-kulbronzegear', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51379,   1,         16) /* ItemType - Creature */
@@ -48,6 +48,9 @@ VALUES (51379, 8040, 1483735307, 20, -50, -11.9935, -4.371139E-08, 0, 0, -1) /* 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51379, 8000, 3629788950) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51379, 9, 51558,  0, 0, 0, False) /* Create Legendary Key (51558) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51379, 67116890, 0, 24)

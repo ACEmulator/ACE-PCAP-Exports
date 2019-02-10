@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11376;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11376, 'ahurengaarmorer_xp', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11376, 'ahurengaarmorer_xp', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11376,   1,         16) /* ItemType - Creature */
@@ -63,9 +63,9 @@ VALUES (11376,   1, 120, 0, 0) /* Strength */
      , (11376,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11376,   1,   170, 0, 0, 170) /* MaxHealth */
-     , (11376,   3,   230, 0, 0, 230) /* MaxStamina */
-     , (11376,   5,   115, 0, 0, 115) /* MaxMana */;
+VALUES (11376,   1,    10, 0, 0, 170) /* MaxHealth */
+     , (11376,   3,    10, 0, 0, 230) /* MaxStamina */
+     , (11376,   5,    10, 0, 0, 115) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11376, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 512;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (512, 'lockpickgood', 23) /* Lockpick */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (512, 'lockpickgood', 23, '2019-02-10 05:41:14') /* Lockpick */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (512,   1,      16384) /* ItemType - Key */
@@ -38,5 +38,7 @@ VALUES (512,   1,   33554790) /* Setup */
      , (512, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (512,   2, 3687017068) /* Container */
-     , (512, 8000, 3687017059) /* PCAPRecordedObjectIID */;
+VALUES (512, 8000, 3687017059) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (512, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */;

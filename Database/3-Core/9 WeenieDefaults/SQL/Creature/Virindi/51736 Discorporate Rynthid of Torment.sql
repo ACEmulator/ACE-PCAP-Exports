@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51736;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51736, 'ace51736-discorporaterynthidoftorment', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51736, 'ace51736-discorporaterynthidoftorment', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51736,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (51736,   1, True ) /* Stuck */
      , (51736,  13, False) /* Ethereal */
      , (51736,  14, True ) /* GravityStatus */
      , (51736,  19, True ) /* Attackable */
-     , (51736,  42, True ) /* AllowEdgeSlide */;
+     , (51736,  42, True ) /* AllowEdgeSlide */
+     , (51736, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51736,  77,       1) /* PhysicsScriptIntensity */;
@@ -49,7 +50,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51736, 8000, 3707213303) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51736,   1,   100, 0, 0, 100) /* MaxHealth */;
+VALUES (51736,   1,    10, 0, 0, 100) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51736, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (51736, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51736, 67117140, 0, 0);

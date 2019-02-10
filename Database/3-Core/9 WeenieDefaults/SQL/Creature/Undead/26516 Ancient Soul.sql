@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 26516;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (26516, 'undeadancientsoul', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (26516, 'undeadancientsoul', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26516,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,16 @@ VALUES (26516,   1, 205, 0, 0) /* Strength */
      , (26516,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26516,   1,   950, 0, 0, 950) /* MaxHealth */
-     , (26516,   3,  1300, 0, 0, 1300) /* MaxStamina */
-     , (26516,   5,   960, 0, 0, 960) /* MaxMana */;
+VALUES (26516,   1,    10, 0, 0, 950) /* MaxHealth */
+     , (26516,   3,    10, 0, 0, 1300) /* MaxStamina */
+     , (26516,   5,    10, 0, 0, 960) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (26516, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
+     , (26516, 2, 48101,  1, 0, 0, False) /* Create Sickle (48101) for Wield */
+     , (26516, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (26516, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (26516, 9, 43055,  0, 0, 0, False) /* Create Knorr Academy Vambraces (43055) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26516, 67114483, 0, 0);

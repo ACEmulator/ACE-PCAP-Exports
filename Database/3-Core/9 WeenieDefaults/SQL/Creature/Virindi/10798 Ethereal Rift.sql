@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10798;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10798, 'riftethereal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10798, 'riftethereal', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10798,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (10798,   1, True ) /* Stuck */
      , (10798,  13, False) /* Ethereal */
      , (10798,  14, True ) /* GravityStatus */
      , (10798,  15, True ) /* LightsStatus */
-     , (10798,  19, True ) /* Attackable */;
+     , (10798,  19, True ) /* Attackable */
+     , (10798, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10798,  39,     1.5) /* DefaultScale */;
@@ -47,4 +48,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10798, 8000, 3360552837) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10798,   1,   110, 0, 0, 110) /* MaxHealth */;
+VALUES (10798,   1,    10, 0, 0, 110) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (10798, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (10798, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (10798, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;

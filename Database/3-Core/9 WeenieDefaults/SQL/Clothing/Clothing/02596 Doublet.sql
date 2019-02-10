@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2596;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2596, 'doublet', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2596, 'doublet', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2596,   1,          4) /* ItemType - Clothing */
@@ -62,12 +62,15 @@ VALUES (2596,   1,   33554854) /* Setup */
      , (2596, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2596,   2, 3690367265) /* Container */
-     , (2596, 8000, 3690367267) /* PCAPRecordedObjectIID */;
+VALUES (2596, 8000, 3690367267) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2596,   519,      2) 
      , (2596,  2617,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2596, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (2596, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2596, 67109966, 92, 4)

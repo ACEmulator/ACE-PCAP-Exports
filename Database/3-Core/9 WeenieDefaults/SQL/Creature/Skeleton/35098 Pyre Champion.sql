@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35098;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35098, 'ace35098-pyrechampion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35098, 'ace35098-pyrechampion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35098,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,13 @@ VALUES (35098,   1, 322, 0, 0) /* Strength */
      , (35098,   6, 382, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35098,   1,  6831, 0, 0, 6831) /* MaxHealth */
-     , (35098,   3,  7338, 0, 0, 7338) /* MaxStamina */
-     , (35098,   5,  4382, 0, 0, 4382) /* MaxMana */;
+VALUES (35098,   1,    10, 0, 0, 6831) /* MaxHealth */
+     , (35098,   3,    10, 0, 0, 7338) /* MaxStamina */
+     , (35098,   5,    10, 0, 0, 4382) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35098, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
+     , (35098, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35098, 67116525, 0, 0);

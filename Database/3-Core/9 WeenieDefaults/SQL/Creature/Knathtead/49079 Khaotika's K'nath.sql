@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49079;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49079, 'ace49079-khaotikasknath', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49079, 'ace49079-khaotikasknath', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49079,   1,         16) /* ItemType - Creature */
@@ -50,8 +50,7 @@ VALUES (49079, 8040, 3300196857, 95.33553, 102.8528, 204.4306, -0.1229038, 0, 0,
 /* @teleloc 0xC4B501F9 [95.335530 102.852800 204.430600] -0.122904 0.000000 0.000000 -0.992419 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49079,  44, 1343407076) /* PetOwner */
-     , (49079, 8000, 3701471659) /* PCAPRecordedObjectIID */;
+VALUES (49079, 8000, 3701471659) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49079,   1, 210, 0, 0) /* Strength */
@@ -62,6 +61,10 @@ VALUES (49079,   1, 210, 0, 0) /* Strength */
      , (49079,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49079,   1,  1370, 0, 0, 1370) /* MaxHealth */
-     , (49079,   3,  1740, 0, 0, 1740) /* MaxStamina */
-     , (49079,   5,  1070, 0, 0, 1070) /* MaxMana */;
+VALUES (49079,   1,    10, 0, 0, 1370) /* MaxHealth */
+     , (49079,   3,    10, 0, 0, 1740) /* MaxStamina */
+     , (49079,   5,    10, 0, 0, 1070) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49079, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (49079, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */;

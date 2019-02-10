@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37082;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37082, 'ace37082-tanadasoroku', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37082, 'ace37082-tanadasoroku', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37082,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,18 @@ VALUES (37082,   1, 400, 0, 0) /* Strength */
      , (37082,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37082,   1,  1000, 0, 0, 1000) /* MaxHealth */
-     , (37082,   3,  1200, 0, 0, 1200) /* MaxStamina */
-     , (37082,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (37082,   1,    10, 0, 0, 1000) /* MaxHealth */
+     , (37082,   3,    10, 0, 0, 1200) /* MaxStamina */
+     , (37082,   5,    10, 0, 0, 100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37082, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
+     , (37082, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (37082, 9,  3804,  0, 0, 0, False) /* Create Flaming Jitte (3804) for ContainTreasure */
+     , (37082, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
+     , (37082, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (37082, 9, 37083,  0, 0, 0, False) /* Create Sword of Soroku (37083) for ContainTreasure */
+     , (37082, 9, 40711,  0, 0, 0, False) /* Create Covenant Helm (40711) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37082, 67109565, 32, 8)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30297;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30297, 'knightmageroyalthaumaturge_nofall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30297, 'knightmageroyalthaumaturge_nofall', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30297,   1,         16) /* ItemType - Creature */
@@ -61,6 +61,9 @@ VALUES (30297,   1, 240, 0, 0) /* Strength */
      , (30297,   6, 440, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30297,   1,   510, 0, 0, 510) /* MaxHealth */
-     , (30297,   3,   530, 0, 0, 530) /* MaxStamina */
-     , (30297,   5,   790, 0, 0, 362) /* MaxMana */;
+VALUES (30297,   1,    10, 0, 0, 510) /* MaxHealth */
+     , (30297,   3,    10, 0, 0, 530) /* MaxStamina */
+     , (30297,   5,    10, 0, 0, 362) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30297, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

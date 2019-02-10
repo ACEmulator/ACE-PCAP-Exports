@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33539;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33539, 'ace33539-decayingruschklaktar', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33539, 'ace33539-decayingruschklaktar', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33539,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,17 @@ VALUES (33539,   1, 250, 0, 0) /* Strength */
      , (33539,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33539,   1,   920, 0, 0, 920) /* MaxHealth */
-     , (33539,   3,  1090, 0, 0, 1090) /* MaxStamina */
-     , (33539,   5,   780, 0, 0, 780) /* MaxMana */;
+VALUES (33539,   1,    10, 0, 0, 920) /* MaxHealth */
+     , (33539,   3,    10, 0, 0, 1090) /* MaxStamina */
+     , (33539,   5,    10, 0, 0, 780) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33539, 2, 48629,  1, 0, 0, False) /* Create Icy Club (48629) for Wield */
+     , (33539, 2, 48630,  1, 0, 0, False) /* Create Frozen Dagger (48630) for Wield */
+     , (33539, 2, 48631,  1, 0, 0, False) /* Create Ice Shard (48631) for Wield */
+     , (33539, 2, 48632,  1, 0, 0, False) /* Create Frigid Splinter (48632) for Wield */
+     , (33539, 2, 48633,  1, 0, 0, False) /* Create Glacial Blade (48633) for Wield */
+     , (33539, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (33539, 9, 37208,  0, 0, 0, False) /* Create Olthoi Amuli Sollerets (37208) for ContainTreasure */
+     , (33539, 9, 45411,  0, 0, 0, False) /* Create Spada (45411) for ContainTreasure */
+     , (33539, 9, 49231,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (150) (49231) for ContainTreasure */;

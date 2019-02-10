@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28878;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28878, 'scarecrownaughty', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28878, 'scarecrownaughty', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28878,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,18 @@ VALUES (28878,   1, 150, 0, 0) /* Strength */
      , (28878,   6, 155, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28878,   1,   158, 0, 0, 158) /* MaxHealth */
-     , (28878,   3,   295, 0, 0, 295) /* MaxStamina */
-     , (28878,   5,   210, 0, 0, 210) /* MaxMana */;
+VALUES (28878,   1,    10, 0, 0, 158) /* MaxHealth */
+     , (28878,   3,    10, 0, 0, 295) /* MaxStamina */
+     , (28878,   5,    10, 0, 0, 210) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28878, 2,  8395,  1, 0, 0, False) /* Create Jack o' Lantern (8395) for Wield */
+     , (28878, 9,   273, 45, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28878, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (28878, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (28878, 9,  8232,  1, 0, 0, False) /* Create Pumpkin (8232) for ContainTreasure */
+     , (28878, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (28878, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28878, 67112975, 0, 0);

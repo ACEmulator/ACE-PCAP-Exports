@@ -1,0 +1,48 @@
+DELETE FROM `weenie` WHERE `class_Id` = 19194;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19194, 'statuebanderlingnull', 34, '2019-02-10 05:41:14') /* Scroll */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (19194,   1,       8192) /* ItemType - Writable */
+     , (19194,   5,       1800) /* EncumbranceVal */
+     , (19194,  16,          1) /* ItemUseable - No */
+     , (19194,  19,          0) /* Value */
+     , (19194,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
+     , (19194, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (19194,   1, True ) /* Stuck */
+     , (19194,  11, True ) /* IgnoreCollisions */
+     , (19194,  12, True ) /* ReportCollisions */
+     , (19194,  13, False) /* Ethereal */
+     , (19194,  14, True ) /* GravityStatus */
+     , (19194,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19194,  39,     3.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19194,   1, 'Nullified Statue of a Banderling') /* Name */
+     , (19194,  15, 'This nullified shell is all that remains of the living Statue of a Banderling that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */
+     , (19194, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19194,   1,   33554481) /* Setup */
+     , (19194,   2,  150995161) /* MotionTable */
+     , (19194,   3,  536871052) /* SoundTable */
+     , (19194,   6,   67109303) /* PaletteBase */
+     , (19194,   8,  100667453) /* Icon */
+     , (19194, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
+     , (19194, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
+     , (19194, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (19194, 8040, 3465871396, 115.884, 84.1761, 26.81925, -0.6285579, 0, 0, -0.7777628) /* PCAPRecordedLocation */
+/* @teleloc 0xCE950024 [115.884000 84.176100 26.819250] -0.628558 0.000000 0.000000 -0.777763 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (19194, 8000, 2095665231) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (19194, 67113810, 0, 0);

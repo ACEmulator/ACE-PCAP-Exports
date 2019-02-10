@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28553;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28553, 'grievverrufous', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28553, 'grievverrufous', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28553,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,53 @@ VALUES (28553,   1, 190, 0, 0) /* Strength */
      , (28553,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28553,   1,   240, 0, 0, 240) /* MaxHealth */
-     , (28553,   3,   250, 0, 0, 250) /* MaxStamina */
-     , (28553,   5,   260, 0, 0, 260) /* MaxMana */;
+VALUES (28553,   1,    10, 0, 0, 240) /* MaxHealth */
+     , (28553,   3,    10, 0, 0, 250) /* MaxStamina */
+     , (28553,   5,    10, 0, 0, 260) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28553, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (28553, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (28553, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (28553, 9,   273, 559, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28553, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (28553, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (28553, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (28553, 9,   303,  0, 0, 0, False) /* Create Hand Axe (303) for ContainTreasure */
+     , (28553, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */
+     , (28553, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (28553, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (28553, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (28553, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
+     , (28553, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (28553, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (28553, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (28553, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (28553, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (28553, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (28553, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (28553, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
+     , (28553, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (28553, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (28553, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (28553, 9,  2741,  0, 0, 0, False) /* Create Scroll of Strength Other VI (2741) for ContainTreasure */
+     , (28553, 9,  2892,  0, 0, 0, False) /* Create Aura of Hermetic Link Self VI (2892) for ContainTreasure */
+     , (28553, 9,  3865,  0, 0, 0, False) /* Create Acid Silifi (3865) for ContainTreasure */
+     , (28553, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (28553, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (28553, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (28553, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */
+     , (28553, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
+     , (28553, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
+     , (28553, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (28553, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (28553, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (28553, 9, 30908,  0, 0, 0, False) /* Create Halaetan Magic Page 3 (30908) for ContainTreasure */
+     , (28553, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */
+     , (28553, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */
+     , (28553, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (28553, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (28553, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28553, 67113744, 0, 0);

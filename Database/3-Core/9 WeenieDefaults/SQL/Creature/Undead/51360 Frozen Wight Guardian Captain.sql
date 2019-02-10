@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51360;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51360, 'ace51360-frozenwightguardiancaptain', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51360, 'ace51360-frozenwightguardiancaptain', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51360,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51360, 8000, 3695677821) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51360,   1,  4120, 0, 0, 4120) /* MaxHealth */;
+VALUES (51360,   1,    10, 0, 0, 4120) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51360, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (51360, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (51360, 2, 48082,  1, 0, 0, False) /* Create Lightning Quarrel (48082) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51360, 67111664, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39158;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (39158, 'ace39158-sclavusraider', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (39158, 'ace39158-sclavusraider', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39158,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39158, 8000, 3332247442) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (39158,   1,   820, 0, 0, 820) /* MaxHealth */;
+VALUES (39158,   1,    10, 0, 0, 820) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (39158, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (39158, 2, 47774,  1, 0, 0, False) /* Create Flaming Spear (47774) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39158, 67111941, 0, 0);

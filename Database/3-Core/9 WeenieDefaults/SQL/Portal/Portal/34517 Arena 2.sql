@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34517;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34517, 'ace34517-arena2', 7) /* Portal */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34517, 'ace34517-arena2', 7, '2019-02-10 05:41:14') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34517,   1,      65536) /* ItemType - Portal */
@@ -37,3 +37,6 @@ VALUES (34517, 8040, 11796841, 30, -1546, 0, 1, 0, 0, 0) /* PCAPRecordedLocation
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34517, 8000, 3704774872) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34517, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */;

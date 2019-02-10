@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36085;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36085, 'ace36085-lordharanueamarand', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36085, 'ace36085-lordharanueamarand', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36085,   1,         16) /* ItemType - Creature */
@@ -47,6 +47,9 @@ VALUES (36085, 8040, 10682636, 250.5, -186.432, -35.995, -4.371139E-08, 0, 0, -1
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36085, 8000, 3705391994) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36085, 2, 36576,  1, 0, 0, False) /* Create Impious Staff (36576) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36085, 67111813, 0, 0);

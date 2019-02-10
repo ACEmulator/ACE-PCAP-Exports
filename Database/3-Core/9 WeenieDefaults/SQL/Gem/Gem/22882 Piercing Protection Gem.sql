@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22882;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22882, 'gempierceprot6', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22882, 'gempierceprot6', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22882,   1,       2048) /* ItemType - Gem */
      , (22882,   5,         10) /* EncumbranceVal */
      , (22882,  11,          1) /* MaxStackSize */
      , (22882,  12,          1) /* StackSize */
+     , (22882,  13,         10) /* StackUnitEncumbrance */
+     , (22882,  15,        200) /* StackUnitValue */
      , (22882,  16,          8) /* ItemUseable - Contained */
      , (22882,  18,          1) /* UiEffects - Magical */
      , (22882,  19,        200) /* Value */

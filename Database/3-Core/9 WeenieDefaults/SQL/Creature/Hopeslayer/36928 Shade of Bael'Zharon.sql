@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36928;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36928, 'ace36928-shadeofbaelzharon', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36928, 'ace36928-shadeofbaelzharon', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36928,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,12 @@ VALUES (36928,   1, 1300, 0, 0) /* Strength */
      , (36928,   6, 1000, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36928,   1, 70000, 0, 0, 70000) /* MaxHealth */
-     , (36928,   3,  1200, 0, 0, 1200) /* MaxStamina */
-     , (36928,   5,  1100, 0, 0, 1100) /* MaxMana */;
+VALUES (36928,   1,    10, 0, 0, 70000) /* MaxHealth */
+     , (36928,   3,    10, 0, 0, 1200) /* MaxStamina */
+     , (36928,   5,    10, 0, 0, 1100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36928, 9, 36927,  0, 0, 0, False) /* Create Claw of the Hopeslayer (36927) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36928, 67113074, 0, 0);

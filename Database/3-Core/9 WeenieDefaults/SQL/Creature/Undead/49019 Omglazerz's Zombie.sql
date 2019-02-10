@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49019;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49019, 'ace49019-omglazerzszombie', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49019, 'ace49019-omglazerzszombie', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49019,   1,         16) /* ItemType - Creature */
@@ -42,11 +42,13 @@ VALUES (49019, 8040, 11927828, 38.17609, -40.59216, -11.995, -0.9370016, 0, 0, -
 /* @teleloc 0x00B60114 [38.176090 -40.592160 -11.995000] -0.937002 0.000000 0.000000 -0.349325 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49019,  44, 1343169826) /* PetOwner */
-     , (49019, 8000, 3331904381) /* PCAPRecordedObjectIID */;
+VALUES (49019, 8000, 3331904381) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49019,   1,   870, 0, 0, 870) /* MaxHealth */;
+VALUES (49019,   1,    10, 0, 0, 870) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49019, 2, 48988,  1, 0, 0, False) /* Create Flaming Hatchet (48988) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49019, 67109966, 72, 8)

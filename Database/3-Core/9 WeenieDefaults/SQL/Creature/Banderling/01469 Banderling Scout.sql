@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1469;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1469, 'banderlingfood', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1469, 'banderlingfood', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1469,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,10 @@ VALUES (1469,   1, 110, 0, 0) /* Strength */
      , (1469,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1469,   1,    43, 0, 0, 43) /* MaxHealth */
-     , (1469,   3,    75, 0, 0, 75) /* MaxStamina */
-     , (1469,   5,    31, 0, 0, 31) /* MaxMana */;
+VALUES (1469,   1,    10, 0, 0, 43) /* MaxHealth */
+     , (1469,   3,    10, 0, 0, 75) /* MaxStamina */
+     , (1469,   5,    10, 0, 0, 31) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1469, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
+     , (1469, 2, 47438,  1, 0, 0, False) /* Create Mace (47438) for Wield */;

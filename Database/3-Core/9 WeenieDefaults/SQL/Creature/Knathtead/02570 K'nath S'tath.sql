@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2570;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2570, 'knathstath', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2570, 'knathstath', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2570,   1,         16) /* ItemType - Creature */
@@ -54,6 +54,14 @@ VALUES (2570,   1,  45, 0, 0) /* Strength */
      , (2570,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2570,   1,    60, 0, 0, 60) /* MaxHealth */
-     , (2570,   3,   170, 0, 0, 170) /* MaxStamina */
-     , (2570,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (2570,   1,    10, 0, 0, 60) /* MaxHealth */
+     , (2570,   3,    10, 0, 0, 170) /* MaxStamina */
+     , (2570,   5,    10, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2570, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (2570, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (2570, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (2570, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2570, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (2570, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */;

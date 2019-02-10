@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 624;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (624, 'ringjeweled', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (624, 'ringjeweled', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (624,   1,          8) /* ItemType - Jewelry */
@@ -52,11 +52,17 @@ VALUES (624,   1,   33554690) /* Setup */
      , (624, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (624,   2, 3685512644) /* Container */
-     , (624, 8000, 3685790907) /* PCAPRecordedObjectIID */;
+VALUES (624, 8000, 3685790907) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (624,  1312,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (624, 2, 20153,  1, 0, 0, False) /* Create Perfect Chilling Isparian Wand (20153) for Wield */
+     , (624, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (624, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (624, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (624, 2, 48998,  1, 0, 0, False) /* Create Frost Hatchet (48998) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (624, 67111926, 0, 0);

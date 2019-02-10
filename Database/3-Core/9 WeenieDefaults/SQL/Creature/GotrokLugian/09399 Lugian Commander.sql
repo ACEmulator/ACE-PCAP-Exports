@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9399;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9399, 'lugiancommanderlinvak', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9399, 'lugiancommanderlinvak', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9399,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9399, 8000, 2882294189) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9399,   1,   660, 0, 0, 660) /* MaxHealth */;
+VALUES (9399,   1,    10, 0, 0, 660) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9399, 2, 23739,  1, 0, 0, False) /* Create Lugian Axe (23739) for Wield */
+     , (9399, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
+     , (9399, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (9399, 9,  9390,  0, 0, 0, False) /* Create Lugian Armor (9390) for ContainTreasure */
+     , (9399, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (9399, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (9399, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9399, 67114978, 0, 0);

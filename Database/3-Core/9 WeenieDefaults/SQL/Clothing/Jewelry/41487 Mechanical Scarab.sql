@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41487;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41487, 'ace41487-mechanicalscarab', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41487, 'ace41487-mechanicalscarab', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41487,   1,          8) /* ItemType - Jewelry */
@@ -52,12 +52,15 @@ VALUES (41487,   1,   33555211) /* Setup */
      , (41487, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41487,   2, 1342814975) /* Container */
-     , (41487, 8000, 3682417220) /* PCAPRecordedObjectIID */;
+VALUES (41487, 8000, 3682417220) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41487,  1069,      2) 
      , (41487,  2554,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41487, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (41487, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41487, 67116820, 0, 0);

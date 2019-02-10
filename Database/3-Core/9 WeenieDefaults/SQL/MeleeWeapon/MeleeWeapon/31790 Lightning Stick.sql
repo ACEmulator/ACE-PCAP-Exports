@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31790;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31790, 'ace31790-lightningstick', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31790, 'ace31790-lightningstick', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31790,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (31790,   1,          1) /* ItemType - MeleeWeapon */
      , (31790, 131,         76) /* MaterialType - Pine */
      , (31790, 151,          2) /* HookType - Wall */
      , (31790, 158,          2) /* WieldRequirements - RawSkill */
-     , (31790, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (31790, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31790, 160,        430) /* WieldDifficulty */
      , (31790, 171,         10) /* NumTimesTinkered */
      , (31790, 172,          5) /* AppraisalLongDescDecoration */
@@ -76,21 +76,23 @@ VALUES (31790,   1,   33559646) /* Setup */
      , (31790, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (31790, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (31790, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (31790, 8009,          1);
+     , (31790, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31790, 8040, 23855548, 48.32817, -33.53548, -0.071, 0.5809366, 0.5809366, -0.4031287, -0.4031287) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [48.328170 -33.535480 -0.071000] 0.580937 0.580937 -0.403129 -0.403129 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31790,   3, 1342789086) /* Wielder */
-     , (31790, 8000, 2898188212) /* PCAPRecordedObjectIID */
+VALUES (31790, 8000, 2898188212) /* PCAPRecordedObjectIID */
      , (31790, 8008, 1342789086) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31790,  1616,      2) 
      , (31790,  5809,      2) 
      , (31790,  6091,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31790, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31790, 67116700, 1, 100)

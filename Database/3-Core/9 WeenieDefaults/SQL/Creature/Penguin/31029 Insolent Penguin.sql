@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31029;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31029, 'penguininsolentsnowlily', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31029, 'penguininsolentsnowlily', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31029,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,15 @@ VALUES (31029,   1, 600, 0, 0) /* Strength */
      , (31029,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31029,   1,   750, 0, 0, 750) /* MaxHealth */
-     , (31029,   3,  1200, 0, 0, 1200) /* MaxStamina */
-     , (31029,   5,    30, 0, 0, 30) /* MaxMana */;
+VALUES (31029,   1,    10, 0, 0, 750) /* MaxHealth */
+     , (31029,   3,    10, 0, 0, 1200) /* MaxStamina */
+     , (31029,   5,    10, 0, 0, 30) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31029, 9, 20405,  0, 0, 0, False) /* Create Scroll of Swordsman Bait (20405) for ContainTreasure */
+     , (31029, 9, 20529,  0, 0, 0, False) /* Create Scroll of Twisted Digits (20529) for ContainTreasure */
+     , (31029, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (31029, 9, 44855,  0, 0, 0, False) /* Create Halved Cloak (44855) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31029, 67116354, 0, 0);

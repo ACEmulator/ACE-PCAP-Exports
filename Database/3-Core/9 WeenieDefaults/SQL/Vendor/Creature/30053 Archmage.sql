@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30053;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30053, 'viaarchmage', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30053, 'viaarchmage', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30053,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (30053,   1, 145, 0, 0) /* Strength */
      , (30053,   6, 234, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30053,   1,   145, 0, 0, 145) /* MaxHealth */
-     , (30053,   3,   210, 0, 0, 210) /* MaxStamina */
-     , (30053,   5,   329, 0, 0, 329) /* MaxMana */;
+VALUES (30053,   1,    10, 0, 0, 145) /* MaxHealth */
+     , (30053,   3,    10, 0, 0, 210) /* MaxStamina */
+     , (30053,   5,    10, 0, 0, 329) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30053, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+VALUES (30053, 2,  2547,  1, 0, 0, False) /* Create Staff (2547) for Wield */
+     , (30053, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (30053, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (30053, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
      , (30053, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */

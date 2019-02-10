@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35859;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35859, 'ace35859-acolyteofthedepths', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35859, 'ace35859-acolyteofthedepths', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35859,   1,         16) /* ItemType - Creature */
@@ -51,7 +51,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35859, 8000, 2623611831) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35859,   1,   230, 0, 0, 230) /* MaxHealth */;
+VALUES (35859,   1,    10, 0, 0, 230) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35859, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (35859, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35859, 0, 83897561, 83897706)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30609;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30609, 'staffmeleebastonefrost', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30609, 'staffmeleebastonefrost', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30609,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (30609,   1,          1) /* ItemType - MeleeWeapon */
      , (30609, 131,         76) /* MaterialType - Pine */
      , (30609, 151,          2) /* HookType - Wall */
      , (30609, 158,          2) /* WieldRequirements - RawSkill */
-     , (30609, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (30609, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30609, 160,        250) /* WieldDifficulty */
      , (30609, 172,          1) /* AppraisalLongDescDecoration */
      , (30609, 176,         46) /* AppraisalItemSkill */
@@ -69,12 +69,14 @@ VALUES (30609,   1,   33559495) /* Setup */
      , (30609, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30609,   2, 3705367723) /* Container */
-     , (30609, 8000, 3705367725) /* PCAPRecordedObjectIID */;
+VALUES (30609, 8000, 3705367725) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30609,  1615,      2) 
      , (30609,  2583,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30609, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30609, 67116438, 0, 0);

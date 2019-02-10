@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36840;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36840, 'ace36840-bloodthirstymonouga', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36840, 'ace36840-bloodthirstymonouga', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36840,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,13 @@ VALUES (36840,   1, 300, 0, 0) /* Strength */
      , (36840,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36840,   1,   420, 0, 0, 420) /* MaxHealth */
-     , (36840,   3,   630, 0, 0, 627) /* MaxStamina */
-     , (36840,   5,   140, 0, 0, 140) /* MaxMana */;
+VALUES (36840,   1,    10, 0, 0, 420) /* MaxHealth */
+     , (36840,   3,    10, 0, 0, 627) /* MaxStamina */
+     , (36840,   5,    10, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36840, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
+     , (36840, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36840, 67114291, 0, 0);

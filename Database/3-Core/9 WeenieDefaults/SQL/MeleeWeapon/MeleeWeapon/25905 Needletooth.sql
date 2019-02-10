@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25905;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25905, 'katarneedletooth', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25905, 'katarneedletooth', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25905,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,7 +24,7 @@ VALUES (25905,   1,          1) /* ItemType - MeleeWeapon */
      , (25905, 109,        200) /* ItemDifficulty */
      , (25905, 151,          2) /* HookType - Wall */
      , (25905, 158,          2) /* WieldRequirements - RawSkill */
-     , (25905, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (25905, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (25905, 160,        370) /* WieldDifficulty */
      , (25905, 353,          1) /* WeaponType - Unarmed */
      , (25905, 8030,          0);

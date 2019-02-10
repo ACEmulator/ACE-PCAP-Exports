@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1377;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1377, 'blacksmithsho', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1377, 'blacksmithsho', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1377,   1,         16) /* ItemType - Creature */
@@ -44,6 +44,9 @@ VALUES (1377, 8040, 3393323286, 82.9338, 137.487, 73.505, 0.08436149, 0, 0, -0.9
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1377, 8000, 2091130883) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1377, 2,   321,  1, 0, 0, False) /* Create Jitte (321) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1377, 67110055, 0, 24)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31290;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31290, 'ace31290-soldier', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31290, 'ace31290-soldier', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31290,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (31290,   1, 104, 0, 0) /* Strength */
      , (31290,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31290,   1,   180, 0, 0, 180) /* MaxHealth */
-     , (31290,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (31290,   5,   140, 0, 0, 140) /* MaxMana */;
+VALUES (31290,   1,    10, 0, 0, 180) /* MaxHealth */
+     , (31290,   3,    10, 0, 0, 290) /* MaxStamina */
+     , (31290,   5,    10, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31290, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (31290, 2, 30562,  1, 0, 0, False) /* Create Acid Dolabra (30562) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31290, 67109555, 0, 24)

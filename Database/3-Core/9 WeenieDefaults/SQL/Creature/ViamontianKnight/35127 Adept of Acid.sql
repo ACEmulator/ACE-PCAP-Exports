@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35127;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35127, 'ace35127-adeptofacid', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35127, 'ace35127-adeptofacid', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35127,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,18 @@ VALUES (35127,   1, 245, 0, 0) /* Strength */
      , (35127,   6, 445, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35127,   1,   513, 0, 0, 513) /* MaxHealth */
-     , (35127,   3,   560, 0, 0, 560) /* MaxStamina */
-     , (35127,   5,   820, 0, 0, 820) /* MaxMana */;
+VALUES (35127,   1,    10, 0, 0, 513) /* MaxHealth */
+     , (35127,   3,    10, 0, 0, 560) /* MaxStamina */
+     , (35127,   5,    10, 0, 0, 820) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35127, 2, 31820,  1, 0, 0, False) /* Create Acid Baton (31820) for Wield */
+     , (35127, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (35127, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (35127, 9,   273, 758, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (35127, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (35127, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (35127, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (35127, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (35127, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (35127, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */;

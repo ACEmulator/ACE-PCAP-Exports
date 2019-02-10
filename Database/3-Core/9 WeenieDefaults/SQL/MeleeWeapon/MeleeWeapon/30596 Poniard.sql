@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30596;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30596, 'daggerponiard', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30596, 'daggerponiard', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30596,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (30596,   1,          1) /* ItemType - MeleeWeapon */
      , (30596, 131,         51) /* MaterialType - Ivory */
      , (30596, 151,          2) /* HookType - Wall */
      , (30596, 158,          2) /* WieldRequirements - RawSkill */
-     , (30596, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (30596, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30596, 160,        350) /* WieldDifficulty */
      , (30596, 172,          5) /* AppraisalLongDescDecoration */
      , (30596, 176,         46) /* AppraisalItemSkill */
@@ -72,12 +72,15 @@ VALUES (30596,   1,   33559483) /* Setup */
      , (30596, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30596,   2, 3666811751) /* Container */
-     , (30596, 8000, 2174543172) /* PCAPRecordedObjectIID */;
+VALUES (30596, 8000, 2174543172) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30596,  1616,      2) 
      , (30596,  1626,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30596, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (30596, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30596, 67116422, 0, 0);

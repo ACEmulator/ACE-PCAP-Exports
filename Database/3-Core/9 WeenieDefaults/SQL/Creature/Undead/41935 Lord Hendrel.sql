@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41935;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41935, 'ace41935-lordhendrel', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41935, 'ace41935-lordhendrel', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41935,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,13 @@ VALUES (41935,   1, 350, 0, 0) /* Strength */
      , (41935,   6, 480, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41935,   1, 12175, 0, 0, 12175) /* MaxHealth */
-     , (41935,   3,  3350, 0, 0, 3350) /* MaxStamina */
-     , (41935,   5,  5280, 0, 0, 5280) /* MaxMana */;
+VALUES (41935,   1,    10, 0, 0, 12175) /* MaxHealth */
+     , (41935,   3,    10, 0, 0, 3350) /* MaxStamina */
+     , (41935,   5,    10, 0, 0, 5280) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41935, 2, 31822,  1, 0, 0, False) /* Create Aerbax's Defeat (31822) for Wield */
+     , (41935, 9, 41932,  1, 0, 0, False) /* Create Lord Hendrel's Brand (41932) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41935, 67113362, 0, 0);

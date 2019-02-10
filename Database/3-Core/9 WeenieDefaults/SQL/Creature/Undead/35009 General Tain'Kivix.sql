@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35009;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35009, 'ace35009-generaltainkivix', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35009, 'ace35009-generaltainkivix', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35009,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,20 @@ VALUES (35009,   1, 500, 0, 0) /* Strength */
      , (35009,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35009,   1, 60250, 0, 0, 60250) /* MaxHealth */
-     , (35009,   3, 60500, 0, 0, 60500) /* MaxStamina */
-     , (35009,   5,  4450, 0, 0, 4450) /* MaxMana */;
+VALUES (35009,   1,    10, 0, 0, 60250) /* MaxHealth */
+     , (35009,   3,    10, 0, 0, 60500) /* MaxStamina */
+     , (35009,   5,    10, 0, 0, 4450) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35009, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (35009, 9,  3878,  0, 0, 0, False) /* Create Lightning Broad Sword (3878) for ContainTreasure */
+     , (35009, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
+     , (35009, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (35009, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */
+     , (35009, 9, 31800,  0, 0, 0, False) /* Create Blunt Compound Bow (31800) for ContainTreasure */
+     , (35009, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (35009, 9, 45106,  0, 0, 0, False) /* Create Flaming Rapier (45106) for ContainTreasure */
+     , (35009, 9, 49235,  0, 0, 0, False) /* Create Acid Zombie Essence (100) (49235) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35009, 67114479, 0, 0);

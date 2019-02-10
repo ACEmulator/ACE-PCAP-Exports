@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49641;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49641, 'ace49641-simulacrumshifter', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49641, 'ace49641-simulacrumshifter', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49641,   1,         16) /* ItemType - Creature */
@@ -53,7 +53,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49641, 8000, 2885273946) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49641,   1, 26335, 0, 0, 26335) /* MaxHealth */;
+VALUES (49641,   1,    10, 0, 0, 26335) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49641, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */
+     , (49641, 9,  5853,  0, 0, 0, False) /* Create Dho Vest and Robe (5853) for ContainTreasure */
+     , (49641, 9, 49644,  0, 0, 0, False) /* Create Door Key (49644) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49641, 67109551, 0, 24)

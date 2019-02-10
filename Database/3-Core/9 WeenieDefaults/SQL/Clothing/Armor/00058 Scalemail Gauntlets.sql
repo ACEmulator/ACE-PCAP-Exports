@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 58;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (58, 'gauntletsscalemail', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (58, 'gauntletsscalemail', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (58,   1,          2) /* ItemType - Armor */
@@ -60,11 +60,13 @@ VALUES (58,   1,   33554648) /* Setup */
      , (58, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (58,   2, 2186220473) /* Container */
-     , (58, 8000, 2186220483) /* PCAPRecordedObjectIID */;
+VALUES (58, 8000, 2186220483) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (58,  1484,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (58, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (58, 67110548, 168, 6);

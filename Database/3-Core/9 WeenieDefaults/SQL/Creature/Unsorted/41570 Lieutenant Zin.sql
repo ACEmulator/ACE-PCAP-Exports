@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41570;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41570, 'ace41570-lieutenantzin', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41570, 'ace41570-lieutenantzin', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41570,   1,         16) /* ItemType - Creature */
@@ -46,6 +46,10 @@ VALUES (41570, 8040, 2270494976, 62.9082, 129.241, 9.705, 0.917229, 0, 0, 0.3983
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41570, 8000, 3709162111) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41570, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (41570, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41570, 67109558, 0, 24)

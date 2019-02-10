@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43270;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43270, 'ace43270-filinuvektahieromancer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43270, 'ace43270-filinuvektahieromancer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43270,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,22 @@ VALUES (43270,   1, 600, 0, 0) /* Strength */
      , (43270,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43270,   1, 150000, 0, 0, 150000) /* MaxHealth */
-     , (43270,   3,  5000, 0, 0, 5000) /* MaxStamina */
-     , (43270,   5,  1000, 0, 0, 1000) /* MaxMana */;
+VALUES (43270,   1,    10, 0, 0, 150000) /* MaxHealth */
+     , (43270,   3,    10, 0, 0, 5000) /* MaxStamina */
+     , (43270,   5,    10, 0, 0, 1000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43270, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (43270, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (43270, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (43270, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (43270, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (43270, 9, 21156,  0, 0, 0, False) /* Create Covenant Helm (21156) for ContainTreasure */
+     , (43270, 9, 22123,  0, 0, 0, False) /* Create Empyrean Robe (22123) for ContainTreasure */
+     , (43270, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
+     , (43270, 9, 27218,  0, 0, 0, False) /* Create Chiran Leggings (27218) for ContainTreasure */
+     , (43270, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
+     , (43270, 9, 49230,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (125) (49230) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43270, 67110008, 168, 6)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14880;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14880, 'thermicelementaltheral', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14880, 'thermicelementaltheral', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14880,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (14880,   1, True ) /* Stuck */
      , (14880,  13, False) /* Ethereal */
      , (14880,  14, True ) /* GravityStatus */
      , (14880,  15, True ) /* LightsStatus */
-     , (14880,  19, True ) /* Attackable */;
+     , (14880,  19, True ) /* Attackable */
+     , (14880, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14880,  39, 1.39999997615814) /* DefaultScale */;
@@ -55,6 +56,17 @@ VALUES (14880,   1, 150, 0, 0) /* Strength */
      , (14880,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14880,   1,   780, 0, 0, 780) /* MaxHealth */
-     , (14880,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (14880,   5,   540, 0, 0, 540) /* MaxMana */;
+VALUES (14880,   1,    10, 0, 0, 780) /* MaxHealth */
+     , (14880,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (14880,   5,    10, 0, 0, 540) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14880, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (14880, 9,   273, 726, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14880, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
+     , (14880, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (14880, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (14880, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (14880, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (14880, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
+     , (14880, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */;

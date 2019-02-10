@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21157;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21157, 'pauldronscovenant', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21157, 'pauldronscovenant', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21157,   1,          2) /* ItemType - Armor */
@@ -24,7 +24,7 @@ VALUES (21157,   1,          2) /* ItemType - Armor */
      , (21157, 115,        193) /* ItemSkillLevelLimit */
      , (21157, 131,         60) /* MaterialType - Gold */
      , (21157, 158,          2) /* WieldRequirements - RawSkill */
-     , (21157, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (21157, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21157, 160,        300) /* WieldDifficulty */
      , (21157, 172,          1) /* AppraisalLongDescDecoration */
      , (21157, 176,          7) /* AppraisalItemSkill */;
@@ -66,13 +66,15 @@ VALUES (21157,   1,   33554641) /* Setup */
      , (21157, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21157,   2, 3706647835) /* Container */
-     , (21157, 8000, 3706647844) /* PCAPRecordedObjectIID */;
+VALUES (21157, 8000, 3706647844) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21157,  1485,      2) 
      , (21157,  1552,      2) 
      , (21157,  1561,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (21157, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21157, 67113929, 116, 12);

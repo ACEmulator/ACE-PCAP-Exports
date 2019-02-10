@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9381;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9381, 'virindimasteresard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9381, 'virindimasteresard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9381,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,11 @@ VALUES (9381, 8040, 43712770, 9.4809, -285.482, -41.971, -0.05683498, 0, 0, -0.9
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9381, 8000, 2780667836) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (9381, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (9381, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (9381, 9,  8812,  0, 0, 0, False) /* Create Esard's Life Magic Scroll (8812) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9381, 67111815, 0, 0);

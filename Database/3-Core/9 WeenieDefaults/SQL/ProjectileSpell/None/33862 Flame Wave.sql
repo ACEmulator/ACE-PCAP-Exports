@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33862;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33862, 'ace33862-flamewave', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33862, 'ace33862-flamewave', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33862,   1,          0) /* ItemType - None */
@@ -41,3 +41,8 @@ VALUES (33862, 8040, 808386587, 92.82829, 60.58561, 127.3524, -0.963681, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33862, 8000, 2930740794) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33862, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (33862, 2, 46365,  1, 0, 0, False) /* Create Spectral Lightning Tachi (46365) for Wield */
+     , (33862, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */;

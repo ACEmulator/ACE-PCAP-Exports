@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46951;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46951, 'ace46951-ragewisp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46951, 'ace46951-ragewisp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46951,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (46951,   1, True ) /* Stuck */
      , (46951,  12, True ) /* ReportCollisions */
      , (46951,  13, False) /* Ethereal */
      , (46951,  14, True ) /* GravityStatus */
-     , (46951,  19, True ) /* Attackable */;
+     , (46951,  19, True ) /* Attackable */
+     , (46951, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46951,  39, 1.29999995231628) /* DefaultScale */;
@@ -53,6 +54,20 @@ VALUES (46951,   1, 220, 0, 0) /* Strength */
      , (46951,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46951,   1, 18125, 0, 0, 18125) /* MaxHealth */
-     , (46951,   3,  5250, 0, 0, 5250) /* MaxStamina */
-     , (46951,   5,  6490, 0, 0, 6420) /* MaxMana */;
+VALUES (46951,   1,    10, 0, 0, 18125) /* MaxHealth */
+     , (46951,   3,    10, 0, 0, 5250) /* MaxStamina */
+     , (46951,   5,    10, 0, 0, 6420) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46951, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (46951, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (46951, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (46951, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (46951, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (46951, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (46951, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (46951, 9, 20569,  0, 0, 0, False) /* Create Scroll of Topheron's Blessing (20569) for ContainTreasure */
+     , (46951, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */
+     , (46951, 9, 29258,  0, 0, 0, False) /* Create Slashing Atlatl (29258) for ContainTreasure */
+     , (46951, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
+     , (46951, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */;

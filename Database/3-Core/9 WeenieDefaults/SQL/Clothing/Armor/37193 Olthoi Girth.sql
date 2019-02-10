@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37193;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37193, 'ace37193-olthoigirth', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37193, 'ace37193-olthoigirth', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37193,   1,          2) /* ItemType - Armor */
@@ -23,14 +23,14 @@ VALUES (37193,   1,          2) /* ItemType - Armor */
      , (37193, 115,        390) /* ItemSkillLevelLimit */
      , (37193, 131,         59) /* MaterialType - Copper */
      , (37193, 158,          2) /* WieldRequirements - RawSkill */
-     , (37193, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (37193, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37193, 160,        360) /* WieldDifficulty */
      , (37193, 171,         10) /* NumTimesTinkered */
      , (37193, 172,          1) /* AppraisalLongDescDecoration */
      , (37193, 176,          6) /* AppraisalItemSkill */
      , (37193, 265,         19) /* EquipmentSetId - Hearty */
      , (37193, 270,          7) /* WieldRequirements2 - Level */
-     , (37193, 271,          1) /* WieldSkilltype2 - Axe */
+     , (37193, 271,          1) /* WieldSkillType2 - Axe */
      , (37193, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

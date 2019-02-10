@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8258;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8258, 'banderlingcaptaincamp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8258, 'banderlingcaptaincamp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8258,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (8258,   1, 120, 0, 0) /* Strength */
      , (8258,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8258,   1,    65, 0, 0, 65) /* MaxHealth */
-     , (8258,   3,   150, 0, 0, 150) /* MaxStamina */
-     , (8258,   5,    53, 0, 0, 53) /* MaxMana */;
+VALUES (8258,   1,    10, 0, 0, 65) /* MaxHealth */
+     , (8258,   3,    10, 0, 0, 150) /* MaxStamina */
+     , (8258,   5,    10, 0, 0, 53) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8258, 2, 47344,  1, 0, 0, False) /* Create Club (47344) for Wield */
+     , (8258, 2, 47382,  1, 0, 0, False) /* Create Flaming Club (47382) for Wield */
+     , (8258, 2, 47439,  1, 0, 0, False) /* Create Mace (47439) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8258, 67114037, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5765;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5765, 'snowmanhappygiant', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5765, 'snowmanhappygiant', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5765,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5765, 8000, 3681076719) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5765,   1,   500, 0, 0, 500) /* MaxHealth */;
+VALUES (5765,   1,    10, 0, 0, 500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5765, 4,  5762, -1, 0, 0, False) /* Create Snowball (5762) for Shop */
+VALUES (5765, 2,  5770,  1, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Wield */
+     , (5765, 4,  5762, -1, 0, 0, False) /* Create Snowball (5762) for Shop */
      , (5765, 4,  5768, -1, 0, 0, False) /* Create Poofy Snowball (5768) for Shop */
      , (5765, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */;

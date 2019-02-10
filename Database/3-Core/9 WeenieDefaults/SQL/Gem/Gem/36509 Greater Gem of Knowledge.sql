@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36509;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36509, 'ace36509-greatergemofknowledge', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36509, 'ace36509-greatergemofknowledge', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36509,   1,       2048) /* ItemType - Gem */
-     , (36509,   5,        450) /* EncumbranceVal */
+     , (36509,   5,         50) /* EncumbranceVal */
      , (36509,  11,         10) /* MaxStackSize */
-     , (36509,  12,          9) /* StackSize */
+     , (36509,  12,          1) /* StackSize */
+     , (36509,  13,         50) /* StackUnitEncumbrance */
+     , (36509,  15,         40) /* StackUnitValue */
      , (36509,  16,          1) /* ItemUseable - No */
      , (36509,  18,          2) /* UiEffects - Poisoned */
-     , (36509,  19,        360) /* Value */
+     , (36509,  19,         40) /* Value */
      , (36509,  65,        101) /* Placement - Resting */
      , (36509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
@@ -36,5 +38,4 @@ VALUES (36509,   1,   33554809) /* Setup */
      , (36509, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36509,   2, 1342814975) /* Container */
-     , (36509, 8000, 3541976570) /* PCAPRecordedObjectIID */;
+VALUES (36509, 8000, 3541976570) /* PCAPRecordedObjectIID */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31951;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31951, 'ace31951-arica', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31951, 'ace31951-arica', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31951,   1,         16) /* ItemType - Creature */
@@ -46,6 +46,9 @@ VALUES (31951, 8040, 599130403, 12.0986, 36.4008, -3.195, 0.9998367, 0, 0, -0.01
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31951, 8000, 3708875273) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31951, 2,  6853,  1, 0, 0, False) /* Create Rapier (6853) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31951, 67109552, 0, 24)

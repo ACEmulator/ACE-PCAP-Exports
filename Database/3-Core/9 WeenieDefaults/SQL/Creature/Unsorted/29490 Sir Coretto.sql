@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29490;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29490, 'knightkarlunsircoretto', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29490, 'knightkarlunsircoretto', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29490,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,13 @@ VALUES (29490, 8040, 2097479, 602.154, -458.108, -35.995, 1, 0, 0, 0) /* PCAPRec
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29490, 8000, 3704759439) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29490, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (29490, 9,  8934,  0, 0, 0, False) /* Create Scroll of Force Streak VI (8934) for ContainTreasure */
+     , (29490, 9, 20243,  0, 0, 0, False) /* Create Scroll of Heart Rend (20243) for ContainTreasure */
+     , (29490, 9, 29495,  0, 0, 0, False) /* Create Testament of Sir Coretto (29495) for ContainTreasure */
+     , (29490, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29490, 67109964, 92, 4)

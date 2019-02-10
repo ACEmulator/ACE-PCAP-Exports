@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31282;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31282, 'ace31282-greatervoidlord', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31282, 'ace31282-greatervoidlord', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31282,   1,         16) /* ItemType - Creature */
@@ -55,4 +55,18 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31282, 8000, 3696821085) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31282,   1,  2500, 0, 0, 2500) /* MaxHealth */;
+VALUES (31282,   1,    10, 0, 0, 2500) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31282, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (31282, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (31282, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
+     , (31282, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (31282, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (31282, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
+     , (31282, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (31282, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (31282, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (31282, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
+     , (31282, 9, 31378,  0, 0, 0, False) /* Create Raven Fragment (31378) for ContainTreasure */
+     , (31282, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */;

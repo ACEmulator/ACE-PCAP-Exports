@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33363;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33363, 'ace33363-graelsclaw', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33363, 'ace33363-graelsclaw', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33363,   1,          1) /* ItemType - MeleeWeapon */
@@ -21,7 +21,7 @@ VALUES (33363,   1,          1) /* ItemType - MeleeWeapon */
      , (33363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33363, 151,          2) /* HookType - Wall */
      , (33363, 158,          2) /* WieldRequirements - RawSkill */
-     , (33363, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (33363, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (33363, 160,        370) /* WieldDifficulty */
      , (33363, 166,         89) /* SlayerCreatureType - Mukkir */
      , (33363, 353,          1) /* WeaponType - Unarmed */
@@ -59,5 +59,4 @@ VALUES (33363,   1,   33560012) /* Setup */
      , (33363, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33363,   2, 2461713254) /* Container */
-     , (33363, 8000, 2460938541) /* PCAPRecordedObjectIID */;
+VALUES (33363, 8000, 2460938541) /* PCAPRecordedObjectIID */;

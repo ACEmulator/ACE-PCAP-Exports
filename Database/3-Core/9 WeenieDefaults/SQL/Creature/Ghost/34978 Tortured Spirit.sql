@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34978;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34978, 'ace34978-torturedspirit', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34978, 'ace34978-torturedspirit', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34978,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (34978,   1, True ) /* Stuck */
      , (34978,  12, True ) /* ReportCollisions */
      , (34978,  13, False) /* Ethereal */
      , (34978,  14, True ) /* GravityStatus */
-     , (34978,  19, True ) /* Attackable */;
+     , (34978,  19, True ) /* Attackable */
+     , (34978, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34978,  76,     0.5) /* Translucency */;
@@ -47,7 +48,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34978, 8000, 3709185619) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34978,   1,   645, 0, 0, 645) /* MaxHealth */;
+VALUES (34978,   1,    10, 0, 0, 645) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34978, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (34978, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (34978, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (34978, 9, 34963,  0, 0, 0, False) /* Create Misshapen Bone Fragment (34963) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34978, 67115254, 0, 0);

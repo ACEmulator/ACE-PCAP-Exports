@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4126;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4126, 'skeletonaccursedminer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4126, 'skeletonaccursedminer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4126,   1,         16) /* ItemType - Creature */
@@ -43,4 +43,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (4126, 8000, 3330949865) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4126,   1,    33, 0, 0, 33) /* MaxHealth */;
+VALUES (4126,   1,    10, 0, 0, 33) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4126, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (4126, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;

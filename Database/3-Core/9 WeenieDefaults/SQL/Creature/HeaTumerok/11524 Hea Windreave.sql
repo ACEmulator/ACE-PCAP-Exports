@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11524;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11524, 'tumerokheawindreave_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11524, 'tumerokheawindreave_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11524,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,23 @@ VALUES (11524,   1, 140, 0, 0) /* Strength */
      , (11524,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11524,   1,   163, 0, 0, 163) /* MaxHealth */
-     , (11524,   3,   165, 0, 0, 165) /* MaxStamina */
-     , (11524,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (11524,   1,    10, 0, 0, 163) /* MaxHealth */
+     , (11524,   3,    10, 0, 0, 165) /* MaxStamina */
+     , (11524,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11524, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (11524, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (11524, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (11524, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (11524, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (11524, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (11524, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (11524, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
+     , (11524, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */
+     , (11524, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (11524, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (11524, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11524, 67116625, 105, 48)

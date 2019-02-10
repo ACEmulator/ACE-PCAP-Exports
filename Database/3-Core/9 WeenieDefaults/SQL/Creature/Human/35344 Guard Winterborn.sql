@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35344;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35344, 'ace35344-guardwinterborn', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35344, 'ace35344-guardwinterborn', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35344,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (35344,   1, 160, 0, 0) /* Strength */
      , (35344,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35344,   1,   215, 0, 0, 215) /* MaxHealth */
-     , (35344,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (35344,   5,   345, 0, 0, 345) /* MaxMana */;
+VALUES (35344,   1,    10, 0, 0, 215) /* MaxHealth */
+     , (35344,   3,    10, 0, 0, 290) /* MaxStamina */
+     , (35344,   5,    10, 0, 0, 345) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35344, 2, 20153,  1, 0, 0, False) /* Create Perfect Chilling Isparian Wand (20153) for Wield */
+     , (35344, 2, 48977,  1, 0, 0, False) /* Create Acid Hatchet (48977) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35344, 67109559, 0, 24)

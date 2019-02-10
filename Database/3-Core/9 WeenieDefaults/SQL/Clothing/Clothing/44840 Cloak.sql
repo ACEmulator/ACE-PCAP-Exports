@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44840;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44840, 'ace44840-cloak', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44840, 'ace44840-cloak', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44840,   1,          4) /* ItemType - Clothing */
@@ -18,7 +18,7 @@ VALUES (44840,   1,          4) /* ItemType - Clothing */
      , (44840, 105,          8) /* ItemWorkmanship */
      , (44840, 131,          6) /* MaterialType - Silk */
      , (44840, 158,          7) /* WieldRequirements - Level */
-     , (44840, 159,          1) /* WieldSkilltype - Axe */
+     , (44840, 159,          1) /* WieldSkillType - Axe */
      , (44840, 160,        180) /* WieldDifficulty */
      , (44840, 172,          1) /* AppraisalLongDescDecoration */
      , (44840, 265,         63) /* EquipmentSetId - CloakItemTinkering */
@@ -61,14 +61,13 @@ VALUES (44840,   1,   33561386) /* Setup */
      , (44840,   8,  100692112) /* Icon */
      , (44840,  22,  872415275) /* PhysicsEffectTable */
      , (44840,  50,  100690998) /* IconOverlay */
-     , (44840,  55,       5753) /* ProcSpell */
+     , (44840,  55,       5753) /* ProcSpell - CloakAllSkill */
      , (44840, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (44840, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44840, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44840,   2, 1343493255) /* Container */
-     , (44840, 8000, 3680204314) /* PCAPRecordedObjectIID */;
+VALUES (44840, 8000, 3680204314) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44840,  5753,      2) ;

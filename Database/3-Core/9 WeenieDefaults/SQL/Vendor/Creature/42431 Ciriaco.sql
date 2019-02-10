@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42431;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42431, 'ace42431-ciriaco', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42431, 'ace42431-ciriaco', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42431,   1,         16) /* ItemType - Creature */
@@ -73,9 +73,9 @@ VALUES (42431,   1, 260, 0, 0) /* Strength */
      , (42431,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42431,   1,   495, 0, 0, 495) /* MaxHealth */
-     , (42431,   3,   790, 0, 0, 790) /* MaxStamina */
-     , (42431,   5,   700, 0, 0, 700) /* MaxMana */;
+VALUES (42431,   1,    10, 0, 0, 495) /* MaxHealth */
+     , (42431,   3,    10, 0, 0, 790) /* MaxStamina */
+     , (42431,   5,    10, 0, 0, 700) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42431, 4, 41956, -1, 0, 0, False) /* Create Armor Tailoring Kit (41956) for Shop */

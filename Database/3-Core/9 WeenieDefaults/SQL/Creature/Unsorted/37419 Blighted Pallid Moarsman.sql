@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37419;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37419, 'ace37419-blightedpallidmoarsman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37419, 'ace37419-blightedpallidmoarsman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37419,   1,         16) /* ItemType - Creature */
@@ -45,6 +45,21 @@ VALUES (37419, 8040, 330432769, 35, 64, 12.604, 0.7071068, 0, 0, -0.7071068) /* 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37419, 8000, 3706880099) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37419, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */
+     , (37419, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (37419, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (37419, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (37419, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (37419, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (37419, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (37419, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (37419, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (37419, 9, 39014,  0, 0, 0, False) /* Create Pallid Sea Invasion Key (39014) for ContainTreasure */
+     , (37419, 9, 49289,  0, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for ContainTreasure */
+     , (37419, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */
+     , (37419, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37419, 67113029, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51316;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51316, 'ace51316-frozenwightarcher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51316, 'ace51316-frozenwightarcher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51316,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,18 @@ VALUES (51316,   1, 400, 0, 0) /* Strength */
      , (51316,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51316,   1,  2200, 0, 0, 2200) /* MaxHealth */
-     , (51316,   3,  2400, 0, 0, 2400) /* MaxStamina */
-     , (51316,   5,   750, 0, 0, 750) /* MaxMana */;
+VALUES (51316,   1,    10, 0, 0, 2200) /* MaxHealth */
+     , (51316,   3,    10, 0, 0, 2400) /* MaxStamina */
+     , (51316,   5,    10, 0, 0, 750) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51316, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
+     , (51316, 2, 48323,  1, 0, 0, False) /* Create Arrow (48323) for Wield */
+     , (51316, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (51316, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (51316, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (51316, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (51316, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51316, 67113362, 0, 0);

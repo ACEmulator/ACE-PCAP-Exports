@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44297;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44297, 'ace44297-crackedstonetablet', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44297, 'ace44297-crackedstonetablet', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44297,   1,         16) /* ItemType - Creature */
@@ -68,3 +68,10 @@ VALUES (44297, 8040, 2288254994, 62.79256, 46.23956, 49.1793, -0.8105115, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (44297, 8000, 3360164669) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44297, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (44297, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (44297, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
+     , (44297, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (44297, 9, 44298,  1, 0, 0, False) /* Create Broken Stone Tablet (44298) for ContainTreasure */;

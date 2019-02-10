@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22051;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22051, 'skeletoncharrednew', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22051, 'skeletoncharrednew', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22051,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,18 @@ VALUES (22051,   1, 155, 0, 0) /* Strength */
      , (22051,   6, 195, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22051,   1,   753, 0, 0, 753) /* MaxHealth */
-     , (22051,   3,   865, 0, 0, 865) /* MaxStamina */
-     , (22051,   5,   275, 0, 0, 275) /* MaxMana */;
+VALUES (22051,   1,    10, 0, 0, 753) /* MaxHealth */
+     , (22051,   3,    10, 0, 0, 865) /* MaxStamina */
+     , (22051,   5,    10, 0, 0, 275) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22051, 2,  5753,  1, 0, 0, False) /* Create Pickaxe (5753) for Wield */
+     , (22051, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (22051, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (22051, 9,  3687,  0, 0, 0, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (22051, 9, 20237,  0, 0, 0, False) /* Create Scroll of Perseverance (20237) for ContainTreasure */
+     , (22051, 9, 20417,  0, 0, 0, False) /* Create Scroll of Cabalastic Ostracism (20417) for ContainTreasure */
+     , (22051, 9, 49256,  0, 0, 0, False) /* Create Frost Zombie Essence (100) (49256) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22051, 67116526, 0, 0);

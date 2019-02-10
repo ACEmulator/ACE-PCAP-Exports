@@ -1,12 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11711;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11711, 'slumlordcottagecheap', 55) /* SlumLord */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11711, 'slumlordcottagecheap', 55, '2019-02-10 05:41:14') /* SlumLord */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11711,   1,          0) /* ItemType - None */
      , (11711,  16,         32) /* ItemUseable - Remote */
+     , (11711,  86,         20) /* MinLevel */
+     , (11711,  87,         -1) /* MaxLevel */
      , (11711,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (11711, 149,          1) /* HouseStatus - Active */
+     , (11711, 155,          1) /* HouseType - Cottage */
+     , (11711, 163,         -1) /* AllegianceMinLevel */
+     , (11711, 164,         -1) /* AllegianceMaxLevel */
      , (11711, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,3 +46,9 @@ VALUES (11711, 8040, 2471493683, 152.783, 59.2911, 12.078, -0.714598, 0, 0, 0.69
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11711, 8000, 2033516693) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11711, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
+     , (11711, 16,  3672,  1, 0, 0, False) /* Create Iron Heart (3672) for HouseBuy */
+     , (11711, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (11711, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

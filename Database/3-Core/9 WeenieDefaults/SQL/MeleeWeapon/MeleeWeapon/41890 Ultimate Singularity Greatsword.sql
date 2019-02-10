@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41890;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41890, 'ace41890-ultimatesingularitygreatsword', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41890, 'ace41890-ultimatesingularitygreatsword', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41890,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,7 +26,7 @@ VALUES (41890,   1,          1) /* ItemType - MeleeWeapon */
      , (41890, 114,          1) /* Attuned - Attuned */
      , (41890, 151,          2) /* HookType - Wall */
      , (41890, 158,          2) /* WieldRequirements - RawSkill */
-     , (41890, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41890, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41890, 160,        400) /* WieldDifficulty */
      , (41890, 166,         19) /* SlayerCreatureType - Virindi */
      , (41890, 292,          2) /* Cleaving */
@@ -71,8 +71,7 @@ VALUES (41890,   1,   33557319) /* Setup */
      , (41890, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41890,   2, 2427627214) /* Container */
-     , (41890, 8000, 2676012216) /* PCAPRecordedObjectIID */;
+VALUES (41890, 8000, 2676012216) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41890,  2086,      2) 

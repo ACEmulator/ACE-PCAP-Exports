@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8592;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8592, 'zombierevenantmeditate', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8592, 'zombierevenantmeditate', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8592,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,12 @@ VALUES (8592, 8040, 4044816395, 41.4549, 67.5594, 19.90825, -0.9821403, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8592, 8000, 3709229921) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8592, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (8592, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (8592, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
+     , (8592, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8592, 67114695, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34351;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34351, 'ace34351-pyrealmote', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34351, 'ace34351-pyrealmote', 1, '2019-02-10 05:41:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34351,   1,        128) /* ItemType - Misc */
@@ -39,8 +39,7 @@ VALUES (34351,   1,   33556406) /* Setup */
      , (34351, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34351,   2, 2916900376) /* Container */
-     , (34351, 8000, 2921108079) /* PCAPRecordedObjectIID */;
+VALUES (34351, 8000, 2921108079) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34351, 67111919, 0, 0);

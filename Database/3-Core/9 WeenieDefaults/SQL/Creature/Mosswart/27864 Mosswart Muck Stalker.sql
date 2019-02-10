@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27864;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27864, 'mosswartmuckstalker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27864, 'mosswartmuckstalker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27864,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,28 @@ VALUES (27864,   1, 180, 0, 0) /* Strength */
      , (27864,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27864,   1,   275, 0, 0, 275) /* MaxHealth */
-     , (27864,   3,   440, 0, 0, 440) /* MaxStamina */
-     , (27864,   5,   270, 0, 0, 270) /* MaxMana */;
+VALUES (27864,   1,    10, 0, 0, 275) /* MaxHealth */
+     , (27864,   3,    10, 0, 0, 440) /* MaxStamina */
+     , (27864,   5,    10, 0, 0, 270) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27864, 2, 47527,  1, 0, 0, False) /* Create Acid Javelin (47527) for Wield */
+     , (27864, 2, 47546,  1, 0, 0, False) /* Create Javelin (47546) for Wield */
+     , (27864, 2, 47622,  1, 0, 0, False) /* Create Acid Tachi (47622) for Wield */
+     , (27864, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
+     , (27864, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
+     , (27864, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
+     , (27864, 9,    43,  0, 0, 0, False) /* Create Yoroi Breastplate (43) for ContainTreasure */
+     , (27864, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (27864, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (27864, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (27864, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (27864, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (27864, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (27864, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */
+     , (27864, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (27864, 9, 43334,  0, 0, 0, False) /* Create Scroll of Festering Curse VI (43334) for ContainTreasure */
+     , (27864, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27864, 67113405, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11495;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11495, 'carenzirabid_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11495, 'carenzirabid_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11495,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,15 @@ VALUES (11495,   1, 150, 0, 0) /* Strength */
      , (11495,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11495,   1,   265, 0, 0, 265) /* MaxHealth */
-     , (11495,   3,   420, 0, 0, 420) /* MaxStamina */
-     , (11495,   5,   180, 0, 0, 180) /* MaxMana */;
+VALUES (11495,   1,    10, 0, 0, 265) /* MaxHealth */
+     , (11495,   3,    10, 0, 0, 420) /* MaxStamina */
+     , (11495,   5,    10, 0, 0, 180) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11495, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (11495, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (11495, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
+     , (11495, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11495, 67113299, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20188;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20188, 'acidelementalmox', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20188, 'acidelementalmox', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20188,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (20188,   1, True ) /* Stuck */
      , (20188,  13, False) /* Ethereal */
      , (20188,  14, True ) /* GravityStatus */
      , (20188,  15, True ) /* LightsStatus */
-     , (20188,  19, True ) /* Attackable */;
+     , (20188,  19, True ) /* Attackable */
+     , (20188, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20188,  39, 0.600000023841858) /* DefaultScale */;
@@ -55,6 +56,10 @@ VALUES (20188,   1, 100, 0, 0) /* Strength */
      , (20188,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20188,   1,   125, 0, 0, 125) /* MaxHealth */
-     , (20188,   3,   210, 0, 0, 210) /* MaxStamina */
-     , (20188,   5,   240, 0, 0, 240) /* MaxMana */;
+VALUES (20188,   1,    10, 0, 0, 125) /* MaxHealth */
+     , (20188,   3,    10, 0, 0, 210) /* MaxStamina */
+     , (20188,   5,    10, 0, 0, 240) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (20188, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (20188, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */;

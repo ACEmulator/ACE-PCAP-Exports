@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46645;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46645, 'ace46645-reinforcedshoujenshozokumask', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46645, 'ace46645-reinforcedshoujenshozokumask', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46645,   1,          2) /* ItemType - Armor */
@@ -21,7 +21,7 @@ VALUES (46645,   1,          2) /* ItemType - Armor */
      , (46645, 109,        200) /* ItemDifficulty */
      , (46645, 151,          2) /* HookType - Wall */
      , (46645, 158,          7) /* WieldRequirements - Level */
-     , (46645, 159,          1) /* WieldSkilltype - Axe */
+     , (46645, 159,          1) /* WieldSkillType - Axe */
      , (46645, 160,        180) /* WieldDifficulty */
      , (46645, 179,       4096) /* ImbuedEffect - MagicDefense */
      , (46645, 265,         89) /* EquipmentSetId - Ninja_New */;
@@ -60,8 +60,7 @@ VALUES (46645,   1,   33560096) /* Setup */
      , (46645, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46645,   2, 1343561630) /* Container */
-     , (46645, 8000, 2175123415) /* PCAPRecordedObjectIID */;
+VALUES (46645, 8000, 2175123415) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46645,  4020,      2) 

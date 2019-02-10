@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36774;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36774, 'ace36774-elysastrathelar', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36774, 'ace36774-elysastrathelar', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36774,   1,         16) /* ItemType - Creature */
@@ -57,7 +57,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36774, 8000, 3696884274) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36774,   1,   230, 0, 0, 230) /* MaxHealth */;
+VALUES (36774,   1,    10, 0, 0, 230) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36774, 2,  8891,  1, 0, 0, False) /* Create Elysa's Longbow (8891) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36774, 67110317, 64, 8)

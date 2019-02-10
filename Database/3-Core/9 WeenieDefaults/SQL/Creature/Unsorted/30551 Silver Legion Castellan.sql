@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30551;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30551, 'knightcastellansilver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30551, 'knightcastellansilver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30551,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,14 @@ VALUES (30551, 8040, 1088815140, 111.395, 75.3653, 160.0068, 0.999884, 0, 0, 0.0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30551, 8000, 3704572413) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30551, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
+     , (30551, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
+     , (30551, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (30551, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (30551, 9, 29372,  1, 0, 0, False) /* Create Royal Blood (29372) for ContainTreasure */
+     , (30551, 9, 43024,  0, 0, 0, False) /* Create Silver Knight Medallion  (43024) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30551, 67115468, 0, 0);

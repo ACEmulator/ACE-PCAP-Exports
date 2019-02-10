@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25876;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25876, 'nefanesephal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25876, 'nefanesephal', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25876,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,14 @@ VALUES (25876,   1, 280, 0, 0) /* Strength */
      , (25876,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25876,   1,  2000, 0, 0, 2000) /* MaxHealth */
-     , (25876,   3,  2000, 0, 0, 2000) /* MaxStamina */
-     , (25876,   5,  2000, 0, 0, 2000) /* MaxMana */;
+VALUES (25876,   1,    10, 0, 0, 2000) /* MaxHealth */
+     , (25876,   3,    10, 0, 0, 2000) /* MaxStamina */
+     , (25876,   5,    10, 0, 0, 2000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25876, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (25876, 9, 21108,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VII (21108) for ContainTreasure */
+     , (25876, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25876, 67114702, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8820;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8820, 'virindiservantchakron', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8820, 'virindiservantchakron', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8820,   1,         16) /* ItemType - Creature */
@@ -43,7 +43,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8820, 8000, 3701872466) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8820,   1,   350, 0, 0, 350) /* MaxHealth */;
+VALUES (8820,   1,    10, 0, 0, 350) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8820, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (8820, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (8820, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
+     , (8820, 9,  7604,  1, 0, 0, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (8820, 9,  8789,  0, 0, 0, False) /* Create Virindi Servant's Amulet (8789) for ContainTreasure */
+     , (8820, 9,  9292,  0, 0, 0, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (8820, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (8820, 9, 83890028, 83890027);

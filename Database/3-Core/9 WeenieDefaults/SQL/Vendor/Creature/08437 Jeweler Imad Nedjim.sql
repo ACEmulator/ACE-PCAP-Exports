@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8437;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8437, 'krystjeweler', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8437, 'krystjeweler', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8437,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (8437,   1, 100, 0, 0) /* Strength */
      , (8437,   6,  75, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8437,   1,    58, 0, 0, 58) /* MaxHealth */
-     , (8437,   3,   105, 0, 0, 105) /* MaxStamina */
-     , (8437,   5,    85, 0, 0, 85) /* MaxMana */;
+VALUES (8437,   1,    10, 0, 0, 58) /* MaxHealth */
+     , (8437,   3,    10, 0, 0, 105) /* MaxStamina */
+     , (8437,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8437, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */

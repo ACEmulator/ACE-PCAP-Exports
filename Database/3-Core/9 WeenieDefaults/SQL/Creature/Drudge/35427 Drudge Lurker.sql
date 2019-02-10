@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35427;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35427, 'ace35427-drudgelurker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35427, 'ace35427-drudgelurker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35427,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35427, 8000, 3701931231) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35427,   1,   117, 0, 0, 117) /* MaxHealth */;
+VALUES (35427,   1,    10, 0, 0, 117) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35427, 2, 47233,  1, 0, 0, False) /* Create Acid Board with Nail (47233) for Wield */
+     , (35427, 2, 47252,  1, 0, 0, False) /* Create Board with Nail (47252) for Wield */
+     , (35427, 2, 47309,  1, 0, 0, False) /* Create Frost Board with Nail (47309) for Wield */
+     , (35427, 2, 47328,  1, 0, 0, False) /* Create Acid Club (47328) for Wield */
+     , (35427, 2, 47347,  1, 0, 0, False) /* Create Club (47347) for Wield */
+     , (35427, 2, 47366,  1, 0, 0, False) /* Create Lightning Club (47366) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35427, 67112814, 0, 0);

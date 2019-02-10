@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46506;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46506, 'ace46506-spectralbladeadept', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46506, 'ace46506-spectralbladeadept', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46506,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46506, 8000, 3707807820) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46506,   1,  2675, 0, 0, 2675) /* MaxHealth */;
+VALUES (46506,   1,    10, 0, 0, 2675) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46506, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
+     , (46506, 9,   273, 2126, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (46506, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (46506, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (46506, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (46506, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (46506, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46506, 67114607, 168, 6)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7979;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7979, 'grievvervirulent', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7979, 'grievvervirulent', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7979,   1,         16) /* ItemType - Creature */
@@ -59,9 +59,20 @@ VALUES (7979,   1, 160, 0, 0) /* Strength */
      , (7979,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7979,   1,   140, 0, 0, 140) /* MaxHealth */
-     , (7979,   3,   170, 0, 0, 170) /* MaxStamina */
-     , (7979,   5,   195, 0, 0, 195) /* MaxMana */;
+VALUES (7979,   1,    10, 0, 0, 140) /* MaxHealth */
+     , (7979,   3,    10, 0, 0, 170) /* MaxStamina */
+     , (7979,   5,    10, 0, 0, 195) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7979, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (7979, 9,   273, 70, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7979, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (7979, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (7979, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (7979, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (7979, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (7979, 9,  9098,  1, 0, 0, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
+     , (7979, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7979, 67112939, 0, 0);

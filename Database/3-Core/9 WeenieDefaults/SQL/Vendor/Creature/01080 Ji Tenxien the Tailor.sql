@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1080;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1080, 'eastrithwictailor', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1080, 'eastrithwictailor', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1080,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (1080,   1,  60, 0, 0) /* Strength */
      , (1080,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1080,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (1080,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (1080,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (1080,   1,    10, 0, 0, 135) /* MaxHealth */
+     , (1080,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (1080,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1080, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */

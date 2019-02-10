@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46936;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46936, 'ace46936-ancientwatergolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46936, 'ace46936-ancientwatergolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46936,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,16 @@ VALUES (46936,   1, 380, 0, 0) /* Strength */
      , (46936,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46936,   1,  8600, 0, 0, 8600) /* MaxHealth */
-     , (46936,   3,  6500, 0, 0, 6500) /* MaxStamina */
-     , (46936,   5,  7590, 0, 0, 7590) /* MaxMana */;
+VALUES (46936,   1,    10, 0, 0, 8600) /* MaxHealth */
+     , (46936,   3,    10, 0, 0, 6500) /* MaxStamina */
+     , (46936,   5,    10, 0, 0, 7590) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46936, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (46936, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (46936, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (46936, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (46936, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */
+     , (46936, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+     , (46936, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (46936, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25855;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25855, 'dollcosseted', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25855, 'dollcosseted', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25855,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,11 @@ VALUES (25855,   1, 170, 0, 0) /* Strength */
      , (25855,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25855,   1,   950, 0, 0, 950) /* MaxHealth */
-     , (25855,   3,  1050, 0, 0, 1050) /* MaxStamina */
-     , (25855,   5,  1100, 0, 0, 1100) /* MaxMana */;
+VALUES (25855,   1,    10, 0, 0, 950) /* MaxHealth */
+     , (25855,   3,    10, 0, 0, 1050) /* MaxStamina */
+     , (25855,   5,    10, 0, 0, 1100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25855, 9,   273, 1142, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (25855, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (25855, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */;

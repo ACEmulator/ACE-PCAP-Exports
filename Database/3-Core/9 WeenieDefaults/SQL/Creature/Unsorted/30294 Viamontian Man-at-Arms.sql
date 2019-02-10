@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30294;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30294, 'knightmanatarms_nofall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30294, 'knightmanatarms_nofall', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30294,   1,         16) /* ItemType - Creature */
@@ -44,6 +44,11 @@ VALUES (30294, 8040, 1573253, 68.8334, -180.75, 0.006267607, -0.8782967, 0, 0, 0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30294, 8000, 3707925241) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30294, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
+     , (30294, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */
+     , (30294, 2, 29981,  1, 0, 0, False) /* Create Throwing Axe (29981) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30294, 67115519, 0, 0);

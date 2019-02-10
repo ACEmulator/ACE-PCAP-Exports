@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29358;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29358, 'phyntoswaspwoodland', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29358, 'phyntoswaspwoodland', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29358,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,14 @@ VALUES (29358,   1, 120, 0, 0) /* Strength */
      , (29358,   6, 105, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29358,   1,   238, 0, 0, 238) /* MaxHealth */
-     , (29358,   3,   355, 0, 0, 355) /* MaxStamina */
-     , (29358,   5,   265, 0, 0, 265) /* MaxMana */;
+VALUES (29358,   1,    10, 0, 0, 238) /* MaxHealth */
+     , (29358,   3,    10, 0, 0, 355) /* MaxStamina */
+     , (29358,   5,    10, 0, 0, 265) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29358, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (29358, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (29358, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29358, 67115264, 0, 0);

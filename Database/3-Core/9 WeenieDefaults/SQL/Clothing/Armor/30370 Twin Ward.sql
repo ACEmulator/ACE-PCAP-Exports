@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30370;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30370, 'shieldraretwinward', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30370, 'shieldraretwinward', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30370,   1,          2) /* ItemType - Armor */
@@ -60,15 +60,14 @@ VALUES (30370,   1,   33559418) /* Setup */
      , (30370, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30370, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30370, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (30370, 8009,          3);
+     , (30370, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30370, 8040, 23855554, 56.32443, -31.82497, -0.07400001, 0.4301272, -0.3963817, -0.7435492, -0.3240475) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.324430 -31.824970 -0.074000] 0.430127 -0.396382 -0.743549 -0.324048 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30370,   3, 1343493209) /* Wielder */
-     , (30370, 8000, 3637155153) /* PCAPRecordedObjectIID */
+VALUES (30370, 8000, 3637155153) /* PCAPRecordedObjectIID */
      , (30370, 8008, 1343493209) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52962;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52962, 'ace52962-radiantbloodwarrior', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52962, 'ace52962-radiantbloodwarrior', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52962,   1,         16) /* ItemType - Creature */
@@ -67,9 +67,12 @@ VALUES (52962,   1, 240, 0, 0) /* Strength */
      , (52962,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52962,   1,   296, 0, 0, 296) /* MaxHealth */
-     , (52962,   3,   396, 0, 0, 396) /* MaxStamina */
-     , (52962,   5,   486, 0, 0, 486) /* MaxMana */;
+VALUES (52962,   1,    10, 0, 0, 296) /* MaxHealth */
+     , (52962,   3,    10, 0, 0, 396) /* MaxStamina */
+     , (52962,   5,    10, 0, 0, 486) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52962, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52962, 67109559, 0, 24)

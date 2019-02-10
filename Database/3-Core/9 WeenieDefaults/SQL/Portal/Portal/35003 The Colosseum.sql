@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35003;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35003, 'ace35003-thecolosseum', 7) /* Portal */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35003, 'ace35003-thecolosseum', 7, '2019-02-10 05:41:14') /* Portal */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35003,   1,      65536) /* ItemType - Portal */
@@ -40,3 +40,6 @@ VALUES (35003, 8040, 11927823, 30, -306, -12, 1, 0, 0, 0) /* PCAPRecordedLocatio
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35003, 8000, 2929230393) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35003, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

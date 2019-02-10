@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1394;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1394, 'weaponsmithgaron', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1394, 'weaponsmithgaron', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1394,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (1394,   1,  70, 0, 0) /* Strength */
      , (1394,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1394,   1,   118, 0, 0, 118) /* MaxHealth */
-     , (1394,   3,   155, 0, 0, 155) /* MaxStamina */
-     , (1394,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (1394,   1,    10, 0, 0, 118) /* MaxHealth */
+     , (1394,   3,    10, 0, 0, 155) /* MaxStamina */
+     , (1394,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1394, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
+VALUES (1394, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (1394, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (1394, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
      , (1394, 4,   317, -1, 0, 0, False) /* Create Djarid (317) for Shop */
      , (1394, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */

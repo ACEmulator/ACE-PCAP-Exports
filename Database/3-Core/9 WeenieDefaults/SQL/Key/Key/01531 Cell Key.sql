@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1531;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1531, 'keycoliercell', 22) /* Key */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1531, 'keycoliercell', 22, '2019-02-10 05:41:14') /* Key */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1531,   1,      16384) /* ItemType - Key */
@@ -10,7 +10,7 @@ VALUES (1531,   1,      16384) /* ItemType - Key */
      , (1531,  19,         90) /* Value */
      , (1531,  65,        101) /* Placement - Resting */
      , (1531,  91,         20) /* MaxStructure */
-     , (1531,  92,         18) /* Structure */
+     , (1531,  92,         20) /* Structure */
      , (1531,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (1531,  94,        640) /* TargetType - LockableMagicTarget */;
 

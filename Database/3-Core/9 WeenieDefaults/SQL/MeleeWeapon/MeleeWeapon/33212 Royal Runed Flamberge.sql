@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33212;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33212, 'ace33212-royalrunedflamberge', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33212, 'ace33212-royalrunedflamberge', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33212,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (33212,   1,          1) /* ItemType - MeleeWeapon */
      , (33212, 109,          0) /* ItemDifficulty */
      , (33212, 151,          2) /* HookType - Wall */
      , (33212, 158,          7) /* WieldRequirements - Level */
-     , (33212, 159,          1) /* WieldSkilltype - Axe */
+     , (33212, 159,          1) /* WieldSkillType - Axe */
      , (33212, 160,        120) /* WieldDifficulty */
      , (33212, 353,          2) /* WeaponType - Sword */
      , (33212, 8030,          0);
@@ -59,14 +59,13 @@ VALUES (33212,   1,   33559937) /* Setup */
      , (33212,   8,  100686955) /* Icon */
      , (33212,  22,  872415275) /* PhysicsEffectTable */
      , (33212,  50,  100688914) /* IconOverlay */
-     , (33212,  55,       2074) /* ProcSpell */
+     , (33212,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (33212, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (33212, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33212, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33212,   2, 2807507490) /* Container */
-     , (33212, 8000, 2807507502) /* PCAPRecordedObjectIID */;
+VALUES (33212, 8000, 2807507502) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33212,  2074,      2) 

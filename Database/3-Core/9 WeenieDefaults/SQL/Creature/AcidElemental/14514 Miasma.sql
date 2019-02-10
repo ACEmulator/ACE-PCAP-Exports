@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14514;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14514, 'acidelementalmiasma', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14514, 'acidelementalmiasma', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14514,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (14514,   1, True ) /* Stuck */
      , (14514,  13, False) /* Ethereal */
      , (14514,  14, True ) /* GravityStatus */
      , (14514,  15, True ) /* LightsStatus */
-     , (14514,  19, True ) /* Attackable */;
+     , (14514,  19, True ) /* Attackable */
+     , (14514, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14514,  39, 1.70000004768372) /* DefaultScale */;
@@ -55,6 +56,11 @@ VALUES (14514,   1, 150, 0, 0) /* Strength */
      , (14514,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14514,   1,   780, 0, 0, 780) /* MaxHealth */
-     , (14514,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (14514,   5,   540, 0, 0, 495) /* MaxMana */;
+VALUES (14514,   1,    10, 0, 0, 780) /* MaxHealth */
+     , (14514,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (14514,   5,    10, 0, 0, 495) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14514, 9,   273, 1719, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14514, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (14514, 9, 20402,  0, 0, 0, False) /* Create Scroll of Olthoi's Bane (20402) for ContainTreasure */;

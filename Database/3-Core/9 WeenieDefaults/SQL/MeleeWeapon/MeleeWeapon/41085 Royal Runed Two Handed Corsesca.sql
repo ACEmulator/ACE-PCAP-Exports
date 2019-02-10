@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41085;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41085, 'ace41085-royalrunedtwohandedcorsesca', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41085, 'ace41085-royalrunedtwohandedcorsesca', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41085,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (41085,   1,          1) /* ItemType - MeleeWeapon */
      , (41085, 109,          0) /* ItemDifficulty */
      , (41085, 151,          2) /* HookType - Wall */
      , (41085, 158,          7) /* WieldRequirements - Level */
-     , (41085, 159,         41) /* WieldSkilltype - TwoHandedCombat */
+     , (41085, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41085, 160,        120) /* WieldDifficulty */
      , (41085, 353,         11) /* WeaponType - TwoHanded */
      , (41085, 8030,          0);
@@ -58,14 +58,13 @@ VALUES (41085,   1,   33560794) /* Setup */
      , (41085,   8,  100690788) /* Icon */
      , (41085,  22,  872415275) /* PhysicsEffectTable */
      , (41085,  50,  100688914) /* IconOverlay */
-     , (41085,  55,       2074) /* ProcSpell */
+     , (41085,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (41085, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (41085, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41085, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41085,   2, 1343306453) /* Container */
-     , (41085, 8000, 2967711603) /* PCAPRecordedObjectIID */;
+VALUES (41085, 8000, 2967711603) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41085,  2074,      2) 

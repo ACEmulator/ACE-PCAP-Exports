@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5648;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5648, 'neydisacastleweaponsmith', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5648, 'neydisacastleweaponsmith', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5648,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (5648,   1, 190, 0, 0) /* Strength */
      , (5648,   6, 115, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5648,   1,    85, 0, 0, 85) /* MaxHealth */
-     , (5648,   3,   170, 0, 0, 170) /* MaxStamina */
-     , (5648,   5,   115, 0, 0, 115) /* MaxMana */;
+VALUES (5648,   1,    10, 0, 0, 85) /* MaxHealth */
+     , (5648,   3,    10, 0, 0, 170) /* MaxStamina */
+     , (5648,   5,    10, 0, 0, 115) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5648, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
+VALUES (5648, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
+     , (5648, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
      , (5648, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (5648, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (5648, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */

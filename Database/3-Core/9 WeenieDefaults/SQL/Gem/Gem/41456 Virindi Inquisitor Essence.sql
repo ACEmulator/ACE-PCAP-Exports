@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41456;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41456, 'ace41456-virindiinquisitoressence', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41456, 'ace41456-virindiinquisitoressence', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41456,   1,       2048) /* ItemType - Gem */
      , (41456,   5,         10) /* EncumbranceVal */
      , (41456,  11,          1) /* MaxStackSize */
      , (41456,  12,          1) /* StackSize */
+     , (41456,  13,         10) /* StackUnitEncumbrance */
+     , (41456,  15,          0) /* StackUnitValue */
      , (41456,  16,          8) /* ItemUseable - Contained */
      , (41456,  18,          1) /* UiEffects - Magical */
      , (41456,  19,          0) /* Value */
@@ -48,8 +50,7 @@ VALUES (41456,   1,   33554809) /* Setup */
      , (41456, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41456,   2, 2274286832) /* Container */
-     , (41456, 8000, 2317155268) /* PCAPRecordedObjectIID */;
+VALUES (41456, 8000, 2317155268) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41456,  5155,      2) ;

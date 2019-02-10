@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30888;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30888, 'grievverbossuber0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30888, 'grievverbossuber0205', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30888,   1,         16) /* ItemType - Creature */
@@ -49,7 +49,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30888, 8000, 3629538322) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30888,   1,  5500, 0, 0, 5500) /* MaxHealth */;
+VALUES (30888,   1,    10, 0, 0, 5500) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30888, 9, 27227,  0, 0, 0, False) /* Create Nariyid Breastplate (27227) for ContainTreasure */
+     , (30888, 9, 30857,  1, 0, 0, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30888, 9, 30865,  0, 0, 0, False) /* Create Atlatl of the Fallen (30865) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30888, 67114286, 0, 0);

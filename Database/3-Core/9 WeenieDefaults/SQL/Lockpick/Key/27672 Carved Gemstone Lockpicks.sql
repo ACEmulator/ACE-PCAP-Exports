@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27672;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27672, 'lockpickrenegade', 23) /* Lockpick */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27672, 'lockpickrenegade', 23, '2019-02-10 05:41:14') /* Lockpick */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27672,   1,      16384) /* ItemType - Key */
@@ -10,7 +10,7 @@ VALUES (27672,   1,      16384) /* ItemType - Key */
      , (27672,  19,       1900) /* Value */
      , (27672,  65,        101) /* Placement - Resting */
      , (27672,  91,        100) /* MaxStructure */
-     , (27672,  92,         95) /* Structure */
+     , (27672,  92,        100) /* Structure */
      , (27672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27672,  94,        640) /* TargetType - LockableMagicTarget */
      , (27672, 173,        100) /* AppraisalLockpickSuccessPercent */;
@@ -39,5 +39,4 @@ VALUES (27672,   1,   33554790) /* Setup */
      , (27672, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27672,   2, 2169459599) /* Container */
-     , (27672, 8000, 2169471122) /* PCAPRecordedObjectIID */;
+VALUES (27672, 8000, 2169471122) /* PCAPRecordedObjectIID */;

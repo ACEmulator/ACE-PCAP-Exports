@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 12186;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (12186, 'humanzharalimfemale_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (12186, 'humanzharalimfemale_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12186,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,21 @@ VALUES (12186,   1, 150, 0, 0) /* Strength */
      , (12186,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12186,   1,   220, 0, 0, 220) /* MaxHealth */
-     , (12186,   3,   260, 0, 0, 260) /* MaxStamina */
-     , (12186,   5,   120, 0, 0, 120) /* MaxMana */;
+VALUES (12186,   1,    10, 0, 0, 220) /* MaxHealth */
+     , (12186,   3,    10, 0, 0, 260) /* MaxStamina */
+     , (12186,   5,    10, 0, 0, 120) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (12186, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
+     , (12186, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
+     , (12186, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
+     , (12186, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */
+     , (12186, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
+     , (12186, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
+     , (12186, 2, 12195,  1, 0, 0, False) /* Create Assassin's Simi (12195) for Wield */
+     , (12186, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */
+     , (12186, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */
+     , (12186, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12186, 67109555, 0, 24)

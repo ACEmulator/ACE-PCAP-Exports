@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7276;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7276, 'acidwall', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7276, 'acidwall', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7276,   1,          0) /* ItemType - None */
@@ -45,3 +45,9 @@ VALUES (7276, 8040, 9175362, 127.7061, -67.76887, -4.1575, -0.921203, 0, 0, -0.3
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7276, 8000, 3701635833) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7276, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
+     , (7276, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */
+     , (7276, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (7276, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */;

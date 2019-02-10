@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25882;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25882, 'riftschism', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25882, 'riftschism', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25882,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (25882,   1, True ) /* Stuck */
      , (25882,  13, False) /* Ethereal */
      , (25882,  14, True ) /* GravityStatus */
      , (25882,  15, True ) /* LightsStatus */
-     , (25882,  19, True ) /* Attackable */;
+     , (25882,  19, True ) /* Attackable */
+     , (25882, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25882,  39,     1.5) /* DefaultScale */;
@@ -55,6 +56,15 @@ VALUES (25882,   1, 180, 0, 0) /* Strength */
      , (25882,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25882,   1,  1100, 0, 0, 1100) /* MaxHealth */
-     , (25882,   3,  1100, 0, 0, 1100) /* MaxStamina */
-     , (25882,   5,  1100, 0, 0, 1100) /* MaxMana */;
+VALUES (25882,   1,    10, 0, 0, 1100) /* MaxHealth */
+     , (25882,   3,    10, 0, 0, 1100) /* MaxStamina */
+     , (25882,   5,    10, 0, 0, 1100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25882, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (25882, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (25882, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */
+     , (25882, 9, 27223,  0, 0, 0, False) /* Create Lorica Helm (27223) for ContainTreasure */
+     , (25882, 9, 31355,  1, 0, 0, False) /* Create Olthoi Slasher Carapace (31355) for ContainTreasure */
+     , (25882, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (25882, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */;

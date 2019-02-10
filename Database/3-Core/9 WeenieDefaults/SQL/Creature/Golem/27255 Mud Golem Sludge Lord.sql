@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27255;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27255, 'golemmudsludgelord', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27255, 'golemmudsludgelord', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27255,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,22 @@ VALUES (27255,   1, 100, 0, 0) /* Strength */
      , (27255,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27255,   1,   270, 0, 0, 270) /* MaxHealth */
-     , (27255,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (27255,   5,   230, 0, 0, 230) /* MaxMana */;
+VALUES (27255,   1,    10, 0, 0, 270) /* MaxHealth */
+     , (27255,   3,    10, 0, 0, 290) /* MaxStamina */
+     , (27255,   5,    10, 0, 0, 230) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27255, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (27255, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (27255, 9,   273, 41, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (27255, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (27255, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (27255, 9,  3731,  0, 0, 0, False) /* Create Scroll of Infuse Health II (3731) for ContainTreasure */
+     , (27255, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (27255, 9, 11351,  0, 0, 0, False) /* Create Mud Golem Heart (11351) for ContainTreasure */
+     , (27255, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (27255, 9, 28002,  0, 0, 0, False) /* Create Aura of Spirit Drinker Self (28002) for ContainTreasure */
+     , (27255, 9, 28010,  0, 0, 0, False) /* Create Scroll of Spirit Loather II (28010) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27255, 67112774, 0, 0);

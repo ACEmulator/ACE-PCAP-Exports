@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8752;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8752, 'wandlightningrarenewbiequest', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8752, 'wandlightningrarenewbiequest', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8752,   1,      32768) /* ItemType - Caster */
@@ -37,15 +37,14 @@ VALUES (8752,   1,   33558231) /* Setup */
      , (8752, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (8752, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8752, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (8752, 8009,          1);
+     , (8752, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8752, 8040, 3332964380, 78.06476, 91.39876, 41.929, 0.6919549, 0.6919549, -0.1455967, -0.1455967) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [78.064760 91.398760 41.929000] 0.691955 0.691955 -0.145597 -0.145597 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8752,   3, 1342561990) /* Wielder */
-     , (8752, 8000, 2490261914) /* PCAPRecordedObjectIID */
+VALUES (8752, 8000, 2490261914) /* PCAPRecordedObjectIID */
      , (8752, 8008, 1342561990) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

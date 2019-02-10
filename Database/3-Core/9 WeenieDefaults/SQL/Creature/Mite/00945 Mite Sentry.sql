@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 945;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (945, 'mitesentry', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (945, 'mitesentry', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (945,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,24 @@ VALUES (945,   1,  85, 0, 0) /* Strength */
      , (945,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (945,   1,    80, 0, 0, 80) /* MaxHealth */
-     , (945,   3,   250, 0, 0, 250) /* MaxStamina */
-     , (945,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (945,   1,    10, 0, 0, 80) /* MaxHealth */
+     , (945,   3,    10, 0, 0, 250) /* MaxStamina */
+     , (945,   5,    10, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (945, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (945, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (945, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (945, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (945, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (945, 9,   273, 317, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (945, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (945, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (945, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (945, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (945, 9, 20544,  0, 0, 0, False) /* Create Scroll of Unfortunate Appraisal (20544) for ContainTreasure */
+     , (945, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
+     , (945, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (945, 67115128, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51959;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51959, 'ace51959-george', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51959, 'ace51959-george', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51959,   1,         16) /* ItemType - Creature */
@@ -68,9 +68,12 @@ VALUES (51959,   1, 255, 0, 0) /* Strength */
      , (51959,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51959,   1,   235, 0, 0, 235) /* MaxHealth */
-     , (51959,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (51959,   5,   145, 0, 0, 145) /* MaxMana */;
+VALUES (51959,   1,    10, 0, 0, 235) /* MaxHealth */
+     , (51959,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (51959,   5,    10, 0, 0, 145) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51959, 2, 12236,  1, 0, 0, False) /* Create Energy Crystal (12236) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51959, 67109560, 0, 24)

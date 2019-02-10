@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52233;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52233, 'ace52233-baktshaykeeper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52233, 'ace52233-baktshaykeeper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52233,   1,         16) /* ItemType - Creature */
@@ -28,7 +28,8 @@ VALUES (52233,   1, True ) /* Stuck */
      , (52233,  14, True ) /* GravityStatus */
      , (52233,  19, False) /* Attackable */
      , (52233,  41, True ) /* ReportCollisionsAsEnvironment */
-     , (52233,  42, True ) /* AllowEdgeSlide */;
+     , (52233,  42, True ) /* AllowEdgeSlide */
+     , (52233, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52233,  39, 1.10000002384186) /* DefaultScale */
@@ -64,9 +65,14 @@ VALUES (52233,   1, 330, 0, 0) /* Strength */
      , (52233,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52233,   1,  8308, 0, 0, 8308) /* MaxHealth */
-     , (52233,   3, 10415, 0, 0, 10415) /* MaxStamina */
-     , (52233,   5, 10245, 0, 0, 10245) /* MaxMana */;
+VALUES (52233,   1,    10, 0, 0, 8308) /* MaxHealth */
+     , (52233,   3,    10, 0, 0, 10415) /* MaxStamina */
+     , (52233,   5,    10, 0, 0, 10245) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52233, 9, 49577,  1, 0, 0, False) /* Create Signet Fragment (49577) for ContainTreasure */
+     , (52233, 9, 49578,  1, 0, 0, False) /* Create Signet Fragment (49578) for ContainTreasure */
+     , (52233, 9, 49579,  1, 0, 0, False) /* Create Signet Fragment (49579) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52233, 67116886, 64, 8)

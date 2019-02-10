@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34976;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34976, 'ace34976-infusedempyreanbloodgolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34976, 'ace34976-infusedempyreanbloodgolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34976,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,21 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34976, 8000, 3707235751) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34976,   1,  3500, 0, 0, 3500) /* MaxHealth */;
+VALUES (34976,   1,    10, 0, 0, 3500) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34976, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (34976, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (34976, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (34976, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (34976, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (34976, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (34976, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (34976, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
+     , (34976, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
+     , (34976, 9, 43382,  0, 0, 0, False) /* Create Nefane Pearl (43382) for ContainTreasure */
+     , (34976, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (34976, 9, 45426,  0, 0, 0, False) /* Create Jambiya (45426) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34976, 67116623, 0, 0);

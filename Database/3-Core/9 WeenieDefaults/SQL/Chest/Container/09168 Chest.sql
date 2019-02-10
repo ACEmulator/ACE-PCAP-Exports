@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 9168;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (9168, 'chestmartinelocked', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9168, 'chestmartinelocked', 20, '2019-02-10 05:41:14') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9168,   1,        512) /* ItemType - Container */
@@ -44,3 +44,10 @@ VALUES (9168, 8040, 45351184, 71.3885, -89.5801, -36, 0.6543783, 0, 0, -0.756167
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9168, 8000, 1881882627) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (9168, -1, 297, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ring (297) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (9168, -1, 2436, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Greater Mana Stone (2436) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (9168, -1, 9120, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate A Meeting (9120) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (9168, -1, 9125, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Virindi Essence (9125) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (9168, -1, 20456, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Lhen's Flare (20456) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

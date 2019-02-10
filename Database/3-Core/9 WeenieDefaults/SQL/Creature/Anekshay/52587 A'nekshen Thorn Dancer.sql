@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52587;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52587, 'ace52587-anekshenthorndancer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52587, 'ace52587-anekshenthorndancer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52587,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (52587,   1, True ) /* Stuck */
      , (52587,  13, False) /* Ethereal */
      , (52587,  14, True ) /* GravityStatus */
      , (52587,  19, True ) /* Attackable */
-     , (52587,  42, True ) /* AllowEdgeSlide */;
+     , (52587,  42, True ) /* AllowEdgeSlide */
+     , (52587, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52587,   1, 'A''nekshen Thorn Dancer') /* Name */
@@ -46,7 +47,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52587, 8000, 3684770258) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52587,   1,  8200, 0, 0, 8200) /* MaxHealth */;
+VALUES (52587,   1,    10, 0, 0, 8200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52587, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (52587, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (52587, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (52587, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52587, 67110361, 72, 8)

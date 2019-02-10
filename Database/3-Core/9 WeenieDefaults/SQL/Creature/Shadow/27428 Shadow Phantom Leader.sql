@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27428;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27428, 'shadowphantomboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27428, 'shadowphantomboss', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27428,   1,         16) /* ItemType - Creature */
@@ -65,9 +65,15 @@ VALUES (27428,   1, 160, 0, 0) /* Strength */
      , (27428,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27428,   1,   580, 0, 0, 580) /* MaxHealth */
-     , (27428,   3,   700, 0, 0, 700) /* MaxStamina */
-     , (27428,   5,   630, 0, 0, 630) /* MaxMana */;
+VALUES (27428,   1,    10, 0, 0, 580) /* MaxHealth */
+     , (27428,   3,    10, 0, 0, 700) /* MaxStamina */
+     , (27428,   5,    10, 0, 0, 630) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27428, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (27428, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */
+     , (27428, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */
+     , (27428, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27428, 67112860, 0, 0);

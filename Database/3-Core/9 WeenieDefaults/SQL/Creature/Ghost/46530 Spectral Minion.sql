@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46530;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46530, 'ace46530-spectralminion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46530, 'ace46530-spectralminion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46530,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,13 @@ VALUES (46530,   1, 400, 0, 0) /* Strength */
      , (46530,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46530,   1,  2500, 0, 0, 2500) /* MaxHealth */
-     , (46530,   3,  2700, 0, 0, 2700) /* MaxStamina */
-     , (46530,   5,   750, 0, 0, 750) /* MaxMana */;
+VALUES (46530,   1,    10, 0, 0, 2500) /* MaxHealth */
+     , (46530,   3,    10, 0, 0, 2700) /* MaxStamina */
+     , (46530,   5,    10, 0, 0, 750) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46530, 2, 46369,  1, 0, 0, False) /* Create Spectral Lightning Nekode (46369) for Wield */
+     , (46530, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46530, 0, 83899054, 83899085)

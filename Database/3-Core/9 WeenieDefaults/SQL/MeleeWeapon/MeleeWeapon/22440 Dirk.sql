@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22440;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22440, 'dirk', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22440, 'dirk', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22440,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (22440,   1,          1) /* ItemType - MeleeWeapon */
      , (22440, 131,         63) /* MaterialType - Silver */
      , (22440, 151,          2) /* HookType - Wall */
      , (22440, 158,          2) /* WieldRequirements - RawSkill */
-     , (22440, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (22440, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (22440, 160,        350) /* WieldDifficulty */
      , (22440, 172,          5) /* AppraisalLongDescDecoration */
      , (22440, 176,         44) /* AppraisalItemSkill */
@@ -81,6 +81,9 @@ VALUES (22440,  2096,      2)
      , (22440,  2576,      2) 
      , (22440,  2613,      2) 
      , (22440,  5808,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22440, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22440, 67111920, 0, 0);

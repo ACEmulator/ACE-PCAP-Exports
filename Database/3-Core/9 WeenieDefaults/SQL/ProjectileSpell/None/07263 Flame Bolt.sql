@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7263;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7263, 'flamestreak', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7263, 'flamestreak', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7263,   1,          0) /* ItemType - None */
@@ -45,3 +45,12 @@ VALUES (7263, 8040, 2376794113, 23.06517, 16.2605, 34.75188, 0.5067534, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7263, 8000, 3685934048) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7263, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (7263, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (7263, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (7263, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (7263, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (7263, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (7263, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49933;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49933, 'ace49933-prismaticshadowtassets', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49933, 'ace49933-prismaticshadowtassets', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49933,   1,          2) /* ItemType - Armor */
@@ -17,7 +17,7 @@ VALUES (49933,   1,          2) /* ItemType - Armor */
      , (49933,  65,        101) /* Placement - Resting */
      , (49933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (49933, 158,          7) /* WieldRequirements - Level */
-     , (49933, 159,          1) /* WieldSkilltype - Axe */
+     , (49933, 159,          1) /* WieldSkillType - Axe */
      , (49933, 160,        115) /* WieldDifficulty */
      , (49933, 265,        130) /* EquipmentSetId - ShimmeringShadowsSet */;
 
@@ -53,8 +53,7 @@ VALUES (49933,   1,   33554656) /* Setup */
      , (49933, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49933,   3, 1343488764) /* Wielder */
-     , (49933, 8000, 3629312317) /* PCAPRecordedObjectIID */;
+VALUES (49933, 8000, 3629312317) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (49933, 0, 83887064, 83899132);

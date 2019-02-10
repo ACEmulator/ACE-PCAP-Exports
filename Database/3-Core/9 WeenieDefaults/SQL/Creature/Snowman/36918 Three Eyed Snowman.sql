@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36918;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36918, 'ace36918-threeeyedsnowman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36918, 'ace36918-threeeyedsnowman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36918,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,11 @@ VALUES (36918,   1, 370, 0, 0) /* Strength */
      , (36918,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36918,   1, 20000, 0, 0, 20000) /* MaxHealth */
-     , (36918,   3,   550, 0, 0, 542) /* MaxStamina */
-     , (36918,   5,   220, 0, 0, 220) /* MaxMana */;
+VALUES (36918,   1,    10, 0, 0, 20000) /* MaxHealth */
+     , (36918,   3,    10, 0, 0, 542) /* MaxStamina */
+     , (36918,   5,    10, 0, 0, 220) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36918, 2, 36919,  1, 0, 0, False) /* Create Freezing Iceball (36919) for Wield */
+     , (36918, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */
+     , (36918, 9, 36920,  0, 0, 0, False) /* Create A Perfect Snowman Eye (36920) for ContainTreasure */;

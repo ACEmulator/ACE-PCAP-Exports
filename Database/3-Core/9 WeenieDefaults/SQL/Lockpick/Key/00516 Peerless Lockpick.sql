@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 516;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (516, 'lockpickpeer', 23) /* Lockpick */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (516, 'lockpickpeer', 23, '2019-02-10 05:41:14') /* Lockpick */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (516,   1,      16384) /* ItemType - Key */
@@ -43,3 +43,7 @@ VALUES (516, 8040, 26149150, 38.9795, -51.6703, -17.912, -0.7071068, 0, 0, -0.70
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (516, 8000, 3701224730) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (516, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (516, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

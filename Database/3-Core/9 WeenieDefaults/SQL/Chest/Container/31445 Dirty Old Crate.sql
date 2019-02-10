@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31445;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31445, 'ace31445-dirtyoldcrate', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31445, 'ace31445-dirtyoldcrate', 20, '2019-02-10 05:41:14') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31445,   1,        512) /* ItemType - Container */
@@ -46,3 +46,17 @@ VALUES (31445, 8040, 629407755, 35.70035, 56.15377, 326.0208, 1, 0, 0, 0) /* PCA
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31445, 8000, 3692207738) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (31445, -1, 31468, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate First Half of a Worn Mace (31468) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31469, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Worn Mace (31469) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31472, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate First Half of a Worn Spear (31472) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31473, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Worn Spear (31473) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31475, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Worn Cestus (31475) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31477, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Worn Staff (31477) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31478, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate First Half of a Worn Dagger (31478) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31479, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Worn Dagger (31479) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31481, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Worn Bow (31481) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31482, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate First Half of a Worn Crossbow (31482) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31484, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate First Half of a Worn Atlatl (31484) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (31445, -1, 31485, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Worn Atlatl (31485) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

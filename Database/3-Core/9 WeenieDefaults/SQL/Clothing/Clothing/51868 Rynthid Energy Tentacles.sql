@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51868;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51868, 'ace51868-rynthidenergytentacles', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51868, 'ace51868-rynthidenergytentacles', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51868,   1,          4) /* ItemType - Clothing */
@@ -19,7 +19,7 @@ VALUES (51868,   1,          4) /* ItemType - Clothing */
      , (51868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51868, 114,          1) /* Attuned - Attuned */
      , (51868, 158,          7) /* WieldRequirements - Level */
-     , (51868, 159,          1) /* WieldSkilltype - Axe */
+     , (51868, 159,          1) /* WieldSkillType - Axe */
      , (51868, 160,        180) /* WieldDifficulty */
      , (51868, 265,         71) /* EquipmentSetId - CloakMeleeDefense */
      , (51868, 319,          4) /* ItemMaxLevel */
@@ -61,14 +61,13 @@ VALUES (51868,   1,   33561386) /* Setup */
      , (51868,   8,  100693225) /* Icon */
      , (51868,  22,  872415275) /* PhysicsEffectTable */
      , (51868,  50,  100690999) /* IconOverlay */
-     , (51868,  55,       6151) /* ProcSpell */
+     , (51868,  55,       6151) /* ProcSpell - LightningRingRed */
      , (51868, 8001, 1076330648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, IconOverlay */
      , (51868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51868, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51868,   3, 1342795845) /* Wielder */
-     , (51868, 8000, 2153074324) /* PCAPRecordedObjectIID */;
+VALUES (51868, 8000, 2153074324) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51868,  6151,      2) ;

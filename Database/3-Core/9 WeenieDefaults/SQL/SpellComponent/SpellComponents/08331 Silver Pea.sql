@@ -1,15 +1,17 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8331;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8331, 'peascarabsilver', 32) /* SpellComponent */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8331, 'peascarabsilver', 32, '2019-02-10 05:41:14') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8331,   1,       4096) /* ItemType - SpellComponents */
-     , (8331,   5,        870) /* EncumbranceVal */
+     , (8331,   5,         10) /* EncumbranceVal */
      , (8331,  11,        100) /* MaxStackSize */
-     , (8331,  12,         87) /* StackSize */
+     , (8331,  12,          1) /* StackSize */
+     , (8331,  13,         10) /* StackUnitEncumbrance */
+     , (8331,  15,      12500) /* StackUnitValue */
      , (8331,  16,          1) /* ItemUseable - No */
-     , (8331,  19,    1087500) /* Value */
+     , (8331,  19,      12500) /* Value */
      , (8331,  33,          1) /* Bonded - Bonded */
      , (8331,  65,        101) /* Placement - Resting */
      , (8331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
@@ -39,8 +41,12 @@ VALUES (8331,   1,   33555211) /* Setup */
      , (8331, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8331,   2, 2186220377) /* Container */
-     , (8331, 8000, 2186220607) /* PCAPRecordedObjectIID */;
+VALUES (8331, 8000, 2186220607) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8331, 2, 29980,  1, 0, 0, False) /* Create Throwing Axe (29980) for Wield */
+     , (8331, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (8331, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8331, 67111922, 0, 0);

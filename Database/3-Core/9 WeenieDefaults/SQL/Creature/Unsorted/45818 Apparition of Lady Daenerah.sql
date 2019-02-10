@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45818;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45818, 'ace45818-apparitionofladydaenerah', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45818, 'ace45818-apparitionofladydaenerah', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45818,   1,         16) /* ItemType - Creature */
@@ -48,6 +48,9 @@ VALUES (45818, 8040, 1498285475, 50.8647, -126.901, -29.99425, -0.7079743, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45818, 8000, 3694691418) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45818, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45818, 67109561, 0, 24)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29469;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29469, 'knightroyalprisonwarden', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29469, 'knightroyalprisonwarden', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29469,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29469, 8000, 3687552292) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29469,   1,   495, 0, 0, 495) /* MaxHealth */;
+VALUES (29469,   1,    10, 0, 0, 495) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29469, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
+     , (29469, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (29469, 9, 28618,  0, 0, 0, False) /* Create Diforsa Helm (28618) for ContainTreasure */
+     , (29469, 9, 29479,  0, 0, 0, False) /* Create Prison Warden's Orders (29479) for ContainTreasure */
+     , (29469, 9, 29480,  0, 0, 0, False) /* Create Prison Warden's Key (29480) for ContainTreasure */
+     , (29469, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29469, 67115534, 0, 0);

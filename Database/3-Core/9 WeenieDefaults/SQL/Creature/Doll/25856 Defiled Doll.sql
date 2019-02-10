@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25856;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25856, 'dolldefiled', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25856, 'dolldefiled', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25856,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,10 @@ VALUES (25856,   1, 200, 0, 0) /* Strength */
      , (25856,   6, 380, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25856,   1,  1100, 0, 0, 1100) /* MaxHealth */
-     , (25856,   3,  1200, 0, 0, 1200) /* MaxStamina */
-     , (25856,   5,  1300, 0, 0, 1300) /* MaxMana */;
+VALUES (25856,   1,    10, 0, 0, 1100) /* MaxHealth */
+     , (25856,   3,    10, 0, 0, 1200) /* MaxStamina */
+     , (25856,   5,    10, 0, 0, 1300) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (25856, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (25856, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */;

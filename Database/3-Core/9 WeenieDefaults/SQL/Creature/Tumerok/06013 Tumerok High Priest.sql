@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 6013;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (6013, 'tumerokhighpriestnofall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6013, 'tumerokhighpriestnofall', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6013,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,24 @@ VALUES (6013,   1, 240, 0, 0) /* Strength */
      , (6013,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6013,   1,   325, 0, 0, 325) /* MaxHealth */
-     , (6013,   3,   375, 0, 0, 375) /* MaxStamina */
-     , (6013,   5,   400, 0, 0, 400) /* MaxMana */;
+VALUES (6013,   1,    10, 0, 0, 325) /* MaxHealth */
+     , (6013,   3,    10, 0, 0, 375) /* MaxStamina */
+     , (6013,   5,    10, 0, 0, 400) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6013, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (6013, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (6013, 2, 23637,  1, 0, 0, False) /* Create Cestus (23637) for Wield */
+     , (6013, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
+     , (6013, 2, 23674,  1, 0, 0, False) /* Create Katar (23674) for Wield */
+     , (6013, 2, 23680,  1, 0, 0, False) /* Create Nekode (23680) for Wield */
+     , (6013, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */
+     , (6013, 2, 23696,  1, 0, 0, False) /* Create Spear (23696) for Wield */
+     , (6013, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
+     , (6013, 2, 23707,  1, 0, 0, False) /* Create Fire Tachi (23707) for Wield */
+     , (6013, 2, 23710,  1, 0, 0, False) /* Create Yaoji (23710) for Wield */
+     , (6013, 2, 23718,  1, 0, 0, False) /* Create Fire Yaoji (23718) for Wield */
+     , (6013, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6013, 67116625, 57, 48)

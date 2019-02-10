@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5196;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5196, 'drudgeskulkerwounded', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5196, 'drudgeskulkerwounded', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5196,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,19 @@ VALUES (5196,   1,  35, 0, 0) /* Strength */
      , (5196,   6,  15, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5196,   1,    25, 0, 0, 25) /* MaxHealth */
-     , (5196,   3,    45, 0, 0, 45) /* MaxStamina */
-     , (5196,   5,    15, 0, 0, 15) /* MaxMana */;
+VALUES (5196,   1,    10, 0, 0, 25) /* MaxHealth */
+     , (5196,   3,    10, 0, 0, 45) /* MaxStamina */
+     , (5196,   5,    10, 0, 0, 15) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (5196, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
+     , (5196, 2, 47267,  1, 0, 0, False) /* Create Electric Board with Nail (47267) for Wield */
+     , (5196, 2, 47324,  1, 0, 0, False) /* Create Acid Club (47324) for Wield */
+     , (5196, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
+     , (5196, 2, 47362,  1, 0, 0, False) /* Create Lightning Club (47362) for Wield */
+     , (5196, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (5196, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (5196, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5196, 67112817, 0, 0);

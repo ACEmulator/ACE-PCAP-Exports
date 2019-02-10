@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45107;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45107, 'ace45107-frostrapier', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45107, 'ace45107-frostrapier', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45107,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (45107,   1,          1) /* ItemType - MeleeWeapon */
      , (45107, 131,         39) /* MaterialType - Sapphire */
      , (45107, 151,          2) /* HookType - Wall */
      , (45107, 158,          2) /* WieldRequirements - RawSkill */
-     , (45107, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (45107, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45107, 160,        400) /* WieldDifficulty */
      , (45107, 172,          5) /* AppraisalLongDescDecoration */
      , (45107, 176,         46) /* AppraisalItemSkill */
@@ -71,14 +71,16 @@ VALUES (45107,   1,   33561419) /* Setup */
      , (45107, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45107,   2, 1343809061) /* Container */
-     , (45107, 8000, 3446861388) /* PCAPRecordedObjectIID */;
+VALUES (45107, 8000, 3446861388) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45107,  2096,      2) 
      , (45107,  2116,      2) 
      , (45107,  2524,      2) 
      , (45107,  2600,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45107, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45107, 67111927, 0, 0);

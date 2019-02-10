@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30296;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30296, 'knightmagewarcaster_nofall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30296, 'knightmagewarcaster_nofall', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30296,   1,         16) /* ItemType - Creature */
@@ -53,7 +53,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30296, 8000, 3692183638) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30296,   1,   473, 0, 0, 473) /* MaxHealth */;
+VALUES (30296,   1,    10, 0, 0, 473) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30296, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
+     , (30296, 9,   273, 112, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (30296, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (30296, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (30296, 9, 40524,  0, 0, 0, False) /* Create Contact Instructions (40524) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30296, 67109564, 32, 8)

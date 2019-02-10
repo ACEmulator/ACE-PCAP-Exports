@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40813;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40813, 'ace40813-thug', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40813, 'ace40813-thug', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40813,   1,         16) /* ItemType - Creature */
@@ -61,6 +61,16 @@ VALUES (40813,   1, 320, 0, 0) /* Strength */
      , (40813,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40813,   1,  1975, 0, 0, 1975) /* MaxHealth */
-     , (40813,   3,  1650, 0, 0, 1650) /* MaxStamina */
-     , (40813,   5,  2720, 0, 0, 2720) /* MaxMana */;
+VALUES (40813,   1,    10, 0, 0, 1975) /* MaxHealth */
+     , (40813,   3,    10, 0, 0, 1650) /* MaxStamina */
+     , (40813,   5,    10, 0, 0, 2720) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40813, 2, 21348,  1, 0, 0, False) /* Create Deadly Chorizite Arrow (21348) for Wield */
+     , (40813, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+     , (40813, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
+     , (40813, 2, 31705,  1, 0, 0, False) /* Create Phantom Bow (31705) for Wield */
+     , (40813, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */
+     , (40813, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (40813, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (40813, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */;

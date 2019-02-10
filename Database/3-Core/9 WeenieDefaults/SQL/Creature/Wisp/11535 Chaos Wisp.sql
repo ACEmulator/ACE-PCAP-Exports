@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11535;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11535, 'wispchaos_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11535, 'wispchaos_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11535,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (11535,   1, True ) /* Stuck */
      , (11535,  12, True ) /* ReportCollisions */
      , (11535,  13, False) /* Ethereal */
      , (11535,  14, True ) /* GravityStatus */
-     , (11535,  19, True ) /* Attackable */;
+     , (11535,  19, True ) /* Attackable */
+     , (11535, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11535,  39, 1.29999995231628) /* DefaultScale */;
@@ -54,6 +55,10 @@ VALUES (11535,   1, 210, 0, 0) /* Strength */
      , (11535,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11535,   1,   400, 0, 0, 400) /* MaxHealth */
-     , (11535,   3,   450, 0, 0, 450) /* MaxStamina */
-     , (11535,   5,   600, 0, 0, 600) /* MaxMana */;
+VALUES (11535,   1,    10, 0, 0, 400) /* MaxHealth */
+     , (11535,   3,    10, 0, 0, 450) /* MaxStamina */
+     , (11535,   5,    10, 0, 0, 600) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11535, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (11535, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;

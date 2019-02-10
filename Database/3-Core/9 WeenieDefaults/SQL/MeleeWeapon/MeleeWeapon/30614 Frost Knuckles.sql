@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30614;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30614, 'knucklesfrost', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30614, 'knucklesfrost', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30614,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (30614,   1,          1) /* ItemType - MeleeWeapon */
      , (30614, 131,         58) /* MaterialType - Bronze */
      , (30614, 151,          2) /* HookType - Wall */
      , (30614, 158,          2) /* WieldRequirements - RawSkill */
-     , (30614, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (30614, 159,         45) /* WieldSkillType - LightWeapons */
      , (30614, 160,        325) /* WieldDifficulty */
      , (30614, 172,          5) /* AppraisalLongDescDecoration */
      , (30614, 176,         45) /* AppraisalItemSkill */
@@ -71,13 +71,15 @@ VALUES (30614,   1,   33559500) /* Setup */
      , (30614, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30614,   2, 3692262254) /* Container */
-     , (30614, 8000, 3692262253) /* PCAPRecordedObjectIID */;
+VALUES (30614, 8000, 3692262253) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30614,  1604,      2) 
      , (30614,  1615,      2) 
      , (30614,  1626,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30614, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30614, 67116448, 0, 0);

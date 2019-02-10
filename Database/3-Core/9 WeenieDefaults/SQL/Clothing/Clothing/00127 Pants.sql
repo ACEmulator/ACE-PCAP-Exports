@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 127;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (127, 'pants', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (127, 'pants', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (127,   1,          4) /* ItemType - Clothing */
@@ -66,6 +66,11 @@ VALUES (127, 8000, 3685626334) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (127,  1137,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (127, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (127, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
+     , (127, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (127, 67110338, 64, 8)

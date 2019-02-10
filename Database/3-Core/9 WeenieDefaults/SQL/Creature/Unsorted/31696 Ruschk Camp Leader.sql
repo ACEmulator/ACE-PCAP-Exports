@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31696;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31696, 'ace31696-ruschkcampleader', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31696, 'ace31696-ruschkcampleader', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31696,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,9 @@ VALUES (31696, 8040, 988413996, 132.226, 83.6558, 0.006600022, 0.07971617, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31696, 8000, 2878916572) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31696, 2, 48618,  1, 0, 0, False) /* Create Glacial Blade (48618) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31696, 67116362, 0, 0);

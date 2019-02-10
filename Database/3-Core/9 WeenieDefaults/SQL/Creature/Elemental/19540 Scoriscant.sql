@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19540;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19540, 'estuaryelementalscoriscant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19540, 'estuaryelementalscoriscant', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19540,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (19540,   1, True ) /* Stuck */
      , (19540,  13, False) /* Ethereal */
      , (19540,  14, True ) /* GravityStatus */
      , (19540,  15, True ) /* LightsStatus */
-     , (19540,  19, True ) /* Attackable */;
+     , (19540,  19, True ) /* Attackable */
+     , (19540, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19540,  39, 1.39999997615814) /* DefaultScale */;
@@ -47,4 +48,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (19540, 8000, 3701359428) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19540,   1,   780, 0, 0, 780) /* MaxHealth */;
+VALUES (19540,   1,    10, 0, 0, 780) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (19540, 9,   273, 1352, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (19540, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (19540, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4258;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4258, 'slithiseyestalk', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4258, 'slithiseyestalk', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4258,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,22 @@ VALUES (4258,   1, 140, 0, 0) /* Strength */
      , (4258,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4258,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (4258,   3,   290, 0, 0, 290) /* MaxStamina */
-     , (4258,   5,   250, 0, 0, 250) /* MaxMana */;
+VALUES (4258,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (4258,   3,    10, 0, 0, 290) /* MaxStamina */
+     , (4258,   5,    10, 0, 0, 250) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4258, 2,  8619,  1, 0, 0, False) /* Create Slithis Splinter (8619) for Wield */
+     , (4258, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (4258, 9,   273, 134, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (4258, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (4258, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
+     , (4258, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (4258, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (4258, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (4258, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (4258, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (4258, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4258, 67113033, 0, 0);

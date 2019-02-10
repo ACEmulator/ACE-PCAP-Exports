@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35983;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35983, 'ace35983-penumbralterror', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35983, 'ace35983-penumbralterror', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35983,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,13 @@ VALUES (35983,   1, 250, 0, 0) /* Strength */
      , (35983,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35983,   1,  1310, 0, 0, 1310) /* MaxHealth */
-     , (35983,   3,  1310, 0, 0, 1310) /* MaxStamina */
-     , (35983,   5,  1190, 0, 0, 1190) /* MaxMana */;
+VALUES (35983,   1,    10, 0, 0, 1310) /* MaxHealth */
+     , (35983,   3,    10, 0, 0, 1310) /* MaxStamina */
+     , (35983,   5,    10, 0, 0, 1190) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35983, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (35983, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35983, 67116699, 0, 0);

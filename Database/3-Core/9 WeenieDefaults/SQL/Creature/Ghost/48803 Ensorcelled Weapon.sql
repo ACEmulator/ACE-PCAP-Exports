@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48803;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48803, 'ace48803-ensorcelledweapon', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48803, 'ace48803-ensorcelledweapon', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48803,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (48803,   1, True ) /* Stuck */
      , (48803,  12, True ) /* ReportCollisions */
      , (48803,  13, False) /* Ethereal */
      , (48803,  14, True ) /* GravityStatus */
-     , (48803,  19, True ) /* Attackable */;
+     , (48803,  19, True ) /* Attackable */
+     , (48803, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48803,  76,       1) /* Translucency */;
@@ -46,4 +47,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48803, 8000, 2629124067) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48803,   1,  3675, 0, 0, 3675) /* MaxHealth */;
+VALUES (48803,   1,    10, 0, 0, 3675) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48803, 2, 47219,  1, 0, 0, False) /* Create Ensorcelled Sword (47219) for Wield */
+     , (48803, 2, 47220,  1, 0, 0, False) /* Create Ensorcelled Dagger (47220) for Wield */
+     , (48803, 2, 47222,  1, 0, 0, False) /* Create Ensorcelled Mace (47222) for Wield */
+     , (48803, 9, 48897,  0, 0, 0, False) /* Create Chipped Key (48897) for ContainTreasure */;

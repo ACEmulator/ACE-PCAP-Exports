@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5126;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5126, 'nantowaterbottle', 18) /* Food */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5126, 'nantowaterbottle', 18, '2019-02-10 05:41:14') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5126,   1,         32) /* ItemType - Food */
      , (5126,   5,         25) /* EncumbranceVal */
      , (5126,  11,          1) /* MaxStackSize */
      , (5126,  12,          1) /* StackSize */
+     , (5126,  13,         25) /* StackUnitEncumbrance */
+     , (5126,  15,          0) /* StackUnitValue */
      , (5126,  16,          8) /* ItemUseable - Contained */
      , (5126,  19,          0) /* Value */
      , (5126,  33,          1) /* Bonded - Bonded */
@@ -40,5 +42,4 @@ VALUES (5126,   1,   33554603) /* Setup */
      , (5126, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5126,   2, 1880522762) /* Container */
-     , (5126, 8000, 3326489789) /* PCAPRecordedObjectIID */;
+VALUES (5126, 8000, 3326489789) /* PCAPRecordedObjectIID */;

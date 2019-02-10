@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11488;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11488, 'siraluunmarsh_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11488, 'siraluunmarsh_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11488,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,18 @@ VALUES (11488,   1,  40, 0, 0) /* Strength */
      , (11488,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11488,   1,    45, 0, 0, 45) /* MaxHealth */
-     , (11488,   3,    60, 0, 0, 60) /* MaxStamina */
-     , (11488,   5,    20, 0, 0, 20) /* MaxMana */;
+VALUES (11488,   1,    10, 0, 0, 45) /* MaxHealth */
+     , (11488,   3,    10, 0, 0, 60) /* MaxStamina */
+     , (11488,   5,    10, 0, 0, 20) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11488, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (11488, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (11488, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
+     , (11488, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (11488, 9,  2955,  0, 0, 0, False) /* Create Scroll of Lightning Bolt II (2955) for ContainTreasure */
+     , (11488, 9, 11367,  0, 0, 0, False) /* Create Marsh Siraluun Claw (11367) for ContainTreasure */
+     , (11488, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11488, 67113292, 0, 0);

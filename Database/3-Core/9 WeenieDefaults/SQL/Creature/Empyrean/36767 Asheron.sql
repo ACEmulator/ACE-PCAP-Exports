@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36767;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36767, 'ace36767-asheron', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36767, 'ace36767-asheron', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36767,   1,         16) /* ItemType - Creature */
@@ -62,6 +62,9 @@ VALUES (36767,   1, 400, 0, 0) /* Strength */
      , (36767,   6, 600, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36767,   1,   900, 0, 0, 900) /* MaxHealth */
-     , (36767,   3,   990, 0, 0, 990) /* MaxStamina */
-     , (36767,   5,  5000, 0, 0, 5000) /* MaxMana */;
+VALUES (36767,   1,    10, 0, 0, 900) /* MaxHealth */
+     , (36767,   3,    10, 0, 0, 990) /* MaxStamina */
+     , (36767,   5,    10, 0, 0, 5000) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36767, 2, 36947,  1, 0, 0, False) /* Create Deru Limb (36947) for Wield */;

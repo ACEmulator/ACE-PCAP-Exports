@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46694;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46694, 'ace46694-tumeroksavage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46694, 'ace46694-tumeroksavage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46694,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,13 @@ VALUES (46694,   1, 330, 0, 0) /* Strength */
      , (46694,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46694,   1, 82000, 0, 0, 82000) /* MaxHealth */
-     , (46694,   3, 10000, 0, 0, 9965) /* MaxStamina */
-     , (46694,   5,  6000, 0, 0, 5842) /* MaxMana */;
+VALUES (46694,   1,    10, 0, 0, 82000) /* MaxHealth */
+     , (46694,   3,    10, 0, 0, 9965) /* MaxStamina */
+     , (46694,   5,    10, 0, 0, 5842) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46694, 2, 46695,  1, 0, 0, False) /* Create Tachi (46695) for Wield */
+     , (46694, 2, 52708,  1, 0, 0, False) /* Create Kite Shield (52708) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46694, 67116627, 1, 48)

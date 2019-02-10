@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31953;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31953, 'ace31953-gromnie', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31953, 'ace31953-gromnie', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31953,   1,         16) /* ItemType - Creature */
@@ -46,6 +46,9 @@ VALUES (31953, 8040, 599130405, 25.7945, 67.5225, -3.195, -0.04452302, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31953, 8000, 3708875353) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31953, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31953, 67110015, 136, 16)

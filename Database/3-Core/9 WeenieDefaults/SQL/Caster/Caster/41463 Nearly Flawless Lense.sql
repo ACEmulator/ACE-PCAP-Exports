@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41463;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41463, 'ace41463-nearlyflawlesslense', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41463, 'ace41463-nearlyflawlesslense', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41463,   1,      32768) /* ItemType - Caster */
@@ -40,15 +40,14 @@ VALUES (41463,   1,   33560887) /* Setup */
      , (41463, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (41463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41463, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (41463, 8009,          1);
+     , (41463, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41463, 8040, 3332964380, 77.76675, 92.81711, 41.929, -0.06126205, -0.06126205, -0.704448, -0.704448) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [77.766750 92.817110 41.929000] -0.061262 -0.061262 -0.704448 -0.704448 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41463,   3, 1343156241) /* Wielder */
-     , (41463, 8000, 2165350371) /* PCAPRecordedObjectIID */
+VALUES (41463, 8000, 2165350371) /* PCAPRecordedObjectIID */
      , (41463, 8008, 1343156241) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37212;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37212, 'ace37212-olthoitassets', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37212, 'ace37212-olthoitassets', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37212,   1,          2) /* ItemType - Armor */
@@ -23,13 +23,13 @@ VALUES (37212,   1,          2) /* ItemType - Armor */
      , (37212, 115,        390) /* ItemSkillLevelLimit */
      , (37212, 131,         58) /* MaterialType - Bronze */
      , (37212, 158,          2) /* WieldRequirements - RawSkill */
-     , (37212, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (37212, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37212, 160,        335) /* WieldDifficulty */
      , (37212, 172,          1) /* AppraisalLongDescDecoration */
      , (37212, 176,          6) /* AppraisalItemSkill */
      , (37212, 265,         16) /* EquipmentSetId - Defenders */
      , (37212, 270,          7) /* WieldRequirements2 - Level */
-     , (37212, 271,          1) /* WieldSkilltype2 - Axe */
+     , (37212, 271,          1) /* WieldSkillType2 - Axe */
      , (37212, 272,        180) /* WieldDifficulty2 */
      , (37212, 374,          1) /* GearCritDamage */;
 

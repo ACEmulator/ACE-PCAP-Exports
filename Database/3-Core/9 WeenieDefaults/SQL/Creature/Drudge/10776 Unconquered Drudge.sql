@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 10776;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (10776, 'drudgeunconquered', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (10776, 'drudgeunconquered', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10776,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,35 @@ VALUES (10776,   1, 210, 0, 0) /* Strength */
      , (10776,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10776,   1,   503, 0, 0, 503) /* MaxHealth */
-     , (10776,   3,   705, 0, 0, 705) /* MaxStamina */
-     , (10776,   5,   370, 0, 0, 370) /* MaxMana */;
+VALUES (10776,   1,    10, 0, 0, 503) /* MaxHealth */
+     , (10776,   3,    10, 0, 0, 705) /* MaxStamina */
+     , (10776,   5,    10, 0, 0, 370) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (10776, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */
+     , (10776, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (10776, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (10776, 9,   309,  0, 0, 0, False) /* Create Club (309) for ContainTreasure */
+     , (10776, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (10776, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (10776, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (10776, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (10776, 9, 20475,  0, 0, 0, False) /* Create Scroll of Icy Blessing (20475) for ContainTreasure */
+     , (10776, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
+     , (10776, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
+     , (10776, 9, 20617,  0, 0, 0, False) /* Create Scroll of Meditative Trance (20617) for ContainTreasure */
+     , (10776, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (10776, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (10776, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (10776, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (10776, 9, 29248,  0, 0, 0, False) /* Create Fire Crossbow (29248) for ContainTreasure */
+     , (10776, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (10776, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */
+     , (10776, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (10776, 9, 44856,  0, 0, 0, False) /* Create Trimmed Cloak (44856) for ContainTreasure */
+     , (10776, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (10776, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */
+     , (10776, 9, 49262,  0, 0, 0, False) /* Create Acid Elemental Essence (80) (49262) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10776, 67114278, 0, 0);

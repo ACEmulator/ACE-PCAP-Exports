@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28667;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28667, 'ruschkvile', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28667, 'ruschkvile', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28667,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,20 @@ VALUES (28667,   1, 200, 0, 0) /* Strength */
      , (28667,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28667,   1,   305, 0, 0, 305) /* MaxHealth */
-     , (28667,   3,   460, 0, 0, 460) /* MaxStamina */
-     , (28667,   5,   230, 0, 0, 230) /* MaxMana */;
+VALUES (28667,   1,    10, 0, 0, 305) /* MaxHealth */
+     , (28667,   3,    10, 0, 0, 460) /* MaxStamina */
+     , (28667,   5,    10, 0, 0, 230) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28667, 2, 48604,  1, 0, 0, False) /* Create Icy Club (48604) for Wield */
+     , (28667, 2, 48605,  1, 0, 0, False) /* Create Frozen Dagger (48605) for Wield */
+     , (28667, 2, 48606,  1, 0, 0, False) /* Create Ice Shard (48606) for Wield */
+     , (28667, 2, 48607,  1, 0, 0, False) /* Create Frigid Splinter (48607) for Wield */
+     , (28667, 2, 48608,  1, 0, 0, False) /* Create Glacial Blade (48608) for Wield */
+     , (28667, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (28667, 9,   273, 978, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28667, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (28667, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28667, 67115451, 0, 0);

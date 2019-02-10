@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14428;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14428, 'hollowminionregicideboss', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14428, 'hollowminionregicideboss', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14428,   1,         16) /* ItemType - Creature */
@@ -43,4 +43,16 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (14428, 8000, 2780490022) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14428,   1,   230, 0, 0, 230) /* MaxHealth */;
+VALUES (14428,   1,    10, 0, 0, 230) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14428, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (14428, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (14428, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (14428, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (14428, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (14428, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (14428, 9, 14438,  0, 0, 0, False) /* Create Menacet's Orders (14438) for ContainTreasure */
+     , (14428, 9, 20607,  0, 0, 0, False) /* Create Scroll of Gift of Vitality (20607) for ContainTreasure */
+     , (14428, 9, 45266,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VII (45266) for ContainTreasure */
+     , (14428, 9, 49317,  0, 0, 0, False) /* Create Lightning Wisp Essence (50) (49317) for ContainTreasure */;

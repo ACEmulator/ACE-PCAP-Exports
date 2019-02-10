@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22216;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22216, 'staffofnullification', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22216, 'staffofnullification', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22216,   1,          1) /* ItemType - MeleeWeapon */
@@ -53,5 +53,4 @@ VALUES (22216,   1,   33555407) /* Setup */
      , (22216, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22216,   2, 3658159434) /* Container */
-     , (22216, 8000, 3658159448) /* PCAPRecordedObjectIID */;
+VALUES (22216, 8000, 3658159448) /* PCAPRecordedObjectIID */;

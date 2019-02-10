@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2421;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2421, 'gemaquamarine', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2421, 'gemaquamarine', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2421,   1,       2048) /* ItemType - Gem */
      , (2421,   5,          5) /* EncumbranceVal */
      , (2421,  11,          1) /* MaxStackSize */
      , (2421,  12,          1) /* StackSize */
+     , (2421,  13,          5) /* StackUnitEncumbrance */
+     , (2421,  15,        348) /* StackUnitValue */
      , (2421,  16,          1) /* ItemUseable - No */
      , (2421,  19,        348) /* Value */
      , (2421,  65,        101) /* Placement - Resting */
@@ -49,11 +51,13 @@ VALUES (2421,   1,   33554809) /* Setup */
      , (2421, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2421,   2, 3688011182) /* Container */
-     , (2421, 8000, 3688217350) /* PCAPRecordedObjectIID */;
+VALUES (2421, 8000, 3688217350) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2421,  1034,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2421, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2421, 67111918, 0, 0);

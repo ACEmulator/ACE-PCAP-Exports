@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35162;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35162, 'ace35162-enragedancientsoul', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35162, 'ace35162-enragedancientsoul', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35162,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,15 @@ VALUES (35162,   1, 350, 0, 0) /* Strength */
      , (35162,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35162,   1,  3000, 0, 0, 3000) /* MaxHealth */
-     , (35162,   3,  1850, 0, 0, 1850) /* MaxStamina */
-     , (35162,   5,   800, 0, 0, 730) /* MaxMana */;
+VALUES (35162,   1,    10, 0, 0, 3000) /* MaxHealth */
+     , (35162,   3,    10, 0, 0, 1850) /* MaxStamina */
+     , (35162,   5,    10, 0, 0, 730) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35162, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (35162, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */
+     , (35162, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (35162, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35162, 67114479, 0, 0);

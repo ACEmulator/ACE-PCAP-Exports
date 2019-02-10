@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31849;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31849, 'ace31849-aggressiveswarm', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31849, 'ace31849-aggressiveswarm', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31849,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (31849,   1, True ) /* Stuck */
      , (31849,  12, True ) /* ReportCollisions */
      , (31849,  13, False) /* Ethereal */
      , (31849,  14, True ) /* GravityStatus */
-     , (31849,  19, True ) /* Attackable */;
+     , (31849,  19, True ) /* Attackable */
+     , (31849, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31849,   1, 'Aggressive Swarm') /* Name */
@@ -51,6 +52,9 @@ VALUES (31849,   1, 250, 0, 0) /* Strength */
      , (31849,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31849,   1,  1880, 0, 0, 1880) /* MaxHealth */
-     , (31849,   3,  2010, 0, 0, 2005) /* MaxStamina */
-     , (31849,   5,  1600, 0, 0, 1600) /* MaxMana */;
+VALUES (31849,   1,    10, 0, 0, 1880) /* MaxHealth */
+     , (31849,   3,    10, 0, 0, 2005) /* MaxStamina */
+     , (31849,   5,    10, 0, 0, 1600) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31849, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;

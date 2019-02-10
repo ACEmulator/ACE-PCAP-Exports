@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4103;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4103, 'tumeroklieutenantarcher', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4103, 'tumeroklieutenantarcher', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4103,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,17 @@ VALUES (4103,   1, 100, 0, 0) /* Strength */
      , (4103,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4103,   1,   110, 0, 0, 110) /* MaxHealth */
-     , (4103,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (4103,   5,    60, 0, 0, 60) /* MaxMana */;
+VALUES (4103,   1,    10, 0, 0, 110) /* MaxHealth */
+     , (4103,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (4103,   5,    10, 0, 0, 60) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4103, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (4103, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (4103, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (4103, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (4103, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
+     , (4103, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4103, 67116625, 57, 48)

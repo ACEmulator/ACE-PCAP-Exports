@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5767;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5767, 'snowmanunhappygiant', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5767, 'snowmanunhappygiant', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5767,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (5767, 8000, 3710235609) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5767,   1,   500, 0, 0, 500) /* MaxHealth */;
+VALUES (5767,   1,    10, 0, 0, 500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5767, 4,  5769, -1, 0, 0, False) /* Create Iceball (5769) for Shop */
+VALUES (5767, 2,  5770,  1, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Wield */
+     , (5767, 4,  5769, -1, 0, 0, False) /* Create Iceball (5769) for Shop */
      , (5767, 4,  5770, -1, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Shop */
-     , (5767, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */;
+     , (5767, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */
+     , (5767, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */
+     , (5767, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (5767, 9, 45241,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other VI (45241) for ContainTreasure */
+     , (5767, 9, 49475,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VI (49475) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52086;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52086, 'ace52086-trainingdummy', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52086, 'ace52086-trainingdummy', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52086,   1,         16) /* ItemType - Creature */
@@ -80,6 +80,12 @@ VALUES (52086, 8040, 1484390980, 580, -230, 0.004999995, 1, 0, 0, -4.37114E-08) 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52086, 8000, 3695643681) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52086, 2, 12062,  1, 0, 0, False) /* Create Bandit Khanjar (12062) for Wield */
+     , (52086, 2, 12067,  1, 0, 0, False) /* Create Bandit Knife (12067) for Wield */
+     , (52086, 2, 12071,  1, 0, 0, False) /* Create Bandit Acid Simi (12071) for Wield */
+     , (52086, 2, 12084,  1, 0, 0, False) /* Create Bandit Lightning Yaoji (12084) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52086, 67109560, 0, 24)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33141;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33141, 'ace33141-ravenaugur', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33141, 'ace33141-ravenaugur', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33141,   1,         16) /* ItemType - Creature */
@@ -40,6 +40,12 @@ VALUES (33141, 8040, 3537109698, 121.996, 173.416, -41.595, 0.020795, 0, 0, -0.9
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33141, 8000, 2877455788) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33141, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (33141, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (33141, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (33141, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33141, 67109561, 0, 24)

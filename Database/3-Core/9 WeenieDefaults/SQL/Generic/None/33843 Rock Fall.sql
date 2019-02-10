@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33843;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33843, 'ace33843-rockfall', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33843, 'ace33843-rockfall', 1, '2019-02-10 05:41:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33843,   1,          0) /* ItemType - None */
@@ -46,3 +46,6 @@ VALUES (33843, 8040, 7734285, 62.67396, -71.33533, -10.16667, -0.699864, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33843, 8000, 3359105795) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33843, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */;

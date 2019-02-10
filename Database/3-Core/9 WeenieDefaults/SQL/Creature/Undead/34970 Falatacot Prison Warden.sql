@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34970;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34970, 'ace34970-falatacotprisonwarden', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34970, 'ace34970-falatacotprisonwarden', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34970,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34970, 8000, 3707242521) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34970,   1,  2505, 0, 0, 2505) /* MaxHealth */;
+VALUES (34970,   1,    10, 0, 0, 2505) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34970, 2, 48104,  1, 0, 0, False) /* Create Khopesh (48104) for Wield */
+     , (34970, 2, 48105,  1, 0, 0, False) /* Create Sickle (48105) for Wield */
+     , (34970, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (34970, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
+     , (34970, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
+     , (34970, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */
+     , (34970, 9, 35002,  0, 0, 0, False) /* Create Lower Catacomb Prison Key (35002) for ContainTreasure */
+     , (34970, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34970, 67114483, 0, 0);

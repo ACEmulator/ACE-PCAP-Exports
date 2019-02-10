@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41573;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41573, 'ace41573-coppercogtrooper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41573, 'ace41573-coppercogtrooper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41573,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,28 @@ VALUES (41573,   1, 280, 0, 0) /* Strength */
      , (41573,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41573,   1,   325, 0, 0, 325) /* MaxHealth */
-     , (41573,   3,   430, 0, 0, 430) /* MaxStamina */
-     , (41573,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (41573,   1,    10, 0, 0, 325) /* MaxHealth */
+     , (41573,   3,    10, 0, 0, 430) /* MaxStamina */
+     , (41573,   5,    10, 0, 0, 70) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41573, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
+     , (41573, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
+     , (41573, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (41573, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
+     , (41573, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (41573, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (41573, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (41573, 9,  3867,  0, 0, 0, False) /* Create Flaming Silifi (3867) for ContainTreasure */
+     , (41573, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (41573, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (41573, 9, 20401,  0, 0, 0, False) /* Create Scroll of Nullify Life Magic Self (20401) for ContainTreasure */
+     , (41573, 9, 21156,  0, 0, 0, False) /* Create Covenant Helm (21156) for ContainTreasure */
+     , (41573, 9, 21315,  0, 0, 0, False) /* Create Scroll of Force Arc VII (21315) for ContainTreasure */
+     , (41573, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (41573, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (41573, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
+     , (41573, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (41573, 9, 41563,  1, 0, 0, False) /* Create Gear Knight Core Fragment (41563) for ContainTreasure */
+     , (41573, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
+     , (41573, 9, 45336,  0, 0, 0, False) /* Create Scroll of Sneak Attack Ineptitude Other V (45336) for ContainTreasure */;

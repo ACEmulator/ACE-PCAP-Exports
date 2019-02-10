@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43411;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43411, 'ace43411-hazegolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43411, 'ace43411-hazegolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43411,   1,         16) /* ItemType - Creature */
@@ -51,6 +51,22 @@ VALUES (43411,   1, 280, 0, 0) /* Strength */
      , (43411,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43411,   1,  1100, 0, 0, 1100) /* MaxHealth */
-     , (43411,   3,  1280, 0, 0, 1280) /* MaxStamina */
-     , (43411,   5,   980, 0, 0, 980) /* MaxMana */;
+VALUES (43411,   1,    10, 0, 0, 1100) /* MaxHealth */
+     , (43411,   3,    10, 0, 0, 1280) /* MaxStamina */
+     , (43411,   5,    10, 0, 0, 980) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43411, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (43411, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (43411, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (43411, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (43411, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (43411, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (43411, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (43411, 9,  4190,  0, 0, 0, False) /* Create Cestus (4190) for ContainTreasure */
+     , (43411, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (43411, 9, 27224,  0, 0, 0, False) /* Create Lorica Leggings (27224) for ContainTreasure */
+     , (43411, 9, 31768,  0, 0, 0, False) /* Create Frost War Axe (31768) for ContainTreasure */
+     , (43411, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (43411, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (43411, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */;

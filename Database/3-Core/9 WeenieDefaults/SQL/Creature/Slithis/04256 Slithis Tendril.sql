@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 4256;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (4256, 'slithistendril', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4256, 'slithistendril', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4256,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,24 @@ VALUES (4256,   1, 100, 0, 0) /* Strength */
      , (4256,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4256,   1,   100, 0, 0, 100) /* MaxHealth */
-     , (4256,   3,   250, 0, 0, 248) /* MaxStamina */
-     , (4256,   5,   210, 0, 0, 210) /* MaxMana */;
+VALUES (4256,   1,    10, 0, 0, 100) /* MaxHealth */
+     , (4256,   3,    10, 0, 0, 248) /* MaxStamina */
+     , (4256,   5,    10, 0, 0, 210) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4256, 2,  8619,  1, 0, 0, False) /* Create Slithis Splinter (8619) for Wield */
+     , (4256, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (4256, 9,   273, 23, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (4256, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (4256, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (4256, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (4256, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (4256, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (4256, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (4256, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (4256, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (4256, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (4256, 9, 30615,  0, 0, 0, False) /* Create Acid Knuckles (30615) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4256, 67113033, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30598;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30598, 'daggerponiardfire', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30598, 'daggerponiardfire', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30598,   1,          1) /* ItemType - MeleeWeapon */
@@ -66,19 +66,21 @@ VALUES (30598,   1,   33559484) /* Setup */
      , (30598, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30598, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30598, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (30598, 8009,          1);
+     , (30598, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30598, 8040, 4095213581, 27.166, 102.5381, 159.929, 0.4826304, 0.4826304, -0.5167862, -0.5167862) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [27.166000 102.538100 159.929000] 0.482630 0.482630 -0.516786 -0.516786 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30598,   3, 1342274036) /* Wielder */
-     , (30598, 8000, 2166297035) /* PCAPRecordedObjectIID */
+VALUES (30598, 8000, 2166297035) /* PCAPRecordedObjectIID */
      , (30598, 8008, 1342274036) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30598,  1612,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30598, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30598, 67116422, 0, 0);

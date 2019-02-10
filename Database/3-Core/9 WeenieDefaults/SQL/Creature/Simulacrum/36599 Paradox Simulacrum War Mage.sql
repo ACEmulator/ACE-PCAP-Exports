@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36599;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36599, 'ace36599-paradoxsimulacrumwarmage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36599, 'ace36599-paradoxsimulacrumwarmage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36599,   1,         16) /* ItemType - Creature */
@@ -53,7 +53,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36599, 8000, 3684473965) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36599,   1,   890, 0, 0, 890) /* MaxHealth */;
+VALUES (36599,   1,    10, 0, 0, 890) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36599, 2, 31822,  1, 0, 0, False) /* Create Aerbax's Defeat (31822) for Wield */
+     , (36599, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
+     , (36599, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36599, 67109560, 0, 24)

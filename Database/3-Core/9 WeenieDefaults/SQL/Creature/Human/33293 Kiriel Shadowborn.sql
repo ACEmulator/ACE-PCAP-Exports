@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33293;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33293, 'ace33293-kirielshadowborn', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33293, 'ace33293-kirielshadowborn', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33293,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (33293,   1, 250, 0, 0) /* Strength */
      , (33293,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33293,   1,   220, 0, 0, 220) /* MaxHealth */
-     , (33293,   3,   260, 0, 0, 260) /* MaxStamina */
-     , (33293,   5,   280, 0, 0, 280) /* MaxMana */;
+VALUES (33293,   1,    10, 0, 0, 220) /* MaxHealth */
+     , (33293,   3,    10, 0, 0, 260) /* MaxStamina */
+     , (33293,   5,    10, 0, 0, 280) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33293, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
+     , (33293, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33293, 67109561, 0, 24)

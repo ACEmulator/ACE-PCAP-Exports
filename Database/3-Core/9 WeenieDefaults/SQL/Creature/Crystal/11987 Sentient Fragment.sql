@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11987;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11987, 'crystalbossmonster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11987, 'crystalbossmonster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11987,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,50 @@ VALUES (11987,   1, 160, 0, 0) /* Strength */
      , (11987,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11987,   1,   180, 0, 0, 180) /* MaxHealth */
-     , (11987,   3,   460, 0, 0, 460) /* MaxStamina */
-     , (11987,   5,   840, 0, 0, 840) /* MaxMana */;
+VALUES (11987,   1,    10, 0, 0, 180) /* MaxHealth */
+     , (11987,   3,    10, 0, 0, 460) /* MaxStamina */
+     , (11987,   5,    10, 0, 0, 840) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11987, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (11987, 9,    75,  0, 0, 0, False) /* Create Helmet (75) for ContainTreasure */
+     , (11987, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (11987, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (11987, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (11987, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (11987, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (11987, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (11987, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (11987, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
+     , (11987, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (11987, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (11987, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (11987, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (11987, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (11987, 9,  3337,  0, 0, 0, False) /* Create Scroll of Jumping Mastery Other VI (3337) for ContainTreasure */
+     , (11987, 9,  3745,  0, 0, 0, False) /* Create Scroll of Infuse Stamina VI (3745) for ContainTreasure */
+     , (11987, 9,  4193,  0, 0, 0, False) /* Create Frost Cestus (4193) for ContainTreasure */
+     , (11987, 9,  6056,  1, 0, 0, False) /* Create Small Shard (6056) for ContainTreasure */
+     , (11987, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (11987, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (11987, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (11987, 9, 20460,  0, 0, 0, False) /* Create Scroll of Crushing Shame (20460) for ContainTreasure */
+     , (11987, 9, 20485,  0, 0, 0, False) /* Create Scroll of Archer's Gift (20485) for ContainTreasure */
+     , (11987, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (11987, 9, 23541,  0, 0, 0, False) /* Create Crystal Sword (23541) for ContainTreasure */
+     , (11987, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (11987, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (11987, 9, 31767,  0, 0, 0, False) /* Create Flaming Lugian Hammer (31767) for ContainTreasure */
+     , (11987, 9, 31775,  0, 0, 0, False) /* Create Acid Board with Nail (31775) for ContainTreasure */
+     , (11987, 9, 31777,  0, 0, 0, False) /* Create Fire Board with Nail (31777) for ContainTreasure */
+     , (11987, 9, 40621,  0, 0, 0, False) /* Create Flaming Spadone (40621) for ContainTreasure */
+     , (11987, 9, 40820,  0, 0, 0, False) /* Create Lightning Corsesca (40820) for ContainTreasure */
+     , (11987, 9, 42517,  1, 0, 0, False) /* Create Coalesced Mana (42517) for ContainTreasure */
+     , (11987, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */
+     , (11987, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
+     , (11987, 9, 49282,  0, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for ContainTreasure */
+     , (11987, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
+     , (11987, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11987, 67111924, 0, 0);

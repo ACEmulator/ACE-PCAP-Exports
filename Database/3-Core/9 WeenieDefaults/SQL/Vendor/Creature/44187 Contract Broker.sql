@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44187;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44187, 'ace44187-contractbroker', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44187, 'ace44187-contractbroker', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44187,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (44187,   1, 110, 0, 0) /* Strength */
      , (44187,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44187,   1,   228, 0, 0, 228) /* MaxHealth */
-     , (44187,   3,   275, 0, 0, 275) /* MaxStamina */
-     , (44187,   5,   190, 0, 0, 190) /* MaxMana */;
+VALUES (44187,   1,    10, 0, 0, 228) /* MaxHealth */
+     , (44187,   3,    10, 0, 0, 275) /* MaxStamina */
+     , (44187,   5,    10, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44187, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

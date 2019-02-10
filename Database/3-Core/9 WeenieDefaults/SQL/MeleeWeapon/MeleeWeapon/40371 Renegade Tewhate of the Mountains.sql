@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40371;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40371, 'ace40371-renegadetewhateofthemountains', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40371, 'ace40371-renegadetewhateofthemountains', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40371,   1,          1) /* ItemType - MeleeWeapon */
@@ -40,7 +40,7 @@ VALUES (40371,   1,   33557233) /* Setup */
      , (40371, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (40371, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (40371, 8005,     194721) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
-     , (40371, 8009,          1)
+     , (40371, 8009,          1) /* PCAPRecordedParentLocation - RightHand */
      , (40371, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -48,8 +48,7 @@ VALUES (40371, 8040, 9896209, 203.9297, -120.1693, -48.071, -0.5781875, -0.57818
 /* @teleloc 0x00970111 [203.929700 -120.169300 -48.071000] -0.578188 -0.578188 -0.407062 -0.407062 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40371,   3, 1343462351) /* Wielder */
-     , (40371, 8000, 2720883910) /* PCAPRecordedObjectIID */
+VALUES (40371, 8000, 2720883910) /* PCAPRecordedObjectIID */
      , (40371, 8008, 1343462351) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)

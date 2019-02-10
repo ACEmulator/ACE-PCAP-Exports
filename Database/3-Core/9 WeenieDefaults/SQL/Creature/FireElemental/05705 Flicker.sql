@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5705;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5705, 'fireelementalflicker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5705, 'fireelementalflicker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5705,   1,         16) /* ItemType - Creature */
@@ -20,7 +20,8 @@ VALUES (5705,   1, True ) /* Stuck */
      , (5705,  13, False) /* Ethereal */
      , (5705,  14, True ) /* GravityStatus */
      , (5705,  15, True ) /* LightsStatus */
-     , (5705,  19, True ) /* Attackable */;
+     , (5705,  19, True ) /* Attackable */
+     , (5705, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5705,  39,     0.5) /* DefaultScale */;
@@ -55,6 +56,10 @@ VALUES (5705,   1,  50, 0, 0) /* Strength */
      , (5705,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5705,   1,    31, 0, 0, 31) /* MaxHealth */
-     , (5705,   3,   100, 0, 0, 100) /* MaxStamina */
-     , (5705,   5,   110, 0, 0, 110) /* MaxMana */;
+VALUES (5705,   1,    10, 0, 0, 31) /* MaxHealth */
+     , (5705,   3,    10, 0, 0, 100) /* MaxStamina */
+     , (5705,   5,    10, 0, 0, 110) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (5705, 9,   273,  6, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (5705, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35825;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35825, 'ace35825-aliciaswiftblade', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35825, 'ace35825-aliciaswiftblade', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35825,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (35825,   1, 190, 0, 0) /* Strength */
      , (35825,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35825,   1,   130, 0, 0, 130) /* MaxHealth */
-     , (35825,   3,   220, 0, 0, 220) /* MaxStamina */
-     , (35825,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (35825,   1,    10, 0, 0, 130) /* MaxHealth */
+     , (35825,   3,    10, 0, 0, 220) /* MaxStamina */
+     , (35825,   5,    10, 0, 0, 100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35825, 2, 21435,  1, 0, 0, False) /* Create Shauraloi (21435) for Wield */
+     , (35825, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35825, 67109558, 0, 24)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7423;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7423, 'zombielichlordnofall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7423, 'zombielichlordnofall', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7423,   1,         16) /* ItemType - Creature */
@@ -54,9 +54,20 @@ VALUES (7423,   1, 100, 0, 0) /* Strength */
      , (7423,   6, 165, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7423,   1,   235, 0, 0, 235) /* MaxHealth */
-     , (7423,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (7423,   5,   315, 0, 0, 315) /* MaxMana */;
+VALUES (7423,   1,    10, 0, 0, 235) /* MaxHealth */
+     , (7423,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (7423,   5,    10, 0, 0, 315) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7423, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (7423, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (7423, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (7423, 2, 47950,  1, 0, 0, False) /* Create Katar (47950) for Wield */
+     , (7423, 2, 47951,  1, 0, 0, False) /* Create Lightning Katar (47951) for Wield */
+     , (7423, 2, 47952,  1, 0, 0, False) /* Create Nekode (47952) for Wield */
+     , (7423, 2, 47955,  1, 0, 0, False) /* Create Silifi (47955) for Wield */
+     , (7423, 2, 47956,  1, 0, 0, False) /* Create Acid Silifi (47956) for Wield */
+     , (7423, 2, 47958,  1, 0, 0, False) /* Create Ono (47958) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7423, 67111665, 0, 0);

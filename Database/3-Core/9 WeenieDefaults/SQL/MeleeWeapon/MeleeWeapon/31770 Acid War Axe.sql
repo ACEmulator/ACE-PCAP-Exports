@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31770;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31770, 'ace31770-acidwaraxe', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31770, 'ace31770-acidwaraxe', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31770,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,7 @@ VALUES (31770,   1,          1) /* ItemType - MeleeWeapon */
      , (31770, 131,         26) /* MaterialType - ImperialTopaz */
      , (31770, 151,          2) /* HookType - Wall */
      , (31770, 158,          2) /* WieldRequirements - RawSkill */
-     , (31770, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (31770, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31770, 160,        325) /* WieldDifficulty */
      , (31770, 172,          5) /* AppraisalLongDescDecoration */
      , (31770, 177,          3) /* GemCount */
@@ -64,8 +64,7 @@ VALUES (31770,   1,   33555687) /* Setup */
      , (31770, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31770,   2, 3701885374) /* Container */
-     , (31770, 8000, 3701762182) /* PCAPRecordedObjectIID */;
+VALUES (31770, 8000, 3701762182) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31770, 67111919, 0, 0);

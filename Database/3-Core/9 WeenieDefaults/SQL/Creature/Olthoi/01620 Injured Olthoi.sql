@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1620;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1620, 'olthoiinjured', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1620, 'olthoiinjured', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1620,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,29 @@ VALUES (1620,   1, 180, 0, 0) /* Strength */
      , (1620,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1620,   1,    70, 0, 0, 70) /* MaxHealth */
-     , (1620,   3,   160, 0, 0, 160) /* MaxStamina */
-     , (1620,   5,    20, 0, 0, 20) /* MaxMana */;
+VALUES (1620,   1,    10, 0, 0, 70) /* MaxHealth */
+     , (1620,   3,    10, 0, 0, 160) /* MaxStamina */
+     , (1620,   5,    10, 0, 0, 20) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1620, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (1620, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (1620, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (1620, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (1620, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (1620, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (1620, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1620, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (1620, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (1620, 9,  3908,  0, 0, 0, False) /* Create Frost War Hammer (3908) for ContainTreasure */
+     , (1620, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (1620, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (1620, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (1620, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (1620, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (1620, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
+     , (1620, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (1620, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1620, 67113316, 0, 0);

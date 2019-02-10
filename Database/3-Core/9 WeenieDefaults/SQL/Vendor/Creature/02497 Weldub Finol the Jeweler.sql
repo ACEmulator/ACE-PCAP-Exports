@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2497;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2497, 'craterlakejeweler', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2497, 'craterlakejeweler', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2497,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (2497,   1,  70, 0, 0) /* Strength */
      , (2497,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2497,   1,   130, 0, 0, 130) /* MaxHealth */
-     , (2497,   3,   250, 0, 0, 250) /* MaxStamina */
-     , (2497,   5,   135, 0, 0, 135) /* MaxMana */;
+VALUES (2497,   1,    10, 0, 0, 130) /* MaxHealth */
+     , (2497,   3,    10, 0, 0, 250) /* MaxStamina */
+     , (2497,   5,    10, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2497, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */

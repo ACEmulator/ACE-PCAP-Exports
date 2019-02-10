@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3937;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (3937, 'morningstarfire', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (3937, 'morningstarfire', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3937,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (3937,   1,          1) /* ItemType - MeleeWeapon */
      , (3937, 131,         60) /* MaterialType - Gold */
      , (3937, 151,          2) /* HookType - Wall */
      , (3937, 158,          2) /* WieldRequirements - RawSkill */
-     , (3937, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (3937, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (3937, 160,        325) /* WieldDifficulty */
      , (3937, 172,          5) /* AppraisalLongDescDecoration */
      , (3937, 176,         44) /* AppraisalItemSkill */
@@ -70,14 +70,16 @@ VALUES (3937,   1,   33555755) /* Setup */
      , (3937, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3937,   2, 3701212129) /* Container */
-     , (3937, 8000, 3701212044) /* PCAPRecordedObjectIID */;
+VALUES (3937, 8000, 3701212044) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3937,  1591,      2) 
      , (3937,  1616,      2) 
      , (3937,  2537,      2) 
      , (3937,  6127,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (3937, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3937, 67111919, 0, 0);

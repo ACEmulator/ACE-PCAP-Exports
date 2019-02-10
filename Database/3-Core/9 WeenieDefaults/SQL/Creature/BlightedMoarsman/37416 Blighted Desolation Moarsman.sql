@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37416;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37416, 'ace37416-blighteddesolationmoarsman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37416, 'ace37416-blighteddesolationmoarsman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37416,   1,         16) /* ItemType - Creature */
@@ -58,9 +58,24 @@ VALUES (37416,   1, 180, 0, 0) /* Strength */
      , (37416,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37416,   1,   540, 0, 0, 540) /* MaxHealth */
-     , (37416,   3,   780, 0, 0, 780) /* MaxStamina */
-     , (37416,   5,   240, 0, 0, 240) /* MaxMana */;
+VALUES (37416,   1,    10, 0, 0, 540) /* MaxHealth */
+     , (37416,   3,    10, 0, 0, 780) /* MaxStamina */
+     , (37416,   5,    10, 0, 0, 240) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37416, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (37416, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (37416, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (37416, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (37416, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (37416, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (37416, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (37416, 9, 20230,  0, 0, 0, False) /* Create Scroll of Executor's Boon (20230) for ContainTreasure */
+     , (37416, 9, 20406,  0, 0, 0, False) /* Create Aura of Infected Caress (20406) for ContainTreasure */
+     , (37416, 9, 39008,  0, 0, 0, False) /* Create Desolation Sea Invasion Key (39008) for ContainTreasure */
+     , (37416, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
+     , (37416, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (37416, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37416, 67113029, 0, 0);

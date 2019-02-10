@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37074;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37074, 'ace37074-ayanamekina', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37074, 'ace37074-ayanamekina', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37074,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (37074,   1, 180, 0, 0) /* Strength */
      , (37074,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37074,   1,   200, 0, 0, 200) /* MaxHealth */
-     , (37074,   3,   300, 0, 0, 300) /* MaxStamina */
-     , (37074,   5,   340, 0, 0, 340) /* MaxMana */;
+VALUES (37074,   1,    10, 0, 0, 200) /* MaxHealth */
+     , (37074,   3,    10, 0, 0, 300) /* MaxStamina */
+     , (37074,   5,    10, 0, 0, 340) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37074, 2, 37224,  1, 0, 0, False) /* Create Acid Staff (37224) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37074, 67109565, 32, 8)

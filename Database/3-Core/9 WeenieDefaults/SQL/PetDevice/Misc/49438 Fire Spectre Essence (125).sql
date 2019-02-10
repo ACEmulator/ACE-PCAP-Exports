@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49438;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49438, 'ace49438-firespectreessence125', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49438, 'ace49438-firespectreessence125', 70, '2019-02-10 05:41:14') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49438,   1,        128) /* ItemType - Misc */
@@ -56,8 +56,10 @@ VALUES (49438,   1,   33554817) /* Setup */
      , (49438, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49438,   2, 2929821112) /* Container */
-     , (49438, 8000, 2930071564) /* PCAPRecordedObjectIID */;
+VALUES (49438, 8000, 2930071564) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49438, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49438, 67111923, 0, 0);

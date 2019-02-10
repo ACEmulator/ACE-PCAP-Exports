@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 19273;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (19273, 'statuereplicaextremevirindismall', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19273, 'statuereplicaextremevirindismall', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19273,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,24 @@ VALUES (19273,   1, 100, 0, 0) /* Strength */
      , (19273,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19273,   1,   175, 0, 0, 175) /* MaxHealth */
-     , (19273,   3,   150, 0, 0, 150) /* MaxStamina */
-     , (19273,   5,   750, 0, 0, 750) /* MaxMana */;
+VALUES (19273,   1,    10, 0, 0, 175) /* MaxHealth */
+     , (19273,   3,    10, 0, 0, 150) /* MaxStamina */
+     , (19273,   5,    10, 0, 0, 750) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (19273, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (19273, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (19273, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (19273, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (19273, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (19273, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (19273, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
+     , (19273, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (19273, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (19273, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
+     , (19273, 9, 42516,  1, 0, 0, False) /* Create Coalesced Mana (42516) for ContainTreasure */
+     , (19273, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
+     , (19273, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19273, 67113828, 0, 0);

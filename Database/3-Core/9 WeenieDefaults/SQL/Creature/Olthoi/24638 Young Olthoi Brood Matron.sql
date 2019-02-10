@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24638;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24638, 'olthoibroodmatronhivesmid', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24638, 'olthoibroodmatronhivesmid', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24638,   1,         16) /* ItemType - Creature */
@@ -49,7 +49,31 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24638, 8000, 3707112063) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24638,   1,  1000, 0, 0, 1000) /* MaxHealth */;
+VALUES (24638,   1,    10, 0, 0, 1000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24638, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (24638, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (24638, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */
+     , (24638, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (24638, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (24638, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (24638, 9,  3803,  0, 0, 0, False) /* Create Lightning Jitte (3803) for ContainTreasure */
+     , (24638, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (24638, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (24638, 9, 20411,  0, 0, 0, False) /* Create Aura of Cragstone's Will (20411) for ContainTreasure */
+     , (24638, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
+     , (24638, 9, 20474,  0, 0, 0, False) /* Create Scroll of Icy Boon (20474) for ContainTreasure */
+     , (24638, 9, 21336,  0, 0, 0, False) /* Create Scroll of Shock Arc VII (21336) for ContainTreasure */
+     , (24638, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (24638, 9, 24643,  0, 0, 0, False) /* Create Young Brood Matron Tail (24643) for ContainTreasure */
+     , (24638, 9, 24645,  0, 0, 0, False) /* Create Young Brood Matron Tarsus (24645) for ContainTreasure */
+     , (24638, 9, 24647,  0, 0, 0, False) /* Create Young Brood Matron Tibia (24647) for ContainTreasure */
+     , (24638, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+     , (24638, 9, 40762,  0, 0, 0, False) /* Create Lightning Nodachi (40762) for ContainTreasure */
+     , (24638, 9, 41262,  0, 0, 0, False) /* Create Scroll of Blessing of T'ing (41262) for ContainTreasure */
+     , (24638, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (24638, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24638, 67114410, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31867;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31867, 'ace31867-diadem', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31867, 'ace31867-diadem', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31867,   1,          2) /* ItemType - Armor */
@@ -24,7 +24,7 @@ VALUES (31867,   1,          2) /* ItemType - Armor */
      , (31867, 131,         60) /* MaterialType - Gold */
      , (31867, 151,          2) /* HookType - Wall */
      , (31867, 158,          7) /* WieldRequirements - Level */
-     , (31867, 159,          1) /* WieldSkilltype - Axe */
+     , (31867, 159,          1) /* WieldSkillType - Axe */
      , (31867, 160,        150) /* WieldDifficulty */
      , (31867, 172,          5) /* AppraisalLongDescDecoration */
      , (31867, 177,          8) /* GemCount */
@@ -67,14 +67,17 @@ VALUES (31867,   1,   33559737) /* Setup */
      , (31867, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31867,   2, 1343493255) /* Container */
-     , (31867, 8000, 3680315017) /* PCAPRecordedObjectIID */;
+VALUES (31867, 8000, 3680315017) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31867,  2108,      2) 
      , (31867,  2185,      2) 
      , (31867,  2571,      2) 
      , (31867,  4704,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31867, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (31867, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31867, 67110323, 240, 10)

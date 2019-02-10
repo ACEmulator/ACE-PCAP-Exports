@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37155;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37155, 'ace37155-manascarab', 32) /* SpellComponent */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37155, 'ace37155-manascarab', 32, '2019-02-10 05:41:14') /* SpellComponent */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37155,   1,       4096) /* ItemType - SpellComponents */
-     , (37155,   5,         72) /* EncumbranceVal */
+     , (37155,   5,          4) /* EncumbranceVal */
      , (37155,  11,        100) /* MaxStackSize */
-     , (37155,  12,         18) /* StackSize */
+     , (37155,  12,          1) /* StackSize */
+     , (37155,  13,          4) /* StackUnitEncumbrance */
+     , (37155,  15,      15000) /* StackUnitValue */
      , (37155,  16,          1) /* ItemUseable - No */
      , (37155,  18,          8) /* UiEffects - BoostMana */
-     , (37155,  19,     270000) /* Value */
+     , (37155,  19,      15000) /* Value */
      , (37155,  33,          1) /* Bonded - Bonded */
      , (37155,  65,        101) /* Placement - Resting */
      , (37155,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -36,8 +38,10 @@ VALUES (37155,   1,   33555211) /* Setup */
      , (37155, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37155,   2, 2186220473) /* Container */
-     , (37155, 8000, 3680460203) /* PCAPRecordedObjectIID */;
+VALUES (37155, 8000, 3680460203) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37155, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (37155, 0, 83890047, 83890047);

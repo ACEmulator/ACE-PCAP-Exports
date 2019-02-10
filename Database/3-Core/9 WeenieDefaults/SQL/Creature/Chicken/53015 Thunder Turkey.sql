@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 53015;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (53015, 'ace53015-thunderturkey', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (53015, 'ace53015-thunderturkey', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53015,   1,         16) /* ItemType - Creature */
@@ -48,4 +48,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (53015, 8000, 2870392432) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (53015,   1, 250000, 0, 0, 250000) /* MaxHealth */;
+VALUES (53015,   1,    10, 0, 0, 250000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (53015, 9, 52175,  0, 0, 0, False) /* Create Thunder Turkey Leg (52175) for ContainTreasure */;

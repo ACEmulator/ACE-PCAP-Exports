@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 22745;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (22745, 'reedsharkjunglereaver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (22745, 'reedsharkjunglereaver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22745,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,42 @@ VALUES (22745,   1, 105, 0, 0) /* Strength */
      , (22745,   6,  65, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22745,   1,   126, 0, 0, 126) /* MaxHealth */
-     , (22745,   3,   340, 0, 0, 340) /* MaxStamina */
-     , (22745,   5,    65, 0, 0, 65) /* MaxMana */;
+VALUES (22745,   1,    10, 0, 0, 126) /* MaxHealth */
+     , (22745,   3,    10, 0, 0, 340) /* MaxStamina */
+     , (22745,   5,    10, 0, 0, 65) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (22745, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (22745, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (22745, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (22745, 9,   273, 26, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (22745, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (22745, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (22745, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (22745, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (22745, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (22745, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (22745, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (22745, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (22745, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (22745, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (22745, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (22745, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (22745, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (22745, 9,  2796,  0, 0, 0, False) /* Create Scroll of Bludgeon Bane VI (2796) for ContainTreasure */
+     , (22745, 9,  3457,  0, 0, 0, False) /* Create Scroll of Person Attunement Self VI (3457) for ContainTreasure */
+     , (22745, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (22745, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (22745, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (22745, 9, 20407,  0, 0, 0, False) /* Create Scroll of Pacification (20407) for ContainTreasure */
+     , (22745, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
+     , (22745, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (22745, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (22745, 9, 28945,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VI (28945) for ContainTreasure */
+     , (22745, 9, 30576,  0, 0, 0, False) /* Create Flamberge (30576) for ContainTreasure */
+     , (22745, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (22745, 9, 41042,  0, 0, 0, False) /* Create Acid Magari Yari (41042) for ContainTreasure */
+     , (22745, 9, 45272,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other V (45272) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22745, 67114043, 0, 0);

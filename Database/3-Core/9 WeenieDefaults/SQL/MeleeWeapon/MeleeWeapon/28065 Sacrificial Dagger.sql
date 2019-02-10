@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28065;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28065, 'daggergalaeralnew', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28065, 'daggergalaeralnew', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28065,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,7 @@ VALUES (28065,   1,          1) /* ItemType - MeleeWeapon */
      , (28065, 114,          1) /* Attuned - Attuned */
      , (28065, 151,          2) /* HookType - Wall */
      , (28065, 158,          2) /* WieldRequirements - RawSkill */
-     , (28065, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (28065, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (28065, 160,        300) /* WieldDifficulty */
      , (28065, 353,          6) /* WeaponType - Dagger */
      , (28065, 8030,          0);

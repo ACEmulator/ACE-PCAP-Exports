@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32002;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32002, 'ace32002-ghastlypriestess', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32002, 'ace32002-ghastlypriestess', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32002,   1,         16) /* ItemType - Creature */
@@ -45,7 +45,20 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (32002, 8000, 3708656401) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32002,   1,  2840, 0, 0, 2840) /* MaxHealth */;
+VALUES (32002,   1,    10, 0, 0, 2840) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32002, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (32002, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (32002, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (32002, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (32002, 2, 48020,  1, 0, 0, False) /* Create Quarrel (48020) for Wield */
+     , (32002, 2, 48022,  1, 0, 0, False) /* Create Lightning Quarrel (48022) for Wield */
+     , (32002, 2, 48025,  1, 0, 0, False) /* Create Lightning Katar (48025) for Wield */
+     , (32002, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
+     , (32002, 2, 48027,  1, 0, 0, False) /* Create Acid Nekode (48027) for Wield */
+     , (32002, 2, 48029,  1, 0, 0, False) /* Create Silifi (48029) for Wield */
+     , (32002, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32002, 67112735, 0, 128);

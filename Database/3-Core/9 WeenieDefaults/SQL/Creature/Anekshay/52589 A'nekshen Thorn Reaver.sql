@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52589;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52589, 'ace52589-anekshenthornreaver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52589, 'ace52589-anekshenthornreaver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52589,   1,         16) /* ItemType - Creature */
@@ -46,7 +46,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52589, 8000, 3684770264) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52589,   1,  8200, 0, 0, 8200) /* MaxHealth */;
+VALUES (52589,   1,    10, 0, 0, 8200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52589, 2, 52635,  1, 0, 0, False) /* Create Thorn Dagger (52635) for Wield */
+     , (52589, 2, 52636,  1, 0, 0, False) /* Create Thorn Dagger (52636) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52589, 67110361, 72, 8)

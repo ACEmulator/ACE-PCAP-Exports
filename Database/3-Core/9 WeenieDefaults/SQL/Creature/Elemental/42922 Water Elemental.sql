@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42922;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42922, 'ace42922-waterelemental', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42922, 'ace42922-waterelemental', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42922,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (42922,   1, True ) /* Stuck */
      , (42922,  13, False) /* Ethereal */
      , (42922,  14, True ) /* GravityStatus */
      , (42922,  15, True ) /* LightsStatus */
-     , (42922,  19, True ) /* Attackable */;
+     , (42922,  19, True ) /* Attackable */
+     , (42922, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42922,  39, 1.60000002384186) /* DefaultScale */;
@@ -56,6 +57,24 @@ VALUES (42922,   1, 160, 0, 0) /* Strength */
      , (42922,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42922,   1,   985, 0, 0, 985) /* MaxHealth */
-     , (42922,   3,   720, 0, 0, 720) /* MaxStamina */
-     , (42922,   5,   610, 0, 0, 610) /* MaxMana */;
+VALUES (42922,   1,    10, 0, 0, 985) /* MaxHealth */
+     , (42922,   3,    10, 0, 0, 720) /* MaxStamina */
+     , (42922,   5,    10, 0, 0, 610) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42922, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (42922, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (42922, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (42922, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (42922, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (42922, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (42922, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (42922, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (42922, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (42922, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (42922, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
+     , (42922, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (42922, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */
+     , (42922, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (42922, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
+     , (42922, 9, 45266,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VII (45266) for ContainTreasure */;

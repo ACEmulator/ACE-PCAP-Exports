@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44801;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44801, 'ace44801-suikanoverrobe', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44801, 'ace44801-suikanoverrobe', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44801,   1,          2) /* ItemType - Armor */
@@ -23,7 +23,7 @@ VALUES (44801,   1,          2) /* ItemType - Armor */
      , (44801, 115,          0) /* ItemSkillLevelLimit */
      , (44801, 131,         52) /* MaterialType - Leather */
      , (44801, 158,          7) /* WieldRequirements - Level */
-     , (44801, 159,          1) /* WieldSkilltype - Axe */
+     , (44801, 159,          1) /* WieldSkillType - Axe */
      , (44801, 160,        150) /* WieldDifficulty */
      , (44801, 172,          5) /* AppraisalLongDescDecoration */
      , (44801, 177,          4) /* GemCount */
@@ -66,14 +66,16 @@ VALUES (44801,   1,   33554854) /* Setup */
      , (44801, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44801,   2, 1343493255) /* Container */
-     , (44801, 8000, 2174542952) /* PCAPRecordedObjectIID */;
+VALUES (44801, 8000, 2174542952) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44801,  1552,      2) 
      , (44801,  2187,      2) 
      , (44801,  4227,      2) 
      , (44801,  4407,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44801, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44801, 67110357, 216, 24)

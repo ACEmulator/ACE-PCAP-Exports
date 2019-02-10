@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1817;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1817, 'tufabowyer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1817, 'tufabowyer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1817,   1,         16) /* ItemType - Creature */
@@ -64,10 +64,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1817, 8000, 2020003840) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1817,   1,   120, 0, 0, 120) /* MaxHealth */;
+VALUES (1817,   1,    10, 0, 0, 120) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1817, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+VALUES (1817, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
+     , (1817, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (1817, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
      , (1817, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
      , (1817, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */

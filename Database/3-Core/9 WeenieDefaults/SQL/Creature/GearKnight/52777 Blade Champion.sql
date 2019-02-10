@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52777;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52777, 'ace52777-bladechampion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52777, 'ace52777-bladechampion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52777,   1,         16) /* ItemType - Creature */
@@ -58,6 +58,9 @@ VALUES (52777,   1, 600, 0, 0) /* Strength */
      , (52777,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52777,   1, 325000, 0, 0, 325000) /* MaxHealth */
-     , (52777,   3, 25000, 0, 0, 25000) /* MaxStamina */
-     , (52777,   5,  1500, 0, 0, 1500) /* MaxMana */;
+VALUES (52777,   1,    10, 0, 0, 325000) /* MaxHealth */
+     , (52777,   3,    10, 0, 0, 25000) /* MaxStamina */
+     , (52777,   5,    10, 0, 0, 1500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52777, 2, 41250,  1, 0, 0, False) /* Create Acid Gearknight Greatsword (41250) for Wield */;

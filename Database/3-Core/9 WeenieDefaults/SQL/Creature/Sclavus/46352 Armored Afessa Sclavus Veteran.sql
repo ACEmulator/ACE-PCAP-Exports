@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46352;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46352, 'ace46352-armoredafessasclavusveteran', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46352, 'ace46352-armoredafessasclavusveteran', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46352,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46352, 8000, 3358648406) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46352,   1,  1215, 0, 0, 642) /* MaxHealth */;
+VALUES (46352,   1,    10, 0, 0, 642) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46352, 2, 40266,  1, 0, 0, False) /* Create T'thuun Aegis (40266) for Wield */
+     , (46352, 2, 46405,  1, 0, 0, False) /* Create T'thuun Sword (46405) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46352, 67111941, 0, 0);

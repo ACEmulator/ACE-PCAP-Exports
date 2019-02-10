@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 867;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (867, 'hebianhealer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (867, 'hebianhealer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (867,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (867,   1,  40, 0, 0) /* Strength */
      , (867,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (867,   1,   125, 0, 0, 125) /* MaxHealth */
-     , (867,   3,   135, 0, 0, 135) /* MaxStamina */
-     , (867,   5,   110, 0, 0, 110) /* MaxMana */;
+VALUES (867,   1,    10, 0, 0, 125) /* MaxHealth */
+     , (867,   3,    10, 0, 0, 135) /* MaxStamina */
+     , (867,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (867, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */

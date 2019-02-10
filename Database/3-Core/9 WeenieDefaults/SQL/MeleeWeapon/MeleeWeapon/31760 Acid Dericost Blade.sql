@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31760;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31760, 'ace31760-aciddericostblade', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31760, 'ace31760-aciddericostblade', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31760,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (31760,   1,          1) /* ItemType - MeleeWeapon */
      , (31760, 131,         63) /* MaterialType - Silver */
      , (31760, 151,          2) /* HookType - Wall */
      , (31760, 158,          2) /* WieldRequirements - RawSkill */
-     , (31760, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (31760, 159,         45) /* WieldSkillType - LightWeapons */
      , (31760, 160,        300) /* WieldDifficulty */
      , (31760, 172,          5) /* AppraisalLongDescDecoration */
      , (31760, 176,         45) /* AppraisalItemSkill */
@@ -71,14 +71,16 @@ VALUES (31760,   1,   33559636) /* Setup */
      , (31760, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31760,   2, 3695150446) /* Container */
-     , (31760, 8000, 3695623666) /* PCAPRecordedObjectIID */;
+VALUES (31760, 8000, 3695623666) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31760,  1604,      2) 
      , (31760,  1616,      2) 
      , (31760,  1626,      2) 
      , (31760,  2582,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31760, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31760, 67116700, 1, 100)

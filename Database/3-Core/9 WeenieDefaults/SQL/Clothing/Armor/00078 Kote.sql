@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 78;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (78, 'kote', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (78, 'kote', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (78,   1,          2) /* ItemType - Armor */
@@ -62,14 +62,17 @@ VALUES (78,   1,   33554641) /* Setup */
      , (78, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (78,   2, 3691612087) /* Container */
-     , (78, 8000, 3691612084) /* PCAPRecordedObjectIID */;
+VALUES (78, 8000, 3691612084) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (78,  1486,      2) 
      , (78,  2104,      2) 
      , (78,  2185,      2) 
      , (78,  2546,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (78, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (78, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (78, 67110016, 96, 12);

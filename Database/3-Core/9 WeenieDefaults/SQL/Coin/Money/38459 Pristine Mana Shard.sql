@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38459;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38459, 'ace38459-pristinemanashard', 9) /* Coin */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38459, 'ace38459-pristinemanashard', 9, '2019-02-10 05:41:14') /* Coin */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38459,   1,         64) /* ItemType - Money */
      , (38459,   5,          0) /* EncumbranceVal */
      , (38459,  11,       1000) /* MaxStackSize */
-     , (38459,  12,        473) /* StackSize */
+     , (38459,  12,          1) /* StackSize */
+     , (38459,  13,          0) /* StackUnitEncumbrance */
+     , (38459,  15,         10) /* StackUnitValue */
      , (38459,  16,          1) /* ItemUseable - No */
      , (38459,  18,         64) /* UiEffects - Lightning */
-     , (38459,  19,       4730) /* Value */
+     , (38459,  19,         10) /* Value */
      , (38459,  33,          0) /* Bonded - Normal */
      , (38459,  65,        101) /* Placement - Resting */
      , (38459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -41,5 +43,4 @@ VALUES (38459,   1,   33555641) /* Setup */
      , (38459, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38459,   2, 1343074426) /* Container */
-     , (38459, 8000, 2461755457) /* PCAPRecordedObjectIID */;
+VALUES (38459, 8000, 2461755457) /* PCAPRecordedObjectIID */;

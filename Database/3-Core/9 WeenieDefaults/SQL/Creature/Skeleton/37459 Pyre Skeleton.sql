@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37459;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37459, 'ace37459-pyreskeleton', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37459, 'ace37459-pyreskeleton', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37459,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37459, 8000, 3682586958) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37459,   1,  3500, 0, 0, 2483) /* MaxHealth */;
+VALUES (37459,   1,    10, 0, 0, 2483) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37459, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37459, 67116525, 0, 0);

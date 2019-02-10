@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46260;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46260, 'ace46260-enhancedflamingisparianwand', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46260, 'ace46260-enhancedflamingisparianwand', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46260,   1,      32768) /* ItemType - Caster */
@@ -22,7 +22,7 @@ VALUES (46260,   1,      32768) /* ItemType - Caster */
      , (46260, 114,          0) /* Attuned - Normal */
      , (46260, 151,          2) /* HookType - Wall */
      , (46260, 158,          2) /* WieldRequirements - RawSkill */
-     , (46260, 159,         34) /* WieldSkilltype - WarMagic */
+     , (46260, 159,         34) /* WieldSkillType - WarMagic */
      , (46260, 160,        355) /* WieldDifficulty */
      , (46260, 166,         61) /* SlayerCreatureType - FrostElemental */;
 
@@ -60,8 +60,7 @@ VALUES (46260,   1,   33557788) /* Setup */
      , (46260, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46260,   2, 1342996201) /* Container */
-     , (46260, 8000, 2150924771) /* PCAPRecordedObjectIID */;
+VALUES (46260, 8000, 2150924771) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46260,  2091,      2) 

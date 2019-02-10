@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34611;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34611, 'ace34611-verymadcow', 15) /* Cow */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34611, 'ace34611-verymadcow', 15, '2019-02-10 05:41:14') /* Cow */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34611,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,22 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34611, 8000, 3706685034) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34611,   1, 10500, 0, 0, 10500) /* MaxHealth */;
+VALUES (34611,   1,    10, 0, 0, 10500) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34611, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (34611, 9,   273, 4030, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (34611, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (34611, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (34611, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (34611, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
+     , (34611, 9, 20244,  0, 0, 0, False) /* Create Scroll of Adja's Gift (20244) for ContainTreasure */
+     , (34611, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (34611, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (34611, 9, 34458,  0, 0, 0, False) /* Create Very Mad Cow Token (34458) for ContainTreasure */
+     , (34611, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (34611, 9, 43375,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VII (43375) for ContainTreasure */
+     , (34611, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34611, 67116738, 0, 0);

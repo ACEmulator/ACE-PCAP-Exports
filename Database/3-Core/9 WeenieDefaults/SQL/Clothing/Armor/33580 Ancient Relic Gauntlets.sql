@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33580;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33580, 'ace33580-ancientrelicgauntlets', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33580, 'ace33580-ancientrelicgauntlets', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33580,   1,          2) /* ItemType - Armor */
@@ -20,7 +20,7 @@ VALUES (33580,   1,          2) /* ItemType - Armor */
      , (33580, 108,        800) /* ItemMaxMana */
      , (33580, 109,        220) /* ItemDifficulty */
      , (33580, 158,          7) /* WieldRequirements - Level */
-     , (33580, 159,          1) /* WieldSkilltype - Axe */
+     , (33580, 159,          1) /* WieldSkillType - Axe */
      , (33580, 160,        150) /* WieldDifficulty */
      , (33580, 265,          6) /* EquipmentSetId - AncientRelic */;
 
@@ -56,8 +56,7 @@ VALUES (33580,   1,   33554648) /* Setup */
      , (33580, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33580,   3, 1343355586) /* Wielder */
-     , (33580, 8000, 3106648613) /* PCAPRecordedObjectIID */;
+VALUES (33580, 8000, 3106648613) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33580,  2617,      2) 

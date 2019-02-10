@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49157;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49157, 'ace49157-elbitcurtsedniswasp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49157, 'ace49157-elbitcurtsedniswasp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49157,   1,         16) /* ItemType - Creature */
@@ -48,8 +48,7 @@ VALUES (49157, 8040, 49218151, 210.7018, -101.7048, -6.379607, -0.9986287, 0, 0,
 /* @teleloc 0x02EF0267 [210.701800 -101.704800 -6.379607] -0.998629 0.000000 0.000000 -0.052352 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49157,  44, 1344070442) /* PetOwner */
-     , (49157, 8000, 3627435422) /* PCAPRecordedObjectIID */;
+VALUES (49157, 8000, 3627435422) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49157,   1, 130, 0, 0) /* Strength */
@@ -60,9 +59,9 @@ VALUES (49157,   1, 130, 0, 0) /* Strength */
      , (49157,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49157,   1,   430, 0, 0, 430) /* MaxHealth */
-     , (49157,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (49157,   5,   400, 0, 0, 400) /* MaxMana */;
+VALUES (49157,   1,    10, 0, 0, 430) /* MaxHealth */
+     , (49157,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (49157,   5,    10, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49157, 67115263, 0, 0);

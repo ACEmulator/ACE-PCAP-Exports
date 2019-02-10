@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31516;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31516, 'ace31516-witheredbanderlinghierophant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31516, 'ace31516-witheredbanderlinghierophant', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31516,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,9 @@ VALUES (31516, 8040, 438173738, 137.331, 36.8744, 30.00715, 0.1961319, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31516, 8000, 3684401857) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31516, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31516, 67114262, 0, 0);

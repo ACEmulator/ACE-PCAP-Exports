@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46428;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46428, 'ace46428-roninshimakawa', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46428, 'ace46428-roninshimakawa', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46428,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46428, 8000, 3707670969) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46428,   1, 28250, 0, 0, 28250) /* MaxHealth */;
+VALUES (46428,   1,    10, 0, 0, 28250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46428, 2, 46712,  1, 0, 0, False) /* Create Spectral Frost Nodachi (46712) for Wield */
+     , (46428, 9, 46429,  0, 0, 0, False) /* Create Ancient Arm Bone (46429) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46428, 67109966, 92, 4)

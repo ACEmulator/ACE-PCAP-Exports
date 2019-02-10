@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11421;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11421, 'daggerokanevortex_xp', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11421, 'daggerokanevortex_xp', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11421,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,7 +26,7 @@ VALUES (11421,   1,          1) /* ItemType - MeleeWeapon */
      , (11421, 114,          1) /* Attuned - Attuned */
      , (11421, 151,          2) /* HookType - Wall */
      , (11421, 158,          2) /* WieldRequirements - RawSkill */
-     , (11421, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (11421, 159,         45) /* WieldSkillType - LightWeapons */
      , (11421, 160,        250) /* WieldDifficulty */
      , (11421, 353,          6) /* WeaponType - Dagger */
      , (11421, 8030,          0);
@@ -67,8 +67,7 @@ VALUES (11421,   1,   33557234) /* Setup */
      , (11421, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11421,   2, 3231458240) /* Container */
-     , (11421, 8000, 3231495971) /* PCAPRecordedObjectIID */;
+VALUES (11421, 8000, 3231495971) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11421,  2438,      2) 

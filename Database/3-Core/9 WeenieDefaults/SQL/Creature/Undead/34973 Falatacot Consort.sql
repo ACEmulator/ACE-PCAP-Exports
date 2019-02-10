@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34973;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34973, 'ace34973-falatacotconsort', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34973, 'ace34973-falatacotconsort', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34973,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,13 @@ VALUES (34973,   1, 105, 0, 0) /* Strength */
      , (34973,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34973,   1,   934, 0, 0, 934) /* MaxHealth */
-     , (34973,   3,  1010, 0, 0, 1010) /* MaxStamina */
-     , (34973,   5,   540, 0, 0, 540) /* MaxMana */;
+VALUES (34973,   1,    10, 0, 0, 934) /* MaxHealth */
+     , (34973,   3,    10, 0, 0, 1010) /* MaxStamina */
+     , (34973,   5,    10, 0, 0, 540) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34973, 2, 48102,  1, 0, 0, False) /* Create Khopesh (48102) for Wield */
+     , (34973, 2, 48103,  1, 0, 0, False) /* Create Sickle (48103) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34973, 67114481, 0, 0);

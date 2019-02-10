@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 23623;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (23623, 'cowmad', 15) /* Cow */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23623, 'cowmad', 15, '2019-02-10 05:41:14') /* Cow */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23623,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,18 @@ VALUES (23623,   1,  40, 0, 0) /* Strength */
      , (23623,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23623,   1,   120, 0, 0, 120) /* MaxHealth */
-     , (23623,   3,    50, 0, 0, 50) /* MaxStamina */
+VALUES (23623,   1,    10, 0, 0, 120) /* MaxHealth */
+     , (23623,   3,    10, 0, 0, 50) /* MaxStamina */
      , (23623,   5,    10, 0, 0, 10) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (23623, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
+     , (23623, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (23623, 9,  2902,  0, 0, 0, False) /* Create Scroll of Weaken Lock VI (2902) for ContainTreasure */
+     , (23623, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (23623, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (23623, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
+     , (23623, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23623, 67116473, 0, 0);

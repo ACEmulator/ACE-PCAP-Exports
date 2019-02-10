@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46653;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46653, 'ace46653-irongolemsamurai', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46653, 'ace46653-irongolemsamurai', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46653,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46653, 8000, 3707862767) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46653,   1,  5250, 0, 0, 5250) /* MaxHealth */;
+VALUES (46653,   1,    10, 0, 0, 5250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (46653, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46653, 67116897, 0, 0);

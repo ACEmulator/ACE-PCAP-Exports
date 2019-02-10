@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38723;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38723, 'ace38723-celestialhandstrongholdportalgem', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38723, 'ace38723-celestialhandstrongholdportalgem', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38723,   1,       2048) /* ItemType - Gem */
-     , (38723,   5,        130) /* EncumbranceVal */
+     , (38723,   5,         10) /* EncumbranceVal */
      , (38723,  11,         25) /* MaxStackSize */
-     , (38723,  12,         13) /* StackSize */
+     , (38723,  12,          1) /* StackSize */
+     , (38723,  13,         10) /* StackUnitEncumbrance */
+     , (38723,  15,       5000) /* StackUnitValue */
      , (38723,  16,          8) /* ItemUseable - Contained */
      , (38723,  18,          1) /* UiEffects - Magical */
-     , (38723,  19,      65000) /* Value */
+     , (38723,  19,       5000) /* Value */
      , (38723,  33,          1) /* Bonded - Bonded */
      , (38723,  65,        101) /* Placement - Resting */
      , (38723,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
@@ -52,8 +54,7 @@ VALUES (38723,   1,   33556769) /* Setup */
      , (38723, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38723,   2, 1342476573) /* Container */
-     , (38723, 8000, 3018341925) /* PCAPRecordedObjectIID */;
+VALUES (38723, 8000, 3018341925) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38723,   157,      2) ;

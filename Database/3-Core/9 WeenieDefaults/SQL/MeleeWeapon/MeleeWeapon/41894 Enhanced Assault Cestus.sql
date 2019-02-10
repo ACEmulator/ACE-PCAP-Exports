@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41894;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41894, 'ace41894-enhancedassaultcestus', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41894, 'ace41894-enhancedassaultcestus', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41894,   1,          1) /* ItemType - MeleeWeapon */
@@ -24,7 +24,7 @@ VALUES (41894,   1,          1) /* ItemType - MeleeWeapon */
      , (41894, 109,        120) /* ItemDifficulty */
      , (41894, 151,          2) /* HookType - Wall */
      , (41894, 158,          2) /* WieldRequirements - RawSkill */
-     , (41894, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (41894, 159,         45) /* WieldSkillType - LightWeapons */
      , (41894, 160,        400) /* WieldDifficulty */
      , (41894, 166,          6) /* SlayerCreatureType - Tumerok */
      , (41894, 263,          4) /* ResistanceModifierType */
@@ -67,8 +67,7 @@ VALUES (41894,   1,   33558207) /* Setup */
      , (41894, 8019,         88) /* PCAPRecordedDefaultScript */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41894,   2, 1342605192) /* Container */
-     , (41894, 8000, 2521108609) /* PCAPRecordedObjectIID */;
+VALUES (41894, 8000, 2521108609) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41894,  2004,      2) 

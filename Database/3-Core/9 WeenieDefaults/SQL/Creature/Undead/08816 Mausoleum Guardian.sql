@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8816;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8816, 'undeadmausoleumguardian', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8816, 'undeadmausoleumguardian', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8816,   1,         16) /* ItemType - Creature */
@@ -48,7 +48,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8816, 8000, 3701816772) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8816,   1,   175, 0, 0, 175) /* MaxHealth */;
+VALUES (8816,   1,    10, 0, 0, 175) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8816, 2, 47673,  1, 0, 0, False) /* Create Flaming Tachi (47673) for Wield */
+     , (8816, 9,  3821,  0, 0, 0, False) /* Create Frost Katar (3821) for ContainTreasure */
+     , (8816, 9,  8785,  0, 0, 0, False) /* Create Empyrean Scalemail Shirt (8785) for ContainTreasure */
+     , (8816, 9,  8786,  1, 0, 0, False) /* Create Barbed Fletching Tool (8786) for ContainTreasure */
+     , (8816, 9,  8788,  0, 0, 0, False) /* Create Obsidian Dagger (8788) for ContainTreasure */
+     , (8816, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8816, 67111665, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51653;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51653, 'ace51653-corruptgearwarrior', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51653, 'ace51653-corruptgearwarrior', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51653,   1,         16) /* ItemType - Creature */
@@ -56,7 +56,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51653, 8000, 3694795919) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51653,   1,  7325, 0, 0, 7325) /* MaxHealth */;
+VALUES (51653,   1,    10, 0, 0, 7325) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51653, 2, 51384,  1, 0, 0, False) /* Create Electric Gearknight Greatsword (51384) for Wield */
+     , (51653, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (51653, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51653, 67116865, 24, 8)

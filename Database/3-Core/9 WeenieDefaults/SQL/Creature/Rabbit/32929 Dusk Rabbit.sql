@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32929;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32929, 'ace32929-duskrabbit', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32929, 'ace32929-duskrabbit', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32929,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,23 @@ VALUES (32929,   1, 390, 0, 0) /* Strength */
      , (32929,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32929,   1,   445, 0, 0, 445) /* MaxHealth */
-     , (32929,   3,   640, 0, 0, 640) /* MaxStamina */
-     , (32929,   5,    40, 0, 0, 40) /* MaxMana */;
+VALUES (32929,   1,    10, 0, 0, 445) /* MaxHealth */
+     , (32929,   3,    10, 0, 0, 640) /* MaxStamina */
+     , (32929,   5,    10, 0, 0, 40) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32929, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (32929, 9,   273, 1273, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (32929, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (32929, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (32929, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (32929, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (32929, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (32929, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (32929, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (32929, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (32929, 9, 20467,  0, 0, 0, False) /* Create Scroll of Olthoi's Gift (20467) for ContainTreasure */
+     , (32929, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32929, 67111661, 0, 0);

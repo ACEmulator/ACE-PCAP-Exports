@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36748;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36748, 'ace36748-empoweredbreastplateoftheperfectlight', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36748, 'ace36748-empoweredbreastplateoftheperfectlight', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36748,   1,          2) /* ItemType - Armor */
@@ -20,7 +20,7 @@ VALUES (36748,   1,          2) /* ItemType - Armor */
      , (36748, 108,      10000) /* ItemMaxMana */
      , (36748, 114,          1) /* Attuned - Attuned */
      , (36748, 158,          7) /* WieldRequirements - Level */
-     , (36748, 159,          1) /* WieldSkilltype - Axe */
+     , (36748, 159,          1) /* WieldSkillType - Axe */
      , (36748, 160,        130) /* WieldDifficulty */
      , (36748, 265,         11) /* EquipmentSetId - ArmorPerfectLight */;
 

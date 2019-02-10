@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11409;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11409, 'palenqualkerehanua_xp', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11409, 'palenqualkerehanua_xp', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11409,   1,         16) /* ItemType - Creature */
@@ -65,12 +65,13 @@ VALUES (11409,   1, 160, 0, 0) /* Strength */
      , (11409,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11409,   1,   145, 0, 0, 145) /* MaxHealth */
-     , (11409,   3,   340, 0, 0, 340) /* MaxStamina */
-     , (11409,   5,   150, 0, 0, 150) /* MaxMana */;
+VALUES (11409,   1,    10, 0, 0, 145) /* MaxHealth */
+     , (11409,   3,    10, 0, 0, 340) /* MaxStamina */
+     , (11409,   5,    10, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11409, 4, 11463, -1, 0, 0, False) /* Create Tewhate (11463) for Shop */
+VALUES (11409, 2, 12123,  1, 0, 0, False) /* Create Palenqual's Hoeroa (12123) for Wield */
+     , (11409, 4, 11463, -1, 0, 0, False) /* Create Tewhate (11463) for Shop */
      , (11409, 4, 11464, -1, 0, 0, False) /* Create Okane (11464) for Shop */
      , (11409, 4, 11465, -1, 0, 0, False) /* Create Waaika (11465) for Shop */
      , (11409, 4, 11466, -1, 0, 0, False) /* Create Taiaha (11466) for Shop */

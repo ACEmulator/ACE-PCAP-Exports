@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1522;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1522, 'undeadbaronminer', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1522, 'undeadbaronminer', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1522,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,24 @@ VALUES (1522,   1, 120, 0, 0) /* Strength */
      , (1522,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1522,   1,   113, 0, 0, 113) /* MaxHealth */
-     , (1522,   3,   275, 0, 0, 275) /* MaxStamina */
-     , (1522,   5,   270, 0, 0, 270) /* MaxMana */;
+VALUES (1522,   1,    10, 0, 0, 113) /* MaxHealth */
+     , (1522,   3,    10, 0, 0, 275) /* MaxStamina */
+     , (1522,   5,    10, 0, 0, 270) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1522, 2,  6846,  1, 0, 0, False) /* Create Lightning Long Sword (6846) for Wield */
+     , (1522, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1522, 9,   273, 497, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1522, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1522, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (1522, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (1522, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1522, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (1522, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (1522, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1522, 9, 20497,  0, 0, 0, False) /* Create Scroll of Silencia's Blessing (20497) for ContainTreasure */
+     , (1522, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (1522, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1522, 67111342, 0, 0);

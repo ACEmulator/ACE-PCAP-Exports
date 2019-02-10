@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51965;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51965, 'ace51965-rynthidtentacledagger', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51965, 'ace51965-rynthidtentacledagger', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51965,   1,          1) /* ItemType - MeleeWeapon */
@@ -25,7 +25,7 @@ VALUES (51965,   1,          1) /* ItemType - MeleeWeapon */
      , (51965, 114,          1) /* Attuned - Attuned */
      , (51965, 151,          2) /* HookType - Wall */
      , (51965, 158,          2) /* WieldRequirements - RawSkill */
-     , (51965, 159,         46) /* WieldSkilltype - FinesseWeapons */
+     , (51965, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (51965, 160,        420) /* WieldDifficulty */
      , (51965, 166,         19) /* SlayerCreatureType - Virindi */
      , (51965, 8030,          0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11516;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11516, 'tumerokheadrumspeaker_xp', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11516, 'tumerokheadrumspeaker_xp', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11516,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,36 @@ VALUES (11516,   1,  80, 0, 0) /* Strength */
      , (11516,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11516,   1,    85, 0, 0, 85) /* MaxHealth */
-     , (11516,   3,   170, 0, 0, 166) /* MaxStamina */
-     , (11516,   5,   130, 0, 0, 130) /* MaxMana */;
+VALUES (11516,   1,    10, 0, 0, 85) /* MaxHealth */
+     , (11516,   3,    10, 0, 0, 166) /* MaxStamina */
+     , (11516,   5,    10, 0, 0, 130) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11516, 2, 23639,  1, 0, 0, False) /* Create Cestus (23639) for Wield */
+     , (11516, 2, 23676,  1, 0, 0, False) /* Create Katar (23676) for Wield */
+     , (11516, 2, 23682,  1, 0, 0, False) /* Create Nekode (23682) for Wield */
+     , (11516, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wield */
+     , (11516, 2, 23698,  1, 0, 0, False) /* Create Spear (23698) for Wield */
+     , (11516, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */
+     , (11516, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (11516, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (11516, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (11516, 9,   273,  7, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11516, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (11516, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (11516, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
+     , (11516, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (11516, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (11516, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (11516, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (11516, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (11516, 9,  2837,  0, 0, 0, False) /* Create Scroll of Hermetic Void II (2837) for ContainTreasure */
+     , (11516, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
+     , (11516, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (11516, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (11516, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (11516, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */
+     , (11516, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11516, 67116625, 57, 48)

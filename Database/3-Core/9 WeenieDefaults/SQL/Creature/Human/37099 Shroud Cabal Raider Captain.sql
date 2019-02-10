@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37099;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37099, 'ace37099-shroudcabalraidercaptain', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37099, 'ace37099-shroudcabalraidercaptain', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37099,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,18 @@ VALUES (37099,   1, 220, 0, 0) /* Strength */
      , (37099,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37099,   1,   400, 0, 0, 400) /* MaxHealth */
-     , (37099,   3,   360, 0, 0, 360) /* MaxStamina */
-     , (37099,   5,   360, 0, 0, 360) /* MaxMana */;
+VALUES (37099,   1,    10, 0, 0, 400) /* MaxHealth */
+     , (37099,   3,    10, 0, 0, 360) /* MaxStamina */
+     , (37099,   5,    10, 0, 0, 360) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37099, 2, 22792,  1, 0, 0, False) /* Create Bandit Rapier (22792) for Wield */
+     , (37099, 2, 22795,  1, 0, 0, False) /* Create Bandit Short Sword (22795) for Wield */
+     , (37099, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (37099, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (37099, 9, 20407,  0, 0, 0, False) /* Create Scroll of Pacification (20407) for ContainTreasure */
+     , (37099, 9, 20461,  0, 0, 0, False) /* Create Scroll of Cameron's Curse (20461) for ContainTreasure */
+     , (37099, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (37099, 9, 28634,  0, 0, 0, False) /* Create Diforsa Greaves (28634) for ContainTreasure */
+     , (37099, 9, 37090,  0, 0, 0, False) /* Create Raider Captain's Resonator (37090) for ContainTreasure */
+     , (37099, 9, 41070,  0, 0, 0, False) /* Create Flaming Shashqa (41070) for ContainTreasure */;

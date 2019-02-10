@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 29422;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (29422, 'knightquartermastercopper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (29422, 'knightquartermastercopper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29422,   1,         16) /* ItemType - Creature */
@@ -43,6 +43,9 @@ VALUES (29422, 8040, 1573224, 150.421, -272.012, -5.993732, -0.9762841, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29422, 8000, 3707282877) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (29422, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29422, 67115519, 0, 0);

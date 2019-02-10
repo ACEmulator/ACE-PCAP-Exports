@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35342;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35342, 'ace35342-banderlingguardchampion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35342, 'ace35342-banderlingguardchampion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35342,   1,         16) /* ItemType - Creature */
@@ -48,6 +48,9 @@ VALUES (35342, 8040, 456392960, 41.6797, 28.5019, 64.80825, 0.6066279, 0, 0, -0.
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35342, 8000, 2447927448) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35342, 2, 23127,  1, 0, 0, False) /* Create Flaming Club (23127) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35342, 67114524, 0, 0);

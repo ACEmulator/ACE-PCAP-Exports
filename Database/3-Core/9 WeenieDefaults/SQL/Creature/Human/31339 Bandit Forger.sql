@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31339;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31339, 'ace31339-banditforger', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31339, 'ace31339-banditforger', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31339,   1,         16) /* ItemType - Creature */
@@ -59,6 +59,33 @@ VALUES (31339,   1, 315, 0, 0) /* Strength */
      , (31339,   6, 146, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31339,   1,   293, 0, 0, 293) /* MaxHealth */
-     , (31339,   3,  1245, 0, 0, 1245) /* MaxStamina */
-     , (31339,   5,   146, 0, 0, 146) /* MaxMana */;
+VALUES (31339,   1,    10, 0, 0, 293) /* MaxHealth */
+     , (31339,   3,    10, 0, 0, 1245) /* MaxStamina */
+     , (31339,   5,    10, 0, 0, 146) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31339, 2, 21348,  1, 0, 0, False) /* Create Deadly Chorizite Arrow (21348) for Wield */
+     , (31339, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+     , (31339, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
+     , (31339, 2, 31705,  1, 0, 0, False) /* Create Phantom Bow (31705) for Wield */
+     , (31339, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */
+     , (31339, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (31339, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (31339, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (31339, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (31339, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (31339, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (31339, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (31339, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (31339, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (31339, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (31339, 9, 20411,  0, 0, 0, False) /* Create Aura of Cragstone's Will (20411) for ContainTreasure */
+     , (31339, 9, 27216,  0, 0, 0, False) /* Create Chiran Gauntlets (27216) for ContainTreasure */
+     , (31339, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
+     , (31339, 9, 31821,  0, 0, 0, False) /* Create Staff of Aerfalle (31821) for ContainTreasure */
+     , (31339, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for ContainTreasure */
+     , (31339, 9, 41069,  0, 0, 0, False) /* Create Lightning Shashqa (41069) for ContainTreasure */
+     , (31339, 9, 45426,  0, 0, 0, False) /* Create Jambiya (45426) for ContainTreasure */
+     , (31339, 9, 46881,  0, 0, 0, False) /* Create Aura of Heartseeker Other VII (46881) for ContainTreasure */
+     , (31339, 9, 49243,  0, 0, 0, False) /* Create Lightning Zombie Essence (125) (49243) for ContainTreasure */
+     , (31339, 9, 49348,  0, 0, 0, False) /* Create Lightning Moar Essence (125) (49348) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28670;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28670, 'ruschkfiend', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28670, 'ruschkfiend', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28670,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,28 @@ VALUES (28670,   1, 160, 0, 0) /* Strength */
      , (28670,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28670,   1,   165, 0, 0, 165) /* MaxHealth */
-     , (28670,   3,   270, 0, 0, 270) /* MaxStamina */
-     , (28670,   5,   160, 0, 0, 160) /* MaxMana */;
+VALUES (28670,   1,    10, 0, 0, 165) /* MaxHealth */
+     , (28670,   3,    10, 0, 0, 270) /* MaxStamina */
+     , (28670,   5,    10, 0, 0, 160) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28670, 2, 48594,  1, 0, 0, False) /* Create Icy Club (48594) for Wield */
+     , (28670, 2, 48595,  1, 0, 0, False) /* Create Frozen Dagger (48595) for Wield */
+     , (28670, 2, 48596,  1, 0, 0, False) /* Create Ice Shard (48596) for Wield */
+     , (28670, 2, 48597,  1, 0, 0, False) /* Create Frigid Splinter (48597) for Wield */
+     , (28670, 2, 48598,  1, 0, 0, False) /* Create Glacial Blade (48598) for Wield */
+     , (28670, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (28670, 9,   273, 75, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28670, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (28670, 9,   357,  0, 0, 0, False) /* Create Tungi (357) for ContainTreasure */
+     , (28670, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
+     , (28670, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (28670, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (28670, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (28670, 9, 21299,  0, 0, 0, False) /* Create Scroll of Blade Arc V (21299) for ContainTreasure */
+     , (28670, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (28670, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */
+     , (28670, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28670, 67115448, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47267;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (47267, 'ace47267-electricboardwithnail', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (47267, 'ace47267-electricboardwithnail', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47267,   1,          1) /* ItemType - MeleeWeapon */
@@ -35,16 +35,18 @@ VALUES (47267,   1,   33559654) /* Setup */
      , (47267, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (47267, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47267, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (47267, 8009,          1);
+     , (47267, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47267, 8040, 3060727811, 13.7983, 52.12792, 36.54928, 0.8029755, 0.5353079, -0.1459411, -0.2176624) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F0003 [13.798300 52.127920 36.549280] 0.802976 0.535308 -0.145941 -0.217662 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47267,   3, 3685013256) /* Wielder */
-     , (47267, 8000, 3685097174) /* PCAPRecordedObjectIID */
+VALUES (47267, 8000, 3685097174) /* PCAPRecordedObjectIID */
      , (47267, 8008, 3685013256) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (47267, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47267, 67116700, 0, 101)

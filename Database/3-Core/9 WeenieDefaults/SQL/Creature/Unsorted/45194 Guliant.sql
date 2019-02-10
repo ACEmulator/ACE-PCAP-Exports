@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45194;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45194, 'ace45194-guliant', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45194, 'ace45194-guliant', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45194,   1,         16) /* ItemType - Creature */
@@ -46,6 +46,9 @@ VALUES (45194, 8040, 2349008844, 188, -10, 24.00825, 0.7071068, 0, 0, -0.7071068
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (45194, 8000, 3683495566) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (45194, 2,  2366,  1, 0, 0, False) /* Create Orb (2366) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45194, 67111342, 0, 0);

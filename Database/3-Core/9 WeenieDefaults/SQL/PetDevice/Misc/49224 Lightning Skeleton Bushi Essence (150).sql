@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49224;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49224, 'ace49224-lightningskeletonbushiessence150', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49224, 'ace49224-lightningskeletonbushiessence150', 70, '2019-02-10 05:41:14') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49224,   1,        128) /* ItemType - Misc */
@@ -60,6 +60,9 @@ VALUES (49224, 8040, 3332964379, 75.82326, 71.14075, 41.999, 0.9136969, 0, 0, -0
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49224, 8000, 2924796144) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49224, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49224, 67111921, 0, 0);

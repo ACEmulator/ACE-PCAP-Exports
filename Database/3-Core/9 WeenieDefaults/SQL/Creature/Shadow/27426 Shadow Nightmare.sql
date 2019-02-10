@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27426;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27426, 'shadownightmare', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27426, 'shadownightmare', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27426,   1,         16) /* ItemType - Creature */
@@ -66,9 +66,60 @@ VALUES (27426,   1, 160, 0, 0) /* Strength */
      , (27426,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27426,   1,   580, 0, 0, 580) /* MaxHealth */
-     , (27426,   3,   700, 0, 0, 698) /* MaxStamina */
-     , (27426,   5,   630, 0, 0, 553) /* MaxMana */;
+VALUES (27426,   1,    10, 0, 0, 580) /* MaxHealth */
+     , (27426,   3,    10, 0, 0, 698) /* MaxStamina */
+     , (27426,   5,    10, 0, 0, 553) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27426, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (27426, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (27426, 2, 47067,  1, 0, 0, False) /* Create Arrow (47067) for Wield */
+     , (27426, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
+     , (27426, 2, 47625,  1, 0, 0, False) /* Create Acid Tachi (47625) for Wield */
+     , (27426, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */
+     , (27426, 2, 47677,  1, 0, 0, False) /* Create Flaming Tachi (47677) for Wield */
+     , (27426, 2, 48009,  1, 0, 0, False) /* Create Acid Katar (48009) for Wield */
+     , (27426, 2, 48011,  1, 0, 0, False) /* Create Lightning Katar (48011) for Wield */
+     , (27426, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */
+     , (27426, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (27426, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+     , (27426, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (27426, 2, 48261,  1, 0, 0, False) /* Create Arrow (48261) for Wield */
+     , (27426, 2, 48280,  1, 0, 0, False) /* Create Arrow (48280) for Wield */
+     , (27426, 2, 48299,  1, 0, 0, False) /* Create Arrow (48299) for Wield */
+     , (27426, 2, 48496,  1, 0, 0, False) /* Create Flaming Katar (48496) for Wield */
+     , (27426, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (27426, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (27426, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (27426, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (27426, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (27426, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (27426, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (27426, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (27426, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
+     , (27426, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (27426, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (27426, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (27426, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (27426, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (27426, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (27426, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (27426, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (27426, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (27426, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (27426, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (27426, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (27426, 9, 20414,  0, 0, 0, False) /* Create Scroll of Gelidite's Bane (20414) for ContainTreasure */
+     , (27426, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
+     , (27426, 9, 20586,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VII (20586) for ContainTreasure */
+     , (27426, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (27426, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (27426, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
+     , (27426, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */
+     , (27426, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (27426, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (27426, 9, 40702,  0, 0, 0, False) /* Create Covenant Pauldrons (40702) for ContainTreasure */
+     , (27426, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27426, 67112860, 0, 0);

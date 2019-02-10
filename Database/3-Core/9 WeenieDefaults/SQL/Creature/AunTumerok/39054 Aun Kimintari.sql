@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39054;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (39054, 'ace39054-aunkimintari', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (39054, 'ace39054-aunkimintari', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39054,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,12 @@ VALUES (39054,   1, 230, 0, 0) /* Strength */
      , (39054,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (39054,   1,   319, 0, 0, 319) /* MaxHealth */
-     , (39054,   3,   441, 0, 0, 441) /* MaxStamina */
-     , (39054,   5,   406, 0, 0, 406) /* MaxMana */;
+VALUES (39054,   1,    10, 0, 0, 319) /* MaxHealth */
+     , (39054,   3,    10, 0, 0, 441) /* MaxStamina */
+     , (39054,   5,    10, 0, 0, 406) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (39054, 2, 11971,  1, 0, 0, False) /* Create Buadren (11971) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39054, 67113367, 0, 0);

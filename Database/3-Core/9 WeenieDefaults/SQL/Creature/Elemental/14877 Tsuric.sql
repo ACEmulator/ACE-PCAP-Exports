@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14877;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14877, 'stormelementaltsuric', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14877, 'stormelementaltsuric', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14877,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (14877,   1, True ) /* Stuck */
      , (14877,  13, False) /* Ethereal */
      , (14877,  14, True ) /* GravityStatus */
      , (14877,  15, True ) /* LightsStatus */
-     , (14877,  19, True ) /* Attackable */;
+     , (14877,  19, True ) /* Attackable */
+     , (14877, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14877,  39, 1.39999997615814) /* DefaultScale */;
@@ -56,6 +57,22 @@ VALUES (14877,   1, 150, 0, 0) /* Strength */
      , (14877,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14877,   1,   780, 0, 0, 780) /* MaxHealth */
-     , (14877,   3,   610, 0, 0, 610) /* MaxStamina */
-     , (14877,   5,   540, 0, 0, 540) /* MaxMana */;
+VALUES (14877,   1,    10, 0, 0, 780) /* MaxHealth */
+     , (14877,   3,    10, 0, 0, 610) /* MaxStamina */
+     , (14877,   5,    10, 0, 0, 540) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (14877, 2,  6383,  1, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
+     , (14877, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (14877, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (14877, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (14877, 9,   273, 287, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14877, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (14877, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (14877, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (14877, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (14877, 9, 20246,  0, 0, 0, False) /* Create Scroll of Gossamer Flesh (20246) for ContainTreasure */
+     , (14877, 9, 20510,  0, 0, 0, False) /* Create Scroll of Challenger's Legacy (20510) for ContainTreasure */
+     , (14877, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (14877, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (14877, 9, 40704,  0, 0, 0, False) /* Create Covenant Tassets (40704) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34456;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34456, 'ace34456-crowleyschampiontoken', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34456, 'ace34456-crowleyschampiontoken', 1, '2019-02-10 05:41:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34456,   1,        128) /* ItemType - Misc */
@@ -35,5 +35,8 @@ VALUES (34456,   1,   33554817) /* Setup */
      , (34456, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34456,   2, 2930680386) /* Container */
-     , (34456, 8000, 2930675728) /* PCAPRecordedObjectIID */;
+VALUES (34456, 8000, 2930675728) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34456, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (34456, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

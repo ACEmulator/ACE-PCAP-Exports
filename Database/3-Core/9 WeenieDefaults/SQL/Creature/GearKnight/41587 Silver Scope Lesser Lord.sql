@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41587;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41587, 'ace41587-silverscopelesserlord', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41587, 'ace41587-silverscopelesserlord', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41587,   1,         16) /* ItemType - Creature */
@@ -47,4 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41587, 8000, 3709121942) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41587,   1,   460, 0, 0, 460) /* MaxHealth */;
+VALUES (41587,   1,    10, 0, 0, 460) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41587, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */;

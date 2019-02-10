@@ -1,16 +1,18 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5809;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5809, 'heartymanafamouspizza', 18) /* Food */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5809, 'heartymanafamouspizza', 18, '2019-02-10 05:41:14') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5809,   1,         32) /* ItemType - Food */
-     , (5809,   5,       1150) /* EncumbranceVal */
+     , (5809,   5,         50) /* EncumbranceVal */
      , (5809,  11,        100) /* MaxStackSize */
-     , (5809,  12,         23) /* StackSize */
+     , (5809,  12,          1) /* StackSize */
+     , (5809,  13,         50) /* StackUnitEncumbrance */
+     , (5809,  15,        155) /* StackUnitValue */
      , (5809,  16,          8) /* ItemUseable - Contained */
      , (5809,  18,          8) /* UiEffects - BoostMana */
-     , (5809,  19,       3565) /* Value */
+     , (5809,  19,        155) /* Value */
      , (5809,  65,        101) /* Placement - Resting */
      , (5809,  89,          6) /* BoosterEnum - Mana */
      , (5809,  90,         50) /* BoostValue */
@@ -40,5 +42,4 @@ VALUES (5809,   1,   33555979) /* Setup */
      , (5809, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5809,   2, 1342677529) /* Container */
-     , (5809, 8000, 2156549275) /* PCAPRecordedObjectIID */;
+VALUES (5809, 8000, 2156549275) /* PCAPRecordedObjectIID */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43052;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43052, 'ace43052-knorracademypauldrons', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43052, 'ace43052-knorracademypauldrons', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43052,   1,          2) /* ItemType - Armor */
@@ -23,7 +23,7 @@ VALUES (43052,   1,          2) /* ItemType - Armor */
      , (43052, 115,          0) /* ItemSkillLevelLimit */
      , (43052, 131,         54) /* MaterialType - GromnieHide */
      , (43052, 158,          7) /* WieldRequirements - Level */
-     , (43052, 159,          1) /* WieldSkilltype - Axe */
+     , (43052, 159,          1) /* WieldSkillType - Axe */
      , (43052, 160,        150) /* WieldDifficulty */
      , (43052, 172,          1) /* AppraisalLongDescDecoration */;
 

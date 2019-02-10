@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42112;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42112, 'ace42112-atamarr', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42112, 'ace42112-atamarr', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42112,   1,         16) /* ItemType - Creature */
@@ -61,6 +61,9 @@ VALUES (42112,   1, 1000, 0, 0) /* Strength */
      , (42112,   6, 800, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42112,   1, 1500000, 0, 0, 1500000) /* MaxHealth */
-     , (42112,   3,  5200, 0, 0, 5200) /* MaxStamina */
-     , (42112,   5,  4300, 0, 0, 4300) /* MaxMana */;
+VALUES (42112,   1,    10, 0, 0, 1500000) /* MaxHealth */
+     , (42112,   3,    10, 0, 0, 5200) /* MaxStamina */
+     , (42112,   5,    10, 0, 0, 4300) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42112, 2, 43135,  1, 0, 0, False) /* Create Atamarr's Aetherium Aegis (43135) for Wield */;

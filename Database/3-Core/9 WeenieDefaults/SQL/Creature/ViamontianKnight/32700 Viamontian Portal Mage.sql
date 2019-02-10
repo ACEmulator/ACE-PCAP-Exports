@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32700;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32700, 'ace32700-viamontianportalmage', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32700, 'ace32700-viamontianportalmage', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32700,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,16 @@ VALUES (32700,   1, 220, 0, 0) /* Strength */
      , (32700,   6, 230, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32700,   1,   430, 0, 0, 345) /* MaxHealth */
-     , (32700,   3,   380, 0, 0, 378) /* MaxStamina */
-     , (32700,   5,   430, 0, 0, 399) /* MaxMana */;
+VALUES (32700,   1,    10, 0, 0, 345) /* MaxHealth */
+     , (32700,   3,    10, 0, 0, 378) /* MaxStamina */
+     , (32700,   5,    10, 0, 0, 399) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32700, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
+     , (32700, 9,   273, 671, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (32700, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (32700, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (32700, 9, 32703,  0, 0, 0, False) /* Create Bracelet of Passage (32703) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32700, 67109564, 32, 8)

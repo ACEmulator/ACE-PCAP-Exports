@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43818;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43818, 'ace43818-shadownetherisparianwand', 35) /* Caster */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43818, 'ace43818-shadownetherisparianwand', 35, '2019-02-10 05:41:14') /* Caster */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43818,   1,      32768) /* ItemType - Caster */
@@ -19,7 +19,7 @@ VALUES (43818,   1,      32768) /* ItemType - Caster */
      , (43818, 114,          0) /* Attuned - Normal */
      , (43818, 151,          2) /* HookType - Wall */
      , (43818, 158,          2) /* WieldRequirements - RawSkill */
-     , (43818, 159,         43) /* WieldSkilltype - VoidMagic */
+     , (43818, 159,         43) /* WieldSkillType - VoidMagic */
      , (43818, 160,        335) /* WieldDifficulty */
      , (43818, 166,         22) /* SlayerCreatureType - Shadow */;
 
@@ -55,5 +55,4 @@ VALUES (43818,   1,   33561165) /* Setup */
      , (43818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43818,   2, 1342753073) /* Container */
-     , (43818, 8000, 2147529146) /* PCAPRecordedObjectIID */;
+VALUES (43818, 8000, 2147529146) /* PCAPRecordedObjectIID */;

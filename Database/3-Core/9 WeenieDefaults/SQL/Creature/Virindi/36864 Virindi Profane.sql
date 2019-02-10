@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36864;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36864, 'ace36864-virindiprofane', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36864, 'ace36864-virindiprofane', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36864,   1,         16) /* ItemType - Creature */
@@ -52,9 +52,36 @@ VALUES (36864,   1, 240, 0, 0) /* Strength */
      , (36864,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36864,   1,   500, 0, 0, 500) /* MaxHealth */
-     , (36864,   3,   650, 0, 0, 650) /* MaxStamina */
-     , (36864,   5,   650, 0, 0, 650) /* MaxMana */;
+VALUES (36864,   1,    10, 0, 0, 500) /* MaxHealth */
+     , (36864,   3,    10, 0, 0, 650) /* MaxStamina */
+     , (36864,   5,    10, 0, 0, 650) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36864, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (36864, 9,   273, 530, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (36864, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (36864, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
+     , (36864, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (36864, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (36864, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (36864, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (36864, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (36864, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (36864, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (36864, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (36864, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (36864, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (36864, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (36864, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (36864, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
+     , (36864, 9, 21107,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VI (21107) for ContainTreasure */
+     , (36864, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (36864, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (36864, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (36864, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */
+     , (36864, 9, 41060,  0, 0, 0, False) /* Create Flaming Great Star Mace (41060) for ContainTreasure */
+     , (36864, 9, 43334,  0, 0, 0, False) /* Create Scroll of Festering Curse VI (43334) for ContainTreasure */
+     , (36864, 9, 46881,  0, 0, 0, False) /* Create Aura of Heartseeker Other VII (46881) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36864, 67114253, 0, 0);

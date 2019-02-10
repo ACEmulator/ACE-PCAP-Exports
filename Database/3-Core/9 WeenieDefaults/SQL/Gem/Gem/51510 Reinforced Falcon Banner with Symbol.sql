@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51510;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51510, 'ace51510-reinforcedfalconbannerwithsymbol', 38) /* Gem */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51510, 'ace51510-reinforcedfalconbannerwithsymbol', 38, '2019-02-10 05:41:14') /* Gem */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51510,   1,       2048) /* ItemType - Gem */
      , (51510,   5,        919) /* EncumbranceVal */
      , (51510,  11,          1) /* MaxStackSize */
      , (51510,  12,          1) /* StackSize */
+     , (51510,  13,        919) /* StackUnitEncumbrance */
+     , (51510,  15,        653) /* StackUnitValue */
      , (51510,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (51510,  19,        653) /* Value */
      , (51510,  65,        101) /* Placement - Resting */
@@ -37,8 +39,7 @@ VALUES (51510,   1,   33557258) /* Setup */
      , (51510, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51510,   2, 1343493255) /* Container */
-     , (51510, 8000, 2174542667) /* PCAPRecordedObjectIID */;
+VALUES (51510, 8000, 2174542667) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (51510, 0, 83893725, 83893724)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43232;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43232, 'ace43232-netherbolt', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43232, 'ace43232-netherbolt', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43232,   1,          0) /* ItemType - None */
@@ -45,3 +45,6 @@ VALUES (43232, 8040, 43058115, 210.4944, -13.65833, 19.26394, -0.1571058, 0, 0, 
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43232, 8000, 3688476535) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43232, 2, 47634,  1, 0, 0, False) /* Create Tachi (47634) for Wield */;

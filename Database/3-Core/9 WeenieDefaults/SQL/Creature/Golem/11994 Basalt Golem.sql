@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 11994;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (11994, 'golemmidbossmonster', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11994, 'golemmidbossmonster', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11994,   1,         16) /* ItemType - Creature */
@@ -44,7 +44,23 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11994, 8000, 3682531817) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11994,   1,   260, 0, 0, 260) /* MaxHealth */;
+VALUES (11994,   1,    10, 0, 0, 260) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (11994, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
+     , (11994, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (11994, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (11994, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (11994, 9,  2815,  0, 0, 0, False) /* Create Scroll of Flame Bane V (2815) for ContainTreasure */
+     , (11994, 9,  6354,  1, 0, 0, False) /* Create Pyreal Nugget (6354) for ContainTreasure */
+     , (11994, 9,  9324,  0, 0, 0, False) /* Create Obsidian Heart (9324) for ContainTreasure */
+     , (11994, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (11994, 9, 23538,  0, 0, 0, False) /* Create Basalt Blade (23538) for ContainTreasure */
+     , (11994, 9, 30602,  0, 0, 0, False) /* Create Lightning Stiletto (30602) for ContainTreasure */
+     , (11994, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (11994, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
+     , (11994, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
+     , (11994, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11994, 67113371, 0, 0);

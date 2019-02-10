@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20189;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20189, 'frostelementalbrumal', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20189, 'frostelementalbrumal', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20189,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (20189,   1, True ) /* Stuck */
      , (20189,  13, False) /* Ethereal */
      , (20189,  14, True ) /* GravityStatus */
      , (20189,  15, True ) /* LightsStatus */
-     , (20189,  19, True ) /* Attackable */;
+     , (20189,  19, True ) /* Attackable */
+     , (20189, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20189,  39, 1.29999995231628) /* DefaultScale */;
@@ -56,6 +57,15 @@ VALUES (20189,   1, 130, 0, 0) /* Strength */
      , (20189,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20189,   1,   575, 0, 0, 575) /* MaxHealth */
-     , (20189,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (20189,   5,   470, 0, 0, 470) /* MaxMana */;
+VALUES (20189,   1,    10, 0, 0, 575) /* MaxHealth */
+     , (20189,   3,    10, 0, 0, 550) /* MaxStamina */
+     , (20189,   5,    10, 0, 0, 470) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (20189, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (20189, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (20189, 9,   273, 689, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (20189, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (20189, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (20189, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (20189, 9, 41061,  0, 0, 0, False) /* Create Frost Great Star Mace (41061) for ContainTreasure */;

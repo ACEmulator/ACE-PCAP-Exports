@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 48712;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (48712, 'ace48712-chargolem', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48712, 'ace48712-chargolem', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48712,   1,         16) /* ItemType - Creature */
@@ -44,3 +44,8 @@ VALUES (48712, 8040, 1482752301, 44.919, -180, 0.004999995, 0.707107, 0, 0, -0.7
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48712, 8000, 3709111175) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (48712, 9,   273, 24, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (48712, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (48712, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;

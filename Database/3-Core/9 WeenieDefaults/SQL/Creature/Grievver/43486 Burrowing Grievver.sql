@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43486;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43486, 'ace43486-burrowinggrievver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43486, 'ace43486-burrowinggrievver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43486,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (43486,   1, 250, 0, 0) /* Strength */
      , (43486,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43486,   1,   780, 0, 0, 780) /* MaxHealth */
-     , (43486,   3,   660, 0, 0, 660) /* MaxStamina */
-     , (43486,   5,   640, 0, 0, 640) /* MaxMana */;
+VALUES (43486,   1,    10, 0, 0, 780) /* MaxHealth */
+     , (43486,   3,    10, 0, 0, 660) /* MaxStamina */
+     , (43486,   5,    10, 0, 0, 640) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43486, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (43486, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
+     , (43486, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43486, 67112938, 0, 0);

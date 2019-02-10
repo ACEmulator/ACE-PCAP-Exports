@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 719;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (719, 'holtburgtailor', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (719, 'holtburgtailor', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (719,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (719,   1,  30, 0, 0) /* Strength */
      , (719,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (719,   1,    63, 0, 0, 63) /* MaxHealth */
-     , (719,   3,    95, 0, 0, 95) /* MaxStamina */
-     , (719,   5,    55, 0, 0, 55) /* MaxMana */;
+VALUES (719,   1,    10, 0, 0, 63) /* MaxHealth */
+     , (719,   3,    10, 0, 0, 95) /* MaxStamina */
+     , (719,   5,    10, 0, 0, 55) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (719, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */

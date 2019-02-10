@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30580;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30580, 'swordflambergeelectric', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30580, 'swordflambergeelectric', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30580,   1,          1) /* ItemType - MeleeWeapon */
@@ -28,7 +28,7 @@ VALUES (30580,   1,          1) /* ItemType - MeleeWeapon */
      , (30580, 131,         60) /* MaterialType - Gold */
      , (30580, 151,          2) /* HookType - Wall */
      , (30580, 158,          2) /* WieldRequirements - RawSkill */
-     , (30580, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (30580, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30580, 160,        350) /* WieldDifficulty */
      , (30580, 172,          5) /* AppraisalLongDescDecoration */
      , (30580, 176,         44) /* AppraisalItemSkill */
@@ -72,13 +72,15 @@ VALUES (30580,   1,   33559468) /* Setup */
      , (30580, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30580,   2, 3692284160) /* Container */
-     , (30580, 8000, 3692402487) /* PCAPRecordedObjectIID */;
+VALUES (30580, 8000, 3692402487) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30580,  1616,      2) 
      , (30580,  2101,      2) 
      , (30580,  5887,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30580, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30580, 67116387, 0, 0);

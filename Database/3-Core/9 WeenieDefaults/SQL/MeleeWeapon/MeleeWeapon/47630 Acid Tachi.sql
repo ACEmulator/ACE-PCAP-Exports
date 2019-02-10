@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47630;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (47630, 'ace47630-acidtachi', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (47630, 'ace47630-acidtachi', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47630,   1,          1) /* ItemType - MeleeWeapon */
@@ -36,16 +36,18 @@ VALUES (47630,   1,   33555730) /* Setup */
      , (47630, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (47630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47630, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (47630, 8009,          1);
+     , (47630, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47630, 8040, 4133224490, 126.2732, 41.13934, 19.92725, -0.65047, -0.65047, 0.2772883, 0.2772883) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C002A [126.273200 41.139340 19.927250] -0.650470 -0.650470 0.277288 0.277288 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47630,   3, 3685989430) /* Wielder */
-     , (47630, 8000, 3685989469) /* PCAPRecordedObjectIID */
+VALUES (47630, 8000, 3685989469) /* PCAPRecordedObjectIID */
      , (47630, 8008, 3685989430) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (47630, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47630, 67111920, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 31897;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (31897, 'ace31897-barbaricmukkir', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (31897, 'ace31897-barbaricmukkir', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31897,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,47 @@ VALUES (31897,   1, 455, 0, 0) /* Strength */
      , (31897,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31897,   1,  2703, 0, 0, 2703) /* MaxHealth */
-     , (31897,   3,  2405, 0, 0, 2405) /* MaxStamina */
-     , (31897,   5,   500, 0, 0, 500) /* MaxMana */;
+VALUES (31897,   1,    10, 0, 0, 2703) /* MaxHealth */
+     , (31897,   3,    10, 0, 0, 2405) /* MaxStamina */
+     , (31897,   5,    10, 0, 0, 500) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31897, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (31897, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (31897, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (31897, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (31897, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (31897, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (31897, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (31897, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (31897, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (31897, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (31897, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (31897, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (31897, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
+     , (31897, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (31897, 9, 20247,  0, 0, 0, False) /* Create Scroll of Void's Call (20247) for ContainTreasure */
+     , (31897, 9, 20483,  0, 0, 0, False) /* Create Scroll of Boon of the Arrow Turner (20483) for ContainTreasure */
+     , (31897, 9, 20510,  0, 0, 0, False) /* Create Scroll of Challenger's Legacy (20510) for ContainTreasure */
+     , (31897, 9, 20540,  0, 0, 0, False) /* Create Scroll of Celcynd's Boon (20540) for ContainTreasure */
+     , (31897, 9, 20615,  0, 0, 0, False) /* Create Scroll of Rushed Recovery (20615) for ContainTreasure */
+     , (31897, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (31897, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (31897, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (31897, 9, 28939,  0, 0, 0, False) /* Create Scroll of Arcanum Salvaging VII (28939) for ContainTreasure */
+     , (31897, 9, 29256,  0, 0, 0, False) /* Create Frost Atlatl (29256) for ContainTreasure */
+     , (31897, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
+     , (31897, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */
+     , (31897, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (31897, 9, 31823,  0, 0, 0, False) /* Create Fire Baton (31823) for ContainTreasure */
+     , (31897, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (31897, 9, 41038,  0, 0, 0, False) /* Create Lightning Assagai (41038) for ContainTreasure */
+     , (31897, 9, 41043,  0, 0, 0, False) /* Create Lightning Magari Yari (41043) for ContainTreasure */
+     , (31897, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (31897, 9, 42750,  0, 0, 0, False) /* Create Haebrean Gauntlets (42750) for ContainTreasure */
+     , (31897, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
+     , (31897, 9, 49311,  0, 0, 0, False) /* Create Acid Wisp Essence (80) (49311) for ContainTreasure */
+     , (31897, 9, 49347,  0, 0, 0, False) /* Create Lightning Moar Essence (100) (49347) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31897, 67116777, 0, 0);

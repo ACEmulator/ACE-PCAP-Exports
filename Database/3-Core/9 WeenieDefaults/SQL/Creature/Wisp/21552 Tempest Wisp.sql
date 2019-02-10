@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 21552;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (21552, 'wisptempest', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (21552, 'wisptempest', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21552,   1,         16) /* ItemType - Creature */
@@ -53,6 +53,9 @@ VALUES (21552,   1, 220, 0, 0) /* Strength */
      , (21552,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (21552,   1,   375, 0, 0, 375) /* MaxHealth */
-     , (21552,   3,   450, 0, 0, 450) /* MaxStamina */
-     , (21552,   5,   310, 0, 0, 310) /* MaxMana */;
+VALUES (21552,   1,    10, 0, 0, 375) /* MaxHealth */
+     , (21552,   3,    10, 0, 0, 450) /* MaxStamina */
+     , (21552,   5,    10, 0, 0, 310) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (21552, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40781;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40781, 'ace40781-progenitoroffire', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40781, 'ace40781-progenitoroffire', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40781,   1,         16) /* ItemType - Creature */
@@ -51,6 +51,12 @@ VALUES (40781,   1, 150, 0, 0) /* Strength */
      , (40781,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40781,   1,  3120, 0, 0, 3120) /* MaxHealth */
-     , (40781,   3,  2220, 0, 0, 2220) /* MaxStamina */
-     , (40781,   5,  2390, 0, 0, 2390) /* MaxMana */;
+VALUES (40781,   1,    10, 0, 0, 3120) /* MaxHealth */
+     , (40781,   3,    10, 0, 0, 2220) /* MaxStamina */
+     , (40781,   5,    10, 0, 0, 2390) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40781, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (40781, 9, 40100,  1, 0, 0, False) /* Create Crystalline Shard (40100) for ContainTreasure */
+     , (40781, 9, 40791,  1, 0, 0, False) /* Create Progenitor Crystal (40791) for ContainTreasure */
+     , (40781, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */;

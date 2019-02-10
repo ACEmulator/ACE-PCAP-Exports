@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8819;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8819, 'virindimasterchakron', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8819, 'virindimasterchakron', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8819,   1,         16) /* ItemType - Creature */
@@ -43,7 +43,22 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8819, 8000, 3701809062) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8819,   1,   350, 0, 0, 350) /* MaxHealth */;
+VALUES (8819,   1,    10, 0, 0, 350) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (8819, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (8819, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (8819, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (8819, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (8819, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
+     , (8819, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
+     , (8819, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (8819, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */
+     , (8819, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */
+     , (8819, 9, 20536,  0, 0, 0, False) /* Create Scroll of Aura of Deflection (20536) for ContainTreasure */
+     , (8819, 9, 31770,  0, 0, 0, False) /* Create Acid War Axe (31770) for ContainTreasure */
+     , (8819, 9, 45105,  0, 0, 0, False) /* Create Lightning Rapier (45105) for ContainTreasure */
+     , (8819, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (8819, 9, 83890028, 83890027);

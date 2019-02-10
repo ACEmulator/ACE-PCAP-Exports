@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30016;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30016, 'viascrivenerlifeouter', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30016, 'viascrivenerlifeouter', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30016,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (30016,   1,  90, 0, 0) /* Strength */
      , (30016,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30016,   1,   150, 0, 0, 150) /* MaxHealth */
-     , (30016,   3,   180, 0, 0, 180) /* MaxStamina */
-     , (30016,   5,   410, 0, 0, 410) /* MaxMana */;
+VALUES (30016,   1,    10, 0, 0, 150) /* MaxHealth */
+     , (30016,   3,    10, 0, 0, 180) /* MaxStamina */
+     , (30016,   5,    10, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30016, 4,  2666, -1, 0, 0, False) /* Create Scroll of Enfeeble Other IV (2666) for Shop */

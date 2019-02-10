@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33249;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33249, 'ace33249-beldinthegemdealer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33249, 'ace33249-beldinthegemdealer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33249,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (33249,   1,  70, 0, 0) /* Strength */
      , (33249,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33249,   1,   128, 0, 0, 128) /* MaxHealth */
-     , (33249,   3,   155, 0, 0, 155) /* MaxStamina */
-     , (33249,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (33249,   1,    10, 0, 0, 128) /* MaxHealth */
+     , (33249,   3,    10, 0, 0, 155) /* MaxStamina */
+     , (33249,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33249, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */

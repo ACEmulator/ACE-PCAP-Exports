@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33513;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33513, 'ace33513-harrakthewhitespear', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33513, 'ace33513-harrakthewhitespear', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33513,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,16 @@ VALUES (33513,   1, 250, 0, 0) /* Strength */
      , (33513,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33513,   1,   920, 0, 0, 920) /* MaxHealth */
-     , (33513,   3,  1090, 0, 0, 1090) /* MaxStamina */
-     , (33513,   5,   780, 0, 0, 780) /* MaxMana */;
+VALUES (33513,   1,    10, 0, 0, 920) /* MaxHealth */
+     , (33513,   3,    10, 0, 0, 1090) /* MaxStamina */
+     , (33513,   5,    10, 0, 0, 780) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (33513, 2, 48629,  1, 0, 0, False) /* Create Icy Club (48629) for Wield */
+     , (33513, 2, 48633,  1, 0, 0, False) /* Create Glacial Blade (48633) for Wield */
+     , (33513, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33513, 9, 20236,  0, 0, 0, False) /* Create Scroll of Temeritous Touch (20236) for ContainTreasure */
+     , (33513, 9, 33500,  0, 0, 0, False) /* Create Head of the White Spear (33500) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33513, 67116361, 0, 0);

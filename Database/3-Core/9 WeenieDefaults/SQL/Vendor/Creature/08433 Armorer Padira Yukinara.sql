@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 8433;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (8433, 'krystarmorer', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8433, 'krystarmorer', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8433,   1,         16) /* ItemType - Creature */
@@ -64,7 +64,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8433, 8000, 2123505682) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8433,   1,   180, 0, 0, 180) /* MaxHealth */;
+VALUES (8433,   1,    10, 0, 0, 180) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8433, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */

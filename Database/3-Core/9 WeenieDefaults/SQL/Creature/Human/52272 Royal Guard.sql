@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52272;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52272, 'ace52272-royalguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52272, 'ace52272-royalguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52272,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (52272,   1, 290, 0, 0) /* Strength */
      , (52272,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52272,   1,   326, 0, 0, 326) /* MaxHealth */
-     , (52272,   3,   456, 0, 0, 456) /* MaxStamina */
-     , (52272,   5,   396, 0, 0, 396) /* MaxMana */;
+VALUES (52272,   1,    10, 0, 0, 326) /* MaxHealth */
+     , (52272,   3,    10, 0, 0, 456) /* MaxStamina */
+     , (52272,   5,    10, 0, 0, 396) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52272, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */
+     , (52272, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52272, 67109964, 92, 4)

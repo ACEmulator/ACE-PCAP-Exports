@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41937;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41937, 'ace41937-ladysaliane', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41937, 'ace41937-ladysaliane', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41937,   1,         16) /* ItemType - Creature */
@@ -19,7 +19,8 @@ VALUES (41937,   1, True ) /* Stuck */
      , (41937,  12, True ) /* ReportCollisions */
      , (41937,  13, True ) /* Ethereal */
      , (41937,  14, True ) /* GravityStatus */
-     , (41937,  19, True ) /* Attackable */;
+     , (41937,  19, True ) /* Attackable */
+     , (41937, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41937,  76, 0.699999988079071) /* Translucency */;
@@ -47,7 +48,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41937, 8000, 3683409279) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41937,   1, 20250, 0, 0, 20250) /* MaxHealth */;
+VALUES (41937,   1,    10, 0, 0, 20250) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41937, 9, 41933,  1, 0, 0, False) /* Create Lady Saliane's Brand (41933) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41937, 67115254, 0, 0);

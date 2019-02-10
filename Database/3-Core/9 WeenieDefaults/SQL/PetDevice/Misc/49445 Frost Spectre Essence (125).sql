@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 49445;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (49445, 'ace49445-frostspectreessence125', 70) /* PetDevice */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49445, 'ace49445-frostspectreessence125', 70, '2019-02-10 05:41:14') /* PetDevice */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (49445,   1,        128) /* ItemType - Misc */
@@ -55,8 +55,10 @@ VALUES (49445,   1,   33554817) /* Setup */
      , (49445, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49445,   2, 2622707423) /* Container */
-     , (49445, 8000, 2622707424) /* PCAPRecordedObjectIID */;
+VALUES (49445, 8000, 2622707424) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49445, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49445, 67111919, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25431;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25431, 'pageundeadmechanism4', 8) /* Book */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25431, 'pageundeadmechanism4', 8, '2019-02-10 05:41:14') /* Book */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25431,   1,        128) /* ItemType - Misc */
@@ -40,5 +40,4 @@ VALUES (25431,   1,   33554773) /* Setup */
      , (25431, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25431,   2, 1343075994) /* Container */
-     , (25431, 8000, 2166032904) /* PCAPRecordedObjectIID */;
+VALUES (25431, 8000, 2166032904) /* PCAPRecordedObjectIID */;

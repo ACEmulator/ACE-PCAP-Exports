@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51435;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51435, 'ace51435-snowtuskie', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51435, 'ace51435-snowtuskie', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51435,   1,         16) /* ItemType - Creature */
@@ -46,4 +46,23 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51435, 8000, 3696924450) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51435,   1,  2325, 0, 0, 2325) /* MaxHealth */;
+VALUES (51435,   1,    10, 0, 0, 2325) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51435, 2, 51436,  1, 0, 0, False) /* Create Frozen Coconut (51436) for Wield */
+     , (51435, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (51435, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (51435, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (51435, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (51435, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (51435, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (51435, 9, 20537,  0, 0, 0, False) /* Create Scroll of Web of Defense (20537) for ContainTreasure */
+     , (51435, 9, 20562,  0, 0, 0, False) /* Create Scroll of Celdiseth's Blessing (20562) for ContainTreasure */
+     , (51435, 9, 20595,  0, 0, 0, False) /* Create Scroll of Hieromancer's Boon (20595) for ContainTreasure */
+     , (51435, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
+     , (51435, 9, 29258,  0, 0, 0, False) /* Create Slashing Atlatl (29258) for ContainTreasure */
+     , (51435, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (51435, 9, 37206,  0, 0, 0, False) /* Create Olthoi Koujia Sleeves (37206) for ContainTreasure */
+     , (51435, 9, 37291,  0, 0, 0, False) /* Create Olthoi Shield (37291) for ContainTreasure */
+     , (51435, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
+     , (51435, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */;

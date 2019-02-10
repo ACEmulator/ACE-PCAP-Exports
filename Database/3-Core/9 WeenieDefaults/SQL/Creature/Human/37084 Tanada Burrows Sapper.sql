@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37084;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37084, 'ace37084-tanadaburrowssapper', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37084, 'ace37084-tanadaburrowssapper', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37084,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,19 @@ VALUES (37084,   1, 360, 0, 0) /* Strength */
      , (37084,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37084,   1,   600, 0, 0, 600) /* MaxHealth */
-     , (37084,   3,   600, 0, 0, 585) /* MaxStamina */
-     , (37084,   5,   600, 0, 0, 580) /* MaxMana */;
+VALUES (37084,   1,    10, 0, 0, 600) /* MaxHealth */
+     , (37084,   3,    10, 0, 0, 585) /* MaxStamina */
+     , (37084,   5,    10, 0, 0, 580) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (37084, 2, 15433,  1, 0, 0, False) /* Create Deadly Broadhead Arrow (15433) for Wield */
+     , (37084, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (37084, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
+     , (37084, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
+     , (37084, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (37084, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (37084, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
+     , (37084, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37084, 67110048, 0, 24)

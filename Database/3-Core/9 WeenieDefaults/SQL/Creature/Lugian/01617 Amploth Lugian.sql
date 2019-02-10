@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1617;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1617, 'lugianamploth', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1617, 'lugianamploth', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1617,   1,         16) /* ItemType - Creature */
@@ -53,9 +53,16 @@ VALUES (1617,   1, 200, 0, 0) /* Strength */
      , (1617,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1617,   1,   125, 0, 0, 125) /* MaxHealth */
-     , (1617,   3,   300, 0, 0, 300) /* MaxStamina */
-     , (1617,   5,    50, 0, 0, 50) /* MaxMana */;
+VALUES (1617,   1,    10, 0, 0, 125) /* MaxHealth */
+     , (1617,   3,    10, 0, 0, 300) /* MaxStamina */
+     , (1617,   5,    10, 0, 0, 50) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1617, 2, 23741,  1, 0, 0, False) /* Create Lugian Axe (23741) for Wield */
+     , (1617, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
+     , (1617, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (1617, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
+     , (1617, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1617, 67113163, 0, 0);

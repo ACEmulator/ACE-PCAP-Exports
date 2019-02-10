@@ -1,13 +1,15 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27320;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27320, 'healthtonic', 18) /* Food */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27320, 'healthtonic', 18, '2019-02-10 05:41:14') /* Food */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27320,   1,        128) /* ItemType - Misc */
      , (27320,   5,        100) /* EncumbranceVal */
      , (27320,  11,        100) /* MaxStackSize */
      , (27320,  12,          1) /* StackSize */
+     , (27320,  13,        100) /* StackUnitEncumbrance */
+     , (27320,  15,       2000) /* StackUnitValue */
      , (27320,  16,          8) /* ItemUseable - Contained */
      , (27320,  19,       2000) /* Value */
      , (27320,  65,        101) /* Placement - Resting */
@@ -38,8 +40,11 @@ VALUES (27320,   1,   33554603) /* Setup */
      , (27320, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27320,   2, 3686587720) /* Container */
-     , (27320, 8000, 3686693179) /* PCAPRecordedObjectIID */;
+VALUES (27320, 8000, 3686693179) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27320, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (27320, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27320, 67111922, 0, 0);

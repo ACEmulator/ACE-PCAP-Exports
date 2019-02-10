@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1763;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1763, 'mumiyahlesser', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1763, 'mumiyahlesser', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1763,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,17 @@ VALUES (1763,   1,  30, 0, 0) /* Strength */
      , (1763,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1763,   1,    65, 0, 0, 65) /* MaxHealth */
-     , (1763,   3,   130, 0, 0, 130) /* MaxStamina */
-     , (1763,   5,   160, 0, 0, 160) /* MaxMana */;
+VALUES (1763,   1,    10, 0, 0, 65) /* MaxHealth */
+     , (1763,   3,    10, 0, 0, 130) /* MaxStamina */
+     , (1763,   5,    10, 0, 0, 160) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1763, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (1763, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1763, 9,   273, 45, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1763, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (1763, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1763, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1763, 67111828, 0, 0);

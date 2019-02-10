@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7274;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7274, 'shockwavering', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7274, 'shockwavering', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7274,   1,          0) /* ItemType - None */
@@ -41,3 +41,10 @@ VALUES (7274, 8040, 3747676444, 87.60461, 19.33066, 19.22833, 0.9821036, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7274, 8000, 3692162981) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7274, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (7274, 2, 12075,  1, 0, 0, False) /* Create Bandit Frost Simi (12075) for Wield */
+     , (7274, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (7274, 2, 47255,  1, 0, 0, False) /* Create Board with Nail (47255) for Wield */
+     , (7274, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */;

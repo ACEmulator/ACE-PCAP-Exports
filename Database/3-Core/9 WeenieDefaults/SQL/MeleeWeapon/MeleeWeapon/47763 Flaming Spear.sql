@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 47763;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (47763, 'ace47763-flamingspear', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (47763, 'ace47763-flamingspear', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47763,   1,          1) /* ItemType - MeleeWeapon */
@@ -36,15 +36,14 @@ VALUES (47763,   1,   33555412) /* Setup */
      , (47763, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (47763, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47763, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (47763, 8009,          1);
+     , (47763, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47763, 8040, 3144155164, 75.19766, 73.76863, 5.924, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0xBB68001C [75.197660 73.768630 5.924000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47763,   3, 3630662061) /* Wielder */
-     , (47763, 8000, 3630662046) /* PCAPRecordedObjectIID */
+VALUES (47763, 8000, 3630662046) /* PCAPRecordedObjectIID */
      , (47763, 8008, 3630662061) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 39452;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (39452, 'ace39452-tentacleoftthuun', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (39452, 'ace39452-tentacleoftthuun', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39452,   1,         16) /* ItemType - Creature */
@@ -42,3 +42,6 @@ VALUES (39452, 8040, 1925775396, 98.86584, 95.79361, 79.75318, -0.3826829, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39452, 8000, 2932220571) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (39452, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;

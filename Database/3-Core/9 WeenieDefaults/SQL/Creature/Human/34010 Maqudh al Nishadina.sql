@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34010;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34010, 'ace34010-maqudhalnishadina', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34010, 'ace34010-maqudhalnishadina', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34010,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (34010,   1, 210, 0, 0) /* Strength */
      , (34010,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34010,   1,    95, 0, 0, 95) /* MaxHealth */
-     , (34010,   3,   190, 0, 0, 190) /* MaxStamina */
-     , (34010,   5,   120, 0, 0, 120) /* MaxMana */;
+VALUES (34010,   1,    10, 0, 0, 95) /* MaxHealth */
+     , (34010,   3,    10, 0, 0, 190) /* MaxStamina */
+     , (34010,   5,    10, 0, 0, 120) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34010, 2, 34024,  1, 0, 0, False) /* Create Silifi of Crimson Night (34024) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34010, 67109555, 0, 24)

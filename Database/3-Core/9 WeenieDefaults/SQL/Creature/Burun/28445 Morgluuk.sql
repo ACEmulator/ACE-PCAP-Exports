@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 28445;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (28445, 'burunruukmorgluukweak', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28445, 'burunruukmorgluukweak', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28445,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,24 @@ VALUES (28445,   1, 400, 0, 0) /* Strength */
      , (28445,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28445,   1,  7500, 0, 0, 7500) /* MaxHealth */
-     , (28445,   3,  5000, 0, 0, 4996) /* MaxStamina */
-     , (28445,   5,   175, 0, 0, 175) /* MaxMana */;
+VALUES (28445,   1,    10, 0, 0, 7500) /* MaxHealth */
+     , (28445,   3,    10, 0, 0, 4996) /* MaxStamina */
+     , (28445,   5,    10, 0, 0, 175) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (28445, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (28445, 9,   273, 785, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28445, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (28445, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (28445, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (28445, 9, 20237,  0, 0, 0, False) /* Create Scroll of Perseverance (20237) for ContainTreasure */
+     , (28445, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (28445, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
+     , (28445, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
+     , (28445, 9, 28487,  0, 0, 0, False) /* Create Morgluuk's Head (28487) for ContainTreasure */
+     , (28445, 9, 28488,  0, 0, 0, False) /* Create Morgluuk's Flesh (28488) for ContainTreasure */
+     , (28445, 9, 29248,  0, 0, 0, False) /* Create Fire Crossbow (29248) for ContainTreasure */
+     , (28445, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28445, 67114922, 0, 0);

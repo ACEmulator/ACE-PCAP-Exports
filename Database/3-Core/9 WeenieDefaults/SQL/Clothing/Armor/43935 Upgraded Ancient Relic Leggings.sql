@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 43935;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (43935, 'ace43935-upgradedancientrelicleggings', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (43935, 'ace43935-upgradedancientrelicleggings', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43935,   1,          2) /* ItemType - Armor */
@@ -19,7 +19,7 @@ VALUES (43935,   1,          2) /* ItemType - Armor */
      , (43935, 108,        800) /* ItemMaxMana */
      , (43935, 109,        220) /* ItemDifficulty */
      , (43935, 158,          7) /* WieldRequirements - Level */
-     , (43935, 159,          1) /* WieldSkilltype - Axe */
+     , (43935, 159,          1) /* WieldSkillType - Axe */
      , (43935, 160,        180) /* WieldDifficulty */
      , (43935, 265,         47) /* EquipmentSetId - AncientRelicUpgrade */;
 

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 20976;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (20976, 'frostboltgravity', 33) /* ProjectileSpell */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20976, 'frostboltgravity', 33, '2019-02-10 05:41:14') /* ProjectileSpell */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20976,   1,          0) /* ItemType - None */
@@ -47,3 +47,8 @@ VALUES (20976, 8040, 84475965, 170.7568, 119.0937, 24.76335, -0.4954611, 0, 0, -
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20976, 8000, 3688951398) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (20976, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (20976, 2, 47236,  1, 0, 0, False) /* Create Acid Board with Nail (47236) for Wield */
+     , (20976, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */;

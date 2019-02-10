@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51936;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51936, 'ace51936-tormentedminion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51936, 'ace51936-tormentedminion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51936,   1,         16) /* ItemType - Creature */
@@ -45,7 +45,18 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (51936, 8000, 3703607508) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51936,   1,  6175, 0, 0, 6175) /* MaxHealth */;
+VALUES (51936,   1,    10, 0, 0, 6175) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51936, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (51936, 9,   273, 4012, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (51936, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (51936, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (51936, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (51936, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
+     , (51936, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (51936, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (51936, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51936, 67113396, 0, 0);

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 33942;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (33942, 'ace33942-enhancedserpentsfang', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (33942, 'ace33942-enhancedserpentsfang', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33942,   1,          1) /* ItemType - MeleeWeapon */
@@ -23,7 +23,7 @@ VALUES (33942,   1,          1) /* ItemType - MeleeWeapon */
      , (33942, 108,       1550) /* ItemMaxMana */
      , (33942, 151,          2) /* HookType - Wall */
      , (33942, 158,          2) /* WieldRequirements - RawSkill */
-     , (33942, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (33942, 159,         45) /* WieldSkillType - LightWeapons */
      , (33942, 160,        325) /* WieldDifficulty */
      , (33942, 263,         32) /* ResistanceModifierType */
      , (33942, 353,          5) /* WeaponType - Spear */
@@ -57,14 +57,13 @@ VALUES (33942,   1,   33557337) /* Setup */
      , (33942,   3,  536870932) /* SoundTable */
      , (33942,   8,  100674087) /* Icon */
      , (33942,  22,  872415275) /* PhysicsEffectTable */
-     , (33942,  55,       2121) /* ProcSpell */
+     , (33942,  55,       2121) /* ProcSpell - AcidStreak7 */
      , (33942, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (33942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33942, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33942,   2, 1343257353) /* Container */
-     , (33942, 8000, 2147923136) /* PCAPRecordedObjectIID */;
+VALUES (33942, 8000, 2147923136) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33942,   249,      2) 

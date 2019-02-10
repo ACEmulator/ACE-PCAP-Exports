@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 35345;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (35345, 'ace35345-shardofharraagsdagger', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35345, 'ace35345-shardofharraagsdagger', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35345,   1,          1) /* ItemType - MeleeWeapon */
@@ -27,7 +27,7 @@ VALUES (35345,   1,          1) /* ItemType - MeleeWeapon */
      , (35345, 114,          1) /* Attuned - Attuned */
      , (35345, 151,          2) /* HookType - Wall */
      , (35345, 158,          2) /* WieldRequirements - RawSkill */
-     , (35345, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (35345, 159,         45) /* WieldSkillType - LightWeapons */
      , (35345, 160,        400) /* WieldDifficulty */
      , (35345, 353,          6) /* WeaponType - Dagger */
      , (35345, 8030,          0);
@@ -63,14 +63,13 @@ VALUES (35345,   1,   33560291) /* Setup */
      , (35345,   3,  536870932) /* SoundTable */
      , (35345,   8,  100671865) /* Icon */
      , (35345,  22,  872415275) /* PhysicsEffectTable */
-     , (35345,  55,       1788) /* ProcSpell */
+     , (35345,  55,       1788) /* ProcSpell - LightningRing */
      , (35345, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (35345, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35345, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35345,   2, 2815865202) /* Container */
-     , (35345, 8000, 3354559908) /* PCAPRecordedObjectIID */;
+VALUES (35345, 8000, 3354559908) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35345,  1788,      2) 

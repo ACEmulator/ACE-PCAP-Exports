@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 44035;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (44035, 'ace44035-mumiyahchampion', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (44035, 'ace44035-mumiyahchampion', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44035,   1,         16) /* ItemType - Creature */
@@ -58,9 +58,12 @@ VALUES (44035,   1, 190, 0, 0) /* Strength */
      , (44035,   6, 310, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44035,   1,  4300, 0, 0, 4300) /* MaxHealth */
-     , (44035,   3,  5200, 0, 0, 5197) /* MaxStamina */
-     , (44035,   5,  1860, 0, 0, 1860) /* MaxMana */;
+VALUES (44035,   1,    10, 0, 0, 4300) /* MaxHealth */
+     , (44035,   3,    10, 0, 0, 5197) /* MaxStamina */
+     , (44035,   5,    10, 0, 0, 1860) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44035, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44035, 67111814, 0, 0);

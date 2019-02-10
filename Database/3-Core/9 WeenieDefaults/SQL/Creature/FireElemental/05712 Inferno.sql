@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 5712;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (5712, 'fireelementalinferno', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5712, 'fireelementalinferno', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5712,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (5712,   1, True ) /* Stuck */
      , (5712,  13, False) /* Ethereal */
      , (5712,  14, True ) /* GravityStatus */
      , (5712,  15, True ) /* LightsStatus */
-     , (5712,  19, True ) /* Attackable */;
+     , (5712,  19, True ) /* Attackable */
+     , (5712, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5712,  39, 1.70000004768372) /* DefaultScale */;
@@ -56,6 +57,31 @@ VALUES (5712,   1, 130, 0, 0) /* Strength */
      , (5712,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5712,   1,   575, 0, 0, 575) /* MaxHealth */
-     , (5712,   3,   550, 0, 0, 550) /* MaxStamina */
-     , (5712,   5,   470, 0, 0, 470) /* MaxMana */;
+VALUES (5712,   1,    10, 0, 0, 575) /* MaxHealth */
+     , (5712,   3,    10, 0, 0, 550) /* MaxStamina */
+     , (5712,   5,    10, 0, 0, 470) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (5712, 2,  5709,  1, 0, 0, False) /* Create Ball of fire (5709) for Wield */
+     , (5712, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (5712, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (5712, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (5712, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (5712, 9,   273, 1674, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (5712, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (5712, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (5712, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (5712, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (5712, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (5712, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (5712, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (5712, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (5712, 9, 20409,  0, 0, 0, False) /* Create Scroll of Tusker Bait (20409) for ContainTreasure */
+     , (5712, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */
+     , (5712, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (5712, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (5712, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (5712, 9, 29253,  0, 0, 0, False) /* Create Blunt Atlatl (29253) for ContainTreasure */
+     , (5712, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (5712, 9, 33959,  0, 0, 0, False) /* Create Crystal of Fiery Elemental Essence (33959) for ContainTreasure */
+     , (5712, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2294;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2294, 'sawatoblacksmith2', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2294, 'sawatoblacksmith2', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2294,   1,         16) /* ItemType - Creature */
@@ -73,12 +73,13 @@ VALUES (2294,   1,  95, 0, 0) /* Strength */
      , (2294,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2294,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (2294,   3,   200, 0, 0, 200) /* MaxStamina */
-     , (2294,   5,    95, 0, 0, 95) /* MaxMana */;
+VALUES (2294,   1,    10, 0, 0, 135) /* MaxHealth */
+     , (2294,   3,    10, 0, 0, 200) /* MaxStamina */
+     , (2294,   5,    10, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2294, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (2294, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (2294, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
      , (2294, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (2294, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (2294, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 37216;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (37216, 'ace37216-olthoibreastplate', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (37216, 'ace37216-olthoibreastplate', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37216,   1,          2) /* ItemType - Armor */
@@ -24,7 +24,7 @@ VALUES (37216,   1,          2) /* ItemType - Armor */
      , (37216, 115,        220) /* ItemSkillLevelLimit */
      , (37216, 131,         63) /* MaterialType - Silver */
      , (37216, 158,          2) /* WieldRequirements - RawSkill */
-     , (37216, 159,          6) /* WieldSkilltype - MeleeDefense */
+     , (37216, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37216, 160,        400) /* WieldDifficulty */
      , (37216, 172,          5) /* AppraisalLongDescDecoration */
      , (37216, 176,          7) /* AppraisalItemSkill */
@@ -32,7 +32,7 @@ VALUES (37216,   1,          2) /* ItemType - Armor */
      , (37216, 178,         39) /* GemType */
      , (37216, 265,         14) /* EquipmentSetId - Adepts */
      , (37216, 270,          7) /* WieldRequirements2 - Level */
-     , (37216, 271,          1) /* WieldSkilltype2 - Axe */
+     , (37216, 271,          1) /* WieldSkillType2 - Axe */
      , (37216, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -71,8 +71,7 @@ VALUES (37216,   1,   33554642) /* Setup */
      , (37216, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37216,   2, 1343493255) /* Container */
-     , (37216, 8000, 2174543147) /* PCAPRecordedObjectIID */;
+VALUES (37216, 8000, 2174543147) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37216,  2102,      2) 

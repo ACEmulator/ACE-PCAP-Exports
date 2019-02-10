@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 14411;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (14411, 'banditreformedshoushi', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14411, 'banditreformedshoushi', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14411,   1,         16) /* ItemType - Creature */
@@ -72,9 +72,9 @@ VALUES (14411,   1,  45, 0, 0) /* Strength */
      , (14411,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14411,   1,    85, 0, 0, 85) /* MaxHealth */
-     , (14411,   3,   150, 0, 0, 150) /* MaxStamina */
-     , (14411,   5,    70, 0, 0, 70) /* MaxMana */;
+VALUES (14411,   1,    10, 0, 0, 85) /* MaxHealth */
+     , (14411,   3,    10, 0, 0, 150) /* MaxStamina */
+     , (14411,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14411, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */

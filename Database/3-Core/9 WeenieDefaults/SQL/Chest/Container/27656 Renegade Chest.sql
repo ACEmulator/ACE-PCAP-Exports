@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27656;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27656, 'chestrenegadechorizite', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27656, 'chestrenegadechorizite', 20, '2019-02-10 05:41:14') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27656,   1,        512) /* ItemType - Container */
@@ -48,3 +48,8 @@ VALUES (27656, 8040, 3377987587, 19.29983, 64.22644, 36.18036, -0.2973351, 0, 0,
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27656, 8000, 3709709751) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (27656, -1, 27653, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Chorizite Veined Shield (27653) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27656, -1, 27660, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Refined Chorizite Chunk (27660) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (27656, -1, 27703, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Chorizite Ore (27703) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

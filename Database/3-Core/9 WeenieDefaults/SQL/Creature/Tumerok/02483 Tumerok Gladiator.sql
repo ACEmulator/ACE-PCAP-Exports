@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 2483;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (2483, 'tumerokkeyc', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (2483, 'tumerokkeyc', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2483,   1,         16) /* ItemType - Creature */
@@ -56,9 +56,14 @@ VALUES (2483,   1, 150, 0, 0) /* Strength */
      , (2483,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2483,   1,   123, 0, 0, 123) /* MaxHealth */
-     , (2483,   3,   330, 0, 0, 330) /* MaxStamina */
-     , (2483,   5,    90, 0, 0, 90) /* MaxMana */;
+VALUES (2483,   1,    10, 0, 0, 123) /* MaxHealth */
+     , (2483,   3,    10, 0, 0, 330) /* MaxStamina */
+     , (2483,   5,    10, 0, 0, 90) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (2483, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
+     , (2483, 2, 23695,  1, 0, 0, False) /* Create Spear (23695) for Wield */
+     , (2483, 2, 23733,  1, 0, 0, False) /* Create Yumi (23733) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2483, 67116625, 153, 47)

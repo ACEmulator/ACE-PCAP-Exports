@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 32769;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (32769, 'ace32769-replicaswordofbellenesse', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32769, 'ace32769-replicaswordofbellenesse', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32769,   1,          1) /* ItemType - MeleeWeapon */
@@ -26,7 +26,7 @@ VALUES (32769,   1,          1) /* ItemType - MeleeWeapon */
      , (32769, 115,        250) /* ItemSkillLevelLimit */
      , (32769, 151,          2) /* HookType - Wall */
      , (32769, 158,          2) /* WieldRequirements - RawSkill */
-     , (32769, 159,         45) /* WieldSkilltype - LightWeapons */
+     , (32769, 159,         45) /* WieldSkillType - LightWeapons */
      , (32769, 160,        370) /* WieldDifficulty */
      , (32769, 166,         83) /* SlayerCreatureType - ViamontianKnight */
      , (32769, 176,          6) /* AppraisalItemSkill */
@@ -69,8 +69,7 @@ VALUES (32769,   1,   33559842) /* Setup */
      , (32769, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32769,   2, 1343890286) /* Container */
-     , (32769, 8000, 2807507467) /* PCAPRecordedObjectIID */;
+VALUES (32769, 8000, 2807507467) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32769,  2096,      2) 

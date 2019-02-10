@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24475;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24475, 'simulacrumbanditharker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24475, 'simulacrumbanditharker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24475,   1,         16) /* ItemType - Creature */
@@ -61,9 +61,20 @@ VALUES (24475,   1, 200, 0, 0) /* Strength */
      , (24475,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24475,   1,   400, 0, 0, 400) /* MaxHealth */
-     , (24475,   3,   380, 0, 0, 373) /* MaxStamina */
-     , (24475,   5,   350, 0, 0, 350) /* MaxMana */;
+VALUES (24475,   1,    10, 0, 0, 400) /* MaxHealth */
+     , (24475,   3,    10, 0, 0, 373) /* MaxStamina */
+     , (24475,   5,    10, 0, 0, 350) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24475, 2, 12155,  1, 0, 0, False) /* Create Shield of the Simulacra (12155) for Wield */
+     , (24475, 2, 23707,  1, 0, 0, False) /* Create Fire Tachi (23707) for Wield */
+     , (24475, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (24475, 9,  3820,  0, 0, 0, False) /* Create Flaming Katar (3820) for ContainTreasure */
+     , (24475, 9, 20495,  0, 0, 0, False) /* Create Scroll of Bottle Breaker (20495) for ContainTreasure */
+     , (24475, 9, 24470,  0, 0, 0, False) /* Create Harker's Head (24470) for ContainTreasure */
+     , (24475, 9, 24473,  0, 0, 0, False) /* Create Virindi Shard (24473) for ContainTreasure */
+     , (24475, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
+     , (24475, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24475, 67109559, 0, 24)

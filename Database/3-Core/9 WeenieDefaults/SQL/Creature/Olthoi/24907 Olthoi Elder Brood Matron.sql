@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 24907;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (24907, 'olthoibroodmatronhivesextreme', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (24907, 'olthoibroodmatronhivesextreme', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24907,   1,         16) /* ItemType - Creature */
@@ -49,7 +49,20 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24907, 8000, 3707746563) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24907,   1,  1710, 0, 0, 1710) /* MaxHealth */;
+VALUES (24907,   1,    10, 0, 0, 1710) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (24907, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (24907, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (24907, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (24907, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (24907, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (24907, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (24907, 9, 24919,  0, 0, 0, False) /* Create Brood Matron Elder Tail (24919) for ContainTreasure */
+     , (24907, 9, 24923,  0, 0, 0, False) /* Create Brood Matron Elder Tibia (24923) for ContainTreasure */
+     , (24907, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (24907, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (24907, 9, 45405,  0, 0, 0, False) /* Create Frost Simi (45405) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24907, 67114410, 0, 0);

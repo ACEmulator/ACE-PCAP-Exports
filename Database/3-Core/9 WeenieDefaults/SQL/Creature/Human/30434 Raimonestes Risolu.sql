@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30434;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30434, 'silyunhonorguard', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30434, 'silyunhonorguard', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30434,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,12 @@ VALUES (30434,   1,  60, 0, 0) /* Strength */
      , (30434,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30434,   1,    45, 0, 0, 45) /* MaxHealth */
-     , (30434,   3,    80, 0, 0, 80) /* MaxStamina */
-     , (30434,   5,   140, 0, 0, 140) /* MaxMana */;
+VALUES (30434,   1,    10, 0, 0, 45) /* MaxHealth */
+     , (30434,   3,    10, 0, 0, 80) /* MaxStamina */
+     , (30434,   5,    10, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30434, 2,   309,  1, 0, 0, False) /* Create Club (309) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30434, 67110064, 32, 8)

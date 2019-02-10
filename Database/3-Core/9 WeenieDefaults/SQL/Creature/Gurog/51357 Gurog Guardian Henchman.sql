@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 51357;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (51357, 'ace51357-gurogguardianhenchman', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (51357, 'ace51357-gurogguardianhenchman', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51357,   1,         16) /* ItemType - Creature */
@@ -55,6 +55,16 @@ VALUES (51357,   1, 550, 0, 0) /* Strength */
      , (51357,   6, 410, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51357,   1,  1900, 0, 0, 1900) /* MaxHealth */
-     , (51357,   3,  3990, 0, 0, 3989) /* MaxStamina */
-     , (51357,   5,  1410, 0, 0, 1410) /* MaxMana */;
+VALUES (51357,   1,    10, 0, 0, 1900) /* MaxHealth */
+     , (51357,   3,    10, 0, 0, 3989) /* MaxStamina */
+     , (51357,   5,    10, 0, 0, 1410) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (51357, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+     , (51357, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (51357, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (51357, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (51357, 9, 29245,  0, 0, 0, False) /* Create Acid Crossbow (29245) for ContainTreasure */
+     , (51357, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (51357, 9, 37189,  0, 0, 0, False) /* Create Olthoi Celdon Gauntlets (37189) for ContainTreasure */
+     , (51357, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */;

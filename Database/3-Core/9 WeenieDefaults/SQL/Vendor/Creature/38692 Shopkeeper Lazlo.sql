@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38692;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38692, 'ace38692-shopkeeperlazlo', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38692, 'ace38692-shopkeeperlazlo', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38692,   1,         16) /* ItemType - Creature */
@@ -74,9 +74,9 @@ VALUES (38692,   1,  45, 0, 0) /* Strength */
      , (38692,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38692,   1,   135, 0, 0, 135) /* MaxHealth */
-     , (38692,   3,   140, 0, 0, 140) /* MaxStamina */
-     , (38692,   5,   155, 0, 0, 155) /* MaxMana */;
+VALUES (38692,   1,    10, 0, 0, 135) /* MaxHealth */
+     , (38692,   3,    10, 0, 0, 140) /* MaxStamina */
+     , (38692,   5,    10, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38692, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */

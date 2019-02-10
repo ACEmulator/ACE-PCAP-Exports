@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 30899;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (30899, 'drudgebossmid0205', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30899, 'drudgebossmid0205', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30899,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30899, 8000, 3335635613) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30899,   1,   425, 0, 0, 425) /* MaxHealth */;
+VALUES (30899,   1,    10, 0, 0, 425) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (30899, 2, 23708,  1, 0, 0, False) /* Create Fire Tachi (23708) for Wield */
+     , (30899, 2, 23712,  1, 0, 0, False) /* Create Yaoji (23712) for Wield */
+     , (30899, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
+     , (30899, 9, 30880,  0, 0, 0, False) /* Create Banished Staff (30880) for ContainTreasure */
+     , (30899, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30899, 67112895, 0, 0);

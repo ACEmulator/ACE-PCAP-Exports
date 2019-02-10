@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 1356;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (1356, 'alfrethbanderlingcaptain', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1356, 'alfrethbanderlingcaptain', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1356,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (1356, 8000, 2885558786) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1356,   1,    90, 0, 0, 90) /* MaxHealth */;
+VALUES (1356,   1,    10, 0, 0, 90) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (1356, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1356, 67114037, 0, 0);

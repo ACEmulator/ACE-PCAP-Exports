@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38953;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38953, 'ace38953-kerthumptheeartaker', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38953, 'ace38953-kerthumptheeartaker', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38953,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,15 @@ VALUES (38953,   1, 500, 0, 0) /* Strength */
      , (38953,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38953,   1,  3225, 0, 0, 3225) /* MaxHealth */
-     , (38953,   3, 10450, 0, 0, 10450) /* MaxStamina */
-     , (38953,   5, 10320, 0, 0, 10320) /* MaxMana */;
+VALUES (38953,   1,    10, 0, 0, 3225) /* MaxHealth */
+     , (38953,   3,    10, 0, 0, 10450) /* MaxStamina */
+     , (38953,   5,    10, 0, 0, 10320) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38953, 2, 38930,  1, 0, 0, False) /* Create Lugian Axe (38930) for Wield */
+     , (38953, 2, 38933,  1, 0, 0, False) /* Create Lightning Dericost Blade (38933) for Wield */
+     , (38953, 2, 38935,  1, 0, 0, False) /* Create Lugian Hammer (38935) for Wield */
+     , (38953, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38953, 67112813, 0, 0);

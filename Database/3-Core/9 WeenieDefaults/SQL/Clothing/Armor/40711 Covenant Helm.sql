@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 40711;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (40711, 'ace40711-covenanthelm', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40711, 'ace40711-covenanthelm', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40711,   1,          2) /* ItemType - Armor */
@@ -18,7 +18,7 @@ VALUES (40711,   1,          2) /* ItemType - Armor */
      , (40711, 131,         63) /* MaterialType - Silver */
      , (40711, 151,          2) /* HookType - Wall */
      , (40711, 158,          2) /* WieldRequirements - RawSkill */
-     , (40711, 159,         15) /* WieldSkilltype - MagicDefense */
+     , (40711, 159,         15) /* WieldSkillType - MagicDefense */
      , (40711, 160,        185) /* WieldDifficulty */
      , (40711, 172,          1) /* AppraisalLongDescDecoration */;
 
@@ -57,8 +57,10 @@ VALUES (40711,   1,   33557884) /* Setup */
      , (40711, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40711,   2, 3690548803) /* Container */
-     , (40711, 8000, 3691171444) /* PCAPRecordedObjectIID */;
+VALUES (40711, 8000, 3691171444) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40711, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40711, 67113958, 240, 10);

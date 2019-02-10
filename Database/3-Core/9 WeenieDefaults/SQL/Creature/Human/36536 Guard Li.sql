@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 36536;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (36536, 'ace36536-guardli', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36536, 'ace36536-guardli', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (36536,   1,         16) /* ItemType - Creature */
@@ -69,9 +69,13 @@ VALUES (36536,   1, 150, 0, 0) /* Strength */
      , (36536,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36536,   1,   125, 0, 0, 125) /* MaxHealth */
-     , (36536,   3,   220, 0, 0, 220) /* MaxStamina */
-     , (36536,   5,   100, 0, 0, 100) /* MaxMana */;
+VALUES (36536,   1,    10, 0, 0, 125) /* MaxHealth */
+     , (36536,   3,    10, 0, 0, 220) /* MaxStamina */
+     , (36536,   5,    10, 0, 0, 100) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (36536, 2, 23698,  1, 0, 0, False) /* Create Spear (23698) for Wield */
+     , (36536, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36536, 67109964, 92, 4)

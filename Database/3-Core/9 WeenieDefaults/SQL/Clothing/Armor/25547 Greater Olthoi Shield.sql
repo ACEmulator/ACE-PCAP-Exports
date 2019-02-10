@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 25547;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (25547, 'shieldolthoiextremerot2', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (25547, 'shieldolthoiextremerot2', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25547,   1,          2) /* ItemType - Armor */
@@ -16,7 +16,7 @@ VALUES (25547,   1,          2) /* ItemType - Armor */
      , (25547,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25547, 151,          2) /* HookType - Wall */
      , (25547, 158,          7) /* WieldRequirements - Level */
-     , (25547, 159,          1) /* WieldSkilltype - Axe */
+     , (25547, 159,          1) /* WieldSkillType - Axe */
      , (25547, 160,         80) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,15 +50,14 @@ VALUES (25547,   1,   33561269) /* Setup */
      , (25547, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (25547, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25547, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (25547, 8009,          3);
+     , (25547, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25547, 8040, 288620814, 135.5417, 90.49177, 41.926, -0.2660142, 0.6591274, 0.5249142, 0.4682442) /* PCAPRecordedLocation */
 /* @teleloc 0x1134010E [135.541700 90.491770 41.926000] -0.266014 0.659127 0.524914 0.468244 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25547,   3, 3691033918) /* Wielder */
-     , (25547, 8000, 3690949373) /* PCAPRecordedObjectIID */
+VALUES (25547, 8000, 3690949373) /* PCAPRecordedObjectIID */
      , (25547, 8008, 3691033918) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

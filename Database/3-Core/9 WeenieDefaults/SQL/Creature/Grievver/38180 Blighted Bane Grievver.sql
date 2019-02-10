@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 38180;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (38180, 'ace38180-blightedbanegrievver', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38180, 'ace38180-blightedbanegrievver', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38180,   1,         16) /* ItemType - Creature */
@@ -57,9 +57,21 @@ VALUES (38180,   1, 220, 0, 0) /* Strength */
      , (38180,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38180,   1,   465, 0, 0, 465) /* MaxHealth */
-     , (38180,   3,   380, 0, 0, 380) /* MaxStamina */
-     , (38180,   5,   360, 0, 0, 360) /* MaxMana */;
+VALUES (38180,   1,    10, 0, 0, 465) /* MaxHealth */
+     , (38180,   3,    10, 0, 0, 380) /* MaxStamina */
+     , (38180,   5,    10, 0, 0, 360) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38180, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (38180, 9,   273, 1768, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (38180, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (38180, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (38180, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (38180, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */
+     , (38180, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (38180, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (38180, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (38180, 9, 38222,  1, 0, 0, False) /* Create Blighted Mana Crystal (38222) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38180, 67112938, 0, 0);

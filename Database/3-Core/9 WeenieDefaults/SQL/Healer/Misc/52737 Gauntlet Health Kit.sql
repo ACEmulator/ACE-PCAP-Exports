@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52737;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52737, 'ace52737-gauntlethealthkit', 28) /* Healer */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52737, 'ace52737-gauntlethealthkit', 28, '2019-02-10 05:41:14') /* Healer */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52737,   1,        128) /* ItemType - Misc */
@@ -11,7 +11,7 @@ VALUES (52737,   1,        128) /* ItemType - Misc */
      , (52737,  19,          1) /* Value */
      , (52737,  65,        101) /* Placement - Resting */
      , (52737,  91,        100) /* MaxStructure */
-     , (52737,  92,         48) /* Structure */
+     , (52737,  92,        100) /* Structure */
      , (52737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52737,  94,         16) /* TargetType - Creature */;
 
@@ -34,8 +34,7 @@ VALUES (52737,   1,   33555194) /* Setup */
      , (52737, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52737,   2, 1343079888) /* Container */
-     , (52737, 8000, 2860539036) /* PCAPRecordedObjectIID */;
+VALUES (52737, 8000, 2860539036) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (52737, 0, 83889681, 83894377)

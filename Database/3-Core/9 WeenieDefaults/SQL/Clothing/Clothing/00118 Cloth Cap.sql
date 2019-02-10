@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 118;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (118, 'capcloth', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (118, 'capcloth', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (118,   1,          4) /* ItemType - Clothing */
@@ -61,13 +61,16 @@ VALUES (118,   1,   33554643) /* Setup */
      , (118, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (118,   2, 3685960527) /* Container */
-     , (118, 8000, 3685901980) /* PCAPRecordedObjectIID */;
+VALUES (118, 8000, 3685901980) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (118,   170,      2) 
      , (118,  1485,      2) 
      , (118,  1574,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (118, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (118, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (118, 67110384, 250, 6);

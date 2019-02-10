@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 52583;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (52583, 'ace52583-anekshenstormcaller', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52583, 'ace52583-anekshenstormcaller', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52583,   1,         16) /* ItemType - Creature */
@@ -21,7 +21,8 @@ VALUES (52583,   1, True ) /* Stuck */
      , (52583,  13, False) /* Ethereal */
      , (52583,  14, True ) /* GravityStatus */
      , (52583,  19, True ) /* Attackable */
-     , (52583,  42, True ) /* AllowEdgeSlide */;
+     , (52583,  42, True ) /* AllowEdgeSlide */
+     , (52583, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52583,   1, 'A''nekshen Storm Caller') /* Name */
@@ -46,7 +47,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (52583, 8000, 3684773038) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52583,   1,  8200, 0, 0, 8200) /* MaxHealth */;
+VALUES (52583,   1,    10, 0, 0, 8200) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (52583, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (52583, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (52583, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52583, 67110361, 72, 8)

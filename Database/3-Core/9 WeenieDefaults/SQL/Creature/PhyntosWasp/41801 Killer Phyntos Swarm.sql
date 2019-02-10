@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 41801;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (41801, 'ace41801-killerphyntosswarm', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41801, 'ace41801-killerphyntosswarm', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41801,   1,         16) /* ItemType - Creature */
@@ -47,7 +47,21 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41801, 8000, 3360280356) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41801,   1,   850, 0, 0, 850) /* MaxHealth */;
+VALUES (41801,   1,    10, 0, 0, 850) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (41801, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (41801, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (41801, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (41801, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (41801, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (41801, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (41801, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (41801, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (41801, 9, 37300,  1, 0, 0, False) /* Create Glyph of Endurance (37300) for ContainTreasure */
+     , (41801, 9, 37362,  1, 0, 0, False) /* Create Quill of Extraction (37362) for ContainTreasure */
+     , (41801, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
+     , (41801, 9, 41814,  1, 0, 0, False) /* Create Phyntos Honey (41814) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41801, 67115264, 0, 0);

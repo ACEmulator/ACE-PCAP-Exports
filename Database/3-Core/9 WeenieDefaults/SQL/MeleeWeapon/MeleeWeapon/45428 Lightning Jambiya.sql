@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 45428;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (45428, 'ace45428-lightningjambiya', 6) /* MeleeWeapon */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (45428, 'ace45428-lightningjambiya', 6, '2019-02-10 05:41:14') /* MeleeWeapon */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45428,   1,          1) /* ItemType - MeleeWeapon */
@@ -22,7 +22,7 @@ VALUES (45428,   1,          1) /* ItemType - MeleeWeapon */
      , (45428, 131,         47) /* MaterialType - WhiteSapphire */
      , (45428, 151,          2) /* HookType - Wall */
      , (45428, 158,          2) /* WieldRequirements - RawSkill */
-     , (45428, 159,         44) /* WieldSkilltype - HeavyWeapons */
+     , (45428, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (45428, 160,        350) /* WieldDifficulty */
      , (45428, 172,          5) /* AppraisalLongDescDecoration */
      , (45428, 177,          2) /* GemCount */

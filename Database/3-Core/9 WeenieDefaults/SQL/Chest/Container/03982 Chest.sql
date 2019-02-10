@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 3982;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (3982, 'chestutilityhighlocked', 20) /* Chest */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (3982, 'chestutilityhighlocked', 20, '2019-02-10 05:41:14') /* Chest */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3982,   1,        512) /* ItemType - Container */
@@ -49,3 +49,9 @@ VALUES (3982, 8040, 461307910, 12.3102, 128.466, 95.2, -4.37114E-08, 0, 0, -1) /
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (3982, 8000, 1907879992) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (3982, -1, 514, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Excellent Lockpick (514) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (3982, -1, 3297, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Invulnerability Other VI (3297) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (3982, -1, 20257, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Mind Blossom (20257) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (3982, -1, 22443, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Flaming Dirk (22443) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

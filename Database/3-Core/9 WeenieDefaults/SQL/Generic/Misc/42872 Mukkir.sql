@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 42872;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (42872, 'ace42872-mukkir', 1) /* Generic */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (42872, 'ace42872-mukkir', 1, '2019-02-10 05:41:14') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42872,   1,        128) /* ItemType - Misc */
@@ -34,3 +34,8 @@ VALUES (42872, 8040, 459023, 5.15171, -74.9496, 1.436, 0.707107, 0, 0, 0.707107)
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42872, 8000, 1879076870) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (42872, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (42872, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
+     , (42872, 9, 31803,  0, 0, 0, False) /* Create Frost Compound Bow (31803) for ContainTreasure */;

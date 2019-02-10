@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 34562;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (34562, 'ace34562-masterofbreath', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (34562, 'ace34562-masterofbreath', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34562,   1,         16) /* ItemType - Creature */
@@ -60,6 +60,11 @@ VALUES (34562,   1, 220, 0, 0) /* Strength */
      , (34562,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34562,   1,   400, 0, 0, 400) /* MaxHealth */
-     , (34562,   3,   360, 0, 0, 360) /* MaxStamina */
-     , (34562,   5,   360, 0, 0, 360) /* MaxMana */;
+VALUES (34562,   1,    10, 0, 0, 400) /* MaxHealth */
+     , (34562,   3,    10, 0, 0, 360) /* MaxStamina */
+     , (34562,   5,    10, 0, 0, 360) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34562, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (34562, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
+     , (34562, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */;

@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 46425;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (46425, 'ace46425-marid', 12) /* Vendor */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46425, 'ace46425-marid', 12, '2019-02-10 05:41:14') /* Vendor */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46425,   1,         16) /* ItemType - Creature */
@@ -73,9 +73,9 @@ VALUES (46425,   1, 220, 0, 0) /* Strength */
      , (46425,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46425,   1,   331, 0, 0, 331) /* MaxHealth */
-     , (46425,   3,   466, 0, 0, 466) /* MaxStamina */
-     , (46425,   5,   486, 0, 0, 486) /* MaxMana */;
+VALUES (46425,   1,    10, 0, 0, 331) /* MaxHealth */
+     , (46425,   3,    10, 0, 0, 466) /* MaxStamina */
+     , (46425,   5,    10, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46425, 4, 46414, -1, 0, 0, False) /* Create Luminance Certificate (46414) for Shop */

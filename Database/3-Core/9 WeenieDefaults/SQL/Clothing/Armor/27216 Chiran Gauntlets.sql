@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 27216;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (27216, 'gauntletschiran', 2) /* Clothing */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27216, 'gauntletschiran', 2, '2019-02-10 05:41:14') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27216,   1,          2) /* ItemType - Armor */
@@ -61,14 +61,16 @@ VALUES (27216,   1,   33554648) /* Setup */
      , (27216, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27216,   2, 2165177833) /* Container */
-     , (27216, 8000, 2750334506) /* PCAPRecordedObjectIID */;
+VALUES (27216, 8000, 2750334506) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27216,  1486,      2) 
      , (27216,  1498,      2) 
      , (27216,  1528,      2) 
      , (27216,  2579,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27216, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27216, 67114987, 168, 6);

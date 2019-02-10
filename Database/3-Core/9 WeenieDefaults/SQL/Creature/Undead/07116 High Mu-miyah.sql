@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 7116;
 
-INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`)
-VALUES (7116, 'mumiyahhigh', 10) /* Creature */;
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7116, 'mumiyahhigh', 10, '2019-02-10 05:41:14') /* Creature */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7116,   1,         16) /* ItemType - Creature */
@@ -55,9 +55,22 @@ VALUES (7116,   1, 110, 0, 0) /* Strength */
      , (7116,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7116,   1,   230, 0, 0, 230) /* MaxHealth */
-     , (7116,   3,   420, 0, 0, 420) /* MaxStamina */
-     , (7116,   5,   350, 0, 0, 350) /* MaxMana */;
+VALUES (7116,   1,    10, 0, 0, 230) /* MaxHealth */
+     , (7116,   3,    10, 0, 0, 420) /* MaxStamina */
+     , (7116,   5,    10, 0, 0, 350) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (7116, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (7116, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (7116, 9,   273, 679, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7116, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (7116, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (7116, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
+     , (7116, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (7116, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (7116, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7116, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (7116, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7116, 67111828, 0, 0);
