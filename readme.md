@@ -1,9 +1,9 @@
 # ACE-PCAP-Exports - PCAP Exports in World Database form for ACEmulator
 
-**ACE-World is the World Database for ACEmulator, an emulator of the Asheron's Call game server**
+**This repo is not currently a complete World Database for ACEmulator, use as such is not advised**
  * MySQL and MariaDB are used as the database engine.
- * Currently intended for developers that wish to refer to data as seen in PCAPs in ACE compatible formatting.
- * Not directly usable as a world database. Use ACE-World-16PY-Patches releases instead
+ * Currently intended for content (re)creators and developers that wish to refer to data as seen in PCAPs in ACE compatible formatting.
+ * **Not directly usable as a world database. Use ACE-World-16PY-Patches releases instead!**
 
 ***
 ## Recommended Tools
