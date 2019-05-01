@@ -59,9 +59,9 @@ VALUES (25851,   1,    10, 0, 0, 735) /* MaxHealth */
      , (25851,   5,    10, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25851, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (25851, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (25851, 9, 20482,  0, 0, 0, False) /* Create Scroll of Astyrrian's Gift (20482) for ContainTreasure */
-     , (25851, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */
+VALUES (25851, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
      , (25851, 9, 20572,  0, 0, 0, False) /* Create Scroll of Kaluhc's Blessing (20572) for ContainTreasure */
-     , (25851, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */;
+     , (25851, 9, 20482,  0, 0, 0, False) /* Create Scroll of Astyrrian's Gift (20482) for ContainTreasure */
+     , (25851, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (25851, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (25851, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */;

@@ -57,15 +57,15 @@ VALUES (25867,   1,    10, 0, 0, 4000) /* MaxHealth */
      , (25867,   5,    10, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25867, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (25867, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (25867, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (25867, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+VALUES (25867, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
      , (25867, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (25867, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (25867, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (25867, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
+     , (25867, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
      , (25867, 9, 43052,  0, 0, 0, False) /* Create Knorr Academy Pauldrons (43052) for ContainTreasure */
-     , (25867, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */;
+     , (25867, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (25867, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (25867, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25867, 67114695, 0, 0);

@@ -57,23 +57,23 @@ VALUES (944,   1,    10, 0, 0, 60) /* MaxHealth */
      , (944,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (944, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (944, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (944, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (944, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (944, 9,   273, 1755, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (944, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+VALUES (944, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (944, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (944, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (944, 9,   273, 1755, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (944, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (944, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (944, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (944, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
      , (944, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
-     , (944, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (944, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (944, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
-     , (944, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (944, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (944, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (944, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
+     , (944, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (944, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (944, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (944, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (944, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */;
+     , (944, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
+     , (944, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (944, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (944, 67115126, 0, 0);

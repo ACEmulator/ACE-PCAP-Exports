@@ -60,6 +60,6 @@ VALUES (25855,   1,    10, 0, 0, 950) /* MaxHealth */
      , (25855,   5,    10, 0, 0, 1100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25855, 9,   273, 1142, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (25855, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+VALUES (25855, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (25855, 9,   273, 1142, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (25855, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */;

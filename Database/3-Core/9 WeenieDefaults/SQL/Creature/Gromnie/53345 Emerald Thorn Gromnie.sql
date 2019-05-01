@@ -54,11 +54,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (53345,   1,    10, 0, 0, 8200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (53345, 9,   273, 4769, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (53345, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (53345, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (53345, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (53345, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */
      , (53345, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (53345, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
+     , (53345, 9,   273, 4769, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53345, 67116465, 0, 0);

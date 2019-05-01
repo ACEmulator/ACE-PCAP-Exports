@@ -76,8 +76,8 @@ VALUES (43957, 8000, 2855969857) /* PCAPRecordedObjectIID */
      , (43957, 8008, 1342465040) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43957, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (43957, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */;
+VALUES (43957, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
+     , (43957, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43957, 67111920, 0, 0);

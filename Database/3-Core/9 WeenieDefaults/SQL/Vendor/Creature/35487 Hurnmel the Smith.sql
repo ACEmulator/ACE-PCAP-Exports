@@ -74,44 +74,44 @@ VALUES (35487,   1,    10, 0, 0, 95) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35487, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
-     , (35487, 4, 35377, -1, 0, 0, False) /* Create Replica BloodScorch (35377) for Shop */
-     , (35487, 4, 35491, -1, 0, 0, False) /* Create Maelstrom of Souls Gem (35491) for Shop */
-     , (35487, 4, 35492, -1, 0, 0, False) /* Create Gem of Spectral Force (35492) for Shop */
+     , (35487, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
      , (35487, 4, 35500, -1, 0, 0, False) /* Create Spectral Chill Arrow Bundle (35500) for Shop */
      , (35487, 4, 35619, -1, 0, 0, False) /* Create  (35619) for Shop */
      , (35487, 4, 35620, -1, 0, 0, False) /* Create  (35620) for Shop */
-     , (35487, 4, 35981, -1, 0, 0, False) /* Create Scroll of Ancient Graveyard Recall (35981) for Shop */
+     , (35487, 4, 35491, -1, 0, 0, False) /* Create Maelstrom of Souls Gem (35491) for Shop */
+     , (35487, 4, 35492, -1, 0, 0, False) /* Create Gem of Spectral Force (35492) for Shop */
+     , (35487, 4, 36629, -1, 0, 0, False) /* Create  (36629) for Shop */
+     , (35487, 4, 36631, -1, 0, 0, False) /* Create Magic Defense Weapon Augmentation (36631) for Shop */
+     , (35487, 4, 37539, -1, 0, 0, False) /* Create Spectral Binding Stone (37539) for Shop */
      , (35487, 4, 36013, -1, 0, 0, False) /* Create  (36013) for Shop */
      , (35487, 4, 36015, -1, 0, 0, False) /* Create Spectral Missile Weapon Mastery Crystal (36015) for Shop */
      , (35487, 4, 36017, -1, 0, 0, False) /* Create  (36017) for Shop */
      , (35487, 4, 36021, -1, 0, 0, False) /* Create Spectral Heavy Weapon Mastery Crystal (36021) for Shop */
      , (35487, 4, 36024, -1, 0, 0, False) /* Create Spectral Crystal of the Hieromancer (36024) for Shop */
-     , (35487, 4, 36629, -1, 0, 0, False) /* Create  (36629) for Shop */
-     , (35487, 4, 36631, -1, 0, 0, False) /* Create Magic Defense Weapon Augmentation (36631) for Shop */
      , (35487, 4, 36708, -1, 0, 0, False) /* Create Spectral Crystal of the Life Giver (36708) for Shop */
-     , (35487, 4, 37539, -1, 0, 0, False) /* Create Spectral Binding Stone (37539) for Shop */
-     , (35487, 4, 38809, -1, 0, 0, False) /* Create Ancient Emblem of Mhoire (38809) for Shop */
-     , (35487, 4, 39979, -1, 0, 0, False) /* Create Ceremonial Leggings (39979) for Shop */
-     , (35487, 4, 39980, -1, 0, 0, False) /* Create Ceremonial Tunic (39980) for Shop */
-     , (35487, 4, 40141, -1, 0, 0, False) /* Create Tome of Chill (40141) for Shop */
-     , (35487, 4, 40516, -1, 0, 0, False) /* Create Inert Skeletonbane Infusion (40516) for Shop */
-     , (35487, 4, 40606, -1, 0, 0, False) /* Create  (40606) for Shop */
-     , (35487, 4, 40652, -1, 0, 0, False) /* Create Great BloodScorch (40652) for Shop */
-     , (35487, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
      , (35487, 4, 41745, -1, 0, 0, False) /* Create  (41745) for Shop */
+     , (35487, 4, 43408, -1, 0, 0, False) /* Create Spectral Crystal of the Corruptor (43408) for Shop */
+     , (35487, 4, 45356, -1, 0, 0, False) /* Create  (45356) for Shop */
+     , (35487, 4, 45358, -1, 0, 0, False) /* Create  (45358) for Shop */
+     , (35487, 4, 45357, -1, 0, 0, False) /* Create  (45357) for Shop */
+     , (35487, 4, 45359, -1, 0, 0, False) /* Create Spectral Sneak Attack Mastery Crystal (45359) for Shop */
+     , (35487, 4, 42038, -1, 0, 0, False) /* Create Spectral Skull (42038) for Shop */
+     , (35487, 4, 41877, -1, 0, 0, False) /* Create  (41877) for Shop */
      , (35487, 4, 41862, -1, 0, 0, False) /* Create  (41862) for Shop */
      , (35487, 4, 41865, -1, 0, 0, False) /* Create  (41865) for Shop */
      , (35487, 4, 41868, -1, 0, 0, False) /* Create  (41868) for Shop */
      , (35487, 4, 41871, -1, 0, 0, False) /* Create  (41871) for Shop */
      , (35487, 4, 41874, -1, 0, 0, False) /* Create  (41874) for Shop */
-     , (35487, 4, 41877, -1, 0, 0, False) /* Create  (41877) for Shop */
+     , (35487, 4, 35981, -1, 0, 0, False) /* Create Scroll of Ancient Graveyard Recall (35981) for Shop */
+     , (35487, 4, 35377, -1, 0, 0, False) /* Create Replica BloodScorch (35377) for Shop */
+     , (35487, 4, 40652, -1, 0, 0, False) /* Create Great BloodScorch (40652) for Shop */
+     , (35487, 4, 38809, -1, 0, 0, False) /* Create Ancient Emblem of Mhoire (38809) for Shop */
+     , (35487, 4, 39979, -1, 0, 0, False) /* Create Ceremonial Leggings (39979) for Shop */
+     , (35487, 4, 39980, -1, 0, 0, False) /* Create Ceremonial Tunic (39980) for Shop */
+     , (35487, 4, 40141, -1, 0, 0, False) /* Create Tome of Chill (40141) for Shop */
+     , (35487, 4, 40606, -1, 0, 0, False) /* Create  (40606) for Shop */
      , (35487, 4, 41918, -1, 0, 0, False) /* Create  (41918) for Shop */
-     , (35487, 4, 42038, -1, 0, 0, False) /* Create Spectral Skull (42038) for Shop */
-     , (35487, 4, 43408, -1, 0, 0, False) /* Create Spectral Crystal of the Corruptor (43408) for Shop */
-     , (35487, 4, 45356, -1, 0, 0, False) /* Create  (45356) for Shop */
-     , (35487, 4, 45357, -1, 0, 0, False) /* Create  (45357) for Shop */
-     , (35487, 4, 45358, -1, 0, 0, False) /* Create  (45358) for Shop */
-     , (35487, 4, 45359, -1, 0, 0, False) /* Create Spectral Sneak Attack Mastery Crystal (45359) for Shop */;
+     , (35487, 4, 40516, -1, 0, 0, False) /* Create Inert Skeletonbane Infusion (40516) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35487, 67109964, 92, 4)

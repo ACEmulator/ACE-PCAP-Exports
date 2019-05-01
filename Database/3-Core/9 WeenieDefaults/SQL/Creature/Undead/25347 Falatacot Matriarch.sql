@@ -61,22 +61,22 @@ VALUES (25347,   1,    10, 0, 0, 1800) /* MaxHealth */
      , (25347,   5,    10, 0, 0, 1206) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25347, 2, 47352,  1, 0, 0, False) /* Create Club (47352) for Wield */
-     , (25347, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
+VALUES (25347, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
      , (25347, 2, 48101,  1, 0, 0, False) /* Create Sickle (48101) for Wield */
-     , (25347, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (25347, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
-     , (25347, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
-     , (25347, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (25347, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (25347, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
-     , (25347, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
-     , (25347, 9, 20548,  0, 0, 0, False) /* Create Scroll of Gears Unwound (20548) for ContainTreasure */
-     , (25347, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
-     , (25347, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (25347, 2, 47352,  1, 0, 0, False) /* Create Club (47352) for Wield */
      , (25347, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (25347, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (25347, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (25347, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (25347, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (25347, 9, 49362,  0, 0, 0, False) /* Create Frost Moar Essence (125) (49362) for ContainTreasure */
+     , (25347, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (25347, 9, 20548,  0, 0, 0, False) /* Create Scroll of Gears Unwound (20548) for ContainTreasure */
+     , (25347, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
+     , (25347, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
      , (25347, 9, 49332,  0, 0, 0, False) /* Create Frost Wisp Essence (80) (49332) for ContainTreasure */
-     , (25347, 9, 49362,  0, 0, 0, False) /* Create Frost Moar Essence (125) (49362) for ContainTreasure */;
+     , (25347, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (25347, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25347, 67114483, 0, 0);

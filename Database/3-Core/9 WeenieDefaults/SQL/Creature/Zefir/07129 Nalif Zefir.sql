@@ -60,34 +60,34 @@ VALUES (7129,   1,    10, 0, 0, 105) /* MaxHealth */
      , (7129,   5,    10, 0, 0, 420) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7129, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (7129, 9,    82,  0, 0, 0, False) /* Create Platemail Leggings (82) for ContainTreasure */
-     , (7129, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (7129, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (7129, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+VALUES (7129, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (7129, 9,   273, 383, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7129, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (7129, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (7129, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
-     , (7129, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (7129, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
-     , (7129, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
-     , (7129, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
-     , (7129, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
-     , (7129, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (7129, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (7129, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (7129, 9,  2653,  0, 0, 0, False) /* Create Scroll of Coordination Self VI (2653) for ContainTreasure */
-     , (7129, 9,  3271,  0, 0, 0, False) /* Create Scroll of Healing Ineptitude V (3271) for ContainTreasure */
-     , (7129, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (7129, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (7129, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (7129, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
+     , (7129, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (7129, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (7129, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (7129, 9,  9644,  0, 0, 0, False) /* Create Scroll of Mana to Health Self VI (9644) for ContainTreasure */
-     , (7129, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (7129, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (7129, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (7129, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
      , (7129, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (7129, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (7129, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (7129, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (7129, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (7129, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
      , (7129, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
-     , (7129, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (7129, 9,    82,  0, 0, 0, False) /* Create Platemail Leggings (82) for ContainTreasure */
+     , (7129, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7129, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (7129, 9,  2653,  0, 0, 0, False) /* Create Scroll of Coordination Self VI (2653) for ContainTreasure */
+     , (7129, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (7129, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
+     , (7129, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (7129, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (7129, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (7129, 9,  3271,  0, 0, 0, False) /* Create Scroll of Healing Ineptitude V (3271) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7129, 67113067, 0, 0);

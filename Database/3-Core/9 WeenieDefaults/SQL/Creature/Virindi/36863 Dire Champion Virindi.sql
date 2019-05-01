@@ -51,10 +51,10 @@ VALUES (36863,   1,    10, 0, 0, 1800) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36863, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
-     , (36863, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
-     , (36863, 9,  3897,  0, 0, 0, False) /* Create Acid Tofun (3897) for ContainTreasure */
+     , (36863, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
      , (36863, 9, 20246,  0, 0, 0, False) /* Create Scroll of Gossamer Flesh (20246) for ContainTreasure */
-     , (36863, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */;
+     , (36863, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (36863, 9,  3897,  0, 0, 0, False) /* Create Acid Tofun (3897) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36863, 67114251, 0, 0);

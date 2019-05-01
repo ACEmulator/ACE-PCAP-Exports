@@ -61,13 +61,13 @@ VALUES (5760,   1,    10, 0, 0, 45) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5760, 2,  5762,  1, 0, 0, False) /* Create Snowball (5762) for Wield */
-     , (5760, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (5760, 9,   273, 31, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (5760, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (5760, 9,   273, 31, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (5760, 9, 22825,  0, 0, 0, False) /* Create A Lump of Coal (22825) for ContainTreasure */
+     , (5760, 9,  7835,  2, 0, 0, False) /* Create Magic Iceball (7835) for ContainTreasure */
+     , (5760, 9,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for ContainTreasure */
+     , (5760, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */
      , (5760, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
      , (5760, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (5760, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */
-     , (5760, 9,  5768,  2, 0, 0, False) /* Create Poofy Snowball (5768) for ContainTreasure */
-     , (5760, 9,  7835,  2, 0, 0, False) /* Create Magic Iceball (7835) for ContainTreasure */
-     , (5760, 9, 22825,  0, 0, 0, False) /* Create A Lump of Coal (22825) for ContainTreasure */
+     , (5760, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (5760, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;

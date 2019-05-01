@@ -67,13 +67,13 @@ VALUES (25963,   1,    10, 0, 0, 220) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25963, 2, 22778,  1, 0, 0, False) /* Create Bandit Dagger (22778) for Wield */
-     , (25963, 2, 22781,  1, 0, 0, False) /* Create Jambiya (22781) for Wield */
-     , (25963, 2, 22784,  1, 0, 0, False) /* Create Khanjar (22784) for Wield */
-     , (25963, 2, 22787,  1, 0, 0, False) /* Create Knife (22787) for Wield */
-     , (25963, 2, 22790,  1, 0, 0, False) /* Create Bandit Simi (22790) for Wield */
+     , (25963, 2, 22799,  1, 0, 0, False) /* Create Bandit Yaoji (22799) for Wield */
      , (25963, 2, 22793,  1, 0, 0, False) /* Create Bandit Rapier (22793) for Wield */
-     , (25963, 2, 22796,  1, 0, 0, False) /* Create Bandit Short Sword (22796) for Wield */
-     , (25963, 2, 22799,  1, 0, 0, False) /* Create Bandit Yaoji (22799) for Wield */;
+     , (25963, 2, 22790,  1, 0, 0, False) /* Create Bandit Simi (22790) for Wield */
+     , (25963, 2, 22781,  1, 0, 0, False) /* Create Jambiya (22781) for Wield */
+     , (25963, 2, 22787,  1, 0, 0, False) /* Create Knife (22787) for Wield */
+     , (25963, 2, 22784,  1, 0, 0, False) /* Create Khanjar (22784) for Wield */
+     , (25963, 2, 22796,  1, 0, 0, False) /* Create Bandit Short Sword (22796) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25963, 67109551, 0, 24)

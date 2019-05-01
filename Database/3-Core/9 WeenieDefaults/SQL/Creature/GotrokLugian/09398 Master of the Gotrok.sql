@@ -48,10 +48,10 @@ VALUES (9398,   1,    10, 0, 0, 660) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9398, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
-     , (9398, 9,   273, 94, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (9398, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */
      , (9398, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (9398, 9,  9394,  0, 0, 0, False) /* Create Lugian Pauldron (9394) for ContainTreasure */
-     , (9398, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */;
+     , (9398, 9,   273, 94, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (9398, 9,  9394,  0, 0, 0, False) /* Create Lugian Pauldron (9394) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9398, 67114975, 0, 0);

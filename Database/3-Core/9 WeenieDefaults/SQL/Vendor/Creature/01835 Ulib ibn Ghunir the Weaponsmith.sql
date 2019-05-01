@@ -86,6 +86,7 @@ VALUES (1835, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
      , (1835, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */
      , (1835, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (1835, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (1835, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (1835, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
      , (1835, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
      , (1835, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
@@ -99,8 +100,7 @@ VALUES (1835, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
      , (1835, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (1835, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1835, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (1835, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (1835, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;
+     , (1835, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1835, 67109550, 0, 24)

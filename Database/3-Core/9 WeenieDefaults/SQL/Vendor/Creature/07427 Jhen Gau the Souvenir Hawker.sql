@@ -77,9 +77,9 @@ VALUES (7427,   1,    10, 0, 0, 245) /* MaxHealth */
      , (7427,   5,    10, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7427, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+VALUES (7427, 4,  7429, -1, 0, 0, False) /* Create Aerlinthe Monarch Shirt (7429) for Shop */
      , (7427, 4,  7428, -1, 0, 0, False) /* Create Aerlinthe Patron Shirt (7428) for Shop */
-     , (7427, 4,  7429, -1, 0, 0, False) /* Create Aerlinthe Monarch Shirt (7429) for Shop */;
+     , (7427, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7427, 67109565, 32, 8)

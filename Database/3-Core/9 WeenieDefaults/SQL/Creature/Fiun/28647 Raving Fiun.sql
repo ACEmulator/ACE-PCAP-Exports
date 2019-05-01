@@ -57,50 +57,50 @@ VALUES (28647,   1,    10, 0, 0, 235) /* MaxHealth */
      , (28647,   5,    10, 0, 0, 255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28647, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (28647, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
-     , (28647, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (28647, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (28647, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (28647, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (28647, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (28647, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (28647, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (28647, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (28647, 9,   273, 945, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (28647, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (28647, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
-     , (28647, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (28647, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (28647, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (28647, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (28647, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
-     , (28647, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (28647, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (28647, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (28647, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (28647, 9,  3362,  0, 0, 0, False) /* Create Scroll of Leadership Mastery Self VI (3362) for ContainTreasure */
-     , (28647, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
-     , (28647, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (28647, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (28647, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (28647, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */
-     , (28647, 9, 20546,  0, 0, 0, False) /* Create Scroll of Jahannan's Boon (20546) for ContainTreasure */
-     , (28647, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (28647, 9, 21108,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VII (21108) for ContainTreasure */
-     , (28647, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
-     , (28647, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
-     , (28647, 9, 21315,  0, 0, 0, False) /* Create Scroll of Force Arc VII (21315) for ContainTreasure */
+VALUES (28647, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
      , (28647, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (28647, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
-     , (28647, 9, 31782,  0, 0, 0, False) /* Create Fire Spine Glaive (31782) for ContainTreasure */
-     , (28647, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (28647, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (28647, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (28647, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (28647, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (28647, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (28647, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */
+     , (28647, 9, 21315,  0, 0, 0, False) /* Create Scroll of Force Arc VII (21315) for ContainTreasure */
+     , (28647, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (28647, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (28647, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (28647, 9, 41044,  0, 0, 0, False) /* Create Flaming Magari Yari (41044) for ContainTreasure */
-     , (28647, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (28647, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (28647, 9, 31782,  0, 0, 0, False) /* Create Fire Spine Glaive (31782) for ContainTreasure */
+     , (28647, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (28647, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (28647, 9, 20546,  0, 0, 0, False) /* Create Scroll of Jahannan's Boon (20546) for ContainTreasure */
+     , (28647, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
      , (28647, 9, 45306,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Self VII (45306) for ContainTreasure */
+     , (28647, 9,   273, 945, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28647, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (28647, 9, 21108,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VII (21108) for ContainTreasure */
+     , (28647, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (28647, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
      , (28647, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (28647, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
+     , (28647, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (28647, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (28647, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (28647, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (28647, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (28647, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (28647, 9,  3362,  0, 0, 0, False) /* Create Scroll of Leadership Mastery Self VI (3362) for ContainTreasure */
+     , (28647, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (28647, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (28647, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (28647, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (28647, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (28647, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (28647, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (28647, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (28647, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (28647, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (28647, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (28647, 9, 41044,  0, 0, 0, False) /* Create Flaming Magari Yari (41044) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28647, 67116332, 0, 0);

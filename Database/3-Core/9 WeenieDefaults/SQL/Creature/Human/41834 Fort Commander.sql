@@ -75,8 +75,8 @@ VALUES (41834,   1,    10, 0, 0, 296) /* MaxHealth */
      , (41834,   5,    10, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41834, 2, 24200,  1, 0, 0, False) /* Create Weeping Claw (24200) for Wield */
-     , (41834, 2, 38851,  1, 0, 0, False) /* Create Celestial Hand Shield (38851) for Wield */;
+VALUES (41834, 2, 38851,  1, 0, 0, False) /* Create Celestial Hand Shield (38851) for Wield */
+     , (41834, 2, 24200,  1, 0, 0, False) /* Create Weeping Claw (24200) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41834, 67110052, 0, 24)

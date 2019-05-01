@@ -80,17 +80,17 @@ VALUES (813,   1,    10, 0, 0, 80) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (813, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (813, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (813, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
-     , (813, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
+     , (813, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
+     , (813, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (813, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
+     , (813, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
+     , (813, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (813, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
      , (813, 4,   361, -1, 0, 0, False) /* Create Yaoji (361) for Shop */
      , (813, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
      , (813, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (813, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (813, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (813, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (813, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */;
+     , (813, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (813, 67109565, 32, 8)

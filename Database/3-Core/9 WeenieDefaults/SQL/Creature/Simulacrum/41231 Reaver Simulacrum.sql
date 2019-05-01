@@ -66,12 +66,12 @@ VALUES (41231,   1,    10, 0, 0, 890) /* MaxHealth */
      , (41231,   5,    10, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41231, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
-     , (41231, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
-     , (41231, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
-     , (41231, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
-     , (41231, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+VALUES (41231, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
      , (41231, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
+     , (41231, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (41231, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (41231, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (41231, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
      , (41231, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

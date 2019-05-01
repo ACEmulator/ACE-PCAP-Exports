@@ -57,9 +57,9 @@ VALUES (35164,   1,    10, 0, 0, 5000) /* MaxHealth */
      , (35164,   5,    10, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35164, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (35164, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
-     , (35164, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (35164, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
+     , (35164, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (35164, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35164, 67114251, 0, 0);

@@ -77,13 +77,38 @@ VALUES (969,   1,    10, 0, 0, 180) /* MaxHealth */
      , (969,   5,    10, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (969, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (969, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+VALUES (969, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (969, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (969, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (969, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (969, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (969, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (969, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (969, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (969, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (969, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (969, 4,  4611, -1, 0, 0, False) /* Create  (4611) for Shop */
+     , (969, 4,  4610, -1, 0, 0, False) /* Create  (4610) for Shop */
+     , (969, 4,  4609, -1, 0, 0, False) /* Create  (4609) for Shop */
+     , (969, 4,  4608, -1, 0, 0, False) /* Create  (4608) for Shop */
+     , (969, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
+     , (969, 4,  4606, -1, 0, 0, False) /* Create  (4606) for Shop */
+     , (969, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
+     , (969, 4,  4604, -1, 0, 0, False) /* Create  (4604) for Shop */
+     , (969, 4,  4603, -1, 0, 0, False) /* Create  (4603) for Shop */
+     , (969, 4,  4602, -1, 0, 0, False) /* Create  (4602) for Shop */
+     , (969, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
+     , (969, 4,  4384, -1, 0, 0, False) /* Create  (4384) for Shop */
+     , (969, 4,  4600, -1, 0, 0, False) /* Create  (4600) for Shop */
+     , (969, 4,  4599, -1, 0, 0, False) /* Create  (4599) for Shop */
+     , (969, 4,  4598, -1, 0, 0, False) /* Create  (4598) for Shop */
+     , (969, 4,  4597, -1, 0, 0, False) /* Create  (4597) for Shop */
+     , (969, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
+     , (969, 4,  4595, -1, 0, 0, False) /* Create  (4595) for Shop */
+     , (969, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
+     , (969, 4,  4592, -1, 0, 0, False) /* Create  (4592) for Shop */
+     , (969, 4,  4590, -1, 0, 0, False) /* Create  (4590) for Shop */
+     , (969, 4,  4589, -1, 0, 0, False) /* Create  (4589) for Shop */
+     , (969, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
+     , (969, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
      , (969, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (969, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (969, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -91,34 +116,9 @@ VALUES (969, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Sh
      , (969, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (969, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (969, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (969, 4,  4384, -1, 0, 0, False) /* Create  (4384) for Shop */
-     , (969, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
-     , (969, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
-     , (969, 4,  4589, -1, 0, 0, False) /* Create  (4589) for Shop */
-     , (969, 4,  4590, -1, 0, 0, False) /* Create  (4590) for Shop */
-     , (969, 4,  4592, -1, 0, 0, False) /* Create  (4592) for Shop */
-     , (969, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
-     , (969, 4,  4595, -1, 0, 0, False) /* Create  (4595) for Shop */
-     , (969, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
-     , (969, 4,  4597, -1, 0, 0, False) /* Create  (4597) for Shop */
-     , (969, 4,  4598, -1, 0, 0, False) /* Create  (4598) for Shop */
-     , (969, 4,  4599, -1, 0, 0, False) /* Create  (4599) for Shop */
-     , (969, 4,  4600, -1, 0, 0, False) /* Create  (4600) for Shop */
-     , (969, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
-     , (969, 4,  4602, -1, 0, 0, False) /* Create  (4602) for Shop */
-     , (969, 4,  4603, -1, 0, 0, False) /* Create  (4603) for Shop */
-     , (969, 4,  4604, -1, 0, 0, False) /* Create  (4604) for Shop */
-     , (969, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
-     , (969, 4,  4606, -1, 0, 0, False) /* Create  (4606) for Shop */
-     , (969, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (969, 4,  4608, -1, 0, 0, False) /* Create  (4608) for Shop */
-     , (969, 4,  4609, -1, 0, 0, False) /* Create  (4609) for Shop */
-     , (969, 4,  4610, -1, 0, 0, False) /* Create  (4610) for Shop */
-     , (969, 4,  4611, -1, 0, 0, False) /* Create  (4611) for Shop */
      , (969, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (969, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (969, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (969, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
+     , (969, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (969, 67109561, 0, 24)

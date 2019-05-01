@@ -57,21 +57,21 @@ VALUES (32593,   1,    10, 0, 0, 448) /* MaxHealth */
      , (32593,   5,    10, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32593, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+VALUES (32593, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (32593, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
      , (32593, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (32593, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (32593, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (32593, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (32593, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (32593, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (32593, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (32593, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (32593, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
-     , (32593, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
      , (32593, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
-     , (32593, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (32593, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (32593, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (32593, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (32593, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (32593, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (32593, 9, 44853,  0, 0, 0, False) /* Create Bordered Cloak (44853) for ContainTreasure */
-     , (32593, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (32593, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (32593, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (32593, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (32593, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (32593, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32593, 67116371, 0, 0);

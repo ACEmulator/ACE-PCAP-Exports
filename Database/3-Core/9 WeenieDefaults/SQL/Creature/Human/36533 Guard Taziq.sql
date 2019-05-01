@@ -74,8 +74,8 @@ VALUES (36533,   1,    10, 0, 0, 140) /* MaxHealth */
      , (36533,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36533, 2, 23698,  1, 0, 0, False) /* Create Spear (23698) for Wield */
-     , (36533, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
+VALUES (36533, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
+     , (36533, 2, 23698,  1, 0, 0, False) /* Create Spear (23698) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36533, 67109557, 0, 24)

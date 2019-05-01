@@ -81,16 +81,16 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (976, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (976, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (976, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
-     , (976, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (976, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (976, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (976, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (976, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (976, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
+     , (976, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (976, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
      , (976, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (976, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (976, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (976, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;
+     , (976, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (976, 67109550, 0, 24)

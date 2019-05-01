@@ -50,10 +50,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12006,   1,    10, 0, 0, 300) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12006, 2, 23657,  1, 0, 0, False) /* Create Frost Throwing Club (23657) for Wield */
+VALUES (12006, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
+     , (12006, 2, 23718,  1, 0, 0, False) /* Create Fire Yaoji (23718) for Wield */
      , (12006, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (12006, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
-     , (12006, 2, 23718,  1, 0, 0, False) /* Create Fire Yaoji (23718) for Wield */;
+     , (12006, 2, 23657,  1, 0, 0, False) /* Create Frost Throwing Club (23657) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12006, 67113410, 0, 0);

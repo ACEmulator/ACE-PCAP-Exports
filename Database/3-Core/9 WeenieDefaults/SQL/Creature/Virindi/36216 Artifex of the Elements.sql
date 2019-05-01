@@ -57,21 +57,21 @@ VALUES (36216,   1,    10, 0, 0, 5000) /* MaxHealth */
      , (36216,   5,    10, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36216, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+VALUES (36216, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (36216, 9, 49270,  0, 0, 0, False) /* Create Lightning Elemental Essence (100) (49270) for ContainTreasure */
      , (36216, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (36216, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (36216, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (36216, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (36216, 9, 20510,  0, 0, 0, False) /* Create Scroll of Challenger's Legacy (20510) for ContainTreasure */
-     , (36216, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (36216, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
-     , (36216, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
-     , (36216, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
-     , (36216, 9, 36212,  0, 0, 0, False) /* Create Message to the Elemental Artifex (36212) for ContainTreasure */
-     , (36216, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
      , (36216, 9, 44977,  0, 0, 0, False) /* Create Lyceum Hood (44977) for ContainTreasure */
+     , (36216, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (36216, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (36216, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (36216, 9, 36212,  0, 0, 0, False) /* Create Message to the Elemental Artifex (36212) for ContainTreasure */
+     , (36216, 9, 20510,  0, 0, 0, False) /* Create Scroll of Challenger's Legacy (20510) for ContainTreasure */
+     , (36216, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (36216, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
      , (36216, 9, 49230,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (125) (49230) for ContainTreasure */
-     , (36216, 9, 49270,  0, 0, 0, False) /* Create Lightning Elemental Essence (100) (49270) for ContainTreasure */;
+     , (36216, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (36216, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
+     , (36216, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36216, 67114251, 0, 0);

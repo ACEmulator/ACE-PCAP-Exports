@@ -51,16 +51,16 @@ VALUES (10950,   1,    10, 0, 0, 330) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10950, 2, 10995,  1, 0, 0, False) /* Create Ebon Spine Harpoon (10995) for Wield */
-     , (10950, 9,    62,  0, 0, 0, False) /* Create Scalemail Girth (62) for ContainTreasure */
      , (10950, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (10950, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (10950, 9,    62,  0, 0, 0, False) /* Create Scalemail Girth (62) for ContainTreasure */
      , (10950, 9,  2458,  1, 0, 0, False) /* Create Health Elixir (2458) for ContainTreasure */
-     , (10950, 9,  4237,  0, 0, 0, False) /* Create Thick Gromnie Hide (4237) for ContainTreasure */
+     , (10950, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (10950, 9,  9413,  0, 0, 0, False) /* Create Dread Mattekar Paw (9413) for ContainTreasure */
+     , (10950, 9,  4237,  0, 0, 0, False) /* Create Thick Gromnie Hide (4237) for ContainTreasure */
      , (10950, 9, 10960,  0, 0, 0, False) /* Create Clay Figurine (10960) for ContainTreasure */
      , (10950, 9, 10996,  0, 0, 0, False) /* Create Ebon Spine Harpoon (10996) for ContainTreasure */
-     , (10950, 9, 10997, 10, 0, 0, False) /* Create Ebon Spine Harpoon (10997) for ContainTreasure */
-     , (10950, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (10950, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
+     , (10950, 9, 10997, 10, 0, 0, False) /* Create Ebon Spine Harpoon (10997) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10950, 67113368, 0, 0);

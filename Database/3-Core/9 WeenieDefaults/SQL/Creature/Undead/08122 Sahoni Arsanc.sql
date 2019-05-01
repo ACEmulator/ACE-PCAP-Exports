@@ -63,13 +63,13 @@ VALUES (8122,   1,    10, 0, 0, 230) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8122, 2, 47673,  1, 0, 0, False) /* Create Flaming Tachi (47673) for Wield */
-     , (8122, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (8122, 9,  3041,  0, 0, 0, False) /* Create Scroll of Fire Protection Self V (3041) for ContainTreasure */
      , (8122, 9,  3521,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other V (3521) for ContainTreasure */
-     , (8122, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (8122, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (8122, 9,  8087,  0, 0, 0, False) /* Create Urgently Written Note (8087) for ContainTreasure */
-     , (8122, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (8122, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
+     , (8122, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (8122, 9,  3041,  0, 0, 0, False) /* Create Scroll of Fire Protection Self V (3041) for ContainTreasure */
+     , (8122, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (8122, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8122, 67111341, 0, 0);

@@ -63,19 +63,19 @@ VALUES (14876,   1,    10, 0, 0, 780) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14876, 2,  6383,  1, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
-     , (14876, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (14876, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
-     , (14876, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
      , (14876, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (14876, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (14876, 9,   273, 2025, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (14876, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (14876, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (14876, 9,  3750,  0, 0, 0, False) /* Create Acid Battle Axe (3750) for ContainTreasure */
-     , (14876, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (14876, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (14876, 9, 24477,  0, 0, 0, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (14876, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (14876, 9,   273, 2025, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14876, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
      , (14876, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (14876, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (14876, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (14876, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (14876, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (14876, 9, 34276,  1, 0, 0, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */
      , (14876, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (14876, 9, 34276,  1, 0, 0, False) /* Create Ancient Empyrean Trinket (34276) for ContainTreasure */;
+     , (14876, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (14876, 9, 24477,  0, 0, 0, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (14876, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (14876, 9,  3750,  0, 0, 0, False) /* Create Acid Battle Axe (3750) for ContainTreasure */
+     , (14876, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */;

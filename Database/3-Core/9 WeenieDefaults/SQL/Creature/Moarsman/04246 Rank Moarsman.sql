@@ -62,28 +62,28 @@ VALUES (4246,   1,    10, 0, 0, 125) /* MaxHealth */
      , (4246,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4246, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (4246, 9,   106,  0, 0, 0, False) /* Create Yoroi Sleeves (106) for ContainTreasure */
-     , (4246, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (4246, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (4246, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (4246, 9,   301,  0, 0, 0, False) /* Create Battle Axe (301) for ContainTreasure */
+VALUES (4246, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (4246, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (4246, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (4246, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
-     , (4246, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (4246, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (4246, 9,  2750,  0, 0, 0, False) /* Create Scroll of Weakness Other V (2750) for ContainTreasure */
-     , (4246, 9,  3170,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self IV (3170) for ContainTreasure */
      , (4246, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (4246, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (4246, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
-     , (4246, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
-     , (4246, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (4246, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (4246, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (4246, 9,   106,  0, 0, 0, False) /* Create Yoroi Sleeves (106) for ContainTreasure */
+     , (4246, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
      , (4246, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
-     , (4246, 9, 49324,  0, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for ContainTreasure */;
+     , (4246, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (4246, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (4246, 9, 49324,  0, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for ContainTreasure */
+     , (4246, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (4246, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (4246, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
+     , (4246, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
+     , (4246, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
+     , (4246, 9,  2750,  0, 0, 0, False) /* Create Scroll of Weakness Other V (2750) for ContainTreasure */
+     , (4246, 9,   301,  0, 0, 0, False) /* Create Battle Axe (301) for ContainTreasure */
+     , (4246, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (4246, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (4246, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (4246, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (4246, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (4246, 9,  3170,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self IV (3170) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4246, 67113032, 0, 0);

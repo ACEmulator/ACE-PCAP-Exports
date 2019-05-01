@@ -46,8 +46,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12681,   1,    10, 0, 0, 205) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12681, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
-     , (12681, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+VALUES (12681, 9, 49240,  0, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for ContainTreasure */
+     , (12681, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
      , (12681, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
      , (12681, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
-     , (12681, 9, 49240,  0, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for ContainTreasure */;
+     , (12681, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */;

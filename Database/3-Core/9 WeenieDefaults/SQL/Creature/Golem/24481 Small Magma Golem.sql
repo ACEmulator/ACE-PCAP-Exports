@@ -61,9 +61,9 @@ VALUES (24481,   1,    10, 0, 0, 540) /* MaxHealth */
      , (24481,   5,    10, 0, 0, 380) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24481, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
+VALUES (24481, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
      , (24481, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (24481, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
      , (24481, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (24481, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
      , (24481, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
-     , (24481, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */;
+     , (24481, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */;

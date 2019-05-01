@@ -80,25 +80,25 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (40974, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (40974, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (40974, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (40974, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (40974, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (40974, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (40974, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (40974, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
-     , (40974, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (40974, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (40974, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (40974, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (40974, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (40974, 4,  1449, -1, 0, 0, False) /* Create Royal Cabbage (1449) for Shop */
-     , (40974, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (40974, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (40974, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (40974, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (40974, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter (14777) for Shop */
      , (40974, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (40974, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (40974, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (40974, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (40974, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (40974, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter (14777) for Shop */
-     , (40974, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
+     , (40974, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (40974, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (40974, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (40974, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (40974, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (40974, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (40974, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (40974, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (40974, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40974, 67109550, 0, 24)

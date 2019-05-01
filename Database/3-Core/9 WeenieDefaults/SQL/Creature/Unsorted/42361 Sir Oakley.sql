@@ -48,8 +48,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42361, 8000, 2881090033) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42361, 2, 24598,  1, 0, 0, False) /* Create Sword of Lost Light (24598) for Wield */
-     , (42361, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
+VALUES (42361, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
+     , (42361, 2, 24598,  1, 0, 0, False) /* Create Sword of Lost Light (24598) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42361, 67109562, 0, 24)

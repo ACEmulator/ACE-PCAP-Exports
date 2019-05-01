@@ -53,16 +53,16 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (12020, 2,  8620,  1, 0, 0, False) /* Create Javelin (8620) for Wield */
      , (12020, 2,  8621,  1, 0, 0, False) /* Create Acid Javelin (8621) for Wield */
      , (12020, 2, 12028,  1, 0, 0, False) /* Create Serpent's Fang (12028) for Wield */
-     , (12020, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (12020, 9,  2458,  1, 0, 0, False) /* Create Health Elixir (2458) for ContainTreasure */
-     , (12020, 9,  7046,  1, 0, 0, False) /* Create Sclavus Tongue (7046) for ContainTreasure */
+     , (12020, 9, 40704,  0, 0, 0, False) /* Create Covenant Tassets (40704) for ContainTreasure */
+     , (12020, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (12020, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */
      , (12020, 9,  9259,  0, 0, 0, False) /* Create Large Sclavus Hide (9259) for ContainTreasure */
      , (12020, 9, 20244,  0, 0, 0, False) /* Create Scroll of Adja's Gift (20244) for ContainTreasure */
-     , (12020, 9, 23539,  0, 0, 0, False) /* Create Serpent's Fang (23539) for ContainTreasure */
-     , (12020, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */
-     , (12020, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (12020, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (12020, 9, 40695,  0, 0, 0, False) /* Create Covenant Sollerets (40695) for ContainTreasure */
-     , (12020, 9, 40704,  0, 0, 0, False) /* Create Covenant Tassets (40704) for ContainTreasure */;
+     , (12020, 9,  2458,  1, 0, 0, False) /* Create Health Elixir (2458) for ContainTreasure */
+     , (12020, 9, 23539,  0, 0, 0, False) /* Create Serpent's Fang (23539) for ContainTreasure */
+     , (12020, 9,  7046,  1, 0, 0, False) /* Create Sclavus Tongue (7046) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12020, 67113361, 0, 0);

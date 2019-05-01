@@ -77,16 +77,16 @@ VALUES (11395,   1,    10, 0, 0, 138) /* MaxHealth */
      , (11395,   5,    10, 0, 0, 45) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11395, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (11395, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+VALUES (11395, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (11395, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (11395, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (11395, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (11395, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
-     , (11395, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (11395, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (11395, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (11395, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (11395, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (11395, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (11395, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (11395, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (11395, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (11395, 4, 27610, -1, 0, 0, False) /* Create  (27610) for Shop */
      , (11395, 4, 27611, -1, 0, 0, False) /* Create  (27611) for Shop */
      , (11395, 4, 27612, -1, 0, 0, False) /* Create Tumeroks on the Island (27612) for Shop */

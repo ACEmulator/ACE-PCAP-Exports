@@ -66,8 +66,8 @@ VALUES (31033, 8000, 3361583719) /* PCAPRecordedObjectIID */
      , (31033, 8008, 3361583689) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31033, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (31033, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (31033, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+VALUES (31033, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (31033, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
      , (31033, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
+     , (31033, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
      , (31033, 2, 40617,  1, 0, 0, False) /* Create Frost Spadone (40617) for Wield */;

@@ -61,10 +61,10 @@ VALUES (25884,   1,    10, 0, 0, 1000) /* MaxHealth */
      , (25884,   5,    10, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25884, 9,    90,  0, 0, 0, False) /* Create Yoroi Pauldrons (90) for ContainTreasure */
-     , (25884, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (25884, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+VALUES (25884, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (25884, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (25884, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
      , (25884, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
-     , (25884, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
+     , (25884, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (25884, 9,    90,  0, 0, 0, False) /* Create Yoroi Pauldrons (90) for ContainTreasure */
+     , (25884, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
+     , (25884, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;

@@ -60,12 +60,12 @@ VALUES (30937,   1,    10, 0, 0, 380) /* MaxHealth */
      , (30937,   5,    10, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30937, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (30937, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (30937, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
-     , (30937, 9, 20233,  0, 0, 0, False) /* Create Scroll of Ataxia (20233) for ContainTreasure */
+VALUES (30937, 9, 20233,  0, 0, 0, False) /* Create Scroll of Ataxia (20233) for ContainTreasure */
+     , (30937, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (30937, 9, 20505,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other VII (20505) for ContainTreasure */
-     , (30937, 9, 29492,  0, 0, 0, False) /* Create Sir Ginazio's Sword (29492) for ContainTreasure */;
+     , (30937, 9, 29492,  0, 0, 0, False) /* Create Sir Ginazio's Sword (29492) for ContainTreasure */
+     , (30937, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (30937, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30937, 67115511, 0, 0);

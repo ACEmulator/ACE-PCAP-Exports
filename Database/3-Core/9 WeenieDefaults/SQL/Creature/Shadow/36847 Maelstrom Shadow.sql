@@ -70,20 +70,20 @@ VALUES (36847,   1,    10, 0, 0, 535) /* MaxHealth */
      , (36847,   5,    10, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36847, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
-     , (36847, 9,    62,  0, 0, 0, False) /* Create Scalemail Girth (62) for ContainTreasure */
-     , (36847, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
-     , (36847, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (36847, 9,   273, 222, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (36847, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (36847, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (36847, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (36847, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (36847, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (36847, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+VALUES (36847, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (36847, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (36847, 9,   273, 222, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (36847, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
      , (36847, 9, 20463,  0, 0, 0, False) /* Create Scroll of Evisceration (20463) for ContainTreasure */
-     , (36847, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */;
+     , (36847, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (36847, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (36847, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (36847, 9,    62,  0, 0, 0, False) /* Create Scalemail Girth (62) for ContainTreasure */
+     , (36847, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (36847, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
+     , (36847, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (36847, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (36847, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36847, 67112860, 0, 0);

@@ -62,8 +62,8 @@ VALUES (52027,   1,    10, 0, 0, 4355) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52027, 2, 11971,  1, 0, 0, False) /* Create Buadren (11971) for Wield */
-     , (52027, 9,   273, 1938, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (52027, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;
+     , (52027, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (52027, 9,   273, 1938, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52027, 67113368, 0, 0);

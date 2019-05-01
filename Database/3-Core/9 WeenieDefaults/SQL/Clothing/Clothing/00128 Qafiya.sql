@@ -71,8 +71,8 @@ VALUES (128,  1485,      2)
      , (128,  5808,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (128, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (128, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+VALUES (128, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (128, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (128, 67110360, 240, 10);

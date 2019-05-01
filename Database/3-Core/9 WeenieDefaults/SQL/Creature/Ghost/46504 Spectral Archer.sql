@@ -60,8 +60,8 @@ VALUES (46504,   1,    10, 0, 0, 2200) /* MaxHealth */
      , (46504,   5,    10, 0, 0, 750) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46504, 2, 46629,  1, 0, 0, False) /* Create Greater Deadly Lightning Arrow (46629) for Wield */
-     , (46504, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) for Wield */;
+VALUES (46504, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) for Wield */
+     , (46504, 2, 46629,  1, 0, 0, False) /* Create Greater Deadly Lightning Arrow (46629) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46504, 0, 83899054, 83899085)

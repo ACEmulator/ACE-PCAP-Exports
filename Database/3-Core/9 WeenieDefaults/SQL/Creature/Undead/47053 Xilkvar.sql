@@ -51,16 +51,16 @@ VALUES (47053,   1,    10, 0, 0, 9942) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47053, 2, 47044,  1, 0, 0, False) /* Create Khopesh (47044) for Wield */
+     , (47053, 9, 49424,  0, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for ContainTreasure */
+     , (47053, 9, 49244,  0, 0, 0, False) /* Create Lightning Zombie Essence (150) (49244) for ContainTreasure */
+     , (47053, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (47053, 9, 43383,  0, 0, 0, False) /* Create Nether Staff (43383) for ContainTreasure */
+     , (47053, 9, 49425,  0, 0, 0, False) /* Create Acid Spectre Essence (150) (49425) for ContainTreasure */
+     , (47053, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
      , (47053, 9,    75,  0, 0, 0, False) /* Create Helmet (75) for ContainTreasure */
      , (47053, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
      , (47053, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (47053, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (47053, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (47053, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (47053, 9, 43383,  0, 0, 0, False) /* Create Nether Staff (43383) for ContainTreasure */
-     , (47053, 9, 49244,  0, 0, 0, False) /* Create Lightning Zombie Essence (150) (49244) for ContainTreasure */
-     , (47053, 9, 49424,  0, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for ContainTreasure */
-     , (47053, 9, 49425,  0, 0, 0, False) /* Create Acid Spectre Essence (150) (49425) for ContainTreasure */;
+     , (47053, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47053, 67115247, 0, 0);

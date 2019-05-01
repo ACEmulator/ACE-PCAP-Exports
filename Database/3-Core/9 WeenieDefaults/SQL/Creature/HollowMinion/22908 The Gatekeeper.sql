@@ -47,17 +47,17 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22908,   1,    10, 0, 0, 600) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22908, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+VALUES (22908, 9, 20501,  0, 0, 0, False) /* Create Scroll of Jibril's Boon (20501) for ContainTreasure */
      , (22908, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (22908, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (22908, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (22908, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
      , (22908, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
-     , (22908, 9, 20429,  0, 0, 0, False) /* Create Scroll of Vagabond's Gift (20429) for ContainTreasure */
-     , (22908, 9, 20501,  0, 0, 0, False) /* Create Scroll of Jibril's Boon (20501) for ContainTreasure */
-     , (22908, 9, 22922,  0, 0, 0, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
      , (22908, 9, 25947,  0, 0, 0, False) /* Create Dark Ruby Ring (25947) for ContainTreasure */
-     , (22908, 9, 29246,  0, 0, 0, False) /* Create Ultimate Singularity Crossbow (29246) for ContainTreasure */;
+     , (22908, 9, 22922,  0, 0, 0, False) /* Create Asylum Chest Key (22922) for ContainTreasure */
+     , (22908, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (22908, 9, 20429,  0, 0, 0, False) /* Create Scroll of Vagabond's Gift (20429) for ContainTreasure */
+     , (22908, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (22908, 9, 29246,  0, 0, 0, False) /* Create Ultimate Singularity Crossbow (29246) for ContainTreasure */
+     , (22908, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (22908, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22908, 67114794, 0, 0);

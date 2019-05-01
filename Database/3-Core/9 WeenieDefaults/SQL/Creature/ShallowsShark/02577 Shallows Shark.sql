@@ -60,10 +60,10 @@ VALUES (2577,   1,    10, 0, 0, 55) /* MaxHealth */
      , (2577,   5,    10, 0, 0, 21) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2577, 9,   273, 50, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (2577, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
      , (2577, 9,  2713,  0, 0, 0, False) /* Create Scroll of Quickness Other III (2713) for ContainTreasure */
      , (2577, 9, 22161,  0, 0, 0, False) /* Create Flaming Nabut (22161) for ContainTreasure */
-     , (2577, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */;
+     , (2577, 9,   273, 50, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2577, 67116714, 0, 0);

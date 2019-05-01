@@ -67,10 +67,10 @@ VALUES (32295,   1,    10, 0, 0, 890) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32295, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (32295, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */
      , (32295, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (32295, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
      , (32295, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
-     , (32295, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */
      , (32295, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

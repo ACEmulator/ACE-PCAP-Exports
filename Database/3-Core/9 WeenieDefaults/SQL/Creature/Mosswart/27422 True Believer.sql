@@ -62,8 +62,8 @@ VALUES (27422,   1,    10, 0, 0, 395) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27422, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield */
-     , (27422, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
-     , (27422, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */;
+     , (27422, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (27422, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27422, 67115140, 0, 0);

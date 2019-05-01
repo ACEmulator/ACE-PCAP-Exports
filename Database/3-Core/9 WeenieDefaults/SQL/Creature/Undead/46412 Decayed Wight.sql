@@ -50,25 +50,25 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46412,   1,    10, 0, 0, 3400) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46412, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (46412, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
      , (46412, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (46412, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */
+     , (46412, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (46412, 2, 48091,  1, 0, 0, False) /* Create Lightning Silifi (48091) for Wield */
+     , (46412, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (46412, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
+     , (46412, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
+     , (46412, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
+     , (46412, 2, 48084,  1, 0, 0, False) /* Create Katar (48084) for Wield */
      , (46412, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (46412, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (46412, 2, 48080,  1, 0, 0, False) /* Create Quarrel (48080) for Wield */
-     , (46412, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
-     , (46412, 2, 48084,  1, 0, 0, False) /* Create Katar (48084) for Wield */
-     , (46412, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
-     , (46412, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (46412, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */
-     , (46412, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
-     , (46412, 2, 48091,  1, 0, 0, False) /* Create Lightning Silifi (48091) for Wield */
-     , (46412, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
+     , (46412, 9, 49362,  0, 0, 0, False) /* Create Frost Moar Essence (125) (49362) for ContainTreasure */
      , (46412, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
      , (46412, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
-     , (46412, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (46412, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
      , (46412, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */
-     , (46412, 9, 49362,  0, 0, 0, False) /* Create Frost Moar Essence (125) (49362) for ContainTreasure */;
+     , (46412, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (46412, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46412, 67111665, 0, 0);

@@ -61,8 +61,8 @@ VALUES (40268,   1,    10, 0, 0, 1110) /* MaxHealth */
      , (40268,   5,    10, 0, 0, 982) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40268, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
-     , (40268, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */;
+VALUES (40268, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */
+     , (40268, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40268, 67111940, 0, 0);

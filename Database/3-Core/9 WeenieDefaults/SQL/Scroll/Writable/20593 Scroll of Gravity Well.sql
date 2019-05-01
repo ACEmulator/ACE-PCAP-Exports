@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20593,  2318,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20593, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (20593, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (20593, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (20593, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (20593, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (20593, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (20593, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (20593, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

@@ -62,5 +62,5 @@ VALUES (20186,   1,    10, 0, 0, 220) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20186, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (20186, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (20186, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */;
+     , (20186, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
+     , (20186, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;

@@ -61,14 +61,14 @@ VALUES (38412,   1,    10, 0, 0, 1110) /* MaxHealth */
      , (38412,   5,    10, 0, 0, 1020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38412, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
-     , (38412, 2, 38923,  1, 0, 0, False) /* Create T'thuun Bow (38923) for Wield */
-     , (38412, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
-     , (38412, 2, 38925,  1, 0, 0, False) /* Create T'thuun Dagger (38925) for Wield */
-     , (38412, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */
-     , (38412, 2, 38927,  1, 0, 0, False) /* Create T'thuun Spear (38927) for Wield */
+VALUES (38412, 2, 38925,  1, 0, 0, False) /* Create T'thuun Dagger (38925) for Wield */
+     , (38412, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
      , (38412, 2, 38928,  1, 0, 0, False) /* Create T'thuun Sword (38928) for Wield */
+     , (38412, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */
+     , (38412, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
      , (38412, 2, 40266,  1, 0, 0, False) /* Create T'thuun Aegis (40266) for Wield */
+     , (38412, 2, 38927,  1, 0, 0, False) /* Create T'thuun Spear (38927) for Wield */
+     , (38412, 2, 38923,  1, 0, 0, False) /* Create T'thuun Bow (38923) for Wield */
      , (38412, 2, 47071,  1, 0, 0, False) /* Create Arrow (47071) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -77,12 +77,15 @@ VALUES (5876,   1,    10, 0, 0, 133) /* MaxHealth */
      , (5876,   5,    10, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5876, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (5876, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
-     , (5876, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
+VALUES (5876, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (5876, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
      , (5876, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit (632) for Shop */
+     , (5876, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (5876, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
      , (5876, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
+     , (5876, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
+     , (5876, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
+     , (5876, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
      , (5876, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5876, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5876, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -90,9 +93,6 @@ VALUES (5876, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for S
      , (5876, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (5876, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (5876, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (5876, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
-     , (5876, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
-     , (5876, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
      , (5876, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (5876, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (5876, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */

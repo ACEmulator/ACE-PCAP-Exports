@@ -52,31 +52,31 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24910,   1,    10, 0, 0, 2000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24910, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
-     , (24910, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
-     , (24910, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (24910, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (24910, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
+VALUES (24910, 9,  3492,  0, 0, 0, False) /* Create Scroll of Sprint Other VI (3492) for ContainTreasure */
      , (24910, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (24910, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (24910, 9,  3072,  0, 0, 0, False) /* Create Scroll of Piercing Protection Self VI (3072) for ContainTreasure */
-     , (24910, 9,  3112,  0, 0, 0, False) /* Create Scroll of Regenerate Other VI (3112) for ContainTreasure */
      , (24910, 9,  3141,  0, 0, 0, False) /* Create Scroll of Arcane Enlightenment Self V (3141) for ContainTreasure */
-     , (24910, 9,  3492,  0, 0, 0, False) /* Create Scroll of Sprint Other VI (3492) for ContainTreasure */
+     , (24910, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (24910, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
+     , (24910, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (24910, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
+     , (24910, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (24910, 9, 24936,  0, 0, 0, False) /* Create Brood Queen Nymph Metathorax (24936) for ContainTreasure */
+     , (24910, 9, 24934,  0, 0, 0, False) /* Create Brood Queen Nymph Head (24934) for ContainTreasure */
+     , (24910, 9,  3112,  0, 0, 0, False) /* Create Scroll of Regenerate Other VI (3112) for ContainTreasure */
+     , (24910, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (24910, 9, 49247,  0, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for ContainTreasure */
+     , (24910, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (24910, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
+     , (24910, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
+     , (24910, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (24910, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
      , (24910, 9, 20446,  0, 0, 0, False) /* Create Scroll of Outlander's Insolence (20446) for ContainTreasure */
+     , (24910, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
+     , (24910, 9,  3072,  0, 0, 0, False) /* Create Scroll of Piercing Protection Self VI (3072) for ContainTreasure */
      , (24910, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
      , (24910, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
-     , (24910, 9, 24930,  0, 0, 0, False) /* Create Brood Queen Nymph Crest (24930) for ContainTreasure */
-     , (24910, 9, 24934,  0, 0, 0, False) /* Create Brood Queen Nymph Head (24934) for ContainTreasure */
-     , (24910, 9, 24936,  0, 0, 0, False) /* Create Brood Queen Nymph Metathorax (24936) for ContainTreasure */
-     , (24910, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (24910, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
-     , (24910, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
-     , (24910, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
-     , (24910, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
-     , (24910, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
-     , (24910, 9, 49247,  0, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for ContainTreasure */
-     , (24910, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */;
+     , (24910, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
+     , (24910, 9, 24930,  0, 0, 0, False) /* Create Brood Queen Nymph Crest (24930) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24910, 67114424, 0, 0);

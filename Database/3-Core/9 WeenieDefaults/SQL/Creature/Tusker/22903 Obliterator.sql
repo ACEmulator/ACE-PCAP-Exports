@@ -59,16 +59,16 @@ VALUES (22903,   1,    10, 0, 0, 50000) /* MaxHealth */
      , (22903,   5,    10, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22903, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (22903, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (22903, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+VALUES (22903, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (22903, 9, 41052,  0, 0, 0, False) /* Create Greataxe (41052) for ContainTreasure */
      , (22903, 9, 20557,  0, 0, 0, False) /* Create Scroll of Oswald's Blessing (20557) for ContainTreasure */
+     , (22903, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
+     , (22903, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
      , (22903, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
-     , (22903, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (22903, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
      , (22903, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */
      , (22903, 9, 40702,  0, 0, 0, False) /* Create Covenant Pauldrons (40702) for ContainTreasure */
-     , (22903, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
-     , (22903, 9, 41052,  0, 0, 0, False) /* Create Greataxe (41052) for ContainTreasure */;
+     , (22903, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22903, 1, 83892782, 83892781)

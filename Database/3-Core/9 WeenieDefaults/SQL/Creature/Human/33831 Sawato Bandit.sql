@@ -65,6 +65,6 @@ VALUES (33831,   1,    10, 0, 0, 600) /* MaxHealth */
      , (33831,   5,    10, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33831, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+VALUES (33831, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */
      , (33831, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
-     , (33831, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */;
+     , (33831, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */;

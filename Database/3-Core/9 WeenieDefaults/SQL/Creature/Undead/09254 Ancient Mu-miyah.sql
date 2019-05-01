@@ -60,8 +60,8 @@ VALUES (9254,   1,    10, 0, 0, 130) /* MaxHealth */
      , (9254,   5,    10, 0, 0, 290) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9254, 9,   273, 194, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9254, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */;
+VALUES (9254, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (9254, 9,   273, 194, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9254, 67113142, 0, 0);

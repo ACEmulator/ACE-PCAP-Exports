@@ -60,40 +60,40 @@ VALUES (4212,   1,    10, 0, 0, 100000) /* MaxHealth */
      , (4212,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4212, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
-     , (4212, 9,   110,  0, 0, 0, False) /* Create Platemail Tassets (110) for ContainTreasure */
-     , (4212, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (4212, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (4212, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (4212, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (4212, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (4212, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (4212, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (4212, 9,  3775,  0, 0, 0, False) /* Create Lightning Dabus (3775) for ContainTreasure */
-     , (4212, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
-     , (4212, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
-     , (4212, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
-     , (4212, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */
-     , (4212, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */
-     , (4212, 9, 12253, 10, 0, 0, False) /* Create Monougat (12253) for ContainTreasure */
-     , (4212, 9, 20425,  0, 0, 0, False) /* Create Scroll of Fortified Lock (20425) for ContainTreasure */
-     , (4212, 9, 20472,  0, 0, 0, False) /* Create Scroll of Blessing of the Mace Turner (20472) for ContainTreasure */
-     , (4212, 9, 20524,  0, 0, 0, False) /* Create Scroll of Ketnan's Blessing (20524) for ContainTreasure */
-     , (4212, 9, 20571,  0, 0, 0, False) /* Create Scroll of Kaluhc's Boon (20571) for ContainTreasure */
-     , (4212, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
-     , (4212, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
-     , (4212, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
-     , (4212, 9, 23108,  0, 0, 0, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (4212, 9, 27220,  0, 0, 0, False) /* Create Lorica Boots (27220) for ContainTreasure */
-     , (4212, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
-     , (4212, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
-     , (4212, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
-     , (4212, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
-     , (4212, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */
+VALUES (4212, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
      , (4212, 9, 41038,  0, 0, 0, False) /* Create Lightning Assagai (41038) for ContainTreasure */
-     , (4212, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (4212, 9, 20571,  0, 0, 0, False) /* Create Scroll of Kaluhc's Boon (20571) for ContainTreasure */
+     , (4212, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */
+     , (4212, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (4212, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
+     , (4212, 9, 20524,  0, 0, 0, False) /* Create Scroll of Ketnan's Blessing (20524) for ContainTreasure */
+     , (4212, 9,   110,  0, 0, 0, False) /* Create Platemail Tassets (110) for ContainTreasure */
+     , (4212, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (4212, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
+     , (4212, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (4212, 9, 12253, 10, 0, 0, False) /* Create Monougat (12253) for ContainTreasure */
      , (4212, 9, 45418,  0, 0, 0, False) /* Create Lightning Knife (45418) for ContainTreasure */
-     , (4212, 9, 49223,  0, 0, 0, False) /* Create Lightning Skeleton Bushi Essence (125) (49223) for ContainTreasure */;
+     , (4212, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (4212, 9,  3775,  0, 0, 0, False) /* Create Lightning Dabus (3775) for ContainTreasure */
+     , (4212, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */
+     , (4212, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (4212, 9, 27220,  0, 0, 0, False) /* Create Lorica Boots (27220) for ContainTreasure */
+     , (4212, 9, 20425,  0, 0, 0, False) /* Create Scroll of Fortified Lock (20425) for ContainTreasure */
+     , (4212, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (4212, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (4212, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (4212, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (4212, 9, 49223,  0, 0, 0, False) /* Create Lightning Skeleton Bushi Essence (125) (49223) for ContainTreasure */
+     , (4212, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
+     , (4212, 9, 20472,  0, 0, 0, False) /* Create Scroll of Blessing of the Mace Turner (20472) for ContainTreasure */
+     , (4212, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (4212, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */
+     , (4212, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (4212, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (4212, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (4212, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (4212, 9, 23108,  0, 0, 0, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
+     , (4212, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4212, 67111953, 0, 0);

@@ -49,6 +49,6 @@ VALUES (14247, 8000, 1979343272) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14247, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (14247, 16,  7046,  1, 0, 0, False) /* Create Sclavus Tongue (7046) for HouseBuy */
      , (14247, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (14247, 16,  7046,  1, 0, 0, False) /* Create Sclavus Tongue (7046) for HouseBuy */
      , (14247, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

@@ -71,8 +71,8 @@ VALUES (78,  1486,      2)
      , (78,  2546,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (78, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (78, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
+VALUES (78, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
+     , (78, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (78, 67110016, 96, 12);

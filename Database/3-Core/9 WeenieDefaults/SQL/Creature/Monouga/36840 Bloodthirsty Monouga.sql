@@ -61,8 +61,8 @@ VALUES (36840,   1,    10, 0, 0, 420) /* MaxHealth */
      , (36840,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36840, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
-     , (36840, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */;
+VALUES (36840, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */
+     , (36840, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36840, 67114291, 0, 0);

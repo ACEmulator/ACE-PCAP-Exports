@@ -74,8 +74,8 @@ VALUES (28690,   1,    10, 0, 0, 45) /* MaxHealth */
      , (28690,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28690, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
-     , (28690, 2, 25547,  1, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */;
+VALUES (28690, 2, 25547,  1, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */
+     , (28690, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28690, 67109558, 0, 24)

@@ -59,18 +59,18 @@ VALUES (29011,   1,    10, 0, 0, 100000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29011, 2, 29047,  1, 0, 0, False) /* Create Repugnant Staff (29047) for Wield */
-     , (29011, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (29011, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
-     , (29011, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (29011, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (29011, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
      , (29011, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (29011, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
      , (29011, 9, 20608,  0, 0, 0, False) /* Create Scroll of Gift of Essence (20608) for ContainTreasure */
      , (29011, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */
+     , (29011, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (29011, 9, 45322,  0, 0, 0, False) /* Create Scroll of Shield Mastery Other VII (45322) for ContainTreasure */
      , (29011, 9, 27219,  0, 0, 0, False) /* Create Chiran Sandals (27219) for ContainTreasure */
-     , (29011, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
      , (29011, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
-     , (29011, 9, 45322,  0, 0, 0, False) /* Create Scroll of Shield Mastery Other VII (45322) for ContainTreasure */;
+     , (29011, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (29011, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (29011, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (29011, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29011, 67115349, 0, 0);

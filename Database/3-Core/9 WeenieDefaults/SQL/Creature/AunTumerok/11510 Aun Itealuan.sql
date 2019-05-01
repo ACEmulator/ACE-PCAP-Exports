@@ -61,35 +61,35 @@ VALUES (11510,   1,    10, 0, 0, 160) /* MaxHealth */
      , (11510,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11510, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (11510, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+VALUES (11510, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (11510, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (11510, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
      , (11510, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
-     , (11510, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (11510, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
-     , (11510, 2,  5305,  1, 0, 0, False) /* Create Greater Fire Arrow (5305) for Wield */
-     , (11510, 2,  5306,  1, 0, 0, False) /* Create Greater Acid Arrow (5306) for Wield */
+     , (11510, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (11510, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
      , (11510, 2,  5307,  1, 0, 0, False) /* Create Greater Frost Arrow (5307) for Wield */
      , (11510, 2,  5308,  1, 0, 0, False) /* Create Greater Lightning Arrow (5308) for Wield */
-     , (11510, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
-     , (11510, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (11510, 2,  5305,  1, 0, 0, False) /* Create Greater Fire Arrow (5305) for Wield */
+     , (11510, 2,  5306,  1, 0, 0, False) /* Create Greater Acid Arrow (5306) for Wield */
      , (11510, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (11510, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
-     , (11510, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (11510, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
-     , (11510, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
-     , (11510, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
      , (11510, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
-     , (11510, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (11510, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
-     , (11510, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (11510, 9, 21298,  0, 0, 0, False) /* Create Scroll of Blade Arc IV (21298) for ContainTreasure */
-     , (11510, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
-     , (11510, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+     , (11510, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (11510, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
      , (11510, 9, 31776,  0, 0, 0, False) /* Create Electric Board with Nail (31776) for ContainTreasure */
-     , (11510, 9, 40618,  0, 0, 0, False) /* Create Spadone (40618) for ContainTreasure */
      , (11510, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */
-     , (11510, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */;
+     , (11510, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (11510, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
+     , (11510, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (11510, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+     , (11510, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (11510, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (11510, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (11510, 9, 40618,  0, 0, 0, False) /* Create Spadone (40618) for ContainTreasure */
+     , (11510, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (11510, 9, 21298,  0, 0, 0, False) /* Create Scroll of Blade Arc IV (21298) for ContainTreasure */
+     , (11510, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
+     , (11510, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11510, 67113366, 0, 0);

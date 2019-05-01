@@ -77,8 +77,8 @@ VALUES (6113,   1,    10, 0, 0, 123) /* MaxHealth */
      , (6113,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6113, 4,  5781, -1, 0, 0, False) /* Create Cinnamon (5781) for Shop */
-     , (6113, 4,  5794, -1, 0, 0, False) /* Create Hot Pepper (5794) for Shop */
+VALUES (6113, 4,  5794, -1, 0, 0, False) /* Create Hot Pepper (5794) for Shop */
+     , (6113, 4,  5781, -1, 0, 0, False) /* Create Cinnamon (5781) for Shop */
      , (6113, 4,  5803, -1, 0, 0, False) /* Create Oregano (5803) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

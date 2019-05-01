@@ -60,7 +60,7 @@ VALUES (5767, 2,  5770,  1, 0, 0, False) /* Create "Enchanted" Iceball (5770) fo
      , (5767, 4,  5769, -1, 0, 0, False) /* Create Iceball (5769) for Shop */
      , (5767, 4,  5770, -1, 0, 0, False) /* Create "Enchanted" Iceball (5770) for Shop */
      , (5767, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note (13224) for Shop */
-     , (5767, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */
-     , (5767, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (5767, 9, 45241,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other VI (45241) for ContainTreasure */
-     , (5767, 9, 49475,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VI (49475) for ContainTreasure */;
+     , (5767, 9, 49475,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VI (49475) for ContainTreasure */
+     , (5767, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (5767, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */;

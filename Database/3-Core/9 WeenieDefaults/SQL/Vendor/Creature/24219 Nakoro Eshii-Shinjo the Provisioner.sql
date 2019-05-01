@@ -77,39 +77,64 @@ VALUES (24219,   1,    10, 0, 0, 128) /* MaxHealth */
      , (24219,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24219, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
-     , (24219, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
-     , (24219, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+VALUES (24219, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
+     , (24219, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
+     , (24219, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */
+     , (24219, 4, 41423, -1, 0, 0, False) /* Create Medal Mold (41423) for Shop */
+     , (24219, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
+     , (24219, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
+     , (24219, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
+     , (24219, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */
      , (24219, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (24219, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
+     , (24219, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (24219, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (24219, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (24219, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (24219, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
      , (24219, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
-     , (24219, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
      , (24219, 4,    81, -1, 0, 0, False) /* Create Leggings (81) for Shop */
-     , (24219, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
+     , (24219, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
      , (24219, 4,   109, -1, 0, 0, False) /* Create Olthoi Tassets (109) for Shop */
      , (24219, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (24219, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (24219, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
-     , (24219, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (24219, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (24219, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (24219, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (24219, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
-     , (24219, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
-     , (24219, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (24219, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (24219, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (24219, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (24219, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (24219, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
+     , (24219, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (24219, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (24219, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (24219, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (24219, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (24219, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (24219, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (24219, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (24219, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
+     , (24219, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (24219, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (24219, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (24219, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (24219, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (24219, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (24219, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (24219, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (24219, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (24219, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (24219, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (24219, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (24219, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
-     , (24219, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (24219, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (24219, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (24219, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (24219, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (24219, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (24219, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (24219, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (24219, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (24219, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (24219, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (24219, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (24219, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (24219, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (24219, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (24219, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (24219, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (24219, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (24219, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (24219, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -117,34 +142,9 @@ VALUES (24219, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Sho
      , (24219, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (24219, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (24219, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (24219, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (24219, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (24219, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (24219, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (24219, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (24219, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
-     , (24219, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (24219, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (24219, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (24219, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (24219, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (24219, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
-     , (24219, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (24219, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
-     , (24219, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (24219, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24219, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (24219, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24219, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
-     , (24219, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
-     , (24219, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
-     , (24219, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
-     , (24219, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */
-     , (24219, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
-     , (24219, 4, 41423, -1, 0, 0, False) /* Create Medal Mold (41423) for Shop */
-     , (24219, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
-     , (24219, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
-     , (24219, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */;
+     , (24219, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24219, 67109964, 92, 4)

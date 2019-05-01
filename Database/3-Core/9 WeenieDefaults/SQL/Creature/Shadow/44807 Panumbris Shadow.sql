@@ -72,8 +72,8 @@ VALUES (44807,   1,    10, 0, 0, 2380) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44807, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (44807, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (44807, 2, 47664,  1, 0, 0, False) /* Create Lightning Tachi (47664) for Wield */;
+     , (44807, 2, 47664,  1, 0, 0, False) /* Create Lightning Tachi (47664) for Wield */
+     , (44807, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44807, 67112860, 0, 0);

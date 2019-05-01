@@ -60,21 +60,21 @@ VALUES (19294,   1,    10, 0, 0, 90) /* MaxHealth */
      , (19294,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19294, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (19294, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
-     , (19294, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+VALUES (19294, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
      , (19294, 9,   273, 25, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (19294, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (19294, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (19294, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */
+     , (19294, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (19294, 9, 49240,  0, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for ContainTreasure */
+     , (19294, 9,  3775,  0, 0, 0, False) /* Create Lightning Dabus (3775) for ContainTreasure */
+     , (19294, 9, 45426,  0, 0, 0, False) /* Create Jambiya (45426) for ContainTreasure */
+     , (19294, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
      , (19294, 9,  3053,  0, 0, 0, False) /* Create Scroll of Lightning Protection Self II (3053) for ContainTreasure */
      , (19294, 9,  3143,  0, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Other II (3143) for ContainTreasure */
-     , (19294, 9,  3775,  0, 0, 0, False) /* Create Lightning Dabus (3775) for ContainTreasure */
-     , (19294, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
      , (19294, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
-     , (19294, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
      , (19294, 9, 31792,  0, 0, 0, False) /* Create Frost Stick (31792) for ContainTreasure */
-     , (19294, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
-     , (19294, 9, 45426,  0, 0, 0, False) /* Create Jambiya (45426) for ContainTreasure */
-     , (19294, 9, 49240,  0, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for ContainTreasure */
-     , (19294, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */;
+     , (19294, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19294, 67113805, 0, 0);

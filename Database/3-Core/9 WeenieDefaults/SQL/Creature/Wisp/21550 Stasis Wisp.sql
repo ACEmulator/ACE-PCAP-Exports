@@ -59,15 +59,15 @@ VALUES (21550,   1,    10, 0, 0, 225) /* MaxHealth */
      , (21550,   5,    10, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21550, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+VALUES (21550, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */
      , (21550, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (21550, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (21550, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (21550, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
-     , (21550, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (21550, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (21550, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (21550, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
      , (21550, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (21550, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (21550, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (21550, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (21550, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (21550, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (21550, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (21550, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (21550, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (21550, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */;
+     , (21550, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;

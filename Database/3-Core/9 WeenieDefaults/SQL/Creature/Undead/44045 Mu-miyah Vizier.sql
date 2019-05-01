@@ -63,10 +63,10 @@ VALUES (44045,   1,    10, 0, 0, 4600) /* MaxHealth */
      , (44045,   5,    10, 0, 0, 1880) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44045, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (44045, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+VALUES (44045, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44045, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
      , (44045, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (44045, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */;
+     , (44045, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44045, 67113142, 0, 0);

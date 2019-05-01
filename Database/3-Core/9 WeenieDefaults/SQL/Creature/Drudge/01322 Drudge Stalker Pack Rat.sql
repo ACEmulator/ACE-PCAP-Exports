@@ -61,17 +61,17 @@ VALUES (1322,   1,    10, 0, 0, 160) /* MaxHealth */
      , (1322,   5,    10, 0, 0, 76) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1322, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
-     , (1322, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
-     , (1322, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (1322, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */
-     , (1322, 9,   273, 46, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1322, 9,  1319,  0, 0, 0, False) /* Create Key (1319) for ContainTreasure */
-     , (1322, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (1322, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (1322, 9, 30568,  0, 0, 0, False) /* Create Flaming Sabra (30568) for ContainTreasure */
+VALUES (1322, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
+     , (1322, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
      , (1322, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */
-     , (1322, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */;
+     , (1322, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (1322, 9, 30568,  0, 0, 0, False) /* Create Flaming Sabra (30568) for ContainTreasure */
+     , (1322, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1322, 9,  1319,  0, 0, 0, False) /* Create Key (1319) for ContainTreasure */
+     , (1322, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */
+     , (1322, 9,   273, 46, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1322, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */
+     , (1322, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1322, 67112819, 0, 0);

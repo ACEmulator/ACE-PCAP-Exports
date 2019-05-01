@@ -78,11 +78,11 @@ VALUES (43352,   1,    10, 0, 0, 150) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43352, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for Shop */
+     , (43352, 4, 43306, -1, 0, 0, False) /* Create Scroll of Nether Bolt V (43306) for Shop */
+     , (43352, 4, 43298, -1, 0, 0, False) /* Create Scroll of Nether Arc V (43298) for Shop */
+     , (43352, 4, 43314, -1, 0, 0, False) /* Create Scroll of Nether Streak V (43314) for Shop */
      , (43352, 4, 43282, -1, 0, 0, False) /* Create Scroll of Corrosion V (43282) for Shop */
      , (43352, 4, 43290, -1, 0, 0, False) /* Create Scroll of Corruption V (43290) for Shop */
-     , (43352, 4, 43298, -1, 0, 0, False) /* Create Scroll of Nether Arc V (43298) for Shop */
-     , (43352, 4, 43306, -1, 0, 0, False) /* Create Scroll of Nether Bolt V (43306) for Shop */
-     , (43352, 4, 43314, -1, 0, 0, False) /* Create Scroll of Nether Streak V (43314) for Shop */
      , (43352, 4, 43324, -1, 0, 0, False) /* Create Scroll of Destructive Curse V (43324) for Shop */
      , (43352, 4, 43333, -1, 0, 0, False) /* Create Scroll of Festering Curse V (43333) for Shop */
      , (43352, 4, 43342, -1, 0, 0, False) /* Create Scroll of Weakening Curse V (43342) for Shop */

@@ -60,15 +60,15 @@ VALUES (46299,   1,    10, 0, 0, 35352) /* MaxHealth */
      , (46299,   5,    10, 0, 0, 16692) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46299, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+VALUES (46299, 9, 20252,  0, 0, 0, False) /* Create Scroll of Belly of Lead (20252) for ContainTreasure */
+     , (46299, 9, 46288,  0, 0, 0, False) /* Create Tiny's Head (46288) for ContainTreasure */
+     , (46299, 9, 49534,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (125) (49534) for ContainTreasure */
      , (46299, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
-     , (46299, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
-     , (46299, 9, 20252,  0, 0, 0, False) /* Create Scroll of Belly of Lead (20252) for ContainTreasure */
      , (46299, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
      , (46299, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
      , (46299, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */
-     , (46299, 9, 46288,  0, 0, 0, False) /* Create Tiny's Head (46288) for ContainTreasure */
-     , (46299, 9, 49534,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (125) (49534) for ContainTreasure */;
+     , (46299, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (46299, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46299, 67116357, 0, 0);

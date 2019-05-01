@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (45003,   1,    10, 0, 0, 3000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45003, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (45003, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+VALUES (45003, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
      , (45003, 2, 48067,  1, 0, 0, False) /* Create Lightning Quarrel (48067) for Wield */
+     , (45003, 2, 48071,  1, 0, 0, False) /* Create Nekode (48071) for Wield */
      , (45003, 2, 48069,  1, 0, 0, False) /* Create Katar (48069) for Wield */
      , (45003, 2, 48070,  1, 0, 0, False) /* Create Lightning Katar (48070) for Wield */
-     , (45003, 2, 48071,  1, 0, 0, False) /* Create Nekode (48071) for Wield */
+     , (45003, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (45003, 2, 48076,  1, 0, 0, False) /* Create Lightning Silifi (48076) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

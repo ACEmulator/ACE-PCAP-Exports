@@ -62,11 +62,11 @@ VALUES (30507,   1,    10, 0, 0, 43) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30507, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (30507, 9,   273, 49, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (30507, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
      , (30507, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (30507, 9, 30506,  0, 0, 0, False) /* Create Mad Star Marionette's Head (30506) for ContainTreasure */
-     , (30507, 9, 30613,  0, 0, 0, False) /* Create Flaming Knuckles (30613) for ContainTreasure */
-     , (30507, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */;
+     , (30507, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
+     , (30507, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (30507, 9, 30613,  0, 0, 0, False) /* Create Flaming Knuckles (30613) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30507, 67111664, 0, 0);

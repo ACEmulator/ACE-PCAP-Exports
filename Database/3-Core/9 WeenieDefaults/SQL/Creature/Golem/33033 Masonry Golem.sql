@@ -59,43 +59,43 @@ VALUES (33033,   1,    10, 0, 0, 1500) /* MaxHealth */
      , (33033,   5,    10, 0, 0, 1190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33033, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (33033, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (33033, 9,   273, 2411, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (33033, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (33033, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (33033, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (33033, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (33033, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (33033, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (33033, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (33033, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (33033, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
-     , (33033, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
-     , (33033, 9,  3844,  0, 0, 0, False) /* Create Flaming Ono (3844) for ContainTreasure */
-     , (33033, 9,  3879,  0, 0, 0, False) /* Create Flaming Broad Sword (3879) for ContainTreasure */
-     , (33033, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
-     , (33033, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
-     , (33033, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (33033, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */
-     , (33033, 9, 20595,  0, 0, 0, False) /* Create Scroll of Hieromancer's Boon (20595) for ContainTreasure */
-     , (33033, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (33033, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
-     , (33033, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+VALUES (33033, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
      , (33033, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
+     , (33033, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (33033, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (33033, 9, 29252,  0, 0, 0, False) /* Create Acid Atlatl (29252) for ContainTreasure */
-     , (33033, 9, 29258,  0, 0, 0, False) /* Create Slashing Atlatl (29258) for ContainTreasure */
-     , (33033, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
-     , (33033, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */
-     , (33033, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */
-     , (33033, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
-     , (33033, 9, 37323,  1, 0, 0, False) /* Create Glyph of Melee Defense (37323) for ContainTreasure */
-     , (33033, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
-     , (33033, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
-     , (33033, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
-     , (33033, 9, 44294,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
-     , (33033, 9, 44296,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
+     , (33033, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (33033, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (33033, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (33033, 9,  3844,  0, 0, 0, False) /* Create Flaming Ono (3844) for ContainTreasure */
+     , (33033, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (33033, 9,  3879,  0, 0, 0, False) /* Create Flaming Broad Sword (3879) for ContainTreasure */
+     , (33033, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
      , (33033, 9, 45120,  0, 0, 0, False) /* Create Lightning Hand Wraps (45120) for ContainTreasure */
+     , (33033, 9, 49379,  0, 0, 0, False) /* Create Excited Grievver Essence (49379) for ContainTreasure */
      , (33033, 9, 49350,  0, 0, 0, False) /* Create Lightning Moar Essence (180) (49350) for ContainTreasure */
-     , (33033, 9, 49379,  0, 0, 0, False) /* Create Excited Grievver Essence (49379) for ContainTreasure */;
+     , (33033, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */
+     , (33033, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (33033, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (33033, 9, 29258,  0, 0, 0, False) /* Create Slashing Atlatl (29258) for ContainTreasure */
+     , (33033, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (33033, 9, 44296,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
+     , (33033, 9, 44294,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
+     , (33033, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+     , (33033, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (33033, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (33033, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */
+     , (33033, 9,   273, 2411, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (33033, 9, 29252,  0, 0, 0, False) /* Create Acid Atlatl (29252) for ContainTreasure */
+     , (33033, 9, 20595,  0, 0, 0, False) /* Create Scroll of Hieromancer's Boon (20595) for ContainTreasure */
+     , (33033, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
+     , (33033, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (33033, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */
+     , (33033, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
+     , (33033, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33033, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (33033, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (33033, 9, 37323,  1, 0, 0, False) /* Create Glyph of Melee Defense (37323) for ContainTreasure */
+     , (33033, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (33033, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (33033, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (33033, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */;

@@ -56,19 +56,19 @@ VALUES (38179,   1,    10, 0, 0, 130) /* MaxHealth */
      , (38179,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38179, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+VALUES (38179, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (38179, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (38179, 9, 38222,  1, 0, 0, False) /* Create Blighted Mana Crystal (38222) for ContainTreasure */
+     , (38179, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
      , (38179, 9,   273, 14, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (38179, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
      , (38179, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (38179, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (38179, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (38179, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (38179, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
      , (38179, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (38179, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (38179, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (38179, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
      , (38179, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (38179, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (38179, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (38179, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
      , (38179, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
-     , (38179, 9, 38222,  1, 0, 0, False) /* Create Blighted Mana Crystal (38222) for ContainTreasure */
-     , (38179, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */;
+     , (38179, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */;

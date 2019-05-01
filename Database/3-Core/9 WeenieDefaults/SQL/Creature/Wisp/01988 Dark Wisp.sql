@@ -57,25 +57,25 @@ VALUES (1988,   1,    10, 0, 0, 70) /* MaxHealth */
      , (1988,   5,    10, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1988, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (1988, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (1988, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (1988, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (1988, 9,   273, 26, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1988, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (1988, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (1988, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (1988, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (1988, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
-     , (1988, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (1988, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (1988, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (1988, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (1988, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+VALUES (1988, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
      , (1988, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (1988, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (1988, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (1988, 9,   273, 26, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (1988, 9, 30209,  1, 0, 0, False) /* Create Physician's Crystal (30209) for ContainTreasure */
      , (1988, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
-     , (1988, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (1988, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (1988, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1988, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1988, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1988, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (1988, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
+     , (1988, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
      , (1988, 9, 45285,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other II (45285) for ContainTreasure */
-     , (1988, 9, 45418,  0, 0, 0, False) /* Create Lightning Knife (45418) for ContainTreasure */;
+     , (1988, 9, 45418,  0, 0, 0, False) /* Create Lightning Knife (45418) for ContainTreasure */
+     , (1988, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (1988, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (1988, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (1988, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (1988, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (1988, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (1988, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */;

@@ -67,9 +67,9 @@ VALUES (32700,   1,    10, 0, 0, 345) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32700, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
+     , (32700, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
      , (32700, 9,   273, 671, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (32700, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (32700, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
      , (32700, 9, 32703,  0, 0, 0, False) /* Create Bracelet of Passage (32703) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

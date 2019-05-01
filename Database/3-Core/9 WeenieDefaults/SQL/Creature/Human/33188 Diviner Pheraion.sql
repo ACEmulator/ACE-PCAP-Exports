@@ -56,8 +56,8 @@ VALUES (33188,   1,    10, 0, 0, 1000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33188, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
-     , (33188, 9, 33189,  0, 0, 0, False) /* Create Diviner Pheraion's Key (33189) for ContainTreasure */
-     , (33188, 9, 42751,  0, 0, 0, False) /* Create Haebrean Girth (42751) for ContainTreasure */;
+     , (33188, 9, 42751,  0, 0, 0, False) /* Create Haebrean Girth (42751) for ContainTreasure */
+     , (33188, 9, 33189,  0, 0, 0, False) /* Create Diviner Pheraion's Key (33189) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33188, 67109560, 0, 24)

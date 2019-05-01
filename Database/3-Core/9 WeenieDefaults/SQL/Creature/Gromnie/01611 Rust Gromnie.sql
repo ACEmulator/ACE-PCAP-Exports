@@ -62,12 +62,12 @@ VALUES (1611,   1,    10, 0, 0, 45) /* MaxHealth */
      , (1611,   5,    10, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1611, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (1611, 9,   273, 30, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1611, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (1611, 9,  1717,  0, 0, 0, False) /* Create Scroll of Life Magic Mastery Other (1717) for ContainTreasure */
+VALUES (1611, 9,  1717,  0, 0, 0, False) /* Create Scroll of Life Magic Mastery Other (1717) for ContainTreasure */
+     , (1611, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
      , (1611, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (1611, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */;
+     , (1611, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (1611, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (1611, 9,   273, 30, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1611, 67116471, 0, 0);

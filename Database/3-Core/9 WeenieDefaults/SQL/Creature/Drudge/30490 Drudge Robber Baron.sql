@@ -61,41 +61,41 @@ VALUES (30490,   1,    10, 0, 0, 60) /* MaxHealth */
      , (30490,   5,    10, 0, 0, 25) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30490, 2, 47230,  1, 0, 0, False) /* Create Acid Board with Nail (47230) for Wield */
-     , (30490, 2, 47249,  1, 0, 0, False) /* Create Board with Nail (47249) for Wield */
+VALUES (30490, 2, 47249,  1, 0, 0, False) /* Create Board with Nail (47249) for Wield */
+     , (30490, 2, 47230,  1, 0, 0, False) /* Create Acid Board with Nail (47230) for Wield */
      , (30490, 2, 47344,  1, 0, 0, False) /* Create Club (47344) for Wield */
      , (30490, 2, 47382,  1, 0, 0, False) /* Create Flaming Club (47382) for Wield */
-     , (30490, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (30490, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (30490, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
      , (30490, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (30490, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (30490, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (30490, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (30490, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (30490, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
-     , (30490, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (30490, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (30490, 9, 30486,  0, 0, 0, False) /* Create Robber Baron Head (30486) for ContainTreasure */
+     , (30490, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (30490, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
      , (30490, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (30490, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (30490, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (30490, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (30490, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
-     , (30490, 9,  2707,  0, 0, 0, False) /* Create Scroll of Mana Drain Other II (2707) for ContainTreasure */
+     , (30490, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (30490, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
      , (30490, 9,  2782,  0, 0, 0, False) /* Create Aura of Blood Drinker Self II (2782) for ContainTreasure */
-     , (30490, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (30490, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (30490, 9, 20854,  1, 0, 0, False) /* Create Academy Stamp (20854) for ContainTreasure */
      , (30490, 9, 21290,  0, 0, 0, False) /* Create Scroll of Acid Arc III (21290) for ContainTreasure */
-     , (30490, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
-     , (30490, 9, 30486,  0, 0, 0, False) /* Create Robber Baron Head (30486) for ContainTreasure */
-     , (30490, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (30490, 9,  2707,  0, 0, 0, False) /* Create Scroll of Mana Drain Other II (2707) for ContainTreasure */
+     , (30490, 9, 20854,  1, 0, 0, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (30490, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (30490, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
      , (30490, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
-     , (30490, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
+     , (30490, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
      , (30490, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */
-     , (30490, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (30490, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (30490, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (30490, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (30490, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (30490, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (30490, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (30490, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
      , (30490, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
      , (30490, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */
+     , (30490, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (30490, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (30490, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (30490, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
+     , (30490, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (30490, 9, 49457,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other II (49457) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -66,10 +66,10 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6004,  1485,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6004, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+VALUES (6004, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
      , (6004, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
-     , (6004, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (6004, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+     , (6004, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (6004, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6004, 67110020, 136, 16)

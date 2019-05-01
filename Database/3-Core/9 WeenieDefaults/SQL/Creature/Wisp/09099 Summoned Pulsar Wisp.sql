@@ -57,7 +57,7 @@ VALUES (9099,   1,    10, 0, 0, 180) /* MaxHealth */
      , (9099,   5,    10, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9099, 9,   273, 336, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9099, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+VALUES (9099, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (9099, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (9099, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */;
+     , (9099, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */
+     , (9099, 9,   273, 336, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;

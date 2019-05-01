@@ -45,17 +45,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34311, 8000, 3704046740) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34311, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (34311, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
+VALUES (34311, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
+     , (34311, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
      , (34311, 2, 47751,  1, 0, 0, False) /* Create Lightning Spear (47751) for Wield */
      , (34311, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (34311, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
-     , (34311, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
      , (34311, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */
-     , (34311, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (34311, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
+     , (34311, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
      , (34311, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
-     , (34311, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (34311, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (34311, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+     , (34311, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
      , (34311, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

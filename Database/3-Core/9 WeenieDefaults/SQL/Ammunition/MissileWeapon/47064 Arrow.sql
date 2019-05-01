@@ -79,15 +79,15 @@ VALUES (47064, 8000, 3684964155) /* PCAPRecordedObjectIID */
      , (47064, 8008, 3686586982) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47064, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (47064, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
+VALUES (47064, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
      , (47064, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (47064, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */
+     , (47064, 2, 48624,  1, 0, 0, False) /* Create Icy Club (48624) for Wield */
      , (47064, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
-     , (47064, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
-     , (47064, 2, 47788,  1, 0, 0, False) /* Create Frost Spear (47788) for Wield */
      , (47064, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (47064, 2, 48624,  1, 0, 0, False) /* Create Icy Club (48624) for Wield */;
+     , (47064, 2, 47788,  1, 0, 0, False) /* Create Frost Spear (47788) for Wield */
+     , (47064, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (47064, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47064, 67111919, 0, 0);

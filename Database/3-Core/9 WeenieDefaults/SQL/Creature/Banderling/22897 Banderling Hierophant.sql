@@ -61,13 +61,13 @@ VALUES (22897,   1,    10, 0, 0, 2000) /* MaxHealth */
      , (22897,   5,    10, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22897, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
+VALUES (22897, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
      , (22897, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */
      , (22897, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
-     , (22897, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
+     , (22897, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
      , (22897, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (22897, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (22897, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */;
+     , (22897, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (22897, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22897, 67114262, 0, 0);

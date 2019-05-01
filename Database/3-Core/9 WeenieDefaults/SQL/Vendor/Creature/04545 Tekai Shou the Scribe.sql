@@ -81,15 +81,15 @@ VALUES (4545, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (4545, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4545, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (4545, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
+     , (4545, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
+     , (4545, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
+     , (4545, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
      , (4545, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (4545, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
      , (4545, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
      , (4545, 4,  5601, -1, 0, 0, False) /* Create  (5601) for Shop */
      , (4545, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (4545, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (4545, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
-     , (4545, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (4545, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (4545, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */;
+     , (4545, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4545, 67109565, 32, 8)

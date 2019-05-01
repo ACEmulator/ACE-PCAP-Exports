@@ -61,8 +61,8 @@ VALUES (26676,   1,    10, 0, 0, 1) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26676, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (26676, 9,  3670,  0, 0, 0, False) /* Create Copper Heart (3670) for ContainTreasure */
-     , (26676, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
+     , (26676, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (26676, 9,  3670,  0, 0, 0, False) /* Create Copper Heart (3670) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26676, 67114979, 0, 0);

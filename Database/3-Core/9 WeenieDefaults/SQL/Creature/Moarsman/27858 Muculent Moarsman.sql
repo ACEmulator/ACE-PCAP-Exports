@@ -62,13 +62,13 @@ VALUES (27858,   1,    10, 0, 0, 195) /* MaxHealth */
      , (27858,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27858, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
-     , (27858, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (27858, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
-     , (27858, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+VALUES (27858, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
      , (27858, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (27858, 9,  3777,  0, 0, 0, False) /* Create Frost Dabus (3777) for ContainTreasure */
      , (27858, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (27858, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (27858, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (27858, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (27858, 9, 30594,  0, 0, 0, False) /* Create Acid Partizan (30594) for ContainTreasure */
      , (27858, 9, 43375,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VII (43375) for ContainTreasure */;
 

@@ -43,8 +43,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7271, 8000, 3698954191) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7271, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */
+VALUES (7271, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (7271, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (7271, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (7271, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (7271, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (7271, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+     , (7271, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */;

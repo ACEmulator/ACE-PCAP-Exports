@@ -43,11 +43,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23144, 8000, 3691173963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23144, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
-     , (23144, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
-     , (23144, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
-     , (23144, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (23144, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
-     , (23144, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+VALUES (23144, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
      , (23144, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (23144, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;
+     , (23144, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (23144, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
+     , (23144, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
+     , (23144, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (23144, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
+     , (23144, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */;

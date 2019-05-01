@@ -62,5 +62,5 @@ VALUES (11536,   1,    10, 0, 0, 500) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11536, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
      , (11536, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (11536, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (11536, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (11536, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (11536, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */;

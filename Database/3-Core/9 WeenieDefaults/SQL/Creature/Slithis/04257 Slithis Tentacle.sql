@@ -62,15 +62,15 @@ VALUES (4257,   1,    10, 0, 0, 100) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4257, 2,  8619,  1, 0, 0, False) /* Create Slithis Splinter (8619) for Wield */
-     , (4257, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (4257, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (4257, 9,   273, 43, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (4257, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (4257, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (4257, 9,  5980,  0, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other (5980) for ContainTreasure */
+     , (4257, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
      , (4257, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (4257, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
      , (4257, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (4257, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */;
+     , (4257, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (4257, 9,   273, 43, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (4257, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (4257, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (4257, 9,  5980,  0, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other (5980) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4257, 67113033, 0, 0);

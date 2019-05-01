@@ -63,29 +63,29 @@ VALUES (36824,   1,    10, 0, 0, 1500) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36824, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
      , (36824, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (36824, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (36824, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (36824, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (36824, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (36824, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
-     , (36824, 9, 20402,  0, 0, 0, False) /* Create Scroll of Olthoi's Bane (20402) for ContainTreasure */
-     , (36824, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */
-     , (36824, 9, 20422,  0, 0, 0, False) /* Create Scroll of Wi's Folly (20422) for ContainTreasure */
-     , (36824, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */
-     , (36824, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
-     , (36824, 9, 22161,  0, 0, 0, False) /* Create Flaming Nabut (22161) for ContainTreasure */
-     , (36824, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
-     , (36824, 9, 29239,  0, 0, 0, False) /* Create Bone Bow (29239) for ContainTreasure */
-     , (36824, 9, 29243,  0, 0, 0, False) /* Create Piercing Bow (29243) for ContainTreasure */
-     , (36824, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
-     , (36824, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
      , (36824, 9, 40696,  0, 0, 0, False) /* Create Covenant Bracers (40696) for ContainTreasure */
-     , (36824, 9, 41055,  0, 0, 0, False) /* Create Flaming Greataxe (41055) for ContainTreasure */
-     , (36824, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
-     , (36824, 9, 43050,  0, 0, 0, False) /* Create Covenant Girth (43050) for ContainTreasure */
+     , (36824, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */
+     , (36824, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
      , (36824, 9, 44854,  0, 0, 0, False) /* Create Halved Cloak (44854) for ContainTreasure */
-     , (36824, 9, 45428,  0, 0, 0, False) /* Create Lightning Jambiya (45428) for ContainTreasure */
-     , (36824, 9, 49257,  0, 0, 0, False) /* Create Frost Zombie Essence (125) (49257) for ContainTreasure */;
+     , (36824, 9, 20402,  0, 0, 0, False) /* Create Scroll of Olthoi's Bane (20402) for ContainTreasure */
+     , (36824, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (36824, 9, 49257,  0, 0, 0, False) /* Create Frost Zombie Essence (125) (49257) for ContainTreasure */
+     , (36824, 9, 43050,  0, 0, 0, False) /* Create Covenant Girth (43050) for ContainTreasure */
+     , (36824, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (36824, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (36824, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (36824, 9, 29239,  0, 0, 0, False) /* Create Bone Bow (29239) for ContainTreasure */
+     , (36824, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (36824, 9, 29243,  0, 0, 0, False) /* Create Piercing Bow (29243) for ContainTreasure */
+     , (36824, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */
+     , (36824, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (36824, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
+     , (36824, 9, 22161,  0, 0, 0, False) /* Create Flaming Nabut (22161) for ContainTreasure */
+     , (36824, 9, 41055,  0, 0, 0, False) /* Create Flaming Greataxe (41055) for ContainTreasure */
+     , (36824, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (36824, 9, 20422,  0, 0, 0, False) /* Create Scroll of Wi's Folly (20422) for ContainTreasure */
+     , (36824, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
+     , (36824, 9, 45428,  0, 0, 0, False) /* Create Lightning Jambiya (45428) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36824, 67114275, 0, 0);

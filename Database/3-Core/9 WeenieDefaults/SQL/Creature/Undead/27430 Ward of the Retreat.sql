@@ -50,11 +50,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (27430,   1,    10, 0, 0, 1075) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27430, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+VALUES (27430, 2, 48003,  1, 0, 0, False) /* Create Ono (48003) for Wield */
      , (27430, 2, 47999,  1, 0, 0, False) /* Create Lightning Nekode (47999) for Wield */
-     , (27430, 2, 48003,  1, 0, 0, False) /* Create Ono (48003) for Wield */
-     , (27430, 9,   321,  0, 0, 0, False) /* Create Jitte (321) for ContainTreasure */
+     , (27430, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
      , (27430, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
+     , (27430, 9,   321,  0, 0, 0, False) /* Create Jitte (321) for ContainTreasure */
      , (27430, 9, 27440,  0, 0, 0, False) /* Create Grave Robber Title Token (27440) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

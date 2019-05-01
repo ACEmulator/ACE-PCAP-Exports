@@ -60,13 +60,13 @@ VALUES (25858,   1,    10, 0, 0, 900) /* MaxHealth */
      , (25858,   5,    10, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25858, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (25858, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (25858, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (25858, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+VALUES (25858, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
      , (25858, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (25858, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
      , (25858, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
+     , (25858, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (25858, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (25858, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (25858, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (25858, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
-     , (25858, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
+     , (25858, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (25858, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */;

@@ -74,8 +74,8 @@ VALUES (41545,   1,    10, 0, 0, 326) /* MaxHealth */
      , (41545,   5,    10, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41545, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */
-     , (41545, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
+VALUES (41545, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
+     , (41545, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41545, 67109561, 0, 24)

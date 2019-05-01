@@ -42,11 +42,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9380, 8000, 2780698418) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9380, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+VALUES (9380, 9,  8958,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak VI (8958) for ContainTreasure */
      , (9380, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (9380, 9,  8958,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak VI (8958) for ContainTreasure */
-     , (9380, 9,  9385,  0, 0, 0, False) /* Create Virindi Envoy's Obsidian Shard (9385) for ContainTreasure */
-     , (9380, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
+     , (9380, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (9380, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (9380, 9,  9385,  0, 0, 0, False) /* Create Virindi Envoy's Obsidian Shard (9385) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9380, 67111815, 0, 0);

@@ -51,22 +51,22 @@ VALUES (46603,   1,    10, 0, 0, 5250) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46603, 2, 46606,  1, 0, 0, False) /* Create Fire-hardened Clay Nodachi (46606) for Wield */
-     , (46603, 9,    58,  0, 0, 0, False) /* Create Scalemail Gauntlets (58) for ContainTreasure */
+     , (46603, 9, 49530,  0, 0, 0, False) /* Create Acid Phyntos Swarm Essence (49530) for ContainTreasure */
      , (46603, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
-     , (46603, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (46603, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (46603, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (46603, 9,   273, 4677, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (46603, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (46603, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
      , (46603, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
-     , (46603, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
      , (46603, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
-     , (46603, 9, 49278,  0, 0, 0, False) /* Create Frost Child Essence (125) (49278) for ContainTreasure */
+     , (46603, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (46603, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (46603, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (46603, 9, 49321,  0, 0, 0, False) /* Create Lightning Wisp Essence (150) (49321) for ContainTreasure */
+     , (46603, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (46603, 9, 49377,  0, 0, 0, False) /* Create Lightning Grievver Essence (150) (49377) for ContainTreasure */
      , (46603, 9, 49383,  0, 0, 0, False) /* Create Fire Grievver Essence (125) (49383) for ContainTreasure */
-     , (46603, 9, 49530,  0, 0, 0, False) /* Create Acid Phyntos Swarm Essence (49530) for ContainTreasure */;
+     , (46603, 9, 49278,  0, 0, 0, False) /* Create Frost Child Essence (125) (49278) for ContainTreasure */
+     , (46603, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (46603, 9,    58,  0, 0, 0, False) /* Create Scalemail Gauntlets (58) for ContainTreasure */
+     , (46603, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46603, 67116877, 0, 0);

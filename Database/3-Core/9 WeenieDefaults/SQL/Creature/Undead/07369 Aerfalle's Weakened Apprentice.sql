@@ -50,16 +50,16 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (7369,   1,    10, 0, 0, 500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7369, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
-     , (7369, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
-     , (7369, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+VALUES (7369, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
      , (7369, 9,  4192,  0, 0, 0, False) /* Create Acid Cestus (4192) for ContainTreasure */
-     , (7369, 9,  7409,  0, 0, 0, False) /* Create Ashen Key (7409) for ContainTreasure */
+     , (7369, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
      , (7369, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */
-     , (7369, 9, 20407,  0, 0, 0, False) /* Create Scroll of Pacification (20407) for ContainTreasure */
-     , (7369, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (7369, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
      , (7369, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (7369, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */;
+     , (7369, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (7369, 9, 20407,  0, 0, 0, False) /* Create Scroll of Pacification (20407) for ContainTreasure */
+     , (7369, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (7369, 9,  7409,  0, 0, 0, False) /* Create Ashen Key (7409) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7369, 67112954, 0, 128);

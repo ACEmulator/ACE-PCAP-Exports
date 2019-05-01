@@ -62,43 +62,43 @@ VALUES (210,   1,    10, 0, 0, 115) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (210, 2, 47523,  1, 0, 0, False) /* Create Acid Javelin (47523) for Wield */
-     , (210, 2, 47542,  1, 0, 0, False) /* Create Javelin (47542) for Wield */
-     , (210, 2, 47618,  1, 0, 0, False) /* Create Acid Tachi (47618) for Wield */
-     , (210, 2, 47637,  1, 0, 0, False) /* Create Tachi (47637) for Wield */
-     , (210, 2, 47708,  1, 0, 0, False) /* Create Acid Spear (47708) for Wield */
      , (210, 2, 47727,  1, 0, 0, False) /* Create Spear (47727) for Wield */
-     , (210, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
-     , (210, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (210, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
-     , (210, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
-     , (210, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (210, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (210, 2, 47637,  1, 0, 0, False) /* Create Tachi (47637) for Wield */
+     , (210, 2, 47542,  1, 0, 0, False) /* Create Javelin (47542) for Wield */
+     , (210, 2, 47708,  1, 0, 0, False) /* Create Acid Spear (47708) for Wield */
+     , (210, 2, 47618,  1, 0, 0, False) /* Create Acid Tachi (47618) for Wield */
+     , (210, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */
      , (210, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (210, 9,   273, 15, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (210, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (210, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
      , (210, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (210, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (210, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
-     , (210, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
-     , (210, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
-     , (210, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
-     , (210, 9,  2653,  0, 0, 0, False) /* Create Scroll of Coordination Self VI (2653) for ContainTreasure */
-     , (210, 9,  3137,  0, 0, 0, False) /* Create Scroll of Arcane Enlightenment VI (3137) for ContainTreasure */
-     , (210, 9,  3222,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Ineptitude Other VI (3222) for ContainTreasure */
-     , (210, 9,  3694,  0, 0, 0, False) /* Create Swamp Stone (3694) for ContainTreasure */
-     , (210, 9,  3866,  0, 0, 0, False) /* Create Lightning Silifi (3866) for ContainTreasure */
-     , (210, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
-     , (210, 9,  4389,  0, 0, 0, False) /* Create Scroll of Armor Other VI (4389) for ContainTreasure */
-     , (210, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (210, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
-     , (210, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (210, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
+     , (210, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (210, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
-     , (210, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (210, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (210, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (210, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
-     , (210, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */
+     , (210, 9,  3137,  0, 0, 0, False) /* Create Scroll of Arcane Enlightenment VI (3137) for ContainTreasure */
+     , (210, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (210, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (210, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (210, 9,  3694,  0, 0, 0, False) /* Create Swamp Stone (3694) for ContainTreasure */
      , (210, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
-     , (210, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */;
+     , (210, 9,  3866,  0, 0, 0, False) /* Create Lightning Silifi (3866) for ContainTreasure */
+     , (210, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (210, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (210, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (210, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (210, 9,   273, 15, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (210, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (210, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
+     , (210, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (210, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (210, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (210, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
+     , (210, 9,  4389,  0, 0, 0, False) /* Create Scroll of Armor Other VI (4389) for ContainTreasure */
+     , (210, 9,  3222,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Ineptitude Other VI (3222) for ContainTreasure */
+     , (210, 9,  2653,  0, 0, 0, False) /* Create Scroll of Coordination Self VI (2653) for ContainTreasure */
+     , (210, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (210, 67113403, 0, 0);

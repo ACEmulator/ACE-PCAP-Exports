@@ -63,8 +63,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9228,   1,    10, 0, 0, 135) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9228, 2,  8030,  1, 0, 0, False) /* Create Shendolain Crystal Shield (8030) for Wield */
-     , (9228, 2,  8526,  1, 0, 0, False) /* Create Staff of the Nomads (8526) for Wield */;
+VALUES (9228, 2,  8526,  1, 0, 0, False) /* Create Staff of the Nomads (8526) for Wield */
+     , (9228, 2,  8030,  1, 0, 0, False) /* Create Shendolain Crystal Shield (8030) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9228, 67109556, 0, 24)

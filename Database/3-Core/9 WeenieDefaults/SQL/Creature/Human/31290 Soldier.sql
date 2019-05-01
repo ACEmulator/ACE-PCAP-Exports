@@ -74,8 +74,8 @@ VALUES (31290,   1,    10, 0, 0, 180) /* MaxHealth */
      , (31290,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31290, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (31290, 2, 30562,  1, 0, 0, False) /* Create Acid Dolabra (30562) for Wield */;
+VALUES (31290, 2, 30562,  1, 0, 0, False) /* Create Acid Dolabra (30562) for Wield */
+     , (31290, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31290, 67109555, 0, 24)

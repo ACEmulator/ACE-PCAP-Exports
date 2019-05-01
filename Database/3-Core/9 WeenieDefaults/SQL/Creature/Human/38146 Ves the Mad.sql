@@ -56,11 +56,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38146,   1,    10, 0, 0, 370) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38146, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+VALUES (38146, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
      , (38146, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (38146, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
-     , (38146, 9, 38160,  0, 0, 0, False) /* Create Tattered Rank Moarsman Ritual (38160) for ContainTreasure */
-     , (38146, 9, 38172,  0, 0, 0, False) /* Create The Creation of Blighted Moarsmen (38172) for ContainTreasure */;
+     , (38146, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (38146, 9, 38172,  0, 0, 0, False) /* Create The Creation of Blighted Moarsmen (38172) for ContainTreasure */
+     , (38146, 9, 38160,  0, 0, 0, False) /* Create Tattered Rank Moarsman Ritual (38160) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38146, 67109977, 80, 12)

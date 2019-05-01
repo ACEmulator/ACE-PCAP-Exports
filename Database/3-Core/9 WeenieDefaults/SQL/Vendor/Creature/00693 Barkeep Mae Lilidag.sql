@@ -77,19 +77,19 @@ VALUES (693,   1,    10, 0, 0, 65) /* MaxHealth */
      , (693,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (693, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (693, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (693, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+VALUES (693, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (693, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (693, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (693, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (693, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (693, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (693, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (693, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (693, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (693, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
-     , (693, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (693, 4,  6416, -1, 0, 0, False) /* Create  (6416) for Shop */
      , (693, 4,  6420, -1, 0, 0, False) /* Create  (6420) for Shop */
      , (693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (693, 4, 24034, -1, 0, 0, False) /* Create  (24034) for Shop */
+     , (693, 4,  6416, -1, 0, 0, False) /* Create  (6416) for Shop */
      , (693, 4, 31982, -1, 0, 0, False) /* Create Branwyn's Tears (31982) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

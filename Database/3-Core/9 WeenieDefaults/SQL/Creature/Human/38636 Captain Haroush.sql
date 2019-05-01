@@ -56,10 +56,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38636,   1,    10, 0, 0, 1500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38636, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
+VALUES (38636, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
      , (38636, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (38636, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
-     , (38636, 9, 38640,  0, 0, 0, False) /* Create Haroush's Key (38640) for ContainTreasure */;
+     , (38636, 9, 38640,  0, 0, 0, False) /* Create Haroush's Key (38640) for ContainTreasure */
+     , (38636, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38636, 67109550, 0, 24)

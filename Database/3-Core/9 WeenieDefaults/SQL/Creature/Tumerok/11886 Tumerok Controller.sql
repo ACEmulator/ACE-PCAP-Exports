@@ -61,8 +61,8 @@ VALUES (11886,   1,    10, 0, 0, 160) /* MaxHealth */
      , (11886,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11886, 2, 11752,  1, 0, 0, False) /* Create Hafted Gromnie Spear (11752) for Wield */
-     , (11886, 2, 11778,  1, 0, 0, False) /* Create Reinforced Gromnie Spear (11778) for Wield */;
+VALUES (11886, 2, 11778,  1, 0, 0, False) /* Create Reinforced Gromnie Spear (11778) for Wield */
+     , (11886, 2, 11752,  1, 0, 0, False) /* Create Hafted Gromnie Spear (11752) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11886, 67116625, 57, 48)

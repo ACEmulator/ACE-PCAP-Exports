@@ -62,11 +62,11 @@ VALUES (25870,   1,    10, 0, 0, 800) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25870, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (25870, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (25870, 9,  3802,  0, 0, 0, False) /* Create Acid Jitte (3802) for ContainTreasure */
-     , (25870, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (25870, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
      , (25870, 9, 30607,  0, 0, 0, False) /* Create Lightning Bastone (30607) for ContainTreasure */
-     , (25870, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */
-     , (25870, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */;
+     , (25870, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (25870, 9,  3802,  0, 0, 0, False) /* Create Acid Jitte (3802) for ContainTreasure */
+     , (25870, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25870, 67115132, 0, 0);

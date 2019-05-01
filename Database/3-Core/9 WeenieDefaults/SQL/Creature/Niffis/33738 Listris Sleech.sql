@@ -60,27 +60,27 @@ VALUES (33738,   1,    10, 0, 0, 620) /* MaxHealth */
      , (33738,   5,    10, 0, 0, 1460) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33738, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (33738, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (33738, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (33738, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (33738, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
-     , (33738, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (33738, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (33738, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (33738, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (33738, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
-     , (33738, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
-     , (33738, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
+VALUES (33738, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for ContainTreasure */
      , (33738, 9, 21156,  0, 0, 0, False) /* Create Covenant Helm (21156) for ContainTreasure */
-     , (33738, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
      , (33738, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
-     , (33738, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
-     , (33738, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
-     , (33738, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for ContainTreasure */
      , (33738, 9, 41045,  0, 0, 0, False) /* Create Frost Magari Yari (41045) for ContainTreasure */
+     , (33738, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (33738, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (33738, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (33738, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
+     , (33738, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (33738, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (33738, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (33738, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (33738, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (33738, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
+     , (33738, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (33738, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
      , (33738, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
-     , (33738, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */;
+     , (33738, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (33738, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33738, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
+     , (33738, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33738, 67116768, 0, 0);

@@ -72,8 +72,8 @@ VALUES (6046,  1486,      2)
      , (6046,  1574,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6046, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
-     , (6046, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+VALUES (6046, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (6046, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6046, 67110349, 128, 8)

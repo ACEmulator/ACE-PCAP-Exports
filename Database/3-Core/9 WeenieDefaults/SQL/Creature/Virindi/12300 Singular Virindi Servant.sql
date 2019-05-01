@@ -46,8 +46,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12300,   1,    10, 0, 0, 125) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12300, 9,   273, 126, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (12300, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (12300, 9,   273, 126, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (12300, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
-     , (12300, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (12300, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */
-     , (12300, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
+     , (12300, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (12300, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */;

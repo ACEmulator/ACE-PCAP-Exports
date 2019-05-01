@@ -58,18 +58,18 @@ VALUES (8562,   1,    10, 0, 0, 108) /* MaxHealth */
      , (8562,   5,    10, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8562, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */
-     , (8562, 2, 47061,  1, 0, 0, False) /* Create Arrow (47061) for Wield */
-     , (8562, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
-     , (8562, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+VALUES (8562, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (8562, 2, 48233,  1, 0, 0, False) /* Create Electric Compound Bow (48233) for Wield */
-     , (8562, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (8562, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
      , (8562, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */
-     , (8562, 2, 48274,  1, 0, 0, False) /* Create Arrow (48274) for Wield */
+     , (8562, 2, 47061,  1, 0, 0, False) /* Create Arrow (47061) for Wield */
      , (8562, 2, 48293,  1, 0, 0, False) /* Create Arrow (48293) for Wield */
+     , (8562, 2, 48274,  1, 0, 0, False) /* Create Arrow (48274) for Wield */
+     , (8562, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (8562, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
      , (8562, 2, 48312,  1, 0, 0, False) /* Create Arrow (48312) for Wield */
-     , (8562, 2, 48331,  1, 0, 0, False) /* Create Arrow (48331) for Wield */;
+     , (8562, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (8562, 2, 48331,  1, 0, 0, False) /* Create Arrow (48331) for Wield */
+     , (8562, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8562, 67116527, 0, 0);

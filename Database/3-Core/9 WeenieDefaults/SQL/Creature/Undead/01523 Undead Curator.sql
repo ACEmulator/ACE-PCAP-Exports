@@ -58,34 +58,34 @@ VALUES (1523,   1,    10, 0, 0, 53) /* MaxHealth */
      , (1523,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1523, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
+VALUES (1523, 2,  5753,  1, 0, 0, False) /* Create Pickaxe (5753) for Wield */
+     , (1523, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (1523, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
-     , (1523, 2,  5753,  1, 0, 0, False) /* Create Pickaxe (5753) for Wield */
-     , (1523, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (1523, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (1523, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (1523, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (1523, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (1523, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (1523, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (1523, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (1523, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (1523, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (1523, 9,  1538,  0, 0, 0, False) /* Create Scratched Key (1538) for ContainTreasure */
-     , (1523, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (1523, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (1523, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
-     , (1523, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (1523, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
-     , (1523, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
-     , (1523, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (1523, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (1523, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
-     , (1523, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
-     , (1523, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
      , (1523, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */
+     , (1523, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (1523, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (1523, 9,  1538,  0, 0, 0, False) /* Create Scratched Key (1538) for ContainTreasure */
+     , (1523, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (1523, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (1523, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (1523, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (1523, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (1523, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
+     , (1523, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (1523, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (1523, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (1523, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
      , (1523, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
-     , (1523, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (1523, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (1523, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (1523, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (1523, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1523, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (1523, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (1523, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1523, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
+     , (1523, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1523, 67111664, 0, 0);

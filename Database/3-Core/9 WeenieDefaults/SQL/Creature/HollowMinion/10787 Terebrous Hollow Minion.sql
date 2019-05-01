@@ -57,41 +57,41 @@ VALUES (10787,   1,    10, 0, 0, 300) /* MaxHealth */
      , (10787,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10787, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
-     , (10787, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
-     , (10787, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (10787, 9,   273, 288, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (10787, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (10787, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (10787, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (10787, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (10787, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
-     , (10787, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
-     , (10787, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (10787, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (10787, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (10787, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (10787, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (10787, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (10787, 9,  2710,  0, 0, 0, False) /* Create Scroll of Mana Drain Other V (2710) for ContainTreasure */
-     , (10787, 9,  3331,  0, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance V (3331) for ContainTreasure */
+VALUES (10787, 9,  2710,  0, 0, 0, False) /* Create Scroll of Mana Drain Other V (2710) for ContainTreasure */
      , (10787, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (10787, 9,   273, 288, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (10787, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
      , (10787, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (10787, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
+     , (10787, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (10787, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (10787, 9,  9292,  0, 0, 0, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (10787, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */
-     , (10787, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
-     , (10787, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
-     , (10787, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (10787, 9, 28014,  0, 0, 0, False) /* Create Scroll of Spirit Loather VI (28014) for ContainTreasure */
-     , (10787, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (10787, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (10787, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (10787, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (10787, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
-     , (10787, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
-     , (10787, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
      , (10787, 9, 40697,  0, 0, 0, False) /* Create Covenant Breastplate (40697) for ContainTreasure */
+     , (10787, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (10787, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (10787, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */
-     , (10787, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */;
+     , (10787, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
+     , (10787, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (10787, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (10787, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (10787, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (10787, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (10787, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (10787, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (10787, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (10787, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
+     , (10787, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (10787, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (10787, 9,  3331,  0, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance V (3331) for ContainTreasure */
+     , (10787, 9, 28014,  0, 0, 0, False) /* Create Scroll of Spirit Loather VI (28014) for ContainTreasure */
+     , (10787, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (10787, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (10787, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
+     , (10787, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */
+     , (10787, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10787, 67113222, 0, 0);

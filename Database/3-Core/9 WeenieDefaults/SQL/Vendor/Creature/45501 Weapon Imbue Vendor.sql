@@ -70,10 +70,7 @@ VALUES (45501,   1,    10, 0, 0, 1120) /* MaxHealth */
      , (45501,   5,    10, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45501, 4, 45498, -1, 0, 0, False) /* Create Spectral Force Gem (45498) for Shop */
-     , (45501, 4, 45499, -1, 0, 0, False) /* Create Magic Defense Weapon Augmentation Gem (45499) for Shop */
-     , (45501, 4, 45500, -1, 0, 0, False) /* Create Missile Defense Weapon Augmentation Gem (45500) for Shop */
-     , (45501, 4, 45502, -1, 0, 0, False) /* Create Foolproof Aquamarine Gem (45502) for Shop */
+VALUES (45501, 4, 45502, -1, 0, 0, False) /* Create Foolproof Aquamarine Gem (45502) for Shop */
      , (45501, 4, 45503, -1, 0, 0, False) /* Create Foolproof Black Garnet Gem (45503) for Shop */
      , (45501, 4, 45504, -1, 0, 0, False) /* Create Foolproof Black Opal Gem (45504) for Shop */
      , (45501, 4, 45505, -1, 0, 0, False) /* Create Foolproof Emerald Gem (45505) for Shop */
@@ -83,10 +80,13 @@ VALUES (45501, 4, 45498, -1, 0, 0, False) /* Create Spectral Force Gem (45498) f
      , (45501, 4, 45509, -1, 0, 0, False) /* Create Foolproof Red Garnet Gem (45509) for Shop */
      , (45501, 4, 45510, -1, 0, 0, False) /* Create Foolproof Sunstone Gem (45510) for Shop */
      , (45501, 4, 45511, -1, 0, 0, False) /* Create Foolproof White Sapphire Gem (45511) for Shop */
+     , (45501, 4, 45515, -1, 0, 0, False) /* Create A'nekshay Slayer Stone Gem (45515) for Shop */
      , (45501, 4, 45512, -1, 0, 0, False) /* Create Greater Mukkir Slayer Stone Gem (45512) for Shop */
      , (45501, 4, 45513, -1, 0, 0, False) /* Create Spectral Skull Gem (45513) for Shop */
      , (45501, 4, 45514, -1, 0, 0, False) /* Create Black Skull of Xikma Gem (45514) for Shop */
-     , (45501, 4, 45515, -1, 0, 0, False) /* Create A'nekshay Slayer Stone Gem (45515) for Shop */
+     , (45501, 4, 45498, -1, 0, 0, False) /* Create Spectral Force Gem (45498) for Shop */
+     , (45501, 4, 45499, -1, 0, 0, False) /* Create Magic Defense Weapon Augmentation Gem (45499) for Shop */
+     , (45501, 4, 45500, -1, 0, 0, False) /* Create Missile Defense Weapon Augmentation Gem (45500) for Shop */
      , (45501, 4, 45516, -1, 0, 0, False) /* Create Lucky White Rabbit's Foot Gem (45516) for Shop */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)

@@ -50,11 +50,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1321,   1,    10, 0, 0, 160) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1321, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */
-     , (1321, 2, 23732,  1, 0, 0, False) /* Create Yari (23732) for Wield */
+VALUES (1321, 2, 23732,  1, 0, 0, False) /* Create Yari (23732) for Wield */
+     , (1321, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */
+     , (1321, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */
      , (1321, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
-     , (1321, 9,  1320,  0, 0, 0, False) /* Create Gold Key (1320) for ContainTreasure */
-     , (1321, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */;
+     , (1321, 9,  1320,  0, 0, 0, False) /* Create Gold Key (1320) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1321, 67112813, 0, 0);

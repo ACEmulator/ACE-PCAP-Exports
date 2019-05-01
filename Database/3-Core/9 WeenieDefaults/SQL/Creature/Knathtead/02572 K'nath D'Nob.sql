@@ -61,11 +61,11 @@ VALUES (2572,   1,    10, 0, 0, 65) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2572, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (2572, 9,   273, 45, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (2572, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (2572, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (2572, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (2572, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2572, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (2572, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */
      , (2572, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
      , (2572, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (2572, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
-     , (2572, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (2572, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
-     , (2572, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */
-     , (2572, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */;
+     , (2572, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;

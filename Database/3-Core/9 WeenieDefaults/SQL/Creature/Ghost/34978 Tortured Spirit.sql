@@ -52,8 +52,8 @@ VALUES (34978,   1,    10, 0, 0, 645) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34978, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (34978, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (34978, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (34978, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (34978, 9, 34963,  0, 0, 0, False) /* Create Misshapen Bone Fragment (34963) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -50,6 +50,6 @@ VALUES (41228,   1,    10, 0, 0, 1000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41228, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (41228, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
      , (41228, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (41228, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
      , (41228, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */;

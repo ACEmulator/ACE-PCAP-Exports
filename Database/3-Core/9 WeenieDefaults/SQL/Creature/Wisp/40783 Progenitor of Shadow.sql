@@ -57,7 +57,7 @@ VALUES (40783,   1,    10, 0, 0, 3120) /* MaxHealth */
      , (40783,   5,    10, 0, 0, 1328) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40783, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (40783, 9, 40797,  1, 0, 0, False) /* Create Progenitor Crystal (40797) for ContainTreasure */
+VALUES (40783, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */
+     , (40783, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (40783, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
-     , (40783, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */;
+     , (40783, 9, 40797,  1, 0, 0, False) /* Create Progenitor Crystal (40797) for ContainTreasure */;

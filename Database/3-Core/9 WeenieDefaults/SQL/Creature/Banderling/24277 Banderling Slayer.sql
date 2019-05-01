@@ -62,26 +62,26 @@ VALUES (24277,   1,    10, 0, 0, 413) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24277, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
-     , (24277, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
-     , (24277, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (24277, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (24277, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (24277, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
-     , (24277, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
-     , (24277, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
-     , (24277, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (24277, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (24277, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (24277, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (24277, 9, 21315,  0, 0, 0, False) /* Create Scroll of Force Arc VII (21315) for ContainTreasure */
-     , (24277, 9, 21322,  0, 0, 0, False) /* Create Scroll of Frost Arc VII (21322) for ContainTreasure */
-     , (24277, 9, 29262,  0, 0, 0, False) /* Create Fire Sceptre (29262) for ContainTreasure */
      , (24277, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
+     , (24277, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (24277, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
      , (24277, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
+     , (24277, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (24277, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (24277, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (24277, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
      , (24277, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
+     , (24277, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (24277, 9, 21315,  0, 0, 0, False) /* Create Scroll of Force Arc VII (21315) for ContainTreasure */
+     , (24277, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (24277, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (24277, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (24277, 9, 29262,  0, 0, 0, False) /* Create Fire Sceptre (29262) for ContainTreasure */
+     , (24277, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (24277, 9, 45249,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other VI (45249) for ContainTreasure */
      , (24277, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
      , (24277, 9, 41048,  0, 0, 0, False) /* Create Lightning Pike (41048) for ContainTreasure */
-     , (24277, 9, 45249,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other VI (45249) for ContainTreasure */
+     , (24277, 9, 21322,  0, 0, 0, False) /* Create Scroll of Frost Arc VII (21322) for ContainTreasure */
      , (24277, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

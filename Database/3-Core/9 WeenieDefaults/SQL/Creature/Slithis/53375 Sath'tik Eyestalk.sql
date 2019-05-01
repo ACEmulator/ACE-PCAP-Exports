@@ -51,5 +51,5 @@ VALUES (53375,   1,    10, 0, 0, 1230) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (53375, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */
      , (53375, 9,  8952,  0, 0, 0, False) /* Create Scroll of Shock Wave Streak VI (8952) for ContainTreasure */
-     , (53375, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
-     , (53375, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */;
+     , (53375, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
+     , (53375, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */;

@@ -53,9 +53,9 @@ VALUES (30884,   1,    10, 0, 0, 555) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30884, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
      , (30884, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */
+     , (30884, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
      , (30884, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
-     , (30884, 9, 30862,  0, 0, 0, False) /* Create Banished Nekode (30862) for ContainTreasure */
-     , (30884, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */;
+     , (30884, 9, 30862,  0, 0, 0, False) /* Create Banished Nekode (30862) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30884, 67114295, 0, 0);

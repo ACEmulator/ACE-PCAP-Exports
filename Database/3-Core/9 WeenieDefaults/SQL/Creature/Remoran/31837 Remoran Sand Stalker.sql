@@ -57,12 +57,12 @@ VALUES (31837,   1,    10, 0, 0, 2500) /* MaxHealth */
      , (31837,   5,    10, 0, 0, 2976) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31837, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (31837, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (31837, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+VALUES (31837, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (31837, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (31837, 9, 45433,  0, 0, 0, False) /* Create Lightning Khanjar (45433) for ContainTreasure */
+     , (31837, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (31837, 9, 20543,  0, 0, 0, False) /* Create Scroll of Yoshi's Blessing (20543) for ContainTreasure */
-     , (31837, 9, 45433,  0, 0, 0, False) /* Create Lightning Khanjar (45433) for ContainTreasure */;
+     , (31837, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31837, 67116726, 0, 0);

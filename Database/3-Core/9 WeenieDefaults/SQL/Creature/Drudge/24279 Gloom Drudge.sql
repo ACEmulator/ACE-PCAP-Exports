@@ -62,36 +62,36 @@ VALUES (24279,   1,    10, 0, 0, 413) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24279, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
-     , (24279, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
-     , (24279, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (24279, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
      , (24279, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (24279, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (24279, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (24279, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (24279, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (24279, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
-     , (24279, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (24279, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
-     , (24279, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
-     , (24279, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (24279, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
-     , (24279, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
-     , (24279, 9, 20463,  0, 0, 0, False) /* Create Scroll of Evisceration (20463) for ContainTreasure */
-     , (24279, 9, 20481,  0, 0, 0, False) /* Create Scroll of Storm's Blessing (20481) for ContainTreasure */
-     , (24279, 9, 20519,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Ineptitude Other VII (20519) for ContainTreasure */
-     , (24279, 9, 20543,  0, 0, 0, False) /* Create Scroll of Yoshi's Blessing (20543) for ContainTreasure */
-     , (24279, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
-     , (24279, 9, 24837,  0, 0, 0, False) /* Create Gloom Drudge Charm (24837) for ContainTreasure */
-     , (24279, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
-     , (24279, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
-     , (24279, 9, 30915,  0, 0, 0, False) /* Create Halaetan Magic Page 10 (30915) for ContainTreasure */
-     , (24279, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
-     , (24279, 9, 31782,  0, 0, 0, False) /* Create Fire Spine Glaive (31782) for ContainTreasure */
      , (24279, 9, 45115,  0, 0, 0, False) /* Create Lightning Hammer (45115) for ContainTreasure */
-     , (24279, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */
+     , (24279, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (24279, 9, 49242,  0, 0, 0, False) /* Create Lightning Zombie Essence (100) (49242) for ContainTreasure */
-     , (24279, 9, 49422,  0, 0, 0, False) /* Create Acid Spectre Essence (80) (49422) for ContainTreasure */;
+     , (24279, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
+     , (24279, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */
+     , (24279, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (24279, 9, 20519,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Ineptitude Other VII (20519) for ContainTreasure */
+     , (24279, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (24279, 9, 30915,  0, 0, 0, False) /* Create Halaetan Magic Page 10 (30915) for ContainTreasure */
+     , (24279, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (24279, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (24279, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (24279, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (24279, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (24279, 9, 20463,  0, 0, 0, False) /* Create Scroll of Evisceration (20463) for ContainTreasure */
+     , (24279, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (24279, 9, 49422,  0, 0, 0, False) /* Create Acid Spectre Essence (80) (49422) for ContainTreasure */
+     , (24279, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
+     , (24279, 9, 20543,  0, 0, 0, False) /* Create Scroll of Yoshi's Blessing (20543) for ContainTreasure */
+     , (24279, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (24279, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
+     , (24279, 9, 31782,  0, 0, 0, False) /* Create Fire Spine Glaive (31782) for ContainTreasure */
+     , (24279, 9, 20481,  0, 0, 0, False) /* Create Scroll of Storm's Blessing (20481) for ContainTreasure */
+     , (24279, 9, 24837,  0, 0, 0, False) /* Create Gloom Drudge Charm (24837) for ContainTreasure */
+     , (24279, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (24279, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (24279, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (24279, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (24279, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24279, 67114282, 0, 0);

@@ -69,9 +69,9 @@ VALUES (121,  1486,      2)
      , (121,  2237,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (121, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (121, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
-     , (121, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;
+VALUES (121, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
+     , (121, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (121, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (121, 67110337, 168, 6);

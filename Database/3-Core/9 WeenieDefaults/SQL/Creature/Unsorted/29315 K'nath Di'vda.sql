@@ -44,17 +44,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29315, 8000, 2613596524) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29315, 9,   273, 288, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (29315, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
-     , (29315, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (29315, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (29315, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
-     , (29315, 9,  4192,  0, 0, 0, False) /* Create Acid Cestus (4192) for ContainTreasure */
-     , (29315, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
-     , (29315, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (29315, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+VALUES (29315, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
      , (29315, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (29315, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (29315, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (29315, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */
+     , (29315, 9,   273, 288, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (29315, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (29315, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (29315, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (29315, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */
      , (29315, 9, 41038,  0, 0, 0, False) /* Create Lightning Assagai (41038) for ContainTreasure */
-     , (29315, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */
-     , (29315, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */;
+     , (29315, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (29315, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (29315, 9,  4192,  0, 0, 0, False) /* Create Acid Cestus (4192) for ContainTreasure */;

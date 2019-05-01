@@ -60,36 +60,36 @@ VALUES (31910,   1,    10, 0, 0, 1500) /* MaxHealth */
      , (31910,   5,    10, 0, 0, 260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31910, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
-     , (31910, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (31910, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (31910, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (31910, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (31910, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (31910, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+VALUES (31910, 9, 49382,  0, 0, 0, False) /* Create Fire Grievver Essence (100) (49382) for ContainTreasure */
      , (31910, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (31910, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (31910, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
-     , (31910, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (31910, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
-     , (31910, 9, 20234,  0, 0, 0, False) /* Create Scroll of Boon of Refinement (20234) for ContainTreasure */
-     , (31910, 9, 20235,  0, 0, 0, False) /* Create Scroll of Honed Control (20235) for ContainTreasure */
-     , (31910, 9, 20254,  0, 0, 0, False) /* Create Scroll of Might of the Lugians (20254) for ContainTreasure */
-     , (31910, 9, 20567,  0, 0, 0, False) /* Create Scroll of Inefficient Investment (20567) for ContainTreasure */
-     , (31910, 9, 20570,  0, 0, 0, False) /* Create Scroll of Ignorance's Bliss (20570) for ContainTreasure */
-     , (31910, 9, 24477,  0, 0, 0, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
-     , (31910, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
-     , (31910, 9, 30593,  0, 0, 0, False) /* Create Lightning Partizan (30593) for ContainTreasure */
-     , (31910, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
      , (31910, 9, 31782,  0, 0, 0, False) /* Create Fire Spine Glaive (31782) for ContainTreasure */
-     , (31910, 9, 31815,  0, 0, 0, False) /* Create Electric Slingshot (31815) for ContainTreasure */
-     , (31910, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
-     , (31910, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
-     , (31910, 9, 42750,  0, 0, 0, False) /* Create Haebrean Gauntlets (42750) for ContainTreasure */
-     , (31910, 9, 43829,  0, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for ContainTreasure */
-     , (31910, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */
      , (31910, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
-     , (31910, 9, 49382,  0, 0, 0, False) /* Create Fire Grievver Essence (100) (49382) for ContainTreasure */;
+     , (31910, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (31910, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */
+     , (31910, 9, 20570,  0, 0, 0, False) /* Create Scroll of Ignorance's Bliss (20570) for ContainTreasure */
+     , (31910, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (31910, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (31910, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (31910, 9, 20254,  0, 0, 0, False) /* Create Scroll of Might of the Lugians (20254) for ContainTreasure */
+     , (31910, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (31910, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (31910, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (31910, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (31910, 9, 20567,  0, 0, 0, False) /* Create Scroll of Inefficient Investment (20567) for ContainTreasure */
+     , (31910, 9, 20234,  0, 0, 0, False) /* Create Scroll of Boon of Refinement (20234) for ContainTreasure */
+     , (31910, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (31910, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (31910, 9, 20235,  0, 0, 0, False) /* Create Scroll of Honed Control (20235) for ContainTreasure */
+     , (31910, 9, 30593,  0, 0, 0, False) /* Create Lightning Partizan (30593) for ContainTreasure */
+     , (31910, 9, 31815,  0, 0, 0, False) /* Create Electric Slingshot (31815) for ContainTreasure */
+     , (31910, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (31910, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (31910, 9, 24477,  0, 0, 0, False) /* Create Sturdy Steel Key (24477) for ContainTreasure */
+     , (31910, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (31910, 9, 42750,  0, 0, 0, False) /* Create Haebrean Gauntlets (42750) for ContainTreasure */
+     , (31910, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (31910, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (31910, 9, 43829,  0, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31910, 67116713, 0, 0);

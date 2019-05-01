@@ -63,15 +63,15 @@ VALUES (12038,   1,    10, 0, 0, 275) /* MaxHealth */
      , (12038,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12038, 9,    72,  0, 0, 0, False) /* Create Platemail Hauberk (72) for ContainTreasure */
-     , (12038, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+VALUES (12038, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
      , (12038, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (12038, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
      , (12038, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (12038, 9,  8665,  0, 0, 0, False) /* Create Ursuin Scalp (8665) for ContainTreasure */
-     , (12038, 9, 30586,  0, 0, 0, False) /* Create Flanged Mace (30586) for ContainTreasure */
+     , (12038, 9, 48959,  0, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for ContainTreasure */
      , (12038, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for ContainTreasure */
-     , (12038, 9, 48959,  0, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for ContainTreasure */;
+     , (12038, 9,    72,  0, 0, 0, False) /* Create Platemail Hauberk (72) for ContainTreasure */
+     , (12038, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (12038, 9, 30586,  0, 0, 0, False) /* Create Flanged Mace (30586) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12038, 67113365, 0, 0);

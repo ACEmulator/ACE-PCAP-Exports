@@ -69,9 +69,7 @@ VALUES (9422,   1,    10, 0, 0, 195) /* MaxHealth */
      , (9422,   5,    10, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9422, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (9422, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (9422, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald (9425) for Shop */
+VALUES (9422, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald (9425) for Shop */
      , (9422, 4,  9426, -1, 0, 0, False) /* Create Armor Diamond (9426) for Shop */
      , (9422, 4,  9427, -1, 0, 0, False) /* Create Force Opal (9427) for Shop */
      , (9422, 4,  9428, -1, 0, 0, False) /* Create Cold Moonstone (9428) for Shop */
@@ -79,7 +77,9 @@ VALUES (9422, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (9422, 4,  9430, -1, 0, 0, False) /* Create Lightning Sapphire (9430) for Shop */
      , (9422, 4,  9431, -1, 0, 0, False) /* Create Thorned Garnet (9431) for Shop */
      , (9422, 4,  9432, -1, 0, 0, False) /* Create Sharp Topaz (9432) for Shop */
-     , (9422, 4,  9474, -1, 0, 0, False) /* Create Calm Strength (9474) for Shop */;
+     , (9422, 4,  9474, -1, 0, 0, False) /* Create Calm Strength (9474) for Shop */
+     , (9422, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (9422, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9422, 67113162, 0, 0);

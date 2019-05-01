@@ -52,23 +52,23 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51215,   1,    10, 0, 0, 6400) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51215, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (51215, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (51215, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (51215, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
-     , (51215, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+VALUES (51215, 9, 48965,  0, 0, 0, False) /* Create Fire Child Essence (125) (48965) for ContainTreasure */
      , (51215, 9,  3892,  0, 0, 0, False) /* Create Frost Tachi (3892) for ContainTreasure */
-     , (51215, 9, 20529,  0, 0, 0, False) /* Create Scroll of Twisted Digits (20529) for ContainTreasure */
      , (51215, 9, 20532,  0, 0, 0, False) /* Create Scroll of Unsteady Hands (20532) for ContainTreasure */
-     , (51215, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
-     , (51215, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
-     , (51215, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
-     , (51215, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */
+     , (51215, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (51215, 9, 40619,  0, 0, 0, False) /* Create Acid Spadone (40619) for ContainTreasure */
-     , (51215, 9, 44856,  0, 0, 0, False) /* Create Trimmed Cloak (44856) for ContainTreasure */
+     , (51215, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
      , (51215, 9, 46879,  0, 0, 0, False) /* Create Aura of Blood Drinker Other VII (46879) for ContainTreasure */
-     , (51215, 9, 48965,  0, 0, 0, False) /* Create Fire Child Essence (125) (48965) for ContainTreasure */
-     , (51215, 9, 51214,  0, 0, 0, False) /* Create Hive Warrior Pincer (51214) for ContainTreasure */;
+     , (51215, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (51215, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (51215, 9, 44856,  0, 0, 0, False) /* Create Trimmed Cloak (44856) for ContainTreasure */
+     , (51215, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
+     , (51215, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (51215, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */
+     , (51215, 9, 51214,  0, 0, 0, False) /* Create Hive Warrior Pincer (51214) for ContainTreasure */
+     , (51215, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (51215, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (51215, 9, 20529,  0, 0, 0, False) /* Create Scroll of Twisted Digits (20529) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51215, 67116823, 0, 0);

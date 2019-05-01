@@ -60,19 +60,19 @@ VALUES (32956,   1,    10, 0, 0, 790) /* MaxHealth */
      , (32956,   5,    10, 0, 0, 760) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32956, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (32956, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (32956, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+VALUES (32956, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
+     , (32956, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (32956, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
      , (32956, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
      , (32956, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (32956, 9,  9310,  0, 0, 0, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (32956, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
-     , (32956, 9, 20571,  0, 0, 0, False) /* Create Scroll of Kaluhc's Boon (20571) for ContainTreasure */
      , (32956, 9, 21156,  0, 0, 0, False) /* Create Covenant Helm (21156) for ContainTreasure */
-     , (32956, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (32956, 9,  9310,  0, 0, 0, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (32956, 9, 20571,  0, 0, 0, False) /* Create Scroll of Kaluhc's Boon (20571) for ContainTreasure */
+     , (32956, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (32956, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (32956, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
      , (32956, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */
-     , (32956, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
-     , (32956, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */;
+     , (32956, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32956, 67113037, 0, 0);

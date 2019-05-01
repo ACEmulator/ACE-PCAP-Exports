@@ -48,18 +48,18 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (32004,   1,    10, 0, 0, 2840) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32004, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (32004, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+VALUES (32004, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
      , (32004, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
-     , (32004, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
-     , (32004, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
-     , (32004, 2, 48020,  1, 0, 0, False) /* Create Quarrel (48020) for Wield */
      , (32004, 2, 48021,  1, 0, 0, False) /* Create Acid Quarrel (48021) for Wield */
-     , (32004, 2, 48024,  1, 0, 0, False) /* Create Katar (48024) for Wield */
-     , (32004, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
+     , (32004, 2, 48020,  1, 0, 0, False) /* Create Quarrel (48020) for Wield */
      , (32004, 2, 48030,  1, 0, 0, False) /* Create Acid Silifi (48030) for Wield */
-     , (32004, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */
+     , (32004, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (32004, 2, 48034,  1, 0, 0, False) /* Create Lightning Ono (48034) for Wield */
+     , (32004, 2, 48024,  1, 0, 0, False) /* Create Katar (48024) for Wield */
+     , (32004, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (32004, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (32004, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */
+     , (32004, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
      , (32004, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

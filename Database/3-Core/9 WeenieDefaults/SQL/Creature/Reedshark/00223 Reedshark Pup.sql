@@ -57,37 +57,37 @@ VALUES (223,   1,    10, 0, 0, 41) /* MaxHealth */
      , (223,   5,    10, 0, 0, 25) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (223, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
-     , (223, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+VALUES (223, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
      , (223, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
-     , (223, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
-     , (223, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (223, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (223, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (223, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (223, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (223, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (223, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (223, 9,   273, 40, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (223, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (223, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (223, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (223, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
-     , (223, 9,  2787,  0, 0, 0, False) /* Create Scroll of Blood Loather II (2787) for ContainTreasure */
-     , (223, 9,  3163,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other II (3163) for ContainTreasure */
-     , (223, 9,  4238,  0, 0, 0, False) /* Create Small Reedshark Hide (4238) for ContainTreasure */
-     , (223, 9,  5981,  0, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other II (5981) for ContainTreasure */
-     , (223, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
-     , (223, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (223, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
-     , (223, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */
-     , (223, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
-     , (223, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
-     , (223, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
-     , (223, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
      , (223, 9, 45270,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other III (45270) for ContainTreasure */
+     , (223, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (223, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (223, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */
+     , (223, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (223, 9,  5981,  0, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other II (5981) for ContainTreasure */
+     , (223, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (223, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
      , (223, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
-     , (223, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (223, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (223, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (223, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (223, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (223, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (223, 9,  4238,  0, 0, 0, False) /* Create Small Reedshark Hide (4238) for ContainTreasure */
+     , (223, 9,  2787,  0, 0, 0, False) /* Create Scroll of Blood Loather II (2787) for ContainTreasure */
+     , (223, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (223, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (223, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (223, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (223, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (223, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+     , (223, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (223, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (223, 9,  3163,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other II (3163) for ContainTreasure */
+     , (223, 9,   273, 40, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (223, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (223, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (223, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (223, 67111344, 0, 0);

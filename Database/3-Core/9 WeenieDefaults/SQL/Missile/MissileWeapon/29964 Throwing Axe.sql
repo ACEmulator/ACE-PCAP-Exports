@@ -69,12 +69,12 @@ VALUES (29964, 8000, 3690108556) /* PCAPRecordedObjectIID */
      , (29964, 8008, 3690108514) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29964, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (29964, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (29964, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (29964, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
-     , (29964, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (29964, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+VALUES (29964, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (29964, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
      , (29964, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (29964, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (29964, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */;
+     , (29964, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */
+     , (29964, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (29964, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (29964, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
+     , (29964, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
+     , (29964, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

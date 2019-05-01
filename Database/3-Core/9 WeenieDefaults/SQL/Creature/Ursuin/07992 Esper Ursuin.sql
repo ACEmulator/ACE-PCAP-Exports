@@ -60,34 +60,34 @@ VALUES (7992,   1,    10, 0, 0, 190) /* MaxHealth */
      , (7992,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7992, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (7992, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
-     , (7992, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (7992, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (7992, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (7992, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (7992, 9,   273, 161, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7992, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (7992, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (7992, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
-     , (7992, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (7992, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (7992, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
-     , (7992, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+VALUES (7992, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (7992, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
-     , (7992, 9,  3059,  0, 0, 0, False) /* Create Scroll of Lightning Vulnerability Other III (3059) for ContainTreasure */
      , (7992, 9,  3733,  0, 0, 0, False) /* Create Scroll of Infuse Health IV (3733) for ContainTreasure */
-     , (7992, 9,  5976,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Self III (5976) for ContainTreasure */
-     , (7992, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (7992, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (7992, 9, 20326,  0, 0, 0, False) /* Create Scroll of Cleanse Creature Magic Self (20326) for ContainTreasure */
-     , (7992, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
-     , (7992, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
-     , (7992, 9, 41069,  0, 0, 0, False) /* Create Lightning Shashqa (41069) for ContainTreasure */
      , (7992, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
-     , (7992, 9, 45271,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other IV (45271) for ContainTreasure */
+     , (7992, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (7992, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
      , (7992, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
-     , (7992, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (7992, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (7992, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (7992, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (7992, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (7992, 9, 41069,  0, 0, 0, False) /* Create Lightning Shashqa (41069) for ContainTreasure */
+     , (7992, 9,   273, 161, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7992, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (7992, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (7992, 9, 20326,  0, 0, 0, False) /* Create Scroll of Cleanse Creature Magic Self (20326) for ContainTreasure */
+     , (7992, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (7992, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (7992, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (7992, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (7992, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (7992, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
+     , (7992, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
+     , (7992, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (7992, 9, 45271,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other IV (45271) for ContainTreasure */
+     , (7992, 9,  5976,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Self III (5976) for ContainTreasure */
+     , (7992, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (7992, 9,  3059,  0, 0, 0, False) /* Create Scroll of Lightning Vulnerability Other III (3059) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7992, 67112948, 0, 0);

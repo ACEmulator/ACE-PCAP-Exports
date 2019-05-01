@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (39157, 8000, 3332247532) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (39157, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (39157, 2, 48041,  1, 0, 0, False) /* Create Nekode (48041) for Wield */;
+VALUES (39157, 2, 48041,  1, 0, 0, False) /* Create Nekode (48041) for Wield */
+     , (39157, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39157, 67111941, 0, 0);

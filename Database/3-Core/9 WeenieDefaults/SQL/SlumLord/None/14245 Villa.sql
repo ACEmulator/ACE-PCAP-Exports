@@ -49,7 +49,7 @@ VALUES (14245, 8000, 1979326920) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14245, 16,   273, 2000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (14245, 16,  8426,  1, 0, 0, False) /* Create Jungle Phyntos Wasp Wing (8426) for HouseBuy */
      , (14245, 16, 11710,  5, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (14245, 16,  8426,  1, 0, 0, False) /* Create Jungle Phyntos Wasp Wing (8426) for HouseBuy */
      , (14245, 32,   273, 100000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (14245, 32, 11710,  2, 0, 0, False) /* Create Writ of Refuge (11710) for HouseRent */;

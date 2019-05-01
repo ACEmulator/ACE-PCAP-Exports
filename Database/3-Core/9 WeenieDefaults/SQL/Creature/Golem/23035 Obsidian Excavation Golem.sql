@@ -57,38 +57,38 @@ VALUES (23035,   1,    10, 0, 0, 1100) /* MaxHealth */
      , (23035,   5,    10, 0, 0, 945) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23035, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+VALUES (23035, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (23035, 9, 23038,  0, 0, 0, False) /* Create Valara Crystal (23038) for ContainTreasure */
      , (23035, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (23035, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (23035, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (23035, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (23035, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (23035, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */
-     , (23035, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (23035, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (23035, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (23035, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (23035, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (23035, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (23035, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (23035, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (23035, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (23035, 9,  3692,  0, 0, 0, False) /* Create Black Stone (3692) for ContainTreasure */
-     , (23035, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */
-     , (23035, 9,  3874,  0, 0, 0, False) /* Create Lightning Spear (3874) for ContainTreasure */
-     , (23035, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
-     , (23035, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (23035, 9,  9324,  0, 0, 0, False) /* Create Obsidian Heart (9324) for ContainTreasure */
-     , (23035, 9, 20231,  0, 0, 0, False) /* Create Scroll of Executor's Blessing (20231) for ContainTreasure */
-     , (23035, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (23035, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (23035, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (23035, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (23035, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (23035, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (23035, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
+     , (23035, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (23035, 9, 20539,  0, 0, 0, False) /* Create Scroll of Wrath of Celcynd (20539) for ContainTreasure */
      , (23035, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
-     , (23035, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
-     , (23035, 9, 23038,  0, 0, 0, False) /* Create Valara Crystal (23038) for ContainTreasure */
-     , (23035, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
-     , (23035, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (23035, 9,  3692,  0, 0, 0, False) /* Create Black Stone (3692) for ContainTreasure */
+     , (23035, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */
+     , (23035, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (23035, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */
+     , (23035, 9, 20231,  0, 0, 0, False) /* Create Scroll of Executor's Blessing (20231) for ContainTreasure */
+     , (23035, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (23035, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (23035, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
      , (23035, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
-     , (23035, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
-     , (23035, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
      , (23035, 9, 43049,  0, 0, 0, False) /* Create Knorr Academy Gauntlets (43049) for ContainTreasure */
-     , (23035, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (23035, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (23035, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (23035, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (23035, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (23035, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (23035, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
+     , (23035, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
+     , (23035, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (23035, 9,  3874,  0, 0, 0, False) /* Create Lightning Spear (3874) for ContainTreasure */
+     , (23035, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (23035, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (23035, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */;

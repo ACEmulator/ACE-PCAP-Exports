@@ -45,9 +45,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30886, 8000, 3331051500) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30886, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+VALUES (30886, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
      , (30886, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
-     , (30886, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */;
+     , (30886, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30886, 67116636, 153, 47)

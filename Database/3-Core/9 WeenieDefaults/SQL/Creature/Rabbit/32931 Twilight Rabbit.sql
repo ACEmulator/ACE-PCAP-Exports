@@ -59,14 +59,14 @@ VALUES (32931,   1,    10, 0, 0, 430) /* MaxHealth */
      , (32931,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32931, 9,   273, 1492, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (32931, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (32931, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+VALUES (32931, 9, 20563,  0, 0, 0, False) /* Create Scroll of Eyes Clouded (20563) for ContainTreasure */
+     , (32931, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */
      , (32931, 9,  3880,  0, 0, 0, False) /* Create Frost Broad Sword (3880) for ContainTreasure */
-     , (32931, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (32931, 9, 20563,  0, 0, 0, False) /* Create Scroll of Eyes Clouded (20563) for ContainTreasure */
-     , (32931, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (32931, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (32931, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
      , (32931, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
-     , (32931, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */;
+     , (32931, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
+     , (32931, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (32931, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (32931, 9,   273, 1492, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (32931, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (32931, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (32931, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;

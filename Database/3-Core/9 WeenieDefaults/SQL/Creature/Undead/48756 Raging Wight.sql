@@ -50,20 +50,20 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (48756,   1,    10, 0, 0, 3820) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (48756, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+VALUES (48756, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (48756, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (48756, 2, 48094,  1, 0, 0, False) /* Create Lightning Ono (48094) for Wield */
      , (48756, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (48756, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
      , (48756, 2, 48080,  1, 0, 0, False) /* Create Quarrel (48080) for Wield */
      , (48756, 2, 48084,  1, 0, 0, False) /* Create Katar (48084) for Wield */
-     , (48756, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (48756, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
-     , (48756, 2, 48094,  1, 0, 0, False) /* Create Lightning Ono (48094) for Wield */
-     , (48756, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (48756, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
-     , (48756, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (48756, 9, 37340,  1, 0, 0, False) /* Create Glyph of War Magic (37340) for ContainTreasure */
-     , (48756, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
      , (48756, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
-     , (48756, 9, 45424,  0, 0, 0, False) /* Create Flaming Dagger (45424) for ContainTreasure */;
+     , (48756, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (48756, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (48756, 9, 45424,  0, 0, 0, False) /* Create Flaming Dagger (45424) for ContainTreasure */
+     , (48756, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (48756, 9, 37340,  1, 0, 0, False) /* Create Glyph of War Magic (37340) for ContainTreasure */
+     , (48756, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48756, 67113040, 0, 0);

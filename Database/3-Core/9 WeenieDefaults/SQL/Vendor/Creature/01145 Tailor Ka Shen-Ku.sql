@@ -78,9 +78,9 @@ VALUES (1145,   1,    10, 0, 0, 123) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1145, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (1145, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (1145, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop */
      , (1145, 4,  2597, -1, 0, 0, False) /* Create Flared Pants (2597) for Shop */
+     , (1145, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (1145, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (1145, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
      , (1145, 4,  8372, -1, 0, 0, False) /* Create Yifan Dress (8372) for Shop */;

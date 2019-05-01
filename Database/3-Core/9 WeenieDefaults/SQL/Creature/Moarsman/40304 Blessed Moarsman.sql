@@ -62,24 +62,24 @@ VALUES (40304,   1,    10, 0, 0, 1270) /* MaxHealth */
      , (40304,   5,    10, 0, 0, 690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40304, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+VALUES (40304, 9, 49342,  0, 0, 0, False) /* Create Acid Moar Essence (150) (49342) for ContainTreasure */
      , (40304, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (40304, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (40304, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (40304, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (40304, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (40304, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */
-     , (40304, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
-     , (40304, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
      , (40304, 9, 20509,  0, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self VII (20509) for ContainTreasure */
-     , (40304, 9, 29257,  0, 0, 0, False) /* Create Piercing Atlatl (29257) for ContainTreasure */
-     , (40304, 9, 30556,  0, 0, 0, False) /* Create Hatchet (30556) for ContainTreasure */
-     , (40304, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
-     , (40304, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
      , (40304, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
      , (40304, 9, 45429,  0, 0, 0, False) /* Create Flaming Weeping Dagger (45429) for ContainTreasure */
-     , (40304, 9, 49238,  0, 0, 0, False) /* Create Acid Zombie Essence (180) (49238) for ContainTreasure */
+     , (40304, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */
+     , (40304, 9, 30556,  0, 0, 0, False) /* Create Hatchet (30556) for ContainTreasure */
+     , (40304, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
      , (40304, 9, 49312,  0, 0, 0, False) /* Create Acid Wisp Essence (100) (49312) for ContainTreasure */
-     , (40304, 9, 49342,  0, 0, 0, False) /* Create Acid Moar Essence (150) (49342) for ContainTreasure */;
+     , (40304, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
+     , (40304, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (40304, 9, 29257,  0, 0, 0, False) /* Create Piercing Atlatl (29257) for ContainTreasure */
+     , (40304, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
+     , (40304, 9, 49238,  0, 0, 0, False) /* Create Acid Zombie Essence (180) (49238) for ContainTreasure */
+     , (40304, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40304, 67115234, 0, 0);

@@ -50,16 +50,16 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (28669,   1,    10, 0, 0, 105) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28669, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+VALUES (28669, 9,  3320,  0, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other IV (3320) for ContainTreasure */
+     , (28669, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (28669, 9,   273, 194, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (28669, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (28669, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (28669, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (28669, 9,  3320,  0, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other IV (3320) for ContainTreasure */
      , (28669, 9,  3411,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Other V (3411) for ContainTreasure */
-     , (28669, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (28669, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (28669, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
-     , (28669, 9, 40638,  0, 0, 0, False) /* Create Flaming Tetsubo (40638) for ContainTreasure */;
+     , (28669, 9, 40638,  0, 0, 0, False) /* Create Flaming Tetsubo (40638) for ContainTreasure */
+     , (28669, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (28669, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28669, 67115447, 0, 0);

@@ -61,25 +61,25 @@ VALUES (8010,   1,    10, 0, 0, 30) /* MaxHealth */
      , (8010,   5,    10, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8010, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (8010, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (8010, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (8010, 9,   273, 41, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (8010, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (8010, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (8010, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+VALUES (8010, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (8010, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (8010, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (8010, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (8010, 9,   273, 41, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (8010, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (8010, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (8010, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (8010, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (8010, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
      , (8010, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
      , (8010, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (8010, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
-     , (8010, 9,  3889,  0, 0, 0, False) /* Create Acid Tachi (3889) for ContainTreasure */
+     , (8010, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (8010, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (8010, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (8010, 9,  6055,  1, 0, 0, False) /* Create Cracked Shard (6055) for ContainTreasure */
-     , (8010, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (8010, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (8010, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (8010, 9,  3889,  0, 0, 0, False) /* Create Acid Tachi (3889) for ContainTreasure */
      , (8010, 9, 20860,  1, 0, 0, False) /* Create Herald Stamp (20860) for ContainTreasure */
-     , (8010, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (8010, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
+     , (8010, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8010, 67112925, 0, 0);

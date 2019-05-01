@@ -77,15 +77,15 @@ VALUES (42810,   1,    10, 0, 0, 75) /* MaxHealth */
      , (42810,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42810, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+VALUES (42810, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (42810, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (42810, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (42810, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (42810, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (42810, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (42810, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (42810, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
      , (42810, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (42810, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
-     , (42810, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (42810, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (42810, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
-     , (42810, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (42810, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (42810, 4, 46376, -1, 0, 0, False) /* Create  (46376) for Shop */
      , (42810, 4, 46377, -1, 0, 0, False) /* Create  (46377) for Shop */

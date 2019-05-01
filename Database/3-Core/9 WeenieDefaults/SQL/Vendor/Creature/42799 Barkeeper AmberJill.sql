@@ -77,28 +77,28 @@ VALUES (42799,   1,    10, 0, 0, 80) /* MaxHealth */
      , (42799,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42799, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (42799, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (42799, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+VALUES (42799, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42799, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (42799, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (42799, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (42799, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
-     , (42799, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (42799, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (42799, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (42799, 4,  4716, -1, 0, 0, False) /* Create Chicken Pie (4716) for Shop */
      , (42799, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
-     , (42799, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (42799, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (42799, 4, 44396, -1, 0, 0, False) /* Create  (44396) for Shop */
+     , (42799, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (42799, 4, 46755, -1, 0, 0, False) /* Create  (46755) for Shop */
+     , (42799, 4, 51964, -1, 0, 0, False) /* Create  (51964) for Shop */
+     , (42799, 4, 49569, -1, 0, 0, False) /* Create  (49569) for Shop */
      , (42799, 4, 44398, -1, 0, 0, False) /* Create  (44398) for Shop */
      , (42799, 4, 44400, -1, 0, 0, False) /* Create  (44400) for Shop */
+     , (42799, 4, 44396, -1, 0, 0, False) /* Create  (44396) for Shop */
      , (42799, 4, 44654, -1, 0, 0, False) /* Create  (44654) for Shop */
      , (42799, 4, 44819, -1, 0, 0, False) /* Create Contract for Aerbax's Prodigal Monouga (44819) for Shop */
-     , (42799, 4, 46755, -1, 0, 0, False) /* Create  (46755) for Shop */
-     , (42799, 4, 49569, -1, 0, 0, False) /* Create  (49569) for Shop */
      , (42799, 4, 49570, -1, 0, 0, False) /* Create  (49570) for Shop */
-     , (42799, 4, 51605, -1, 0, 0, False) /* Create  (51605) for Shop */
      , (42799, 4, 51606, -1, 0, 0, False) /* Create  (51606) for Shop */
-     , (42799, 4, 51679, -1, 0, 0, False) /* Create  (51679) for Shop */
-     , (42799, 4, 51964, -1, 0, 0, False) /* Create  (51964) for Shop */;
+     , (42799, 4, 51605, -1, 0, 0, False) /* Create  (51605) for Shop */
+     , (42799, 4, 51679, -1, 0, 0, False) /* Create  (51679) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42799, 67109558, 0, 24)

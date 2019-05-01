@@ -57,9 +57,9 @@ VALUES (31028,   1,    10, 0, 0, 765) /* MaxHealth */
      , (31028,   5,    10, 0, 0, 260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31028, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (31028, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (31028, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+VALUES (31028, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (31028, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (31028, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31028, 67115510, 0, 0);

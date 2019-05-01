@@ -80,9 +80,9 @@ VALUES (48315, 8000, 3686228027) /* PCAPRecordedObjectIID */
      , (48315, 8008, 3686225808) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (48315, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (48315, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
-     , (48315, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */;
+VALUES (48315, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (48315, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */
+     , (48315, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48315, 67111927, 0, 0);

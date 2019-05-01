@@ -80,11 +80,11 @@ VALUES (41731,   1,    10, 0, 0, 331) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41731, 4, 41718, -1, 0, 0, False) /* Create  (41718) for Shop */
      , (41731, 4, 41719, -1, 0, 0, False) /* Create  (41719) for Shop */
-     , (41731, 4, 41720, -1, 0, 0, False) /* Create Bow Stamped Silveran Ingot (41720) for Shop */
      , (41731, 4, 41721, -1, 0, 0, False) /* Create  (41721) for Shop */
      , (41731, 4, 41722, -1, 0, 0, False) /* Create  (41722) for Shop */
      , (41731, 4, 41723, -1, 0, 0, False) /* Create  (41723) for Shop */
      , (41731, 4, 41724, -1, 0, 0, False) /* Create  (41724) for Shop */
+     , (41731, 4, 41720, -1, 0, 0, False) /* Create Bow Stamped Silveran Ingot (41720) for Shop */
      , (41731, 4, 41725, -1, 0, 0, False) /* Create  (41725) for Shop */
      , (41731, 4, 41726, -1, 0, 0, False) /* Create  (41726) for Shop */
      , (41731, 4, 41727, -1, 0, 0, False) /* Create  (41727) for Shop */

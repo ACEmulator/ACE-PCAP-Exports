@@ -62,8 +62,8 @@ VALUES (15862,   1,    10, 0, 0, 223) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (15862, 2, 23676,  1, 0, 0, False) /* Create Katar (23676) for Wield */
-     , (15862, 2, 23682,  1, 0, 0, False) /* Create Nekode (23682) for Wield */
-     , (15862, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wield */;
+     , (15862, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wield */
+     , (15862, 2, 23682,  1, 0, 0, False) /* Create Nekode (23682) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15862, 67116625, 153, 47)

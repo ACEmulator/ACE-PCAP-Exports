@@ -58,26 +58,26 @@ VALUES (5682,   1,    10, 0, 0, 65) /* MaxHealth */
      , (5682,   5,    10, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5682, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (5682, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+VALUES (5682, 2, 47725,  1, 0, 0, False) /* Create Spear (47725) for Wield */
+     , (5682, 2, 47654,  1, 0, 0, False) /* Create Lightning Tachi (47654) for Wield */
      , (5682, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (5682, 2, 47420,  1, 0, 0, False) /* Create Acid Mace (47420) for Wield */
-     , (5682, 2, 47439,  1, 0, 0, False) /* Create Mace (47439) for Wield */
-     , (5682, 2, 47477,  1, 0, 0, False) /* Create Flaming Mace (47477) for Wield */
-     , (5682, 2, 47496,  1, 0, 0, False) /* Create Frost Mace (47496) for Wield */
      , (5682, 2, 47616,  1, 0, 0, False) /* Create Acid Tachi (47616) for Wield */
-     , (5682, 2, 47635,  1, 0, 0, False) /* Create Tachi (47635) for Wield */
-     , (5682, 2, 47654,  1, 0, 0, False) /* Create Lightning Tachi (47654) for Wield */
-     , (5682, 2, 47687,  1, 0, 0, False) /* Create Frost Tachi (47687) for Wield */
+     , (5682, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (5682, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (5682, 2, 47706,  1, 0, 0, False) /* Create Acid Spear (47706) for Wield */
-     , (5682, 2, 47725,  1, 0, 0, False) /* Create Spear (47725) for Wield */
-     , (5682, 2, 47744,  1, 0, 0, False) /* Create Lightning Spear (47744) for Wield */
+     , (5682, 2, 47635,  1, 0, 0, False) /* Create Tachi (47635) for Wield */
+     , (5682, 2, 47439,  1, 0, 0, False) /* Create Mace (47439) for Wield */
+     , (5682, 2, 47496,  1, 0, 0, False) /* Create Frost Mace (47496) for Wield */
+     , (5682, 2, 47687,  1, 0, 0, False) /* Create Frost Tachi (47687) for Wield */
      , (5682, 2, 47782,  1, 0, 0, False) /* Create Frost Spear (47782) for Wield */
-     , (5682, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
      , (5682, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */
+     , (5682, 2, 47744,  1, 0, 0, False) /* Create Lightning Spear (47744) for Wield */
+     , (5682, 2, 47477,  1, 0, 0, False) /* Create Flaming Mace (47477) for Wield */
+     , (5682, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
+     , (5682, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
      , (5682, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (5682, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (5682, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */;
+     , (5682, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5682, 67116526, 0, 0);

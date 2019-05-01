@@ -77,8 +77,8 @@ VALUES (22082,   1,    10, 0, 0, 33) /* MaxHealth */
      , (22082,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22082, 4,  5670, -1, 0, 0, False) /* Create Tempting Apple (5670) for Shop */
-     , (22082, 4,  5671, -1, 0, 0, False) /* Create Cold Milk (5671) for Shop */
+VALUES (22082, 4,  5671, -1, 0, 0, False) /* Create Cold Milk (5671) for Shop */
+     , (22082, 4,  5670, -1, 0, 0, False) /* Create Tempting Apple (5670) for Shop */
      , (22082, 4,  5672, -1, 0, 0, False) /* Create Herbal Tea (5672) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

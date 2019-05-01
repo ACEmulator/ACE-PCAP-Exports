@@ -48,17 +48,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20974, 8000, 3688133156) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20974, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+VALUES (20974, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
      , (20974, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */
-     , (20974, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (20974, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
      , (20974, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
      , (20974, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */
-     , (20974, 2, 37224,  1, 0, 0, False) /* Create Acid Staff (37224) for Wield */
-     , (20974, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (20974, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
      , (20974, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (20974, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
-     , (20974, 2, 47409,  1, 0, 0, False) /* Create Frost Club (47409) for Wield */
+     , (20974, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (20974, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
      , (20974, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
-     , (20974, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
      , (20974, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
-     , (20974, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */;
+     , (20974, 2, 37224,  1, 0, 0, False) /* Create Acid Staff (37224) for Wield */
+     , (20974, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
+     , (20974, 2, 47409,  1, 0, 0, False) /* Create Frost Club (47409) for Wield */;

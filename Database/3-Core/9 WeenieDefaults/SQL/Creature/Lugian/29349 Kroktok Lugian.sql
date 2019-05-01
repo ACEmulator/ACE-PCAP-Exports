@@ -48,85 +48,85 @@ VALUES (29349,   1,    10, 0, 0, 450) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29349, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
-     , (29349, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
-     , (29349, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
-     , (29349, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */
-     , (29349, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (29349, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
-     , (29349, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
-     , (29349, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
-     , (29349, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (29349, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (29349, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (29349, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (29349, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (29349, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (29349, 9,   273, 1615, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (29349, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (29349, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
      , (29349, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (29349, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
-     , (29349, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
      , (29349, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (29349, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (29349, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
-     , (29349, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
-     , (29349, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
-     , (29349, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (29349, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (29349, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (29349, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (29349, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (29349, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (29349, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for ContainTreasure */
-     , (29349, 9,  3876,  0, 0, 0, False) /* Create Frost Spear (3876) for ContainTreasure */
-     , (29349, 9,  3879,  0, 0, 0, False) /* Create Flaming Broad Sword (3879) for ContainTreasure */
-     , (29349, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
-     , (29349, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
-     , (29349, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
-     , (29349, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
      , (29349, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */
-     , (29349, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (29349, 9,  9658,  0, 0, 0, False) /* Create Scroll of Stamina to Mana Self V (9658) for ContainTreasure */
-     , (29349, 9, 20251,  0, 0, 0, False) /* Create Scroll of Robustification (20251) for ContainTreasure */
-     , (29349, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
-     , (29349, 9, 20450,  0, 0, 0, False) /* Create Scroll of Icy Torment (20450) for ContainTreasure */
-     , (29349, 9, 20523,  0, 0, 0, False) /* Create Scroll of Ketnan's Boon (20523) for ContainTreasure */
-     , (29349, 9, 20527,  0, 0, 0, False) /* Create Scroll of Odif's Boon (20527) for ContainTreasure */
-     , (29349, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
-     , (29349, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
-     , (29349, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
-     , (29349, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
-     , (29349, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
-     , (29349, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
-     , (29349, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */
-     , (29349, 9, 27224,  0, 0, 0, False) /* Create Lorica Leggings (27224) for ContainTreasure */
      , (29349, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (29349, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
-     , (29349, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (29349, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (29349, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
      , (29349, 9, 29255,  0, 0, 0, False) /* Create Fire Atlatl (29255) for ContainTreasure */
-     , (29349, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
-     , (29349, 9, 30951,  0, 0, 0, False) /* Create Alduressa Gauntlets (30951) for ContainTreasure */
+     , (29349, 9, 27224,  0, 0, 0, False) /* Create Lorica Leggings (27224) for ContainTreasure */
+     , (29349, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (29349, 9, 49264,  0, 0, 0, False) /* Create Acid Child Essence (125) (49264) for ContainTreasure */
+     , (29349, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (29349, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */
+     , (29349, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (29349, 9, 49262,  0, 0, 0, False) /* Create Acid Elemental Essence (80) (49262) for ContainTreasure */
+     , (29349, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
      , (29349, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
-     , (29349, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
+     , (29349, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
+     , (29349, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (29349, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
+     , (29349, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
      , (29349, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
      , (29349, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
-     , (29349, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
-     , (29349, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */
-     , (29349, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
-     , (29349, 9, 45274,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VII (45274) for ContainTreasure */
-     , (29349, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
-     , (29349, 9, 45434,  0, 0, 0, False) /* Create Flaming Khanjar (45434) for ContainTreasure */
      , (29349, 9, 49240,  0, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for ContainTreasure */
-     , (29349, 9, 49262,  0, 0, 0, False) /* Create Acid Elemental Essence (80) (49262) for ContainTreasure */
-     , (29349, 9, 49264,  0, 0, 0, False) /* Create Acid Child Essence (125) (49264) for ContainTreasure */
-     , (29349, 9, 49319,  0, 0, 0, False) /* Create Lightning Wisp Essence (100) (49319) for ContainTreasure */
-     , (29349, 9, 49325,  0, 0, 0, False) /* Create Fire Wisp Essence (80) (49325) for ContainTreasure */
-     , (29349, 9, 49347,  0, 0, 0, False) /* Create Lightning Moar Essence (100) (49347) for ContainTreasure */
-     , (29349, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (29349, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (29349, 9, 20251,  0, 0, 0, False) /* Create Scroll of Robustification (20251) for ContainTreasure */
+     , (29349, 9, 20527,  0, 0, 0, False) /* Create Scroll of Odif's Boon (20527) for ContainTreasure */
+     , (29349, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (29349, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
+     , (29349, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (29349, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+     , (29349, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (29349, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for ContainTreasure */
+     , (29349, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (29349, 9,  3876,  0, 0, 0, False) /* Create Frost Spear (3876) for ContainTreasure */
+     , (29349, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (29349, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
+     , (29349, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (29349, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
      , (29349, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
+     , (29349, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (29349, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (29349, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
+     , (29349, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (29349, 9, 49319,  0, 0, 0, False) /* Create Lightning Wisp Essence (100) (49319) for ContainTreasure */
+     , (29349, 9,  3879,  0, 0, 0, False) /* Create Flaming Broad Sword (3879) for ContainTreasure */
+     , (29349, 9, 45434,  0, 0, 0, False) /* Create Flaming Khanjar (45434) for ContainTreasure */
+     , (29349, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (29349, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (29349, 9,   273, 1615, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (29349, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (29349, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (29349, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
      , (29349, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */
-     , (29349, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (29349, 9,  9658,  0, 0, 0, False) /* Create Scroll of Stamina to Mana Self V (9658) for ContainTreasure */
+     , (29349, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (29349, 9, 49347,  0, 0, 0, False) /* Create Lightning Moar Essence (100) (49347) for ContainTreasure */
+     , (29349, 9, 45274,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VII (45274) for ContainTreasure */
+     , (29349, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */
+     , (29349, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
+     , (29349, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
+     , (29349, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
+     , (29349, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (29349, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
+     , (29349, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (29349, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (29349, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (29349, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */
+     , (29349, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (29349, 9, 20450,  0, 0, 0, False) /* Create Scroll of Icy Torment (20450) for ContainTreasure */
+     , (29349, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (29349, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (29349, 9, 30951,  0, 0, 0, False) /* Create Alduressa Gauntlets (30951) for ContainTreasure */
+     , (29349, 9, 49325,  0, 0, 0, False) /* Create Fire Wisp Essence (80) (49325) for ContainTreasure */
+     , (29349, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (29349, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (29349, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (29349, 9, 20523,  0, 0, 0, False) /* Create Scroll of Ketnan's Boon (20523) for ContainTreasure */
+     , (29349, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (29349, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29349, 67113163, 0, 0);

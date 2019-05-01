@@ -60,18 +60,18 @@ VALUES (27712,   1,    10, 0, 0, 500) /* MaxHealth */
      , (27712,   5,    10, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27712, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
-     , (27712, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (27712, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (27712, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
-     , (27712, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (27712, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+VALUES (27712, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
      , (27712, 9, 20242,  0, 0, 0, False) /* Create Scroll of Brittle Bones (20242) for ContainTreasure */
-     , (27712, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
-     , (27712, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
      , (27712, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (27712, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
+     , (27712, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */
+     , (27712, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (27712, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (27712, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
      , (27712, 9, 29898,  0, 0, 0, False) /* Create Small Bundle of Badlands Siraluun Feathers (29898) for ContainTreasure */
-     , (27712, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */;
+     , (27712, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (27712, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
+     , (27712, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27712, 67115191, 0, 0);

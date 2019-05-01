@@ -61,5 +61,5 @@ VALUES (36918,   1,    10, 0, 0, 20000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36918, 2, 36919,  1, 0, 0, False) /* Create Freezing Iceball (36919) for Wield */
-     , (36918, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */
-     , (36918, 9, 36920,  0, 0, 0, False) /* Create A Perfect Snowman Eye (36920) for ContainTreasure */;
+     , (36918, 9, 36920,  0, 0, 0, False) /* Create A Perfect Snowman Eye (36920) for ContainTreasure */
+     , (36918, 9,  5758,  1, 0, 0, False) /* Create Carrot (5758) for ContainTreasure */;

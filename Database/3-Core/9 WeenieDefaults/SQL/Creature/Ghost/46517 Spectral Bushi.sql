@@ -48,19 +48,19 @@ VALUES (46517,   1,    10, 0, 0, 2850) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46517, 2, 46367,  1, 0, 0, False) /* Create Spectral Frost Tachi (46367) for Wield */
+     , (46517, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (46517, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
      , (46517, 9,    43,  0, 0, 0, False) /* Create Yoroi Breastplate (43) for ContainTreasure */
-     , (46517, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (46517, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (46517, 9,   273, 2201, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (46517, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (46517, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (46517, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
      , (46517, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (46517, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (46517, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (46517, 9, 46880,  0, 0, 0, False) /* Create Aura of Defender Other VII (46880) for ContainTreasure */
      , (46517, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (46517, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (46517, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
-     , (46517, 9, 46880,  0, 0, 0, False) /* Create Aura of Defender Other VII (46880) for ContainTreasure */;
+     , (46517, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (46517, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (46517, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (46517, 9,   273, 2201, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (46517, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46517, 67109964, 92, 4)

@@ -48,9 +48,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20977, 8000, 3688385021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20977, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
+VALUES (20977, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
+     , (20977, 2, 47542,  1, 0, 0, False) /* Create Javelin (47542) for Wield */
      , (20977, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
      , (20977, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (20977, 2, 47521,  1, 0, 0, False) /* Create Acid Javelin (47521) for Wield */
-     , (20977, 2, 47542,  1, 0, 0, False) /* Create Javelin (47542) for Wield */
-     , (20977, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;
+     , (20977, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (20977, 2, 47521,  1, 0, 0, False) /* Create Acid Javelin (47521) for Wield */;

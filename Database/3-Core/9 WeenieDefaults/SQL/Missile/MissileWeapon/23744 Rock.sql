@@ -71,8 +71,8 @@ VALUES (23744, 8000, 3685859808) /* PCAPRecordedObjectIID */
      , (23744, 8008, 3685859806) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23744, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
+VALUES (23744, 2, 23664,  1, 0, 0, False) /* Create Heavy Crossbow (23664) for Wield */
      , (23744, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
-     , (23744, 2, 23664,  1, 0, 0, False) /* Create Heavy Crossbow (23664) for Wield */
+     , (23744, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
      , (23744, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
      , (23744, 2, 47521,  1, 0, 0, False) /* Create Acid Javelin (47521) for Wield */;

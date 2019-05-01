@@ -61,6 +61,6 @@ VALUES (14514,   1,    10, 0, 0, 780) /* MaxHealth */
      , (14514,   5,    10, 0, 0, 495) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14514, 9,   273, 1719, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (14514, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (14514, 9, 20402,  0, 0, 0, False) /* Create Scroll of Olthoi's Bane (20402) for ContainTreasure */;
+VALUES (14514, 9, 20402,  0, 0, 0, False) /* Create Scroll of Olthoi's Bane (20402) for ContainTreasure */
+     , (14514, 9,   273, 1719, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14514, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */;

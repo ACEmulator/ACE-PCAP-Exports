@@ -62,10 +62,10 @@ VALUES (26516,   1,    10, 0, 0, 950) /* MaxHealth */
      , (26516,   5,    10, 0, 0, 960) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26516, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
-     , (26516, 2, 48101,  1, 0, 0, False) /* Create Sickle (48101) for Wield */
-     , (26516, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+VALUES (26516, 2, 48101,  1, 0, 0, False) /* Create Sickle (48101) for Wield */
+     , (26516, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */
      , (26516, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (26516, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
      , (26516, 9, 43055,  0, 0, 0, False) /* Create Knorr Academy Vambraces (43055) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

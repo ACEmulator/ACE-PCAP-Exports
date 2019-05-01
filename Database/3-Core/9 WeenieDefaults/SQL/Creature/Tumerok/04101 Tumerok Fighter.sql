@@ -61,13 +61,13 @@ VALUES (4101,   1,    10, 0, 0, 78) /* MaxHealth */
      , (4101,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4101, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+VALUES (4101, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
+     , (4101, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (4101, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
      , (4101, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (4101, 2,   339,  1, 0, 0, False) /* Create Scimitar (339) for Wield */
-     , (4101, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
      , (4101, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
      , (4101, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (4101, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
+     , (4101, 2,   339,  1, 0, 0, False) /* Create Scimitar (339) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4101, 67116625, 57, 48)

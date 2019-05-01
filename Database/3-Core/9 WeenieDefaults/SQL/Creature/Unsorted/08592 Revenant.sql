@@ -45,10 +45,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8592, 8000, 3709229921) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8592, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (8592, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
-     , (8592, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
-     , (8592, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */;
+VALUES (8592, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (8592, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (8592, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (8592, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8592, 67114695, 0, 0);

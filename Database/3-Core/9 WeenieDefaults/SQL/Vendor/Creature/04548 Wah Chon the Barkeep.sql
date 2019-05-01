@@ -77,19 +77,19 @@ VALUES (4548,   1,    10, 0, 0, 45) /* MaxHealth */
      , (4548,   5,    10, 0, 0, 35) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4548, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+VALUES (4548, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
+     , (4548, 4,  4729, -1, 0, 0, False) /* Create  (4729) for Shop */
+     , (4548, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (4548, 4,  4738, -1, 0, 0, False) /* Create  (4738) for Shop */
+     , (4548, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager (23126) for Shop */
+     , (4548, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (4548, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
      , (4548, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (4548, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (4548, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
-     , (4548, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (4548, 4,  4729, -1, 0, 0, False) /* Create  (4729) for Shop */
-     , (4548, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
-     , (4548, 4,  4738, -1, 0, 0, False) /* Create  (4738) for Shop */
      , (4548, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (4548, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (4548, 4,  5002, -1, 0, 0, False) /* Create Nanto Portal Directions (5002) for Shop */
      , (4548, 4,  5005, -1, 0, 0, False) /* Create  (5005) for Shop */
-     , (4548, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (4548, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager (23126) for Shop */
      , (4548, 4, 24223, -1, 0, 0, False) /* Create  (24223) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

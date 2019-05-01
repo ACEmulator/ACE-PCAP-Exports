@@ -60,7 +60,7 @@ VALUES (41735,   1,    10, 0, 0, 9975) /* MaxHealth */
      , (41735,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41735, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
-     , (41735, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+VALUES (41735, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+     , (41735, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
      , (41735, 2, 41248,  1, 0, 0, False) /* Create Fire Gearknight Sword (41248) for Wield */
      , (41735, 2, 41251,  1, 0, 0, False) /* Create Electric Gearknight Greatsword (41251) for Wield */;

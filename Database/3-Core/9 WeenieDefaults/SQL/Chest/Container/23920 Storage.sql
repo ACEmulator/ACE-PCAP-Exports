@@ -52,5 +52,5 @@ VALUES (23920, 8000, 1981034537) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23920, -1, 2471, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stout (2471) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (23920, -1, 8378, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Beer Stein (8378) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (23920, -1, 23126, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Wah Chon's Winter Lager (23126) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (23920, -1, 23126, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Wah Chon's Winter Lager (23126) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (23920, -1, 8378, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Beer Stein (8378) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

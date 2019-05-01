@@ -58,31 +58,31 @@ VALUES (25806,   1,    10, 0, 0, 3300) /* MaxHealth */
      , (25806,   5,    10, 0, 0, 428) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25806, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (25806, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+VALUES (25806, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
      , (25806, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (25806, 2, 47068,  1, 0, 0, False) /* Create Arrow (47068) for Wield */
-     , (25806, 2, 47430,  1, 0, 0, False) /* Create Acid Mace (47430) for Wield */
-     , (25806, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
-     , (25806, 2, 47468,  1, 0, 0, False) /* Create Lightning Mace (47468) for Wield */
-     , (25806, 2, 47506,  1, 0, 0, False) /* Create Frost Mace (47506) for Wield */
-     , (25806, 2, 47626,  1, 0, 0, False) /* Create Acid Tachi (47626) for Wield */
      , (25806, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
-     , (25806, 2, 47660,  1, 0, 0, False) /* Create Lightning Tachi (47660) for Wield */
-     , (25806, 2, 47678,  1, 0, 0, False) /* Create Flaming Tachi (47678) for Wield */
      , (25806, 2, 47697,  1, 0, 0, False) /* Create Frost Tachi (47697) for Wield */
-     , (25806, 2, 47716,  1, 0, 0, False) /* Create Acid Spear (47716) for Wield */
-     , (25806, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
-     , (25806, 2, 47754,  1, 0, 0, False) /* Create Lightning Spear (47754) for Wield */
      , (25806, 2, 47773,  1, 0, 0, False) /* Create Flaming Spear (47773) for Wield */
-     , (25806, 2, 47792,  1, 0, 0, False) /* Create Frost Spear (47792) for Wield */
-     , (25806, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
-     , (25806, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (25806, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (25806, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
      , (25806, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */
+     , (25806, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (25806, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
+     , (25806, 2, 47660,  1, 0, 0, False) /* Create Lightning Tachi (47660) for Wield */
+     , (25806, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
      , (25806, 2, 48262,  1, 0, 0, False) /* Create Arrow (48262) for Wield */
-     , (25806, 2, 48300,  1, 0, 0, False) /* Create Arrow (48300) for Wield */;
+     , (25806, 2, 47626,  1, 0, 0, False) /* Create Acid Tachi (47626) for Wield */
+     , (25806, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (25806, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (25806, 2, 47754,  1, 0, 0, False) /* Create Lightning Spear (47754) for Wield */
+     , (25806, 2, 47468,  1, 0, 0, False) /* Create Lightning Mace (47468) for Wield */
+     , (25806, 2, 47068,  1, 0, 0, False) /* Create Arrow (47068) for Wield */
+     , (25806, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (25806, 2, 47792,  1, 0, 0, False) /* Create Frost Spear (47792) for Wield */
+     , (25806, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (25806, 2, 48300,  1, 0, 0, False) /* Create Arrow (48300) for Wield */
+     , (25806, 2, 47430,  1, 0, 0, False) /* Create Acid Mace (47430) for Wield */
+     , (25806, 2, 47506,  1, 0, 0, False) /* Create Frost Mace (47506) for Wield */
+     , (25806, 2, 47716,  1, 0, 0, False) /* Create Acid Spear (47716) for Wield */
+     , (25806, 2, 47678,  1, 0, 0, False) /* Create Flaming Tachi (47678) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25806, 67116524, 0, 0);

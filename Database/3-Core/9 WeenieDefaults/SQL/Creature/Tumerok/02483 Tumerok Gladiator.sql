@@ -61,9 +61,9 @@ VALUES (2483,   1,    10, 0, 0, 123) /* MaxHealth */
      , (2483,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2483, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
+VALUES (2483, 2, 23733,  1, 0, 0, False) /* Create Yumi (23733) for Wield */
      , (2483, 2, 23695,  1, 0, 0, False) /* Create Spear (23695) for Wield */
-     , (2483, 2, 23733,  1, 0, 0, False) /* Create Yumi (23733) for Wield */;
+     , (2483, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2483, 67116625, 153, 47)

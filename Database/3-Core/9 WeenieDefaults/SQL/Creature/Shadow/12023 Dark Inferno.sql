@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12023,   1,    10, 0, 0, 620) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12023, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (12023, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (12023, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (12023, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (12023, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12023, 9, 12022,  0, 0, 0, False) /* Create Scroll of Dark Rain (12022) for ContainTreasure */
+VALUES (12023, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
      , (12023, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
-     , (12023, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
+     , (12023, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (12023, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (12023, 9, 12022,  0, 0, 0, False) /* Create Scroll of Dark Rain (12022) for ContainTreasure */
+     , (12023, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (12023, 9, 42517,  1, 0, 0, False) /* Create Coalesced Mana (42517) for ContainTreasure */
      , (12023, 9, 45119,  0, 0, 0, False) /* Create Acid Hand Wraps (45119) for ContainTreasure */
-     , (12023, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */;
+     , (12023, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (12023, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
+     , (12023, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12023, 67113358, 0, 0);

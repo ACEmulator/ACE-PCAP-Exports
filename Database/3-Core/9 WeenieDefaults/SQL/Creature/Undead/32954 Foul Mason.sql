@@ -61,38 +61,38 @@ VALUES (32954,   1,    10, 0, 0, 1345) /* MaxHealth */
      , (32954,   5,    10, 0, 0, 1245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32954, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (32954, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (32954, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (32954, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+VALUES (32954, 2, 48040,  1, 0, 0, False) /* Create Lightning Katar (48040) for Wield */
+     , (32954, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (32954, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (32954, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (32954, 2, 48047,  1, 0, 0, False) /* Create Ono (48047) for Wield */
+     , (32954, 2, 48039,  1, 0, 0, False) /* Create Katar (48039) for Wield */
      , (32954, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (32954, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (32954, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (32954, 2, 48045,  1, 0, 0, False) /* Create Acid Silifi (48045) for Wield */
      , (32954, 2, 48035,  1, 0, 0, False) /* Create Quarrel (48035) for Wield */
      , (32954, 2, 48037,  1, 0, 0, False) /* Create Lightning Quarrel (48037) for Wield */
-     , (32954, 2, 48039,  1, 0, 0, False) /* Create Katar (48039) for Wield */
-     , (32954, 2, 48040,  1, 0, 0, False) /* Create Lightning Katar (48040) for Wield */
-     , (32954, 2, 48043,  1, 0, 0, False) /* Create Lightning Nekode (48043) for Wield */
-     , (32954, 2, 48044,  1, 0, 0, False) /* Create Silifi (48044) for Wield */
-     , (32954, 2, 48045,  1, 0, 0, False) /* Create Acid Silifi (48045) for Wield */
-     , (32954, 2, 48047,  1, 0, 0, False) /* Create Ono (48047) for Wield */
      , (32954, 2, 48048,  1, 0, 0, False) /* Create Acid Ono (48048) for Wield */
+     , (32954, 2, 48043,  1, 0, 0, False) /* Create Lightning Nekode (48043) for Wield */
      , (32954, 2, 48049,  1, 0, 0, False) /* Create Lightning Ono (48049) for Wield */
+     , (32954, 2, 48044,  1, 0, 0, False) /* Create Silifi (48044) for Wield */
      , (32954, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (32954, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
-     , (32954, 9,   273, 2822, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (32954, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (32954, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (32954, 9, 37332,  1, 0, 0, False) /* Create Glyph of Slashing (37332) for ContainTreasure */
+     , (32954, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
      , (32954, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (32954, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (32954, 9, 45282,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VII (45282) for ContainTreasure */
+     , (32954, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (32954, 9,   273, 2822, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (32954, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (32954, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (32954, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
-     , (32954, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
-     , (32954, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
-     , (32954, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (32954, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (32954, 9, 29240,  0, 0, 0, False) /* Create Electric Bow (29240) for ContainTreasure */
-     , (32954, 9, 37332,  1, 0, 0, False) /* Create Glyph of Slashing (37332) for ContainTreasure */
      , (32954, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
-     , (32954, 9, 45282,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VII (45282) for ContainTreasure */;
+     , (32954, 9, 29240,  0, 0, 0, False) /* Create Electric Bow (29240) for ContainTreasure */
+     , (32954, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (32954, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
+     , (32954, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32954, 67114311, 0, 0);

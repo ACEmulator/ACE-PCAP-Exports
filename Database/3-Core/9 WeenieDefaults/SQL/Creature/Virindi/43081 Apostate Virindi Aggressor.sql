@@ -47,28 +47,28 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43081,   1,    10, 0, 0, 5000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43081, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (43081, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+VALUES (43081, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
      , (43081, 9,   273, 241, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (43081, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
-     , (43081, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (43081, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
-     , (43081, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (43081, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (43081, 9,  3127,  0, 0, 0, False) /* Create Scroll of Rejuvenate Self VI (3127) for ContainTreasure */
-     , (43081, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
-     , (43081, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (43081, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (43081, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (43081, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (43081, 9,  9292,  0, 0, 0, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
-     , (43081, 9, 20863,  1, 0, 0, False) /* Create Virindi Stamp (20863) for ContainTreasure */
-     , (43081, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
-     , (43081, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (43081, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
-     , (43081, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
      , (43081, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (43081, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (43081, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
+     , (43081, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (43081, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (43081, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (43081, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (43081, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (43081, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (43081, 9,  3127,  0, 0, 0, False) /* Create Scroll of Rejuvenate Self VI (3127) for ContainTreasure */
+     , (43081, 9, 20863,  1, 0, 0, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+     , (43081, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (43081, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (43081, 9,  9292,  0, 0, 0, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (43081, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
      , (43081, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
-     , (43081, 9, 43292,  0, 0, 0, False) /* Create Scroll of Corruption VII (43292) for ContainTreasure */;
+     , (43081, 9, 43292,  0, 0, 0, False) /* Create Scroll of Corruption VII (43292) for ContainTreasure */
+     , (43081, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43081, 67113217, 0, 0);

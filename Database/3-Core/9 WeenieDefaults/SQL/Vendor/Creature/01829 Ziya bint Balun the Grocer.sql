@@ -80,12 +80,12 @@ VALUES (1829,   1,    10, 0, 0, 170) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1829, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (1829, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (1829, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (1829, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (1829, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (1829, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (1829, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1829, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (1829, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;
+     , (1829, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (1829, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1829, 67109556, 0, 24)

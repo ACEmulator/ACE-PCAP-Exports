@@ -78,9 +78,9 @@ VALUES (22166,  1615,      2)
      , (22166,  2583,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22166, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+VALUES (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (22166, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+     , (22166, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22166, 67111919, 0, 0);

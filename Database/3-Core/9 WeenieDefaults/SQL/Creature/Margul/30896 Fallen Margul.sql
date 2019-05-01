@@ -63,14 +63,14 @@ VALUES (30896,   1,    10, 0, 0, 8000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30896, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (30896, 9, 49423,  0, 0, 0, False) /* Create Acid Spectre Essence (100) (49423) for ContainTreasure */
      , (30896, 9,  3762,  0, 0, 0, False) /* Create Acid Budiaq (3762) for ContainTreasure */
-     , (30896, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
-     , (30896, 9, 30857,  1, 0, 0, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
-     , (30896, 9, 30873,  0, 0, 0, False) /* Create Spear of the Fallen (30873) for ContainTreasure */
-     , (30896, 9, 31765,  0, 0, 0, False) /* Create Acid Lugian Hammer (31765) for ContainTreasure */
-     , (30896, 9, 42754,  0, 0, 0, False) /* Create Haebrean Pauldrons (42754) for ContainTreasure */
      , (30896, 9, 44858,  0, 0, 0, False) /* Create Quartered Cloak (44858) for ContainTreasure */
-     , (30896, 9, 49423,  0, 0, 0, False) /* Create Acid Spectre Essence (100) (49423) for ContainTreasure */;
+     , (30896, 9, 31765,  0, 0, 0, False) /* Create Acid Lugian Hammer (31765) for ContainTreasure */
+     , (30896, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
+     , (30896, 9, 42754,  0, 0, 0, False) /* Create Haebrean Pauldrons (42754) for ContainTreasure */
+     , (30896, 9, 30857,  1, 0, 0, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
+     , (30896, 9, 30873,  0, 0, 0, False) /* Create Spear of the Fallen (30873) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30896, 67114731, 0, 0);

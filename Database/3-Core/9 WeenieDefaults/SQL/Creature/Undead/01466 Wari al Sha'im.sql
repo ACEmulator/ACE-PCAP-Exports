@@ -61,12 +61,12 @@ VALUES (1466,   1,    10, 0, 0, 135) /* MaxHealth */
      , (1466,   5,    10, 0, 0, 205) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1466, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (1466, 2, 47905,  1, 0, 0, False) /* Create Katar (47905) for Wield */
+VALUES (1466, 2, 47905,  1, 0, 0, False) /* Create Katar (47905) for Wield */
+     , (1466, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (1466, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (1466, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (1466, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
-     , (1466, 9,  6661,  1, 0, 0, False) /* Create The Ruby Al-Khur (6661) for ContainTreasure */
-     , (1466, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
+     , (1466, 9,  6661,  1, 0, 0, False) /* Create The Ruby Al-Khur (6661) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1466, 67111341, 0, 0);

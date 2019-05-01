@@ -59,15 +59,15 @@ VALUES (51611,   1,    10, 0, 0, 7675) /* MaxHealth */
      , (51611,   5,    10, 0, 0, 5220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51611, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (51611, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (51611, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (51611, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+VALUES (51611, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (51611, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
-     , (51611, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
-     , (51611, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (51611, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (51611, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
-     , (51611, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (51611, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (51611, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (51611, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (51611, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (51611, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51611, 67114319, 0, 0);

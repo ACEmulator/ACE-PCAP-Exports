@@ -67,19 +67,19 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4678,   1,    10, 0, 0, 45) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4678, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+VALUES (4678, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4678, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (4678, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
+     , (4678, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (4678, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (4678, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (4678, 4,  4710, -1, 0, 0, False) /* Create  (4710) for Shop */
-     , (4678, 4,  4727, -1, 0, 0, False) /* Create  (4727) for Shop */
      , (4678, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
      , (4678, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
-     , (4678, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (4678, 4,  4727, -1, 0, 0, False) /* Create  (4727) for Shop */
      , (4678, 4,  5003, -1, 0, 0, False) /* Create  (5003) for Shop */
      , (4678, 4,  5006, -1, 0, 0, False) /* Create  (5006) for Shop */
-     , (4678, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
-     , (4678, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */;
+     , (4678, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4678, 67109555, 0, 24)

@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (45009,   1,    10, 0, 0, 3000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45009, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (45009, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+VALUES (45009, 2, 48072,  1, 0, 0, False) /* Create Acid Nekode (48072) for Wield */
      , (45009, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
-     , (45009, 2, 48071,  1, 0, 0, False) /* Create Nekode (48071) for Wield */
-     , (45009, 2, 48072,  1, 0, 0, False) /* Create Acid Nekode (48072) for Wield */
      , (45009, 2, 48074,  1, 0, 0, False) /* Create Silifi (48074) for Wield */
+     , (45009, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (45009, 2, 48071,  1, 0, 0, False) /* Create Nekode (48071) for Wield */
+     , (45009, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (45009, 2, 48078,  1, 0, 0, False) /* Create Acid Ono (48078) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -49,10 +49,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43161,   1,    10, 0, 0, 2125) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43161, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+VALUES (43161, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (43161, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (43161, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (43161, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (43161, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (43161, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (43161, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
      , (43161, 9,  3836,  0, 0, 0, False) /* Create Flaming Mace (3836) for ContainTreasure */
-     , (43161, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */;
+     , (43161, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */;

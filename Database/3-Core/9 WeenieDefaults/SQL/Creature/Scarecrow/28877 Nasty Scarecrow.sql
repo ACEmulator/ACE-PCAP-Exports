@@ -59,14 +59,14 @@ VALUES (28877,   1,    10, 0, 0, 130) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28877, 2,  8395,  1, 0, 0, False) /* Create Jack o' Lantern (8395) for Wield */
-     , (28877, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (28877, 9,   273, 31, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (28877, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (28877, 9,  3433,  0, 0, 0, False) /* Create Scroll of Mana Mastery Self II (3433) for ContainTreasure */
-     , (28877, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (28877, 9,  8943,  0, 0, 0, False) /* Create Scroll of Lightning Streak III (8943) for ContainTreasure */
      , (28877, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (28877, 9, 45334,  0, 0, 0, False) /* Create Scroll of Sneak Attack Ineptitude Other III (45334) for ContainTreasure */;
+     , (28877, 9,   273, 31, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28877, 9, 45334,  0, 0, 0, False) /* Create Scroll of Sneak Attack Ineptitude Other III (45334) for ContainTreasure */
+     , (28877, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (28877, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (28877, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (28877, 9,  8943,  0, 0, 0, False) /* Create Scroll of Lightning Streak III (8943) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28877, 67112975, 0, 0);

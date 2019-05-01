@@ -50,11 +50,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (45855,   1,    10, 0, 0, 20000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45855, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+VALUES (45855, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (45855, 9, 45858,  0, 0, 0, False) /* Create Essence of Dravann (45858) for ContainTreasure */
+     , (45855, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (45855, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (45855, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (45855, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
-     , (45855, 9, 45858,  0, 0, 0, False) /* Create Essence of Dravann (45858) for ContainTreasure */;
+     , (45855, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45855, 67117137, 0, 0);

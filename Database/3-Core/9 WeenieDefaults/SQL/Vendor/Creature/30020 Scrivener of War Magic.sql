@@ -69,39 +69,39 @@ VALUES (30020,   1,    10, 0, 0, 150) /* MaxHealth */
      , (30020,   5,    10, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30020, 4,  2909, -1, 0, 0, False) /* Create Scroll of Acid Stream IV (2909) for Shop */
+VALUES (30020, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
+     , (30020, 4,  5494, -1, 0, 0, False) /* Create  (5494) for Shop */
+     , (30020, 4,  8917, -1, 0, 0, False) /* Create Scroll of Acid Streak IV (8917) for Shop */
+     , (30020, 4,  2909, -1, 0, 0, False) /* Create Scroll of Acid Stream IV (2909) for Shop */
      , (30020, 4,  2913, -1, 0, 0, False) /* Create  (2913) for Shop */
+     , (30020, 4, 21291, -1, 0, 0, False) /* Create Scroll of Acid Arc IV (21291) for Shop */
      , (30020, 4,  2916, -1, 0, 0, False) /* Create  (2916) for Shop */
      , (30020, 4,  2919, -1, 0, 0, False) /* Create  (2919) for Shop */
+     , (30020, 4, 21298, -1, 0, 0, False) /* Create Scroll of Blade Arc IV (21298) for Shop */
      , (30020, 4,  2922, -1, 0, 0, False) /* Create  (2922) for Shop */
      , (30020, 4,  2925, -1, 0, 0, False) /* Create  (2925) for Shop */
+     , (30020, 4,  6000, -1, 0, 0, False) /* Create Scroll of Flame Bolt IV (6000) for Shop */
+     , (30020, 4,  8923, -1, 0, 0, False) /* Create Scroll of Flame Streak IV (8923) for Shop */
      , (30020, 4,  2928, -1, 0, 0, False) /* Create  (2928) for Shop */
+     , (30020, 4, 21305, -1, 0, 0, False) /* Create Scroll of Flame Arc IV (21305) for Shop */
+     , (30020, 4,  8926, -1, 0, 0, False) /* Create  (8926) for Shop */
      , (30020, 4,  2932, -1, 0, 0, False) /* Create Scroll of Force Bolt IV (2932) for Shop */
+     , (30020, 4,  8932, -1, 0, 0, False) /* Create Scroll of Force Streak IV (8932) for Shop */
      , (30020, 4,  2935, -1, 0, 0, False) /* Create  (2935) for Shop */
+     , (30020, 4, 21312, -1, 0, 0, False) /* Create Scroll of Force Arc IV (21312) for Shop */
      , (30020, 4,  2938, -1, 0, 0, False) /* Create  (2938) for Shop */
      , (30020, 4,  2943, -1, 0, 0, False) /* Create Scroll of Frost Bolt IV (2943) for Shop */
+     , (30020, 4,  8938, -1, 0, 0, False) /* Create Scroll of Frost Streak IV (8938) for Shop */
      , (30020, 4,  2946, -1, 0, 0, False) /* Create  (2946) for Shop */
+     , (30020, 4, 21319, -1, 0, 0, False) /* Create Scroll of Frost Arc IV (21319) for Shop */
      , (30020, 4,  2952, -1, 0, 0, False) /* Create  (2952) for Shop */
      , (30020, 4,  2957, -1, 0, 0, False) /* Create Scroll of Lightning Bolt IV (2957) for Shop */
+     , (30020, 4,  8944, -1, 0, 0, False) /* Create Scroll of Lightning Streak IV (8944) for Shop */
+     , (30020, 4,  9012, -1, 0, 0, False) /* Create  (9012) for Shop */
+     , (30020, 4, 21326, -1, 0, 0, False) /* Create Scroll of Lightning Arc IV (21326) for Shop */
      , (30020, 4,  2960, -1, 0, 0, False) /* Create Scroll of Shock Blast IV (2960) for Shop */
      , (30020, 4,  2965, -1, 0, 0, False) /* Create Scroll of Shock Wave IV (2965) for Shop */
-     , (30020, 4,  2970, -1, 0, 0, False) /* Create Scroll of Whirling Blade IV (2970) for Shop */
-     , (30020, 4,  5494, -1, 0, 0, False) /* Create  (5494) for Shop */
-     , (30020, 4,  6000, -1, 0, 0, False) /* Create Scroll of Flame Bolt IV (6000) for Shop */
-     , (30020, 4,  8917, -1, 0, 0, False) /* Create Scroll of Acid Streak IV (8917) for Shop */
-     , (30020, 4,  8923, -1, 0, 0, False) /* Create Scroll of Flame Streak IV (8923) for Shop */
-     , (30020, 4,  8926, -1, 0, 0, False) /* Create  (8926) for Shop */
-     , (30020, 4,  8932, -1, 0, 0, False) /* Create Scroll of Force Streak IV (8932) for Shop */
-     , (30020, 4,  8938, -1, 0, 0, False) /* Create Scroll of Frost Streak IV (8938) for Shop */
-     , (30020, 4,  8944, -1, 0, 0, False) /* Create Scroll of Lightning Streak IV (8944) for Shop */
      , (30020, 4,  8950, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak IV (8950) for Shop */
-     , (30020, 4,  8956, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak IV (8956) for Shop */
-     , (30020, 4,  9012, -1, 0, 0, False) /* Create  (9012) for Shop */
-     , (30020, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
-     , (30020, 4, 21291, -1, 0, 0, False) /* Create Scroll of Acid Arc IV (21291) for Shop */
-     , (30020, 4, 21298, -1, 0, 0, False) /* Create Scroll of Blade Arc IV (21298) for Shop */
-     , (30020, 4, 21305, -1, 0, 0, False) /* Create Scroll of Flame Arc IV (21305) for Shop */
-     , (30020, 4, 21312, -1, 0, 0, False) /* Create Scroll of Force Arc IV (21312) for Shop */
-     , (30020, 4, 21319, -1, 0, 0, False) /* Create Scroll of Frost Arc IV (21319) for Shop */
-     , (30020, 4, 21326, -1, 0, 0, False) /* Create Scroll of Lightning Arc IV (21326) for Shop */
-     , (30020, 4, 21333, -1, 0, 0, False) /* Create Scroll of Shock Arc IV (21333) for Shop */;
+     , (30020, 4, 21333, -1, 0, 0, False) /* Create Scroll of Shock Arc IV (21333) for Shop */
+     , (30020, 4,  2970, -1, 0, 0, False) /* Create Scroll of Whirling Blade IV (2970) for Shop */
+     , (30020, 4,  8956, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak IV (8956) for Shop */;

@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (34339, 8000, 2878006131) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34339, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */
-     , (34339, 2, 26043,  1, 0, 0, False) /* Create Stone Mace (26043) for Wield */;
+VALUES (34339, 2, 26043,  1, 0, 0, False) /* Create Stone Mace (26043) for Wield */
+     , (34339, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34339, 67114930, 0, 0);

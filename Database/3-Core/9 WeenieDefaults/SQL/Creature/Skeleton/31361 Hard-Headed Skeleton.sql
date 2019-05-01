@@ -57,31 +57,31 @@ VALUES (31361,   1,    10, 0, 0, 198) /* MaxHealth */
      , (31361,   5,    10, 0, 0, 265) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31361, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (31361, 2, 47063,  1, 0, 0, False) /* Create Arrow (47063) for Wield */
-     , (31361, 2, 47621,  1, 0, 0, False) /* Create Acid Tachi (47621) for Wield */
-     , (31361, 2, 47659,  1, 0, 0, False) /* Create Lightning Tachi (47659) for Wield */
-     , (31361, 2, 47674,  1, 0, 0, False) /* Create Flaming Tachi (47674) for Wield */
-     , (31361, 2, 47730,  1, 0, 0, False) /* Create Spear (47730) for Wield */
+VALUES (31361, 2, 47674,  1, 0, 0, False) /* Create Flaming Tachi (47674) for Wield */
      , (31361, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (31361, 2, 47063,  1, 0, 0, False) /* Create Arrow (47063) for Wield */
+     , (31361, 2, 47659,  1, 0, 0, False) /* Create Lightning Tachi (47659) for Wield */
+     , (31361, 2, 47730,  1, 0, 0, False) /* Create Spear (47730) for Wield */
+     , (31361, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (31361, 2, 47621,  1, 0, 0, False) /* Create Acid Tachi (47621) for Wield */
      , (31361, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (31361, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
-     , (31361, 9,   273, 394, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (31361, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (31361, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
-     , (31361, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
      , (31361, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (31361, 9, 31362,  0, 0, 0, False) /* Create Jacob's Axe (31362) for ContainTreasure */
+     , (31361, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
      , (31361, 9,  3687,  0, 0, 0, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (31361, 9, 40706,  0, 0, 0, False) /* Create Covenant Bracers (40706) for ContainTreasure */
+     , (31361, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (31361, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (31361, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
+     , (31361, 9,  9659,  0, 0, 0, False) /* Create Scroll of Stamina to Mana Self VI (9659) for ContainTreasure */
+     , (31361, 9,   273, 394, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (31361, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
+     , (31361, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+     , (31361, 9, 44850,  0, 0, 0, False) /* Create Chevron Cloak (44850) for ContainTreasure */
+     , (31361, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (31361, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
      , (31361, 9,  4191,  0, 0, 0, False) /* Create Flaming Cestus (4191) for ContainTreasure */
      , (31361, 9,  4197,  0, 0, 0, False) /* Create Acid Nekode (4197) for ContainTreasure */
-     , (31361, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
-     , (31361, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
-     , (31361, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
-     , (31361, 9,  9659,  0, 0, 0, False) /* Create Scroll of Stamina to Mana Self VI (9659) for ContainTreasure */
-     , (31361, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
-     , (31361, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
-     , (31361, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (31361, 9, 31362,  0, 0, 0, False) /* Create Jacob's Axe (31362) for ContainTreasure */
-     , (31361, 9, 40706,  0, 0, 0, False) /* Create Covenant Bracers (40706) for ContainTreasure */
-     , (31361, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
-     , (31361, 9, 44850,  0, 0, 0, False) /* Create Chevron Cloak (44850) for ContainTreasure */;
+     , (31361, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (31361, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
+     , (31361, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */;

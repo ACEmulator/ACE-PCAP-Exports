@@ -63,16 +63,16 @@ VALUES (7370,   1,    10, 0, 0, 575) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7370, 2,  5709,  1, 0, 0, False) /* Create Ball of fire (5709) for Wield */
-     , (7370, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (7370, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (7370, 9,   273, 2883, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7370, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (7370, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (7370, 9, 20424,  0, 0, 0, False) /* Create Scroll of Archer Bait (20424) for ContainTreasure */
      , (7370, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (7370, 9,  7419,  1, 0, 0, False) /* Create White Fire Infusion (7419) for ContainTreasure */
+     , (7370, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (7370, 9,   273, 2883, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (7370, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (7370, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (7370, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
      , (7370, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (7370, 9, 20424,  0, 0, 0, False) /* Create Scroll of Archer Bait (20424) for ContainTreasure */
+     , (7370, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (7370, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (7370, 9, 20472,  0, 0, 0, False) /* Create Scroll of Blessing of the Mace Turner (20472) for ContainTreasure */
-     , (7370, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
+     , (7370, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */;

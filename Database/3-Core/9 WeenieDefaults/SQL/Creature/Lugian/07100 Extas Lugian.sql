@@ -59,8 +59,8 @@ VALUES (7100,   1,    10, 0, 0, 390) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7100, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
-     , (7100, 9,    35,  0, 0, 0, False) /* Create Chainmail Basinet (35) for ContainTreasure */
-     , (7100, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
+     , (7100, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (7100, 9,    35,  0, 0, 0, False) /* Create Chainmail Basinet (35) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7100, 67113162, 0, 0);

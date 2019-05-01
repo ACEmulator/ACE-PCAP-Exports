@@ -51,9 +51,9 @@ VALUES (51359,   1,    10, 0, 0, 1900) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51359, 2, 43397,  1, 0, 0, False) /* Create Frost Greataxe (43397) for Wield */
-     , (51359, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (51359, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
      , (51359, 9, 31767,  0, 0, 0, False) /* Create Flaming Lugian Hammer (31767) for ContainTreasure */
-     , (51359, 9, 31776,  0, 0, 0, False) /* Create Electric Board with Nail (31776) for ContainTreasure */
+     , (51359, 9, 40680,  0, 0, 0, False) /* Create Olthoi Helm (40680) for ContainTreasure */
      , (51359, 9, 37191,  0, 0, 0, False) /* Create Olthoi Gauntlets (37191) for ContainTreasure */
-     , (51359, 9, 40680,  0, 0, 0, False) /* Create Olthoi Helm (40680) for ContainTreasure */;
+     , (51359, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
+     , (51359, 9, 31776,  0, 0, 0, False) /* Create Electric Board with Nail (31776) for ContainTreasure */
+     , (51359, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */;

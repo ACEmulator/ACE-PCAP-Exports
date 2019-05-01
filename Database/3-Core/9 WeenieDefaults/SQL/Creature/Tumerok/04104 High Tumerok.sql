@@ -60,16 +60,16 @@ VALUES (4104,   1,    10, 0, 0, 160) /* MaxHealth */
      , (4104,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4104, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+VALUES (4104, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (4104, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (4104, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (4104, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
      , (4104, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
      , (4104, 2, 23638,  1, 0, 0, False) /* Create Cestus (23638) for Wield */
-     , (4104, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
-     , (4104, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
-     , (4104, 2, 23681,  1, 0, 0, False) /* Create Nekode (23681) for Wield */
-     , (4104, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (4104, 2, 23697,  1, 0, 0, False) /* Create Spear (23697) for Wield */
      , (4104, 2, 23701,  1, 0, 0, False) /* Create Tachi (23701) for Wield */
-     , (4104, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
+     , (4104, 2, 23681,  1, 0, 0, False) /* Create Nekode (23681) for Wield */
+     , (4104, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
+     , (4104, 2, 23697,  1, 0, 0, False) /* Create Spear (23697) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4104, 67116625, 57, 48)

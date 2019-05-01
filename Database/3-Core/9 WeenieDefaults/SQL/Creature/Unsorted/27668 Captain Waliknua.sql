@@ -45,15 +45,15 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27668, 8000, 3709727776) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27668, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (27668, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
-     , (27668, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */
+VALUES (27668, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
+     , (27668, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
      , (27668, 2, 23710,  1, 0, 0, False) /* Create Yaoji (23710) for Wield */
-     , (27668, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (27668, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (27668, 9, 27687,  0, 0, 0, False) /* Create Strong Iron Key (27687) for ContainTreasure */
+     , (27668, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */
      , (27668, 9, 42516,  1, 0, 0, False) /* Create Coalesced Mana (42516) for ContainTreasure */
-     , (27668, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (27668, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (27668, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (27668, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (27668, 9, 27687,  0, 0, 0, False) /* Create Strong Iron Key (27687) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27668, 67116638, 105, 48)

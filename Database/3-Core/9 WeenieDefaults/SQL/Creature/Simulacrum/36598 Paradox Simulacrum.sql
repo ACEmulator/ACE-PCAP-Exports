@@ -57,12 +57,12 @@ VALUES (36598,   1,    10, 0, 0, 1200) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36598, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
      , (36598, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
-     , (36598, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (36598, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (36598, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (36598, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
      , (36598, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (36598, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */;
+     , (36598, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (36598, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (36598, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (36598, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36598, 67109562, 0, 24)

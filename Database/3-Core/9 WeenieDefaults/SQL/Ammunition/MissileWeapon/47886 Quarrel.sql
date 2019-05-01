@@ -79,10 +79,10 @@ VALUES (47886, 8000, 3701225525) /* PCAPRecordedObjectIID */
      , (47886, 8008, 3701225520) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47886, 2, 12079,  1, 0, 0, False) /* Create Bandit Lightning Short Sword (12079) for Wield */
-     , (47886, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
+VALUES (47886, 2, 47344,  1, 0, 0, False) /* Create Club (47344) for Wield */
      , (47886, 2, 22784,  1, 0, 0, False) /* Create Khanjar (22784) for Wield */
-     , (47886, 2, 47344,  1, 0, 0, False) /* Create Club (47344) for Wield */;
+     , (47886, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
+     , (47886, 2, 12079,  1, 0, 0, False) /* Create Bandit Lightning Short Sword (12079) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47886, 67111919, 0, 0);

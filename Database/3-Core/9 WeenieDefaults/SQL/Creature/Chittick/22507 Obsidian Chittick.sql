@@ -62,15 +62,15 @@ VALUES (22507,   1,    10, 0, 0, 780) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22507, 2, 22545,  1, 0, 0, False) /* Create Obsidian Spines (22545) for Wield */
-     , (22507, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */
-     , (22507, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (22507, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
      , (22507, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
      , (22507, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (22507, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
+     , (22507, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */
      , (22507, 9, 20486,  0, 0, 0, False) /* Create Scroll of Enervation (20486) for ContainTreasure */
-     , (22507, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
-     , (22507, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (22507, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */;
+     , (22507, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */
+     , (22507, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
+     , (22507, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (22507, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22507, 67114052, 0, 0);

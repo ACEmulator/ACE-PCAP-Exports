@@ -49,5 +49,5 @@ VALUES (7279, 8000, 3695632410) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7279, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
-     , (7279, 2, 46387,  1, 0, 0, False) /* Create Spectral Frost Nodachi (46387) for Wield */
-     , (7279, 2, 46635,  1, 0, 0, False) /* Create Fire Longbow (46635) for Wield */;
+     , (7279, 2, 46635,  1, 0, 0, False) /* Create Fire Longbow (46635) for Wield */
+     , (7279, 2, 46387,  1, 0, 0, False) /* Create Spectral Frost Nodachi (46387) for Wield */;

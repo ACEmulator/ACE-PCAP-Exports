@@ -77,18 +77,18 @@ VALUES (866,   1,    10, 0, 0, 75) /* MaxHealth */
      , (866,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (866, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (866, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (866, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (866, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (866, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+VALUES (866, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (866, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (866, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (866, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (866, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
      , (866, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (866, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (866, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (866, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
-     , (866, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (866, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */;
+     , (866, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (866, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (866, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (866, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (866, 67109565, 32, 8)

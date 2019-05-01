@@ -58,8 +58,8 @@ VALUES (1617,   1,    10, 0, 0, 125) /* MaxHealth */
      , (1617,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1617, 2, 23741,  1, 0, 0, False) /* Create Lugian Axe (23741) for Wield */
-     , (1617, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
+VALUES (1617, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
+     , (1617, 2, 23741,  1, 0, 0, False) /* Create Lugian Axe (23741) for Wield */
      , (1617, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
      , (1617, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
      , (1617, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */;

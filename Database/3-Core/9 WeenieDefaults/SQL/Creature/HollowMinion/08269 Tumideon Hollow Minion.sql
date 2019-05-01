@@ -57,27 +57,27 @@ VALUES (8269,   1,    10, 0, 0, 250) /* MaxHealth */
      , (8269,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8269, 9,    61,  0, 0, 0, False) /* Create Platemail Girth (61) for ContainTreasure */
-     , (8269, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (8269, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (8269, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (8269, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+VALUES (8269, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (8269, 9,   273, 161, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (8269, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (8269, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (8269, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (8269, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
-     , (8269, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (8269, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (8269, 9,  3753,  0, 0, 0, False) /* Create Frost Battle Axe (3753) for ContainTreasure */
-     , (8269, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
      , (8269, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (8269, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (8269, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (8269, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (8269, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
      , (8269, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (8269, 9,  9292,  0, 0, 0, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (8269, 9,    61,  0, 0, 0, False) /* Create Platemail Girth (61) for ContainTreasure */
+     , (8269, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (8269, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (8269, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */
+     , (8269, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (8269, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (8269, 9,  9292,  0, 0, 0, False) /* Create Virindi Singularity Key (9292) for ContainTreasure */
+     , (8269, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (8269, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
      , (8269, 9, 41068,  0, 0, 0, False) /* Create Acid Shashqa (41068) for ContainTreasure */
-     , (8269, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */;
+     , (8269, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */
+     , (8269, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (8269, 9,  3753,  0, 0, 0, False) /* Create Frost Battle Axe (3753) for ContainTreasure */
+     , (8269, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8269, 67113027, 0, 0);

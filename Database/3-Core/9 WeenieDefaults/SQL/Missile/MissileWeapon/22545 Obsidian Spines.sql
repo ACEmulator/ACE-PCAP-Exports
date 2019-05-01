@@ -72,6 +72,6 @@ VALUES (22545, 8000, 3690479889) /* PCAPRecordedObjectIID */
      , (22545, 8008, 3690479888) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22545, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (22545, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
-     , (22545, 2, 47966,  1, 0, 0, False) /* Create Lightning Katar (47966) for Wield */;
+VALUES (22545, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (22545, 2, 47966,  1, 0, 0, False) /* Create Lightning Katar (47966) for Wield */
+     , (22545, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */;

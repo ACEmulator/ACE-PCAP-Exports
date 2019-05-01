@@ -60,45 +60,45 @@ VALUES (11991,   1,    10, 0, 0, 645) /* MaxHealth */
      , (11991,   5,    10, 0, 0, 590) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11991, 9,    62,  0, 0, 0, False) /* Create Scalemail Girth (62) for ContainTreasure */
-     , (11991, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
-     , (11991, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
-     , (11991, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
-     , (11991, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (11991, 9,   273, 222, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (11991, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (11991, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (11991, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
-     , (11991, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+VALUES (11991, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
      , (11991, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */
-     , (11991, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (11991, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (11991, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
-     , (11991, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
-     , (11991, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
-     , (11991, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (11991, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
-     , (11991, 9,  2638,  0, 0, 0, False) /* Create Scroll of Bafflement Other VI (2638) for ContainTreasure */
-     , (11991, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
-     , (11991, 9,  3882,  0, 0, 0, False) /* Create Stormwood Sword (3882) for ContainTreasure */
-     , (11991, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
-     , (11991, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
-     , (11991, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
+     , (11991, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
      , (11991, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (11991, 9,  7338,  0, 0, 0, False) /* Create Diamond Heart (7338) for ContainTreasure */
-     , (11991, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
      , (11991, 9,  9639,  0, 0, 0, False) /* Create Scroll of Health to Stamina Self VI (9639) for ContainTreasure */
+     , (11991, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (11991, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (11991, 9, 12689,  0, 0, 0, False) /* Create Diamond Powder (12689) for ContainTreasure */
-     , (11991, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */
-     , (11991, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
-     , (11991, 9, 21100,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb VI (21100) for ContainTreasure */
-     , (11991, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
-     , (11991, 9, 23615,  0, 0, 0, False) /* Create Diamond Shield (23615) for ContainTreasure */
-     , (11991, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
-     , (11991, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
-     , (11991, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (11991, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (11991, 9, 31775,  0, 0, 0, False) /* Create Acid Board with Nail (31775) for ContainTreasure */
-     , (11991, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */;
+     , (11991, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (11991, 9,   273, 222, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11991, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (11991, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */
+     , (11991, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (11991, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
+     , (11991, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (11991, 9,    62,  0, 0, 0, False) /* Create Scalemail Girth (62) for ContainTreasure */
+     , (11991, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
+     , (11991, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
+     , (11991, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (11991, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
+     , (11991, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (11991, 9, 23615,  0, 0, 0, False) /* Create Diamond Shield (23615) for ContainTreasure */
+     , (11991, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */
+     , (11991, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
+     , (11991, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (11991, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (11991, 9, 21100,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb VI (21100) for ContainTreasure */
+     , (11991, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (11991, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+     , (11991, 9,  3882,  0, 0, 0, False) /* Create Stormwood Sword (3882) for ContainTreasure */
+     , (11991, 9,  2638,  0, 0, 0, False) /* Create Scroll of Bafflement Other VI (2638) for ContainTreasure */
+     , (11991, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (11991, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (11991, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (11991, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
+     , (11991, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11991, 67113370, 0, 0);

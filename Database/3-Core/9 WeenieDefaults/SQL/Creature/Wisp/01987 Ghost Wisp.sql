@@ -58,19 +58,19 @@ VALUES (1987,   1,    10, 0, 0, 50) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1987, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (1987, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (1987, 9,   273, 38, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1987, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (1987, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (1987, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (1987, 9,  1559,  0, 0, 0, False) /* Create Scroll of Weakness Other (1559) for ContainTreasure */
-     , (1987, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (1987, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (1987, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (1987, 9,  3763,  0, 0, 0, False) /* Create Lightning Budiaq (3763) for ContainTreasure */
-     , (1987, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (1987, 9, 21290,  0, 0, 0, False) /* Create Scroll of Acid Arc III (21290) for ContainTreasure */
      , (1987, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (1987, 9, 30584,  0, 0, 0, False) /* Create Frost Mazule (30584) for ContainTreasure */
+     , (1987, 9, 41070,  0, 0, 0, False) /* Create Flaming Shashqa (41070) for ContainTreasure */
+     , (1987, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1987, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1987, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (1987, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (1987, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1987, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (1987, 9,  3763,  0, 0, 0, False) /* Create Lightning Budiaq (3763) for ContainTreasure */
      , (1987, 9, 40763,  0, 0, 0, False) /* Create Flaming Nodachi (40763) for ContainTreasure */
-     , (1987, 9, 41070,  0, 0, 0, False) /* Create Flaming Shashqa (41070) for ContainTreasure */;
+     , (1987, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1987, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (1987, 9,  1559,  0, 0, 0, False) /* Create Scroll of Weakness Other (1559) for ContainTreasure */
+     , (1987, 9, 30584,  0, 0, 0, False) /* Create Frost Mazule (30584) for ContainTreasure */;

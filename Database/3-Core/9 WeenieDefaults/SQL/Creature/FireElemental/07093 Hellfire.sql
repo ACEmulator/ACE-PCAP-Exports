@@ -63,13 +63,13 @@ VALUES (7093,   1,    10, 0, 0, 780) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7093, 2,  7799,  1, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (7093, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (7093, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (7093, 9,   273, 1416, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7093, 9,   309,  0, 0, 0, False) /* Create Club (309) for ContainTreasure */
-     , (7093, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (7093, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (7093, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
      , (7093, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (7093, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (7093, 9,   273, 1416, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (7093, 9, 31823,  0, 0, 0, False) /* Create Fire Baton (31823) for ContainTreasure */
-     , (7093, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */;
+     , (7093, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (7093, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (7093, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (7093, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (7093, 9,   309,  0, 0, 0, False) /* Create Club (309) for ContainTreasure */
+     , (7093, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */;

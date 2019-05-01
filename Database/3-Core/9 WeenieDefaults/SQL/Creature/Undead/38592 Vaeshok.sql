@@ -61,14 +61,14 @@ VALUES (38592,   1,    10, 0, 0, 6253) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38592, 2, 48584,  1, 0, 0, False) /* Create Icy Club (48584) for Wield */
-     , (38592, 2, 48586,  1, 0, 0, False) /* Create Ice Shard (48586) for Wield */
      , (38592, 2, 48588,  1, 0, 0, False) /* Create Glacial Blade (48588) for Wield */
-     , (38592, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
-     , (38592, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (38592, 2, 48586,  1, 0, 0, False) /* Create Ice Shard (48586) for Wield */
      , (38592, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
+     , (38592, 9, 49535,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (150) (49535) for ContainTreasure */
      , (38592, 9, 21336,  0, 0, 0, False) /* Create Scroll of Shock Arc VII (21336) for ContainTreasure */
      , (38592, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (38592, 9, 29253,  0, 0, 0, False) /* Create Blunt Atlatl (29253) for ContainTreasure */
-     , (38592, 9, 30599,  0, 0, 0, False) /* Create Frost Poniard (30599) for ContainTreasure */
      , (38592, 9, 49286,  0, 0, 0, False) /* Create Acid K'nath Essence (150) (49286) for ContainTreasure */
-     , (38592, 9, 49535,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (150) (49535) for ContainTreasure */;
+     , (38592, 9, 30599,  0, 0, 0, False) /* Create Frost Poniard (30599) for ContainTreasure */
+     , (38592, 9, 29253,  0, 0, 0, False) /* Create Blunt Atlatl (29253) for ContainTreasure */
+     , (38592, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (38592, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */;

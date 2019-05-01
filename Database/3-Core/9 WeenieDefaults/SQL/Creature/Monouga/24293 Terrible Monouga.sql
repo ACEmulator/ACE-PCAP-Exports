@@ -63,30 +63,30 @@ VALUES (24293,   1,    10, 0, 0, 355) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24293, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
      , (24293, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */
+     , (24293, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
+     , (24293, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (24293, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (24293, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (24293, 9, 30222,  1, 0, 0, False) /* Create Adherent's Crystal (30222) for ContainTreasure */
      , (24293, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
      , (24293, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (24293, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (24293, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (24293, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (24293, 9,   273, 274, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (24293, 9,   303,  0, 0, 0, False) /* Create Hand Axe (303) for ContainTreasure */
      , (24293, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (24293, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
-     , (24293, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (24293, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
-     , (24293, 9,  2911,  0, 0, 0, False) /* Create Scroll of Acid Stream VI (2911) for ContainTreasure */
-     , (24293, 9,  3362,  0, 0, 0, False) /* Create Scroll of Leadership Mastery Self VI (3362) for ContainTreasure */
-     , (24293, 9,  3843,  0, 0, 0, False) /* Create Lightning Ono (3843) for ContainTreasure */
-     , (24293, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (24293, 9, 12253,  1, 0, 0, False) /* Create Monougat (12253) for ContainTreasure */
-     , (24293, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
-     , (24293, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
-     , (24293, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (24293, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
      , (24293, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
-     , (24293, 9, 30222,  1, 0, 0, False) /* Create Adherent's Crystal (30222) for ContainTreasure */
-     , (24293, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (24293, 9,   303,  0, 0, 0, False) /* Create Hand Axe (303) for ContainTreasure */
+     , (24293, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (24293, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */
+     , (24293, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
      , (24293, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
-     , (24293, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */;
+     , (24293, 9,  3843,  0, 0, 0, False) /* Create Lightning Ono (3843) for ContainTreasure */
+     , (24293, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (24293, 9,   273, 274, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (24293, 9,  2911,  0, 0, 0, False) /* Create Scroll of Acid Stream VI (2911) for ContainTreasure */
+     , (24293, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (24293, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (24293, 9,  3362,  0, 0, 0, False) /* Create Scroll of Leadership Mastery Self VI (3362) for ContainTreasure */
+     , (24293, 9, 12253,  1, 0, 0, False) /* Create Monougat (12253) for ContainTreasure */
+     , (24293, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24293, 67114294, 0, 0);

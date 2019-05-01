@@ -61,9 +61,9 @@ VALUES (45010,   1,    10, 0, 0, 4120) /* MaxHealth */
      , (45010,   5,    10, 0, 0, 2285) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45010, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (45010, 2, 48087,  1, 0, 0, False) /* Create Acid Nekode (48087) for Wield */
-     , (45010, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */;
+VALUES (45010, 2, 48087,  1, 0, 0, False) /* Create Acid Nekode (48087) for Wield */
+     , (45010, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
+     , (45010, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45010, 67111664, 0, 0);

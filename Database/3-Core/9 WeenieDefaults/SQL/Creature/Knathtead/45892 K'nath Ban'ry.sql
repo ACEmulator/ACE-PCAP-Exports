@@ -59,19 +59,19 @@ VALUES (45892,   1,    10, 0, 0, 255) /* MaxHealth */
      , (45892,   5,    10, 0, 0, 481) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45892, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
-     , (45892, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (45892, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (45892, 9,   273, 162, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (45892, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (45892, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (45892, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+VALUES (45892, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
      , (45892, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (45892, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
-     , (45892, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
-     , (45892, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (45892, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (45892, 9, 20401,  0, 0, 0, False) /* Create Scroll of Nullify Life Magic Self (20401) for ContainTreasure */
-     , (45892, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (45892, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (45892, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */
-     , (45892, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
+     , (45892, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (45892, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (45892, 9,   273, 162, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (45892, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (45892, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (45892, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (45892, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (45892, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (45892, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (45892, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (45892, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */;

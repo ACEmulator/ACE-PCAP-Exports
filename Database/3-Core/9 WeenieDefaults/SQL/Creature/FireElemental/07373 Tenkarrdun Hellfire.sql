@@ -52,14 +52,14 @@ VALUES (7373,   1,    10, 0, 0, 575) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7373, 2,  7799,  1, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (7373, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (7373, 9,   273, 1225, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7373, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (7373, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (7373, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (7373, 9,   273, 1225, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (7373, 9,  7442,  1, 0, 0, False) /* Create Red Fire Infusion (7442) for ContainTreasure */
-     , (7373, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
-     , (7373, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (7373, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (7373, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
      , (7373, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7373, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (7373, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (7373, 9, 29240,  0, 0, 0, False) /* Create Electric Bow (29240) for ContainTreasure */
-     , (7373, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */;
+     , (7373, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
+     , (7373, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;

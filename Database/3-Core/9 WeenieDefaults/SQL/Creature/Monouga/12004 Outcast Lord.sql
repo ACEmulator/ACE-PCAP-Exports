@@ -61,19 +61,19 @@ VALUES (12004,   1,    10, 0, 0, 85) /* MaxHealth */
      , (12004,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12004, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+VALUES (12004, 2,  3947,  1, 0, 0, False) /* Create Mace (3947) for Wield */
+     , (12004, 2,  3948,  1, 0, 0, False) /* Create Morning Star (3948) for Wield */
      , (12004, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */
+     , (12004, 2,  3946,  1, 0, 0, False) /* Create Tofun (3946) for Wield */
+     , (12004, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
      , (12004, 2,  3944,  1, 0, 0, False) /* Create Dabus (3944) for Wield */
      , (12004, 2,  3945,  1, 0, 0, False) /* Create Kasrullah (3945) for Wield */
-     , (12004, 2,  3946,  1, 0, 0, False) /* Create Tofun (3946) for Wield */
-     , (12004, 2,  3947,  1, 0, 0, False) /* Create Mace (3947) for Wield */
-     , (12004, 2,  3948,  1, 0, 0, False) /* Create Morning Star (3948) for Wield */
-     , (12004, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
-     , (12004, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (12004, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (12004, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (12004, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (12004, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
      , (12004, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (12004, 9, 45349,  0, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self II (45349) for ContainTreasure */;
+     , (12004, 9, 45349,  0, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self II (45349) for ContainTreasure */
+     , (12004, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12004, 67113353, 0, 0);

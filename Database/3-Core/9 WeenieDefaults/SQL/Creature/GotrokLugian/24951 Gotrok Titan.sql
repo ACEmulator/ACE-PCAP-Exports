@@ -58,15 +58,15 @@ VALUES (24951,   1,    10, 0, 0, 565) /* MaxHealth */
      , (24951,   5,    10, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24951, 2, 24884,  1, 0, 0, False) /* Create Lugian Axe (24884) for Wield */
-     , (24951, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
+VALUES (24951, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
      , (24951, 2, 24886,  1, 0, 0, False) /* Create Lugian Mace (24886) for Wield */
+     , (24951, 2, 24884,  1, 0, 0, False) /* Create Lugian Axe (24884) for Wield */
      , (24951, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
-     , (24951, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
      , (24951, 9, 30951,  0, 0, 0, False) /* Create Alduressa Gauntlets (30951) for ContainTreasure */
+     , (24951, 9, 49389,  0, 0, 0, False) /* Create Frost Grievver Essence (100) (49389) for ContainTreasure */
+     , (24951, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
      , (24951, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
-     , (24951, 9, 31800,  0, 0, 0, False) /* Create Blunt Compound Bow (31800) for ContainTreasure */
-     , (24951, 9, 49389,  0, 0, 0, False) /* Create Frost Grievver Essence (100) (49389) for ContainTreasure */;
+     , (24951, 9, 31800,  0, 0, 0, False) /* Create Blunt Compound Bow (31800) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24951, 67114245, 0, 0);

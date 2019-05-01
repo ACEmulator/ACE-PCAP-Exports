@@ -62,15 +62,15 @@ VALUES (2569,   1,    10, 0, 0, 55) /* MaxHealth */
      , (2569,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2569, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (2569, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+VALUES (2569, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
      , (2569, 9,   273, 20, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (2569, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (2569, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (2569, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (2569, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
      , (2569, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2569, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (2569, 9, 45285,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other II (45285) for ContainTreasure */
+     , (2569, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (2569, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (2569, 9,  8954,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak II (8954) for ContainTreasure */
      , (2569, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
-     , (2569, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (2569, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */
-     , (2569, 9, 45285,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other II (45285) for ContainTreasure */;
+     , (2569, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */;

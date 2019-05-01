@@ -62,13 +62,13 @@ VALUES (43217,   1,    10, 0, 0, 808) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43217, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
      , (43217, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
-     , (43217, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
-     , (43217, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
-     , (43217, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
      , (43217, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */
      , (43217, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */
      , (43217, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */
+     , (43217, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
+     , (43217, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
+     , (43217, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
      , (43217, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
+     , (43217, 9, 29259,  0, 0, 0, False) /* Create Acid Sceptre (29259) for ContainTreasure */
      , (43217, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */
-     , (43217, 9, 20495,  0, 0, 0, False) /* Create Scroll of Bottle Breaker (20495) for ContainTreasure */
-     , (43217, 9, 29259,  0, 0, 0, False) /* Create Acid Sceptre (29259) for ContainTreasure */;
+     , (43217, 9, 20495,  0, 0, 0, False) /* Create Scroll of Bottle Breaker (20495) for ContainTreasure */;

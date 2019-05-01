@@ -57,23 +57,23 @@ VALUES (31908,   1,    10, 0, 0, 4505) /* MaxHealth */
      , (31908,   5,    10, 0, 0, 3010) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31908, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (31908, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (31908, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+VALUES (31908, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (31908, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (31908, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (31908, 9, 20246,  0, 0, 0, False) /* Create Scroll of Gossamer Flesh (20246) for ContainTreasure */
+     , (31908, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
      , (31908, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
-     , (31908, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
-     , (31908, 9, 20611,  0, 0, 0, False) /* Create Scroll of Energize Vitality (20611) for ContainTreasure */
-     , (31908, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
      , (31908, 9, 27224,  0, 0, 0, False) /* Create Lorica Leggings (27224) for ContainTreasure */
+     , (31908, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
+     , (31908, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
+     , (31908, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
+     , (31908, 9, 20611,  0, 0, 0, False) /* Create Scroll of Energize Vitality (20611) for ContainTreasure */
+     , (31908, 9, 44799,  0, 0, 0, False) /* Create Faran Over-robe (44799) for ContainTreasure */
+     , (31908, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
+     , (31908, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (31908, 9, 30593,  0, 0, 0, False) /* Create Lightning Partizan (30593) for ContainTreasure */
      , (31908, 9, 30609,  0, 0, 0, False) /* Create Frost Bastone (30609) for ContainTreasure */
-     , (31908, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
-     , (31908, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
-     , (31908, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
-     , (31908, 9, 44799,  0, 0, 0, False) /* Create Faran Over-robe (44799) for ContainTreasure */
-     , (31908, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
-     , (31908, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */;
+     , (31908, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31908, 67116736, 0, 0);

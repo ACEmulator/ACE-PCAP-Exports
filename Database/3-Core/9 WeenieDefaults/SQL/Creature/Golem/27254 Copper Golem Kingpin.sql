@@ -61,25 +61,25 @@ VALUES (27254,   1,    10, 0, 0, 1100) /* MaxHealth */
      , (27254,   5,    10, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27254, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
-     , (27254, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (27254, 9,   273, 93, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (27254, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (27254, 9,   325,  0, 0, 0, False) /* Create Kasrullah (325) for ContainTreasure */
-     , (27254, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
-     , (27254, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
-     , (27254, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+VALUES (27254, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (27254, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (27254, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (27254, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (27254, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
-     , (27254, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
-     , (27254, 9,  3735,  0, 0, 0, False) /* Create Scroll of Infuse Health VI (3735) for ContainTreasure */
-     , (27254, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (27254, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (27254, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (27254, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (27254, 9,   325,  0, 0, 0, False) /* Create Kasrullah (325) for ContainTreasure */
+     , (27254, 9,   273, 93, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (27254, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (27254, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (27254, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (27254, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
+     , (27254, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (27254, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (27254, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (27254, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
      , (27254, 9, 41302,  0, 0, 0, False) /* Create Scroll of Boon of T'ing (41302) for ContainTreasure */
+     , (27254, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (27254, 9,  3735,  0, 0, 0, False) /* Create Scroll of Infuse Health VI (3735) for ContainTreasure */
+     , (27254, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (27254, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (27254, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
      , (27254, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -62,22 +62,22 @@ VALUES (12000,   1,    10, 0, 0, 186) /* MaxHealth */
      , (12000,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12000, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (12000, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (12000, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
-     , (12000, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
-     , (12000, 9,  2458,  1, 0, 0, False) /* Create Health Elixir (2458) for ContainTreasure */
-     , (12000, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
-     , (12000, 9,  8934,  0, 0, 0, False) /* Create Scroll of Force Streak VI (8934) for ContainTreasure */
-     , (12000, 9,  9412,  0, 0, 0, False) /* Create Dire Mattekar Paw (9412) for ContainTreasure */
-     , (12000, 9, 23593,  0, 0, 0, False) /* Create Robe of the Tundra (23593) for ContainTreasure */
-     , (12000, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
-     , (12000, 9, 30600,  0, 0, 0, False) /* Create Acid Poniard (30600) for ContainTreasure */
-     , (12000, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
-     , (12000, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+VALUES (12000, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
      , (12000, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
+     , (12000, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (12000, 9,  9412,  0, 0, 0, False) /* Create Dire Mattekar Paw (9412) for ContainTreasure */
      , (12000, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
-     , (12000, 9, 49373,  0, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for ContainTreasure */;
+     , (12000, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (12000, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
+     , (12000, 9,  8934,  0, 0, 0, False) /* Create Scroll of Force Streak VI (8934) for ContainTreasure */
+     , (12000, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
+     , (12000, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (12000, 9, 23593,  0, 0, 0, False) /* Create Robe of the Tundra (23593) for ContainTreasure */
+     , (12000, 9, 49373,  0, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for ContainTreasure */
+     , (12000, 9, 30600,  0, 0, 0, False) /* Create Acid Poniard (30600) for ContainTreasure */
+     , (12000, 9,  2458,  1, 0, 0, False) /* Create Health Elixir (2458) for ContainTreasure */
+     , (12000, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
+     , (12000, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12000, 67113354, 0, 0);

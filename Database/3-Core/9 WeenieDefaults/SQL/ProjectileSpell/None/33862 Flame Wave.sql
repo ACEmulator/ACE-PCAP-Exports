@@ -43,6 +43,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33862, 8000, 2930740794) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33862, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (33862, 2, 46365,  1, 0, 0, False) /* Create Spectral Lightning Tachi (46365) for Wield */
-     , (33862, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */;
+VALUES (33862, 2, 46365,  1, 0, 0, False) /* Create Spectral Lightning Tachi (46365) for Wield */
+     , (33862, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
+     , (33862, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

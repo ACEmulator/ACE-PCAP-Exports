@@ -60,9 +60,9 @@ VALUES (27708,   1,    10, 0, 0, 410) /* MaxHealth */
      , (27708,   5,    10, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27708, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (27708, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */
-     , (27708, 9, 49332,  0, 0, 0, False) /* Create Frost Wisp Essence (80) (49332) for ContainTreasure */;
+VALUES (27708, 9, 49332,  0, 0, 0, False) /* Create Frost Wisp Essence (80) (49332) for ContainTreasure */
+     , (27708, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (27708, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27708, 67115193, 0, 0);

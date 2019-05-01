@@ -77,19 +77,19 @@ VALUES (665,   1,    10, 0, 0, 60) /* MaxHealth */
      , (665,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (665, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+VALUES (665, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
+     , (665, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (665, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
+     , (665, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
+     , (665, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
+     , (665, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
      , (665, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (665, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (665, 4,  2417, -1, 0, 0, False) /* Create Gem (2417) for Shop */
      , (665, 4,  2420, -1, 0, 0, False) /* Create Gem (2420) for Shop */
      , (665, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (665, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (665, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (665, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
-     , (665, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
-     , (665, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
-     , (665, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
-     , (665, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (665, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */;
+     , (665, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (665, 67109562, 0, 24)

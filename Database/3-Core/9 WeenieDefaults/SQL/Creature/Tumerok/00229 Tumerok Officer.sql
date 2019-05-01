@@ -61,49 +61,49 @@ VALUES (229,   1,    10, 0, 0, 110) /* MaxHealth */
      , (229,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (229, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+VALUES (229, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
+     , (229, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (229, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
      , (229, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
      , (229, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
      , (229, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (229, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
-     , (229, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
      , (229, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
-     , (229, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (229, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
      , (229, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (229, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
-     , (229, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (229, 9,   273, 177, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (229, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (229, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (229, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
-     , (229, 9,   350,  0, 0, 0, False) /* Create Broad Sword (350) for ContainTreasure */
-     , (229, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
-     , (229, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
-     , (229, 9,   552,  0, 0, 0, False) /* Create Scale Mail Basinet (552) for ContainTreasure */
-     , (229, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
-     , (229, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (229, 9,  2810,  0, 0, 0, False) /* Create Aura of Defender Self V (2810) for ContainTreasure */
-     , (229, 9,  3245,  0, 0, 0, False) /* Create Scroll of Deception Mastery Self IV (3245) for ContainTreasure */
-     , (229, 9,  3455,  0, 0, 0, False) /* Create Scroll of Person Attunement Self IV (3455) for ContainTreasure */
-     , (229, 9,  3695,  0, 0, 0, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
-     , (229, 9,  3890,  0, 0, 0, False) /* Create Lightning Tachi (3890) for ContainTreasure */
-     , (229, 9,  5970,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Other III (5970) for ContainTreasure */
-     , (229, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (229, 9, 20320,  0, 0, 0, False) /* Create Scroll of Cleanse Creature Magic Other (20320) for ContainTreasure */
-     , (229, 9, 21327,  0, 0, 0, False) /* Create Scroll of Lightning Arc V (21327) for ContainTreasure */
-     , (229, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
-     , (229, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
-     , (229, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
-     , (229, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
-     , (229, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
-     , (229, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
      , (229, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
-     , (229, 9, 31781,  0, 0, 0, False) /* Create Electric Spine Glaive (31781) for ContainTreasure */
-     , (229, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
-     , (229, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
+     , (229, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (229, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (229, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (229, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
      , (229, 9, 49240,  0, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for ContainTreasure */
-     , (229, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */;
+     , (229, 9,   552,  0, 0, 0, False) /* Create Scale Mail Basinet (552) for ContainTreasure */
+     , (229, 9,   350,  0, 0, 0, False) /* Create Broad Sword (350) for ContainTreasure */
+     , (229, 9, 20320,  0, 0, 0, False) /* Create Scroll of Cleanse Creature Magic Other (20320) for ContainTreasure */
+     , (229, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (229, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (229, 9,  3455,  0, 0, 0, False) /* Create Scroll of Person Attunement Self IV (3455) for ContainTreasure */
+     , (229, 9,  5970,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Other III (5970) for ContainTreasure */
+     , (229, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (229, 9,  3890,  0, 0, 0, False) /* Create Lightning Tachi (3890) for ContainTreasure */
+     , (229, 9,  3245,  0, 0, 0, False) /* Create Scroll of Deception Mastery Self IV (3245) for ContainTreasure */
+     , (229, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (229, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (229, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (229, 9, 31781,  0, 0, 0, False) /* Create Electric Spine Glaive (31781) for ContainTreasure */
+     , (229, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */
+     , (229, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (229, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
+     , (229, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (229, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
+     , (229, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (229, 9,  2810,  0, 0, 0, False) /* Create Aura of Defender Self V (2810) for ContainTreasure */
+     , (229, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
+     , (229, 9,  3695,  0, 0, 0, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (229, 9, 21327,  0, 0, 0, False) /* Create Scroll of Lightning Arc V (21327) for ContainTreasure */
+     , (229, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
+     , (229, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (229, 9,   273, 177, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (229, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (229, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (229, 67116625, 57, 48)

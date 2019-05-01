@@ -80,45 +80,45 @@ VALUES (661,   1,    10, 0, 0, 110) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (661, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (661, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (661, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
+     , (661, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (661, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (661, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (661, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (661, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (661, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (661, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (661, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (661, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (661, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (661, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
+     , (661, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (661, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (661, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
-     , (661, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
-     , (661, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (661, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
      , (661, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
      , (661, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
      , (661, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (661, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (661, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
      , (661, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
-     , (661, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (661, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
      , (661, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
-     , (661, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (661, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (661, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (661, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (661, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (661, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (661, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (661, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (661, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (661, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (661, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (661, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
-     , (661, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
      , (661, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (661, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (661, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (661, 4,  3825, -1, 0, 0, False) /* Create Frost Ken (3825) for Shop */
-     , (661, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
-     , (661, 4,  3914, -1, 0, 0, False) /* Create Lightning Yari (3914) for Shop */
      , (661, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (661, 4,  7788, -1, 0, 0, False) /* Create Fire Spiked Club (7788) for Shop */
-     , (661, 4, 28629, -1, 0, 0, False) /* Create Alduressa Coat (28629) for Shop */
-     , (661, 4, 31762, -1, 0, 0, False) /* Create Flaming Dericost Blade (31762) for Shop */
-     , (661, 4, 31797, -1, 0, 0, False) /* Create Flaming Lancet (31797) for Shop */
-     , (661, 4, 45106, -1, 0, 0, False) /* Create Flaming Rapier (45106) for Shop */
+     , (661, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
+     , (661, 4,  3914, -1, 0, 0, False) /* Create Lightning Yari (3914) for Shop */
+     , (661, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
+     , (661, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
      , (661, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (661, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */;
+     , (661, 4, 31762, -1, 0, 0, False) /* Create Flaming Dericost Blade (31762) for Shop */
+     , (661, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
+     , (661, 4,  3825, -1, 0, 0, False) /* Create Frost Ken (3825) for Shop */
+     , (661, 4,  7788, -1, 0, 0, False) /* Create Fire Spiked Club (7788) for Shop */
+     , (661, 4, 45106, -1, 0, 0, False) /* Create Flaming Rapier (45106) for Shop */
+     , (661, 4, 31797, -1, 0, 0, False) /* Create Flaming Lancet (31797) for Shop */
+     , (661, 4, 28629, -1, 0, 0, False) /* Create Alduressa Coat (28629) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (661, 67109558, 0, 24)

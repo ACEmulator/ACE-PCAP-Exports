@@ -49,8 +49,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (42029, 8000, 3683495547) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42029, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
-     , (42029, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */;
+VALUES (42029, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */
+     , (42029, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42029, 67109969, 92, 4)

@@ -45,9 +45,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (40278, 8000, 3332247482) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40278, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
-     , (40278, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
-     , (40278, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */;
+VALUES (40278, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
+     , (40278, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */
+     , (40278, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40278, 67111938, 0, 0);

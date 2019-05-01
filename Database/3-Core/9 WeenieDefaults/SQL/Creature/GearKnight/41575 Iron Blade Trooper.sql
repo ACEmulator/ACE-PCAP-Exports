@@ -60,9 +60,9 @@ VALUES (41575,   1,    10, 0, 0, 325) /* MaxHealth */
      , (41575,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41575, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
-     , (41575, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
+VALUES (41575, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
+     , (41575, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
      , (41575, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (41575, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
      , (41575, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
-     , (41575, 9,  3027,  0, 0, 0, False) /* Create Scroll of Cold Protection Self VI (3027) for ContainTreasure */;
+     , (41575, 9,  3027,  0, 0, 0, False) /* Create Scroll of Cold Protection Self VI (3027) for ContainTreasure */
+     , (41575, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */;

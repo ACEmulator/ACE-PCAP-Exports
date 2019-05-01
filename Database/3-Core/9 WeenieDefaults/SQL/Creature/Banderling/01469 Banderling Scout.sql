@@ -60,5 +60,5 @@ VALUES (1469,   1,    10, 0, 0, 43) /* MaxHealth */
      , (1469,   5,    10, 0, 0, 31) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1469, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
-     , (1469, 2, 47438,  1, 0, 0, False) /* Create Mace (47438) for Wield */;
+VALUES (1469, 2, 47438,  1, 0, 0, False) /* Create Mace (47438) for Wield */
+     , (1469, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */;

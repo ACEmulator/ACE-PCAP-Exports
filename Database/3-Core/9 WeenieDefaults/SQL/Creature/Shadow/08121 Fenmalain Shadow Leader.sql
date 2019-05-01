@@ -69,23 +69,23 @@ VALUES (8121,   1,    10, 0, 0, 150) /* MaxHealth */
      , (8121,   5,    10, 0, 0, 198) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8121, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (8121, 2, 47620,  1, 0, 0, False) /* Create Acid Tachi (47620) for Wield */
-     , (8121, 2, 47639,  1, 0, 0, False) /* Create Tachi (47639) for Wield */
+VALUES (8121, 2, 47639,  1, 0, 0, False) /* Create Tachi (47639) for Wield */
+     , (8121, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (8121, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
      , (8121, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (8121, 2, 48294,  1, 0, 0, False) /* Create Arrow (48294) for Wield */
-     , (8121, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
-     , (8121, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (8121, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
-     , (8121, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (8121, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
-     , (8121, 9,  2668,  0, 0, 0, False) /* Create Scroll of Enfeeble Other VI (2668) for ContainTreasure */
-     , (8121, 9,  2911,  0, 0, 0, False) /* Create Scroll of Acid Stream VI (2911) for ContainTreasure */
+     , (8121, 2, 47620,  1, 0, 0, False) /* Create Acid Tachi (47620) for Wield */
      , (8121, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
-     , (8121, 9,  8085,  0, 0, 0, False) /* Create Oozing Lump (8085) for ContainTreasure */
+     , (8121, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (8121, 9, 30563,  0, 0, 0, False) /* Create Lightning Dolabra (30563) for ContainTreasure */
-     , (8121, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */;
+     , (8121, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (8121, 9,  8085,  0, 0, 0, False) /* Create Oozing Lump (8085) for ContainTreasure */
+     , (8121, 9,  2911,  0, 0, 0, False) /* Create Scroll of Acid Stream VI (2911) for ContainTreasure */
+     , (8121, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (8121, 9,  2668,  0, 0, 0, False) /* Create Scroll of Enfeeble Other VI (2668) for ContainTreasure */
+     , (8121, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
+     , (8121, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
+     , (8121, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8121, 67112860, 0, 0);

@@ -56,17 +56,17 @@ VALUES (32324,   1,    10, 0, 0, 430) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32324, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
-     , (32324, 9,    85,  0, 0, 0, False) /* Create Chainmail Coif (85) for ContainTreasure */
-     , (32324, 9,   273, 38, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (32324, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
-     , (32324, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (32324, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (32324, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (32324, 9, 21107,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VI (21107) for ContainTreasure */
      , (32324, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
      , (32324, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (32324, 9, 41056,  0, 0, 0, False) /* Create Frost Greataxe (41056) for ContainTreasure */
-     , (32324, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */;
+     , (32324, 9,   273, 38, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (32324, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (32324, 9, 21107,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VI (21107) for ContainTreasure */
+     , (32324, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (32324, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (32324, 9,    85,  0, 0, 0, False) /* Create Chainmail Coif (85) for ContainTreasure */
+     , (32324, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (32324, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32324, 67110065, 32, 8)

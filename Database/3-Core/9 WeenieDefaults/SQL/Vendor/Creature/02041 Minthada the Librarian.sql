@@ -77,19 +77,19 @@ VALUES (2041,   1,    10, 0, 0, 150) /* MaxHealth */
      , (2041,   5,    10, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2041, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
-     , (2041, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (2041, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+VALUES (2041, 4,  5689, -1, 0, 0, False) /* Create The Legend of Lilitha (5689) for Shop */
      , (2041, 4,  5688, -1, 0, 0, False) /* Create The Code of Pwyll (5688) for Shop */
-     , (2041, 4,  5689, -1, 0, 0, False) /* Create The Legend of Lilitha (5689) for Shop */
-     , (2041, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */
-     , (2041, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
      , (2041, 4,  8073, -1, 0, 0, False) /* Create Shadows of My Doubts (8073) for Shop */
      , (2041, 4,  8074, -1, 0, 0, False) /* Create The Journals of Change (8074) for Shop */
      , (2041, 4,  8075, -1, 0, 0, False) /* Create The D00dz (8075) for Shop */
-     , (2041, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
      , (2041, 4,  9122, -1, 0, 0, False) /* Create Interlude (9122) for Shop */
-     , (2041, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */;
+     , (2041, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */
+     , (2041, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
+     , (2041, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */
+     , (2041, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
+     , (2041, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (2041, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (2041, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2041, 67109561, 0, 24)

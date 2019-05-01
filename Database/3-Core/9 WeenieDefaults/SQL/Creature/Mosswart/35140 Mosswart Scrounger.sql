@@ -58,9 +58,9 @@ VALUES (35140,   1,    10, 0, 0, 245) /* MaxHealth */
      , (35140,   5,    10, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35140, 2, 23699,  1, 0, 0, False) /* Create Tachi (23699) for Wield */
+VALUES (35140, 2, 23721,  1, 0, 0, False) /* Create Acid Yari (23721) for Wield */
      , (35140, 2, 23709,  1, 0, 0, False) /* Create Yaoji (23709) for Wield */
-     , (35140, 2, 23721,  1, 0, 0, False) /* Create Acid Yari (23721) for Wield */;
+     , (35140, 2, 23699,  1, 0, 0, False) /* Create Tachi (23699) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35140, 67115240, 0, 0);

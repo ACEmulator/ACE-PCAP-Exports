@@ -61,7 +61,7 @@ VALUES (20191,   1,    10, 0, 0, 100) /* MaxHealth */
      , (20191,   5,    10, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20191, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+VALUES (20191, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
      , (20191, 9,   273, 197, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (20191, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (20191, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
      , (20191, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;

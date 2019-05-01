@@ -61,31 +61,31 @@ VALUES (11518,   1,    10, 0, 0, 120) /* MaxHealth */
      , (11518,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11518, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (11518, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+VALUES (11518, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
      , (11518, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (11518, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (11518, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
-     , (11518, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
-     , (11518, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
-     , (11518, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
+     , (11518, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
      , (11518, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */
-     , (11518, 9,   273, 27, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (11518, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (11518, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (11518, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
-     , (11518, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (11518, 9,  2767,  0, 0, 0, False) /* Create Scroll of Acid Lure II (2767) for ContainTreasure */
-     , (11518, 9,  2827,  0, 0, 0, False) /* Create Scroll of Frost Lure II (2827) for ContainTreasure */
-     , (11518, 9,  2894,  0, 0, 0, False) /* Create Scroll of Turn Blade III (2894) for ContainTreasure */
-     , (11518, 9,  3881,  0, 0, 0, False) /* Create Acid Long Sword (3881) for ContainTreasure */
-     , (11518, 9,  3897,  0, 0, 0, False) /* Create Acid Tofun (3897) for ContainTreasure */
-     , (11518, 9, 22160,  0, 0, 0, False) /* Create Lightning Nabut (22160) for ContainTreasure */
-     , (11518, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
-     , (11518, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
-     , (11518, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
+     , (11518, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (11518, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (11518, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (11518, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (11518, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (11518, 9, 49282,  0, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for ContainTreasure */
-     , (11518, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */;
+     , (11518, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (11518, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (11518, 9,  2767,  0, 0, 0, False) /* Create Scroll of Acid Lure II (2767) for ContainTreasure */
+     , (11518, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (11518, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
+     , (11518, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (11518, 9,  2894,  0, 0, 0, False) /* Create Scroll of Turn Blade III (2894) for ContainTreasure */
+     , (11518, 9, 22160,  0, 0, 0, False) /* Create Lightning Nabut (22160) for ContainTreasure */
+     , (11518, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (11518, 9,  3881,  0, 0, 0, False) /* Create Acid Long Sword (3881) for ContainTreasure */
+     , (11518, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
+     , (11518, 9,  3897,  0, 0, 0, False) /* Create Acid Tofun (3897) for ContainTreasure */
+     , (11518, 9,   273, 27, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11518, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (11518, 9,  2827,  0, 0, 0, False) /* Create Scroll of Frost Lure II (2827) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11518, 67116625, 105, 48)

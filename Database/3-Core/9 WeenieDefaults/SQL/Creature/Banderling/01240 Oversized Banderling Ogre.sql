@@ -61,19 +61,19 @@ VALUES (1240,   1,    10, 0, 0, 130) /* MaxHealth */
      , (1240,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1240, 2,   332,  1, 0, 0, False) /* Create Morning Star (332) for Wield */
-     , (1240, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
+VALUES (1240, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
+     , (1240, 2,   332,  1, 0, 0, False) /* Create Morning Star (332) for Wield */
      , (1240, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
-     , (1240, 9,   273, 36, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1240, 9,  1247,  0, 0, 0, False) /* Create Key (1247) for ContainTreasure */
-     , (1240, 9,  1437, 250, 0, 0, False) /* Create Fire Arrow (1437) for ContainTreasure */
      , (1240, 9,  1446,  3, 0, 0, False) /* Create Fire Auroch Meat (1446) for ContainTreasure */
-     , (1240, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (1240, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
-     , (1240, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
-     , (1240, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
      , (1240, 9, 42121,  0, 0, 0, False) /* Create Platemail Hauberk of the Ogre (42121) for ContainTreasure */
-     , (1240, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */;
+     , (1240, 9,  1437, 250, 0, 0, False) /* Create Fire Arrow (1437) for ContainTreasure */
+     , (1240, 9,  1247,  0, 0, 0, False) /* Create Key (1247) for ContainTreasure */
+     , (1240, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (1240, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (1240, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (1240, 9,   273, 36, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1240, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (1240, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1240, 67114034, 0, 0);

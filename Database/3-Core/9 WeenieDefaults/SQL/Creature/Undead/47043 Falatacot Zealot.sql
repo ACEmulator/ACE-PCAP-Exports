@@ -51,9 +51,9 @@ VALUES (47043,   1,    10, 0, 0, 7675) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47043, 2, 47044,  1, 0, 0, False) /* Create Khopesh (47044) for Wield */
-     , (47043, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (47043, 9,   273, 653, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (47043, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (47043, 9,   273, 653, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (47043, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
      , (47043, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

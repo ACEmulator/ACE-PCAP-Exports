@@ -61,15 +61,15 @@ VALUES (19282,   1,    10, 0, 0, 230) /* MaxHealth */
      , (19282,   5,    10, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19282, 2,  3605,  1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Wield */
-     , (19282, 2,  5314,  1, 0, 0, False) /* Create Greater Acid Quarrel (5314) for Wield */
-     , (19282, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
-     , (19282, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
-     , (19282, 2,  5317,  1, 0, 0, False) /* Create Greater Fire Quarrel (5317) for Wield */
-     , (19282, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
+VALUES (19282, 2, 15875,  1, 0, 0, False) /* Create Bronze Heavy Crossbow (15875) for Wield */
      , (19282, 2, 15871,  1, 0, 0, False) /* Create Bronze Battle Axe (15871) for Wield */
      , (19282, 2, 15874,  1, 0, 0, False) /* Create Bronze Cestus (15874) for Wield */
-     , (19282, 2, 15875,  1, 0, 0, False) /* Create Bronze Heavy Crossbow (15875) for Wield */;
+     , (19282, 2,  3605,  1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Wield */
+     , (19282, 2,  5314,  1, 0, 0, False) /* Create Greater Acid Quarrel (5314) for Wield */
+     , (19282, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
+     , (19282, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
+     , (19282, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
+     , (19282, 2,  5317,  1, 0, 0, False) /* Create Greater Fire Quarrel (5317) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19282, 67116534, 0, 0);

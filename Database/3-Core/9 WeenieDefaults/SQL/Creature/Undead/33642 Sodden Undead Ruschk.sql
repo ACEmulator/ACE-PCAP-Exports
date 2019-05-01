@@ -57,32 +57,32 @@ VALUES (33642,   1,    10, 0, 0, 980) /* MaxHealth */
      , (33642,   5,    10, 0, 0, 415) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33642, 2, 48584,  1, 0, 0, False) /* Create Icy Club (48584) for Wield */
-     , (33642, 2, 48585,  1, 0, 0, False) /* Create Frozen Dagger (48585) for Wield */
-     , (33642, 2, 48586,  1, 0, 0, False) /* Create Ice Shard (48586) for Wield */
-     , (33642, 2, 48587,  1, 0, 0, False) /* Create Frigid Splinter (48587) for Wield */
+VALUES (33642, 2, 48585,  1, 0, 0, False) /* Create Frozen Dagger (48585) for Wield */
      , (33642, 2, 48588,  1, 0, 0, False) /* Create Glacial Blade (48588) for Wield */
-     , (33642, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (33642, 2, 48584,  1, 0, 0, False) /* Create Icy Club (48584) for Wield */
+     , (33642, 2, 48587,  1, 0, 0, False) /* Create Frigid Splinter (48587) for Wield */
+     , (33642, 2, 48586,  1, 0, 0, False) /* Create Ice Shard (48586) for Wield */
      , (33642, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
-     , (33642, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (33642, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (33642, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
-     , (33642, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (33642, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (33642, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (33642, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (33642, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20530) for ContainTreasure */
-     , (33642, 9, 20543,  0, 0, 0, False) /* Create Scroll of Yoshi's Blessing (20543) for ContainTreasure */
-     , (33642, 9, 20611,  0, 0, 0, False) /* Create Scroll of Energize Vitality (20611) for ContainTreasure */
-     , (33642, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
-     , (33642, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
-     , (33642, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
-     , (33642, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
-     , (33642, 9, 37201,  0, 0, 0, False) /* Create Olthoi Amuli Leggings (37201) for ContainTreasure */
-     , (33642, 9, 42750,  0, 0, 0, False) /* Create Haebrean Gauntlets (42750) for ContainTreasure */
      , (33642, 9, 45282,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VII (45282) for ContainTreasure */
-     , (33642, 9, 45427,  0, 0, 0, False) /* Create Acid Jambiya (45427) for ContainTreasure */
+     , (33642, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33642, 9, 20611,  0, 0, 0, False) /* Create Scroll of Energize Vitality (20611) for ContainTreasure */
      , (33642, 9, 49377,  0, 0, 0, False) /* Create Lightning Grievver Essence (150) (49377) for ContainTreasure */
-     , (33642, 9, 49384,  0, 0, 0, False) /* Create Fire Grievver Essence (150) (49384) for ContainTreasure */
+     , (33642, 9, 37201,  0, 0, 0, False) /* Create Olthoi Amuli Leggings (37201) for ContainTreasure */
      , (33642, 9, 49391,  0, 0, 0, False) /* Create Frost Grievver Essence (150) (49391) for ContainTreasure */
-     , (33642, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (33642, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (33642, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (33642, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (33642, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
+     , (33642, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (33642, 9, 49384,  0, 0, 0, False) /* Create Fire Grievver Essence (150) (49384) for ContainTreasure */
+     , (33642, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (33642, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
+     , (33642, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20530) for ContainTreasure */
+     , (33642, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (33642, 9, 20543,  0, 0, 0, False) /* Create Scroll of Yoshi's Blessing (20543) for ContainTreasure */
+     , (33642, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
+     , (33642, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (33642, 9, 45427,  0, 0, 0, False) /* Create Acid Jambiya (45427) for ContainTreasure */
+     , (33642, 9, 42750,  0, 0, 0, False) /* Create Haebrean Gauntlets (42750) for ContainTreasure */
+     , (33642, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
+     , (33642, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */;

@@ -58,13 +58,13 @@ VALUES (34980,   1,    10, 0, 0, 1030) /* MaxHealth */
      , (34980,   5,    10, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34980, 2, 27868,  1, 0, 0, False) /* Create Stone Axe (27868) for Wield */
-     , (34980, 2, 27872,  1, 0, 0, False) /* Create Tree Trunk (27872) for Wield */
+VALUES (34980, 2, 27880,  1, 0, 0, False) /* Create Bone Sword (27880) for Wield */
      , (34980, 2, 27876,  1, 0, 0, False) /* Create Muck Ball (27876) for Wield */
-     , (34980, 2, 27880,  1, 0, 0, False) /* Create Bone Sword (27880) for Wield */
+     , (34980, 2, 27872,  1, 0, 0, False) /* Create Tree Trunk (27872) for Wield */
+     , (34980, 2, 27868,  1, 0, 0, False) /* Create Stone Axe (27868) for Wield */
+     , (34980, 9, 49375,  0, 0, 0, False) /* Create Lightning Grievver Essence (100) (49375) for ContainTreasure */
      , (34980, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
-     , (34980, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */
-     , (34980, 9, 49375,  0, 0, 0, False) /* Create Lightning Grievver Essence (100) (49375) for ContainTreasure */;
+     , (34980, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34980, 67115206, 0, 0);

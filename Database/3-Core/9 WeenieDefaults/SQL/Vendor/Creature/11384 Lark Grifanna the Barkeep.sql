@@ -77,16 +77,16 @@ VALUES (11384,   1,    10, 0, 0, 138) /* MaxHealth */
      , (11384,   5,    10, 0, 0, 45) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11384, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (11384, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (11384, 4,  2466, -1, 0, 0, False) /* Create  (2466) for Shop */
-     , (11384, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+VALUES (11384, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (11384, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
-     , (11384, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (11384, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
-     , (11384, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
+     , (11384, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (11384, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
+     , (11384, 4,  2466, -1, 0, 0, False) /* Create  (2466) for Shop */
+     , (11384, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (11384, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (11384, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (11384, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
      , (11384, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (11384, 4, 27610, -1, 0, 0, False) /* Create  (27610) for Shop */
      , (11384, 4, 27611, -1, 0, 0, False) /* Create  (27611) for Shop */

@@ -72,5 +72,5 @@ VALUES (24885, 8000, 3692283283) /* PCAPRecordedObjectIID */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24885, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
-     , (24885, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (24885, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
+     , (24885, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (24885, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

@@ -60,13 +60,13 @@ VALUES (11488,   1,    10, 0, 0, 45) /* MaxHealth */
      , (11488,   5,    10, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11488, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (11488, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+VALUES (11488, 9,  2955,  0, 0, 0, False) /* Create Scroll of Lightning Bolt II (2955) for ContainTreasure */
      , (11488, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
      , (11488, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (11488, 9,  2955,  0, 0, 0, False) /* Create Scroll of Lightning Bolt II (2955) for ContainTreasure */
-     , (11488, 9, 11367,  0, 0, 0, False) /* Create Marsh Siraluun Claw (11367) for ContainTreasure */
-     , (11488, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;
+     , (11488, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (11488, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (11488, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (11488, 9, 11367,  0, 0, 0, False) /* Create Marsh Siraluun Claw (11367) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11488, 67113292, 0, 0);

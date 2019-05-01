@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (9243, 9,   110,  0, 0, 0, False) /* Create Platemail Tassets (110) for ContainTreasure */
      , (9243, 9,   273, 200, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (9243, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (9243, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
-     , (9243, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (9243, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (9243, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (9243, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
-     , (9243, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
      , (9243, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (9243, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
+     , (9243, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (9243, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (9243, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (9243, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (9243, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (9243, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9243, 67113152, 0, 0);

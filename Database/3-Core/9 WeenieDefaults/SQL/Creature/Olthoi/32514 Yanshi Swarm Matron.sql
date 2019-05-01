@@ -50,6 +50,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (32514,   1,    10, 0, 0, 910) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32514, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (32514, 9, 32554,  0, 0, 0, False) /* Create Yanshi Swarm Matron's Claw (32554) for ContainTreasure */
-     , (32514, 9, 49284,  0, 0, 0, False) /* Create Acid K'nath Essence (100) (49284) for ContainTreasure */;
+VALUES (32514, 9, 49284,  0, 0, 0, False) /* Create Acid K'nath Essence (100) (49284) for ContainTreasure */
+     , (32514, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (32514, 9, 32554,  0, 0, 0, False) /* Create Yanshi Swarm Matron's Claw (32554) for ContainTreasure */;

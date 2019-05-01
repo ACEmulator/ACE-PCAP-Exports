@@ -66,13 +66,13 @@ VALUES (35125,   1,    10, 0, 0, 1400) /* MaxHealth */
      , (35125,   5,    10, 0, 0, 2700) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35125, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (35125, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (35125, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */
-     , (35125, 2, 34018,  1, 0, 0, False) /* Create Frost Tachi (34018) for Wield */
-     , (35125, 2, 35262,  1, 0, 0, False) /* Create Fire Tachi (35262) for Wield */
+VALUES (35125, 2, 35262,  1, 0, 0, False) /* Create Fire Tachi (35262) for Wield */
      , (35125, 2, 35263,  1, 0, 0, False) /* Create Acid Tachi (35263) for Wield */
-     , (35125, 2, 35264,  1, 0, 0, False) /* Create Lightning Tachi (35264) for Wield */;
+     , (35125, 2, 34018,  1, 0, 0, False) /* Create Frost Tachi (34018) for Wield */
+     , (35125, 2, 35264,  1, 0, 0, False) /* Create Lightning Tachi (35264) for Wield */
+     , (35125, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */
+     , (35125, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (35125, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35125, 67114607, 168, 6);

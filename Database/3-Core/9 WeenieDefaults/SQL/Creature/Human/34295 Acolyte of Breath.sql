@@ -66,15 +66,15 @@ VALUES (34295,   1,    10, 0, 0, 230) /* MaxHealth */
      , (34295,   5,    10, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34295, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (34295, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
-     , (34295, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
+VALUES (34295, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
      , (34295, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
-     , (34295, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (34295, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
+     , (34295, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
      , (34295, 9, 22162,  0, 0, 0, False) /* Create Frost Nabut (22162) for ContainTreasure */
-     , (34295, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (34295, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (34295, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
-     , (34295, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
+     , (34295, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+     , (34295, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34295, 67110050, 0, 24)

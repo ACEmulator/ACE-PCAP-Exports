@@ -48,21 +48,21 @@ VALUES (22785, 8000, 3690482261) /* PCAPRecordedObjectIID */
      , (22785, 8008, 3690482284) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22785, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
-     , (22785, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (22785, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
-     , (22785, 9,   273, 165, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (22785, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (22785, 9,   340,  0, 0, 0, False) /* Create Shamshir (340) for ContainTreasure */
-     , (22785, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (22785, 9, 20357,  0, 0, 0, False) /* Create Scroll of Devour Item Magic (20357) for ContainTreasure */
-     , (22785, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
-     , (22785, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (22785, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */
+VALUES (22785, 9, 45294,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other III (45294) for ContainTreasure */
      , (22785, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
-     , (22785, 9, 45294,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other III (45294) for ContainTreasure */
+     , (22785, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (22785, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (22785, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (22785, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (22785, 9,   273, 165, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (22785, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
      , (22785, 9, 45296,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other V (45296) for ContainTreasure */
-     , (22785, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */;
+     , (22785, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (22785, 9, 20357,  0, 0, 0, False) /* Create Scroll of Devour Item Magic (20357) for ContainTreasure */
+     , (22785, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (22785, 9,   340,  0, 0, 0, False) /* Create Shamshir (340) for ContainTreasure */
+     , (22785, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+     , (22785, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22785, 67111920, 0, 0);

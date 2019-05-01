@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40496,   1,    10, 0, 0, 3500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40496, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (40496, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+VALUES (40496, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
      , (40496, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
-     , (40496, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
+     , (40496, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+     , (40496, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
      , (40496, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
-     , (40496, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (40496, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */
-     , (40496, 9, 40497,  0, 0, 0, False) /* Create Apostate Citadel Headquarters Key (40497) for ContainTreasure */
      , (40496, 9, 41063,  0, 0, 0, False) /* Create Acid Khanda-handled Mace (41063) for ContainTreasure */
+     , (40496, 9, 40497,  0, 0, 0, False) /* Create Apostate Citadel Headquarters Key (40497) for ContainTreasure */
+     , (40496, 9, 49271,  0, 0, 0, False) /* Create Lightning Child Essence (125) (49271) for ContainTreasure */
      , (40496, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
-     , (40496, 9, 49271,  0, 0, 0, False) /* Create Lightning Child Essence (125) (49271) for ContainTreasure */;
+     , (40496, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (40496, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40496, 67116627, 1, 48)

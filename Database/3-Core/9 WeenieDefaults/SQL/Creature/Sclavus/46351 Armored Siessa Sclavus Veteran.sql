@@ -61,8 +61,8 @@ VALUES (46351,   1,    10, 0, 0, 1215) /* MaxHealth */
      , (46351,   5,    10, 0, 0, 1030) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46351, 2, 38849,  1, 0, 0, False) /* Create Raider Lightning Arrow (38849) for Wield */
-     , (46351, 2, 41010,  1, 0, 0, False) /* Create Lightning T'thuun Bow (41010) for Wield */;
+VALUES (46351, 2, 41010,  1, 0, 0, False) /* Create Lightning T'thuun Bow (41010) for Wield */
+     , (46351, 2, 38849,  1, 0, 0, False) /* Create Raider Lightning Arrow (38849) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46351, 67113361, 0, 0);

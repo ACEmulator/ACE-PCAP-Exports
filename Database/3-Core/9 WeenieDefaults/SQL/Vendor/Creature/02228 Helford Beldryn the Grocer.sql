@@ -77,16 +77,16 @@ VALUES (2228,   1,    10, 0, 0, 143) /* MaxHealth */
      , (2228,   5,    10, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2228, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (2228, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+VALUES (2228, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (2228, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (2228, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (2228, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
+     , (2228, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */
+     , (2228, 4,  5089, -1, 0, 0, False) /* Create  (5089) for Shop */
+     , (2228, 4,  5088, -1, 0, 0, False) /* Create  (5088) for Shop */
      , (2228, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (2228, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (2228, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (2228, 4,  5088, -1, 0, 0, False) /* Create  (5088) for Shop */
-     , (2228, 4,  5089, -1, 0, 0, False) /* Create  (5089) for Shop */
-     , (2228, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
-     , (2228, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */;
+     , (2228, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2228, 67109561, 0, 24)

@@ -65,5 +65,5 @@ VALUES (34565,   1,    10, 0, 0, 230) /* MaxHealth */
      , (34565,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34565, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (34565, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */;
+VALUES (34565, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
+     , (34565, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */;

@@ -52,30 +52,30 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (19267,   1,    10, 0, 0, 538) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19267, 9,   273, 416, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (19267, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (19267, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (19267, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+VALUES (19267, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
      , (19267, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (19267, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
-     , (19267, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (19267, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
-     , (19267, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (19267, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
      , (19267, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (19267, 9, 19249,  0, 0, 0, False) /* Create Bronze Nuts and Bolts from a Statue (19249) for ContainTreasure */
-     , (19267, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
-     , (19267, 9, 20545,  0, 0, 0, False) /* Create Scroll of Feat of Radaz (20545) for ContainTreasure */
-     , (19267, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (19267, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
      , (19267, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (19267, 9, 30577,  0, 0, 0, False) /* Create Flaming Flamberge (30577) for ContainTreasure */
-     , (19267, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
-     , (19267, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
-     , (19267, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (19267, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
+     , (19267, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
+     , (19267, 9,   273, 416, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (19267, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (19267, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (19267, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (19267, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
      , (19267, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
      , (19267, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
-     , (19267, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
-     , (19267, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */;
+     , (19267, 9, 20545,  0, 0, 0, False) /* Create Scroll of Feat of Radaz (20545) for ContainTreasure */
+     , (19267, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */
+     , (19267, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
+     , (19267, 9, 30577,  0, 0, 0, False) /* Create Flaming Flamberge (30577) for ContainTreasure */
+     , (19267, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (19267, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (19267, 9, 19249,  0, 0, 0, False) /* Create Bronze Nuts and Bolts from a Statue (19249) for ContainTreasure */
+     , (19267, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (19267, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (19267, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19267, 67113814, 0, 0);

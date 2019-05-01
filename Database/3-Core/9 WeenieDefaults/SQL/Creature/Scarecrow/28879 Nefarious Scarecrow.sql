@@ -59,13 +59,13 @@ VALUES (28879,   1,    10, 0, 0, 183) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28879, 2,  8395,  1, 0, 0, False) /* Create Jack o' Lantern (8395) for Wield */
-     , (28879, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (28879, 9,   273, 39, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (28879, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (28879, 9,  2797,  0, 0, 0, False) /* Create Scroll of Bludgeon Lure II (2797) for ContainTreasure */
      , (28879, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (28879, 9,   273, 39, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (28879, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (28879, 9, 30604,  0, 0, 0, False) /* Create Frost Stiletto (30604) for ContainTreasure */
      , (28879, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (28879, 9, 30604,  0, 0, 0, False) /* Create Frost Stiletto (30604) for ContainTreasure */;
+     , (28879, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28879, 67112975, 0, 0);

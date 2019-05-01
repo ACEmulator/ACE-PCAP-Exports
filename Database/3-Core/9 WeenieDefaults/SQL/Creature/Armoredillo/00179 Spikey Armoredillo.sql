@@ -61,37 +61,37 @@ VALUES (179,   1,    10, 0, 0, 38) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (179, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
-     , (179, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (179, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (179, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (179, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (179, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (179, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (179, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (179, 9,   261,  1, 0, 0, False) /* Create Cheese (261) for ContainTreasure */
-     , (179, 9,   273,  9, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (179, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (179, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (179, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (179, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (179, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
-     , (179, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (179, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (179, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (179, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
-     , (179, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
-     , (179, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (179, 9,  2772,  0, 0, 0, False) /* Create Scroll of Blade Bane II (2772) for ContainTreasure */
-     , (179, 9,  2968,  0, 0, 0, False) /* Create Scroll of Whirling Blade II (2968) for ContainTreasure */
-     , (179, 9,  3374,  0, 0, 0, False) /* Create Scroll of Life Magic Mastery Self III (3374) for ContainTreasure */
-     , (179, 9,  3463,  0, 0, 0, False) /* Create Scroll of Resist Magic Other II (3463) for ContainTreasure */
-     , (179, 9,  3588,  0, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance II (3588) for ContainTreasure */
-     , (179, 9,  4233,  0, 0, 0, False) /* Create Armoredillo Hide (4233) for ContainTreasure */
-     , (179, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (179, 9,  9645,  0, 0, 0, False) /* Create Scroll of Mana to Stamina Self II (9645) for ContainTreasure */
-     , (179, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
-     , (179, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
-     , (179, 9, 49282,  0, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for ContainTreasure */
      , (179, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
-     , (179, 9, 49380,  0, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for ContainTreasure */;
+     , (179, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (179, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (179, 9,  2772,  0, 0, 0, False) /* Create Scroll of Blade Bane II (2772) for ContainTreasure */
+     , (179, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (179, 9,   273,  9, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (179, 9, 49380,  0, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for ContainTreasure */
+     , (179, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (179, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (179, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (179, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (179, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (179, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
+     , (179, 9, 49282,  0, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for ContainTreasure */
+     , (179, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (179, 9,  2968,  0, 0, 0, False) /* Create Scroll of Whirling Blade II (2968) for ContainTreasure */
+     , (179, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (179, 9,  4233,  0, 0, 0, False) /* Create Armoredillo Hide (4233) for ContainTreasure */
+     , (179, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
+     , (179, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (179, 9,  3463,  0, 0, 0, False) /* Create Scroll of Resist Magic Other II (3463) for ContainTreasure */
+     , (179, 9,  9645,  0, 0, 0, False) /* Create Scroll of Mana to Stamina Self II (9645) for ContainTreasure */
+     , (179, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (179, 9,   261,  1, 0, 0, False) /* Create Cheese (261) for ContainTreasure */
+     , (179, 9,  3374,  0, 0, 0, False) /* Create Scroll of Life Magic Mastery Self III (3374) for ContainTreasure */
+     , (179, 9,  3588,  0, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance II (3588) for ContainTreasure */
+     , (179, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (179, 67115923, 0, 0);

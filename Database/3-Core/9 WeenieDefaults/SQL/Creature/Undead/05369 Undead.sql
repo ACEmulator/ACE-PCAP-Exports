@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (5369,   1,    10, 0, 0, 34) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5369, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (5369, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
-     , (5369, 2, 47873,  1, 0, 0, False) /* Create Lightning Quarrel (47873) for Wield */
-     , (5369, 2, 47874,  1, 0, 0, False) /* Create Acid Katar (47874) for Wield */
+VALUES (5369, 2, 47883,  1, 0, 0, False) /* Create Ono (47883) for Wield */
      , (5369, 2, 47878,  1, 0, 0, False) /* Create Acid Nekode (47878) for Wield */
-     , (5369, 2, 47883,  1, 0, 0, False) /* Create Ono (47883) for Wield */;
+     , (5369, 2, 47874,  1, 0, 0, False) /* Create Acid Katar (47874) for Wield */
+     , (5369, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (5369, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (5369, 2, 47873,  1, 0, 0, False) /* Create Lightning Quarrel (47873) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5369, 67111664, 0, 0);

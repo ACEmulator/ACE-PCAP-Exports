@@ -53,13 +53,13 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30898, 2, 23648,  1, 0, 0, False) /* Create Club (23648) for Wield */
      , (30898, 2, 23663,  1, 0, 0, False) /* Create Frost Throwing Club (23663) for Wield */
      , (30898, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (30898, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (30898, 9,  3431,  0, 0, 0, False) /* Create Scroll of Mana Mastery Other V (3431) for ContainTreasure */
-     , (30898, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (30898, 9, 30876,  0, 0, 0, False) /* Create Banished Blade (30876) for ContainTreasure */
+     , (30898, 9, 45415,  0, 0, 0, False) /* Create Frost Spada (45415) for ContainTreasure */
      , (30898, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */
+     , (30898, 9, 30876,  0, 0, 0, False) /* Create Banished Blade (30876) for ContainTreasure */
+     , (30898, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (30898, 9,  3431,  0, 0, 0, False) /* Create Scroll of Mana Mastery Other V (3431) for ContainTreasure */
      , (30898, 9, 40622,  0, 0, 0, False) /* Create Frost Nodachi (40622) for ContainTreasure */
-     , (30898, 9, 45415,  0, 0, 0, False) /* Create Frost Spada (45415) for ContainTreasure */;
+     , (30898, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30898, 67114036, 0, 0);

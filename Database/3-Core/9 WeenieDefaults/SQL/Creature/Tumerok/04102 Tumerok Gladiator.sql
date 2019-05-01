@@ -60,11 +60,11 @@ VALUES (4102,   1,    10, 0, 0, 223) /* MaxHealth */
      , (4102,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4102, 2, 23639,  1, 0, 0, False) /* Create Cestus (23639) for Wield */
-     , (4102, 2, 23676,  1, 0, 0, False) /* Create Katar (23676) for Wield */
-     , (4102, 2, 23682,  1, 0, 0, False) /* Create Nekode (23682) for Wield */
+VALUES (4102, 2, 23676,  1, 0, 0, False) /* Create Katar (23676) for Wield */
      , (4102, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wield */
+     , (4102, 2, 23682,  1, 0, 0, False) /* Create Nekode (23682) for Wield */
      , (4102, 2, 23698,  1, 0, 0, False) /* Create Spear (23698) for Wield */
+     , (4102, 2, 23639,  1, 0, 0, False) /* Create Cestus (23639) for Wield */
      , (4102, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

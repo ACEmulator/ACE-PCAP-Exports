@@ -71,18 +71,18 @@ VALUES (49517,   1,    10, 0, 0, 80) /* MaxHealth */
      , (49517,   5,    10, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49517, 4, 48878, -1, 0, 0, False) /* Create Copper Golem Essence (48878) for Shop */
-     , (49517, 4, 48880, -1, 0, 0, False) /* Create Coral Golem Essence (48880) for Shop */
-     , (49517, 4, 48882, -1, 0, 0, False) /* Create Gold Golem Essence (48882) for Shop */
-     , (49517, 4, 48884, -1, 0, 0, False) /* Create Iron Golem Essence (48884) for Shop */
-     , (49517, 4, 48886, -1, 0, 0, False) /* Create Mud Golem Essence (48886) for Shop */
-     , (49517, 4, 48888, -1, 0, 0, False) /* Create Oak Golem Essence (48888) for Shop */
+VALUES (49517, 4, 48886, -1, 0, 0, False) /* Create Mud Golem Essence (48886) for Shop */
      , (49517, 4, 48890, -1, 0, 0, False) /* Create Sandstone Golem Essence (48890) for Shop */
-     , (49517, 4, 49296, -1, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for Shop */
-     , (49517, 4, 49345, -1, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for Shop */
+     , (49517, 4, 48878, -1, 0, 0, False) /* Create Copper Golem Essence (48878) for Shop */
+     , (49517, 4, 48888, -1, 0, 0, False) /* Create Oak Golem Essence (48888) for Shop */
+     , (49517, 4, 48882, -1, 0, 0, False) /* Create Gold Golem Essence (48882) for Shop */
+     , (49517, 4, 48880, -1, 0, 0, False) /* Create Coral Golem Essence (48880) for Shop */
+     , (49517, 4, 48884, -1, 0, 0, False) /* Create Iron Golem Essence (48884) for Shop */
      , (49517, 4, 49421, -1, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for Shop */
-     , (49517, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */
+     , (49517, 4, 49345, -1, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for Shop */
      , (49517, 4, 49538, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for Shop */
+     , (49517, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */
+     , (49517, 4, 49296, -1, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for Shop */
      , (49517, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

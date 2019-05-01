@@ -59,9 +59,9 @@ VALUES (2570,   1,    10, 0, 0, 60) /* MaxHealth */
      , (2570,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2570, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (2570, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+VALUES (2570, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
      , (2570, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (2570, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (2570, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (2570, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (2570, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (2570, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */;

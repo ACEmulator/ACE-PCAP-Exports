@@ -60,10 +60,10 @@ VALUES (11495,   1,    10, 0, 0, 265) /* MaxHealth */
      , (11495,   5,    10, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11495, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+VALUES (11495, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (11495, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (11495, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
-     , (11495, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
+     , (11495, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (11495, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11495, 67113299, 0, 0);

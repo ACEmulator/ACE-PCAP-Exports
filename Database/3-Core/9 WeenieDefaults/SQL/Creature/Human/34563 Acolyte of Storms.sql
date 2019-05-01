@@ -65,16 +65,16 @@ VALUES (34563,   1,    10, 0, 0, 230) /* MaxHealth */
      , (34563,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34563, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
-     , (34563, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
-     , (34563, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
-     , (34563, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+VALUES (34563, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
+     , (34563, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
      , (34563, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
-     , (34563, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (34563, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (34563, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
-     , (34563, 9,  3868,  0, 0, 0, False) /* Create Frost Silifi (3868) for ContainTreasure */
      , (34563, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (34563, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (34563, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
      , (34563, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (34563, 9,  3868,  0, 0, 0, False) /* Create Frost Silifi (3868) for ContainTreasure */
+     , (34563, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
      , (34563, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
-     , (34563, 9, 49422,  0, 0, 0, False) /* Create Acid Spectre Essence (80) (49422) for ContainTreasure */;
+     , (34563, 9, 49422,  0, 0, 0, False) /* Create Acid Spectre Essence (80) (49422) for ContainTreasure */
+     , (34563, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (34563, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */;

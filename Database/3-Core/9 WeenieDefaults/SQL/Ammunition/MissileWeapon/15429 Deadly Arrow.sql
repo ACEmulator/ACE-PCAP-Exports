@@ -82,8 +82,8 @@ VALUES (15429, 8000, 3688000228) /* PCAPRecordedObjectIID */
      , (15429, 8008, 3685551716) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15429, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
-     , (15429, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
+VALUES (15429, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (15429, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15429, 67111919, 0, 0);

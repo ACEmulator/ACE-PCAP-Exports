@@ -46,5 +46,5 @@ VALUES (47408, 8000, 3685856876) /* PCAPRecordedObjectIID */
      , (47408, 8008, 3685720729) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47408, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (47408, 2, 48998,  1, 0, 0, False) /* Create Frost Hatchet (48998) for Wield */;
+VALUES (47408, 2, 48998,  1, 0, 0, False) /* Create Frost Hatchet (48998) for Wield */
+     , (47408, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

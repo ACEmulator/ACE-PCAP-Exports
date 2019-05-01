@@ -57,27 +57,27 @@ VALUES (2564,   1,    10, 0, 0, 98) /* MaxHealth */
      , (2564,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2564, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (2564, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
-     , (2564, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (2564, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+VALUES (2564, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */
+     , (2564, 9, 30615,  0, 0, 0, False) /* Create Acid Knuckles (30615) for ContainTreasure */
      , (2564, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
-     , (2564, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (2564, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
      , (2564, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (2564, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (2564, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (2564, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
-     , (2564, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
      , (2564, 9,  2637,  0, 0, 0, False) /* Create Scroll of Bafflement Other V (2637) for ContainTreasure */
-     , (2564, 9,  2979,  0, 0, 0, False) /* Create Scroll of Acid Protection Self III (2979) for ContainTreasure */
+     , (2564, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (2564, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (2564, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (2564, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
+     , (2564, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (2564, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
      , (2564, 9,  3560,  0, 0, 0, False) /* Create Scroll of Vulnerability IV (3560) for ContainTreasure */
-     , (2564, 9,  3913,  0, 0, 0, False) /* Create Acid Yari (3913) for ContainTreasure */
-     , (2564, 9,  4234,  0, 0, 0, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */
+     , (2564, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
      , (2564, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
      , (2564, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (2564, 9, 30615,  0, 0, 0, False) /* Create Acid Knuckles (30615) for ContainTreasure */
-     , (2564, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */;
+     , (2564, 9,  4234,  0, 0, 0, False) /* Create Large Armoredillo Hide (4234) for ContainTreasure */
+     , (2564, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (2564, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (2564, 9,  3913,  0, 0, 0, False) /* Create Acid Yari (3913) for ContainTreasure */
+     , (2564, 9,  2979,  0, 0, 0, False) /* Create Scroll of Acid Protection Self III (2979) for ContainTreasure */
+     , (2564, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2564, 67115918, 0, 0);

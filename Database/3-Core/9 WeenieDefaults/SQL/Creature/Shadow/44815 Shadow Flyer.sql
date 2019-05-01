@@ -61,8 +61,8 @@ VALUES (44815,   1,    10, 0, 0, 1060) /* MaxHealth */
      , (44815,   5,    10, 0, 0, 5320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44815, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (44815, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
+VALUES (44815, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
+     , (44815, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44815, 67114711, 0, 0);

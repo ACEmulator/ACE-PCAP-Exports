@@ -77,22 +77,22 @@ VALUES (659,   1,    10, 0, 0, 125) /* MaxHealth */
      , (659,   5,    10, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (659, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (659, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
-     , (659, 4,  1402, -1, 0, 0, False) /* Create  (1402) for Shop */
-     , (659, 4,  1511, -1, 0, 0, False) /* Create  (1511) for Shop */
-     , (659, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
-     , (659, 4,  2059, -1, 0, 0, False) /* Create  (2059) for Shop */
+VALUES (659, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (659, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (659, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
-     , (659, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (659, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (659, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
-     , (659, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
-     , (659, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
-     , (659, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (659, 4,  5004, -1, 0, 0, False) /* Create  (5004) for Shop */
+     , (659, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (659, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (659, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
+     , (659, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (659, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (659, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (659, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
+     , (659, 4,  1511, -1, 0, 0, False) /* Create  (1511) for Shop */
+     , (659, 4,  1402, -1, 0, 0, False) /* Create  (1402) for Shop */
+     , (659, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
+     , (659, 4,  2059, -1, 0, 0, False) /* Create  (2059) for Shop */
+     , (659, 4,  5004, -1, 0, 0, False) /* Create  (5004) for Shop */
      , (659, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (659, 4, 26643, -1, 0, 0, False) /* Create  (26643) for Shop */;
 

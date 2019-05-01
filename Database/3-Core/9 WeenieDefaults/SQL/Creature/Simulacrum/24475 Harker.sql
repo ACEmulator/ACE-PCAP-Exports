@@ -66,15 +66,15 @@ VALUES (24475,   1,    10, 0, 0, 400) /* MaxHealth */
      , (24475,   5,    10, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24475, 2, 12155,  1, 0, 0, False) /* Create Shield of the Simulacra (12155) for Wield */
-     , (24475, 2, 23707,  1, 0, 0, False) /* Create Fire Tachi (23707) for Wield */
-     , (24475, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (24475, 9,  3820,  0, 0, 0, False) /* Create Flaming Katar (3820) for ContainTreasure */
-     , (24475, 9, 20495,  0, 0, 0, False) /* Create Scroll of Bottle Breaker (20495) for ContainTreasure */
-     , (24475, 9, 24470,  0, 0, 0, False) /* Create Harker's Head (24470) for ContainTreasure */
-     , (24475, 9, 24473,  0, 0, 0, False) /* Create Virindi Shard (24473) for ContainTreasure */
+VALUES (24475, 2, 23707,  1, 0, 0, False) /* Create Fire Tachi (23707) for Wield */
+     , (24475, 2, 12155,  1, 0, 0, False) /* Create Shield of the Simulacra (12155) for Wield */
+     , (24475, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */
      , (24475, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
-     , (24475, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */;
+     , (24475, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (24475, 9, 20495,  0, 0, 0, False) /* Create Scroll of Bottle Breaker (20495) for ContainTreasure */
+     , (24475, 9,  3820,  0, 0, 0, False) /* Create Flaming Katar (3820) for ContainTreasure */
+     , (24475, 9, 24473,  0, 0, 0, False) /* Create Virindi Shard (24473) for ContainTreasure */
+     , (24475, 9, 24470,  0, 0, 0, False) /* Create Harker's Head (24470) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24475, 67109559, 0, 24)

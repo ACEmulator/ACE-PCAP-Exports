@@ -51,13 +51,13 @@ VALUES (9146,   1,    10, 0, 0, 325) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9146, 2,  9137,  1, 0, 0, False) /* Create Vanguard Leader's Crossbow (9137) for Wield */
-     , (9146, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
-     , (9146, 9,   305,  1, 0, 0, False) /* Create Quarrel (305) for ContainTreasure */
      , (9146, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
      , (9146, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (9146, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
      , (9146, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (9146, 9,  9136,  0, 0, 0, False) /* Create Vanguard Leader's Amulet (9136) for ContainTreasure */
-     , (9146, 9, 43419,  0, 0, 0, False) /* Create Southern Tumerok Insignia (43419) for ContainTreasure */;
+     , (9146, 9,   305,  1, 0, 0, False) /* Create Quarrel (305) for ContainTreasure */
+     , (9146, 9, 43419,  0, 0, 0, False) /* Create Southern Tumerok Insignia (43419) for ContainTreasure */
+     , (9146, 9,  9136,  0, 0, 0, False) /* Create Vanguard Leader's Amulet (9136) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9146, 67116636, 153, 47)

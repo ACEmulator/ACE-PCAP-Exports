@@ -61,10 +61,10 @@ VALUES (31340,   1,    10, 0, 0, 600) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31340, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (31340, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (31340, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (31340, 9, 31335,  0, 0, 0, False) /* Create Blue Coral (31335) for ContainTreasure */
-     , (31340, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
+     , (31340, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (31340, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (31340, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31340, 67115271, 0, 0);

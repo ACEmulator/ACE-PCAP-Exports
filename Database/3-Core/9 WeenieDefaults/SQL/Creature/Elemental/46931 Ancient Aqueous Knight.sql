@@ -62,38 +62,38 @@ VALUES (46931,   1,    10, 0, 0, 3500) /* MaxHealth */
      , (46931,   5,    10, 0, 0, 4160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46931, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (46931, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (46931, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (46931, 9,   273, 1420, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (46931, 9,   356,  0, 0, 0, False) /* Create Tofun (356) for ContainTreasure */
-     , (46931, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (46931, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (46931, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+VALUES (46931, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (46931, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (46931, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
-     , (46931, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (46931, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (46931, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (46931, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (46931, 9, 45401,  0, 0, 0, False) /* Create Simi (45401) for ContainTreasure */
+     , (46931, 9,   273, 1420, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (46931, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
      , (46931, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
-     , (46931, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
-     , (46931, 9, 20572,  0, 0, 0, False) /* Create Scroll of Kaluhc's Blessing (20572) for ContainTreasure */
-     , (46931, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (46931, 9, 37358,  1, 0, 0, False) /* Create Ink of Separation (37358) for ContainTreasure */
+     , (46931, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (46931, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (46931, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (46931, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
+     , (46931, 9,   356,  0, 0, 0, False) /* Create Tofun (356) for ContainTreasure */
+     , (46931, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
      , (46931, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
      , (46931, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
-     , (46931, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
-     , (46931, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
      , (46931, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (46931, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (46931, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (46931, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (46931, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
-     , (46931, 9, 37358,  1, 0, 0, False) /* Create Ink of Separation (37358) for ContainTreasure */
-     , (46931, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
      , (46931, 9, 41747,  1, 0, 0, False) /* Create Glyph of Two Handed Combat (41747) for ContainTreasure */
+     , (46931, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
+     , (46931, 9, 46880,  0, 0, 0, False) /* Create Aura of Defender Other VII (46880) for ContainTreasure */
+     , (46931, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (46931, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
      , (46931, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */
-     , (46931, 9, 45401,  0, 0, 0, False) /* Create Simi (45401) for ContainTreasure */
-     , (46931, 9, 46880,  0, 0, 0, False) /* Create Aura of Defender Other VII (46880) for ContainTreasure */;
+     , (46931, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (46931, 9, 20572,  0, 0, 0, False) /* Create Scroll of Kaluhc's Blessing (20572) for ContainTreasure */
+     , (46931, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (46931, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (46931, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (46931, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (46931, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (46931, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46931, 67116725, 0, 0);

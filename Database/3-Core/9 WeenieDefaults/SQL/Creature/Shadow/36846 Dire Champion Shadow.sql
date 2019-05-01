@@ -70,22 +70,22 @@ VALUES (36846,   1,    10, 0, 0, 1955) /* MaxHealth */
      , (36846,   5,    10, 0, 0, 880) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36846, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (36846, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
+VALUES (36846, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
+     , (36846, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (36846, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
      , (36846, 2, 48497,  1, 0, 0, False) /* Create Flaming Katar (48497) for Wield */
+     , (36846, 9,  3868,  0, 0, 0, False) /* Create Frost Silifi (3868) for ContainTreasure */
+     , (36846, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (36846, 9, 43052,  0, 0, 0, False) /* Create Knorr Academy Pauldrons (43052) for ContainTreasure */
+     , (36846, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
+     , (36846, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (36846, 9, 31796,  0, 0, 0, False) /* Create Lightning Lancet (31796) for ContainTreasure */
+     , (36846, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (36846, 9, 30576,  0, 0, 0, False) /* Create Flamberge (30576) for ContainTreasure */
+     , (36846, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
      , (36846, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
      , (36846, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (36846, 9,  3868,  0, 0, 0, False) /* Create Frost Silifi (3868) for ContainTreasure */
-     , (36846, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
-     , (36846, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
-     , (36846, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
-     , (36846, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
-     , (36846, 9, 30576,  0, 0, 0, False) /* Create Flamberge (30576) for ContainTreasure */
-     , (36846, 9, 31796,  0, 0, 0, False) /* Create Lightning Lancet (31796) for ContainTreasure */
-     , (36846, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
-     , (36846, 9, 43052,  0, 0, 0, False) /* Create Knorr Academy Pauldrons (43052) for ContainTreasure */
-     , (36846, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */;
+     , (36846, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36846, 67112860, 0, 0);

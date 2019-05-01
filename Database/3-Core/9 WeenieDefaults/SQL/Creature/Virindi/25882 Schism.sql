@@ -61,10 +61,10 @@ VALUES (25882,   1,    10, 0, 0, 1100) /* MaxHealth */
      , (25882,   5,    10, 0, 0, 1100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25882, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (25882, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (25882, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */
-     , (25882, 9, 27223,  0, 0, 0, False) /* Create Lorica Helm (27223) for ContainTreasure */
-     , (25882, 9, 31355,  1, 0, 0, False) /* Create Olthoi Slasher Carapace (31355) for ContainTreasure */
+VALUES (25882, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */
      , (25882, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
-     , (25882, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */;
+     , (25882, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
+     , (25882, 9, 31355,  1, 0, 0, False) /* Create Olthoi Slasher Carapace (31355) for ContainTreasure */
+     , (25882, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (25882, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (25882, 9, 27223,  0, 0, 0, False) /* Create Lorica Helm (27223) for ContainTreasure */;

@@ -58,14 +58,14 @@ VALUES (33165,   1,    10, 0, 0, 60140) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33165, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (33165, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (33165, 9,  3261,  0, 0, 0, False) /* Create Scroll of Fealty Other V (3261) for ContainTreasure */
-     , (33165, 9,  3567,  0, 0, 0, False) /* Create Scroll of War Magic Ineptitude VI (3567) for ContainTreasure */
-     , (33165, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
      , (33165, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (33165, 9, 30559,  0, 0, 0, False) /* Create Flaming Hatchet (30559) for ContainTreasure */
-     , (33165, 9, 33169,  0, 0, 0, False) /* Create Boney Lump of Flesh (33169) for ContainTreasure */
-     , (33165, 9, 45109,  0, 0, 0, False) /* Create Acid Schlager (45109) for ContainTreasure */;
+     , (33165, 9,  3567,  0, 0, 0, False) /* Create Scroll of War Magic Ineptitude VI (3567) for ContainTreasure */
+     , (33165, 9,  3261,  0, 0, 0, False) /* Create Scroll of Fealty Other V (3261) for ContainTreasure */
+     , (33165, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (33165, 9, 45109,  0, 0, 0, False) /* Create Acid Schlager (45109) for ContainTreasure */
+     , (33165, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (33165, 9, 33169,  0, 0, 0, False) /* Create Boney Lump of Flesh (33169) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33165, 67112860, 0, 0);

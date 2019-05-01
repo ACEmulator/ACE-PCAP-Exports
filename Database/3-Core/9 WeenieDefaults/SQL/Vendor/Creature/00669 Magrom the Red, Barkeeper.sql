@@ -77,28 +77,28 @@ VALUES (669,   1,    10, 0, 0, 138) /* MaxHealth */
      , (669,   5,    10, 0, 0, 45) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (669, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+VALUES (669, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (669, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (669, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (669, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (669, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (669, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (669, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (669, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (669, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (669, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (669, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
      , (669, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
      , (669, 4,  2059, -1, 0, 0, False) /* Create  (2059) for Shop */
-     , (669, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
-     , (669, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
-     , (669, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (669, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (669, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
-     , (669, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (669, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
-     , (669, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (669, 4,  6416, -1, 0, 0, False) /* Create  (6416) for Shop */
      , (669, 4,  6420, -1, 0, 0, False) /* Create  (6420) for Shop */
-     , (669, 4,  7777, -1, 0, 0, False) /* Create  (7777) for Shop */
-     , (669, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (669, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
-     , (669, 4, 13200, -1, 0, 0, False) /* Create Aluvian Festival Light (13200) for Shop */
+     , (669, 4,  7777, -1, 0, 0, False) /* Create  (7777) for Shop */
      , (669, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
-     , (669, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */
+     , (669, 4,  6416, -1, 0, 0, False) /* Create  (6416) for Shop */
      , (669, 4, 24343, -1, 0, 0, False) /* Create  (24343) for Shop */
-     , (669, 4, 32273, -1, 0, 0, False) /* Create The Zongo Papers (32273) for Shop */;
+     , (669, 4, 32273, -1, 0, 0, False) /* Create The Zongo Papers (32273) for Shop */
+     , (669, 4, 13200, -1, 0, 0, False) /* Create Aluvian Festival Light (13200) for Shop */
+     , (669, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (669, 67109560, 0, 24)

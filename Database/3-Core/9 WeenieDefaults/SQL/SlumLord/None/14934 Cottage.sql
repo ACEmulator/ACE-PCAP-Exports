@@ -49,6 +49,6 @@ VALUES (14934, 8000, 2048774572) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14934, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (14934, 16,  4230,  1, 0, 0, False) /* Create Mattekar Hide Sleeves (4230) for HouseBuy */
      , (14934, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (14934, 16,  4230,  1, 0, 0, False) /* Create Mattekar Hide Sleeves (4230) for HouseBuy */
      , (14934, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

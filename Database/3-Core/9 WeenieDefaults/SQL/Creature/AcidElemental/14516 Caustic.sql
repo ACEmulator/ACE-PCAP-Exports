@@ -62,29 +62,29 @@ VALUES (14516,   1,    10, 0, 0, 575) /* MaxHealth */
      , (14516,   5,    10, 0, 0, 470) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14516, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (14516, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (14516, 9,   273, 2552, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (14516, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (14516, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */
-     , (14516, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (14516, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
-     , (14516, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+VALUES (14516, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
      , (14516, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (14516, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (14516, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (14516, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (14516, 9, 20416,  0, 0, 0, False) /* Create Aura of Elysa's Sight (20416) for ContainTreasure */
-     , (14516, 9, 20540,  0, 0, 0, False) /* Create Scroll of Celcynd's Boon (20540) for ContainTreasure */
-     , (14516, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
-     , (14516, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (14516, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (14516, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (14516, 9,   273, 2552, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (14516, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
-     , (14516, 9, 28946,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VII (28946) for ContainTreasure */
-     , (14516, 9, 29255,  0, 0, 0, False) /* Create Fire Atlatl (29255) for ContainTreasure */
-     , (14516, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
+     , (14516, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (14516, 9, 43284,  0, 0, 0, False) /* Create Scroll of Corrosion VII (43284) for ContainTreasure */
+     , (14516, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (14516, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (14516, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (14516, 9, 20416,  0, 0, 0, False) /* Create Aura of Elysa's Sight (20416) for ContainTreasure */
+     , (14516, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (14516, 9, 20540,  0, 0, 0, False) /* Create Scroll of Celcynd's Boon (20540) for ContainTreasure */
+     , (14516, 9, 33956,  0, 0, 0, False) /* Create Crystal of Acidic Elemental Essence (33956) for ContainTreasure */
+     , (14516, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (14516, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
      , (14516, 9, 31758,  0, 0, 0, False) /* Create Frost Dericost Blade (31758) for ContainTreasure */
-     , (14516, 9, 33956,  0, 0, 0, False) /* Create Crystal of Acidic Elemental Essence (33956) for ContainTreasure */
-     , (14516, 9, 43284,  0, 0, 0, False) /* Create Scroll of Corrosion VII (43284) for ContainTreasure */
-     , (14516, 9, 44801,  0, 0, 0, False) /* Create Suikan Over-robe (44801) for ContainTreasure */;
+     , (14516, 9, 44801,  0, 0, 0, False) /* Create Suikan Over-robe (44801) for ContainTreasure */
+     , (14516, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (14516, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (14516, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (14516, 9, 28946,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VII (28946) for ContainTreasure */
+     , (14516, 9, 29255,  0, 0, 0, False) /* Create Fire Atlatl (29255) for ContainTreasure */
+     , (14516, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (14516, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (14516, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */;

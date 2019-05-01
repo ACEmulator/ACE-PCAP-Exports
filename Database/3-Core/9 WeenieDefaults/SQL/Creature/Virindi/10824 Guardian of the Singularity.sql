@@ -47,27 +47,27 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (10824,   1,    10, 0, 0, 1500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10824, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (10824, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
-     , (10824, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+VALUES (10824, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
+     , (10824, 9, 49263,  0, 0, 0, False) /* Create Acid Elemental Essence (100) (49263) for ContainTreasure */
+     , (10824, 9, 20606,  0, 0, 0, False) /* Create Scroll of Self Sacrifice (20606) for ContainTreasure */
      , (10824, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (10824, 9,   273, 1526, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (10824, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (10824, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (10824, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (10824, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (10824, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
-     , (10824, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (10824, 9, 20497,  0, 0, 0, False) /* Create Scroll of Silencia's Blessing (20497) for ContainTreasure */
-     , (10824, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */
-     , (10824, 9, 20536,  0, 0, 0, False) /* Create Scroll of Aura of Deflection (20536) for ContainTreasure */
-     , (10824, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
-     , (10824, 9, 20606,  0, 0, 0, False) /* Create Scroll of Self Sacrifice (20606) for ContainTreasure */
-     , (10824, 9, 25949,  0, 0, 0, False) /* Create Quintessence Sickle (25949) for ContainTreasure */
      , (10824, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (10824, 9, 25949,  0, 0, 0, False) /* Create Quintessence Sickle (25949) for ContainTreasure */
+     , (10824, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (10824, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (10824, 9, 44840,  0, 0, 0, False) /* Create Cloak (44840) for ContainTreasure */
-     , (10824, 9, 49263,  0, 0, 0, False) /* Create Acid Elemental Essence (100) (49263) for ContainTreasure */
+     , (10824, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */
+     , (10824, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (10824, 9, 49360,  0, 0, 0, False) /* Create Frost Moar Essence (80) (49360) for ContainTreasure */
+     , (10824, 9, 20536,  0, 0, 0, False) /* Create Scroll of Aura of Deflection (20536) for ContainTreasure */
+     , (10824, 9, 20497,  0, 0, 0, False) /* Create Scroll of Silencia's Blessing (20497) for ContainTreasure */
+     , (10824, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (10824, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (10824, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (10824, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (10824, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
      , (10824, 9, 49532,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (80) (49532) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

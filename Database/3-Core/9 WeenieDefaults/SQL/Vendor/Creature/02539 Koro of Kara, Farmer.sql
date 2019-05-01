@@ -78,24 +78,24 @@ VALUES (2539,   1,    10, 0, 0, 120) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2539, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2539, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (2539, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (2539, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (2539, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (2539, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (2539, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (2539, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
      , (2539, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (2539, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (2539, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (2539, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (2539, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (2539, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (2539, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (2539, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (2539, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (2539, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (2539, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (2539, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (2539, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
      , (2539, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (2539, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (2539, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (2539, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (2539, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter (14777) for Shop */;
+     , (2539, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter (14777) for Shop */
+     , (2539, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (2539, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2539, 67109565, 32, 8)

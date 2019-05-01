@@ -46,48 +46,48 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9055,   1,    10, 0, 0, 190) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9055, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+VALUES (9055, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (9055, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (9055, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (9055, 9,  9045,  1, 0, 0, False) /* Create Pale Crystal (9045) for ContainTreasure */
      , (9055, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
+     , (9055, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (9055, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (9055, 9,   273, 70, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (9055, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (9055, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
+     , (9055, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (9055, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (9055, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (9055, 9, 31781,  0, 0, 0, False) /* Create Electric Spine Glaive (31781) for ContainTreasure */
+     , (9055, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (9055, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (9055, 9, 45242,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other VII (45242) for ContainTreasure */
+     , (9055, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (9055, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (9055, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (9055, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (9055, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (9055, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (9055, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (9055, 9, 41063,  0, 0, 0, False) /* Create Acid Khanda-handled Mace (41063) for ContainTreasure */
+     , (9055, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (9055, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
+     , (9055, 9, 45329,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VI (45329) for ContainTreasure */
+     , (9055, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (9055, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (9055, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
+     , (9055, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (9055, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (9055, 9,  3347,  0, 0, 0, False) /* Create Scroll of Leaden Feet VI (3347) for ContainTreasure */
+     , (9055, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (9055, 9, 20609,  0, 0, 0, False) /* Create Scroll of Gift of Vigor (20609) for ContainTreasure */
      , (9055, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
      , (9055, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (9055, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (9055, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (9055, 9,   273, 70, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9055, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (9055, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (9055, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (9055, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
-     , (9055, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
-     , (9055, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
-     , (9055, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
-     , (9055, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
-     , (9055, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (9055, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (9055, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (9055, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
-     , (9055, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (9055, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (9055, 9,  3116,  0, 0, 0, False) /* Create Scroll of Regenerate Self V (3116) for ContainTreasure */
-     , (9055, 9,  3347,  0, 0, 0, False) /* Create Scroll of Leaden Feet VI (3347) for ContainTreasure */
      , (9055, 9,  3391,  0, 0, 0, False) /* Create Scroll of Lockpick Mastery Self V (3391) for ContainTreasure */
-     , (9055, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
-     , (9055, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (9055, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (9055, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (9055, 9,  8940,  0, 0, 0, False) /* Create Scroll of Frost Streak VI (8940) for ContainTreasure */
-     , (9055, 9,  9045,  1, 0, 0, False) /* Create Pale Crystal (9045) for ContainTreasure */
-     , (9055, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
      , (9055, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */
-     , (9055, 9, 20609,  0, 0, 0, False) /* Create Scroll of Gift of Vigor (20609) for ContainTreasure */
-     , (9055, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (9055, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
-     , (9055, 9, 31781,  0, 0, 0, False) /* Create Electric Spine Glaive (31781) for ContainTreasure */
-     , (9055, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
-     , (9055, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (9055, 9, 41063,  0, 0, 0, False) /* Create Acid Khanda-handled Mace (41063) for ContainTreasure */
-     , (9055, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
-     , (9055, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
-     , (9055, 9, 45242,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other VII (45242) for ContainTreasure */
-     , (9055, 9, 45329,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VI (45329) for ContainTreasure */
-     , (9055, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (9055, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (9055, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (9055, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
+     , (9055, 9,  3116,  0, 0, 0, False) /* Create Scroll of Regenerate Self V (3116) for ContainTreasure */
+     , (9055, 9,  8940,  0, 0, 0, False) /* Create Scroll of Frost Streak VI (8940) for ContainTreasure */;

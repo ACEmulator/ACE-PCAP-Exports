@@ -47,14 +47,14 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36929,   1,    10, 0, 0, 5135) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36929, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (36929, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (36929, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
-     , (36929, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
-     , (36929, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
-     , (36929, 9, 36924,  0, 0, 0, False) /* Create Avoren's Skull (36924) for ContainTreasure */
+VALUES (36929, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
      , (36929, 9, 36930,  0, 0, 0, False) /* Create Thief of Dreams Message Shard (36930) for ContainTreasure */
-     , (36929, 9, 45102,  0, 0, 0, False) /* Create Flaming Epee (45102) for ContainTreasure */;
+     , (36929, 9, 36924,  0, 0, 0, False) /* Create Avoren's Skull (36924) for ContainTreasure */
+     , (36929, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (36929, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (36929, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (36929, 9, 45102,  0, 0, 0, False) /* Create Flaming Epee (45102) for ContainTreasure */
+     , (36929, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36929, 67114256, 0, 0);

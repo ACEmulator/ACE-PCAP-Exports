@@ -76,8 +76,8 @@ VALUES (31867,  2108,      2)
      , (31867,  4704,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31867, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (31867, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+VALUES (31867, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (31867, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31867, 67110323, 240, 10)

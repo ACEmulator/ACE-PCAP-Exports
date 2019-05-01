@@ -59,20 +59,20 @@ VALUES (32186,   1,    10, 0, 0, 1400) /* MaxHealth */
      , (32186,   5,    10, 0, 0, 340) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32186, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (32186, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (32186, 9,   273, 143, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (32186, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (32186, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
-     , (32186, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (32186, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
-     , (32186, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
-     , (32186, 9,  3351,  0, 0, 0, False) /* Create Scroll of Leadership Ineptitude V (3351) for ContainTreasure */
-     , (32186, 9,  8232,  1, 0, 0, False) /* Create Pumpkin (8232) for ContainTreasure */
-     , (32186, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (32186, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (32186, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+VALUES (32186, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */
      , (32186, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (32186, 9,   273, 143, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (32186, 9,  8232,  1, 0, 0, False) /* Create Pumpkin (8232) for ContainTreasure */
+     , (32186, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (32186, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (32186, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (32186, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (32186, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (32186, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (32186, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (32186, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (32186, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (32186, 9,  3351,  0, 0, 0, False) /* Create Scroll of Leadership Ineptitude V (3351) for ContainTreasure */
      , (32186, 9, 30588,  0, 0, 0, False) /* Create Lightning Flanged Mace (30588) for ContainTreasure */
-     , (32186, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */
-     , (32186, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */;
+     , (32186, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (32186, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */;

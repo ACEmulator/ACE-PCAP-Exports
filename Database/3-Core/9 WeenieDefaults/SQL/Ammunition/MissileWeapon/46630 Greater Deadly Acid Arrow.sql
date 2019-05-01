@@ -79,9 +79,9 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46630, 8000, 3695153263) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46630, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
-     , (46630, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */
-     , (46630, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368) for Wield */;
+VALUES (46630, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368) for Wield */
+     , (46630, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (46630, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46630, 67111922, 0, 0);

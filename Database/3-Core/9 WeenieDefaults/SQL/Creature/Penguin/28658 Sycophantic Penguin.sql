@@ -60,24 +60,24 @@ VALUES (28658,   1,    10, 0, 0, 80) /* MaxHealth */
      , (28658,   5,    10, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28658, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+VALUES (28658, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (28658, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (28658, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (28658, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (28658, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (28658, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
+     , (28658, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (28658, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (28658, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
+     , (28658, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
      , (28658, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (28658, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (28658, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (28658, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
-     , (28658, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
-     , (28658, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (28658, 9,  2703,  0, 0, 0, False) /* Create Scroll of Imperil Other III (2703) for ContainTreasure */
-     , (28658, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (28658, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (28658, 9,  9661,  0, 0, 0, False) /* Create Scroll of Drain Mana Other II (9661) for ContainTreasure */
-     , (28658, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
      , (28658, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (28658, 9,  2703,  0, 0, 0, False) /* Create Scroll of Imperil Other III (2703) for ContainTreasure */
      , (28658, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
-     , (28658, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
-     , (28658, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (28658, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (28658, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (28658, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (28658, 9,  9661,  0, 0, 0, False) /* Create Scroll of Drain Mana Other II (9661) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28658, 67116353, 0, 0);

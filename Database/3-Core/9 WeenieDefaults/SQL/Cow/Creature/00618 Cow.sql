@@ -60,13 +60,13 @@ VALUES (618,   1,    10, 0, 0, 20) /* MaxHealth */
      , (618,   5,    10, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (618, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (618, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (618, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (618, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (618, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+VALUES (618, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
      , (618, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (618, 9, 31792,  0, 0, 0, False) /* Create Frost Stick (31792) for ContainTreasure */;
+     , (618, 9, 31792,  0, 0, 0, False) /* Create Frost Stick (31792) for ContainTreasure */
+     , (618, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (618, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (618, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (618, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (618, 67116472, 0, 0);

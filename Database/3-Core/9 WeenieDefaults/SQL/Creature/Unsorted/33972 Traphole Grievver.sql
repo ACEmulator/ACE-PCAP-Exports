@@ -47,11 +47,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33972, 8000, 2613596525) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33972, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (33972, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+VALUES (33972, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
      , (33972, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (33972, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
-     , (33972, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */;
+     , (33972, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (33972, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (33972, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33972, 67113823, 0, 0);

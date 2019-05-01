@@ -57,8 +57,8 @@ VALUES (9250,   1,    10, 0, 0, 160) /* MaxHealth */
      , (9250,   5,    10, 0, 0, 470) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9250, 9,   273, 186, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9250, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+VALUES (9250, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (9250, 9,   273, 186, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (9250, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

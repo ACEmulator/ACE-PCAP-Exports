@@ -60,23 +60,23 @@ VALUES (209,   1,    10, 0, 0, 75) /* MaxHealth */
      , (209,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (209, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (209, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (209, 9,   273, 43, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (209, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (209, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+VALUES (209, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */
      , (209, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
-     , (209, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (209, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (209, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (209, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (209, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
-     , (209, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
-     , (209, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
      , (209, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (209, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
      , (209, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (209, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (209, 9,   273, 43, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (209, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (209, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (209, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (209, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (209, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (209, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
-     , (209, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */;
+     , (209, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (209, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (209, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (209, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (209, 67115129, 0, 0);

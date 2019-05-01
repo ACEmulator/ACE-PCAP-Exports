@@ -60,54 +60,54 @@ VALUES (200,   1,    10, 0, 0, 61) /* MaxHealth */
      , (200,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (200, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
-     , (200, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
-     , (200, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (200, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (200, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (200, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (200, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (200, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (200, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+VALUES (200, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
      , (200, 9,   273, 48, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (200, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (200, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (200, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (200, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
-     , (200, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */
-     , (200, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (200, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (200, 9,  1704,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other (1704) for ContainTreasure */
-     , (200, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
-     , (200, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (200, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (200, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (200, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (200, 9,  2732,  0, 0, 0, False) /* Create Scroll of Slowness Other II (2732) for ContainTreasure */
-     , (200, 9,  2787,  0, 0, 0, False) /* Create Scroll of Blood Loather II (2787) for ContainTreasure */
-     , (200, 9,  3069,  0, 0, 0, False) /* Create Scroll of Piercing Protection Self III (3069) for ContainTreasure */
-     , (200, 9,  3109,  0, 0, 0, False) /* Create Scroll of Regenerate Other III (3109) for ContainTreasure */
-     , (200, 9,  3173,  0, 0, 0, False) /* Create Scroll of Missile Weapon Ineptitude Other II (3173) for ContainTreasure */
-     , (200, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
-     , (200, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
      , (200, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (200, 9, 10759,  0, 0, 0, False) /* Create Muddy Towel (10759) for ContainTreasure */
-     , (200, 9, 11351,  0, 0, 0, False) /* Create Mud Golem Heart (11351) for ContainTreasure */
-     , (200, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
-     , (200, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */
-     , (200, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
-     , (200, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
-     , (200, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (200, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (200, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (200, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (200, 9, 28003,  0, 0, 0, False) /* Create Aura of Spirit Drinker Self II (28003) for ContainTreasure */
-     , (200, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
      , (200, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (200, 9, 30581,  0, 0, 0, False) /* Create Mazule (30581) for ContainTreasure */
-     , (200, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
-     , (200, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (200, 9,  3109,  0, 0, 0, False) /* Create Scroll of Regenerate Other III (3109) for ContainTreasure */
+     , (200, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (200, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (200, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (200, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (200, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (200, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (200, 9, 45119,  0, 0, 0, False) /* Create Acid Hand Wraps (45119) for ContainTreasure */
+     , (200, 9,  3173,  0, 0, 0, False) /* Create Scroll of Missile Weapon Ineptitude Other II (3173) for ContainTreasure */
+     , (200, 9, 11351,  0, 0, 0, False) /* Create Mud Golem Heart (11351) for ContainTreasure */
+     , (200, 9,  2787,  0, 0, 0, False) /* Create Scroll of Blood Loather II (2787) for ContainTreasure */
+     , (200, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */
+     , (200, 9,  1704,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other (1704) for ContainTreasure */
+     , (200, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
      , (200, 9, 45253,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self II (45253) for ContainTreasure */
-     , (200, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (200, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (200, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (200, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (200, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (200, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (200, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (200, 9, 30581,  0, 0, 0, False) /* Create Mazule (30581) for ContainTreasure */
+     , (200, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (200, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
+     , (200, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (200, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (200, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (200, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (200, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (200, 9,  2732,  0, 0, 0, False) /* Create Scroll of Slowness Other II (2732) for ContainTreasure */
+     , (200, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (200, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */
+     , (200, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (200, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (200, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (200, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (200, 9,  3069,  0, 0, 0, False) /* Create Scroll of Piercing Protection Self III (3069) for ContainTreasure */
+     , (200, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (200, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (200, 9, 10759,  0, 0, 0, False) /* Create Muddy Towel (10759) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (200, 67112774, 0, 0);

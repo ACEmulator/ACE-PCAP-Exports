@@ -61,45 +61,45 @@ VALUES (28551,   1,    10, 0, 0, 380) /* MaxHealth */
      , (28551,   5,    10, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28551, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (28551, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
-     , (28551, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (28551, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (28551, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (28551, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (28551, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (28551, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (28551, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+VALUES (28551, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (28551, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (28551, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
+     , (28551, 9,  3527,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VI (3527) for ContainTreasure */
      , (28551, 9,   273, 235, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (28551, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (28551, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (28551, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (28551, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
+     , (28551, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (28551, 9, 22441,  0, 0, 0, False) /* Create Acid Dirk (22441) for ContainTreasure */
+     , (28551, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (28551, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
+     , (28551, 9, 20423,  0, 0, 0, False) /* Create Scroll of Archer's Bane (20423) for ContainTreasure */
+     , (28551, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (28551, 9,  6056,  1, 0, 0, False) /* Create Small Shard (6056) for ContainTreasure */
      , (28551, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (28551, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (28551, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (28551, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
      , (28551, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
-     , (28551, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
-     , (28551, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (28551, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
-     , (28551, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (28551, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (28551, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
-     , (28551, 9,  3527,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VI (3527) for ContainTreasure */
-     , (28551, 9,  6056,  1, 0, 0, False) /* Create Small Shard (6056) for ContainTreasure */
-     , (28551, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (28551, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (28551, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (28551, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
      , (28551, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (28551, 9, 20423,  0, 0, 0, False) /* Create Scroll of Archer's Bane (20423) for ContainTreasure */
-     , (28551, 9, 21293,  0, 0, 0, False) /* Create Scroll of Acid Arc VI (21293) for ContainTreasure */
-     , (28551, 9, 22441,  0, 0, 0, False) /* Create Acid Dirk (22441) for ContainTreasure */
-     , (28551, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (28551, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (28551, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (28551, 9, 30586,  0, 0, 0, False) /* Create Flanged Mace (30586) for ContainTreasure */
-     , (28551, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
-     , (28551, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (28551, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (28551, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
-     , (28551, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */;
+     , (28551, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (28551, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (28551, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (28551, 9, 30586,  0, 0, 0, False) /* Create Flanged Mace (30586) for ContainTreasure */
+     , (28551, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (28551, 9, 21293,  0, 0, 0, False) /* Create Scroll of Acid Arc VI (21293) for ContainTreasure */
+     , (28551, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (28551, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (28551, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (28551, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
+     , (28551, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (28551, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (28551, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (28551, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (28551, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28551, 67112925, 0, 0);

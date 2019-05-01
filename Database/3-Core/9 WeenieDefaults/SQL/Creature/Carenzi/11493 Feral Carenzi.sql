@@ -60,24 +60,24 @@ VALUES (11493,   1,    10, 0, 0, 410) /* MaxHealth */
      , (11493,   5,    10, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11493, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (11493, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
-     , (11493, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (11493, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (11493, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (11493, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (11493, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
+VALUES (11493, 9, 20514,  0, 0, 0, False) /* Create Scroll of Adja's Boon (20514) for ContainTreasure */
      , (11493, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (11493, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (11493, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (11493, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
      , (11493, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (11493, 9, 20514,  0, 0, 0, False) /* Create Scroll of Adja's Boon (20514) for ContainTreasure */
-     , (11493, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
-     , (11493, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (11493, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (11493, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
      , (11493, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
      , (11493, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (11493, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (11493, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (11493, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (11493, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
      , (11493, 9, 45101,  0, 0, 0, False) /* Create Lightning Epee (45101) for ContainTreasure */
-     , (11493, 9, 45282,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VII (45282) for ContainTreasure */;
+     , (11493, 9, 45282,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VII (45282) for ContainTreasure */
+     , (11493, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (11493, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (11493, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (11493, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11493, 67113302, 0, 0);

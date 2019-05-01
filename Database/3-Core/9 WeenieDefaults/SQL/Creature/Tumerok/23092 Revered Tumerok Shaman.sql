@@ -61,12 +61,12 @@ VALUES (23092,   1,    10, 0, 0, 5000) /* MaxHealth */
      , (23092,   5,    10, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23092, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
-     , (23092, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (23092, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
-     , (23092, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
+VALUES (23092, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
      , (23092, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
-     , (23092, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */;
+     , (23092, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
+     , (23092, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+     , (23092, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (23092, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23092, 67116625, 57, 48)

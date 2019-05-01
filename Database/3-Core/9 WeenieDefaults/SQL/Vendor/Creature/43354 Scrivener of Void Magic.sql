@@ -78,26 +78,26 @@ VALUES (43354,   1,    10, 0, 0, 150) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43354, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for Shop */
-     , (43354, 4, 43279, -1, 0, 0, False) /* Create Scroll of Corrosion II (43279) for Shop */
-     , (43354, 4, 43280, -1, 0, 0, False) /* Create Scroll of Corrosion III (43280) for Shop */
-     , (43354, 4, 43281, -1, 0, 0, False) /* Create Scroll of Corrosion IV (43281) for Shop */
-     , (43354, 4, 43286, -1, 0, 0, False) /* Create Scroll of Corrosion (43286) for Shop */
-     , (43354, 4, 43287, -1, 0, 0, False) /* Create Scroll of Corruption II (43287) for Shop */
-     , (43354, 4, 43288, -1, 0, 0, False) /* Create Scroll of Corruption III (43288) for Shop */
-     , (43354, 4, 43289, -1, 0, 0, False) /* Create Scroll of Corruption IV (43289) for Shop */
-     , (43354, 4, 43294, -1, 0, 0, False) /* Create Scroll of Corruption (43294) for Shop */
-     , (43354, 4, 43295, -1, 0, 0, False) /* Create Scroll of Nether Arc II (43295) for Shop */
-     , (43354, 4, 43296, -1, 0, 0, False) /* Create Scroll of Nether Arc III (43296) for Shop */
-     , (43354, 4, 43297, -1, 0, 0, False) /* Create Scroll of Nether Arc IV (43297) for Shop */
-     , (43354, 4, 43302, -1, 0, 0, False) /* Create Scroll of Nether Arc (43302) for Shop */
+     , (43354, 4, 43310, -1, 0, 0, False) /* Create Scroll of Nether Bolt (43310) for Shop */
      , (43354, 4, 43303, -1, 0, 0, False) /* Create Scroll of Nether Bolt II (43303) for Shop */
      , (43354, 4, 43304, -1, 0, 0, False) /* Create Scroll of Nether Bolt III (43304) for Shop */
      , (43354, 4, 43305, -1, 0, 0, False) /* Create Scroll of Nether Bolt IV (43305) for Shop */
-     , (43354, 4, 43310, -1, 0, 0, False) /* Create Scroll of Nether Bolt (43310) for Shop */
+     , (43354, 4, 43302, -1, 0, 0, False) /* Create Scroll of Nether Arc (43302) for Shop */
+     , (43354, 4, 43295, -1, 0, 0, False) /* Create Scroll of Nether Arc II (43295) for Shop */
+     , (43354, 4, 43296, -1, 0, 0, False) /* Create Scroll of Nether Arc III (43296) for Shop */
+     , (43354, 4, 43297, -1, 0, 0, False) /* Create Scroll of Nether Arc IV (43297) for Shop */
+     , (43354, 4, 43318, -1, 0, 0, False) /* Create Scroll of Nether Streak (43318) for Shop */
      , (43354, 4, 43311, -1, 0, 0, False) /* Create Scroll of Nether Streak II (43311) for Shop */
      , (43354, 4, 43312, -1, 0, 0, False) /* Create Scroll of Nether Streak III (43312) for Shop */
      , (43354, 4, 43313, -1, 0, 0, False) /* Create Scroll of Nether Streak IV (43313) for Shop */
-     , (43354, 4, 43318, -1, 0, 0, False) /* Create Scroll of Nether Streak (43318) for Shop */
+     , (43354, 4, 43286, -1, 0, 0, False) /* Create Scroll of Corrosion (43286) for Shop */
+     , (43354, 4, 43279, -1, 0, 0, False) /* Create Scroll of Corrosion II (43279) for Shop */
+     , (43354, 4, 43280, -1, 0, 0, False) /* Create Scroll of Corrosion III (43280) for Shop */
+     , (43354, 4, 43281, -1, 0, 0, False) /* Create Scroll of Corrosion IV (43281) for Shop */
+     , (43354, 4, 43294, -1, 0, 0, False) /* Create Scroll of Corruption (43294) for Shop */
+     , (43354, 4, 43287, -1, 0, 0, False) /* Create Scroll of Corruption II (43287) for Shop */
+     , (43354, 4, 43288, -1, 0, 0, False) /* Create Scroll of Corruption III (43288) for Shop */
+     , (43354, 4, 43289, -1, 0, 0, False) /* Create Scroll of Corruption IV (43289) for Shop */
      , (43354, 4, 43320, -1, 0, 0, False) /* Create Scroll of Destructive Curse (43320) for Shop */
      , (43354, 4, 43321, -1, 0, 0, False) /* Create Scroll of Destructive Curse II (43321) for Shop */
      , (43354, 4, 43322, -1, 0, 0, False) /* Create Scroll of Destructive Curse III (43322) for Shop */

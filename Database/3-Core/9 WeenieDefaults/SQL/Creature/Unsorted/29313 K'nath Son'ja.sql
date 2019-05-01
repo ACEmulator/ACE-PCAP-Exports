@@ -44,10 +44,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29313, 8000, 3709193443) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29313, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (29313, 9,   273, 593, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (29313, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
      , (29313, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (29313, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (29313, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
      , (29313, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (29313, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */;
+     , (29313, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (29313, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (29313, 9,   273, 593, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (29313, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */;

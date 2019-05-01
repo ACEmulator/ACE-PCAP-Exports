@@ -66,16 +66,16 @@ VALUES (25966,   1,    10, 0, 0, 220) /* MaxHealth */
      , (25966,   5,    10, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25966, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
-     , (25966, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
-     , (25966, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
-     , (25966, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */
-     , (25966, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
-     , (25966, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
+VALUES (25966, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
+     , (25966, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
      , (25966, 2, 12195,  1, 0, 0, False) /* Create Assassin's Simi (12195) for Wield */
+     , (25966, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
+     , (25966, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
      , (25966, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */
+     , (25966, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
      , (25966, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */
-     , (25966, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */;
+     , (25966, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
+     , (25966, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25966, 67109551, 0, 24)

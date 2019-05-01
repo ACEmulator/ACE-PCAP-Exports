@@ -62,9 +62,9 @@ VALUES (35880,   1,    10, 0, 0, 1830) /* MaxHealth */
      , (35880,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35880, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (35880, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (35880, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */;
+VALUES (35880, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (35880, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (35880, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35880, 67113317, 0, 0);

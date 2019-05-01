@@ -59,9 +59,9 @@ VALUES (32930,   1,    10, 0, 0, 415) /* MaxHealth */
      , (32930,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32930, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (32930, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+VALUES (32930, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (32930, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (32930, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (32930, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (32930, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (32930, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (32930, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;

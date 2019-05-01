@@ -69,9 +69,9 @@ VALUES (38145,   1,    10, 0, 0, 1672) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38145, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */
      , (38145, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (38145, 9, 38159,  0, 0, 0, False) /* Create Tattered Verdant Moarsman Ritual (38159) for ContainTreasure */
+     , (38145, 9, 49230,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (125) (49230) for ContainTreasure */
      , (38145, 9, 38172,  0, 0, 0, False) /* Create The Creation of Blighted Moarsmen (38172) for ContainTreasure */
-     , (38145, 9, 49230,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (125) (49230) for ContainTreasure */;
+     , (38145, 9, 38159,  0, 0, 0, False) /* Create Tattered Verdant Moarsman Ritual (38159) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38145, 67109977, 80, 12)

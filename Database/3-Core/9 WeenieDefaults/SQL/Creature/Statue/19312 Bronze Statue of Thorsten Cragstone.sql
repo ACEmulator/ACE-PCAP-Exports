@@ -63,42 +63,42 @@ VALUES (19312,   1,    10, 0, 0, 245) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19312, 2, 15389,  1, 0, 0, False) /* Create Cragstone's Axe (15389) for Wield */
      , (19312, 2, 15402,  1, 0, 0, False) /* Create Cragstone's Shield (15402) for Wield */
-     , (19312, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (19312, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (19312, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
-     , (19312, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (19312, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (19312, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
-     , (19312, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
-     , (19312, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (19312, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (19312, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
-     , (19312, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (19312, 9,   273, 134, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (19312, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
-     , (19312, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (19312, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
-     , (19312, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
-     , (19312, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (19312, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (19312, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (19312, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (19312, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (19312, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (19312, 9,  3470,  0, 0, 0, False) /* Create Scroll of Resist Magic Self IV (3470) for ContainTreasure */
-     , (19312, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
-     , (19312, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (19312, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (19312, 9, 19213,  0, 0, 0, False) /* Create Bronze Coil from a Statue (19213) for ContainTreasure */
-     , (19312, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */
      , (19312, 9, 28634,  0, 0, 0, False) /* Create Diforsa Greaves (28634) for ContainTreasure */
-     , (19312, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */
-     , (19312, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (19312, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
-     , (19312, 9, 45119,  0, 0, 0, False) /* Create Acid Hand Wraps (45119) for ContainTreasure */
-     , (19312, 9, 45429,  0, 0, 0, False) /* Create Flaming Weeping Dagger (45429) for ContainTreasure */
+     , (19312, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (19312, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
      , (19312, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
-     , (19312, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */;
+     , (19312, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (19312, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (19312, 9, 45429,  0, 0, 0, False) /* Create Flaming Weeping Dagger (45429) for ContainTreasure */
+     , (19312, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (19312, 9,   273, 134, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (19312, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */
+     , (19312, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (19312, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (19312, 9, 19213,  0, 0, 0, False) /* Create Bronze Coil from a Statue (19213) for ContainTreasure */
+     , (19312, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (19312, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */
+     , (19312, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (19312, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (19312, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */
+     , (19312, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (19312, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
+     , (19312, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
+     , (19312, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (19312, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
+     , (19312, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (19312, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (19312, 9,  3470,  0, 0, 0, False) /* Create Scroll of Resist Magic Self IV (3470) for ContainTreasure */
+     , (19312, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (19312, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (19312, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (19312, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (19312, 9, 45119,  0, 0, 0, False) /* Create Acid Hand Wraps (45119) for ContainTreasure */
+     , (19312, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (19312, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (19312, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
+     , (19312, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19312, 67113806, 0, 0);

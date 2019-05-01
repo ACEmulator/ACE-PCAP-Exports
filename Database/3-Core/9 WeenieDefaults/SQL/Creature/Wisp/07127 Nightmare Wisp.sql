@@ -60,20 +60,20 @@ VALUES (7127,   1,    10, 0, 0, 360) /* MaxHealth */
      , (7127,   5,    10, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7127, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (7127, 9,   273, 2348, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7127, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (7127, 9,   356,  0, 0, 0, False) /* Create Tofun (356) for ContainTreasure */
-     , (7127, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (7127, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+VALUES (7127, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
      , (7127, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (7127, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
-     , (7127, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (7127, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7127, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
      , (7127, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (7127, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (7127, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (7127, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (7127, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (7127, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (7127, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (7127, 9,   273, 2348, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (7127, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (7127, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (7127, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
      , (7127, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */
-     , (7127, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */;
+     , (7127, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (7127, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (7127, 9,   356,  0, 0, 0, False) /* Create Tofun (356) for ContainTreasure */;

@@ -54,19 +54,19 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (20633,   1,    10, 0, 0, 990) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20633, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (20633, 2, 48023,  1, 0, 0, False) /* Create Acid Katar (48023) for Wield */
      , (20633, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (20633, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (20633, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
-     , (20633, 2, 48023,  1, 0, 0, False) /* Create Acid Katar (48023) for Wield */
      , (20633, 2, 48024,  1, 0, 0, False) /* Create Katar (48024) for Wield */
-     , (20633, 2, 48025,  1, 0, 0, False) /* Create Lightning Katar (48025) for Wield */
-     , (20633, 2, 48027,  1, 0, 0, False) /* Create Acid Nekode (48027) for Wield */
-     , (20633, 2, 48028,  1, 0, 0, False) /* Create Lightning Nekode (48028) for Wield */
      , (20633, 2, 48029,  1, 0, 0, False) /* Create Silifi (48029) for Wield */
+     , (20633, 2, 48025,  1, 0, 0, False) /* Create Lightning Katar (48025) for Wield */
+     , (20633, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (20633, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (20633, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (20633, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */
+     , (20633, 2, 48027,  1, 0, 0, False) /* Create Acid Nekode (48027) for Wield */
      , (20633, 2, 48030,  1, 0, 0, False) /* Create Acid Silifi (48030) for Wield */
-     , (20633, 2, 48031,  1, 0, 0, False) /* Create Lightning Silifi (48031) for Wield */
-     , (20633, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */;
+     , (20633, 2, 48028,  1, 0, 0, False) /* Create Lightning Nekode (48028) for Wield */
+     , (20633, 2, 48031,  1, 0, 0, False) /* Create Lightning Silifi (48031) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20633, 67113037, 0, 0);

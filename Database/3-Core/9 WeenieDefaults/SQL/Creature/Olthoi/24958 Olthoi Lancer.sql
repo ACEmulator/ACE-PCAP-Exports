@@ -62,64 +62,64 @@ VALUES (24958,   1,    10, 0, 0, 615) /* MaxHealth */
      , (24958,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24958, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
-     , (24958, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (24958, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
-     , (24958, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+VALUES (24958, 9, 49255,  0, 0, 0, False) /* Create Frost Zombie Essence (80) (49255) for ContainTreasure */
      , (24958, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (24958, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (24958, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (24958, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (24958, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (24958, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (24958, 9,   309,  0, 0, 0, False) /* Create Club (309) for ContainTreasure */
-     , (24958, 9,   313,  0, 0, 0, False) /* Create Dabus (313) for ContainTreasure */
-     , (24958, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */
-     , (24958, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
-     , (24958, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (24958, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (24958, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (24958, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (24958, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (24958, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (24958, 9,  3867,  0, 0, 0, False) /* Create Flaming Silifi (3867) for ContainTreasure */
-     , (24958, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
-     , (24958, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
-     , (24958, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
-     , (24958, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */
-     , (24958, 9, 20243,  0, 0, 0, False) /* Create Scroll of Heart Rend (20243) for ContainTreasure */
-     , (24958, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */
-     , (24958, 9, 20483,  0, 0, 0, False) /* Create Scroll of Boon of the Arrow Turner (20483) for ContainTreasure */
-     , (24958, 9, 20507,  0, 0, 0, False) /* Create Scroll of Missile Weapon Ineptitude Other VII (20507) for ContainTreasure */
-     , (24958, 9, 20548,  0, 0, 0, False) /* Create Scroll of Gears Unwound (20548) for ContainTreasure */
-     , (24958, 9, 20571,  0, 0, 0, False) /* Create Scroll of Kaluhc's Boon (20571) for ContainTreasure */
-     , (24958, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
-     , (24958, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
-     , (24958, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */
+     , (24958, 9,   313,  0, 0, 0, False) /* Create Dabus (313) for ContainTreasure */
      , (24958, 9, 21329,  0, 0, 0, False) /* Create Scroll of Lightning Arc VII (21329) for ContainTreasure */
-     , (24958, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (24958, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (24958, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
+     , (24958, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */
+     , (24958, 9, 41044,  0, 0, 0, False) /* Create Flaming Magari Yari (41044) for ContainTreasure */
+     , (24958, 9, 20571,  0, 0, 0, False) /* Create Scroll of Kaluhc's Boon (20571) for ContainTreasure */
+     , (24958, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
+     , (24958, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */
+     , (24958, 9,   309,  0, 0, 0, False) /* Create Club (309) for ContainTreasure */
+     , (24958, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */
+     , (24958, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (24958, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */
+     , (24958, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */
+     , (24958, 9, 20507,  0, 0, 0, False) /* Create Scroll of Missile Weapon Ineptitude Other VII (20507) for ContainTreasure */
      , (24958, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
-     , (24958, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (24958, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+     , (24958, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */
+     , (24958, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */
+     , (24958, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (24958, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */
+     , (24958, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (24958, 9, 45109,  0, 0, 0, False) /* Create Acid Schlager (45109) for ContainTreasure */
+     , (24958, 9, 49367,  0, 0, 0, False) /* Create Acid Grievver Essence (80) (49367) for ContainTreasure */
+     , (24958, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (24958, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (24958, 9, 40706,  0, 0, 0, False) /* Create Covenant Bracers (40706) for ContainTreasure */
+     , (24958, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (24958, 9, 49437,  0, 0, 0, False) /* Create Fire Spectre Essence (100) (49437) for ContainTreasure */
+     , (24958, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (24958, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (24958, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (24958, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (24958, 9, 20548,  0, 0, 0, False) /* Create Scroll of Gears Unwound (20548) for ContainTreasure */
+     , (24958, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
+     , (24958, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (24958, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
      , (24958, 9, 29247,  0, 0, 0, False) /* Create Electric Crossbow (29247) for ContainTreasure */
      , (24958, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
-     , (24958, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */
-     , (24958, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */
-     , (24958, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
-     , (24958, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (24958, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (24958, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (24958, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
+     , (24958, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
      , (24958, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
-     , (24958, 9, 40706,  0, 0, 0, False) /* Create Covenant Bracers (40706) for ContainTreasure */
+     , (24958, 9, 20483,  0, 0, 0, False) /* Create Scroll of Boon of the Arrow Turner (20483) for ContainTreasure */
      , (24958, 9, 40707,  0, 0, 0, False) /* Create Covenant Breastplate (40707) for ContainTreasure */
-     , (24958, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
-     , (24958, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */
-     , (24958, 9, 41044,  0, 0, 0, False) /* Create Flaming Magari Yari (41044) for ContainTreasure */
-     , (24958, 9, 45109,  0, 0, 0, False) /* Create Acid Schlager (45109) for ContainTreasure */
-     , (24958, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */
      , (24958, 9, 49234,  0, 0, 0, False) /* Create Acid Zombie Essence (80) (49234) for ContainTreasure */
-     , (24958, 9, 49255,  0, 0, 0, False) /* Create Frost Zombie Essence (80) (49255) for ContainTreasure */
-     , (24958, 9, 49367,  0, 0, 0, False) /* Create Acid Grievver Essence (80) (49367) for ContainTreasure */
-     , (24958, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
-     , (24958, 9, 49437,  0, 0, 0, False) /* Create Fire Spectre Essence (100) (49437) for ContainTreasure */
-     , (24958, 9, 49532,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (80) (49532) for ContainTreasure */;
+     , (24958, 9,  3867,  0, 0, 0, False) /* Create Flaming Silifi (3867) for ContainTreasure */
+     , (24958, 9, 20243,  0, 0, 0, False) /* Create Scroll of Heart Rend (20243) for ContainTreasure */
+     , (24958, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (24958, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (24958, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (24958, 9, 49532,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (80) (49532) for ContainTreasure */
+     , (24958, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (24958, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24958, 67114444, 0, 0);

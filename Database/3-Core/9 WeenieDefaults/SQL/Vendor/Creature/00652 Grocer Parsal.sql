@@ -82,11 +82,11 @@ VALUES (652, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (652, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (652, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (652, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (652, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (652, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (652, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (652, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (652, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (652, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */;
+     , (652, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (652, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (652, 67109558, 0, 24)

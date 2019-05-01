@@ -56,30 +56,30 @@ VALUES (8270,   1,    10, 0, 0, 130) /* MaxHealth */
      , (8270,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8270, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (8270, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (8270, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (8270, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (8270, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (8270, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (8270, 9,   273, 154, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (8270, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (8270, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (8270, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (8270, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (8270, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (8270, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (8270, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (8270, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
+VALUES (8270, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (8270, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (8270, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (8270, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
      , (8270, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (8270, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (8270, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (8270, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
-     , (8270, 9,  2676,  0, 0, 0, False) /* Create Scroll of Focus Other IV (2676) for ContainTreasure */
-     , (8270, 9,  3732,  0, 0, 0, False) /* Create Scroll of Infuse Health III (3732) for ContainTreasure */
-     , (8270, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (8270, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
      , (8270, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (8270, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (8270, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (8270, 9, 41048,  0, 0, 0, False) /* Create Lightning Pike (41048) for ContainTreasure */
+     , (8270, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (8270, 9,   273, 154, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (8270, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
+     , (8270, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (8270, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (8270, 9, 31765,  0, 0, 0, False) /* Create Acid Lugian Hammer (31765) for ContainTreasure */
-     , (8270, 9, 41048,  0, 0, 0, False) /* Create Lightning Pike (41048) for ContainTreasure */;
+     , (8270, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (8270, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (8270, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (8270, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (8270, 9,  3732,  0, 0, 0, False) /* Create Scroll of Infuse Health III (3732) for ContainTreasure */
+     , (8270, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
+     , (8270, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (8270, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (8270, 9,  2676,  0, 0, 0, False) /* Create Scroll of Focus Other IV (2676) for ContainTreasure */
+     , (8270, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (8270, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (8270, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */;

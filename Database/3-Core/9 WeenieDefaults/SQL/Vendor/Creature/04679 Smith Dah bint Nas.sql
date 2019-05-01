@@ -80,41 +80,41 @@ VALUES (4679,   1,    10, 0, 0, 55) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4679, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (4679, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (4679, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
+     , (4679, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (4679, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (4679, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (4679, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (4679, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (4679, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (4679, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (4679, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (4679, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (4679, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (4679, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
+     , (4679, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (4679, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (4679, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
-     , (4679, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
-     , (4679, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (4679, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
      , (4679, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
      , (4679, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
      , (4679, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (4679, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (4679, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
      , (4679, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
-     , (4679, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (4679, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
      , (4679, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
-     , (4679, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (4679, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (4679, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (4679, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4679, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
-     , (4679, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (4679, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (4679, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (4679, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (4679, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (4679, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
+     , (4679, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (4679, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
-     , (4679, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (4679, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (4679, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (4679, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (4679, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (4679, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (4679, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
-     , (4679, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
      , (4679, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4679, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (4679, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (4679, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;
+     , (4679, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4679, 67109552, 0, 24)

@@ -52,10 +52,10 @@ VALUES (38385,   1,    10, 0, 0, 6000) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38385, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */
      , (38385, 2, 40266,  1, 0, 0, False) /* Create T'thuun Aegis (40266) for Wield */
-     , (38385, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (38385, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
      , (38385, 9, 38375,  0, 0, 0, False) /* Create Titanic Dericost Mnemosyne (38375) for ContainTreasure */
-     , (38385, 9, 40618,  0, 0, 0, False) /* Create Spadone (40618) for ContainTreasure */;
+     , (38385, 9, 40618,  0, 0, 0, False) /* Create Spadone (40618) for ContainTreasure */
+     , (38385, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38385, 67111941, 0, 0);

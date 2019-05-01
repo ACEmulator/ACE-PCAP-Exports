@@ -77,9 +77,11 @@ VALUES (31295,   1,    10, 0, 0, 135) /* MaxHealth */
      , (31295,   5,    10, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31295, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+VALUES (31295, 4, 31305, -1, 0, 0, False) /* Create  (31305) for Shop */
+     , (31295, 4, 31703, -1, 0, 0, False) /* Create  (31703) for Shop */
      , (31295, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (31295, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (31295, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (31295, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (31295, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (31295, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
@@ -90,9 +92,7 @@ VALUES (31295, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (31295, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (31295, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (31295, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (31295, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (31295, 4, 31305, -1, 0, 0, False) /* Create  (31305) for Shop */
-     , (31295, 4, 31703, -1, 0, 0, False) /* Create  (31703) for Shop */;
+     , (31295, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31295, 67110065, 32, 8)

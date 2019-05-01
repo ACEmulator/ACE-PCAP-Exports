@@ -83,15 +83,15 @@ VALUES (35811, 4, 35535, -1, 0, 0, False) /* Create  (35535) for Shop */
      , (35811, 4, 35537, -1, 0, 0, False) /* Create "Assassin's Crossbow" Summoning Gem (35537) for Shop */
      , (35811, 4, 35538, -1, 0, 0, False) /* Create  (35538) for Shop */
      , (35811, 4, 35539, -1, 0, 0, False) /* Create  (35539) for Shop */
-     , (35811, 4, 35540, -1, 0, 0, False) /* Create "Bloodletter" Summoning Gem (35540) for Shop */
      , (35811, 4, 35541, -1, 0, 0, False) /* Create  (35541) for Shop */
+     , (35811, 4, 35540, -1, 0, 0, False) /* Create "Bloodletter" Summoning Gem (35540) for Shop */
      , (35811, 4, 35542, -1, 0, 0, False) /* Create "Commoner's Sword" Summoning Gem (35542) for Shop */
+     , (35811, 4, 41856, -1, 0, 0, False) /* Create  (41856) for Shop */
      , (35811, 4, 35543, -1, 0, 0, False) /* Create "Lord's Sword" Summoning Gem (35543) for Shop */
      , (35811, 4, 35544, -1, 0, 0, False) /* Create  (35544) for Shop */
      , (35811, 4, 35545, -1, 0, 0, False) /* Create  (35545) for Shop */
      , (35811, 4, 35546, -1, 0, 0, False) /* Create  (35546) for Shop */
-     , (35811, 4, 39513, -1, 0, 0, False) /* Create Boxed Mana Forge Key (39513) for Shop */
-     , (35811, 4, 41856, -1, 0, 0, False) /* Create  (41856) for Shop */;
+     , (35811, 4, 39513, -1, 0, 0, False) /* Create Boxed Mana Forge Key (39513) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35811, 67109556, 0, 24)

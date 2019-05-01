@@ -48,12 +48,12 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26529, 8000, 2629729560) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26529, 2, 12077,  1, 0, 0, False) /* Create Bandit Acid Short Sword (12077) for Wield */
-     , (26529, 2, 33081,  1, 0, 0, False) /* Create Shadow Blade (33081) for Wield */
+VALUES (26529, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
      , (26529, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wield */
-     , (26529, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (26529, 2, 12077,  1, 0, 0, False) /* Create Bandit Acid Short Sword (12077) for Wield */
+     , (26529, 2, 33081,  1, 0, 0, False) /* Create Shadow Blade (33081) for Wield */
      , (26529, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (26529, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;
+     , (26529, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26529, 67111925, 0, 0);

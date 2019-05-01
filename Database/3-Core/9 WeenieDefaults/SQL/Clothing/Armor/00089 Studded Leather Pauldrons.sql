@@ -57,8 +57,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (89, 8000, 2174514712) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (89, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */
-     , (89, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+VALUES (89, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (89, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (89, 67110359, 128, 8);

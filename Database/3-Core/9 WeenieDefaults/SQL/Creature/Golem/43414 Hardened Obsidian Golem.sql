@@ -56,35 +56,35 @@ VALUES (43414,   1,    10, 0, 0, 1100) /* MaxHealth */
      , (43414,   5,    10, 0, 0, 980) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43414, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
+VALUES (43414, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
      , (43414, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (43414, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (43414, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (43414, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (43414, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
-     , (43414, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (43414, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (43414, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (43414, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (43414, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (43414, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (43414, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (43414, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (43414, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
-     , (43414, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
      , (43414, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
-     , (43414, 9,  9324,  0, 0, 0, False) /* Create Obsidian Heart (9324) for ContainTreasure */
-     , (43414, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
-     , (43414, 9, 20250,  0, 0, 0, False) /* Create Scroll of Replenish (20250) for ContainTreasure */
-     , (43414, 9, 20478,  0, 0, 0, False) /* Create Scroll of Fiery Blessing (20478) for ContainTreasure */
-     , (43414, 9, 20550,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Boon (20550) for ContainTreasure */
-     , (43414, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */
-     , (43414, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
-     , (43414, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (43414, 9, 30218,  1, 0, 0, False) /* Create Life Giver's Crystal (30218) for ContainTreasure */
-     , (43414, 9, 31770,  0, 0, 0, False) /* Create Acid War Axe (31770) for ContainTreasure */
-     , (43414, 9, 40621,  0, 0, 0, False) /* Create Flaming Spadone (40621) for ContainTreasure */
-     , (43414, 9, 40710,  0, 0, 0, False) /* Create Covenant Greaves (40710) for ContainTreasure */
-     , (43414, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
+     , (43414, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+     , (43414, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (43414, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (43414, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (43414, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
-     , (43414, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */;
+     , (43414, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (43414, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (43414, 9,  9324,  0, 0, 0, False) /* Create Obsidian Heart (9324) for ContainTreasure */
+     , (43414, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (43414, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (43414, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (43414, 9, 20478,  0, 0, 0, False) /* Create Scroll of Fiery Blessing (20478) for ContainTreasure */
+     , (43414, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
+     , (43414, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (43414, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (43414, 9, 40621,  0, 0, 0, False) /* Create Flaming Spadone (40621) for ContainTreasure */
+     , (43414, 9, 20550,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Boon (20550) for ContainTreasure */
+     , (43414, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (43414, 9, 20250,  0, 0, 0, False) /* Create Scroll of Replenish (20250) for ContainTreasure */
+     , (43414, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (43414, 9, 31770,  0, 0, 0, False) /* Create Acid War Axe (31770) for ContainTreasure */
+     , (43414, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (43414, 9, 30218,  1, 0, 0, False) /* Create Life Giver's Crystal (30218) for ContainTreasure */
+     , (43414, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (43414, 9, 40710,  0, 0, 0, False) /* Create Covenant Greaves (40710) for ContainTreasure */
+     , (43414, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
+     , (43414, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
+     , (43414, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (43414, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */;

@@ -70,25 +70,25 @@ VALUES (24590,   1,    10, 0, 0, 226) /* MaxHealth */
      , (24590,   5,    10, 0, 0, 25) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24590, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+VALUES (24590, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (24590, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (24590, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (24590, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (24590, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (24590, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (24590, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
      , (24590, 4,  4737, -1, 0, 0, False) /* Create  (4737) for Shop */
      , (24590, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (24590, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
-     , (24590, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (24590, 4,  5583, -1, 0, 0, False) /* Create  (5583) for Shop */
-     , (24590, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (24590, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
      , (24590, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
      , (24590, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (24590, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (24590, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
+     , (24590, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
      , (24590, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (24590, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
+     , (24590, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
      , (24590, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
+     , (24590, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
      , (24590, 4, 28242, -1, 0, 0, False) /* Create  (28242) for Shop */
      , (24590, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
      , (24590, 4, 30743, -1, 0, 0, False) /* Create  (30743) for Shop */

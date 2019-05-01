@@ -49,13 +49,13 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20975, 8000, 3687494842) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20975, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */
+VALUES (20975, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
      , (20975, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
-     , (20975, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
-     , (20975, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (20975, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
-     , (20975, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (20975, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */
      , (20975, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (20975, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (20975, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (20975, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
      , (20975, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */
-     , (20975, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
-     , (20975, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */;
+     , (20975, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
+     , (20975, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;

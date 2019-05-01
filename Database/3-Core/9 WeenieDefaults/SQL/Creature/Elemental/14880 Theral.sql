@@ -63,10 +63,10 @@ VALUES (14880,   1,    10, 0, 0, 780) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14880, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
      , (14880, 9,   273, 726, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (14880, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
-     , (14880, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (14880, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
      , (14880, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (14880, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (14880, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (14880, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (14880, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
-     , (14880, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */;
+     , (14880, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (14880, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */;

@@ -61,23 +61,23 @@ VALUES (7397,   1,    10, 0, 0, 200) /* MaxHealth */
      , (7397,   5,    10, 0, 0, 332) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7397, 2, 23638,  1, 0, 0, False) /* Create Cestus (23638) for Wield */
+VALUES (7397, 2, 23701,  1, 0, 0, False) /* Create Tachi (23701) for Wield */
+     , (7397, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (7397, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
      , (7397, 2, 23681,  1, 0, 0, False) /* Create Nekode (23681) for Wield */
-     , (7397, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (7397, 2, 23701,  1, 0, 0, False) /* Create Tachi (23701) for Wield */
-     , (7397, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (7397, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (7397, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (7397, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (7397, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (7397, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (7397, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (7397, 9,  7398,  0, 0, 0, False) /* Create Laboratory Key (7398) for ContainTreasure */
-     , (7397, 9, 20521,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self VII (20521) for ContainTreasure */
-     , (7397, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7397, 2, 23638,  1, 0, 0, False) /* Create Cestus (23638) for Wield */
      , (7397, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
-     , (7397, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */;
+     , (7397, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (7397, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (7397, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (7397, 9, 20521,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self VII (20521) for ContainTreasure */
+     , (7397, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */
+     , (7397, 9,  7398,  0, 0, 0, False) /* Create Laboratory Key (7398) for ContainTreasure */
+     , (7397, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (7397, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (7397, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7397, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (7397, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7397, 67111342, 0, 0);

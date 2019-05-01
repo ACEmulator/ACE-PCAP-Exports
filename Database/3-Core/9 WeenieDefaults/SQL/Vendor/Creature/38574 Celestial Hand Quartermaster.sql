@@ -81,23 +81,23 @@ VALUES (38574,   1,    10, 0, 0, 331) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38574, 4, 38544, -1, 0, 0, False) /* Create Celestial Hand Armor Writ (38544) for Shop */
-     , (38574, 4, 38717, -1, 0, 0, False) /* Create Celestial Hand Banner (38717) for Shop */
      , (38574, 4, 38721, -1, 0, 0, False) /* Create Writ of Authorization (38721) for Shop */
      , (38574, 4, 38727, -1, 0, 0, False) /* Create Society Gem of Dispelling (38727) for Shop */
-     , (38574, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
+     , (38574, 4, 38717, -1, 0, 0, False) /* Create Celestial Hand Banner (38717) for Shop */
+     , (38574, 4, 44887, -1, 0, 0, False) /* Create Celestial Hand Cloak (44887) for Shop */
      , (38574, 4, 44444, -1, 0, 0, False) /* Create Celestial Hand Robe (44444) for Shop */
+     , (38574, 4, 44980, -1, 0, 0, False) /* Create  (44980) for Shop */
+     , (38574, 4, 44981, -1, 0, 0, False) /* Create  (44981) for Shop */
      , (38574, 4, 44466, -1, 0, 0, False) /* Create  (44466) for Shop */
      , (38574, 4, 44588, -1, 0, 0, False) /* Create  (44588) for Shop */
-     , (38574, 4, 44591, -1, 0, 0, False) /* Create  (44591) for Shop */
-     , (38574, 4, 44594, -1, 0, 0, False) /* Create  (44594) for Shop */
-     , (38574, 4, 44596, -1, 0, 0, False) /* Create  (44596) for Shop */
-     , (38574, 4, 44600, -1, 0, 0, False) /* Create  (44600) for Shop */
      , (38574, 4, 44603, -1, 0, 0, False) /* Create  (44603) for Shop */
      , (38574, 4, 44605, -1, 0, 0, False) /* Create  (44605) for Shop */
+     , (38574, 4, 44594, -1, 0, 0, False) /* Create  (44594) for Shop */
+     , (38574, 4, 44596, -1, 0, 0, False) /* Create  (44596) for Shop */
      , (38574, 4, 44609, -1, 0, 0, False) /* Create  (44609) for Shop */
-     , (38574, 4, 44887, -1, 0, 0, False) /* Create Celestial Hand Cloak (44887) for Shop */
-     , (38574, 4, 44980, -1, 0, 0, False) /* Create  (44980) for Shop */
-     , (38574, 4, 44981, -1, 0, 0, False) /* Create  (44981) for Shop */;
+     , (38574, 4, 44591, -1, 0, 0, False) /* Create  (44591) for Shop */
+     , (38574, 4, 44600, -1, 0, 0, False) /* Create  (44600) for Shop */
+     , (38574, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38574, 67109552, 0, 24)

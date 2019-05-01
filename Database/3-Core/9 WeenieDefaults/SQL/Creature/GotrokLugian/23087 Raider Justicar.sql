@@ -58,9 +58,9 @@ VALUES (23087,   1,    10, 0, 0, 10000) /* MaxHealth */
      , (23087,   5,    10, 0, 0, 240) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23087, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */
-     , (23087, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */
-     , (23087, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */;
+VALUES (23087, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
+     , (23087, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */
+     , (23087, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23087, 67114346, 0, 0);

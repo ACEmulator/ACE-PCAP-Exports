@@ -49,8 +49,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41578,   1,    10, 0, 0, 365) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41578, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
-     , (41578, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
+VALUES (41578, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
+     , (41578, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
+     , (41578, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */
      , (41578, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
-     , (41578, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (41578, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */;
+     , (41578, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */;

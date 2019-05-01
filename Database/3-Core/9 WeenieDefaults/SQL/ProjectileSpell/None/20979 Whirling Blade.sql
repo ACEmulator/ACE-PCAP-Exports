@@ -52,7 +52,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20979, 8000, 3686551642) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20979, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+VALUES (20979, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
      , (20979, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (20979, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
+     , (20979, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (20979, 2, 47350,  1, 0, 0, False) /* Create Club (47350) for Wield */;

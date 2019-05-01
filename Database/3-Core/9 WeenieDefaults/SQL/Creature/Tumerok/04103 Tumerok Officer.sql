@@ -61,12 +61,12 @@ VALUES (4103,   1,    10, 0, 0, 110) /* MaxHealth */
      , (4103,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4103, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (4103, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (4103, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (4103, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+VALUES (4103, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (4103, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
-     , (4103, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;
+     , (4103, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (4103, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (4103, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (4103, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4103, 67116625, 57, 48)

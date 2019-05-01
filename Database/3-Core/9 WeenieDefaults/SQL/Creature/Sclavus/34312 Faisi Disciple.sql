@@ -50,13 +50,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34312,   1,    10, 0, 0, 240) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34312, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (34312, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */
+VALUES (34312, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
      , (34312, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
+     , (34312, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (34312, 2, 48277,  1, 0, 0, False) /* Create Arrow (48277) for Wield */
+     , (34312, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */
      , (34312, 2, 47965,  1, 0, 0, False) /* Create Katar (47965) for Wield */
-     , (34312, 2, 47969,  1, 0, 0, False) /* Create Lightning Nekode (47969) for Wield */
-     , (34312, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
-     , (34312, 2, 48277,  1, 0, 0, False) /* Create Arrow (48277) for Wield */;
+     , (34312, 2, 47969,  1, 0, 0, False) /* Create Lightning Nekode (47969) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34312, 67113042, 0, 0);

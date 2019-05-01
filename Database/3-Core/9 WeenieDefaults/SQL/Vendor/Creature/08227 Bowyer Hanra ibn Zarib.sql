@@ -77,34 +77,34 @@ VALUES (8227,   1,    10, 0, 0, 48) /* MaxHealth */
      , (8227,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8227, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (8227, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
-     , (8227, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
-     , (8227, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
-     , (8227, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+VALUES (8227, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (8227, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (8227, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (8227, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
-     , (8227, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
-     , (8227, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
      , (8227, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (8227, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
      , (8227, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (8227, 4,  5344, -1, 0, 0, False) /* Create Bundle of Blunt Arrowheads (5344) for Shop */
      , (8227, 4,  5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads (5345) for Shop */
+     , (8227, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
+     , (8227, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
      , (8227, 4,  9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads (9359) for Shop */
      , (8227, 4,  9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads (9362) for Shop */
      , (8227, 4,  9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads (9363) for Shop */
-     , (8227, 4,  9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts (9377) for Shop */
-     , (8227, 4,  9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts (9378) for Shop */
+     , (8227, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */
+     , (8227, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
      , (8227, 4, 12463, -1, 0, 0, False) /* Create Atlatl (12463) for Shop */
      , (8227, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (8227, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
      , (8227, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts (15298) for Shop */
-     , (8227, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails (23857) for Shop */
-     , (8227, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails (23858) for Shop */
+     , (8227, 4,  3603, -1, 0, 0, False) /* Create Blunt Quarrel (3603) for Shop */
+     , (8227, 4,  3599, -1, 0, 0, False) /* Create Blunt Arrow (3599) for Shop */
+     , (8227, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (8227, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (8227, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
+     , (8227, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
+     , (8227, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (8227, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (8227, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (8227, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */;
+     , (8227, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8227, 67109551, 0, 24)

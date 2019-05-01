@@ -71,23 +71,23 @@ VALUES (8423,   1,    10, 0, 0, 40) /* MaxHealth */
      , (8423,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8423, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (8423, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (8423, 2, 47057,  1, 0, 0, False) /* Create Arrow (47057) for Wield */
-     , (8423, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */
-     , (8423, 2, 47634,  1, 0, 0, False) /* Create Tachi (47634) for Wield */
-     , (8423, 2, 47653,  1, 0, 0, False) /* Create Lightning Tachi (47653) for Wield */
-     , (8423, 2, 47668,  1, 0, 0, False) /* Create Flaming Tachi (47668) for Wield */
-     , (8423, 2, 47859,  1, 0, 0, False) /* Create Acid Katar (47859) for Wield */
-     , (8423, 2, 47861,  1, 0, 0, False) /* Create Lightning Katar (47861) for Wield */
+VALUES (8423, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (8423, 2, 47862,  1, 0, 0, False) /* Create Nekode (47862) for Wield */
-     , (8423, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (8423, 2, 47634,  1, 0, 0, False) /* Create Tachi (47634) for Wield */
+     , (8423, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (8423, 2, 48486,  1, 0, 0, False) /* Create Flaming Katar (48486) for Wield */
+     , (8423, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */
      , (8423, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
-     , (8423, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (8423, 2, 47057,  1, 0, 0, False) /* Create Arrow (47057) for Wield */
      , (8423, 2, 48270,  1, 0, 0, False) /* Create Arrow (48270) for Wield */
+     , (8423, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (8423, 2, 48289,  1, 0, 0, False) /* Create Arrow (48289) for Wield */
+     , (8423, 2, 47861,  1, 0, 0, False) /* Create Lightning Katar (47861) for Wield */
+     , (8423, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
      , (8423, 2, 48327,  1, 0, 0, False) /* Create Arrow (48327) for Wield */
-     , (8423, 2, 48486,  1, 0, 0, False) /* Create Flaming Katar (48486) for Wield */;
+     , (8423, 2, 47859,  1, 0, 0, False) /* Create Acid Katar (47859) for Wield */
+     , (8423, 2, 47653,  1, 0, 0, False) /* Create Lightning Tachi (47653) for Wield */
+     , (8423, 2, 47668,  1, 0, 0, False) /* Create Flaming Tachi (47668) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8423, 67112860, 0, 0);

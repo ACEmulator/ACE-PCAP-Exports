@@ -45,17 +45,17 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (37460, 8000, 2920536718) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37460, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (37460, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
-     , (37460, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
-     , (37460, 2, 48082,  1, 0, 0, False) /* Create Lightning Quarrel (48082) for Wield */
+VALUES (37460, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
+     , (37460, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
+     , (37460, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (37460, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
      , (37460, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
-     , (37460, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (37460, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */
-     , (37460, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
      , (37460, 2, 48091,  1, 0, 0, False) /* Create Lightning Silifi (48091) for Wield */
-     , (37460, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */;
+     , (37460, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
+     , (37460, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */
+     , (37460, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (37460, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (37460, 2, 48082,  1, 0, 0, False) /* Create Lightning Quarrel (48082) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37460, 67111664, 0, 0);

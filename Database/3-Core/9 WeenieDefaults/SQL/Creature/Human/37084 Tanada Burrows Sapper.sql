@@ -66,14 +66,14 @@ VALUES (37084,   1,    10, 0, 0, 600) /* MaxHealth */
      , (37084,   5,    10, 0, 0, 580) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37084, 2, 15433,  1, 0, 0, False) /* Create Deadly Broadhead Arrow (15433) for Wield */
-     , (37084, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+VALUES (37084, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
+     , (37084, 2, 15433,  1, 0, 0, False) /* Create Deadly Broadhead Arrow (15433) for Wield */
      , (37084, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
-     , (37084, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
-     , (37084, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (37084, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
      , (37084, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (37084, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
-     , (37084, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */;
+     , (37084, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (37084, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */
+     , (37084, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37084, 67110048, 0, 24)

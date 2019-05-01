@@ -60,19 +60,19 @@ VALUES (46503,   1,    10, 0, 0, 2200) /* MaxHealth */
      , (46503,   5,    10, 0, 0, 750) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46503, 2, 46632,  1, 0, 0, False) /* Create Greater Deadly Frost Arrow (46632) for Wield */
-     , (46503, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
-     , (46503, 9,    77,  0, 0, 0, False) /* Create Kabuton (77) for ContainTreasure */
+VALUES (46503, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
+     , (46503, 2, 46632,  1, 0, 0, False) /* Create Greater Deadly Frost Arrow (46632) for Wield */
+     , (46503, 9, 30557,  0, 0, 0, False) /* Create Acid Hatchet (30557) for ContainTreasure */
+     , (46503, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */
+     , (46503, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (46503, 9, 49390,  0, 0, 0, False) /* Create Frost Grievver Essence (125) (49390) for ContainTreasure */
      , (46503, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (46503, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (46503, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (46503, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (46503, 9,    77,  0, 0, 0, False) /* Create Kabuton (77) for ContainTreasure */
      , (46503, 9, 20244,  0, 0, 0, False) /* Create Scroll of Adja's Gift (20244) for ContainTreasure */
-     , (46503, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */
-     , (46503, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (46503, 9, 30557,  0, 0, 0, False) /* Create Acid Hatchet (30557) for ContainTreasure */
      , (46503, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
-     , (46503, 9, 49390,  0, 0, 0, False) /* Create Frost Grievver Essence (125) (49390) for ContainTreasure */;
+     , (46503, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (46503, 0, 16796675)

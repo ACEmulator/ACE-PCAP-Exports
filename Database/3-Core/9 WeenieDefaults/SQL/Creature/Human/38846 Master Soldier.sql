@@ -54,8 +54,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38846,   1,    10, 0, 0, 1500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38846, 2, 38852,  1, 0, 0, False) /* Create Eldrytch Web Shield (38852) for Wield */
-     , (38846, 2, 38855,  1, 0, 0, False) /* Create Eldrytch Web Blade (38855) for Wield */;
+VALUES (38846, 2, 38855,  1, 0, 0, False) /* Create Eldrytch Web Blade (38855) for Wield */
+     , (38846, 2, 38852,  1, 0, 0, False) /* Create Eldrytch Web Shield (38852) for Wield */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38846, 0, 16794164)

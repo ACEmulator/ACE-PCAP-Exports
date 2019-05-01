@@ -78,17 +78,17 @@ VALUES (24217,   1,    10, 0, 0, 45) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24217, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (24217, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (24217, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (24217, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
-     , (24217, 4,  4711, -1, 0, 0, False) /* Create  (4711) for Shop */
-     , (24217, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
-     , (24217, 4,  4738, -1, 0, 0, False) /* Create  (4738) for Shop */
+     , (24217, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (24217, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (24217, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (24217, 4,  4738, -1, 0, 0, False) /* Create  (4738) for Shop */
+     , (24217, 4,  4711, -1, 0, 0, False) /* Create  (4711) for Shop */
+     , (24217, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
+     , (24217, 4, 32781, -1, 0, 0, False) /* Create  (32781) for Shop */
      , (24217, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
      , (24217, 4, 30743, -1, 0, 0, False) /* Create  (30743) for Shop */
-     , (24217, 4, 32781, -1, 0, 0, False) /* Create  (32781) for Shop */
      , (24217, 4, 33181, -1, 0, 0, False) /* Create  (33181) for Shop */
      , (24217, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
 

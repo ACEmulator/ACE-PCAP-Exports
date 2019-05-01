@@ -61,35 +61,35 @@ VALUES (7112,   1,    10, 0, 0, 325) /* MaxHealth */
      , (7112,   5,    10, 0, 0, 283) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7112, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (7112, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
-     , (7112, 2, 47623,  1, 0, 0, False) /* Create Acid Tachi (47623) for Wield */
-     , (7112, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
-     , (7112, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
-     , (7112, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield */
-     , (7112, 2, 47732,  1, 0, 0, False) /* Create Spear (47732) for Wield */
-     , (7112, 2, 47751,  1, 0, 0, False) /* Create Lightning Spear (47751) for Wield */
-     , (7112, 2, 47770,  1, 0, 0, False) /* Create Flaming Spear (47770) for Wield */
-     , (7112, 2, 47979,  1, 0, 0, False) /* Create Acid Katar (47979) for Wield */
-     , (7112, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
-     , (7112, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
+VALUES (7112, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
+     , (7112, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
      , (7112, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
-     , (7112, 2, 47983,  1, 0, 0, False) /* Create Acid Nekode (47983) for Wield */
-     , (7112, 2, 47984,  1, 0, 0, False) /* Create Lightning Nekode (47984) for Wield */
-     , (7112, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (7112, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
      , (7112, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (7112, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
+     , (7112, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
      , (7112, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
-     , (7112, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
+     , (7112, 2, 47732,  1, 0, 0, False) /* Create Spear (47732) for Wield */
      , (7112, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
+     , (7112, 2, 47770,  1, 0, 0, False) /* Create Flaming Spear (47770) for Wield */
+     , (7112, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
+     , (7112, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+     , (7112, 2, 47751,  1, 0, 0, False) /* Create Lightning Spear (47751) for Wield */
+     , (7112, 2, 47979,  1, 0, 0, False) /* Create Acid Katar (47979) for Wield */
+     , (7112, 2, 47623,  1, 0, 0, False) /* Create Acid Tachi (47623) for Wield */
+     , (7112, 2, 47984,  1, 0, 0, False) /* Create Lightning Nekode (47984) for Wield */
+     , (7112, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
      , (7112, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */
+     , (7112, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
+     , (7112, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
+     , (7112, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield */
+     , (7112, 2, 47983,  1, 0, 0, False) /* Create Acid Nekode (47983) for Wield */
+     , (7112, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
+     , (7112, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
      , (7112, 2, 48541,  1, 0, 0, False) /* Create Flaming Nekode (48541) for Wield */
-     , (7112, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (7112, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
-     , (7112, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (7112, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
-     , (7112, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */;
+     , (7112, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (7112, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */
+     , (7112, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (7112, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7112, 67113043, 0, 0);

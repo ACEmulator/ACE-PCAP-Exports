@@ -66,53 +66,53 @@ VALUES (12135,   1,    10, 0, 0, 154) /* MaxHealth */
      , (12135,   5,    10, 0, 0, 362) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12135, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (12135, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
-     , (12135, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (12135, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (12135, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
-     , (12135, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
-     , (12135, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
-     , (12135, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
-     , (12135, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
-     , (12135, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
+VALUES (12135, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (12135, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */
+     , (12135, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (12135, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (12135, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (12135, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (12135, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
+     , (12135, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (12135, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (12135, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (12135, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
      , (12135, 2, 11907,  1, 0, 0, False) /* Create Mace of the Quiddity (11907) for Wield */
      , (12135, 2, 11916,  1, 0, 0, False) /* Create Blade of the Quiddity (11916) for Wield */
-     , (12135, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
-     , (12135, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (12135, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (12135, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (12135, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (12135, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (12135, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
-     , (12135, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
-     , (12135, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
-     , (12135, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
-     , (12135, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
-     , (12135, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (12135, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
-     , (12135, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
-     , (12135, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (12135, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (12135, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
-     , (12135, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (12135, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
-     , (12135, 9,  5850,  0, 0, 0, False) /* Create Faran Robe (5850) for ContainTreasure */
      , (12135, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
-     , (12135, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (12135, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (12135, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (12135, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (12135, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (12135, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
-     , (12135, 9, 30609,  0, 0, 0, False) /* Create Frost Bastone (30609) for ContainTreasure */
-     , (12135, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
-     , (12135, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (12135, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (12135, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (12135, 9,  5850,  0, 0, 0, False) /* Create Faran Robe (5850) for ContainTreasure */
      , (12135, 9, 49247,  0, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for ContainTreasure */
-     , (12135, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
+     , (12135, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (12135, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (12135, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
+     , (12135, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (12135, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (12135, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (12135, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (12135, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+     , (12135, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (12135, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (12135, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
+     , (12135, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (12135, 9, 30609,  0, 0, 0, False) /* Create Frost Bastone (30609) for ContainTreasure */
+     , (12135, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (12135, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (12135, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */
+     , (12135, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (12135, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
      , (12135, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */
-     , (12135, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */;
+     , (12135, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (12135, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (12135, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (12135, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (12135, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
+     , (12135, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (12135, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (12135, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
+     , (12135, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12135, 67109561, 0, 24)

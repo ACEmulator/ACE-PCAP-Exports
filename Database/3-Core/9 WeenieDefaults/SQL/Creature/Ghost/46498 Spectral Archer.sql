@@ -60,8 +60,8 @@ VALUES (46498,   1,    10, 0, 0, 2200) /* MaxHealth */
      , (46498,   5,    10, 0, 0, 750) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46498, 2, 46630,  1, 0, 0, False) /* Create Greater Deadly Acid Arrow (46630) for Wield */
-     , (46498, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */;
+VALUES (46498, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
+     , (46498, 2, 46630,  1, 0, 0, False) /* Create Greater Deadly Acid Arrow (46630) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46498, 0, 83899054, 83899075)

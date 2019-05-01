@@ -60,22 +60,22 @@ VALUES (51342,   1,    10, 0, 0, 9875) /* MaxHealth */
      , (51342,   5,    10, 0, 0, 4944) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51342, 9,   273, 981, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (51342, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (51342, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (51342, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (51342, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (51342, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+VALUES (51342, 9, 37195,  0, 0, 0, False) /* Create Olthoi Alduressa Helm (37195) for ContainTreasure */
      , (51342, 9,  3856,  0, 0, 0, False) /* Create Frost Shamshir (3856) for ContainTreasure */
-     , (51342, 9, 20547,  0, 0, 0, False) /* Create Scroll of Jahannan's Blessing (20547) for ContainTreasure */
-     , (51342, 9, 20562,  0, 0, 0, False) /* Create Scroll of Celdiseth's Blessing (20562) for ContainTreasure */
-     , (51342, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (51342, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (51342, 9, 31806,  0, 0, 0, False) /* Create Acid Compound Crossbow (31806) for ContainTreasure */
-     , (51342, 9, 37195,  0, 0, 0, False) /* Create Olthoi Alduressa Helm (37195) for ContainTreasure */
-     , (51342, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */
-     , (51342, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
-     , (51342, 9, 43316,  0, 0, 0, False) /* Create Scroll of Nether Streak VII (43316) for ContainTreasure */
+     , (51342, 9, 20562,  0, 0, 0, False) /* Create Scroll of Celdiseth's Blessing (20562) for ContainTreasure */
      , (51342, 9, 45432,  0, 0, 0, False) /* Create Acid Khanjar (45432) for ContainTreasure */
-     , (51342, 9, 48948,  0, 0, 0, False) /* Create Fire Skeleton Bushi Essence (180) (48948) for ContainTreasure */
+     , (51342, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (51342, 9,   273, 981, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (51342, 9, 51343,  0, 0, 0, False) /* Create Experimental Bloodstone Shard (51343) for ContainTreasure */
      , (51342, 9, 49341,  0, 0, 0, False) /* Create Acid Moar Essence (125) (49341) for ContainTreasure */
-     , (51342, 9, 51343,  0, 0, 0, False) /* Create Experimental Bloodstone Shard (51343) for ContainTreasure */;
+     , (51342, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (51342, 9, 48948,  0, 0, 0, False) /* Create Fire Skeleton Bushi Essence (180) (48948) for ContainTreasure */
+     , (51342, 9, 20547,  0, 0, 0, False) /* Create Scroll of Jahannan's Blessing (20547) for ContainTreasure */
+     , (51342, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (51342, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (51342, 9, 43316,  0, 0, 0, False) /* Create Scroll of Nether Streak VII (43316) for ContainTreasure */
+     , (51342, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */
+     , (51342, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (51342, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */;

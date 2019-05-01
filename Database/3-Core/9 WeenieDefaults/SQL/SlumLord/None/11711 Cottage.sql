@@ -49,6 +49,6 @@ VALUES (11711, 8000, 2033516693) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11711, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (11711, 16,  3672,  1, 0, 0, False) /* Create Iron Heart (3672) for HouseBuy */
      , (11711, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (11711, 16,  3672,  1, 0, 0, False) /* Create Iron Heart (3672) for HouseBuy */
      , (11711, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

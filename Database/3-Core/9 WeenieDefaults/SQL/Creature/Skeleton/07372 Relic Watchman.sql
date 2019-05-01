@@ -58,21 +58,21 @@ VALUES (7372,   1,    10, 0, 0, 443) /* MaxHealth */
      , (7372,   5,    10, 0, 0, 295) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7372, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (7372, 2, 47484,  1, 0, 0, False) /* Create Flaming Mace (47484) for Wield */
      , (7372, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (7372, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (7372, 2, 47484,  1, 0, 0, False) /* Create Flaming Mace (47484) for Wield */
-     , (7372, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
-     , (7372, 2, 47770,  1, 0, 0, False) /* Create Flaming Spear (47770) for Wield */
+     , (7372, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (7372, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (7372, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
-     , (7372, 9,    51,  0, 0, 0, False) /* Create Platemail Cuirass (51) for ContainTreasure */
-     , (7372, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (7372, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (7372, 9,  3687,  0, 0, 0, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
-     , (7372, 9, 28056,  0, 0, 0, False) /* Create Ring of the Watchman (28056) for ContainTreasure */
+     , (7372, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (7372, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
+     , (7372, 2, 47770,  1, 0, 0, False) /* Create Flaming Spear (47770) for Wield */
      , (7372, 9, 46880,  0, 0, 0, False) /* Create Aura of Defender Other VII (46880) for ContainTreasure */
-     , (7372, 9, 49214,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (80) (49214) for ContainTreasure */;
+     , (7372, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (7372, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (7372, 9, 28056,  0, 0, 0, False) /* Create Ring of the Watchman (28056) for ContainTreasure */
+     , (7372, 9,  3687,  0, 0, 0, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+     , (7372, 9, 49214,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (80) (49214) for ContainTreasure */
+     , (7372, 9,    51,  0, 0, 0, False) /* Create Platemail Cuirass (51) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7372, 67116527, 0, 0);

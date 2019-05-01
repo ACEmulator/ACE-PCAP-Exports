@@ -70,48 +70,48 @@ VALUES (36851,   1,    10, 0, 0, 385) /* MaxHealth */
      , (36851,   5,    10, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36851, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (36851, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+VALUES (36851, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
      , (36851, 2, 47065,  1, 0, 0, False) /* Create Arrow (47065) for Wield */
      , (36851, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
-     , (36851, 2, 47623,  1, 0, 0, False) /* Create Acid Tachi (47623) for Wield */
      , (36851, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
-     , (36851, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
-     , (36851, 2, 47979,  1, 0, 0, False) /* Create Acid Katar (47979) for Wield */
-     , (36851, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
-     , (36851, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
+     , (36851, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (36851, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (36851, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (36851, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
-     , (36851, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (36851, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
-     , (36851, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
+     , (36851, 2, 47623,  1, 0, 0, False) /* Create Acid Tachi (47623) for Wield */
+     , (36851, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (36851, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
+     , (36851, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
+     , (36851, 2, 47979,  1, 0, 0, False) /* Create Acid Katar (47979) for Wield */
+     , (36851, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+     , (36851, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
+     , (36851, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
      , (36851, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */
-     , (36851, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
-     , (36851, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (36851, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (36851, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (36851, 9,   273, 626, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (36851, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (36851, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
-     , (36851, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (36851, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (36851, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (36851, 9,  3937,  0, 0, 0, False) /* Create Flaming Morning Star (3937) for ContainTreasure */
-     , (36851, 9,  6059,  1, 0, 0, False) /* Create Dark Sliver (6059) for ContainTreasure */
-     , (36851, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (36851, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (36851, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
      , (36851, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (36851, 9, 20245,  0, 0, 0, False) /* Create Scroll of Adja's Intervention (20245) for ContainTreasure */
-     , (36851, 9, 20417,  0, 0, 0, False) /* Create Scroll of Cabalastic Ostracism (20417) for ContainTreasure */
-     , (36851, 9, 20420,  0, 0, 0, False) /* Create Scroll of Astyrrian's Bane (20420) for ContainTreasure */
-     , (36851, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
-     , (36851, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (36851, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (36851, 9, 29244,  0, 0, 0, False) /* Create Slashing Bow (29244) for ContainTreasure */
      , (36851, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
-     , (36851, 9, 41042,  0, 0, 0, False) /* Create Acid Magari Yari (41042) for ContainTreasure */;
+     , (36851, 9,   273, 626, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (36851, 9,  3937,  0, 0, 0, False) /* Create Flaming Morning Star (3937) for ContainTreasure */
+     , (36851, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (36851, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (36851, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (36851, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (36851, 9, 41042,  0, 0, 0, False) /* Create Acid Magari Yari (41042) for ContainTreasure */
+     , (36851, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (36851, 9, 29244,  0, 0, 0, False) /* Create Slashing Bow (29244) for ContainTreasure */
+     , (36851, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (36851, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (36851, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (36851, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (36851, 9,  6059,  1, 0, 0, False) /* Create Dark Sliver (6059) for ContainTreasure */
+     , (36851, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (36851, 9, 20417,  0, 0, 0, False) /* Create Scroll of Cabalastic Ostracism (20417) for ContainTreasure */
+     , (36851, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (36851, 9, 20245,  0, 0, 0, False) /* Create Scroll of Adja's Intervention (20245) for ContainTreasure */
+     , (36851, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
+     , (36851, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (36851, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (36851, 9, 20420,  0, 0, 0, False) /* Create Scroll of Astyrrian's Bane (20420) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36851, 67112860, 0, 0);

@@ -61,9 +61,9 @@ VALUES (10709,   1,    10, 0, 0, 258) /* MaxHealth */
      , (10709,   5,    10, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10709, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (10709, 9, 10713,  1, 0, 0, False) /* Create Southern Quiddity Fragment (10713) for ContainTreasure */
-     , (10709, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */;
+VALUES (10709, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */
+     , (10709, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (10709, 9, 10713,  1, 0, 0, False) /* Create Southern Quiddity Fragment (10713) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10709, 67112813, 0, 0);

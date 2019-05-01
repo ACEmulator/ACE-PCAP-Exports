@@ -66,23 +66,23 @@ VALUES (36084,   1,    10, 0, 0, 30) /* MaxHealth */
      , (36084,   5,    10, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36084, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
-     , (36084, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
-     , (36084, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (36084, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (36084, 9,  3937,  0, 0, 0, False) /* Create Flaming Morning Star (3937) for ContainTreasure */
+VALUES (36084, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
      , (36084, 9,  4191,  0, 0, 0, False) /* Create Flaming Cestus (4191) for ContainTreasure */
-     , (36084, 9,  7380,  0, 0, 0, False) /* Create Sheets of Paper (7380) for ContainTreasure */
+     , (36084, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
      , (36084, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (36084, 9, 20478,  0, 0, 0, False) /* Create Scroll of Fiery Blessing (20478) for ContainTreasure */
-     , (36084, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (36084, 9, 28625,  0, 0, 0, False) /* Create Diforsa Sollerets (28625) for ContainTreasure */
-     , (36084, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
-     , (36084, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
      , (36084, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
-     , (36084, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
-     , (36084, 9, 40929,  0, 0, 0, False) /* Create Embossed Ashen Key (40929) for ContainTreasure */
-     , (36084, 9, 42754,  0, 0, 0, False) /* Create Haebrean Pauldrons (42754) for ContainTreasure */
-     , (36084, 9, 43529,  0, 0, 0, False) /* Create Lady Aerfalle's Charm (43529) for ContainTreasure */
      , (36084, 9, 44977,  0, 0, 0, False) /* Create Lyceum Hood (44977) for ContainTreasure */
-     , (36084, 9, 49306,  0, 0, 0, False) /* Create Frost K'nath Essence (125) (49306) for ContainTreasure */;
+     , (36084, 9,  3937,  0, 0, 0, False) /* Create Flaming Morning Star (3937) for ContainTreasure */
+     , (36084, 9, 42754,  0, 0, 0, False) /* Create Haebrean Pauldrons (42754) for ContainTreasure */
+     , (36084, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (36084, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (36084, 9, 43529,  0, 0, 0, False) /* Create Lady Aerfalle's Charm (43529) for ContainTreasure */
+     , (36084, 9,  7380,  0, 0, 0, False) /* Create Sheets of Paper (7380) for ContainTreasure */
+     , (36084, 9, 40929,  0, 0, 0, False) /* Create Embossed Ashen Key (40929) for ContainTreasure */
+     , (36084, 9, 49306,  0, 0, 0, False) /* Create Frost K'nath Essence (125) (49306) for ContainTreasure */
+     , (36084, 9, 28625,  0, 0, 0, False) /* Create Diforsa Sollerets (28625) for ContainTreasure */
+     , (36084, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
+     , (36084, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
+     , (36084, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (36084, 9, 20478,  0, 0, 0, False) /* Create Scroll of Fiery Blessing (20478) for ContainTreasure */
+     , (36084, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */;

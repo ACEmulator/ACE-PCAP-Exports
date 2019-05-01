@@ -62,11 +62,11 @@ VALUES (4260,   1,    10, 0, 0, 140) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4260, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
-     , (4260, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (4260, 9,  2814,  0, 0, 0, False) /* Create Scroll of Flame Bane IV (2814) for ContainTreasure */
      , (4260, 9,   273, 96, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (4260, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (4260, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (4260, 9,  2814,  0, 0, 0, False) /* Create Scroll of Flame Bane IV (2814) for ContainTreasure */
+     , (4260, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
      , (4260, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

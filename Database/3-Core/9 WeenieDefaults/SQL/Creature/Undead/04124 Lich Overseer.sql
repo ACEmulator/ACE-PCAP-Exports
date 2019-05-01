@@ -61,15 +61,15 @@ VALUES (4124,   1,    10, 0, 0, 89) /* MaxHealth */
      , (4124,   5,    10, 0, 0, 259) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4124, 2,  4181,  1, 0, 0, False) /* Create Acid Arrow (4181) for Wield */
-     , (4124, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
-     , (4124, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
+VALUES (4124, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
      , (4124, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (4124, 2,  4181,  1, 0, 0, False) /* Create Acid Arrow (4181) for Wield */
+     , (4124, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
+     , (4124, 9,  3851,  0, 0, 0, False) /* Create Flaming Scimitar (3851) for ContainTreasure */
      , (4124, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (4124, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (4124, 9,  3851,  0, 0, 0, False) /* Create Flaming Scimitar (3851) for ContainTreasure */
-     , (4124, 9,  8903,  1, 0, 0, False) /* Create Focusing Stone (8903) for ContainTreasure */
-     , (4124, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
+     , (4124, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
+     , (4124, 9,  8903,  1, 0, 0, False) /* Create Focusing Stone (8903) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4124, 67111342, 0, 0);

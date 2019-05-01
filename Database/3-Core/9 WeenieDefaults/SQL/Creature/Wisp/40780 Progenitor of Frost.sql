@@ -56,7 +56,7 @@ VALUES (40780,   1,    10, 0, 0, 3120) /* MaxHealth */
      , (40780,   5,    10, 0, 0, 455) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40780, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+VALUES (40780, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
      , (40780, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
-     , (40780, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
+     , (40780, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
      , (40780, 9, 40793,  1, 0, 0, False) /* Create Progenitor Crystal (40793) for ContainTreasure */;

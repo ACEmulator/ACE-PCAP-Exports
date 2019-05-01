@@ -50,8 +50,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46353,   1,    10, 0, 0, 1215) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46353, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */
-     , (46353, 2, 46404,  1, 0, 0, False) /* Create T'thuun Spear (46404) for Wield */;
+VALUES (46353, 2, 46404,  1, 0, 0, False) /* Create T'thuun Spear (46404) for Wield */
+     , (46353, 2, 38922,  1, 0, 0, False) /* Create T'thuun Shield (38922) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46353, 67111938, 0, 0);

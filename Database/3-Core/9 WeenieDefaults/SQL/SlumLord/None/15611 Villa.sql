@@ -49,7 +49,7 @@ VALUES (15611, 8000, 1978352168) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (15611, 16,   273, 2000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (15611, 16,  4234,  1, 0, 0, False) /* Create Large Armoredillo Hide (4234) for HouseBuy */
      , (15611, 16, 11710,  5, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (15611, 16,  4234,  1, 0, 0, False) /* Create Large Armoredillo Hide (4234) for HouseBuy */
      , (15611, 32,   273, 100000, 0, 0, False) /* Create Pyreal (273) for HouseRent */
      , (15611, 32, 11710,  2, 0, 0, False) /* Create Writ of Refuge (11710) for HouseRent */;

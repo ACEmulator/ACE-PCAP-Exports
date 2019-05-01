@@ -79,37 +79,38 @@ VALUES (9020,   1,    10, 0, 0, 315) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9020, 2,  3905,  1, 0, 0, False) /* Create Acid War Hammer (3905) for Wield */
-     , (9020, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
-     , (9020, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
-     , (9020, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (9020, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
-     , (9020, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
-     , (9020, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
-     , (9020, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (9020, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
-     , (9020, 4,    90, -1, 0, 0, False) /* Create Yoroi Pauldrons (90) for Shop */
-     , (9020, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
-     , (9020, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (9020, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
-     , (9020, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (9020, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (9020, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (9020, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (9020, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (9020, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
      , (9020, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
      , (9020, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
      , (9020, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
      , (9020, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
-     , (9020, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (9020, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
-     , (9020, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (9020, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (9020, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (9020, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (9020, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (9020, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (9020, 4,  9026, -1, 0, 0, False) /* Create Peculiar Old Dagger (9026) for Shop */
      , (9020, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (9020, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (9020, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (9020, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
+     , (9020, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (9020, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
+     , (9020, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (9020, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
+     , (9020, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (9020, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
+     , (9020, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (9020, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (9020, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (9020, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (9020, 4,    90, -1, 0, 0, False) /* Create Yoroi Pauldrons (90) for Shop */
+     , (9020, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (9020, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (9020, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
+     , (9020, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
+     , (9020, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
+     , (9020, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (9020, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (9020, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
+     , (9020, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
      , (9020, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (9020, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (9020, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -117,12 +118,11 @@ VALUES (9020, 2,  3905,  1, 0, 0, False) /* Create Acid War Hammer (3905) for Wi
      , (9020, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9020, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9020, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (9020, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (9020, 4,  9026, -1, 0, 0, False) /* Create Peculiar Old Dagger (9026) for Shop */
      , (9020, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9020, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (9020, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (9020, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
+     , (9020, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
+     , (9020, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
      , (9020, 4, 41487, -1, 0, 0, False) /* Create Mechanical Scarab (41487) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

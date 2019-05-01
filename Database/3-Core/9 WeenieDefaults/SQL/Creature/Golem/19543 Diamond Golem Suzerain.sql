@@ -61,30 +61,30 @@ VALUES (19543,   1,    10, 0, 0, 18000) /* MaxHealth */
      , (19543,   5,    10, 0, 0, 1200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19543, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+VALUES (19543, 9, 28629,  0, 0, 0, False) /* Create Alduressa Coat (28629) for ContainTreasure */
+     , (19543, 9, 48967,  0, 0, 0, False) /* Create Fire Child Essence (150) (48967) for ContainTreasure */
+     , (19543, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (19543, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (19543, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (19543, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (19543, 9, 20604,  0, 0, 0, False) /* Create Scroll of Cannibalize (20604) for ContainTreasure */
+     , (19543, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (19543, 9,  3940,  0, 0, 0, False) /* Create Lightning Morning Star (3940) for ContainTreasure */
+     , (19543, 9, 31811,  0, 0, 0, False) /* Create Piercing Compound Crossbow (31811) for ContainTreasure */
+     , (19543, 9, 49314,  0, 0, 0, False) /* Create Acid Wisp Essence (150) (49314) for ContainTreasure */
+     , (19543, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (19543, 9,  3850,  0, 0, 0, False) /* Create Lightning Scimitar (3850) for ContainTreasure */
+     , (19543, 9, 49462,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VII (49462) for ContainTreasure */
+     , (19543, 9, 31801,  0, 0, 0, False) /* Create Electric Compound Bow (31801) for ContainTreasure */
+     , (19543, 9, 20429,  0, 0, 0, False) /* Create Scroll of Vagabond's Gift (20429) for ContainTreasure */
+     , (19543, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (19543, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (19543, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (19543, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
      , (19543, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (19543, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (19543, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
-     , (19543, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (19543, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (19543, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (19543, 9,  3836,  0, 0, 0, False) /* Create Flaming Mace (3836) for ContainTreasure */
-     , (19543, 9,  3850,  0, 0, 0, False) /* Create Lightning Scimitar (3850) for ContainTreasure */
-     , (19543, 9,  3940,  0, 0, 0, False) /* Create Lightning Morning Star (3940) for ContainTreasure */
-     , (19543, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
-     , (19543, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (19543, 9, 20429,  0, 0, 0, False) /* Create Scroll of Vagabond's Gift (20429) for ContainTreasure */
-     , (19543, 9, 20604,  0, 0, 0, False) /* Create Scroll of Cannibalize (20604) for ContainTreasure */
-     , (19543, 9, 28629,  0, 0, 0, False) /* Create Alduressa Coat (28629) for ContainTreasure */
-     , (19543, 9, 31801,  0, 0, 0, False) /* Create Electric Compound Bow (31801) for ContainTreasure */
-     , (19543, 9, 31811,  0, 0, 0, False) /* Create Piercing Compound Crossbow (31811) for ContainTreasure */
-     , (19543, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
-     , (19543, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
-     , (19543, 9, 48967,  0, 0, 0, False) /* Create Fire Child Essence (150) (48967) for ContainTreasure */
-     , (19543, 9, 49314,  0, 0, 0, False) /* Create Acid Wisp Essence (150) (49314) for ContainTreasure */
-     , (19543, 9, 49462,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VII (49462) for ContainTreasure */;
+     , (19543, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19543, 67112807, 0, 0);

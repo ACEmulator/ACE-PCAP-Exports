@@ -79,20 +79,22 @@ VALUES (677,   1,    10, 0, 0, 155) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (677, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (677, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
      , (677, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
+     , (677, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
+     , (677, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
+     , (677, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
+     , (677, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
+     , (677, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
+     , (677, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (677, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (677, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (677, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (677, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (677, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (677, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
-     , (677, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
-     , (677, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
-     , (677, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
+     , (677, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (677, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
-     , (677, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
-     , (677, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
-     , (677, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (677, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (677, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (677, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (677, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -100,16 +102,14 @@ VALUES (677, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (677, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (677, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (677, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (677, 4,  3756, -1, 0, 0, False) /* Create Flaming Hand Axe (3756) for Shop */
-     , (677, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
      , (677, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (677, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (677, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (677, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
-     , (677, 4, 22444, -1, 0, 0, False) /* Create Frost Dirk (22444) for Shop */
-     , (677, 4, 40623, -1, 0, 0, False) /* Create Quadrelle (40623) for Shop */
      , (677, 4, 45683, -1, 0, 0, False) /* Create  (45683) for Shop */
-     , (677, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
+     , (677, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */
+     , (677, 4,  3756, -1, 0, 0, False) /* Create Flaming Hand Axe (3756) for Shop */
+     , (677, 4, 40623, -1, 0, 0, False) /* Create Quadrelle (40623) for Shop */
+     , (677, 4, 22444, -1, 0, 0, False) /* Create Frost Dirk (22444) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (677, 67109561, 0, 24)

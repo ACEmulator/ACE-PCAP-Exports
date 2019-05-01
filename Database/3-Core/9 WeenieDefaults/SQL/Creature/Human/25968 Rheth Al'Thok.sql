@@ -68,11 +68,11 @@ VALUES (25968,   1,    10, 0, 0, 220) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25968, 2, 22792,  1, 0, 0, False) /* Create Bandit Rapier (22792) for Wield */
      , (25968, 2, 22798,  1, 0, 0, False) /* Create Bandit Yaoji (22798) for Wield */
-     , (25968, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (25968, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */
      , (25968, 9,  3821,  0, 0, 0, False) /* Create Frost Katar (3821) for ContainTreasure */
-     , (25968, 9, 25958,  1, 0, 0, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */
      , (25968, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
-     , (25968, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */;
+     , (25968, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (25968, 9, 25958,  1, 0, 0, False) /* Create Woven Tassel of Sound Mind (25958) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25968, 67109555, 0, 24)

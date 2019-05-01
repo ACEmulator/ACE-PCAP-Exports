@@ -77,10 +77,10 @@ VALUES (1823,   1,    10, 0, 0, 133) /* MaxHealth */
      , (1823,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1823, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
-     , (1823, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+VALUES (1823, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
      , (1823, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */
-     , (1823, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
+     , (1823, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (1823, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
      , (1823, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (1823, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
      , (1823, 4,  8373, -1, 0, 0, False) /* Create Kiyafa Robe (8373) for Shop */;

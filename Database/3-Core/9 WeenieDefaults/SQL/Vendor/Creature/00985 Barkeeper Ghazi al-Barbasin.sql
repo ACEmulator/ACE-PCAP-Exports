@@ -77,26 +77,26 @@ VALUES (985,   1,    10, 0, 0, 135) /* MaxHealth */
      , (985,   5,    10, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (985, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (985, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
-     , (985, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
-     , (985, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
-     , (985, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (985, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
+VALUES (985, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
      , (985, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (985, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (985, 4,  4712, -1, 0, 0, False) /* Create  (4712) for Shop */
-     , (985, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
-     , (985, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (985, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (985, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (985, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (985, 4,  4712, -1, 0, 0, False) /* Create  (4712) for Shop */
+     , (985, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (985, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (985, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (985, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
+     , (985, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
      , (985, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (985, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
-     , (985, 4, 13201, -1, 0, 0, False) /* Create Gharu'ndim Festival Light (13201) for Shop */
      , (985, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (985, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
-     , (985, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */
      , (985, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
-     , (985, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
+     , (985, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */
+     , (985, 4, 13201, -1, 0, 0, False) /* Create Gharu'ndim Festival Light (13201) for Shop */
+     , (985, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (985, 67109555, 0, 24)

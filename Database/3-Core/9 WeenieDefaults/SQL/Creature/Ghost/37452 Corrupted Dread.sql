@@ -62,19 +62,19 @@ VALUES (37452,   1,    10, 0, 0, 15210) /* MaxHealth */
      , (37452,   5,    10, 0, 0, 420) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37452, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (37452, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+VALUES (37452, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
      , (37452, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (37452, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
      , (37452, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (37452, 9,   273, 1823, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (37452, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (37452, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
      , (37452, 9,  3803,  0, 0, 0, False) /* Create Lightning Jitte (3803) for ContainTreasure */
      , (37452, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
-     , (37452, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
-     , (37452, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (37452, 9,   273, 1823, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (37452, 9, 35105,  1, 0, 0, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (37452, 9, 45151,  1, 0, 0, False) /* Create Mhoire Oubliette Portal Glyph (45151) for ContainTreasure */;
+     , (37452, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (37452, 9, 45151,  1, 0, 0, False) /* Create Mhoire Oubliette Portal Glyph (45151) for ContainTreasure */
+     , (37452, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (37452, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (37452, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37452, 67115254, 0, 0);

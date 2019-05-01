@@ -53,9 +53,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (45016, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
      , (45016, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (45016, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (45016, 9, 45019,  0, 0, 0, False) /* Create Wardley's Necklace (45019) for ContainTreasure */
+     , (45016, 9, 45021,  0, 0, 0, False) /* Create Wardley's Shirt (45021) for ContainTreasure */
      , (45016, 9, 45020,  0, 0, 0, False) /* Create Wardley's Boots (45020) for ContainTreasure */
-     , (45016, 9, 45021,  0, 0, 0, False) /* Create Wardley's Shirt (45021) for ContainTreasure */;
+     , (45016, 9, 45019,  0, 0, 0, False) /* Create Wardley's Necklace (45019) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45016, 67111664, 0, 0);

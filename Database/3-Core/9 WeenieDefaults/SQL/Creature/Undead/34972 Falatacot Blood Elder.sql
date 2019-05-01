@@ -50,11 +50,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34972,   1,    10, 0, 0, 2505) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34972, 2, 48104,  1, 0, 0, False) /* Create Khopesh (48104) for Wield */
-     , (34972, 2, 48105,  1, 0, 0, False) /* Create Sickle (48105) for Wield */
-     , (34972, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+VALUES (34972, 2, 48105,  1, 0, 0, False) /* Create Sickle (48105) for Wield */
+     , (34972, 2, 48104,  1, 0, 0, False) /* Create Khopesh (48104) for Wield */
      , (34972, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
      , (34972, 9, 37209,  0, 0, 0, False) /* Create Olthoi Celdon Sollerets (37209) for ContainTreasure */
+     , (34972, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
      , (34972, 9, 44977,  0, 0, 0, False) /* Create Lyceum Hood (44977) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

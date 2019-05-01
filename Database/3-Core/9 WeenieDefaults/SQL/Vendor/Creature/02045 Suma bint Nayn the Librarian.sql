@@ -81,14 +81,14 @@ VALUES (2045, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (2045, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (2045, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (2045, 4,  5696, -1, 0, 0, False) /* Create Lashanda's Hand (5696) for Shop */
-     , (2045, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */
-     , (2045, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
      , (2045, 4,  8076, -1, 0, 0, False) /* Create Midnight Revelation (8076) for Shop */
      , (2045, 4,  8077, -1, 0, 0, False) /* Create Recalling the Calling (8077) for Shop */
      , (2045, 4,  8078, -1, 0, 0, False) /* Create Derethian Skies (8078) for Shop */
-     , (2045, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
      , (2045, 4,  9122, -1, 0, 0, False) /* Create Interlude (9122) for Shop */
-     , (2045, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */;
+     , (2045, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */
+     , (2045, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
+     , (2045, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
+     , (2045, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2045, 67109556, 0, 24)

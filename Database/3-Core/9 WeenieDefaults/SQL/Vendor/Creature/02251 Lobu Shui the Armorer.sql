@@ -77,33 +77,27 @@ VALUES (2251,   1,    10, 0, 0, 155) /* MaxHealth */
      , (2251,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2251, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+VALUES (2251, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (2251, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (2251, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
+     , (2251, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (2251, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
+     , (2251, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (2251, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
      , (2251, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (2251, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
-     , (2251, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (2251, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
-     , (2251, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
-     , (2251, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (2251, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (2251, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (2251, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (2251, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
      , (2251, 4,    90, -1, 0, 0, False) /* Create Yoroi Pauldrons (90) for Shop */
-     , (2251, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
+     , (2251, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (2251, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (2251, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
+     , (2251, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
+     , (2251, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
+     , (2251, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (2251, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (2251, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
      , (2251, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (2251, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
-     , (2251, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (2251, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
-     , (2251, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (2251, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (2251, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
-     , (2251, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (2251, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (2251, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (2251, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (2251, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (2251, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (2251, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
-     , (2251, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
      , (2251, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2251, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (2251, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -115,11 +109,17 @@ VALUES (2251, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (2251, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (2251, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (2251, 4, 27215, -1, 0, 0, False) /* Create Chiran Coat (27215) for Shop */
-     , (2251, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
      , (2251, 4, 31866, -1, 0, 0, False) /* Create Coronet (31866) for Shop */
+     , (2251, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
+     , (2251, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
+     , (2251, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
      , (2251, 4, 40704, -1, 0, 0, False) /* Create Covenant Tassets (40704) for Shop */
+     , (2251, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
+     , (2251, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
      , (2251, 4, 49241, -1, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for Shop */
-     , (2251, 4, 49269, -1, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for Shop */;
+     , (2251, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
+     , (2251, 4, 49269, -1, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for Shop */
+     , (2251, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2251, 67110026, 72, 8)

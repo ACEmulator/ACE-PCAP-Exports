@@ -66,11 +66,11 @@ VALUES (27567,   1,    10, 0, 0, 175) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27567, 2,  6292,  1, 0, 0, False) /* Create Peerless Shivering Atlan Sword (6292) for Wield */
-     , (27567, 2,  6298,  1, 0, 0, False) /* Create Peerless Stinging Atlan Sword (6298) for Wield */
      , (27567, 2, 22885,  1, 0, 0, False) /* Create Bandit Shield (22885) for Wield */
-     , (27567, 2, 23708,  1, 0, 0, False) /* Create Fire Tachi (23708) for Wield */
+     , (27567, 2,  6298,  1, 0, 0, False) /* Create Peerless Stinging Atlan Sword (6298) for Wield */
      , (27567, 2, 23712,  1, 0, 0, False) /* Create Yaoji (23712) for Wield */
-     , (27567, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
-     , (27567, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (27567, 2, 23708,  1, 0, 0, False) /* Create Fire Tachi (23708) for Wield */
+     , (27567, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
      , (27567, 9, 28014,  0, 0, 0, False) /* Create Scroll of Spirit Loather VI (28014) for ContainTreasure */
-     , (27567, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */;
+     , (27567, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
+     , (27567, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;

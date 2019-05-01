@@ -62,14 +62,14 @@ VALUES (43487,   1,    10, 0, 0, 780) /* MaxHealth */
      , (43487,   5,    10, 0, 0, 640) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43487, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+VALUES (43487, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
      , (43487, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (43487, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (43487, 9,  9098,  1, 0, 0, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
-     , (43487, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
      , (43487, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */
+     , (43487, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
      , (43487, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
-     , (43487, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
+     , (43487, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (43487, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (43487, 9,  9098,  1, 0, 0, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43487, 67114286, 0, 0);

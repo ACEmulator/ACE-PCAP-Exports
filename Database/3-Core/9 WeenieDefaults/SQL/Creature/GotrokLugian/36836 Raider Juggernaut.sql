@@ -57,9 +57,9 @@ VALUES (36836,   1,    10, 0, 0, 513) /* MaxHealth */
      , (36836,   5,    10, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36836, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */
+VALUES (36836, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
+     , (36836, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */
      , (36836, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */
-     , (36836, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
      , (36836, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

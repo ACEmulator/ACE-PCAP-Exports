@@ -63,18 +63,18 @@ VALUES (24486,   1,    10, 0, 0, 555) /* MaxHealth */
      , (24486,   5,    10, 0, 0, 475) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24486, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
-     , (24486, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (24486, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+VALUES (24486, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
      , (24486, 9,   273, 845, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (24486, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
      , (24486, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (24486, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (24486, 9,  3673,  0, 0, 0, False) /* Create Wood Heart (3673) for ContainTreasure */
      , (24486, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (24486, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (24486, 9, 20250,  0, 0, 0, False) /* Create Scroll of Replenish (20250) for ContainTreasure */
-     , (24486, 9, 20486,  0, 0, 0, False) /* Create Scroll of Enervation (20486) for ContainTreasure */
-     , (24486, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
      , (24486, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (24486, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */;
+     , (24486, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (24486, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (24486, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
+     , (24486, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (24486, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (24486, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (24486, 9, 20486,  0, 0, 0, False) /* Create Scroll of Enervation (20486) for ContainTreasure */
+     , (24486, 9,  3673,  0, 0, 0, False) /* Create Wood Heart (3673) for ContainTreasure */
+     , (24486, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */;
