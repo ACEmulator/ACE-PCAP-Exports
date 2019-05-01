@@ -58,9 +58,9 @@ VALUES (49613,   1,    10, 0, 0, 1800) /* MaxHealth */
      , (49613,   5,    10, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49613, 9,   273, 4070, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (49613, 9, 30186,  1, 0, 0, False) /* Create Smithy's Crystal (30186) for ContainTreasure */
-     , (49613, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */;
+VALUES (49613, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */
+     , (49613, 9,   273, 4070, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (49613, 9, 30186,  1, 0, 0, False) /* Create Smithy's Crystal (30186) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49613, 67114794, 0, 0);

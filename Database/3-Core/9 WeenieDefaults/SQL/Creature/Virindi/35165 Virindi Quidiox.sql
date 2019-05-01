@@ -57,10 +57,10 @@ VALUES (35165,   1,    10, 0, 0, 5000) /* MaxHealth */
      , (35165,   5,    10, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35165, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+VALUES (35165, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
      , (35165, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (35165, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (35165, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */;
+     , (35165, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
+     , (35165, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35165, 67113145, 0, 0);

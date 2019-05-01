@@ -50,11 +50,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24498,   1,    10, 0, 0, 310) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24498, 2, 23636,  1, 0, 0, False) /* Create Cestus (23636) for Wield */
-     , (24498, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
-     , (24498, 2, 23706,  1, 0, 0, False) /* Create Fire Tachi (23706) for Wield */
+VALUES (24498, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
      , (24498, 2, 23709,  1, 0, 0, False) /* Create Yaoji (23709) for Wield */
+     , (24498, 2, 23636,  1, 0, 0, False) /* Create Cestus (23636) for Wield */
      , (24498, 2, 23717,  1, 0, 0, False) /* Create Fire Yaoji (23717) for Wield */
+     , (24498, 2, 23706,  1, 0, 0, False) /* Create Fire Tachi (23706) for Wield */
      , (24498, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
      , (24498, 9, 49461,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VI (49461) for ContainTreasure */;
 

@@ -60,29 +60,29 @@ VALUES (19297,   1,    10, 0, 0, 70) /* MaxHealth */
      , (19297,   5,    10, 0, 0, 55) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19297, 9,   273, 40, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (19297, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (19297, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (19297, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+VALUES (19297, 9, 46874,  0, 0, 0, False) /* Create Aura of Defender Other II (46874) for ContainTreasure */
      , (19297, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (19297, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
      , (19297, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (19297, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (19297, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
-     , (19297, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (19297, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (19297, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (19297, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (19297, 9, 45245,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other II (45245) for ContainTreasure */
+     , (19297, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (19297, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
      , (19297, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (19297, 9, 30596,  0, 0, 0, False) /* Create Poniard (30596) for ContainTreasure */
+     , (19297, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (19297, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (19297, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (19297, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
      , (19297, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (19297, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */
      , (19297, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
-     , (19297, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
-     , (19297, 9, 45245,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other II (45245) for ContainTreasure */
-     , (19297, 9, 46874,  0, 0, 0, False) /* Create Aura of Defender Other II (46874) for ContainTreasure */
-     , (19297, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (19297, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (19297, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (19297, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */
-     , (19297, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */;
+     , (19297, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (19297, 9,   273, 40, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (19297, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (19297, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19297, 67113802, 0, 0);

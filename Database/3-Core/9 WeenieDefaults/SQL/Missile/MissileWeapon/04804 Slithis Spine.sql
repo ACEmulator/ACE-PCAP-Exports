@@ -73,6 +73,6 @@ VALUES (4804, 8000, 3692523535) /* PCAPRecordedObjectIID */
      , (4804, 8008, 3692523536) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4804, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (4804, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
-     , (4804, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */;
+VALUES (4804, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (4804, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */
+     , (4804, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

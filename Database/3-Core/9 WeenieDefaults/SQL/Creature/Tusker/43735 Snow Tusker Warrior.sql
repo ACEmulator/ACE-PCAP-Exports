@@ -49,20 +49,20 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43735,   1,    10, 0, 0, 2470) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43735, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (43735, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (43735, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (43735, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */
-     , (43735, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (43735, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+VALUES (43735, 9, 44977,  0, 0, 0, False) /* Create Lyceum Hood (44977) for ContainTreasure */
      , (43735, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (43735, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (43735, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (43735, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (43735, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (43735, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (43735, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (43735, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (43735, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (43735, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */
      , (43735, 9, 37194,  0, 0, 0, False) /* Create Olthoi Greaves (37194) for ContainTreasure */
      , (43735, 9, 40819,  0, 0, 0, False) /* Create Acid Corsesca (40819) for ContainTreasure */
-     , (43735, 9, 41045,  0, 0, 0, False) /* Create Frost Magari Yari (41045) for ContainTreasure */
+     , (43735, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (43735, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (43735, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
-     , (43735, 9, 43742,  1, 0, 0, False) /* Create Snow Tusker Blood Sample (43742) for ContainTreasure */
-     , (43735, 9, 44977,  0, 0, 0, False) /* Create Lyceum Hood (44977) for ContainTreasure */;
+     , (43735, 9, 41045,  0, 0, 0, False) /* Create Frost Magari Yari (41045) for ContainTreasure */
+     , (43735, 9, 43742,  1, 0, 0, False) /* Create Snow Tusker Blood Sample (43742) for ContainTreasure */;

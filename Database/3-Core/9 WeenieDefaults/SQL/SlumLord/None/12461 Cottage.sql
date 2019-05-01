@@ -49,6 +49,6 @@ VALUES (12461, 8000, 2018230290) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12461, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (12461, 16,  3694,  1, 0, 0, False) /* Create Swamp Stone (3694) for HouseBuy */
      , (12461, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (12461, 16,  3694,  1, 0, 0, False) /* Create Swamp Stone (3694) for HouseBuy */
      , (12461, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

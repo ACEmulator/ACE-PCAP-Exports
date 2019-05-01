@@ -58,20 +58,20 @@ VALUES (4123,   1,    10, 0, 0, 113) /* MaxHealth */
      , (4123,   5,    10, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4123, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (4123, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+VALUES (4123, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
      , (4123, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (4123, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (4123, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
      , (4123, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
-     , (4123, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (4123, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (4123, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (4123, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */
+     , (4123, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (4123, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
      , (4123, 9,  4121,  0, 0, 0, False) /* Create Lich Skull (4121) for ContainTreasure */
-     , (4123, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (4123, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
+     , (4123, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */
+     , (4123, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (4123, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (4123, 9, 48959,  0, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for ContainTreasure */
-     , (4123, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */;
+     , (4123, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (4123, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4123, 67111665, 0, 0);

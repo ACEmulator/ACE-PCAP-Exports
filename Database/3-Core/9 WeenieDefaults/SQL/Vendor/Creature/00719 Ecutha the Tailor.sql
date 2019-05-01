@@ -77,21 +77,21 @@ VALUES (719,   1,    10, 0, 0, 63) /* MaxHealth */
      , (719,   5,    10, 0, 0, 55) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (719, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (719, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
-     , (719, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (719, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (719, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
-     , (719, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
-     , (719, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
-     , (719, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */
+VALUES (719, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
      , (719, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
-     , (719, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
-     , (719, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (719, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (719, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (719, 4,  5851, -1, 0, 0, False) /* Create Faran Robe with Hood (5851) for Shop */
      , (719, 4,  8371, -1, 0, 0, False) /* Create Kireth Gown with Band (8371) for Shop */
+     , (719, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
+     , (719, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
+     , (719, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
+     , (719, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (719, 4, 28611, -1, 0, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
+     , (719, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (719, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */
      , (719, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
-     , (719, 4, 28611, -1, 0, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */;
+     , (719, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (719, 67109558, 0, 24)

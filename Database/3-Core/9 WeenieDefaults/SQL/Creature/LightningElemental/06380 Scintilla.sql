@@ -62,25 +62,25 @@ VALUES (6380,   1,    10, 0, 0, 170) /* MaxHealth */
      , (6380,   5,    10, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6380, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
-     , (6380, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (6380, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (6380, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (6380, 9,   273, 629, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (6380, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (6380, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
-     , (6380, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
-     , (6380, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (6380, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (6380, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (6380, 9,  3302,  0, 0, 0, False) /* Create Scroll of Invulnerability Self VI (3302) for ContainTreasure */
-     , (6380, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+VALUES (6380, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
      , (6380, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (6380, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (6380, 9,  3302,  0, 0, 0, False) /* Create Scroll of Invulnerability Self VI (3302) for ContainTreasure */
      , (6380, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (6380, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (6380, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (6380, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (6380, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
-     , (6380, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
+     , (6380, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (6380, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (6380, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
      , (6380, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (6380, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
+     , (6380, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (6380, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (6380, 9, 40713,  0, 0, 0, False) /* Create Covenant Shield (40713) for ContainTreasure */
+     , (6380, 9,   273, 629, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (6380, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
+     , (6380, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
      , (6380, 9, 43326,  0, 0, 0, False) /* Create Scroll of Destructive Curse VII (43326) for ContainTreasure */
-     , (6380, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */;
+     , (6380, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
+     , (6380, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */;

@@ -62,9 +62,9 @@ VALUES (29351,   1,    10, 0, 0, 413) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29351, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */
+     , (29351, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
      , (29351, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (29351, 9,  4197,  0, 0, 0, False) /* Create Acid Nekode (4197) for ContainTreasure */
-     , (29351, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */;
+     , (29351, 9,  4197,  0, 0, 0, False) /* Create Acid Nekode (4197) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29351, 67114268, 0, 0);

@@ -60,11 +60,11 @@ VALUES (28650,   1,    10, 0, 0, 235) /* MaxHealth */
      , (28650,   5,    10, 0, 0, 255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28650, 9,   273, 122, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (28650, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
-     , (28650, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+VALUES (28650, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (28650, 9,   273, 122, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (28650, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
-     , (28650, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */;
+     , (28650, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (28650, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28650, 67116328, 0, 0);

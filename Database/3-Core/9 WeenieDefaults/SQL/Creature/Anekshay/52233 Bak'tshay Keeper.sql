@@ -70,9 +70,9 @@ VALUES (52233,   1,    10, 0, 0, 8308) /* MaxHealth */
      , (52233,   5,    10, 0, 0, 10245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52233, 9, 49577,  1, 0, 0, False) /* Create Signet Fragment (49577) for ContainTreasure */
-     , (52233, 9, 49578,  1, 0, 0, False) /* Create Signet Fragment (49578) for ContainTreasure */
-     , (52233, 9, 49579,  1, 0, 0, False) /* Create Signet Fragment (49579) for ContainTreasure */;
+VALUES (52233, 9, 49579,  1, 0, 0, False) /* Create Signet Fragment (49579) for ContainTreasure */
+     , (52233, 9, 49577,  1, 0, 0, False) /* Create Signet Fragment (49577) for ContainTreasure */
+     , (52233, 9, 49578,  1, 0, 0, False) /* Create Signet Fragment (49578) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52233, 67116886, 64, 8)

@@ -77,41 +77,41 @@ VALUES (9615,   1,    10, 0, 0, 65) /* MaxHealth */
      , (9615,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9615, 4,  9562, -1, 0, 0, False) /* Create  (9562) for Shop */
+VALUES (9615, 4,  9564, -1, 0, 0, False) /* Create Bow Skill Puzzle Piece (9564) for Shop */
+     , (9615, 4,  9593, -1, 0, 0, False) /* Create  (9593) for Shop */
+     , (9615, 4,  9590, -1, 0, 0, False) /* Create  (9590) for Shop */
      , (9615, 4,  9563, -1, 0, 0, False) /* Create Axe Skill Puzzle Piece (9563) for Shop */
-     , (9615, 4,  9564, -1, 0, 0, False) /* Create Bow Skill Puzzle Piece (9564) for Shop */
-     , (9615, 4,  9581, -1, 0, 0, False) /* Create  (9581) for Shop */
-     , (9615, 4,  9582, -1, 0, 0, False) /* Create Creature Enchantment Skill Puzzle Piece (9582) for Shop */
-     , (9615, 4,  9583, -1, 0, 0, False) /* Create  (9583) for Shop */
-     , (9615, 4,  9584, -1, 0, 0, False) /* Create Item Enchantment Skill Puzzle Piece (9584) for Shop */
-     , (9615, 4,  9585, -1, 0, 0, False) /* Create Life Magic Skill Puzzle Piece (9585) for Shop */
+     , (9615, 4,  9619, -1, 0, 0, False) /* Create  (9619) for Shop */
      , (9615, 4,  9586, -1, 0, 0, False) /* Create  (9586) for Shop */
      , (9615, 4,  9587, -1, 0, 0, False) /* Create  (9587) for Shop */
      , (9615, 4,  9588, -1, 0, 0, False) /* Create  (9588) for Shop */
      , (9615, 4,  9589, -1, 0, 0, False) /* Create  (9589) for Shop */
-     , (9615, 4,  9590, -1, 0, 0, False) /* Create  (9590) for Shop */
      , (9615, 4,  9591, -1, 0, 0, False) /* Create  (9591) for Shop */
+     , (9615, 4,  9562, -1, 0, 0, False) /* Create  (9562) for Shop */
+     , (9615, 4,  9581, -1, 0, 0, False) /* Create  (9581) for Shop */
+     , (9615, 4,  9583, -1, 0, 0, False) /* Create  (9583) for Shop */
      , (9615, 4,  9592, -1, 0, 0, False) /* Create War Magic Skill Puzzle Piece (9592) for Shop */
-     , (9615, 4,  9593, -1, 0, 0, False) /* Create  (9593) for Shop */
-     , (9615, 4,  9595, -1, 0, 0, False) /* Create Handbook of the Bestowers' Guild (9595) for Shop */
-     , (9615, 4,  9619, -1, 0, 0, False) /* Create  (9619) for Shop */
-     , (9615, 4, 11640, -1, 0, 0, False) /* Create  (11640) for Shop */
+     , (9615, 4,  9585, -1, 0, 0, False) /* Create Life Magic Skill Puzzle Piece (9585) for Shop */
+     , (9615, 4,  9584, -1, 0, 0, False) /* Create Item Enchantment Skill Puzzle Piece (9584) for Shop */
+     , (9615, 4,  9582, -1, 0, 0, False) /* Create Creature Enchantment Skill Puzzle Piece (9582) for Shop */
+     , (9615, 4, 11648, -1, 0, 0, False) /* Create Advanced Bow Skill Puzzle Piece (11648) for Shop */
+     , (9615, 4, 11650, -1, 0, 0, False) /* Create  (11650) for Shop */
+     , (9615, 4, 11653, -1, 0, 0, False) /* Create  (11653) for Shop */
+     , (9615, 4, 11649, -1, 0, 0, False) /* Create  (11649) for Shop */
+     , (9615, 4, 11645, -1, 0, 0, False) /* Create  (11645) for Shop */
      , (9615, 4, 11641, -1, 0, 0, False) /* Create  (11641) for Shop */
+     , (9615, 4, 11640, -1, 0, 0, False) /* Create  (11640) for Shop */
+     , (9615, 4, 11655, -1, 0, 0, False) /* Create  (11655) for Shop */
+     , (9615, 4, 11654, -1, 0, 0, False) /* Create  (11654) for Shop */
+     , (9615, 4, 11652, -1, 0, 0, False) /* Create  (11652) for Shop */
+     , (9615, 4, 11675, -1, 0, 0, False) /* Create  (11675) for Shop */
+     , (9615, 4, 11647, -1, 0, 0, False) /* Create  (11647) for Shop */
+     , (9615, 4, 11644, -1, 0, 0, False) /* Create  (11644) for Shop */
+     , (9615, 4, 11651, -1, 0, 0, False) /* Create Advanced War Magic Skill Puzzle Piece (11651) for Shop */
      , (9615, 4, 11642, -1, 0, 0, False) /* Create Advanced Life Magic Skill Puzzle Piece (11642) for Shop */
      , (9615, 4, 11643, -1, 0, 0, False) /* Create Advanced Item Enchantment Skill Puzzle Piece (11643) for Shop */
-     , (9615, 4, 11644, -1, 0, 0, False) /* Create  (11644) for Shop */
-     , (9615, 4, 11645, -1, 0, 0, False) /* Create  (11645) for Shop */
      , (9615, 4, 11646, -1, 0, 0, False) /* Create Advanced Creature Enchantment Skill Puzzle Piece (11646) for Shop */
-     , (9615, 4, 11647, -1, 0, 0, False) /* Create  (11647) for Shop */
-     , (9615, 4, 11648, -1, 0, 0, False) /* Create Advanced Bow Skill Puzzle Piece (11648) for Shop */
-     , (9615, 4, 11649, -1, 0, 0, False) /* Create  (11649) for Shop */
-     , (9615, 4, 11650, -1, 0, 0, False) /* Create  (11650) for Shop */
-     , (9615, 4, 11651, -1, 0, 0, False) /* Create Advanced War Magic Skill Puzzle Piece (11651) for Shop */
-     , (9615, 4, 11652, -1, 0, 0, False) /* Create  (11652) for Shop */
-     , (9615, 4, 11653, -1, 0, 0, False) /* Create  (11653) for Shop */
-     , (9615, 4, 11654, -1, 0, 0, False) /* Create  (11654) for Shop */
-     , (9615, 4, 11655, -1, 0, 0, False) /* Create  (11655) for Shop */
-     , (9615, 4, 11675, -1, 0, 0, False) /* Create  (11675) for Shop */;
+     , (9615, 4,  9595, -1, 0, 0, False) /* Create Handbook of the Bestowers' Guild (9595) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9615, 67109558, 0, 24)

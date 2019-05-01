@@ -68,18 +68,18 @@ VALUES (11377,   1,    10, 0, 0, 135) /* MaxHealth */
      , (11377,   5,    10, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11377, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (11377, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (11377, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
-     , (11377, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
-     , (11377, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (11377, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
+VALUES (11377, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
      , (11377, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (11377, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (11377, 4,  4712, -1, 0, 0, False) /* Create  (4712) for Shop */
-     , (11377, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
-     , (11377, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (11377, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (11377, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (11377, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (11377, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (11377, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
+     , (11377, 4,  4712, -1, 0, 0, False) /* Create  (4712) for Shop */
+     , (11377, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (11377, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
+     , (11377, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (11377, 4, 27596, -1, 0, 0, False) /* Create  (27596) for Shop */
      , (11377, 4, 27597, -1, 0, 0, False) /* Create  (27597) for Shop */
      , (11377, 4, 27598, -1, 0, 0, False) /* Create  (27598) for Shop */

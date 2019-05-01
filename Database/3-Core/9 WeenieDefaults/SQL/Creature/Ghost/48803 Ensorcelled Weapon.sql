@@ -51,6 +51,6 @@ VALUES (48803,   1,    10, 0, 0, 3675) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48803, 2, 47219,  1, 0, 0, False) /* Create Ensorcelled Sword (47219) for Wield */
-     , (48803, 2, 47220,  1, 0, 0, False) /* Create Ensorcelled Dagger (47220) for Wield */
      , (48803, 2, 47222,  1, 0, 0, False) /* Create Ensorcelled Mace (47222) for Wield */
+     , (48803, 2, 47220,  1, 0, 0, False) /* Create Ensorcelled Dagger (47220) for Wield */
      , (48803, 9, 48897,  0, 0, 0, False) /* Create Chipped Key (48897) for ContainTreasure */;

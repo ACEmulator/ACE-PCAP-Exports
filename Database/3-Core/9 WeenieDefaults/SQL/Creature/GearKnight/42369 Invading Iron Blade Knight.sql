@@ -60,11 +60,11 @@ VALUES (42369,   1,    10, 0, 0, 808) /* MaxHealth */
      , (42369,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42369, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
-     , (42369, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
-     , (42369, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
-     , (42369, 2, 41248,  1, 0, 0, False) /* Create Fire Gearknight Sword (41248) for Wield */
-     , (42369, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
+VALUES (42369, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */
+     , (42369, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */
+     , (42369, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
      , (42369, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */
-     , (42369, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */
-     , (42369, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */;
+     , (42369, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
+     , (42369, 2, 41248,  1, 0, 0, False) /* Create Fire Gearknight Sword (41248) for Wield */
+     , (42369, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+     , (42369, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */;

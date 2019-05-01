@@ -56,16 +56,16 @@ VALUES (27431,   1,    10, 0, 0, 3500) /* MaxHealth */
      , (27431,   5,    10, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27431, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
-     , (27431, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (27431, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (27431, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (27431, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (27431, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+VALUES (27431, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (27431, 9, 21108,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VII (21108) for ContainTreasure */
      , (27431, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
-     , (27431, 9, 27438,  0, 0, 0, False) /* Create Head of the Homunculus (27438) for ContainTreasure */
-     , (27431, 9, 41040,  0, 0, 0, False) /* Create Frost Assagai (41040) for ContainTreasure */;
+     , (27431, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (27431, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (27431, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (27431, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (27431, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (27431, 9, 41040,  0, 0, 0, False) /* Create Frost Assagai (41040) for ContainTreasure */
+     , (27431, 9, 27438,  0, 0, 0, False) /* Create Head of the Homunculus (27438) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27431, 0, 83886164, 83892909)

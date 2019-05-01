@@ -44,8 +44,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29309, 8000, 3709625921) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29309, 9,   273, 643, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (29309, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
-     , (29309, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+VALUES (29309, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
      , (29309, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (29309, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */;
+     , (29309, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
+     , (29309, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (29309, 9,   273, 643, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;

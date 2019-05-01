@@ -51,20 +51,20 @@ VALUES (27863,   1,    10, 0, 0, 275) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27863, 2, 47546,  1, 0, 0, False) /* Create Javelin (47546) for Wield */
+     , (27863, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
      , (27863, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
      , (27863, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
-     , (27863, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
-     , (27863, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
      , (27863, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (27863, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (27863, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (27863, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (27863, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (27863, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (27863, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
+     , (27863, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (27863, 9,  3237,  0, 0, 0, False) /* Create Scroll of Deception Ineptitude VI (3237) for ContainTreasure */
      , (27863, 9,  3694,  0, 0, 0, False) /* Create Swamp Stone (3694) for ContainTreasure */
-     , (27863, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (27863, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
-     , (27863, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
-     , (27863, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
-     , (27863, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (27863, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
+     , (27863, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27863, 67113405, 0, 0);

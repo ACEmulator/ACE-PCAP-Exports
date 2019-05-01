@@ -59,17 +59,17 @@ VALUES (32483,   1,    10, 0, 0, 5180) /* MaxHealth */
      , (32483,   5,    10, 0, 0, 3395) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32483, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (32483, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (32483, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (32483, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (32483, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (32483, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+VALUES (32483, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (32483, 9, 32484,  1, 0, 0, False) /* Create A Huge Lump of Coal (32484) for ContainTreasure */
      , (32483, 9,  5768, 24, 0, 0, False) /* Create Poofy Snowball (5768) for ContainTreasure */
-     , (32483, 9, 20519,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Ineptitude Other VII (20519) for ContainTreasure */
-     , (32483, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */
      , (32483, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
-     , (32483, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
-     , (32483, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
+     , (32483, 9, 20519,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Ineptitude Other VII (20519) for ContainTreasure */
+     , (32483, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
      , (32483, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
-     , (32483, 9, 32484,  1, 0, 0, False) /* Create A Huge Lump of Coal (32484) for ContainTreasure */;
+     , (32483, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
+     , (32483, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (32483, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
+     , (32483, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (32483, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (32483, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */
+     , (32483, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;

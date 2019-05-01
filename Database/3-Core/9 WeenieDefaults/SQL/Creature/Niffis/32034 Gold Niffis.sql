@@ -60,17 +60,17 @@ VALUES (32034,   1,    10, 0, 0, 6360) /* MaxHealth */
      , (32034,   5,    10, 0, 0, 5130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32034, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (32034, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (32034, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
-     , (32034, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (32034, 9, 20237,  0, 0, 0, False) /* Create Scroll of Perseverance (20237) for ContainTreasure */
+VALUES (32034, 9, 49437,  0, 0, 0, False) /* Create Fire Spectre Essence (100) (49437) for ContainTreasure */
+     , (32034, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (32034, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */
-     , (32034, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
-     , (32034, 9, 29246,  0, 0, 0, False) /* Create Ultimate Singularity Crossbow (29246) for ContainTreasure */
-     , (32034, 9, 32036,  0, 0, 0, False) /* Create Gold Niffis Tentacle (32036) for ContainTreasure */
      , (32034, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
-     , (32034, 9, 49437,  0, 0, 0, False) /* Create Fire Spectre Essence (100) (49437) for ContainTreasure */;
+     , (32034, 9, 29246,  0, 0, 0, False) /* Create Ultimate Singularity Crossbow (29246) for ContainTreasure */
+     , (32034, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (32034, 9, 20237,  0, 0, 0, False) /* Create Scroll of Perseverance (20237) for ContainTreasure */
+     , (32034, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (32034, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (32034, 9, 32036,  0, 0, 0, False) /* Create Gold Niffis Tentacle (32036) for ContainTreasure */
+     , (32034, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32034, 67116786, 0, 0);

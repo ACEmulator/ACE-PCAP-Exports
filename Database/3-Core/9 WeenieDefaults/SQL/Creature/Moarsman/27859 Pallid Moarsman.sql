@@ -62,11 +62,11 @@ VALUES (27859,   1,    10, 0, 0, 95) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27859, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (27859, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (27859, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (27859, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (27859, 9,  9648,  0, 0, 0, False) /* Create Scroll of Mana to Stamina Self V (9648) for ContainTreasure */
-     , (27859, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */;
+     , (27859, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
+     , (27859, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (27859, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (27859, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27859, 67115234, 0, 0);

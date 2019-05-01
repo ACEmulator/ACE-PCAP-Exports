@@ -63,11 +63,11 @@ VALUES (51316,   1,    10, 0, 0, 2200) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51316, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
      , (51316, 2, 48323,  1, 0, 0, False) /* Create Arrow (48323) for Wield */
+     , (51316, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
      , (51316, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (51316, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (51316, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
      , (51316, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (51316, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */;
+     , (51316, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (51316, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51316, 67113362, 0, 0);

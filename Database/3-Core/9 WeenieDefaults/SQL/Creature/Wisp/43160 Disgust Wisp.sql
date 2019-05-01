@@ -59,6 +59,6 @@ VALUES (43160,   1,    10, 0, 0, 2125) /* MaxHealth */
      , (43160,   5,    10, 0, 0, 2345) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43160, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
-     , (43160, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (43160, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */;
+VALUES (43160, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (43160, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */
+     , (43160, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */;

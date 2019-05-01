@@ -61,8 +61,8 @@ VALUES (28671,   1,    10, 0, 0, 220) /* MaxHealth */
      , (28671,   5,    10, 0, 0, 42) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28671, 2, 48599,  1, 0, 0, False) /* Create Icy Club (48599) for Wield */
-     , (28671, 2, 48600,  1, 0, 0, False) /* Create Frozen Dagger (48600) for Wield */
+VALUES (28671, 2, 48600,  1, 0, 0, False) /* Create Frozen Dagger (48600) for Wield */
+     , (28671, 2, 48599,  1, 0, 0, False) /* Create Icy Club (48599) for Wield */
      , (28671, 2, 48601,  1, 0, 0, False) /* Create Ice Shard (48601) for Wield */
      , (28671, 2, 48602,  1, 0, 0, False) /* Create Frigid Splinter (48602) for Wield */
      , (28671, 2, 48603,  1, 0, 0, False) /* Create Glacial Blade (48603) for Wield */;

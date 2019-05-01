@@ -61,18 +61,18 @@ VALUES (31901,   1,    10, 0, 0, 2703) /* MaxHealth */
      , (31901,   5,    10, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31901, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (31901, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (31901, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (31901, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (31901, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+VALUES (31901, 9, 29254,  0, 0, 0, False) /* Create Electric Atlatl (29254) for ContainTreasure */
      , (31901, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
-     , (31901, 9, 20606,  0, 0, 0, False) /* Create Scroll of Self Sacrifice (20606) for ContainTreasure */
      , (31901, 9, 20609,  0, 0, 0, False) /* Create Scroll of Gift of Vigor (20609) for ContainTreasure */
-     , (31901, 9, 27225,  0, 0, 0, False) /* Create Lorica Sleeves (27225) for ContainTreasure */
-     , (31901, 9, 29254,  0, 0, 0, False) /* Create Electric Atlatl (29254) for ContainTreasure */
+     , (31901, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (31901, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (31901, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (31901, 9, 31819,  0, 0, 0, False) /* Create Staff (31819) for ContainTreasure */
+     , (31901, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (31901, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
      , (31901, 9, 30586,  0, 0, 0, False) /* Create Flanged Mace (30586) for ContainTreasure */
-     , (31901, 9, 31819,  0, 0, 0, False) /* Create Staff (31819) for ContainTreasure */;
+     , (31901, 9, 20606,  0, 0, 0, False) /* Create Scroll of Self Sacrifice (20606) for ContainTreasure */
+     , (31901, 9, 27225,  0, 0, 0, False) /* Create Lorica Sleeves (27225) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31901, 67116774, 0, 0);

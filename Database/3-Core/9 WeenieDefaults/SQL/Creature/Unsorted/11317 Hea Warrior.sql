@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11317, 8000, 3629544981) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11317, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (11317, 2, 11891,  1, 0, 0, False) /* Create Balister of the Quiddity (11891) for Wield */;
+VALUES (11317, 2, 11891,  1, 0, 0, False) /* Create Balister of the Quiddity (11891) for Wield */
+     , (11317, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11317, 67116625, 105, 48)

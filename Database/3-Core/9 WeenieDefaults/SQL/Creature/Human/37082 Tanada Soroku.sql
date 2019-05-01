@@ -67,12 +67,12 @@ VALUES (37082,   1,    10, 0, 0, 1000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37082, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
+     , (37082, 9, 40711,  0, 0, 0, False) /* Create Covenant Helm (40711) for ContainTreasure */
      , (37082, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
-     , (37082, 9,  3804,  0, 0, 0, False) /* Create Flaming Jitte (3804) for ContainTreasure */
-     , (37082, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
-     , (37082, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
      , (37082, 9, 37083,  0, 0, 0, False) /* Create Sword of Soroku (37083) for ContainTreasure */
-     , (37082, 9, 40711,  0, 0, 0, False) /* Create Covenant Helm (40711) for ContainTreasure */;
+     , (37082, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
+     , (37082, 9,  3804,  0, 0, 0, False) /* Create Flaming Jitte (3804) for ContainTreasure */
+     , (37082, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37082, 67109565, 32, 8)

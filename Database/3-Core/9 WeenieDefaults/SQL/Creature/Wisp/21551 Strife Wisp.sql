@@ -59,10 +59,10 @@ VALUES (21551,   1,    10, 0, 0, 225) /* MaxHealth */
      , (21551,   5,    10, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21551, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (21551, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+VALUES (21551, 9, 49462,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VII (49462) for ContainTreasure */
      , (21551, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (21551, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (21551, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (21551, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (21551, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (21551, 9, 49462,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VII (49462) for ContainTreasure */;
+     , (21551, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (21551, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (21551, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;

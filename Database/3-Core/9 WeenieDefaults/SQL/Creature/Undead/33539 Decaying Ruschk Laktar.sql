@@ -60,12 +60,12 @@ VALUES (33539,   1,    10, 0, 0, 920) /* MaxHealth */
      , (33539,   5,    10, 0, 0, 780) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33539, 2, 48629,  1, 0, 0, False) /* Create Icy Club (48629) for Wield */
+VALUES (33539, 2, 48633,  1, 0, 0, False) /* Create Glacial Blade (48633) for Wield */
+     , (33539, 2, 48632,  1, 0, 0, False) /* Create Frigid Splinter (48632) for Wield */
+     , (33539, 2, 48629,  1, 0, 0, False) /* Create Icy Club (48629) for Wield */
      , (33539, 2, 48630,  1, 0, 0, False) /* Create Frozen Dagger (48630) for Wield */
      , (33539, 2, 48631,  1, 0, 0, False) /* Create Ice Shard (48631) for Wield */
-     , (33539, 2, 48632,  1, 0, 0, False) /* Create Frigid Splinter (48632) for Wield */
-     , (33539, 2, 48633,  1, 0, 0, False) /* Create Glacial Blade (48633) for Wield */
      , (33539, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (33539, 9, 37208,  0, 0, 0, False) /* Create Olthoi Amuli Sollerets (37208) for ContainTreasure */
      , (33539, 9, 45411,  0, 0, 0, False) /* Create Spada (45411) for ContainTreasure */
-     , (33539, 9, 49231,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (150) (49231) for ContainTreasure */;
+     , (33539, 9, 49231,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (150) (49231) for ContainTreasure */
+     , (33539, 9, 37208,  0, 0, 0, False) /* Create Olthoi Amuli Sollerets (37208) for ContainTreasure */;

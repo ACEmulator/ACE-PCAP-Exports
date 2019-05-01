@@ -57,10 +57,10 @@ VALUES (31022,   1,    10, 0, 0, 929) /* MaxHealth */
      , (31022,   5,    10, 0, 0, 767) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31022, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (31022, 9, 20526,  0, 0, 0, False) /* Create Scroll of Sashi Mu's Kiss (20526) for ContainTreasure */
+VALUES (31022, 9, 20526,  0, 0, 0, False) /* Create Scroll of Sashi Mu's Kiss (20526) for ContainTreasure */
+     , (31022, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
      , (31022, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
-     , (31022, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */;
+     , (31022, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31022, 67116368, 0, 0);

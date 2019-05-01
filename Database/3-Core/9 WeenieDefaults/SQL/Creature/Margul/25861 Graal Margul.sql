@@ -62,11 +62,11 @@ VALUES (25861,   1,    10, 0, 0, 755) /* MaxHealth */
      , (25861,   5,    10, 0, 0, 710) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25861, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (25861, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (25861, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+VALUES (25861, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */
      , (25861, 9, 30823,  0, 0, 0, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
-     , (25861, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */;
+     , (25861, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (25861, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (25861, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25861, 67114733, 0, 0);

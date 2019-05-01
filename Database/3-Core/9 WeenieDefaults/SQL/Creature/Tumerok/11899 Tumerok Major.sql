@@ -61,24 +61,24 @@ VALUES (11899,   1,    10, 0, 0, 110) /* MaxHealth */
      , (11899,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11899, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+VALUES (11899, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */
      , (11899, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (11899, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (11899, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (11899, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
-     , (11899, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
      , (11899, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
-     , (11899, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
-     , (11899, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
-     , (11899, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
-     , (11899, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
-     , (11899, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
      , (11899, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
+     , (11899, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (11899, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
+     , (11899, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
+     , (11899, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (11899, 2, 11916,  1, 0, 0, False) /* Create Blade of the Quiddity (11916) for Wield */
+     , (11899, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (11899, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
      , (11899, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
-     , (11899, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */
+     , (11899, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (11899, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (11899, 2, 11907,  1, 0, 0, False) /* Create Mace of the Quiddity (11907) for Wield */
+     , (11899, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
      , (11899, 2, 11913,  1, 0, 0, False) /* Create Lance of the Quiddity (11913) for Wield */
-     , (11899, 2, 11916,  1, 0, 0, False) /* Create Blade of the Quiddity (11916) for Wield */;
+     , (11899, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11899, 67116625, 105, 48)

@@ -61,10 +61,10 @@ VALUES (25857,   1,    10, 0, 0, 1000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25857, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (25857, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (25857, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (25857, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
-     , (25857, 9, 20461,  0, 0, 0, False) /* Create Scroll of Cameron's Curse (20461) for ContainTreasure */
      , (25857, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
+     , (25857, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (25857, 9, 41043,  0, 0, 0, False) /* Create Lightning Magari Yari (41043) for ContainTreasure */
+     , (25857, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (25857, 9, 20461,  0, 0, 0, False) /* Create Scroll of Cameron's Curse (20461) for ContainTreasure */
      , (25857, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
-     , (25857, 9, 41043,  0, 0, 0, False) /* Create Lightning Magari Yari (41043) for ContainTreasure */;
+     , (25857, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;

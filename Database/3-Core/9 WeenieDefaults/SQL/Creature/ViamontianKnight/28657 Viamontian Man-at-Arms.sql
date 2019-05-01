@@ -61,18 +61,18 @@ VALUES (28657,   1,    10, 0, 0, 460) /* MaxHealth */
      , (28657,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28657, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
-     , (28657, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */
+VALUES (28657, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */
      , (28657, 2, 29981,  1, 0, 0, False) /* Create Throwing Axe (29981) for Wield */
-     , (28657, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */
-     , (28657, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (28657, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (28657, 9,  5973,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Other VI (5973) for ContainTreasure */
-     , (28657, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */
-     , (28657, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
-     , (28657, 9, 31286,  0, 0, 0, False) /* Create Tethana's Response (31286) for ContainTreasure */
+     , (28657, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
      , (28657, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */
-     , (28657, 9, 31861,  1, 0, 0, False) /* Create Fort Tethana Portal Gem (31861) for ContainTreasure */;
+     , (28657, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
+     , (28657, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */
+     , (28657, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (28657, 9, 31861,  1, 0, 0, False) /* Create Fort Tethana Portal Gem (31861) for ContainTreasure */
+     , (28657, 9, 31286,  0, 0, 0, False) /* Create Tethana's Response (31286) for ContainTreasure */
+     , (28657, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (28657, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */
+     , (28657, 9,  5973,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Other VI (5973) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28657, 67115519, 0, 0);

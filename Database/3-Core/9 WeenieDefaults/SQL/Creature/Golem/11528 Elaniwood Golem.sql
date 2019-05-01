@@ -56,19 +56,19 @@ VALUES (11528,   1,    10, 0, 0, 140) /* MaxHealth */
      , (11528,   5,    10, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11528, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
-     , (11528, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (11528, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (11528, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (11528, 9,   273, 42, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (11528, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (11528, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (11528, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (11528, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
-     , (11528, 9,  5974,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Self (5974) for ContainTreasure */
-     , (11528, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+VALUES (11528, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
      , (11528, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (11528, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (11528, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
      , (11528, 9, 11350,  0, 0, 0, False) /* Create Elaniwood Golem Heart (11350) for ContainTreasure */
-     , (11528, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (11528, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (11528, 9,   273, 42, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11528, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (11528, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (11528, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (11528, 9,  5974,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Self (5974) for ContainTreasure */
      , (11528, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (11528, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */;
+     , (11528, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (11528, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (11528, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (11528, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */;

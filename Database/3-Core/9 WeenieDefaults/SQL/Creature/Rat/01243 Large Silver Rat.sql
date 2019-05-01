@@ -62,26 +62,26 @@ VALUES (1243,   1,    10, 0, 0, 90) /* MaxHealth */
      , (1243,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1243, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (1243, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (1243, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+VALUES (1243, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
      , (1243, 9,   273, 50, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1243, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
-     , (1243, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (1243, 9,  2789,  0, 0, 0, False) /* Create Scroll of Blood Loather IV (2789) for ContainTreasure */
+     , (1243, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (1243, 9,  1250,  0, 0, 0, False) /* Create Key (1250) for ContainTreasure */
+     , (1243, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (1243, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
      , (1243, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (1243, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
-     , (1243, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (1243, 9, 48959,  0, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for ContainTreasure */
      , (1243, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
-     , (1243, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (1243, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (1243, 9,  2789,  0, 0, 0, False) /* Create Scroll of Blood Loather IV (2789) for ContainTreasure */
-     , (1243, 9,  9664,  0, 0, 0, False) /* Create Scroll of Drain Mana Other V (9664) for ContainTreasure */
-     , (1243, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (1243, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
      , (1243, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (1243, 9, 48959,  0, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for ContainTreasure */;
+     , (1243, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1243, 9,  9664,  0, 0, 0, False) /* Create Scroll of Drain Mana Other V (9664) for ContainTreasure */
+     , (1243, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1243, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (1243, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (1243, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (1243, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
+     , (1243, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (1243, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1243, 67111796, 0, 0);

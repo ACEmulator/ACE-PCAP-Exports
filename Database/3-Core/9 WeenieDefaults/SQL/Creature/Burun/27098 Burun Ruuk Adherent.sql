@@ -50,13 +50,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (27098,   1,    10, 0, 0, 315) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27098, 2, 26025,  1, 0, 0, False) /* Create Stone Axe (26025) for Wield */
-     , (27098, 2, 26034,  1, 0, 0, False) /* Create Bone Dagger (26034) for Wield */
-     , (27098, 2, 26046,  1, 0, 0, False) /* Create Stone Mace (26046) for Wield */
+VALUES (27098, 2, 26046,  1, 0, 0, False) /* Create Stone Mace (26046) for Wield */
+     , (27098, 2, 26025,  1, 0, 0, False) /* Create Stone Axe (26025) for Wield */
      , (27098, 2, 26055,  1, 0, 0, False) /* Create Bone Sword (26055) for Wield */
-     , (27098, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
+     , (27098, 2, 26034,  1, 0, 0, False) /* Create Bone Dagger (26034) for Wield */
      , (27098, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (27098, 9, 45122,  0, 0, 0, False) /* Create Frost Hand Wraps (45122) for ContainTreasure */;
+     , (27098, 9, 45122,  0, 0, 0, False) /* Create Frost Hand Wraps (45122) for ContainTreasure */
+     , (27098, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27098, 67114924, 0, 0);

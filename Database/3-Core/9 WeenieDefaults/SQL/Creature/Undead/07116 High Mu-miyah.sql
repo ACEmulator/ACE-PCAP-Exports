@@ -60,17 +60,17 @@ VALUES (7116,   1,    10, 0, 0, 230) /* MaxHealth */
      , (7116,   5,    10, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7116, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+VALUES (7116, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (7116, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (7116, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (7116, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (7116, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */
+     , (7116, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
      , (7116, 9,   273, 679, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7116, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (7116, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
      , (7116, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
      , (7116, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (7116, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (7116, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (7116, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (7116, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */;
+     , (7116, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (7116, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7116, 67111828, 0, 0);

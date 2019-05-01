@@ -62,15 +62,15 @@ VALUES (36841,   1,    10, 0, 0, 1800) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36841, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
-     , (36841, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (36841, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (36841, 9, 22442,  0, 0, 0, False) /* Create Lightning Dirk (22442) for ContainTreasure */
-     , (36841, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
-     , (36841, 9, 27218,  0, 0, 0, False) /* Create Chiran Leggings (27218) for ContainTreasure */
      , (36841, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
-     , (36841, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
      , (36841, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
-     , (36841, 9, 49539,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (80) (49539) for ContainTreasure */;
+     , (36841, 9, 49539,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (80) (49539) for ContainTreasure */
+     , (36841, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (36841, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (36841, 9, 27218,  0, 0, 0, False) /* Create Chiran Leggings (27218) for ContainTreasure */
+     , (36841, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
+     , (36841, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36841, 67114292, 0, 0);

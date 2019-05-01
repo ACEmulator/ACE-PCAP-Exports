@@ -61,16 +61,16 @@ VALUES (35835,   1,    10, 0, 0, 4682) /* MaxHealth */
      , (35835,   5,    10, 0, 0, 4920) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35835, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
-     , (35835, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (35835, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+VALUES (35835, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
+     , (35835, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
      , (35835, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
-     , (35835, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
-     , (35835, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (35835, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+     , (35835, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
      , (35835, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (35835, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
      , (35835, 9, 28626,  0, 0, 0, False) /* Create Diforsa Tassets (28626) for ContainTreasure */
-     , (35835, 9, 49423,  0, 0, 0, False) /* Create Acid Spectre Essence (100) (49423) for ContainTreasure */;
+     , (35835, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (35835, 9, 49423,  0, 0, 0, False) /* Create Acid Spectre Essence (100) (49423) for ContainTreasure */
+     , (35835, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35835, 67116636, 153, 47)

@@ -77,16 +77,16 @@ VALUES (663,   1,    10, 0, 0, 78) /* MaxHealth */
      , (663,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (663, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+VALUES (663, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (663, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (663, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (663, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (663, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (663, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
+     , (663, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (663, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (663, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (663, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (663, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (663, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (663, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (663, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (663, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
-     , (663, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (663, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
      , (663, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
      , (663, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (663, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */

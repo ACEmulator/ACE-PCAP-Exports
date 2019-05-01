@@ -82,14 +82,14 @@ VALUES (2044, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (2044, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (2044, 4,  5699, -1, 0, 0, False) /* Create On the Four Stones and Three Elders (5699) for Shop */
      , (2044, 4,  5700, -1, 0, 0, False) /* Create The Story of Koji's Sword (5700) for Shop */
-     , (2044, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */
-     , (2044, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
      , (2044, 4,  8079, -1, 0, 0, False) /* Create Loka Jii Learns to Hunt (8079) for Shop */
      , (2044, 4,  8080, -1, 0, 0, False) /* Create The Emperor's Blade (8080) for Shop */
      , (2044, 4,  8081, -1, 0, 0, False) /* Create The Journal of Nandesu Ka (8081) for Shop */
-     , (2044, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
      , (2044, 4,  9122, -1, 0, 0, False) /* Create Interlude (9122) for Shop */
-     , (2044, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */;
+     , (2044, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons (10700) for Shop */
+     , (2044, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
+     , (2044, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
+     , (2044, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2044, 67109969, 92, 4)

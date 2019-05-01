@@ -43,8 +43,8 @@ VALUES (9381, 8000, 2780667836) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9381, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (9381, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (9381, 9,  8812,  0, 0, 0, False) /* Create Esard's Life Magic Scroll (8812) for ContainTreasure */;
+     , (9381, 9,  8812,  0, 0, 0, False) /* Create Esard's Life Magic Scroll (8812) for ContainTreasure */
+     , (9381, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9381, 67111815, 0, 0);

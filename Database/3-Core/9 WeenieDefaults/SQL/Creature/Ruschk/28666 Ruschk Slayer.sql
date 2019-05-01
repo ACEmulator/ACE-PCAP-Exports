@@ -61,11 +61,11 @@ VALUES (28666,   1,    10, 0, 0, 150) /* MaxHealth */
      , (28666,   5,    10, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28666, 2, 48589,  1, 0, 0, False) /* Create Icy Club (48589) for Wield */
-     , (28666, 2, 48590,  1, 0, 0, False) /* Create Frozen Dagger (48590) for Wield */
-     , (28666, 2, 48591,  1, 0, 0, False) /* Create Ice Shard (48591) for Wield */
+VALUES (28666, 2, 48591,  1, 0, 0, False) /* Create Ice Shard (48591) for Wield */
+     , (28666, 2, 48589,  1, 0, 0, False) /* Create Icy Club (48589) for Wield */
      , (28666, 2, 48592,  1, 0, 0, False) /* Create Frigid Splinter (48592) for Wield */
      , (28666, 2, 48593,  1, 0, 0, False) /* Create Glacial Blade (48593) for Wield */
+     , (28666, 2, 48590,  1, 0, 0, False) /* Create Frozen Dagger (48590) for Wield */
      , (28666, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
      , (28666, 9, 21306,  0, 0, 0, False) /* Create Scroll of Flame Arc V (21306) for ContainTreasure */;
 

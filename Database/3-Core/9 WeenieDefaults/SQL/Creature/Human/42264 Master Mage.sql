@@ -68,14 +68,14 @@ VALUES (42264,   1,    10, 0, 0, 890) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42264, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */
-     , (42264, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (42264, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
      , (42264, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
-     , (42264, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
-     , (42264, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
-     , (42264, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */
+     , (42264, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (42264, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */
      , (42264, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
-     , (42264, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */;
+     , (42264, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */
+     , (42264, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (42264, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (42264, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (42264, 0, 16795621)

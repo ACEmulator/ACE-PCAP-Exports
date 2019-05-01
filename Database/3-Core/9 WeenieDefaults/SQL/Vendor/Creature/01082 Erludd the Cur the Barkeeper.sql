@@ -77,21 +77,21 @@ VALUES (1082,   1,    10, 0, 0, 150) /* MaxHealth */
      , (1082,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1082, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (1082, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
-     , (1082, 4,  1402, -1, 0, 0, False) /* Create  (1402) for Shop */
-     , (1082, 4,  1511, -1, 0, 0, False) /* Create  (1511) for Shop */
-     , (1082, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
-     , (1082, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+VALUES (1082, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1082, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
-     , (1082, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (1082, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (1082, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
+     , (1082, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (1082, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (1082, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (1082, 4,  4719, -1, 0, 0, False) /* Create Chicken Stew (4719) for Shop */
+     , (1082, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (1082, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
-     , (1082, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (1082, 4,  5004, -1, 0, 0, False) /* Create  (5004) for Shop */
-     , (1082, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */;
+     , (1082, 4,  4719, -1, 0, 0, False) /* Create Chicken Stew (4719) for Shop */
+     , (1082, 4,  1223, -1, 0, 0, False) /* Create Rithwic Portal Directions (1223) for Shop */
+     , (1082, 4,  1511, -1, 0, 0, False) /* Create  (1511) for Shop */
+     , (1082, 4,  1402, -1, 0, 0, False) /* Create  (1402) for Shop */
+     , (1082, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
+     , (1082, 4,  5004, -1, 0, 0, False) /* Create  (5004) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1082, 67109560, 0, 24)

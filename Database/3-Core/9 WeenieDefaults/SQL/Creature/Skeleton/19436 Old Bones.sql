@@ -58,33 +58,33 @@ VALUES (19436,   1,    10, 0, 0, 43) /* MaxHealth */
      , (19436,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19436, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (19436, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (19436, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (19436, 2, 47419,  1, 0, 0, False) /* Create Acid Mace (47419) for Wield */
+VALUES (19436, 2, 47686,  1, 0, 0, False) /* Create Frost Tachi (47686) for Wield */
      , (19436, 2, 47438,  1, 0, 0, False) /* Create Mace (47438) for Wield */
-     , (19436, 2, 47457,  1, 0, 0, False) /* Create Lightning Mace (47457) for Wield */
-     , (19436, 2, 47476,  1, 0, 0, False) /* Create Flaming Mace (47476) for Wield */
-     , (19436, 2, 47495,  1, 0, 0, False) /* Create Frost Mace (47495) for Wield */
-     , (19436, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */
-     , (19436, 2, 47634,  1, 0, 0, False) /* Create Tachi (47634) for Wield */
-     , (19436, 2, 47653,  1, 0, 0, False) /* Create Lightning Tachi (47653) for Wield */
-     , (19436, 2, 47668,  1, 0, 0, False) /* Create Flaming Tachi (47668) for Wield */
-     , (19436, 2, 47686,  1, 0, 0, False) /* Create Frost Tachi (47686) for Wield */
-     , (19436, 2, 47705,  1, 0, 0, False) /* Create Acid Spear (47705) for Wield */
-     , (19436, 2, 47724,  1, 0, 0, False) /* Create Spear (47724) for Wield */
      , (19436, 2, 47743,  1, 0, 0, False) /* Create Lightning Spear (47743) for Wield */
      , (19436, 2, 47762,  1, 0, 0, False) /* Create Flaming Spear (47762) for Wield */
-     , (19436, 2, 47781,  1, 0, 0, False) /* Create Frost Spear (47781) for Wield */
-     , (19436, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
-     , (19436, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (19436, 2, 48233,  1, 0, 0, False) /* Create Electric Compound Bow (48233) for Wield */
      , (19436, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (19436, 2, 47634,  1, 0, 0, False) /* Create Tachi (47634) for Wield */
+     , (19436, 2, 47724,  1, 0, 0, False) /* Create Spear (47724) for Wield */
+     , (19436, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (19436, 2, 47419,  1, 0, 0, False) /* Create Acid Mace (47419) for Wield */
+     , (19436, 2, 47457,  1, 0, 0, False) /* Create Lightning Mace (47457) for Wield */
+     , (19436, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (19436, 2, 47781,  1, 0, 0, False) /* Create Frost Spear (47781) for Wield */
      , (19436, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */
+     , (19436, 2, 47653,  1, 0, 0, False) /* Create Lightning Tachi (47653) for Wield */
+     , (19436, 2, 47495,  1, 0, 0, False) /* Create Frost Mace (47495) for Wield */
+     , (19436, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (19436, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (19436, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (19436, 2, 47476,  1, 0, 0, False) /* Create Flaming Mace (47476) for Wield */
      , (19436, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */
+     , (19436, 2, 47705,  1, 0, 0, False) /* Create Acid Spear (47705) for Wield */
+     , (19436, 2, 48233,  1, 0, 0, False) /* Create Electric Compound Bow (48233) for Wield */
+     , (19436, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */
+     , (19436, 2, 47668,  1, 0, 0, False) /* Create Flaming Tachi (47668) for Wield */
+     , (19436, 2, 48327,  1, 0, 0, False) /* Create Arrow (48327) for Wield */
      , (19436, 2, 48270,  1, 0, 0, False) /* Create Arrow (48270) for Wield */
-     , (19436, 2, 48308,  1, 0, 0, False) /* Create Arrow (48308) for Wield */
-     , (19436, 2, 48327,  1, 0, 0, False) /* Create Arrow (48327) for Wield */;
+     , (19436, 2, 48308,  1, 0, 0, False) /* Create Arrow (48308) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19436, 67116526, 0, 0);

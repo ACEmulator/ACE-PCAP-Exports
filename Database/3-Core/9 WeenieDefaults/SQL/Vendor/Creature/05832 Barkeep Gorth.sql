@@ -77,16 +77,16 @@ VALUES (5832,   1,    10, 0, 0, 160) /* MaxHealth */
      , (5832,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5832, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (5832, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+VALUES (5832, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (5832, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (5832, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (5832, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
-     , (5832, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
-     , (5832, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (5832, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (5832, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (5832, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (5832, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (5832, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (5832, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (5832, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (5832, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (5832, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

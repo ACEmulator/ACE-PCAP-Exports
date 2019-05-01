@@ -60,8 +60,8 @@ VALUES (25875,   1,    10, 0, 0, 5000) /* MaxHealth */
      , (25875,   5,    10, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25875, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (25875, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (25875, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (25875, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25875, 67114704, 0, 0);

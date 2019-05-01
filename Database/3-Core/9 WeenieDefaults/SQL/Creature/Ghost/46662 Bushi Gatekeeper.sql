@@ -48,8 +48,8 @@ VALUES (46662,   1,    10, 0, 0, 2850) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46662, 2, 46364,  1, 0, 0, False) /* Create Spectral Acid Tachi (46364) for Wield */
-     , (46662, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (46662, 9, 20493,  0, 0, 0, False) /* Create Scroll of Tenaciousness (20493) for ContainTreasure */
+     , (46662, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (46662, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
      , (46662, 9, 46599,  1, 0, 0, False) /* Create Broken Key (46599) for ContainTreasure */;
 

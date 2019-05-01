@@ -68,8 +68,8 @@ VALUES (353, 8000, 3684813704) /* PCAPRecordedObjectIID */
      , (353, 8008, 3684813697) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (353, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (353, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+VALUES (353, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (353, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (353, 67111920, 0, 0);

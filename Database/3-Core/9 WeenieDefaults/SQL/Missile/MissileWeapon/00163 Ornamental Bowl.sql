@@ -76,9 +76,9 @@ VALUES (163,  1376,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (163, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
+     , (163, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
      , (163, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (163, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (163, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+     , (163, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (163, 67111920, 0, 0);

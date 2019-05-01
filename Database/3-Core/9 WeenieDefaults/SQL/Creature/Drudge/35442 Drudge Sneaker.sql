@@ -61,9 +61,9 @@ VALUES (35442,   1,    10, 0, 0, 47) /* MaxHealth */
      , (35442,   5,    10, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35442, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
-     , (35442, 2, 47286,  1, 0, 0, False) /* Create Fire Board with Nail (47286) for Wield */
-     , (35442, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */;
+VALUES (35442, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
+     , (35442, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
+     , (35442, 2, 47286,  1, 0, 0, False) /* Create Fire Board with Nail (47286) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35442, 67112812, 0, 0);

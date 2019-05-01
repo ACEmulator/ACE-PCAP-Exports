@@ -60,11 +60,11 @@ VALUES (9057,   1,    10, 0, 0, 61) /* MaxHealth */
      , (9057,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9057, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (9057, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+VALUES (9057, 9, 41057,  0, 0, 0, False) /* Create Great Star Mace (41057) for ContainTreasure */
+     , (9057, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (9057, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (9057, 9, 41057,  0, 0, 0, False) /* Create Great Star Mace (41057) for ContainTreasure */
-     , (9057, 9, 45102,  0, 0, 0, False) /* Create Flaming Epee (45102) for ContainTreasure */;
+     , (9057, 9, 45102,  0, 0, 0, False) /* Create Flaming Epee (45102) for ContainTreasure */
+     , (9057, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9057, 67112807, 0, 0);

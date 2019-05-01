@@ -48,6 +48,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7305, 8000, 2629113424) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7305, 2, 23679,  1, 0, 0, False) /* Create Nekode (23679) for Wield */
+VALUES (7305, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */
      , (7305, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (7305, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */;
+     , (7305, 2, 23679,  1, 0, 0, False) /* Create Nekode (23679) for Wield */;

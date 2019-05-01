@@ -79,37 +79,40 @@ VALUES (24597,   1,    10, 0, 0, 219) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24597, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
+     , (24597, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
+     , (24597, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
+     , (24597, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
+     , (24597, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
+     , (24597, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
+     , (24597, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
+     , (24597, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
      , (24597, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
+     , (24597, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
      , (24597, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (24597, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
-     , (24597, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
+     , (24597, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
+     , (24597, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
+     , (24597, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
+     , (24597, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
+     , (24597, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (24597, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (24597, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
-     , (24597, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
+     , (24597, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
+     , (24597, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
+     , (24597, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
+     , (24597, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (24597, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (24597, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
+     , (24597, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (24597, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
      , (24597, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (24597, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (24597, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (24597, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
-     , (24597, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
-     , (24597, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
-     , (24597, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
-     , (24597, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
-     , (24597, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
-     , (24597, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
-     , (24597, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
-     , (24597, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
-     , (24597, 4,   339, -1, 0, 0, False) /* Create Scimitar (339) for Shop */
-     , (24597, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
      , (24597, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
-     , (24597, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
-     , (24597, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
-     , (24597, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
-     , (24597, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
-     , (24597, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
-     , (24597, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
-     , (24597, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
-     , (24597, 4,   360, -1, 0, 0, False) /* Create Yag (360) for Shop */
-     , (24597, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (24597, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
+     , (24597, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
+     , (24597, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
+     , (24597, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (24597, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (24597, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (24597, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -117,18 +120,15 @@ VALUES (24597, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24597, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (24597, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (24597, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (24597, 4,  3766, -1, 0, 0, False) /* Create Acid Club (3766) for Shop */
-     , (24597, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
-     , (24597, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (24597, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24597, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (24597, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24597, 4, 20640, -1, 0, 0, False) /* Create Royal Atlatl (20640) for Shop */
-     , (24597, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
-     , (24597, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
-     , (24597, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
+     , (24597, 4, 31801, -1, 0, 0, False) /* Create Electric Compound Bow (31801) for Shop */
      , (24597, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
-     , (24597, 4, 31801, -1, 0, 0, False) /* Create Electric Compound Bow (31801) for Shop */;
+     , (24597, 4,  3766, -1, 0, 0, False) /* Create Acid Club (3766) for Shop */
+     , (24597, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
+     , (24597, 4,   360, -1, 0, 0, False) /* Create Yag (360) for Shop */
+     , (24597, 4, 20640, -1, 0, 0, False) /* Create Royal Atlatl (20640) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24597, 67109550, 0, 24)

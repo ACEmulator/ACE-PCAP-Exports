@@ -47,23 +47,23 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43344, 8000, 3685054551) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43344, 2, 12068,  1, 0, 0, False) /* Create Bandit Lightning Knife (12068) for Wield */
-     , (43344, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (43344, 2, 21435,  1, 0, 0, False) /* Create Shauraloi (21435) for Wield */
+VALUES (43344, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
+     , (43344, 2, 12068,  1, 0, 0, False) /* Create Bandit Lightning Knife (12068) for Wield */
+     , (43344, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (43344, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (43344, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (43344, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (43344, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
-     , (43344, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
-     , (43344, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
      , (43344, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (43344, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (43344, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (43344, 2, 46371,  1, 0, 0, False) /* Create Spectral Frost Nekode (46371) for Wield */
-     , (43344, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
-     , (43344, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
      , (43344, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (43344, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
+     , (43344, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
      , (43344, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
-     , (43344, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (43344, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (43344, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */;
+     , (43344, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
+     , (43344, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */
+     , (43344, 2, 21435,  1, 0, 0, False) /* Create Shauraloi (21435) for Wield */
+     , (43344, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (43344, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
+     , (43344, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (43344, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
+     , (43344, 2, 46371,  1, 0, 0, False) /* Create Spectral Frost Nekode (46371) for Wield */
+     , (43344, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */;

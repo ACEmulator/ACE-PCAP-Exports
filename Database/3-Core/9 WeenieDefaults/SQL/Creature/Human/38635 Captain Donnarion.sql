@@ -58,9 +58,9 @@ VALUES (38635,   1,    10, 0, 0, 1500) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38635, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (38635, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (38635, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (38635, 9, 38642,  0, 0, 0, False) /* Create Donnarion's Key (38642) for ContainTreasure */
-     , (38635, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
+     , (38635, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (38635, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38635, 67109560, 0, 24)

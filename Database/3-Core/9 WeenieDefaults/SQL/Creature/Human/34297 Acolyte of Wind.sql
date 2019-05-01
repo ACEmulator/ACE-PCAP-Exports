@@ -66,8 +66,8 @@ VALUES (34297,   1,    10, 0, 0, 230) /* MaxHealth */
      , (34297,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34297, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (34297, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
+VALUES (34297, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
+     , (34297, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
      , (34297, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

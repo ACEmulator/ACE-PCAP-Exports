@@ -57,45 +57,45 @@ VALUES (14559,   1,    10, 0, 0, 275) /* MaxHealth */
      , (14559,   5,    10, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14559, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
-     , (14559, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
-     , (14559, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (14559, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (14559, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (14559, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (14559, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (14559, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (14559, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (14559, 9,   273, 231, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (14559, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (14559, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (14559, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (14559, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (14559, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
-     , (14559, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (14559, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
-     , (14559, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (14559, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
-     , (14559, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (14559, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (14559, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
-     , (14559, 9,  2648,  0, 0, 0, False) /* Create Scroll of Coordination Other VI (2648) for ContainTreasure */
-     , (14559, 9,  2982,  0, 0, 0, False) /* Create Scroll of Acid Protection Self VI (2982) for ContainTreasure */
-     , (14559, 9,  3241,  0, 0, 0, False) /* Create Scroll of Deception Mastery Other V (3241) for ContainTreasure */
-     , (14559, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (14559, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (14559, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+VALUES (14559, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (14559, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (14559, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (14559, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
-     , (14559, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
-     , (14559, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (14559, 9,   273, 231, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14559, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (14559, 9,  3241,  0, 0, 0, False) /* Create Scroll of Deception Mastery Other V (3241) for ContainTreasure */
+     , (14559, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (14559, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
-     , (14559, 9, 41043,  0, 0, 0, False) /* Create Lightning Magari Yari (41043) for ContainTreasure */
-     , (14559, 9, 45115,  0, 0, 0, False) /* Create Lightning Hammer (45115) for ContainTreasure */
-     , (14559, 9, 45419,  0, 0, 0, False) /* Create Flaming Knife (45419) for ContainTreasure */
+     , (14559, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (14559, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
+     , (14559, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (14559, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (14559, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (14559, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (14559, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
+     , (14559, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (14559, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (14559, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (14559, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (14559, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (14559, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
+     , (14559, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (14559, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (14559, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (14559, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (14559, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (14559, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (14559, 9, 45419,  0, 0, 0, False) /* Create Flaming Knife (45419) for ContainTreasure */
+     , (14559, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (14559, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (14559, 9, 45115,  0, 0, 0, False) /* Create Lightning Hammer (45115) for ContainTreasure */
+     , (14559, 9,  2982,  0, 0, 0, False) /* Create Scroll of Acid Protection Self VI (2982) for ContainTreasure */
+     , (14559, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
+     , (14559, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (14559, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (14559, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (14559, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
+     , (14559, 9, 41043,  0, 0, 0, False) /* Create Lightning Magari Yari (41043) for ContainTreasure */
+     , (14559, 9,  2648,  0, 0, 0, False) /* Create Scroll of Coordination Other VI (2648) for ContainTreasure */
+     , (14559, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14559, 67113788, 0, 0);

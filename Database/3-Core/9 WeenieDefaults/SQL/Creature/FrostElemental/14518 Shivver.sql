@@ -62,20 +62,20 @@ VALUES (14518,   1,    10, 0, 0, 170) /* MaxHealth */
      , (14518,   5,    10, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14518, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
-     , (14518, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (14518, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (14518, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (14518, 9,   273, 314, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (14518, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (14518, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (14518, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (14518, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
-     , (14518, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
-     , (14518, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (14518, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
-     , (14518, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (14518, 9,  2751,  0, 0, 0, False) /* Create Scroll of Weakness Other VI (2751) for ContainTreasure */
+VALUES (14518, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (14518, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (14518, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (14518, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
+     , (14518, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (14518, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (14518, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (14518, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (14518, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (14518, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
+     , (14518, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (14518, 9,   273, 314, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (14518, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (14518, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (14518, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (14518, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (14518, 9,  2751,  0, 0, 0, False) /* Create Scroll of Weakness Other VI (2751) for ContainTreasure */
+     , (14518, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
+     , (14518, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;

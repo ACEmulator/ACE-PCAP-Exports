@@ -61,5 +61,5 @@ VALUES (19539,   1,    10, 0, 0, 780) /* MaxHealth */
      , (19539,   5,    10, 0, 0, 540) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19539, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (19539, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */;
+VALUES (19539, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
+     , (19539, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */;

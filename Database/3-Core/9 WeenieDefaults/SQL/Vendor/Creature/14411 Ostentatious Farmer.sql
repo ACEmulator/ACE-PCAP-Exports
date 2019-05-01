@@ -78,13 +78,13 @@ VALUES (14411,   1,    10, 0, 0, 85) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14411, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (14411, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (14411, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (14411, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (14411, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (14411, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (14411, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (14411, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (14411, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (14411, 4,  4764, -1, 0, 0, False) /* Create Noodle Cutter (4764) for Shop */
-     , (14411, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;
+     , (14411, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14411, 67109969, 92, 4)

@@ -74,8 +74,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (44808, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (44808, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (44808, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (44808, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (44808, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+     , (44808, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44808, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44808, 67112860, 0, 0);

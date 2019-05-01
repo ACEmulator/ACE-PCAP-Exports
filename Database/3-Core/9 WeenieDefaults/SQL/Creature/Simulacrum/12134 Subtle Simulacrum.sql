@@ -66,8 +66,8 @@ VALUES (12134,   1,    10, 0, 0, 154) /* MaxHealth */
      , (12134,   5,    10, 0, 0, 362) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12134, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (12134, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */;
+VALUES (12134, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */
+     , (12134, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12134, 67109560, 0, 24)

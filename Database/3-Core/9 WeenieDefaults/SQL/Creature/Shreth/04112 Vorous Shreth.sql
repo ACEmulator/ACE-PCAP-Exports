@@ -60,12 +60,12 @@ VALUES (4112,   1,    10, 0, 0, 65) /* MaxHealth */
      , (4112,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4112, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (4112, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (4112, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+VALUES (4112, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
      , (4112, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (4112, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (4112, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (4112, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */;
+     , (4112, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (4112, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4112, 67112468, 0, 0);

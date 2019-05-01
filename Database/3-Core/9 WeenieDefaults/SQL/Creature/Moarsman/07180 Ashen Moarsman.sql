@@ -59,25 +59,25 @@ VALUES (7180,   1,    10, 0, 0, 110) /* MaxHealth */
      , (7180,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7180, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (7180, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
-     , (7180, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
-     , (7180, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (7180, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
-     , (7180, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+VALUES (7180, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
      , (7180, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (7180, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
-     , (7180, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (7180, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
-     , (7180, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (7180, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
-     , (7180, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (7180, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (7180, 9,  2979,  0, 0, 0, False) /* Create Scroll of Acid Protection Self III (2979) for ContainTreasure */
-     , (7180, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (7180, 9, 21098,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb IV (21098) for ContainTreasure */
+     , (7180, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
      , (7180, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (7180, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
+     , (7180, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (7180, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (7180, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (7180, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (7180, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
      , (7180, 9, 30949,  0, 0, 0, False) /* Create Diforsa Sleeves (30949) for ContainTreasure */
+     , (7180, 9, 21098,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb IV (21098) for ContainTreasure */
+     , (7180, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
      , (7180, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
-     , (7180, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */;
+     , (7180, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (7180, 9,  2979,  0, 0, 0, False) /* Create Scroll of Acid Protection Self III (2979) for ContainTreasure */
+     , (7180, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (7180, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
+     , (7180, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */
+     , (7180, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
+     , (7180, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */;

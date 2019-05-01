@@ -60,38 +60,38 @@ VALUES (2581,   1,    10, 0, 0, 68) /* MaxHealth */
      , (2581,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2581, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (2581, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
-     , (2581, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
-     , (2581, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+VALUES (2581, 9, 44857,  0, 0, 0, False) /* Create Quartered Cloak (44857) for ContainTreasure */
      , (2581, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (2581, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (2581, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
      , (2581, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (2581, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (2581, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (2581, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (2581, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (2581, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2581, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */
+     , (2581, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (2581, 9,  3849,  0, 0, 0, False) /* Create Acid Scimitar (3849) for ContainTreasure */
      , (2581, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
-     , (2581, 9,  1705,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Self (1705) for ContainTreasure */
+     , (2581, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (2581, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (2581, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (2581, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
+     , (2581, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
      , (2581, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
      , (2581, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (2581, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (2581, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (2581, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
-     , (2581, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (2581, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (2581, 9,  3849,  0, 0, 0, False) /* Create Acid Scimitar (3849) for ContainTreasure */
-     , (2581, 9,  4240,  0, 0, 0, False) /* Create Small Mattekar Hide (4240) for ContainTreasure */
      , (2581, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
-     , (2581, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (2581, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
-     , (2581, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
-     , (2581, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
-     , (2581, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (2581, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */
+     , (2581, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (2581, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (2581, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (2581, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (2581, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (2581, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
      , (2581, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
-     , (2581, 9, 44857,  0, 0, 0, False) /* Create Quartered Cloak (44857) for ContainTreasure */
-     , (2581, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */
-     , (2581, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (2581, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (2581, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (2581, 9,  4240,  0, 0, 0, False) /* Create Small Mattekar Hide (4240) for ContainTreasure */
+     , (2581, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (2581, 9,  1705,  0, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Self (1705) for ContainTreasure */
+     , (2581, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */
+     , (2581, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2581, 67111954, 0, 0);

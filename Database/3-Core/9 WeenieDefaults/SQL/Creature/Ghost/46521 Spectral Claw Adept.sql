@@ -51,9 +51,9 @@ VALUES (46521,   1,    10, 0, 0, 2675) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46521, 2, 46374,  1, 0, 0, False) /* Create Spectral Nekode (46374) for Wield */
-     , (46521, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (46521, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (46521, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (46521, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
+     , (46521, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46521, 67114607, 168, 6)

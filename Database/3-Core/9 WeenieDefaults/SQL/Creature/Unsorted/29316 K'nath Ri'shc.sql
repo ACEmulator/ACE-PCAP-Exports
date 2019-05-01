@@ -44,11 +44,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29316, 8000, 3709625932) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29316, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+VALUES (29316, 9,  9612,  0, 0, 0, False) /* Create Scroll of Mana Ineptitude Other V (9612) for ContainTreasure */
+     , (29316, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (29316, 9,   273, 498, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (29316, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
      , (29316, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (29316, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (29316, 9,  9612,  0, 0, 0, False) /* Create Scroll of Mana Ineptitude Other V (9612) for ContainTreasure */
-     , (29316, 9,  9654,  0, 0, 0, False) /* Create Scroll of Stamina to Health Self VI (9654) for ContainTreasure */
-     , (29316, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (29316, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */;
+     , (29316, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (29316, 9,  9654,  0, 0, 0, False) /* Create Scroll of Stamina to Health Self VI (9654) for ContainTreasure */;

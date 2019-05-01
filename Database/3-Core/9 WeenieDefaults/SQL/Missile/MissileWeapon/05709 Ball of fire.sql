@@ -74,7 +74,7 @@ VALUES (5709, 8000, 3685887924) /* PCAPRecordedObjectIID */
      , (5709, 8008, 3685859191) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5709, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (5709, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
      , (5709, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
-     , (5709, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
+     , (5709, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (5709, 2, 47233,  1, 0, 0, False) /* Create Acid Board with Nail (47233) for Wield */;

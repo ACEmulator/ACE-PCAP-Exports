@@ -61,9 +61,9 @@ VALUES (28643,   1,    10, 0, 0, 380) /* MaxHealth */
      , (28643,   5,    10, 0, 0, 141) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28643, 9,   273, 2951, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (28643, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
-     , (28643, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;
+VALUES (28643, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (28643, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (28643, 9,   273, 2951, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28643, 67116329, 0, 0);

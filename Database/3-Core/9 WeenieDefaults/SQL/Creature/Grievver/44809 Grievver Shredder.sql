@@ -65,10 +65,10 @@ VALUES (44809,   1,    10, 0, 0, 1495) /* MaxHealth */
      , (44809,   5,    10, 0, 0, 1120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44809, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+VALUES (44809, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
+     , (44809, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (44809, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (44809, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (44809, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */;
+     , (44809, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44809, 67114286, 0, 0);

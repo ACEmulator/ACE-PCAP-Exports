@@ -56,20 +56,20 @@ VALUES (181,   1,    10, 0, 0, 75) /* MaxHealth */
      , (181,   5,    10, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (181, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (181, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (181, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (181, 9,   273, 16, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (181, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (181, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
-     , (181, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (181, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (181, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (181, 9,  3438,  0, 0, 0, False) /* Create Scroll of Monster Attunement Other II (3438) for ContainTreasure */
-     , (181, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (181, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
-     , (181, 9, 45108,  0, 0, 0, False) /* Create Schlager (45108) for ContainTreasure */
-     , (181, 9, 45120,  0, 0, 0, False) /* Create Lightning Hand Wraps (45120) for ContainTreasure */
-     , (181, 9, 45396,  0, 0, 0, False) /* Create Short Sword (45396) for ContainTreasure */
+VALUES (181, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (181, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
      , (181, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */
-     , (181, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (181, 9,  3438,  0, 0, 0, False) /* Create Scroll of Monster Attunement Other II (3438) for ContainTreasure */
+     , (181, 9, 45108,  0, 0, 0, False) /* Create Schlager (45108) for ContainTreasure */
+     , (181, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
+     , (181, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (181, 9, 45120,  0, 0, 0, False) /* Create Lightning Hand Wraps (45120) for ContainTreasure */
+     , (181, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (181, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (181, 9,   273, 16, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (181, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (181, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (181, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (181, 9, 45396,  0, 0, 0, False) /* Create Short Sword (45396) for ContainTreasure */
+     , (181, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (181, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;

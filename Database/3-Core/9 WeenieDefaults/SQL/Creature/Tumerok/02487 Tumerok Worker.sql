@@ -58,17 +58,17 @@ VALUES (2487,   1,    10, 0, 0, 48) /* MaxHealth */
      , (2487,   5,    10, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2487, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
-     , (2487, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
-     , (2487, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
-     , (2487, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
-     , (2487, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
-     , (2487, 2,   316,  1, 0, 0, False) /* Create Throwing Dart (316) for Wield */
-     , (2487, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
-     , (2487, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
-     , (2487, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
+VALUES (2487, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
      , (2487, 2,   343,  1, 0, 0, False) /* Create Shouken (343) for Wield */
-     , (2487, 2,   361,  1, 0, 0, False) /* Create Yaoji (361) for Wield */;
+     , (2487, 2,   361,  1, 0, 0, False) /* Create Yaoji (361) for Wield */
+     , (2487, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
+     , (2487, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (2487, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
+     , (2487, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (2487, 2,   316,  1, 0, 0, False) /* Create Throwing Dart (316) for Wield */
+     , (2487, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (2487, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (2487, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2487, 67116625, 57, 48)

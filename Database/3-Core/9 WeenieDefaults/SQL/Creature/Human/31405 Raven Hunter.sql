@@ -66,15 +66,15 @@ VALUES (31405,   1,    10, 0, 0, 3000) /* MaxHealth */
      , (31405,   5,    10, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31405, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
-     , (31405, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (31405, 2, 31385,  1, 0, 0, False) /* Create Raven Crossbow (31385) for Wield */
-     , (31405, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
-     , (31405, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+VALUES (31405, 2, 31385,  1, 0, 0, False) /* Create Raven Crossbow (31385) for Wield */
      , (31405, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
-     , (31405, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (31405, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (31405, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (31405, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */
      , (31405, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
-     , (31405, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */;
+     , (31405, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (31405, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (31405, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31405, 67109561, 0, 24)

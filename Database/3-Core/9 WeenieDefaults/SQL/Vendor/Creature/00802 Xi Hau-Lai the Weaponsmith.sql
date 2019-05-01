@@ -79,22 +79,16 @@ VALUES (802,   1,    10, 0, 0, 155) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (802, 2,   327,  1, 0, 0, False) /* Create Ken (327) for Wield */
-     , (802, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
-     , (802, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (802, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (802, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (802, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
-     , (802, 4,   254, -1, 0, 0, False) /* Create Stoup (254) for Shop */
-     , (802, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
-     , (802, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
+     , (802, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (802, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (802, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
      , (802, 4,   327, -1, 0, 0, False) /* Create Ken (327) for Shop */
      , (802, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
-     , (802, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */
      , (802, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
      , (802, 4,   356, -1, 0, 0, False) /* Create Tofun (356) for Shop */
-     , (802, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (802, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
+     , (802, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (802, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (802, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (802, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (802, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -102,22 +96,28 @@ VALUES (802, 2,   327,  1, 0, 0, False) /* Create Ken (327) for Wield */
      , (802, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (802, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (802, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (802, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
-     , (802, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (802, 4,  7771, -1, 0, 0, False) /* Create Naginata (7771) for Shop */
      , (802, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (802, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (802, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (802, 4, 22158, -1, 0, 0, False) /* Create Jo (22158) for Shop */
+     , (802, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
      , (802, 4, 30615, -1, 0, 0, False) /* Create Acid Knuckles (30615) for Shop */
-     , (802, 4, 31791, -1, 0, 0, False) /* Create Flaming Stick (31791) for Shop */
      , (802, 4, 31794, -1, 0, 0, False) /* Create Lancet (31794) for Shop */
-     , (802, 4, 41050, -1, 0, 0, False) /* Create Frost Pike (41050) for Shop */
-     , (802, 4, 41069, -1, 0, 0, False) /* Create Lightning Shashqa (41069) for Shop */
-     , (802, 4, 45122, -1, 0, 0, False) /* Create Frost Hand Wraps (45122) for Shop */
      , (802, 4, 45424, -1, 0, 0, False) /* Create Flaming Dagger (45424) for Shop */
+     , (802, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
+     , (802, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
+     , (802, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
+     , (802, 4,   254, -1, 0, 0, False) /* Create Stoup (254) for Shop */
+     , (802, 4, 41069, -1, 0, 0, False) /* Create Lightning Shashqa (41069) for Shop */
+     , (802, 4,  7771, -1, 0, 0, False) /* Create Naginata (7771) for Shop */
+     , (802, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
+     , (802, 4, 45122, -1, 0, 0, False) /* Create Frost Hand Wraps (45122) for Shop */
+     , (802, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */
+     , (802, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
      , (802, 4, 45425, -1, 0, 0, False) /* Create Frost Dagger (45425) for Shop */
-     , (802, 4, 45427, -1, 0, 0, False) /* Create Acid Jambiya (45427) for Shop */;
+     , (802, 4, 31791, -1, 0, 0, False) /* Create Flaming Stick (31791) for Shop */
+     , (802, 4, 45427, -1, 0, 0, False) /* Create Acid Jambiya (45427) for Shop */
+     , (802, 4, 41050, -1, 0, 0, False) /* Create Frost Pike (41050) for Shop */
+     , (802, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (802, 67109969, 92, 4)

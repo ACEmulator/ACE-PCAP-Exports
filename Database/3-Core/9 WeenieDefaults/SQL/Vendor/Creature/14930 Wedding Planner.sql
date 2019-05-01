@@ -77,25 +77,25 @@ VALUES (14930,   1,    10, 0, 0, 55) /* MaxHealth */
      , (14930,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14930, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
-     , (14930, 4,    73, -1, 0, 0, False) /* Create Scalemail Hauberk (73) for Shop */
-     , (14930, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (14930, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (14930, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */
-     , (14930, 4,  2419, -1, 0, 0, False) /* Create Gem (2419) for Shop */
-     , (14930, 4, 14897, -1, 0, 0, False) /* Create Wedding Cake Figures (14897) for Shop */
-     , (14930, 4, 14898, -1, 0, 0, False) /* Create Wedding Cake Knife (14898) for Shop */
-     , (14930, 4, 14904, -1, 0, 0, False) /* Create Wedding Cyclas (14904) for Shop */
-     , (14930, 4, 14905, -1, 0, 0, False) /* Create Wedding Gown (14905) for Shop */
-     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
-     , (14930, 4, 14912, -1, 0, 0, False) /* Create Bottle of Champagne (14912) for Shop */
+VALUES (14930, 4, 14931, -1, 0, 0, False) /* Create Wedding Handbook (14931) for Shop */
      , (14930, 4, 14913, -1, 0, 0, False) /* Create Invitation Wedding Hall (14913) for Shop */
      , (14930, 4, 14914, -1, 0, 0, False) /* Create Invitation Plateau (14914) for Shop */
      , (14930, 4, 14915, -1, 0, 0, False) /* Create Invitation Ithaenc Cathedral (14915) for Shop */
-     , (14930, 4, 14916, -1, 0, 0, False) /* Create Simple Flower Bouquet (14916) for Shop */
      , (14930, 4, 14917, -1, 0, 0, False) /* Create Elegant Flower Bouquet (14917) for Shop */
-     , (14930, 4, 14931, -1, 0, 0, False) /* Create Wedding Handbook (14931) for Shop */
-     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */;
+     , (14930, 4, 14916, -1, 0, 0, False) /* Create Simple Flower Bouquet (14916) for Shop */
+     , (14930, 4, 14897, -1, 0, 0, False) /* Create Wedding Cake Figures (14897) for Shop */
+     , (14930, 4, 14898, -1, 0, 0, False) /* Create Wedding Cake Knife (14898) for Shop */
+     , (14930, 4, 14912, -1, 0, 0, False) /* Create Bottle of Champagne (14912) for Shop */
+     , (14930, 4, 14905, -1, 0, 0, False) /* Create Wedding Gown (14905) for Shop */
+     , (14930, 4, 14904, -1, 0, 0, False) /* Create Wedding Cyclas (14904) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4,    73, -1, 0, 0, False) /* Create Scalemail Hauberk (73) for Shop */
+     , (14930, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
+     , (14930, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
+     , (14930, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
+     , (14930, 4,  2419, -1, 0, 0, False) /* Create Gem (2419) for Shop */
+     , (14930, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14930, 67109565, 32, 8)

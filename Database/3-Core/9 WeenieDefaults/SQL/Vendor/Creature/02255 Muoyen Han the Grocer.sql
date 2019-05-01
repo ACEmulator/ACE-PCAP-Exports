@@ -79,15 +79,15 @@ VALUES (2255,   1,    10, 0, 0, 98) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2255, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (2255, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (2255, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (2255, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (2255, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (2255, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (2255, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
+     , (2255, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (2255, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
      , (2255, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
      , (2255, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (2255, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
-     , (2255, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;
+     , (2255, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (2255, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (2255, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2255, 67110026, 72, 8)

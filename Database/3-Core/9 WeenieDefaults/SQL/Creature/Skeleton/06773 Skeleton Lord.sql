@@ -58,9 +58,9 @@ VALUES (6773,   1,    10, 0, 0, 146) /* MaxHealth */
      , (6773,   5,    10, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6773, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (6773, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
      , (6773, 2, 47443,  1, 0, 0, False) /* Create Mace (47443) for Wield */
-     , (6773, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (6773, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (6773, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
      , (6773, 2, 48332,  1, 0, 0, False) /* Create Arrow (48332) for Wield */;
 

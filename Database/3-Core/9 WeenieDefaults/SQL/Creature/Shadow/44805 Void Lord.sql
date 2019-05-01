@@ -63,21 +63,21 @@ VALUES (44805,   1,    10, 0, 0, 2830) /* MaxHealth */
      , (44805,   5,    10, 0, 0, 2186) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44805, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (44805, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (44805, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (44805, 2, 47072,  1, 0, 0, False) /* Create Arrow (47072) for Wield */
+VALUES (44805, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */
      , (44805, 2, 47630,  1, 0, 0, False) /* Create Acid Tachi (47630) for Wield */
      , (44805, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (44805, 2, 47664,  1, 0, 0, False) /* Create Lightning Tachi (47664) for Wield */
-     , (44805, 2, 47682,  1, 0, 0, False) /* Create Flaming Tachi (47682) for Wield */
-     , (44805, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
-     , (44805, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
+     , (44805, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (44805, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (44805, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (44805, 2, 47072,  1, 0, 0, False) /* Create Arrow (47072) for Wield */
+     , (44805, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
+     , (44805, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (44805, 2, 47682,  1, 0, 0, False) /* Create Flaming Tachi (47682) for Wield */
      , (44805, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
      , (44805, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
-     , (44805, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (44805, 2, 47664,  1, 0, 0, False) /* Create Lightning Tachi (47664) for Wield */
+     , (44805, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
      , (44805, 2, 48266,  1, 0, 0, False) /* Create Arrow (48266) for Wield */
      , (44805, 2, 48285,  1, 0, 0, False) /* Create Arrow (48285) for Wield */
      , (44805, 2, 48304,  1, 0, 0, False) /* Create Arrow (48304) for Wield */
-     , (44805, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */;
+     , (44805, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

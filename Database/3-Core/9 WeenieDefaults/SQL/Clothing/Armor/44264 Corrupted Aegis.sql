@@ -44,8 +44,8 @@ VALUES (44264, 8000, 3360236525) /* PCAPRecordedObjectIID */
      , (44264, 8008, 3360236523) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44264, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (44264, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
+VALUES (44264, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
+     , (44264, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44264, 67111927, 0, 0);

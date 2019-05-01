@@ -52,17 +52,17 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24907,   1,    10, 0, 0, 1710) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24907, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (24907, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
-     , (24907, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (24907, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (24907, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+VALUES (24907, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
      , (24907, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
-     , (24907, 9, 24919,  0, 0, 0, False) /* Create Brood Matron Elder Tail (24919) for ContainTreasure */
-     , (24907, 9, 24923,  0, 0, 0, False) /* Create Brood Matron Elder Tibia (24923) for ContainTreasure */
      , (24907, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
-     , (24907, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
-     , (24907, 9, 45405,  0, 0, 0, False) /* Create Frost Simi (45405) for ContainTreasure */;
+     , (24907, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
+     , (24907, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (24907, 9, 24923,  0, 0, 0, False) /* Create Brood Matron Elder Tibia (24923) for ContainTreasure */
+     , (24907, 9, 45405,  0, 0, 0, False) /* Create Frost Simi (45405) for ContainTreasure */
+     , (24907, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (24907, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (24907, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (24907, 9, 24919,  0, 0, 0, False) /* Create Brood Matron Elder Tail (24919) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24907, 67114410, 0, 0);

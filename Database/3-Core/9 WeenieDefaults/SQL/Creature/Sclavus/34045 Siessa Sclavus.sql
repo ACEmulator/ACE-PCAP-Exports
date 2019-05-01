@@ -61,30 +61,30 @@ VALUES (34045,   1,    10, 0, 0, 485) /* MaxHealth */
      , (34045,   5,    10, 0, 0, 441) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34045, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (34045, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
-     , (34045, 2, 47625,  1, 0, 0, False) /* Create Acid Tachi (47625) for Wield */
-     , (34045, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */
-     , (34045, 2, 47677,  1, 0, 0, False) /* Create Flaming Tachi (47677) for Wield */
-     , (34045, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+VALUES (34045, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
+     , (34045, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */
+     , (34045, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
+     , (34045, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
      , (34045, 2, 47734,  1, 0, 0, False) /* Create Spear (47734) for Wield */
+     , (34045, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (34045, 2, 48010,  1, 0, 0, False) /* Create Katar (48010) for Wield */
+     , (34045, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
+     , (34045, 2, 48543,  1, 0, 0, False) /* Create Flaming Nekode (48543) for Wield */
+     , (34045, 2, 48013,  1, 0, 0, False) /* Create Acid Nekode (48013) for Wield */
+     , (34045, 2, 47677,  1, 0, 0, False) /* Create Flaming Tachi (47677) for Wield */
+     , (34045, 2, 48280,  1, 0, 0, False) /* Create Arrow (48280) for Wield */
+     , (34045, 2, 48261,  1, 0, 0, False) /* Create Arrow (48261) for Wield */
+     , (34045, 2, 48299,  1, 0, 0, False) /* Create Arrow (48299) for Wield */
+     , (34045, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */
      , (34045, 2, 47753,  1, 0, 0, False) /* Create Lightning Spear (47753) for Wield */
      , (34045, 2, 47772,  1, 0, 0, False) /* Create Flaming Spear (47772) for Wield */
-     , (34045, 2, 48009,  1, 0, 0, False) /* Create Acid Katar (48009) for Wield */
-     , (34045, 2, 48010,  1, 0, 0, False) /* Create Katar (48010) for Wield */
-     , (34045, 2, 48011,  1, 0, 0, False) /* Create Lightning Katar (48011) for Wield */
-     , (34045, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */
-     , (34045, 2, 48013,  1, 0, 0, False) /* Create Acid Nekode (48013) for Wield */
+     , (34045, 2, 47625,  1, 0, 0, False) /* Create Acid Tachi (47625) for Wield */
      , (34045, 2, 48014,  1, 0, 0, False) /* Create Lightning Nekode (48014) for Wield */
-     , (34045, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (34045, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
-     , (34045, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (34045, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
-     , (34045, 2, 48261,  1, 0, 0, False) /* Create Arrow (48261) for Wield */
-     , (34045, 2, 48280,  1, 0, 0, False) /* Create Arrow (48280) for Wield */
-     , (34045, 2, 48299,  1, 0, 0, False) /* Create Arrow (48299) for Wield */
-     , (34045, 2, 48496,  1, 0, 0, False) /* Create Flaming Katar (48496) for Wield */
-     , (34045, 2, 48543,  1, 0, 0, False) /* Create Flaming Nekode (48543) for Wield */;
+     , (34045, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (34045, 2, 48009,  1, 0, 0, False) /* Create Acid Katar (48009) for Wield */
+     , (34045, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
+     , (34045, 2, 48011,  1, 0, 0, False) /* Create Lightning Katar (48011) for Wield */
+     , (34045, 2, 48496,  1, 0, 0, False) /* Create Flaming Katar (48496) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34045, 67113361, 0, 0);

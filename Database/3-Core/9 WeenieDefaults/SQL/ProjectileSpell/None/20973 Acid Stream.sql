@@ -50,9 +50,9 @@ VALUES (20973, 8000, 3686709196) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20973, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (20973, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
      , (20973, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (20973, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (20973, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (20973, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (20973, 2, 47249,  1, 0, 0, False) /* Create Board with Nail (47249) for Wield */
-     , (20973, 2, 47267,  1, 0, 0, False) /* Create Electric Board with Nail (47267) for Wield */
-     , (20973, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */;
+     , (20973, 2, 47267,  1, 0, 0, False) /* Create Electric Board with Nail (47267) for Wield */;

@@ -77,11 +77,11 @@ VALUES (42801,   1,    10, 0, 0, 80) /* MaxHealth */
      , (42801,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42801, 4, 45845, -1, 0, 0, False) /* Create  (45845) for Shop */
-     , (42801, 4, 45846, -1, 0, 0, False) /* Create  (45846) for Shop */
-     , (42801, 4, 45847, -1, 0, 0, False) /* Create  (45847) for Shop */
-     , (42801, 4, 45848, -1, 0, 0, False) /* Create  (45848) for Shop */
+VALUES (42801, 4, 45848, -1, 0, 0, False) /* Create  (45848) for Shop */
      , (42801, 4, 45849, -1, 0, 0, False) /* Create  (45849) for Shop */
+     , (42801, 4, 45847, -1, 0, 0, False) /* Create  (45847) for Shop */
+     , (42801, 4, 45846, -1, 0, 0, False) /* Create  (45846) for Shop */
+     , (42801, 4, 45845, -1, 0, 0, False) /* Create  (45845) for Shop */
      , (42801, 4, 48727, -1, 0, 0, False) /* Create  (48727) for Shop */
      , (42801, 4, 48728, -1, 0, 0, False) /* Create  (48728) for Shop */
      , (42801, 4, 51279, -1, 0, 0, False) /* Create  (51279) for Shop */

@@ -61,10 +61,10 @@ VALUES (7349,   1,    10, 0, 0, 175) /* MaxHealth */
      , (7349,   5,    10, 0, 0, 241) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7349, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (7349, 2, 47937,  1, 0, 0, False) /* Create Nekode (47937) for Wield */
+     , (7349, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (7349, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
      , (7349, 2, 47932,  1, 0, 0, False) /* Create Acid Quarrel (47932) for Wield */
-     , (7349, 2, 47937,  1, 0, 0, False) /* Create Nekode (47937) for Wield */
      , (7349, 2, 47938,  1, 0, 0, False) /* Create Acid Nekode (47938) for Wield */
      , (7349, 2, 47940,  1, 0, 0, False) /* Create Silifi (47940) for Wield */;
 

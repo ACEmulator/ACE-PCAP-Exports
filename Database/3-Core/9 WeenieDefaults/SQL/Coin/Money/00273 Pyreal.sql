@@ -37,14 +37,14 @@ VALUES (273, 8000, 3681041220) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (273, 2,  3794,  1, 0, 0, False) /* Create Acid Jambiya (3794) for Wield */
-     , (273, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
      , (273, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (273, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (273, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (273, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
-     , (273, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */
-     , (273, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (273, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (273, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
      , (273, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
+     , (273, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (273, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */
      , (273, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (273, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */;
+     , (273, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
+     , (273, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
+     , (273, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */;

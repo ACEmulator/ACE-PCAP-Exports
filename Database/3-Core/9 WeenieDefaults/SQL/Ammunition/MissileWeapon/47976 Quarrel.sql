@@ -68,8 +68,8 @@ VALUES (47976, 8000, 3706739134) /* PCAPRecordedObjectIID */
      , (47976, 8008, 3706739131) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47976, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */
-     , (47976, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */;
+VALUES (47976, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
+     , (47976, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47976, 67111919, 0, 0);

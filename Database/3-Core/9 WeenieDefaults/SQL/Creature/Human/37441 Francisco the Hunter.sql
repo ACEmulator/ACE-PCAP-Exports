@@ -73,5 +73,5 @@ VALUES (37441,   1,    10, 0, 0, 165) /* MaxHealth */
      , (37441,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37441, 2, 28815,  1, 0, 0, False) /* Create Kul'dir (28815) for Wield */
-     , (37441, 2, 32648,  1, 0, 0, False) /* Create Sickle (32648) for Wield */;
+VALUES (37441, 2, 32648,  1, 0, 0, False) /* Create Sickle (32648) for Wield */
+     , (37441, 2, 28815,  1, 0, 0, False) /* Create Kul'dir (28815) for Wield */;

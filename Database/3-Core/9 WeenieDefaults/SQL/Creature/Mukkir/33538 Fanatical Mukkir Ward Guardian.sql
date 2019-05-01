@@ -63,8 +63,8 @@ VALUES (33538,   1,    10, 0, 0, 5406) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33538, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
-     , (33538, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
-     , (33538, 9, 33541,  0, 0, 0, False) /* Create Locked Gate Key (33541) for ContainTreasure */;
+     , (33538, 9, 33541,  0, 0, 0, False) /* Create Locked Gate Key (33541) for ContainTreasure */
+     , (33538, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33538, 67116774, 0, 0);

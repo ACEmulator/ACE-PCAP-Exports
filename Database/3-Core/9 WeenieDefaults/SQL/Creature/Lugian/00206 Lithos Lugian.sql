@@ -58,12 +58,12 @@ VALUES (206,   1,    10, 0, 0, 140) /* MaxHealth */
      , (206,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (206, 2, 23741,  1, 0, 0, False) /* Create Lugian Axe (23741) for Wield */
+VALUES (206, 2, 23759,  1, 0, 0, False) /* Create Lugian Mace (23759) for Wield */
+     , (206, 2, 23741,  1, 0, 0, False) /* Create Lugian Axe (23741) for Wield */
      , (206, 2, 23755,  1, 0, 0, False) /* Create Lugian Hammer (23755) for Wield */
-     , (206, 2, 23759,  1, 0, 0, False) /* Create Lugian Mace (23759) for Wield */
      , (206, 2, 23767,  1, 0, 0, False) /* Create Lugian Morning Star (23767) for Wield */
-     , (206, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */
-     , (206, 9, 43332,  0, 0, 0, False) /* Create Scroll of Festering Curse IV (43332) for ContainTreasure */;
+     , (206, 9, 43332,  0, 0, 0, False) /* Create Scroll of Festering Curse IV (43332) for ContainTreasure */
+     , (206, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (206, 67113163, 0, 0);

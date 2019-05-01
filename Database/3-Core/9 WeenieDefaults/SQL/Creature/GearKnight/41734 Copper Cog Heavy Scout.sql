@@ -60,16 +60,16 @@ VALUES (41734,   1,    10, 0, 0, 9975) /* MaxHealth */
      , (41734,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41734, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
-     , (41734, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+VALUES (41734, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+     , (41734, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
      , (41734, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
-     , (41734, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
-     , (41734, 2, 41251,  1, 0, 0, False) /* Create Electric Gearknight Greatsword (41251) for Wield */
      , (41734, 2, 41252,  1, 0, 0, False) /* Create Fire Gearknight Greatsword (41252) for Wield */
-     , (41734, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
-     , (41734, 9,  3913,  0, 0, 0, False) /* Create Acid Yari (3913) for ContainTreasure */
+     , (41734, 2, 41251,  1, 0, 0, False) /* Create Electric Gearknight Greatsword (41251) for Wield */
+     , (41734, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
+     , (41734, 9, 49369,  0, 0, 0, False) /* Create Acid Grievver Essence (125) (49369) for ContainTreasure */
      , (41734, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
      , (41734, 9, 21294,  0, 0, 0, False) /* Create Scroll of Acid Arc VII (21294) for ContainTreasure */
-     , (41734, 9, 30567,  0, 0, 0, False) /* Create Lightning Sabra (30567) for ContainTreasure */
      , (41734, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (41734, 9, 49369,  0, 0, 0, False) /* Create Acid Grievver Essence (125) (49369) for ContainTreasure */;
+     , (41734, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (41734, 9, 30567,  0, 0, 0, False) /* Create Lightning Sabra (30567) for ContainTreasure */
+     , (41734, 9,  3913,  0, 0, 0, False) /* Create Acid Yari (3913) for ContainTreasure */;

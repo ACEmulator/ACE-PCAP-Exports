@@ -54,9 +54,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42607,   1,    10, 0, 0, 1200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42607, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (42607, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
-     , (42607, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */;
+VALUES (42607, 2, 34345,  1, 0, 0, False) /* Create Yumi (34345) for Wield */
+     , (42607, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
+     , (42607, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (42607, 0, 83897561, 83897706)

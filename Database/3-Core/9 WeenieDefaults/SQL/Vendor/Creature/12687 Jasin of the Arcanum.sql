@@ -77,8 +77,8 @@ VALUES (12687,   1,    10, 0, 0, 110) /* MaxHealth */
      , (12687,   5,    10, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12687, 4, 11932, -1, 0, 0, False) /* Create Ornate Fountain (11932) for Shop */
-     , (12687, 4, 11933, -1, 0, 0, False) /* Create Garden Drudge (11933) for Shop */
+VALUES (12687, 4, 11933, -1, 0, 0, False) /* Create Garden Drudge (11933) for Shop */
+     , (12687, 4, 11932, -1, 0, 0, False) /* Create Ornate Fountain (11932) for Shop */
      , (12687, 4, 11970, -1, 0, 0, False) /* Create Plaque (11970) for Shop */
      , (12687, 4, 25284, -1, 0, 0, False) /* Create Chalk Board (25284) for Shop */
      , (12687, 4, 25761, -1, 0, 0, False) /* Create Doorbell (25761) for Shop */;

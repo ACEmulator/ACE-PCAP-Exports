@@ -46,11 +46,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (48900,   1,    10, 0, 0, 6100) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (48900, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (48900, 9,   273, 2788, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (48900, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+VALUES (48900, 9, 48898,  0, 0, 0, False) /* Create Cracked Key (48898) for ContainTreasure */
      , (48900, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (48900, 9,   273, 2788, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (48900, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
      , (48900, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (48900, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
      , (48900, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
-     , (48900, 9, 48898,  0, 0, 0, False) /* Create Cracked Key (48898) for ContainTreasure */;
+     , (48900, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */;

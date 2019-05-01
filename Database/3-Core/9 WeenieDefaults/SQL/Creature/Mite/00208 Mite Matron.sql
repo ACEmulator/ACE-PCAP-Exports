@@ -60,8 +60,8 @@ VALUES (208,   1,    10, 0, 0, 100) /* MaxHealth */
      , (208,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (208, 9,   273, 2123, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (208, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */;
+VALUES (208, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (208, 9,   273, 2123, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (208, 67115130, 0, 0);

@@ -47,8 +47,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (36969,   1,    10, 0, 0, 7000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36969, 9, 37059,  1, 0, 0, False) /* Create East Gate Harmonic Crystal (37059) for ContainTreasure */
-     , (36969, 9, 37060,  1, 0, 0, False) /* Create North Gate Harmonic Crystal (37060) for ContainTreasure */
+VALUES (36969, 9, 37060,  1, 0, 0, False) /* Create North Gate Harmonic Crystal (37060) for ContainTreasure */
+     , (36969, 9, 37059,  1, 0, 0, False) /* Create East Gate Harmonic Crystal (37059) for ContainTreasure */
      , (36969, 9, 37061,  1, 0, 0, False) /* Create West Gate Harmonic Crystal (37061) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

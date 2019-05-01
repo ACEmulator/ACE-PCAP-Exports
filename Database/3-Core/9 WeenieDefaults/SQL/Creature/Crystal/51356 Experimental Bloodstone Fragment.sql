@@ -47,8 +47,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51356,   1,    10, 0, 0, 3000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51356, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (51356, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (51356, 9, 20537,  0, 0, 0, False) /* Create Scroll of Web of Defense (20537) for ContainTreasure */
+VALUES (51356, 9, 20537,  0, 0, 0, False) /* Create Scroll of Web of Defense (20537) for ContainTreasure */
+     , (51356, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
      , (51356, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (51356, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
      , (51356, 9, 37362,  1, 0, 0, False) /* Create Quill of Extraction (37362) for ContainTreasure */;

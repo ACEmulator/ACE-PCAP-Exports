@@ -80,11 +80,11 @@ VALUES (43940,   1,    10, 0, 0, 331) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43940, 4, 43912, -1, 0, 0, False) /* Create  (43912) for Shop */
      , (43940, 4, 43913, -1, 0, 0, False) /* Create  (43913) for Shop */
-     , (43940, 4, 43914, -1, 0, 0, False) /* Create  (43914) for Shop */
      , (43940, 4, 43920, -1, 0, 0, False) /* Create  (43920) for Shop */
-     , (43940, 4, 43921, -1, 0, 0, False) /* Create  (43921) for Shop */
+     , (43940, 4, 43914, -1, 0, 0, False) /* Create  (43914) for Shop */
+     , (43940, 4, 43923, -1, 0, 0, False) /* Create  (43923) for Shop */
      , (43940, 4, 43922, -1, 0, 0, False) /* Create  (43922) for Shop */
-     , (43940, 4, 43923, -1, 0, 0, False) /* Create  (43923) for Shop */;
+     , (43940, 4, 43921, -1, 0, 0, False) /* Create  (43921) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43940, 67109558, 0, 24)

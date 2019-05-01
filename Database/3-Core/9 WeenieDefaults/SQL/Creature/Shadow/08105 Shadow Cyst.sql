@@ -70,13 +70,13 @@ VALUES (8105,   1,    10, 0, 0, 285) /* MaxHealth */
      , (8105,   5,    10, 0, 0, 285) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8105, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (8105, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (8105, 2, 47062,  1, 0, 0, False) /* Create Arrow (47062) for Wield */
-     , (8105, 2, 47639,  1, 0, 0, False) /* Create Tachi (47639) for Wield */
+VALUES (8105, 2, 47639,  1, 0, 0, False) /* Create Tachi (47639) for Wield */
+     , (8105, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (8105, 2, 47658,  1, 0, 0, False) /* Create Lightning Tachi (47658) for Wield */
      , (8105, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (8105, 2, 48294,  1, 0, 0, False) /* Create Arrow (48294) for Wield */;
+     , (8105, 2, 48294,  1, 0, 0, False) /* Create Arrow (48294) for Wield */
+     , (8105, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (8105, 2, 47062,  1, 0, 0, False) /* Create Arrow (47062) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8105, 67112860, 0, 0);

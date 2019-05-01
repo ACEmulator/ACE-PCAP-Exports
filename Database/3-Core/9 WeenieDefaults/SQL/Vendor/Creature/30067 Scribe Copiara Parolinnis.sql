@@ -80,6 +80,12 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30067, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (30067, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (30067, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (30067, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
+     , (30067, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
+     , (30067, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
+     , (30067, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (30067, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
+     , (30067, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
      , (30067, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30067, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30067, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -87,15 +93,9 @@ VALUES (30067, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (30067, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (30067, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (30067, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30067, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (30067, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
-     , (30067, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (30067, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (30067, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
      , (30067, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30067, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30067, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30067, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */;
+     , (30067, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30067, 67109564, 32, 8)

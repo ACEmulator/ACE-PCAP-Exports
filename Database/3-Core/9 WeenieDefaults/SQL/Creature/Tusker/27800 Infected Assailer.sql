@@ -60,13 +60,13 @@ VALUES (27800,   1,    10, 0, 0, 760) /* MaxHealth */
      , (27800,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27800, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (27800, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (27800, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
-     , (27800, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
+VALUES (27800, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */
      , (27800, 9, 29264,  0, 0, 0, False) /* Create Piercing Sceptre (29264) for ContainTreasure */
+     , (27800, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
+     , (27800, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (27800, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
      , (27800, 9, 41071,  0, 0, 0, False) /* Create Frost Shashqa (41071) for ContainTreasure */
-     , (27800, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */;
+     , (27800, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27800, 67115215, 0, 0);

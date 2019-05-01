@@ -51,22 +51,22 @@ VALUES (46614,   1,    10, 0, 0, 5250) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46614, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */
-     , (46614, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
-     , (46614, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
-     , (46614, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
-     , (46614, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (46614, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
-     , (46614, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */
-     , (46614, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
-     , (46614, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (46614, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (46614, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
-     , (46614, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
-     , (46614, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (46614, 9, 45428,  0, 0, 0, False) /* Create Lightning Jambiya (45428) for ContainTreasure */
      , (46614, 9, 49233,  0, 0, 0, False) /* Create Frigid Zombie Essence (49233) for ContainTreasure */
+     , (46614, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (46614, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (46614, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (46614, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
+     , (46614, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (46614, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (46614, 9, 49379,  0, 0, 0, False) /* Create Excited Grievver Essence (49379) for ContainTreasure */
+     , (46614, 9, 45428,  0, 0, 0, False) /* Create Lightning Jambiya (45428) for ContainTreasure */
+     , (46614, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (46614, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (46614, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
      , (46614, 9, 49316,  0, 0, 0, False) /* Create Corrosion Wisp Essence (49316) for ContainTreasure */
-     , (46614, 9, 49379,  0, 0, 0, False) /* Create Excited Grievver Essence (49379) for ContainTreasure */;
+     , (46614, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
+     , (46614, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46614, 67116897, 0, 0);

@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (24937, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (24937, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (24937, 9,   262,  1, 0, 0, False) /* Create Chicken (262) for ContainTreasure */
-     , (24937, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
      , (24937, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
-     , (24937, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
+     , (24937, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
      , (24937, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (24937, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
      , (24937, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (24937, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
+     , (24937, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
      , (24937, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
-     , (24937, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */;
+     , (24937, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24937, 67114448, 0, 0);

@@ -66,25 +66,25 @@ VALUES (191,   1,    10, 0, 0, 220) /* MaxHealth */
      , (191,   5,    10, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (191, 2,  5306,  1, 0, 0, False) /* Create Greater Acid Arrow (5306) for Wield */
-     , (191, 2,  5307,  1, 0, 0, False) /* Create Greater Frost Arrow (5307) for Wield */
-     , (191, 2,  5308,  1, 0, 0, False) /* Create Greater Lightning Arrow (5308) for Wield */
-     , (191, 2,  5309,  1, 0, 0, False) /* Create Greater Armor Piercing Arrow (5309) for Wield */
-     , (191, 2,  5314,  1, 0, 0, False) /* Create Greater Acid Quarrel (5314) for Wield */
-     , (191, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
-     , (191, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
-     , (191, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
-     , (191, 2, 22780,  1, 0, 0, False) /* Create Jambiya (22780) for Wield */
-     , (191, 2, 22783,  1, 0, 0, False) /* Create Khanjar (22783) for Wield */
-     , (191, 2, 22885,  1, 0, 0, False) /* Create Bandit Shield (22885) for Wield */
-     , (191, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
-     , (191, 2, 23669,  1, 0, 0, False) /* Create Dagger (23669) for Wield */
+VALUES (191, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
      , (191, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
-     , (191, 9,  8946,  0, 0, 0, False) /* Create Scroll of Lightning Streak VI (8946) for ContainTreasure */
-     , (191, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
+     , (191, 2, 22885,  1, 0, 0, False) /* Create Bandit Shield (22885) for Wield */
+     , (191, 2,  5308,  1, 0, 0, False) /* Create Greater Lightning Arrow (5308) for Wield */
+     , (191, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
+     , (191, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
+     , (191, 2,  5314,  1, 0, 0, False) /* Create Greater Acid Quarrel (5314) for Wield */
+     , (191, 2, 23669,  1, 0, 0, False) /* Create Dagger (23669) for Wield */
+     , (191, 2,  5309,  1, 0, 0, False) /* Create Greater Armor Piercing Arrow (5309) for Wield */
+     , (191, 2, 22783,  1, 0, 0, False) /* Create Khanjar (22783) for Wield */
+     , (191, 2, 22780,  1, 0, 0, False) /* Create Jambiya (22780) for Wield */
+     , (191, 2,  5306,  1, 0, 0, False) /* Create Greater Acid Arrow (5306) for Wield */
+     , (191, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
+     , (191, 2,  5307,  1, 0, 0, False) /* Create Greater Frost Arrow (5307) for Wield */
      , (191, 9, 40713,  0, 0, 0, False) /* Create Covenant Shield (40713) for ContainTreasure */
      , (191, 9, 43283,  0, 0, 0, False) /* Create Scroll of Corrosion VI (43283) for ContainTreasure */
-     , (191, 9, 49324,  0, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for ContainTreasure */;
+     , (191, 9, 49324,  0, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for ContainTreasure */
+     , (191, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
+     , (191, 9,  8946,  0, 0, 0, False) /* Create Scroll of Lightning Streak VI (8946) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (191, 67109561, 0, 24)

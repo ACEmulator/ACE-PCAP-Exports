@@ -68,12 +68,12 @@ VALUES (47072, 8000, 3710680273) /* PCAPRecordedObjectIID */
      , (47072, 8008, 3710680253) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47072, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (47072, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (47072, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+VALUES (47072, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
+     , (47072, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (47072, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (47072, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
-     , (47072, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;
+     , (47072, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (47072, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
+     , (47072, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47072, 67111919, 0, 0);

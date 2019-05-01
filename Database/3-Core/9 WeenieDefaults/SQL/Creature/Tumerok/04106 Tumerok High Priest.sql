@@ -61,12 +61,12 @@ VALUES (4106,   1,    10, 0, 0, 325) /* MaxHealth */
      , (4106,   5,    10, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4106, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
-     , (4106, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */
-     , (4106, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (4106, 2, 15440,  1, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */
+VALUES (4106, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
      , (4106, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */
-     , (4106, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */;
+     , (4106, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (4106, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (4106, 2, 15440,  1, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */
+     , (4106, 2, 15431,  1, 0, 0, False) /* Create Deadly Armor Piercing Arrow (15431) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4106, 67116625, 57, 48)

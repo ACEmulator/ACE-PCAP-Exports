@@ -62,44 +62,44 @@ VALUES (31913,   1,    10, 0, 0, 2700) /* MaxHealth */
      , (31913,   5,    10, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31913, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (31913, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (31913, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
-     , (31913, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
-     , (31913, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (31913, 9,   273, 1635, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (31913, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
-     , (31913, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (31913, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (31913, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (31913, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (31913, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (31913, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (31913, 9,  3811,  0, 0, 0, False) /* Create Lightning Kaskara (3811) for ContainTreasure */
-     , (31913, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
-     , (31913, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
-     , (31913, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (31913, 9, 20422,  0, 0, 0, False) /* Create Scroll of Wi's Folly (20422) for ContainTreasure */
-     , (31913, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
+VALUES (31913, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20530) for ContainTreasure */
      , (31913, 9, 20493,  0, 0, 0, False) /* Create Scroll of Tenaciousness (20493) for ContainTreasure */
-     , (31913, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20530) for ContainTreasure */
-     , (31913, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */
-     , (31913, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
+     , (31913, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
      , (31913, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (31913, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (31913, 9, 31903,  0, 0, 0, False) /* Create Gold Moarsman Tooth (31903) for ContainTreasure */
+     , (31913, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (31913, 9, 43049,  0, 0, 0, False) /* Create Knorr Academy Gauntlets (43049) for ContainTreasure */
+     , (31913, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (31913, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */
+     , (31913, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (31913, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */
      , (31913, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
      , (31913, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
      , (31913, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (31913, 9, 29260,  0, 0, 0, False) /* Create Blunt Sceptre (29260) for ContainTreasure */
-     , (31913, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
-     , (31913, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
-     , (31913, 9, 31903,  0, 0, 0, False) /* Create Gold Moarsman Tooth (31903) for ContainTreasure */
+     , (31913, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
      , (31913, 9, 42749,  0, 0, 0, False) /* Create Haebrean Breastplate (42749) for ContainTreasure */
-     , (31913, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */
-     , (31913, 9, 43049,  0, 0, 0, False) /* Create Knorr Academy Gauntlets (43049) for ContainTreasure */
-     , (31913, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */
+     , (31913, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (31913, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (31913, 9,   273, 1635, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (31913, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (31913, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
+     , (31913, 9, 49293,  0, 0, 0, False) /* Create Lightning K'nath Essence (150) (49293) for ContainTreasure */
+     , (31913, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (31913, 9, 29260,  0, 0, 0, False) /* Create Blunt Sceptre (29260) for ContainTreasure */
+     , (31913, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (31913, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
+     , (31913, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (31913, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (31913, 9, 20422,  0, 0, 0, False) /* Create Scroll of Wi's Folly (20422) for ContainTreasure */
+     , (31913, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (31913, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (31913, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
+     , (31913, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */
+     , (31913, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (31913, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
+     , (31913, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
      , (31913, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
-     , (31913, 9, 49293,  0, 0, 0, False) /* Create Lightning K'nath Essence (150) (49293) for ContainTreasure */;
+     , (31913, 9,  3811,  0, 0, 0, False) /* Create Lightning Kaskara (3811) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31913, 67116779, 0, 0);

@@ -59,15 +59,15 @@ VALUES (46951,   1,    10, 0, 0, 18125) /* MaxHealth */
      , (46951,   5,    10, 0, 0, 6420) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46951, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (46951, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+VALUES (46951, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (46951, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
+     , (46951, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
      , (46951, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (46951, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (46951, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (46951, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (46951, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (46951, 9, 29258,  0, 0, 0, False) /* Create Slashing Atlatl (29258) for ContainTreasure */
      , (46951, 9, 20569,  0, 0, 0, False) /* Create Scroll of Topheron's Blessing (20569) for ContainTreasure */
      , (46951, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */
-     , (46951, 9, 29258,  0, 0, 0, False) /* Create Slashing Atlatl (29258) for ContainTreasure */
-     , (46951, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
-     , (46951, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */;
+     , (46951, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (46951, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (46951, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (46951, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (46951, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */;

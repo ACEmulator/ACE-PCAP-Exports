@@ -50,10 +50,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (52590,   1,    10, 0, 0, 8200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52590, 2, 52635,  1, 0, 0, False) /* Create Thorn Dagger (52635) for Wield */
-     , (52590, 2, 52636,  1, 0, 0, False) /* Create Thorn Dagger (52636) for Wield */
-     , (52590, 9,   273, 2072, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (52590, 2, 52636,  1, 0, 0, False) /* Create Thorn Dagger (52636) for Wield */
+     , (52590, 2, 52635,  1, 0, 0, False) /* Create Thorn Dagger (52635) for Wield */
      , (52590, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (52590, 9,   273, 2072, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (52590, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

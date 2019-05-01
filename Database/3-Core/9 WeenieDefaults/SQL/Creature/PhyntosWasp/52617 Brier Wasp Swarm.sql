@@ -52,21 +52,21 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (52617,   1,    10, 0, 0, 10200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52617, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (52617, 9,   273, 1122, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (52617, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (52617, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (52617, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+VALUES (52617, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (52617, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (52617, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */
+     , (52617, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (52617, 9, 52968,  1, 0, 0, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
+     , (52617, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (52617, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
      , (52617, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (52617, 9,   273, 1122, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (52617, 9, 31804,  0, 0, 0, False) /* Create Piercing Compound Bow (31804) for ContainTreasure */
      , (52617, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (52617, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
      , (52617, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
      , (52617, 9, 20584,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Ineptitude Other VII (20584) for ContainTreasure */
-     , (52617, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
-     , (52617, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
-     , (52617, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (52617, 9, 31804,  0, 0, 0, False) /* Create Piercing Compound Bow (31804) for ContainTreasure */
-     , (52617, 9, 52968,  1, 0, 0, False) /* Create Infused Amber Shard (52968) for ContainTreasure */
-     , (52617, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
+     , (52617, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52617, 67115264, 0, 0);

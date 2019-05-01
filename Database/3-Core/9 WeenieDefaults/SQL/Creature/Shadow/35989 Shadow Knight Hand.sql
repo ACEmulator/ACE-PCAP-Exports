@@ -62,29 +62,29 @@ VALUES (35989,   1,    10, 0, 0, 5000) /* MaxHealth */
      , (35989,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35989, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (35989, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
-     , (35989, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (35989, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */
+VALUES (35989, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
      , (35989, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */
-     , (35989, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */
      , (35989, 2, 40617,  1, 0, 0, False) /* Create Frost Spadone (40617) for Wield */
-     , (35989, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (35989, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (35989, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
-     , (35989, 9, 22441,  0, 0, 0, False) /* Create Acid Dirk (22441) for ContainTreasure */
-     , (35989, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
-     , (35989, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
-     , (35989, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
-     , (35989, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (35989, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
+     , (35989, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */
+     , (35989, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */
+     , (35989, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (35989, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
-     , (35989, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */
+     , (35989, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (35989, 9, 49291,  0, 0, 0, False) /* Create Lightning K'nath Essence (100) (49291) for ContainTreasure */
+     , (35989, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (35989, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (35989, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (35989, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
-     , (35989, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (35989, 9, 40622,  0, 0, 0, False) /* Create Frost Nodachi (40622) for ContainTreasure */
-     , (35989, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */
+     , (35989, 9, 22441,  0, 0, 0, False) /* Create Acid Dirk (22441) for ContainTreasure */
+     , (35989, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
      , (35989, 9, 44851,  0, 0, 0, False) /* Create Chevron Cloak (44851) for ContainTreasure */
-     , (35989, 9, 49291,  0, 0, 0, False) /* Create Lightning K'nath Essence (100) (49291) for ContainTreasure */;
+     , (35989, 9, 40622,  0, 0, 0, False) /* Create Frost Nodachi (40622) for ContainTreasure */
+     , (35989, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
+     , (35989, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */
+     , (35989, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (35989, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (35989, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35989, 67115540, 0, 0);

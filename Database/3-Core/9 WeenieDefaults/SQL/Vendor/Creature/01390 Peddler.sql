@@ -77,37 +77,37 @@ VALUES (1390,   1,    10, 0, 0, 89) /* MaxHealth */
      , (1390,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1390, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
-     , (1390, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
-     , (1390, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+VALUES (1390, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (1390, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
+     , (1390, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (1390, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (1390, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (1390, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
+     , (1390, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+     , (1390, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (1390, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (1390, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (1390, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (1390, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
      , (1390, 4,   109, -1, 0, 0, False) /* Create Olthoi Tassets (109) for Shop */
-     , (1390, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
      , (1390, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
      , (1390, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
      , (1390, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (1390, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (1390, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (1390, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick (511) for Shop */
+     , (1390, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
+     , (1390, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (1390, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (1390, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (1390, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
-     , (1390, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
-     , (1390, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (1390, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1390, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (1390, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (1390, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
-     , (1390, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
-     , (1390, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
-     , (1390, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (1390, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (1390, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
-     , (1390, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (1390, 4,   511, -1, 0, 0, False) /* Create Crude Lockpick (511) for Shop */
-     , (1390, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (1390, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (1390, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1390, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (1390, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1390, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */;
+     , (1390, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1390, 67109562, 0, 24)

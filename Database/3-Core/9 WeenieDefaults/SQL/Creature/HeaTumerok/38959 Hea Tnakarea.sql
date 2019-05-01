@@ -62,9 +62,9 @@ VALUES (38959,   1,    10, 0, 0, 3225) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38959, 2, 38930,  1, 0, 0, False) /* Create Lugian Axe (38930) for Wield */
-     , (38959, 2, 38932,  1, 0, 0, False) /* Create Spine Glaive (38932) for Wield */
      , (38959, 2, 38934,  1, 0, 0, False) /* Create Sabra (38934) for Wield */
-     , (38959, 2, 38936,  1, 0, 0, False) /* Create Acid Mace (38936) for Wield */;
+     , (38959, 2, 38936,  1, 0, 0, False) /* Create Acid Mace (38936) for Wield */
+     , (38959, 2, 38932,  1, 0, 0, False) /* Create Spine Glaive (38932) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38959, 67116625, 105, 48)

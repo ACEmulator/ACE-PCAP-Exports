@@ -61,11 +61,11 @@ VALUES (26016,   1,    10, 0, 0, 280) /* MaxHealth */
      , (26016,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26016, 2, 26025,  1, 0, 0, False) /* Create Stone Axe (26025) for Wield */
+VALUES (26016, 2, 26055,  1, 0, 0, False) /* Create Bone Sword (26055) for Wield */
+     , (26016, 2, 26025,  1, 0, 0, False) /* Create Stone Axe (26025) for Wield */
      , (26016, 2, 26034,  1, 0, 0, False) /* Create Bone Dagger (26034) for Wield */
-     , (26016, 2, 26046,  1, 0, 0, False) /* Create Stone Mace (26046) for Wield */
      , (26016, 2, 26051,  1, 0, 0, False) /* Create Stone Spear (26051) for Wield */
-     , (26016, 2, 26055,  1, 0, 0, False) /* Create Bone Sword (26055) for Wield */;
+     , (26016, 2, 26046,  1, 0, 0, False) /* Create Stone Mace (26046) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26016, 67114923, 0, 0);

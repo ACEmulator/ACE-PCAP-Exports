@@ -77,19 +77,19 @@ VALUES (42800,   1,    10, 0, 0, 80) /* MaxHealth */
      , (42800,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42800, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (42800, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (42800, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+VALUES (42800, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42800, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (42800, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (42800, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (42800, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
-     , (42800, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (42800, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (42800, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (42800, 4,  4716, -1, 0, 0, False) /* Create Chicken Pie (4716) for Shop */
      , (42800, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
-     , (42800, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (42800, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (42800, 4, 44882, -1, 0, 0, False) /* Create  (44882) for Shop */
+     , (42800, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (42800, 4, 44883, -1, 0, 0, False) /* Create  (44883) for Shop */
      , (42800, 4, 44884, -1, 0, 0, False) /* Create  (44884) for Shop */
+     , (42800, 4, 44882, -1, 0, 0, False) /* Create  (44882) for Shop */
      , (42800, 4, 45565, -1, 0, 0, False) /* Create  (45565) for Shop */
      , (42800, 4, 45566, -1, 0, 0, False) /* Create Contract for Wardley and the Wights (45566) for Shop */
      , (42800, 4, 46904, -1, 0, 0, False) /* Create  (46904) for Shop */

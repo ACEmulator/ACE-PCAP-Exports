@@ -77,15 +77,15 @@ VALUES (33249,   1,    10, 0, 0, 128) /* MaxHealth */
      , (33249,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33249, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
-     , (33249, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
-     , (33249, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
-     , (33249, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
+VALUES (33249, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
      , (33249, 4, 26639, -1, 0, 0, False) /* Create Xarabydun Portal Summoning Gem (26639) for Shop */
+     , (33249, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
+     , (33249, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
+     , (33249, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
      , (33249, 4, 30268, -1, 0, 0, False) /* Create Sanamar Portal Gem (30268) for Shop */
+     , (33249, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */
      , (33249, 4, 32943, -1, 0, 0, False) /* Create Decanter of Nullified Essence (32943) for Shop */
-     , (33249, 4, 36210, -1, 0, 0, False) /* Create Guide to Fighting the Harbinger (36210) for Shop */
-     , (33249, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */;
+     , (33249, 4, 36210, -1, 0, 0, False) /* Create Guide to Fighting the Harbinger (36210) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33249, 67110049, 0, 24)

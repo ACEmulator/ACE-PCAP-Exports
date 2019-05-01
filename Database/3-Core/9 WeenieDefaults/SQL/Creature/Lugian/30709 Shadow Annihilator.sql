@@ -58,11 +58,11 @@ VALUES (30709,   1,    10, 0, 0, 4120) /* MaxHealth */
      , (30709,   5,    10, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30709, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (30709, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+VALUES (30709, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
      , (30709, 9,  2986,  0, 0, 0, False) /* Create Scroll of Acid Vulnerability Other V (2986) for ContainTreasure */
-     , (30709, 9, 30700,  0, 0, 0, False) /* Create Tursh Totem Shard (30700) for ContainTreasure */
-     , (30709, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */;
+     , (30709, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (30709, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (30709, 9, 30700,  0, 0, 0, False) /* Create Tursh Totem Shard (30700) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30709, 67114288, 0, 0);

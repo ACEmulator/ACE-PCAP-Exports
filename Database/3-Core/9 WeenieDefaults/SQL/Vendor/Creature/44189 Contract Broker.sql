@@ -77,7 +77,20 @@ VALUES (44189,   1,    10, 0, 0, 228) /* MaxHealth */
      , (44189,   5,    10, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44189, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+VALUES (44189, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
+     , (44189, 4, 44173, -1, 0, 0, False) /* Create Faces of the Mukkir (Low) (44173) for Shop */
+     , (44189, 4, 44147, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Copper) (44147) for Shop */
+     , (44189, 4, 44154, -1, 0, 0, False) /* Create Contract for The Decrepit Tower (44154) for Shop */
+     , (44189, 4, 44142, -1, 0, 0, False) /* Create Contract for Reign of Terror (44142) for Shop */
+     , (44189, 4, 44148, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Silver) (44148) for Shop */
+     , (44189, 4, 44174, -1, 0, 0, False) /* Create Faces of the Mukkir (Mid) (44174) for Shop */
+     , (44189, 4, 44175, -1, 0, 0, False) /* Create Contract for First Contact (44175) for Shop */
+     , (44189, 4, 44149, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Gold) (44149) for Shop */
+     , (44189, 4, 44172, -1, 0, 0, False) /* Create Faces of the Mukkir (High) (44172) for Shop */
+     , (44189, 4, 44181, -1, 0, 0, False) /* Create Contract for His Master's Voice (44181) for Shop */
+     , (44189, 4, 44171, -1, 0, 0, False) /* Create Faces of the Mukkir (Expert) (44171) for Shop */
+     , (44189, 4, 44150, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Platinum) (44150) for Shop */
+     , (44189, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (44189, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (44189, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (44189, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
@@ -86,20 +99,7 @@ VALUES (44189, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (44189, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (44189, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (44189, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (44189, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (44189, 4, 44142, -1, 0, 0, False) /* Create Contract for Reign of Terror (44142) for Shop */
-     , (44189, 4, 44147, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Copper) (44147) for Shop */
-     , (44189, 4, 44148, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Silver) (44148) for Shop */
-     , (44189, 4, 44149, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Gold) (44149) for Shop */
-     , (44189, 4, 44150, -1, 0, 0, False) /* Create Contract for Defense of Zaikhal (Platinum) (44150) for Shop */
-     , (44189, 4, 44154, -1, 0, 0, False) /* Create Contract for The Decrepit Tower (44154) for Shop */
-     , (44189, 4, 44171, -1, 0, 0, False) /* Create Faces of the Mukkir (Expert) (44171) for Shop */
-     , (44189, 4, 44172, -1, 0, 0, False) /* Create Faces of the Mukkir (High) (44172) for Shop */
-     , (44189, 4, 44173, -1, 0, 0, False) /* Create Faces of the Mukkir (Low) (44173) for Shop */
-     , (44189, 4, 44174, -1, 0, 0, False) /* Create Faces of the Mukkir (Mid) (44174) for Shop */
-     , (44189, 4, 44175, -1, 0, 0, False) /* Create Contract for First Contact (44175) for Shop */
-     , (44189, 4, 44181, -1, 0, 0, False) /* Create Contract for His Master's Voice (44181) for Shop */
-     , (44189, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */;
+     , (44189, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44189, 67109557, 0, 24)

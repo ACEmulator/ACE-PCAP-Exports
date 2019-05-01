@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46523,   1,    10, 0, 0, 2975) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46523, 2, 46374,  1, 0, 0, False) /* Create Spectral Nekode (46374) for Wield */
-     , (46523, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
+VALUES (46523, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
+     , (46523, 2, 46374,  1, 0, 0, False) /* Create Spectral Nekode (46374) for Wield */
      , (46523, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (46523, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (46523, 9,   273, 3697, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (46523, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (46523, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (46523, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
      , (46523, 9, 37328,  1, 0, 0, False) /* Create Glyph of Quickness (37328) for ContainTreasure */;
 

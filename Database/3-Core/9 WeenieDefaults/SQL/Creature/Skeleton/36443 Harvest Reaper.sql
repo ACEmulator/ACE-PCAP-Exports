@@ -62,26 +62,26 @@ VALUES (36443,   1,    10, 0, 0, 3300) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36443, 2, 36436,  1, 0, 0, False) /* Create Harvester's Blade (36436) for Wield */
-     , (36443, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (36443, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (36443, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
-     , (36443, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
-     , (36443, 9, 20608,  0, 0, 0, False) /* Create Scroll of Gift of Essence (20608) for ContainTreasure */
-     , (36443, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
-     , (36443, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (36443, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
-     , (36443, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
-     , (36443, 9, 32201,  1, 0, 0, False) /* Create Pumpkin Cookie Cutter (32201) for ContainTreasure */
-     , (36443, 9, 32207,  1, 0, 0, False) /* Create Candy Corn (32207) for ContainTreasure */
-     , (36443, 9, 34089,  0, 0, 0, False) /* Create Floating Candle (34089) for ContainTreasure */
-     , (36443, 9, 34198,  1, 0, 0, False) /* Create Gummy Ghoul (34198) for ContainTreasure */
-     , (36443, 9, 39107,  1, 0, 0, False) /* Create Caramel Kukuur (39107) for ContainTreasure */
-     , (36443, 9, 39108,  1, 0, 0, False) /* Create Chocolate Gromnie (39108) for ContainTreasure */
-     , (36443, 9, 39109,  1, 0, 0, False) /* Create Gummy Golem (39109) for ContainTreasure */
-     , (36443, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
-     , (36443, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
      , (36443, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */
-     , (36443, 9, 49424,  0, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for ContainTreasure */;
+     , (36443, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
+     , (36443, 9, 39109,  1, 0, 0, False) /* Create Gummy Golem (39109) for ContainTreasure */
+     , (36443, 9, 39108,  1, 0, 0, False) /* Create Chocolate Gromnie (39108) for ContainTreasure */
+     , (36443, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (36443, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (36443, 9, 34089,  0, 0, 0, False) /* Create Floating Candle (34089) for ContainTreasure */
+     , (36443, 9, 39107,  1, 0, 0, False) /* Create Caramel Kukuur (39107) for ContainTreasure */
+     , (36443, 9, 20608,  0, 0, 0, False) /* Create Scroll of Gift of Essence (20608) for ContainTreasure */
+     , (36443, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (36443, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (36443, 9, 32207,  1, 0, 0, False) /* Create Candy Corn (32207) for ContainTreasure */
+     , (36443, 9, 49424,  0, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for ContainTreasure */
+     , (36443, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (36443, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (36443, 9, 34198,  1, 0, 0, False) /* Create Gummy Ghoul (34198) for ContainTreasure */
+     , (36443, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (36443, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
+     , (36443, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (36443, 9, 32201,  1, 0, 0, False) /* Create Pumpkin Cookie Cutter (32201) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36443, 67116789, 80, 12)

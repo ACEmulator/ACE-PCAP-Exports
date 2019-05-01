@@ -54,37 +54,37 @@ VALUES (35378,   1,    10, 0, 0, 200250) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35378, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wield */
      , (35378, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */
+     , (35378, 9, 43829,  0, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for ContainTreasure */
      , (35378, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
-     , (35378, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (35378, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (35378, 9,   273, 1813, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (35378, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
      , (35378, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (35378, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (35378, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (35378, 9,  3893,  0, 0, 0, False) /* Create Acid Takuba (3893) for ContainTreasure */
-     , (35378, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
-     , (35378, 9, 20417,  0, 0, 0, False) /* Create Scroll of Cabalastic Ostracism (20417) for ContainTreasure */
-     , (35378, 9, 20418,  0, 0, 0, False) /* Create Scroll of Brogard's Defiance (20418) for ContainTreasure */
      , (35378, 9, 20450,  0, 0, 0, False) /* Create Scroll of Icy Torment (20450) for ContainTreasure */
-     , (35378, 9, 20522,  0, 0, 0, False) /* Create Scroll of Hearts on Sleeves (20522) for ContainTreasure */
-     , (35378, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */
-     , (35378, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
-     , (35378, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
-     , (35378, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
-     , (35378, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */
-     , (35378, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
-     , (35378, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
-     , (35378, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (35378, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
      , (35378, 9, 31800,  0, 0, 0, False) /* Create Blunt Compound Bow (31800) for ContainTreasure */
+     , (35378, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (35378, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
      , (35378, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
-     , (35378, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (35378, 9, 20522,  0, 0, 0, False) /* Create Scroll of Hearts on Sleeves (20522) for ContainTreasure */
+     , (35378, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (35378, 9, 20418,  0, 0, 0, False) /* Create Scroll of Brogard's Defiance (20418) for ContainTreasure */
+     , (35378, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (35378, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (35378, 9,  3893,  0, 0, 0, False) /* Create Acid Takuba (3893) for ContainTreasure */
+     , (35378, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
+     , (35378, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
      , (35378, 9, 35105,  1, 0, 0, False) /* Create Pyre Shroud (35105) for ContainTreasure */
-     , (35378, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (35378, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (35378, 9, 37251,  1, 0, 0, False) /* Create Five of Eyes (37251) for ContainTreasure */
-     , (35378, 9, 37290,  1, 0, 0, False) /* Create Jester's Token (37290) for ContainTreasure */
+     , (35378, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (35378, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */
+     , (35378, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (35378, 9,   273, 1813, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (35378, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
-     , (35378, 9, 43829,  0, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for ContainTreasure */;
+     , (35378, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (35378, 9, 37290,  1, 0, 0, False) /* Create Jester's Token (37290) for ContainTreasure */
+     , (35378, 9, 20417,  0, 0, 0, False) /* Create Scroll of Cabalastic Ostracism (20417) for ContainTreasure */
+     , (35378, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (35378, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */
+     , (35378, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35378, 67116525, 0, 0);

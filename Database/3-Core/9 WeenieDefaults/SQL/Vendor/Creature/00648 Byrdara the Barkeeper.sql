@@ -77,19 +77,19 @@ VALUES (648,   1,    10, 0, 0, 80) /* MaxHealth */
      , (648,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (648, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (648, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+VALUES (648, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (648, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (648, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (648, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (648, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (648, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (648, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (648, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (648, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (648, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
      , (648, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (648, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (648, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
-     , (648, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (648, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (648, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (648, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (648, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
-     , (648, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
-     , (648, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (648, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (648, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (648, 4, 33181, -1, 0, 0, False) /* Create  (33181) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

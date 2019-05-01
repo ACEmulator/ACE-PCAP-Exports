@@ -62,15 +62,15 @@ VALUES (30900,   1,    10, 0, 0, 1295) /* MaxHealth */
      , (30900,   5,    10, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30900, 9,   273, 143, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (30900, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (30900, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (30900, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+VALUES (30900, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (30900, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (30900, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (30900, 9, 30877,  0, 0, 0, False) /* Create Banished Atlatl (30877) for ContainTreasure */
      , (30900, 9, 16921,  0, 0, 0, False) /* Create Silk (16921) for ContainTreasure */
      , (30900, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */
-     , (30900, 9, 30877,  0, 0, 0, False) /* Create Banished Atlatl (30877) for ContainTreasure */
-     , (30900, 9, 43324,  0, 0, 0, False) /* Create Scroll of Destructive Curse V (43324) for ContainTreasure */;
+     , (30900, 9,   273, 143, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (30900, 9, 43324,  0, 0, 0, False) /* Create Scroll of Destructive Curse V (43324) for ContainTreasure */
+     , (30900, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30900, 67113846, 0, 0);

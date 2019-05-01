@@ -62,13 +62,13 @@ VALUES (5196,   1,    10, 0, 0, 25) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5196, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
-     , (5196, 2, 47267,  1, 0, 0, False) /* Create Electric Board with Nail (47267) for Wield */
-     , (5196, 2, 47324,  1, 0, 0, False) /* Create Acid Club (47324) for Wield */
-     , (5196, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
      , (5196, 2, 47362,  1, 0, 0, False) /* Create Lightning Club (47362) for Wield */
-     , (5196, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (5196, 2, 47267,  1, 0, 0, False) /* Create Electric Board with Nail (47267) for Wield */
+     , (5196, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
+     , (5196, 2, 47324,  1, 0, 0, False) /* Create Acid Club (47324) for Wield */
+     , (5196, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
      , (5196, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (5196, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */;
+     , (5196, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5196, 67112817, 0, 0);

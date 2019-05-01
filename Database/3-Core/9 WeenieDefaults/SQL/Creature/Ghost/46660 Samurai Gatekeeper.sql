@@ -48,10 +48,10 @@ VALUES (46660,   1,    10, 0, 0, 3750) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46660, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */
-     , (46660, 9,   273, 4014, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (46660, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (46660, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
      , (46660, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (46660, 9,   273, 4014, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (46660, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (46660, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
      , (46660, 9, 46598,  1, 0, 0, False) /* Create Broken Key (46598) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

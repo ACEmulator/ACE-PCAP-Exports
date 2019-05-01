@@ -51,30 +51,30 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (45805,   1,    10, 0, 0, 3000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45805, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (45805, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (45805, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (45805, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (45805, 9,   273, 4955, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (45805, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (45805, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (45805, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (45805, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (45805, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (45805, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+VALUES (45805, 9, 20451,  0, 0, 0, False) /* Create Scroll of Sudden Frost (20451) for ContainTreasure */
      , (45805, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (45805, 9, 20451,  0, 0, 0, False) /* Create Scroll of Sudden Frost (20451) for ContainTreasure */
-     , (45805, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
-     , (45805, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
-     , (45805, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
-     , (45805, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (45805, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (45805, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (45805, 9, 37318,  1, 0, 0, False) /* Create Glyph of Mana (37318) for ContainTreasure */
+     , (45805, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (45805, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
      , (45805, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
-     , (45805, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
-     , (45805, 9, 37300,  1, 0, 0, False) /* Create Glyph of Endurance (37300) for ContainTreasure */
+     , (45805, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (45805, 9,   273, 4955, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (45805, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (45805, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (45805, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (45805, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
      , (45805, 9, 37302,  1, 0, 0, False) /* Create Glyph of Fletching (37302) for ContainTreasure */
-     , (45805, 9, 37318,  1, 0, 0, False) /* Create Glyph of Mana (37318) for ContainTreasure */;
+     , (45805, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (45805, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (45805, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (45805, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (45805, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (45805, 9, 37300,  1, 0, 0, False) /* Create Glyph of Endurance (37300) for ContainTreasure */
+     , (45805, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (45805, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
+     , (45805, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45805, 67116861, 0, 24)

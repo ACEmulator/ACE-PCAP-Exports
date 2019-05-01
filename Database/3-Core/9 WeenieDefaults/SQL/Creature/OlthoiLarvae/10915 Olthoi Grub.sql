@@ -63,36 +63,36 @@ VALUES (10915,   1,    10, 0, 0, 90) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10915, 2, 48994,  1, 0, 0, False) /* Create Frost Hatchet (48994) for Wield */
-     , (10915, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
-     , (10915, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+     , (10915, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (10915, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
      , (10915, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (10915, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (10915, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (10915, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (10915, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (10915, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (10915, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (10915, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (10915, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (10915, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
      , (10915, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (10915, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (10915, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (10915, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (10915, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (10915, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (10915, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (10915, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
-     , (10915, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (10915, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
-     , (10915, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
-     , (10915, 9,  2980,  0, 0, 0, False) /* Create Scroll of Acid Protection Self IV (2980) for ContainTreasure */
-     , (10915, 9,  3490,  0, 0, 0, False) /* Create Scroll of Sprint Other IV (3490) for ContainTreasure */
-     , (10915, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
-     , (10915, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
-     , (10915, 9,  8923,  0, 0, 0, False) /* Create Scroll of Flame Streak IV (8923) for ContainTreasure */
      , (10915, 9, 20321,  0, 0, 0, False) /* Create Scroll of Devour Creature Magic Other (20321) for ContainTreasure */
-     , (10915, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
-     , (10915, 9, 34277,  1, 0, 0, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
+     , (10915, 9,  2980,  0, 0, 0, False) /* Create Scroll of Acid Protection Self IV (2980) for ContainTreasure */
+     , (10915, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
+     , (10915, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
      , (10915, 9, 37358,  1, 0, 0, False) /* Create Ink of Separation (37358) for ContainTreasure */
-     , (10915, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
+     , (10915, 9, 34277,  1, 0, 0, False) /* Create Ancient Falatacot Trinket (34277) for ContainTreasure */
      , (10915, 9, 44852,  0, 0, 0, False) /* Create Chevron Cloak (44852) for ContainTreasure */
-     , (10915, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */;
+     , (10915, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (10915, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
+     , (10915, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (10915, 9,  3490,  0, 0, 0, False) /* Create Scroll of Sprint Other IV (3490) for ContainTreasure */
+     , (10915, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (10915, 9,  8923,  0, 0, 0, False) /* Create Scroll of Flame Streak IV (8923) for ContainTreasure */
+     , (10915, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
+     , (10915, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (10915, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (10915, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (10915, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10915, 67114230, 0, 0);

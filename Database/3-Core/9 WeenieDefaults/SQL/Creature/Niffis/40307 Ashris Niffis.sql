@@ -57,15 +57,15 @@ VALUES (40307,   1,    10, 0, 0, 3800) /* MaxHealth */
      , (40307,   5,    10, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40307, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (40307, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (40307, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (40307, 9, 20251,  0, 0, 0, False) /* Create Scroll of Robustification (20251) for ContainTreasure */
-     , (40307, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+VALUES (40307, 9, 49308,  0, 0, 0, False) /* Create Frost K'nath Essence (180) (49308) for ContainTreasure */
+     , (40307, 9, 49439,  0, 0, 0, False) /* Create Fire Spectre Essence (150) (49439) for ContainTreasure */
      , (40307, 9, 29253,  0, 0, 0, False) /* Create Blunt Atlatl (29253) for ContainTreasure */
+     , (40307, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (40307, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
-     , (40307, 9, 49308,  0, 0, 0, False) /* Create Frost K'nath Essence (180) (49308) for ContainTreasure */
-     , (40307, 9, 49439,  0, 0, 0, False) /* Create Fire Spectre Essence (150) (49439) for ContainTreasure */;
+     , (40307, 9, 20251,  0, 0, 0, False) /* Create Scroll of Robustification (20251) for ContainTreasure */
+     , (40307, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (40307, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (40307, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40307, 67116786, 0, 0);

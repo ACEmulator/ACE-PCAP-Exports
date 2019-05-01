@@ -45,14 +45,14 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (35780, 8000, 3329682766) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35780, 2, 47238,  1, 0, 0, False) /* Create Acid Board with Nail (47238) for Wield */
-     , (35780, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
+VALUES (35780, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
+     , (35780, 2, 47352,  1, 0, 0, False) /* Create Club (47352) for Wield */
+     , (35780, 2, 47238,  1, 0, 0, False) /* Create Acid Board with Nail (47238) for Wield */
+     , (35780, 2, 47333,  1, 0, 0, False) /* Create Acid Club (47333) for Wield */
+     , (35780, 2, 47409,  1, 0, 0, False) /* Create Frost Club (47409) for Wield */
      , (35780, 2, 47276,  1, 0, 0, False) /* Create Electric Board with Nail (47276) for Wield */
      , (35780, 2, 47314,  1, 0, 0, False) /* Create Frost Board with Nail (47314) for Wield */
-     , (35780, 2, 47333,  1, 0, 0, False) /* Create Acid Club (47333) for Wield */
-     , (35780, 2, 47352,  1, 0, 0, False) /* Create Club (47352) for Wield */
-     , (35780, 2, 47371,  1, 0, 0, False) /* Create Lightning Club (47371) for Wield */
-     , (35780, 2, 47409,  1, 0, 0, False) /* Create Frost Club (47409) for Wield */;
+     , (35780, 2, 47371,  1, 0, 0, False) /* Create Lightning Club (47371) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35780, 67112818, 0, 0);

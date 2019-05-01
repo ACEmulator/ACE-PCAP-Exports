@@ -69,7 +69,10 @@ VALUES (30012,   1,    10, 0, 0, 150) /* MaxHealth */
      , (30012,   5,    10, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30012, 4,  2664, -1, 0, 0, False) /* Create Scroll of Enfeeble Other II (2664) for Shop */
+VALUES (30012, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
+     , (30012, 4,  4385, -1, 0, 0, False) /* Create Scroll of Armor Other II (4385) for Shop */
+     , (30012, 4,  4390, -1, 0, 0, False) /* Create Scroll of Armor Self II (4390) for Shop */
+     , (30012, 4,  2664, -1, 0, 0, False) /* Create Scroll of Enfeeble Other II (2664) for Shop */
      , (30012, 4,  2687, -1, 0, 0, False) /* Create Scroll of Harm Other II (2687) for Shop */
      , (30012, 4,  2692, -1, 0, 0, False) /* Create Scroll of Heal Other II (2692) for Shop */
      , (30012, 4,  2697, -1, 0, 0, False) /* Create Scroll of Heal Self II (2697) for Shop */
@@ -77,7 +80,6 @@ VALUES (30012, 4,  2664, -1, 0, 0, False) /* Create Scroll of Enfeeble Other II 
      , (30012, 4,  2707, -1, 0, 0, False) /* Create Scroll of Mana Drain Other II (2707) for Shop */
      , (30012, 4,  2722, -1, 0, 0, False) /* Create Scroll of Revitalize Other II (2722) for Shop */
      , (30012, 4,  2727, -1, 0, 0, False) /* Create Scroll of Revitalize Self II (2727) for Shop */
-     , (30012, 4,  2890, -1, 0, 0, False) /* Create Scroll of Drain Health Other II (2890) for Shop */
      , (30012, 4,  2973, -1, 0, 0, False) /* Create Scroll of Acid Protection Other II (2973) for Shop */
      , (30012, 4,  2978, -1, 0, 0, False) /* Create Scroll of Acid Protection Self II (2978) for Shop */
      , (30012, 4,  2983, -1, 0, 0, False) /* Create Scroll of Acid Vulnerability Other II (2983) for Shop */
@@ -108,20 +110,18 @@ VALUES (30012, 4,  2664, -1, 0, 0, False) /* Create Scroll of Enfeeble Other II 
      , (30012, 4,  3113, -1, 0, 0, False) /* Create Scroll of Regenerate Self II (3113) for Shop */
      , (30012, 4,  3118, -1, 0, 0, False) /* Create Scroll of Rejuvenate Other II (3118) for Shop */
      , (30012, 4,  3123, -1, 0, 0, False) /* Create Scroll of Rejuvenate Self II (3123) for Shop */
+     , (30012, 4,  2890, -1, 0, 0, False) /* Create Scroll of Drain Health Other II (2890) for Shop */
+     , (30012, 4,  9661, -1, 0, 0, False) /* Create Scroll of Drain Mana Other II (9661) for Shop */
      , (30012, 4,  3726, -1, 0, 0, False) /* Create Scroll of Drain Stamina Other II (3726) for Shop */
+     , (30012, 4,  9630, -1, 0, 0, False) /* Create Scroll of Health to Mana Self II (9630) for Shop */
+     , (30012, 4,  9635, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self II (9635) for Shop */
      , (30012, 4,  3731, -1, 0, 0, False) /* Create Scroll of Infuse Health II (3731) for Shop */
      , (30012, 4,  3736, -1, 0, 0, False) /* Create Scroll of Infuse Mana II (3736) for Shop */
      , (30012, 4,  3741, -1, 0, 0, False) /* Create Scroll of Infuse Stamina II (3741) for Shop */
-     , (30012, 4,  4385, -1, 0, 0, False) /* Create Scroll of Armor Other II (4385) for Shop */
-     , (30012, 4,  4390, -1, 0, 0, False) /* Create Scroll of Armor Self II (4390) for Shop */
-     , (30012, 4,  9630, -1, 0, 0, False) /* Create Scroll of Health to Mana Self II (9630) for Shop */
-     , (30012, 4,  9635, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self II (9635) for Shop */
      , (30012, 4,  9640, -1, 0, 0, False) /* Create Scroll of Mana to Health Self II (9640) for Shop */
      , (30012, 4,  9645, -1, 0, 0, False) /* Create Scroll of Mana to Stamina Self II (9645) for Shop */
      , (30012, 4,  9650, -1, 0, 0, False) /* Create Scroll of Stamina to Health Self II (9650) for Shop */
      , (30012, 4,  9655, -1, 0, 0, False) /* Create Scroll of Stamina to Mana Self II (9655) for Shop */
-     , (30012, 4,  9661, -1, 0, 0, False) /* Create Scroll of Drain Mana Other II (9661) for Shop */
-     , (30012, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
-     , (30012, 4, 21096, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb II (21096) for Shop */
      , (30012, 4, 21103, -1, 0, 0, False) /* Create Scroll of Martyr's Blight II (21103) for Shop */
-     , (30012, 4, 21110, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity II (21110) for Shop */;
+     , (30012, 4, 21110, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity II (21110) for Shop */
+     , (30012, 4, 21096, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb II (21096) for Shop */;

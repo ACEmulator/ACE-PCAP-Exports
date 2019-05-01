@@ -50,21 +50,21 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24311,   1,    10, 0, 0, 265) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24311, 9,    37,  0, 0, 0, False) /* Create Scalemail Bracers (37) for ContainTreasure */
+VALUES (24311, 9, 44852,  0, 0, 0, False) /* Create Chevron Cloak (44852) for ContainTreasure */
      , (24311, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (24311, 9,   273, 796, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (24311, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (24311, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (24311, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (24311, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
      , (24311, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (24311, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (24311, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (24311, 9,   273, 796, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (24311, 9,    37,  0, 0, 0, False) /* Create Scalemail Bracers (37) for ContainTreasure */
      , (24311, 9,  3427,  0, 0, 0, False) /* Create Scroll of Magic Yield Other VI (3427) for ContainTreasure */
-     , (24311, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
      , (24311, 9, 43366,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Self VI (43366) for ContainTreasure */
-     , (24311, 9, 44852,  0, 0, 0, False) /* Create Chevron Cloak (44852) for ContainTreasure */
      , (24311, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
-     , (24311, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
-     , (24311, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */;
+     , (24311, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (24311, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (24311, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24311, 67114298, 0, 0);

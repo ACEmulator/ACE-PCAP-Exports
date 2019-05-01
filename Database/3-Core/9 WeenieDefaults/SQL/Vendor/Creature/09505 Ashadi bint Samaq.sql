@@ -77,20 +77,20 @@ VALUES (9505,   1,    10, 0, 0, 65) /* MaxHealth */
      , (9505,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9505, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
-     , (9505, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (9505, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+VALUES (9505, 4,  9517, -1, 0, 0, False) /* Create  (9517) for Shop */
      , (9505, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9505, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9505, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (9505, 4,  9517, -1, 0, 0, False) /* Create  (9517) for Shop */
      , (9505, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9505, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (9505, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (9505, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
+     , (9505, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+     , (9505, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (9505, 4, 44724, -1, 0, 0, False) /* Create Banderling (44724) for Shop */
-     , (9505, 4, 44743, -1, 0, 0, False) /* Create Idol (44743) for Shop */
      , (9505, 4, 44748, -1, 0, 0, False) /* Create Mattekar (44748) for Shop */
-     , (9505, 4, 44767, -1, 0, 0, False) /* Create Shreth (44767) for Shop */;
+     , (9505, 4, 44767, -1, 0, 0, False) /* Create Shreth (44767) for Shop */
+     , (9505, 4, 44743, -1, 0, 0, False) /* Create Idol (44743) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9505, 67109555, 0, 24)

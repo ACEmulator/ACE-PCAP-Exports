@@ -62,10 +62,10 @@ VALUES (30638,   1,    10, 0, 0, 413) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30638, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */
-     , (30638, 9,   273, 663, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (30638, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
-     , (30638, 9, 30748,  0, 0, 0, False) /* Create Crude Carving (30748) for ContainTreasure */
-     , (30638, 9, 41054,  0, 0, 0, False) /* Create Lightning Greataxe (41054) for ContainTreasure */;
+     , (30638, 9,   273, 663, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (30638, 9, 41054,  0, 0, 0, False) /* Create Lightning Greataxe (41054) for ContainTreasure */
+     , (30638, 9, 30748,  0, 0, 0, False) /* Create Crude Carving (30748) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30638, 67114038, 0, 0);

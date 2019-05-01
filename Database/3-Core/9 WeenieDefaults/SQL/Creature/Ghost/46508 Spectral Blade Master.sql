@@ -63,11 +63,11 @@ VALUES (46508,   1,    10, 0, 0, 2975) /* MaxHealth */
      , (46508,   5,    10, 0, 0, 5280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46508, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
-     , (46508, 2, 46373,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */
+VALUES (46508, 2, 46373,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */
+     , (46508, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
+     , (46508, 9, 30603,  0, 0, 0, False) /* Create Flaming Stiletto (30603) for ContainTreasure */
      , (46508, 9,   273, 3127, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (46508, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (46508, 9, 30603,  0, 0, 0, False) /* Create Flaming Stiletto (30603) for ContainTreasure */;
+     , (46508, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46508, 67114607, 168, 6)

@@ -77,15 +77,15 @@ VALUES (1047,   1,    10, 0, 0, 145) /* MaxHealth */
      , (1047,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1047, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (1047, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
-     , (1047, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */
+VALUES (1047, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */
      , (1047, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
+     , (1047, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (1047, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
      , (1047, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (1047, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
      , (1047, 4,  8373, -1, 0, 0, False) /* Create Kiyafa Robe (8373) for Shop */
-     , (1047, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
-     , (1047, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */;
+     , (1047, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
+     , (1047, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1047, 67109555, 0, 24)

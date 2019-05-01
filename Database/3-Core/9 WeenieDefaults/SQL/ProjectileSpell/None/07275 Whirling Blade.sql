@@ -45,13 +45,13 @@ VALUES (7275, 8000, 3688474650) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7275, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
-     , (7275, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (7275, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (7275, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */
-     , (7275, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (7275, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (7275, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (7275, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (7275, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (7275, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
      , (7275, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
-     , (7275, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+     , (7275, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (7275, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (7275, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (7275, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (7275, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (7275, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (7275, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */
+     , (7275, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

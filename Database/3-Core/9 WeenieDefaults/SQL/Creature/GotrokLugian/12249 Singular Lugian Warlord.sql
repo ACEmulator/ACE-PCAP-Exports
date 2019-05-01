@@ -47,8 +47,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12249,   1,    10, 0, 0, 390) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12249, 2, 23740,  1, 0, 0, False) /* Create Lugian Axe (23740) for Wield */
-     , (12249, 2, 23746,  1, 0, 0, False) /* Create Rock (23746) for Wield */;
+VALUES (12249, 2, 23746,  1, 0, 0, False) /* Create Rock (23746) for Wield */
+     , (12249, 2, 23740,  1, 0, 0, False) /* Create Lugian Axe (23740) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12249, 67113162, 0, 0);

@@ -59,22 +59,22 @@ VALUES (196,   1,    10, 0, 0, 95) /* MaxHealth */
      , (196,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (196, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
-     , (196, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (196, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (196, 9,   273, 46, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (196, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (196, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (196, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
-     , (196, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (196, 9,  1862,  0, 0, 0, False) /* Create Scroll of Health to Mana Self (1862) for ContainTreasure */
-     , (196, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (196, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (196, 9,  3284,  0, 0, 0, False) /* Create Scroll of Impregnability Other III (3284) for ContainTreasure */
+VALUES (196, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (196, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (196, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (196, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
      , (196, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (196, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
-     , (196, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (196, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (196, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (196, 9,   273, 46, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (196, 9, 41046,  0, 0, 0, False) /* Create Pike (41046) for ContainTreasure */
-     , (196, 9, 49471,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self II (49471) for ContainTreasure */;
+     , (196, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (196, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (196, 9,  3284,  0, 0, 0, False) /* Create Scroll of Impregnability Other III (3284) for ContainTreasure */
+     , (196, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (196, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (196, 9, 49471,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self II (49471) for ContainTreasure */
+     , (196, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (196, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (196, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (196, 9,  1862,  0, 0, 0, False) /* Create Scroll of Health to Mana Self (1862) for ContainTreasure */;

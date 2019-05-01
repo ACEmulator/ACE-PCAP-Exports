@@ -78,10 +78,10 @@ VALUES (300, 8000, 3685860791) /* PCAPRecordedObjectIID */
      , (300, 8008, 3685860786) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (300, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
-     , (300, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+VALUES (300, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (300, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
-     , (300, 2, 47724,  1, 0, 0, False) /* Create Spear (47724) for Wield */;
+     , (300, 2, 47724,  1, 0, 0, False) /* Create Spear (47724) for Wield */
+     , (300, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (300, 67111919, 0, 0);

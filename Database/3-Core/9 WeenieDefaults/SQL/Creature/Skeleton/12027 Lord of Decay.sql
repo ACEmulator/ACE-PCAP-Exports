@@ -51,24 +51,24 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12027,   1,    10, 0, 0, 125) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12027, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (12027, 2,    92,  1, 0, 0, False) /* Create Large Kite Shield (92) for Wield */
-     , (12027, 2,    94,  1, 0, 0, False) /* Create Diamond Shield (94) for Wield */
-     , (12027, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (12027, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
-     , (12027, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (12027, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
-     , (12027, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
+VALUES (12027, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (12027, 2,   327,  1, 0, 0, False) /* Create Ken (327) for Wield */
-     , (12027, 2,   332,  1, 0, 0, False) /* Create Morning Star (332) for Wield */
-     , (12027, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
-     , (12027, 2,   336,  1, 0, 0, False) /* Create Ono (336) for Wield */
-     , (12027, 2,   339,  1, 0, 0, False) /* Create Scimitar (339) for Wield */
-     , (12027, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
-     , (12027, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
-     , (12027, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
+     , (12027, 2,    92,  1, 0, 0, False) /* Create Large Kite Shield (92) for Wield */
+     , (12027, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (12027, 2,   354,  1, 0, 0, False) /* Create Takuba (354) for Wield */
-     , (12027, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
-     , (12027, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */
+     , (12027, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (12027, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
+     , (12027, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
+     , (12027, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (12027, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (12027, 2,   339,  1, 0, 0, False) /* Create Scimitar (339) for Wield */
+     , (12027, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
+     , (12027, 2,   336,  1, 0, 0, False) /* Create Ono (336) for Wield */
+     , (12027, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (12027, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
+     , (12027, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
+     , (12027, 2,   332,  1, 0, 0, False) /* Create Morning Star (332) for Wield */
+     , (12027, 2,    94,  1, 0, 0, False) /* Create Diamond Shield (94) for Wield */
      , (12027, 9,  2770,  0, 0, 0, False) /* Create Scroll of Acid Lure V (2770) for ContainTreasure */
-     , (12027, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */;
+     , (12027, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (12027, 9,   378,  1, 0, 0, False) /* Create Stamina Potion (378) for ContainTreasure */;

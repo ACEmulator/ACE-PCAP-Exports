@@ -60,13 +60,13 @@ VALUES (25874,   1,    10, 0, 0, 1000) /* MaxHealth */
      , (25874,   5,    10, 0, 0, 739) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25874, 9,   273, 121, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (25874, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+VALUES (25874, 9, 40710,  0, 0, 0, False) /* Create Covenant Greaves (40710) for ContainTreasure */
      , (25874, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (25874, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (25874, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (25874, 9, 31801,  0, 0, 0, False) /* Create Electric Compound Bow (31801) for ContainTreasure */
-     , (25874, 9, 40710,  0, 0, 0, False) /* Create Covenant Greaves (40710) for ContainTreasure */;
+     , (25874, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (25874, 9,   273, 121, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (25874, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (25874, 9, 31801,  0, 0, 0, False) /* Create Electric Compound Bow (31801) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25874, 67114703, 0, 0);

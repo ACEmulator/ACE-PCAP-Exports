@@ -61,18 +61,18 @@ VALUES (1765,   1,    10, 0, 0, 130) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1765, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
-     , (1765, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (1765, 9,   273, 63, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1765, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (1765, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (1765, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (1765, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (1765, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (1765, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
-     , (1765, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
      , (1765, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (1765, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
-     , (1765, 9, 40620,  0, 0, 0, False) /* Create Lightning Spadone (40620) for ContainTreasure */;
+     , (1765, 9,   273, 63, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1765, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (1765, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1765, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (1765, 9, 40620,  0, 0, 0, False) /* Create Lightning Spadone (40620) for ContainTreasure */
+     , (1765, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (1765, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1765, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (1765, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (1765, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1765, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1765, 67111813, 0, 0);

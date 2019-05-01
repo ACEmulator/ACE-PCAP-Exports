@@ -77,35 +77,8 @@ VALUES (5422,   1,    10, 0, 0, 80) /* MaxHealth */
      , (5422,   5,    10, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5422, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (5422, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (5422, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
-     , (5422, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
-     , (5422, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
-     , (5422, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
-     , (5422, 4,   740, -1, 0, 0, False) /* Create Ashwood Talisman (740) for Shop */
-     , (5422, 4,   741, -1, 0, 0, False) /* Create Birch Talisman (741) for Shop */
-     , (5422, 4,   742, -1, 0, 0, False) /* Create Blackthorn Talisman (742) for Shop */
-     , (5422, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman (743) for Shop */
-     , (5422, 4,   744, -1, 0, 0, False) /* Create Ebony Talisman (744) for Shop */
-     , (5422, 4,   745, -1, 0, 0, False) /* Create Elder Talisman (745) for Shop */
-     , (5422, 4,   747, -1, 0, 0, False) /* Create Hemlock Talisman (747) for Shop */
-     , (5422, 4,   749, -1, 0, 0, False) /* Create Poplar Talisman (749) for Shop */
-     , (5422, 4,   750, -1, 0, 0, False) /* Create Rowan Talisman (750) for Shop */
-     , (5422, 4,   751, -1, 0, 0, False) /* Create Willow Talisman (751) for Shop */
-     , (5422, 4,   752, -1, 0, 0, False) /* Create Yew Talisman (752) for Shop */
-     , (5422, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
-     , (5422, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
-     , (5422, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
-     , (5422, 4,   756, -1, 0, 0, False) /* Create Cobalt (756) for Shop */
-     , (5422, 4,   757, -1, 0, 0, False) /* Create Colcothar (757) for Shop */
-     , (5422, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
-     , (5422, 4,   759, -1, 0, 0, False) /* Create Quicksilver (759) for Shop */
-     , (5422, 4,   760, -1, 0, 0, False) /* Create Realgar (760) for Shop */
-     , (5422, 4,   761, -1, 0, 0, False) /* Create Stibnite (761) for Shop */
-     , (5422, 4,   762, -1, 0, 0, False) /* Create Turpeth (762) for Shop */
-     , (5422, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
-     , (5422, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
+VALUES (5422, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
+     , (5422, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (5422, 4,   765, -1, 0, 0, False) /* Create Amaranth (765) for Shop */
      , (5422, 4,   766, -1, 0, 0, False) /* Create Bistort (766) for Shop */
      , (5422, 4,   767, -1, 0, 0, False) /* Create Comfrey (767) for Shop */
@@ -113,6 +86,7 @@ VALUES (5422, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5422, 4,   769, -1, 0, 0, False) /* Create Dragonsblood (769) for Shop */
      , (5422, 4,   770, -1, 0, 0, False) /* Create Eyebright (770) for Shop */
      , (5422, 4,   771, -1, 0, 0, False) /* Create Frankincense (771) for Shop */
+     , (5422, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
      , (5422, 4,   772, -1, 0, 0, False) /* Create Hawthorn (772) for Shop */
      , (5422, 4,   773, -1, 0, 0, False) /* Create Henbane (773) for Shop */
      , (5422, 4,   774, -1, 0, 0, False) /* Create Hyssop (774) for Shop */
@@ -126,31 +100,57 @@ VALUES (5422, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5422, 4,   784, -1, 0, 0, False) /* Create Powdered Azurite (784) for Shop */
      , (5422, 4,   785, -1, 0, 0, False) /* Create Powdered Bloodstone (785) for Shop */
      , (5422, 4,   786, -1, 0, 0, False) /* Create Powdered Carnelian (786) for Shop */
+     , (5422, 4,   626, -1, 0, 0, False) /* Create Powdered Hematite (626) for Shop */
      , (5422, 4,   787, -1, 0, 0, False) /* Create Powdered Lapis Lazuli (787) for Shop */
      , (5422, 4,   788, -1, 0, 0, False) /* Create Powdered Malachite (788) for Shop */
      , (5422, 4,   789, -1, 0, 0, False) /* Create Powdered Moonstone (789) for Shop */
      , (5422, 4,   790, -1, 0, 0, False) /* Create Powdered Onyx (790) for Shop */
      , (5422, 4,   791, -1, 0, 0, False) /* Create Powdered Quartz (791) for Shop */
      , (5422, 4,   792, -1, 0, 0, False) /* Create Powdered Turquoise (792) for Shop */
-     , (5422, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
+     , (5422, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
+     , (5422, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
+     , (5422, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */
+     , (5422, 4,   756, -1, 0, 0, False) /* Create Cobalt (756) for Shop */
+     , (5422, 4,   757, -1, 0, 0, False) /* Create Colcothar (757) for Shop */
+     , (5422, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
+     , (5422, 4,   759, -1, 0, 0, False) /* Create Quicksilver (759) for Shop */
+     , (5422, 4,   760, -1, 0, 0, False) /* Create Realgar (760) for Shop */
+     , (5422, 4,   761, -1, 0, 0, False) /* Create Stibnite (761) for Shop */
+     , (5422, 4,   762, -1, 0, 0, False) /* Create Turpeth (762) for Shop */
+     , (5422, 4,   763, -1, 0, 0, False) /* Create Verdigris (763) for Shop */
+     , (5422, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
+     , (5422, 4,   749, -1, 0, 0, False) /* Create Poplar Talisman (749) for Shop */
+     , (5422, 4,   742, -1, 0, 0, False) /* Create Blackthorn Talisman (742) for Shop */
+     , (5422, 4,   752, -1, 0, 0, False) /* Create Yew Talisman (752) for Shop */
+     , (5422, 4,   747, -1, 0, 0, False) /* Create Hemlock Talisman (747) for Shop */
+     , (5422, 4,   627, -1, 0, 0, False) /* Create Alder Talisman (627) for Shop */
+     , (5422, 4,   744, -1, 0, 0, False) /* Create Ebony Talisman (744) for Shop */
+     , (5422, 4,   741, -1, 0, 0, False) /* Create Birch Talisman (741) for Shop */
+     , (5422, 4,   740, -1, 0, 0, False) /* Create Ashwood Talisman (740) for Shop */
+     , (5422, 4,   745, -1, 0, 0, False) /* Create Elder Talisman (745) for Shop */
+     , (5422, 4,   750, -1, 0, 0, False) /* Create Rowan Talisman (750) for Shop */
+     , (5422, 4,   751, -1, 0, 0, False) /* Create Willow Talisman (751) for Shop */
+     , (5422, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman (743) for Shop */
+     , (5422, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (5422, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (5422, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
-     , (5422, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (5422, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (5422, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (5422, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (5422, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (5422, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */
      , (5422, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
      , (5422, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (5422, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
      , (5422, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
-     , (5422, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
+     , (5422, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (5422, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (5422, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
+     , (5422, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (5422, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
+     , (5422, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (5422, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (5422, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (5422, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (5422, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
-     , (5422, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */;
+     , (5422, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
+     , (5422, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
+     , (5422, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5422, 67109559, 0, 24)

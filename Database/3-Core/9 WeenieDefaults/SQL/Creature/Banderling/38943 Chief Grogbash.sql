@@ -62,9 +62,9 @@ VALUES (38943,   1,    10, 0, 0, 3225) /* MaxHealth */
      , (38943,   5,    10, 0, 0, 10320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38943, 2, 38933,  1, 0, 0, False) /* Create Lightning Dericost Blade (38933) for Wield */
-     , (38943, 2, 38934,  1, 0, 0, False) /* Create Sabra (38934) for Wield */
-     , (38943, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */;
+VALUES (38943, 2, 38934,  1, 0, 0, False) /* Create Sabra (38934) for Wield */
+     , (38943, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */
+     , (38943, 2, 38933,  1, 0, 0, False) /* Create Lightning Dericost Blade (38933) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38943, 67114265, 0, 0);

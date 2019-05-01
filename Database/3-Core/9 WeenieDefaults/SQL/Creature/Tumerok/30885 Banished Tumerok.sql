@@ -50,18 +50,18 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (30885,   1,    10, 0, 0, 530) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30885, 2,  5304,  1, 0, 0, False) /* Create Greater Arrow (5304) for Wield */
+VALUES (30885, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
+     , (30885, 2,  5304,  1, 0, 0, False) /* Create Greater Arrow (5304) for Wield */
      , (30885, 2,  5313,  1, 0, 0, False) /* Create Greater Quarrel (5313) for Wield */
      , (30885, 2, 23667,  1, 0, 0, False) /* Create Heavy Crossbow (23667) for Wield */
-     , (30885, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
-     , (30885, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (30885, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (30885, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
      , (30885, 9,  2835,  0, 0, 0, False) /* Create Aura of Heartseeker Self V (2835) for ContainTreasure */
-     , (30885, 9,  3695,  0, 0, 0, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
-     , (30885, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
      , (30885, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
-     , (30885, 9, 30863,  0, 0, 0, False) /* Create Banished Spear (30863) for ContainTreasure */;
+     , (30885, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (30885, 9, 30863,  0, 0, 0, False) /* Create Banished Spear (30863) for ContainTreasure */
+     , (30885, 9,  3695,  0, 0, 0, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (30885, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (30885, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (30885, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30885, 67116625, 153, 47)

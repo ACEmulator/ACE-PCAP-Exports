@@ -67,22 +67,22 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (31224,   1,    10, 0, 0, 80) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31224, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
-     , (31224, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (31224, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
-     , (31224, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
+VALUES (31224, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (31224, 4,   305, -1, 0, 0, False) /* Create Quarrel (305) for Shop */
+     , (31224, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (31224, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (31224, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (31224, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
-     , (31224, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
-     , (31224, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
-     , (31224, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (31224, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (31224, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (31224, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (31224, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (31224, 4,  5634, -1, 0, 0, False) /* Create Stamina Draught (5634) for Shop */
-     , (31224, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */;
+     , (31224, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (31224, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
+     , (31224, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
+     , (31224, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
+     , (31224, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
+     , (31224, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (31224, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (31224, 4,  5634, -1, 0, 0, False) /* Create Stamina Draught (5634) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31224, 67109964, 92, 4)

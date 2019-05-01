@@ -60,12 +60,12 @@ VALUES (43269,   1,    10, 0, 0, 60250) /* MaxHealth */
      , (43269,   5,    10, 0, 0, 4450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43269, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
-     , (43269, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+VALUES (43269, 9, 49385,  0, 0, 0, False) /* Create Fire Grievver Essence (180) (49385) for ContainTreasure */
      , (43269, 9, 20418,  0, 0, 0, False) /* Create Scroll of Brogard's Defiance (20418) for ContainTreasure */
-     , (43269, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
      , (43269, 9, 41262,  0, 0, 0, False) /* Create Scroll of Blessing of T'ing (41262) for ContainTreasure */
-     , (43269, 9, 49385,  0, 0, 0, False) /* Create Fire Grievver Essence (180) (49385) for ContainTreasure */;
+     , (43269, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (43269, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (43269, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43269, 67114694, 0, 0);

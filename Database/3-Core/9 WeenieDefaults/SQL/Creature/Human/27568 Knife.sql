@@ -65,7 +65,7 @@ VALUES (27568,   1,    10, 0, 0, 145) /* MaxHealth */
      , (27568,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27568, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */
+VALUES (27568, 2, 23678,  1, 0, 0, False) /* Create Knife (23678) for Wield */
+     , (27568, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */
      , (27568, 2, 23536,  1, 0, 0, False) /* Create Fetid Dirk (23536) for Wield */
-     , (27568, 2, 23671,  1, 0, 0, False) /* Create Dagger (23671) for Wield */
-     , (27568, 2, 23678,  1, 0, 0, False) /* Create Knife (23678) for Wield */;
+     , (27568, 2, 23671,  1, 0, 0, False) /* Create Dagger (23671) for Wield */;

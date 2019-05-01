@@ -74,8 +74,8 @@ VALUES (33293,   1,    10, 0, 0, 220) /* MaxHealth */
      , (33293,   5,    10, 0, 0, 280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33293, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
-     , (33293, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;
+VALUES (33293, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
+     , (33293, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33293, 67109561, 0, 24)

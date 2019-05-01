@@ -77,32 +77,32 @@ VALUES (2297,   1,    10, 0, 0, 133) /* MaxHealth */
      , (2297,   5,    10, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2297, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (2297, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+VALUES (2297, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (2297, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (2297, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
+     , (2297, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (2297, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (2297, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
+     , (2297, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (2297, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (2297, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
      , (2297, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (2297, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (2297, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
-     , (2297, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (2297, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (2297, 4,  2470, -1, 0, 0, False) /* Create Stamina Elixir (2470) for Shop */
-     , (2297, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (2297, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (2297, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
-     , (2297, 4,  4590, -1, 0, 0, False) /* Create  (4590) for Shop */
-     , (2297, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
-     , (2297, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
-     , (2297, 4,  4598, -1, 0, 0, False) /* Create  (4598) for Shop */
-     , (2297, 4,  4600, -1, 0, 0, False) /* Create  (4600) for Shop */
-     , (2297, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
-     , (2297, 4,  4603, -1, 0, 0, False) /* Create  (4603) for Shop */
-     , (2297, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
-     , (2297, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (2297, 4,  4609, -1, 0, 0, False) /* Create  (4609) for Shop */
      , (2297, 4,  4611, -1, 0, 0, False) /* Create  (4611) for Shop */
-     , (2297, 4, 27319, -1, 0, 0, False) /* Create Health Tincture (27319) for Shop */
-     , (2297, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture (27322) for Shop */
-     , (2297, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
+     , (2297, 4,  4609, -1, 0, 0, False) /* Create  (4609) for Shop */
+     , (2297, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
+     , (2297, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
+     , (2297, 4,  4603, -1, 0, 0, False) /* Create  (4603) for Shop */
+     , (2297, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
+     , (2297, 4,  4600, -1, 0, 0, False) /* Create  (4600) for Shop */
+     , (2297, 4,  4598, -1, 0, 0, False) /* Create  (4598) for Shop */
+     , (2297, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
+     , (2297, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
+     , (2297, 4,  4590, -1, 0, 0, False) /* Create  (4590) for Shop */
+     , (2297, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
+     , (2297, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (2297, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2297, 67109964, 92, 4)

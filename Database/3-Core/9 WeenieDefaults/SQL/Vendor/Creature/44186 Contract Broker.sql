@@ -77,7 +77,18 @@ VALUES (44186,   1,    10, 0, 0, 228) /* MaxHealth */
      , (44186,   5,    10, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44186, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+VALUES (44186, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
+     , (44186, 4, 44146, -1, 0, 0, False) /* Create Contract for Frozen Fury (44146) for Shop */
+     , (44186, 4, 44157, -1, 0, 0, False) /* Create Contract for Assault (Low) (44157) for Shop */
+     , (44186, 4, 44155, -1, 0, 0, False) /* Create Contract for Banderling Haunt (44155) for Shop */
+     , (44186, 4, 44158, -1, 0, 0, False) /* Create  (44158) for Shop */
+     , (44186, 4, 44143, -1, 0, 0, False) /* Create  (44143) for Shop */
+     , (44186, 4, 44159, -1, 0, 0, False) /* Create  (44159) for Shop */
+     , (44186, 4, 44160, -1, 0, 0, False) /* Create  (44160) for Shop */
+     , (44186, 4, 44180, -1, 0, 0, False) /* Create  (44180) for Shop */
+     , (44186, 4, 44144, -1, 0, 0, False) /* Create  (44144) for Shop */
+     , (44186, 4, 44145, -1, 0, 0, False) /* Create  (44145) for Shop */
+     , (44186, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (44186, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (44186, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (44186, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
@@ -86,18 +97,7 @@ VALUES (44186, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (44186, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (44186, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (44186, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (44186, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (44186, 4, 44143, -1, 0, 0, False) /* Create  (44143) for Shop */
-     , (44186, 4, 44144, -1, 0, 0, False) /* Create  (44144) for Shop */
-     , (44186, 4, 44145, -1, 0, 0, False) /* Create  (44145) for Shop */
-     , (44186, 4, 44146, -1, 0, 0, False) /* Create Contract for Frozen Fury (44146) for Shop */
-     , (44186, 4, 44155, -1, 0, 0, False) /* Create Contract for Banderling Haunt (44155) for Shop */
-     , (44186, 4, 44157, -1, 0, 0, False) /* Create Contract for Assault (Low) (44157) for Shop */
-     , (44186, 4, 44158, -1, 0, 0, False) /* Create  (44158) for Shop */
-     , (44186, 4, 44159, -1, 0, 0, False) /* Create  (44159) for Shop */
-     , (44186, 4, 44160, -1, 0, 0, False) /* Create  (44160) for Shop */
-     , (44186, 4, 44180, -1, 0, 0, False) /* Create  (44180) for Shop */
-     , (44186, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */;
+     , (44186, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44186, 67109551, 0, 24)

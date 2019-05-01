@@ -58,26 +58,26 @@ VALUES (234,   1,    10, 0, 0, 48) /* MaxHealth */
      , (234,   5,    10, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (234, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
-     , (234, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
-     , (234, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
+VALUES (234, 2,   316,  1, 0, 0, False) /* Create Throwing Dart (316) for Wield */
      , (234, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
-     , (234, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
-     , (234, 2,   316,  1, 0, 0, False) /* Create Throwing Dart (316) for Wield */
-     , (234, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
-     , (234, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
-     , (234, 2,   321,  1, 0, 0, False) /* Create Jitte (321) for Wield */
-     , (234, 2,   325,  1, 0, 0, False) /* Create Kasrullah (325) for Wield */
-     , (234, 2,   326,  1, 0, 0, False) /* Create Katar (326) for Wield */
-     , (234, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */
-     , (234, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
-     , (234, 2,   342,  1, 0, 0, False) /* Create Shou-ono (342) for Wield */
-     , (234, 2,   343,  1, 0, 0, False) /* Create Shouken (343) for Wield */
-     , (234, 2,   345,  1, 0, 0, False) /* Create Simi (345) for Wield */
-     , (234, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (234, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
      , (234, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (234, 2,   343,  1, 0, 0, False) /* Create Shouken (343) for Wield */
+     , (234, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (234, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
+     , (234, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
      , (234, 2,   361,  1, 0, 0, False) /* Create Yaoji (361) for Wield */
-     , (234, 2,  7766,  1, 0, 0, False) /* Create Tumerok Board with Nail (7766) for Wield */;
+     , (234, 2,   345,  1, 0, 0, False) /* Create Simi (345) for Wield */
+     , (234, 2,   321,  1, 0, 0, False) /* Create Jitte (321) for Wield */
+     , (234, 2,  7766,  1, 0, 0, False) /* Create Tumerok Board with Nail (7766) for Wield */
+     , (234, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (234, 2,   325,  1, 0, 0, False) /* Create Kasrullah (325) for Wield */
+     , (234, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */
+     , (234, 2,   326,  1, 0, 0, False) /* Create Katar (326) for Wield */
+     , (234, 2,   342,  1, 0, 0, False) /* Create Shou-ono (342) for Wield */
+     , (234, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
+     , (234, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (234, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (234, 67116625, 57, 48)

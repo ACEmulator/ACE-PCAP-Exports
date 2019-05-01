@@ -63,15 +63,15 @@ VALUES (11989,   1,    10, 0, 0, 58) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11989, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
      , (11989, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */
-     , (11989, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
      , (11989, 2,   343,  1, 0, 0, False) /* Create Shouken (343) for Wield */
-     , (11989, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (11989, 2,   361,  1, 0, 0, False) /* Create Yaoji (361) for Wield */
      , (11989, 2,  7767,  1, 0, 0, False) /* Create Drudge Board with Nail (7767) for Wield */
-     , (11989, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (11989, 2,   331,  1, 0, 0, False) /* Create Mace (331) for Wield */
+     , (11989, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (11989, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
-     , (11989, 9,  3669,  0, 0, 0, False) /* Create Drudge Charm (3669) for ContainTreasure */
-     , (11989, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */;
+     , (11989, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
+     , (11989, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (11989, 9,  3669,  0, 0, 0, False) /* Create Drudge Charm (3669) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11989, 67113351, 0, 0);

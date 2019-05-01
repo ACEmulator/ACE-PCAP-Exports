@@ -49,6 +49,6 @@ VALUES (14244, 8000, 2059301235) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14244, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
-     , (14244, 16,  3691,  1, 0, 0, False) /* Create Shore Armoredillo Spine (3691) for HouseBuy */
      , (14244, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */
+     , (14244, 16,  3691,  1, 0, 0, False) /* Create Shore Armoredillo Spine (3691) for HouseBuy */
      , (14244, 32,   273, 30000, 0, 0, False) /* Create Pyreal (273) for HouseRent */;

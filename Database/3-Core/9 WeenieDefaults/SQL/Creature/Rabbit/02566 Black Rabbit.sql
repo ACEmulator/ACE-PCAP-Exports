@@ -59,6 +59,6 @@ VALUES (2566,   1,    10, 0, 0, 5) /* MaxHealth */
      , (2566,   5,    10, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2566, 9,   273, 24, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (2566, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (2566, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
+VALUES (2566, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (2566, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2566, 9,   273, 24, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;

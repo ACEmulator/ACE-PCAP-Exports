@@ -60,54 +60,54 @@ VALUES (43743,   1,    10, 0, 0, 19875) /* MaxHealth */
      , (43743,   5,    10, 0, 0, 5432) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43743, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (43743, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+VALUES (43743, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
      , (43743, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
-     , (43743, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
-     , (43743, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (43743, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (43743, 9,   354,  0, 0, 0, False) /* Create Takuba (354) for ContainTreasure */
-     , (43743, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
-     , (43743, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (43743, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (43743, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (43743, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (43743, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (43743, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (43743, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (43743, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (43743, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (43743, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
-     , (43743, 9,  3757,  0, 0, 0, False) /* Create Frost Hand Axe (3757) for ContainTreasure */
-     , (43743, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
-     , (43743, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
-     , (43743, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */
-     , (43743, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (43743, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
-     , (43743, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (43743, 9, 20244,  0, 0, 0, False) /* Create Scroll of Adja's Gift (20244) for ContainTreasure */
-     , (43743, 9, 20440,  0, 0, 0, False) /* Create Scroll of Ilservian's Flame (20440) for ContainTreasure */
-     , (43743, 9, 20553,  0, 0, 0, False) /* Create Scroll of Harlune's Boon (20553) for ContainTreasure */
-     , (43743, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
-     , (43743, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
-     , (43743, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
-     , (43743, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
-     , (43743, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */
-     , (43743, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
-     , (43743, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
-     , (43743, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
-     , (43743, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
-     , (43743, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */
-     , (43743, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
-     , (43743, 9, 37190,  0, 0, 0, False) /* Create Olthoi Koujia Gauntlets (37190) for ContainTreasure */
-     , (43743, 9, 37199,  0, 0, 0, False) /* Create Olthoi Helm (37199) for ContainTreasure */
-     , (43743, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
-     , (43743, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
-     , (43743, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
-     , (43743, 9, 42636,  1, 0, 0, False) /* Create Aetheria (42636) for ContainTreasure */
-     , (43743, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
-     , (43743, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
-     , (43743, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
      , (43743, 9, 49372,  0, 0, 0, False) /* Create Caustic Grievver Essence (49372) for ContainTreasure */
+     , (43743, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (43743, 9, 37199,  0, 0, 0, False) /* Create Olthoi Helm (37199) for ContainTreasure */
+     , (43743, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (43743, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
+     , (43743, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
+     , (43743, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (43743, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
+     , (43743, 9,  3757,  0, 0, 0, False) /* Create Frost Hand Axe (3757) for ContainTreasure */
+     , (43743, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (43743, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (43743, 9,   354,  0, 0, 0, False) /* Create Takuba (354) for ContainTreasure */
+     , (43743, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (43743, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
+     , (43743, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
+     , (43743, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (43743, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (43743, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */
      , (43743, 9, 49441,  0, 0, 0, False) /* Create Fire Maiden Essence (49441) for ContainTreasure */
-     , (43743, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (43743, 9, 20440,  0, 0, 0, False) /* Create Scroll of Ilservian's Flame (20440) for ContainTreasure */
+     , (43743, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (43743, 9, 20553,  0, 0, 0, False) /* Create Scroll of Harlune's Boon (20553) for ContainTreasure */
+     , (43743, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (43743, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */
+     , (43743, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (43743, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */
+     , (43743, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (43743, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (43743, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
+     , (43743, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (43743, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (43743, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (43743, 9, 20244,  0, 0, 0, False) /* Create Scroll of Adja's Gift (20244) for ContainTreasure */
+     , (43743, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
+     , (43743, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (43743, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (43743, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
+     , (43743, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (43743, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for ContainTreasure */
+     , (43743, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
+     , (43743, 9, 42636,  1, 0, 0, False) /* Create Aetheria (42636) for ContainTreasure */
+     , (43743, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (43743, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (43743, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (43743, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (43743, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (43743, 9, 37190,  0, 0, 0, False) /* Create Olthoi Koujia Gauntlets (37190) for ContainTreasure */
+     , (43743, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (43743, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;

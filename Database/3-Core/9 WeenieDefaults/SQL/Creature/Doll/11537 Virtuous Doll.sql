@@ -61,19 +61,19 @@ VALUES (11537,   1,    10, 0, 0, 50) /* MaxHealth */
      , (11537,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11537, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+VALUES (11537, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (11537, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (11537, 9,   273, 26, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (11537, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
      , (11537, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (11537, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (11537, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
      , (11537, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (11537, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+     , (11537, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (11537, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
      , (11537, 9,  3068,  0, 0, 0, False) /* Create Scroll of Piercing Protection Self II (3068) for ContainTreasure */
      , (11537, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
-     , (11537, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
-     , (11537, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (11537, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (11537, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
-     , (11537, 9, 41298,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other III (41298) for ContainTreasure */;
+     , (11537, 9, 41298,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other III (41298) for ContainTreasure */
+     , (11537, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11537, 67113152, 0, 0);

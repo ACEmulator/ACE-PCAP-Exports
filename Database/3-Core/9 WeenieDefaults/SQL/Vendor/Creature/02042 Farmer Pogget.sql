@@ -77,16 +77,16 @@ VALUES (2042,   1,    10, 0, 0, 138) /* MaxHealth */
      , (2042,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2042, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
-     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+VALUES (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (2042, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (2042, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (2042, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (2042, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (2042, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (2042, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (2042, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (2042, 4,   265, -1, 0, 0, False) /* Create Meat (265) for Shop */
-     , (2042, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */;
+     , (2042, 4,   265, -1, 0, 0, False) /* Create Meat (265) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2042, 67109561, 0, 24)

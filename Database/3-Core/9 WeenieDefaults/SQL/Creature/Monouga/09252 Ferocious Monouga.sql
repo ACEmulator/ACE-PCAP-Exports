@@ -62,51 +62,51 @@ VALUES (9252,   1,    10, 0, 0, 225) /* MaxHealth */
      , (9252,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9252, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
-     , (9252, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */
-     , (9252, 2,  3944,  1, 0, 0, False) /* Create Dabus (3944) for Wield */
-     , (9252, 2,  3945,  1, 0, 0, False) /* Create Kasrullah (3945) for Wield */
+VALUES (9252, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */
      , (9252, 2,  3946,  1, 0, 0, False) /* Create Tofun (3946) for Wield */
      , (9252, 2,  3947,  1, 0, 0, False) /* Create Mace (3947) for Wield */
-     , (9252, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (9252, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */
-     , (9252, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (9252, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (9252, 2,  3944,  1, 0, 0, False) /* Create Dabus (3944) for Wield */
+     , (9252, 2,  3945,  1, 0, 0, False) /* Create Kasrullah (3945) for Wield */
+     , (9252, 9, 31796,  0, 0, 0, False) /* Create Lightning Lancet (31796) for ContainTreasure */
      , (9252, 9,   273, 149, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9252, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (9252, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
-     , (9252, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
-     , (9252, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (9252, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
-     , (9252, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
-     , (9252, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
-     , (9252, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (9252, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (9252, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (9252, 9, 22162,  0, 0, 0, False) /* Create Frost Nabut (22162) for ContainTreasure */
+     , (9252, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (9252, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (9252, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (9252, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (9252, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (9252, 9, 21291,  0, 0, 0, False) /* Create Scroll of Acid Arc IV (21291) for ContainTreasure */
      , (9252, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
      , (9252, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
-     , (9252, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (9252, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (9252, 9,  2788,  0, 0, 0, False) /* Create Scroll of Blood Loather III (2788) for ContainTreasure */
-     , (9252, 9,  3039,  0, 0, 0, False) /* Create Scroll of Fire Protection Self III (3039) for ContainTreasure */
-     , (9252, 9,  4197,  0, 0, 0, False) /* Create Acid Nekode (4197) for ContainTreasure */
-     , (9252, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
-     , (9252, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (9252, 9, 12253,  1, 0, 0, False) /* Create Monougat (12253) for ContainTreasure */
-     , (9252, 9, 21291,  0, 0, 0, False) /* Create Scroll of Acid Arc IV (21291) for ContainTreasure */
-     , (9252, 9, 22162,  0, 0, 0, False) /* Create Frost Nabut (22162) for ContainTreasure */
-     , (9252, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (9252, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
      , (9252, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
-     , (9252, 9, 31796,  0, 0, 0, False) /* Create Lightning Lancet (31796) for ContainTreasure */
-     , (9252, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
-     , (9252, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
-     , (9252, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
-     , (9252, 9, 43281,  0, 0, 0, False) /* Create Scroll of Corrosion IV (43281) for ContainTreasure */
      , (9252, 9, 43312,  0, 0, 0, False) /* Create Scroll of Nether Streak III (43312) for ContainTreasure */
+     , (9252, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (9252, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
+     , (9252, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (9252, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (9252, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (9252, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (9252, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (9252, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (9252, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
+     , (9252, 9,  3039,  0, 0, 0, False) /* Create Scroll of Fire Protection Self III (3039) for ContainTreasure */
+     , (9252, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (9252, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (9252, 9, 12253,  1, 0, 0, False) /* Create Monougat (12253) for ContainTreasure */
+     , (9252, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (9252, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
+     , (9252, 9,  2788,  0, 0, 0, False) /* Create Scroll of Blood Loather III (2788) for ContainTreasure */
+     , (9252, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
      , (9252, 9, 45320,  0, 0, 0, False) /* Create Scroll of Shield Mastery Other V (45320) for ContainTreasure */
+     , (9252, 9,  4197,  0, 0, 0, False) /* Create Acid Nekode (4197) for ContainTreasure */
+     , (9252, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (9252, 9, 43281,  0, 0, 0, False) /* Create Scroll of Corrosion IV (43281) for ContainTreasure */
+     , (9252, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
+     , (9252, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (9252, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
      , (9252, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
-     , (9252, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */;
+     , (9252, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9252, 67113139, 0, 0);

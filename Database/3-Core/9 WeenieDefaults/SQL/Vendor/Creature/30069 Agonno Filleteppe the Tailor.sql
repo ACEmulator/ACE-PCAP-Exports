@@ -67,7 +67,15 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (30069,   1,    10, 0, 0, 145) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30069, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+VALUES (30069, 4, 28606, -1, 0, 0, False) /* Create Viamontian Pants (28606) for Shop */
+     , (30069, 4, 28607, -1, 0, 0, False) /* Create Lace Shirt (28607) for Shop */
+     , (30069, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
+     , (30069, 4, 28609, -1, 0, 0, False) /* Create Vest (28609) for Shop */
+     , (30069, 4, 28611, -1, 0, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
+     , (30069, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
+     , (30069, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
+     , (30069, 4, 28614, -1, 0, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */
+     , (30069, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30069, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30069, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (30069, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
@@ -76,15 +84,7 @@ VALUES (30069, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (30069, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (30069, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30069, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30069, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30069, 4, 28606, -1, 0, 0, False) /* Create Viamontian Pants (28606) for Shop */
-     , (30069, 4, 28607, -1, 0, 0, False) /* Create Lace Shirt (28607) for Shop */
-     , (30069, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
-     , (30069, 4, 28609, -1, 0, 0, False) /* Create Vest (28609) for Shop */
-     , (30069, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
-     , (30069, 4, 28611, -1, 0, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
-     , (30069, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
-     , (30069, 4, 28614, -1, 0, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */;
+     , (30069, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30069, 67110064, 32, 8)

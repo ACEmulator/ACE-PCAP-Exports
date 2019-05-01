@@ -73,5 +73,5 @@ VALUES (47539, 8000, 3700710664) /* PCAPRecordedObjectIID */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47539, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
-     , (47539, 2, 47310,  1, 0, 0, False) /* Create Frost Board with Nail (47310) for Wield */
-     , (47539, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */;
+     , (47539, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */
+     , (47539, 2, 47310,  1, 0, 0, False) /* Create Frost Board with Nail (47310) for Wield */;

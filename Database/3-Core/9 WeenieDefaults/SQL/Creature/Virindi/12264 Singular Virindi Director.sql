@@ -58,8 +58,8 @@ VALUES (12264,   1,    10, 0, 0, 145) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12264, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (12264, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (12264, 9,   273, 853, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (12264, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (12264, 9,  3698,  1, 0, 0, False) /* Create White Jewel (3698) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

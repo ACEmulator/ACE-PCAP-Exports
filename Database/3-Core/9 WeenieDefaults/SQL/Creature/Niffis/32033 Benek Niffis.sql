@@ -61,10 +61,10 @@ VALUES (32033,   1,    10, 0, 0, 3180) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32033, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (32033, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (32033, 9, 20489,  0, 0, 0, False) /* Create Scroll of Battlemage's Boon (20489) for ContainTreasure */
-     , (32033, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
-     , (32033, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */;
+     , (32033, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (32033, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (32033, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32033, 67116788, 0, 0);

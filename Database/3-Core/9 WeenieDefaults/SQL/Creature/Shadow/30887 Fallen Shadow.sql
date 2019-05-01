@@ -70,17 +70,17 @@ VALUES (30887,   1,    10, 0, 0, 5500) /* MaxHealth */
      , (30887,   5,    10, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30887, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
-     , (30887, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+VALUES (30887, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
      , (30887, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
-     , (30887, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
+     , (30887, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+     , (30887, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
      , (30887, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
-     , (30887, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (30887, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (30887, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */
      , (30887, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
      , (30887, 9, 30857,  1, 0, 0, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
      , (30887, 9, 30874,  0, 0, 0, False) /* Create Staff of the Fallen (30874) for ContainTreasure */
-     , (30887, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */;
+     , (30887, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (30887, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30887, 67112860, 0, 0);

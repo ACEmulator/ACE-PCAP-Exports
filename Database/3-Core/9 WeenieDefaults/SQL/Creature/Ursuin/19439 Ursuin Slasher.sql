@@ -59,10 +59,10 @@ VALUES (19439,   1,    10, 0, 0, 190) /* MaxHealth */
      , (19439,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19439, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (19439, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+VALUES (19439, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
      , (19439, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (19439, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
      , (19439, 9,  2724,  0, 0, 0, False) /* Create Scroll of Revitalize Other IV (2724) for ContainTreasure */
+     , (19439, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
      , (19439, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (19439, 9, 30948,  0, 0, 0, False) /* Create Diforsa Hauberk (30948) for ContainTreasure */
-     , (19439, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */;
+     , (19439, 9, 30948,  0, 0, 0, False) /* Create Diforsa Hauberk (30948) for ContainTreasure */;

@@ -85,6 +85,7 @@ VALUES (1394, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield 
      , (1394, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */
      , (1394, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (1394, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (1394, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (1394, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
      , (1394, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
      , (1394, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
@@ -92,9 +93,8 @@ VALUES (1394, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield 
      , (1394, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1394, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1394, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1394, 4,  8211, -1, 0, 0, False) /* Create Discus (8211) for Shop */
-     , (1394, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
-     , (1394, 4, 24033, -1, 0, 0, False) /* Create Mite Queen's Staff (24033) for Shop */;
+     , (1394, 4, 24033, -1, 0, 0, False) /* Create Mite Queen's Staff (24033) for Shop */
+     , (1394, 4,  8211, -1, 0, 0, False) /* Create Discus (8211) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1394, 67109550, 0, 24)

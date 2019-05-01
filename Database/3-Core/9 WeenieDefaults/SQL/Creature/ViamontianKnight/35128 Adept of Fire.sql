@@ -66,27 +66,27 @@ VALUES (35128,   1,    10, 0, 0, 513) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35128, 2, 31823,  1, 0, 0, False) /* Create Fire Baton (31823) for Wield */
-     , (35128, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (35128, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (35128, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (35128, 9,   273, 2637, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (35128, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (35128, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (35128, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (35128, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (35128, 9, 20245,  0, 0, 0, False) /* Create Scroll of Adja's Intervention (20245) for ContainTreasure */
-     , (35128, 9, 20485,  0, 0, 0, False) /* Create Scroll of Archer's Gift (20485) for ContainTreasure */
-     , (35128, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
-     , (35128, 9, 20521,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self VII (20521) for ContainTreasure */
-     , (35128, 9, 20524,  0, 0, 0, False) /* Create Scroll of Ketnan's Blessing (20524) for ContainTreasure */
      , (35128, 9, 20574,  0, 0, 0, False) /* Create Scroll of Web of Resistance (20574) for ContainTreasure */
-     , (35128, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
-     , (35128, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (35128, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (35128, 9,   273, 2637, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (35128, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
      , (35128, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
-     , (35128, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (35128, 9, 20521,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Self VII (20521) for ContainTreasure */
+     , (35128, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (35128, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (35128, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
+     , (35128, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
      , (35128, 9, 29239,  0, 0, 0, False) /* Create Bone Bow (29239) for ContainTreasure */
-     , (35128, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (35128, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
      , (35128, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
-     , (35128, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
-     , (35128, 9, 43053,  0, 0, 0, False) /* Create Knorr Academy Boots (43053) for ContainTreasure */;
+     , (35128, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (35128, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (35128, 9, 20485,  0, 0, 0, False) /* Create Scroll of Archer's Gift (20485) for ContainTreasure */
+     , (35128, 9, 43053,  0, 0, 0, False) /* Create Knorr Academy Boots (43053) for ContainTreasure */
+     , (35128, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (35128, 9, 20524,  0, 0, 0, False) /* Create Scroll of Ketnan's Blessing (20524) for ContainTreasure */
+     , (35128, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (35128, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (35128, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (35128, 9, 20245,  0, 0, 0, False) /* Create Scroll of Adja's Intervention (20245) for ContainTreasure */
+     , (35128, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */;

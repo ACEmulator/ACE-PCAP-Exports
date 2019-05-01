@@ -79,25 +79,47 @@ VALUES (31956,   1,    10, 0, 0, 195) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31956, 2, 30571,  1, 0, 0, False) /* Create Spada (30571) for Wield */
-     , (31956, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
-     , (31956, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
-     , (31956, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (31956, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (31956, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
-     , (31956, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
-     , (31956, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
-     , (31956, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
-     , (31956, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (31956, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
-     , (31956, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (31956, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
-     , (31956, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (31956, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
+     , (31956, 4, 30566, -1, 0, 0, False) /* Create Sabra (30566) for Shop */
+     , (31956, 4, 30576, -1, 0, 0, False) /* Create Flamberge (30576) for Shop */
+     , (31956, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
+     , (31956, 4, 30561, -1, 0, 0, False) /* Create Dolabra (30561) for Shop */
+     , (31956, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
      , (31956, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (31956, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (31956, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
+     , (31956, 4, 30586, -1, 0, 0, False) /* Create Flanged Mace (30586) for Shop */
+     , (31956, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
+     , (31956, 4, 30601, -1, 0, 0, False) /* Create Stiletto (30601) for Shop */
+     , (31956, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (31956, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (31956, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
+     , (31956, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
+     , (31956, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
+     , (31956, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (31956, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (31956, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (31956, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (31956, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
      , (31956, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
      , (31956, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (31956, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (31956, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
      , (31956, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (31956, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (31956, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
+     , (31956, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
+     , (31956, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
+     , (31956, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
+     , (31956, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
+     , (31956, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
+     , (31956, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
+     , (31956, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
+     , (31956, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
+     , (31956, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
+     , (31956, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
+     , (31956, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
+     , (31956, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
+     , (31956, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
      , (31956, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (31956, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (31956, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -107,29 +129,7 @@ VALUES (31956, 2, 30571,  1, 0, 0, False) /* Create Spada (30571) for Wield */
      , (31956, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (31956, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (31956, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (31956, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (31956, 4, 28618, -1, 0, 0, False) /* Create Diforsa Helm (28618) for Shop */
-     , (31956, 4, 28621, -1, 0, 0, False) /* Create Diforsa Leggings (28621) for Shop */
-     , (31956, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (31956, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
-     , (31956, 4, 28626, -1, 0, 0, False) /* Create Diforsa Tassets (28626) for Shop */
-     , (31956, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
-     , (31956, 4, 28628, -1, 0, 0, False) /* Create Diforsa Breastplate (28628) for Shop */
-     , (31956, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
-     , (31956, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
-     , (31956, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
-     , (31956, 4, 30556, -1, 0, 0, False) /* Create Hatchet (30556) for Shop */
-     , (31956, 4, 30561, -1, 0, 0, False) /* Create Dolabra (30561) for Shop */
-     , (31956, 4, 30566, -1, 0, 0, False) /* Create Sabra (30566) for Shop */
-     , (31956, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
-     , (31956, 4, 30576, -1, 0, 0, False) /* Create Flamberge (30576) for Shop */
-     , (31956, 4, 30581, -1, 0, 0, False) /* Create Mazule (30581) for Shop */
-     , (31956, 4, 30586, -1, 0, 0, False) /* Create Flanged Mace (30586) for Shop */
-     , (31956, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
-     , (31956, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
-     , (31956, 4, 30601, -1, 0, 0, False) /* Create Stiletto (30601) for Shop */
-     , (31956, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
-     , (31956, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */;
+     , (31956, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31956, 67110003, 72, 8)

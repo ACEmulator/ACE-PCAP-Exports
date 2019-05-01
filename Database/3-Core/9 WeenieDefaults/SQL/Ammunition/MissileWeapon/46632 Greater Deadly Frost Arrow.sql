@@ -58,10 +58,10 @@ VALUES (46632, 8000, 3707810922) /* PCAPRecordedObjectIID */
      , (46632, 8008, 3707810893) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46632, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
+VALUES (46632, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
      , (46632, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */
      , (46632, 2, 32783,  1, 0, 0, False) /* Create Shield of Silyun (32783) for Wield */
-     , (46632, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
+     , (46632, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
      , (46632, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

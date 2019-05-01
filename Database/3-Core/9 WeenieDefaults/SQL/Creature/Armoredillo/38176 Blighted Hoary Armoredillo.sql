@@ -57,14 +57,14 @@ VALUES (38176,   1,    10, 0, 0, 265) /* MaxHealth */
      , (38176,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38176, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (38176, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
-     , (38176, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (38176, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
+VALUES (38176, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
+     , (38176, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (38176, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
      , (38176, 9, 38222,  1, 0, 0, False) /* Create Blighted Mana Crystal (38222) for ContainTreasure */
-     , (38176, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
-     , (38176, 9, 44853,  0, 0, 0, False) /* Create Bordered Cloak (44853) for ContainTreasure */;
+     , (38176, 9, 44853,  0, 0, 0, False) /* Create Bordered Cloak (44853) for ContainTreasure */
+     , (38176, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
+     , (38176, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (38176, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38176, 67114258, 0, 0);

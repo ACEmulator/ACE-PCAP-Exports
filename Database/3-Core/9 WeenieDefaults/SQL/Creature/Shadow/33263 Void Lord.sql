@@ -50,8 +50,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33263,   1,    10, 0, 0, 580) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33263, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
-     , (33263, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
-     , (33263, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+VALUES (33263, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
      , (33263, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
-     , (33263, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */;
+     , (33263, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
+     , (33263, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
+     , (33263, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */;

@@ -60,8 +60,8 @@ VALUES (41552,   1,    10, 0, 0, 5208) /* MaxHealth */
      , (41552,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41552, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
-     , (41552, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
-     , (41552, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
+VALUES (41552, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
+     , (41552, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
      , (41552, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
-     , (41552, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */;
+     , (41552, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */
+     , (41552, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */;

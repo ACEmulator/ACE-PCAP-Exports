@@ -66,8 +66,8 @@ VALUES (28624,  1485,      2)
      , (28624,  1561,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28624, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (28624, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+VALUES (28624, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
+     , (28624, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28624, 67116273, 128, 8)

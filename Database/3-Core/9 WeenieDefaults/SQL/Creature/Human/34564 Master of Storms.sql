@@ -67,5 +67,5 @@ VALUES (34564,   1,    10, 0, 0, 336) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34564, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
      , (34564, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (34564, 9, 34567,  1, 0, 0, False) /* Create Tanada Clan Master's Medallion (34567) for ContainTreasure */
-     , (34564, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */;
+     , (34564, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
+     , (34564, 9, 34567,  1, 0, 0, False) /* Create Tanada Clan Master's Medallion (34567) for ContainTreasure */;

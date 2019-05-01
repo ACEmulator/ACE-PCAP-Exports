@@ -52,28 +52,28 @@ VALUES (33624,   1,    10, 0, 0, 618) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33624, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (33624, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (33624, 9,   273, 717, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (33624, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (33624, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (33624, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (33624, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (33624, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (33624, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (33624, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (33624, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (33624, 9,  3853,  0, 0, 0, False) /* Create Acid Shamshir (3853) for ContainTreasure */
+     , (33624, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (33624, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (33624, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
-     , (33624, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
-     , (33624, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
-     , (33624, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (33624, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
-     , (33624, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */
+     , (33624, 9,  3853,  0, 0, 0, False) /* Create Acid Shamshir (3853) for ContainTreasure */
      , (33624, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
+     , (33624, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33624, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
+     , (33624, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (33624, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (33624, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (33624, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (33624, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (33624, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */
+     , (33624, 9, 45373,  1, 0, 0, False) /* Create Glyph of Shield (45373) for ContainTreasure */
+     , (33624, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (33624, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (33624, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
+     , (33624, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
+     , (33624, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
      , (33624, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
-     , (33624, 9, 45373,  1, 0, 0, False) /* Create Glyph of Shield (45373) for ContainTreasure */;
+     , (33624, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
+     , (33624, 9,   273, 717, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33624, 67116774, 0, 0);

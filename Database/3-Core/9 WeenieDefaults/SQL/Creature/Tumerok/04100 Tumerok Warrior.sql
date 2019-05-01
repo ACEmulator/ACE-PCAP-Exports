@@ -61,22 +61,22 @@ VALUES (4100,   1,    10, 0, 0, 103) /* MaxHealth */
      , (4100,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4100, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (4100, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
-     , (4100, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
-     , (4100, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (4100, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+VALUES (4100, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
      , (4100, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (4100, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
-     , (4100, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (4100, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (4100, 2,   360,  1, 0, 0, False) /* Create Yag (360) for Wield */
+     , (4100, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (4100, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (4100, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (4100, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
      , (4100, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (4100, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
+     , (4100, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (4100, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
      , (4100, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
-     , (4100, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
-     , (4100, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
-     , (4100, 2,   360,  1, 0, 0, False) /* Create Yag (360) for Wield */
-     , (4100, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;
+     , (4100, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (4100, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
+     , (4100, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4100, 67116625, 105, 48)

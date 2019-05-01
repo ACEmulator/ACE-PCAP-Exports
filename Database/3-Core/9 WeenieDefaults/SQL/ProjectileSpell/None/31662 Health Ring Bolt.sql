@@ -47,8 +47,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31662, 8000, 3697730066) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31662, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (31662, 2, 47404,  1, 0, 0, False) /* Create Frost Club (47404) for Wield */
-     , (31662, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */
+VALUES (31662, 2, 47404,  1, 0, 0, False) /* Create Frost Club (47404) for Wield */
      , (31662, 2, 48030,  1, 0, 0, False) /* Create Acid Silifi (48030) for Wield */
-     , (31662, 2, 48033,  1, 0, 0, False) /* Create Acid Ono (48033) for Wield */;
+     , (31662, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (31662, 2, 48033,  1, 0, 0, False) /* Create Acid Ono (48033) for Wield */
+     , (31662, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */;

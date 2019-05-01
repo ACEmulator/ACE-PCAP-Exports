@@ -62,17 +62,17 @@ VALUES (35734,   1,    10, 0, 0, 815) /* MaxHealth */
      , (35734,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35734, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
-     , (35734, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (35734, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (35734, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (35734, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+VALUES (35734, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
      , (35734, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (35734, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (35734, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (35734, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (35734, 9, 30655,  0, 0, 0, False) /* Create Drudge Key (30655) for ContainTreasure */
+     , (35734, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (35734, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (35734, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
      , (35734, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */
-     , (35734, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */;
+     , (35734, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (35734, 9, 30655,  0, 0, 0, False) /* Create Drudge Key (30655) for ContainTreasure */
+     , (35734, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35734, 67114444, 0, 0);

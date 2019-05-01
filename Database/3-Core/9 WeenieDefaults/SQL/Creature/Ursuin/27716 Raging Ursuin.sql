@@ -60,21 +60,21 @@ VALUES (27716,   1,    10, 0, 0, 375) /* MaxHealth */
      , (27716,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27716, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (27716, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+VALUES (27716, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (27716, 9, 28007,  0, 0, 0, False) /* Create Aura of Spirit Drinker Self VI (28007) for ContainTreasure */
+     , (27716, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (27716, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (27716, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
+     , (27716, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
      , (27716, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (27716, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
      , (27716, 9,   273, 989, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (27716, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (27716, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (27716, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
-     , (27716, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (27716, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (27716, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (27716, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (27716, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (27716, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
-     , (27716, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (27716, 9, 28007,  0, 0, 0, False) /* Create Aura of Spirit Drinker Self VI (28007) for ContainTreasure */
-     , (27716, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
-     , (27716, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
-     , (27716, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (27716, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27716, 67115187, 0, 0);

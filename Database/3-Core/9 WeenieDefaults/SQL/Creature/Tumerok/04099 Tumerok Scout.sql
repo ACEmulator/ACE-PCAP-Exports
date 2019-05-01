@@ -58,15 +58,15 @@ VALUES (4099,   1,    10, 0, 0, 45) /* MaxHealth */
      , (4099,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4099, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
-     , (4099, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
-     , (4099, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (4099, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (4099, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
-     , (4099, 2,   325,  1, 0, 0, False) /* Create Kasrullah (325) for Wield */
-     , (4099, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
-     , (4099, 2,   345,  1, 0, 0, False) /* Create Simi (345) for Wield */
+VALUES (4099, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (4099, 2,   360,  1, 0, 0, False) /* Create Yag (360) for Wield */
+     , (4099, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (4099, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
+     , (4099, 2,   325,  1, 0, 0, False) /* Create Kasrullah (325) for Wield */
+     , (4099, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (4099, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
+     , (4099, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
+     , (4099, 2,   345,  1, 0, 0, False) /* Create Simi (345) for Wield */
      , (4099, 2,   362,  1, 0, 0, False) /* Create Yari (362) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

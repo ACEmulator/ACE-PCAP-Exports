@@ -60,20 +60,20 @@ VALUES (9255,   1,    10, 0, 0, 200) /* MaxHealth */
      , (9255,   5,    10, 0, 0, 290) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9255, 9,   273, 83, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9255, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (9255, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+VALUES (9255, 9,  3162,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VI (3162) for ContainTreasure */
+     , (9255, 9,  7796,  0, 0, 0, False) /* Create Fire Naginata (7796) for ContainTreasure */
      , (9255, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (9255, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (9255, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
-     , (9255, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (9255, 9,  3162,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VI (3162) for ContainTreasure */
-     , (9255, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
-     , (9255, 9,  7796,  0, 0, 0, False) /* Create Fire Naginata (7796) for ContainTreasure */
-     , (9255, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (9255, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (9255, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
      , (9255, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (9255, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */;
+     , (9255, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (9255, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (9255, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (9255, 9,   273, 83, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (9255, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (9255, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (9255, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9255, 67113141, 0, 0);

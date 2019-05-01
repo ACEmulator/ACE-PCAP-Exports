@@ -60,25 +60,25 @@ VALUES (36831,   1,    10, 0, 0, 1500) /* MaxHealth */
      , (36831,   5,    10, 0, 0, 1455) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36831, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (36831, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (36831, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (36831, 9,   273, 1937, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (36831, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (36831, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (36831, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
-     , (36831, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (36831, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
-     , (36831, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (36831, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+VALUES (36831, 9, 20236,  0, 0, 0, False) /* Create Scroll of Temeritous Touch (20236) for ContainTreasure */
      , (36831, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (36831, 9, 20231,  0, 0, 0, False) /* Create Scroll of Executor's Blessing (20231) for ContainTreasure */
-     , (36831, 9, 20236,  0, 0, 0, False) /* Create Scroll of Temeritous Touch (20236) for ContainTreasure */
+     , (36831, 9,   273, 1937, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (36831, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */
      , (36831, 9, 20440,  0, 0, 0, False) /* Create Scroll of Ilservian's Flame (20440) for ContainTreasure */
-     , (36831, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
      , (36831, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (36831, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (36831, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (36831, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (36831, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
+     , (36831, 9, 20231,  0, 0, 0, False) /* Create Scroll of Executor's Blessing (20231) for ContainTreasure */
+     , (36831, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (36831, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (36831, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (36831, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
      , (36831, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
-     , (36831, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */;
+     , (36831, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (36831, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (36831, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36831, 67114284, 0, 0);

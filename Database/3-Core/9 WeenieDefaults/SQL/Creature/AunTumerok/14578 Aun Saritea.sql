@@ -55,9 +55,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (14578,   1,    10, 0, 0, 158) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14578, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (14578, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
-     , (14578, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;
+VALUES (14578, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
+     , (14578, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
+     , (14578, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14578, 67113366, 0, 0);

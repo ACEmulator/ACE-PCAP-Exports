@@ -61,27 +61,27 @@ VALUES (11523,   1,    10, 0, 0, 123) /* MaxHealth */
      , (11523,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11523, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
-     , (11523, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
-     , (11523, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
+VALUES (11523, 2, 11914,  1, 0, 0, False) /* Create Lance of the Quiddity (11914) for Wield */
+     , (11523, 2, 11917,  1, 0, 0, False) /* Create Blade of the Quiddity (11917) for Wield */
+     , (11523, 2, 11908,  1, 0, 0, False) /* Create Mace of the Quiddity (11908) for Wield */
+     , (11523, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
      , (11523, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
      , (11523, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
-     , (11523, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
-     , (11523, 2, 11908,  1, 0, 0, False) /* Create Mace of the Quiddity (11908) for Wield */
-     , (11523, 2, 11914,  1, 0, 0, False) /* Create Lance of the Quiddity (11914) for Wield */
-     , (11523, 2, 11917,  1, 0, 0, False) /* Create Blade of the Quiddity (11917) for Wield */
-     , (11523, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (11523, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (11523, 2,   324,  1, 0, 0, False) /* Create Kaskara (324) for Wield */
+     , (11523, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
+     , (11523, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
      , (11523, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (11523, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (11523, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
-     , (11523, 9,  2884,  0, 0, 0, False) /* Create Aura of Swift Killer Self IV (2884) for ContainTreasure */
      , (11523, 9,  3009,  0, 0, 0, False) /* Create Scroll of Bludgeon Protection Self III (3009) for ContainTreasure */
      , (11523, 9, 11321,  0, 0, 0, False) /* Create Vault Key (11321) for ContainTreasure */
+     , (11523, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
+     , (11523, 9,  2884,  0, 0, 0, False) /* Create Aura of Swift Killer Self IV (2884) for ContainTreasure */
+     , (11523, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (11523, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
      , (11523, 9, 11456,  1, 0, 0, False) /* Create Totem of Volkama (11456) for ContainTreasure */
-     , (11523, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (11523, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
      , (11523, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
-     , (11523, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */;
+     , (11523, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (11523, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11523, 67116625, 105, 48)

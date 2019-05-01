@@ -53,10 +53,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51728,   1,    10, 0, 0, 100) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51728, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (51728, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+VALUES (51728, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (51728, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (51728, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (51728, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
+     , (51728, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51728, 67117140, 0, 0);

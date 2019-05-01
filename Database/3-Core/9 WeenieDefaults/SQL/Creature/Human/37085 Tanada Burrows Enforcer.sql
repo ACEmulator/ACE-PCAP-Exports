@@ -65,39 +65,39 @@ VALUES (37085,   1,    10, 0, 0, 680) /* MaxHealth */
      , (37085,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37085, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (37085, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
-     , (37085, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (37085, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (37085, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (37085, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (37085, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (37085, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
-     , (37085, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (37085, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (37085, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (37085, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (37085, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (37085, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
-     , (37085, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (37085, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
-     , (37085, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
-     , (37085, 9, 29262,  0, 0, 0, False) /* Create Fire Sceptre (29262) for ContainTreasure */
-     , (37085, 9, 29264,  0, 0, 0, False) /* Create Piercing Sceptre (29264) for ContainTreasure */
-     , (37085, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
-     , (37085, 9, 31352,  1, 0, 0, False) /* Create Olthoi Slayer Carapace (31352) for ContainTreasure */
-     , (37085, 9, 31765,  0, 0, 0, False) /* Create Acid Lugian Hammer (31765) for ContainTreasure */
-     , (37085, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
-     , (37085, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */
-     , (37085, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
-     , (37085, 9, 31806,  0, 0, 0, False) /* Create Acid Compound Crossbow (31806) for ContainTreasure */
-     , (37085, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
-     , (37085, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */
-     , (37085, 9, 41045,  0, 0, 0, False) /* Create Frost Magari Yari (41045) for ContainTreasure */
-     , (37085, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
-     , (37085, 9, 45105,  0, 0, 0, False) /* Create Lightning Rapier (45105) for ContainTreasure */
+VALUES (37085, 2, 34344,  1, 0, 0, False) /* Create Yaoji (34344) for Wield */
+     , (37085, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (37085, 9, 45119,  0, 0, 0, False) /* Create Acid Hand Wraps (45119) for ContainTreasure */
-     , (37085, 9, 46880,  0, 0, 0, False) /* Create Aura of Defender Other VII (46880) for ContainTreasure */
+     , (37085, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (37085, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */
+     , (37085, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (37085, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
+     , (37085, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (37085, 9, 29262,  0, 0, 0, False) /* Create Fire Sceptre (29262) for ContainTreasure */
+     , (37085, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (37085, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (37085, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (37085, 9, 49229,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (100) (49229) for ContainTreasure */
+     , (37085, 9, 31765,  0, 0, 0, False) /* Create Acid Lugian Hammer (31765) for ContainTreasure */
+     , (37085, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (37085, 9, 31806,  0, 0, 0, False) /* Create Acid Compound Crossbow (31806) for ContainTreasure */
+     , (37085, 9, 45105,  0, 0, 0, False) /* Create Lightning Rapier (45105) for ContainTreasure */
+     , (37085, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (37085, 9, 41045,  0, 0, 0, False) /* Create Frost Magari Yari (41045) for ContainTreasure */
+     , (37085, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */
+     , (37085, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (37085, 9, 31352,  1, 0, 0, False) /* Create Olthoi Slayer Carapace (31352) for ContainTreasure */
+     , (37085, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (37085, 9, 29264,  0, 0, 0, False) /* Create Piercing Sceptre (29264) for ContainTreasure */
+     , (37085, 9, 46880,  0, 0, 0, False) /* Create Aura of Defender Other VII (46880) for ContainTreasure */
+     , (37085, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
+     , (37085, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (37085, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (37085, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (37085, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
      , (37085, 9, 49284,  0, 0, 0, False) /* Create Acid K'nath Essence (100) (49284) for ContainTreasure */
-     , (37085, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */;
+     , (37085, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (37085, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (37085, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (37085, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (37085, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */;

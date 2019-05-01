@@ -79,85 +79,85 @@ VALUES (1078,   1,    10, 0, 0, 260) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1078, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
-     , (1078, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
-     , (1078, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
-     , (1078, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
-     , (1078, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
-     , (1078, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
-     , (1078, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
-     , (1078, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (1078, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
-     , (1078, 4,    47, -1, 0, 0, False) /* Create Leather Coat (47) for Shop */
-     , (1078, 4,    48, -1, 0, 0, False) /* Create Studded Leather Coat (48) for Shop */
-     , (1078, 4,    50, -1, 0, 0, False) /* Create  (50) for Shop */
-     , (1078, 4,    52, -1, 0, 0, False) /* Create Scalemail Cuirass (52) for Shop */
-     , (1078, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (1078, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (1078, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
-     , (1078, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
-     , (1078, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
-     , (1078, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
-     , (1078, 4,    62, -1, 0, 0, False) /* Create Scalemail Girth (62) for Shop */
-     , (1078, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
-     , (1078, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
-     , (1078, 4,    67, -1, 0, 0, False) /* Create Scalemail Greaves (67) for Shop */
-     , (1078, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (1078, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
-     , (1078, 4,    73, -1, 0, 0, False) /* Create Scalemail Hauberk (73) for Shop */
-     , (1078, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (1078, 4,    81, -1, 0, 0, False) /* Create Leggings (81) for Shop */
-     , (1078, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
-     , (1078, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
+     , (1078, 4,   550, -1, 0, 0, False) /* Create Baigha (550) for Shop */
+     , (1078, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
+     , (1078, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
+     , (1078, 4,   317, -1, 0, 0, False) /* Create Djarid (317) for Shop */
+     , (1078, 4,   319, -1, 0, 0, False) /* Create Jambiya (319) for Shop */
+     , (1078, 4,   325, -1, 0, 0, False) /* Create Kasrullah (325) for Shop */
+     , (1078, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
+     , (1078, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
+     , (1078, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
+     , (1078, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
+     , (1078, 4,   344, -1, 0, 0, False) /* Create Silifi (344) for Shop */
+     , (1078, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
+     , (1078, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (1078, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */
+     , (1078, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
+     , (1078, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
+     , (1078, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
+     , (1078, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
+     , (1078, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (1078, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (1078, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (1078, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (1078, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
+     , (1078, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
+     , (1078, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
+     , (1078, 4,    47, -1, 0, 0, False) /* Create Leather Coat (47) for Shop */
+     , (1078, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (1078, 4,    50, -1, 0, 0, False) /* Create  (50) for Shop */
+     , (1078, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
+     , (1078, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
+     , (1078, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
+     , (1078, 4,   109, -1, 0, 0, False) /* Create Olthoi Tassets (109) for Shop */
+     , (1078, 4,    81, -1, 0, 0, False) /* Create Leggings (81) for Shop */
      , (1078, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
-     , (1078, 4,    88, -1, 0, 0, False) /* Create Scalemail Pauldrons (88) for Shop */
+     , (1078, 4,    97, -1, 0, 0, False) /* Create Shirt (97) for Shop */
+     , (1078, 4,   102, -1, 0, 0, False) /* Create  (102) for Shop */
+     , (1078, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
+     , (1078, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (1078, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
+     , (1078, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
+     , (1078, 4,    48, -1, 0, 0, False) /* Create Studded Leather Coat (48) for Shop */
+     , (1078, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
+     , (1078, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
+     , (1078, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
+     , (1078, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
+     , (1078, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
+     , (1078, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
+     , (1078, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
      , (1078, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
+     , (1078, 4,    99, -1, 0, 0, False) /* Create Studded Leather Shirt (99) for Shop */
+     , (1078, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (1078, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
      , (1078, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
      , (1078, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (1078, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
-     , (1078, 4,    97, -1, 0, 0, False) /* Create Shirt (97) for Shop */
-     , (1078, 4,    98, -1, 0, 0, False) /* Create Scalemail Shirt (98) for Shop */
-     , (1078, 4,    99, -1, 0, 0, False) /* Create Studded Leather Shirt (99) for Shop */
+     , (1078, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (1078, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (1078, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (1078, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (1078, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
+     , (1078, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (1078, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
      , (1078, 4,   101, -1, 0, 0, False) /* Create Chainmail Sleeves (101) for Shop */
-     , (1078, 4,   102, -1, 0, 0, False) /* Create  (102) for Shop */
+     , (1078, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
+     , (1078, 4,    52, -1, 0, 0, False) /* Create Scalemail Cuirass (52) for Shop */
+     , (1078, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
+     , (1078, 4,    62, -1, 0, 0, False) /* Create Scalemail Girth (62) for Shop */
+     , (1078, 4,    67, -1, 0, 0, False) /* Create Scalemail Greaves (67) for Shop */
+     , (1078, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets (111) for Shop */
+     , (1078, 4,    73, -1, 0, 0, False) /* Create Scalemail Hauberk (73) for Shop */
+     , (1078, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
+     , (1078, 4,    88, -1, 0, 0, False) /* Create Scalemail Pauldrons (88) for Shop */
+     , (1078, 4,    98, -1, 0, 0, False) /* Create Scalemail Shirt (98) for Shop */
      , (1078, 4,   104, -1, 0, 0, False) /* Create Scalemail Sleeves (104) for Shop */
      , (1078, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves (105) for Shop */
-     , (1078, 4,   109, -1, 0, 0, False) /* Create Olthoi Tassets (109) for Shop */
-     , (1078, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets (111) for Shop */
-     , (1078, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (1078, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
-     , (1078, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (1078, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */
      , (1078, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
      , (1078, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
      , (1078, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
      , (1078, 4,   251, -1, 0, 0, False) /* Create  (251) for Shop */
-     , (1078, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
-     , (1078, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
-     , (1078, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (1078, 4,   317, -1, 0, 0, False) /* Create Djarid (317) for Shop */
-     , (1078, 4,   319, -1, 0, 0, False) /* Create Jambiya (319) for Shop */
-     , (1078, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */
-     , (1078, 4,   325, -1, 0, 0, False) /* Create Kasrullah (325) for Shop */
-     , (1078, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
-     , (1078, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
-     , (1078, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
-     , (1078, 4,   344, -1, 0, 0, False) /* Create Silifi (344) for Shop */
-     , (1078, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
-     , (1078, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
-     , (1078, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
-     , (1078, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
-     , (1078, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (1078, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (1078, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (1078, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (1078, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
-     , (1078, 4,   550, -1, 0, 0, False) /* Create Baigha (550) for Shop */
-     , (1078, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (1078, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (1078, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
-     , (1078, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */;
+     , (1078, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1078, 67109556, 0, 24)

@@ -60,15 +60,15 @@ VALUES (25283,   1,    10, 0, 0, 3) /* MaxHealth */
      , (25283,   5,    10, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25283, 9,    41,  0, 0, 0, False) /* Create Scalemail Breastplate (41) for ContainTreasure */
+VALUES (25283, 9,   262,  1, 0, 0, False) /* Create Chicken (262) for ContainTreasure */
+     , (25283, 9,    41,  0, 0, 0, False) /* Create Scalemail Breastplate (41) for ContainTreasure */
      , (25283, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (25283, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (25283, 9,   262,  1, 0, 0, False) /* Create Chicken (262) for ContainTreasure */
-     , (25283, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (25283, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (25283, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (25283, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */
-     , (25283, 9, 40695,  0, 0, 0, False) /* Create Covenant Sollerets (40695) for ContainTreasure */;
+     , (25283, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
+     , (25283, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (25283, 9, 40695,  0, 0, 0, False) /* Create Covenant Sollerets (40695) for ContainTreasure */
+     , (25283, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25283, 67114449, 0, 0);

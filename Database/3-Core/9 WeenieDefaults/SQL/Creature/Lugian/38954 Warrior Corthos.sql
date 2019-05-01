@@ -62,10 +62,10 @@ VALUES (38954,   1,    10, 0, 0, 3225) /* MaxHealth */
      , (38954,   5,    10, 0, 0, 10320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38954, 2, 38932,  1, 0, 0, False) /* Create Spine Glaive (38932) for Wield */
+VALUES (38954, 2, 38940,  1, 0, 0, False) /* Create Dripping Death (38940) for Wield */
      , (38954, 2, 38936,  1, 0, 0, False) /* Create Acid Mace (38936) for Wield */
-     , (38954, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */
-     , (38954, 2, 38940,  1, 0, 0, False) /* Create Dripping Death (38940) for Wield */;
+     , (38954, 2, 38932,  1, 0, 0, False) /* Create Spine Glaive (38932) for Wield */
+     , (38954, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38954, 67114288, 0, 0);

@@ -57,36 +57,36 @@ VALUES (23490,   1,    10, 0, 0, 200) /* MaxHealth */
      , (23490,   5,    10, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23490, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
-     , (23490, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (23490, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (23490, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (23490, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (23490, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+VALUES (23490, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (23490, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (23490, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
+     , (23490, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (23490, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (23490, 9,  7604,  1, 0, 0, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (23490, 9, 21104,  0, 0, 0, False) /* Create Scroll of Martyr's Blight III (21104) for ContainTreasure */
      , (23490, 9,   273, 108, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (23490, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (23490, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (23490, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
-     , (23490, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
-     , (23490, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (23490, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (23490, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (23490, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
      , (23490, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (23490, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (23490, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (23490, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (23490, 9,  3696,  1, 0, 0, False) /* Create Blue Jewel (3696) for ContainTreasure */
+     , (23490, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (23490, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (23490, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
      , (23490, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (23490, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (23490, 9,  3696,  1, 0, 0, False) /* Create Blue Jewel (3696) for ContainTreasure */
-     , (23490, 9,  3698,  1, 0, 0, False) /* Create White Jewel (3698) for ContainTreasure */
-     , (23490, 9,  7604,  1, 0, 0, False) /* Create Yellow Jewel (7604) for ContainTreasure */
-     , (23490, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (23490, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (23490, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
      , (23490, 9,  9290,  0, 0, 0, False) /* Create Virindi Directive Key (9290) for ContainTreasure */
-     , (23490, 9, 21104,  0, 0, 0, False) /* Create Scroll of Martyr's Blight III (21104) for ContainTreasure */
      , (23490, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (23490, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
      , (23490, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
-     , (23490, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (23490, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
-     , (23490, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
-     , (23490, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */;
+     , (23490, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (23490, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (23490, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (23490, 9,  3698,  1, 0, 0, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (23490, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (23490, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23490, 67111815, 0, 0);

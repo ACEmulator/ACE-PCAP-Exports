@@ -53,18 +53,18 @@ VALUES (11981,   1,    10, 0, 0, 145) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11981, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (11981, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (11981, 9,  2807,  0, 0, 0, False) /* Create Aura of Defender Self II (2807) for ContainTreasure */
+     , (11981, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (11981, 9,   273,  5, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (11981, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (11981, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */
-     , (11981, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
+     , (11981, 9, 49289,  0, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for ContainTreasure */
      , (11981, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (11981, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (11981, 9,  2807,  0, 0, 0, False) /* Create Aura of Defender Self II (2807) for ContainTreasure */
-     , (11981, 9,  7039,  1, 0, 0, False) /* Create Fire Auroch Horn (7039) for ContainTreasure */
-     , (11981, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */
+     , (11981, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (11981, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
      , (11981, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
-     , (11981, 9, 49289,  0, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for ContainTreasure */;
+     , (11981, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */
+     , (11981, 9,  7039,  1, 0, 0, False) /* Create Fire Auroch Horn (7039) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11981, 67113348, 0, 0);

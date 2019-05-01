@@ -62,28 +62,28 @@ VALUES (33798,   1,    10, 0, 0, 15000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33798, 2, 33026,  1, 0, 0, False) /* Create Souldrinker (33026) for Wield */
-     , (33798, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (33798, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (33798, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (33798, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
      , (33798, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (33798, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (33798, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
-     , (33798, 9,  3853,  0, 0, 0, False) /* Create Acid Shamshir (3853) for ContainTreasure */
-     , (33798, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
-     , (33798, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (33798, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
-     , (33798, 9, 20463,  0, 0, 0, False) /* Create Scroll of Evisceration (20463) for ContainTreasure */
-     , (33798, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
-     , (33798, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
-     , (33798, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (33798, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (33798, 9, 27216,  0, 0, 0, False) /* Create Chiran Gauntlets (27216) for ContainTreasure */
-     , (33798, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */
-     , (33798, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
-     , (33798, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */
      , (33798, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
-     , (33798, 9, 33758,  0, 0, 0, False) /* Create Shadow Vault Key (33758) for ContainTreasure */;
+     , (33798, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (33798, 9, 20463,  0, 0, 0, False) /* Create Scroll of Evisceration (20463) for ContainTreasure */
+     , (33798, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
+     , (33798, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (33798, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (33798, 9, 33758,  0, 0, 0, False) /* Create Shadow Vault Key (33758) for ContainTreasure */
+     , (33798, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (33798, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
+     , (33798, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */
+     , (33798, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (33798, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
+     , (33798, 9, 27216,  0, 0, 0, False) /* Create Chiran Gauntlets (27216) for ContainTreasure */
+     , (33798, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33798, 9,  3853,  0, 0, 0, False) /* Create Acid Shamshir (3853) for ContainTreasure */
+     , (33798, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (33798, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */
+     , (33798, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (33798, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (33798, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (33798, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33798, 67115518, 0, 0);

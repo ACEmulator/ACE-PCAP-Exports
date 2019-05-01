@@ -61,9 +61,9 @@ VALUES (40479,   1,    10, 0, 0, 1115) /* MaxHealth */
      , (40479,   5,    10, 0, 0, 680) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40479, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
-     , (40479, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
-     , (40479, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
+VALUES (40479, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+     , (40479, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
+     , (40479, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40479, 67113030, 0, 0);

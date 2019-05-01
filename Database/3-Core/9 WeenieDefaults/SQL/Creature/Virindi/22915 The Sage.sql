@@ -47,18 +47,18 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22915,   1,    10, 0, 0, 700) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22915, 9,   273, 1472, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (22915, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (22915, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (22915, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (22915, 9, 20471,  0, 0, 0, False) /* Create Scroll of Boon of the Mace Turner (20471) for ContainTreasure */
+VALUES (22915, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */
      , (22915, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
-     , (22915, 9, 22925,  0, 0, 0, False) /* Create Athenaeum Key (22925) for ContainTreasure */
+     , (22915, 9, 20471,  0, 0, 0, False) /* Create Scroll of Boon of the Mace Turner (20471) for ContainTreasure */
+     , (22915, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (22915, 9,   273, 1472, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (22915, 9, 25948,  0, 0, 0, False) /* Create Dark Amber Ring (25948) for ContainTreasure */
+     , (22915, 9, 22925,  0, 0, 0, False) /* Create Athenaeum Key (22925) for ContainTreasure */
      , (22915, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (22915, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (22915, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (22915, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
-     , (22915, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */;
+     , (22915, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (22915, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22915, 67114256, 0, 0);

@@ -59,12 +59,12 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (8120,   1,    10, 0, 0, 255) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8120, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (8120, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
-     , (8120, 9,   273, 547, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (8120, 9,  8083,  0, 0, 0, False) /* Create Throbbing Lump (8083) for ContainTreasure */
+VALUES (8120, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
+     , (8120, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (8120, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (8120, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */;
+     , (8120, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
+     , (8120, 9,   273, 547, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (8120, 9,  8083,  0, 0, 0, False) /* Create Throbbing Lump (8083) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8120, 67112860, 0, 0);

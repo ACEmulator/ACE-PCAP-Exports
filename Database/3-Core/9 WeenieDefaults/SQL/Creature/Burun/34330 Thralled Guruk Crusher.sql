@@ -58,8 +58,8 @@ VALUES (34330,   1,    10, 0, 0, 500) /* MaxHealth */
      , (34330,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34330, 2, 27866,  1, 0, 0, False) /* Create Stone Axe (27866) for Wield */
-     , (34330, 2, 27870,  1, 0, 0, False) /* Create Tree Trunk (27870) for Wield */
+VALUES (34330, 2, 27870,  1, 0, 0, False) /* Create Tree Trunk (27870) for Wield */
+     , (34330, 2, 27866,  1, 0, 0, False) /* Create Stone Axe (27866) for Wield */
      , (34330, 2, 27874,  1, 0, 0, False) /* Create Muck Ball (27874) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

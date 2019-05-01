@@ -63,8 +63,8 @@ VALUES (4261,   1,    10, 0, 0, 210) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4261, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
      , (4261, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (4261, 9,   273, 351, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (4261, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;
+     , (4261, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (4261, 9,   273, 351, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4261, 67113034, 0, 0);

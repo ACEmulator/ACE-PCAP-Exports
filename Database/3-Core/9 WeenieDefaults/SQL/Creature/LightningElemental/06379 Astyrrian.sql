@@ -63,14 +63,14 @@ VALUES (6379,   1,    10, 0, 0, 780) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6379, 2,  6383,  1, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
-     , (6379, 9,   273, 938, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (6379, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
-     , (6379, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */
-     , (6379, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6379, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
      , (6379, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (6379, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (6379, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (6379, 9, 20460,  0, 0, 0, False) /* Create Scroll of Crushing Shame (20460) for ContainTreasure */
-     , (6379, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
      , (6379, 9, 31808,  0, 0, 0, False) /* Create Electric Crossbow (31808) for ContainTreasure */
-     , (6379, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */;
+     , (6379, 9,   273, 938, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (6379, 9, 20460,  0, 0, 0, False) /* Create Scroll of Crushing Shame (20460) for ContainTreasure */
+     , (6379, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
+     , (6379, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (6379, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (6379, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (6379, 9,  2393,  1, 0, 0, False) /* Create Gem (2393) for ContainTreasure */;

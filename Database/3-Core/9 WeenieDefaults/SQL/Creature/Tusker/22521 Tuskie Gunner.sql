@@ -62,15 +62,15 @@ VALUES (22521,   1,    10, 0, 0, 200) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22521, 2, 22546,  1, 0, 0, False) /* Create Coconut (22546) for Wield */
+     , (22521, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (22521, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (22521, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
      , (22521, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
      , (22521, 9,   273, 624, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (22521, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (22521, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (22521, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (22521, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (22521, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (22521, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (22521, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (22521, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
+     , (22521, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (22521, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

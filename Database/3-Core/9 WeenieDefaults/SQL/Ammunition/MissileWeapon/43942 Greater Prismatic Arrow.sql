@@ -90,12 +90,12 @@ VALUES (43942, 8000, 3681951228) /* PCAPRecordedObjectIID */
      , (43942, 8008, 1343492079) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43942, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */
+VALUES (43942, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
+     , (43942, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
      , (43942, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (43942, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (43942, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (43942, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
-     , (43942, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+     , (43942, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
+     , (43942, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43942, 67111920, 0, 0);

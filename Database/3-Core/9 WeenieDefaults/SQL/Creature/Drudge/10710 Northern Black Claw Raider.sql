@@ -50,13 +50,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (10710,   1,    10, 0, 0, 167) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10710, 2, 47234,  1, 0, 0, False) /* Create Acid Board with Nail (47234) for Wield */
+VALUES (10710, 2, 47310,  1, 0, 0, False) /* Create Frost Board with Nail (47310) for Wield */
+     , (10710, 2, 47367,  1, 0, 0, False) /* Create Lightning Club (47367) for Wield */
      , (10710, 2, 47253,  1, 0, 0, False) /* Create Board with Nail (47253) for Wield */
      , (10710, 2, 47291,  1, 0, 0, False) /* Create Fire Board with Nail (47291) for Wield */
-     , (10710, 2, 47310,  1, 0, 0, False) /* Create Frost Board with Nail (47310) for Wield */
      , (10710, 2, 47348,  1, 0, 0, False) /* Create Club (47348) for Wield */
-     , (10710, 2, 47367,  1, 0, 0, False) /* Create Lightning Club (47367) for Wield */
-     , (10710, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */;
+     , (10710, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */
+     , (10710, 2, 47234,  1, 0, 0, False) /* Create Acid Board with Nail (47234) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10710, 67112819, 0, 0);

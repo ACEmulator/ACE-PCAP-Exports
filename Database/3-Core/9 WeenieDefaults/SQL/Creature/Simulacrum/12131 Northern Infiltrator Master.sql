@@ -55,13 +55,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12131,   1,    10, 0, 0, 845) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12131, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (12131, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+VALUES (12131, 9, 20580,  0, 0, 0, False) /* Create Scroll of Saladur's Blessing (20580) for ContainTreasure */
+     , (12131, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
+     , (12131, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (12131, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (12131, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
      , (12131, 9, 12143,  0, 0, 0, False) /* Create Northern Infiltrator Message Shard (12143) for ContainTreasure */
-     , (12131, 9, 12155,  0, 0, 0, False) /* Create Shield of the Simulacra (12155) for ContainTreasure */
-     , (12131, 9, 20580,  0, 0, 0, False) /* Create Scroll of Saladur's Blessing (20580) for ContainTreasure */
-     , (12131, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */;
+     , (12131, 9, 12155,  0, 0, 0, False) /* Create Shield of the Simulacra (12155) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12131, 67109561, 0, 24)

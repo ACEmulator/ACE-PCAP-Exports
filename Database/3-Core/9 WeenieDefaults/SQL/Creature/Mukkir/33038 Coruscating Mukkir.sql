@@ -62,9 +62,9 @@ VALUES (33038,   1,    10, 0, 0, 2703) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33038, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (33038, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
      , (33038, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (33038, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (33038, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */;
+     , (33038, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33038, 67116778, 0, 0);

@@ -62,30 +62,30 @@ VALUES (7346,   1,    10, 0, 0, 413) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7346, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */
-     , (7346, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
-     , (7346, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (7346, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (7346, 9,   273, 570, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7346, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (7346, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
-     , (7346, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (7346, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (7346, 9,  2881,  0, 0, 0, False) /* Create Scroll of Strengthen Lock VI (2881) for ContainTreasure */
-     , (7346, 9,  3082,  0, 0, 0, False) /* Create Scroll of Exhaustion Other VI (3082) for ContainTreasure */
-     , (7346, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (7346, 9, 21307,  0, 0, 0, False) /* Create Scroll of Flame Arc VI (21307) for ContainTreasure */
-     , (7346, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
-     , (7346, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
-     , (7346, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
-     , (7346, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
      , (7346, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
-     , (7346, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
-     , (7346, 9, 43382,  0, 0, 0, False) /* Create Nefane Pearl (43382) for ContainTreasure */
-     , (7346, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */
-     , (7346, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */
-     , (7346, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */
+     , (7346, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
+     , (7346, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (7346, 9, 49353,  0, 0, 0, False) /* Create Fire Moar Essence (80) (49353) for ContainTreasure */
-     , (7346, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */;
+     , (7346, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (7346, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (7346, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */
+     , (7346, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (7346, 9, 43382,  0, 0, 0, False) /* Create Nefane Pearl (43382) for ContainTreasure */
+     , (7346, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */
+     , (7346, 9,  2881,  0, 0, 0, False) /* Create Scroll of Strengthen Lock VI (2881) for ContainTreasure */
+     , (7346, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (7346, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */
+     , (7346, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (7346, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
+     , (7346, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */
+     , (7346, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (7346, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (7346, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (7346, 9, 21307,  0, 0, 0, False) /* Create Scroll of Flame Arc VI (21307) for ContainTreasure */
+     , (7346, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
+     , (7346, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */
+     , (7346, 9,  3082,  0, 0, 0, False) /* Create Scroll of Exhaustion Other VI (3082) for ContainTreasure */
+     , (7346, 9,   273, 570, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7346, 67114035, 0, 0);

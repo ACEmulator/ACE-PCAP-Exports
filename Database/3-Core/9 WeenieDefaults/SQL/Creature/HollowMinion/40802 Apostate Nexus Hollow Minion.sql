@@ -47,9 +47,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40802,   1,    10, 0, 0, 1000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40802, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (40802, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
-     , (40802, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+VALUES (40802, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (40802, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (40802, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40802, 67114287, 0, 0);

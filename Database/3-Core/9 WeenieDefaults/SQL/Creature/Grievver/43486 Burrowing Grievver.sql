@@ -61,9 +61,9 @@ VALUES (43486,   1,    10, 0, 0, 780) /* MaxHealth */
      , (43486,   5,    10, 0, 0, 640) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43486, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (43486, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
-     , (43486, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
+VALUES (43486, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+     , (43486, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (43486, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43486, 67112938, 0, 0);

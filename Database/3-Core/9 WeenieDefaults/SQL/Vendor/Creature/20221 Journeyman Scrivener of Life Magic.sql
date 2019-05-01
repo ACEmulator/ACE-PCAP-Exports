@@ -77,7 +77,10 @@ VALUES (20221,   1,    10, 0, 0, 150) /* MaxHealth */
      , (20221,   5,    10, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20221, 4,  2665, -1, 0, 0, False) /* Create Scroll of Enfeeble Other III (2665) for Shop */
+VALUES (20221, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
+     , (20221, 4,  4386, -1, 0, 0, False) /* Create Scroll of Armor Other III (4386) for Shop */
+     , (20221, 4,  4391, -1, 0, 0, False) /* Create Scroll of Armor Self III (4391) for Shop */
+     , (20221, 4,  2665, -1, 0, 0, False) /* Create Scroll of Enfeeble Other III (2665) for Shop */
      , (20221, 4,  2688, -1, 0, 0, False) /* Create Scroll of Harm Other III (2688) for Shop */
      , (20221, 4,  2693, -1, 0, 0, False) /* Create Scroll of Heal Other III (2693) for Shop */
      , (20221, 4,  2698, -1, 0, 0, False) /* Create Scroll of Heal Self III (2698) for Shop */
@@ -115,24 +118,21 @@ VALUES (20221, 4,  2665, -1, 0, 0, False) /* Create Scroll of Enfeeble Other III
      , (20221, 4,  3114, -1, 0, 0, False) /* Create Scroll of Regenerate Self III (3114) for Shop */
      , (20221, 4,  3119, -1, 0, 0, False) /* Create Scroll of Rejuvenate Other III (3119) for Shop */
      , (20221, 4,  3124, -1, 0, 0, False) /* Create Scroll of Rejuvenate Self III (3124) for Shop */
+     , (20221, 4,  3934, -1, 0, 0, False) /* Create Scroll of Drain Health Other III (3934) for Shop */
+     , (20221, 4,  9662, -1, 0, 0, False) /* Create Scroll of Drain Mana Other III (9662) for Shop */
      , (20221, 4,  3727, -1, 0, 0, False) /* Create Scroll of Drain Stamina Other III (3727) for Shop */
+     , (20221, 4,  9631, -1, 0, 0, False) /* Create Scroll of Health to Mana Self III (9631) for Shop */
+     , (20221, 4,  9636, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self III (9636) for Shop */
      , (20221, 4,  3732, -1, 0, 0, False) /* Create Scroll of Infuse Health III (3732) for Shop */
      , (20221, 4,  3737, -1, 0, 0, False) /* Create Scroll of Infuse Mana III (3737) for Shop */
      , (20221, 4,  3742, -1, 0, 0, False) /* Create Scroll of Infuse Stamina III (3742) for Shop */
-     , (20221, 4,  3934, -1, 0, 0, False) /* Create Scroll of Drain Health Other III (3934) for Shop */
-     , (20221, 4,  4386, -1, 0, 0, False) /* Create Scroll of Armor Other III (4386) for Shop */
-     , (20221, 4,  4391, -1, 0, 0, False) /* Create Scroll of Armor Self III (4391) for Shop */
-     , (20221, 4,  9631, -1, 0, 0, False) /* Create Scroll of Health to Mana Self III (9631) for Shop */
-     , (20221, 4,  9636, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self III (9636) for Shop */
      , (20221, 4,  9641, -1, 0, 0, False) /* Create Scroll of Mana to Health Self III (9641) for Shop */
      , (20221, 4,  9646, -1, 0, 0, False) /* Create Scroll of Mana to Stamina Self III (9646) for Shop */
      , (20221, 4,  9651, -1, 0, 0, False) /* Create Scroll of Stamina to Health Self III (9651) for Shop */
      , (20221, 4,  9656, -1, 0, 0, False) /* Create Scroll of Stamina to Mana Self III (9656) for Shop */
-     , (20221, 4,  9662, -1, 0, 0, False) /* Create Scroll of Drain Mana Other III (9662) for Shop */
-     , (20221, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */
-     , (20221, 4, 21097, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb III (21097) for Shop */
      , (20221, 4, 21104, -1, 0, 0, False) /* Create Scroll of Martyr's Blight III (21104) for Shop */
-     , (20221, 4, 21111, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity III (21111) for Shop */;
+     , (20221, 4, 21111, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity III (21111) for Shop */
+     , (20221, 4, 21097, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb III (21097) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20221, 67109551, 0, 24)

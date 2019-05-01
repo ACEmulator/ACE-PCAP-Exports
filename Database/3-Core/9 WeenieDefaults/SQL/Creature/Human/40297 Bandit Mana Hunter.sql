@@ -65,11 +65,11 @@ VALUES (40297,   1,    10, 0, 0, 1500) /* MaxHealth */
      , (40297,   5,    10, 0, 0, 2720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40297, 2, 21348,  1, 0, 0, False) /* Create Deadly Chorizite Arrow (21348) for Wield */
-     , (40297, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */
+VALUES (40297, 2, 31705,  1, 0, 0, False) /* Create Phantom Bow (31705) for Wield */
      , (40297, 2, 31704,  1, 0, 0, False) /* Create Tachi (31704) for Wield */
-     , (40297, 2, 31705,  1, 0, 0, False) /* Create Phantom Bow (31705) for Wield */
-     , (40297, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */;
+     , (40297, 2, 31706,  1, 0, 0, False) /* Create Hollow Crossbow (31706) for Wield */
+     , (40297, 2, 21348,  1, 0, 0, False) /* Create Deadly Chorizite Arrow (21348) for Wield */
+     , (40297, 2, 21352,  1, 0, 0, False) /* Create Deadly Chorizite Quarrel (21352) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40297, 67109562, 0, 24)

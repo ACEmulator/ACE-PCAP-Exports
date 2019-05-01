@@ -50,9 +50,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (52112,   1,    10, 0, 0, 6200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52112, 9, 52097,  0, 0, 0, False) /* Create Key I (52097) for ContainTreasure */
+VALUES (52112, 9, 52099,  0, 0, 0, False) /* Create Key III (52099) for ContainTreasure */
      , (52112, 9, 52098,  0, 0, 0, False) /* Create Key II (52098) for ContainTreasure */
-     , (52112, 9, 52099,  0, 0, 0, False) /* Create Key III (52099) for ContainTreasure */;
+     , (52112, 9, 52097,  0, 0, 0, False) /* Create Key I (52097) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52112, 67115129, 0, 0);

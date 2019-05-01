@@ -52,24 +52,24 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (1273,   1,    10, 0, 0, 180) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1273, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (1273, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (1273, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (1273, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */
-     , (1273, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+VALUES (1273, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */
+     , (1273, 9, 20556,  0, 0, 0, False) /* Create Scroll of Oswald's Boon (20556) for ContainTreasure */
      , (1273, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
      , (1273, 9,  1278,  0, 0, 0, False) /* Create Key (1278) for ContainTreasure */
-     , (1273, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
-     , (1273, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
-     , (1273, 9,  3572,  0, 0, 0, False) /* Create Scroll of War Magic Mastery Other VI (3572) for ContainTreasure */
-     , (1273, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
-     , (1273, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
-     , (1273, 9, 20556,  0, 0, 0, False) /* Create Scroll of Oswald's Boon (20556) for ContainTreasure */
      , (1273, 9, 30557,  0, 0, 0, False) /* Create Acid Hatchet (30557) for ContainTreasure */
+     , (1273, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
      , (1273, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (1273, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */
-     , (1273, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */
-     , (1273, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */;
+     , (1273, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (1273, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
+     , (1273, 9,  3572,  0, 0, 0, False) /* Create Scroll of War Magic Mastery Other VI (3572) for ContainTreasure */
+     , (1273, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (1273, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
+     , (1273, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (1273, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */
+     , (1273, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */
+     , (1273, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (1273, 9,   379,  1, 0, 0, False) /* Create Mana Potion (379) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1273, 67111338, 0, 0);

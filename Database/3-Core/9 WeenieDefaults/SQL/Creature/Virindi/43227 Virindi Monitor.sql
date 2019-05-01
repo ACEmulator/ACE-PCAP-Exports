@@ -47,10 +47,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43227,   1,    10, 0, 0, 1000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43227, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (43227, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (43227, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (43227, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */;
+VALUES (43227, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (43227, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */
+     , (43227, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (43227, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43227, 67113145, 0, 0);

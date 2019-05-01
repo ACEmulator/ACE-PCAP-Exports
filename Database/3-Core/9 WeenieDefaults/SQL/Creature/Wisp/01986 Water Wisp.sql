@@ -57,20 +57,20 @@ VALUES (1986,   1,    10, 0, 0, 30) /* MaxHealth */
      , (1986,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1986, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
-     , (1986, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
-     , (1986, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (1986, 9,   273, 12, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1986, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
-     , (1986, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (1986, 9,  1786,  0, 0, 0, False) /* Create Scroll of Slowness Other (1786) for ContainTreasure */
-     , (1986, 9,  1858,  0, 0, 0, False) /* Create Scroll of Mana Depletion Other (1858) for ContainTreasure */
-     , (1986, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (1986, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (1986, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (1986, 9,  3368,  0, 0, 0, False) /* Create Scroll of Life Magic Mastery Other II (3368) for ContainTreasure */
-     , (1986, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (1986, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+VALUES (1986, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
      , (1986, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1986, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (1986, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1986, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
+     , (1986, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (1986, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
-     , (1986, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */;
+     , (1986, 9,   273, 12, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1986, 9,  1858,  0, 0, 0, False) /* Create Scroll of Mana Depletion Other (1858) for ContainTreasure */
+     , (1986, 9,  1786,  0, 0, 0, False) /* Create Scroll of Slowness Other (1786) for ContainTreasure */
+     , (1986, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
+     , (1986, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
+     , (1986, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (1986, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (1986, 9,  3368,  0, 0, 0, False) /* Create Scroll of Life Magic Mastery Other II (3368) for ContainTreasure */
+     , (1986, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (1986, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */;

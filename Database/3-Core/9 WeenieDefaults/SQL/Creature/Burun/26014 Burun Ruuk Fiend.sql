@@ -62,49 +62,49 @@ VALUES (26014,   1,    10, 0, 0, 385) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26014, 2, 26022,  1, 0, 0, False) /* Create Stone Axe (26022) for Wield */
-     , (26014, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */
-     , (26014, 2, 26043,  1, 0, 0, False) /* Create Stone Mace (26043) for Wield */
      , (26014, 2, 26048,  1, 0, 0, False) /* Create Stone Spear (26048) for Wield */
+     , (26014, 2, 26043,  1, 0, 0, False) /* Create Stone Mace (26043) for Wield */
      , (26014, 2, 26052,  1, 0, 0, False) /* Create Bone Sword (26052) for Wield */
-     , (26014, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
-     , (26014, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (26014, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */
+     , (26014, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
      , (26014, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
-     , (26014, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (26014, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
-     , (26014, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (26014, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (26014, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (26014, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (26014, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (26014, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (26014, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
+     , (26014, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (26014, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
      , (26014, 9,   356,  0, 0, 0, False) /* Create Tofun (356) for ContainTreasure */
+     , (26014, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
+     , (26014, 9, 28984,  0, 0, 0, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */
+     , (26014, 9, 49339,  0, 0, 0, False) /* Create Acid Moar Essence (80) (49339) for ContainTreasure */
+     , (26014, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (26014, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (26014, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (26014, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
+     , (26014, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (26014, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */
+     , (26014, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (26014, 9, 49277,  0, 0, 0, False) /* Create Frost Elemental Essence (100) (49277) for ContainTreasure */
+     , (26014, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (26014, 9, 20513,  0, 0, 0, False) /* Create Scroll of Wrath of Adja (20513) for ContainTreasure */
+     , (26014, 9, 49221,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (80) (49221) for ContainTreasure */
+     , (26014, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (26014, 9, 28318,  0, 0, 0, False) /* Create Untranslated Writing (28318) for ContainTreasure */
+     , (26014, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (26014, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (26014, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (26014, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (26014, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (26014, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (26014, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (26014, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (26014, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (26014, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
+     , (26014, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (26014, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
      , (26014, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (26014, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (26014, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
-     , (26014, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
-     , (26014, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (26014, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
-     , (26014, 9, 20513,  0, 0, 0, False) /* Create Scroll of Wrath of Adja (20513) for ContainTreasure */
-     , (26014, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
-     , (26014, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
-     , (26014, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
-     , (26014, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
-     , (26014, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
-     , (26014, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
-     , (26014, 9, 28318,  0, 0, 0, False) /* Create Untranslated Writing (28318) for ContainTreasure */
-     , (26014, 9, 28984,  0, 0, 0, False) /* Create Bloodied Burun Hide (28984) for ContainTreasure */
-     , (26014, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
-     , (26014, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
-     , (26014, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
-     , (26014, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
-     , (26014, 9, 34015,  0, 0, 0, False) /* Create Golden Shuriken of Tanada (34015) for ContainTreasure */
-     , (26014, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */
-     , (26014, 9, 43052,  0, 0, 0, False) /* Create Knorr Academy Pauldrons (43052) for ContainTreasure */
-     , (26014, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
-     , (26014, 9, 49221,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (80) (49221) for ContainTreasure */
      , (26014, 9, 49271,  0, 0, 0, False) /* Create Lightning Child Essence (125) (49271) for ContainTreasure */
-     , (26014, 9, 49277,  0, 0, 0, False) /* Create Frost Elemental Essence (100) (49277) for ContainTreasure */
-     , (26014, 9, 49339,  0, 0, 0, False) /* Create Acid Moar Essence (80) (49339) for ContainTreasure */;
+     , (26014, 9, 43052,  0, 0, 0, False) /* Create Knorr Academy Pauldrons (43052) for ContainTreasure */
+     , (26014, 9, 34015,  0, 0, 0, False) /* Create Golden Shuriken of Tanada (34015) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26014, 67114921, 0, 0);

@@ -57,20 +57,20 @@ VALUES (1989,   1,    10, 0, 0, 120) /* MaxHealth */
      , (1989,   5,    10, 0, 0, 251) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1989, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (1989, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+VALUES (1989, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
      , (1989, 9,   273, 25, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1989, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (1989, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
-     , (1989, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (1989, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (1989, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (1989, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (1989, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (1989, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1989, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
      , (1989, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1989, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (1989, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1989, 9, 43370,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude IV (43370) for ContainTreasure */
+     , (1989, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (1989, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (1989, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
-     , (1989, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
-     , (1989, 9, 43370,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude IV (43370) for ContainTreasure */
-     , (1989, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */;
+     , (1989, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1989, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (1989, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (1989, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (1989, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (1989, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */;

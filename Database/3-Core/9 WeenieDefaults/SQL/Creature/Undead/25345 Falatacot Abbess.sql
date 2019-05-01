@@ -63,9 +63,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (25345, 2, 48096,  1, 0, 0, False) /* Create Khopesh (48096) for Wield */
      , (25345, 2, 48097,  1, 0, 0, False) /* Create Sickle (48097) for Wield */
      , (25345, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
-     , (25345, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */
      , (25345, 9, 40697,  0, 0, 0, False) /* Create Covenant Breastplate (40697) for ContainTreasure */
-     , (25345, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */;
+     , (25345, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (25345, 9, 31783,  0, 0, 0, False) /* Create Frost Claw (31783) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25345, 67114479, 0, 0);

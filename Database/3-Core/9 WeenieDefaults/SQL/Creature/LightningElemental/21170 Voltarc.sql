@@ -62,6 +62,6 @@ VALUES (21170,   1,    10, 0, 0, 220) /* MaxHealth */
      , (21170,   5,    10, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21170, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (21170, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (21170, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */;
+VALUES (21170, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
+     , (21170, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (21170, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;

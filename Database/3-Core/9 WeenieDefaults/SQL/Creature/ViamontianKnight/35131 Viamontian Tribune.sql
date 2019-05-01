@@ -61,13 +61,13 @@ VALUES (35131,   1,    10, 0, 0, 680) /* MaxHealth */
      , (35131,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35131, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (35131, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
+VALUES (35131, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */
      , (35131, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (35131, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
+     , (35131, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
      , (35131, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */
-     , (35131, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */
-     , (35131, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */
-     , (35131, 2, 40617,  1, 0, 0, False) /* Create Frost Spadone (40617) for Wield */;
+     , (35131, 2, 40617,  1, 0, 0, False) /* Create Frost Spadone (40617) for Wield */
+     , (35131, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35131, 67115517, 0, 0);

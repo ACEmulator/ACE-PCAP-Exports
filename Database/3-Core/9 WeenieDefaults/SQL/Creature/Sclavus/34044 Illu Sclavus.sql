@@ -50,63 +50,63 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34044,   1,    10, 0, 0, 820) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34044, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (34044, 2, 47627,  1, 0, 0, False) /* Create Acid Tachi (47627) for Wield */
-     , (34044, 2, 47646,  1, 0, 0, False) /* Create Tachi (47646) for Wield */
-     , (34044, 2, 47661,  1, 0, 0, False) /* Create Lightning Tachi (47661) for Wield */
-     , (34044, 2, 47679,  1, 0, 0, False) /* Create Flaming Tachi (47679) for Wield */
-     , (34044, 2, 47717,  1, 0, 0, False) /* Create Acid Spear (47717) for Wield */
-     , (34044, 2, 47736,  1, 0, 0, False) /* Create Spear (47736) for Wield */
-     , (34044, 2, 47755,  1, 0, 0, False) /* Create Lightning Spear (47755) for Wield */
-     , (34044, 2, 47774,  1, 0, 0, False) /* Create Flaming Spear (47774) for Wield */
-     , (34044, 2, 48038,  1, 0, 0, False) /* Create Acid Katar (48038) for Wield */
-     , (34044, 2, 48039,  1, 0, 0, False) /* Create Katar (48039) for Wield */
-     , (34044, 2, 48040,  1, 0, 0, False) /* Create Lightning Katar (48040) for Wield */
-     , (34044, 2, 48041,  1, 0, 0, False) /* Create Nekode (48041) for Wield */
-     , (34044, 2, 48042,  1, 0, 0, False) /* Create Acid Nekode (48042) for Wield */
-     , (34044, 2, 48043,  1, 0, 0, False) /* Create Lightning Nekode (48043) for Wield */
-     , (34044, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (34044, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+VALUES (34044, 2, 47736,  1, 0, 0, False) /* Create Spear (47736) for Wield */
+     , (34044, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
      , (34044, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
      , (34044, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
-     , (34044, 2, 48263,  1, 0, 0, False) /* Create Arrow (48263) for Wield */
-     , (34044, 2, 48282,  1, 0, 0, False) /* Create Arrow (48282) for Wield */
+     , (34044, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
+     , (34044, 2, 47646,  1, 0, 0, False) /* Create Tachi (47646) for Wield */
+     , (34044, 2, 48041,  1, 0, 0, False) /* Create Nekode (48041) for Wield */
      , (34044, 2, 48301,  1, 0, 0, False) /* Create Arrow (48301) for Wield */
+     , (34044, 2, 48282,  1, 0, 0, False) /* Create Arrow (48282) for Wield */
+     , (34044, 2, 48038,  1, 0, 0, False) /* Create Acid Katar (48038) for Wield */
+     , (34044, 2, 47627,  1, 0, 0, False) /* Create Acid Tachi (47627) for Wield */
+     , (34044, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
+     , (34044, 2, 47717,  1, 0, 0, False) /* Create Acid Spear (47717) for Wield */
+     , (34044, 2, 48040,  1, 0, 0, False) /* Create Lightning Katar (48040) for Wield */
      , (34044, 2, 48498,  1, 0, 0, False) /* Create Flaming Katar (48498) for Wield */
+     , (34044, 2, 47679,  1, 0, 0, False) /* Create Flaming Tachi (47679) for Wield */
+     , (34044, 2, 48263,  1, 0, 0, False) /* Create Arrow (48263) for Wield */
+     , (34044, 2, 47661,  1, 0, 0, False) /* Create Lightning Tachi (47661) for Wield */
+     , (34044, 2, 48039,  1, 0, 0, False) /* Create Katar (48039) for Wield */
+     , (34044, 2, 47774,  1, 0, 0, False) /* Create Flaming Spear (47774) for Wield */
+     , (34044, 2, 47755,  1, 0, 0, False) /* Create Lightning Spear (47755) for Wield */
+     , (34044, 2, 48042,  1, 0, 0, False) /* Create Acid Nekode (48042) for Wield */
      , (34044, 2, 48545,  1, 0, 0, False) /* Create Flaming Nekode (48545) for Wield */
-     , (34044, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (34044, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
-     , (34044, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
-     , (34044, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
-     , (34044, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (34044, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (34044, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (34044, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (34044, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (34044, 2, 48043,  1, 0, 0, False) /* Create Lightning Nekode (48043) for Wield */
      , (34044, 9,   331,  0, 0, 0, False) /* Create Mace (331) for ContainTreasure */
-     , (34044, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (34044, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
-     , (34044, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (34044, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (34044, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (34044, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
+     , (34044, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (34044, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
+     , (34044, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+     , (34044, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (34044, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */
+     , (34044, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */
+     , (34044, 9, 49341,  0, 0, 0, False) /* Create Acid Moar Essence (125) (49341) for ContainTreasure */
+     , (34044, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
      , (34044, 9, 20502,  0, 0, 0, False) /* Create Scroll of Jibril's Blessing (20502) for ContainTreasure */
-     , (34044, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
+     , (34044, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (34044, 9, 29244,  0, 0, 0, False) /* Create Slashing Bow (29244) for ContainTreasure */
+     , (34044, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (34044, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (34044, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */
+     , (34044, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (34044, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
      , (34044, 9, 20567,  0, 0, 0, False) /* Create Scroll of Inefficient Investment (20567) for ContainTreasure */
      , (34044, 9, 20861,  1, 0, 0, False) /* Create Moons Stamp (20861) for ContainTreasure */
-     , (34044, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
+     , (34044, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (34044, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (34044, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (34044, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
+     , (34044, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
      , (34044, 9, 27227,  0, 0, 0, False) /* Create Nariyid Breastplate (27227) for ContainTreasure */
      , (34044, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */
-     , (34044, 9, 29244,  0, 0, 0, False) /* Create Slashing Bow (29244) for ContainTreasure */
-     , (34044, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */
+     , (34044, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (34044, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
      , (34044, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
-     , (34044, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
-     , (34044, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (34044, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
+     , (34044, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (34044, 9, 41049,  0, 0, 0, False) /* Create Flaming Pike (41049) for ContainTreasure */
-     , (34044, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */
-     , (34044, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
-     , (34044, 9, 49341,  0, 0, 0, False) /* Create Acid Moar Essence (125) (49341) for ContainTreasure */
-     , (34044, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (34044, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34044, 67111941, 0, 0);

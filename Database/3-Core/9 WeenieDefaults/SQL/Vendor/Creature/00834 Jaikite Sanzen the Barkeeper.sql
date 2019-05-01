@@ -77,36 +77,36 @@ VALUES (834,   1,    10, 0, 0, 85) /* MaxHealth */
      , (834,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (834, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (834, 4,  1225, -1, 0, 0, False) /* Create  (1225) for Shop */
-     , (834, 4,  1493, -1, 0, 0, False) /* Create  (1493) for Shop */
-     , (834, 4,  1509, -1, 0, 0, False) /* Create  (1509) for Shop */
+VALUES (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
+     , (834, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
+     , (834, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (834, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
+     , (834, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
+     , (834, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (834, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (834, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
      , (834, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (834, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
-     , (834, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
+     , (834, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (834, 4, 26001, -1, 0, 0, False) /* Create  (26001) for Shop */
+     , (834, 4, 26483, -1, 0, 0, False) /* Create Directions to Nen Ai's House (26483) for Shop */
+     , (834, 4, 26487, -1, 0, 0, False) /* Create Directions to the Shreth Hive (26487) for Shop */
+     , (834, 4,  1225, -1, 0, 0, False) /* Create  (1225) for Shop */
+     , (834, 4,  1509, -1, 0, 0, False) /* Create  (1509) for Shop */
+     , (834, 4,  1493, -1, 0, 0, False) /* Create  (1493) for Shop */
      , (834, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions (4210) for Shop */
-     , (834, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
-     , (834, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (834, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
      , (834, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
-     , (834, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (834, 4, 25997, -1, 0, 0, False) /* Create  (25997) for Shop */
      , (834, 4, 25998, -1, 0, 0, False) /* Create  (25998) for Shop */
      , (834, 4, 25999, -1, 0, 0, False) /* Create  (25999) for Shop */
-     , (834, 4, 26000, -1, 0, 0, False) /* Create  (26000) for Shop */
-     , (834, 4, 26001, -1, 0, 0, False) /* Create  (26001) for Shop */
-     , (834, 4, 26002, -1, 0, 0, False) /* Create  (26002) for Shop */
-     , (834, 4, 26003, -1, 0, 0, False) /* Create  (26003) for Shop */
      , (834, 4, 26480, -1, 0, 0, False) /* Create  (26480) for Shop */
      , (834, 4, 26481, -1, 0, 0, False) /* Create  (26481) for Shop */
+     , (834, 4, 26000, -1, 0, 0, False) /* Create  (26000) for Shop */
      , (834, 4, 26482, -1, 0, 0, False) /* Create  (26482) for Shop */
-     , (834, 4, 26483, -1, 0, 0, False) /* Create Directions to Nen Ai's House (26483) for Shop */
      , (834, 4, 26484, -1, 0, 0, False) /* Create  (26484) for Shop */
      , (834, 4, 26486, -1, 0, 0, False) /* Create  (26486) for Shop */
-     , (834, 4, 26487, -1, 0, 0, False) /* Create Directions to the Shreth Hive (26487) for Shop */
+     , (834, 4, 26002, -1, 0, 0, False) /* Create  (26002) for Shop */
+     , (834, 4, 26003, -1, 0, 0, False) /* Create  (26003) for Shop */
      , (834, 4, 26644, -1, 0, 0, False) /* Create  (26644) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

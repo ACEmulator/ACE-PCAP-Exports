@@ -58,8 +58,8 @@ VALUES (46629, 8000, 3684344263) /* PCAPRecordedObjectIID */
      , (46629, 8008, 3684325363) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46629, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
-     , (46629, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */;
+VALUES (46629, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
+     , (46629, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46629, 67111923, 0, 0);

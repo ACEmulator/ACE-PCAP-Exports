@@ -77,11 +77,9 @@ VALUES (42808,   1,    10, 0, 0, 75) /* MaxHealth */
      , (42808,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42808, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (42979) for Shop */
-     , (42808, 4, 43022, -1, 0, 0, False) /* Create Core Plating Deintegrator (43022) for Shop */
-     , (42808, 4, 44397, -1, 0, 0, False) /* Create  (44397) for Shop */
-     , (42808, 4, 44583, -1, 0, 0, False) /* Create  (44583) for Shop */
+VALUES (42808, 4, 44397, -1, 0, 0, False) /* Create  (44397) for Shop */
      , (42808, 4, 44586, -1, 0, 0, False) /* Create  (44586) for Shop */
+     , (42808, 4, 44583, -1, 0, 0, False) /* Create  (44583) for Shop */
      , (42808, 4, 44587, -1, 0, 0, False) /* Create  (44587) for Shop */
      , (42808, 4, 44657, -1, 0, 0, False) /* Create  (44657) for Shop */
      , (42808, 4, 51222, -1, 0, 0, False) /* Create  (51222) for Shop */
@@ -89,7 +87,9 @@ VALUES (42808, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (429
      , (42808, 4, 51224, -1, 0, 0, False) /* Create  (51224) for Shop */
      , (42808, 4, 51225, -1, 0, 0, False) /* Create  (51225) for Shop */
      , (42808, 4, 51226, -1, 0, 0, False) /* Create  (51226) for Shop */
-     , (42808, 4, 51227, -1, 0, 0, False) /* Create  (51227) for Shop */;
+     , (42808, 4, 51227, -1, 0, 0, False) /* Create  (51227) for Shop */
+     , (42808, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (42979) for Shop */
+     , (42808, 4, 43022, -1, 0, 0, False) /* Create Core Plating Deintegrator (43022) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42808, 67109964, 92, 4)

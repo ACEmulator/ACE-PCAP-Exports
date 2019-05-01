@@ -62,10 +62,10 @@ VALUES (35162,   1,    10, 0, 0, 3000) /* MaxHealth */
      , (35162,   5,    10, 0, 0, 730) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35162, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (35162, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */
+VALUES (35162, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */
+     , (35162, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (35162, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (35162, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+     , (35162, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35162, 67114479, 0, 0);

@@ -61,25 +61,25 @@ VALUES (11527,   1,    10, 0, 0, 250) /* MaxHealth */
      , (11527,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11527, 9,    64,  0, 0, 0, False) /* Create Yoroi Girth (64) for ContainTreasure */
-     , (11527, 9,    67,  0, 0, 0, False) /* Create Scalemail Greaves (67) for ContainTreasure */
-     , (11527, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
-     , (11527, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (11527, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+VALUES (11527, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
      , (11527, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (11527, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (11527, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (11527, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (11527, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (11527, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (11527, 9,    67,  0, 0, 0, False) /* Create Scalemail Greaves (67) for ContainTreasure */
      , (11527, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (11527, 9,  3060,  0, 0, 0, False) /* Create Scroll of Lightning Vulnerability Other IV (3060) for ContainTreasure */
      , (11527, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
      , (11527, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (11527, 9,  3060,  0, 0, 0, False) /* Create Scroll of Lightning Vulnerability Other IV (3060) for ContainTreasure */
-     , (11527, 9,  3236,  0, 0, 0, False) /* Create Scroll of Deception Ineptitude V (3236) for ContainTreasure */
-     , (11527, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for ContainTreasure */
      , (11527, 9,  4220,  0, 0, 0, False) /* Create Scroll of Drain Health Other IV (4220) for ContainTreasure */
-     , (11527, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (11527, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
-     , (11527, 9, 46870,  0, 0, 0, False) /* Create Aura of Hermetic Link Other IV (46870) for ContainTreasure */
+     , (11527, 9,    64,  0, 0, 0, False) /* Create Yoroi Girth (64) for ContainTreasure */
+     , (11527, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
      , (11527, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */
-     , (11527, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (11527, 9, 46870,  0, 0, 0, False) /* Create Aura of Hermetic Link Other IV (46870) for ContainTreasure */
+     , (11527, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for ContainTreasure */
+     , (11527, 9,  3236,  0, 0, 0, False) /* Create Scroll of Deception Ineptitude V (3236) for ContainTreasure */
+     , (11527, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11527, 67116470, 0, 0);

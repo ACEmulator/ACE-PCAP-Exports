@@ -65,9 +65,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (7095, 2,  6383,  1, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */
      , (7095, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */
      , (7095, 9,   273, 1837, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7095, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
-     , (7095, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (7095, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (7095, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (7095, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
      , (7095, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (7095, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (7095, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */;
+     , (7095, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (7095, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;

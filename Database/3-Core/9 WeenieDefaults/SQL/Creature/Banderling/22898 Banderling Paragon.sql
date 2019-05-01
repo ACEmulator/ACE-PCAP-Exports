@@ -61,12 +61,12 @@ VALUES (22898,   1,    10, 0, 0, 2500) /* MaxHealth */
      , (22898,   5,    10, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22898, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
-     , (22898, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */
-     , (22898, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+VALUES (22898, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */
+     , (22898, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
      , (22898, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
-     , (22898, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */
-     , (22898, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */;
+     , (22898, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (22898, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */
+     , (22898, 9, 27221,  0, 0, 0, False) /* Create Lorica Breastplate (27221) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22898, 67114261, 0, 0);

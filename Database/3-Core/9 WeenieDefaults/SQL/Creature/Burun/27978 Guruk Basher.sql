@@ -57,18 +57,18 @@ VALUES (27978,   1,    10, 0, 0, 400) /* MaxHealth */
      , (27978,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27978, 2, 27866,  1, 0, 0, False) /* Create Stone Axe (27866) for Wield */
-     , (27978, 2, 27870,  1, 0, 0, False) /* Create Tree Trunk (27870) for Wield */
+VALUES (27978, 2, 27878,  1, 0, 0, False) /* Create Bone Sword (27878) for Wield */
      , (27978, 2, 27874,  1, 0, 0, False) /* Create Muck Ball (27874) for Wield */
-     , (27978, 2, 27878,  1, 0, 0, False) /* Create Bone Sword (27878) for Wield */
-     , (27978, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (27978, 2, 27866,  1, 0, 0, False) /* Create Stone Axe (27866) for Wield */
+     , (27978, 2, 27870,  1, 0, 0, False) /* Create Tree Trunk (27870) for Wield */
+     , (27978, 9,  3937,  0, 0, 0, False) /* Create Flaming Morning Star (3937) for ContainTreasure */
      , (27978, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
      , (27978, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
      , (27978, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (27978, 9,  3937,  0, 0, 0, False) /* Create Flaming Morning Star (3937) for ContainTreasure */
-     , (27978, 9, 21328,  0, 0, 0, False) /* Create Scroll of Lightning Arc VI (21328) for ContainTreasure */
      , (27978, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
-     , (27978, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */;
+     , (27978, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (27978, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (27978, 9, 21328,  0, 0, 0, False) /* Create Scroll of Lightning Arc VI (21328) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27978, 67115199, 0, 0);

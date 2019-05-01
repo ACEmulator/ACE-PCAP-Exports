@@ -80,15 +80,15 @@ VALUES (13223,   1,    10, 0, 0, 158) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13223, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (13223, 4,   244, -1, 0, 0, False) /* Create Wood (244) for Shop */
-     , (13223, 4, 13199, -1, 0, 0, False) /* Create Small Pine Tree (13199) for Shop */
-     , (13223, 4, 13209, -1, 0, 0, False) /* Create Wreath (13209) for Shop */
-     , (13223, 4, 15403, -1, 0, 0, False) /* Create Small Pine Tree (15403) for Shop */
-     , (13223, 4, 22844, -1, 0, 0, False) /* Create Log Stool (22844) for Shop */
-     , (13223, 4, 22845, -1, 0, 0, False) /* Create Log Table (22845) for Shop */
      , (13223, 4, 22852, -1, 0, 0, False) /* Create Treated Wood (22852) for Shop */
      , (13223, 4, 25757, -1, 0, 0, False) /* Create Barrel (25757) for Shop */
+     , (13223, 4, 25760, -1, 0, 0, False) /* Create Cask (25760) for Shop */
+     , (13223, 4, 22844, -1, 0, 0, False) /* Create Log Stool (22844) for Shop */
+     , (13223, 4, 22845, -1, 0, 0, False) /* Create Log Table (22845) for Shop */
+     , (13223, 4, 15403, -1, 0, 0, False) /* Create Small Pine Tree (15403) for Shop */
      , (13223, 4, 25759, -1, 0, 0, False) /* Create Shrubbery (25759) for Shop */
-     , (13223, 4, 25760, -1, 0, 0, False) /* Create Cask (25760) for Shop */;
+     , (13223, 4, 13199, -1, 0, 0, False) /* Create Small Pine Tree (13199) for Shop */
+     , (13223, 4, 13209, -1, 0, 0, False) /* Create Wreath (13209) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (13223, 67109561, 0, 24)

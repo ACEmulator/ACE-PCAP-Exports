@@ -62,28 +62,28 @@ VALUES (31915,   1,    10, 0, 0, 800) /* MaxHealth */
      , (31915,   5,    10, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31915, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
-     , (31915, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (31915, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+VALUES (31915, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
      , (31915, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (31915, 9,   356,  0, 0, 0, False) /* Create Tofun (356) for ContainTreasure */
-     , (31915, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
-     , (31915, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (31915, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (31915, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (31915, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
      , (31915, 9, 20427,  0, 0, 0, False) /* Create Aura of Mystic's Blessing (20427) for ContainTreasure */
-     , (31915, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (31915, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (31915, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
      , (31915, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */
-     , (31915, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
-     , (31915, 9, 27220,  0, 0, 0, False) /* Create Lorica Boots (27220) for ContainTreasure */
-     , (31915, 9, 29252,  0, 0, 0, False) /* Create Acid Atlatl (29252) for ContainTreasure */
      , (31915, 9, 31817,  0, 0, 0, False) /* Create Frost Slingshot (31817) for ContainTreasure */
+     , (31915, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
      , (31915, 9, 32274,  1, 0, 0, False) /* Create Moarsmuck (32274) for ContainTreasure */
-     , (31915, 9, 41063,  0, 0, 0, False) /* Create Acid Khanda-handled Mace (41063) for ContainTreasure */
-     , (31915, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
+     , (31915, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (31915, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (31915, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
      , (31915, 9, 49300,  0, 0, 0, False) /* Create Fire K'nath Essence (150) (49300) for ContainTreasure */
-     , (31915, 9, 49532,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (80) (49532) for ContainTreasure */;
+     , (31915, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (31915, 9, 29252,  0, 0, 0, False) /* Create Acid Atlatl (29252) for ContainTreasure */
+     , (31915, 9, 27220,  0, 0, 0, False) /* Create Lorica Boots (27220) for ContainTreasure */
+     , (31915, 9, 49532,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (80) (49532) for ContainTreasure */
+     , (31915, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (31915, 9, 41063,  0, 0, 0, False) /* Create Acid Khanda-handled Mace (41063) for ContainTreasure */
+     , (31915, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (31915, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31915, 67116782, 0, 0);

@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (46533,   1,    10, 0, 0, 3175) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46533, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
-     , (46533, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
-     , (46533, 9,   273, 3959, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (46533, 2, 46375,  1, 0, 0, False) /* Create Spectral Nekode (46375) for Wield */
+     , (46533, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
+     , (46533, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (46533, 9, 44853,  0, 0, 0, False) /* Create Bordered Cloak (44853) for ContainTreasure */
+     , (46533, 9, 49315,  0, 0, 0, False) /* Create Acid Wisp Essence (180) (49315) for ContainTreasure */
+     , (46533, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (46533, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (46533, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (46533, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (46533, 9, 21336,  0, 0, 0, False) /* Create Scroll of Shock Arc VII (21336) for ContainTreasure */
      , (46533, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (46533, 9, 44853,  0, 0, 0, False) /* Create Bordered Cloak (44853) for ContainTreasure */
-     , (46533, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
-     , (46533, 9, 49315,  0, 0, 0, False) /* Create Acid Wisp Essence (180) (49315) for ContainTreasure */;
+     , (46533, 9,   273, 3959, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46533, 67114607, 168, 6)

@@ -58,15 +58,15 @@ VALUES (32702,   1,    10, 0, 0, 695) /* MaxHealth */
      , (32702,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32702, 2, 29968,  1, 0, 0, False) /* Create Quadrelle (29968) for Wield */
-     , (32702, 2, 29978,  1, 0, 0, False) /* Create Spadone (29978) for Wield */
-     , (32702, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (32702, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+VALUES (32702, 2, 29978,  1, 0, 0, False) /* Create Spadone (29978) for Wield */
+     , (32702, 2, 29968,  1, 0, 0, False) /* Create Quadrelle (29968) for Wield */
      , (32702, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (32702, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
-     , (32702, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (32702, 9, 32671,  0, 0, 0, False) /* Create Viamontian Pennant (32671) for ContainTreasure */
-     , (32702, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */;
+     , (32702, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (32702, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (32702, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (32702, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (32702, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32702, 67115520, 0, 0);

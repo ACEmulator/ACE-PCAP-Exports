@@ -49,6 +49,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (42443,   1,    10, 0, 0, 325) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42443, 9,   273, 55, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (42443, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+VALUES (42443, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (42443, 9,   273, 55, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (42443, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */;

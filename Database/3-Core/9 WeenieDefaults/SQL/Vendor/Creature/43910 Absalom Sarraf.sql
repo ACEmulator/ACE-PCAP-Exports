@@ -78,16 +78,16 @@ VALUES (43910,   1,    10, 0, 0, 331) /* MaxHealth */
      , (43910,   5,    10, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43910, 4, 43902, -1, 0, 0, False) /* Create Box Of Ten Ornate Gear Markers (43902) for Shop */
-     , (43910, 4, 43903, -1, 0, 0, False) /* Create Box Of Ten Ancient Mhoire Coins (43903) for Shop */
-     , (43910, 4, 43904, -1, 0, 0, False) /* Create Boxed Colosseum Coin (43904) for Shop */
-     , (43910, 4, 43905, -1, 0, 0, False) /* Create Boxed Ornate Gear Marker (43905) for Shop */
+VALUES (43910, 4, 46802, -1, 0, 0, False) /* Create  (46802) for Shop */
      , (43910, 4, 43906, -1, 0, 0, False) /* Create  (43906) for Shop */
      , (43910, 4, 43907, -1, 0, 0, False) /* Create  (43907) for Shop */
+     , (43910, 4, 43905, -1, 0, 0, False) /* Create Boxed Ornate Gear Marker (43905) for Shop */
+     , (43910, 4, 43904, -1, 0, 0, False) /* Create Boxed Colosseum Coin (43904) for Shop */
+     , (43910, 4, 46803, -1, 0, 0, False) /* Create Box Of Ten A'nekshay Tokens (46803) for Shop */
+     , (43910, 4, 43903, -1, 0, 0, False) /* Create Box Of Ten Ancient Mhoire Coins (43903) for Shop */
      , (43910, 4, 43908, -1, 0, 0, False) /* Create Box Of Ten Small Olthoi Venom Sacs (43908) for Shop */
-     , (43910, 4, 43909, -1, 0, 0, False) /* Create Box Of Ten Colosseum Coins (43909) for Shop */
-     , (43910, 4, 46802, -1, 0, 0, False) /* Create  (46802) for Shop */
-     , (43910, 4, 46803, -1, 0, 0, False) /* Create Box Of Ten A'nekshay Tokens (46803) for Shop */;
+     , (43910, 4, 43902, -1, 0, 0, False) /* Create Box Of Ten Ornate Gear Markers (43902) for Shop */
+     , (43910, 4, 43909, -1, 0, 0, False) /* Create Box Of Ten Colosseum Coins (43909) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43910, 67109556, 0, 24)

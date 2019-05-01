@@ -63,37 +63,37 @@ VALUES (25878,   1,    10, 0, 0, 800) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25878, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
-     , (25878, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (25878, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
-     , (25878, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (25878, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (25878, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (25878, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (25878, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (25878, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (25878, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (25878, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (25878, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (25878, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (25878, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
-     , (25878, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (25878, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (25878, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
-     , (25878, 9, 20411,  0, 0, 0, False) /* Create Aura of Cragstone's Will (20411) for ContainTreasure */
-     , (25878, 9, 20455,  0, 0, 0, False) /* Create Scroll of Alset's Coil (20455) for ContainTreasure */
-     , (25878, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
-     , (25878, 9, 20506,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self VII (20506) for ContainTreasure */
      , (25878, 9, 21101,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb VII (21101) for ContainTreasure */
-     , (25878, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
-     , (25878, 9, 28008,  0, 0, 0, False) /* Create Aura of Infected Spirit Caress Scroll (28008) for ContainTreasure */
-     , (25878, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
-     , (25878, 9, 29255,  0, 0, 0, False) /* Create Fire Atlatl (29255) for ContainTreasure */
-     , (25878, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
-     , (25878, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
-     , (25878, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (25878, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (25878, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (25878, 9, 49269,  0, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for ContainTreasure */
      , (25878, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
-     , (25878, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */
-     , (25878, 9, 49269,  0, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for ContainTreasure */;
+     , (25878, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (25878, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (25878, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
+     , (25878, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (25878, 9, 28008,  0, 0, 0, False) /* Create Aura of Infected Spirit Caress Scroll (28008) for ContainTreasure */
+     , (25878, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (25878, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (25878, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (25878, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (25878, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (25878, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (25878, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (25878, 9, 20411,  0, 0, 0, False) /* Create Aura of Cragstone's Will (20411) for ContainTreasure */
+     , (25878, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (25878, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (25878, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (25878, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (25878, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
+     , (25878, 9, 20455,  0, 0, 0, False) /* Create Scroll of Alset's Coil (20455) for ContainTreasure */
+     , (25878, 9, 20506,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self VII (20506) for ContainTreasure */
+     , (25878, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (25878, 9, 29255,  0, 0, 0, False) /* Create Fire Atlatl (29255) for ContainTreasure */
+     , (25878, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (25878, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (25878, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25878, 67114715, 0, 0);

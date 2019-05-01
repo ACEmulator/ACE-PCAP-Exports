@@ -51,10 +51,10 @@ VALUES (32301,   1,    10, 0, 0, 1360) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32301, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
+     , (32301, 9, 49348,  0, 0, 0, False) /* Create Lightning Moar Essence (125) (49348) for ContainTreasure */
      , (32301, 9, 28623,  0, 0, 0, False) /* Create Diforsa Pauldrons (28623) for ContainTreasure */
      , (32301, 9, 32300,  0, 0, 0, False) /* Create Nexus Commander's Helm (32300) for ContainTreasure */
-     , (32301, 9, 32302,  0, 0, 0, False) /* Create Nexus Commander's Orders (32302) for ContainTreasure */
-     , (32301, 9, 49348,  0, 0, 0, False) /* Create Lightning Moar Essence (125) (49348) for ContainTreasure */;
+     , (32301, 9, 32302,  0, 0, 0, False) /* Create Nexus Commander's Orders (32302) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32301, 67115540, 0, 0);

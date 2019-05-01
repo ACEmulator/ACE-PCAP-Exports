@@ -70,7 +70,15 @@ VALUES (45489,   1,    10, 0, 0, 1120) /* MaxHealth */
      , (45489,   5,    10, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45489, 4, 21353, -1, 0, 0, False) /* Create Phantom Axe (21353) for Shop */
+VALUES (45489, 4, 34024, -1, 0, 0, False) /* Create Silifi of Crimson Night (34024) for Shop */
+     , (45489, 4, 45523, -1, 0, 0, False) /* Create Soul Bound Axe (45523) for Shop */
+     , (45489, 4, 45524, -1, 0, 0, False) /* Create Soul Bound Claw (45524) for Shop */
+     , (45489, 4, 45525, -1, 0, 0, False) /* Create Soul Bound Dagger (45525) for Shop */
+     , (45489, 4, 45526, -1, 0, 0, False) /* Create  (45526) for Shop */
+     , (45489, 4, 45527, -1, 0, 0, False) /* Create Soul Bound Spear (45527) for Shop */
+     , (45489, 4, 45528, -1, 0, 0, False) /* Create Soul Bound Staff (45528) for Shop */
+     , (45489, 4, 45529, -1, 0, 0, False) /* Create Soul Bound Sword (45529) for Shop */
+     , (45489, 4, 21353, -1, 0, 0, False) /* Create Phantom Axe (21353) for Shop */
      , (45489, 4, 21354, -1, 0, 0, False) /* Create Phantom Dagger (21354) for Shop */
      , (45489, 4, 21355, -1, 0, 0, False) /* Create Remoran Fist (21355) for Shop */
      , (45489, 4, 21356, -1, 0, 0, False) /* Create Phantom Mace (21356) for Shop */
@@ -84,18 +92,6 @@ VALUES (45489, 4, 21353, -1, 0, 0, False) /* Create Phantom Axe (21353) for Shop
      , (45489, 4, 24204, -1, 0, 0, False) /* Create Weeping Spear (24204) for Shop */
      , (45489, 4, 24205, -1, 0, 0, False) /* Create Weeping Staff (24205) for Shop */
      , (45489, 4, 24206, -1, 0, 0, False) /* Create Weeping Sword (24206) for Shop */
-     , (45489, 4, 32600, -1, 0, 0, False) /* Create Shadowfire Isparian Sword (32600) for Shop */
-     , (45489, 4, 32638, -1, 0, 0, False) /* Create Shadowfire Isparian Axe (32638) for Shop */
-     , (45489, 4, 32641, -1, 0, 0, False) /* Create Shadowfire Isparian Claw (32641) for Shop */
-     , (45489, 4, 32643, -1, 0, 0, False) /* Create  (32643) for Shop */
-     , (45489, 4, 32644, -1, 0, 0, False) /* Create Shadowfire Isparian Mace (32644) for Shop */
-     , (45489, 4, 32645, -1, 0, 0, False) /* Create Shadowfire Isparian Spear (32645) for Shop */
-     , (45489, 4, 32646, -1, 0, 0, False) /* Create Shadowfire Isparian Staff (32646) for Shop */
-     , (45489, 4, 34024, -1, 0, 0, False) /* Create Silifi of Crimson Night (34024) for Shop */
-     , (45489, 4, 35913, -1, 0, 0, False) /* Create Paradox-touched Olthoi Axe (35913) for Shop */
-     , (45489, 4, 35914, -1, 0, 0, False) /* Create Paradox-touched Olthoi Katar (35914) for Shop */
-     , (45489, 4, 35915, -1, 0, 0, False) /* Create Paradox-touched Olthoi Spear (35915) for Shop */
-     , (45489, 4, 35916, -1, 0, 0, False) /* Create Paradox-touched Olthoi Sword (35916) for Shop */
      , (45489, 4, 41879, -1, 0, 0, False) /* Create Singularity Axe (41879) for Shop */
      , (45489, 4, 41882, -1, 0, 0, False) /* Create Ultimate Singularity Dagger (41882) for Shop */
      , (45489, 4, 41883, -1, 0, 0, False) /* Create Ultimate Singularity Katar (41883) for Shop */
@@ -103,16 +99,20 @@ VALUES (45489, 4, 21353, -1, 0, 0, False) /* Create Phantom Axe (21353) for Shop
      , (45489, 4, 41887, -1, 0, 0, False) /* Create Ultimate Singularity Spear (41887) for Shop */
      , (45489, 4, 41888, -1, 0, 0, False) /* Create Ultimate Singularity Staff (41888) for Shop */
      , (45489, 4, 41889, -1, 0, 0, False) /* Create Ultimate Singularity Sword (41889) for Shop */
-     , (45489, 4, 43041, -1, 0, 0, False) /* Create Paradox-touched Olthoi Staff (43041) for Shop */
+     , (45489, 4, 35913, -1, 0, 0, False) /* Create Paradox-touched Olthoi Axe (35913) for Shop */
      , (45489, 4, 43046, -1, 0, 0, False) /* Create Paradox-touched Olthoi Dagger (43046) for Shop */
+     , (45489, 4, 35914, -1, 0, 0, False) /* Create Paradox-touched Olthoi Katar (35914) for Shop */
      , (45489, 4, 43047, -1, 0, 0, False) /* Create Paradox-touched Olthoi Mace (43047) for Shop */
-     , (45489, 4, 45523, -1, 0, 0, False) /* Create Soul Bound Axe (45523) for Shop */
-     , (45489, 4, 45524, -1, 0, 0, False) /* Create Soul Bound Claw (45524) for Shop */
-     , (45489, 4, 45525, -1, 0, 0, False) /* Create Soul Bound Dagger (45525) for Shop */
-     , (45489, 4, 45526, -1, 0, 0, False) /* Create  (45526) for Shop */
-     , (45489, 4, 45527, -1, 0, 0, False) /* Create Soul Bound Spear (45527) for Shop */
-     , (45489, 4, 45528, -1, 0, 0, False) /* Create Soul Bound Staff (45528) for Shop */
-     , (45489, 4, 45529, -1, 0, 0, False) /* Create Soul Bound Sword (45529) for Shop */;
+     , (45489, 4, 35915, -1, 0, 0, False) /* Create Paradox-touched Olthoi Spear (35915) for Shop */
+     , (45489, 4, 43041, -1, 0, 0, False) /* Create Paradox-touched Olthoi Staff (43041) for Shop */
+     , (45489, 4, 35916, -1, 0, 0, False) /* Create Paradox-touched Olthoi Sword (35916) for Shop */
+     , (45489, 4, 32638, -1, 0, 0, False) /* Create Shadowfire Isparian Axe (32638) for Shop */
+     , (45489, 4, 32643, -1, 0, 0, False) /* Create  (32643) for Shop */
+     , (45489, 4, 32641, -1, 0, 0, False) /* Create Shadowfire Isparian Claw (32641) for Shop */
+     , (45489, 4, 32644, -1, 0, 0, False) /* Create Shadowfire Isparian Mace (32644) for Shop */
+     , (45489, 4, 32645, -1, 0, 0, False) /* Create Shadowfire Isparian Spear (32645) for Shop */
+     , (45489, 4, 32646, -1, 0, 0, False) /* Create Shadowfire Isparian Staff (32646) for Shop */
+     , (45489, 4, 32600, -1, 0, 0, False) /* Create Shadowfire Isparian Sword (32600) for Shop */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (45489, 0, 83894477, 83892492)

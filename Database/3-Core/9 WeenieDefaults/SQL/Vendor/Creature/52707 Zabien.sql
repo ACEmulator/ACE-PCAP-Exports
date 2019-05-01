@@ -80,38 +80,38 @@ VALUES (52707,   1,    10, 0, 0, 2075) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52707, 4, 52736, -1, 0, 0, False) /* Create Gauntlet Backpack (52736) for Shop */
-     , (52707, 4, 52737, -1, 0, 0, False) /* Create Gauntlet Health Kit (52737) for Shop */
-     , (52707, 4, 52738, -1, 0, 0, False) /* Create  (52738) for Shop */
-     , (52707, 4, 52739, -1, 0, 0, False) /* Create Gauntlet Stamina Kit (52739) for Shop */
+     , (52707, 4, 53410, -1, 0, 0, False) /* Create  (53410) for Shop */
+     , (52707, 4, 52798, -1, 0, 0, False) /* Create Gauntlet Leggings (52798) for Shop */
+     , (52707, 4, 52799, -1, 0, 0, False) /* Create Gauntlet Tunic (52799) for Shop */
+     , (52707, 4, 53411, -1, 0, 0, False) /* Create  (53411) for Shop */
+     , (52707, 4, 52752, -1, 0, 0, False) /* Create  (52752) for Shop */
+     , (52707, 4, 52753, -1, 0, 0, False) /* Create  (52753) for Shop */
+     , (52707, 4, 52751, -1, 0, 0, False) /* Create  (52751) for Shop */
+     , (52707, 4, 52754, -1, 0, 0, False) /* Create  (52754) for Shop */
      , (52707, 4, 52740, -1, 0, 0, False) /* Create Gem of Brilliance (52740) for Shop */
-     , (52707, 4, 52741, -1, 0, 0, False) /* Create Slicing Society Orb (52741) for Shop */
+     , (52707, 4, 53353, -1, 0, 0, False) /* Create Wishbone (53353) for Shop */
      , (52707, 4, 52742, -1, 0, 0, False) /* Create  (52742) for Shop */
      , (52707, 4, 52743, -1, 0, 0, False) /* Create Piercing Society Orb (52743) for Shop */
      , (52707, 4, 52744, -1, 0, 0, False) /* Create Nether Society Orb (52744) for Shop */
+     , (52707, 4, 52741, -1, 0, 0, False) /* Create Slicing Society Orb (52741) for Shop */
      , (52707, 4, 52745, -1, 0, 0, False) /* Create  (52745) for Shop */
+     , (52707, 4, 52783, -1, 0, 0, False) /* Create Gauntlet Treasure Key (52783) for Shop */
+     , (52707, 4, 52810, -1, 0, 0, False) /* Create  (52810) for Shop */
+     , (52707, 4, 52809, -1, 0, 0, False) /* Create  (52809) for Shop */
+     , (52707, 4, 52807, -1, 0, 0, False) /* Create  (52807) for Shop */
+     , (52707, 4, 52805, -1, 0, 0, False) /* Create  (52805) for Shop */
+     , (52707, 4, 52803, -1, 0, 0, False) /* Create  (52803) for Shop */
+     , (52707, 4, 52812, -1, 0, 0, False) /* Create  (52812) for Shop */
+     , (52707, 4, 52750, -1, 0, 0, False) /* Create  (52750) for Shop */
      , (52707, 4, 52748, -1, 0, 0, False) /* Create  (52748) for Shop */
      , (52707, 4, 52749, -1, 0, 0, False) /* Create  (52749) for Shop */
-     , (52707, 4, 52750, -1, 0, 0, False) /* Create  (52750) for Shop */
-     , (52707, 4, 52751, -1, 0, 0, False) /* Create  (52751) for Shop */
-     , (52707, 4, 52752, -1, 0, 0, False) /* Create  (52752) for Shop */
-     , (52707, 4, 52753, -1, 0, 0, False) /* Create  (52753) for Shop */
-     , (52707, 4, 52754, -1, 0, 0, False) /* Create  (52754) for Shop */
-     , (52707, 4, 52756, -1, 0, 0, False) /* Create Nature's Wrath Amplification (52756) for Shop */
      , (52707, 4, 52757, -1, 0, 0, False) /* Create  (52757) for Shop */
+     , (52707, 4, 52756, -1, 0, 0, False) /* Create Nature's Wrath Amplification (52756) for Shop */
      , (52707, 4, 52758, -1, 0, 0, False) /* Create Gauntlet Defense Amplification (52758) for Shop */
-     , (52707, 4, 52783, -1, 0, 0, False) /* Create Gauntlet Treasure Key (52783) for Shop */
-     , (52707, 4, 52798, -1, 0, 0, False) /* Create Gauntlet Leggings (52798) for Shop */
-     , (52707, 4, 52799, -1, 0, 0, False) /* Create Gauntlet Tunic (52799) for Shop */
-     , (52707, 4, 52803, -1, 0, 0, False) /* Create  (52803) for Shop */
-     , (52707, 4, 52805, -1, 0, 0, False) /* Create  (52805) for Shop */
-     , (52707, 4, 52807, -1, 0, 0, False) /* Create  (52807) for Shop */
-     , (52707, 4, 52809, -1, 0, 0, False) /* Create  (52809) for Shop */
-     , (52707, 4, 52810, -1, 0, 0, False) /* Create  (52810) for Shop */
-     , (52707, 4, 52812, -1, 0, 0, False) /* Create  (52812) for Shop */
-     , (52707, 4, 53353, -1, 0, 0, False) /* Create Wishbone (53353) for Shop */
-     , (52707, 4, 53410, -1, 0, 0, False) /* Create  (53410) for Shop */
-     , (52707, 4, 53411, -1, 0, 0, False) /* Create  (53411) for Shop */
-     , (52707, 4, 53415, -1, 0, 0, False) /* Create  (53415) for Shop */;
+     , (52707, 4, 53415, -1, 0, 0, False) /* Create  (53415) for Shop */
+     , (52707, 4, 52737, -1, 0, 0, False) /* Create Gauntlet Health Kit (52737) for Shop */
+     , (52707, 4, 52739, -1, 0, 0, False) /* Create Gauntlet Stamina Kit (52739) for Shop */
+     , (52707, 4, 52738, -1, 0, 0, False) /* Create  (52738) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52707, 67109964, 92, 4)

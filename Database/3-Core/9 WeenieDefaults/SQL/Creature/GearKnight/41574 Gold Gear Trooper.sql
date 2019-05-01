@@ -60,13 +60,13 @@ VALUES (41574,   1,    10, 0, 0, 325) /* MaxHealth */
      , (41574,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41574, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
-     , (41574, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
-     , (41574, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+VALUES (41574, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
+     , (41574, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
+     , (41574, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for ContainTreasure */
      , (41574, 9,   273, 201, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (41574, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (41574, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
      , (41574, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
      , (41574, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (41574, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
      , (41574, 9, 40820,  0, 0, 0, False) /* Create Lightning Corsesca (40820) for ContainTreasure */
-     , (41574, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
-     , (41574, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for ContainTreasure */;
+     , (41574, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;

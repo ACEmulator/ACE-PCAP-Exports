@@ -42,8 +42,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27458, 8000, 2877973105) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27458, 2, 23738,  1, 0, 0, False) /* Create Lugian Axe (23738) for Wield */
-     , (27458, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */;
+VALUES (27458, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
+     , (27458, 2, 23738,  1, 0, 0, False) /* Create Lugian Axe (23738) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27458, 67114975, 0, 0);

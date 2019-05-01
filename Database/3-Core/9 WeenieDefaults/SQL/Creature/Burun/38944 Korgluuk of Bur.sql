@@ -58,10 +58,10 @@ VALUES (38944,   1,    10, 0, 0, 3225) /* MaxHealth */
      , (38944,   5,    10, 0, 0, 10320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38944, 2, 38931,  1, 0, 0, False) /* Create Frost Hand Axe (38931) for Wield */
-     , (38944, 2, 38934,  1, 0, 0, False) /* Create Sabra (38934) for Wield */
-     , (38944, 2, 38935,  1, 0, 0, False) /* Create Lugian Hammer (38935) for Wield */
-     , (38944, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */;
+VALUES (38944, 2, 38934,  1, 0, 0, False) /* Create Sabra (38934) for Wield */
+     , (38944, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */
+     , (38944, 2, 38931,  1, 0, 0, False) /* Create Frost Hand Axe (38931) for Wield */
+     , (38944, 2, 38935,  1, 0, 0, False) /* Create Lugian Hammer (38935) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38944, 67115202, 0, 0);

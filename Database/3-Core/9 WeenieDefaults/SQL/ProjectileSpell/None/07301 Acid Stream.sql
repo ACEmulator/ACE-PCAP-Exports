@@ -48,7 +48,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7301, 8000, 3680637963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7301, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+VALUES (7301, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (7301, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (7301, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (7301, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (7301, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

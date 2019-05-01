@@ -66,5 +66,5 @@ VALUES (43009,   1,    10, 0, 0, 326) /* MaxHealth */
      , (43009,   5,    10, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43009, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */
-     , (43009, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
+VALUES (43009, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (43009, 2, 24611,  1, 0, 0, False) /* Create Sword of Lost Light (24611) for Wield */;

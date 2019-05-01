@@ -52,8 +52,8 @@ VALUES (38386,   1,    10, 0, 0, 6000) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38386, 2, 38923,  1, 0, 0, False) /* Create T'thuun Bow (38923) for Wield */
      , (38386, 2, 47071,  1, 0, 0, False) /* Create Arrow (47071) for Wield */
-     , (38386, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
      , (38386, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (38386, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
      , (38386, 9, 38374,  0, 0, 0, False) /* Create Skith'Kirit's Severed Head (38374) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

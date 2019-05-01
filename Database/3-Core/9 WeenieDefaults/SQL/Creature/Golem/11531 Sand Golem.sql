@@ -57,17 +57,17 @@ VALUES (11531,   1,    10, 0, 0, 145) /* MaxHealth */
      , (11531,   5,    10, 0, 0, 210) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11531, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
-     , (11531, 9,   273, 50, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (11531, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
-     , (11531, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
-     , (11531, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
-     , (11531, 9,  2669,  0, 0, 0, False) /* Create Scroll of Feeblemind Other II (2669) for ContainTreasure */
-     , (11531, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+VALUES (11531, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
      , (11531, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (11531, 9, 11352,  0, 0, 0, False) /* Create Sand Golem Heart (11352) for ContainTreasure */
+     , (11531, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
+     , (11531, 9,   273, 50, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11531, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (11531, 9,  2669,  0, 0, 0, False) /* Create Scroll of Feeblemind Other II (2669) for ContainTreasure */
      , (11531, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (11531, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */;
+     , (11531, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (11531, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
+     , (11531, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11531, 67112822, 0, 0);

@@ -81,6 +81,9 @@ VALUES (968, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (968, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
      , (968, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (968, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
+     , (968, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (968, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (968, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (968, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (968, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (968, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -88,9 +91,6 @@ VALUES (968, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (968, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (968, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (968, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (968, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (968, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (968, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (968, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (968, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (968, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

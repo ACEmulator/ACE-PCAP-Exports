@@ -61,35 +61,35 @@ VALUES (41538,   1,    10, 0, 0, 720) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41538, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
-     , (41538, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
-     , (41538, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
-     , (41538, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
-     , (41538, 2, 41248,  1, 0, 0, False) /* Create Fire Gearknight Sword (41248) for Wield */
-     , (41538, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
      , (41538, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
      , (41538, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */
      , (41538, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */
+     , (41538, 2, 41248,  1, 0, 0, False) /* Create Fire Gearknight Sword (41248) for Wield */
+     , (41538, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
      , (41538, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */
+     , (41538, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
+     , (41538, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
+     , (41538, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
+     , (41538, 9, 49341,  0, 0, 0, False) /* Create Acid Moar Essence (125) (49341) for ContainTreasure */
+     , (41538, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */
+     , (41538, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
+     , (41538, 9, 42114,  1, 0, 0, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
+     , (41538, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (41538, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (41538, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
+     , (41538, 9, 41528,  1, 0, 0, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
      , (41538, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
      , (41538, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (41538, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (41538, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (41538, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (41538, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (41538, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
-     , (41538, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
-     , (41538, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
-     , (41538, 9, 22157,  0, 0, 0, False) /* Create Frost Jo (22157) for ContainTreasure */
-     , (41538, 9, 30949,  0, 0, 0, False) /* Create Diforsa Sleeves (30949) for ContainTreasure */
-     , (41538, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */
-     , (41538, 9, 37217,  0, 0, 0, False) /* Create Olthoi Alduressa Coat (37217) for ContainTreasure */
      , (41538, 9, 37219,  0, 0, 0, False) /* Create Energy Crystal (37219) for ContainTreasure */
-     , (41538, 9, 40686,  0, 0, 0, False) /* Create Olthoi Girth (40686) for ContainTreasure */
-     , (41538, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (41538, 9, 41528,  1, 0, 0, False) /* Create Aetherium Power Core (41528) for ContainTreasure */
-     , (41538, 9, 42114,  1, 0, 0, False) /* Create Aetherium-infused Gear (42114) for ContainTreasure */
-     , (41538, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */
-     , (41538, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */
+     , (41538, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
      , (41538, 9, 49271,  0, 0, 0, False) /* Create Lightning Child Essence (125) (49271) for ContainTreasure */
-     , (41538, 9, 49341,  0, 0, 0, False) /* Create Acid Moar Essence (125) (49341) for ContainTreasure */
-     , (41538, 9, 51266,  1, 0, 0, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */;
+     , (41538, 9, 37217,  0, 0, 0, False) /* Create Olthoi Alduressa Coat (37217) for ContainTreasure */
+     , (41538, 9, 51266,  1, 0, 0, False) /* Create Pile of Gearknight Parts (51266) for ContainTreasure */
+     , (41538, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
+     , (41538, 9, 40686,  0, 0, 0, False) /* Create Olthoi Girth (40686) for ContainTreasure */
+     , (41538, 9, 22157,  0, 0, 0, False) /* Create Frost Jo (22157) for ContainTreasure */
+     , (41538, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (41538, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (41538, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */
+     , (41538, 9, 30949,  0, 0, 0, False) /* Create Diforsa Sleeves (30949) for ContainTreasure */
+     , (41538, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */;

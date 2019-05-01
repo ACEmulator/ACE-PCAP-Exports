@@ -58,16 +58,16 @@ VALUES (22077,   1,    10, 0, 0, 275) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22077, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
-     , (22077, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (22077, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */
-     , (22077, 9,   273, 882, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (22077, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (22077, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
-     , (22077, 9,  3698,  1, 0, 0, False) /* Create White Jewel (3698) for ContainTreasure */
-     , (22077, 9,  5680,  0, 0, 0, False) /* Create Torn Journal (5680) for ContainTreasure */
      , (22077, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (22077, 9,   273, 882, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (22077, 9,  5680,  0, 0, 0, False) /* Create Torn Journal (5680) for ContainTreasure */
+     , (22077, 9, 49283,  0, 0, 0, False) /* Create Acid K'nath Essence (80) (49283) for ContainTreasure */
      , (22077, 9, 31810,  0, 0, 0, False) /* Create Frost Compound Crossbow (31810) for ContainTreasure */
-     , (22077, 9, 49283,  0, 0, 0, False) /* Create Acid K'nath Essence (80) (49283) for ContainTreasure */;
+     , (22077, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (22077, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (22077, 9,  3698,  1, 0, 0, False) /* Create White Jewel (3698) for ContainTreasure */
+     , (22077, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */
+     , (22077, 9,   128,  0, 0, 0, False) /* Create Qafiya (128) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22077, 67113145, 0, 0);

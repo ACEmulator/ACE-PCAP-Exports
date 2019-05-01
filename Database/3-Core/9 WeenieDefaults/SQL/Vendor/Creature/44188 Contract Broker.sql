@@ -77,7 +77,17 @@ VALUES (44188,   1,    10, 0, 0, 228) /* MaxHealth */
      , (44188,   5,    10, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44188, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+VALUES (44188, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
+     , (44188, 4, 44170, -1, 0, 0, False) /* Create  (44170) for Shop */
+     , (44188, 4, 44151, -1, 0, 0, False) /* Create  (44151) for Shop */
+     , (44188, 4, 44165, -1, 0, 0, False) /* Create  (44165) for Shop */
+     , (44188, 4, 44166, -1, 0, 0, False) /* Create  (44166) for Shop */
+     , (44188, 4, 44176, -1, 0, 0, False) /* Create  (44176) for Shop */
+     , (44188, 4, 44177, -1, 0, 0, False) /* Create  (44177) for Shop */
+     , (44188, 4, 44185, -1, 0, 0, False) /* Create  (44185) for Shop */
+     , (44188, 4, 44183, -1, 0, 0, False) /* Create  (44183) for Shop */
+     , (44188, 4, 44163, -1, 0, 0, False) /* Create  (44163) for Shop */
+     , (44188, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (44188, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (44188, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (44188, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
@@ -86,17 +96,7 @@ VALUES (44188, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (44188, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (44188, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (44188, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (44188, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (44188, 4, 44151, -1, 0, 0, False) /* Create  (44151) for Shop */
-     , (44188, 4, 44163, -1, 0, 0, False) /* Create  (44163) for Shop */
-     , (44188, 4, 44165, -1, 0, 0, False) /* Create  (44165) for Shop */
-     , (44188, 4, 44166, -1, 0, 0, False) /* Create  (44166) for Shop */
-     , (44188, 4, 44170, -1, 0, 0, False) /* Create  (44170) for Shop */
-     , (44188, 4, 44176, -1, 0, 0, False) /* Create  (44176) for Shop */
-     , (44188, 4, 44177, -1, 0, 0, False) /* Create  (44177) for Shop */
-     , (44188, 4, 44183, -1, 0, 0, False) /* Create  (44183) for Shop */
-     , (44188, 4, 44185, -1, 0, 0, False) /* Create  (44185) for Shop */
-     , (44188, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */;
+     , (44188, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44188, 67109556, 0, 24)

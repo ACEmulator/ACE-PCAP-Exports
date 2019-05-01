@@ -60,11 +60,11 @@ VALUES (51357,   1,    10, 0, 0, 1900) /* MaxHealth */
      , (51357,   5,    10, 0, 0, 1410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51357, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
-     , (51357, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (51357, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
-     , (51357, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
-     , (51357, 9, 29245,  0, 0, 0, False) /* Create Acid Crossbow (29245) for ContainTreasure */
+VALUES (51357, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (51357, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
      , (51357, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (51357, 9, 37189,  0, 0, 0, False) /* Create Olthoi Celdon Gauntlets (37189) for ContainTreasure */
+     , (51357, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (51357, 9, 29245,  0, 0, 0, False) /* Create Acid Crossbow (29245) for ContainTreasure */
+     , (51357, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
      , (51357, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */;

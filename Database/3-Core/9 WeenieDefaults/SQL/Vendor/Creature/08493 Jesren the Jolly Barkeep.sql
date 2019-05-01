@@ -77,32 +77,32 @@ VALUES (8493,   1,    10, 0, 0, 160) /* MaxHealth */
      , (8493,   5,    10, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8493, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (8493, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
-     , (8493, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (8493, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (8493, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (8493, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
-     , (8493, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (8493, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
+VALUES (8493, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (8493, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (8493, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
+     , (8493, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (8493, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
+     , (8493, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
+     , (8493, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (8493, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
+     , (8493, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
+     , (8493, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (8493, 4,  7878, -1, 0, 0, False) /* Create Sausage (7878) for Shop */
+     , (8493, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (8493, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (8493, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (8493, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
+     , (8493, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (8493, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (8493, 4,  8557, -1, 0, 0, False) /* Create  (8557) for Shop */
+     , (8493, 4,  8558, -1, 0, 0, False) /* Create  (8558) for Shop */
+     , (8493, 4,  8556, -1, 0, 0, False) /* Create  (8556) for Shop */
+     , (8493, 4, 27792, -1, 0, 0, False) /* Create  (27792) for Shop */
      , (8493, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (8493, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (8493, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (8493, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
-     , (8493, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
-     , (8493, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
-     , (8493, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (8493, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
-     , (8493, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (8493, 4,  7878, -1, 0, 0, False) /* Create Sausage (7878) for Shop */
-     , (8493, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (8493, 4,  8556, -1, 0, 0, False) /* Create  (8556) for Shop */
-     , (8493, 4,  8557, -1, 0, 0, False) /* Create  (8557) for Shop */
-     , (8493, 4,  8558, -1, 0, 0, False) /* Create  (8558) for Shop */
-     , (8493, 4, 27792, -1, 0, 0, False) /* Create  (27792) for Shop */;
+     , (8493, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8493, 67109558, 0, 24)

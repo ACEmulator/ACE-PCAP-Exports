@@ -59,16 +59,16 @@ VALUES (2571,   1,    10, 0, 0, 60) /* MaxHealth */
      , (2571,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2571, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
-     , (2571, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+VALUES (2571, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
+     , (2571, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2571, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
      , (2571, 9,   273, 47, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (2571, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */
+     , (2571, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (2571, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (2571, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (2571, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (2571, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (2571, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
      , (2571, 9,  2762,  0, 0, 0, False) /* Create Scroll of Acid Bane II (2762) for ContainTreasure */
-     , (2571, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */
-     , (2571, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (2571, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
-     , (2571, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
-     , (2571, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (2571, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
-     , (2571, 9, 31222,  0, 0, 0, False) /* Create K'nath Key (31222) for ContainTreasure */;
+     , (2571, 9,  5789,  1, 0, 0, False) /* Create Brown Lump (5789) for ContainTreasure */;

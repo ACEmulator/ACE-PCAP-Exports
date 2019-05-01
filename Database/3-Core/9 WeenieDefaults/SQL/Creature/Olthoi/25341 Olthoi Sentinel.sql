@@ -62,40 +62,40 @@ VALUES (25341,   1,    10, 0, 0, 3000) /* MaxHealth */
      , (25341,   5,    10, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25341, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
-     , (25341, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
-     , (25341, 9,   110,  0, 0, 0, False) /* Create Platemail Tassets (110) for ContainTreasure */
-     , (25341, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (25341, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
-     , (25341, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (25341, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (25341, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
-     , (25341, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (25341, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
-     , (25341, 9,  3814,  0, 0, 0, False) /* Create Acid Kasrullah (3814) for ContainTreasure */
-     , (25341, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
-     , (25341, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
-     , (25341, 9, 20425,  0, 0, 0, False) /* Create Scroll of Fortified Lock (20425) for ContainTreasure */
-     , (25341, 9, 20429,  0, 0, 0, False) /* Create Scroll of Vagabond's Gift (20429) for ContainTreasure */
-     , (25341, 9, 20485,  0, 0, 0, False) /* Create Scroll of Archer's Gift (20485) for ContainTreasure */
-     , (25341, 9, 20502,  0, 0, 0, False) /* Create Scroll of Jibril's Blessing (20502) for ContainTreasure */
+VALUES (25341, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
      , (25341, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
      , (25341, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (25341, 9, 27219,  0, 0, 0, False) /* Create Chiran Sandals (27219) for ContainTreasure */
-     , (25341, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
-     , (25341, 9, 30609,  0, 0, 0, False) /* Create Frost Bastone (30609) for ContainTreasure */
-     , (25341, 9, 30951,  0, 0, 0, False) /* Create Alduressa Gauntlets (30951) for ContainTreasure */
-     , (25341, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */
-     , (25341, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
-     , (25341, 9, 31819,  0, 0, 0, False) /* Create Staff (31819) for ContainTreasure */
      , (25341, 9, 41052,  0, 0, 0, False) /* Create Greataxe (41052) for ContainTreasure */
-     , (25341, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
-     , (25341, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
      , (25341, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
-     , (25341, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */
-     , (25341, 9, 43829,  0, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for ContainTreasure */
+     , (25341, 9, 30951,  0, 0, 0, False) /* Create Alduressa Gauntlets (30951) for ContainTreasure */
+     , (25341, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (25341, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (25341, 9, 30609,  0, 0, 0, False) /* Create Frost Bastone (30609) for ContainTreasure */
+     , (25341, 9, 20429,  0, 0, 0, False) /* Create Scroll of Vagabond's Gift (20429) for ContainTreasure */
+     , (25341, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (25341, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (25341, 9, 49313,  0, 0, 0, False) /* Create Acid Wisp Essence (125) (49313) for ContainTreasure */
-     , (25341, 9, 49361,  0, 0, 0, False) /* Create Frost Moar Essence (100) (49361) for ContainTreasure */;
+     , (25341, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
+     , (25341, 9,  3814,  0, 0, 0, False) /* Create Acid Kasrullah (3814) for ContainTreasure */
+     , (25341, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (25341, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
+     , (25341, 9, 20485,  0, 0, 0, False) /* Create Scroll of Archer's Gift (20485) for ContainTreasure */
+     , (25341, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
+     , (25341, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (25341, 9, 49361,  0, 0, 0, False) /* Create Frost Moar Essence (100) (49361) for ContainTreasure */
+     , (25341, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (25341, 9,   110,  0, 0, 0, False) /* Create Platemail Tassets (110) for ContainTreasure */
+     , (25341, 9, 20502,  0, 0, 0, False) /* Create Scroll of Jibril's Blessing (20502) for ContainTreasure */
+     , (25341, 9, 43829,  0, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for ContainTreasure */
+     , (25341, 9, 31819,  0, 0, 0, False) /* Create Staff (31819) for ContainTreasure */
+     , (25341, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
+     , (25341, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (25341, 9, 27219,  0, 0, 0, False) /* Create Chiran Sandals (27219) for ContainTreasure */
+     , (25341, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (25341, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */
+     , (25341, 9, 20425,  0, 0, 0, False) /* Create Scroll of Fortified Lock (20425) for ContainTreasure */
+     , (25341, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (25341, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25341, 67114505, 0, 0);

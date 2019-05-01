@@ -52,11 +52,11 @@ VALUES (29469,   1,    10, 0, 0, 495) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29469, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
-     , (29469, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (29469, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */
      , (29469, 9, 28618,  0, 0, 0, False) /* Create Diforsa Helm (28618) for ContainTreasure */
+     , (29469, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
      , (29469, 9, 29479,  0, 0, 0, False) /* Create Prison Warden's Orders (29479) for ContainTreasure */
-     , (29469, 9, 29480,  0, 0, 0, False) /* Create Prison Warden's Key (29480) for ContainTreasure */
-     , (29469, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */;
+     , (29469, 9, 29480,  0, 0, 0, False) /* Create Prison Warden's Key (29480) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29469, 67115534, 0, 0);

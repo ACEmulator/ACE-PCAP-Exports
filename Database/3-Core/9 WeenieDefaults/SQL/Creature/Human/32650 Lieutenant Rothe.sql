@@ -74,8 +74,8 @@ VALUES (32650,   1,    10, 0, 0, 235) /* MaxHealth */
      , (32650,   5,    10, 0, 0, 145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32650, 2, 31288,  1, 0, 0, False) /* Create Blade of the Realm (31288) for Wield */
-     , (32650, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */;
+VALUES (32650, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (32650, 2, 31288,  1, 0, 0, False) /* Create Blade of the Realm (31288) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32650, 67109562, 0, 24)

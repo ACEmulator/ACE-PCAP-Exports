@@ -82,24 +82,24 @@ VALUES (4554, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (4554, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (4554, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (4554, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (4554, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
-     , (4554, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (4554, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
-     , (4554, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (4554, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (4554, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
-     , (4554, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (4554, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
-     , (4554, 4,  9124, -1, 0, 0, False) /* Create  (9124) for Shop */
      , (4554, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
-     , (4554, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
-     , (4554, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
      , (4554, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (4554, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (4554, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
      , (4554, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */
+     , (4554, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
+     , (4554, 4,  9124, -1, 0, 0, False) /* Create  (9124) for Shop */
+     , (4554, 4, 27851, -1, 0, 0, False) /* Create  (27851) for Shop */
+     , (4554, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
+     , (4554, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
+     , (4554, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
+     , (4554, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
+     , (4554, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
+     , (4554, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
      , (4554, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (4554, 4, 27851, -1, 0, 0, False) /* Create  (27851) for Shop */;
+     , (4554, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (4554, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
+     , (4554, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4554, 67109967, 92, 4)

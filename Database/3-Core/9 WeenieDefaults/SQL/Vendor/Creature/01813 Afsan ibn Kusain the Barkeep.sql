@@ -77,16 +77,16 @@ VALUES (1813,   1,    10, 0, 0, 145) /* MaxHealth */
      , (1813,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1813, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (1813, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (1813, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
-     , (1813, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
+VALUES (1813, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
      , (1813, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (1813, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (1813, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (1813, 4,  4209, -1, 0, 0, False) /* Create Dungeon Binar Directions (4209) for Shop */
+     , (1813, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
+     , (1813, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
+     , (1813, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (1813, 4,  4714, -1, 0, 0, False) /* Create Chicken Kebab (4714) for Shop */
      , (1813, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
+     , (1813, 4,  4209, -1, 0, 0, False) /* Create Dungeon Binar Directions (4209) for Shop */
      , (1813, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
      , (1813, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
 

@@ -49,9 +49,9 @@ VALUES (8815,   1,    10, 0, 0, 175) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8815, 2, 47673,  1, 0, 0, False) /* Create Flaming Tachi (47673) for Wield */
+     , (8815, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
      , (8815, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (8815, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
-     , (8815, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */;
+     , (8815, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8815, 67111665, 0, 0);

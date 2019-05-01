@@ -78,13 +78,13 @@ VALUES (42429,   1,    10, 0, 0, 495) /* MaxHealth */
      , (42429,   5,    10, 0, 0, 700) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42429, 4, 41956, -1, 0, 0, False) /* Create Armor Tailoring Kit (41956) for Shop */
-     , (42429, 4, 42622, -1, 0, 0, False) /* Create Armor Main Reduction Tool (42622) for Shop */
-     , (42429, 4, 42724, -1, 0, 0, False) /* Create Armor Layering Tool (Top) (42724) for Shop */
+VALUES (42429, 4, 42724, -1, 0, 0, False) /* Create Armor Layering Tool (Top) (42724) for Shop */
      , (42429, 4, 42726, -1, 0, 0, False) /* Create Armor Layering Tool (Bottom) (42726) for Shop */
-     , (42429, 4, 44879, -1, 0, 0, False) /* Create Armor Lower Reduction Tool (44879) for Shop */
+     , (42429, 4, 41956, -1, 0, 0, False) /* Create Armor Tailoring Kit (41956) for Shop */
+     , (42429, 4, 51445, -1, 0, 0, False) /* Create Weapon Tailoring Kit (51445) for Shop */
+     , (42429, 4, 42622, -1, 0, 0, False) /* Create Armor Main Reduction Tool (42622) for Shop */
      , (42429, 4, 44880, -1, 0, 0, False) /* Create Armor Middle Reduction Tool (44880) for Shop */
-     , (42429, 4, 51445, -1, 0, 0, False) /* Create Weapon Tailoring Kit (51445) for Shop */;
+     , (42429, 4, 44879, -1, 0, 0, False) /* Create Armor Lower Reduction Tool (44879) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42429, 67109557, 0, 24)

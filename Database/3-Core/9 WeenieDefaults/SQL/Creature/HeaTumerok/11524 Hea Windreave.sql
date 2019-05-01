@@ -61,18 +61,18 @@ VALUES (11524,   1,    10, 0, 0, 163) /* MaxHealth */
      , (11524,   5,    10, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11524, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+VALUES (11524, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */
      , (11524, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */
-     , (11524, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (11524, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (11524, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
-     , (11524, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
-     , (11524, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (11524, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
-     , (11524, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */
+     , (11524, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (11524, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (11524, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+     , (11524, 2,   300,  1, 0, 0, False) /* Create Arrow (300) for Wield */
+     , (11524, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (11524, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
-     , (11524, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (11524, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */;
+     , (11524, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */
+     , (11524, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11524, 67116625, 105, 48)

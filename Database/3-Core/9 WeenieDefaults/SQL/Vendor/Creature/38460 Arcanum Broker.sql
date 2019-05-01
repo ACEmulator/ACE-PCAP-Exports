@@ -77,34 +77,34 @@ VALUES (38460,   1,    10, 0, 0, 341) /* MaxHealth */
      , (38460,   5,    10, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38460, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
-     , (38460, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+VALUES (38460, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (38460, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (38460, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (38460, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
      , (38460, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
-     , (38460, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
-     , (38460, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (38460, 4,  7374, -1, 0, 0, False) /* Create Trade Note (15,000) (7374) for Shop */
      , (38460, 4,  7375, -1, 0, 0, False) /* Create Trade Note (20,000) (7375) for Shop */
      , (38460, 4,  7376, -1, 0, 0, False) /* Create Trade Note (25,000) (7376) for Shop */
+     , (38460, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (38460, 4,  7377, -1, 0, 0, False) /* Create Trade Note (75,000) (7377) for Shop */
+     , (38460, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (38460, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (38460, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (38460, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (38460, 4, 27220, -1, 0, 0, False) /* Create Lorica Boots (27220) for Shop */
-     , (38460, 4, 27228, -1, 0, 0, False) /* Create Nariyid Gauntlets (27228) for Shop */
      , (38460, 4, 29240, -1, 0, 0, False) /* Create Electric Bow (29240) for Shop */
-     , (38460, 4, 29247, -1, 0, 0, False) /* Create Electric Crossbow (29247) for Shop */
-     , (38460, 4, 29249, -1, 0, 0, False) /* Create Frost Crossbow (29249) for Shop */
-     , (38460, 4, 31777, -1, 0, 0, False) /* Create Fire Board with Nail (31777) for Shop */
-     , (38460, 4, 31782, -1, 0, 0, False) /* Create Fire Spine Glaive (31782) for Shop */
-     , (38460, 4, 31805, -1, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for Shop */
-     , (38460, 4, 40680, -1, 0, 0, False) /* Create Olthoi Helm (40680) for Shop */
-     , (38460, 4, 40761, -1, 0, 0, False) /* Create Acid Nodachi (40761) for Shop */
-     , (38460, 4, 41486, -1, 0, 0, False) /* Create Puzzle Box (41486) for Shop */
+     , (38460, 4, 27220, -1, 0, 0, False) /* Create Lorica Boots (27220) for Shop */
+     , (38460, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
      , (38460, 4, 45113, -1, 0, 0, False) /* Create Hammer (45113) for Shop */
-     , (38460, 4, 49216, -1, 0, 0, False) /* Create Acid Skeleton Bushi Essence (125) (49216) for Shop */;
+     , (38460, 4, 49216, -1, 0, 0, False) /* Create Acid Skeleton Bushi Essence (125) (49216) for Shop */
+     , (38460, 4, 29249, -1, 0, 0, False) /* Create Frost Crossbow (29249) for Shop */
+     , (38460, 4, 40761, -1, 0, 0, False) /* Create Acid Nodachi (40761) for Shop */
+     , (38460, 4, 27228, -1, 0, 0, False) /* Create Nariyid Gauntlets (27228) for Shop */
+     , (38460, 4, 31782, -1, 0, 0, False) /* Create Fire Spine Glaive (31782) for Shop */
+     , (38460, 4, 31777, -1, 0, 0, False) /* Create Fire Board with Nail (31777) for Shop */
+     , (38460, 4, 41486, -1, 0, 0, False) /* Create Puzzle Box (41486) for Shop */
+     , (38460, 4, 40680, -1, 0, 0, False) /* Create Olthoi Helm (40680) for Shop */
+     , (38460, 4, 31805, -1, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for Shop */
+     , (38460, 4, 29247, -1, 0, 0, False) /* Create Electric Crossbow (29247) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38460, 67109552, 0, 24)

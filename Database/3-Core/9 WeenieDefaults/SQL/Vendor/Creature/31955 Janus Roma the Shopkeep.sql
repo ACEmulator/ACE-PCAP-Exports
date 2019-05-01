@@ -77,44 +77,44 @@ VALUES (31955,   1,    10, 0, 0, 73) /* MaxHealth */
      , (31955,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31955, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (31955, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+VALUES (31955, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
+     , (31955, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
+     , (31955, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */
+     , (31955, 4, 41423, -1, 0, 0, False) /* Create Medal Mold (41423) for Shop */
+     , (31955, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
+     , (31955, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
+     , (31955, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
+     , (31955, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */
      , (31955, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (31955, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (31955, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (31955, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (31955, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
-     , (31955, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
-     , (31955, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
-     , (31955, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (31955, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (31955, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (31955, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (31955, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (31955, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (31955, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
-     , (31955, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
-     , (31955, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (31955, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (31955, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (31955, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
-     , (31955, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (31955, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
      , (31955, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (31955, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
      , (31955, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (31955, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
-     , (31955, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
+     , (31955, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
      , (31955, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
+     , (31955, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (31955, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (31955, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (31955, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (31955, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
+     , (31955, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
+     , (31955, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
+     , (31955, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (31955, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
+     , (31955, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
+     , (31955, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (31955, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (31955, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
+     , (31955, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (31955, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (31955, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (31955, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (31955, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (31955, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
-     , (31955, 4, 41396, -1, 0, 0, False) /* Create Handle Mold (41396) for Shop */
-     , (31955, 4, 41418, -1, 0, 0, False) /* Create Leather Strap (41418) for Shop */
-     , (31955, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */
-     , (31955, 4, 41420, -1, 0, 0, False) /* Create Hammer (41420) for Shop */
-     , (31955, 4, 41423, -1, 0, 0, False) /* Create Medal Mold (41423) for Shop */
-     , (31955, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
-     , (31955, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
-     , (31955, 4, 41744, -1, 0, 0, False) /* Create A Comprehensive Guide to Gearcrafting (41744) for Shop */;
+     , (31955, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (31955, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
+     , (31955, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31955, 67109964, 92, 4)

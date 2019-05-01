@@ -79,10 +79,10 @@ VALUES (696,   1,    10, 0, 0, 50) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (696, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (696, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (696, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (696, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (696, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (696, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (696, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (696, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (696, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (696, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

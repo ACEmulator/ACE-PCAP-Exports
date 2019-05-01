@@ -44,5 +44,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (43071, 8000, 3360653511) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43071, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (43071, 2, 40910,  1, 0, 0, False) /* Create Dericost Blade (40910) for Wield */;
+VALUES (43071, 2, 40910,  1, 0, 0, False) /* Create Dericost Blade (40910) for Wield */
+     , (43071, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */;

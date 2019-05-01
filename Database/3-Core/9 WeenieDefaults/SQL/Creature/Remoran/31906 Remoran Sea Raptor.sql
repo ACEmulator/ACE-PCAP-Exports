@@ -57,12 +57,12 @@ VALUES (31906,   1,    10, 0, 0, 5510) /* MaxHealth */
      , (31906,   5,    10, 0, 0, 3020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31906, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (31906, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (31906, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (31906, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+VALUES (31906, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (31906, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (31906, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */;
+     , (31906, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */
+     , (31906, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (31906, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (31906, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31906, 67116732, 0, 0);

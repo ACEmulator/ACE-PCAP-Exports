@@ -66,17 +66,17 @@ VALUES (37101,   1,    10, 0, 0, 200) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37101, 2, 22793,  1, 0, 0, False) /* Create Bandit Rapier (22793) for Wield */
      , (37101, 2, 22796,  1, 0, 0, False) /* Create Bandit Short Sword (22796) for Wield */
-     , (37101, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
-     , (37101, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (37101, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
-     , (37101, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (37101, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
-     , (37101, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
-     , (37101, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
      , (37101, 9, 28937,  0, 0, 0, False) /* Create Scroll of Arcanum Salvaging V (28937) for ContainTreasure */
-     , (37101, 9, 37091,  0, 0, 0, False) /* Create Forager Captain's Resonator (37091) for ContainTreasure */
-     , (37101, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (37101, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (37101, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
+     , (37101, 9, 37091,  0, 0, 0, False) /* Create Forager Captain's Resonator (37091) for ContainTreasure */
      , (37101, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */
+     , (37101, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
      , (37101, 9, 49282,  0, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for ContainTreasure */
-     , (37101, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */;
+     , (37101, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (37101, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (37101, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (37101, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (37101, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */
+     , (37101, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+     , (37101, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */;

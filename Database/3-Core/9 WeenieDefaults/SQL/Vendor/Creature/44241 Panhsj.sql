@@ -69,16 +69,16 @@ VALUES (44241,   1,    10, 0, 0, 331) /* MaxHealth */
      , (44241,   5,    10, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44241, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
-     , (44241, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
-     , (44241, 4, 41919, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41919) for Shop */
+VALUES (44241, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
      , (44241, 4, 44211, -1, 0, 0, False) /* Create  (44211) for Shop */
-     , (44241, 4, 44281, -1, 0, 0, False) /* Create Bracelet of Strength (44281) for Shop */
+     , (44241, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
+     , (44241, 4, 41919, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41919) for Shop */
      , (44241, 4, 44282, -1, 0, 0, False) /* Create Bracelet of Coordination (44282) for Shop */
      , (44241, 4, 44283, -1, 0, 0, False) /* Create  (44283) for Shop */
      , (44241, 4, 44284, -1, 0, 0, False) /* Create Bracelet of Focus (44284) for Shop */
      , (44241, 4, 44285, -1, 0, 0, False) /* Create Bracelet of Quickness (44285) for Shop */
      , (44241, 4, 44286, -1, 0, 0, False) /* Create Bracelet of Self (44286) for Shop */
+     , (44241, 4, 44281, -1, 0, 0, False) /* Create Bracelet of Strength (44281) for Shop */
      , (44241, 4, 44312, -1, 0, 0, False) /* Create Scroll of Lost City of Neftet Recall (44312) for Shop */
      , (44241, 4, 47055, -1, 0, 0, False) /* Create Spirit of Izexi Gem (47055) for Shop */
      , (44241, 4, 47156, -1, 0, 0, False) /* Create A'nekshay Gem of Knowledge (47156) for Shop */

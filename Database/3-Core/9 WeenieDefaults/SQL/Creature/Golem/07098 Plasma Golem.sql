@@ -57,19 +57,19 @@ VALUES (7098,   1,    10, 0, 0, 465) /* MaxHealth */
      , (7098,   5,    10, 0, 0, 435) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7098, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (7098, 9,   273, 2081, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7098, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (7098, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
+VALUES (7098, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */
+     , (7098, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (7098, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (7098, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (7098, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7098, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
+     , (7098, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (7098, 9,  4190,  0, 0, 0, False) /* Create Cestus (4190) for ContainTreasure */
+     , (7098, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (7098, 9,   273, 2081, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7098, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
+     , (7098, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (7098, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (7098, 9,  3686,  0, 0, 0, False) /* Create Black Rock (3686) for ContainTreasure */
      , (7098, 9,  3823,  0, 0, 0, False) /* Create Lightning Ken (3823) for ContainTreasure */
-     , (7098, 9,  4190,  0, 0, 0, False) /* Create Cestus (4190) for ContainTreasure */
-     , (7098, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
-     , (7098, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
-     , (7098, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (7098, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (7098, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (7098, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */
-     , (7098, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */;
+     , (7098, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */;

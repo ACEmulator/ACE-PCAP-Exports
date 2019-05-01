@@ -52,8 +52,8 @@ VALUES (34974,   1,    10, 0, 0, 1834) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34974, 2, 48102,  1, 0, 0, False) /* Create Khopesh (48102) for Wield */
-     , (34974, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
      , (34974, 9, 20494,  0, 0, 0, False) /* Create Scroll of Unflinching Persistence (20494) for ContainTreasure */
+     , (34974, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
      , (34974, 9, 34963,  0, 0, 0, False) /* Create Misshapen Bone Fragment (34963) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

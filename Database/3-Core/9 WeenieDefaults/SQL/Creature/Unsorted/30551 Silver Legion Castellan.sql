@@ -47,10 +47,10 @@ VALUES (30551, 8000, 3704572413) /* PCAPRecordedObjectIID */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30551, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
      , (30551, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
-     , (30551, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (30551, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
-     , (30551, 9, 29372,  1, 0, 0, False) /* Create Royal Blood (29372) for ContainTreasure */
-     , (30551, 9, 43024,  0, 0, 0, False) /* Create Silver Knight Medallion  (43024) for ContainTreasure */;
+     , (30551, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (30551, 9, 43024,  0, 0, 0, False) /* Create Silver Knight Medallion  (43024) for ContainTreasure */
+     , (30551, 9, 29372,  1, 0, 0, False) /* Create Royal Blood (29372) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30551, 67115468, 0, 0);

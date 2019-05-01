@@ -75,8 +75,8 @@ VALUES (35904,   1,    10, 0, 0, 103) /* MaxHealth */
      , (35904,   5,    10, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35904, 2, 25547,  1, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */
-     , (35904, 2, 35913,  1, 0, 0, False) /* Create Paradox-touched Olthoi Axe (35913) for Wield */;
+VALUES (35904, 2, 35913,  1, 0, 0, False) /* Create Paradox-touched Olthoi Axe (35913) for Wield */
+     , (35904, 2, 25547,  1, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35904, 67109567, 32, 8)

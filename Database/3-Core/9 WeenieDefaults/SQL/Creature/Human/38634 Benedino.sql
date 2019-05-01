@@ -56,11 +56,11 @@ VALUES (38634,   1,    10, 0, 0, 2000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38634, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+     , (38634, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
      , (38634, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
      , (38634, 9, 31762,  0, 0, 0, False) /* Create Flaming Dericost Blade (31762) for ContainTreasure */
      , (38634, 9, 38648,  0, 0, 0, False) /* Create Lens of the Filinuvekta (38648) for ContainTreasure */
-     , (38634, 9, 38649,  0, 0, 0, False) /* Create Benedino's Letter (38649) for ContainTreasure */
-     , (38634, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */;
+     , (38634, 9, 38649,  0, 0, 0, False) /* Create Benedino's Letter (38649) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38634, 67110063, 32, 8)

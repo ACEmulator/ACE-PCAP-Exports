@@ -80,35 +80,31 @@ VALUES (678,   1,    10, 0, 0, 95) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (678, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (678, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
-     , (678, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
-     , (678, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (678, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
-     , (678, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
-     , (678, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
-     , (678, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
-     , (678, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
-     , (678, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
-     , (678, 4,    76, -1, 0, 0, False) /* Create Qafiya (76) for Shop */
-     , (678, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (678, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
-     , (678, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
-     , (678, 4,    87, -1, 0, 0, False) /* Create Platemail Pauldrons (87) for Shop */
-     , (678, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
-     , (678, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (678, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
-     , (678, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (678, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
-     , (678, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces (114) for Shop */
-     , (678, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (678, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
-     , (678, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (678, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
      , (678, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
      , (678, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (678, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
      , (678, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (678, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (678, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (678, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
      , (678, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (678, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (678, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (678, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (678, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (678, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
+     , (678, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
+     , (678, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
+     , (678, 4,    76, -1, 0, 0, False) /* Create Qafiya (76) for Shop */
+     , (678, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */
+     , (678, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
+     , (678, 4,    61, -1, 0, 0, False) /* Create Platemail Girth (61) for Shop */
+     , (678, 4,    66, -1, 0, 0, False) /* Create Platemail Greaves (66) for Shop */
+     , (678, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
+     , (678, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
+     , (678, 4,    87, -1, 0, 0, False) /* Create Platemail Pauldrons (87) for Shop */
+     , (678, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces (114) for Shop */
+     , (678, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
+     , (678, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
+     , (678, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
      , (678, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (678, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (678, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -116,16 +112,20 @@ VALUES (678, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (678, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (678, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (678, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (678, 4,  8488, -1, 0, 0, False) /* Create Armet (8488) for Shop */
-     , (678, 4,  8489, -1, 0, 0, False) /* Create Heaume (8489) for Shop */
      , (678, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (678, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (678, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (678, 4, 25639, -1, 0, 0, False) /* Create Leather Jerkin (25639) for Shop */
+     , (678, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
      , (678, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
+     , (678, 4, 25639, -1, 0, 0, False) /* Create Leather Jerkin (25639) for Shop */
+     , (678, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
+     , (678, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (678, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
+     , (678, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
+     , (678, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
+     , (678, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
      , (678, 4, 25651, -1, 0, 0, False) /* Create Leather Sleeves (25651) for Shop */
      , (678, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
-     , (678, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
      , (678, 4, 44801, -1, 0, 0, False) /* Create Suikan Over-robe (44801) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -62,10 +62,10 @@ VALUES (31397,   1,    10, 0, 0, 1755) /* MaxHealth */
      , (31397,   5,    10, 0, 0, 1710) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31397, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+VALUES (31397, 9, 31377,  1, 0, 0, False) /* Create Twilight Fragment (31377) for ContainTreasure */
      , (31397, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */
-     , (31397, 9, 20554,  0, 0, 0, False) /* Create Scroll of Harlune's Blessing (20554) for ContainTreasure */
-     , (31397, 9, 31377,  1, 0, 0, False) /* Create Twilight Fragment (31377) for ContainTreasure */;
+     , (31397, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (31397, 9, 20554,  0, 0, 0, False) /* Create Scroll of Harlune's Blessing (20554) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31397, 67115143, 0, 0);

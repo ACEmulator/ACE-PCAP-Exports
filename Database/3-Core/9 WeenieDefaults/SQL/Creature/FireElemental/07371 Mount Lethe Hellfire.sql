@@ -63,12 +63,12 @@ VALUES (7371,   1,    10, 0, 0, 575) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7371, 2,  7799,  1, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
-     , (7371, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (7371, 9,   273, 2577, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (7371, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (7371, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (7371, 9,  7420,  1, 0, 0, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
      , (7371, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (7371, 9,  7420,  1, 0, 0, False) /* Create Blue Fire Infusion (7420) for ContainTreasure */
+     , (7371, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (7371, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (7371, 9, 20509,  0, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self VII (20509) for ContainTreasure */
-     , (7371, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (7371, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
+     , (7371, 9,   273, 2577, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7371, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (7371, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;

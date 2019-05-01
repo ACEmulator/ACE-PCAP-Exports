@@ -45,10 +45,10 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30684, 8000, 3360122907) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30684, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
+VALUES (30684, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
      , (30684, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */
-     , (30684, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
-     , (30684, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */;
+     , (30684, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
+     , (30684, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30684, 67114262, 0, 0);

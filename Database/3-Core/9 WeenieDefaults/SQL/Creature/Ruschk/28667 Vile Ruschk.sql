@@ -62,14 +62,14 @@ VALUES (28667,   1,    10, 0, 0, 305) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28667, 2, 48604,  1, 0, 0, False) /* Create Icy Club (48604) for Wield */
+     , (28667, 2, 48608,  1, 0, 0, False) /* Create Glacial Blade (48608) for Wield */
+     , (28667, 2, 48607,  1, 0, 0, False) /* Create Frigid Splinter (48607) for Wield */
      , (28667, 2, 48605,  1, 0, 0, False) /* Create Frozen Dagger (48605) for Wield */
      , (28667, 2, 48606,  1, 0, 0, False) /* Create Ice Shard (48606) for Wield */
-     , (28667, 2, 48607,  1, 0, 0, False) /* Create Frigid Splinter (48607) for Wield */
-     , (28667, 2, 48608,  1, 0, 0, False) /* Create Glacial Blade (48608) for Wield */
+     , (28667, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
      , (28667, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
-     , (28667, 9,   273, 978, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (28667, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (28667, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */;
+     , (28667, 9,   273, 978, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28667, 67115451, 0, 0);

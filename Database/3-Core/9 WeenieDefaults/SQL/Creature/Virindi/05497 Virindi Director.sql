@@ -57,36 +57,36 @@ VALUES (5497,   1,    10, 0, 0, 145) /* MaxHealth */
      , (5497,   5,    10, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5497, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
-     , (5497, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
-     , (5497, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
-     , (5497, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (5497, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (5497, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (5497, 9,   273, 114, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (5497, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (5497, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (5497, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (5497, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (5497, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (5497, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (5497, 9,  3696,  1, 0, 0, False) /* Create Blue Jewel (3696) for ContainTreasure */
-     , (5497, 9,  3821,  0, 0, 0, False) /* Create Frost Katar (3821) for ContainTreasure */
-     , (5497, 9,  3891,  0, 0, 0, False) /* Create Flaming Tachi (3891) for ContainTreasure */
-     , (5497, 9,  7604,  1, 0, 0, False) /* Create Yellow Jewel (7604) for ContainTreasure */
-     , (5497, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (5497, 9,  8154,  0, 0, 0, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
-     , (5497, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (5497, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (5497, 9, 20863,  1, 0, 0, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+VALUES (5497, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasure */
      , (5497, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (5497, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (5497, 9, 30578,  0, 0, 0, False) /* Create Frost Flamberge (30578) for ContainTreasure */
-     , (5497, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */
-     , (5497, 9, 41470,  1, 0, 0, False) /* Create Purple Jewel (41470) for ContainTreasure */
-     , (5497, 9, 46869,  0, 0, 0, False) /* Create Aura of Heartseeker Other IV (46869) for ContainTreasure */
+     , (5497, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (5497, 9,  3821,  0, 0, 0, False) /* Create Frost Katar (3821) for ContainTreasure */
+     , (5497, 9,   273, 114, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (5497, 9, 49458,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other III (49458) for ContainTreasure */
-     , (5497, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (5497, 9,  8154,  0, 0, 0, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
+     , (5497, 9, 46869,  0, 0, 0, False) /* Create Aura of Heartseeker Other IV (46869) for ContainTreasure */
+     , (5497, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (5497, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (5497, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (5497, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (5497, 9,  3696,  1, 0, 0, False) /* Create Blue Jewel (3696) for ContainTreasure */
+     , (5497, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (5497, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (5497, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (5497, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (5497, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (5497, 9, 20863,  1, 0, 0, False) /* Create Virindi Stamp (20863) for ContainTreasure */
+     , (5497, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (5497, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (5497, 9,  3891,  0, 0, 0, False) /* Create Flaming Tachi (3891) for ContainTreasure */
+     , (5497, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (5497, 9,  7604,  1, 0, 0, False) /* Create Yellow Jewel (7604) for ContainTreasure */
+     , (5497, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (5497, 9, 30578,  0, 0, 0, False) /* Create Frost Flamberge (30578) for ContainTreasure */
+     , (5497, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (5497, 9, 41470,  1, 0, 0, False) /* Create Purple Jewel (41470) for ContainTreasure */
+     , (5497, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (5497, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5497, 67111815, 0, 0);

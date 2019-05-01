@@ -77,21 +77,21 @@ VALUES (42802,   1,    10, 0, 0, 140) /* MaxHealth */
      , (42802,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42802, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
-     , (42802, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (42802, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (42802, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
-     , (42802, 4,  4726, -1, 0, 0, False) /* Create  (4726) for Shop */
-     , (42802, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
-     , (42802, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
-     , (42802, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+VALUES (42802, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (42802, 4,  5136, -1, 0, 0, False) /* Create  (5136) for Shop */
-     , (42802, 4,  5163, -1, 0, 0, False) /* Create Directions to the Sea Temple Catacombs (5163) for Shop */
+     , (42802, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (42802, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
+     , (42802, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (42802, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (42802, 4, 44391, -1, 0, 0, False) /* Create  (44391) for Shop */
-     , (42802, 4, 44392, -1, 0, 0, False) /* Create  (44392) for Shop */
-     , (42802, 4, 44395, -1, 0, 0, False) /* Create  (44395) for Shop */
+     , (42802, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (42802, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
+     , (42802, 4,  4726, -1, 0, 0, False) /* Create  (4726) for Shop */
+     , (42802, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
+     , (42802, 4,  5163, -1, 0, 0, False) /* Create Directions to the Sea Temple Catacombs (5163) for Shop */
      , (42802, 4, 44399, -1, 0, 0, False) /* Create  (44399) for Shop */
+     , (42802, 4, 44391, -1, 0, 0, False) /* Create  (44391) for Shop */
+     , (42802, 4, 44395, -1, 0, 0, False) /* Create  (44395) for Shop */
+     , (42802, 4, 44392, -1, 0, 0, False) /* Create  (44392) for Shop */
      , (42802, 4, 44655, -1, 0, 0, False) /* Create  (44655) for Shop */
      , (42802, 4, 48779, -1, 0, 0, False) /* Create  (48779) for Shop */
      , (42802, 4, 48780, -1, 0, 0, False) /* Create  (48780) for Shop */

@@ -61,9 +61,9 @@ VALUES (43485,   1,    10, 0, 0, 1520) /* MaxHealth */
      , (43485,   5,    10, 0, 0, 760) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43485, 9, 30188,  1, 0, 0, False) /* Create Observer's Crystal (30188) for ContainTreasure */
-     , (43485, 9, 43407,  1, 0, 0, False) /* Create Corruptor's Crystal (43407) for ContainTreasure */
-     , (43485, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */;
+VALUES (43485, 9, 43407,  1, 0, 0, False) /* Create Corruptor's Crystal (43407) for ContainTreasure */
+     , (43485, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+     , (43485, 9, 30188,  1, 0, 0, False) /* Create Observer's Crystal (30188) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43485, 67114266, 0, 0);

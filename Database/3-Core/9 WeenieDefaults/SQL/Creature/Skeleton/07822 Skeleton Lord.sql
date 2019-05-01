@@ -59,23 +59,23 @@ VALUES (7822,   1,    10, 0, 0, 108) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7822, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (7822, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (7822, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (7822, 2, 47423,  1, 0, 0, False) /* Create Acid Mace (47423) for Wield */
+     , (7822, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
      , (7822, 2, 47442,  1, 0, 0, False) /* Create Mace (47442) for Wield */
-     , (7822, 2, 47461,  1, 0, 0, False) /* Create Lightning Mace (47461) for Wield */
-     , (7822, 2, 47480,  1, 0, 0, False) /* Create Flaming Mace (47480) for Wield */
-     , (7822, 2, 47499,  1, 0, 0, False) /* Create Frost Mace (47499) for Wield */
-     , (7822, 2, 47619,  1, 0, 0, False) /* Create Acid Tachi (47619) for Wield */
+     , (7822, 2, 47690,  1, 0, 0, False) /* Create Frost Tachi (47690) for Wield */
+     , (7822, 2, 47785,  1, 0, 0, False) /* Create Frost Spear (47785) for Wield */
+     , (7822, 2, 47728,  1, 0, 0, False) /* Create Spear (47728) for Wield */
      , (7822, 2, 47638,  1, 0, 0, False) /* Create Tachi (47638) for Wield */
+     , (7822, 2, 47499,  1, 0, 0, False) /* Create Frost Mace (47499) for Wield */
+     , (7822, 2, 47747,  1, 0, 0, False) /* Create Lightning Spear (47747) for Wield */
+     , (7822, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (7822, 2, 47657,  1, 0, 0, False) /* Create Lightning Tachi (47657) for Wield */
      , (7822, 2, 47672,  1, 0, 0, False) /* Create Flaming Tachi (47672) for Wield */
-     , (7822, 2, 47690,  1, 0, 0, False) /* Create Frost Tachi (47690) for Wield */
+     , (7822, 2, 47480,  1, 0, 0, False) /* Create Flaming Mace (47480) for Wield */
      , (7822, 2, 47709,  1, 0, 0, False) /* Create Acid Spear (47709) for Wield */
-     , (7822, 2, 47728,  1, 0, 0, False) /* Create Spear (47728) for Wield */
-     , (7822, 2, 47747,  1, 0, 0, False) /* Create Lightning Spear (47747) for Wield */
-     , (7822, 2, 47766,  1, 0, 0, False) /* Create Flaming Spear (47766) for Wield */
-     , (7822, 2, 47785,  1, 0, 0, False) /* Create Frost Spear (47785) for Wield */;
+     , (7822, 2, 47619,  1, 0, 0, False) /* Create Acid Tachi (47619) for Wield */
+     , (7822, 2, 47461,  1, 0, 0, False) /* Create Lightning Mace (47461) for Wield */
+     , (7822, 2, 47766,  1, 0, 0, False) /* Create Flaming Spear (47766) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7822, 67116527, 0, 0);

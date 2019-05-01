@@ -62,9 +62,9 @@ VALUES (10802,   1,    10, 0, 0, 320) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10802, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (10802, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (10802, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
-     , (10802, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
      , (10802, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (10802, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (10802, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (10802, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (10802, 9, 21114,  0, 0, 0, False) /* Create Scroll of Martyr's Tenacity VI (21114) for ContainTreasure */
-     , (10802, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
+     , (10802, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */;

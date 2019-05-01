@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7276, 8000, 3701635833) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7276, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
-     , (7276, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */
+VALUES (7276, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */
+     , (7276, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
      , (7276, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (7276, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */;
+     , (7276, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */;

@@ -51,7 +51,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (23921, 8000, 1981034535) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23921, -1, 8978, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Nanto Portal Gem (8978) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+VALUES (23921, -1, 20646, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ust (20646) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (23921, -1, 23924, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Hangover Cure (23924) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (23921, -1, 13222, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Peppermint Stick (13222) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (23921, -1, 20646, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ust (20646) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (23921, -1, 23924, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Hangover Cure (23924) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (23921, -1, 8978, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Nanto Portal Gem (8978) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

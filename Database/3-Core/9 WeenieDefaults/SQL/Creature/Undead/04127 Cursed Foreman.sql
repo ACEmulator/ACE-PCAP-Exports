@@ -50,13 +50,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4127,   1,    10, 0, 0, 89) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4127, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */
-     , (4127, 2,  4185,  1, 0, 0, False) /* Create Acid Quarrel (4185) for Wield */
+VALUES (4127, 2, 23701,  1, 0, 0, False) /* Create Tachi (23701) for Wield */
+     , (4127, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */
      , (4127, 2, 23666,  1, 0, 0, False) /* Create Heavy Crossbow (23666) for Wield */
-     , (4127, 2, 23701,  1, 0, 0, False) /* Create Tachi (23701) for Wield */
-     , (4127, 9,   273, 60, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (4127, 2,  4185,  1, 0, 0, False) /* Create Acid Quarrel (4185) for Wield */
      , (4127, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (4127, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */;
+     , (4127, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (4127, 9,   273, 60, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4127, 67111664, 0, 0);

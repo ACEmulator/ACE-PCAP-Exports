@@ -45,8 +45,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29411, 8000, 3704572384) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29411, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
-     , (29411, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;
+VALUES (29411, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */
+     , (29411, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29411, 67115519, 0, 0);

@@ -64,24 +64,24 @@ VALUES (24482,   1,    10, 0, 0, 540) /* MaxHealth */
      , (24482,   5,    10, 0, 0, 455) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24482, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
-     , (24482, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+VALUES (24482, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
      , (24482, 9,   273, 2841, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (24482, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (24482, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (24482, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (24482, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (24482, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (24482, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (24482, 9, 11351,  0, 0, 0, False) /* Create Mud Golem Heart (11351) for ContainTreasure */
-     , (24482, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
-     , (24482, 9, 20607,  0, 0, 0, False) /* Create Scroll of Gift of Vitality (20607) for ContainTreasure */
+     , (24482, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (24482, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (24482, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (24482, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (24482, 9, 11351,  0, 0, 0, False) /* Create Mud Golem Heart (11351) for ContainTreasure */
+     , (24482, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (24482, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (24482, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (24482, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (24482, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (24482, 9, 20607,  0, 0, 0, False) /* Create Scroll of Gift of Vitality (20607) for ContainTreasure */
+     , (24482, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
      , (24482, 9, 31814,  0, 0, 0, False) /* Create Dark Blunt Slingshot (31814) for ContainTreasure */
      , (24482, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
-     , (24482, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
-     , (24482, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */;
+     , (24482, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (24482, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24482, 67112774, 0, 0);

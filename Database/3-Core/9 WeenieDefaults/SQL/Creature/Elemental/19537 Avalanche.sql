@@ -61,14 +61,14 @@ VALUES (19537,   1,    10, 0, 0, 780) /* MaxHealth */
      , (19537,   5,    10, 0, 0, 423) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19537, 9,   273, 162, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (19537, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (19537, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+VALUES (19537, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
      , (19537, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (19537, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
      , (19537, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (19537, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
-     , (19537, 9, 30616,  0, 0, 0, False) /* Create Arbalest (30616) for ContainTreasure */
+     , (19537, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (19537, 9,   273, 162, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (19537, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (19537, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
+     , (19537, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
+     , (19537, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
      , (19537, 9, 49355,  0, 0, 0, False) /* Create Fire Moar Essence (125) (49355) for ContainTreasure */
      , (19537, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;

@@ -75,8 +75,8 @@ VALUES (44261,   1,    10, 0, 0, 296) /* MaxHealth */
      , (44261,   5,    10, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44261, 2, 28498,  1, 0, 0, False) /* Create Noble Rapier (28498) for Wield */
-     , (44261, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;
+VALUES (44261, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
+     , (44261, 2, 28498,  1, 0, 0, False) /* Create Noble Rapier (28498) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44261, 67109553, 0, 24)

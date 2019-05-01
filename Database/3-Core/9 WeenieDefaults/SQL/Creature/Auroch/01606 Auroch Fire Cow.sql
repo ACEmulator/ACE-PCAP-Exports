@@ -60,21 +60,21 @@ VALUES (1606,   1,    10, 0, 0, 100) /* MaxHealth */
      , (1606,   5,    10, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1606, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (1606, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (1606, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (1606, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (1606, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
-     , (1606, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (1606, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
-     , (1606, 9,  2672,  0, 0, 0, False) /* Create Scroll of Feeblemind Other V (2672) for ContainTreasure */
-     , (1606, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (1606, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (1606, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
-     , (1606, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
-     , (1606, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+VALUES (1606, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */
+     , (1606, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
      , (1606, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
-     , (1606, 9, 30594,  0, 0, 0, False) /* Create Acid Partizan (30594) for ContainTreasure */
-     , (1606, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
+     , (1606, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (1606, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */
-     , (1606, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */;
+     , (1606, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (1606, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (1606, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (1606, 9, 30594,  0, 0, 0, False) /* Create Acid Partizan (30594) for ContainTreasure */
+     , (1606, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (1606, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (1606, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (1606, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (1606, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (1606, 9,  2672,  0, 0, 0, False) /* Create Scroll of Feeblemind Other V (2672) for ContainTreasure */
+     , (1606, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
+     , (1606, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (1606, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */;

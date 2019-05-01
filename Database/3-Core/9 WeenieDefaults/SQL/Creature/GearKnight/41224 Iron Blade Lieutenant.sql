@@ -61,11 +61,11 @@ VALUES (41224,   1,    10, 0, 0, 25000) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41224, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (41224, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (41224, 9,   273, 2352, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (41224, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (41224, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (41224, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (41224, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (41224, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (41224, 9,   273, 2352, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (41224, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (41224, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (41224, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (41224, 9, 41226,  0, 0, 0, False) /* Create Aetherium Core Fragment (41226) for ContainTreasure */;

@@ -62,40 +62,40 @@ VALUES (7086,   1,    10, 0, 0, 438) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7086, 2, 47446,  1, 0, 0, False) /* Create Mace (47446) for Wield */
-     , (7086, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
-     , (7086, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (7086, 9,   273, 391, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7086, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (7086, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (7086, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (7086, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
-     , (7086, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
-     , (7086, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
-     , (7086, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (7086, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
-     , (7086, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (7086, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (7086, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (7086, 9, 21322,  0, 0, 0, False) /* Create Scroll of Frost Arc VII (21322) for ContainTreasure */
      , (7086, 9, 21328,  0, 0, 0, False) /* Create Scroll of Lightning Arc VI (21328) for ContainTreasure */
-     , (7086, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
-     , (7086, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
-     , (7086, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (7086, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
-     , (7086, 9, 28611,  0, 0, 0, False) /* Create Viamontian Laced Boots (28611) for ContainTreasure */
-     , (7086, 9, 30194,  1, 0, 0, False) /* Create Elysa's Crystal (30194) for ContainTreasure */
-     , (7086, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (7086, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
      , (7086, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
-     , (7086, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
-     , (7086, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (7086, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7086, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (7086, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+     , (7086, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (7086, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (7086, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
      , (7086, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */
-     , (7086, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
-     , (7086, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
-     , (7086, 9, 45105,  0, 0, 0, False) /* Create Lightning Rapier (45105) for ContainTreasure */
-     , (7086, 9, 45289,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VI (45289) for ContainTreasure */
-     , (7086, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
+     , (7086, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (7086, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (7086, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */
-     , (7086, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */;
+     , (7086, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (7086, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (7086, 9, 45105,  0, 0, 0, False) /* Create Lightning Rapier (45105) for ContainTreasure */
+     , (7086, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (7086, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (7086, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (7086, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (7086, 9, 30194,  1, 0, 0, False) /* Create Elysa's Crystal (30194) for ContainTreasure */
+     , (7086, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (7086, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (7086, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (7086, 9, 45289,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VI (45289) for ContainTreasure */
+     , (7086, 9, 28611,  0, 0, 0, False) /* Create Viamontian Laced Boots (28611) for ContainTreasure */
+     , (7086, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (7086, 9, 21322,  0, 0, 0, False) /* Create Scroll of Frost Arc VII (21322) for ContainTreasure */
+     , (7086, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (7086, 9,   273, 391, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7086, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */
+     , (7086, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
+     , (7086, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
+     , (7086, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7086, 67114038, 0, 0);

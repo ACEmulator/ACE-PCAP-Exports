@@ -70,9 +70,9 @@ VALUES (27428,   1,    10, 0, 0, 580) /* MaxHealth */
      , (27428,   5,    10, 0, 0, 630) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27428, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+VALUES (27428, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */
+     , (27428, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (27428, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */
-     , (27428, 2, 48012,  1, 0, 0, False) /* Create Nekode (48012) for Wield */
      , (27428, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -60,19 +60,19 @@ VALUES (31909,   1,    10, 0, 0, 1500) /* MaxHealth */
      , (31909,   5,    10, 0, 0, 260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31909, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (31909, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (31909, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (31909, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (31909, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (31909, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (31909, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
-     , (31909, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
+VALUES (31909, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (31909, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */
+     , (31909, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (31909, 9, 20541,  0, 0, 0, False) /* Create Scroll of Celcynd's Blessing (20541) for ContainTreasure */
      , (31909, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
      , (31909, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
+     , (31909, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (31909, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (31909, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (31909, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (31909, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
      , (31909, 9, 43833,  0, 0, 0, False) /* Create Sedgemail Leather Sleeves (43833) for ContainTreasure */
+     , (31909, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (31909, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

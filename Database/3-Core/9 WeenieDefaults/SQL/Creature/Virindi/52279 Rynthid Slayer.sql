@@ -59,35 +59,35 @@ VALUES (52279,   1,    10, 0, 0, 12000) /* MaxHealth */
      , (52279,   5,    10, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52279, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (52279, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (52279, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (52279, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (52279, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (52279, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+VALUES (52279, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (52279, 9, 20545,  0, 0, 0, False) /* Create Scroll of Feat of Radaz (20545) for ContainTreasure */
+     , (52279, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (52279, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (52279, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */
+     , (52279, 9, 43068,  0, 0, 0, False) /* Create Knorr Academy Helm (43068) for ContainTreasure */
      , (52279, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
      , (52279, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
-     , (52279, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
      , (52279, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
-     , (52279, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
-     , (52279, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
-     , (52279, 9, 20545,  0, 0, 0, False) /* Create Scroll of Feat of Radaz (20545) for ContainTreasure */
-     , (52279, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
-     , (52279, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
-     , (52279, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
-     , (52279, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
-     , (52279, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
-     , (52279, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
-     , (52279, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */
-     , (52279, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */
+     , (52279, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (52279, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
-     , (52279, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
+     , (52279, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (52279, 9, 49217,  0, 0, 0, False) /* Create Acid Skeleton Bushi Essence (150) (49217) for ContainTreasure */
+     , (52279, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (52279, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */
-     , (52279, 9, 43068,  0, 0, 0, False) /* Create Knorr Academy Helm (43068) for ContainTreasure */
-     , (52279, 9, 43382,  0, 0, 0, False) /* Create Nefane Pearl (43382) for ContainTreasure */
+     , (52279, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
      , (52279, 9, 45115,  0, 0, 0, False) /* Create Lightning Hammer (45115) for ContainTreasure */
+     , (52279, 9, 43382,  0, 0, 0, False) /* Create Nefane Pearl (43382) for ContainTreasure */
+     , (52279, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (52279, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */
+     , (52279, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (52279, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
+     , (52279, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
      , (52279, 9, 48947,  0, 0, 0, False) /* Create Fire Skeleton Bushi Essence (150) (48947) for ContainTreasure */
-     , (52279, 9, 49217,  0, 0, 0, False) /* Create Acid Skeleton Bushi Essence (150) (49217) for ContainTreasure */;
+     , (52279, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (52279, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (52279, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (52279, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (52279, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52279, 67117140, 0, 0);

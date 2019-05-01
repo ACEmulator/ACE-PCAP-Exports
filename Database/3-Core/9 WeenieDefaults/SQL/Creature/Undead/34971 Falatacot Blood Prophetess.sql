@@ -50,8 +50,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34971,   1,    10, 0, 0, 2233) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34971, 2, 48102,  1, 0, 0, False) /* Create Khopesh (48102) for Wield */
-     , (34971, 2, 48103,  1, 0, 0, False) /* Create Sickle (48103) for Wield */;
+VALUES (34971, 2, 48103,  1, 0, 0, False) /* Create Sickle (48103) for Wield */
+     , (34971, 2, 48102,  1, 0, 0, False) /* Create Khopesh (48102) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34971, 67114479, 0, 0);

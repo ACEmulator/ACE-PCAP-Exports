@@ -60,17 +60,17 @@ VALUES (20,   1,    10, 0, 0, 85) /* MaxHealth */
      , (20,   5,    10, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+VALUES (20, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (20, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (20, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (20, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
      , (20, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
      , (20, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (20, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (20, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (20, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
-     , (20, 9,   628,  0, 0, 0, False) /* Create Handy Healing Kit (628) for ContainTreasure */
-     , (20, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
      , (20, 9, 27326,  1, 0, 0, False) /* Create Stamina Tincture (27326) for ContainTreasure */
+     , (20, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (20, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (20, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
-     , (20, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */;
+     , (20, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20, 67111322, 0, 0);

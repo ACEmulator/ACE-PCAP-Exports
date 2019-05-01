@@ -57,17 +57,17 @@ VALUES (12026,   1,    10, 0, 0, 0) /* MaxHealth */
      , (12026,   5,    10, 0, 0, 540) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12026, 2,  5305,  1, 0, 0, False) /* Create Greater Fire Arrow (5305) for Wield */
+VALUES (12026, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (12026, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wield */
      , (12026, 2, 23708,  1, 0, 0, False) /* Create Fire Tachi (23708) for Wield */
-     , (12026, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
-     , (12026, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (12026, 2,  5305,  1, 0, 0, False) /* Create Greater Fire Arrow (5305) for Wield */
      , (12026, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
-     , (12026, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (12026, 9, 23537,  0, 0, 0, False) /* Create Osseous Mace (23537) for ContainTreasure */
+     , (12026, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (12026, 9,  9310,  0, 0, 0, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
+     , (12026, 9, 44855,  0, 0, 0, False) /* Create Halved Cloak (44855) for ContainTreasure */
+     , (12026, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (12026, 9, 49324,  0, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for ContainTreasure */
      , (12026, 9,   273, 43, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (12026, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
-     , (12026, 9,  9310,  0, 0, 0, False) /* Create A Large Mnemosyne (9310) for ContainTreasure */
-     , (12026, 9, 23537,  0, 0, 0, False) /* Create Osseous Mace (23537) for ContainTreasure */
-     , (12026, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (12026, 9, 44855,  0, 0, 0, False) /* Create Halved Cloak (44855) for ContainTreasure */
-     , (12026, 9, 49324,  0, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for ContainTreasure */;
+     , (12026, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */;

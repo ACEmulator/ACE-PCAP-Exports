@@ -60,13 +60,13 @@ VALUES (11497,   1,    10, 0, 0, 204) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11497, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (11497, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (11497, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (11497, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
      , (11497, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
-     , (11497, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (11497, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
      , (11497, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (11497, 9,   514,  0, 0, 0, False) /* Create Excellent Lockpick (514) for ContainTreasure */
+     , (11497, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (11497, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
      , (11497, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (11497, 9, 12235,  0, 0, 0, False) /* Create Carenzi Stalker Pelt (12235) for ContainTreasure */
+     , (11497, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (11497, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
-     , (11497, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */;
+     , (11497, 9, 12235,  0, 0, 0, False) /* Create Carenzi Stalker Pelt (12235) for ContainTreasure */;

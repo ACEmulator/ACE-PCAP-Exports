@@ -74,5 +74,5 @@ VALUES (7799, 8000, 3685945876) /* PCAPRecordedObjectIID */
      , (7799, 8008, 3685945875) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7799, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */
-     , (7799, 2, 47464,  1, 0, 0, False) /* Create Lightning Mace (47464) for Wield */;
+VALUES (7799, 2, 47464,  1, 0, 0, False) /* Create Lightning Mace (47464) for Wield */
+     , (7799, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */;

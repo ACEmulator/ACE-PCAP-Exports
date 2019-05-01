@@ -44,6 +44,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7269, 8000, 3699867036) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7269, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (7269, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (7269, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (7269, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (7269, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
+     , (7269, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

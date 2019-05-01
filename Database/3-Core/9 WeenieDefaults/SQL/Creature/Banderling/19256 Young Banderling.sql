@@ -61,8 +61,8 @@ VALUES (19256,   1,    10, 0, 0, 43) /* MaxHealth */
      , (19256,   5,    10, 0, 0, 31) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19256, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
-     , (19256, 2, 47381,  1, 0, 0, False) /* Create Flaming Club (47381) for Wield */
+VALUES (19256, 2, 47381,  1, 0, 0, False) /* Create Flaming Club (47381) for Wield */
+     , (19256, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
      , (19256, 2, 47438,  1, 0, 0, False) /* Create Mace (47438) for Wield */
      , (19256, 2, 47476,  1, 0, 0, False) /* Create Flaming Mace (47476) for Wield */;
 

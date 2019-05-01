@@ -51,19 +51,19 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (8011,   1,    10, 0, 0, 600) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8011, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
-     , (8011, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
-     , (8011, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (8011, 9,   273, 176, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (8011, 9, 40637,  0, 0, 0, False) /* Create Lightning Tetsubo (40637) for ContainTreasure */
      , (8011, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (8011, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (8011, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (8011, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */
+     , (8011, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
+     , (8011, 9,   273, 176, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (8011, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (8011, 9,  3432,  0, 0, 0, False) /* Create Scroll of Mana Mastery Other VI (3432) for ContainTreasure */
-     , (8011, 9,  8111,  1, 0, 0, False) /* Create Caulnalain Gem (8111) for ContainTreasure */
+     , (8011, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (8011, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
      , (8011, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (8011, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
-     , (8011, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */
-     , (8011, 9, 40637,  0, 0, 0, False) /* Create Lightning Tetsubo (40637) for ContainTreasure */;
+     , (8011, 9,  8111,  1, 0, 0, False) /* Create Caulnalain Gem (8111) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8011, 67112925, 0, 0);

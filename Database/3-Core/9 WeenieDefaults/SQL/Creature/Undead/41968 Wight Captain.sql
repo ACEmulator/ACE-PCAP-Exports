@@ -53,23 +53,23 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41968,   1,    10, 0, 0, 4120) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41968, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (41968, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (41968, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (41968, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
-     , (41968, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
-     , (41968, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
-     , (41968, 2, 48080,  1, 0, 0, False) /* Create Quarrel (48080) for Wield */
-     , (41968, 2, 48082,  1, 0, 0, False) /* Create Lightning Quarrel (48082) for Wield */
-     , (41968, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
-     , (41968, 2, 48084,  1, 0, 0, False) /* Create Katar (48084) for Wield */
-     , (41968, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
-     , (41968, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (41968, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */
+VALUES (41968, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */
+     , (41968, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (41968, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
+     , (41968, 2, 48084,  1, 0, 0, False) /* Create Katar (48084) for Wield */
+     , (41968, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (41968, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (41968, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
+     , (41968, 2, 48093,  1, 0, 0, False) /* Create Acid Ono (48093) for Wield */
+     , (41968, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
+     , (41968, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (41968, 2, 48080,  1, 0, 0, False) /* Create Quarrel (48080) for Wield */
+     , (41968, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
      , (41968, 2, 48090,  1, 0, 0, False) /* Create Acid Silifi (48090) for Wield */
+     , (41968, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (41968, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
-     , (41968, 2, 48093,  1, 0, 0, False) /* Create Acid Ono (48093) for Wield */;
+     , (41968, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (41968, 2, 48082,  1, 0, 0, False) /* Create Lightning Quarrel (48082) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41968, 67111664, 0, 0);

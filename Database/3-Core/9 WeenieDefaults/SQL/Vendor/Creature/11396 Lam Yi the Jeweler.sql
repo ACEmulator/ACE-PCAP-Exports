@@ -77,19 +77,16 @@ VALUES (11396,   1,    10, 0, 0, 105) /* MaxHealth */
      , (11396,   5,    10, 0, 0, 160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11396, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (11396, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (11396, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (11396, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (11396, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+VALUES (11396, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
+     , (11396, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (11396, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
+     , (11396, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
+     , (11396, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
+     , (11396, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
      , (11396, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (11396, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (11396, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (11396, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (11396, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (11396, 4,  2422, -1, 0, 0, False) /* Create Gem (2422) for Shop */
-     , (11396, 4,  2428, -1, 0, 0, False) /* Create Gem (2428) for Shop */
+     , (11396, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (11396, 4,  2431, -1, 0, 0, False) /* Create Gem (2431) for Shop */
+     , (11396, 4,  2428, -1, 0, 0, False) /* Create Gem (2428) for Shop */
      , (11396, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (11396, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (11396, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -97,22 +94,25 @@ VALUES (11396, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (11396, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (11396, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (11396, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (11396, 4,  7886, -1, 0, 0, False) /* Create Baron's Amulet of Life Giving (7886) for Shop */
-     , (11396, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
      , (11396, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (11396, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (11396, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (11396, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (11396, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (11396, 4,  9295, -1, 0, 0, False) /* Create Intricate Carving Tool (9295) for Shop */
      , (11396, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (11396, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (11396, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
      , (11396, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */
-     , (11396, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
-     , (11396, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
-     , (11396, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
-     , (11396, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
-     , (11396, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (11396, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
-     , (11396, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */;
+     , (11396, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
+     , (11396, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */
+     , (11396, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
+     , (11396, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
+     , (11396, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
+     , (11396, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
+     , (11396, 4,  7886, -1, 0, 0, False) /* Create Baron's Amulet of Life Giving (7886) for Shop */
+     , (11396, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
+     , (11396, 4,  2422, -1, 0, 0, False) /* Create Gem (2422) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11396, 67109969, 92, 4)

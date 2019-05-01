@@ -78,50 +78,50 @@ VALUES (22722,   1,    10, 0, 0, 95) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22722, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (22722, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
+     , (22722, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (22722, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (22722, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (22722, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (22722, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (22722, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (22722, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (22722, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (22722, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (22722, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (22722, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
+     , (22722, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (22722, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (22722, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
-     , (22722, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
-     , (22722, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (22722, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
      , (22722, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
      , (22722, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
      , (22722, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (22722, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (22722, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
      , (22722, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
-     , (22722, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (22722, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
      , (22722, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
-     , (22722, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (22722, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (22722, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (22722, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
-     , (22722, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (22722, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
+     , (22722, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
      , (22722, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
-     , (22722, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (22722, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
+     , (22722, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (22722, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
-     , (22722, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (22722, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (22722, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */
-     , (22722, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (22722, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (22722, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
-     , (22722, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (22722, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (22722, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (22722, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
-     , (22722, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (22722, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
+     , (22722, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (22722, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (22722, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (22722, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (22722, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
      , (22722, 4,  3645, -1, 0, 0, False) /* Create Tibri's Fire Spear (3645) for Shop */
-     , (22722, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
-     , (22722, 4, 21152, -1, 0, 0, False) /* Create Covenant Breastplate (21152) for Shop */
-     , (22722, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
-     , (22722, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (22722, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */
-     , (22722, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
      , (22722, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (22722, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */;
+     , (22722, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
+     , (22722, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
+     , (22722, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */
+     , (22722, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
+     , (22722, 4, 21152, -1, 0, 0, False) /* Create Covenant Breastplate (21152) for Shop */
+     , (22722, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22722, 67110047, 0, 24)

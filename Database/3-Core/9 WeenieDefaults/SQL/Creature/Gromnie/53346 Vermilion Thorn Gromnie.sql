@@ -54,14 +54,14 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (53346,   1,    10, 0, 0, 8200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (53346, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (53346, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
-     , (53346, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+VALUES (53346, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
      , (53346, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (53346, 9, 31818,  0, 0, 0, False) /* Create Piercing Slingshot (31818) for ContainTreasure */
+     , (53346, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */
+     , (53346, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (53346, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
-     , (53346, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
-     , (53346, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
+     , (53346, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (53346, 9, 31818,  0, 0, 0, False) /* Create Piercing Slingshot (31818) for ContainTreasure */
+     , (53346, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53346, 67116468, 0, 0);

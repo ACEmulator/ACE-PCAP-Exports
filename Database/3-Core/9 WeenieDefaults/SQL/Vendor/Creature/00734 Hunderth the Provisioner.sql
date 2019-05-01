@@ -77,15 +77,15 @@ VALUES (734,   1,    10, 0, 0, 65) /* MaxHealth */
      , (734,   5,    10, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (734, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+VALUES (734, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (734, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (734, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (734, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (734, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (734, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (734, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
+     , (734, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (734, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (734, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
      , (734, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
-     , (734, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;
+     , (734, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (734, 67109559, 0, 24)

@@ -52,33 +52,33 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (31898,   1,    10, 0, 0, 3725) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31898, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (31898, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (31898, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
-     , (31898, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (31898, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (31898, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (31898, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (31898, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (31898, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (31898, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (31898, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (31898, 9, 20235,  0, 0, 0, False) /* Create Scroll of Honed Control (20235) for ContainTreasure */
-     , (31898, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
-     , (31898, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
-     , (31898, 9, 20573,  0, 0, 0, False) /* Create Scroll of Introversion (20573) for ContainTreasure */
-     , (31898, 9, 20586,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VII (20586) for ContainTreasure */
-     , (31898, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
-     , (31898, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (31898, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
-     , (31898, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
-     , (31898, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+VALUES (31898, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
      , (31898, 9, 29243,  0, 0, 0, False) /* Create Piercing Bow (29243) for ContainTreasure */
-     , (31898, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
-     , (31898, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (31898, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (31898, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (31898, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (31898, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
      , (31898, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
      , (31898, 9, 49250,  0, 0, 0, False) /* Create Fire Zombie Essence (125) (49250) for ContainTreasure */
-     , (31898, 9, 49438,  0, 0, 0, False) /* Create Fire Spectre Essence (125) (49438) for ContainTreasure */;
+     , (31898, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
+     , (31898, 9, 49438,  0, 0, 0, False) /* Create Fire Spectre Essence (125) (49438) for ContainTreasure */
+     , (31898, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (31898, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (31898, 9, 20235,  0, 0, 0, False) /* Create Scroll of Honed Control (20235) for ContainTreasure */
+     , (31898, 9, 20586,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VII (20586) for ContainTreasure */
+     , (31898, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (31898, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (31898, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
+     , (31898, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
+     , (31898, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (31898, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (31898, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (31898, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (31898, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (31898, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (31898, 9, 20573,  0, 0, 0, False) /* Create Scroll of Introversion (20573) for ContainTreasure */
+     , (31898, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (31898, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31898, 67116777, 0, 0);

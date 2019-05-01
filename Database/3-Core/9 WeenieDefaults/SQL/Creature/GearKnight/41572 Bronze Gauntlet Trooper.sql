@@ -62,19 +62,19 @@ VALUES (41572,   1,    10, 0, 0, 325) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41572, 2, 41240,  1, 0, 0, False) /* Create Gearknight Sword (41240) for Wield */
      , (41572, 2, 41244,  1, 0, 0, False) /* Create Gearknight Greatsword (41244) for Wield */
-     , (41572, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (41572, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (41572, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (41572, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (41572, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (41572, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
-     , (41572, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
-     , (41572, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
-     , (41572, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
      , (41572, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
-     , (41572, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (41572, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (41572, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (41572, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
      , (41572, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
-     , (41572, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
+     , (41572, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (41572, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (41572, 9, 49460,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other V (49460) for ContainTreasure */
      , (41572, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */
-     , (41572, 9, 49460,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other V (49460) for ContainTreasure */;
+     , (41572, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (41572, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (41572, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (41572, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (41572, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (41572, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;

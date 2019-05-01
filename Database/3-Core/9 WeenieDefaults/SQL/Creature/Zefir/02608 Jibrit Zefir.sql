@@ -60,17 +60,17 @@ VALUES (2608,   1,    10, 0, 0, 25) /* MaxHealth */
      , (2608,   5,    10, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2608, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (2608, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+VALUES (2608, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */
      , (2608, 9,   273, 15, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (2608, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */
      , (2608, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (2608, 9,  3083,  0, 0, 0, False) /* Create Scroll of Fester Other II (3083) for ContainTreasure */
-     , (2608, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
      , (2608, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (2608, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (2608, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (2608, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (2608, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (2608, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
-     , (2608, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */
-     , (2608, 9, 45117,  0, 0, 0, False) /* Create Frost Hammer (45117) for ContainTreasure */;
+     , (2608, 9,  3083,  0, 0, 0, False) /* Create Scroll of Fester Other II (3083) for ContainTreasure */
+     , (2608, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2608, 67112518, 0, 0);

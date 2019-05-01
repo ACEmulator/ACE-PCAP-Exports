@@ -77,10 +77,10 @@ VALUES (2497,   1,    10, 0, 0, 130) /* MaxHealth */
      , (2497,   5,    10, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2497, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (2497, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (2497, 4,  2400, -1, 0, 0, False) /* Create Gem (2400) for Shop */
+VALUES (2497, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
+     , (2497, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (2497, 4,  2414, -1, 0, 0, False) /* Create Gem (2414) for Shop */
+     , (2497, 4,  2400, -1, 0, 0, False) /* Create Gem (2400) for Shop */
      , (2497, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2497, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (2497, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

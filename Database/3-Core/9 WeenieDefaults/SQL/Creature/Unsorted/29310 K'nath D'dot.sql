@@ -44,11 +44,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29310, 8000, 3709193208) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29310, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+VALUES (29310, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
      , (29310, 9,   273, 176, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (29310, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
-     , (29310, 9,  3836,  0, 0, 0, False) /* Create Flaming Mace (3836) for ContainTreasure */
+     , (29310, 9, 41301,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other VI (41301) for ContainTreasure */
      , (29310, 9, 20510,  0, 0, 0, False) /* Create Scroll of Challenger's Legacy (20510) for ContainTreasure */
      , (29310, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (29310, 9, 41301,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other VI (41301) for ContainTreasure */
-     , (29310, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */;
+     , (29310, 9,  3836,  0, 0, 0, False) /* Create Flaming Mace (3836) for ContainTreasure */
+     , (29310, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */;

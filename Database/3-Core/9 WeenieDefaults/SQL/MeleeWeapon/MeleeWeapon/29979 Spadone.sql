@@ -61,9 +61,9 @@ VALUES (29979, 8000, 3690116770) /* PCAPRecordedObjectIID */
      , (29979, 8008, 3690117032) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29979, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
+VALUES (29979, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (29979, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (29979, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;
+     , (29979, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29979, 67116387, 0, 0);

@@ -50,8 +50,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24501,   1,    10, 0, 0, 5000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24501, 2, 15440,  1, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */
-     , (24501, 2, 24569,  1, 0, 0, False) /* Create Renegade Crossbow (24569) for Wield */;
+VALUES (24501, 2, 24569,  1, 0, 0, False) /* Create Renegade Crossbow (24569) for Wield */
+     , (24501, 2, 15440,  1, 0, 0, False) /* Create Deadly Armor Piercing Quarrel (15440) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24501, 67116627, 1, 48)

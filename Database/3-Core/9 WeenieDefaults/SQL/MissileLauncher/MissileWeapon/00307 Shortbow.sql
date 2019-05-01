@@ -68,8 +68,8 @@ VALUES (307, 8000, 3685898749) /* PCAPRecordedObjectIID */
      , (307, 8008, 3685898732) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (307, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (307, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */;
+VALUES (307, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
+     , (307, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (307, 67111920, 0, 0);

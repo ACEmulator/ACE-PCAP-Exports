@@ -61,7 +61,7 @@ VALUES (25500, 8000, 2921518028) /* PCAPRecordedObjectIID */
      , (25500, 8008, 2921517902) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25500, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (25500, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (25500, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (25500, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (25500, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (25500, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
+     , (25500, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
+     , (25500, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

@@ -57,8 +57,8 @@ VALUES (30296,   1,    10, 0, 0, 473) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30296, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
-     , (30296, 9,   273, 112, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (30296, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (30296, 9,   273, 112, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (30296, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
      , (30296, 9, 40524,  0, 0, 0, False) /* Create Contact Instructions (40524) for ContainTreasure */;
 

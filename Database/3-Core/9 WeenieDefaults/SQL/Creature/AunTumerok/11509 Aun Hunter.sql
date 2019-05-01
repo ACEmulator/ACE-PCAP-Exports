@@ -61,12 +61,12 @@ VALUES (11509,   1,    10, 0, 0, 80) /* MaxHealth */
      , (11509,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11509, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
-     , (11509, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
-     , (11509, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
+VALUES (11509, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield */
      , (11509, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (11509, 2,  4183,  1, 0, 0, False) /* Create Lightning Arrow (4183) for Wield */
-     , (11509, 2,  4186,  1, 0, 0, False) /* Create Frost Quarrel (4186) for Wield */;
+     , (11509, 2,  4186,  1, 0, 0, False) /* Create Frost Quarrel (4186) for Wield */
+     , (11509, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
+     , (11509, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11509, 67113366, 0, 0);

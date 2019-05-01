@@ -62,32 +62,32 @@ VALUES (1465,   1,    10, 0, 0, 95) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1465, 2,  1517,  1, 0, 0, False) /* Create Fiery Shield (1517) for Wield */
+     , (1465, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
      , (1465, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (1465, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
-     , (1465, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
-     , (1465, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (1465, 9,   273, 127, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1465, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (1465, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (1465, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */
      , (1465, 9,  1518,  0, 0, 0, False) /* Create Superior Helmet (1518) for ContainTreasure */
+     , (1465, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
      , (1465, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (1465, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
-     , (1465, 9,  2720,  0, 0, 0, False) /* Create Scroll of Quickness Self V (2720) for ContainTreasure */
-     , (1465, 9,  3881,  0, 0, 0, False) /* Create Acid Long Sword (3881) for ContainTreasure */
      , (1465, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
-     , (1465, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
-     , (1465, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
-     , (1465, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (1465, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (1465, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
-     , (1465, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (1465, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
-     , (1465, 9, 30615,  0, 0, 0, False) /* Create Acid Knuckles (30615) for ContainTreasure */
      , (1465, 9, 45435,  0, 0, 0, False) /* Create Frost Khanjar (45435) for ContainTreasure */
+     , (1465, 9,  3881,  0, 0, 0, False) /* Create Acid Long Sword (3881) for ContainTreasure */
+     , (1465, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
      , (1465, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (1465, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (1465, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (1465, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (1465, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
      , (1465, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */
-     , (1465, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */;
+     , (1465, 9, 30615,  0, 0, 0, False) /* Create Acid Knuckles (30615) for ContainTreasure */
+     , (1465, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for ContainTreasure */
+     , (1465, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (1465, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (1465, 9,   273, 127, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (1465, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (1465, 9,  2720,  0, 0, 0, False) /* Create Scroll of Quickness Self V (2720) for ContainTreasure */
+     , (1465, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (1465, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1465, 67111342, 0, 0);

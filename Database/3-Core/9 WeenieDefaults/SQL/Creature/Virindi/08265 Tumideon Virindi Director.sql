@@ -47,10 +47,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (8265,   1,    10, 0, 0, 145) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8265, 9,   273, 632, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (8265, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
      , (8265, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
      , (8265, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
-     , (8265, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (8265, 9,   273, 632, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (8265, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

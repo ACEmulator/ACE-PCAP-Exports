@@ -49,6 +49,6 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20976, 8000, 3688951398) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20976, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (20976, 2, 47236,  1, 0, 0, False) /* Create Acid Board with Nail (47236) for Wield */
+VALUES (20976, 2, 47236,  1, 0, 0, False) /* Create Acid Board with Nail (47236) for Wield */
+     , (20976, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (20976, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */;

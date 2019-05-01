@@ -57,12 +57,12 @@ VALUES (9382,   1,    10, 0, 0, 145) /* MaxHealth */
      , (9382,   5,    10, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9382, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+VALUES (9382, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (9382, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
      , (9382, 9,   273, 432, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9382, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (9382, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (9382, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
      , (9382, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (9382, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
      , (9382, 9,  8810,  0, 0, 0, False) /* Create Geraux's Life Magic Scroll (8810) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

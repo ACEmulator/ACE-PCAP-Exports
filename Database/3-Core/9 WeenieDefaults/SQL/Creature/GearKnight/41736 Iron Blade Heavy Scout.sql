@@ -60,16 +60,16 @@ VALUES (41736,   1,    10, 0, 0, 9975) /* MaxHealth */
      , (41736,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41736, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
-     , (41736, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+VALUES (41736, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
+     , (41736, 2, 41250,  1, 0, 0, False) /* Create Acid Gearknight Greatsword (41250) for Wield */
+     , (41736, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */
+     , (41736, 2, 41253,  1, 0, 0, False) /* Create Frost Gearknight Greatsword (41253) for Wield */
      , (41736, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
      , (41736, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
-     , (41736, 2, 41250,  1, 0, 0, False) /* Create Acid Gearknight Greatsword (41250) for Wield */
-     , (41736, 2, 41253,  1, 0, 0, False) /* Create Frost Gearknight Greatsword (41253) for Wield */
-     , (41736, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (41736, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
      , (41736, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
      , (41736, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (41736, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
-     , (41736, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
+     , (41736, 9, 49216,  0, 0, 0, False) /* Create Acid Skeleton Bushi Essence (125) (49216) for ContainTreasure */
      , (41736, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
-     , (41736, 9, 49216,  0, 0, 0, False) /* Create Acid Skeleton Bushi Essence (125) (49216) for ContainTreasure */;
+     , (41736, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
+     , (41736, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */;

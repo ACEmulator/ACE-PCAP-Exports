@@ -48,11 +48,11 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (20978, 8000, 3686177798) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20978, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
-     , (20978, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */
-     , (20978, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
+VALUES (20978, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
      , (20978, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
-     , (20978, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
+     , (20978, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (20978, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */
+     , (20978, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
      , (20978, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (20978, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
+     , (20978, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
+     , (20978, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */;

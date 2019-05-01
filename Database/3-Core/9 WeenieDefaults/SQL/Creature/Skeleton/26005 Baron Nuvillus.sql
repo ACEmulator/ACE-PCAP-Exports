@@ -60,22 +60,22 @@ VALUES (26005,   1,    10, 0, 0, 400) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26005, 2,  7973,  1, 0, 0, False) /* Create Flaming Tachi (7973) for Wield */
-     , (26005, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
-     , (26005, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (26005, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
-     , (26005, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
-     , (26005, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
-     , (26005, 9,  2731,  0, 0, 0, False) /* Create Scroll of Revitalize Self VI (2731) for ContainTreasure */
-     , (26005, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
-     , (26005, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
-     , (26005, 9, 26004,  0, 0, 0, False) /* Create Crown of Bone (26004) for ContainTreasure */
-     , (26005, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
-     , (26005, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
-     , (26005, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
-     , (26005, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
      , (26005, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for ContainTreasure */
+     , (26005, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
      , (26005, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
-     , (26005, 9, 49296,  0, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for ContainTreasure */;
+     , (26005, 9, 26004,  0, 0, 0, False) /* Create Crown of Bone (26004) for ContainTreasure */
+     , (26005, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
+     , (26005, 9,  2731,  0, 0, 0, False) /* Create Scroll of Revitalize Self VI (2731) for ContainTreasure */
+     , (26005, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+     , (26005, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (26005, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (26005, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (26005, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */
+     , (26005, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
+     , (26005, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */
+     , (26005, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
+     , (26005, 9, 49296,  0, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for ContainTreasure */
+     , (26005, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26005, 67114699, 0, 0);

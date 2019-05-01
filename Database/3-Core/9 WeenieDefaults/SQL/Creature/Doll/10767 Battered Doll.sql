@@ -61,16 +61,16 @@ VALUES (10767,   1,    10, 0, 0, 115) /* MaxHealth */
      , (10767,   5,    10, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10767, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
-     , (10767, 9,   273, 81, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (10767, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (10767, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
-     , (10767, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (10767, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
-     , (10767, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+VALUES (10767, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
      , (10767, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (10767, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (10767, 9,  2395,  1, 0, 0, False) /* Create Gem (2395) for ContainTreasure */
+     , (10767, 9,   273, 81, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (10767, 9, 31781,  0, 0, 0, False) /* Create Electric Spine Glaive (31781) for ContainTreasure */
-     , (10767, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
+     , (10767, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (10767, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (10767, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (10767, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10767, 67113151, 0, 0);

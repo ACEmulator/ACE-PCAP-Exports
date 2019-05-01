@@ -51,10 +51,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (11988,   1,    10, 0, 0, 185) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11988, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+VALUES (11988, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */
+     , (11988, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
      , (11988, 9,   545,  0, 0, 0, False) /* Create Reliable Lockpick (545) for ContainTreasure */
-     , (11988, 9,  9225,  1, 0, 0, False) /* Create Obsidian Shard (9225) for ContainTreasure */
-     , (11988, 9, 31772,  0, 0, 0, False) /* Create Flaming War Axe (31772) for ContainTreasure */;
+     , (11988, 9,  9225,  1, 0, 0, False) /* Create Obsidian Shard (9225) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11988, 67113352, 0, 0);

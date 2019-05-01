@@ -62,17 +62,17 @@ VALUES (30754,   1,    10, 0, 0, 413) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30754, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */
-     , (30754, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (30754, 9, 20323,  0, 0, 0, False) /* Create Scroll of Nullify Creature Magic Other (20323) for ContainTreasure */
      , (30754, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
-     , (30754, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
-     , (30754, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (30754, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (30754, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
      , (30754, 9,  3052,  0, 0, 0, False) /* Create Scroll of Lightning Protection Other VI (3052) for ContainTreasure */
      , (30754, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
-     , (30754, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (30754, 9, 20323,  0, 0, 0, False) /* Create Scroll of Nullify Creature Magic Other (20323) for ContainTreasure */
-     , (30754, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */
-     , (30754, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */;
+     , (30754, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
+     , (30754, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (30754, 9, 31824,  0, 0, 0, False) /* Create Ice Wand (31824) for ContainTreasure */
+     , (30754, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (30754, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (30754, 9, 27320,  1, 0, 0, False) /* Create Health Tonic (27320) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30754, 67114264, 0, 0);

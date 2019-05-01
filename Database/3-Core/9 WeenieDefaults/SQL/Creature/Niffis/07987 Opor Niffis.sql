@@ -57,15 +57,15 @@ VALUES (7987,   1,    10, 0, 0, 160) /* MaxHealth */
      , (7987,   5,    10, 0, 0, 470) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7987, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+VALUES (7987, 9, 40623,  0, 0, 0, False) /* Create Quadrelle (40623) for ContainTreasure */
      , (7987, 9,   273, 53, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (7987, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
+     , (7987, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (7987, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (7987, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (7987, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (7987, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (7987, 9, 10705,  0, 0, 0, False) /* Create Niffis Pearl (10705) for ContainTreasure */
-     , (7987, 9, 40623,  0, 0, 0, False) /* Create Quadrelle (40623) for ContainTreasure */;
+     , (7987, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (7987, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7987, 67112943, 0, 0);

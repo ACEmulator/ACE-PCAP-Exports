@@ -59,16 +59,16 @@ VALUES (22050,   1,    10, 0, 0, 953) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22050, 2, 47680,  1, 0, 0, False) /* Create Flaming Tachi (47680) for Wield */
-     , (22050, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
-     , (22050, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (22050, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (22050, 9, 49285,  0, 0, 0, False) /* Create Acid K'nath Essence (125) (49285) for ContainTreasure */
+     , (22050, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (22050, 9,  5679,  0, 0, 0, False) /* Create Torn Journal (5679) for ContainTreasure */
+     , (22050, 9, 49290,  0, 0, 0, False) /* Create Lightning K'nath Essence (80) (49290) for ContainTreasure */
      , (22050, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (22050, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
-     , (22050, 9,  5679,  0, 0, 0, False) /* Create Torn Journal (5679) for ContainTreasure */
+     , (22050, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (22050, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (22050, 9, 20230,  0, 0, 0, False) /* Create Scroll of Executor's Boon (20230) for ContainTreasure */
-     , (22050, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
-     , (22050, 9, 49285,  0, 0, 0, False) /* Create Acid K'nath Essence (125) (49285) for ContainTreasure */
-     , (22050, 9, 49290,  0, 0, 0, False) /* Create Lightning K'nath Essence (80) (49290) for ContainTreasure */;
+     , (22050, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22050, 67116525, 0, 0);

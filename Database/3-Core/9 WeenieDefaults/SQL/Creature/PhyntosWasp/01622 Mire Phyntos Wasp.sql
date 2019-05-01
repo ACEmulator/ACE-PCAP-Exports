@@ -60,15 +60,15 @@ VALUES (1622,   1,    10, 0, 0, 65) /* MaxHealth */
      , (1622,   5,    10, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1622, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
-     , (1622, 9,   273, 17, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+VALUES (1622, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (1622, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1622, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (1622, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (1622, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (1622, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (1622, 9,   273, 17, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (1622, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
      , (1622, 9,  3073,  0, 0, 0, False) /* Create Scroll of Piercing Vulnerability Other II (3073) for ContainTreasure */
-     , (1622, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (1622, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (1622, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */;
+     , (1622, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1622, 67115267, 0, 0);

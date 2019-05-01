@@ -77,16 +77,16 @@ VALUES (703,   1,    10, 0, 0, 70) /* MaxHealth */
      , (703,   5,    10, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (703, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (703, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
+VALUES (703, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
      , (703, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
-     , (703, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (703, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
+     , (703, 4,  2606, -1, 0, 0, False) /* Create  (2606) for Shop */
+     , (703, 4,  5851, -1, 0, 0, False) /* Create Faran Robe with Hood (5851) for Shop */
+     , (703, 4,  5850, -1, 0, 0, False) /* Create Faran Robe (5850) for Shop */
+     , (703, 4,  8371, -1, 0, 0, False) /* Create Kireth Gown with Band (8371) for Shop */
      , (703, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (703, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (703, 4,  2606, -1, 0, 0, False) /* Create  (2606) for Shop */
-     , (703, 4,  5850, -1, 0, 0, False) /* Create Faran Robe (5850) for Shop */
-     , (703, 4,  5851, -1, 0, 0, False) /* Create Faran Robe with Hood (5851) for Shop */
-     , (703, 4,  8371, -1, 0, 0, False) /* Create Kireth Gown with Band (8371) for Shop */;
+     , (703, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (703, 67109562, 0, 24)

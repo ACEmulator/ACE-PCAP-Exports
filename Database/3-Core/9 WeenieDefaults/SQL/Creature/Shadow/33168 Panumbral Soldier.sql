@@ -69,26 +69,26 @@ VALUES (33168,   1,    10, 0, 0, 2750) /* MaxHealth */
      , (33168,   5,    10, 0, 0, 2870) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33168, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
+VALUES (33168, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */
      , (33168, 2, 33081,  1, 0, 0, False) /* Create Shadow Blade (33081) for Wield */
      , (33168, 2, 33082,  1, 0, 0, False) /* Create Shadow Blade (33082) for Wield */
-     , (33168, 2, 33083,  1, 0, 0, False) /* Create Shadow Blade (33083) for Wield */
      , (33168, 2, 33084,  1, 0, 0, False) /* Create Shadow Blade (33084) for Wield */
-     , (33168, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */
-     , (33168, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (33168, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
-     , (33168, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
-     , (33168, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (33168, 2, 33083,  1, 0, 0, False) /* Create Shadow Blade (33083) for Wield */
+     , (33168, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
      , (33168, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
      , (33168, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
-     , (33168, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (33168, 9, 20562,  0, 0, 0, False) /* Create Scroll of Celdiseth's Blessing (20562) for ContainTreasure */
-     , (33168, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
-     , (33168, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
-     , (33168, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
+     , (33168, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */
      , (33168, 9, 30588,  0, 0, 0, False) /* Create Lightning Flanged Mace (30588) for ContainTreasure */
+     , (33168, 9, 20562,  0, 0, 0, False) /* Create Scroll of Celdiseth's Blessing (20562) for ContainTreasure */
      , (33168, 9, 30607,  0, 0, 0, False) /* Create Lightning Bastone (30607) for ContainTreasure */
-     , (33168, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */;
+     , (33168, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (33168, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (33168, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+     , (33168, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (33168, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (33168, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
+     , (33168, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (33168, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33168, 67109558, 0, 24)

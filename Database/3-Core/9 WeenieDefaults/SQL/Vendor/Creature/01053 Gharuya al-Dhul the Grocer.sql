@@ -77,18 +77,18 @@ VALUES (1053,   1,    10, 0, 0, 155) /* MaxHealth */
      , (1053,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1053, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (1053, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+VALUES (1053, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (1053, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (1053, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (1053, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (1053, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
+     , (1053, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
      , (1053, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
+     , (1053, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */
+     , (1053, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
      , (1053, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (1053, 4,  4759, -1, 0, 0, False) /* Create Cooking Pot (4759) for Shop */
-     , (1053, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (1053, 4,  4766, -1, 0, 0, False) /* Create Rennet (4766) for Shop */
-     , (1053, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */
-     , (1053, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations (23326) for Shop */
-     , (1053, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations (23327) for Shop */;
+     , (1053, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1053, 67109550, 0, 24)

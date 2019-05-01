@@ -60,33 +60,33 @@ VALUES (11496,   1,    10, 0, 0, 35) /* MaxHealth */
      , (11496,   5,    10, 0, 0, 31) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11496, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (11496, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
-     , (11496, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (11496, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (11496, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (11496, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
-     , (11496, 9,   273, 32, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (11496, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (11496, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (11496, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (11496, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (11496, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (11496, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
-     , (11496, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+VALUES (11496, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
      , (11496, 9,  2787,  0, 0, 0, False) /* Create Scroll of Blood Loather II (2787) for ContainTreasure */
-     , (11496, 9,  2964,  0, 0, 0, False) /* Create Scroll of Shock Wave III (2964) for ContainTreasure */
-     , (11496, 9,  3824,  0, 0, 0, False) /* Create Flaming Ken (3824) for ContainTreasure */
-     , (11496, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
-     , (11496, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (11496, 9, 11342,  0, 0, 0, False) /* Create Carenzi Sentry Pelt (11342) for ContainTreasure */
-     , (11496, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (11496, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (11496, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (11496, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (11496, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
+     , (11496, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
+     , (11496, 9, 45285,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other II (45285) for ContainTreasure */
      , (11496, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (11496, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
-     , (11496, 9, 45285,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other II (45285) for ContainTreasure */
-     , (11496, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
-     , (11496, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (11496, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
+     , (11496, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (11496, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (11496, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (11496, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (11496, 9,  3824,  0, 0, 0, False) /* Create Flaming Ken (3824) for ContainTreasure */
+     , (11496, 9,   273, 32, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (11496, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+     , (11496, 9,  2964,  0, 0, 0, False) /* Create Scroll of Shock Wave III (2964) for ContainTreasure */
+     , (11496, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (11496, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (11496, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (11496, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (11496, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (11496, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (11496, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (11496, 9, 11342,  0, 0, 0, False) /* Create Carenzi Sentry Pelt (11342) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11496, 67113300, 0, 0);

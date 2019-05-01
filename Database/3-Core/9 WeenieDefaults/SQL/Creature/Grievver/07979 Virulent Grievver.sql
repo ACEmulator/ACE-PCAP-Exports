@@ -64,15 +64,15 @@ VALUES (7979,   1,    10, 0, 0, 140) /* MaxHealth */
      , (7979,   5,    10, 0, 0, 195) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7979, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (7979, 9,   273, 70, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (7979, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (7979, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (7979, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (7979, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+VALUES (7979, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
      , (7979, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (7979, 9,  9098,  1, 0, 0, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */
-     , (7979, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
+     , (7979, 9,   273, 70, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (7979, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (7979, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (7979, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (7979, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (7979, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (7979, 9,  9098,  1, 0, 0, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7979, 67112939, 0, 0);

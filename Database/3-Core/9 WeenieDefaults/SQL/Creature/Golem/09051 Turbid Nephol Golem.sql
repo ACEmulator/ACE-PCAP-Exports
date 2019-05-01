@@ -57,25 +57,25 @@ VALUES (9051,   1,    10, 0, 0, 565) /* MaxHealth */
      , (9051,   5,    10, 0, 0, 435) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9051, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
-     , (9051, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
-     , (9051, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (9051, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (9051, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (9051, 9,   273, 2370, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (9051, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (9051, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (9051, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (9051, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (9051, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
-     , (9051, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (9051, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (9051, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (9051, 9,  9043,  1, 0, 0, False) /* Create Large Pale Crystal (9043) for ContainTreasure */
-     , (9051, 9,  9046,  1, 0, 0, False) /* Create Sunstone Geode (9046) for ContainTreasure */
-     , (9051, 9, 20254,  0, 0, 0, False) /* Create Scroll of Might of the Lugians (20254) for ContainTreasure */
-     , (9051, 9, 20464,  0, 0, 0, False) /* Create Scroll of Rending Wind (20464) for ContainTreasure */
+VALUES (9051, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (9051, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (9051, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (9051, 9, 20254,  0, 0, 0, False) /* Create Scroll of Might of the Lugians (20254) for ContainTreasure */
+     , (9051, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (9051, 9,   273, 2370, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (9051, 9,  9043,  1, 0, 0, False) /* Create Large Pale Crystal (9043) for ContainTreasure */
+     , (9051, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (9051, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for ContainTreasure */
+     , (9051, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (9051, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (9051, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (9051, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (9051, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (9051, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (9051, 9,  9046,  1, 0, 0, False) /* Create Sunstone Geode (9046) for ContainTreasure */
+     , (9051, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (9051, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
-     , (9051, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (9051, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (9051, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
+     , (9051, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (9051, 9, 20464,  0, 0, 0, False) /* Create Scroll of Rending Wind (20464) for ContainTreasure */
+     , (9051, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */;

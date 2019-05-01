@@ -59,12 +59,12 @@ VALUES (205,   1,    10, 0, 0, 150) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (205, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
-     , (205, 2, 23755,  1, 0, 0, False) /* Create Lugian Hammer (23755) for Wield */
      , (205, 2, 23759,  1, 0, 0, False) /* Create Lugian Mace (23759) for Wield */
+     , (205, 2, 23755,  1, 0, 0, False) /* Create Lugian Hammer (23755) for Wield */
      , (205, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (205, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
      , (205, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
-     , (205, 9, 30217,  1, 0, 0, False) /* Create Monarch's Crystal (30217) for ContainTreasure */
-     , (205, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */;
+     , (205, 9, 30217,  1, 0, 0, False) /* Create Monarch's Crystal (30217) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (205, 67113161, 0, 0);

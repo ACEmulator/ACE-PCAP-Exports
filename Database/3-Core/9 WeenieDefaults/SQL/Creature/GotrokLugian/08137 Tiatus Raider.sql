@@ -58,12 +58,12 @@ VALUES (8137,   1,    10, 0, 0, 450) /* MaxHealth */
      , (8137,   5,    10, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8137, 2, 23739,  1, 0, 0, False) /* Create Lugian Axe (23739) for Wield */
-     , (8137, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
-     , (8137, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (8137, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+VALUES (8137, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
+     , (8137, 2, 23739,  1, 0, 0, False) /* Create Lugian Axe (23739) for Wield */
      , (8137, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (8137, 9,  7796,  0, 0, 0, False) /* Create Fire Naginata (7796) for ContainTreasure */
+     , (8137, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (8137, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (8137, 9, 40620,  0, 0, 0, False) /* Create Lightning Spadone (40620) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

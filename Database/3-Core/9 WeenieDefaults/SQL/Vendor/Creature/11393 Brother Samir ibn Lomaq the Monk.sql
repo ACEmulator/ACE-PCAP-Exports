@@ -77,35 +77,35 @@ VALUES (11393,   1,    10, 0, 0, 73) /* MaxHealth */
      , (11393,   5,    10, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11393, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (11393, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
-     , (11393, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
-     , (11393, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+VALUES (11393, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (11393, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (11393, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (11393, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
-     , (11393, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
-     , (11393, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
-     , (11393, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
-     , (11393, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (11393, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (11393, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
-     , (11393, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (11393, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (11393, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (11393, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (11393, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
-     , (11393, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (11393, 4,  5584, -1, 0, 0, False) /* Create  (5584) for Shop */
-     , (11393, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (11393, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
-     , (11393, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
      , (11393, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (11393, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (11393, 4,  5584, -1, 0, 0, False) /* Create  (5584) for Shop */
      , (11393, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
      , (11393, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
+     , (11393, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
      , (11393, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (11393, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */;
+     , (11393, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (11393, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (11393, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
+     , (11393, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
+     , (11393, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (11393, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
+     , (11393, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (11393, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (11393, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (11393, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (11393, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
+     , (11393, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (11393, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
+     , (11393, 4,   377, -1, 0, 0, False) /* Create Potion of Healing (377) for Shop */
+     , (11393, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
+     , (11393, 4,   379, -1, 0, 0, False) /* Create Mana Potion (379) for Shop */
+     , (11393, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
+     , (11393, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
+     , (11393, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
+     , (11393, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11393, 67109556, 0, 24)

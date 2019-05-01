@@ -67,15 +67,15 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (411,   1,    10, 0, 0, 75) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (411, 4,   280, -1, 0, 0, False) /* Create Gem (280) for Shop */
+VALUES (411, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (411, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (411, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (411, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (411, 4,   280, -1, 0, 0, False) /* Create Gem (280) for Shop */
      , (411, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
+     , (411, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
+     , (411, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (411, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (411, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
-     , (411, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (411, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */;
+     , (411, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (411, 67109552, 0, 24)

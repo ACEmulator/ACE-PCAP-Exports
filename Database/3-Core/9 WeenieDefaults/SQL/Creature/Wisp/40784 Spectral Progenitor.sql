@@ -56,8 +56,8 @@ VALUES (40784,   1,    10, 0, 0, 3120) /* MaxHealth */
      , (40784,   5,    10, 0, 0, 1328) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40784, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
+VALUES (40784, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */
+     , (40784, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
      , (40784, 9, 30561,  0, 0, 0, False) /* Create Dolabra (30561) for ContainTreasure */
-     , (40784, 9, 40100,  1, 0, 0, False) /* Create Crystalline Shard (40100) for ContainTreasure */
      , (40784, 9, 40796,  1, 0, 0, False) /* Create Progenitor Crystal (40796) for ContainTreasure */
-     , (40784, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */;
+     , (40784, 9, 40100,  1, 0, 0, False) /* Create Crystalline Shard (40100) for ContainTreasure */;

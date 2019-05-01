@@ -61,5 +61,5 @@ VALUES (5705,   1,    10, 0, 0, 31) /* MaxHealth */
      , (5705,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5705, 9,   273,  6, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (5705, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */;
+VALUES (5705, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (5705, 9,   273,  6, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;

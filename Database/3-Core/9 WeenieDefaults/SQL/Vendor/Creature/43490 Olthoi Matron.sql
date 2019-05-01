@@ -74,7 +74,19 @@ VALUES (43490,   1,    10, 0, 0, 1710) /* MaxHealth */
      , (43490,   5,    10, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43490, 4, 43595, -1, 0, 0, False) /* Create  (43595) for Shop */
+VALUES (43490, 4, 43685, -1, 0, 0, False) /* Create  (43685) for Shop */
+     , (43490, 4, 43686, -1, 0, 0, False) /* Create  (43686) for Shop */
+     , (43490, 4, 43687, -1, 0, 0, False) /* Create  (43687) for Shop */
+     , (43490, 4, 43672, -1, 0, 0, False) /* Create  (43672) for Shop */
+     , (43490, 4, 43681, -1, 0, 0, False) /* Create  (43681) for Shop */
+     , (43490, 4, 43682, -1, 0, 0, False) /* Create  (43682) for Shop */
+     , (43490, 4, 43683, -1, 0, 0, False) /* Create  (43683) for Shop */
+     , (43490, 4, 43684, -1, 0, 0, False) /* Create  (43684) for Shop */
+     , (43490, 4, 43627, -1, 0, 0, False) /* Create  (43627) for Shop */
+     , (43490, 4, 43628, -1, 0, 0, False) /* Create  (43628) for Shop */
+     , (43490, 4, 43629, -1, 0, 0, False) /* Create  (43629) for Shop */
+     , (43490, 4, 43630, -1, 0, 0, False) /* Create  (43630) for Shop */
+     , (43490, 4, 43595, -1, 0, 0, False) /* Create  (43595) for Shop */
      , (43490, 4, 43596, -1, 0, 0, False) /* Create  (43596) for Shop */
      , (43490, 4, 43597, -1, 0, 0, False) /* Create  (43597) for Shop */
      , (43490, 4, 43598, -1, 0, 0, False) /* Create  (43598) for Shop */
@@ -106,23 +118,11 @@ VALUES (43490, 4, 43595, -1, 0, 0, False) /* Create  (43595) for Shop */
      , (43490, 4, 43624, -1, 0, 0, False) /* Create  (43624) for Shop */
      , (43490, 4, 43625, -1, 0, 0, False) /* Create  (43625) for Shop */
      , (43490, 4, 43626, -1, 0, 0, False) /* Create  (43626) for Shop */
-     , (43490, 4, 43627, -1, 0, 0, False) /* Create  (43627) for Shop */
-     , (43490, 4, 43628, -1, 0, 0, False) /* Create  (43628) for Shop */
-     , (43490, 4, 43629, -1, 0, 0, False) /* Create  (43629) for Shop */
-     , (43490, 4, 43630, -1, 0, 0, False) /* Create  (43630) for Shop */
-     , (43490, 4, 43633, -1, 0, 0, False) /* Create  (43633) for Shop */
-     , (43490, 4, 43634, -1, 0, 0, False) /* Create Acidic Infusion (43634) for Shop */
-     , (43490, 4, 43635, -1, 0, 0, False) /* Create Saliva Invigorator (43635) for Shop */
-     , (43490, 4, 43672, -1, 0, 0, False) /* Create  (43672) for Shop */
-     , (43490, 4, 43681, -1, 0, 0, False) /* Create  (43681) for Shop */
-     , (43490, 4, 43682, -1, 0, 0, False) /* Create  (43682) for Shop */
-     , (43490, 4, 43683, -1, 0, 0, False) /* Create  (43683) for Shop */
-     , (43490, 4, 43684, -1, 0, 0, False) /* Create  (43684) for Shop */
-     , (43490, 4, 43685, -1, 0, 0, False) /* Create  (43685) for Shop */
-     , (43490, 4, 43686, -1, 0, 0, False) /* Create  (43686) for Shop */
-     , (43490, 4, 43687, -1, 0, 0, False) /* Create  (43687) for Shop */
-     , (43490, 4, 43701, -1, 0, 0, False) /* Create Olthoi Fibrous Healing Tissue (43701) for Shop */
      , (43490, 4, 43732, -1, 0, 0, False) /* Create Enchanted Olthoi Egg (43732) for Shop */
+     , (43490, 4, 43633, -1, 0, 0, False) /* Create  (43633) for Shop */
+     , (43490, 4, 43635, -1, 0, 0, False) /* Create Saliva Invigorator (43635) for Shop */
+     , (43490, 4, 43634, -1, 0, 0, False) /* Create Acidic Infusion (43634) for Shop */
+     , (43490, 4, 43701, -1, 0, 0, False) /* Create Olthoi Fibrous Healing Tissue (43701) for Shop */
      , (43490, 4, 43819, -1, 0, 0, False) /* Create  (43819) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

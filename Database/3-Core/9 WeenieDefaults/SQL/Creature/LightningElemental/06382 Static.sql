@@ -61,16 +61,16 @@ VALUES (6382,   1,    10, 0, 0, 31) /* MaxHealth */
      , (6382,   5,    10, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6382, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (6382, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (6382, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+VALUES (6382, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
      , (6382, 9,   273, 24, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (6382, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (6382, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
-     , (6382, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (6382, 9,  3038,  0, 0, 0, False) /* Create Scroll of Fire Protection Self II (3038) for ContainTreasure */
-     , (6382, 9,  4191,  0, 0, 0, False) /* Create Flaming Cestus (4191) for ContainTreasure */
-     , (6382, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (6382, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
      , (6382, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (6382, 9,  3038,  0, 0, 0, False) /* Create Scroll of Fire Protection Self II (3038) for ContainTreasure */
      , (6382, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (6382, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */;
+     , (6382, 9,  7940,  1, 0, 0, False) /* Create Empty Flask (7940) for ContainTreasure */
+     , (6382, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (6382, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (6382, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (6382, 9,  4191,  0, 0, 0, False) /* Create Flaming Cestus (4191) for ContainTreasure */
+     , (6382, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */;

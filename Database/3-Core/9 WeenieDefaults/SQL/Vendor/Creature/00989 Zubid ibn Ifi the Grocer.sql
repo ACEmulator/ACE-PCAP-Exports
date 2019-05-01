@@ -78,12 +78,12 @@ VALUES (989,   1,    10, 0, 0, 145) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (989, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
-     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (989, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (989, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (989, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
-     , (989, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (989, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
-     , (989, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;
+     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
+     , (989, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (989, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (989, 67109557, 0, 24)

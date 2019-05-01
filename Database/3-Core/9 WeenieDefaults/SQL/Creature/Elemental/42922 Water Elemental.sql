@@ -62,19 +62,19 @@ VALUES (42922,   1,    10, 0, 0, 985) /* MaxHealth */
      , (42922,   5,    10, 0, 0, 610) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42922, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+VALUES (42922, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
+     , (42922, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (42922, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (42922, 9, 45266,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VII (45266) for ContainTreasure */
+     , (42922, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */
+     , (42922, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
+     , (42922, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (42922, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (42922, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (42922, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (42922, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */
+     , (42922, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (42922, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
      , (42922, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
      , (42922, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (42922, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (42922, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (42922, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (42922, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (42922, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (42922, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (42922, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (42922, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
-     , (42922, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
-     , (42922, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */
-     , (42922, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (42922, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
-     , (42922, 9, 45266,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VII (45266) for ContainTreasure */;
+     , (42922, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;

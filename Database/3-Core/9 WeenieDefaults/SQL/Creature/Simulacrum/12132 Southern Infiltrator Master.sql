@@ -55,14 +55,14 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12132,   1,    10, 0, 0, 845) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12132, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (12132, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+VALUES (12132, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+     , (12132, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */
      , (12132, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (12132, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (12132, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
      , (12132, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
-     , (12132, 9, 12138,  0, 0, 0, False) /* Create Helm of the Simulacra (12138) for ContainTreasure */
      , (12132, 9, 12145,  0, 0, 0, False) /* Create Southern Infiltrator Message Shard (12145) for ContainTreasure */
-     , (12132, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */;
+     , (12132, 9, 12138,  0, 0, 0, False) /* Create Helm of the Simulacra (12138) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12132, 67109558, 0, 24)

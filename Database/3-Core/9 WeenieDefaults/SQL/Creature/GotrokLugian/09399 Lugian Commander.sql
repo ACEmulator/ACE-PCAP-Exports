@@ -47,13 +47,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9399,   1,    10, 0, 0, 660) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9399, 2, 23739,  1, 0, 0, False) /* Create Lugian Axe (23739) for Wield */
-     , (9399, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
+VALUES (9399, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
+     , (9399, 2, 23739,  1, 0, 0, False) /* Create Lugian Axe (23739) for Wield */
      , (9399, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
-     , (9399, 9,  9390,  0, 0, 0, False) /* Create Lugian Armor (9390) for ContainTreasure */
      , (9399, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (9399, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (9399, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */;
+     , (9399, 9, 40714,  0, 0, 0, False) /* Create Covenant Tassets (40714) for ContainTreasure */
+     , (9399, 9,  9390,  0, 0, 0, False) /* Create Lugian Armor (9390) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9399, 67114978, 0, 0);

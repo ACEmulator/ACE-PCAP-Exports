@@ -59,13 +59,13 @@ VALUES (25850,   1,    10, 0, 0, 530) /* MaxHealth */
      , (25850,   5,    10, 0, 0, 330) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25850, 9,    64,  0, 0, 0, False) /* Create Yoroi Girth (64) for ContainTreasure */
-     , (25850, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (25850, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (25850, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (25850, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (25850, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
-     , (25850, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+VALUES (25850, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
      , (25850, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
-     , (25850, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */
-     , (25850, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */;
+     , (25850, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (25850, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (25850, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (25850, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (25850, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (25850, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (25850, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (25850, 9,    64,  0, 0, 0, False) /* Create Yoroi Girth (64) for ContainTreasure */;

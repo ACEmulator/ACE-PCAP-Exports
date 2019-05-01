@@ -50,10 +50,10 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (52587,   1,    10, 0, 0, 8200) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52587, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (52587, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+VALUES (52587, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
      , (52587, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (52587, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */;
+     , (52587, 9, 52970,  1, 0, 0, False) /* Create Viridian Essence (52970) for ContainTreasure */
+     , (52587, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52587, 67110361, 72, 8)

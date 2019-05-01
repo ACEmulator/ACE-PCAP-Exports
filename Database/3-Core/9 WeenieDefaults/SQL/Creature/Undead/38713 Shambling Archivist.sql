@@ -50,35 +50,35 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38713,   1,    10, 0, 0, 4110) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38713, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (38713, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
      , (38713, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (38713, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (38713, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
-     , (38713, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
-     , (38713, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (38713, 2, 48094,  1, 0, 0, False) /* Create Lightning Ono (48094) for Wield */
      , (38713, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
-     , (38713, 2, 48074,  1, 0, 0, False) /* Create Silifi (48074) for Wield */
-     , (38713, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
-     , (38713, 2, 48084,  1, 0, 0, False) /* Create Katar (48084) for Wield */
-     , (38713, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
-     , (38713, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (38713, 2, 48087,  1, 0, 0, False) /* Create Acid Nekode (48087) for Wield */
+     , (38713, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
+     , (38713, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
+     , (38713, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (38713, 2, 48093,  1, 0, 0, False) /* Create Acid Ono (48093) for Wield */
+     , (38713, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (38713, 2, 48091,  1, 0, 0, False) /* Create Lightning Silifi (48091) for Wield */
      , (38713, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */
+     , (38713, 2, 48074,  1, 0, 0, False) /* Create Silifi (48074) for Wield */
+     , (38713, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
      , (38713, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */
      , (38713, 2, 48090,  1, 0, 0, False) /* Create Acid Silifi (48090) for Wield */
-     , (38713, 2, 48091,  1, 0, 0, False) /* Create Lightning Silifi (48091) for Wield */
-     , (38713, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
-     , (38713, 2, 48093,  1, 0, 0, False) /* Create Acid Ono (48093) for Wield */
-     , (38713, 2, 48094,  1, 0, 0, False) /* Create Lightning Ono (48094) for Wield */
+     , (38713, 2, 48083,  1, 0, 0, False) /* Create Acid Katar (48083) for Wield */
+     , (38713, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (38713, 2, 48084,  1, 0, 0, False) /* Create Katar (48084) for Wield */
+     , (38713, 2, 48087,  1, 0, 0, False) /* Create Acid Nekode (48087) for Wield */
      , (38713, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
-     , (38713, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (38713, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
-     , (38713, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (38713, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (38713, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
      , (38713, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (38713, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
-     , (38713, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */;
+     , (38713, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
+     , (38713, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (38713, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (38713, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (38713, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (38713, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38713, 67112958, 0, 128);

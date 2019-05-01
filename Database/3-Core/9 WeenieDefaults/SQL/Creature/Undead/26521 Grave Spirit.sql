@@ -62,24 +62,24 @@ VALUES (26521,   1,    10, 0, 0, 490) /* MaxHealth */
      , (26521,   5,    10, 0, 0, 390) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26521, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (26521, 2, 47985,  1, 0, 0, False) /* Create Silifi (47985) for Wield */
      , (26521, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (26521, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (26521, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
-     , (26521, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
-     , (26521, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
      , (26521, 2, 47979,  1, 0, 0, False) /* Create Acid Katar (47979) for Wield */
-     , (26521, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
+     , (26521, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (26521, 2, 47989,  1, 0, 0, False) /* Create Acid Ono (47989) for Wield */
+     , (26521, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (26521, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
+     , (26521, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
      , (26521, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
+     , (26521, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
      , (26521, 2, 47984,  1, 0, 0, False) /* Create Lightning Nekode (47984) for Wield */
-     , (26521, 2, 47985,  1, 0, 0, False) /* Create Silifi (47985) for Wield */
+     , (26521, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
      , (26521, 2, 47987,  1, 0, 0, False) /* Create Lightning Silifi (47987) for Wield */
      , (26521, 2, 47988,  1, 0, 0, False) /* Create Ono (47988) for Wield */
-     , (26521, 2, 47989,  1, 0, 0, False) /* Create Acid Ono (47989) for Wield */
      , (26521, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (26521, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */
      , (26521, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
-     , (26521, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
-     , (26521, 9, 21150,  0, 0, 0, False) /* Create Covenant Sollerets (21150) for ContainTreasure */;
+     , (26521, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26521, 67114481, 0, 0);

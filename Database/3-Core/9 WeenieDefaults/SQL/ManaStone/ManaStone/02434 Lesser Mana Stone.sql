@@ -41,5 +41,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2434, 8000, 3687018274) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2434, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (2434, 2, 47996,  1, 0, 0, False) /* Create Lightning Katar (47996) for Wield */;
+VALUES (2434, 2, 47996,  1, 0, 0, False) /* Create Lightning Katar (47996) for Wield */
+     , (2434, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */;

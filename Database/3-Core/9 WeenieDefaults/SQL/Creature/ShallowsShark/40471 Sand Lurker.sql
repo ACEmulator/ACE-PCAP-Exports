@@ -60,12 +60,12 @@ VALUES (40471,   1,    10, 0, 0, 1700) /* MaxHealth */
      , (40471,   5,    10, 0, 0, 290) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40471, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+VALUES (40471, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+     , (40471, 9, 49444,  0, 0, 0, False) /* Create Frost Spectre Essence (100) (49444) for ContainTreasure */
      , (40471, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
      , (40471, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
      , (40471, 9, 20488,  0, 0, 0, False) /* Create Scroll of Energy Flux (20488) for ContainTreasure */
-     , (40471, 9, 43491,  3, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
-     , (40471, 9, 49444,  0, 0, 0, False) /* Create Frost Spectre Essence (100) (49444) for ContainTreasure */;
+     , (40471, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40471, 67116784, 0, 0);

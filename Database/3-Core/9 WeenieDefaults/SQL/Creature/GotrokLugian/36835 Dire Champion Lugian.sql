@@ -62,9 +62,9 @@ VALUES (36835,   1,    10, 0, 0, 2500) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36835, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
-     , (36835, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
-     , (36835, 9, 20528,  0, 0, 0, False) /* Create Scroll of Odif's Blessing (20528) for ContainTreasure */
      , (36835, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
+     , (36835, 9, 20528,  0, 0, 0, False) /* Create Scroll of Odif's Blessing (20528) for ContainTreasure */
+     , (36835, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
      , (36835, 9, 36867,  1, 0, 0, False) /* Create Dire Champion Token (36867) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

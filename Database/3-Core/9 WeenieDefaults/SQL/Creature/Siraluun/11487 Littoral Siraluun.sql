@@ -57,17 +57,17 @@ VALUES (11487,   1,    10, 0, 0, 190) /* MaxHealth */
      , (11487,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11487, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (11487, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (11487, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+VALUES (11487, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (11487, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (11487, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
-     , (11487, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (11487, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
-     , (11487, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
-     , (11487, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (11487, 9, 30600,  0, 0, 0, False) /* Create Acid Poniard (30600) for ContainTreasure */
      , (11487, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
-     , (11487, 9, 30600,  0, 0, 0, False) /* Create Acid Poniard (30600) for ContainTreasure */;
+     , (11487, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (11487, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (11487, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
+     , (11487, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (11487, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (11487, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
+     , (11487, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11487, 67113291, 0, 0);

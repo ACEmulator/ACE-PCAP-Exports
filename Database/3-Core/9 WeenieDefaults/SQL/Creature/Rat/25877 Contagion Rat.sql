@@ -62,30 +62,30 @@ VALUES (25877,   1,    10, 0, 0, 6000) /* MaxHealth */
      , (25877,   5,    10, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25877, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (25877, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
-     , (25877, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (25877, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (25877, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
-     , (25877, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (25877, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (25877, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
-     , (25877, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
-     , (25877, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
-     , (25877, 9, 20486,  0, 0, 0, False) /* Create Scroll of Enervation (20486) for ContainTreasure */
+VALUES (25877, 9, 49216,  0, 0, 0, False) /* Create Acid Skeleton Bushi Essence (125) (49216) for ContainTreasure */
      , (25877, 9, 20502,  0, 0, 0, False) /* Create Scroll of Jibril's Blessing (20502) for ContainTreasure */
      , (25877, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
-     , (25877, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
-     , (25877, 9, 22160,  0, 0, 0, False) /* Create Lightning Nabut (22160) for ContainTreasure */
-     , (25877, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
-     , (25877, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (25877, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (25877, 9, 49243,  0, 0, 0, False) /* Create Lightning Zombie Essence (125) (49243) for ContainTreasure */
+     , (25877, 9, 45412,  0, 0, 0, False) /* Create Acid Spada (45412) for ContainTreasure */
+     , (25877, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (25877, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
      , (25877, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
-     , (25877, 9, 45412,  0, 0, 0, False) /* Create Acid Spada (45412) for ContainTreasure */
-     , (25877, 9, 49216,  0, 0, 0, False) /* Create Acid Skeleton Bushi Essence (125) (49216) for ContainTreasure */
-     , (25877, 9, 49243,  0, 0, 0, False) /* Create Lightning Zombie Essence (125) (49243) for ContainTreasure */
+     , (25877, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
+     , (25877, 9,   326,  0, 0, 0, False) /* Create Katar (326) for ContainTreasure */
+     , (25877, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (25877, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (25877, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
+     , (25877, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (25877, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (25877, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
+     , (25877, 9, 22160,  0, 0, 0, False) /* Create Lightning Nabut (22160) for ContainTreasure */
      , (25877, 9, 49256,  0, 0, 0, False) /* Create Frost Zombie Essence (100) (49256) for ContainTreasure */
-     , (25877, 9, 49548,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (125) (49548) for ContainTreasure */;
+     , (25877, 9, 49548,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (125) (49548) for ContainTreasure */
+     , (25877, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
+     , (25877, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (25877, 9, 20486,  0, 0, 0, False) /* Create Scroll of Enervation (20486) for ContainTreasure */
+     , (25877, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25877, 67114718, 0, 0);

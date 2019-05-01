@@ -52,26 +52,26 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33971,   1,    10, 0, 0, 780) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (33971, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
-     , (33971, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+VALUES (33971, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (33971, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (33971, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (33971, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (33971, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (33971, 9, 29260,  0, 0, 0, False) /* Create Blunt Sceptre (29260) for ContainTreasure */
+     , (33971, 9, 49476,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VII (49476) for ContainTreasure */
+     , (33971, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
      , (33971, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (33971, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (33971, 9, 30601,  0, 0, 0, False) /* Create Stiletto (30601) for ContainTreasure */
+     , (33971, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
+     , (33971, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (33971, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (33971, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (33971, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (33971, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (33971, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (33971, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
-     , (33971, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
-     , (33971, 9, 29260,  0, 0, 0, False) /* Create Blunt Sceptre (29260) for ContainTreasure */
-     , (33971, 9, 30601,  0, 0, 0, False) /* Create Stiletto (30601) for ContainTreasure */
-     , (33971, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
+     , (33971, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
      , (33971, 9, 30951,  0, 0, 0, False) /* Create Alduressa Gauntlets (30951) for ContainTreasure */
      , (33971, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
-     , (33971, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (33971, 9, 49476,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VII (49476) for ContainTreasure */;
+     , (33971, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
+     , (33971, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (33971, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (33971, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33971, 67113846, 0, 0);

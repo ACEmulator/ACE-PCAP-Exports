@@ -51,9 +51,9 @@ VALUES (51363,   1,    10, 0, 0, 3500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51363, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (51363, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (51363, 9, 37357,  1, 0, 0, False) /* Create Ink of Partition (37357) for ContainTreasure */
      , (51363, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
-     , (51363, 9, 37357,  1, 0, 0, False) /* Create Ink of Partition (37357) for ContainTreasure */;
+     , (51363, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51363, 67113362, 0, 0);

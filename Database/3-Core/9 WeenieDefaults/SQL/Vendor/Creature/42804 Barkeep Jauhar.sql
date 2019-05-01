@@ -77,11 +77,11 @@ VALUES (42804,   1,    10, 0, 0, 140) /* MaxHealth */
      , (42804,   5,    10, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42804, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
-     , (42804, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (42804, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (42804, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+VALUES (42804, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (42804, 4,  5136, -1, 0, 0, False) /* Create  (5136) for Shop */
+     , (42804, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
+     , (42804, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
+     , (42804, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (42804, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (42804, 4, 45755, -1, 0, 0, False) /* Create  (45755) for Shop */
      , (42804, 4, 45756, -1, 0, 0, False) /* Create  (45756) for Shop */

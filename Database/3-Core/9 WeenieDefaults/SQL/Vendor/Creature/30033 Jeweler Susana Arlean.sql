@@ -77,13 +77,18 @@ VALUES (30033,   1,    10, 0, 0, 135) /* MaxHealth */
      , (30033,   5,    10, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30033, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
+VALUES (30033, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
+     , (30033, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (30033, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
+     , (30033, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
+     , (30033, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
+     , (30033, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
+     , (30033, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (30033, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (30033, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (30033, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (30033, 4,  2393, -1, 0, 0, False) /* Create Gem (2393) for Shop */
-     , (30033, 4,  2396, -1, 0, 0, False) /* Create Gem (2396) for Shop */
      , (30033, 4,  2414, -1, 0, 0, False) /* Create Gem (2414) for Shop */
+     , (30033, 4,  2396, -1, 0, 0, False) /* Create Gem (2396) for Shop */
+     , (30033, 4,  2393, -1, 0, 0, False) /* Create Gem (2393) for Shop */
      , (30033, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30033, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30033, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -94,12 +99,7 @@ VALUES (30033, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (30033, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30033, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30033, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30033, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
-     , (30033, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
-     , (30033, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
-     , (30033, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
-     , (30033, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (30033, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */;
+     , (30033, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30033, 67109564, 32, 8)

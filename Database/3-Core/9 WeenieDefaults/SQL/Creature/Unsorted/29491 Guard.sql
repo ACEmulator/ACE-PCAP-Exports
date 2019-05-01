@@ -42,18 +42,18 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29491, 8000, 3704372022) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29491, 2, 12055,  1, 0, 0, False) /* Create Bandit Frost Dagger (12055) for Wield */
-     , (29491, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
-     , (29491, 2, 12064,  1, 0, 0, False) /* Create Bandit Flaming Khanjar (12064) for Wield */
+VALUES (29491, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */
      , (29491, 2, 12065,  1, 0, 0, False) /* Create Bandit Frost Khanjar (12065) for Wield */
+     , (29491, 2, 12064,  1, 0, 0, False) /* Create Bandit Flaming Khanjar (12064) for Wield */
+     , (29491, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
      , (29491, 2, 12067,  1, 0, 0, False) /* Create Bandit Knife (12067) for Wield */
-     , (29491, 2, 12070,  1, 0, 0, False) /* Create Bandit Frost Knife (12070) for Wield */
-     , (29491, 2, 12071,  1, 0, 0, False) /* Create Bandit Acid Simi (12071) for Wield */
-     , (29491, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */
      , (29491, 2, 12077,  1, 0, 0, False) /* Create Bandit Acid Short Sword (12077) for Wield */
-     , (29491, 2, 12081,  1, 0, 0, False) /* Create Bandit Frost Short Sword (12081) for Wield */
+     , (29491, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */
      , (29491, 2, 12083,  1, 0, 0, False) /* Create Bandit Yaoji (12083) for Wield */
-     , (29491, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */;
+     , (29491, 2, 12070,  1, 0, 0, False) /* Create Bandit Frost Knife (12070) for Wield */
+     , (29491, 2, 12055,  1, 0, 0, False) /* Create Bandit Frost Dagger (12055) for Wield */
+     , (29491, 2, 12081,  1, 0, 0, False) /* Create Bandit Frost Short Sword (12081) for Wield */
+     , (29491, 2, 12071,  1, 0, 0, False) /* Create Bandit Acid Simi (12071) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29491, 67110016, 160, 8)

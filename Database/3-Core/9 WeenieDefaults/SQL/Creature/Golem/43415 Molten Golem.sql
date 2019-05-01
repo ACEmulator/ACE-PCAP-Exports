@@ -58,9 +58,9 @@ VALUES (43415,   1,    10, 0, 0, 1100) /* MaxHealth */
      , (43415,   5,    10, 0, 0, 980) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43415, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
-     , (43415, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (43415, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+VALUES (43415, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (43415, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (43415, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (43415, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (43415, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (43415, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;

@@ -64,39 +64,39 @@ VALUES (24294,   1,    10, 0, 0, 355) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24294, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */
      , (24294, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */
-     , (24294, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
-     , (24294, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
-     , (24294, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
-     , (24294, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
-     , (24294, 9,   273, 447, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (24294, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
-     , (24294, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
-     , (24294, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (24294, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (24294, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
      , (24294, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (24294, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
-     , (24294, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (24294, 9,  2458,  1, 0, 0, False) /* Create Health Elixir (2458) for ContainTreasure */
-     , (24294, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (24294, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (24294, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (24294, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
      , (24294, 9,  3766,  0, 0, 0, False) /* Create Acid Club (3766) for ContainTreasure */
+     , (24294, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (24294, 9, 40710,  0, 0, 0, False) /* Create Covenant Greaves (40710) for ContainTreasure */
+     , (24294, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
+     , (24294, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
+     , (24294, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (24294, 9, 45289,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VI (45289) for ContainTreasure */
+     , (24294, 9, 41054,  0, 0, 0, False) /* Create Lightning Greataxe (41054) for ContainTreasure */
+     , (24294, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (24294, 9,   273, 447, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (24294, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
-     , (24294, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
-     , (24294, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (24294, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (24294, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (24294, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
      , (24294, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (24294, 9, 20237,  0, 0, 0, False) /* Create Scroll of Perseverance (20237) for ContainTreasure */
-     , (24294, 9, 20534,  0, 0, 0, False) /* Create Scroll of Avalenne's Blessing (20534) for ContainTreasure */
-     , (24294, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
-     , (24294, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
-     , (24294, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
-     , (24294, 9, 40710,  0, 0, 0, False) /* Create Covenant Greaves (40710) for ContainTreasure */
-     , (24294, 9, 41054,  0, 0, 0, False) /* Create Lightning Greataxe (41054) for ContainTreasure */
-     , (24294, 9, 45289,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VI (45289) for ContainTreasure */
+     , (24294, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (24294, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (24294, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (24294, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */
-     , (24294, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */;
+     , (24294, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
+     , (24294, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
+     , (24294, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (24294, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */
+     , (24294, 9, 20534,  0, 0, 0, False) /* Create Scroll of Avalenne's Blessing (20534) for ContainTreasure */
+     , (24294, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+     , (24294, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (24294, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+     , (24294, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24294, 67114295, 0, 0);

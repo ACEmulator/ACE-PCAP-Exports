@@ -78,8 +78,8 @@ VALUES (4686,   1,    10, 0, 0, 58) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4686, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
-     , (4686, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
      , (4686, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (4686, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
      , (4686, 4,  2606, -1, 0, 0, False) /* Create  (2606) for Shop */
      , (4686, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (4686, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */

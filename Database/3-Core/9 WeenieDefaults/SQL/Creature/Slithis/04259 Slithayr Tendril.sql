@@ -63,9 +63,9 @@ VALUES (4259,   1,    10, 0, 0, 180) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4259, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */
      , (4259, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (4259, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (4259, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
-     , (4259, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (4259, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
+     , (4259, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4259, 67113034, 0, 0);

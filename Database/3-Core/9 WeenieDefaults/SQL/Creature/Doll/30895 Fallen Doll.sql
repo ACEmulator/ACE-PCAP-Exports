@@ -61,6 +61,6 @@ VALUES (30895,   1,    10, 0, 0, 1550) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30895, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (30895, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (30895, 9, 30870,  0, 0, 0, False) /* Create Katar of the Fallen (30870) for ContainTreasure */
      , (30895, 9, 30857,  1, 0, 0, False) /* Create Sezzherei's Lair (30857) for ContainTreasure */
-     , (30895, 9, 30870,  0, 0, 0, False) /* Create Katar of the Fallen (30870) for ContainTreasure */;
+     , (30895, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */;

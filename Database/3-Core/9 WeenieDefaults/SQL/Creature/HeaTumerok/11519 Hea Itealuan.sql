@@ -61,18 +61,18 @@ VALUES (11519,   1,    10, 0, 0, 190) /* MaxHealth */
      , (11519,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11519, 2,  5304,  1, 0, 0, False) /* Create Greater Arrow (5304) for Wield */
-     , (11519, 2,  5313,  1, 0, 0, False) /* Create Greater Quarrel (5313) for Wield */
+VALUES (11519, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (11519, 2, 23667,  1, 0, 0, False) /* Create Heavy Crossbow (23667) for Wield */
-     , (11519, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
+     , (11519, 2,  5304,  1, 0, 0, False) /* Create Greater Arrow (5304) for Wield */
+     , (11519, 2,  5313,  1, 0, 0, False) /* Create Greater Quarrel (5313) for Wield */
+     , (11519, 9, 21153,  0, 0, 0, False) /* Create Covenant Gauntlets (21153) for ContainTreasure */
+     , (11519, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (11519, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (11519, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (11519, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (11519, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
      , (11519, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
      , (11519, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
-     , (11519, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
-     , (11519, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (11519, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
-     , (11519, 9, 21153,  0, 0, 0, False) /* Create Covenant Gauntlets (21153) for ContainTreasure */
-     , (11519, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
-     , (11519, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
      , (11519, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

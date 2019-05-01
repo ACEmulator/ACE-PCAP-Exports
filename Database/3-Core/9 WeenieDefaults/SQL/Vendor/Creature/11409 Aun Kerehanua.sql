@@ -77,12 +77,12 @@ VALUES (11409, 2, 12123,  1, 0, 0, False) /* Create Palenqual's Hoeroa (12123) f
      , (11409, 4, 11466, -1, 0, 0, False) /* Create Taiaha (11466) for Shop */
      , (11409, 4, 11467, -1, 0, 0, False) /* Create Hoeroa (11467) for Shop */
      , (11409, 4, 11974, -1, 0, 0, False) /* Create Aun Shimauri's Instructions (11974) for Shop */
-     , (11409, 4, 27368, -1, 0, 0, False) /* Create  (27368) for Shop */
-     , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq (27369) for Shop */
-     , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua (27370) for Shop */
-     , (11409, 4, 27371, -1, 0, 0, False) /* Create Buadren (27371) for Shop */
      , (11409, 4, 27372, -1, 0, 0, False) /* Create Ukira (27372) for Shop */
-     , (11409, 4, 27373, -1, 0, 0, False) /* Create Kalindan (27373) for Shop */;
+     , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua (27370) for Shop */
+     , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq (27369) for Shop */
+     , (11409, 4, 27373, -1, 0, 0, False) /* Create Kalindan (27373) for Shop */
+     , (11409, 4, 27368, -1, 0, 0, False) /* Create  (27368) for Shop */
+     , (11409, 4, 27371, -1, 0, 0, False) /* Create Buadren (27371) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11409, 67113369, 0, 0);

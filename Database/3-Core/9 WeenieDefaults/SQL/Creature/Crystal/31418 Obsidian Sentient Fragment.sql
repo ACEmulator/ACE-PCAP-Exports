@@ -59,9 +59,9 @@ VALUES (31418,   1,    10, 0, 0, 15000) /* MaxHealth */
      , (31418,   5,    10, 0, 0, 15000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31418, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (31418, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (31418, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+VALUES (31418, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
      , (31418, 9,  3777,  0, 0, 0, False) /* Create Frost Dabus (3777) for ContainTreasure */
-     , (31418, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (31418, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */;
+     , (31418, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (31418, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (31418, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (31418, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */;

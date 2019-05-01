@@ -47,22 +47,22 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22913,   1,    10, 0, 0, 700) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22913, 9,    87,  0, 0, 0, False) /* Create Platemail Pauldrons (87) for ContainTreasure */
-     , (22913, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
-     , (22913, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (22913, 9,   273, 1085, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (22913, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
-     , (22913, 9, 20456,  0, 0, 0, False) /* Create Scroll of Lhen's Flare (20456) for ContainTreasure */
-     , (22913, 9, 20557,  0, 0, 0, False) /* Create Scroll of Oswald's Blessing (20557) for ContainTreasure */
-     , (22913, 9, 22923,  0, 0, 0, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
-     , (22913, 9, 22926,  0, 0, 0, False) /* Create Key (22926) for ContainTreasure */
-     , (22913, 9, 25946,  0, 0, 0, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
-     , (22913, 9, 27222,  0, 0, 0, False) /* Create Lorica Gauntlets (27222) for ContainTreasure */
-     , (22913, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+VALUES (22913, 9, 20456,  0, 0, 0, False) /* Create Scroll of Lhen's Flare (20456) for ContainTreasure */
      , (22913, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (22913, 9, 40637,  0, 0, 0, False) /* Create Lightning Tetsubo (40637) for ContainTreasure */
+     , (22913, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (22913, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (22913, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (22913, 9,   273, 1085, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (22913, 9, 25946,  0, 0, 0, False) /* Create Dark Sapphire Ring (25946) for ContainTreasure */
+     , (22913, 9, 22923,  0, 0, 0, False) /* Create Asylum Chest Key (22923) for ContainTreasure */
+     , (22913, 9,    87,  0, 0, 0, False) /* Create Platemail Pauldrons (87) for ContainTreasure */
      , (22913, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
-     , (22913, 9, 49347,  0, 0, 0, False) /* Create Lightning Moar Essence (100) (49347) for ContainTreasure */;
+     , (22913, 9, 22926,  0, 0, 0, False) /* Create Key (22926) for ContainTreasure */
+     , (22913, 9, 49347,  0, 0, 0, False) /* Create Lightning Moar Essence (100) (49347) for ContainTreasure */
+     , (22913, 9, 27222,  0, 0, 0, False) /* Create Lorica Gauntlets (27222) for ContainTreasure */
+     , (22913, 9, 40637,  0, 0, 0, False) /* Create Lightning Tetsubo (40637) for ContainTreasure */
+     , (22913, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (22913, 9, 20557,  0, 0, 0, False) /* Create Scroll of Oswald's Blessing (20557) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22913, 67114252, 0, 0);

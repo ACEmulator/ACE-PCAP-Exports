@@ -71,5 +71,5 @@ VALUES (23657, 8000, 2931432185) /* PCAPRecordedObjectIID */
      , (23657, 8008, 2931432200) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23657, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
-     , (23657, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
+VALUES (23657, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (23657, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */;

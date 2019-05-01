@@ -60,17 +60,17 @@ VALUES (29297,   1,    10, 0, 0, 218) /* MaxHealth */
      , (29297,   5,    10, 0, 0, 245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29297, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (29297, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (29297, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+VALUES (29297, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (29297, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
-     , (29297, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
-     , (29297, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
-     , (29297, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
-     , (29297, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
-     , (29297, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
      , (29297, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
-     , (29297, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */;
+     , (29297, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */
+     , (29297, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (29297, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (29297, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
+     , (29297, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (29297, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (29297, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
+     , (29297, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29297, 67116375, 0, 0);

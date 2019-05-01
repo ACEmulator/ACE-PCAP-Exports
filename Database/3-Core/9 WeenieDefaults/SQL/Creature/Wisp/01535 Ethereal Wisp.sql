@@ -58,15 +58,15 @@ VALUES (1535,   1,    10, 0, 0, 20) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1535, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */
-     , (1535, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (1535, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (1535, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (1535, 9,   273, 48, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (1535, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (1535, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (1535, 9,  1698,  0, 0, 0, False) /* Create Scroll of Fealty Other (1698) for ContainTreasure */
-     , (1535, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
-     , (1535, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
-     , (1535, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1535, 9, 43286,  0, 0, 0, False) /* Create Scroll of Corrosion (43286) for ContainTreasure */
      , (1535, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
-     , (1535, 9, 43286,  0, 0, 0, False) /* Create Scroll of Corrosion (43286) for ContainTreasure */;
+     , (1535, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
+     , (1535, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (1535, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
+     , (1535, 9,  1698,  0, 0, 0, False) /* Create Scroll of Fealty Other (1698) for ContainTreasure */
+     , (1535, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
+     , (1535, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (1535, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (1535, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (1535, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */;

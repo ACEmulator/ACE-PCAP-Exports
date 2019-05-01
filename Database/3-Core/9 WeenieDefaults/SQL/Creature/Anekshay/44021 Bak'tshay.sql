@@ -59,93 +59,93 @@ VALUES (44021,   1,    10, 0, 0, 2610) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44021, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
-     , (44021, 9,    85,  0, 0, 0, False) /* Create Chainmail Coif (85) for ContainTreasure */
-     , (44021, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (44021, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (44021, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (44021, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (44021, 9,   273, 1240, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (44021, 9,   357,  0, 0, 0, False) /* Create Tungi (357) for ContainTreasure */
-     , (44021, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
-     , (44021, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
      , (44021, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
+     , (44021, 9, 44267,  1, 0, 0, False) /* Create Engraved A'nekshay Bracers (44267) for ContainTreasure */
+     , (44021, 9, 31813,  0, 0, 0, False) /* Create Acid Slingshot (31813) for ContainTreasure */
+     , (44021, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (44021, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (44021, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (44021, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
+     , (44021, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (44021, 9, 29240,  0, 0, 0, False) /* Create Electric Bow (29240) for ContainTreasure */
+     , (44021, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
+     , (44021, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
+     , (44021, 9, 37315,  1, 0, 0, False) /* Create Glyph of Lockpick (37315) for ContainTreasure */
+     , (44021, 9,  3867,  0, 0, 0, False) /* Create Flaming Silifi (3867) for ContainTreasure */
+     , (44021, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (44021, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (44021, 9,   273, 1240, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (44021, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (44021, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (44021, 9, 27222,  0, 0, 0, False) /* Create Lorica Gauntlets (27222) for ContainTreasure */
      , (44021, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (44021, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (44021, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (44021, 9, 21115,  0, 0, 0, False) /* Create Scroll of Martyr's Tenacity VII (21115) for ContainTreasure */
+     , (44021, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (44021, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (44021, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (44021, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
+     , (44021, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (44021, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */
+     , (44021, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
+     , (44021, 9, 44295,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
+     , (44021, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (44021, 9,  3854,  0, 0, 0, False) /* Create Lightning Shamshir (3854) for ContainTreasure */
+     , (44021, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+     , (44021, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
+     , (44021, 9, 37359,  1, 0, 0, False) /* Create Alacritous Ink (37359) for ContainTreasure */
+     , (44021, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
+     , (44021, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
+     , (44021, 9, 44296,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
+     , (44021, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
+     , (44021, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
+     , (44021, 9, 20478,  0, 0, 0, False) /* Create Scroll of Fiery Blessing (20478) for ContainTreasure */
+     , (44021, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (44021, 9, 41747,  1, 0, 0, False) /* Create Glyph of Two Handed Combat (41747) for ContainTreasure */
+     , (44021, 9, 27230,  0, 0, 0, False) /* Create Nariyid Helm (27230) for ContainTreasure */
+     , (44021, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
      , (44021, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
      , (44021, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (44021, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */
-     , (44021, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (44021, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (44021, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
-     , (44021, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
-     , (44021, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (44021, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
-     , (44021, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
-     , (44021, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
-     , (44021, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
-     , (44021, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
-     , (44021, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
-     , (44021, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (44021, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (44021, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
-     , (44021, 9,  3854,  0, 0, 0, False) /* Create Lightning Shamshir (3854) for ContainTreasure */
-     , (44021, 9,  3867,  0, 0, 0, False) /* Create Flaming Silifi (3867) for ContainTreasure */
-     , (44021, 9,  3868,  0, 0, 0, False) /* Create Frost Silifi (3868) for ContainTreasure */
-     , (44021, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
-     , (44021, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
-     , (44021, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
-     , (44021, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (44021, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
-     , (44021, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (44021, 9, 20253,  0, 0, 0, False) /* Create Scroll of Might of the 5 Mules (20253) for ContainTreasure */
-     , (44021, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
-     , (44021, 9, 20478,  0, 0, 0, False) /* Create Scroll of Fiery Blessing (20478) for ContainTreasure */
-     , (44021, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
-     , (44021, 9, 21115,  0, 0, 0, False) /* Create Scroll of Martyr's Tenacity VII (21115) for ContainTreasure */
-     , (44021, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */
-     , (44021, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
-     , (44021, 9, 27222,  0, 0, 0, False) /* Create Lorica Gauntlets (27222) for ContainTreasure */
-     , (44021, 9, 27230,  0, 0, 0, False) /* Create Nariyid Helm (27230) for ContainTreasure */
-     , (44021, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */
-     , (44021, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
-     , (44021, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
-     , (44021, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
-     , (44021, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
-     , (44021, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
-     , (44021, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
-     , (44021, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
-     , (44021, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (44021, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
-     , (44021, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
-     , (44021, 9, 29240,  0, 0, 0, False) /* Create Electric Bow (29240) for ContainTreasure */
-     , (44021, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */
-     , (44021, 9, 31813,  0, 0, 0, False) /* Create Acid Slingshot (31813) for ContainTreasure */
-     , (44021, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (44021, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
-     , (44021, 9, 37301,  1, 0, 0, False) /* Create Glyph of Flame (37301) for ContainTreasure */
-     , (44021, 9, 37315,  1, 0, 0, False) /* Create Glyph of Lockpick (37315) for ContainTreasure */
-     , (44021, 9, 37342,  1, 0, 0, False) /* Create Glyph of Corrosion (37342) for ContainTreasure */
-     , (44021, 9, 37351,  1, 0, 0, False) /* Create Glyph of Creature Enchantment (37351) for ContainTreasure */
-     , (44021, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
-     , (44021, 9, 37354,  1, 0, 0, False) /* Create Ink of Nullification (37354) for ContainTreasure */
-     , (44021, 9, 37359,  1, 0, 0, False) /* Create Alacritous Ink (37359) for ContainTreasure */
-     , (44021, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
-     , (44021, 9, 37363,  1, 0, 0, False) /* Create Quill of Infliction (37363) for ContainTreasure */
      , (44021, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
-     , (44021, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */
+     , (44021, 9, 37301,  1, 0, 0, False) /* Create Glyph of Flame (37301) for ContainTreasure */
+     , (44021, 9, 37351,  1, 0, 0, False) /* Create Glyph of Creature Enchantment (37351) for ContainTreasure */
+     , (44021, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (44021, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (44021, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */
      , (44021, 9, 40685,  0, 0, 0, False) /* Create Olthoi Gauntlets (40685) for ContainTreasure */
-     , (44021, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
-     , (44021, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
-     , (44021, 9, 41747,  1, 0, 0, False) /* Create Glyph of Two Handed Combat (41747) for ContainTreasure */
-     , (44021, 9, 43336,  0, 0, 0, False) /* Create Scroll of Weakening Curse VII (43336) for ContainTreasure */
-     , (44021, 9, 44267,  1, 0, 0, False) /* Create Engraved A'nekshay Bracers (44267) for ContainTreasure */
+     , (44021, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */
+     , (44021, 9, 37342,  1, 0, 0, False) /* Create Glyph of Corrosion (37342) for ContainTreasure */
+     , (44021, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (44021, 9, 44293,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Staff (Level 180+) (44293) for ContainTreasure */
+     , (44021, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
+     , (44021, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (44021, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (44021, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
+     , (44021, 9,    85,  0, 0, 0, False) /* Create Chainmail Coif (85) for ContainTreasure */
+     , (44021, 9, 37354,  1, 0, 0, False) /* Create Ink of Nullification (37354) for ContainTreasure */
+     , (44021, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (44021, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
      , (44021, 9, 44294,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Sword (Level 180+) (44294) for ContainTreasure */
-     , (44021, 9, 44295,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Amulet (Level 180+) (44295) for ContainTreasure */
-     , (44021, 9, 44296,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */
-     , (44021, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */
-     , (44021, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
+     , (44021, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (44021, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
+     , (44021, 9, 43336,  0, 0, 0, False) /* Create Scroll of Weakening Curse VII (43336) for ContainTreasure */
+     , (44021, 9,   357,  0, 0, 0, False) /* Create Tungi (357) for ContainTreasure */
+     , (44021, 9, 37360,  1, 0, 0, False) /* Create Ink of Conveyance (37360) for ContainTreasure */
      , (44021, 9, 49462,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VII (49462) for ContainTreasure */
-     , (44021, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */;
+     , (44021, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (44021, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (44021, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (44021, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (44021, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
+     , (44021, 9,  3868,  0, 0, 0, False) /* Create Frost Silifi (3868) for ContainTreasure */
+     , (44021, 9, 20253,  0, 0, 0, False) /* Create Scroll of Might of the 5 Mules (20253) for ContainTreasure */
+     , (44021, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (44021, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */
+     , (44021, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (44021, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (44021, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (44021, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44021, 67116877, 0, 24)

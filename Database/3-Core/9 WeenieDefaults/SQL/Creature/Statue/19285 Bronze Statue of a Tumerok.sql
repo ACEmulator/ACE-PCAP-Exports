@@ -50,43 +50,43 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (19285,   1,    10, 0, 0, 250) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19285, 2,  3605,  1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Wield */
-     , (19285, 2,  5314,  1, 0, 0, False) /* Create Greater Acid Quarrel (5314) for Wield */
-     , (19285, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
-     , (19285, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
-     , (19285, 2,  5317,  1, 0, 0, False) /* Create Greater Fire Quarrel (5317) for Wield */
-     , (19285, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
+VALUES (19285, 2, 15875,  1, 0, 0, False) /* Create Bronze Heavy Crossbow (15875) for Wield */
      , (19285, 2, 15871,  1, 0, 0, False) /* Create Bronze Battle Axe (15871) for Wield */
+     , (19285, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
+     , (19285, 2,  3605,  1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Wield */
+     , (19285, 2,  5317,  1, 0, 0, False) /* Create Greater Fire Quarrel (5317) for Wield */
+     , (19285, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
+     , (19285, 2,  5318,  1, 0, 0, False) /* Create Greater Armor Piercing Quarrel (5318) for Wield */
      , (19285, 2, 15874,  1, 0, 0, False) /* Create Bronze Cestus (15874) for Wield */
-     , (19285, 2, 15875,  1, 0, 0, False) /* Create Bronze Heavy Crossbow (15875) for Wield */
-     , (19285, 9,    54,  0, 0, 0, False) /* Create Yoroi Cuirass (54) for ContainTreasure */
-     , (19285, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (19285, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
-     , (19285, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (19285, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (19285, 2,  5314,  1, 0, 0, False) /* Create Greater Acid Quarrel (5314) for Wield */
+     , (19285, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
      , (19285, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (19285, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (19285, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
-     , (19285, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
-     , (19285, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (19285, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
-     , (19285, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
-     , (19285, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
-     , (19285, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
-     , (19285, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
-     , (19285, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
-     , (19285, 9,  2647,  0, 0, 0, False) /* Create Scroll of Coordination Other V (2647) for ContainTreasure */
+     , (19285, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (19285, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (19285, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (19285, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
-     , (19285, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
-     , (19285, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
-     , (19285, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
-     , (19285, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
-     , (19285, 9, 43365,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VI (43365) for ContainTreasure */
-     , (19285, 9, 44856,  0, 0, 0, False) /* Create Trimmed Cloak (44856) for ContainTreasure */
+     , (19285, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (19285, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
      , (19285, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
-     , (19285, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */;
+     , (19285, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (19285, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
+     , (19285, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (19285, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
+     , (19285, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (19285, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (19285, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (19285, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (19285, 9,    54,  0, 0, 0, False) /* Create Yoroi Cuirass (54) for ContainTreasure */
+     , (19285, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
+     , (19285, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
+     , (19285, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
+     , (19285, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
+     , (19285, 9, 44856,  0, 0, 0, False) /* Create Trimmed Cloak (44856) for ContainTreasure */
+     , (19285, 9,  2647,  0, 0, 0, False) /* Create Scroll of Coordination Other V (2647) for ContainTreasure */
+     , (19285, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (19285, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
+     , (19285, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+     , (19285, 9, 43365,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VI (43365) for ContainTreasure */
+     , (19285, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
+     , (19285, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19285, 67116656, 0, 0);

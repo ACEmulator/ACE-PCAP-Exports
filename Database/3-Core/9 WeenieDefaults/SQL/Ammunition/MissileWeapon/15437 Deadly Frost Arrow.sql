@@ -72,8 +72,8 @@ VALUES (15437, 8000, 3452893908) /* PCAPRecordedObjectIID */
      , (15437, 8008, 1342467484) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15437, 2, 47618,  1, 0, 0, False) /* Create Acid Tachi (47618) for Wield */
-     , (15437, 2, 47637,  1, 0, 0, False) /* Create Tachi (47637) for Wield */;
+VALUES (15437, 2, 47637,  1, 0, 0, False) /* Create Tachi (47637) for Wield */
+     , (15437, 2, 47618,  1, 0, 0, False) /* Create Acid Tachi (47618) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15437, 67111927, 0, 0);

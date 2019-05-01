@@ -48,8 +48,8 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (48763,   1,    10, 0, 0, 3125) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (48763, 2, 46629,  1, 0, 0, False) /* Create Greater Deadly Lightning Arrow (46629) for Wield */
-     , (48763, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) for Wield */
+VALUES (48763, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) for Wield */
+     , (48763, 2, 46629,  1, 0, 0, False) /* Create Greater Deadly Lightning Arrow (46629) for Wield */
      , (48763, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
      , (48763, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
      , (48763, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */;

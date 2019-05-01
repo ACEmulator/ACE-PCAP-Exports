@@ -60,16 +60,16 @@ VALUES (7991,   1,    10, 0, 0, 115) /* MaxHealth */
      , (7991,   5,    10, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7991, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
-     , (7991, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+VALUES (7991, 9,  2788,  0, 0, 0, False) /* Create Scroll of Blood Loather III (2788) for ContainTreasure */
      , (7991, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
-     , (7991, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (7991, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
-     , (7991, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (7991, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
+     , (7991, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (7991, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (7991, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (7991, 9, 21318,  0, 0, 0, False) /* Create Scroll of Frost Arc III (21318) for ContainTreasure */
      , (7991, 9,  2405,  1, 0, 0, False) /* Create Gem (2405) for ContainTreasure */
-     , (7991, 9,  2788,  0, 0, 0, False) /* Create Scroll of Blood Loather III (2788) for ContainTreasure */
-     , (7991, 9, 21318,  0, 0, 0, False) /* Create Scroll of Frost Arc III (21318) for ContainTreasure */;
+     , (7991, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
+     , (7991, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7991, 67112946, 0, 0);

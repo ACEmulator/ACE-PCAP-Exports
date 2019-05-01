@@ -60,8 +60,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31717, 8000, 3655153842) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31717, 2, 47381,  1, 0, 0, False) /* Create Flaming Club (47381) for Wield */
-     , (31717, 2, 47520,  1, 0, 0, False) /* Create Acid Javelin (47520) for Wield */;
+VALUES (31717, 2, 47520,  1, 0, 0, False) /* Create Acid Javelin (47520) for Wield */
+     , (31717, 2, 47381,  1, 0, 0, False) /* Create Flaming Club (47381) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31717, 67111919, 0, 0);

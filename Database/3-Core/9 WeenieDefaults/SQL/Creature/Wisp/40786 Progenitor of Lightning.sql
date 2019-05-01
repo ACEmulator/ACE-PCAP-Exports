@@ -56,7 +56,7 @@ VALUES (40786,   1,    10, 0, 0, 3120) /* MaxHealth */
      , (40786,   5,    10, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40786, 9, 28629,  0, 0, 0, False) /* Create Alduressa Coat (28629) for ContainTreasure */
-     , (40786, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
-     , (40786, 9, 40795,  1, 0, 0, False) /* Create Progenitor Crystal (40795) for ContainTreasure */
-     , (40786, 9, 45412,  0, 0, 0, False) /* Create Acid Spada (45412) for ContainTreasure */;
+VALUES (40786, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
+     , (40786, 9, 45412,  0, 0, 0, False) /* Create Acid Spada (45412) for ContainTreasure */
+     , (40786, 9, 28629,  0, 0, 0, False) /* Create Alduressa Coat (28629) for ContainTreasure */
+     , (40786, 9, 40795,  1, 0, 0, False) /* Create Progenitor Crystal (40795) for ContainTreasure */;

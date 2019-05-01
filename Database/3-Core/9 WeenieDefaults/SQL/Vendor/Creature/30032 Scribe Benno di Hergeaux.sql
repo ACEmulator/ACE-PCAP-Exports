@@ -79,9 +79,13 @@ VALUES (30032,   1,    10, 0, 0, 135) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30032, 2,  2547,  1, 0, 0, False) /* Create Staff (2547) for Wield */
-     , (30032, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (30032, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (30032, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
+     , (30032, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
+     , (30032, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
+     , (30032, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
+     , (30032, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (30032, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
      , (30032, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30032, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30032, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -89,10 +93,6 @@ VALUES (30032, 2,  2547,  1, 0, 0, False) /* Create Staff (2547) for Wield */
      , (30032, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (30032, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (30032, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
-     , (30032, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (30032, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
-     , (30032, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (30032, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
      , (30032, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30032, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30032, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

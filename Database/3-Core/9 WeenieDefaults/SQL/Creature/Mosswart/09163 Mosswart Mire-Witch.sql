@@ -50,11 +50,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (9163,   1,    10, 0, 0, 275) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9163, 2, 47527,  1, 0, 0, False) /* Create Acid Javelin (47527) for Wield */
-     , (9163, 2, 47622,  1, 0, 0, False) /* Create Acid Tachi (47622) for Wield */
+VALUES (9163, 2, 47622,  1, 0, 0, False) /* Create Acid Tachi (47622) for Wield */
+     , (9163, 2, 47527,  1, 0, 0, False) /* Create Acid Javelin (47527) for Wield */
+     , (9163, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
      , (9163, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
-     , (9163, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
-     , (9163, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */;
+     , (9163, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9163, 67113405, 0, 0);

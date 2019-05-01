@@ -61,38 +61,38 @@ VALUES (27920,   1,    10, 0, 0, 440) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27920, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (27920, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
      , (27920, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (27920, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
-     , (27920, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
      , (27920, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
      , (27920, 2, 47976,  1, 0, 0, False) /* Create Quarrel (47976) for Wield */
-     , (27920, 2, 47977,  1, 0, 0, False) /* Create Acid Quarrel (47977) for Wield */
-     , (27920, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */
      , (27920, 2, 47985,  1, 0, 0, False) /* Create Silifi (47985) for Wield */
+     , (27920, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (27920, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */
      , (27920, 2, 47988,  1, 0, 0, False) /* Create Ono (47988) for Wield */
-     , (27920, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (27920, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
-     , (27920, 9,    88,  0, 0, 0, False) /* Create Scalemail Pauldrons (88) for ContainTreasure */
-     , (27920, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
-     , (27920, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (27920, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (27920, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
-     , (27920, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (27920, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
-     , (27920, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (27920, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (27920, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (27920, 9,  3881,  0, 0, 0, False) /* Create Acid Long Sword (3881) for ContainTreasure */
-     , (27920, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
-     , (27920, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
-     , (27920, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
-     , (27920, 9, 29256,  0, 0, 0, False) /* Create Frost Atlatl (29256) for ContainTreasure */
-     , (27920, 9, 30576,  0, 0, 0, False) /* Create Flamberge (30576) for ContainTreasure */
-     , (27920, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
-     , (27920, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
-     , (27920, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
+     , (27920, 2, 47977,  1, 0, 0, False) /* Create Acid Quarrel (47977) for Wield */
      , (27920, 9, 45258,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self VII (45258) for ContainTreasure */
-     , (27920, 9, 45366,  1, 0, 0, False) /* Create Brawler's Crystal (45366) for ContainTreasure */;
+     , (27920, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
+     , (27920, 9,  7771,  0, 0, 0, False) /* Create Naginata (7771) for ContainTreasure */
+     , (27920, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (27920, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (27920, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (27920, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (27920, 9,  3881,  0, 0, 0, False) /* Create Acid Long Sword (3881) for ContainTreasure */
+     , (27920, 9,    88,  0, 0, 0, False) /* Create Scalemail Pauldrons (88) for ContainTreasure */
+     , (27920, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (27920, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (27920, 9, 30576,  0, 0, 0, False) /* Create Flamberge (30576) for ContainTreasure */
+     , (27920, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (27920, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (27920, 9, 29256,  0, 0, 0, False) /* Create Frost Atlatl (29256) for ContainTreasure */
+     , (27920, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (27920, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (27920, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (27920, 9, 45366,  1, 0, 0, False) /* Create Brawler's Crystal (45366) for ContainTreasure */
+     , (27920, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (27920, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (27920, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
+     , (27920, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27920, 67115244, 0, 0);

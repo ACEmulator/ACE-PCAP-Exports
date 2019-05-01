@@ -59,14 +59,14 @@ VALUES (11489,   1,    10, 0, 0, 300) /* MaxHealth */
      , (11489,   5,    10, 0, 0, 160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11489, 9,    67,  0, 0, 0, False) /* Create Scalemail Greaves (67) for ContainTreasure */
+VALUES (11489, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */
+     , (11489, 9,    67,  0, 0, 0, False) /* Create Scalemail Greaves (67) for ContainTreasure */
      , (11489, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (11489, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
-     , (11489, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
      , (11489, 9,  3100,  0, 0, 0, False) /* Create Scroll of Mana Renewal Other IV (3100) for ContainTreasure */
-     , (11489, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
-     , (11489, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
-     , (11489, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
-     , (11489, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */
+     , (11489, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
      , (11489, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */
-     , (11489, 9, 49254,  0, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for ContainTreasure */;
+     , (11489, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (11489, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (11489, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */
+     , (11489, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */;

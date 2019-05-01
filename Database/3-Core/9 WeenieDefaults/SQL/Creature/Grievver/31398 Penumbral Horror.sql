@@ -62,12 +62,12 @@ VALUES (31398,   1,    10, 0, 0, 1310) /* MaxHealth */
      , (31398,   5,    10, 0, 0, 1190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31398, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
-     , (31398, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
-     , (31398, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (31398, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+VALUES (31398, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (31398, 9, 45298,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other VII (45298) for ContainTreasure */
+     , (31398, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
      , (31398, 9, 30823,  0, 0, 0, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
-     , (31398, 9, 45298,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other VII (45298) for ContainTreasure */;
+     , (31398, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (31398, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31398, 67116699, 0, 0);

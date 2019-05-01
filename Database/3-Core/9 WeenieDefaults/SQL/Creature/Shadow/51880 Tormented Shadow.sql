@@ -47,9 +47,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51880,   1,    10, 0, 0, 2380) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51880, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
-     , (51880, 9,   273, 3821, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
-     , (51880, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (51880, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+VALUES (51880, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (51880, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
-     , (51880, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
+     , (51880, 9,   273, 3821, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (51880, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (51880, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (51880, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */;

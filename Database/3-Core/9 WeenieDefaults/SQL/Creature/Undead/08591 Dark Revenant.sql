@@ -50,13 +50,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (8591,   1,    10, 0, 0, 300) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8591, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+VALUES (8591, 2, 47967,  1, 0, 0, False) /* Create Nekode (47967) for Wield */
+     , (8591, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
      , (8591, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (8591, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (8591, 2, 47973,  1, 0, 0, False) /* Create Ono (47973) for Wield */
      , (8591, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
-     , (8591, 2, 47967,  1, 0, 0, False) /* Create Nekode (47967) for Wield */
-     , (8591, 2, 47969,  1, 0, 0, False) /* Create Lightning Nekode (47969) for Wield */
-     , (8591, 2, 47973,  1, 0, 0, False) /* Create Ono (47973) for Wield */;
+     , (8591, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (8591, 2, 47969,  1, 0, 0, False) /* Create Lightning Nekode (47969) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8591, 67114691, 0, 0);
