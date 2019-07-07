@@ -57,9 +57,9 @@ VALUES (25879,   1, 300, 0, 0) /* Strength */
      , (25879,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25879,   1,    10, 0, 0, 1000) /* MaxHealth */
-     , (25879,   3,    10, 0, 0, 999) /* MaxStamina */
-     , (25879,   5,    10, 0, 0, 170) /* MaxMana */;
+VALUES (25879,   1,   860, 0, 0, 1000) /* MaxHealth */
+     , (25879,   3,   720, 0, 0, 1000) /* MaxStamina */
+     , (25879,   5,     0, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25879, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Ineptitude Other VII (20504) for ContainTreasure */

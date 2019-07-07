@@ -57,9 +57,9 @@ VALUES (35879,   1, 390, 0, 0) /* Strength */
      , (35879,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35879,   1,    10, 0, 0, 2090) /* MaxHealth */
-     , (35879,   3,    10, 0, 0, 3590) /* MaxStamina */
-     , (35879,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (35879,   1,  1895, 0, 0, 2090) /* MaxHealth */
+     , (35879,   3,  3200, 0, 0, 3590) /* MaxStamina */
+     , (35879,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35879, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */

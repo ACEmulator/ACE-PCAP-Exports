@@ -72,9 +72,9 @@ VALUES (799,   1,  50, 0, 0) /* Strength */
      , (799,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (799,   1,    10, 0, 0, 75) /* MaxHealth */
-     , (799,   3,    10, 0, 0, 130) /* MaxStamina */
-     , (799,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (799,   1,    45, 0, 0, 75) /* MaxHealth */
+     , (799,   3,    70, 0, 0, 130) /* MaxStamina */
+     , (799,   5,    30, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (799, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */

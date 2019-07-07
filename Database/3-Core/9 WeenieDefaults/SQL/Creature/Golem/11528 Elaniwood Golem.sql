@@ -51,9 +51,9 @@ VALUES (11528,   1, 100, 0, 0) /* Strength */
      , (11528,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11528,   1,    10, 0, 0, 140) /* MaxHealth */
-     , (11528,   3,    10, 0, 0, 240) /* MaxStamina */
-     , (11528,   5,    10, 0, 0, 200) /* MaxMana */;
+VALUES (11528,   1,    70, 0, 0, 140) /* MaxHealth */
+     , (11528,   3,   100, 0, 0, 240) /* MaxStamina */
+     , (11528,   5,   120, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11528, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */

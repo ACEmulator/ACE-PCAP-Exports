@@ -55,9 +55,9 @@ VALUES (25659,   1, 150, 0, 0) /* Strength */
      , (25659,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25659,   1,    10, 0, 0, 3000) /* MaxHealth */
-     , (25659,   3,    10, 0, 0, 2700) /* MaxStamina */
-     , (25659,   5,    10, 0, 0, 1845) /* MaxMana */;
+VALUES (25659,   1,  2870, 0, 0, 3000) /* MaxHealth */
+     , (25659,   3,  2440, 0, 0, 2700) /* MaxStamina */
+     , (25659,   5,  1630, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25659, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */;

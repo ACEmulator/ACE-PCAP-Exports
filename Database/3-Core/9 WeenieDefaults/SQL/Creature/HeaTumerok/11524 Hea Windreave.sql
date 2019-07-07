@@ -56,9 +56,9 @@ VALUES (11524,   1, 140, 0, 0) /* Strength */
      , (11524,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11524,   1,    10, 0, 0, 163) /* MaxHealth */
+VALUES (11524,   1,    86, 0, 0, 163) /* MaxHealth */
      , (11524,   3,    10, 0, 0, 165) /* MaxStamina */
-     , (11524,   5,    10, 0, 0, 90) /* MaxMana */;
+     , (11524,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11524, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11892) for Wield */

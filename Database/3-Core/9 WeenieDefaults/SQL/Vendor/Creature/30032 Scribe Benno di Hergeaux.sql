@@ -73,9 +73,9 @@ VALUES (30032,   1,  45, 0, 0) /* Strength */
      , (30032,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30032,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (30032,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (30032,   5,    10, 0, 0, 155) /* MaxMana */;
+VALUES (30032,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (30032,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (30032,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30032, 2,  2547,  1, 0, 0, False) /* Create Staff (2547) for Wield */

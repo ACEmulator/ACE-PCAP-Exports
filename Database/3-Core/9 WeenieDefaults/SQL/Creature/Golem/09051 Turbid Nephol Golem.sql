@@ -52,9 +52,9 @@ VALUES (9051,   1, 260, 0, 0) /* Strength */
      , (9051,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9051,   1,    10, 0, 0, 565) /* MaxHealth */
-     , (9051,   3,    10, 0, 0, 490) /* MaxStamina */
-     , (9051,   5,    10, 0, 0, 435) /* MaxMana */;
+VALUES (9051,   1,   430, 0, 0, 565) /* MaxHealth */
+     , (9051,   3,   220, 0, 0, 490) /* MaxStamina */
+     , (9051,   5,   275, 0, 0, 435) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9051, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */

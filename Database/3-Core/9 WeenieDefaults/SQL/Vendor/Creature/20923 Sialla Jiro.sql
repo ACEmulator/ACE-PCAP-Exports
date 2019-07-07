@@ -72,9 +72,9 @@ VALUES (20923,   1,  95, 0, 0) /* Strength */
      , (20923,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (20923,   1,    10, 0, 0, 140) /* MaxHealth */
-     , (20923,   3,    10, 0, 0, 190) /* MaxStamina */
-     , (20923,   5,    10, 0, 0, 320) /* MaxMana */;
+VALUES (20923,   1,    95, 0, 0, 140) /* MaxHealth */
+     , (20923,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (20923,   5,   190, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20923, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (5908) for Shop */

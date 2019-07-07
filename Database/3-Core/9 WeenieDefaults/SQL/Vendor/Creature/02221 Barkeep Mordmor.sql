@@ -72,9 +72,9 @@ VALUES (2221,   1,  90, 0, 0) /* Strength */
      , (2221,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2221,   1,    10, 0, 0, 90) /* MaxHealth */
-     , (2221,   3,    10, 0, 0, 130) /* MaxStamina */
-     , (2221,   5,    10, 0, 0, 110) /* MaxMana */;
+VALUES (2221,   1,    60, 0, 0, 90) /* MaxHealth */
+     , (2221,   3,    70, 0, 0, 130) /* MaxStamina */
+     , (2221,   5,    60, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2221, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */

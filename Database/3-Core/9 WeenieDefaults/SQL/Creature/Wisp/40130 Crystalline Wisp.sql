@@ -51,9 +51,9 @@ VALUES (40130,   1, 150, 0, 0) /* Strength */
      , (40130,   6, 330, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40130,   1,    10, 0, 0, 520) /* MaxHealth */
-     , (40130,   3,    10, 0, 0, 617) /* MaxStamina */
-     , (40130,   5,    10, 0, 0, 395) /* MaxMana */;
+VALUES (40130,   1,   420, 0, 0, 520) /* MaxHealth */
+     , (40130,   3,   420, 0, 0, 620) /* MaxStamina */
+     , (40130,   5,   120, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40130, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */

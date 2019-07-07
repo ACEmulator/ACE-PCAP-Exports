@@ -57,9 +57,9 @@ VALUES (7092,   1, 130, 0, 0) /* Strength */
      , (7092,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7092,   1,    10, 0, 0, 575) /* MaxHealth */
-     , (7092,   3,    10, 0, 0, 550) /* MaxStamina */
-     , (7092,   5,    10, 0, 0, 470) /* MaxMana */;
+VALUES (7092,   1,   500, 0, 0, 575) /* MaxHealth */
+     , (7092,   3,   400, 0, 0, 550) /* MaxStamina */
+     , (7092,   5,   300, 0, 0, 470) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7092, 2,  7799,  1, 0, 0, False) /* Create Ball of plasma (7799) for Wield */

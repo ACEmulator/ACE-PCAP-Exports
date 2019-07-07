@@ -57,9 +57,9 @@ VALUES (30897,   1, 450, 0, 0) /* Strength */
      , (30897,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30897,   1,    10, 0, 0, 9000) /* MaxHealth */
-     , (30897,   3,    10, 0, 0, 9000) /* MaxStamina */
-     , (30897,   5,    10, 0, 0, 8930) /* MaxMana */;
+VALUES (30897,   1,  8725, 0, 0, 9000) /* MaxHealth */
+     , (30897,   3,  8450, 0, 0, 9000) /* MaxStamina */
+     , (30897,   5,  8550, 0, 0, 9000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30897, 9, 30881,  0, 0, 0, False) /* Create Salvager's Helm (30881) for ContainTreasure */

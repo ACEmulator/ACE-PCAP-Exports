@@ -74,7 +74,7 @@ VALUES (4687,   1,  70, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (4687,   1,    10, 0, 0, 50) /* MaxHealth */
      , (4687,   3,    10, 0, 0, 90) /* MaxStamina */
-     , (4687,   5,    10, 0, 0, 65) /* MaxMana */;
+     , (4687,   5,    15, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4687, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */

@@ -53,9 +53,9 @@ VALUES (44031,   1, 360, 0, 0) /* Strength */
      , (44031,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44031,   1,    10, 0, 0, 10000) /* MaxHealth */
-     , (44031,   3,    10, 0, 0, 5368) /* MaxStamina */
-     , (44031,   5,    10, 0, 0, 5260) /* MaxMana */;
+VALUES (44031,   1,  9815, 0, 0, 10000) /* MaxHealth */
+     , (44031,   3,  5000, 0, 0, 5370) /* MaxStamina */
+     , (44031,   5,  5000, 0, 0, 5260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44031, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;

@@ -73,9 +73,9 @@ VALUES (30065,   1,  80, 0, 0) /* Strength */
      , (30065,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30065,   1,    10, 0, 0, 80) /* MaxHealth */
-     , (30065,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (30065,   5,    10, 0, 0, 45) /* MaxMana */;
+VALUES (30065,   1,    50, 0, 0, 80) /* MaxHealth */
+     , (30065,   3,    90, 0, 0, 150) /* MaxStamina */
+     , (30065,   5,    20, 0, 0, 45) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30065, 2, 30561,  1, 0, 0, False) /* Create Dolabra (30561) for Wield */

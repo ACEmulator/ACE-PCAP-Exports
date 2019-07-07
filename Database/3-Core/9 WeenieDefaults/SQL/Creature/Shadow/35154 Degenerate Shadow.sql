@@ -60,9 +60,9 @@ VALUES (35154,   1, 300, 0, 0) /* Strength */
      , (35154,   6, 560, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35154,   1,    10, 0, 0, 500) /* MaxHealth */
-     , (35154,   3,    10, 0, 0, 700) /* MaxStamina */
-     , (35154,   5,    10, 0, 0, 860) /* MaxMana */;
+VALUES (35154,   1,   300, 0, 0, 500) /* MaxHealth */
+     , (35154,   3,   300, 0, 0, 700) /* MaxStamina */
+     , (35154,   5,   300, 0, 0, 860) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35154, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */

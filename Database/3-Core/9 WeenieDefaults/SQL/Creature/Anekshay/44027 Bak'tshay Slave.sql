@@ -57,9 +57,9 @@ VALUES (44027,   1, 210, 0, 0) /* Strength */
      , (44027,   6, 270, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44027,   1,    10, 0, 0, 3000) /* MaxHealth */
-     , (44027,   3,    10, 0, 0, 3230) /* MaxStamina */
-     , (44027,   5,    10, 0, 0, 2270) /* MaxMana */;
+VALUES (44027,   1,  2885, 0, 0, 3000) /* MaxHealth */
+     , (44027,   3,  3000, 0, 0, 3230) /* MaxStamina */
+     , (44027,   5,  2000, 0, 0, 2270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44027, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */

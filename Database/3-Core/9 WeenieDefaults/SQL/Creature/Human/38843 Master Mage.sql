@@ -62,9 +62,9 @@ VALUES (38843,   1, 270, 0, 0) /* Strength */
      , (38843,   6, 470, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38843,   1,    10, 0, 0, 890) /* MaxHealth */
-     , (38843,   3,    10, 0, 0, 910) /* MaxStamina */
-     , (38843,   5,    10, 0, 0, 1000) /* MaxMana */;
+VALUES (38843,   1,   785, 0, 0, 890) /* MaxHealth */
+     , (38843,   3,   700, 0, 0, 910) /* MaxStamina */
+     , (38843,   5,   530, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38843, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */;

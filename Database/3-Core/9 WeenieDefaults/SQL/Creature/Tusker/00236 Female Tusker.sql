@@ -52,9 +52,9 @@ VALUES (236,   1, 160, 0, 0) /* Strength */
      , (236,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (236,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (236,   3,    10, 0, 0, 279) /* MaxStamina */
-     , (236,   5,    10, 0, 0, 20) /* MaxMana */;
+VALUES (236,   1,    30, 0, 0, 95) /* MaxHealth */
+     , (236,   3,   150, 0, 0, 280) /* MaxStamina */
+     , (236,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (236, 9, 49464,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Other II (49464) for ContainTreasure */

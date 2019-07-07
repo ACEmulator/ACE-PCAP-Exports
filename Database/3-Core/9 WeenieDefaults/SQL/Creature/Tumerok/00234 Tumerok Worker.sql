@@ -53,9 +53,9 @@ VALUES (234,   1,  70, 0, 0) /* Strength */
      , (234,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (234,   1,    10, 0, 0, 48) /* MaxHealth */
-     , (234,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (234,   5,    10, 0, 0, 30) /* MaxMana */;
+VALUES (234,   1,    11, 0, 0, 48) /* MaxHealth */
+     , (234,   3,   175, 0, 0, 250) /* MaxStamina */
+     , (234,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (234, 2,   316,  1, 0, 0, False) /* Create Throwing Dart (316) for Wield */

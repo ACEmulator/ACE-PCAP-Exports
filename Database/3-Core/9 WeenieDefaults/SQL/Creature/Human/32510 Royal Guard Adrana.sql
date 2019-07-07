@@ -68,9 +68,9 @@ VALUES (32510,   1, 160, 0, 0) /* Strength */
      , (32510,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32510,   1,    10, 0, 0, 215) /* MaxHealth */
-     , (32510,   3,    10, 0, 0, 290) /* MaxStamina */
-     , (32510,   5,    10, 0, 0, 275) /* MaxMana */;
+VALUES (32510,   1,   125, 0, 0, 215) /* MaxHealth */
+     , (32510,   3,   110, 0, 0, 290) /* MaxStamina */
+     , (32510,   5,    55, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32510, 2, 32511,  1, 0, 0, False) /* Create Shield of Yanshi (32511) for Wield */;

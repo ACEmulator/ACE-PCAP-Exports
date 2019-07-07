@@ -73,9 +73,9 @@ VALUES (1059,   1, 120, 0, 0) /* Strength */
      , (1059,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1059,   1,    10, 0, 0, 170) /* MaxHealth */
-     , (1059,   3,    10, 0, 0, 270) /* MaxStamina */
-     , (1059,   5,    10, 0, 0, 95) /* MaxMana */;
+VALUES (1059,   1,   120, 0, 0, 170) /* MaxHealth */
+     , (1059,   3,   170, 0, 0, 270) /* MaxStamina */
+     , (1059,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1059, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */

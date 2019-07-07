@@ -52,9 +52,9 @@ VALUES (237,   1,  30, 0, 0) /* Strength */
      , (237,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (237,   1,    10, 0, 0, 145) /* MaxHealth */
-     , (237,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (237,   5,    10, 0, 0, 550) /* MaxMana */;
+VALUES (237,   1,    70, 0, 0, 145) /* MaxHealth */
+     , (237,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (237,   5,   300, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (237, 9,  8949,  0, 0, 0, False) /* Create Scroll of Shock Wave Streak III (8949) for ContainTreasure */

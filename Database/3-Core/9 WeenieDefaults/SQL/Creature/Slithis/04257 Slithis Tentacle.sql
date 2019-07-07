@@ -56,9 +56,9 @@ VALUES (4257,   1, 140, 0, 0) /* Strength */
      , (4257,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4257,   1,    10, 0, 0, 100) /* MaxHealth */
-     , (4257,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (4257,   5,    10, 0, 0, 210) /* MaxMana */;
+VALUES (4257,   1,    50, 0, 0, 100) /* MaxHealth */
+     , (4257,   3,   150, 0, 0, 250) /* MaxStamina */
+     , (4257,   5,   100, 0, 0, 210) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4257, 2,  8619,  1, 0, 0, False) /* Create Slithis Splinter (8619) for Wield */

@@ -53,9 +53,9 @@ VALUES (38178,   1, 250, 0, 0) /* Strength */
      , (38178,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38178,   1,    10, 0, 0, 555) /* MaxHealth */
-     , (38178,   3,    10, 0, 0, 470) /* MaxStamina */
-     , (38178,   5,    10, 0, 0, 425) /* MaxMana */;
+VALUES (38178,   1,   430, 0, 0, 555) /* MaxHealth */
+     , (38178,   3,   220, 0, 0, 470) /* MaxStamina */
+     , (38178,   5,   275, 0, 0, 425) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38178, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */

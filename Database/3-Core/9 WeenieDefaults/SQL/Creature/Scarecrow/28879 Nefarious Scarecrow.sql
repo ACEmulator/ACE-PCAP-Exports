@@ -53,9 +53,9 @@ VALUES (28879,   1, 155, 0, 0) /* Strength */
      , (28879,   6, 165, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28879,   1,    10, 0, 0, 183) /* MaxHealth */
-     , (28879,   3,    10, 0, 0, 295) /* MaxStamina */
-     , (28879,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (28879,   1,    91, 0, 0, 183) /* MaxHealth */
+     , (28879,   3,   115, 0, 0, 300) /* MaxStamina */
+     , (28879,   5,    65, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28879, 2,  8395,  1, 0, 0, False) /* Create Jack o' Lantern (8395) for Wield */

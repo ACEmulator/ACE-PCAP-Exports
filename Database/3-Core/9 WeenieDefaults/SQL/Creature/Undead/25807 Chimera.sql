@@ -56,9 +56,9 @@ VALUES (25807,   1, 320, 0, 0) /* Strength */
      , (25807,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25807,   1,    10, 0, 0, 2340) /* MaxHealth */
-     , (25807,   3,    10, 0, 0, 2500) /* MaxStamina */
-     , (25807,   5,    10, 0, 0, 2250) /* MaxMana */;
+VALUES (25807,   1,  2170, 0, 0, 2340) /* MaxHealth */
+     , (25807,   3,  2160, 0, 0, 2500) /* MaxStamina */
+     , (25807,   5,  1800, 0, 0, 2250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25807, 2, 48023,  1, 0, 0, False) /* Create Acid Katar (48023) for Wield */

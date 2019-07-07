@@ -59,6 +59,6 @@ VALUES (31974,   1, 500, 0, 0) /* Strength */
      , (31974,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31974,   1,    10, 0, 0, 2750) /* MaxHealth */
+VALUES (31974,   1,  2500, 0, 0, 2750) /* MaxHealth */
      , (31974,   3,    10, 0, 0, 510) /* MaxStamina */
      , (31974,   5,    10, 0, 0, 20) /* MaxMana */;

@@ -72,9 +72,9 @@ VALUES (2291,   1,  90, 0, 0) /* Strength */
      , (2291,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2291,   1,    10, 0, 0, 133) /* MaxHealth */
-     , (2291,   3,    10, 0, 0, 185) /* MaxStamina */
-     , (2291,   5,    10, 0, 0, 115) /* MaxMana */;
+VALUES (2291,   1,    96, 0, 0, 133) /* MaxHealth */
+     , (2291,   3,   110, 0, 0, 185) /* MaxStamina */
+     , (2291,   5,    70, 0, 0, 115) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2291, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */

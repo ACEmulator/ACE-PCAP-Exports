@@ -55,9 +55,9 @@ VALUES (29297,   1, 250, 0, 0) /* Strength */
      , (29297,   6, 165, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29297,   1,    10, 0, 0, 218) /* MaxHealth */
-     , (29297,   3,    10, 0, 0, 350) /* MaxStamina */
-     , (29297,   5,    10, 0, 0, 245) /* MaxMana */;
+VALUES (29297,   1,   176, 0, 0, 218) /* MaxHealth */
+     , (29297,   3,   265, 0, 0, 350) /* MaxStamina */
+     , (29297,   5,    80, 0, 0, 245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29297, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */

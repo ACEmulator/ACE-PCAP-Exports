@@ -53,9 +53,9 @@ VALUES (35140,   1, 450, 0, 0) /* Strength */
      , (35140,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35140,   1,    10, 0, 0, 245) /* MaxHealth */
-     , (35140,   3,    10, 0, 0, 410) /* MaxStamina */
-     , (35140,   5,    10, 0, 0, 400) /* MaxMana */;
+VALUES (35140,   1,    70, 0, 0, 245) /* MaxHealth */
+     , (35140,   3,    60, 0, 0, 410) /* MaxStamina */
+     , (35140,   5,     0, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35140, 2, 23721,  1, 0, 0, False) /* Create Acid Yari (23721) for Wield */

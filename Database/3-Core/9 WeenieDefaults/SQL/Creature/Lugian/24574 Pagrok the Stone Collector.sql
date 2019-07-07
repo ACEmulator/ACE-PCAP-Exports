@@ -61,9 +61,9 @@ VALUES (24574,   1,  80, 0, 0) /* Strength */
      , (24574,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24574,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (24574,   3,    10, 0, 0, 190) /* MaxStamina */
-     , (24574,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (24574,   1,    80, 0, 0, 115) /* MaxHealth */
+     , (24574,   3,   120, 0, 0, 190) /* MaxStamina */
+     , (24574,   5,    50, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24574, 2,  7580,  1, 0, 0, False) /* Create Pickaxe (7580) for Wield */;

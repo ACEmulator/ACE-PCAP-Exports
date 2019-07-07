@@ -57,9 +57,9 @@ VALUES (4247,   1, 150, 0, 0) /* Strength */
      , (4247,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4247,   1,    10, 0, 0, 275) /* MaxHealth */
-     , (4247,   3,    10, 0, 0, 470) /* MaxStamina */
-     , (4247,   5,    10, 0, 0, 160) /* MaxMana */;
+VALUES (4247,   1,   200, 0, 0, 275) /* MaxHealth */
+     , (4247,   3,   320, 0, 0, 470) /* MaxStamina */
+     , (4247,   5,    50, 0, 0, 160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4247, 9,    64,  0, 0, 0, False) /* Create Yoroi Girth (64) for ContainTreasure */

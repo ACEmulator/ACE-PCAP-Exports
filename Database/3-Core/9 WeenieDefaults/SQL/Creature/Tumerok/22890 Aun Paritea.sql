@@ -60,9 +60,9 @@ VALUES (22890,   1, 100, 0, 0) /* Strength */
      , (22890,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22890,   1,    10, 0, 0, 130) /* MaxHealth */
-     , (22890,   3,    10, 0, 0, 220) /* MaxStamina */
-     , (22890,   5,    10, 0, 0, 170) /* MaxMana */;
+VALUES (22890,   1,    80, 0, 0, 130) /* MaxHealth */
+     , (22890,   3,   120, 0, 0, 220) /* MaxStamina */
+     , (22890,   5,    50, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22890, 2, 11971,  1, 0, 0, False) /* Create Buadren (11971) for Wield */;

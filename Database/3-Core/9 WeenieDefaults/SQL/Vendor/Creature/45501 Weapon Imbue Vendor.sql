@@ -65,9 +65,9 @@ VALUES (45501,   1, 680, 0, 0) /* Strength */
      , (45501,   6, 585, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45501,   1,    10, 0, 0, 1120) /* MaxHealth */
-     , (45501,   3,    10, 0, 0, 1491) /* MaxStamina */
-     , (45501,   5,    10, 0, 0, 1085) /* MaxMana */;
+VALUES (45501,   1,   800, 0, 0, 1120) /* MaxHealth */
+     , (45501,   3,   851, 0, 0, 1491) /* MaxStamina */
+     , (45501,   5,   500, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45501, 4, 45502, -1, 0, 0, False) /* Create Foolproof Aquamarine Gem (45502) for Shop */

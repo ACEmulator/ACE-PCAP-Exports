@@ -52,9 +52,9 @@ VALUES (1461,   1, 110, 0, 0) /* Strength */
      , (1461,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1461,   1,    10, 0, 0, 75) /* MaxHealth */
-     , (1461,   3,    10, 0, 0, 165) /* MaxStamina */
-     , (1461,   5,    10, 0, 0, 40) /* MaxMana */;
+VALUES (1461,   1,    25, 0, 0, 75) /* MaxHealth */
+     , (1461,   3,    65, 0, 0, 165) /* MaxStamina */
+     , (1461,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1461, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */

@@ -72,9 +72,9 @@ VALUES (843,   1,  55, 0, 0) /* Strength */
      , (843,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (843,   1,    10, 0, 0, 75) /* MaxHealth */
-     , (843,   3,    10, 0, 0, 120) /* MaxStamina */
-     , (843,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (843,   1,    45, 0, 0, 75) /* MaxHealth */
+     , (843,   3,    60, 0, 0, 120) /* MaxStamina */
+     , (843,   5,    25, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (843, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop */

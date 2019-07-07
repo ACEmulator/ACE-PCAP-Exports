@@ -52,9 +52,9 @@ VALUES (36864,   1, 240, 0, 0) /* Strength */
      , (36864,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36864,   1,    10, 0, 0, 500) /* MaxHealth */
-     , (36864,   3,    10, 0, 0, 650) /* MaxStamina */
-     , (36864,   5,    10, 0, 0, 650) /* MaxMana */;
+VALUES (36864,   1,   390, 0, 0, 500) /* MaxHealth */
+     , (36864,   3,   430, 0, 0, 650) /* MaxStamina */
+     , (36864,   5,   400, 0, 0, 650) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36864, 9, 21107,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VI (21107) for ContainTreasure */

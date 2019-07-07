@@ -57,9 +57,9 @@ VALUES (22902,   1, 360, 0, 0) /* Strength */
      , (22902,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22902,   1,    10, 0, 0, 3000) /* MaxHealth */
-     , (22902,   3,    10, 0, 0, 5379) /* MaxStamina */
-     , (22902,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (22902,   1,  2810, 0, 0, 3000) /* MaxHealth */
+     , (22902,   3,  5000, 0, 0, 5380) /* MaxStamina */
+     , (22902,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22902, 9, 48965,  0, 0, 0, False) /* Create Fire Child Essence (125) (48965) for ContainTreasure */

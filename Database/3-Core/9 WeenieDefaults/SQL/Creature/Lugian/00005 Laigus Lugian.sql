@@ -53,9 +53,9 @@ VALUES (5,   1, 150, 0, 0) /* Strength */
      , (5,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5,   1,    10, 0, 0, 105) /* MaxHealth */
-     , (5,   3,    10, 0, 0, 300) /* MaxStamina */
-     , (5,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (5,   1,    30, 0, 0, 105) /* MaxHealth */
+     , (5,   3,   150, 0, 0, 300) /* MaxStamina */
+     , (5,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5, 2, 23751,  1, 0, 0, False) /* Create Lugian Club (23751) for Wield */

@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36827, 8000, 3696047719) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36827,   1,    10, 0, 0, 555) /* MaxHealth */;
+VALUES (36827,   1,     0, 0, 0, 555) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36827, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */

@@ -54,9 +54,9 @@ VALUES (25851,   1, 190, 0, 0) /* Strength */
      , (25851,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25851,   1,    10, 0, 0, 735) /* MaxHealth */
-     , (25851,   3,    10, 0, 0, 870) /* MaxStamina */
-     , (25851,   5,    10, 0, 0, 410) /* MaxMana */;
+VALUES (25851,   1,   650, 0, 0, 735) /* MaxHealth */
+     , (25851,   3,   700, 0, 0, 870) /* MaxStamina */
+     , (25851,   5,   270, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25851, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */

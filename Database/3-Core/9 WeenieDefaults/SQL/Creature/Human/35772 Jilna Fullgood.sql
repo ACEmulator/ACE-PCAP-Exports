@@ -69,9 +69,9 @@ VALUES (35772,   1, 220, 0, 0) /* Strength */
      , (35772,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35772,   1,    10, 0, 0, 213) /* MaxHealth */
-     , (35772,   3,    10, 0, 0, 325) /* MaxStamina */
-     , (35772,   5,    10, 0, 0, 410) /* MaxMana */;
+VALUES (35772,   1,   101, 0, 0, 213) /* MaxHealth */
+     , (35772,   3,   100, 0, 0, 325) /* MaxStamina */
+     , (35772,   5,   150, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35772, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */

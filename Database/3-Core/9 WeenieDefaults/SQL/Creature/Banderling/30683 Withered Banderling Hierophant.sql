@@ -56,9 +56,9 @@ VALUES (30683,   1, 350, 0, 0) /* Strength */
      , (30683,   6, 275, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30683,   1,    10, 0, 0, 2000) /* MaxHealth */
-     , (30683,   3,    10, 0, 0, 3000) /* MaxStamina */
-     , (30683,   5,    10, 0, 0, 275) /* MaxMana */;
+VALUES (30683,   1,  1850, 0, 0, 2000) /* MaxHealth */
+     , (30683,   3,  2700, 0, 0, 3000) /* MaxStamina */
+     , (30683,   5,     0, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30683, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */

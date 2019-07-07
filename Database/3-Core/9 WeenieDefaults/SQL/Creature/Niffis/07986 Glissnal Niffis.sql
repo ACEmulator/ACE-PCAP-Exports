@@ -55,9 +55,9 @@ VALUES (7986,   1,  90, 0, 0) /* Strength */
      , (7986,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7986,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (7986,   3,    10, 0, 0, 90) /* MaxStamina */
-     , (7986,   5,    10, 0, 0, 390) /* MaxMana */;
+VALUES (7986,   1,    70, 0, 0, 115) /* MaxHealth */
+     , (7986,   3,     0, 0, 0, 90) /* MaxStamina */
+     , (7986,   5,   300, 0, 0, 390) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7986, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */

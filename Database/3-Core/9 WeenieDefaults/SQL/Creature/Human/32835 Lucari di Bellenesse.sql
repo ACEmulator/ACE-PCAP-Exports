@@ -68,9 +68,9 @@ VALUES (32835,   1, 230, 0, 0) /* Strength */
      , (32835,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32835,   1,    10, 0, 0, 170) /* MaxHealth */
-     , (32835,   3,    10, 0, 0, 300) /* MaxStamina */
-     , (32835,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (32835,   1,    70, 0, 0, 170) /* MaxHealth */
+     , (32835,   3,   100, 0, 0, 300) /* MaxStamina */
+     , (32835,   5,    20, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32835, 2, 32783,  1, 0, 0, False) /* Create Shield of Silyun (32783) for Wield */;

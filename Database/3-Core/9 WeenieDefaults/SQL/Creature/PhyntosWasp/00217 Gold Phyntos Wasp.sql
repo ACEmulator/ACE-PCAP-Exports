@@ -55,9 +55,9 @@ VALUES (217,   1,  90, 0, 0) /* Strength */
      , (217,   6,  75, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (217,   1,    10, 0, 0, 138) /* MaxHealth */
-     , (217,   3,    10, 0, 0, 225) /* MaxStamina */
-     , (217,   5,    10, 0, 0, 175) /* MaxMana */;
+VALUES (217,   1,    81, 0, 0, 138) /* MaxHealth */
+     , (217,   3,   110, 0, 0, 225) /* MaxStamina */
+     , (217,   5,   100, 0, 0, 175) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (217, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */

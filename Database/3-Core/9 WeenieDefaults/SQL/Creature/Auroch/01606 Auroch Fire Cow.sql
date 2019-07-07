@@ -55,9 +55,9 @@ VALUES (1606,   1, 145, 0, 0) /* Strength */
      , (1606,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1606,   1,    10, 0, 0, 100) /* MaxHealth */
-     , (1606,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (1606,   5,    10, 0, 0, 30) /* MaxMana */;
+VALUES (1606,   1,    30, 0, 0, 100) /* MaxHealth */
+     , (1606,   3,   200, 0, 0, 340) /* MaxStamina */
+     , (1606,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1606, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */

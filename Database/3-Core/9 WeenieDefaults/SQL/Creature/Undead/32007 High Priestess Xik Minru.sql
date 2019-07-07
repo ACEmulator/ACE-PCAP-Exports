@@ -56,9 +56,9 @@ VALUES (32007,   1, 500, 0, 0) /* Strength */
      , (32007,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32007,   1,    10, 0, 0, 50000) /* MaxHealth */
-     , (32007,   3,    10, 0, 0, 1999) /* MaxStamina */
-     , (32007,   5,    10, 0, 0, 2000) /* MaxMana */;
+VALUES (32007,   1, 49695, 0, 0, 50000) /* MaxHealth */
+     , (32007,   3,  1390, 0, 0, 2000) /* MaxStamina */
+     , (32007,   5,  1500, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32007, 2, 31997,  1, 0, 0, False) /* Create Vaikiakvi (31997) for Wield */;

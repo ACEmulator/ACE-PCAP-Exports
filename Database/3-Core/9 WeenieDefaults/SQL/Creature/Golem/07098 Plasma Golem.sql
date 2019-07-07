@@ -52,9 +52,9 @@ VALUES (7098,   1, 260, 0, 0) /* Strength */
      , (7098,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7098,   1,    10, 0, 0, 465) /* MaxHealth */
-     , (7098,   3,    10, 0, 0, 490) /* MaxStamina */
-     , (7098,   5,    10, 0, 0, 435) /* MaxMana */;
+VALUES (7098,   1,   330, 0, 0, 465) /* MaxHealth */
+     , (7098,   3,   220, 0, 0, 490) /* MaxStamina */
+     , (7098,   5,   275, 0, 0, 435) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7098, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */

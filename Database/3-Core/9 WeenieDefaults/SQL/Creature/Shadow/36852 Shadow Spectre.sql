@@ -68,9 +68,9 @@ VALUES (36852,   1, 150, 0, 0) /* Strength */
      , (36852,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36852,   1,    10, 0, 0, 480) /* MaxHealth */
-     , (36852,   3,    10, 0, 0, 620) /* MaxStamina */
-     , (36852,   5,    10, 0, 0, 568) /* MaxMana */;
+VALUES (36852,   1,   395, 0, 0, 480) /* MaxHealth */
+     , (36852,   3,   450, 0, 0, 620) /* MaxStamina */
+     , (36852,   5,   470, 0, 0, 590) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36852, 2, 47996,  1, 0, 0, False) /* Create Lightning Katar (47996) for Wield */

@@ -57,9 +57,9 @@ VALUES (33538,   1, 455, 0, 0) /* Strength */
      , (33538,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33538,   1,    10, 0, 0, 5406) /* MaxHealth */
-     , (33538,   3,    10, 0, 0, 2405) /* MaxStamina */
-     , (33538,   5,    10, 0, 0, 500) /* MaxMana */;
+VALUES (33538,   1,  5204, 0, 0, 5406) /* MaxHealth */
+     , (33538,   3,  2000, 0, 0, 2405) /* MaxStamina */
+     , (33538,   5,   220, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33538, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */

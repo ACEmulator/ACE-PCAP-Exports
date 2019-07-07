@@ -73,9 +73,9 @@ VALUES (1394,   1,  70, 0, 0) /* Strength */
      , (1394,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1394,   1,    10, 0, 0, 118) /* MaxHealth */
-     , (1394,   3,    10, 0, 0, 155) /* MaxStamina */
-     , (1394,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (1394,   1,    81, 0, 0, 118) /* MaxHealth */
+     , (1394,   3,    80, 0, 0, 155) /* MaxStamina */
+     , (1394,   5,    30, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1394, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */

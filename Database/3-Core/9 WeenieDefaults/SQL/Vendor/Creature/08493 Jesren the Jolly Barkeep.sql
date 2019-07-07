@@ -72,9 +72,9 @@ VALUES (8493,   1, 180, 0, 0) /* Strength */
      , (8493,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8493,   1,    10, 0, 0, 160) /* MaxHealth */
-     , (8493,   3,    10, 0, 0, 320) /* MaxStamina */
-     , (8493,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (8493,   1,    60, 0, 0, 160) /* MaxHealth */
+     , (8493,   3,   120, 0, 0, 320) /* MaxStamina */
+     , (8493,   5,    30, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8493, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */

@@ -56,9 +56,9 @@ VALUES (29415,   1, 355, 0, 0) /* Strength */
      , (29415,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29415,   1,    10, 0, 0, 468) /* MaxHealth */
-     , (29415,   3,    10, 0, 0, 535) /* MaxStamina */
-     , (29415,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (29415,   1,   301, 0, 0, 468) /* MaxHealth */
+     , (29415,   3,   200, 0, 0, 535) /* MaxStamina */
+     , (29415,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29415, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;

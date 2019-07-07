@@ -51,7 +51,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38080, 8000, 2922032039) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38080,   1,    10, 0, 0, 100250) /* MaxHealth */;
+VALUES (38080,   1,     0, 0, 0, 100250) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38080, 9, 43032,  0, 0, 0, False) /* Create Engraved Ashen Key (43032) for ContainTreasure */;

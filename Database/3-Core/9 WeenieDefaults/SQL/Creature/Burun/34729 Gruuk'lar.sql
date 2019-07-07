@@ -62,9 +62,9 @@ VALUES (34729,   1, 180, 0, 0) /* Strength */
      , (34729,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34729,   1,    10, 0, 0, 315) /* MaxHealth */
-     , (34729,   3,    10, 0, 0, 430) /* MaxStamina */
-     , (34729,   5,    10, 0, 0, 380) /* MaxMana */;
+VALUES (34729,   1,   180, 0, 0, 315) /* MaxHealth */
+     , (34729,   3,   160, 0, 0, 430) /* MaxStamina */
+     , (34729,   5,   120, 0, 0, 380) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34729, 2, 26035,  1, 0, 0, False) /* Create Stone Glaive (26035) for Wield */;

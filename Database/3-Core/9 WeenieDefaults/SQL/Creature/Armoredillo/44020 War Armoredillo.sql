@@ -56,9 +56,9 @@ VALUES (44020,   1, 360, 0, 0) /* Strength */
      , (44020,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44020,   1,    10, 0, 0, 2060) /* MaxHealth */
-     , (44020,   3,    10, 0, 0, 2819) /* MaxStamina */
-     , (44020,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (44020,   1,  1900, 0, 0, 2060) /* MaxHealth */
+     , (44020,   3,  2500, 0, 0, 2820) /* MaxStamina */
+     , (44020,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44020, 9, 49273,  0, 0, 0, False) /* Create Lightning Child Essence (180) (49273) for ContainTreasure */

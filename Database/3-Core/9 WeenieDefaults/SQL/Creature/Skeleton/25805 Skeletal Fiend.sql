@@ -53,9 +53,9 @@ VALUES (25805,   1, 135, 0, 0) /* Strength */
      , (25805,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25805,   1,    10, 0, 0, 551) /* MaxHealth */
-     , (25805,   3,    10, 0, 0, 645) /* MaxStamina */
-     , (25805,   5,    10, 0, 0, 225) /* MaxMana */;
+VALUES (25805,   1,   479, 0, 0, 551) /* MaxHealth */
+     , (25805,   3,   500, 0, 0, 645) /* MaxStamina */
+     , (25805,   5,    50, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25805, 2, 47466,  1, 0, 0, False) /* Create Lightning Mace (47466) for Wield */

@@ -55,9 +55,9 @@ VALUES (35167,   1, 400, 0, 0) /* Strength */
      , (35167,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35167,   1,    10, 0, 0, 2000) /* MaxHealth */
-     , (35167,   3,    10, 0, 0, 8000) /* MaxStamina */
-     , (35167,   5,    10, 0, 0, 8000) /* MaxMana */;
+VALUES (35167,   1,  1800, 0, 0, 2000) /* MaxHealth */
+     , (35167,   3,  7600, 0, 0, 8000) /* MaxStamina */
+     , (35167,   5,  7740, 0, 0, 8000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35167, 9, 25639,  0, 0, 0, False) /* Create Leather Jerkin (25639) for ContainTreasure */

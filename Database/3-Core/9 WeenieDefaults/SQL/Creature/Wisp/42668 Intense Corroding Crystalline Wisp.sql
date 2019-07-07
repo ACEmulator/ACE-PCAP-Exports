@@ -51,9 +51,9 @@ VALUES (42668,   1, 200, 0, 0) /* Strength */
      , (42668,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42668,   1,    10, 0, 0, 1020) /* MaxHealth */
-     , (42668,   3,    10, 0, 0, 1120) /* MaxStamina */
-     , (42668,   5,    10, 0, 0, 436) /* MaxMana */;
+VALUES (42668,   1,   920, 0, 0, 1020) /* MaxHealth */
+     , (42668,   3,   920, 0, 0, 1120) /* MaxStamina */
+     , (42668,   5,   120, 0, 0, 470) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42668, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for ContainTreasure */

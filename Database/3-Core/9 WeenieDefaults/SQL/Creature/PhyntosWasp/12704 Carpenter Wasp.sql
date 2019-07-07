@@ -52,9 +52,9 @@ VALUES (12704,   1,  10, 0, 0) /* Strength */
      , (12704,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12704,   1,    10, 0, 0, 25) /* MaxHealth */
-     , (12704,   3,    10, 0, 0, 30) /* MaxStamina */
-     , (12704,   5,    10, 0, 0, 10) /* MaxMana */;
+VALUES (12704,   1,    20, 0, 0, 25) /* MaxHealth */
+     , (12704,   3,    20, 0, 0, 30) /* MaxStamina */
+     , (12704,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12704, 9, 13089,  0, 0, 0, False) /* Create Carpenter Wasp Wing (13089) for ContainTreasure */;

@@ -73,9 +73,9 @@ VALUES (1038,   1, 120, 0, 0) /* Strength */
      , (1038,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1038,   1,    10, 0, 0, 170) /* MaxHealth */
-     , (1038,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (1038,   5,    10, 0, 0, 95) /* MaxMana */;
+VALUES (1038,   1,   120, 0, 0, 170) /* MaxHealth */
+     , (1038,   3,   150, 0, 0, 250) /* MaxStamina */
+     , (1038,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1038, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */

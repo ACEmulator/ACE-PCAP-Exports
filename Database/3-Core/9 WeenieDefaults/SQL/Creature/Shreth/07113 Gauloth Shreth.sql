@@ -55,9 +55,9 @@ VALUES (7113,   1, 300, 0, 0) /* Strength */
      , (7113,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7113,   1,    10, 0, 0, 550) /* MaxHealth */
-     , (7113,   3,    10, 0, 0, 600) /* MaxStamina */
-     , (7113,   5,    10, 0, 0, 150) /* MaxMana */;
+VALUES (7113,   1,   400, 0, 0, 550) /* MaxHealth */
+     , (7113,   3,   300, 0, 0, 600) /* MaxStamina */
+     , (7113,   5,     0, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7113, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */

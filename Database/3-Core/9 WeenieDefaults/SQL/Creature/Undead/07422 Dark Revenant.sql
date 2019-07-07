@@ -48,7 +48,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7422, 8000, 3684853869) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7422,   1,    10, 0, 0, 300) /* MaxHealth */;
+VALUES (7422,   1,     0, 0, 0, 300) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7422, 2, 47974,  1, 0, 0, False) /* Create Acid Ono (47974) for Wield */

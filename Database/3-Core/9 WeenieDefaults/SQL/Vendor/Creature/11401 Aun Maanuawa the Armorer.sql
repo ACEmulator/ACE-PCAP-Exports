@@ -64,9 +64,9 @@ VALUES (11401,   1, 120, 0, 0) /* Strength */
      , (11401,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11401,   1,    10, 0, 0, 170) /* MaxHealth */
-     , (11401,   3,    10, 0, 0, 230) /* MaxStamina */
-     , (11401,   5,    10, 0, 0, 115) /* MaxMana */;
+VALUES (11401,   1,   120, 0, 0, 170) /* MaxHealth */
+     , (11401,   3,   130, 0, 0, 230) /* MaxStamina */
+     , (11401,   5,    90, 0, 0, 115) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11401, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */

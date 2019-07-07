@@ -51,9 +51,9 @@ VALUES (40777,   1, 200, 0, 0) /* Strength */
      , (40777,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40777,   1,    10, 0, 0, 1120) /* MaxHealth */
-     , (40777,   3,    10, 0, 0, 1220) /* MaxStamina */
-     , (40777,   5,    10, 0, 0, 455) /* MaxMana */;
+VALUES (40777,   1,  1020, 0, 0, 1120) /* MaxHealth */
+     , (40777,   3,  1020, 0, 0, 1220) /* MaxStamina */
+     , (40777,   5,   120, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40777, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */

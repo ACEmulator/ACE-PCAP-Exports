@@ -57,9 +57,9 @@ VALUES (52775,   1, 600, 0, 0) /* Strength */
      , (52775,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52775,   1,    10, 0, 0, 53000) /* MaxHealth */
-     , (52775,   3,    10, 0, 0, 25000) /* MaxStamina */
-     , (52775,   5,    10, 0, 0, 1500) /* MaxMana */;
+VALUES (52775,   1, 52500, 0, 0, 53000) /* MaxHealth */
+     , (52775,   3, 24000, 0, 0, 25000) /* MaxStamina */
+     , (52775,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52775, 2, 41253,  1, 0, 0, False) /* Create Frost Gearknight Greatsword (41253) for Wield */;

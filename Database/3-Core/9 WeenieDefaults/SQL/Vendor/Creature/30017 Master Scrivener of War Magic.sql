@@ -72,9 +72,9 @@ VALUES (30017,   1,  90, 0, 0) /* Strength */
      , (30017,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30017,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (30017,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (30017,   5,    10, 0, 0, 550) /* MaxMana */;
+VALUES (30017,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (30017,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (30017,   5,   200, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30017, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */

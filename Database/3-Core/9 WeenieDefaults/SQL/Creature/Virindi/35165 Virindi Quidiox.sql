@@ -52,9 +52,9 @@ VALUES (35165,   1, 320, 0, 0) /* Strength */
      , (35165,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35165,   1,    10, 0, 0, 5000) /* MaxHealth */
-     , (35165,   3,    10, 0, 0, 5000) /* MaxStamina */
-     , (35165,   5,    10, 0, 0, 4000) /* MaxMana */;
+VALUES (35165,   1,  4865, 0, 0, 5000) /* MaxHealth */
+     , (35165,   3,  4730, 0, 0, 5000) /* MaxStamina */
+     , (35165,   5,  3600, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35165, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */

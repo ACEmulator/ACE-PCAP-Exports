@@ -53,9 +53,9 @@ VALUES (49613,   1, 500, 0, 0) /* Strength */
      , (49613,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49613,   1,    10, 0, 0, 1800) /* MaxHealth */
-     , (49613,   3,    10, 0, 0, 2500) /* MaxStamina */
-     , (49613,   5,    10, 0, 0, 400) /* MaxMana */;
+VALUES (49613,   1,  1550, 0, 0, 1800) /* MaxHealth */
+     , (49613,   3,  2000, 0, 0, 2500) /* MaxStamina */
+     , (49613,   5,     0, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49613, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */

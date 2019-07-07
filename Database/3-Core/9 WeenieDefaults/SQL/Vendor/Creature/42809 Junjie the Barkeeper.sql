@@ -72,9 +72,9 @@ VALUES (42809,   1,  55, 0, 0) /* Strength */
      , (42809,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42809,   1,    10, 0, 0, 75) /* MaxHealth */
-     , (42809,   3,    10, 0, 0, 135) /* MaxStamina */
-     , (42809,   5,    10, 0, 0, 65) /* MaxMana */;
+VALUES (42809,   1,    45, 0, 0, 75) /* MaxHealth */
+     , (42809,   3,    75, 0, 0, 135) /* MaxStamina */
+     , (42809,   5,    40, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42809, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */

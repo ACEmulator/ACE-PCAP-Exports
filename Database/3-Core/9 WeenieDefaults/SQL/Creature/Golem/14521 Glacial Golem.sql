@@ -57,9 +57,9 @@ VALUES (14521,   1, 130, 0, 0) /* Strength */
      , (14521,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14521,   1,    10, 0, 0, 165) /* MaxHealth */
-     , (14521,   3,    10, 0, 0, 320) /* MaxStamina */
-     , (14521,   5,    10, 0, 0, 320) /* MaxMana */;
+VALUES (14521,   1,    80, 0, 0, 165) /* MaxHealth */
+     , (14521,   3,   150, 0, 0, 320) /* MaxStamina */
+     , (14521,   5,   200, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14521, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */

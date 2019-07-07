@@ -72,9 +72,9 @@ VALUES (44186,   1, 110, 0, 0) /* Strength */
      , (44186,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44186,   1,    10, 0, 0, 228) /* MaxHealth */
-     , (44186,   3,    10, 0, 0, 275) /* MaxStamina */
-     , (44186,   5,    10, 0, 0, 190) /* MaxMana */;
+VALUES (44186,   1,   181, 0, 0, 228) /* MaxHealth */
+     , (44186,   3,   180, 0, 0, 275) /* MaxStamina */
+     , (44186,   5,    90, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44186, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */

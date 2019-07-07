@@ -56,9 +56,9 @@ VALUES (29342,   1, 250, 0, 0) /* Strength */
      , (29342,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29342,   1,    10, 0, 0, 920) /* MaxHealth */
-     , (29342,   3,    10, 0, 0, 1090) /* MaxStamina */
-     , (29342,   5,    10, 0, 0, 780) /* MaxMana */;
+VALUES (29342,   1,   800, 0, 0, 920) /* MaxHealth */
+     , (29342,   3,   850, 0, 0, 1090) /* MaxStamina */
+     , (29342,   5,   600, 0, 0, 780) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29342, 2, 48631,  1, 0, 0, False) /* Create Ice Shard (48631) for Wield */

@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (28555, 8000, 3708423678) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28555,   1,    10, 0, 0, 220) /* MaxHealth */;
+VALUES (28555,   1,     0, 0, 0, 220) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28555, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */

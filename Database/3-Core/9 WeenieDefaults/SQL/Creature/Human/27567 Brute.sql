@@ -60,9 +60,9 @@ VALUES (27567,   1, 170, 0, 0) /* Strength */
      , (27567,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27567,   1,    10, 0, 0, 175) /* MaxHealth */
-     , (27567,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (27567,   5,    10, 0, 0, 10) /* MaxMana */;
+VALUES (27567,   1,   105, 0, 0, 175) /* MaxHealth */
+     , (27567,   3,   110, 0, 0, 250) /* MaxStamina */
+     , (27567,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27567, 2,  6292,  1, 0, 0, False) /* Create Peerless Shivering Atlan Sword (6292) for Wield */

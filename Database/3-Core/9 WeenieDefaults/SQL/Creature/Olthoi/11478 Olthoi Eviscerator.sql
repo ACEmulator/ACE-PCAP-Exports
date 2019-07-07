@@ -59,9 +59,9 @@ VALUES (11478,   1, 300, 0, 0) /* Strength */
      , (11478,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11478,   1,    10, 0, 0, 275) /* MaxHealth */
-     , (11478,   3,    10, 0, 0, 550) /* MaxStamina */
-     , (11478,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (11478,   1,   125, 0, 0, 275) /* MaxHealth */
+     , (11478,   3,   250, 0, 0, 550) /* MaxStamina */
+     , (11478,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11478, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for ContainTreasure */

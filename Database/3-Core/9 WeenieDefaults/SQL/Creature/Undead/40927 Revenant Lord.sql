@@ -56,9 +56,9 @@ VALUES (40927,   1, 180, 0, 0) /* Strength */
      , (40927,   6, 245, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40927,   1,    10, 0, 0, 2845) /* MaxHealth */
-     , (40927,   3,    10, 0, 0, 4190) /* MaxStamina */
-     , (40927,   5,    10, 0, 0, 2173) /* MaxMana */;
+VALUES (40927,   1,  3000, 0, 0, 3095) /* MaxHealth */
+     , (40927,   3,  4000, 0, 0, 4190) /* MaxStamina */
+     , (40927,   5,  2000, 0, 0, 2245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40927, 2, 40910,  1, 0, 0, False) /* Create Dericost Blade (40910) for Wield */;

@@ -56,9 +56,9 @@ VALUES (24305,   1, 330, 0, 0) /* Strength */
      , (24305,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24305,   1,    10, 0, 0, 740) /* MaxHealth */
-     , (24305,   3,    10, 0, 0, 750) /* MaxStamina */
-     , (24305,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (24305,   1,   575, 0, 0, 740) /* MaxHealth */
+     , (24305,   3,   420, 0, 0, 750) /* MaxStamina */
+     , (24305,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24305, 9, 20549,  0, 0, 0, False) /* Create Scroll of Kwipetian Vision (20549) for ContainTreasure */

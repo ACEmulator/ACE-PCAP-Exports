@@ -51,9 +51,9 @@ VALUES (40784,   1, 200, 0, 0) /* Strength */
      , (40784,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40784,   1,    10, 0, 0, 3120) /* MaxHealth */
-     , (40784,   3,    10, 0, 0, 2220) /* MaxStamina */
-     , (40784,   5,    10, 0, 0, 1328) /* MaxMana */;
+VALUES (40784,   1,  3020, 0, 0, 3120) /* MaxHealth */
+     , (40784,   3,  2020, 0, 0, 2220) /* MaxStamina */
+     , (40784,   5,  1200, 0, 0, 1570) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40784, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */

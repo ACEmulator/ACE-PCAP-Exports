@@ -48,7 +48,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (12027, 8000, 3711021820) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12027,   1,    10, 0, 0, 125) /* MaxHealth */;
+VALUES (12027,   1,     0, 0, 0, 125) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12027, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */

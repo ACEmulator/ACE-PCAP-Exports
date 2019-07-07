@@ -69,9 +69,9 @@ VALUES (37074,   1, 180, 0, 0) /* Strength */
      , (37074,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37074,   1,    10, 0, 0, 200) /* MaxHealth */
-     , (37074,   3,    10, 0, 0, 300) /* MaxStamina */
-     , (37074,   5,    10, 0, 0, 340) /* MaxMana */;
+VALUES (37074,   1,   100, 0, 0, 200) /* MaxHealth */
+     , (37074,   3,   100, 0, 0, 300) /* MaxStamina */
+     , (37074,   5,   100, 0, 0, 340) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37074, 2, 37224,  1, 0, 0, False) /* Create Acid Staff (37224) for Wield */;

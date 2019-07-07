@@ -52,9 +52,9 @@ VALUES (3,   1, 265, 0, 0) /* Strength */
      , (3,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (3,   1,    10, 0, 0, 158) /* MaxHealth */
-     , (3,   3,    10, 0, 0, 345) /* MaxStamina */
-     , (3,   5,    10, 0, 0, 20) /* MaxMana */;
+VALUES (3,   1,    26, 0, 0, 158) /* MaxHealth */
+     , (3,   3,    80, 0, 0, 345) /* MaxStamina */
+     , (3,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3, 9, 20482,  0, 0, 0, False) /* Create Scroll of Astyrrian's Gift (20482) for ContainTreasure */

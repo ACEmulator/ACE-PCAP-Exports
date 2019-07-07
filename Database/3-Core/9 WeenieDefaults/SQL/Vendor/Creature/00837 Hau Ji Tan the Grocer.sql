@@ -72,9 +72,9 @@ VALUES (837,   1,  75, 0, 0) /* Strength */
      , (837,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (837,   1,    10, 0, 0, 120) /* MaxHealth */
-     , (837,   3,    10, 0, 0, 170) /* MaxStamina */
-     , (837,   5,    10, 0, 0, 75) /* MaxMana */;
+VALUES (837,   1,    90, 0, 0, 120) /* MaxHealth */
+     , (837,   3,   110, 0, 0, 170) /* MaxStamina */
+     , (837,   5,    55, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (837, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */

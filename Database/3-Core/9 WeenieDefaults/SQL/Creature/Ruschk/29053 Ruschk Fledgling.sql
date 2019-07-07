@@ -55,9 +55,9 @@ VALUES (29053,   1, 130, 0, 0) /* Strength */
      , (29053,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29053,   1,    10, 0, 0, 130) /* MaxHealth */
-     , (29053,   3,    10, 0, 0, 220) /* MaxStamina */
-     , (29053,   5,    10, 0, 0, 110) /* MaxMana */;
+VALUES (29053,   1,    70, 0, 0, 130) /* MaxHealth */
+     , (29053,   3,   100, 0, 0, 220) /* MaxStamina */
+     , (29053,   5,    50, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29053, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */

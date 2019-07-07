@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46651, 8000, 3707809323) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46651,   1,    10, 0, 0, 4135) /* MaxHealth */;
+VALUES (46651,   1,     0, 0, 0, 5250) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46651, 2, 46605,  1, 0, 0, False) /* Create Magari Yari (46605) for Wield */;

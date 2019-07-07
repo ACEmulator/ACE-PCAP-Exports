@@ -57,9 +57,9 @@ VALUES (27710,   1, 300, 0, 0) /* Strength */
      , (27710,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27710,   1,    10, 0, 0, 390) /* MaxHealth */
-     , (27710,   3,    10, 0, 0, 430) /* MaxStamina */
-     , (27710,   5,    10, 0, 0, 180) /* MaxMana */;
+VALUES (27710,   1,   200, 0, 0, 390) /* MaxHealth */
+     , (27710,   3,    50, 0, 0, 430) /* MaxStamina */
+     , (27710,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27710, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */

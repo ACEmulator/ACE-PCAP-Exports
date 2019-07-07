@@ -56,9 +56,9 @@ VALUES (2439,   1,  80, 0, 0) /* Strength */
      , (2439,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2439,   1,    10, 0, 0, 78) /* MaxHealth */
-     , (2439,   3,    10, 0, 0, 170) /* MaxStamina */
-     , (2439,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (2439,   1,    36, 0, 0, 78) /* MaxHealth */
+     , (2439,   3,    85, 0, 0, 170) /* MaxStamina */
+     , (2439,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2439, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */

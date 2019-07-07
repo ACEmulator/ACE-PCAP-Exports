@@ -52,9 +52,9 @@ VALUES (27981,   1, 320, 0, 0) /* Strength */
      , (27981,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27981,   1,    10, 0, 0, 425) /* MaxHealth */
-     , (27981,   3,    10, 0, 0, 610) /* MaxStamina */
-     , (27981,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (27981,   1,   200, 0, 0, 425) /* MaxHealth */
+     , (27981,   3,   160, 0, 0, 610) /* MaxStamina */
+     , (27981,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27981, 2, 27878,  1, 0, 0, False) /* Create Bone Sword (27878) for Wield */

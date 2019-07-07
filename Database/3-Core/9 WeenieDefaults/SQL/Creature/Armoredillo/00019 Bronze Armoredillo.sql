@@ -52,9 +52,9 @@ VALUES (19,   1, 120, 0, 0) /* Strength */
      , (19,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19,   1,    10, 0, 0, 70) /* MaxHealth */
-     , (19,   3,    10, 0, 0, 220) /* MaxStamina */
-     , (19,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (19,   1,    30, 0, 0, 70) /* MaxHealth */
+     , (19,   3,   140, 0, 0, 220) /* MaxStamina */
+     , (19,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19, 9,  2849,  0, 0, 0, False) /* Create Scroll of Leaden Weapon IV (2849) for ContainTreasure */

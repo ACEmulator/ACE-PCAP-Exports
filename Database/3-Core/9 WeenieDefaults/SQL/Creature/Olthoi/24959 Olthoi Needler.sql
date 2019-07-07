@@ -57,9 +57,9 @@ VALUES (24959,   1,  80, 0, 0) /* Strength */
      , (24959,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24959,   1,    10, 0, 0, 160) /* MaxHealth */
-     , (24959,   3,    10, 0, 0, 350) /* MaxStamina */
-     , (24959,   5,    10, 0, 0, 40) /* MaxMana */;
+VALUES (24959,   1,    25, 0, 0, 160) /* MaxHealth */
+     , (24959,   3,    80, 0, 0, 350) /* MaxStamina */
+     , (24959,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24959, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */

@@ -57,9 +57,9 @@ VALUES (28554,   1, 180, 0, 0) /* Strength */
      , (28554,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28554,   1,    10, 0, 0, 185) /* MaxHealth */
-     , (28554,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (28554,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (28554,   1,   135, 0, 0, 185) /* MaxHealth */
+     , (28554,   3,   110, 0, 0, 210) /* MaxStamina */
+     , (28554,   5,   100, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28554, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */

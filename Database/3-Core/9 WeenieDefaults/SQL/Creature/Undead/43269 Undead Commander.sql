@@ -55,9 +55,9 @@ VALUES (43269,   1, 500, 0, 0) /* Strength */
      , (43269,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43269,   1,    10, 0, 0, 60250) /* MaxHealth */
-     , (43269,   3,    10, 0, 0, 60500) /* MaxStamina */
-     , (43269,   5,    10, 0, 0, 4450) /* MaxMana */;
+VALUES (43269,   1, 60000, 0, 0, 60250) /* MaxHealth */
+     , (43269,   3, 60000, 0, 0, 60500) /* MaxStamina */
+     , (43269,   5,  4000, 0, 0, 4450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43269, 9, 49385,  0, 0, 0, False) /* Create Fire Grievver Essence (180) (49385) for ContainTreasure */

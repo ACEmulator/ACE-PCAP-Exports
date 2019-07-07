@@ -60,9 +60,9 @@ VALUES (14426,   1, 250, 0, 0) /* Strength */
      , (14426,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14426,   1,    10, 0, 0, 0) /* MaxHealth */
-     , (14426,   3,    10, 0, 0, 346) /* MaxStamina */
-     , (14426,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (14426,   1,   100, 0, 0, 200) /* MaxHealth */
+     , (14426,   3,   150, 0, 0, 350) /* MaxStamina */
+     , (14426,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14426, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */

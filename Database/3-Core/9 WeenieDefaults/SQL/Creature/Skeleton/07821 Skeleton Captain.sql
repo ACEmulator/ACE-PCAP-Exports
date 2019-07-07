@@ -52,9 +52,9 @@ VALUES (7821,   1,  45, 0, 0) /* Strength */
      , (7821,   6,  75, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7821,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (7821,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (7821,   5,    10, 0, 0, 75) /* MaxMana */;
+VALUES (7821,   1,    65, 0, 0, 95) /* MaxHealth */
+     , (7821,   3,    80, 0, 0, 140) /* MaxStamina */
+     , (7821,   5,     0, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7821, 2, 48241,  1, 0, 0, False) /* Create Longbow (48241) for Wield */

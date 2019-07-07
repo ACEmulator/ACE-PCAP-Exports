@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41851, 8000, 2447919994) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41851,   1,    10, 0, 0, 1190) /* MaxHealth */;
+VALUES (41851,   1,     0, 0, 0, 1190) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41851, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */

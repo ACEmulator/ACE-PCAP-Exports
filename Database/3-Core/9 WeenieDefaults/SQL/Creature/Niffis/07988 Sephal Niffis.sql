@@ -55,9 +55,9 @@ VALUES (7988,   1, 220, 0, 0) /* Strength */
      , (7988,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7988,   1,    10, 0, 0, 180) /* MaxHealth */
-     , (7988,   3,    10, 0, 0, 217) /* MaxStamina */
-     , (7988,   5,    10, 0, 0, 496) /* MaxMana */;
+VALUES (7988,   1,    70, 0, 0, 180) /* MaxHealth */
+     , (7988,   3,     0, 0, 0, 220) /* MaxStamina */
+     , (7988,   5,   300, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7988, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */

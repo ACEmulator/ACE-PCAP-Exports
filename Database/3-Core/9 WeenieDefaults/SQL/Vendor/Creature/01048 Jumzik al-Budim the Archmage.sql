@@ -72,9 +72,9 @@ VALUES (1048,   1,  70, 0, 0) /* Strength */
      , (1048,   6, 135, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1048,   1,    10, 0, 0, 190) /* MaxHealth */
-     , (1048,   3,    10, 0, 0, 280) /* MaxStamina */
-     , (1048,   5,    10, 0, 0, 295) /* MaxMana */;
+VALUES (1048,   1,   150, 0, 0, 190) /* MaxHealth */
+     , (1048,   3,   200, 0, 0, 280) /* MaxStamina */
+     , (1048,   5,   160, 0, 0, 295) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1048, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */

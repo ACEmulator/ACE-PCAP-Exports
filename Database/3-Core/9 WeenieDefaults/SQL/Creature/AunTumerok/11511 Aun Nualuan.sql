@@ -56,9 +56,9 @@ VALUES (11511,   1, 228, 0, 0) /* Strength */
      , (11511,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11511,   1,    10, 0, 0, 160) /* MaxHealth */
-     , (11511,   3,    10, 0, 0, 338) /* MaxStamina */
-     , (11511,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (11511,   1,    70, 0, 0, 160) /* MaxHealth */
+     , (11511,   3,   150, 0, 0, 338) /* MaxStamina */
+     , (11511,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11511, 2, 12114,  1, 0, 0, False) /* Create Palenqual's Okane (12114) for Wield */

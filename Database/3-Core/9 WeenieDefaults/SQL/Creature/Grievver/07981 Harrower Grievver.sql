@@ -57,9 +57,9 @@ VALUES (7981,   1, 210, 0, 0) /* Strength */
      , (7981,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7981,   1,    10, 0, 0, 380) /* MaxHealth */
-     , (7981,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (7981,   5,    10, 0, 0, 320) /* MaxMana */;
+VALUES (7981,   1,   320, 0, 0, 380) /* MaxHealth */
+     , (7981,   3,   220, 0, 0, 340) /* MaxStamina */
+     , (7981,   5,   170, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7981, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */

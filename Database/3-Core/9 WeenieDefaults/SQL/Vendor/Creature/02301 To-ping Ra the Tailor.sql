@@ -72,9 +72,9 @@ VALUES (2301,   1,  75, 0, 0) /* Strength */
      , (2301,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2301,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (2301,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (2301,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (2301,   1,   100, 0, 0, 135) /* MaxHealth */
+     , (2301,   3,   110, 0, 0, 180) /* MaxStamina */
+     , (2301,   5,    75, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2301, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */

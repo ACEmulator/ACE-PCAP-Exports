@@ -53,9 +53,9 @@ VALUES (44032,   1, 360, 0, 0) /* Strength */
      , (44032,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44032,   1,    10, 0, 0, 10000) /* MaxHealth */
-     , (44032,   3,    10, 0, 0, 5370) /* MaxStamina */
-     , (44032,   5,    10, 0, 0, 5260) /* MaxMana */;
+VALUES (44032,   1,  9815, 0, 0, 10000) /* MaxHealth */
+     , (44032,   3,  5000, 0, 0, 5370) /* MaxStamina */
+     , (44032,   5,  5000, 0, 0, 5260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44032, 9, 49237,  0, 0, 0, False) /* Create Acid Zombie Essence (150) (49237) for ContainTreasure */

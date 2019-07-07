@@ -52,9 +52,9 @@ VALUES (28635,   1, 460, 0, 0) /* Strength */
      , (28635,   6, 260, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28635,   1,    10, 0, 0, 765) /* MaxHealth */
-     , (28635,   3,    10, 0, 0, 970) /* MaxStamina */
-     , (28635,   5,    10, 0, 0, 260) /* MaxMana */;
+VALUES (28635,   1,   530, 0, 0, 765) /* MaxHealth */
+     , (28635,   3,   500, 0, 0, 970) /* MaxStamina */
+     , (28635,   5,     0, 0, 0, 260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28635, 9,    58,  0, 0, 0, False) /* Create Scalemail Gauntlets (58) for ContainTreasure */

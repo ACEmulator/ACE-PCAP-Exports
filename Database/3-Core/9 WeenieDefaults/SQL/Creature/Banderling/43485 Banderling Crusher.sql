@@ -56,9 +56,9 @@ VALUES (43485,   1, 295, 0, 0) /* Strength */
      , (43485,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43485,   1,    10, 0, 0, 1520) /* MaxHealth */
-     , (43485,   3,    10, 0, 0, 2040) /* MaxStamina */
-     , (43485,   5,    10, 0, 0, 760) /* MaxMana */;
+VALUES (43485,   1,  1400, 0, 0, 1520) /* MaxHealth */
+     , (43485,   3,  1800, 0, 0, 2040) /* MaxStamina */
+     , (43485,   5,   600, 0, 0, 760) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43485, 9, 43407,  1, 0, 0, False) /* Create Corruptor's Crystal (43407) for ContainTreasure */

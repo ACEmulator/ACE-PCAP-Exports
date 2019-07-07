@@ -56,9 +56,9 @@ VALUES (46278,   1, 490, 0, 0) /* Strength */
      , (46278,   6, 395, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46278,   1,    10, 0, 0, 460) /* MaxHealth */
-     , (46278,   3,    10, 0, 0, 503) /* MaxStamina */
-     , (46278,   5,    10, 0, 0, 395) /* MaxMana */;
+VALUES (46278,   1,   280, 0, 0, 460) /* MaxHealth */
+     , (46278,   3,   151, 0, 0, 511) /* MaxStamina */
+     , (46278,   5,     0, 0, 0, 395) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46278, 2, 46282,  1, 0, 0, False) /* Create Iceball (46282) for Wield */;

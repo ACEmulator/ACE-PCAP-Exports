@@ -72,9 +72,9 @@ VALUES (870,   1,  60, 0, 0) /* Strength */
      , (870,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (870,   1,    10, 0, 0, 125) /* MaxHealth */
-     , (870,   3,    10, 0, 0, 130) /* MaxStamina */
-     , (870,   5,    10, 0, 0, 105) /* MaxMana */;
+VALUES (870,   1,   100, 0, 0, 125) /* MaxHealth */
+     , (870,   3,    80, 0, 0, 130) /* MaxStamina */
+     , (870,   5,    80, 0, 0, 105) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (870, 4,  2593, -1, 0, 0, False) /* Create Loose Tunic (2593) for Shop */

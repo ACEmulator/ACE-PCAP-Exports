@@ -72,9 +72,9 @@ VALUES (2296,   1,  80, 0, 0) /* Strength */
      , (2296,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2296,   1,    10, 0, 0, 123) /* MaxHealth */
-     , (2296,   3,    10, 0, 0, 165) /* MaxStamina */
-     , (2296,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (2296,   1,    91, 0, 0, 123) /* MaxHealth */
+     , (2296,   3,   100, 0, 0, 165) /* MaxStamina */
+     , (2296,   5,    60, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2296, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */

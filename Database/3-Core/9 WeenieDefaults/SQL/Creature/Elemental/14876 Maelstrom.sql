@@ -57,9 +57,9 @@ VALUES (14876,   1, 150, 0, 0) /* Strength */
      , (14876,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14876,   1,    10, 0, 0, 780) /* MaxHealth */
-     , (14876,   3,    10, 0, 0, 610) /* MaxStamina */
-     , (14876,   5,    10, 0, 0, 540) /* MaxMana */;
+VALUES (14876,   1,   700, 0, 0, 780) /* MaxHealth */
+     , (14876,   3,   450, 0, 0, 610) /* MaxStamina */
+     , (14876,   5,   350, 0, 0, 540) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14876, 2,  6383,  1, 0, 0, False) /* Create Ball of Electricity (6383) for Wield */

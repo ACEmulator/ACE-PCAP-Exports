@@ -65,9 +65,9 @@ VALUES (43144,   1, 220, 0, 0) /* Strength */
      , (43144,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43144,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (43144,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (43144,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (43144,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (43144,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (43144,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43144, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */

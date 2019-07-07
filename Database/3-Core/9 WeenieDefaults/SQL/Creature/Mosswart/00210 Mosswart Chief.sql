@@ -56,9 +56,9 @@ VALUES (210,   1, 130, 0, 0) /* Strength */
      , (210,   6,  65, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (210,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (210,   3,    10, 0, 0, 205) /* MaxStamina */
-     , (210,   5,    10, 0, 0, 115) /* MaxMana */;
+VALUES (210,   1,    55, 0, 0, 115) /* MaxHealth */
+     , (210,   3,    85, 0, 0, 205) /* MaxStamina */
+     , (210,   5,    50, 0, 0, 115) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (210, 2, 47523,  1, 0, 0, False) /* Create Acid Javelin (47523) for Wield */

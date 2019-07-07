@@ -73,9 +73,9 @@ VALUES (42430,   1, 260, 0, 0) /* Strength */
      , (42430,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42430,   1,    10, 0, 0, 495) /* MaxHealth */
-     , (42430,   3,    10, 0, 0, 790) /* MaxStamina */
-     , (42430,   5,    10, 0, 0, 700) /* MaxMana */;
+VALUES (42430,   1,   350, 0, 0, 495) /* MaxHealth */
+     , (42430,   3,   500, 0, 0, 790) /* MaxStamina */
+     , (42430,   5,   500, 0, 0, 700) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42430, 4, 42724, -1, 0, 0, False) /* Create Armor Layering Tool (Top) (42724) for Shop */

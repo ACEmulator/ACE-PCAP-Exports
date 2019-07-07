@@ -61,9 +61,9 @@ VALUES (22509,   1,  90, 0, 0) /* Strength */
      , (22509,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22509,   1,    10, 0, 0, 50) /* MaxHealth */
-     , (22509,   3,    10, 0, 0, 70) /* MaxStamina */
-     , (22509,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (22509,   1,    25, 0, 0, 50) /* MaxHealth */
+     , (22509,   3,    20, 0, 0, 70) /* MaxStamina */
+     , (22509,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22509, 2, 12062,  1, 0, 0, False) /* Create Bandit Khanjar (12062) for Wield */

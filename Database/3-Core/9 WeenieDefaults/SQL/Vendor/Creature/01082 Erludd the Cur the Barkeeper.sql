@@ -72,9 +72,9 @@ VALUES (1082,   1,  90, 0, 0) /* Strength */
      , (1082,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1082,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (1082,   3,    10, 0, 0, 220) /* MaxStamina */
-     , (1082,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (1082,   1,   100, 0, 0, 150) /* MaxHealth */
+     , (1082,   3,   120, 0, 0, 220) /* MaxStamina */
+     , (1082,   5,    45, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1082, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */

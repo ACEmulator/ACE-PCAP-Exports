@@ -54,9 +54,9 @@ VALUES (46530,   1, 400, 0, 0) /* Strength */
      , (46530,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46530,   1,    10, 0, 0, 2500) /* MaxHealth */
-     , (46530,   3,    10, 0, 0, 2700) /* MaxStamina */
-     , (46530,   5,    10, 0, 0, 750) /* MaxMana */;
+VALUES (46530,   1,  2300, 0, 0, 2500) /* MaxHealth */
+     , (46530,   3,  2300, 0, 0, 2700) /* MaxStamina */
+     , (46530,   5,   500, 0, 0, 750) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46530, 2, 46369,  1, 0, 0, False) /* Create Spectral Lightning Nekode (46369) for Wield */

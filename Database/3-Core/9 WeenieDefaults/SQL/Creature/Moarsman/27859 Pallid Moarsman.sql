@@ -56,9 +56,9 @@ VALUES (27859,   1,  90, 0, 0) /* Strength */
      , (27859,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27859,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (27859,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (27859,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (27859,   1,    50, 0, 0, 95) /* MaxHealth */
+     , (27859,   3,    90, 0, 0, 180) /* MaxStamina */
+     , (27859,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27859, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */

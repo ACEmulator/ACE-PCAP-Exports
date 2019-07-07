@@ -57,9 +57,9 @@ VALUES (7424,   1, 110, 0, 0) /* Strength */
      , (7424,   6, 155, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7424,   1,    10, 0, 0, 235) /* MaxHealth */
-     , (7424,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (7424,   5,    10, 0, 0, 305) /* MaxMana */;
+VALUES (7424,   1,   180, 0, 0, 235) /* MaxHealth */
+     , (7424,   3,   220, 0, 0, 330) /* MaxStamina */
+     , (7424,   5,   150, 0, 0, 305) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7424, 2, 47958,  1, 0, 0, False) /* Create Ono (47958) for Wield */

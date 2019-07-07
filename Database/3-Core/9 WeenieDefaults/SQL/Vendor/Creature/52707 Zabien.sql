@@ -74,9 +74,9 @@ VALUES (52707,   1, 600, 0, 0) /* Strength */
      , (52707,   6, 575, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52707,   1,    10, 0, 0, 2075) /* MaxHealth */
-     , (52707,   3,    10, 0, 0, 1800) /* MaxStamina */
-     , (52707,   5,    10, 0, 0, 3075) /* MaxMana */;
+VALUES (52707,   1,  1800, 0, 0, 2075) /* MaxHealth */
+     , (52707,   3,  1250, 0, 0, 1800) /* MaxStamina */
+     , (52707,   5,  2500, 0, 0, 3075) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52707, 4, 52736, -1, 0, 0, False) /* Create Gauntlet Backpack (52736) for Shop */

@@ -52,9 +52,9 @@ VALUES (22077,   1, 200, 0, 0) /* Strength */
      , (22077,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22077,   1,    10, 0, 0, 275) /* MaxHealth */
-     , (22077,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (22077,   5,    10, 0, 0, 500) /* MaxMana */;
+VALUES (22077,   1,   200, 0, 0, 275) /* MaxHealth */
+     , (22077,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (22077,   5,   200, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22077, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */

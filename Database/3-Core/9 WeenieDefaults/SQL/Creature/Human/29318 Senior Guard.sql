@@ -69,9 +69,9 @@ VALUES (29318,   1, 250, 0, 0) /* Strength */
      , (29318,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29318,   1,    10, 0, 0, 335) /* MaxHealth */
-     , (29318,   3,    10, 0, 0, 470) /* MaxStamina */
-     , (29318,   5,    10, 0, 0, 480) /* MaxMana */;
+VALUES (29318,   1,   200, 0, 0, 335) /* MaxHealth */
+     , (29318,   3,   200, 0, 0, 470) /* MaxStamina */
+     , (29318,   5,   200, 0, 0, 480) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29318, 2, 27849,  1, 0, 0, False) /* Create Singularity Sword (27849) for Wield */;

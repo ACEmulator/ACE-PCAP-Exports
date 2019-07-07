@@ -54,9 +54,9 @@ VALUES (44480,   1, 289, 0, 0) /* Strength */
      , (44480,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44480,   1,    10, 0, 0, 1828) /* MaxHealth */
-     , (44480,   3,    10, 0, 0, 1455) /* MaxStamina */
-     , (44480,   5,    10, 0, 0, 2500) /* MaxMana */;
+VALUES (44480,   1,  1601, 0, 0, 1828) /* MaxHealth */
+     , (44480,   3,  1000, 0, 0, 1455) /* MaxStamina */
+     , (44480,   5,  2100, 0, 0, 2500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44480, 9, 49224,  0, 0, 0, False) /* Create Lightning Skeleton Bushi Essence (150) (49224) for ContainTreasure */

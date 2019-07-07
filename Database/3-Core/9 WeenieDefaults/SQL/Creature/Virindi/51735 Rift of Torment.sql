@@ -57,9 +57,9 @@ VALUES (51735,   1, 180, 0, 0) /* Strength */
      , (51735,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51735,   1,    10, 0, 0, 10100) /* MaxHealth */
-     , (51735,   3,    10, 0, 0, 1100) /* MaxStamina */
-     , (51735,   5,    10, 0, 0, 11093) /* MaxMana */;
+VALUES (51735,   1, 10010, 0, 0, 10100) /* MaxHealth */
+     , (51735,   3,   920, 0, 0, 1100) /* MaxStamina */
+     , (51735,   5, 10800, 0, 0, 11120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51735, 9, 20567,  0, 0, 0, False) /* Create Scroll of Inefficient Investment (20567) for ContainTreasure */

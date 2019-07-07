@@ -55,9 +55,9 @@ VALUES (28650,   1, 150, 0, 0) /* Strength */
      , (28650,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28650,   1,    10, 0, 0, 235) /* MaxHealth */
-     , (28650,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (28650,   5,    10, 0, 0, 255) /* MaxMana */;
+VALUES (28650,   1,   175, 0, 0, 235) /* MaxHealth */
+     , (28650,   3,   220, 0, 0, 340) /* MaxStamina */
+     , (28650,   5,   135, 0, 0, 255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28650, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */

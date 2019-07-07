@@ -69,9 +69,9 @@ VALUES (43060,   1, 165, 0, 0) /* Strength */
      , (43060,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43060,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (43060,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (43060,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (43060,   1,    50, 0, 0, 95) /* MaxHealth */
+     , (43060,   3,    50, 0, 0, 140) /* MaxStamina */
+     , (43060,   5,    50, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43060, 2, 43042,  1, 0, 0, False) /* Create Paradox-touched Olthoi Great Sword (43042) for Wield */;

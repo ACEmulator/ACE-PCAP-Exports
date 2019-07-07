@@ -55,9 +55,9 @@ VALUES (38831,   1, 320, 0, 0) /* Strength */
      , (38831,   6, 380, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38831,   1,    10, 0, 0, 1020) /* MaxHealth */
-     , (38831,   3,    10, 0, 0, 1040) /* MaxStamina */
-     , (38831,   5,    10, 0, 0, 1130) /* MaxMana */;
+VALUES (38831,   1,   850, 0, 0, 1020) /* MaxHealth */
+     , (38831,   3,   700, 0, 0, 1040) /* MaxStamina */
+     , (38831,   5,   750, 0, 0, 1130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38831, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;

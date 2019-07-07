@@ -61,9 +61,9 @@ VALUES (29301,   1, 230, 0, 0) /* Strength */
      , (29301,   6, 345, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29301,   1,    10, 0, 0, 480) /* MaxHealth */
-     , (29301,   3,    10, 0, 0, 480) /* MaxStamina */
-     , (29301,   5,    10, 0, 0, 495) /* MaxMana */;
+VALUES (29301,   1,   395, 0, 0, 480) /* MaxHealth */
+     , (29301,   3,   310, 0, 0, 480) /* MaxStamina */
+     , (29301,   5,   150, 0, 0, 495) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29301, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */

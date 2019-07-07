@@ -53,9 +53,9 @@ VALUES (6775,   1,  85, 0, 0) /* Strength */
      , (6775,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6775,   1,    10, 0, 0, 146) /* MaxHealth */
-     , (6775,   3,    10, 0, 0, 205) /* MaxStamina */
-     , (6775,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (6775,   1,    99, 0, 0, 146) /* MaxHealth */
+     , (6775,   3,   110, 0, 0, 205) /* MaxStamina */
+     , (6775,   5,   100, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6775, 2, 48240,  1, 0, 0, False) /* Create Frost Bow (48240) for Wield */;

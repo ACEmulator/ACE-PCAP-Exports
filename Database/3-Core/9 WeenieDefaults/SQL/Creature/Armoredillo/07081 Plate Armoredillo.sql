@@ -52,9 +52,9 @@ VALUES (7081,   1, 240, 0, 0) /* Strength */
      , (7081,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7081,   1,    10, 0, 0, 390) /* MaxHealth */
-     , (7081,   3,    10, 0, 0, 600) /* MaxStamina */
-     , (7081,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (7081,   1,   300, 0, 0, 390) /* MaxHealth */
+     , (7081,   3,   420, 0, 0, 600) /* MaxStamina */
+     , (7081,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7081, 9, 49443,  0, 0, 0, False) /* Create Frost Spectre Essence (80) (49443) for ContainTreasure */

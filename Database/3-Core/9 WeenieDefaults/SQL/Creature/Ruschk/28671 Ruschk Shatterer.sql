@@ -56,9 +56,9 @@ VALUES (28671,   1, 180, 0, 0) /* Strength */
      , (28671,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28671,   1,    10, 0, 0, 220) /* MaxHealth */
-     , (28671,   3,    10, 0, 0, 360) /* MaxStamina */
-     , (28671,   5,    10, 0, 0, 42) /* MaxMana */;
+VALUES (28671,   1,   140, 0, 0, 220) /* MaxHealth */
+     , (28671,   3,   200, 0, 0, 360) /* MaxStamina */
+     , (28671,   5,    90, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28671, 2, 48600,  1, 0, 0, False) /* Create Frozen Dagger (48600) for Wield */

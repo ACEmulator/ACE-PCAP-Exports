@@ -61,9 +61,9 @@ VALUES (22511,   1, 120, 0, 0) /* Strength */
      , (22511,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22511,   1,    10, 0, 0, 90) /* MaxHealth */
-     , (22511,   3,    10, 0, 0, 110) /* MaxStamina */
-     , (22511,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (22511,   1,    55, 0, 0, 90) /* MaxHealth */
+     , (22511,   3,    40, 0, 0, 110) /* MaxStamina */
+     , (22511,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22511, 2, 22790,  1, 0, 0, False) /* Create Bandit Simi (22790) for Wield */

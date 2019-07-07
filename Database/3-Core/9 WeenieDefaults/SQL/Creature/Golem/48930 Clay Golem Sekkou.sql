@@ -57,9 +57,9 @@ VALUES (48930,   1, 520, 0, 0) /* Strength */
      , (48930,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48930,   1,    10, 0, 0, 4750) /* MaxHealth */
-     , (48930,   3,    10, 0, 0, 4000) /* MaxStamina */
-     , (48930,   5,    10, 0, 0, 3000) /* MaxMana */;
+VALUES (48930,   1,  4500, 0, 0, 4750) /* MaxHealth */
+     , (48930,   3,  3500, 0, 0, 4000) /* MaxStamina */
+     , (48930,   5,  2700, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48930, 2, 46606,  1, 0, 0, False) /* Create Fire-hardened Clay Nodachi (46606) for Wield */;

@@ -59,9 +59,9 @@ VALUES (10948,   1, 250, 0, 0) /* Strength */
      , (10948,   6, 270, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10948,   1,    10, 0, 0, 330) /* MaxHealth */
-     , (10948,   3,    10, 0, 0, 600) /* MaxStamina */
-     , (10948,   5,    10, 0, 0, 210) /* MaxMana */;
+VALUES (10948,   1,   180, 0, 0, 330) /* MaxHealth */
+     , (10948,   3,   300, 0, 0, 600) /* MaxStamina */
+     , (10948,   5,     0, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10948, 2, 11004,  1, 0, 0, False) /* Create Kotiae (11004) for Wield */;

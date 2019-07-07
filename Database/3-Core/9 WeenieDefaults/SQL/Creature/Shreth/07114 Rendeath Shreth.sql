@@ -55,9 +55,9 @@ VALUES (7114,   1, 340, 0, 0) /* Strength */
      , (7114,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7114,   1,    10, 0, 0, 608) /* MaxHealth */
-     , (7114,   3,    10, 0, 0, 675) /* MaxStamina */
-     , (7114,   5,    10, 0, 0, 150) /* MaxMana */;
+VALUES (7114,   1,   421, 0, 0, 608) /* MaxHealth */
+     , (7114,   3,   300, 0, 0, 675) /* MaxStamina */
+     , (7114,   5,     0, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7114, 9, 20425,  0, 0, 0, False) /* Create Scroll of Fortified Lock (20425) for ContainTreasure */

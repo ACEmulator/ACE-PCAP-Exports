@@ -57,9 +57,9 @@ VALUES (7983,   1, 220, 0, 0) /* Strength */
      , (7983,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7983,   1,    10, 0, 0, 465) /* MaxHealth */
-     , (7983,   3,    10, 0, 0, 380) /* MaxStamina */
-     , (7983,   5,    10, 0, 0, 360) /* MaxMana */;
+VALUES (7983,   1,   400, 0, 0, 465) /* MaxHealth */
+     , (7983,   3,   250, 0, 0, 380) /* MaxStamina */
+     , (7983,   5,   200, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7983, 9, 20499,  0, 0, 0, False) /* Create Scroll of Aliester's Boon (20499) for ContainTreasure */

@@ -61,9 +61,9 @@ VALUES (11503,   1, 130, 0, 0) /* Strength */
      , (11503,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11503,   1,    10, 0, 0, 130) /* MaxHealth */
-     , (11503,   3,    10, 0, 0, 134) /* MaxStamina */
-     , (11503,   5,    10, 0, 0, 10) /* MaxMana */;
+VALUES (11503,   1,    85, 0, 0, 130) /* MaxHealth */
+     , (11503,   3,    45, 0, 0, 135) /* MaxStamina */
+     , (11503,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11503, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */

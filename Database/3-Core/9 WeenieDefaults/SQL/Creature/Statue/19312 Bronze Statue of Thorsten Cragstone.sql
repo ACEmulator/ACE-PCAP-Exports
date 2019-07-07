@@ -56,9 +56,9 @@ VALUES (19312,   1, 230, 0, 0) /* Strength */
      , (19312,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19312,   1,    10, 0, 0, 245) /* MaxHealth */
-     , (19312,   3,    10, 0, 0, 370) /* MaxStamina */
-     , (19312,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (19312,   1,   150, 0, 0, 245) /* MaxHealth */
+     , (19312,   3,   180, 0, 0, 370) /* MaxStamina */
+     , (19312,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19312, 2, 15389,  1, 0, 0, False) /* Create Cragstone's Axe (15389) for Wield */

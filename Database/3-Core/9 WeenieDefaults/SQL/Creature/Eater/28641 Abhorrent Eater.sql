@@ -55,9 +55,9 @@ VALUES (28641,   1, 400, 0, 0) /* Strength */
      , (28641,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28641,   1,    10, 0, 0, 655) /* MaxHealth */
-     , (28641,   3,    10, 0, 0, 810) /* MaxStamina */
-     , (28641,   5,    10, 0, 0, 200) /* MaxMana */;
+VALUES (28641,   1,   450, 0, 0, 655) /* MaxHealth */
+     , (28641,   3,   400, 0, 0, 810) /* MaxStamina */
+     , (28641,   5,     0, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28641, 9, 49262,  0, 0, 0, False) /* Create Acid Elemental Essence (80) (49262) for ContainTreasure */

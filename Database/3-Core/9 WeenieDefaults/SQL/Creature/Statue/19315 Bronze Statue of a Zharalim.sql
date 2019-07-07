@@ -56,9 +56,9 @@ VALUES (19315,   1, 180, 0, 0) /* Strength */
      , (19315,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19315,   1,    10, 0, 0, 255) /* MaxHealth */
-     , (19315,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (19315,   5,    10, 0, 0, 250) /* MaxMana */;
+VALUES (19315,   1,   180, 0, 0, 255) /* MaxHealth */
+     , (19315,   3,   180, 0, 0, 330) /* MaxStamina */
+     , (19315,   5,   100, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19315, 2, 15870,  1, 0, 0, False) /* Create Bronze Atlatl (15870) for Wield */

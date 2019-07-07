@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10778, 8000, 3361841053) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10778,   1,    10, 0, 0, 503) /* MaxHealth */;
+VALUES (10778,   1,     0, 0, 0, 503) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10778, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */;

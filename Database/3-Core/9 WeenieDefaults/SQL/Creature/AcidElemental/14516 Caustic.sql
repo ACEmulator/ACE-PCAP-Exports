@@ -57,9 +57,9 @@ VALUES (14516,   1, 130, 0, 0) /* Strength */
      , (14516,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14516,   1,    10, 0, 0, 575) /* MaxHealth */
-     , (14516,   3,    10, 0, 0, 550) /* MaxStamina */
-     , (14516,   5,    10, 0, 0, 470) /* MaxMana */;
+VALUES (14516,   1,   500, 0, 0, 575) /* MaxHealth */
+     , (14516,   3,   400, 0, 0, 550) /* MaxStamina */
+     , (14516,   5,   300, 0, 0, 470) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14516, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */

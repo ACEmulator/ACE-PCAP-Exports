@@ -71,9 +71,9 @@ VALUES (46678,   1, 290, 0, 0) /* Strength */
      , (46678,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46678,   1,    10, 0, 0, 296) /* MaxHealth */
-     , (46678,   3,    10, 0, 0, 396) /* MaxStamina */
-     , (46678,   5,    10, 0, 0, 396) /* MaxMana */;
+VALUES (46678,   1,   196, 0, 0, 296) /* MaxHealth */
+     , (46678,   3,   196, 0, 0, 396) /* MaxStamina */
+     , (46678,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46678, 2, 41250,  1, 0, 0, False) /* Create Acid Gearknight Greatsword (41250) for Wield */;

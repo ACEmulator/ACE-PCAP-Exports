@@ -57,8 +57,8 @@ VALUES (2612,   1,  40, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (2612,   1,    10, 0, 0, 40) /* MaxHealth */
-     , (2612,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (2612,   5,    10, 0, 0, 40) /* MaxMana */;
+     , (2612,   3,   150, 0, 0, 210) /* MaxStamina */
+     , (2612,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2612, 2,  3944,  1, 0, 0, False) /* Create Dabus (3944) for Wield */

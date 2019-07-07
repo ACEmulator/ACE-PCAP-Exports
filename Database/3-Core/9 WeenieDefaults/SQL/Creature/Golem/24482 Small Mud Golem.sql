@@ -59,9 +59,9 @@ VALUES (24482,   1, 280, 0, 0) /* Strength */
      , (24482,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24482,   1,    10, 0, 0, 540) /* MaxHealth */
-     , (24482,   3,    10, 0, 0, 500) /* MaxStamina */
-     , (24482,   5,    10, 0, 0, 455) /* MaxMana */;
+VALUES (24482,   1,   400, 0, 0, 540) /* MaxHealth */
+     , (24482,   3,   220, 0, 0, 500) /* MaxStamina */
+     , (24482,   5,   275, 0, 0, 455) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24482, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */

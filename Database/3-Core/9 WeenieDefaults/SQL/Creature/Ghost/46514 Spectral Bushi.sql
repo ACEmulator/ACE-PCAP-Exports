@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (46514, 8000, 3707809448) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46514,   1,    10, 0, 0, 2850) /* MaxHealth */;
+VALUES (46514,   1,     0, 0, 0, 2850) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46514, 2, 46366,  1, 0, 0, False) /* Create Spectral Fire Tachi (46366) for Wield */;

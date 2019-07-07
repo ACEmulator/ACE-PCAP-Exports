@@ -56,9 +56,9 @@ VALUES (33799,   1, 230, 0, 0) /* Strength */
      , (33799,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33799,   1,    10, 0, 0, 770) /* MaxHealth */
-     , (33799,   3,    10, 0, 0, 920) /* MaxStamina */
-     , (33799,   5,    10, 0, 0, 560) /* MaxMana */;
+VALUES (33799,   1,   660, 0, 0, 770) /* MaxHealth */
+     , (33799,   3,   700, 0, 0, 920) /* MaxStamina */
+     , (33799,   5,   400, 0, 0, 560) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33799, 2, 48623,  1, 0, 0, False) /* Create Glacial Blade (48623) for Wield */

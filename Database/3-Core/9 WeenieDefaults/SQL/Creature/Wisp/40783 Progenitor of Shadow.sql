@@ -52,9 +52,9 @@ VALUES (40783,   1, 200, 0, 0) /* Strength */
      , (40783,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40783,   1,    10, 0, 0, 3120) /* MaxHealth */
-     , (40783,   3,    10, 0, 0, 2220) /* MaxStamina */
-     , (40783,   5,    10, 0, 0, 1328) /* MaxMana */;
+VALUES (40783,   1,  3020, 0, 0, 3120) /* MaxHealth */
+     , (40783,   3,  2020, 0, 0, 2220) /* MaxStamina */
+     , (40783,   5,  1200, 0, 0, 1570) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40783, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */

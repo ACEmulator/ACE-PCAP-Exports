@@ -65,9 +65,9 @@ VALUES (45485,   1, 680, 0, 0) /* Strength */
      , (45485,   6, 585, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45485,   1,    10, 0, 0, 1120) /* MaxHealth */
-     , (45485,   3,    10, 0, 0, 1491) /* MaxStamina */
-     , (45485,   5,    10, 0, 0, 1085) /* MaxMana */;
+VALUES (45485,   1,   800, 0, 0, 1120) /* MaxHealth */
+     , (45485,   3,   851, 0, 0, 1491) /* MaxStamina */
+     , (45485,   5,   500, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45485, 4, 45436, -1, 0, 0, False) /* Create Bearded Axe of Souia-Vey (45436) for Shop */

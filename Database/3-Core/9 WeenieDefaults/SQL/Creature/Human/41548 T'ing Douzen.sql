@@ -69,9 +69,9 @@ VALUES (41548,   1, 290, 0, 0) /* Strength */
      , (41548,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41548,   1,    10, 0, 0, 296) /* MaxHealth */
-     , (41548,   3,    10, 0, 0, 396) /* MaxStamina */
-     , (41548,   5,    10, 0, 0, 386) /* MaxMana */;
+VALUES (41548,   1,   196, 0, 0, 296) /* MaxHealth */
+     , (41548,   3,   196, 0, 0, 396) /* MaxStamina */
+     , (41548,   5,   196, 0, 0, 386) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41548, 2, 40760,  1, 0, 0, False) /* Create Nodachi (40760) for Wield */;

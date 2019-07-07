@@ -53,9 +53,9 @@ VALUES (7822,   1,  65, 0, 0) /* Strength */
      , (7822,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7822,   1,    10, 0, 0, 108) /* MaxHealth */
-     , (7822,   3,    10, 0, 0, 165) /* MaxStamina */
-     , (7822,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (7822,   1,    71, 0, 0, 108) /* MaxHealth */
+     , (7822,   3,    90, 0, 0, 165) /* MaxStamina */
+     , (7822,   5,   100, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7822, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */

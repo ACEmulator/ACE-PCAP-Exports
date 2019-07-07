@@ -56,9 +56,9 @@ VALUES (38877,   1, 240, 0, 0) /* Strength */
      , (38877,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38877,   1,    10, 0, 0, 1110) /* MaxHealth */
-     , (38877,   3,    10, 0, 0, 1520) /* MaxStamina */
-     , (38877,   5,    10, 0, 0, 987) /* MaxMana */;
+VALUES (38877,   1,  1000, 0, 0, 1110) /* MaxHealth */
+     , (38877,   3,  1300, 0, 0, 1520) /* MaxStamina */
+     , (38877,   5,   800, 0, 0, 1020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38877, 2, 38927,  1, 0, 0, False) /* Create T'thuun Spear (38927) for Wield */

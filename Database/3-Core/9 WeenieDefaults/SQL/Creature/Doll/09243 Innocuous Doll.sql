@@ -56,9 +56,9 @@ VALUES (9243,   1, 150, 0, 0) /* Strength */
      , (9243,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9243,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (9243,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (9243,   5,    10, 0, 0, 350) /* MaxMana */;
+VALUES (9243,   1,    40, 0, 0, 115) /* MaxHealth */
+     , (9243,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (9243,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9243, 9,   110,  0, 0, 0, False) /* Create Platemail Tassets (110) for ContainTreasure */

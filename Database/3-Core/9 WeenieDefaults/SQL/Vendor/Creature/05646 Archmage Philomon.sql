@@ -72,9 +72,9 @@ VALUES (5646,   1, 145, 0, 0) /* Strength */
      , (5646,   6, 185, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5646,   1,    10, 0, 0, 65) /* MaxHealth */
-     , (5646,   3,    10, 0, 0, 130) /* MaxStamina */
-     , (5646,   5,    10, 0, 0, 185) /* MaxMana */;
+VALUES (5646,   1,     0, 0, 0, 65) /* MaxHealth */
+     , (5646,   3,     0, 0, 0, 130) /* MaxStamina */
+     , (5646,   5,     0, 0, 0, 185) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5646, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */

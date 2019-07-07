@@ -69,9 +69,9 @@ VALUES (25584,   1, 186, 0, 0) /* Strength */
      , (25584,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25584,   1,    10, 0, 0, 301) /* MaxHealth */
-     , (25584,   3,    10, 0, 0, 401) /* MaxStamina */
-     , (25584,   5,    10, 0, 0, 530) /* MaxMana */;
+VALUES (25584,   1,   201, 0, 0, 301) /* MaxHealth */
+     , (25584,   3,   200, 0, 0, 401) /* MaxStamina */
+     , (25584,   5,   250, 0, 0, 530) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25584, 2,  8904,  1, 0, 0, False) /* Create Focusing Stone (8904) for Wield */;

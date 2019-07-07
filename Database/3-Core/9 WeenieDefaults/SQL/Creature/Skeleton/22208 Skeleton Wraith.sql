@@ -56,9 +56,9 @@ VALUES (22208,   1,  85, 0, 0) /* Strength */
      , (22208,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22208,   1,    10, 0, 0, 146) /* MaxHealth */
-     , (22208,   3,    10, 0, 0, 205) /* MaxStamina */
-     , (22208,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (22208,   1,    99, 0, 0, 146) /* MaxHealth */
+     , (22208,   3,   110, 0, 0, 205) /* MaxStamina */
+     , (22208,   5,   100, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22208, 2, 47748,  1, 0, 0, False) /* Create Lightning Spear (47748) for Wield */

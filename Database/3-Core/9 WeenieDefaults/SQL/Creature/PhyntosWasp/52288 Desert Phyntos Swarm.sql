@@ -55,9 +55,9 @@ VALUES (52288,   1, 160, 0, 0) /* Strength */
      , (52288,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52288,   1,    10, 0, 0, 1850) /* MaxHealth */
-     , (52288,   3,    10, 0, 0, 2000) /* MaxStamina */
-     , (52288,   5,    10, 0, 0, 1760) /* MaxMana */;
+VALUES (52288,   1,  1750, 0, 0, 1850) /* MaxHealth */
+     , (52288,   3,  1800, 0, 0, 2000) /* MaxStamina */
+     , (52288,   5,  1600, 0, 0, 1760) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52288, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */

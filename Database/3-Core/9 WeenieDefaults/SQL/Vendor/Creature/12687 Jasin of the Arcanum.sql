@@ -72,9 +72,9 @@ VALUES (12687,   1, 100, 0, 0) /* Strength */
      , (12687,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12687,   1,    10, 0, 0, 110) /* MaxHealth */
-     , (12687,   3,    10, 0, 0, 165) /* MaxStamina */
-     , (12687,   5,    10, 0, 0, 135) /* MaxMana */;
+VALUES (12687,   1,    60, 0, 0, 110) /* MaxHealth */
+     , (12687,   3,    65, 0, 0, 165) /* MaxStamina */
+     , (12687,   5,    35, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12687, 4, 11933, -1, 0, 0, False) /* Create Garden Drudge (11933) for Shop */

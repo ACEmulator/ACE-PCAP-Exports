@@ -56,9 +56,9 @@ VALUES (52031,   1, 260, 0, 0) /* Strength */
      , (52031,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52031,   1,    10, 0, 0, 5570) /* MaxHealth */
-     , (52031,   3,    10, 0, 0, 6480) /* MaxStamina */
-     , (52031,   5,    10, 0, 0, 4450) /* MaxMana */;
+VALUES (52031,   1,  5420, 0, 0, 5570) /* MaxHealth */
+     , (52031,   3,  6180, 0, 0, 6480) /* MaxStamina */
+     , (52031,   5,  4100, 0, 0, 4450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52031, 2, 52030,  1, 0, 0, False) /* Create Board of Vulnerability (52030) for Wield */;

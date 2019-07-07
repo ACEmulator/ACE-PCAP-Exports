@@ -69,9 +69,9 @@ VALUES (31973,   1, 150, 0, 0) /* Strength */
      , (31973,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31973,   1,    10, 0, 0, 200) /* MaxHealth */
-     , (31973,   3,    10, 0, 0, 300) /* MaxStamina */
-     , (31973,   5,    10, 0, 0, 350) /* MaxMana */;
+VALUES (31973,   1,   140, 0, 0, 200) /* MaxHealth */
+     , (31973,   3,   180, 0, 0, 300) /* MaxStamina */
+     , (31973,   5,   100, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31973, 2, 14916,  1, 0, 0, False) /* Create Simple Flower Bouquet (14916) for Wield */;

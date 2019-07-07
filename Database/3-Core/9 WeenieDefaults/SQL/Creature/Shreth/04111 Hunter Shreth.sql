@@ -52,9 +52,9 @@ VALUES (4111,   1,  80, 0, 0) /* Strength */
      , (4111,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4111,   1,    10, 0, 0, 50) /* MaxHealth */
-     , (4111,   3,    10, 0, 0, 260) /* MaxStamina */
-     , (4111,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (4111,   1,    20, 0, 0, 50) /* MaxHealth */
+     , (4111,   3,   200, 0, 0, 260) /* MaxStamina */
+     , (4111,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4111, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */

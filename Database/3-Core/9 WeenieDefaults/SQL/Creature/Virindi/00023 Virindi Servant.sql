@@ -51,9 +51,9 @@ VALUES (23,   1,  30, 0, 0) /* Strength */
      , (23,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23,   1,    10, 0, 0, 125) /* MaxHealth */
-     , (23,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (23,   5,    10, 0, 0, 550) /* MaxMana */;
+VALUES (23,   1,    50, 0, 0, 125) /* MaxHealth */
+     , (23,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (23,   5,   300, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23, 2, 47276,  1, 0, 0, False) /* Create Electric Board with Nail (47276) for Wield */

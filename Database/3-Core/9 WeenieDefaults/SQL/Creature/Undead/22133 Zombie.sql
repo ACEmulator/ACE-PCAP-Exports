@@ -57,9 +57,9 @@ VALUES (22133,   1, 110, 0, 0) /* Strength */
      , (22133,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22133,   1,    10, 0, 0, 205) /* MaxHealth */
-     , (22133,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (22133,   5,    10, 0, 0, 285) /* MaxMana */;
+VALUES (22133,   1,   140, 0, 0, 205) /* MaxHealth */
+     , (22133,   3,   200, 0, 0, 330) /* MaxStamina */
+     , (22133,   5,   110, 0, 0, 285) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22133, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */

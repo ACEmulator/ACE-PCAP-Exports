@@ -57,9 +57,9 @@ VALUES (1607,   1, 145, 0, 0) /* Strength */
      , (1607,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1607,   1,    10, 0, 0, 110) /* MaxHealth */
-     , (1607,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (1607,   5,    10, 0, 0, 30) /* MaxMana */;
+VALUES (1607,   1,    40, 0, 0, 110) /* MaxHealth */
+     , (1607,   3,   200, 0, 0, 340) /* MaxStamina */
+     , (1607,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1607, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */

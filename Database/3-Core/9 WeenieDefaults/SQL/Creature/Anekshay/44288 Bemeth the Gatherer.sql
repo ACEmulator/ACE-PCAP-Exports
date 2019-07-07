@@ -61,9 +61,9 @@ VALUES (44288,   1, 140, 0, 0) /* Strength */
      , (44288,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44288,   1,    10, 0, 0, 200) /* MaxHealth */
-     , (44288,   3,    10, 0, 0, 350) /* MaxStamina */
-     , (44288,   5,    10, 0, 0, 440) /* MaxMana */;
+VALUES (44288,   1,   100, 0, 0, 200) /* MaxHealth */
+     , (44288,   3,   150, 0, 0, 350) /* MaxStamina */
+     , (44288,   5,   150, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44288, 2,  3794,  1, 0, 0, False) /* Create Acid Jambiya (3794) for Wield */;

@@ -56,9 +56,9 @@ VALUES (14514,   1, 150, 0, 0) /* Strength */
      , (14514,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14514,   1,    10, 0, 0, 780) /* MaxHealth */
-     , (14514,   3,    10, 0, 0, 610) /* MaxStamina */
-     , (14514,   5,    10, 0, 0, 495) /* MaxMana */;
+VALUES (14514,   1,   700, 0, 0, 780) /* MaxHealth */
+     , (14514,   3,   450, 0, 0, 610) /* MaxStamina */
+     , (14514,   5,   350, 0, 0, 540) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14514, 9, 20402,  0, 0, 0, False) /* Create Scroll of Olthoi's Bane (20402) for ContainTreasure */

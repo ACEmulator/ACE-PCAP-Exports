@@ -73,9 +73,9 @@ VALUES (1826,   1,  95, 0, 0) /* Strength */
      , (1826,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1826,   1,    10, 0, 0, 140) /* MaxHealth */
-     , (1826,   3,    10, 0, 0, 175) /* MaxStamina */
-     , (1826,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (1826,   1,   100, 0, 0, 140) /* MaxHealth */
+     , (1826,   3,    95, 0, 0, 175) /* MaxStamina */
+     , (1826,   5,    30, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1826, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */

@@ -55,9 +55,9 @@ VALUES (35578,   1, 230, 0, 0) /* Strength */
      , (35578,   6, 110, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35578,   1,    10, 0, 0, 673) /* MaxHealth */
-     , (35578,   3,    10, 0, 0, 945) /* MaxStamina */
-     , (35578,   5,    10, 0, 0, 360) /* MaxMana */;
+VALUES (35578,   1,   551, 0, 0, 673) /* MaxHealth */
+     , (35578,   3,   700, 0, 0, 945) /* MaxStamina */
+     , (35578,   5,   250, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35578, 9, 45100,  0, 0, 0, False) /* Create Acid Epee (45100) for ContainTreasure */

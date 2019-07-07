@@ -75,9 +75,9 @@ VALUES (51156,   1, 220, 0, 0) /* Strength */
      , (51156,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51156,   1,    10, 0, 0, 250) /* MaxHealth */
-     , (51156,   3,    10, 0, 0, 435) /* MaxStamina */
-     , (51156,   5,    10, 0, 0, 300) /* MaxMana */;
+VALUES (51156,   1,   150, 0, 0, 250) /* MaxHealth */
+     , (51156,   3,   235, 0, 0, 435) /* MaxStamina */
+     , (51156,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51156, 4, 49773, -1, 0, 0, False) /* Create Shadow Bracers (49773) for Shop */

@@ -58,9 +58,9 @@ VALUES (44038,   1, 190, 0, 0) /* Strength */
      , (44038,   6, 310, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44038,   1,    10, 0, 0, 4200) /* MaxHealth */
-     , (44038,   3,    10, 0, 0, 5199) /* MaxStamina */
-     , (44038,   5,    10, 0, 0, 1860) /* MaxMana */;
+VALUES (44038,   1,  4100, 0, 0, 4200) /* MaxHealth */
+     , (44038,   3,  5000, 0, 0, 5200) /* MaxStamina */
+     , (44038,   5,  1550, 0, 0, 1860) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44038, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */

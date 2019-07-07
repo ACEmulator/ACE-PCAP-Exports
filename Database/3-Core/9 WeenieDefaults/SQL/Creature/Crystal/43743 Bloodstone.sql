@@ -55,9 +55,9 @@ VALUES (43743,   1, 220, 0, 0) /* Strength */
      , (43743,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43743,   1,    10, 0, 0, 19875) /* MaxHealth */
-     , (43743,   3,    10, 0, 0, 5250) /* MaxStamina */
-     , (43743,   5,    10, 0, 0, 5432) /* MaxMana */;
+VALUES (43743,   1, 19750, 0, 0, 19875) /* MaxHealth */
+     , (43743,   3,  5000, 0, 0, 5250) /* MaxStamina */
+     , (43743,   5,  5000, 0, 0, 5490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43743, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */

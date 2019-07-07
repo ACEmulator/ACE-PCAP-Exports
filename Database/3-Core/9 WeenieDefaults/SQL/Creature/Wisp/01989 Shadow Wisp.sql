@@ -52,9 +52,9 @@ VALUES (1989,   1, 100, 0, 0) /* Strength */
      , (1989,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1989,   1,    10, 0, 0, 120) /* MaxHealth */
-     , (1989,   3,    10, 0, 0, 320) /* MaxStamina */
-     , (1989,   5,    10, 0, 0, 251) /* MaxMana */;
+VALUES (1989,   1,    60, 0, 0, 120) /* MaxHealth */
+     , (1989,   3,   200, 0, 0, 320) /* MaxStamina */
+     , (1989,   5,   100, 0, 0, 280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1989, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */

@@ -67,9 +67,9 @@ VALUES (43481,   1, 200, 0, 0) /* Strength */
      , (43481,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43481,   1,    10, 0, 0, 500) /* MaxHealth */
-     , (43481,   3,    10, 0, 0, 600) /* MaxStamina */
-     , (43481,   5,    10, 0, 0, 800) /* MaxMana */;
+VALUES (43481,   1,   400, 0, 0, 500) /* MaxHealth */
+     , (43481,   3,   400, 0, 0, 600) /* MaxStamina */
+     , (43481,   5,   400, 0, 0, 800) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43481, 2, 43489,  1, 0, 0, False) /* Create Salivatory Goo (43489) for Wield */;

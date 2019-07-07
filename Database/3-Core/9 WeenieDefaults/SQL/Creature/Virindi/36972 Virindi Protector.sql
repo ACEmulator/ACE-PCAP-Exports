@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36972, 8000, 2931589701) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36972,   1,    10, 0, 0, 10000) /* MaxHealth */;
+VALUES (36972,   1,     0, 0, 0, 10000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36972, 67113396, 0, 0);

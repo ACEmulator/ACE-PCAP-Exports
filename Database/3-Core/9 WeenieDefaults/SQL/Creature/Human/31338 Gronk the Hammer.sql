@@ -64,9 +64,9 @@ VALUES (31338,   1, 400, 0, 0) /* Strength */
      , (31338,   6, 146, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31338,   1,    10, 0, 0, 1623) /* MaxHealth */
-     , (31338,   3,    10, 0, 0, 1245) /* MaxStamina */
-     , (31338,   5,    10, 0, 0, 146) /* MaxMana */;
+VALUES (31338,   1,  1501, 0, 0, 1623) /* MaxHealth */
+     , (31338,   3,  1000, 0, 0, 1245) /* MaxStamina */
+     , (31338,   5,     0, 0, 0, 146) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31338, 2, 31838,  1, 0, 0, False) /* Create Hammer of Discipline (31838) for Wield */

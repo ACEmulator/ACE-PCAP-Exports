@@ -55,9 +55,9 @@ VALUES (41530,   1, 465, 0, 0) /* Strength */
      , (41530,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41530,   1,    10, 0, 0, 808) /* MaxHealth */
-     , (41530,   3,    10, 0, 0, 1415) /* MaxStamina */
-     , (41530,   5,    10, 0, 0, 85) /* MaxMana */;
+VALUES (41530,   1,   601, 0, 0, 808) /* MaxHealth */
+     , (41530,   3,  1000, 0, 0, 1415) /* MaxStamina */
+     , (41530,   5,     0, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41530, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for Wield */

@@ -58,9 +58,9 @@ VALUES (44040,   1, 250, 0, 0) /* Strength */
      , (44040,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44040,   1,    10, 0, 0, 7000) /* MaxHealth */
-     , (44040,   3,    10, 0, 0, 6260) /* MaxStamina */
-     , (44040,   5,    10, 0, 0, 2370) /* MaxMana */;
+VALUES (44040,   1,  6870, 0, 0, 7000) /* MaxHealth */
+     , (44040,   3,  6000, 0, 0, 6260) /* MaxStamina */
+     , (44040,   5,  2000, 0, 0, 2370) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44040, 9, 37223,  0, 0, 0, False) /* Create Slashing Staff (37223) for ContainTreasure */

@@ -60,9 +60,9 @@ VALUES (40297,   1, 320, 0, 0) /* Strength */
      , (40297,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40297,   1,    10, 0, 0, 1500) /* MaxHealth */
-     , (40297,   3,    10, 0, 0, 1650) /* MaxStamina */
-     , (40297,   5,    10, 0, 0, 2720) /* MaxMana */;
+VALUES (40297,   1,  1275, 0, 0, 1500) /* MaxHealth */
+     , (40297,   3,  1200, 0, 0, 1650) /* MaxStamina */
+     , (40297,   5,  2400, 0, 0, 2720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40297, 2, 31705,  1, 0, 0, False) /* Create Phantom Bow (31705) for Wield */

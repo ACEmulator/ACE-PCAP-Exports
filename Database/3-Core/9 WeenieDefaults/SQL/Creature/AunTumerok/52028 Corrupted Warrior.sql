@@ -56,9 +56,9 @@ VALUES (52028,   1, 260, 0, 0) /* Strength */
      , (52028,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52028,   1,    10, 0, 0, 5570) /* MaxHealth */
-     , (52028,   3,    10, 0, 0, 6480) /* MaxStamina */
-     , (52028,   5,    10, 0, 0, 4450) /* MaxMana */;
+VALUES (52028,   1,  5420, 0, 0, 5570) /* MaxHealth */
+     , (52028,   3,  6180, 0, 0, 6480) /* MaxStamina */
+     , (52028,   5,  4100, 0, 0, 4450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52028, 2, 52029,  1, 0, 0, False) /* Create Board of Luring (52029) for Wield */

@@ -56,9 +56,9 @@ VALUES (46541,   1, 500, 0, 0) /* Strength */
      , (46541,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46541,   1,    10, 0, 0, 3750) /* MaxHealth */
-     , (46541,   3,    10, 0, 0, 3677) /* MaxStamina */
-     , (46541,   5,    10, 0, 0, 3820) /* MaxMana */;
+VALUES (46541,   1,  3500, 0, 0, 3750) /* MaxHealth */
+     , (46541,   3,  3200, 0, 0, 3700) /* MaxStamina */
+     , (46541,   5,  3500, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46541, 2, 46648,  1, 0, 0, False) /* Create Spectral Lightning Nodachi (46648) for Wield */;

@@ -56,9 +56,9 @@ VALUES (24485,   1, 280, 0, 0) /* Strength */
      , (24485,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24485,   1,    10, 0, 0, 540) /* MaxHealth */
-     , (24485,   3,    10, 0, 0, 500) /* MaxStamina */
-     , (24485,   5,    10, 0, 0, 455) /* MaxMana */;
+VALUES (24485,   1,   400, 0, 0, 540) /* MaxHealth */
+     , (24485,   3,   220, 0, 0, 500) /* MaxStamina */
+     , (24485,   5,   275, 0, 0, 455) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24485, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */

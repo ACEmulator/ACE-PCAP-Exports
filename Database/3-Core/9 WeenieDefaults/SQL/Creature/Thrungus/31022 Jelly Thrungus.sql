@@ -52,9 +52,9 @@ VALUES (31022,   1, 565, 0, 0) /* Strength */
      , (31022,   6, 404, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31022,   1,    10, 0, 0, 929) /* MaxHealth */
-     , (31022,   3,    10, 0, 0, 812) /* MaxStamina */
-     , (31022,   5,    10, 0, 0, 767) /* MaxMana */;
+VALUES (31022,   1,   803, 0, 0, 929) /* MaxHealth */
+     , (31022,   3,   560, 0, 0, 812) /* MaxStamina */
+     , (31022,   5,   363, 0, 0, 767) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31022, 9, 20526,  0, 0, 0, False) /* Create Scroll of Sashi Mu's Kiss (20526) for ContainTreasure */

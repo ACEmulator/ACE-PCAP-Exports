@@ -72,9 +72,9 @@ VALUES (6113,   1, 110, 0, 0) /* Strength */
      , (6113,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6113,   1,    10, 0, 0, 123) /* MaxHealth */
-     , (6113,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (6113,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (6113,   1,    66, 0, 0, 123) /* MaxHealth */
+     , (6113,   3,    95, 0, 0, 210) /* MaxStamina */
+     , (6113,   5,    35, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6113, 4,  5794, -1, 0, 0, False) /* Create Hot Pepper (5794) for Shop */

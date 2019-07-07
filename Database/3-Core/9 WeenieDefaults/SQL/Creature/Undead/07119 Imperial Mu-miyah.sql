@@ -55,9 +55,9 @@ VALUES (7119,   1, 120, 0, 0) /* Strength */
      , (7119,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7119,   1,    10, 0, 0, 375) /* MaxHealth */
-     , (7119,   3,    10, 0, 0, 530) /* MaxStamina */
-     , (7119,   5,    10, 0, 0, 470) /* MaxMana */;
+VALUES (7119,   1,   310, 0, 0, 375) /* MaxHealth */
+     , (7119,   3,   400, 0, 0, 530) /* MaxStamina */
+     , (7119,   5,   250, 0, 0, 470) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7119, 9, 20411,  0, 0, 0, False) /* Create Aura of Cragstone's Will (20411) for ContainTreasure */

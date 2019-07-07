@@ -56,7 +56,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30882, 8000, 3361480256) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30882,   1,    10, 0, 0, 620) /* MaxHealth */;
+VALUES (30882,   1,     0, 0, 0, 620) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30882, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */

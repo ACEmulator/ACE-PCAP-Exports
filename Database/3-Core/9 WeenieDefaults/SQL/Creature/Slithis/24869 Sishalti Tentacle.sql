@@ -55,9 +55,9 @@ VALUES (24869,   1, 230, 0, 0) /* Strength */
      , (24869,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24869,   1,    10, 0, 0, 450) /* MaxHealth */
-     , (24869,   3,    10, 0, 0, 460) /* MaxStamina */
-     , (24869,   5,    10, 0, 0, 515) /* MaxMana */;
+VALUES (24869,   1,   320, 0, 0, 450) /* MaxHealth */
+     , (24869,   3,   200, 0, 0, 460) /* MaxStamina */
+     , (24869,   5,   225, 0, 0, 515) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24869, 2, 22545,  1, 0, 0, False) /* Create Obsidian Spines (22545) for Wield */;

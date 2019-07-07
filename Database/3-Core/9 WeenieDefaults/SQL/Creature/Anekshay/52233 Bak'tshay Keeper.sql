@@ -65,9 +65,9 @@ VALUES (52233,   1, 330, 0, 0) /* Strength */
      , (52233,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52233,   1,    10, 0, 0, 8308) /* MaxHealth */
-     , (52233,   3,    10, 0, 0, 10415) /* MaxStamina */
-     , (52233,   5,    10, 0, 0, 10245) /* MaxMana */;
+VALUES (52233,   1,  8156, 0, 0, 8308) /* MaxHealth */
+     , (52233,   3, 10110, 0, 0, 10415) /* MaxStamina */
+     , (52233,   5,  9955, 0, 0, 10245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52233, 9, 49579,  1, 0, 0, False) /* Create Signet Fragment (49579) for ContainTreasure */

@@ -73,9 +73,9 @@ VALUES (1833,   1,  90, 0, 0) /* Strength */
      , (1833,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1833,   1,    10, 0, 0, 145) /* MaxHealth */
-     , (1833,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (1833,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (1833,   1,   100, 0, 0, 145) /* MaxHealth */
+     , (1833,   3,    90, 0, 0, 180) /* MaxStamina */
+     , (1833,   5,    60, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1833, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */

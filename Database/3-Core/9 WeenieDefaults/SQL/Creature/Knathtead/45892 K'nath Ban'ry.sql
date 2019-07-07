@@ -54,9 +54,9 @@ VALUES (45892,   1, 140, 0, 0) /* Strength */
      , (45892,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45892,   1,    10, 0, 0, 255) /* MaxHealth */
-     , (45892,   3,    10, 0, 0, 410) /* MaxStamina */
-     , (45892,   5,    10, 0, 0, 481) /* MaxMana */;
+VALUES (45892,   1,   150, 0, 0, 255) /* MaxHealth */
+     , (45892,   3,   200, 0, 0, 410) /* MaxStamina */
+     , (45892,   5,   200, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45892, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */

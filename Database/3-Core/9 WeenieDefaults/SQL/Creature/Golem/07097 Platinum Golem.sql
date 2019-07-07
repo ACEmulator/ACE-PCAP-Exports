@@ -53,9 +53,9 @@ VALUES (7097,   1, 270, 0, 0) /* Strength */
      , (7097,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7097,   1,    10, 0, 0, 540) /* MaxHealth */
-     , (7097,   3,    10, 0, 0, 500) /* MaxStamina */
-     , (7097,   5,    10, 0, 0, 445) /* MaxMana */;
+VALUES (7097,   1,   400, 0, 0, 540) /* MaxHealth */
+     , (7097,   3,   220, 0, 0, 500) /* MaxStamina */
+     , (7097,   5,   275, 0, 0, 445) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7097, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */

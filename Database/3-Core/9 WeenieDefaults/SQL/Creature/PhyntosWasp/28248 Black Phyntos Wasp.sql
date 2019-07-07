@@ -55,9 +55,9 @@ VALUES (28248,   1, 120, 0, 0) /* Strength */
      , (28248,   6, 105, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28248,   1,    10, 0, 0, 238) /* MaxHealth */
-     , (28248,   3,    10, 0, 0, 355) /* MaxStamina */
-     , (28248,   5,    10, 0, 0, 265) /* MaxMana */;
+VALUES (28248,   1,   166, 0, 0, 238) /* MaxHealth */
+     , (28248,   3,   210, 0, 0, 355) /* MaxStamina */
+     , (28248,   5,   160, 0, 0, 265) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28248, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */

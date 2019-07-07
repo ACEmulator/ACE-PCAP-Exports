@@ -72,9 +72,9 @@ VALUES (796,   1,  50, 0, 0) /* Strength */
      , (796,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (796,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (796,   3,    10, 0, 0, 170) /* MaxStamina */
-     , (796,   5,    10, 0, 0, 75) /* MaxMana */;
+VALUES (796,   1,    60, 0, 0, 95) /* MaxHealth */
+     , (796,   3,   100, 0, 0, 170) /* MaxStamina */
+     , (796,   5,    45, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (796, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */

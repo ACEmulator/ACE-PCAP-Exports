@@ -62,9 +62,9 @@ VALUES (38845,   1, 320, 0, 0) /* Strength */
      , (38845,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38845,   1,    10, 0, 0, 1500) /* MaxHealth */
-     , (38845,   3,    10, 0, 0, 1650) /* MaxStamina */
-     , (38845,   5,    10, 0, 0, 2720) /* MaxMana */;
+VALUES (38845,   1,  1275, 0, 0, 1500) /* MaxHealth */
+     , (38845,   3,  1200, 0, 0, 1650) /* MaxStamina */
+     , (38845,   5,  2400, 0, 0, 2720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38845, 2, 38854,  1, 0, 0, False) /* Create Celestial Hand Blade (38854) for Wield */

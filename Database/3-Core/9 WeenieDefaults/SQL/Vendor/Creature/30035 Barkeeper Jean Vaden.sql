@@ -73,9 +73,9 @@ VALUES (30035,   1,  45, 0, 0) /* Strength */
      , (30035,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30035,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (30035,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (30035,   5,    10, 0, 0, 155) /* MaxMana */;
+VALUES (30035,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (30035,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (30035,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30035, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */

@@ -72,9 +72,9 @@ VALUES (33000,   1,  95, 0, 0) /* Strength */
      , (33000,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33000,   1,    10, 0, 0, 140) /* MaxHealth */
-     , (33000,   3,    10, 0, 0, 190) /* MaxStamina */
-     , (33000,   5,    10, 0, 0, 320) /* MaxMana */;
+VALUES (33000,   1,    95, 0, 0, 140) /* MaxHealth */
+     , (33000,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (33000,   5,   190, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33000, 4,  5916, -1, 0, 0, False) /* Create Dho Creature Master Robe (5916) for Shop */

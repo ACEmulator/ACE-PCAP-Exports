@@ -56,9 +56,9 @@ VALUES (10802,   1, 140, 0, 0) /* Strength */
      , (10802,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10802,   1,    10, 0, 0, 320) /* MaxHealth */
-     , (10802,   3,    10, 0, 0, 440) /* MaxStamina */
-     , (10802,   5,    10, 0, 0, 720) /* MaxMana */;
+VALUES (10802,   1,   250, 0, 0, 320) /* MaxHealth */
+     , (10802,   3,   300, 0, 0, 440) /* MaxStamina */
+     , (10802,   5,   500, 0, 0, 720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10802, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */

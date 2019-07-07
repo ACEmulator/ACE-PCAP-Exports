@@ -73,9 +73,9 @@ VALUES (1834,   1, 100, 0, 0) /* Strength */
      , (1834,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1834,   1,    10, 0, 0, 148) /* MaxHealth */
-     , (1834,   3,    10, 0, 0, 215) /* MaxStamina */
-     , (1834,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (1834,   1,   101, 0, 0, 148) /* MaxHealth */
+     , (1834,   3,   120, 0, 0, 215) /* MaxStamina */
+     , (1834,   5,    50, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1834, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */

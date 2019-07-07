@@ -56,9 +56,9 @@ VALUES (11479,   1, 220, 0, 0) /* Strength */
      , (11479,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11479,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (11479,   3,    10, 0, 0, 265) /* MaxStamina */
-     , (11479,   5,    10, 0, 0, 20) /* MaxMana */;
+VALUES (11479,   1,     5, 0, 0, 115) /* MaxHealth */
+     , (11479,   3,    50, 0, 0, 270) /* MaxStamina */
+     , (11479,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11479, 9, 49289,  0, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for ContainTreasure */

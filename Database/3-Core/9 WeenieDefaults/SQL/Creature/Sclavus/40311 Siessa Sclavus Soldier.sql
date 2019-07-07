@@ -56,9 +56,9 @@ VALUES (40311,   1, 250, 0, 0) /* Strength */
      , (40311,   6, 230, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40311,   1,    10, 0, 0, 1215) /* MaxHealth */
-     , (40311,   3,    10, 0, 0, 1530) /* MaxStamina */
-     , (40311,   5,    10, 0, 0, 1030) /* MaxMana */;
+VALUES (40311,   1,  1100, 0, 0, 1215) /* MaxHealth */
+     , (40311,   3,  1300, 0, 0, 1530) /* MaxStamina */
+     , (40311,   5,   800, 0, 0, 1030) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40311, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for Wield */

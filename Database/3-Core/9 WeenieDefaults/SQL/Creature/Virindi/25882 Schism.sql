@@ -56,9 +56,9 @@ VALUES (25882,   1, 180, 0, 0) /* Strength */
      , (25882,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25882,   1,    10, 0, 0, 1100) /* MaxHealth */
-     , (25882,   3,    10, 0, 0, 1100) /* MaxStamina */
-     , (25882,   5,    10, 0, 0, 1100) /* MaxMana */;
+VALUES (25882,   1,  1010, 0, 0, 1100) /* MaxHealth */
+     , (25882,   3,   920, 0, 0, 1100) /* MaxStamina */
+     , (25882,   5,   780, 0, 0, 1100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25882, 9,  7789,  0, 0, 0, False) /* Create Acid Spiked Club (7789) for ContainTreasure */

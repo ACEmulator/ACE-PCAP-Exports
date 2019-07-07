@@ -72,9 +72,9 @@ VALUES (30070,   1,  90, 0, 0) /* Strength */
      , (30070,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30070,   1,    10, 0, 0, 140) /* MaxHealth */
-     , (30070,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (30070,   5,    10, 0, 0, 75) /* MaxMana */;
+VALUES (30070,   1,    90, 0, 0, 140) /* MaxHealth */
+     , (30070,   3,   110, 0, 0, 210) /* MaxStamina */
+     , (30070,   5,    55, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30070, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */

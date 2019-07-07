@@ -55,9 +55,9 @@ VALUES (4212,   1, 900, 0, 0) /* Strength */
      , (4212,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4212,   1,    10, 0, 0, 100000) /* MaxHealth */
-     , (4212,   3,    10, 0, 0, 100000) /* MaxStamina */
-     , (4212,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (4212,   1, 99550, 0, 0, 100000) /* MaxHealth */
+     , (4212,   3, 99100, 0, 0, 100000) /* MaxStamina */
+     , (4212,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4212, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */

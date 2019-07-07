@@ -56,9 +56,9 @@ VALUES (12237,   1, 150, 0, 0) /* Strength */
      , (12237,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12237,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (12237,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (12237,   5,    10, 0, 0, 350) /* MaxMana */;
+VALUES (12237,   1,    75, 0, 0, 150) /* MaxHealth */
+     , (12237,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (12237,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12237, 9, 28626,  0, 0, 0, False) /* Create Diforsa Tassets (28626) for ContainTreasure */

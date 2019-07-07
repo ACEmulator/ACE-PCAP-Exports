@@ -51,9 +51,9 @@ VALUES (42670,   1, 150, 0, 0) /* Strength */
      , (42670,   6, 330, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42670,   1,    10, 0, 0, 720) /* MaxHealth */
-     , (42670,   3,    10, 0, 0, 820) /* MaxStamina */
-     , (42670,   5,    10, 0, 0, 386) /* MaxMana */;
+VALUES (42670,   1,   620, 0, 0, 720) /* MaxHealth */
+     , (42670,   3,   620, 0, 0, 820) /* MaxStamina */
+     , (42670,   5,   120, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42670, 9, 49377,  0, 0, 0, False) /* Create Lightning Grievver Essence (150) (49377) for ContainTreasure */

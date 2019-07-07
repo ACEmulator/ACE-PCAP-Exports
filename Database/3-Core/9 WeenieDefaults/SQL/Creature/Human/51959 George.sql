@@ -68,9 +68,9 @@ VALUES (51959,   1, 255, 0, 0) /* Strength */
      , (51959,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51959,   1,    10, 0, 0, 235) /* MaxHealth */
-     , (51959,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (51959,   5,    10, 0, 0, 145) /* MaxMana */;
+VALUES (51959,   1,   125, 0, 0, 235) /* MaxHealth */
+     , (51959,   3,   110, 0, 0, 330) /* MaxStamina */
+     , (51959,   5,    55, 0, 0, 145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51959, 2, 12236,  1, 0, 0, False) /* Create Energy Crystal (12236) for Wield */;

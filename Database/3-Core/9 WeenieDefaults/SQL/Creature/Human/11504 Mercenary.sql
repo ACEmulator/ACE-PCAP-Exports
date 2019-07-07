@@ -60,9 +60,9 @@ VALUES (11504,   1, 210, 0, 0) /* Strength */
      , (11504,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11504,   1,    10, 0, 0, 180) /* MaxHealth */
-     , (11504,   3,    10, 0, 0, 207) /* MaxStamina */
-     , (11504,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (11504,   1,   130, 0, 0, 180) /* MaxHealth */
+     , (11504,   3,   110, 0, 0, 210) /* MaxStamina */
+     , (11504,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11504, 2, 12081,  1, 0, 0, False) /* Create Bandit Frost Short Sword (12081) for Wield */

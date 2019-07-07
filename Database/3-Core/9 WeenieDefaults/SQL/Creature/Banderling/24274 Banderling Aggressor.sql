@@ -56,9 +56,9 @@ VALUES (24274,   1, 275, 0, 0) /* Strength */
      , (24274,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24274,   1,    10, 0, 0, 610) /* MaxHealth */
-     , (24274,   3,    10, 0, 0, 820) /* MaxStamina */
-     , (24274,   5,    10, 0, 0, 453) /* MaxMana */;
+VALUES (24274,   1,   500, 0, 0, 610) /* MaxHealth */
+     , (24274,   3,   600, 0, 0, 820) /* MaxStamina */
+     , (24274,   5,   400, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24274, 9,    73,  0, 0, 0, False) /* Create Scalemail Hauberk (73) for ContainTreasure */

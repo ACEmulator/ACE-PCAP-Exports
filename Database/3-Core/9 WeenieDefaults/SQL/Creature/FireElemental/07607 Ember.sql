@@ -57,9 +57,9 @@ VALUES (7607,   1, 120, 0, 0) /* Strength */
      , (7607,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7607,   1,    10, 0, 0, 220) /* MaxHealth */
-     , (7607,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (7607,   5,    10, 0, 0, 360) /* MaxMana */;
+VALUES (7607,   1,   150, 0, 0, 220) /* MaxHealth */
+     , (7607,   3,   200, 0, 0, 340) /* MaxStamina */
+     , (7607,   5,   200, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7607, 2,  5709,  1, 0, 0, False) /* Create Ball of fire (5709) for Wield */

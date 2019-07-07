@@ -56,9 +56,9 @@ VALUES (26017,   1, 180, 0, 0) /* Strength */
      , (26017,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26017,   1,    10, 0, 0, 425) /* MaxHealth */
-     , (26017,   3,    10, 0, 0, 476) /* MaxStamina */
-     , (26017,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (26017,   1,   265, 0, 0, 425) /* MaxHealth */
+     , (26017,   3,   160, 0, 0, 480) /* MaxStamina */
+     , (26017,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26017, 2, 26047,  1, 0, 0, False) /* Create Stone Mace (26047) for Wield */

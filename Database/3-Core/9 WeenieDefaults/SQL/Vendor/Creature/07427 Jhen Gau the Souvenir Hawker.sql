@@ -72,9 +72,9 @@ VALUES (7427,   1, 140, 0, 0) /* Strength */
      , (7427,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7427,   1,    10, 0, 0, 245) /* MaxHealth */
-     , (7427,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (7427,   5,    10, 0, 0, 170) /* MaxMana */;
+VALUES (7427,   1,   180, 0, 0, 245) /* MaxHealth */
+     , (7427,   3,   200, 0, 0, 330) /* MaxStamina */
+     , (7427,   5,   110, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7427, 4,  7429, -1, 0, 0, False) /* Create Aerlinthe Monarch Shirt (7429) for Shop */

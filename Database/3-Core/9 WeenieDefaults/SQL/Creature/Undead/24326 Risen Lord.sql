@@ -54,9 +54,9 @@ VALUES (24326,   1, 150, 0, 0) /* Strength */
      , (24326,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24326,   1,    10, 0, 0, 655) /* MaxHealth */
-     , (24326,   3,    10, 0, 0, 810) /* MaxStamina */
-     , (24326,   5,    10, 0, 0, 510) /* MaxMana */;
+VALUES (24326,   1,   575, 0, 0, 655) /* MaxHealth */
+     , (24326,   3,   650, 0, 0, 810) /* MaxStamina */
+     , (24326,   5,   350, 0, 0, 510) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24326, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */

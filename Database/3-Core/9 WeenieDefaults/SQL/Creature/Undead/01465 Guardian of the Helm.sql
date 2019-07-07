@@ -56,9 +56,9 @@ VALUES (1465,   1,  80, 0, 0) /* Strength */
      , (1465,   6, 135, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1465,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (1465,   3,    10, 0, 0, 169) /* MaxStamina */
-     , (1465,   5,    10, 0, 0, 191) /* MaxMana */;
+VALUES (1465,   1,    50, 0, 0, 95) /* MaxHealth */
+     , (1465,   3,    80, 0, 0, 170) /* MaxStamina */
+     , (1465,   5,    75, 0, 0, 210) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1465, 2,  1517,  1, 0, 0, False) /* Create Fiery Shield (1517) for Wield */

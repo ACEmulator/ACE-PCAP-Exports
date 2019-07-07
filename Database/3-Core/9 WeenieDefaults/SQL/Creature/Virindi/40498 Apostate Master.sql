@@ -52,9 +52,9 @@ VALUES (40498,   1, 320, 0, 0) /* Strength */
      , (40498,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40498,   1,    10, 0, 0, 6000) /* MaxHealth */
-     , (40498,   3,    10, 0, 0, 6000) /* MaxStamina */
-     , (40498,   5,    10, 0, 0, 6000) /* MaxMana */;
+VALUES (40498,   1,  5865, 0, 0, 6000) /* MaxHealth */
+     , (40498,   3,  5730, 0, 0, 6000) /* MaxStamina */
+     , (40498,   5,  5600, 0, 0, 6000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40498, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */

@@ -72,9 +72,9 @@ VALUES (698,   1,  20, 0, 0) /* Strength */
      , (698,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (698,   1,    10, 0, 0, 58) /* MaxHealth */
-     , (698,   3,    10, 0, 0, 195) /* MaxStamina */
-     , (698,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (698,   1,    36, 0, 0, 58) /* MaxHealth */
+     , (698,   3,   150, 0, 0, 195) /* MaxStamina */
+     , (698,   5,    40, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (698, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */

@@ -69,9 +69,9 @@ VALUES (35344,   1, 160, 0, 0) /* Strength */
      , (35344,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35344,   1,    10, 0, 0, 215) /* MaxHealth */
-     , (35344,   3,    10, 0, 0, 290) /* MaxStamina */
-     , (35344,   5,    10, 0, 0, 345) /* MaxMana */;
+VALUES (35344,   1,   125, 0, 0, 215) /* MaxHealth */
+     , (35344,   3,   110, 0, 0, 290) /* MaxStamina */
+     , (35344,   5,   105, 0, 0, 345) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35344, 2, 20153,  1, 0, 0, False) /* Create Perfect Chilling Isparian Wand (20153) for Wield */

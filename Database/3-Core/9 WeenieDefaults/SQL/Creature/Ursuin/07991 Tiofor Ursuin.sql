@@ -55,9 +55,9 @@ VALUES (7991,   1, 135, 0, 0) /* Strength */
      , (7991,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7991,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (7991,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (7991,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (7991,   1,    50, 0, 0, 115) /* MaxHealth */
+     , (7991,   3,   200, 0, 0, 330) /* MaxStamina */
+     , (7991,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7991, 9,  2788,  0, 0, 0, False) /* Create Scroll of Blood Loather III (2788) for ContainTreasure */

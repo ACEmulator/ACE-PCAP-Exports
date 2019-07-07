@@ -73,9 +73,9 @@ VALUES (836,   1,  60, 0, 0) /* Strength */
      , (836,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (836,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (836,   3,    10, 0, 0, 240) /* MaxStamina */
-     , (836,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (836,   1,    75, 0, 0, 95) /* MaxHealth */
+     , (836,   3,   200, 0, 0, 240) /* MaxStamina */
+     , (836,   5,    20, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (836, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */

@@ -55,9 +55,9 @@ VALUES (35273,   1, 490, 0, 0) /* Strength */
      , (35273,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35273,   1,    10, 0, 0, 900000) /* MaxHealth */
-     , (35273,   3,    10, 0, 0, 20000) /* MaxStamina */
-     , (35273,   5,    10, 0, 0, 10000) /* MaxMana */;
+VALUES (35273,   1, 899500, 0, 0, 900000) /* MaxHealth */
+     , (35273,   3, 19000, 0, 0, 20000) /* MaxStamina */
+     , (35273,   5,  9500, 0, 0, 10000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35273, 2, 35297,  1, 0, 0, False) /* Create Greatsword of Flame and Light (35297) for Wield */

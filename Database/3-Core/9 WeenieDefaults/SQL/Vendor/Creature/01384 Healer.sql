@@ -72,9 +72,9 @@ VALUES (1384,   1,  70, 0, 0) /* Strength */
      , (1384,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1384,   1,    10, 0, 0, 133) /* MaxHealth */
-     , (1384,   3,    10, 0, 0, 160) /* MaxStamina */
-     , (1384,   5,    10, 0, 0, 135) /* MaxMana */;
+VALUES (1384,   1,   101, 0, 0, 133) /* MaxHealth */
+     , (1384,   3,    95, 0, 0, 160) /* MaxStamina */
+     , (1384,   5,    90, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1384, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */

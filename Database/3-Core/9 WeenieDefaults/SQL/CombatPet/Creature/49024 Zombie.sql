@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (49024, 8000, 3708015015) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49024,   1,    10, 0, 0, 670) /* MaxHealth */;
+VALUES (49024,   1,     0, 0, 0, 670) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49024, 2, 48993,  1, 0, 0, False) /* Create Frost Hatchet (48993) for Wield */;

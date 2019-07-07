@@ -55,9 +55,9 @@ VALUES (42372,   1, 445, 0, 0) /* Strength */
      , (42372,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42372,   1,    10, 0, 0, 720) /* MaxHealth */
-     , (42372,   3,    10, 0, 0, 1400) /* MaxStamina */
-     , (42372,   5,    10, 0, 0, 85) /* MaxMana */;
+VALUES (42372,   1,   520, 0, 0, 720) /* MaxHealth */
+     , (42372,   3,  1000, 0, 0, 1400) /* MaxStamina */
+     , (42372,   5,     0, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42372, 2, 43131,  1, 0, 0, False) /* Create Iron Blade Shield (43131) for Wield */

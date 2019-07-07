@@ -63,9 +63,9 @@ VALUES (11380,   1,  95, 0, 0) /* Strength */
      , (11380,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11380,   1,    10, 0, 0, 145) /* MaxHealth */
-     , (11380,   3,    10, 0, 0, 200) /* MaxStamina */
-     , (11380,   5,    10, 0, 0, 150) /* MaxMana */;
+VALUES (11380,   1,   100, 0, 0, 145) /* MaxHealth */
+     , (11380,   3,   110, 0, 0, 200) /* MaxStamina */
+     , (11380,   5,   100, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11380, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */

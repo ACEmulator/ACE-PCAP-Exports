@@ -55,9 +55,9 @@ VALUES (43251,   1, 322, 0, 0) /* Strength */
      , (43251,   6, 382, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43251,   1,    10, 0, 0, 6831) /* MaxHealth */
-     , (43251,   3,    10, 0, 0, 7338) /* MaxStamina */
-     , (43251,   5,    10, 0, 0, 4382) /* MaxMana */;
+VALUES (43251,   1,  6662, 0, 0, 6831) /* MaxHealth */
+     , (43251,   3,  7000, 0, 0, 7338) /* MaxStamina */
+     , (43251,   5,  4000, 0, 0, 4382) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43251, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */

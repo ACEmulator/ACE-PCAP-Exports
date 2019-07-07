@@ -71,9 +71,9 @@ VALUES (51987,   1, 260, 0, 0) /* Strength */
      , (51987,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51987,   1,    10, 0, 0, 296) /* MaxHealth */
-     , (51987,   3,    10, 0, 0, 396) /* MaxStamina */
-     , (51987,   5,    10, 0, 0, 396) /* MaxMana */;
+VALUES (51987,   1,   196, 0, 0, 296) /* MaxHealth */
+     , (51987,   3,   196, 0, 0, 396) /* MaxStamina */
+     , (51987,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51987, 2, 39335,  1, 0, 0, False) /* Create Mana Phial of Imperil (39335) for Wield */;

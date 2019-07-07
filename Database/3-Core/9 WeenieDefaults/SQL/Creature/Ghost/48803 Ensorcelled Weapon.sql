@@ -47,7 +47,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (48803, 8000, 2629124067) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48803,   1,    10, 0, 0, 3675) /* MaxHealth */;
+VALUES (48803,   1,     0, 0, 0, 3675) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48803, 2, 47219,  1, 0, 0, False) /* Create Ensorcelled Sword (47219) for Wield */
