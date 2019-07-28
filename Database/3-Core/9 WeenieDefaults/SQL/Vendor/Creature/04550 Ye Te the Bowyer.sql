@@ -74,8 +74,8 @@ VALUES (4550,   1,  75, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (4550,   1,    10, 0, 0, 35) /* MaxHealth */
-     , (4550,   3,    10, 0, 0, 65) /* MaxStamina */
-     , (4550,   5,    10, 0, 0, 45) /* MaxMana */;
+     , (4550,   3,    15, 0, 0, 65) /* MaxStamina */
+     , (4550,   5,    15, 0, 0, 45) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4550, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
@@ -103,17 +103,17 @@ VALUES (4550, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (4550, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4550, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (4550, 4,   304, -1, 0, 0, False) /* Create Throwing Axe (304) for Shop */
-     , (4550, 4,  3758, -1, 0, 0, False) /* Create  (3758) for Shop */
-     , (4550, 4,  3759, -1, 0, 0, False) /* Create  (3759) for Shop */
+     , (4550, 4,  3758, -1, 0, 0, False) /* Create Acid Throwing Axe (3758) for Shop */
+     , (4550, 4,  3759, -1, 0, 0, False) /* Create Lightning Throwing Axe (3759) for Shop */
      , (4550, 4,  3760, -1, 0, 0, False) /* Create Flaming Throwing Axe (3760) for Shop */
-     , (4550, 4,  3761, -1, 0, 0, False) /* Create  (3761) for Shop */
+     , (4550, 4,  3761, -1, 0, 0, False) /* Create Frost Throwing Axe (3761) for Shop */
      , (4550, 4,   310, -1, 0, 0, False) /* Create Throwing Club (310) for Shop */
      , (4550, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (4550, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
-     , (4550, 4,  3786, -1, 0, 0, False) /* Create  (3786) for Shop */
-     , (4550, 4,  3787, -1, 0, 0, False) /* Create  (3787) for Shop */
+     , (4550, 4,  3786, -1, 0, 0, False) /* Create Throwing Acid Dart (3786) for Shop */
+     , (4550, 4,  3787, -1, 0, 0, False) /* Create Throwing Lightning Dart (3787) for Shop */
      , (4550, 4,  3788, -1, 0, 0, False) /* Create Throwing Fire Dart (3788) for Shop */
-     , (4550, 4,  3789, -1, 0, 0, False) /* Create  (3789) for Shop */
+     , (4550, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart (3789) for Shop */
      , (4550, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (4550, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (4550, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

@@ -72,42 +72,42 @@ VALUES (30017,   1,  90, 0, 0) /* Strength */
      , (30017,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30017,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (30017,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (30017,   5,    10, 0, 0, 550) /* MaxMana */;
+VALUES (30017,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (30017,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (30017,   5,   200, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30017, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for Shop */
-     , (30017, 4,  5495, -1, 0, 0, False) /* Create  (5495) for Shop */
+     , (30017, 4,  5495, -1, 0, 0, False) /* Create Scroll of Acid Blast V (5495) for Shop */
      , (30017, 4,  8918, -1, 0, 0, False) /* Create Scroll of Acid Streak V (8918) for Shop */
      , (30017, 4,  2910, -1, 0, 0, False) /* Create Scroll of Acid Stream V (2910) for Shop */
-     , (30017, 4,  2914, -1, 0, 0, False) /* Create  (2914) for Shop */
+     , (30017, 4,  2914, -1, 0, 0, False) /* Create Scroll of Acid Volley V (2914) for Shop */
      , (30017, 4, 21292, -1, 0, 0, False) /* Create Scroll of Acid Arc V (21292) for Shop */
-     , (30017, 4,  2917, -1, 0, 0, False) /* Create  (2917) for Shop */
-     , (30017, 4,  2920, -1, 0, 0, False) /* Create  (2920) for Shop */
+     , (30017, 4,  2917, -1, 0, 0, False) /* Create Scroll of Blade Blast V (2917) for Shop */
+     , (30017, 4,  2920, -1, 0, 0, False) /* Create Scroll of Blade Volley V (2920) for Shop */
      , (30017, 4, 21299, -1, 0, 0, False) /* Create Scroll of Blade Arc V (21299) for Shop */
-     , (30017, 4,  2923, -1, 0, 0, False) /* Create  (2923) for Shop */
-     , (30017, 4,  2926, -1, 0, 0, False) /* Create  (2926) for Shop */
+     , (30017, 4,  2923, -1, 0, 0, False) /* Create Scroll of Bludgeoning Volley V (2923) for Shop */
+     , (30017, 4,  2926, -1, 0, 0, False) /* Create Scroll of Flame Blast V (2926) for Shop */
      , (30017, 4,  6001, -1, 0, 0, False) /* Create Scroll of Flame Bolt V (6001) for Shop */
      , (30017, 4,  8924, -1, 0, 0, False) /* Create Scroll of Flame Streak V (8924) for Shop */
-     , (30017, 4,  2929, -1, 0, 0, False) /* Create  (2929) for Shop */
+     , (30017, 4,  2929, -1, 0, 0, False) /* Create Scroll of Flame Volley V (2929) for Shop */
      , (30017, 4, 21306, -1, 0, 0, False) /* Create Scroll of Flame Arc V (21306) for Shop */
-     , (30017, 4,  8927, -1, 0, 0, False) /* Create  (8927) for Shop */
+     , (30017, 4,  8927, -1, 0, 0, False) /* Create Scroll of Force Blast V (8927) for Shop */
      , (30017, 4,  2933, -1, 0, 0, False) /* Create Scroll of Force Bolt V (2933) for Shop */
      , (30017, 4,  8933, -1, 0, 0, False) /* Create Scroll of Force Streak V (8933) for Shop */
-     , (30017, 4,  2936, -1, 0, 0, False) /* Create  (2936) for Shop */
+     , (30017, 4,  2936, -1, 0, 0, False) /* Create Scroll of Force Volley V (2936) for Shop */
      , (30017, 4, 21313, -1, 0, 0, False) /* Create Scroll of Force Arc V (21313) for Shop */
-     , (30017, 4,  2939, -1, 0, 0, False) /* Create  (2939) for Shop */
+     , (30017, 4,  2939, -1, 0, 0, False) /* Create Scroll of Frost Blast V (2939) for Shop */
      , (30017, 4,  2944, -1, 0, 0, False) /* Create Scroll of Frost Bolt V (2944) for Shop */
      , (30017, 4,  8939, -1, 0, 0, False) /* Create Scroll of Frost Streak V (8939) for Shop */
-     , (30017, 4,  2947, -1, 0, 0, False) /* Create  (2947) for Shop */
+     , (30017, 4,  2947, -1, 0, 0, False) /* Create Scroll of Frost Volley V (2947) for Shop */
      , (30017, 4, 21320, -1, 0, 0, False) /* Create Scroll of Frost Arc V (21320) for Shop */
-     , (30017, 4,  2953, -1, 0, 0, False) /* Create  (2953) for Shop */
+     , (30017, 4,  2953, -1, 0, 0, False) /* Create Scroll of Lightning Blast V (2953) for Shop */
      , (30017, 4,  2958, -1, 0, 0, False) /* Create Scroll of Lightning Bolt V (2958) for Shop */
      , (30017, 4,  8945, -1, 0, 0, False) /* Create Scroll of Lightning Streak V (8945) for Shop */
-     , (30017, 4,  9013, -1, 0, 0, False) /* Create  (9013) for Shop */
+     , (30017, 4,  9013, -1, 0, 0, False) /* Create Scroll of Lightning Volley V (9013) for Shop */
      , (30017, 4, 21327, -1, 0, 0, False) /* Create Scroll of Lightning Arc V (21327) for Shop */
-     , (30017, 4,  2961, -1, 0, 0, False) /* Create  (2961) for Shop */
+     , (30017, 4,  2961, -1, 0, 0, False) /* Create Scroll of Shock Blast V (2961) for Shop */
      , (30017, 4,  2966, -1, 0, 0, False) /* Create Scroll of Shock Wave V (2966) for Shop */
      , (30017, 4,  8951, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak V (8951) for Shop */
      , (30017, 4, 21334, -1, 0, 0, False) /* Create Scroll of Shock Arc V (21334) for Shop */

@@ -74,44 +74,44 @@ VALUES (52707,   1, 600, 0, 0) /* Strength */
      , (52707,   6, 575, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52707,   1,    10, 0, 0, 2075) /* MaxHealth */
-     , (52707,   3,    10, 0, 0, 1800) /* MaxStamina */
-     , (52707,   5,    10, 0, 0, 3075) /* MaxMana */;
+VALUES (52707,   1,  1800, 0, 0, 2075) /* MaxHealth */
+     , (52707,   3,  1250, 0, 0, 1800) /* MaxStamina */
+     , (52707,   5,  2500, 0, 0, 3075) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52707, 4, 52736, -1, 0, 0, False) /* Create Gauntlet Backpack (52736) for Shop */
-     , (52707, 4, 53410, -1, 0, 0, False) /* Create  (53410) for Shop */
+     , (52707, 4, 53410, -1, 0, 0, False) /* Create Radiant Blood Gauntlet Writ (53410) for Shop */
      , (52707, 4, 52798, -1, 0, 0, False) /* Create Gauntlet Leggings (52798) for Shop */
      , (52707, 4, 52799, -1, 0, 0, False) /* Create Gauntlet Tunic (52799) for Shop */
-     , (52707, 4, 53411, -1, 0, 0, False) /* Create  (53411) for Shop */
-     , (52707, 4, 52752, -1, 0, 0, False) /* Create  (52752) for Shop */
-     , (52707, 4, 52753, -1, 0, 0, False) /* Create  (52753) for Shop */
-     , (52707, 4, 52751, -1, 0, 0, False) /* Create  (52751) for Shop */
-     , (52707, 4, 52754, -1, 0, 0, False) /* Create  (52754) for Shop */
+     , (52707, 4, 53411, -1, 0, 0, False) /* Create Bracelet of Constitution (53411) for Shop */
+     , (52707, 4, 52752, -1, 0, 0, False) /* Create Spectral Armor Tinkering Mastery Crystal (52752) for Shop */
+     , (52707, 4, 52753, -1, 0, 0, False) /* Create Spectral Weapon Tinkering Mastery Crystal (52753) for Shop */
+     , (52707, 4, 52751, -1, 0, 0, False) /* Create Spectral Item Tinkering Mastery Crystal (52751) for Shop */
+     , (52707, 4, 52754, -1, 0, 0, False) /* Create Spectral Magic Item Tinkering Mastery Crystal (52754) for Shop */
      , (52707, 4, 52740, -1, 0, 0, False) /* Create Gem of Brilliance (52740) for Shop */
      , (52707, 4, 53353, -1, 0, 0, False) /* Create Wishbone (53353) for Shop */
-     , (52707, 4, 52742, -1, 0, 0, False) /* Create  (52742) for Shop */
+     , (52707, 4, 52742, -1, 0, 0, False) /* Create Crushing Society Orb (52742) for Shop */
      , (52707, 4, 52743, -1, 0, 0, False) /* Create Piercing Society Orb (52743) for Shop */
      , (52707, 4, 52744, -1, 0, 0, False) /* Create Nether Society Orb (52744) for Shop */
      , (52707, 4, 52741, -1, 0, 0, False) /* Create Slicing Society Orb (52741) for Shop */
-     , (52707, 4, 52745, -1, 0, 0, False) /* Create  (52745) for Shop */
+     , (52707, 4, 52745, -1, 0, 0, False) /* Create Exquisite Casino Key (52745) for Shop */
      , (52707, 4, 52783, -1, 0, 0, False) /* Create Gauntlet Treasure Key (52783) for Shop */
-     , (52707, 4, 52810, -1, 0, 0, False) /* Create  (52810) for Shop */
-     , (52707, 4, 52809, -1, 0, 0, False) /* Create  (52809) for Shop */
-     , (52707, 4, 52807, -1, 0, 0, False) /* Create  (52807) for Shop */
-     , (52707, 4, 52805, -1, 0, 0, False) /* Create  (52805) for Shop */
-     , (52707, 4, 52803, -1, 0, 0, False) /* Create  (52803) for Shop */
-     , (52707, 4, 52812, -1, 0, 0, False) /* Create  (52812) for Shop */
-     , (52707, 4, 52750, -1, 0, 0, False) /* Create  (52750) for Shop */
-     , (52707, 4, 52748, -1, 0, 0, False) /* Create  (52748) for Shop */
-     , (52707, 4, 52749, -1, 0, 0, False) /* Create  (52749) for Shop */
-     , (52707, 4, 52757, -1, 0, 0, False) /* Create  (52757) for Shop */
+     , (52707, 4, 52810, -1, 0, 0, False) /* Create Gear Knight Invasion Area Portal Gem (52810) for Shop */
+     , (52707, 4, 52809, -1, 0, 0, False) /* Create Mhoire Forge Portal Gem (52809) for Shop */
+     , (52707, 4, 52807, -1, 0, 0, False) /* Create Neftet Portal Gem (52807) for Shop */
+     , (52707, 4, 52805, -1, 0, 0, False) /* Create Paradox-touched Olthoi Portal Gem (52805) for Shop */
+     , (52707, 4, 52803, -1, 0, 0, False) /* Create Rynthid Portal Gem (52803) for Shop */
+     , (52707, 4, 52812, -1, 0, 0, False) /* Create Hoshino Fortress Portal Gem (52812) for Shop */
+     , (52707, 4, 52750, -1, 0, 0, False) /* Create Gauntlet Gem of Luminance (52750) for Shop */
+     , (52707, 4, 52748, -1, 0, 0, False) /* Create Gauntlet Gem of Knowledge (52748) for Shop */
+     , (52707, 4, 52749, -1, 0, 0, False) /* Create Gauntlet Gem of Vast Knowledge (52749) for Shop */
+     , (52707, 4, 52757, -1, 0, 0, False) /* Create Gauntlet Brutality Amplification (52757) for Shop */
      , (52707, 4, 52756, -1, 0, 0, False) /* Create Nature's Wrath Amplification (52756) for Shop */
      , (52707, 4, 52758, -1, 0, 0, False) /* Create Gauntlet Defense Amplification (52758) for Shop */
-     , (52707, 4, 53415, -1, 0, 0, False) /* Create  (53415) for Shop */
+     , (52707, 4, 53415, -1, 0, 0, False) /* Create Horizon's Edge Amplification (53415) for Shop */
      , (52707, 4, 52737, -1, 0, 0, False) /* Create Gauntlet Health Kit (52737) for Shop */
      , (52707, 4, 52739, -1, 0, 0, False) /* Create Gauntlet Stamina Kit (52739) for Shop */
-     , (52707, 4, 52738, -1, 0, 0, False) /* Create  (52738) for Shop */;
+     , (52707, 4, 52738, -1, 0, 0, False) /* Create Gauntlet Mana Kit (52738) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52707, 67109964, 92, 4)

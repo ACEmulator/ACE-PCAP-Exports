@@ -57,9 +57,9 @@ VALUES (35662,   1, 380, 0, 0) /* Strength */
      , (35662,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35662,   1,    10, 0, 0, 700) /* MaxHealth */
-     , (35662,   3,    10, 0, 0, 600) /* MaxStamina */
-     , (35662,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (35662,   1,   470, 0, 0, 700) /* MaxHealth */
+     , (35662,   3,   140, 0, 0, 600) /* MaxStamina */
+     , (35662,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35662, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */

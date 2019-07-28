@@ -51,9 +51,9 @@ VALUES (40780,   1, 200, 0, 0) /* Strength */
      , (40780,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40780,   1,    10, 0, 0, 3120) /* MaxHealth */
-     , (40780,   3,    10, 0, 0, 2220) /* MaxStamina */
-     , (40780,   5,    10, 0, 0, 455) /* MaxMana */;
+VALUES (40780,   1,  3020, 0, 0, 3120) /* MaxHealth */
+     , (40780,   3,  2020, 0, 0, 2220) /* MaxStamina */
+     , (40780,   5,   120, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40780, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */

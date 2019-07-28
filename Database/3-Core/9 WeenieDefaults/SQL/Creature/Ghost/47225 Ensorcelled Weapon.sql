@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (47225, 8000, 3359734099) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (47225,   1,    10, 0, 0, 9875) /* MaxHealth */;
+VALUES (47225,   1,     0, 0, 0, 9875) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47225, 2, 47223,  1, 0, 0, False) /* Create Ensorcelled Khopesh (47223) for Wield */;

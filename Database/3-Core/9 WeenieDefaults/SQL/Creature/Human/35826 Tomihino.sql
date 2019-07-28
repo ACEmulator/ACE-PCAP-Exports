@@ -69,9 +69,9 @@ VALUES (35826,   1, 190, 0, 0) /* Strength */
      , (35826,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35826,   1,    10, 0, 0, 125) /* MaxHealth */
-     , (35826,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (35826,   5,    10, 0, 0, 110) /* MaxMana */;
+VALUES (35826,   1,    60, 0, 0, 125) /* MaxHealth */
+     , (35826,   3,    80, 0, 0, 210) /* MaxStamina */
+     , (35826,   5,    50, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35826, 2, 21913,  1, 0, 0, False) /* Create Raudaloi (21913) for Wield */;

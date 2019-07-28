@@ -56,9 +56,9 @@ VALUES (1522,   1, 120, 0, 0) /* Strength */
      , (1522,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1522,   1,    10, 0, 0, 113) /* MaxHealth */
-     , (1522,   3,    10, 0, 0, 275) /* MaxStamina */
-     , (1522,   5,    10, 0, 0, 270) /* MaxMana */;
+VALUES (1522,   1,    51, 0, 0, 113) /* MaxHealth */
+     , (1522,   3,   150, 0, 0, 275) /* MaxStamina */
+     , (1522,   5,   150, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1522, 2,  6846,  1, 0, 0, False) /* Create Lightning Long Sword (6846) for Wield */

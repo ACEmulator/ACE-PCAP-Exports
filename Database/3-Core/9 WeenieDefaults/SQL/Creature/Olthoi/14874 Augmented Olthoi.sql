@@ -58,9 +58,9 @@ VALUES (14874,   1, 310, 0, 0) /* Strength */
      , (14874,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14874,   1,    10, 0, 0, 410) /* MaxHealth */
-     , (14874,   3,    10, 0, 0, 610) /* MaxStamina */
-     , (14874,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (14874,   1,   255, 0, 0, 410) /* MaxHealth */
+     , (14874,   3,   300, 0, 0, 610) /* MaxStamina */
+     , (14874,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14874, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */

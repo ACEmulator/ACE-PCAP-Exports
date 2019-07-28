@@ -56,9 +56,9 @@ VALUES (35941,   1, 800, 0, 0) /* Strength */
      , (35941,   6, 800, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35941,   1,    10, 0, 0, 200000) /* MaxHealth */
-     , (35941,   3,    10, 0, 0, 90000) /* MaxStamina */
-     , (35941,   5,    10, 0, 0, 200000) /* MaxMana */;
+VALUES (35941,   1, 199600, 0, 0, 200000) /* MaxHealth */
+     , (35941,   3, 89200, 0, 0, 90000) /* MaxStamina */
+     , (35941,   5, 199200, 0, 0, 200000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35941, 9, 35953,  0, 0, 0, False) /* Create Prodigal Tusker's Token (35953) for ContainTreasure */;

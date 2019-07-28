@@ -1,0 +1,66 @@
+DELETE FROM `weenie` WHERE `class_Id` = 27368;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27368, 'atlatlpalenqual', 3, '2019-02-10 00:00:00') /* MissileLauncher */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (27368,   1,        256) /* ItemType - MissileWeapon */
+     , (27368,   5,        200) /* EncumbranceVal */
+     , (27368,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (27368,  16,          1) /* ItemUseable - No */
+     , (27368,  19,      10000) /* Value */
+     , (27368,  50,          4) /* AmmoType - Atlatl */
+     , (27368,  51,          2) /* CombatUse - Missle */
+     , (27368,  65,          3) /* Placement - LeftHand */
+     , (27368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27368, 151,          2) /* HookType - Wall */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (27368,   1, False) /* Stuck */
+     , (27368,  11, True ) /* IgnoreCollisions */
+     , (27368,  13, True ) /* Ethereal */
+     , (27368,  14, True ) /* GravityStatus */
+     , (27368,  19, True ) /* Attackable */
+     , (27368,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27368,  39, 1.10000002384186) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27368,   1, 'Atlatl') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27368,   1,   33554728) /* Setup */
+     , (27368,   3,  536870932) /* SoundTable */
+     , (27368,   6,   67111919) /* PaletteBase */
+     , (27368,   8,  100676382) /* Icon */
+     , (27368,  22,  872415275) /* PhysicsEffectTable */
+     , (27368, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
+     , (27368, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
+     , (27368, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
+     , (27368, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (27368, 8040, 2399993903, 137.0928, 149.3409, 33.88368, -0.9186358, 0, 0, -0.3951055) /* PCAPRecordedLocation */
+/* @teleloc 0x8F0D002F [137.092800 149.340900 33.883680] -0.918636 0.000000 0.000000 -0.395106 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (27368, 8000,      27368) /* PCAPRecordedObjectIID */
+     , (27368, 8008, 3685853957) /* PCAPRecordedParentIID */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (27368, 67111920, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (27368, 0, 83886740, 83886740)
+     , (27368, 1, 83888778, 83888778)
+     , (27368, 2, 83886736, 83886736)
+     , (27368, 3, 83888778, 83888778)
+     , (27368, 4, 83886740, 83886740);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (27368, 0, 16779360)
+     , (27368, 1, 16779361)
+     , (27368, 2, 16779358)
+     , (27368, 3, 16779362)
+     , (27368, 4, 16779357);

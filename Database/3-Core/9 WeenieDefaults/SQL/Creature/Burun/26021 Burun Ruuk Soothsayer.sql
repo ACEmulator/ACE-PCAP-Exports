@@ -56,9 +56,9 @@ VALUES (26021,   1, 180, 0, 0) /* Strength */
      , (26021,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (26021,   1,    10, 0, 0, 410) /* MaxHealth */
-     , (26021,   3,    10, 0, 0, 470) /* MaxStamina */
-     , (26021,   5,    10, 0, 0, 320) /* MaxMana */;
+VALUES (26021,   1,   255, 0, 0, 410) /* MaxHealth */
+     , (26021,   3,   160, 0, 0, 470) /* MaxStamina */
+     , (26021,   5,   160, 0, 0, 460) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26021, 2, 26048,  1, 0, 0, False) /* Create Stone Spear (26048) for Wield */

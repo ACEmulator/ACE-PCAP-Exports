@@ -73,9 +73,9 @@ VALUES (1826,   1,  95, 0, 0) /* Strength */
      , (1826,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1826,   1,    10, 0, 0, 140) /* MaxHealth */
-     , (1826,   3,    10, 0, 0, 175) /* MaxStamina */
-     , (1826,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (1826,   1,   100, 0, 0, 140) /* MaxHealth */
+     , (1826,   3,    95, 0, 0, 175) /* MaxStamina */
+     , (1826,   5,    30, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1826, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
@@ -85,13 +85,13 @@ VALUES (1826, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (1826, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
      , (1826, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (1826, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
-     , (1826, 4,  4727, -1, 0, 0, False) /* Create  (4727) for Shop */
+     , (1826, 4,  4727, -1, 0, 0, False) /* Create Flat Bread (4727) for Shop */
      , (1826, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (1826, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (1826, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
      , (1826, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
      , (1826, 4, 23031, -1, 0, 0, False) /* Create The Silifi of Crimson Stars (23031) for Shop */
-     , (1826, 4,  6418, -1, 0, 0, False) /* Create  (6418) for Shop */;
+     , (1826, 4,  6418, -1, 0, 0, False) /* Create A Fiery Stone (6418) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1826, 67109553, 0, 24)

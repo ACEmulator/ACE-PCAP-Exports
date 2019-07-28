@@ -55,9 +55,9 @@ VALUES (51357,   1, 550, 0, 0) /* Strength */
      , (51357,   6, 410, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51357,   1,    10, 0, 0, 1900) /* MaxHealth */
-     , (51357,   3,    10, 0, 0, 3989) /* MaxStamina */
-     , (51357,   5,    10, 0, 0, 1410) /* MaxMana */;
+VALUES (51357,   1,  1655, 0, 0, 1900) /* MaxHealth */
+     , (51357,   3,  3500, 0, 0, 3990) /* MaxStamina */
+     , (51357,   5,  1000, 0, 0, 1410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51357, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */

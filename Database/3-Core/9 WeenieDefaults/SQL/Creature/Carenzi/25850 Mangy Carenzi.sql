@@ -54,9 +54,9 @@ VALUES (25850,   1, 180, 0, 0) /* Strength */
      , (25850,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25850,   1,    10, 0, 0, 530) /* MaxHealth */
-     , (25850,   3,    10, 0, 0, 660) /* MaxStamina */
-     , (25850,   5,    10, 0, 0, 330) /* MaxMana */;
+VALUES (25850,   1,   450, 0, 0, 530) /* MaxHealth */
+     , (25850,   3,   500, 0, 0, 660) /* MaxStamina */
+     , (25850,   5,   200, 0, 0, 330) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25850, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */

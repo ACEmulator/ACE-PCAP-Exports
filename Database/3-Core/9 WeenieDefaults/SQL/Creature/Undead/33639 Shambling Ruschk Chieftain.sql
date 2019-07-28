@@ -55,9 +55,9 @@ VALUES (33639,   1, 460, 0, 0) /* Strength */
      , (33639,   6, 390, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33639,   1,    10, 0, 0, 9195) /* MaxHealth */
-     , (33639,   3,    10, 0, 0, 3390) /* MaxStamina */
-     , (33639,   5,    10, 0, 0, 410) /* MaxMana */;
+VALUES (33639,   1,  9000, 0, 0, 9195) /* MaxHealth */
+     , (33639,   3,  3000, 0, 0, 3390) /* MaxStamina */
+     , (33639,   5,    20, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33639, 2, 48632,  1, 0, 0, False) /* Create Frigid Splinter (48632) for Wield */

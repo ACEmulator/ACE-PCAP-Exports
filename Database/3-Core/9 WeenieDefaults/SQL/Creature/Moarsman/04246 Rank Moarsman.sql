@@ -57,9 +57,9 @@ VALUES (4246,   1, 110, 0, 0) /* Strength */
      , (4246,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4246,   1,    10, 0, 0, 125) /* MaxHealth */
-     , (4246,   3,    10, 0, 0, 235) /* MaxStamina */
-     , (4246,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (4246,   1,    70, 0, 0, 125) /* MaxHealth */
+     , (4246,   3,   125, 0, 0, 235) /* MaxStamina */
+     , (4246,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4246, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */

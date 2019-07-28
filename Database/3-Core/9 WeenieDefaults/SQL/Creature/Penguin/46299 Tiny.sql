@@ -55,9 +55,9 @@ VALUES (46299,   1, 700, 0, 0) /* Strength */
      , (46299,   6, 700, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46299,   1,    10, 0, 0, 35352) /* MaxHealth */
-     , (46299,   3,    10, 0, 0, 23996) /* MaxStamina */
-     , (46299,   5,    10, 0, 0, 16692) /* MaxMana */;
+VALUES (46299,   1, 37650, 0, 0, 38000) /* MaxHealth */
+     , (46299,   3, 23300, 0, 0, 24000) /* MaxStamina */
+     , (46299,   5, 16300, 0, 0, 17000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46299, 9, 20252,  0, 0, 0, False) /* Create Scroll of Belly of Lead (20252) for ContainTreasure */

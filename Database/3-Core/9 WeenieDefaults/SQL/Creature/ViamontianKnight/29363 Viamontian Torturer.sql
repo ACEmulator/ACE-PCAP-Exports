@@ -60,9 +60,9 @@ VALUES (29363,   1, 140, 0, 0) /* Strength */
      , (29363,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (29363,   1,    10, 0, 0, 105) /* MaxHealth */
-     , (29363,   3,    10, 0, 0, 205) /* MaxStamina */
-     , (29363,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (29363,   1,    40, 0, 0, 105) /* MaxHealth */
+     , (29363,   3,    75, 0, 0, 205) /* MaxStamina */
+     , (29363,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29363, 2, 30583,  1, 0, 0, False) /* Create Flaming Mazule (30583) for Wield */

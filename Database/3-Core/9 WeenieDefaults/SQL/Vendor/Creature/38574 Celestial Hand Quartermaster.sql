@@ -75,9 +75,9 @@ VALUES (38574,   1, 220, 0, 0) /* Strength */
      , (38574,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38574,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (38574,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (38574,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (38574,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (38574,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (38574,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38574, 4, 38544, -1, 0, 0, False) /* Create Celestial Hand Armor Writ (38544) for Shop */
@@ -86,17 +86,17 @@ VALUES (38574, 4, 38544, -1, 0, 0, False) /* Create Celestial Hand Armor Writ (3
      , (38574, 4, 38717, -1, 0, 0, False) /* Create Celestial Hand Banner (38717) for Shop */
      , (38574, 4, 44887, -1, 0, 0, False) /* Create Celestial Hand Cloak (44887) for Shop */
      , (38574, 4, 44444, -1, 0, 0, False) /* Create Celestial Hand Robe (44444) for Shop */
-     , (38574, 4, 44980, -1, 0, 0, False) /* Create  (44980) for Shop */
-     , (38574, 4, 44981, -1, 0, 0, False) /* Create  (44981) for Shop */
-     , (38574, 4, 44466, -1, 0, 0, False) /* Create  (44466) for Shop */
-     , (38574, 4, 44588, -1, 0, 0, False) /* Create  (44588) for Shop */
-     , (38574, 4, 44603, -1, 0, 0, False) /* Create  (44603) for Shop */
-     , (38574, 4, 44605, -1, 0, 0, False) /* Create  (44605) for Shop */
-     , (38574, 4, 44594, -1, 0, 0, False) /* Create  (44594) for Shop */
-     , (38574, 4, 44596, -1, 0, 0, False) /* Create  (44596) for Shop */
-     , (38574, 4, 44609, -1, 0, 0, False) /* Create  (44609) for Shop */
-     , (38574, 4, 44591, -1, 0, 0, False) /* Create  (44591) for Shop */
-     , (38574, 4, 44600, -1, 0, 0, False) /* Create  (44600) for Shop */
+     , (38574, 4, 44980, -1, 0, 0, False) /* Create Society Breastplate Restorer (44980) for Shop */
+     , (38574, 4, 44981, -1, 0, 0, False) /* Create Society Breastplate Cloth Remover (44981) for Shop */
+     , (38574, 4, 44466, -1, 0, 0, False) /* Create Celestial Hand Shield Cover (44466) for Shop */
+     , (38574, 4, 44588, -1, 0, 0, False) /* Create Celestial Hand Buckler Cover (44588) for Shop */
+     , (38574, 4, 44603, -1, 0, 0, False) /* Create Celestial Hand Round Shield Cover (44603) for Shop */
+     , (38574, 4, 44605, -1, 0, 0, False) /* Create Celestial Hand Large Round Shield Cover (44605) for Shop */
+     , (38574, 4, 44594, -1, 0, 0, False) /* Create Celestial Hand Kite Shield Cover (44594) for Shop */
+     , (38574, 4, 44596, -1, 0, 0, False) /* Create Celestial Hand Large Kite Shield Cover (44596) for Shop */
+     , (38574, 4, 44609, -1, 0, 0, False) /* Create Celestial Hand Tower Shield Cover (44609) for Shop */
+     , (38574, 4, 44591, -1, 0, 0, False) /* Create Celestial Hand Covenant Shield Cover (44591) for Shop */
+     , (38574, 4, 44600, -1, 0, 0, False) /* Create Celestial Hand Olthoi Shield Cover (44600) for Shop */
      , (38574, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

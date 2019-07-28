@@ -72,7 +72,7 @@ VALUES (4686,   1,  80, 0, 0) /* Strength */
      , (4686,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4686,   1,    10, 0, 0, 58) /* MaxHealth */
+VALUES (4686,   1,    11, 0, 0, 58) /* MaxHealth */
      , (4686,   3,    10, 0, 0, 105) /* MaxStamina */
      , (4686,   5,    10, 0, 0, 60) /* MaxMana */;
 
@@ -80,7 +80,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (4686, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
      , (4686, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
      , (4686, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (4686, 4,  2606, -1, 0, 0, False) /* Create  (2606) for Shop */
+     , (4686, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
      , (4686, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (4686, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
      , (4686, 4,  8373, -1, 0, 0, False) /* Create Kiyafa Robe (8373) for Shop */;

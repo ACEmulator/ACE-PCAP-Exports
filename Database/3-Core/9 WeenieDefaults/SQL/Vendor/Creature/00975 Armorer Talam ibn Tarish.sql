@@ -66,9 +66,9 @@ VALUES (975,   1, 130, 0, 0) /* Strength */
      , (975,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (975,   1,    10, 0, 0, 205) /* MaxHealth */
-     , (975,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (975,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (975,   1,   150, 0, 0, 205) /* MaxHealth */
+     , (975,   3,   140, 0, 0, 250) /* MaxStamina */
+     , (975,   5,    90, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (975, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */;

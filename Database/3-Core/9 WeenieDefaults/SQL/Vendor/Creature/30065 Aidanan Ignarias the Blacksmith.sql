@@ -73,9 +73,9 @@ VALUES (30065,   1,  80, 0, 0) /* Strength */
      , (30065,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30065,   1,    10, 0, 0, 80) /* MaxHealth */
-     , (30065,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (30065,   5,    10, 0, 0, 45) /* MaxMana */;
+VALUES (30065,   1,    50, 0, 0, 80) /* MaxHealth */
+     , (30065,   3,    90, 0, 0, 150) /* MaxStamina */
+     , (30065,   5,    20, 0, 0, 45) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30065, 2, 30561,  1, 0, 0, False) /* Create Dolabra (30561) for Wield */
@@ -117,7 +117,7 @@ VALUES (30065, 2, 30561,  1, 0, 0, False) /* Create Dolabra (30561) for Wield */
      , (30065, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30065, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30065, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30065, 4, 45683, -1, 0, 0, False) /* Create  (45683) for Shop */
+     , (30065, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (30065, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

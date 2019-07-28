@@ -68,15 +68,15 @@ VALUES (37477,   1,  75, 0, 0) /* Strength */
      , (37477,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37477,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (37477,   3,    10, 0, 0, 165) /* MaxStamina */
-     , (37477,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (37477,   1,    60, 0, 0, 95) /* MaxHealth */
+     , (37477,   3,    95, 0, 0, 165) /* MaxStamina */
+     , (37477,   5,    40, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37477, 4, 37465, -1, 0, 0, False) /* Create Axe Stamped Spectral Ingot (37465) for Shop */
      , (37477, 4, 37469, -1, 0, 0, False) /* Create Claw Stamped Spectral Ingot (37469) for Shop */
      , (37477, 4, 37471, -1, 0, 0, False) /* Create Dagger Stamped Spectral Ingot (37471) for Shop */
-     , (37477, 4, 37472, -1, 0, 0, False) /* Create  (37472) for Shop */
+     , (37477, 4, 37472, -1, 0, 0, False) /* Create Mace Stamped Spectral Ingot (37472) for Shop */
      , (37477, 4, 37474, -1, 0, 0, False) /* Create Staff Stamped Spectral Ingot (37474) for Shop */
      , (37477, 4, 37473, -1, 0, 0, False) /* Create Spear Stamped Spectral Ingot (37473) for Shop */
      , (37477, 4, 37475, -1, 0, 0, False) /* Create Sword Stamped Spectral Ingot (37475) for Shop */

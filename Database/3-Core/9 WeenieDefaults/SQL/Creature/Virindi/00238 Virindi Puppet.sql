@@ -52,9 +52,9 @@ VALUES (238,   1, 150, 0, 0) /* Strength */
      , (238,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (238,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (238,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (238,   5,    10, 0, 0, 350) /* MaxMana */;
+VALUES (238,   1,    40, 0, 0, 115) /* MaxHealth */
+     , (238,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (238,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (238, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */

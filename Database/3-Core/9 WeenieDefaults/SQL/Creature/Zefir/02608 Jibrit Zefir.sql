@@ -55,9 +55,9 @@ VALUES (2608,   1,  50, 0, 0) /* Strength */
      , (2608,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2608,   1,    10, 0, 0, 25) /* MaxHealth */
-     , (2608,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (2608,   5,    10, 0, 0, 170) /* MaxMana */;
+VALUES (2608,   1,     5, 0, 0, 25) /* MaxHealth */
+     , (2608,   3,   100, 0, 0, 140) /* MaxStamina */
+     , (2608,   5,    80, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2608, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */

@@ -55,9 +55,9 @@ VALUES (46936,   1, 380, 0, 0) /* Strength */
      , (46936,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46936,   1,    10, 0, 0, 8600) /* MaxHealth */
-     , (46936,   3,    10, 0, 0, 6500) /* MaxStamina */
-     , (46936,   5,    10, 0, 0, 7590) /* MaxMana */;
+VALUES (46936,   1,  8400, 0, 0, 8600) /* MaxHealth */
+     , (46936,   3,  6100, 0, 0, 6500) /* MaxStamina */
+     , (46936,   5,  7100, 0, 0, 7590) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46936, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */

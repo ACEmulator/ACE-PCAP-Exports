@@ -56,9 +56,9 @@ VALUES (46687,   1, 350, 0, 0) /* Strength */
      , (46687,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46687,   1,    10, 0, 0, 5200) /* MaxHealth */
-     , (46687,   3,    10, 0, 0, 6000) /* MaxStamina */
-     , (46687,   5,    10, 0, 0, 5686) /* MaxMana */;
+VALUES (46687,   1,  5000, 0, 0, 5200) /* MaxHealth */
+     , (46687,   3,  5600, 0, 0, 6000) /* MaxStamina */
+     , (46687,   5,  5550, 0, 0, 6000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46687, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */;

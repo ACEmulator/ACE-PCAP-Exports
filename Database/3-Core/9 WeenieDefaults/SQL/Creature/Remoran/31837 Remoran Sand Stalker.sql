@@ -52,9 +52,9 @@ VALUES (31837,   1, 380, 0, 0) /* Strength */
      , (31837,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31837,   1,    10, 0, 0, 2500) /* MaxHealth */
-     , (31837,   3,    10, 0, 0, 5000) /* MaxStamina */
-     , (31837,   5,    10, 0, 0, 2976) /* MaxMana */;
+VALUES (31837,   1,  2350, 0, 0, 2500) /* MaxHealth */
+     , (31837,   3,  4700, 0, 0, 5000) /* MaxStamina */
+     , (31837,   5,  2680, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31837, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */

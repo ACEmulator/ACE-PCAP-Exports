@@ -56,9 +56,9 @@ VALUES (40314,   1, 240, 0, 0) /* Strength */
      , (40314,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40314,   1,    10, 0, 0, 1110) /* MaxHealth */
-     , (40314,   3,    10, 0, 0, 1520) /* MaxStamina */
-     , (40314,   5,    10, 0, 0, 1020) /* MaxMana */;
+VALUES (40314,   1,  1000, 0, 0, 1110) /* MaxHealth */
+     , (40314,   3,  1300, 0, 0, 1520) /* MaxStamina */
+     , (40314,   5,   800, 0, 0, 1020) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40314, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */

@@ -72,9 +72,9 @@ VALUES (2497,   1,  70, 0, 0) /* Strength */
      , (2497,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2497,   1,    10, 0, 0, 130) /* MaxHealth */
-     , (2497,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (2497,   5,    10, 0, 0, 135) /* MaxMana */;
+VALUES (2497,   1,    80, 0, 0, 130) /* MaxHealth */
+     , (2497,   3,   150, 0, 0, 250) /* MaxStamina */
+     , (2497,   5,    90, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2497, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */

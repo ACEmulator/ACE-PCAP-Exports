@@ -69,9 +69,9 @@ VALUES (43495,   1, 255, 0, 0) /* Strength */
      , (43495,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43495,   1,    10, 0, 0, 235) /* MaxHealth */
-     , (43495,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (43495,   5,    10, 0, 0, 145) /* MaxMana */;
+VALUES (43495,   1,   125, 0, 0, 235) /* MaxHealth */
+     , (43495,   3,   110, 0, 0, 330) /* MaxStamina */
+     , (43495,   5,    55, 0, 0, 145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43495, 2, 41055,  1, 0, 0, False) /* Create Flaming Greataxe (41055) for Wield */;

@@ -56,9 +56,9 @@ VALUES (2583,   1,  90, 0, 0) /* Strength */
      , (2583,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2583,   1,    10, 0, 0, 65) /* MaxHealth */
-     , (2583,   3,    10, 0, 0, 110) /* MaxStamina */
-     , (2583,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (2583,   1,    35, 0, 0, 65) /* MaxHealth */
+     , (2583,   3,    50, 0, 0, 110) /* MaxStamina */
+     , (2583,   5,    20, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2583, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */

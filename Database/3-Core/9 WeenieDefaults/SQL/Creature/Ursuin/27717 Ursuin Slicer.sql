@@ -55,9 +55,9 @@ VALUES (27717,   1, 360, 0, 0) /* Strength */
      , (27717,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27717,   1,    10, 0, 0, 410) /* MaxHealth */
-     , (27717,   3,    10, 0, 0, 440) /* MaxStamina */
-     , (27717,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (27717,   1,   300, 0, 0, 410) /* MaxHealth */
+     , (27717,   3,   220, 0, 0, 440) /* MaxStamina */
+     , (27717,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27717, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */

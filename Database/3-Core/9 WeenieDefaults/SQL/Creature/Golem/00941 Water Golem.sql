@@ -54,9 +54,9 @@ VALUES (941,   1,  80, 0, 0) /* Strength */
      , (941,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (941,   1,    10, 0, 0, 61) /* MaxHealth */
-     , (941,   3,    10, 0, 0, 119) /* MaxStamina */
-     , (941,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (941,   1,     1, 0, 0, 61) /* MaxHealth */
+     , (941,   3,     1, 0, 0, 121) /* MaxStamina */
+     , (941,   5,    40, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (941, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */

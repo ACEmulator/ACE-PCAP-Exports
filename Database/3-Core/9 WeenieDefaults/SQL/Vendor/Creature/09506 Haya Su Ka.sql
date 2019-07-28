@@ -72,12 +72,12 @@ VALUES (9506,   1,  60, 0, 0) /* Strength */
      , (9506,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9506,   1,    10, 0, 0, 65) /* MaxHealth */
-     , (9506,   3,    10, 0, 0, 130) /* MaxStamina */
-     , (9506,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (9506,   1,    45, 0, 0, 65) /* MaxHealth */
+     , (9506,   3,    90, 0, 0, 130) /* MaxStamina */
+     , (9506,   5,    30, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (9506, 4,  9517, -1, 0, 0, False) /* Create  (9517) for Shop */
+VALUES (9506, 4,  9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of Iniquity (9517) for Shop */
      , (9506, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (9506, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
      , (9506, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */

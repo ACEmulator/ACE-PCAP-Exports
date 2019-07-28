@@ -55,9 +55,9 @@ VALUES (11541,   1, 230, 0, 0) /* Strength */
      , (11541,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11541,   1,    10, 0, 0, 435) /* MaxHealth */
-     , (11541,   3,    10, 0, 0, 660) /* MaxStamina */
-     , (11541,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (11541,   1,   280, 0, 0, 435) /* MaxHealth */
+     , (11541,   3,   350, 0, 0, 660) /* MaxStamina */
+     , (11541,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11541, 9, 45404,  0, 0, 0, False) /* Create Shadow Blade of Flame (45404) for ContainTreasure */

@@ -55,9 +55,9 @@ VALUES (28821,   1, 170, 0, 0) /* Strength */
      , (28821,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28821,   1,    10, 0, 0, 460) /* MaxHealth */
-     , (28821,   3,    10, 0, 0, 560) /* MaxStamina */
-     , (28821,   5,    10, 0, 0, 440) /* MaxMana */;
+VALUES (28821,   1,   390, 0, 0, 460) /* MaxHealth */
+     , (28821,   3,   420, 0, 0, 560) /* MaxStamina */
+     , (28821,   5,   300, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28821, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */

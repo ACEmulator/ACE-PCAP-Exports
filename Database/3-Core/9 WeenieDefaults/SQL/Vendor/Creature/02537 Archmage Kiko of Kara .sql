@@ -72,9 +72,9 @@ VALUES (2537,   1,  60, 0, 0) /* Strength */
      , (2537,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2537,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (2537,   3,    10, 0, 0, 175) /* MaxStamina */
-     , (2537,   5,    10, 0, 0, 145) /* MaxMana */;
+VALUES (2537,   1,    95, 0, 0, 135) /* MaxHealth */
+     , (2537,   3,    95, 0, 0, 175) /* MaxStamina */
+     , (2537,   5,   100, 0, 0, 145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2537, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -156,12 +156,12 @@ VALUES (2537, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2537, 4,  1644, -1, 0, 0, False) /* Create Brown Taper (1644) for Shop */
      , (2537, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
      , (2537, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
-     , (2537, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (2537, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (2537, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (2537, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (2537, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (2537, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (2537, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (2537, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (2537, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (2537, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (2537, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (2537, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (2537, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (2537, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (2537, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
@@ -172,8 +172,8 @@ VALUES (2537, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2537, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
      , (2537, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
      , (2537, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
-     , (2537, 4,  6064, -1, 0, 0, False) /* Create  (6064) for Shop */
-     , (2537, 4,  6067, -1, 0, 0, False) /* Create  (6067) for Shop */
+     , (2537, 4,  6064, -1, 0, 0, False) /* Create Suikan Creature Apprentice Robe (6064) for Shop */
+     , (2537, 4,  6067, -1, 0, 0, False) /* Create Suikan Item Apprentice Robe (6067) for Shop */
      , (2537, 4,  6070, -1, 0, 0, False) /* Create Suikan Life Apprentice Robe (6070) for Shop */
      , (2537, 4,  6073, -1, 0, 0, False) /* Create Suikan War Apprentice Robe (6073) for Shop */
      , (2537, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */

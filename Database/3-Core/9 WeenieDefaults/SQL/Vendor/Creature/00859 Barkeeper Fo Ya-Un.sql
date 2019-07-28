@@ -72,9 +72,9 @@ VALUES (859,   1,  55, 0, 0) /* Strength */
      , (859,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (859,   1,    10, 0, 0, 123) /* MaxHealth */
-     , (859,   3,    10, 0, 0, 160) /* MaxStamina */
-     , (859,   5,    10, 0, 0, 75) /* MaxMana */;
+VALUES (859,   1,    91, 0, 0, 123) /* MaxHealth */
+     , (859,   3,    95, 0, 0, 160) /* MaxStamina */
+     , (859,   5,    50, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (859, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
@@ -82,7 +82,7 @@ VALUES (859, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (859, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (859, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (859, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
-     , (859, 4,  2466, -1, 0, 0, False) /* Create  (2466) for Shop */
+     , (859, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
      , (859, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (859, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (859, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
@@ -90,17 +90,17 @@ VALUES (859, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (859, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (859, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy (8135) for Shop */
      , (859, 4,  6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems (6630) for Shop */
-     , (859, 4,  7936, -1, 0, 0, False) /* Create  (7936) for Shop */
-     , (859, 4,  6417, -1, 0, 0, False) /* Create  (6417) for Shop */
-     , (859, 4,  5881, -1, 0, 0, False) /* Create  (5881) for Shop */
-     , (859, 4,  5601, -1, 0, 0, False) /* Create  (5601) for Shop */
-     , (859, 4,  5675, -1, 0, 0, False) /* Create  (5675) for Shop */
+     , (859, 4,  7936, -1, 0, 0, False) /* Create Aliester's Corollary (7936) for Shop */
+     , (859, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
+     , (859, 4,  5881, -1, 0, 0, False) /* Create The Book of Minesh (5881) for Shop */
+     , (859, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
+     , (859, 4,  5675, -1, 0, 0, False) /* Create Mount Lethe Rumor (5675) for Shop */
      , (859, 4,  5147, -1, 0, 0, False) /* Create Return to Frore (5147) for Shop */
-     , (859, 4,  6421, -1, 0, 0, False) /* Create  (6421) for Shop */
-     , (859, 4,  8397, -1, 0, 0, False) /* Create  (8397) for Shop */
+     , (859, 4,  6421, -1, 0, 0, False) /* Create The Lost City of Frore (6421) for Shop */
+     , (859, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core (8397) for Shop */
      , (859, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (859, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (859, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
+     , (859, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (859, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light (13202) for Shop */
      , (859, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;
 

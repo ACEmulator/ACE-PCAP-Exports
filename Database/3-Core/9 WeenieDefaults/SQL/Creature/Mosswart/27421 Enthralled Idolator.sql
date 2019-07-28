@@ -56,9 +56,9 @@ VALUES (27421,   1, 210, 0, 0) /* Strength */
      , (27421,   6, 125, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27421,   1,    10, 0, 0, 544) /* MaxHealth */
-     , (27421,   3,    10, 0, 0, 690) /* MaxStamina */
-     , (27421,   5,    10, 0, 0, 325) /* MaxMana */;
+VALUES (27421,   1,   444, 0, 0, 544) /* MaxHealth */
+     , (27421,   3,   490, 0, 0, 690) /* MaxStamina */
+     , (27421,   5,   200, 0, 0, 325) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27421, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */

@@ -72,9 +72,9 @@ VALUES (2538,   1,  75, 0, 0) /* Strength */
      , (2538,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2538,   1,    10, 0, 0, 113) /* MaxHealth */
-     , (2538,   3,    10, 0, 0, 155) /* MaxStamina */
-     , (2538,   5,    10, 0, 0, 125) /* MaxMana */;
+VALUES (2538,   1,    81, 0, 0, 113) /* MaxHealth */
+     , (2538,   3,    90, 0, 0, 155) /* MaxStamina */
+     , (2538,   5,    55, 0, 0, 125) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2538, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
@@ -90,10 +90,10 @@ VALUES (2538, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (2538, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (2538, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (2538, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
-     , (2538, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (2538, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
-     , (2538, 4,  4592, -1, 0, 0, False) /* Create  (4592) for Shop */
-     , (2538, 4,  4602, -1, 0, 0, False) /* Create  (4602) for Shop */
+     , (2538, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
+     , (2538, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (2538, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
+     , (2538, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
      , (2538, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2538, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

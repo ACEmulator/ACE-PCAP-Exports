@@ -72,9 +72,9 @@ VALUES (715,   1,  20, 0, 0) /* Strength */
      , (715,   6,  65, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (715,   1,    10, 0, 0, 85) /* MaxHealth */
-     , (715,   3,    10, 0, 0, 120) /* MaxStamina */
-     , (715,   5,    10, 0, 0, 105) /* MaxMana */;
+VALUES (715,   1,    55, 0, 0, 85) /* MaxHealth */
+     , (715,   3,    60, 0, 0, 120) /* MaxStamina */
+     , (715,   5,    40, 0, 0, 105) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (715, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
@@ -85,34 +85,34 @@ VALUES (715, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop
      , (715, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (715, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (715, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (715, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
-     , (715, 4,  4589, -1, 0, 0, False) /* Create  (4589) for Shop */
-     , (715, 4,  4599, -1, 0, 0, False) /* Create  (4599) for Shop */
-     , (715, 4,  4595, -1, 0, 0, False) /* Create  (4595) for Shop */
-     , (715, 4,  4604, -1, 0, 0, False) /* Create  (4604) for Shop */
-     , (715, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
-     , (715, 4, 30668, -1, 0, 0, False) /* Create  (30668) for Shop */
-     , (715, 4, 30669, -1, 0, 0, False) /* Create  (30669) for Shop */
-     , (715, 4,  4602, -1, 0, 0, False) /* Create  (4602) for Shop */
-     , (715, 4,  4603, -1, 0, 0, False) /* Create  (4603) for Shop */
-     , (715, 4, 30670, -1, 0, 0, False) /* Create  (30670) for Shop */
-     , (715, 4, 30671, -1, 0, 0, False) /* Create  (30671) for Shop */
-     , (715, 4,  4608, -1, 0, 0, False) /* Create  (4608) for Shop */
-     , (715, 4,  4609, -1, 0, 0, False) /* Create  (4609) for Shop */
-     , (715, 4, 30672, -1, 0, 0, False) /* Create  (30672) for Shop */
-     , (715, 4, 30673, -1, 0, 0, False) /* Create  (30673) for Shop */
-     , (715, 4,  4606, -1, 0, 0, False) /* Create  (4606) for Shop */
-     , (715, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (715, 4, 30674, -1, 0, 0, False) /* Create  (30674) for Shop */
-     , (715, 4, 30663, -1, 0, 0, False) /* Create  (30663) for Shop */
-     , (715, 4,  4384, -1, 0, 0, False) /* Create  (4384) for Shop */
-     , (715, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
-     , (715, 4, 30664, -1, 0, 0, False) /* Create  (30664) for Shop */
-     , (715, 4, 30665, -1, 0, 0, False) /* Create  (30665) for Shop */
-     , (715, 4,  4610, -1, 0, 0, False) /* Create  (4610) for Shop */
-     , (715, 4,  4611, -1, 0, 0, False) /* Create  (4611) for Shop */
-     , (715, 4, 30666, -1, 0, 0, False) /* Create  (30666) for Shop */
-     , (715, 4, 30667, -1, 0, 0, False) /* Create  (30667) for Shop */
+     , (715, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (715, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
+     , (715, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
+     , (715, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
+     , (715, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I (4604) for Shop */
+     , (715, 4,  4605, -1, 0, 0, False) /* Create Coordination Other II (4605) for Shop */
+     , (715, 4, 30668, -1, 0, 0, False) /* Create Coordination Other III (30668) for Shop */
+     , (715, 4, 30669, -1, 0, 0, False) /* Create Coordination Other IV (30669) for Shop */
+     , (715, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
+     , (715, 4,  4603, -1, 0, 0, False) /* Create Endurance Other II (4603) for Shop */
+     , (715, 4, 30670, -1, 0, 0, False) /* Create Endurance Other III (30670) for Shop */
+     , (715, 4, 30671, -1, 0, 0, False) /* Create Endurance Other IV (30671) for Shop */
+     , (715, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
+     , (715, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
+     , (715, 4, 30672, -1, 0, 0, False) /* Create Focus Other III (30672) for Shop */
+     , (715, 4, 30673, -1, 0, 0, False) /* Create Focus Other IV (30673) for Shop */
+     , (715, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
+     , (715, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
+     , (715, 4, 30674, -1, 0, 0, False) /* Create Quickness Other III (30674) for Shop */
+     , (715, 4, 30663, -1, 0, 0, False) /* Create Quickness Other IV (30663) for Shop */
+     , (715, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
+     , (715, 4,  4601, -1, 0, 0, False) /* Create Strength Other II (4601) for Shop */
+     , (715, 4, 30664, -1, 0, 0, False) /* Create Strength Other III (30664) for Shop */
+     , (715, 4, 30665, -1, 0, 0, False) /* Create Strength Other IV (30665) for Shop */
+     , (715, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
+     , (715, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
+     , (715, 4, 30666, -1, 0, 0, False) /* Create Willpower Other III (30666) for Shop */
+     , (715, 4, 30667, -1, 0, 0, False) /* Create Willpower Other IV (30667) for Shop */
      , (715, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (715, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

@@ -57,9 +57,9 @@ VALUES (2568,   1, 666, 0, 0) /* Strength */
      , (2568,   6, 666, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2568,   1,    10, 0, 0, 2599) /* MaxHealth */
-     , (2568,   3,    10, 0, 0, 666) /* MaxStamina */
-     , (2568,   5,    10, 0, 0, 666) /* MaxMana */;
+VALUES (2568,   1,  2266, 0, 0, 2599) /* MaxHealth */
+     , (2568,   3,     0, 0, 0, 666) /* MaxStamina */
+     , (2568,   5,     0, 0, 0, 666) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2568, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */

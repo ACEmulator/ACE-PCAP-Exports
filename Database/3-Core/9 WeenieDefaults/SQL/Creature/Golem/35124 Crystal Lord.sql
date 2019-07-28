@@ -56,9 +56,9 @@ VALUES (35124,   1, 400, 0, 0) /* Strength */
      , (35124,   6, 1100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35124,   1,    10, 0, 0, 13756) /* MaxHealth */
-     , (35124,   3,    10, 0, 0, 21000) /* MaxStamina */
-     , (35124,   5,    10, 0, 0, 21100) /* MaxMana */;
+VALUES (35124,   1, 14500, 0, 0, 15000) /* MaxHealth */
+     , (35124,   3, 20000, 0, 0, 21000) /* MaxStamina */
+     , (35124,   5, 20000, 0, 0, 21100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35124, 9,  3916,  0, 0, 0, False) /* Create Frost Yari (3916) for ContainTreasure */

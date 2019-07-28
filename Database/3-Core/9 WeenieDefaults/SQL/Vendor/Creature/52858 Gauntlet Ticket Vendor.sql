@@ -73,9 +73,9 @@ VALUES (52858,   1, 260, 0, 0) /* Strength */
      , (52858,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52858,   1,    10, 0, 0, 341) /* MaxHealth */
-     , (52858,   3,    10, 0, 0, 486) /* MaxStamina */
-     , (52858,   5,    10, 0, 0, 396) /* MaxMana */;
+VALUES (52858,   1,   196, 0, 0, 341) /* MaxHealth */
+     , (52858,   3,   196, 0, 0, 486) /* MaxStamina */
+     , (52858,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52858, 4, 52796, -1, 0, 0, False) /* Create Gauntlet Ticket (52796) for Shop */;

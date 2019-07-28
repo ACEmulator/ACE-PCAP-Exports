@@ -60,9 +60,9 @@ VALUES (22513,   1, 230, 0, 0) /* Strength */
      , (22513,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22513,   1,    10, 0, 0, 200) /* MaxHealth */
-     , (22513,   3,    10, 0, 0, 320) /* MaxStamina */
-     , (22513,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (22513,   1,   125, 0, 0, 200) /* MaxHealth */
+     , (22513,   3,   170, 0, 0, 320) /* MaxStamina */
+     , (22513,   5,    20, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22513, 2, 22791,  1, 0, 0, False) /* Create Bandit Rapier (22791) for Wield */

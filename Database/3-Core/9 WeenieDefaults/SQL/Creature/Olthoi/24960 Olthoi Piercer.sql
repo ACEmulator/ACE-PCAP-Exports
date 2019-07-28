@@ -57,9 +57,9 @@ VALUES (24960,   1, 110, 0, 0) /* Strength */
      , (24960,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24960,   1,    10, 0, 0, 300) /* MaxHealth */
-     , (24960,   3,    10, 0, 0, 500) /* MaxStamina */
-     , (24960,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (24960,   1,   150, 0, 0, 300) /* MaxHealth */
+     , (24960,   3,   200, 0, 0, 500) /* MaxStamina */
+     , (24960,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24960, 9,  4197,  0, 0, 0, False) /* Create Acid Nekode (4197) for ContainTreasure */

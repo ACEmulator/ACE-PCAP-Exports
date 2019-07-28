@@ -74,7 +74,7 @@ VALUES (4551,   1,  75, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (4551,   1,    10, 0, 0, 40) /* MaxHealth */
      , (4551,   3,    10, 0, 0, 70) /* MaxStamina */
-     , (4551,   5,    10, 0, 0, 65) /* MaxMana */;
+     , (4551,   5,    15, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4551, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */

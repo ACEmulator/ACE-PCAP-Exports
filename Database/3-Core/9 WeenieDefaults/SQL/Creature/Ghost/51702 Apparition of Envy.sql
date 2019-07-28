@@ -58,9 +58,9 @@ VALUES (51702,   1, 350, 0, 0) /* Strength */
      , (51702,   6, 480, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51702,   1,    10, 0, 0, 16673) /* MaxHealth */
-     , (51702,   3,    10, 0, 0, 4450) /* MaxStamina */
-     , (51702,   5,    10, 0, 0, 4430) /* MaxMana */;
+VALUES (51702,   1, 17500, 0, 0, 17675) /* MaxHealth */
+     , (51702,   3,  4100, 0, 0, 4450) /* MaxStamina */
+     , (51702,   5,  3950, 0, 0, 4430) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51702, 9, 51704,  0, 0, 0, False) /* Create Shroud of Envy (51704) for ContainTreasure */;

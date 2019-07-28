@@ -55,9 +55,9 @@ VALUES (35149,   1, 380, 0, 0) /* Strength */
      , (35149,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35149,   1,    10, 0, 0, 3840) /* MaxHealth */
-     , (35149,   3,    10, 0, 0, 8999) /* MaxStamina */
-     , (35149,   5,    10, 0, 0, 160) /* MaxMana */;
+VALUES (35149,   1,  3650, 0, 0, 3840) /* MaxHealth */
+     , (35149,   3,  8620, 0, 0, 9000) /* MaxStamina */
+     , (35149,   5,     0, 0, 0, 160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35149, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */

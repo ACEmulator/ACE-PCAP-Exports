@@ -65,20 +65,20 @@ VALUES (45485,   1, 680, 0, 0) /* Strength */
      , (45485,   6, 585, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45485,   1,    10, 0, 0, 1120) /* MaxHealth */
-     , (45485,   3,    10, 0, 0, 1491) /* MaxStamina */
-     , (45485,   5,    10, 0, 0, 1085) /* MaxMana */;
+VALUES (45485,   1,   800, 0, 0, 1120) /* MaxHealth */
+     , (45485,   3,   851, 0, 0, 1491) /* MaxStamina */
+     , (45485,   5,   500, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45485, 4, 45436, -1, 0, 0, False) /* Create Bearded Axe of Souia-Vey (45436) for Shop */
-     , (45485, 4, 45437, -1, 0, 0, False) /* Create  (45437) for Shop */
+     , (45485, 4, 45437, -1, 0, 0, False) /* Create Canfield Cleaver (45437) for Shop */
      , (45485, 4, 45438, -1, 0, 0, False) /* Create Count Renari's Equalizer (45438) for Shop */
      , (45485, 4, 45439, -1, 0, 0, False) /* Create Smite (45439) for Shop */
      , (45485, 4, 45440, -1, 0, 0, False) /* Create Tusked Axe of Ayan Baqur (45440) for Shop */
      , (45485, 4, 45441, -1, 0, 0, False) /* Create Black Thistle (45441) for Shop */
      , (45485, 4, 45442, -1, 0, 0, False) /* Create Moriharu's Kitchen Knife (45442) for Shop */
      , (45485, 4, 45443, -1, 0, 0, False) /* Create Pitfighter's Edge (45443) for Shop */
-     , (45485, 4, 45444, -1, 0, 0, False) /* Create  (45444) for Shop */
+     , (45485, 4, 45444, -1, 0, 0, False) /* Create Ridgeback Dagger (45444) for Shop */
      , (45485, 4, 45445, -1, 0, 0, False) /* Create Zharalim Crookblade (45445) for Shop */
      , (45485, 4, 45446, -1, 0, 0, False) /* Create Baton of Tirethas (45446) for Shop */
      , (45485, 4, 45447, -1, 0, 0, False) /* Create Dripping Death (45447) for Shop */
@@ -87,12 +87,12 @@ VALUES (45485, 4, 45436, -1, 0, 0, False) /* Create Bearded Axe of Souia-Vey (45
      , (45485, 4, 45450, -1, 0, 0, False) /* Create Thunderhead (45450) for Shop */
      , (45485, 4, 45451, -1, 0, 0, False) /* Create Champion's Demise (45451) for Shop */
      , (45485, 4, 45452, -1, 0, 0, False) /* Create Pillar of Fearlessness (45452) for Shop */
-     , (45485, 4, 45453, -1, 0, 0, False) /* Create  (45453) for Shop */
+     , (45485, 4, 45453, -1, 0, 0, False) /* Create Squire's Glaive (45453) for Shop */
      , (45485, 4, 45454, -1, 0, 0, False) /* Create Star of Gharu'n (45454) for Shop */
-     , (45485, 4, 45455, -1, 0, 0, False) /* Create  (45455) for Shop */
-     , (45485, 4, 45456, -1, 0, 0, False) /* Create  (45456) for Shop */
+     , (45485, 4, 45455, -1, 0, 0, False) /* Create Tri-Blade Spear (45455) for Shop */
+     , (45485, 4, 45456, -1, 0, 0, False) /* Create Staff of All Aspects (45456) for Shop */
      , (45485, 4, 45457, -1, 0, 0, False) /* Create Death's Grip Staff (45457) for Shop */
-     , (45485, 4, 45458, -1, 0, 0, False) /* Create  (45458) for Shop */
+     , (45485, 4, 45458, -1, 0, 0, False) /* Create Staff of Fettered Souls (45458) for Shop */
      , (45485, 4, 45459, -1, 0, 0, False) /* Create Spirit Shifting Staff (45459) for Shop */
      , (45485, 4, 45460, -1, 0, 0, False) /* Create Staff of Tendrils (45460) for Shop */
      , (45485, 4, 45461, -1, 0, 0, False) /* Create Brador's Frozen Eye (45461) for Shop */
@@ -102,7 +102,7 @@ VALUES (45485, 4, 45436, -1, 0, 0, False) /* Create Bearded Axe of Souia-Vey (45
      , (45485, 4, 45465, -1, 0, 0, False) /* Create Morrigan's Vanity (45465) for Shop */
      , (45485, 4, 45466, -1, 0, 0, False) /* Create Fist of Three Principles (45466) for Shop */
      , (45485, 4, 45467, -1, 0, 0, False) /* Create Hevelio's Half-Moon (45467) for Shop */
-     , (45485, 4, 45468, -1, 0, 0, False) /* Create  (45468) for Shop */
+     , (45485, 4, 45468, -1, 0, 0, False) /* Create Malachite Slasher (45468) for Shop */
      , (45485, 4, 45469, -1, 0, 0, False) /* Create Skullpuncher (45469) for Shop */
      , (45485, 4, 45470, -1, 0, 0, False) /* Create Steel Butterfly (45470) for Shop */;
 

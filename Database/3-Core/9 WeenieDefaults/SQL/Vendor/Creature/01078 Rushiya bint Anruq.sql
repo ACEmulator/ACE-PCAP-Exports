@@ -73,9 +73,9 @@ VALUES (1078,   1, 150, 0, 0) /* Strength */
      , (1078,   6,  75, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1078,   1,    10, 0, 0, 260) /* MaxHealth */
-     , (1078,   3,    10, 0, 0, 370) /* MaxStamina */
-     , (1078,   5,    10, 0, 0, 195) /* MaxMana */;
+VALUES (1078,   1,   200, 0, 0, 260) /* MaxHealth */
+     , (1078,   3,   250, 0, 0, 370) /* MaxStamina */
+     , (1078,   5,   120, 0, 0, 195) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1078, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
@@ -105,8 +105,8 @@ VALUES (1078, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (1078, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (1078, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (1078, 4,    47, -1, 0, 0, False) /* Create Leather Coat (47) for Shop */
-     , (1078, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
-     , (1078, 4,    50, -1, 0, 0, False) /* Create  (50) for Shop */
+     , (1078, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (1078, 4,    50, -1, 0, 0, False) /* Create Leather Cuirass (50) for Shop */
      , (1078, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
      , (1078, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
      , (1078, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
@@ -114,7 +114,7 @@ VALUES (1078, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (1078, 4,    81, -1, 0, 0, False) /* Create Leggings (81) for Shop */
      , (1078, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (1078, 4,    97, -1, 0, 0, False) /* Create Shirt (97) for Shop */
-     , (1078, 4,   102, -1, 0, 0, False) /* Create  (102) for Shop */
+     , (1078, 4,   102, -1, 0, 0, False) /* Create Leather Sleeves (102) for Shop */
      , (1078, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
      , (1078, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (1078, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
@@ -156,7 +156,7 @@ VALUES (1078, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (1078, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
      , (1078, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
      , (1078, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
-     , (1078, 4,   251, -1, 0, 0, False) /* Create  (251) for Shop */
+     , (1078, 4,   251, -1, 0, 0, False) /* Create Platter (251) for Shop */
      , (1078, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

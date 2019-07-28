@@ -73,9 +73,9 @@ VALUES (967,   1, 120, 0, 0) /* Strength */
      , (967,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (967,   1,    10, 0, 0, 240) /* MaxHealth */
-     , (967,   3,    10, 0, 0, 275) /* MaxStamina */
-     , (967,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (967,   1,   190, 0, 0, 240) /* MaxHealth */
+     , (967,   3,   175, 0, 0, 275) /* MaxStamina */
+     , (967,   5,    90, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (967, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
@@ -88,8 +88,8 @@ VALUES (967, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
      , (967, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (967, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (967, 4,    47, -1, 0, 0, False) /* Create Leather Coat (47) for Shop */
-     , (967, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
-     , (967, 4,    50, -1, 0, 0, False) /* Create  (50) for Shop */
+     , (967, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
+     , (967, 4,    50, -1, 0, 0, False) /* Create Leather Cuirass (50) for Shop */
      , (967, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
      , (967, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
      , (967, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
@@ -97,7 +97,7 @@ VALUES (967, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
      , (967, 4,    81, -1, 0, 0, False) /* Create Leggings (81) for Shop */
      , (967, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (967, 4,    97, -1, 0, 0, False) /* Create Shirt (97) for Shop */
-     , (967, 4,   102, -1, 0, 0, False) /* Create  (102) for Shop */
+     , (967, 4,   102, -1, 0, 0, False) /* Create Leather Sleeves (102) for Shop */
      , (967, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
      , (967, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
      , (967, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */

@@ -72,9 +72,9 @@ VALUES (2500,   1,  60, 0, 0) /* Strength */
      , (2500,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2500,   1,    10, 0, 0, 120) /* MaxHealth */
-     , (2500,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (2500,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (2500,   1,    80, 0, 0, 120) /* MaxHealth */
+     , (2500,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (2500,   5,    70, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2500, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
@@ -128,9 +128,9 @@ VALUES (2500, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2500, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (2500, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (2500, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (2500, 4,  5884, -1, 0, 0, False) /* Create  (5884) for Shop */
-     , (2500, 4,  5885, -1, 0, 0, False) /* Create  (5885) for Shop */
-     , (2500, 4,  5886, -1, 0, 0, False) /* Create  (5886) for Shop */;
+     , (2500, 4,  5884, -1, 0, 0, False) /* Create The Tremblant Party (5884) for Shop */
+     , (2500, 4,  5885, -1, 0, 0, False) /* Create The Tremblant Party (5885) for Shop */
+     , (2500, 4,  5886, -1, 0, 0, False) /* Create The Tremblant Party (5886) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2500, 67109560, 0, 24)

@@ -72,9 +72,9 @@ VALUES (30051,   1,  40, 0, 0) /* Strength */
      , (30051,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30051,   1,    10, 0, 0, 60) /* MaxHealth */
-     , (30051,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (30051,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (30051,   1,    40, 0, 0, 60) /* MaxHealth */
+     , (30051,   3,   100, 0, 0, 140) /* MaxStamina */
+     , (30051,   5,    30, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30051, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
@@ -97,7 +97,7 @@ VALUES (30051, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30051, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (30051, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (30051, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (30051, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (30051, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (30051, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
      , (30051, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
      , (30051, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */
@@ -120,9 +120,9 @@ VALUES (30051, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30051, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (30051, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (30051, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
-     , (30051, 4, 30958, -1, 0, 0, False) /* Create  (30958) for Shop */
-     , (30051, 4, 30959, -1, 0, 0, False) /* Create  (30959) for Shop */
-     , (30051, 4, 30957, -1, 0, 0, False) /* Create  (30957) for Shop */
+     , (30051, 4, 30958, -1, 0, 0, False) /* Create Forgotten Chasm (30958) for Shop */
+     , (30051, 4, 30959, -1, 0, 0, False) /* Create Ruins of Geth Tukora (30959) for Shop */
+     , (30051, 4, 30957, -1, 0, 0, False) /* Create Giant Mushrooms (30957) for Shop */
      , (30051, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (30051, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (30051, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */

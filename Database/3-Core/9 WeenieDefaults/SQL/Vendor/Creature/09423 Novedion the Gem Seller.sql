@@ -64,9 +64,9 @@ VALUES (9423,   1, 240, 0, 0) /* Strength */
      , (9423,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9423,   1,    10, 0, 0, 195) /* MaxHealth */
-     , (9423,   3,    10, 0, 0, 290) /* MaxStamina */
-     , (9423,   5,    10, 0, 0, 300) /* MaxMana */;
+VALUES (9423,   1,    90, 0, 0, 195) /* MaxHealth */
+     , (9423,   3,    80, 0, 0, 290) /* MaxStamina */
+     , (9423,   5,   130, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9423, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald (9425) for Shop */

@@ -52,9 +52,9 @@ VALUES (14800,   1, 300, 0, 0) /* Strength */
      , (14800,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14800,   1,    10, 0, 0, 1000) /* MaxHealth */
-     , (14800,   3,    10, 0, 0, 3000) /* MaxStamina */
-     , (14800,   5,    10, 0, 0, 800) /* MaxMana */;
+VALUES (14800,   1,   500, 0, 0, 1000) /* MaxHealth */
+     , (14800,   3,  2000, 0, 0, 3000) /* MaxStamina */
+     , (14800,   5,   500, 0, 0, 800) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14800, 9, 49241,  0, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for ContainTreasure */

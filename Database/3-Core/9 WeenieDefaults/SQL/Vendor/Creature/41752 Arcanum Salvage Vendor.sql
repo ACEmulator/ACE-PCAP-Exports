@@ -75,17 +75,17 @@ VALUES (41752,   1, 290, 0, 0) /* Strength */
      , (41752,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41752,   1,    10, 0, 0, 296) /* MaxHealth */
-     , (41752,   3,    10, 0, 0, 396) /* MaxStamina */
-     , (41752,   5,    10, 0, 0, 396) /* MaxMana */;
+VALUES (41752,   1,   196, 0, 0, 296) /* MaxHealth */
+     , (41752,   3,   196, 0, 0, 396) /* MaxStamina */
+     , (41752,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41752, 4, 41766, -1, 0, 0, False) /* Create  (41766) for Shop */
-     , (41752, 4, 41767, -1, 0, 0, False) /* Create  (41767) for Shop */
-     , (41752, 4, 41768, -1, 0, 0, False) /* Create  (41768) for Shop */
-     , (41752, 4, 41769, -1, 0, 0, False) /* Create  (41769) for Shop */
-     , (41752, 4, 41770, -1, 0, 0, False) /* Create  (41770) for Shop */
-     , (41752, 4, 41771, -1, 0, 0, False) /* Create  (41771) for Shop */;
+VALUES (41752, 4, 41766, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Amber (41766) for Shop */
+     , (41752, 4, 41767, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Diamond (41767) for Shop */
+     , (41752, 4, 41768, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Gromnie Hide (41768) for Shop */
+     , (41752, 4, 41769, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Pyreal (41769) for Shop */
+     , (41752, 4, 41770, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Ruby (41770) for Shop */
+     , (41752, 4, 41771, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Sapphire (41771) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41752, 67109551, 0, 24)

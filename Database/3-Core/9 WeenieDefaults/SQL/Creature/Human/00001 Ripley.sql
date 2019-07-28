@@ -77,9 +77,9 @@ VALUES (1,   1, 285, 0, 0) /* Strength */
      , (1,   6, 335, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1,   1,    10, 0, 0, 345) /* MaxHealth */
-     , (1,   3,    10, 0, 0, 368) /* MaxStamina */
-     , (1,   5,    10, 0, 0, 361) /* MaxMana */;
+VALUES (1,   1,   197, 0, 0, 345) /* MaxHealth */
+     , (1,   3,   201, 0, 0, 497) /* MaxStamina */
+     , (1,   5,   201, 0, 0, 536) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1, 2, 35805,  1, 0, 0, False) /* Create Fists of Stone (35805) for Wield */

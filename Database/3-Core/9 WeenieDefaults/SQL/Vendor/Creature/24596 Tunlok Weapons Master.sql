@@ -66,8 +66,8 @@ VALUES (24596,   1, 259, 0, 0) /* Strength */
      , (24596,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24596,   1,    10, 0, 0, 254) /* MaxHealth */
-     , (24596,   3,    10, 0, 0, 348) /* MaxStamina */
+VALUES (24596,   1,   165, 0, 0, 254) /* MaxHealth */
+     , (24596,   3,   170, 0, 0, 348) /* MaxStamina */
      , (24596,   5,    10, 0, 0, 35) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
@@ -97,7 +97,7 @@ VALUES (24596, 2, 23757,  1, 0, 0, False) /* Create Lugian Mace (23757) for Wiel
      , (24596, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
      , (24596, 4,   540, -1, 0, 0, False) /* Create Lugian Axe (540) for Shop */
      , (24596, 4,   543, -1, 0, 0, False) /* Create Lugian Mace (543) for Shop */
-     , (24596, 4,   541, -1, 0, 0, False) /* Create  (541) for Shop */
+     , (24596, 4,   541, -1, 0, 0, False) /* Create Lugian Club (541) for Shop */
      , (24596, 4,   544, -1, 0, 0, False) /* Create Lugian Morning Star (544) for Shop */
      , (24596, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (24596, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */

@@ -51,7 +51,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (31407, 8000, 3696833765) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31407,   1,    10, 0, 0, 600) /* MaxHealth */;
+VALUES (31407,   1,     0, 0, 0, 600) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31407, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */

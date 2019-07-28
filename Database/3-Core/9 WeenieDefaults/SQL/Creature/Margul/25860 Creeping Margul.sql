@@ -58,9 +58,9 @@ VALUES (25860,   1, 130, 0, 0) /* Strength */
      , (25860,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25860,   1,    10, 0, 0, 595) /* MaxHealth */
-     , (25860,   3,    10, 0, 0, 690) /* MaxStamina */
-     , (25860,   5,    10, 0, 0, 590) /* MaxMana */;
+VALUES (25860,   1,   500, 0, 0, 595) /* MaxHealth */
+     , (25860,   3,   500, 0, 0, 690) /* MaxStamina */
+     , (25860,   5,   400, 0, 0, 590) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25860, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

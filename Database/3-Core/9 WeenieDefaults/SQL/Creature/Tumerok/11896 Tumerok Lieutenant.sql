@@ -56,9 +56,9 @@ VALUES (11896,   1, 100, 0, 0) /* Strength */
      , (11896,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11896,   1,    10, 0, 0, 110) /* MaxHealth */
-     , (11896,   3,    10, 0, 0, 198) /* MaxStamina */
-     , (11896,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (11896,   1,    60, 0, 0, 110) /* MaxHealth */
+     , (11896,   3,   100, 0, 0, 200) /* MaxStamina */
+     , (11896,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11896, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */

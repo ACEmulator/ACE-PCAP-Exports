@@ -53,9 +53,9 @@ VALUES (34793,   1, 580, 0, 0) /* Strength */
      , (34793,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34793,   1,    10, 0, 0, 910) /* MaxHealth */
-     , (34793,   3,    10, 0, 0, 1520) /* MaxStamina */
-     , (34793,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (34793,   1,   260, 0, 0, 910) /* MaxHealth */
+     , (34793,   3,   220, 0, 0, 1520) /* MaxStamina */
+     , (34793,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34793, 2, 27876,  1, 0, 0, False) /* Create Muck Ball (27876) for Wield */

@@ -73,9 +73,9 @@ VALUES (650,   1, 100, 0, 0) /* Strength */
      , (650,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (650,   1,    10, 0, 0, 125) /* MaxHealth */
-     , (650,   3,    10, 0, 0, 160) /* MaxStamina */
-     , (650,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (650,   1,    90, 0, 0, 125) /* MaxHealth */
+     , (650,   3,    90, 0, 0, 160) /* MaxStamina */
+     , (650,   5,    30, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (650, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */

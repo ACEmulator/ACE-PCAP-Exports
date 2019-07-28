@@ -63,9 +63,9 @@ VALUES (6854,   1, 140, 0, 0) /* Strength */
      , (6854,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6854,   1,    10, 0, 0, 115) /* MaxHealth */
-     , (6854,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (6854,   5,    10, 0, 0, 440) /* MaxMana */;
+VALUES (6854,   1,    40, 0, 0, 115) /* MaxHealth */
+     , (6854,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (6854,   5,   250, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6854, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -176,12 +176,12 @@ VALUES (6854, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (6854, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (6854, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (6854, 4, 25950, -1, 0, 0, False) /* Create Disturbing Rumor (25950) for Shop */
-     , (6854, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (6854, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (6854, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (6854, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (6854, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (6854, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (6854, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (6854, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (6854, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (6854, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (6854, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (6854, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (6854, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
      , (6854, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (6854, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */

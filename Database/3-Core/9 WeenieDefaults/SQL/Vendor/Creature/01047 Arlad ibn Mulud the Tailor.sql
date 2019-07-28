@@ -72,9 +72,9 @@ VALUES (1047,   1, 110, 0, 0) /* Strength */
      , (1047,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1047,   1,    10, 0, 0, 145) /* MaxHealth */
-     , (1047,   3,    10, 0, 0, 190) /* MaxStamina */
-     , (1047,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (1047,   1,   100, 0, 0, 145) /* MaxHealth */
+     , (1047,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (1047,   5,   100, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1047, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */

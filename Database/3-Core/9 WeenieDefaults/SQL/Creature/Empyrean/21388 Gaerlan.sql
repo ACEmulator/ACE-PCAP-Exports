@@ -56,9 +56,9 @@ VALUES (21388,   1, 500, 0, 0) /* Strength */
      , (21388,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (21388,   1,    10, 0, 0, 8) /* MaxHealth */
-     , (21388,   3,    10, 0, 0, 993) /* MaxStamina */
-     , (21388,   5,    10, 0, 0, 2000) /* MaxMana */;
+VALUES (21388,   1,  9695, 0, 0, 10000) /* MaxHealth */
+     , (21388,   3,   390, 0, 0, 1000) /* MaxStamina */
+     , (21388,   5,  1500, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21388, 2, 22246,  1, 0, 0, False) /* Create Iasparailaun (22246) for Wield */;

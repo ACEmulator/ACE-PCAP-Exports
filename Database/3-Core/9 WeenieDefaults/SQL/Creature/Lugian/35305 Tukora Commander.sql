@@ -53,9 +53,9 @@ VALUES (35305,   1, 380, 0, 0) /* Strength */
      , (35305,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35305,   1,    10, 0, 0, 4670) /* MaxHealth */
-     , (35305,   3,    10, 0, 0, 6000) /* MaxStamina */
-     , (35305,   5,    10, 0, 0, 240) /* MaxMana */;
+VALUES (35305,   1,  4500, 0, 0, 4670) /* MaxHealth */
+     , (35305,   3,  5660, 0, 0, 6000) /* MaxStamina */
+     , (35305,   5,     0, 0, 0, 240) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35305, 2, 31250,  1, 0, 0, False) /* Create Lugian Axe (31250) for Wield */

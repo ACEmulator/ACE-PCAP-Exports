@@ -55,9 +55,9 @@ VALUES (25283,   1,   5, 0, 0) /* Strength */
      , (25283,   6,   1, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25283,   1,    10, 0, 0, 3) /* MaxHealth */
-     , (25283,   3,    10, 0, 0, 4) /* MaxStamina */
-     , (25283,   5,    10, 0, 0, 1) /* MaxMana */;
+VALUES (25283,   1,     1, 0, 0, 3) /* MaxHealth */
+     , (25283,   3,     0, 0, 0, 5) /* MaxStamina */
+     , (25283,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25283, 9,   262,  1, 0, 0, False) /* Create Chicken (262) for ContainTreasure */

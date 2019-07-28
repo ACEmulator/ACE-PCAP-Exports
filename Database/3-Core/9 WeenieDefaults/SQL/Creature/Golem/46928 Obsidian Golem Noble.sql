@@ -54,9 +54,9 @@ VALUES (46928,   1, 400, 0, 0) /* Strength */
      , (46928,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46928,   1,    10, 0, 0, 88000) /* MaxHealth */
-     , (46928,   3,    10, 0, 0, 67984) /* MaxStamina */
-     , (46928,   5,    10, 0, 0, 26200) /* MaxMana */;
+VALUES (46928,   1, 87700, 0, 0, 88000) /* MaxHealth */
+     , (46928,   3, 67400, 0, 0, 68000) /* MaxStamina */
+     , (46928,   5, 25910, 0, 0, 26200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46928, 9, 20426,  0, 0, 0, False) /* Create Aura of Atlan's Alacrity (20426) for ContainTreasure */;

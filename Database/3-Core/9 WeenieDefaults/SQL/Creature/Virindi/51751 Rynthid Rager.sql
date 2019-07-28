@@ -53,9 +53,9 @@ VALUES (51751,   1, 500, 0, 0) /* Strength */
      , (51751,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51751,   1,    10, 0, 0, 12000) /* MaxHealth */
-     , (51751,   3,    10, 0, 0, 5300) /* MaxStamina */
-     , (51751,   5,    10, 0, 0, 3900) /* MaxMana */;
+VALUES (51751,   1, 11750, 0, 0, 12000) /* MaxHealth */
+     , (51751,   3,  4800, 0, 0, 5300) /* MaxStamina */
+     , (51751,   5,  3500, 0, 0, 3900) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51751, 9, 31782,  0, 0, 0, False) /* Create Fire Spine Glaive (31782) for ContainTreasure */

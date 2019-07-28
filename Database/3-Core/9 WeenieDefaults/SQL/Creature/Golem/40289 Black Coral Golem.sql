@@ -56,9 +56,9 @@ VALUES (40289,   1, 290, 0, 0) /* Strength */
      , (40289,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40289,   1,    10, 0, 0, 1500) /* MaxHealth */
-     , (40289,   3,    10, 0, 0, 1500) /* MaxStamina */
-     , (40289,   5,    10, 0, 0, 1019) /* MaxMana */;
+VALUES (40289,   1,  1350, 0, 0, 1500) /* MaxHealth */
+     , (40289,   3,  1200, 0, 0, 1500) /* MaxStamina */
+     , (40289,   5,  1000, 0, 0, 1190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40289, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */

@@ -73,9 +73,9 @@ VALUES (1824,   1,  70, 0, 0) /* Strength */
      , (1824,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1824,   1,    10, 0, 0, 183) /* MaxHealth */
-     , (1824,   3,    10, 0, 0, 225) /* MaxStamina */
-     , (1824,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (1824,   1,   141, 0, 0, 183) /* MaxHealth */
+     , (1824,   3,   140, 0, 0, 225) /* MaxStamina */
+     , (1824,   5,   130, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1824, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -157,12 +157,12 @@ VALUES (1824, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (1824, 4,  1644, -1, 0, 0, False) /* Create Brown Taper (1644) for Shop */
      , (1824, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
      , (1824, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
-     , (1824, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (1824, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (1824, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (1824, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (1824, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (1824, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (1824, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (1824, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (1824, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (1824, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (1824, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (1824, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (1824, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (1824, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (1824, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */

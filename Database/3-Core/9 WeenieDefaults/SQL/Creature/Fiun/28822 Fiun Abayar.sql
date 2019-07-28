@@ -56,9 +56,9 @@ VALUES (28822,   1, 190, 0, 0) /* Strength */
      , (28822,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28822,   1,    10, 0, 0, 2080) /* MaxHealth */
-     , (28822,   3,    10, 0, 0, 2160) /* MaxStamina */
-     , (28822,   5,    10, 0, 0, 2160) /* MaxMana */;
+VALUES (28822,   1,  2000, 0, 0, 2080) /* MaxHealth */
+     , (28822,   3,  2000, 0, 0, 2160) /* MaxStamina */
+     , (28822,   5,  2000, 0, 0, 2160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28822, 9, 30591,  0, 0, 0, False) /* Create Partizan (30591) for ContainTreasure */

@@ -56,9 +56,9 @@ VALUES (4244,   1, 170, 0, 0) /* Strength */
      , (4244,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4244,   1,    10, 0, 0, 490) /* MaxHealth */
-     , (4244,   3,    10, 0, 0, 680) /* MaxStamina */
-     , (4244,   5,    10, 0, 0, 220) /* MaxMana */;
+VALUES (4244,   1,   400, 0, 0, 490) /* MaxHealth */
+     , (4244,   3,   500, 0, 0, 680) /* MaxStamina */
+     , (4244,   5,   100, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4244, 2, 22541,  1, 0, 0, False) /* Create Acid Spines (22541) for Wield */;

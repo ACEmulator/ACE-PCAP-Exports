@@ -72,9 +72,9 @@ VALUES (2498,   1,  95, 0, 0) /* Strength */
      , (2498,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2498,   1,    10, 0, 0, 175) /* MaxHealth */
-     , (2498,   3,    10, 0, 0, 300) /* MaxStamina */
-     , (2498,   5,    10, 0, 0, 190) /* MaxMana */;
+VALUES (2498,   1,   120, 0, 0, 175) /* MaxHealth */
+     , (2498,   3,   190, 0, 0, 300) /* MaxStamina */
+     , (2498,   5,   110, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2498, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -153,12 +153,12 @@ VALUES (2498, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2498, 4,  1644, -1, 0, 0, False) /* Create Brown Taper (1644) for Shop */
      , (2498, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
      , (2498, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
-     , (2498, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (2498, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (2498, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (2498, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (2498, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (2498, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (2498, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (2498, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (2498, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (2498, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (2498, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (2498, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (2498, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (2498, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (2498, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
@@ -190,36 +190,36 @@ VALUES (2498, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2498, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (2498, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (2498, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (2498, 4, 19401, -1, 0, 0, False) /* Create  (19401) for Shop */
+     , (2498, 4, 19401, -1, 0, 0, False) /* Create Light Weapons Glyph (19401) for Shop */
      , (2498, 4, 19405, -1, 0, 0, False) /* Create Finesse Weapons Glyph (19405) for Shop */
      , (2498, 4, 19409, -1, 0, 0, False) /* Create Heavy Weapons Glyph (19409) for Shop */
      , (2498, 4, 19402, -1, 0, 0, False) /* Create Missile Weapons Glyph (19402) for Shop */
      , (2498, 4, 19410, -1, 0, 0, False) /* Create Magic Glyph (19410) for Shop */
      , (2498, 4, 41619, -1, 0, 0, False) /* Create Two Handed Weapons Glyph (41619) for Shop */
-     , (2498, 4, 21972, -1, 0, 0, False) /* Create  (21972) for Shop */
+     , (2498, 4, 21972, -1, 0, 0, False) /* Create Atlatl Glyph (21972) for Shop */
      , (2498, 4,  6322, -1, 0, 0, False) /* Create Axe Glyph (6322) for Shop */
      , (2498, 4, 21973, -1, 0, 0, False) /* Create Bow Glyph (21973) for Shop */
      , (2498, 4,  6323, -1, 0, 0, False) /* Create Claw Glyph (6323) for Shop */
      , (2498, 4, 21974, -1, 0, 0, False) /* Create Crossbow Glyph (21974) for Shop */
      , (2498, 4,  6324, -1, 0, 0, False) /* Create Dagger Glyph (6324) for Shop */
-     , (2498, 4,  6325, -1, 0, 0, False) /* Create  (6325) for Shop */
-     , (2498, 4,  6326, -1, 0, 0, False) /* Create  (6326) for Shop */
+     , (2498, 4,  6325, -1, 0, 0, False) /* Create Mace Glyph (6325) for Shop */
+     , (2498, 4,  6326, -1, 0, 0, False) /* Create Spear Glyph (6326) for Shop */
      , (2498, 4,  6327, -1, 0, 0, False) /* Create Staff Glyph (6327) for Shop */
      , (2498, 4,  6328, -1, 0, 0, False) /* Create Sword Glyph (6328) for Shop */
-     , (2498, 4, 41618, -1, 0, 0, False) /* Create  (41618) for Shop */
+     , (2498, 4, 41618, -1, 0, 0, False) /* Create Two Handed Spear Glyph (41618) for Shop */
      , (2498, 4, 21346, -1, 0, 0, False) /* Create Fletching Tool Glyph (21346) for Shop */
-     , (2498, 4, 46265, -1, 0, 0, False) /* Create  (46265) for Shop */
+     , (2498, 4, 46265, -1, 0, 0, False) /* Create Weeping Atlatl Cast (46265) for Shop */
      , (2498, 4, 46267, -1, 0, 0, False) /* Create Weeping Bow Cast (46267) for Shop */
-     , (2498, 4, 46268, -1, 0, 0, False) /* Create  (46268) for Shop */
-     , (2498, 4, 46266, -1, 0, 0, False) /* Create  (46266) for Shop */
-     , (2498, 4, 46269, -1, 0, 0, False) /* Create  (46269) for Shop */
-     , (2498, 4, 46270, -1, 0, 0, False) /* Create  (46270) for Shop */
+     , (2498, 4, 46268, -1, 0, 0, False) /* Create Weeping Crossbow Cast (46268) for Shop */
+     , (2498, 4, 46266, -1, 0, 0, False) /* Create Weeping Axe Cast (46266) for Shop */
+     , (2498, 4, 46269, -1, 0, 0, False) /* Create Weeping Dagger Cast (46269) for Shop */
+     , (2498, 4, 46270, -1, 0, 0, False) /* Create Weeping Claw Cast (46270) for Shop */
      , (2498, 4, 46271, -1, 0, 0, False) /* Create Weeping Mace Cast (46271) for Shop */
-     , (2498, 4, 46272, -1, 0, 0, False) /* Create  (46272) for Shop */
-     , (2498, 4, 46273, -1, 0, 0, False) /* Create  (46273) for Shop */
-     , (2498, 4, 46274, -1, 0, 0, False) /* Create  (46274) for Shop */
-     , (2498, 4, 46275, -1, 0, 0, False) /* Create  (46275) for Shop */
-     , (2498, 4, 46276, -1, 0, 0, False) /* Create  (46276) for Shop */
+     , (2498, 4, 46272, -1, 0, 0, False) /* Create Weeping Spear Cast (46272) for Shop */
+     , (2498, 4, 46273, -1, 0, 0, False) /* Create Weeping Staff Cast (46273) for Shop */
+     , (2498, 4, 46274, -1, 0, 0, False) /* Create Weeping Sword Cast (46274) for Shop */
+     , (2498, 4, 46275, -1, 0, 0, False) /* Create Weeping Two Handed Spear Cast (46275) for Shop */
+     , (2498, 4, 46276, -1, 0, 0, False) /* Create Weeping Wand Cast (46276) for Shop */
      , (2498, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
      , (2498, 4,   690, -1, 0, 0, False) /* Create Pyreal Scarab (690) for Shop */
      , (2498, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */;

@@ -60,9 +60,9 @@ VALUES (25969,   1, 210, 0, 0) /* Strength */
      , (25969,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25969,   1,    10, 0, 0, 220) /* MaxHealth */
-     , (25969,   3,    10, 0, 0, 320) /* MaxStamina */
-     , (25969,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (25969,   1,   150, 0, 0, 220) /* MaxHealth */
+     , (25969,   3,   180, 0, 0, 320) /* MaxStamina */
+     , (25969,   5,    50, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25969, 2, 23710,  1, 0, 0, False) /* Create Yaoji (23710) for Wield */

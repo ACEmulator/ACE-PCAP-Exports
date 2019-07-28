@@ -55,9 +55,9 @@ VALUES (7345,   1, 170, 0, 0) /* Strength */
      , (7345,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7345,   1,    10, 0, 0, 165) /* MaxHealth */
-     , (7345,   3,    10, 0, 0, 290) /* MaxStamina */
-     , (7345,   5,    10, 0, 0, 38) /* MaxMana */;
+VALUES (7345,   1,    90, 0, 0, 165) /* MaxHealth */
+     , (7345,   3,   140, 0, 0, 290) /* MaxStamina */
+     , (7345,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7345, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */

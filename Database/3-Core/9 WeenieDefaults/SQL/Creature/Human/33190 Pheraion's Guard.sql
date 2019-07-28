@@ -61,9 +61,9 @@ VALUES (33190,   1, 315, 0, 0) /* Strength */
      , (33190,   6, 146, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33190,   1,    10, 0, 0, 293) /* MaxHealth */
-     , (33190,   3,    10, 0, 0, 1244) /* MaxStamina */
-     , (33190,   5,    10, 0, 0, 146) /* MaxMana */;
+VALUES (33190,   1,   171, 0, 0, 293) /* MaxHealth */
+     , (33190,   3,  1000, 0, 0, 1245) /* MaxStamina */
+     , (33190,   5,     0, 0, 0, 146) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33190, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */

@@ -56,9 +56,9 @@ VALUES (36443,   1, 232, 0, 0) /* Strength */
      , (36443,   6, 308, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36443,   1,    10, 0, 0, 3300) /* MaxHealth */
-     , (36443,   3,    10, 0, 0, 4246) /* MaxStamina */
-     , (36443,   5,    10, 0, 0, 428) /* MaxMana */;
+VALUES (36443,   1,  3176, 0, 0, 3300) /* MaxHealth */
+     , (36443,   3,  4000, 0, 0, 4248) /* MaxStamina */
+     , (36443,   5,   120, 0, 0, 428) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36443, 2, 36436,  1, 0, 0, False) /* Create Harvester's Blade (36436) for Wield */

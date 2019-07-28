@@ -52,9 +52,9 @@ VALUES (30447,   1, 320, 0, 0) /* Strength */
      , (30447,   6, 365, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30447,   1,    10, 0, 0, 505) /* MaxHealth */
-     , (30447,   3,    10, 0, 0, 570) /* MaxStamina */
-     , (30447,   5,    10, 0, 0, 565) /* MaxMana */;
+VALUES (30447,   1,   370, 0, 0, 505) /* MaxHealth */
+     , (30447,   3,   300, 0, 0, 570) /* MaxStamina */
+     , (30447,   5,   200, 0, 0, 565) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30447, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */

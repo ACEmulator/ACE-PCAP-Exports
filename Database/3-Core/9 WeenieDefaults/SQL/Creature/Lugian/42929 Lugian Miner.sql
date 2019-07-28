@@ -61,9 +61,9 @@ VALUES (42929,   1, 400, 0, 0) /* Strength */
      , (42929,   6, 270, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42929,   1,    10, 0, 0, 380) /* MaxHealth */
-     , (42929,   3,    10, 0, 0, 460) /* MaxStamina */
-     , (42929,   5,    10, 0, 0, 310) /* MaxMana */;
+VALUES (42929,   1,   200, 0, 0, 380) /* MaxHealth */
+     , (42929,   3,   100, 0, 0, 460) /* MaxStamina */
+     , (42929,   5,    40, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42929, 2, 23754,  1, 0, 0, False) /* Create Lugian Hammer (23754) for Wield */;

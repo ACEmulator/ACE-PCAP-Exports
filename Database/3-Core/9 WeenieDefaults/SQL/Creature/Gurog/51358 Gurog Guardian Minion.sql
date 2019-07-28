@@ -55,9 +55,9 @@ VALUES (51358,   1, 530, 0, 0) /* Strength */
      , (51358,   6, 400, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51358,   1,    10, 0, 0, 1750) /* MaxHealth */
-     , (51358,   3,    10, 0, 0, 3980) /* MaxStamina */
-     , (51358,   5,    10, 0, 0, 1400) /* MaxMana */;
+VALUES (51358,   1,  1510, 0, 0, 1750) /* MaxHealth */
+     , (51358,   3,  3500, 0, 0, 3980) /* MaxStamina */
+     , (51358,   5,  1000, 0, 0, 1400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51358, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */

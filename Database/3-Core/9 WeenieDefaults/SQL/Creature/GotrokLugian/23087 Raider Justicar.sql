@@ -53,9 +53,9 @@ VALUES (23087,   1, 380, 0, 0) /* Strength */
      , (23087,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23087,   1,    10, 0, 0, 10000) /* MaxHealth */
-     , (23087,   3,    10, 0, 0, 6000) /* MaxStamina */
-     , (23087,   5,    10, 0, 0, 240) /* MaxMana */;
+VALUES (23087,   1,  9830, 0, 0, 10000) /* MaxHealth */
+     , (23087,   3,  5660, 0, 0, 6000) /* MaxStamina */
+     , (23087,   5,     0, 0, 0, 240) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23087, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */

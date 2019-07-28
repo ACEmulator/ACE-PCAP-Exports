@@ -57,9 +57,9 @@ VALUES (31913,   1, 400, 0, 0) /* Strength */
      , (31913,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31913,   1,    10, 0, 0, 2700) /* MaxHealth */
-     , (31913,   3,    10, 0, 0, 3100) /* MaxStamina */
-     , (31913,   5,    10, 0, 0, 520) /* MaxMana */;
+VALUES (31913,   1,  2500, 0, 0, 2700) /* MaxHealth */
+     , (31913,   3,  2700, 0, 0, 3100) /* MaxStamina */
+     , (31913,   5,   150, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31913, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20530) for ContainTreasure */

@@ -72,8 +72,8 @@ VALUES (22720,   1,  70, 0, 0) /* Strength */
      , (22720,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22720,   1,    10, 0, 0, 85) /* MaxHealth */
-     , (22720,   3,    10, 0, 0, 120) /* MaxStamina */
+VALUES (22720,   1,    50, 0, 0, 85) /* MaxHealth */
+     , (22720,   3,    50, 0, 0, 120) /* MaxStamina */
      , (22720,   5,    10, 0, 0, 35) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
@@ -84,7 +84,7 @@ VALUES (22720, 4, 22637, -1, 0, 0, False) /* Create Refreshing Umbrella Drink (2
      , (22720, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch (22857) for Shop */
      , (22720, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (22720, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (22720, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
+     , (22720, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
      , (22720, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (22720, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (22720, 4, 45033, -1, 0, 0, False) /* Create Hoory Mattekar Over-robe Crate (45033) for Shop */;

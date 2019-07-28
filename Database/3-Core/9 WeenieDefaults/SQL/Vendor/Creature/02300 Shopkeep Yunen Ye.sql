@@ -72,9 +72,9 @@ VALUES (2300,   1,  70, 0, 0) /* Strength */
      , (2300,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2300,   1,    10, 0, 0, 143) /* MaxHealth */
-     , (2300,   3,    10, 0, 0, 195) /* MaxStamina */
-     , (2300,   5,    10, 0, 0, 115) /* MaxMana */;
+VALUES (2300,   1,   101, 0, 0, 143) /* MaxHealth */
+     , (2300,   3,   110, 0, 0, 195) /* MaxStamina */
+     , (2300,   5,    70, 0, 0, 115) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2300, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
@@ -101,7 +101,7 @@ VALUES (2300, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2300, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (2300, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (2300, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (2300, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (2300, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (2300, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (2300, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (2300, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */

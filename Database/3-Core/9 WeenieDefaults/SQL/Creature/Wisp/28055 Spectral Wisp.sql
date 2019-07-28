@@ -54,9 +54,9 @@ VALUES (28055,   1, 200, 0, 0) /* Strength */
      , (28055,   6, 420, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28055,   1,    10, 0, 0, 390) /* MaxHealth */
-     , (28055,   3,    10, 0, 0, 580) /* MaxStamina */
-     , (28055,   5,    10, 0, 0, 520) /* MaxMana */;
+VALUES (28055,   1,   200, 0, 0, 390) /* MaxHealth */
+     , (28055,   3,   200, 0, 0, 580) /* MaxStamina */
+     , (28055,   5,   100, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28055, 9, 20501,  0, 0, 0, False) /* Create Scroll of Jibril's Boon (20501) for ContainTreasure */

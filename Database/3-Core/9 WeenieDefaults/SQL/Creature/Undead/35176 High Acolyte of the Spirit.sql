@@ -55,9 +55,9 @@ VALUES (35176,   1, 400, 0, 0) /* Strength */
      , (35176,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35176,   1,    10, 0, 0, 150000) /* MaxHealth */
-     , (35176,   3,    10, 0, 0, 5000) /* MaxStamina */
-     , (35176,   5,    10, 0, 0, 1000) /* MaxMana */;
+VALUES (35176,   1, 149800, 0, 0, 150000) /* MaxHealth */
+     , (35176,   3,  4600, 0, 0, 5000) /* MaxStamina */
+     , (35176,   5,   500, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35176, 9, 40688,  0, 0, 0, False) /* Create Olthoi Helm (40688) for ContainTreasure */

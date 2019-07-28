@@ -57,9 +57,9 @@ VALUES (21170,   1, 120, 0, 0) /* Strength */
      , (21170,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (21170,   1,    10, 0, 0, 220) /* MaxHealth */
-     , (21170,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (21170,   5,    10, 0, 0, 360) /* MaxMana */;
+VALUES (21170,   1,   150, 0, 0, 220) /* MaxHealth */
+     , (21170,   3,   200, 0, 0, 340) /* MaxStamina */
+     , (21170,   5,   200, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21170, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */

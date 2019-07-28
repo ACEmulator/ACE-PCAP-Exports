@@ -72,9 +72,9 @@ VALUES (675,   1,  60, 0, 0) /* Strength */
      , (675,   6,  65, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (675,   1,    10, 0, 0, 85) /* MaxHealth */
-     , (675,   3,    10, 0, 0, 120) /* MaxStamina */
-     , (675,   5,    10, 0, 0, 135) /* MaxMana */;
+VALUES (675,   1,    50, 0, 0, 85) /* MaxHealth */
+     , (675,   3,    50, 0, 0, 120) /* MaxStamina */
+     , (675,   5,    70, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (675, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
@@ -159,26 +159,26 @@ VALUES (675, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (675, 4,  8331, -1, 0, 0, False) /* Create Silver Pea (8331) for Shop */
      , (675, 4,  8294, -1, 0, 0, False) /* Create Hyssop Pea (8294) for Shop */
      , (675, 4,  8295, -1, 0, 0, False) /* Create Mandrake Pea (8295) for Shop */
-     , (675, 4,  8298, -1, 0, 0, False) /* Create  (8298) for Shop */
+     , (675, 4,  8298, -1, 0, 0, False) /* Create Saffron Pea (8298) for Shop */
      , (675, 4,  8287, -1, 0, 0, False) /* Create Damiana Pea (8287) for Shop */
-     , (675, 4,  8296, -1, 0, 0, False) /* Create  (8296) for Shop */
+     , (675, 4,  8296, -1, 0, 0, False) /* Create Mugwort Pea (8296) for Shop */
      , (675, 4,  8285, -1, 0, 0, False) /* Create Bistort Pea (8285) for Shop */
-     , (675, 4,  8300, -1, 0, 0, False) /* Create  (8300) for Shop */
+     , (675, 4,  8300, -1, 0, 0, False) /* Create Wormwood Pea (8300) for Shop */
      , (675, 4,  8284, -1, 0, 0, False) /* Create Amaranth Pea (8284) for Shop */
      , (675, 4,  8291, -1, 0, 0, False) /* Create Ginseng Pea (8291) for Shop */
      , (675, 4,  8292, -1, 0, 0, False) /* Create Hawthorn Pea (8292) for Shop */
-     , (675, 4,  8289, -1, 0, 0, False) /* Create  (8289) for Shop */
-     , (675, 4,  8290, -1, 0, 0, False) /* Create  (8290) for Shop */
+     , (675, 4,  8289, -1, 0, 0, False) /* Create Eyebright Pea (8289) for Shop */
+     , (675, 4,  8290, -1, 0, 0, False) /* Create Frankincense Pea (8290) for Shop */
      , (675, 4,  8288, -1, 0, 0, False) /* Create Dragonsblood Pea (8288) for Shop */
      , (675, 4,  8293, -1, 0, 0, False) /* Create Henbane Pea (8293) for Shop */
      , (675, 4,  8286, -1, 0, 0, False) /* Create Comfrey Pea (8286) for Shop */
      , (675, 4,  8301, -1, 0, 0, False) /* Create Yarrow Pea (8301) for Shop */
-     , (675, 4,  8299, -1, 0, 0, False) /* Create  (8299) for Shop */
-     , (675, 4,  8297, -1, 0, 0, False) /* Create  (8297) for Shop */
+     , (675, 4,  8299, -1, 0, 0, False) /* Create Vervain Pea (8299) for Shop */
+     , (675, 4,  8297, -1, 0, 0, False) /* Create Myrrh Pea (8297) for Shop */
      , (675, 4,  8314, -1, 0, 0, False) /* Create Powdered Agate Pea (8314) for Shop */
      , (675, 4,  8315, -1, 0, 0, False) /* Create Powdered Amber Pea (8315) for Shop */
      , (675, 4,  8316, -1, 0, 0, False) /* Create Powdered Azurite Pea (8316) for Shop */
-     , (675, 4,  8317, -1, 0, 0, False) /* Create  (8317) for Shop */
+     , (675, 4,  8317, -1, 0, 0, False) /* Create Powdered Bloodstone Pea (8317) for Shop */
      , (675, 4,  8318, -1, 0, 0, False) /* Create Powdered Carnelian Pea (8318) for Shop */
      , (675, 4,  8319, -1, 0, 0, False) /* Create Powdered Hematite Pea (8319) for Shop */
      , (675, 4,  8320, -1, 0, 0, False) /* Create Powdered Lapis Lazuli Pea (8320) for Shop */
@@ -209,7 +209,7 @@ VALUES (675, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (675, 4,  8333, -1, 0, 0, False) /* Create Ashwood Pea (8333) for Shop */
      , (675, 4,  8338, -1, 0, 0, False) /* Create Elder Pea (8338) for Shop */
      , (675, 4,  8343, -1, 0, 0, False) /* Create Rowan Pea (8343) for Shop */
-     , (675, 4,  8344, -1, 0, 0, False) /* Create  (8344) for Shop */
+     , (675, 4,  8344, -1, 0, 0, False) /* Create Willow Pea (8344) for Shop */
      , (675, 4,  8336, -1, 0, 0, False) /* Create Cedar Pea (8336) for Shop */
      , (675, 4,  8341, -1, 0, 0, False) /* Create Oak Pea (8341) for Shop */
      , (675, 4,  8339, -1, 0, 0, False) /* Create Hazel Pea (8339) for Shop */
@@ -235,7 +235,7 @@ VALUES (675, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (675, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
      , (675, 4,  6062, -1, 0, 0, False) /* Create Faran Creature Apprentice Robe (6062) for Shop */
      , (675, 4,  6065, -1, 0, 0, False) /* Create Faran Item Apprentice Robe (6065) for Shop */
-     , (675, 4,  6068, -1, 0, 0, False) /* Create  (6068) for Shop */
+     , (675, 4,  6068, -1, 0, 0, False) /* Create Faran Life Apprentice Robe (6068) for Shop */
      , (675, 4,  6071, -1, 0, 0, False) /* Create Faran War Apprentice Robe (6071) for Shop */
      , (675, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
      , (675, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
@@ -244,12 +244,12 @@ VALUES (675, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (675, 4,  8283, -1, 0, 0, False) /* Create Splitting Tool (8283) for Shop */
      , (675, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (675, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (675, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (675, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (675, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (675, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (675, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (675, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (675, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (675, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (675, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (675, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (675, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (675, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (675, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (675, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (675, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -264,25 +264,25 @@ VALUES (675, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (675, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (675, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (675, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (675, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (675, 4,  5583, -1, 0, 0, False) /* Create  (5583) for Shop */
-     , (675, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (675, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (675, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (675, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (675, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (675, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (675, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (675, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (675, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (675, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (675, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (675, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy (8135) for Shop */
-     , (675, 4,  6416, -1, 0, 0, False) /* Create  (6416) for Shop */
-     , (675, 4,  5601, -1, 0, 0, False) /* Create  (5601) for Shop */
-     , (675, 4,  5674, -1, 0, 0, False) /* Create  (5674) for Shop */
+     , (675, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone (6416) for Shop */
+     , (675, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
+     , (675, 4,  5674, -1, 0, 0, False) /* Create Of Lord Cambarth (5674) for Shop */
      , (675, 4,  5147, -1, 0, 0, False) /* Create Return to Frore (5147) for Shop */
-     , (675, 4,  6421, -1, 0, 0, False) /* Create  (6421) for Shop */
-     , (675, 4,  6420, -1, 0, 0, False) /* Create  (6420) for Shop */
+     , (675, 4,  6421, -1, 0, 0, False) /* Create The Lost City of Frore (6421) for Shop */
+     , (675, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span (6420) for Shop */
      , (675, 4,  6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems (6630) for Shop */
-     , (675, 4,  7936, -1, 0, 0, False) /* Create  (7936) for Shop */
-     , (675, 4,  8397, -1, 0, 0, False) /* Create  (8397) for Shop */
+     , (675, 4,  7936, -1, 0, 0, False) /* Create Aliester's Corollary (7936) for Shop */
+     , (675, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core (8397) for Shop */
      , (675, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (675, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */;
+     , (675, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (675, 67109561, 0, 24)

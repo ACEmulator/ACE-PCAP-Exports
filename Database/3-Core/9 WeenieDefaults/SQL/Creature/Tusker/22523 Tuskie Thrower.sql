@@ -56,9 +56,9 @@ VALUES (22523,   1, 210, 0, 0) /* Strength */
      , (22523,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22523,   1,    10, 0, 0, 125) /* MaxHealth */
-     , (22523,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (22523,   5,    10, 0, 0, 30) /* MaxMana */;
+VALUES (22523,   1,    55, 0, 0, 125) /* MaxHealth */
+     , (22523,   3,   190, 0, 0, 330) /* MaxStamina */
+     , (22523,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22523, 2, 22548,  1, 0, 0, False) /* Create Coconut (22548) for Wield */;

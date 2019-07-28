@@ -57,9 +57,9 @@ VALUES (33804,   1, 145, 0, 0) /* Strength */
      , (33804,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33804,   1,    10, 0, 0, 88) /* MaxHealth */
-     , (33804,   3,    10, 0, 0, 265) /* MaxStamina */
-     , (33804,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (33804,   1,    21, 0, 0, 88) /* MaxHealth */
+     , (33804,   3,   130, 0, 0, 265) /* MaxStamina */
+     , (33804,   5,    40, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33804, 9,  5544,  0, 0, 0, False) /* Create Scroll of Monster Attunement Self III (5544) for ContainTreasure */

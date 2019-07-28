@@ -57,7 +57,7 @@ VALUES (618,   1,  20, 0, 0) /* Strength */
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (618,   1,    10, 0, 0, 20) /* MaxHealth */
      , (618,   3,    10, 0, 0, 30) /* MaxStamina */
-     , (618,   5,    10, 0, 0, 20) /* MaxMana */;
+     , (618,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (618, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */

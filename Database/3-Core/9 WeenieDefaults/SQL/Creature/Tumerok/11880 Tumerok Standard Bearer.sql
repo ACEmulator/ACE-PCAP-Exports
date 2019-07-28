@@ -56,9 +56,9 @@ VALUES (11880,   1, 110, 0, 0) /* Strength */
      , (11880,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11880,   1,    10, 0, 0, 113) /* MaxHealth */
-     , (11880,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (11880,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (11880,   1,    51, 0, 0, 113) /* MaxHealth */
+     , (11880,   3,    85, 0, 0, 210) /* MaxStamina */
+     , (11880,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11880, 2, 11756,  1, 0, 0, False) /* Create Hafted Shreth Spear (11756) for Wield */

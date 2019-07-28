@@ -52,9 +52,9 @@ VALUES (201,   1, 150, 0, 0) /* Strength */
      , (201,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (201,   1,    10, 0, 0, 190) /* MaxHealth */
-     , (201,   3,    10, 0, 0, 350) /* MaxStamina */
-     , (201,   5,    10, 0, 0, 340) /* MaxMana */;
+VALUES (201,   1,   100, 0, 0, 190) /* MaxHealth */
+     , (201,   3,   170, 0, 0, 350) /* MaxStamina */
+     , (201,   5,   200, 0, 0, 340) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (201, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */

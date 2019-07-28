@@ -59,9 +59,9 @@ VALUES (37100,   1, 170, 0, 0) /* Strength */
      , (37100,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37100,   1,    10, 0, 0, 175) /* MaxHealth */
-     , (37100,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (37100,   5,    10, 0, 0, 10) /* MaxMana */;
+VALUES (37100,   1,   105, 0, 0, 175) /* MaxHealth */
+     , (37100,   3,   110, 0, 0, 250) /* MaxStamina */
+     , (37100,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37100, 2, 22796,  1, 0, 0, False) /* Create Bandit Short Sword (22796) for Wield */

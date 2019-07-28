@@ -53,9 +53,9 @@ VALUES (24951,   1, 370, 0, 0) /* Strength */
      , (24951,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24951,   1,    10, 0, 0, 565) /* MaxHealth */
-     , (24951,   3,    10, 0, 0, 579) /* MaxStamina */
-     , (24951,   5,    10, 0, 0, 220) /* MaxMana */;
+VALUES (24951,   1,   400, 0, 0, 565) /* MaxHealth */
+     , (24951,   3,   250, 0, 0, 580) /* MaxStamina */
+     , (24951,   5,     0, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24951, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */

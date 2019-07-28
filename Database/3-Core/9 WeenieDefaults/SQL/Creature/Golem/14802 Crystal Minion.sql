@@ -55,8 +55,8 @@ VALUES (14802,   1, 300, 0, 0) /* Strength */
      , (14802,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (14802,   1,    10, 0, 0, 350) /* MaxHealth */
-     , (14802,   3,    10, 0, 0, 248) /* MaxStamina */
+VALUES (14802,   1,   250, 0, 0, 350) /* MaxHealth */
+     , (14802,   3,    50, 0, 0, 250) /* MaxStamina */
      , (14802,   5,    10, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

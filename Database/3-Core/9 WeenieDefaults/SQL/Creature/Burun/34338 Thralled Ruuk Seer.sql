@@ -56,9 +56,9 @@ VALUES (34338,   1, 180, 0, 0) /* Strength */
      , (34338,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34338,   1,    10, 0, 0, 340) /* MaxHealth */
-     , (34338,   3,    10, 0, 0, 450) /* MaxStamina */
-     , (34338,   5,    10, 0, 0, 420) /* MaxMana */;
+VALUES (34338,   1,   195, 0, 0, 340) /* MaxHealth */
+     , (34338,   3,   160, 0, 0, 450) /* MaxStamina */
+     , (34338,   5,   140, 0, 0, 420) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34338, 2, 26032,  1, 0, 0, False) /* Create Bone Dagger (26032) for Wield */

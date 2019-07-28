@@ -72,7 +72,7 @@ VALUES (8439,   1, 100, 0, 0) /* Strength */
      , (8439,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8439,   1,    10, 0, 0, 80) /* MaxHealth */
+VALUES (8439,   1,    20, 0, 0, 80) /* MaxHealth */
      , (8439,   3,    10, 0, 0, 130) /* MaxStamina */
      , (8439,   5,    10, 0, 0, 130) /* MaxMana */;
 
@@ -80,14 +80,14 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (8439, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (8439, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (8439, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (8439, 4,  5583, -1, 0, 0, False) /* Create  (5583) for Shop */
-     , (8439, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (8439, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (8439, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (8439, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (8439, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (8439, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (8439, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (8439, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (8439, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (8439, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (8439, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
-     , (8439, 4,  8638, -1, 0, 0, False) /* Create  (8638) for Shop */
+     , (8439, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
+     , (8439, 4,  8638, -1, 0, 0, False) /* Create The History of Kryst (8638) for Shop */
      , (8439, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (8439, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (8439, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

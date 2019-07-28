@@ -56,9 +56,9 @@ VALUES (24299,   1, 300, 0, 0) /* Strength */
      , (24299,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24299,   1,    10, 0, 0, 71) /* MaxHealth */
-     , (24299,   3,    10, 0, 0, 546) /* MaxStamina */
-     , (24299,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (24299,   1,   125, 0, 0, 275) /* MaxHealth */
+     , (24299,   3,   250, 0, 0, 550) /* MaxStamina */
+     , (24299,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24299, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */

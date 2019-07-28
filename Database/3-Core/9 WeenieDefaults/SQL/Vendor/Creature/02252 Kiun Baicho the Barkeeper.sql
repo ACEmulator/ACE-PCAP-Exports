@@ -72,9 +72,9 @@ VALUES (2252,   1,  85, 0, 0) /* Strength */
      , (2252,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2252,   1,    10, 0, 0, 133) /* MaxHealth */
-     , (2252,   3,    10, 0, 0, 170) /* MaxStamina */
-     , (2252,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (2252,   1,    96, 0, 0, 133) /* MaxHealth */
+     , (2252,   3,    95, 0, 0, 170) /* MaxStamina */
+     , (2252,   5,    55, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2252, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
@@ -89,7 +89,7 @@ VALUES (2252, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (2252, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (2252, 4,  2219, -1, 0, 0, False) /* Create Directions to Web Maze (2219) for Shop */
      , (2252, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions (4210) for Shop */
-     , (2252, 4, 28242, -1, 0, 0, False) /* Create  (28242) for Shop */
+     , (2252, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */
      , (2252, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

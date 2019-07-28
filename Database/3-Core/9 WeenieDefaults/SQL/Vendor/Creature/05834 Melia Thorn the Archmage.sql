@@ -72,9 +72,9 @@ VALUES (5834,   1,  50, 0, 0) /* Strength */
      , (5834,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5834,   1,    10, 0, 0, 110) /* MaxHealth */
-     , (5834,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (5834,   5,    10, 0, 0, 300) /* MaxMana */;
+VALUES (5834,   1,    80, 0, 0, 110) /* MaxHealth */
+     , (5834,   3,    80, 0, 0, 140) /* MaxStamina */
+     , (5834,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5834, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -167,12 +167,12 @@ VALUES (5834, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (5834, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (5834, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (5834, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (5834, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (5834, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (5834, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (5834, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (5834, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (5834, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (5834, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (5834, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (5834, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (5834, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (5834, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (5834, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (5834, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (5834, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (5834, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */

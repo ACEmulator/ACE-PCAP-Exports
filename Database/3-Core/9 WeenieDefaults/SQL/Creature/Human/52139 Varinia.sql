@@ -68,9 +68,9 @@ VALUES (52139,   1, 110, 0, 0) /* Strength */
      , (52139,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52139,   1,    10, 0, 0, 65) /* MaxHealth */
-     , (52139,   3,    10, 0, 0, 230) /* MaxStamina */
-     , (52139,   5,    10, 0, 0, 105) /* MaxMana */;
+VALUES (52139,   1,     5, 0, 0, 65) /* MaxHealth */
+     , (52139,   3,   110, 0, 0, 230) /* MaxStamina */
+     , (52139,   5,     5, 0, 0, 105) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52139, 2, 23356,  1, 0, 0, False) /* Create Sanguinary Aegis (23356) for Wield */;

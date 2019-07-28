@@ -55,9 +55,9 @@ VALUES (35440,   1,  70, 0, 0) /* Strength */
      , (35440,   6,  15, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35440,   1,    10, 0, 0, 42) /* MaxHealth */
-     , (35440,   3,    10, 0, 0, 80) /* MaxStamina */
-     , (35440,   5,    10, 0, 0, 15) /* MaxMana */;
+VALUES (35440,   1,    12, 0, 0, 42) /* MaxHealth */
+     , (35440,   3,    20, 0, 0, 80) /* MaxStamina */
+     , (35440,   5,     0, 0, 0, 15) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35440, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */

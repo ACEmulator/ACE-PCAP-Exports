@@ -55,9 +55,9 @@ VALUES (35123,   1, 350, 0, 0) /* Strength */
      , (35123,   6, 340, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35123,   1,    10, 0, 0, 645) /* MaxHealth */
-     , (35123,   3,    10, 0, 0, 290) /* MaxStamina */
-     , (35123,   5,    10, 0, 0, 690) /* MaxMana */;
+VALUES (35123,   1,   500, 0, 0, 645) /* MaxHealth */
+     , (35123,   3,     0, 0, 0, 290) /* MaxStamina */
+     , (35123,   5,   350, 0, 0, 690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35123, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */

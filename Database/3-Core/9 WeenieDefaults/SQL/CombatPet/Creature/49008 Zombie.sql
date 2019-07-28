@@ -57,9 +57,9 @@ VALUES (49008,   1, 210, 0, 0) /* Strength */
      , (49008,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49008,   1,    10, 0, 0, 1370) /* MaxHealth */
-     , (49008,   3,    10, 0, 0, 1740) /* MaxStamina */
-     , (49008,   5,    10, 0, 0, 1070) /* MaxMana */;
+VALUES (49008,   1,  1250, 0, 0, 1370) /* MaxHealth */
+     , (49008,   3,  1500, 0, 0, 1740) /* MaxStamina */
+     , (49008,   5,   900, 0, 0, 1070) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49008, 2, 48977,  1, 0, 0, False) /* Create Acid Hatchet (48977) for Wield */;

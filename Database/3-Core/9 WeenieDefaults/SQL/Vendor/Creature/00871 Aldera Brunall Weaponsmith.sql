@@ -64,7 +64,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (871, 8000, 2121588785) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (871,   1,    10, 0, 0, 83) /* MaxHealth */;
+VALUES (871,   1,     0, 0, 0, 83) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (871, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
@@ -88,7 +88,7 @@ VALUES (871, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (871, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (871, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (871, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (871, 4, 45683, -1, 0, 0, False) /* Create  (45683) for Shop */
+     , (871, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (871, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

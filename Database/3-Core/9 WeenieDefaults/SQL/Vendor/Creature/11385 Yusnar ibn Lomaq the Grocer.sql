@@ -72,20 +72,20 @@ VALUES (11385,   1,  50, 0, 0) /* Strength */
      , (11385,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11385,   1,    10, 0, 0, 73) /* MaxHealth */
-     , (11385,   3,    10, 0, 0, 115) /* MaxStamina */
-     , (11385,   5,    10, 0, 0, 65) /* MaxMana */;
+VALUES (11385,   1,    51, 0, 0, 73) /* MaxHealth */
+     , (11385,   3,    70, 0, 0, 115) /* MaxStamina */
+     , (11385,   5,    45, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11385, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (11385, 4,  5584, -1, 0, 0, False) /* Create  (5584) for Shop */
-     , (11385, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
+VALUES (11385, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (11385, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
+     , (11385, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
      , (11385, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
-     , (11385, 4,  5583, -1, 0, 0, False) /* Create  (5583) for Shop */
-     , (11385, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (11385, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (11385, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (11385, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (11385, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (11385, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (11385, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (11385, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (11385, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (11385, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (11385, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */

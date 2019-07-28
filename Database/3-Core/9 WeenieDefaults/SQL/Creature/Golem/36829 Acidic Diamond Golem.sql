@@ -56,9 +56,9 @@ VALUES (36829,   1, 250, 0, 0) /* Strength */
      , (36829,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36829,   1,    10, 0, 0, 555) /* MaxHealth */
-     , (36829,   3,    10, 0, 0, 470) /* MaxStamina */
-     , (36829,   5,    10, 0, 0, 425) /* MaxMana */;
+VALUES (36829,   1,   430, 0, 0, 555) /* MaxHealth */
+     , (36829,   3,   220, 0, 0, 470) /* MaxStamina */
+     , (36829,   5,   275, 0, 0, 425) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36829, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */

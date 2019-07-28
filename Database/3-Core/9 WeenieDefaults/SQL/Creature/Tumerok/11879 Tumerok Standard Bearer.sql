@@ -53,9 +53,9 @@ VALUES (11879,   1, 110, 0, 0) /* Strength */
      , (11879,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11879,   1,    10, 0, 0, 103) /* MaxHealth */
-     , (11879,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (11879,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (11879,   1,    41, 0, 0, 103) /* MaxHealth */
+     , (11879,   3,    85, 0, 0, 210) /* MaxStamina */
+     , (11879,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11879, 2, 11755,  1, 0, 0, False) /* Create Hafted Serpent Spear (11755) for Wield */

@@ -60,9 +60,9 @@ VALUES (43247,   1, 900, 0, 0) /* Strength */
      , (43247,   6, 890, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43247,   1,    10, 0, 0, 1625) /* MaxHealth */
-     , (43247,   3,    10, 0, 0, 1905) /* MaxStamina */
-     , (43247,   5,    10, 0, 0, 2100) /* MaxMana */;
+VALUES (43247,   1,  1200, 0, 0, 1625) /* MaxHealth */
+     , (43247,   3,  1055, 0, 0, 1905) /* MaxStamina */
+     , (43247,   5,  1210, 0, 0, 2100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43247, 2, 35295,  1, 0, 0, False) /* Create Shield of Perfect Light (35295) for Wield */

@@ -56,9 +56,9 @@ VALUES (27709,   1, 270, 0, 0) /* Strength */
      , (27709,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27709,   1,    10, 0, 0, 625) /* MaxHealth */
-     , (27709,   3,    10, 0, 0, 750) /* MaxStamina */
-     , (27709,   5,    10, 0, 0, 880) /* MaxMana */;
+VALUES (27709,   1,   500, 0, 0, 625) /* MaxHealth */
+     , (27709,   3,   500, 0, 0, 750) /* MaxStamina */
+     , (27709,   5,   710, 0, 0, 880) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27709, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */

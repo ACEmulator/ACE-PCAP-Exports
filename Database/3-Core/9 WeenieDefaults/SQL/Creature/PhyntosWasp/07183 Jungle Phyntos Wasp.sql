@@ -55,9 +55,9 @@ VALUES (7183,   1,  90, 0, 0) /* Strength */
      , (7183,   6,  75, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7183,   1,    10, 0, 0, 138) /* MaxHealth */
-     , (7183,   3,    10, 0, 0, 225) /* MaxStamina */
-     , (7183,   5,    10, 0, 0, 175) /* MaxMana */;
+VALUES (7183,   1,    81, 0, 0, 138) /* MaxHealth */
+     , (7183,   3,   110, 0, 0, 225) /* MaxStamina */
+     , (7183,   5,   100, 0, 0, 175) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7183, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */

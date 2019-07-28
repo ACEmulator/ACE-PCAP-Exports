@@ -63,9 +63,9 @@ VALUES (30049,   1, 150, 0, 0) /* Strength */
      , (30049,   6, 534, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30049,   1,    10, 0, 0, 200) /* MaxHealth */
-     , (30049,   3,    10, 0, 0, 270) /* MaxStamina */
-     , (30049,   5,    10, 0, 0, 654) /* MaxMana */;
+VALUES (30049,   1,   110, 0, 0, 200) /* MaxHealth */
+     , (30049,   3,    90, 0, 0, 270) /* MaxStamina */
+     , (30049,   5,   120, 0, 0, 654) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30049, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -159,12 +159,12 @@ VALUES (30049, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (30049, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
      , (30049, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (30049, 4,  9060, -1, 0, 0, False) /* Create Titan Mana Charge (9060) for Shop */
-     , (30049, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (30049, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (30049, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (30049, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (30049, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (30049, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (30049, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (30049, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (30049, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (30049, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (30049, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (30049, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (30049, 4, 28614, -1, 0, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */
      , (30049, 4, 28615, -1, 0, 0, False) /* Create Vestiri Robe (28615) for Shop */
      , (30049, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

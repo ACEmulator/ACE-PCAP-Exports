@@ -51,9 +51,9 @@ VALUES (43411,   1, 280, 0, 0) /* Strength */
      , (43411,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43411,   1,    10, 0, 0, 1100) /* MaxHealth */
-     , (43411,   3,    10, 0, 0, 1280) /* MaxStamina */
-     , (43411,   5,    10, 0, 0, 980) /* MaxMana */;
+VALUES (43411,   1,   960, 0, 0, 1100) /* MaxHealth */
+     , (43411,   3,  1000, 0, 0, 1280) /* MaxStamina */
+     , (43411,   5,   800, 0, 0, 980) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43411, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */

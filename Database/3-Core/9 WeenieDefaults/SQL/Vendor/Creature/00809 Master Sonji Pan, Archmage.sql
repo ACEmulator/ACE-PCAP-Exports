@@ -72,9 +72,9 @@ VALUES (809,   1,  90, 0, 0) /* Strength */
      , (809,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (809,   1,    10, 0, 0, 193) /* MaxHealth */
-     , (809,   3,    10, 0, 0, 285) /* MaxStamina */
-     , (809,   5,    10, 0, 0, 180) /* MaxMana */;
+VALUES (809,   1,   151, 0, 0, 193) /* MaxHealth */
+     , (809,   3,   200, 0, 0, 285) /* MaxStamina */
+     , (809,   5,   135, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (809, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
@@ -156,8 +156,8 @@ VALUES (809, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (809, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
      , (809, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (809, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
-     , (809, 4,  6064, -1, 0, 0, False) /* Create  (6064) for Shop */
-     , (809, 4,  6067, -1, 0, 0, False) /* Create  (6067) for Shop */
+     , (809, 4,  6064, -1, 0, 0, False) /* Create Suikan Creature Apprentice Robe (6064) for Shop */
+     , (809, 4,  6067, -1, 0, 0, False) /* Create Suikan Item Apprentice Robe (6067) for Shop */
      , (809, 4,  6070, -1, 0, 0, False) /* Create Suikan Life Apprentice Robe (6070) for Shop */
      , (809, 4,  6073, -1, 0, 0, False) /* Create Suikan War Apprentice Robe (6073) for Shop */
      , (809, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
@@ -174,9 +174,9 @@ VALUES (809, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (809, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (809, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
      , (809, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (809, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (809, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (809, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
+     , (809, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (809, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (809, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (809, 4, 26639, -1, 0, 0, False) /* Create Xarabydun Portal Summoning Gem (26639) for Shop */
      , (809, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (809, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */

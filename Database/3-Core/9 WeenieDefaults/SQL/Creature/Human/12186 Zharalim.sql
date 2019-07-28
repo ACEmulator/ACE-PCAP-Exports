@@ -61,9 +61,9 @@ VALUES (12186,   1, 150, 0, 0) /* Strength */
      , (12186,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12186,   1,    10, 0, 0, 220) /* MaxHealth */
-     , (12186,   3,    10, 0, 0, 260) /* MaxStamina */
-     , (12186,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (12186,   1,   140, 0, 0, 220) /* MaxHealth */
+     , (12186,   3,   100, 0, 0, 260) /* MaxStamina */
+     , (12186,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12186, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */

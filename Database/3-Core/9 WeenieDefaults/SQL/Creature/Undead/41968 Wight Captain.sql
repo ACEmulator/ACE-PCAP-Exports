@@ -50,7 +50,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (41968, 8000, 2629203837) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41968,   1,    10, 0, 0, 4120) /* MaxHealth */;
+VALUES (41968,   1,     0, 0, 0, 4120) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41968, 2, 48088,  1, 0, 0, False) /* Create Lightning Nekode (48088) for Wield */

@@ -72,9 +72,9 @@ VALUES (24588,   1,  87, 0, 0) /* Strength */
      , (24588,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24588,   1,    10, 0, 0, 145) /* MaxHealth */
-     , (24588,   3,    10, 0, 0, 200) /* MaxStamina */
-     , (24588,   5,    10, 0, 0, 105) /* MaxMana */;
+VALUES (24588,   1,    90, 0, 0, 145) /* MaxHealth */
+     , (24588,   3,    90, 0, 0, 200) /* MaxStamina */
+     , (24588,   5,    45, 0, 0, 105) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24588, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -160,7 +160,7 @@ VALUES (24588, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (24588, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (24588, 4,  6062, -1, 0, 0, False) /* Create Faran Creature Apprentice Robe (6062) for Shop */
      , (24588, 4,  6065, -1, 0, 0, False) /* Create Faran Item Apprentice Robe (6065) for Shop */
-     , (24588, 4,  6068, -1, 0, 0, False) /* Create  (6068) for Shop */
+     , (24588, 4,  6068, -1, 0, 0, False) /* Create Faran Life Apprentice Robe (6068) for Shop */
      , (24588, 4,  6071, -1, 0, 0, False) /* Create Faran War Apprentice Robe (6071) for Shop */
      , (24588, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (24588, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */

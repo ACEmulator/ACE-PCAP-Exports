@@ -57,9 +57,9 @@ VALUES (35731,   1, 190, 0, 0) /* Strength */
      , (35731,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35731,   1,    10, 0, 0, 260) /* MaxHealth */
-     , (35731,   3,    10, 0, 0, 390) /* MaxStamina */
-     , (35731,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (35731,   1,   165, 0, 0, 260) /* MaxHealth */
+     , (35731,   3,   200, 0, 0, 390) /* MaxStamina */
+     , (35731,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35731, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */

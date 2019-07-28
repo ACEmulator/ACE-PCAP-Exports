@@ -51,9 +51,9 @@ VALUES (43414,   1, 280, 0, 0) /* Strength */
      , (43414,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43414,   1,    10, 0, 0, 1100) /* MaxHealth */
-     , (43414,   3,    10, 0, 0, 1280) /* MaxStamina */
-     , (43414,   5,    10, 0, 0, 980) /* MaxMana */;
+VALUES (43414,   1,   960, 0, 0, 1100) /* MaxHealth */
+     , (43414,   3,  1000, 0, 0, 1280) /* MaxStamina */
+     , (43414,   5,   800, 0, 0, 980) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43414, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */

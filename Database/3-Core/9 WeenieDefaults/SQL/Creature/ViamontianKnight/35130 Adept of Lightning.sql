@@ -60,9 +60,9 @@ VALUES (35130,   1, 245, 0, 0) /* Strength */
      , (35130,   6, 445, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35130,   1,    10, 0, 0, 513) /* MaxHealth */
-     , (35130,   3,    10, 0, 0, 560) /* MaxStamina */
-     , (35130,   5,    10, 0, 0, 820) /* MaxMana */;
+VALUES (35130,   1,   421, 0, 0, 513) /* MaxHealth */
+     , (35130,   3,   375, 0, 0, 560) /* MaxStamina */
+     , (35130,   5,   375, 0, 0, 820) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35130, 2, 31822,  1, 0, 0, False) /* Create Aerbax's Defeat (31822) for Wield */

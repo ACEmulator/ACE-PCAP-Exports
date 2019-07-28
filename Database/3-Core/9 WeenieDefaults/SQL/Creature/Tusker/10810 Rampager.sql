@@ -55,9 +55,9 @@ VALUES (10810,   1, 230, 0, 0) /* Strength */
      , (10810,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (10810,   1,    10, 0, 0, 435) /* MaxHealth */
-     , (10810,   3,    10, 0, 0, 660) /* MaxStamina */
-     , (10810,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (10810,   1,   280, 0, 0, 435) /* MaxHealth */
+     , (10810,   3,   350, 0, 0, 660) /* MaxStamina */
+     , (10810,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10810, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */

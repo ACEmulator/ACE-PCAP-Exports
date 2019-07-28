@@ -64,9 +64,9 @@ VALUES (34617,   1, 490, 0, 0) /* Strength */
      , (34617,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34617,   1,    10, 0, 0, 500000) /* MaxHealth */
-     , (34617,   3,    10, 0, 0, 9997) /* MaxStamina */
-     , (34617,   5,    10, 0, 0, 500) /* MaxMana */;
+VALUES (34617,   1, 499500, 0, 0, 500000) /* MaxHealth */
+     , (34617,   3,  9000, 0, 0, 10000) /* MaxStamina */
+     , (34617,   5,     0, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34617, 2, 35873,  1, 0, 0, False) /* Create Ghost Blade (35873) for Wield */;

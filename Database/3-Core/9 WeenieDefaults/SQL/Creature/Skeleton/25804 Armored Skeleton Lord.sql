@@ -59,9 +59,9 @@ VALUES (25804,   1, 135, 0, 0) /* Strength */
      , (25804,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25804,   1,    10, 0, 0, 478) /* MaxHealth */
-     , (25804,   3,    10, 0, 0, 544) /* MaxStamina */
-     , (25804,   5,    10, 0, 0, 225) /* MaxMana */;
+VALUES (25804,   1,   406, 0, 0, 478) /* MaxHealth */
+     , (25804,   3,   400, 0, 0, 545) /* MaxStamina */
+     , (25804,   5,    50, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25804, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */

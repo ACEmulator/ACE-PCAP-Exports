@@ -60,9 +60,9 @@ VALUES (11371,   1,  50, 0, 0) /* Strength */
      , (11371,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11371,   1,    10, 0, 0, 110) /* MaxHealth */
-     , (11371,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (11371,   5,    10, 0, 0, 170) /* MaxMana */;
+VALUES (11371,   1,    80, 0, 0, 110) /* MaxHealth */
+     , (11371,   3,   120, 0, 0, 180) /* MaxStamina */
+     , (11371,   5,    50, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11371, 2, 11912,  1, 0, 0, False) /* Create Lance of the Quiddity (11912) for Wield */;

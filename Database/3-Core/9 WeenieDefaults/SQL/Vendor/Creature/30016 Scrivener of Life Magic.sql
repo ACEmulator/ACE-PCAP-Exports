@@ -72,9 +72,9 @@ VALUES (30016,   1,  90, 0, 0) /* Strength */
      , (30016,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30016,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (30016,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (30016,   5,    10, 0, 0, 410) /* MaxMana */;
+VALUES (30016,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (30016,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (30016,   5,   130, 0, 0, 410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30016, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for Shop */

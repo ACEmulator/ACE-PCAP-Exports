@@ -65,9 +65,9 @@ VALUES (11409,   1, 160, 0, 0) /* Strength */
      , (11409,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11409,   1,    10, 0, 0, 145) /* MaxHealth */
-     , (11409,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (11409,   5,    10, 0, 0, 150) /* MaxMana */;
+VALUES (11409,   1,    75, 0, 0, 145) /* MaxHealth */
+     , (11409,   3,   200, 0, 0, 340) /* MaxStamina */
+     , (11409,   5,    20, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11409, 2, 12123,  1, 0, 0, False) /* Create Palenqual's Hoeroa (12123) for Wield */
@@ -81,7 +81,7 @@ VALUES (11409, 2, 12123,  1, 0, 0, False) /* Create Palenqual's Hoeroa (12123) f
      , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua (27370) for Shop */
      , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq (27369) for Shop */
      , (11409, 4, 27373, -1, 0, 0, False) /* Create Kalindan (27373) for Shop */
-     , (11409, 4, 27368, -1, 0, 0, False) /* Create  (27368) for Shop */
+     , (11409, 4, 27368, -1, 0, 0, False) /* Create Atlatl (27368) for Shop */
      , (11409, 4, 27371, -1, 0, 0, False) /* Create Buadren (27371) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

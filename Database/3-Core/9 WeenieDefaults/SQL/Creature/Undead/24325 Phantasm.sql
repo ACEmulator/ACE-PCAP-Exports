@@ -56,9 +56,9 @@ VALUES (24325,   1, 160, 0, 0) /* Strength */
      , (24325,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24325,   1,    10, 0, 0, 555) /* MaxHealth */
-     , (24325,   3,    10, 0, 0, 710) /* MaxStamina */
-     , (24325,   5,    10, 0, 0, 540) /* MaxMana */;
+VALUES (24325,   1,   480, 0, 0, 555) /* MaxHealth */
+     , (24325,   3,   560, 0, 0, 710) /* MaxStamina */
+     , (24325,   5,   340, 0, 0, 540) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24325, 2, 48000,  1, 0, 0, False) /* Create Silifi (48000) for Wield */

@@ -61,9 +61,9 @@ VALUES (43005,   1, 250, 0, 0) /* Strength */
      , (43005,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43005,   1,    10, 0, 0, 6130) /* MaxHealth */
-     , (43005,   3,    10, 0, 0, 5260) /* MaxStamina */
-     , (43005,   5,    10, 0, 0, 5350) /* MaxMana */;
+VALUES (43005,   1,  6000, 0, 0, 6130) /* MaxHealth */
+     , (43005,   3,  5000, 0, 0, 5260) /* MaxStamina */
+     , (43005,   5,  5000, 0, 0, 5350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43005, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */

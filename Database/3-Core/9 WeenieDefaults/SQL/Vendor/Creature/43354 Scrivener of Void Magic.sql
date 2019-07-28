@@ -72,9 +72,9 @@ VALUES (43354,   1,  90, 0, 0) /* Strength */
      , (43354,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43354,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (43354,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (43354,   5,    10, 0, 0, 215) /* MaxMana */;
+VALUES (43354,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (43354,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (43354,   5,   130, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43354, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for Shop */
@@ -110,8 +110,8 @@ VALUES (43354, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for S
      , (43354, 4, 43339, -1, 0, 0, False) /* Create Scroll of Weakening Curse II (43339) for Shop */
      , (43354, 4, 43340, -1, 0, 0, False) /* Create Scroll of Weakening Curse III (43340) for Shop */
      , (43354, 4, 43341, -1, 0, 0, False) /* Create Scroll of Weakening Curse IV (43341) for Shop */
-     , (43354, 4, 44621, -1, 0, 0, False) /* Create  (44621) for Shop */
-     , (43354, 4, 44622, -1, 0, 0, False) /* Create  (44622) for Shop */;
+     , (43354, 4, 44621, -1, 0, 0, False) /* Create Scroll of Nether Blast III (44621) for Shop */
+     , (43354, 4, 44622, -1, 0, 0, False) /* Create Scroll of Nether Blast IV (44622) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43354, 67109964, 92, 4)

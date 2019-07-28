@@ -70,9 +70,9 @@ VALUES (43057,   1, 185, 0, 0) /* Strength */
      , (43057,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43057,   1,    10, 0, 0, 88) /* MaxHealth */
-     , (43057,   3,    10, 0, 0, 125) /* MaxStamina */
-     , (43057,   5,    10, 0, 0, 110) /* MaxMana */;
+VALUES (43057,   1,    51, 0, 0, 88) /* MaxHealth */
+     , (43057,   3,    50, 0, 0, 125) /* MaxStamina */
+     , (43057,   5,    50, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43057, 2, 43046,  1, 0, 0, False) /* Create Paradox-touched Olthoi Dagger (43046) for Wield */;

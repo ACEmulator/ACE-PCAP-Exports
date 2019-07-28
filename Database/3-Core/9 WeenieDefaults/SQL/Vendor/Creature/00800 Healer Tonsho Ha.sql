@@ -72,9 +72,9 @@ VALUES (800,   1,  70, 0, 0) /* Strength */
      , (800,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (800,   1,    10, 0, 0, 70) /* MaxHealth */
-     , (800,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (800,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (800,   1,    40, 0, 0, 70) /* MaxHealth */
+     , (800,   3,    80, 0, 0, 140) /* MaxStamina */
+     , (800,   5,    25, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (800, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
@@ -89,18 +89,18 @@ VALUES (800, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop
      , (800, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (800, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (800, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
-     , (800, 4,  4611, -1, 0, 0, False) /* Create  (4611) for Shop */
-     , (800, 4,  4609, -1, 0, 0, False) /* Create  (4609) for Shop */
-     , (800, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (800, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
-     , (800, 4,  4603, -1, 0, 0, False) /* Create  (4603) for Shop */
-     , (800, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
-     , (800, 4,  4600, -1, 0, 0, False) /* Create  (4600) for Shop */
-     , (800, 4,  4598, -1, 0, 0, False) /* Create  (4598) for Shop */
-     , (800, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
-     , (800, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
-     , (800, 4,  4590, -1, 0, 0, False) /* Create  (4590) for Shop */
-     , (800, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
+     , (800, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
+     , (800, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
+     , (800, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
+     , (800, 4,  4605, -1, 0, 0, False) /* Create Coordination Other II (4605) for Shop */
+     , (800, 4,  4603, -1, 0, 0, False) /* Create Endurance Other II (4603) for Shop */
+     , (800, 4,  4601, -1, 0, 0, False) /* Create Strength Other II (4601) for Shop */
+     , (800, 4,  4600, -1, 0, 0, False) /* Create Mana Renewal Other II (4600) for Shop */
+     , (800, 4,  4598, -1, 0, 0, False) /* Create Rejuvenation Other II (4598) for Shop */
+     , (800, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
+     , (800, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
+     , (800, 4,  4590, -1, 0, 0, False) /* Create Revitalize Other II (4590) for Shop */
+     , (800, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
      , (800, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (800, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

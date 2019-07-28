@@ -56,9 +56,9 @@ VALUES (25755,   1, 250, 0, 0) /* Strength */
      , (25755,   6, 150, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25755,   1,    10, 0, 0, 625) /* MaxHealth */
-     , (25755,   3,    10, 0, 0, 340) /* MaxStamina */
-     , (25755,   5,    10, 0, 0, 314) /* MaxMana */;
+VALUES (25755,   1,   525, 0, 0, 625) /* MaxHealth */
+     , (25755,   3,   150, 0, 0, 350) /* MaxStamina */
+     , (25755,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25755, 9, 25798,  0, 0, 0, False) /* Create Scold's Heart (25798) for ContainTreasure */;

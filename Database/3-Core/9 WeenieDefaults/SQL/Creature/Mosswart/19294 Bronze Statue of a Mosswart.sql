@@ -55,9 +55,9 @@ VALUES (19294,   1, 125, 0, 0) /* Strength */
      , (19294,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19294,   1,    10, 0, 0, 90) /* MaxHealth */
-     , (19294,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (19294,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (19294,   1,    40, 0, 0, 90) /* MaxHealth */
+     , (19294,   3,   150, 0, 0, 250) /* MaxStamina */
+     , (19294,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19294, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */

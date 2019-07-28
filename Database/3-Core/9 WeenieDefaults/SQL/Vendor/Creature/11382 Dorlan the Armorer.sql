@@ -73,9 +73,9 @@ VALUES (11382,   1, 130, 0, 0) /* Strength */
      , (11382,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11382,   1,    10, 0, 0, 195) /* MaxHealth */
-     , (11382,   3,    10, 0, 0, 260) /* MaxStamina */
-     , (11382,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (11382,   1,   120, 0, 0, 195) /* MaxHealth */
+     , (11382,   3,   110, 0, 0, 260) /* MaxStamina */
+     , (11382,   5,    60, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11382, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */

@@ -56,9 +56,9 @@ VALUES (28716,   1, 490, 0, 0) /* Strength */
      , (28716,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28716,   1,    10, 0, 0, 12000) /* MaxHealth */
-     , (28716,   3,    10, 0, 0, 20000) /* MaxStamina */
-     , (28716,   5,    10, 0, 0, 9965) /* MaxMana */;
+VALUES (28716,   1, 11500, 0, 0, 12000) /* MaxHealth */
+     , (28716,   3, 19000, 0, 0, 20000) /* MaxStamina */
+     , (28716,   5,  9500, 0, 0, 10000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28716, 2, 31199,  1, 0, 0, False) /* Create The Fist of Bellenesse (31199) for Wield */

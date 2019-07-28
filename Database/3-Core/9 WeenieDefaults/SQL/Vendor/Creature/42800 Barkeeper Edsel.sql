@@ -72,9 +72,9 @@ VALUES (42800,   1,  35, 0, 0) /* Strength */
      , (42800,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42800,   1,    10, 0, 0, 80) /* MaxHealth */
-     , (42800,   3,    10, 0, 0, 115) /* MaxStamina */
-     , (42800,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (42800,   1,    55, 0, 0, 80) /* MaxHealth */
+     , (42800,   3,    65, 0, 0, 115) /* MaxStamina */
+     , (42800,   5,    20, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42800, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
@@ -87,14 +87,14 @@ VALUES (42800, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42800, 4,  4716, -1, 0, 0, False) /* Create Chicken Pie (4716) for Shop */
      , (42800, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (42800, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
-     , (42800, 4, 44883, -1, 0, 0, False) /* Create  (44883) for Shop */
-     , (42800, 4, 44884, -1, 0, 0, False) /* Create  (44884) for Shop */
-     , (42800, 4, 44882, -1, 0, 0, False) /* Create  (44882) for Shop */
-     , (42800, 4, 45565, -1, 0, 0, False) /* Create  (45565) for Shop */
+     , (42800, 4, 44883, -1, 0, 0, False) /* Create Contract for Killtask: Gurog Minions (44883) for Shop */
+     , (42800, 4, 44884, -1, 0, 0, False) /* Create Contract for Killtask: Gurog Soldiers (44884) for Shop */
+     , (42800, 4, 44882, -1, 0, 0, False) /* Create Contract for Killtask: Gurog Henchmen (44882) for Shop */
+     , (42800, 4, 45565, -1, 0, 0, False) /* Create Contract for Gurog Creation (45565) for Shop */
      , (42800, 4, 45566, -1, 0, 0, False) /* Create Contract for Wardley and the Wights (45566) for Shop */
-     , (42800, 4, 46904, -1, 0, 0, False) /* Create  (46904) for Shop */
-     , (42800, 4, 46908, -1, 0, 0, False) /* Create  (46908) for Shop */
-     , (42800, 4, 46909, -1, 0, 0, False) /* Create  (46909) for Shop */;
+     , (42800, 4, 46904, -1, 0, 0, False) /* Create Contract for Jester Focuses (46904) for Shop */
+     , (42800, 4, 46908, -1, 0, 0, False) /* Create Contract for Unleash the Gearknights (46908) for Shop */
+     , (42800, 4, 46909, -1, 0, 0, False) /* Create Contract for Virindi Rescue (46909) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42800, 67109560, 0, 24)

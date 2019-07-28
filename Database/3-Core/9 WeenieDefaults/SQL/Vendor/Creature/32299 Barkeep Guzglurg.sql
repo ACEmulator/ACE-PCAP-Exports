@@ -64,9 +64,9 @@ VALUES (32299,   1,  40, 0, 0) /* Strength */
      , (32299,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32299,   1,    10, 0, 0, 60) /* MaxHealth */
-     , (32299,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (32299,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (32299,   1,    40, 0, 0, 60) /* MaxHealth */
+     , (32299,   3,   100, 0, 0, 140) /* MaxStamina */
+     , (32299,   5,    30, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32299, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
@@ -75,7 +75,7 @@ VALUES (32299, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (32299, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (32299, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (32299, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (32299, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (32299, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
      , (32299, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (32299, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
      , (32299, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */

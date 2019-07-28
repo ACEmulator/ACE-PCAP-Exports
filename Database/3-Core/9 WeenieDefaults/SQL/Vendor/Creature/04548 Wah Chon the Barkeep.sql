@@ -72,15 +72,15 @@ VALUES (4548,   1,  60, 0, 0) /* Strength */
      , (4548,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4548,   1,    10, 0, 0, 45) /* MaxHealth */
-     , (4548,   3,    10, 0, 0, 75) /* MaxStamina */
+VALUES (4548,   1,    15, 0, 0, 45) /* MaxHealth */
+     , (4548,   3,    15, 0, 0, 75) /* MaxStamina */
      , (4548,   5,    10, 0, 0, 35) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4548, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
-     , (4548, 4,  4729, -1, 0, 0, False) /* Create  (4729) for Shop */
+     , (4548, 4,  4729, -1, 0, 0, False) /* Create Fried Egg (4729) for Shop */
      , (4548, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (4548, 4,  4738, -1, 0, 0, False) /* Create  (4738) for Shop */
+     , (4548, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice (4738) for Shop */
      , (4548, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager (23126) for Shop */
      , (4548, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (4548, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
@@ -89,8 +89,8 @@ VALUES (4548, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Sho
      , (4548, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4548, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (4548, 4,  5002, -1, 0, 0, False) /* Create Nanto Portal Directions (5002) for Shop */
-     , (4548, 4,  5005, -1, 0, 0, False) /* Create  (5005) for Shop */
-     , (4548, 4, 24223, -1, 0, 0, False) /* Create  (24223) for Shop */;
+     , (4548, 4,  5005, -1, 0, 0, False) /* Create Empyrean Garrison Directions (5005) for Shop */
+     , (4548, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone (24223) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4548, 67109969, 92, 4)

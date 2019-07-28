@@ -73,9 +73,9 @@ VALUES (1038,   1, 120, 0, 0) /* Strength */
      , (1038,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1038,   1,    10, 0, 0, 170) /* MaxHealth */
-     , (1038,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (1038,   5,    10, 0, 0, 95) /* MaxMana */;
+VALUES (1038,   1,   120, 0, 0, 170) /* MaxHealth */
+     , (1038,   3,   150, 0, 0, 250) /* MaxStamina */
+     , (1038,   5,    50, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1038, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */
@@ -115,7 +115,7 @@ VALUES (1038, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */
      , (1038, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1038, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1038, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1038, 4, 45683, -1, 0, 0, False) /* Create  (45683) for Shop */
+     , (1038, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (1038, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */
      , (1038, 4, 30746, -1, 0, 0, False) /* Create Dart Flinger (30746) for Shop */
      , (1038, 4, 40697, -1, 0, 0, False) /* Create Covenant Breastplate (40697) for Shop */

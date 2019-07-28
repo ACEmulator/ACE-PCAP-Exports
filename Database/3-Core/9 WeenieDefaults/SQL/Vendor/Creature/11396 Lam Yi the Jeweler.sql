@@ -72,13 +72,13 @@ VALUES (11396,   1,  40, 0, 0) /* Strength */
      , (11396,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11396,   1,    10, 0, 0, 105) /* MaxHealth */
-     , (11396,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (11396,   5,    10, 0, 0, 160) /* MaxMana */;
+VALUES (11396,   1,    90, 0, 0, 105) /* MaxHealth */
+     , (11396,   3,   110, 0, 0, 140) /* MaxStamina */
+     , (11396,   5,    60, 0, 0, 160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11396, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (11396, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (11396, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
      , (11396, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
      , (11396, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
      , (11396, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */

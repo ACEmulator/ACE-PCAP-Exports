@@ -72,9 +72,9 @@ VALUES (30024,   1,  90, 0, 0) /* Strength */
      , (30024,   6, 450, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30024,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (30024,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (30024,   5,    10, 0, 0, 690) /* MaxMana */;
+VALUES (30024,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (30024,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (30024,   5,   240, 0, 0, 690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30024, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */

@@ -52,9 +52,9 @@ VALUES (38176,   1, 220, 0, 0) /* Strength */
      , (38176,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38176,   1,    10, 0, 0, 265) /* MaxHealth */
-     , (38176,   3,    10, 0, 0, 410) /* MaxStamina */
-     , (38176,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (38176,   1,   190, 0, 0, 265) /* MaxHealth */
+     , (38176,   3,   260, 0, 0, 410) /* MaxStamina */
+     , (38176,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38176, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */

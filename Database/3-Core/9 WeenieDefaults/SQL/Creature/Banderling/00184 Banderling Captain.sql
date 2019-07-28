@@ -55,9 +55,9 @@ VALUES (184,   1, 120, 0, 0) /* Strength */
      , (184,   6,  45, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (184,   1,    10, 0, 0, 65) /* MaxHealth */
-     , (184,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (184,   5,    10, 0, 0, 53) /* MaxMana */;
+VALUES (184,   1,    25, 0, 0, 65) /* MaxHealth */
+     , (184,   3,    70, 0, 0, 150) /* MaxStamina */
+     , (184,   5,     8, 0, 0, 53) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (184, 2, 47477,  1, 0, 0, False) /* Create Flaming Mace (47477) for Wield */

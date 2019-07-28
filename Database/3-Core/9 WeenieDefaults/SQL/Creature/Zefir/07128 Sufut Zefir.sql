@@ -55,9 +55,9 @@ VALUES (7128,   1, 235, 0, 0) /* Strength */
      , (7128,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7128,   1,    10, 0, 0, 90) /* MaxHealth */
-     , (7128,   3,    10, 0, 0, 240) /* MaxStamina */
-     , (7128,   5,    10, 0, 0, 370) /* MaxMana */;
+VALUES (7128,   1,    20, 0, 0, 90) /* MaxHealth */
+     , (7128,   3,   100, 0, 0, 240) /* MaxStamina */
+     , (7128,   5,   190, 0, 0, 370) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7128, 9,  3435,  0, 0, 0, False) /* Create Scroll of Mana Mastery Self IV (3435) for ContainTreasure */

@@ -53,9 +53,9 @@ VALUES (6773,   1,  85, 0, 0) /* Strength */
      , (6773,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6773,   1,    10, 0, 0, 146) /* MaxHealth */
-     , (6773,   3,    10, 0, 0, 205) /* MaxStamina */
-     , (6773,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (6773,   1,    99, 0, 0, 146) /* MaxHealth */
+     , (6773,   3,   110, 0, 0, 205) /* MaxStamina */
+     , (6773,   5,   100, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6773, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */

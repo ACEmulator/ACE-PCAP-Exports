@@ -72,9 +72,9 @@ VALUES (30034,   1,  45, 0, 0) /* Strength */
      , (30034,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30034,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (30034,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (30034,   5,    10, 0, 0, 155) /* MaxMana */;
+VALUES (30034,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (30034,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (30034,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30034, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
@@ -90,7 +90,7 @@ VALUES (30034, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
      , (30034, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
      , (30034, 4, 28614, -1, 0, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */
      , (30034, 4, 28615, -1, 0, 0, False) /* Create Vestiri Robe (28615) for Shop */
-     , (30034, 4, 28616, -1, 0, 0, False) /* Create  (28616) for Shop */
+     , (30034, 4, 28616, -1, 0, 0, False) /* Create Toga (28616) for Shop */
      , (30034, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
      , (30034, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30034, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */

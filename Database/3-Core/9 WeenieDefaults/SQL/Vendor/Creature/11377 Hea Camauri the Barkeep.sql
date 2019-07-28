@@ -63,12 +63,12 @@ VALUES (11377,   1,  80, 0, 0) /* Strength */
      , (11377,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11377,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (11377,   3,    10, 0, 0, 190) /* MaxStamina */
-     , (11377,   5,    10, 0, 0, 75) /* MaxMana */;
+VALUES (11377,   1,    90, 0, 0, 135) /* MaxHealth */
+     , (11377,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (11377,   5,    45, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11377, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
+VALUES (11377, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
      , (11377, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (11377, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (11377, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
@@ -76,24 +76,24 @@ VALUES (11377, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
      , (11377, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (11377, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (11377, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (11377, 4,  4712, -1, 0, 0, False) /* Create  (4712) for Shop */
-     , (11377, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (11377, 4,  4712, -1, 0, 0, False) /* Create Beef Rice (4712) for Shop */
+     , (11377, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
      , (11377, 4,  4718, -1, 0, 0, False) /* Create Chicken Rice (4718) for Shop */
      , (11377, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (11377, 4, 27596, -1, 0, 0, False) /* Create  (27596) for Shop */
-     , (11377, 4, 27597, -1, 0, 0, False) /* Create  (27597) for Shop */
-     , (11377, 4, 27598, -1, 0, 0, False) /* Create  (27598) for Shop */
-     , (11377, 4, 27599, -1, 0, 0, False) /* Create  (27599) for Shop */
-     , (11377, 4, 27600, -1, 0, 0, False) /* Create  (27600) for Shop */
-     , (11377, 4, 27601, -1, 0, 0, False) /* Create  (27601) for Shop */
-     , (11377, 4, 27602, -1, 0, 0, False) /* Create  (27602) for Shop */
-     , (11377, 4, 27603, -1, 0, 0, False) /* Create  (27603) for Shop */
-     , (11377, 4, 27604, -1, 0, 0, False) /* Create  (27604) for Shop */
-     , (11377, 4, 27605, -1, 0, 0, False) /* Create  (27605) for Shop */
-     , (11377, 4, 27606, -1, 0, 0, False) /* Create  (27606) for Shop */
-     , (11377, 4, 27607, -1, 0, 0, False) /* Create  (27607) for Shop */
-     , (11377, 4, 27608, -1, 0, 0, False) /* Create  (27608) for Shop */
-     , (11377, 4, 27609, -1, 0, 0, False) /* Create  (27609) for Shop */;
+     , (11377, 4, 27596, -1, 0, 0, False) /* Create Hea Toneawa (27596) for Shop */
+     , (11377, 4, 27597, -1, 0, 0, False) /* Create Hea Riketura (27597) for Shop */
+     , (11377, 4, 27598, -1, 0, 0, False) /* Create Aun Enemies (27598) for Shop */
+     , (11377, 4, 27599, -1, 0, 0, False) /* Create Palenqual's Caverns (27599) for Shop */
+     , (11377, 4, 27600, -1, 0, 0, False) /* Create Leaving Palenqual (27600) for Shop */
+     , (11377, 4, 27601, -1, 0, 0, False) /* Create Hea Arantah (27601) for Shop */
+     , (11377, 4, 27602, -1, 0, 0, False) /* Create The Tah of Ahurenga (27602) for Shop */
+     , (11377, 4, 27603, -1, 0, 0, False) /* Create Hea Tuperea's Reedsharks (27603) for Shop */
+     , (11377, 4, 27604, -1, 0, 0, False) /* Create Aun Ralirea (27604) for Shop */
+     , (11377, 4, 27605, -1, 0, 0, False) /* Create The One Named Lilitha (27605) for Shop */
+     , (11377, 4, 27606, -1, 0, 0, False) /* Create Atual Arutoa (27606) for Shop */
+     , (11377, 4, 27607, -1, 0, 0, False) /* Create The Children of Wharu (27607) for Shop */
+     , (11377, 4, 27608, -1, 0, 0, False) /* Create The Aun Menhir Rings (27608) for Shop */
+     , (11377, 4, 27609, -1, 0, 0, False) /* Create Wharu (27609) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11377, 67116625, 57, 48)

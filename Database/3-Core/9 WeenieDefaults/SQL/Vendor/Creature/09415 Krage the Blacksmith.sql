@@ -63,9 +63,9 @@ VALUES (9415,   1, 310, 0, 0) /* Strength */
      , (9415,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (9415,   1,    10, 0, 0, 240) /* MaxHealth */
-     , (9415,   3,    10, 0, 0, 390) /* MaxStamina */
-     , (9415,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (9415,   1,   100, 0, 0, 240) /* MaxHealth */
+     , (9415,   3,   110, 0, 0, 390) /* MaxStamina */
+     , (9415,   5,    60, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9415, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
@@ -83,7 +83,7 @@ VALUES (9415, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (9415, 4,    76, -1, 0, 0, False) /* Create Qafiya (76) for Shop */
      , (9415, 4,   540, -1, 0, 0, False) /* Create Lugian Axe (540) for Shop */
      , (9415, 4,   543, -1, 0, 0, False) /* Create Lugian Mace (543) for Shop */
-     , (9415, 4,   541, -1, 0, 0, False) /* Create  (541) for Shop */
+     , (9415, 4,   541, -1, 0, 0, False) /* Create Lugian Club (541) for Shop */
      , (9415, 4,   544, -1, 0, 0, False) /* Create Lugian Morning Star (544) for Shop */
      , (9415, 4,  7765, -1, 0, 0, False) /* Create Lugian Board with Nail (7765) for Shop */
      , (9415, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */

@@ -52,9 +52,9 @@ VALUES (6774,   1,  85, 0, 0) /* Strength */
      , (6774,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (6774,   1,    10, 0, 0, 146) /* MaxHealth */
-     , (6774,   3,    10, 0, 0, 205) /* MaxStamina */
-     , (6774,   5,    10, 0, 0, 230) /* MaxMana */;
+VALUES (6774,   1,    99, 0, 0, 146) /* MaxHealth */
+     , (6774,   3,   110, 0, 0, 205) /* MaxStamina */
+     , (6774,   5,   100, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6774, 2, 47729,  1, 0, 0, False) /* Create Spear (47729) for Wield */

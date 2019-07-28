@@ -73,7 +73,7 @@ VALUES (5638,   1,  70, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (5638,   1,    10, 0, 0, 40) /* MaxHealth */
-     , (5638,   3,    10, 0, 0, 75) /* MaxStamina */
+     , (5638,   3,    15, 0, 0, 75) /* MaxStamina */
      , (5638,   5,    10, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
@@ -81,10 +81,10 @@ VALUES (5638, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for S
      , (5638, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (5638, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
      , (5638, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
-     , (5638, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
-     , (5638, 4,  4589, -1, 0, 0, False) /* Create  (4589) for Shop */
-     , (5638, 4,  4592, -1, 0, 0, False) /* Create  (4592) for Shop */
-     , (5638, 4,  4606, -1, 0, 0, False) /* Create  (4606) for Shop */
+     , (5638, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (5638, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
+     , (5638, 4,  4592, -1, 0, 0, False) /* Create Mana Boost Other I (4592) for Shop */
+     , (5638, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
      , (5638, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5638, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

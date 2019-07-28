@@ -56,9 +56,9 @@ VALUES (19303,   1, 210, 0, 0) /* Strength */
      , (19303,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19303,   1,    10, 0, 0, 235) /* MaxHealth */
-     , (19303,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (19303,   5,    10, 0, 0, 180) /* MaxMana */;
+VALUES (19303,   1,   160, 0, 0, 235) /* MaxHealth */
+     , (19303,   3,   180, 0, 0, 330) /* MaxStamina */
+     , (19303,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19303, 2, 15391,  1, 0, 0, False) /* Create Ben Ten's Tachi (15391) for Wield */

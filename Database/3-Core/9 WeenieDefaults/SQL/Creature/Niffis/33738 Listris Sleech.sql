@@ -55,9 +55,9 @@ VALUES (33738,   1, 370, 0, 0) /* Strength */
      , (33738,   6, 490, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33738,   1,    10, 0, 0, 620) /* MaxHealth */
-     , (33738,   3,    10, 0, 0, 870) /* MaxStamina */
-     , (33738,   5,    10, 0, 0, 1460) /* MaxMana */;
+VALUES (33738,   1,   435, 0, 0, 620) /* MaxHealth */
+     , (33738,   3,   500, 0, 0, 870) /* MaxStamina */
+     , (33738,   5,  1000, 0, 0, 1490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33738, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for ContainTreasure */

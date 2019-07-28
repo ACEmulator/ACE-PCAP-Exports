@@ -55,9 +55,9 @@ VALUES (7127,   1, 150, 0, 0) /* Strength */
      , (7127,   6, 420, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7127,   1,    10, 0, 0, 360) /* MaxHealth */
-     , (7127,   3,    10, 0, 0, 520) /* MaxStamina */
-     , (7127,   5,    10, 0, 0, 520) /* MaxMana */;
+VALUES (7127,   1,   200, 0, 0, 360) /* MaxHealth */
+     , (7127,   3,   200, 0, 0, 520) /* MaxStamina */
+     , (7127,   5,   100, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7127, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasure */

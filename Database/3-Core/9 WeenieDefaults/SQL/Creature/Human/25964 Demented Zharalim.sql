@@ -61,9 +61,9 @@ VALUES (25964,   1, 210, 0, 0) /* Strength */
      , (25964,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25964,   1,    10, 0, 0, 220) /* MaxHealth */
-     , (25964,   3,    10, 0, 0, 320) /* MaxStamina */
-     , (25964,   5,    10, 0, 0, 61) /* MaxMana */;
+VALUES (25964,   1,   150, 0, 0, 220) /* MaxHealth */
+     , (25964,   3,   180, 0, 0, 320) /* MaxStamina */
+     , (25964,   5,    50, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25964, 2, 22781,  1, 0, 0, False) /* Create Jambiya (22781) for Wield */

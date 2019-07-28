@@ -72,9 +72,9 @@ VALUES (1054,   1, 100, 0, 0) /* Strength */
      , (1054,   6,  70, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1054,   1,    10, 0, 0, 165) /* MaxHealth */
-     , (1054,   3,    10, 0, 0, 230) /* MaxStamina */
-     , (1054,   5,    10, 0, 0, 170) /* MaxMana */;
+VALUES (1054,   1,   120, 0, 0, 165) /* MaxHealth */
+     , (1054,   3,   140, 0, 0, 230) /* MaxStamina */
+     , (1054,   5,   100, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1054, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
@@ -90,10 +90,10 @@ VALUES (1054, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (1054, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1054, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (1054, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
-     , (1054, 4,  4611, -1, 0, 0, False) /* Create  (4611) for Shop */
-     , (1054, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
-     , (1054, 4,  4604, -1, 0, 0, False) /* Create  (4604) for Shop */
-     , (1054, 4,  4606, -1, 0, 0, False) /* Create  (4606) for Shop */
+     , (1054, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */
+     , (1054, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (1054, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I (4604) for Shop */
+     , (1054, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
      , (1054, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1054, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1054, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */

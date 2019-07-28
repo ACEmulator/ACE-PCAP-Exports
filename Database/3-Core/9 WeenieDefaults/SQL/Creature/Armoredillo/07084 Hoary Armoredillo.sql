@@ -52,9 +52,9 @@ VALUES (7084,   1, 220, 0, 0) /* Strength */
      , (7084,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7084,   1,    10, 0, 0, 265) /* MaxHealth */
-     , (7084,   3,    10, 0, 0, 410) /* MaxStamina */
-     , (7084,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (7084,   1,   190, 0, 0, 265) /* MaxHealth */
+     , (7084,   3,   260, 0, 0, 410) /* MaxStamina */
+     , (7084,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7084, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */

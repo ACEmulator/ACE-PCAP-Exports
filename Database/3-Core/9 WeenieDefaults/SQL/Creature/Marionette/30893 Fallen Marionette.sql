@@ -57,9 +57,9 @@ VALUES (30893,   1, 400, 0, 0) /* Strength */
      , (30893,   6, 380, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30893,   1,    10, 0, 0, 8500) /* MaxHealth */
-     , (30893,   3,    10, 0, 0, 8000) /* MaxStamina */
-     , (30893,   5,    10, 0, 0, 8000) /* MaxMana */;
+VALUES (30893,   1,  8260, 0, 0, 8500) /* MaxHealth */
+     , (30893,   3,  7520, 0, 0, 8000) /* MaxStamina */
+     , (30893,   5,  7620, 0, 0, 8000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30893, 9, 49214,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (80) (49214) for ContainTreasure */

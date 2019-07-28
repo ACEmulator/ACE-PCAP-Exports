@@ -73,15 +73,15 @@ VALUES (46425,   1, 220, 0, 0) /* Strength */
      , (46425,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (46425,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (46425,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (46425,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (46425,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (46425,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (46425,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46425, 4, 46441, -1, 0, 0, False) /* Create Boxed Augmentation Gem (46441) for Shop */
      , (46425, 4, 46421, -1, 0, 0, False) /* Create Attribute Reset Certificate (46421) for Shop */
      , (46425, 4, 46420, -1, 0, 0, False) /* Create Skill Reset Certificate (46420) for Shop */
-     , (46425, 4, 46422, -1, 0, 0, False) /* Create  (46422) for Shop */
+     , (46425, 4, 46422, -1, 0, 0, False) /* Create Mastery Reset Certificate (46422) for Shop */
      , (46425, 4, 46418, -1, 0, 0, False) /* Create Item Spells Certificate (46418) for Shop */
      , (46425, 4, 46419, -1, 0, 0, False) /* Create Life Spells Certificate (46419) for Shop */
      , (46425, 4, 46417, -1, 0, 0, False) /* Create Creature Spells Certificate (46417) for Shop */

@@ -55,9 +55,9 @@ VALUES (7125,   1, 150, 0, 0) /* Strength */
      , (7125,   6, 420, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (7125,   1,    10, 0, 0, 360) /* MaxHealth */
-     , (7125,   3,    10, 0, 0, 520) /* MaxStamina */
-     , (7125,   5,    10, 0, 0, 335) /* MaxMana */;
+VALUES (7125,   1,   200, 0, 0, 360) /* MaxHealth */
+     , (7125,   3,   200, 0, 0, 520) /* MaxStamina */
+     , (7125,   5,   100, 0, 0, 520) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7125, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */

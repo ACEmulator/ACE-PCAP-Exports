@@ -69,9 +69,9 @@ VALUES (36609,   1, 225, 0, 0) /* Strength */
      , (36609,   6, 115, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36609,   1,    10, 0, 0, 220) /* MaxHealth */
-     , (36609,   3,    10, 0, 0, 290) /* MaxStamina */
-     , (36609,   5,    10, 0, 0, 215) /* MaxMana */;
+VALUES (36609,   1,   150, 0, 0, 220) /* MaxHealth */
+     , (36609,   3,   150, 0, 0, 290) /* MaxStamina */
+     , (36609,   5,   100, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36609, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */

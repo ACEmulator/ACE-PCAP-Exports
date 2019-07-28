@@ -56,9 +56,9 @@ VALUES (36928,   1, 1300, 0, 0) /* Strength */
      , (36928,   6, 1000, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36928,   1,    10, 0, 0, 70000) /* MaxHealth */
-     , (36928,   3,    10, 0, 0, 1200) /* MaxStamina */
-     , (36928,   5,    10, 0, 0, 1100) /* MaxMana */;
+VALUES (36928,   1, 69450, 0, 0, 70000) /* MaxHealth */
+     , (36928,   3,   100, 0, 0, 1200) /* MaxStamina */
+     , (36928,   5,   100, 0, 0, 1100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36928, 9, 36927,  0, 0, 0, False) /* Create Claw of the Hopeslayer (36927) for ContainTreasure */;

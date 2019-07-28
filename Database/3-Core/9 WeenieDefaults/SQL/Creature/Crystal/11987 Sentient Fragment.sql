@@ -56,9 +56,9 @@ VALUES (11987,   1, 160, 0, 0) /* Strength */
      , (11987,   6, 240, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11987,   1,    10, 0, 0, 180) /* MaxHealth */
-     , (11987,   3,    10, 0, 0, 460) /* MaxStamina */
-     , (11987,   5,    10, 0, 0, 840) /* MaxMana */;
+VALUES (11987,   1,   100, 0, 0, 180) /* MaxHealth */
+     , (11987,   3,   300, 0, 0, 460) /* MaxStamina */
+     , (11987,   5,   600, 0, 0, 840) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11987, 9,  3337,  0, 0, 0, False) /* Create Scroll of Jumping Mastery Other VI (3337) for ContainTreasure */

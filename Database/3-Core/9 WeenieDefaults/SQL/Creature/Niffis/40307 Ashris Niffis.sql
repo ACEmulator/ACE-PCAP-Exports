@@ -52,9 +52,9 @@ VALUES (40307,   1, 380, 0, 0) /* Strength */
      , (40307,   6, 500, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40307,   1,    10, 0, 0, 3800) /* MaxHealth */
-     , (40307,   3,    10, 0, 0, 3400) /* MaxStamina */
-     , (40307,   5,    10, 0, 0, 1500) /* MaxMana */;
+VALUES (40307,   1,  3600, 0, 0, 3800) /* MaxHealth */
+     , (40307,   3,  3000, 0, 0, 3400) /* MaxStamina */
+     , (40307,   5,  1000, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40307, 9, 49308,  0, 0, 0, False) /* Create Frost K'nath Essence (180) (49308) for ContainTreasure */

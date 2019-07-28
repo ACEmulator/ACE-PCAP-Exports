@@ -57,9 +57,9 @@ VALUES (35732,   1, 190, 0, 0) /* Strength */
      , (35732,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35732,   1,    10, 0, 0, 260) /* MaxHealth */
-     , (35732,   3,    10, 0, 0, 390) /* MaxStamina */
-     , (35732,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (35732,   1,   165, 0, 0, 260) /* MaxHealth */
+     , (35732,   3,   200, 0, 0, 390) /* MaxStamina */
+     , (35732,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35732, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */

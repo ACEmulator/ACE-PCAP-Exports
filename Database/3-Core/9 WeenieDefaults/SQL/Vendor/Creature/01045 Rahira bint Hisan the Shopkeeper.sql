@@ -72,9 +72,9 @@ VALUES (1045,   1,  90, 0, 0) /* Strength */
      , (1045,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1045,   1,    10, 0, 0, 140) /* MaxHealth */
-     , (1045,   3,    10, 0, 0, 210) /* MaxStamina */
-     , (1045,   5,    10, 0, 0, 75) /* MaxMana */;
+VALUES (1045,   1,    90, 0, 0, 140) /* MaxHealth */
+     , (1045,   3,   110, 0, 0, 210) /* MaxStamina */
+     , (1045,   5,    55, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1045, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
@@ -97,7 +97,7 @@ VALUES (1045, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (1045, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (1045, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (1045, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (1045, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (1045, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (1045, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
      , (1045, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
      , (1045, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */

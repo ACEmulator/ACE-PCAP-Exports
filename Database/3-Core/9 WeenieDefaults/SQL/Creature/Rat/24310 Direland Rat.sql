@@ -57,9 +57,9 @@ VALUES (24310,   1, 260, 0, 0) /* Strength */
      , (24310,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24310,   1,    10, 0, 0, 420) /* MaxHealth */
-     , (24310,   3,    10, 0, 0, 400) /* MaxStamina */
-     , (24310,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (24310,   1,   300, 0, 0, 420) /* MaxHealth */
+     , (24310,   3,   160, 0, 0, 400) /* MaxStamina */
+     , (24310,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24310, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */

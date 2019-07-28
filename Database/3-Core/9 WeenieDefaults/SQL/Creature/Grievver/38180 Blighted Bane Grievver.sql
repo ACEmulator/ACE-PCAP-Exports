@@ -57,9 +57,9 @@ VALUES (38180,   1, 220, 0, 0) /* Strength */
      , (38180,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38180,   1,    10, 0, 0, 465) /* MaxHealth */
-     , (38180,   3,    10, 0, 0, 380) /* MaxStamina */
-     , (38180,   5,    10, 0, 0, 360) /* MaxMana */;
+VALUES (38180,   1,   400, 0, 0, 465) /* MaxHealth */
+     , (38180,   3,   250, 0, 0, 380) /* MaxStamina */
+     , (38180,   5,   200, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38180, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */

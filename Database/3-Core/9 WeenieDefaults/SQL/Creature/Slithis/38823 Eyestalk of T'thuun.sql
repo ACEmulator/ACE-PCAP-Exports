@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38823, 8000, 2923405437) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38823,   1,    10, 0, 0, 1230) /* MaxHealth */;
+VALUES (38823,   1,     0, 0, 0, 1230) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38823, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;

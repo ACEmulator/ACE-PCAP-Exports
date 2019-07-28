@@ -73,18 +73,18 @@ VALUES (43940,   1, 220, 0, 0) /* Strength */
      , (43940,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43940,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (43940,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (43940,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (43940,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (43940,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (43940,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43940, 4, 43912, -1, 0, 0, False) /* Create  (43912) for Shop */
-     , (43940, 4, 43913, -1, 0, 0, False) /* Create  (43913) for Shop */
-     , (43940, 4, 43920, -1, 0, 0, False) /* Create  (43920) for Shop */
-     , (43940, 4, 43914, -1, 0, 0, False) /* Create  (43914) for Shop */
-     , (43940, 4, 43923, -1, 0, 0, False) /* Create  (43923) for Shop */
-     , (43940, 4, 43922, -1, 0, 0, False) /* Create  (43922) for Shop */
-     , (43940, 4, 43921, -1, 0, 0, False) /* Create  (43921) for Shop */;
+VALUES (43940, 4, 43912, -1, 0, 0, False) /* Create Acid Natural Resistance (43912) for Shop */
+     , (43940, 4, 43913, -1, 0, 0, False) /* Create Fire Natural Resistance (43913) for Shop */
+     , (43940, 4, 43920, -1, 0, 0, False) /* Create Cold Natural Resistance (43920) for Shop */
+     , (43940, 4, 43914, -1, 0, 0, False) /* Create Electrical Natural Resistance (43914) for Shop */
+     , (43940, 4, 43923, -1, 0, 0, False) /* Create Bludgeon Natural Resistance (43923) for Shop */
+     , (43940, 4, 43922, -1, 0, 0, False) /* Create Piercing Natural Resistance (43922) for Shop */
+     , (43940, 4, 43921, -1, 0, 0, False) /* Create Slashing Natural Resistance (43921) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43940, 67109558, 0, 24)

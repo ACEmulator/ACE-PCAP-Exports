@@ -61,9 +61,9 @@ VALUES (51986,   1, 500, 0, 0) /* Strength */
      , (51986,   6, 600, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (51986,   1,    10, 0, 0, 250000) /* MaxHealth */
-     , (51986,   3,    10, 0, 0, 99900) /* MaxStamina */
-     , (51986,   5,    10, 0, 0, 100000) /* MaxMana */;
+VALUES (51986,   1, 249750, 0, 0, 250000) /* MaxHealth */
+     , (51986,   3, 99400, 0, 0, 99900) /* MaxStamina */
+     , (51986,   5, 99400, 0, 0, 100000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51986, 9, 52008,  0, 0, 0, False) /* Create Shard of the Curator of Torment's Mask (52008) for ContainTreasure */;

@@ -69,9 +69,9 @@ VALUES (34010,   1, 210, 0, 0) /* Strength */
      , (34010,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34010,   1,    10, 0, 0, 95) /* MaxHealth */
-     , (34010,   3,    10, 0, 0, 190) /* MaxStamina */
-     , (34010,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (34010,   1,     0, 0, 0, 95) /* MaxHealth */
+     , (34010,   3,     0, 0, 0, 190) /* MaxStamina */
+     , (34010,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34010, 2, 34024,  1, 0, 0, False) /* Create Silifi of Crimson Night (34024) for Wield */;

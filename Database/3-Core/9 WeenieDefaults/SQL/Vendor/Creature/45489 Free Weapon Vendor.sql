@@ -65,16 +65,16 @@ VALUES (45489,   1, 680, 0, 0) /* Strength */
      , (45489,   6, 585, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (45489,   1,    10, 0, 0, 1120) /* MaxHealth */
-     , (45489,   3,    10, 0, 0, 1491) /* MaxStamina */
-     , (45489,   5,    10, 0, 0, 1085) /* MaxMana */;
+VALUES (45489,   1,   800, 0, 0, 1120) /* MaxHealth */
+     , (45489,   3,   851, 0, 0, 1491) /* MaxStamina */
+     , (45489,   5,   500, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45489, 4, 34024, -1, 0, 0, False) /* Create Silifi of Crimson Night (34024) for Shop */
      , (45489, 4, 45523, -1, 0, 0, False) /* Create Soul Bound Axe (45523) for Shop */
      , (45489, 4, 45524, -1, 0, 0, False) /* Create Soul Bound Claw (45524) for Shop */
      , (45489, 4, 45525, -1, 0, 0, False) /* Create Soul Bound Dagger (45525) for Shop */
-     , (45489, 4, 45526, -1, 0, 0, False) /* Create  (45526) for Shop */
+     , (45489, 4, 45526, -1, 0, 0, False) /* Create Soul Bound Mace (45526) for Shop */
      , (45489, 4, 45527, -1, 0, 0, False) /* Create Soul Bound Spear (45527) for Shop */
      , (45489, 4, 45528, -1, 0, 0, False) /* Create Soul Bound Staff (45528) for Shop */
      , (45489, 4, 45529, -1, 0, 0, False) /* Create Soul Bound Sword (45529) for Shop */
@@ -107,7 +107,7 @@ VALUES (45489, 4, 34024, -1, 0, 0, False) /* Create Silifi of Crimson Night (340
      , (45489, 4, 43041, -1, 0, 0, False) /* Create Paradox-touched Olthoi Staff (43041) for Shop */
      , (45489, 4, 35916, -1, 0, 0, False) /* Create Paradox-touched Olthoi Sword (35916) for Shop */
      , (45489, 4, 32638, -1, 0, 0, False) /* Create Shadowfire Isparian Axe (32638) for Shop */
-     , (45489, 4, 32643, -1, 0, 0, False) /* Create  (32643) for Shop */
+     , (45489, 4, 32643, -1, 0, 0, False) /* Create Shadowfire Isparian Dagger (32643) for Shop */
      , (45489, 4, 32641, -1, 0, 0, False) /* Create Shadowfire Isparian Claw (32641) for Shop */
      , (45489, 4, 32644, -1, 0, 0, False) /* Create Shadowfire Isparian Mace (32644) for Shop */
      , (45489, 4, 32645, -1, 0, 0, False) /* Create Shadowfire Isparian Spear (32645) for Shop */

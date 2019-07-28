@@ -62,9 +62,9 @@ VALUES (49611,   1, 340, 0, 0) /* Strength */
      , (49611,   6, 440, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49611,   1,    10, 0, 0, 3330) /* MaxHealth */
-     , (49611,   3,    10, 0, 0, 5340) /* MaxStamina */
-     , (49611,   5,    10, 0, 0, 5440) /* MaxMana */;
+VALUES (49611,   1,  3160, 0, 0, 3330) /* MaxHealth */
+     , (49611,   3,  5000, 0, 0, 5340) /* MaxStamina */
+     , (49611,   5,  5000, 0, 0, 5440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49611, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */;

@@ -72,25 +72,25 @@ VALUES (840,   1,  45, 0, 0) /* Strength */
      , (840,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (840,   1,    10, 0, 0, 110) /* MaxHealth */
-     , (840,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (840,   5,    10, 0, 0, 115) /* MaxMana */;
+VALUES (840,   1,    80, 0, 0, 110) /* MaxHealth */
+     , (840,   3,    90, 0, 0, 150) /* MaxStamina */
+     , (840,   5,    80, 0, 0, 115) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (840, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (840, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (840, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (840, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
-     , (840, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (840, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (840, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (840, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (840, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (840, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (840, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (840, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (840, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (840, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (840, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (840, 4,  9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking (9319) for Shop */
      , (840, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
-     , (840, 4,  9124, -1, 0, 0, False) /* Create  (9124) for Shop */
-     , (840, 4, 27851, -1, 0, 0, False) /* Create  (27851) for Shop */;
+     , (840, 4,  9124, -1, 0, 0, False) /* Create The Beginning (9124) for Shop */
+     , (840, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity (27851) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (840, 67109969, 92, 4)

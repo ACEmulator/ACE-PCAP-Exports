@@ -55,9 +55,9 @@ VALUES (27716,   1, 350, 0, 0) /* Strength */
      , (27716,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27716,   1,    10, 0, 0, 375) /* MaxHealth */
-     , (27716,   3,    10, 0, 0, 410) /* MaxStamina */
-     , (27716,   5,    10, 0, 0, 120) /* MaxMana */;
+VALUES (27716,   1,   270, 0, 0, 375) /* MaxHealth */
+     , (27716,   3,   200, 0, 0, 410) /* MaxStamina */
+     , (27716,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27716, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */

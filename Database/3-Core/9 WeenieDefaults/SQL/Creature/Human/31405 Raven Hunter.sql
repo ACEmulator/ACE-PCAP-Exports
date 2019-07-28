@@ -61,9 +61,9 @@ VALUES (31405,   1, 300, 0, 0) /* Strength */
      , (31405,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31405,   1,    10, 0, 0, 3000) /* MaxHealth */
-     , (31405,   3,    10, 0, 0, 4000) /* MaxStamina */
-     , (31405,   5,    10, 0, 0, 3000) /* MaxMana */;
+VALUES (31405,   1,  2800, 0, 0, 3000) /* MaxHealth */
+     , (31405,   3,  3600, 0, 0, 4000) /* MaxStamina */
+     , (31405,   5,  2700, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31405, 2, 31385,  1, 0, 0, False) /* Create Raven Crossbow (31385) for Wield */

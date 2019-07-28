@@ -73,9 +73,9 @@ VALUES (49598,   1,  90, 0, 0) /* Strength */
      , (49598,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49598,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (49598,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (49598,   5,    10, 0, 0, 215) /* MaxMana */;
+VALUES (49598,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (49598,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (49598,   5,   130, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49598, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) for Shop */
@@ -155,7 +155,7 @@ VALUES (49598, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (49598, 4,  9627, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude IV (9627) for Shop */
      , (49598, 4,  3335, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Other IV (3335) for Shop */
      , (49598, 4,  3340, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Self IV (3340) for Shop */
-     , (49598, 4,  3345, -1, 0, 0, False) /* Create  (3345) for Shop */
+     , (49598, 4,  3345, -1, 0, 0, False) /* Create Scroll of Leaden Feet IV (3345) for Shop */
      , (49598, 4,  3350, -1, 0, 0, False) /* Create Scroll of Leadership Ineptitude IV (3350) for Shop */
      , (49598, 4,  3355, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Other IV (3355) for Shop */
      , (49598, 4,  3360, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Self IV (3360) for Shop */

@@ -56,9 +56,9 @@ VALUES (25348,   1, 205, 0, 0) /* Strength */
      , (25348,   6, 360, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25348,   1,    10, 0, 0, 1800) /* MaxHealth */
-     , (25348,   3,    10, 0, 0, 2298) /* MaxStamina */
-     , (25348,   5,    10, 0, 0, 1360) /* MaxMana */;
+VALUES (25348,   1,  1650, 0, 0, 1800) /* MaxHealth */
+     , (25348,   3,  2000, 0, 0, 2300) /* MaxStamina */
+     , (25348,   5,  1000, 0, 0, 1360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25348, 2, 48100,  1, 0, 0, False) /* Create Khopesh (48100) for Wield */

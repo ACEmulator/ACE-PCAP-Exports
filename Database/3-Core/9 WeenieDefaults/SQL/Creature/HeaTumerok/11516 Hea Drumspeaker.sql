@@ -55,9 +55,9 @@ VALUES (11516,   1,  80, 0, 0) /* Strength */
      , (11516,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11516,   1,    10, 0, 0, 85) /* MaxHealth */
-     , (11516,   3,    10, 0, 0, 166) /* MaxStamina */
-     , (11516,   5,    10, 0, 0, 130) /* MaxMana */;
+VALUES (11516,   1,    50, 0, 0, 85) /* MaxHealth */
+     , (11516,   3,   100, 0, 0, 170) /* MaxStamina */
+     , (11516,   5,     0, 0, 0, 130) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11516, 2, 23676,  1, 0, 0, False) /* Create Katar (23676) for Wield */

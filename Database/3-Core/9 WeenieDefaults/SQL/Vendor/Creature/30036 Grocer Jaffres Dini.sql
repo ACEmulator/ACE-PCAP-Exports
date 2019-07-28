@@ -72,9 +72,9 @@ VALUES (30036,   1,  45, 0, 0) /* Strength */
      , (30036,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30036,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (30036,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (30036,   5,    10, 0, 0, 155) /* MaxMana */;
+VALUES (30036,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (30036,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (30036,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30036, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
@@ -97,14 +97,14 @@ VALUES (30036, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (30036, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
      , (30036, 4, 29144, -1, 0, 0, False) /* Create Empty Stopped Keg (29144) for Shop */
      , (30036, 4, 29180, -1, 0, 0, False) /* Create Empty Bottles (29180) for Shop */
-     , (30036, 4, 29160, -1, 0, 0, False) /* Create  (29160) for Shop */
-     , (30036, 4, 29159, -1, 0, 0, False) /* Create  (29159) for Shop */
-     , (30036, 4, 29126, -1, 0, 0, False) /* Create  (29126) for Shop */
+     , (30036, 4, 29160, -1, 0, 0, False) /* Create Rancid Yeast (29160) for Shop */
+     , (30036, 4, 29159, -1, 0, 0, False) /* Create Liquid Yeast (29159) for Shop */
+     , (30036, 4, 29126, -1, 0, 0, False) /* Create Spoiled Barley (29126) for Shop */
      , (30036, 4, 29124, -1, 0, 0, False) /* Create Plain Barley (29124) for Shop */
      , (30036, 4, 29123, -1, 0, 0, False) /* Create Amber Barley (29123) for Shop */
-     , (30036, 4, 29129, -1, 0, 0, False) /* Create  (29129) for Shop */
+     , (30036, 4, 29129, -1, 0, 0, False) /* Create Ruined Hops (29129) for Shop */
      , (30036, 4, 29127, -1, 0, 0, False) /* Create Brown Hops (29127) for Shop */
-     , (30036, 4, 29128, -1, 0, 0, False) /* Create  (29128) for Shop */
+     , (30036, 4, 29128, -1, 0, 0, False) /* Create Green Hops (29128) for Shop */
      , (30036, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30036, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30036, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

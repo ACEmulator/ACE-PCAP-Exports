@@ -52,9 +52,9 @@ VALUES (52308,   1, 292, 0, 0) /* Strength */
      , (52308,   6, 342, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (52308,   1,    10, 0, 0, 2500) /* MaxHealth */
-     , (52308,   3,    10, 0, 0, 3998) /* MaxStamina */
-     , (52308,   5,    10, 0, 0, 3042) /* MaxMana */;
+VALUES (52308,   1,  2301, 0, 0, 2500) /* MaxHealth */
+     , (52308,   3,  3600, 0, 0, 3998) /* MaxStamina */
+     , (52308,   5,  2700, 0, 0, 3042) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52308, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */

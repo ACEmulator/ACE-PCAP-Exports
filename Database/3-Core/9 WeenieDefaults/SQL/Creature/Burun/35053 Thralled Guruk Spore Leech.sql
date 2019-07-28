@@ -53,9 +53,9 @@ VALUES (35053,   1, 620, 0, 0) /* Strength */
      , (35053,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35053,   1,    10, 0, 0, 1150) /* MaxHealth */
-     , (35053,   3,    10, 0, 0, 1959) /* MaxStamina */
-     , (35053,   5,    10, 0, 0, 200) /* MaxMana */;
+VALUES (35053,   1,   300, 0, 0, 1150) /* MaxHealth */
+     , (35053,   3,   260, 0, 0, 1960) /* MaxStamina */
+     , (35053,   5,     0, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35053, 2, 27868,  1, 0, 0, False) /* Create Stone Axe (27868) for Wield */

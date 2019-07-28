@@ -57,9 +57,9 @@ VALUES (30755,   1, 160, 0, 0) /* Strength */
      , (30755,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30755,   1,    10, 0, 0, 985) /* MaxHealth */
-     , (30755,   3,    10, 0, 0, 720) /* MaxStamina */
-     , (30755,   5,    10, 0, 0, 610) /* MaxMana */;
+VALUES (30755,   1,   900, 0, 0, 985) /* MaxHealth */
+     , (30755,   3,   550, 0, 0, 720) /* MaxStamina */
+     , (30755,   5,   400, 0, 0, 610) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30755, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;

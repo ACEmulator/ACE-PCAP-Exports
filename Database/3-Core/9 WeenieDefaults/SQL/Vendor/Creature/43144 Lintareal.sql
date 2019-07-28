@@ -65,9 +65,9 @@ VALUES (43144,   1, 220, 0, 0) /* Strength */
      , (43144,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43144,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (43144,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (43144,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (43144,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (43144,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (43144,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43144, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
@@ -76,7 +76,7 @@ VALUES (43144, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containmen
      , (43144, 4, 43141, -1, 0, 0, False) /* Create Aegis of the Gold Gear (43141) for Shop */
      , (43144, 4, 43143, -1, 0, 0, False) /* Create Scroll of Gear Knight Invasion Area Camp Recall (43143) for Shop */
      , (43144, 4, 43149, -1, 0, 0, False) /* Create Crate of Gear Blade Slashing Arrowheads (43149) for Shop */
-     , (43144, 4, 43947, -1, 0, 0, False) /* Create  (43947) for Shop */
-     , (43144, 4, 43948, -1, 0, 0, False) /* Create  (43948) for Shop */
-     , (43144, 4, 43949, -1, 0, 0, False) /* Create  (43949) for Shop */
-     , (43144, 4, 43950, -1, 0, 0, False) /* Create  (43950) for Shop */;
+     , (43144, 4, 43947, -1, 0, 0, False) /* Create Sealed crate of Salvaged Black Garnet (43947) for Shop */
+     , (43144, 4, 43948, -1, 0, 0, False) /* Create Sealed crate of Salvaged Jet (43948) for Shop */
+     , (43144, 4, 43949, -1, 0, 0, False) /* Create Sealed crate of Salvaged Red Garnet (43949) for Shop */
+     , (43144, 4, 43950, -1, 0, 0, False) /* Create Sealed crate of Salvaged Sandstone (43950) for Shop */;

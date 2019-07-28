@@ -72,22 +72,22 @@ VALUES (44186,   1, 110, 0, 0) /* Strength */
      , (44186,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44186,   1,    10, 0, 0, 228) /* MaxHealth */
-     , (44186,   3,    10, 0, 0, 275) /* MaxStamina */
-     , (44186,   5,    10, 0, 0, 190) /* MaxMana */;
+VALUES (44186,   1,   181, 0, 0, 228) /* MaxHealth */
+     , (44186,   3,   180, 0, 0, 275) /* MaxStamina */
+     , (44186,   5,    90, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44186, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
      , (44186, 4, 44146, -1, 0, 0, False) /* Create Contract for Frozen Fury (44146) for Shop */
      , (44186, 4, 44157, -1, 0, 0, False) /* Create Contract for Assault (Low) (44157) for Shop */
      , (44186, 4, 44155, -1, 0, 0, False) /* Create Contract for Banderling Haunt (44155) for Shop */
-     , (44186, 4, 44158, -1, 0, 0, False) /* Create  (44158) for Shop */
-     , (44186, 4, 44143, -1, 0, 0, False) /* Create  (44143) for Shop */
-     , (44186, 4, 44159, -1, 0, 0, False) /* Create  (44159) for Shop */
-     , (44186, 4, 44160, -1, 0, 0, False) /* Create  (44160) for Shop */
-     , (44186, 4, 44180, -1, 0, 0, False) /* Create  (44180) for Shop */
-     , (44186, 4, 44144, -1, 0, 0, False) /* Create  (44144) for Shop */
-     , (44186, 4, 44145, -1, 0, 0, False) /* Create  (44145) for Shop */
+     , (44186, 4, 44158, -1, 0, 0, False) /* Create Contract for Assault (Mid) (44158) for Shop */
+     , (44186, 4, 44143, -1, 0, 0, False) /* Create Contract for Glenden Wood Invasion (Low) (44143) for Shop */
+     , (44186, 4, 44159, -1, 0, 0, False) /* Create Contract for Assault (High) (44159) for Shop */
+     , (44186, 4, 44160, -1, 0, 0, False) /* Create Contract for Assault (Expert) (44160) for Shop */
+     , (44186, 4, 44180, -1, 0, 0, False) /* Create Contract for Lost Pet (44180) for Shop */
+     , (44186, 4, 44144, -1, 0, 0, False) /* Create Contract for Glenden Wood Invasion (Mid) (44144) for Shop */
+     , (44186, 4, 44145, -1, 0, 0, False) /* Create Contract for Glenden Wood Invasion (High) (44145) for Shop */
      , (44186, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (44186, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (44186, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

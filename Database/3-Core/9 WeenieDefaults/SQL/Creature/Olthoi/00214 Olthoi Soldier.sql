@@ -55,9 +55,9 @@ VALUES (214,   1, 280, 0, 0) /* Strength */
      , (214,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (214,   1,    10, 0, 0, 190) /* MaxHealth */
-     , (214,   3,    10, 0, 0, 430) /* MaxStamina */
-     , (214,   5,    10, 0, 0, 30) /* MaxMana */;
+VALUES (214,   1,    50, 0, 0, 190) /* MaxHealth */
+     , (214,   3,   150, 0, 0, 430) /* MaxStamina */
+     , (214,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (214, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */

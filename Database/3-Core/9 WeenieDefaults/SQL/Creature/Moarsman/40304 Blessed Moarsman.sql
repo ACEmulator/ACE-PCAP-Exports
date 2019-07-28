@@ -57,9 +57,9 @@ VALUES (40304,   1, 240, 0, 0) /* Strength */
      , (40304,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40304,   1,    10, 0, 0, 1270) /* MaxHealth */
-     , (40304,   3,    10, 0, 0, 1740) /* MaxStamina */
-     , (40304,   5,    10, 0, 0, 690) /* MaxMana */;
+VALUES (40304,   1,  1150, 0, 0, 1270) /* MaxHealth */
+     , (40304,   3,  1500, 0, 0, 1740) /* MaxStamina */
+     , (40304,   5,   500, 0, 0, 690) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40304, 9, 49342,  0, 0, 0, False) /* Create Acid Moar Essence (150) (49342) for ContainTreasure */

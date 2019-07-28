@@ -73,9 +73,9 @@ VALUES (49599,   1,  90, 0, 0) /* Strength */
      , (49599,   6,  85, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49599,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (49599,   3,    10, 0, 0, 180) /* MaxStamina */
-     , (49599,   5,    10, 0, 0, 215) /* MaxMana */;
+VALUES (49599,   1,   110, 0, 0, 150) /* MaxHealth */
+     , (49599,   3,   100, 0, 0, 180) /* MaxStamina */
+     , (49599,   5,   130, 0, 0, 215) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49599, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for Shop */

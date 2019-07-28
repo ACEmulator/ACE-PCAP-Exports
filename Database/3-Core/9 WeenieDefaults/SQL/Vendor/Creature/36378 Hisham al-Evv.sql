@@ -73,44 +73,44 @@ VALUES (36378,   1, 220, 0, 0) /* Strength */
      , (36378,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36378,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (36378,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (36378,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (36378,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (36378,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (36378,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36378, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
-     , (36378, 4, 36632, -1, 0, 0, False) /* Create  (36632) for Shop */
+     , (36378, 4, 36632, -1, 0, 0, False) /* Create Olthoi Shield Armor Augmentation (36632) for Shop */
      , (36378, 4, 36633, -1, 0, 0, False) /* Create Missile Defense Weapon Augmentation (36633) for Shop */
-     , (36378, 4, 36364, -1, 0, 0, False) /* Create  (36364) for Shop */
-     , (36378, 4, 36365, -1, 0, 0, False) /* Create  (36365) for Shop */
+     , (36378, 4, 36364, -1, 0, 0, False) /* Create Chimeric Atlatl of the Quiddity Summoning Gem (36364) for Shop */
+     , (36378, 4, 36365, -1, 0, 0, False) /* Create Chimeric Axe of the Quiddity Summoning Gem (36365) for Shop */
      , (36378, 4, 36366, -1, 0, 0, False) /* Create Chimeric Bow of the Quiddity Summoning Gem (36366) for Shop */
      , (36378, 4, 36367, -1, 0, 0, False) /* Create Chimeric Balister of the Quiddity Summoning Gem (36367) for Shop */
-     , (36378, 4, 36368, -1, 0, 0, False) /* Create  (36368) for Shop */
-     , (36378, 4, 36369, -1, 0, 0, False) /* Create  (36369) for Shop */
-     , (36378, 4, 36370, -1, 0, 0, False) /* Create  (36370) for Shop */
-     , (36378, 4, 36371, -1, 0, 0, False) /* Create  (36371) for Shop */
-     , (36378, 4, 36372, -1, 0, 0, False) /* Create  (36372) for Shop */
-     , (36378, 4, 36373, -1, 0, 0, False) /* Create  (36373) for Shop */
-     , (36378, 4, 41855, -1, 0, 0, False) /* Create  (41855) for Shop */
-     , (36378, 4, 36374, -1, 0, 0, False) /* Create  (36374) for Shop */
+     , (36378, 4, 36368, -1, 0, 0, False) /* Create Chimeric Dagger of the Quiddity Summoning Gem (36368) for Shop */
+     , (36378, 4, 36369, -1, 0, 0, False) /* Create Chimeric Mace of the Quiddity Summoning Gem (36369) for Shop */
+     , (36378, 4, 36370, -1, 0, 0, False) /* Create Chimeric Eye of the Quiddity Summoning Gem (36370) for Shop */
+     , (36378, 4, 36371, -1, 0, 0, False) /* Create Chimeric Lance of the Quiddity Summoning Gem (36371) for Shop */
+     , (36378, 4, 36372, -1, 0, 0, False) /* Create Chimeric Stave of the Quiddity Summoning Gem (36372) for Shop */
+     , (36378, 4, 36373, -1, 0, 0, False) /* Create Chimeric Blade of the Quiddity Summoning Gem (36373) for Shop */
+     , (36378, 4, 41855, -1, 0, 0, False) /* Create Chimeric Two Handed Blade of the Quiddity Summoning Gem (41855) for Shop */
+     , (36378, 4, 36374, -1, 0, 0, False) /* Create Chimeric Fist of the Quiddity Summoning Gem (36374) for Shop */
      , (36378, 4, 36377, -1, 0, 0, False) /* Create Scroll of 'Infested Area' Recall (36377) for Shop */
-     , (36378, 4, 36375, -1, 0, 0, False) /* Create  (36375) for Shop */
+     , (36378, 4, 36375, -1, 0, 0, False) /* Create Crate of Olthoi Acid Arrowheads (36375) for Shop */
      , (36378, 4, 36634, -1, 0, 0, False) /* Create Foolproof (36634) for Shop */
      , (36378, 4, 36635, -1, 0, 0, False) /* Create Foolproof Yellow Topaz (36635) for Shop */
      , (36378, 4, 36636, -1, 0, 0, False) /* Create Foolproof Zircon (36636) for Shop */
      , (36378, 4, 38887, -1, 0, 0, False) /* Create Olthoi Veteran's Medal (38887) for Shop */
-     , (36378, 4, 41876, -1, 0, 0, False) /* Create  (41876) for Shop */
-     , (36378, 4, 41861, -1, 0, 0, False) /* Create  (41861) for Shop */
-     , (36378, 4, 41864, -1, 0, 0, False) /* Create  (41864) for Shop */
-     , (36378, 4, 41867, -1, 0, 0, False) /* Create  (41867) for Shop */
-     , (36378, 4, 41870, -1, 0, 0, False) /* Create  (41870) for Shop */
-     , (36378, 4, 41873, -1, 0, 0, False) /* Create  (41873) for Shop */
+     , (36378, 4, 41876, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Sapphire (41876) for Shop */
+     , (36378, 4, 41861, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Amber (41861) for Shop */
+     , (36378, 4, 41864, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Diamond (41864) for Shop */
+     , (36378, 4, 41867, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Gromnie Hide (41867) for Shop */
+     , (36378, 4, 41870, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Pyreal (41870) for Shop */
+     , (36378, 4, 41873, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Ruby (41873) for Shop */
      , (36378, 4, 39981, -1, 0, 0, False) /* Create Protective Leggings (39981) for Shop */
      , (36378, 4, 39982, -1, 0, 0, False) /* Create Protective Tunic (39982) for Shop */
      , (36378, 4, 40139, -1, 0, 0, False) /* Create Tome of Caustics (40139) for Shop */
      , (36378, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
      , (36378, 4, 41919, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41919) for Shop */
-     , (36378, 4, 40514, -1, 0, 0, False) /* Create  (40514) for Shop */;
+     , (36378, 4, 40514, -1, 0, 0, False) /* Create Inert Olthoibane Infusion (40514) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36378, 67109554, 0, 24)

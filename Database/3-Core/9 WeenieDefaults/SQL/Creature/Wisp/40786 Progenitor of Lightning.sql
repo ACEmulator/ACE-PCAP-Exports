@@ -51,9 +51,9 @@ VALUES (40786,   1, 200, 0, 0) /* Strength */
      , (40786,   6, 370, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40786,   1,    10, 0, 0, 3120) /* MaxHealth */
-     , (40786,   3,    10, 0, 0, 2220) /* MaxStamina */
-     , (40786,   5,    10, 0, 0, 490) /* MaxMana */;
+VALUES (40786,   1,  3020, 0, 0, 3120) /* MaxHealth */
+     , (40786,   3,  2020, 0, 0, 2220) /* MaxStamina */
+     , (40786,   5,   120, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40786, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */

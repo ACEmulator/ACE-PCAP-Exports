@@ -54,7 +54,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (33172, 8000, 3332568086) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33172,   1,    10, 0, 0, 2750) /* MaxHealth */;
+VALUES (33172,   1,     0, 0, 0, 2750) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33172, 2, 33083,  1, 0, 0, False) /* Create Shadow Blade (33083) for Wield */

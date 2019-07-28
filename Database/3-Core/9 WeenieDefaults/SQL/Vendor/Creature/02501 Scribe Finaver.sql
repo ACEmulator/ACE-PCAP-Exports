@@ -72,16 +72,16 @@ VALUES (2501,   1,  60, 0, 0) /* Strength */
      , (2501,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2501,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (2501,   3,    10, 0, 0, 165) /* MaxStamina */
-     , (2501,   5,    10, 0, 0, 270) /* MaxMana */;
+VALUES (2501,   1,   100, 0, 0, 135) /* MaxHealth */
+     , (2501,   3,    95, 0, 0, 165) /* MaxStamina */
+     , (2501,   5,   140, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2501, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (2501, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (2501, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (2501, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (2501, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
+     , (2501, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (2501, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2501, 4,   689, -1, 0, 0, False) /* Create Iron Scarab (689) for Shop */
      , (2501, 4,   686, -1, 0, 0, False) /* Create Copper Scarab (686) for Shop */
@@ -155,12 +155,12 @@ VALUES (2501, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (2501, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
      , (2501, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
      , (2501, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
-     , (2501, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (2501, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (2501, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (2501, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (2501, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (2501, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (2501, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (2501, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (2501, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (2501, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (2501, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (2501, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (2501, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (2501, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (2501, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
@@ -173,7 +173,7 @@ VALUES (2501, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (2501, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (2501, 4,  6062, -1, 0, 0, False) /* Create Faran Creature Apprentice Robe (6062) for Shop */
      , (2501, 4,  6065, -1, 0, 0, False) /* Create Faran Item Apprentice Robe (6065) for Shop */
-     , (2501, 4,  6068, -1, 0, 0, False) /* Create  (6068) for Shop */
+     , (2501, 4,  6068, -1, 0, 0, False) /* Create Faran Life Apprentice Robe (6068) for Shop */
      , (2501, 4,  6071, -1, 0, 0, False) /* Create Faran War Apprentice Robe (6071) for Shop */
      , (2501, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
      , (2501, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */

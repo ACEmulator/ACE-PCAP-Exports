@@ -72,9 +72,9 @@ VALUES (12242,   1,  55, 0, 0) /* Strength */
      , (12242,   6,  25, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (12242,   1,    10, 0, 0, 85) /* MaxHealth */
-     , (12242,   3,    10, 0, 0, 115) /* MaxStamina */
-     , (12242,   5,    10, 0, 0, 60) /* MaxMana */;
+VALUES (12242,   1,    60, 0, 0, 85) /* MaxHealth */
+     , (12242,   3,    65, 0, 0, 115) /* MaxStamina */
+     , (12242,   5,    35, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12242, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
@@ -110,11 +110,11 @@ VALUES (12242, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
      , (12242, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */
      , (12242, 4, 15825, -1, 0, 0, False) /* Create Pedestal (15825) for Shop */
      , (12242, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
-     , (12242, 4, 22098, -1, 0, 0, False) /* Create  (22098) for Shop */
+     , (12242, 4, 22098, -1, 0, 0, False) /* Create Chess Stamp (22098) for Shop */
      , (12242, 4, 22101, -1, 0, 0, False) /* Create Wi Stamp (22101) for Shop */
      , (12242, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12242, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
-     , (12242, 4, 25519, -1, 0, 0, False) /* Create  (25519) for Shop */;
+     , (12242, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12242, 67109550, 0, 24)

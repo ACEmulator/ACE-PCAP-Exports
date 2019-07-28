@@ -57,9 +57,9 @@ VALUES (35884,   1, 360, 0, 0) /* Strength */
      , (35884,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35884,   1,    10, 0, 0, 1570) /* MaxHealth */
-     , (35884,   3,    10, 0, 0, 1780) /* MaxStamina */
-     , (35884,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (35884,   1,  1390, 0, 0, 1570) /* MaxHealth */
+     , (35884,   3,  1420, 0, 0, 1780) /* MaxStamina */
+     , (35884,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35884, 9, 21294,  0, 0, 0, False) /* Create Scroll of Acid Arc VII (21294) for ContainTreasure */

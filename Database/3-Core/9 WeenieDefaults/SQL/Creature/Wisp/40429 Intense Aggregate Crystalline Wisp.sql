@@ -51,9 +51,9 @@ VALUES (40429,   1, 200, 0, 0) /* Strength */
      , (40429,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (40429,   1,    10, 0, 0, 2120) /* MaxHealth */
-     , (40429,   3,    10, 0, 0, 2220) /* MaxStamina */
-     , (40429,   5,    10, 0, 0, 1550) /* MaxMana */;
+VALUES (40429,   1,  2020, 0, 0, 2120) /* MaxHealth */
+     , (40429,   3,  2020, 0, 0, 2220) /* MaxStamina */
+     , (40429,   5,  1200, 0, 0, 1550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40429, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */

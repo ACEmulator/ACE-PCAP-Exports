@@ -70,9 +70,9 @@ VALUES (35907,   1, 185, 0, 0) /* Strength */
      , (35907,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35907,   1,    10, 0, 0, 88) /* MaxHealth */
-     , (35907,   3,    10, 0, 0, 125) /* MaxStamina */
-     , (35907,   5,    10, 0, 0, 110) /* MaxMana */;
+VALUES (35907,   1,    51, 0, 0, 88) /* MaxHealth */
+     , (35907,   3,    50, 0, 0, 125) /* MaxStamina */
+     , (35907,   5,    50, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35907, 2, 25547,  1, 0, 0, False) /* Create Greater Olthoi Shield (25547) for Wield */

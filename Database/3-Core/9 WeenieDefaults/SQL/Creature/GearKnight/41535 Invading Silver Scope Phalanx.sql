@@ -55,9 +55,9 @@ VALUES (41535,   1, 395, 0, 0) /* Strength */
      , (41535,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41535,   1,    10, 0, 0, 680) /* MaxHealth */
-     , (41535,   3,    10, 0, 0, 910) /* MaxStamina */
-     , (41535,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (41535,   1,   500, 0, 0, 680) /* MaxHealth */
+     , (41535,   3,   550, 0, 0, 910) /* MaxStamina */
+     , (41535,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41535, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wield */

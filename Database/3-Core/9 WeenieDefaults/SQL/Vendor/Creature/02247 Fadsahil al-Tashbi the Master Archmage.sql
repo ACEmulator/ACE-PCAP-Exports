@@ -72,9 +72,9 @@ VALUES (2247,   1, 150, 0, 0) /* Strength */
      , (2247,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2247,   1,    10, 0, 0, 210) /* MaxHealth */
-     , (2247,   3,    10, 0, 0, 320) /* MaxStamina */
-     , (2247,   5,    10, 0, 0, 530) /* MaxMana */;
+VALUES (2247,   1,   110, 0, 0, 210) /* MaxHealth */
+     , (2247,   3,   120, 0, 0, 320) /* MaxStamina */
+     , (2247,   5,   240, 0, 0, 530) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2247, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop */
@@ -148,7 +148,7 @@ VALUES (2247, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2247, 4,   743, -1, 0, 0, False) /* Create Cedar Talisman (743) for Shop */
      , (2247, 4,   748, -1, 0, 0, False) /* Create Oak Talisman (748) for Shop */
      , (2247, 4,   746, -1, 0, 0, False) /* Create Hazel Talisman (746) for Shop */
-     , (2247, 4, 25730, -1, 0, 0, False) /* Create  (25730) for Shop */
+     , (2247, 4, 25730, -1, 0, 0, False) /* Create Banyan Talisman (25730) for Shop */
      , (2247, 4,  1650, -1, 0, 0, False) /* Create Red Taper (1650) for Shop */
      , (2247, 4,  1649, -1, 0, 0, False) /* Create Pink Taper (1649) for Shop */
      , (2247, 4,  1648, -1, 0, 0, False) /* Create Orange Taper (1648) for Shop */
@@ -182,26 +182,26 @@ VALUES (2247, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2247, 4,  8330, -1, 0, 0, False) /* Create Pyreal Pea (8330) for Shop */
      , (2247, 4,  8294, -1, 0, 0, False) /* Create Hyssop Pea (8294) for Shop */
      , (2247, 4,  8295, -1, 0, 0, False) /* Create Mandrake Pea (8295) for Shop */
-     , (2247, 4,  8298, -1, 0, 0, False) /* Create  (8298) for Shop */
+     , (2247, 4,  8298, -1, 0, 0, False) /* Create Saffron Pea (8298) for Shop */
      , (2247, 4,  8287, -1, 0, 0, False) /* Create Damiana Pea (8287) for Shop */
-     , (2247, 4,  8296, -1, 0, 0, False) /* Create  (8296) for Shop */
+     , (2247, 4,  8296, -1, 0, 0, False) /* Create Mugwort Pea (8296) for Shop */
      , (2247, 4,  8285, -1, 0, 0, False) /* Create Bistort Pea (8285) for Shop */
-     , (2247, 4,  8300, -1, 0, 0, False) /* Create  (8300) for Shop */
+     , (2247, 4,  8300, -1, 0, 0, False) /* Create Wormwood Pea (8300) for Shop */
      , (2247, 4,  8284, -1, 0, 0, False) /* Create Amaranth Pea (8284) for Shop */
      , (2247, 4,  8291, -1, 0, 0, False) /* Create Ginseng Pea (8291) for Shop */
      , (2247, 4,  8292, -1, 0, 0, False) /* Create Hawthorn Pea (8292) for Shop */
-     , (2247, 4,  8289, -1, 0, 0, False) /* Create  (8289) for Shop */
-     , (2247, 4,  8290, -1, 0, 0, False) /* Create  (8290) for Shop */
+     , (2247, 4,  8289, -1, 0, 0, False) /* Create Eyebright Pea (8289) for Shop */
+     , (2247, 4,  8290, -1, 0, 0, False) /* Create Frankincense Pea (8290) for Shop */
      , (2247, 4,  8288, -1, 0, 0, False) /* Create Dragonsblood Pea (8288) for Shop */
      , (2247, 4,  8293, -1, 0, 0, False) /* Create Henbane Pea (8293) for Shop */
      , (2247, 4,  8286, -1, 0, 0, False) /* Create Comfrey Pea (8286) for Shop */
      , (2247, 4,  8301, -1, 0, 0, False) /* Create Yarrow Pea (8301) for Shop */
-     , (2247, 4,  8299, -1, 0, 0, False) /* Create  (8299) for Shop */
-     , (2247, 4,  8297, -1, 0, 0, False) /* Create  (8297) for Shop */
+     , (2247, 4,  8299, -1, 0, 0, False) /* Create Vervain Pea (8299) for Shop */
+     , (2247, 4,  8297, -1, 0, 0, False) /* Create Myrrh Pea (8297) for Shop */
      , (2247, 4,  8314, -1, 0, 0, False) /* Create Powdered Agate Pea (8314) for Shop */
      , (2247, 4,  8315, -1, 0, 0, False) /* Create Powdered Amber Pea (8315) for Shop */
      , (2247, 4,  8316, -1, 0, 0, False) /* Create Powdered Azurite Pea (8316) for Shop */
-     , (2247, 4,  8317, -1, 0, 0, False) /* Create  (8317) for Shop */
+     , (2247, 4,  8317, -1, 0, 0, False) /* Create Powdered Bloodstone Pea (8317) for Shop */
      , (2247, 4,  8318, -1, 0, 0, False) /* Create Powdered Carnelian Pea (8318) for Shop */
      , (2247, 4,  8319, -1, 0, 0, False) /* Create Powdered Hematite Pea (8319) for Shop */
      , (2247, 4,  8320, -1, 0, 0, False) /* Create Powdered Lapis Lazuli Pea (8320) for Shop */
@@ -232,7 +232,7 @@ VALUES (2247, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2247, 4,  8333, -1, 0, 0, False) /* Create Ashwood Pea (8333) for Shop */
      , (2247, 4,  8338, -1, 0, 0, False) /* Create Elder Pea (8338) for Shop */
      , (2247, 4,  8343, -1, 0, 0, False) /* Create Rowan Pea (8343) for Shop */
-     , (2247, 4,  8344, -1, 0, 0, False) /* Create  (8344) for Shop */
+     , (2247, 4,  8344, -1, 0, 0, False) /* Create Willow Pea (8344) for Shop */
      , (2247, 4,  8336, -1, 0, 0, False) /* Create Cedar Pea (8336) for Shop */
      , (2247, 4,  8341, -1, 0, 0, False) /* Create Oak Pea (8341) for Shop */
      , (2247, 4,  8339, -1, 0, 0, False) /* Create Hazel Pea (8339) for Shop */
@@ -255,12 +255,12 @@ VALUES (2247, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2247, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (2247, 4,  9342, -1, 0, 0, False) /* Create Concentrated Aqua Incanta (9342) for Shop */
      , (2247, 4,  9379, -1, 0, 0, False) /* Create Eye Dropper (9379) for Shop */
-     , (2247, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (2247, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (2247, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (2247, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (2247, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (2247, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (2247, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (2247, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (2247, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (2247, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (2247, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (2247, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (2247, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2247, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (2247, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

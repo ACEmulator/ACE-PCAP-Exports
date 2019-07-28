@@ -54,9 +54,9 @@ VALUES (2571,   1,  50, 0, 0) /* Strength */
      , (2571,   6,  60, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (2571,   1,    10, 0, 0, 60) /* MaxHealth */
+VALUES (2571,   1,    15, 0, 0, 60) /* MaxHealth */
      , (2571,   3,    10, 0, 0, 100) /* MaxStamina */
-     , (2571,   5,    10, 0, 0, 60) /* MaxMana */;
+     , (2571,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2571, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */

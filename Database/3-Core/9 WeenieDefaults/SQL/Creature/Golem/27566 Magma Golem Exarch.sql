@@ -57,9 +57,9 @@ VALUES (27566,   1, 280, 0, 0) /* Strength */
      , (27566,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27566,   1,    10, 0, 0, 5000) /* MaxHealth */
-     , (27566,   3,    10, 0, 0, 3277) /* MaxStamina */
-     , (27566,   5,    10, 0, 0, 358) /* MaxMana */;
+VALUES (27566,   1,  4860, 0, 0, 5000) /* MaxHealth */
+     , (27566,   3,  3000, 0, 0, 3280) /* MaxStamina */
+     , (27566,   5,   200, 0, 0, 380) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27566, 9, 49230,  0, 0, 0, False) /* Create Frost Skeleton Bushi Essence (125) (49230) for ContainTreasure */

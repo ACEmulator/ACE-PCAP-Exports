@@ -67,9 +67,9 @@ VALUES (30039,   1,  45, 0, 0) /* Strength */
      , (30039,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30039,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (30039,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (30039,   5,    10, 0, 0, 155) /* MaxMana */;
+VALUES (30039,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (30039,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (30039,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30039, 2, 12223,  1, 0, 0, False) /* Create Skull Wand (12223) for Wield */;

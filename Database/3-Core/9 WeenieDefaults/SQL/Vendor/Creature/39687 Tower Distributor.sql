@@ -72,18 +72,18 @@ VALUES (39687,   1, 220, 0, 0) /* Strength */
      , (39687,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (39687,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (39687,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (39687,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (39687,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (39687,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (39687,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (39687, 4, 39736, -1, 0, 0, False) /* Create  (39736) for Shop */
-     , (39687, 4, 39737, -1, 0, 0, False) /* Create  (39737) for Shop */
-     , (39687, 4, 39740, -1, 0, 0, False) /* Create  (39740) for Shop */
-     , (39687, 4, 39741, -1, 0, 0, False) /* Create  (39741) for Shop */
-     , (39687, 4, 39742, -1, 0, 0, False) /* Create  (39742) for Shop */
-     , (39687, 4, 39743, -1, 0, 0, False) /* Create  (39743) for Shop */
-     , (39687, 4, 39744, -1, 0, 0, False) /* Create  (39744) for Shop */;
+VALUES (39687, 4, 39736, -1, 0, 0, False) /* Create Archer Tower Token (39736) for Shop */
+     , (39687, 4, 39737, -1, 0, 0, False) /* Create Flame Bolt Tower Token (39737) for Shop */
+     , (39687, 4, 39740, -1, 0, 0, False) /* Create Trap Tower Token (39740) for Shop */
+     , (39687, 4, 39741, -1, 0, 0, False) /* Create Uber Tower Token (39741) for Shop */
+     , (39687, 4, 39742, -1, 0, 0, False) /* Create First Upgrade Token (39742) for Shop */
+     , (39687, 4, 39743, -1, 0, 0, False) /* Create Second Upgrade Token (39743) for Shop */
+     , (39687, 4, 39744, -1, 0, 0, False) /* Create Third Upgrade Token (39744) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39687, 67109555, 0, 24)

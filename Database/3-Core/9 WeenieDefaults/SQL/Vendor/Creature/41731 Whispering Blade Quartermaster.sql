@@ -73,23 +73,23 @@ VALUES (41731,   1, 220, 0, 0) /* Strength */
      , (41731,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (41731,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (41731,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (41731,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (41731,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (41731,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (41731,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41731, 4, 41718, -1, 0, 0, False) /* Create  (41718) for Shop */
-     , (41731, 4, 41719, -1, 0, 0, False) /* Create  (41719) for Shop */
-     , (41731, 4, 41721, -1, 0, 0, False) /* Create  (41721) for Shop */
-     , (41731, 4, 41722, -1, 0, 0, False) /* Create  (41722) for Shop */
-     , (41731, 4, 41723, -1, 0, 0, False) /* Create  (41723) for Shop */
-     , (41731, 4, 41724, -1, 0, 0, False) /* Create  (41724) for Shop */
+VALUES (41731, 4, 41718, -1, 0, 0, False) /* Create Atlatl Stamped Silveran Ingot (41718) for Shop */
+     , (41731, 4, 41719, -1, 0, 0, False) /* Create Axe Stamped Silveran Ingot (41719) for Shop */
+     , (41731, 4, 41721, -1, 0, 0, False) /* Create Casting Staff Stamped Silveran Ingot (41721) for Shop */
+     , (41731, 4, 41722, -1, 0, 0, False) /* Create Claw Stamped Silveran Ingot (41722) for Shop */
+     , (41731, 4, 41723, -1, 0, 0, False) /* Create Crossbow Stamped Silveran Ingot (41723) for Shop */
+     , (41731, 4, 41724, -1, 0, 0, False) /* Create Dagger Stamped Silveran Ingot (41724) for Shop */
      , (41731, 4, 41720, -1, 0, 0, False) /* Create Bow Stamped Silveran Ingot (41720) for Shop */
-     , (41731, 4, 41725, -1, 0, 0, False) /* Create  (41725) for Shop */
-     , (41731, 4, 41726, -1, 0, 0, False) /* Create  (41726) for Shop */
-     , (41731, 4, 41727, -1, 0, 0, False) /* Create  (41727) for Shop */
-     , (41731, 4, 41728, -1, 0, 0, False) /* Create  (41728) for Shop */
-     , (41731, 4, 41729, -1, 0, 0, False) /* Create  (41729) for Shop */;
+     , (41731, 4, 41725, -1, 0, 0, False) /* Create Mace Stamped Silveran Ingot (41725) for Shop */
+     , (41731, 4, 41726, -1, 0, 0, False) /* Create Spear Stamped Silveran Ingot (41726) for Shop */
+     , (41731, 4, 41727, -1, 0, 0, False) /* Create Staff Stamped Silveran Ingot (41727) for Shop */
+     , (41731, 4, 41728, -1, 0, 0, False) /* Create Sword Stamped Silveran Ingot (41728) for Shop */
+     , (41731, 4, 41729, -1, 0, 0, False) /* Create Two Handed Sword Stamped Silveran Ingot (41729) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41731, 67109556, 0, 24)

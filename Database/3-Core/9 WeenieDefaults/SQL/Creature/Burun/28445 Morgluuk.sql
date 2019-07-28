@@ -55,9 +55,9 @@ VALUES (28445,   1, 400, 0, 0) /* Strength */
      , (28445,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28445,   1,    10, 0, 0, 7500) /* MaxHealth */
-     , (28445,   3,    10, 0, 0, 4996) /* MaxStamina */
-     , (28445,   5,    10, 0, 0, 175) /* MaxMana */;
+VALUES (28445,   1,  7200, 0, 0, 7500) /* MaxHealth */
+     , (28445,   3,  4400, 0, 0, 5000) /* MaxStamina */
+     , (28445,   5,     0, 0, 0, 175) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28445, 9, 20237,  0, 0, 0, False) /* Create Scroll of Perseverance (20237) for ContainTreasure */

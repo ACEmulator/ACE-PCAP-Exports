@@ -55,9 +55,9 @@ VALUES (13,   1,  10, 0, 0) /* Strength */
      , (13,   6,  10, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (13,   1,    10, 0, 0, 10) /* MaxHealth */
-     , (13,   3,    10, 0, 0, 110) /* MaxStamina */
-     , (13,   5,    10, 0, 0, 10) /* MaxMana */;
+VALUES (13,   1,     5, 0, 0, 10) /* MaxHealth */
+     , (13,   3,   100, 0, 0, 110) /* MaxStamina */
+     , (13,   5,     0, 0, 0, 10) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */

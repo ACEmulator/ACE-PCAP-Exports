@@ -73,9 +73,9 @@ VALUES (24220,   1, 140, 0, 0) /* Strength */
      , (24220,   6,  95, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24220,   1,    10, 0, 0, 185) /* MaxHealth */
-     , (24220,   3,    10, 0, 0, 250) /* MaxStamina */
-     , (24220,   5,    10, 0, 0, 145) /* MaxMana */;
+VALUES (24220,   1,   120, 0, 0, 185) /* MaxHealth */
+     , (24220,   3,   120, 0, 0, 250) /* MaxStamina */
+     , (24220,   5,    50, 0, 0, 145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24220, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */

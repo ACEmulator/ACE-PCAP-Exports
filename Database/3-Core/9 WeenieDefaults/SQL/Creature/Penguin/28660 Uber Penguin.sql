@@ -55,9 +55,9 @@ VALUES (28660,   1, 300, 0, 0) /* Strength */
      , (28660,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (28660,   1,    10, 0, 0, 3500) /* MaxHealth */
-     , (28660,   3,    10, 0, 0, 2499) /* MaxStamina */
-     , (28660,   5,    10, 0, 0, 2372) /* MaxMana */;
+VALUES (28660,   1,  3350, 0, 0, 3500) /* MaxHealth */
+     , (28660,   3,  2200, 0, 0, 2500) /* MaxStamina */
+     , (28660,   5,  2150, 0, 0, 2500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28660, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */

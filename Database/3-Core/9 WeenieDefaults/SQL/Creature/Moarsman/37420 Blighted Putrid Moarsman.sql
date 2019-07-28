@@ -58,9 +58,9 @@ VALUES (37420,   1, 170, 0, 0) /* Strength */
      , (37420,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (37420,   1,    10, 0, 0, 405) /* MaxHealth */
-     , (37420,   3,    10, 0, 0, 570) /* MaxStamina */
-     , (37420,   5,    10, 0, 0, 220) /* MaxMana */;
+VALUES (37420,   1,   320, 0, 0, 405) /* MaxHealth */
+     , (37420,   3,   400, 0, 0, 570) /* MaxStamina */
+     , (37420,   5,   100, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37420, 9, 49436,  0, 0, 0, False) /* Create Fire Spectre Essence (80) (49436) for ContainTreasure */

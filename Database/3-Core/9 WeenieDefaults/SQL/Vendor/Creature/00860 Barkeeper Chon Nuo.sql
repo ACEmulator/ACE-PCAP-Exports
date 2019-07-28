@@ -72,9 +72,9 @@ VALUES (860,   1,  50, 0, 0) /* Strength */
      , (860,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (860,   1,    10, 0, 0, 75) /* MaxHealth */
-     , (860,   3,    10, 0, 0, 135) /* MaxStamina */
-     , (860,   5,    10, 0, 0, 65) /* MaxMana */;
+VALUES (860,   1,    50, 0, 0, 75) /* MaxHealth */
+     , (860,   3,    85, 0, 0, 135) /* MaxStamina */
+     , (860,   5,    45, 0, 0, 65) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (860, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
@@ -82,7 +82,7 @@ VALUES (860, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (860, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (860, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (860, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
-     , (860, 4,  2466, -1, 0, 0, False) /* Create  (2466) for Shop */
+     , (860, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
      , (860, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (860, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (860, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */

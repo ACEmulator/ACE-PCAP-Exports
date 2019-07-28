@@ -72,9 +72,9 @@ VALUES (1081,   1, 100, 0, 0) /* Strength */
      , (1081,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1081,   1,    10, 0, 0, 145) /* MaxHealth */
-     , (1081,   3,    10, 0, 0, 220) /* MaxStamina */
-     , (1081,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (1081,   1,   100, 0, 0, 145) /* MaxHealth */
+     , (1081,   3,   130, 0, 0, 220) /* MaxStamina */
+     , (1081,   5,    60, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1081, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */

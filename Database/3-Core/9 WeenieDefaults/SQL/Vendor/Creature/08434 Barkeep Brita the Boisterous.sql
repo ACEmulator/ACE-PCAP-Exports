@@ -72,9 +72,9 @@ VALUES (8434,   1, 150, 0, 0) /* Strength */
      , (8434,   6,  65, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8434,   1,    10, 0, 0, 108) /* MaxHealth */
-     , (8434,   3,    10, 0, 0, 215) /* MaxStamina */
-     , (8434,   5,    10, 0, 0, 95) /* MaxMana */;
+VALUES (8434,   1,    46, 0, 0, 108) /* MaxHealth */
+     , (8434,   3,    90, 0, 0, 215) /* MaxStamina */
+     , (8434,   5,    30, 0, 0, 95) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8434, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
@@ -86,8 +86,8 @@ VALUES (8434, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (8434, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (8434, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (8434, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
-     , (8434, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
-     , (8434, 4, 27792, -1, 0, 0, False) /* Create  (27792) for Shop */;
+     , (8434, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (8434, 4, 27792, -1, 0, 0, False) /* Create The Moars (27792) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8434, 67109560, 0, 24)

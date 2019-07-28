@@ -57,9 +57,9 @@ VALUES (49021,   1, 210, 0, 0) /* Strength */
      , (49021,   6, 170, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (49021,   1,    10, 0, 0, 1020) /* MaxHealth */
-     , (49021,   3,    10, 0, 0, 1340) /* MaxStamina */
-     , (49021,   5,    10, 0, 0, 920) /* MaxMana */;
+VALUES (49021,   1,   900, 0, 0, 1020) /* MaxHealth */
+     , (49021,   3,  1100, 0, 0, 1340) /* MaxStamina */
+     , (49021,   5,   750, 0, 0, 920) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49021, 2, 48990,  1, 0, 0, False) /* Create Flaming Hatchet (48990) for Wield */;

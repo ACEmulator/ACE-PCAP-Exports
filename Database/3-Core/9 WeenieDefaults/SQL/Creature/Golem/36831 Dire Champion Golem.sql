@@ -55,9 +55,9 @@ VALUES (36831,   1, 270, 0, 0) /* Strength */
      , (36831,   6, 180, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36831,   1,    10, 0, 0, 1500) /* MaxHealth */
-     , (36831,   3,    10, 0, 0, 1490) /* MaxStamina */
-     , (36831,   5,    10, 0, 0, 1455) /* MaxMana */;
+VALUES (36831,   1,  1365, 0, 0, 1500) /* MaxHealth */
+     , (36831,   3,  1220, 0, 0, 1490) /* MaxStamina */
+     , (36831,   5,  1275, 0, 0, 1455) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36831, 9, 20236,  0, 0, 0, False) /* Create Scroll of Temeritous Touch (20236) for ContainTreasure */

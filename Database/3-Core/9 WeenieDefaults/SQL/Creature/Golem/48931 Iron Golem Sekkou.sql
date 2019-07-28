@@ -57,9 +57,9 @@ VALUES (48931,   1, 520, 0, 0) /* Strength */
      , (48931,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (48931,   1,    10, 0, 0, 5250) /* MaxHealth */
-     , (48931,   3,    10, 0, 0, 4088) /* MaxStamina */
-     , (48931,   5,    10, 0, 0, 3000) /* MaxMana */;
+VALUES (48931,   1,  5000, 0, 0, 5250) /* MaxHealth */
+     , (48931,   3,  3600, 0, 0, 4100) /* MaxStamina */
+     , (48931,   5,  2700, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48931, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */;

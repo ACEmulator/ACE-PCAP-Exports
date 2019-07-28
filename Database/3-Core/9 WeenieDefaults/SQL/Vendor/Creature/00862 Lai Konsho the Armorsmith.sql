@@ -73,9 +73,9 @@ VALUES (862,   1, 120, 0, 0) /* Strength */
      , (862,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (862,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (862,   3,    10, 0, 0, 220) /* MaxStamina */
-     , (862,   5,    10, 0, 0, 90) /* MaxMana */;
+VALUES (862,   1,    95, 0, 0, 150) /* MaxHealth */
+     , (862,   3,   110, 0, 0, 220) /* MaxStamina */
+     , (862,   5,    60, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (862, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */

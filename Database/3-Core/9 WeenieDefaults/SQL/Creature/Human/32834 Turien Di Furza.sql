@@ -68,9 +68,9 @@ VALUES (32834,   1, 230, 0, 0) /* Strength */
      , (32834,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32834,   1,    10, 0, 0, 170) /* MaxHealth */
-     , (32834,   3,    10, 0, 0, 300) /* MaxStamina */
-     , (32834,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (32834,   1,    70, 0, 0, 170) /* MaxHealth */
+     , (32834,   3,   100, 0, 0, 300) /* MaxStamina */
+     , (32834,   5,    20, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32834, 2, 32782,  1, 0, 0, False) /* Create Shield of Sanamar (32782) for Wield */;

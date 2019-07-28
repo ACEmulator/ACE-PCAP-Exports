@@ -53,7 +53,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (38629, 8000, 3703872454) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (38629,   1,    10, 0, 0, 1500) /* MaxHealth */;
+VALUES (38629,   1,     0, 0, 0, 1500) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (38629, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */;

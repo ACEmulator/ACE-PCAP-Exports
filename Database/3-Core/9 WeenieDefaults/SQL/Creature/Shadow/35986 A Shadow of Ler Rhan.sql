@@ -64,9 +64,9 @@ VALUES (35986,   1, 455, 0, 0) /* Strength */
      , (35986,   6, 280, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35986,   1,    10, 0, 0, 50000) /* MaxHealth */
-     , (35986,   3,    10, 0, 0, 10000) /* MaxStamina */
-     , (35986,   5,    10, 0, 0, 10000) /* MaxMana */;
+VALUES (35986,   1, 49795, 0, 0, 50000) /* MaxHealth */
+     , (35986,   3,  9590, 0, 0, 10000) /* MaxStamina */
+     , (35986,   5,  9720, 0, 0, 10000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35986, 9, 30594,  0, 0, 0, False) /* Create Acid Partizan (30594) for ContainTreasure */

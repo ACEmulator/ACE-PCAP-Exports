@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (36525, 8000, 2448430951) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36525,   1,    10, 0, 0, 150000) /* MaxHealth */;
+VALUES (36525,   1,     0, 0, 0, 150000) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36525, 9, 36528,  0, 0, 0, False) /* Create Pumpkin King Token (36528) for ContainTreasure */;

@@ -55,9 +55,9 @@ VALUES (27715,   1, 330, 0, 0) /* Strength */
      , (27715,   6, 100, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27715,   1,    10, 0, 0, 320) /* MaxHealth */
-     , (27715,   3,    10, 0, 0, 350) /* MaxStamina */
-     , (27715,   5,    10, 0, 0, 100) /* MaxMana */;
+VALUES (27715,   1,   220, 0, 0, 320) /* MaxHealth */
+     , (27715,   3,   150, 0, 0, 350) /* MaxStamina */
+     , (27715,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27715, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */

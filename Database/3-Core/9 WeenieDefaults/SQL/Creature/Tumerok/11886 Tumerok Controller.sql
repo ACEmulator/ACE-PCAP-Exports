@@ -56,9 +56,9 @@ VALUES (11886,   1, 170, 0, 0) /* Strength */
      , (11886,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11886,   1,    10, 0, 0, 160) /* MaxHealth */
-     , (11886,   3,    10, 0, 0, 308) /* MaxStamina */
-     , (11886,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (11886,   1,    70, 0, 0, 160) /* MaxHealth */
+     , (11886,   3,   129, 0, 0, 309) /* MaxStamina */
+     , (11886,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11886, 2, 11778,  1, 0, 0, False) /* Create Reinforced Gromnie Spear (11778) for Wield */

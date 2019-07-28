@@ -56,9 +56,9 @@ VALUES (43163,   1, 320, 0, 0) /* Strength */
      , (43163,   6, 220, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43163,   1,    10, 0, 0, 1615) /* MaxHealth */
-     , (43163,   3,    10, 0, 0, 1530) /* MaxStamina */
-     , (43163,   5,    10, 0, 0, 1162) /* MaxMana */;
+VALUES (43163,   1,  1450, 0, 0, 1615) /* MaxHealth */
+     , (43163,   3,  1200, 0, 0, 1530) /* MaxStamina */
+     , (43163,   5,  1000, 0, 0, 1220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43163, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */

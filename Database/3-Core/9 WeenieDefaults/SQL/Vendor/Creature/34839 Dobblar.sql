@@ -72,9 +72,9 @@ VALUES (34839,   1,  40, 0, 0) /* Strength */
      , (34839,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (34839,   1,    10, 0, 0, 60) /* MaxHealth */
-     , (34839,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (34839,   5,    10, 0, 0, 50) /* MaxMana */;
+VALUES (34839,   1,    40, 0, 0, 60) /* MaxHealth */
+     , (34839,   3,   100, 0, 0, 140) /* MaxStamina */
+     , (34839,   5,    30, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34839, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
@@ -166,9 +166,9 @@ VALUES (34839, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (34839, 4, 34588, -1, 0, 0, False) /* Create Repugnant Spellcasting Staff (34588) for Shop */
      , (34839, 4, 34590, -1, 0, 0, False) /* Create Bone Sword (34590) for Shop */
      , (34839, 4, 34576, -1, 0, 0, False) /* Create Decorative Stone Axe (34576) for Shop */
-     , (34839, 4, 34577, -1, 0, 0, False) /* Create  (34577) for Shop */
-     , (34839, 4, 34578, -1, 0, 0, False) /* Create  (34578) for Shop */
-     , (34839, 4, 34579, -1, 0, 0, False) /* Create  (34579) for Shop */
+     , (34839, 4, 34577, -1, 0, 0, False) /* Create Decorative Tree Trunk Club (34577) for Shop */
+     , (34839, 4, 34578, -1, 0, 0, False) /* Create Decorative Repugnant Staff (34578) for Shop */
+     , (34839, 4, 34579, -1, 0, 0, False) /* Create Decorative Bone Sword (34579) for Shop */
      , (34839, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (34839, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (34839, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

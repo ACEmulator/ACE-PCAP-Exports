@@ -56,9 +56,9 @@ VALUES (25881,   1, 160, 0, 0) /* Strength */
      , (25881,   6, 270, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25881,   1,    10, 0, 0, 800) /* MaxHealth */
-     , (25881,   3,    10, 0, 0, 800) /* MaxStamina */
-     , (25881,   5,    10, 0, 0, 800) /* MaxMana */;
+VALUES (25881,   1,   720, 0, 0, 800) /* MaxHealth */
+     , (25881,   3,   640, 0, 0, 800) /* MaxStamina */
+     , (25881,   5,   530, 0, 0, 800) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25881, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */;

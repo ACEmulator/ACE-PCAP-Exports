@@ -65,26 +65,26 @@ VALUES (36519,   1, 680, 0, 0) /* Strength */
      , (36519,   6, 585, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36519,   1,    10, 0, 0, 1120) /* MaxHealth */
-     , (36519,   3,    10, 0, 0, 1491) /* MaxStamina */
-     , (36519,   5,    10, 0, 0, 1085) /* MaxMana */;
+VALUES (36519,   1,   800, 0, 0, 1120) /* MaxHealth */
+     , (36519,   3,   851, 0, 0, 1491) /* MaxStamina */
+     , (36519,   5,   500, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (36519, 4, 36515, -1, 0, 0, False) /* Create  (36515) for Shop */
+VALUES (36519, 4, 36515, -1, 0, 0, False) /* Create Wrapped Pyreal Sliver (36515) for Shop */
      , (36519, 4, 36517, -1, 0, 0, False) /* Create Wrapped Dark Sliver (36517) for Shop */
      , (36519, 4, 36516, -1, 0, 0, False) /* Create Wrapped Cracked Shard (36516) for Shop */
      , (36519, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
      , (36519, 4, 34449, -1, 0, 0, False) /* Create Colosseum Ticket (34449) for Shop */
-     , (36519, 4, 36544, -1, 0, 0, False) /* Create  (36544) for Shop */
-     , (36519, 4, 36543, -1, 0, 0, False) /* Create  (36543) for Shop */
-     , (36519, 4, 36565, -1, 0, 0, False) /* Create  (36565) for Shop */
-     , (36519, 4, 36575, -1, 0, 0, False) /* Create  (36575) for Shop */
-     , (36519, 4, 36564, -1, 0, 0, False) /* Create  (36564) for Shop */
-     , (36519, 4, 36569, -1, 0, 0, False) /* Create  (36569) for Shop */
-     , (36519, 4, 36567, -1, 0, 0, False) /* Create  (36567) for Shop */
-     , (36519, 4, 36563, -1, 0, 0, False) /* Create  (36563) for Shop */
-     , (36519, 4, 36566, -1, 0, 0, False) /* Create  (36566) for Shop */
-     , (36519, 4, 36568, -1, 0, 0, False) /* Create  (36568) for Shop */
+     , (36519, 4, 36544, -1, 0, 0, False) /* Create The Master Pass (36544) for Shop */
+     , (36519, 4, 36543, -1, 0, 0, False) /* Create Gladiator Diemos Pass (36543) for Shop */
+     , (36519, 4, 36565, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Green Garnet (36565) for Shop */
+     , (36519, 4, 36575, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Opal (36575) for Shop */
+     , (36519, 4, 36564, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Granite (36564) for Shop */
+     , (36519, 4, 36569, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Velvet (36569) for Shop */
+     , (36519, 4, 36567, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Mahogany (36567) for Shop */
+     , (36519, 4, 36563, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Brass (36563) for Shop */
+     , (36519, 4, 36566, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Iron (36566) for Shop */
+     , (36519, 4, 36568, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Steel (36568) for Shop */
      , (36519, 4, 36619, -1, 0, 0, False) /* Create Foolproof Aquamarine (36619) for Shop */
      , (36519, 4, 36620, -1, 0, 0, False) /* Create Foolproof (36620) for Shop */
      , (36519, 4, 36621, -1, 0, 0, False) /* Create Foolproof (36621) for Shop */
@@ -114,7 +114,7 @@ VALUES (36519, 4, 36515, -1, 0, 0, False) /* Create  (36515) for Shop */
      , (36519, 4, 36507, -1, 0, 0, False) /* Create Son of Pooky's Den (36507) for Shop */
      , (36519, 4, 36499, -1, 0, 0, False) /* Create Dark Monolith Caverns (36499) for Shop */
      , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
-     , (36519, 4, 42399, -1, 0, 0, False) /* Create  (42399) for Shop */
+     , (36519, 4, 42399, -1, 0, 0, False) /* Create Crate of Greater Deadly Blunt Arrowheads (42399) for Shop */
      , (36519, 4, 36542, -1, 0, 0, False) /* Create Scroll of Tusker Fists (36542) for Shop */
      , (36519, 4, 36537, -1, 0, 0, False) /* Create Scroll of Colosseum Recall (36537) for Shop */
      , (36519, 4, 38886, -1, 0, 0, False) /* Create Colosseum Medallion of Honor (38886) for Shop */
@@ -125,12 +125,12 @@ VALUES (36519, 4, 36515, -1, 0, 0, False) /* Create  (36515) for Shop */
      , (36519, 4, 40605, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40605) for Shop */
      , (36519, 4, 41917, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41917) for Shop */
      , (36519, 4, 40515, -1, 0, 0, False) /* Create Inert Shadowfire Infusion (40515) for Shop */
-     , (36519, 4, 41875, -1, 0, 0, False) /* Create  (41875) for Shop */
-     , (36519, 4, 41860, -1, 0, 0, False) /* Create  (41860) for Shop */
-     , (36519, 4, 41863, -1, 0, 0, False) /* Create  (41863) for Shop */
-     , (36519, 4, 41866, -1, 0, 0, False) /* Create  (41866) for Shop */
-     , (36519, 4, 41869, -1, 0, 0, False) /* Create  (41869) for Shop */
-     , (36519, 4, 41872, -1, 0, 0, False) /* Create  (41872) for Shop */;
+     , (36519, 4, 41875, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Sapphire (41875) for Shop */
+     , (36519, 4, 41860, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Amber (41860) for Shop */
+     , (36519, 4, 41863, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Diamond (41863) for Shop */
+     , (36519, 4, 41866, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Gromnie Hide (41866) for Shop */
+     , (36519, 4, 41869, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Pyreal (41869) for Shop */
+     , (36519, 4, 41872, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Ruby (41872) for Shop */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (36519, 0, 83894477, 83892431)

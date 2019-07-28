@@ -55,9 +55,9 @@ VALUES (11,   1, 170, 0, 0) /* Strength */
      , (11,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (11,   1,    10, 0, 0, 100) /* MaxHealth */
-     , (11,   3,    10, 0, 0, 290) /* MaxStamina */
-     , (11,   5,    10, 0, 0, 20) /* MaxMana */;
+VALUES (11,   1,    30, 0, 0, 100) /* MaxHealth */
+     , (11,   3,   150, 0, 0, 290) /* MaxStamina */
+     , (11,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for ContainTreasure */

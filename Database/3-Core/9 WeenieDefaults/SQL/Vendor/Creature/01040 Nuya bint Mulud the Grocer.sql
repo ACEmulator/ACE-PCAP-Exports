@@ -72,9 +72,9 @@ VALUES (1040,   1, 100, 0, 0) /* Strength */
      , (1040,   6,  50, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1040,   1,    10, 0, 0, 150) /* MaxHealth */
-     , (1040,   3,    10, 0, 0, 200) /* MaxStamina */
-     , (1040,   5,    10, 0, 0, 150) /* MaxMana */;
+VALUES (1040,   1,   100, 0, 0, 150) /* MaxHealth */
+     , (1040,   3,   100, 0, 0, 200) /* MaxStamina */
+     , (1040,   5,   100, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1040, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
@@ -82,7 +82,7 @@ VALUES (1040, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (1040, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (1040, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1040, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (1040, 4, 30734, -1, 0, 0, False) /* Create  (30734) for Shop */
+     , (1040, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas (30734) for Shop */
      , (1040, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (1040, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1040, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;

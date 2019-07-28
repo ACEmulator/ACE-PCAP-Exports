@@ -72,9 +72,9 @@ VALUES (1389,   1,  60, 0, 0) /* Strength */
      , (1389,   6,  20, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1389,   1,    10, 0, 0, 90) /* MaxHealth */
-     , (1389,   3,    10, 0, 0, 160) /* MaxStamina */
-     , (1389,   5,    10, 0, 0, 70) /* MaxMana */;
+VALUES (1389,   1,    55, 0, 0, 90) /* MaxHealth */
+     , (1389,   3,    90, 0, 0, 160) /* MaxStamina */
+     , (1389,   5,    50, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1389, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */

@@ -62,9 +62,9 @@ VALUES (42282,   1, 320, 0, 0) /* Strength */
      , (42282,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (42282,   1,    10, 0, 0, 7225) /* MaxHealth */
-     , (42282,   3,    10, 0, 0, 7437) /* MaxStamina */
-     , (42282,   5,    10, 0, 0, 10254) /* MaxMana */;
+VALUES (42282,   1,  7000, 0, 0, 7225) /* MaxHealth */
+     , (42282,   3,  7000, 0, 0, 7450) /* MaxStamina */
+     , (42282,   5, 10000, 0, 0, 10320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42282, 2, 38855,  1, 0, 0, False) /* Create Eldrytch Web Blade (38855) for Wield */

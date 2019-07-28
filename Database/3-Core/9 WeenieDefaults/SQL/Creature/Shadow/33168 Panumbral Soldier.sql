@@ -64,9 +64,9 @@ VALUES (33168,   1, 180, 0, 0) /* Strength */
      , (33168,   6, 130, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (33168,   1,    10, 0, 0, 2750) /* MaxHealth */
-     , (33168,   3,    10, 0, 0, 2920) /* MaxStamina */
-     , (33168,   5,    10, 0, 0, 2870) /* MaxMana */;
+VALUES (33168,   1,  2650, 0, 0, 2750) /* MaxHealth */
+     , (33168,   3,  2720, 0, 0, 2920) /* MaxStamina */
+     , (33168,   5,  2740, 0, 0, 2870) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33168, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */

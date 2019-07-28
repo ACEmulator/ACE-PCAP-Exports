@@ -55,8 +55,8 @@ VALUES (2580,   1, 100, 0, 0) /* Strength */
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (2580,   1,    10, 0, 0, 65) /* MaxHealth */
-     , (2580,   3,    10, 0, 0, 310) /* MaxStamina */
-     , (2580,   5,    10, 0, 0, 50) /* MaxMana */;
+     , (2580,   3,   200, 0, 0, 310) /* MaxStamina */
+     , (2580,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2580, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */

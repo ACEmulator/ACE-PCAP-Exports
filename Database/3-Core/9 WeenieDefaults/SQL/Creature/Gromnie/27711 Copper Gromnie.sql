@@ -57,9 +57,9 @@ VALUES (27711,   1, 320, 0, 0) /* Strength */
      , (27711,   6, 200, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (27711,   1,    10, 0, 0, 410) /* MaxHealth */
-     , (27711,   3,    10, 0, 0, 480) /* MaxStamina */
-     , (27711,   5,    10, 0, 0, 200) /* MaxMana */;
+VALUES (27711,   1,   210, 0, 0, 410) /* MaxHealth */
+     , (27711,   3,    80, 0, 0, 480) /* MaxStamina */
+     , (27711,   5,     0, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27711, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */

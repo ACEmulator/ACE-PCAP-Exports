@@ -73,9 +73,9 @@ VALUES (30035,   1,  45, 0, 0) /* Strength */
      , (30035,   6,  35, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30035,   1,    10, 0, 0, 135) /* MaxHealth */
-     , (30035,   3,    10, 0, 0, 140) /* MaxStamina */
-     , (30035,   5,    10, 0, 0, 155) /* MaxMana */;
+VALUES (30035,   1,   110, 0, 0, 135) /* MaxHealth */
+     , (30035,   3,    90, 0, 0, 140) /* MaxStamina */
+     , (30035,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30035, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */
@@ -85,7 +85,7 @@ VALUES (30035, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */
      , (30035, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (30035, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (30035, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (30035, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (30035, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
      , (30035, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
      , (30035, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (30035, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */

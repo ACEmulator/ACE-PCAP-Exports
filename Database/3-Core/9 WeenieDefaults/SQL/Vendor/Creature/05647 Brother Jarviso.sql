@@ -72,9 +72,9 @@ VALUES (5647,   1, 130, 0, 0) /* Strength */
      , (5647,   6, 160, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5647,   1,    10, 0, 0, 63) /* MaxHealth */
-     , (5647,   3,    10, 0, 0, 125) /* MaxStamina */
-     , (5647,   5,    10, 0, 0, 160) /* MaxMana */;
+VALUES (5647,   1,     1, 0, 0, 63) /* MaxHealth */
+     , (5647,   3,     0, 0, 0, 125) /* MaxStamina */
+     , (5647,   5,     0, 0, 0, 160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5647, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
@@ -90,11 +90,11 @@ VALUES (5647, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (5647, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (5647, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (5647, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
-     , (5647, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (5647, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
-     , (5647, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
-     , (5647, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
-     , (5647, 4,  5645, -1, 0, 0, False) /* Create  (5645) for Shop */
+     , (5647, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
+     , (5647, 4,  4601, -1, 0, 0, False) /* Create Strength Other II (4601) for Shop */
+     , (5647, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (5647, 4,  4605, -1, 0, 0, False) /* Create Coordination Other II (4605) for Shop */
+     , (5647, 4,  5645, -1, 0, 0, False) /* Create History of Neydisa Castle. (5645) for Shop */
      , (5647, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5647, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

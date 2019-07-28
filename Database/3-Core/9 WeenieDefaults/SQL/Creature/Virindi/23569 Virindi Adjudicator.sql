@@ -51,9 +51,9 @@ VALUES (23569,   1, 300, 0, 0) /* Strength */
      , (23569,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (23569,   1,    10, 0, 0, 350) /* MaxHealth */
-     , (23569,   3,    10, 0, 0, 700) /* MaxStamina */
-     , (23569,   5,    10, 0, 0, 400) /* MaxMana */;
+VALUES (23569,   1,   225, 0, 0, 350) /* MaxHealth */
+     , (23569,   3,   450, 0, 0, 700) /* MaxStamina */
+     , (23569,   5,   100, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23569, 9,  3844,  0, 0, 0, False) /* Create Flaming Ono (3844) for ContainTreasure */

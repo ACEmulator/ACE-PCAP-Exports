@@ -73,9 +73,9 @@ VALUES (5423,   1,  80, 0, 0) /* Strength */
      , (5423,   6,  30, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (5423,   1,    10, 0, 0, 33) /* MaxHealth */
-     , (5423,   3,    10, 0, 0, 65) /* MaxStamina */
-     , (5423,   5,    10, 0, 0, 30) /* MaxMana */;
+VALUES (5423,   1,     3, 0, 0, 33) /* MaxHealth */
+     , (5423,   3,     5, 0, 0, 65) /* MaxStamina */
+     , (5423,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5423, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */

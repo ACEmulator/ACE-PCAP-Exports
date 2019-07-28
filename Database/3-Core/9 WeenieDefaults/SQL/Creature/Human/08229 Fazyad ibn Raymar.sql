@@ -69,9 +69,9 @@ VALUES (8229,   1, 170, 0, 0) /* Strength */
      , (8229,   6, 250, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (8229,   1,    10, 0, 0, 260) /* MaxHealth */
-     , (8229,   3,    10, 0, 0, 280) /* MaxStamina */
-     , (8229,   5,    10, 0, 0, 505) /* MaxMana */;
+VALUES (8229,   1,   175, 0, 0, 260) /* MaxHealth */
+     , (8229,   3,   110, 0, 0, 280) /* MaxStamina */
+     , (8229,   5,   255, 0, 0, 505) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8229, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */;

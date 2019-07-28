@@ -56,9 +56,9 @@ VALUES (43516,   1, 550, 0, 0) /* Strength */
      , (43516,   6, 410, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (43516,   1,    10, 0, 0, 1900) /* MaxHealth */
-     , (43516,   3,    10, 0, 0, 3990) /* MaxStamina */
-     , (43516,   5,    10, 0, 0, 1340) /* MaxMana */;
+VALUES (43516,   1,  1655, 0, 0, 1900) /* MaxHealth */
+     , (43516,   3,  3500, 0, 0, 3990) /* MaxStamina */
+     , (43516,   5,  1000, 0, 0, 1410) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43516, 2, 43397,  1, 0, 0, False) /* Create Frost Greataxe (43397) for Wield */;

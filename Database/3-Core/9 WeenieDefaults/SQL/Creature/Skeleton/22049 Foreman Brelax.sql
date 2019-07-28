@@ -53,9 +53,9 @@ VALUES (22049,   1, 195, 0, 0) /* Strength */
      , (22049,   6, 245, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (22049,   1,    10, 0, 0, 953) /* MaxHealth */
-     , (22049,   3,    10, 0, 0, 1201) /* MaxStamina */
-     , (22049,   5,    10, 0, 0, 745) /* MaxMana */;
+VALUES (22049,   1,   851, 0, 0, 953) /* MaxHealth */
+     , (22049,   3,  1000, 0, 0, 1205) /* MaxStamina */
+     , (22049,   5,   500, 0, 0, 745) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22049, 2, 47680,  1, 0, 0, False) /* Create Flaming Tachi (47680) for Wield */

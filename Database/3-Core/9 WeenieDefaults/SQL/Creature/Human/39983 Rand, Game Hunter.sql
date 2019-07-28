@@ -69,9 +69,9 @@ VALUES (39983,   1, 255, 0, 0) /* Strength */
      , (39983,   6,  90, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (39983,   1,    10, 0, 0, 235) /* MaxHealth */
-     , (39983,   3,    10, 0, 0, 330) /* MaxStamina */
-     , (39983,   5,    10, 0, 0, 145) /* MaxMana */;
+VALUES (39983,   1,   125, 0, 0, 235) /* MaxHealth */
+     , (39983,   3,   110, 0, 0, 330) /* MaxStamina */
+     , (39983,   5,    55, 0, 0, 145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39983, 2, 35915,  1, 0, 0, False) /* Create Paradox-touched Olthoi Spear (35915) for Wield */;

@@ -52,9 +52,9 @@ VALUES (25867,   1, 300, 0, 0) /* Strength */
      , (25867,   6, 300, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25867,   1,    10, 0, 0, 4000) /* MaxHealth */
-     , (25867,   3,    10, 0, 0, 4000) /* MaxStamina */
-     , (25867,   5,    10, 0, 0, 4000) /* MaxMana */;
+VALUES (25867,   1,  3820, 0, 0, 4000) /* MaxHealth */
+     , (25867,   3,  3640, 0, 0, 4000) /* MaxStamina */
+     , (25867,   5,  3700, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25867, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */

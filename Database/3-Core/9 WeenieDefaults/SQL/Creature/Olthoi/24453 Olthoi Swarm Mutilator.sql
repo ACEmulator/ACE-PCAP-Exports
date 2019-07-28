@@ -57,9 +57,9 @@ VALUES (24453,   1, 340, 0, 0) /* Strength */
      , (24453,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24453,   1,    10, 0, 0, 910) /* MaxHealth */
-     , (24453,   3,    10, 0, 0, 759) /* MaxStamina */
-     , (24453,   5,    10, 0, 0, 80) /* MaxMana */;
+VALUES (24453,   1,   740, 0, 0, 910) /* MaxHealth */
+     , (24453,   3,   420, 0, 0, 760) /* MaxStamina */
+     , (24453,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24453, 9, 49248,  0, 0, 0, False) /* Create Fire Zombie Essence (80) (49248) for ContainTreasure */

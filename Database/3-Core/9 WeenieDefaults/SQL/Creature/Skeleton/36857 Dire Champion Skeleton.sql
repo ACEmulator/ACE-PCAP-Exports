@@ -53,9 +53,9 @@ VALUES (36857,   1, 135, 0, 0) /* Strength */
      , (36857,   6, 175, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36857,   1,    10, 0, 0, 1551) /* MaxHealth */
-     , (36857,   3,    10, 0, 0, 645) /* MaxStamina */
-     , (36857,   5,    10, 0, 0, 225) /* MaxMana */;
+VALUES (36857,   1,  1479, 0, 0, 1551) /* MaxHealth */
+     , (36857,   3,   500, 0, 0, 645) /* MaxStamina */
+     , (36857,   5,    50, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36857, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */

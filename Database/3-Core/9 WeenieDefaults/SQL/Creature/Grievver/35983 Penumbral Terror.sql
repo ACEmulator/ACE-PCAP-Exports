@@ -57,9 +57,9 @@ VALUES (35983,   1, 250, 0, 0) /* Strength */
      , (35983,   6, 190, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35983,   1,    10, 0, 0, 1310) /* MaxHealth */
-     , (35983,   3,    10, 0, 0, 1310) /* MaxStamina */
-     , (35983,   5,    10, 0, 0, 1190) /* MaxMana */;
+VALUES (35983,   1,  1230, 0, 0, 1310) /* MaxHealth */
+     , (35983,   3,  1150, 0, 0, 1310) /* MaxStamina */
+     , (35983,   5,  1000, 0, 0, 1190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35983, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */

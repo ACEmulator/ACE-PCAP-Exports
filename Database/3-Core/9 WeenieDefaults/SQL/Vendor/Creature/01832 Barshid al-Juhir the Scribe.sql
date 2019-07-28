@@ -73,23 +73,23 @@ VALUES (1832,   1, 100, 0, 0) /* Strength */
      , (1832,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (1832,   1,    10, 0, 0, 165) /* MaxHealth */
-     , (1832,   3,    10, 0, 0, 200) /* MaxStamina */
-     , (1832,   5,    10, 0, 0, 110) /* MaxMana */;
+VALUES (1832,   1,   120, 0, 0, 165) /* MaxHealth */
+     , (1832,   3,   110, 0, 0, 200) /* MaxStamina */
+     , (1832,   5,    70, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1832, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (1832, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (1832, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (1832, 4,  5584, -1, 0, 0, False) /* Create  (5584) for Shop */
-     , (1832, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (1832, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (1832, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (1832, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (1832, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
+     , (1832, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (1832, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (1832, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (1832, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (1832, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (1832, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (1832, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (1832, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (1832, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */;
+     , (1832, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1832, 67109556, 0, 24)

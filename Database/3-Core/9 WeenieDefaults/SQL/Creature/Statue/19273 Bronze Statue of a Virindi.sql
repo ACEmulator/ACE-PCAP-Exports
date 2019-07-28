@@ -55,9 +55,9 @@ VALUES (19273,   1, 100, 0, 0) /* Strength */
      , (19273,   6, 350, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (19273,   1,    10, 0, 0, 175) /* MaxHealth */
-     , (19273,   3,    10, 0, 0, 150) /* MaxStamina */
-     , (19273,   5,    10, 0, 0, 750) /* MaxMana */;
+VALUES (19273,   1,   100, 0, 0, 175) /* MaxHealth */
+     , (19273,   3,     0, 0, 0, 150) /* MaxStamina */
+     , (19273,   5,   400, 0, 0, 750) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19273, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */

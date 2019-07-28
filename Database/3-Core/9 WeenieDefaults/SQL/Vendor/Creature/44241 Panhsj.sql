@@ -64,17 +64,17 @@ VALUES (44241,   1, 220, 0, 0) /* Strength */
      , (44241,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (44241,   1,    10, 0, 0, 331) /* MaxHealth */
-     , (44241,   3,    10, 0, 0, 466) /* MaxStamina */
-     , (44241,   5,    10, 0, 0, 486) /* MaxMana */;
+VALUES (44241,   1,   196, 0, 0, 331) /* MaxHealth */
+     , (44241,   3,   196, 0, 0, 466) /* MaxStamina */
+     , (44241,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44241, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */
-     , (44241, 4, 44211, -1, 0, 0, False) /* Create  (44211) for Shop */
+     , (44241, 4, 44211, -1, 0, 0, False) /* Create Crate of Burning Sands Arrowheads (44211) for Shop */
      , (44241, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containment Gem (40607) for Shop */
      , (44241, 4, 41919, -1, 0, 0, False) /* Create Weapon Upgrade Kit Containment Gem (41919) for Shop */
      , (44241, 4, 44282, -1, 0, 0, False) /* Create Bracelet of Coordination (44282) for Shop */
-     , (44241, 4, 44283, -1, 0, 0, False) /* Create  (44283) for Shop */
+     , (44241, 4, 44283, -1, 0, 0, False) /* Create Bracelet of Endurance (44283) for Shop */
      , (44241, 4, 44284, -1, 0, 0, False) /* Create Bracelet of Focus (44284) for Shop */
      , (44241, 4, 44285, -1, 0, 0, False) /* Create Bracelet of Quickness (44285) for Shop */
      , (44241, 4, 44286, -1, 0, 0, False) /* Create Bracelet of Self (44286) for Shop */
@@ -82,8 +82,8 @@ VALUES (44241, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armatur
      , (44241, 4, 44312, -1, 0, 0, False) /* Create Scroll of Lost City of Neftet Recall (44312) for Shop */
      , (44241, 4, 47055, -1, 0, 0, False) /* Create Spirit of Izexi Gem (47055) for Shop */
      , (44241, 4, 47156, -1, 0, 0, False) /* Create A'nekshay Gem of Knowledge (47156) for Shop */
-     , (44241, 4, 47157, -1, 0, 0, False) /* Create  (47157) for Shop */
-     , (44241, 4, 47158, -1, 0, 0, False) /* Create  (47158) for Shop */;
+     , (44241, 4, 47157, -1, 0, 0, False) /* Create A'nekshay Gem of Lesser Knowledge (47157) for Shop */
+     , (44241, 4, 47158, -1, 0, 0, False) /* Create A'nekshay Luminance Certificate (47158) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44241, 67116890, 0, 24)

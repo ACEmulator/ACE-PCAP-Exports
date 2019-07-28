@@ -52,9 +52,9 @@ VALUES (25866,   1, 400, 0, 0) /* Strength */
      , (25866,   6, 380, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25866,   1,    10, 0, 0, 8000) /* MaxHealth */
-     , (25866,   3,    10, 0, 0, 8000) /* MaxStamina */
-     , (25866,   5,    10, 0, 0, 8000) /* MaxMana */;
+VALUES (25866,   1,  7760, 0, 0, 8000) /* MaxHealth */
+     , (25866,   3,  7520, 0, 0, 8000) /* MaxStamina */
+     , (25866,   5,  7620, 0, 0, 8000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25866, 9, 43054,  0, 0, 0, False) /* Create Knorr Academy Tassets (43054) for ContainTreasure */

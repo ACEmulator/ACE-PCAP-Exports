@@ -55,9 +55,9 @@ VALUES (32956,   1, 210, 0, 0) /* Strength */
      , (32956,   6, 210, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (32956,   1,    10, 0, 0, 790) /* MaxHealth */
-     , (32956,   3,    10, 0, 0, 950) /* MaxStamina */
-     , (32956,   5,    10, 0, 0, 760) /* MaxMana */;
+VALUES (32956,   1,   700, 0, 0, 790) /* MaxHealth */
+     , (32956,   3,   770, 0, 0, 950) /* MaxStamina */
+     , (32956,   5,   550, 0, 0, 760) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32956, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */

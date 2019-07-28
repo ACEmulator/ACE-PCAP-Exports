@@ -72,9 +72,9 @@ VALUES (4695,   1, 100, 0, 0) /* Strength */
      , (4695,   6,  80, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4695,   1,    10, 0, 0, 125) /* MaxHealth */
-     , (4695,   3,    10, 0, 0, 170) /* MaxStamina */
-     , (4695,   5,    10, 0, 0, 170) /* MaxMana */;
+VALUES (4695,   1,    80, 0, 0, 125) /* MaxHealth */
+     , (4695,   3,    80, 0, 0, 170) /* MaxStamina */
+     , (4695,   5,    90, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4695, 4,   550, -1, 0, 0, False) /* Create Baigha (550) for Shop */

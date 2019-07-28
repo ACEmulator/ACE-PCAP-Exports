@@ -65,9 +65,9 @@ VALUES (36850,   1, 150, 0, 0) /* Strength */
      , (36850,   6, 120, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (36850,   1,    10, 0, 0, 480) /* MaxHealth */
-     , (36850,   3,    10, 0, 0, 620) /* MaxStamina */
-     , (36850,   5,    10, 0, 0, 590) /* MaxMana */;
+VALUES (36850,   1,   395, 0, 0, 480) /* MaxHealth */
+     , (36850,   3,   450, 0, 0, 620) /* MaxStamina */
+     , (36850,   5,   470, 0, 0, 590) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (36850, 2, 47997,  1, 0, 0, False) /* Create Nekode (47997) for Wield */

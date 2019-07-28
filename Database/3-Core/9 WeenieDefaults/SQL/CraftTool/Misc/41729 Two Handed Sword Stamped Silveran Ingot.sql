@@ -1,0 +1,56 @@
+DELETE FROM `weenie` WHERE `class_Id` = 41729;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (41729, 'ace41729-twohandedswordstampedsilveraningot', 44, '2019-02-10 00:00:00') /* CraftTool */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (41729,   1,        128) /* ItemType - Misc */
+     , (41729,   5,         10) /* EncumbranceVal */
+     , (41729,  11,          1) /* MaxStackSize */
+     , (41729,  12,          1) /* StackSize */
+     , (41729,  13,         10) /* StackUnitEncumbrance */
+     , (41729,  15,          1) /* StackUnitValue */
+     , (41729,  16,          8) /* ItemUseable - Contained */
+     , (41729,  19,          1) /* Value */
+     , (41729,  65,        101) /* Placement - Resting */
+     , (41729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (41729,  94,         16) /* TargetType - Creature */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (41729,   1, False) /* Stuck */
+     , (41729,  11, True ) /* IgnoreCollisions */
+     , (41729,  13, True ) /* Ethereal */
+     , (41729,  14, True ) /* GravityStatus */
+     , (41729,  19, True ) /* Attackable */
+     , (41729,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (41729,  39, 0.800000011920929) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (41729,   1, 'Two Handed Sword Stamped Silveran Ingot') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (41729,   1,   33556223) /* Setup */
+     , (41729,   3,  536870932) /* SoundTable */
+     , (41729,   6,   67111928) /* PaletteBase */
+     , (41729,   8,  100689897) /* Icon */
+     , (41729,  22,  872415275) /* PhysicsEffectTable */
+     , (41729,  50,  100690641) /* IconOverlay */
+     , (41729,  52,  100689404) /* IconUnderlay */
+     , (41729, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
+     , (41729, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
+     , (41729, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
+     , (41729, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (41729, 8000,      41729) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (41729, 67112642, 0, 0);
+
+INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
+VALUES (41729, 0, 83888861, 83892342);
+
+INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
+VALUES (41729, 0, 16778862);

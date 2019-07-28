@@ -73,24 +73,24 @@ VALUES (35811,   1, 190, 0, 0) /* Strength */
      , (35811,   6, 290, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (35811,   1,    10, 0, 0, 300) /* MaxHealth */
-     , (35811,   3,    10, 0, 0, 300) /* MaxStamina */
-     , (35811,   5,    10, 0, 0, 500) /* MaxMana */;
+VALUES (35811,   1,   200, 0, 0, 300) /* MaxHealth */
+     , (35811,   3,   100, 0, 0, 300) /* MaxStamina */
+     , (35811,   5,   210, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35811, 4, 35535, -1, 0, 0, False) /* Create  (35535) for Shop */
-     , (35811, 4, 35536, -1, 0, 0, False) /* Create  (35536) for Shop */
+VALUES (35811, 4, 35535, -1, 0, 0, False) /* Create "Doom Hammer" Summoning Gem (35535) for Shop */
+     , (35811, 4, 35536, -1, 0, 0, False) /* Create "Burning Bow" Summoning Gem (35536) for Shop */
      , (35811, 4, 35537, -1, 0, 0, False) /* Create "Assassin's Crossbow" Summoning Gem (35537) for Shop */
-     , (35811, 4, 35538, -1, 0, 0, False) /* Create  (35538) for Shop */
-     , (35811, 4, 35539, -1, 0, 0, False) /* Create  (35539) for Shop */
-     , (35811, 4, 35541, -1, 0, 0, False) /* Create  (35541) for Shop */
+     , (35811, 4, 35538, -1, 0, 0, False) /* Create "Assassin's Dagger" Summoning Gem (35538) for Shop */
+     , (35811, 4, 35539, -1, 0, 0, False) /* Create "Club of Undead Bashing" Summoning Gem (35539) for Shop */
+     , (35811, 4, 35541, -1, 0, 0, False) /* Create "Chorizite Staff" Summoning Gem (35541) for Shop */
      , (35811, 4, 35540, -1, 0, 0, False) /* Create "Bloodletter" Summoning Gem (35540) for Shop */
      , (35811, 4, 35542, -1, 0, 0, False) /* Create "Commoner's Sword" Summoning Gem (35542) for Shop */
-     , (35811, 4, 41856, -1, 0, 0, False) /* Create  (41856) for Shop */
+     , (35811, 4, 41856, -1, 0, 0, False) /* Create "Commoner's Two Handed Sword" Summoning Gem (41856) for Shop */
      , (35811, 4, 35543, -1, 0, 0, False) /* Create "Lord's Sword" Summoning Gem (35543) for Shop */
-     , (35811, 4, 35544, -1, 0, 0, False) /* Create  (35544) for Shop */
-     , (35811, 4, 35545, -1, 0, 0, False) /* Create  (35545) for Shop */
-     , (35811, 4, 35546, -1, 0, 0, False) /* Create  (35546) for Shop */
+     , (35811, 4, 35544, -1, 0, 0, False) /* Create "Throwing Daggers of Ice" Summoning Gem (35544) for Shop */
+     , (35811, 4, 35545, -1, 0, 0, False) /* Create "Vampire's Kiss" Summoning Gem (35545) for Shop */
+     , (35811, 4, 35546, -1, 0, 0, False) /* Create "Ice Wand" Summoning Gem (35546) for Shop */
      , (35811, 4, 39513, -1, 0, 0, False) /* Create Boxed Mana Forge Key (39513) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -57,9 +57,9 @@ VALUES (24291,   1, 320, 0, 0) /* Strength */
      , (24291,   6, 140, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (24291,   1,    10, 0, 0, 475) /* MaxHealth */
-     , (24291,   3,    10, 0, 0, 650) /* MaxStamina */
-     , (24291,   5,    10, 0, 0, 140) /* MaxMana */;
+VALUES (24291,   1,   250, 0, 0, 475) /* MaxHealth */
+     , (24291,   3,   200, 0, 0, 650) /* MaxStamina */
+     , (24291,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24291, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */

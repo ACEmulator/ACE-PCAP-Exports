@@ -55,9 +55,9 @@ VALUES (25855,   1, 170, 0, 0) /* Strength */
      , (25855,   6, 320, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (25855,   1,    10, 0, 0, 950) /* MaxHealth */
-     , (25855,   3,    10, 0, 0, 1050) /* MaxStamina */
-     , (25855,   5,    10, 0, 0, 1100) /* MaxMana */;
+VALUES (25855,   1,   825, 0, 0, 950) /* MaxHealth */
+     , (25855,   3,   800, 0, 0, 1050) /* MaxStamina */
+     , (25855,   5,   780, 0, 0, 1100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25855, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
