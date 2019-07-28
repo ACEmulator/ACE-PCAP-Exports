@@ -89,7 +89,7 @@ VALUES (4434, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (4434, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (4434, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (4434, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (4434, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (4434, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (4434, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
      , (4434, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
      , (4434, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */

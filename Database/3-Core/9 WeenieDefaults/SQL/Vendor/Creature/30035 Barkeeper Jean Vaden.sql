@@ -85,7 +85,7 @@ VALUES (30035, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */
      , (30035, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (30035, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (30035, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (30035, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (30035, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
      , (30035, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
      , (30035, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (30035, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */

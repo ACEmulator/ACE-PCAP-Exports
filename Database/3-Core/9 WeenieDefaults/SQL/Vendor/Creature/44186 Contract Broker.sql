@@ -81,13 +81,13 @@ VALUES (44186, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contract
      , (44186, 4, 44146, -1, 0, 0, False) /* Create Contract for Frozen Fury (44146) for Shop */
      , (44186, 4, 44157, -1, 0, 0, False) /* Create Contract for Assault (Low) (44157) for Shop */
      , (44186, 4, 44155, -1, 0, 0, False) /* Create Contract for Banderling Haunt (44155) for Shop */
-     , (44186, 4, 44158, -1, 0, 0, False) /* Create  (44158) for Shop */
-     , (44186, 4, 44143, -1, 0, 0, False) /* Create  (44143) for Shop */
-     , (44186, 4, 44159, -1, 0, 0, False) /* Create  (44159) for Shop */
-     , (44186, 4, 44160, -1, 0, 0, False) /* Create  (44160) for Shop */
-     , (44186, 4, 44180, -1, 0, 0, False) /* Create  (44180) for Shop */
-     , (44186, 4, 44144, -1, 0, 0, False) /* Create  (44144) for Shop */
-     , (44186, 4, 44145, -1, 0, 0, False) /* Create  (44145) for Shop */
+     , (44186, 4, 44158, -1, 0, 0, False) /* Create Contract for Assault (Mid) (44158) for Shop */
+     , (44186, 4, 44143, -1, 0, 0, False) /* Create Contract for Glenden Wood Invasion (Low) (44143) for Shop */
+     , (44186, 4, 44159, -1, 0, 0, False) /* Create Contract for Assault (High) (44159) for Shop */
+     , (44186, 4, 44160, -1, 0, 0, False) /* Create Contract for Assault (Expert) (44160) for Shop */
+     , (44186, 4, 44180, -1, 0, 0, False) /* Create Contract for Lost Pet (44180) for Shop */
+     , (44186, 4, 44144, -1, 0, 0, False) /* Create Contract for Glenden Wood Invasion (Mid) (44144) for Shop */
+     , (44186, 4, 44145, -1, 0, 0, False) /* Create Contract for Glenden Wood Invasion (High) (44145) for Shop */
      , (44186, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (44186, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (44186, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

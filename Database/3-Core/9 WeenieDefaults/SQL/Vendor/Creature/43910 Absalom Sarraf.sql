@@ -78,9 +78,9 @@ VALUES (43910,   1,   196, 0, 0, 331) /* MaxHealth */
      , (43910,   5,   196, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43910, 4, 46802, -1, 0, 0, False) /* Create  (46802) for Shop */
-     , (43910, 4, 43906, -1, 0, 0, False) /* Create  (43906) for Shop */
-     , (43910, 4, 43907, -1, 0, 0, False) /* Create  (43907) for Shop */
+VALUES (43910, 4, 46802, -1, 0, 0, False) /* Create Boxed A'nekshay Token (46802) for Shop */
+     , (43910, 4, 43906, -1, 0, 0, False) /* Create Boxed Ancient Mhoire Coin (43906) for Shop */
+     , (43910, 4, 43907, -1, 0, 0, False) /* Create Boxed Small Olthoi Venom Sac (43907) for Shop */
      , (43910, 4, 43905, -1, 0, 0, False) /* Create Boxed Ornate Gear Marker (43905) for Shop */
      , (43910, 4, 43904, -1, 0, 0, False) /* Create Boxed Colosseum Coin (43904) for Shop */
      , (43910, 4, 46803, -1, 0, 0, False) /* Create Box Of Ten A'nekshay Tokens (46803) for Shop */

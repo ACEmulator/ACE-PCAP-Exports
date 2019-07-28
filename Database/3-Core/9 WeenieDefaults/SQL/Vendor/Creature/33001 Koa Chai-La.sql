@@ -92,7 +92,7 @@ VALUES (33001, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (33001, 4, 15281, -1, 0, 0, False) /* Create Blunt Atlatl Dart (15281) for Shop */
      , (33001, 4,  3601, -1, 0, 0, False) /* Create Frog Crotch Arrow (3601) for Shop */
      , (33001, 4,  3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel (3605) for Shop */
-     , (33001, 4, 15285, -1, 0, 0, False) /* Create  (15285) for Shop */
+     , (33001, 4, 15285, -1, 0, 0, False) /* Create Frog Crotch Atlatl Dart (15285) for Shop */
      , (33001, 4,  3598, -1, 0, 0, False) /* Create Armor Piercing Arrow (3598) for Shop */
      , (33001, 4,  3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel (3602) for Shop */
      , (33001, 4, 15280, -1, 0, 0, False) /* Create Armor Piercing Atlatl Dart (15280) for Shop */

@@ -82,7 +82,7 @@ VALUES (860, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (860, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (860, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop */
      , (860, 4,  4744, -1, 0, 0, False) /* Create Sushi (4744) for Shop */
-     , (860, 4,  2466, -1, 0, 0, False) /* Create  (2466) for Shop */
+     , (860, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
      , (860, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (860, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (860, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */

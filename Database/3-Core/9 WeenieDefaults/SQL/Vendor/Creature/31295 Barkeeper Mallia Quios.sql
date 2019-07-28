@@ -77,8 +77,8 @@ VALUES (31295,   1,   110, 0, 0, 135) /* MaxHealth */
      , (31295,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31295, 4, 31305, -1, 0, 0, False) /* Create  (31305) for Shop */
-     , (31295, 4, 31703, -1, 0, 0, False) /* Create  (31703) for Shop */
+VALUES (31295, 4, 31305, -1, 0, 0, False) /* Create Lunnums' Pyre (31305) for Shop */
+     , (31295, 4, 31703, -1, 0, 0, False) /* Create Ruschk Camp Sightings (31703) for Shop */
      , (31295, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (31295, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (31295, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */

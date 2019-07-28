@@ -80,12 +80,12 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (30067, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (30067, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (30067, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (30067, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (30067, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (30067, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (30067, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (30067, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (30067, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (30067, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (30067, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (30067, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (30067, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (30067, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (30067, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30067, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30067, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

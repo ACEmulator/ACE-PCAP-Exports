@@ -89,10 +89,10 @@ VALUES (673, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop
      , (673, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (673, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (673, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
-     , (673, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (673, 4,  4610, -1, 0, 0, False) /* Create  (4610) for Shop */
-     , (673, 4,  4597, -1, 0, 0, False) /* Create  (4597) for Shop */
-     , (673, 4,  4589, -1, 0, 0, False) /* Create  (4589) for Shop */
+     , (673, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
+     , (673, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
+     , (673, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
+     , (673, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
      , (673, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (673, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

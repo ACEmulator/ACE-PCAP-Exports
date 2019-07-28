@@ -104,7 +104,7 @@ VALUES (31731, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (31731, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (31731, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (31731, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (31731, 4, 31721, -1, 0, 0, False) /* Create  (31721) for Shop */;
+     , (31731, 4, 31721, -1, 0, 0, False) /* Create Torn Journal Page - Page 2 (31721) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31731, 67109559, 0, 24)

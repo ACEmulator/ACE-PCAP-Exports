@@ -133,11 +133,11 @@ VALUES (2317, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (2317, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (2317, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (2317, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (2317, 4,  2477, -1, 0, 0, False) /* Create  (2477) for Shop */
-     , (2317, 4, 28242, -1, 0, 0, False) /* Create  (28242) for Shop */
+     , (2317, 4,  2477, -1, 0, 0, False) /* Create Tumerok Fortress Rumor (2477) for Shop */
+     , (2317, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */
      , (2317, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
-     , (2317, 4, 30743, -1, 0, 0, False) /* Create  (30743) for Shop */
-     , (2317, 4, 31311, -1, 0, 0, False) /* Create  (31311) for Shop */;
+     , (2317, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */
+     , (2317, 4, 31311, -1, 0, 0, False) /* Create Lost Pet (31311) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2317, 67109969, 92, 4)

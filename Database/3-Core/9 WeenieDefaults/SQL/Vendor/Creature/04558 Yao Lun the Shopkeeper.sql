@@ -95,7 +95,7 @@ VALUES (4558, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (4558, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart (12464) for Shop */
      , (4558, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (4558, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (4558, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (4558, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (4558, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (4558, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (4558, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */

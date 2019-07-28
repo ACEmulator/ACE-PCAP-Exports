@@ -156,11 +156,11 @@ VALUES (831, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (831, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
      , (831, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (831, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
-     , (831, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (831, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (831, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (831, 4,  6064, -1, 0, 0, False) /* Create  (6064) for Shop */
-     , (831, 4,  6067, -1, 0, 0, False) /* Create  (6067) for Shop */
+     , (831, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (831, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (831, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (831, 4,  6064, -1, 0, 0, False) /* Create Suikan Creature Apprentice Robe (6064) for Shop */
+     , (831, 4,  6067, -1, 0, 0, False) /* Create Suikan Item Apprentice Robe (6067) for Shop */
      , (831, 4,  6070, -1, 0, 0, False) /* Create Suikan Life Apprentice Robe (6070) for Shop */
      , (831, 4,  6073, -1, 0, 0, False) /* Create Suikan War Apprentice Robe (6073) for Shop */
      , (831, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */

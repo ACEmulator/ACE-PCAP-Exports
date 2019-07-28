@@ -83,7 +83,7 @@ VALUES (5861, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (5861, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (5861, 4,  5831, -1, 0, 0, False) /* Create Nelvaine's Olde Ispar Stout (5831) for Shop */
      , (5861, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (5861, 4, 26479, -1, 0, 0, False) /* Create  (26479) for Shop */;
+     , (5861, 4, 26479, -1, 0, 0, False) /* Create Tumerok Akiekie (26479) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5861, 67109558, 0, 24)

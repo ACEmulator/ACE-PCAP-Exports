@@ -119,7 +119,7 @@ VALUES (20207, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (20207, 4,  3236, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude V (3236) for Shop */
      , (20207, 4,  3241, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other V (3241) for Shop */
      , (20207, 4,  3246, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self V (3246) for Shop */
-     , (20207, 4,  3251, -1, 0, 0, False) /* Create  (3251) for Shop */
+     , (20207, 4,  3251, -1, 0, 0, False) /* Create Scroll of Defenselessness V (3251) for Shop */
      , (20207, 4, 45240, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other V (45240) for Shop */
      , (20207, 4, 45248, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other V (45248) for Shop */
      , (20207, 4, 45256, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self V (45256) for Shop */

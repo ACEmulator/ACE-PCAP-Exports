@@ -85,10 +85,10 @@ VALUES (1819, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (1819, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (1819, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (1819, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (1819, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
-     , (1819, 4,  4384, -1, 0, 0, False) /* Create  (4384) for Shop */
-     , (1819, 4,  4608, -1, 0, 0, False) /* Create  (4608) for Shop */
-     , (1819, 4,  4599, -1, 0, 0, False) /* Create  (4599) for Shop */
+     , (1819, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (1819, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
+     , (1819, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
+     , (1819, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
      , (1819, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1819, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

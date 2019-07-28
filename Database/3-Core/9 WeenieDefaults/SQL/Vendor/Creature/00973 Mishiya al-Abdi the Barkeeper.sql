@@ -79,23 +79,23 @@ VALUES (973,   1,    90, 0, 0, 125) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (973, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (973, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (973, 4,  5136, -1, 0, 0, False) /* Create  (5136) for Shop */
+     , (973, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider (5136) for Shop */
      , (973, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (973, 4,  2462, -1, 0, 0, False) /* Create Mead (2462) for Shop */
      , (973, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (973, 4,  4743, -1, 0, 0, False) /* Create Stuffed Grape Leaf (4743) for Shop */
      , (973, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (973, 4,  4735, -1, 0, 0, False) /* Create Mushroom Kebab (4735) for Shop */
-     , (973, 4,  4727, -1, 0, 0, False) /* Create  (4727) for Shop */
-     , (973, 4,  1224, -1, 0, 0, False) /* Create  (1224) for Shop */
-     , (973, 4,  1220, -1, 0, 0, False) /* Create  (1220) for Shop */
-     , (973, 4,  5130, -1, 0, 0, False) /* Create  (5130) for Shop */
+     , (973, 4,  4727, -1, 0, 0, False) /* Create Flat Bread (4727) for Shop */
+     , (973, 4,  1224, -1, 0, 0, False) /* Create Samsur Portal Directions (1224) for Shop */
+     , (973, 4,  1220, -1, 0, 0, False) /* Create Dungeon Manor Directions (1220) for Shop */
+     , (973, 4,  5130, -1, 0, 0, False) /* Create Dry Well Directions (5130) for Shop */
      , (973, 4,  5131, -1, 0, 0, False) /* Create Musansayn's House Directions (5131) for Shop */
      , (973, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
      , (973, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
      , (973, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (973, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
-     , (973, 4,  6418, -1, 0, 0, False) /* Create  (6418) for Shop */;
+     , (973, 4,  6418, -1, 0, 0, False) /* Create A Fiery Stone (6418) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (973, 67109555, 0, 24)

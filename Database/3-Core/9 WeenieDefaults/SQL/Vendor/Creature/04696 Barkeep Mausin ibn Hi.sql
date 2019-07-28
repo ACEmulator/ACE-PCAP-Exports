@@ -81,22 +81,22 @@ VALUES (4696, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop *
      , (4696, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (4696, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (4696, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (4696, 4,  2464, -1, 0, 0, False) /* Create  (2464) for Shop */
+     , (4696, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop */
      , (4696, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (4696, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (4696, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (4696, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
      , (4696, 4,  4743, -1, 0, 0, False) /* Create Stuffed Grape Leaf (4743) for Shop */
-     , (4696, 4,  5536, -1, 0, 0, False) /* Create  (5536) for Shop */
+     , (4696, 4,  5536, -1, 0, 0, False) /* Create Nevius Passage Directions (5536) for Shop */
      , (4696, 4,  8209, -1, 0, 0, False) /* Create Call for Adventurers! (8209) for Shop */
      , (4696, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor (12146) for Shop */
      , (4696, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (4696, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (4696, 4,  5534, -1, 0, 0, False) /* Create Enkindled Souls Directions (5534) for Shop */
      , (4696, 4,  5538, -1, 0, 0, False) /* Create Story of Winthura's Gardens (5538) for Shop */
-     , (4696, 4,  5601, -1, 0, 0, False) /* Create  (5601) for Shop */
+     , (4696, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
      , (4696, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (4696, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
+     , (4696, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (4696, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

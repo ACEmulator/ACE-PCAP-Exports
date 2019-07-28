@@ -89,9 +89,9 @@ VALUES (8436, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (8436, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (8436, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (8436, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
-     , (8436, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
-     , (8436, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
-     , (8436, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
+     , (8436, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (8436, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
+     , (8436, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
      , (8436, 4,   753, -1, 0, 0, False) /* Create Brimstone (753) for Shop */
      , (8436, 4,   754, -1, 0, 0, False) /* Create Cadmia (754) for Shop */
      , (8436, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */

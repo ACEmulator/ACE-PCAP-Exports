@@ -110,8 +110,8 @@ VALUES (43354, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for S
      , (43354, 4, 43339, -1, 0, 0, False) /* Create Scroll of Weakening Curse II (43339) for Shop */
      , (43354, 4, 43340, -1, 0, 0, False) /* Create Scroll of Weakening Curse III (43340) for Shop */
      , (43354, 4, 43341, -1, 0, 0, False) /* Create Scroll of Weakening Curse IV (43341) for Shop */
-     , (43354, 4, 44621, -1, 0, 0, False) /* Create  (44621) for Shop */
-     , (43354, 4, 44622, -1, 0, 0, False) /* Create  (44622) for Shop */;
+     , (43354, 4, 44621, -1, 0, 0, False) /* Create Scroll of Nether Blast III (44621) for Shop */
+     , (43354, 4, 44622, -1, 0, 0, False) /* Create Scroll of Nether Blast IV (44622) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43354, 67109964, 92, 4)

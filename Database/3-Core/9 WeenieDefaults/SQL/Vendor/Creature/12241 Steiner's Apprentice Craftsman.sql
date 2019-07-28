@@ -103,11 +103,11 @@ VALUES (12241, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
      , (12241, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */
      , (12241, 4, 15825, -1, 0, 0, False) /* Create Pedestal (15825) for Shop */
      , (12241, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
-     , (12241, 4, 22098, -1, 0, 0, False) /* Create  (22098) for Shop */
+     , (12241, 4, 22098, -1, 0, 0, False) /* Create Chess Stamp (22098) for Shop */
      , (12241, 4, 22101, -1, 0, 0, False) /* Create Wi Stamp (22101) for Shop */
      , (12241, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12241, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
-     , (12241, 4, 25519, -1, 0, 0, False) /* Create  (25519) for Shop */;
+     , (12241, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12241, 67109558, 0, 24)

@@ -1,0 +1,41 @@
+DELETE FROM `weenie` WHERE `class_Id` = 27992;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27992, 'directionsrockycrypt', 8, '2019-02-10 00:00:00') /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (27992,   1,       8192) /* ItemType - Writable */
+     , (27992,   5,         25) /* EncumbranceVal */
+     , (27992,  16,          8) /* ItemUseable - Contained */
+     , (27992,  19,          5) /* Value */
+     , (27992,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (27992,   1, False) /* Stuck */
+     , (27992,  11, True ) /* IgnoreCollisions */
+     , (27992,  13, True ) /* Ethereal */
+     , (27992,  14, True ) /* GravityStatus */
+     , (27992,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27992,  39, 0.400000005960464) /* DefaultScale */
+     , (27992,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27992,   1, 'Rocky Crypt Directions') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27992,   1,   33559084) /* Setup */
+     , (27992,   3,  536870932) /* SoundTable */
+     , (27992,   6,   67112626) /* PaletteBase */
+     , (27992,   8,  100675747) /* Icon */
+     , (27992,  22,  872415275) /* PhysicsEffectTable */
+     , (27992, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
+     , (27992, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
+     , (27992, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (27992, 8000,      27992) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
+VALUES (27992, 67113862, 0, 0);

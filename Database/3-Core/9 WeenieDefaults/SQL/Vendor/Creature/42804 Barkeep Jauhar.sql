@@ -78,20 +78,20 @@ VALUES (42804,   1,   100, 0, 0, 140) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42804, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (42804, 4,  5136, -1, 0, 0, False) /* Create  (5136) for Shop */
+     , (42804, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider (5136) for Shop */
      , (42804, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (42804, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
+     , (42804, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
      , (42804, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (42804, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (42804, 4, 45755, -1, 0, 0, False) /* Create  (45755) for Shop */
-     , (42804, 4, 45756, -1, 0, 0, False) /* Create  (45756) for Shop */
-     , (42804, 4, 45757, -1, 0, 0, False) /* Create  (45757) for Shop */
-     , (42804, 4, 45758, -1, 0, 0, False) /* Create  (45758) for Shop */
-     , (42804, 4, 45759, -1, 0, 0, False) /* Create  (45759) for Shop */
-     , (42804, 4, 49565, -1, 0, 0, False) /* Create  (49565) for Shop */
-     , (42804, 4, 49566, -1, 0, 0, False) /* Create  (49566) for Shop */
-     , (42804, 4, 49567, -1, 0, 0, False) /* Create  (49567) for Shop */
-     , (42804, 4, 49771, -1, 0, 0, False) /* Create  (49771) for Shop */;
+     , (42804, 4, 45755, -1, 0, 0, False) /* Create Contract for Bobo's Medicine (45755) for Shop */
+     , (42804, 4, 45756, -1, 0, 0, False) /* Create Contract for Sepulcher of Nightmares (45756) for Shop */
+     , (42804, 4, 45757, -1, 0, 0, False) /* Create Contract for Mhoire Castle (45757) for Shop */
+     , (42804, 4, 45758, -1, 0, 0, False) /* Create Contract for Kidnapped Handmaiden (45758) for Shop */
+     , (42804, 4, 45759, -1, 0, 0, False) /* Create Contract for Mhoire Oubliette (45759) for Shop */
+     , (42804, 4, 49565, -1, 0, 0, False) /* Create Contract for Defeat Hoshino Kei (49565) for Shop */
+     , (42804, 4, 49566, -1, 0, 0, False) /* Create Contract for Ritual Investigation (49566) for Shop */
+     , (42804, 4, 49567, -1, 0, 0, False) /* Create Contract for Ritual Disruption (49567) for Shop */
+     , (42804, 4, 49771, -1, 0, 0, False) /* Create Contract for Uziz Abductions (49771) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42804, 67109557, 0, 24)

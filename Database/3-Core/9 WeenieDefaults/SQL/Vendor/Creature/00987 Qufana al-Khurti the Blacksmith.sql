@@ -115,7 +115,7 @@ VALUES (987, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (987, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (987, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (987, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (987, 4, 45683, -1, 0, 0, False) /* Create  (45683) for Shop */
+     , (987, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (987, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

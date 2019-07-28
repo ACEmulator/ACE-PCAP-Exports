@@ -84,7 +84,7 @@ VALUES (832, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop 
      , (832, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (832, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (832, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
-     , (832, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
+     , (832, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
      , (832, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (832, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (832, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */

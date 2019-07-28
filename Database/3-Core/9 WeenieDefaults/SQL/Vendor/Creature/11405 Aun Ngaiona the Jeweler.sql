@@ -73,7 +73,7 @@ VALUES (11405, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (11405, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
      , (11405, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
      , (11405, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
-     , (11405, 4, 41403, -1, 0, 0, False) /* Create  (41403) for Shop */
+     , (11405, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
      , (11405, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
      , (11405, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
      , (11405, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */

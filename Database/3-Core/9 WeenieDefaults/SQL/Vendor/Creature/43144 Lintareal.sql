@@ -76,7 +76,7 @@ VALUES (43144, 4, 40607, -1, 0, 0, False) /* Create Armor Upgrade Kit Containmen
      , (43144, 4, 43141, -1, 0, 0, False) /* Create Aegis of the Gold Gear (43141) for Shop */
      , (43144, 4, 43143, -1, 0, 0, False) /* Create Scroll of Gear Knight Invasion Area Camp Recall (43143) for Shop */
      , (43144, 4, 43149, -1, 0, 0, False) /* Create Crate of Gear Blade Slashing Arrowheads (43149) for Shop */
-     , (43144, 4, 43947, -1, 0, 0, False) /* Create  (43947) for Shop */
-     , (43144, 4, 43948, -1, 0, 0, False) /* Create  (43948) for Shop */
-     , (43144, 4, 43949, -1, 0, 0, False) /* Create  (43949) for Shop */
-     , (43144, 4, 43950, -1, 0, 0, False) /* Create  (43950) for Shop */;
+     , (43144, 4, 43947, -1, 0, 0, False) /* Create Sealed crate of Salvaged Black Garnet (43947) for Shop */
+     , (43144, 4, 43948, -1, 0, 0, False) /* Create Sealed crate of Salvaged Jet (43948) for Shop */
+     , (43144, 4, 43949, -1, 0, 0, False) /* Create Sealed crate of Salvaged Red Garnet (43949) for Shop */
+     , (43144, 4, 43950, -1, 0, 0, False) /* Create Sealed crate of Salvaged Sandstone (43950) for Shop */;

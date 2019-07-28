@@ -83,7 +83,7 @@ VALUES (9415, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (9415, 4,    76, -1, 0, 0, False) /* Create Qafiya (76) for Shop */
      , (9415, 4,   540, -1, 0, 0, False) /* Create Lugian Axe (540) for Shop */
      , (9415, 4,   543, -1, 0, 0, False) /* Create Lugian Mace (543) for Shop */
-     , (9415, 4,   541, -1, 0, 0, False) /* Create  (541) for Shop */
+     , (9415, 4,   541, -1, 0, 0, False) /* Create Lugian Club (541) for Shop */
      , (9415, 4,   544, -1, 0, 0, False) /* Create Lugian Morning Star (544) for Shop */
      , (9415, 4,  7765, -1, 0, 0, False) /* Create Lugian Board with Nail (7765) for Shop */
      , (9415, 4,    40, -1, 0, 0, False) /* Create Platemail Breastplate (40) for Shop */

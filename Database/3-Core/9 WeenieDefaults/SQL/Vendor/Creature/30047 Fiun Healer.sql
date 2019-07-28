@@ -92,18 +92,18 @@ VALUES (30047, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (30047, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30047, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30047, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30047, 4,  4604, -1, 0, 0, False) /* Create  (4604) for Shop */
-     , (30047, 4,  4605, -1, 0, 0, False) /* Create  (4605) for Shop */
-     , (30047, 4,  4602, -1, 0, 0, False) /* Create  (4602) for Shop */
-     , (30047, 4,  4603, -1, 0, 0, False) /* Create  (4603) for Shop */
-     , (30047, 4,  4608, -1, 0, 0, False) /* Create  (4608) for Shop */
-     , (30047, 4,  4609, -1, 0, 0, False) /* Create  (4609) for Shop */
-     , (30047, 4,  4606, -1, 0, 0, False) /* Create  (4606) for Shop */
-     , (30047, 4,  4607, -1, 0, 0, False) /* Create  (4607) for Shop */
-     , (30047, 4,  4384, -1, 0, 0, False) /* Create  (4384) for Shop */
-     , (30047, 4,  4601, -1, 0, 0, False) /* Create  (4601) for Shop */
-     , (30047, 4,  4610, -1, 0, 0, False) /* Create  (4610) for Shop */
-     , (30047, 4,  4611, -1, 0, 0, False) /* Create  (4611) for Shop */;
+     , (30047, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I (4604) for Shop */
+     , (30047, 4,  4605, -1, 0, 0, False) /* Create Coordination Other II (4605) for Shop */
+     , (30047, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
+     , (30047, 4,  4603, -1, 0, 0, False) /* Create Endurance Other II (4603) for Shop */
+     , (30047, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
+     , (30047, 4,  4609, -1, 0, 0, False) /* Create Focus Other II (4609) for Shop */
+     , (30047, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
+     , (30047, 4,  4607, -1, 0, 0, False) /* Create Quickness Other II (4607) for Shop */
+     , (30047, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
+     , (30047, 4,  4601, -1, 0, 0, False) /* Create Strength Other II (4601) for Shop */
+     , (30047, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
+     , (30047, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30047, 67116347, 0, 0);

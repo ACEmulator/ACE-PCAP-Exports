@@ -79,41 +79,41 @@ VALUES (38692,   1,   110, 0, 0, 135) /* MaxHealth */
      , (38692,   5,   120, 0, 0, 155) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38692, 4, 46745, -1, 0, 0, False) /* Create  (46745) for Shop */
-     , (38692, 4, 44394, -1, 0, 0, False) /* Create  (44394) for Shop */
-     , (38692, 4, 44545, -1, 0, 0, False) /* Create  (44545) for Shop */
-     , (38692, 4, 44546, -1, 0, 0, False) /* Create  (44546) for Shop */
-     , (38692, 4, 44547, -1, 0, 0, False) /* Create  (44547) for Shop */
-     , (38692, 4, 44548, -1, 0, 0, False) /* Create  (44548) for Shop */
-     , (38692, 4, 44549, -1, 0, 0, False) /* Create  (44549) for Shop */
-     , (38692, 4, 44550, -1, 0, 0, False) /* Create  (44550) for Shop */
-     , (38692, 4, 44551, -1, 0, 0, False) /* Create  (44551) for Shop */
-     , (38692, 4, 44552, -1, 0, 0, False) /* Create  (44552) for Shop */
-     , (38692, 4, 44553, -1, 0, 0, False) /* Create  (44553) for Shop */
-     , (38692, 4, 44554, -1, 0, 0, False) /* Create  (44554) for Shop */
-     , (38692, 4, 44555, -1, 0, 0, False) /* Create  (44555) for Shop */
-     , (38692, 4, 44556, -1, 0, 0, False) /* Create  (44556) for Shop */
-     , (38692, 4, 44557, -1, 0, 0, False) /* Create  (44557) for Shop */
-     , (38692, 4, 44558, -1, 0, 0, False) /* Create  (44558) for Shop */
-     , (38692, 4, 44559, -1, 0, 0, False) /* Create  (44559) for Shop */
-     , (38692, 4, 44560, -1, 0, 0, False) /* Create  (44560) for Shop */
-     , (38692, 4, 44561, -1, 0, 0, False) /* Create  (44561) for Shop */
-     , (38692, 4, 44562, -1, 0, 0, False) /* Create  (44562) for Shop */
-     , (38692, 4, 44563, -1, 0, 0, False) /* Create  (44563) for Shop */
-     , (38692, 4, 44564, -1, 0, 0, False) /* Create  (44564) for Shop */
-     , (38692, 4, 44565, -1, 0, 0, False) /* Create  (44565) for Shop */
-     , (38692, 4, 44566, -1, 0, 0, False) /* Create  (44566) for Shop */
-     , (38692, 4, 44567, -1, 0, 0, False) /* Create  (44567) for Shop */
-     , (38692, 4, 44568, -1, 0, 0, False) /* Create  (44568) for Shop */
-     , (38692, 4, 44569, -1, 0, 0, False) /* Create  (44569) for Shop */
-     , (38692, 4, 44570, -1, 0, 0, False) /* Create  (44570) for Shop */
-     , (38692, 4, 44571, -1, 0, 0, False) /* Create  (44571) for Shop */
-     , (38692, 4, 44572, -1, 0, 0, False) /* Create  (44572) for Shop */
-     , (38692, 4, 44573, -1, 0, 0, False) /* Create  (44573) for Shop */
-     , (38692, 4, 44574, -1, 0, 0, False) /* Create  (44574) for Shop */
-     , (38692, 4, 51333, -1, 0, 0, False) /* Create  (51333) for Shop */
-     , (38692, 4, 51334, -1, 0, 0, False) /* Create  (51334) for Shop */
-     , (38692, 4, 51335, -1, 0, 0, False) /* Create  (51335) for Shop */
+VALUES (38692, 4, 46745, -1, 0, 0, False) /* Create Contract for Stipend: Radiant Blood (46745) for Shop */
+     , (38692, 4, 44394, -1, 0, 0, False) /* Create Contract for Aug Gem: Society (44394) for Shop */
+     , (38692, 4, 44545, -1, 0, 0, False) /* Create Contract for Wight Blade Sorcerers (44545) for Shop */
+     , (38692, 4, 44546, -1, 0, 0, False) /* Create Contract for Artifact Collection (44546) for Shop */
+     , (38692, 4, 44547, -1, 0, 0, False) /* Create Contract for Bandit Mana Hunter Boss (44547) for Shop */
+     , (38692, 4, 44548, -1, 0, 0, False) /* Create Contract for Black Coral Collection (44548) for Shop */
+     , (38692, 4, 44549, -1, 0, 0, False) /* Create Contract for Blessed Moarsmen (44549) for Shop */
+     , (38692, 4, 44550, -1, 0, 0, False) /* Create Contract for Coral Towers (44550) for Shop */
+     , (38692, 4, 44551, -1, 0, 0, False) /* Create Contract for Dark Isle Delivery (44551) for Shop */
+     , (38692, 4, 44552, -1, 0, 0, False) /* Create Contract for Dark Isle Scouting (44552) for Shop */
+     , (38692, 4, 44553, -1, 0, 0, False) /* Create Contract for Falatacot Reports (44553) for Shop */
+     , (38692, 4, 44554, -1, 0, 0, False) /* Create Contract for Forgotten Tunnels of Nyr'leha (44554) for Shop */
+     , (38692, 4, 44555, -1, 0, 0, False) /* Create Contract for Graveyard Delivery (44555) for Shop */
+     , (38692, 4, 44556, -1, 0, 0, False) /* Create Contract for Mana-Infused Jungle Flowers (44556) for Shop */
+     , (38692, 4, 44557, -1, 0, 0, False) /* Create Contract for Jungle Lilies (44557) for Shop */
+     , (38692, 4, 44558, -1, 0, 0, False) /* Create Contract for Magshuth Moarsmen (44558) for Shop */
+     , (38692, 4, 44559, -1, 0, 0, False) /* Create Contract for Moar Glands (44559) for Shop */
+     , (38692, 4, 44560, -1, 0, 0, False) /* Create Contract for Moarsman High Priest (44560) for Shop */
+     , (38692, 4, 44561, -1, 0, 0, False) /* Create Contract for Moguth Moarsmen (44561) for Shop */
+     , (38692, 4, 44562, -1, 0, 0, False) /* Create Contract for Palm Fort (44562) for Shop */
+     , (38692, 4, 44563, -1, 0, 0, False) /* Create Contract for Phyntos Hive Splinters (44563) for Shop */
+     , (38692, 4, 44564, -1, 0, 0, False) /* Create Contract for Phyntos Honey (44564) for Shop */
+     , (38692, 4, 44565, -1, 0, 0, False) /* Create Contract for Phyntos Larvae (44565) for Shop */
+     , (38692, 4, 44566, -1, 0, 0, False) /* Create Contract for Phyntos Queen (44566) for Shop */
+     , (38692, 4, 44567, -1, 0, 0, False) /* Create Contract for Killer Phyntos Wasps (44567) for Shop */
+     , (38692, 4, 44568, -1, 0, 0, False) /* Create Contract for Shambling Archivist (44568) for Shop */
+     , (38692, 4, 44569, -1, 0, 0, False) /* Create Contract for Shoguth Moarsmen (44569) for Shop */
+     , (38692, 4, 44570, -1, 0, 0, False) /* Create Contract for Spawning Pools (44570) for Shop */
+     , (38692, 4, 44571, -1, 0, 0, False) /* Create Contract for Stone Tracings (44571) for Shop */
+     , (38692, 4, 44572, -1, 0, 0, False) /* Create Contract for Supply Saboteur (44572) for Shop */
+     , (38692, 4, 44573, -1, 0, 0, False) /* Create Contract for Undead Jaw Collection (44573) for Shop */
+     , (38692, 4, 44574, -1, 0, 0, False) /* Create Contract for Vaeshok (44574) for Shop */
+     , (38692, 4, 51333, -1, 0, 0, False) /* Create Contract for Soc: Mana Siphon Destruction (51333) for Shop */
+     , (38692, 4, 51334, -1, 0, 0, False) /* Create Contract for Soc: Destroy the Phalanx (51334) for Shop */
+     , (38692, 4, 51335, -1, 0, 0, False) /* Create Contract for Soc: Collect Gear Knight Parts (51335) for Shop */
      , (38692, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature (41509) for Shop */
      , (38692, 4, 41507, -1, 0, 0, False) /* Create Moderate Item Tinkering Armature (41507) for Shop */
      , (38692, 4, 41419, -1, 0, 0, False) /* Create Sheet Metal Form (41419) for Shop */

@@ -77,23 +77,23 @@ VALUES (24590, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (24590, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (24590, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (24590, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
-     , (24590, 4,  4737, -1, 0, 0, False) /* Create  (4737) for Shop */
+     , (24590, 4,  4737, -1, 0, 0, False) /* Create Mushroom Pie (4737) for Shop */
      , (24590, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (24590, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
-     , (24590, 4,  5583, -1, 0, 0, False) /* Create  (5583) for Shop */
-     , (24590, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (24590, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (24590, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (24590, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (24590, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (24590, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (24590, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (24590, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (24590, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (24590, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (24590, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (24590, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (24590, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
      , (24590, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
-     , (24590, 4, 28242, -1, 0, 0, False) /* Create  (28242) for Shop */
+     , (24590, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */
      , (24590, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
-     , (24590, 4, 30743, -1, 0, 0, False) /* Create  (30743) for Shop */
-     , (24590, 4, 30761, -1, 0, 0, False) /* Create  (30761) for Shop */
-     , (24590, 4, 31311, -1, 0, 0, False) /* Create  (31311) for Shop */
+     , (24590, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */
+     , (24590, 4, 30761, -1, 0, 0, False) /* Create The Withered Atoll (30761) for Shop */
+     , (24590, 4, 31311, -1, 0, 0, False) /* Create Lost Pet (31311) for Shop */
      , (24590, 4, 31384, -1, 0, 0, False) /* Create Dark Dealings (31384) for Shop */
      , (24590, 4, 31982, -1, 0, 0, False) /* Create Branwyn's Tears (31982) for Shop */;
 

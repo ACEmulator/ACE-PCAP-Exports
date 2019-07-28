@@ -75,7 +75,7 @@ VALUES (32299, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (32299, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (32299, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (32299, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (32299, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (32299, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
      , (32299, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (32299, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
      , (32299, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */

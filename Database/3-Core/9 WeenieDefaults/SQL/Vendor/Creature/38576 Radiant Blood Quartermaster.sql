@@ -84,19 +84,19 @@ VALUES (38576, 4, 38546, -1, 0, 0, False) /* Create Radiant Blood Armor Writ (38
      , (38576, 4, 38721, -1, 0, 0, False) /* Create Writ of Authorization (38721) for Shop */
      , (38576, 4, 38727, -1, 0, 0, False) /* Create Society Gem of Dispelling (38727) for Shop */
      , (38576, 4, 38719, -1, 0, 0, False) /* Create Radiant Blood Banner (38719) for Shop */
-     , (38576, 4, 44889, -1, 0, 0, False) /* Create  (44889) for Shop */
-     , (38576, 4, 44446, -1, 0, 0, False) /* Create  (44446) for Shop */
-     , (38576, 4, 44980, -1, 0, 0, False) /* Create  (44980) for Shop */
-     , (38576, 4, 44981, -1, 0, 0, False) /* Create  (44981) for Shop */
-     , (38576, 4, 44468, -1, 0, 0, False) /* Create  (44468) for Shop */
-     , (38576, 4, 44590, -1, 0, 0, False) /* Create  (44590) for Shop */
-     , (38576, 4, 44608, -1, 0, 0, False) /* Create  (44608) for Shop */
-     , (38576, 4, 44607, -1, 0, 0, False) /* Create  (44607) for Shop */
-     , (38576, 4, 44599, -1, 0, 0, False) /* Create  (44599) for Shop */
-     , (38576, 4, 44598, -1, 0, 0, False) /* Create  (44598) for Shop */
-     , (38576, 4, 44611, -1, 0, 0, False) /* Create  (44611) for Shop */
-     , (38576, 4, 44593, -1, 0, 0, False) /* Create  (44593) for Shop */
-     , (38576, 4, 44602, -1, 0, 0, False) /* Create  (44602) for Shop */
+     , (38576, 4, 44889, -1, 0, 0, False) /* Create Radiant Blood Cloak (44889) for Shop */
+     , (38576, 4, 44446, -1, 0, 0, False) /* Create Radiant Blood Robe (44446) for Shop */
+     , (38576, 4, 44980, -1, 0, 0, False) /* Create Society Breastplate Restorer (44980) for Shop */
+     , (38576, 4, 44981, -1, 0, 0, False) /* Create Society Breastplate Cloth Remover (44981) for Shop */
+     , (38576, 4, 44468, -1, 0, 0, False) /* Create Radiant Blood Shield Cover (44468) for Shop */
+     , (38576, 4, 44590, -1, 0, 0, False) /* Create Radiant Blood Buckler Cover (44590) for Shop */
+     , (38576, 4, 44608, -1, 0, 0, False) /* Create Radiant Blood Round Shield Cover (44608) for Shop */
+     , (38576, 4, 44607, -1, 0, 0, False) /* Create Radiant Blood Large Round Shield Cover (44607) for Shop */
+     , (38576, 4, 44599, -1, 0, 0, False) /* Create Radiant Blood Kite Shield Cover (44599) for Shop */
+     , (38576, 4, 44598, -1, 0, 0, False) /* Create Radiant Blood Large Kite Shield Cover (44598) for Shop */
+     , (38576, 4, 44611, -1, 0, 0, False) /* Create Radiant Blood Tower Shield Cover (44611) for Shop */
+     , (38576, 4, 44593, -1, 0, 0, False) /* Create Radiant Blood Covenant Shield Cover (44593) for Shop */
+     , (38576, 4, 44602, -1, 0, 0, False) /* Create Radiant Blood Olthoi Shield Cover (44602) for Shop */
      , (38576, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

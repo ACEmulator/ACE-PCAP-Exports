@@ -83,7 +83,7 @@ VALUES (42806, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (42806, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42806, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (42806, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (42806, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (42806, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
      , (42806, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
      , (42806, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (42806, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
@@ -96,18 +96,18 @@ VALUES (42806, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (42806, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (42806, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (42806, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (42806, 4, 46746, -1, 0, 0, False) /* Create  (46746) for Shop */
-     , (42806, 4, 46747, -1, 0, 0, False) /* Create  (46747) for Shop */
-     , (42806, 4, 46748, -1, 0, 0, False) /* Create  (46748) for Shop */
-     , (42806, 4, 46749, -1, 0, 0, False) /* Create  (46749) for Shop */
-     , (42806, 4, 46750, -1, 0, 0, False) /* Create  (46750) for Shop */
-     , (42806, 4, 46751, -1, 0, 0, False) /* Create  (46751) for Shop */
-     , (42806, 4, 46752, -1, 0, 0, False) /* Create  (46752) for Shop */
-     , (42806, 4, 46753, -1, 0, 0, False) /* Create  (46753) for Shop */
-     , (42806, 4, 46754, -1, 0, 0, False) /* Create  (46754) for Shop */
-     , (42806, 4, 51337, -1, 0, 0, False) /* Create  (51337) for Shop */
-     , (42806, 4, 51438, -1, 0, 0, False) /* Create  (51438) for Shop */
-     , (42806, 4, 51437, -1, 0, 0, False) /* Create  (51437) for Shop */;
+     , (42806, 4, 46746, -1, 0, 0, False) /* Create Contract for Hoshino Fortress (46746) for Shop */
+     , (42806, 4, 46747, -1, 0, 0, False) /* Create Contract for Kill: Spectral Archers (46747) for Shop */
+     , (42806, 4, 46748, -1, 0, 0, False) /* Create Contract for Kill: Spectral Minions (46748) for Shop */
+     , (42806, 4, 46749, -1, 0, 0, False) /* Create Contract for Kill: Spectral Blades and Claws (46749) for Shop */
+     , (42806, 4, 46750, -1, 0, 0, False) /* Create Contract for Kill: Spectral Bushi (46750) for Shop */
+     , (42806, 4, 46751, -1, 0, 0, False) /* Create Contract for Kill: Spectral Samurai (46751) for Shop */
+     , (42806, 4, 46752, -1, 0, 0, False) /* Create Contract for Kill: Spectral Samurai Golems (46752) for Shop */
+     , (42806, 4, 46753, -1, 0, 0, False) /* Create Contract for Kill: Spectral Mages (46753) for Shop */
+     , (42806, 4, 46754, -1, 0, 0, False) /* Create Contract for Kill: Spectral Nanjou Shou-jen (46754) for Shop */
+     , (42806, 4, 51337, -1, 0, 0, False) /* Create Contract for Behind The Mask (51337) for Shop */
+     , (42806, 4, 51438, -1, 0, 0, False) /* Create Contract for Olthoi Hive Eviscerator Pincer (51438) for Shop */
+     , (42806, 4, 51437, -1, 0, 0, False) /* Create Contract for Olthoi Hive Warrior Pincer (51437) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42806, 67109564, 32, 8)

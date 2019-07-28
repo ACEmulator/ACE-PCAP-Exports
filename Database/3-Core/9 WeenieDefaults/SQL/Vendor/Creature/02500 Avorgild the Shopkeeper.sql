@@ -128,9 +128,9 @@ VALUES (2500, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2500, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (2500, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (2500, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (2500, 4,  5884, -1, 0, 0, False) /* Create  (5884) for Shop */
-     , (2500, 4,  5885, -1, 0, 0, False) /* Create  (5885) for Shop */
-     , (2500, 4,  5886, -1, 0, 0, False) /* Create  (5886) for Shop */;
+     , (2500, 4,  5884, -1, 0, 0, False) /* Create The Tremblant Party (5884) for Shop */
+     , (2500, 4,  5885, -1, 0, 0, False) /* Create The Tremblant Party (5885) for Shop */
+     , (2500, 4,  5886, -1, 0, 0, False) /* Create The Tremblant Party (5886) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2500, 67109560, 0, 24)

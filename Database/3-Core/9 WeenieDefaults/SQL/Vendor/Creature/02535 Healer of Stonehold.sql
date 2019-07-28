@@ -91,9 +91,9 @@ VALUES (2535, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (2535, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (2535, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
      , (2535, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit (632) for Shop */
-     , (2535, 4,  4587, -1, 0, 0, False) /* Create  (4587) for Shop */
-     , (2535, 4,  4596, -1, 0, 0, False) /* Create  (4596) for Shop */
-     , (2535, 4,  4593, -1, 0, 0, False) /* Create  (4593) for Shop */
+     , (2535, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
+     , (2535, 4,  4596, -1, 0, 0, False) /* Create Regeneration Other II (4596) for Shop */
+     , (2535, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
      , (2535, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2535, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

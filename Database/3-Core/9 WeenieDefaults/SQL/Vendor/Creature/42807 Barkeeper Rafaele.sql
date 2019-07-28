@@ -85,7 +85,7 @@ VALUES (42807, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */
      , (42807, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42807, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (42807, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (42807, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (42807, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
      , (42807, 4,   549, -1, 0, 0, False) /* Create Bowl of Stew (549) for Shop */
      , (42807, 4,  4741, -1, 0, 0, False) /* Create Pizza (4741) for Shop */
      , (42807, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
@@ -98,15 +98,15 @@ VALUES (42807, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */
      , (42807, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (42807, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (42807, 4,   263, -1, 0, 0, False) /* Create Fish (263) for Shop */
-     , (42807, 4, 45559, -1, 0, 0, False) /* Create  (45559) for Shop */
-     , (42807, 4, 45560, -1, 0, 0, False) /* Create  (45560) for Shop */
-     , (42807, 4, 45561, -1, 0, 0, False) /* Create  (45561) for Shop */
-     , (42807, 4, 45562, -1, 0, 0, False) /* Create  (45562) for Shop */
-     , (42807, 4, 45563, -1, 0, 0, False) /* Create  (45563) for Shop */
-     , (42807, 4, 51336, -1, 0, 0, False) /* Create  (51336) for Shop */
-     , (42807, 4, 48725, -1, 0, 0, False) /* Create  (48725) for Shop */
-     , (42807, 4, 48726, -1, 0, 0, False) /* Create  (48726) for Shop */
-     , (42807, 4, 48729, -1, 0, 0, False) /* Create  (48729) for Shop */;
+     , (42807, 4, 45559, -1, 0, 0, False) /* Create Contract for Aetherium Ore Collection (45559) for Shop */
+     , (42807, 4, 45560, -1, 0, 0, False) /* Create Contract for Aetherium Power Core Collection (45560) for Shop */
+     , (42807, 4, 45561, -1, 0, 0, False) /* Create Contract for Aetherium Raid (High) (45561) for Shop */
+     , (42807, 4, 45562, -1, 0, 0, False) /* Create Contract for Kill: Gear Knight Commander (45562) for Shop */
+     , (42807, 4, 45563, -1, 0, 0, False) /* Create Contract for Kill: Gear Knight Knights (45563) for Shop */
+     , (42807, 4, 51336, -1, 0, 0, False) /* Create Contract for Kill: Gear Knight Squires (51336) for Shop */
+     , (42807, 4, 48725, -1, 0, 0, False) /* Create Contract for Lunnum's Pyre (48725) for Shop */
+     , (42807, 4, 48726, -1, 0, 0, False) /* Create Contract for Lunnum's Disappearance (48726) for Shop */
+     , (42807, 4, 48729, -1, 0, 0, False) /* Create Contract for Lunnum's Return (48729) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42807, 67109964, 92, 4)

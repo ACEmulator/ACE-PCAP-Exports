@@ -85,7 +85,7 @@ VALUES (20215, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for
      , (20215, 4,  1588, -1, 0, 0, False) /* Create Aura of Blood Drinker Self (1588) for Shop */
      , (20215, 4, 46844, -1, 0, 0, False) /* Create Aura of Defender Other (46844) for Shop */
      , (20215, 4,  1880, -1, 0, 0, False) /* Create Aura of Defender Self (1880) for Shop */
-     , (20215, 4, 46845, -1, 0, 0, False) /* Create  (46845) for Shop */
+     , (20215, 4, 46845, -1, 0, 0, False) /* Create Aura of Heartseeker Other (46845) for Shop */
      , (20215, 4,  1885, -1, 0, 0, False) /* Create Aura of Heartseeker Self (1885) for Shop */
      , (20215, 4, 46848, -1, 0, 0, False) /* Create Aura of Hermetic Link Other (46848) for Shop */
      , (20215, 4,  1896, -1, 0, 0, False) /* Create Aura of Hermetic Link Self (1896) for Shop */
@@ -113,7 +113,7 @@ VALUES (20215, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for
      , (20215, 4,  1893, -1, 0, 0, False) /* Create Scroll of Piercing Lure (1893) for Shop */
      , (20215, 4, 28009, -1, 0, 0, False) /* Create Scroll of Spirit Loather (28009) for Shop */
      , (20215, 4,  1894, -1, 0, 0, False) /* Create Scroll of Strengthen Lock (1894) for Shop */
-     , (20215, 4,  1897, -1, 0, 0, False) /* Create  (1897) for Shop */
+     , (20215, 4,  1897, -1, 0, 0, False) /* Create Scroll of Turn Blade (1897) for Shop */
      , (20215, 4,  1898, -1, 0, 0, False) /* Create Scroll of Weaken Lock (1898) for Shop */
      , (20215, 4,  8914, -1, 0, 0, False) /* Create Scroll of Acid Streak (8914) for Shop */
      , (20215, 4,  1638, -1, 0, 0, False) /* Create Scroll of Acid Stream (1638) for Shop */

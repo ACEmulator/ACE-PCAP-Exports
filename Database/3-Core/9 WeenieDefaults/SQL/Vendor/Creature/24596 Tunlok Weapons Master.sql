@@ -97,7 +97,7 @@ VALUES (24596, 2, 23757,  1, 0, 0, False) /* Create Lugian Mace (23757) for Wiel
      , (24596, 4,   301, -1, 0, 0, False) /* Create Battle Axe (301) for Shop */
      , (24596, 4,   540, -1, 0, 0, False) /* Create Lugian Axe (540) for Shop */
      , (24596, 4,   543, -1, 0, 0, False) /* Create Lugian Mace (543) for Shop */
-     , (24596, 4,   541, -1, 0, 0, False) /* Create  (541) for Shop */
+     , (24596, 4,   541, -1, 0, 0, False) /* Create Lugian Club (541) for Shop */
      , (24596, 4,   544, -1, 0, 0, False) /* Create Lugian Morning Star (544) for Shop */
      , (24596, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
      , (24596, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */

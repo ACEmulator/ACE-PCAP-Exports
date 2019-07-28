@@ -83,13 +83,13 @@ VALUES (24217, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (24217, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (24217, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (24217, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (24217, 4,  4738, -1, 0, 0, False) /* Create  (4738) for Shop */
-     , (24217, 4,  4711, -1, 0, 0, False) /* Create  (4711) for Shop */
+     , (24217, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice (4738) for Shop */
+     , (24217, 4,  4711, -1, 0, 0, False) /* Create Beef Noodle (4711) for Shop */
      , (24217, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
-     , (24217, 4, 32781, -1, 0, 0, False) /* Create  (32781) for Shop */
+     , (24217, 4, 32781, -1, 0, 0, False) /* Create The Bandits of the Creepy Chambers (32781) for Shop */
      , (24217, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
-     , (24217, 4, 30743, -1, 0, 0, False) /* Create  (30743) for Shop */
-     , (24217, 4, 33181, -1, 0, 0, False) /* Create  (33181) for Shop */
+     , (24217, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */
+     , (24217, 4, 33181, -1, 0, 0, False) /* Create A Shadow Spire on the Caul (33181) for Shop */
      , (24217, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

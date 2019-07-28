@@ -84,7 +84,7 @@ VALUES (22720, 4, 22637, -1, 0, 0, False) /* Create Refreshing Umbrella Drink (2
      , (22720, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch (22857) for Shop */
      , (22720, 4,  2454, -1, 0, 0, False) /* Create Coffee (2454) for Shop */
      , (22720, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (22720, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
+     , (22720, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
      , (22720, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (22720, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (22720, 4, 45033, -1, 0, 0, False) /* Create Hoory Mattekar Over-robe Crate (45033) for Shop */;

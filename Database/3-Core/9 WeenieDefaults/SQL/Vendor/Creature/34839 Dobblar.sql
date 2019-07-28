@@ -166,9 +166,9 @@ VALUES (34839, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (34839, 4, 34588, -1, 0, 0, False) /* Create Repugnant Spellcasting Staff (34588) for Shop */
      , (34839, 4, 34590, -1, 0, 0, False) /* Create Bone Sword (34590) for Shop */
      , (34839, 4, 34576, -1, 0, 0, False) /* Create Decorative Stone Axe (34576) for Shop */
-     , (34839, 4, 34577, -1, 0, 0, False) /* Create  (34577) for Shop */
-     , (34839, 4, 34578, -1, 0, 0, False) /* Create  (34578) for Shop */
-     , (34839, 4, 34579, -1, 0, 0, False) /* Create  (34579) for Shop */
+     , (34839, 4, 34577, -1, 0, 0, False) /* Create Decorative Tree Trunk Club (34577) for Shop */
+     , (34839, 4, 34578, -1, 0, 0, False) /* Create Decorative Repugnant Staff (34578) for Shop */
+     , (34839, 4, 34579, -1, 0, 0, False) /* Create Decorative Bone Sword (34579) for Shop */
      , (34839, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (34839, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (34839, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

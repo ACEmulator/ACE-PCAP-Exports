@@ -78,16 +78,16 @@ VALUES (44187,   1,   181, 0, 0, 228) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44187, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
-     , (44187, 4, 44164, -1, 0, 0, False) /* Create  (44164) for Shop */
-     , (44187, 4, 44168, -1, 0, 0, False) /* Create  (44168) for Shop */
-     , (44187, 4, 44182, -1, 0, 0, False) /* Create  (44182) for Shop */
-     , (44187, 4, 44169, -1, 0, 0, False) /* Create  (44169) for Shop */
-     , (44187, 4, 44179, -1, 0, 0, False) /* Create  (44179) for Shop */
-     , (44187, 4, 44152, -1, 0, 0, False) /* Create  (44152) for Shop */
-     , (44187, 4, 44161, -1, 0, 0, False) /* Create  (44161) for Shop */
-     , (44187, 4, 44162, -1, 0, 0, False) /* Create  (44162) for Shop */
-     , (44187, 4, 44167, -1, 0, 0, False) /* Create  (44167) for Shop */
-     , (44187, 4, 44184, -1, 0, 0, False) /* Create  (44184) for Shop */
+     , (44187, 4, 44164, -1, 0, 0, False) /* Create Contract for Southern Shroud Cabal (44164) for Shop */
+     , (44187, 4, 44168, -1, 0, 0, False) /* Create Contract for Crafting Forges (Low) (44168) for Shop */
+     , (44187, 4, 44182, -1, 0, 0, False) /* Create Contract for Northern Shroud Cabal (44182) for Shop */
+     , (44187, 4, 44169, -1, 0, 0, False) /* Create Contract for Crafting Forges (Mid) (44169) for Shop */
+     , (44187, 4, 44179, -1, 0, 0, False) /* Create Contract for Ishaq's Lost Key (44179) for Shop */
+     , (44187, 4, 44152, -1, 0, 0, False) /* Create Contract for The Legend of the Tusker Paw (44152) for Shop */
+     , (44187, 4, 44161, -1, 0, 0, False) /* Create Contract for Infiltration (44161) for Shop */
+     , (44187, 4, 44162, -1, 0, 0, False) /* Create Contract for Sawato Extortion (44162) for Shop */
+     , (44187, 4, 44167, -1, 0, 0, False) /* Create Contract for Crafting Forges (High) (44167) for Shop */
+     , (44187, 4, 44184, -1, 0, 0, False) /* Create Contract for Raising Grael's Island (44184) for Shop */
      , (44187, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (44187, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (44187, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

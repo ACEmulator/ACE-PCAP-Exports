@@ -86,8 +86,8 @@ VALUES (8434, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (8434, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (8434, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (8434, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
-     , (8434, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
-     , (8434, 4, 27792, -1, 0, 0, False) /* Create  (27792) for Shop */;
+     , (8434, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (8434, 4, 27792, -1, 0, 0, False) /* Create The Moars (27792) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8434, 67109560, 0, 24)

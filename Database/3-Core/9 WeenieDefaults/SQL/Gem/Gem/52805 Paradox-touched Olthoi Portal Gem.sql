@@ -1,0 +1,47 @@
+DELETE FROM `weenie` WHERE `class_Id` = 52805;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52805, 'ace52805-paradoxtouchedolthoiportalgem', 38, '2019-02-10 00:00:00') /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (52805,   1,       2048) /* ItemType - Gem */
+     , (52805,   5,         10) /* EncumbranceVal */
+     , (52805,  11,         25) /* MaxStackSize */
+     , (52805,  12,          1) /* StackSize */
+     , (52805,  13,         10) /* StackUnitEncumbrance */
+     , (52805,  15,          1) /* StackUnitValue */
+     , (52805,  16,          8) /* ItemUseable - Contained */
+     , (52805,  18,          1) /* UiEffects - Magical */
+     , (52805,  19,          1) /* Value */
+     , (52805,  65,        101) /* Placement - Resting */
+     , (52805,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (52805,  94,         16) /* TargetType - Creature */
+     , (52805, 280,       1000) /* SharedCooldown */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (52805,   1, False) /* Stuck */
+     , (52805,  11, True ) /* IgnoreCollisions */
+     , (52805,  13, True ) /* Ethereal */
+     , (52805,  14, True ) /* GravityStatus */
+     , (52805,  15, True ) /* LightsStatus */
+     , (52805,  19, True ) /* Attackable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (52805, 167,      15) /* CooldownDuration */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (52805,   1, 'Paradox-touched Olthoi Portal Gem') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (52805,   1,   33557625) /* Setup */
+     , (52805,   3,  536870932) /* SoundTable */
+     , (52805,   8,  100693311) /* Icon */
+     , (52805,  22,  872415275) /* PhysicsEffectTable */
+     , (52805,  28,        157) /* Spell - SummonPortal1 */
+     , (52805, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
+     , (52805, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
+     , (52805, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
+     , (52805, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (52805, 8000,      52805) /* PCAPRecordedObjectIID */;

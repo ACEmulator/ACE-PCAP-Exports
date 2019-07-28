@@ -86,11 +86,11 @@ VALUES (648, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (648, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (648, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
      , (648, 4,  4725, -1, 0, 0, False) /* Create Fish Pie (4725) for Shop */
-     , (648, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
+     , (648, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
      , (648, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (648, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (648, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (648, 4, 33181, -1, 0, 0, False) /* Create  (33181) for Shop */;
+     , (648, 4, 33181, -1, 0, 0, False) /* Create A Shadow Spire on the Caul (33181) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (648, 67109558, 0, 24)

@@ -90,7 +90,7 @@ VALUES (30034, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
      , (30034, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
      , (30034, 4, 28614, -1, 0, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */
      , (30034, 4, 28615, -1, 0, 0, False) /* Create Vestiri Robe (28615) for Shop */
-     , (30034, 4, 28616, -1, 0, 0, False) /* Create  (28616) for Shop */
+     , (30034, 4, 28616, -1, 0, 0, False) /* Create Toga (28616) for Shop */
      , (30034, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
      , (30034, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30034, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */

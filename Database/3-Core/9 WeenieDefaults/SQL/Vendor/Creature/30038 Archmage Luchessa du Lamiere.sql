@@ -159,16 +159,16 @@ VALUES (30038, 2,  2366,  1, 0, 0, False) /* Create Orb (2366) for Wield */
      , (30038, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (30038, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
      , (30038, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
-     , (30038, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (30038, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (30038, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (30038, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (30038, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (30038, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
-     , (30038, 4, 31201, -1, 0, 0, False) /* Create  (31201) for Shop */
-     , (30038, 4, 31202, -1, 0, 0, False) /* Create  (31202) for Shop */
+     , (30038, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (30038, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (30038, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (30038, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (30038, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (30038, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
+     , (30038, 4, 31201, -1, 0, 0, False) /* Create Vestiri Creature Apprentice Robe (31201) for Shop */
+     , (30038, 4, 31202, -1, 0, 0, False) /* Create Vestiri Item Apprentice Robe (31202) for Shop */
      , (30038, 4, 31203, -1, 0, 0, False) /* Create Vestiri Life Apprentice Robe (31203) for Shop */
-     , (30038, 4, 31200, -1, 0, 0, False) /* Create  (31200) for Shop */
+     , (30038, 4, 31200, -1, 0, 0, False) /* Create Vestiri War Apprentice Robe (31200) for Shop */
      , (30038, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (30038, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
      , (30038, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */

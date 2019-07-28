@@ -82,10 +82,10 @@ VALUES (30032, 2,  2547,  1, 0, 0, False) /* Create Staff (2547) for Wield */
      , (30032, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (30032, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
      , (30032, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
-     , (30032, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (30032, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (30032, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
-     , (30032, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (30032, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (30032, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (30032, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
+     , (30032, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (30032, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30032, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30032, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

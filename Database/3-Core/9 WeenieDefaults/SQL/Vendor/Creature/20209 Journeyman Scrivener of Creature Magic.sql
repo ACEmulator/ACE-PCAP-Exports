@@ -120,7 +120,7 @@ VALUES (20209, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (20209, 4,  3239, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other III (3239) for Shop */
      , (20209, 4,  3244, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self III (3244) for Shop */
      , (20209, 4,  3249, -1, 0, 0, False) /* Create Scroll of Defenselessness III (3249) for Shop */
-     , (20209, 4, 45238, -1, 0, 0, False) /* Create  (45238) for Shop */
+     , (20209, 4, 45238, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other III (45238) for Shop */
      , (20209, 4, 45246, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Other III (45246) for Shop */
      , (20209, 4, 45254, -1, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self III (45254) for Shop */
      , (20209, 4, 45262, -1, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other III (45262) for Shop */
@@ -194,7 +194,7 @@ VALUES (20209, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (20209, 4,  3489, -1, 0, 0, False) /* Create Scroll of Sprint Other III (3489) for Shop */
      , (20209, 4,  3494, -1, 0, 0, False) /* Create Scroll of Sprint Self III (3494) for Shop */
      , (20209, 4, 49458, -1, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other III (49458) for Shop */
-     , (20209, 4, 49465, -1, 0, 0, False) /* Create  (49465) for Shop */
+     , (20209, 4, 49465, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Other III (49465) for Shop */
      , (20209, 4, 49472, -1, 0, 0, False) /* Create Scroll of Summoning Mastery Self III (49472) for Shop */
      , (20209, 4,  3559, -1, 0, 0, False) /* Create Scroll of Vulnerability III (3559) for Shop */
      , (20209, 4,  3564, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude III (3564) for Shop */

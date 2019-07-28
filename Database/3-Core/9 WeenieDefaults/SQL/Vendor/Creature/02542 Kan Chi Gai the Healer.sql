@@ -92,11 +92,11 @@ VALUES (2542, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (2542, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */
      , (2542, 4,   632, -1, 0, 0, False) /* Create Peerless Healing Kit (632) for Shop */
      , (2542, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
-     , (2542, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
-     , (2542, 4,  4602, -1, 0, 0, False) /* Create  (4602) for Shop */
-     , (2542, 4,  4589, -1, 0, 0, False) /* Create  (4589) for Shop */
-     , (2542, 4,  4599, -1, 0, 0, False) /* Create  (4599) for Shop */
-     , (2542, 4,  4595, -1, 0, 0, False) /* Create  (4595) for Shop */
+     , (2542, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
+     , (2542, 4,  4602, -1, 0, 0, False) /* Create Endurance Other I (4602) for Shop */
+     , (2542, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
+     , (2542, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
+     , (2542, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
      , (2542, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2542, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (2542, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */;

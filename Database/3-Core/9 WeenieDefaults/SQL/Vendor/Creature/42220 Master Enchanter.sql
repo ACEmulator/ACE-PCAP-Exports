@@ -85,21 +85,21 @@ VALUES (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (42220, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (42220, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (42220, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (42220, 4,  4595, -1, 0, 0, False) /* Create  (4595) for Shop */
-     , (42220, 4, 30669, -1, 0, 0, False) /* Create  (30669) for Shop */
-     , (42220, 4, 30671, -1, 0, 0, False) /* Create  (30671) for Shop */
-     , (42220, 4, 30673, -1, 0, 0, False) /* Create  (30673) for Shop */
-     , (42220, 4, 30663, -1, 0, 0, False) /* Create  (30663) for Shop */
-     , (42220, 4, 30665, -1, 0, 0, False) /* Create  (30665) for Shop */
-     , (42220, 4, 30667, -1, 0, 0, False) /* Create  (30667) for Shop */
-     , (42220, 4, 42213, -1, 0, 0, False) /* Create  (42213) for Shop */
-     , (42220, 4, 42212, -1, 0, 0, False) /* Create  (42212) for Shop */
-     , (42220, 4, 42214, -1, 0, 0, False) /* Create  (42214) for Shop */
-     , (42220, 4, 42215, -1, 0, 0, False) /* Create  (42215) for Shop */
-     , (42220, 4, 42216, -1, 0, 0, False) /* Create  (42216) for Shop */
-     , (42220, 4, 42217, -1, 0, 0, False) /* Create  (42217) for Shop */
-     , (42220, 4, 42218, -1, 0, 0, False) /* Create  (42218) for Shop */
-     , (42220, 4, 42219, -1, 0, 0, False) /* Create  (42219) for Shop */
+     , (42220, 4,  4595, -1, 0, 0, False) /* Create Regeneration Other I (4595) for Shop */
+     , (42220, 4, 30669, -1, 0, 0, False) /* Create Coordination Other IV (30669) for Shop */
+     , (42220, 4, 30671, -1, 0, 0, False) /* Create Endurance Other IV (30671) for Shop */
+     , (42220, 4, 30673, -1, 0, 0, False) /* Create Focus Other IV (30673) for Shop */
+     , (42220, 4, 30663, -1, 0, 0, False) /* Create Quickness Other IV (30663) for Shop */
+     , (42220, 4, 30665, -1, 0, 0, False) /* Create Strength Other IV (30665) for Shop */
+     , (42220, 4, 30667, -1, 0, 0, False) /* Create Willpower Other IV (30667) for Shop */
+     , (42220, 4, 42213, -1, 0, 0, False) /* Create Armor Other IV (42213) for Shop */
+     , (42220, 4, 42212, -1, 0, 0, False) /* Create Acid Protection Other IV (42212) for Shop */
+     , (42220, 4, 42214, -1, 0, 0, False) /* Create Blade Protection Other IV (42214) for Shop */
+     , (42220, 4, 42215, -1, 0, 0, False) /* Create Bludgeoning Protection Other IV (42215) for Shop */
+     , (42220, 4, 42216, -1, 0, 0, False) /* Create Cold Protection Other IV (42216) for Shop */
+     , (42220, 4, 42217, -1, 0, 0, False) /* Create Fire Protection Other IV (42217) for Shop */
+     , (42220, 4, 42218, -1, 0, 0, False) /* Create Lightning Protection Other IV (42218) for Shop */
+     , (42220, 4, 42219, -1, 0, 0, False) /* Create Piercing Protection Other IV (42219) for Shop */
      , (42220, 4, 49421, -1, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for Shop */
      , (42220, 4, 49428, -1, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for Shop */
      , (42220, 4, 49213, -1, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for Shop */

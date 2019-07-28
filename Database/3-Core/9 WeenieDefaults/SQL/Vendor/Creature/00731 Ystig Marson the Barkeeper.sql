@@ -84,24 +84,24 @@ VALUES (731, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (731, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (731, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (731, 4,  4731, -1, 0, 0, False) /* Create Fried Mushroom (4731) for Shop */
-     , (731, 4,  4737, -1, 0, 0, False) /* Create  (4737) for Shop */
+     , (731, 4,  4737, -1, 0, 0, False) /* Create Mushroom Pie (4737) for Shop */
      , (731, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (731, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
      , (731, 4,  1490, -1, 0, 0, False) /* Create Glenden Dungeon Directions (1490) for Shop */
      , (731, 4,  1508, -1, 0, 0, False) /* Create Alphus Range Directions (1508) for Shop */
      , (731, 4,  2053, -1, 0, 0, False) /* Create Directions to Fort Witshire (2053) for Shop */
      , (731, 4,  4211, -1, 0, 0, False) /* Create Daiklos Legend (4211) for Shop */
-     , (731, 4,  2059, -1, 0, 0, False) /* Create  (2059) for Shop */
+     , (731, 4,  2059, -1, 0, 0, False) /* Create History of Fort Witshire (2059) for Shop */
      , (731, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (731, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
      , (731, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
-     , (731, 4,  5583, -1, 0, 0, False) /* Create  (5583) for Shop */
-     , (731, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (731, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (731, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (731, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (731, 4,  5583, -1, 0, 0, False) /* Create Aluvian Cookbook (5583) for Shop */
+     , (731, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (731, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (731, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (731, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (731, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (731, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */;
+     , (731, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (731, 67109560, 0, 24)

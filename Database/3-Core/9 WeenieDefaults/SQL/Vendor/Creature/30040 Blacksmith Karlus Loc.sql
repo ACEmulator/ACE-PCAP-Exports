@@ -130,7 +130,7 @@ VALUES (30040, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (30040, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30040, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30040, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30040, 4, 45683, -1, 0, 0, False) /* Create  (45683) for Shop */
+     , (30040, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (30040, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */
      , (30040, 4, 49485, -1, 0, 0, False) /* Create Encapsulated Spirit (49485) for Shop */
      , (30040, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */

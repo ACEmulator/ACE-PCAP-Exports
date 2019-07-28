@@ -78,28 +78,28 @@ VALUES (35730,   1,    80, 0, 0, 140) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35730, 4, 42646, -1, 0, 0, False) /* Create Aetheria Desiccant (42646) for Shop */
-     , (35730, 4, 36731, -1, 0, 0, False) /* Create  (36731) for Shop */
+     , (35730, 4, 36731, -1, 0, 0, False) /* Create Enchanted Iron Phial Pea (36731) for Shop */
      , (35730, 4, 36729, -1, 0, 0, False) /* Create Enchanted Copper Phial Pea (36729) for Shop */
      , (35730, 4, 36735, -1, 0, 0, False) /* Create Enchanted Silver Phial Pea (36735) for Shop */
-     , (35730, 4, 36730, -1, 0, 0, False) /* Create  (36730) for Shop */
-     , (35730, 4, 36734, -1, 0, 0, False) /* Create  (36734) for Shop */
-     , (35730, 4, 36732, -1, 0, 0, False) /* Create  (36732) for Shop */
-     , (35730, 4, 36733, -1, 0, 0, False) /* Create  (36733) for Shop */
+     , (35730, 4, 36730, -1, 0, 0, False) /* Create Enchanted Gold Phial Pea (36730) for Shop */
+     , (35730, 4, 36734, -1, 0, 0, False) /* Create Enchanted Pyreal Phial Pea (36734) for Shop */
+     , (35730, 4, 36732, -1, 0, 0, False) /* Create Enchanted Platinum Phial Pea (36732) for Shop */
+     , (35730, 4, 36733, -1, 0, 0, False) /* Create Empowered Platinum Phial Pea (36733) for Shop */
      , (35730, 4, 39329, -1, 0, 0, False) /* Create Enchanted Mana Phial Pea (39329) for Shop */
-     , (35730, 4, 35712, -1, 0, 0, False) /* Create  (35712) for Shop */
+     , (35730, 4, 35712, -1, 0, 0, False) /* Create Bundle of Enchanted Iron Phial (35712) for Shop */
      , (35730, 4, 35713, -1, 0, 0, False) /* Create Bundle of Enchanted Copper Phials (35713) for Shop */
      , (35730, 4, 35718, -1, 0, 0, False) /* Create Bundle of Enchanted Silver Phial (35718) for Shop */
-     , (35730, 4, 35714, -1, 0, 0, False) /* Create  (35714) for Shop */
-     , (35730, 4, 35717, -1, 0, 0, False) /* Create  (35717) for Shop */
-     , (35730, 4, 35715, -1, 0, 0, False) /* Create  (35715) for Shop */
+     , (35730, 4, 35714, -1, 0, 0, False) /* Create Bundle of Enchanted Gold Phial (35714) for Shop */
+     , (35730, 4, 35717, -1, 0, 0, False) /* Create Bundle of Enchanted Pyreal Phial (35717) for Shop */
+     , (35730, 4, 35715, -1, 0, 0, False) /* Create Bundle of Enchanted Platinum Phial (35715) for Shop */
      , (35730, 4, 35716, -1, 0, 0, False) /* Create Bundle of Empowered Platinum Phial (35716) for Shop */
      , (35730, 4, 39328, -1, 0, 0, False) /* Create Bundle of Enchanted Mana Phial (39328) for Shop */
-     , (35730, 4, 35725, -1, 0, 0, False) /* Create  (35725) for Shop */
-     , (35730, 4, 39330, -1, 0, 0, False) /* Create  (39330) for Shop */
+     , (35730, 4, 35725, -1, 0, 0, False) /* Create A Treatise on the Combat Uses of Alchemical Phials (35725) for Shop */
+     , (35730, 4, 39330, -1, 0, 0, False) /* Create Alchemical Phials and Mana Forges, Latest Discoveries (39330) for Shop */
      , (35730, 4, 36210, -1, 0, 0, False) /* Create Guide to Fighting the Harbinger (36210) for Shop */
-     , (35730, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (35730, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (35730, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (35730, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (35730, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (35730, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (35730, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (35730, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
@@ -186,26 +186,26 @@ VALUES (35730, 4, 42646, -1, 0, 0, False) /* Create Aetheria Desiccant (42646) f
      , (35730, 4,  8330, -1, 0, 0, False) /* Create Pyreal Pea (8330) for Shop */
      , (35730, 4,  8294, -1, 0, 0, False) /* Create Hyssop Pea (8294) for Shop */
      , (35730, 4,  8295, -1, 0, 0, False) /* Create Mandrake Pea (8295) for Shop */
-     , (35730, 4,  8298, -1, 0, 0, False) /* Create  (8298) for Shop */
+     , (35730, 4,  8298, -1, 0, 0, False) /* Create Saffron Pea (8298) for Shop */
      , (35730, 4,  8287, -1, 0, 0, False) /* Create Damiana Pea (8287) for Shop */
-     , (35730, 4,  8296, -1, 0, 0, False) /* Create  (8296) for Shop */
+     , (35730, 4,  8296, -1, 0, 0, False) /* Create Mugwort Pea (8296) for Shop */
      , (35730, 4,  8285, -1, 0, 0, False) /* Create Bistort Pea (8285) for Shop */
-     , (35730, 4,  8300, -1, 0, 0, False) /* Create  (8300) for Shop */
+     , (35730, 4,  8300, -1, 0, 0, False) /* Create Wormwood Pea (8300) for Shop */
      , (35730, 4,  8284, -1, 0, 0, False) /* Create Amaranth Pea (8284) for Shop */
      , (35730, 4,  8291, -1, 0, 0, False) /* Create Ginseng Pea (8291) for Shop */
      , (35730, 4,  8292, -1, 0, 0, False) /* Create Hawthorn Pea (8292) for Shop */
-     , (35730, 4,  8289, -1, 0, 0, False) /* Create  (8289) for Shop */
-     , (35730, 4,  8290, -1, 0, 0, False) /* Create  (8290) for Shop */
+     , (35730, 4,  8289, -1, 0, 0, False) /* Create Eyebright Pea (8289) for Shop */
+     , (35730, 4,  8290, -1, 0, 0, False) /* Create Frankincense Pea (8290) for Shop */
      , (35730, 4,  8288, -1, 0, 0, False) /* Create Dragonsblood Pea (8288) for Shop */
      , (35730, 4,  8293, -1, 0, 0, False) /* Create Henbane Pea (8293) for Shop */
      , (35730, 4,  8286, -1, 0, 0, False) /* Create Comfrey Pea (8286) for Shop */
      , (35730, 4,  8301, -1, 0, 0, False) /* Create Yarrow Pea (8301) for Shop */
-     , (35730, 4,  8299, -1, 0, 0, False) /* Create  (8299) for Shop */
-     , (35730, 4,  8297, -1, 0, 0, False) /* Create  (8297) for Shop */
+     , (35730, 4,  8299, -1, 0, 0, False) /* Create Vervain Pea (8299) for Shop */
+     , (35730, 4,  8297, -1, 0, 0, False) /* Create Myrrh Pea (8297) for Shop */
      , (35730, 4,  8314, -1, 0, 0, False) /* Create Powdered Agate Pea (8314) for Shop */
      , (35730, 4,  8315, -1, 0, 0, False) /* Create Powdered Amber Pea (8315) for Shop */
      , (35730, 4,  8316, -1, 0, 0, False) /* Create Powdered Azurite Pea (8316) for Shop */
-     , (35730, 4,  8317, -1, 0, 0, False) /* Create  (8317) for Shop */
+     , (35730, 4,  8317, -1, 0, 0, False) /* Create Powdered Bloodstone Pea (8317) for Shop */
      , (35730, 4,  8318, -1, 0, 0, False) /* Create Powdered Carnelian Pea (8318) for Shop */
      , (35730, 4,  8319, -1, 0, 0, False) /* Create Powdered Hematite Pea (8319) for Shop */
      , (35730, 4,  8320, -1, 0, 0, False) /* Create Powdered Lapis Lazuli Pea (8320) for Shop */
@@ -236,7 +236,7 @@ VALUES (35730, 4, 42646, -1, 0, 0, False) /* Create Aetheria Desiccant (42646) f
      , (35730, 4,  8333, -1, 0, 0, False) /* Create Ashwood Pea (8333) for Shop */
      , (35730, 4,  8338, -1, 0, 0, False) /* Create Elder Pea (8338) for Shop */
      , (35730, 4,  8343, -1, 0, 0, False) /* Create Rowan Pea (8343) for Shop */
-     , (35730, 4,  8344, -1, 0, 0, False) /* Create  (8344) for Shop */
+     , (35730, 4,  8344, -1, 0, 0, False) /* Create Willow Pea (8344) for Shop */
      , (35730, 4,  8336, -1, 0, 0, False) /* Create Cedar Pea (8336) for Shop */
      , (35730, 4,  8341, -1, 0, 0, False) /* Create Oak Pea (8341) for Shop */
      , (35730, 4,  8339, -1, 0, 0, False) /* Create Hazel Pea (8339) for Shop */

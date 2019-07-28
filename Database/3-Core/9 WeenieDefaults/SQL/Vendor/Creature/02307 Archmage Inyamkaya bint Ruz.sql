@@ -150,9 +150,9 @@ VALUES (2307, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2307, 4,  1644, -1, 0, 0, False) /* Create Brown Taper (1644) for Shop */
      , (2307, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
      , (2307, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
-     , (2307, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (2307, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (2307, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
+     , (2307, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (2307, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (2307, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (2307, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (2307, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (2307, 4,  4612, -1, 0, 0, False) /* Create Tiny Mana Charge (4612) for Shop */

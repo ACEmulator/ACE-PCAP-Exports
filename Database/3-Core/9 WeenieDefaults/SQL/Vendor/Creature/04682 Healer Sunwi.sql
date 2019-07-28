@@ -85,9 +85,9 @@ VALUES (4682, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (4682, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (4682, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (4682, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (4682, 4,  4608, -1, 0, 0, False) /* Create  (4608) for Shop */
-     , (4682, 4,  4597, -1, 0, 0, False) /* Create  (4597) for Shop */
-     , (4682, 4,  4450, -1, 0, 0, False) /* Create  (4450) for Shop */
+     , (4682, 4,  4608, -1, 0, 0, False) /* Create Focus Other I (4608) for Shop */
+     , (4682, 4,  4597, -1, 0, 0, False) /* Create Rejuvenation Other I (4597) for Shop */
+     , (4682, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
      , (4682, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4682, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 

@@ -97,7 +97,7 @@ VALUES (5835, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (5835, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (5835, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (5835, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (5835, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (5835, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (5835, 4,    56, -1, 0, 0, False) /* Create Leather Gauntlets (56) for Shop */
      , (5835, 4,    60, -1, 0, 0, False) /* Create Olthoi Celdon Girth (60) for Shop */
      , (5835, 4,    65, -1, 0, 0, False) /* Create Olthoi Greaves (65) for Shop */

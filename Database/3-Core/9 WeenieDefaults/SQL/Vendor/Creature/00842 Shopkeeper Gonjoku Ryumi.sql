@@ -101,7 +101,7 @@ VALUES (842, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (842, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (842, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (842, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (842, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (842, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (842, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (842, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (842, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */

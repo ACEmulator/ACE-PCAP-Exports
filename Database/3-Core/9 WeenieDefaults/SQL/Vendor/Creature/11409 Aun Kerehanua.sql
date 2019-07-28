@@ -81,7 +81,7 @@ VALUES (11409, 2, 12123,  1, 0, 0, False) /* Create Palenqual's Hoeroa (12123) f
      , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua (27370) for Shop */
      , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq (27369) for Shop */
      , (11409, 4, 27373, -1, 0, 0, False) /* Create Kalindan (27373) for Shop */
-     , (11409, 4, 27368, -1, 0, 0, False) /* Create  (27368) for Shop */
+     , (11409, 4, 27368, -1, 0, 0, False) /* Create Atlatl (27368) for Shop */
      , (11409, 4, 27371, -1, 0, 0, False) /* Create Buadren (27371) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

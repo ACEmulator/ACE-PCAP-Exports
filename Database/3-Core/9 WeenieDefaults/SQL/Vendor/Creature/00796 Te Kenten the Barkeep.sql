@@ -78,10 +78,10 @@ VALUES (796,   1,    60, 0, 0, 95) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (796, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
-     , (796, 4,  4726, -1, 0, 0, False) /* Create  (4726) for Shop */
+     , (796, 4,  4726, -1, 0, 0, False) /* Create Fish Stew (4726) for Shop */
      , (796, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
-     , (796, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
-     , (796, 4,  2466, -1, 0, 0, False) /* Create  (2466) for Shop */
+     , (796, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
+     , (796, 4,  2466, -1, 0, 0, False) /* Create Red Tea (2466) for Shop */
      , (796, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (796, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
      , (796, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
@@ -89,7 +89,7 @@ VALUES (796, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (796, 4,  1506, -1, 0, 0, False) /* Create Legend of the Undead Defender (1506) for Shop */
      , (796, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (796, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */
-     , (796, 4, 24223, -1, 0, 0, False) /* Create  (24223) for Shop */
+     , (796, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone (24223) for Shop */
      , (796, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

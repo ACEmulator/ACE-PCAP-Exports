@@ -69,9 +69,9 @@ VALUES (34915,   1,    75, 0, 0, 110) /* MaxHealth */
      , (34915,   5,    55, 0, 0, 105) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34915, 4, 34894, -1, 0, 0, False) /* Create  (34894) for Shop */
-     , (34915, 4, 34895, -1, 0, 0, False) /* Create  (34895) for Shop */
-     , (34915, 4, 34896, -1, 0, 0, False) /* Create  (34896) for Shop */
+VALUES (34915, 4, 34894, -1, 0, 0, False) /* Create Alchemy Sigil (34894) for Shop */
+     , (34915, 4, 34895, -1, 0, 0, False) /* Create Cooking Sigil (34895) for Shop */
+     , (34915, 4, 34896, -1, 0, 0, False) /* Create Fletching Sigil (34896) for Shop */
      , (34915, 4, 34897, -1, 0, 0, False) /* Create Lockpicking Sigil (34897) for Shop */
-     , (34915, 4, 34932, -1, 0, 0, False) /* Create  (34932) for Shop */
+     , (34915, 4, 34932, -1, 0, 0, False) /* Create Golem Construction Materials List (34932) for Shop */
      , (34915, 4, 34933, -1, 0, 0, False) /* Create Finding Imprinting Motes (34933) for Shop */;

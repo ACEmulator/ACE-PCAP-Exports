@@ -88,17 +88,17 @@ VALUES (6856, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (6856, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (6856, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (6856, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
-     , (6856, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
+     , (6856, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
      , (6856, 4, 32273, -1, 0, 0, False) /* Create The Zongo Papers (32273) for Shop */
      , (6856, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (6856, 4, 26641, -1, 0, 0, False) /* Create  (26641) for Shop */
-     , (6856, 4, 29235, -1, 0, 0, False) /* Create  (29235) for Shop */
+     , (6856, 4, 26641, -1, 0, 0, False) /* Create Singularity Bore (26641) for Shop */
+     , (6856, 4, 29235, -1, 0, 0, False) /* Create Feud of the Natural Philosophers (29235) for Shop */
      , (6856, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
-     , (6856, 4, 30761, -1, 0, 0, False) /* Create  (30761) for Shop */
-     , (6856, 4, 31311, -1, 0, 0, False) /* Create  (31311) for Shop */
+     , (6856, 4, 30761, -1, 0, 0, False) /* Create The Withered Atoll (30761) for Shop */
+     , (6856, 4, 31311, -1, 0, 0, False) /* Create Lost Pet (31311) for Shop */
      , (6856, 4, 31384, -1, 0, 0, False) /* Create Dark Dealings (31384) for Shop */
      , (6856, 4, 31982, -1, 0, 0, False) /* Create Branwyn's Tears (31982) for Shop */
-     , (6856, 4, 33181, -1, 0, 0, False) /* Create  (33181) for Shop */
+     , (6856, 4, 33181, -1, 0, 0, False) /* Create A Shadow Spire on the Caul (33181) for Shop */
      , (6856, 4, 34281, -1, 0, 0, False) /* Create A Strange Swamp Temple (34281) for Shop */
      , (6856, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
 

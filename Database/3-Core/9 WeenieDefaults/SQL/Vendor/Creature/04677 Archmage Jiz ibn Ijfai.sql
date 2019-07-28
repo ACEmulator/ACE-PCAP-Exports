@@ -161,9 +161,9 @@ VALUES (4677, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (4677, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4677, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4677, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (4677, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (4677, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (4677, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
+     , (4677, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (4677, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (4677, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (4677, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
      , (4677, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (4677, 4, 26639, -1, 0, 0, False) /* Create Xarabydun Portal Summoning Gem (26639) for Shop */

@@ -179,12 +179,12 @@ VALUES (28531, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (28531, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (28531, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (28531, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (28531, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (28531, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (28531, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (28531, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (28531, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (28531, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (28531, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (28531, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (28531, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (28531, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (28531, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (28531, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (28531, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
      , (28531, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (28531, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */

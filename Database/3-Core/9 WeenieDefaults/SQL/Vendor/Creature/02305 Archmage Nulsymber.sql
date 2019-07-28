@@ -156,13 +156,13 @@ VALUES (2305, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2305, 4,  4613, -1, 0, 0, False) /* Create Small Mana Charge (4613) for Shop */
      , (2305, 4,  4614, -1, 0, 0, False) /* Create Moderate Mana Charge (4614) for Shop */
      , (2305, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
-     , (2305, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (2305, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (2305, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
+     , (2305, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (2305, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (2305, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (2305, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (2305, 4,  6062, -1, 0, 0, False) /* Create Faran Creature Apprentice Robe (6062) for Shop */
      , (2305, 4,  6065, -1, 0, 0, False) /* Create Faran Item Apprentice Robe (6065) for Shop */
-     , (2305, 4,  6068, -1, 0, 0, False) /* Create  (6068) for Shop */
+     , (2305, 4,  6068, -1, 0, 0, False) /* Create Faran Life Apprentice Robe (6068) for Shop */
      , (2305, 4,  6071, -1, 0, 0, False) /* Create Faran War Apprentice Robe (6071) for Shop */
      , (2305, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (2305, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

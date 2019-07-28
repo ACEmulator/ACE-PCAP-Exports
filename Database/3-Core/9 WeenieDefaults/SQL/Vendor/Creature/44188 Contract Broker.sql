@@ -78,15 +78,15 @@ VALUES (44188,   1,   181, 0, 0, 228) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44188, 4, 44386, -1, 0, 0, False) /* Create Contract for Broker Contracts (44386) for Shop */
-     , (44188, 4, 44170, -1, 0, 0, False) /* Create  (44170) for Shop */
-     , (44188, 4, 44151, -1, 0, 0, False) /* Create  (44151) for Shop */
-     , (44188, 4, 44165, -1, 0, 0, False) /* Create  (44165) for Shop */
-     , (44188, 4, 44166, -1, 0, 0, False) /* Create  (44166) for Shop */
-     , (44188, 4, 44176, -1, 0, 0, False) /* Create  (44176) for Shop */
-     , (44188, 4, 44177, -1, 0, 0, False) /* Create  (44177) for Shop */
-     , (44188, 4, 44185, -1, 0, 0, False) /* Create  (44185) for Shop */
-     , (44188, 4, 44183, -1, 0, 0, False) /* Create  (44183) for Shop */
-     , (44188, 4, 44163, -1, 0, 0, False) /* Create  (44163) for Shop */
+     , (44188, 4, 44170, -1, 0, 0, False) /* Create Contract for Enrico's Betrayal (44170) for Shop */
+     , (44188, 4, 44151, -1, 0, 0, False) /* Create Contract for The Caliginous Bethel (44151) for Shop */
+     , (44188, 4, 44165, -1, 0, 0, False) /* Create Contract for Suzuhara Baijin's Delivery (44165) for Shop */
+     , (44188, 4, 44166, -1, 0, 0, False) /* Create Contract for Tentacles of T'thuun (44166) for Shop */
+     , (44188, 4, 44176, -1, 0, 0, False) /* Create Contract for Fiun Healing Machine (44176) for Shop */
+     , (44188, 4, 44177, -1, 0, 0, False) /* Create Contract for Haleatan Beach Camps (44177) for Shop */
+     , (44188, 4, 44185, -1, 0, 0, False) /* Create Contract for Ricardo's Blood Gem (44185) for Shop */
+     , (44188, 4, 44183, -1, 0, 0, False) /* Create Contract for Of Trust and Betrayal (44183) for Shop */
+     , (44188, 4, 44163, -1, 0, 0, False) /* Create Contract for The Shadows of Bitter Winter (44163) for Shop */
      , (44188, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (44188, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (44188, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

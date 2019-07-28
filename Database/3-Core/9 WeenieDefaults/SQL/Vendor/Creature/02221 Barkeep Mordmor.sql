@@ -80,17 +80,17 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (2221, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (2221, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (2221, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
-     , (2221, 4,  2455, -1, 0, 0, False) /* Create  (2455) for Shop */
+     , (2221, 4,  2455, -1, 0, 0, False) /* Create Grape Juice (2455) for Shop */
      , (2221, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
      , (2221, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (2221, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
      , (2221, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */
-     , (2221, 4,  5089, -1, 0, 0, False) /* Create  (5089) for Shop */
-     , (2221, 4,  5088, -1, 0, 0, False) /* Create  (5088) for Shop */
+     , (2221, 4,  5089, -1, 0, 0, False) /* Create Old Cheese (5089) for Shop */
+     , (2221, 4,  5088, -1, 0, 0, False) /* Create Stale Bread (5088) for Shop */
      , (2221, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (2221, 4,  2477, -1, 0, 0, False) /* Create  (2477) for Shop */
+     , (2221, 4,  2477, -1, 0, 0, False) /* Create Tumerok Fortress Rumor (2477) for Shop */
      , (2221, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
-     , (2221, 4, 26642, -1, 0, 0, False) /* Create  (26642) for Shop */
+     , (2221, 4, 26642, -1, 0, 0, False) /* Create Skeleton Raids (26642) for Shop */
      , (2221, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

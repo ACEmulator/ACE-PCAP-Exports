@@ -80,13 +80,13 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (11393, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (11393, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (11393, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (11393, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
-     , (11393, 4,  5584, -1, 0, 0, False) /* Create  (5584) for Shop */
-     , (11393, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (11393, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (11393, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (11393, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
+     , (11393, 4,  5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook (5584) for Shop */
+     , (11393, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (11393, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (11393, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (11393, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (11393, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (11393, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (11393, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (11393, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (11393, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */

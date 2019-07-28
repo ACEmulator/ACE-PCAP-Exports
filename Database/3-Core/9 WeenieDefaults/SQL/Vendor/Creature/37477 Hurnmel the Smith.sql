@@ -76,7 +76,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (37477, 4, 37465, -1, 0, 0, False) /* Create Axe Stamped Spectral Ingot (37465) for Shop */
      , (37477, 4, 37469, -1, 0, 0, False) /* Create Claw Stamped Spectral Ingot (37469) for Shop */
      , (37477, 4, 37471, -1, 0, 0, False) /* Create Dagger Stamped Spectral Ingot (37471) for Shop */
-     , (37477, 4, 37472, -1, 0, 0, False) /* Create  (37472) for Shop */
+     , (37477, 4, 37472, -1, 0, 0, False) /* Create Mace Stamped Spectral Ingot (37472) for Shop */
      , (37477, 4, 37474, -1, 0, 0, False) /* Create Staff Stamped Spectral Ingot (37474) for Shop */
      , (37477, 4, 37473, -1, 0, 0, False) /* Create Spear Stamped Spectral Ingot (37473) for Shop */
      , (37477, 4, 37475, -1, 0, 0, False) /* Create Sword Stamped Spectral Ingot (37475) for Shop */

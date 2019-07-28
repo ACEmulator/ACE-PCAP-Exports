@@ -78,11 +78,11 @@ VALUES (31863,   1,   131, 0, 0, 233) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31863, 4,  2463, -1, 0, 0, False) /* Create Milk (2463) for Shop */
-     , (31863, 4, 29129, -1, 0, 0, False) /* Create  (29129) for Shop */
+     , (31863, 4, 29129, -1, 0, 0, False) /* Create Ruined Hops (29129) for Shop */
      , (31863, 4, 29127, -1, 0, 0, False) /* Create Brown Hops (29127) for Shop */
-     , (31863, 4, 29160, -1, 0, 0, False) /* Create  (29160) for Shop */
-     , (31863, 4, 29159, -1, 0, 0, False) /* Create  (29159) for Shop */
-     , (31863, 4, 29126, -1, 0, 0, False) /* Create  (29126) for Shop */;
+     , (31863, 4, 29160, -1, 0, 0, False) /* Create Rancid Yeast (29160) for Shop */
+     , (31863, 4, 29159, -1, 0, 0, False) /* Create Liquid Yeast (29159) for Shop */
+     , (31863, 4, 29126, -1, 0, 0, False) /* Create Spoiled Barley (29126) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31863, 67109559, 0, 24)

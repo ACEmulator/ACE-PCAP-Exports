@@ -160,7 +160,7 @@ VALUES (24588, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (24588, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (24588, 4,  6062, -1, 0, 0, False) /* Create Faran Creature Apprentice Robe (6062) for Shop */
      , (24588, 4,  6065, -1, 0, 0, False) /* Create Faran Item Apprentice Robe (6065) for Shop */
-     , (24588, 4,  6068, -1, 0, 0, False) /* Create  (6068) for Shop */
+     , (24588, 4,  6068, -1, 0, 0, False) /* Create Faran Life Apprentice Robe (6068) for Shop */
      , (24588, 4,  6071, -1, 0, 0, False) /* Create Faran War Apprentice Robe (6071) for Shop */
      , (24588, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (24588, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */

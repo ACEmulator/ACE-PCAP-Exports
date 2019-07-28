@@ -115,7 +115,7 @@ VALUES (835, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (835, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (835, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (835, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (835, 4, 45683, -1, 0, 0, False) /* Create  (45683) for Shop */
+     , (835, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (835, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */
      , (835, 4, 31804, -1, 0, 0, False) /* Create Piercing Compound Bow (31804) for Shop */
      , (835, 4, 27217, -1, 0, 0, False) /* Create Chiran Helm (27217) for Shop */

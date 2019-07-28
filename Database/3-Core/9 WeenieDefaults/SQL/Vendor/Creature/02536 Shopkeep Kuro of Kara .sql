@@ -94,7 +94,7 @@ VALUES (2536, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2536, 4,   362, -1, 0, 0, False) /* Create Yari (362) for Shop */
      , (2536, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
      , (2536, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
-     , (2536, 4,   458, -1, 0, 0, False) /* Create  (458) for Shop */
+     , (2536, 4,   458, -1, 0, 0, False) /* Create Leather Cowl (458) for Shop */
      , (2536, 4,    39, -1, 0, 0, False) /* Create Leather Breastplate (39) for Shop */
      , (2536, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (2536, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
@@ -126,7 +126,7 @@ VALUES (2536, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2536, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (2536, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2536, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (2536, 4, 28242, -1, 0, 0, False) /* Create  (28242) for Shop */
+     , (2536, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */
      , (2536, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
      , (2536, 4, 21158, -1, 0, 0, False) /* Create Covenant Shield (21158) for Shop */
      , (2536, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */;

@@ -82,7 +82,7 @@ VALUES (1040, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (1040, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */
      , (1040, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1040, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (1040, 4, 30734, -1, 0, 0, False) /* Create  (30734) for Shop */
+     , (1040, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas (30734) for Shop */
      , (1040, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (1040, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (1040, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;

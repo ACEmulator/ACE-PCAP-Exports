@@ -78,14 +78,14 @@ VALUES (1034,   1,   100, 0, 0, 140) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1034, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
-     , (1034, 4,  5136, -1, 0, 0, False) /* Create  (5136) for Shop */
+     , (1034, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider (5136) for Shop */
      , (1034, 4,  2465, -1, 0, 0, False) /* Create Palm Wine (2465) for Shop */
-     , (1034, 4,  2459, -1, 0, 0, False) /* Create  (2459) for Shop */
+     , (1034, 4,  2459, -1, 0, 0, False) /* Create Kumiss (2459) for Shop */
      , (1034, 4,  2469, -1, 0, 0, False) /* Create Small Beer (2469) for Shop */
      , (1034, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (1034, 4,  4723, -1, 0, 0, False) /* Create  (4723) for Shop */
+     , (1034, 4,  4723, -1, 0, 0, False) /* Create Fish Kebab (4723) for Shop */
      , (1034, 4,  4730, -1, 0, 0, False) /* Create Fried Fish Filet (4730) for Shop */
-     , (1034, 4,  4726, -1, 0, 0, False) /* Create  (4726) for Shop */
+     , (1034, 4,  4726, -1, 0, 0, False) /* Create Fish Stew (4726) for Shop */
      , (1034, 4,  4740, -1, 0, 0, False) /* Create Pickled Fish (4740) for Shop */
      , (1034, 4, 44904, -1, 0, 0, False) /* Create Contract for Sea Temple Catacombs (44904) for Shop */
      , (1034, 4, 44898, -1, 0, 0, False) /* Create Contract for Under Cove Crypt (44898) for Shop */

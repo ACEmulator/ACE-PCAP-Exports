@@ -82,8 +82,8 @@ VALUES (2228, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (2228, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (2228, 4,  5090, -1, 0, 0, False) /* Create Bruised Apple (5090) for Shop */
      , (2228, 4,  5759, -1, 0, 0, False) /* Create Fruitcake (5759) for Shop */
-     , (2228, 4,  5089, -1, 0, 0, False) /* Create  (5089) for Shop */
-     , (2228, 4,  5088, -1, 0, 0, False) /* Create  (5088) for Shop */
+     , (2228, 4,  5089, -1, 0, 0, False) /* Create Old Cheese (5089) for Shop */
+     , (2228, 4,  5088, -1, 0, 0, False) /* Create Stale Bread (5088) for Shop */
      , (2228, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (2228, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
      , (2228, 4,  4767, -1, 0, 0, False) /* Create Skewer (4767) for Shop */;

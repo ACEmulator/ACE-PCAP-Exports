@@ -102,11 +102,11 @@ VALUES (20217, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for
      , (20217, 4,  1849, -1, 0, 0, False) /* Create Scroll of Cold Vulnerability Other (1849) for Shop */
      , (20217, 4,  1576, -1, 0, 0, False) /* Create Scroll of Fire Protection Other (1576) for Shop */
      , (20217, 4,  1577, -1, 0, 0, False) /* Create Scroll of Fire Protection Self (1577) for Shop */
-     , (20217, 4,  1578, -1, 0, 0, False) /* Create  (1578) for Shop */
+     , (20217, 4,  1578, -1, 0, 0, False) /* Create Scroll of Fire Vulnerability Other (1578) for Shop */
      , (20217, 4,  1850, -1, 0, 0, False) /* Create Scroll of Lightning Protection Other (1850) for Shop */
      , (20217, 4,  1851, -1, 0, 0, False) /* Create Scroll of Lightning Protection Self (1851) for Shop */
      , (20217, 4,  1852, -1, 0, 0, False) /* Create Scroll of Lightning Vulnerability Other (1852) for Shop */
-     , (20217, 4,  1853, -1, 0, 0, False) /* Create  (1853) for Shop */
+     , (20217, 4,  1853, -1, 0, 0, False) /* Create Scroll of Piercing Protection Other (1853) for Shop */
      , (20217, 4,  1854, -1, 0, 0, False) /* Create Scroll of Piercing Protection Self (1854) for Shop */
      , (20217, 4,  1855, -1, 0, 0, False) /* Create Scroll of Piercing Vulnerability Other (1855) for Shop */
      , (20217, 4,  1856, -1, 0, 0, False) /* Create Scroll of Exhaustion Other (1856) for Shop */
@@ -122,7 +122,7 @@ VALUES (20217, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for
      , (20217, 4,  9660, -1, 0, 0, False) /* Create Scroll of Drain Mana (9660) for Shop */
      , (20217, 4,  1860, -1, 0, 0, False) /* Create Scroll of Drain Stamina (1860) for Shop */
      , (20217, 4,  1862, -1, 0, 0, False) /* Create Scroll of Health to Mana Self (1862) for Shop */
-     , (20217, 4,  1864, -1, 0, 0, False) /* Create  (1864) for Shop */
+     , (20217, 4,  1864, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self (1864) for Shop */
      , (20217, 4,  1865, -1, 0, 0, False) /* Create Scroll of Infuse Health (1865) for Shop */
      , (20217, 4,  1586, -1, 0, 0, False) /* Create Scroll of Infuse Mana (1586) for Shop */
      , (20217, 4,  1866, -1, 0, 0, False) /* Create Scroll of Infuse Stamina (1866) for Shop */

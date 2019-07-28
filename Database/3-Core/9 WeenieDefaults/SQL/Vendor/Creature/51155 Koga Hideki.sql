@@ -80,15 +80,15 @@ VALUES (51155,   1,   150, 0, 0, 250) /* MaxHealth */
      , (51155,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (51155, 4, 49782, -1, 0, 0, False) /* Create  (49782) for Shop */
-     , (51155, 4, 49783, -1, 0, 0, False) /* Create  (49783) for Shop */
+VALUES (51155, 4, 49782, -1, 0, 0, False) /* Create Shadow Bracers (49782) for Shop */
+     , (51155, 4, 49783, -1, 0, 0, False) /* Create Shadow Breastplate (49783) for Shop */
      , (51155, 4, 49784, -1, 0, 0, False) /* Create Shadow Gauntlets (49784) for Shop */
-     , (51155, 4, 49785, -1, 0, 0, False) /* Create  (49785) for Shop */
+     , (51155, 4, 49785, -1, 0, 0, False) /* Create Shadow Girth (49785) for Shop */
      , (51155, 4, 49786, -1, 0, 0, False) /* Create Shadow Greaves (49786) for Shop */
-     , (51155, 4, 49787, -1, 0, 0, False) /* Create  (49787) for Shop */
-     , (51155, 4, 49788, -1, 0, 0, False) /* Create  (49788) for Shop */
+     , (51155, 4, 49787, -1, 0, 0, False) /* Create Shadow Helm (49787) for Shop */
+     , (51155, 4, 49788, -1, 0, 0, False) /* Create Shadow Pauldrons (49788) for Shop */
      , (51155, 4, 49789, -1, 0, 0, False) /* Create Shadow Sollerets (49789) for Shop */
-     , (51155, 4, 49772, -1, 0, 0, False) /* Create  (49772) for Shop */;
+     , (51155, 4, 49772, -1, 0, 0, False) /* Create Shadow Tassets (49772) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51155, 67110053, 0, 24)

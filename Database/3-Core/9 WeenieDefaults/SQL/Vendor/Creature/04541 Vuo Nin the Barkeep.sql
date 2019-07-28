@@ -83,28 +83,28 @@ VALUES (4541, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (4541, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
      , (4541, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4541, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (4541, 4,  4738, -1, 0, 0, False) /* Create  (4738) for Shop */
-     , (4541, 4,  4711, -1, 0, 0, False) /* Create  (4711) for Shop */
+     , (4541, 4,  4738, -1, 0, 0, False) /* Create Mushroom Rice (4738) for Shop */
+     , (4541, 4,  4711, -1, 0, 0, False) /* Create Beef Noodle (4711) for Shop */
      , (4541, 4,  4733, -1, 0, 0, False) /* Create Kimchi (4733) for Shop */
      , (4541, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (4541, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (4541, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (4541, 4,  5601, -1, 0, 0, False) /* Create  (5601) for Shop */
+     , (4541, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
      , (4541, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (4541, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */
+     , (4541, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (4541, 4,  5657, -1, 0, 0, False) /* Create Directions to the Thieves' Galleries (5657) for Shop */
-     , (4541, 4, 28242, -1, 0, 0, False) /* Create  (28242) for Shop */
+     , (4541, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */
      , (4541, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
-     , (4541, 4, 24223, -1, 0, 0, False) /* Create  (24223) for Shop */
+     , (4541, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone (24223) for Shop */
      , (4541, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
-     , (4541, 4, 27991, -1, 0, 0, False) /* Create  (27991) for Shop */
-     , (4541, 4, 27992, -1, 0, 0, False) /* Create  (27992) for Shop */
-     , (4541, 4, 27993, -1, 0, 0, False) /* Create  (27993) for Shop */
-     , (4541, 4, 27994, -1, 0, 0, False) /* Create  (27994) for Shop */
-     , (4541, 4, 27995, -1, 0, 0, False) /* Create  (27995) for Shop */
-     , (4541, 4, 27996, -1, 0, 0, False) /* Create  (27996) for Shop */
-     , (4541, 4, 27997, -1, 0, 0, False) /* Create  (27997) for Shop */
-     , (4541, 4, 27998, -1, 0, 0, False) /* Create  (27998) for Shop */;
+     , (4541, 4, 27991, -1, 0, 0, False) /* Create Golem Burial Grounds (27991) for Shop */
+     , (4541, 4, 27992, -1, 0, 0, False) /* Create Rocky Crypt Directions (27992) for Shop */
+     , (4541, 4, 27993, -1, 0, 0, False) /* Create Small Ruin Directions (27993) for Shop */
+     , (4541, 4, 27994, -1, 0, 0, False) /* Create Empyrean Shrine (27994) for Shop */
+     , (4541, 4, 27995, -1, 0, 0, False) /* Create The Golem Spire (27995) for Shop */
+     , (4541, 4, 27996, -1, 0, 0, False) /* Create The Old Keep (27996) for Shop */
+     , (4541, 4, 27997, -1, 0, 0, False) /* Create The Abandoned Training Camp (27997) for Shop */
+     , (4541, 4, 27998, -1, 0, 0, False) /* Create The Dead Cave (27998) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4541, 67109565, 32, 8)

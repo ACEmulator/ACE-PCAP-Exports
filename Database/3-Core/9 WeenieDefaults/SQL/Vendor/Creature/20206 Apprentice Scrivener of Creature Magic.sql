@@ -112,7 +112,7 @@ VALUES (20206, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (20206, 4,  3168, -1, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self II (3168) for Shop */
      , (20206, 4,  5945, -1, 0, 0, False) /* Create Scroll of Cooking Ineptitude Other II (5945) for Shop */
      , (20206, 4,  5951, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Other II (5951) for Shop */
-     , (20206, 4,  5957, -1, 0, 0, False) /* Create  (5957) for Shop */
+     , (20206, 4,  5957, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Self II (5957) for Shop */
      , (20206, 4,  3188, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude II (3188) for Shop */
      , (20206, 4,  3193, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other II (3193) for Shop */
      , (20206, 4,  3198, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self II (3198) for Shop */
@@ -145,7 +145,7 @@ VALUES (20206, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (20206, 4,  3288, -1, 0, 0, False) /* Create Scroll of Impregnability Self II (3288) for Shop */
      , (20206, 4,  3293, -1, 0, 0, False) /* Create Scroll of Invulnerability Other II (3293) for Shop */
      , (20206, 4,  3298, -1, 0, 0, False) /* Create Scroll of Invulnerability Self II (3298) for Shop */
-     , (20206, 4,  3303, -1, 0, 0, False) /* Create  (3303) for Shop */
+     , (20206, 4,  3303, -1, 0, 0, False) /* Create Scroll of Item Enchantment Ineptitude II (3303) for Shop */
      , (20206, 4,  3308, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other II (3308) for Shop */
      , (20206, 4,  3313, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Self II (3313) for Shop */
      , (20206, 4,  3318, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other II (3318) for Shop */

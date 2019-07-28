@@ -167,12 +167,12 @@ VALUES (5834, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (5834, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (5834, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (5834, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (5834, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (5834, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (5834, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (5834, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (5834, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (5834, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (5834, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (5834, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (5834, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (5834, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (5834, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (5834, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (5834, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (5834, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (5834, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */

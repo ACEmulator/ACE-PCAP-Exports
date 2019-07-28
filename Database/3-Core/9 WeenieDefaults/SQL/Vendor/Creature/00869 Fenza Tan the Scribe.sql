@@ -80,25 +80,25 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (869, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (869, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (869, 4,   367, -1, 0, 0, False) /* Create Tome (367) for Shop */
-     , (869, 4,  5856, -1, 0, 0, False) /* Create  (5856) for Shop */
+     , (869, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) for Shop */
      , (869, 4,  5585, -1, 0, 0, False) /* Create Sho Cookbook (5585) for Shop */
-     , (869, 4,  7884, -1, 0, 0, False) /* Create  (7884) for Shop */
-     , (869, 4, 14797, -1, 0, 0, False) /* Create  (14797) for Shop */
-     , (869, 4,  5586, -1, 0, 0, False) /* Create  (5586) for Shop */
+     , (869, 4,  7884, -1, 0, 0, False) /* Create Chocolate Cookbook (7884) for Shop */
+     , (869, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook (14797) for Shop */
+     , (869, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (869, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
-     , (869, 4,  5587, -1, 0, 0, False) /* Create  (5587) for Shop */
+     , (869, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (869, 4,  8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy (8135) for Shop */
      , (869, 4,  6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems (6630) for Shop */
-     , (869, 4,  7936, -1, 0, 0, False) /* Create  (7936) for Shop */
-     , (869, 4,  6417, -1, 0, 0, False) /* Create  (6417) for Shop */
-     , (869, 4,  5881, -1, 0, 0, False) /* Create  (5881) for Shop */
-     , (869, 4,  5601, -1, 0, 0, False) /* Create  (5601) for Shop */
-     , (869, 4,  5675, -1, 0, 0, False) /* Create  (5675) for Shop */
+     , (869, 4,  7936, -1, 0, 0, False) /* Create Aliester's Corollary (7936) for Shop */
+     , (869, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
+     , (869, 4,  5881, -1, 0, 0, False) /* Create The Book of Minesh (5881) for Shop */
+     , (869, 4,  5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor (5601) for Shop */
+     , (869, 4,  5675, -1, 0, 0, False) /* Create Mount Lethe Rumor (5675) for Shop */
      , (869, 4,  5147, -1, 0, 0, False) /* Create Return to Frore (5147) for Shop */
-     , (869, 4,  6421, -1, 0, 0, False) /* Create  (6421) for Shop */
-     , (869, 4,  8397, -1, 0, 0, False) /* Create  (8397) for Shop */
+     , (869, 4,  6421, -1, 0, 0, False) /* Create The Lost City of Frore (6421) for Shop */
+     , (869, 4,  8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core (8397) for Shop */
      , (869, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
-     , (869, 4,  6419, -1, 0, 0, False) /* Create  (6419) for Shop */;
+     , (869, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (869, 67109967, 92, 4)

@@ -84,13 +84,13 @@ VALUES (4436, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (4436, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (4436, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (4436, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (4436, 4,  4737, -1, 0, 0, False) /* Create  (4737) for Shop */
-     , (4436, 4,  4713, -1, 0, 0, False) /* Create  (4713) for Shop */
+     , (4436, 4,  4737, -1, 0, 0, False) /* Create Mushroom Pie (4737) for Shop */
+     , (4436, 4,  4713, -1, 0, 0, False) /* Create Beef Stew (4713) for Shop */
      , (4436, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (4436, 4,  5001, -1, 0, 0, False) /* Create  (5001) for Shop */
-     , (4436, 4,  5007, -1, 0, 0, False) /* Create  (5007) for Shop */
-     , (4436, 4, 25996, -1, 0, 0, False) /* Create  (25996) for Shop */
-     , (4436, 4, 25700, -1, 0, 0, False) /* Create  (25700) for Shop */
+     , (4436, 4,  5001, -1, 0, 0, False) /* Create Lytelthorpe Portal Directions (5001) for Shop */
+     , (4436, 4,  5007, -1, 0, 0, False) /* Create Lost Distillery Directions (5007) for Shop */
+     , (4436, 4, 25996, -1, 0, 0, False) /* Create Farmer Larry's Problem (25996) for Shop */
+     , (4436, 4, 25700, -1, 0, 0, False) /* Create Olthoi Tunnels Rumor (25700) for Shop */
      , (4436, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

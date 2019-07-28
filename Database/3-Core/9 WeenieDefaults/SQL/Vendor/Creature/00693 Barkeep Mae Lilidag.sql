@@ -85,11 +85,11 @@ VALUES (693, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (693, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (693, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (693, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
-     , (693, 4,  4734, -1, 0, 0, False) /* Create  (4734) for Shop */
-     , (693, 4,  6420, -1, 0, 0, False) /* Create  (6420) for Shop */
+     , (693, 4,  4734, -1, 0, 0, False) /* Create Meat Pie (4734) for Shop */
+     , (693, 4,  6420, -1, 0, 0, False) /* Create The Obsidian Span (6420) for Shop */
      , (693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
-     , (693, 4, 24034, -1, 0, 0, False) /* Create  (24034) for Shop */
-     , (693, 4,  6416, -1, 0, 0, False) /* Create  (6416) for Shop */
+     , (693, 4, 24034, -1, 0, 0, False) /* Create The Lost Wish Lovers (24034) for Shop */
+     , (693, 4,  6416, -1, 0, 0, False) /* Create A Shivering Stone (6416) for Shop */
      , (693, 4, 31982, -1, 0, 0, False) /* Create Branwyn's Tears (31982) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

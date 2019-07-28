@@ -87,9 +87,9 @@ VALUES (2291, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (2291, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop */
      , (2291, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (2291, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (2291, 4,  6417, -1, 0, 0, False) /* Create  (6417) for Shop */
+     , (2291, 4,  6417, -1, 0, 0, False) /* Create A Stinging Stone (6417) for Shop */
      , (2291, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
-     , (2291, 4, 26667, -1, 0, 0, False) /* Create  (26667) for Shop */
+     , (2291, 4, 26667, -1, 0, 0, False) /* Create The Blackmire Temple (26667) for Shop */
      , (2291, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

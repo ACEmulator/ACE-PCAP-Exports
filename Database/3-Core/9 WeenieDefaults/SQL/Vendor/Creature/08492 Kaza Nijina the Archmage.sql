@@ -166,12 +166,12 @@ VALUES (8492, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (8492, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
      , (8492, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
      , (8492, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
-     , (8492, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (8492, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (8492, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (8492, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (8492, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (8492, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (8492, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (8492, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (8492, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (8492, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (8492, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (8492, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (8492, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
      , (8492, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
      , (8492, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */

@@ -80,7 +80,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (667, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
      , (667, 4,  2604, -1, 0, 0, False) /* Create Wide Breeches (2604) for Shop */
      , (667, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (667, 4,  2606, -1, 0, 0, False) /* Create  (2606) for Shop */
+     , (667, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
      , (667, 4,  5851, -1, 0, 0, False) /* Create Faran Robe with Hood (5851) for Shop */
      , (667, 4,  5850, -1, 0, 0, False) /* Create Faran Robe (5850) for Shop */
      , (667, 4,  8371, -1, 0, 0, False) /* Create Kireth Gown with Band (8371) for Shop */;

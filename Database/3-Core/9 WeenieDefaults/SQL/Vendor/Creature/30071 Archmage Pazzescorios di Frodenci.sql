@@ -153,12 +153,12 @@ VALUES (30071, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (30071, 4,  1644, -1, 0, 0, False) /* Create Brown Taper (1644) for Shop */
      , (30071, 4,  1652, -1, 0, 0, False) /* Create White Taper (1652) for Shop */
      , (30071, 4,  1646, -1, 0, 0, False) /* Create Grey Taper (1646) for Shop */
-     , (30071, 4,  8180, -1, 0, 0, False) /* Create  (8180) for Shop */
-     , (30071, 4,  8181, -1, 0, 0, False) /* Create  (8181) for Shop */
-     , (30071, 4,  8182, -1, 0, 0, False) /* Create  (8182) for Shop */
-     , (30071, 4,  8183, -1, 0, 0, False) /* Create  (8183) for Shop */
-     , (30071, 4,  8184, -1, 0, 0, False) /* Create  (8184) for Shop */
-     , (30071, 4,  8185, -1, 0, 0, False) /* Create  (8185) for Shop */
+     , (30071, 4,  8180, -1, 0, 0, False) /* Create Evaporate All Magic Other (8180) for Shop */
+     , (30071, 4,  8181, -1, 0, 0, False) /* Create Extinguish All Magic Other (8181) for Shop */
+     , (30071, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
+     , (30071, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
+     , (30071, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
+     , (30071, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (30071, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone (27331) for Shop */
      , (30071, 4,  2434, -1, 0, 0, False) /* Create Lesser Mana Stone (2434) for Shop */
      , (30071, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
@@ -169,9 +169,9 @@ VALUES (30071, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (30071, 4,  4615, -1, 0, 0, False) /* Create High Mana Charge (4615) for Shop */
      , (30071, 4,  4616, -1, 0, 0, False) /* Create Great Mana Charge (4616) for Shop */
      , (30071, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
-     , (30071, 4, 31205, -1, 0, 0, False) /* Create  (31205) for Shop */
+     , (30071, 4, 31205, -1, 0, 0, False) /* Create Vestiri Creature Master Robe (31205) for Shop */
      , (30071, 4, 31206, -1, 0, 0, False) /* Create Vestiri Item Master Robe (31206) for Shop */
-     , (30071, 4, 31207, -1, 0, 0, False) /* Create  (31207) for Shop */
+     , (30071, 4, 31207, -1, 0, 0, False) /* Create Vestiri Life Master Robe (31207) for Shop */
      , (30071, 4, 31204, -1, 0, 0, False) /* Create Vestiri War Master Robe (31204) for Shop */
      , (30071, 4,  4747, -1, 0, 0, False) /* Create Alembic (4747) for Shop */
      , (30071, 4,  4751, -1, 0, 0, False) /* Create Mortar and Pestle (4751) for Shop */
